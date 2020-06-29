@@ -1,0 +1,15 @@
+{
+  "lang": "ru",
+  "fileExtensions": [
+    ".md"
+  ],
+  "ignoreUppercase": true,
+  "ignoreDigits": true,
+  "format": "markdown",
+  "report": [
+      "html"
+  ],
+  "dictionary": [
+  "Loginom"
+  ]
+}

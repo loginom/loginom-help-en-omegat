@@ -1,0 +1,57 @@
+{
+  "title": "Loginom Help",
+  "language" : "ru",
+  "plugins": [
+    "-sharing",
+    "-fontsettings",
+    "-theme-default",
+    "anchors@0.7.1",
+    "anchor-translit@0.0.2",
+    "partial-summary-ex",
+    "expand-active-chapter@1.0.0",
+    "link-targets@0.0.1",
+    "spoiler@~1.1.0",
+    "mathjax-commonhtml@0.0.6",
+    "image-captions@3.1.0",
+    "theme-loginom-website@~1.4.0",
+    "-highlight",
+    "prism-ext@3.1.3",
+    "kbd@~1.0.0",
+    "simpletabs-mod@2.0.0"
+  ],
+  "pluginsConfig": {
+    "theme-loginom-website" : {
+      "showLevel": false,
+      "resource_type": "User guide",
+      "embedded_mode": false,
+      "links_related":{
+        "Admin guide": {
+          "url": "https://help.loginom.ru/adminguide",
+          "num": "2"
+        },
+        "Wiki": {
+          "url": "https://wiki.loginom.ru",
+          "num": "4"
+        }
+      },
+      "banner": {
+		"path": "./images/banner-for-ce.png",
+		"url": "https://loginom.ru/downloads?utm_source=help&utm_medium=banner"
+	  }
+    },
+    "partial-summary-ex" : {
+      "depth": 1,
+      "caption": "<hr>Статьи в разделе:\n\n"
+    },
+    "link-targets": {
+      "targets": {
+        "attach": "_blank"
+      }
+    },
+    "image-captions": {
+      "caption": "Рисунок _PAGE_IMAGE_NUMBER_. _CAPTION_",
+      "align": "left"
+    }
+  },
+  "root": "./data"
+}
