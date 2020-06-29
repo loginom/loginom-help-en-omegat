@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="link.error">
+	<g>
+		<polygon style="&st2;" points="3,22 8,22 13,22 13,12 13,2 8,2 3,2 8,12 		"/>
+	</g>
+	<rect x="11" y="20" style="&st3;" width="2" height="2"/>
+	<rect x="8" y="20" style="&st3;" width="2" height="2"/>
+	<rect x="11" y="2" style="&st3;" width="2" height="2"/>
+	<rect x="8" y="2" style="&st3;" width="2" height="2"/>
+	<rect x="11" y="5" style="&st3;" width="2" height="2"/>
+	<rect x="11" y="8" style="&st3;" width="2" height="2"/>
+	<rect x="11" y="11" style="&st3;" width="2" height="2"/>
+	<rect x="11" y="14" style="&st3;" width="2" height="2"/>
+	<rect x="11" y="17" style="&st3;" width="2" height="2"/>
+	<polygon style="&st3;" points="4.171,4.342 6,4 6,2 3,2 	"/>
+	<path style="&st3;" d="M7.056,10.11l1.789-0.895L8.123,7.773L6.334,8.668L7.056,10.11z M5.613,7.226l1.789-0.895L6.681,4.889
+		L4.892,5.784L5.613,7.226z"/>
+	<polygon style="&st3;" points="9.565,13.342 10.236,12 9.565,10.658 7.776,11.553 8,12 7.776,12.447 	"/>
+	<path style="&st3;" d="M6.681,19.11l0.722-1.442l-1.789-0.895l-0.722,1.442L6.681,19.11z M8.123,16.226l0.722-1.442l-1.789-0.895
+		l-0.722,1.442L8.123,16.226z"/>
+	<polygon style="&st3;" points="3,22 6,22 6,20 4.171,19.658 	"/>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="clope.default" style="&st4;" d="M12,10h-1H9V7H6V4H2v3v1v2v1v3h3h1h2h1h2h1h3v-4H12z M8,8v2H6V8H8z M3,5h2v2H3V5z M3,8h2
+	v2H3V8z M5,13H3v-2h2V13z M8,13H6v-2h2V13z M11,13H9v-2h2V13z M14,13h-2v-2h2V13z"/>
+</svg>

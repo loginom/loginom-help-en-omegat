@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#BFBFBF;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#EDEDED;">
+	<!ENTITY st6 "fill:#FFEEDE;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="linregressreport.disabled">
+	<g>
+		<g>
+			<path style="&st1;" d="M17,10h-4.59l3,3l-3,3H17v1h-6v-1l2.991-2.999L13.99,13L11,10V9h6V10z M3,15V2H2v14h8v-1H3z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="5" y="8" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="5" y="6" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="9" y="4" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="7" y="12" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="13" y="6" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="7" y="6" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="7" y="4" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="11" y="2" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="9" y="10" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		<rect x="9" y="2" style="&st2;" width="1" height="1"/>
+	</g>
+	<g>
+		
+			<rect x="2.26" y="7.012" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.5325 8.9094)" style="&st1;" width="14.457" height="1"/>
+	</g>
+</g>
+</svg>

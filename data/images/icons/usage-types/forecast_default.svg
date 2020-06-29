@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#BFBFBF;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#D9D9D9;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="forecast.default">
+	<g>
+		<polygon style="&st3;" points="3,15 3,2 2,2 2,16 16,16 16,15 		"/>
+	</g>
+	
+		<rect x="11.993" y="6.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1.1421 11.2426)" style="&st4;" width="2.014" height="1"/>
+	<polygon style="&st3;" points="11.207,8.086 10.5,8.793 8.5,6.793 4.146,11.146 4.854,11.854 8.5,8.207 10.5,10.207 11.914,8.793 	
+		"/>
+	<polygon style="&st4;" points="16,7 16,4 13,4 	"/>
+</g>
+</svg>

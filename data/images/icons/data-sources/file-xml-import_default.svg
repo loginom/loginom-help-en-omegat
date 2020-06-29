@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="file-xml-import.default">
+	<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 	"/>
+	<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 	"/>
+	<path style="fill:#F7931E;" d="M10,7l-1.22,6H8l1.228-6H10z"/>
+	<polygon style="fill:#F7931E;" points="11,8 13,10 11,12 	"/>
+	<polygon style="fill:#F7931E;" points="7,12 5,10 7,8 	"/>
+	<rect x="13" y="13" style="fill:#373943;" width="4" height="4"/>
+	<polygon style="fill:#BDCCD4;" points="15,14 15,15 14,15 14,16 15,16 16,16 16,15 16,14 	"/>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="csv.default">
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+	<rect x="5" y="12" style="fill:#F7931E;" width="2" height="1"/>
+	<rect x="8" y="12" style="fill:#F7931E;" width="2" height="1"/>
+	<rect x="11" y="12" style="fill:#F7931E;" width="2" height="1"/>
+	<rect x="11" y="10" style="fill:#F7931E;" width="2" height="1"/>
+	<rect x="11" y="8" style="fill:#F7931E;" width="2" height="1"/>
+	<rect x="11" y="6" style="fill:#F7931E;" width="2" height="1"/>
+	<g>
+		<path style="fill:#71B1E4;" d="M5.097,6h1.186l1.253,1.76L8.803,6l1.115,0.023L8.08,8.437L10,11H8.829L7.475,9.123L6.161,11H5
+			l1.92-2.563L5.097,6z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="model.hover">
+	<g>
+		<polygon style="&st0;" points="1,14.399 13,24 13,0 1,9.601 		"/>
+	</g>
+	<polygon style="&st1;" points="13,3 13,0.001 10.595,1.924 11,3 	"/>
+	
+		<rect x="4.232" y="6.431" transform="matrix(0.7808 -0.6247 0.6247 0.7808 -3.4783 4.9475)" style="&st1;" width="2.161" height="2"/>
+	
+		<rect x="7.607" y="3.731" transform="matrix(0.7808 -0.6247 0.6247 0.7808 -1.0515 6.464)" style="&st1;" width="2.161" height="2"/>
+	<polygon style="&st1;" points="1,11.081 3,11.081 3,10.562 3.405,10.238 2.157,8.675 1,9.6 	"/>
+	<polygon style="&st1;" points="2.157,15.325 3.405,13.762 3,13.438 3,12.919 1,12.919 1,14.4 	"/>
+	
+		<rect x="7.687" y="18.189" transform="matrix(0.6249 -0.7807 0.7807 0.6249 -11.7851 14.0096)" style="&st1;" width="2" height="2.161"/>
+	
+		<rect x="4.312" y="15.489" transform="matrix(0.6249 -0.7807 0.7807 0.6249 -10.9426 10.3619)" style="&st1;" width="2" height="2.161"/>
+	<rect x="11" y="5" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="9" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="13" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="17" style="&st1;" width="2" height="2"/>
+	<polygon style="&st1;" points="13,23.999 13,21 11,21 10.595,22.076 	"/>
+</g>
+</svg>

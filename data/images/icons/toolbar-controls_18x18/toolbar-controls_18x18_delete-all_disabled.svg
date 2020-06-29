@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="delete-all_disabled">
+	<polygon class="st1" points="9,14 6,11 12,11 	"/>
+	<rect x="7" y="8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 18 1.776357e-15)" class="st1" width="4" height="2"/>
+	<path class="st1" d="M14.539,4C14.794,4,15,4.207,15,4.461V6h-1v8c0,1.104-0.896,2-2,2H6c-1.104,0-2-0.896-2-2V6H3V4.461
+		C3,4.207,3.206,4,3.461,4H6V3c0-0.552,0.447-1,1-1h4c0.553,0,1,0.448,1,1v1H14.539z M13,14V6H5v8c0,0.553,0.447,1,1,1h6
+		C12.553,15,13,14.553,13,14z M11,3.406C11,3.182,10.818,3,10.594,3H7.406C7.182,3,7,3.182,7,3.406V4h4V3.406z"/>
+</g>
+</svg>

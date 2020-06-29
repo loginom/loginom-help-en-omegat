@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="rtf.default">
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+	<rect x="10" y="6" style="fill:#F7931E;" width="3" height="1"/>
+	<rect x="10" y="8" style="fill:#F7931E;" width="3" height="1"/>
+	<rect x="5" y="10" style="fill:#F7931E;" width="8" height="1"/>
+	<rect x="5" y="12" style="fill:#F7931E;" width="8" height="1"/>
+	<g>
+		<path style="fill:#71B1E4;" d="M6.507,4.777h0.998L9,9H8.043L7.764,8.132H6.21L5.923,9H5L6.507,4.777z M6.449,7.404h1.082
+			L6.997,5.743L6.449,7.404z"/>
+	</g>
+</g>
+</svg>

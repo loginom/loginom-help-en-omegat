@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="web-nbki.default">
+	<path style="fill:#71B1E4;" d="M14.708,7.731c0.095-0.369,0.162-0.749,0.162-1.147C14.871,4.052,12.818,2,10.287,2
+		C8.229,2,6.508,3.365,5.929,5.232C5.56,4.884,5.064,4.666,4.517,4.666c-1.139,0-2.062,0.923-2.062,2.062
+		c0,0.482,0.172,0.919,0.449,1.27C1.754,8.825,1,10.081,1,11.5C1,13.975,3.25,16,6,16h6c2.75,0,5-2.025,5-4.5
+		C17,9.923,16.083,8.535,14.708,7.731z"/>
+	
+		<rect x="1.799" y="9.27" transform="matrix(0.2231 -0.9748 0.9748 0.2231 -5.443 14.0224)" style="fill:#FFFFFF;" width="8.553" height="2.312"/>
+	
+		<rect x="4.728" y="9.321" transform="matrix(0.2218 -0.9751 0.9751 0.2218 -3.209 16.9332)" style="fill:#264DB6;" width="8.552" height="2.311"/>
+	
+		<rect x="7.646" y="9.416" transform="matrix(0.2228 -0.9749 0.9749 0.2228 -1.0398 19.8408)" style="fill:#CB1C19;" width="8.553" height="2.312"/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st2 "fill:#808080;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#D9D9D9;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:#F7931E;">
+	<!ENTITY st6 "fill:#D9D9D9;">
+	<!ENTITY st7 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="properties.disabled">
+	<path style="&st2;" d="M13.5,7.5c0.915,0,1.762,0.264,2.5,0.693V7H2v3h7.194C10.059,8.512,11.654,7.5,13.5,7.5z"/>
+	<path style="&st2;" d="M8.5,12.5c0-0.526,0.104-1.024,0.254-1.5H2v3h6.754C8.603,13.524,8.5,13.026,8.5,12.5z"/>
+	<rect x="2" y="3" style="&st2;" width="14" height="3"/>
+	<rect x="3" y="4" style="&st3;" width="1" height="1"/>
+	<rect x="3" y="8" style="&st3;" width="1" height="1"/>
+	<rect x="3" y="12" style="&st3;" width="1" height="1"/>
+	<path style="&st3;" d="M13.5,10.778c0.95,0,1.722,0.772,1.722,1.722s-0.772,1.722-1.722,1.722c-0.95,0-1.722-0.772-1.722-1.722
+		S12.549,10.778,13.5,10.778z M14.182,9.067c-0.451-0.09-0.915-0.09-1.366,0l-0.274,0.774c-0.083,0.03-0.166,0.064-0.246,0.102
+		L11.555,9.59c-0.382,0.255-0.71,0.583-0.966,0.966l0.353,0.741c-0.038,0.08-0.072,0.162-0.102,0.246l-0.774,0.274
+		c-0.09,0.451-0.09,0.915,0,1.366l0.774,0.274c0.03,0.083,0.064,0.166,0.102,0.246l-0.353,0.741c0.255,0.382,0.583,0.71,0.966,0.966
+		l0.741-0.354c0.08,0.038,0.162,0.072,0.246,0.102l0.274,0.774c0.451,0.09,0.915,0.09,1.366,0l0.274-0.774
+		c0.083-0.03,0.166-0.064,0.246-0.102l0.742,0.354c0.382-0.255,0.71-0.583,0.966-0.966l-0.354-0.741
+		c0.038-0.08,0.072-0.162,0.102-0.246l0.774-0.274c0.09-0.451,0.09-0.915,0-1.366l-0.774-0.274c-0.03-0.083-0.064-0.166-0.102-0.246
+		l0.354-0.741c-0.255-0.382-0.583-0.71-0.966-0.966l-0.742,0.354c-0.08-0.038-0.162-0.072-0.246-0.102L14.182,9.067z"/>
+</g>
+</svg>

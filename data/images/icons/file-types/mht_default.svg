@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="mht.default">
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+	<path style="fill:#F7931E;" d="M13,8V6h-2v1h-1V6H8v1H7V6H5v2h1v1H5v2h1v1H5v2h2v-1h1v1h2v-1h1v1h2v-2h-1v-1h1V9h-1V8H13z M11,9v2
+		v1h-1H8H7v-1V9V8h1h2h1V9z"/>
+</g>
+</svg>

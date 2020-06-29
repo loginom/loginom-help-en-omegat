@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="zoom-in.default">
+	<polygon style="&st2;" points="11,8 9,8 9,6 8,6 8,8 6,8 6,9 8,9 8,11 9,11 9,9 11,9 	"/>
+	<path style="&st2;" d="M16.096,14.904l-2.602-2.603c0.828-1.08,1.325-2.426,1.325-3.892C14.818,4.87,11.949,2,8.409,2
+		C4.869,2,2,4.87,2,8.409c0,3.54,2.869,6.409,6.409,6.409c1.466,0,2.812-0.498,3.892-1.325l2.603,2.603
+		c0.164,0.164,0.38,0.247,0.596,0.247s0.432-0.083,0.596-0.247C16.426,15.767,16.426,15.234,16.096,14.904z M8.409,13.149
+		c-2.618,0-4.739-2.123-4.739-4.74c0-2.618,2.121-4.739,4.739-4.739c2.617,0,4.739,2.122,4.739,4.739
+		C13.148,11.026,11.026,13.149,8.409,13.149z"/>
+</g>
+</svg>

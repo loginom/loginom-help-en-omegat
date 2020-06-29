@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="check-all.default">
+	<rect x="4" y="12" style="&st2;" width="2" height="2"/>
+	<rect x="4" y="4" style="&st2;" width="2" height="2"/>
+	<path style="&st2;" d="M7,11v4H3v-4H7 M8,10H2v6h6V10L8,10z"/>
+	<path style="&st2;" d="M7,3v4H3V3H7 M8,2H2v6h6V2L8,2z"/>
+	<rect x="9" y="11" style="&st2;" width="6" height="3"/>
+	<rect x="9" y="3" style="&st2;" width="6" height="3"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="show-total-nor.default">
+	<rect x="8" y="4" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -2 19)" style="&st2;" width="1" height="13"/>
+	<rect x="8.5" y="-1.5" transform="matrix(6.123234e-17 -1 1 6.123234e-17 3.5 14.5)" style="&st2;" width="1" height="14"/>
+	<rect x="10" y="3" style="&st2;" width="1" height="13"/>
+	<rect x="5" y="3" style="&st2;" width="1" height="12"/>
+	<rect x="15" y="3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 31 19)" style="&st2;" width="1" height="13"/>
+	<rect x="2" y="3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 5 19)" style="&st2;" width="1" height="13"/>
+	<rect x="8.5" y="8.5" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24.5 6.5)" style="&st2;" width="1" height="14"/>
+	<rect x="8.5" y="-4.5" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 11.5 -6.5)" style="&st2;" width="1" height="14"/>
+</g>
+</svg>

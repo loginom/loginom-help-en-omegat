@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="variable.hover">
+	<g>
+		<path style="&st0;" d="M2,24V0c6.627,0,12,5.373,12,12S8.627,24,2,24z"/>
+	</g>
+	<path style="&st1;" d="M6.323,0.806L5.601,2.671C6.174,2.893,6.729,3.17,7.253,3.495l1.055-1.7
+		C7.679,1.405,7.012,1.072,6.323,0.806z"/>
+	<path style="&st1;" d="M10.077,3.131L8.729,4.609c0.455,0.415,0.875,0.874,1.247,1.365l1.594-1.208
+		C11.125,4.179,10.622,3.628,10.077,3.131z"/>
+	<path style="&st1;" d="M12.74,6.65l-1.789,0.896c0.275,0.549,0.5,1.128,0.669,1.721l1.924-0.548
+		C13.341,8.006,13.07,7.31,12.74,6.65z"/>
+	<path style="&st1;" d="M13.95,10.9l-1.992,0.182C11.985,11.384,12,11.691,12,12c-0.001,0.312-0.015,0.624-0.044,0.932l1.992,0.185
+		c0.033-0.367,0.051-0.739,0.052-1.114C14,11.629,13.983,11.263,13.95,10.9z"/>
+	<path style="&st1;" d="M11.616,14.747c-0.17,0.592-0.396,1.171-0.671,1.72l1.787,0.896c0.331-0.66,0.603-1.355,0.806-2.066
+		L11.616,14.747z"/>
+	<path style="&st1;" d="M9.968,18.036c-0.371,0.489-0.791,0.948-1.248,1.364l1.346,1.479c0.548-0.499,1.052-1.049,1.496-1.635
+		L9.968,18.036z"/>
+	<path style="&st1;" d="M7.241,20.512c-0.521,0.324-1.078,0.601-1.653,0.822l0.721,1.866c0.691-0.267,1.359-0.6,1.987-0.988
+		L7.241,20.512z"/>
+	<g>
+		<rect x="2" y="19" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="15" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="11" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="7" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="3" style="&st1;" width="2" height="2"/>
+	</g>
+	<path style="&st1;" d="M4,23.824c-0.297,0.054-0.598,0.101-0.91,0.126C2.73,23.98,2.37,24,2,24v-2h2V23.824z"/>
+	<path style="&st1;" d="M4,0.176C3.703,0.123,3.402,0.075,3.09,0.05C2.73,0.02,2.37,0,2,0v2h2V0.176z"/>
+</g>
+</svg>

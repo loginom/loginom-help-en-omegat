@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="variable.warning">
+	<g>
+		<path style="&st4;" d="M3,12c0,4.83,3.44,8.87,8,9.8c0.64,0.13,1.31,0.2,2,0.2V2c-0.68,0-1.35,0.07-1.99,0.2
+			C6.44,3.12,3,7.16,3,12z"/>
+	</g>
+	<path style="&st5;" d="M8.801,21.075l0.844-1.813c-0.5-0.233-0.979-0.519-1.422-0.849l-1.195,1.603
+		C7.579,20.428,8.176,20.784,8.801,21.075z M5.505,18.616l1.5-1.323c-0.367-0.416-0.69-0.869-0.963-1.347l-1.738,0.989
+		C4.644,17.532,5.048,18.098,5.505,18.616z M3.474,15.042l1.904-0.611c-0.168-0.524-0.281-1.068-0.337-1.617l-1.99,0.201
+		C3.12,13.703,3.263,14.385,3.474,15.042z M5.043,11.16c0.059-0.549,0.174-1.094,0.343-1.618L3.483,8.927
+		c-0.212,0.655-0.356,1.336-0.429,2.023L5.043,11.16z M6.056,8.031c0.274-0.478,0.601-0.93,0.968-1.342l-1.494-1.33
+		C5.071,5.874,4.664,6.438,4.321,7.035L6.056,8.031z M8.245,5.571c0.444-0.33,0.923-0.613,1.423-0.844L8.832,2.911
+		C8.207,3.198,7.608,3.553,7.054,3.964L8.245,5.571z"/>
+	<rect x="11" y="5" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24 12)" style="&st5;" width="2" height="2"/>
+	<path style="&st5;" d="M11,2.27V4h2V2c-0.68,0-1.35,0.07-1.99,0.2C11,2.22,11,2.24,11,2.27z"/>
+	<path style="&st5;" d="M11,20v1.8c0.64,0.13,1.31,0.2,2,0.2v-2H11z"/>
+	<rect x="11" y="8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24 18)" style="&st5;" width="2" height="2"/>
+	<rect x="11" y="11" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24 24)" style="&st5;" width="2" height="2"/>
+	<rect x="11" y="14" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24 30)" style="&st5;" width="2" height="2"/>
+	<rect x="11" y="17" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 24 36)" style="&st5;" width="2" height="2"/>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="table.hover">
+	<g>
+		<rect x="1" style="&st0;" width="12" height="24"/>
+	</g>
+	<rect x="1" style="&st1;" width="2" height="2"/>
+	<rect x="1" y="3" style="&st1;" width="2" height="2"/>
+	<rect x="1" y="7" style="&st1;" width="2" height="2"/>
+	<rect x="1" y="11" style="&st1;" width="2" height="2"/>
+	<rect x="1" y="15" style="&st1;" width="2" height="2"/>
+	<rect x="1" y="19" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="3" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="7" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="11" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="15" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="19" style="&st1;" width="2" height="2"/>
+	<rect x="4" style="&st1;" width="2" height="2"/>
+	<rect x="8" style="&st1;" width="2" height="2"/>
+	<rect x="4" y="22" style="&st1;" width="2" height="2"/>
+	<rect x="8" y="22" style="&st1;" width="2" height="2"/>
+	<rect x="11" style="&st1;" width="2" height="2"/>
+	<rect x="1" y="22" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="22" style="&st1;" width="2" height="2"/>
+</g>
+</svg>

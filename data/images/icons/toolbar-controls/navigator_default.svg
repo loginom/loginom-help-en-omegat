@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="navigator.default">
+	<rect x="12" y="10" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 25 21)" style="&st2;" width="1" height="1"/>
+	<rect x="5" y="2" style="&st2;" width="1" height="1"/>
+	<rect x="3" y="2" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="2" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="4" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="8" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="6" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="10" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="12" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="14" style="&st2;" width="1" height="1"/>
+	<rect x="3" y="16" style="&st2;" width="1" height="1"/>
+	<rect x="5" y="16" style="&st2;" width="1" height="1"/>
+	<rect x="1" y="16" style="&st2;" width="1" height="1"/>
+	<rect x="12" y="2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 25 5)" style="&st2;" width="1" height="1"/>
+	<rect x="12" y="16" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 25 33)" style="&st2;" width="1" height="1"/>
+	<rect x="14" y="16" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 29 33)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="16" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 33)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="12" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 25)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="14" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 29)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="10" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 21)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 17)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="6" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 13)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 9)" style="&st2;" width="1" height="1"/>
+	<rect x="14" y="2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 29 5)" style="&st2;" width="1" height="1"/>
+	<rect x="16" y="2" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 33 5)" style="&st2;" width="1" height="1"/>
+	<rect x="12" y="8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 25 17)" style="&st2;" width="1" height="1"/>
+	<rect x="13" y="9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 27 19)" style="&st2;" width="1" height="1"/>
+	<rect x="12" y="9" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 25 19)" style="&st2;" width="1" height="1"/>
+	<rect x="5" y="8" style="&st2;" width="1" height="1"/>
+	<rect x="5" y="10" style="&st2;" width="1" height="1"/>
+	<rect x="4" y="9" style="&st2;" width="1" height="1"/>
+	<rect x="5" y="9" style="&st2;" width="1" height="1"/>
+	<path style="&st2;" d="M10,3v13H8V3H10 M11,2H7v15h4V2L11,2z"/>
+</g>
+</svg>

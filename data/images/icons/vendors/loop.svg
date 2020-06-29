@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#F7931E;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:none;">
+	<!ENTITY st3 "fill:#FFFFFF;">
+]>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<path style="&st1;" d="M18.938,6H15v2h3.938C18.972,8,19,8.028,19,8.063v10.875C19,18.972,18.972,19,18.938,19H5.063
+	C5.028,19,5,18.972,5,18.938V8.063C5,8.028,5.028,8,5.063,8H10V6H5.063C3.923,6,3,6.923,3,8.063v10.875C3,20.077,3.923,21,5.063,21
+	h13.875C20.077,21,21,20.077,21,18.938V8.063C21,6.923,20.077,6,18.938,6z"/>
+<polygon style="&st0;" points="9,3 13,7 9,11 "/>
+</svg>

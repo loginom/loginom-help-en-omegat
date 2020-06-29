@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#E30612;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36px" height="18px" viewBox="0 0 36 18" style="enable-background:new 0 0 36 18;" xml:space="preserve">
+<g id="exclamation.inverted">
+	<path style="&st0;" d="M32.88,16H21.12c-0.767,0-1.476-0.41-1.85-1.07c-0.372-0.656-0.362-1.435,0.026-2.082l5.879-9.821
+		C25.562,2.384,26.243,2,27,2s1.438,0.384,1.823,1.027l5.88,9.821c0.389,0.647,0.398,1.426,0.026,2.082
+		C34.355,15.59,33.646,16,32.88,16z"/>
+	<path style="&st1;" d="M33.846,13.362l-5.88-9.821c-0.431-0.721-1.5-0.721-1.932,0l-5.88,9.821C19.719,14.088,20.257,15,21.12,15
+		h11.76C33.743,15,34.281,14.088,33.846,13.362z"/>
+	<path style="&st0;" d="M28,13h-2v-1h2V13z M28,11h-2V7h2V11z"/>
+</g>
+<g id="exclamation.default">
+	<path style="&st1;" d="M15.846,13.362l-5.88-9.821c-0.431-0.721-1.5-0.721-1.932,0l-5.88,9.821C1.719,14.088,2.257,15,3.12,15
+		h11.76C15.743,15,16.281,14.088,15.846,13.362z"/>
+	<path style="&st0;" d="M10,13H8v-1h2V13z M10,11H8V7h2V11z"/>
+</g>
+</svg>

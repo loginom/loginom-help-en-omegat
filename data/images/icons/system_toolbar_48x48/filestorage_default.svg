@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#9A9FAF;">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#9A9FAF;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#A23938;">
+	<!ENTITY st6 "fill:#475B72;">
+	<!ENTITY st7 "fill:#333333;">
+	<!ENTITY st8 "fill:#7D2B29;">
+	<!ENTITY st9 "fill:#E7D2D5;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="filestorage.default">
+	<path style="&st1;" d="M35,12H13c-0.552,0-1,0.448-1,1v22c0,0.552,0.448,1,1,1h22c0.552,0,1-0.448,1-1V13
+		C36,12.448,35.552,12,35,12z M34,34H14V14h20V34z"/>
+	<rect x="27" y="15" style="&st1;" width="6" height="2"/>
+	<path style="&st1;" d="M20,33h2h4h2h3h2v-2V20v-2H15v2v11v2h2H20z M31,20v11h-3v-7h2v-2h-2v-2H31z M26,20v11h-4v-7h3v-2h-3v-2H26z
+		 M17,24h2v-2h-2v-2h3v11h-3V24z"/>
+</g>
+</svg>

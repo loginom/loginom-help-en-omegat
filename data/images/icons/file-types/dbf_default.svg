@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="dbf.default">
+	<path d="M10.827,8.442l-2.69-2.69l0.638-0.638c0.152-0.152,0.398-0.152,0.551,0l2.161,2.161L10.827,8.442z"/>
+	<path d="M7.275,9.558l2.69,2.69l-0.638,0.638c-0.152,0.152-0.398,0.152-0.551,0l-2.161-2.161L7.275,9.558z"/>
+	<path d="M9.609,10.776l2.69-2.689l0.638,0.638c0.152,0.152,0.152,0.399,0,0.551l-2.161,2.16L9.609,10.776z"/>
+	<path d="M8.442,7.275l-2.69,2.69L5.114,9.326c-0.152-0.152-0.152-0.398,0-0.55l2.161-2.161L8.442,7.275z"/>
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+</g>
+</svg>

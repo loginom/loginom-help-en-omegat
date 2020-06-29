@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="sorting.default">
+	<polygon style="&st4;" points="14,14 14,1 13,1 13,14 11,14 13.5,16.5 16,14 	"/>
+	<path style="&st4;" d="M4.139,6.204L3.64,8H2l2.139-7h2.078l2.171,7H6.684l-0.54-1.796H4.139z M5.914,5.019L5.479,3.534
+		C5.354,3.119,5.229,2.6,5.125,2.184H5.104C5,2.6,4.896,3.129,4.783,3.534L4.368,5.019H5.914z"/>
+	<path style="&st2;" d="M2,16.148l3.333-4.798v-0.041H2.312V10h5.079v0.914l-3.262,4.736v0.042h3.313V17H2V16.148z"/>
+</g>
+</svg>

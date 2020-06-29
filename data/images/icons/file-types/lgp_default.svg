@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="lgp.default">
+	<g>
+		<polygon style="fill:#940508;" points="9,13 6,12 6,8 9,9 		"/>
+	</g>
+	<g>
+		<polygon style="fill:#601519;" points="12,12 9,13 9,9 12,8 		"/>
+	</g>
+	<g>
+		<polygon style="fill:#CC525E;" points="9,7 6,8 9,9 12,8 		"/>
+	</g>
+	<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 	"/>
+	<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 	"/>
+</g>
+</svg>

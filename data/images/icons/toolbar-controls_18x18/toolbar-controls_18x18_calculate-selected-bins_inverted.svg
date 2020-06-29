@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="calculate-selected-bins_inverted">
+	<rect x="4" y="9.5" class="st0" width="1" height="0.875"/>
+	<rect x="13" y="9.5" class="st0" width="1" height="0.875"/>
+	<path class="st0" d="M13.481,7.592C12.743,6.219,11.227,5,9,5S5.257,6.219,4.519,7.592C3.911,6.338,2.731,5.211,1,5.028v1.03
+		C3.102,6.35,4,8.368,4,9.5h1C5,8.28,6.173,6,9,6s4,2.28,4,3.5h1c0-1.132,0.898-3.15,3-3.441v-1.03
+		C15.269,5.211,14.089,6.338,13.481,7.592z"/>
+	<path class="st0" d="M13.5,11c0.827,0,1.5,0.673,1.5,1.5S14.327,14,13.5,14S12,13.327,12,12.5S12.673,11,13.5,11 M13.5,10
+		c-1.381,0-2.5,1.119-2.5,2.5s1.119,2.5,2.5,2.5s2.5-1.119,2.5-2.5S14.881,10,13.5,10L13.5,10z"/>
+	<path class="st0" d="M4.5,11C5.327,11,6,11.673,6,12.5S5.327,14,4.5,14S3,13.327,3,12.5S3.673,11,4.5,11 M4.5,10
+		C3.119,10,2,11.119,2,12.5S3.119,15,4.5,15S7,13.881,7,12.5S5.881,10,4.5,10L4.5,10z"/>
+</g>
+</svg>

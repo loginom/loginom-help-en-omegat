@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="model.hover">
+	<g>
+		<polygon style="&st0;" points="14,9.601 2,0 2,24 14,14.399 		"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="2,21 2,23.999 4.405,22.076 4,21 		"/>
+	</g>
+	<g>
+		
+			<rect x="8.607" y="15.568" transform="matrix(0.7808 -0.6247 0.6247 0.7808 -8.2277 9.6831)" style="&st1;" width="2.161" height="2"/>
+		
+			<rect x="5.232" y="18.269" transform="matrix(0.7808 -0.6247 0.6247 0.7808 -10.6546 8.1665)" style="&st1;" width="2.161" height="2"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="14,12.919 12,12.919 12,13.438 11.595,13.762 12.843,15.325 14,14.4 		"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="12.843,8.675 11.595,10.238 12,10.562 12,11.081 14,11.081 14,9.6 		"/>
+	</g>
+	<g>
+		
+			<rect x="5.312" y="3.65" transform="matrix(0.6249 -0.7807 0.7807 0.6249 -1.3252 6.7022)" style="&st1;" width="2" height="2.161"/>
+		
+			<rect x="8.687" y="6.35" transform="matrix(0.6249 -0.7807 0.7807 0.6249 -2.1677 10.3499)" style="&st1;" width="2" height="2.161"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="2,0.001 2,3 4,3 4.405,1.924 		"/>
+	</g>
+	<g>
+		<rect x="2" y="17" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="13" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="9" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="5" style="&st1;" width="2" height="2"/>
+	</g>
+</g>
+</svg>

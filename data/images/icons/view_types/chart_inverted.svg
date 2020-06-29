@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#BFBFBF;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#EDEDED;">
+	<!ENTITY st6 "fill:#FFEEDE;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="chart.inverted" style="&st0;" d="M16,15h1v1H1v-1h1v-3h2v3h2V8h2v7h2v-5h2v5h2V7h2V15z M2.5,10C3.328,10,4,9.328,4,8.5
+	c0-0.231-0.057-0.447-0.15-0.643L6.857,4.85C7.053,4.943,7.269,5,7.5,5c0.307,0,0.593-0.093,0.831-0.252l1.744,1.308
+	C10.03,6.197,10,6.344,10,6.5C10,7.328,10.672,8,11.5,8S13,7.328,13,6.5c0-0.231-0.057-0.447-0.15-0.643l2.007-2.007
+	C15.053,3.943,15.269,4,15.5,4C16.328,4,17,3.328,17,2.5S16.328,1,15.5,1S14,1.672,14,2.5c0,0.231,0.057,0.447,0.15,0.643
+	L12.143,5.15C11.947,5.057,11.731,5,11.5,5c-0.307,0-0.593,0.093-0.831,0.252L8.926,3.944C8.97,3.803,9,3.656,9,3.5
+	C9,2.672,8.328,2,7.5,2S6,2.672,6,3.5c0,0.231,0.057,0.447,0.15,0.643L3.143,7.15C2.947,7.057,2.731,7,2.5,7C1.672,7,1,7.672,1,8.5
+	S1.672,10,2.5,10z"/>
+</svg>

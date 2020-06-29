@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="link.hover">
+	<g>
+		<polygon style="&st0;" points="1,24 7,24 13,24 13,12 13,0 7,0 1,0 7,12 		"/>
+	</g>
+	<rect x="11" style="&st1;" width="2" height="2"/>
+	<rect x="8" style="&st1;" width="2" height="2"/>
+	<rect x="5" style="&st1;" width="2" height="2"/>
+	<polygon style="&st1;" points="2.171,2.342 3.618,2 3.618,0 1,0 	"/>
+	
+		<rect x="5.288" y="7.313" transform="matrix(0.8944 -0.4472 0.4472 0.8944 -3.067 3.6931)" style="&st1;" width="2" height="2.06"/>
+	
+		<rect x="3.447" y="3.628" transform="matrix(0.8944 -0.4472 0.4472 0.8944 -1.6136 2.4804)" style="&st1;" width="2" height="2.06"/>
+	<polygon style="&st1;" points="8.565,13.342 9.236,12 8.565,10.658 6.776,11.553 7,12 6.776,12.447 	"/>
+	
+		<rect x="3.418" y="18.342" transform="matrix(0.4471 -0.8945 0.8945 0.4471 -14.8423 14.6725)" style="&st1;" width="2.06" height="2"/>
+	
+		<rect x="5.26" y="14.658" transform="matrix(0.4471 -0.8945 0.8945 0.4471 -10.5283 14.2828)" style="&st1;" width="2.06" height="2"/>
+	<rect x="11" y="3" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="7" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="11" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="15" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="19" style="&st1;" width="2" height="2"/>
+	<rect x="11" y="22" style="&st1;" width="2" height="2"/>
+	<rect x="8" y="22" style="&st1;" width="2" height="2"/>
+	<rect x="5" y="22" style="&st1;" width="2" height="2"/>
+	<polygon style="&st1;" points="1,24 3.618,24 3.96,22.553 2.171,21.658 	"/>
+</g>
+</svg>

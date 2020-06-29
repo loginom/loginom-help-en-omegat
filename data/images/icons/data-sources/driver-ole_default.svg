@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="driver-ole.default">
+	<path style="fill:#51BD69;" d="M6.425,4.45C6.425,6.117,5.413,7,4.177,7C2.898,7,2,6.009,2,4.543C2,3.006,2.956,2,4.249,2
+		C5.57,2,6.425,3.013,6.425,4.45z M2.668,4.529c0,1.034,0.56,1.961,1.544,1.961c0.991,0,1.551-0.913,1.551-2.012
+		c0-0.963-0.502-1.968-1.544-1.968C3.185,2.51,2.668,3.466,2.668,4.529z"/>
+	<path style="fill:#51BD69;" d="M8,2h0.625v4.317h2.069v0.525H8V2z"/>
+	<path style="fill:#51BD69;" d="M14.722,4.651h-2.098v1.745h2.098v0.525H12V2.079h2.722v0.524h-2.098v1.53h2.098V4.651z"/>
+	<rect x="2" y="8" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="7" y="8" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="12" y="8" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="2" y="11" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="7" y="11" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="12" y="11" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="2" y="14" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="7" y="14" style="fill:#51BD69;" width="4" height="2"/>
+	<rect x="12" y="14" style="fill:#51BD69;" width="4" height="2"/>
+</g>
+</svg>

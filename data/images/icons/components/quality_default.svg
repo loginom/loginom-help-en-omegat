@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="quality.default">
+	<g>
+		<path style="&st4;" d="M14,9c1.103,0,2,0.898,2,2v3c0,1.102-0.897,2-2,2h-3c-1.103,0-2-0.898-2-2v-3c0-1.102,0.897-2,2-2H14 M14,8
+			h-3c-1.657,0-3,1.343-3,3v3c0,1.657,1.343,3,3,3h3c1.657,0,3-1.343,3-3v-3C17,9.343,15.657,8,14,8L14,8z"/>
+	</g>
+	<rect x="2" y="3" style="&st4;" width="14" height="2"/>
+	<rect x="2" y="6" style="&st2;" width="4" height="1"/>
+	<rect x="7" y="6" style="&st2;" width="4" height="1"/>
+	<rect x="12" y="6" style="&st2;" width="4" height="1"/>
+	<rect x="2" y="8" style="&st2;" width="4" height="1"/>
+	<rect x="2" y="10" style="&st2;" width="4" height="1"/>
+	<rect x="2" y="12" style="&st2;" width="4" height="1"/>
+	<rect x="2" y="14" style="&st2;" width="4" height="1"/>
+	<g>
+		<polygon style="&st2;" points="12.088,15.035 10,13.004 10.698,12.287 12.079,13.631 14.765,10.944 15.472,11.651 		"/>
+	</g>
+</g>
+</svg>

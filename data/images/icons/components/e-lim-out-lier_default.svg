@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="e-lim-out-lier.default">
+	<g>
+		<polygon style="&st4;" points="8.212,16.408 6.609,10 6.309,10 4.843,12.933 3.843,8.933 3.309,10 1,10 1,9 2.691,9 4.157,6.067 
+			5.157,10.067 5.691,9 7.391,9 7.788,10.592 9,2 10.423,9 11.691,9 13.157,6.067 14.157,10.067 14.691,9 17,9 17,10 15.309,10 
+			13.843,12.933 12.843,8.933 12.309,10 9.577,10 9.124,7.285 		"/>
+	</g>
+	<path style="&st2;" d="M9.5,2C10.327,2,11,2.673,11,3.5S10.327,5,9.5,5C8.673,5,8,4.327,8,3.5S8.673,2,9.5,2 M9.5,1
+		C8.119,1,7,2.119,7,3.5S8.119,6,9.5,6C10.881,6,12,4.881,12,3.5S10.881,1,9.5,1L9.5,1z"/>
+	<path style="&st2;" d="M8.5,13c0.827,0,1.5,0.673,1.5,1.5S9.327,16,8.5,16S7,15.327,7,14.5S7.673,13,8.5,13 M8.5,12
+		C7.119,12,6,13.119,6,14.5S7.119,17,8.5,17s2.5-1.119,2.5-2.5S9.881,12,8.5,12L8.5,12z"/>
+</g>
+</svg>

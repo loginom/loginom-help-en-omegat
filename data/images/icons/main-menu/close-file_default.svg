@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#3E7FAA;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="close-file.default">
+	<path style="&st3;" d="M3,8V2h9v1H4v5H3z M14,5v10h-3v1h4V5H14z"/>
+	<polygon style="&st4;" points="12,5 15,5 12,2 	"/>
+	<polygon style="&st4;" points="10,9.737 9.263,9 6.5,11.763 3.736,9.009 3.001,9.748 5.762,12.501 3,15.263 3.737,16 6.5,13.237 
+		9.264,15.991 9.999,15.252 7.238,12.499 	"/>
+</g>
+</svg>

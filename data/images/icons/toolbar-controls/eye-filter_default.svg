@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="eye-filter.default">
+	<polygon style="&st2;" points="17,9 12,9 14,11.833 14,15 15,15 15,11.833 	"/>
+	<circle style="&st2;" cx="9" cy="9" r="2"/>
+	<path style="&st2;" d="M12,11.626C11.268,12.465,10.2,13,9,13c-2.209,0-4-1.791-4-4c0-2.209,1.791-4,4-4
+		c1.862,0,3.413,1.278,3.859,3h2.606C14.571,6.542,12.513,4,9,4C4.079,4,2,9,2,9s2.18,5,7,5c1.154,0,2.145-0.297,3-0.734V11.626z"/>
+</g>
+</svg>

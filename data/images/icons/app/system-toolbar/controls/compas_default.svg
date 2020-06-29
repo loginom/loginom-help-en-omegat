@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#9A9FAF;">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#9A9FAF;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#A23938;">
+	<!ENTITY st6 "fill:#475B72;">
+	<!ENTITY st7 "fill:#333333;">
+	<!ENTITY st8 "fill:#7D2B29;">
+	<!ENTITY st9 "fill:#E7D2D5;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="compas.default">
+	<path style="&st1;" d="M24,14c5.514,0,10,4.486,10,10s-4.486,10-10,10s-10-4.486-10-10S18.486,14,24,14 M24,12
+		c-6.627,0-12,5.373-12,12s5.373,12,12,12c6.627,0,12-5.373,12-12S30.627,12,24,12L24,12z"/>
+	<polygon style="&st1;" points="22.878,22.445 22.662,22.662 23.342,23.342 24.211,22.796 24.206,22.792 26.894,21.106 
+		25.208,23.793 25.204,23.789 24.658,24.658 25.338,25.338 25.555,25.122 30.064,17.936 	"/>
+	<polygon style="&st1;" points="22.662,22.662 22.445,22.878 17.936,30.064 25.122,25.555 25.338,25.338 	"/>
+</g>
+</svg>

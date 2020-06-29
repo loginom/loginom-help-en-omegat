@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="partition.default">
+	
+		<rect x="8.87" y="11.481" transform="matrix(-0.7078 0.7065 -0.7065 -0.7078 25.163 16.0957)" style="&st2;" width="0.766" height="3.542"/>
+	<polygon style="&st2;" points="11,15 11,12 10.091,12.909 8.909,14.091 8,15 	"/>
+	
+		<rect x="8.87" y="3.976" transform="matrix(0.7078 0.7065 -0.7065 0.7078 6.7643 -4.8567)" style="&st2;" width="0.766" height="3.542"/>
+	<polygon style="&st2;" points="11,4 8,4 8.909,4.909 10.091,6.091 11,7 	"/>
+	<rect x="12" y="3" style="&st4;" width="4" height="1"/>
+	<rect x="12" y="7" style="&st4;" width="4" height="1"/>
+	<rect x="12" y="5" style="&st4;" width="4" height="1"/>
+	<rect x="12" y="11" style="&st4;" width="4" height="1"/>
+	<rect x="12" y="15" style="&st4;" width="4" height="1"/>
+	<rect x="12" y="13" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="3" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="7" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="5" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="9" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="13" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="15" style="&st4;" width="4" height="1"/>
+	<rect x="2" y="11" style="&st4;" width="4" height="1"/>
+</g>
+</svg>

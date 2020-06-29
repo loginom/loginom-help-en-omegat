@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="variable.warning">
+	<g>
+		<path style="&st4;" d="M12,12c0-4.83-3.44-8.87-8-9.8C3.36,2.07,2.69,2,2,2v20c0.68,0,1.35-0.07,1.99-0.2
+			C8.56,20.88,12,16.84,12,12z"/>
+	</g>
+	<g>
+		<path style="&st5;" d="M6.199,2.925L5.355,4.738c0.5,0.233,0.979,0.519,1.422,0.849l1.195-1.603
+			C7.421,3.572,6.824,3.216,6.199,2.925z M9.495,5.384l-1.5,1.323c0.367,0.416,0.69,0.869,0.963,1.347l1.738-0.989
+			C10.356,6.468,9.952,5.902,9.495,5.384z M11.526,8.958L9.622,9.569c0.168,0.524,0.281,1.068,0.337,1.617l1.99-0.201
+			C11.88,10.297,11.737,9.615,11.526,8.958z M9.957,12.84c-0.059,0.549-0.174,1.094-0.343,1.618l1.902,0.615
+			c0.212-0.655,0.356-1.336,0.429-2.023L9.957,12.84z M8.944,15.969c-0.274,0.478-0.601,0.93-0.968,1.342l1.494,1.33
+			c0.458-0.515,0.865-1.079,1.208-1.676L8.944,15.969z M6.755,18.429c-0.444,0.33-0.923,0.613-1.423,0.844l0.836,1.816
+			c0.625-0.288,1.224-0.642,1.778-1.054L6.755,18.429z"/>
+	</g>
+	<rect x="2" y="17" style="&st5;" width="2" height="2"/>
+	<path style="&st5;" d="M4,21.73V20H2v2c0.68,0,1.35-0.07,1.99-0.2C4,21.78,4,21.76,4,21.73z"/>
+	<path style="&st5;" d="M4,4V2.2C3.36,2.07,2.69,2,2,2v2H4z"/>
+	<rect x="2" y="14" style="&st5;" width="2" height="2"/>
+	<rect x="2" y="11" style="&st5;" width="2" height="2"/>
+	<rect x="2" y="8" style="&st5;" width="2" height="2"/>
+	<rect x="2" y="5" style="&st5;" width="2" height="2"/>
+</g>
+</svg>

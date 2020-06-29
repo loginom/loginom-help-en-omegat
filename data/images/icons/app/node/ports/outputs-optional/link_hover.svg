@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#FFCCCC;">
+	<!ENTITY st3 "fill:#E30612;">
+	<!ENTITY st4 "fill:#FDE9D2;">
+	<!ENTITY st5 "fill:#F7931E;">
+	<!ENTITY st6 "fill:#CCF4D1;">
+	<!ENTITY st7 "fill:#39B54A;">
+	<!ENTITY st8 "fill:#EBECEF;">
+	<!ENTITY st9 "fill:#757981;">
+	<!ENTITY st10 "fill:#EAECF1;">
+	<!ENTITY st11 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="link.hover">
+	<g>
+		<polygon style="&st0;" points="14,0 8,0 2,0 2,12 2,24 8,24 14,24 8,12 		"/>
+	</g>
+	<g>
+		<rect x="2" y="0" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="22" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="5" y="22" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="8" y="22" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="5" y="0" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="8" y="0" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="12.829,21.658 11.382,22 11.382,24 14,24 		"/>
+	</g>
+	<g>
+		
+			<rect x="7.711" y="14.628" transform="matrix(0.8944 -0.4472 0.4472 0.8944 -6.0825 5.5489)" style="&st1;" width="2" height="2.06"/>
+		
+			<rect x="9.553" y="18.312" transform="matrix(0.8944 -0.4472 0.4472 0.8944 -7.5359 6.7615)" style="&st1;" width="2" height="2.06"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="6.435,10.658 5.764,12 6.435,13.342 8.224,12.447 8,12 8.224,11.553 		"/>
+	</g>
+	<g>
+		
+			<rect x="9.522" y="3.657" transform="matrix(0.4471 -0.8945 0.8945 0.4471 1.6681 12.0137)" style="&st1;" width="2.06" height="2"/>
+		
+			<rect x="7.681" y="7.342" transform="matrix(0.4471 -0.8945 0.8945 0.4471 -2.6459 12.4034)" style="&st1;" width="2.06" height="2"/>
+	</g>
+	<g>
+		<polygon style="&st1;" points="14,0 11.382,0 11.04,1.447 12.829,2.342 		"/>
+	</g>
+	<g>
+		<rect x="2" y="19" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="15" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="11" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="7" style="&st1;" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="2" y="3" style="&st1;" width="2" height="2"/>
+	</g>
+</g>
+</svg>
