@@ -10,6 +10,8 @@
             <mask>**/Thumbs.db</mask>
             <mask>**/.DS_Store</mask>
             <mask>.git</mask>
+            <mask>*.png</mask>
+            <mask>*.svg</mask>
         </source_dir_excludes>
         <target_dir>data</target_dir>
         <tm_dir>__DEFAULT__</tm_dir>
