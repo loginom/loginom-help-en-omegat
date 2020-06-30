@@ -1,5 +1,5 @@
 {
-  "lang": "ru",
+  "lang": "en",
   "fileExtensions": [
     ".md"
   ],
@@ -7,9 +7,9 @@
   "ignoreDigits": true,
   "format": "markdown",
   "report": [
-      "html"
+    "html"
   ],
   "dictionary": [
-  "Loginom"
+    "Loginom"
   ]
 }
