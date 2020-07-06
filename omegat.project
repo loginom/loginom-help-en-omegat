@@ -12,6 +12,7 @@
             <mask>.git</mask>
             <mask>*.png</mask>
             <mask>*.svg</mask>
+            <mask>attach/Sales.txt</mask>
         </source_dir_excludes>
         <target_dir>data</target_dir>
         <tm_dir>__DEFAULT__</tm_dir>
