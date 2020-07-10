@@ -1,6 +1,6 @@
-# Интеграция с базами данных
+# Integration with Databases
 
-Для работы с данными из какой-либо базы данных, необходимо выполнить несколько подготовительных действий.
+It is required to perform several preparatory actions to start the work with data from any database.
 
 ## Шаг 1. Создание подключения
 
