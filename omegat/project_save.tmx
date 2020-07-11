@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100746Z" creationid="Марианна" creationdate="20200711T100746Z">
+        <seg>Open the workflow to be edited and deploy the Connection panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание подключения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
