@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры подключения к источнику данных используются узлами &lt;x1/&gt;импорта&lt;x2/&gt;/&lt;x3/&gt;экспорта&lt;x4/&gt; данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T103144Z" creationid="Марианна" creationdate="20200711T103144Z">
+        <seg>Parameters of connection to the data source are used by the data &lt;x1/&gt;import&lt;x2/&gt;/&lt;x3/&gt;export&lt;x4/&gt; nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перейти к подключению — переход к окну с доступными подключениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102912Z" creationid="Марианна" creationdate="20200711T102844Z">
