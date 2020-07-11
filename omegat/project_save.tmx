@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить узел Подключения в Сценарий — в сценарий будет добавлен производный узел (2), унаследованный от выбранного подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102053Z" creationid="Марианна" creationdate="20200711T102053Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add the Connection node to the Workflow — derived node (2) inherited from the selected connection will be added to the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T101336Z" creationid="Марианна" creationdate="20200711T101336Z">
@@ -82,6 +90,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100413Z" creationid="Марианна" creationdate="20200711T100413Z">
         <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection to the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также создать узел-ссылку можно, перетащив мышью выбранное подключение в область построения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T101805Z" creationid="Марианна" creationdate="20200711T101805Z">
+        <seg>It is also possible to create the reference node dragging the required connection to the area of the workflow creation.</seg>
       </tuv>
     </tu>
     <tu>
