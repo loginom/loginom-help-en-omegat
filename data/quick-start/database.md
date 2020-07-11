@@ -21,10 +21,10 @@ The following actions are required to create the node:
 
 ![Creation of the connection node in the workflow](./database-1.png)
 
-Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. Для этого выходные данные порта ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) узла подключения необходимо подать на входной порт ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) нуждающегося в этом подключении узла импорта/экспорта (см. рисунок 2).
+Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. For this purpose ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) port data of the connection node are to be sent to ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) input port for which such connection of the import/export node is required (refer to. Figure 2).
 
-![Использование узла подключения.](./database-2.png)
+![Connection Node Use.](./database-2.png)
 
-## Шаг 3. Настройка узла импорта
+## Step 3. Import Node Configuration
 
-Для получения информации из базы данных используется отдельный обработчик [Импорт из базы данных](../integration/import/database.md). Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.
+Separate handler [Import from database](../integration/import/database.md) is used to receive data from the database. It allows for import of the database table or results of execution of the SQL query set by the user and view.
