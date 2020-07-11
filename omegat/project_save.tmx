@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Производный узел будет иметь те же настройки, что и выбранное подключение, однако, их возможно переопределить в мастере настройки узла (при этом настройки подключения, от которого был унаследован узел, не изменятся).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102427Z" creationid="Марианна" creationdate="20200711T102427Z">
+        <seg>The derived node will have the same settings as the selected connection, however, it is possible to redefine them using the Node Configuration Wizard (in this case settings of the connection from which the node has been inherited will not be changed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание подключения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
