@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания узла:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
+        <seg>The following actions are required to create the node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интеграция с базами данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
