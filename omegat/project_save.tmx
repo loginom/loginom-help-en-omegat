@@ -48,8 +48,8 @@
       <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T101336Z" creationid="Марианна" creationdate="20200711T101336Z">
-        <seg>Select the required connection in the panel and use one of the specified methods clicking with the right mouse button to open its context menu (refer to.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T140551Z" creationid="Марианна" creationdate="20200711T101336Z">
+        <seg>Select the required connection in the panel and use one of the specified methods clicking the right mouse button to open its context menu (refer to.</seg>
       </tuv>
     </tu>
     <tu>
