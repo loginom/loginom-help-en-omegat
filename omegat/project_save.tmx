@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>Для работы с базой данных, предварительно необходимо создать &lt;x1/&gt;Подключение&lt;x2/&gt; соответствующего типа, в зависимости от того к какой базе нужно подключиться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100018Z" creationid="Марианна" creationdate="20200711T100018Z">
+        <seg>First, it is required to create corresponding &lt;x1/&gt;Connection&lt;x2/&gt; to work with the database to be connected with.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для работы с данными из какой-либо базы данных, необходимо выполнить несколько подготовительных действий.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T150901Z" creationid="Марианна" creationdate="20200710T150901Z">
@@ -18,6 +26,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
         <seg>Integration with Databases</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создание подключения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
+        <seg>Connection Creation</seg>
       </tuv>
     </tu>
     <tu>
