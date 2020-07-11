@@ -8,7 +8,7 @@ First, it is required to create corresponding [Connection](../integration/connec
 
 ## Step 2. Creation of the Connection Node in the Workflow
 
-It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection to the data source.
+It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.
 
 The following actions are required to create the node:
 
