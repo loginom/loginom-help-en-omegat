@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
+        <seg>It allows for import of the database table or results of execution of the SQL query set by the user and view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100908Z" creationid="Марианна" creationdate="20200711T100746Z">
