@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
+        <seg>&lt;x1/&gt;Creation of the connection node in the workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T101336Z" creationid="Марианна" creationdate="20200711T101336Z">
