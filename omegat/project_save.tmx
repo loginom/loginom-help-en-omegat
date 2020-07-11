@@ -38,10 +38,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Создание узла подключения в сценарии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100134Z" creationid="Марианна" creationdate="20200711T100134Z">
+        <seg>Creation of the Connection Node in the Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Созданное подключение необходимо поместить в сценарий,  для этого необходимо создать узел, выходными данными которого будут являться параметры подключения к источнику данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100413Z" creationid="Марианна" creationdate="20200711T100413Z">
+        <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection to the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Шаг 1.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095558Z" creationid="Марианна" creationdate="20200711T095558Z">
         <seg>Step 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T100027Z" creationid="Марианна" creationdate="20200711T100027Z">
+        <seg>Step 2.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
