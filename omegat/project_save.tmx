@@ -72,8 +72,8 @@
       <tuv lang="ru">
         <seg>Для этого выходные данные порта &lt;x5/&gt; &lt;x6/&gt; узла подключения необходимо подать на входной порт &lt;x7/&gt; &lt;x8/&gt; нуждающегося в этом подключении узла импорта/экспорта (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T104055Z" creationid="Марианна" creationdate="20200711T104055Z">
-        <seg>For this purpose &lt;x5/&gt; node data of &lt;x6/&gt; connection node are to be sent to &lt;x7/&gt; &lt;x8/&gt; input port fofr which such connection of the import/export node is required (refer to.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104218Z" creationid="Марианна" creationdate="20200711T104055Z">
+        <seg>For this purpose &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to.</seg>
       </tuv>
     </tu>
     <tu>
