@@ -168,8 +168,8 @@
       <tuv lang="ru">
         <seg>Созданное подключение необходимо поместить в сценарий,  для этого необходимо создать узел, выходными данными которого будут являться параметры подключения к источнику данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T100413Z" creationid="Марианна" creationdate="20200711T100413Z">
-        <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection to the data source.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T140413Z" creationid="Марианна" creationdate="20200711T100413Z">
+        <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
       </tuv>
     </tu>
     <tu>
