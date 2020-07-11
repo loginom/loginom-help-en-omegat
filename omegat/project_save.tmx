@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использование узла подключения.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104323Z" creationid="Марианна" creationdate="20200711T104323Z">
+        <seg>&lt;x1/&gt;Connection Node Use.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
@@ -82,6 +90,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
         <seg>Integration with Databases</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка узла импорта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104354Z" creationid="Марианна" creationdate="20200711T104354Z">
+        <seg>Import Node Configuration</seg>
       </tuv>
     </tu>
     <tu>
@@ -162,6 +178,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100027Z" creationid="Марианна" creationdate="20200711T100027Z">
         <seg>Step 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T104329Z" creationid="Марианна" creationdate="20200711T104329Z">
+        <seg>Step 3.</seg>
       </tuv>
     </tu>
     <tu>
