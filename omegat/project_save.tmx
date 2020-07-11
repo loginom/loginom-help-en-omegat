@@ -24,8 +24,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Настроить подключение — переход к окну настройки параметров подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T102757Z" creationid="Марианна" creationdate="20200711T102757Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Configure connection — move towards the connection configuration parameters window.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Configure the connection — go to the connection configuration parameters window.</seg>
       </tuv>
     </tu>
     <tu>
@@ -74,6 +74,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100908Z" creationid="Марианна" creationdate="20200711T100746Z">
         <seg>Open the workflow to be edited and expand the Connection panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перейти к подключению — переход к окну с доступными подключениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200711T102912Z" creationid="Марианна" creationdate="20200711T102844Z">
+        <seg>Go to the connection — go to the window with the available connections.</seg>
       </tuv>
     </tu>
     <tu>
