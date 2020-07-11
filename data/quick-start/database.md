@@ -21,7 +21,7 @@ The following actions are required to create the node:
 
 ![Creation of the connection node in the workflow](./database-1.png)
 
-Параметры подключения к источнику данных используются узлами [импорта](../integration/import/README.md)/[экспорта](../integration/export/README.md) данных. Для этого выходные данные порта ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) узла подключения необходимо подать на входной порт ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) нуждающегося в этом подключении узла импорта/экспорта (см. рисунок 2).
+Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. Для этого выходные данные порта ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) узла подключения необходимо подать на входной порт ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) нуждающегося в этом подключении узла импорта/экспорта (см. рисунок 2).
 
 ![Использование узла подключения.](./database-2.png)
 
