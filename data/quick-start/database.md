@@ -21,7 +21,7 @@ The following actions are required to create the node:
 
 ![Creation of the connection node in the workflow](./database-1.png)
 
-Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. For this purpose ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) port data of the connection node are to be sent to the ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) input port for which such connection of the import/export node is required (refer to. Figure 2).
+Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. For this purpose ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) port data of the connection node are to be sent to the ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) input port for which such connection of the import/export node is required (refer to Figure 2).
 
 ![Connection Node Use.](./database-2.png)
 
