@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все действия с проектом в Loginom осуществляются в рамках Пакета, который является минимальной единицей поставки и представляет собой контейнер для компонентов, сценариев, подключений и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
+        <seg>All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
@@ -98,6 +106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
         <seg>Integration with Databases</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Назначение и структура пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
+        <seg>Package Designation and Structure</seg>
       </tuv>
     </tu>
     <tu>
