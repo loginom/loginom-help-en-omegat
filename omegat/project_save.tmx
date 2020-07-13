@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После закрытия пакета этот файл удаляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
+        <seg>This file is deleted upon the package closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
@@ -290,6 +298,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104329Z" creationid="Марианна" creationdate="20200711T104329Z">
         <seg>Step 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот файл защищает открытый пакет от возможности редактировать или удалить его другими пользователями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
+        <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
       </tuv>
     </tu>
     <tu>
