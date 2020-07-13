@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Компоненты&lt;x2/&gt; — включают в себя доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112223Z" creationid="Марианна" creationdate="20200713T112223Z">
+        <seg>&lt;x1/&gt;Components&lt;x2/&gt; include the supernodes available for work, both created within the current package and borrowed from other packages using links.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt; — в них представлен список внешних источников и приемников данных, к которым можно подключиться;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111907Z" creationid="Марианна" creationdate="20200713T111907Z">
