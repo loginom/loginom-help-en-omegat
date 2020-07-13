@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пакеты сохраняются по-отдельности в виде файлов с расширением .lgp, и включают в себя Ссылки и Модули.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111210Z" creationid="Марианна" creationdate="20200713T111210Z">
+        <seg>Packages are saved separately in the form of files with .lgp extension, and they include Links and Modules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры подключения к источнику данных используются узлами &lt;x1/&gt;импорта&lt;x2/&gt;/&lt;x3/&gt;экспорта&lt;x4/&gt; данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T103144Z" creationid="Марианна" creationdate="20200711T103144Z">
