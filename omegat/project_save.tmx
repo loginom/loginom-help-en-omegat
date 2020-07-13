@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
+        <seg>Note: in the case of any package opening the file with the following name is created: &lt;x1/&gt;&lt;Package_name&gt;.lgp.lck&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Производный узел будет иметь те же настройки, что и выбранное подключение, однако, их возможно переопределить в мастере настройки узла (при этом настройки подключения, от которого был унаследован узел, не изменятся).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102521Z" creationid="Марианна" creationdate="20200711T102427Z">
