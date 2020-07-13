@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждый пакет содержит хотя бы один модуль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111545Z" creationid="Марианна" creationdate="20200713T111545Z">
+        <seg>Each package contains at least one module.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Назначение и структура пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
@@ -194,6 +202,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140413Z" creationid="Марианна" creationdate="20200711T100413Z">
         <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Соответствующие объекты доступны только в том случае, когда они опубликованы для общего доступа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111519Z" creationid="Марианна" creationdate="20200713T111519Z">
+        <seg>Corresponding objects are available only if they are published for shared access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
+        <seg>The Links are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
       </tuv>
     </tu>
     <tu>
