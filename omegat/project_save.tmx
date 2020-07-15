@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результаты можно просмотреть в самой системе или экспортировать в сторонние приемники данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090740Z" creationid="Марианна" creationdate="20200715T090740Z">
+        <seg>It is possible to view results in the system or to export them to the external data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание подключения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
@@ -394,6 +402,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
         <seg>Thus, a list of variables can be transferred from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, платформа может использоваться как для создания автономных аналитических решений, так и для разработки модулей, интегрируемых со сторонними системами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091041Z" creationid="Марианна" creationdate="20200715T091041Z">
+        <seg>Thus, the platform can be used both for creation of indepenent analytical solutions, and for development of modules integrated with external systems.</seg>
       </tuv>
     </tu>
     <tu>
