@@ -246,6 +246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеры использования переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
+        <seg>Examples of the variables use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
@@ -306,6 +314,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T101805Z" creationid="Марианна" creationdate="20200711T101805Z">
         <seg>It is also possible to create the reference node dragging the required connection to the area of the workflow creation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, от узла к узлу может передаваться список переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
+        <seg>Thus, a list of variables can be transferred from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такой порт может принять в качестве входных данных или отдать в качестве выходных несколько переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070005Z" creationid="Марианна" creationdate="20200715T070005Z">
+        <seg>Such port can accept several variables as input data or deliver them as output data.</seg>
       </tuv>
     </tu>
     <tu>
