@@ -470,6 +470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093103Z" creationid="Марианна" creationdate="20200715T093103Z">
+        <seg>Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, настройки узлов могут быть предметом вычисления в ходе выполнения сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T071014Z" creationid="Марианна" creationdate="20200715T071014Z">
