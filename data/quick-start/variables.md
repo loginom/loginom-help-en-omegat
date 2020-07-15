@@ -13,7 +13,7 @@ Examples of the variables use:
 * The variable in the formula providing calculation of the expression value using the [Calculator](../processors/transformation/calc/README.md).
 * The variable as the parameter of the [Antecedent](../processors/control/condition.md) component.
 
-## The control variables.
+## Control Variables
 
 Variables can be also used to set parameters of the node settings.
 

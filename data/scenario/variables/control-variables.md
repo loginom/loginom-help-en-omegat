@@ -1,4 +1,4 @@
-# The control variables.
+# Control Variables
 
 Порт управляющих переменных принимает переменные, с помощью которых можно задать параметры настроек узлов. Таким образом, настройки узлов могут быть предметом вычисления в ходе выполнения Сценария. It enables for more flexible implementation of the data preocessing logics.
 
