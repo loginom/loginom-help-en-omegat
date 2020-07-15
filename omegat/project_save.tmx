@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование переменных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200714T120440Z" creationid="Марианна" creationdate="20200714T120440Z">
+        <seg>Variables Use</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый пакет содержит хотя бы один модуль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111545Z" creationid="Марианна" creationdate="20200713T111545Z">
