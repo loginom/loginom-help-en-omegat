@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Начало работы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090041Z" creationid="Марианна" creationdate="20200715T090041Z">
+        <seg>Start of Work</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
