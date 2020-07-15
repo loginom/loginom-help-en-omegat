@@ -238,6 +238,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменная в качестве параметра компонента &lt;x1/&gt;Условие&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070455Z" creationid="Марианна" creationdate="20200715T070455Z">
+        <seg>The variable as the parameter of the &lt;x1/&gt;Antecedent&lt;x2/&gt; component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная в формуле, вычисляющей значение выражения используя &lt;x1/&gt;Калькулятор&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070351Z" creationid="Марианна" creationdate="20200715T070340Z">
+        <seg>The variable in the formula providing calculation of the expression value using the &lt;x1/&gt;Calculator&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
