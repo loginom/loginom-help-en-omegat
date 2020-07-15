@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подмодель является специальным узлом, способным включать в себя другие узлы сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093352Z" creationid="Марианна" creationdate="20200715T093352Z">
+        <seg>The supernode is a special node that can include other workflow nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
@@ -536,8 +544,8 @@
       <tuv lang="ru">
         <seg>Чаще всего для создания производного компонента используется &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T093244Z" creationid="Марианна" creationdate="20200715T093244Z">
-        <seg>The &lt;x1/&gt;Supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
+        <seg>The &lt;x1/&gt;supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
       </tuv>
     </tu>
     <tu>
