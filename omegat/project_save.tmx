@@ -424,8 +424,8 @@
       <tuv lang="ru">
         <seg>Это позволяет более гибко реализовывать логику обработки данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T071118Z" creationid="Марианна" creationdate="20200715T071118Z">
-        <seg>It enables for more flexible implementation of the data preocessing logics.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T072417Z" creationid="Марианна" creationdate="20200715T071118Z">
+        <seg>It enables for more flexible implementation of the data processing logics.</seg>
       </tuv>
     </tu>
     <tu>
