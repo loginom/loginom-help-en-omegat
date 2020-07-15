@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменные так же могут быть использованы для того, чтобы задать параметры настроек узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
+        <seg>Variables can be also used to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
@@ -334,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, настройки узлов могут быть предметом вычисления в ходе выполнения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T071014Z" creationid="Марианна" creationdate="20200715T071014Z">
+        <seg>Thus, the node settings can be the calculation subject matter in the course of the workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, от узла к узлу может передаваться список переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
@@ -346,6 +362,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070005Z" creationid="Марианна" creationdate="20200715T070005Z">
         <seg>Such port can accept several variables as input data or deliver them as output data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Управляющие переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T070537Z" creationid="Марианна" creationdate="20200715T070537Z">
+        <seg>The control variables.</seg>
       </tuv>
     </tu>
     <tu>
