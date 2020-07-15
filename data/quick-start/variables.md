@@ -17,7 +17,7 @@ Examples of the variables use:
 
 Variables can be also used to set parameters of the node settings.
 
-Thus, the node settings can be the calculation subject matter in the course of the workflow execution. It enables for more flexible implementation of the data preocessing logics.
+Thus, the node settings can be the calculation subject matter in the course of the workflow execution. It enables for more flexible implementation of the data processing logics.
 
 Examples of the control variables use:
 
