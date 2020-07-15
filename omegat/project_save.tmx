@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Производный компонент можно создать из комбинации узлов сценария, реализующих произвольную логику обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092841Z" creationid="Марианна" creationdate="20200715T092841Z">
+        <seg>The derived components can be created from combination of the workflow nodes implementing the random processing logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Производный узел будет иметь те же настройки, что и выбранное подключение, однако, их возможно переопределить в мастере настройки узла (при этом настройки подключения, от которого был унаследован узел, не изменятся).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102521Z" creationid="Марианна" creationdate="20200711T102427Z">
