@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для решения задач анализа &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; позволяет импортировать данные из различных источников и применять к ним необходимые алгоритмы обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090509Z" creationid="Марианна" creationdate="20200715T090312Z">
+        <seg>To solve the analysis tasks &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; allows for data import from different sources and application of the required processing algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания узла:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
@@ -432,8 +440,8 @@
       <tuv lang="ru">
         <seg>Это позволяет более гибко реализовывать логику обработки данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T072417Z" creationid="Марианна" creationdate="20200715T071118Z">
-        <seg>It enables for more flexible implementation of the data processing logics.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T090332Z" creationid="Марианна" creationdate="20200715T071118Z">
+        <seg>It allows for more flexible implementation of the data processing logics.</seg>
       </tuv>
     </tu>
     <tu>
