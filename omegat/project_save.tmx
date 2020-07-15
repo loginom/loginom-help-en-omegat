@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
+        <seg>Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "&lt;x1/&gt;black box&lt;x2/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Результаты можно просмотреть в самой системе или экспортировать в сторонние приемники данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090740Z" creationid="Марианна" creationdate="20200715T090740Z">
