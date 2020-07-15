@@ -70,10 +70,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; — создаются и настраиваются пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092325Z" creationid="Марианна" creationdate="20200715T092325Z">
+        <seg>&lt;x1/&gt;Derived components&lt;x2/&gt; are created and configured by users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
         <seg>&lt;x1/&gt;Creation of the connection node in the workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартные компоненты&lt;x2/&gt; — предоставляются в рамках платформы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092253Z" creationid="Марианна" creationdate="20200715T092253Z">
+        <seg>&lt;x1/&gt;Standard components&lt;x2/&gt; are provided by the platform.</seg>
       </tuv>
     </tu>
     <tu>
