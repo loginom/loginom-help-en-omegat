@@ -486,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узлы сценария создаются из компонентов 2-х типов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092204Z" creationid="Марианна" creationdate="20200715T092204Z">
+        <seg>The workflow nodes are created from 2 types of components :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Управляющие переменные</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T072253Z" creationid="Марианна" creationdate="20200715T070537Z">
