@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — последовательность действий, которые необходимо провести для анализа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091311Z" creationid="Марианна" creationdate="20200715T091311Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; is a sequence of actions that must be performed for data analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — содержит последовательность узлов обработки данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111733Z" creationid="Марианна" creationdate="20200713T111733Z">
@@ -226,6 +234,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
         <seg>It allows for import of the database table or results of execution of the SQL query set by the user and view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091406Z" creationid="Марианна" creationdate="20200715T091406Z">
+        <seg>It is a combination of data processing nodes configured by a user to solve particular tasks.</seg>
       </tuv>
     </tu>
     <tu>
@@ -426,6 +442,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070005Z" creationid="Марианна" creationdate="20200715T070005Z">
         <seg>Such port can accept several variables as input data or deliver them as output data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел сценария выполняет отдельную операцию над данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091456Z" creationid="Марианна" creationdate="20200715T091456Z">
+        <seg>The workflow node performs a separate operation with data.</seg>
       </tuv>
     </tu>
     <tu>
