@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это позволяет более гибко реализовывать логику обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T071118Z" creationid="Марианна" creationdate="20200715T071118Z">
+        <seg>It enables for more flexible implementation of the data preocessing logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этот файл защищает открытый пакет от возможности редактировать или удалить его другими пользователями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
