@@ -318,10 +318,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перечень возможных операций представлен палитрой готовых &lt;x1/&gt;компонентов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091601Z" creationid="Марианна" creationdate="20200715T091601Z">
+        <seg>A list of possible operations is represented by a number of ready&lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
         <seg>This file is deleted upon the package closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательность обработки задается соединением выхода предыдущего узла сценария с входом последующего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091738Z" creationid="Марианна" creationdate="20200715T091738Z">
+        <seg>The processing sequence is determined by connection by the previous workflow node output and input of the subsequent one.</seg>
       </tuv>
     </tu>
     <tu>
