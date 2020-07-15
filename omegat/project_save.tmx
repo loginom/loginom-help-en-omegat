@@ -534,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чаще всего для создания производного компонента используется &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T093244Z" creationid="Марианна" creationdate="20200715T093244Z">
+        <seg>The &lt;x1/&gt;Supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Шаг 1.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095558Z" creationid="Марианна" creationdate="20200711T095558Z">
