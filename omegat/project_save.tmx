@@ -336,8 +336,8 @@
       <tuv lang="ru">
         <seg>Последовательность обработки задается соединением выхода предыдущего узла сценария с входом последующего.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T091738Z" creationid="Марианна" creationdate="20200715T091738Z">
-        <seg>The processing sequence is determined by connection by the previous workflow node output and input of the subsequent one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091814Z" creationid="Марианна" creationdate="20200715T091738Z">
+        <seg>The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one.</seg>
       </tuv>
     </tu>
     <tu>
