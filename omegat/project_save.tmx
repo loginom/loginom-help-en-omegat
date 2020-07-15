@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменная в качестве параметра SQL-запроса при &lt;x1/&gt;Импорте из базы данных&lt;x2/&gt;, переменная содержит текст SQL-запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T072020Z" creationid="Марианна" creationdate="20200715T072020Z">
+        <seg>The variable as the SQL query parameter in the case of &lt;x1/&gt;Import from database&lt;x2/&gt; contains the SQL query text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменная в качестве параметра компонента &lt;x1/&gt;Условие&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070455Z" creationid="Марианна" creationdate="20200715T070455Z">
