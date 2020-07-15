@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример сценария.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T092012Z" creationid="Марианна" creationdate="20200715T092012Z">
+        <seg>&lt;x1/&gt;Workflow example&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
         <seg>All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входом и выходом обработчика являются &lt;x1/&gt;входные&lt;x2/&gt; и &lt;x3/&gt;выходные &lt;x4/&gt;порты&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T091949Z" creationid="Марианна" creationdate="20200715T091949Z">
+        <seg>The handler input and output are &lt;x1/&gt;input&lt;x2/&gt; and &lt;x3/&gt;output &lt;x4/&gt;ports&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
