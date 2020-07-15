@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — именованное значение одного из возможных &lt;x3/&gt;типов данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T065653Z" creationid="Марианна" creationdate="20200715T065653Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; is a named value of one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt; — в них представлен список внешних источников и приемников данных, к которым можно подключиться;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111907Z" creationid="Марианна" creationdate="20200713T111907Z">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135639Z" creationid="Марианна" creationdate="20200711T104436Z">
         <seg>Separate handler &lt;x1/&gt;Import from database&lt;x2/&gt; is used to receive data from the database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для приема и передачи от узла к узлу переменных предусмотрен порт переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200715T065755Z" creationid="Марианна" creationdate="20200715T065755Z">
+        <seg>The variables port is designated for receipt and transfer of variables from node to node.</seg>
       </tuv>
     </tu>
     <tu>
