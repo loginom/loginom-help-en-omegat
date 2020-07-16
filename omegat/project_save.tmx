@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Определяют настройки для работы с внешними источниками и приемниками данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
+        <seg>They define configuration for work with external sources and data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100908Z" creationid="Марианна" creationdate="20200711T100746Z">
