@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Его можно разделить на четыре основные области (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T123020Z" creationid="Марианна" creationdate="20200716T123020Z">
+        <seg>It can be divided into four main areas (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интеграция с базами данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
