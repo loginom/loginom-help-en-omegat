@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входы узла могут настраиваться автоматически (при подключении связи) или вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T094626Z" creationid="Марианна" creationdate="20200716T094626Z">
+        <seg>The node inputs can be automatically (in the case of connection) or manually configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
@@ -290,6 +298,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111545Z" creationid="Марианна" creationdate="20200713T111545Z">
         <seg>Each package contains at least one module.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество входов и выходов узла варьируется в зависимости от функционала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T093609Z" creationid="Марианна" creationdate="20200716T093547Z">
+        <seg>Number of the node inputs and outputs varies according to functionality.</seg>
       </tuv>
     </tu>
     <tu>
