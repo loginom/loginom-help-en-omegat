@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
+        <seg>Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: &lt;x7/&gt;user&lt;x8/&gt;, without password.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модуль включает в себя:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111621Z" creationid="Марианна" creationdate="20200713T111621Z">
@@ -370,6 +378,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090041Z" creationid="Марианна" creationdate="20200715T090041Z">
         <seg>Start of Work</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необходимо войти в систему, введя свой логин и пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T120652Z" creationid="Марианна" creationdate="20200716T120652Z">
+        <seg>It is required to log in having enered password and login.</seg>
       </tuv>
     </tu>
     <tu>
