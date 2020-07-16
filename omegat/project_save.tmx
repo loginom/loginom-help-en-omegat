@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
+        <seg>The main menu with the following buttons is located on the left: Menu, Packages, Navigation, &lt;x1/&gt;Files&lt;x2/&gt;, &lt;x3/&gt;Processes&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание подключения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
