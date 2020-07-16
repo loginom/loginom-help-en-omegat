@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Представляет собой структурированный набор данных, где все данные упорядочены в двумерную структуру, состоящую из столбцов и строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075712Z" creationid="Марианна" creationdate="20200716T075712Z">
+        <seg>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры использования переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
