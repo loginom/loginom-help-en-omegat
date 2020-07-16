@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В нижней части окна расположена панель Процессы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
+        <seg>The Processes panel is located in the lower part of the window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В состав подмодели могут также включаться и другие подмодели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074243Z" creationid="Марианна" creationdate="20200716T074243Z">
@@ -454,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он включает левую панель, где отображаются рабочие компоненты и структура решения (пакеты и их составные части), а также непосредственно область построения сценария и визуализации данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140615Z" creationid="Марианна" creationdate="20200716T140615Z">
+        <seg>It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
@@ -570,6 +586,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102149Z" creationid="Марианна" creationdate="20200715T091601Z">
         <seg>A list of possible operations is represented by a number of ready &lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию она скрыта, но ее можно закрепить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140736Z" creationid="Марианна" creationdate="20200716T140736Z">
+        <seg>It is concealed by default but it is possibble to lock it.</seg>
       </tuv>
     </tu>
     <tu>
