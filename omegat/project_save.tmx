@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; и &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T115803Z" creationid="Марианна" creationdate="20200716T115803Z">
+        <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; and &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В состав подмодели могут также включаться и другие подмодели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074243Z" creationid="Марианна" creationdate="20200716T074243Z">
@@ -418,6 +426,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T103144Z" creationid="Марианна" creationdate="20200711T103144Z">
         <seg>Parameters of connection to the data source are used by the data &lt;x1/&gt;import&lt;x2/&gt;/&lt;x3/&gt;export&lt;x4/&gt; nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Первый сценарий</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T103442Z" creationid="Марианна" creationdate="20200716T103442Z">
+        <seg>The First Workflow</seg>
       </tuv>
     </tu>
     <tu>
