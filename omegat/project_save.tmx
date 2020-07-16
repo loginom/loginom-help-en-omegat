@@ -208,8 +208,8 @@
       <tuv lang="ru">
         <seg>Входы узла могут настраиваться автоматически (при подключении связи) или вручную.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T094626Z" creationid="Марианна" creationdate="20200716T094626Z">
-        <seg>The node inputs can be automatically (in the case of connection) or manually configured.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T103225Z" creationid="Марианна" creationdate="20200716T094626Z">
+        <seg>The node inputs can be automatically (when providing a link) or manually configured.</seg>
       </tuv>
     </tu>
     <tu>
