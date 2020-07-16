@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — создание нового пакета без предварительного сохранения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122116Z" creationid="Марианна" creationdate="20200716T122116Z">
+        <seg>&lt;x1/&gt;Create a draft&lt;x2/&gt; — creation of the new package without preliminary saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранение пакета.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
