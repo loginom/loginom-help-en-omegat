@@ -112,8 +112,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Узлы подмодели «ABC-анализ».&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T074016Z" creationid="Марианна" creationdate="20200716T074016Z">
-        <seg>&lt;x1/&gt;"ABC analysis" Supernode Nodes&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074036Z" creationid="Марианна" creationdate="20200716T074016Z">
+        <seg>&lt;x1/&gt;"ABC Analysis" Supernode Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В состав подмодели могут также включаться и другие подмодели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074243Z" creationid="Марианна" creationdate="20200716T074243Z">
+        <seg>The supernode can also include other supernodes.</seg>
       </tuv>
     </tu>
     <tu>
