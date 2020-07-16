@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Узлы подмодели «ABC-анализ».&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T074016Z" creationid="Марианна" creationdate="20200716T074016Z">
+        <seg>&lt;x1/&gt;"ABC analysis" Supernode Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все действия с проектом в Loginom осуществляются в рамках Пакета, который является минимальной единицей поставки и представляет собой контейнер для компонентов, сценариев, подключений и т.д.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
