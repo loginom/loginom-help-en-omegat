@@ -472,8 +472,8 @@
       <tuv lang="ru">
         <seg>Перечень возможных операций представлен палитрой готовых &lt;x1/&gt;компонентов&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T091601Z" creationid="Марианна" creationdate="20200715T091601Z">
-        <seg>A list of possible operations is represented by a number of ready&lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102149Z" creationid="Марианна" creationdate="20200715T091601Z">
+        <seg>A list of possible operations is represented by a number of ready &lt;x1/&gt;components&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
