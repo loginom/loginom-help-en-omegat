@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122254Z" creationid="Марианна" creationdate="20200716T122254Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использование узла подключения.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104323Z" creationid="Марианна" creationdate="20200711T104323Z">
@@ -74,6 +82,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112223Z" creationid="Марианна" creationdate="20200713T112223Z">
         <seg>&lt;x1/&gt;Components&lt;x2/&gt; include the supernodes available for work, both created within the current package and borrowed from other packages using links.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122231Z" creationid="Марианна" creationdate="20200716T122231Z">
+        <seg>&lt;x1/&gt;Open a package&lt;x2/&gt; — opening of the earlier created package.</seg>
       </tuv>
     </tu>
     <tu>
@@ -714,6 +730,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111519Z" creationid="Марианна" creationdate="20200713T111519Z">
         <seg>Corresponding objects are available only if they are published for shared access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сохранить пакет можно будет уже во время работы с ним.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122151Z" creationid="Марианна" creationdate="20200716T122151Z">
+        <seg>It is possible to save the package only during the process of work with it.</seg>
       </tuv>
     </tu>
     <tu>
