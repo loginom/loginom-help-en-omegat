@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140301Z" creationid="Марианна" creationdate="20200716T140301Z">
+        <seg>The upper part displays tabs of the opened packages. It contains address line and navigation elements for packages and their parts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Виды портов узлов сценария:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074935Z" creationid="Марианна" creationdate="20200716T074935Z">
