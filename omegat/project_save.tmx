@@ -192,8 +192,8 @@
       <tuv lang="ru">
         <seg>Входные и выходные порты задаются пользователем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T073132Z" creationid="Марианна" creationdate="20200716T073132Z">
-        <seg>Input and output ports are set by the user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102723Z" creationid="Марианна" creationdate="20200716T073132Z">
+        <seg>Input and output ports are set by a user.</seg>
       </tuv>
     </tu>
     <tu>
