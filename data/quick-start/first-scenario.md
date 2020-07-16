@@ -12,18 +12,18 @@ Upon authorization the action selection window will be opened (the [Start](../in
 
 Upon package selection, a user will enter the working space of the software. It can be divided into four main areas (refer to Figure 1):
 
-1. Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, [Файлы](../location_user_files.md), [Процессы](../interface/processes-panel.md).
-2. Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.
-3. Справа от главного меню располагается рабочий стол. Он включает левую панель, где отображаются рабочие компоненты и структура решения (пакеты и их составные части), а также непосредственно область построения сценария и визуализации данных.
-4. В нижней части окна расположена панель Процессы. По умолчанию она скрыта, но ее можно закрепить.
+1. The main menu with the following buttons is located on the left: Menu, Packages, Navigation, [Files](../location_user_files.md), [Processes](../interface/processes-panel.md).
+2. The upper part displays tabs of the opened packages. It contains address line and navigation elements for packages and their parts.
+3. Desktop is located to the right of the main menu. It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.
+4. The Processes panel is located in the lower part of the window. It is concealed by default but it is possibble to lock it.
 
-![Рабочее пространство Studio.](./first-scenario-1.png)
+![Working Space of Studio.](./first-scenario-1.png)
 
-После создания пакета пользователь увидит Область построения сценария (6) и панель Компоненты (5), содержащую стандартные компоненты, предоставляемые платформой (см. Figure 2).
+Upon package creation a user will see the Workflow Construction Area (6) and the Components panel (5) which contains the standard components provided by the platform (refer to Figure 2).
 
-![Область построения сценария и панель Компоненты.](./first-scenario-2.png)
+![The Workflow Construction Area and the Components Panel](./first-scenario-2.png)
 
-В простейшем случае сценарий импортирует данные из внешних источников, либо преобразовывает их и экспортирует (выводит в отчет).
+In the simplest case the workflow will import the data from the external sources or it will transform them and export (send to report).
 Создадим простой сценарий, формирующий ТОП10 лучших клиентов.
 
 Сценарий выполнит действия:
