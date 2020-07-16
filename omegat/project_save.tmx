@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; Переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075841Z" creationid="Марианна" creationdate="20200716T075841Z">
+        <seg>&lt;x1/&gt; Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; Таблица</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075023Z" creationid="Марианна" creationdate="20200716T075023Z">
@@ -130,6 +138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074243Z" creationid="Марианна" creationdate="20200716T074243Z">
         <seg>The supernode can also include other supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075828Z" creationid="Марианна" creationdate="20200716T075828Z">
+        <seg>Cells of such table contain the data elements: rows, numbers, dates, logical values.</seg>
       </tuv>
     </tu>
     <tu>
