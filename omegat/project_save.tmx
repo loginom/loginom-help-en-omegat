@@ -774,6 +774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Справа от главного меню располагается рабочий стол.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T140347Z" creationid="Марианна" creationdate="20200716T140347Z">
+        <seg>Desktop is located to the right of the main menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
