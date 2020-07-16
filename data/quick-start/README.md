@@ -8,7 +8,7 @@ One of the main concepts on which the [**Loginom**](https://loginom.ru) platform
 
 The **Workflow** is a sequence of actions that must be performed for data analysis. It is a combination of data processing nodes configured by a user to solve particular tasks.
 
-The workflow node performs a separate operation with data. A list of possible operations is represented by a number of ready*components*.
+The workflow node performs a separate operation with data. A list of possible operations is represented by a number of ready *components*.
 
 The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one. The handler input and output are *input* and *output [ports](../scenario/ports/README.md)*.
 
