@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T073105Z" creationid="Марианна" creationdate="20200716T073105Z">
+        <seg>The supernode accepts information by means of input ports, performs processing and sends results to output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подмодель является специальным узлом, способным включать в себя другие узлы сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093352Z" creationid="Марианна" creationdate="20200715T093352Z">
