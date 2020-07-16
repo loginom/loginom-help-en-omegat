@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; Дерево</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T080126Z" creationid="Марианна" creationdate="20200716T080126Z">
+        <seg>&lt;x1/&gt; Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; Переменные</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075841Z" creationid="Марианна" creationdate="20200716T075841Z">
@@ -478,10 +486,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Представляет собой набор данных в иерархической древовидной структуре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T080246Z" creationid="Марианна" creationdate="20200716T080246Z">
+        <seg>It is a set of data in the form of hierarchic tree-like structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представляет собой структурированный набор данных, где все данные упорядочены в двумерную структуру, состоящую из столбцов и строк.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075712Z" creationid="Марианна" creationdate="20200716T075712Z">
         <seg>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляют собой объекты, содержащие только одно значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T075918Z" creationid="Марианна" creationdate="20200716T075918Z">
+        <seg>They are objects containing only one value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -538,6 +562,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090740Z" creationid="Марианна" creationdate="20200715T090740Z">
         <seg>It is possible to view results in the system or to export them to the external data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
+        <seg>It is possible to transform the data from tables to variables and vice versa using the special handlers.</seg>
       </tuv>
     </tu>
     <tu>
