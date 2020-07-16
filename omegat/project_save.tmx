@@ -504,8 +504,8 @@
       <tuv lang="ru">
         <seg>Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T093451Z" creationid="Марианна" creationdate="20200716T093406Z">
-        <seg>As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are defferently identified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T102924Z" creationid="Марианна" creationdate="20200716T093406Z">
+        <seg>As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.</seg>
       </tuv>
     </tu>
     <tu>
