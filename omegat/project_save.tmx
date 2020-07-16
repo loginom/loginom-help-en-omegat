@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранение пакета.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
+        <seg>&lt;x1/&gt;Save Package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Стандартные компоненты&lt;x2/&gt; — предоставляются в рамках платформы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092253Z" creationid="Марианна" creationdate="20200715T092253Z">
@@ -152,8 +160,8 @@
       <tuv lang="ru">
         <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; и &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T115803Z" creationid="Марианна" creationdate="20200716T115803Z">
-        <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; and &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T120500Z" creationid="Марианна" creationdate="20200716T115803Z">
+        <seg>In the case of &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; and &lt;x5/&gt;Team&lt;x6/&gt; delivery versions, when starting the program home login page is opened.</seg>
       </tuv>
     </tu>
     <tu>
@@ -802,6 +810,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104258Z" creationid="Марианна" creationdate="20200711T104258Z">
         <seg>Figure 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 9).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
+        <seg>Figure 9).</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
