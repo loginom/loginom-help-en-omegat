@@ -17,7 +17,7 @@ The processing sequence is determined by connection of the previous workflow nod
 The workflow nodes are created from 2 types of components :
 
 * **Standard components** are provided by the platform.
-* **Derived components** are created and configured by users.
+* **Derived components** are created and configured by a user.
 
 The derived components can be created from combination of the workflow nodes implementing the random processing logics.
 
