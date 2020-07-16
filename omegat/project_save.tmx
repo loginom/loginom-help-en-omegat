@@ -486,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T093406Z" creationid="Марианна" creationdate="20200716T093406Z">
+        <seg>As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other and have different identification.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
