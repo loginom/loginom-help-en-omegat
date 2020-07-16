@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать пакет&lt;x2/&gt; — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T121353Z" creationid="Марианна" creationdate="20200716T121353Z">
+        <seg>&lt;x1/&gt;Create a package&lt;x2/&gt; — creation of the new package. You will be asked to show the path to save the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранение пакета.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
@@ -554,6 +562,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102924Z" creationid="Марианна" creationdate="20200716T093406Z">
         <seg>As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После авторизации открывается окно выбора действий (страница &lt;x1/&gt;Начало&lt;x2/&gt;), в котором можно выполнять следующие операции с пакетами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T121239Z" creationid="Марианна" creationdate="20200716T121239Z">
+        <seg>Upon authorization the action selection window will be opened (the &lt;x1/&gt;Start&lt;x2/&gt; page). Using this window you can perform the following operations with packages.</seg>
       </tuv>
     </tu>
     <tu>
