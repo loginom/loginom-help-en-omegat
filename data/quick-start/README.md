@@ -25,7 +25,7 @@ Thus, a set of tools for implementation of different data processing logics is n
 
 The [supernode](../processors/control/submodel.md) is most commonly used to create the derived component.
 
-The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "[black box](https://wiki.loginom.ru/articles/black-box.html)". The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by the user.
+The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "[black box](https://wiki.loginom.ru/articles/black-box.html)". The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by a user.
 
 The "Workflow Example" figure shows the ["ABC analysis"](https://wiki.loginom.ru/articles/abc-analysis.html) node that is a derived component - supernode.
 

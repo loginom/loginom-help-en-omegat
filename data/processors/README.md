@@ -21,7 +21,7 @@ The workflow nodes are created from 2 types of components :
 
 The [supernode](./control/submodel.md) is most commonly used to create the derived component. The supernode is a special node that can include other workflow nodes. Реализованная в Подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «черный ящик».
 
-The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by the user.
+The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by a user.
 
 От обработчика к обработчику могут передаваться как наборы данных - таблицы, так и переменные - объекты, содержащие лишь одно значение. Статистические данные таблиц (например, сумма по столбцу, среднее значение и т.д.) при помощи специального обработчика могут быть преобразованы в переменные.
 
