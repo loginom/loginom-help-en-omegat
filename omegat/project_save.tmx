@@ -64,8 +64,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T122254Z" creationid="Марианна" creationdate="20200716T122254Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122824Z" creationid="Марианна" creationdate="20200716T122254Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; the software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.</seg>
       </tuv>
     </tu>
     <tu>
