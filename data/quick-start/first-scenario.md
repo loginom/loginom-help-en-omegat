@@ -1,16 +1,16 @@
-# Первый сценарий
+# The First Workflow
 
-В вариантах поставки [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) и [Team](https://loginom.ru/platform/pricing#edition-team) при запуске программы открывается стартовая страница с авторизацией. Необходимо войти в систему, введя свой логин и пароль. Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: *user*, без пароля. В варианте [Personal](https://loginom.ru/platform/pricing#edition-personal) авторизация отсутствует.
+In the case of [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery versions, when starting the software home login page is opened. It is required to log in having enered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
 
-После авторизации открывается окно выбора действий (страница [Начало](../interface/home-page.md)), в котором можно выполнять следующие операции с пакетами.
+Upon authorization the action selection window will be opened (the [Start](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
 
-* **Создать пакет** — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.
-* **Создать черновик** — создание нового пакета без предварительного сохранения. Сохранить пакет можно будет уже во время работы с ним.
-* **Открыть пакет** — открытие ранее созданного пакета.
+* **Create a package** — creation of the new package. You will be asked to show the path to save the package.
+* **Create a draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
+* **Open a package** — opening of the earlier created package.
 
-> **Важно:** программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.
+> **Important:** the software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.
 
-После выбора пакета пользователь попадает в рабочее пространство программы. Его можно разделить на четыре основные области (см. Figure 1):
+Upon package selection, a user will enter the working space of the software. It can be divided into four main areas (refer to Figure 1):
 
 1. Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, [Файлы](../location_user_files.md), [Процессы](../interface/processes-panel.md).
 2. Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.
@@ -64,6 +64,6 @@
 
 В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях. Принципы создания решений на основе собственных компонентов рассматриваются в статье [Проектирование сценариев](../scenario/README.md).
 
-Перед закрытием пакета его необходимо *сохранить*. Это можно сделать в меню Пакеты (см. рисунок 9).
+Перед закрытием пакета его необходимо *сохранить*. Это можно сделать в меню Пакеты (см. Figure 9).
 
-![Сохранение пакета.](./first-scenario-9.png)
+![Save Package](./first-scenario-9.png)
