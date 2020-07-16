@@ -598,6 +598,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После выбора пакета пользователь попадает в рабочее пространство программы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200716T122939Z" creationid="Марианна" creationdate="20200716T122939Z">
+        <seg>Upon package selection, a user will enter the working space of the software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
