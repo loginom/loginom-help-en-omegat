@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/components/arimax_default.svg) ARIMAX
 
-## Описание
+## Description
 
 **ARIMAX** (**A**uto**R**egressive **I**ntegrated **M**oving **A**verage e**X**tended) — это математическая модель для анализа [временных рядов](https://wiki.loginom.ru/articles/time-series.html), объединяющая в себе интегрированную [авторегрессию](https://wiki.loginom.ru/articles/autoregressive-model.html), [скользящее среднее](https://wiki.loginom.ru/articles/moving-average.html) и возможность учета дополнительных внешних [факторов](https://wiki.loginom.ru/articles/factor.html).
 

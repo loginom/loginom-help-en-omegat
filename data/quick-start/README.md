@@ -25,39 +25,39 @@ Thus, a set of tools for implementation of different data processing logics is n
 
 The [supernode](../processors/control/submodel.md) is most commonly used to create the derived component.
 
-The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "[black box](https://wiki.loginom.ru/articles/black-box.html)". Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты. Входные и выходные порты задаются пользователем.
+The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "[black box](https://wiki.loginom.ru/articles/black-box.html)". The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by the user.
 
-На рисунке «Пример сценария» узел [«ABC-анализ»](https://wiki.loginom.ru/articles/abc-analysis.html) является производным компонентом — подмоделью.
+The "Workflow Example" figure shows the ["ABC analysis"](https://wiki.loginom.ru/articles/abc-analysis.html) node that is a derived component - supernode.
 
-![Узлы подмодели «ABC-анализ».](./readme-2.png)
+!["ABC Analysis" Supernode Nodes](./readme-2.png)
 
-В состав подмодели могут также включаться и другие подмодели. Вложенность подмоделей друг в друга не ограничена.
+The supernode can also include other supernodes. Nesting of supernodes inside each other is not limited.
 
-Виды портов узлов сценария:
+Types of ports of the workflow nodes:
 
 <table>
     <tr>
-        <th align="left" width="150">Порт</th>
-        <th align="left">Описание</th>
+        <th align="left" width="150">Port</th>
+        <th align="left">Description</th>
     </tr>
     <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Таблица</td>
-        <td>Представляет собой структурированный набор данных, где все данные упорядочены в двумерную структуру, состоящую из столбцов и строк. В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Table</td>
+        <td>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows. Cells of such table contain the data elements: rows, numbers, dates, logical values.</td>
     </tr>
     <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Переменные</td>
-        <td>Представляют собой объекты, содержащие только одно значение. С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Variables</td>
+        <td>They are objects containing only one value. It is possible to transform the data from tables to variables and vice versa using the special handlers.</td>
     </tr>
      <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Дерево</td>
-        <td>Представляет собой набор данных в иерархической древовидной структуре.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Tree</td>
+        <td>It is a set of data in the form of hierarchic tree-like structure.</td>
     </tr>
     <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/link_inactive.svg"> Подключения</td>
-        <td>Определяют настройки для работы с внешними источниками и приемниками данных.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/link_inactive.svg"> Connections</td>
+        <td>They define configuration for work with external sources and data receivers.</td>
     </tr>
 </table>
 
-Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.
+As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are defferently identified.
 
-Количество входов и выходов узла варьируется в зависимости от функционала. Входы узла могут настраиваться автоматически (при подключении связи) или вручную.
+Number of the node inputs and outputs varies according to functionality. The node inputs can be automatically (in the case of connection) or manually configured.
