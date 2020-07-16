@@ -60,4 +60,4 @@ Types of ports of the workflow nodes:
 
 As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
 
-Number of the node inputs and outputs varies according to functionality. The node inputs can be automatically (in the case of connection) or manually configured.
+Number of the node inputs and outputs varies according to functionality. The node inputs can be automatically (when providing a link) or manually configured.
