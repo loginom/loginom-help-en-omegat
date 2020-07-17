@@ -24,7 +24,7 @@ Upon package creation, a user will see the Workflow Construction Area (6) and th
 ![The Workflow Construction Area and the Components Panel](./first-scenario-2.png)
 
 In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).
-Let's create a simple workflow that will form TOP10 of the best clients.
+Let's create a simple workflow that will form TOP10 list of the best clients.
 
 The workflow will perform the following actions:
 
