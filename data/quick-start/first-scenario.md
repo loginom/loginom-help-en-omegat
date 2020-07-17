@@ -2,7 +2,7 @@
 
 In the case of the [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery versions, when starting the software, the home login page is opened. It is required to log in having entered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
 
-Upon authorization the action selection window will be opened (the [Start](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
+Upon authorization, the action selection window will be opened (the [Start](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
 
 * **Create a package** — creation of the new package. You will be asked to show the path to save the package.
 * **Create a draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
@@ -15,15 +15,15 @@ Upon package selection, a user will enter the working space of the software. It 
 1. The main menu with the following buttons is located on the left: Menu, Packages, Navigation, [Files](../location_user_files.md), [Processes](../interface/processes-panel.md).
 2. The upper part displays tabs of the opened packages. It contains address line and navigation elements for packages and their parts.
 3. Desktop is located to the right of the main menu. It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.
-4. The Processes panel is located in the lower part of the window. It is concealed by default but it is possibble to lock it.
+4. The Processes panel is located in the lower part of the window. It is concealed by default, but it is possibble to lock it.
 
 ![Working Space of Studio.](./first-scenario-1.png)
 
-Upon package creation a user will see the Workflow Construction Area (6) and the Components panel (5) which contains the standard components provided by the platform (refer to Figure 2).
+Upon package creation, a user will see the Workflow Construction Area (6) and the Components panel (5) which contains the standard components provided by the platform (refer to Figure 2).
 
 ![The Workflow Construction Area and the Components Panel](./first-scenario-2.png)
 
-In the simplest case the workflow will import the data from the external sources or it will transform them and export (send to report).
+In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).
 Let's create a simple workflow that will form TOP10 of the best clients.
 
 The workflow will perform the following actions:
