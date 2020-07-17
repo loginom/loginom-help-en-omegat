@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вызовем &lt;x3/&gt;Мастер настройки&lt;x4/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085727Z" creationid="Марианна" creationdate="20200717T085727Z">
+        <seg>Call the &lt;x3/&gt;Wizard&lt;x4/&gt; (refer to.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135639Z" creationid="Марианна" creationdate="20200711T104436Z">
@@ -746,6 +754,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075918Z" creationid="Марианна" creationdate="20200716T075918Z">
         <seg>They are objects containing only one value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При клике мышкой на узле отобразятся иконки возможных действий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
+        <seg>Icons of possible actions will be displayed after mouse click.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом создастся узел сценария, выполняющий действие импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085535Z" creationid="Марианна" creationdate="20200717T085535Z">
+        <seg>In this case the workflow node responsible for import is created.</seg>
       </tuv>
     </tu>
     <tu>
