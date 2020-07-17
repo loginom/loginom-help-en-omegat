@@ -942,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Принципы проектирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114738Z" creationid="Марианна" creationdate="20200717T114738Z">
+        <seg>Design Principles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Принципы создания решений на основе собственных компонентов рассматриваются в статье &lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
