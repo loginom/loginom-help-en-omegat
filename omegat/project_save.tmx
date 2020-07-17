@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111232Z" creationid="Марианна" creationdate="20200717T111232Z">
+        <seg>&lt;x1/&gt;Selection of Block of Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вызов быстрого просмотра.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100751Z" creationid="Марианна" creationdate="20200717T100751Z">
@@ -234,6 +242,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101314Z" creationid="Марианна" creationdate="20200717T101314Z">
         <seg>&lt;x1/&gt;Establish Connection&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110908Z" creationid="Марианна" creationdate="20200717T110908Z">
+        <seg>Block of the nodes forming TOP 10 of clients can be grouped as a separate function by placing them to the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -466,6 +482,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110526Z" creationid="Марианна" creationdate="20200717T110526Z">
         <seg>For this purpose, the &lt;x3/&gt;Row filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" antecedent is set in its wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого необходимо выделить эти узлы и при помощи кнопки &lt;x3/&gt;&lt;x4/&gt; создать подмодель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111038Z" creationid="Марианна" creationdate="20200717T111038Z">
+        <seg>For this purpose, it is required to select these nodes and using the &lt;x3/&gt;&lt;x4/&gt; button create a supernode.</seg>
       </tuv>
     </tu>
     <tu>
