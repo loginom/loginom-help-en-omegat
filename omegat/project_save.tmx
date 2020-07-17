@@ -822,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пройдем шаги мастера, указав в параметре Имя файла местоположение файла Sales.txt.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100236Z" creationid="Марианна" creationdate="20200717T100236Z">
+        <seg>Follow the wizard steps having specified the Sales.txt file location in the File Name parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
