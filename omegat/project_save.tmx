@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Экспорт полученных результатов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084917Z" creationid="Марианна" creationdate="20200717T084917Z">
+        <seg>Export of the received results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это позволяет более гибко реализовывать логику обработки данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090332Z" creationid="Марианна" creationdate="20200715T071118Z">
