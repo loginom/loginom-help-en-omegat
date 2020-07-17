@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого переместим компонент &lt;x1/&gt;Группировка&lt;x2/&gt; в рабочую область сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T101034Z" creationid="Марианна" creationdate="20200717T101034Z">
+        <seg>For this purpose, trasfer the &lt;x1/&gt;Grouping&lt;x2/&gt; component to the working workflow area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Его можно разделить на четыре основные области (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T123020Z" creationid="Марианна" creationdate="20200716T123020Z">
@@ -874,6 +882,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
         <seg>The main menu with the following buttons is located on the left: Menu, Packages, Navigation, &lt;x1/&gt;Files&lt;x2/&gt;, &lt;x3/&gt;Processes&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следующим шагом в алгоритме необходимо подсчитать общие суммы покупок по всем клиентам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100900Z" creationid="Марианна" creationdate="20200717T100900Z">
+        <seg>The next algorithm step is calculation of purchase sum for all clients.</seg>
       </tuv>
     </tu>
     <tu>
