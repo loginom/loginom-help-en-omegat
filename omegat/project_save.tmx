@@ -776,8 +776,8 @@
       <tuv lang="ru">
         <seg>По умолчанию она скрыта, но ее можно закрепить.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T140736Z" creationid="Марианна" creationdate="20200716T140736Z">
-        <seg>It is concealed by default but it is possibble to lock it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113849Z" creationid="Марианна" creationdate="20200716T140736Z">
+        <seg>It is concealed by default, but it is possibble to lock it.</seg>
       </tuv>
     </tu>
     <tu>
