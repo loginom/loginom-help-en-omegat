@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Результирующий сценарий.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
+        <seg>&lt;x1/&gt;Resulting Workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
@@ -266,6 +274,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T205016Z" creationid="Марианна" creationdate="20200716T205016Z">
         <seg>In the simplest case the workflow will import the data from the external sources or it will transform them and export (send to report).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результирующем сценарии добавляется узел экспорта и/или настраивается &lt;x1/&gt;Визуализатор&lt;x2/&gt; результатов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110708Z" creationid="Марианна" creationdate="20200717T110708Z">
+        <seg>The export node is added to the resulting workflow, and/or the &lt;x1/&gt;Visualiser&lt;x2/&gt; of results is configured (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -1186,6 +1202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101250Z" creationid="Марианна" creationdate="20200717T101250Z">
         <seg>Figure 5).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 6).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110715Z" creationid="Марианна" creationdate="20200717T110715Z">
+        <seg>Figure 6).</seg>
       </tuv>
     </tu>
     <tu>
