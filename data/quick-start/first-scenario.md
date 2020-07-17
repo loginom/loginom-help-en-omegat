@@ -34,7 +34,7 @@ The workflow will perform the following actions:
 
 To use any component in the workflow, it must be dragged from the component panel to the workflow construction area.
 
-Select the [Text file](../integration/import/txt-csv.md) component in the Import section and transfer it to the construction area (refer to Figure 2). In this case the workflow node responsible for import is created. Icons of possible actions will be displayed after mouse click. Call the [Wizard](../integration/import/txt-csv.md) (refer to. Figure 3).
+Select the [Text file](../integration/import/txt-csv.md) component in the Import section and transfer it to the construction area (refer to Figure 2). In this case, the workflow node responsible for import is created. Icons of possible actions will be displayed after mouse click. Call the [Wizard](../integration/import/txt-csv.md) (refer to Figure 3).
 
 ![Call node configuration wizard.](./first-scenario-3.png)
 
