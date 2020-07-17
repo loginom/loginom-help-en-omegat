@@ -758,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Последовательность обработки данных задается соединением выходного порта узла импорта с входным портом группировки (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T101209Z" creationid="Марианна" creationdate="20200717T101209Z">
+        <seg>The sequence of data processing is set by connection of the output port of the import node with the input grouping port (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательность обработки задается соединением выхода предыдущего узла сценария с входом последующего.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091814Z" creationid="Марианна" creationdate="20200715T091738Z">
