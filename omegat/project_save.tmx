@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
+        <seg>Then these data are sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data are transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135639Z" creationid="Марианна" creationdate="20200711T104436Z">
@@ -434,6 +442,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T141042Z" creationid="Марианна" creationdate="20200711T104055Z">
         <seg>For this purpose &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to the &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого используется компонент &lt;x3/&gt;Фильтр строк&lt;x4/&gt;, в мастере которого задается условие: "№ Номер строки &lt;= 10".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T110526Z" creationid="Марианна" creationdate="20200717T110526Z">
+        <seg>For this purpose, the &lt;x3/&gt;Row filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" antecedent is set in its wizard.</seg>
       </tuv>
     </tu>
     <tu>
