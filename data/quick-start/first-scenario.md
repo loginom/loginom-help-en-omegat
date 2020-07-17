@@ -56,7 +56,7 @@ The export node is added to the resulting workflow, and/or the [Visualiser](../v
 
 ![Resulting Workflow](./first-scenario-6.png)
 
-The block of the nodes forming TOP 10 of clients can be grouped as a separate function by placing them to the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using the ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
+The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them to the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using the ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
 
 ![Selection of the Block of Nodes](./first-scenario-7.png)
 
@@ -64,6 +64,6 @@ The block of the nodes forming TOP 10 of clients can be grouped as a separate fu
 
 Later on the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components. Principles of creation of the solutions based on own components are analysed in the [Design of Workflows](../scenario/README.md) article.
 
-The package must be*saved* before its closure. It can be done in the Package menu (refer to Figure 9).
+The package must be *saved* before its closure. It can be done in the Package menu (refer to Figure 9).
 
 ![Save Package](./first-scenario-9.png)
