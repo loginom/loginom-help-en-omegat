@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выделение 10 клиентов с наибольшими суммами покупок;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084902Z" creationid="Марианна" creationdate="20200717T084902Z">
+        <seg>Selection of 10 clients with the highest purchase sums.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
@@ -378,6 +386,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T123020Z" creationid="Марианна" creationdate="20200716T123020Z">
         <seg>It can be divided into four main areas (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
+        <seg>Import of the sales information from the &lt;x1/&gt;Sales.txt&lt;x2/&gt; file.</seg>
       </tuv>
     </tu>
     <tu>
@@ -790,6 +806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Создадим простой сценарий, формирующий ТОП10 лучших клиентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084604Z" creationid="Марианна" creationdate="20200717T084604Z">
+        <seg>Let's create a simple workflow that will form TOP10 of the best clients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание подключения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
@@ -842,6 +866,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
         <seg>The Links are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сценарий выполнит действия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T084625Z" creationid="Марианна" creationdate="20200717T084625Z">
+        <seg>The workflow will perform the following actions:</seg>
       </tuv>
     </tu>
     <tu>
