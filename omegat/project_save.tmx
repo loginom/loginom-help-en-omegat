@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111706Z" creationid="Марианна" creationdate="20200717T111706Z">
+        <seg>Later on the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части окна расположена панель Процессы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
