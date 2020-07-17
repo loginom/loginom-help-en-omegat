@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед закрытием пакета его необходимо &lt;x1/&gt;сохранить&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111846Z" creationid="Марианна" creationdate="20200717T111846Z">
+        <seg>The package must be&lt;x1/&gt;saved&lt;x2/&gt; before its closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перейти к подключению — переход к окну с доступными подключениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102912Z" creationid="Марианна" creationdate="20200711T102844Z">
@@ -930,6 +938,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
         <seg>Note: in the case of any package opening the file with the following name is created: &lt;x1/&gt;&lt;Package_name&gt;.lgp.lck&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принципы создания решений на основе собственных компонентов рассматриваются в статье &lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
+        <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1186,6 +1202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084917Z" creationid="Марианна" creationdate="20200717T084917Z">
         <seg>Export of the received results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это можно сделать в меню Пакеты (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111908Z" creationid="Марианна" creationdate="20200717T111908Z">
+        <seg>It can be done in the Package menu (refer to</seg>
       </tuv>
     </tu>
     <tu>
