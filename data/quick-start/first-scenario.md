@@ -38,32 +38,32 @@ Select the [Text file](../integration/import/txt-csv.md) component in the Import
 
 ![Call node configuration wizard.](./first-scenario-3.png)
 
-Пройдем шаги мастера, указав в параметре Имя файла местоположение файла Sales.txt.
+Follow the wizard steps having specified the Sales.txt file location in the File Name parameter.
 
-После настройки узла выполним его, используя меню возможных действий. Теперь в выходном порте узла присутствуют импортированные данные, которые можно увидеть, выбрав ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Быстрый просмотр…](../visualization/preview/quick-view.md) в контекстном меню порта (см. рисунок 4).
+Execute the node upon its configuration using the menu of possible actions. Now the imported data are present in the output node port. It is possible to view them selecting ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Quick View…](../visualization/preview/quick-view.md) in the context port menu (refer to Figure 4).
 
-![Вызов быстрого просмотра.](./first-scenario-4.png)
+![Call Quick View](./first-scenario-4.png)
 
-Следующим шагом в алгоритме необходимо подсчитать общие суммы покупок по всем клиентам. Для этого переместим компонент [Группировка](../processors/transformation/grouping.md) в рабочую область сценария. Последовательность обработки данных задается соединением выходного порта узла импорта с входным портом группировки (см. рисунок 5).
+The next algorithm step is calculation of purchase sum for all clients. For this purpose, trasfer the [Grouping](../processors/transformation/grouping.md) component to the working workflow area. The sequence of data processing is set by connection of the output port of the import node with the input grouping port (refer to Figure 5).
 
-![Формирование связи.](./first-scenario-5.png)
+![Establish Connection](./first-scenario-5.png)
 
-В Мастере настройки узла [Группировка](../processors/transformation/grouping.md) поле Карта клиента задается как группа, а Сумма как показатель. После настройки и выполнения узла группировки в выходном порту содержатся данные об итоговых суммах покупок клиентов.
+The Client Card field is set as a group, and the Sum is set as an indicator in the [Grouping](../processors/transformation/grouping.md) Node Configuration Wizard. Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.
 
-Далее эти данные сортируются по убыванию суммы при помощи компонента [Сортировка](../processors/transformation/sorting.md) и затем передаются на узел выделения первых 10 строк таблицы.  Для этого используется компонент [Фильтр строк](../processors/transformation/row-filter/README.md), в мастере которого задается условие: "№ Номер строки <= 10".
+Then these data are sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then these data are transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" antecedent is set in its wizard.
 
-В результирующем сценарии добавляется узел экспорта и/или настраивается [Визуализатор](../visualization/README.md) результатов (см. рисунок 6).
+The export node is added to the resulting workflow, and/or the [Visualiser](../visualization/README.md) of results is configured (refer to Figure 6).
 
-![Результирующий сценарий.](./first-scenario-6.png)
+![Resulting Workflow](./first-scenario-6.png)
 
-Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в [Подмодель](../processors/control/submodel.md). Для этого необходимо выделить эти узлы и при помощи кнопки ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) создать подмодель.
+The block of the nodes forming TOP 10 of clients can be grouped as a separate function by placing them to the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using the ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
 
-![Выделение блока узлов.](./first-scenario-7.png)
+![Selection of the Block of Nodes](./first-scenario-7.png)
 
-![Преобразование блока узлов в Подмодель.](./first-scenario-8.png)
+![Transformation of the Block of Nodes to the Supernode](./first-scenario-8.png)
 
-В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях. Принципы создания решений на основе собственных компонентов рассматриваются в статье [Проектирование сценариев](../scenario/README.md).
+Later on the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components. Principles of creation of the solutions based on own components are analysed in the [Design of Workflows](../scenario/README.md) article.
 
-Перед закрытием пакета его необходимо *сохранить*. Это можно сделать в меню Пакеты (см. Figure 9).
+The package must be*saved* before its closure. It can be done in the Package menu (refer to Figure 9).
 
 ![Save Package](./first-scenario-9.png)
