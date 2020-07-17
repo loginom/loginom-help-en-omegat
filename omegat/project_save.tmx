@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выберем в разделе Импорт компонент &lt;x1/&gt;Текстовый файл&lt;x2/&gt; и перенесем его в область построения (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085319Z" creationid="Марианна" creationdate="20200717T085319Z">
+        <seg>Select the &lt;x1/&gt;Text file&lt;x2/&gt; component in the Import section and transfer it to the construction area (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделение 10 клиентов с наибольшими суммами покупок;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084902Z" creationid="Марианна" creationdate="20200717T084902Z">
@@ -370,6 +378,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
         <seg>The following actions are required to create the node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для того чтобы использовать в сценарии какой-либо компонент, его необходимо перенести мышью из панели компонентов в область построения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085159Z" creationid="Марианна" creationdate="20200717T085159Z">
+        <seg>To use any component in the workflow, it must be dragged from the component panel to the workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
