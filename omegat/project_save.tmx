@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь в выходном порте узла присутствуют импортированные данные, которые можно увидеть, выбрав &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр…&lt;x4/&gt; в контекстном меню порта (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100732Z" creationid="Марианна" creationdate="20200717T100732Z">
+        <seg>Now the imported data are present in the output node port. It is possible to view them selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick View…&lt;x4/&gt; in the context port menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел сценария выполняет отдельную операцию над данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091456Z" creationid="Марианна" creationdate="20200715T091456Z">
@@ -1090,6 +1098,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085737Z" creationid="Марианна" creationdate="20200717T085737Z">
         <seg>Figure 3).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 4).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T100405Z" creationid="Марианна" creationdate="20200717T100405Z">
+        <seg>Figure 4).</seg>
       </tuv>
     </tu>
     <tu>
