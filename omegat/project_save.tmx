@@ -712,8 +712,8 @@
       <tuv lang="ru">
         <seg>Перед закрытием пакета его необходимо &lt;x1/&gt;сохранить&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T111846Z" creationid="Марианна" creationdate="20200717T111846Z">
-        <seg>The package must be&lt;x1/&gt;saved&lt;x2/&gt; before its closure.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114439Z" creationid="Марианна" creationdate="20200717T111846Z">
+        <seg>The package must be &lt;x1/&gt;saved&lt;x2/&gt; before its closure.</seg>
       </tuv>
     </tu>
     <tu>
