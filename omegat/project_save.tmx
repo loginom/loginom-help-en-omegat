@@ -624,8 +624,8 @@
       <tuv lang="ru">
         <seg>Необходимо войти в систему, введя свой логин и пароль.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T120652Z" creationid="Марианна" creationdate="20200716T120652Z">
-        <seg>It is required to log in having enered password and login.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113518Z" creationid="Марианна" creationdate="20200716T120652Z">
+        <seg>It is required to log in having entered password and login.</seg>
       </tuv>
     </tu>
     <tu>
