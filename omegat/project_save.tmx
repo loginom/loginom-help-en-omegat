@@ -304,8 +304,8 @@
       <tuv lang="ru">
         <seg>В простейшем случае сценарий импортирует данные из внешних источников, либо преобразовывает их и экспортирует (выводит в отчет).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T205016Z" creationid="Марианна" creationdate="20200716T205016Z">
-        <seg>In the simplest case the workflow will import the data from the external sources or it will transform them and export (send to report).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
+        <seg>In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).</seg>
       </tuv>
     </tu>
     <tu>
