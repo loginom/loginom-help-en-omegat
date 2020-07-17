@@ -912,8 +912,8 @@
       <tuv lang="ru">
         <seg>При этом создастся узел сценария, выполняющий действие импорта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T085535Z" creationid="Марианна" creationdate="20200717T085535Z">
-        <seg>In this case the workflow node responsible for import is created.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
+        <seg>In this case, the workflow node responsible for import is created.</seg>
       </tuv>
     </tu>
     <tu>
