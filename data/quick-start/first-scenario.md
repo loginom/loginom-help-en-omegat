@@ -1,6 +1,6 @@
 # The First Workflow
 
-In the case of the [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery versions, when starting the software home login page is opened. It is required to log in having enered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
+In the case of the [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery versions, when starting the software, home login page is opened. It is required to log in having entered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
 
 Upon authorization the action selection window will be opened (the [Start](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
 
