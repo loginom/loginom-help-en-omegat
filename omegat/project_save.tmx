@@ -256,8 +256,8 @@
       <tuv lang="ru">
         <seg>Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T111322Z" creationid="Марианна" creationdate="20200717T110908Z">
-        <seg>The block of the nodes forming TOP 10 of clients can be grouped as a separate function by placing them to the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114349Z" creationid="Марианна" creationdate="20200717T110908Z">
+        <seg>The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them to the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
