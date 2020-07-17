@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вызов мастера настройки узла.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T090007Z" creationid="Марианна" creationdate="20200717T090007Z">
+        <seg>&lt;x1/&gt;Call node configuration wizard.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использование узла подключения.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104323Z" creationid="Марианна" creationdate="20200711T104323Z">
@@ -1058,6 +1066,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104258Z" creationid="Марианна" creationdate="20200711T104258Z">
         <seg>Figure 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 3).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T085737Z" creationid="Марианна" creationdate="20200717T085737Z">
+        <seg>Figure 3).</seg>
       </tuv>
     </tu>
     <tu>
