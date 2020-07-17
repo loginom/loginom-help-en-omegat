@@ -24,19 +24,19 @@ Upon package creation a user will see the Workflow Construction Area (6) and the
 ![The Workflow Construction Area and the Components Panel](./first-scenario-2.png)
 
 In the simplest case the workflow will import the data from the external sources or it will transform them and export (send to report).
-Создадим простой сценарий, формирующий ТОП10 лучших клиентов.
+Let's create a simple workflow that will form TOP10 of the best clients.
 
-Сценарий выполнит действия:
+The workflow will perform the following actions:
 
-* Импорт из файла [Sales.txt](../attach/Sales.txt) информации о продажах;
-* Выделение 10 клиентов с наибольшими суммами покупок;
-* Экспорт полученных результатов.
+* Import of the sales information from the [Sales.txt](../attach/Sales.txt) file.
+* Selection of 10 clients with the highest purchase sums.
+* Export of the received results.
 
-Для того чтобы использовать в сценарии какой-либо компонент, его необходимо перенести мышью из панели компонентов в область построения сценария.
+To use any component in the workflow, it must be dragged from the component panel to the workflow construction area.
 
-Выберем в разделе Импорт компонент [Текстовый файл](../integration/import/txt-csv.md) и перенесем его в область построения (см. Figure 2). При этом создастся узел сценария, выполняющий действие импорта. При клике мышкой на узле отобразятся иконки возможных действий. Вызовем [Мастер настройки](../integration/import/txt-csv.md) (см. рисунок 3).
+Select the [Text file](../integration/import/txt-csv.md) component in the Import section and transfer it to the construction area (refer to Figure 2). In this case the workflow node responsible for import is created. Icons of possible actions will be displayed after mouse click. Call the [Wizard](../integration/import/txt-csv.md) (refer to. Figure 3).
 
-![Вызов мастера настройки узла.](./first-scenario-3.png)
+![Call node configuration wizard.](./first-scenario-3.png)
 
 Пройдем шаги мастера, указав в параметре Имя файла местоположение файла Sales.txt.
 
