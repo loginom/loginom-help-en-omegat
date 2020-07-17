@@ -1016,8 +1016,8 @@
       <tuv lang="ru">
         <seg>Создадим простой сценарий, формирующий ТОП10 лучших клиентов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T084604Z" creationid="Марианна" creationdate="20200717T084604Z">
-        <seg>Let's create a simple workflow that will form TOP10 of the best clients.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T114020Z" creationid="Марианна" creationdate="20200717T084604Z">
+        <seg>Let's create a simple workflow that will form TOP10 list of the best clients.</seg>
       </tuv>
     </tu>
     <tu>
