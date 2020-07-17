@@ -758,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После настройки и выполнения узла группировки в выходном порту содержатся данные об итоговых суммах покупок клиентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T105856Z" creationid="Марианна" creationdate="20200717T105856Z">
+        <seg>Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После настройки узла выполним его, используя меню возможных действий.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100338Z" creationid="Марианна" creationdate="20200717T100338Z">
