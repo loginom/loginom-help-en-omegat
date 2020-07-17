@@ -72,8 +72,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T111232Z" creationid="Марианна" creationdate="20200717T111232Z">
-        <seg>&lt;x1/&gt;Selection of Block of Nodes&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
+        <seg>&lt;x1/&gt;Selection of the Block of Nodes&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -138,6 +138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111907Z" creationid="Марианна" creationdate="20200713T111907Z">
         <seg>&lt;x1/&gt;Connections&lt;x2/&gt; include a list of the external sources and data receivers to be connected with.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Преобразование блока узлов в Подмодель.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111332Z" creationid="Марианна" creationdate="20200717T111315Z">
+        <seg>&lt;x1/&gt;Transformation of the Block of Nodes to the Supernode&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -248,8 +256,8 @@
       <tuv lang="ru">
         <seg>Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T110908Z" creationid="Марианна" creationdate="20200717T110908Z">
-        <seg>Block of the nodes forming TOP 10 of clients can be grouped as a separate function by placing them to the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200717T111322Z" creationid="Марианна" creationdate="20200717T110908Z">
+        <seg>The block of the nodes forming TOP 10 of clients can be grouped as a separate function by placing them to the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
