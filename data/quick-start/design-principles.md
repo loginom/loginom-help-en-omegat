@@ -32,7 +32,7 @@ This task is solved by the *overriding mechanism* providing modification of the 
 
 The Project structure can be represented in the hierarchical form:
 
-* The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages * using the mechanism of links.
+* The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages* using the mechanism of links.
 * The package includes the Modules - the package decomposition on the level of modules.
 * The **Module** as such does not contain data processing nodes, but it provides separate space for the Workflows and [Connections](../integration/connections/README.md) to different data sources.
 * The **Workflow** contains a sequence of data processing nodes. The Workflow can be distinguished by the following features:
