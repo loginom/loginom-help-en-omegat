@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все это позволяет создавать и сопровождать сложные проекты, а также делегировать решение выделенных подзадач.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140236Z" creationid="Марианна" creationdate="20200718T140236Z">
+        <seg>It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные и выходные порты задаются пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102723Z" creationid="Марианна" creationdate="20200716T073132Z">
