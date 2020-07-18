@@ -1192,8 +1192,8 @@
       <tuv lang="ru">
         <seg>Проект может состоять из связанных между собой Пакетов — это возможно благодаря тому, что &lt;x1/&gt;каждый пакет может предоставлять свои объекты другим пакетам&lt;x2/&gt; через механизм ссылок.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T162928Z" creationid="Марианна" creationdate="20200718T162928Z">
-        <seg>The Project can consist of interconnected Packages. It is possible due to the fact that &lt;x1/&gt;each package can provide its objects to other packages &lt;x2/&gt; using the mechanism of links.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T171659Z" creationid="Марианна" creationdate="20200718T162928Z">
+        <seg>The Project can consist of interconnected Packages. It is possible due to the fact that &lt;x1/&gt;each package can provide its objects to other packages&lt;x2/&gt; using the mechanism of links.</seg>
       </tuv>
     </tu>
     <tu>
