@@ -478,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данную задачу решает &lt;x1/&gt;механизм переопределения&lt;x2/&gt;, позволяющий модифицировать производный компонент только в использующем его сценарии, при этом в библиотеке функций он останется неизменным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162402Z" creationid="Марианна" creationdate="20200718T162402Z">
+        <seg>This task is solved by the &lt;x1/&gt;overriding mechanism&lt;x2/&gt; providing modification of the derived component only in the workflow using it. It will be unchanged in the library of functions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135639Z" creationid="Марианна" creationdate="20200711T104436Z">
