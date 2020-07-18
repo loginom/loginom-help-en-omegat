@@ -8,7 +8,7 @@ The Links are used for connection of other packages in order to use the derived 
 
 Each package contains at least one module. The Module inludes the following items:
 
-* [Workflow](./first-scenario.md) contains a sequence of data processing nodes.
+* The [Workflow](./first-scenario.md) contains a sequence of data processing nodes.
 * [Connections](./../integration/connections/README.md) include a list of the external sources and data receivers to be connected with.
 * [Components](./../processors/README.md#standartnye-komponenty) include the supernodes available for work, both created within the current package and borrowed from other packages using links.
 
