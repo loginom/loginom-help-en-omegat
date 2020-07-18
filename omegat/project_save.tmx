@@ -752,8 +752,8 @@
       <tuv lang="ru">
         <seg>На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T140932Z" creationid="Марианна" creationdate="20200718T140932Z">
-        <seg>Subtasks are similarly described at the nest step with specification of the next level elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T170805Z" creationid="Марианна" creationdate="20200718T140932Z">
+        <seg>Subtasks are similarly described at the next step with specification of the next level elements.</seg>
       </tuv>
     </tu>
     <tu>
