@@ -718,6 +718,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Может содержать в себе иерархию вложенных подмоделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164259Z" creationid="Марианна" creationdate="20200718T164259Z">
+        <seg>It can include hierarchy of nested supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На базе подмодели может быть создан Производный компонент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164356Z" creationid="Марианна" creationdate="20200718T164356Z">
+        <seg>The Derived Component can be created on the supernode base.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
@@ -962,6 +978,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
         <seg>The subtask solved by the address check component can be applied both for data cleansing and scoring tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подмодель в сценарии представлена в качестве узла, имеющего заданные пользователем входные и выходные порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T164210Z" creationid="Марианна" creationdate="20200718T164210Z">
+        <seg>The supernode in the workflow is represented as the node that has the input and output ports set by a user.</seg>
       </tuv>
     </tu>
     <tu>
