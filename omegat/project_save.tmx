@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Особенностью подобного подхода является проектирование «сверху вниз» — от общей постановки задачи к отдельным подзадачам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140530Z" creationid="Марианна" creationdate="20200718T140530Z">
+        <seg>The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100908Z" creationid="Марианна" creationdate="20200711T100746Z">
