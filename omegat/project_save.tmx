@@ -430,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выделение блоков, решающих независимые подзадачи, дает возможность применять их повторно в смежных задачах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141501Z" creationid="Марианна" creationdate="20200718T141501Z">
+        <seg>Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
