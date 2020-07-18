@@ -1078,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T151127Z" creationid="Марианна" creationdate="20200718T151127Z">
+        <seg>Creation of libraries of universla functions represents development of idea of usage of earlier created algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
