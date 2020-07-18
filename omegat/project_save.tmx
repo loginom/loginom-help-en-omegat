@@ -622,10 +622,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
+        <seg>Solution of the set task is described at the first design step specifying independent subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На рисунке «Пример сценария» узел &lt;x1/&gt;«ABC-анализ»&lt;x2/&gt; является производным компонентом — подмоделью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T073548Z" creationid="Марианна" creationdate="20200716T073548Z">
         <seg>The "Workflow Example" figure shows the &lt;x1/&gt;"ABC analysis"&lt;x2/&gt; node that is a derived component - supernode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140932Z" creationid="Марианна" creationdate="20200718T140932Z">
+        <seg>Subtasks are similarly described at the nest step with specification of the next level elements.</seg>
       </tuv>
     </tu>
     <tu>
