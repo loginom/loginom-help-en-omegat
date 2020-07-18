@@ -486,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Декомпозиция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
+        <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135639Z" creationid="Марианна" creationdate="20200711T104436Z">
