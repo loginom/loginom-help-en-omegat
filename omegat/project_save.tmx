@@ -1008,8 +1008,8 @@
       <tuv lang="ru">
         <seg>Получать данные от узлов из других сценариев и пакетов через механизм &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T163547Z" creationid="Марианна" creationdate="20200718T163547Z">
-        <seg>It can receive data from nodes from other workflows and packages using the&lt;x1/&gt;Reference Node&lt;x2/&gt; mechanism.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
+        <seg>It can receive data from nodes from other workflows and packages using the &lt;x1/&gt;Reference Node&lt;x2/&gt; mechanism.</seg>
       </tuv>
     </tu>
     <tu>
