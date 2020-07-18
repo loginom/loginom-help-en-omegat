@@ -1022,6 +1022,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом изменить его в библиотеке функций нет возможности, поскольку сработает механизм наследования, и это может привести к ошибкам во всех сценариях, где он применяется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162124Z" creationid="Марианна" creationdate="20200718T162124Z">
+        <seg>At the same time, it is not possible to change it in the library of functions because the inheritance mechanism will be activated. It can cause errors in all workflows where it is applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом создастся узел сценария, выполняющий действие импорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
