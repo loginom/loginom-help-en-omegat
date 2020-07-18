@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T135300Z" creationid="Марианна" creationdate="20200718T135300Z">
+        <seg>Each block can be represented on its hierarchical level in the form of the "black box" performing its independent subtask.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый пакет содержит хотя бы один модуль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111545Z" creationid="Марианна" creationdate="20200713T111545Z">
