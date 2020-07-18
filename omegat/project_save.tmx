@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Механизм повторного использования алгоритмов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141206Z" creationid="Марианна" creationdate="20200718T141206Z">
+        <seg>Mechanism of the Repeated Use of Algorithms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм решения подзадачи внутри «черного ящика» можно изменить, но в целом проект при этом останется работоспособным и будет выполнять поставленные задачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T135924Z" creationid="Марианна" creationdate="20200718T135924Z">
@@ -1054,6 +1062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Процесс продолжают, пока не доходят до подзадач, алгоритмы, решения которых очевидны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141133Z" creationid="Марианна" creationdate="20200718T141133Z">
+        <seg>The process is repeated until definition of subtasks and algorithms solutions of which are obvious.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
@@ -1186,6 +1202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T101805Z" creationid="Марианна" creationdate="20200711T101805Z">
         <seg>It is also possible to create the reference node dragging the required connection to the area of the workflow creation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, на каждом шаге происходит уточнение функций проекта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T141011Z" creationid="Марианна" creationdate="20200718T141011Z">
+        <seg>Thus, the project functions are specified at each stage.</seg>
       </tuv>
     </tu>
     <tu>
