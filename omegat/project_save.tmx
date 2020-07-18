@@ -1102,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проект может состоять из связанных между собой Пакетов — это возможно благодаря тому, что &lt;x1/&gt;каждый пакет может предоставлять свои объекты другим пакетам&lt;x2/&gt; через механизм ссылок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162928Z" creationid="Марианна" creationdate="20200718T162928Z">
+        <seg>The Project can consist of interconnected Packages. It is possible due to the fact that &lt;x1/&gt;each package can provide its objects to other packages &lt;x2/&gt; using the mechanism of links.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Производный компонент можно создать из комбинации узлов сценария, реализующих произвольную логику обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092841Z" creationid="Марианна" creationdate="20200715T092841Z">
@@ -1258,6 +1266,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
         <seg>The Links are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структура Проекта может быть представлена в иерархическом виде:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T162546Z" creationid="Марианна" creationdate="20200718T162546Z">
+        <seg>The Project structure can be represented in the hierarchical form:</seg>
       </tuv>
     </tu>
     <tu>
