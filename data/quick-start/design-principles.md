@@ -37,7 +37,7 @@ The Project structure can be represented in the hierarchical form:
 * The **Module** as such does not contain data processing nodes, but it provides separate space for the Workflows and [Connections](../integration/connections/README.md) to different data sources.
 * The **Workflow** contains a sequence of data processing nodes. The Workflow can be distinguished by the following features:
    * It can include subprograms — the [Supernode](../processors/control/submodel.md).
-   * It can receive data from nodes from other workflows and packages using the[Reference Node](../processors/control/unit-link.md) mechanism.
+   * It can receive data from nodes from other workflows and packages using the [Reference Node](../processors/control/unit-link.md) mechanism.
    * It can use settings and trained models of nodes from different workflows and packages using the [Node Execution](../processors/control/execute-node.md) mechanism.
    * It can use ready algorithms of processing of the data created in other workflows and packages using the [Derived Components](../scenario/derived-component.html) mechanism.
 * The **Supernode** includes other nodes providing in such a way separate space for execution of the random algorithm of data processing. The supernode in the workflow is represented as the node that has the input and output ports set by a user. It can include hierarchy of nested supernodes. The Derived Component can be created on the supernode base.
