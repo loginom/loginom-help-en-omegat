@@ -18,7 +18,7 @@ Thus, the project functions are specified at each stage. The process is repeated
 
 ## Mechanism of the Repeated Use of Algorithms
 
-Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks. Creation of libraries of universla functions represents development of idea of usage of earlier created algorithms.
+Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks. Creation of libraries of universal functions represents development of idea of usage of earlier created algorithms.
 
 The *derived components* are tools for creation of such functions in Studio. Having once created the "[ABC analysis](https://wiki.loginom.ru/articles/abc-analysis.html)" component, it can be applied both for solution of the goods and customer base segmentation task. The subtask solved by the address check component can be applied both for data cleansing and scoring tasks.
 
