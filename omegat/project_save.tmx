@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T121459Z" creationid="Марианна" creationdate="20200718T121459Z">
+        <seg>The design construction is based on the &lt;x1/&gt;structural design&lt;x2/&gt; methodology— the algorithm representation in the form of hierarchical structure of blocks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В простейшем случае сценарий импортирует данные из внешних источников, либо преобразовывает их и экспортирует (выводит в отчет).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
@@ -1098,6 +1106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
         <seg>The Links are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структурный подход</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T120750Z" creationid="Марианна" creationdate="20200718T120750Z">
+        <seg>Structural Approach</seg>
       </tuv>
     </tu>
     <tu>
