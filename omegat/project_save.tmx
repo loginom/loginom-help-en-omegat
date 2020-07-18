@@ -312,8 +312,8 @@
       <tuv lang="ru">
         <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T121459Z" creationid="Марианна" creationdate="20200718T121459Z">
-        <seg>The design construction is based on the &lt;x1/&gt;structural design&lt;x2/&gt; methodology— the algorithm representation in the form of hierarchical structure of blocks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T121654Z" creationid="Марианна" creationdate="20200718T121459Z">
+        <seg>The project construction is based on the &lt;x1/&gt;structural design&lt;x2/&gt; methodology— representation of an algorithm in the form of hierarchical structure of blocks.</seg>
       </tuv>
     </tu>
     <tu>
