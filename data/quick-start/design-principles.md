@@ -8,17 +8,17 @@ The project can include several packages due to the fact that each package can p
 
 The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchical structure of blocks.
 
-Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу. Механизм решения подзадачи внутри «черного ящика» можно изменить, но в целом проект при этом останется работоспособным и будет выполнять поставленные задачи.
+Each block can be represented on its hierarchical level in the form of the "black box" performing its independent subtask. It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.
 
-Спроектированный таким образом проект имеет четкую, легко читаемую структуру. Все это позволяет создавать и сопровождать сложные проекты, а также делегировать решение выделенных подзадач.
+The project designed in such a way has a clear and transparent structure. It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.
 
-Особенностью подобного подхода является проектирование «сверху вниз» — от общей постановки задачи к отдельным подзадачам. На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи. На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.
+The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach. Solution of the set task is described at the first design step specifying independent subtasks. Subtasks are similarly described at the nest step with specification of the next level elements.
 
-Таким образом, на каждом шаге происходит уточнение функций проекта. Процесс продолжают, пока не доходят до подзадач, алгоритмы, решения которых очевидны.
+Thus, the project functions are specified at each stage. The process is repeated until definition of subtasks and algorithms solutions of which are obvious.
 
-## Механизм повторного использования алгоритмов
+## Mechanism of the Repeated Use of Algorithms
 
-Выделение блоков, решающих независимые подзадачи, дает возможность применять их повторно в смежных задачах. Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.
+Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks. Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.
 
 В Studio инструментом для создания таких функций являются *производные компоненты*. Создав один раз компонент «[ABC-анализа](https://wiki.loginom.ru/articles/abc-analysis.html)», его можно применять как в задаче сегментации товаров, так и в сегментации клиентской базы. Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.
 
