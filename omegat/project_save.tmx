@@ -1134,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Создав один раз компонент «&lt;x3/&gt;ABC-анализа&lt;x4/&gt;», его можно применять как в задаче сегментации товаров, так и в сегментации клиентской базы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T151619Z" creationid="Марианна" creationdate="20200718T151619Z">
+        <seg>Having once created the "&lt;x3/&gt;ABC analysis&lt;x4/&gt;" component, it can be applied both for solution of the goods and customer base segmentation task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создадим простой сценарий, формирующий ТОП10 лучших клиентов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114020Z" creationid="Марианна" creationdate="20200717T084604Z">
