@@ -1118,6 +1118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Спроектированный таким образом проект имеет четкую, легко читаемую структуру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
+        <seg>The project designed in such a way has a clear and transparent structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
