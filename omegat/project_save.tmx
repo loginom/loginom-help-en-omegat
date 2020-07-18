@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T120529Z" creationid="Марианна" creationdate="20200718T120529Z">
+        <seg>The &lt;x1/&gt;Project&lt;x2/&gt; is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; — создаются и настраиваются пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102403Z" creationid="Марианна" creationdate="20200715T092325Z">
@@ -954,6 +962,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
         <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T120709Z" creationid="Марианна" creationdate="20200718T120709Z">
+        <seg>The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.</seg>
       </tuv>
     </tu>
     <tu>
