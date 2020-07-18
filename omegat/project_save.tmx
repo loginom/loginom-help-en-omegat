@@ -870,6 +870,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
+        <seg>The subtask solved by the address check component can be applied both for data cleansing and scoring tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T073105Z" creationid="Марианна" creationdate="20200716T073105Z">
