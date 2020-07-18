@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В производных компонентах реализуется &lt;x1/&gt;механизм наследования&lt;x2/&gt;, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T161147Z" creationid="Марианна" creationdate="20200718T161147Z">
+        <seg>The &lt;x1/&gt;inheritance mechanism&lt;x2/&gt; is executed in the derived components. Its advantage is its ability to modify the universal component created by a user only in one place - in the library of functions. These changes will be automatically introduced in all workflows where it is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В простейшем случае сценарий импортирует данные из внешних источников, либо преобразовывает их и экспортирует (выводит в отчет).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
