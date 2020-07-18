@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Модуль&lt;x2/&gt; — сам по себе не содержит узлов обработки данных, но предоставляет отдельное пространство для Сценариев и &lt;x3/&gt;Подключений&lt;x4/&gt; к различным источникам данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163148Z" creationid="Марианна" creationdate="20200718T163148Z">
+        <seg>The &lt;x1/&gt;Module&lt;x2/&gt; as such does not contain data processing nodes, but it provides separate space for the Workflows and &lt;x3/&gt;Connections&lt;x4/&gt; to different data sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
@@ -802,6 +810,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100908Z" creationid="Марианна" creationdate="20200711T100746Z">
         <seg>Open the workflow to be edited and expand the Connection panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пакет включает в себя Модули — декомпозиция пакета на уровне модулей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200718T163009Z" creationid="Марианна" creationdate="20200718T163009Z">
+        <seg>The package includes the Modules - the package decomposition on the level of modules.</seg>
       </tuv>
     </tu>
     <tu>
