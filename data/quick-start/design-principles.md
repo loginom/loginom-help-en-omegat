@@ -1,12 +1,12 @@
-# Принципы проектирования
+# Design Principles
 
-**Проект** — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.
+The **Project** is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.
 
-Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.
+The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.
 
-## Структурный подход
+## Structural Approach
 
-В основе построения проекта лежит методология *структурного проектирования* — представление алгоритма в виде иерархической структуры блоков.
+The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchical structure of blocks.
 
 Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу. Механизм решения подзадачи внутри «черного ящика» можно изменить, но в целом проект при этом останется работоспособным и будет выполнять поставленные задачи.
 
