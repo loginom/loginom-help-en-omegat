@@ -584,8 +584,8 @@
       <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T135639Z" creationid="Марианна" creationdate="20200711T104436Z">
-        <seg>Separate handler &lt;x1/&gt;Import from database&lt;x2/&gt; is used to receive data from the database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122809Z" creationid="Марианна" creationdate="20200711T104436Z">
+        <seg>Separate database &lt;x1/&gt;Import from database&lt;x2/&gt; is used to receive data from the database.</seg>
       </tuv>
     </tu>
     <tu>
