@@ -216,8 +216,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать пакет&lt;x2/&gt; — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T121353Z" creationid="Марианна" creationdate="20200716T121353Z">
-        <seg>&lt;x1/&gt;Create a package&lt;x2/&gt; — creation of the new package. You will be asked to show the path to save the package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114118Z" creationid="Марианна" creationdate="20200716T121353Z">
+        <seg>&lt;x1/&gt;New package&lt;x2/&gt; — creation of the new package. You will be asked to show the path to save the package.</seg>
       </tuv>
     </tu>
     <tu>
