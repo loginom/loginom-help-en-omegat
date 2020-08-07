@@ -24,8 +24,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T101529Z" creationid="Марианна" creationdate="20200711T101529Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Add link to the Connection to the Workflow — &lt;x3/&gt;Reference node&lt;x4/&gt; (1) for connection will be added to the workflow.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122455Z" creationid="Марианна" creationdate="20200711T101529Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add reference to Connection into Workflow — &lt;x3/&gt;Reference node&lt;x4/&gt; (1) for connection will be added to the workflow.</seg>
       </tuv>
     </tu>
     <tu>
@@ -920,8 +920,8 @@
       <tuv lang="ru">
         <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T100908Z" creationid="Марианна" creationdate="20200711T100746Z">
-        <seg>Open the workflow to be edited and expand the Connection panel that includes a list of all connections created in the package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
+        <seg>Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.</seg>
       </tuv>
     </tu>
     <tu>
