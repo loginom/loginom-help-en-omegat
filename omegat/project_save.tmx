@@ -768,8 +768,8 @@
       <tuv lang="ru">
         <seg>Наряду с наборами данных, представляющих из себя таблицу данных, в Studio объектом, используемым в вычислениях, может быть переменная.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T065521Z" creationid="Марианна" creationdate="20200715T065521Z">
-        <seg>Alongside with the data sets constituting data table, a variable can be the Studio object used in calculations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
+        <seg>Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.</seg>
       </tuv>
     </tu>
     <tu>
