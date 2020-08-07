@@ -424,8 +424,8 @@
       <tuv lang="ru">
         <seg>В результирующем сценарии добавляется узел экспорта и/или настраивается &lt;x1/&gt;Визуализатор&lt;x2/&gt; результатов (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T110708Z" creationid="Марианна" creationdate="20200717T110708Z">
-        <seg>The export node is added to the resulting workflow, and/or the &lt;x1/&gt;Visualiser&lt;x2/&gt; of results is configured (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T115541Z" creationid="Марианна" creationdate="20200717T110708Z">
+        <seg>The export node is added to the resulting workflow, and/or the &lt;x1/&gt;Visualizer&lt;x2/&gt; of results is configured (refer to</seg>
       </tuv>
     </tu>
     <tu>
