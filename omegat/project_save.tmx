@@ -312,8 +312,8 @@
       <tuv lang="ru">
         <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; и &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T113639Z" creationid="Марианна" creationdate="20200716T115803Z">
-        <seg>In the case of the &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; and &lt;x5/&gt;Team&lt;x6/&gt; delivery versions, when starting the software, the home login page is opened.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114031Z" creationid="Марианна" creationdate="20200716T115803Z">
+        <seg>In the case of the &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; and &lt;x5/&gt;Team&lt;x6/&gt; delivery editions, when starting the software, the home login page is opened.</seg>
       </tuv>
     </tu>
     <tu>
