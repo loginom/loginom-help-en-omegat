@@ -968,8 +968,8 @@
       <tuv lang="ru">
         <seg>Перейти к подключению — переход к окну с доступными подключениями.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T102912Z" creationid="Марианна" creationdate="20200711T102844Z">
-        <seg>Go to the connection — go to the window with the available connections.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122536Z" creationid="Марианна" creationdate="20200711T102844Z">
+        <seg>Go to connection — go to the window with the available connections.</seg>
       </tuv>
     </tu>
     <tu>
