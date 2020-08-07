@@ -48,7 +48,7 @@ The supernode accepts information by means of input ports, performs processing a
 * [Слияние](./transformation/join/README.md)
 * [Соединение](./transformation/addition.md)
 * [Сортировка](./transformation/sorting.md)
-* [Фильтр строк](./transformation/row-filter/README.md)
+* [Row Filter](./transformation/row-filter/README.md)
 
 ### [Управление](./control/README.md)
 

@@ -49,7 +49,7 @@ Types of ports of the workflow nodes:
         <td>They are objects containing only one value. It is possible to transform the data from tables to variables and vice versa using the special handlers.</td>
     </tr>
      <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Tree</td>
+        <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Data tree</td>
         <td>It is a set of data in the form of hierarchic tree-like structure.</td>
     </tr>
     <tr>

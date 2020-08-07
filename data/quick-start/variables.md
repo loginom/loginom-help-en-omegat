@@ -1,6 +1,6 @@
 # Variables Use
 
-Alongside with the data sets constituting data table, a variable can be the Studio object used in calculations.
+Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.
 
 **Variable** is a named value of one of the possible [data types](../data/datatype.md).
 
@@ -21,5 +21,5 @@ Thus, the node settings can be the calculation subject matter in the course of t
 
 Examples of the control variables use:
 
-* The variable can be also used as the antecedent parameter of the [Row filter](../processors/transformation/row-filter/README.md) component.
+* The variable can be also used as the criteria parameter of the [Row Filter](../processors/transformation/row-filter/README.md) database.
 * The variable as the SQL query parameter in the case of [Import from database](../integration/import/database.md) contains the SQL query text.

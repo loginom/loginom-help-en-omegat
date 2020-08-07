@@ -16,7 +16,7 @@ The "top-down" design (from the general assignment of a task to separate subtask
 
 Thus, the project functions are specified at each stage. The process is repeated until definition of subtasks and algorithms solutions of which are obvious.
 
-## Mechanism of the Repeated Use of Algorithms
+## Mechanism of the Algorithms Reuse
 
 Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks. Creation of libraries of universal functions represents development of idea of usage of earlier created algorithms.
 
@@ -32,10 +32,10 @@ This task is solved by the *overriding mechanism* providing modification of the 
 
 The Project structure can be represented in the hierarchical form:
 
-* The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages* using the mechanism of links.
+* The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages* using the mechanism of references.
 * The package includes the Modules - the package decomposition on the level of modules.
 * The **Module** as such does not contain data processing nodes, but it provides separate space for the Workflows and [Connections](../integration/connections/README.md) to different data sources.
-* The **Workflow** contains a sequence of data processing nodes. The Workflow can be distinguished by the following features:
+* The **Workflow** contains sequence of data processing nodes. The Workflow can be distinguished by the following features:
    * It can include subprograms — the [Supernode](../processors/control/submodel.md).
    * It can receive data from nodes from other workflows and packages using the [Reference Node](../processors/control/unit-link.md) mechanism.
    * It can use settings and trained models of nodes from different workflows and packages using the [Node Execution](../processors/control/execute-node.md) mechanism.

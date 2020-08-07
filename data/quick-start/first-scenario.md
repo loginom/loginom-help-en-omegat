@@ -1,12 +1,12 @@
 # The First Workflow
 
-In the case of the [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery versions, when starting the software, the home login page is opened. It is required to log in having entered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
+In the case of the [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) delivery editions, when starting the software, the home login page is opened. It is required to log in having entered password and login. Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: *user*, without password. There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) version.
 
-Upon authorization, the action selection window will be opened (the [Start](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
+Upon authorization, the action selection window will be opened (the [Home page](../interface/home-page.md) page). Using this window you can perform the following operations with packages.
 
-* **Create a package** — creation of the new package. You will be asked to show the path to save the package.
-* **Create a draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
-* **Open a package** — opening of the earlier created package.
+* **New package** — creation of the new package. You will be asked to show the path to save the package.
+* **New Draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
+* **Open Package** — opening of the earlier created package.
 
 > **Important:** the software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.
 
@@ -48,15 +48,15 @@ The next algorithm step is calculation of purchase sum for all clients. For this
 
 ![Establish Connection](./first-scenario-5.png)
 
-The Client Card field is set as a group, and the Sum is set as an indicator in the [Grouping](../processors/transformation/grouping.md) Node Configuration Wizard. Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.
+The Client Card field is set as a group, and the Sum is set as a parameter in the [Grouping](../processors/transformation/grouping.md) Node Wizard. Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.
 
 Then these data are sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then these data are transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" antecedent is set in its wizard.
 
-The export node is added to the resulting workflow, and/or the [Visualiser](../visualization/README.md) of results is configured (refer to Figure 6).
+The export node is added to the resulting workflow, and/or the [Visualizer](../visualization/README.md) of results is configured (refer to Figure 6).
 
 ![Resulting Workflow](./first-scenario-6.png)
 
-The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them to the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using the ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
+The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using the ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
 
 ![Selection of the Block of Nodes](./first-scenario-7.png)
 
