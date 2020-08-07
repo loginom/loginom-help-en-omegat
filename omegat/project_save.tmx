@@ -264,8 +264,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — содержит последовательность узлов обработки данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T163315Z" creationid="Марианна" creationdate="20200713T111733Z">
-        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; contains a sequence of data processing nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113656Z" creationid="Марианна" creationdate="20200713T111733Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; contains sequence of data processing nodes.</seg>
       </tuv>
     </tu>
     <tu>
