@@ -984,8 +984,8 @@
       <tuv lang="ru">
         <seg>Переменная в качестве параметра компонента &lt;x1/&gt;Условие&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T070455Z" creationid="Марианна" creationdate="20200715T070455Z">
-        <seg>The variable as the parameter of the &lt;x1/&gt;Antecedent&lt;x2/&gt; component.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T123205Z" creationid="Марианна" creationdate="20200715T070455Z">
+        <seg>The variable as the parameter of the &lt;x1/&gt;Condition&lt;x2/&gt; component.</seg>
       </tuv>
     </tu>
     <tu>
