@@ -1072,8 +1072,8 @@
       <tuv lang="ru">
         <seg>После авторизации открывается окно выбора действий (страница &lt;x1/&gt;Начало&lt;x2/&gt;), в котором можно выполнять следующие операции с пакетами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T114630Z" creationid="Марианна" creationdate="20200716T121239Z">
-        <seg>Upon authorization, the action selection window will be opened (the &lt;x1/&gt;Home&lt;x2/&gt; page). Using this window you can perform the following operations with packages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114652Z" creationid="Марианна" creationdate="20200716T121239Z">
+        <seg>Upon authorization, the action selection window will be opened (the &lt;x1/&gt;Home page&lt;x2/&gt; page). Using this window you can perform the following operations with packages.</seg>
       </tuv>
     </tu>
     <tu>
