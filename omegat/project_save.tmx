@@ -144,8 +144,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T122231Z" creationid="Марианна" creationdate="20200716T122231Z">
-        <seg>&lt;x1/&gt;Open a package&lt;x2/&gt; — opening of the earlier created package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114621Z" creationid="Марианна" creationdate="20200716T122231Z">
+        <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — opening of the earlier created package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114514Z" creationid="Марианна" creationdate="20200807T114514Z">
+        <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1064,8 +1072,8 @@
       <tuv lang="ru">
         <seg>После авторизации открывается окно выбора действий (страница &lt;x1/&gt;Начало&lt;x2/&gt;), в котором можно выполнять следующие операции с пакетами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T113743Z" creationid="Марианна" creationdate="20200716T121239Z">
-        <seg>Upon authorization, the action selection window will be opened (the &lt;x1/&gt;Start&lt;x2/&gt; page). Using this window you can perform the following operations with packages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114630Z" creationid="Марианна" creationdate="20200716T121239Z">
+        <seg>Upon authorization, the action selection window will be opened (the &lt;x1/&gt;Home&lt;x2/&gt; page). Using this window you can perform the following operations with packages.</seg>
       </tuv>
     </tu>
     <tu>
