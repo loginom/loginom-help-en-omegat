@@ -944,8 +944,8 @@
       <tuv lang="ru">
         <seg>Переменная может выступать параметром условия компонента &lt;x1/&gt;Фильтр строк&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T112325Z" creationid="Марианна" creationdate="20200715T071701Z">
-        <seg>The variable can be also used as the criteria parameter of the &lt;x1/&gt;Row Filter&lt;x2/&gt; component.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T112642Z" creationid="Марианна" creationdate="20200715T071701Z">
+        <seg>The variable can be also used as the criteria parameter of the &lt;x1/&gt;Row Filter&lt;x2/&gt; database.</seg>
       </tuv>
     </tu>
     <tu>
