@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать черновик&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114321Z" creationid="Марианна" creationdate="20200807T114321Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New draft&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать черновик&lt;x4/&gt; — создание временного &lt;x5/&gt;Пакета&lt;x6/&gt;, без текущего сохранения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114307Z" creationid="Марианна" creationdate="20200807T114307Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New draft&lt;x4/&gt; — создание временного &lt;x5/&gt;Пакета&lt;x6/&gt;, без текущего сохранения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T101529Z" creationid="Марианна" creationdate="20200711T101529Z">
@@ -222,10 +238,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — позволяет создать временный Пакет и работать с ним, не сохраняя его;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114242Z" creationid="Марианна" creationdate="20200807T114242Z">
+        <seg>&lt;x1/&gt;New draft&lt;x2/&gt; — позволяет создать временный Пакет и работать с ним, не сохраняя его;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — создание временного Пакета, не сохраняя его;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114252Z" creationid="Марианна" creationdate="20200807T114252Z">
+        <seg>&lt;x1/&gt;New draft&lt;x2/&gt; — создание временного Пакета, не сохраняя его;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — создание нового пакета без предварительного сохранения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T122116Z" creationid="Марианна" creationdate="20200716T122116Z">
-        <seg>&lt;x1/&gt;Create a draft&lt;x2/&gt; — creation of the new package without preliminary saving.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T114345Z" creationid="Марианна" creationdate="20200716T122116Z">
+        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — creation of the new package without preliminary saving.</seg>
       </tuv>
     </tu>
     <tu>
