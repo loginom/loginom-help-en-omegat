@@ -344,8 +344,8 @@
       <tuv lang="ru">
         <seg>В Мастере настройки узла &lt;x1/&gt;Группировка&lt;x2/&gt; поле Карта клиента задается как группа, а Сумма как показатель.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T105654Z" creationid="Марианна" creationdate="20200717T105654Z">
-        <seg>The Client Card field is set as a group, and the Sum is set as an indicator in the &lt;x1/&gt;Grouping&lt;x2/&gt; Node Configuration Wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T115219Z" creationid="Марианна" creationdate="20200717T105654Z">
+        <seg>The Client Card field is set as a group, and the Sum is set as a parameter in the &lt;x1/&gt;Grouping&lt;x2/&gt; Node Wizard.</seg>
       </tuv>
     </tu>
     <tu>
