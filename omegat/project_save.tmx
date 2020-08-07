@@ -32,8 +32,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить узел Подключения в Сценарий — в сценарий будет добавлен производный узел (2), унаследованный от выбранного подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T102053Z" creationid="Марианна" creationdate="20200711T102053Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Add the Connection node to the Workflow — derived node (2) inherited from the selected connection will be added to the workflow.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T122657Z" creationid="Марианна" creationdate="20200711T102053Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add Connection node to Workflow — derived node (2) inherited from the selected connection will be added to the workflow.</seg>
       </tuv>
     </tu>
     <tu>
