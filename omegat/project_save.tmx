@@ -880,8 +880,8 @@
       <tuv lang="ru">
         <seg>Пакеты сохраняются по-отдельности в виде файлов с расширением .lgp, и включают в себя Ссылки и Модули.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200713T111210Z" creationid="Марианна" creationdate="20200713T111210Z">
-        <seg>Packages are saved separately in the form of files with .lgp extension, and they include Links and Modules.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T112954Z" creationid="Марианна" creationdate="20200713T111210Z">
+        <seg>Packages are saved separately in the form of files with .lgp extension, and they include References and Modules.</seg>
       </tuv>
     </tu>
     <tu>
