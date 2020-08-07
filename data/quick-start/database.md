@@ -12,12 +12,12 @@ It is required to place the created connection into the workflow, for this purpo
 
 The following actions are required to create the node:
 
-1. Open the workflow to be edited and expand the Connection panel that includes a list of all connections created in the package.
+1. Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.
 2. Select the required connection in the panel and use one of the specified methods clicking the right mouse button to open its context menu (refer to Figure 1):
-   * ![ ](../images/icons/toolbar-controls/show-reference-links_default.svg) Add link to the Connection to the Workflow — [Reference node](../processors/control/unit-link.md) (1) for connection will be added to the workflow. It is also possible to create the reference node dragging the required connection to the area of the workflow creation.
-   * ![ ](../images/icons/toolbar-controls/derive-node_default.svg) Add the Connection node to the Workflow — derived node (2) inherited from the selected connection will be added to the workflow. The derived node will have the same settings as the selected connection. However, it is possible to redefine them using the Node Wizard (in this case, settings of the connection from which the node has been inherited will not be changed).
+   * ![ ](../images/icons/toolbar-controls/show-reference-links_default.svg) Add reference to Connection into Workflow — [Reference node](../processors/control/unit-link.md) (1) for connection will be added to the workflow. It is also possible to create the reference node dragging the required connection to the area of the workflow creation.
+   * ![ ](../images/icons/toolbar-controls/derive-node_default.svg) Add Connection node to Workflow — derived node (2) inherited from the selected connection will be added to the workflow. The derived node will have the same settings as the selected connection. However, it is possible to redefine them using the Node Wizard (in this case, settings of the connection from which the node has been inherited will not be changed).
    * ![ ](../images/icons/toolbar-controls/setup_default.svg) Configure the connection — go to the connection configuration parameters window.
-   * Go to the connection — go to the window with the available connections.
+   * Go to connection — go to the window with the available connections.
 
 ![Creation of the connection node in the workflow](./database-1.png)
 
@@ -27,4 +27,4 @@ Parameters of connection to the data source are used by the data [import](../int
 
 ## Step 3. Import Node Configuration
 
-Separate handler [Import from database](../integration/import/database.md) is used to receive data from the database. It allows for import of the database table or results of execution of the SQL query set by the user and view.
+Separate database [Import from database](../integration/import/database.md) is used to receive data from the database. It allows for import of the database table or results of execution of the SQL query set by the user and view.
