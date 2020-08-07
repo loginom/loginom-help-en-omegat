@@ -104,8 +104,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты&lt;x2/&gt; — включают в себя доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200713T112223Z" creationid="Марианна" creationdate="20200713T112223Z">
-        <seg>&lt;x1/&gt;Components&lt;x2/&gt; include the supernodes available for work, both created within the current package and borrowed from other packages using links.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113216Z" creationid="Марианна" creationdate="20200713T112223Z">
+        <seg>&lt;x1/&gt;Components&lt;x2/&gt; include the supernodes available for work, both created within the current package and borrowed from other packages using references.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1352,8 +1352,8 @@
       <tuv lang="ru">
         <seg>Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200713T111357Z" creationid="Марианна" creationdate="20200713T111357Z">
-        <seg>The Links are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200807T113153Z" creationid="Марианна" creationdate="20200713T111357Z">
+        <seg>The References are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
       </tuv>
     </tu>
     <tu>
