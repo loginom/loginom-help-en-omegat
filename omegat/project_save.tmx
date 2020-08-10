@@ -302,10 +302,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Внешние модули&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T193012Z" creationid="Марианна" creationdate="20200810T193012Z">
+        <seg>&lt;x1/&gt;External modules&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внутреннее соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192622Z" creationid="Марианна" creationdate="20200810T192622Z">
         <seg>&lt;x1/&gt;Inner join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные наборы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T193036Z" creationid="Марианна" creationdate="20200810T193036Z">
+        <seg>&lt;x1/&gt;Input data set&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T193046Z" creationid="Марианна" creationdate="20200810T193046Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -338,6 +362,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192116Z" creationid="Марианна" creationdate="20200810T192116Z">
         <seg>&lt;x1/&gt;Expression&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T193105Z" creationid="Марианна" creationdate="20200810T193105Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
