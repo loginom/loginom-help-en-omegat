@@ -248,16 +248,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Автоматическая синхронизация полей&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T160632Z" creationid="Марианна" creationdate="20200810T160632Z">
-        <seg>&lt;x1/&gt;Automapping of Fields&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185121Z" creationid="Марианна" creationdate="20200810T160632Z">
+        <seg>&lt;x1/&gt;Automapping of fields&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T155936Z" creationid="Марианна" creationdate="20200810T155936Z">
-        <seg>&lt;x1/&gt;Location Bar&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185048Z" creationid="Марианна" creationdate="20200810T155936Z">
+        <seg>&lt;x1/&gt;Location bar&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,8 +280,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Версия Loginom&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T160306Z" creationid="Марианна" creationdate="20200810T160306Z">
-        <seg>&lt;x1/&gt;Loginom Version&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185104Z" creationid="Марианна" creationdate="20200810T160306Z">
+        <seg>&lt;x1/&gt;Loginom version&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -320,8 +320,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Главное меню&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T155812Z" creationid="Марианна" creationdate="20200810T155812Z">
-        <seg>&lt;x1/&gt;Main Menu&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185041Z" creationid="Марианна" creationdate="20200810T155812Z">
+        <seg>&lt;x1/&gt;Main menu&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -336,16 +336,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T160049Z" creationid="Марианна" creationdate="20200810T160049Z">
-        <seg>&lt;x1/&gt;Property Inspector&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
+        <seg>&lt;x1/&gt;Property inspector&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Интеграция с базами данных&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T154920Z" creationid="Марианна" creationdate="20200810T154920Z">
-        <seg>&lt;x1/&gt;Integration with Databases&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185026Z" creationid="Марианна" creationdate="20200810T154920Z">
+        <seg>&lt;x1/&gt;Integration with databases&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -360,24 +360,24 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерактивный режим работы&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T160401Z" creationid="Марианна" creationdate="20200810T160401Z">
-        <seg>&lt;x1/&gt;Interactive Mode of Operation&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185115Z" creationid="Марианна" creationdate="20200810T160401Z">
+        <seg>&lt;x1/&gt;Interactive mode of operation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерфейс «Связи»&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T181047Z" creationid="Марианна" creationdate="20200810T181047Z">
-        <seg>&lt;x1/&gt;"Connections" Interface&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185125Z" creationid="Марианна" creationdate="20200810T181047Z">
+        <seg>&lt;x1/&gt;"Connections" interface&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерфейс «Таблица»&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182436Z" creationid="Марианна" creationdate="20200810T182436Z">
-        <seg>&lt;x1/&gt;"Table" Interface&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185129Z" creationid="Марианна" creationdate="20200810T182436Z">
+        <seg>&lt;x1/&gt;"Table" interface&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -392,8 +392,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использование переменных&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T154930Z" creationid="Марианна" creationdate="20200810T154930Z">
-        <seg>&lt;x1/&gt;Variables Use&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185030Z" creationid="Марианна" creationdate="20200810T154930Z">
+        <seg>&lt;x1/&gt;Variables use&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -424,16 +424,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Локальные настройки&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T183157Z" creationid="Марианна" creationdate="20200810T183157Z">
-        <seg>&lt;x1/&gt;Local Settings&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185235Z" creationid="Марианна" creationdate="20200810T183157Z">
+        <seg>&lt;x1/&gt;Local settings&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Модификатор доступа&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182712Z" creationid="Марианна" creationdate="20200810T182712Z">
-        <seg>&lt;x1/&gt;Access Modifier&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185156Z" creationid="Марианна" creationdate="20200810T182712Z">
+        <seg>&lt;x1/&gt;Access modifier&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -456,8 +456,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Назначение и структура пакета&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T154844Z" creationid="Марианна" creationdate="20200810T154844Z">
-        <seg>&lt;x1/&gt;Package Designation and Structure&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185007Z" creationid="Марианна" creationdate="20200810T154844Z">
+        <seg>&lt;x1/&gt;Package designation and structure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -480,8 +480,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Обучение (переобучение) узла&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T183112Z" creationid="Марианна" creationdate="20200810T183112Z">
-        <seg>&lt;x1/&gt;Node Training (Retraining)&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185227Z" creationid="Марианна" creationdate="20200810T183112Z">
+        <seg>&lt;x1/&gt;Node training (retraining)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -504,8 +504,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пакетное выполнение сценариев&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T183041Z" creationid="Марианна" creationdate="20200810T183041Z">
-        <seg>&lt;x1/&gt;Batch Processing of Workflows&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185221Z" creationid="Марианна" creationdate="20200810T183041Z">
+        <seg>&lt;x1/&gt;Batch processing of workflows&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -520,16 +520,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель «Процессы»&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T160023Z" creationid="Марианна" creationdate="20200810T160023Z">
-        <seg>&lt;x1/&gt;"Processes" Panel&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185055Z" creationid="Марианна" creationdate="20200810T160023Z">
+        <seg>&lt;x1/&gt;"Processes" panel&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T154859Z" creationid="Марианна" creationdate="20200810T154859Z">
-        <seg>&lt;x1/&gt;The First Workflow&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185016Z" creationid="Марианна" creationdate="20200810T154859Z">
+        <seg>&lt;x1/&gt;The first workflow&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -544,8 +544,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменные сценария&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182548Z" creationid="Марианна" creationdate="20200810T182548Z">
-        <seg>&lt;x1/&gt;Workflow Variables&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185144Z" creationid="Марианна" creationdate="20200810T182548Z">
+        <seg>&lt;x1/&gt;Workflow variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -592,8 +592,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Предопределенные переменные&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182632Z" creationid="Марианна" creationdate="20200810T182632Z">
-        <seg>&lt;x1/&gt;Predefined Variables&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185148Z" creationid="Марианна" creationdate="20200810T182632Z">
+        <seg>&lt;x1/&gt;Predefined variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -616,8 +616,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Принципы проектирования&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T154911Z" creationid="Марианна" creationdate="20200810T154911Z">
-        <seg>&lt;x1/&gt;Design Principles&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
+        <seg>&lt;x1/&gt;Design principles&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -632,8 +632,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T160345Z" creationid="Марианна" creationdate="20200810T160345Z">
-        <seg>&lt;x1/&gt;Workflows Design&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185108Z" creationid="Марианна" creationdate="20200810T160345Z">
+        <seg>&lt;x1/&gt;Workflows design&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,8 +648,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Производный компонент&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182700Z" creationid="Марианна" creationdate="20200810T182700Z">
-        <seg>&lt;x1/&gt;Derived Component&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185152Z" creationid="Марианна" creationdate="20200810T182700Z">
+        <seg>&lt;x1/&gt;Derived component&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -664,16 +664,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее пространство&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T155947Z" creationid="Марианна" creationdate="20200810T155947Z">
-        <seg>&lt;x1/&gt;Working Space&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185051Z" creationid="Марианна" creationdate="20200810T155947Z">
+        <seg>&lt;x1/&gt;Working space&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Режим активации узла&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182856Z" creationid="Марианна" creationdate="20200810T182856Z">
-        <seg>&lt;x1/&gt;Node Activation Mode&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185210Z" creationid="Марианна" creationdate="20200810T182856Z">
+        <seg>&lt;x1/&gt;Node activation mode&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -688,8 +688,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Служебные порты&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182508Z" creationid="Марианна" creationdate="20200810T182508Z">
-        <seg>&lt;x1/&gt;Service Ports&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185135Z" creationid="Марианна" creationdate="20200810T182508Z">
+        <seg>&lt;x1/&gt;Service ports&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -752,8 +752,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ссылка на пакет&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T183233Z" creationid="Марианна" creationdate="20200810T183233Z">
-        <seg>&lt;x1/&gt;Reference to Package&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185240Z" creationid="Марианна" creationdate="20200810T183233Z">
+        <seg>&lt;x1/&gt;Reference to package&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -768,8 +768,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Страница «Начало»&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T155510Z" creationid="Марианна" creationdate="20200810T155510Z">
-        <seg>&lt;x1/&gt;"Home" Page&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185037Z" creationid="Марианна" creationdate="20200810T155510Z">
+        <seg>&lt;x1/&gt;"Home" page&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -816,16 +816,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Управление ходом выполнения сценария&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182806Z" creationid="Марианна" creationdate="20200810T182806Z">
-        <seg>&lt;x1/&gt;Workflow Progress Control&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185202Z" creationid="Марианна" creationdate="20200810T182806Z">
+        <seg>&lt;x1/&gt;Workflow progress control&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Управляющие переменные&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T182527Z" creationid="Марианна" creationdate="20200810T182527Z">
-        <seg>&lt;x1/&gt;Control Variables&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185141Z" creationid="Марианна" creationdate="20200810T182527Z">
+        <seg>&lt;x1/&gt;Control variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
