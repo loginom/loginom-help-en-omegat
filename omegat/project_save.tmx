@@ -94,6 +94,46 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse [MS SQL]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184356Z" creationid="Марианна" creationdate="20200810T184356Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse [MS SQL]&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse [Oracle]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184408Z" creationid="Марианна" creationdate="20200810T184408Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse [Oracle]&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184635Z" creationid="Марианна" creationdate="20200810T184635Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184455Z" creationid="Марианна" creationdate="20200810T184455Z">
+        <seg>&lt;x1/&gt;Excel File&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183338Z" creationid="Марианна" creationdate="20200810T183338Z">
@@ -106,6 +146,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
         <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;LGD-файл&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184523Z" creationid="Марианна" creationdate="20200810T184523Z">
+        <seg>&lt;x1/&gt;LGD File&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -190,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;XML-файл&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184536Z" creationid="Марианна" creationdate="20200810T184536Z">
+        <seg>&lt;x1/&gt;XML File&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Автоматическая синхронизация полей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T160632Z" creationid="Марианна" creationdate="20200810T160632Z">
@@ -202,6 +258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155936Z" creationid="Марианна" creationdate="20200810T155936Z">
         <seg>&lt;x1/&gt;Location Bar&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;База данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184604Z" creationid="Марианна" creationdate="20200810T184604Z">
+        <seg>&lt;x1/&gt;Database&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -258,6 +322,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155812Z" creationid="Марианна" creationdate="20200810T155812Z">
         <seg>&lt;x1/&gt;Main Menu&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импорт данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184425Z" creationid="Марианна" creationdate="20200810T184425Z">
+        <seg>&lt;x1/&gt;Data Import&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -718,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Текстовый файл&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184623Z" creationid="Марианна" creationdate="20200810T184623Z">
+        <seg>&lt;x1/&gt;Text File&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Узлы подмодели «ABC-анализ».&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074036Z" creationid="Марианна" creationdate="20200716T074016Z">
@@ -762,6 +842,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101314Z" creationid="Марианна" creationdate="20200717T101314Z">
         <seg>&lt;x1/&gt;Establish Connection&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184732Z" creationid="Марианна" creationdate="20200810T184732Z">
+        <seg>&lt;x1/&gt;Data Export&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
