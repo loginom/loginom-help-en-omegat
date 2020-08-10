@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183132Z" creationid="Марианна" creationdate="20200810T183132Z">
+        <seg>&lt;x1/&gt;Caching&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Модификатор доступа&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T182712Z" creationid="Марианна" creationdate="20200810T182712Z">
@@ -262,6 +270,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обучение (переобучение) узла&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183112Z" creationid="Марианна" creationdate="20200810T183112Z">
+        <seg>&lt;x1/&gt;Node Training (Retraining)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114621Z" creationid="Марианна" creationdate="20200716T122231Z">
@@ -274,6 +290,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114514Z" creationid="Марианна" creationdate="20200807T114514Z">
         <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пакетное выполнение сценариев&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183041Z" creationid="Марианна" creationdate="20200810T183041Z">
+        <seg>&lt;x1/&gt;Batch Processing of Workflows&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -426,6 +450,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155947Z" creationid="Марианна" creationdate="20200810T155947Z">
         <seg>&lt;x1/&gt;Working Space&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим активации узла&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182856Z" creationid="Марианна" creationdate="20200810T182856Z">
+        <seg>&lt;x1/&gt;Node Activation Mode&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
