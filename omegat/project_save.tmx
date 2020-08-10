@@ -648,8 +648,8 @@
       <tuv lang="ru">
         <seg>Для этого используется компонент &lt;x3/&gt;Фильтр строк&lt;x4/&gt;, в мастере которого задается условие: "№ Номер строки &lt;= 10".</seg>
       </tuv>
-      <tuv lang="en" changeid="mayorov" changedate="20200810T101555Z" creationid="Марианна" creationdate="20200717T110526Z">
-        <seg>For this purpose, the &lt;x3/&gt;Row filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" criteria is set in its wizard.</seg>
+      <tuv lang="en" changeid="mayorov" changedate="20200810T101620Z" creationid="Марианна" creationdate="20200717T110526Z">
+        <seg>For this purpose, the &lt;x3/&gt;Row Filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" criteria is set in its wizard.</seg>
       </tuv>
     </tu>
     <tu>
