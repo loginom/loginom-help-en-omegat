@@ -464,8 +464,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Начало работы&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T154755Z" creationid="Марианна" creationdate="20200810T154755Z">
-        <seg>&lt;x1/&gt;Start Operation&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184959Z" creationid="Марианна" creationdate="20200810T154755Z">
+        <seg>&lt;x1/&gt;Start operation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -694,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создание новой таблицы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184933Z" creationid="Марианна" creationdate="20200810T184933Z">
+        <seg>&lt;x1/&gt;Create new table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание узла подключения в сценарии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102943Z" creationid="Марианна" creationdate="20200711T102943Z">
@@ -850,6 +858,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184732Z" creationid="Марианна" creationdate="20200810T184732Z">
         <seg>&lt;x1/&gt;Data Export&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SUMMARY</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184936Z" creationid="Марианна" creationdate="20200810T184936Z">
+        <seg>SUMMARY</seg>
       </tuv>
     </tu>
     <tu>
