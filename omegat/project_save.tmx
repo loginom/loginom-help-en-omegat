@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Модификатор доступа&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182712Z" creationid="Марианна" creationdate="20200810T182712Z">
+        <seg>&lt;x1/&gt;Access Modifier&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Модуль&lt;x2/&gt; — сам по себе не содержит узлов обработки данных, но предоставляет отдельное пространство для Сценариев и &lt;x3/&gt;Подключений&lt;x4/&gt; к различным источникам данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163148Z" creationid="Марианна" creationdate="20200718T163148Z">
@@ -302,6 +310,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменные сценария&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182548Z" creationid="Марианна" creationdate="20200810T182548Z">
+        <seg>&lt;x1/&gt;Workflow Variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182515Z" creationid="Марианна" creationdate="20200810T182515Z">
+        <seg>&lt;x1/&gt;Variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt; — в них представлен список внешних источников и приемников данных, к которым можно подключиться;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111907Z" creationid="Марианна" creationdate="20200713T111907Z">
@@ -322,6 +346,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T160408Z" creationid="Марианна" creationdate="20200810T160408Z">
         <seg>&lt;x1/&gt;Ports&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Предопределенные переменные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182632Z" creationid="Марианна" creationdate="20200810T182632Z">
+        <seg>&lt;x1/&gt;Predefined Variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -374,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Производный компонент&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182700Z" creationid="Марианна" creationdate="20200810T182700Z">
+        <seg>&lt;x1/&gt;Derived Component&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее пространство Studio.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140802Z" creationid="Марианна" creationdate="20200716T140802Z">
@@ -394,6 +434,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
         <seg>&lt;x1/&gt;Resulting Workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Служебные порты&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182508Z" creationid="Марианна" creationdate="20200810T182508Z">
+        <seg>&lt;x1/&gt;Service Ports&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -490,6 +538,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074036Z" creationid="Марианна" creationdate="20200716T074016Z">
         <seg>&lt;x1/&gt;"ABC Analysis" Supernode Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Управляющие переменные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182527Z" creationid="Марианна" creationdate="20200810T182527Z">
+        <seg>&lt;x1/&gt;Control Variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
