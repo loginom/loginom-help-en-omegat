@@ -166,6 +166,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;REST-сервис&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184341Z" creationid="Марианна" creationdate="20200810T184341Z">
+        <seg>&lt;x1/&gt;REST Service&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SOAP-сервис&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T184331Z" creationid="Марианна" creationdate="20200810T184331Z">
+        <seg>&lt;x1/&gt;SOAP Service&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
