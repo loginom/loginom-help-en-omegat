@@ -24,8 +24,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T122455Z" creationid="Марианна" creationdate="20200711T101529Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Add reference to Connection into Workflow — &lt;x3/&gt;Reference node&lt;x4/&gt; (1) for connection will be added to the workflow.</seg>
+      <tuv lang="en" changeid="mayorov" changedate="20200810T102858Z" creationid="Марианна" creationdate="20200711T101529Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add reference to connection into Workflow — &lt;x3/&gt;Reference node&lt;x4/&gt; (1) for connection will be added to the workflow.</seg>
       </tuv>
     </tu>
     <tu>
