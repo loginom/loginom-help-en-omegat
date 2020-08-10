@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Автоматическая синхронизация полей&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160632Z" creationid="Марианна" creationdate="20200810T160632Z">
+        <seg>&lt;x1/&gt;Automapping of Fields&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155936Z" creationid="Марианна" creationdate="20200810T155936Z">
@@ -290,6 +298,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T164058Z" creationid="Марианна" creationdate="20200718T164058Z">
         <seg>The &lt;x1/&gt;Supernode&lt;x2/&gt; includes other nodes providing in such a way separate space for execution of the random algorithm of data processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порты&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160408Z" creationid="Марианна" creationdate="20200810T160408Z">
+        <seg>&lt;x1/&gt;Ports&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
