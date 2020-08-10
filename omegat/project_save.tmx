@@ -958,6 +958,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сортировка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192906Z" creationid="Марианна" creationdate="20200810T192906Z">
+        <seg>&lt;x1/&gt;Sort&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранение пакета.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
@@ -1070,10 +1078,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условия фильтрации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192925Z" creationid="Марианна" creationdate="20200810T192925Z">
+        <seg>&lt;x1/&gt;Filter relation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Фильтр строк&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T115229Z" creationid="Марианна" creationdate="20200807T115229Z">
-        <seg>&lt;x1/&gt;Row Filter&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192911Z" creationid="Марианна" creationdate="20200807T115229Z">
+        <seg>&lt;x1/&gt;Row filter&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
