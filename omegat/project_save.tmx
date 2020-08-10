@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Главное меню&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T155812Z" creationid="Марианна" creationdate="20200810T155812Z">
+        <seg>&lt;x1/&gt;Main Menu&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Интеграция с базами данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154920Z" creationid="Марианна" creationdate="20200810T154920Z">
