@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;JavaScript&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192119Z" creationid="Марианна" creationdate="20200810T192119Z">
+        <seg>&lt;x1/&gt;JavaScript&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;LGD-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185329Z" creationid="Марианна" creationdate="20200810T184523Z">
@@ -318,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выражение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192116Z" creationid="Марианна" creationdate="20200810T192116Z">
+        <seg>&lt;x1/&gt;Expression&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Главная&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154142Z" creationid="Марианна" creationdate="20200810T154142Z">
@@ -362,6 +378,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191829Z" creationid="Марианна" creationdate="20200810T191829Z">
         <seg>&lt;x1/&gt;Replace&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заменять остальное&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192049Z" creationid="Марианна" creationdate="20200810T192049Z">
+        <seg>&lt;x1/&gt;Replace the rest&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -446,10 +470,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Калькулятор&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192109Z" creationid="Марианна" creationdate="20200810T192109Z">
+        <seg>&lt;x1/&gt;Calculator&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты&lt;x2/&gt; — включают в себя доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113216Z" creationid="Марианна" creationdate="20200713T112223Z">
         <seg>&lt;x1/&gt;Components&lt;x2/&gt; include the supernodes available for work, both created within the current package and borrowed from other packages using references.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192140Z" creationid="Марианна" creationdate="20200810T192140Z">
+        <seg>&lt;x1/&gt;Cross table&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -538,6 +578,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185227Z" creationid="Марианна" creationdate="20200810T183112Z">
         <seg>&lt;x1/&gt;Node training (retraining)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Объединение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192158Z" creationid="Марианна" creationdate="20200810T192158Z">
+        <seg>&lt;x1/&gt;Union&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -742,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Регулярное выражение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T191859Z" creationid="Марианна" creationdate="20200810T191859Z">
+        <seg>&lt;x1/&gt;Regular expression&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Режим активации узла&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185210Z" creationid="Марианна" creationdate="20200810T182856Z">
@@ -842,6 +898,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185037Z" creationid="Марианна" creationdate="20200810T155510Z">
         <seg>&lt;x1/&gt;"Home" page&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Структура файла замен&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T191949Z" creationid="Марианна" creationdate="20200810T191949Z">
+        <seg>&lt;x1/&gt;Replacement file structure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
