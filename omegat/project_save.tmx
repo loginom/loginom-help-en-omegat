@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -106,6 +106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T090007Z" creationid="Марианна" creationdate="20200717T090007Z">
         <seg>&lt;x1/&gt;Call node configuration wizard.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Главная&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154142Z" creationid="Марианна" creationdate="20200810T154142Z">
+        <seg>&lt;x1/&gt;Home&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
