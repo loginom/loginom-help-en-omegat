@@ -118,6 +118,30 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интеграция с базами данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154920Z" creationid="Марианна" creationdate="20200810T154920Z">
+        <seg>&lt;x1/&gt;Integration with Databases&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интерфейс&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154938Z" creationid="Марианна" creationdate="20200810T154938Z">
+        <seg>&lt;x1/&gt;Interface&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использование переменных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154930Z" creationid="Марианна" creationdate="20200810T154930Z">
+        <seg>&lt;x1/&gt;Variables Use&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использование узла подключения.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104323Z" creationid="Марианна" creationdate="20200711T104323Z">
@@ -138,6 +162,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163148Z" creationid="Марианна" creationdate="20200718T163148Z">
         <seg>The &lt;x1/&gt;Module&lt;x2/&gt; as such does not contain data processing nodes, but it provides separate space for the Workflows and &lt;x3/&gt;Connections&lt;x4/&gt; to different data sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Назначение и структура пакета&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154844Z" creationid="Марианна" creationdate="20200810T154844Z">
+        <seg>&lt;x1/&gt;Package Designation and Structure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -170,6 +202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114514Z" creationid="Марианна" creationdate="20200807T114514Z">
         <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154859Z" creationid="Марианна" creationdate="20200810T154859Z">
+        <seg>&lt;x1/&gt;The First Workflow&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +250,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092012Z" creationid="Марианна" creationdate="20200715T092012Z">
         <seg>&lt;x1/&gt;Workflow example&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Принципы проектирования&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154911Z" creationid="Марианна" creationdate="20200810T154911Z">
+        <seg>&lt;x1/&gt;Design Principles&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -298,6 +346,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092253Z" creationid="Марианна" creationdate="20200715T092253Z">
         <seg>&lt;x1/&gt;Standard components&lt;x2/&gt; are provided by the platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Страница «Начало»&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T155510Z" creationid="Марианна" creationdate="20200810T155510Z">
+        <seg>&lt;x1/&gt;"Home" Page&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
