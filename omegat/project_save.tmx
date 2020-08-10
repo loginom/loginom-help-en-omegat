@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Веб-сервисы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185816Z" creationid="Марианна" creationdate="20200810T185816Z">
+        <seg>&lt;x1/&gt;Web services&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Версия Loginom&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185104Z" creationid="Марианна" creationdate="20200810T160306Z">
@@ -478,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обработка данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185838Z" creationid="Марианна" creationdate="20200810T185838Z">
+        <seg>&lt;x1/&gt;Data processing&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обучение (переобучение) узла&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185227Z" creationid="Марианна" creationdate="20200810T183112Z">
@@ -658,6 +674,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185152Z" creationid="Марианна" creationdate="20200810T182700Z">
         <seg>&lt;x1/&gt;Derived component&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Публикация веб-сервиса&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185827Z" creationid="Марианна" creationdate="20200810T185827Z">
+        <seg>&lt;x1/&gt;Web service publication&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
