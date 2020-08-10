@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Внутреннее соединение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192622Z" creationid="Марианна" creationdate="20200810T192622Z">
+        <seg>&lt;x1/&gt;Inner join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
@@ -502,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Левое соединение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192634Z" creationid="Марианна" creationdate="20200810T192634Z">
+        <seg>&lt;x1/&gt;Left join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Локальные настройки&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185235Z" creationid="Марианна" creationdate="20200810T183157Z">
@@ -694,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Полное соединение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192609Z" creationid="Марианна" creationdate="20200810T192609Z">
+        <seg>&lt;x1/&gt;Full join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пользовательский формат дата/время&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185804Z" creationid="Марианна" creationdate="20200810T185804Z">
@@ -706,6 +730,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T160408Z" creationid="Марианна" creationdate="20200810T160408Z">
         <seg>&lt;x1/&gt;Ports&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
+        <seg>&lt;x1/&gt;Right join&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -806,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разность&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
+        <seg>&lt;x1/&gt;Difference&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регулярное выражение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191859Z" creationid="Марианна" creationdate="20200810T191859Z">
@@ -838,10 +878,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скользящее окно&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192541Z" creationid="Марианна" creationdate="20200810T192541Z">
+        <seg>&lt;x1/&gt;Lag&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Слияние&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192556Z" creationid="Марианна" creationdate="20200810T192556Z">
+        <seg>&lt;x1/&gt;Join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Служебные порты&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185135Z" creationid="Марианна" creationdate="20200810T182508Z">
         <seg>&lt;x1/&gt;Service ports&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Соединение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192809Z" creationid="Марианна" creationdate="20200810T192809Z">
+        <seg>&lt;x1/&gt;Connection&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
