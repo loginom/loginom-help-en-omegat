@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T155936Z" creationid="Марианна" creationdate="20200810T155936Z">
+        <seg>&lt;x1/&gt;Location Bar&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T122824Z" creationid="Марианна" creationdate="20200716T122254Z">
@@ -122,6 +130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155812Z" creationid="Марианна" creationdate="20200810T155812Z">
         <seg>&lt;x1/&gt;Main Menu&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160049Z" creationid="Марианна" creationdate="20200810T160049Z">
+        <seg>&lt;x1/&gt;Property Inspector&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -214,6 +230,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пакеты&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T155819Z" creationid="Марианна" creationdate="20200810T155819Z">
+        <seg>&lt;x1/&gt;Packages&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель «Процессы»&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160023Z" creationid="Марианна" creationdate="20200810T160023Z">
+        <seg>&lt;x1/&gt;"Processes" Panel&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154859Z" creationid="Марианна" creationdate="20200810T154859Z">
@@ -290,6 +322,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140802Z" creationid="Марианна" creationdate="20200716T140802Z">
         <seg>&lt;x1/&gt;Working Space of Studio.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рабочее пространство&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T155947Z" creationid="Марианна" creationdate="20200810T155947Z">
+        <seg>&lt;x1/&gt;Working Space&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
