@@ -78,6 +78,102 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;1C:Предприятие 8.x&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183333Z" creationid="Марианна" creationdate="20200810T183333Z">
+        <seg>&lt;x1/&gt;1C:Enterprise 8.x&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183414Z" creationid="Марианна" creationdate="20200810T183414Z">
+        <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183338Z" creationid="Марианна" creationdate="20200810T183338Z">
+        <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
+        <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;MS Access&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183345Z" creationid="Марианна" creationdate="20200810T183345Z">
+        <seg>&lt;x1/&gt;MS Access&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;MS Excel&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183349Z" creationid="Марианна" creationdate="20200810T183349Z">
+        <seg>&lt;x1/&gt;MS Excel&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;MS SQL&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183352Z" creationid="Марианна" creationdate="20200810T183352Z">
+        <seg>&lt;x1/&gt;MS SQL&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;MySQL&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183356Z" creationid="Марианна" creationdate="20200810T183356Z">
+        <seg>&lt;x1/&gt;MySQL&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ODBC&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183359Z" creationid="Марианна" creationdate="20200810T183359Z">
+        <seg>&lt;x1/&gt;ODBC&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Oracle&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183403Z" creationid="Марианна" creationdate="20200810T183403Z">
+        <seg>&lt;x1/&gt;Oracle&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183406Z" creationid="Марианна" creationdate="20200810T183406Z">
+        <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
+        <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Автоматическая синхронизация полей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T160632Z" creationid="Марианна" creationdate="20200810T160632Z">
@@ -166,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интеграция&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183245Z" creationid="Марианна" creationdate="20200810T183245Z">
+        <seg>&lt;x1/&gt;Integration&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерактивный режим работы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T160401Z" creationid="Марианна" creationdate="20200810T160401Z">
@@ -226,6 +330,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183132Z" creationid="Марианна" creationdate="20200810T183132Z">
         <seg>&lt;x1/&gt;Caching&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Локальные настройки&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183157Z" creationid="Марианна" creationdate="20200810T183157Z">
+        <seg>&lt;x1/&gt;Local Settings&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,6 +458,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T182515Z" creationid="Марианна" creationdate="20200810T182515Z">
         <seg>&lt;x1/&gt;Variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключения&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183319Z" creationid="Марианна" creationdate="20200810T183319Z">
+        <seg>&lt;x1/&gt;Connections&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -522,6 +642,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
         <seg>&lt;x1/&gt;Save Package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ссылка на пакет&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T183233Z" creationid="Марианна" creationdate="20200810T183233Z">
+        <seg>&lt;x1/&gt;Reference to Package&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
