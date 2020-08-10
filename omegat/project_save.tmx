@@ -128,8 +128,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184455Z" creationid="Марианна" creationdate="20200810T184455Z">
-        <seg>&lt;x1/&gt;Excel File&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185325Z" creationid="Марианна" creationdate="20200810T184455Z">
+        <seg>&lt;x1/&gt;Excel file&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -152,8 +152,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;LGD-файл&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184523Z" creationid="Марианна" creationdate="20200810T184523Z">
-        <seg>&lt;x1/&gt;LGD File&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185329Z" creationid="Марианна" creationdate="20200810T184523Z">
+        <seg>&lt;x1/&gt;LGD file&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -216,16 +216,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;REST-сервис&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184341Z" creationid="Марианна" creationdate="20200810T184341Z">
-        <seg>&lt;x1/&gt;REST Service&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185309Z" creationid="Марианна" creationdate="20200810T184341Z">
+        <seg>&lt;x1/&gt;REST service&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;SOAP-сервис&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184331Z" creationid="Марианна" creationdate="20200810T184331Z">
-        <seg>&lt;x1/&gt;SOAP Service&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185305Z" creationid="Марианна" creationdate="20200810T184331Z">
+        <seg>&lt;x1/&gt;SOAP service&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -240,8 +240,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XML-файл&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184536Z" creationid="Марианна" creationdate="20200810T184536Z">
-        <seg>&lt;x1/&gt;XML File&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185333Z" creationid="Марианна" creationdate="20200810T184536Z">
+        <seg>&lt;x1/&gt;XML file&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -328,8 +328,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт данных&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184425Z" creationid="Марианна" creationdate="20200810T184425Z">
-        <seg>&lt;x1/&gt;Data Import&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185317Z" creationid="Марианна" creationdate="20200810T184425Z">
+        <seg>&lt;x1/&gt;Data import&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -448,8 +448,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Набор XSD-схем&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184320Z" creationid="Марианна" creationdate="20200810T184320Z">
-        <seg>&lt;x1/&gt;Set of XSD Schemas&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185302Z" creationid="Марианна" creationdate="20200810T184320Z">
+        <seg>&lt;x1/&gt;Set of XSD schemas&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -800,8 +800,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Текстовый файл&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184623Z" creationid="Марианна" creationdate="20200810T184623Z">
-        <seg>&lt;x1/&gt;Text File&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185339Z" creationid="Марианна" creationdate="20200810T184623Z">
+        <seg>&lt;x1/&gt;Text file&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -856,8 +856,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Экспорт данных&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T184732Z" creationid="Марианна" creationdate="20200810T184732Z">
-        <seg>&lt;x1/&gt;Data Export&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T185344Z" creationid="Марианна" creationdate="20200810T184732Z">
+        <seg>&lt;x1/&gt;Data export&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
