@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Управление ходом выполнения сценария&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T182806Z" creationid="Марианна" creationdate="20200810T182806Z">
+        <seg>&lt;x1/&gt;Workflow Progress Control&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Управляющие переменные&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T182527Z" creationid="Марианна" creationdate="20200810T182527Z">
