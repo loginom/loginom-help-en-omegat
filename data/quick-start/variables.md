@@ -21,5 +21,5 @@ Thus, the node settings can be the calculation subject matter in the course of t
 
 Examples of the control variables use:
 
-* The variable can be also used as the criteria parameter of the [Row Filter](../processors/transformation/row-filter/README.md) database.
+* The variable can be also used as the criteria parameter of the [Row Filter](../processors/transformation/row-filter/README.md) component.
 * The variable as the SQL query parameter in the case of [Import from database](../integration/import/database.md), the variable contains the SQL query text.

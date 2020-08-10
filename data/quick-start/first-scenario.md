@@ -50,7 +50,7 @@ The next algorithm step is calculation of purchase sum for all clients. For this
 
 The Client Card field is set as a group, and the Sum is set as a parameter in the [Grouping](../processors/transformation/grouping.md) Node Wizard. Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.
 
-Then these data are sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then these data are transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" antecedent is set in its wizard.
+Then these data are sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then these data are transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row Filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" criteria is set in its wizard.
 
 The export node is added to the resulting workflow, and/or the [Visualizer](../visualization/README.md) of results is configured (refer to Figure 6).
 
