@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Версия Loginom&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160306Z" creationid="Марианна" creationdate="20200810T160306Z">
+        <seg>&lt;x1/&gt;Loginom Version&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
@@ -146,6 +154,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154920Z" creationid="Марианна" creationdate="20200810T154920Z">
         <seg>&lt;x1/&gt;Integration with Databases&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интерактивный режим работы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160401Z" creationid="Марианна" creationdate="20200810T160401Z">
+        <seg>&lt;x1/&gt;Interactive Mode of Operation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -306,6 +322,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120529Z" creationid="Марианна" creationdate="20200718T120529Z">
         <seg>The &lt;x1/&gt;Project&lt;x2/&gt; is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T160345Z" creationid="Марианна" creationdate="20200810T160345Z">
+        <seg>&lt;x1/&gt;Workflows Design&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
