@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Замена&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T191829Z" creationid="Марианна" creationdate="20200810T191829Z">
+        <seg>&lt;x1/&gt;Replace&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185317Z" creationid="Марианна" creationdate="20200810T184425Z">
@@ -866,6 +874,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185339Z" creationid="Марианна" creationdate="20200810T184623Z">
         <seg>&lt;x1/&gt;Text file&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точное совпадение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T191849Z" creationid="Марианна" creationdate="20200810T191849Z">
+        <seg>&lt;x1/&gt;Exact match&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
