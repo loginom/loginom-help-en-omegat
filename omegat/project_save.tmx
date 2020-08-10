@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры полей&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192212Z" creationid="Марианна" creationdate="20200810T192212Z">
+        <seg>&lt;x1/&gt;Parameters of fields&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185016Z" creationid="Марианна" creationdate="20200810T154859Z">
@@ -790,6 +798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разгруппировка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192228Z" creationid="Марианна" creationdate="20200810T192228Z">
+        <seg>&lt;x1/&gt;Ungroup&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регулярное выражение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191859Z" creationid="Марианна" creationdate="20200810T191859Z">
@@ -810,6 +826,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
         <seg>&lt;x1/&gt;Resulting Workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свёртка столбцов&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T192507Z" creationid="Марианна" creationdate="20200810T192507Z">
+        <seg>&lt;x1/&gt;Collapse columns&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
