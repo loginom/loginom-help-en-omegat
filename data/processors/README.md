@@ -93,7 +93,7 @@ The supernode accepts information by means of input ports, performs processing a
 * [Нейросеть (регрессия)](./datamining/neural-network-regression.md)
 * [Самоорганизующиеся сети](./datamining/self-organizing-network.md)
 
-### [Переменные](./variables/README.md)
+### [Variables](./variables/README.md)
 
 В Loginom имеется возможность создавать и использовать переменные. Обработчики этой группы позволяют проводить различные операции над ними: изменение, создание переменных из таблицы, расчет новых переменных с помощью различных функций.
 
@@ -103,7 +103,7 @@ The supernode accepts information by means of input ports, performs processing a
 * [Соединение (переменные)](./variables/variables-union.md)
 * [Таблица в переменные](./variables/variables-from-table.md)
 
-### [Интеграция](./integration/README.md)
+### [Integration](./integration/README.md)
 
 Механизмы интеграции предназначены для обмена данными между платформой Loginom и сторонними внешними системами.
 
