@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Начало работы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154755Z" creationid="Марианна" creationdate="20200810T154755Z">
+        <seg>&lt;x1/&gt;Start Operation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
@@ -848,8 +856,8 @@
       <tuv lang="ru">
         <seg>Начало работы</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T090041Z" creationid="Марианна" creationdate="20200715T090041Z">
-        <seg>Start of Work</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200810T154818Z" creationid="Марианна" creationdate="20200715T090041Z">
+        <seg>Start Operation</seg>
       </tuv>
     </tu>
     <tu>
