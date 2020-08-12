@@ -726,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070146Z" creationid="Марианна" creationdate="20200812T070146Z">
+        <seg>&lt;x1/&gt;Binary classification assessment&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Квантование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055135Z" creationid="Марианна" creationdate="20200812T055135Z">
@@ -858,6 +866,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060543Z" creationid="Марианна" creationdate="20200812T060543Z">
         <seg>&lt;x1/&gt;Mathematical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Матрица ошибок&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070230Z" creationid="Марианна" creationdate="20200812T070230Z">
+        <seg>&lt;x1/&gt;Error matrix&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Основная таблица&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070304Z" creationid="Марианна" creationdate="20200812T070304Z">
+        <seg>&lt;x1/&gt;Main table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114621Z" creationid="Марианна" creationdate="20200716T122231Z">
@@ -1074,6 +1098,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114514Z" creationid="Марианна" creationdate="20200807T114514Z">
         <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отчет по линейной регрессии&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070121Z" creationid="Марианна" creationdate="20200812T070121Z">
+        <seg>&lt;x1/&gt;Linear regression report&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отчет по регрессии&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070131Z" creationid="Марианна" creationdate="20200812T070131Z">
+        <seg>&lt;x1/&gt;Regression report&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1106,6 +1146,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065943Z" creationid="Марианна" creationdate="20200812T065943Z">
         <seg>&lt;x1/&gt;Toolbar&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель сравнения кластеров&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070421Z" creationid="Марианна" creationdate="20200812T070421Z">
+        <seg>&lt;x1/&gt;Cluster comparison panel&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель фильтрации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070337Z" creationid="Марианна" creationdate="20200812T070337Z">
+        <seg>&lt;x1/&gt;Filtration panel&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1322,6 +1378,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185152Z" creationid="Марианна" creationdate="20200810T182700Z">
         <seg>&lt;x1/&gt;Derived component&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Профили кластеров&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
+        <seg>&lt;x1/&gt;Cluster profiles&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1690,6 +1754,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185339Z" creationid="Марианна" creationdate="20200810T184623Z">
         <seg>&lt;x1/&gt;Text file&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Термины&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070207Z" creationid="Марианна" creationdate="20200812T070207Z">
+        <seg>&lt;x1/&gt;Terms&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
