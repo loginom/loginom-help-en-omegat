@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дата/время&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060411Z" creationid="Марианна" creationdate="20200812T060411Z">
+        <seg>&lt;x1/&gt;Date/time&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дерево в таблицу&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060205Z" creationid="Марианна" creationdate="20200812T060205Z">
@@ -546,6 +554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055110Z" creationid="Марианна" creationdate="20200812T055110Z">
         <seg>&lt;x1/&gt;Imputation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
+        <seg>&lt;x1/&gt;XML Extraction&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -758,10 +774,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логические функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060442Z" creationid="Марианна" creationdate="20200812T060442Z">
+        <seg>&lt;x1/&gt;Logical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Локальные настройки&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185235Z" creationid="Марианна" creationdate="20200810T183157Z">
         <seg>&lt;x1/&gt;Local settings&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Математические функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060543Z" creationid="Марианна" creationdate="20200812T060543Z">
+        <seg>&lt;x1/&gt;Mathematical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Модели&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060557Z" creationid="Марианна" creationdate="20200812T060557Z">
+        <seg>&lt;x1/&gt;Models&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1366,6 +1406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Статистические функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060619Z" creationid="Марианна" creationdate="20200812T060619Z">
+        <seg>&lt;x1/&gt;Statistical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Страница «Начало»&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185037Z" creationid="Марианна" creationdate="20200810T155510Z">
@@ -1558,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формирование XML&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060347Z" creationid="Марианна" creationdate="20200812T060347Z">
+        <seg>&lt;x1/&gt;XML generation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Формирование связи.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101314Z" creationid="Марианна" creationdate="20200717T101314Z">
@@ -1570,6 +1626,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054400Z" creationid="Марианна" creationdate="20200812T054400Z">
         <seg>&lt;x1/&gt;Calculator functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Функции калькулятора&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060404Z" creationid="Марианна" creationdate="20200812T060404Z">
+        <seg>&lt;x1/&gt;Calculator functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060356Z" creationid="Марианна" creationdate="20200812T060356Z">
+        <seg>&lt;x1/&gt;Functions&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
