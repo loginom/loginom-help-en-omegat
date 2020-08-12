@@ -246,10 +246,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;REST-запрос&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060259Z" creationid="Марианна" creationdate="20200812T060259Z">
+        <seg>&lt;x1/&gt;REST request&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;REST-сервис&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185309Z" creationid="Марианна" creationdate="20200810T184341Z">
         <seg>&lt;x1/&gt;REST service&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SOAP-запрос&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060227Z" creationid="Марианна" creationdate="20200812T060227Z">
+        <seg>&lt;x1/&gt;SOAP request&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выполнение программы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060318Z" creationid="Марианна" creationdate="20200812T060318Z">
+        <seg>&lt;x1/&gt;Program execution&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выполнение узла&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054741Z" creationid="Марианна" creationdate="20200812T054741Z">
@@ -466,6 +490,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T190001Z" creationid="Марианна" creationdate="20200810T190001Z">
         <seg>&lt;x1/&gt;Date and time&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дерево в таблицу&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060205Z" creationid="Марианна" creationdate="20200812T060205Z">
+        <seg>&lt;x1/&gt;Tree to table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Деревья данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060144Z" creationid="Марианна" creationdate="20200812T060144Z">
+        <seg>&lt;x1/&gt;Data trees&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -926,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменные в таблицу&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060035Z" creationid="Марианна" creationdate="20200812T060035Z">
+        <seg>&lt;x1/&gt;Variables to table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменные сценария&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185144Z" creationid="Марианна" creationdate="20200810T182548Z">
@@ -1222,6 +1270,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Соединение (переменные)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060051Z" creationid="Марианна" creationdate="20200812T060051Z">
+        <seg>&lt;x1/&gt;Union (variables)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192809Z" creationid="Марианна" creationdate="20200810T192809Z">
@@ -1370,6 +1426,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055605Z" creationid="Марианна" creationdate="20200812T055605Z">
         <seg>&lt;x1/&gt;Sampling&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица в дерево&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060152Z" creationid="Марианна" creationdate="20200812T060152Z">
+        <seg>&lt;x1/&gt;Table to tree&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица в переменные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060105Z" creationid="Марианна" creationdate="20200812T060105Z">
+        <seg>&lt;x1/&gt;Table to variables&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
