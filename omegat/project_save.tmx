@@ -582,6 +582,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Конечные классы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055325Z" creationid="Марианна" creationdate="20200812T055325Z">
+        <seg>&lt;x1/&gt;Coarse classes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Консоль отладки кода&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054600Z" creationid="Марианна" creationdate="20200812T054600Z">
@@ -658,6 +666,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185007Z" creationid="Марианна" creationdate="20200810T154844Z">
         <seg>&lt;x1/&gt;Package designation and structure&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка внешнего разбиения&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055345Z" creationid="Марианна" creationdate="20200812T055345Z">
+        <seg>&lt;x1/&gt;Configure external binning&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
