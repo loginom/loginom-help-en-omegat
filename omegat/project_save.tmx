@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Loginom Data File&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071114Z" creationid="Марианна" creationdate="20200812T071114Z">
+        <seg>&lt;x1/&gt;Loginom data file&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MS Access&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183345Z" creationid="Марианна" creationdate="20200810T183345Z">
@@ -370,6 +378,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185104Z" creationid="Марианна" creationdate="20200810T160306Z">
         <seg>&lt;x1/&gt;Loginom version&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вид данных (непрерывный, дискретный)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070858Z" creationid="Марианна" creationdate="20200812T070858Z">
+        <seg>&lt;x1/&gt;Data kind (continuous, discrete)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1922,6 +1938,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T064858Z" creationid="Марианна" creationdate="20200812T064858Z">
         <seg>&lt;x1/&gt;Financial functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фирменные источники данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071105Z" creationid="Марианна" creationdate="20200812T071105Z">
+        <seg>&lt;x1/&gt;Branded data sources&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
