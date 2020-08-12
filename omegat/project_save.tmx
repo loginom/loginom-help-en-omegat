@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;LDAP&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071203Z" creationid="Марианна" creationdate="20200812T071203Z">
+        <seg>&lt;x1/&gt;LDAP&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;LGD-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185329Z" creationid="Марианна" creationdate="20200810T184523Z">
@@ -314,6 +322,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185121Z" creationid="Марианна" creationdate="20200810T160632Z">
         <seg>&lt;x1/&gt;Automapping of fields&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071200Z" creationid="Марианна" creationdate="20200812T071200Z">
+        <seg>&lt;x1/&gt;Administration&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1086,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Общие папки&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071252Z" creationid="Марианна" creationdate="20200812T071252Z">
+        <seg>&lt;x1/&gt;Shared folders&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Объединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192158Z" creationid="Марианна" creationdate="20200810T192158Z">
@@ -1222,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071321Z" creationid="Марианна" creationdate="20200812T071321Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185016Z" creationid="Марианна" creationdate="20200810T154859Z">
@@ -1314,6 +1346,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192609Z" creationid="Марианна" creationdate="20200810T192609Z">
         <seg>&lt;x1/&gt;Full join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пользователи&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071229Z" creationid="Марианна" creationdate="20200812T071229Z">
+        <seg>&lt;x1/&gt;Users&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1514,6 +1554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
         <seg>&lt;x1/&gt;Resulting Workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Роли пользователей&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071222Z" creationid="Марианна" creationdate="20200812T071222Z">
+        <seg>&lt;x1/&gt;User roles&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1890,6 +1938,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192925Z" creationid="Марианна" creationdate="20200810T192925Z">
         <seg>&lt;x1/&gt;Filter relation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Файловое хранилище&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T071142Z" creationid="Марианна" creationdate="20200812T071142Z">
+        <seg>&lt;x1/&gt;File storage&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
