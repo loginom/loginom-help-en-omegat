@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Данные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070436Z" creationid="Марианна" creationdate="20200812T070436Z">
+        <seg>&lt;x1/&gt;Data&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дата и время&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T190001Z" creationid="Марианна" creationdate="20200810T190001Z">
@@ -1114,6 +1122,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070131Z" creationid="Марианна" creationdate="20200812T070131Z">
         <seg>&lt;x1/&gt;Regression report&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отчеты&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070432Z" creationid="Марианна" creationdate="20200812T070432Z">
+        <seg>&lt;x1/&gt;Reports&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1762,6 +1778,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070207Z" creationid="Марианна" creationdate="20200812T070207Z">
         <seg>&lt;x1/&gt;Terms&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Типы данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T070450Z" creationid="Марианна" creationdate="20200812T070450Z">
+        <seg>&lt;x1/&gt;Data types&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
