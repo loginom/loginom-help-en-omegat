@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Быстрый просмотр&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065429Z" creationid="Марианна" creationdate="20200812T065429Z">
+        <seg>&lt;x1/&gt;Quick view&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T122824Z" creationid="Марианна" creationdate="20200716T122254Z">
@@ -362,6 +370,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185104Z" creationid="Марианна" creationdate="20200810T160306Z">
         <seg>&lt;x1/&gt;Loginom version&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Визуализаторы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065411Z" creationid="Марианна" creationdate="20200812T065411Z">
+        <seg>&lt;x1/&gt;Visualizers&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -522,6 +538,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060144Z" creationid="Марианна" creationdate="20200812T060144Z">
         <seg>&lt;x1/&gt;Data trees&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065625Z" creationid="Марианна" creationdate="20200812T065625Z">
+        <seg>&lt;x1/&gt;Chart&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -870,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка сортировки&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065618Z" creationid="Марианна" creationdate="20200812T065618Z">
+        <seg>&lt;x1/&gt;Configure sorting&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Начало работы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184959Z" creationid="Марианна" creationdate="20200810T154755Z">
@@ -946,6 +978,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185227Z" creationid="Марианна" creationdate="20200810T183112Z">
         <seg>&lt;x1/&gt;Node training (retraining)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Общие настройки&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065705Z" creationid="Марианна" creationdate="20200812T065705Z">
+        <seg>&lt;x1/&gt;General settings&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1102,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поиск&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065526Z" creationid="Марианна" creationdate="20200812T065526Z">
+        <seg>&lt;x1/&gt;Search&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Полное соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192609Z" creationid="Марианна" creationdate="20200810T192609Z">
@@ -1146,6 +1194,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185148Z" creationid="Марианна" creationdate="20200810T182632Z">
         <seg>&lt;x1/&gt;Predefined variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Предпросмотр&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065441Z" creationid="Марианна" creationdate="20200812T065441Z">
+        <seg>&lt;x1/&gt;Preview&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1542,6 +1598,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065447Z" creationid="Марианна" creationdate="20200812T065447Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Текстовый файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185339Z" creationid="Марианна" creationdate="20200810T184623Z">
@@ -1642,6 +1706,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T115253Z" creationid="Марианна" creationdate="20200807T115253Z">
         <seg>&lt;x1/&gt;Row Filter&lt;x2/&gt; Фильтр строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтрация&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065455Z" creationid="Марианна" creationdate="20200812T065455Z">
+        <seg>&lt;x1/&gt;Filtration&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
