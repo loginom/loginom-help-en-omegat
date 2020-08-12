@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Валидация моделей&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065337Z" creationid="Марианна" creationdate="20200812T065337Z">
+        <seg>&lt;x1/&gt;Validation of models&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Веб-сервисы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185816Z" creationid="Марианна" creationdate="20200810T185816Z">
