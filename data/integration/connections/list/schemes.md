@@ -19,4 +19,4 @@
 
 * [Импорт XML](../../import/xml.md)
 * [Экспорт XML](../../export/xml.md)
-* [Извлечение XML](../../../processors/integration/extracting-xml.md)
+* [XML Extraction](../../../processors/integration/extracting-xml.md)

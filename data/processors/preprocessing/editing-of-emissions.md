@@ -56,5 +56,5 @@
 
 **Смотри также:**
 
-* [Заполнение пропусков](../../processors/preprocessing/filling-omissions.md)
+* [Imputation](../../processors/preprocessing/filling-omissions.md)
 * [Аномальные значения](https://wiki.loginom.ru/articles/outlier.html)

@@ -77,4 +77,4 @@
 
 **Смотри также:**
 
-* [Редактирование выбросов](./editing-of-emissions.md)
+* [Eliminate outliers](./editing-of-emissions.md)

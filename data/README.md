@@ -8,11 +8,11 @@
 
 | Функционал компонента | Desktop | Studio |
 |:-------------|:------:|:-------:|
-| [Workflows Design](./scenario/README.md) | • | • |
-| [Обработка данных](./processors/README.md) | • | • |
+| [Workflows design](./scenario/README.md) | • | • |
+| [Data processing](./processors/README.md) | • | • |
 | [Визуализация](./visualization/README.md) | • | • |
 | [Управление файлами](./location_user_files.md) | | • |
-| [Администрирование](./admin/README.md) | | • |
+| [Administration](./admin/README.md) | | • |
 | Многопользовательская работа | | • |
 | [Integration](./integration/README.md) | •/- | • |
 

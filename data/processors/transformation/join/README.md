@@ -46,6 +46,6 @@
 
 **Смотри также:**
 
-* [Дополнение данных](../supplementation.md)
-* [Соединение](../addition.md)
-* [Объединение](../union.md)
+* [Enrich data](../supplementation.md)
+* [Connection](../addition.md)
+* [Union](../union.md)
