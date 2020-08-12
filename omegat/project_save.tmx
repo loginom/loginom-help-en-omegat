@@ -1174,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Прочие функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T064906Z" creationid="Марианна" creationdate="20200812T064906Z">
+        <seg>&lt;x1/&gt;Other functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Публикация веб-сервиса&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185827Z" creationid="Марианна" creationdate="20200810T185827Z">
@@ -1606,6 +1614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Финансовые функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T064858Z" creationid="Марианна" creationdate="20200812T064858Z">
+        <seg>&lt;x1/&gt;Financial functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Формат&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T190020Z" creationid="Марианна" creationdate="20200810T190020Z">
@@ -1634,6 +1650,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054400Z" creationid="Марианна" creationdate="20200812T054400Z">
         <seg>&lt;x1/&gt;Calculator functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Функции агрегации данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T064941Z" creationid="Марианна" creationdate="20200812T064941Z">
+        <seg>&lt;x1/&gt;Functions of data aggregation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
