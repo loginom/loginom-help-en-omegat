@@ -1422,6 +1422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строковые функции&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T064837Z" creationid="Марианна" creationdate="20200812T064837Z">
+        <seg>&lt;x1/&gt;String functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Структура выходного набора&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055853Z" creationid="Марианна" creationdate="20200812T055853Z">
