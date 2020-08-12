@@ -478,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Замена (переменные)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060001Z" creationid="Марианна" creationdate="20200812T060001Z">
+        <seg>&lt;x1/&gt;Replace (variables)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Замена&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191829Z" creationid="Марианна" creationdate="20200810T191829Z">
@@ -590,6 +598,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Калькулятор (переменные)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T060015Z" creationid="Марианна" creationdate="20200812T060015Z">
+        <seg>&lt;x1/&gt;Calculator (variables)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Калькулятор&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192109Z" creationid="Марианна" creationdate="20200810T192109Z">
@@ -654,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициенты регрессии&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055807Z" creationid="Марианна" creationdate="20200812T055807Z">
+        <seg>&lt;x1/&gt;Regression coefficients&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192140Z" creationid="Марианна" creationdate="20200810T192140Z">
@@ -674,6 +698,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192634Z" creationid="Марианна" creationdate="20200810T192634Z">
         <seg>&lt;x1/&gt;Left join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055729Z" creationid="Марианна" creationdate="20200812T055729Z">
+        <seg>&lt;x1/&gt;Linear regression&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055817Z" creationid="Марианна" creationdate="20200812T055817Z">
+        <seg>&lt;x1/&gt;Logistic regression&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -746,6 +786,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184959Z" creationid="Марианна" creationdate="20200810T154755Z">
         <seg>&lt;x1/&gt;Start operation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нейросеть (классификация)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055836Z" creationid="Марианна" creationdate="20200812T055836Z">
+        <seg>&lt;x1/&gt;Neural network (classification)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нейросеть (регрессия)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055908Z" creationid="Марианна" creationdate="20200812T055908Z">
+        <seg>&lt;x1/&gt;Neural network (regression)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1110,6 +1166,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Самоорганизующиеся сети&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055933Z" creationid="Марианна" creationdate="20200812T055933Z">
+        <seg>&lt;x1/&gt;Self-organizing networks&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сводка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055743Z" creationid="Марианна" creationdate="20200812T055743Z">
+        <seg>&lt;x1/&gt;Summary&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Свёртка столбцов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192507Z" creationid="Марианна" creationdate="20200810T192507Z">
@@ -1242,6 +1314,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185037Z" creationid="Марианна" creationdate="20200810T155510Z">
         <seg>&lt;x1/&gt;"Home" page&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Структура выходного набора&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055853Z" creationid="Марианна" creationdate="20200812T055853Z">
+        <seg>&lt;x1/&gt;Output data set structure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
