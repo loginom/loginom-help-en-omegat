@@ -86,10 +86,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055612Z" creationid="Марианна" creationdate="20200812T055612Z">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183414Z" creationid="Марианна" creationdate="20200810T183414Z">
         <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Data Mining&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055609Z" creationid="Марианна" creationdate="20200812T055609Z">
+        <seg>&lt;x1/&gt;Data Mining&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -122,6 +138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184635Z" creationid="Марианна" creationdate="20200810T184635Z">
         <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;EM Кластеризация&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055628Z" creationid="Марианна" creationdate="20200812T055628Z">
+        <seg>&lt;x1/&gt;EM clustering&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -274,6 +298,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185048Z" creationid="Марианна" creationdate="20200810T155936Z">
         <seg>&lt;x1/&gt;Location bar&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ассоциативные правила&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055648Z" creationid="Марианна" creationdate="20200812T055648Z">
+        <seg>&lt;x1/&gt;Association rules&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -574,6 +606,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кластеризация транзакций&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055719Z" creationid="Марианна" creationdate="20200812T055719Z">
+        <seg>&lt;x1/&gt;Transaction clustering&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кластеризация&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055701Z" creationid="Марианна" creationdate="20200812T055701Z">
+        <seg>&lt;x1/&gt;Clustering&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты&lt;x2/&gt; — включают в себя доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113216Z" creationid="Марианна" creationdate="20200713T112223Z">
@@ -674,6 +722,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055345Z" creationid="Марианна" creationdate="20200812T055345Z">
         <seg>&lt;x1/&gt;Configure external binning&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка конечных классов&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055509Z" creationid="Марианна" creationdate="20200812T055509Z">
+        <seg>&lt;x1/&gt;Configure coarse classes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка назначений столбцов&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055444Z" creationid="Марианна" creationdate="20200812T055444Z">
+        <seg>&lt;x1/&gt;Configure column usage types&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -990,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разбиение на множества&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055533Z" creationid="Марианна" creationdate="20200812T055533Z">
+        <seg>&lt;x1/&gt;Partitioning&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппировка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192228Z" creationid="Марианна" creationdate="20200810T192228Z">
@@ -1014,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактирование выбросов&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055543Z" creationid="Марианна" creationdate="20200812T055543Z">
+        <seg>&lt;x1/&gt;Eliminate outliers&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Режим активации узла&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185210Z" creationid="Марианна" creationdate="20200810T182856Z">
@@ -1034,6 +1114,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192507Z" creationid="Марианна" creationdate="20200810T192507Z">
         <seg>&lt;x1/&gt;Collapse columns&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сглаживание&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055558Z" creationid="Марианна" creationdate="20200812T055558Z">
+        <seg>&lt;x1/&gt;Smoothing&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1194,6 +1282,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113656Z" creationid="Марианна" creationdate="20200713T111733Z">
         <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; contains sequence of data processing nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сэмплинг&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055605Z" creationid="Марианна" creationdate="20200812T055605Z">
+        <seg>&lt;x1/&gt;Sampling&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
