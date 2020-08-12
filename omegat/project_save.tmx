@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Корреляционный анализ&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054934Z" creationid="Марианна" creationdate="20200812T054934Z">
+        <seg>&lt;x1/&gt;Correlation analysis&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192140Z" creationid="Марианна" creationdate="20200810T192140Z">
@@ -1202,6 +1210,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192925Z" creationid="Марианна" creationdate="20200810T192925Z">
         <seg>&lt;x1/&gt;Filter relation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Факторный анализ&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054950Z" creationid="Марианна" creationdate="20200812T054950Z">
+        <seg>&lt;x1/&gt;Factor analysis&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
