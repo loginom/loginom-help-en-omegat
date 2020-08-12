@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Внешние диапазоны&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055150Z" creationid="Марианна" creationdate="20200812T055150Z">
+        <seg>&lt;x1/&gt;External ranges&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внешние модули&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193012Z" creationid="Марианна" creationdate="20200810T193012Z">
@@ -454,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заполнение пропусков&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055110Z" creationid="Марианна" creationdate="20200812T055110Z">
+        <seg>&lt;x1/&gt;Imputation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185317Z" creationid="Марианна" creationdate="20200810T184425Z">
@@ -546,6 +562,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192109Z" creationid="Марианна" creationdate="20200810T192109Z">
         <seg>&lt;x1/&gt;Calculator&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Квантование&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055135Z" creationid="Марианна" creationdate="20200812T055135Z">
+        <seg>&lt;x1/&gt;Binning&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -734,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры диапазонов квантования&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055309Z" creationid="Марианна" creationdate="20200812T055309Z">
+        <seg>&lt;x1/&gt;Parameters of binning ranges&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры полей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192212Z" creationid="Марианна" creationdate="20200810T192212Z">
@@ -842,6 +874,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
         <seg>&lt;x1/&gt;Right join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Предобработка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055006Z" creationid="Марианна" creationdate="20200812T055006Z">
+        <seg>&lt;x1/&gt;Preprocessing&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1098,6 +1138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185037Z" creationid="Марианна" creationdate="20200810T155510Z">
         <seg>&lt;x1/&gt;"Home" page&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Структура результирующего набора&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T055218Z" creationid="Марианна" creationdate="20200812T055218Z">
+        <seg>&lt;x1/&gt;Resulting data set structure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
