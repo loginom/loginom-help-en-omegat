@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Перечисления&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054343Z" creationid="Марианна" creationdate="20200812T054343Z">
+        <seg>&lt;x1/&gt;Enumerations&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183319Z" creationid="Марианна" creationdate="20200810T183319Z">
