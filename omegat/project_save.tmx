@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Автокорреляция&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054906Z" creationid="Марианна" creationdate="20200812T054906Z">
+        <seg>&lt;x1/&gt;Autocorrelation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Автоматическая синхронизация полей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185121Z" creationid="Марианна" creationdate="20200810T160632Z">
@@ -358,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выполнение узла&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054741Z" creationid="Марианна" creationdate="20200812T054741Z">
+        <seg>&lt;x1/&gt;Node execution&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выражение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192116Z" creationid="Марианна" creationdate="20200810T192116Z">
@@ -386,6 +402,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185041Z" creationid="Марианна" creationdate="20200810T155812Z">
         <seg>&lt;x1/&gt;Main menu&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Горячие клавиши&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054651Z" creationid="Марианна" creationdate="20200812T054651Z">
+        <seg>&lt;x1/&gt;Hot keys&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -506,6 +530,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104323Z" creationid="Марианна" creationdate="20200711T104323Z">
         <seg>&lt;x1/&gt;Connection Node Use.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исследование&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054842Z" creationid="Марианна" creationdate="20200812T054842Z">
+        <seg>&lt;x1/&gt;Research&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -646,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Описание API&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054636Z" creationid="Марианна" creationdate="20200812T054636Z">
+        <seg>&lt;x1/&gt;API description&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114621Z" creationid="Марианна" creationdate="20200716T122231Z">
@@ -746,6 +786,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111907Z" creationid="Марианна" creationdate="20200713T111907Z">
         <seg>&lt;x1/&gt;Connections&lt;x2/&gt; include a list of the external sources and data receivers to be connected with.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подмодель&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054750Z" creationid="Марианна" creationdate="20200812T054750Z">
+        <seg>&lt;x1/&gt;Supernode&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1102,6 +1150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Узел-ссылка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054801Z" creationid="Марианна" creationdate="20200812T054801Z">
+        <seg>&lt;x1/&gt;Reference node&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Узлы подмодели «ABC-анализ».&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074036Z" creationid="Марианна" creationdate="20200716T074016Z">
@@ -1118,10 +1174,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Управление&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054715Z" creationid="Марианна" creationdate="20200812T054715Z">
+        <seg>&lt;x1/&gt;Control&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Управляющие переменные&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185141Z" creationid="Марианна" creationdate="20200810T182527Z">
         <seg>&lt;x1/&gt;Control variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054820Z" creationid="Марианна" creationdate="20200812T054820Z">
+        <seg>&lt;x1/&gt;Antecedent&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1170,6 +1242,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054400Z" creationid="Марианна" creationdate="20200812T054400Z">
         <seg>&lt;x1/&gt;Calculator functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Цикл&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054835Z" creationid="Марианна" creationdate="20200812T054835Z">
+        <seg>&lt;x1/&gt;Loop&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
