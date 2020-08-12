@@ -526,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Консоль отладки кода&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054600Z" creationid="Марианна" creationdate="20200812T054600Z">
+        <seg>&lt;x1/&gt;Console of code debugging&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192140Z" creationid="Марианна" creationdate="20200810T192140Z">
@@ -1154,6 +1162,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101314Z" creationid="Марианна" creationdate="20200717T101314Z">
         <seg>&lt;x1/&gt;Establish Connection&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Функции Калькулятора&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T054400Z" creationid="Марианна" creationdate="20200812T054400Z">
+        <seg>&lt;x1/&gt;Calculator functions&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
