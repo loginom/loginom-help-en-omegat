@@ -886,6 +886,30 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормализация дискретных данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065241Z" creationid="Марианна" creationdate="20200812T065241Z">
+        <seg>&lt;x1/&gt;Normalization of discrete data&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормализация непрерывных данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065203Z" creationid="Марианна" creationdate="20200812T065203Z">
+        <seg>&lt;x1/&gt;Normalization of continuous data&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормализация&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200812T065034Z" creationid="Марианна" creationdate="20200812T065034Z">
+        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
