@@ -344,8 +344,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T185048Z" creationid="Марианна" creationdate="20200810T155936Z">
-        <seg>&lt;x1/&gt;Location bar&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T134803Z" creationid="Марианна" creationdate="20200810T155936Z">
+        <seg>&lt;x1/&gt;Address bar&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2170,6 +2170,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
         <seg>Studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Адресная строка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T134742Z" creationid="Марианна" creationdate="20200813T134742Z">
+        <seg>Address Bar</seg>
       </tuv>
     </tu>
     <tu>
