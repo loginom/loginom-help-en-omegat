@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; — аналитическая платформа, позволяющая в единой среде выполнить все этапы бизнес-анализа от консолидации данных и построения моделей до визуализации и интеграции в бизнес-процесс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T093642Z" creationid="Марианна" creationdate="20200813T093642Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055612Z" creationid="Марианна" creationdate="20200812T055612Z">
@@ -794,6 +802,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055701Z" creationid="Марианна" creationdate="20200812T055701Z">
         <seg>&lt;x1/&gt;Clustering&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Компоненты платформы Loginom&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T092015Z" creationid="Марианна" creationdate="20200813T092015Z">
+        <seg>&lt;x1/&gt;Loginom platform components&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
