@@ -3062,6 +3062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T093856Z" creationid="Марианна" creationdate="20200813T093856Z">
+        <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of lacking mechanisms of integration and team work.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171404Z" creationid="Марианна" creationdate="20200718T151127Z">
