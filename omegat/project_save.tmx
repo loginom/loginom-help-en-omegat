@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Визуализация&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094142Z" creationid="Марианна" creationdate="20200813T094142Z">
+        <seg>&lt;x1/&gt;Visualisation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внешние диапазоны&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055150Z" creationid="Марианна" creationdate="20200812T055150Z">
@@ -2102,6 +2110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Desktop</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
+        <seg>Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom — руководство пользователя</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T091725Z" creationid="Марианна" creationdate="20200813T091725Z">
@@ -2114,6 +2130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184936Z" creationid="Марианна" creationdate="20200810T184936Z">
         <seg>SUMMARY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Studio</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
+        <seg>Studio</seg>
       </tuv>
     </tu>
     <tu>
@@ -3064,8 +3088,8 @@
       <tuv lang="ru">
         <seg>Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200813T093856Z" creationid="Марианна" creationdate="20200813T093856Z">
-        <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of lacking mechanisms of integration and team work.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094054Z" creationid="Марианна" creationdate="20200813T093856Z">
+        <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and team work.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3318,6 +3342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функционал компонента</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
+        <seg>Component functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чаще всего для создания производного компонента используется &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
@@ -3434,6 +3466,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
         <seg>Figure 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>•</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094112Z" creationid="Марианна" creationdate="20200813T094112Z">
+        <seg>•</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
