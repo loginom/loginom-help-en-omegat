@@ -2086,6 +2086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom — руководство пользователя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T091725Z" creationid="Марианна" creationdate="20200813T091725Z">
+        <seg>Loginom — User Manual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SUMMARY</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184936Z" creationid="Марианна" creationdate="20200810T184936Z">
