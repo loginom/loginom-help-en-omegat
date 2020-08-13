@@ -1926,6 +1926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Управление файлами&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094212Z" creationid="Марианна" creationdate="20200813T094212Z">
+        <seg>&lt;x1/&gt;File management&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Управление ходом выполнения сценария&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185202Z" creationid="Марианна" creationdate="20200810T182806Z">
@@ -2566,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Многопользовательская работа</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094251Z" creationid="Марианна" creationdate="20200813T094251Z">
+        <seg>Multiuser operation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модуль включает в себя:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111621Z" creationid="Марианна" creationdate="20200713T111621Z">
@@ -2818,6 +2834,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102149Z" creationid="Марианна" creationdate="20200715T091601Z">
         <seg>A list of possible operations is represented by a number of ready &lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Платформа &lt;x1/&gt;Loginom&lt;x2/&gt; предлагается в 5-ти редакциях:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094555Z" creationid="Марианна" creationdate="20200813T094555Z">
+        <seg>5 editions of &lt;x1/&gt;Loginom&lt;x2/&gt; Platform are available:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3088,8 +3112,8 @@
       <tuv lang="ru">
         <seg>Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200813T094054Z" creationid="Марианна" creationdate="20200813T093856Z">
-        <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and team work.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094258Z" creationid="Марианна" creationdate="20200813T093856Z">
+        <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3106,6 +3130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
         <seg>Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "&lt;x1/&gt;black box&lt;x2/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Редакции платформы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094355Z" creationid="Марианна" creationdate="20200813T094355Z">
+        <seg>Platform editions</seg>
       </tuv>
     </tu>
     <tu>
@@ -3474,6 +3506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094112Z" creationid="Марианна" creationdate="20200813T094112Z">
         <seg>•</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>•/-</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200813T094306Z" creationid="Марианна" creationdate="20200813T094306Z">
+        <seg>•/-</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
