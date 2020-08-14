@@ -726,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — файл Пакета;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; is a Package file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
@@ -978,6 +986,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070230Z" creationid="Марианна" creationdate="20200812T070230Z">
         <seg>&lt;x1/&gt;Error matrix&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Местоположение&lt;x2/&gt; — место файла Пакета на диске (настольная версия) или в &lt;x3/&gt;файловом хранилище&lt;x4/&gt; (серверная версия);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105958Z" creationid="Марианна" creationdate="20200814T105958Z">
+        <seg>&lt;x1/&gt;Location&lt;x2/&gt; is a location of the Package on disk (desktop version) or in &lt;x3/&gt;file storage&lt;x4/&gt; (server version).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2866,6 +2882,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113518Z" creationid="Марианна" creationdate="20200716T120652Z">
         <seg>It is required to log in having entered password and login.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ниже расположена графа "Последние открытые пакеты", включающая в себя историю открытия Пакетов со следующими полями:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105711Z" creationid="Марианна" creationdate="20200814T105711Z">
+        <seg>"Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:</seg>
       </tuv>
     </tu>
     <tu>
