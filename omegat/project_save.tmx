@@ -1222,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Открывался&lt;x2/&gt; — дата и время открытия Пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T110024Z" creationid="Марианна" creationdate="20200814T110024Z">
+        <seg>&lt;x1/&gt;Open time&lt;x2/&gt; is a date and time of the Package opening.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Открыть пакет&lt;x2/&gt; — открытие ранее созданного пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114621Z" creationid="Марианна" creationdate="20200716T122231Z">
@@ -1530,6 +1538,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When following this link, it is required to enter corresponding login and password (if any).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; можно открыть раннее открытый Пакет, нажав на его имя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T110153Z" creationid="Марианна" creationdate="20200814T110153Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; it is possible to open previously opened Package by pressing its name.</seg>
       </tuv>
     </tu>
     <tu>
