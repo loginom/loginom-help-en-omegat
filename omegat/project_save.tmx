@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120757Z" creationid="Марианна" creationdate="20200814T120757Z">
+        <seg>&lt;x1/&gt;Administration&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Адресная строка.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081149Z" creationid="Марианна" creationdate="20200814T081149Z">
@@ -990,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Меню&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120718Z" creationid="Марианна" creationdate="20200814T120718Z">
+        <seg>&lt;x1/&gt;Menu&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Местоположение&lt;x2/&gt; — место файла Пакета на диске (настольная версия) или в &lt;x3/&gt;файловом хранилище&lt;x4/&gt; (серверная версия);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105958Z" creationid="Марианна" creationdate="20200814T105958Z">
@@ -1026,6 +1042,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185302Z" creationid="Марианна" creationdate="20200810T184320Z">
         <seg>&lt;x1/&gt;Set of XSD schemas&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Навигация&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120750Z" creationid="Марианна" creationdate="20200814T120750Z">
+        <seg>&lt;x1/&gt;Navigation&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1298,6 +1322,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155819Z" creationid="Марианна" creationdate="20200810T155819Z">
         <seg>&lt;x1/&gt;Packages&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пакеты&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120727Z" creationid="Марианна" creationdate="20200814T120727Z">
+        <seg>&lt;x1/&gt;Packages&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1594,6 +1626,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
         <seg>&lt;x1/&gt;Cluster profiles&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Процессы&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120810Z" creationid="Марианна" creationdate="20200814T120810Z">
+        <seg>&lt;x1/&gt;Processes&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2126,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Файлы&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120802Z" creationid="Марианна" creationdate="20200814T120802Z">
+        <seg>&lt;x1/&gt;Files&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Факторный анализ&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054950Z" creationid="Марианна" creationdate="20200812T054950Z">
@@ -2566,6 +2614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Главное меню расположено в левой части программного окна и содержит следующие кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120712Z" creationid="Марианна" creationdate="20200814T120712Z">
+        <seg>The main menu is located in the left part of the application window and contains the following buttons:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
@@ -2790,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Меню</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120816Z" creationid="Марианна" creationdate="20200814T120816Z">
+        <seg>Menu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм повторного использования алгоритмов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121855Z" creationid="Марианна" creationdate="20200718T141206Z">
@@ -2858,6 +2922,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T170805Z" creationid="Марианна" creationdate="20200718T140932Z">
         <seg>Subtasks are similarly described at the next step with specification of the next level elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нажатие на данную кнопку открывает панель со следующими командами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T120854Z" creationid="Марианна" creationdate="20200814T120854Z">
+        <seg>Press this button to open the panel with the following commands:</seg>
       </tuv>
     </tu>
     <tu>
