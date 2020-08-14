@@ -2222,6 +2222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>\Пакеты\Scoring\Расчет скорингового балла\Сценарий</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084713Z" creationid="Марианна" creationdate="20200814T084713Z">
+        <seg>\Packages\Scoring\Score calculation\Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Адресная строка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T134742Z" creationid="Марианна" creationdate="20200813T134742Z">
@@ -2566,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого необходимо нажать на адресную строку и ввести новый/скорректированный путь.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084604Z" creationid="Марианна" creationdate="20200814T084604Z">
+        <seg>In order to do that, it is required to press address bar and enter the new/corrected path.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого переместим компонент &lt;x1/&gt;Группировка&lt;x2/&gt; в рабочую область сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101034Z" creationid="Марианна" creationdate="20200717T101034Z">
@@ -2738,6 +2754,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
         <seg>Package Designation and Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084611Z" creationid="Марианна" creationdate="20200814T084611Z">
+        <seg>For example:</seg>
       </tuv>
     </tu>
     <tu>
