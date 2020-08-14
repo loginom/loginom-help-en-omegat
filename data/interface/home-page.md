@@ -4,7 +4,7 @@ Upon the application opening, in the case of the desktop Loginom version, or aut
 
 !["Home" page](./home-page.png)
 
-This page contains the following commands to use [paskages](../quick-start/package.md):
+This page contains the following commands to use [packages](../quick-start/package.md):
 
 * **New package** enables to create and save a new Package.
 * **New Draft** enables to create a temporary Package and work with it without saving.

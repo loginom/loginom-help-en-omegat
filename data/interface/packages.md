@@ -7,7 +7,7 @@
 * перейдя по кнопке ![ ](..\images\icons\system_object_18\package_default.svg)*Пакеты* в [Адресной строке](.\addres-bar.md);
 * из панели [Навигации](./main-menu.md#navigatsiya) выбрав пункт ![ ](..\images\icons\system_object_18\package_default.svg)*Пакеты*.
 
-## Интерфейс
+## Interface
 
 * ![ ](..\images\icons\toolbar-controls\new_default.svg) **Создать** — открывает окно для задания пути и имени нового *Пакета*, после сохранения открывает данный пустой *Пакет*. Также под кнопкой ![ ](..\images\icons\toolbar-controls\down_default.svg):
    * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New Draft** — создание временного *Пакета*, без текущего сохранения.
