@@ -3390,6 +3390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ссылка на объект</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084727Z" creationid="Марианна" creationdate="20200814T084727Z">
+        <seg>Reference to package</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113153Z" creationid="Марианна" creationdate="20200713T111357Z">
