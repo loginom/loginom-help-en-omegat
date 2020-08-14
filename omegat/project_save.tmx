@@ -4056,6 +4056,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>из панели &lt;x1/&gt;Навигации&lt;x2/&gt; выбрав пункт &lt;x3/&gt; &lt;x4/&gt;&lt;x5/&gt;Пакеты&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T135913Z" creationid="Марианна" creationdate="20200814T135913Z">
+        <seg>using the &lt;x1/&gt;Navigation&lt;x2/&gt; panel, selecting the &lt;x3/&gt; &lt;x4/&gt;&lt;x5/&gt;Packages&lt;x6/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>перейдя по кнопке &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Пакеты&lt;x4/&gt; в &lt;x5/&gt;Адресной строке&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135752Z" creationid="Марианна" creationdate="20200814T135752Z">
