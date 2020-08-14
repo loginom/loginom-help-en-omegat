@@ -2558,6 +2558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Главное меню</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T110629Z" creationid="Марианна" creationdate="20200814T110629Z">
+        <seg>Main Menu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
