@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Абсолютный&lt;x2/&gt; (для совместного использования) — включает в себя имя папки, из которой загружен файл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085145Z" creationid="Марианна" creationdate="20200814T085145Z">
+        <seg>&lt;x1/&gt;Absolute&lt;x2/&gt; (for joint usage) includes a name of the folder from which a file was downloaded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Автокорреляция&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054906Z" creationid="Марианна" creationdate="20200812T054906Z">
@@ -1210,6 +1218,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114514Z" creationid="Марианна" creationdate="20200807T114514Z">
         <seg>&lt;x1/&gt;Open Package&lt;x2/&gt; — позволяет открыть существующий Пакет.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Относительный&lt;x2/&gt; (для персонального использования) — вместо имени папки содержит точку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085308Z" creationid="Марианна" creationdate="20200814T085308Z">
+        <seg>&lt;x1/&gt;Relative&lt;x2/&gt; (for personal usage) contains a point instead of the folder name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2982,6 +2998,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По нажатию на &lt;x1/&gt;Поделиться&lt;x2/&gt; &lt;x3/&gt;Поделиться…&lt;x4/&gt; открывается окно с одним или двумя путями:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085033Z" creationid="Марианна" creationdate="20200814T085033Z">
+        <seg>Pressing &lt;x1/&gt;Share&lt;x2/&gt; &lt;x3/&gt;Share…&lt;x4/&gt;, it is possible to open a window with one or two paths:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию она скрыта, но ее можно закрепить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113849Z" creationid="Марианна" creationdate="20200716T140736Z">
@@ -3202,6 +3226,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
         <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Присутствует для различных пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085213Z" creationid="Марианна" creationdate="20200814T085213Z">
+        <seg>It is available for different packages.</seg>
       </tuv>
     </tu>
     <tu>
