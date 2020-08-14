@@ -25,7 +25,7 @@
 * Microsoft Excel 2007 и выше;
 * [Microsoft Access Database Engine 2016 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=54920).
 
-**Смотри также:**
+**See also:**
 
-* [Официальный сайт производителя](https://www.microsoft.com/ru-ru);
+* [Manufacturer official website](https://www.microsoft.com/ru-ru);
 * [Документация по продукции](https://docs.microsoft.com/ru-ru/).

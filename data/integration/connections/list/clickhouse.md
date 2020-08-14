@@ -40,5 +40,5 @@
 
 Версии БД ClickHouse 19.1 и выше.
 
-**Смотри также:**
+**See also:**
 * [Документация ClickHouse](https://clickhouse.tech/docs/ru/)

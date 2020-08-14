@@ -24,7 +24,7 @@
 
 Версии 95, 97, 2000, 2003, 2007, 2010, 2013 и 2016.
 
-**Смотри также:**
+**See also:**
 
-* [Официальный сайт производителя](https://www.microsoft.com/ru-ru);
+* [Manufacturer official website](https://www.microsoft.com/ru-ru);
 * [Документация по продукции](https://docs.microsoft.com/ru-ru/).

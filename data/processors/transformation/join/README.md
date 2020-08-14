@@ -44,7 +44,7 @@
 
 ---
 
-**Смотри также:**
+**See also:**
 
 * [Enrich data](../supplementation.md)
 * [Connection](../addition.md)

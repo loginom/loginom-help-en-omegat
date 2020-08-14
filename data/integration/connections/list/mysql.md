@@ -42,5 +42,5 @@
 **Смотри также**:
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/MySQL);
-* [Официальный сайт производителя](https://www.mysql.com/);
+* [Manufacturer official website](https://www.mysql.com/);
 * [Документация по SQL синтаксису](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html).

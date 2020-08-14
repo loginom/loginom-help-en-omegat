@@ -11,7 +11,7 @@
    * ["Home" page](./interface/home-page.md)
    * [Main menu](./interface/main-menu.md)
    * [Packages](./interface/packages.md)
-   * [Location bar](./interface/addres-bar.md)
+   * [Address bar](./interface/addres-bar.md)
    * [Working space](./interface/workspace.md)
    * ["Processes" panel](./interface/processes-panel.md)
    * [Property inspector](./interface/property-inspector.md)

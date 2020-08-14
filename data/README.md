@@ -1,29 +1,29 @@
-# Loginom — руководство пользователя
+# Loginom — User Manual
 
-[**Loginom**](https://loginom.ru) — аналитическая платформа, позволяющая в единой среде выполнить все этапы бизнес-анализа от консолидации данных и построения моделей до визуализации и интеграции в бизнес-процесс.
+[**Loginom**](https://loginom.ru) is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.
 
-![Компоненты платформы Loginom](./components.svg)
+![Loginom platform components](./components.svg)
 
-Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.
+Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.
 
-| Функционал компонента | Desktop | Studio |
+| Component functionality | Desktop | Studio |
 |:-------------|:------:|:-------:|
 | [Workflows design](./scenario/README.md) | • | • |
 | [Data processing](./processors/README.md) | • | • |
-| [Визуализация](./visualization/README.md) | • | • |
-| [Управление файлами](./location_user_files.md) | | • |
+| [Visualisation](./visualization/README.md) | • | • |
+| [File management](./location_user_files.md) | | • |
 | [Administration](./admin/README.md) | | • |
-| Многопользовательская работа | | • |
+| Multiuser operation | | • |
 | [Integration](./integration/README.md) | •/- | • |
 
-## Редакции платформы
+## Platform editions
 
-Платформа [Loginom](https://loginom.ru) предлагается в 5-ти редакциях:
+5 editions of [Loginom](https://loginom.ru) Platform are available:
 
-![Редакции платформы](./editions.svg)
+![Platform editions](./editions.svg)
 
-Различия между редакциями связаны с кейсами использования и механизмами интеграции в корпоративную IT-среду.
+Differences between editions are connected with usage cases and mechanisms of integration into the corporate IT environment.
 
-**Смотри также:**
+**See also:**
 
-* [Официальный сайт производителя](https://loginom.ru);
+* [Manufacturer official website](https://loginom.ru);

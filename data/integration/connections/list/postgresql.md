@@ -34,9 +34,9 @@
 
 > **Важно:** Для обмена данными с сервером используется кодировка UTF-8.
 
-**Смотри также:**
+**See also:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/PostgreSQL);
-* [Официальный сайт производителя](https://www.postgresql.org/);
+* [Manufacturer official website](https://www.postgresql.org/);
 * [Документация по SQL синтаксису](https://postgrespro.ru/docs/postgresql);
 * [Российская СУБД (Postgres Pro), разработанная на основе свободно-распространяемой СУБД PostgreSQL](https://postgrespro.ru/).

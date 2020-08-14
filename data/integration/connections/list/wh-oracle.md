@@ -40,7 +40,7 @@
 
 > **Важно:** Для обмена данными с сервером используется кодировка UTF16.
 
-**Смотри также:**
+**See also:**
 
 * [Информация по Oracle Database в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database);
 * [Официальный сайт производителя Oracle Database](https://www.oracle.com/database).

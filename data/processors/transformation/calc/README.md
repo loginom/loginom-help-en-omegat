@@ -77,7 +77,7 @@
 * ![ ](../../../images/icons/calcdata/expression_default.svg) [Выражение](./expression.md);
 * ![ ](../../../images/icons/calcdata/javascript_default.svg) [JavaScript](./javascript.md).
 
-Для выбора синтаксиса необходимо в меню списка выражений выбрать *JavaScript* или *Выражение* (см. рисунок 1).
+Для выбора синтаксиса необходимо в меню списка выражений выбрать *JavaScript* или *Выражение* (см. Figure 1).
 
 ![Выбор режима работы калькулятора](./readme-1.png)
 

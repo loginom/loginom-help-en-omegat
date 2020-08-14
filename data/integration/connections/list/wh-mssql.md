@@ -39,7 +39,7 @@
 
 > **Важно:** Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom.
 
-**Смотри также:**
+**See also:**
 
 * [Информация по Microsoft SQL Server в русском разделе википедии](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
 * [Официальный сайт производителя MS SQL Server](https://www.microsoft.com/ru-ru/sql-server).

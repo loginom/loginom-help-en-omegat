@@ -55,9 +55,9 @@
 
 Версии 3.0 и выше.
 
-**Смотри также:**
+**See also:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/SQLite);
-* [Официальный сайт производителя](https://sqlite.org);
+* [Manufacturer official website](https://sqlite.org);
 * [Документация по SQL синтаксису](https://sqlite.org/lang.html);
 * [Информация по PRAGMA](https://sqlite.org/pragma.html).

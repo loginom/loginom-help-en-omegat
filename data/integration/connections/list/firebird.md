@@ -34,7 +34,7 @@
 
 Начиная с версии Firebird 2.5 и выше.
 
-**Смотри также:**
+**See also:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Firebird);
 * [Официальный сайт разработчика](https://firebirdsql.org/);

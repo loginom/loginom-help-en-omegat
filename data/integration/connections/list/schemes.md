@@ -15,7 +15,7 @@
 * ![ ](../../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все...** — удаляет все позиции списка;
 * ![ ](../../../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удаляет выделенную позицию в списке.
 
-**Смотри также:**
+**See also:**
 
 * [Импорт XML](../../import/xml.md)
 * [Экспорт XML](../../export/xml.md)

@@ -75,6 +75,6 @@
 
 </table>
 
-**Смотри также:**
+**See also:**
 
 * [Eliminate outliers](./editing-of-emissions.md)
