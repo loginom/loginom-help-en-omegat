@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель «Процессы»&lt;x2/&gt; — панель, содержащая подробную информацию о происходящих/происходивших процессах текущей сессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T133518Z" creationid="Марианна" creationdate="20200814T133518Z">
+        <seg>&lt;x1/&gt;"Processes" panel&lt;x2/&gt; is a panel that contains detailed information on the current/finished processes of the current session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель инструментов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065943Z" creationid="Марианна" creationdate="20200812T065943Z">
