@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Адресная строка.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T081149Z" creationid="Марианна" creationdate="20200814T081149Z">
+        <seg>&lt;x1/&gt;Address bar.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T134803Z" creationid="Марианна" creationdate="20200810T155936Z">
@@ -2184,8 +2192,8 @@
       <tuv lang="ru">
         <seg>Адресная строка представляет собой навигационную цепочку объектов (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T081111Z" creationid="Марианна" creationdate="20200814T081111Z">
-        <seg>Address bar is a breadcrumb trail of objects (refer to .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T081124Z" creationid="Марианна" creationdate="20200814T081111Z">
+        <seg>Address bar is a breadcrumb trail of objects (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -2426,6 +2434,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
         <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для перехода к объектам, находящимся выше по уровню вложенности, следует нажать на соответствующий объект в цепи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T081502Z" creationid="Марианна" creationdate="20200814T081502Z">
+        <seg>To move to the objects located higher as far as the nesting level is concerned, it is required to press corresponding object in the trail.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3490,6 +3506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
         <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 1).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T081119Z" creationid="Марианна" creationdate="20200814T081119Z">
+        <seg>Figure 1).</seg>
       </tuv>
     </tu>
     <tu>
