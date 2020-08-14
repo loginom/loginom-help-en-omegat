@@ -1782,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать новый пакет&lt;x2/&gt; — позволяет создать и сохранить новый Пакет;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105329Z" creationid="Марианна" creationdate="20200814T105329Z">
+        <seg>&lt;x1/&gt;New package&lt;x2/&gt; enables to create and save the new Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать пакет&lt;x2/&gt; — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114118Z" creationid="Марианна" creationdate="20200716T121353Z">
@@ -1792,8 +1800,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — позволяет создать временный Пакет и работать с ним, не сохраняя его;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T114355Z" creationid="Марианна" creationdate="20200807T114242Z">
-        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — позволяет создать временный Пакет и работать с ним, не сохраняя его;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105344Z" creationid="Марианна" creationdate="20200807T114242Z">
+        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; enables to create the ;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1866,6 +1874,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060619Z" creationid="Марианна" creationdate="20200812T060619Z">
         <seg>&lt;x1/&gt;Statistical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Страница «Начало».&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105147Z" creationid="Марианна" creationdate="20200814T105147Z">
+        <seg>&lt;x1/&gt;"Home" page&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2514,6 +2530,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
         <seg>Then these data are sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data are transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данная страница содержит следующие команды для манипуляции с &lt;x1/&gt;пакетами&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105248Z" creationid="Марианна" creationdate="20200814T105248Z">
+        <seg>This page contains the following commands to use &lt;x1/&gt;paskages&lt;x2/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
