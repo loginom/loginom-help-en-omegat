@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Открыть&lt;x4/&gt; — открывает окно выбора существующего &lt;x5/&gt;Пакета&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T140751Z" creationid="Марианна" creationdate="20200814T140751Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Open&lt;x4/&gt; enables to open the selection window of the existing &lt;x5/&gt;Package&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать черновик&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114410Z" creationid="Марианна" creationdate="20200807T114321Z">
@@ -26,6 +34,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T140449Z" creationid="Марианна" creationdate="20200814T140449Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Create&lt;x4/&gt; enables to open window to set a path and name of the new &lt;x5/&gt;Package&lt;x6/&gt;, it also enables to open this empty &lt;x7/&gt;Package&lt;x8/&gt; after saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt; — сохранение выделенного &lt;x5/&gt;Пакета&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T140817Z" creationid="Марианна" creationdate="20200814T140817Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save&lt;x4/&gt; enables to save the selected &lt;x5/&gt;Package&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
