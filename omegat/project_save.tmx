@@ -1286,6 +1286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Открыть&lt;x2/&gt; — открытие существующего Пакета;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121936Z" creationid="Марианна" creationdate="20200814T121936Z">
+        <seg>&lt;x1/&gt;Open&lt;x2/&gt; enables to open an existing Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Относительный&lt;x2/&gt; (для персонального использования) — вместо имени папки содержит точку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085308Z" creationid="Марианна" creationdate="20200814T085308Z">
@@ -1938,6 +1946,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
         <seg>&lt;x1/&gt;Save Package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранить&lt;x2/&gt; — сохранение Пакета или его изменений в текущей директории;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T122404Z" creationid="Марианна" creationdate="20200814T122404Z">
+        <seg>&lt;x1/&gt;Save&lt;x2/&gt; enables to save or change a Package in the current directory.</seg>
       </tuv>
     </tu>
     <tu>
