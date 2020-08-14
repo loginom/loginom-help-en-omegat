@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Главное меню&lt;x2/&gt; — панель с кнопками для манипуляции с различными настройками;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T132218Z" creationid="Марианна" creationdate="20200814T132218Z">
+        <seg>&lt;x1/&gt;Main menu&lt;x2/&gt; is a panel used for ;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Горячие клавиши&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054651Z" creationid="Марианна" creationdate="20200812T054651Z">
@@ -1716,6 +1724,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185827Z" creationid="Марианна" creationdate="20200810T185827Z">
         <seg>&lt;x1/&gt;Web service publication&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рабочее окно Loginom.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T131949Z" creationid="Марианна" creationdate="20200814T131949Z">
+        <seg>&lt;x1/&gt;Work window of Loginom platform&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
