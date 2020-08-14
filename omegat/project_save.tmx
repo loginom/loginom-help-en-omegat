@@ -2294,6 +2294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В многопользовательской версии есть возможность получить гиперссылку на текущий открытый объект.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084927Z" creationid="Марианна" creationdate="20200814T084927Z">
+        <seg>The multiuser edition enables to receive hyper link to the current opened object.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части окна расположена панель Процессы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
