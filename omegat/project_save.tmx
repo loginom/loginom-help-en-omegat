@@ -3398,6 +3398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также, нажав на клавишу &lt;x1/&gt;Список подобъектов&lt;x2/&gt; можно перейти к подобъектам составного объекта (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084134Z" creationid="Марианна" creationdate="20200814T084134Z">
+        <seg>Pressing the &lt;x1/&gt;List of subobjects&lt;x2/&gt; button, it is possible to go to subojects of the complex object (refer to </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, на каждом шаге происходит уточнение функций проекта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T141011Z" creationid="Марианна" creationdate="20200718T141011Z">
