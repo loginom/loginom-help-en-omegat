@@ -3486,6 +3486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Элементы навигации:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T081651Z" creationid="Марианна" creationdate="20200814T081651Z">
+        <seg>Navigation elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это можно сделать в меню Пакеты (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111908Z" creationid="Марианна" creationdate="20200717T111908Z">
