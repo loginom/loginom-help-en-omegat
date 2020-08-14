@@ -400,8 +400,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Вверх&lt;x2/&gt; &lt;x3/&gt;Вверх&lt;x4/&gt; — производит переход к объекту верхнего уровня.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T081903Z" creationid="Марианна" creationdate="20200814T081744Z">
-        <seg>&lt;x1/&gt;Up&lt;x2/&gt; &lt;x3/&gt;Up&lt;x4/&gt; means transition to the upper level object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T082103Z" creationid="Марианна" creationdate="20200814T081744Z">
+        <seg>&lt;x1/&gt;Go up&lt;x2/&gt; &lt;x3/&gt;Go up&lt;x4/&gt; means transition to the upper level object.</seg>
       </tuv>
     </tu>
     <tu>
@@ -466,6 +466,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192622Z" creationid="Марианна" creationdate="20200810T192622Z">
         <seg>&lt;x1/&gt;Inner join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вперед&lt;x2/&gt; &lt;x3/&gt;Вперед&lt;x4/&gt; — отменяет переход &lt;x5/&gt;Назад&lt;x6/&gt;, если после него не было произведено никаких других действий навигации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T082312Z" creationid="Марианна" creationdate="20200814T082052Z">
+        <seg>&lt;x1/&gt;Go forward&lt;x2/&gt; &lt;x3/&gt;Go forward&lt;x4/&gt; cancels &lt;x5/&gt;Go back&lt;x6/&gt; transition if no other navigation operations were performed afterwards.</seg>
       </tuv>
     </tu>
     <tu>
@@ -992,8 +1000,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Назад&lt;x2/&gt; &lt;x3/&gt;Назад&lt;x4/&gt; — возвращает к предыдущему открытому объекту.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T082021Z" creationid="Марианна" creationdate="20200814T082021Z">
-        <seg>&lt;x1/&gt;Back&lt;x2/&gt; &lt;x3/&gt;Back&lt;x4/&gt; returns to the previous opened object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T082110Z" creationid="Марианна" creationdate="20200814T082021Z">
+        <seg>&lt;x1/&gt;Go back&lt;x2/&gt; &lt;x3/&gt;Go back&lt;x4/&gt; returns to the previous opened object.</seg>
       </tuv>
     </tu>
     <tu>
