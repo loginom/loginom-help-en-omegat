@@ -3134,6 +3134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После открытия приложения, в случае настольной версии Loginom, или авторизации, в случае серверной версии Loginom, появляется страница «Начало» (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T105129Z" creationid="Марианна" creationdate="20200814T105129Z">
+        <seg>Upon the application opening, in the case of the desktop Loginom version, or authorization, in the case of the server Loginom version, the "Home" page is opened (refer to </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После создания пакета пользователь увидит Область построения сценария (6) и панель Компоненты (5), содержащую стандартные компоненты, предоставляемые платформой (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113917Z" creationid="Марианна" creationdate="20200716T141015Z">
