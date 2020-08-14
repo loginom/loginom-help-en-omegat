@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Пакеты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T135507Z" creationid="Марианна" creationdate="20200814T135507Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Packages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; Дерево</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111015Z" creationid="Марианна" creationdate="20200716T080126Z">
@@ -3056,6 +3064,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На данной странице представлены основные действия с &lt;x1/&gt;Пакетами&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T135549Z" creationid="Марианна" creationdate="20200814T135549Z">
+        <seg>The main operations with &lt;x1/&gt;Packages&lt;x2/&gt; are listed on this page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
@@ -3220,6 +3236,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140530Z" creationid="Марианна" creationdate="20200718T140530Z">
         <seg>The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открыть данную страницу можно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T135713Z" creationid="Марианна" creationdate="20200814T135713Z">
+        <seg>This page can be opened in two ways:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4028,6 +4052,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
         <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>перейдя по кнопке &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Пакеты&lt;x4/&gt; в &lt;x5/&gt;Адресной строке&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T135752Z" creationid="Марианна" creationdate="20200814T135752Z">
+        <seg>using the &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Packages&lt;x4/&gt; button in &lt;x5/&gt;Address bar&lt;x6/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
