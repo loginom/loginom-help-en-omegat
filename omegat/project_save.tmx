@@ -1886,6 +1886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать новый&lt;x2/&gt; — создание нового Пакета;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121915Z" creationid="Марианна" creationdate="20200814T121758Z">
+        <seg>&lt;x1/&gt;New&lt;x2/&gt; enables to create a new Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать пакет&lt;x2/&gt; — создание нового пакета, программа сразу попросить указать путь, куда сохранить пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114118Z" creationid="Марианна" creationdate="20200716T121353Z">
@@ -1904,8 +1912,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать черновик&lt;x2/&gt; — создание временного Пакета, не сохраняя его;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T114401Z" creationid="Марианна" creationdate="20200807T114252Z">
-        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — создание временного Пакета, не сохраняя его;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121850Z" creationid="Марианна" creationdate="20200807T114252Z">
+        <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; enables to create a temporary Package without its saving.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3098,6 +3106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163009Z" creationid="Марианна" creationdate="20200718T163009Z">
         <seg>The package includes the Modules - the package decomposition on the level of modules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пакеты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121711Z" creationid="Марианна" creationdate="20200814T121711Z">
+        <seg>Packages</seg>
       </tuv>
     </tu>
     <tu>
