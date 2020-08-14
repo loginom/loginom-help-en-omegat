@@ -3478,6 +3478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Страница «Начало»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T102847Z" creationid="Марианна" creationdate="20200814T102847Z">
+        <seg>"Home" page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структура Проекта может быть представлена в иерархическом виде:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162546Z" creationid="Марианна" creationdate="20200718T162546Z">
