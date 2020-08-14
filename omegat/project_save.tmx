@@ -2182,6 +2182,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Адресная строка представляет собой навигационную цепочку объектов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T081111Z" creationid="Марианна" creationdate="20200814T081111Z">
+        <seg>Address bar is a breadcrumb trail of objects (refer to .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121445Z" creationid="Марианна" creationdate="20200717T110908Z">
