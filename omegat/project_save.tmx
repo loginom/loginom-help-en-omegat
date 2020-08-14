@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt; — строка, содержащая путь к открытому объекту;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T133118Z" creationid="Марианна" creationdate="20200814T133118Z">
+        <seg>&lt;x1/&gt;Address bar&lt;x2/&gt; is a line that contains a path to the opened object.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ассоциативные правила&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055648Z" creationid="Марианна" creationdate="20200812T055648Z">
@@ -608,8 +616,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Главное меню&lt;x2/&gt; — панель с кнопками для манипуляции с различными настройками;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T132218Z" creationid="Марианна" creationdate="20200814T132218Z">
-        <seg>&lt;x1/&gt;Main menu&lt;x2/&gt; is a panel used for ;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T132958Z" creationid="Марианна" creationdate="20200814T132218Z">
+        <seg>&lt;x1/&gt;Main menu&lt;x2/&gt; is a panel designated for operations with different settings.</seg>
       </tuv>
     </tu>
     <tu>
