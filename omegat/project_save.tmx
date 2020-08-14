@@ -1678,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скрытое&lt;x2/&gt; — навигация по объектам, не поместившимся в &lt;x3/&gt;Адресную строку&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T083032Z" creationid="Марианна" creationdate="20200814T083032Z">
+        <seg>&lt;x1/&gt;Hidden&lt;x2/&gt; means navigation through the objects for which there's no enough place in &lt;x3/&gt;Address bar&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Слияние&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192556Z" creationid="Марианна" creationdate="20200810T192556Z">
