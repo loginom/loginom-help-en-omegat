@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проверить наличие обновления&lt;x2/&gt; — проверка актуальных версий платформы на сайте разработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121655Z" creationid="Марианна" creationdate="20200814T121655Z">
+        <seg>&lt;x1/&gt;Check for updates&lt;x2/&gt; means check for current released platform versions on the vendor's website. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120529Z" creationid="Марианна" creationdate="20200718T120529Z">
