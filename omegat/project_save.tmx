@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выход&lt;x2/&gt; — закрытие всех Пакетов и выход из приложения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121242Z" creationid="Марианна" creationdate="20200814T121242Z">
+        <seg>&lt;x1/&gt;Exit&lt;x2/&gt; means closure of all Packages and application exit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193105Z" creationid="Марианна" creationdate="20200810T193105Z">
@@ -1130,6 +1138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184959Z" creationid="Марианна" creationdate="20200810T154755Z">
         <seg>&lt;x1/&gt;Start operation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Начало&lt;x2/&gt; — переход на &lt;x3/&gt;страницу «Начало»&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121055Z" creationid="Марианна" creationdate="20200814T120940Z">
+        <seg>&lt;x1/&gt;Home&lt;x2/&gt; means transition to the &lt;x3/&gt;"Home" page.&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1906,6 +1922,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
         <seg>&lt;x1/&gt;Save Package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Справка&lt;x2/&gt; — вызов справки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T121050Z" creationid="Марианна" creationdate="20200814T121050Z">
+        <seg>&lt;x1/&gt;Help&lt;x2/&gt; means help topics.</seg>
       </tuv>
     </tu>
     <tu>
