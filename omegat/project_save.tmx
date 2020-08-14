@@ -1510,6 +1510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При переходе по данной ссылке придется ввести соответствующий логин и (если есть) пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When following this link, it is required to enter corresponding login and password (if any).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Принципы проектирования&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
@@ -2302,6 +2310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В дальнейшем его можно использовать в адресной строке браузера для быстрого перехода к открытому объекту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085540Z" creationid="Марианна" creationdate="20200814T085540Z">
+        <seg>Subsequently, it can be used in the browser address bar for quick transition to the opened object.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111706Z" creationid="Марианна" creationdate="20200717T111706Z">
@@ -2450,6 +2466,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085319Z" creationid="Марианна" creationdate="20200717T085319Z">
         <seg>Select the &lt;x1/&gt;Text file&lt;x2/&gt; component in the Import section and transfer it to the construction area (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выбранный путь можно быстро скопировать кнопкой &lt;x1/&gt;Копировать&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085407Z" creationid="Марианна" creationdate="20200814T085407Z">
+        <seg>The selected path can be copied using the&lt;x1/&gt;Copy&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3234,6 +3258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085213Z" creationid="Марианна" creationdate="20200814T085213Z">
         <seg>It is available for different packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Присутствует только для пользовательских пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T085331Z" creationid="Марианна" creationdate="20200814T085331Z">
+        <seg>It is available only for user packages.</seg>
       </tuv>
     </tu>
     <tu>
