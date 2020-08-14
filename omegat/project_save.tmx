@@ -694,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Закрыть пакет&lt;x2/&gt; — закрытие открытого Пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T122533Z" creationid="Марианна" creationdate="20200814T122533Z">
+        <seg>&lt;x1/&gt;Close package&lt;x2/&gt; enables to close an opened Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Замена (переменные)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060001Z" creationid="Марианна" creationdate="20200812T060001Z">
@@ -1050,6 +1058,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185302Z" creationid="Марианна" creationdate="20200810T184320Z">
         <seg>&lt;x1/&gt;Set of XSD schemas&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Навигация.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T122717Z" creationid="Марианна" creationdate="20200814T122717Z">
+        <seg>&lt;x1/&gt;Navigation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,6 +1614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; команды "Сохранить", "Сохранить как", "Закрыть пакет" доступны в случае открытого Пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T122655Z" creationid="Марианна" creationdate="20200814T122655Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; "Save", "Save as", "Close package" commands are available in the case of the opened Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; можно открыть раннее открытый Пакет, нажав на его имя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T110153Z" creationid="Марианна" creationdate="20200814T110153Z">
@@ -1946,6 +1970,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
         <seg>&lt;x1/&gt;Save Package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранить как&lt;x2/&gt; — сохранение Пакета в выбранной директории;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T122452Z" creationid="Марианна" creationdate="20200814T122452Z">
+        <seg>&lt;x1/&gt;Save as&lt;x2/&gt; enables to save a Package in the selected directory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2978,6 +3010,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T170805Z" creationid="Марианна" creationdate="20200718T140932Z">
         <seg>Subtasks are similarly described at the next step with specification of the next level elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Навигация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T122706Z" creationid="Марианна" creationdate="20200814T122706Z">
+        <seg>Navigation</seg>
       </tuv>
     </tu>
     <tu>
