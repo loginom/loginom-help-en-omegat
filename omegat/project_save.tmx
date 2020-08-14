@@ -3424,6 +3424,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После создания или открытия пакета на &lt;x1/&gt;cтранице «Начало»&lt;x2/&gt; появится главное рабочее окно программы, состоящее из четырех основных блоков (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T131825Z" creationid="Марианна" creationdate="20200814T131825Z">
+        <seg>Upon creation or opening of the package on the &lt;x1/&gt;"Home" page&lt;x2/&gt;, the main work application window that consists of four main blocks will appear (refer to </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После создания пакета пользователь увидит Область построения сценария (6) и панель Компоненты (5), содержащую стандартные компоненты, предоставляемые платформой (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113917Z" creationid="Марианна" creationdate="20200716T141015Z">
