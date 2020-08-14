@@ -2888,6 +2888,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интерфейс</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T131357Z" creationid="Марианна" creationdate="20200814T131357Z">
+        <seg>Interface</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование переменных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200714T120440Z" creationid="Марианна" creationdate="20200714T120440Z">
