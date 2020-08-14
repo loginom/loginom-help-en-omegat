@@ -1760,6 +1760,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рабочее пространство&lt;x2/&gt; — панель компонентов, панель инструментов и область построения Сценариев;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T133407Z" creationid="Марианна" creationdate="20200814T133407Z">
+        <seg>&lt;x1/&gt;Working space&lt;x2/&gt; is a panel of components, toolbar and aree of the Workflows construction. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разбиение на множества&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055533Z" creationid="Марианна" creationdate="20200812T055533Z">
