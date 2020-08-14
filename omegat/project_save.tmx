@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбор составного объекта.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084211Z" creationid="Марианна" creationdate="20200814T084211Z">
+        <seg>&lt;x1/&gt;Select complex object&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
@@ -3098,6 +3106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
         <seg>Icons of possible actions will be displayed after mouse click.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При необходимости, можно ввести путь вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200814T084443Z" creationid="Марианна" creationdate="20200814T084443Z">
+        <seg>If required, it is possible to enter the path manually.</seg>
       </tuv>
     </tu>
     <tu>
