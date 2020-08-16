@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить все&lt;x4/&gt; — аналогично кнопке &lt;x5/&gt;Сохранить&lt;x6/&gt; для всех открытых &lt;x7/&gt;Пакетов&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T131316Z" creationid="Марианна" creationdate="20200816T131316Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save all&lt;x4/&gt; is similar to the &lt;x5/&gt;Save&lt;x6/&gt; button for all opened &lt;x7/&gt;Packages&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить как&lt;x4/&gt; — сохранение выделенного &lt;x5/&gt;Пакета&lt;x6/&gt; под новым именем и/или по другому доступному пути.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131216Z" creationid="Марианна" creationdate="20200816T131216Z">
