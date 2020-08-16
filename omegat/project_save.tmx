@@ -3904,6 +3904,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также под кнопкой &lt;x7/&gt; &lt;x8/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T130947Z" creationid="Марианна" creationdate="20200816T130947Z">
+        <seg>The following button enables to perform the following operations &lt;x7/&gt; &lt;x8/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также под кнопкой &lt;x9/&gt; &lt;x10/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T140528Z" creationid="Марианна" creationdate="20200814T140528Z">
