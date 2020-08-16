@@ -534,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Версия&lt;x2/&gt; — версия открытого &lt;x3/&gt;Пакета&lt;x4/&gt;, настраивается в его &lt;x5/&gt;Свойствах&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133615Z" creationid="Марианна" creationdate="20200816T133615Z">
+        <seg>&lt;x1/&gt;Version&lt;x2/&gt; is a version of the opened &lt;x3/&gt;Package&lt;x4/&gt;. It is configured in its &lt;x5/&gt;Properties&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных (непрерывный, дискретный)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070858Z" creationid="Марианна" creationdate="20200812T070858Z">
@@ -2936,6 +2944,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для Desktop-версии указывается абсолютный путь.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
+        <seg>The absolute path is specified for the Desktop version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для перехода к объектам, находящимся выше по уровню вложенности, следует нажать на соответствующий объект в цепи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081502Z" creationid="Марианна" creationdate="20200814T081502Z">
@@ -3548,6 +3564,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093352Z" creationid="Марианна" creationdate="20200715T093352Z">
         <seg>The supernode is a special node that can include other workflow nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подробнее в &lt;x5/&gt;файловом хранилище&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133511Z" creationid="Марианна" creationdate="20200816T133511Z">
+        <seg>More detailed information is provided in the&lt;x5/&gt;file storage&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
