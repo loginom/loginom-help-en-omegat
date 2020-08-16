@@ -1864,6 +1864,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Путь&lt;x2/&gt; — путь до открытого &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133207Z" creationid="Марианна" creationdate="20200816T133207Z">
+        <seg>&lt;x1/&gt;Path&lt;x2/&gt; is a path to the opened &lt;x3/&gt;Package&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее окно Loginom.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T131949Z" creationid="Марианна" creationdate="20200814T131949Z">
@@ -2724,6 +2732,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T115541Z" creationid="Марианна" creationdate="20200717T110708Z">
         <seg>The export node is added to the resulting workflow, and/or the &lt;x1/&gt;Visualizer&lt;x2/&gt; of results is configured (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В серверной версии путь указывается от корневого каталога.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133330Z" creationid="Марианна" creationdate="20200816T133330Z">
+        <seg>The path is specified from the root directory in the server version.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3916,6 +3932,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140413Z" creationid="Марианна" creationdate="20200711T100413Z">
         <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Соответствует имени файла без расширения, приведенному к правильному идентификатору.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133146Z" creationid="Марианна" creationdate="20200816T133146Z">
+        <seg>It complies with the file name without extension corrected according to the proper identifier.</seg>
       </tuv>
     </tu>
     <tu>
