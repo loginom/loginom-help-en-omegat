@@ -3856,6 +3856,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После сохранения будет приведено к имени файла и правильному идентификатору.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T143457Z" creationid="Марианна" creationdate="20200816T143457Z">
+        <seg>It will be corrected according to the file name and proper identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательность обработки данных задается соединением выходного порта узла импорта с входным портом группировки (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101209Z" creationid="Марианна" creationdate="20200717T101209Z">
