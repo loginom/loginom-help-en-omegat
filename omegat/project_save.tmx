@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — производит обновление списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140127Z" creationid="Марианна" creationdate="20200816T140127Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Refresh&lt;x4/&gt; enables to refresh a list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Опубликовать&lt;x4/&gt;&lt;x5/&gt;^1&lt;x6/&gt; — открывает окно для публикации &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131750Z" creationid="Марианна" creationdate="20200816T131350Z">
@@ -3420,6 +3428,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105711Z" creationid="Марианна" creationdate="20200814T105711Z">
         <seg>"Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Общее:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
+        <seg>General:</seg>
       </tuv>
     </tu>
     <tu>
