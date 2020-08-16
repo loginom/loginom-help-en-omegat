@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Использовать относительные пути базового пакета&lt;x4/&gt; — данную опцию следует включать в &lt;x5/&gt;Пакете&lt;x6/&gt; с базовым узлом, если у данного узла есть относительные пути на файлы либо предполагается использовать пути в базовых узлах относительно данного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T143900Z" creationid="Марианна" creationdate="20200816T143900Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Use relative paths of the base package&lt;x4/&gt; must be enabled in the &lt;x5/&gt;Package&lt;x6/&gt; with base node, if this node has relative paths to files, or it is assumed to use paths in base nodes relative to this &lt;x7/&gt;Package&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — производит обновление списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140127Z" creationid="Марианна" creationdate="20200816T140127Z">
@@ -658,6 +666,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133615Z" creationid="Марианна" creationdate="20200816T133615Z">
         <seg>&lt;x1/&gt;Version&lt;x2/&gt; is a version of the opened &lt;x3/&gt;Package&lt;x4/&gt;. It is configured in its &lt;x5/&gt;Properties&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Версия&lt;x2/&gt; — позволяет указать версию &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T143535Z" creationid="Марианна" creationdate="20200816T143535Z">
+        <seg>&lt;x1/&gt;Version&lt;x2/&gt; enables to specify the &lt;x3/&gt;Package&lt;x4/&gt; version.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3708,6 +3724,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085033Z" creationid="Марианна" creationdate="20200814T085033Z">
         <seg>Pressing &lt;x1/&gt;Share&lt;x2/&gt; &lt;x3/&gt;Share…&lt;x4/&gt;, it is possible to open a window with one or two paths:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию версия равна &lt;x5/&gt;1.0.0&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T143611Z" creationid="Марианна" creationdate="20200816T143611Z">
+        <seg>Version &lt;x5/&gt;1.0.0&lt;x6/&gt; is used by default.</seg>
       </tuv>
     </tu>
     <tu>
