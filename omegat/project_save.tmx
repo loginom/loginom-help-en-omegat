@@ -3624,6 +3624,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При закрытии &lt;x1/&gt;Пакета&lt;x2/&gt; с несохраненными изменениями будет предложено сохранить его с вариантами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T132443Z" creationid="Марианна" creationdate="20200816T132443Z">
+        <seg>When closing the &lt;x1/&gt;Package&lt;x2/&gt; with unsaved changes, you will be requested to save it with the following variants:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При клике мышкой на узле отобразятся иконки возможных действий.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
