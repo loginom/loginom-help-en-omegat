@@ -14,6 +14,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть другие пакеты…&lt;x4/&gt; — производит закрытие всех &lt;x5/&gt;Пакетов&lt;x6/&gt;, кроме выделенного.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135622Z" creationid="Марианна" creationdate="20200816T135622Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Close other packages…&lt;x4/&gt; enables to close all &lt;x5/&gt;Packages&lt;x6/&gt;, with the exception of the selected one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть пакет…&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135537Z" creationid="Марианна" creationdate="20200816T135537Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Close package…&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть&lt;x4/&gt; — закрытие выделенного &lt;x5/&gt;Пакета&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131854Z" creationid="Марианна" creationdate="20200816T131708Z">
@@ -58,6 +74,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131801Z" creationid="Марианна" creationdate="20200816T131620Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Properties&lt;x4/&gt; enables to open the &lt;x5/&gt;properties&lt;x6/&gt; configuration window of the selected &lt;x7/&gt;Package&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать новый пакет…&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135733Z" creationid="Марианна" creationdate="20200816T135733Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New package…&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3044,6 +3068,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090521Z" creationid="Марианна" creationdate="20200715T090312Z">
         <seg>To solve the analysis tasks, &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; allows for data import from different sources and application of the required processing algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для свободной зоны:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135706Z" creationid="Марианна" creationdate="20200816T135706Z">
+        <seg>For the free zone:</seg>
       </tuv>
     </tu>
     <tu>
