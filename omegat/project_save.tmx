@@ -998,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — указывается имя &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140542Z" creationid="Марианна" creationdate="20200816T140542Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; — the &lt;x3/&gt;Package&lt;x4/&gt; name is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — файл Пакета;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
@@ -3752,6 +3760,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Позволяет задать следующие параметры &lt;x1/&gt;Пакета&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140514Z" creationid="Марианна" creationdate="20200816T140514Z">
+        <seg>It enables to set the following parameters of the &lt;x1/&gt;Package&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Получать данные от узлов из других сценариев и пакетов через механизм &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
@@ -4052,6 +4068,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
         <seg>Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "&lt;x1/&gt;black box&lt;x2/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Редактирование возможно лишь для &lt;x5/&gt;Черновика&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140623Z" creationid="Марианна" creationdate="20200816T140623Z">
+        <seg>Editing is possible only for the &lt;x5/&gt;Draft&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
