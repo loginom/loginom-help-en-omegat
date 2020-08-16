@@ -38,6 +38,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Показать в папке&lt;x4/&gt; — открывает папку, содержащую выделенный &lt;x5/&gt;Пакет&lt;x6/&gt; и устанавливает на нем фокус.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135517Z" creationid="Марианна" creationdate="20200816T135517Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Show in folder&lt;x4/&gt; enables to open the folder containing the selected &lt;x5/&gt;Package&lt;x6/&gt; and takes focus on it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Редактировать свойства…&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135239Z" creationid="Марианна" creationdate="20200816T135239Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Edit properties…&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Свойства&lt;x4/&gt; — открывает окно настройки &lt;x5/&gt;свойств&lt;x6/&gt; выделенного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131801Z" creationid="Марианна" creationdate="20200816T131620Z">
@@ -82,6 +98,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131216Z" creationid="Марианна" creationdate="20200816T131216Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save as&lt;x4/&gt; enables to save the selected &lt;x5/&gt;Package&lt;x6/&gt; under a new name, and/or using another available path.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить пакет как…&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135224Z" creationid="Марианна" creationdate="20200816T135224Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save package as…&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить пакет&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135208Z" creationid="Марианна" creationdate="20200816T135208Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save package&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2956,6 +2988,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
         <seg>The absolute path is specified for the Desktop version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для открытых &lt;x1/&gt;Пакетов&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135134Z" creationid="Марианна" creationdate="20200816T135134Z">
+        <seg>For the opened &lt;x1/&gt;Packages&lt;x2/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
