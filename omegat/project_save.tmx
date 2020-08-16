@@ -862,6 +862,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имя &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T132932Z" creationid="Марианна" creationdate="20200816T132932Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; is a name of the &lt;x3/&gt;Package&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — файл Пакета;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
