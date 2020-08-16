@@ -6,6 +6,46 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Alt P % — публикация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140402Z" creationid="Марианна" creationdate="20200816T140402Z">
+        <seg>%kbd Alt P % — publication.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Ctrl O % — открытие &lt;x1/&gt;Пакета&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140324Z" creationid="Марианна" creationdate="20200816T140324Z">
+        <seg>%kbd Ctrl O % — open the &lt;x1/&gt;Package&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Ctrl S % — сохранение &lt;x1/&gt;Пакета&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140335Z" creationid="Марианна" creationdate="20200816T140335Z">
+        <seg>%kbd Ctrl S % — save the &lt;x1/&gt;Package&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Ctrl Shift S % — сохранение всех &lt;x1/&gt;Пакетов&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140354Z" creationid="Марианна" creationdate="20200816T140354Z">
+        <seg>%kbd Ctrl Shift S % — save all &lt;x1/&gt;Packages&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd F2 % — редактирование свойств;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140313Z" creationid="Марианна" creationdate="20200816T140248Z">
+        <seg>%kbd F2 % — edit properties;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть все пакеты…&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135800Z" creationid="Марианна" creationdate="20200816T135800Z">
@@ -3040,6 +3080,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для некоторых команд доступны горячие клавиши:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140233Z" creationid="Марианна" creationdate="20200816T140233Z">
+        <seg>Hot keys are available for some commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для открытых &lt;x1/&gt;Пакетов&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135134Z" creationid="Марианна" creationdate="20200816T135134Z">
@@ -4028,6 +4076,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
         <seg>It is possible to transform the data from tables to variables and vice versa using the special handlers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Свойства пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T140411Z" creationid="Марианна" creationdate="20200816T140411Z">
+        <seg>Package properties</seg>
       </tuv>
     </tu>
     <tu>
