@@ -1296,8 +1296,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нет&lt;x2/&gt; — отклонит изменения (&lt;x3/&gt;Пакет&lt;x4/&gt; будет закрыт без сохранения!).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T132640Z" creationid="Марианна" creationdate="20200816T132640Z">
-        <seg>&lt;x1/&gt;No&lt;x2/&gt; will cancel changes (&lt;x3/&gt;Package&lt;x4/&gt; will be closed without saving!).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T132715Z" creationid="Марианна" creationdate="20200816T132640Z">
+        <seg>&lt;x1/&gt;No&lt;x2/&gt; will cancel changes (the &lt;x3/&gt;Package&lt;x4/&gt; will be closed without saving!).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1426,6 +1426,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121936Z" creationid="Марианна" creationdate="20200814T121936Z">
         <seg>&lt;x1/&gt;Open&lt;x2/&gt; enables to open an existing Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отмена&lt;x2/&gt; — остановит закрытие &lt;x3/&gt;Пакета&lt;x4/&gt; либо дальнейшее закрытие еще не закрытых &lt;x5/&gt;Пакетов&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T132846Z" creationid="Марианна" creationdate="20200816T132711Z">
+        <seg>&lt;x1/&gt;Cancel&lt;x2/&gt; will stop closing of the &lt;x3/&gt;Package&lt;x4/&gt; or further closing of still not closed &lt;x5/&gt;Packages&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3332,6 +3340,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140530Z" creationid="Марианна" creationdate="20200718T140530Z">
         <seg>The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открытые &lt;x1/&gt;Пакеты&lt;x2/&gt; перечислены в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T132910Z" creationid="Марианна" creationdate="20200816T132910Z">
+        <seg>Opened &lt;x1/&gt;Packages&lt;x2/&gt; are listed in the table:</seg>
       </tuv>
     </tu>
     <tu>
