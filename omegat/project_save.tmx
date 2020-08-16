@@ -3736,6 +3736,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию данная опция выключена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T144008Z" creationid="Марианна" creationdate="20200816T144008Z">
+        <seg>This option is disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию она скрыта, но ее можно закрепить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113849Z" creationid="Марианна" creationdate="20200716T140736Z">
