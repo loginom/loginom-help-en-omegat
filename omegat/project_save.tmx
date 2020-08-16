@@ -1406,6 +1406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Опубликован&lt;x2/&gt; — указывает, был ли опубликован &lt;x3/&gt;Пакет&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T133741Z" creationid="Марианна" creationdate="20200816T133741Z">
+        <seg>&lt;x1/&gt;Published&lt;x2/&gt; shows whether the &lt;x3/&gt;Package&lt;x4/&gt; was published.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Основная таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070304Z" creationid="Марианна" creationdate="20200812T070304Z">
@@ -3516,6 +3524,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094555Z" creationid="Марианна" creationdate="20200813T094555Z">
         <seg>5 editions of &lt;x1/&gt;Loginom&lt;x2/&gt; Platform are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По данным полям можно отсортировать список по возрастанию &lt;x1/&gt; &lt;x2/&gt;, по убыванию &lt;x3/&gt; &lt;x4/&gt; либо отменить сортировку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T134511Z" creationid="Марианна" creationdate="20200816T134511Z">
+        <seg>It is possible to sort the list for these fields in ascending order &lt;x1/&gt; &lt;x2/&gt;, in descending order &lt;x3/&gt; &lt;x4/&gt;, or to cancel sorting.</seg>
       </tuv>
     </tu>
     <tu>
