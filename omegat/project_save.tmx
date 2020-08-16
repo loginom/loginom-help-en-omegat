@@ -3152,6 +3152,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Контекстное меню, вызываемое кликом правой клавиши мыши, в основном повторяет перечисленный выше набор:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T135118Z" creationid="Марианна" creationdate="20200816T135118Z">
+        <seg>The context menu called by the right mouse button click, for the most part, enables to repeat the set listed above:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
