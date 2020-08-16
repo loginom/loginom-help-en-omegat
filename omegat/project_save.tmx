@@ -6,10 +6,34 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть&lt;x4/&gt; — закрытие выделенного &lt;x5/&gt;Пакета&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T131708Z" creationid="Марианна" creationdate="20200816T131708Z">
+        <seg>The &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Close&lt;x4/&gt; button closes the selected &lt;x5/&gt;Package&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Опубликовать&lt;x4/&gt;&lt;x5/&gt;^1&lt;x6/&gt; — открывает окно для публикации &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T131448Z" creationid="Марианна" creationdate="20200816T131350Z">
+        <seg>The &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Publish&lt;x4/&gt;&lt;x5/&gt;^1&lt;x6/&gt; button enables to open a window for the &lt;x7/&gt;Package&lt;x8/&gt; publication.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Открыть&lt;x4/&gt; — открывает окно выбора существующего &lt;x5/&gt;Пакета&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T140751Z" creationid="Марианна" creationdate="20200814T140751Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Open&lt;x4/&gt; enables to open the selection window of the existing &lt;x5/&gt;Package&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Свойства&lt;x4/&gt; — открывает окно настройки &lt;x5/&gt;свойств&lt;x6/&gt; выделенного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T131620Z" creationid="Марианна" creationdate="20200816T131620Z">
+        <seg>The &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Properties&lt;x4/&gt; button enables to open the &lt;x5/&gt;properties&lt;x6/&gt; configuration window of the selected &lt;x7/&gt;Package&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3922,8 +3946,8 @@
       <tuv lang="ru">
         <seg>Также под кнопкой &lt;x7/&gt; &lt;x8/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T130947Z" creationid="Марианна" creationdate="20200816T130947Z">
-        <seg>The following button enables to perform the following operations &lt;x7/&gt; &lt;x8/&gt;:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200816T131400Z" creationid="Марианна" creationdate="20200816T130947Z">
+        <seg>The following buttons enable to perform the following operations &lt;x7/&gt; &lt;x8/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
