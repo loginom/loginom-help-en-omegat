@@ -2872,6 +2872,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В панели иерархически фиксируются процессы и выполняющиеся в них узлы/подузлы, им присваиваются порядковые номера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T062415Z" creationid="Марианна" creationdate="20200817T062415Z">
+        <seg>Processes and nodes/subnodes which are performed in them are hierarchically fixed on the panel. Sequence numbers were assigned to them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В производных компонентах реализуется &lt;x1/&gt;механизм наследования&lt;x2/&gt;, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T161147Z" creationid="Марианна" creationdate="20200718T161147Z">
