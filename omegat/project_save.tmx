@@ -1942,6 +1942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подробнее&lt;x2/&gt; — выводит на экран сообщение об ошибке передаваемое узлом;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T073528Z" creationid="Марианна" creationdate="20200817T073528Z">
+        <seg>&lt;x1/&gt;Show details&lt;x2/&gt; enables to display an error message delivered by a node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поиск&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065526Z" creationid="Марианна" creationdate="20200812T065526Z">
