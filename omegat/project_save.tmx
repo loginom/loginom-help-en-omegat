@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все заверенные процессы...&lt;x4/&gt; — удаляет все завершенные процессы из списка информационной панели;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T073305Z" creationid="Марианна" creationdate="20200817T073305Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all completed processes...&lt;x4/&gt; enables to delete all completed processes from the information panel list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить из списка&lt;x4/&gt; — удаляет процесс из списка информационной панели;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073148Z" creationid="Марианна" creationdate="20200817T073148Z">
@@ -1938,6 +1946,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065526Z" creationid="Марианна" creationdate="20200812T065526Z">
         <seg>&lt;x1/&gt;Search&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показать узел&lt;x2/&gt; — выделяет выбранный узел на области построения Сценариев;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T073358Z" creationid="Марианна" creationdate="20200817T073358Z">
+        <seg>&lt;x1/&gt;Show node&lt;x2/&gt; enables to show the selected node in the Workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
