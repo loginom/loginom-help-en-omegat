@@ -4192,10 +4192,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наличии &lt;x1/&gt;&lt;x2/&gt; отображает все процессы, за исключением тех, которые были удалены пользователем;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T073935Z" creationid="Марианна" creationdate="20200817T073935Z">
+        <seg>If &lt;x1/&gt;&lt;x2/&gt; is available, it shows all processes, with the exception of those processes that have been removed by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При необходимости, можно ввести путь вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084443Z" creationid="Марианна" creationdate="20200814T084443Z">
         <seg>If required, it is possible to enter the path manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При отсутствии &lt;x1/&gt;&lt;x2/&gt; показывает только активные процессы и процессы, в которых возникли ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T074026Z" creationid="Марианна" creationdate="20200817T074026Z">
+        <seg>If &lt;x1/&gt;&lt;x2/&gt; is not available, it shows only active processes and the processes in which errors occurred.</seg>
       </tuv>
     </tu>
     <tu>
