@@ -4112,6 +4112,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Процесс — иерархически указаны процессы (наименования) и их составные части.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T063220Z" creationid="Марианна" creationdate="20200817T063220Z">
+        <seg>Process — processes (names) and their constituents are hierarchically specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094258Z" creationid="Марианна" creationdate="20200813T093856Z">
@@ -4308,6 +4316,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162546Z" creationid="Марианна" creationdate="20200718T162546Z">
         <seg>The Project structure can be represented in the hierarchical form:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структура панели следующая:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T062942Z" creationid="Марианна" creationdate="20200817T062942Z">
+        <seg>The panel has the following structure:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4620,6 +4636,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094306Z" creationid="Марианна" creationdate="20200813T094306Z">
         <seg>•/-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>№ — номер по порядку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T063032Z" creationid="Марианна" creationdate="20200817T063032Z">
+        <seg># — sequence number.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
