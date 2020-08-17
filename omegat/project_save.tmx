@@ -3400,6 +3400,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ее можно открыть нажатием на кнопку &lt;x1/&gt;&lt;x2/&gt;, расположенную в левом нижнем углу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T075505Z" creationid="Марианна" creationdate="20200817T075505Z">
+        <seg>It can be opened by pressing the &lt;x1/&gt;&lt;x2/&gt; button located in the left low corner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в текущий момент времени не выполняется ни один из процессов, а также не было ошибок у процессов завершенных, то в информационной панели данные будут отсутствовать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T075331Z" creationid="Марианна" creationdate="20200817T075331Z">
@@ -3964,6 +3972,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T144008Z" creationid="Марианна" creationdate="20200816T144008Z">
         <seg>This option is disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию информационная панель скрыта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T075420Z" creationid="Марианна" creationdate="20200817T075420Z">
+        <seg>The information panel is hidden by default.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4708,6 +4724,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
         <seg>The &lt;x1/&gt;supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы при работе со Сценарием информационная панель оставалась открытой, ее нужно закрепить нажатием на кнопку &lt;x3/&gt;&lt;x4/&gt;, нажатие на &lt;x5/&gt;&lt;x6/&gt; открепляет панель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T075808Z" creationid="Марианна" creationdate="20200817T075808Z">
+        <seg>To keep the information panel opened when working with the Workflow, it must be locked by pressing the &lt;x3/&gt;&lt;x4/&gt; button. Pressing the &lt;x5/&gt;&lt;x6/&gt; panel will unlock the panel.</seg>
       </tuv>
     </tu>
     <tu>
