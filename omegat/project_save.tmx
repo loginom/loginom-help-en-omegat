@@ -1734,6 +1734,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отображать завершенные процессы&lt;x2/&gt; — изменяет отображение процессов на панели:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T073653Z" creationid="Марианна" creationdate="20200817T073653Z">
+        <seg>&lt;x1/&gt;Show completed processes&lt;x2/&gt; enables to change display of the processes on the panel:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отчет по линейной регрессии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070121Z" creationid="Марианна" creationdate="20200812T070121Z">
