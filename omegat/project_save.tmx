@@ -3984,6 +3984,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нажатии на название процесса в Сценарии будет найден и выделен узел, который отвечает за его выполнение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T063446Z" creationid="Марианна" creationdate="20200817T063446Z">
+        <seg>When pressing the process name, the node required for its execution will be found and selected in the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При необходимости, можно ввести путь вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084443Z" creationid="Марианна" creationdate="20200814T084443Z">
