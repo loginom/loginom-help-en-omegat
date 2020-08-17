@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%&lt;x2/&gt; — процент выполнения процесса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T063527Z" creationid="Марианна" creationdate="20200817T063527Z">
+        <seg>&lt;x1/&gt;%&lt;x2/&gt; — percentage of the process execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;1C:Предприятие 8.x&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183333Z" creationid="Марианна" creationdate="20200810T183333Z">
@@ -3516,6 +3524,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105711Z" creationid="Марианна" creationdate="20200814T105711Z">
         <seg>"Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T063534Z" creationid="Марианна" creationdate="20200817T063534Z">
+        <seg>Processing:</seg>
       </tuv>
     </tu>
     <tu>
