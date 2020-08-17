@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отменить&lt;x4/&gt; — останавливает выполнение выбранного процесса;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T072807Z" creationid="Марианна" creationdate="20200817T072807Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Cancel&lt;x4/&gt; enables to cancel execution of the selected process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — выполнение процесса не начиналось, произошла ошибка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065046Z" creationid="Марианна" creationdate="20200817T065046Z">
@@ -4098,8 +4106,8 @@
       <tuv lang="ru">
         <seg>При выборе процесса на информационной панели можно вызвать контекстное меню, содержащее следующие действия:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T072247Z" creationid="Марианна" creationdate="20200817T072247Z">
-        <seg>Selecting the process on the information panel, it is possible to call the context menu containing the following commands:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T072256Z" creationid="Марианна" creationdate="20200817T072247Z">
+        <seg>Selecting the process on the information panel, it is possible to call the context menu containing the following actions:</seg>
       </tuv>
     </tu>
     <tu>
