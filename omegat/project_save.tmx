@@ -3712,6 +3712,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка — указывается текст ошибки в случае ее возникновения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T065305Z" creationid="Марианна" creationdate="20200817T065305Z">
+        <seg>Error — error text is specified, should it occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакет включает в себя Модули — декомпозиция пакета на уровне модулей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163009Z" creationid="Марианна" creationdate="20200718T163009Z">
@@ -4076,6 +4084,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
         <seg>Icons of possible actions will be displayed after mouse click.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии на данный текст на экран выведется полная формулировка ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T065436Z" creationid="Марианна" creationdate="20200817T065436Z">
+        <seg>Full error text will be displayed, when this text pressing.</seg>
       </tuv>
     </tu>
     <tu>
