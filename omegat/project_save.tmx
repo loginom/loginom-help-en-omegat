@@ -302,10 +302,42 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — выполнение процесса не начиналось, произошла ошибка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T065046Z" creationid="Марианна" creationdate="20200817T065046Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — the process execution has not started yet, an error occurred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — идет процесс обработки, и время его окончания невозможно рассчитать заранее;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063845Z" creationid="Марианна" creationdate="20200817T063845Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — processing process is in progress, and it is not possible to calculate its termination time in advance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — информация о результатах выполнения процесса еще не получена;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T064909Z" creationid="Марианна" creationdate="20200817T064909Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — information on the process execution results has not been received yet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — остановить все процессы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T065100Z" creationid="Марианна" creationdate="20200817T065100Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — to stop all processes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — при выполнении процесса произошла ошибка (обработка не завершена);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T065011Z" creationid="Марианна" creationdate="20200817T065011Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — an error occurred while the process execution (processing is not completed).</seg>
       </tuv>
     </tu>
     <tu>
