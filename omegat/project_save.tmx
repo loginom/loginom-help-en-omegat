@@ -3400,6 +3400,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в текущий момент времени не выполняется ни один из процессов, а также не было ошибок у процессов завершенных, то в информационной панели данные будут отсутствовать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200817T075331Z" creationid="Марианна" creationdate="20200817T075331Z">
+        <seg>If none of the processes is executed at the moment, and there were no errors in the completed processes, there will be no data on the information panel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
