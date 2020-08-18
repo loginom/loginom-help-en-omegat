@@ -3416,6 +3416,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для ячеей, в которых текст полностью не помещается, предусмотрены всплывающие подсказки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T105840Z" creationid="Марианна" creationdate="20200818T105840Z">
+        <seg>Screen tips are used for the cells in which there is no enough place for text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Его можно разделить на четыре основные области (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T123020Z" creationid="Марианна" creationdate="20200716T123020Z">
