@@ -3840,6 +3840,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Открыть окно &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно также через контекстное меню области построения сценария, выставив флаг &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Показать/скрыть инспектор свойств&lt;x6/&gt; (поставить галочку).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T101310Z" creationid="Марианна" creationdate="20200818T101310Z">
+        <seg>It is possible to open the &lt;x1/&gt;Property inspector&lt;x2/&gt; window using the context menu of the workflow construction area by ticking &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Show/hide property inspector&lt;x6/&gt; (tick the box).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открыть сценарий для редактирования и развернуть панель Подключения, в которой содержится перечень всех созданных в пакете подключений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
