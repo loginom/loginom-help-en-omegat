@@ -3640,6 +3640,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На рисунке представлен фрагмент сценария с открытым окном &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; для узла &lt;x3/&gt;Калькулятор&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T101600Z" creationid="Марианна" creationdate="20200818T101600Z">
+        <seg>The workflow fragment with the opened &lt;x1/&gt;Property inspector&lt;x2/&gt; window is shown on figure below for the &lt;x3/&gt;Calculator&lt;x4/&gt; node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T170805Z" creationid="Марианна" creationdate="20200718T140932Z">
