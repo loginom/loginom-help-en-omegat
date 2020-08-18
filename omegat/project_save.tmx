@@ -3760,6 +3760,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Окно &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; расположено в правой части экрана на страницах &lt;x3/&gt;Сценарий&lt;x4/&gt; и &lt;x5/&gt;Подключения&lt;x6/&gt; и по умолчанию находится в свернутом состоянии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T095522Z" creationid="Марианна" creationdate="20200818T095522Z">
+        <seg>The &lt;x1/&gt;Property inspector&lt;x2/&gt; window is located in the right part of the screen on the &lt;x3/&gt;Workflow&lt;x4/&gt; and &lt;x5/&gt;Connections&lt;x6/&gt; pages. It is collapsed by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он включает левую панель, где отображаются рабочие компоненты и структура решения (пакеты и их составные части), а также непосредственно область построения сценария и визуализации данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140615Z" creationid="Марианна" creationdate="20200716T140615Z">
