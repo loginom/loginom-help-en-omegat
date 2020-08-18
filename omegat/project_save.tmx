@@ -3080,6 +3080,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В появившемся окне содержится информация о приложении, включая номер версии (типа Версия файла: X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T162749Z" creationid="Марианна" creationdate="20200818T162749Z">
+        <seg>The appeared window contains information on the application, including version number (for example, file version: X.X.X.Y where X.X.X  is a version number, and Y is a build number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В производных компонентах реализуется &lt;x1/&gt;механизм наследования&lt;x2/&gt;, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T161147Z" creationid="Марианна" creationdate="20200718T161147Z">
