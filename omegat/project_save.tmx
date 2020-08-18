@@ -3424,6 +3424,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого нужно выделить корневой узел и вызвать соответствующую команду контекстного меню.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T110214Z" creationid="Марианна" creationdate="20200818T110214Z">
+        <seg>For this purpose, it is required to select the root node and call corresponding command of the context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого переместим компонент &lt;x1/&gt;Группировка&lt;x2/&gt; в рабочую область сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101034Z" creationid="Марианна" creationdate="20200717T101034Z">
@@ -4324,6 +4332,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132443Z" creationid="Марианна" creationdate="20200816T132443Z">
         <seg>When closing the &lt;x1/&gt;Package&lt;x2/&gt; with unsaved changes, you will be requested to save it with the following variants:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При изменений настроек узла &lt;x1/&gt;Инспектор свойств&lt;x2/&gt; обновляет дерево свойств.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T110428Z" creationid="Марианна" creationdate="20200818T110428Z">
+        <seg>When changing the node settings, the &lt;x1/&gt;Property inspector&lt;x2/&gt; updates the properties tree.</seg>
       </tuv>
     </tu>
     <tu>
