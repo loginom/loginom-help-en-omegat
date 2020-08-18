@@ -2062,6 +2062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Кнопка  &lt;x3/&gt;Показать/скрыть инспектор свойств&lt;x4/&gt; всегда находится в крайней правой позиции на панели инструментов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T100839Z" creationid="Марианна" creationdate="20200818T100839Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The &lt;x3/&gt;Show/hide property inspector&lt;x4/&gt; button is always located in the far right position on the toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При переходе по данной ссылке придется ввести соответствующий логин и (если есть) пароль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
