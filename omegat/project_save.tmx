@@ -3584,6 +3584,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Любую ячейку или диапазон ячеек &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно выделить указателем мыши и скопировать ее (их) значение, нажав сочетание клавиш &lt;x3/&gt;Ctrl+C&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T105745Z" creationid="Марианна" creationdate="20200818T105745Z">
+        <seg>It is possible to select with mouse cursor any cell or range of cells of the &lt;x1/&gt;Property inspector&lt;x2/&gt; by clicking and copy its (their) value by pressing &lt;x3/&gt;Ctrl+C&lt;x4/&gt; combination of keys.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Меню</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120816Z" creationid="Марианна" creationdate="20200814T120816Z">
@@ -4212,6 +4220,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143457Z" creationid="Марианна" creationdate="20200816T143457Z">
         <seg>It will be corrected according to the file name and proper identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательное нажатие на заголовок меняет порядок сортировки или отменяет его.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T105414Z" creationid="Марианна" creationdate="20200818T105414Z">
+        <seg>Subsequent pressing the header enables to change the sorting order or cancels it.</seg>
       </tuv>
     </tu>
     <tu>
