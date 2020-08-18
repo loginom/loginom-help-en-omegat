@@ -3008,6 +3008,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Проводнике OC Windows навести указатель мыши на интересующее приложение (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T162349Z" creationid="Марианна" creationdate="20200818T162349Z">
+        <seg>It is required to hover a cursor over the required application in Windows Explorer (in this case: C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В вариантах поставки &lt;x1/&gt;Enterprise&lt;x2/&gt;, &lt;x3/&gt;Standard&lt;x4/&gt; и &lt;x5/&gt;Team&lt;x6/&gt; при запуске программы открывается стартовая страница с авторизацией.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114031Z" creationid="Марианна" creationdate="20200716T115803Z">
@@ -4748,6 +4756,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
         <seg>The project designed in such a way has a clear and transparent structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Средствами ОС</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T162024Z" creationid="Марианна" creationdate="20200818T162024Z">
+        <seg>By OS tools</seg>
       </tuv>
     </tu>
     <tu>
