@@ -3944,6 +3944,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Откроется новое окно с информацией о версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T161953Z" creationid="Марианна" creationdate="20200818T161953Z">
+        <seg>The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открытые &lt;x1/&gt;Пакеты&lt;x2/&gt; перечислены в таблице:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132910Z" creationid="Марианна" creationdate="20200816T132910Z">
