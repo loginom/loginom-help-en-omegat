@@ -3552,6 +3552,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Корень дерева в &lt;x1/&gt;Инспекторе свойств&lt;x2/&gt; содержит название компонента, на основе которого создан узел сценария, а в колонке &lt;x3/&gt;Значение&lt;x4/&gt; выводится метка узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T101947Z" creationid="Марианна" creationdate="20200818T101947Z">
+        <seg>The tree root in the&lt;x1/&gt;Property inspector&lt;x2/&gt; contains the component name used as a basis for the workflow node creation. The node caption is displayed in the &lt;x3/&gt;Value&lt;x4/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
@@ -4492,6 +4500,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140411Z" creationid="Марианна" creationdate="20200816T140411Z">
         <seg>Package properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Свойства узла (метки свойств) отображаются в виде дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T101709Z" creationid="Марианна" creationdate="20200818T101709Z">
+        <seg>The node properties (caption of properties) are displayed in the form of a tree.</seg>
       </tuv>
     </tu>
     <tu>
