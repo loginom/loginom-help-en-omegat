@@ -3488,6 +3488,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если не выбран ни один узел или выбрано несколько узлов, то в &lt;x1/&gt;Инспекторе свойств&lt;x2/&gt; будет приглашение "Выделите узел, чтобы посмотреть его свойства".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T111153Z" creationid="Марианна" creationdate="20200818T111153Z">
+        <seg>If no node was selected, or several nodes were selected, the following invitation will be in the &lt;x1/&gt;Property inspector&lt;x2/&gt;: "Select a node to view its properties".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
