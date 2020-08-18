@@ -2070,6 +2070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Порядок колонок &lt;x3/&gt;Свойство&lt;x4/&gt; и &lt;x5/&gt;Значение&lt;x6/&gt; изменить нельзя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T102235Z" creationid="Марианна" creationdate="20200818T102235Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is not possible to change the order of the &lt;x3/&gt;Properties&lt;x4/&gt; and &lt;x5/&gt;Value&lt;x6/&gt; columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При переходе по данной ссылке придется ввести соответствующий логин и (если есть) пароль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
@@ -3560,6 +3568,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Корневой узел дерева свойств всегда находится в раскрытом состоянии, его нельзя свернуть.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T102115Z" creationid="Марианна" creationdate="20200818T102115Z">
+        <seg>The root tree node is always expanded. It is not possible to collapse it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
@@ -4764,6 +4780,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091456Z" creationid="Марианна" creationdate="20200715T091456Z">
         <seg>The workflow node performs a separate operation with data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы в дереве &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно сортировать, для этого нужно кликнуть мышью на заколовок колонки &lt;x3/&gt;Свойство&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T102549Z" creationid="Марианна" creationdate="20200818T102549Z">
+        <seg>It is possible to sort nodes in the &lt;x1/&gt;Property inspector&lt;x2/&gt; tree. For this purpose, it is required to click the header of the &lt;x3/&gt;Property&lt;x4/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
