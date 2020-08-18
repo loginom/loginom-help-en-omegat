@@ -4104,6 +4104,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Персональные редакции (Community, Personal)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T161343Z" creationid="Марианна" creationdate="20200818T161343Z">
+        <seg>Personal editions (Community, Personal)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Платформа &lt;x1/&gt;Loginom&lt;x2/&gt; предлагается в 5-ти редакциях:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094555Z" creationid="Марианна" creationdate="20200813T094555Z">
@@ -4252,6 +4260,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
         <seg>This file is deleted upon the package closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После запуска Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T161832Z" creationid="Марианна" creationdate="20200818T161832Z">
+        <seg>It is required to click the Menu icon in the left upper corner upon Loginom start, and then you are to click the "About" menu option.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4724,6 +4740,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
         <seg>The project designed in such a way has a clear and transparent structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Средствами интерфейса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T161419Z" creationid="Марианна" creationdate="20200818T161419Z">
+        <seg>By interface tools</seg>
       </tuv>
     </tu>
     <tu>
