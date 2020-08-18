@@ -8,7 +8,7 @@ First, it is required to create corresponding [Connection](../integration/connec
 
 ## Step 2. Creation of the Connection Node in the Workflow
 
-It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.
+It is required to place the created connection into the workflow; for this purpose you are to create the node the output data of which will be parameters of connection with the data source.
 
 The following actions are required to create the node:
 
@@ -21,7 +21,7 @@ The following actions are required to create the node:
 
 ![Creation of the connection node in the workflow](./database-1.png)
 
-Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. For this purpose ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) port data of the connection node are to be sent to the ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) input port for which such connection of the import/export node is required (refer to Figure 2).
+Parameters of connection to the data source are used by the data [import](../integration/import/README.md)/[export](../integration/export/README.md) nodes. For this purpose, ![ ](../images/icons/app/node/ports/outputs/link_inactive.svg) port data of the connection node are to be sent to the ![ ](../images/icons/app/node/ports/inputs/link_inactive.svg) input port for which such connection of the import/export node is required (refer to Figure 2).
 
 ![Connection Node Use.](./database-2.png)
 
