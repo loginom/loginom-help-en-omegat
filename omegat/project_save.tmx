@@ -318,6 +318,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Развернуть&lt;x4/&gt; - разворачивает узел дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T105941Z" creationid="Марианна" creationdate="20200818T105941Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Expand&lt;x4/&gt; enables to expand the tree node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Свернуть&lt;x4/&gt; - сворачивает узел дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T110007Z" creationid="Марианна" creationdate="20200818T110007Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Collapse&lt;x4/&gt; enables to collapse the tree node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все заверенные процессы...&lt;x4/&gt; — удаляет все завершенные процессы из списка информационной панели;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073305Z" creationid="Марианна" creationdate="20200817T073305Z">
@@ -3552,10 +3568,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Команды контекстного меню позволяют одновременно развернуть/свернуть все узлы в дереве свойств.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
+        <seg>The context menu commands enable to collapse/expand all nodes in the properties tree simultaneously.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Конец — дата и время окончания процесса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072045Z" creationid="Марианна" creationdate="20200817T072045Z">
         <seg>End - date and time of the process end.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Контекстное меню &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; содержит команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T105917Z" creationid="Марианна" creationdate="20200818T105917Z">
+        <seg>The &lt;x1/&gt;Property inspector&lt;x2/&gt; context menu contains the following commands:</seg>
       </tuv>
     </tu>
     <tu>
