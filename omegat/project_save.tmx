@@ -3378,8 +3378,8 @@
       <tuv lang="ru">
         <seg>Для этого выходные данные порта &lt;x5/&gt; &lt;x6/&gt; узла подключения необходимо подать на входной порт &lt;x7/&gt; &lt;x8/&gt; нуждающегося в этом подключении узла импорта/экспорта (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T141042Z" creationid="Марианна" creationdate="20200711T104055Z">
-        <seg>For this purpose &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to the &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T102917Z" creationid="Марианна" creationdate="20200711T104055Z">
+        <seg>For this purpose, &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to the &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -4578,8 +4578,8 @@
       <tuv lang="ru">
         <seg>Созданное подключение необходимо поместить в сценарий,  для этого необходимо создать узел, выходными данными которого будут являться параметры подключения к источнику данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T140413Z" creationid="Марианна" creationdate="20200711T100413Z">
-        <seg>It is required to place the created connection into the workflow, for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200818T102909Z" creationid="Марианна" creationdate="20200711T100413Z">
+        <seg>It is required to place the created connection into the workflow; for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
       </tuv>
     </tu>
     <tu>
