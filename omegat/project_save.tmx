@@ -4280,6 +4280,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По верхнему краю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131905Z" creationid="Марианна" creationdate="20200819T131905Z">
+        <seg>Vertical upper alignment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По данным полям можно отсортировать список по возрастанию &lt;x1/&gt; &lt;x2/&gt;, по убыванию &lt;x3/&gt; &lt;x4/&gt; либо отменить сортировку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T134511Z" creationid="Марианна" creationdate="20200816T134511Z">
@@ -4288,10 +4296,42 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По левому краю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131945Z" creationid="Марианна" creationdate="20200819T131812Z">
+        <seg>Vertical left alignment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По нажатию на &lt;x1/&gt;Поделиться&lt;x2/&gt; &lt;x3/&gt;Поделиться…&lt;x4/&gt; открывается окно с одним или двумя путями:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085033Z" creationid="Марианна" creationdate="20200814T085033Z">
         <seg>Pressing &lt;x1/&gt;Share&lt;x2/&gt; &lt;x3/&gt;Share…&lt;x4/&gt;, it is possible to open a window with one or two paths:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По нижнему краю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132010Z" creationid="Марианна" creationdate="20200819T132010Z">
+        <seg>Vertical bottom alignment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По правому краю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131856Z" creationid="Марианна" creationdate="20200819T131856Z">
+        <seg>Vertical right alignment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По середине;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131816Z" creationid="Марианна" creationdate="20200819T131816Z">
+        <seg>Vertical middle alignment</seg>
       </tuv>
     </tu>
     <tu>
@@ -4332,6 +4372,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125556Z" creationid="Марианна" creationdate="20200819T125556Z">
         <seg>The Workflow construction area is located in the centre. It is an area containing the Worlflow nodes and links between them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По центру;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131939Z" creationid="Марианна" creationdate="20200819T131939Z">
+        <seg>Vertical center alignment.</seg>
       </tuv>
     </tu>
     <tu>
