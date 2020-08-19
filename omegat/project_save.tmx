@@ -5272,6 +5272,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>имеются следующими виды вертикального выравнивания:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131750Z" creationid="Марианна" creationdate="20200819T131750Z">
+        <seg>There are the following types of the vertical alignment:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>перейдя по кнопке &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Пакеты&lt;x4/&gt; в &lt;x5/&gt;Адресной строке&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135752Z" creationid="Марианна" creationdate="20200814T135752Z">
