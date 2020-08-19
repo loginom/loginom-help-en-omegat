@@ -448,8 +448,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T133538Z" creationid="Марианна" creationdate="20200819T133538Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Show parent nodes for derived — при наличии производных узлов показывает родительские узлы;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T133709Z" creationid="Марианна" creationdate="20200819T133538Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Show parent nodes for derived shows parent nodes if derived nodes are available.</seg>
       </tuv>
     </tu>
     <tu>
