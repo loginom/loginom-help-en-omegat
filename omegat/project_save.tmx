@@ -2936,6 +2936,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Cлева находится панель компонентов, состоящая из следующих категорий:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T125206Z" creationid="Марианна" creationdate="20200819T125206Z">
+        <seg>The panel of components is located on the left. It consists of the following categories:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Desktop</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
