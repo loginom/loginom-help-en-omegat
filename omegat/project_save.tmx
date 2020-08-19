@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131443Z" creationid="Марианна" creationdate="20200819T131443Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Show as workflow enables to display a Workflow in the standard form (in the form of oriented graph).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать/&lt;x3/&gt;&lt;x4/&gt; Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T130024Z" creationid="Марианна" creationdate="20200819T125947Z">
