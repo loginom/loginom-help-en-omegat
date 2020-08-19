@@ -1,41 +1,41 @@
 # Working Space
-Рабочее пространство состоит из панели компонентов, области построения Сценария и панели инструментов (см. Figure 1).
+Working space consists of a panel of components, toolbar and area of the Workflow construction (refer to Figure 1).
 
-![Рабочее пространство.](./workspace.png)
+![Working space](./workspace.png)
 
-Cлева находится панель компонентов, состоящая из следующих категорий:
+The panel of components is located on the left. It consists of the following categories:
 
-* Компоненты — стандартная библиотека базовых компонентов Loginom;
-* [Производные компоненты](../scenario/derived-component.md) — создаваемые пользователями компоненты на основе базовых;
-* [Подключения](../integration/connections/README.md) — источники данных.
+* Components are represented by a standard library of the Loginom base components.
+* [Derived components](../scenario/derived-component.md) are the components created by users according to the base ones.
+* [Connections](../integration/connections/README.md) are data sources.
 
-По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.
+The Workflow construction area is located in the centre. It is an area containing the Worlflow nodes and links between them.
 
-Сверху расположена панель инструментов, содержащая следующие операции для манипуляции с областью построения и ее составляющими:
-* ![](../images/icons/toolbar-controls/arrow-rr_default.svg) Показать/![](../images/icons/toolbar-controls/arrow-ll_default.svg) Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов;
-* ![](../images/icons/toolbar-controls/cursor_default.svg) Режим выбора объекта — режим, использующийся для построения Сценария с помощью стандартных манипуляций;
-* ![](../images/icons/toolbar-controls/hand_default.svg) Режим навигации по сценарию — режим, использующийся для навигации по области построения Сценария с помощью мышки;
-* ![](../images/icons/toolbar-controls/workflow_default.svg) Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа);
-* ![](../images/icons/toolbar-controls/table_default.svg) Показать в виде таблицы — компактное отображение Сценария в виде таблицы, содержащей используемые элементы;
-* ![](../images/icons/toolbar-controls/v-align-left_default.svg) Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения. имеются следующими виды вертикального выравнивания:
-   * По левому краю;
-   * По середине;
-   * По правому краю;
-   * По верхнему краю;
-   * По центру;
-   * По нижнему краю.
-* ![](../images/icons/toolbar-controls/layout_default.svg) Автоматическое упорядочивание узлов — автоматическое расположение узлов на области Сценария в соответствии с их последовательностью обработки данных;
-* ![](../images/icons/toolbar-controls/move-front_default.svg) Переместить выделенные узлы — выставляет выделенные узлы и их подписи на:
-   * Передний план;
-   * Задний план.
-* ![](../images/icons/toolbar-controls/order_default.svg) [Настроить порядок выполнения](../scenario/run-order.md) — позволяет задать собственный порядок выполнения узлов;
-* ![](../images/icons/toolbar-controls/run-all_default.svg) Выполнить все — выполнить все узлы Сценария;
-* ![](../images/icons/toolbar-controls/run-current_default.svg) Активировать/![](../images/icons/toolbar-controls/stop_default.svg) Деактивировать узел — активировать/деактивировать узел;
-* ![](../images/icons/toolbar-controls/retrain_default.svg) [Переобучить узел](../scenario/training-processors.md) — переобучает выделенный узел;
-* ![](../images/icons/toolbar-controls/setup_default.svg) Настроить узел — заходит в настройки выделенного узла;
-* ![](../images/icons/toolbar-controls/batch-mode_default.svg) [Настроить режим активации узла](../scenario/setting-batch-processing-mode.md) — настройка режима активации выделенного узла;
-* ![](../images/icons/toolbar-controls/clone_default.svg) Клонировать узел — клонирование выделенного узла;
-* ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Развернуть/Свернуть [подмодель](../processors/control/submodel.md) — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;
+The toolbar that enables the following operations with the construction area and its constituents is located in the upper part:
+* ![](../images/icons/toolbar-controls/arrow-rr_default.svg) Show/![](../images/icons/toolbar-controls/arrow-ll_default.svg)Hide component panel enables to open or hide the panel of components.
+* ![](../images/icons/toolbar-controls/cursor_default.svg)Object selection mode is a mode used for the Workflow construction by means of standard manipulations.
+* ![](../images/icons/toolbar-controls/hand_default.svg)Workflow navigation mode is a mode used for navigation in the Workflow construction area by means of a mouse.
+* ![](../images/icons/toolbar-controls/workflow_default.svg) Show as workflow enables to display a Workflow in the standard form (in the form of oriented graph).
+* ![](../images/icons/toolbar-controls/table_default.svg)Show as table provides compact display of the Workflow in the form of a table that contains used elements.
+* ![](../images/icons/toolbar-controls/v-align-left_default.svg)Vertical alignment provides vertical alignment of the Workflow nodes in the construction area. There are the following types of the vertical alignment:
+   * Vertical left alignment
+   * Vertical middle alignment
+   * Vertical right alignment
+   * Vertical upper alignment
+   * Vertical center alignment.
+   * Vertical bottom alignment
+* ![](../images/icons/toolbar-controls/layout_default.svg) Auto node alignment is an automatic placement of nodes in the Workflow area according to their sequence of data processing.
+* ![](../images/icons/toolbar-controls/move-front_default.svg)Send selected nodes enables to bring selected nodes and their signatures to:
+   * Front
+   * Back
+* ![](../images/icons/toolbar-controls/order_default.svg) [Customize execution order](../scenario/run-order.md) enables to set one's own order of nodes execution.
+* ![](../images/icons/toolbar-controls/run-all_default.svg) Run all enables to run all nodes of the Workflow.
+* ![](../images/icons/toolbar-controls/run-current_default.svg) Activate/![](../images/icons/toolbar-controls/stop_default.svg) Deactivate node enables to activate/deactivate a node.
+* ![](../images/icons/toolbar-controls/retrain_default.svg) [Retrain node](../scenario/training-processors.md) enables to retrain the selected node.
+* ![](../images/icons/toolbar-controls/setup_default.svg) Configure node provides access to setting of the selected node.
+* ![](../images/icons/toolbar-controls/batch-mode_default.svg) [Configure node activation mode](../scenario/setting-batch-processing-mode.md) provides configuration of activation mode for the selected node.
+* ![](../images/icons/toolbar-controls/clone_default.svg) Clone node enables to clone the selected node.
+* ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Expand/collapse[supernode](../processors/control/submodel.md) enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.
 * ![](../images/icons/toolbar-controls/delete_default.svg) Удалить выбранное — удаляет выделенные узлы/связи Сценария;
 * ![](../images/icons/toolbar-controls/derive-node_default.svg) Создать производный компонент — создает Производный компонент на основе выделенного узла;
 * ![](../images/icons/toolbar-controls/show-derived-nodes_default.svg) Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;
