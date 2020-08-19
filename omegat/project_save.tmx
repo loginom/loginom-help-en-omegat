@@ -446,6 +446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T133538Z" creationid="Марианна" creationdate="20200819T133538Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Show parent nodes for derived — при наличии производных узлов показывает родительские узлы;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать/&lt;x3/&gt;&lt;x4/&gt; Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T130024Z" creationid="Марианна" creationdate="20200819T125947Z">
@@ -474,6 +482,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T130251Z" creationid="Марианна" creationdate="20200819T130251Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Workflow navigation mode is a mode used for navigation in the Workflow construction area by means of a mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Создать производный компонент — создает Производный компонент на основе выделенного узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T133515Z" creationid="Марианна" creationdate="20200819T133515Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Create derived component enables to create the Derived Component based on the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить выбранное — удаляет выделенные узлы/связи Сценария;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T133431Z" creationid="Марианна" creationdate="20200819T133431Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Delete selected enables to delete the selected nodes/links of the Workflow.</seg>
       </tuv>
     </tu>
     <tu>
