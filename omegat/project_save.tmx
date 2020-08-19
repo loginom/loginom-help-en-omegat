@@ -352,8 +352,24 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать/&lt;x3/&gt;&lt;x4/&gt; Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T125947Z" creationid="Марианна" creationdate="20200819T125947Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Show/&lt;x3/&gt;&lt;x4/&gt;Hide component panel enables to open or hide the components panel.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T130024Z" creationid="Марианна" creationdate="20200819T125947Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Show/&lt;x3/&gt;&lt;x4/&gt;Hide component panel enables to open or hide the panel of components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Режим выбора объекта — режим, использующийся для построения Сценария с помощью стандартных манипуляций;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T130150Z" creationid="Марианна" creationdate="20200819T130150Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Object selection mode is a mode used for the Workflow construction by means of standard manipulations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Режим навигации по сценарию — режим, использующийся для навигации по области построения Сценария с помощью мышки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T130251Z" creationid="Марианна" creationdate="20200819T130251Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Workflow navigation mode is a mode used for navigation in the Workflow construction area by means of a mouse.</seg>
       </tuv>
     </tu>
     <tu>
