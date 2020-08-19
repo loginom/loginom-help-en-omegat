@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Клонировать узел — клонирование выделенного узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T133022Z" creationid="Марианна" creationdate="20200819T133022Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Clone node enables to clone the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить узел — заходит в настройки выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132726Z" creationid="Марианна" creationdate="20200819T132726Z">
@@ -442,6 +450,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T130024Z" creationid="Марианна" creationdate="20200819T125947Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Show/&lt;x3/&gt;&lt;x4/&gt;Hide component panel enables to open or hide the panel of components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Развернуть/Свернуть &lt;x3/&gt;подмодель&lt;x4/&gt; — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T133332Z" creationid="Марианна" creationdate="20200819T133332Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Expand/collapse&lt;x3/&gt;supernode&lt;x4/&gt; enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.</seg>
       </tuv>
     </tu>
     <tu>
