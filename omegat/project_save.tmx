@@ -3088,6 +3088,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
+        <seg>The last Version column contains information on the version number (for example, X.X.X or X.X.X.Y where X.X.X  is a version number, and Y is a build number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В появившемся окне содержится информация о приложении, включая номер версии (типа Версия файла: X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T162749Z" creationid="Марианна" creationdate="20200818T162749Z">
