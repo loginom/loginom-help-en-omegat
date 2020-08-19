@@ -1966,6 +1966,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключения&lt;x2/&gt; — источники данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T125422Z" creationid="Марианна" creationdate="20200819T125422Z">
+        <seg>&lt;x1/&gt;Connections&lt;x2/&gt; are data sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подмодель&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054750Z" creationid="Марианна" creationdate="20200812T054750Z">
