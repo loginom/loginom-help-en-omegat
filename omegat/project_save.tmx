@@ -3536,6 +3536,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Еще до введения логин/пароль в нижнем левом углу содержится номер версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T074839Z" creationid="Марианна" creationdate="20200819T074839Z">
+        <seg>There is a version number in the left lower corner before login/password entering (for example, Loginom X.X.X where X.X.X  is a version number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
@@ -4004,6 +4012,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074210Z" creationid="Марианна" creationdate="20200819T074210Z">
         <seg>It is required to open Control panel, and select Program uninstallation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открыть в браузере стартовую страницу Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T074544Z" creationid="Марианна" creationdate="20200819T074544Z">
+        <seg>It is required to open the Loginom home page.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4700,6 +4716,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T101709Z" creationid="Марианна" creationdate="20200818T101709Z">
         <seg>The node properties (caption of properties) are displayed in the form of a tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Серверные редакции (Team, Standard, Enterprise)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T074443Z" creationid="Марианна" creationdate="20200819T074443Z">
+        <seg>Server editions (Team, Standard, Enterprise)</seg>
       </tuv>
     </tu>
     <tu>
