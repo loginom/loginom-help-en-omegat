@@ -4280,6 +4280,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T125556Z" creationid="Марианна" creationdate="20200819T125556Z">
+        <seg>The Workflow construction area is located in the centre. It is an area containing the Worlflow nodes and links between them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
