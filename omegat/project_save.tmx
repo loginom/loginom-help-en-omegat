@@ -2168,6 +2168,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; — создаваемые пользователями компоненты на основе базовых;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T125405Z" creationid="Марианна" creationdate="20200819T125405Z">
+        <seg>&lt;x1/&gt;Derived components&lt;x2/&gt; are the components created by users according to the base ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; — создаются и настраиваются пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102403Z" creationid="Марианна" creationdate="20200715T092325Z">
@@ -3676,6 +3684,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
         <seg>The context menu commands enable to collapse/expand all nodes in the properties tree simultaneously.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компоненты — стандартная библиотека базовых компонентов Loginom;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T125252Z" creationid="Марианна" creationdate="20200819T125252Z">
+        <seg>Components are represented by a standard library of the Loginom base components.</seg>
       </tuv>
     </tu>
     <tu>
