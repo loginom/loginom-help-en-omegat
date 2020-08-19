@@ -350,10 +350,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131730Z" creationid="Марианна" creationdate="20200819T131730Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Vertical alignment provides vertical alignment of the Workflow nodes in the construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131443Z" creationid="Марианна" creationdate="20200819T131443Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Show as workflow enables to display a Workflow in the standard form (in the form of oriented graph).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Показать в виде таблицы — компактное отображение Сценария в виде таблицы, содержащей используемые элементы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T131627Z" creationid="Марианна" creationdate="20200819T131627Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Show as table provides compact display of the Workflow in the form of a table that contains used elements.</seg>
       </tuv>
     </tu>
     <tu>
