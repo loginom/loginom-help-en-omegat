@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить режим активации узла&lt;x4/&gt; — настройка режима активации выделенного узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132958Z" creationid="Марианна" creationdate="20200819T132958Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure node activation mode&lt;x4/&gt; provides configuration of activation mode for the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отменить выполнение всех процессов...&lt;x4/&gt; — останавливает выполнение всех процессов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073043Z" creationid="Марианна" creationdate="20200817T073043Z">
@@ -394,6 +402,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132516Z" creationid="Марианна" creationdate="20200819T132516Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Run all enables to run all nodes of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить узел — заходит в настройки выделенного узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132726Z" creationid="Марианна" creationdate="20200819T132726Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Configure node provides access to setting of the selected node.</seg>
       </tuv>
     </tu>
     <tu>
