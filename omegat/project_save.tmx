@@ -2234,24 +2234,24 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее пространство Studio.&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T140802Z" creationid="Марианна" creationdate="20200716T140802Z">
-        <seg>&lt;x1/&gt;Working Space of Studio.&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T080813Z" creationid="Марианна" creationdate="20200716T140802Z">
+        <seg>&lt;x1/&gt;Work Space of Studio.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее пространство&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T185051Z" creationid="Марианна" creationdate="20200810T155947Z">
-        <seg>&lt;x1/&gt;Working space&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T080856Z" creationid="Марианна" creationdate="20200810T155947Z">
+        <seg>&lt;x1/&gt;Work space&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее пространство&lt;x2/&gt; — панель компонентов, панель инструментов и область построения Сценариев;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T133859Z" creationid="Марианна" creationdate="20200814T133407Z">
-        <seg>&lt;x1/&gt;Working space&lt;x2/&gt; is a panel of components, toolbar and area of the Workflows construction. </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T080755Z" creationid="Марианна" creationdate="20200814T133407Z">
+        <seg>&lt;x1/&gt;Work space&lt;x2/&gt; is a panel of components, toolbar and area of the Workflows construction. </seg>
       </tuv>
     </tu>
     <tu>
@@ -4330,8 +4330,8 @@
       <tuv lang="ru">
         <seg>После выбора пакета пользователь попадает в рабочее пространство программы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T122939Z" creationid="Марианна" creationdate="20200716T122939Z">
-        <seg>Upon package selection, a user will enter the working space of the software.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T080801Z" creationid="Марианна" creationdate="20200716T122939Z">
+        <seg>Upon package selection, a user will enter the work space of the software.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4652,6 +4652,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094258Z" creationid="Марианна" creationdate="20200813T093856Z">
         <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рабочее пространство</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T080747Z" creationid="Марианна" creationdate="20200819T080747Z">
+        <seg>Work Space</seg>
       </tuv>
     </tu>
     <tu>
