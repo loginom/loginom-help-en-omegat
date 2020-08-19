@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить порядок выполнения&lt;x4/&gt; — позволяет задать собственный порядок выполнения узлов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132439Z" creationid="Марианна" creationdate="20200819T132439Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Customize execution order&lt;x4/&gt; enables to set one's own order of nodes execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отменить выполнение всех процессов...&lt;x4/&gt; — останавливает выполнение всех процессов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073043Z" creationid="Марианна" creationdate="20200817T073043Z">
@@ -350,10 +358,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Автоматическое упорядочивание узлов — автоматическое расположение узлов на области Сценария в соответствии с их последовательностью обработки данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132205Z" creationid="Марианна" creationdate="20200819T132205Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Auto node alignment is an automatic placement of nodes in the Workflow area according to their sequence of data processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131730Z" creationid="Марианна" creationdate="20200819T131730Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Vertical alignment provides vertical alignment of the Workflow nodes in the construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Переместить выделенные узлы — выставляет выделенные узлы и их подписи на:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132309Z" creationid="Марианна" creationdate="20200819T132309Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Send selected nodes enables to bring selected nodes and their signatures to:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3624,6 +3648,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задний план.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132327Z" creationid="Марианна" creationdate="20200819T132327Z">
+        <seg>Back</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
@@ -4204,6 +4236,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114439Z" creationid="Марианна" creationdate="20200717T111846Z">
         <seg>The package must be &lt;x1/&gt;saved&lt;x2/&gt; before its closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Передний план;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132314Z" creationid="Марианна" creationdate="20200819T132314Z">
+        <seg>Front</seg>
       </tuv>
     </tu>
     <tu>
