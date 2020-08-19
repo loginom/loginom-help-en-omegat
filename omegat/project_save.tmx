@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переобучить узел&lt;x4/&gt; — переобучает выделенный узел;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132639Z" creationid="Марианна" creationdate="20200819T132639Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Retrain node&lt;x4/&gt; enables to retrain the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Развернуть&lt;x4/&gt; - разворачивает узел дерева.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105941Z" creationid="Марианна" creationdate="20200818T105941Z">
@@ -366,10 +374,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Активировать/&lt;x3/&gt;&lt;x4/&gt; Деактивировать узел — активировать/деактивировать узел;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132609Z" creationid="Марианна" creationdate="20200819T132609Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Activate/&lt;x3/&gt;&lt;x4/&gt; Deactivate node enables to activate/deactivate a node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131730Z" creationid="Марианна" creationdate="20200819T131730Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Vertical alignment provides vertical alignment of the Workflow nodes in the construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Выполнить все — выполнить все узлы Сценария;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T132516Z" creationid="Марианна" creationdate="20200819T132516Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Run all enables to run all nodes of the Workflow.</seg>
       </tuv>
     </tu>
     <tu>
