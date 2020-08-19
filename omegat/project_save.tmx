@@ -3992,6 +3992,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Открыть Панель управления, выбрать пункт Удаление программы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T074210Z" creationid="Марианна" creationdate="20200819T074210Z">
+        <seg>It is required to open Control panel, and select Program uninstallation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открыть данную страницу можно:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135713Z" creationid="Марианна" creationdate="20200814T135713Z">
@@ -5076,6 +5084,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
         <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>выше).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T073916Z" creationid="Марианна" creationdate="20200819T073916Z">
+        <seg>above).</seg>
       </tuv>
     </tu>
     <tu>
