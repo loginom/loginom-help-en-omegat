@@ -4312,6 +4312,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После авторизации Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200819T075030Z" creationid="Марианна" creationdate="20200819T075030Z">
+        <seg>It is required to click the Menu icon in the left upper corner after Loginom authorization, and then you are to click "About".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После авторизации открывается окно выбора действий (страница &lt;x1/&gt;Начало&lt;x2/&gt;), в котором можно выполнять следующие операции с пакетами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114652Z" creationid="Марианна" creationdate="20200716T121239Z">
