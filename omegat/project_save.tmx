@@ -4698,8 +4698,8 @@
       <tuv lang="ru">
         <seg>После сохранения будет приведено к имени файла и правильному идентификатору.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T143457Z" creationid="Марианна" creationdate="20200816T143457Z">
-        <seg>It will be corrected according to the file name and proper identifier.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T110027Z" creationid="Марианна" creationdate="20200816T143457Z">
+        <seg>It will be set to the file name and correct identifier after saving.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5122,8 +5122,8 @@
       <tuv lang="ru">
         <seg>Соответствует имени файла без расширения, приведенному к правильному идентификатору.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T133146Z" creationid="Марианна" creationdate="20200816T133146Z">
-        <seg>It complies with the file name without extension corrected according to the proper identifier.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T110043Z" creationid="Марианна" creationdate="20200816T133146Z">
+        <seg>It complies with the file name without extension set to the proper identifier.</seg>
       </tuv>
     </tu>
     <tu>
