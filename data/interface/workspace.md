@@ -36,11 +36,11 @@ The toolbar that enables the following operations with the construction area and
 * ![](../images/icons/toolbar-controls/batch-mode_default.svg) [Configure node activation mode](../scenario/setting-batch-processing-mode.md) provides configuration of activation mode for the selected node.
 * ![](../images/icons/toolbar-controls/clone_default.svg) Clone node enables to clone the selected node.
 * ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Expand/collapse[supernode](../processors/control/submodel.md) enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.
-* ![](../images/icons/toolbar-controls/delete_default.svg) Удалить выбранное — удаляет выделенные узлы/связи Сценария;
-* ![](../images/icons/toolbar-controls/derive-node_default.svg) Создать производный компонент — создает Производный компонент на основе выделенного узла;
-* ![](../images/icons/toolbar-controls/show-derived-nodes_default.svg) Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;
-* ![](../images/icons/toolbar-controls/show-reference-links_default.svg) Показать исходные узлы для [Узлов-ссылок](../processors/control/unit-link.md) — при наличии Узлов-ссылок показывает узлы, на основе которых они создавались;
-* ![](../images/icons/toolbar-controls/preview_default.svg) Показать карту сценария — для навигации открывается уменьшенная копия области построения Сценария с возможностью масштабирования;
-* ![](../images/icons/toolbar-controls/info_default.svg) Показать/скрыть инспектор свойств — разворачивает/сворачивает окно *Инспектора свойств*. Эта кнопка всегда находится в крайней правой позиции на  панели инструментов.
+* ![](../images/icons/toolbar-controls/delete_default.svg) Delete selected enables to delete the selected nodes/links of the Workflow.
+* ![](../images/icons/toolbar-controls/derive-node_default.svg)Create derived component enables to create the Derived Component based on the selected node.
+* ![](../images/icons/toolbar-controls/show-derived-nodes_default.svg)Show parent nodes for derived shows parent nodes if derived nodes are available.
+* ![](../images/icons/toolbar-controls/show-reference-links_default.svg) Show source nodes for [Reference Nodes](../processors/control/unit-link.md) shows the nodes on the basis of which Reference Nodes were created, if any.
+* ![](../images/icons/toolbar-controls/preview_default.svg)Show workflow outline enables to open for the navigation purposes a reduced copy of the Workflow construction area suitable for scaling.
+* ![](../images/icons/toolbar-controls/info_default.svg)Show/hide property inspector enables to expand/collapse the *Property inspector* window. This button is always located in the far right position on the toolbar.
 
-> **Примечание:** При открытом окне *Инспектора свойств* часть кнопок на панели инструментов может не помещаться. В этом случае на панели инструментов появляется кнопка ![](../images/icons/toolbar-controls/system-panel-more_default.svg) с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.
+> **Note:** When the*Property inspector* window is opened, there can be not enough place for some buttons on the toolbar. In this case, the ![](../images/icons/toolbar-controls/system-panel-more_default.svg) button with a dropdown list appears on the toolbar. It will contain all other buttons for which there is no enough place on the toolbar.
