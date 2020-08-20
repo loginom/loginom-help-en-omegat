@@ -478,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Показать/скрыть инспектор свойств — разворачивает/сворачивает окно &lt;x3/&gt;Инспектора свойств&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T105238Z" creationid="Марианна" creationdate="20200820T105238Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Show/hide property inspector enables to expand/collapse the &lt;x3/&gt;Property inspector&lt;x4/&gt; window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Развернуть/Свернуть &lt;x3/&gt;подмодель&lt;x4/&gt; — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133332Z" creationid="Марианна" creationdate="20200819T133332Z">
@@ -2274,6 +2282,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102235Z" creationid="Марианна" creationdate="20200818T102235Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is not possible to change the order of the &lt;x3/&gt;Properties&lt;x4/&gt; and &lt;x5/&gt;Value&lt;x6/&gt; columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При открытом окне &lt;x3/&gt;Инспектора свойств&lt;x4/&gt; часть кнопок на панели инструментов может не помещаться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T105559Z" creationid="Марианна" creationdate="20200820T105559Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When the&lt;x3/&gt;Property inspector&lt;x4/&gt; window is opened, there can be not enough place for some buttons on the toolbar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5412,6 +5428,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081651Z" creationid="Марианна" creationdate="20200814T081651Z">
         <seg>Navigation elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эта кнопка всегда находится в крайней правой позиции на  панели инструментов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T105310Z" creationid="Марианна" creationdate="20200820T105310Z">
+        <seg>This button is always located in the far right position on the toolbar.</seg>
       </tuv>
     </tu>
     <tu>
