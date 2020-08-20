@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Показать карту сценария — для навигации открывается уменьшенная копия области построения Сценария с возможностью масштабирования;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T105128Z" creationid="Марианна" creationdate="20200820T105128Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Show workflow outline enables to open for the navigation purposes a reduced copy of the Workflow construction area suitable for scaling.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133709Z" creationid="Марианна" creationdate="20200819T133538Z">
