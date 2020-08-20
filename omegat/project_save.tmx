@@ -448,8 +448,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать исходные узлы для &lt;x3/&gt;Узлов-ссылок&lt;x4/&gt; — при наличии Узлов-ссылок показывает узлы, на основе которых они создавались;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T133741Z" creationid="Марианна" creationdate="20200819T133741Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Show source nodes for &lt;x3/&gt;Reference Nodes&lt;x4/&gt; — при наличии Узлов-ссылок показывает узлы, на основе которых они создавались;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200820T104844Z" creationid="Марианна" creationdate="20200819T133741Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Show source nodes for &lt;x3/&gt;Reference Nodes&lt;x4/&gt; shows the nodes on the basis of which Reference Nodes were created, if any. </seg>
       </tuv>
     </tu>
     <tu>
