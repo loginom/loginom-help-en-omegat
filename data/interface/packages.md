@@ -30,7 +30,7 @@ When closing the *Package* with unsaved changes, you will be requested to save i
 
 Opened *Packages* are listed in the table:
 
-* **Name** is a name of the *Package*. It complies with the file name without extension corrected according to the proper identifier.
+* **Name** is a name of the *Package*. It complies with the file name without extension set to the proper identifier.
 * **Path** is a path to the opened *Package*. The path is specified from the root directory in the server version. The absolute path is specified for the Desktop version. More detailed information is provided in the[file storage](../location_user_files.md).
 * **Version** is a version of the opened *Package*. It is configured in its *Properties*.
 * **Published** shows whether the *Package* was published.
@@ -66,6 +66,6 @@ Hot keys are available for some commands:
 
 It enables to set the following parameters of the *Package*:
 
-* **Name** — the *Package* name is specified. Editing is possible only for the *Draft*. It will be corrected according to the file name and proper identifier.
+* **Name** — the *Package* name is specified. Editing is possible only for the *Draft*. It will be set to the file name and correct identifier after saving.
 * **Version** enables to specify the *Package* version. Version `1.0.0` is used by default.
 * ![ ](..\images\icons\checkbox-states\checked_default.svg) **Use relative paths of the base package** must be enabled in the *Package* with base node, if this node has relative paths to files, or it is assumed to use paths in base nodes relative to this *Package*. This option is disabled by default.

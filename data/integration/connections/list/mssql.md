@@ -50,5 +50,5 @@
 **See also:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
-* [Manufacturer official website](https://www.microsoft.com/ru-ru/sql-server);
+* [Manufacturer official website](https://www.microsoft.com/ru-ru/sql-server)
 * [Документация по SQL синтаксису](https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries).

@@ -27,5 +27,5 @@
 
 **See also:**
 
-* [Manufacturer official website](https://www.microsoft.com/ru-ru);
+* [Manufacturer official website](https://www.microsoft.com/ru-ru)
 * [Документация по продукции](https://docs.microsoft.com/ru-ru/).

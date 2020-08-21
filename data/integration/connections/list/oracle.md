@@ -39,6 +39,6 @@
 **See also:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database);
-* [Manufacturer official website](https://www.oracle.com/);
+* [Manufacturer official website](https://www.oracle.com/)
 * [Краткая документация по SQL синтаксису](http://docs.oracle.com/database/122/SQLQR/toc.htm);
 * [Полная документация по SQL синтаксису](http://docs.oracle.com/database/122/SQLRF/toc.htm);
