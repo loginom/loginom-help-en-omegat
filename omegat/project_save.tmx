@@ -840,8 +840,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;^1&lt;x2/&gt;: Доступно только для редакций с возможностью публикации &lt;x3/&gt;Веб-сервисов&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T132034Z" creationid="Марианна" creationdate="20200816T132034Z">
-        <seg>&lt;x1/&gt;^1&lt;x2/&gt;: It is available only for the editions with possibility to publish &lt;x3/&gt;Web services&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T090055Z" creationid="Марианна" creationdate="20200816T132034Z">
+        <seg>&lt;x1/&gt;^1&lt;x2/&gt;: It is available only for the editions with possibility to publish &lt;x3/&gt;Web Services&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
