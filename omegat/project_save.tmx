@@ -3738,8 +3738,8 @@
       <tuv lang="ru">
         <seg>Ее можно открыть нажатием на кнопку &lt;x1/&gt;&lt;x2/&gt;, расположенную в левом нижнем углу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T075505Z" creationid="Марианна" creationdate="20200817T075505Z">
-        <seg>It can be opened by pressing the &lt;x1/&gt;&lt;x2/&gt; button located in the left low corner.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T091257Z" creationid="Марианна" creationdate="20200817T075505Z">
+        <seg>It can be opened by pressing &lt;x1/&gt;&lt;x2/&gt; button located in the left low corner.</seg>
       </tuv>
     </tu>
     <tu>
