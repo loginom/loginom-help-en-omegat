@@ -168,8 +168,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать&lt;x4/&gt; — открывает окно для задания пути и имени нового &lt;x5/&gt;Пакета&lt;x6/&gt;, после сохранения открывает данный пустой &lt;x7/&gt;Пакет&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T140449Z" creationid="Марианна" creationdate="20200814T140449Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Create&lt;x4/&gt; enables to open window to set a path and name of the new &lt;x5/&gt;Package&lt;x6/&gt;, it also enables to open this empty &lt;x7/&gt;Package&lt;x8/&gt; after saving.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085935Z" creationid="Марианна" creationdate="20200814T140449Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Create&lt;x4/&gt; enables to open a window to set a path and name of the new &lt;x5/&gt;Package&lt;x6/&gt;, it also enables to open this empty &lt;x7/&gt;Package&lt;x8/&gt; after saving.</seg>
       </tuv>
     </tu>
     <tu>
