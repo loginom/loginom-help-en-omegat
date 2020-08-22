@@ -1,4 +1,4 @@
-# "Processes" panel
+# "Processes" Panel
 
 "Processes" panel enables to receive additional information on the data processing processes by the Workflow nodes during the current Loginom session. Processes and nodes/subnodes which are performed in them are hierarchically fixed on the panel. Sequence numbers were assigned to them. Each new process starts from the "Nodes activation" string. It is explained by the fact that several nodes at once can be run simultaneously at the Workflow start (refer to Figure 1).
 
