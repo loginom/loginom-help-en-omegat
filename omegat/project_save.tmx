@@ -5058,8 +5058,8 @@
       <tuv lang="ru">
         <seg>Серверные редакции (Team, Standard, Enterprise)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T074443Z" creationid="Марианна" creationdate="20200819T074443Z">
-        <seg>Server editions (Team, Standard, Enterprise)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T093056Z" creationid="Марианна" creationdate="20200819T074443Z">
+        <seg>Server Editions (Team, Standard, Enterprise)</seg>
       </tuv>
     </tu>
     <tu>
