@@ -3866,8 +3866,8 @@
       <tuv lang="ru">
         <seg>Кнопка &lt;x7/&gt;&lt;x8/&gt; панель закрывает.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T075831Z" creationid="Марианна" creationdate="20200817T075831Z">
-        <seg>The &lt;x7/&gt;&lt;x8/&gt; button will close the panel.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T091510Z" creationid="Марианна" creationdate="20200817T075831Z">
+        <seg>&lt;x7/&gt;&lt;x8/&gt; button will close the panel.</seg>
       </tuv>
     </tu>
     <tu>
