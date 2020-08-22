@@ -11,7 +11,7 @@ Navigation elements:
 * ![Go forward](../images/icons/toolbar-controls/arrow-r_default.svg) **Go forward** enables to cancel *Go back* transition if no other navigation operations have been performed afterwards.
 * ![Hidden](../images/icons/toolbar-controls/system-panel-more_default.svg) means navigation through the objects for which there's no enough place in *Address bar*. The button is visible only if all objects have enough place in *Address bar*.
 
-Pressing the ![List of subobjects](../images/icons/toolbar-controls/down_default.svg) button, it is possible to go to subojects of the complex object (refer to  Figure 2).
+Pressing the ![List of subobjects](../images/icons/toolbar-controls/down_default.svg) button, it is possible to go to subjects of the complex object (refer to  Figure 2).
 
 ![Select complex object](address-bar-2.png)
 
