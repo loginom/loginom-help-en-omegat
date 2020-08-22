@@ -62,7 +62,7 @@ Hot keys are available for some commands:
 * %kbd Ctrl Shift S % — save all *Packages*;
 * %kbd Alt P % — publication.
 
-## Package properties
+## Package Properties
 
 It enables to set the following parameters of the *Package*:
 
