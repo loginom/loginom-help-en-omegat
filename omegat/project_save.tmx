@@ -152,8 +152,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Создать черновик&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T114410Z" creationid="Марианна" creationdate="20200807T114321Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New Draft&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T090427Z" creationid="Марианна" creationdate="20200807T114321Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;New draft&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
