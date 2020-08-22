@@ -31,7 +31,7 @@ When closing the *Package* with unsaved changes, you will be requested to save i
 Opened *Packages* are listed in the table:
 
 * **Name** is a name of the *Package*. It complies with the file name without extension set to the proper identifier.
-* **Path** is a path to the opened *Package*. The path is specified from the root directory in the server version. The absolute path is specified for the Desktop version. More detailed information is provided in the[file storage](../location_user_files.md).
+* **Path** is a path to the opened *Package*. The path is specified from the root directory in the server version. The absolute path is specified for the Desktop version. More detailed information is provided in the [file storage](../location_user_files.md).
 * **Version** is a version of the opened *Package*. It is configured in its *Properties*.
 * **Published** shows whether the *Package* was published.
 
