@@ -880,8 +880,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T120757Z" creationid="Марианна" creationdate="20200814T120757Z">
-        <seg>&lt;x1/&gt;Administration&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085428Z" creationid="Марианна" creationdate="20200814T120757Z">
+        <seg>&lt;x1/&gt;Administration&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1616,8 +1616,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Меню&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T120718Z" creationid="Марианна" creationdate="20200814T120718Z">
-        <seg>&lt;x1/&gt;Menu&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085414Z" creationid="Марианна" creationdate="20200814T120718Z">
+        <seg>&lt;x1/&gt;Menu&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1672,8 +1672,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Навигация&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T120750Z" creationid="Марианна" creationdate="20200814T120750Z">
-        <seg>&lt;x1/&gt;Navigation&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085424Z" creationid="Марианна" creationdate="20200814T120750Z">
+        <seg>&lt;x1/&gt;Navigation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2000,8 +2000,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пакеты&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T120727Z" creationid="Марианна" creationdate="20200814T120727Z">
-        <seg>&lt;x1/&gt;Packages&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085420Z" creationid="Марианна" creationdate="20200814T120727Z">
+        <seg>&lt;x1/&gt;Packages&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2394,8 +2394,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Процессы&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T120810Z" creationid="Марианна" creationdate="20200814T120810Z">
-        <seg>&lt;x1/&gt;Processes&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085437Z" creationid="Марианна" creationdate="20200814T120810Z">
+        <seg>&lt;x1/&gt;Processes&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2994,8 +2994,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Файлы&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T120802Z" creationid="Марианна" creationdate="20200814T120802Z">
-        <seg>&lt;x1/&gt;Files&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085431Z" creationid="Марианна" creationdate="20200814T120802Z">
+        <seg>&lt;x1/&gt;Files&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
