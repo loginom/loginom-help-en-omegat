@@ -21,13 +21,13 @@ If required, it is possible to enter the path manually. In order to do that, it 
 \Packages\Scoring\Score calculation\Workflow
 ```
 
-## Reference to package
+## Reference to Package
 
 The multiuser edition enables to receive hyper link to the current opened object. Pressing ![Share](../images/icons/toolbar-controls/share_default.svg) **Share…**, it is possible to open a window with one or two paths:
 
 * *Absolute* (for joint usage) includes a name of the folder from which a file was downloaded. It is available for different packages.
 * *Relative* (for personal usage) contains a point instead of the folder name. It is available only for user packages.
 
-The selected path can be copied using the![Copy](../images/icons/toolbar-controls/copy_default.svg) button. Subsequently, it can be used in the browser address bar for quick transition to the opened object.
+The selected path can be copied using ![Copy](../images/icons/toolbar-controls/copy_default.svg) button. Subsequently, it can be used in the browser address bar for quick transition to the opened object.
 
 > **Note:** When following this link, it is required to enter corresponding login and password (if any).
