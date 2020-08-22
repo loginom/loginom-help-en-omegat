@@ -48,7 +48,7 @@ The context menu called by the right mouse button click, for the most part, enab
    * ![ ](..\images\icons\blank.svg) **Close other packages…** enables to close all *Packages*, with the exception of the selected one.
 * For the free zone:
    * ![ ](..\images\icons\toolbar-controls\new_default.svg) **New package…**
-   * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New Draft**
+   * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New draft**
    * ![ ](..\images\icons\toolbar-controls\save-all_default.svg) **Save all packages**
    * ![ ](..\images\icons\toolbar-controls\close-all_default.svg) **Close all packages…**
 * General:
