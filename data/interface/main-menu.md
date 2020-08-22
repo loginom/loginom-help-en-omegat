@@ -2,12 +2,12 @@
 
 The main menu is located in the left part of the application window and contains the following buttons:
 
-* [Menu](#menyu);
-* [Packages](#pakety);
-* [Navigation](#navigatsiya);
-* [Administration](../admin/README.md);
-* [Files](../location_user_files.md);
-* [Processes](./processes-panel.md).
+* [Menu](#menyu)
+* [Packages](#pakety)
+* [Navigation](#navigatsiya)
+* [Administration](../admin/README.md)
+* [Files](../location_user_files.md)
+* [Processes](./processes-panel.md)
 
 ## Menu
 
