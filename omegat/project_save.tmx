@@ -1048,8 +1048,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Вперед&lt;x2/&gt; &lt;x3/&gt;Вперед&lt;x4/&gt; — отменяет переход &lt;x5/&gt;Назад&lt;x6/&gt;, если после него не было произведено никаких других действий навигации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200822T083827Z" creationid="Марианна" creationdate="20200814T082052Z">
-        <seg>&lt;x1/&gt;Go forward&lt;x2/&gt; &lt;x3/&gt;Go forward&lt;x4/&gt; enables to cancel &lt;x5/&gt;Go back&lt;x6/&gt; transition if no other navigation operations were performed afterwards.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T084135Z" creationid="Марианна" creationdate="20200814T082052Z">
+        <seg>&lt;x1/&gt;Go forward&lt;x2/&gt; &lt;x3/&gt;Go forward&lt;x4/&gt; enables to cancel &lt;x5/&gt;Go back&lt;x6/&gt; transition if no other navigation operations have been performed afterwards.</seg>
       </tuv>
     </tu>
     <tu>
