@@ -2288,8 +2288,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При открытом окне &lt;x3/&gt;Инспектора свойств&lt;x4/&gt; часть кнопок на панели инструментов может не помещаться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200820T105559Z" creationid="Марианна" creationdate="20200820T105559Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When the&lt;x3/&gt;Property inspector&lt;x4/&gt; window is opened, there can be not enough place for some buttons on the toolbar.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T093744Z" creationid="Марианна" creationdate="20200820T105559Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When the &lt;x3/&gt;Property inspector&lt;x4/&gt; window is opened, there can be not enough place for some buttons on the toolbar.</seg>
       </tuv>
     </tu>
     <tu>
