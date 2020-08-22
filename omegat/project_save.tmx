@@ -3362,8 +3362,8 @@
       <tuv lang="ru">
         <seg>В этом случае на панели инструментов появляется кнопка &lt;x5/&gt;&lt;x6/&gt; с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200820T105750Z" creationid="Марианна" creationdate="20200820T105750Z">
-        <seg>In this case, the &lt;x5/&gt;&lt;x6/&gt; button with a dropdown list appears on the toolbar. It will contain all other buttons for which there is no enough place on the toolbar.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T093856Z" creationid="Марианна" creationdate="20200820T105750Z">
+        <seg>In this case, &lt;x5/&gt;&lt;x6/&gt; button with a dropdown list appears on the toolbar. It will contain all other buttons for which there is no enough place on the toolbar.</seg>
       </tuv>
     </tu>
     <tu>
