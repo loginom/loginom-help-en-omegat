@@ -1760,8 +1760,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Начало&lt;x2/&gt; — переход на &lt;x3/&gt;страницу «Начало»&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T121055Z" creationid="Марианна" creationdate="20200814T120940Z">
-        <seg>&lt;x1/&gt;Home&lt;x2/&gt; means transition to the &lt;x3/&gt;"Home" page.&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085548Z" creationid="Марианна" creationdate="20200814T120940Z">
+        <seg>&lt;x1/&gt;Home&lt;x2/&gt; means transition to the &lt;x3/&gt;"Home" page&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
