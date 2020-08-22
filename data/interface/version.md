@@ -14,7 +14,7 @@
 
 3. It is required to open Control panel, and select Program uninstallation. The last Version column contains information on the version number (for example, X.X.X or X.X.X.Y where X.X.X  is a version number, and Y is a build number).
 
-## Server editions (Team, Standard, Enterprise)
+## Server Editions (Team, Standard, Enterprise)
 
 ### By Interface Tools
 
