@@ -5170,16 +5170,16 @@
       <tuv lang="ru">
         <seg>Средствами ОС</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T162024Z" creationid="Марианна" creationdate="20200818T162024Z">
-        <seg>By OS tools</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T093006Z" creationid="Марианна" creationdate="20200818T162024Z">
+        <seg>By OS Tools</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Средствами интерфейса</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T161419Z" creationid="Марианна" creationdate="20200818T161419Z">
-        <seg>By interface tools</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T092952Z" creationid="Марианна" creationdate="20200818T161419Z">
+        <seg>By Interface Tools</seg>
       </tuv>
     </tu>
     <tu>
