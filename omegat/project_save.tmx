@@ -3466,8 +3466,8 @@
       <tuv lang="ru">
         <seg>Выбранный путь можно быстро скопировать кнопкой &lt;x1/&gt;Копировать&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T085407Z" creationid="Марианна" creationdate="20200814T085407Z">
-        <seg>The selected path can be copied using the&lt;x1/&gt;Copy&lt;x2/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T084444Z" creationid="Марианна" creationdate="20200814T085407Z">
+        <seg>The selected path can be copied using &lt;x1/&gt;Copy&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
