@@ -488,8 +488,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Развернуть/Свернуть &lt;x3/&gt;подмодель&lt;x4/&gt; — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T133332Z" creationid="Марианна" creationdate="20200819T133332Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Expand/collapse&lt;x3/&gt;supernode&lt;x4/&gt; enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T093617Z" creationid="Марианна" creationdate="20200819T133332Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Expand/collapse&lt;x3/&gt; supernode&lt;x4/&gt; enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.</seg>
       </tuv>
     </tu>
     <tu>
