@@ -2650,8 +2650,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать новый пакет&lt;x2/&gt; — позволяет создать и сохранить новый Пакет;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T105349Z" creationid="Марианна" creationdate="20200814T105329Z">
-        <seg>&lt;x1/&gt;New package&lt;x2/&gt; enables to create and save a new Package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T085150Z" creationid="Марианна" creationdate="20200814T105329Z">
+        <seg>&lt;x1/&gt;New Package&lt;x2/&gt; enables to create and save a new Package.</seg>
       </tuv>
     </tu>
     <tu>
