@@ -13,7 +13,7 @@ The main menu is located in the left part of the application window and contains
 
 Press this button to open the panel with the following commands:
 
-* **Home** means transition to the ["Home" page.](./home-page.md).
+* **Home** means transition to the ["Home" page](./home-page.md).
 * **Help** means help topics.
 * **Exit** means closure of all Packages and application exit.
 * **Check for updates** means check for current released platform versions on the vendor's website.
