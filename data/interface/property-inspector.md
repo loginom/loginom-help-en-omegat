@@ -3,9 +3,9 @@
 
 The *Property inspector* window is located in the right part of the screen on the *Workflow* and *Connections* pages. It is collapsed by default.
 
-To view the node properties, it is required to select it and press the ![Show/hide property inspector](../images/icons/toolbar-controls/info_default.svg) button on the toolbar.
+To view the node properties, it is required to select it and press ![Show/hide property inspector](../images/icons/toolbar-controls/info_default.svg) button on the toolbar.
 
-> **Note:** The ![Show/hide property inspector](../images/icons/toolbar-controls/info_default.svg) button is always located in the far right position on the toolbar.
+> **Note:** ![Show/hide property inspector](../images/icons/toolbar-controls/info_default.svg) button is always located in the far right position on the toolbar.
 
 It is possible to open the *Property inspector* window using the context menu of the workflow construction area by ticking ![](../images/icons/toolbar-controls/info_default.svg) **Show/hide property inspector** (tick the box).
 
