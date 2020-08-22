@@ -1,6 +1,6 @@
 # How to Define Loginom Version
 
-## Personal editions (Community, Personal)
+## Personal Editions (Community, Personal)
 
 ### By interface tools
 
