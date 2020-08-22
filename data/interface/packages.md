@@ -20,7 +20,7 @@ This page can be opened in two ways:
 * ![ ](..\images\icons\toolbar-controls\close_default.svg) **Close** enables to close the selected *Package*.
 * ![ ](..\images\icons\toolbar-controls\close-all_default.svg) **Close all** enables to close all opened *Packages*.
 
-[^1]: It is available only for the editions with possibility to publish [Web services](../integration/web-services/publishing-web-service.md).
+[^1]: It is available only for the editions with possibility to publish [Web Services](../integration/web-services/publishing-web-service.md).
 
 When closing the *Package* with unsaved changes, you will be requested to save it with the following variants:
 
