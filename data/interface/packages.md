@@ -9,7 +9,7 @@ This page can be opened in two ways:
 
 ## Interface
 
-* ![ ](..\images\icons\toolbar-controls\new_default.svg) **Create** enables to open window to set a path and name of the new *Package*, it also enables to open this empty *Package* after saving. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
+* ![ ](..\images\icons\toolbar-controls\new_default.svg) **Create** enables to open a window to set a path and name of the new *Package*, it also enables to open this empty *Package* after saving. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
    * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New Draft** enables to create a temporary *Package* without current saving.
 * ![ ](..\images\icons\toolbar-controls\open_default.svg) **Open** enables to open the selection window of the existing *Package*.
 * ![ ](..\images\icons\toolbar-controls\save_default.svg) **Save** enables to save the selected *Package*. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
