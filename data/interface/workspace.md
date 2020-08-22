@@ -35,7 +35,7 @@ The toolbar that enables the following operations with the construction area and
 * ![](../images/icons/toolbar-controls/setup_default.svg) Configure node provides access to setting of the selected node.
 * ![](../images/icons/toolbar-controls/batch-mode_default.svg) [Configure node activation mode](../scenario/setting-batch-processing-mode.md) provides configuration of activation mode for the selected node.
 * ![](../images/icons/toolbar-controls/clone_default.svg) Clone node enables to clone the selected node.
-* ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Expand/collapse[supernode](../processors/control/submodel.md) enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.
+* ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) Expand/collapse[ supernode](../processors/control/submodel.md) enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.
 * ![](../images/icons/toolbar-controls/delete_default.svg) Delete selected enables to delete the selected nodes/links of the Workflow.
 * ![](../images/icons/toolbar-controls/derive-node_default.svg)Create derived component enables to create the Derived Component based on the selected node.
 * ![](../images/icons/toolbar-controls/show-derived-nodes_default.svg)Show parent nodes for derived shows parent nodes if derived nodes are available.
