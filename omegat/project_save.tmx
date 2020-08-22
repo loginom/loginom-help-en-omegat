@@ -1680,8 +1680,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Назад&lt;x2/&gt; &lt;x3/&gt;Назад&lt;x4/&gt; — возвращает к предыдущему открытому объекту.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T082110Z" creationid="Марианна" creationdate="20200814T082021Z">
-        <seg>&lt;x1/&gt;Go back&lt;x2/&gt; &lt;x3/&gt;Go back&lt;x4/&gt; returns to the previous opened object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T083807Z" creationid="Марианна" creationdate="20200814T082021Z">
+        <seg>&lt;x1/&gt;Go back&lt;x2/&gt; &lt;x3/&gt;Go back&lt;x4/&gt; enables to return to the previous opened object.</seg>
       </tuv>
     </tu>
     <tu>
