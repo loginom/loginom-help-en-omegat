@@ -3930,8 +3930,8 @@
       <tuv lang="ru">
         <seg>Корень дерева в &lt;x1/&gt;Инспекторе свойств&lt;x2/&gt; содержит название компонента, на основе которого создан узел сценария, а в колонке &lt;x3/&gt;Значение&lt;x4/&gt; выводится метка узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T101947Z" creationid="Марианна" creationdate="20200818T101947Z">
-        <seg>The tree root in the&lt;x1/&gt;Property inspector&lt;x2/&gt; contains the component name used as a basis for the workflow node creation. The node caption is displayed in the &lt;x3/&gt;Value&lt;x4/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T092200Z" creationid="Марианна" creationdate="20200818T101947Z">
+        <seg>The tree root in the &lt;x1/&gt;Property inspector&lt;x2/&gt; contains the component name used as a basis for the workflow node creation. The node caption is displayed in the &lt;x3/&gt;Value&lt;x4/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
