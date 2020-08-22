@@ -5386,8 +5386,8 @@
       <tuv lang="ru">
         <seg>Чтобы посмотреть свойства узла, необходимо его выделить и нажать на кнопку &lt;x1/&gt;Показать/скрыть инспектор свойств&lt;x2/&gt; на панели инструментов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T095749Z" creationid="Марианна" creationdate="20200818T095749Z">
-        <seg>To view the node properties, it is required to select it and press the &lt;x1/&gt;Show/hide property inspector&lt;x2/&gt; button on the toolbar.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200822T091931Z" creationid="Марианна" creationdate="20200818T095749Z">
+        <seg>To view the node properties, it is required to select it and press &lt;x1/&gt;Show/hide property inspector&lt;x2/&gt; button on the toolbar.</seg>
       </tuv>
     </tu>
     <tu>
