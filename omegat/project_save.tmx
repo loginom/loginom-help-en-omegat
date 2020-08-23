@@ -4648,6 +4648,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается как кириллический синтаксис 1С, так и синтаксис SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121822Z" creationid="Марианна" creationdate="20200823T121822Z">
+        <seg>Both Cyrillic 1C and SQL syntax are supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
