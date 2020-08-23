@@ -3464,6 +3464,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможно использование параметров в запросах в синтаксисе 1С.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T122154Z" creationid="Марианна" creationdate="20200823T122154Z">
+        <seg>It is possible to use parameters in requests in 1С syntax.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Время обработки — разница между началом и концом процесса обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072151Z" creationid="Марианна" creationdate="20200817T072151Z">
@@ -3932,6 +3940,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161327Z" creationid="Марианна" creationdate="20200818T161327Z">
         <seg>How to Define Loginom Version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопка &lt;x1/&gt;Предпросмотр…&lt;x2/&gt; позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T122050Z" creationid="Марианна" creationdate="20200823T122050Z">
+        <seg>The &lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first lines of the resulting table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4964,6 +4980,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
         <seg>In this case, the workflow node responsible for import is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применение параметров в запросах</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T122112Z" creationid="Марианна" creationdate="20200823T122112Z">
+        <seg>Use of Parameters in Requests</seg>
       </tuv>
     </tu>
     <tu>
