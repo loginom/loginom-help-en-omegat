@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121119Z" creationid="Марианна" creationdate="20200823T121119Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port) — it is possible to set values of wizard parameters using variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102858Z" creationid="Марианна" creationdate="20200711T101529Z">
@@ -250,6 +258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Configure the connection — go to the connection configuration parameters window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение — принимает параметры подключения к базе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T120908Z" creationid="Марианна" creationdate="20200823T120746Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection accepts parameters of connection to database.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3456,6 +3472,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входные порты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T120638Z" creationid="Марианна" creationdate="20200823T120638Z">
+        <seg>Input Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входом и выходом обработчика являются &lt;x1/&gt;входные&lt;x2/&gt; и &lt;x3/&gt;выходные &lt;x4/&gt;порты&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091949Z" creationid="Марианна" creationdate="20200715T091949Z">
@@ -4578,8 +4602,8 @@
       <tuv lang="ru">
         <seg>Подключение происходит аналогично &lt;x7/&gt;подключению с БД&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T120625Z" creationid="Марианна" creationdate="20200823T120625Z">
-        <seg>The conenction is performed similar to &lt;x7/&gt;connection with DB&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T120842Z" creationid="Марианна" creationdate="20200823T120625Z">
+        <seg>The conenction is performed similar to &lt;x7/&gt;connection to DB&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4636,6 +4660,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075003Z" creationid="Марианна" creationdate="20200716T075003Z">
         <seg>Port</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T120631Z" creationid="Марианна" creationdate="20200823T120631Z">
+        <seg>Ports</seg>
       </tuv>
     </tu>
     <tu>
