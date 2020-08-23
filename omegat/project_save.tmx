@@ -5558,6 +5558,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такая конструкция подстановки дает возможность динамически в ходе выполнения сценария формировать текст запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
+        <seg>Such substitution construction enables to formulate the request text in a dynamic manner in the course of the workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также под кнопкой &lt;x7/&gt; &lt;x8/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131400Z" creationid="Марианна" creationdate="20200816T130947Z">
