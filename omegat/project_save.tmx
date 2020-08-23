@@ -5070,6 +5070,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пример 2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T124203Z" creationid="Марианна" creationdate="20200823T124203Z">
+        <seg>Example 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры использования переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
@@ -5682,6 +5690,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111908Z" creationid="Марианна" creationdate="20200717T111908Z">
         <seg>It can be done in the Package menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это необходимо учитывать при построении запросов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T124154Z" creationid="Марианна" creationdate="20200823T124154Z">
+        <seg>When formulating requests, it is required to take into account.</seg>
       </tuv>
     </tu>
     <tu>
