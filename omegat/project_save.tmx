@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Импортированная таблица.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121257Z" creationid="Марианна" creationdate="20200823T121257Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Imported table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Настроить подключение — переход к окну настройки параметров подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
@@ -2158,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; – отображает строку подключения к источнику данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121418Z" creationid="Марианна" creationdate="20200823T121418Z">
+        <seg>&lt;x1/&gt;Connection&lt;x2/&gt; enables to display a string of connection to data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183319Z" creationid="Марианна" creationdate="20200810T183319Z">
@@ -2908,6 +2924,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065447Z" creationid="Марианна" creationdate="20200812T065447Z">
         <seg>&lt;x1/&gt;Table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Текст запроса&lt;x2/&gt; – поле ввода запроса к базе, определяющего структуру и содержание импортируемой таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121715Z" creationid="Марианна" creationdate="20200823T121715Z">
+        <seg>&lt;x1/&gt;Request text&lt;x2/&gt; is a field for request to base entry. It determines structure and content of the imported table. </seg>
       </tuv>
     </tu>
     <tu>
@@ -4016,6 +4040,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121305Z" creationid="Марианна" creationdate="20200823T121305Z">
+        <seg>Wizard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Мастер настройки содержит следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121341Z" creationid="Марианна" creationdate="20200823T121341Z">
+        <seg>There are the following parameters in the wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Меню</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120816Z" creationid="Марианна" creationdate="20200814T120816Z">
@@ -4180,6 +4220,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T071948Z" creationid="Марианна" creationdate="20200817T071948Z">
         <seg>Start — date and time of the process start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не доступна для редактирования;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121507Z" creationid="Марианна" creationdate="20200823T121507Z">
+        <seg>It cannot be edited.</seg>
       </tuv>
     </tu>
     <tu>
