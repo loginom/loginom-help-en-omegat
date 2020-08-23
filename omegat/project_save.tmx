@@ -3280,6 +3280,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Примере 1 &lt;x1/&gt;&amp;start_date&lt;x2/&gt; и &lt;x3/&gt;&amp;end_date&lt;x4/&gt; – конструкции подстановки значений входных переменных &lt;x5/&gt;start_date&lt;x6/&gt; и &lt;x7/&gt;end_date&lt;x8/&gt; узла импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T122932Z" creationid="Марианна" creationdate="20200823T122932Z">
+        <seg>In Example 1 &lt;x1/&gt;&amp;start_date&lt;x2/&gt; and &lt;x3/&gt;&amp;end_date&lt;x4/&gt; are constructions of substitution of values of input variables &lt;x5/&gt;start_date&lt;x6/&gt; and &lt;x7/&gt;end_date&lt;x8/&gt; of the import node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Проводнике OC Windows навести указатель мыши на интересующее приложение (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T162349Z" creationid="Марианна" creationdate="20200818T162349Z">
@@ -3858,6 +3866,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T075331Z" creationid="Марианна" creationdate="20200817T075331Z">
         <seg>If none of the processes is executed at the moment, and there were no errors in the completed processes, there will be no data on the information panel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если данные переменные не будут определены во входном порту узла импорта, то возникнет исключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T123050Z" creationid="Марианна" creationdate="20200823T123050Z">
+        <seg>If these variables are not determined in the input port of the import node, there will be an exception.</seg>
       </tuv>
     </tu>
     <tu>
