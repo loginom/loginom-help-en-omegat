@@ -3312,6 +3312,14 @@ WHERE %CONDITION%</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Примере 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; – конструкция подстановки значения входной переменной &lt;x3/&gt;CONDITION&lt;x4/&gt; узла импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T124930Z" creationid="Марианна" creationdate="20200823T124930Z">
+        <seg>In Example 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; – конструкция подстановки значения входной переменной &lt;x3/&gt;CONDITION&lt;x4/&gt; узла импорта.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Проводнике OC Windows навести указатель мыши на интересующее приложение (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T162349Z" creationid="Марианна" creationdate="20200818T162349Z">
