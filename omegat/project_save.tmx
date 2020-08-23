@@ -3544,6 +3544,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выходные порты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T121243Z" creationid="Марианна" creationdate="20200823T121243Z">
+        <seg>Output Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Главное меню</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T110629Z" creationid="Марианна" creationdate="20200814T110629Z">
