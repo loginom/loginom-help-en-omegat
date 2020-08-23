@@ -3432,6 +3432,36 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ВЫБРАТЬ
+КурсыВалют.Валюта.Код,
+КурсыВалют.Валюта.Наименование,
+КурсыВалют.Период КАК Период,
+КурсыВалют.Курс,
+КурсыВалют.Кратность
+ИЗ
+РегистрСведений.КурсыВалют КАК КурсыВалют
+ГДЕ
+КурсыВалют.Период МЕЖДУ &amp;start_date И &amp;end_date
+УПОРЯДОЧИТЬ ПО
+Период УБЫВ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T122636Z" creationid="Марианна" creationdate="20200823T122257Z">
+        <seg>SELECT
+CurrencyRates.Currency.Code,
+CurrencyRates.Currency.Name,
+CurrencyRates.Period AS Period,
+CurrencyRates.Rate,
+CurrencyRates.Multipleness
+FROM
+RollupLedger.CurrencyRates AS CurrencyRates
+WHERE
+CurrencyRates.Period BETWEEN &amp;start_date AND &amp;end_date
+ARRANGE BY
+DESC period</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140301Z" creationid="Марианна" creationdate="20200716T140301Z">
@@ -4988,6 +5018,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122112Z" creationid="Марианна" creationdate="20200823T122112Z">
         <seg>Use of Parameters in Requests</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T122200Z" creationid="Марианна" creationdate="20200823T122200Z">
+        <seg>Example 1.</seg>
       </tuv>
     </tu>
     <tu>
