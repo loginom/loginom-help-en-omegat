@@ -3226,11 +3226,11 @@ ON
 Catalog.Номенклатура.Ссылка = Потребности.Номенклатура
 WHERE %CONDITION%</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T124421Z" creationid="Марианна" creationdate="20200823T124330Z">
+      <tuv lang="en" changeid="Марианна" changedate="20200823T124956Z" creationid="Марианна" creationdate="20200823T124330Z">
         <seg>SELECT
 Period, Nomenclature.Name, Amount
 FROM
-InformationRegister.CalendarNeedsInNimenclature.SliceLast(&amp;Date, Amount &gt; &amp;Count) AS Needs
+InformationRegister.CalendarNeedsInNomenclature.SliceLast(&amp;Date, Amount &gt; &amp;Count) AS Needs
 INNER JOIN
 Catalog.Nomenclature
 ON
@@ -3314,8 +3314,8 @@ WHERE %CONDITION%</seg>
       <tuv lang="ru">
         <seg>В Примере 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; – конструкция подстановки значения входной переменной &lt;x3/&gt;CONDITION&lt;x4/&gt; узла импорта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T124930Z" creationid="Марианна" creationdate="20200823T124930Z">
-        <seg>In Example 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; – конструкция подстановки значения входной переменной &lt;x3/&gt;CONDITION&lt;x4/&gt; узла импорта.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T125220Z" creationid="Марианна" creationdate="20200823T124930Z">
+        <seg>In Example 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; is a construction of substitution of value of &lt;x3/&gt;CONDITION&lt;x4/&gt; input variable of the import node.</seg>
       </tuv>
     </tu>
     <tu>
