@@ -4534,6 +4534,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Передача в запрос внутренних объектных переменных 1С (например объектов или ссылок справочников и документов) невозможна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T124110Z" creationid="Марианна" creationdate="20200823T124110Z">
+        <seg>It is impossible to transfer internal instance 1C variables to the request (for example, objects or references of documents and reference textbooks).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Передний план;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132314Z" creationid="Марианна" creationdate="20200819T132314Z">
