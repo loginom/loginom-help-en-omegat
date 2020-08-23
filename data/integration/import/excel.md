@@ -2,15 +2,15 @@
 
 Используется для импорта данных из файлов Microsoft Excel.
 
-### Входные порты
+### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port) — it is possible to set values of wizard parameters using variables.
 
-### Выходные порты
+### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
 
-## Мастер настройки
+## Wizard
 
 Мастер содержит несколько этапов настройки.
 

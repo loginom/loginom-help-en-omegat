@@ -4,17 +4,17 @@
 
 LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения. Файл хранит в себе настройки полей, что упрощает процесс импорта.
 
-## Порты
+## Ports
 
 ### Вход
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port) — it is possible to set values of wizard parameters using variables.
 
 ### Выход
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
 
-## Мастер настройки
+## Wizard
 
 * **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику.
 * **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.

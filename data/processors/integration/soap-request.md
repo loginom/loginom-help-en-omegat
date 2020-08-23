@@ -6,15 +6,15 @@
 
 Для работы с SOAP-сервисом необходимо настроенное [подключение к SOAP-сервису](../../integration/connections/list/soap-service.md).
 
-## Порты
+## Ports
 
-### Входные порты
+### Input Ports
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к SOAP-сервису (связь с компонентом *Подключение SOAP-сервиса*);
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный;
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
 
-### Выходные порты
+### Output Ports
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выходной набор данных (таблица с ответами SOAP-сервиса);
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Исключения (WSDL fault);

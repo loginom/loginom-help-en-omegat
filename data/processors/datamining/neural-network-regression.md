@@ -17,7 +17,7 @@
 
 ----
 
-## Порты
+## Ports
 
 ### Вход
 
@@ -32,7 +32,7 @@
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
 * ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — **Показатели качества модели**.
 
-## Мастер настройки
+## Wizard
 
 ### Step 1. Назначение входных столбцов
 

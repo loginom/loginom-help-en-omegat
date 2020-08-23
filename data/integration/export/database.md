@@ -8,9 +8,9 @@
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение — порт для установки подключения к базе данных;
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port) — it is possible to set values of wizard parameters using variables.
 
-## Мастер настройки
+## Wizard
 
 * **База данных** — отображает строку подключения к базе данных. Кнопка *Активировать* делает активным это подключение.
 * **Имя таблицы** — задает имя таблицы, в которую планируется осуществить экспорт. Эту таблицу можно выбрать из списка существующих в базе данных. Кнопка [*Создать таблицу*](./database/new-table-design.md) открывает окно создания новой таблицы в БД.

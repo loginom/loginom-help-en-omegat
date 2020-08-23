@@ -7,7 +7,7 @@
 
 > **Примечание:** узел не обрабатывает поля с переменным типом данных (см. [типы данных](../../data/datatype.md)).
 
-## Порты
+## Ports
 
 ### Вход
 
@@ -17,7 +17,7 @@
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
 
-## Мастер настройки
+## Wizard
 
 Настройка соответствия между столбцами проводится в интерфейсах [таблица](../../scenario/ports/interface-table.md) или [связи](../../scenario/ports/interface-relations.md).
 
