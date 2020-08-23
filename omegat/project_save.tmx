@@ -4398,6 +4398,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Особенностью применения данной конструкции подстановки является то, что в запрос через переменные могут передаваться значения только простых типов данных: логический, строковый, числовой, дата/время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T123609Z" creationid="Марианна" creationdate="20200823T123609Z">
+        <seg>Usage of such substitution construction is distinguished by transfer of only simple data types to the request by means of variables, namely, logical, string, numerical, date/time. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Откроется новое окно с информацией о версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161953Z" creationid="Марианна" creationdate="20200818T161953Z">
@@ -4962,6 +4970,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110428Z" creationid="Марианна" creationdate="20200818T110428Z">
         <seg>When changing the node settings, the &lt;x1/&gt;Property inspector&lt;x2/&gt; updates the properties tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При использовании данной конструкции в запросе учитывается тип данных передаваемой переменной, он должен соответствовать типу данных, ожидаемых запросом 1С.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T123232Z" creationid="Марианна" creationdate="20200823T123232Z">
+        <seg>When using such construction, data tyoe of the transferred variable is considered in the request. It must comply with the data type anticipated by 1C request.</seg>
       </tuv>
     </tu>
     <tu>
