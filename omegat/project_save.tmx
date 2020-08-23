@@ -3306,8 +3306,8 @@ WHERE %CONDITION%</seg>
       <tuv lang="ru">
         <seg>В Примере 1 &lt;x1/&gt;&amp;start_date&lt;x2/&gt; и &lt;x3/&gt;&amp;end_date&lt;x4/&gt; – конструкции подстановки значений входных переменных &lt;x5/&gt;start_date&lt;x6/&gt; и &lt;x7/&gt;end_date&lt;x8/&gt; узла импорта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T122932Z" creationid="Марианна" creationdate="20200823T122932Z">
-        <seg>In Example 1 &lt;x1/&gt;&amp;start_date&lt;x2/&gt; and &lt;x3/&gt;&amp;end_date&lt;x4/&gt; are constructions of substitution of values of input variables &lt;x5/&gt;start_date&lt;x6/&gt; and &lt;x7/&gt;end_date&lt;x8/&gt; of the import node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T125239Z" creationid="Марианна" creationdate="20200823T122932Z">
+        <seg>In Example 1 &lt;x1/&gt;&amp;start_date&lt;x2/&gt; and &lt;x3/&gt;&amp;end_date&lt;x4/&gt; are constructions of substitution of values of &lt;x5/&gt;start_date&lt;x6/&gt; and &lt;x7/&gt;end_date&lt;x8/&gt; input variables of the import node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4082,6 +4082,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072045Z" creationid="Марианна" creationdate="20200817T072045Z">
         <seg>End - date and time of the process end.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Конструкция &lt;x5/&gt;%CONDITION%&lt;x6/&gt; в тексте запроса будет заменена на строковое значение переменной &lt;x7/&gt;CONDITION&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T125344Z" creationid="Марианна" creationdate="20200823T125344Z">
+        <seg>&lt;x5/&gt;%CONDITION%&lt;x6/&gt; construction in the request text will be replaced with the string value of &lt;x7/&gt;CONDITION&lt;x8/&gt; variable.</seg>
       </tuv>
     </tu>
     <tu>
