@@ -3240,6 +3240,30 @@ WHERE %CONDITION%</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SELECT
+Период, Номенклатура.Наименование, Количество
+FROM
+InformationRegister.КалендарныеПотребностиВНоменклатуре.SliceLast(&amp;Date, Количество &gt; &amp;Count) AS Потребности
+INNER JOIN
+Catalog.Номенклатура
+ON
+Catalog.Номенклатура.Ссылка = Потребности.Номенклатура
+WHERE Номенклатура.Артикул = "4561"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T125741Z" creationid="Марианна" creationdate="20200823T125741Z">
+        <seg>SELECT
+Period, Nomenclature.Name, Amount
+FROM
+InformationRegister.CalendarNeedsInNomenclature.SliceLast(&amp;Date, Amount &gt; &amp;Count) AS Needs
+INNER JOIN
+Catalog.Nomenclature
+ON
+Catalog.Nomenclature.Reference = Needs.Nomenclature
+WHERE Nomenclature.ProductItem = "4561"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SUMMARY</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184936Z" creationid="Марианна" creationdate="20200810T184936Z">
@@ -3914,6 +3938,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T111153Z" creationid="Марианна" creationdate="20200818T111153Z">
         <seg>If no node was selected, or several nodes were selected, the following invitation will be in the &lt;x1/&gt;Property inspector&lt;x2/&gt;: "Select a node to view its properties".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
+        <seg>If the variable will contain the following value: &lt;x9/&gt;Nomenclature.ProductItem = "4561"&lt;x10/&gt;, the resulting request will have the following form:</seg>
       </tuv>
     </tu>
     <tu>
