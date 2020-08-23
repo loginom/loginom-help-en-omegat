@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из 1C:Предприятие 8.x</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200823T120254Z" creationid="Марианна" creationdate="20200823T120254Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from 1C:Enterprise 8.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Настроить подключение — переход к окну настройки параметров подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
