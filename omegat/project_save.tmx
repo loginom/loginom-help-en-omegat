@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из базы данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T151600Z" creationid="Марианна" creationdate="20200824T151600Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from Database</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Импортированная таблица.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121257Z" creationid="Марианна" creationdate="20200823T121257Z">
