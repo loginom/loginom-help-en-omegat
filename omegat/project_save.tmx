@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Подключение&lt;x4/&gt; — принимает параметры подключения к базе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154636Z" creationid="Марианна" creationdate="20200824T154636Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Connection&lt;x4/&gt; accepts parameters of connection to database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Показать в папке&lt;x4/&gt; — открывает папку, содержащую выделенный &lt;x5/&gt;Пакет&lt;x6/&gt; и устанавливает на нем фокус.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135517Z" creationid="Марианна" creationdate="20200816T135517Z">
@@ -226,6 +234,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121119Z" creationid="Марианна" creationdate="20200823T121119Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port) — it is possible to set values of wizard parameters using variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; — (необязательный порт) переменными можно задать значения параметров мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154754Z" creationid="Марианна" creationdate="20200824T154754Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port) - it is possible to set values of wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3204,6 +3220,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185344Z" creationid="Марианна" creationdate="20200810T184732Z">
         <seg>&lt;x1/&gt;Data export&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x7/&gt;Пример подключения и работы с БД&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154517Z" creationid="Марианна" creationdate="20200824T154517Z">
+        <seg>&lt;x7/&gt;Example of DB conection and operation&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
