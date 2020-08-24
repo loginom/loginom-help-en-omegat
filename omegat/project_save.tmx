@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; / &lt;x3/&gt; &lt;x4/&gt; — скрывает / показывает список &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T155520Z" creationid="Марианна" creationdate="20200824T155520Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; / &lt;x3/&gt; &lt;x4/&gt; — hides/shows the &lt;x5/&gt;Tables/Views&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть все пакеты…&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135800Z" creationid="Марианна" creationdate="20200816T135800Z">
@@ -1890,6 +1898,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065034Z" creationid="Марианна" creationdate="20200812T065034Z">
         <seg>&lt;x1/&gt;Normalization&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область выбора варианта извлечения данных из БД&lt;x2/&gt; — содержит две вкладки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T155612Z" creationid="Марианна" creationdate="20200824T155612Z">
+        <seg>&lt;x1/&gt;Область выбора варианта извлечения данных из БД&lt;x2/&gt; contains two tabs:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3826,6 +3842,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135134Z" creationid="Марианна" creationdate="20200816T135134Z">
         <seg>For the opened &lt;x1/&gt;Packages&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для отображения списка должно быть активировано подключение с помощью кнопки &lt;x5/&gt;Активировать&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T155424Z" creationid="Марианна" creationdate="20200824T155424Z">
+        <seg>To display the list, connection must be activated by means of the &lt;x5/&gt;Activate&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
