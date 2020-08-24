@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; для работы узла требуется предварительно создать &lt;x3/&gt;подключение&lt;x4/&gt; к базе данных и связать его с входным портом &lt;x5/&gt;Подключение&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154448Z" creationid="Марианна" creationdate="20200824T154448Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; For the node operation it is required to pre-create &lt;x3/&gt;connection&lt;x4/&gt; to database and connect it with the &lt;x5/&gt;Connection&lt;x6/&gt; input port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T122824Z" creationid="Марианна" creationdate="20200716T122254Z">
