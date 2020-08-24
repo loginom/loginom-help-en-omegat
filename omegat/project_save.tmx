@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — таблица с импортированными данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154816Z" creationid="Марианна" creationdate="20200824T154816Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; is a table with imported data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — производит обновление списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140127Z" creationid="Марианна" creationdate="20200816T140127Z">
@@ -2206,6 +2214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; — отображает строку подключения к источнику данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154844Z" creationid="Марианна" creationdate="20200824T154844Z">
+        <seg>&lt;x1/&gt;Connection&lt;x2/&gt; enables to display a string of connection to data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183319Z" creationid="Марианна" creationdate="20200810T183319Z">
@@ -2804,6 +2820,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122404Z" creationid="Марианна" creationdate="20200814T122404Z">
         <seg>&lt;x1/&gt;Save&lt;x2/&gt; enables to save or change a Package in the current directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Список &lt;x2/&gt;Таблицы/Представления&lt;x3/&gt;&lt;x4/&gt; — в списке осуществляется выбор доступных для импорта таблиц и представлений источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154929Z" creationid="Марианна" creationdate="20200824T154929Z">
+        <seg>&lt;x1/&gt;List &lt;x2/&gt;Tables/Views&lt;x3/&gt;&lt;x4/&gt; — в списке осуществляется выбор доступных для импорта таблиц и представлений источника данных.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4410,6 +4434,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T071948Z" creationid="Марианна" creationdate="20200817T071948Z">
         <seg>Start — date and time of the process start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не доступна для редактирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154852Z" creationid="Марианна" creationdate="20200824T154852Z">
+        <seg>It cannot be edited.</seg>
       </tuv>
     </tu>
     <tu>
