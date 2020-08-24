@@ -2826,8 +2826,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Список &lt;x2/&gt;Таблицы/Представления&lt;x3/&gt;&lt;x4/&gt; — в списке осуществляется выбор доступных для импорта таблиц и представлений источника данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T154929Z" creationid="Марианна" creationdate="20200824T154929Z">
-        <seg>&lt;x1/&gt;List &lt;x2/&gt;Tables/Views&lt;x3/&gt;&lt;x4/&gt; — в списке осуществляется выбор доступных для импорта таблиц и представлений источника данных.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T155300Z" creationid="Марианна" creationdate="20200824T154929Z">
+        <seg>&lt;x1/&gt;List &lt;x2/&gt;Tables/Views&lt;x3/&gt;&lt;x4/&gt;. The data source tables and views available for import are selected from the list.</seg>
       </tuv>
     </tu>
     <tu>
