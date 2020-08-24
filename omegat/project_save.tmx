@@ -4110,6 +4110,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент предназначен для импорта набора данных из СУБД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T153639Z" creationid="Марианна" creationdate="20200824T153639Z">
+        <seg>The component is designated for data set import from DBMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компоненты — стандартная библиотека базовых компонентов Loginom;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125252Z" creationid="Марианна" creationdate="20200819T125252Z">
@@ -5434,6 +5442,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102909Z" creationid="Марианна" creationdate="20200711T100413Z">
         <seg>It is required to place the created connection into the workflow; for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Созданный на базе данного компонента узел позволяет импортировать таблицу или представление из базы данных, либо результаты выполнения заданного пользователем &lt;x1/&gt;SQL&lt;x2/&gt;-запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200824T154000Z" creationid="Марианна" creationdate="20200824T154000Z">
+        <seg>The node created on the basis of this component enables to import a table or view from database, or results of execution of the&lt;x1/&gt;SQL&lt;x2/&gt; query set by a user.</seg>
       </tuv>
     </tu>
     <tu>
