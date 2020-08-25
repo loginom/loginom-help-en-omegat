@@ -2992,6 +2992,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица/Представление&lt;x2/&gt; — извлечение заданных полей объекта БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T110322Z" creationid="Марианна" creationdate="20200825T110322Z">
+        <seg>&lt;x1/&gt;Table/View&lt;x2/&gt; enables to retrieve set fields of the DB object.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065447Z" creationid="Марианна" creationdate="20200812T065447Z">
@@ -3930,6 +3938,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085159Z" creationid="Марианна" creationdate="20200717T085159Z">
         <seg>To use any component in the workflow, it must be dragged from the component panel to the workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого в списке &lt;x3/&gt;Таблица/Представление&lt;x4/&gt; необходимо отметить поля объекта БД, выбранного в списке &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T110720Z" creationid="Марианна" creationdate="20200825T110720Z">
+        <seg>For this purpose, it is required to mark fields of the DB object in the &lt;x3/&gt;Table/View&lt;x4/&gt; list that was selected in the &lt;x5/&gt;Tables/Views&lt;x6/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
