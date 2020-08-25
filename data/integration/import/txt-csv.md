@@ -42,27 +42,27 @@ The following parameters are specified at the first configuration stage:
 
 ### Step 3. Параметры импорта с разделителями
 
-На этапе настройки указываются следующие параметры:
+It is required to specify the following parameters at the configuration stage:
 
 * **Разделитель столбцов** — символ, разделяющий данные соседних столбцов.
 * **Принимать несколько подряд разделителей за один** — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.
-* Отобразить:
-   * **Результат** — в табличной части окна мастера будет показан результат преобразования данных с учетом установленных параметров полей.
+* It is required to display the following data:
+   * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
    * **Исходные данные** — в табличной части окна мастера будет показан исходный (текстовый) вариант загружаемых данных.
 
-Табличная часть окна мастера предназначена для настройки параметров импорта для каждого поля набора данных.
+The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
 * **Кол-во строк для анализа** — задает количество строк набора, по которым будет проводиться анализ типа данных. При этом максимальное число строк для отображения 200.
 * ![Обновить все](../../images/icons/toolbar-controls/refresh_default.svg) **Обновить все** — перечитывает указанное количество строк в таблицу и производит автоматическое формирование результирующего набора данных.
-* ![Обновить данные](../../images/icons/toolbar-controls/refresh-data_default.svg) **Обновить данные** — только перечитывает указанное количество строк в таблицу.
+* ![Refresh data](../../images/icons/toolbar-controls/refresh-data_default.svg) **Refresh data** only rereads the specified row count into a table.
 
-Следующие настройки применяются для формирования результирующего набора данных вручную:
+The following settings are used to generate the resulting data set in manual way:
 
-* **Имя** — задается уникальное имя поля.
-* **Метка** — задает пользовательское описание поля.
-* **Тип данных** — [тип данных](../../data/datatype.md) , в который будет преобразовано текстовое значение поля.
-* **Вид данных** — [вид данных](../../data/datakind.md), задается списком значений:
-   * Непрерывный.
-   * Дискретный.
-   * Неопределенный.
-* **Использовать** — флаг включения поля в результирующий набор данных.
+* **Name**: the unique field name is assigned.
+* **Caption**: the user field description is provided.
+* **Data type** — [data type](../../data/datatype.md): the text field value will be transformed.
+* **Data kind** — [data kind](../../data/datakind.md): it is set by a list of values:
+   * Continuous
+   * Discrete
+   * Undefined
+* **Use**: flag of the filed inclusion into the resulting data set.
