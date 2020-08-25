@@ -1174,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — &lt;x3/&gt;вид данных&lt;x4/&gt;, задается списком значений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192625Z" creationid="Марианна" creationdate="20200825T192625Z">
+        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt; — &lt;x3/&gt;data kind&lt;x4/&gt;: it is set by a list of values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Визуализаторы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065411Z" creationid="Марианна" creationdate="20200812T065411Z">
@@ -1890,6 +1898,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105958Z" creationid="Марианна" creationdate="20200814T105958Z">
         <seg>&lt;x1/&gt;Location&lt;x2/&gt; is a location of the Package on disk (desktop version) or in &lt;x3/&gt;file storage&lt;x4/&gt; (server version).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — задает пользовательское описание поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192450Z" creationid="Марианна" creationdate="20200825T192450Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the user field description is provided.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3268,6 +3284,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070207Z" creationid="Марианна" creationdate="20200812T070207Z">
         <seg>&lt;x1/&gt;Terms&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — &lt;x3/&gt;тип данных&lt;x4/&gt; , в который будет преобразовано текстовое значение поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192548Z" creationid="Марианна" creationdate="20200825T192548Z">
+        <seg>&lt;x1/&gt;Data type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt;: the text field value will be transformed.</seg>
       </tuv>
     </tu>
     <tu>
