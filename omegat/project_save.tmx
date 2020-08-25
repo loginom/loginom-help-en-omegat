@@ -4166,6 +4166,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использовать параметры можно только в секции &lt;x5/&gt;WHERE&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112203Z" creationid="Марианна" creationdate="20200825T112203Z">
+        <seg>It is allowed to use parameters only in the &lt;x5/&gt;WHERE&lt;x6/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T135300Z" creationid="Марианна" creationdate="20200718T135300Z">
@@ -5280,8 +5288,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>При этом будет учитываться тип переменной, например строка будет обрамлена кавычками.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T112103Z" creationid="Марианна" creationdate="20200825T112103Z">
-        <seg>The variable type will be taken into account in this case, for example, the string will be </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112129Z" creationid="Марианна" creationdate="20200825T112103Z">
+        <seg>The variable type will be taken into account in this case, for example, the string will be in quotation marks. </seg>
       </tuv>
     </tu>
     <tu>
@@ -5986,6 +5994,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
         <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в качестве &lt;x1/&gt;макроподстановки&lt;x2/&gt; — в значении переменной указывается SQL-запрос или какая-то его часть.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112342Z" creationid="Марианна" creationdate="20200825T112342Z">
+        <seg>As &lt;x1/&gt;macro substitution&lt;x2/&gt;: SQL query or its any part is specified as the variable.</seg>
       </tuv>
     </tu>
     <tu>
