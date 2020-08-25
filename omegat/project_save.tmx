@@ -4450,6 +4450,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение параметра &lt;x1/&gt;Диапазон&lt;x2/&gt; можно задать при помощи выделения мышью ячеек таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190417Z" creationid="Марианна" creationdate="20200825T190417Z">
+        <seg>Value of the &lt;x1/&gt;Range&lt;x2/&gt; parameter can be set by selecting the table cells with the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из Excel файла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113538Z" creationid="Марианна" creationdate="20200825T113538Z">
@@ -6142,6 +6150,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163348Z" creationid="Марианна" creationdate="20200718T163348Z">
         <seg>The Workflow can be distinguished by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Табличная часть мастера предназначена для отображения исходных данных и диапазона импортируемых ячеек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190209Z" creationid="Марианна" creationdate="20200825T190209Z">
+        <seg>The table wizard part is designated for display of the initial data and range of the imported cells.</seg>
       </tuv>
     </tu>
     <tu>
