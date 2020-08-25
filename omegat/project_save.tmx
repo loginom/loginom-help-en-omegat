@@ -1904,8 +1904,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область выбора варианта извлечения данных из БД&lt;x2/&gt; — содержит две вкладки:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T155612Z" creationid="Марианна" creationdate="20200824T155612Z">
-        <seg>&lt;x1/&gt;Область выбора варианта извлечения данных из БД&lt;x2/&gt; contains two tabs:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T110232Z" creationid="Марианна" creationdate="20200824T155612Z">
+        <seg>&lt;x1/&gt;Area of selection of variant of data retrieval from DB&lt;x2/&gt; contains two tabs:</seg>
       </tuv>
     </tu>
     <tu>
