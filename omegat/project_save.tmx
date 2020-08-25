@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>%cond1% :TitlePart</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112745Z" creationid="Марианна" creationdate="20200825T112745Z">
+        <seg>%cond1% :TitlePart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Alt P % — публикация.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140402Z" creationid="Марианна" creationdate="20200816T140402Z">
@@ -42,6 +50,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140313Z" creationid="Марианна" creationdate="20200816T140248Z">
         <seg>%kbd F2 % — edit properties;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%spoiler%Пример:%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112736Z" creationid="Марианна" creationdate="20200825T112736Z">
+        <seg>%spoiler%Example:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>, где</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112801Z" creationid="Марианна" creationdate="20200825T112801Z">
+        <seg>where </seg>
       </tuv>
     </tu>
     <tu>
@@ -2422,6 +2446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; если конструкция подстановки заключена в кавычки, то в приоритете работают кавычки, а не подстановка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112727Z" creationid="Марианна" creationdate="20200825T112727Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if the substitution construction is in quotation marks, quotation marks are prioritized but not the substitution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; команды "Сохранить", "Сохранить как", "Закрыть пакет" доступны в случае открытого Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122655Z" creationid="Марианна" creationdate="20200814T122655Z">
@@ -3288,6 +3320,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AND Books.year &gt; :MinYear</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112749Z" creationid="Марианна" creationdate="20200825T112749Z">
+        <seg>AND Books.year &gt; :MinYear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>AND Publisher.Name LIKE '%Media%'</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112752Z" creationid="Марианна" creationdate="20200825T112752Z">
+        <seg>AND Publisher.Name LIKE '%Media%'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Cлева находится панель компонентов, состоящая из следующих категорий:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125206Z" creationid="Марианна" creationdate="20200819T125206Z">
@@ -3356,6 +3404,16 @@ Catalog.Nomenclature
 ON
 Catalog.Nomenclature.Reference = Needs.Nomenclature
 WHERE Nomenclature.ProductItem = "4561"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SELECT * FROM %tables%
+WHERE</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112742Z" creationid="Марианна" creationdate="20200825T112742Z">
+        <seg>SELECT * FROM %tables%
+WHERE</seg>
       </tuv>
     </tu>
     <tu>
@@ -6046,6 +6104,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>имя переменной</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112808Z" creationid="Марианна" creationdate="20200825T112808Z">
+        <seg>variable name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>перейдя по кнопке &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Пакеты&lt;x4/&gt; в &lt;x5/&gt;Адресной строке&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135752Z" creationid="Марианна" creationdate="20200814T135752Z">
@@ -6114,6 +6180,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
         <seg>Figure 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>тип</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112812Z" creationid="Марианна" creationdate="20200825T112812Z">
+        <seg>type</seg>
       </tuv>
     </tu>
     <tu>
