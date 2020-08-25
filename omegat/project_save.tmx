@@ -2294,6 +2294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По номеру&lt;x2/&gt; — по порядковому номеру листа книги.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T183719Z" creationid="Марианна" creationdate="20200825T183719Z">
+        <seg>&lt;x1/&gt;By number&lt;x2/&gt;: using the workbook sheet order number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; – отображает строку подключения к источнику данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121418Z" creationid="Марианна" creationdate="20200823T121418Z">
