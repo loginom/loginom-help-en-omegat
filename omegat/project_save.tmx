@@ -5254,6 +5254,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При формировании текста SQL запроса существует возможность использования значений переменных входного порта, что позволяет оптимизировать обработку запросов и более гибко настроить работу с базой данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T111322Z" creationid="Марианна" creationdate="20200825T111322Z">
+        <seg>When finalizing the SQL query text, it is possible to use values of the input port variables that enables to improve processing of queries and provide flexible database use.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом изменить его в библиотеке функций нет возможности, поскольку сработает механизм наследования, и это может привести к ошибкам во всех сценариях, где он применяется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162124Z" creationid="Марианна" creationdate="20200718T162124Z">
