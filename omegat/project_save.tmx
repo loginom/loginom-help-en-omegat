@@ -2816,6 +2816,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Результат&lt;x2/&gt; — в табличной части окна мастера будет показан результат преобразования данных с учетом установленных параметров полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190806Z" creationid="Марианна" creationdate="20200825T190806Z">
+        <seg>&lt;x1/&gt;Result&lt;x2/&gt;: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Результирующий сценарий.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
@@ -4834,6 +4842,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На этапе настройки указываются следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190531Z" creationid="Марианна" creationdate="20200825T190531Z">
+        <seg>It is required to specify the following parameters at the configuration stage:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Навигация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122706Z" creationid="Марианна" creationdate="20200814T122706Z">
@@ -4878,6 +4894,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
         <seg>Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190439Z" creationid="Марианна" creationdate="20200825T190439Z">
+        <seg>Configure Fields</seg>
       </tuv>
     </tu>
     <tu>
@@ -5086,6 +5110,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
         <seg>Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отобразить:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190625Z" creationid="Марианна" creationdate="20200825T190625Z">
+        <seg>It is required to display the following data:</seg>
       </tuv>
     </tu>
     <tu>
