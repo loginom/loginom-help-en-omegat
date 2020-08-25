@@ -1216,8 +1216,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор объекта&lt;x2/&gt; — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T123728Z" creationid="Марианна" creationdate="20200825T123728Z">
-        <seg>&lt;x1/&gt;Object selection&lt;x2/&gt; — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T183122Z" creationid="Марианна" creationdate="20200825T123728Z">
+        <seg>&lt;x1/&gt;Object selection&lt;x2/&gt;: it is requested to select one of the selection variants of the Excel object containing the inported data.</seg>
       </tuv>
     </tu>
     <tu>
