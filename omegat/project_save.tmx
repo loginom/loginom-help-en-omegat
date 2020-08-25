@@ -4018,6 +4018,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Группа параметров &lt;x1/&gt;Область данных&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T123659Z" creationid="Марианна" creationdate="20200825T123659Z">
+        <seg>&lt;x1/&gt;Data source&lt;x2/&gt; group of parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
@@ -4438,6 +4446,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122050Z" creationid="Марианна" creationdate="20200823T122050Z">
         <seg>The &lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first lines of the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопка &lt;x3/&gt; &lt;x4/&gt; вызывает диалог выбора файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T123600Z" creationid="Марианна" creationdate="20200825T123600Z">
+        <seg>&lt;x3/&gt; &lt;x4/&gt; button calls the file selection dialog.</seg>
       </tuv>
     </tu>
     <tu>
