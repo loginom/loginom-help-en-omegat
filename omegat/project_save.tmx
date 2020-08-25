@@ -1438,6 +1438,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;До первой пустой строки&lt;x2/&gt; — строки будут импортированы до первой пустой строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T185852Z" creationid="Марианна" creationdate="20200825T185852Z">
+        <seg>&lt;x1/&gt;To first blank row&lt;x2/&gt;: rows will be imported up to the first blank row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;До последней строки&lt;x2/&gt; — при выборе этой опции диапазон ячеек, заданный в параметре &lt;x3/&gt;Диапазон&lt;x4/&gt;, будет расширен до последней строки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185349Z" creationid="Марианна" creationdate="20200825T185349Z">
@@ -1706,6 +1714,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055701Z" creationid="Марианна" creationdate="20200812T055701Z">
         <seg>&lt;x1/&gt;Clustering&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Количество строк заголовка&lt;x2/&gt; — количество верхних строк заданного предыдущими параметрами диапазона, которые не будут импортированы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190053Z" creationid="Марианна" creationdate="20200825T190053Z">
+        <seg>&lt;x1/&gt;Title row count&lt;x2/&gt;: count of the upper rows of the range set by the previous parameters that will not be imported.</seg>
       </tuv>
     </tu>
     <tu>
