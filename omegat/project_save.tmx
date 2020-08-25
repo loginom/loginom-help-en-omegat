@@ -3592,6 +3592,14 @@ WHERE Nomenclature.ProductItem = "4561"</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В тексте запроса ее необходимо обрамлять знаками процента, например &lt;x3/&gt;%condition%&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112518Z" creationid="Марианна" creationdate="20200825T112518Z">
+        <seg>It must be marked with percent signs in the query text, for example, &lt;x3/&gt;%condition%&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В тексте запроса параметр записывается со знаком двоеточие, например &lt;x3/&gt;:var1&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111842Z" creationid="Марианна" creationdate="20200825T111842Z">
