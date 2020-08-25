@@ -734,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;A1&lt;x2/&gt; — в формате, в котором строка ячейки обозначается латинскими буквами, а столбец — цифрами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184821Z" creationid="Марианна" creationdate="20200825T184821Z">
+        <seg>&lt;x1/&gt;A1&lt;x2/&gt;: according to this format, the row cells are identified in Latin characters, and a column is identified in figures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055612Z" creationid="Марианна" creationdate="20200812T055612Z">
@@ -1224,8 +1232,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор объекта&lt;x2/&gt; — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T184117Z" creationid="Марианна" creationdate="20200825T123728Z">
-        <seg>&lt;x1/&gt;Object selection&lt;x2/&gt;: it is requested to select one of the selection variants of the Excel object containing the imported data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184403Z" creationid="Марианна" creationdate="20200825T123728Z">
+        <seg>&lt;x1/&gt;Object selection&lt;x2/&gt;: it is requested to select one of the selection options of the Excel object containing the imported data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3010,8 +3018,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Стиль ссылок&lt;x2/&gt; — предлагается выбрать один из вариантов обозначения ячеек листа Excel.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T184355Z" creationid="Марианна" creationdate="20200825T184109Z">
-        <seg>&lt;x1/&gt;Reference style&lt;x2/&gt;: it is requested to select one the designation variants of the Excel worksheet cells.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184509Z" creationid="Марианна" creationdate="20200825T184109Z">
+        <seg>&lt;x1/&gt;Reference style&lt;x2/&gt;: it is requested to select one the identification options of the Excel worksheet cells.</seg>
       </tuv>
     </tu>
     <tu>
