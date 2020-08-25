@@ -918,6 +918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;R1C1&lt;x2/&gt; — в формате R&lt;x3/&gt;x&lt;x4/&gt;C&lt;x5/&gt;y&lt;x6/&gt;, где x — номер строки ячейки, y — номер столбца ячейки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184938Z" creationid="Марианна" creationdate="20200825T184938Z">
+        <seg>&lt;x1/&gt;R1C1&lt;x2/&gt;: in R&lt;x3/&gt;x&lt;x4/&gt;C&lt;x5/&gt;y&lt;x6/&gt; format where x is a cell row number, y is a cell column number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;REST-запрос&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060259Z" creationid="Марианна" creationdate="20200812T060259Z">
