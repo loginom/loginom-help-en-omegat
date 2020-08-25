@@ -1430,6 +1430,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диапазон&lt;x2/&gt; — диапазон импортируемых ячеек, заданных в формате &lt;x3/&gt;[адрес верхней левой ячейки]:[адрес правой нижней ячейки]&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T185106Z" creationid="Марианна" creationdate="20200825T185106Z">
+        <seg>&lt;x1/&gt;Range&lt;x2/&gt; is a range of the imported cells set in &lt;x3/&gt; format [address of the upper left cell]:[address of the bottom right cell]&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;До последней строки&lt;x2/&gt; — при выборе этой опции диапазон ячеек, заданный в параметре &lt;x3/&gt;Диапазон&lt;x4/&gt;, будет расширен до последней строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T185349Z" creationid="Марианна" creationdate="20200825T185349Z">
+        <seg>&lt;x1/&gt;All rows&lt;x2/&gt;: when selecting this option, the range of cells set in the &lt;x3/&gt;Range&lt;x4/&gt; parameter will be extended up to the last row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить факт&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065854Z" creationid="Марианна" creationdate="20200812T065854Z">
