@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2005</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112932Z" creationid="Марианна" creationdate="20200825T112932Z">
+        <seg>2005</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; / &lt;x3/&gt; &lt;x4/&gt; — скрывает / показывает список &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T155520Z" creationid="Марианна" creationdate="20200824T155520Z">
@@ -3336,6 +3344,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Books JOIN Publisher ON Books.PubId = Pub.Id</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112830Z" creationid="Марианна" creationdate="20200825T112830Z">
+        <seg>Books JOIN Publisher ON Books.PubId = Pub.Id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Cлева находится панель компонентов, состоящая из следующих категорий:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125206Z" creationid="Марианна" creationdate="20200819T125206Z">
@@ -3356,6 +3372,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T091725Z" creationid="Марианна" creationdate="20200813T091725Z">
         <seg>Loginom — User Manual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Media</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112935Z" creationid="Марианна" creationdate="20200825T112935Z">
+        <seg>Media</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>MinYear</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112919Z" creationid="Марианна" creationdate="20200825T112919Z">
+        <seg>MinYear</seg>
       </tuv>
     </tu>
     <tu>
@@ -3434,10 +3466,42 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>TitlePart</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112841Z" creationid="Марианна" creationdate="20200825T112841Z">
+        <seg>TitlePart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>\Пакеты\Scoring\Расчет скорингового балла\Сценарий</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084713Z" creationid="Марианна" creationdate="20200814T084713Z">
         <seg>\Packages\Scoring\Score calculation\Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>cond1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112834Z" creationid="Марианна" creationdate="20200825T112834Z">
+        <seg>cond1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>tables</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112823Z" creationid="Марианна" creationdate="20200825T112823Z">
+        <seg>tables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>title LIKE</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112838Z" creationid="Марианна" creationdate="20200825T112838Z">
+        <seg>title LIKE</seg>
       </tuv>
     </tu>
     <tu>
@@ -3454,6 +3518,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081124Z" creationid="Марианна" creationdate="20200814T081111Z">
         <seg>Address bar is a breadcrumb trail of objects (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Астра-инфо</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112947Z" creationid="Марианна" creationdate="20200825T112947Z">
+        <seg>Astra Info</seg>
       </tuv>
     </tu>
     <tu>
@@ -3614,6 +3686,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
         <seg>In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результате будет сформирован следующий запрос:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113204Z" creationid="Марианна" creationdate="20200825T113204Z">
+        <seg>Consequently, the following query will be generated:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4172,6 +4252,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132327Z" creationid="Марианна" creationdate="20200819T132327Z">
         <seg>Back</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Здесь &lt;x1/&gt;'%Media%'&lt;x2/&gt; не является макроподстановкой, поэтому замена на значение переменной произведена не будет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113113Z" creationid="Марианна" creationdate="20200825T113113Z">
+        <seg>In this case, &lt;x1/&gt;'%Media%'&lt;x2/&gt; is not a macro substitution, that's why no replacement with the variable value will take place.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5376,6 +5464,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Приключен%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113012Z" creationid="Марианна" creationdate="20200825T112916Z">
+        <seg>Adventures%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Применение параметров в запросах</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122112Z" creationid="Марианна" creationdate="20200823T122112Z">
@@ -6088,6 +6184,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>значение для примера</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112821Z" creationid="Марианна" creationdate="20200825T112821Z">
+        <seg>example value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>из панели &lt;x1/&gt;Навигации&lt;x2/&gt; выбрав пункт &lt;x3/&gt; &lt;x4/&gt;&lt;x5/&gt;Пакеты&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135913Z" creationid="Марианна" creationdate="20200814T135913Z">
@@ -6184,10 +6288,26 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>строка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112828Z" creationid="Марианна" creationdate="20200825T112828Z">
+        <seg>string</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>тип</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112812Z" creationid="Марианна" creationdate="20200825T112812Z">
         <seg>type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>целое</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T112930Z" creationid="Марианна" creationdate="20200825T112930Z">
+        <seg>integer</seg>
       </tuv>
     </tu>
     <tu>
