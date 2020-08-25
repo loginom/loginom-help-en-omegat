@@ -1470,6 +1470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T123421Z" creationid="Марианна" creationdate="20200825T123421Z">
+        <seg>&lt;x1/&gt;File name&lt;x2/&gt; enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имя &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132932Z" creationid="Марианна" creationdate="20200816T132932Z">
