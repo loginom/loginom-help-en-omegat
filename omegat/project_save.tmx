@@ -1550,6 +1550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — задается уникальное имя поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192402Z" creationid="Марианна" creationdate="20200825T192402Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the unique field name is assigned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имя &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132932Z" creationid="Марианна" creationdate="20200816T132932Z">
@@ -2088,8 +2096,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Обновить все&lt;x2/&gt; &lt;x3/&gt;Обновить все&lt;x4/&gt; — перечитывает указанное количество строк в таблицу и производит автоматическое формирование результирующего набора данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T192000Z" creationid="Марианна" creationdate="20200825T191742Z">
-        <seg>&lt;x1/&gt;Refresh All&lt;x2/&gt; &lt;x3/&gt;Refresh All&lt;x4/&gt; enables to reread the specified row count into a table and provides automatic generation of the resulting data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192021Z" creationid="Марианна" creationdate="20200825T191742Z">
+        <seg>&lt;x1/&gt;Refresh All&lt;x2/&gt; &lt;x3/&gt;Refresh All&lt;x4/&gt; enables to reread the specified row count into a table, and provides automatic generation of the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить данные&lt;x2/&gt; &lt;x3/&gt;Обновить данные&lt;x4/&gt; — только перечитывает указанное количество строк в таблицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192142Z" creationid="Марианна" creationdate="20200825T192142Z">
+        <seg>&lt;x1/&gt;Refresh data&lt;x2/&gt; &lt;x3/&gt;Refresh data&lt;x4/&gt; only rereads the specified row count into a table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6022,6 +6038,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
         <seg>The main menu with the following buttons is located on the left: Menu, Packages, Navigation, &lt;x1/&gt;Files&lt;x2/&gt;, &lt;x3/&gt;Processes&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следующие настройки применяются для формирования результирующего набора данных вручную:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192251Z" creationid="Марианна" creationdate="20200825T192251Z">
+        <seg>The following settings are used to generate the resulting data set in manual way:</seg>
       </tuv>
     </tu>
     <tu>
