@@ -1678,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать&lt;x2/&gt; — флаг включения поля в результирующий набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T193642Z" creationid="Марианна" creationdate="20200825T193642Z">
+        <seg>&lt;x1/&gt;Use&lt;x2/&gt;: flag of the filed inclusion into the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исследование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054842Z" creationid="Марианна" creationdate="20200812T054842Z">
@@ -4258,6 +4266,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дискретный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
+        <seg>Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для Desktop-версии указывается абсолютный путь.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
@@ -5014,6 +5030,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113518Z" creationid="Марианна" creationdate="20200716T120652Z">
         <seg>It is required to log in having entered password and login.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Неопределенный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192640Z" creationid="Марианна" creationdate="20200825T192640Z">
+        <seg>Undefined</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Непрерывный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192657Z" creationid="Марианна" creationdate="20200825T192657Z">
+        <seg>Continuous</seg>
       </tuv>
     </tu>
     <tu>
