@@ -1670,6 +1670,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исходные данные&lt;x2/&gt; — в табличной части окна мастера будет показан исходный вариант загружаемых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T191124Z" creationid="Марианна" creationdate="20200825T190834Z">
+        <seg>&lt;x1/&gt;Source data&lt;x2/&gt;: the source version of the downloaded data wil be displayed in the table wizard part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Калькулятор (переменные)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060015Z" creationid="Марианна" creationdate="20200812T060015Z">
@@ -6188,8 +6196,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Табличная часть мастера предназначена для отображения исходных данных и диапазона импортируемых ячеек.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T190209Z" creationid="Марианна" creationdate="20200825T190209Z">
-        <seg>The table wizard part is designated for display of the initial data and range of the imported cells.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T190844Z" creationid="Марианна" creationdate="20200825T190209Z">
+        <seg>The table wizard part is designated for display of the source data and range of the imported cells.</seg>
       </tuv>
     </tu>
     <tu>
