@@ -3322,8 +3322,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T113716Z" creationid="Марианна" creationdate="20200825T113716Z">
-        <seg>&lt;x1/&gt;File storage&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T123159Z" creationid="Марианна" creationdate="20200825T113716Z">
+        <seg>&lt;x1/&gt;File storage&lt;x2/&gt; enables to display information on method of connection to the source file.</seg>
       </tuv>
     </tu>
     <tu>
