@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импортировать&lt;x2/&gt; — пустые строки будут импортированы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T185737Z" creationid="Марианна" creationdate="20200825T185737Z">
+        <seg>&lt;x1/&gt;Import&lt;x2/&gt;: blank rows will be imported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123421Z" creationid="Марианна" creationdate="20200825T123421Z">
@@ -1618,6 +1626,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154938Z" creationid="Марианна" creationdate="20200810T154938Z">
         <seg>&lt;x1/&gt;Interface&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исключить&lt;x2/&gt; — пустые строки не будут импортированы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T185812Z" creationid="Марианна" creationdate="20200825T185812Z">
+        <seg>&lt;x1/&gt;Exclude&lt;x2/&gt;: blank rows will not be imported.</seg>
       </tuv>
     </tu>
     <tu>
