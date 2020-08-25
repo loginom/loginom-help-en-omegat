@@ -3408,6 +3408,14 @@ WHERE Nomenclature.ProductItem = "4561"</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В SQL-запросах возможно использование переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T111424Z" creationid="Марианна" creationdate="20200825T111424Z">
+        <seg>Variables can be used inSQL queries in the following ways:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Studio инструментом для создания таких функций являются &lt;x1/&gt;производные компоненты&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T151243Z" creationid="Марианна" creationdate="20200718T151243Z">
@@ -5286,6 +5294,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применение переменных в запросах</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T111402Z" creationid="Марианна" creationdate="20200825T111402Z">
+        <seg>Use of Variables in Queries</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример 1.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122200Z" creationid="Марианна" creationdate="20200823T122200Z">
@@ -5954,6 +5970,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
         <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в качестве &lt;x1/&gt;параметра&lt;x2/&gt; — в переменной задается определенное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T111543Z" creationid="Марианна" creationdate="20200825T111543Z">
+        <seg>As &lt;x1/&gt;parameter&lt;x2/&gt;: a defined value is set for the variable.</seg>
       </tuv>
     </tu>
     <tu>
