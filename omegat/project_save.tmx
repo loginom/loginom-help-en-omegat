@@ -1728,8 +1728,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кол-во строк для анализа&lt;x2/&gt; — задает количество строк данных, которые будут представлены в таблице для анализа (от 1 до 200);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T191649Z" creationid="Марианна" creationdate="20200825T191649Z">
-        <seg>&lt;x1/&gt;Row count for analysis&lt;x2/&gt;: enables to set row count of the data which will be displayed in the table for analysis (from 1 to 200);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T191747Z" creationid="Марианна" creationdate="20200825T191649Z">
+        <seg>&lt;x1/&gt;Row count for analysis&lt;x2/&gt; enables to set row count of the data which will be displayed in the table for analysis (from 1 to 200);</seg>
       </tuv>
     </tu>
     <tu>
@@ -2082,6 +2082,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
         <seg>&lt;x1/&gt;The Workflow Construction Area and the Components Panel&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить все&lt;x2/&gt; &lt;x3/&gt;Обновить все&lt;x4/&gt; — перечитывает указанное количество строк в таблицу и производит автоматическое формирование результирующего набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T192000Z" creationid="Марианна" creationdate="20200825T191742Z">
+        <seg>&lt;x1/&gt;Refresh All&lt;x2/&gt; &lt;x3/&gt;Refresh All&lt;x4/&gt; enables to reread the specified row count into a table and provides automatic generation of the resulting data set.</seg>
       </tuv>
     </tu>
     <tu>
