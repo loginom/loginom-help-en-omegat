@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;SQL запрос&lt;x2/&gt; — формирование результирующего набора данных SQL запросом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T110843Z" creationid="Марианна" creationdate="20200825T110843Z">
+        <seg>&lt;x1/&gt;SQL query&lt;x2/&gt; enables to form the resulting data set by means of SQL query.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
@@ -3962,6 +3970,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T101620Z" creationid="Марианна" creationdate="20200717T110526Z">
         <seg>For this purpose, the &lt;x3/&gt;Row Filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" criteria is set in its wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого на вкладке &lt;x3/&gt;SQL запрос&lt;x4/&gt; задается текст запроса к базе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T111009Z" creationid="Марианна" creationdate="20200825T111009Z">
+        <seg>For this purpose, it is required to enter text of the database query in the &lt;x3/&gt;SQL query&lt;x4/&gt; tab.</seg>
       </tuv>
     </tu>
     <tu>
