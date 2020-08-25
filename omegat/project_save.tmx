@@ -6202,6 +6202,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Табличная часть окна мастера предназначена для настройки параметров импорта для каждого поля набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T191350Z" creationid="Марианна" creationdate="20200825T191350Z">
+        <seg>The table part of the wizard window is designated for configuration of import parameters for each data set field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая конструкция подстановки дает возможность динамически в ходе выполнения сценария формировать текст запроса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
