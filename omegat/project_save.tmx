@@ -3320,6 +3320,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113716Z" creationid="Марианна" creationdate="20200825T113716Z">
+        <seg>&lt;x1/&gt;File storage&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Цикл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054835Z" creationid="Марианна" creationdate="20200812T054835Z">
@@ -4306,6 +4314,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импорт из Excel файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113538Z" creationid="Марианна" creationdate="20200825T113538Z">
+        <seg>Import from the Excel файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из файла &lt;x1/&gt;Sales.txt&lt;x2/&gt; информации о продажах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084720Z" creationid="Марианна" creationdate="20200717T084720Z">
@@ -4366,6 +4382,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112203Z" creationid="Марианна" creationdate="20200825T112203Z">
         <seg>It is allowed to use parameters only in the &lt;x5/&gt;WHERE&lt;x6/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для импорта данных из файлов Microsoft Excel.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113455Z" creationid="Марианна" creationdate="20200825T113455Z">
+        <seg>It is used for data import from the Microsoft Excel files.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4546,6 +4570,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер содержит несколько этапов настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113529Z" creationid="Марианна" creationdate="20200825T113529Z">
+        <seg>The wizard contains several configuration stages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Меню</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120816Z" creationid="Марианна" creationdate="20200814T120816Z">
@@ -4606,6 +4638,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135549Z" creationid="Марианна" creationdate="20200814T135549Z">
         <seg>The main operations with &lt;x1/&gt;Packages&lt;x2/&gt; are listed on this page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На первом этапе настройки указываются следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T113611Z" creationid="Марианна" creationdate="20200825T113611Z">
+        <seg>The following parameters are specified at the first configuration stage:</seg>
       </tuv>
     </tu>
     <tu>
