@@ -1470,6 +1470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Именованный диапазон&lt;x2/&gt; — по наименованию созданного в книге именованного диапазона.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T183926Z" creationid="Марианна" creationdate="20200825T183926Z">
+        <seg>&lt;x1/&gt;Named range&lt;x2/&gt;: by the name of the named range created in the workbook.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185317Z" creationid="Марианна" creationdate="20200810T184425Z">
@@ -2294,10 +2302,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По имени&lt;x2/&gt; — по наименованию листа книги.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T183801Z" creationid="Марианна" creationdate="20200825T183735Z">
+        <seg>&lt;x1/&gt;By name&lt;x2/&gt;: by the workbook sheet name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По номеру&lt;x2/&gt; — по порядковому номеру листа книги.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T183719Z" creationid="Марианна" creationdate="20200825T183719Z">
-        <seg>&lt;x1/&gt;By number&lt;x2/&gt;: using the workbook sheet order number.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T183740Z" creationid="Марианна" creationdate="20200825T183719Z">
+        <seg>&lt;x1/&gt;By number&lt;x2/&gt;: by the workbook sheet order number.</seg>
       </tuv>
     </tu>
     <tu>
