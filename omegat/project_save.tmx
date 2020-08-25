@@ -1726,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кол-во строк для анализа&lt;x2/&gt; — задает количество строк данных, которые будут представлены в таблице для анализа (от 1 до 200);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T191649Z" creationid="Марианна" creationdate="20200825T191649Z">
+        <seg>&lt;x1/&gt;Row count for analysis&lt;x2/&gt;: enables to set row count of the data which will be displayed in the table for analysis (from 1 to 200);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество строк заголовка&lt;x2/&gt; — количество верхних строк заданного предыдущими параметрами диапазона, которые не будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190053Z" creationid="Марианна" creationdate="20200825T190053Z">
