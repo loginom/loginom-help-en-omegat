@@ -16,7 +16,7 @@
 
 * ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — новый набор переменных.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 Имеется три набора переменных:
 

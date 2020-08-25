@@ -20,7 +20,7 @@
 
 ### Step 1. Выбор объекта хранилища данных
 
-* **Подключение** — отображает строку подключения к источнику данных. Не доступна для редактирования.
+* **Connection** enables to display a string of connection to data source. It cannot be edited.
 * **Активировать** — позволяет установить связь с Хранилищем данных, если это еще не было сделано. После установления связи кнопка перестает быть активной, а название меняется на *Активировано*.
 * **Объекты хранилища данных** — содержит древовидный список ![Процессы](../../images/icons/data-warehouse/fact-tables-folder_default.svg) *Процессов* и ![Измерения](../../images/icons/data-warehouse/dimensions-folder_default.svg) *Измерений* из которых необходимо выбрать лишь один объект — ![Процесс](../../images/icons/data-warehouse/fact-table_default.svg) *Процесс* или ![Измерение](../../images/icons/data-warehouse/dimension_default.svg) *Измерение*.
 

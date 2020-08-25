@@ -1,6 +1,6 @@
-# ![ ](../../images/icons/data-sources/file-excel-import_default.svg) Импорт из Excel-файла
+# ![ ](../../images/icons/data-sources/file-excel-import_default.svg) Import from Excel File
 
-Используется для импорта данных из файлов Microsoft Excel.
+It is used for data import from the Microsoft Excel files.
 
 ### Input Ports
 
@@ -12,16 +12,16 @@
 
 ## Wizard
 
-Мастер содержит несколько этапов настройки.
+The wizard contains several configuration stages.
 
-### Step 1. Импорт из Excel файла
+### Step 1. Import from the Excel файла
 
-На первом этапе настройки указываются следующие параметры:
+The following parameters are specified at the first configuration stage:
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику.
-* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
-* Группа параметров *Область данных*.
-   * **Выбор объекта** — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.
+* **File storage** enables to display information on method of connection to the source file.
+* **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* *Data source* group of parameters
+   * **Object selection** — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.
       * **По номеру** — по порядковому номеру листа книги.
       * **По имени** — по наименованию листа книги.
       * **Именованный диапазон** — по наименованию созданного в книге именованного диапазона.

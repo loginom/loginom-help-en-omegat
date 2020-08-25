@@ -16,8 +16,8 @@ LGD — специальный формат файлов, оптимизиров
 
 ## Wizard
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику.
-* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
+* **File storage** enables to display information on method of connection to the source file.
+* **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
 * **Алгоритм сжатия** — отображение информации о методе сжатия LGD-файла, использованном при его создании.
    * Без сжатия.
    * [LZO](https://ru.wikipedia.org/wiki/LZO).
