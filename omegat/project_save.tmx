@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Весь лист&lt;x2/&gt; — область листа, содержащего данные для импорта, определяется автоматически.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184032Z" creationid="Марианна" creationdate="20200825T184032Z">
+        <seg>&lt;x1/&gt;Whole sheet&lt;x2/&gt;: area of the sheet containing data for import is automatically defined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных (непрерывный, дискретный)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070858Z" creationid="Марианна" creationdate="20200812T070858Z">
@@ -1216,8 +1224,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор объекта&lt;x2/&gt; — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T183122Z" creationid="Марианна" creationdate="20200825T123728Z">
-        <seg>&lt;x1/&gt;Object selection&lt;x2/&gt;: it is requested to select one of the selection variants of the Excel object containing the inported data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184117Z" creationid="Марианна" creationdate="20200825T123728Z">
+        <seg>&lt;x1/&gt;Object selection&lt;x2/&gt;: it is requested to select one of the selection variants of the Excel object containing the imported data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2996,6 +3004,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060619Z" creationid="Марианна" creationdate="20200812T060619Z">
         <seg>&lt;x1/&gt;Statistical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стиль ссылок&lt;x2/&gt; — предлагается выбрать один из вариантов обозначения ячеек листа Excel.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200825T184355Z" creationid="Марианна" creationdate="20200825T184109Z">
+        <seg>&lt;x1/&gt;Reference style&lt;x2/&gt;: it is requested to select one the designation variants of the Excel worksheet cells.</seg>
       </tuv>
     </tu>
     <tu>
