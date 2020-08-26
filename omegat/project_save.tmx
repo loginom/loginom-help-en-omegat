@@ -2880,6 +2880,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пусто&lt;x2/&gt; – текст, представляющий значение &lt;x3/&gt;Null&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093609Z" creationid="Марианна" creationdate="20200826T093609Z">
+        <seg>&lt;x1/&gt;Null&lt;x2/&gt; is a text that represents the &lt;x3/&gt;Null&lt;x4/&gt; value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пустые строки&lt;x2/&gt; — поскольку диапазон ячеек, заданный предыдущими параметрами, может содержать пустые строки, то предлагается выбрать один из вариантов их обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185659Z" creationid="Марианна" creationdate="20200825T185659Z">
@@ -3596,6 +3604,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071105Z" creationid="Марианна" creationdate="20200812T071105Z">
         <seg>&lt;x1/&gt;Branded data sources&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формат даты&lt;x2/&gt; – параметром задается формат даты, используемый в импортируемом тексте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094013Z" creationid="Марианна" creationdate="20200826T094013Z">
+        <seg>&lt;x1/&gt;Date format&lt;x2/&gt;: the parameter enables to set the date format used in the imported text.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6726,6 +6742,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062705Z" creationid="Марианна" creationdate="20200826T062705Z">
         <seg>The file includes settings of fields that simplifies the import process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Форматы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093617Z" creationid="Марианна" creationdate="20200826T093617Z">
+        <seg>Formats:</seg>
       </tuv>
     </tu>
     <tu>
