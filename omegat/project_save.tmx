@@ -2936,6 +2936,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разделитель времени&lt;x2/&gt; – символ, разделяющий компоненты времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093249Z" creationid="Марианна" creationdate="20200826T093249Z">
+        <seg>&lt;x1/&gt;Time separator&lt;x2/&gt; is a symbol that separates time components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разделитель даты&lt;x2/&gt; – символ, разделяющий компоненты даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093210Z" creationid="Марианна" creationdate="20200826T093210Z">
+        <seg>&lt;x1/&gt;Date separator&lt;x2/&gt; is a symbol that separates date components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разность&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
