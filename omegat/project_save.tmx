@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Набор данных (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T084304Z" creationid="Марианна" creationdate="20200826T084304Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Data set (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Настроить подключение — переход к окну настройки параметров подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
@@ -4654,6 +4662,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113538Z" creationid="Марианна" creationdate="20200825T113538Z">
         <seg>Import from the Excel файла</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Импорт из текстового файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T084321Z" creationid="Марианна" creationdate="20200826T084321Z">
+        <seg>Import from the text file</seg>
       </tuv>
     </tu>
     <tu>
