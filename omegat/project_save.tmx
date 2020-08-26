@@ -1062,6 +1062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; — отображение информации о методе сжатия LGD-файла, использованном при его создании.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062922Z" creationid="Марианна" creationdate="20200826T062922Z">
+        <seg>&lt;x1/&gt;Compression Algorithm&lt;x2/&gt; enables to display information on the LGD file compression method used for its creation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ассоциативные правила&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055648Z" creationid="Марианна" creationdate="20200812T055648Z">
@@ -4130,6 +4138,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вход</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062716Z" creationid="Марианна" creationdate="20200826T062716Z">
+        <seg>Input</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные и выходные порты задаются пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102723Z" creationid="Марианна" creationdate="20200716T073132Z">
@@ -4206,6 +4222,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114141Z" creationid="Марианна" creationdate="20200717T085727Z">
         <seg>Call the &lt;x3/&gt;Wizard&lt;x4/&gt; (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выход</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062723Z" creationid="Марианна" creationdate="20200826T062723Z">
+        <seg>Output</seg>
       </tuv>
     </tu>
     <tu>
@@ -4678,6 +4702,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122050Z" creationid="Марианна" creationdate="20200823T122050Z">
         <seg>The &lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first lines of the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопка &lt;x3/&gt; &lt;x4/&gt; вызывает диалог выбора файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062758Z" creationid="Марианна" creationdate="20200826T062758Z">
+        <seg>&lt;x3/&gt; &lt;x4/&gt; button calls the file selection dialog.</seg>
       </tuv>
     </tu>
     <tu>
