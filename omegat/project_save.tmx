@@ -1470,6 +1470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Десятичный разделитель&lt;x2/&gt; – символ, разделяющий дробную и целую части числовых значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093123Z" creationid="Марианна" creationdate="20200826T093123Z">
+        <seg>&lt;x1/&gt;Decimal separator&lt;x2/&gt; is a character that separates fractional and integer parts of numeric expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Детализация&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065836Z" creationid="Марианна" creationdate="20200812T065836Z">
