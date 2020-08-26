@@ -6466,6 +6466,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Файл хранит в себе настройки полей, что упрощает процесс импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062705Z" creationid="Марианна" creationdate="20200826T062705Z">
+        <seg>The file includes settings of fields that simplifies the import process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функционал компонента</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
