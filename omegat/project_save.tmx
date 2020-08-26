@@ -2976,6 +2976,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разделитель столбцов&lt;x2/&gt; — символ, разделяющий данные соседних столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094220Z" creationid="Марианна" creationdate="20200826T094220Z">
+        <seg>&lt;x1/&gt;Column delimiter&lt;x2/&gt; is a charactor separating data of adjacent columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разность&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
@@ -5526,6 +5534,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T061506Z" creationid="Марианна" creationdate="20200817T061506Z">
         <seg>"Processes" panel enables to receive additional information on the data processing processes by the Workflow nodes during the current Loginom session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры импорта с разделителями</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094031Z" creationid="Марианна" creationdate="20200826T094031Z">
+        <seg>Parameters of Import with Separators</seg>
       </tuv>
     </tu>
     <tu>
