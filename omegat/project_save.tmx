@@ -4618,6 +4618,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импорт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T063553Z" creationid="Марианна" creationdate="20200826T063553Z">
+        <seg>Import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из Excel файла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113538Z" creationid="Марианна" creationdate="20200825T113538Z">
