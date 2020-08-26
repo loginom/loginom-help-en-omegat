@@ -862,6 +862,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;LZ4&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062942Z" creationid="Марианна" creationdate="20200826T062942Z">
+        <seg>&lt;x1/&gt;LZ4&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;LZO&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062938Z" creationid="Марианна" creationdate="20200826T062938Z">
+        <seg>&lt;x1/&gt;LZO&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Loginom Data File&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071114Z" creationid="Марианна" creationdate="20200812T071114Z">
@@ -2864,6 +2880,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разрядность&lt;x2/&gt; — выводит информацию о разрядности импортируемого файла: 64 или 32 бита.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T063122Z" creationid="Марианна" creationdate="20200826T063122Z">
+        <seg>&lt;x1/&gt;Bitness&lt;x2/&gt; enables to display information on bitness of the imported file: 64 or 32 bits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регулярное выражение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191859Z" creationid="Марианна" creationdate="20200810T191859Z">
@@ -3808,6 +3832,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112947Z" creationid="Марианна" creationdate="20200825T112947Z">
         <seg>Astra Info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Без сжатия.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062934Z" creationid="Марианна" creationdate="20200826T062934Z">
+        <seg>Without compression</seg>
       </tuv>
     </tu>
     <tu>
