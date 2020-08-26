@@ -6532,8 +6532,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T083623Z" creationid="Марианна" creationdate="20200826T083623Z">
-        <seg>The text file with separators is a standard text file the data columns of which are separated with separating charactors of the same type, for example, tab characters, commas, semicolumns,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T084239Z" creationid="Марианна" creationdate="20200826T083623Z">
+        <seg>The text file with separators is a standard text file the data columns of which are separated with separating characters of the same type, for example, tab characters, commas, semicolumns,</seg>
       </tuv>
     </tu>
     <tu>
@@ -6718,6 +6718,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T073916Z" creationid="Марианна" creationdate="20200819T073916Z">
         <seg>above).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T083653Z" creationid="Марианна" creationdate="20200826T083653Z">
+        <seg>etc.</seg>
       </tuv>
     </tu>
     <tu>
