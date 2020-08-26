@@ -1774,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исходные данные&lt;x2/&gt; — в табличной части окна мастера будет показан исходный (текстовый) вариант загружаемых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094529Z" creationid="Марианна" creationdate="20200826T094529Z">
+        <seg>&lt;x1/&gt;Source data&lt;x2/&gt;: the source (text) version of downloaded data will be displayed in the table wizard part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исходные данные&lt;x2/&gt; — в табличной части окна мастера будет показан исходный вариант загружаемых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T191124Z" creationid="Марианна" creationdate="20200825T190834Z">
@@ -2784,6 +2792,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Принимать несколько подряд разделителей за один&lt;x2/&gt; — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094354Z" creationid="Марианна" creationdate="20200826T094354Z">
+        <seg>&lt;x1/&gt;Treat consecutive delimiters as one&lt;x2/&gt;: flag placement enables to treat several consecutive column delimiters as one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Принципы проектирования&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
@@ -2978,8 +2994,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель столбцов&lt;x2/&gt; — символ, разделяющий данные соседних столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T094220Z" creationid="Марианна" creationdate="20200826T094220Z">
-        <seg>&lt;x1/&gt;Column delimiter&lt;x2/&gt; is a charactor separating data of adjacent columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094231Z" creationid="Марианна" creationdate="20200826T094220Z">
+        <seg>&lt;x1/&gt;Column delimiter&lt;x2/&gt; is a character separating data of adjacent columns.</seg>
       </tuv>
     </tu>
     <tu>
