@@ -4626,6 +4626,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импорт в Loginom может осуществляться из множества источников, таких как текстовый файл, электронные таблицы, базы данных и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T064118Z" creationid="Марианна" creationdate="20200826T064118Z">
+        <seg>Data are imported to Loginom from many sources, for example, a text file, spreadsheets, databases, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Импорт данных является отправной точкой анализа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T063735Z" creationid="Марианна" creationdate="20200826T063735Z">
+        <seg>Import is an important starting point of data analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из Excel файла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113538Z" creationid="Марианна" creationdate="20200825T113538Z">
