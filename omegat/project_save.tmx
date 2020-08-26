@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из текстового файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T064323Z" creationid="Марианна" creationdate="20200826T064323Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from the Text File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Импортированная таблица.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121257Z" creationid="Марианна" creationdate="20200823T121257Z">
@@ -1712,8 +1720,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать&lt;x2/&gt; — флаг включения поля в результирующий набор данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T193642Z" creationid="Марианна" creationdate="20200825T193642Z">
-        <seg>&lt;x1/&gt;Use&lt;x2/&gt;: flag of the filed inclusion into the resulting data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T064412Z" creationid="Марианна" creationdate="20200825T193642Z">
+        <seg>&lt;x1/&gt;Use&lt;x2/&gt;: flag of the field inclusion into the resulting data set.</seg>
       </tuv>
     </tu>
     <tu>
