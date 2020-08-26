@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/data-sources/file-txt-import_default.svg) Import from the Text File
 
-It is used for data import from the text files with separators. Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т. д.
+It is used for data import from the text files with separators. The text file with separators is a standard text file the data columns of which are separated with separating characters of the same type, for example, tab characters, commas, semicolumns, etc.
 
 ### Input
 
@@ -8,52 +8,52 @@ It is used for data import from the text files with separators. Текстовы
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data set (data table).
 
 ## Wizard
 
 The wizard contains several configuration stages.
 
-### Step 1. Импорт из текстового файла
+### Step 1. Import from the text file
 
 The following parameters are specified at the first configuration stage:
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-источнику;
-* **Имя файла** — путь к файлу, содержащему необходимые данные;
-* **Кодовая страница** — кодировка, в которой хранится текст в файле;
-* **Заголовок в первой строке** — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;
-* **Пропустить строк** — количество строк с начала текста, не подлежащее импорту.
+* **File storage** enables to display information on method of connection to the source file.
+* **File name** is a path the file that contains required data.
+* **Codepage** means encoding used for storage of text in a file.
+* **First line title** is a flag that enables to determine that captions of the fileds of the created data set are present in the first line of the imported text.
+* **Skip rows** means count of the rows from the text beginning that cannot be imported.
 
-### Step 2. Настройки форматов импорта
+### Step 2. Configuration of the Import Formats
 
-На этапе настройки указываются:
+The following parameters are specified at the configuration stage:
 
-* Разделители:
-   * **Ограничитель строк** – символ, обрамляющий значения ячейки загружаемого набора данных. Текст, следующий за этим символом и предшествующий следующему его вхождению, импортируется как одно значение, даже если текст содержит символ-разделитель.
-   * **Десятичный разделитель** – символ, разделяющий дробную и целую части числовых значений.
-   * **Разделитель даты** – символ, разделяющий компоненты даты.
-   * **Разделитель времени** – символ, разделяющий компоненты времени.
-* Представление значений:
-   * **Истина** – текст, представляющий логическое значение *Истина*.
-   * **Ложь** – текст, представляющий логическое значение *Ложь*.
-   * **Пусто** – текст, представляющий значение *Null*.
-* Форматы:
-   * **Формат даты** – параметром задается формат даты, используемый в импортируемом тексте.
+* Separators:
+   * **Text qualifier** is a character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurence is imported as one value even if the text contains a separating character.
+   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions.
+   * **Date separator** is a symbol that separates date components.
+   * **Time separator** is a symbol that separates time components.
+* Literals:
+   * **True** is a text that represents the logical *True* value.
+   * **False** is a text that represents the logical *False* value.
+   * **Null** is a text that represents the *Null* value.
+* Formats:
+   * **Date format**: the parameter enables to set the date format used in the imported text.
 
-### Step 3. Параметры импорта с разделителями
+### Step 3. Parameters of Import with Separators
 
 It is required to specify the following parameters at the configuration stage:
 
-* **Разделитель столбцов** — символ, разделяющий данные соседних столбцов.
-* **Принимать несколько подряд разделителей за один** — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.
+* **Column delimiter** is a character separating data of adjacent columns.
+* **Treat consecutive delimiters as one**: flag placement enables to treat several consecutive column delimiters as one.
 * It is required to display the following data:
    * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
-   * **Исходные данные** — в табличной части окна мастера будет показан исходный (текстовый) вариант загружаемых данных.
+   * **Source data**: the source (text) version of downloaded data will be displayed in the table wizard part.
 
 The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
-* **Кол-во строк для анализа** — задает количество строк набора, по которым будет проводиться анализ типа данных. При этом максимальное число строк для отображения 200.
-* ![Обновить все](../../images/icons/toolbar-controls/refresh_default.svg) **Обновить все** — перечитывает указанное количество строк в таблицу и производит автоматическое формирование результирующего набора данных.
+* **Row count for analysis** enables to set row count of a data set used for data type analysis. The maximum row count to be displayed is 200.
+* ![Refresh all](../../images/icons/toolbar-controls/refresh_default.svg) **Refresh all** only rereads the specified row count into a table, and provides automatic generation of the resulting data set.
 * ![Refresh data](../../images/icons/toolbar-controls/refresh-data_default.svg) **Refresh data** only rereads the specified row count into a table.
 
 The following settings are used to generate the resulting data set in manual way:
