@@ -5170,6 +5170,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки форматов импорта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T085702Z" creationid="Марианна" creationdate="20200826T085702Z">
+        <seg>Configuration of the Import Formats</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Начало работы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154818Z" creationid="Марианна" creationdate="20200715T090041Z">
