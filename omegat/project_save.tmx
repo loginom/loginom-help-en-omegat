@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T085304Z" creationid="Марианна" creationdate="20200826T085304Z">
+        <seg>&lt;x1/&gt;First line title&lt;x2/&gt; is a flag that enables to determine that captions of the fileds of the created data set are present in the first line of the imported text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Закрыть пакет&lt;x2/&gt; — закрытие открытого Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122533Z" creationid="Марианна" creationdate="20200814T122533Z">
