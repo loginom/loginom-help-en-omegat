@@ -1766,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Истина&lt;x2/&gt; – текст, представляющий логическое значение &lt;x3/&gt;Истина&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093452Z" creationid="Марианна" creationdate="20200826T093452Z">
+        <seg>&lt;x1/&gt;True&lt;x2/&gt; is a text that represents the logical &lt;x3/&gt;True&lt;x4/&gt; value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исходные данные&lt;x2/&gt; — в табличной части окна мастера будет показан исходный вариант загружаемых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T191124Z" creationid="Марианна" creationdate="20200825T190834Z">
@@ -1946,6 +1954,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060442Z" creationid="Марианна" creationdate="20200812T060442Z">
         <seg>&lt;x1/&gt;Logical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ложь&lt;x2/&gt; – текст, представляющий логическое значение &lt;x3/&gt;Ложь&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093538Z" creationid="Марианна" creationdate="20200826T093538Z">
+        <seg>&lt;x1/&gt;False&lt;x2/&gt; is a text that represents the logical &lt;x3/&gt;False&lt;x4/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5926,6 +5942,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091814Z" creationid="Марианна" creationdate="20200715T091738Z">
         <seg>The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представление значений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
+        <seg>Literals:</seg>
       </tuv>
     </tu>
     <tu>
