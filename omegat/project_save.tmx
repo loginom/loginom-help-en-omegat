@@ -1854,6 +1854,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кол-во строк для анализа&lt;x2/&gt; — задает количество строк набора, по которым будет проводиться анализ типа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094726Z" creationid="Марианна" creationdate="20200826T094726Z">
+        <seg>&lt;x1/&gt;Row count for analysis&lt;x2/&gt; enables to set row count of a data set used for data type analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество строк заголовка&lt;x2/&gt; — количество верхних строк заданного предыдущими параметрами диапазона, которые не будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190053Z" creationid="Марианна" creationdate="20200825T190053Z">
@@ -6126,6 +6134,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162124Z" creationid="Марианна" creationdate="20200718T162124Z">
         <seg>At the same time, it is not possible to change it in the library of functions because the inheritance mechanism will be activated. It can cause errors in all workflows where it is applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом максимальное число строк для отображения 200.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T094804Z" creationid="Марианна" creationdate="20200826T094804Z">
+        <seg>The maximum row count to be displayed is 200.</seg>
       </tuv>
     </tu>
     <tu>
