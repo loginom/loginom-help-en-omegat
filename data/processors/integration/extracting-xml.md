@@ -6,13 +6,13 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Поключение к источнику XSD-схемы — подключение настроенного ранее подключения к файлам [XSD-схем](../../integration/connections/list/schemes.md).
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  Управляющие переменные (переменные), необязательный.
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — Источник данных — таблица данных, содержащая ячейки с документами XML.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Набор данных — таблица данных, извлеченных из документов XML.
    * Поля, наличие которых задается пользователем:

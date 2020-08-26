@@ -6,11 +6,11 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, которые можно использовать в обработчике.
 
-### Выход
+### Output
 
 * ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — входные переменные и новые переменные, вычисленные обработчиком.
 

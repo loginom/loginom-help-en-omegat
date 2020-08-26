@@ -2,12 +2,12 @@
 
 Создает новые поля, которые вычисляются по заданной формуле из значений переменных, других полей и [функций](../../func/calc-func/README.md) или используя [JavaScript](./javascript.md) код.
 
-### Вход
+### Input
 
 * ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Входной источник данных (таблица данных);
 * ![ ](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Входные переменные (переменные), необязательный.
 
-### Выход
+### Output
 
 * ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
 

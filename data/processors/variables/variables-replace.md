@@ -10,11 +10,11 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — переменные, подлежащие изменению.
 
-### Выход
+### Output
 
 * ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — переменные после обработки.
 

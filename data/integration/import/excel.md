@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/data-sources/file-excel-import_default.svg) Import from Excel File
+# ![ ](../../images/icons/data-sources/file-excel-import_default.svg) Import from the Excel File
 
 It is used for data import from the Microsoft Excel files.
 

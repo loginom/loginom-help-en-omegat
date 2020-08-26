@@ -10,13 +10,13 @@
 
 Изначально входных и выходных портов нет, они создаются пользователем в мастере настройки. Для *Подмодели* можно задать произвольное количество входных/выходных портов следующих типов:
 
-### Вход
+### Input
 
 * ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Переменные (необязательный порт);
 * ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) Таблица данных;
 * ![Входное дерево данных](../../images/icons/app/node/ports/inputs/tree_inactive.svg) Дерево данных.
 
-### Выход
+### Output
 
 * ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) Переменные;
 * ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) Таблица данных;

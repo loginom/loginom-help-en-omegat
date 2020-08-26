@@ -23,7 +23,7 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — **Входной источник данных** (таблица данных).
 
@@ -31,7 +31,7 @@
 
 Поля входного набора, которые будут использоваться в качестве **входных** или **выходных**, не должны содержать пропущенные значения. Если это требование не выполнено, то в момент активации узла будет выдана ошибка.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
 * ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — **Показатели качества модели**.

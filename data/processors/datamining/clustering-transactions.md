@@ -10,7 +10,7 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Входной источник данных (таблица данных). Необязательный.
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Дополнительный вход (таблица данных). Необязательный.
@@ -23,7 +23,7 @@
 
 Преобразовать к требуемому виду (с полями Транзакция и Элемент) обычный набор данных, состоящий из столбцов с измеренными свойствами объектов всегда можно при помощи узлов-обработчиков Loginom, таких как [Свёртка столбцов](../../processors/transformation/rollup-columns.md) и [Калькулятор](../../processors/transformation/calc/README.md).
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Разбиение на кластеры.**
 

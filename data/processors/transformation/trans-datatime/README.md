@@ -18,11 +18,11 @@
 
 %/spoiler%
 
-### Вход
+### Input
 
 * ![Входной источник данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** (таблица данных).
 
-### Выход
+### Output
 
 * ![Выходной набор данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** (таблица данных).
 

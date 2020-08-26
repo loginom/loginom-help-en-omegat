@@ -4,7 +4,7 @@
 
 > **Важно:** Для работы узла требуется предварительно создать [подключение](../connections/README.md) к базе данных и связать его с входным портом *Подключение*. [Example of DB conection and operation](../../quick-start/database.md).
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение — порт для установки подключения к базе данных;
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту в базу;

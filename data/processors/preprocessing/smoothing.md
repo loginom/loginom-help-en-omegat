@@ -12,11 +12,11 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных - таблица данных.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных - исходная таблица, к которой добавлены поля со сглаженными рядами, метки таких полей снабжены постфиксами **_smoothed**.
 

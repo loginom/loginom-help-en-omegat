@@ -16,7 +16,7 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Входной источник данных (таблица данных) — обязательный порт;
 * ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Управляющие переменные](../../../scenario/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.

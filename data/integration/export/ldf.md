@@ -8,7 +8,7 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту;
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port) — it is possible to set values of wizard parameters using variables.
@@ -16,9 +16,9 @@
 ## Wizard
 
 * **Хранилище файлов** — выводит информацию о способе подключения к файлу-приемнику.
-* **Имя файла** — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
+* **Имя файла** — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * **Алгоритм сжатия** может применяться для уменьшения размера файла экспорта. Доступны следующие варианты.
-   * Без сжатия.
+   * Without compression
    * [LZO](https://ru.wikipedia.org/wiki/LZO) (рекомендуется, используется по умолчанию).
 * **Разрядность** — выводит информацию о разрядности LGD-файла: 64 или 32 бита. Разрядность LGD-файла зависит от разрядности используемого сервера Loginom.
 * **Активация и просмотр** — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как будет выглядеть экспортируемая таблица.

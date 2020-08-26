@@ -6,13 +6,13 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — связь с узлом [подключения набора XSD-схем](../../integration/connections/list/schemes.md).
 * ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — набор данных, подлежащий преобразованию.
 * ![](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными порта можно задать значения параметров мастера настройки. Для отображения порта необходимо в контекстном меню узла выбрать пункт *Показать порт управляющих переменных*.
 
-### Выход
+### Output
 
 * ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Выходной набор данных — таблица, содержащая результирующие XML и их идентификаторы (ID).
 

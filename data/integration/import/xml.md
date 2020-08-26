@@ -6,12 +6,12 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки;
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее *Подключения к набору XSD-схем*.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Набор данных — импортированная таблица.
 

@@ -4,11 +4,11 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, подлежащий преобразованию в таблицу.
 
-### Выход
+### Output
 
 * ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
 

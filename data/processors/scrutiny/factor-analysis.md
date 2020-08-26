@@ -45,11 +45,11 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных). В настройках этого порта следует выставить назначение ![ ](../../images/icons/usage-types/active_default.svg) "Используемое" для полей, данные которых следует подвергнуть факторному анализу.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). Содержит исходную таблицу, к которой добавлены поля факторов.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). Содержит таблицу факторных нагрузок.

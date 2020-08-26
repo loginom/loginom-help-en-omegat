@@ -12,7 +12,7 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных) — обязательный порт.
 
@@ -24,7 +24,7 @@
 * оно непрерывное и с нулевой дисперсией;
 * оно содержит пропущенные значения.
 
-### Выход
+### Output
 
 ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Разбиение на кластеры.
 

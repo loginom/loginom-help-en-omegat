@@ -6,11 +6,11 @@
 
 ## Ports
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных — таблица данных.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор — исходная таблица после обработки.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выбросы — таблица, содержащая строки исходной таблицы, в которых были обнаружены выбросы.

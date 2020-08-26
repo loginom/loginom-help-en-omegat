@@ -2,11 +2,11 @@
 
 Используется для импорта данных из текстовых файлов c разделителями. Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т. д.
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port) — it is possible to set values of wizard parameters using variables.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Набор данных (таблица данных).
 

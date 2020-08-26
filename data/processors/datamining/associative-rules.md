@@ -8,7 +8,7 @@
 
 Для получения результирующих наборов требуется предварительное [обучение обработчика](../../scenario/training-processors.md).
 
-### Вход
+### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Входной источник данных** (таблица данных). Необязательный.<br>
    Порт ожидает набор данных со столбцами идентификаторов и элементов транзакций.
@@ -44,7 +44,7 @@
 
 В настройках портов следует выставить [параметр "Назначение"](../../data/datasetfieldoptions.md) для полей участвующих в обработке. Параметр может принимать значения: *Неиспользуемое, Транзакция, Элемент*. Идентификаторы и элементы транзакций могут быть представлены только [дискретными](../../data/datatype.md) данными.
 
-### Выход
+### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Популярные наборы** (таблица данных). Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Ассоциативные правила** (таблица данных). Выявленные ассоциативные правила и их показатели: [поддержка](https://wiki.loginom.ru/articles/association-rule-support.html), [достоверность](https://wiki.loginom.ru/articles/rule-confidence.html), [лифт](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
