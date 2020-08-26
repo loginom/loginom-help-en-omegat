@@ -3616,6 +3616,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062507Z" creationid="Марианна" creationdate="20200826T062507Z">
+        <seg>LGD is a special format of files optimized for work in Loginom. It provides the maximum writing and reading speed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom — руководство пользователя</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T091725Z" creationid="Марианна" creationdate="20200813T091725Z">
@@ -5494,6 +5502,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131939Z" creationid="Марианна" creationdate="20200819T131939Z">
         <seg>Vertical center alignment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддерживается импорт DDF-файлов платформы Deductor.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062159Z" creationid="Марианна" creationdate="20200826T062159Z">
+        <seg>The DDF files import from the Deductor platform is supported.</seg>
       </tuv>
     </tu>
     <tu>
