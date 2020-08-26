@@ -328,8 +328,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из Excel-файла</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T113433Z" creationid="Марианна" creationdate="20200825T113433Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from Excel File</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T061925Z" creationid="Марианна" creationdate="20200825T113433Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from the Excel File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из LGD-файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T061829Z" creationid="Марианна" creationdate="20200826T061829Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from the LGD File</seg>
       </tuv>
     </tu>
     <tu>
@@ -5062,6 +5070,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063534Z" creationid="Марианна" creationdate="20200817T063534Z">
         <seg>Processing:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик предназначен для импорта таблицы из &lt;x1/&gt;LGD-файла&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T062102Z" creationid="Марианна" creationdate="20200826T062102Z">
+        <seg>The handler is designated for the table import from the &lt;x1/&gt;LGD file&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
