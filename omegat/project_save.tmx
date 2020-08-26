@@ -2254,6 +2254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ограничитель строк&lt;x2/&gt; – символ, обрамляющий значения ячейки загружаемого набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T090510Z" creationid="Марианна" creationdate="20200826T090510Z">
+        <seg>&lt;x1/&gt;Text qualifier&lt;x2/&gt; is a character that frames cell values of the downloaded data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Описание API&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054636Z" creationid="Марианна" creationdate="20200812T054636Z">
@@ -6214,6 +6222,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171404Z" creationid="Марианна" creationdate="20200718T151127Z">
         <seg>Creation of libraries of universal functions represents development of idea of usage of earlier created algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Разделители:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T090322Z" creationid="Марианна" creationdate="20200826T090322Z">
+        <seg>Separators:</seg>
       </tuv>
     </tu>
     <tu>
