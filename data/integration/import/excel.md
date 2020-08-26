@@ -62,4 +62,4 @@ The following settings are used to generate the resulting data set in manual way
    * Undefined
    * Continuous
    * Discrete
-* **Use**: flag of the filed inclusion into the resulting data set.
+* **Use**: flag of the field inclusion into the resulting data set.

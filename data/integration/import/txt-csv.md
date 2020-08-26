@@ -1,6 +1,6 @@
-# ![ ](../../images/icons/data-sources/file-txt-import_default.svg) Импорт из текстового файла
+# ![ ](../../images/icons/data-sources/file-txt-import_default.svg) Import from the Text File
 
-Используется для импорта данных из текстовых файлов c разделителями. Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т. д.
+It is used for data import from the text files with separators. Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т. д.
 
 ### Input
 
@@ -65,4 +65,4 @@ The following settings are used to generate the resulting data set in manual way
    * Continuous
    * Discrete
    * Undefined
-* **Use**: flag of the filed inclusion into the resulting data set.
+* **Use**: flag of the field inclusion into the resulting data set.
