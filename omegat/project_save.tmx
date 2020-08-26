@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — путь к файлу, содержащему необходимые данные;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T084850Z" creationid="Марианна" creationdate="20200826T084850Z">
+        <seg>&lt;x1/&gt;File name&lt;x2/&gt; is a path the file that contains required data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — задается уникальное имя поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192402Z" creationid="Марианна" creationdate="20200825T192402Z">
@@ -3587,6 +3595,14 @@
         <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123159Z" creationid="Марианна" creationdate="20200825T113716Z">
+        <seg>&lt;x1/&gt;File storage&lt;x2/&gt; enables to display information on method of connection to the source file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T084417Z" creationid="Марианна" creationdate="20200826T084417Z">
         <seg>&lt;x1/&gt;File storage&lt;x2/&gt; enables to display information on method of connection to the source file.</seg>
       </tuv>
     </tu>
