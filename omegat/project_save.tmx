@@ -2808,6 +2808,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пропустить строк&lt;x2/&gt; — количество строк с начала текста, не подлежащее импорту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T085626Z" creationid="Марианна" creationdate="20200826T085429Z">
+        <seg>&lt;x1/&gt;Skip rows&lt;x2/&gt; means count of the rows from the text beginning that cannot be imported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Профили кластеров&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
