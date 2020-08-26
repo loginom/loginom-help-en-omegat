@@ -6618,6 +6618,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Текст, следующий за этим символом и предшествующий следующему его вхождению, импортируется как одно значение, даже если текст содержит символ-разделитель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200826T092740Z" creationid="Марианна" creationdate="20200826T092740Z">
+        <seg>The text following this character and preceding its subsequent occurence is imported as one value even if the text contains a separating character.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Текстовый файл с разделителями представляет собой обычный текстовый файл, столбцы данных в котором разделены однотипными символами-разделителями, например, символами табуляции, запятыми, точками с запятой и т.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T084239Z" creationid="Марианна" creationdate="20200826T083623Z">
