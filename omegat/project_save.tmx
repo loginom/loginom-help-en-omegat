@@ -1368,8 +1368,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные элементы&lt;x2/&gt; — правая часть с уже выбранными элементами, позволяет указать интересуемые элементы из первого и задать им необходимые условия и значения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T200105Z" creationid="Марианна" creationdate="20200827T200105Z">
-        <seg>&lt;x1/&gt;Selected elements&lt;x2/&gt; are in the right part. It contains already chosen elements. It enables to specify the required elements in the first area and set necessary conditions and values for them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T200153Z" creationid="Марианна" creationdate="20200827T200105Z">
+        <seg>&lt;x1/&gt;Selected elements&lt;x2/&gt; are in the right part. It contains already chosen elements. It enables to specify the required elements in the first one and set necessary conditions and values for them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7078,6 +7078,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084917Z" creationid="Марианна" creationdate="20200717T084917Z">
         <seg>Export of the received results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Элемент может присутствовать только в одном списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T200146Z" creationid="Марианна" creationdate="20200827T200146Z">
+        <seg>The element can be only in one list.</seg>
       </tuv>
     </tu>
     <tu>
