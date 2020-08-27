@@ -1366,6 +1366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбранные элементы&lt;x2/&gt; — правая часть с уже выбранными элементами, позволяет указать интересуемые элементы из первого и задать им необходимые условия и значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T200105Z" creationid="Марианна" creationdate="20200827T200105Z">
+        <seg>&lt;x1/&gt;Selected elements&lt;x2/&gt; are in the right part. It contains already chosen elements. It enables to specify the required elements in the first area and set necessary conditions and values for them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
