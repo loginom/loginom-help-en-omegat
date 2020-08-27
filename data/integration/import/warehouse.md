@@ -1,47 +1,47 @@
-# ![Импорт из ХД](../../images/icons/data-sources/wh-datawarehouse-import_default.svg) Импорт из Deductor Warehouse
+# ![Import from the DW](../../images/icons/data-sources/wh-datawarehouse-import_default.svg) Import from Deductor Warehouse
 
-Компонент предназначен для импорта набора данных из Хранилища данных [Deductor Warehouse](../../data-format/data-warehouse.md) (далее — Хранилище данных).
+The component is designated for data import from the Data Warehouse [Deductor Warehouse](../../data-format/data-warehouse.md) (hereafter referred to as the Data Warehouse).
 
-> **Важно:** Для работы узла требуется предварительно создать [Подключение](../connections/README.md) к *Хранилищу данных* и связать его с входным портом *Подключение*.
+> **Important:** For the node operation it is required to pre-create [Connection](../connections/README.md) to the *Data Warehouse* and connect it with the *Connection* input port.
 
 ## Ports
 
 ### Input Ports
 
-* ![Порт подключений](../../images/icons/app/node/ports/inputs/link_inactive.svg) **Подключение** — принимает параметры подключения к Хранилищу данных;
+* ![Port of connections](../../images/icons/app/node/ports/inputs/link_inactive.svg) **Connection** accepts parameters of connection to the Data Warehouse.
 
 ### Output Ports
 
-* ![Выходной порт таблицы](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Набор данных** — Импортированные из хранилища данные.
+* ![Output port of table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set** mean the data imported from the Data Warehouse.
 
 ## Wizard
 
-Позволяет настроить импорт интересуемых данных из Хранилища данных.
+It enables to configure import of the required data from the Data Warehouse.
 
-### Step 1. Выбор объекта хранилища данных
+### Step 1. Selection of the Data Warehouse Object
 
 * **Connection** enables to display a string of connection to data source. It cannot be edited.
-* **Активировать** — позволяет установить связь с Хранилищем данных, если это еще не было сделано. После установления связи кнопка перестает быть активной, а название меняется на *Активировано*.
-* **Объекты хранилища данных** — содержит древовидный список ![Процессы](../../images/icons/data-warehouse/fact-tables-folder_default.svg) *Процессов* и ![Измерения](../../images/icons/data-warehouse/dimensions-folder_default.svg) *Измерений* из которых необходимо выбрать лишь один объект — ![Процесс](../../images/icons/data-warehouse/fact-table_default.svg) *Процесс* или ![Измерение](../../images/icons/data-warehouse/dimension_default.svg) *Измерение*.
+* **Activate** provides connection with the Data Warehouse if it has not been established yet. Upon connection establishment, the button is inactive, and the name is changed to *Activated*.
+* **Data Warehouse objects** contains a tree list ![Processes](../../images/icons/data-warehouse/fact-tables-folder_default.svg) *Processes* and ![Dimensions](../../images/icons/data-warehouse/dimensions-folder_default.svg) *Dimensions* from which it is required to select only one object, namely,![Process](../../images/icons/data-warehouse/fact-table_default.svg) *Process* or ![Dimension](../../images/icons/data-warehouse/dimension_default.svg) *Dimension*.
 
-### Step 2. Импорт из хранилища данных
+### Step 2. Import from the Data Warehouse
 
-На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге: измерениями, атрибутами и фактами.
+This page is designated for work with internal elements of the object selected at the previous stage: dimensions, attributes and measures.
 
-Окно мастера поделено на две области:
+The wizard window is divided into two areas:
 
-* **Доступные элементы** — левая часть, содержит список возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту;
-* **Выбранные элементы** — правая часть с уже выбранными элементами, позволяет указать интересуемые элементы из первого и задать им необходимые условия и значения.
+* **Available elements** are in the left part. It contains a list of elements that can be chosen in accordance with the object selected at the previous stage.
+* **Selected elements** are in the right part. It contains already chosen elements. It enables to specify the required elements in the first one and set necessary conditions and values for them.
 
-Элемент может присутствовать только в одном списке. Между списками доступно перемещение элементов, в том числе и с помощью перетаскивания (*drag&drop*).
+The element can be only in one list. Между списками доступно перемещение элементов, в том числе и с помощью перетаскивания (*drag&drop*).
 
-### Доступные элементы
+### Available Elements
 
 * **Параметр** — метка параметра, при наведении курсора мыши появляется полное название метки.
 * **Тип** — отображает типа элемента. Может быть:
-   * ![Измерение](../../images/icons/data-warehouse/dimension_default.svg) *Измерение*.
-   * ![Факт](../../images/icons/data-warehouse/fact_default.svg) *Факт*.
-   * ![Атрибут](../../images/icons/data-warehouse/attribute_default.svg) *Атрибут*.
+   * ![Dimension](../../images/icons/data-warehouse/dimension_default.svg) *Dimension*.
+   * ![Measure](../../images/icons/data-warehouse/fact_default.svg) *Measure*.
+   * ![Attribute](../../images/icons/data-warehouse/attribute_default.svg) *Attribute*.
 
 Список можно отсортировать, нажав по колонке *Параметр* или *Тип*. Выделить несколько элементов можно удерживая клавишу Shift или Ctrl.
 
@@ -50,7 +50,7 @@
 * ![Переместить](../../images/icons/toolbar-controls/create-out-column_default.svg) **Переместить в выбранные** — перемещает выделенный элемент в список *Выбранные элементы*;
 * ![Переместить все](../../images/icons/toolbar-controls/create-out-columns_default.svg) **Переместить в выбранные все** — перемещает все доступные элементы в список *Выбранные элементы*.
 
-### Выбранные элементы
+### Selected Elements
 
 * ![Выводить](../../images/icons/data-warehouse/on_default.svg) **Выводить** — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных (если отключено, то поле добавлено не будет, но по нему можно установить фильтр);
 * **Поле** — тоже что и *Параметр* в *Доступных элементах*;
@@ -71,7 +71,7 @@
 Для исключения элемента из списка выбранных:
 
 * Перетащить элемент из списка *Выбранные элементы* в *Доступные элементы*;
-* Нажать на кнопку ![Удалить](../../images/icons/toolbar-controls/delete_default.svg) *Удалить*.
+* To press the ![Delete](../../images/icons/toolbar-controls/delete_default.svg) button *Delete*.
 
 Для очистки всего списка нажать ![Удалить все](../../images/icons/toolbar-controls/delete-all_default.svg) *Удалить все...*.
 
@@ -85,12 +85,12 @@
 
 Доступны горячие клавиши, дублирующие некоторые перечисленные команды:
 
-* %kbd Delete % — удалить;
-* %kbd Shift Delete % — удалить все;
-* %kbd Ctrl Up % — Переместить вверх;
-* %kbd Ctrl Down % — Переместить вниз.
+* %kbd Delete % means to delete.
+* %kbd Shift Delete % means to delete all.
+* %kbd Ctrl Up % means to move up.
+* %kbd Ctrl Down % means to move down.
 
-#### Список значений
+#### List of Values
 
 Позволяет выбрать строки с которыми будут сравниваться значения.
 
