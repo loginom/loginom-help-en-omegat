@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импорт из ХД&lt;x2/&gt; Импорт из Deductor Warehouse</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193040Z" creationid="Марианна" creationdate="20200827T193040Z">
+        <seg>&lt;x1/&gt;Import from DW&lt;x2/&gt; Import from Deductor Warehouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импортировать&lt;x2/&gt; — пустые строки будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185737Z" creationid="Марианна" creationdate="20200825T185737Z">
@@ -4998,6 +5006,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T153639Z" creationid="Марианна" creationdate="20200824T153639Z">
         <seg>The component is designated for data set import from DBMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент предназначен для импорта набора данных из Хранилища данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; (далее — Хранилище данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193141Z" creationid="Марианна" creationdate="20200827T193141Z">
+        <seg>The component is designated for data import from Data Warehouse &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; (hereafter referred to as the Data Warehouse).</seg>
       </tuv>
     </tu>
     <tu>
