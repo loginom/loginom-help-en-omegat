@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Ctrl Down % — Переместить вниз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195027Z" creationid="Марианна" creationdate="20200827T195027Z">
+        <seg>%kbd Ctrl Down % means to move down.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Ctrl O % — открытие &lt;x1/&gt;Пакета&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140324Z" creationid="Марианна" creationdate="20200816T140324Z">
@@ -56,16 +64,16 @@
       <tuv lang="ru">
         <seg>%kbd Ctrl Up % — Переместить вверх;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T194944Z" creationid="Марианна" creationdate="20200827T194944Z">
-        <seg>%kbd Ctrl Up % menas to move up</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195035Z" creationid="Марианна" creationdate="20200827T194944Z">
+        <seg>%kbd Ctrl Up % means to move up.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>%kbd Delete % — удалить;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T194855Z" creationid="Марианна" creationdate="20200827T194855Z">
-        <seg>%kbd Delete % — delete.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194954Z" creationid="Марианна" creationdate="20200827T194855Z">
+        <seg>%kbd Delete % means to delete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1634,6 +1642,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
         <seg>&lt;x1/&gt;XML Extraction&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Измерение&lt;x2/&gt; &lt;x3/&gt;Измерение&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195235Z" creationid="Марианна" creationdate="20200827T195235Z">
+        <seg>&lt;x1/&gt;Dimension&lt;x2/&gt; &lt;x3/&gt;Dimension&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3664,6 +3680,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Факт&lt;x2/&gt; &lt;x3/&gt;Факт&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195210Z" creationid="Марианна" creationdate="20200827T195210Z">
+        <seg>&lt;x1/&gt;Measure&lt;x2/&gt; &lt;x3/&gt;Measure&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Факторный анализ&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054950Z" creationid="Марианна" creationdate="20200812T054950Z">
@@ -4458,6 +4482,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбранные элементы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195151Z" creationid="Марианна" creationdate="20200827T195151Z">
+        <seg>Selected Elements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранный путь можно быстро скопировать кнопкой &lt;x1/&gt;Копировать&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084444Z" creationid="Марианна" creationdate="20200814T085407Z">
@@ -4766,6 +4798,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105840Z" creationid="Марианна" creationdate="20200818T105840Z">
         <seg>Screen tips are used for the cells in which there is no enough place for text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступные элементы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195247Z" creationid="Марианна" creationdate="20200827T195247Z">
+        <seg>Available Elements</seg>
       </tuv>
     </tu>
     <tu>
@@ -5334,6 +5374,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120854Z" creationid="Марианна" creationdate="20200814T120854Z">
         <seg>Press this button to open the panel with the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нажать на кнопку &lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195137Z" creationid="Марианна" creationdate="20200827T195137Z">
+        <seg>To press the &lt;x1/&gt;Delete&lt;x2/&gt; button &lt;x3/&gt;Delete&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6638,6 +6686,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T122151Z" creationid="Марианна" creationdate="20200716T122151Z">
         <seg>It is possible to save the package only during the process of work with it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список значений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195106Z" creationid="Марианна" creationdate="20200827T195106Z">
+        <seg>List of Values</seg>
       </tuv>
     </tu>
     <tu>
