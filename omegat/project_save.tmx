@@ -1126,6 +1126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для работы узла требуется предварительно создать &lt;x3/&gt;Подключение&lt;x4/&gt; к &lt;x5/&gt;Хранилищу данных&lt;x6/&gt; и связать его с входным портом &lt;x7/&gt;Подключение&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193543Z" creationid="Марианна" creationdate="20200827T193329Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; For the node operation it is required to pre-create &lt;x3/&gt;Connection&lt;x4/&gt; to the &lt;x5/&gt;Data Warehouse&lt;x6/&gt; and connect it with the &lt;x7/&gt;Connection&lt;x8/&gt; input port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для работы узла требуется предварительно создать &lt;x3/&gt;подключение к платформе 1C:Предприятие 8.x&lt;x4/&gt; и связать его с входным портом &lt;x5/&gt;Подключение&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T120552Z" creationid="Марианна" creationdate="20200823T120552Z">
@@ -1374,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной порт таблицы&lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — Импортированные из хранилища данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193717Z" creationid="Марианна" creationdate="20200827T193717Z">
+        <seg>&lt;x1/&gt;Output port of table&lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; mean the data imported from the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вычисляемый факт&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065823Z" creationid="Марианна" creationdate="20200812T065823Z">
@@ -1608,8 +1624,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт из ХД&lt;x2/&gt; Импорт из Deductor Warehouse</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T193040Z" creationid="Марианна" creationdate="20200827T193040Z">
-        <seg>&lt;x1/&gt;Import from DW&lt;x2/&gt; Import from Deductor Warehouse</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193524Z" creationid="Марианна" creationdate="20200827T193040Z">
+        <seg>&lt;x1/&gt;Import from the DW&lt;x2/&gt; Import from Deductor Warehouse</seg>
       </tuv>
     </tu>
     <tu>
@@ -2690,6 +2706,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185804Z" creationid="Марианна" creationdate="20200810T185804Z">
         <seg>&lt;x1/&gt;User date/time format&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порт подключений&lt;x2/&gt; &lt;x3/&gt;Подключение&lt;x4/&gt; — принимает параметры подключения к Хранилищу данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193517Z" creationid="Марианна" creationdate="20200827T193517Z">
+        <seg>&lt;x1/&gt;Port of connections&lt;x2/&gt; &lt;x3/&gt;Connection&lt;x4/&gt; accepts parameters of connection to the Data Warehouse.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5012,8 +5036,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Компонент предназначен для импорта набора данных из Хранилища данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; (далее — Хранилище данных).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T193141Z" creationid="Марианна" creationdate="20200827T193141Z">
-        <seg>The component is designated for data import from Data Warehouse &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; (hereafter referred to as the Data Warehouse).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193531Z" creationid="Марианна" creationdate="20200827T193141Z">
+        <seg>The component is designated for data import from the Data Warehouse &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; (hereafter referred to as the Data Warehouse).</seg>
       </tuv>
     </tu>
     <tu>
