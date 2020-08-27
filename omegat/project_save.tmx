@@ -4882,6 +4882,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импорт из хранилища данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194618Z" creationid="Марианна" creationdate="20200827T194618Z">
+        <seg>Import from the Data Warehouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Инспектор свойств</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
