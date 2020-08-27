@@ -1094,6 +1094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Активировать&lt;x2/&gt; — позволяет установить связь с Хранилищем данных, если это еще не было сделано.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194007Z" creationid="Марианна" creationdate="20200827T194007Z">
+        <seg>&lt;x1/&gt;Activate&lt;x2/&gt; provides connection with the Data Warehouse if it has not been established yet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; — отображение информации о методе сжатия LGD-файла, использованном при его создании.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062922Z" creationid="Марианна" creationdate="20200826T062922Z">
@@ -4410,6 +4418,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор объекта хранилища данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193837Z" creationid="Марианна" creationdate="20200827T193837Z">
+        <seg>Selection of the Data Warehouse Object</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранный путь можно быстро скопировать кнопкой &lt;x1/&gt;Копировать&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084444Z" creationid="Марианна" creationdate="20200814T085407Z">
@@ -5906,6 +5922,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Позволяет настроить импорт интересуемых данных из Хранилища данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T193812Z" creationid="Марианна" creationdate="20200827T193812Z">
+        <seg>It enables to configure import of the required data from the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Получать данные от узлов из других сценариев и пакетов через механизм &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
@@ -6022,6 +6046,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200820T110027Z" creationid="Марианна" creationdate="20200816T143457Z">
         <seg>It will be set to the file name and correct identifier after saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После установления связи кнопка перестает быть активной, а название меняется на &lt;x3/&gt;Активировано&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194118Z" creationid="Марианна" creationdate="20200827T194118Z">
+        <seg>Upon connection establishment, the button is inactive, and the name is changed to &lt;x3/&gt;Activated&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
