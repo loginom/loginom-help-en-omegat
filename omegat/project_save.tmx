@@ -1150,6 +1150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Атрибут&lt;x2/&gt; &lt;x3/&gt;Атрибут&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195537Z" creationid="Марианна" creationdate="20200827T195537Z">
+        <seg>&lt;x1/&gt;Attribute&lt;x2/&gt; &lt;x3/&gt;Attribute&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;База данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184604Z" creationid="Марианна" creationdate="20200810T184604Z">
@@ -1586,6 +1594,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191810Z" creationid="Марианна" creationdate="20200810T191810Z">
         <seg>&lt;x1/&gt;Enrich data&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Доступные элементы&lt;x2/&gt; — левая часть, содержит список возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195837Z" creationid="Марианна" creationdate="20200827T195837Z">
+        <seg>&lt;x1/&gt;Available elements&lt;x2/&gt; are in the left part. It contains a list of elements that can be chosen in accordance with the object selected at the previous stage.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5298,6 +5314,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге: измерениями, атрибутами и фактами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195507Z" creationid="Марианна" creationdate="20200827T195507Z">
+        <seg>This page is designated for work with internal elements of the object selected at the previous stage: dimensions, attributes and measures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе настройки указываются следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113611Z" creationid="Марианна" creationdate="20200825T113611Z">
@@ -5542,6 +5566,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T095522Z" creationid="Марианна" creationdate="20200818T095522Z">
         <seg>The &lt;x1/&gt;Property inspector&lt;x2/&gt; window is located in the right part of the screen on the &lt;x3/&gt;Workflow&lt;x4/&gt; and &lt;x5/&gt;Connections&lt;x6/&gt; pages. It is collapsed by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно мастера поделено на две области:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T195617Z" creationid="Марианна" creationdate="20200827T195617Z">
+        <seg>The wizard window is divided into two areas:</seg>
       </tuv>
     </tu>
     <tu>
