@@ -54,10 +54,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Ctrl Up % — Переместить вверх;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194944Z" creationid="Марианна" creationdate="20200827T194944Z">
+        <seg>%kbd Ctrl Up % menas to move up</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Delete % — удалить;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194855Z" creationid="Марианна" creationdate="20200827T194855Z">
+        <seg>%kbd Delete % — delete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd F2 % — редактирование свойств;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140313Z" creationid="Марианна" creationdate="20200816T140248Z">
         <seg>%kbd F2 % — edit properties;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Shift Delete % — удалить все;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200827T194949Z" creationid="Марианна" creationdate="20200827T194916Z">
+        <seg>%kbd Shift Delete % means to delete all.</seg>
       </tuv>
     </tu>
     <tu>
