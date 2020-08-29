@@ -3976,6 +3976,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;выводить&lt;x2/&gt; &lt;x3/&gt;Выводить&lt;x4/&gt; — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204025Z" creationid="Марианна" creationdate="20200829T204025Z">
+        <seg>&lt;x1/&gt;show&lt;x2/&gt; &lt;x3/&gt;Show&lt;x4/&gt; enables to define whether this item will be added in the form of a field to the output data set. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x7/&gt;Пример подключения и работы с БД&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154517Z" creationid="Марианна" creationdate="20200824T154517Z">
@@ -4794,6 +4802,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для очистки всего списка нажать &lt;x1/&gt;Удалить все&lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203741Z" creationid="Марианна" creationdate="20200829T203741Z">
+        <seg>To clear the whole list, it is required to press the &lt;x1/&gt;Delete all&lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для перехода к объектам, находящимся выше по уровню вложенности, следует нажать на соответствующий объект в цепи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081502Z" creationid="Марианна" creationdate="20200814T081502Z">
@@ -5322,6 +5338,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Контекстное меню дублирует общие функции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203841Z" creationid="Марианна" creationdate="20200829T203841Z">
+        <seg>The context menu duplicates the general functions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Контекстное меню, вызываемое кликом правой клавиши мыши, в основном повторяет перечисленный выше набор:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135118Z" creationid="Марианна" creationdate="20200816T135118Z">
@@ -5572,8 +5596,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Нажать на кнопку &lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195137Z" creationid="Марианна" creationdate="20200827T195137Z">
-        <seg>To press the &lt;x1/&gt;Delete&lt;x2/&gt; button &lt;x3/&gt;Delete&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203641Z" creationid="Марианна" creationdate="20200827T195137Z">
+        <seg>Press the &lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
