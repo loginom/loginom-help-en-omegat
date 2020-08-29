@@ -1614,6 +1614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — позволяет добавить в список новую строку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T205048Z" creationid="Марианна" creationdate="20200829T205048Z">
+        <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add a new row to the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191810Z" creationid="Марианна" creationdate="20200810T191810Z">
@@ -1778,6 +1786,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
         <seg>&lt;x1/&gt;Name&lt;x2/&gt; is a Package file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Инвертировать выбор&lt;x2/&gt; &lt;x3/&gt;Инвертировать выбор&lt;x4/&gt; — меняет отмеченные и не отмеченные элементы местами;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T205012Z" creationid="Марианна" creationdate="20200829T205012Z">
+        <seg>&lt;x1/&gt;Invert selection&lt;x2/&gt; &lt;x3/&gt;Invert selection&lt;x4/&gt; enables to invert selected and not selected items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3252,6 +3268,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055543Z" creationid="Марианна" creationdate="20200812T055543Z">
         <seg>&lt;x1/&gt;Eliminate outliers&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — позволяет отредактировать добавленную в список строку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T205130Z" creationid="Марианна" creationdate="20200829T205130Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to edit the row added to the list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6574,6 +6598,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T074026Z" creationid="Марианна" creationdate="20200817T074026Z">
         <seg>If &lt;x1/&gt;&lt;x2/&gt; is not available, it shows only active processes and the processes in which errors occurred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При помощи поля &lt;x1/&gt;фильтр&lt;x2/&gt; &lt;x3/&gt;Фильтрация&lt;x4/&gt; можно уменьшить видимую часть списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T205232Z" creationid="Марианна" creationdate="20200829T205232Z">
+        <seg>Using the&lt;x1/&gt;filter&lt;x2/&gt; &lt;x3/&gt;Filtration&lt;x4/&gt; field, it is possible to decrease the visible part of the list.</seg>
       </tuv>
     </tu>
     <tu>
