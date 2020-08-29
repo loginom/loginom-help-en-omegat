@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Набор данных — импортированная таблица.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210656Z" creationid="Марианна" creationdate="20200829T210656Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Data set - imported table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Настроить подключение — переход к окну настройки параметров подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
@@ -3136,6 +3144,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Просмотр выбранного файла&lt;x2/&gt; — область позволяет увидеть содержание выбранного для импорта файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210900Z" creationid="Марианна" creationdate="20200829T210900Z">
+        <seg>&lt;x1/&gt;Preview selected file&lt;x2/&gt; enables to view content of the file selected for import.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Профили кластеров&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
@@ -5346,6 +5362,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопка &lt;x3/&gt; &lt;x4/&gt; вызывает диалог выбора файла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210810Z" creationid="Марианна" creationdate="20200829T210810Z">
+        <seg>&lt;x3/&gt; &lt;x4/&gt; button calls the file selection dialog.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кнопка &lt;x3/&gt; &lt;x4/&gt; вызывает диалог выбора файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123600Z" creationid="Марианна" creationdate="20200825T123600Z">
@@ -5734,6 +5758,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
         <seg>Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка подключения к файлу XML</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210741Z" creationid="Марианна" creationdate="20200829T210741Z">
+        <seg>Configuration of Connection to the XML File</seg>
       </tuv>
     </tu>
     <tu>
