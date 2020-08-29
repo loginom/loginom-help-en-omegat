@@ -46,7 +46,7 @@ The wizard window is divided into two areas:
 * ![Удалить](../../images/icons/toolbar-controls/delete_default.svg) — перемещает текущий элемент в список *Доступные поля*;
 * ![Удалить все](../../images/icons/toolbar-controls/delete-all_default.svg) — перемещает все элементы в список *Доступные поля*.
 
-Контекстное меню дублирует общие функции:
+The context menu duplicates the general functions:
 
 * ![Переместить вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенные поля вверх по списку;
 * ![Переместить вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенные поля вниз по списку;
