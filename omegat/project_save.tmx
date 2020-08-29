@@ -2942,6 +2942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; если отключить вывод элемента и не задать &lt;x3/&gt;условий&lt;x4/&gt; и/или &lt;x5/&gt;значений&lt;x6/&gt;, то после сохранения списка этот элемент будет перемещен обратно в список &lt;x7/&gt;Доступные элементы&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T202628Z" creationid="Марианна" creationdate="20200829T202628Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if the item showing is disabled, and no &lt;x3/&gt;conditions &lt;x4/&gt; and/or &lt;x5/&gt;values&lt;x6/&gt; are specified, upon the list saving, this item will be moved back to the &lt;x7/&gt;Available items&lt;x8/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; команды "Сохранить", "Сохранить как", "Закрыть пакет" доступны в случае открытого Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122655Z" creationid="Марианна" creationdate="20200814T122655Z">
@@ -4942,6 +4950,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T091257Z" creationid="Марианна" creationdate="20200817T075505Z">
         <seg>It can be opened by pressing &lt;x1/&gt;&lt;x2/&gt; button located in the left low corner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если в поле &lt;x1/&gt;Условие&lt;x2/&gt; выбран вариант &lt;x3/&gt;в списке&lt;x4/&gt; или &lt;x5/&gt;вне списка&lt;x6/&gt;, то в поле &lt;x7/&gt;Значение&lt;x8/&gt; появится возможность отредактировать список, по которому будет проводится сравнение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T202944Z" creationid="Марианна" creationdate="20200829T202944Z">
+        <seg>If &lt;x3/&gt;listed&lt;x4/&gt; or &lt;x5/&gt;not listed&lt;x6/&gt; option is selected in the &lt;x1/&gt;Condition&lt;x2/&gt; field, it will be possible to edit the list used for comparison in the &lt;x7/&gt;Value&lt;x8/&gt; field.</seg>
       </tuv>
     </tu>
     <tu>
