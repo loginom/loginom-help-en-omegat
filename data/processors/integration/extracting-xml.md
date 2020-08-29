@@ -52,20 +52,20 @@
 
 * **Выдавать описание кодов завершения** — в таблицу с логами будет добавлен столбец "Описание ошибки".
 
-### Step 2. Импортируемые поля
+### Step 2. Imported Fields
 
-* **Подключение** — состояние подключения к XSD-схеме.
+* **Connection** is a state of connection to the XSD schema.
 
 * **Корневой элемент** — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут извлекаться. Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля извлекаемой таблицы.
 
-* **Временная зона по умолчанию** — значения с типом *Дата/Время* преобразуются при извлечении из XML по следующему алгоритму:
-   * Если значение содержит указание временной зоны, оно преобразуется к текущей временной зоне сервера Loginom.
-   * Если значение не содержит указание временной зоны, то:
-      * если *Временная зона по умолчанию* задана, значение преобразуется к текущей временной зоне сервера Loginom в предположении, что имеет временную зону, указанную в параметре *Временная зона по умолчанию*.
-      * если *Временная зона по умолчанию* не задана, значение остается без изменений.
+* **Default time zone**: the *Date/time* type values are transformed when extracting from XML according to the following algorithm:
+   * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
+   * If the time zone is not specified for the value, the following conditions are met:
+      * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
+      * If *Default time zone* is not specified, the value is not changed.
 
-* **Дублировать единичные значения** — если в составе последовательности имеется единичный элемент и вложенная последовательность, значения единичного элемента будут продублированы для каждой строки, образованной из вложенной последовательности.
+* **Repeat single values**: if there are a single item and nested sequence included into a sequence, the single item values will be repeated for each row formed from the nested sequence.
 
-* **Проверять на строгое соответствие XSD** — при установке флага производится валидация XML на строгое соответствие XSD схеме. В противном случае проверка производится в упрощенном, ускоренном режиме. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML в случае, если имеются невыявленные ошибки валидации.
+* **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XXML if there are undetected validation errors.
 
-* **Генерировать составные метки полей** — при наличии данного флага в каждой метке поля будет отражена иерархия относительно корневого элемента. Например, составная метка "ROOT|PERSON|ACCES-LEVEL" будет сформирована для поля извлеченной таблицы, содержащего данные атрибута "ACCESS-LEVEL" элемента "PERSON" из корневого элемента "ROOT" документа. При отсутствии флага поле получит название "ACCESS-LEVEL".
+* **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. Например, составная метка "ROOT|PERSON|ACCES-LEVEL" будет сформирована для поля извлеченной таблицы, содержащего данные атрибута "ACCESS-LEVEL" элемента "PERSON" из корневого элемента "ROOT" документа. При отсутствии флага поле получит название "ACCESS-LEVEL".

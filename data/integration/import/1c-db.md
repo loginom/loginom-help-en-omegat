@@ -9,7 +9,7 @@ The component is designated for import from 1C database.
 ### Input Ports
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection accepts parameters of connection to database.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port) — it is possible to set values of wizard parameters using variables.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
 
 ### Output Ports
 

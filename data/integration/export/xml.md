@@ -2,15 +2,15 @@
 
 Компонент предназначен для экспорта таблиц данных в файлы формата XML.
 
-> **Важно:** Для работы узла требуется предварительно создать [подключение к XSD-схеме](../connections/list/schemes.md) и связать его с входным портом *Подключение*. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
+> **Important:** For the node operation it is required to pre-create [connection to the XSD schema](../connections/list/schemes.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
 
 ## Ports
 
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](../../scenario/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки;
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее *Подключения к набору XSD-схем*.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection to the XSD schema source (optional port) enables connection to the *Connection to set of the XSD schemas* configured earlier.
 
 ## Wizard
 
@@ -26,7 +26,7 @@
 
 ### Step 2. Сопоставление полей для экспорта
 
-* **Подключение** — состояние подключения к XSD-схеме.
+* **Connection** is a state of connection to the XSD schema.
 * **Корневой элемент** — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут экспортироваться.
 * **Связывание объектов** — список полей экспортируемой таблицы и иерархической структуры XML, которые необходимо соотнести друг с другом. Типы данных поля таблицы и связываемого объекта должны совпадать. Списки можно связать автоматически, воспользовавшись кнопкой ![ ](../../images/icons/toolbar-controls/auto-connect_default.svg) *Связать автоматически*. Если связь между полем и объектом была установлена неправильно, ее можно удалить, нажав на кнопку ![ ](../../images/icons/link-grid/remove-link_hover.svg) на линии связи. При необходимости удаления всех связей используется кнопка ![ ](../../images/icons/toolbar-controls/remove-all-links_default.svg) *Удалить все связи*. Поля таблицы, которые уже соотнесены с каким-либо элементом, подсвечиваются жирным шрифтом. Помимо автоматического, возможно связывание полей и объектов XML вручную двумя способами.
    * **Методом Drag-and-drop** — перетащить метку поля на элемент.
