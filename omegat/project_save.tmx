@@ -2590,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметр&lt;x2/&gt; — метка параметра, при наведении курсора мыши появляется полное название метки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200453Z" creationid="Марианна" creationdate="20200829T200453Z">
+        <seg>&lt;x1/&gt;Parameter&lt;x2/&gt; is a parameter caption. When cursor hovering, the full caption name appears.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры диапазонов квантования&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055309Z" creationid="Марианна" creationdate="20200812T055309Z">
