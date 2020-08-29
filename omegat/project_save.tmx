@@ -320,8 +320,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T121119Z" creationid="Марианна" creationdate="20200823T121119Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port) — it is possible to set values of wizard parameters using variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210259Z" creationid="Марианна" creationdate="20200823T121119Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -336,8 +336,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; — (необязательный порт) переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T154754Z" creationid="Марианна" creationdate="20200824T154754Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port) - it is possible to set values of wizard parameters using variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210313Z" creationid="Марианна" creationdate="20200824T154754Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -426,6 +426,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T102852Z" creationid="Марианна" creationdate="20200711T102757Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Configure the connection — go to the connection configuration parameters window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее &lt;x3/&gt;Подключения к набору XSD-схем&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210635Z" creationid="Марианна" creationdate="20200829T210635Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to the XSD schema source (optional port) enables connection to the &lt;x3/&gt;Connection to set of the XSD schemas&lt;x4/&gt; configured earlier.</seg>
       </tuv>
     </tu>
     <tu>
