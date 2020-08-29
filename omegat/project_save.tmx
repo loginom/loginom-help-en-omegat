@@ -1608,8 +1608,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные элементы&lt;x2/&gt; — левая часть, содержит список возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195837Z" creationid="Марианна" creationdate="20200827T195837Z">
-        <seg>&lt;x1/&gt;Available elements&lt;x2/&gt; are in the left part. It contains a list of elements that can be chosen in accordance with the object selected at the previous stage.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201049Z" creationid="Марианна" creationdate="20200827T195837Z">
+        <seg>&lt;x1/&gt;Available items&lt;x2/&gt; are in the left part. It contains a list of elements that can be chosen in accordance with the object selected at the previous stage.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2666,6 +2666,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T182515Z" creationid="Марианна" creationdate="20200810T182515Z">
         <seg>&lt;x1/&gt;Variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить&lt;x2/&gt; &lt;x3/&gt;Переместить в выбранные&lt;x4/&gt; — перемещает выделенный элемент в список &lt;x5/&gt;Выбранные элементы&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201001Z" creationid="Марианна" creationdate="20200829T201001Z">
+        <seg>&lt;x1/&gt;Move&lt;x2/&gt; &lt;x3/&gt;Move to selected&lt;x4/&gt; — перемещает выделенный элемент в список &lt;x5/&gt;Selected items&lt;x6/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5226,6 +5234,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Контекстное меню:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200805Z" creationid="Марианна" creationdate="20200829T200805Z">
+        <seg>The context menu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Корень дерева в &lt;x1/&gt;Инспекторе свойств&lt;x2/&gt; содержит название компонента, на основе которого создан узел сценария, а в колонке &lt;x3/&gt;Значение&lt;x4/&gt; выводится метка узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T092200Z" creationid="Марианна" creationdate="20200818T101947Z">
@@ -5364,8 +5380,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге: измерениями, атрибутами и фактами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195507Z" creationid="Марианна" creationdate="20200827T195507Z">
-        <seg>This page is designated for work with internal elements of the object selected at the previous stage: dimensions, attributes and measures.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201025Z" creationid="Марианна" creationdate="20200827T195507Z">
+        <seg>This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and measures.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6780,8 +6796,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Список можно отсортировать, нажав по колонке &lt;x1/&gt;Параметр&lt;x2/&gt; или &lt;x3/&gt;Тип&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T200634Z" creationid="Марианна" creationdate="20200829T200634Z">
-        <seg>It is possible to sort the list, pressing the &lt;x1/&gt;Parameter&lt;x2/&gt; or the &lt;x3/&gt;Type&lt;x4/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200742Z" creationid="Марианна" creationdate="20200829T200634Z">
+        <seg>It is possible to sort the list by pressing the &lt;x1/&gt;Parameter&lt;x2/&gt; or the &lt;x3/&gt;Type&lt;x4/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
