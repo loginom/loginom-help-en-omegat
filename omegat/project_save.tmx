@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выводить&lt;x2/&gt; &lt;x3/&gt;Выводить&lt;x4/&gt; — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных (если отключено, то поле добавлено не будет, но по нему можно установить фильтр);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201715Z" creationid="Марианна" creationdate="20200829T201715Z">
+        <seg>&lt;x1/&gt;Show&lt;x2/&gt; &lt;x3/&gt;Show&lt;x4/&gt; enables to define whether this item will be added in the form of a field to the output data set (if it is disabled, the field will not be added but corresponding filter can be set).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
