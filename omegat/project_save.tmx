@@ -3128,6 +3128,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проверять на строгое соответствие XSD&lt;x2/&gt; — при установке флага производится валидация XML на строгое соответствие XSD схеме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T221349Z" creationid="Марианна" creationdate="20200829T221349Z">
+        <seg>&lt;x1/&gt;Check for strict XSD validation&lt;x2/&gt;: when flag placing, XML is validated for strict compliance with the XSD schema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120529Z" creationid="Марианна" creationdate="20200718T120529Z">
@@ -4536,6 +4544,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
         <seg>In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В противном случае проверка производится в упрощенном, ускоренном режиме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T221613Z" creationid="Марианна" creationdate="20200829T221613Z">
+        <seg>Otherwise, the check is performed in the simplified accelerated mode.</seg>
       </tuv>
     </tu>
     <tu>
