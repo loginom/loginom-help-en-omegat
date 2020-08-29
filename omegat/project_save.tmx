@@ -2830,6 +2830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; — состояние подключения к XSD-схеме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T215507Z" creationid="Марианна" creationdate="20200829T215507Z">
+        <seg>&lt;x1/&gt;Connection&lt;x2/&gt; is a state of connection to the XSD schema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183319Z" creationid="Марианна" creationdate="20200810T183319Z">
