@@ -1368,8 +1368,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные элементы&lt;x2/&gt; — правая часть с уже выбранными элементами, позволяет указать интересуемые элементы из первого и задать им необходимые условия и значения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T200153Z" creationid="Марианна" creationdate="20200827T200105Z">
-        <seg>&lt;x1/&gt;Selected elements&lt;x2/&gt; are in the right part. It contains already chosen elements. It enables to specify the required elements in the first one and set necessary conditions and values for them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201109Z" creationid="Марианна" creationdate="20200827T200105Z">
+        <seg>&lt;x1/&gt;Selected items&lt;x2/&gt; are in the right part. It contains already chosen elements. It enables to specify the required elements in the first one and set necessary conditions and values for them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2670,10 +2670,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить все&lt;x2/&gt; &lt;x3/&gt;Переместить в выбранные все&lt;x4/&gt; — перемещает все доступные элементы в список &lt;x5/&gt;Выбранные элементы&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201357Z" creationid="Марианна" creationdate="20200829T201357Z">
+        <seg>&lt;x1/&gt;Move all&lt;x2/&gt; &lt;x3/&gt;Move all to selected&lt;x4/&gt; enables to transfer all available items to the &lt;x5/&gt;Selected items&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить&lt;x2/&gt; &lt;x3/&gt;Переместить в выбранные&lt;x4/&gt; — перемещает выделенный элемент в список &lt;x5/&gt;Выбранные элементы&lt;x6/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T201001Z" creationid="Марианна" creationdate="20200829T201001Z">
-        <seg>&lt;x1/&gt;Move&lt;x2/&gt; &lt;x3/&gt;Move to selected&lt;x4/&gt; — перемещает выделенный элемент в список &lt;x5/&gt;Selected items&lt;x6/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201240Z" creationid="Марианна" creationdate="20200829T201001Z">
+        <seg>&lt;x1/&gt;Move&lt;x2/&gt; &lt;x3/&gt;Move to selected&lt;x4/&gt; enables to move the selected item to the &lt;x5/&gt;Selected items&lt;x6/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3618,8 +3626,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — отображает типа элемента.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T200519Z" creationid="Марианна" creationdate="20200829T200519Z">
-        <seg>&lt;x1/&gt;Type&lt;x2/&gt; enables to display the element type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201144Z" creationid="Марианна" creationdate="20200829T200519Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt; enables to display the item type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4532,8 +4540,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выбранные элементы</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195151Z" creationid="Марианна" creationdate="20200827T195151Z">
-        <seg>Selected Elements</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201213Z" creationid="Марианна" creationdate="20200827T195151Z">
+        <seg>Selected Items</seg>
       </tuv>
     </tu>
     <tu>
@@ -4572,8 +4580,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выделить несколько элементов можно удерживая клавишу Shift или Ctrl.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T200737Z" creationid="Марианна" creationdate="20200829T200737Z">
-        <seg>It is possible to select several elements by holding down the Shift or Ctrl key.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201200Z" creationid="Марианна" creationdate="20200829T200737Z">
+        <seg>It is possible to select several items by holding down the Shift or Ctrl key.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4860,8 +4868,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доступные элементы</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195247Z" creationid="Марианна" creationdate="20200827T195247Z">
-        <seg>Available Elements</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201134Z" creationid="Марианна" creationdate="20200827T195247Z">
+        <seg>Available Items</seg>
       </tuv>
     </tu>
     <tu>
@@ -5300,8 +5308,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Между списками доступно перемещение элементов, в том числе и с помощью перетаскивания (&lt;x1/&gt;drag&amp;drop&lt;x2/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T200110Z" creationid="Марианна" creationdate="20200829T200110Z">
-        <seg>It is possible to move elements between the lists, including drag&amp;drop (&lt;x1/&gt;drag&amp;drop&lt;x2/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201124Z" creationid="Марианна" creationdate="20200829T200110Z">
+        <seg>It is possible to move items between the lists, including drag&amp;drop (&lt;x1/&gt;drag&amp;drop&lt;x2/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5348,8 +5356,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Может быть:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T200531Z" creationid="Марианна" creationdate="20200829T200531Z">
-        <seg>There are the following elements:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201151Z" creationid="Марианна" creationdate="20200829T200531Z">
+        <seg>There are the following items:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7148,8 +7156,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Элемент может присутствовать только в одном списке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T200146Z" creationid="Марианна" creationdate="20200827T200146Z">
-        <seg>The element can be only in one list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201117Z" creationid="Марианна" creationdate="20200827T200146Z">
+        <seg>The item can be only in one list.</seg>
       </tuv>
     </tu>
     <tu>
