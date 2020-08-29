@@ -5162,6 +5162,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если значение не содержит указание временной зоны, то:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T220504Z" creationid="Марианна" creationdate="20200829T220504Z">
+        <seg>If the time zone is not specified for the value, the following conditions are met:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если значение содержит указание временной зоны, оно преобразуется к текущей временной зоне сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T220415Z" creationid="Марианна" creationdate="20200829T220415Z">
