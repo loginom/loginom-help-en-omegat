@@ -6394,6 +6394,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После завершения работы со списком следует нажать кнопку &lt;x1/&gt;Применить&lt;x2/&gt; для внесения изменений либо &lt;x3/&gt;Отменить&lt;x4/&gt; для возврата к состоянию до начала работы со списком.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T205546Z" creationid="Марианна" creationdate="20200829T205546Z">
+        <seg>When the work with the list is completed, it is required to press the &lt;x1/&gt;Apply&lt;x2/&gt; button to introduce changes, or the &lt;x3/&gt;Cancel&lt;x4/&gt; button to return to the state before the work with the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После закрытия пакета этот файл удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112726Z" creationid="Марианна" creationdate="20200713T112726Z">
