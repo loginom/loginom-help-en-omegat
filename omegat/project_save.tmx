@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбрать все&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; — отмечает все строки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204808Z" creationid="Марианна" creationdate="20200829T204808Z">
+        <seg>&lt;x1/&gt;Check all&lt;x2/&gt; &lt;x3/&gt;Check all&lt;x4/&gt; enables to check all rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выводить&lt;x2/&gt; &lt;x3/&gt;Выводить&lt;x4/&gt; — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных (если отключено, то поле добавлено не будет, но по нему можно установить фильтр);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201715Z" creationid="Марианна" creationdate="20200829T201715Z">
@@ -2494,6 +2502,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отменить выбор всех&lt;x2/&gt; &lt;x3/&gt;Отменить выбор всех&lt;x4/&gt; — убирает выбор всех строк;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204911Z" creationid="Марианна" creationdate="20200829T204911Z">
+        <seg>&lt;x1/&gt;Uncheck all&lt;x2/&gt; &lt;x3/&gt;Uncheck all&lt;x4/&gt; enables to uncheck all rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Относительный&lt;x2/&gt; (для персонального использования) — вместо имени папки содержит точку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085308Z" creationid="Марианна" creationdate="20200814T085308Z">
@@ -2834,6 +2850,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192609Z" creationid="Марианна" creationdate="20200810T192609Z">
         <seg>&lt;x1/&gt;Full join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Получить список&lt;x2/&gt; &lt;x3/&gt;Получить список&lt;x4/&gt; — получает список, соответствующий выбранному элементу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204715Z" creationid="Марианна" creationdate="20200829T204715Z">
+        <seg>&lt;x1/&gt;Get list&lt;x2/&gt; &lt;x3/&gt;Get list&lt;x4/&gt; enables to get the list compliant with the selected item.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6262,6 +6286,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090236Z" creationid="Марианна" creationdate="20200816T133511Z">
         <seg>More detailed information is provided in the &lt;x5/&gt;file storage&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет выбрать строки с которыми будут сравниваться значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204623Z" creationid="Марианна" creationdate="20200829T204623Z">
+        <seg>It enables to select the rows with which values will be compared.</seg>
       </tuv>
     </tu>
     <tu>
