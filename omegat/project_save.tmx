@@ -3608,6 +3608,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — отображает типа элемента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200519Z" creationid="Марианна" creationdate="20200829T200519Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt; enables to display the element type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Типы данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070450Z" creationid="Марианна" creationdate="20200812T070450Z">
@@ -4554,6 +4562,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выделить несколько элементов можно удерживая клавишу Shift или Ctrl.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200737Z" creationid="Марианна" creationdate="20200829T200737Z">
+        <seg>It is possible to select several elements by holding down the Shift or Ctrl key.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вызовем &lt;x3/&gt;Мастер настройки&lt;x4/&gt; (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114141Z" creationid="Марианна" creationdate="20200717T085727Z">
@@ -5310,6 +5326,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111621Z" creationid="Марианна" creationdate="20200713T111621Z">
         <seg>The Module inludes the following items:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Может быть:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200531Z" creationid="Марианна" creationdate="20200829T200531Z">
+        <seg>There are the following elements:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6750,6 +6774,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195106Z" creationid="Марианна" creationdate="20200827T195106Z">
         <seg>List of Values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список можно отсортировать, нажав по колонке &lt;x1/&gt;Параметр&lt;x2/&gt; или &lt;x3/&gt;Тип&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200634Z" creationid="Марианна" creationdate="20200829T200634Z">
+        <seg>It is possible to sort the list, pressing the &lt;x1/&gt;Parameter&lt;x2/&gt; or the &lt;x3/&gt;Type&lt;x4/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
