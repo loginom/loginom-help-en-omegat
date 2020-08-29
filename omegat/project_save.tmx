@@ -5242,6 +5242,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импортируемые поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210913Z" creationid="Марианна" creationdate="20200829T210913Z">
+        <seg>Imported Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Инспектор свойств</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
