@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из XML-файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T205752Z" creationid="Марианна" creationdate="20200829T205752Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Import from the XML File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Импорт из базы данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T151600Z" creationid="Марианна" creationdate="20200824T151600Z">
@@ -5374,6 +5382,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T193531Z" creationid="Марианна" creationdate="20200827T193141Z">
         <seg>The component is designated for data import from the Data Warehouse &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; (hereafter referred to as the Data Warehouse).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент предназначен для импорта таблиц данных из файлов формата XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210009Z" creationid="Марианна" creationdate="20200829T210009Z">
+        <seg>The component is designated for data tables import from the XML files.</seg>
       </tuv>
     </tu>
     <tu>
