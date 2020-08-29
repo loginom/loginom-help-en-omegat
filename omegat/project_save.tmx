@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210235Z" creationid="Марианна" creationdate="20200829T210235Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of wizard parameters using variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; — (необязательный порт) переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154754Z" creationid="Марианна" creationdate="20200824T154754Z">
@@ -1186,6 +1194,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T193543Z" creationid="Марианна" creationdate="20200827T193329Z">
         <seg>&lt;x1/&gt;Important:&lt;x2/&gt; For the node operation it is required to pre-create &lt;x3/&gt;Connection&lt;x4/&gt; to the &lt;x5/&gt;Data Warehouse&lt;x6/&gt; and connect it with the &lt;x7/&gt;Connection&lt;x8/&gt; input port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для работы узла требуется предварительно создать &lt;x3/&gt;подключение к XSD-схеме&lt;x4/&gt; и связать его с входным портом &lt;x5/&gt;Подключение&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T210118Z" creationid="Марианна" creationdate="20200829T210118Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; For the node operation it is required to pre-create &lt;x3/&gt;connection to the XSD schema&lt;x4/&gt; and connect it with the &lt;x5/&gt;Connection&lt;x6/&gt; input port.</seg>
       </tuv>
     </tu>
     <tu>
