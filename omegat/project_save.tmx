@@ -7610,6 +7610,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>если &lt;x1/&gt;Временная зона по умолчанию&lt;x2/&gt; задана, значение преобразуется к текущей временной зоне сервера Loginom в предположении, что имеет временную зону, указанную в параметре &lt;x3/&gt;Временная зона по умолчанию&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T220756Z" creationid="Марианна" creationdate="20200829T220756Z">
+        <seg>If &lt;x1/&gt;Default time zone&lt;x2/&gt; is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the &lt;x3/&gt;Default time zone&lt;x4/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>если &lt;x1/&gt;Временная зона по умолчанию&lt;x2/&gt; не задана, значение остается без изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T220835Z" creationid="Марианна" creationdate="20200829T220835Z">
+        <seg>If &lt;x1/&gt;Default time zone&lt;x2/&gt; is not specified, the value is not changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для примера</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112821Z" creationid="Марианна" creationdate="20200825T112821Z">
