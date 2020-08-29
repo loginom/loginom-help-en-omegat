@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Временная зона по умолчанию&lt;x2/&gt; — значения с типом &lt;x3/&gt;Дата/Время&lt;x4/&gt; преобразуются при извлечении из XML по следующему алгоритму:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T220252Z" creationid="Марианна" creationdate="20200829T220252Z">
+        <seg>&lt;x1/&gt;Default time zone&lt;x2/&gt;: the &lt;x3/&gt;Date/time&lt;x4/&gt; type values are transformed when extracting from XML according to the following algorithm:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные наборы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193036Z" creationid="Марианна" creationdate="20200810T193036Z">
@@ -5150,6 +5158,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T123050Z" creationid="Марианна" creationdate="20200823T123050Z">
         <seg>If these variables are not determined in the input port of the import node, there will be an exception.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если значение содержит указание временной зоны, оно преобразуется к текущей временной зоне сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T220415Z" creationid="Марианна" creationdate="20200829T220415Z">
+        <seg>If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.</seg>
       </tuv>
     </tu>
     <tu>
