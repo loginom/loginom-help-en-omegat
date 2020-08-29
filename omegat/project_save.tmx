@@ -3712,6 +3712,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить все&lt;x2/&gt; &lt;x3/&gt;Удалить все&lt;x4/&gt; — перемещает все параметры обратно в список &lt;x5/&gt;Доступные элементы&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204412Z" creationid="Марианна" creationdate="20200829T204412Z">
+        <seg>&lt;x1/&gt;Delete all&lt;x2/&gt; &lt;x3/&gt;Delete all&lt;x4/&gt; enables to move all parameters back to the &lt;x5/&gt;Available items&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — перемещает соотвествующий параметр обратно в список &lt;x5/&gt;Доступные элементы&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T204251Z" creationid="Марианна" creationdate="20200829T204251Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to move the required parameter back to the &lt;x5/&gt;Available items&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — перемещает соответствующий параметр обратно в список &lt;x5/&gt;Доступные элементы&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202324Z" creationid="Марианна" creationdate="20200829T202324Z">
