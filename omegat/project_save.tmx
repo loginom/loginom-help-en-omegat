@@ -2798,6 +2798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — тоже что и &lt;x3/&gt;Параметр&lt;x4/&gt; в &lt;x5/&gt;Доступных элементах&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201835Z" creationid="Марианна" creationdate="20200829T201752Z">
+        <seg>&lt;x1/&gt;Field&lt;x2/&gt; is the same as the &lt;x3/&gt;Parameter&lt;x4/&gt; in the &lt;x5/&gt;Available items&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Полное соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192609Z" creationid="Марианна" creationdate="20200810T192609Z">
@@ -3640,6 +3648,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — тоже что и &lt;x3/&gt;Тип&lt;x4/&gt; в &lt;x5/&gt;Доступных элементах&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T201831Z" creationid="Марианна" creationdate="20200829T201831Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt; is the same as the &lt;x3/&gt;Type&lt;x4/&gt; in the &lt;x5/&gt;Available items&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Типы данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070450Z" creationid="Марианна" creationdate="20200812T070450Z">
@@ -3716,6 +3732,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054820Z" creationid="Марианна" creationdate="20200812T054820Z">
         <seg>&lt;x1/&gt;Antecedent&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие&lt;x2/&gt; — для &lt;x3/&gt;Измерений&lt;x4/&gt; и &lt;x5/&gt;Атрибутов&lt;x6/&gt; позволяет выбирать из выпадающего списка условие фильтрации;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T202049Z" creationid="Марианна" creationdate="20200829T202049Z">
+        <seg>&lt;x1/&gt;Condition&lt;x2/&gt; for &lt;x3/&gt;Dimensions&lt;x4/&gt; and &lt;x5/&gt;Attributes&lt;x6/&gt; enables to select the filtration condition from the drop-down list.</seg>
       </tuv>
     </tu>
     <tu>
