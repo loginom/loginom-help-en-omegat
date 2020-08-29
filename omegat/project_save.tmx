@@ -5826,6 +5826,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, составная метка &lt;x3/&gt;ROOT|PERSON|ACCES-LEVEL&lt;x4/&gt; будет сформирована для поля импортированной таблицы, содержащего данные атрибута &lt;x5/&gt;ACCESS-LEVEL&lt;x6/&gt; элемента &lt;x7/&gt;PERSON&lt;x8/&gt; из корневого элемента &lt;x9/&gt;ROOT&lt;x10/&gt; файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T222209Z" creationid="Марианна" creationdate="20200829T222209Z">
+        <seg>For example, complex &lt;x3/&gt;ROOT|PERSON|ACCES-LEVEL&lt;x4/&gt; caption will be generated for the imported table field that contains data of the &lt;x5/&gt;ACCESS-LEVEL&lt;x6/&gt; attribute of the &lt;x7/&gt;PERSON&lt;x8/&gt; element from the root element of the &lt;x9/&gt;ROOT&lt;x10/&gt; file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084611Z" creationid="Марианна" creationdate="20200814T084611Z">
@@ -6766,6 +6774,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T074026Z" creationid="Марианна" creationdate="20200817T074026Z">
         <seg>If &lt;x1/&gt;&lt;x2/&gt; is not available, it shows only active processes and the processes in which errors occurred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При отсутствии данного флага поле получит название &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T222322Z" creationid="Марианна" creationdate="20200829T222322Z">
+        <seg>When this flag is absent, the field will get the &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt; name.</seg>
       </tuv>
     </tu>
     <tu>
