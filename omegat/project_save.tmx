@@ -5258,6 +5258,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Между списками доступно перемещение элементов, в том числе и с помощью перетаскивания (&lt;x1/&gt;drag&amp;drop&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T200110Z" creationid="Марианна" creationdate="20200829T200110Z">
+        <seg>It is possible to move elements between the lists, including drag&amp;drop (&lt;x1/&gt;drag&amp;drop&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Меню</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120816Z" creationid="Марианна" creationdate="20200814T120816Z">
