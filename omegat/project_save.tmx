@@ -2686,6 +2686,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выделенный элемент вверх по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203408Z" creationid="Марианна" creationdate="20200829T203408Z">
+        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the selected item up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — перемещает выделенный элемент вниз по списку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203440Z" creationid="Марианна" creationdate="20200829T203440Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the selected item down the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить все&lt;x2/&gt; &lt;x3/&gt;Переместить в выбранные все&lt;x4/&gt; — перемещает все доступные элементы в список &lt;x5/&gt;Выбранные элементы&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201357Z" creationid="Марианна" creationdate="20200829T201357Z">
@@ -4746,6 +4762,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для исключения элемента из списка выбранных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203521Z" creationid="Марианна" creationdate="20200829T203521Z">
+        <seg>To exclude the item from the list of selected items, it is required to perform the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140233Z" creationid="Марианна" creationdate="20200816T140233Z">
@@ -5990,6 +6014,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
         <seg>Variables can be also used to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перетащить элемент из списка &lt;x1/&gt;Выбранные элементы&lt;x2/&gt; в &lt;x3/&gt;Доступные элементы&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203621Z" creationid="Марианна" creationdate="20200829T203621Z">
+        <seg>Drag the item from the &lt;x1/&gt;Selected items&lt;x2/&gt; list to the &lt;x3/&gt;Available items&lt;x4/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
