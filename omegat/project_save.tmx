@@ -5530,6 +5530,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нажав на кнопку &lt;x9/&gt;уточнить&lt;x10/&gt; откроется окно &lt;x11/&gt;Список значений&lt;x12/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203232Z" creationid="Марианна" creationdate="20200829T203055Z">
+        <seg>By pressing the &lt;x9/&gt;redefine&lt;x10/&gt; button, the &lt;x11/&gt;List of values&lt;x12/&gt; window will be opened (refer to the information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нажатие на данную кнопку открывает панель со следующими командами:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120854Z" creationid="Марианна" creationdate="20200814T120854Z">
@@ -5830,6 +5838,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190625Z" creationid="Марианна" creationdate="20200825T190625Z">
         <seg>It is required to display the following data:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Очередность элементов можно изменить:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203302Z" creationid="Марианна" creationdate="20200829T203302Z">
+        <seg>It is possible to change the order of items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7302,6 +7318,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T083653Z" creationid="Марианна" creationdate="20200826T083653Z">
         <seg>etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>далее).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200829T203102Z" creationid="Марианна" creationdate="20200829T203102Z">
+        <seg>below).</seg>
       </tuv>
     </tu>
     <tu>
