@@ -6444,8 +6444,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Подключение происходит аналогично &lt;x7/&gt;подключению с БД&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T120842Z" creationid="Марианна" creationdate="20200823T120625Z">
-        <seg>The conenction is performed similar to &lt;x7/&gt;connection to DB&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T134308Z" creationid="Марианна" creationdate="20200823T120625Z">
+        <seg>The connection is performed similar to &lt;x7/&gt;connection to DB&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
