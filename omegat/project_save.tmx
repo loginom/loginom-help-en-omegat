@@ -7180,8 +7180,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Созданный на базе данного компонента узел позволяет импортировать таблицу или представление из базы данных, либо результаты выполнения заданного пользователем &lt;x1/&gt;SQL&lt;x2/&gt;-запроса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T154000Z" creationid="Марианна" creationdate="20200824T154000Z">
-        <seg>The node created on the basis of this component enables to import a table or view from database, or results of execution of the&lt;x1/&gt;SQL&lt;x2/&gt; query set by a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T131200Z" creationid="Марианна" creationdate="20200824T154000Z">
+        <seg>The node created on the basis of this component enables to import a table or view from database, or results of execution of the &lt;x1/&gt;SQL&lt;x2/&gt; query set by a user.</seg>
       </tuv>
     </tu>
     <tu>
