@@ -47,7 +47,7 @@ DESC period
 
 In Example 1 `&start_date` and `&end_date` are constructions of substitution of values of `start_date` and `end_date` input variables of the import node. If these variables are not determined in the input port of the import node, there will be an exception. When using such construction, data type of the transferred variable is considered in the request. It must comply with the data type anticipated by 1C request.
 
-Usage of such substitution construction is distinguished by transfer of only simple data types to the request by means of variables, namely, logical, string, numerical, date/time.  It is impossible to transfer internal instance 1C variables to the request (for example, objects or references of documents and reference textbooks). When formulating requests, it is required to take into account.
+Usage of such substitution construction is distinguished by transfer of only simple data types to the request by means of variables, namely, logical, string, numerical, date/time.  It is impossible to transfer internal instance 1C variables to the request (for example, objects or references of documents and reference textbooks). When formulating requests, it is required to take it into account.
 
 Example 2.
 
