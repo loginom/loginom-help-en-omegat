@@ -1504,8 +1504,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной порт таблицы&lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — Импортированные из хранилища данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T193717Z" creationid="Марианна" creationdate="20200827T193717Z">
-        <seg>&lt;x1/&gt;Output port of table&lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; mean the data imported from the Data Warehouse.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T133716Z" creationid="Марианна" creationdate="20200827T193717Z">
+        <seg>&lt;x1/&gt;Output port of table&lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; means the data imported from the Data Warehouse.</seg>
       </tuv>
     </tu>
     <tu>
