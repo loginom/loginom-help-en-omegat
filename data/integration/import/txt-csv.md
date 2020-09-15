@@ -14,7 +14,7 @@ It is used for data import from the text files with separators. The text file wi
 
 The wizard contains several configuration stages.
 
-### Step 1. Import from the text file
+### Step 1. Import from the Text File
 
 The following parameters are specified at the first configuration stage:
 
