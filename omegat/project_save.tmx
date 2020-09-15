@@ -1064,8 +1064,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;SQL запрос&lt;x2/&gt; — формирование результирующего набора данных SQL запросом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T110843Z" creationid="Марианна" creationdate="20200825T110843Z">
-        <seg>&lt;x1/&gt;SQL query&lt;x2/&gt; enables to form the resulting data set by means of SQL query.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T131453Z" creationid="Марианна" creationdate="20200825T110843Z">
+        <seg>The &lt;x1/&gt;SQL query&lt;x2/&gt; enables to form the resulting data set by means of the SQL query.</seg>
       </tuv>
     </tu>
     <tu>
