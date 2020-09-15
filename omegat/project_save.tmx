@@ -1752,8 +1752,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — для &lt;x3/&gt;Фактов&lt;x4/&gt; отображает выбранные &lt;x5/&gt;агрегации&lt;x6/&gt;, для остальных элементов отображается значение фильтрации, если указано условие;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T202227Z" creationid="Марианна" creationdate="20200829T202227Z">
-        <seg>&lt;x1/&gt;Value&lt;x2/&gt; for &lt;x3/&gt;Measures&lt;x4/&gt;displays the selected &lt;x5/&gt;aggregations&lt;x6/&gt;, the filtration value is displayed for other items if a condition is specified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T133933Z" creationid="Марианна" creationdate="20200829T202227Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; for &lt;x3/&gt;Measures&lt;x4/&gt; displays the selected &lt;x5/&gt;aggregations&lt;x6/&gt;, the filtration value is displayed for other items if a condition is specified.</seg>
       </tuv>
     </tu>
     <tu>
