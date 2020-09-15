@@ -7628,8 +7628,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>в качестве &lt;x1/&gt;макроподстановки&lt;x2/&gt; — в значении переменной указывается SQL-запрос или какая-то его часть.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T112342Z" creationid="Марианна" creationdate="20200825T112342Z">
-        <seg>As &lt;x1/&gt;macro substitution&lt;x2/&gt;: SQL query or its any part is specified as the variable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T131414Z" creationid="Марианна" creationdate="20200825T112342Z">
+        <seg>As &lt;x1/&gt;macro substitution&lt;x2/&gt;: the SQL query or its any part is specified as the variable.</seg>
       </tuv>
     </tu>
     <tu>
