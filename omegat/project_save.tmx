@@ -6972,8 +6972,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML в случае, если имеются невыявленные ошибки валидации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T221729Z" creationid="Марианна" creationdate="20200829T221729Z">
-        <seg>The simplified check procedure is performed faster, however, it does not secure correct data extraction from XXML if there are undetected validation errors.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T134507Z" creationid="Марианна" creationdate="20200829T221729Z">
+        <seg>The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.</seg>
       </tuv>
     </tu>
     <tu>
