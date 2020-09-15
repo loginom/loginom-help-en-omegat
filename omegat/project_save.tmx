@@ -4406,8 +4406,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В SQL-запросах возможно использование переменных:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T111424Z" creationid="Марианна" creationdate="20200825T111424Z">
-        <seg>Variables can be used inSQL queries in the following ways:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T131536Z" creationid="Марианна" creationdate="20200825T111424Z">
+        <seg>Variables can be used in the SQL queries in the following ways:</seg>
       </tuv>
     </tu>
     <tu>
