@@ -56,7 +56,7 @@ The table part of the wizard window is designated for configuration of import pa
 * ![Refresh all](../../images/icons/toolbar-controls/refresh_default.svg) **Refresh all** only rereads the specified row count into a table, and provides automatic generation of the resulting data set.
 * ![Refresh data](../../images/icons/toolbar-controls/refresh-data_default.svg) **Refresh data** only rereads the specified row count into a table.
 
-The following settings are used to generate the resulting data set in manual way:
+The following settings are used to generate the resulting data set in the manual way:
 
 * **Name**: the unique field name is assigned.
 * **Caption**: the user field description is provided.
