@@ -26,16 +26,16 @@ There are the following parameters in the wizard:
 * ![ ](../../images/extjs-theme/splitter/mini-left.svg) / ![ ](../../images/extjs-theme/splitter/mini-right.svg) — hides/shows the *Tables/Views* list.
 * **Area of selection of variant of data retrieval from DB** contains two tabs:
    * **Table/View** enables to retrieve set fields of the DB object. For this purpose, it is required to mark fields of the DB object in the *Table/View* list that was selected in the *Tables/Views* list.
-   * **SQL query** enables to form the resulting data set by means of SQL query. For this purpose, it is required to enter text of the database query in the *SQL query* tab. When finalizing the SQL query text, it is possible to use values of the input port variables that enables to improve processing of queries and provide flexible database use.
+   * The **SQL query** enables to form the resulting data set by means of the SQL query. For this purpose, it is required to enter text of the database query in the *SQL query* tab. When finalizing the SQL query text, it is possible to use values of the input port variables that enables to improve processing of queries and provide flexible database use.
 
 The [Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first lines of the resulting table.
 
 ## Use of Variables in Queries
 
-Variables can be used inSQL queries in the following ways:
+Variables can be used in the SQL queries in the following ways:
 
 * As **parameter**: a defined value is set for the variable. The parameter is written with a colon in the query text, for example: `:var1`. The variable type will be taken into account in this case, for example, the string will be in quotation marks.  It is allowed to use parameters only in the *WHERE* section.
-* As **macro substitution**: SQL query or its any part is specified as the variable. It must be marked with percent signs in the query text, for example, `%condition%`.
+* As **macro substitution**: the SQL query or its any part is specified as the variable. It must be marked with percent signs in the query text, for example, `%condition%`.
 
 > **Note:** if the substitution construction is in quotation marks, quotation marks are prioritized but not the substitution.
 
