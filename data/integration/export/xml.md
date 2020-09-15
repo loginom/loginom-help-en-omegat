@@ -2,7 +2,7 @@
 
 Компонент предназначен для экспорта таблиц данных в файлы формата XML.
 
-> **Important:** For the node operation it is required to pre-create [connection to the XSD schema](../connections/list/schemes.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection to the XSD schema](../connections/list/schemes.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
 
 ## Ports
 

@@ -2,7 +2,7 @@
 
 The component is designated for data tables import from the XML files.
 
-> **Important:** For the node operation it is required to pre-create [connection to the XSD schema](../connections/list/schemes.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection to the XSD schema](../connections/list/schemes.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
 
 ## Ports
 

@@ -2,7 +2,7 @@
 
 The component is designated for data import from the Data Warehouse [Deductor Warehouse](../../data-format/data-warehouse.md) (hereafter referred to as the Data Warehouse).
 
-> **Important:** For the node operation it is required to pre-create [Connection](../connections/README.md) to the *Data Warehouse* and connect it with the *Connection* input port.
+> **Important:** For the node operation, it is required to pre-create [Connection](../connections/README.md) to the *Data Warehouse* and connect it with the *Connection* input port.
 
 ## Ports
 
@@ -12,7 +12,7 @@ The component is designated for data import from the Data Warehouse [Deductor Wa
 
 ### Output Ports
 
-* ![Output port of table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set** mean the data imported from the Data Warehouse.
+* ![Output port of table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set** means the data imported from the Data Warehouse.
 
 ## Wizard
 
@@ -56,7 +56,7 @@ The context menu:
 * **Field** is the same as the *Parameter* in the *Available items*.
 * **Type** is the same as the *Type* in the *Available items*.
 * **Condition** for *Dimensions* and *Attributes* enables to select the filtration condition from the drop-down list.
-* **Value** for *Measures*displays the selected [aggregations](../../processors/func/aggregation-functions.md), the filtration value is displayed for other items if a condition is specified.
+* **Value** for *Measures* displays the selected [aggregations](../../processors/func/aggregation-functions.md), the filtration value is displayed for other items if a condition is specified.
 * ![Delete](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to move the required parameter back to the *Available items* list.
 
 > **Note:** if the item showing is disabled, and no *conditions * and/or *values* are specified, upon the list saving, this item will be moved back to the *Available items* list.

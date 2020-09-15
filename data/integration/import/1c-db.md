@@ -2,7 +2,7 @@
 
 The component is designated for import from 1C database.
 
-> **Important:** For the node operation it is required to pre-create [connection to 1C:Enterprise 8.x platform](../connections/list/1c.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection to 1C:Enterprise 8.x platform](../connections/list/1c.md) and connect it with the *Connection* input port. The conenction is performed similar to [connection to DB](../../quick-start/database.md).
 
 ## Ports
 
