@@ -7604,8 +7604,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Это необходимо учитывать при построении запросов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T124154Z" creationid="Марианна" creationdate="20200823T124154Z">
-        <seg>When formulating requests, it is required to take into account.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T131011Z" creationid="Марианна" creationdate="20200823T124154Z">
+        <seg>When formulating requests, it is required to take it into account.</seg>
       </tuv>
     </tu>
     <tu>
