@@ -66,6 +66,6 @@
 
 * **Repeat single values**: if there are a single item and nested sequence included into a sequence, the single item values will be repeated for each row formed from the nested sequence.
 
-* **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XXML if there are undetected validation errors.
+* **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
 
 * **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. Например, составная метка "ROOT|PERSON|ACCES-LEVEL" будет сформирована для поля извлеченной таблицы, содержащего данные атрибута "ACCESS-LEVEL" элемента "PERSON" из корневого элемента "ROOT" документа. При отсутствии флага поле получит название "ACCESS-LEVEL".
