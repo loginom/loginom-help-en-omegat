@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/data-sources/db-database-import_default.svg) Import from Database
 
-The component is designated for data set import from DBMS. The node created on the basis of this component enables to import a table or view from database, or results of execution of the[SQL](https://wiki.loginom.ru/articles/sql.html) query set by a user.
+The component is designated for data set import from DBMS. The node created on the basis of this component enables to import a table or view from database, or results of execution of the [SQL](https://wiki.loginom.ru/articles/sql.html) query set by a user.
 
 It is allowed to use [Control variables](../../scenario/variables/control-variables.md) in the SQL query text as parameters and macro substitution. It allows for dynamic generation of the request sent to the server. 
 
