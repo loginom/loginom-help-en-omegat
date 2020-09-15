@@ -1816,8 +1816,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — путь к файлу, содержащему необходимые данные;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T084850Z" creationid="Марианна" creationdate="20200826T084850Z">
-        <seg>&lt;x1/&gt;File name&lt;x2/&gt; is a path the file that contains required data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T132947Z" creationid="Марианна" creationdate="20200826T084850Z">
+        <seg>&lt;x1/&gt;File name&lt;x2/&gt; is a path to the file that contains required data.</seg>
       </tuv>
     </tu>
     <tu>
