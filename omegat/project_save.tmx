@@ -5292,8 +5292,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Импорт из текстового файла</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T084321Z" creationid="Марианна" creationdate="20200826T084321Z">
-        <seg>Import from the text file</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T132839Z" creationid="Марианна" creationdate="20200826T084321Z">
+        <seg>Import from the Text File</seg>
       </tuv>
     </tu>
     <tu>
