@@ -4484,6 +4484,42 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{% content "one" %}
+&lt;x1/&gt;Настройка полей новой таблицы.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165324Z" creationid="Марианна" creationdate="20200916T165324Z">
+        <seg>{% content "one" %}
+&lt;x1/&gt;Configure fields of the new table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% content "two" %}
+&lt;x1/&gt;Представление создаваемой таблицы в виде SQL-запроса.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165451Z" creationid="Марианна" creationdate="20200916T165451Z">
+        <seg>{% content "two" %}
+&lt;x1/&gt;Representation of the created table in the form of SQL query&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% endtabs %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165453Z" creationid="Марианна" creationdate="20200916T165453Z">
+        <seg>{% endtabs %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% tabs one="Настройка", two="SQL-запрос" %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165225Z" creationid="Марианна" creationdate="20200916T165225Z">
+        <seg>{% tabs one="Setting", two="SQL query" %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Адресная строка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T134742Z" creationid="Марианна" creationdate="20200813T134742Z">
@@ -5386,6 +5422,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Здесь задаются:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165520Z" creationid="Марианна" creationdate="20200916T165520Z">
+        <seg>The following data are set below:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение параметра &lt;x1/&gt;Диапазон&lt;x2/&gt; можно задать при помощи выделения мышью ячеек таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190417Z" creationid="Марианна" creationdate="20200825T190417Z">
@@ -6022,6 +6066,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104354Z" creationid="Марианна" creationdate="20200711T104354Z">
         <seg>Import Node Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165503Z" creationid="Марианна" creationdate="20200916T165503Z">
+        <seg>Settings</seg>
       </tuv>
     </tu>
     <tu>
