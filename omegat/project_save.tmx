@@ -446,6 +446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение — порт для установки подключения к базе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110801Z" creationid="Марианна" creationdate="20200916T110801Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection is a port for connection to database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение — принимает параметры подключения к базе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T120908Z" creationid="Марианна" creationdate="20200823T120746Z">
@@ -1234,6 +1242,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T133406Z" creationid="Марианна" creationdate="20200823T120552Z">
         <seg>&lt;x1/&gt;Important:&lt;x2/&gt; For the node operation, it is required to pre-create &lt;x3/&gt;connection to 1C:Enterprise 8.x platform&lt;x4/&gt; and connect it with the &lt;x5/&gt;Connection&lt;x6/&gt; input port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для работы узла требуется предварительно создать &lt;x3/&gt;подключение&lt;x4/&gt; к базе данных и связать его с входным портом &lt;x5/&gt;Подключение&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110716Z" creationid="Марианна" creationdate="20200916T110556Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; For the node operation, it is required to pre-create &lt;x3/&gt;connection&lt;x4/&gt; to database and connect it with the &lt;x5/&gt;Connection&lt;x6/&gt; input port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4154,8 +4170,8 @@
       <tuv lang="ru">
         <seg>&lt;x7/&gt;Пример подключения и работы с БД&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T154517Z" creationid="Марианна" creationdate="20200824T154517Z">
-        <seg>&lt;x7/&gt;Example of DB conection and operation&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110700Z" creationid="Марианна" creationdate="20200824T154517Z">
+        <seg>&lt;x7/&gt;Example of DB connection and operation&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5980,8 +5996,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Обработчик осуществляет экспорт исходного набора в базу данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T110446Z" creationid="Марианна" creationdate="20200916T110446Z">
-        <seg>Handler exports the initial data set to the database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110623Z" creationid="Марианна" creationdate="20200916T110446Z">
+        <seg>Handler exports the initial data set to database.</seg>
       </tuv>
     </tu>
     <tu>
