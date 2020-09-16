@@ -774,6 +774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — добавляет новое поле в таблицу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170602Z" creationid="Марианна" creationdate="20200916T170602Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — adds a new field to the table;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — идет процесс обработки, и время его окончания невозможно рассчитать заранее;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063845Z" creationid="Марианна" creationdate="20200817T063845Z">
@@ -842,6 +850,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T064816Z" creationid="Марианна" creationdate="20200817T064816Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — successful completion (processing is completed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;/&lt;x3/&gt;&lt;x4/&gt; — перемещают выделенное поле, определяя его положение в списке полей создаваемой таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170521Z" creationid="Марианна" creationdate="20200916T170521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;/&lt;x3/&gt;&lt;x4/&gt; — moves the selected field defining its position in the list of fields of the created table;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1282,6 +1298,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110652Z" creationid="Марианна" creationdate="20200818T110652Z">
         <seg>&lt;x1/&gt;Important:&lt;x2/&gt; If the node is locked (node execution is in progress or node configuration wizard is opened), it is not possible to view its properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; При превышении максимального значения длины экспортируемой строки возникнет ошибка экспорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170316Z" creationid="Марианна" creationdate="20200916T170316Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; When exceeding the maximum value of the exported string length, the export error will occur.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5186,6 +5210,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T150901Z" creationid="Марианна" creationdate="20200710T150901Z">
         <seg>It is required to perform several preparatory actions to start the work with data from any database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для редактирования списка полей используются следующие кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170530Z" creationid="Марианна" creationdate="20200916T170401Z">
+        <seg>The following buttons are used to edit the list of fields :</seg>
       </tuv>
     </tu>
     <tu>
