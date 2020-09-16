@@ -5502,6 +5502,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя поля в &lt;x1/&gt;допустимом формате&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165842Z" creationid="Марианна" creationdate="20200916T165842Z">
+        <seg>Table name in the &lt;x1/&gt;permissible format&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Инспектор свойств</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
@@ -6010,6 +6018,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203641Z" creationid="Марианна" creationdate="20200827T195137Z">
         <seg>Press the &lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Название таблицы — уникальное в пределах БД имя таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165559Z" creationid="Марианна" creationdate="20200916T165559Z">
+        <seg>Table name is a unique table name in DB.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6730,6 +6746,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
         <seg>It can receive data from nodes from other workflows and packages using the &lt;x1/&gt;Reference Node&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля таблицы с указанием следующих параметров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165726Z" creationid="Марианна" creationdate="20200916T165726Z">
+        <seg>Table fields specifying the following parameters:</seg>
       </tuv>
     </tu>
     <tu>
