@@ -6908,8 +6908,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>При нулевом значении параметра разделение на транзакции не производится.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T113215Z" creationid="Марианна" creationdate="20200916T113215Z">
-        <seg>If the parameter has zero value, division into transactions is not performed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113332Z" creationid="Марианна" creationdate="20200916T113215Z">
+        <seg>If the parameter value is null, division into transactions is not performed.</seg>
       </tuv>
     </tu>
     <tu>
