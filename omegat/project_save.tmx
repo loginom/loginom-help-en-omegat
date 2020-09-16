@@ -414,6 +414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Источник данных — таблица данных, подлежащая экспорту в базу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110858Z" creationid="Марианна" creationdate="20200916T110858Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Data source is a data table to be exported to database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Набор данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T084304Z" creationid="Марианна" creationdate="20200826T084304Z">
@@ -1214,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;База данных&lt;x2/&gt; — отображает строку подключения к базе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110937Z" creationid="Марианна" creationdate="20200916T110937Z">
+        <seg>&lt;x1/&gt;Database&lt;x2/&gt; enables to display a string of connection to database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Быстрый просмотр&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065429Z" creationid="Марианна" creationdate="20200812T065429Z">
@@ -1826,6 +1842,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185737Z" creationid="Марианна" creationdate="20200825T185737Z">
         <seg>&lt;x1/&gt;Import&lt;x2/&gt;: blank rows will be imported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя таблицы&lt;x2/&gt; — задает имя таблицы, в которую планируется осуществить экспорт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111143Z" creationid="Марианна" creationdate="20200916T111143Z">
+        <seg>&lt;x1/&gt;Table name&lt;x2/&gt; enables to set a name of the table to which it is planned to export data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5486,6 +5510,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123600Z" creationid="Марианна" creationdate="20200825T123600Z">
         <seg>&lt;x3/&gt; &lt;x4/&gt; button calls the file selection dialog.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопка &lt;x3/&gt;Активировать&lt;x4/&gt; делает активным это подключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111003Z" creationid="Марианна" creationdate="20200916T111003Z">
+        <seg>The &lt;x3/&gt;Activate&lt;x4/&gt; button makes this connection active.</seg>
       </tuv>
     </tu>
     <tu>
