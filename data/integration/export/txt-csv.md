@@ -13,8 +13,8 @@
 
 ### Step 1. Настройка форматов экспорта
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-приемнику.
-* **Имя файла** — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **File storage** enables to display information on method of connection to the destination file.
+* **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * Группа параметров *Разделители*:
    * **Ограничитель строк** — символ, обрамляющий данные ячейки набора данных. В качестве ограничителя строк могут быть использованы символы:
       * Двойная кавычка(");

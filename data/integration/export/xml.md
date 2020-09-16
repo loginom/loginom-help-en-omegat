@@ -8,7 +8,7 @@
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту;
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Data source is a data table to be exported.
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection to the XSD schema source (optional port) enables connection to the *Connection to set of the XSD schemas* configured earlier.
 
@@ -16,8 +16,8 @@
 
 ### Step 1. Настройка файла экспорта
 
-* **Хранилище файлов** — выводит информацию о способе подключения к файлу-приемнику.
-* **Имя файла** — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **File storage** enables to display information on method of connection to the destination file.
+* **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * **Настройка форматирования** — область включает следующие флаги.
    * **Записывать Byte Order Mark** — записывать [маркер последовательности байтов](https://ru.wikipedia.org/wiki/Маркер_последовательности_байтов).
    * **Добавлять отступы и переводы строк** — в файле экспорта каждой строке будет соответствовать один элемент, перед которым будет стоять позиция табуляции.
