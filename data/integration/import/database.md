@@ -4,7 +4,7 @@ The component is designated for data set import from DBMS. The node created on t
 
 It is allowed to use [Control variables](../../scenario/variables/control-variables.md) in the SQL query text as parameters and macro substitution. It allows for dynamic generation of the request sent to the server. 
 
-> **Important:** For the node operation, it is required to pre-create [connection](../connections/README.md) to database and connect it with the *Connection* input port. [Example of DB conection and operation](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection](../connections/README.md) to database and connect it with the *Connection* input port. [Example of DB connection and operation](../../quick-start/database.md).
 
 ## Ports
 
