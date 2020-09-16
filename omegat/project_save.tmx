@@ -1246,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Активация и просмотр&lt;x2/&gt; — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как именно будет выглядеть таблица в Excel, и, если необходимо, изменить какие-либо параметры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194545Z" creationid="Марианна" creationdate="20200916T194545Z">
+        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking this button shows in the wizard how the table in Excel will look like, and to change any parameters, if it is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Активировать&lt;x2/&gt; — позволяет установить связь с Хранилищем данных, если это еще не было сделано.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T194007Z" creationid="Марианна" creationdate="20200827T194007Z">
@@ -3856,6 +3864,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка заголовков&lt;x2/&gt; — определение заголовков для таблицы в Excel.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194122Z" creationid="Марианна" creationdate="20200916T194122Z">
+        <seg>&lt;x1/&gt;Headers row&lt;x2/&gt; enables to define headers for the table in Excel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строковые функции&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T064837Z" creationid="Марианна" creationdate="20200812T064837Z">
@@ -3980,6 +3996,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192548Z" creationid="Марианна" creationdate="20200825T192548Z">
         <seg>&lt;x1/&gt;Data type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt;: the text field value will be transformed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип файла Excel&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194219Z" creationid="Марианна" creationdate="20200916T194219Z">
+        <seg>&lt;x1/&gt;Excel file type&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4396,6 +4420,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
         <seg>Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Excel 2003 (расширение .xls).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194232Z" creationid="Марианна" creationdate="20200916T194232Z">
+        <seg>Excel 2003 (.xls extension).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5582,6 +5614,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имена полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
+        <seg>Fields names.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T063553Z" creationid="Марианна" creationdate="20200826T063553Z">
@@ -5998,6 +6038,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метки полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194205Z" creationid="Марианна" creationdate="20200916T194205Z">
+        <seg>Fields captions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм повторного использования алгоритмов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121855Z" creationid="Марианна" creationdate="20200718T141206Z">
@@ -6314,6 +6362,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192657Z" creationid="Марианна" creationdate="20200825T192657Z">
         <seg>Continuous</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нет строки заголовков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194139Z" creationid="Марианна" creationdate="20200916T194139Z">
+        <seg>There is no headers row.</seg>
       </tuv>
     </tu>
     <tu>
