@@ -4464,6 +4464,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>LGD-файл уже содержит в себе всю необходимую информацию о параметрах полей (имя поля, метка, тип данных и др.), что позволяет выполнять экспорт и импорт наборов данных с минимальными настройками.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195123Z" creationid="Марианна" creationdate="20200916T195123Z">
+        <seg>The LGD file already contains all required information on the field features (field name, caption, data type, etc.) that enables to export and import data sets with minimum settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom — руководство пользователя</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T091725Z" creationid="Марианна" creationdate="20200813T091725Z">
@@ -5478,6 +5486,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступны следующие варианты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195008Z" creationid="Марианна" creationdate="20200916T195008Z">
+        <seg>The following options are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные элементы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201134Z" creationid="Марианна" creationdate="20200827T195247Z">
@@ -5618,6 +5634,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194029Z" creationid="Марианна" creationdate="20200916T194029Z">
         <seg>Default value — &lt;x3/&gt;Sheet 1&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имеется возможность использования сжатия данных различными алгоритмами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195204Z" creationid="Марианна" creationdate="20200916T195204Z">
+        <seg>It is possible to compress data using different algorithms.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6410,6 +6434,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194833Z" creationid="Марианна" creationdate="20200916T110446Z">
         <seg>The handler exports the initial data set to database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик осуществляет экспорт исходного набора данных в &lt;x1/&gt;LGD-файл&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194933Z" creationid="Марианна" creationdate="20200916T194933Z">
+        <seg>The handler exports the initial data set to the &lt;x1/&gt;LGD file&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
