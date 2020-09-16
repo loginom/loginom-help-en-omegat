@@ -7214,6 +7214,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поэтому эти файлы не могут быть импортированы в Deductor 5.3 и ниже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T200629Z" creationid="Марианна" creationdate="20200916T200629Z">
+        <seg>That's why these files cannot be imported to Deductor 5.3 and earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представление значений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
