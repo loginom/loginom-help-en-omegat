@@ -438,6 +438,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Источник данных — таблица данных, подлежащая экспорту;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193656Z" creationid="Марианна" creationdate="20200916T193656Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Data source is a data table to be exported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Набор данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T084304Z" creationid="Марианна" creationdate="20200826T084304Z">
@@ -4288,6 +4296,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-приемнику.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193803Z" creationid="Марианна" creationdate="20200916T193803Z">
+        <seg>&lt;x1/&gt;File storage&lt;x2/&gt; enables to display information on method of connection to the destination file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Цикл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054835Z" creationid="Марианна" creationdate="20200812T054835Z">
@@ -4364,6 +4380,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
         <seg>Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Excel 2003 (расширение .xls);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193613Z" creationid="Марианна" creationdate="20200916T193613Z">
+        <seg>Excel 2003 (.xls extension);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Excel 2007 (расширение .xlsx).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193626Z" creationid="Марианна" creationdate="20200916T193626Z">
+        <seg>Excel 2007 (.xlsx extension).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5986,6 +6018,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T164259Z" creationid="Марианна" creationdate="20200718T164259Z">
         <seg>It can include hierarchy of nested supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Можно задать формат файла:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193558Z" creationid="Марианна" creationdate="20200916T193558Z">
+        <seg>It is possible to set the following file formats:</seg>
       </tuv>
     </tu>
     <tu>
