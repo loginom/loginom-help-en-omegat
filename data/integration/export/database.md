@@ -20,4 +20,4 @@ Handler exports the initial data set to database.
    * **Delete records by key fields** enables to select a key field by which records will be deleted from the database table at the next stage - *Adjustment of Columns Mapping*. In this case, export as such is not performed.
    * **Delete records by key fields and insert data into table** provides the same algorithm as for the previous parameter but rows from the source table will be appended to the database table upon its execution.
    * **Update existing table records** enables to select a key field by which records will be updated.
-* **Transaction commit frequency (rows)** enables to divide the export process into several transactions. Transactions are committed after a given number of rows. If the parameter has zero value, division into transactions is not performed.
+* **Transaction commit frequency (rows)** enables to divide the export process into several transactions. Transactions are committed after a given number of rows. If the parameter value is null, division into transactions is not performed.
