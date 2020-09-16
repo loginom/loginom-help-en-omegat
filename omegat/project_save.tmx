@@ -1926,6 +1926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя листа для экспорта&lt;x2/&gt; — то, как будет называться лист в файле Excel, содержащий экспортируемую таблицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194015Z" creationid="Марианна" creationdate="20200916T194015Z">
+        <seg>&lt;x1/&gt;Name of the sheet to be exported&lt;x2/&gt; means the name of the sheet in the Excel file that contains the exported table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя таблицы&lt;x2/&gt; — задает имя таблицы, в которую планируется осуществить экспорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T111143Z" creationid="Марианна" creationdate="20200916T111143Z">
@@ -1938,6 +1946,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123421Z" creationid="Марианна" creationdate="20200825T123421Z">
         <seg>&lt;x1/&gt;File name&lt;x2/&gt; enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193903Z" creationid="Марианна" creationdate="20200916T193903Z">
+        <seg>&lt;x1/&gt;File name&lt;x2/&gt; enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5554,6 +5570,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170226Z" creationid="Марианна" creationdate="20200916T170226Z">
         <seg>It is required to adjust the parameter value set by default according to the exported data, if relevant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение по умолчанию — &lt;x3/&gt;Лист 1&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194029Z" creationid="Марианна" creationdate="20200916T194029Z">
+        <seg>Default value — &lt;x3/&gt;Sheet 1&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
