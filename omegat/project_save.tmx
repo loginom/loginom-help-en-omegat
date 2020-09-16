@@ -7074,6 +7074,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результаты обработки и анализа данных необходимо выгружать во внешние источники.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T105923Z" creationid="Марианна" creationdate="20200916T105923Z">
+        <seg>It is required to unload data processing and analysis results to the external sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
@@ -7558,6 +7566,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104329Z" creationid="Марианна" creationdate="20200711T104329Z">
         <seg>Step 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Экспорт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T105652Z" creationid="Марианна" creationdate="20200916T105652Z">
+        <seg>Export</seg>
       </tuv>
     </tu>
     <tu>
