@@ -1728,8 +1728,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнить таблицу данными&lt;x2/&gt; — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T111559Z" creationid="Марианна" creationdate="20200916T111559Z">
-        <seg>&lt;x1/&gt;Append data to table&lt;x2/&gt; enables to append lines form the source table to the selected database table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111717Z" creationid="Марианна" creationdate="20200916T111559Z">
+        <seg>&lt;x1/&gt;Append data to table&lt;x2/&gt; enables to append lines from the source table to the selected database table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2698,6 +2698,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200821T123820Z" creationid="Марианна" creationdate="20200813T095208Z">
         <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Очистить таблицу и заполнить данными&lt;x2/&gt; — таблица базы данных будет полностью очищена и затем наполнена строками экспортируемой таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T112117Z" creationid="Марианна" creationdate="20200916T112117Z">
+        <seg>&lt;x1/&gt;Clear table and fill in data&lt;x2/&gt; enables to clear the database table completely and fill in with lines of the exported table.</seg>
       </tuv>
     </tu>
     <tu>
