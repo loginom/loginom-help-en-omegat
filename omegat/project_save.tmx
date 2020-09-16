@@ -2518,6 +2518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить существующие записи в таблице&lt;x2/&gt; — позволяет выбрать ключевое поле, по которому будет происходить обновление записей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T112624Z" creationid="Марианна" creationdate="20200916T112624Z">
+        <seg>&lt;x1/&gt;Update existing table records&lt;x2/&gt; enables to select a key field by which records will be updated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обработка данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185838Z" creationid="Марианна" creationdate="20200810T185838Z">
@@ -2890,6 +2898,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054343Z" creationid="Марианна" creationdate="20200812T054343Z">
         <seg>&lt;x1/&gt;Enumerations&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Периодичность фиксации транзакции (строк)&lt;x2/&gt; — разделение процесса экспорта на несколько транзакций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T112745Z" creationid="Марианна" creationdate="20200916T112745Z">
+        <seg>&lt;x1/&gt;Transaction commit frequency (rows)&lt;x2/&gt; enables to divide the export process into several transactions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7582,6 +7598,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100732Z" creationid="Марианна" creationdate="20200717T100732Z">
         <seg>Now the imported data are present in the output node port. It is possible to view them selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick View…&lt;x4/&gt; in the context port menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Транзакции фиксируются через указанное количество строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113008Z" creationid="Марианна" creationdate="20200916T113008Z">
+        <seg>Transactions are committed after a given number of rows.</seg>
       </tuv>
     </tu>
     <tu>
