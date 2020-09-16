@@ -1262,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Активация и просмотр&lt;x2/&gt; — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как будет выглядеть экспортируемая таблица.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195916Z" creationid="Марианна" creationdate="20200916T195916Z">
+        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking this button shows in the wizard how the exported table will look like.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Активация и просмотр&lt;x2/&gt; — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как именно будет выглядеть таблица в Excel, и, если необходимо, изменить какие-либо параметры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194616Z" creationid="Марианна" creationdate="20200916T194545Z">
@@ -3266,6 +3274,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When following this link, it is required to enter corresponding login and password (if any).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее в платформе Deductor файлов DDF.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T200456Z" creationid="Марианна" creationdate="20200916T200456Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the format of the DDF files in the Deductor platform used earlier.</seg>
       </tuv>
     </tu>
     <tu>
