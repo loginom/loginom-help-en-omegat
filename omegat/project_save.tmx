@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170807Z" creationid="Марианна" creationdate="20200916T170807Z">
+        <seg>&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; / &lt;x3/&gt; &lt;x4/&gt; — скрывает / показывает список &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T155520Z" creationid="Марианна" creationdate="20200824T155520Z">
@@ -846,10 +854,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — удаляет все поля в новой таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170726Z" creationid="Марианна" creationdate="20200916T170726Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — deletes all fields in the new table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — успешное выполнение (обработка завершена);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T064816Z" creationid="Марианна" creationdate="20200817T064816Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — successful completion (processing is completed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — устанавливает перечень и параметры полей, как в таблице, подключенной к входному порту обработчика;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170704Z" creationid="Марианна" creationdate="20200916T170704Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — sets the list and parameters of fields as in the table connected to the input port of the handler;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4436,6 +4460,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SQL-запрос</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170735Z" creationid="Марианна" creationdate="20200916T170735Z">
+        <seg>SQL query</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SQL-запрос.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T164113Z" creationid="Марианна" creationdate="20200916T164113Z">
@@ -5074,6 +5106,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
         <seg>Then these data are sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data are transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данная вкладка позволяет просмотреть вид SQL-запроса, определяющего структуру таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170803Z" creationid="Марианна" creationdate="20200916T170803Z">
+        <seg>This tab enables to view the SQL query type defining the table structure.</seg>
       </tuv>
     </tu>
     <tu>
