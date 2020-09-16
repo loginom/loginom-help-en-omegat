@@ -1248,8 +1248,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Активация и просмотр&lt;x2/&gt; — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как именно будет выглядеть таблица в Excel, и, если необходимо, изменить какие-либо параметры.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T194545Z" creationid="Марианна" creationdate="20200916T194545Z">
-        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking this button shows in the wizard how the table in Excel will look like, and to change any parameters, if it is required.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T194616Z" creationid="Марианна" creationdate="20200916T194545Z">
+        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking this button shows in the wizard how the table in Excel will look like, and to change any parameters if it is required.</seg>
       </tuv>
     </tu>
     <tu>
