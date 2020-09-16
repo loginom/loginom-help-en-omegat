@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Пример заполнения:%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165201Z" creationid="Марианна" creationdate="20200916T165201Z">
+        <seg>%spoiler%Example of filling in:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112736Z" creationid="Марианна" creationdate="20200825T112736Z">
@@ -4404,6 +4412,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SQL-запрос.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T164113Z" creationid="Марианна" creationdate="20200916T164113Z">
+        <seg>SQL query.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SUMMARY</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184936Z" creationid="Марианна" creationdate="20200810T184936Z">
@@ -5014,6 +5030,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T132711Z" creationid="Марианна" creationdate="20200814T105248Z">
         <seg>This page contains the following commands to use &lt;x1/&gt;packages&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данное окно имеет две вкладки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T164025Z" creationid="Марианна" creationdate="20200916T164025Z">
+        <seg>This window has two tabs:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6006,6 +6030,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T085702Z" creationid="Марианна" creationdate="20200826T085702Z">
         <seg>Configuration of the Import Formats</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T164034Z" creationid="Марианна" creationdate="20200916T164034Z">
+        <seg>Settings</seg>
       </tuv>
     </tu>
     <tu>
