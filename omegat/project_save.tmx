@@ -3936,6 +3936,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить записи по ключевым полям&lt;x2/&gt; — дает возможность на следующем этапе &lt;x3/&gt;Настройка соответствия между столбцами&lt;x4/&gt; выбрать ключевое поле, по которому будет происходить удаление записей из таблицы базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T112319Z" creationid="Марианна" creationdate="20200916T112319Z">
+        <seg>&lt;x1/&gt;Delete records by key fields&lt;x2/&gt; enables to select a key field by which records will be deleted from the database table at the next stage - &lt;x3/&gt;Adjustment of Columns Mapping&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — перемещает соотвествующий параметр обратно в список &lt;x5/&gt;Доступные элементы&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204251Z" creationid="Марианна" creationdate="20200829T204251Z">
