@@ -1270,6 +1270,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; может применяться для уменьшения размера файла экспорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195551Z" creationid="Марианна" creationdate="20200916T195551Z">
+        <seg>&lt;x1/&gt;Compression Algorithm&lt;x2/&gt; can be applied to decrease the export file size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; — отображение информации о методе сжатия LGD-файла, использованном при его создании.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062922Z" creationid="Марианна" creationdate="20200826T062922Z">
@@ -3250,6 +3258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When following this link, it is required to enter corresponding login and password (if any).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Формат хранения LGD разработан специально для использования с Loginom и обеспечивает наивысшую скорость импорта и экспорта данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195404Z" creationid="Марианна" creationdate="20200916T195404Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The LGD storage format has been elaborated specially for usage with Loginom. It provides the highest data import and export speed.</seg>
       </tuv>
     </tu>
     <tu>
