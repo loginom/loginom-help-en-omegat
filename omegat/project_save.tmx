@@ -7306,6 +7306,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Создание новой таблицы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113449Z" creationid="Марианна" creationdate="20200916T113449Z">
+        <seg>Create New Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание подключения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
