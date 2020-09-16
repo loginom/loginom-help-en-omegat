@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в базу данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110334Z" creationid="Марианна" creationdate="20200916T110334Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Export to Database</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;Пакеты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135507Z" creationid="Марианна" creationdate="20200814T135507Z">
@@ -5966,6 +5974,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063534Z" creationid="Марианна" creationdate="20200817T063534Z">
         <seg>Processing:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик осуществляет экспорт исходного набора в базу данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110446Z" creationid="Марианна" creationdate="20200916T110446Z">
+        <seg>Handler exports the initial data set to the database.</seg>
       </tuv>
     </tu>
     <tu>
