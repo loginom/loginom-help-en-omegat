@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;LZO&lt;x2/&gt; (рекомендуется, используется по умолчанию).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195650Z" creationid="Марианна" creationdate="20200916T195650Z">
+        <seg>&lt;x1/&gt;LZO&lt;x2/&gt; (it is recommended and used by default).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;LZO&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062938Z" creationid="Марианна" creationdate="20200826T062938Z">
@@ -1280,8 +1288,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; — отображение информации о методе сжатия LGD-файла, использованном при его создании.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T062922Z" creationid="Марианна" creationdate="20200826T062922Z">
-        <seg>&lt;x1/&gt;Compression Algorithm&lt;x2/&gt; enables to display information on the LGD file compression method used for its creation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195613Z" creationid="Марианна" creationdate="20200826T062922Z">
+        <seg>&lt;x1/&gt;Compression algorithm&lt;x2/&gt; enables to display information on the LGD file compression method used for its creation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3540,6 +3548,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
         <seg>&lt;x1/&gt;Difference&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разрядность&lt;x2/&gt; — выводит информацию о разрядности LGD-файла: 64 или 32 бита.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195720Z" creationid="Марианна" creationdate="20200916T195720Z">
+        <seg>&lt;x1/&gt;Bitness&lt;x2/&gt; enables to display information on bitness of the LGD file: 64 or 32 bits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7570,6 +7586,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170045Z" creationid="Марианна" creationdate="20200916T170045Z">
         <seg>Size (only for the string field) is a maximum string length; by default, it is equal to 50.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Разрядность LGD-файла зависит от разрядности используемого сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T195818Z" creationid="Марианна" creationdate="20200916T195818Z">
+        <seg>Bitness of the LGD file depends on bitness of the used Loginom server.</seg>
       </tuv>
     </tu>
     <tu>
