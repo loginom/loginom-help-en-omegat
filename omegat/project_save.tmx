@@ -784,8 +784,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — добавляет новое поле в таблицу;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T170602Z" creationid="Марианна" creationdate="20200916T170602Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — adds a new field to the table;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170823Z" creationid="Марианна" creationdate="20200916T170602Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; adds a new field to the table;</seg>
       </tuv>
     </tu>
     <tu>
@@ -856,8 +856,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — удаляет все поля в новой таблице.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T170726Z" creationid="Марианна" creationdate="20200916T170726Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — deletes all fields in the new table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170832Z" creationid="Марианна" creationdate="20200916T170726Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; deletes all fields in the new table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -872,16 +872,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — устанавливает перечень и параметры полей, как в таблице, подключенной к входному порту обработчика;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T170704Z" creationid="Марианна" creationdate="20200916T170704Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — sets the list and parameters of fields as in the table connected to the input port of the handler;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170826Z" creationid="Марианна" creationdate="20200916T170704Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; sets the list and parameters of fields as in the table connected to the input port of the handler;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;/&lt;x3/&gt;&lt;x4/&gt; — перемещают выделенное поле, определяя его положение в списке полей создаваемой таблицы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T170521Z" creationid="Марианна" creationdate="20200916T170521Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;/&lt;x3/&gt;&lt;x4/&gt; — moves the selected field defining its position in the list of fields of the created table;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170821Z" creationid="Марианна" creationdate="20200916T170521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;/&lt;x3/&gt;&lt;x4/&gt; moves the selected field defining its position in the list of fields of the created table;</seg>
       </tuv>
     </tu>
     <tu>
