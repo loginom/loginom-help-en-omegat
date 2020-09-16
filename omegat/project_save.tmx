@@ -1728,8 +1728,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнить таблицу данными&lt;x2/&gt; — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T111717Z" creationid="Марианна" creationdate="20200916T111559Z">
-        <seg>&lt;x1/&gt;Append data to table&lt;x2/&gt; enables to append lines from the source table to the selected database table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113018Z" creationid="Марианна" creationdate="20200916T111559Z">
+        <seg>&lt;x1/&gt;Append data to table&lt;x2/&gt; enables to append rows from the source table to the selected database table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2712,8 +2712,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Очистить таблицу и заполнить данными&lt;x2/&gt; — таблица базы данных будет полностью очищена и затем наполнена строками экспортируемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T112117Z" creationid="Марианна" creationdate="20200916T112117Z">
-        <seg>&lt;x1/&gt;Clear table and fill in data&lt;x2/&gt; enables to clear the database table completely and fill in with lines of the exported table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113028Z" creationid="Марианна" creationdate="20200916T112117Z">
+        <seg>&lt;x1/&gt;Clear table and fill in data&lt;x2/&gt; enables to clear the database table completely and fill in with rows of the exported table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3954,8 +3954,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить записи по ключевым полям и дополнить таблицу данными&lt;x2/&gt; — алгоритм такой же, как и для предыдущего параметра, но после его выполнения строки из таблицы-источника будут добавлены к таблице базы данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T112543Z" creationid="Марианна" creationdate="20200916T112543Z">
-        <seg>&lt;x1/&gt;Delete records by key fields and insert data into table&lt;x2/&gt; provides the same algorithm as for the previous parameter but lines from the source table will be appended to the database table upon its execution.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113049Z" creationid="Марианна" creationdate="20200916T112543Z">
+        <seg>&lt;x1/&gt;Delete records by key fields and insert data into table&lt;x2/&gt; provides the same algorithm as for the previous parameter but rows from the source table will be appended to the database table upon its execution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6902,6 +6902,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084443Z" creationid="Марианна" creationdate="20200814T084443Z">
         <seg>If required, it is possible to enter the path manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нулевом значении параметра разделение на транзакции не производится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T113215Z" creationid="Марианна" creationdate="20200916T113215Z">
+        <seg>If the parameter has zero value, division into transactions is not performed.</seg>
       </tuv>
     </tu>
     <tu>
