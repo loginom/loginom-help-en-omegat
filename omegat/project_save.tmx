@@ -486,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в Excel-файл</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T171045Z" creationid="Марианна" creationdate="20200916T171045Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Export to the Excel File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в базу данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110334Z" creationid="Марианна" creationdate="20200916T110334Z">
@@ -6282,6 +6290,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062102Z" creationid="Марианна" creationdate="20200826T062102Z">
         <seg>The handler is designated for the table import from the &lt;x1/&gt;LGD file&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик экспортирует таблицы данных в файлы для программы Microsoft Excel.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T193530Z" creationid="Марианна" creationdate="20200916T193530Z">
+        <seg>The handler exports the table data to the files for Microsoft Excel.</seg>
       </tuv>
     </tu>
     <tu>
