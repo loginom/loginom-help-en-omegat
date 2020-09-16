@@ -5438,6 +5438,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение параметра, установленное по умолчанию, при необходимости следует скорректировать в соответствии с экспортируемыми данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170226Z" creationid="Марианна" creationdate="20200916T170226Z">
+        <seg>It is required to adjust the parameter value set by default according to the exported data, if relevant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T063553Z" creationid="Марианна" creationdate="20200826T063553Z">
@@ -7294,6 +7302,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Размер (только для строкового поля) — максимальная длина строки, по умолчанию установлен равным 50.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T170045Z" creationid="Марианна" creationdate="20200916T170045Z">
+        <seg>Size (only for the string field) is a maximum string length; by default, it is equal to 50.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
@@ -7722,6 +7738,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100732Z" creationid="Марианна" creationdate="20200717T100732Z">
         <seg>Now the imported data are present in the output node port. It is possible to view them selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick View…&lt;x4/&gt; in the context port menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип данных поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T165926Z" creationid="Марианна" creationdate="20200916T165926Z">
+        <seg>Type of the field data.</seg>
       </tuv>
     </tu>
     <tu>
