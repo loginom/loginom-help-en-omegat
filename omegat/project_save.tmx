@@ -1726,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дополнить таблицу данными&lt;x2/&gt; — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111559Z" creationid="Марианна" creationdate="20200916T111559Z">
+        <seg>&lt;x1/&gt;Append data to table&lt;x2/&gt; enables to append lines form the source table to the selected database table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные элементы&lt;x2/&gt; — левая часть, содержит список возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201049Z" creationid="Марианна" creationdate="20200827T195837Z">
@@ -3860,6 +3868,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192548Z" creationid="Марианна" creationdate="20200825T192548Z">
         <seg>&lt;x1/&gt;Data type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt;: the text field value will be transformed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип экспорта&lt;x2/&gt; — задается выбором одного из вариантов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111424Z" creationid="Марианна" creationdate="20200916T111424Z">
+        <seg>&lt;x1/&gt;Export type&lt;x2/&gt; enables to select one of the variants.</seg>
       </tuv>
     </tu>
     <tu>
