@@ -1,10 +1,10 @@
-# ![ ](../../images/icons/data-sources/file-native-export_default.svg) Экспорт в LGD-файл
+# ![ ](../../images/icons/data-sources/file-native-export_default.svg) Export to the LGD File
 
-Обработчик осуществляет экспорт исходного набора данных в [LGD-файл](../../data-format/lgd-file.md). LGD-файл уже содержит в себе всю необходимую информацию о параметрах полей (имя поля, метка, тип данных и др.), что позволяет выполнять экспорт и импорт наборов данных с минимальными настройками.
+The handler exports the initial data set to the [LGD file](../../data-format/lgd-file.md). The LGD file already contains all required information on the field features (field name, caption, data type, etc.) that enables to export and import data sets with minimum settings.
 
-Имеется возможность использования сжатия данных различными алгоритмами.
+It is possible to compress data using different algorithms.
 
-> **Примечание:** Формат хранения LGD разработан специально для использования с Loginom и обеспечивает наивысшую скорость импорта и экспорта данных.
+> **Note:** The LGD storage format has been elaborated specially for usage with Loginom. It provides the highest data import and export speed.
 
 ## Ports
 
@@ -17,10 +17,10 @@
 
 * **File storage** enables to display information on method of connection to the destination file.
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* **Алгоритм сжатия** может применяться для уменьшения размера файла экспорта. Доступны следующие варианты.
+* **Compression Algorithm** can be applied to decrease the export file size. The following options are available:
    * Without compression
-   * [LZO](https://ru.wikipedia.org/wiki/LZO) (рекомендуется, используется по умолчанию).
-* **Разрядность** — выводит информацию о разрядности LGD-файла: 64 или 32 бита. Разрядность LGD-файла зависит от разрядности используемого сервера Loginom.
-* **Активация и просмотр** — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как будет выглядеть экспортируемая таблица.
+   * [LZO](https://ru.wikipedia.org/wiki/LZO) (it is recommended and used by default).
+* **Bitness** enables to display information on bitness of the LGD file: 64 or 32 bits. Bitness of the LGD file depends on bitness of the used Loginom server.
+* **Activate and Show**: clicking this button shows in the wizard how the exported table will look like.
 
-> **Примечание:** Следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее в платформе Deductor файлов DDF. Поэтому эти файлы не могут быть импортированы в Deductor 5.3 и ниже.
+> **Note:** It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the format of the DDF files in the Deductor platform used earlier. That's why these files cannot be imported to Deductor 5.3 and earlier.
