@@ -4404,6 +4404,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom можно экспортировать данные в текстовый файл, XML-файл, электронные таблицы, внутренний формат программы, а также в базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T110110Z" creationid="Марианна" creationdate="20200916T110110Z">
+        <seg>In Loginom it is possible to export data to the text file, XML file, spreadsheets, internal application format and databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В SQL-запросах возможно использование переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131536Z" creationid="Марианна" creationdate="20200825T111424Z">
