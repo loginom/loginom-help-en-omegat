@@ -5514,6 +5514,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопка &lt;x3/&gt;&lt;x4/&gt;Создать таблицу&lt;x5/&gt;&lt;x6/&gt; открывает окно создания новой таблицы в БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111346Z" creationid="Марианна" creationdate="20200916T111346Z">
+        <seg>&lt;x3/&gt;&lt;x4/&gt;Create table&lt;x5/&gt;&lt;x6/&gt; button enables to open the window of the new table creation in DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кнопка &lt;x3/&gt;Активировать&lt;x4/&gt; делает активным это подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T111003Z" creationid="Марианна" creationdate="20200916T111003Z">
@@ -7710,6 +7718,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
         <seg>This file protects the opened package from possible editing or deleting by other users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эту таблицу можно выбрать из списка существующих в базе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200916T111231Z" creationid="Марианна" creationdate="20200916T111231Z">
+        <seg>This table can be selected from the list of the database tables.</seg>
       </tuv>
     </tu>
     <tu>
