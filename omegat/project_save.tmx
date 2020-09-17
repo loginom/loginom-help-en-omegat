@@ -2254,6 +2254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой сохранится текст.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162156Z" creationid="Марианна" creationdate="20200917T162156Z">
+        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means encoding used for storage of text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой хранится текст в файле;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T085048Z" creationid="Марианна" creationdate="20200826T085048Z">
@@ -4008,6 +4016,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка заголовка&lt;x2/&gt; — выбор способа задания наименования столбцов в экспортируемом файле:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162320Z" creationid="Марианна" creationdate="20200917T162320Z">
+        <seg>&lt;x1/&gt;Header Row&lt;x2/&gt; enables to select the method used for setting of columns name in the exported file:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка заголовков&lt;x2/&gt; — определение заголовков для таблицы в Excel.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194122Z" creationid="Марианна" creationdate="20200916T194122Z">
@@ -4340,6 +4356,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054950Z" creationid="Марианна" creationdate="20200812T054950Z">
         <seg>&lt;x1/&gt;Factor analysis&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фиксированной ширины&lt;x2/&gt; — поля в исходном файле имеют заданную ширину.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162115Z" creationid="Марианна" creationdate="20200917T162115Z">
+        <seg>&lt;x1/&gt;Fixed width&lt;x2/&gt;: fields in the source file have the set width.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5994,6 +6018,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161500Z" creationid="Марианна" creationdate="20200917T161500Z">
         <seg>West European (1252);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Запятая;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162018Z" creationid="Марианна" creationdate="20200917T162018Z">
+        <seg>Comma;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7958,6 +7990,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пробел;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162000Z" creationid="Марианна" creationdate="20200917T162000Z">
+        <seg>Space;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120709Z" creationid="Марианна" creationdate="20200718T120709Z">
@@ -8178,6 +8218,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093056Z" creationid="Марианна" creationdate="20200819T074443Z">
         <seg>Server Editions (Team, Standard, Enterprise)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Символ табуляции;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161934Z" creationid="Марианна" creationdate="20200917T161934Z">
+        <seg>Tab character;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8554,6 +8602,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T152255Z" creationid="Марианна" creationdate="20200917T152255Z">
         <seg>Dot mark (.);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Точка с запятой;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161947Z" creationid="Марианна" creationdate="20200917T161947Z">
+        <seg>Semicolumn;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Точка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162022Z" creationid="Марианна" creationdate="20200917T162022Z">
+        <seg>Dot mark.</seg>
       </tuv>
     </tu>
     <tu>
