@@ -4376,6 +4376,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формат времени&lt;x2/&gt; — формат представления времени:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T160625Z" creationid="Марианна" creationdate="20200917T160625Z">
+        <seg>&lt;x1/&gt;Time format&lt;x2/&gt; is a format of the time representation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Формат даты&lt;x2/&gt; – параметром задается формат даты, используемый в импортируемом тексте.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T094013Z" creationid="Марианна" creationdate="20200826T094013Z">
