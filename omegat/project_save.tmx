@@ -4384,6 +4384,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формат даты&lt;x2/&gt; — формат представления даты:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153544Z" creationid="Марианна" creationdate="20200917T153544Z">
+        <seg>&lt;x1/&gt;Date format&lt;x2/&gt; is a format of the date representation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Формат&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T190020Z" creationid="Марианна" creationdate="20200810T190020Z">
@@ -5354,6 +5362,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151430Z" creationid="Марианна" creationdate="20200917T151430Z">
         <seg>&lt;x1/&gt;Delimiters&lt;x2/&gt; group of parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Группа параметров &lt;x1/&gt;Форматы&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153401Z" creationid="Марианна" creationdate="20200917T153401Z">
+        <seg>&lt;x1/&gt;Formats&lt;x2/&gt; group of parameters:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7130,6 +7146,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151836Z" creationid="Марианна" creationdate="20200917T151836Z">
         <seg>Double quotation mark (") is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию используется символ знака вопроса &lt;x3/&gt;?&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153340Z" creationid="Марианна" creationdate="20200917T153340Z">
+        <seg>The question mark &lt;x3/&gt;?&lt;x4/&gt; is used by default.</seg>
       </tuv>
     </tu>
     <tu>
