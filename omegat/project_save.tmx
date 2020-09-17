@@ -6102,6 +6102,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имена столбцов (полей) - в качестве заголовков столбцов будут использованы Имена полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162626Z" creationid="Марианна" creationdate="20200917T162626Z">
+        <seg>Names of columns (fields): Names of fields will be used as headers of columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T063553Z" creationid="Марианна" creationdate="20200826T063553Z">
@@ -6530,6 +6538,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194205Z" creationid="Марианна" creationdate="20200916T194205Z">
         <seg>Fields captions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метки столбцов (полей) - в качестве заголовков столбцов будут использованы Метки полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T162525Z" creationid="Марианна" creationdate="20200917T162525Z">
+        <seg>Captions of columns (fields): captions of fields will be used as headers of columns.</seg>
       </tuv>
     </tu>
     <tu>
