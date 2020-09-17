@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в текстовый файл</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T144651Z" creationid="Марианна" creationdate="20200917T144651Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Export to the Text File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;Пакеты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135507Z" creationid="Марианна" creationdate="20200814T135507Z">
@@ -5694,6 +5702,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имеется возможность настройки преобразования набора данных в текстовый вид, определяя различные способы представления столбцов (с разделителями/фиксированной ширины), форматы типов данных, разделители и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T144917Z" creationid="Марианна" creationdate="20200917T144917Z">
+        <seg>It is possible to configure transformation of the data set to the text form defining different methods of representation of columns (with delimiters/fixed width), formats of data types, delimiters, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
@@ -7218,6 +7234,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T200629Z" creationid="Марианна" creationdate="20200916T200629Z">
         <seg>That's why these files cannot be imported to Deductor 5.3 and earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предназначен для экспорта набора данных в текстовый файл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T144729Z" creationid="Марианна" creationdate="20200917T144729Z">
+        <seg>It is designated for export of the data set to the text file.</seg>
       </tuv>
     </tu>
     <tu>
