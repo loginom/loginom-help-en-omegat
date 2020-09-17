@@ -2406,6 +2406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ложь&lt;x2/&gt; — текст, представляющий логическое значение ЛОЖЬ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153118Z" creationid="Марианна" creationdate="20200917T153118Z">
+        <seg>&lt;x1/&gt;False&lt;x2/&gt; is a text that represents the logical False value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Локальные настройки&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185235Z" creationid="Марианна" creationdate="20200810T183157Z">
@@ -3500,6 +3508,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093609Z" creationid="Марианна" creationdate="20200826T093609Z">
         <seg>&lt;x1/&gt;Null&lt;x2/&gt; is a text that represents the &lt;x3/&gt;Null&lt;x4/&gt; value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пусто&lt;x2/&gt; — текст, представляющий значение Null.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153231Z" creationid="Марианна" creationdate="20200917T153231Z">
+        <seg>&lt;x1/&gt;Null&lt;x2/&gt; is a text that represents the Null value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5638,6 +5654,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступные значения: &lt;x5/&gt;False, Ложь, Нет&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153203Z" creationid="Марианна" creationdate="20200917T153203Z">
+        <seg>There are the following available values: &lt;x5/&gt;False, False, No&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные значения: &lt;x5/&gt;True, Истина, Да&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153055Z" creationid="Марианна" creationdate="20200917T153055Z">
@@ -7098,6 +7122,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151836Z" creationid="Марианна" creationdate="20200917T151836Z">
         <seg>Double quotation mark (") is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию используется строка &lt;x3/&gt;False&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153147Z" creationid="Марианна" creationdate="20200917T153147Z">
+        <seg>The &lt;x3/&gt;False&lt;x4/&gt; row is used by default.</seg>
       </tuv>
     </tu>
     <tu>
