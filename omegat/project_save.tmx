@@ -5342,6 +5342,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Двойная кавычка(");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T151751Z" creationid="Марианна" creationdate="20200917T151727Z">
+        <seg>Double quotation mark (");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Декомпозиция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
@@ -6574,10 +6582,26 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обратная кавычка (`).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T151815Z" creationid="Марианна" creationdate="20200917T151815Z">
+        <seg>Backquote mark (`).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Общее:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
         <seg>General:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Одинарная кавычка (');</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T151747Z" creationid="Марианна" creationdate="20200917T151747Z">
+        <seg>Single quotation mark (');</seg>
       </tuv>
     </tu>
     <tu>
@@ -6994,6 +7018,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T075420Z" creationid="Марианна" creationdate="20200817T075420Z">
         <seg>The information panel is hidden by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию используется Двойная кавычка (").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T151836Z" creationid="Марианна" creationdate="20200917T151836Z">
+        <seg>Double quotation mark (") is used by default.</seg>
       </tuv>
     </tu>
     <tu>
