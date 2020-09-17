@@ -4772,6 +4772,38 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>h:mm</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T160634Z" creationid="Марианна" creationdate="20200917T160634Z">
+        <seg>h:mm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>h:mm:ss</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T160642Z" creationid="Марианна" creationdate="20200917T160642Z">
+        <seg>h:mm:ss</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>hh:mm</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T160638Z" creationid="Марианна" creationdate="20200917T160638Z">
+        <seg>hh:mm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>hh:mm:ss</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T160645Z" creationid="Марианна" creationdate="20200917T160645Z">
+        <seg>hh:mm:ss</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>mm/dd/yy</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153610Z" creationid="Марианна" creationdate="20200917T153610Z">
@@ -5226,6 +5258,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T160523Z" creationid="Марианна" creationdate="20200917T160523Z">
         <seg>There are the following abbreviations in all formats: dd — day of the month in the form of 2 digits, mm — number of the month in the form of 2 digits, yy — year in the form of 2 digits, yyyy - year in the form of 4 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Во всех форматах: h — часы без ведущего нуля, hh — часы в виде 2-х цифр, mm — минуты в виде 2-х цифр, ss — секунды в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T160820Z" creationid="Марианна" creationdate="20200917T160820Z">
+        <seg>There are the following abbreviations in all formats: h — hours without leading zero, hh — hours in the form of 2 digits, mm — minutes in the form of 2 digits, ss — seconds in the form of 2 digits.</seg>
       </tuv>
     </tu>
     <tu>
