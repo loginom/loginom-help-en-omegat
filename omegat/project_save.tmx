@@ -6038,6 +6038,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение этого параметра выбирается из списка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161911Z" creationid="Марианна" creationdate="20200917T161911Z">
+        <seg>The value of this parameter is selected from the list:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имеется возможность использования сжатия данных различными алгоритмами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195204Z" creationid="Марианна" creationdate="20200916T195204Z">
