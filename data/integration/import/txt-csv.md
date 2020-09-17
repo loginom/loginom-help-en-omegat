@@ -31,8 +31,8 @@ The following parameters are specified at the configuration stage:
 * Separators:
    * **Text qualifier** is a character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurence is imported as one value even if the text contains a separating character.
    * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions.
-   * **Date separator** is a symbol that separates date components.
-   * **Time separator** is a symbol that separates time components.
+   * **Date separator** is a character that separates date components.
+   * **Time separator** is a character that separates time components.
 * Literals:
    * **True** is a text that represents the logical *True* value.
    * **False** is a text that represents the logical *False* value.
