@@ -3888,6 +3888,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Состояние входа&lt;x2/&gt; — строка состояния входа &lt;x3/&gt;Источник данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161300Z" creationid="Марианна" creationdate="20200917T161300Z">
+        <seg>&lt;x1/&gt;Login status&lt;x2/&gt; is a login status row - &lt;x3/&gt;Data source&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранение пакета.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115824Z" creationid="Марианна" creationdate="20200716T115824Z">
@@ -4384,6 +4392,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формат данных&lt;x2/&gt; — выбор одного из вариантов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161400Z" creationid="Марианна" creationdate="20200917T161400Z">
+        <seg>&lt;x1/&gt;Data format&lt;x2/&gt; enables to select one of the following options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Формат даты&lt;x2/&gt; – параметром задается формат даты, используемый в импортируемом тексте.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T094013Z" creationid="Марианна" creationdate="20200826T094013Z">
@@ -4540,6 +4556,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112752Z" creationid="Марианна" creationdate="20200825T112752Z">
         <seg>AND Publisher.Name LIKE '%Media%'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ANSI/Windows(0);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161420Z" creationid="Марианна" creationdate="20200917T161420Z">
+        <seg>ANSI/Windows(0);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ASCII/MS DOS(1);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161423Z" creationid="Марианна" creationdate="20200917T161423Z">
+        <seg>ASCII/MS DOS(1);</seg>
       </tuv>
     </tu>
     <tu>
@@ -4736,6 +4768,30 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112841Z" creationid="Марианна" creationdate="20200825T112841Z">
         <seg>TitlePart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>UTF-16 BE (1201).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161407Z" creationid="Марианна" creationdate="20200917T161407Z">
+        <seg>UTF-16 BE (1201).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>UTF-16 LE (1200);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161410Z" creationid="Марианна" creationdate="20200917T161410Z">
+        <seg>UTF-16 LE (1200);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>UTF-8 (65001);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161414Z" creationid="Марианна" creationdate="20200917T161414Z">
+        <seg>UTF-8 (65001);</seg>
       </tuv>
     </tu>
     <tu>
@@ -5458,6 +5514,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T152926Z" creationid="Марианна" creationdate="20200917T152926Z">
         <seg>&lt;x1/&gt;Literals&lt;x2/&gt; group of parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Группа параметров &lt;x1/&gt;Представление столбцов&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161329Z" creationid="Марианна" creationdate="20200917T161329Z">
+        <seg>&lt;x1/&gt;Columns View&lt;x2/&gt; group of parameters:</seg>
       </tuv>
     </tu>
     <tu>
