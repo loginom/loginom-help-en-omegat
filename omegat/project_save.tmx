@@ -5654,6 +5654,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступные значения: &lt;x5/&gt;?, null, NULL&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T153252Z" creationid="Марианна" creationdate="20200917T153252Z">
+        <seg>There are the following available values: &lt;x5/&gt;?, null, NULL&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные значения: &lt;x5/&gt;False, Ложь, Нет&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153203Z" creationid="Марианна" creationdate="20200917T153203Z">
