@@ -438,6 +438,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Источник данных — таблица данных, подлежащая экспорту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T144948Z" creationid="Марианна" creationdate="20200917T144948Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Data source is a data table to be exported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Источник данных — таблица данных, подлежащая экспорту;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193656Z" creationid="Марианна" creationdate="20200916T193656Z">
