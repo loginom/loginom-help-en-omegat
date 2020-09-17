@@ -3720,6 +3720,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;С разделителями&lt;x2/&gt; — значения полей в исходном файле отделяются символом, заданным параметром &lt;x3/&gt;Разделитель столбцов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T161804Z" creationid="Марианна" creationdate="20200917T161804Z">
+        <seg>&lt;x1/&gt;With separators&lt;x2/&gt;: this option means values of fields in the source file that are separated by the character set by the &lt;x3/&gt;Column delimiter&lt;x4/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Самоорганизующиеся сети&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055933Z" creationid="Марианна" creationdate="20200812T055933Z">
