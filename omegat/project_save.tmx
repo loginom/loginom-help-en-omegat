@@ -4952,6 +4952,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В параметрах &lt;x1/&gt;Десятичный разделитель&lt;x2/&gt;, &lt;x3/&gt;Разделитель даты&lt;x4/&gt; и &lt;x5/&gt;Разделитель времени&lt;x6/&gt; в качестве значений по умолчанию используются &lt;x7/&gt;локальные настройки&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T152733Z" creationid="Марианна" creationdate="20200917T152733Z">
+        <seg>&lt;x7/&gt;Local settings&lt;x8/&gt; are used as default values in the following parameters: &lt;x1/&gt;Decimal separator&lt;x2/&gt;, &lt;x3/&gt;Date separator&lt;x4/&gt; and &lt;x5/&gt;Time separator&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
