@@ -1790,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Десятичный разделитель&lt;x2/&gt; — символ, разделяющий дробную и целую части числовых значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T151935Z" creationid="Марианна" creationdate="20200917T151935Z">
+        <seg>&lt;x1/&gt;Decimal separator&lt;x2/&gt; is a character that separates fractional and integer parts of numeric expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Детализация&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065836Z" creationid="Марианна" creationdate="20200812T065836Z">
@@ -3562,16 +3570,24 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель времени&lt;x2/&gt; – символ, разделяющий компоненты времени.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T093249Z" creationid="Марианна" creationdate="20200826T093249Z">
-        <seg>&lt;x1/&gt;Time separator&lt;x2/&gt; is a symbol that separates time components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T152210Z" creationid="Марианна" creationdate="20200826T093249Z">
+        <seg>&lt;x1/&gt;Time separator&lt;x2/&gt; is a character that separates time components.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель даты&lt;x2/&gt; – символ, разделяющий компоненты даты.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T093210Z" creationid="Марианна" creationdate="20200826T093210Z">
-        <seg>&lt;x1/&gt;Date separator&lt;x2/&gt; is a symbol that separates date components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T152142Z" creationid="Марианна" creationdate="20200826T093210Z">
+        <seg>&lt;x1/&gt;Date separator&lt;x2/&gt; is a character that separates date components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разделитель даты&lt;x2/&gt; — символ, разделяющий компоненты даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T152122Z" creationid="Марианна" creationdate="20200917T152122Z">
+        <seg>&lt;x1/&gt;Date separator&lt;x2/&gt; is a character that separates date components.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7690,6 +7706,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171404Z" creationid="Марианна" creationdate="20200718T151127Z">
         <seg>Creation of libraries of universal functions represents development of idea of usage of earlier created algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Разделителем может быть Точка (.) или Запятая (,).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200917T152046Z" creationid="Марианна" creationdate="20200917T152046Z">
+        <seg>Dot mark (.) or comma (,) can be used as delimiters.</seg>
       </tuv>
     </tu>
     <tu>
