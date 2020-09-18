@@ -6638,6 +6638,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопка-переключатель в состоянии фильтра &lt;x3/&gt; &lt;x4/&gt; предоставляет в окне выбора только те поля, которые еще не связаны с какими-либо элементами, а в простом состоянии &lt;x5/&gt; &lt;x6/&gt; предоставляет к выбору все поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T100036Z" creationid="Марианна" creationdate="20200918T100036Z">
+        <seg>Switch button in the state of the &lt;x3/&gt; &lt;x4/&gt; filter displays in the selection window only the fields that are not linked to any elements yet, and in the common &lt;x5/&gt; &lt;x6/&gt; state it dispalys all fields for selection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество входов и выходов узла варьируется в зависимости от функционала.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T093609Z" creationid="Марианна" creationdate="20200716T093547Z">
@@ -7394,6 +7402,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161953Z" creationid="Марианна" creationdate="20200818T161953Z">
         <seg>The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Откроется окно для выбора полей, пригодных для связывания.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T095455Z" creationid="Марианна" creationdate="20200918T095455Z">
+        <seg>The window for selection of the fields suitable for linking will be opened.</seg>
       </tuv>
     </tu>
     <tu>
