@@ -1214,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;d&lt;x2/&gt; — день месяца без ведущего нуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T082652Z" creationid="Марианна" creationdate="20200918T082652Z">
+        <seg>&lt;x1/&gt;d&lt;x2/&gt; — day of the month without leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Абсолютный&lt;x2/&gt; (для совместного использования) — включает в себя имя папки, из которой загружен файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085145Z" creationid="Марианна" creationdate="20200814T085145Z">
@@ -5638,6 +5646,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>День.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T082559Z" creationid="Марианна" creationdate="20200918T082559Z">
+        <seg>Day.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дискретный.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
@@ -7558,6 +7574,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пользовательский формат дата/время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T082420Z" creationid="Марианна" creationdate="20200918T082420Z">
+        <seg>User Date/Time Format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поля таблицы с указанием следующих параметров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165726Z" creationid="Марианна" creationdate="20200916T165726Z">
@@ -7770,6 +7794,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072256Z" creationid="Марианна" creationdate="20200817T072247Z">
         <seg>Selecting the process on the information panel, it is possible to call the context menu containing the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При задании пользовательского формата используются следующие наборы символов форматирования:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T082553Z" creationid="Марианна" creationdate="20200918T082553Z">
+        <seg>When setting the user format, the following sets of formatting characters are used:</seg>
       </tuv>
     </tu>
     <tu>
