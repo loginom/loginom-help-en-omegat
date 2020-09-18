@@ -2014,6 +2014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавлять отступы и переводы строк&lt;x2/&gt; — в файле экспорта каждой строке будет соответствовать один элемент, перед которым будет стоять позиция табуляции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T090354Z" creationid="Марианна" creationdate="20200918T090354Z">
+        <seg>&lt;x1/&gt;Add indents and line breaks&lt;x2/&gt;: each line will correspond to one element before which tab stop will be placed in the export file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191810Z" creationid="Марианна" creationdate="20200810T191810Z">
