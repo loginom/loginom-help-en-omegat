@@ -1806,6 +1806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выполнение узла&lt;x2/&gt; Выполнение узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T142540Z" creationid="Марианна" creationdate="20200918T142540Z">
+        <seg>&lt;x1/&gt;Node Execution&lt;x2/&gt;Node Execution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выражение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192116Z" creationid="Марианна" creationdate="20200810T192116Z">
@@ -6670,6 +6678,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент позволяет повторно использовать уже имеющийся узел сценария для обработки новых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T142731Z" creationid="Марианна" creationdate="20200918T142731Z">
+        <seg>The component enables to use already existing workflow node for processing of the new data repeatedly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент предназначен для импорта из базы данных 1С.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T120321Z" creationid="Марианна" creationdate="20200823T120321Z">
@@ -9106,6 +9122,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100637Z" creationid="Марианна" creationdate="20200918T100637Z">
         <seg>Specify always.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Управление</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T142404Z" creationid="Марианна" creationdate="20200918T142404Z">
+        <seg>Control</seg>
       </tuv>
     </tu>
     <tu>
