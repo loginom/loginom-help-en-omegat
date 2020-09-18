@@ -1254,6 +1254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;h&lt;x2/&gt; — часы без ведущего нуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083528Z" creationid="Марианна" creationdate="20200918T083528Z">
+        <seg>&lt;x1/&gt;h&lt;x2/&gt; — hours without leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;m&lt;x2/&gt; — номер месяца без ведущего нуля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083139Z" creationid="Марианна" creationdate="20200918T083139Z">
@@ -1266,6 +1274,38 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083225Z" creationid="Марианна" creationdate="20200918T083225Z">
         <seg>&lt;x1/&gt;mm&lt;x2/&gt; — number of the month in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;mmm&lt;x2/&gt; — месяц в сокращенном формате ("Янв", "Фев" и т.д.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083331Z" creationid="Марианна" creationdate="20200918T083331Z">
+        <seg>&lt;x1/&gt;mmm&lt;x2/&gt; — month in the abbreviated format ("Jan", "Feb", etc).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;mmmm&lt;x2/&gt; — месяц в полном формате ("Январь", "Февраль" и т.д.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083419Z" creationid="Марианна" creationdate="20200918T083419Z">
+        <seg>&lt;x1/&gt;mmmm&lt;x2/&gt; — month in the full format ("January", "February", etc).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;y&lt;x2/&gt; или &lt;x3/&gt;yy&lt;x4/&gt; — год, 2 цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083446Z" creationid="Марианна" creationdate="20200918T083446Z">
+        <seg>&lt;x1/&gt;y&lt;x2/&gt; or &lt;x3/&gt;yy&lt;x4/&gt; — year, 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;yyyy&lt;x2/&gt; — год, 4 цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083505Z" creationid="Марианна" creationdate="20200918T083505Z">
+        <seg>&lt;x1/&gt;yyyy&lt;x2/&gt; — year, 4 digits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5590,6 +5630,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Год.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083425Z" creationid="Марианна" creationdate="20200918T083425Z">
+        <seg>Year.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Группа параметров &lt;x1/&gt;Область данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123659Z" creationid="Марианна" creationdate="20200825T123659Z">
@@ -8794,6 +8842,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
         <seg>Component functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Часы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083510Z" creationid="Марианна" creationdate="20200918T083510Z">
+        <seg>Hours.</seg>
       </tuv>
     </tu>
     <tu>
