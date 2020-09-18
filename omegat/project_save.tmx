@@ -526,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в XML-файл</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T085322Z" creationid="Марианна" creationdate="20200918T085322Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Export to the XML File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в базу данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110334Z" creationid="Марианна" creationdate="20200916T110334Z">
@@ -2722,6 +2730,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065618Z" creationid="Марианна" creationdate="20200812T065618Z">
         <seg>&lt;x1/&gt;Configure sorting&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка форматирования&lt;x2/&gt; — область включает следующие флаги.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T085602Z" creationid="Марианна" creationdate="20200918T085602Z">
+        <seg>&lt;x1/&gt;Formatting configuration&lt;x2/&gt;: this area includes the following flags.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6598,6 +6614,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент предназначен для экспорта таблиц данных в файлы формата XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T085403Z" creationid="Марианна" creationdate="20200918T085403Z">
+        <seg>The component is designated for data tables export to the XML files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компоненты — стандартная библиотека базовых компонентов Loginom;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125252Z" creationid="Марианна" creationdate="20200819T125252Z">
@@ -7002,6 +7026,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104354Z" creationid="Марианна" creationdate="20200711T104354Z">
         <seg>Import Node Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка файла экспорта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T085450Z" creationid="Марианна" creationdate="20200918T085450Z">
+        <seg>Configuration of the Export File</seg>
       </tuv>
     </tu>
     <tu>
