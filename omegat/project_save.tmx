@@ -8942,6 +8942,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Типы данных поля таблицы и связываемого объекта должны совпадать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T092611Z" creationid="Марианна" creationdate="20200918T092611Z">
+        <seg>Types of the table field data and linked object must coincide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Точка (.);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T152255Z" creationid="Марианна" creationdate="20200917T152255Z">
