@@ -2654,6 +2654,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Методом Drag-and-drop&lt;x2/&gt; — перетащить метку поля на элемент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T095141Z" creationid="Марианна" creationdate="20200918T095141Z">
+        <seg>&lt;x1/&gt;Drag-and-drop method&lt;x2/&gt;: drag the field caption to the element.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Модели&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060557Z" creationid="Марианна" creationdate="20200812T060557Z">
@@ -7866,6 +7874,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165726Z" creationid="Марианна" creationdate="20200916T165726Z">
         <seg>Table fields specifying the following parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля таблицы, которые уже соотнесены с каким-либо элементом, подсвечиваются жирным шрифтом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T094613Z" creationid="Марианна" creationdate="20200918T094613Z">
+        <seg>The table fields that are mapped to any element are marked in bold text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Помимо автоматического, возможно связывание полей и объектов XML вручную двумя способами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T095007Z" creationid="Марианна" creationdate="20200918T095007Z">
+        <seg>Apart from the automatic mode, it is possible to link fields and XML objects manually in two ways.</seg>
       </tuv>
     </tu>
     <tu>
