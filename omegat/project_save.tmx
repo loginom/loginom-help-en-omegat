@@ -4736,6 +4736,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экранировать табуляции и переводы строк в атрибутах&lt;x2/&gt; — замена в атрибутах выходного файла символов табуляции на обозначение &lt;x3/&gt;&lt;x4/&gt;&amp;#x9;&lt;x5/&gt;&lt;x6/&gt; и символа перевода строк на &lt;x7/&gt;&lt;x8/&gt;&amp;#xA;&lt;x9/&gt;&lt;x10/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T090756Z" creationid="Марианна" creationdate="20200918T090756Z">
+        <seg>&lt;x1/&gt;Escape tabs and line breaks in attributes&lt;x2/&gt;: replacement of tab characters in attributes of the output file to &lt;x3/&gt;&lt;x4/&gt;&amp;#x9;&lt;x5/&gt;&lt;x6/&gt; and line feed character to &lt;x7/&gt;&lt;x8/&gt;&amp;#xA;&lt;x9/&gt;&lt;x10/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экспорт данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185344Z" creationid="Марианна" creationdate="20200810T184732Z">
