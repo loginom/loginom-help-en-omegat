@@ -2086,6 +2086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Записывать Byte Order Mark&lt;x2/&gt; — записывать &lt;x3/&gt;маркер последовательности байтов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T085948Z" creationid="Марианна" creationdate="20200918T085702Z">
+        <seg>&lt;x1/&gt;Write Byte Order Mark&lt;x2/&gt; enables to write &lt;x3/&gt;marker of bytes sequence&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заполнение пропусков&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055110Z" creationid="Марианна" creationdate="20200812T055110Z">
@@ -2736,8 +2744,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка форматирования&lt;x2/&gt; — область включает следующие флаги.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T085602Z" creationid="Марианна" creationdate="20200918T085602Z">
-        <seg>&lt;x1/&gt;Formatting configuration&lt;x2/&gt;: this area includes the following flags.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T085716Z" creationid="Марианна" creationdate="20200918T085602Z">
+        <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: this area includes the following flags.</seg>
       </tuv>
     </tu>
     <tu>
