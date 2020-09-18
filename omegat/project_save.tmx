@@ -1262,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;hh&lt;x2/&gt; — часы в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083554Z" creationid="Марианна" creationdate="20200918T083554Z">
+        <seg>&lt;x1/&gt;hh&lt;x2/&gt; — hours in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;m&lt;x2/&gt; — номер месяца без ведущего нуля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083139Z" creationid="Марианна" creationdate="20200918T083139Z">
@@ -1294,6 +1302,38 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;n&lt;x2/&gt; — минуты без ведущего нуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083614Z" creationid="Марианна" creationdate="20200918T083614Z">
+        <seg>&lt;x1/&gt;n&lt;x2/&gt; — minutes without leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;nn&lt;x2/&gt; — минуты в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083627Z" creationid="Марианна" creationdate="20200918T083627Z">
+        <seg>&lt;x1/&gt;nn&lt;x2/&gt; — minutes in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;s&lt;x2/&gt; — секунды без ведущего нуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083659Z" creationid="Марианна" creationdate="20200918T083659Z">
+        <seg>&lt;x1/&gt;s&lt;x2/&gt; — seconds without leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ss&lt;x2/&gt; — секунды в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083719Z" creationid="Марианна" creationdate="20200918T083719Z">
+        <seg>&lt;x1/&gt;ss&lt;x2/&gt; — seconds in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;y&lt;x2/&gt; или &lt;x3/&gt;yy&lt;x4/&gt; — год, 2 цифры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083446Z" creationid="Марианна" creationdate="20200918T083446Z">
@@ -1306,6 +1346,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083505Z" creationid="Марианна" creationdate="20200918T083505Z">
         <seg>&lt;x1/&gt;yyyy&lt;x2/&gt; — year, 4 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;z&lt;x2/&gt; — миллисекунды без ведущего нуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083805Z" creationid="Марианна" creationdate="20200918T083805Z">
+        <seg>&lt;x1/&gt;z&lt;x2/&gt; — mlliseconds without leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;zzz&lt;x2/&gt; — миллисекунды в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083821Z" creationid="Марианна" creationdate="20200918T083821Z">
+        <seg>&lt;x1/&gt;zzz&lt;x2/&gt; — mlliseconds in the form of 2 digits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3394,6 +3450,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092012Z" creationid="Марианна" creationdate="20200715T092012Z">
         <seg>&lt;x1/&gt;Workflow example&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример:&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083828Z" creationid="Марианна" creationdate="20200918T083828Z">
+        <seg>&lt;x1/&gt;Example:&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6686,6 +6750,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Миллисекунды.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083736Z" creationid="Марианна" creationdate="20200918T083736Z">
+        <seg>Milliseconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минуты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083600Z" creationid="Марианна" creationdate="20200918T083600Z">
+        <seg>Minutes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Многопользовательская работа</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094251Z" creationid="Марианна" creationdate="20200813T094251Z">
@@ -8370,6 +8450,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T101709Z" creationid="Марианна" creationdate="20200818T101709Z">
         <seg>The node properties (caption of properties) are displayed in the form of a tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Секунды.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083644Z" creationid="Марианна" creationdate="20200918T083644Z">
+        <seg>Seconds.</seg>
       </tuv>
     </tu>
     <tu>
