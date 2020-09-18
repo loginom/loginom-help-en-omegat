@@ -8294,6 +8294,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При создании узел не имеет &lt;x1/&gt;портов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T143525Z" creationid="Марианна" creationdate="20200918T143525Z">
+        <seg>When creating, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При формировании текста SQL запроса существует возможность использования значений переменных входного порта, что позволяет оптимизировать обработку запросов и более гибко настроить работу с базой данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111322Z" creationid="Марианна" creationdate="20200825T111322Z">
