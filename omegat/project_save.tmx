@@ -6254,6 +6254,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если связь между полем и объектом была установлена неправильно, ее можно удалить, нажав на кнопку &lt;x7/&gt; &lt;x8/&gt; на линии связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T094311Z" creationid="Марианна" creationdate="20200918T094311Z">
+        <seg>If the link between the field and object was incorrectly set, it can be deleted, pressing the &lt;x7/&gt; &lt;x8/&gt; button in the line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще до введения логин/пароль в нижнем левом углу содержится номер версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074839Z" creationid="Марианна" creationdate="20200819T074839Z">
