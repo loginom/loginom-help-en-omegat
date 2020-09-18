@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>*Месяц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083111Z" creationid="Марианна" creationdate="20200918T083111Z">
+        <seg>*Month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>, где</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112801Z" creationid="Марианна" creationdate="20200825T112801Z">
@@ -1234,6 +1242,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083019Z" creationid="Марианна" creationdate="20200918T083019Z">
         <seg>&lt;x1/&gt;ddd&lt;x2/&gt; — day of the week in the abbreviated format ("Sun", "Mon", etc).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;dddd&lt;x2/&gt; — день недели в полном формате ("Воскресенье", "Понедельник" и т.д.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083104Z" creationid="Марианна" creationdate="20200918T083104Z">
+        <seg>&lt;x1/&gt;dddd&lt;x2/&gt; — day of the week in the full format  ("Sunday", "Monday", etc).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;m&lt;x2/&gt; — номер месяца без ведущего нуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083139Z" creationid="Марианна" creationdate="20200918T083139Z">
+        <seg>&lt;x1/&gt;m&lt;x2/&gt; — number of the month without leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;mm&lt;x2/&gt; — номер месяца в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083225Z" creationid="Марианна" creationdate="20200918T083225Z">
+        <seg>&lt;x1/&gt;mm&lt;x2/&gt; — number of the month in the form of 2 digits.</seg>
       </tuv>
     </tu>
     <tu>
