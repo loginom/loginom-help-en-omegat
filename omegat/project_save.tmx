@@ -5894,6 +5894,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для представления даты '11.08.1917' в виде «На дворе стоял &lt;x1/&gt;Август&lt;x2/&gt; месяц &lt;x3/&gt;17&lt;x4/&gt; года» используется строка форматирования: «На дворе стоял &lt;x5/&gt;mmmm&lt;x6/&gt; месяц &lt;x7/&gt;yy&lt;x8/&gt; года».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T084931Z" creationid="Марианна" creationdate="20200918T084931Z">
+        <seg>To represent '11.08.1917' date in the following form: "It was &lt;x1/&gt;August&lt;x2/&gt; &lt;x3/&gt;17&lt;x4/&gt;" the following formatting string is used: "It was &lt;x5/&gt;mmmm&lt;x6/&gt; &lt;x7/&gt;yy&lt;x8/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для приема и передачи от узла к узлу переменных предусмотрен порт переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T065755Z" creationid="Марианна" creationdate="20200715T065755Z">
