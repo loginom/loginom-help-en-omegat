@@ -7190,6 +7190,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не указывать для даты — не указывать временную зону для элементов типа Date.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T100832Z" creationid="Марианна" creationdate="20200918T100832Z">
+        <seg>Do not specify for Date: do not specify the time zone for the Date type elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не указывать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100542Z" creationid="Марианна" creationdate="20200918T100542Z">
