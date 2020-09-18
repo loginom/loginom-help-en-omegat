@@ -1510,6 +1510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Базовый узел&lt;x2/&gt; — узел или &lt;x3/&gt;Подмодель&lt;x4/&gt;, настройки и алгоритм которого предполагается использовать повторно, может находиться за пределами текущей &lt;x5/&gt;Подмодели&lt;x6/&gt;, &lt;x7/&gt;Сценария&lt;x8/&gt;, &lt;x9/&gt;Модуля&lt;x10/&gt; или &lt;x11/&gt;Пакета&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T143437Z" creationid="Марианна" creationdate="20200918T143437Z">
+        <seg>&lt;x1/&gt;Base node&lt;x2/&gt; is a node or &lt;x3/&gt;Supernode&lt;x4/&gt;, settings and algorithm of which are to be used repeatedly. It can be located outside the current &lt;x5/&gt;Supernode&lt;x6/&gt;, &lt;x7/&gt;Workflow&lt;x8/&gt;, &lt;x9/&gt;Module&lt;x10/&gt; or &lt;x11/&gt;Package&lt;x12/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Быстрый просмотр&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065429Z" creationid="Марианна" creationdate="20200812T065429Z">
