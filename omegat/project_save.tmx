@@ -5694,6 +5694,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбрать элемент для связи и в колонке &lt;x1/&gt;Связанные поля&lt;x2/&gt; щелкнуть левой кнопкой мыши по его ячейке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T095357Z" creationid="Марианна" creationdate="20200918T095357Z">
+        <seg>It is required to select the element to be linked, and left-click its cell in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделение 10 клиентов с наибольшими суммами покупок;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084902Z" creationid="Марианна" creationdate="20200717T084902Z">
