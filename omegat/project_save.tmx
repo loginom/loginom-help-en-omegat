@@ -8654,6 +8654,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сопоставление полей для экспорта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T091247Z" creationid="Марианна" creationdate="20200918T091247Z">
+        <seg>Field Mapping for Export</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сохранить пакет можно будет уже во время работы с ним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T122151Z" creationid="Марианна" creationdate="20200716T122151Z">
