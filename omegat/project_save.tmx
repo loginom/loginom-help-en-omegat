@@ -3952,6 +3952,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Связывание объектов&lt;x2/&gt; — список полей экспортируемой таблицы и иерархической структуры XML, которые необходимо соотнести друг с другом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T092344Z" creationid="Марианна" creationdate="20200918T092344Z">
+        <seg>&lt;x1/&gt;Object linking&lt;x2/&gt; is a list of the exported table fields and hierarchic XML structure that are required to map to each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Свёртка столбцов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192507Z" creationid="Марианна" creationdate="20200810T192507Z">
