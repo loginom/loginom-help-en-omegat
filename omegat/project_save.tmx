@@ -8046,6 +8046,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После настройки узел имеет порты, идентичные портам базового узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T143649Z" creationid="Марианна" creationdate="20200918T143649Z">
+        <seg>Upon configuration, the node has the ports identical to ports of the base node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После настройки узла выполним его, используя меню возможных действий.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100338Z" creationid="Марианна" creationdate="20200717T100338Z">
