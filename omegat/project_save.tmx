@@ -7190,6 +7190,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не указывать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T100542Z" creationid="Марианна" creationdate="20200918T100542Z">
+        <seg>Do not specify.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Необходимо войти в систему, введя свой логин и пароль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113518Z" creationid="Марианна" creationdate="20200716T120652Z">
@@ -9082,6 +9090,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092204Z" creationid="Марианна" creationdate="20200715T092204Z">
         <seg>The workflow nodes are created from 2 types of components :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Указывать всегда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T100637Z" creationid="Марианна" creationdate="20200918T100637Z">
+        <seg>Specify always.</seg>
       </tuv>
     </tu>
     <tu>
