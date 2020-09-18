@@ -1222,6 +1222,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;dd&lt;x2/&gt; — день месяца в виде 2-х цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T082729Z" creationid="Марианна" creationdate="20200918T082729Z">
+        <seg>&lt;x1/&gt;dd&lt;x2/&gt; — day of the month in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ddd&lt;x2/&gt; — день недели в сокращенном формате ("Воск", "Пн" и т.д.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T083019Z" creationid="Марианна" creationdate="20200918T083019Z">
+        <seg>&lt;x1/&gt;ddd&lt;x2/&gt; — day of the week in the abbreviated format ("Sun", "Mon", etc).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Абсолютный&lt;x2/&gt; (для совместного использования) — включает в себя имя папки, из которой загружен файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085145Z" creationid="Марианна" creationdate="20200814T085145Z">
@@ -5642,6 +5658,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
         <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>День недели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T082757Z" creationid="Марианна" creationdate="20200918T082757Z">
+        <seg>Day of the week.</seg>
       </tuv>
     </tu>
     <tu>
