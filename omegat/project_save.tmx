@@ -8686,6 +8686,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Списки можно связать автоматически, воспользовавшись кнопкой &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Связать автоматически&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T092757Z" creationid="Марианна" creationdate="20200918T092757Z">
+        <seg>It is possible to auto link the lists using the &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Auto link&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список значений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195106Z" creationid="Марианна" creationdate="20200827T195106Z">
