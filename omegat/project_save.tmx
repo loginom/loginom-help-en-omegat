@@ -3624,6 +3624,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T143845Z" creationid="Марианна" creationdate="20200918T143845Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Принимать несколько подряд разделителей за один&lt;x2/&gt; — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T094354Z" creationid="Марианна" creationdate="20200826T094354Z">
@@ -7670,6 +7678,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переопределить настройки портов возможно, однако, следует иметь в виду, что перенастройка входных портов может привести к несоответствию новых входных данных требованиям сценария, унаследованного от базового узла, и, как следствие, к ошибке выполнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T144605Z" creationid="Марианна" creationdate="20200918T144605Z">
+        <seg>It is possible to redefine settings of ports, however, it should be noted that reconfiguration of the input ports can cause incompliance of the new input data with the requirements of the workflow inherited from the base node, and, as a consequence, execution error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перетащить элемент из списка &lt;x1/&gt;Выбранные элементы&lt;x2/&gt; в &lt;x3/&gt;Доступные элементы&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203621Z" creationid="Марианна" creationdate="20200829T203621Z">
@@ -8178,6 +8194,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072256Z" creationid="Марианна" creationdate="20200817T072247Z">
         <seg>Selecting the process on the information panel, it is possible to call the context menu containing the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выполнении узла базовый узел не выполняется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200918T144001Z" creationid="Марианна" creationdate="20200918T144001Z">
+        <seg>When executing the node, the base node is not executed.</seg>
       </tuv>
     </tu>
     <tu>
