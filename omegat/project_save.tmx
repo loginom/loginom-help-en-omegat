@@ -5458,8 +5458,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В отличие от компонента &lt;x9/&gt;Выполнение узла&lt;x10/&gt; &lt;x11/&gt;Узел-ссылка&lt;x12/&gt; не принимает входные данные и может применяться только в качестве источника данных из других узлов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T091714Z" creationid="Марианна" creationdate="20200919T091714Z">
-        <seg>As opposed to the &lt;x9/&gt;Node execution&lt;x10/&gt; component, the &lt;x11/&gt;Reference node&lt;x12/&gt; component does not accept input data, and it can be used only as data source from other nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T092636Z" creationid="Марианна" creationdate="20200919T091714Z">
+        <seg>As opposed to the &lt;x9/&gt;Node execution&lt;x10/&gt; component, the &lt;x11/&gt;Reference node&lt;x12/&gt; component does not accept input data, and it can be used only as source of the data from other nodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7258,6 +7258,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T145130Z" creationid="Марианна" creationdate="20200917T145130Z">
         <seg>Configuration of the Export Formats</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка этих портов доступна только в узле-источнике.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T092609Z" creationid="Марианна" creationdate="20200919T092609Z">
+        <seg>Configuration of these ports is available only in the reference node.</seg>
       </tuv>
     </tu>
     <tu>
