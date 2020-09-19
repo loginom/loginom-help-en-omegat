@@ -8,12 +8,12 @@ When creating, the *Reference node* does not have [ports](../../scenario/ports/R
 
 ## Wizard
 
-В окне мастера в виде дерева отображаются доступные для создания ссылки узлы. Для удобства навигации в дереве отдельно представлены узлы текущего модуля и все доступные для ссылки узлы. Доступность узлов определяется их видимостью (см. следующий раздел "Видимость узлов"). Необходимо выбрать один из узлов, выходные данные которого требуется получить в текущем месте сценария.
+The nodes available for reference creation are displayed in the wizard window in the form of a tree. The current module nodes and all nodes available for reference are separately displayed for navigation convenience. Availability of nodes is defined by their visibility (refer to the next section - "Visibility of nodes"). It is required to select one of the nodes output data of which are to be received in the current workflow location.
 
-Интерфейс мастера предоставляет возможность осуществлять поиск узлов в общем списке с помощью фильтров: по имени и комментарию узла.
+The wizard interface enables to search for the nodes in the general list by means of filters, namely, by name and node comment.
 
-## Видимость узлов
+## Visibility of Nodes
 
-Узлы, находящиеся за пределами текущей *Подмодели*, *Сценария*, *Модуля* или *Пакета*, по умолчанию недоступны для выбора. Для настройки видимости узла необходимо установить соответствующий [модификатор доступа](../../scenario/access-modifier.md). Для ссылки на узлы другого *Пакета* необходимо в текущем *Пакете* создать [ссылку на другой Пакет](../../scenario/link-to-packet.md).
+The nodes that are outside the current *Supermode*, *Workflow*, *Module* or *Package* are not available for selection by default. To configure the node visibility, it is required to install corresponding [Access modifier](../../scenario/access-modifier.md). To provide a reference to nodes of the other *Package*, it is required to create a [reference to the other Package](../../scenario/link-to-packet.md) in the current *Package*.
 
-> **Важно**: При выполнении *Узла-ссылки* выполняется узел, являющийся источником ссылки.
+> **Important**: When executing the *Reference node*, the node that is the reference source is executed.
