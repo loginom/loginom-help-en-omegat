@@ -6046,6 +6046,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для настройки видимости узла необходимо установить соответствующий &lt;x9/&gt;модификатор доступа&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T102937Z" creationid="Марианна" creationdate="20200919T102937Z">
+        <seg>To configure the node visibility, it is required to install corresponding &lt;x9/&gt;Access modifier&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140233Z" creationid="Марианна" creationdate="20200816T140233Z">
@@ -9354,6 +9362,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092204Z" creationid="Марианна" creationdate="20200715T092204Z">
         <seg>The workflow nodes are created from 2 types of components :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы, находящиеся за пределами текущей &lt;x1/&gt;Подмодели&lt;x2/&gt;, &lt;x3/&gt;Сценария&lt;x4/&gt;, &lt;x5/&gt;Модуля&lt;x6/&gt; или &lt;x7/&gt;Пакета&lt;x8/&gt;, по умолчанию недоступны для выбора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T102738Z" creationid="Марианна" creationdate="20200919T102738Z">
+        <seg>The nodes that are outside the current &lt;x1/&gt;Supermode&lt;x2/&gt;, &lt;x3/&gt;Workflow&lt;x4/&gt;, &lt;x5/&gt;Module&lt;x6/&gt; or &lt;x7/&gt;Package&lt;x8/&gt; are not available for selection by default.</seg>
       </tuv>
     </tu>
     <tu>
