@@ -6166,6 +6166,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для удобства навигации в дереве отдельно представлены узлы текущего модуля и все доступные для ссылки узлы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T101838Z" creationid="Марианна" creationdate="20200919T101838Z">
+        <seg>The current module nodes and all nodes available for reference are separately displayed for navigation convenience.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого в списке &lt;x3/&gt;Таблица/Представление&lt;x4/&gt; необходимо отметить поля объекта БД, выбранного в списке &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T110720Z" creationid="Марианна" creationdate="20200825T110720Z">
