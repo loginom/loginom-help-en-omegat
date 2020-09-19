@@ -9694,6 +9694,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>следующий раздел "Видимость узлов").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T102041Z" creationid="Марианна" creationdate="20200919T102041Z">
+        <seg>the next section - "Visibility of nodes").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>строка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112828Z" creationid="Марианна" creationdate="20200825T112828Z">
