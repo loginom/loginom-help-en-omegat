@@ -9246,6 +9246,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел-ссылка позволяет получить результаты обработки (выполнения) другого узла, который может находиться за пределами текущей &lt;x1/&gt;Подмодели&lt;x2/&gt;, &lt;x3/&gt;Сценария&lt;x4/&gt;, &lt;x5/&gt;Модуля&lt;x6/&gt; или &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T091423Z" creationid="Марианна" creationdate="20200919T091423Z">
+        <seg>Reference node enables to receive results of processing (execution) of the other node that can be located outside the current &lt;x1/&gt;Supernode&lt;x2/&gt;, &lt;x3/&gt;Workflow&lt;x4/&gt;, &lt;x5/&gt;Module&lt;x6/&gt; or &lt;x7/&gt;Package&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узлы в дереве &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно сортировать, для этого нужно кликнуть мышью на заколовок колонки &lt;x3/&gt;Свойство&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102549Z" creationid="Марианна" creationdate="20200818T102549Z">
