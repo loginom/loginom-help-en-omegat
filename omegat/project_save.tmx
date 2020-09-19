@@ -8182,6 +8182,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После настройки узла отображаются выходные порты узла-источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T092419Z" creationid="Марианна" creationdate="20200919T092419Z">
+        <seg>Upon the node configuration, the output ports of the data reference node are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После открытия приложения, в случае настольной версии Loginom, или авторизации, в случае серверной версии Loginom, появляется страница «Начало» (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105129Z" creationid="Марианна" creationdate="20200814T105129Z">
@@ -8434,6 +8442,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T070435Z" creationid="Марианна" creationdate="20200919T070435Z">
         <seg>The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При создании &lt;x1/&gt;Узел-ссылка&lt;x2/&gt; не имеет &lt;x3/&gt;портов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T092243Z" creationid="Марианна" creationdate="20200919T092243Z">
+        <seg>When creating, the &lt;x1/&gt;Reference node&lt;x2/&gt; does not have &lt;x3/&gt;ports&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
