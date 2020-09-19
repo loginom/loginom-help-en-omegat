@@ -7374,6 +7374,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Необходимо выбрать один из узлов, выходные данные которого требуется получить в текущем месте сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T102137Z" creationid="Марианна" creationdate="20200919T102137Z">
+        <seg>It is required to select one of the nodes output data of which are to be received in the current workflow location.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Неопределенный.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192640Z" creationid="Марианна" creationdate="20200825T192640Z">
