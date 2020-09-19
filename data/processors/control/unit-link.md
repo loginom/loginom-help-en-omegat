@@ -1,10 +1,10 @@
-# ![Узел-ссылка](../../images/icons/controls/reference_link.svg) Узел-ссылка
+# ![Reference Node](../../images/icons/controls/reference_link.svg) Reference Node
 
-Узел-ссылка позволяет получить результаты обработки (выполнения) другого узла, который может находиться за пределами текущей [Подмодели](./submodel.md), [Сценария](../../scenario/README.md), *Модуля* или *Пакета*. В отличие от компонента [Выполнение узла](../../processors/control/execute-node.md) *Узел-ссылка* не принимает входные данные и может применяться только в качестве источника данных из других узлов. В рамках стратегии [декомпозиции](../../quick-start/design-principles.md#dekompozitsiya) сложного аналитического решения, которое может состоять из нескольких *Сценариев* или *Пакетов*, выполняет задачу передачи данных между его независимыми блоками.
+Reference node enables to receive results of processing (execution) of the other node that can be located outside the current [Supernode](./submodel.md), [Workflow](../../scenario/README.md), *Module* or *Package*. As opposed to the [Node execution](../../processors/control/execute-node.md) component, the *Reference node* component does not accept input data, and it can be used only as source of the data from other nodes. According to the strategy of [decomposition](../../quick-start/design-principles.md#dekompozitsiya) of the complex analytic solution that can consist of several *Workflows* or *Packages*, it performs the task of data transfer between its independent blocks.
 
 ## Ports
 
-При создании *Узел-ссылка* не имеет [портов](../../scenario/ports/README.md). После настройки узла отображаются выходные порты узла-источника данных. Настройка этих портов доступна только в узле-источнике.
+When creating, the *Reference node* does not have [ports](../../scenario/ports/README.md). Upon the node configuration, the output ports of the data source node are displayed. Configuration of these ports is available only in the source node.
 
 ## Wizard
 
