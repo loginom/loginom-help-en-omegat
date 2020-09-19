@@ -6166,6 +6166,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для ссылки на узлы другого &lt;x11/&gt;Пакета&lt;x12/&gt; необходимо в текущем &lt;x13/&gt;Пакете&lt;x14/&gt; создать &lt;x15/&gt;ссылку на другой Пакет&lt;x16/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T105503Z" creationid="Марианна" creationdate="20200919T105503Z">
+        <seg>To provide a reference to nodes of the other &lt;x11/&gt;Package&lt;x12/&gt;, it is required to create a &lt;x15/&gt;reference to the other Package&lt;x16/&gt; in the current &lt;x13/&gt;Package&lt;x14/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для такого узла в &lt;x3/&gt;Инспекторе свойств&lt;x4/&gt; будет выведено сообщение: "Узел заблокирован, попробуйте позже".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110947Z" creationid="Марианна" creationdate="20200818T110947Z">
