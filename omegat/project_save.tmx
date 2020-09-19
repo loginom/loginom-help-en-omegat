@@ -4408,6 +4408,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Текущий пакет&lt;x2/&gt; (наименование пакета) — содержит перечень узлов текущего пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T071601Z" creationid="Марианна" creationdate="20200919T071601Z">
+        <seg>&lt;x1/&gt;Current package&lt;x2/&gt; (the package name) contains a list of nodes of the current package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Термины&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070207Z" creationid="Марианна" creationdate="20200812T070207Z">
