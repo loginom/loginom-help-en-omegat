@@ -5654,6 +5654,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможно &lt;x1/&gt;переобучение модели&lt;x2/&gt;, унаследованной из базового узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T072905Z" creationid="Марианна" creationdate="20200919T072905Z">
+        <seg>&lt;x1/&gt;Retraining of the model&lt;x2/&gt; inherited from the base node is possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможно использование параметров в запросах в синтаксисе 1С.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122154Z" creationid="Марианна" creationdate="20200823T122154Z">
@@ -7434,6 +7442,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T161312Z" creationid="Марианна" creationdate="20200718T161312Z">
         <seg>However, it is not always possible to insert the universal component into particular workflow without introduction of changes into it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однако, модель самого базового узла останется неизменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T073017Z" creationid="Марианна" creationdate="20200919T073017Z">
+        <seg>However, the model of the base node will be unchanged.</seg>
       </tuv>
     </tu>
     <tu>
