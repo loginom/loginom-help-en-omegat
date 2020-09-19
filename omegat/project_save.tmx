@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: При выполнении &lt;x3/&gt;Узла-ссылки&lt;x4/&gt; выполняется узел, являющийся источником ссылки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T105627Z" creationid="Марианна" creationdate="20200919T105627Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: When executing the &lt;x3/&gt;Reference node&lt;x4/&gt;, the node that is the reference source is executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: Узлы из внешних пакетов, других сценариев и подмоделей отобразятся в дереве только в том случае, если доступ к ним разрешен их &lt;x3/&gt;модификатором доступа&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072358Z" creationid="Марианна" creationdate="20200919T072358Z">
