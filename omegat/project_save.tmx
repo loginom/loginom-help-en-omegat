@@ -5456,6 +5456,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В отличие от компонента &lt;x9/&gt;Выполнение узла&lt;x10/&gt; &lt;x11/&gt;Узел-ссылка&lt;x12/&gt; не принимает входные данные и может применяться только в качестве источника данных из других узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T091714Z" creationid="Марианна" creationdate="20200919T091714Z">
+        <seg>As opposed to the &lt;x9/&gt;Node execution&lt;x10/&gt; component, the &lt;x11/&gt;Reference node&lt;x12/&gt; component does not accept input data, and it can be used only as data source from other nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В панели иерархически фиксируются процессы и выполняющиеся в них узлы/подузлы, им присваиваются порядковые номера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T062415Z" creationid="Марианна" creationdate="20200817T062415Z">
