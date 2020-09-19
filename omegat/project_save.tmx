@@ -6568,8 +6568,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Интерфейс мастера предоставляет возможность осуществлять поиск узлов в дереве с помощью фильтров: по имени и комментарию узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T072534Z" creationid="Марианна" creationdate="20200919T072534Z">
-        <seg>The wizard interface enables to search for the nodes in the tree by means of filters, namely, by name and node comment</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T072643Z" creationid="Марианна" creationdate="20200919T072534Z">
+        <seg>The wizard interface enables to search for the nodes in the tree by means of filters, namely, by name and node comment.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6746,6 +6746,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
         <seg>The context menu commands enable to collapse/expand all nodes in the properties tree simultaneously.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент &lt;x1/&gt;Выполнение узла&lt;x2/&gt; не может повторно использовать компоненты &lt;x3/&gt;Цикл&lt;x4/&gt; и &lt;x5/&gt;Узел-ссылка&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T072745Z" creationid="Марианна" creationdate="20200919T072638Z">
+        <seg>The &lt;x1/&gt;Node execution&lt;x2/&gt; component cannot repeatedly use the &lt;x3/&gt;Loop&lt;x4/&gt; and &lt;x5/&gt;Reference node&lt;x6/&gt; components.</seg>
       </tuv>
     </tu>
     <tu>
