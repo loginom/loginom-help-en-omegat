@@ -6286,6 +6286,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в текущем пакете настроены ссылки на внешние пакеты, то в дереве в отдельных ветках отобразятся узлы этих пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T071907Z" creationid="Марианна" creationdate="20200919T071907Z">
+        <seg>If the current package contains configured links to the external packages, the nodes of these packages will be displayed in the separate tree branches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в текущий момент времени не выполняется ни один из процессов, а также не было ошибок у процессов завершенных, то в информационной панели данные будут отсутствовать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T075331Z" creationid="Марианна" creationdate="20200817T075331Z">
