@@ -6566,6 +6566,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интерфейс мастера предоставляет возможность осуществлять поиск узлов в дереве с помощью фильтров: по имени и комментарию узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T072534Z" creationid="Марианна" creationdate="20200919T072534Z">
+        <seg>The wizard interface enables to search for the nodes in the tree by means of filters, namely, by name and node comment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование переменных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200714T120440Z" creationid="Марианна" creationdate="20200714T120440Z">
