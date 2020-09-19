@@ -30,4 +30,4 @@ The *Node execution* component cannot repeatedly use the [Loop](./cycle.md) and 
 **Note**:
 
 * When executing the node, the base node is not executed.
-* [Retraining of the model](../../scenario/training-processors.md) inherited from the base node is possible. However, the model of the base node will be unchanged.
+* [Retraining of the model](../../scenario/training-processors.md) inherited from the base node is possible. However, the base node model will be unchanged.
