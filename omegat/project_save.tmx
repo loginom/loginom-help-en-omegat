@@ -7264,8 +7264,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Настройка этих портов доступна только в узле-источнике.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T092609Z" creationid="Марианна" creationdate="20200919T092609Z">
-        <seg>Configuration of these ports is available only in the reference node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T092846Z" creationid="Марианна" creationdate="20200919T092609Z">
+        <seg>Configuration of these ports is available only in the source node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8192,8 +8192,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>После настройки узла отображаются выходные порты узла-источника данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T092419Z" creationid="Марианна" creationdate="20200919T092419Z">
-        <seg>Upon the node configuration, the output ports of the data reference node are displayed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T092827Z" creationid="Марианна" creationdate="20200919T092419Z">
+        <seg>Upon the node configuration, the output ports of the data source node are displayed.</seg>
       </tuv>
     </tu>
     <tu>
