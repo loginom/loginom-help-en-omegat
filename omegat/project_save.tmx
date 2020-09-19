@@ -5942,6 +5942,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дерево узлов имеет как минимум две корневые ветки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T071015Z" creationid="Марианна" creationdate="20200919T071015Z">
+        <seg>The nodes tree has, at least, two root branches:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дискретный.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
