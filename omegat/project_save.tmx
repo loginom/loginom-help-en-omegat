@@ -6246,6 +6246,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступность узлов определяется их видимостью (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
+        <seg>Availability of nodes is defined by their visibility (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступны горячие клавиши, дублирующие некоторые перечисленные команды:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204540Z" creationid="Марианна" creationdate="20200829T204540Z">
