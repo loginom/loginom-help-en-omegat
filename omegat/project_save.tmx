@@ -5448,6 +5448,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T101446Z" creationid="Марианна" creationdate="20200919T101446Z">
+        <seg>The nodes available for link creation are displayed in the wizard window in the form of a tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T121654Z" creationid="Марианна" creationdate="20200718T121459Z">
