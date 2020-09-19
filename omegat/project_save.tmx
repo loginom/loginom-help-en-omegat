@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: Узлы из внешних пакетов, других сценариев и подмоделей отобразятся в дереве только в том случае, если доступ к ним разрешен их &lt;x3/&gt;модификатором доступа&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T072358Z" creationid="Марианна" creationdate="20200919T072358Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: The nodes from the external packages, other workflows and supernodes will be displayed in the tree only on condition of access granted to them by their &lt;x3/&gt;access modifier&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Валидация моделей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065337Z" creationid="Марианна" creationdate="20200812T065337Z">
