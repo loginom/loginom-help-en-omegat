@@ -5458,8 +5458,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T101446Z" creationid="Марианна" creationdate="20200919T101446Z">
-        <seg>The nodes available for link creation are displayed in the wizard window in the form of a tree.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
+        <seg>The nodes available for reference creation are displayed in the wizard window in the form of a tree.</seg>
       </tuv>
     </tu>
     <tu>
