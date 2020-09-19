@@ -8326,6 +8326,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При помощи радиокнопки необходимо выбрать узел сценария, который планируется повторно использовать для обработки новых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T070435Z" creationid="Марианна" creationdate="20200919T070435Z">
+        <seg>The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При создании узел не имеет &lt;x1/&gt;портов&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143525Z" creationid="Марианна" creationdate="20200918T143525Z">
