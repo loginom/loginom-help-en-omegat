@@ -2062,6 +2062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Доступные&lt;x2/&gt; для выбора узлы представлены в виде дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T070803Z" creationid="Марианна" creationdate="20200919T070803Z">
+        <seg>The nodes &lt;x1/&gt;available&lt;x2/&gt;for selection are dispalyed in the form of a tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дублировать единичные значения&lt;x2/&gt; — если в составе последовательности имеется единичный элемент и вложенная последовательность, значения единичного элемента будут продублированы для каждой строки, образованной из вложенной последовательности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T221129Z" creationid="Марианна" creationdate="20200829T221129Z">
@@ -6696,8 +6704,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Компонент позволяет повторно использовать уже имеющийся узел сценария для обработки новых данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T142731Z" creationid="Марианна" creationdate="20200918T142731Z">
-        <seg>The component enables to use already existing workflow node for processing of the new data repeatedly.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200919T070534Z" creationid="Марианна" creationdate="20200918T142731Z">
+        <seg>The component enables to use already existing workflow node for repeated processing of the new data.</seg>
       </tuv>
     </tu>
     <tu>
