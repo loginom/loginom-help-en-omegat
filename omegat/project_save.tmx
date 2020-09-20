@@ -4992,6 +4992,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Цикл&lt;x2/&gt; Цикл</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T165546Z" creationid="Марианна" creationdate="20200920T165546Z">
+        <seg>&lt;x1/&gt;Loop&lt;x2/&gt; Loop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экранировать одинарные и двойные кавычки&lt;x2/&gt; — замена в выходном файле одинарных кавычек на обозначение &lt;x3/&gt;&lt;x4/&gt;&amp;apos;&lt;x5/&gt;&lt;x6/&gt; и двойных на &lt;x7/&gt;&lt;x8/&gt;&amp;quot;&lt;x9/&gt;&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T091206Z" creationid="Марианна" creationdate="20200918T091206Z">
@@ -7098,6 +7106,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072745Z" creationid="Марианна" creationdate="20200919T072638Z">
         <seg>The &lt;x1/&gt;Node execution&lt;x2/&gt; component cannot repeatedly use the &lt;x3/&gt;Loop&lt;x4/&gt; and &lt;x5/&gt;Reference node&lt;x6/&gt; components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент может применяться для циклического исполнения выбранного пользователем узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T165946Z" creationid="Марианна" creationdate="20200920T165946Z">
+        <seg>The component will be used for the loop execution of the node selected by a user.</seg>
       </tuv>
     </tu>
     <tu>
