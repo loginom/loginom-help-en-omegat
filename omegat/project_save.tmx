@@ -9630,6 +9630,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел &lt;x1/&gt;Подмодель&lt;x2/&gt; имеет надпись &lt;x3/&gt;Войти&lt;x4/&gt;, при нажатии которой можно открыть область построения &lt;x5/&gt;Подмодели&lt;x6/&gt; и реализовать в ней произвольный сценарий обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T163145Z" creationid="Марианна" creationdate="20200920T163145Z">
+        <seg>The &lt;x1/&gt;Supernode&lt;x2/&gt; node contains the following text: &lt;x3/&gt;Enter&lt;x4/&gt;, its pressing enables to open the &lt;x5/&gt;Supernode&lt;x6/&gt; construction area, and execute a random processing workflow in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел сценария выполняет отдельную операцию над данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091456Z" creationid="Марианна" creationdate="20200715T091456Z">
