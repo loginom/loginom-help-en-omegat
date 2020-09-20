@@ -6070,6 +6070,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для &lt;x1/&gt;Подмодели&lt;x2/&gt; можно задать произвольное количество входных/выходных портов следующих типов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145000Z" creationid="Марианна" creationdate="20200920T145000Z">
+        <seg>It is possible to set random number of the following input/output ports for the &lt;x1/&gt;Supernode&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для Desktop-версии указывается абсолютный путь.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
