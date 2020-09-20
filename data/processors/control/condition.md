@@ -34,8 +34,8 @@
 * ![Смещение порта вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Смещение порта вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — путем смещения выделенного порта определить его положение относительно узла компонента.
 * ![Редактировать параметры порта](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — редактировать параметры порта.
 * ![Создание выхода](../../images/icons/checkbox-states/checked_default.svg) **Передавать на выход** — для выделенного входного порта будет создан порт выхода в каждой ветви.
-* ![Удалить порт](../../images/icons/toolbar-controls/delete_default.svg) — удалить порт.
-* ![Удалить все порты](../../images/icons/toolbar-controls/delete-all_default.svg) — удалить все порты.
+* ![Delete port](../../images/icons/toolbar-controls/delete_default.svg) enables to delete port.
+* ![Delete all ports](../../images/icons/toolbar-controls/delete-all_default.svg) enables to delete all ports.
 
 ### Step 2. Настройка списка условий
 
