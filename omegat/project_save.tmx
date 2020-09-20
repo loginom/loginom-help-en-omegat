@@ -1776,8 +1776,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входы&lt;x2/&gt; &lt;x3/&gt;Входы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт входа:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T150001Z" creationid="Марианна" creationdate="20200920T145820Z">
-        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new input port:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150124Z" creationid="Марианна" creationdate="20200920T145820Z">
+        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enables to create a new input port:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1928,8 +1928,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходы&lt;x2/&gt; &lt;x3/&gt;Выходы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт выхода:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T150059Z" creationid="Марианна" creationdate="20200920T145927Z">
-        <seg>&lt;x1/&gt;Outputs&lt;x2/&gt; &lt;x3/&gt;Outputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new output port:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150120Z" creationid="Марианна" creationdate="20200920T145927Z">
+        <seg>&lt;x1/&gt;Outputs&lt;x2/&gt; &lt;x3/&gt;Outputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enables to create a new output port:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3398,6 +3398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt;, &lt;x5/&gt;Переместить вверх&lt;x6/&gt; &lt;x7/&gt;Переместить вверх&lt;x8/&gt; — сместить выделенный порт в списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150239Z" creationid="Марианна" creationdate="20200920T150239Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt; enables to dislocate the selected port in the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить все&lt;x2/&gt; &lt;x3/&gt;Переместить в выбранные все&lt;x4/&gt; — перемещает все доступные элементы в список &lt;x5/&gt;Выбранные элементы&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201357Z" creationid="Марианна" creationdate="20200829T201357Z">
@@ -4608,6 +4616,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить все порты&lt;x2/&gt; — удалить все порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150336Z" creationid="Марианна" creationdate="20200920T150336Z">
+        <seg>&lt;x1/&gt;Delete all ports&lt;x2/&gt; enables to delete all ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить все&lt;x2/&gt; &lt;x3/&gt;Удалить все&lt;x4/&gt; — перемещает все параметры обратно в список &lt;x5/&gt;Доступные элементы&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204412Z" creationid="Марианна" creationdate="20200829T204412Z">
@@ -4628,6 +4644,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T112319Z" creationid="Марианна" creationdate="20200916T112319Z">
         <seg>&lt;x1/&gt;Delete records by key fields&lt;x2/&gt; enables to select a key field by which records will be deleted from the database table at the next stage - &lt;x3/&gt;Adjustment of Columns Mapping&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить порт&lt;x2/&gt; — удалить порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150313Z" creationid="Марианна" creationdate="20200920T150313Z">
+        <seg>&lt;x1/&gt;Delete port&lt;x2/&gt; enables to delete port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6770,6 +6794,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165842Z" creationid="Марианна" creationdate="20200916T165842Z">
         <seg>Table name in the &lt;x1/&gt;permissible format&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя порта можно задать следующими способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150422Z" creationid="Марианна" creationdate="20200920T150422Z">
+        <seg>The port name can be set in the following ways:</seg>
       </tuv>
     </tu>
     <tu>
