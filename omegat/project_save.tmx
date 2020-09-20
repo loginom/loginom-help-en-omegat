@@ -8798,6 +8798,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При редактировании содержимого &lt;x7/&gt;Подмодели&lt;x8/&gt; ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками &lt;x9/&gt;Выходной узел&lt;x10/&gt; &lt;x11/&gt;Входной узел&lt;x12/&gt; и &lt;x13/&gt;Выходной узел&lt;x14/&gt; &lt;x15/&gt;Выходной узел&lt;x16/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T164433Z" creationid="Марианна" creationdate="20200920T164433Z">
+        <seg>When editing the &lt;x7/&gt;Supernode&lt;x8/&gt; content, its input and output ports created in the wizard are displayed in the left and right parts of the area over the following buttons: &lt;x9/&gt;Output node&lt;x10/&gt; &lt;x11/&gt;Input node&lt;x12/&gt; and &lt;x13/&gt;Output node&lt;x14/&gt; &lt;x15/&gt;Output node&lt;x16/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При создании &lt;x1/&gt;Узел-ссылка&lt;x2/&gt; не имеет &lt;x3/&gt;портов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092243Z" creationid="Марианна" creationdate="20200919T092243Z">
