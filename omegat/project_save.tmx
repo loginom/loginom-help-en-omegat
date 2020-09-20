@@ -1776,8 +1776,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входы&lt;x2/&gt; &lt;x3/&gt;Входы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт входа:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T145820Z" creationid="Марианна" creationdate="20200920T145820Z">
-        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new port:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150001Z" creationid="Марианна" creationdate="20200920T145820Z">
+        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new input port:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1926,6 +1926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходы&lt;x2/&gt; &lt;x3/&gt;Выходы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт выхода:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150059Z" creationid="Марианна" creationdate="20200920T145927Z">
+        <seg>&lt;x1/&gt;Outputs&lt;x2/&gt; &lt;x3/&gt;Outputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new output port:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вычисляемый факт&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065823Z" creationid="Марианна" creationdate="20200812T065823Z">
@@ -2066,6 +2074,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185106Z" creationid="Марианна" creationdate="20200825T185106Z">
         <seg>&lt;x1/&gt;Range&lt;x2/&gt; is a range of the imported cells set in &lt;x3/&gt; format [address of the upper left cell]:[address of the bottom right cell]&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Для дерева данных&lt;x2/&gt; — для дерева данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145903Z" creationid="Марианна" creationdate="20200920T145903Z">
+        <seg>&lt;x1/&gt;For data tree&lt;x2/&gt; — for data tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Для переменных&lt;x2/&gt; — для переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145837Z" creationid="Марианна" creationdate="20200920T145837Z">
+        <seg>&lt;x1/&gt;For variables&lt;x2/&gt; — for variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Для таблицы&lt;x2/&gt; — для таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145847Z" creationid="Марианна" creationdate="20200920T145847Z">
+        <seg>&lt;x1/&gt;For table&lt;x2/&gt; — for table.</seg>
       </tuv>
     </tu>
     <tu>
