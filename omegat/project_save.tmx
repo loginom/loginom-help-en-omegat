@@ -1784,8 +1784,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор из выпадающего списка элемента &lt;x2/&gt;&lt;Не задано&gt;&lt;x3/&gt;&lt;x4/&gt; — используется для &lt;x5/&gt;совместимости с продуктами прошлого поколения&lt;x6/&gt; (DIS, Deductor 5.3) при публикации подмодели в качестве веб-сервиса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T151016Z" creationid="Марианна" creationdate="20200920T151016Z">
-        <seg>&lt;x1/&gt;Select from the item drop-down menu &lt;x2/&gt;&lt;Unspecified&gt;&lt;x3/&gt;&lt;x4/&gt; — используется для &lt;x5/&gt;совместимости с продуктами прошлого поколения&lt;x6/&gt; (DIS, Deductor 5.3) при публикации подмодели в качестве веб-сервиса.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T155517Z" creationid="Марианна" creationdate="20200920T151016Z">
+        <seg>&lt;x1/&gt;Select from the item drop-down menu &lt;x2/&gt;&lt;Unspecified&gt;&lt;x3/&gt;&lt;x4/&gt;: it is used for &lt;x5/&gt;compatibility with past generation products&lt;x6/&gt; (DIS, Deductor 5.3) when publishing the supernode as a web service.</seg>
       </tuv>
     </tu>
     <tu>
