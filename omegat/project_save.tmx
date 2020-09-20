@@ -1734,6 +1734,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входное дерево данных&lt;x2/&gt; Дерево данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145235Z" creationid="Марианна" creationdate="20200920T145235Z">
+        <seg>&lt;x1/&gt;Input data tree&lt;x2/&gt; Data tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; Таблица данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145144Z" creationid="Марианна" creationdate="20200920T145144Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; Data table;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные наборы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193036Z" creationid="Марианна" creationdate="20200810T193036Z">
@@ -1746,6 +1762,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193046Z" creationid="Марианна" creationdate="20200810T193046Z">
         <seg>&lt;x1/&gt;Input variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; Переменные (необязательный порт);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145050Z" creationid="Марианна" creationdate="20200920T145050Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; Variables (optional port);</seg>
       </tuv>
     </tu>
     <tu>
@@ -1866,6 +1890,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T133716Z" creationid="Марианна" creationdate="20200827T193717Z">
         <seg>&lt;x1/&gt;Output port of table&lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; means the data imported from the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; Переменные;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145308Z" creationid="Марианна" creationdate="20200920T145308Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; Variables;</seg>
       </tuv>
     </tu>
     <tu>
