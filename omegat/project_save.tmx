@@ -8200,8 +8200,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>По нажатию кнопки &lt;x1/&gt;Выйти из подмодели&lt;x2/&gt; &lt;x3/&gt;Выйти из подмодели&lt;x4/&gt; происходит выход из &lt;x5/&gt;Подмодели&lt;x6/&gt; в сценарий на уровень выше.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T165114Z" creationid="Марианна" creationdate="20200920T165114Z">
-        <seg>When pressing &lt;x1/&gt;Move out&lt;x2/&gt; &lt;x3/&gt;Move out&lt;x4/&gt; button, it is possible to move out the &lt;x5/&gt;Supernode&lt;x6/&gt; to the workflow up a level.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T165231Z" creationid="Марианна" creationdate="20200920T165114Z">
+        <seg>When pressing &lt;x1/&gt;Move out&lt;x2/&gt; &lt;x3/&gt;Move out&lt;x4/&gt; button, it is possible to move out the &lt;x5/&gt;Supernode&lt;x6/&gt; to the workflow a level higher.</seg>
       </tuv>
     </tu>
     <tu>
