@@ -6558,6 +6558,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изначально входных и выходных портов нет, они создаются пользователем в мастере настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T144739Z" creationid="Марианна" creationdate="20200920T144739Z">
+        <seg>Initially, there are no input and output ports. They are created by users in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имеется возможность использования сжатия данных различными алгоритмами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195204Z" creationid="Марианна" creationdate="20200916T195204Z">
