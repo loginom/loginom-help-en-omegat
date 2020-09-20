@@ -5352,6 +5352,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;x1/&gt;Подмодели&lt;x2/&gt; можно реализовать произвольную логику обработки и задать необходимую структуру входных и выходных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T143824Z" creationid="Марианна" creationdate="20200920T143824Z">
+        <seg>It is possible to implement the random processing logics and set the required structure of input and output data in the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom можно экспортировать данные в текстовый файл, XML-файл, электронные таблицы, внутренний формат программы, а также в базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110110Z" creationid="Марианна" creationdate="20200916T110110Z">
@@ -7098,6 +7106,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083600Z" creationid="Марианна" creationdate="20200918T083600Z">
         <seg>Minutes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Многократное использование созданной логики обработки для различных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T143629Z" creationid="Марианна" creationdate="20200920T143629Z">
+        <seg>Multiple use of the created processing logics for different data.</seg>
       </tuv>
     </tu>
     <tu>
