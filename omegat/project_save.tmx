@@ -5592,6 +5592,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В имени допускаются буквы латинского алфавита от а до z и от А до Z, знак подчеркивания "_" и цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T160000Z" creationid="Марианна" creationdate="20200920T160000Z">
+        <seg>Letters of the Latin alphabet from а to z and from А to Z, underscore "_" character and digits are allowed in the name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве ограничителя строк могут быть использованы символы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151630Z" creationid="Марианна" creationdate="20200917T151630Z">
@@ -6818,6 +6826,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T155628Z" creationid="Марианна" creationdate="20200920T155628Z">
         <seg>The name cab be &lt;x7/&gt;&lt;Unspecified&gt;&lt;x8/&gt; if there is only one configured port in the output or input list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя не может начинаться с цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T160021Z" creationid="Марианна" creationdate="20200920T160021Z">
+        <seg>It is not allowed to start the name from a digit.</seg>
       </tuv>
     </tu>
     <tu>
