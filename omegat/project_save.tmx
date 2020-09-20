@@ -5584,6 +5584,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В состав &lt;x5/&gt;Подмодели&lt;x6/&gt; могут также включаться другие &lt;x7/&gt;Подмодели&lt;x8/&gt;, их вложенность друг в друга не ограниченна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T143415Z" creationid="Марианна" creationdate="20200920T143415Z">
+        <seg>The &lt;x5/&gt;Supernode&lt;x6/&gt; can include other &lt;x7/&gt;Supernodes&lt;x8/&gt;, their nesting into each other is not restricted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В состав подмодели могут также включаться и другие подмодели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074243Z" creationid="Марианна" creationdate="20200716T074243Z">
@@ -9250,6 +9258,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084758Z" creationid="Марианна" creationdate="20200814T084134Z">
         <seg>Pressing &lt;x1/&gt;List of subobjects&lt;x2/&gt; button, it is possible to go to the subobjects of the complex object (refer to </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом имеется возможность создавать иерархическую структуру сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T143505Z" creationid="Марианна" creationdate="20200920T143505Z">
+        <seg>Thus, it is possible to create the hierarchic structure of the workflow.</seg>
       </tuv>
     </tu>
     <tu>
