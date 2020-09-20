@@ -7478,6 +7478,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На предмет соответствия этому условию анализируется значение выходной переменной узла, заключенного в цикл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T171652Z" creationid="Марианна" creationdate="20200920T171652Z">
+        <seg>The value of the looped output node variable is analysed to ensure its compliance with this condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На рисунке «Пример сценария» узел &lt;x1/&gt;«ABC-анализ»&lt;x2/&gt; является производным компонентом — подмоделью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T073548Z" creationid="Марианна" creationdate="20200716T073548Z">
