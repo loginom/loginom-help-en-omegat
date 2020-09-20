@@ -5918,6 +5918,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможны следующие способы задать итерации цикла:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T170627Z" creationid="Марианна" creationdate="20200920T170627Z">
+        <seg>There are the following methods used to set the loop iterations:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Время обработки — разница между началом и концом процесса обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072151Z" creationid="Марианна" creationdate="20200817T072151Z">
