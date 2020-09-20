@@ -2326,6 +2326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя указывается явно&lt;x2/&gt; — пользователь самостоятельно задает уникальное имя порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T155755Z" creationid="Марианна" creationdate="20200920T155755Z">
+        <seg>&lt;x1/&gt;Explicitly given name&lt;x2/&gt;: a user sets the unique port name by himself.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123421Z" creationid="Марианна" creationdate="20200825T123421Z">
@@ -6802,6 +6810,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T210913Z" creationid="Марианна" creationdate="20200829T210913Z">
         <seg>Imported Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя может быть &lt;x7/&gt;&lt;Не задано&gt;&lt;x8/&gt;, если настраиваемый порт единственный в списке входных или выходных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T155628Z" creationid="Марианна" creationdate="20200920T155628Z">
+        <seg>The name cab be &lt;x7/&gt;&lt;Unspecified&gt;&lt;x8/&gt; if there is only one configured port in the output or input list.</seg>
       </tuv>
     </tu>
     <tu>
