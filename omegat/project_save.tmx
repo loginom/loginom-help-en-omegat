@@ -2206,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заданное количество раз&lt;x2/&gt; — аналог "FOR ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T170952Z" creationid="Марианна" creationdate="20200920T170952Z">
+        <seg>&lt;x1/&gt;Set number of times&lt;x2/&gt; is analogue of "FOR ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Закрыть пакет&lt;x2/&gt; — закрытие открытого Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122533Z" creationid="Марианна" creationdate="20200814T122533Z">
