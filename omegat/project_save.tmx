@@ -5862,6 +5862,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутри &lt;x1/&gt;Подмодели&lt;x2/&gt; имеется возможность использовать &lt;x3/&gt;&lt;x4/&gt;Переменные сценария&lt;x5/&gt;&lt;x6/&gt;, в состав которых входят &lt;x7/&gt;Переменные пользователя&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T164655Z" creationid="Марианна" creationdate="20200920T164655Z">
+        <seg>It is possible to use the &lt;x3/&gt;&lt;x4/&gt;Workflow variables&lt;x5/&gt;&lt;x6/&gt; that include &lt;x7/&gt;User variables&lt;x8/&gt; inside the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во всех форматах: dd — день месяца в виде 2-х цифр, mm — номер месяца в виде 2-х цифр, yy — год в виде 2-х цифр, yyyy - год в виде 4-х цифр.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T160523Z" creationid="Марианна" creationdate="20200917T160523Z">
@@ -8394,6 +8402,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
         <seg>It can receive data from nodes from other workflows and packages using the &lt;x1/&gt;Reference Node&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пользователь имеет возможность задать перечень и значения переменных пользователя, при этом область их применения ограничена &lt;x9/&gt;Подмоделью&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T164805Z" creationid="Марианна" creationdate="20200920T164805Z">
+        <seg>A user can set a list and values of the user variables. In this case, the area of their usage will be restricted by the &lt;x9/&gt;Supernode&lt;x10/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
