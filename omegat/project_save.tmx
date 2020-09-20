@@ -8558,6 +8558,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При помощи инструментов &lt;x3/&gt;&lt;x4/&gt;Производный компонент&lt;x5/&gt;&lt;x6/&gt;, &lt;x7/&gt;&lt;x8/&gt;Выполнение узла&lt;x9/&gt;&lt;x10/&gt;, &lt;x11/&gt;&lt;x12/&gt;Публикация веб-сервисов&lt;x13/&gt;&lt;x14/&gt;, &lt;x15/&gt;&lt;x16/&gt;Пакетное выполнение сценариев&lt;x17/&gt;&lt;x18/&gt; созданную в &lt;x19/&gt;Подмодели&lt;x20/&gt; логику обработки можно применять многократно для различных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T144542Z" creationid="Марианна" creationdate="20200920T144542Z">
+        <seg>Using the following tools: the &lt;x3/&gt;&lt;x4/&gt;Derived component&lt;x5/&gt;&lt;x6/&gt;, &lt;x7/&gt;&lt;x8/&gt;Node execution&lt;x9/&gt;&lt;x10/&gt;, &lt;x11/&gt;&lt;x12/&gt;Publication of web services&lt;x13/&gt;&lt;x14/&gt;, &lt;x15/&gt;&lt;x16/&gt;Batch processing of the workflows&lt;x17/&gt;&lt;x18/&gt;, it is possible to use the processing logics created in the &lt;x19/&gt;Supernode&lt;x20/&gt; many times for different data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При помощи поля &lt;x1/&gt;фильтр&lt;x2/&gt; &lt;x3/&gt;Фильтрация&lt;x4/&gt; можно уменьшить видимую часть списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205232Z" creationid="Марианна" creationdate="20200829T205232Z">
