@@ -1774,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входы&lt;x2/&gt; &lt;x3/&gt;Входы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт входа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145820Z" creationid="Марианна" creationdate="20200920T145820Z">
+        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new port:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор объекта&lt;x2/&gt; — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T184403Z" creationid="Марианна" creationdate="20200825T123728Z">
@@ -6818,6 +6826,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113455Z" creationid="Марианна" creationdate="20200825T113455Z">
         <seg>It is used for data import from the Microsoft Excel files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Каждому порту можно задать тип, имя и метку, которая будет отображаться при наведении курсора на него.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145630Z" creationid="Марианна" creationdate="20200920T145630Z">
+        <seg>It is possible to set a type, name and caption for each port. It will be displayed when hovering a cursor over it.</seg>
       </tuv>
     </tu>
     <tu>
