@@ -5616,6 +5616,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве такого узла, как правило, используется &lt;x1/&gt;Подмодель&lt;x2/&gt;, в которой задаются действия выполняемые над данными в каждой итерации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T170535Z" creationid="Марианна" creationdate="20200920T170535Z">
+        <seg>As a rule, the &lt;x1/&gt;Supernode&lt;x2/&gt; can be used as such node. The actions performed with data in each iteration are set in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В многопользовательской версии есть возможность получить гиперссылку на текущий открытый объект.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084927Z" creationid="Марианна" creationdate="20200814T084927Z">
