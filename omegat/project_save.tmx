@@ -1878,6 +1878,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходное дерево данных&lt;x2/&gt; Дерево данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145414Z" creationid="Марианна" creationdate="20200920T145414Z">
+        <seg>&lt;x1/&gt;Output data tree&lt;x2/&gt; Data tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; Таблица данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145349Z" creationid="Марианна" creationdate="20200920T145349Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; Data table;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193105Z" creationid="Марианна" creationdate="20200810T193105Z">
@@ -6562,6 +6578,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165520Z" creationid="Марианна" creationdate="20200916T165520Z">
         <seg>The following data are set below:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Здесь создаются порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T145443Z" creationid="Марианна" creationdate="20200920T145443Z">
+        <seg>Ports are created here.</seg>
       </tuv>
     </tu>
     <tu>
