@@ -1782,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбор из выпадающего списка элемента &lt;x2/&gt;&lt;Уникальное&gt;&lt;x3/&gt;&lt;x4/&gt; (используется по умолчанию) — имя порта не задается пользователем явно, при этом система генерирует внутреннее уникальное имя самостоятельно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200920T150937Z" creationid="Марианна" creationdate="20200920T150937Z">
+        <seg>&lt;x1/&gt;Select from the item drop-down menu&lt;x2/&gt;&lt;Unique&gt;&lt;x3/&gt;&lt;x4/&gt; (it is used by default): the port name is not explicitly given by a user, in this case, the system generates the internal unique name independently.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор объекта&lt;x2/&gt; — предлагается выбрать один из вариантов выбора объекта Excel, содержащего импортируемые данные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T184403Z" creationid="Марианна" creationdate="20200825T123728Z">
