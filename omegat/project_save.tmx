@@ -3422,6 +3422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — выбор переменной для условия выхода из цикла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T200806Z" creationid="Марианна" creationdate="20200921T200806Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; means selection of a variable for the loop exit condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — именованное значение одного из возможных &lt;x3/&gt;типов данных&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T065653Z" creationid="Марианна" creationdate="20200715T065653Z">
@@ -6802,6 +6810,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074839Z" creationid="Марианна" creationdate="20200819T074839Z">
         <seg>There is a version number in the left lower corner before login/password entering (for example, Loginom X.X.X where X.X.X  is a version number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задаются следующие настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T200715Z" creationid="Марианна" creationdate="20200921T200715Z">
+        <seg>The following settings are set:</seg>
       </tuv>
     </tu>
     <tu>
