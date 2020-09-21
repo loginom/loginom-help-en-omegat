@@ -5032,6 +5032,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Цикл с постусловием&lt;x2/&gt; — количество итераций такого цикла регулируется условием, на соответствие которому при каждой итерации проверяется переменная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T200028Z" creationid="Марианна" creationdate="20200921T200028Z">
+        <seg>&lt;x1/&gt;Postcondition loop&lt;x2/&gt;: the iteration count of such loop is controlled according to the condition for consistency with which a variable is checked for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Цикл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054835Z" creationid="Марианна" creationdate="20200812T054835Z">
