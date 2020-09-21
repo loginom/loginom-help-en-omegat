@@ -1592,8 +1592,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: В некоторых случаях применение параллельной обработки недопустимо.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T203757Z" creationid="Марианна" creationdate="20200921T203757Z">
-        <seg>&lt;x1/&gt;Importatn&lt;x2/&gt;: in some cases parallel processing is not allowed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203929Z" creationid="Марианна" creationdate="20200921T203757Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: in some cases parallel processing is not allowed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2170,6 +2170,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205048Z" creationid="Марианна" creationdate="20200829T205048Z">
         <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add a new row to the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавлять идентификаторы итераций&lt;x2/&gt; — флаг добавляет в выходную таблицу поле "Идентификатор итерации", где для каждой строки указан номер итерации, на которой строка была создана.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204307Z" creationid="Марианна" creationdate="20200921T204307Z">
+        <seg>&lt;x1/&gt;Add iteration identifiers&lt;x2/&gt;: the flag enables to add the "Iteration identifier" field to the output table where the number of the iteration at which the row has been created is specified for each row.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7802,6 +7810,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
         <seg>Package Designation and Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, если на каждой итерации происходит обращение к источнику данных, не допускающему параллельные запросы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204010Z" creationid="Марианна" creationdate="20200921T203923Z">
+        <seg>For example, if access to the data source that does not support parallel requests is required for each iteration.</seg>
       </tuv>
     </tu>
     <tu>
