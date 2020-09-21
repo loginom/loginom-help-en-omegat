@@ -6622,6 +6622,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания соответствия входных и выходных переменных следует перетащить обозначение входной переменной на обозначение выходной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T205212Z" creationid="Марианна" creationdate="20200921T205212Z">
+        <seg>To provide mapping of the input and output variables, it is required to drag the input variable sign to the output variable sign.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания узла:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
