@@ -7566,6 +7566,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На итерации, при которой значение переменной удовлетворяет условию, работа цикла заканчивается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T200658Z" creationid="Марианна" creationdate="20200921T200658Z">
+        <seg>The loop ends at the iteration that makes the variable value meet such condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе настройки указываются следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113611Z" creationid="Марианна" creationdate="20200825T113611Z">
