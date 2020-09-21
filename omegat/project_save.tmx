@@ -5848,6 +5848,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В третьем случае строки входного набора разделяются по заданному признаку на группы строк, и в каждой итерации на вход узла, заключенного в цикл, подаются строки очередной группы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194111Z" creationid="Марианна" creationdate="20200921T194111Z">
+        <seg>In the third case, the input data set rows are devided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае на панели инструментов появляется кнопка &lt;x5/&gt;&lt;x6/&gt; с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093856Z" creationid="Марианна" creationdate="20200820T105750Z">
@@ -6650,6 +6658,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T091257Z" creationid="Марианна" creationdate="20200817T075505Z">
         <seg>It can be opened by pressing &lt;x1/&gt;&lt;x2/&gt; button located in the left low corner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если в качестве признака группы указываются уникальные идентификаторы строк входного набора, то такая группа будет содержать только одну строку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194341Z" creationid="Марианна" creationdate="20200921T194341Z">
+        <seg>If unique identifiers of the input data set rows are specified as the group parameter, such group will contain only one row.</seg>
       </tuv>
     </tu>
     <tu>
