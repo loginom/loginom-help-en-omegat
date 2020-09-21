@@ -5720,6 +5720,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В первом и втором случае применение входного набора данных не обязательно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T193455Z" creationid="Марианна" creationdate="20200921T193455Z">
+        <seg>It is not obligatory to use the input data set in the first and second cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
