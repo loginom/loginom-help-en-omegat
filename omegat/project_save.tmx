@@ -8926,6 +8926,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При первоначальном создании узел не имеет &lt;x1/&gt;портов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194657Z" creationid="Марианна" creationdate="20200921T194657Z">
+        <seg>Being originally created, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При помощи инструментов &lt;x3/&gt;&lt;x4/&gt;Производный компонент&lt;x5/&gt;&lt;x6/&gt;, &lt;x7/&gt;&lt;x8/&gt;Выполнение узла&lt;x9/&gt;&lt;x10/&gt;, &lt;x11/&gt;&lt;x12/&gt;Публикация веб-сервисов&lt;x13/&gt;&lt;x14/&gt;, &lt;x15/&gt;&lt;x16/&gt;Пакетное выполнение сценариев&lt;x17/&gt;&lt;x18/&gt; созданную в &lt;x19/&gt;Подмодели&lt;x20/&gt; логику обработки можно применять многократно для различных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T144542Z" creationid="Марианна" creationdate="20200920T144542Z">
