@@ -2286,6 +2286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — поле для ввода значения, с которым будет сравниваться переменная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T201206Z" creationid="Марианна" creationdate="20200921T201206Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; is a field for entering of the value with which the variable will be compared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
@@ -4804,6 +4812,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185141Z" creationid="Марианна" creationdate="20200810T182527Z">
         <seg>&lt;x1/&gt;Control variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие завершения&lt;x2/&gt; — отношение сравнения переменной со Значением.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T201043Z" creationid="Марианна" creationdate="20200921T201043Z">
+        <seg>&lt;x1/&gt;Termination condition&lt;x2/&gt; means relation of the variable comparability with the Value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9594,6 +9610,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T092757Z" creationid="Марианна" creationdate="20200918T092757Z">
         <seg>It is possible to auto link the lists using the &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Auto link&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список выбора содержит переменные, передаваемые на выходные порты узла, заключенного в цикл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T200904Z" creationid="Марианна" creationdate="20200921T200904Z">
+        <seg>The selection list contains the variables sent to the output ports of the looped node.</seg>
       </tuv>
     </tu>
     <tu>
