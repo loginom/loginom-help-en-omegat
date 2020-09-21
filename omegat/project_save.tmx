@@ -10190,6 +10190,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это количество задается параметром "Количество групп" .</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T202900Z" creationid="Марианна" creationdate="20200921T202900Z">
+        <seg>This count is set by the "Group count" parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это можно сделать в меню Пакеты (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111908Z" creationid="Марианна" creationdate="20200717T111908Z">
