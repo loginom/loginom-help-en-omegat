@@ -9494,6 +9494,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Следует учитывать, что в узле, заключенном в цикл, должна присутствовать операция над этой переменной, которая приводит к выполнению условия выхода из цикла, иначе цикл получится бесконечным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T201520Z" creationid="Марианна" creationdate="20200921T201520Z">
+        <seg>It should be noted that the looped node must presuppose the operation with this variable that will enable to meet the loop exit condition, otherwise, the loop will be infinite.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Следующие настройки применяются для формирования результирующего набора данных вручную:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T132248Z" creationid="Марианна" creationdate="20200825T192251Z">
