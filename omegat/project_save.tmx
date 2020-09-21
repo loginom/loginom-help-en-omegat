@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: В некоторых случаях применение параллельной обработки недопустимо.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203757Z" creationid="Марианна" creationdate="20200921T203757Z">
+        <seg>&lt;x1/&gt;Importatn&lt;x2/&gt;: in some cases parallel processing is not allowed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: При выполнении &lt;x3/&gt;Узла-ссылки&lt;x4/&gt; выполняется узел, являющийся источником ссылки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105627Z" creationid="Марианна" creationdate="20200919T105627Z">
@@ -3386,6 +3394,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070337Z" creationid="Марианна" creationdate="20200812T070337Z">
         <seg>&lt;x1/&gt;Filtration panel&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параллельная обработка&lt;x2/&gt; — применяется для ускорения вычислений при работе цикла, количество потоков определяется параметром "максимальное количество потоков".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203628Z" creationid="Марианна" creationdate="20200921T203628Z">
+        <seg>&lt;x1/&gt;Parallel processing&lt;x2/&gt; is used to speed up calculations duting the loop operation. Thread count is defined by the "Maximum thread count" parameter.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8338,6 +8354,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T061506Z" creationid="Марианна" creationdate="20200817T061506Z">
         <seg>"Processes" panel enables to receive additional information on the data processing processes by the Workflow nodes during the current Loginom session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параллельная обработка не поддерживается циклом с постусловием.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203723Z" creationid="Марианна" creationdate="20200921T203723Z">
+        <seg>Parallel processing is not supported by the postcondition loop.</seg>
       </tuv>
     </tu>
     <tu>
