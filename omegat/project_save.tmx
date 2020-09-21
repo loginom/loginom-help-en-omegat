@@ -4888,6 +4888,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие&lt;x2/&gt; Условие</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T205825Z" creationid="Марианна" creationdate="20200921T205825Z">
+        <seg>&lt;x1/&gt;Condition&lt;x2/&gt; Condition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Условие&lt;x2/&gt; — для &lt;x3/&gt;Измерений&lt;x4/&gt; и &lt;x5/&gt;Атрибутов&lt;x6/&gt; позволяет выбирать из выпадающего списка условие фильтрации;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202049Z" creationid="Марианна" creationdate="20200829T202049Z">
