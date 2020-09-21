@@ -2318,6 +2318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Игнорировать ошибки&lt;x2/&gt; — флаг отключает прерывание выполнения цикла при обнаружении ошибок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204524Z" creationid="Марианна" creationdate="20200921T204524Z">
+        <seg>&lt;x1/&gt;Ignore errors&lt;x2/&gt;: the flag disables interruption of the loop execution in the case of errors detection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
