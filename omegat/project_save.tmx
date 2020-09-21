@@ -7318,6 +7318,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество групп будет равно количеству уникальных идентификаторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203454Z" creationid="Марианна" creationdate="20200921T203454Z">
+        <seg>The row count will be equal to the count of the unique identifiers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Команды контекстного меню позволяют одновременно развернуть/свернуть все узлы в дереве свойств.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
