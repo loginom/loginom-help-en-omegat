@@ -2016,8 +2016,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Групповая обработка&lt;x2/&gt; — этот цикл разделяет исходные данные на группы по выбранному критерию, благодаря чему узел, заключенный в цикл, обрабатывает каждую группу данных отдельно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T201545Z" creationid="Марианна" creationdate="20200921T201545Z">
-        <seg>&lt;x1/&gt;Group processing&lt;x2/&gt; — этот цикл разделяет исходные данные на группы по выбранному критерию, благодаря чему узел, заключенный в цикл, обрабатывает каждую группу данных отдельно.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T201709Z" creationid="Марианна" creationdate="20200921T201545Z">
+        <seg>&lt;x1/&gt;Group processing&lt;x2/&gt;: this loop divides the source data to the groups according to the selected criterion. Thus, the looped node processes each data group separately.</seg>
       </tuv>
     </tu>
     <tu>
