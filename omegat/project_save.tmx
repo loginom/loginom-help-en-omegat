@@ -6078,6 +6078,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор узла цикла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194925Z" creationid="Марианна" creationdate="20200921T194925Z">
+        <seg>Selection of the Loop Node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные элементы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201213Z" creationid="Марианна" creationdate="20200827T195151Z">
@@ -7510,6 +7518,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На данном этапе предоставляется список узлов текущего модуля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194953Z" creationid="Марианна" creationdate="20200921T194953Z">
+        <seg>A list of nodes of the current module is provided at this stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе настройки указываются следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113611Z" creationid="Марианна" creationdate="20200825T113611Z">
@@ -8634,6 +8650,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205546Z" creationid="Марианна" creationdate="20200829T205546Z">
         <seg>When the work with the list is completed, it is required to press the &lt;x1/&gt;Apply&lt;x2/&gt; button to introduce changes, or the &lt;x3/&gt;Cancel&lt;x4/&gt; button to return to the state before the work with the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После задания параметров в мастере настройки узел цикла имеет набор портов узла, заключенного в цикл, кроме выходных портов для переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194908Z" creationid="Марианна" creationdate="20200921T194908Z">
+        <seg>Upon configuration of parameters in the wizard, the loop node has a set of ports of the looped node, apart from the output ports for variables.</seg>
       </tuv>
     </tu>
     <tu>
