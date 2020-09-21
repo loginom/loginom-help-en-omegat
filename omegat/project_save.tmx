@@ -5864,6 +5864,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае цикл будет перебирать строки входного набора и передавать очередную строку на вход узла, заключенного в цикл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T194540Z" creationid="Марианна" creationdate="20200921T194540Z">
+        <seg>In this case, the loop will go over the input data rows, and then it will transfer the next row to the looped node input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075828Z" creationid="Марианна" creationdate="20200716T075828Z">
