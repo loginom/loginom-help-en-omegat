@@ -5736,6 +5736,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В предельном случае количество итераций равно количеству строк входного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T193120Z" creationid="Марианна" creationdate="20200921T193120Z">
+        <seg>In the limiting case, iteration count is equal to row count of the input data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В производных компонентах реализуется &lt;x1/&gt;механизм наследования&lt;x2/&gt;, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T161147Z" creationid="Марианна" creationdate="20200718T161147Z">
