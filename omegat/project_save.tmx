@@ -7822,6 +7822,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но, если таковой применяется, то в каждой итерации на вход узла, заключенного в цикл, подаются все строки этого набора (наборов).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T193850Z" creationid="Марианна" creationdate="20200921T193850Z">
+        <seg>But if it is used, it is required to supply all rows of this data set (data sets) to the looped node input for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область построения Подмодели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160326Z" creationid="Марианна" creationdate="20200920T160326Z">
