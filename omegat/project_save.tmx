@@ -6350,6 +6350,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для заключения узла в цикл следует отметить его радиокнопкой и перейти к следующему шагу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T195107Z" creationid="Марианна" creationdate="20200921T195107Z">
+        <seg>To loop the node, it is required to mark it with the radio button and go to the next step.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для исключения элемента из списка выбранных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203521Z" creationid="Марианна" creationdate="20200829T203521Z">
@@ -7762,6 +7770,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T071948Z" creationid="Марианна" creationdate="20200817T071948Z">
         <seg>Start — date and time of the process start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не допускается выполнение в цикле обработчиков, созданных на базе следующих компонентов: &lt;x1/&gt;Выполнение узла&lt;x2/&gt;, &lt;x3/&gt;Узел-ссылка&lt;x4/&gt;, &lt;x5/&gt;Условие&lt;x6/&gt; и &lt;x7/&gt;Цикл&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T195328Z" creationid="Марианна" creationdate="20200921T195328Z">
+        <seg>It is not allowed to run the handlers in the loop that have been created on the basis of the following components: &lt;x1/&gt;Node execution&lt;x2/&gt;, &lt;x3/&gt;Reference node&lt;x4/&gt;, &lt;x5/&gt;Condition&lt;x6/&gt; and &lt;x7/&gt;Loop&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
