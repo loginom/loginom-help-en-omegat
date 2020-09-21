@@ -3470,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменная цикла&lt;x2/&gt; — переменная, которой в ходе работы цикла присваивается номер текущей итерации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204645Z" creationid="Марианна" creationdate="20200921T204645Z">
+        <seg>&lt;x1/&gt;Loop variable&lt;x2/&gt; is a variable to which the current iteration number is assigned during the loop execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — выбор переменной для условия выхода из цикла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200806Z" creationid="Марианна" creationdate="20200921T200806Z">
@@ -8070,6 +8078,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нумерация итераций осуществляется с 0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204709Z" creationid="Марианна" creationdate="20200921T204709Z">
+        <seg>Iterations are numbered from 0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область построения Подмодели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160326Z" creationid="Марианна" creationdate="20200920T160326Z">
@@ -8466,6 +8482,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070351Z" creationid="Марианна" creationdate="20200715T070340Z">
         <seg>The variable in the formula providing calculation of the expression value using the &lt;x1/&gt;Calculator&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная выбирается из списка переменных входных портов узла, заключенного в цикл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204757Z" creationid="Марианна" creationdate="20200921T204757Z">
+        <seg>The variable is selected from a list of variables of the input ports of the looped node.</seg>
       </tuv>
     </tu>
     <tu>
