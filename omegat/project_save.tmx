@@ -6414,6 +6414,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный этап становится доступен только при заключении в цикл &lt;x1/&gt;Подмоделей&lt;x2/&gt;, имеющих входные и выходные порты для переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T204916Z" creationid="Марианна" creationdate="20200921T204916Z">
+        <seg>This step can be available only when looping the &lt;x1/&gt;Supernodes&lt;x2/&gt; that have input and output ports for variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Двойная кавычка(");</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151751Z" creationid="Марианна" creationdate="20200917T151727Z">
@@ -7770,6 +7778,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T090310Z" creationid="Марианна" creationdate="20200826T090310Z">
         <seg>The following parameters are specified at the configuration stage:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На этом этапе настраивается передача значений выходных переменных соответствующим входным переменным на следующей итерации цикла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T205056Z" creationid="Марианна" creationdate="20200921T205056Z">
+        <seg>During this stage, it is required to configure transfer of values of the output variables to the corresponding input variables at the next loop iteration.</seg>
       </tuv>
     </tu>
     <tu>
