@@ -4888,6 +4888,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фиксированное количество групп&lt;x2/&gt; — исходный набор данных будет разделен на заданное количество групп.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T202820Z" creationid="Марианна" creationdate="20200921T202820Z">
+        <seg>&lt;x1/&gt;Fixed group count&lt;x2/&gt;: the source data set will be divided to the given count of groups.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Фиксированной ширины&lt;x2/&gt; — поля в исходном файле имеют заданную ширину.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T162115Z" creationid="Марианна" creationdate="20200917T162115Z">
