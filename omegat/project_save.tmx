@@ -4064,6 +4064,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разбиение по уникальным значениям полей&lt;x2/&gt; — следует выбрать в списке поля исходного набора, задающие уникальный идентификатор группы строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203421Z" creationid="Марианна" creationdate="20200921T203421Z">
+        <seg>&lt;x1/&gt;Grouping by the unique fields values&lt;x2/&gt;: it is required to select the listed fields of the source data set that enable to set the unique identifier of the row group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппировка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192228Z" creationid="Марианна" creationdate="20200810T192228Z">
@@ -5884,6 +5892,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133330Z" creationid="Марианна" creationdate="20200816T133330Z">
         <seg>The path is specified from the root directory in the server version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В случае, если количество групп не кратно количеству строк в исходном наборе, в некоторых группах количество строк будет отличаться, и они будут равномерно распределены среди остальных групп.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200921T203127Z" creationid="Марианна" creationdate="20200921T203127Z">
+        <seg>If the count of groups is not in multiples of the row count in the source data set, the row count will be different in some groups, and they will be uniformly distributed among other groups.</seg>
       </tuv>
     </tu>
     <tu>
