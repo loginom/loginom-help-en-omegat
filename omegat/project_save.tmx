@@ -5952,6 +5952,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В соответствии с заданными ему условиями выполняется только одна ветвь сценария и блокируется выполнение всех остальных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200923T201504Z" creationid="Марианна" creationdate="20200923T201504Z">
+        <seg>Only one workflow branch is executed according to the given conditions, and execution of other branches is locked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В состав &lt;x5/&gt;Подмодели&lt;x6/&gt; могут также включаться другие &lt;x7/&gt;Подмодели&lt;x8/&gt;, их вложенность друг в друга не ограниченна.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143415Z" creationid="Марианна" creationdate="20200920T143415Z">
@@ -6306,6 +6314,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121243Z" creationid="Марианна" creationdate="20200823T121243Z">
         <seg>Output Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выявление активной ветви происходит по следующему принципу:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200923T201547Z" creationid="Марианна" creationdate="20200923T201547Z">
+        <seg>The active branch is detected as follows:</seg>
       </tuv>
     </tu>
     <tu>
