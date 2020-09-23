@@ -7414,6 +7414,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент используется в точке разветвления сценария в качестве переключателя между вариантами обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200923T201305Z" creationid="Марианна" creationdate="20200923T201305Z">
+        <seg>The component is used in the workflow branch point as a switch between data processing options.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент может применяться для циклического исполнения выбранного пользователем узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T165946Z" creationid="Марианна" creationdate="20200920T165946Z">
