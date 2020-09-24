@@ -10,11 +10,11 @@ When creating, the node does not have [ports](../../scenario/ports/README.md). U
 
 ## Wizard
 
-The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data. The nodes *available*for selection are dispalyed in the form of a tree.
+The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data. The nodes *available* for selection are dispalyed in the form of a tree.
 
 The nodes tree has, at least, two root branches:
 
-* **Current module** contains a list of nodes of the module in which *Node execution* node is currently created;
+* **Current module** contains a list of nodes of the module in which *Node execution* node is currently created.
 * **Current package** (the package name) contains a list of nodes of the current package.
 
 If the current package contains configured links to the external packages, the nodes of these packages will be displayed in the separate tree branches.
