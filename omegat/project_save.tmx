@@ -7472,8 +7472,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Имя может быть &lt;x7/&gt;&lt;Не задано&gt;&lt;x8/&gt;, если настраиваемый порт единственный в списке входных или выходных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T155628Z" creationid="Марианна" creationdate="20200920T155628Z">
-        <seg>The name cab be &lt;x7/&gt;&lt;Unspecified&gt;&lt;x8/&gt; if there is only one configured port in the output or input list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T102436Z" creationid="Марианна" creationdate="20200920T155628Z">
+        <seg>The name can be &lt;x7/&gt;&lt;Unspecified&gt;&lt;x8/&gt; if there is only one configured port in the output or input list.</seg>
       </tuv>
     </tu>
     <tu>
