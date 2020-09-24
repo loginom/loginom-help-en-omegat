@@ -3784,8 +3784,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подмодель&lt;x2/&gt; Подмодель</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T101456Z" creationid="Марианна" creationdate="20200920T142621Z">
-        <seg>&lt;x1/&gt;Supernode&lt;x2/&gt; Supermode</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T101604Z" creationid="Марианна" creationdate="20200920T142621Z">
+        <seg>&lt;x1/&gt;Supernode&lt;x2/&gt; Supernode</seg>
       </tuv>
     </tu>
     <tu>
