@@ -4248,6 +4248,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать параметры порта&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — редактировать параметры порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T073346Z" creationid="Марианна" creationdate="20200924T073346Z">
+        <seg>&lt;x1/&gt;Edit port parameters&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; eanbles to edit port parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — позволяет отредактировать добавленную в список строку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205130Z" creationid="Марианна" creationdate="20200829T205130Z">
@@ -4412,6 +4420,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192809Z" creationid="Марианна" creationdate="20200810T192809Z">
         <seg>&lt;x1/&gt;Connection&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создание выхода&lt;x2/&gt; &lt;x3/&gt;Передавать на выход&lt;x4/&gt; — для выделенного входного порта будет создан порт выхода в каждой ветви.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T073523Z" creationid="Марианна" creationdate="20200924T073523Z">
+        <seg>&lt;x1/&gt;Create output&lt;x2/&gt; &lt;x3/&gt;Pass to output&lt;x4/&gt;: the output port will be created in each branch for the selected input port.</seg>
       </tuv>
     </tu>
     <tu>
