@@ -3672,8 +3672,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt;, &lt;x5/&gt;Переместить вверх&lt;x6/&gt; &lt;x7/&gt;Переместить вверх&lt;x8/&gt; — сместить выделенный порт в списке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T150239Z" creationid="Марианна" creationdate="20200920T150239Z">
-        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt; enables to dislocate the selected port in the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T102347Z" creationid="Марианна" creationdate="20200920T150239Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt; enable to dislocate the selected port in the list.</seg>
       </tuv>
     </tu>
     <tu>
