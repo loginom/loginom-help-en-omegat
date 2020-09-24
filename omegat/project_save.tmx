@@ -4376,6 +4376,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Смещение порта вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt;, &lt;x5/&gt;Смещение порта вверх&lt;x6/&gt; &lt;x7/&gt;Переместить вверх&lt;x8/&gt; — путем смещения выделенного порта определить его положение относительно узла компонента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T073257Z" creationid="Марианна" creationdate="20200924T073257Z">
+        <seg>&lt;x1/&gt;Move port down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move port up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt;: it is possible to define location of the selected port relative to the component node by moving it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Смотри также:&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094704Z" creationid="Марианна" creationdate="20200813T094704Z">
