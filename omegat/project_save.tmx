@@ -8182,6 +8182,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, сложное условие вида: "A &lt;x5/&gt;ИЛИ&lt;x6/&gt; B &lt;x7/&gt;И&lt;x8/&gt; C &lt;x9/&gt;ИЛИ&lt;x10/&gt; D &lt;x11/&gt;И&lt;x12/&gt; E &lt;x13/&gt;И&lt;x14/&gt; F" удет выполняться следующим образом: "A &lt;x15/&gt;ИЛИ&lt;x16/&gt; (B &lt;x17/&gt;И&lt;x18/&gt; C) &lt;x19/&gt;ИЛИ&lt;x20/&gt; (D &lt;x21/&gt;И&lt;x22/&gt; E &lt;x23/&gt;И&lt;x24/&gt; F)"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T084236Z" creationid="Марианна" creationdate="20200924T084236Z">
+        <seg>For example, complex condition of the following type: "A &lt;x5/&gt;OR&lt;x6/&gt; B &lt;x7/&gt;AND&lt;x8/&gt; C &lt;x9/&gt;OR&lt;x10/&gt; D &lt;x11/&gt;AND&lt;x12/&gt; E &lt;x13/&gt;AND&lt;x14/&gt; F" will be executed in the following way: "A &lt;x15/&gt;OR&lt;x16/&gt; (B &lt;x17/&gt;AND&lt;x18/&gt; C) &lt;x19/&gt;OR&lt;x20/&gt; (D &lt;x21/&gt;AND&lt;x22/&gt; E &lt;x23/&gt;AND&lt;x24/&gt; F)"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, составная метка &lt;x3/&gt;ROOT|PERSON|ACCES-LEVEL&lt;x4/&gt; будет сформирована для поля импортированной таблицы, содержащего данные атрибута &lt;x5/&gt;ACCESS-LEVEL&lt;x6/&gt; элемента &lt;x7/&gt;PERSON&lt;x8/&gt; из корневого элемента &lt;x9/&gt;ROOT&lt;x10/&gt; файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T222209Z" creationid="Марианна" creationdate="20200829T222209Z">
