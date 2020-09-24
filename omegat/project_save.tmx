@@ -6910,6 +6910,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если все ветви примут значение "ложь", то будет активизирована специальная ветвь &lt;x1/&gt;Иначе&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T065253Z" creationid="Марианна" creationdate="20200924T065253Z">
+        <seg>If all branches have the "false" value, the special &lt;x1/&gt;Otherwise&lt;x2/&gt; branch will be activated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если данные переменные не будут определены во входном порту узла импорта, то возникнет исключение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T123050Z" creationid="Марианна" creationdate="20200823T123050Z">
@@ -9138,6 +9146,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T144001Z" creationid="Марианна" creationdate="20200918T144001Z">
         <seg>When executing the node, the base node is not executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выявлении ветви со значением "истина" проверка останавливается, ветвь становится активной, а остальные блокируются, даже если ниже по списку остались истинные;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T065145Z" creationid="Марианна" creationdate="20200924T065145Z">
+        <seg>When detecting the branch with the "true" value, testing is stopped, the branch becomes active, and other branches are locked, even if there are true branches down the list.</seg>
       </tuv>
     </tu>
     <tu>
