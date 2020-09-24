@@ -6216,6 +6216,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае данную колонку необходимо свети к одному значению с помощью методов агрегации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T083657Z" creationid="Марианна" creationdate="20200924T083657Z">
+        <seg>In this case, it is important to set the column to one value using the aggregation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае на панели инструментов появляется кнопка &lt;x5/&gt;&lt;x6/&gt; с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093856Z" creationid="Марианна" creationdate="20200820T105750Z">
@@ -7138,6 +7146,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T123050Z" creationid="Марианна" creationdate="20200823T123050Z">
         <seg>If these variables are not determined in the input port of the import node, there will be an exception.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если же на вход подана таблица, то поле обозначает не одно значение, а целую колонку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T083140Z" creationid="Марианна" creationdate="20200924T083140Z">
+        <seg>If a table is supplied to the input, the field will denote not only one value but the whole column.</seg>
       </tuv>
     </tu>
     <tu>
