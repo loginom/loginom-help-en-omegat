@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Агрегация&lt;x2/&gt; — содержит список методов &lt;x3/&gt;агрегации&lt;x4/&gt;, применимых к полям таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T075144Z" creationid="Марианна" creationdate="20200924T075144Z">
+        <seg>&lt;x1/&gt;Aggregation&lt;x2/&gt; contains a list of the &lt;x3/&gt;aggregation&lt;x4/&gt; methods applied to the table fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071200Z" creationid="Марианна" creationdate="20200812T071200Z">
