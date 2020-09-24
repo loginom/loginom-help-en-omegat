@@ -10,7 +10,7 @@ The active branch is detected as follows:
 
 ## Ports
 
-Primarily there are no input and output [ports](../../scenario/ports/README.md), they are created by a user in the wizard. It is sufficient to add input ports and save the component settings for initial setup. It is not required to configure the condition list, as the input data structure has not been transferred to the component. There are the following types of ports:
+Primarily, there are no input and output [ports](../../scenario/ports/README.md), they are created by a user in the wizard. It is sufficient to add input ports and save the component settings for initial setup. It is not required to configure the condition list, as the input data structure has not been transferred to the component. There are the following types of ports:
 
 ### Input
 
