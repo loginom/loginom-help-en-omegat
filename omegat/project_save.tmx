@@ -6070,6 +6070,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ветви проверяются на истинность последовательно по списку сверху вниз, начиная с самой первой;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T064919Z" creationid="Марианна" creationdate="20200924T064919Z">
+        <seg>The branches are successively tested for authenticity from the top of the list downwards starting from the first one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Видимость узлов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102431Z" creationid="Марианна" creationdate="20200919T102431Z">
