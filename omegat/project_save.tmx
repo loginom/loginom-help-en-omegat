@@ -10110,6 +10110,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список недоступен для полей-переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T075513Z" creationid="Марианна" creationdate="20200924T075513Z">
+        <seg>The list is not available for variable fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Способы просмотра номера версии на сервере Loginom средствами ОС аналогичны способам, описанным выше для десктопных редакций, за исключением того, что для удаленного подключения к файловой системе сервера Loginom пользователю необходимы права администратора, а собственно интересующее приложение Loginom – это сервер (C:\Program Files\BaseGroup\Loginom 6\Server\Server.exe).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T080522Z" creationid="Марианна" creationdate="20200819T080522Z">
