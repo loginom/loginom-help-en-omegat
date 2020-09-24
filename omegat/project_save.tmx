@@ -7350,6 +7350,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждому порту можно задать тип, имя и название, которое будет отображаться при наведении курсора на него.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T070204Z" creationid="Марианна" creationdate="20200924T070204Z">
+        <seg>It is possible to set a type, name and caption for each port. It will be displayed when hovering a cursor over it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T135300Z" creationid="Марианна" creationdate="20200718T135300Z">
