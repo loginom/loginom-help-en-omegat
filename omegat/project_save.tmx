@@ -4890,8 +4890,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Текущий модуль&lt;x2/&gt; — содержит перечень узлов модуля, в котором в данный момент создается узел &lt;x3/&gt;Выполнение узла&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T071412Z" creationid="Марианна" creationdate="20200919T071412Z">
-        <seg>&lt;x1/&gt;Current module&lt;x2/&gt; contains a list of nodes of the module in which &lt;x3/&gt;Node execution&lt;x4/&gt; node is currently created;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T101321Z" creationid="Марианна" creationdate="20200919T071412Z">
+        <seg>&lt;x1/&gt;Current module&lt;x2/&gt; contains a list of nodes of the module in which &lt;x3/&gt;Node execution&lt;x4/&gt; node is currently created.</seg>
       </tuv>
     </tu>
     <tu>
