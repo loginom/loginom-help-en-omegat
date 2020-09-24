@@ -7054,6 +7054,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Здесь задается наличие необходимых портов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T070125Z" creationid="Марианна" creationdate="20200924T070125Z">
+        <seg>It enables to provide the presence of the required ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Здесь задаются:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165520Z" creationid="Марианна" creationdate="20200916T165520Z">
