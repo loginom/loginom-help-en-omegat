@@ -12,8 +12,8 @@ Initially, there are no input and output ports. They are created by users in the
 
 ### Input
 
-* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Variables (optional port);
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data table;
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Variables (optional port)
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data table
 * ![Input data tree](../../images/icons/app/node/ports/inputs/tree_inactive.svg) Data tree.
 
 ### Output
