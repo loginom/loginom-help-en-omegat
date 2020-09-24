@@ -1800,8 +1800,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; Таблица данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T145144Z" creationid="Марианна" creationdate="20200920T145144Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; Data table;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T102232Z" creationid="Марианна" creationdate="20200920T145144Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; Data table</seg>
       </tuv>
     </tu>
     <tu>
@@ -1832,8 +1832,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; Переменные (необязательный порт);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T145050Z" creationid="Марианна" creationdate="20200920T145050Z">
-        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; Variables (optional port);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T102226Z" creationid="Марианна" creationdate="20200920T145050Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; Variables (optional port)</seg>
       </tuv>
     </tu>
     <tu>
