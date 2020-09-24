@@ -55,7 +55,7 @@ It enables to provide the presence of the required ports. It is possible to set 
    * **Compared value** is a value with which the selected object will be compared.
 * **AND/OR**: switch button appears between two conditions in the branch.
    * **AND**: the connected conditions will have the "true" value if both of them are true.
-   * **OR**: the connected conditions will have the "true" value if at least one contition is true.
+   * **OR**: the connected conditions will have the "true" value if at least one condition is true.
 * ![**Delete all conditions**](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all conditions** enables to delete all conditions for the selected branch.
 
 > **Note:** the condition is checked based on the atomic values, for example, "A > 1". A variable can represent such value. If a table is supplied to the input, the field will denote not only one value but the whole column. In this case, it is important to set the column to one value using the aggregation methods.
