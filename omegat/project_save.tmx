@@ -3784,16 +3784,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подмодель&lt;x2/&gt; Подмодель</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T142621Z" creationid="Марианна" creationdate="20200920T142621Z">
-        <seg>&lt;x1/&gt;Supermode&lt;x2/&gt; Supermode</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T101456Z" creationid="Марианна" creationdate="20200920T142621Z">
+        <seg>&lt;x1/&gt;Supernode&lt;x2/&gt; Supermode</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подмодель&lt;x2/&gt; является специальным узлом, содержащим в себе другие узлы &lt;x3/&gt;&lt;x4/&gt;Сценария&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T142717Z" creationid="Марианна" creationdate="20200920T142717Z">
-        <seg>&lt;x1/&gt;Supermode&lt;x2/&gt; is a special node that contains other nodes of the &lt;x3/&gt;&lt;x4/&gt;Workflow&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T101504Z" creationid="Марианна" creationdate="20200920T142717Z">
+        <seg>&lt;x1/&gt;Supernode&lt;x2/&gt; is a special node that contains other nodes of the &lt;x3/&gt;&lt;x4/&gt;Workflow&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10592,8 +10592,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Узлы, находящиеся за пределами текущей &lt;x1/&gt;Подмодели&lt;x2/&gt;, &lt;x3/&gt;Сценария&lt;x4/&gt;, &lt;x5/&gt;Модуля&lt;x6/&gt; или &lt;x7/&gt;Пакета&lt;x8/&gt;, по умолчанию недоступны для выбора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T102738Z" creationid="Марианна" creationdate="20200919T102738Z">
-        <seg>The nodes that are outside the current &lt;x1/&gt;Supermode&lt;x2/&gt;, &lt;x3/&gt;Workflow&lt;x4/&gt;, &lt;x5/&gt;Module&lt;x6/&gt; or &lt;x7/&gt;Package&lt;x8/&gt; are not available for selection by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T101526Z" creationid="Марианна" creationdate="20200919T102738Z">
+        <seg>The nodes that are outside the current &lt;x1/&gt;Supernode&lt;x2/&gt;, &lt;x3/&gt;Workflow&lt;x4/&gt;, &lt;x5/&gt;Module&lt;x6/&gt; or &lt;x7/&gt;Package&lt;x8/&gt; are not available for selection by default.</seg>
       </tuv>
     </tu>
     <tu>
