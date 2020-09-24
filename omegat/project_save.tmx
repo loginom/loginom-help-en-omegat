@@ -3766,6 +3766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — содержит список всех переменных, столбцов таблиц и указатель записей таблиц, поданных на входные порты компонента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T075014Z" creationid="Марианна" creationdate="20200924T075014Z">
+        <seg>&lt;x1/&gt;Field&lt;x2/&gt; contains a list of all variables, table columns and pointer of table records supplied to input ports of the component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — тоже что и &lt;x3/&gt;Параметр&lt;x4/&gt; в &lt;x5/&gt;Доступных элементах&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201835Z" creationid="Марианна" creationdate="20200829T201752Z">
