@@ -6,7 +6,7 @@
 
 ### Input
 
-* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a data table.
 
 ### Output
 

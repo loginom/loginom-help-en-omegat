@@ -10,7 +10,7 @@
 
 ### Output
 
-* ![Выходной набор данных](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
+* ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** denotes a data table.
 
 ## Wizard
 
