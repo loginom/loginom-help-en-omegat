@@ -4416,6 +4416,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создать новый порт&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — создать новый порт входа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T071815Z" creationid="Марианна" creationdate="20200924T071815Z">
+        <seg>&lt;x1/&gt;Create new port&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to create a new input port as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создать новый&lt;x2/&gt; — создание нового Пакета;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121915Z" creationid="Марианна" creationdate="20200814T121758Z">
