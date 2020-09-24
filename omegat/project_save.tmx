@@ -4368,6 +4368,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим отладки&lt;x2/&gt; &lt;x3/&gt;Режим отладки&lt;x4/&gt; — применяется для проверки корректности данных на выходных портах вне зависимости от условий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T084337Z" creationid="Марианна" creationdate="20200924T084337Z">
+        <seg>&lt;x1/&gt;Debug mode&lt;x2/&gt; &lt;x3/&gt;Debug mode&lt;x4/&gt; will be used to check data correctness at the output ports regardless of conditions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Результат&lt;x2/&gt; — в табличной части окна мастера будет показан результат преобразования данных с учетом установленных параметров полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190806Z" creationid="Марианна" creationdate="20200825T190806Z">
@@ -4644,6 +4652,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T073745Z" creationid="Марианна" creationdate="20200924T073745Z">
         <seg>&lt;x1/&gt;Condition branch list&lt;x2/&gt; contains options of the further workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Список пользовательских ветвей&lt;x2/&gt; — добавленные пользователем ветви, можно выбрать одну из них;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T084629Z" creationid="Марианна" creationdate="20200924T084629Z">
+        <seg>&lt;x1/&gt;List of user branches&lt;x2/&gt; denotes the branches added by a user. It is possible to select one of them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5860,6 +5876,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081124Z" creationid="Марианна" creationdate="20200814T081111Z">
         <seg>Address bar is a breadcrumb trail of objects (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Активны будут ветви, указанные в списке &lt;x5/&gt;Выполнять ветвь условия&lt;x6/&gt;, который включает в себя:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T084509Z" creationid="Марианна" creationdate="20200924T084509Z">
+        <seg>The branches specified in &lt;x5/&gt;Run condition branch&lt;x6/&gt; list will be active. It includes the following components:</seg>
       </tuv>
     </tu>
     <tu>
