@@ -2312,8 +2312,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные&lt;x2/&gt; для выбора узлы представлены в виде дерева.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T070803Z" creationid="Марианна" creationdate="20200919T070803Z">
-        <seg>The nodes &lt;x1/&gt;available&lt;x2/&gt;for selection are dispalyed in the form of a tree.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T101243Z" creationid="Марианна" creationdate="20200919T070803Z">
+        <seg>The nodes &lt;x1/&gt;available&lt;x2/&gt; for selection are dispalyed in the form of a tree.</seg>
       </tuv>
     </tu>
     <tu>
