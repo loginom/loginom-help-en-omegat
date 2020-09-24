@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Удалить все условия&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Удалить все условия&lt;x6/&gt; — удалить все условия для выбранной ветви.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T082741Z" creationid="Марианна" creationdate="20200924T082741Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Delete all conditions&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Delete all conditions&lt;x6/&gt; enables to delete all conditions for the selected branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;A1&lt;x2/&gt; — в формате, в котором строка ячейки обозначается латинскими буквами, а столбец — цифрами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T184821Z" creationid="Марианна" creationdate="20200825T184821Z">
@@ -4004,6 +4012,14 @@
       <tuv lang="en" changeid="Марианна" changedate="20200814T123303Z" creationid="Марианна" creationdate="20200814T123303Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; this panel contains information on the &lt;x3/&gt;current application version&lt;x4/&gt; and
 &lt;x5/&gt;user name&lt;x6/&gt; under which the current session is opened (in the case of the server Loginom version). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; условие проверяется на атомарных значениях, например "A &gt; 1".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T082856Z" creationid="Марианна" creationdate="20200924T082856Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; the condition is checked based on the atomic values, for example, "A &gt; 1".</seg>
       </tuv>
     </tu>
     <tu>
@@ -10322,6 +10338,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205512Z" creationid="Марианна" creationdate="20200921T205512Z">
         <seg>These links can be deleted using &lt;x1/&gt;Delete link&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким значением может быть переменная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T082941Z" creationid="Марианна" creationdate="20200924T082941Z">
+        <seg>A variable can represent such value.</seg>
       </tuv>
     </tu>
     <tu>
