@@ -2390,6 +2390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;И/ИЛИ&lt;x2/&gt; — кнопка-переключатель появляется между двумя условиями в ветви:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T082511Z" creationid="Марианна" creationdate="20200924T082511Z">
+        <seg>&lt;x1/&gt;AND/OR&lt;x2/&gt;: switch button appears between two conditions in the branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Игнорировать ошибки&lt;x2/&gt; — флаг отключает прерывание выполнения цикла при обнаружении ошибок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204524Z" creationid="Марианна" creationdate="20200921T204524Z">
