@@ -2816,8 +2816,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество итераций задается количеством групп, на которые разделяются строки входного набора данных&lt;x2/&gt;  — аналог "FOR EACH".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T171838Z" creationid="Марианна" creationdate="20200920T171838Z">
-        <seg>&lt;x1/&gt;Iteration count is set by the number of groups to which the input data set rows are divided &lt;x2/&gt; is analogue of "FOR EACH".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T100510Z" creationid="Марианна" creationdate="20200920T171838Z">
+        <seg>&lt;x1/&gt;Iteration count is set by the number of groups to which the input data set rows are divided &lt;x2/&gt;. It is an analogue of "FOR EACH".</seg>
       </tuv>
     </tu>
     <tu>
