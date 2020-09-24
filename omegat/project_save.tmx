@@ -8014,6 +8014,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка портов узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T070037Z" creationid="Марианна" creationdate="20200924T070037Z">
+        <seg>Configuration of the Node Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка списка условий при этом не требуется, так как в компонент ещё не передана структура входных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065654Z" creationid="Марианна" creationdate="20200924T065654Z">
