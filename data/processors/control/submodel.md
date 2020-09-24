@@ -34,14 +34,14 @@ Ports are created here. It is possible to set a type, name and caption for each 
    * ![For variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — for variables.
    * ![For table](../../images/icons/app/node/ports/outputs/table_inactive.svg) — for table.
    * ![For data tree](../../images/icons/app/node/ports/outputs/tree_inactive.svg) — for data tree.
-* ![Move down](../../images/icons/toolbar-controls/movedown_default.svg) **Move down**, ![Move up](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enables to dislocate the selected port in the list.
+* ![Move down](../../images/icons/toolbar-controls/movedown_default.svg) **Move down**, ![Move up](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enable to dislocate the selected port in the list.
 * ![Delete port](../../images/icons/toolbar-controls/delete_default.svg) enables to delete port.
 * ![Delete all ports](../../images/icons/toolbar-controls/delete-all_default.svg) enables to delete all ports.
 
 The port name can be set in the following ways:
 
 * **Select from the item drop-down menu*<Unique>*** (it is used by default): the port name is not explicitly given by a user, in this case, the system generates the internal unique name independently.
-* **Select from the item drop-down menu *<Unspecified>***: it is used for [compatibility with past generation products](../../integration/web-services/publishing-web-service.md#sovmestimost-veb-servisov-loginom-s-deductor) (DIS, Deductor 5.3) when publishing the supernode as a web service. The name cab be *<Unspecified>* if there is only one configured port in the output or input list.
+* **Select from the item drop-down menu *<Unspecified>***: it is used for [compatibility with past generation products](../../integration/web-services/publishing-web-service.md#sovmestimost-veb-servisov-loginom-s-deductor) (DIS, Deductor 5.3) when publishing the supernode as a web service. The name can be *<Unspecified>* if there is only one configured port in the output or input list.
 * **Explicitly given name**: a user sets the unique port name by himself. Letters of the Latin alphabet from а to z and from А to Z, underscore "_" character and digits are allowed in the name. It is not allowed to start the name from a digit. It is required to provide uniqueness of the input port in the list of the input ports, for the output port - in the list of the output ports.
 
 ## The Supernode Construction Area
