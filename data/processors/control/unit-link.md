@@ -14,6 +14,6 @@ The wizard interface enables to search for the nodes in the general list by mean
 
 ## Visibility of Nodes
 
-The nodes that are outside the current *Supermode*, *Workflow*, *Module* or *Package* are not available for selection by default. To configure the node visibility, it is required to install corresponding [Access modifier](../../scenario/access-modifier.md). To provide a reference to nodes of the other *Package*, it is required to create a [reference to the other Package](../../scenario/link-to-packet.md) in the current *Package*.
+The nodes that are outside the current *Supernode*, *Workflow*, *Module* or *Package* are not available for selection by default. To configure the node visibility, it is required to install corresponding [Access modifier](../../scenario/access-modifier.md). To provide a reference to nodes of the other *Package*, it is required to create a [reference to the other Package](../../scenario/link-to-packet.md) in the current *Package*.
 
 > **Important**: When executing the *Reference node*, the node that is the reference source is executed.

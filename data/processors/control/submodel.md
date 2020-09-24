@@ -1,6 +1,6 @@
-# ![Supermode](../../images/icons/components/generic_default.svg) Supermode
+# ![Supernode](../../images/icons/components/generic_default.svg) Supernode
 
-*Supermode* is a special node that contains other nodes of the *[Workflow](../../scenario/README.md#proektirovanie-stsenariev)*.
+*Supernode* is a special node that contains other nodes of the *[Workflow](../../scenario/README.md#proektirovanie-stsenariev)*.
 
 The Main Designation of the *Supernode*:
 - Simplification of the *Workflow* structure is achieved by combination of several nodes performing particular stage of the data processing into one node of the *Supernode*. The *Supernode* can include other *Supernodes*, their nesting into each other is not restricted. Thus, it is possible to create the hierarchic structure of the workflow.
