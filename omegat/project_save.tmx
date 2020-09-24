@@ -3544,8 +3544,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параллельная обработка&lt;x2/&gt; — применяется для ускорения вычислений при работе цикла, количество потоков определяется параметром "максимальное количество потоков".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T203628Z" creationid="Марианна" creationdate="20200921T203628Z">
-        <seg>&lt;x1/&gt;Parallel processing&lt;x2/&gt; is used to speed up calculations duting the loop operation. Thread count is defined by the "Maximum thread count" parameter.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T100954Z" creationid="Марианна" creationdate="20200921T203628Z">
+        <seg>&lt;x1/&gt;Parallel processing&lt;x2/&gt; is used to speed up calculations during the loop operation. Thread count is defined by the "Maximum thread count" parameter.</seg>
       </tuv>
     </tu>
     <tu>
