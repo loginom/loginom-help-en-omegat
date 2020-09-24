@@ -2158,10 +2158,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Для переменных&lt;x2/&gt; &lt;x3/&gt;Переменные&lt;x4/&gt; — для переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T071842Z" creationid="Марианна" creationdate="20200924T071842Z">
+        <seg>&lt;x1/&gt;For variables&lt;x2/&gt; &lt;x3/&gt;Variables&lt;x4/&gt; — for variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Для переменных&lt;x2/&gt; — для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145837Z" creationid="Марианна" creationdate="20200920T145837Z">
         <seg>&lt;x1/&gt;For variables&lt;x2/&gt; — for variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Для таблицы&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — для таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T071857Z" creationid="Марианна" creationdate="20200924T071857Z">
+        <seg>&lt;x1/&gt;For table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt; — for table.</seg>
       </tuv>
     </tu>
     <tu>
