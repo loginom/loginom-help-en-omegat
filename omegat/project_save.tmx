@@ -4864,6 +4864,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить ветвь&lt;x2/&gt; — удалить ветвь;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T074101Z" creationid="Марианна" creationdate="20200924T074101Z">
+        <seg>&lt;x1/&gt;Delete branch&lt;x2/&gt; enables to delete branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить все ветви&lt;x2/&gt; — удалить все ветви условий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T074129Z" creationid="Марианна" creationdate="20200924T074129Z">
+        <seg>&lt;x1/&gt;Delete all branches&lt;x2/&gt; enables to delete all condition branches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить все порты&lt;x2/&gt; — удалить все порты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T150336Z" creationid="Марианна" creationdate="20200920T150336Z">
@@ -5004,6 +5020,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202049Z" creationid="Марианна" creationdate="20200829T202049Z">
         <seg>&lt;x1/&gt;Condition&lt;x2/&gt; for &lt;x3/&gt;Dimensions&lt;x4/&gt; and &lt;x5/&gt;Attributes&lt;x6/&gt; enables to select the filtration condition from the drop-down list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие&lt;x2/&gt; — область конфигурации условий для конкретной ветви, отображается при выделении ветви в списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T074501Z" creationid="Марианна" creationdate="20200924T074501Z">
+        <seg>&lt;x1/&gt;Condition&lt;x2/&gt; is an area for configuration of conditions for particular branch. It is displayed when selecting the listed branch.</seg>
       </tuv>
     </tu>
     <tu>
