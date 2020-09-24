@@ -2398,6 +2398,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;И&lt;x2/&gt; — связываемые условия дадут значение "истина", если они оба истинны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T082607Z" creationid="Марианна" creationdate="20200924T082607Z">
+        <seg>&lt;x1/&gt;AND&lt;x2/&gt;: the connected conditions will have the "true" value if both of them are true.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ИЛИ&lt;x2/&gt; — связываемые условия дадут значение "истина", если истинно хотя бы одно из них.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T082655Z" creationid="Марианна" creationdate="20200924T082655Z">
+        <seg>&lt;x1/&gt;OR&lt;x2/&gt;: the connected conditions will have the "true" value if at least one contition is true.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Игнорировать ошибки&lt;x2/&gt; — флаг отключает прерывание выполнения цикла при обнаружении ошибок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204524Z" creationid="Марианна" creationdate="20200921T204524Z">
