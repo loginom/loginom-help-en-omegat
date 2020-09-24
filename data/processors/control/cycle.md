@@ -4,11 +4,11 @@ The component will be used for the loop execution of the node selected by a user
 
 1. **Set number of times** is analogue of "FOR ... TO ...".
 2. **Iteration count is set by the loop exit condition**. It is an analogue of "DO ... WHILE ...". The value of the looped output node variable is analysed to ensure its compliance with this condition.
-3. **Iteration count is set by the number of groups to which the input data set rows are divided ** is analogue of "FOR EACH". In the limiting case, iteration count is equal to row count of the input data set.
+3. **Iteration count is set by the number of groups to which the input data set rows are divided **. It is an analogue of "FOR EACH". In the limiting case, iteration count is equal to row count of the input data set.
 
 It is not obligatory to use the input data set in the first and second cases. But if it is used, it is required to supply all rows of this data set (data sets) to the looped node input for each iteration.
 
-In the third case, the input data set rows are devided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration. If unique identifiers of the input data set rows are specified as the group parameter, such group will contain only one row. In this case, the loop will go over the input data rows, and then it will transfer the next row to the looped node input.
+In the third case, the input data set rows are divided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration. If unique identifiers of the input data set rows are specified as the group parameter, such group will contain only one row. In this case, the loop will go over the input data rows, and then it will transfer the next row to the looped node input.
 
 ## Ports
 
