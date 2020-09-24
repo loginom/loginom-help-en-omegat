@@ -2214,6 +2214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить новое условие&lt;x2/&gt; — добавить в ветвь новое условие, после нажатия открывается окно для его настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T074635Z" creationid="Марианна" creationdate="20200924T074635Z">
+        <seg>&lt;x1/&gt;Add new condition&lt;x2/&gt; enables to add a new condition into the branch. Upon pressing, its configuration window will be opened:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить факт&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065854Z" creationid="Марианна" creationdate="20200812T065854Z">
