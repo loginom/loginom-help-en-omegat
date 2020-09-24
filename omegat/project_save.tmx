@@ -6258,8 +6258,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В третьем случае строки входного набора разделяются по заданному признаку на группы строк, и в каждой итерации на вход узла, заключенного в цикл, подаются строки очередной группы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T194111Z" creationid="Марианна" creationdate="20200921T194111Z">
-        <seg>In the third case, the input data set rows are devided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T100552Z" creationid="Марианна" creationdate="20200921T194111Z">
+        <seg>In the third case, the input data set rows are divided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration.</seg>
       </tuv>
     </tu>
     <tu>
