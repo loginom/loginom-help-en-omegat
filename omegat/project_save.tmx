@@ -2824,8 +2824,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество итераций задается условием выхода из цикла&lt;x2/&gt; — аналог "DO ...</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T171155Z" creationid="Марианна" creationdate="20200920T171155Z">
-        <seg>&lt;x1/&gt;Iteration count is set by the loop exit condition&lt;x2/&gt; is analogue of "DO ...</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T100414Z" creationid="Марианна" creationdate="20200920T171155Z">
+        <seg>&lt;x1/&gt;Iteration count is set by the loop exit condition&lt;x2/&gt;. It is an analogue of "DO ...</seg>
       </tuv>
     </tu>
     <tu>
