@@ -7360,8 +7360,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Изначально входных и выходных &lt;x1/&gt;портов&lt;x2/&gt; нет, они создаются пользователем в мастере настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T065416Z" creationid="Марианна" creationdate="20200924T065416Z">
-        <seg>Primarily there are no input and output &lt;x1/&gt;ports&lt;x2/&gt;, they are created by a user in the wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T094607Z" creationid="Марианна" creationdate="20200924T065416Z">
+        <seg>Primarily, there are no input and output &lt;x1/&gt;ports&lt;x2/&gt;, they are created by a user in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
