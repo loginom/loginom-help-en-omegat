@@ -4608,6 +4608,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сравниваемое значение&lt;x2/&gt; — значение, с которым будет сравниваться выбранный объект.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T075629Z" creationid="Марианна" creationdate="20200924T075629Z">
+        <seg>&lt;x1/&gt;Compared value&lt;x2/&gt; is a value with which the selected object will be compared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ссылка на пакет&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185240Z" creationid="Марианна" creationdate="20200810T183233Z">
@@ -5036,6 +5044,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205825Z" creationid="Марианна" creationdate="20200921T205825Z">
         <seg>&lt;x1/&gt;Condition&lt;x2/&gt; Condition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие&lt;x2/&gt; — выбор метода сравнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T075536Z" creationid="Марианна" creationdate="20200924T075536Z">
+        <seg>&lt;x1/&gt;Condition&lt;x2/&gt; provides selection of the comparison method.</seg>
       </tuv>
     </tu>
     <tu>
