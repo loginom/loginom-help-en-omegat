@@ -40,7 +40,7 @@ It is not allowed to run the handlers in the loop that have been created on the 
    * **Fixed group count**: the source data set will be divided to the given count of groups. This count is set by the "Group count" parameter. If the count of groups is not in multiples of the row count in the source data set, the row count will be different in some groups, and they will be uniformly distributed among other groups.
    * **Grouping by the unique fields values**: it is required to select the listed fields of the source data set that enable to set the unique identifier of the row group. The row count will be equal to the count of the unique identifiers.
 
-**Parallel processing** is used to speed up calculations duting the loop operation. Thread count is defined by the "Maximum thread count" parameter. Parallel processing is not supported by the postcondition loop.
+**Parallel processing** is used to speed up calculations during the loop operation. Thread count is defined by the "Maximum thread count" parameter. Parallel processing is not supported by the postcondition loop.
 
 > **Important**: in some cases parallel processing is not allowed. For example, if access to the data source that does not support parallel requests is required for each iteration.
 
