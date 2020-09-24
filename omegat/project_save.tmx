@@ -2206,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить ветвь&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавить новую ветвь условия;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T073844Z" creationid="Марианна" creationdate="20200924T073844Z">
+        <seg>&lt;x1/&gt;Add branch&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new condition branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить факт&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065854Z" creationid="Марианна" creationdate="20200812T065854Z">
@@ -3574,6 +3582,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить ветвь вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt;, &lt;x5/&gt;Переместить ветвь вверх&lt;x6/&gt; &lt;x7/&gt;Переместить вверх&lt;x8/&gt; — установить приоритет выделенной ветви путем её смещения относительно других ветвей;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T074037Z" creationid="Марианна" creationdate="20200924T074037Z">
+        <seg>&lt;x1/&gt;Move branch down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move branch up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt; enable to prioritise the selected branch by its moving relative to other branches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — перемещает выделенный элемент вниз по списку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203440Z" creationid="Марианна" creationdate="20200829T203440Z">
@@ -4548,6 +4564,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T155300Z" creationid="Марианна" creationdate="20200824T154929Z">
         <seg>&lt;x1/&gt;List &lt;x2/&gt;Tables/Views&lt;x3/&gt;&lt;x4/&gt;. The data source tables and views available for import are selected from the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Список ветвей условия&lt;x2/&gt; — содержит варианты дальнейшего выполнения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T073745Z" creationid="Марианна" creationdate="20200924T073745Z">
+        <seg>&lt;x1/&gt;Condition branch list&lt;x2/&gt; contains options of the further workflow execution.</seg>
       </tuv>
     </tu>
     <tu>
