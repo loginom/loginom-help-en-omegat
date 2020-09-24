@@ -1774,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Все ветви&lt;x2/&gt; — активирует выполнение всех ветвей, в том числе ветвь &lt;x3/&gt;Иначе&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T084708Z" creationid="Марианна" creationdate="20200924T084708Z">
+        <seg>&lt;x1/&gt;All branches&lt;x2/&gt; enables to activate execution of all branches, including &lt;x3/&gt;Otherwise&lt;x4/&gt; branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входное дерево данных&lt;x2/&gt; Дерево данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145235Z" creationid="Марианна" creationdate="20200920T145235Z">
@@ -2562,6 +2570,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
         <seg>&lt;x1/&gt;Name&lt;x2/&gt; is a Package file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Иначе&lt;x2/&gt; — активирует выполнение только ветви &lt;x3/&gt;Иначе&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T084802Z" creationid="Марианна" creationdate="20200924T084802Z">
+        <seg>&lt;x1/&gt;Otherwise&lt;x2/&gt; enables to activate execution of only &lt;x3/&gt;Otherwise&lt;x4/&gt; branch.</seg>
       </tuv>
     </tu>
     <tu>
