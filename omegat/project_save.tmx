@@ -1782,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — набор переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T065759Z" creationid="Марианна" creationdate="20200924T065759Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; — a set of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; Переменные (необязательный порт);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145050Z" creationid="Марианна" creationdate="20200920T145050Z">
@@ -7982,6 +7990,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка списка условий при этом не требуется, так как в компонент ещё не передана структура входных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T065654Z" creationid="Марианна" creationdate="20200924T065654Z">
+        <seg>It is not required to configure the condition list, as the input data structure has not been transferred to the component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка узла импорта</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104354Z" creationid="Марианна" creationdate="20200711T104354Z">
@@ -8934,6 +8950,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порты могут быть следующих типов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T065713Z" creationid="Марианна" creationdate="20200924T065713Z">
+        <seg>There are the following types of ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102924Z" creationid="Марианна" creationdate="20200716T093406Z">
@@ -9274,6 +9298,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T222322Z" creationid="Марианна" creationdate="20200829T222322Z">
         <seg>When this flag is absent, the field will get the &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt; name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При первоначальной настройке достаточно добавить входные порты и сохранить настройки компонента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T065528Z" creationid="Марианна" creationdate="20200924T065528Z">
+        <seg>It is sufficient to add input ports and save the component settings for initial setup.</seg>
       </tuv>
     </tu>
     <tu>
