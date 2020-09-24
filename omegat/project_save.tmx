@@ -2432,8 +2432,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ИЛИ&lt;x2/&gt; — связываемые условия дадут значение "истина", если истинно хотя бы одно из них.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T082655Z" creationid="Марианна" creationdate="20200924T082655Z">
-        <seg>&lt;x1/&gt;OR&lt;x2/&gt;: the connected conditions will have the "true" value if at least one contition is true.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200924T095321Z" creationid="Марианна" creationdate="20200924T082655Z">
+        <seg>&lt;x1/&gt;OR&lt;x2/&gt;: the connected conditions will have the "true" value if at least one condition is true.</seg>
       </tuv>
     </tu>
     <tu>
