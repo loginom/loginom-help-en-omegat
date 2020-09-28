@@ -7288,8 +7288,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Запятая;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T162018Z" creationid="Марианна" creationdate="20200917T162018Z">
-        <seg>Comma;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062850Z" creationid="Марианна" creationdate="20200917T162018Z">
+        <seg>Comma</seg>
       </tuv>
     </tu>
     <tu>
@@ -9816,8 +9816,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Пробел;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T162000Z" creationid="Марианна" creationdate="20200917T162000Z">
-        <seg>Space;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062846Z" creationid="Марианна" creationdate="20200917T162000Z">
+        <seg>Space</seg>
       </tuv>
     </tu>
     <tu>
@@ -10064,8 +10064,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Символ табуляции;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T161934Z" creationid="Марианна" creationdate="20200917T161934Z">
-        <seg>Tab character;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062841Z" creationid="Марианна" creationdate="20200917T161934Z">
+        <seg>Tab character</seg>
       </tuv>
     </tu>
     <tu>
@@ -10528,16 +10528,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Точка с запятой;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T161947Z" creationid="Марианна" creationdate="20200917T161947Z">
-        <seg>Semicolumn;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062844Z" creationid="Марианна" creationdate="20200917T161947Z">
+        <seg>Semicolumn</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Точка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T162022Z" creationid="Марианна" creationdate="20200917T162022Z">
-        <seg>Dot mark.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062854Z" creationid="Марианна" creationdate="20200917T162022Z">
+        <seg>Dot mark</seg>
       </tuv>
     </tu>
     <tu>
