@@ -17,18 +17,18 @@ The component is configured in two steps:
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * *Delimiters* group of parameters:
    * **Text qualifier** is a character that frames cell data of the data set. The following characters can be used as text qualifiers:
-      * Double quotation mark (");
-      * Single quotation mark (');
-      * Backquote mark (`).
+      * Double quotation mark (")
+      * Single quotation mark (')
+      * Backquote mark (`)
 
       Double quotation mark (") is used by default.
 
    * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions. Dot mark (.) or comma (,) can be used as delimiters.
 
    * **Date separator** is a character that separates date components. Available delimiters:
-      * Dot mark (.);
-      * Slash (/);
-      * Back slash (&#92;).
+      * Dot mark (.)
+      * Slash (/)
+      * Back slash (&#92;)
 
    * **Time separator** is a character that separates time components. Colon (:) or dot mark (.) can be used as delimiters.
 
@@ -66,11 +66,11 @@ The component is configured in two steps:
 * *Columns View* group of parameters:
    * **Data format** enables to select one of the following options:
       * **With separators**: this option means values of fields in the source file that are separated by the character set by the *Column delimiter* parameter. The value of this parameter is selected from the list:
-         * Tab character;
-         * Semicolumn;
-         * Space;
-         * Comma;
-         * Dot mark.
+         * Tab character
+         * Semicolumn
+         * Space
+         * Comma
+         * Dot mark
       * **Fixed width**: fields in the source file have the set width.
 * **Codepage** means encoding used for storage of text. There are the following available options:
    * ANSI/Windows(0);
@@ -82,6 +82,6 @@ The component is configured in two steps:
    * UTF-16 BE (1201).
 
 * **Header Row** enables to select the method used for setting of columns name in the exported file:
-   * Captions of columns (fields): Captions of fields will be used as headers of columns.
-   * Names of columns (fields): Names of fields will be used as headers of columns.
+   * Captions of columns (fields): captions of fields will be used as headers of columns.
+   * Names of columns (fields): names of fields will be used as headers of columns.
    * No header row: columns will be exported without headers.
