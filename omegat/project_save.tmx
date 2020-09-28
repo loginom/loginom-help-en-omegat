@@ -344,8 +344,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T210259Z" creationid="Марианна" creationdate="20200823T121119Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of wizard parameters using variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T054902Z" creationid="Марианна" creationdate="20200823T121119Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
