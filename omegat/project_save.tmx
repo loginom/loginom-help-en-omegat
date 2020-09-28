@@ -1088,8 +1088,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;LZO&lt;x2/&gt; (рекомендуется, используется по умолчанию).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T195650Z" creationid="Марианна" creationdate="20200916T195650Z">
-        <seg>&lt;x1/&gt;LZO&lt;x2/&gt; (it is recommended and used by default).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T060606Z" creationid="Марианна" creationdate="20200916T195650Z">
+        <seg>&lt;x1/&gt;LZO&lt;x2/&gt; (it is recommended and used by default)</seg>
       </tuv>
     </tu>
     <tu>
