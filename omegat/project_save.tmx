@@ -3272,8 +3272,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Обновить существующие записи в таблице&lt;x2/&gt; — позволяет выбрать ключевое поле, по которому будет происходить обновление записей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T112624Z" creationid="Марианна" creationdate="20200916T112624Z">
-        <seg>&lt;x1/&gt;Update existing table records&lt;x2/&gt; enables to select a key field by which records will be updated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T055322Z" creationid="Марианна" creationdate="20200916T112624Z">
+        <seg>&lt;x1/&gt;Update existing table records&lt;x2/&gt; enables to select the key field by which records will be updated.</seg>
       </tuv>
     </tu>
     <tu>
