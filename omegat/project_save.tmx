@@ -7680,8 +7680,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Кнопка &lt;x3/&gt;&lt;x4/&gt;Создать таблицу&lt;x5/&gt;&lt;x6/&gt; открывает окно создания новой таблицы в БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T111346Z" creationid="Марианна" creationdate="20200916T111346Z">
-        <seg>&lt;x3/&gt;&lt;x4/&gt;Create table&lt;x5/&gt;&lt;x6/&gt; button enables to open the window of the new table creation in DB.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T055105Z" creationid="Марианна" creationdate="20200916T111346Z">
+        <seg>&lt;x3/&gt;&lt;x4/&gt;Create table&lt;x5/&gt;&lt;x6/&gt; button enables to open the window for the new table creation in DB.</seg>
       </tuv>
     </tu>
     <tu>
