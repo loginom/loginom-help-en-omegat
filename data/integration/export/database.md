@@ -1,8 +1,8 @@
-# ![ ](../../images/icons/data-sources/db-database-export_default.svg) Export to Database
+# ,![ ](../../images/icons/data-sources/db-database-export_default.svg) Export to Database
 
 The handler exports the initial data set to database.
 
-> **Important:** For the node operation, it is required to pre-create [connection](../connections/README.md) to database and connect it with the *Connection* input port. [Example of DB connection and operation](../../quick-start/database.md).
+> **Important:** For the node operation, it is required to pre-create [connection](../connections/README.md) to database and connect it with the *Connection* input port. [Example of the DB connection and operation](../../quick-start/database.md).
 
 ### Input
 
