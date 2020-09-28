@@ -13,8 +13,8 @@ The handler exports the initial data set to database.
 ## Wizard
 
 * **Database** enables to display a string of connection to database. *Activate* button makes this connection active.
-* **Table name** enables to set a name of the table to which it is planned to export data. This table can be selected from the list of the database tables. [*Create table*](./database/new-table-design.md) button enables to open the window of the new table creation in DB.
-* **Export type** enables to select one of the variants.
+* **Table name** enables to set a name of the table to which it is planned to export data. This table can be selected from the list of the database tables. [*Create table*](./database/new-table-design.md) button enables to open the window for the new table creation in DB.
+* **Export type** enables to select one of the options.
    * **Append data to table** enables to append rows from the source table to the selected database table.
    * **Clear table and fill in data** enables to clear the database table completely and fill in with rows of the exported table.
    * **Delete records by key fields** enables to select a key field by which records will be deleted from the database table at the next stage - *Adjustment of Columns Mapping*. In this case, export as such is not performed.
