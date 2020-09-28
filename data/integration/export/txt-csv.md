@@ -5,7 +5,7 @@ It is designated for export of the data set to the text file. It is possible to 
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source is a data table to be exported.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
 ## Wizard
 

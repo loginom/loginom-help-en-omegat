@@ -8,11 +8,11 @@ The handler exports the initial data set to database.
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection is a port for connection to database.
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source is a data table to be exported to database.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
 ## Wizard
 
-* **Database** enables to display a string of connection to database. The *Activate* button makes this connection active.
+* **Database** enables to display a string of connection to database. *Activate* button makes this connection active.
 * **Table name** enables to set a name of the table to which it is planned to export data. This table can be selected from the list of the database tables. [*Create table*](./database/new-table-design.md) button enables to open the window of the new table creation in DB.
 * **Export type** enables to select one of the variants.
    * **Append data to table** enables to append rows from the source table to the selected database table.
