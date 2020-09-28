@@ -6736,8 +6736,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Двойная кавычка(");</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T151751Z" creationid="Марианна" creationdate="20200917T151727Z">
-        <seg>Double quotation mark (");</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062605Z" creationid="Марианна" creationdate="20200917T151727Z">
+        <seg>Double quotation mark (")</seg>
       </tuv>
     </tu>
     <tu>
@@ -8552,16 +8552,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Обратная кавычка (`).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T151815Z" creationid="Марианна" creationdate="20200917T151815Z">
-        <seg>Backquote mark (`).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062617Z" creationid="Марианна" creationdate="20200917T151815Z">
+        <seg>Backquote mark (`)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Обратный слэш (&amp;#92;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152320Z" creationid="Марианна" creationdate="20200917T152320Z">
-        <seg>Back slash (&amp;#92;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062649Z" creationid="Марианна" creationdate="20200917T152320Z">
+        <seg>Back slash (&amp;#92;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8576,8 +8576,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Одинарная кавычка (');</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T151747Z" creationid="Марианна" creationdate="20200917T151747Z">
-        <seg>Single quotation mark (');</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062610Z" creationid="Марианна" creationdate="20200917T151747Z">
+        <seg>Single quotation mark (')</seg>
       </tuv>
     </tu>
     <tu>
@@ -10104,8 +10104,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Слэш (/);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152308Z" creationid="Марианна" creationdate="20200917T152308Z">
-        <seg>Slash (/);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062640Z" creationid="Марианна" creationdate="20200917T152308Z">
+        <seg>Slash (/)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10520,8 +10520,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Точка (.);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152255Z" creationid="Марианна" creationdate="20200917T152255Z">
-        <seg>Dot mark (.);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T062635Z" creationid="Марианна" creationdate="20200917T152255Z">
+        <seg>Dot mark (.)</seg>
       </tuv>
     </tu>
     <tu>
