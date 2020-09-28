@@ -5654,8 +5654,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>SQL-запрос.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T164113Z" creationid="Марианна" creationdate="20200916T164113Z">
-        <seg>SQL query.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T055726Z" creationid="Марианна" creationdate="20200916T164113Z">
+        <seg>SQL query</seg>
       </tuv>
     </tu>
     <tu>
