@@ -7712,8 +7712,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Кнопка-переключатель в состоянии фильтра &lt;x3/&gt; &lt;x4/&gt; предоставляет в окне выбора только те поля, которые еще не связаны с какими-либо элементами, а в простом состоянии &lt;x5/&gt; &lt;x6/&gt; предоставляет к выбору все поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T100036Z" creationid="Марианна" creationdate="20200918T100036Z">
-        <seg>Switch button in the state of the &lt;x3/&gt; &lt;x4/&gt; filter displays in the selection window only the fields that are not linked to any elements yet, and in the common &lt;x5/&gt; &lt;x6/&gt; state it dispalys all fields for selection.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T063839Z" creationid="Марианна" creationdate="20200918T100036Z">
+        <seg>Switch button in the state of &lt;x3/&gt; &lt;x4/&gt; filter displays in the selection window only the fields that are not linked to any elements yet, and in the common &lt;x5/&gt; &lt;x6/&gt; state it dispalys all fields for selection.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7808,8 +7808,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Компонент предназначен для экспорта таблиц данных в файлы формата XML.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T085403Z" creationid="Марианна" creationdate="20200918T085403Z">
-        <seg>The component is designated for data tables export to the XML files.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T063833Z" creationid="Марианна" creationdate="20200918T085403Z">
+        <seg>The component is designated for the data tables export to the XML files.</seg>
       </tuv>
     </tu>
     <tu>
