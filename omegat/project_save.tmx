@@ -7688,8 +7688,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Кнопка &lt;x3/&gt;Активировать&lt;x4/&gt; делает активным это подключение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T111003Z" creationid="Марианна" creationdate="20200916T111003Z">
-        <seg>The &lt;x3/&gt;Activate&lt;x4/&gt; button makes this connection active.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T054940Z" creationid="Марианна" creationdate="20200916T111003Z">
+        <seg>&lt;x3/&gt;Activate&lt;x4/&gt; button makes this connection active.</seg>
       </tuv>
     </tu>
     <tu>
