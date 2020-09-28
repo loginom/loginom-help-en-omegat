@@ -536,8 +536,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в базу данных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T110334Z" creationid="Марианна" creationdate="20200916T110334Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Export to Database</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T054801Z" creationid="Марианна" creationdate="20200916T110334Z">
+        <seg>,&lt;x1/&gt; &lt;x2/&gt; Export to Database</seg>
       </tuv>
     </tu>
     <tu>
@@ -5442,8 +5442,8 @@
       <tuv lang="ru">
         <seg>&lt;x7/&gt;Пример подключения и работы с БД&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T110700Z" creationid="Марианна" creationdate="20200824T154517Z">
-        <seg>&lt;x7/&gt;Example of DB connection and operation&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T054811Z" creationid="Марианна" creationdate="20200824T154517Z">
+        <seg>&lt;x7/&gt;Example of the DB connection and operation&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
