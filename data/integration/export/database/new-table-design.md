@@ -2,7 +2,7 @@
 
 This window has two tabs:
 * Settings
-* SQL query.
+* SQL query
 
 %spoiler%Example of filling in:%spoiler%
 
@@ -35,6 +35,6 @@ The following buttons are used to edit the list of fields :
 * ![](../../../images/icons/toolbar-controls/autosync_default.svg) sets the list and parameters of fields as in the table connected to the input port of the handler;
 * ![](../../../images/icons/toolbar-controls/delete-all_default.svg) deletes all fields in the new table.
 
-## SQL query
+## SQL Query
 
 This tab enables to view the SQL query type defining the table structure. <br>
