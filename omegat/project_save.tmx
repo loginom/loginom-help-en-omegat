@@ -4930,8 +4930,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип экспорта&lt;x2/&gt; — задается выбором одного из вариантов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T111424Z" creationid="Марианна" creationdate="20200916T111424Z">
-        <seg>&lt;x1/&gt;Export type&lt;x2/&gt; enables to select one of the variants.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200928T055152Z" creationid="Марианна" creationdate="20200916T111424Z">
+        <seg>&lt;x1/&gt;Export type&lt;x2/&gt; enables to select one of the options.</seg>
       </tuv>
     </tu>
     <tu>
