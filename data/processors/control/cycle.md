@@ -42,7 +42,7 @@ It is not allowed to run the handlers in the loop that have been created on the 
 
 **Parallel processing** is used to speed up calculations during the loop operation. Thread count is defined by the "Maximum thread count" parameter. Parallel processing is not supported by the postcondition loop.
 
-> **Important**: in some cases parallel processing is not allowed. For example, if access to the data source that does not support parallel requests is required for each iteration.
+> **Important**: In some cases parallel processing is not allowed. For example, if access to the data source that does not support parallel requests is required for each iteration.
 
 **Add iteration identifiers**: the flag enables to add the "Iteration identifier" field to the output table where the number of the iteration at which the row has been created is specified for each row.
 
