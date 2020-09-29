@@ -6616,8 +6616,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Все созданные дочерние узлы можно удалить нажав на кнопку &lt;x7/&gt;Удалит все...&lt;x8/&gt;&lt;x9/&gt;Удалить все...&lt;x10/&gt; (комбинация горячих клавиш &lt;x11/&gt;Shift+Delete&lt;x12/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T195704Z" creationid="Марианна" creationdate="20200929T195704Z">
-        <seg>It is possible to delete all created child nodes by pressing &lt;x7/&gt;Удалит все...&lt;x8/&gt;&lt;x9/&gt;Удалить все...&lt;x10/&gt; (комбинация горячих клавиш &lt;x11/&gt;Shift+Delete&lt;x12/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T195738Z" creationid="Марианна" creationdate="20200929T195704Z">
+        <seg>It is possible to delete all created child nodes by pressing &lt;x7/&gt;Delete all...&lt;x8/&gt;&lt;x9/&gt;Delete all...&lt;x10/&gt; button (hot keys combination - &lt;x11/&gt;Shift+Delete&lt;x12/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
