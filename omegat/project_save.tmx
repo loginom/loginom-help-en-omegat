@@ -1798,6 +1798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных в виде таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T102902Z" creationid="Марианна" creationdate="20200929T102902Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a port for connection of the input data set in the form of a table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065841Z" creationid="Марианна" creationdate="20200924T065841Z">
@@ -1978,6 +1986,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145414Z" creationid="Марианна" creationdate="20200920T145414Z">
         <seg>&lt;x1/&gt;Output data tree&lt;x2/&gt; Data tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной источник данных&lt;x4/&gt; — порт, отдающий данные после их преобразования в древовидную форму.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T103120Z" creationid="Марианна" creationdate="20200929T103120Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a port providing data after their transformation to the tree-like form.</seg>
       </tuv>
     </tu>
     <tu>
