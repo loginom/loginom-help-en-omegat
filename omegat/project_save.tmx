@@ -11072,8 +11072,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Удалить дочерний узел можно нажав на иконку &lt;x1/&gt;Удалить&lt;x2/&gt;&lt;x3/&gt;Удалить&lt;x4/&gt; (горячая клавиша &lt;x5/&gt;Delete&lt;x6/&gt;), которая находится с правой части строки дочернего узла и видна при наведении курсора на строку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T195535Z" creationid="Марианна" creationdate="20200929T195535Z">
-        <seg>To delete a child node, it is required to press &lt;x1/&gt;Delete&lt;x2/&gt;&lt;x3/&gt;Delete&lt;x4/&gt; (&lt;x5/&gt;Delete&lt;x6/&gt; hot key) that is located in the right part of the child node string, and it is visible only when .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T195601Z" creationid="Марианна" creationdate="20200929T195535Z">
+        <seg>To delete a child node, it is required to press &lt;x1/&gt;Delete&lt;x2/&gt;&lt;x3/&gt;Delete&lt;x4/&gt; (&lt;x5/&gt;Delete&lt;x6/&gt; hot key) that is located in the right part of the child node string, and it is visible only when cursor hovering over the string.</seg>
       </tuv>
     </tu>
     <tu>
