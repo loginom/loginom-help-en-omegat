@@ -7030,6 +7030,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы создать иерархическую структуру необходимо в корневой папке добавить хотя бы один дочерний узел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T103903Z" creationid="Марианна" creationdate="20200929T103903Z">
+        <seg>To create the hierarchic structure, it is required to add at least one child node in the root folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для удобства навигации в дереве отдельно представлены узлы текущего модуля и все доступные для ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101838Z" creationid="Марианна" creationdate="20200919T101838Z">
@@ -7442,6 +7450,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T144739Z" creationid="Марианна" creationdate="20200920T144739Z">
         <seg>Initially, there are no input and output ports. They are created by users in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изначально на правом поле доступен только один корневой каталог — &lt;x1/&gt;Root&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T103701Z" creationid="Марианна" creationdate="20200929T103701Z">
+        <seg>Primarily, only one root directory is available in the right field - &lt;x1/&gt;Root&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10930,6 +10946,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111908Z" creationid="Марианна" creationdate="20200717T111908Z">
         <seg>It can be done in the Package menu (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это можно сделать двумя способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T103935Z" creationid="Марианна" creationdate="20200929T103935Z">
+        <seg>It can be done in two ways:</seg>
       </tuv>
     </tu>
     <tu>
