@@ -1718,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;видов данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110842Z" creationid="Марианна" creationdate="20200929T110842Z">
+        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data kinds&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид цикла&lt;x2/&gt; — определение логики работы цикла, задается радиокнопкой:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195513Z" creationid="Марианна" creationdate="20200921T195513Z">
@@ -3058,6 +3066,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192450Z" creationid="Марианна" creationdate="20200825T192450Z">
         <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the user field description is provided.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — произвольное описание поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110747Z" creationid="Марианна" creationdate="20200929T110747Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; denotes a random field description.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4956,6 +4972,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192548Z" creationid="Марианна" creationdate="20200825T192548Z">
         <seg>&lt;x1/&gt;Data type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt;: the text field value will be transformed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;типов данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110815Z" creationid="Марианна" creationdate="20200929T110815Z">
+        <seg>&lt;x1/&gt;Data type&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
