@@ -7886,6 +7886,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопка &lt;x1/&gt;Сгенерировать дочерние элементы&lt;x2/&gt; &lt;x3/&gt;Сгенерировать дочерние элементы&lt;x4/&gt; раскрывает рекурсивный узел (добавляет все подузлы рекурсивного узла в дерево данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T191532Z" creationid="Марианна" creationdate="20200929T191532Z">
+        <seg>&lt;x1/&gt;Generate child elements&lt;x2/&gt; &lt;x3/&gt;Generate child elements&lt;x4/&gt; button opens the recursive node (it adds all subnodes of the recursive node to the data tree).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кнопка &lt;x3/&gt; &lt;x4/&gt; вызывает диалог выбора файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062758Z" creationid="Марианна" creationdate="20200826T062758Z">
@@ -9646,6 +9654,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После заполнения всех полей необходимо нажать кнопку &lt;x1/&gt;Загрузить&lt;x2/&gt; и XSD схема будет загружена для дальнейшей работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T191354Z" creationid="Марианна" creationdate="20200929T191354Z">
+        <seg>After filling in all the fields it is required to press &lt;x1/&gt;Load&lt;x2/&gt; button, and the XSD schema will be loaded for further work.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После запуска Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161832Z" creationid="Марианна" creationdate="20200818T161832Z">
@@ -9858,6 +9874,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161059Z" creationid="Марианна" creationdate="20200917T161059Z">
         <seg>When filling in these parameters, it is possible to use the listed format options, or to set the &lt;x1/&gt;user format&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При значении 0 все рекурсивные узлы не будут раскрыты автоматически</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T191136Z" creationid="Марианна" creationdate="20200929T191136Z">
+        <seg>In the case of 0 value recursive nodes won't be automatically opened.</seg>
       </tuv>
     </tu>
     <tu>
