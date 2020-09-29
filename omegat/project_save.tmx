@@ -10606,6 +10606,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Созданные дочерние узлы можно расположить в удобном для себя порядке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T194422Z" creationid="Марианна" creationdate="20200929T194422Z">
+        <seg>The created child nodes can be located in any convenient order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Созданные связи между узлами можно удалять.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T193348Z" creationid="Марианна" creationdate="20200929T193348Z">
@@ -11354,6 +11362,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111543Z" creationid="Марианна" creationdate="20200825T111543Z">
         <seg>As &lt;x1/&gt;parameter&lt;x2/&gt;: a defined value is set for the variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>второй вариант — непосредственно щелкнуть левой кнопкой мыши на связь, которую необходимо удалить, и нажать на кнопку &lt;x13/&gt;Удалить связь&lt;x14/&gt; удаления связи (&lt;x15/&gt;Удалить связь&lt;x16/&gt; при наведении на нее курсора).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T194351Z" creationid="Марианна" creationdate="20200929T194351Z">
+        <seg>The second option is to left-click the link to be deleted, and press &lt;x13/&gt;Delete link&lt;x14/&gt; button to delete the link (&lt;x15/&gt;Delete link&lt;x16/&gt; when cursor hovering).</seg>
       </tuv>
     </tu>
     <tu>
