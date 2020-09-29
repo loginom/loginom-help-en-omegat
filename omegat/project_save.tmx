@@ -10662,6 +10662,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также это можно сделать командой контекстного меню &lt;x3/&gt;Редактировать...&lt;x4/&gt; &lt;x5/&gt;Редактировать...&lt;x6/&gt;, либо, выделив необходимый узел, нажать на кнопку &lt;x7/&gt;Редактировать...&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T122012Z" creationid="Марианна" creationdate="20200929T122012Z">
+        <seg>It also can be done using the following contex menu command: &lt;x3/&gt;Edit...&lt;x4/&gt; &lt;x5/&gt;Edit...&lt;x6/&gt;, or you can select the required node and press &lt;x7/&gt;Edit...&lt;x8/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также, нажав на клавишу &lt;x1/&gt;Список подобъектов&lt;x2/&gt; можно перейти к подобъектам составного объекта (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084758Z" creationid="Марианна" creationdate="20200814T084134Z">
