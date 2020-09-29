@@ -8862,6 +8862,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первый узел дерева называется корнем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T083330Z" creationid="Марианна" creationdate="20200929T083330Z">
+        <seg>The first tree node is called a root.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед закрытием пакета его необходимо &lt;x1/&gt;сохранить&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114439Z" creationid="Марианна" creationdate="20200717T111846Z">
