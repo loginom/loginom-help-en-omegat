@@ -11094,6 +11094,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>также &lt;x1/&gt;Веб-сервисы&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T085306Z" creationid="Марианна" creationdate="20200929T085306Z">
+        <seg>&lt;x1/&gt;Web Services&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>тип</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112812Z" creationid="Марианна" creationdate="20200825T112812Z">
