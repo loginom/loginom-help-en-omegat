@@ -510,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Таблица в дерево</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T085542Z" creationid="Марианна" creationdate="20200929T085542Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Table to Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в Excel-файл</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T171045Z" creationid="Марианна" creationdate="20200916T171045Z">
