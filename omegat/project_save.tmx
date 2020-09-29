@@ -6016,6 +6016,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аналогичные команды есть и в контекстном меню каждого узла в правом окне (корневой узел &lt;x13/&gt;Root&lt;x14/&gt; переместить нельзя).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T194918Z" creationid="Марианна" creationdate="20200929T194918Z">
+        <seg>There are similar commands in the context menu of each node in the right window (it is not possible to move &lt;x13/&gt;Root&lt;x14/&gt; root node).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Астра-инфо</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112947Z" creationid="Марианна" creationdate="20200825T112947Z">
