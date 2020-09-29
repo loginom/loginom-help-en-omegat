@@ -7438,6 +7438,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если не загружена XSD схема (не выполнялось действие "Загрузить из XSD...") или загруженное дерево не содержит рекурсивных узлов то кнопка скрыта/неактивна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T191929Z" creationid="Марианна" creationdate="20200929T191929Z">
+        <seg>If the XSD schema has not been loaded ("Load from XSD..." operation has not been performed), or the loaded tree does not include recursive nodes, the button is concealed/inactive.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
@@ -7890,6 +7898,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T191532Z" creationid="Марианна" creationdate="20200929T191532Z">
         <seg>&lt;x1/&gt;Generate child elements&lt;x2/&gt; &lt;x3/&gt;Generate child elements&lt;x4/&gt; button opens the recursive node (it adds all subnodes of the recursive node to the data tree).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопка &lt;x1/&gt;Следующий рекурсивный нераскрытый узел&lt;x2/&gt; &lt;x3/&gt;Следующий рекурсивный нераскрытый узел&lt;x4/&gt; выбирает текущим узлом следующий рекурсивный нераскрытый узел после текущего выбранного узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T192201Z" creationid="Марианна" creationdate="20200929T192201Z">
+        <seg>The &lt;x1/&gt;Next recursive unopened node&lt;x2/&gt; &lt;x3/&gt;Next recursive unopened node&lt;x4/&gt; button enables to select the next recursive unopened node as the current node after the current selected node.</seg>
       </tuv>
     </tu>
     <tu>
