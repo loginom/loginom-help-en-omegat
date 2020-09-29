@@ -7160,8 +7160,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Древовидные данные можно передавать на вход и выход обработчиков (аналогично набору данных и переменным) через порт соответствующего типа, а также передавать в опубликованный пакет через Интегратор (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T085225Z" creationid="Марианна" creationdate="20200929T085225Z">
-        <seg>The tree-like data can be passed to input and output of handlers (similar to data set and variables) through the corresponding port, and also to the published package through Integrator (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T085316Z" creationid="Марианна" creationdate="20200929T085225Z">
+        <seg>The tree-like data can be passed to input and output of handlers (similar to data set and variables) through the corresponding port, and also to the published package through Integrator (also refer to</seg>
       </tuv>
     </tu>
     <tu>
