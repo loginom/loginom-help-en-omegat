@@ -2934,6 +2934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого узла из списка в загруженном *.xsd-файле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T190158Z" creationid="Марианна" creationdate="20200929T190158Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; enables selection of the root node from the list in the loaded xsd file*.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут импортироваться.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T215602Z" creationid="Марианна" creationdate="20200829T215602Z">
@@ -9306,6 +9314,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T190024Z" creationid="Марианна" creationdate="20200929T190024Z">
         <seg>&lt;x3/&gt;All namespaces&lt;x4/&gt; value is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию выставляется значение первого корневого узла выбранного файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T190300Z" creationid="Марианна" creationdate="20200929T190300Z">
+        <seg>Value of the first root node of the selected file is set by default.</seg>
       </tuv>
     </tu>
     <tu>
