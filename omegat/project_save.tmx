@@ -11240,8 +11240,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Чтобы сбросить параметры фильтрации или поиска нужно воспользоваться кнопкой &lt;x1/&gt;Очистить&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T195310Z" creationid="Марианна" creationdate="20200929T195310Z">
-        <seg>To reset the filter or search settins, it is required to use &lt;x1/&gt;Clean&lt;x2/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T195322Z" creationid="Марианна" creationdate="20200929T195310Z">
+        <seg>To reset the filter or search settings, it is required to use &lt;x1/&gt;Clean&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
