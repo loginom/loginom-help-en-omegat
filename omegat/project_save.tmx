@@ -7134,6 +7134,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого можно воспользоваться горячей клавишей &lt;x1/&gt;F2&lt;x2/&gt;, предварительно выделив нужный узел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T121758Z" creationid="Марианна" creationdate="20200929T121758Z">
+        <seg>For this purpose, it is possible to use &lt;x1/&gt;F2&lt;x2/&gt; hot key. First, you are to select the required node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого на вкладке &lt;x3/&gt;SQL запрос&lt;x4/&gt; задается текст запроса к базе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111009Z" creationid="Марианна" creationdate="20200825T111009Z">
