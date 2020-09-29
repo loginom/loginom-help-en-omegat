@@ -1,10 +1,10 @@
 # Параметры поля набора данных
 
-* **Имя** — уникальное наименование столбца в рамках одного набора данных. Может состоять из:
-   * Заглавных или строчных латинских букв;
-   * Символов подчеркивания;
-   * Цифр (не может быть первым символом).
-* **Метка** — произвольное описание поля.
-* **Тип данных** — один из возможных [типов данных](./datatype.md).
-* **Вид данных** — один из возможных [видов данных](./datakind.md).
+* **Name** denotes a unique column name for one data set. It can consist of the following characters:
+   * Capital or low case Latin characters.
+   * Underscore characters.
+   * Digits (it cannot be the first character).
+* **Caption** denotes a random field description.
+* **Data type** denotes one of the possible [data types](./datatype.md).
+* **Data kind** denotes one of the possible [data kinds](./datakind.md).
 * **Назначение** — для ряда обработчиков обязательно к заполнению при настройке входного порта. Перечень назначений, которые может принимать параметр, индивидуален для каждого обработчика. Задает функциональность данных столбца в контексте выполняемого обработчиком алгоритма.

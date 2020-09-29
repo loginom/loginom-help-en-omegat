@@ -1,43 +1,43 @@
-# ![ ](../../images/icons/components/data-to-tree_default.svg) Таблица в дерево
+# ![ ](../../images/icons/components/data-to-tree_default.svg) Table to Tree
 
-Узел **Таблица в дерево** преобразует исходные данные, представленные в виде плоской (двумерной) таблицы, в иерархическую (древовидную) форму. Количество уровней вложенности при этом не ограничено.
+The **Table to tree** node enables to transform the source data displayed in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form. In this case, the number of the nesting levels is not limited.
 
 ## Ports
 
 ### Input
 
-* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных в виде таблицы.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set in the form of a table.
 
 ### Output
 
-* ![Выходной источник данных](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Выходной источник данных** — порт, отдающий данные после их преобразования в древовидную форму.
+* ![Output data set](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Output data set** denotes a port providing data after their transformation to the tree-like form.
 
 ## Wizard
 
-В окне настройки необходимо настроить соответствие между входными данными, которые находятся слева в поле **Столбцы исходного набора**, и создаваемым деревом данных, которое находится справа в полях **Узел дерева** и **Связанные поля**.
+It is required to configure mapping of the input data that are located leftward in the **Source data set columns** field, and created data tree that is located rightward in the **Tree node** and **Related fields** fields.
 
-Изначально на правом поле доступен только один корневой каталог — **Root**.
+Primarily, only one root directory is available in the right field - **Root**.
 
-Для того, чтобы создать иерархическую структуру необходимо в корневой папке добавить хотя бы один дочерний узел. Это можно сделать двумя способами:
+To create the hierarchic structure, it is required to add at least one child node in the root folder. It can be done in two ways:
 
-1. Выделить корневой узел и с помощью кнопки ![Добавить дочерний узел](../../images/icons/wizards/datatree/add-child_default.svg) добавить дочерний узел
-2. Командой контекстного меню ![Добавить дочерний узел](../../images/icons/wizards/datatree/add-child_default.svg) **Добавить дочерний узел**.
+1. Select the root node and add the child node using the following button: ![Add child node](../../images/icons/wizards/datatree/add-child_default.svg).
+2. Use the context menu command: ![Add child node](../../images/icons/wizards/datatree/add-child_default.svg) **Add child node**.
 
-После этого будет создан дочерний узел, для которого можно определить значение следующих полей:
+Afterwards the child node will be created. It is possible to define value of the following fields for this node:
 
-* **Имя** — уникальное наименование столбца в рамках одного набора данных. Может состоять из:
-   * Заглавных или строчных латинских букв;
-   * Символов подчеркивания;
-   * Цифр (не может быть первым символом).
-* **Метка** — произвольное описание поля.
-* **Тип данных** — один из возможных [типов данных](./../../data/datatype.md).
-* **Вид данных** — один из возможных [видов данных](./../../data/datakind.md).
-* **Массив** — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.
-* **Контейнер** — при указании этого чекбокса выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.
+* **Name** denotes a unique column name for one data set. It can consist of the following characters:
+   * Capital or low case Latin characters.
+   * Underscore characters.
+   * Digits (it cannot be the first character).
+* **Caption** denotes a random field description.
+* **Data type** denotes one of the possible [data types](./../../data/datatype.md).
+* **Data kind** denotes one of the possible [data kinds](./../../data/datakind.md).
+* **Array**: when selecting this checkbox, the selected child node will be defined as ordered set (array) of one data type.
+* **Container**: when selecting this checkbox, the selected child node will be a root node for other created child nodes of different types.
 
-Для дочерних узлов есть возможность создать узлы того же иерархического уровня. Это можно сделать из контекстного меню дочернего узла, выбрав пункт ![Добавить соседний узел](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел**, либо, выделив необходимый узел, нажать на кнопку ![Добавить соседний узел](../../images/icons/wizards/datatree/add-neighbor_default.svg) для создания соседнего узла.
+It is possible to create nodes of the same hierarchic level for child nodes. It can be done using the contex menu of the child node. Select ![Add neighboring node](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node**, or the required node, and press ![Add neighboring node](../../images/icons/wizards/datatree/add-neighbor_default.svg) button to create the neighboring node.
 
-После создания, заданные значения полей для дочернего узла можно поменять. Для этого можно воспользоваться горячей клавишей *F2*, предварительно выделив нужный узел. Также это можно сделать командой контекстного меню ![Редактировать...](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать...**, либо, выделив необходимый узел, нажать на кнопку ![Редактировать...](../../images/icons/toolbar-controls/edit_default.svg).
+Upon creation, it is possible to change the set values of fields for the child node. For this purpose, it is possible to use *F2* hot key. First, you are to select the required node. It also can be done using the following contex menu command: ![Edit...](../../images/icons/toolbar-controls/edit_default.svg) **Edit...**, or you can select the required node and press ![Edit...](../../images/icons/toolbar-controls/edit_default.svg) button.
 
 Кнопкой ![Загрузить из XSD...](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Загрузить из XSD...** можно выбрать файл формата *.xsd, из которого будет загружена выходная структура узлов (также кнопка дублируется командой контекстного меню). В появившемся диалоговом окне будут следующие поля:
 

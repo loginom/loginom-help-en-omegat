@@ -45,12 +45,12 @@
 > **Примечание:** Удалить корневой узел **Root** нельзя.
 
 При выполнении команд ![](../../images/icons/wizards/datatree/add-child_default.svg)  **Добавить дочерний узел**, ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел**, ![](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать...** задаются значения полей:
-* **Имя** — уникальное наименование столбца в рамках одного набора данных. Может состоять из:
-   * Заглавных или строчных латинских букв;
-   * Символов подчеркивания;
-   * Цифр (не может быть первым символом).
-* **Метка** — произвольное описание поля.
-* **Тип данных** — один из возможных [типов данных](./../../data/datatype.md).
+* **Name** denotes a unique column name for one data set. It can consist of the following characters:
+   * Capital or low case Latin characters.
+   * Underscore characters.
+   * Digits (it cannot be the first character).
+* **Caption** denotes a random field description.
+* **Data type** denotes one of the possible [data types](./../../data/datatype.md).
 * **Вид данных** — один из возможных [видов данных](./../../data/datakind.md)
    .
 
