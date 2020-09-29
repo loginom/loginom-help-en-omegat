@@ -2110,6 +2110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Глубина рекурсии&lt;x2/&gt; — максимальное число рекурсий при раскрытии рекурсивных узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T190637Z" creationid="Марианна" creationdate="20200929T190637Z">
+        <seg>&lt;x1/&gt;Recursive depth&lt;x2/&gt; provides the maximum number of recursions when opening recursive nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Горячие клавиши&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054651Z" creationid="Марианна" creationdate="20200812T054651Z">
