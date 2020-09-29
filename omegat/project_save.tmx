@@ -7238,6 +7238,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого необходимо выделить узел, который нужно переместить и нажать на кнопки &lt;x1/&gt;Переместить вверх&lt;x2/&gt;&lt;x3/&gt;Переместить вверх&lt;x4/&gt; (комбинация горячих клавиш &lt;x5/&gt;Ctrl+Up&lt;x6/&gt;) или &lt;x7/&gt;Переместить вниз&lt;x8/&gt;&lt;x9/&gt;Переместить вниз&lt;x10/&gt; (комбинация горячих клавиш &lt;x11/&gt;Ctrl+Down&lt;x12/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T194729Z" creationid="Марианна" creationdate="20200929T194729Z">
+        <seg>For this purpose, it is required to select the node to be moved and press &lt;x1/&gt;Move up&lt;x2/&gt;&lt;x3/&gt;Move up&lt;x4/&gt; button (hot keys combination - &lt;x5/&gt;Ctrl+Up&lt;x6/&gt;) or &lt;x7/&gt;Move down&lt;x8/&gt;&lt;x9/&gt;Move down&lt;x10/&gt; (hot keys combination - &lt;x11/&gt;Ctrl+Down&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого необходимо выделить эти узлы и при помощи кнопки &lt;x3/&gt;&lt;x4/&gt; создать подмодель.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111038Z" creationid="Марианна" creationdate="20200717T111038Z">
