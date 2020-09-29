@@ -2918,6 +2918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Контейнер&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T113432Z" creationid="Марианна" creationdate="20200929T113432Z">
+        <seg>&lt;x1/&gt;Container&lt;x2/&gt;: when selecting this checkbox, the selected child node will be a root node for other created child nodes of different types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут импортироваться.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T215602Z" creationid="Марианна" creationdate="20200829T215602Z">
@@ -6906,6 +6914,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160301Z" creationid="Марианна" creationdate="20200920T160301Z">
         <seg>It is required to provide uniqueness of the input port in the list of the input ports, for the output port - in the list of the output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для дочерних узлов есть возможность создать узлы того же иерархического уровня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T113529Z" creationid="Марианна" creationdate="20200929T113529Z">
+        <seg>It is possible to create nodes of the same hierarchic level for child nodes.</seg>
       </tuv>
     </tu>
     <tu>
