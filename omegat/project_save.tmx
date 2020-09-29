@@ -7134,6 +7134,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того чтобы выбрать первый рекурсивный узел необходимо выбрать корневой узел и выполнить переход к следующему рекурсивному нераскрытому узлу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T192340Z" creationid="Марианна" creationdate="20200929T192340Z">
+        <seg>To select the first recursive node, it is required to select the root node and move to the next recursive unopened node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того чтобы использовать в сценарии какой-либо компонент, его необходимо перенести мышью из панели компонентов в область построения сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085159Z" creationid="Марианна" creationdate="20200717T085159Z">
