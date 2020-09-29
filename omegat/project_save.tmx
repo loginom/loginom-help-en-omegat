@@ -7894,6 +7894,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопкой &lt;x1/&gt;Загрузить из XSD...&lt;x2/&gt; &lt;x3/&gt;Загрузить из XSD...&lt;x4/&gt; можно выбрать файл формата *.xsd, из которого будет загружена выходная структура узлов (также кнопка дублируется командой контекстного меню).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T185429Z" creationid="Марианна" creationdate="20200929T185429Z">
+        <seg>&lt;x1/&gt;Load from XSD...&lt;x2/&gt; &lt;x3/&gt;Load from XSD...&lt;x4/&gt; button enables to select *.xsd file from which the output node structure will be loaded (the button is also duplicated by the context menu command).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество входов и выходов узла варьируется в зависимости от функционала.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T093609Z" creationid="Марианна" creationdate="20200716T093547Z">
