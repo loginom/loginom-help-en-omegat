@@ -6400,6 +6400,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае значения имен полей не важны, однако типы данных по-прежнему должны совпадать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T193320Z" creationid="Марианна" creationdate="20200929T193320Z">
+        <seg>In this case, values of the fields names are not important. However, data types must still coincide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае на панели инструментов появляется кнопка &lt;x5/&gt;&lt;x6/&gt; с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093856Z" creationid="Марианна" creationdate="20200820T105750Z">
@@ -9606,6 +9614,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Помимо автоматической связи, входные и выходные узлы можно связывать вручную с помощью метода &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; путем перетаскивания метки поля из левого списка полей на элемент из правого списка полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T193619Z" creationid="Марианна" creationdate="20200929T193619Z">
+        <seg>Apart from the auto link, it is possible to link input and output nodes using the &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; method by dragging the field caption from the left list of fields to the element from the right list of fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075003Z" creationid="Марианна" creationdate="20200716T075003Z">
@@ -10570,6 +10586,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102909Z" creationid="Марианна" creationdate="20200711T100413Z">
         <seg>It is required to place the created connection into the workflow; for this purpose you are to create the node the output data of which will be parameters of connection with the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Созданные связи между узлами можно удалять.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T193348Z" creationid="Марианна" creationdate="20200929T193348Z">
+        <seg>It is possible to delete the created links between nodes.</seg>
       </tuv>
     </tu>
     <tu>
