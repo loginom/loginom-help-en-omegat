@@ -6408,6 +6408,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае узел будет связан с одним их входных узлов с таким же именем и типом данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T193034Z" creationid="Марианна" creationdate="20200929T193034Z">
+        <seg>In this case, the node will be linked to one of their input nodes with the same name and data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае цикл будет перебирать строки входного набора и передавать очередную строку на вход узла, заключенного в цикл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194540Z" creationid="Марианна" creationdate="20200921T194540Z">
@@ -10778,6 +10786,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
         <seg>Such substitution construction enables to formulate the request text in a dynamic manner in the course of the workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также каждый дочерний узел можно связывать с источником данных командой контекстного меню &lt;x5/&gt;Связать автоматически&lt;x6/&gt;&lt;x7/&gt;Связать автоматически&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T192913Z" creationid="Марианна" creationdate="20200929T192913Z">
+        <seg>Each child node can be also linked to the data source using the following context menu command: &lt;x5/&gt;Auto link&lt;x6/&gt;&lt;x7/&gt;Auto link&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
