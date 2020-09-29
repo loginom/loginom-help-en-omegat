@@ -6782,6 +6782,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дерево — это структура данных в виде набора связанных узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T083205Z" creationid="Марианна" creationdate="20200929T083205Z">
+        <seg>Tree is a data structure in the form of a set of connected nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дискретный.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
