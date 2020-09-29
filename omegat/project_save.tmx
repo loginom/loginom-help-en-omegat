@@ -11070,6 +11070,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это можно сделать из контекстного меню дочернего узла, выбрав пункт &lt;x1/&gt;Добавить соседний узел&lt;x2/&gt; &lt;x3/&gt;Добавить соседний узел&lt;x4/&gt;, либо, выделив необходимый узел, нажать на кнопку &lt;x5/&gt;Добавить соседний узел&lt;x6/&gt; для создания соседнего узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T121234Z" creationid="Марианна" creationdate="20200929T121234Z">
+        <seg>It can be done using the contex menu of the child node. Select &lt;x1/&gt;Add neighboring node&lt;x2/&gt; &lt;x3/&gt;Add neighboring node&lt;x4/&gt;, or the required node, and press &lt;x5/&gt;Add neighboring node&lt;x6/&gt; button to create the neighboring node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это необходимо учитывать при построении запросов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131011Z" creationid="Марианна" creationdate="20200823T124154Z">
