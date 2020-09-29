@@ -1240,8 +1240,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора *.xsd-файла (не редактируемое).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T185618Z" creationid="Марианна" creationdate="20200929T185618Z">
-        <seg>The &lt;x1/&gt;XSD file&lt;x2/&gt; — a field for selection of the *.xsd-файла (not edited).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T185859Z" creationid="Марианна" creationdate="20200929T185618Z">
+        <seg>The &lt;x1/&gt;XSD file&lt;x2/&gt; — a field for selection of the *.xsd file (not edited).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4226,8 +4226,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пространство имен&lt;x2/&gt; — выбор пространства имен из списка всех пространств имен описанных в *.xsd-файле, ограничивает выбор корневого элемента только указанным пространством.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T185632Z" creationid="Марианна" creationdate="20200929T185632Z">
-        <seg>&lt;x1/&gt;Namespace&lt;x2/&gt; — выбор пространства имен из списка всех пространств имен описанных в *.xsd-файле, ограничивает выбор корневого элемента только указанным пространством.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T185942Z" creationid="Марианна" creationdate="20200929T185632Z">
+        <seg>&lt;x1/&gt;Namespace&lt;x2/&gt; enables to select a namespace from a list of all namespaces described in the *.xsd file. It limits selection of the root element only by the specified space.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9298,6 +9298,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143611Z" creationid="Марианна" creationdate="20200816T143611Z">
         <seg>Version &lt;x5/&gt;1.0.0&lt;x6/&gt; is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию выставляется значение &lt;x3/&gt;Все пространства имен&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T190024Z" creationid="Марианна" creationdate="20200929T190024Z">
+        <seg>&lt;x3/&gt;All namespaces&lt;x4/&gt; value is set by default.</seg>
       </tuv>
     </tu>
     <tu>
