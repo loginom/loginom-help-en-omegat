@@ -9558,6 +9558,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После этого будет создан дочерний узел, для которого можно определить значение следующих полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110321Z" creationid="Марианна" creationdate="20200929T110321Z">
+        <seg>Afterwards the child node will be created. It is possible to define value of the following fields for this node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательное нажатие на заголовок меняет порядок сортировки или отменяет его.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105414Z" creationid="Марианна" creationdate="20200818T105414Z">
