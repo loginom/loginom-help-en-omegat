@@ -7358,6 +7358,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заглавных или строчных латинских букв;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110607Z" creationid="Марианна" creationdate="20200929T110607Z">
+        <seg>Capital or low case Latin characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задаются следующие настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200715Z" creationid="Марианна" creationdate="20200921T200715Z">
@@ -8186,6 +8194,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T164259Z" creationid="Марианна" creationdate="20200718T164259Z">
         <seg>It can include hierarchy of nested supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Может состоять из:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110454Z" creationid="Марианна" creationdate="20200929T110454Z">
+        <seg>It can consist of the following characters:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10246,6 +10262,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Символов подчеркивания;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110629Z" creationid="Марианна" creationdate="20200929T110629Z">
+        <seg>Underscore characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
@@ -10850,6 +10874,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
         <seg>Component functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Цифр (не может быть первым символом).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110709Z" creationid="Марианна" creationdate="20200929T110709Z">
+        <seg>Digits (it cannot be the first character).</seg>
       </tuv>
     </tu>
     <tu>
