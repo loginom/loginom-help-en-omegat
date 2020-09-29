@@ -7182,6 +7182,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для удаления какой-либо конкретной связи можно воспользоваться командой контекстного меню &lt;x9/&gt;Удалить связь&lt;x10/&gt;&lt;x11/&gt;Удалить связь&lt;x12/&gt;, вызванную на одном из связанных элементов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T194113Z" creationid="Марианна" creationdate="20200929T193953Z">
+        <seg>To delete any particular link, it is possible to use the context menu command - &lt;x9/&gt;Delete link&lt;x10/&gt;&lt;x11/&gt;Delete link&lt;x12/&gt; called in one of the linked elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для удобства навигации в дереве отдельно представлены узлы текущего модуля и все доступные для ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101838Z" creationid="Марианна" creationdate="20200919T101838Z">
