@@ -6582,6 +6582,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все связи разом можно удалить с помощью кнопки  &lt;x1/&gt;Удалить все связи&lt;x2/&gt;&lt;x3/&gt;Удалить все связи&lt;x4/&gt;, либо с помощью команды контекстного меню  &lt;x5/&gt;Удалить все связи&lt;x6/&gt;&lt;x7/&gt;Удалить все связи&lt;x8/&gt;, вызванного на любом из элементов списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T193917Z" creationid="Марианна" creationdate="20200929T193917Z">
+        <seg>All links can be deleted at once using &lt;x1/&gt;Delete all links&lt;x2/&gt;&lt;x3/&gt;Delete all links&lt;x4/&gt; button, or using the context menu command - &lt;x5/&gt;Delete all links&lt;x6/&gt;&lt;x7/&gt;Delete all links&lt;x8/&gt; called in any of the list elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все это позволяет создавать и сопровождать сложные проекты, а также делегировать решение выделенных подзадач.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140236Z" creationid="Марианна" creationdate="20200718T140236Z">
