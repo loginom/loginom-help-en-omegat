@@ -3918,6 +3918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поиск&lt;x2/&gt; &lt;x3/&gt;Поиск&lt;x4/&gt; – позволяет отметить поля по имени или его части.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T195113Z" creationid="Марианна" creationdate="20200929T195113Z">
+        <seg>&lt;x1/&gt;Search&lt;x2/&gt; &lt;x3/&gt;Search&lt;x4/&gt; enables to mark fields by name of its part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показать узел&lt;x2/&gt; — выделяет выбранный узел на области построения Сценариев;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073358Z" creationid="Марианна" creationdate="20200817T073358Z">
