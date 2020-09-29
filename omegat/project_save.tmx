@@ -7270,6 +7270,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
+        <seg>If the root is connected with another root, it is a parent root, and the connected root is called a chid root.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще до введения логин/пароль в нижнем левом углу содержится номер версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074839Z" creationid="Марианна" creationdate="20200819T074839Z">
@@ -7890,6 +7898,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T092200Z" creationid="Марианна" creationdate="20200818T101947Z">
         <seg>The tree root in the &lt;x1/&gt;Property inspector&lt;x2/&gt; contains the component name used as a basis for the workflow node creation. The node caption is displayed in the &lt;x3/&gt;Value&lt;x4/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Корневой узел всегда один.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T083415Z" creationid="Марианна" creationdate="20200929T083415Z">
+        <seg>There is always only one root node.</seg>
       </tuv>
     </tu>
     <tu>
