@@ -5352,6 +5352,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтрация&lt;x2/&gt;&lt;x3/&gt;Фильтрация&lt;x4/&gt; – позволяет отобрать поля по имени или его части.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T195009Z" creationid="Марианна" creationdate="20200929T195009Z">
+        <seg>&lt;x1/&gt;Filter&lt;x2/&gt;&lt;x3/&gt;Filter&lt;x4/&gt; enables to select fields by name or its part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Фильтровать факты&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070001Z" creationid="Марианна" creationdate="20200812T070001Z">
