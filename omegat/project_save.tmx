@@ -7790,6 +7790,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество уровней вложенности при этом не ограничено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
+        <seg>In this case, the number of the nesting levels is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Команды контекстного меню позволяют одновременно развернуть/свернуть все узлы в дереве свойств.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
