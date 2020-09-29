@@ -6598,6 +6598,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выделить корневой узел и с помощью кнопки &lt;x1/&gt;Добавить дочерний узел&lt;x2/&gt; добавить дочерний узел</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T104112Z" creationid="Марианна" creationdate="20200929T104112Z">
+        <seg>Select the root node and add the child node using the following button: &lt;x1/&gt;Add child node&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
@@ -7834,6 +7842,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
         <seg>In this case, the number of the nesting levels is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Командой контекстного меню &lt;x1/&gt;Добавить дочерний узел&lt;x2/&gt; &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T104228Z" creationid="Марианна" creationdate="20200929T104228Z">
+        <seg>Use the context menu command: &lt;x1/&gt;Add child node&lt;x2/&gt; &lt;x3/&gt;Add child node&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
