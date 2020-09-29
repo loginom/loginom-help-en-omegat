@@ -10942,6 +10942,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Уже раскрытый рекурсивный узел нельзя раскрыть повторно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T191625Z" creationid="Марианна" creationdate="20200929T191625Z">
+        <seg>It is not possible to open already opened recursive node repeatedly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел &lt;x1/&gt;Подмодель&lt;x2/&gt; имеет надпись &lt;x3/&gt;Войти&lt;x4/&gt;, при нажатии которой можно открыть область построения &lt;x5/&gt;Подмодели&lt;x6/&gt; и реализовать в ней произвольный сценарий обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T163145Z" creationid="Марианна" creationdate="20200920T163145Z">
