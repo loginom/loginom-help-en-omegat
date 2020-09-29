@@ -6622,6 +6622,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбирается в диапазоне от 0 до 3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T190711Z" creationid="Марианна" creationdate="20200929T190711Z">
+        <seg>It is selected in the range from 0 to 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор объекта хранилища данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T193837Z" creationid="Марианна" creationdate="20200827T193837Z">
@@ -9242,6 +9250,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094555Z" creationid="Марианна" creationdate="20200813T094555Z">
         <seg>5 editions of &lt;x1/&gt;Loginom&lt;x2/&gt; Platform are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По  умолчанию равно 1, что означает: каждый рекурсивный узел будет раскрыт автоматически, но рекурсивные узлы внутри этих узлов останутся нераскрытыми.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T190850Z" creationid="Марианна" creationdate="20200929T190850Z">
+        <seg>By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened.</seg>
       </tuv>
     </tu>
     <tu>
