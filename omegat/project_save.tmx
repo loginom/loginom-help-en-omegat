@@ -7238,6 +7238,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дополнительно раскрытие рекурсивных узлов можно проводить вручную после построения дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T191041Z" creationid="Марианна" creationdate="20200929T191041Z">
+        <seg>Additional opening of recursive nodes is possible in the manual mode upon tree building.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступность узлов определяется их видимостью (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
