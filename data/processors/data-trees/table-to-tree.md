@@ -65,4 +65,4 @@ The created child nodes can be located in any convenient order. For this purpose
 
 To reset the filter or search settings, it is required to use ![Clean](../../images/icons/filterdata/filterdata-delete_hover_10x10.svg) button.
 
-Удалить дочерний узел можно нажав на иконку ![Удалить](../../images/icons/toolbar-controls/delete_default.svg)**Удалить** (горячая клавиша *Delete*), которая находится с правой части строки дочернего узла и видна при наведении курсора на строку. Все созданные дочерние узлы можно удалить нажав на кнопку ![Удалит все...](../../images/icons/toolbar-controls/delete-all_default.svg)**Удалить все...** (комбинация горячих клавиш *Shift+Delete*).
+To delete a child node, it is required to press ![Delete](../../images/icons/toolbar-controls/delete_default.svg)**Delete** (*Delete* hot key) that is located in the right part of the child node string, and it is visible only when cursor hovering over the string. Все созданные дочерние узлы можно удалить нажав на кнопку ![Удалит все...](../../images/icons/toolbar-controls/delete-all_default.svg)**Удалить все...** (комбинация горячих клавиш *Shift+Delete*).
