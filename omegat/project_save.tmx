@@ -7918,6 +7918,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Корневой узел всегда является контейнером.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T084157Z" creationid="Марианна" creationdate="20200929T084157Z">
+        <seg>The root node is always a container.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Корневой узел дерева свойств всегда находится в раскрытом состоянии, его нельзя свернуть.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102115Z" creationid="Марианна" creationdate="20200818T102115Z">
@@ -10594,6 +10602,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113008Z" creationid="Марианна" creationdate="20200916T113008Z">
         <seg>Transactions are committed after a given number of rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>У узла-контейнера невозможно задать тип или вид данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T084138Z" creationid="Марианна" creationdate="20200929T084138Z">
+        <seg>It is impossible to set the data type and kind for the node-container.</seg>
       </tuv>
     </tu>
     <tu>
