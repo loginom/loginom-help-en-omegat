@@ -2590,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — уникальное наименование столбца в рамках одного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T110431Z" creationid="Марианна" creationdate="20200929T110431Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; denotes a unique column name for one data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — файл Пакета;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
