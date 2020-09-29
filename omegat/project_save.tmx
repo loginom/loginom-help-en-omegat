@@ -1238,6 +1238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора *.xsd-файла (не редактируемое).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T185618Z" creationid="Марианна" creationdate="20200929T185618Z">
+        <seg>The &lt;x1/&gt;XSD file&lt;x2/&gt; — a field for selection of the *.xsd-файла (not edited).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;^1&lt;x2/&gt;: Доступно только для редакций с возможностью публикации &lt;x3/&gt;Веб-сервисов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090055Z" creationid="Марианна" creationdate="20200816T132034Z">
@@ -4216,6 +4224,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пространство имен&lt;x2/&gt; — выбор пространства имен из списка всех пространств имен описанных в *.xsd-файле, ограничивает выбор корневого элемента только указанным пространством.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T185632Z" creationid="Марианна" creationdate="20200929T185632Z">
+        <seg>&lt;x1/&gt;Namespace&lt;x2/&gt; — выбор пространства имен из списка всех пространств имен описанных в *.xsd-файле, ограничивает выбор корневого элемента только указанным пространством.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Профили кластеров&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
@@ -6212,6 +6228,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
         <seg>The last Version column contains information on the version number (for example, X.X.X or X.X.X.Y where X.X.X  is a version number, and Y is a build number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В появившемся диалоговом окне будут следующие поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T185515Z" creationid="Марианна" creationdate="20200929T185515Z">
+        <seg>The following fields will be available in the appeared dialog window:</seg>
       </tuv>
     </tu>
     <tu>
