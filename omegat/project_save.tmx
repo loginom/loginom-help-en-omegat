@@ -7574,6 +7574,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исключение составляет корневой узел: для него минимальное количество экземпляров равно 0, если он является массивом, и 1 - если не является.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T084648Z" creationid="Марианна" creationdate="20200929T084648Z">
+        <seg>The only exception is the root node. The minimum number of its instances is equal to 0 if it is an array, and 1 if it is not an array.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование переменных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200714T120440Z" creationid="Марианна" creationdate="20200714T120440Z">
@@ -8034,6 +8042,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083736Z" creationid="Марианна" creationdate="20200918T083736Z">
         <seg>Milliseconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимальное количество экземпляров узла равно 0, и не настраивается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T084515Z" creationid="Марианна" creationdate="20200929T084515Z">
+        <seg>The minimum number of the node instances is equal to 0, and it cannot be configured.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9770,6 +9786,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
         <seg>In this case, the workflow node responsible for import is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Признак &lt;x1/&gt;массив&lt;x2/&gt; показывает, что в пределах одного родительского узла может содержаться более одного экземпляра данного узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T084423Z" creationid="Марианна" creationdate="20200929T084423Z">
+        <seg>The &lt;x1/&gt;array&lt;x2/&gt; indicator shows that more than one instance of such node can be included into one parent node.</seg>
       </tuv>
     </tu>
     <tu>
