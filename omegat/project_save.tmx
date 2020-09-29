@@ -6112,6 +6112,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне настройки необходимо настроить соответствие между входными данными, которые находятся слева в поле &lt;x1/&gt;Столбцы исходного набора&lt;x2/&gt;, и создаваемым деревом данных, которое находится справа в полях &lt;x3/&gt;Узел дерева&lt;x4/&gt; и &lt;x5/&gt;Связанные поля&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200929T103606Z" creationid="Марианна" creationdate="20200929T103606Z">
+        <seg>It is required to configure mapping of the input data that are located leftward in the &lt;x1/&gt;Source data set columns&lt;x2/&gt; field, and created data tree that is located rightward in the &lt;x3/&gt;Tree node&lt;x4/&gt; and &lt;x5/&gt;Related fields&lt;x6/&gt; fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T121654Z" creationid="Марианна" creationdate="20200718T121459Z">
