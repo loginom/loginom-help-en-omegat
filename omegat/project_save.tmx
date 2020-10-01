@@ -7791,6 +7791,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Записи в списках Входное дерево и Выходное дерево можно отфильтровать с помощью команды &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Фильтрация&lt;x4/&gt; на соответствующей панели инструментов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162025Z" creationid="Марианна" creationdate="20201001T162025Z">
+        <seg>It is possible to filter records in the Input Tree and Output Tree lists using &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Filter&lt;x4/&gt; command of corresponding toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запятая;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062850Z" creationid="Марианна" creationdate="20200917T162018Z">
