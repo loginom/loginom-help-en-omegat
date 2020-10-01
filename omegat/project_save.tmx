@@ -1846,6 +1846,15 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;видов данных&lt;x4/&gt;
+.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161419Z" creationid="Марианна" creationdate="20201001T161419Z">
+        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data kinds&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;видов данных&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110842Z" creationid="Марианна" creationdate="20200929T110842Z">
