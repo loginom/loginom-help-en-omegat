@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Компонент будет выдавать ошибку при выходе со страницы настройки или при выполнении, если у него нет ни одного выбранного узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T191017Z" creationid="Марианна" creationdate="20201001T191017Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The component will throw an error message when leaving the configuration page or when executing if it doesn't have selected nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; При превышении максимального значения длины экспортируемой строки возникнет ошибка экспорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170316Z" creationid="Марианна" creationdate="20200916T170316Z">
