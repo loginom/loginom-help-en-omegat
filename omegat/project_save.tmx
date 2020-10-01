@@ -6847,6 +6847,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входные и выходные поля будут связаны, если у них совпадают имена и тип данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T163257Z" creationid="Марианна" creationdate="20201001T163257Z">
+        <seg>The input and output fields will be linked, if their names and data types coincide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные и выходные порты задаются пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102723Z" creationid="Марианна" creationdate="20200716T073132Z">
@@ -7387,6 +7395,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
         <seg>The following actions are required to create the node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для сопоставления полей входного и выходного дерева необходимо задать между ними связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T163118Z" creationid="Марианна" creationdate="20201001T163118Z">
+        <seg>To map the fields of the input and output tree, it is required to establish links between them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11723,6 +11739,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T121234Z" creationid="Марианна" creationdate="20200929T121234Z">
         <seg>It can be done using the contex menu of the child node. Select &lt;x1/&gt;Add neighboring node&lt;x2/&gt; &lt;x3/&gt;Add neighboring node&lt;x4/&gt;, or the required node, and press &lt;x5/&gt;Add neighboring node&lt;x6/&gt; button to create the neighboring node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это можно сделать нажав кнопку &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Связать автоматически&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T163200Z" creationid="Марианна" creationdate="20201001T163200Z">
+        <seg>It can be done using &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Auto link&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
