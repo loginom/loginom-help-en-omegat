@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Синхронизировать поля&lt;x4/&gt; — синхронизируется список выходных полей порта со списком входных (алгоритм синхронизации см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T160236Z" creationid="Марианна" creationdate="20201001T160236Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Map fields&lt;x4/&gt; enables to map a list of output port fields to a list of the input ones (the Synchronization algorithm is described in</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Снять выделение со всех&lt;x4/&gt; — снимает выделение со всех узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113735Z" creationid="Марианна" creationdate="20201001T113735Z">
