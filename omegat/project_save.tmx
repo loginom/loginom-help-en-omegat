@@ -6408,6 +6408,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В списке Входное дерево отображаются поля принятого портом набора данных, которые следует сопоставить с полями набора, подаваемого портом на обработку — Выходное дерево (подробнее см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T112015Z" creationid="Марианна" creationdate="20201001T112015Z">
+        <seg>The Input Tree list displays fields of the data set accepted by the port. It is required to map them with fields of the data set supplied by the port for processing - Output Tree (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В тексте SQL-запроса можно использовать &lt;x1/&gt;Управляющие переменные&lt;x2/&gt; в качестве параметров и макроподстановок, что позволяет динамически формировать запрос, отправляемый на сервер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154321Z" creationid="Марианна" creationdate="20200824T154321Z">
