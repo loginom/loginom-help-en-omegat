@@ -30,8 +30,8 @@ This page is designated for work with internal items of the object selected at t
 
 The wizard window is divided into two areas:
 
-* **Available items** are in the left part. It contains a list of elements that can be chosen in accordance with the object selected at the previous stage.
-* **Selected items** are in the right part. It contains already chosen elements. It enables to specify the required elements in the first one and set necessary conditions and values for them.
+* **Available items** are in the left part. It contains a list of items that can be chosen in accordance with the object selected at the previous stage.
+* **Selected items** are in the right part. It contains already chosen items. It enables to specify the required items in the first one and set necessary conditions and values for them.
 
 The item can be only in one list. It is possible to move items between the lists, including drag&drop (*drag&drop*).
 

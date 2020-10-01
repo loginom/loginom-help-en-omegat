@@ -1,6 +1,6 @@
 # Design Principles
 
-The **Project** is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.
+The **Project** is a complex of workflows, files, data sources and other items designated for solution of a particular analytical task.
 
 The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.
 
@@ -12,7 +12,7 @@ Each block can be represented on its hierarchical level in the form of the "blac
 
 The project designed in such a way has a clear and transparent structure. It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.
 
-The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach. Solution of the set task is described at the first design step specifying independent subtasks. Subtasks are similarly described at the next step with specification of the next level elements.
+The "top-down" design (from the general assignment of a task to separate subtasks) is typical of such approach. Solution of the set task is described at the first design step specifying independent subtasks. Subtasks are similarly described at the next step with specification of the next level items.
 
 Thus, the project functions are specified at each stage. The process is repeated until definition of subtasks and algorithms solutions of which are obvious.
 

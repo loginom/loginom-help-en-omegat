@@ -42,7 +42,7 @@ Types of ports of the workflow nodes:
     </tr>
     <tr>
         <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Table</td>
-        <td>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows. Cells of such table contain the data elements: rows, numbers, dates, logical values.</td>
+        <td>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows. Cells of such table contain the data items: rows, numbers, dates, logical values.</td>
     </tr>
     <tr>
         <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Variables</td>

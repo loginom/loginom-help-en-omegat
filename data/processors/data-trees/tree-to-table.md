@@ -18,7 +18,7 @@ The data in the input port of the handler are represented in the form of input a
 
 The Input Tree list displays fields of the data set accepted by the port. It is required to map them with fields of the data set supplied by the port for processing - Output Tree (refer to [Ports](../../scenario/ports/README.md)).
 
-It is possible to set the structure of the set supplied for processing in manual way, or to download it from the *.xsd file.
+It is possible to set the structure of the set supplied for processing in the manual way, or to download it from the *.xsd file.
 
 #### Manual Setting of the Nodes Structure
 
@@ -37,67 +37,66 @@ The following commands are available for the Output Tree list in the context men
 * ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit...** enables to call the editing window and change values of the fields for the selected node (the command can be called using *F2* hot key).
 * ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up**  and  ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enable to change the order of nodes. In this case, it is not possible to move the **Root** root node (the commands are also available when using *Ctrl+Up* and *Ctrl+Down* combinations of hot keys, correspondingly).
 * ![](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** enables to load the structure of nodes of the output tree from the XSD file.
-* ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Синхронизировать поля** — синхронизируется список выходных полей порта со списком входных (алгоритм синхронизации см. [автоматическая синхронизация полей](../../scenario/ports/field-synchronization.md)).
-* ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Автоматическая синхронизация** — при включении данного режима команда  ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Синхронизировать поля** будет выполняться автоматически при выполнении узла (включена по умолчанию).
-* ![](../../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удаляет дочерний узел дерева, иконка этой команды высвечивается при наведении курсора на узел (команду также можно вызвать горячей клавишей *Delete*).
-* ![](../../images/icons/toolbar-controls/delete-all_default.svg)**Удалить все...** — удаляет все дочерние узлы (комбинация горячих клавиш *Shift+Delete*).
+* ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields** enables to map a list of output port fields to a list of the input ones (the mapping algorithm is described in the [Automapping of Fields](../../scenario/ports/field-synchronization.md)).
+* ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when enabling this mode, ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields** command will be automatically performed during the node execution (enabled by default).
+* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by *Delete* hot key).
+* ![](../../images/icons/toolbar-controls/delete-all_default.svg)**Delete all...** enables to delete all child nodes (combination of *Shift+Delete* hot keys).
 
-> **Примечание:** Удалить корневой узел **Root** нельзя.
+> **Note: it is not possible to delete ** Delete root node **Root**.
 
-При выполнении команд ![](../../images/icons/wizards/datatree/add-child_default.svg)  **Добавить дочерний узел**, ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел**, ![](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать...** задаются значения полей:
+When running the following commands: ![](../../images/icons/wizards/datatree/add-child_default.svg)  **Add child node**, ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node**, ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit...**, the following fields values are set:
 * **Name** denotes a unique column name for one data set. It can consist of the following characters:
    * Capital or low case Latin characters.
    * Underscore characters.
    * Digits (it cannot be the first character).
 * **Caption** denotes a random field description.
 * **Data type** denotes one of the possible [data types](./../../data/datatype.md).
-* **Вид данных** — один из возможных [видов данных](./../../data/datakind.md)
-   .
+* **Data kind** denotes one of the possible [data kinds](./../../data/datakind.md).
 
-Кроме того, можно установить следующие признаки:
-* **Массив** — при установке флага выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.
-* **Контейнер** — если флаг установлен, выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.
+Besides, it is possible to set the following indicators:
+* **Array**: when selecting the flag, the selected child node will be defined as ordered set (array) of one data type.
+* **Container**: when selecting the flag, the selected child node will be a root node for other created child nodes of different types.
 
-Записи в списках Входное дерево и Выходное дерево можно отфильтровать с помощью команды ![](../../images/icons/toolbar-controls/filter_default.svg)**Фильтрация** на соответствующей панели инструментов.
+It is possible to filter records in the Input Tree and Output Tree lists using ![](../../images/icons/toolbar-controls/filter_default.svg)**Filter** command of corresponding toolbar.
 
-#### Загрузка структуры узлов из XSD схемы
+#### Loading of the Nodes Structure from the XSD Schema
 
-Структуру выходного дерева можно загрузить из файла формата XSD с помощью команды ![](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Загрузить из XSD...**
+The output tree structure can be loaded from the XSD file using ![](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** command.
 
-В появившемся диалоговом окне необходимо заполнить поля:
+It is possible to fill in the following fields in the appeared dialog window:
 
-* **XSD файл** — поле для выбора файла (не редактируемое).
-* **Пространство имен** — выбор пространства имен из списка всех пространств имен описанных в файле XSD, ограничивает выбор корневого элемента только указанным пространством. По умолчанию принимает значение *Все пространства имен*.
-* **Корневой элемент** — выбор корневого узла из списка в загруженном файле. По умолчанию имеет значение первого корневого узла выбранного файла.
-* **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. При значении 0 все рекурсивные узлы не будут раскрыты автоматически.
+* **XSD file** denotes a field for the file selection (not edited).
+* **Namespace** enables to select a namespace from a list of all namespaces described in the XSD file. It limits selection of the root element only by the specified space. *All namespaces* value is set by default.
+* **Root element** enables selection of the root node from the list in the loaded file. Value of the first root node of the selected file is set by default.
+* **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. In the case of 0 value recursive nodes won't be automatically opened.
 
 After filling in all the fields it is required to press **Load** button, and the XSD schema will be loaded for further work.
 
-#### Сопоставление полей
+#### Fields Mapping
 
-Для сопоставления полей входного и выходного дерева необходимо задать между ними связи. Это можно сделать нажав кнопку ![](../../images/icons/toolbar-controls/auto-connect_default.svg)**Связать автоматически**. Входные и выходные поля будут связаны, если у них совпадают имена и тип данных.
-Связи также можно установить вручную, с помощью метода *Drag-and-drop* путем перетаскивания элемента из левого списка на элемент из правого списка. В этом случае имена полей не важны, однако типы данных должны совпадать.
+To map the fields of the input and output tree, it is required to establish links between them. It can be done using ![](../../images/icons/toolbar-controls/auto-connect_default.svg)**Auto link** button. The input and output fields will be linked, if their names and data types coincide.
+Links can be also established in the manual way using the *Drag-and-drop* method by dragging the item from the left list to the item from the right list. In this case, fields names are not important. However, data types must still coincide.
 
-Связи между узлами можно удалять:
-* с помощью кнопки  ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Удалить все связи** — удаляет все связи;
-* нажатием на кнопку ![Удалить связь](../../images/icons/link-grid/remove-link_selected.svg) на линии связи (при наведении курсора кнопка меняет вид на ![Удалить связь](../../images/icons/link-grid/remove-link_hover.svg)).
+It is possible to delete the links between nodes as follows:
+* using ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links** button, it deletes all links;
+* using ![Delete link](../../images/icons/link-grid/remove-link_selected.svg) button in the line (when cursor hovering, the button is changed to ![Delete link](../../images/icons/link-grid/remove-link_hover.svg)).
 
-### Выбор узлов дерева
+### Selection of the Tree Nodes
 
-Мастер настройки обработчика представляет собой отображение дерева (дерево, поданое на выход входного порта) с возможностью выбора некоторых или всех узлов. The selected nodes will be organized in columns of the output data set.
+The handler wizard is a tree view (the tree passed to output of the input port) with possibility to select some or all nodes. The selected nodes will be organized in columns of the output data set.
 
-Доступные действия представлены в виде кнопок на панели инструментов и в контекстном меню:
+Available actions are represented in the form of the toolbar buttons and in the context menu:
 
-* ![](../../images/icons/toolbar-controls/check-all_default.svg) **Выбрать все** – помечает все узлы.
-* ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Снять выделение со всех** – снимает выделение со всех узлов.
-* ![](../../images/icons/toolbar-controls/reverse-check_default.svg) **Инвертировать выделение** – меняет выбранные узлы на невыбранные и наоборот.
+* ![](../../images/icons/toolbar-controls/check-all_default.svg) **Check all** enables to check all nodes.
+* ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
+* ![](../../images/icons/toolbar-controls/reverse-check_default.svg) **Invert selection** enables to invert the selected nodes to unselected and vice versa.
 
-Пометить выделенный узел можно нажав клавишу *Enter*, повторное нажание *Enter* снимает выделение.
+It is possible to check the selected node by pressing *Enter*. Pressing *Enter* repeatedly allows for deselection.
 
-Логика выбора узлов:
+Logics of Nodes Selection:
 
-* При выборе узла выбираются так же и его родители, вплоть до корня.
-* При снятии выделения с ветки выделение снимается и со всех потомков.
+* When selecting a node, its parents are also selected, up to its root.
+* When branch deselecting, .
 * Глобальный индекс узла - узел отсутствует в древовидной структуре данных, однако он появляется в отображении дерева и указывает на индекс, используемый в узле-массиве. Его можно выбрать, при этом также выбирается и узел массива.
    Узел получает индекс -1, который учитывается при сортировке.
    При выборе узла для него формируется колонка с именем узла массива с добавлением  "_global_index" и меткой узла массива с добавлением "|Глобальный индекс".

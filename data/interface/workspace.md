@@ -16,7 +16,7 @@ The toolbar that enables the following operations with the construction area and
 * ![](../images/icons/toolbar-controls/cursor_default.svg)Object selection mode is a mode used for the Workflow construction by means of standard manipulations.
 * ![](../images/icons/toolbar-controls/hand_default.svg)Workflow navigation mode is a mode used for navigation in the Workflow construction area by means of a mouse.
 * ![](../images/icons/toolbar-controls/workflow_default.svg) Show as workflow enables to display a Workflow in the standard form (in the form of oriented graph).
-* ![](../images/icons/toolbar-controls/table_default.svg)Show as table provides compact display of the Workflow in the form of a table that contains used elements.
+* ![](../images/icons/toolbar-controls/table_default.svg)Show as table provides compact display of the Workflow in the form of a table that contains used items.
 * ![](../images/icons/toolbar-controls/v-align-left_default.svg)Vertical alignment provides vertical alignment of the Workflow nodes in the construction area. There are the following types of the vertical alignment:
    * Vertical left alignment
    * Vertical middle alignment
