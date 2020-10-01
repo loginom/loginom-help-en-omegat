@@ -4022,6 +4022,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порты&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T112030Z" creationid="Марианна" creationdate="20201001T112030Z">
+        <seg>&lt;x1/&gt;Ports&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
@@ -7606,6 +7614,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задание структуры узлов вручную</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T112343Z" creationid="Марианна" creationdate="20201001T112343Z">
+        <seg>Manual Setting of the Nodes Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задаются следующие настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200715Z" creationid="Марианна" creationdate="20200921T200715Z">
@@ -10898,6 +10914,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120750Z" creationid="Марианна" creationdate="20200718T120750Z">
         <seg>Structural Approach</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структуру набора, подаваемого на обработку, можно задать вручную или загрузить из файла *.xsd.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T112236Z" creationid="Марианна" creationdate="20201001T112236Z">
+        <seg>It is possible to set the structure of the set supplied for processing in manual way, or to download it from the *.xsd file.</seg>
       </tuv>
     </tu>
     <tu>
