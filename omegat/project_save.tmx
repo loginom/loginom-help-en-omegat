@@ -8591,6 +8591,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логика выбора узлов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T170049Z" creationid="Марианна" creationdate="20201001T170049Z">
+        <seg>Logics of Nodes Selection:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
@@ -10331,6 +10339,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072256Z" creationid="Марианна" creationdate="20200817T072247Z">
         <seg>Selecting the process on the information panel, it is possible to call the context menu containing the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выборе узла выбираются так же и его родители, вплоть до корня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T170138Z" creationid="Марианна" creationdate="20201001T170138Z">
+        <seg>When selecting a node, its parents are also selected, up to its root.</seg>
       </tuv>
     </tu>
     <tu>
