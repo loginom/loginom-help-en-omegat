@@ -646,6 +646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить соседний узел&lt;x4/&gt; — позволяет создать узел того же уровня иерархии, что и выбранный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T115011Z" creationid="Марианна" creationdate="20201001T115011Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add neighboring node&lt;x4/&gt; enables to create the node of the same hierarchic level as provided for the selected one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Инвертировать выделение&lt;x4/&gt; — поменять выбранные узлы на невыбранные и наоборот.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T114206Z" creationid="Марианна" creationdate="20201001T114206Z">
