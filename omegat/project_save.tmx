@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать...&lt;x4/&gt; — позволяет вызвать окно редактирования и изменить значения полей для выбранного узла (команду также можно вызвать горячей клавишей &lt;x5/&gt;F2&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T115303Z" creationid="Марианна" creationdate="20201001T115303Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit...&lt;x4/&gt; enables to call the editing window and change values of the fields for the selected node (the command can be called using &lt;x5/&gt;F2&lt;x6/&gt; hot key).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Свернуть&lt;x4/&gt; - сворачивает узел дерева.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110007Z" creationid="Марианна" creationdate="20200818T110007Z">
