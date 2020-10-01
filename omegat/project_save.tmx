@@ -10559,6 +10559,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При снятии выделения с ветки выделение снимается и со всех потомков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T170330Z" creationid="Марианна" creationdate="20201001T170330Z">
+        <seg>When branch deselecting, .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При создании &lt;x1/&gt;Узел-ссылка&lt;x2/&gt; не имеет &lt;x3/&gt;портов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092243Z" creationid="Марианна" creationdate="20200919T092243Z">
