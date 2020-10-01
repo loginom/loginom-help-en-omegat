@@ -105,4 +105,4 @@ Logics of Nodes Selection:
 
 **Repeat parent node values**: if there are a parent node and a sequence of descendants in the structure, the parent node value will be repeated for each string generated from a sequence of descendants.
 
-**Generate composite field captions**: when this flag is present, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.
+**Generate composite field captions**: if this flag has been placed, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.
