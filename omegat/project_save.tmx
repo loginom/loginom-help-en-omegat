@@ -6950,6 +6950,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные во входном порте обработчика представлены в виде входного и выходного наборов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T111649Z" creationid="Марианна" creationdate="20201001T111649Z">
+        <seg>The data in the input port of the handler are represented in the form of input and output data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный этап становится доступен только при заключении в цикл &lt;x1/&gt;Подмоделей&lt;x2/&gt;, имеющих входные и выходные порты для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204916Z" creationid="Марианна" creationdate="20200921T204916Z">
