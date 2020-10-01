@@ -6927,6 +6927,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор узлов дерева</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165110Z" creationid="Марианна" creationdate="20201001T165110Z">
+        <seg>Selection of the Tree Nodes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные элементы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201213Z" creationid="Марианна" creationdate="20200827T195151Z">
@@ -8571,6 +8579,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121305Z" creationid="Марианна" creationdate="20200823T121305Z">
         <seg>Wizard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Мастер настройки обработчика представляет собой отображение дерева (дерево, поданое на выход входного порта) с возможностью выбора некоторых или всех узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165412Z" creationid="Марианна" creationdate="20201001T165412Z">
+        <seg>The handler wizard is a tree view (the tree passed to output of the input port) with possibility to select some or all nodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11899,6 +11915,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112808Z" creationid="Марианна" creationdate="20200825T112808Z">
         <seg>variable name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>нажатием на кнопку &lt;x1/&gt;Удалить связь&lt;x2/&gt; на линии связи (при наведении курсора кнопка меняет вид на &lt;x3/&gt;Удалить связь&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165055Z" creationid="Марианна" creationdate="20201001T165055Z">
+        <seg>using &lt;x1/&gt;Delete link&lt;x2/&gt; button in the line (when cursor hovering, the button is changed to &lt;x3/&gt;Delete link&lt;x4/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
