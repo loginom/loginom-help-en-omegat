@@ -8455,6 +8455,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме того, можно установить следующие признаки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161459Z" creationid="Марианна" creationdate="20201001T161459Z">
+        <seg>Besides, it is possible to set the following indicators:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию — логин: &lt;x7/&gt;user&lt;x8/&gt;, без пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
