@@ -614,6 +614,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входное дерево&lt;x4/&gt; — набор данных в иерархической древовидной форме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T111405Z" creationid="Марианна" creationdate="20201001T111405Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input tree&lt;x4/&gt; is a data set in the hierarchic tree-like form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T111446Z" creationid="Марианна" creationdate="20201001T111446Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; is data table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить порядок выполнения&lt;x4/&gt; — позволяет задать собственный порядок выполнения узлов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132439Z" creationid="Марианна" creationdate="20200819T132439Z">
@@ -8658,6 +8674,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195351Z" creationid="Марианна" creationdate="20200921T195351Z">
         <seg>Configuration of the Loop Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка входного набора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T111525Z" creationid="Марианна" creationdate="20201001T111525Z">
+        <seg>Configuration of the Input Data Set</seg>
       </tuv>
     </tu>
     <tu>
