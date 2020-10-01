@@ -1062,6 +1062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Удалить все...&lt;x4/&gt; — удаляет все дочерние узлы (комбинация горячих клавиш &lt;x5/&gt;Shift+Delete&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161039Z" creationid="Марианна" creationdate="20201001T161039Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Delete all...&lt;x4/&gt; enables to delete all child nodes (combination of &lt;x5/&gt;Shift+Delete&lt;x6/&gt; hot keys).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; — аналитическая платформа, позволяющая в единой среде выполнить все этапы бизнес-анализа от консолидации данных и построения моделей до визуализации и интеграции в бизнес-процесс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T093642Z" creationid="Марианна" creationdate="20200813T093642Z">
@@ -4210,6 +4218,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T200456Z" creationid="Марианна" creationdate="20200916T200456Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the format of the DDF files in the Deductor platform used earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Удалить корневой узел &lt;x3/&gt;Root&lt;x4/&gt; нельзя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161130Z" creationid="Марианна" creationdate="20201001T161130Z">
+        <seg>&lt;x1/&gt;Note: it is not possible to delete &lt;x2/&gt; Delete root node &lt;x3/&gt;Root&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10138,6 +10154,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072256Z" creationid="Марианна" creationdate="20200817T072247Z">
         <seg>Selecting the process on the information panel, it is possible to call the context menu containing the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выполнении команд &lt;x1/&gt;&lt;x2/&gt;  &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt;, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Добавить соседний узел&lt;x8/&gt;, &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Редактировать...&lt;x12/&gt; задаются значения полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161327Z" creationid="Марианна" creationdate="20201001T161327Z">
+        <seg>When running the following commands: &lt;x1/&gt;&lt;x2/&gt;  &lt;x3/&gt;Add child node&lt;x4/&gt;, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Add neighboring node&lt;x8/&gt;, &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Edit...&lt;x12/&gt;, the following fields values are set:</seg>
       </tuv>
     </tu>
     <tu>
