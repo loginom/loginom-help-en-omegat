@@ -6641,6 +6641,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае имена полей не важны, однако типы данных должны совпадать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164650Z" creationid="Марианна" creationdate="20201001T164650Z">
+        <seg>In this case, fields names are not important. However, data types must still coincide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае на панели инструментов появляется кнопка &lt;x5/&gt;&lt;x6/&gt; с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093856Z" creationid="Марианна" creationdate="20200820T105750Z">
@@ -10863,6 +10871,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Связи между узлами можно удалять:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164730Z" creationid="Марианна" creationdate="20201001T164730Z">
+        <seg>It is possible to delete the links between nodes as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Связи также можно установить вручную, с помощью метода &lt;x5/&gt;Drag-and-drop&lt;x6/&gt; путем перетаскивания элемента из левого списка на элемент из правого списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163735Z" creationid="Марианна" creationdate="20201001T163447Z">
@@ -11955,6 +11971,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
         <seg>Figure 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>с помощью кнопки  &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все связи&lt;x4/&gt; — удаляет все связи;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164853Z" creationid="Марианна" creationdate="20201001T164853Z">
+        <seg>using &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all links&lt;x4/&gt; button, it deletes all links;</seg>
       </tuv>
     </tu>
     <tu>
