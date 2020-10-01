@@ -96,13 +96,13 @@ It is possible to check the selected node by pressing *Enter*. Pressing *Enter* 
 Logics of Nodes Selection:
 
 * When selecting a node, its parents are also selected, up to its root.
-* When branch deselecting, .
-* Глобальный индекс узла - узел отсутствует в древовидной структуре данных, однако он появляется в отображении дерева и указывает на индекс, используемый в узле-массиве. Его можно выбрать, при этом также выбирается и узел массива.
-   Узел получает индекс -1, который учитывается при сортировке.
-   При выборе узла для него формируется колонка с именем узла массива с добавлением  "_global_index" и меткой узла массива с добавлением "|Глобальный индекс".
+* When branch deselecting, all its descendants are deselected.
+* Global node index: the node is absent in the tree-like data structure. However, it appears in the tree view and points to the index used in the array node. It can be selected but the array node can be selected as well.
+   The node gets -1 index that is taken into account when sorting.
+   When selecting the node, a column with the array node name with "_global_index" added and the array node caption with "|Global index" added is generated for it.
 
-> **Важно:** Компонент будет выдавать ошибку при выходе со страницы настройки или при выполнении, если у него нет ни одного выбранного узла.
+> **Important:** The component will throw an error message when leaving the configuration page or when executing if it doesn't have selected nodes.
 
-**Дублировать значения родительских узлов** – если в структуре имеется родительский узел и последовательность потомков, значение родительского узла будет продублировано для каждой строки, образованной из последовательности потомков.
+**Repeat parent node values**: if there are a parent node and a sequence of descendants in the structure, the parent node value will be repeated for each string generated from a sequence of descendants.
 
-**Генерировать составные метки полей** – при наличии данного флага используется составная метка узла массива: в метках полей будет отражена иерархия относительно корневого элемента.
+**Generate composite field captions**: when this flag is present, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.
