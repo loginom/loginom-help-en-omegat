@@ -9286,6 +9286,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Панель инструментов и контекстное меню списка Входное дерево содержит команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T113610Z" creationid="Марианна" creationdate="20201001T113610Z">
+        <seg>The toolbar and context menu of the Input Tree list contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параллельная обработка не поддерживается циклом с постусловием.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T203723Z" creationid="Марианна" creationdate="20200921T203723Z">
