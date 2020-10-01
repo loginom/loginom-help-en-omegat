@@ -7759,6 +7759,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Загрузка структуры узлов из XSD схемы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162130Z" creationid="Марианна" creationdate="20201001T162130Z">
+        <seg>Loading of the Nodes Structure from the XSD Schema</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание структуры узлов вручную</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112343Z" creationid="Марианна" creationdate="20201001T112343Z">
@@ -11099,6 +11107,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120750Z" creationid="Марианна" creationdate="20200718T120750Z">
         <seg>Structural Approach</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структуру выходного дерева можно загрузить из файла формата XSD с помощью команды &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить из XSD...&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162239Z" creationid="Марианна" creationdate="20201001T162239Z">
+        <seg>The output tree structure can be loaded from the XSD file using &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load from XSD...&lt;x4/&gt; command.</seg>
       </tuv>
     </tu>
     <tu>
