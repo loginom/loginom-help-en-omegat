@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Дерево в таблицу</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T110659Z" creationid="Марианна" creationdate="20201001T110659Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Tree to Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Клонировать узел — клонирование выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133022Z" creationid="Марианна" creationdate="20200819T133022Z">
@@ -8934,6 +8942,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик преобразует данные, представленные в иерархической древовидной форме, в таблицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T110903Z" creationid="Марианна" creationdate="20201001T110903Z">
+        <seg>The handler transforms the data represented in the hierarchic tree-like form to table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик экспортирует таблицы данных в файлы для программы Microsoft Excel.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193530Z" creationid="Марианна" creationdate="20200916T193530Z">
@@ -9138,6 +9154,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
         <seg>Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отмеченные узлы будут выведены в колонки выходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T111324Z" creationid="Марианна" creationdate="20201001T111324Z">
+        <seg>The selected nodes will be organized in columns of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
