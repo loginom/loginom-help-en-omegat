@@ -694,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt;  и  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Переместить вниз&lt;x8/&gt; — позволяют менять порядок узлов, при этом корневой узел &lt;x9/&gt;Root&lt;x10/&gt; переместить нельзя (команды также доступны по комбинации горячих клавиш &lt;x11/&gt;Ctrl+Up&lt;x12/&gt; и &lt;x13/&gt;Ctrl+Down&lt;x14/&gt; соответственно).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T115615Z" creationid="Марианна" creationdate="20201001T115615Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt;  and  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Move down&lt;x8/&gt; enable to change the order of nodes. In this case, it is not possible to move the &lt;x9/&gt;Root&lt;x10/&gt; root node (the commands are also available when using &lt;x11/&gt;Ctrl+Up&lt;x12/&gt; and &lt;x13/&gt;Ctrl+Down&lt;x14/&gt; combinations of hot keys, correspondingly).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переобучить узел&lt;x4/&gt; — переобучает выделенный узел;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132639Z" creationid="Марианна" creationdate="20200819T132639Z">
