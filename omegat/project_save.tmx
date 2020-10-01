@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; – помечает все узлы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165559Z" creationid="Марианна" creationdate="20201001T165559Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Check all&lt;x4/&gt; enables to check all nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; — помечает все узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113657Z" creationid="Марианна" creationdate="20201001T113657Z">
@@ -666,6 +674,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T115953Z" creationid="Марианна" creationdate="20201001T115818Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load from XSD...&lt;x4/&gt; enables to load the structure of nodes of the output tree from the XSD file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Инвертировать выделение&lt;x4/&gt; – меняет выбранные узлы на невыбранные и наоборот.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165644Z" creationid="Марианна" creationdate="20201001T165644Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Invert selection&lt;x4/&gt; enables to invert the selected nodes to unselected and vice versa.</seg>
       </tuv>
     </tu>
     <tu>
@@ -754,6 +770,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160321Z" creationid="Марианна" creationdate="20201001T160236Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Map fields&lt;x4/&gt; enables to map a list of output port fields to a list of the input ones (the mapping algorithm is described in the</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Снять выделение со всех&lt;x4/&gt; – снимает выделение со всех узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165618Z" creationid="Марианна" creationdate="20201001T165618Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Deselect all&lt;x4/&gt; enables to deselect all nodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7611,6 +7635,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161521Z" creationid="Марианна" creationdate="20200917T161521Z">
         <seg>There are the following available options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступные действия представлены в виде кнопок на панели инструментов и в контекстном меню:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T165535Z" creationid="Марианна" creationdate="20201001T165535Z">
+        <seg>Available actions are represented in the form of the toolbar buttons and in the context menu:</seg>
       </tuv>
     </tu>
     <tu>
