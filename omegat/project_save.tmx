@@ -10561,8 +10561,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>При снятии выделения с ветки выделение снимается и со всех потомков.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T170330Z" creationid="Марианна" creationdate="20201001T170330Z">
-        <seg>When branch deselecting, .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T185358Z" creationid="Марианна" creationdate="20201001T170330Z">
+        <seg>When branch deselecting, all its descendants are deselected.</seg>
       </tuv>
     </tu>
     <tu>
