@@ -1,42 +1,42 @@
-# ![](../../images/icons/components/tree-to-data_default.svg) Дерево в таблицу
+# ![](../../images/icons/components/tree-to-data_default.svg) Tree to Table
 
-Обработчик преобразует данные, представленные в иерархической древовидной форме, в таблицу. Отмеченные узлы будут выведены в колонки выходного набора данных.
+The handler transforms the data represented in the hierarchic tree-like form to table. The selected nodes will be organized in columns of the output data set.
 
 ### Input
 
-![](../../images/icons/app/node/ports/inputs/tree_inactive.svg) **Входное дерево** — набор данных в иерархической древовидной форме.
+![](../../images/icons/app/node/ports/inputs/tree_inactive.svg) **Input tree** is a data set in the hierarchic tree-like form.
 
 ### Output
 
-![](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
+![](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** is data table.
 
 ## Wizard
 
-### Настройка входного набора
+### Configuration of the Input Data Set
 
-Данные во входном порте обработчика представлены в виде входного и выходного наборов.
+The data in the input port of the handler are represented in the form of input and output data sets.
 
-В списке Входное дерево отображаются поля принятого портом набора данных, которые следует сопоставить с полями набора, подаваемого портом на обработку — Выходное дерево (подробнее см. [Порты](../../scenario/ports/README.md)).
+The Input Tree list displays fields of the data set accepted by the port. It is required to map them with fields of the data set supplied by the port for processing - Output Tree (refer to [Ports](../../scenario/ports/README.md)).
 
-Структуру набора, подаваемого на обработку, можно задать вручную или загрузить из файла *.xsd.
+It is possible to set the structure of the set supplied for processing in manual way, or to download it from the *.xsd file.
 
-#### Задание структуры узлов вручную
+#### Manual Setting of the Nodes Structure
 
-При ручном формировании структуры набора, который впоследствии будет подан на обаботку, используются команды панели инструментов или контекстного меню.
+In the case of the manual structuring of the data set to be subsequently supplied for processing, the context menu or toolbar commands will be used.
 
-Панель инструментов и контекстное меню списка Входное дерево содержит команды:
+The toolbar and context menu of the Input Tree list contains the following commands:
 
-* ![](../../images/icons/toolbar-controls/check-all_default.svg) **Выбрать все** — помечает все узлы.
-* ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Снять выделение со всех** — снимает выделение со всех узлов.
-* ![](../../images/icons/toolbar-controls/reverse-check_default.svg) **Инвертировать выделение** — поменять выбранные узлы на невыбранные и наоборот.
+* ![](../../images/icons/toolbar-controls/check-all_default.svg) **Check all** enables to check all nodes.
+* ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
+* ![](../../images/icons/toolbar-controls/reverse-check_default.svg) **Invert selection**enables to invert the selected nodes to unselected and vice versa.
 
-Для списка Выходное дереево на панели инструментов и в контекстном меню доступны команды:
+The following commands are available for the Output Tree list in the context menu and toolbar:
 
-* ![](../../images/icons/wizards/datatree/add-child_default.svg) **Добавить дочерний узел** — позволяет добавить к корневому узлу дочерний узел.
-* ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел** — позволяет создать узел того же уровня иерархии, что и выбранный.
-* ![](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать...** — позволяет вызвать окно редактирования и изменить значения полей для выбранного узла (команду также можно вызвать горячей клавишей *F2*).
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх**  и  ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — позволяют менять порядок узлов, при этом корневой узел **Root** переместить нельзя (команды также доступны по комбинации горячих клавиш *Ctrl+Up* и *Ctrl+Down* соответственно).
-* ![](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Загрузить из XSD...** - загружает структуру узлов выходного дерева из файла формата XSD.
+* ![](../../images/icons/wizards/datatree/add-child_default.svg) **Add child node** enables to add the child node to the root node.
+* ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node** enables to create the node of the same hierarchic level as provided for the selected one.
+* ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit...** enables to call the editing window and change values of the fields for the selected node (the command can be called using *F2* hot key).
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up**  and  ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enable to change the order of nodes. In this case, it is not possible to move the **Root** root node (the commands are also available when using *Ctrl+Up* and *Ctrl+Down* combinations of hot keys, correspondingly).
+* ![](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** enables to load the structure of nodes of the output tree from the XSD file.
 * ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Синхронизировать поля** — синхронизируется список выходных полей порта со списком входных (алгоритм синхронизации см. [автоматическая синхронизация полей](../../scenario/ports/field-synchronization.md)).
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Автоматическая синхронизация** — при включении данного режима команда  ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Синхронизировать поля** будет выполняться автоматически при выполнении узла (включена по умолчанию).
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удаляет дочерний узел дерева, иконка этой команды высвечивается при наведении курсора на узел (команду также можно вызвать горячей клавишей *Delete*).
@@ -84,7 +84,7 @@ After filling in all the fields it is required to press **Load** button, and the
 
 ### Выбор узлов дерева
 
-Мастер настройки обработчика представляет собой отображение дерева (дерево, поданое на выход входного порта) с возможностью выбора некоторых или всех узлов. Отмеченные узлы будут выведены в колонки выходного набора данных.
+Мастер настройки обработчика представляет собой отображение дерева (дерево, поданое на выход входного порта) с возможностью выбора некоторых или всех узлов. The selected nodes will be organized in columns of the output data set.
 
 Доступные действия представлены в виде кнопок на панели инструментов и в контекстном меню:
 
