@@ -2049,8 +2049,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные элементы&lt;x2/&gt; — правая часть с уже выбранными элементами, позволяет указать интересуемые элементы из первого и задать им необходимые условия и значения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T201109Z" creationid="Марианна" creationdate="20200827T200105Z">
-        <seg>&lt;x1/&gt;Selected items&lt;x2/&gt; are in the right part. It contains already chosen elements. It enables to specify the required elements in the first one and set necessary conditions and values for them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164251Z" creationid="Марианна" creationdate="20200827T200105Z">
+        <seg>&lt;x1/&gt;Selected items&lt;x2/&gt; are in the right part. It contains already chosen items. It enables to specify the required items in the first one and set necessary conditions and values for them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2489,8 +2489,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные элементы&lt;x2/&gt; — левая часть, содержит список возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T201049Z" creationid="Марианна" creationdate="20200827T195837Z">
-        <seg>&lt;x1/&gt;Available items&lt;x2/&gt; are in the left part. It contains a list of elements that can be chosen in accordance with the object selected at the previous stage.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164227Z" creationid="Марианна" creationdate="20200827T195837Z">
+        <seg>&lt;x1/&gt;Available items&lt;x2/&gt; are in the left part. It contains a list of items that can be chosen in accordance with the object selected at the previous stage.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3113,8 +3113,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут экспортироваться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T091351Z" creationid="Марианна" creationdate="20200918T091351Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element according to which data will be exported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164002Z" creationid="Марианна" creationdate="20200918T091351Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root item according to which data will be exported.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6945,8 +6945,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выбрать элемент для связи и в колонке &lt;x1/&gt;Связанные поля&lt;x2/&gt; щелкнуть левой кнопкой мыши по его ячейке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T095357Z" creationid="Марианна" creationdate="20200918T095357Z">
-        <seg>It is required to select the element to be linked, and left-click its cell in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164030Z" creationid="Марианна" creationdate="20200918T095357Z">
+        <seg>It is required to select the item to be linked, and left-click its cell in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8313,8 +8313,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Кнопка-переключатель в состоянии фильтра &lt;x3/&gt; &lt;x4/&gt; предоставляет в окне выбора только те поля, которые еще не связаны с какими-либо элементами, а в простом состоянии &lt;x5/&gt; &lt;x6/&gt; предоставляет к выбору все поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200928T063839Z" creationid="Марианна" creationdate="20200918T100036Z">
-        <seg>Switch button in the state of &lt;x3/&gt; &lt;x4/&gt; filter displays in the selection window only the fields that are not linked to any elements yet, and in the common &lt;x5/&gt; &lt;x6/&gt; state it dispalys all fields for selection.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164217Z" creationid="Марианна" creationdate="20200918T100036Z">
+        <seg>Switch button in the state of &lt;x3/&gt; &lt;x4/&gt; filter displays in the selection window only the fields that are not linked to any items yet, and in the common &lt;x5/&gt; &lt;x6/&gt; state it dispalys all fields for selection.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9081,8 +9081,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Не указывать для даты — не указывать временную зону для элементов типа Date.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T100832Z" creationid="Марианна" creationdate="20200918T100832Z">
-        <seg>Do not specify for Date: do not specify the time zone for the Date type elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164040Z" creationid="Марианна" creationdate="20200918T100832Z">
+        <seg>Do not specify for Date: do not specify the time zone for the Date type items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9993,8 +9993,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Помимо автоматической связи, входные и выходные узлы можно связывать вручную с помощью метода &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; путем перетаскивания метки поля из левого списка полей на элемент из правого списка полей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T193619Z" creationid="Марианна" creationdate="20200929T193619Z">
-        <seg>Apart from the auto link, it is possible to link input and output nodes using the &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; method by dragging the field caption from the left list of fields to the element from the right list of fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164104Z" creationid="Марианна" creationdate="20200929T193619Z">
+        <seg>Apart from the auto link, it is possible to link input and output nodes using the &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; method by dragging the field caption from the left list of fields to the item from the right list of fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11057,8 +11057,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Сопоставление полей для экспорта</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T091247Z" creationid="Марианна" creationdate="20200918T091247Z">
-        <seg>Field Mapping for Export</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T163945Z" creationid="Марианна" creationdate="20200918T091247Z">
+        <seg>Fields Mapping for Export</seg>
       </tuv>
     </tu>
     <tu>
