@@ -7711,6 +7711,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Его можно выбрать, при этом также выбирается и узел массива.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T185947Z" creationid="Марианна" creationdate="20201001T185947Z">
+        <seg>It can be selected but the array node can be selected as well.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Его можно разделить на четыре основные области (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T123020Z" creationid="Марианна" creationdate="20200716T123020Z">
