@@ -7081,8 +7081,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Глобальный индекс узла - узел отсутствует в древовидной структуре данных, однако он появляется в отображении дерева и указывает на индекс, используемый в узле-массиве.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T185904Z" creationid="Марианна" creationdate="20201001T185904Z">
-        <seg>Global node index: the node is absent in the tree-like data structure. However, it appears in the tree view and points to the index used in the node-array</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T185956Z" creationid="Марианна" creationdate="20201001T185904Z">
+        <seg>Global node index: the node is absent in the tree-like data structure. However, it appears in the tree view and points to the index used in the array node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11595,6 +11595,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102649Z" creationid="Марианна" creationdate="20200929T102649Z">
         <seg>The &lt;x1/&gt;Table to tree&lt;x2/&gt; node enables to transform the source data displayed in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел получает индекс -1, который учитывается при сортировке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T190043Z" creationid="Марианна" creationdate="20201001T190043Z">
+        <seg>The node gets -1 index that is taken into account when sorting.</seg>
       </tuv>
     </tu>
     <tu>
