@@ -10214,6 +10214,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При ручном формировании структуры набора, который впоследствии будет подан на обаботку, используются команды панели инструментов или контекстного меню.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T113540Z" creationid="Марианна" creationdate="20201001T113540Z">
+        <seg>In the case of the manual structuring of the data set to be subsequently supplied for processing, the context menu or toolbar commands will be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При создании &lt;x1/&gt;Узел-ссылка&lt;x2/&gt; не имеет &lt;x3/&gt;портов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092243Z" creationid="Марианна" creationdate="20200919T092243Z">
