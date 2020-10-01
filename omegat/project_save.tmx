@@ -782,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удаляет дочерний узел дерева, иконка этой команды высвечивается при наведении курсора на узел (команду также можно вызвать горячей клавишей &lt;x5/&gt;Delete&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T160948Z" creationid="Марианна" creationdate="20201001T160948Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by &lt;x5/&gt;Delete&lt;x6/&gt; hot key).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Автоматическое упорядочивание узлов — автоматическое расположение узлов на области Сценария в соответствии с их последовательностью обработки данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132205Z" creationid="Марианна" creationdate="20200819T132205Z">
