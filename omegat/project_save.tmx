@@ -1366,6 +1366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора файла (не редактируемое).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162414Z" creationid="Марианна" creationdate="20201001T162414Z">
+        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt; — поле для выбора файла (не редактируемое).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;^1&lt;x2/&gt;: Доступно только для редакций с возможностью публикации &lt;x3/&gt;Веб-сервисов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090055Z" creationid="Марианна" creationdate="20200816T132034Z">
@@ -6445,6 +6453,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T185515Z" creationid="Марианна" creationdate="20200929T185515Z">
         <seg>The following fields will be available in the appeared dialog window:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В появившемся диалоговом окне необходимо заполнить поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162342Z" creationid="Марианна" creationdate="20201001T162342Z">
+        <seg>It is possible to fill in the following fields in the appeared dialog window:</seg>
       </tuv>
     </tu>
     <tu>
