@@ -10039,6 +10039,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пометить выделенный узел можно нажав клавишу &lt;x1/&gt;Enter&lt;x2/&gt;, повторное нажание &lt;x3/&gt;Enter&lt;x4/&gt; снимает выделение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T170032Z" creationid="Марианна" creationdate="20201001T170032Z">
+        <seg>It is possible to check the selected node by pressing &lt;x1/&gt;Enter&lt;x2/&gt;. Pressing &lt;x3/&gt;Enter&lt;x4/&gt; repeatedly allows for deselection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Помимо автоматического, возможно связывание полей и объектов XML вручную двумя способами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T095007Z" creationid="Марианна" creationdate="20200918T095007Z">
