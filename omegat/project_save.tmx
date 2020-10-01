@@ -864,8 +864,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать в виде таблицы — компактное отображение Сценария в виде таблицы, содержащей используемые элементы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T131627Z" creationid="Марианна" creationdate="20200819T131627Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Show as table provides compact display of the Workflow in the form of a table that contains used elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164323Z" creationid="Марианна" creationdate="20200819T131627Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Show as table provides compact display of the Workflow in the form of a table that contains used items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4371,8 +4371,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T120529Z" creationid="Марианна" creationdate="20200718T120529Z">
-        <seg>The &lt;x1/&gt;Project&lt;x2/&gt; is a complex of workflows, files, data sources and other elements designated for solution of a particular analytical task.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164424Z" creationid="Марианна" creationdate="20200718T120529Z">
+        <seg>The &lt;x1/&gt;Project&lt;x2/&gt; is a complex of workflows, files, data sources and other items designated for solution of a particular analytical task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6667,8 +6667,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T075828Z" creationid="Марианна" creationdate="20200716T075828Z">
-        <seg>Cells of such table contain the data elements: rows, numbers, dates, logical values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164528Z" creationid="Марианна" creationdate="20200716T075828Z">
+        <seg>Cells of such table contain the data items: rows, numbers, dates, logical values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6817,8 +6817,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Все связи разом можно удалить с помощью кнопки  &lt;x1/&gt;Удалить все связи&lt;x2/&gt;&lt;x3/&gt;Удалить все связи&lt;x4/&gt;, либо с помощью команды контекстного меню  &lt;x5/&gt;Удалить все связи&lt;x6/&gt;&lt;x7/&gt;Удалить все связи&lt;x8/&gt;, вызванного на любом из элементов списке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T193917Z" creationid="Марианна" creationdate="20200929T193917Z">
-        <seg>All links can be deleted at once using &lt;x1/&gt;Delete all links&lt;x2/&gt;&lt;x3/&gt;Delete all links&lt;x4/&gt; button, or using the context menu command - &lt;x5/&gt;Delete all links&lt;x6/&gt;&lt;x7/&gt;Delete all links&lt;x8/&gt; called in any of the list elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164359Z" creationid="Марианна" creationdate="20200929T193917Z">
+        <seg>All links can be deleted at once using &lt;x1/&gt;Delete all links&lt;x2/&gt;&lt;x3/&gt;Delete all links&lt;x4/&gt; button, or using the context menu command - &lt;x5/&gt;Delete all links&lt;x6/&gt;&lt;x7/&gt;Delete all links&lt;x8/&gt; called in any of the list items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7457,8 +7457,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для удаления какой-либо конкретной связи можно воспользоваться командой контекстного меню &lt;x9/&gt;Удалить связь&lt;x10/&gt;&lt;x11/&gt;Удалить связь&lt;x12/&gt;, вызванную на одном из связанных элементов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T194113Z" creationid="Марианна" creationdate="20200929T193953Z">
-        <seg>To delete any particular link, it is possible to use the context menu command - &lt;x9/&gt;Delete link&lt;x10/&gt;&lt;x11/&gt;Delete link&lt;x12/&gt; called in one of the linked elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164410Z" creationid="Марианна" creationdate="20200929T193953Z">
+        <seg>To delete any particular link, it is possible to use the context menu command - &lt;x9/&gt;Delete link&lt;x10/&gt;&lt;x11/&gt;Delete link&lt;x12/&gt; called in one of the linked items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8793,8 +8793,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T170805Z" creationid="Марианна" creationdate="20200718T140932Z">
-        <seg>Subtasks are similarly described at the next step with specification of the next level elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T164438Z" creationid="Марианна" creationdate="20200718T140932Z">
+        <seg>Subtasks are similarly described at the next step with specification of the next level items.</seg>
       </tuv>
     </tu>
     <tu>
