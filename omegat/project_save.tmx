@@ -3063,6 +3063,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Контейнер&lt;x2/&gt; — если флаг установлен, выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161752Z" creationid="Марианна" creationdate="20201001T161752Z">
+        <seg>&lt;x1/&gt;Container&lt;x2/&gt;: when selecting the flag, the selected child node will be a root node for other created child nodes of different types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Контейнер&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113432Z" creationid="Марианна" creationdate="20200929T113432Z">
@@ -3195,6 +3203,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113302Z" creationid="Марианна" creationdate="20200929T113302Z">
         <seg>&lt;x1/&gt;Array&lt;x2/&gt;: when selecting this checkbox, the selected child node will be defined as ordered set (array) of one data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при установке флага выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T161711Z" creationid="Марианна" creationdate="20201001T161711Z">
+        <seg>&lt;x1/&gt;Array&lt;x2/&gt;: when selecting the flag, the selected child node will be defined as ordered set (array) of one data type.</seg>
       </tuv>
     </tu>
     <tu>
