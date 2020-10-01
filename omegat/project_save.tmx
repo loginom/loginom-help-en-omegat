@@ -3095,6 +3095,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого узла из списка в загруженном файле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162738Z" creationid="Марианна" creationdate="20201001T162738Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; enables selection of the root node from the list in the loaded file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут импортироваться.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T215602Z" creationid="Марианна" creationdate="20200829T215602Z">
@@ -4421,6 +4429,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T185942Z" creationid="Марианна" creationdate="20200929T185632Z">
         <seg>&lt;x1/&gt;Namespace&lt;x2/&gt; enables to select a namespace from a list of all namespaces described in the *.xsd file. It limits selection of the root element only by the specified space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пространство имен&lt;x2/&gt; — выбор пространства имен из списка всех пространств имен описанных в файле XSD, ограничивает выбор корневого элемента только указанным пространством.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162620Z" creationid="Марианна" creationdate="20201001T162620Z">
+        <seg>&lt;x1/&gt;Namespace&lt;x2/&gt; enables to select a namespace from a list of all namespaces described in the XSD file. It limits selection of the root element only by the specified space.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9743,6 +9759,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию имеет значение первого корневого узла выбранного файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162826Z" creationid="Марианна" creationdate="20201001T162826Z">
+        <seg>Value of the first root node of the selected file is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию информационная панель скрыта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T075420Z" creationid="Марианна" creationdate="20200817T075420Z">
@@ -9787,6 +9811,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113849Z" creationid="Марианна" creationdate="20200716T140736Z">
         <seg>It is concealed by default, but it is possibble to lock it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию принимает значение &lt;x3/&gt;Все пространства имен&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162648Z" creationid="Марианна" creationdate="20201001T162648Z">
+        <seg>&lt;x3/&gt;All namespaces&lt;x4/&gt; value is set by default.</seg>
       </tuv>
     </tu>
     <tu>
