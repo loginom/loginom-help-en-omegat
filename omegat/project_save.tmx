@@ -1360,16 +1360,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора *.xsd-файла (не редактируемое).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T185859Z" creationid="Марианна" creationdate="20200929T185618Z">
-        <seg>The &lt;x1/&gt;XSD file&lt;x2/&gt; — a field for selection of the *.xsd file (not edited).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162451Z" creationid="Марианна" creationdate="20200929T185618Z">
+        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt; denotes a field for selection of the *.xsd file (not edited).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора файла (не редактируемое).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T162414Z" creationid="Марианна" creationdate="20201001T162414Z">
-        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt; — поле для выбора файла (не редактируемое).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T162522Z" creationid="Марианна" creationdate="20201001T162414Z">
+        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt; denotes a field for the file selection (not edited).</seg>
       </tuv>
     </tu>
     <tu>
