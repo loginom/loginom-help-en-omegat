@@ -656,8 +656,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить из XSD...&lt;x4/&gt; - загружает структуру узлов выходного дерева из файла формата XSD.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T115818Z" creationid="Марианна" creationdate="20201001T115818Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load from XSD...&lt;x4/&gt; enables to load the structure of nodes of the output tree from the XSD files.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T115953Z" creationid="Марианна" creationdate="20201001T115818Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load from XSD...&lt;x4/&gt; enables to load the structure of nodes of the output tree from the XSD file.</seg>
       </tuv>
     </tu>
     <tu>
