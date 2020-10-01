@@ -7079,6 +7079,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Глобальный индекс узла - узел отсутствует в древовидной структуре данных, однако он появляется в отображении дерева и указывает на индекс, используемый в узле-массиве.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T185904Z" creationid="Марианна" creationdate="20201001T185904Z">
+        <seg>Global node index: the node is absent in the tree-like data structure. However, it appears in the tree view and points to the index used in the node-array</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Год.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083425Z" creationid="Марианна" creationdate="20200918T083425Z">
