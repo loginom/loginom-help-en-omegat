@@ -2247,6 +2247,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; – при наличии данного флага используется составная метка узла массива: в метках полей будет отражена иерархия относительно корневого элемента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T191819Z" creationid="Марианна" creationdate="20201001T191819Z">
+        <seg>&lt;x1/&gt;Generate composite field captions&lt;x2/&gt;: when this flag is present, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; — при наличии данного флага в каждой метке поля будет отражена иерархия относительно корневого элемента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T221931Z" creationid="Марианна" creationdate="20200829T221931Z">
