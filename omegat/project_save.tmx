@@ -614,6 +614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Автоматическая синхронизация&lt;x4/&gt; — при включении данного режима команда  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Синхронизировать поля&lt;x8/&gt; будет выполняться автоматически при выполнении узла (включена по умолчанию).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T160641Z" creationid="Марианна" creationdate="20201001T160641Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Automapping&lt;x4/&gt;: when enabling this mode, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Map fields&lt;x8/&gt; command will be automatically performed during the node execution (enabled by default).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входное дерево&lt;x4/&gt; — набор данных в иерархической древовидной форме.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T111405Z" creationid="Марианна" creationdate="20201001T111405Z">
@@ -744,8 +752,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Синхронизировать поля&lt;x4/&gt; — синхронизируется список выходных полей порта со списком входных (алгоритм синхронизации см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T160236Z" creationid="Марианна" creationdate="20201001T160236Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Map fields&lt;x4/&gt; enables to map a list of output port fields to a list of the input ones (the Synchronization algorithm is described in</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T160321Z" creationid="Марианна" creationdate="20201001T160236Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Map fields&lt;x4/&gt; enables to map a list of output port fields to a list of the input ones (the mapping algorithm is described in the</seg>
       </tuv>
     </tu>
     <tu>
@@ -5668,6 +5676,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204025Z" creationid="Марианна" creationdate="20200829T204025Z">
         <seg>&lt;x1/&gt;show&lt;x2/&gt; &lt;x3/&gt;Show&lt;x4/&gt; enables to define whether this item will be added in the form of a field to the output data set. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x5/&gt;автоматическая синхронизация полей&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T160328Z" creationid="Марианна" creationdate="20201001T160304Z">
+        <seg>&lt;x5/&gt;Automapping of Fields&lt;x6/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
