@@ -638,6 +638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt; — позволяет добавить к корневому узлу дочерний узел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T114614Z" creationid="Марианна" creationdate="20201001T114614Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add child node&lt;x4/&gt; enables to add the child node to the root node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Инвертировать выделение&lt;x4/&gt; — поменять выбранные узлы на невыбранные и наоборот.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T114206Z" creationid="Марианна" creationdate="20201001T114206Z">
@@ -7242,6 +7250,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
         <seg>The following actions are required to create the node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для списка Выходное дереево на панели инструментов и в контекстном меню доступны команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201001T114506Z" creationid="Марианна" creationdate="20201001T114506Z">
+        <seg>The following commands are available for the Output Tree list in the context menu and toolbar:</seg>
       </tuv>
     </tu>
     <tu>
