@@ -3113,8 +3113,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Контейнер&lt;x2/&gt; - это узел, который может содержать дочерние узлы (при этом количество дочерних узлов может быть равно 0), но не может содержать значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T084024Z" creationid="Марианна" creationdate="20200929T084024Z">
-        <seg>&lt;x1/&gt;Container&lt;x2/&gt; is a node that can include child nodes (and there can be 0 child nodes) but it cannot have value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T073025Z" creationid="Марианна" creationdate="20200929T084024Z">
+        <seg>&lt;x1/&gt;Container&lt;x2/&gt; is a node that can include child nodes (and there can be 0 child nodes) but it cannot have a value.</seg>
       </tuv>
     </tu>
     <tu>
