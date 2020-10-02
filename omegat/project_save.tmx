@@ -728,8 +728,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt;  и  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Переместить вниз&lt;x8/&gt; — позволяют менять порядок узлов, при этом корневой узел &lt;x9/&gt;Root&lt;x10/&gt; переместить нельзя (команды также доступны по комбинации горячих клавиш &lt;x11/&gt;Ctrl+Up&lt;x12/&gt; и &lt;x13/&gt;Ctrl+Down&lt;x14/&gt; соответственно).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T115615Z" creationid="Марианна" creationdate="20201001T115615Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt;  and  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Move down&lt;x8/&gt; enable to change the order of nodes. In this case, it is not possible to move the &lt;x9/&gt;Root&lt;x10/&gt; root node (the commands are also available when using &lt;x11/&gt;Ctrl+Up&lt;x12/&gt; and &lt;x13/&gt;Ctrl+Down&lt;x14/&gt; combinations of hot keys, correspondingly).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075251Z" creationid="Марианна" creationdate="20201001T115615Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt;  and  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Move down&lt;x8/&gt; enable to change the order of nodes. In this case, it is not possible to move the &lt;x9/&gt;Root&lt;x10/&gt; root node (the commands are also available when using &lt;x11/&gt;Ctrl+Up&lt;x12/&gt; and &lt;x13/&gt;Ctrl+Down&lt;x14/&gt; combinations of hotkeys, correspondingly).</seg>
       </tuv>
     </tu>
     <tu>
@@ -752,8 +752,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать...&lt;x4/&gt; — позволяет вызвать окно редактирования и изменить значения полей для выбранного узла (команду также можно вызвать горячей клавишей &lt;x5/&gt;F2&lt;x6/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T115303Z" creationid="Марианна" creationdate="20201001T115303Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit...&lt;x4/&gt; enables to call the editing window and change values of the fields for the selected node (the command can be called using &lt;x5/&gt;F2&lt;x6/&gt; hot key).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075245Z" creationid="Марианна" creationdate="20201001T115303Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit...&lt;x4/&gt; enables to call the editing window and change values of the fields for the selected node (the command can be called using &lt;x5/&gt;F2&lt;x6/&gt; hotkey).</seg>
       </tuv>
     </tu>
     <tu>
@@ -808,8 +808,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удаляет дочерний узел дерева, иконка этой команды высвечивается при наведении курсора на узел (команду также можно вызвать горячей клавишей &lt;x5/&gt;Delete&lt;x6/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T160948Z" creationid="Марианна" creationdate="20201001T160948Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by &lt;x5/&gt;Delete&lt;x6/&gt; hot key).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075257Z" creationid="Марианна" creationdate="20201001T160948Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by &lt;x5/&gt;Delete&lt;x6/&gt; hotkey).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1088,8 +1088,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Удалить все...&lt;x4/&gt; — удаляет все дочерние узлы (комбинация горячих клавиш &lt;x5/&gt;Shift+Delete&lt;x6/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T161039Z" creationid="Марианна" creationdate="20201001T161039Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Delete all...&lt;x4/&gt; enables to delete all child nodes (combination of &lt;x5/&gt;Shift+Delete&lt;x6/&gt; hot keys).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075302Z" creationid="Марианна" creationdate="20201001T161039Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Delete all...&lt;x4/&gt; enables to delete all child nodes (combination of &lt;x5/&gt;Shift+Delete&lt;x6/&gt; hotkeys).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2297,8 +2297,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Горячие клавиши&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200812T054651Z" creationid="Марианна" creationdate="20200812T054651Z">
-        <seg>&lt;x1/&gt;Hot keys&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075320Z" creationid="Марианна" creationdate="20200812T054651Z">
+        <seg>&lt;x1/&gt;Hotkeys&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6881,8 +6881,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Все созданные дочерние узлы можно удалить нажав на кнопку &lt;x7/&gt;Удалит все...&lt;x8/&gt;&lt;x9/&gt;Удалить все...&lt;x10/&gt; (комбинация горячих клавиш &lt;x11/&gt;Shift+Delete&lt;x12/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T195738Z" creationid="Марианна" creationdate="20200929T195704Z">
-        <seg>It is possible to delete all created child nodes by pressing &lt;x7/&gt;Delete all...&lt;x8/&gt;&lt;x9/&gt;Delete all...&lt;x10/&gt; button (hot keys combination - &lt;x11/&gt;Shift+Delete&lt;x12/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075236Z" creationid="Марианна" creationdate="20200929T195704Z">
+        <seg>It is possible to delete all created child nodes by pressing &lt;x7/&gt;Delete all...&lt;x8/&gt;&lt;x9/&gt;Delete all...&lt;x10/&gt; button (hotkeys combination - &lt;x11/&gt;Shift+Delete&lt;x12/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7353,8 +7353,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T140233Z" creationid="Марианна" creationdate="20200816T140233Z">
-        <seg>Hot keys are available for some commands:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075157Z" creationid="Марианна" creationdate="20200816T140233Z">
+        <seg>Hotkeys are available for some commands:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7569,8 +7569,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этого можно воспользоваться горячей клавишей &lt;x1/&gt;F2&lt;x2/&gt;, предварительно выделив нужный узел.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T121758Z" creationid="Марианна" creationdate="20200929T121758Z">
-        <seg>For this purpose, it is possible to use &lt;x1/&gt;F2&lt;x2/&gt; hot key. First, you are to select the required node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075207Z" creationid="Марианна" creationdate="20200929T121758Z">
+        <seg>For this purpose, it is possible to use &lt;x1/&gt;F2&lt;x2/&gt; hotkey. First, you are to select the required node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7585,8 +7585,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этого необходимо выделить узел, который нужно переместить и нажать на кнопки &lt;x1/&gt;Переместить вверх&lt;x2/&gt;&lt;x3/&gt;Переместить вверх&lt;x4/&gt; (комбинация горячих клавиш &lt;x5/&gt;Ctrl+Up&lt;x6/&gt;) или &lt;x7/&gt;Переместить вниз&lt;x8/&gt;&lt;x9/&gt;Переместить вниз&lt;x10/&gt; (комбинация горячих клавиш &lt;x11/&gt;Ctrl+Down&lt;x12/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T194729Z" creationid="Марианна" creationdate="20200929T194729Z">
-        <seg>For this purpose, it is required to select the node to be moved and press &lt;x1/&gt;Move up&lt;x2/&gt;&lt;x3/&gt;Move up&lt;x4/&gt; button (hot keys combination - &lt;x5/&gt;Ctrl+Up&lt;x6/&gt;) or &lt;x7/&gt;Move down&lt;x8/&gt;&lt;x9/&gt;Move down&lt;x10/&gt; (hot keys combination - &lt;x11/&gt;Ctrl+Down&lt;x12/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075221Z" creationid="Марианна" creationdate="20200929T194729Z">
+        <seg>For this purpose, it is required to select the node to be moved and press &lt;x1/&gt;Move up&lt;x2/&gt;&lt;x3/&gt;Move up&lt;x4/&gt; button (hotkeys combination - &lt;x5/&gt;Ctrl+Up&lt;x6/&gt;) or &lt;x7/&gt;Move down&lt;x8/&gt;&lt;x9/&gt;Move down&lt;x10/&gt; (hotkeys combination - &lt;x11/&gt;Ctrl+Down&lt;x12/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7649,8 +7649,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доступны горячие клавиши, дублирующие некоторые перечисленные команды:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T204540Z" creationid="Марианна" creationdate="20200829T204540Z">
-        <seg>The following hot keys duplicating some listed commands are available:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075151Z" creationid="Марианна" creationdate="20200829T204540Z">
+        <seg>The following hotkeys duplicating some listed commands are available:</seg>
       </tuv>
     </tu>
     <tu>
@@ -11601,8 +11601,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Удалить дочерний узел можно нажав на иконку &lt;x1/&gt;Удалить&lt;x2/&gt;&lt;x3/&gt;Удалить&lt;x4/&gt; (горячая клавиша &lt;x5/&gt;Delete&lt;x6/&gt;), которая находится с правой части строки дочернего узла и видна при наведении курсора на строку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T195601Z" creationid="Марианна" creationdate="20200929T195535Z">
-        <seg>To delete a child node, it is required to press &lt;x1/&gt;Delete&lt;x2/&gt;&lt;x3/&gt;Delete&lt;x4/&gt; (&lt;x5/&gt;Delete&lt;x6/&gt; hot key) that is located in the right part of the child node string, and it is visible only when cursor hovering over the string.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075229Z" creationid="Марианна" creationdate="20200929T195535Z">
+        <seg>To delete a child node, it is required to press &lt;x1/&gt;Delete&lt;x2/&gt;&lt;x3/&gt;Delete&lt;x4/&gt; (&lt;x5/&gt;Delete&lt;x6/&gt; hotkey) that is located in the right part of the child node string, and it is visible only when cursor hovering over the string.</seg>
       </tuv>
     </tu>
     <tu>
