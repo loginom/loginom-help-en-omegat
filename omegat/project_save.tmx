@@ -10241,8 +10241,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>После открытия приложения, в случае настольной версии Loginom, или авторизации, в случае серверной версии Loginom, появляется страница «Начало» (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T105129Z" creationid="Марианна" creationdate="20200814T105129Z">
-        <seg>Upon the application opening, in the case of the desktop Loginom version, or authorization, in the case of the server Loginom version, the "Home" page is opened (refer to </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T205911Z" creationid="Марианна" creationdate="20200814T105129Z">
+        <seg>Upon the application opening, in the case of the desktop Loginom edition, or authorization, in the case of the server Loginom edition, the "Home" page is opened (refer to </seg>
       </tuv>
     </tu>
     <tu>
