@@ -8393,8 +8393,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Кнопка видна, только если все объекты не вмещаются в &lt;x5/&gt;Адресную строку&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T083901Z" creationid="Марианна" creationdate="20200814T083901Z">
-        <seg>The button is visible only if all objects have enough place in &lt;x5/&gt;Address bar&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T203847Z" creationid="Марианна" creationdate="20200814T083901Z">
+        <seg>The button is visible only if all objects do not have enough place in &lt;x5/&gt;Address bar&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
