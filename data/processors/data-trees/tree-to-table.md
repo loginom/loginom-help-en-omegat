@@ -70,7 +70,7 @@ It is possible to fill in the following fields in the appeared dialog window:
 * **Root element** enables selection of the root node from the list in the loaded file. Value of the first root node of the selected file is set by default.
 * **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. In the case of 0 value recursive nodes won't be automatically opened.
 
-After filling in all the fields it is required to press **Load** button, and the XSD schema will be loaded for further work.
+After filling in all the fields, it is required to press **Load** button, and the XSD schema will be loaded for further work.
 
 #### Fields Mapping
 
