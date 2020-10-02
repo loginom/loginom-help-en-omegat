@@ -23,7 +23,7 @@ If required, it is possible to enter the path manually. In order to do that, it 
 
 ## Reference to Object
 
-The multiuser edition enables to receive hyper link to the current opened object. Pressing ![Share](../images/icons/toolbar-controls/share_default.svg) **Share…**, it is possible to open a window with one or two paths:
+The multiuser edition enables to receive hyperlink to the current opened object. Pressing ![Share](../images/icons/toolbar-controls/share_default.svg) **Share…**, it is possible to open a window with one or two paths:
 
 * *Absolute* (for joint usage) includes a name of the folder from which a file was downloaded. It is available for different packages.
 * *Relative* (for personal usage) contains a point instead of the folder name. It is available only for user packages.
