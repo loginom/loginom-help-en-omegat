@@ -11297,8 +11297,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Ссылка на объект</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200822T084534Z" creationid="Марианна" creationdate="20200814T084727Z">
-        <seg>Reference to Package</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T204503Z" creationid="Марианна" creationdate="20200814T084727Z">
+        <seg>Reference to Object</seg>
       </tuv>
     </tu>
     <tu>
