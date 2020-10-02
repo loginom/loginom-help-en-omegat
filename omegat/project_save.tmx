@@ -688,8 +688,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Инвертировать выделение&lt;x4/&gt; — поменять выбранные узлы на невыбранные и наоборот.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T114206Z" creationid="Марианна" creationdate="20201001T114206Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Invert selection&lt;x4/&gt;enables to invert the selected nodes to unselected and vice versa.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075634Z" creationid="Марианна" creationdate="20201001T114206Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Invert selection&lt;x4/&gt; enables to invert the selected nodes to unselected and vice versa.</seg>
       </tuv>
     </tu>
     <tu>
