@@ -10193,8 +10193,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>После заполнения всех полей необходимо нажать кнопку &lt;x1/&gt;Загрузить&lt;x2/&gt; и XSD схема будет загружена для дальнейшей работы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T191354Z" creationid="Марианна" creationdate="20200929T191354Z">
-        <seg>After filling in all the fields it is required to press &lt;x1/&gt;Load&lt;x2/&gt; button, and the XSD schema will be loaded for further work.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T074118Z" creationid="Марианна" creationdate="20200929T191354Z">
+        <seg>After filling in all the fields, it is required to press &lt;x1/&gt;Load&lt;x2/&gt; button, and the XSD schema will be loaded for further work.</seg>
       </tuv>
     </tu>
     <tu>
