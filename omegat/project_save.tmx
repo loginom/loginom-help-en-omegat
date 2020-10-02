@@ -10449,8 +10449,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>При значении 0 все рекурсивные узлы не будут раскрыты автоматически</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T191136Z" creationid="Марианна" creationdate="20200929T191136Z">
-        <seg>In the case of 0 value recursive nodes won't be automatically opened.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T074053Z" creationid="Марианна" creationdate="20200929T191136Z">
+        <seg>In the case of 0 value, recursive nodes won't be automatically opened.</seg>
       </tuv>
     </tu>
     <tu>
