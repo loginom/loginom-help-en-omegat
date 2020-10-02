@@ -21,7 +21,7 @@ If required, it is possible to enter the path manually. In order to do that, it 
 \Packages\Scoring\Score calculation\Workflow
 ```
 
-## Reference to Package
+## Reference to Object
 
 The multiuser edition enables to receive hyper link to the current opened object. Pressing ![Share](../images/icons/toolbar-controls/share_default.svg) **Share…**, it is possible to open a window with one or two paths:
 
