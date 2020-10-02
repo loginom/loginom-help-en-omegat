@@ -648,8 +648,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T111446Z" creationid="Марианна" creationdate="20201001T111446Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; is data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T075518Z" creationid="Марианна" creationdate="20201001T111446Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; is a data table.</seg>
       </tuv>
     </tu>
     <tu>
