@@ -9857,8 +9857,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>По умолчанию выставляется значение &lt;x3/&gt;Все пространства имен&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T190024Z" creationid="Марианна" creationdate="20200929T190024Z">
-        <seg>&lt;x3/&gt;All namespaces&lt;x4/&gt; value is set by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T073936Z" creationid="Марианна" creationdate="20200929T190024Z">
+        <seg>The value of &lt;x3/&gt;All namespaces&lt;x4/&gt; is set by default.</seg>
       </tuv>
     </tu>
     <tu>
