@@ -11961,8 +11961,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>второй вариант — непосредственно щелкнуть левой кнопкой мыши на связь, которую необходимо удалить, и нажать на кнопку &lt;x13/&gt;Удалить связь&lt;x14/&gt; удаления связи (&lt;x15/&gt;Удалить связь&lt;x16/&gt; при наведении на нее курсора).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201002T074553Z" creationid="Марианна" creationdate="20200929T194351Z">
-        <seg>The second option is to left-click the link to be deleted, and to press &lt;x13/&gt;Delete link&lt;x14/&gt; button to delete the link (&lt;x15/&gt;Delete link&lt;x16/&gt; when cursor hovering).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T074652Z" creationid="Марианна" creationdate="20200929T194351Z">
+        <seg>The second option is to left-click the link to be deleted, and to press &lt;x13/&gt;Delete link&lt;x14/&gt; button to delete the link (when cursor hovering over &lt;x15/&gt;Delete link&lt;x16/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
