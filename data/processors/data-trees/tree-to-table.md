@@ -8,7 +8,7 @@ The handler transforms the data represented in the hierarchic tree-like form to 
 
 ### Output
 
-![](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** is data table.
+![](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** is a data table.
 
 ## Wizard
 
@@ -28,7 +28,7 @@ The toolbar and context menu of the Input Tree list contains the following comma
 
 * ![](../../images/icons/toolbar-controls/check-all_default.svg) **Check all** enables to check all nodes.
 * ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
-* ![](../../images/icons/toolbar-controls/reverse-check_default.svg) **Invert selection**enables to invert the selected nodes to unselected and vice versa.
+* ![](../../images/icons/toolbar-controls/reverse-check_default.svg) **Invert selection** enables to invert the selected nodes to unselected and vice versa.
 
 The following commands are available for the Output Tree list in the context menu and toolbar:
 
