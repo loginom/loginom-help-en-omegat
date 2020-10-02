@@ -11625,8 +11625,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Узел &lt;x1/&gt;Таблица в дерево&lt;x2/&gt; преобразует исходные данные, представленные в виде плоской (двумерной) таблицы, в иерархическую (древовидную) форму.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T102649Z" creationid="Марианна" creationdate="20200929T102649Z">
-        <seg>The &lt;x1/&gt;Table to tree&lt;x2/&gt; node enables to transform the source data displayed in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T073453Z" creationid="Марианна" creationdate="20200929T102649Z">
+        <seg>The &lt;x1/&gt;Table to Tree&lt;x2/&gt; node enables to transform the source data displayed in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form.</seg>
       </tuv>
     </tu>
     <tu>
