@@ -28,6 +28,6 @@ The multiuser edition enables to receive hyperlink to the current opened object.
 * *Absolute* (for joint usage) includes a name of the folder from which a file was downloaded. It is available for different packages.
 * *Relative* (for personal usage) contains a point instead of the folder name. It is available only for user packages.
 
-The selected path can be copied using ![Copy](../images/icons/toolbar-controls/copy_default.svg) button. Subsequently, it can be used in the browser address bar for quick transition to the opened object.
+The selected path can be quickly copied using ![Copy](../images/icons/toolbar-controls/copy_default.svg) button. Subsequently, it can be used in the browser address bar for quick transition to the opened object.
 
 > **Note:** When following this link, it is required to enter corresponding login and password (if any).

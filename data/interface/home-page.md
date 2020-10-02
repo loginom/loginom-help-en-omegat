@@ -1,6 +1,6 @@
 # "Home" Page
 
-Upon the application opening, in the case of the desktop Loginom version, or authorization, in the case of the server Loginom version, the "Home" page is opened (refer to  Figure 1).
+Upon the application opening, in the case of the desktop Loginom edition, or authorization, in the case of the server Loginom edition, the "Home" page is opened (refer to  Figure 1).
 
 !["Home" page](./home-page.png)
 
