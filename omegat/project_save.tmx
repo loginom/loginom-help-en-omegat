@@ -9865,8 +9865,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>По умолчанию выставляется значение первого корневого узла выбранного файла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T190300Z" creationid="Марианна" creationdate="20200929T190300Z">
-        <seg>Value of the first root node of the selected file is set by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201002T074012Z" creationid="Марианна" creationdate="20200929T190300Z">
+        <seg>The value of the first root node of the selected file is set by default.</seg>
       </tuv>
     </tu>
     <tu>
