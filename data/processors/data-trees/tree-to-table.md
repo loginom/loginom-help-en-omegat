@@ -66,8 +66,8 @@ The output tree structure can be loaded from the XSD file using ![](../../images
 It is possible to fill in the following fields in the appeared dialog window:
 
 * **XSD file** denotes a field for the file selection (not edited).
-* **Namespace** enables to select a namespace from a list of all namespaces described in the XSD file. It limits selection of the root element only by the specified space. *All namespaces* value is set by default.
-* **Root element** enables selection of the root node from the list in the loaded file. Value of the first root node of the selected file is set by default.
+* **Namespace** enables to select a namespace from a list of all namespaces described in the XSD file. It limits selection of the root element only by the specified space. The value of *All namespaces* is set by default.
+* **Root element** enables selection of the root node from the list in the loaded file. The value of the first root node of the selected file is set by default.
 * **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. In the case of 0 value recursive nodes won't be automatically opened.
 
 After filling in all the fields, it is required to press **Load** button, and the XSD schema will be loaded for further work.
