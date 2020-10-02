@@ -114,7 +114,7 @@
             * [Calculator functions](./processors/transformation/java-script/calc-functions.md)
             * [Console of code debugging](./processors/transformation/java-script/console.md)
             * [API description](./processors/transformation/java-script/api-description.md)
-            * [Hot keys](./processors/transformation/java-script/hotkeys.md)
+            * [Hotkeys](./processors/transformation/java-script/hotkeys.md)
       * [Control](./processors/control/README.md)
          * [Node execution](./processors/control/execute-node.md)
          * [Supernode](./processors/control/submodel.md)

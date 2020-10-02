@@ -54,7 +54,7 @@ The context menu called by the right mouse button click, for the most part, enab
 * General:
    * ![ ](..\images\icons\toolbar-controls\refresh_default.svg) **Refresh** enables to refresh a list.
 
-Hot keys are available for some commands:
+Hotkeys are available for some commands:
 
 * %kbd F2 % — edit properties;
 * %kbd Ctrl O % — open the *Package*;

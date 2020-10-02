@@ -34,13 +34,13 @@ The following commands are available for the Output Tree list in the context men
 
 * ![](../../images/icons/wizards/datatree/add-child_default.svg) **Add child node** enables to add the child node to the root node.
 * ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node** enables to create the node of the same hierarchic level as provided for the selected one.
-* ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit...** enables to call the editing window and change values of the fields for the selected node (the command can be called using *F2* hot key).
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up**  and  ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enable to change the order of nodes. In this case, it is not possible to move the **Root** root node (the commands are also available when using *Ctrl+Up* and *Ctrl+Down* combinations of hot keys, correspondingly).
+* ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit...** enables to call the editing window and change values of the fields for the selected node (the command can be called using *F2* hotkey).
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up**  and  ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enable to change the order of nodes. In this case, it is not possible to move the **Root** root node (the commands are also available when using *Ctrl+Up* and *Ctrl+Down* combinations of hotkeys, correspondingly).
 * ![](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** enables to load the structure of nodes of the output tree from the XSD file.
 * ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields** enables to map a list of output port fields to a list of the input ones (the mapping algorithm is described in the [Automapping of Fields](../../scenario/ports/field-synchronization.md)).
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when enabling this mode, ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields** command will be automatically performed during the node execution (enabled by default).
-* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by *Delete* hot key).
-* ![](../../images/icons/toolbar-controls/delete-all_default.svg)**Delete all...** enables to delete all child nodes (combination of *Shift+Delete* hot keys).
+* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by *Delete* hotkey).
+* ![](../../images/icons/toolbar-controls/delete-all_default.svg)**Delete all...** enables to delete all child nodes (combination of *Shift+Delete* hotkeys).
 
 > **Note: it is not possible to delete ** Delete root node **Root**.
 

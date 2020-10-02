@@ -74,7 +74,7 @@
 * ![ ](../../images/icons/blank.svg) Тестировать подключение;
 * ![активировать](../../images/icons/toolbar-controls/test-connection_default.svg) Активировать подключение.
 
-The following hot keys duplicating some listed commands are available:
+The following hotkeys duplicating some listed commands are available:
 
 * %kbd F3 % — активировать подключение;
 * %kbd Shift F3 % — тестировать подключение;

@@ -83,7 +83,7 @@ The context menu duplicates the general functions:
 * ![Move up](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enables to move the selected item up the list.
 * ![Move down](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected item down the list.
 
-The following hot keys duplicating some listed commands are available:
+The following hotkeys duplicating some listed commands are available:
 
 * %kbd Delete % means to delete.
 * %kbd Shift Delete % means to delete all.
