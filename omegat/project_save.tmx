@@ -6441,6 +6441,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T192152Z" creationid="Марианна" creationdate="20201004T192152Z">
+        <seg>New variabls are created and their values are calculated in the wizard according to the expressions set by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В многопользовательской версии есть возможность получить гиперссылку на текущий открытый объект.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T204746Z" creationid="Марианна" creationdate="20200814T084927Z">
@@ -9323,6 +9331,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062102Z" creationid="Марианна" creationdate="20200826T062102Z">
         <seg>The handler is designated for the table import from the &lt;x1/&gt;LGD file&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик предназначен для математических операций над переменными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T181059Z" creationid="Марианна" creationdate="20201004T181059Z">
+        <seg>The handler is designated for mathematical operations with variables.</seg>
       </tuv>
     </tu>
     <tu>
