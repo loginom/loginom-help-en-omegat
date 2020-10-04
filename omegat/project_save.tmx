@@ -3735,6 +3735,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Описание&lt;x2/&gt; — поясняющая информация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T200228Z" creationid="Марианна" creationdate="20201004T200228Z">
+        <seg>&lt;x1/&gt;Description&lt;x2/&gt; means clarifying information.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Опубликован&lt;x2/&gt; — указывает, был ли опубликован &lt;x3/&gt;Пакет&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133741Z" creationid="Марианна" creationdate="20200816T133741Z">
@@ -4549,6 +4557,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185152Z" creationid="Марианна" creationdate="20200810T182700Z">
         <seg>&lt;x1/&gt;Derived component&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Промежуточное&lt;x2/&gt; — при установке этого флага выражение может использоваться в расчетах, но не включается в список переменных выходного набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T200129Z" creationid="Марианна" creationdate="20201004T200129Z">
+        <seg>&lt;x1/&gt;Intermediate&lt;x2/&gt;: when selecting this flag, the expression can be used in calculations but it is not included into the list of variables of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
