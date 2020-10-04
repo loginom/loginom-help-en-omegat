@@ -1774,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Расчет значений выражений осуществляется в том порядке, в котором они следуют в списке выражений, т.е. сначала вычисляются выражения, находящиеся выше в списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T192644Z" creationid="Марианна" creationdate="20201004T192644Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Values of the expressions are calculated in the order in which they are stated in the expressions list, namely, the expressions that are higher in the list are calculated first.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; для работы узла требуется предварительно создать &lt;x3/&gt;подключение&lt;x4/&gt; к базе данных и связать его с входным портом &lt;x5/&gt;Подключение&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T133413Z" creationid="Марианна" creationdate="20200824T154448Z">
