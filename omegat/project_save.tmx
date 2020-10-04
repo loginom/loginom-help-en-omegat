@@ -9375,6 +9375,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область предназначена для ввода &lt;x1/&gt;выражений&lt;x2/&gt; — вычисляемых переменных, которыми в результате обработки будет дополнен выходной набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194326Z" creationid="Марианна" creationdate="20201004T194326Z">
+        <seg>The area is designated for entry of &lt;x1/&gt;expressions&lt;x2/&gt;, namely, calculated variables to be added to the output data set as the result of processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063534Z" creationid="Марианна" creationdate="20200817T063534Z">
