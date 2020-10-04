@@ -11343,6 +11343,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список выражений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193929Z" creationid="Марианна" creationdate="20201004T193929Z">
+        <seg>List of Expressions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список значений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195106Z" creationid="Марианна" creationdate="20200827T195106Z">
