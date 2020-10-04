@@ -3575,6 +3575,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область кода выражения&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193821Z" creationid="Марианна" creationdate="20201004T193821Z">
+        <seg>&lt;x1/&gt;Expression code area&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
@@ -3979,6 +3987,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T182515Z" creationid="Марианна" creationdate="20200810T182515Z">
         <seg>&lt;x1/&gt;Variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменные&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193831Z" creationid="Марианна" creationdate="20201004T193831Z">
+        <seg>&lt;x1/&gt;Variables&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5049,10 +5065,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Список выражений&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193755Z" creationid="Марианна" creationdate="20201004T193755Z">
+        <seg>&lt;x1/&gt;List of expressions&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Список пользовательских ветвей&lt;x2/&gt; — добавленные пользователем ветви, можно выбрать одну из них;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T084629Z" creationid="Марианна" creationdate="20200924T084629Z">
         <seg>&lt;x1/&gt;List of user branches&lt;x2/&gt; denotes the branches added by a user. It is possible to select one of them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Список функций&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193847Z" creationid="Марианна" creationdate="20201004T193847Z">
+        <seg>&lt;x1/&gt;List of functions&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9467,6 +9499,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195617Z" creationid="Марианна" creationdate="20200827T195617Z">
         <seg>The wizard window is divided into two areas:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно настроек содержит области:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193731Z" creationid="Марианна" creationdate="20201004T193731Z">
+        <seg>The wizard window includes the following areas:</seg>
       </tuv>
     </tu>
     <tu>
