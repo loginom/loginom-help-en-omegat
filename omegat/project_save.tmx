@@ -6697,6 +6697,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В формуле выражения возможно использовать только выражения, находящиеся выше по списку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T193022Z" creationid="Марианна" creationdate="20201004T193022Z">
+        <seg>It is allowed to use only the expressions that are higher in the list in the expression formula.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае данную колонку необходимо свети к одному значению с помощью методов агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T083657Z" creationid="Марианна" creationdate="20200924T083657Z">
