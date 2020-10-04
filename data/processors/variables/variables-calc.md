@@ -1,51 +1,51 @@
-# ![Калькулятор-переменные](../../images/icons/components/calc-variables_default.svg) Калькулятор (переменные)
+# ![Calculator-variables](../../images/icons/components/calc-variables_default.svg) Calculator (variables)
 
-Обработчик предназначен для математических операций над переменными. В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.
+The handler is designated for mathematical operations with variables. New variabls are created and their values are calculated in the wizard according to the expressions set by a user.
 
-> **Важно:** Расчет значений выражений осуществляется в том порядке, в котором они следуют в списке выражений, т.е. сначала вычисляются выражения, находящиеся выше в списке. В формуле выражения возможно использовать только выражения, находящиеся выше по списку. В связи с этим неверная позиция в списке может приводить к ошибке.
+> **Important:** Values of the expressions are calculated in the order in which they are stated in the expressions list, namely, the expressions that are higher in the list are calculated first. It is allowed to use only the expressions that are higher in the list in the expression formula. Consequently, incorrect list item position can cause a mistake.
 
 ## Ports
 
 ### Input
 
-* ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, которые можно использовать в обработчике.
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** denote a list of variables that can be used in the handler.
 
 ### Output
 
-* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — входные переменные и новые переменные, вычисленные обработчиком.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote input variables and new variables calculated by the handler.
 
 ## Wizard
 
-Окно настроек содержит области:
+The wizard window includes the following areas:
 
-1. [Список выражений](#spisok-vyrazheniy);
-2. [Область кода выражения](#oblast-koda-vyrazheniya);
-3. [Переменные](#peremennye);
-4. [Список функций](#spisok-funktsiy).
+1. [List of expressions](#spisok-vyrazheniy);
+2. [Expression code area](#oblast-koda-vyrazheniya);
+3. [Variables](#peremennye);
+4. [List of functions](#spisok-funktsiy).
 
-### Список выражений
+### List of Expressions
 
-Область предназначена для ввода *выражений* — вычисляемых переменных, которыми в результате обработки будет дополнен выходной набор данных. Значение выражения в каждой строке набора данных будет вычислено по формуле, заданной в области кода выражения.
+The area is designated for entry of *expressions*, namely, calculated variables to be added to the output data set as the result of processing. The expression value in each data set string will be calculated using the formula set in the expression code area.
 
-Новое выражение можно создать при помощи панели инструментов области или контекстного меню. Операции панели инструментов и контекстного меню:
+It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
-* ![Редактировать](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — задание параметров выражения;
-* ![Переместить вверх](../../images/icons/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку;
-* ![Переместить вниз](../../images/icons/toolbar-controls/down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку;
-* ![Добавить выражение](../../images/icons/toolbar-controls/plus_default.svg) **Добавить выражение** — добавляет новое выражение с параметрами по умолчанию;
-* ![Добавить выражение по образцу](../../images/icons/toolbar-controls/clone_default.svg) **Добавить выражение по образцу** — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;
-* ![Удалить выражение](../../images/icons/toolbar-controls/delete_default.svg) **Удалить выражение** — удаляет текущее выражение;
-* ![Удалить все выражения](../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все выражения…** — удаляет все имеющиеся выражения.
+* ![Edit](../../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to set expression parameters.
+* ![Move up](../../images/icons/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
+* ![Move down](../../images/icons/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
+* ![Add expression](../../images/icons/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with default parameters.
+* ![Add expression by the example](../../images/icons/toolbar-controls/clone_default.svg) **Add expression by the example** enables to add a new expression with веф type, description and formula similar to the current expression.
+* ![Delete expression](../../images/icons/toolbar-controls/delete_default.svg) **Delete expression** enables to delete the current expression.
+* ![Delete all expressions](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all expressions…** enables to delete all existing expressions.
 
-При добавлении и редактировании выражения отображается диалог редактирования параметров. Следующие параметры выражений доступны для изменений:
+When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
-* **Имя** — имя переменной в выходном наборе данных;
-* **Метка** — метка переменной в выходном наборе данных;
-* **Тип** — [тип данных](../../data/datatype.md) переменной в выходном наборе данных;
-* **Промежуточное** — при установке этого флага выражение может использоваться в расчетах, но не включается в список переменных выходного набора данных;
-* **Описание** — поясняющая информация.
+* **Name** denotes a variable name in the output data set.
+* **Caption** is a variable caption in the output data set.
+* **Type** — [data type](../../data/datatype.md) of the variable in the output data set.
+* **Intermediate**: when selecting this flag, the expression can be used in calculations but it is not included into the list of variables of the output data set.
+* **Description** means clarifying information.
 
-> **Важно:** Имя должно быть уникальным, начинаться с заглавной или строчной латинской буквы или с символа подчеркивания. Последующие символы имени могут быть такими же, либо цифрами.
+> **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
 При первом открытии мастера настройки список выражений содержит один элемент с именем *Expr0* вещественного типа. По умолчанию для нового выражения назначается метка *ВыражениеN* и имя *ExprN*, где *N* — номер, обеспечивающий уникальность.
 
@@ -120,7 +120,7 @@ IF(IsNull(var_one),var_two,var_one) // однострочный коммента
  и (звездочка-слеш). */
 ```
 
-### Переменные
+### Variables
 
 Область содержит список переменных, передаваемых на вход обработчика. Перечень и параметры переменных определяются при настройке входных портов обработчика.
 

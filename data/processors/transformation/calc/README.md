@@ -13,18 +13,18 @@
 
 ## Wizard
 
-Окно настроек содержит области:
+The wizard window includes the following areas:
 
-1. [Список выражений](#spisok-vyrazheniy);
+1. [List of expressions](#spisok-vyrazheniy);
 2. [Область кода выражений](#oblast-koda-vyrazheniya);
 3. [Поля/переменные](#polyaperemennye);
-4. [Список функций](#spisok-funktsiy).
+4. [List of functions](#spisok-funktsiy).
 
-### Список выражений
+### List of Expressions
 
 Область предназначена для ввода *Выражений* — вычисляемых полей, которыми в результате обработки будет дополнен входной набор данных. Значение выражения в каждой строке набора данных будет вычислено по [формуле](./expression.md) или JavaScript коду.
 
-Новое выражение можно создать при помощи панели инструментов области или контекстного меню. Операции панели инструментов и контекстного меню:
+It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
 * ![ ](../../../images/icons/calcdata/expression_default.svg)|![](../../../images/icons/calcdata/javascript_default.svg) **Синтаксис** (выпадающий список)— задание [синтаксиса расчета выражений](#sintaksis-kalkulyatora) калькулятора;
 * ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — задание параметров выражения;
@@ -35,16 +35,16 @@
 * ![ ](../../../images/icons/toolbar-controls/delete_default.svg) **Удалить выражение** — удаляет текущее выражение;
 * ![ ](../../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все выражения** — удаляет все имеющиеся выражения.
 
-При добавлении и редактировании выражения отображается диалог редактирования параметров. Следующие параметры выражений доступны для изменений:
+When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
 * **Имя** — вводится [имя поля](../../../data/datasetfieldoptions.md) присваемое столбцу в выходном наборе данных;
 * **Метка** — вводится [метка поля](../../../data/datasetfieldoptions.md) присваемая столбцу в выходном наборе данных;
 * **Тип данных** — выбирается [тип данных](../../../data/datatype.md) поля в выходном наборе данных;
 * **Промежуточное** — при установке этого флага выражение может использоваться в расчетах, не включается в список полей выходного набора данных;
 * **Кэшировать** — сохранение однажды вычисленного значения выражения, целесообразно при неоднократном использовании значений выражения последующими обработчиками и визуализаторами во избежание выполнения повторных вычислений;
-* **Описание** — поясняющая информация.
+* **Description** means clarifying information.
 
-> **Важно:** Имя должно быть уникальным, начинаться с заглавной или строчной латинской буквы или с символа подчеркивания. Последующие символы имени могут быть такими же, либо цифрами.
+> **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
 При первом открытии мастера настройки список выражений содержит один элемент с именем `Expr0` вещественного типа. По умолчанию для нового выражения назначается метка `ВыражениеN` и имя `ExprN`, где `N` — номер, обеспечивающий уникальность.
 
