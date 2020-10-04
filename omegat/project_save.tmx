@@ -2831,6 +2831,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имя переменной в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195748Z" creationid="Марианна" creationdate="20201004T195748Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; denotes a variable name in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — указывается имя &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140542Z" creationid="Марианна" creationdate="20200816T140542Z">
@@ -3363,6 +3371,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192450Z" creationid="Марианна" creationdate="20200825T192450Z">
         <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the user field description is provided.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — метка переменной в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195824Z" creationid="Марианна" creationdate="20201004T195824Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; is a variable caption in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10623,6 +10639,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При добавлении и редактировании выражения отображается диалог редактирования параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195635Z" creationid="Марианна" creationdate="20201004T195635Z">
+        <seg>When adding and editing expressions, the dialog of parameters editing is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При задании пользовательского формата используются следующие наборы символов форматирования:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082553Z" creationid="Марианна" creationdate="20200918T082553Z">
@@ -11275,6 +11299,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T132248Z" creationid="Марианна" creationdate="20200825T192251Z">
         <seg>The following settings are used to generate the resulting data set in the manual way:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следующие параметры выражений доступны для изменений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195705Z" creationid="Марианна" creationdate="20201004T195705Z">
+        <seg>The following expression parameters can be changed:</seg>
       </tuv>
     </tu>
     <tu>
