@@ -2495,6 +2495,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить выражение&lt;x2/&gt; &lt;x3/&gt;Добавить выражение&lt;x4/&gt; — добавляет новое выражение с параметрами по умолчанию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195141Z" creationid="Марианна" creationdate="20201004T195141Z">
+        <seg>&lt;x1/&gt;Add expression&lt;x2/&gt; &lt;x3/&gt;Add expression&lt;x4/&gt; enables to add a new expression with default parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить новое условие&lt;x2/&gt; — добавить в ветвь новое условие, после нажатия открывается окно для его настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074635Z" creationid="Марианна" creationdate="20200924T074635Z">
