@@ -5409,6 +5409,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — &lt;x3/&gt;тип данных&lt;x4/&gt; переменной в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195924Z" creationid="Марианна" creationdate="20201004T195924Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt; of the variable in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — отображает типа элемента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201144Z" creationid="Марианна" creationdate="20200829T200519Z">
