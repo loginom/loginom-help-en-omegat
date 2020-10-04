@@ -4007,6 +4007,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — поднять выражение на одну позицию вверх по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194856Z" creationid="Марианна" creationdate="20201004T194856Z">
+        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the expression one list item position up.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить ветвь вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt;, &lt;x5/&gt;Переместить ветвь вверх&lt;x6/&gt; &lt;x7/&gt;Переместить вверх&lt;x8/&gt; — установить приоритет выделенной ветви путем её смещения относительно других ветвей;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074037Z" creationid="Марианна" creationdate="20200924T074037Z">
@@ -4749,6 +4757,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T073346Z" creationid="Марианна" creationdate="20200924T073346Z">
         <seg>&lt;x1/&gt;Edit port parameters&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; eanbles to edit port parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — задание параметров выражения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194646Z" creationid="Марианна" creationdate="20201004T194646Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to set expression parameters.</seg>
       </tuv>
     </tu>
     <tu>
