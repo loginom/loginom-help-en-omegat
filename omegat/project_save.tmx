@@ -4009,8 +4009,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — поднять выражение на одну позицию вверх по списку;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T194856Z" creationid="Марианна" creationdate="20201004T194856Z">
-        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the expression one list item position up.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T195004Z" creationid="Марианна" creationdate="20201004T194856Z">
+        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the expression one item position up the list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4019,6 +4019,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074037Z" creationid="Марианна" creationdate="20200924T074037Z">
         <seg>&lt;x1/&gt;Move branch down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move branch up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt; enable to prioritise the selected branch by its moving relative to other branches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — опустить выражение на одну позицию вниз по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194952Z" creationid="Марианна" creationdate="20201004T194952Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the expression one item position down the list.</seg>
       </tuv>
     </tu>
     <tu>
