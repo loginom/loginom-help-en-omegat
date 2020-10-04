@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Имя должно быть уникальным, начинаться с заглавной или строчной латинской буквы или с символа подчеркивания.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T200435Z" creationid="Марианна" creationdate="20201004T200435Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Компонент будет выдавать ошибку при выходе со страницы настройки или при выполнении, если у него нет ни одного выбранного узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T191017Z" creationid="Марианна" creationdate="20201001T191017Z">
@@ -10563,6 +10571,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091814Z" creationid="Марианна" creationdate="20200715T091738Z">
         <seg>The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последующие символы имени могут быть такими же, либо цифрами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T200546Z" creationid="Марианна" creationdate="20201004T200546Z">
+        <seg>Succeeding name characters can be the same, or they can be digits.</seg>
       </tuv>
     </tu>
     <tu>
