@@ -2983,6 +2983,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Калькулятор-переменные&lt;x2/&gt; Калькулятор (переменные)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T180944Z" creationid="Марианна" creationdate="20201004T180944Z">
+        <seg>&lt;x1/&gt;Calculator-variables&lt;x2/&gt; Calculator (variables)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Калькулятор&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192109Z" creationid="Марианна" creationdate="20200810T192109Z">
@@ -9723,6 +9731,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T101105Z" creationid="Марианна" creationdate="20200715T071701Z">
         <seg>The variable can be also used as the criteria parameter of the &lt;x1/&gt;Row Filter&lt;x2/&gt; component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T180827Z" creationid="Марианна" creationdate="20201004T180827Z">
+        <seg>Variables</seg>
       </tuv>
     </tu>
     <tu>
