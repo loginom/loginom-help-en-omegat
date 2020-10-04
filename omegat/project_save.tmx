@@ -8071,6 +8071,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение выражения в каждой строке набора данных будет вычислено по формуле, заданной в области кода выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194456Z" creationid="Марианна" creationdate="20201004T194456Z">
+        <seg>The expression value in each data set string will be calculated using the formula set in the expression code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение параметра &lt;x1/&gt;Диапазон&lt;x2/&gt; можно задать при помощи выделения мышью ячеек таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190417Z" creationid="Марианна" creationdate="20200825T190417Z">
@@ -9359,6 +9367,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новое выражение можно создать при помощи панели инструментов области или контекстного меню.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194528Z" creationid="Марианна" creationdate="20201004T194528Z">
+        <seg>It is possible to create a new expression using the toolbar area or the context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нумерация итераций осуществляется с 0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204709Z" creationid="Марианна" creationdate="20200921T204709Z">
@@ -9539,6 +9555,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091406Z" creationid="Марианна" creationdate="20200715T091406Z">
         <seg>It is a combination of data processing nodes configured by a user to solve particular tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Операции панели инструментов и контекстного меню:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201004T194559Z" creationid="Марианна" creationdate="20201004T194559Z">
+        <seg>There are the following toolbar and context menu operations:</seg>
       </tuv>
     </tu>
     <tu>
