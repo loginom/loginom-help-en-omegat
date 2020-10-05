@@ -12327,6 +12327,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>далее &lt;x1/&gt;Список функций&lt;x2/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T165627Z" creationid="Марианна" creationdate="20201005T165607Z">
+        <seg>&lt;x1/&gt;List of functions&lt;x2/&gt; further);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>далее).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203102Z" creationid="Марианна" creationdate="20200829T203102Z">
@@ -12527,6 +12535,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>строковые выражения в кавычках, например, &lt;x1/&gt;"строковое выражение"&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T165738Z" creationid="Марианна" creationdate="20201005T165738Z">
+        <seg>string expressions in quotation marks, for example, &lt;x1/&gt;"string expression"&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>также &lt;x1/&gt;Веб-сервисы&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085306Z" creationid="Марианна" creationdate="20200929T085306Z">
@@ -12555,6 +12571,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112930Z" creationid="Марианна" creationdate="20200825T112930Z">
         <seg>integer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>целые и вещественные числа;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T165821Z" creationid="Марианна" creationdate="20201005T165821Z">
+        <seg>integer and real numbers;</seg>
       </tuv>
     </tu>
     <tu>
