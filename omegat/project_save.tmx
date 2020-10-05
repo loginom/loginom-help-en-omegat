@@ -12351,6 +12351,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>знаки математических операций и отношений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T165400Z" creationid="Марианна" creationdate="20201005T165400Z">
+        <seg>characters of mathematical operations and relations;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для примера</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112821Z" creationid="Марианна" creationdate="20200825T112821Z">
