@@ -8223,6 +8223,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в области кода сохраняются при выходе из нее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T164326Z" creationid="Марианна" creationdate="20201005T164326Z">
+        <seg>Changes in the code area are saved on exit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изначально входных и выходных &lt;x1/&gt;портов&lt;x2/&gt; нет, они создаются пользователем в мастере настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T094607Z" creationid="Марианна" creationdate="20200924T065416Z">
