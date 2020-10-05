@@ -1150,6 +1150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&gt;=&lt;x2/&gt; — Больше или равно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173138Z" creationid="Марианна" creationdate="20201005T173138Z">
+        <seg>&lt;x1/&gt;&gt;=&lt;x2/&gt; — Greater than or equal to.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;A1&lt;x2/&gt; — в формате, в котором строка ячейки обозначается латинскими буквами, а столбец — цифрами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T184821Z" creationid="Марианна" creationdate="20200825T184821Z">
@@ -12243,6 +12251,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T195322Z" creationid="Марианна" creationdate="20200929T195310Z">
         <seg>To reset the filter or search settings, it is required to use &lt;x1/&gt;Clean&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаблоны:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173147Z" creationid="Марианна" creationdate="20201005T173147Z">
+        <seg>Templates:</seg>
       </tuv>
     </tu>
     <tu>
