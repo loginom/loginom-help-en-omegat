@@ -2391,6 +2391,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — список переменных, полученный из входного источника данных с использованием функций агрегации по полю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T184028Z" creationid="Марианна" creationdate="20201005T184028Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote a list of variables received from the input data source using aggregation functions by field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; Переменные;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145308Z" creationid="Марианна" creationdate="20200920T145308Z">
