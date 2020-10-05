@@ -9415,6 +9415,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наименование, входные аргументы и описание &lt;x1/&gt;доступных для использования функций&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T180034Z" creationid="Марианна" creationdate="20201005T180034Z">
+        <seg>Name, input argument and description of the &lt;x1/&gt;functions available for use&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если на каждой итерации происходит обращение к источнику данных, не допускающему параллельные запросы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204010Z" creationid="Марианна" creationdate="20200921T203923Z">
@@ -11843,6 +11851,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T075513Z" creationid="Марианна" creationdate="20200924T075513Z">
         <seg>The list is not available for variable fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список функций</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T175912Z" creationid="Марианна" creationdate="20201005T175912Z">
+        <seg>List of Functions</seg>
       </tuv>
     </tu>
     <tu>
