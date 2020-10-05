@@ -1,6 +1,6 @@
 # ![Table to Variables](../../images/icons/components/datatovariables_default.svg) Table to Variables
 
-Обработчик позволяет преобразовать табличные данные в переменные. Из данных каждого поля таблицы формируется переменная. У переменной может быть только одно значение, поэтому для его расчета к данным поля применяются различные [функции агрегации](../func/aggregation-functions.md).
+The handler enables to transform the table data to variables. A variable is generated from the data of each table field. A variable can have only one value that's why different [aggregation functions](../func/aggregation-functions.md) are applied to the field data for its calculation.
 
 ## Ports
 
@@ -10,7 +10,7 @@
 
 ### Output
 
-* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — список переменных, полученный из входного источника данных с использованием функций агрегации по полю.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote a list of variables received from the input data source using aggregation functions by field.
 
 ## Wizard
 
