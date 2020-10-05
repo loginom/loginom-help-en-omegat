@@ -1120,8 +1120,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;AND&lt;x2/&gt; — операция Логическое "И";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172129Z" creationid="Марианна" creationdate="20201005T172129Z">
-        <seg>&lt;x1/&gt;AND&lt;x2/&gt; means the Logical "AND" operation;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172432Z" creationid="Марианна" creationdate="20201005T172129Z">
+        <seg>&lt;x1/&gt;AND&lt;x2/&gt; means the Logical "AND" operator;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1304,8 +1304,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;NOT&lt;x2/&gt; — операция Логическое "НЕ";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172155Z" creationid="Марианна" creationdate="20201005T172155Z">
-        <seg>&lt;x1/&gt;NOT&lt;x2/&gt; means the Logical "NOT" operation;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172423Z" creationid="Марианна" creationdate="20201005T172155Z">
+        <seg>&lt;x1/&gt;NOT&lt;x2/&gt; means the Logical "NOT" operator;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1320,8 +1320,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;OR&lt;x2/&gt; — операция Логическое "ИЛИ";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172138Z" creationid="Марианна" creationdate="20201005T172138Z">
-        <seg>&lt;x1/&gt;OR&lt;x2/&gt; means the Logical "OR" operation;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172426Z" creationid="Марианна" creationdate="20201005T172138Z">
+        <seg>&lt;x1/&gt;OR&lt;x2/&gt; means the Logical "OR" operator;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9739,6 +9739,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091406Z" creationid="Марианна" creationdate="20200715T091406Z">
         <seg>It is a combination of data processing nodes configured by a user to solve particular tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Операторы сравнения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172501Z" creationid="Марианна" creationdate="20201005T172501Z">
+        <seg>Comparisons Operator:</seg>
       </tuv>
     </tu>
     <tu>
