@@ -7199,6 +7199,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможна фильтрация по категории и названию функции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T180333Z" creationid="Марианна" creationdate="20201005T180333Z">
+        <seg>It is possible to filter by the function category and name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможно &lt;x1/&gt;переобучение модели&lt;x2/&gt;, унаследованной из базового узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072905Z" creationid="Марианна" creationdate="20200919T072905Z">
@@ -7603,6 +7611,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062605Z" creationid="Марианна" creationdate="20200917T151727Z">
         <seg>Double quotation mark (")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Двойной клик мыши по позиции выбранной функции вставляет ее синтаксис в область кода выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T180442Z" creationid="Марианна" creationdate="20201005T180442Z">
+        <seg>Double click on the position of the selected function enables to enter its syntax to the expression code area.</seg>
       </tuv>
     </tu>
     <tu>
