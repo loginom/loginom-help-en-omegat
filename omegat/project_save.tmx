@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>*/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174946Z" creationid="Марианна" creationdate="20201005T174946Z">
+        <seg>*/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>*Месяц.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083111Z" creationid="Марианна" creationdate="20200918T083111Z">
@@ -122,6 +130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112801Z" creationid="Марианна" creationdate="20200825T112801Z">
         <seg>where </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Пример однострочного комментария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
+        <seg>// Example of the single-line comment</seg>
       </tuv>
     </tu>
     <tu>
@@ -6209,6 +6225,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>IF(IsNull(var_one),var_two,var_one) // однострочный комментарий продолжается до конца строки
+
+/* Многострочным комментарием
+считаются все символы,
+содержащиеся между (слеш-звездочка)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174924Z" creationid="Марианна" creationdate="20201005T174924Z">
+        <seg>IF(IsNull(var_one),var_two,var_one) // single-line comment continues until the end of the string
+
+/* The multi-line comment
+is represented by all characters
+included between (slash-asterisk)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062507Z" creationid="Марианна" creationdate="20200826T062507Z">
@@ -11231,6 +11263,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пример комментария:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174730Z" creationid="Марианна" creationdate="20201005T174730Z">
+        <seg>The comment example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры использования переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
@@ -12579,6 +12619,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112821Z" creationid="Марианна" creationdate="20200825T112821Z">
         <seg>example value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>и (звездочка-слеш).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174941Z" creationid="Марианна" creationdate="20201005T174941Z">
+        <seg>and (asterisk-slash).</seg>
       </tuv>
     </tu>
     <tu>
