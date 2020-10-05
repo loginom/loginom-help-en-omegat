@@ -3,14 +3,14 @@
 Выражение может содержать:
 
 * ссылки на другие поля набора данных в виде наименования полей или ранее вычисленных выражений;
-* ссылки на переменные входного порта;
-* скобки, определяющие порядок выполнения операций;
-* знаки математических операций и отношений;
+* references to the input port variables;
+* brackets defining the order of operations execution;
+* characters of mathematical operations and relations;
 * логические операции (`and`, `or`, `not`, `xor`) и значения (`true` или `1`, `false` или `0`);
-* функции в соответствии с синтаксическим описанием (см. далее [Список функций](../../func/calc-func/README.md)).
+* functions according to the syntactic description (refer to далее [Список функций](../../func/calc-func/README.md)).
 * строковые выражения в кавычках ("строковое выражение");
-* целые и вещественные числа;
-* однострочные и многострочные комментарии.
+* integer and real numbers;
+* single-line and multi-line comments.
 
 В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений. Consequently, incorrect list item position can cause a mistake.
 
@@ -22,39 +22,39 @@
 
 Рекомендуется применять *Кэширование* при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: `Random()`, `Today()` и других.
 
-## Панель быстрого доступа
+## Quick Access Toolbar
 
-На панели расположены кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.
+The toolbar includes the buttons that enable to insert a template or preset layout into the expression code area upon their pressing.
 
-Логические операции:
+Logical operations:
 
-* **AND** — операция Логическое "И";
-* **OR** — операция Логическое "ИЛИ";
-* **NOT** — операция Логическое "НЕ";
-* **XOR** — операция Логическое "исключающее ИЛИ".
+* **AND** means the Logical "AND" operator;
+* **OR** means the Logical "OR" operator;
+* **NOT** means the Logical "NOT" operator;
+* **XOR** means the Logical "exclusive OR" operator.
 
-Операторы сравнения:
+Comparisons Operator:
 
-* **=** — Равно;
-* **<>** — Не равно;
-* **<** — Меньше;
-* **>** — Больше;
-* **<=** — Меньше или равно;
-* **>=** — Больше или равно.
+* **=** — Equals.
+* **<>** — Not equal.
+* **<** — Less than.
+* **>** — Greater than.
+* **<=** — Less than or equal to.
+* **>=** — Greater than or equal to.
 
-Шаблоны:
+Templates:
 
-* ![Вещественное число](../../../images/icons/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
-* ![Строка](../../../images/icons/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
-* ![Дата](../../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлено `StrToDate("____-__-__", "YYYY-MM-DD")`;
-* ![Время](../../../images/icons/toolbar-controls/type-time_default.svg) — для ввода времени, будет вставлено `StrToDate("__:__:__", "HH:NN:SS")`.
+* ![Real number](../../../images/icons/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
+* ![String](../../../images/icons/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
+* ![Date](../../../images/icons/toolbar-controls/type-date_default.svg): `StrToDate("____-__-__", "YYYY-MM-DD")` will be inserted to enter the date.
+* ![Time](../../../images/icons/toolbar-controls/type-time_default.svg): `StrToDate("__:__:__", "HH:NN:SS")` will be inserted to enter the time.
 
-Логические значения:
+Logical Values:
 
-* **FALSE** — Ложь;
-* **TRUE** — Истина.
+* **FALSE** denotes the false value.
+* **TRUE** denotes the true value.
 
-## Комментарии
+## Comments
 
 Для пояснения полученного выражения калькулятор поддерживает два типа комментария:
 
@@ -64,14 +64,14 @@
 %spoiler%Пример комментария:%spoiler%
 
 ```java
-// Пример однострочного комментария.
+// Example of the single-line comment
 
 IF(IsNull(gate_one),gate_two,gate_one) // однострочный комментарий продолжается до конца строки.
 
 /* Многострочным комментарием
    считаются все символы,
    содержащиеся между (слеш-звездочка)
-   и (звездочка-слеш). */
+   and (asterisk-slash). */
 ```
 
 %/spoiler%

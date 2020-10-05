@@ -46,13 +46,13 @@ When adding and editing expressions, the dialog of parameters editing is display
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
-При первом открытии мастера настройки список выражений содержит один элемент с именем `Expr0` вещественного типа. По умолчанию для нового выражения назначается метка `ВыражениеN` и имя `ExprN`, где `N` — номер, обеспечивающий уникальность.
+When you first open the wizard, the list of expressions contains one real item with `Expr0` name. `ExpressionN` caption and `ExprN` name are assigned for the new expression by default where `N` is number providing uniqueness.
 
-### Область кода выражения
+### The Expression Code Area
 
 В области кода в зависимости от выбранного синтаксиса калькулятора задается [формула расчета выражения](./expression.md) или [JavaScript код](./javascript.md). Ссылки на входящие поля/переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой. Ссылки на созданные в *Калькуляторе* выражения задаются в области кода ручным вводом имени выражения.
 
-Изменения в области кода сохраняются при выходе из нее.
+Changes in the code area are saved on exit.
 
 ### Поля/переменные
 
@@ -60,13 +60,13 @@ When adding and editing expressions, the dialog of parameters editing is display
 
 Двойной клик мыши по позиции списка вводит имя поля/переменной в область кода выражения. То же самое можно сделать при помощи Drag-and-drop.
 
-### Список функций
+### List of Functions
 
-Наименование, входные аргументы и описание [доступных для использования функций](../../func/calc-func/README.md).
+Name, input argument and description of the [functions available for use](../../func/calc-func/README.md)
 
-Возможна фильтрация по категории и названию функции.
+It is possible to filter by the function category and name.
 
-Двойной клик мыши по позиции выбранной функции вставляет ее синтаксис в область кода выражения. То же самое можно сделать при помощи Drag-and-drop.
+Double click on the position of the selected function enables to enter its syntax to the expression code area. То же самое можно сделать при помощи Drag-and-drop.
 
 Ссылки на поля/переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.
 

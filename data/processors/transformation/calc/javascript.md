@@ -85,33 +85,33 @@ delete require.cache[path];  // Очищается кэш модуля "foo/foo.
 
 > **Важно**: использование кэша для передачи значений между вызовами `require` может привести к непредсказуемым результатам вычислений в виду использования многопоточности вычислений.
 
-## Панель быстрого доступа
+## Quick Access Toolbar
 
 На панели расположены кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблоны.
 
-Логические операции:
+Logical operations:
 
 * **&&** — Логическое "И";
 * **||** — Логическое "ИЛИ";
 * **!** — Логическое "НЕ".
 
-Операторы сравнения:
+Comparisons Operator:
 
-* **=** — Равно;
+* **=** — Equals.
 * **!=** — Не равно;
-* **<** — Меньше;
-* **>** — Больше;
-* **<=** — Меньше или равно;
-* **>=** — Больше или равно.
+* **<** — Less than.
+* **>** — Greater than.
+* **<=** — Less than or equal to.
+* **>=** — Greater than or equal to.
 
-Шаблоны:
+Templates:
 
-* ![Вещественное число](../../../images/icons/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
-* ![Строка](../../../images/icons/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
+* ![Real number](../../../images/icons/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
+* ![String](../../../images/icons/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
 * ![Дата](../../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлена конструкция создания объекта, содержащего текущую дату. Пример: `new Date(2020, 1, 5)`;
 * ![Время](../../../images/icons/toolbar-controls/type-time_default.svg) — для ввода даты/времени, будет вставлена конструкция создания объекта, содержащего текущее дата/время. Пример: `new Date(2020, 1, 5, 13, 12, 50, 100)`.
 
-Логические значения:
+Logical Values:
 
 * **false** — Ложь;
 * **true** — Истина.

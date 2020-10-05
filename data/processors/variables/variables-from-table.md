@@ -1,4 +1,4 @@
-# ![Таблица в переменные](../../images/icons/components/datatovariables_default.svg) Таблица в переменные
+# ![Table to Variables](../../images/icons/components/datatovariables_default.svg) Table to Variables
 
 Обработчик позволяет преобразовать табличные данные в переменные. Из данных каждого поля таблицы формируется переменная. У переменной может быть только одно значение, поэтому для его расчета к данным поля применяются различные [функции агрегации](../func/aggregation-functions.md).
 

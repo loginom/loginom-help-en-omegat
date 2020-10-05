@@ -19,7 +19,7 @@ The handler is designated for mathematical operations with variables. New variab
 The wizard window includes the following areas:
 
 1. [List of expressions](#spisok-vyrazheniy);
-2. [Expression code area](#oblast-koda-vyrazheniya);
+2. [The expression code area](#oblast-koda-vyrazheniya);
 3. [Variables](#peremennye);
 4. [List of functions](#spisok-funktsiy).
 
@@ -47,93 +47,93 @@ When adding and editing expressions, the dialog of parameters editing is display
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
-При первом открытии мастера настройки список выражений содержит один элемент с именем *Expr0* вещественного типа. По умолчанию для нового выражения назначается метка *ВыражениеN* и имя *ExprN*, где *N* — номер, обеспечивающий уникальность.
+When you first open the wizard, the list of expressions contains one real item with *Expr0* name. *ExpressionN* caption and *ExprN* name are assigned for the new expression by default where *N* is number providing uniqueness.
 
-После настройки параметров выражения в область кода требуется ввести рассчитываемую формулу.
+After configuration of the expression parameters, it is required to enter the calculated formula to the code area.
 
-### Область кода выражения
+### The Expression Code Area
 
-В области кода задается формула расчета выражения. Ссылки на переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.
+The expression calculation formula is set in the code area. It is possible to insert references to variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.
 
-Изменения в области кода сохраняются при выходе из нее.
+Changes in the code area are saved on exit.
 
-Формула выражения может содержать:
+The expression formula can contain the following components:
 
-* ссылки на другие переменные набора данных в виде наименования переменных или ранее вычисленных выражений;
-* ссылки на переменные входного порта;
-* скобки, определяющие порядок выполнения операций;
-* знаки математических операций и отношений;
-* логические операции (AND, OR, NOT, XOR) и значения (TRUE или 1, FALSE или 0);
-* функции в соответствии с синтаксическим описанием (см. далее [Список функций](#spisok-funktsiy));
-* строковые выражения в кавычках, например, `"строковое выражение"`;
-* целые и вещественные числа;
-* однострочные и многострочные комментарии.
+* references to other data set variables in the form of the variables names or earlier computed expressions;
+* references to the input port variables;
+* brackets defining the order of operations execution;
+* characters of mathematical operations and relations;
+* logical operations (AND, OR, NOT, XOR) and values(TRUE or 1, FALSE or 0);
+* functions according to the syntactic description (refer to [List of functions](#spisok-funktsiy) further);
+* string expressions in quotation marks, for example, `"string expression"`;
+* integer and real numbers;
+* single-line and multi-line comments.
 
-> **Важно:** вещественные числа записываются с использованием десятичной точки, например, *`2.71`*.
+> **Important:** Real numbers are recorded using the decimal point, for example,*`2.71`*.
 
-#### Панель быстрого доступа
+#### Quick Access Toolbar
 
-На панели расположены кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.
+The toolbar includes the buttons that enable to insert a template or preset layout into the expression code area upon their pressing.
 
-Логические операции:
+Logical operations:
 
-* **AND** — операция Логическое "И";
-* **OR** — операция Логическое "ИЛИ";
-* **NOT** — операция Логическое "НЕ";
-* **XOR** — операция Логическое "исключающее ИЛИ".
+* **AND** means the Logical "AND" operator;
+* **OR** means the Logical "OR" operator;
+* **NOT** means the Logical "NOT" operator;
+* **XOR** means the Logical "exclusive OR" operator.
 
-Операторы сравнения:
+Comparisons Operator:
 
-* **=** — Равно;
-* **<>** — Не равно;
-* **<** — Меньше;
-* **>** — Больше;
-* **<=** — Меньше или равно;
-* **>=** — Больше или равно.
+* **=** — Equals.
+* **<>** — Not equal.
+* **<** — Less than.
+* **>** — Greater than.
+* **<=** — Less than or equal to.
+* **>=** — Greater than or equal to.
 
-Шаблоны:
+Templates:
 
-* ![Вещественное число](../../images/icons/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
-* ![Строка](../../images/icons/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
-* ![Дата](../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлено `StrToDate("____-__-__", "YYYY-MM-DD")`;
-* ![Время](../../images/icons/toolbar-controls/type-time_default.svg) — для ввода времени, будет вставлено `StrToDate("__:__:__", "HH:NN:SS")`.
+* ![Real number](../../images/icons/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
+* ![String](../../images/icons/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
+* ![Date](../../images/icons/toolbar-controls/type-date_default.svg): `StrToDate("____-__-__", "YYYY-MM-DD")` will be inserted to enter the date.
+* ![Time](../../images/icons/toolbar-controls/type-time_default.svg): `StrToDate("__:__:__", "HH:NN:SS")` will be inserted to enter the time.
 
-Логические значения:
+Logical Values:
 
-* **FALSE** — Ложь;
-* **TRUE** — Истина.
+* **FALSE** denotes the false value.
+* **TRUE** denotes the true value.
 
-#### Комментарии
+#### Comments
 
-Однострочный комментарий начинается символами `//` (два слеша) и продолжается до конца строки. Многострочным комментарием считаются все символы, содержащиеся между `/*` (слеш-звездочка) и `*/` (звездочка-слеш).
+The single-line comment starts from `//` (two slashes) characters, and it continues until the end of the string. The multi-line comment is represented by all characters included between `/*` (slash-asterisk) and `*/` (asterisk-slash).
 
-Пример комментария:
+The comment example:
 
 ```java
-// Пример однострочного комментария.
+// Example of the single-line comment
 
-IF(IsNull(var_one),var_two,var_one) // однострочный комментарий продолжается до конца строки
+IF(IsNull(var_one),var_two,var_one) // single-line comment continues until the end of the string
 
-/* Многострочным комментарием
-считаются все символы,
-содержащиеся между (слеш-звездочка)
- и (звездочка-слеш). */
+/* The multi-line comment
+is represented by all characters
+included between (slash-asterisk)
+ and (asterisk-slash). */
 ```
 
 ### Variables
 
-Область содержит список переменных, передаваемых на вход обработчика. Перечень и параметры переменных определяются при настройке входных портов обработчика.
+The area contains the list of variables supplied to the handler input. The list and parameters of variables are defined when configuring input ports of the handler.
 
-Двойной клик мыши по позиции списка вводит имя переменной в область кода выражения.
+Double click on the list item position enables to enter the variable name to the expression code area.
 
-### Список функций
+### List of Functions
 
-Наименование, входные аргументы и описание [доступных для использования функций](../func/calc-func/README.md).
+Name, input argument and description of the [functions available for use](../func/calc-func/README.md)
 
-Возможна фильтрация по категории и названию функции.
+It is possible to filter by the function category and name.
 
-Двойной клик мыши по позиции выбранной функции вставляет ее синтаксис в область кода выражения. То же самое можно сделать при помощи Drag-and-Drop.
+Double click on the position of the selected function enables to enter its syntax to the expression code area. The Drag-and-Drop method enables to perform the same actions.
 
 ---
 
-> **Примечание**: Обработчик "Калькулятор" использует механизм [ленивых вычислений](https://wiki.loginom.ru/articles/lazy-evaluation.html), это означает, что расчет производится только тогда, когда значение выражения отображается или используется другим узлом сценария.
+> **Note**: The "Calculator" handler is based on the [lazy computation](https://wiki.loginom.ru/articles/lazy-evaluation.html) technique. It means that the computation is performed only when the expression value is displayed or used by the other workflow node.
