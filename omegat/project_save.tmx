@@ -9151,6 +9151,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Многострочным комментарием считаются все символы, содержащиеся между &lt;x3/&gt;/*&lt;x4/&gt; (слеш-звездочка) и &lt;x5/&gt;*/&lt;x6/&gt; (звездочка-слеш).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174708Z" creationid="Марианна" creationdate="20201005T174708Z">
+        <seg>The multi-line comment is represented by all characters included between &lt;x3/&gt;/*&lt;x4/&gt; (slash-asterisk) and &lt;x5/&gt;*/&lt;x6/&gt; (asterisk-slash).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модуль включает в себя:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111621Z" creationid="Марианна" creationdate="20200713T111621Z">
@@ -9803,6 +9811,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091216Z" creationid="Марианна" creationdate="20200715T091216Z">
         <seg>One of the main concepts on which the &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; platform is based is the &lt;x5/&gt;Workflow&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однострочный комментарий начинается символами &lt;x1/&gt;//&lt;x2/&gt; (два слеша) и продолжается до конца строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T174229Z" creationid="Марианна" creationdate="20201005T174229Z">
+        <seg>The single-line comment starts from &lt;x1/&gt;//&lt;x2/&gt; (two slashes) characters, and it continues until the end of the string.</seg>
       </tuv>
     </tu>
     <tu>
