@@ -614,6 +614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;&gt;&lt;x2/&gt; — Не равно;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172900Z" creationid="Марианна" creationdate="20201005T172900Z">
+        <seg>&lt;x1/&gt;&lt;&gt;&lt;x2/&gt; — Not equal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Автоматическая синхронизация&lt;x4/&gt; — при включении данного режима команда  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Синхронизировать поля&lt;x8/&gt; будет выполняться автоматически при выполнении узла (включена по умолчанию).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160641Z" creationid="Марианна" creationdate="20201001T160641Z">
@@ -1106,6 +1114,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082741Z" creationid="Марианна" creationdate="20200924T082741Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Delete all conditions&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Delete all conditions&lt;x6/&gt; enables to delete all conditions for the selected branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;=&lt;x2/&gt; — Равно;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172649Z" creationid="Марианна" creationdate="20201005T172649Z">
+        <seg>&lt;x1/&gt;=&lt;x2/&gt; — Equals.</seg>
       </tuv>
     </tu>
     <tu>
