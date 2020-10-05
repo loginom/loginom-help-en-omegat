@@ -614,6 +614,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;&lt;x2/&gt; — Меньше;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172942Z" creationid="Марианна" creationdate="20201005T172942Z">
+        <seg>&lt;x1/&gt;&lt;&lt;x2/&gt; — Less than.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;=&lt;x2/&gt; — Меньше или равно;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173128Z" creationid="Марианна" creationdate="20201005T173128Z">
+        <seg>&lt;x1/&gt;&lt;=&lt;x2/&gt; — Less than or equal to.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;&gt;&lt;x2/&gt; — Не равно;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172900Z" creationid="Марианна" creationdate="20201005T172900Z">
@@ -1122,6 +1138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172649Z" creationid="Марианна" creationdate="20201005T172649Z">
         <seg>&lt;x1/&gt;=&lt;x2/&gt; — Equals.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&gt;&lt;x2/&gt; — Больше;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172959Z" creationid="Марианна" creationdate="20201005T172959Z">
+        <seg>&lt;x1/&gt;&gt;&lt;x2/&gt; — Greater than.</seg>
       </tuv>
     </tu>
     <tu>
