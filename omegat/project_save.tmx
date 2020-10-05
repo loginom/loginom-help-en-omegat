@@ -8871,6 +8871,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логические операции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T170533Z" creationid="Марианна" creationdate="20201005T170533Z">
+        <seg>Logical operations:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Любую ячейку или диапазон ячеек &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно выделить указателем мыши и скопировать ее (их) значение, нажав сочетание клавиш &lt;x3/&gt;Ctrl+C&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105745Z" creationid="Марианна" creationdate="20200818T105745Z">
@@ -9075,6 +9083,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200658Z" creationid="Марианна" creationdate="20200921T200658Z">
         <seg>The loop ends at the iteration that makes the variable value meet such condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На панели расположены кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T171958Z" creationid="Марианна" creationdate="20201005T170523Z">
+        <seg>The toolbar includes the buttons that enable to insert a template or preset layout into the expression code area upon their pressing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9875,6 +9891,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T061506Z" creationid="Марианна" creationdate="20200817T061506Z">
         <seg>"Processes" panel enables to receive additional information on the data processing processes by the Workflow nodes during the current Loginom session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель быстрого доступа</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T170124Z" creationid="Марианна" creationdate="20201005T170124Z">
+        <seg>Quick Access Toolbar</seg>
       </tuv>
     </tu>
     <tu>
