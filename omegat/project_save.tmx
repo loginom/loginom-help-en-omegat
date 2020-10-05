@@ -1246,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; — Ложь;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173821Z" creationid="Марианна" creationdate="20201005T173821Z">
+        <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; denotes the false value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183338Z" creationid="Марианна" creationdate="20200810T183338Z">
@@ -2079,6 +2087,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Время&lt;x2/&gt; — для ввода времени, будет вставлено &lt;x3/&gt;StrToDate("__:__:__", "HH:NN:SS")&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173713Z" creationid="Марианна" creationdate="20201005T173713Z">
+        <seg>&lt;x1/&gt;Time&lt;x2/&gt;: &lt;x3/&gt;StrToDate("__:__:__", "HH:NN:SS")&lt;x4/&gt; will be inserted to enter the time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Все ветви&lt;x2/&gt; — активирует выполнение всех ветвей, в том числе ветвь &lt;x3/&gt;Иначе&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T084708Z" creationid="Марианна" creationdate="20200924T084708Z">
@@ -2475,6 +2491,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060411Z" creationid="Марианна" creationdate="20200812T060411Z">
         <seg>&lt;x1/&gt;Date/time&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дата&lt;x2/&gt; — для ввода даты, будет вставлено &lt;x3/&gt;StrToDate("____-__-__", "YYYY-MM-DD")&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173621Z" creationid="Марианна" creationdate="20201005T173621Z">
+        <seg>&lt;x1/&gt;Date&lt;x2/&gt;: &lt;x3/&gt;StrToDate("____-__-__", "YYYY-MM-DD")&lt;x4/&gt; will be inserted to enter the date.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8963,6 +8987,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
         <seg>Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: &lt;x7/&gt;user&lt;x8/&gt;, without password.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логические значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173752Z" creationid="Марианна" creationdate="20201005T173752Z">
+        <seg>Logical Values:</seg>
       </tuv>
     </tu>
     <tu>
