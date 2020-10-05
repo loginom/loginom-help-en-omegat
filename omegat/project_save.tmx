@@ -8431,6 +8431,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из данных каждого поля таблицы формируется переменная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T183234Z" creationid="Марианна" creationdate="20201005T183234Z">
+        <seg>A variable is generated from the data of each table field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в области кода сохраняются при выходе из нее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164326Z" creationid="Марианна" creationdate="20201005T164326Z">
@@ -9811,6 +9819,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194933Z" creationid="Марианна" creationdate="20200916T194933Z">
         <seg>The handler exports the initial data set to the &lt;x1/&gt;LGD file&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик позволяет преобразовать табличные данные в переменные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T183004Z" creationid="Марианна" creationdate="20201005T183004Z">
+        <seg>The handler enables to transform the table data to variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12243,6 +12259,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113008Z" creationid="Марианна" creationdate="20200916T113008Z">
         <seg>Transactions are committed after a given number of rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>У переменной может быть только одно значение, поэтому для его расчета к данным поля применяются различные &lt;x1/&gt;функции агрегации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T183723Z" creationid="Марианна" creationdate="20201005T183723Z">
+        <seg>A variable can have only one value that's why different &lt;x1/&gt;aggregation functions&lt;x2/&gt; are applied to the field data for its calculation.</seg>
       </tuv>
     </tu>
     <tu>
