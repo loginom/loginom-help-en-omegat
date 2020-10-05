@@ -4641,6 +4641,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: Обработчик "Калькулятор" использует механизм &lt;x3/&gt;ленивых вычислений&lt;x4/&gt;, это означает, что расчет производится только тогда, когда значение выражения отображается или используется другим узлом сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T182433Z" creationid="Марианна" creationdate="20201005T182433Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: The "Calculator" handler is based on the &lt;x3/&gt;lazy computation&lt;x4/&gt; technique. It means that the computation is performed only when the expression value is displayed or used by the other workflow node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Принимать несколько подряд разделителей за один&lt;x2/&gt; — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T094354Z" creationid="Марианна" creationdate="20200826T094354Z">
@@ -12187,6 +12195,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T092611Z" creationid="Марианна" creationdate="20200918T092611Z">
         <seg>Types of the table field data and linked object must coincide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>То же самое можно сделать при помощи Drag-and-Drop.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T180513Z" creationid="Марианна" creationdate="20201005T180513Z">
+        <seg>The Drag-and-Drop method enables to perform the same actions.</seg>
       </tuv>
     </tu>
     <tu>
