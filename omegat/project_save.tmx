@@ -10127,6 +10127,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию для нового выражения назначается метка &lt;x3/&gt;ВыражениеN&lt;x4/&gt; и имя &lt;x5/&gt;ExprN&lt;x6/&gt;, где &lt;x7/&gt;N&lt;x8/&gt; — номер, обеспечивающий уникальность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T162146Z" creationid="Марианна" creationdate="20201005T162146Z">
+        <seg>&lt;x3/&gt;ExpressionN&lt;x4/&gt; caption and &lt;x5/&gt;ExprN&lt;x6/&gt; name are assigned for the new expression by default where &lt;x7/&gt;N&lt;x8/&gt; is number providing uniqueness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию имеет значение первого корневого узла выбранного файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T080438Z" creationid="Марианна" creationdate="20201001T162826Z">
@@ -10817,8 +10825,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>При первом открытии мастера настройки список выражений содержит один элемент с именем &lt;x1/&gt;Expr0&lt;x2/&gt; вещественного типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T161823Z" creationid="Марианна" creationdate="20201005T161823Z">
-        <seg>When you firrst open the wizard, the list of expressions contains one real item with &lt;x1/&gt;Expr0&lt;x2/&gt; name.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T161844Z" creationid="Марианна" creationdate="20201005T161823Z">
+        <seg>When you first open the wizard, the list of expressions contains one real item with &lt;x1/&gt;Expr0&lt;x2/&gt; name.</seg>
       </tuv>
     </tu>
     <tu>
