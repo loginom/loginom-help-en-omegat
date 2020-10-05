@@ -12071,6 +12071,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формула выражения может содержать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T164412Z" creationid="Марианна" creationdate="20201005T164412Z">
+        <seg>The expression formula can contain the following components:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функционал компонента</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
@@ -12463,10 +12471,34 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>скобки, определяющие порядок выполнения операций;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T164702Z" creationid="Марианна" creationdate="20201005T164702Z">
+        <seg>brackets defining the order of operations execution;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>следующий раздел "Видимость узлов").</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102041Z" creationid="Марианна" creationdate="20200919T102041Z">
         <seg>the next section - "Visibility of nodes").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ссылки на другие переменные набора данных в виде наименования переменных или ранее вычисленных выражений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T164504Z" creationid="Марианна" creationdate="20201005T164504Z">
+        <seg>references to other data set variables in the form of the variables names or earlier computed expressions;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ссылки на переменные входного порта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T164533Z" creationid="Марианна" creationdate="20201005T164533Z">
+        <seg>references to the input port variables;</seg>
       </tuv>
     </tu>
     <tu>
