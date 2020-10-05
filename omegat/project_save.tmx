@@ -3617,8 +3617,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область кода выражения&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T193821Z" creationid="Марианна" creationdate="20201004T193821Z">
-        <seg>&lt;x1/&gt;Expression code area&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T162607Z" creationid="Марианна" creationdate="20201004T193821Z">
+        <seg>&lt;x1/&gt;The expression code area&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9483,6 +9483,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204709Z" creationid="Марианна" creationdate="20200921T204709Z">
         <seg>Iterations are numbered from 0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область кода выражения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T162642Z" creationid="Марианна" creationdate="20201005T162642Z">
+        <seg>The Expression Code Area</seg>
       </tuv>
     </tu>
     <tu>
