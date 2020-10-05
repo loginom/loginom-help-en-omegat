@@ -1790,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; вещественные числа записываются с использованием десятичной точки, например, &lt;x3/&gt;&lt;x4/&gt;2.71&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T170052Z" creationid="Марианна" creationdate="20201005T170052Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Real numbers are recorded using the decimal point, for example,&lt;x3/&gt;&lt;x4/&gt;2.71&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; для работы узла требуется предварительно создать &lt;x3/&gt;подключение&lt;x4/&gt; к базе данных и связать его с входным портом &lt;x5/&gt;Подключение&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T133413Z" creationid="Марианна" creationdate="20200824T154448Z">
@@ -12411,6 +12419,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165055Z" creationid="Марианна" creationdate="20201001T165055Z">
         <seg>using &lt;x1/&gt;Delete link&lt;x2/&gt; button in the line (when cursor hovering, the button is changed to &lt;x3/&gt;Delete link&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>однострочные и многострочные комментарии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T165904Z" creationid="Марианна" creationdate="20201005T165904Z">
+        <seg>single-line and multi-line comments.</seg>
       </tuv>
     </tu>
     <tu>
