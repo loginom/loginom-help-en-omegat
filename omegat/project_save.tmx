@@ -7607,6 +7607,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Двойной клик мыши по позиции списка вводит имя переменной в область кода выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T175903Z" creationid="Марианна" creationdate="20201005T175903Z">
+        <seg>Double click on the list item position enables to enter the variable name to the expression code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Декомпозиция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
@@ -9735,6 +9743,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область содержит список переменных, передаваемых на вход обработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T175035Z" creationid="Марианна" creationdate="20201005T175035Z">
+        <seg>The area contains the list of variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063534Z" creationid="Марианна" creationdate="20200817T063534Z">
@@ -10259,6 +10275,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102149Z" creationid="Марианна" creationdate="20200715T091601Z">
         <seg>A list of possible operations is represented by a number of ready &lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перечень и параметры переменных определяются при настройке входных портов обработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T175149Z" creationid="Марианна" creationdate="20201005T175149Z">
+        <seg>The list and parameters of variables are defined when configuring input ports of the handler.</seg>
       </tuv>
     </tu>
     <tu>
