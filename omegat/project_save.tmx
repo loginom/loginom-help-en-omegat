@@ -10815,6 +10815,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При первом открытии мастера настройки список выражений содержит один элемент с именем &lt;x1/&gt;Expr0&lt;x2/&gt; вещественного типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T161823Z" creationid="Марианна" creationdate="20201005T161823Z">
+        <seg>When you firrst open the wizard, the list of expressions contains one real item with &lt;x1/&gt;Expr0&lt;x2/&gt; name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При первоначальной настройке достаточно добавить входные порты и сохранить настройки компонента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065528Z" creationid="Марианна" creationdate="20200924T065528Z">
