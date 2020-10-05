@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;TRUE&lt;x2/&gt; — Истина.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173837Z" creationid="Марианна" creationdate="20201005T173837Z">
+        <seg>&lt;x1/&gt;TRUE&lt;x2/&gt; denotes the true value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;XML-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185333Z" creationid="Марианна" creationdate="20200810T184536Z">
@@ -8795,6 +8803,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
         <seg>The context menu commands enable to collapse/expand all nodes in the properties tree simultaneously.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Комментарии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T173850Z" creationid="Марианна" creationdate="20201005T173850Z">
+        <seg>Comments</seg>
       </tuv>
     </tu>
     <tu>
