@@ -6625,6 +6625,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области кода задается формула расчета выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T163305Z" creationid="Марианна" creationdate="20201005T163305Z">
+        <seg>The expression calculation formula is set in the code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
