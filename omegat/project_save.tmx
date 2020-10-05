@@ -1118,6 +1118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AND&lt;x2/&gt; — операция Логическое "И";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172129Z" creationid="Марианна" creationdate="20201005T172129Z">
+        <seg>&lt;x1/&gt;AND&lt;x2/&gt; means the Logical "AND" operation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055612Z" creationid="Марианна" creationdate="20200812T055612Z">
@@ -1294,10 +1302,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;NOT&lt;x2/&gt; — операция Логическое "НЕ";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172155Z" creationid="Марианна" creationdate="20201005T172155Z">
+        <seg>&lt;x1/&gt;NOT&lt;x2/&gt; means the Logical "NOT" operation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ODBC&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183359Z" creationid="Марианна" creationdate="20200810T183359Z">
         <seg>&lt;x1/&gt;ODBC&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;OR&lt;x2/&gt; — операция Логическое "ИЛИ";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172138Z" creationid="Марианна" creationdate="20201005T172138Z">
+        <seg>&lt;x1/&gt;OR&lt;x2/&gt; means the Logical "OR" operation;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1378,6 +1402,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185333Z" creationid="Марианна" creationdate="20200810T184536Z">
         <seg>&lt;x1/&gt;XML file&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;XOR&lt;x2/&gt; — операция Логическое "исключающее ИЛИ".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T172417Z" creationid="Марианна" creationdate="20201005T172417Z">
+        <seg>&lt;x1/&gt;XOR&lt;x2/&gt; means the Logical "exclusive OR" operator.</seg>
       </tuv>
     </tu>
     <tu>
