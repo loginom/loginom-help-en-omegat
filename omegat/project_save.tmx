@@ -10471,6 +10471,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После настройки параметров выражения в область кода требуется ввести рассчитываемую формулу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201005T162508Z" creationid="Марианна" creationdate="20201005T162508Z">
+        <seg>After configuration of the expression parameters, it is required to enter the calculated formula to the code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После настройки узел имеет порты, идентичные портам базового узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143649Z" creationid="Марианна" creationdate="20200918T143649Z">
