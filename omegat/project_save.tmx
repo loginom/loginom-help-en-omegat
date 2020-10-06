@@ -2951,6 +2951,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Замена-переменные&lt;x2/&gt; Замена (переменные)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T155314Z" creationid="Марианна" creationdate="20201006T155314Z">
+        <seg>&lt;x1/&gt;Replace (Variables)&lt;x2/&gt; Replace (Variables)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Замена&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191829Z" creationid="Марианна" creationdate="20200810T191829Z">
