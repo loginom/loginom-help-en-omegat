@@ -4263,6 +4263,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — перемещает выделенные поля вниз по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084408Z" creationid="Марианна" creationdate="20201006T084408Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the selected fields down the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — перемещает выделенный элемент вниз по списку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203440Z" creationid="Марианна" creationdate="20200829T203440Z">
@@ -5025,6 +5033,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — для выделенных полей открывает окно выбора доступных вариантов агрегации;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084455Z" creationid="Марианна" creationdate="20201006T084455Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to open the selection window of the available aggregation options for the selected fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — задание параметров выражения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194646Z" creationid="Марианна" creationdate="20201004T194646Z">
@@ -5749,6 +5765,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083918Z" creationid="Марианна" creationdate="20201006T083918Z">
         <seg>&lt;x1/&gt;Delete all&lt;x2/&gt; enables to move all items to the &lt;x3/&gt;Available fields&lt;x4/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить выбранные&lt;x2/&gt; &lt;x3/&gt;Удалить выбранные&lt;x4/&gt; — перемещает выделенные поля обратно в список &lt;x5/&gt;Доступные поля&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084558Z" creationid="Марианна" creationdate="20201006T084558Z">
+        <seg>&lt;x1/&gt;Delete selected&lt;x2/&gt; &lt;x3/&gt;Delete selected&lt;x4/&gt; enables to move the selected fields back to the &lt;x5/&gt;Available fields&lt;x6/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
