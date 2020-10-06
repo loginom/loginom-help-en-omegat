@@ -2471,6 +2471,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — новый набор переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153509Z" creationid="Марианна" creationdate="20201006T153509Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote a new set of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — список переменных, полученный из входного источника данных с использованием функций агрегации по полю.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T184028Z" creationid="Марианна" creationdate="20201005T184028Z">
@@ -6709,6 +6717,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>a0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153617Z" creationid="Марианна" creationdate="20201006T153617Z">
+        <seg>a0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>b</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104130Z" creationid="Марианна" creationdate="20201006T104130Z">
@@ -8919,6 +8935,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имеется три набора переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153603Z" creationid="Марианна" creationdate="20201006T153603Z">
+        <seg>There are three sets of variables:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
@@ -9875,6 +9899,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205056Z" creationid="Марианна" creationdate="20200921T205056Z">
         <seg>During this stage, it is required to configure transfer of values of the output variables to the corresponding input variables at the next loop iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Набор A:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153609Z" creationid="Марианна" creationdate="20201006T153609Z">
+        <seg>Set A:</seg>
       </tuv>
     </tu>
     <tu>
