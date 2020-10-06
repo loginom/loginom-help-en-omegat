@@ -1,30 +1,30 @@
-# ![Замена-переменные](../../images/icons/components/replace-variables_default.svg) Замена (переменные)
+# ![Replace (Variables)](../../images/icons/components/replace-variables_default.svg) Replace (Variables)
 
-Обработчик заменяет входные переменные, используя таблицы замен. Таблицы замен содержат пары заменяемых и новых значений или вычисляющие их регулярные выражения.
+The handler replaces the input variables using replacement tables. The replacement tables contain couples of the replaced and new values or regular expressions that enable to compute them.
 
-Последовательность действий алгоритма замены:
+Sequence of the replacement algorithm actions:
 
-1. В первую очередь производится поиск и замена по [точному совпадению](../transformation/substitution/exact-match.md#zamena-po-tochnomu-sovpadeniyu) со значениями, указанными в таблице замен.
-1. Среди значений, не найденных по точному совпадению, производится поиск по [регулярным выражениям](../transformation/substitution/regexp-match.md). Такие выражения могут быть заданы в таблицах замен. Новые значения также вычисляются регулярными выражениями.
-1. Выполняются правила замены для значений, не найденных на предыдущих шагах.
+1. First of all, replacement and search are performed by [exact match](../transformation/substitution/exact-match.md#zamena-po-tochnomu-sovpadeniyu) with the values specified in the replacement table.
+1. The search among the values not found by exact match is performed by [regular expressions](../transformation/substitution/regexp-match.md). Such expressions will be set in the replacement tables. New values are also computed using regular expressions.
+1. Replacement rules are observed for the values not found at the previous steps.
 
 ## Ports
 
 ### Input
 
-* ![Входные переменные](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — переменные, подлежащие изменению.
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** denote the variables to be changed.
 
 ### Output
 
-* ![Выходные переменные](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — переменные после обработки.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote the variables after processing.
 
 ## Wizard
 
-Окно мастера настройки состоит из трех областей.
+The wizard window consists of three areas.
 
-### Список замен
+### List of Replacements
 
-Отображает входные переменные и способ замены для каждой переменной:
+It displays the input variables and replacement method for each variable:
 
 * **не заменять** — замены производиться не будут;
 * **ввод вручную** — использовать таблицу замен.
