@@ -6773,6 +6773,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>a2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154306Z" creationid="Марианна" creationdate="20201006T154306Z">
+        <seg>a2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>b</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104130Z" creationid="Марианна" creationdate="20201006T104130Z">
@@ -6785,6 +6793,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104238Z" creationid="Марианна" creationdate="20201006T104238Z">
         <seg>b(sum)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>b_1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154341Z" creationid="Марианна" creationdate="20201006T154341Z">
+        <seg>b_1</seg>
       </tuv>
     </tu>
     <tu>
@@ -11999,6 +12015,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примечание</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154136Z" creationid="Марианна" creationdate="20201006T154136Z">
+        <seg>Note</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
@@ -13411,6 +13435,54 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174941Z" creationid="Марианна" creationdate="20201005T174941Z">
         <seg>and (asterisk-slash).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>из набора A, переменная a0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154150Z" creationid="Марианна" creationdate="20201006T154150Z">
+        <seg>from set A, variable a0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>из набора A, переменная b</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154207Z" creationid="Марианна" creationdate="20201006T154207Z">
+        <seg>from set A, variable b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>из набора B, переменная a0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154245Z" creationid="Марианна" creationdate="20201006T154245Z">
+        <seg>from set B, variable a0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>из набора B, переменная c</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154303Z" creationid="Марианна" creationdate="20201006T154303Z">
+        <seg>from set B, variable c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>из набора C, переменная a1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154338Z" creationid="Марианна" creationdate="20201006T154338Z">
+        <seg>from set C, variable a1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>из набора C, переменная b</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154400Z" creationid="Марианна" creationdate="20201006T154400Z">
+        <seg>from set C, variable b</seg>
       </tuv>
     </tu>
     <tu>
