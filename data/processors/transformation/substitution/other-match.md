@@ -76,7 +76,7 @@
  <tr><th align="left">Исходные данные</th><th colspan="2">Таблица замен</th><th rowspan="2" align="left" valign="top">Заменять остальное:</br>На регулярное выражение</th><th align="left" valign="top">Результат замены</th></tr>
 
 
-<tr><td>БИК банка</td><th>Замена</th><th>Значение</th><td>БИК банка Замена</td></tr>
+<tr><td>БИК банка</td><th>Замена</th><th>Value</th><td>БИК банка Замена</td></tr>
 
 
 <tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Ошибочный БИК</td><td rowspan="4" valign="top" align="left">БИК $1 указывается в платежном поручении</td><td align="left">Ошибочный БИК</td></tr>

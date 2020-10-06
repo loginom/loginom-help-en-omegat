@@ -10,7 +10,7 @@
 
 <table>
  <tr><th>Исходные данные</th><th colspan="2">Значения полей таблицы замен</th><th>Результат замены</th></tr>
- <tr><td>БИК банка</td><th>Замена</th><th>Значение</th><td>БИК банка Замена</td></tr>
+ <tr><td>БИК банка</td><th>Замена</th><th>Value</th><td>БИК банка Замена</td></tr>
  <tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Ошибочный БИК</td><td>Ошибочный БИК</td></tr>
  <tr><td>40147781</td><td>40147781</td></tr>
  <tr><td>40155000</td><td>40155000</td></tr>
