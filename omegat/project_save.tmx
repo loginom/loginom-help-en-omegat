@@ -9287,6 +9287,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как видно вторая переменная &lt;x1/&gt;b&lt;x2/&gt; была переименована в &lt;x3/&gt;b_1&lt;x4/&gt;, в то время как вторая переменная &lt;x5/&gt;a0&lt;x6/&gt; была переименована в &lt;x7/&gt;a1&lt;x8/&gt;, и &lt;x9/&gt;a1&lt;x10/&gt; была переименована в &lt;x11/&gt;a2&lt;x12/&gt; так как после переименовки &lt;x13/&gt;a0&lt;x14/&gt; в &lt;x15/&gt;a1&lt;x16/&gt; уже она являлась дублем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154846Z" creationid="Марианна" creationdate="20201006T154846Z">
+        <seg>Obviously, the second variable &lt;x1/&gt;b&lt;x2/&gt; was renamed to &lt;x3/&gt;b_1&lt;x4/&gt;, whereas the second variable &lt;x5/&gt;a0&lt;x6/&gt; was renamed to &lt;x7/&gt;a1&lt;x8/&gt;, and &lt;x9/&gt;a1&lt;x10/&gt; was renamed to &lt;x11/&gt;a2&lt;x12/&gt; because after renaming of &lt;x13/&gt;a0&lt;x14/&gt; to &lt;x15/&gt;a1&lt;x16/&gt;, it had already been a double.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как узнать версию Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161327Z" creationid="Марианна" creationdate="20200818T161327Z">
