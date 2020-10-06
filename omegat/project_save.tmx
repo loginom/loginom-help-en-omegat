@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Ctrl Down % — Переместить вниз;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084641Z" creationid="Марианна" creationdate="20201006T084641Z">
+        <seg>%kbd Ctrl Down % means to move down.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Ctrl O % — открытие &lt;x1/&gt;Пакета&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140324Z" creationid="Марианна" creationdate="20200816T140324Z">
@@ -70,10 +78,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Delete % — Удалить выбранные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084711Z" creationid="Марианна" creationdate="20201006T084711Z">
+        <seg>%kbd Delete % means to delete selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Delete % — удалить;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T194954Z" creationid="Марианна" creationdate="20200827T194855Z">
         <seg>%kbd Delete % means to delete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd F2 % — Редактировать;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084655Z" creationid="Марианна" creationdate="20201006T084655Z">
+        <seg>%kbd F2 % means to edit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8187,6 +8211,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075151Z" creationid="Марианна" creationdate="20200829T204540Z">
         <seg>The following hotkeys duplicating some listed commands are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступны горячие клавиши, дублирующие перечисленные команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084621Z" creationid="Марианна" creationdate="20201006T084621Z">
+        <seg>The following hotkeys duplicating the listed commands are available:</seg>
       </tuv>
     </tu>
     <tu>
