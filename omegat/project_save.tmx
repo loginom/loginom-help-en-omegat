@@ -6433,6 +6433,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; &lt;x3/&gt;Экспорт&lt;x4/&gt; — сохраняет таблицу замен в указанный текстовый файл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T202434Z" creationid="Марианна" creationdate="20201006T202434Z">
+        <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt; enables to save the replacement table in the specified text file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;в столбцы&lt;x2/&gt; — каждой переменной будет соответствовать отдельное поле таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104005Z" creationid="Марианна" creationdate="20201006T103832Z">
@@ -9035,6 +9043,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164326Z" creationid="Марианна" creationdate="20201005T164326Z">
         <seg>Changes in the code area are saved on exit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменения, производимые в дальнейшем с таблицей замен или файлом, не отражаются друг на друге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T202346Z" creationid="Марианна" creationdate="20201006T202346Z">
+        <seg>Further changes of the replacement table or file will not have impact on each other.</seg>
       </tuv>
     </tu>
     <tu>
