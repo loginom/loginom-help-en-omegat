@@ -2239,6 +2239,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — необязательный набор переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T152925Z" creationid="Марианна" creationdate="20201006T152925Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote an optional set of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — список переменных, которые можно использовать в обработчике.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193611Z" creationid="Марианна" creationdate="20201004T193611Z">
@@ -2763,6 +2771,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205048Z" creationid="Марианна" creationdate="20200829T205048Z">
         <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add a new row to the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавляемые переменные&lt;x2/&gt; &lt;x3/&gt;Добавляемые переменные&lt;x4/&gt; — обязательный набор переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153113Z" creationid="Марианна" creationdate="20201006T153113Z">
+        <seg>&lt;x1/&gt;Added variables&lt;x2/&gt; &lt;x3/&gt;Added variables&lt;x4/&gt; denote a required set of variables.</seg>
       </tuv>
     </tu>
     <tu>
