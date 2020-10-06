@@ -6449,6 +6449,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;не заменять&lt;x2/&gt; — замены производиться не будут;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T163111Z" creationid="Марианна" creationdate="20201006T163111Z">
+        <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: no replacement is performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x5/&gt;автоматическая синхронизация полей&lt;x6/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160328Z" creationid="Марианна" creationdate="20201001T160304Z">
