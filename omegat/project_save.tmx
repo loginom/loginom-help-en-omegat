@@ -3071,6 +3071,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Изменить тип замены&lt;x2/&gt; — позволяет изменить &lt;x3/&gt;тип данных&lt;x4/&gt; переменной после произведенной замены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T202712Z" creationid="Марианна" creationdate="20201006T202712Z">
+        <seg>&lt;x1/&gt;Change replacement type&lt;x2/&gt; enables to change &lt;x3/&gt;data type&lt;x4/&gt; of the variable after performed replacement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Измерение&lt;x2/&gt; &lt;x3/&gt;Измерение&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195235Z" creationid="Марианна" creationdate="20200827T195235Z">
@@ -10183,6 +10191,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, вещественную переменную можно заменить целочисленной или строковой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T202832Z" creationid="Марианна" creationdate="20201006T202832Z">
+        <seg>For example, it is possible to replace the real variable with the integer or string one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если на каждой итерации происходит обращение к источнику данных, не допускающему параллельные запросы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204010Z" creationid="Марианна" creationdate="20200921T203923Z">
@@ -12115,6 +12131,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
         <seg>In this case, the workflow node responsible for import is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом, если замена не будет произведена, то тип не поменяется (за исключением / кроме случая замены вещественного числа на целочисленное).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203029Z" creationid="Марианна" creationdate="20201006T203029Z">
+        <seg>In this case, if replacement is not performed, the type will not be changed (with the exception / apart from replacement of the real number with the integer one).</seg>
       </tuv>
     </tu>
     <tu>
