@@ -10615,6 +10615,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Окно мастера настройки состоит из трех областей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161408Z" creationid="Марианна" creationdate="20201006T161408Z">
+        <seg>The wizard window consists of three areas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Окно мастера поделено на две области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195617Z" creationid="Марианна" creationdate="20200827T195617Z">
@@ -12619,6 +12627,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193929Z" creationid="Марианна" creationdate="20201004T193929Z">
         <seg>List of Expressions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список замен</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161420Z" creationid="Марианна" creationdate="20201006T161420Z">
+        <seg>List of Replacements</seg>
       </tuv>
     </tu>
     <tu>
