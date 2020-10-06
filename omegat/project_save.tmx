@@ -5395,8 +5395,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Соединение-переменные&lt;x2/&gt; Соединение (переменные)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T151704Z" creationid="Марианна" creationdate="20201006T151704Z">
-        <seg>&lt;x1/&gt;Union-Variables&lt;x2/&gt; Union (Variables)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153905Z" creationid="Марианна" creationdate="20201006T151704Z">
+        <seg>&lt;x1/&gt;Variable Union&lt;x2/&gt; Variable Union</seg>
       </tuv>
     </tu>
     <tu>
@@ -11515,6 +11515,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110321Z" creationid="Марианна" creationdate="20200929T110321Z">
         <seg>Afterwards the child node will be created. It is possible to define value of the following fields for this node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательно подключим их к узлу соединения, и на выходе получим такой список переменных (столбец "Примечание" приведен для наглядности, в результирующий набор он включен не будет):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T154124Z" creationid="Марианна" creationdate="20201006T153840Z">
+        <seg>It is required to provide serial connection to the node. We will receive the following list of variables at the output (the "Note" column is provided for clarity; it won't be included into the resulting set):</seg>
       </tuv>
     </tu>
     <tu>
