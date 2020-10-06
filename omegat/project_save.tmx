@@ -7679,6 +7679,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Двойной клик по полю открывает окно "Выбора агрегации".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083340Z" creationid="Марианна" creationdate="20201006T083340Z">
+        <seg>Double click on the field enables to open the "Aggregation selection" window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Действия над выбранными полями можно осуществлять мышью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083036Z" creationid="Марианна" creationdate="20201006T083036Z">
@@ -8699,6 +8707,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T084648Z" creationid="Марианна" creationdate="20200929T084648Z">
         <seg>The only exception is the root node. The minimum number of its instances is equal to 0 if it is an array, and 1 if it is not an array.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исключить можно с помощью переноса полей в список &lt;x1/&gt;Доступные поля&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083236Z" creationid="Марианна" creationdate="20201006T083236Z">
+        <seg>It is possible to exclude by means of fields transfer to the &lt;x1/&gt;Available fields&lt;x2/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12667,6 +12683,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200820T105310Z" creationid="Марианна" creationdate="20200820T105310Z">
         <seg>This button is always located in the far right position on the toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эти же действия выполняют кнопки на панели быстрого доступа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083459Z" creationid="Марианна" creationdate="20201006T083459Z">
+        <seg>It is possible to perform the same actions using the quick access toolbar buttons:</seg>
       </tuv>
     </tu>
     <tu>
