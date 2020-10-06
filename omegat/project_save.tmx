@@ -10791,6 +10791,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отображает входные переменные и способ замены для каждой переменной:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161512Z" creationid="Марианна" creationdate="20201006T161512Z">
+        <seg>It displays the input variables and replacement method for each variable:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отобразить:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190625Z" creationid="Марианна" creationdate="20200825T190625Z">
