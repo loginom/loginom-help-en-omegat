@@ -4231,6 +4231,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; — перемещает выделенный элемент вверх по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083534Z" creationid="Марианна" creationdate="20201006T083534Z">
+        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; enables to move the selected item up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить ветвь вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt;, &lt;x5/&gt;Переместить ветвь вверх&lt;x6/&gt; &lt;x7/&gt;Переместить вверх&lt;x8/&gt; — установить приоритет выделенной ветви путем её смещения относительно других ветвей;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074037Z" creationid="Марианна" creationdate="20200924T074037Z">
@@ -4259,6 +4267,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T102347Z" creationid="Марианна" creationdate="20200920T150239Z">
         <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;, &lt;x5/&gt;Move up&lt;x6/&gt; &lt;x7/&gt;Move up&lt;x8/&gt; enable to dislocate the selected port in the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; — перемещает выделенный элемент вниз по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083559Z" creationid="Марианна" creationdate="20201006T083559Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; enables to move the selected item down the list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5013,6 +5029,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205130Z" creationid="Марианна" creationdate="20200829T205130Z">
         <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to edit the row added to the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; — для выделенных полей открывает окно выбора доступных вариантов агрегации;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083607Z" creationid="Марианна" creationdate="20201006T083607Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; — для выделенных полей открывает окно выбора доступных вариантов агрегации;</seg>
       </tuv>
     </tu>
     <tu>
