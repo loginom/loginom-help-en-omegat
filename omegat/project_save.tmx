@@ -2855,6 +2855,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Еще порт&lt;x2/&gt; &lt;x3/&gt;Добавление еще одного порта&lt;x4/&gt; — создает новые порты входа для последующих наборов переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153400Z" creationid="Марианна" creationdate="20201006T153400Z">
+        <seg>&lt;x1/&gt;Another port&lt;x2/&gt; &lt;x3/&gt;Add another port&lt;x4/&gt; enables to create new input ports for the subsequent sets of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T085304Z" creationid="Марианна" creationdate="20200826T085304Z">
