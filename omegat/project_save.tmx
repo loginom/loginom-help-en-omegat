@@ -4239,6 +4239,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменные в таблицу&lt;x2/&gt; Переменные в таблицу</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T090137Z" creationid="Марианна" creationdate="20201006T090117Z">
+        <seg>&lt;x1/&gt;Variables to Table&lt;x2/&gt; Variables to Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменные сценария&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185144Z" creationid="Марианна" creationdate="20200810T182548Z">
