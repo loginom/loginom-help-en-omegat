@@ -73,7 +73,7 @@
 
 Для примера используем пример из [замены по регулярному выражению](./regexp-match.md):
 <table>
- <tr><th align="left">Исходные данные</th><th colspan="2">Таблица замен</th><th rowspan="2" align="left" valign="top">Заменять остальное:</br>На регулярное выражение</th><th align="left" valign="top">Результат замены</th></tr>
+ <tr><th align="left">Исходные данные</th><th colspan="2">Replacement Table</th><th rowspan="2" align="left" valign="top">Заменять остальное:</br>На регулярное выражение</th><th align="left" valign="top">Результат замены</th></tr>
 
 
 <tr><td>БИК банка</td><th>Замена</th><th>Value</th><td>БИК банка Замена</td></tr>

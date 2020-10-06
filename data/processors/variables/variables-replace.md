@@ -26,17 +26,17 @@ The wizard window consists of three areas.
 
 It displays the input variables and replacement method for each variable:
 
-* **не заменять** — замены производиться не будут;
-* **ввод вручную** — использовать таблицу замен.
+* **Do not replace**: no replacement is performed.
+* **Manual input**; it is required to use the replacement table.
 
-### Таблица замен
+### Replacement Table
 
-Область отображает таблицу замен для выбранной переменной.
+The area displays the replacement table for the selected variable.
 
-Для ввода новой строки в таблице замены используется кнопка ![добавить](../../images/icons/toolbar-controls/plus_default.svg). Таблица может содержать строки для поиска и замены по:
+To enter the new string to the replacement table, it is required to use ![add](../../images/icons/toolbar-controls/plus_default.svg) button. The table can contain strings for search and replacement according to the following requirements:
 
-* **точному совпадению**;
-* **регулярному выражению**.
+* **exact match**;
+* **regular expression**.
 
 При вводе таблицы замены доступен ряд действий через панель инструментов области:
 

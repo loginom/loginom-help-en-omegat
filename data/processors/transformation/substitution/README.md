@@ -36,13 +36,13 @@ Sequence of the replacement algorithm actions:
 
 **Таблица замен N** — наименование принимающего таблицу порта.
 
-### Таблица замен
+### Replacement Table
 
 Отображает внешнюю или внутреннюю таблицу замен для выбранного поля исходного набора.
 
 #### Настройка внутренней таблицы
 
-Для ввода новой строки в таблице замены используется кнопка ![Добавление строки](../../../images/icons/toolbar-controls/plus_default.svg). Таблица может содержать строки для поиска и замены по:
+Для ввода новой строки в таблице замены используется кнопка ![Добавление строки](../../../images/icons/toolbar-controls/plus_default.svg). The table can contain strings for search and replacement according to the following requirements:
 
 * [Точному совпадению](./exact-match.md);
 * [Регулярному выражению](./regexp-match.md) (применимо только к данным строкового типа).
