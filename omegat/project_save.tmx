@@ -2239,6 +2239,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — представляет список результирующих переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082246Z" creationid="Марианна" creationdate="20201006T082246Z">
+        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt; denote a list of resulting variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные элементы&lt;x2/&gt; — правая часть с уже выбранными элементами, позволяет указать интересуемые элементы из первого и задать им необходимые условия и значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164251Z" creationid="Марианна" creationdate="20200827T200105Z">
@@ -10323,6 +10331,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
         <seg>Variables can be also used to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перемещение полей между областями возможно с помощью Drag-and-Drop.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082337Z" creationid="Марианна" creationdate="20201006T082337Z">
+        <seg>The Drag-and-Drop method enables to move fields beween areas.</seg>
       </tuv>
     </tu>
     <tu>
