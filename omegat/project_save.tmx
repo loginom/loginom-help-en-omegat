@@ -6513,6 +6513,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;на значение&lt;x2/&gt; — значения будут заменены на указанное.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203621Z" creationid="Марианна" creationdate="20201006T203621Z">
+        <seg>&lt;x1/&gt;With value&lt;x2/&gt;: values will be replaced with the specified value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;на пропущенное&lt;x2/&gt; — значения будут заменены на "NULL".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203536Z" creationid="Марианна" creationdate="20201006T203536Z">
