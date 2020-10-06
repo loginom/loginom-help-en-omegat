@@ -12879,6 +12879,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Считанные данные заменят те, которые уже были в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T202200Z" creationid="Марианна" creationdate="20201006T202200Z">
+        <seg>The imported data will replace the data that have already been in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таблица замен</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163210Z" creationid="Марианна" creationdate="20201006T163210Z">
