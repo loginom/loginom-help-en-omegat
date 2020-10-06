@@ -4215,6 +4215,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выделенные поля вверх по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T084333Z" creationid="Марианна" creationdate="20201006T084333Z">
+        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the selected fields up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выделенный элемент вверх по списку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203408Z" creationid="Марианна" creationdate="20200829T203408Z">
