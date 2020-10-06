@@ -6441,6 +6441,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ввод вручную&lt;x2/&gt; — использовать таблицу замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T163156Z" creationid="Марианна" creationdate="20201006T163156Z">
+        <seg>&lt;x1/&gt;Manual input&lt;x2/&gt;; it is required to use the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;выводить&lt;x2/&gt; &lt;x3/&gt;Выводить&lt;x4/&gt; — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204025Z" creationid="Марианна" creationdate="20200829T204025Z">
@@ -8211,6 +8219,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
         <seg>The absolute path is specified for the Desktop version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;добавить&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T163329Z" creationid="Марианна" creationdate="20201006T163329Z">
+        <seg>To enter the new string to the replacement table, it is required to use &lt;x1/&gt;add&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10435,6 +10451,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162642Z" creationid="Марианна" creationdate="20201005T162642Z">
         <seg>The Expression Code Area</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область отображает таблицу замен для выбранной переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T163235Z" creationid="Марианна" creationdate="20201006T163235Z">
+        <seg>The area displays the replacement table for the selected variable.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12819,6 +12843,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163348Z" creationid="Марианна" creationdate="20200718T163348Z">
         <seg>The Workflow can be distinguished by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица замен</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T163210Z" creationid="Марианна" creationdate="20201006T163210Z">
+        <seg>Replacement Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица может содержать строки для поиска и замены по:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T163431Z" creationid="Марианна" creationdate="20201006T163431Z">
+        <seg>The table can contain strings for search and replacement according to the following requirements:</seg>
       </tuv>
     </tu>
     <tu>
