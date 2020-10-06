@@ -7679,6 +7679,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Действия над выбранными полями можно осуществлять мышью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083036Z" creationid="Марианна" creationdate="20201006T083036Z">
+        <seg>It is possible to use the mouse to perform actions with the selected fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Декомпозиция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
@@ -10391,6 +10399,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перетаскиванием внутри списка можно менять позицию в выделенных полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083125Z" creationid="Марианна" creationdate="20201006T083125Z">
+        <seg>It is possible to change position in the selected fields by dragging inside the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перетащить элемент из списка &lt;x1/&gt;Выбранные элементы&lt;x2/&gt; в &lt;x3/&gt;Доступные элементы&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203621Z" creationid="Марианна" creationdate="20200829T203621Z">
@@ -11107,6 +11123,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T195635Z" creationid="Марианна" creationdate="20201004T195635Z">
         <seg>When adding and editing expressions, the dialog of parameters editing is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При добавлении поля в список &lt;x1/&gt;Выбранные поля&lt;x2/&gt; функция агрегации будет назначена по-умолчанию:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082820Z" creationid="Марианна" creationdate="20201006T082820Z">
+        <seg>When adding fields to the &lt;x1/&gt;Selected fields&lt;x2/&gt; list, the aggregation function will be assigned by default:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12771,6 +12795,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203102Z" creationid="Марианна" creationdate="20200829T203102Z">
         <seg>below).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>для остальных — функция &lt;x1/&gt;количество&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083004Z" creationid="Марианна" creationdate="20201006T083004Z">
+        <seg>The &lt;x1/&gt;amount&lt;x2/&gt; function will be selected for others.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>для чисел будет выбрана функция &lt;x1/&gt;сумма&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082915Z" creationid="Марианна" creationdate="20201006T082915Z">
+        <seg>The &lt;x1/&gt;sum&lt;x2/&gt; function will be selected for digits.</seg>
       </tuv>
     </tu>
     <tu>
