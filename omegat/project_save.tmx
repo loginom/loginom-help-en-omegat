@@ -166,10 +166,42 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>10</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104144Z" creationid="Марианна" creationdate="20201006T104144Z">
+        <seg>10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104152Z" creationid="Марианна" creationdate="20201006T104152Z">
+        <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2005</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112932Z" creationid="Марианна" creationdate="20200825T112932Z">
         <seg>2005</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104126Z" creationid="Марианна" creationdate="20201006T104126Z">
+        <seg>5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>7</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104135Z" creationid="Марианна" creationdate="20201006T104135Z">
+        <seg>7</seg>
       </tuv>
     </tu>
     <tu>
@@ -6629,10 +6661,74 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>a</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104122Z" creationid="Марианна" creationdate="20201006T104122Z">
+        <seg>a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>a(сумма)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104234Z" creationid="Марианна" creationdate="20201006T104234Z">
+        <seg>a(sum)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>b</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104130Z" creationid="Марианна" creationdate="20201006T104130Z">
+        <seg>b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>b(сумма)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104238Z" creationid="Марианна" creationdate="20201006T104238Z">
+        <seg>b(sum)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>c</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104139Z" creationid="Марианна" creationdate="20201006T104139Z">
+        <seg>c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>c(сумма)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104242Z" creationid="Марианна" creationdate="20201006T104242Z">
+        <seg>c(sum)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>cond1</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112834Z" creationid="Марианна" creationdate="20200825T112834Z">
         <seg>cond1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>d</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104148Z" creationid="Марианна" creationdate="20201006T104148Z">
+        <seg>d</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>d(сумма)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104246Z" creationid="Марианна" creationdate="20201006T104246Z">
+        <seg>d(sum)</seg>
       </tuv>
     </tu>
     <tu>
@@ -7205,6 +7301,22 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112015Z" creationid="Марианна" creationdate="20201001T112015Z">
         <seg>The Input Tree list displays fields of the data set accepted by the port. It is required to map them with fields of the data set supplied by the port for processing - Output Tree (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В столбцы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104224Z" creationid="Марианна" creationdate="20201006T104224Z">
+        <seg>To columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В строки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104255Z" creationid="Марианна" creationdate="20201006T104255Z">
+        <seg>To strings</seg>
       </tuv>
     </tu>
     <tu>
@@ -8639,6 +8751,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104119Z" creationid="Марианна" creationdate="20201006T104119Z">
+        <seg>Value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение выражения в каждой строке набора данных будет вычислено по формуле, заданной в области кода выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194456Z" creationid="Марианна" creationdate="20201004T194456Z">
@@ -8743,6 +8863,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имеется список переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104104Z" creationid="Марианна" creationdate="20201006T104104Z">
+        <seg>There is a list of variables:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
@@ -8827,6 +8955,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T210913Z" creationid="Марианна" creationdate="20200829T210913Z">
         <seg>Imported Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104111Z" creationid="Марианна" creationdate="20201006T104111Z">
+        <seg>Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -9443,6 +9579,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120816Z" creationid="Марианна" creationdate="20200814T120816Z">
         <seg>Menu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104303Z" creationid="Марианна" creationdate="20201006T104303Z">
+        <seg>Caption</seg>
       </tuv>
     </tu>
     <tu>
@@ -11907,6 +12051,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094355Z" creationid="Марианна" creationdate="20200813T094355Z">
         <seg>Platform editions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат преобразования списка переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104215Z" creationid="Марианна" creationdate="20201006T104215Z">
+        <seg>Result of the variables list transformation:</seg>
       </tuv>
     </tu>
     <tu>
