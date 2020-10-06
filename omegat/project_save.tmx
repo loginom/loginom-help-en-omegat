@@ -6529,6 +6529,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;на регулярное выражение&lt;x2/&gt; — новое значение будет вычислено с использованием &lt;x3/&gt;синтаксиса регулярного выражения&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203736Z" creationid="Марианна" creationdate="20201006T203736Z">
+        <seg>&lt;x1/&gt;With regular expression&lt;x2/&gt;: the new value will be calculated using the &lt;x3/&gt;regular expression syntax&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;не заменять&lt;x2/&gt; — замены производиться не будут.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203500Z" creationid="Марианна" creationdate="20201006T203500Z">
