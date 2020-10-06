@@ -3103,6 +3103,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импорт&lt;x2/&gt; &lt;x3/&gt;Импорт&lt;x4/&gt; – считывает таблицу замен из указанного &lt;x5/&gt;текстового файла заданного формата&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T201841Z" creationid="Марианна" creationdate="20201006T201841Z">
+        <seg>&lt;x1/&gt;Import&lt;x2/&gt; &lt;x3/&gt;Import&lt;x4/&gt; enables to read the replacement table from the specified &lt;x5/&gt;text file of the set format&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импортировать&lt;x2/&gt; — пустые строки будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185737Z" creationid="Марианна" creationdate="20200825T185737Z">
@@ -11755,6 +11763,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075918Z" creationid="Марианна" creationdate="20200716T075918Z">
         <seg>They are objects containing only one value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При вводе таблицы замены доступен ряд действий через панель инструментов области:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T201738Z" creationid="Марианна" creationdate="20201006T201738Z">
+        <seg>When entering the replacement table, the following actions are available by means of the area toolbar:</seg>
       </tuv>
     </tu>
     <tu>
