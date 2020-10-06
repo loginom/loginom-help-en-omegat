@@ -7399,6 +7399,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбранные поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082725Z" creationid="Марианна" creationdate="20201006T082725Z">
+        <seg>Selected Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные элементы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201213Z" creationid="Марианна" creationdate="20200827T195151Z">
@@ -9451,6 +9459,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122706Z" creationid="Марианна" creationdate="20200814T122706Z">
         <seg>Navigation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нажав %kbd Alt S %.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082709Z" creationid="Марианна" creationdate="20201006T082709Z">
+        <seg>Pressing %kbd Alt S %.</seg>
       </tuv>
     </tu>
     <tu>
