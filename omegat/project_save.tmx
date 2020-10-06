@@ -10423,6 +10423,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик заменяет входные переменные, используя таблицы замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T155413Z" creationid="Марианна" creationdate="20201006T155413Z">
+        <seg>The handler replaces the input variables using replacement tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик осуществляет экспорт исходного набора в базу данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194833Z" creationid="Марианна" creationdate="20200916T110446Z">
