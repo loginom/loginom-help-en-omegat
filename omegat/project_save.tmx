@@ -8607,6 +8607,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если имя переменной заканчивается на цифру, то в таких случаях в выходном наборе имена таких переменных пронумеруются по возрастающей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T152751Z" creationid="Марианна" creationdate="20201006T152751Z">
+        <seg>If the variable name ends with a digit, in this case, names of these variables are numbered in an ascending order in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если количество строк в группе не кратно количеству строк в исходном наборе, размер последней группы окажется меньше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202652Z" creationid="Марианна" creationdate="20200921T202652Z">
