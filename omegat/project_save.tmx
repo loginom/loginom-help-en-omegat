@@ -3015,6 +3015,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — будет совпадать с именем поля, если была выбрана лишь одна функция.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T085149Z" creationid="Марианна" creationdate="20201006T085149Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; will coincide with the field name if only one function is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — задается уникальное имя поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192402Z" creationid="Марианна" creationdate="20200825T192402Z">
@@ -8675,6 +8683,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062944Z" creationid="Марианна" creationdate="20200917T162626Z">
         <seg>Names of columns (fields): names of fields will be used as headers of columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имена, метки и значения переменных будут получены следующим образом:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T085058Z" creationid="Марианна" creationdate="20201006T085058Z">
+        <seg>Names, captions and values of fields will be received as follows:</seg>
       </tuv>
     </tu>
     <tu>
