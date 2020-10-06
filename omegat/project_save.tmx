@@ -8647,6 +8647,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения переменных можно расположить в строках, либо в столбцах результирующей таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T103445Z" creationid="Марианна" creationdate="20201006T103445Z">
+        <seg>It is possible to place the values of variables in the strings or columns of the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из данных каждого поля таблицы формируется переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T183234Z" creationid="Марианна" creationdate="20201005T183234Z">
