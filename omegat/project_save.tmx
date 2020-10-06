@@ -174,6 +174,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>12</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153626Z" creationid="Марианна" creationdate="20201006T153626Z">
+        <seg>12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>18</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153657Z" creationid="Марианна" creationdate="20201006T153657Z">
+        <seg>18</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104152Z" creationid="Марианна" creationdate="20201006T104152Z">
@@ -182,10 +198,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>20</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153652Z" creationid="Марианна" creationdate="20201006T153652Z">
+        <seg>20</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2005</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112932Z" creationid="Марианна" creationdate="20200825T112932Z">
         <seg>2005</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>25</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153720Z" creationid="Марианна" creationdate="20201006T153720Z">
+        <seg>25</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>30</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153714Z" creationid="Марианна" creationdate="20201006T153714Z">
+        <seg>30</seg>
       </tuv>
     </tu>
     <tu>
@@ -6725,6 +6765,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>a1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153709Z" creationid="Марианна" creationdate="20201006T153709Z">
+        <seg>a1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>b</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104130Z" creationid="Марианна" creationdate="20201006T104130Z">
@@ -9907,6 +9955,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153609Z" creationid="Марианна" creationdate="20201006T153609Z">
         <seg>Set A:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Набор B:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153644Z" creationid="Марианна" creationdate="20201006T153644Z">
+        <seg>Set B:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Набор C:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T153705Z" creationid="Марианна" creationdate="20201006T153705Z">
+        <seg>Set C:</seg>
       </tuv>
     </tu>
     <tu>
