@@ -7283,8 +7283,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В первую очередь производится поиск и замена по &lt;x1/&gt;точному совпадению&lt;x2/&gt; со значениями, указанными в таблице замен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T160645Z" creationid="Марианна" creationdate="20201006T160645Z">
-        <seg>First of all, replacement and search by &lt;x1/&gt;exact match&lt;x2/&gt; with the values specified in the replacement table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T160739Z" creationid="Марианна" creationdate="20201006T160645Z">
+        <seg>First of all, replacement and search are performed by &lt;x1/&gt;exact match&lt;x2/&gt; with the values specified in the replacement table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12643,6 +12643,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
         <seg>The project designed in such a way has a clear and transparent structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Среди значений, не найденных по точному совпадению, производится поиск по &lt;x1/&gt;регулярным выражениям&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T160842Z" creationid="Марианна" creationdate="20201006T160842Z">
+        <seg>The search among the values not found by exact match is performed by &lt;x1/&gt;regular expressions&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
