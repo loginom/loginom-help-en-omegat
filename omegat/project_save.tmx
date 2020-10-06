@@ -6289,6 +6289,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;в столбцы&lt;x2/&gt; — каждой переменной будет соответствовать отдельное поле таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T103832Z" creationid="Марианна" creationdate="20201006T103832Z">
+        <seg>&lt;x1/&gt;to columns&lt;x2/&gt;: each variable will comply to a separate table field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;выводить&lt;x2/&gt; &lt;x3/&gt;Выводить&lt;x4/&gt; — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204025Z" creationid="Марианна" creationdate="20200829T204025Z">
@@ -6989,6 +6997,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
         <seg>The nodes available for reference creation are displayed in the wizard window in the form of a tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В окне мастера настройки предоставляется два варианта записи переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T103707Z" creationid="Марианна" creationdate="20201006T103707Z">
+        <seg>Two options of variables record are specified in the wizard:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8945,8 +8961,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T085022Z" creationid="Марианна" creationdate="20201006T085022Z">
-        <seg>Each output aggregation option will map a separate variable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T103915Z" creationid="Марианна" creationdate="20201006T085022Z">
+        <seg>Each output aggregation option will correspond to separate variable.</seg>
       </tuv>
     </tu>
     <tu>
