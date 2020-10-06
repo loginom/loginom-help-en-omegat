@@ -7281,6 +7281,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В первую очередь производится поиск и замена по &lt;x1/&gt;точному совпадению&lt;x2/&gt; со значениями, указанными в таблице замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T160645Z" creationid="Марианна" creationdate="20201006T160645Z">
+        <seg>First of all, replacement and search by &lt;x1/&gt;exact match&lt;x2/&gt; with the values specified in the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
@@ -11571,6 +11579,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105414Z" creationid="Марианна" creationdate="20200818T105414Z">
         <seg>Subsequent pressing the header enables to change the sorting order or cancels it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательность действий алгоритма замены:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T160434Z" creationid="Марианна" creationdate="20201006T160434Z">
+        <seg>Sequence of the replacement algorithm actions:</seg>
       </tuv>
     </tu>
     <tu>
