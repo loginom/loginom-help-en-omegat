@@ -10103,6 +10103,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик преобразовывает список переменных в таблицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T090224Z" creationid="Марианна" creationdate="20201006T090224Z">
+        <seg>The handler transforms the list of variables to table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик преобразует данные, представленные в иерархической древовидной форме, в таблицу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T110903Z" creationid="Марианна" creationdate="20201001T110903Z">
