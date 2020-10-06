@@ -2887,6 +2887,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — формируется из всех значений поля, агрегированных выбранной функцией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T085754Z" creationid="Марианна" creationdate="20201006T085754Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; is generated from all field values aggregated by the selected function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;И/ИЛИ&lt;x2/&gt; — кнопка-переключатель появляется между двумя условиями в ветви:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082511Z" creationid="Марианна" creationdate="20200924T082511Z">
@@ -3571,6 +3579,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105958Z" creationid="Марианна" creationdate="20200814T105958Z">
         <seg>&lt;x1/&gt;Location&lt;x2/&gt; is a location of the Package on disk (desktop version) or in &lt;x3/&gt;file storage&lt;x4/&gt; (server version).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — будет состоять из имени поля и названии функции агрегации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T085645Z" creationid="Марианна" creationdate="20201006T085645Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; will consist of the field name and aggregation function name.</seg>
       </tuv>
     </tu>
     <tu>
