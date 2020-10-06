@@ -4687,6 +4687,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Получить значения&lt;x2/&gt; &lt;x3/&gt;Получить значения&lt;x4/&gt; — не доступно для переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203309Z" creationid="Марианна" creationdate="20201006T203309Z">
+        <seg>&lt;x1/&gt;Get values&lt;x2/&gt; &lt;x3/&gt;Get values&lt;x4/&gt; is not available for variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Получить список&lt;x2/&gt; &lt;x3/&gt;Получить список&lt;x4/&gt; — получает список, соответствующий выбранному элементу;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204715Z" creationid="Марианна" creationdate="20200829T204715Z">
@@ -8619,6 +8627,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T191041Z" creationid="Марианна" creationdate="20200929T191041Z">
         <seg>Additional opening of recursive nodes is possible in the manual mode upon tree building.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дополнительные параметры</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203323Z" creationid="Марианна" creationdate="20201006T203323Z">
+        <seg>Additional Parameters</seg>
       </tuv>
     </tu>
     <tu>
