@@ -5035,8 +5035,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; — для выделенных полей открывает окно выбора доступных вариантов агрегации;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T083607Z" creationid="Марианна" creationdate="20201006T083607Z">
-        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; — для выделенных полей открывает окно выбора доступных вариантов агрегации;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083718Z" creationid="Марианна" creationdate="20201006T083607Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; enables to open the selection window of the available aggregation options for the selected fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5737,6 +5737,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить все&lt;x2/&gt; — перемещает все элементы в список &lt;x3/&gt;Доступные поля&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083918Z" creationid="Марианна" creationdate="20201006T083918Z">
+        <seg>&lt;x1/&gt;Delete all&lt;x2/&gt; enables to move all items to the &lt;x3/&gt;Available fields&lt;x4/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить выражение&lt;x2/&gt; &lt;x3/&gt;Удалить выражение&lt;x4/&gt; — удаляет текущее выражение;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T195445Z" creationid="Марианна" creationdate="20201004T195445Z">
@@ -5781,6 +5789,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202324Z" creationid="Марианна" creationdate="20200829T202324Z">
         <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to move the required parameter back to the &lt;x5/&gt;Available items&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; — перемещает текущий элемент в список &lt;x3/&gt;Доступные поля&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T083831Z" creationid="Марианна" creationdate="20201006T083831Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; enables to move the current item to the &lt;x3/&gt;Available fields&lt;x4/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
