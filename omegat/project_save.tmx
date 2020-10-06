@@ -2215,6 +2215,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — список переменных, подлежащий преобразованию в таблицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T103604Z" creationid="Марианна" creationdate="20201006T103604Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote a list of variables to be transformed to a table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; Переменные (необязательный порт);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T102226Z" creationid="Марианна" creationdate="20200920T145050Z">
