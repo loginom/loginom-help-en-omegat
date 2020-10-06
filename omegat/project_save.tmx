@@ -5961,6 +5961,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точность&lt;x2/&gt; — для полей целого и вещественного типов задает допустимый интервал от указанных в таблицах замен значений, при котором исходное значение будет заменено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T204042Z" creationid="Марианна" creationdate="20201006T204042Z">
+        <seg>&lt;x1/&gt;Precision&lt;x2/&gt;: enables to set the allowable interval based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Трансформация&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185935Z" creationid="Марианна" creationdate="20200810T185935Z">
@@ -6565,6 +6573,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163444Z" creationid="Марианна" creationdate="20201006T163444Z">
         <seg>&lt;x1/&gt;exact match&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;Применение допустимого интервала&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T204102Z" creationid="Марианна" creationdate="20201006T204102Z">
+        <seg>&lt;x3/&gt;Use of the Allowable Interval&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
