@@ -12735,6 +12735,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таблицы замен содержат пары заменяемых и новых значений или вычисляющие их регулярные выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T160350Z" creationid="Марианна" creationdate="20201006T160350Z">
+        <seg>The replacement tables contain couples of the replaced and new values or regular expressions that enable to compute them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Табличная часть мастера предназначена для отображения исходных данных и диапазона импортируемых ячеек.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190844Z" creationid="Марианна" creationdate="20200825T190209Z">
