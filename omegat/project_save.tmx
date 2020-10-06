@@ -2991,6 +2991,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заменять остальные&lt;x2/&gt; — содержит варианты замены значений, не найденных при помощи таблицы замен:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203438Z" creationid="Марианна" creationdate="20201006T203438Z">
+        <seg>&lt;x1/&gt;Replace other&lt;x2/&gt; contains replacement options of the values that have not been found using the replacement table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Записывать Byte Order Mark&lt;x2/&gt; — записывать &lt;x3/&gt;маркер последовательности байтов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T085948Z" creationid="Марианна" creationdate="20200918T085702Z">
@@ -6501,6 +6509,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204025Z" creationid="Марианна" creationdate="20200829T204025Z">
         <seg>&lt;x1/&gt;show&lt;x2/&gt; &lt;x3/&gt;Show&lt;x4/&gt; enables to define whether this item will be added in the form of a field to the output data set. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;на пропущенное&lt;x2/&gt; — значения будут заменены на "NULL".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203536Z" creationid="Марианна" creationdate="20201006T203536Z">
+        <seg>&lt;x1/&gt;With empty&lt;x2/&gt;: values will be replaced with "NULL".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;не заменять&lt;x2/&gt; — замены производиться не будут.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T203500Z" creationid="Марианна" creationdate="20201006T203500Z">
+        <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: no replacement is performed.</seg>
       </tuv>
     </tu>
     <tu>
