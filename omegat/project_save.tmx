@@ -7903,6 +7903,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выполняются правила замены для значений, не найденных на предыдущих шагах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161058Z" creationid="Марианна" creationdate="20201006T161058Z">
+        <seg>Replacement rules are followed for the values not found at the previous steps.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выход</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062723Z" creationid="Марианна" creationdate="20200826T062723Z">
@@ -10383,6 +10391,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новые значения также вычисляются регулярными выражениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161010Z" creationid="Марианна" creationdate="20201006T161010Z">
+        <seg>New values are also computed using regular expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нумерация итераций осуществляется с 0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204709Z" creationid="Марианна" creationdate="20200921T204709Z">
@@ -12835,6 +12851,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084758Z" creationid="Марианна" creationdate="20200814T084134Z">
         <seg>Pressing &lt;x1/&gt;List of subobjects&lt;x2/&gt; button, it is possible to go to the subobjects of the complex object (refer to </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такие выражения могут быть заданы в таблицах замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T160931Z" creationid="Марианна" creationdate="20201006T160931Z">
+        <seg>Such expressions will be set in the replacement tables.</seg>
       </tuv>
     </tu>
     <tu>
