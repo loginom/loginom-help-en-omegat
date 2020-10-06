@@ -5321,6 +5321,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Соединение-переменные&lt;x2/&gt; Соединение (переменные)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T151704Z" creationid="Марианна" creationdate="20201006T151704Z">
+        <seg>&lt;x1/&gt;Union-Variables&lt;x2/&gt; Union (Variables)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192809Z" creationid="Марианна" creationdate="20200810T192809Z">
@@ -10283,6 +10291,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T181059Z" creationid="Марианна" creationdate="20201004T181059Z">
         <seg>The handler is designated for mathematical operations with variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик предназначен для объединения двух или более наборов переменных в один набор.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T151815Z" creationid="Марианна" creationdate="20201006T151815Z">
+        <seg>The handler is designated for union of two and more sets of variables into one set.</seg>
       </tuv>
     </tu>
     <tu>
