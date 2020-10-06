@@ -6291,8 +6291,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;в столбцы&lt;x2/&gt; — каждой переменной будет соответствовать отдельное поле таблицы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T103832Z" creationid="Марианна" creationdate="20201006T103832Z">
-        <seg>&lt;x1/&gt;to columns&lt;x2/&gt;: each variable will comply to a separate table field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104005Z" creationid="Марианна" creationdate="20201006T103832Z">
+        <seg>&lt;x1/&gt;to columns&lt;x2/&gt;: each variable will correspond to a separate table field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;в строки&lt;x2/&gt; — каждой переменной будет соответствовать отдельная запись таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T104047Z" creationid="Марианна" creationdate="20201006T104047Z">
+        <seg>&lt;x1/&gt;to strings&lt;x2/&gt;: each variable will correspond to a separate table record.</seg>
       </tuv>
     </tu>
     <tu>
