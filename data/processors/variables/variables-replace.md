@@ -38,22 +38,22 @@ To enter the new string to the replacement table, it is required to use ![add](.
 * **exact match**;
 * **regular expression**.
 
-При вводе таблицы замены доступен ряд действий через панель инструментов области:
+When entering the replacement table, the following actions are available by means of the area toolbar:
 
-* ![Импорт](../../images/icons/toolbar-controls/import_default.svg) **Импорт** – считывает таблицу замен из указанного [текстового файла заданного формата](../transformation/substitution/import-tz.md). Считанные данные заменят те, которые уже были в таблице. Изменения, производимые в дальнейшем с таблицей замен или файлом, не отражаются друг на друге.
-* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **Экспорт** — сохраняет таблицу замен в указанный текстовый файл.
-* ![Сортировать](../../images/icons/toolbar-controls/sort-asc_default.svg) **Сортировать** — сортировка таблицы по полю исходного значения.
-* **Изменить тип замены** — позволяет изменить [тип данных](../../data/datatype.md) переменной после произведенной замены. Например, вещественную переменную можно заменить целочисленной или строковой. При этом, если замена не будет произведена, то тип не поменяется (за исключением / кроме случая замены вещественного числа на целочисленное).
-* ![Редактировать текущую замену](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — отображает область редактирования текущей строки таблицы подстановок.
-* ![Получить значения](../../images/icons/toolbar-controls/load-values_default.svg) **Получить значения** — не доступно для переменных.
+* ![Import](../../images/icons/toolbar-controls/import_default.svg) **Import** enables to read the replacement table from the specified [text file of the set format](../transformation/substitution/import-tz.md). The imported data will replace the data that have already been in the table. Further changes of the replacement table or file will not have impact on each other.
+* ![Export](../../images/icons/toolbar-controls/export_default.svg) **Export** enables to save the replacement table in the specified text file.
+* ![Sort](../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort** enables to sort the table by field of the source value.
+* **Change replacement type** enables to change [data type](../../data/datatype.md) of the variable after performed replacement. For example, it is possible to replace the real variable with the integer or string one. In this case, if replacement is not performed, the type will not be changed (with the exception / apart from replacement of the real number with the integer one).
+* ![Edit current replacement](../../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to display the editing area of the current string of the substitution table.
+* ![Get values](../../images/icons/toolbar-controls/load-values_default.svg) **Get values** is not available for variables.
 
-### Дополнительные параметры
+### Additional Parameters
 
-* **Заменять остальные** — содержит варианты замены значений, не найденных при помощи таблицы замен:
-   * **не заменять** — замены производиться не будут.
-   * **на пропущенное** — значения будут заменены на "NULL".
-   * **на значение** — значения будут заменены на указанное.
-   * **на регулярное выражение** — новое значение будет вычислено с использованием [синтаксиса регулярного выражения](../transformation/substitution/regexp-match.md).
+* **Replace other** contains replacement options of the values that have not been found using the replacement table:
+   * **Do not replace**: no replacement is performed.
+   * **With empty**: values will be replaced with "NULL".
+   * **With value**: values will be replaced with the specified value.
+   * **With regular expression**: the new value will be calculated using the [regular expression syntax](../transformation/substitution/regexp-match.md).
 
-* **Точность** — для полей целого и вещественного типов задает допустимый интервал от указанных в таблицах замен значений, при котором исходное значение будет заменено. [Применение допустимого интервала](../transformation/substitution/exact-match.md#primenenie-dopustimogo-intervala).
-* **Регистрозависимые строки** — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен. По умолчанию данный режим отключен.
+* **Precision**: enables to set the allowable interval based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced. [Use of the Allowable Interval](../transformation/substitution/exact-match.md#primenenie-dopustimogo-intervala).
+* **Case-sensitive strings**: the flag installs the case-sensitive mode of values search in the replacement tables. This mode is disabled by default.
