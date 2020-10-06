@@ -2287,6 +2287,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — переменные, подлежащие изменению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161244Z" creationid="Марианна" creationdate="20201006T161244Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote the variables to be changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — список переменных, которые можно использовать в обработчике.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193611Z" creationid="Марианна" creationdate="20201004T193611Z">
@@ -2515,6 +2523,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153509Z" creationid="Марианна" creationdate="20201006T153509Z">
         <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote a new set of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — переменные после обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161325Z" creationid="Марианна" creationdate="20201006T161325Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote the variables after processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7905,8 +7921,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выполняются правила замены для значений, не найденных на предыдущих шагах.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T161058Z" creationid="Марианна" creationdate="20201006T161058Z">
-        <seg>Replacement rules are followed for the values not found at the previous steps.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T161148Z" creationid="Марианна" creationdate="20201006T161058Z">
+        <seg>Replacement rules are observed for the values not found at the previous steps.</seg>
       </tuv>
     </tu>
     <tu>
