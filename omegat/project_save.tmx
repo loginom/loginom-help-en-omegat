@@ -7281,6 +7281,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае, когда имена переменных из разных наборов совпадают, в выходном наборе имена таких переменных будут дополнены уникальными номерами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T152449Z" creationid="Марианна" creationdate="20201006T152449Z">
+        <seg>If names of the variabls from different sets coincide, names of such variables in the output data set will be supplemented by unique numbers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В соответствии с заданными ему условиями выполняется только одна ветвь сценария и блокируется выполнение всех остальных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200923T201504Z" creationid="Марианна" creationdate="20200923T201504Z">
