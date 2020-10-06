@@ -8063,6 +8063,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавить выделенные поля в список &lt;x1/&gt;Выбранные поля&lt;x2/&gt; можно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082528Z" creationid="Марианна" creationdate="20201006T082528Z">
+        <seg>It is possible to add the selected fields to the &lt;x1/&gt;Selected fields&lt;x2/&gt; list using the following ways:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дополнительно раскрытие рекурсивных узлов можно проводить вручную после построения дерева.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T191041Z" creationid="Марианна" creationdate="20200929T191041Z">
@@ -8131,6 +8139,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153055Z" creationid="Марианна" creationdate="20200917T153055Z">
         <seg>There are the following available values: &lt;x5/&gt;True, True, Yes&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступные поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082356Z" creationid="Марианна" creationdate="20201006T082356Z">
+        <seg>Available Fields</seg>
       </tuv>
     </tu>
     <tu>
@@ -8867,6 +8883,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T185429Z" creationid="Марианна" creationdate="20200929T185429Z">
         <seg>&lt;x1/&gt;Load from XSD...&lt;x2/&gt; &lt;x3/&gt;Load from XSD...&lt;x4/&gt; button enables to select *.xsd file from which the output node structure will be loaded (the button is also duplicated by the context menu command).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопкой &lt;x1/&gt;Переместить в Переменные&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082615Z" creationid="Марианна" creationdate="20201006T082615Z">
+        <seg>Using &lt;x1/&gt;Move to Variables&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12483,6 +12507,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
         <seg>The &lt;x1/&gt;supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Через контекстное меню "Переместить в Переменные";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201006T082701Z" creationid="Марианна" creationdate="20201006T082701Z">
+        <seg>Using the contex menu - "Move to Variables".</seg>
       </tuv>
     </tu>
     <tu>
