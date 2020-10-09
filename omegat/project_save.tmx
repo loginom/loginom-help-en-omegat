@@ -11411,6 +11411,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первый символ имени не может быть цифрой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090301Z" creationid="Марианна" creationdate="20201009T090301Z">
+        <seg>The first name character can't be a digit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Первый сценарий</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T103442Z" creationid="Марианна" creationdate="20200716T103442Z">
