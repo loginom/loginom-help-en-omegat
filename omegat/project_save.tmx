@@ -8983,6 +8983,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если хотя бы для одной из управляющих переменных узла задано значение, то в мастере настройки появляются переключатели выбора способа задания значений его параметров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T082725Z" creationid="Марианна" creationdate="20201009T082725Z">
+        <seg>If the value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще до введения логин/пароль в нижнем левом углу содержится номер версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074839Z" creationid="Марианна" creationdate="20200819T074839Z">
