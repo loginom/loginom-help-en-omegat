@@ -11659,6 +11659,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменные сценария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091949Z" creationid="Марианна" creationdate="20201009T091949Z">
+        <seg>Workflow Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменные так же могут быть использованы для того, чтобы задать параметры настроек узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
