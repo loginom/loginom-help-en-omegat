@@ -1142,10 +1142,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — входной порт;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090716Z" creationid="Марианна" creationdate="20201009T090716Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — input oprt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — выполнение процесса не начиналось, произошла ошибка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065046Z" creationid="Марианна" creationdate="20200817T065046Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — the process execution has not started yet, an error occurred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — выходной порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090726Z" creationid="Марианна" creationdate="20201009T090726Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — output port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2050,6 +2066,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170052Z" creationid="Марианна" creationdate="20201005T170052Z">
         <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Real numbers are recorded using the decimal point, for example,&lt;x3/&gt;&lt;x4/&gt;2.71&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; выходной порт для переменных может иметь линию связи только с входным портом для переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090910Z" creationid="Марианна" creationdate="20201009T090910Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The outpot port for variables can have a connection line only with the input port for variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12039,6 +12063,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065713Z" creationid="Марианна" creationdate="20200924T065713Z">
         <seg>There are the following types of ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порты, взаимодействующие с наборами переменных, графически отображаются так:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090708Z" creationid="Марианна" creationdate="20201009T090708Z">
+        <seg>The ports interacting with the sets of variables are graphically displayed as follows:</seg>
       </tuv>
     </tu>
     <tu>
