@@ -9567,6 +9567,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение переменной &lt;x1/&gt;USERNAME&lt;x2/&gt; в ней будет равно "Иванов".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104601Z" creationid="Марианна" creationdate="20201009T104601Z">
+        <seg>The value of the&lt;x1/&gt;USERNAME&lt;x2/&gt; variable in it will be "Ivanov".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение по умолчанию — &lt;x3/&gt;Лист 1&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194029Z" creationid="Марианна" creationdate="20200916T194029Z">
@@ -9967,6 +9975,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102743Z" creationid="Марианна" creationdate="20201009T102743Z">
         <seg>It is used during the Workflow debugging.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Итоговый набор в порту "Переменные" содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104523Z" creationid="Марианна" creationdate="20201009T104523Z">
+        <seg>The final set in the "Variables" port contains a list of all variable. Their values are calculated taking into account the priority specified above.</seg>
       </tuv>
     </tu>
     <tu>
