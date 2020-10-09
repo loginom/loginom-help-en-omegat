@@ -12079,6 +12079,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке порта возможно задать их перечень и значения по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T082243Z" creationid="Марианна" creationdate="20201009T082243Z">
+        <seg>When configuring the port, it is required to set their list and values by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При необходимости удаления всех связей используется кнопка &lt;x9/&gt; &lt;x10/&gt; &lt;x11/&gt;Удалить все связи&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T094501Z" creationid="Марианна" creationdate="20200918T094501Z">
