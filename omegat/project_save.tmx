@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные&lt;x4/&gt; — итоговый набор всех нижеперечисленных переменных Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102003Z" creationid="Марианна" creationdate="20201009T102003Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Variables&lt;x4/&gt; represent the final set of all Workflow variables listed below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Подключение&lt;x4/&gt; — принимает параметры подключения к базе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154636Z" creationid="Марианна" creationdate="20200824T154636Z">
@@ -11639,6 +11647,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T180827Z" creationid="Марианна" creationdate="20201004T180827Z">
         <seg>Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные не доступны для редактирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102022Z" creationid="Марианна" creationdate="20201009T102022Z">
+        <seg>Variables cannot be edited.</seg>
       </tuv>
     </tu>
     <tu>
