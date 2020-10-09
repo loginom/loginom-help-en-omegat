@@ -3039,6 +3039,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Замена (переменные)&lt;x2/&gt; — заменяет значения выбранных переменных на значения из таблицы замен;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091215Z" creationid="Марианна" creationdate="20201009T091215Z">
+        <seg>&lt;x1/&gt;Replace (variables)&lt;x2/&gt; enables to replace the values of the selected variables to the values from the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Замена-переменные&lt;x2/&gt; Замена (переменные)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T155314Z" creationid="Марианна" creationdate="20201006T155314Z">
@@ -10079,6 +10087,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T063833Z" creationid="Марианна" creationdate="20200918T085403Z">
         <seg>The component is designated for the data tables export to the XML files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компоненты Loginom, специально предназначенные для работы с наборами переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091015Z" creationid="Марианна" creationdate="20201009T091015Z">
+        <seg>The Loginom components specially designated for operations with sets of variables are listed below:</seg>
       </tuv>
     </tu>
     <tu>
