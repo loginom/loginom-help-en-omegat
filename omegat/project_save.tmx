@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — вызов меню действий над портами переменных Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102702Z" creationid="Марианна" creationdate="20201009T102702Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; enables to call the action menu of ports of the Workflow variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;Пакеты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135507Z" creationid="Марианна" creationdate="20200814T135507Z">
@@ -4955,6 +4963,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083828Z" creationid="Марианна" creationdate="20200918T083828Z">
         <seg>&lt;x1/&gt;Example:&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Внутри &lt;x3/&gt;Подмодели&lt;x4/&gt; так же имеется возможность использовать переменные Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102929Z" creationid="Марианна" creationdate="20201009T102929Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is also possible to use the Workflow variables inside the &lt;x3/&gt;Supernode&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9871,6 +9887,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113455Z" creationid="Марианна" creationdate="20200825T113455Z">
         <seg>It is used for data import from the Microsoft Excel files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется при отладке Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102743Z" creationid="Марианна" creationdate="20201009T102743Z">
+        <seg>It is used during the Workflow debugging.</seg>
       </tuv>
     </tu>
     <tu>
