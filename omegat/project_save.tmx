@@ -1126,6 +1126,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — значение параметра задается вручную;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T082920Z" creationid="Марианна" creationdate="20201009T082920Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — the parameter value is set in the manual way.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — значение параметра задается переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T082942Z" creationid="Марианна" creationdate="20201009T082942Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — the parameter value is set by the variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — идет процесс обработки, и время его окончания невозможно рассчитать заранее;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063845Z" creationid="Марианна" creationdate="20200817T063845Z">
@@ -7665,6 +7681,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае в поле параметра пользователь выбирает переменную, содержащую значение параметра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T083044Z" creationid="Марианна" creationdate="20201009T083044Z">
+        <seg>In this case, a user selects the variable that contains the parameter value in the parameter field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае данную колонку необходимо свети к одному значению с помощью методов агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T083657Z" creationid="Марианна" creationdate="20200924T083657Z">
@@ -8985,8 +9009,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если хотя бы для одной из управляющих переменных узла задано значение, то в мастере настройки появляются переключатели выбора способа задания значений его параметров:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T082725Z" creationid="Марианна" creationdate="20201009T082725Z">
-        <seg>If the value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T082804Z" creationid="Марианна" creationdate="20201009T082725Z">
+        <seg>If a value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:</seg>
       </tuv>
     </tu>
     <tu>
