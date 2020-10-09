@@ -143,7 +143,7 @@ require("child_module.js");
 
 Во внешних модулях относительный путь указывается от расположения модуля, осуществляющего импорт.
 
-Пример:
+For example:
 
 ```javascript
 import { cube, foo, sayHello } from "./foo/foo.js";
@@ -155,7 +155,7 @@ import { cube, foo, sayHello } from "./foo/foo.js";
 
 Если путь начинается с "/", то он интерпретируется как абсолютный внутри [файлового хранилища](../../../location_user_files.md) и считается от каталога пользователя.
 
-Пример:
+For example:
 
 ```javascript
 import { cube, foo, sayHello } from "/user/foo/foo.js";
@@ -163,7 +163,7 @@ import { cube, foo, sayHello } from "/user/foo/foo.js";
 
 #### В Desktop версии
 
-Абсолютный путь — полный путь в файловой в системе. Пример:
+Абсолютный путь — полный путь в файловой в системе. For example:
 
 ```javascript
 import { cube, foo, sayHello } from "C:\\Script\\foo\\foo.js";

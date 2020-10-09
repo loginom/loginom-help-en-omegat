@@ -20,7 +20,7 @@ BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address
 
 Несколько параметров в строке запуска разделяются символом пробела.
 
-Пример:
+For example:
 
 ```batch
  "C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=test.lgp /Teach
@@ -78,7 +78,7 @@ BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 * Если целевая переменная имеет Переменный тип, то происходит попытка поочерёдно преобразовать исходное строковое значение к типам Логический, Целый, Вещественный и Дата/Время, причём если ни одно из этих преобразований не удалось, то целевая переменная получает строковое значение.
 * Для переменных типа Вещественный и Переменный в качестве параметров можно передавать экспоненциальную форму записи числа (пример: 4.205E2, 4.205E-2)
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"
@@ -103,7 +103,7 @@ Var9 — строковое значение a b c.
 
 Запуск пакета в режиме [«Обучение»](https://wiki.loginom.ru/articles/training.html). Если параметр не указан, то пакет запускается в режиме «Выполнение».
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /Teach
@@ -113,7 +113,7 @@ BatchLauncher /Package=/user/test.lgp /Teach
 
 IP адрес или имя хоста сервера Loginom. По умолчанию используется *localhost*.
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
@@ -123,7 +123,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
 
 Порт, по которому происходит обращение к серверу Loginom. По умолчанию используется *4386*.
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555
@@ -133,7 +133,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555
 
 Имя пользователя. Если параметр не указан, то используется пользователь по умолчанию.
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /UserName=user
@@ -143,7 +143,7 @@ BatchLauncher /Package=/user/test.lgp /UserName=user
 
 Пароль пользователя. Если параметр не указан, то используется пустой пароль.
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
@@ -151,7 +151,7 @@ BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 
 > **Примечание:** при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.
 
-Пример:
+For example:
 
 ```batch
 BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach /UserName=user

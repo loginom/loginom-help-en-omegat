@@ -1,41 +1,41 @@
 # Workflow Variables
 
-В левом верхнем углу области построения Сценариев располагаются [порты](../ports/README.md) переменных Сценария:
+The [ports](../ports/README.md) of the Workflow variables are located in the upper left corner of the Workflow construction area:
 
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные** — итоговый набор всех нижеперечисленных переменных Сценария. Переменные не доступны для редактирования.
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные системы** — набор переменных окружения операционной системы. Считываются из настроек системы. Переменные не доступны для редактирования.
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные сессии** — набор переменных текущей сессии. Переменные не доступны для редактирования.
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные пакета** —  набор переменных текущего Пакета. Переменные не доступны для редактирования.
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные пользователя** — набор переменных, задаваемый пользователем для текущего Сценария.
-* ![ ](../../images/icons/app/node/ports/submodel-port/submodel-port_20x20.svg) — вызов меню действий над портами переменных Сценария. Используется при отладке Сценария.
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Variables** represent the final set of all Workflow variables listed below. Variables cannot be edited.
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **System variables** represent a set of variables of the operating system environment. It is read from the system settings. Variables cannot be edited.
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Session variables** represent a set of variables of the current session. Variables cannot be edited.
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Package variables** represent a set of variables of the current Package. Variables cannot be edited.
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **User variables** represent a set of variables set by the user of the current Workflow.
+* ![ ](../../images/icons/app/node/ports/submodel-port/submodel-port_20x20.svg) enables to call the action menu of ports of the Workflow variables. It is used during the Workflow debugging.
 
-> **Примечание:** Внутри [Подмодели](../../processors/control/submodel.md) так же имеется возможность использовать переменные Сценария. Однако, порт "Переменные пользователя" в этом случае содержит собственный набор переменных, применимых только внутри Подмодели.
+> **Note:** It is also possible to use the Workflow variables inside the [Supernode](../../processors/control/submodel.md). However, in this case, the "User variables" port contains its own set of variables used only inside the Supernode.
 
-Меню действий содержит следующие команды:
+The action menu contains the following commands:
 
-* ![ ](../../images/icons/toolbar-controls/launch-node_default.svg) **Запуск обработки** — ручная активация портов (активированный порт содержит данные);
-* ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Настройка** — открывает диалог настройки значений переменных пользователя;
-* ![ ](../../images/icons/toolbar-controls/configure-viewers_default.svg) **Настройка визуализаторов** — открывает диалог настройки визуализаторов;
-* ![ ](../../images/icons/toolbar-controls/rows_default.svg) **Другие действия** — вызывает контекстное меню с расширенным набором команд.
+* ![ ](../../images/icons/toolbar-controls/launch-node_default.svg) **Start processing** provides the manual ports activations (the activated port contains data).
+* ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Settings** enables to open the dialog of configuration of the user variables values.
+* ![ ](../../images/icons/toolbar-controls/configure-viewers_default.svg) **Configure visualizers** enables to open the dialog of the visualizers configuration.
+* ![ ](../../images/icons/toolbar-controls/rows_default.svg) **Other actions** enables to call the context menu with the extended set of commands.
 
-Для вызова контекстного меню порта необходимо кликнуть мышью порт. Контекстное меню содержит команды:
+To call the context menu of the port, it is required to click the port. The context menu contains the following commands:
 
-* ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Быстрый просмотр** — вызывает [окно просмотра значений](../../visualization/preview/quick-view.md) переменных. Команда доступна после активации порта.
-* ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Настроить порт** — открывает диалог настройки значений переменных.
-* ![ ](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать метки порта** — открывает диалог редактирования метки порта.
+* ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Quick view** enabels to call the variable [watch window](../../visualization/preview/quick-view.md). The command is available after the port activation.
+* ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Configure port** enables to open the dialog of configuration of the variables values.
+* ![ ](../../images/icons/toolbar-controls/edit_default.svg) **Edit port captions** enables to open the dialog of the port caption editing.
 
-Переменная с одинаковым именем может присутствовать одновременно в нескольких портах. Для исключения конфликтов используется следующий приоритет:
+The variable with the same name can occur simultaneously in several ports. To exclude conflicts, the following priority is observed:
 
-1. Переменные пользователя;
-2. Переменные пакета;
-3. Переменные сессии;
-4. Переменные системы.
+1. User variables.
+2. Package variables.
+3. Session variables.
+4. System variables.
 
-Таким образом, переменные пользователя имеют наивысший приоритет.
+Thus, user variables have the highest priority.
 
-Пример:
+For example:
 
-* Переменная системы USERNAME="PC-01$";
-* Переменная пользователя USERNAME="Иванов".
+* System variable USERNAME="PC-01$";
+* User variable USERNAME="Ivanov".
 
-Итоговый набор в порту "Переменные" содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета. Значение переменной *USERNAME* в ней будет равно "Иванов".
+The final set in the "Variables" port contains a list of all variable. Their values are calculated taking into account the priority specified above. The value of the*USERNAME* variable in it will be "Ivanov".

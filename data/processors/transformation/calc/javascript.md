@@ -70,7 +70,7 @@ return my_concat(COL1, COL2);
 
 ### Особенности применения внешних модулей
 
-Для импорта модуля CommonJS применяется функция `require`. Пример:
+Для импорта модуля CommonJS применяется функция `require`. For example:
 
 ```javascript
 const foo = require("foo/foo.js");
