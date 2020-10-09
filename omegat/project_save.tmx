@@ -374,6 +374,30 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные пакета&lt;x4/&gt; —  набор переменных текущего Пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102525Z" creationid="Марианна" creationdate="20201009T102525Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Package variables&lt;x4/&gt; represent a set of variables of the current Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные пользователя&lt;x4/&gt; — набор переменных, задаваемый пользователем для текущего Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102558Z" creationid="Марианна" creationdate="20201009T102558Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;User variables&lt;x4/&gt; represent a set of variables set by the user of the current Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные сессии&lt;x4/&gt; — набор переменных текущей сессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102451Z" creationid="Марианна" creationdate="20201009T102451Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Session variables&lt;x4/&gt; represent a set of variables of the current session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные системы&lt;x4/&gt; — набор переменных окружения операционной системы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102341Z" creationid="Марианна" creationdate="20201009T102249Z">
@@ -13607,6 +13631,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202200Z" creationid="Марианна" creationdate="20201006T202200Z">
         <seg>The imported data will replace the data that have already been in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Считываются из настроек системы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102412Z" creationid="Марианна" creationdate="20201009T102412Z">
+        <seg>It is read from the system settings.</seg>
       </tuv>
     </tu>
     <tu>
