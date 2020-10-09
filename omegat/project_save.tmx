@@ -11935,6 +11935,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предопределенные переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T083825Z" creationid="Марианна" creationdate="20201009T083825Z">
+        <seg>Predefined Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представление значений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
