@@ -6989,6 +6989,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SessionGuid</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084529Z" creationid="Марианна" creationdate="20201009T084529Z">
+        <seg>SessionGuid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Studio</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
@@ -7261,6 +7269,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>user</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084525Z" creationid="Марианна" creationdate="20201009T084525Z">
+        <seg>user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>yy/mm/dd</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153613Z" creationid="Марианна" creationdate="20200917T153613Z">
@@ -7317,6 +7333,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084414Z" creationid="Марианна" creationdate="20201009T084414Z">
         <seg>{38A56938-93B6-4981-A5DA-70053DB575EE}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{AA037666-56F9-4B06-AE6F-AE3E2E00052F}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084625Z" creationid="Марианна" creationdate="20201009T084625Z">
+        <seg>{AA037666-56F9-4B06-AE6F-AE3E2E00052F}</seg>
       </tuv>
     </tu>
     <tu>
@@ -9343,6 +9367,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Идентификатор текущей сессии на сервере Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084623Z" creationid="Марианна" creationdate="20201009T084623Z">
+        <seg>Identifier of the current session on the Loginom server</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из данных каждого поля таблицы формируется переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T183234Z" creationid="Марианна" creationdate="20201005T183234Z">
@@ -10075,6 +10107,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T120929Z" creationid="Марианна" creationdate="20200716T120929Z">
         <seg>Login and password are provided by the administrator, but there is a default user - login in the case of the software installation: &lt;x7/&gt;user&lt;x8/&gt;, without password.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логин пользователя, открывший данный Сценарий</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084522Z" creationid="Марианна" creationdate="20201009T084522Z">
+        <seg>Login of the user who opened this Workflow</seg>
       </tuv>
     </tu>
     <tu>
