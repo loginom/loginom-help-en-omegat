@@ -4513,8 +4513,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменные в таблицу&lt;x2/&gt; — преобразует набор переменных в таблицу данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T091625Z" creationid="Марианна" creationdate="20201009T091625Z">
-        <seg>&lt;x1/&gt;Variables to table&lt;x2/&gt; enables to transform a set of variables to table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091756Z" creationid="Марианна" creationdate="20201009T091625Z">
+        <seg>&lt;x1/&gt;Variables to table&lt;x2/&gt; enables to transform a set of variables to a data table.</seg>
       </tuv>
     </tu>
     <tu>
