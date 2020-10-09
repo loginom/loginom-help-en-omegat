@@ -7569,6 +7569,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В настройках выходного порта "Переменные пользователя", закрепленного в верхнем левом углу области построения Сценария;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T085419Z" creationid="Марианна" creationdate="20201009T085419Z">
+        <seg>in the settings of the output port "User variables" in the upper left corner of the Workflow construction area;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части окна расположена панель Процессы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
@@ -13155,6 +13163,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Создать переменные можно следующими способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T085232Z" creationid="Марианна" creationdate="20201009T085232Z">
+        <seg>It is possible to create variables using one of the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Соответствует имени файла без расширения, приведенному к правильному идентификатору.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200820T110043Z" creationid="Марианна" creationdate="20200816T133146Z">
@@ -13447,6 +13463,18 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T191350Z" creationid="Марианна" creationdate="20200825T191350Z">
         <seg>The table part of the wizard window is designated for configuration of import parameters for each data set field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Так же значения переменных могут использоваться в качестве
+&lt;x7/&gt;управляющих переменных&lt;x8/&gt;
+для задания параметров настройки узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T085205Z" creationid="Марианна" creationdate="20201009T085205Z">
+        <seg>The variables values can be also used as
+&lt;x7/&gt;control variables&lt;x8/&gt;
+to set parameters of the node settings.</seg>
       </tuv>
     </tu>
     <tu>
