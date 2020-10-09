@@ -6721,6 +6721,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>FunctionLibrary</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084200Z" creationid="Марианна" creationdate="20201009T084200Z">
+        <seg>FunctionLibrary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IF(IsNull(var_one),var_two,var_one) // однострочный комментарий продолжается до конца строки
 
 /* Многострочным комментарием
@@ -6773,6 +6781,22 @@ included between (slash-asterisk)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112919Z" creationid="Марианна" creationdate="20200825T112919Z">
         <seg>MinYear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PackageName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084146Z" creationid="Марианна" creationdate="20201009T084146Z">
+        <seg>PackageName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PackageVersion</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084205Z" creationid="Марианна" creationdate="20201009T084205Z">
+        <seg>PackageVersion</seg>
       </tuv>
     </tu>
     <tu>
@@ -9367,6 +9391,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084157Z" creationid="Марианна" creationdate="20201009T084157Z">
+        <seg>Package name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имя поля в &lt;x1/&gt;допустимом формате&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165842Z" creationid="Марианна" creationdate="20200916T165842Z">
@@ -10929,8 +10961,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Основной кейс использования — &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T083948Z" creationid="Марианна" creationdate="20201009T083948Z">
-        <seg>The main usage case is &lt;x1/&gt;Derived components&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084040Z" creationid="Марианна" creationdate="20201009T083948Z">
+        <seg>The main usage case is &lt;x1/&gt;Derived Components&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11119,6 +11151,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры Пакета, в котором создан используемый Производный компонент:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084135Z" creationid="Марианна" creationdate="20201009T084135Z">
+        <seg>There are the following parameters of the Package in which the used Derived Component has been created:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры импорта с разделителями</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T094031Z" creationid="Марианна" creationdate="20200826T094031Z">
@@ -11251,6 +11291,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083843Z" creationid="Марианна" creationdate="20201009T083843Z">
         <seg>Package Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные предоставляют информацию о Пакете, в котором создан Производный компонент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084035Z" creationid="Марианна" creationdate="20201009T084035Z">
+        <seg>The variables provide information on the Package in which the Derived Component has been created.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12363,6 +12411,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111402Z" creationid="Марианна" creationdate="20200825T111402Z">
         <seg>Use of Variables in Queries</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084144Z" creationid="Марианна" creationdate="20201009T084144Z">
+        <seg>Example</seg>
       </tuv>
     </tu>
     <tu>
