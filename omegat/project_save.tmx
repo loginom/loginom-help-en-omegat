@@ -9627,6 +9627,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя применяется для указания переменной в выражениях калькулятора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090354Z" creationid="Марианна" creationdate="20201009T090354Z">
+        <seg>The name is used to specify the variable in the calculator expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имя — уникальное в пределах одного набора переменных название, может состоять из заглавных или строчных латинских букв, символов подчеркивания и цифр.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T090020Z" creationid="Марианна" creationdate="20201009T090020Z">
