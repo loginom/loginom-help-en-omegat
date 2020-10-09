@@ -5961,6 +5961,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090558Z" creationid="Марианна" creationdate="20201009T090558Z">
+        <seg>The Variable &lt;x1/&gt;Data Type&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — &lt;x3/&gt;тип данных&lt;x4/&gt; , в который будет преобразовано текстовое значение поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192548Z" creationid="Марианна" creationdate="20200825T192548Z">
@@ -9375,6 +9383,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090605Z" creationid="Марианна" creationdate="20201009T090605Z">
+        <seg>Value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения переменных могут использоваться в вычислениях, например, в узлах &lt;x3/&gt;Калькулятор&lt;x4/&gt;,
 &lt;x5/&gt;Условие&lt;x6/&gt;
 и прочие.</seg>
@@ -10263,6 +10279,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062930Z" creationid="Марианна" creationdate="20200917T162525Z">
         <seg>Captions of columns (fields): captions of fields will be used as headers of columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метку — название, состоящее из любых символов; является пояснением для пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T090521Z" creationid="Марианна" creationdate="20201009T090521Z">
+        <seg>Caption is a name that concists of any characters. It is a clarification for a user.</seg>
       </tuv>
     </tu>
     <tu>
