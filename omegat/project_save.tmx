@@ -11615,6 +11615,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порт управляющих переменных принимает переменные, с помощью которых можно задать параметры настроек узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T081709Z" creationid="Марианна" creationdate="20201009T081709Z">
+        <seg>The control variables port accepts the variables that enable to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T120631Z" creationid="Марианна" creationdate="20200823T120631Z">
