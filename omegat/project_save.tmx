@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Настройка&lt;x4/&gt; — открывает диалог настройки значений переменных пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T103401Z" creationid="Марианна" creationdate="20201009T103401Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Settings&lt;x4/&gt; enables to open the dialog of configuration of the user variables values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — производит обновление списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140127Z" creationid="Марианна" creationdate="20200816T140127Z">
