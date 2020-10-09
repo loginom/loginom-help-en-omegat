@@ -294,6 +294,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр&lt;x4/&gt; — вызывает &lt;x5/&gt;окно просмотра значений&lt;x6/&gt; переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T103751Z" creationid="Марианна" creationdate="20201009T103751Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick view&lt;x4/&gt; enabels to call the variable &lt;x5/&gt;watch window&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Другие действия&lt;x4/&gt; — вызывает контекстное меню с расширенным набором команд.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T103602Z" creationid="Марианна" creationdate="20201009T103602Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Other actions&lt;x4/&gt; enables to call the context menu with the extended set of commands.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть все пакеты…&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135800Z" creationid="Марианна" creationdate="20200816T135800Z">
@@ -354,6 +370,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154816Z" creationid="Марианна" creationdate="20200824T154816Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; is a table with imported data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Настройка визуализаторов&lt;x4/&gt; — открывает диалог настройки визуализаторов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T103502Z" creationid="Марианна" creationdate="20201009T103502Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Configure visualizers&lt;x4/&gt; enables to open the dialog of the visualizers configuration.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8759,6 +8783,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для вызова контекстного меню порта необходимо кликнуть мышью порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
+        <seg>To call the context menu of the port, it is required to click the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для дочерних узлов есть возможность создать узлы того же иерархического уровня.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113529Z" creationid="Марианна" creationdate="20200929T113529Z">
@@ -10255,6 +10287,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203841Z" creationid="Марианна" creationdate="20200829T203841Z">
         <seg>The context menu duplicates the general functions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Контекстное меню содержит команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T103645Z" creationid="Марианна" creationdate="20201009T103645Z">
+        <seg>The context menu contains the following commands:</seg>
       </tuv>
     </tu>
     <tu>
