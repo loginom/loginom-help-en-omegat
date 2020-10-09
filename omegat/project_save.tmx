@@ -166,6 +166,38 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/user/ProjectName/scripts/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084322Z" creationid="Марианна" creationdate="20201009T084322Z">
+        <seg>/user/ProjectName/scripts/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/user/ProjectName/scripts/FunctionLibrary.lgp</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084255Z" creationid="Марианна" creationdate="20201009T084255Z">
+        <seg>/user/ProjectName/scripts/FunctionLibrary.lgp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/user/ProjectName/scripts/main.lgp</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084422Z" creationid="Марианна" creationdate="20201009T084422Z">
+        <seg>/user/ProjectName/scripts/main.lgp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1.0.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084221Z" creationid="Марианна" creationdate="20201009T084221Z">
+        <seg>1.0.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>10</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104144Z" creationid="Марианна" creationdate="20201006T104144Z">
@@ -6689,6 +6721,46 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DerivedPackageFileName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
+        <seg>DerivedPackageFileName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DerivedPackageFilePath</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084425Z" creationid="Марианна" creationdate="20201009T084425Z">
+        <seg>DerivedPackageFilePath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DerivedPackageGuid</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084409Z" creationid="Марианна" creationdate="20201009T084409Z">
+        <seg>DerivedPackageGuid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DerivedPackageName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084353Z" creationid="Марианна" creationdate="20201009T084353Z">
+        <seg>DerivedPackageName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DerivedPackageVersion</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084403Z" creationid="Марианна" creationdate="20201009T084403Z">
+        <seg>DerivedPackageVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Desktop</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
@@ -6781,6 +6853,30 @@ included between (slash-asterisk)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112919Z" creationid="Марианна" creationdate="20200825T112919Z">
         <seg>MinYear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PackageFileName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084243Z" creationid="Марианна" creationdate="20201009T084243Z">
+        <seg>PackageFileName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PackageFilePath</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084259Z" creationid="Марианна" creationdate="20201009T084259Z">
+        <seg>PackageFilePath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PackageGuid</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084225Z" creationid="Марианна" creationdate="20201009T084225Z">
+        <seg>PackageGuid</seg>
       </tuv>
     </tu>
     <tu>
@@ -6937,6 +7033,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161414Z" creationid="Марианна" creationdate="20200917T161414Z">
         <seg>UTF-8 (65001);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>UserName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084455Z" creationid="Марианна" creationdate="20201009T084455Z">
+        <seg>UserName</seg>
       </tuv>
     </tu>
     <tu>
@@ -7109,6 +7213,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>main</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084400Z" creationid="Марианна" creationdate="20201009T084400Z">
+        <seg>main</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>mm/dd/yy</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153610Z" creationid="Марианна" creationdate="20200917T153610Z">
@@ -7197,6 +7309,22 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165225Z" creationid="Марианна" creationdate="20200916T165225Z">
         <seg>{% tabs one="Setting", two="SQL query" %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{38A56938-93B6-4981-A5DA-70053DB575EE}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084414Z" creationid="Марианна" creationdate="20201009T084414Z">
+        <seg>{38A56938-93B6-4981-A5DA-70053DB575EE}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{D9AD3962-94A5-4CE0-8909-64D0747B0E9C}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084239Z" creationid="Марианна" creationdate="20201009T084239Z">
+        <seg>{D9AD3962-94A5-4CE0-8909-64D0747B0E9C}</seg>
       </tuv>
     </tu>
     <tu>
@@ -7795,6 +7923,14 @@ WHERE
 CurrencyRates.Period BETWEEN &amp;start_date AND &amp;end_date
 ARRANGE BY
 DESC period</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Версия пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084218Z" creationid="Марианна" creationdate="20201009T084218Z">
+        <seg>Package version</seg>
       </tuv>
     </tu>
     <tu>
@@ -9195,6 +9331,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T103445Z" creationid="Марианна" creationdate="20201006T103445Z">
         <seg>It is possible to place the values of variables in the strings or columns of the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Идентификатор пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
+        <seg>Package identifier</seg>
       </tuv>
     </tu>
     <tu>
@@ -11151,6 +11295,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры Пакета, в котором используется Производный компонент:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084348Z" creationid="Марианна" creationdate="20201009T084348Z">
+        <seg>Parameters of the Package in which the Derived Component is used:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры Пакета, в котором создан используемый Производный компонент:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084135Z" creationid="Марианна" creationdate="20201009T084135Z">
@@ -11299,6 +11451,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084035Z" creationid="Марианна" creationdate="20201009T084035Z">
         <seg>The variables provide information on the Package in which the Derived Component has been created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные сессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084450Z" creationid="Марианна" creationdate="20201009T084450Z">
+        <seg>Session variables</seg>
       </tuv>
     </tu>
     <tu>
@@ -12583,6 +12743,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Путь к файлу пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084317Z" creationid="Марианна" creationdate="20201009T084317Z">
+        <seg>Path to the package file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094258Z" creationid="Марианна" creationdate="20200813T093856Z">
@@ -13587,6 +13755,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143141Z" creationid="Марианна" creationdate="20200920T143141Z">
         <seg>Simplification of the &lt;x1/&gt;Workflow&lt;x2/&gt; structure is achieved by combination of several nodes performing particular stage of the data processing into one node of the &lt;x3/&gt;Supernode&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Файл пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084253Z" creationid="Марианна" creationdate="20201009T084253Z">
+        <seg>Package file</seg>
       </tuv>
     </tu>
     <tu>
