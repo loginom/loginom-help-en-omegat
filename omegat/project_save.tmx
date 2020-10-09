@@ -8823,6 +8823,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для исключения конфликтов используется следующий приоритет:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104223Z" creationid="Марианна" creationdate="20201009T104223Z">
+        <seg>To exclude conflicts, the following priority is observed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для исключения элемента из списка выбранных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203521Z" creationid="Марианна" creationdate="20200829T203521Z">
@@ -11795,6 +11803,30 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменная пользователя USERNAME="Иванов".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104412Z" creationid="Марианна" creationdate="20201009T104412Z">
+        <seg>User variable USERNAME="Иванов".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная с одинаковым именем может присутствовать одновременно в нескольких портах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104151Z" creationid="Марианна" creationdate="20201009T104151Z">
+        <seg>The variable with the same name can occur simultaneously in several ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменная системы USERNAME="PC-01$";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104404Z" creationid="Марианна" creationdate="20201009T104358Z">
+        <seg>System variable USERNAME="PC-01$";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменные</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T180827Z" creationid="Марианна" creationdate="20201004T180827Z">
@@ -11819,6 +11851,22 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменные пакета;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104243Z" creationid="Марианна" creationdate="20201009T104243Z">
+        <seg>Package variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104234Z" creationid="Марианна" creationdate="20201009T104234Z">
+        <seg>User variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменные предоставляют информацию о Пакете, в котором создан Производный компонент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084035Z" creationid="Марианна" creationdate="20201009T084035Z">
@@ -11831,6 +11879,22 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084450Z" creationid="Марианна" creationdate="20201009T084450Z">
         <seg>Session variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные сессии;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104252Z" creationid="Марианна" creationdate="20201009T104252Z">
+        <seg>Session variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные системы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104303Z" creationid="Марианна" creationdate="20201009T104303Z">
+        <seg>System variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13003,6 +13067,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пример:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104347Z" creationid="Марианна" creationdate="20201009T104347Z">
+        <seg>For example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры использования переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
@@ -13939,6 +14011,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
         <seg>Thus, a list of variables can be transferred from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, переменные пользователя имеют наивысший приоритет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T104339Z" creationid="Марианна" creationdate="20201009T104339Z">
+        <seg>Thus, user variables have the highest priority.</seg>
       </tuv>
     </tu>
     <tu>
