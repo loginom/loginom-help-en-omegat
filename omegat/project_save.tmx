@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Автокорреляция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T105048Z" creationid="Марианна" creationdate="20201009T105048Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Autocorrelation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102858Z" creationid="Марианна" creationdate="20200711T101529Z">
@@ -1402,6 +1410,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T093642Z" creationid="Марианна" creationdate="20200813T093642Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Автокорреляция&lt;x3/&gt;&lt;x4/&gt; — это понятие математической статистики, которое характеризует степень статистической взаимосвязи между элементами данных одного временного ряда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T105058Z" creationid="Марианна" creationdate="20201009T105058Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Autocorrelation&lt;x3/&gt;&lt;x4/&gt; — это понятие математической статистики, которое характеризует степень статистической взаимосвязи между элементами данных одного временного ряда.</seg>
       </tuv>
     </tu>
     <tu>
