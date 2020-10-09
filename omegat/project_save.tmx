@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные системы&lt;x4/&gt; — набор переменных окружения операционной системы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T102341Z" creationid="Марианна" creationdate="20201009T102249Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;System variables&lt;x4/&gt; represent a set of variables of the operating system environment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные&lt;x4/&gt; — итоговый набор всех нижеперечисленных переменных Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102003Z" creationid="Марианна" creationdate="20201009T102003Z">
