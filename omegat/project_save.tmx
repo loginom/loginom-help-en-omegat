@@ -4439,6 +4439,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — именованный объект, который может содержать только одно значение определенного типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T084929Z" creationid="Марианна" creationdate="20201009T084929Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; is a named object that can contain only one value of the particular type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменные в таблицу&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060035Z" creationid="Марианна" creationdate="20200812T060035Z">
@@ -9347,6 +9355,18 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161911Z" creationid="Марианна" creationdate="20200917T161911Z">
         <seg>The value of this parameter is selected from the list:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значения переменных могут использоваться в вычислениях, например, в узлах &lt;x3/&gt;Калькулятор&lt;x4/&gt;,
+&lt;x5/&gt;Условие&lt;x6/&gt;
+и прочие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T085045Z" creationid="Марианна" creationdate="20201009T085045Z">
+        <seg>The variables values can be used in calculations, for example, in the following nodes: &lt;x3/&gt;Calculator&lt;x4/&gt;,
+&lt;x5/&gt;Condition&lt;x6/&gt;,
+etc.</seg>
       </tuv>
     </tu>
     <tu>
