@@ -4167,6 +4167,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Объединение переменных&lt;x2/&gt; — объединяет два или более наборов переменных в один набор;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091529Z" creationid="Марианна" creationdate="20201009T091529Z">
+        <seg>&lt;x1/&gt;Union of variables&lt;x2/&gt; enables to combine two or more sets of variables into one set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Объединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192158Z" creationid="Марианна" creationdate="20200810T192158Z">
@@ -4499,6 +4507,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T090137Z" creationid="Марианна" creationdate="20201006T090117Z">
         <seg>&lt;x1/&gt;Variables to Table&lt;x2/&gt; Variables to Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переменные в таблицу&lt;x2/&gt; — преобразует набор переменных в таблицу данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091625Z" creationid="Марианна" creationdate="20201009T091625Z">
+        <seg>&lt;x1/&gt;Variables to table&lt;x2/&gt; enables to transform a set of variables to table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5941,6 +5957,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T182919Z" creationid="Марианна" creationdate="20201005T182919Z">
         <seg>&lt;x1/&gt;Table to Variables&lt;x2/&gt; Table to Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица в переменные&lt;x2/&gt; — преобразует таблицу данных в набор переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T091743Z" creationid="Марианна" creationdate="20201009T091743Z">
+        <seg>&lt;x1/&gt;Table to variables&lt;x2/&gt; enables to transform a data table to a set of variables.</seg>
       </tuv>
     </tu>
     <tu>
