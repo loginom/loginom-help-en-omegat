@@ -10927,6 +10927,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Основной кейс использования — &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T083948Z" creationid="Марианна" creationdate="20201009T083948Z">
+        <seg>The main usage case is &lt;x1/&gt;Derived components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Особенностью подобного подхода является проектирование «сверху вниз» — от общей постановки задачи к отдельным подзадачам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140530Z" creationid="Марианна" creationdate="20200718T140530Z">
@@ -11235,6 +11243,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T180827Z" creationid="Марианна" creationdate="20201004T180827Z">
         <seg>Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T083843Z" creationid="Марианна" creationdate="20201009T083843Z">
+        <seg>Package Variables</seg>
       </tuv>
     </tu>
     <tu>
