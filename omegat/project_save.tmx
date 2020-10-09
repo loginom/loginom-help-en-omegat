@@ -7625,6 +7625,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В левом верхнем углу области построения Сценариев располагаются &lt;x1/&gt;порты&lt;x2/&gt; переменных Сценария:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201009T101816Z" creationid="Марианна" creationdate="20201009T101816Z">
+        <seg>The &lt;x1/&gt;ports&lt;x2/&gt; of the Workflow variables are located in the upper left corner of the Workflow construction area:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T192152Z" creationid="Марианна" creationdate="20201004T192152Z">
