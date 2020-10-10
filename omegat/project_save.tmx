@@ -10011,6 +10011,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исходная таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164801Z" creationid="Марианна" creationdate="20201010T164801Z">
+        <seg>Source table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Итоговый набор в порту "Переменные" содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T104523Z" creationid="Марианна" creationdate="20201009T104523Z">
