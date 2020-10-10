@@ -214,10 +214,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>13</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165012Z" creationid="Марианна" creationdate="20201010T165012Z">
+        <seg>13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>18</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153657Z" creationid="Марианна" creationdate="20201006T153657Z">
         <seg>18</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>19</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165053Z" creationid="Марианна" creationdate="20201010T165053Z">
+        <seg>19</seg>
       </tuv>
     </tu>
     <tu>
@@ -246,10 +262,50 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>21.08.2017</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164932Z" creationid="Марианна" creationdate="20201010T164932Z">
+        <seg>21.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>22.08.2017</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164950Z" creationid="Марианна" creationdate="20201010T164950Z">
+        <seg>22.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>23.08.2017</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165008Z" creationid="Марианна" creationdate="20201010T165008Z">
+        <seg>23.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>24.08.2017</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165036Z" creationid="Марианна" creationdate="20201010T165036Z">
+        <seg>24.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>25</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153720Z" creationid="Марианна" creationdate="20201006T153720Z">
         <seg>25</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>25.08.2017</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165050Z" creationid="Марианна" creationdate="20201010T165050Z">
+        <seg>25.08.2017</seg>
       </tuv>
     </tu>
     <tu>
@@ -270,10 +326,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>6</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164936Z" creationid="Марианна" creationdate="20201010T164936Z">
+        <seg>6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>7</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104135Z" creationid="Марианна" creationdate="20201006T104135Z">
         <seg>7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>8</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164955Z" creationid="Марианна" creationdate="20201010T164955Z">
+        <seg>8</seg>
       </tuv>
     </tu>
     <tu>
@@ -8335,6 +8407,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164948Z" creationid="Марианна" creationdate="20201010T164948Z">
+        <seg>Tuesday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вход</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062716Z" creationid="Марианна" creationdate="20200826T062716Z">
@@ -8687,6 +8767,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дата</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164822Z" creationid="Марианна" creationdate="20201010T164822Z">
+        <seg>Date</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Двойная кавычка(");</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062605Z" creationid="Марианна" creationdate="20200917T151727Z">
@@ -8731,6 +8819,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
         <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>День недели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164816Z" creationid="Марианна" creationdate="20201010T164816Z">
+        <seg>Day of week</seg>
       </tuv>
     </tu>
     <tu>
@@ -12043,6 +12139,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пн</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164929Z" creationid="Марианна" creationdate="20201010T164929Z">
+        <seg>Monday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По  умолчанию равно 1, что означает: каждый рекурсивный узел будет раскрыт автоматически, но рекурсивные узлы внутри этих узлов останутся нераскрытыми.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T190850Z" creationid="Марианна" creationdate="20200929T190850Z">
@@ -13211,6 +13315,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Продано билетов в кино, тысяч шт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164923Z" creationid="Марианна" creationdate="20201010T164923Z">
+        <seg>Cinema tickets sold, thousand pieces</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120709Z" creationid="Марианна" creationdate="20200718T120709Z">
@@ -13271,6 +13383,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063220Z" creationid="Марианна" creationdate="20200817T063220Z">
         <seg>Process — processes (names) and their constituents are hierarchically specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165047Z" creationid="Марианна" creationdate="20201010T165047Z">
+        <seg>Friday</seg>
       </tuv>
     </tu>
     <tu>
@@ -13415,6 +13535,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
         <seg>It is possible to transform the data from tables to variables and vice versa using the special handlers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сб</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165111Z" creationid="Марианна" creationdate="20201010T165111Z">
+        <seg>Saturday</seg>
       </tuv>
     </tu>
     <tu>
@@ -13767,6 +13895,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
         <seg>The project designed in such a way has a clear and transparent structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ср</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165006Z" creationid="Марианна" creationdate="20201010T165006Z">
+        <seg>Wednesday</seg>
       </tuv>
     </tu>
     <tu>
@@ -14395,6 +14531,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082701Z" creationid="Марианна" creationdate="20201006T082701Z">
         <seg>Using the contex menu - "Move to Variables".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T165032Z" creationid="Марианна" creationdate="20201010T165032Z">
+        <seg>Thursday</seg>
       </tuv>
     </tu>
     <tu>
