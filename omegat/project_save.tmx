@@ -11291,6 +11291,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик позволяет вычислять автокорреляцию временных рядов, количество отсчетов выбирается пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T164330Z" creationid="Марианна" creationdate="20201010T164330Z">
+        <seg>The handler enables to calculate autocorrelation of time series, .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик позволяет преобразовать табличные данные в переменные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T183004Z" creationid="Марианна" creationdate="20201005T183004Z">
