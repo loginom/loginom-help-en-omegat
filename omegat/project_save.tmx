@@ -1416,8 +1416,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Автокорреляция&lt;x3/&gt;&lt;x4/&gt; — это понятие математической статистики, которое характеризует степень статистической взаимосвязи между элементами данных одного временного ряда.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T105058Z" creationid="Марианна" creationdate="20201009T105058Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Autocorrelation&lt;x3/&gt;&lt;x4/&gt; — это понятие математической статистики, которое характеризует степень статистической взаимосвязи между элементами данных одного временного ряда.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T163500Z" creationid="Марианна" creationdate="20201009T105058Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Autocorrelation&lt;x3/&gt;&lt;x4/&gt; is a concept related to mathematical statistics that defines the level of statistical interrelation between data elements of one time series.</seg>
       </tuv>
     </tu>
     <tu>
