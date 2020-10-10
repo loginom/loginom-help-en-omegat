@@ -9923,6 +9923,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Иными словами, вычисляется корреляция между временным рядом и его копией, сдвинутой на один или несколько временных отсчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201010T163918Z" creationid="Марианна" creationdate="20201010T163918Z">
+        <seg>In other words, correlation between time series and its copy shifted to one or several tic marks is calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исключение составляет корневой узел: для него минимальное количество экземпляров равно 0, если он является массивом, и 1 - если не является.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T084648Z" creationid="Марианна" creationdate="20200929T084648Z">
