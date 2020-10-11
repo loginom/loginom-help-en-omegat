@@ -1,16 +1,16 @@
-# ![ ](../../images/icons/components/corr-analysis_default.svg) Корреляционный анализ
+# ![ ](../../images/icons/components/corr-analysis_default.svg)Correlation Analysis
 
 ## Description
 
-Обработчик на основании вычисляемых коэффициентов корреляции выявляет взаимосвязь между рядами данных входного набора. Применяется для оценки предполагаемой зависимости факторов.
+The handler detects interrelation between the series of the input data set based on the calculated correlation coefficients. It is used to access the supposed dependence of factors.
 
 %spoiler%Example:%spoiler%
 
-Проведем корреляционный анализ на основе небольшой таблицы, содержащей данные о количестве продаж четырех видов товаров по датам.
+Let's perform the correlation analysis based on the small table that contains data on the sales number of four types of goods by dates.
 
 Source table:
 
-| Date | Спагетти | Томатная паста | Макароны | Кофе |
+| Date | Spaghetti | Tomato paste | Pasta | Coffee |
 | :-------- | ----------------: | ---------------------------: | ----------------: | --------: |
 | 02.09.17 | 10 | 20 | 15 | 25 |
 | 03.09.17 | 12 | 22 | 12 | 26 |
@@ -30,9 +30,9 @@ Output table:
 
 | Caption | Caption | Коэфф. Пирсона |
 | :---------- | :---------- | ---------------: |
-| Спагетти | Томатная паста | 0,83 |
-| Спагетти | Макароны | -0,93 |
-| Спагетти | Кофе | -0,12 |
+| Spaghetti | Tomato paste | 0,83 |
+| Spaghetti | Pasta | -0,93 |
+| Spaghetti | Coffee | -0,12 |
 
 Как видно из таблицы, ряд продаж для товара "Томатная паста" имеет очень большую положительную корреляцию, а товара "Макароны" — отрицательную. Из этого можно сделать вывод, что "Томатная паста" является сопутствующим товаром, а "Макароны" — заместителем товара "Спагетти". Корреляция продаж товара "Кофе" с товаром "Спагетти" является отрицательной, но при этом абсолютное значение корреляции невелико, и, следовательно, можно говорить об отсутствии взаимосвязи между продажами этих товаров.
 
