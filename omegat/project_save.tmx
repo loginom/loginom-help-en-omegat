@@ -5897,6 +5897,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рассчитывать ЧАКФ&lt;x2/&gt; — наличие данного флага добавляет вычисление частной автокорреляционной функции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103958Z" creationid="Марианна" creationdate="20201011T103958Z">
+        <seg>&lt;x1/&gt;Calculate PACF&lt;x2/&gt;: availability of this flag adds calculation of partial autocorrelation function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регистрозависимые строки&lt;x2/&gt; — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204326Z" creationid="Марианна" creationdate="20201006T204326Z">
