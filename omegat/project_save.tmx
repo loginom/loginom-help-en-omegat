@@ -3623,6 +3623,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; — условный вывод о наличии/отсутствии корреляции на данном лаге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102706Z" creationid="Марианна" creationdate="20201011T102706Z">
+        <seg>&lt;x1/&gt;Significance&lt;x2/&gt; means conditional conclusion concerning presence/absence of correlation in the given lag.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;И/ИЛИ&lt;x2/&gt; — кнопка-переключатель появляется между двумя условиями в ветви:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082511Z" creationid="Марианна" creationdate="20200924T082511Z">
@@ -4851,6 +4859,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113028Z" creationid="Марианна" creationdate="20200916T112117Z">
         <seg>&lt;x1/&gt;Clear table and fill in data&lt;x2/&gt; enables to clear the database table completely and fill in with rows of the exported table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ошибка&lt;x2/&gt; — стандартные ошибки коэффициентов корреляции для последовательности лагов данного диапазона;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102521Z" creationid="Марианна" creationdate="20201011T102521Z">
+        <seg>&lt;x1/&gt;Error&lt;x2/&gt; means standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.</seg>
       </tuv>
     </tu>
     <tu>
