@@ -9871,6 +9871,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ее отличительной особенностью является исключение корреляционной зависимости между наблюдениями внутри лагов, т.е. частная автокорреляционная функция на каждом лаге отличается от обычной автокорреляционной функции на величину удаленных автокорреляций с меньшими временными лагами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T111356Z" creationid="Марианна" creationdate="20201011T111356Z">
+        <seg>Its distinctive feature is exclusion of the correlation dependence between the observations inside the lags, namely, partial autocorrelation function in each lag differs from the standard autocorrelation function by the value of remote autocorrelations with smaller time lags.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в качестве признака группы указываются уникальные идентификаторы строк входного набора, то такая группа будет содержать только одну строку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194341Z" creationid="Марианна" creationdate="20200921T194341Z">
