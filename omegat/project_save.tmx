@@ -11789,8 +11789,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Обработчик позволяет вычислять автокорреляцию временных рядов, количество отсчетов выбирается пользователем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201010T164740Z" creationid="Марианна" creationdate="20201010T164330Z">
-        <seg>The handler enables to calculate autocorrelation of time series, the number of marks is selected by a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101843Z" creationid="Марианна" creationdate="20201010T164330Z">
+        <seg>The handler enables to calculate autocorrelation of time series, lag count is selected by a user.</seg>
       </tuv>
     </tu>
     <tu>
