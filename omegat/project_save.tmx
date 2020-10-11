@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101215Z" creationid="Марианна" creationdate="20201011T101215Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102858Z" creationid="Марианна" creationdate="20200711T101529Z">
@@ -8185,6 +8193,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В настройках этого порта следует выставить назначение &lt;x3/&gt; &lt;x4/&gt; "Используемое" полям, для которых нужно рассчитать автокорреляцию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101059Z" creationid="Марианна" creationdate="20201011T101059Z">
+        <seg>The &lt;x3/&gt; &lt;x4/&gt; "Used" value is set in the settings of this port for the fields for which it is required to calculate autocorrelation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части окна расположена панель Процессы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
@@ -9571,6 +9587,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101034Z" creationid="Марианна" creationdate="20200717T101034Z">
         <seg>For this purpose, trasfer the &lt;x1/&gt;Grouping&lt;x2/&gt; component to the working workflow area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого пригодны только поля числовых типов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101159Z" creationid="Марианна" creationdate="20201011T101159Z">
+        <seg>Only numeric fields are suitable for this purpose.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11839,6 +11863,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
         <seg>General:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обязательные поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101256Z" creationid="Марианна" creationdate="20201011T101256Z">
+        <seg>Required fields:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14415,6 +14447,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163210Z" creationid="Марианна" creationdate="20201006T163210Z">
         <seg>Replacement Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица имеет следующую структуру:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101229Z" creationid="Марианна" creationdate="20201011T101229Z">
+        <seg>The table has the following structure:</seg>
       </tuv>
     </tu>
     <tu>
