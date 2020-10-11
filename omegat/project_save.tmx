@@ -158,6 +158,38 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>-0.09</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100744Z" creationid="Марианна" creationdate="20201011T100744Z">
+        <seg>-0.09</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0.36</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100819Z" creationid="Марианна" creationdate="20201011T100819Z">
+        <seg>-0.36</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0.38</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100800Z" creationid="Марианна" creationdate="20201011T100800Z">
+        <seg>-0.38</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0.46</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100811Z" creationid="Марианна" creationdate="20201011T100811Z">
+        <seg>-0.46</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
@@ -190,6 +222,110 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100717Z" creationid="Марианна" creationdate="20201011T100717Z">
+        <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100724Z" creationid="Марианна" creationdate="20201011T100724Z">
+        <seg>0.00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.03</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100849Z" creationid="Марианна" creationdate="20201011T100849Z">
+        <seg>0.03</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.09</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100826Z" creationid="Марианна" creationdate="20201011T100826Z">
+        <seg>0.09</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.27</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100740Z" creationid="Марианна" creationdate="20201011T100740Z">
+        <seg>0.27</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.33</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100748Z" creationid="Марианна" creationdate="20201011T100748Z">
+        <seg>0.33</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.34</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100840Z" creationid="Марианна" creationdate="20201011T100840Z">
+        <seg>0.34</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.36</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100814Z" creationid="Марианна" creationdate="20201011T100814Z">
+        <seg>0.36</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.40</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100822Z" creationid="Марианна" creationdate="20201011T100822Z">
+        <seg>0.40</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.42</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100830Z" creationid="Марианна" creationdate="20201011T100830Z">
+        <seg>0.42</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.46</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100835Z" creationid="Марианна" creationdate="20201011T100835Z">
+        <seg>0.46</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.48</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100853Z" creationid="Марианна" creationdate="20201011T100853Z">
+        <seg>0.48</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0.51</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100736Z" creationid="Марианна" creationdate="20201011T100736Z">
+        <seg>0.51</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>01.09.2017</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165159Z" creationid="Марианна" creationdate="20201010T165159Z">
@@ -214,10 +350,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100733Z" creationid="Марианна" creationdate="20201011T100733Z">
+        <seg>1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1.0.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084221Z" creationid="Марианна" creationdate="20201009T084221Z">
         <seg>1.0.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1.00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100721Z" creationid="Марианна" creationdate="20201011T100721Z">
+        <seg>1.00</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,6 +558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>3</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100756Z" creationid="Марианна" creationdate="20201011T100756Z">
+        <seg>3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>30</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153714Z" creationid="Марианна" creationdate="20201006T153714Z">
@@ -426,6 +586,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165151Z" creationid="Марианна" creationdate="20201010T165151Z">
         <seg>31.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>4</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100807Z" creationid="Марианна" creationdate="20201011T100807Z">
+        <seg>4</seg>
       </tuv>
     </tu>
     <tu>
@@ -458,6 +626,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164955Z" creationid="Марианна" creationdate="20201010T164955Z">
         <seg>8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>9</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100845Z" creationid="Марианна" creationdate="20201011T100845Z">
+        <seg>9</seg>
       </tuv>
     </tu>
     <tu>
@@ -794,6 +970,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T105048Z" creationid="Марианна" creationdate="20201009T105048Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Autocorrelation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100920Z" creationid="Марианна" creationdate="20201011T100920Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input data source (data table).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7185,6 +7369,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>False</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100753Z" creationid="Марианна" creationdate="20201011T100753Z">
+        <seg>False</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>FunctionLibrary</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084200Z" creationid="Марианна" creationdate="20201009T084200Z">
@@ -7409,6 +7601,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112841Z" creationid="Марианна" creationdate="20200825T112841Z">
         <seg>TitlePart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>True</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100728Z" creationid="Марианна" creationdate="20201011T100728Z">
+        <seg>True</seg>
       </tuv>
     </tu>
     <tu>
@@ -7741,6 +7941,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084239Z" creationid="Марианна" creationdate="20201009T084239Z">
         <seg>{D9AD3962-94A5-4CE0-8909-64D0747B0E9C}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>АКФ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100640Z" creationid="Марианна" creationdate="20201011T100640Z">
+        <seg>ACF</seg>
       </tuv>
     </tu>
     <tu>
@@ -9867,6 +10075,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значимость</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100713Z" creationid="Марианна" creationdate="20201011T100713Z">
+        <seg>Significance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
@@ -10679,6 +10895,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T161459Z" creationid="Марианна" creationdate="20201001T161459Z">
         <seg>Besides, it is possible to set the following indicators:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Лаг</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100625Z" creationid="Марианна" creationdate="20201011T100625Z">
+        <seg>Lag</seg>
       </tuv>
     </tu>
     <tu>
@@ -11879,6 +12103,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203302Z" creationid="Марианна" creationdate="20200829T203302Z">
         <seg>It is possible to change the order of items.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100645Z" creationid="Марианна" creationdate="20201011T100645Z">
+        <seg>Error</seg>
       </tuv>
     </tu>
     <tu>
