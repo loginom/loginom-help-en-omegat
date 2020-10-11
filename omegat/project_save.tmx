@@ -2320,8 +2320,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;АКФ&lt;x2/&gt; — коэффициенты автокорреляции для каждого лага;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102218Z" creationid="Марианна" creationdate="20201011T102218Z">
-        <seg>&lt;x1/&gt;ACF&lt;x2/&gt; — коэффициенты автокорреляции для каждого лага;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102331Z" creationid="Марианна" creationdate="20201011T102218Z">
+        <seg>&lt;x1/&gt;ACF&lt;x2/&gt; means autocorrelation coefficient for each lag.</seg>
       </tuv>
     </tu>
     <tu>
