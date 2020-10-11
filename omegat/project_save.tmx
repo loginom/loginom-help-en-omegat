@@ -7185,6 +7185,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;автоматически&lt;x2/&gt; — обработчик определит область расчета, исходя из количества отсчетов самостоятельно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103834Z" creationid="Марианна" creationdate="20201011T103834Z">
+        <seg>&lt;x1/&gt;Auto &lt;x2/&gt;: the handler will define the calculation area according to the lag count independently.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;в столбцы&lt;x2/&gt; — каждой переменной будет соответствовать отдельное поле таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104005Z" creationid="Марианна" creationdate="20201006T103832Z">
@@ -7205,6 +7213,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163156Z" creationid="Марианна" creationdate="20201006T163156Z">
         <seg>&lt;x1/&gt;Manual input&lt;x2/&gt;; it is required to use the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;временная&lt;x2/&gt; — рекомендуется при обработке небольшого количества отсчетов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103624Z" creationid="Марианна" creationdate="20201011T103605Z">
+        <seg>&lt;x1/&gt;Time&lt;x2/&gt; is recommended when small lag count processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7269,6 +7285,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163444Z" creationid="Марианна" creationdate="20201006T163444Z">
         <seg>&lt;x1/&gt;exact match&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;частотная&lt;x2/&gt; — рекомендуется при обработке большого количества отсчетов для ускорения вычислений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103722Z" creationid="Марианна" creationdate="20201011T103618Z">
+        <seg>&lt;x1/&gt;Frequency&lt;x2/&gt; is recommended when large lag count processing to speed up the calculation process.</seg>
       </tuv>
     </tu>
     <tu>
