@@ -3625,8 +3625,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; — условный вывод о наличии/отсутствии корреляции на данном лаге.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102706Z" creationid="Марианна" creationdate="20201011T102706Z">
-        <seg>&lt;x1/&gt;Significance&lt;x2/&gt; means conditional conclusion concerning presence/absence of correlation in the given lag.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102825Z" creationid="Марианна" creationdate="20201011T102706Z">
+        <seg>&lt;x1/&gt;Significance&lt;x2/&gt; means conditional conclusion concerning availability/unavailability of correlation in the given lag.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12903,6 +12903,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163909Z" creationid="Марианна" creationdate="20200918T094613Z">
         <seg>The table fields that are mapped to any item are marked in bold text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля, наличие которых задается пользователем:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102746Z" creationid="Марианна" creationdate="20201011T102746Z">
+        <seg>There are the following fields the availability of which is set by a user:</seg>
       </tuv>
     </tu>
     <tu>
