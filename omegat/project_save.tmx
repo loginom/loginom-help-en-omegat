@@ -1086,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Корреляционный анализ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T112030Z" creationid="Марианна" creationdate="20201011T112030Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Correlation Analysis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Набор данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T084304Z" creationid="Марианна" creationdate="20200826T084304Z">
@@ -11887,6 +11895,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T155413Z" creationid="Марианна" creationdate="20201006T155413Z">
         <seg>The handler replaces the input variables using replacement tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик на основании вычисляемых коэффициентов корреляции выявляет взаимосвязь между рядами данных входного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T112630Z" creationid="Марианна" creationdate="20201011T112630Z">
+        <seg>The handler detects interrelation between the series of the input data set based on the calculated correlation coefficients.</seg>
       </tuv>
     </tu>
     <tu>
