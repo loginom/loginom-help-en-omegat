@@ -13763,6 +13763,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применяется для оценки предполагаемой зависимости факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T112730Z" creationid="Марианна" creationdate="20201011T112730Z">
+        <seg>It is used to access the supposed dependence of factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084144Z" creationid="Марианна" creationdate="20201009T084144Z">
@@ -13871,6 +13879,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062846Z" creationid="Марианна" creationdate="20200917T162000Z">
         <seg>Space</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проведем корреляционный анализ на основе небольшой таблицы, содержащей данные о количестве продаж четырех видов товаров по датам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T112937Z" creationid="Марианна" creationdate="20201011T112937Z">
+        <seg>Let's perform the correlation analysis based on the small table that contains data on the sales number of four types of goods by dates.</seg>
       </tuv>
     </tu>
     <tu>
