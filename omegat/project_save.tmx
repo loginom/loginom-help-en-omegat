@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>09.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113140Z" creationid="Марианна" creationdate="20201011T113140Z">
+        <seg>09.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100733Z" creationid="Марианна" creationdate="20201011T100733Z">
@@ -438,10 +446,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>10.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113145Z" creationid="Марианна" creationdate="20201011T113145Z">
+        <seg>10.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>11.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113154Z" creationid="Марианна" creationdate="20201011T113154Z">
+        <seg>11.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>12</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153626Z" creationid="Марианна" creationdate="20201006T153626Z">
         <seg>12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>12.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113159Z" creationid="Марианна" creationdate="20201011T113159Z">
+        <seg>12.09.17</seg>
       </tuv>
     </tu>
     <tu>
@@ -466,6 +498,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165155Z" creationid="Марианна" creationdate="20201010T165155Z">
         <seg>15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>16</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113149Z" creationid="Марианна" creationdate="20201011T113149Z">
+        <seg>16</seg>
       </tuv>
     </tu>
     <tu>
@@ -514,6 +554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112932Z" creationid="Марианна" creationdate="20200825T112932Z">
         <seg>2005</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>21</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113136Z" creationid="Марианна" creationdate="20201011T113136Z">
+        <seg>21</seg>
       </tuv>
     </tu>
     <tu>
