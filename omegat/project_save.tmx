@@ -13323,6 +13323,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применим автокорреляционный анализ к полю "Продано билетов в кино, тысяч шт.", задав ему параметр &lt;x1/&gt; &lt;x2/&gt; "Используемое" в настройках входного порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100433Z" creationid="Марианна" creationdate="20201011T100433Z">
+        <seg>The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set the &lt;x1/&gt; &lt;x2/&gt; "Used" parameter in the input port settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084144Z" creationid="Марианна" creationdate="20201009T084144Z">
@@ -13437,8 +13445,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Продано билетов в кино, тысяч шт.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201010T164923Z" creationid="Марианна" creationdate="20201010T164923Z">
-        <seg>Cinema tickets sold, thousand pieces</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100140Z" creationid="Марианна" creationdate="20201010T164923Z">
+        <seg>Sold cinema tickets, thousand pieces</seg>
       </tuv>
     </tu>
     <tu>
