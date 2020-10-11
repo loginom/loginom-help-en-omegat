@@ -7945,6 +7945,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки количество отсчетов определим равным десяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100553Z" creationid="Марианна" creationdate="20201011T100553Z">
+        <seg>The number of marks is equal to ten in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T192152Z" creationid="Марианна" creationdate="20201004T192152Z">
@@ -8723,6 +8731,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062723Z" creationid="Марианна" creationdate="20200826T062723Z">
         <seg>Output</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выходная таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T100612Z" creationid="Марианна" creationdate="20201011T100612Z">
+        <seg>Output table:</seg>
       </tuv>
     </tu>
     <tu>
