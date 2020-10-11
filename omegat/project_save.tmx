@@ -2320,8 +2320,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;АКФ&lt;x2/&gt; — коэффициенты автокорреляции для каждого лага;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102331Z" creationid="Марианна" creationdate="20201011T102218Z">
-        <seg>&lt;x1/&gt;ACF&lt;x2/&gt; means autocorrelation coefficient for each lag.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102908Z" creationid="Марианна" creationdate="20201011T102218Z">
+        <seg>&lt;x1/&gt;ACF&lt;x2/&gt; means autocorrelation coefficients for each lag.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4099,6 +4099,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T100414Z" creationid="Марианна" creationdate="20200920T171155Z">
         <seg>&lt;x1/&gt;Iteration count is set by the loop exit condition&lt;x2/&gt;. It is an analogue of "DO ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Количество отсчетов&lt;x2/&gt; — определяет максимальный сдвиг (лаг) исходного ряда чисел относительно его копии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103306Z" creationid="Марианна" creationdate="20201011T103306Z">
+        <seg>&lt;x1/&gt;Lag count&lt;x2/&gt; defines the maximum shift (lag) of the source series of numbers relative to its copy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7137,6 +7145,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ЧАКФ&lt;x2/&gt; — коэффициенты частной автокорреляционной функции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102951Z" creationid="Марианна" creationdate="20201011T102903Z">
+        <seg>&lt;x1/&gt;PACF&lt;x2/&gt; means partial autocorrelation function coefficients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экранировать одинарные и двойные кавычки&lt;x2/&gt; — замена в выходном файле одинарных кавычек на обозначение &lt;x3/&gt;&lt;x4/&gt;&amp;apos;&lt;x5/&gt;&lt;x6/&gt; и двойных на &lt;x7/&gt;&lt;x8/&gt;&amp;quot;&lt;x9/&gt;&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T091206Z" creationid="Марианна" creationdate="20200918T091206Z">
@@ -8671,6 +8687,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Включает три настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103129Z" creationid="Марианна" creationdate="20201011T103129Z">
+        <seg>provides three settings:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Включать в себя подпрограммы — &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163421Z" creationid="Марианна" creationdate="20200718T163421Z">
@@ -9307,6 +9331,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
         <seg>To call the context menu of the port, it is required to click the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для добавления данного поля следует выставить соответствующий флаг в мастере настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103102Z" creationid="Марианна" creationdate="20201011T103102Z">
+        <seg>To add this field, it is required to place corresponding flag in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11013,8 +11045,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Мастер настройки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T121305Z" creationid="Марианна" creationdate="20200823T121305Z">
-        <seg>Wizard</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103136Z" creationid="Марианна" creationdate="20200823T121305Z">
+        <seg>The wizard</seg>
       </tuv>
     </tu>
     <tu>
