@@ -14179,6 +14179,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Следовательно, частная автокорреляционная функция более точно характеризует автокорреляционные зависимости внутри временного ряда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T111504Z" creationid="Марианна" creationdate="20201011T111504Z">
+        <seg>Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Следует учитывать, что в узле, заключенном в цикл, должна присутствовать операция над этой переменной, которая приводит к выполнению условия выхода из цикла, иначе цикл получится бесконечным.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201520Z" creationid="Марианна" creationdate="20200921T201520Z">
