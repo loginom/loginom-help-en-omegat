@@ -4223,6 +4223,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Лаг&lt;x2/&gt; — количество отсчетов, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101510Z" creationid="Марианна" creationdate="20201011T101510Z">
+        <seg>&lt;x1/&gt;Lag&lt;x2/&gt; means the lag count, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Левое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192634Z" creationid="Марианна" creationdate="20200810T192634Z">
@@ -10397,8 +10405,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Иными словами, вычисляется корреляция между временным рядом и его копией, сдвинутой на один или несколько временных отсчетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201010T164335Z" creationid="Марианна" creationdate="20201010T163918Z">
-        <seg>In other words, correlation between time series and its copy shifted to one or several time marks is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101824Z" creationid="Марианна" creationdate="20201010T163918Z">
+        <seg>In other words, correlation between time series and its copy shifted to one or several time lags is calculated.</seg>
       </tuv>
     </tu>
     <tu>
