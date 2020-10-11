@@ -2318,6 +2318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;АКФ&lt;x2/&gt; — коэффициенты автокорреляции для каждого лага;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102218Z" creationid="Марианна" creationdate="20201011T102218Z">
+        <seg>&lt;x1/&gt;ACF&lt;x2/&gt; — коэффициенты автокорреляции для каждого лага;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Абсолютный&lt;x2/&gt; (для совместного использования) — включает в себя имя папки, из которой загружен файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085145Z" creationid="Марианна" creationdate="20200814T085145Z">
@@ -4225,8 +4233,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Лаг&lt;x2/&gt; — количество отсчетов, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T101510Z" creationid="Марианна" creationdate="20201011T101510Z">
-        <seg>&lt;x1/&gt;Lag&lt;x2/&gt; means the lag count, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T102130Z" creationid="Марианна" creationdate="20201011T101510Z">
+        <seg>&lt;x1/&gt;Lag&lt;x2/&gt; means the lag count to which the source series of numbers is moved relative to its copy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8171,8 +8179,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В мастере настройки количество отсчетов определим равным десяти.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T100553Z" creationid="Марианна" creationdate="20201011T100553Z">
-        <seg>The number of marks is equal to ten in the wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101858Z" creationid="Марианна" creationdate="20201011T100553Z">
+        <seg>The lag count is equal to ten in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10405,8 +10413,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Иными словами, вычисляется корреляция между временным рядом и его копией, сдвинутой на один или несколько временных отсчетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T101824Z" creationid="Марианна" creationdate="20201010T163918Z">
-        <seg>In other words, correlation between time series and its copy shifted to one or several time lags is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101954Z" creationid="Марианна" creationdate="20201010T163918Z">
+        <seg>In other words, correlation between time series and its copy moved to one or several time lags is calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11789,8 +11797,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Обработчик позволяет вычислять автокорреляцию временных рядов, количество отсчетов выбирается пользователем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T101843Z" creationid="Марианна" creationdate="20201010T164330Z">
-        <seg>The handler enables to calculate autocorrelation of time series, lag count is selected by a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T101907Z" creationid="Марианна" creationdate="20201010T164330Z">
+        <seg>The handler enables to calculate autocorrelation of time series, the lag count is selected by a user.</seg>
       </tuv>
     </tu>
     <tu>
