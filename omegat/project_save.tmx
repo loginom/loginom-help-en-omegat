@@ -9375,6 +9375,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого количества отсчетов впоследствии вычисляется коэффициент автокорреляции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103418Z" creationid="Марианна" creationdate="20201011T103418Z">
+        <seg>The autocorrelation coefficient is further calculated for each lag count.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки видимости узла необходимо установить соответствующий &lt;x9/&gt;модификатор доступа&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102937Z" creationid="Марианна" creationdate="20200919T102937Z">
@@ -10755,6 +10763,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество отсчетов не может быть больше, чем количество строк в исходной таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103451Z" creationid="Марианна" creationdate="20201011T103451Z">
+        <seg>The lag count cannot exceed the row count in the source table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество уровней вложенности при этом не ограничено.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
@@ -11799,6 +11815,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194326Z" creationid="Марианна" creationdate="20201004T194326Z">
         <seg>The area is designated for entry of &lt;x1/&gt;expressions&lt;x2/&gt;, namely, calculated variables to be added to the output data set as the result of processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область расчета АКФ:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T103515Z" creationid="Марианна" creationdate="20201011T103515Z">
+        <seg>ACF calculation area:</seg>
       </tuv>
     </tu>
     <tu>
