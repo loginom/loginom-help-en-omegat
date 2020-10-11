@@ -14,7 +14,7 @@ In the third case, the input data set rows are divided according to the given pa
 
 Being originally created, the node does not have [ports](../../scenario/ports/README.md). Upon configuration of parameters in the wizard, the loop node has a set of ports of the looped node, apart from the output ports for variables.
 
-## Wizard
+## The wizard
 
 ### Step 1. Selection of the Loop Node
 

@@ -10,7 +10,7 @@ It is used for data import from the Microsoft Excel files.
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
 
-## Wizard
+## The wizard
 
 The wizard contains several configuration stages.
 

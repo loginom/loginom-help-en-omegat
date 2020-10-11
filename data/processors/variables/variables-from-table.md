@@ -12,7 +12,7 @@ The handler enables to transform the table data to variables. A variable is gene
 
 * ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote a list of variables received from the input data source using aggregation functions by field.
 
-## Wizard
+## The wizard
 
 The wizard window is divided into two areas:
 

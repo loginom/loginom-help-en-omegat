@@ -10,7 +10,7 @@ It is used for data import from the text files with separators. The text file wi
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data set (data table).
 
-## Wizard
+## The wizard
 
 The wizard contains several configuration stages.
 

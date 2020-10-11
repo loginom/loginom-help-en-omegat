@@ -12,7 +12,7 @@ The component is designated for the data tables export to the XML files.
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of wizard parameters using variables.
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection to the XSD schema source (optional port) enables connection to the *Connection to set of the XSD schemas* configured earlier.
 
-## Wizard
+## The wizard
 
 ### Step 1. Configuration of the Export File
 

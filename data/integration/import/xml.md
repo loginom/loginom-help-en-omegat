@@ -15,7 +15,7 @@ The component is designated for data tables import from the XML files.
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data set - imported table.
 
-## Wizard
+## The wizard
 
 ### Step 1. Configuration of Connection to the XML File
 

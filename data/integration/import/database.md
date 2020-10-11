@@ -17,7 +17,7 @@ It is allowed to use [Control variables](../../scenario/variables/control-variab
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set** is a table with imported data.
 
-## Wizard
+## The wizard
 
 There are the following parameters in the wizard:
 

@@ -15,17 +15,17 @@
 ### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Набор данных — таблица данных, извлеченных из документов XML.
-   * Поля, наличие которых задается пользователем:
+   * There are the following fields the availability of which is set by a user:
       * Идентификатор поля — показывает, из какого именно документа была извлечена конкретная строка.
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Ошибки и коды завершения — таблица логов извлечения, имеет следующую структуру:
-   * Обязательные поля:
+   * Required fields:
       * Код завершения — содержит значения кодов извлечения для каждого документа.
-   * Поля, наличие которых задается пользователем:
+   * There are the following fields the availability of which is set by a user:
       * Идентификатор поля — показывает, какому документу соответствует запись в таблице логов;
       * Описание ошибки — описание кодов завершения.
 
-## Wizard
+## The wizard
 
 ### Step 1. Параметры извлечения XML
 

@@ -15,7 +15,7 @@ The component is designated for import from 1C database.
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
 
-## Wizard
+## The wizard
 
 There are the following parameters in the wizard:
 

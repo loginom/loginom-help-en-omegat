@@ -14,7 +14,7 @@
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
 * ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт. Внешние диапазоны квантования (таблица данных).
 
 ### Output
@@ -66,7 +66,7 @@
 
 %/spoiler%
 
-## Wizard
+## The wizard
 
 Мастер настройки состоит из следующих шагов:
 

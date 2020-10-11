@@ -14,7 +14,7 @@ The component is designated for data import from the Data Warehouse [Deductor Wa
 
 * ![Output port of table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set** means the data imported from the Data Warehouse.
 
-## Wizard
+## The wizard
 
 It enables to configure import of the required data from the Data Warehouse.
 

@@ -14,7 +14,7 @@ The handler is designated for mathematical operations with variables. New variab
 
 * ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote input variables and new variables calculated by the handler.
 
-## Wizard
+## The wizard
 
 The wizard window includes the following areas:
 

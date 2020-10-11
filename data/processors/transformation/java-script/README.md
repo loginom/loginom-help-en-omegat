@@ -15,7 +15,7 @@
 
 * ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
 
-## Wizard
+## The wizard
 
 Последовательно выполняются следующие этапы настройки:
 
