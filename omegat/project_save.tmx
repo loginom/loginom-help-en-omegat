@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>02.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113052Z" creationid="Марианна" creationdate="20201011T113052Z">
+        <seg>02.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>02.09.2017</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165209Z" creationid="Марианна" creationdate="20201010T165209Z">
@@ -342,10 +350,58 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>03.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113057Z" creationid="Марианна" creationdate="20201011T113057Z">
+        <seg>03.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>03.09.2017</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165216Z" creationid="Марианна" creationdate="20201010T165216Z">
         <seg>03.09.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>04.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113102Z" creationid="Марианна" creationdate="20201011T113102Z">
+        <seg>04.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>05.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113113Z" creationid="Марианна" creationdate="20201011T113113Z">
+        <seg>05.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>06.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113118Z" creationid="Марианна" creationdate="20201011T113118Z">
+        <seg>06.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>07.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113123Z" creationid="Марианна" creationdate="20201011T113123Z">
+        <seg>07.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>08.09.17</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113131Z" creationid="Марианна" creationdate="20201011T113131Z">
+        <seg>08.09.17</seg>
       </tuv>
     </tu>
     <tu>
@@ -394,6 +450,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165012Z" creationid="Марианна" creationdate="20201010T165012Z">
         <seg>13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>14</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113108Z" creationid="Марианна" creationdate="20201011T113108Z">
+        <seg>14</seg>
       </tuv>
     </tu>
     <tu>
@@ -474,6 +538,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164950Z" creationid="Марианна" creationdate="20201010T164950Z">
         <seg>22.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>23</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113128Z" creationid="Марианна" creationdate="20201011T113128Z">
+        <seg>23</seg>
       </tuv>
     </tu>
     <tu>
@@ -11035,6 +11107,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кофе</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113050Z" creationid="Марианна" creationdate="20201011T113050Z">
+        <seg>Coffee</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий разделения определяется параметром "Вид групповой обработки":</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201842Z" creationid="Марианна" creationdate="20200921T201842Z">
@@ -11103,6 +11183,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105745Z" creationid="Марианна" creationdate="20200818T105745Z">
         <seg>It is possible to select with mouse cursor any cell or range of cells of the &lt;x1/&gt;Property inspector&lt;x2/&gt; by clicking and copy its (their) value by pressing &lt;x3/&gt;Ctrl+C&lt;x4/&gt; combination of keys.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Макароны</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113037Z" creationid="Марианна" creationdate="20201011T113037Z">
+        <seg>Pasta</seg>
       </tuv>
     </tu>
     <tu>
@@ -14395,6 +14483,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Спагетти</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113003Z" creationid="Марианна" creationdate="20201011T112953Z">
+        <seg>Spaghetti</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Списки можно связать автоматически, воспользовавшись кнопкой &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Связать автоматически&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T092757Z" creationid="Марианна" creationdate="20200918T092757Z">
@@ -14875,6 +14971,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T180513Z" creationid="Марианна" creationdate="20201005T180513Z">
         <seg>The Drag-and-Drop method enables to perform the same actions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Томатная паста</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201011T113016Z" creationid="Марианна" creationdate="20201011T113016Z">
+        <seg>Tomato paste</seg>
       </tuv>
     </tu>
     <tu>
