@@ -11931,6 +11931,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Население (тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211301Z" creationid="Марианна" creationdate="20201012T211301Z">
+        <seg>Population (thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка вида цикла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195351Z" creationid="Марианна" creationdate="20200921T195351Z">
@@ -14315,6 +14323,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проведем факторный анализ небольшой таблицы, содержащей некоторые статистические данные по регионам:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211217Z" creationid="Марианна" creationdate="20201012T211217Z">
+        <seg>Let's perform the factor analysis of the small table that contains some statistical data by regions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Продано билетов в кино, тысяч шт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100140Z" creationid="Марианна" creationdate="20201010T164923Z">
@@ -14487,6 +14503,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
         <seg>Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "&lt;x1/&gt;black box&lt;x2/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Регион</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211224Z" creationid="Марианна" creationdate="20201012T211224Z">
+        <seg>Region</seg>
       </tuv>
     </tu>
     <tu>
