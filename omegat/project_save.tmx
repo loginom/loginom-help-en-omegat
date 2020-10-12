@@ -8849,6 +8849,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В факторном анализе речь идет о выделении из множества измеряемых характеристик объекта факторов, более емко отражающих свойства объекта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T201234Z" creationid="Марианна" creationdate="20201012T201234Z">
+        <seg>Within the framework of the factor analysis, it is required to select the factors that provide more comprehensive overview of the object properties from a set of measured object features.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В формуле выражения возможно использовать только выражения, находящиеся выше по списку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193022Z" creationid="Марианна" creationdate="20201004T193022Z">
