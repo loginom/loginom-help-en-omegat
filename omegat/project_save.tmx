@@ -2296,8 +2296,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Tay-b Кендалла&lt;x2/&gt; — коэффициенты ранговой корреляции Кендалла;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T073228Z" creationid="Марианна" creationdate="20201012T073228Z">
-        <seg>&lt;x1/&gt;Kendall's Tau-b&lt;x2/&gt; means ;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T073250Z" creationid="Марианна" creationdate="20201012T073228Z">
+        <seg>&lt;x1/&gt;Kendall's Tau-b&lt;x2/&gt; means the Kendall's Tau-b rank correlation coefficient.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6485,6 +6485,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122404Z" creationid="Марианна" creationdate="20200814T122404Z">
         <seg>&lt;x1/&gt;Save&lt;x2/&gt; enables to save or change a Package in the current directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Спирмена&lt;x2/&gt; — коэффициенты корреляции Спирмена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T073411Z" creationid="Марианна" creationdate="20201012T073411Z">
+        <seg>&lt;x1/&gt;Spearman&lt;x2/&gt; means the Spearman's rank correlation coefficient.</seg>
       </tuv>
     </tu>
     <tu>
