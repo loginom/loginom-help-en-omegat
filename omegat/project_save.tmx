@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>0,83</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T062037Z" creationid="Марианна" creationdate="20201012T062037Z">
+        <seg>0,83</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>0.00</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100724Z" creationid="Марианна" creationdate="20201011T100724Z">
@@ -11163,6 +11171,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Коэфф.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T062011Z" creationid="Марианна" creationdate="20201012T062011Z">
+        <seg>Pearson</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий разделения определяется параметром "Вид групповой обработки":</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201842Z" creationid="Марианна" creationdate="20200921T201842Z">
@@ -12815,6 +12831,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T092558Z" creationid="Марианна" creationdate="20200818T161343Z">
         <seg>Personal Editions (Community, Personal)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пирсона</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T062029Z" creationid="Марианна" creationdate="20201012T062029Z">
+        <seg>coefficient</seg>
       </tuv>
     </tu>
     <tu>
