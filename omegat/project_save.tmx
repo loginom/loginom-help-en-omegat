@@ -8841,6 +8841,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В настройках этого порта следует выставить назначение &lt;x3/&gt; &lt;x4/&gt; "Используемое" для полей, данные которых следует подвергнуть факторному анализу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T213506Z" creationid="Марианна" creationdate="20201012T213506Z">
+        <seg>It is required to set the &lt;x3/&gt; &lt;x4/&gt; "Used" designation in the settings of this port for the fields the data of which are subject to the factor analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В настройках этого порта следует выставить назначение &lt;x3/&gt; &lt;x4/&gt; "Используемое" полям, для которых нужно рассчитать автокорреляцию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T101059Z" creationid="Марианна" creationdate="20201011T101059Z">
