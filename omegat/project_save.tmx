@@ -12323,6 +12323,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик применяется с целью понижения размерности пространства факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T200209Z" creationid="Марианна" creationdate="20201012T200209Z">
+        <seg>The handler is used in order to decrease dimension of factors space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик экспортирует таблицы данных в файлы для программы Microsoft Excel.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193530Z" creationid="Марианна" creationdate="20200916T193530Z">
@@ -15703,6 +15711,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это необходимо в случаях, когда входные факторы коррелированы друг с другом, т.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T200355Z" creationid="Марианна" creationdate="20201012T200247Z">
+        <seg>It is required in the cases when the input factors are correlated with each other,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это необходимо учитывать при построении запросов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131011Z" creationid="Марианна" creationdate="20200823T124154Z">
@@ -15747,6 +15763,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111543Z" creationid="Марианна" creationdate="20200825T111543Z">
         <seg>As &lt;x1/&gt;parameter&lt;x2/&gt;: a defined value is set for the variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>взаимозависимы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T200403Z" creationid="Марианна" creationdate="20201012T200340Z">
+        <seg>they are interdependent.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15803,6 +15827,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082915Z" creationid="Марианна" creationdate="20201006T082915Z">
         <seg>The &lt;x1/&gt;sum&lt;x2/&gt; function will be selected for digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>е.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T200305Z" creationid="Марианна" creationdate="20201012T200305Z">
+        <seg>namely,</seg>
       </tuv>
     </tu>
     <tu>
