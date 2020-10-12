@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Факторный анализ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T075516Z" creationid="Марианна" creationdate="20201012T075516Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Factor Analysis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в Excel-файл</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T171045Z" creationid="Марианна" creationdate="20200916T171045Z">
