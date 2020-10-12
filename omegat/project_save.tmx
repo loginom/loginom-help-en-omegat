@@ -9687,6 +9687,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого поля из "Набора 1", отмеченного флагом, будут вычислены коэффициенты корреляции с полями, отмеченными флагами в "Наборе 2".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T075306Z" creationid="Марианна" creationdate="20201012T075306Z">
+        <seg>For each field from "Set 1" selected with a flag, correlation coefficients with the fields selected with flags in "Set 2" will be calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки видимости узла необходимо установить соответствующий &lt;x9/&gt;модификатор доступа&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102937Z" creationid="Марианна" creationdate="20200919T102937Z">
