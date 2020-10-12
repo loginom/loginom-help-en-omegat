@@ -11195,6 +11195,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Корреляция продаж товара "Кофе" с товаром "Спагетти" является отрицательной, но при этом абсолютное значение корреляции невелико, и, следовательно, можно говорить об отсутствии взаимосвязи между продажами этих товаров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T063344Z" creationid="Марианна" creationdate="20201012T063344Z">
+        <seg>The sale correlation of the "Coffee" item of goods with the "Spaghetti" item of goods is negative but the absolute correlation value is small, consequently, it is possible to draw a conclusion that there is no interrelation between sales of these items of goods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кофе</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113050Z" creationid="Марианна" creationdate="20201011T113050Z">
