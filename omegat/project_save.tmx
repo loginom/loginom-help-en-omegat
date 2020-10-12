@@ -12787,6 +12787,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первым этапом факторного анализа является выбор новых признаков, которые являются линейными комбинациями прежних и "вбирают" в себя большую часть общей изменчивости входных факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T202040Z" creationid="Марианна" creationdate="20201012T202040Z">
+        <seg>At the first stage of the factor analysis it is required to select new indicators that are linear combinations of the previous ones. They "absorb" the most part of the total variableness of the input factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед закрытием пакета его необходимо &lt;x1/&gt;сохранить&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114439Z" creationid="Марианна" creationdate="20200717T111846Z">
