@@ -12283,6 +12283,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Определим корреляцию товара "Спагетти" с остальными товарами на основе коэффициентов Пирсона (в мастере настройки обработчика поле "Спагетти" отметим в "Наборе 1", а остальные товары - в "Наборе 2").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T061950Z" creationid="Марианна" creationdate="20201012T061950Z">
+        <seg>Let's define correlation of the "Spaghetti" item of goods with other goods based on the Pearson coefficients (it is required to mark the "Spaghetti" field in "Set 1" and other goods in "Set 2" in the handler wizard).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определяют настройки для работы с внешними источниками и приемниками данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
