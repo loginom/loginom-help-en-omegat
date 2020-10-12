@@ -10039,6 +10039,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доля городского населения, %</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211350Z" creationid="Марианна" creationdate="20201012T211350Z">
+        <seg>Proportion of urban population, %</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дополнительно раскрытие рекурсивных узлов можно проводить вручную после построения дерева.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T191041Z" creationid="Марианна" creationdate="20200929T191041Z">
@@ -10155,6 +10163,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T072701Z" creationid="Марианна" creationdate="20200819T072701Z">
         <seg>It is required to open the Application Properties using any available method (in this case, C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доходы на человека (руб./мес.)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211635Z" creationid="Марианна" creationdate="20201012T211635Z">
+        <seg>Per capita income (rub./mon.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10387,6 +10403,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132327Z" creationid="Марианна" creationdate="20200819T132327Z">
         <seg>Back</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Занятых в экономике (тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211502Z" creationid="Марианна" creationdate="20201012T211502Z">
+        <seg>employed in the economic sphere (thous.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16211,6 +16235,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165821Z" creationid="Марианна" creationdate="20201005T165821Z">
         <seg>integer and real numbers;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>чел.)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211317Z" creationid="Марианна" creationdate="20201012T211317Z">
+        <seg>people)</seg>
       </tuv>
     </tu>
     <tu>
