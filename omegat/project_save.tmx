@@ -806,6 +806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая данные о корреляции между полями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T063538Z" creationid="Марианна" creationdate="20201012T063538Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; is a table that contains information on correlation between the fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Другие действия&lt;x4/&gt; — вызывает контекстное меню с расширенным набором команд.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103602Z" creationid="Марианна" creationdate="20201009T103602Z">
@@ -5523,6 +5531,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185804Z" creationid="Марианна" creationdate="20200810T185804Z">
         <seg>&lt;x1/&gt;User date/time format&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поля|Имя&lt;x2/&gt; — имя первого поля в корреляционной паре;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T063816Z" creationid="Марианна" creationdate="20201012T063816Z">
+        <seg>&lt;x1/&gt;Fields|Name&lt;x2/&gt; is a name of the first field in the correlation pair.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10439,6 +10455,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T103701Z" creationid="Марианна" creationdate="20200929T103701Z">
         <seg>Primarily, only one root directory is available in the right field - &lt;x1/&gt;Root&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имеет следующую структуру:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T063551Z" creationid="Марианна" creationdate="20201012T063551Z">
+        <seg>It has the following structure:</seg>
       </tuv>
     </tu>
     <tu>
