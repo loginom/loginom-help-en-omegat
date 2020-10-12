@@ -15327,6 +15327,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тамбовская обл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212000Z" creationid="Марианна" creationdate="20201012T212000Z">
+        <seg>Tambov Region</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Текст, следующий за этим символом и предшествующий следующему его вхождению, импортируется как одно значение, даже если текст содержит символ-разделитель.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T092740Z" creationid="Марианна" creationdate="20200826T092740Z">
