@@ -1,45 +1,45 @@
-# ![ ](../../images/icons/components/factor-analysis_default.svg) Факторный анализ
+# ![ ](../../images/icons/components/factor-analysis_default.svg)Factor Analysis
 
 ## Description
 
-Обработчик применяется с целью понижения размерности пространства факторов. Это необходимо в случаях, когда входные факторы коррелированы друг с другом, т. е. взаимозависимы. В факторном анализе речь идет о выделении из множества измеряемых характеристик объекта факторов, более емко отражающих свойства объекта.
+The handler is used in order to decrease dimension of factors space. It is required in the cases when the input factors are correlated with each other, namely, they are interdependent. Within the framework of the factor analysis, it is required to select the factors that provide more comprehensive overview of the object properties from a set of measured object features.
 
-Первым этапом факторного анализа является выбор новых признаков, которые являются линейными комбинациями прежних и "вбирают" в себя большую часть общей изменчивости входных факторов. Поэтому они содержат большую часть информации, заключенной в первоначальных данных.
+At the first stage of the factor analysis it is required to select new indicators that are linear combinations of the previous ones. They "absorb" the most part of the total variableness of the input factors. That's why they contain the most part of the information included into the source data.
 
-В обработчике "Факторный анализ" это осуществляется с помощью метода главных компонент. Он сводится к выбору новой ортогональной системы координат в пространстве наблюдений. В качестве первой главной компоненты избирают направление, вдоль которого массив данных имеет наибольший разброс, а выбор каждой последующей происходит так, чтобы разброс данных вдоль нее был максимальным, и, чтобы она была ортогональна другим главным компонентам, выбранным прежде.
+It is achieved in the "Factor Analysis" handler using the main components method. It comes down to selection of the new orthogonal frame of reference in the observation space. As the first main component, it is required to select the direction along which the data array has the widest scatter. Each subsequent one is selected to provide the maximum data scatter along it, and to make it orthogonal relative to other main components selected earlier.
 
 %spoiler%Example:%spoiler%
 
-Проведем факторный анализ небольшой таблицы, содержащей некоторые статистические данные по регионам:
+Let's perform the factor analysis of the small table that contains some statistical data by regions:
 
 Source table:
 
-| Регион | Население (тыс. чел.) | Доля городского населения, % | Занятых в экономике (тыс. чел.) | Доходы на человека (руб./мес.) |
+| Region | Population (thous. people) | Proportion of the urban population, % | employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
 | :-------- | --------: | --------: | --------: | --------: |
-| Тамбовская обл. | 1269 | 58,4 | 532,4 | 1187,1 |
-| Пензенская обл. | 1531 | 64,6 | 674,5 | 936,8 |
-| Ростовская обл. | 4358 | 67,6 | 1811,8 | 1033,6 |
-| Читинская обл. | 1259 | 62,4 | 439,5 | 472,9 |
-| Чукотский а. о. | 72 | 67,9 | 33,8 | 963,7 |
+| The Tambov Region | 1269 | 58,4 | 532,4 | 1187,1 |
+| The Penza Region | 1531 | 64,6 | 674,5 | 936,8 |
+| The Rostov Region | 4358 | 67,6 | 1811,8 | 1033,6 |
+| The Chita Region | 1259 | 62,4 | 439,5 | 472,9 |
+| The Chukotka Autonomous District | 72 | 67,9 | 33,8 | 963,7 |
 
-Таблица факторов:
+Table of factors:
 
-| Фактор1 | Фактор2 | Регион | Население (тыс. чел.) | Доля городского населения, % | Занятых в экономике (тыс. чел.) | Доходы на человека (руб./мес.) |
+| Factor 1 | Factor 2 | Region | Population (thous. people) | Proportion of the urban population, % | employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
 | -------------: | -------------: | :------------ | ------------------------------------: | ---------------------------------------------------: | ------------------------------------------------------: | ----------------------------------------------------: |
-| 0,13 | -0,47 | Тамбовская обл. | 1269 | 58,4 | 532,4 | 1187,1 |
-| 0,51 | -0,49 | Пензенская обл. | 1531 | 64,6 | 674,5 | 936,8 |
-| 3,11 | -0,42 | Ростовская обл. | 4358 | 67,6 | 1811,8 | 1033,6 |
-| 0,18 | -0,88 | Читинская обл. | 1259 | 62,4 | 439,5 | 472,9 |
-| -0,87 | -0,34 | Чукотский а. о. | 72 | 67,9 | 33,8 | 963,7 |
+| 0,13 | -0,47 | The Tambov Region | 1269 | 58,4 | 532,4 | 1187,1 |
+| 0,51 | -0,49 | The Penza Region | 1531 | 64,6 | 674,5 | 936,8 |
+| 3,11 | -0,42 | The Rostov Region | 4358 | 67,6 | 1811,8 | 1033,6 |
+| 0,18 | -0,88 | The Chita Region | 1259 | 62,4 | 439,5 | 472,9 |
+| -0,87 | -0,34 | The Chukotka Autonomous District | 72 | 67,9 | 33,8 | 963,7 |
 
-Таблица факторных нагрузок:
+Table of factor loadings:
 
-| Caption | Фактор1 | Фактор2 |
+| Caption | Factor 1 | Factor 2 |
 | :---------- | -------------: | -------------: |
-| Население (тыс. чел.) | 0,98 | -0,05 |
-| Доля городского населения, % | 0,40 | 0,77 |
-| Занятых в экономике (тыс. чел.) | 0,98 | 0,04 |
-| Доходы на человека (руб./мес.) | -0,33 | 0,82 |
+| Population (thous. people) | 0,98 | -0,05 |
+| Proportion of the urban population, % | 0,40 | 0,77 |
+| employed in the economic sphere (thous. people) | 0,98 | 0,04 |
+| Per capita income (rub./mon.) | -0,33 | 0,82 |
 
 %/spoiler%
 
@@ -47,16 +47,16 @@ Source table:
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). В настройках этого порта следует выставить назначение ![ ](../../images/icons/usage-types/active_default.svg) "Используемое" для полей, данные которых следует подвергнуть факторному анализу.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). It is required to set the ![ ](../../images/icons/usage-types/active_default.svg) "Used" designation in the settings of this port for the fields the data of which are subject to the factor analysis.
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). Содержит исходную таблицу, к которой добавлены поля факторов.
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). Содержит таблицу факторных нагрузок.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). It contains the source table to which factors fields are added.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). It contains the table of factor loadings.
 
 ## The wizard
 
-* Критерий значимости факторов:
+* Criterion of Factors Significance:
    * **По собственному значению** — отбираются только факторы с собственными значениями равными или большими 1. Считается, что те факторы, у которых этот показатель меньше 1, не вносят значительного вклада в объяснение результата.
    * **По дисперсии** — факторы отбираются по доле объясняемой дисперсии. В этом случае выбирают столько факторов, чтобы в сумме они объясняли не менее 70-75% дисперсии. В отдельных вариантах порог дисперсии может достигать 85-90%.
    * **Задать число факторов** — количество значимых факторов выбирается аналитиком самостоятельно.

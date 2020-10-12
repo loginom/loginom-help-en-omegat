@@ -14,7 +14,7 @@
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
 ## The wizard
 

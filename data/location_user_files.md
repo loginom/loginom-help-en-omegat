@@ -31,7 +31,7 @@
 
 Клик правой кнопкой мыши по элементу в файловом менеджере вызывает контекстное меню, в котором содержатся все вышеперечисленных функции кроме ![](./images/icons/toolbar-controls/download_default.svg) *Загрузить* и ![](./images/icons/toolbar-controls/add-folder_default.svg) *Создать каталог*. При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции ![](./images/icons/toolbar-controls/download_default.svg) *Загрузить*, ![](./images/icons/toolbar-controls/add-folder_default.svg) *Создать каталог*, ![](./images/icons/toolbar-controls/paste_default.svg) *Вставить* и ![](./images/icons/toolbar-controls/refresh_default.svg) *Обновить список*.
 
-Поддерживается загрузка файлов методом Drag and Drop, т. е. путем перетаскивания файлов в окно файлового менеджера. Файлы при этом копируются.
+Поддерживается загрузка файлов методом Drag and Drop, т. namely, путем перетаскивания файлов в окно файлового менеджера. Файлы при этом копируются.
 
 Для выделения нескольких элементов можно:
 
