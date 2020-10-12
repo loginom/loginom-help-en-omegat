@@ -782,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>33,8</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212335Z" creationid="Марианна" creationdate="20201012T212335Z">
+        <seg>33,8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>4</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100807Z" creationid="Марианна" creationdate="20201011T100807Z">
@@ -870,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>67,9</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212332Z" creationid="Марианна" creationdate="20201012T212332Z">
+        <seg>67,9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>674,5</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212056Z" creationid="Марианна" creationdate="20201012T212056Z">
@@ -882,6 +898,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104135Z" creationid="Марианна" creationdate="20201006T104135Z">
         <seg>7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>72</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212328Z" creationid="Марианна" creationdate="20201012T212328Z">
+        <seg>72</seg>
       </tuv>
     </tu>
     <tu>
@@ -906,6 +930,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212059Z" creationid="Марианна" creationdate="20201012T212059Z">
         <seg>936,8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>963,7</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212339Z" creationid="Марианна" creationdate="20201012T212339Z">
+        <seg>963,7</seg>
       </tuv>
     </tu>
     <tu>
@@ -12949,8 +12981,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Пензенская обл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T212047Z" creationid="Марианна" creationdate="20201012T212047Z">
-        <seg>Penza Region</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212312Z" creationid="Марианна" creationdate="20201012T212047Z">
+        <seg>The Penza Region</seg>
       </tuv>
     </tu>
     <tu>
@@ -14725,8 +14757,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Ростовская обл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T212121Z" creationid="Марианна" creationdate="20201012T212121Z">
-        <seg>Rostov Region</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212316Z" creationid="Марианна" creationdate="20201012T212121Z">
+        <seg>The Rostov Region</seg>
       </tuv>
     </tu>
     <tu>
@@ -15283,6 +15315,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таблица факторов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212350Z" creationid="Марианна" creationdate="20201012T212350Z">
+        <seg>Table of factors:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таблицы замен содержат пары заменяемых и новых значений или вычисляющие их регулярные выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T160350Z" creationid="Марианна" creationdate="20201006T160350Z">
@@ -15473,8 +15513,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тамбовская обл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T212000Z" creationid="Марианна" creationdate="20201012T212000Z">
-        <seg>Tambov Region</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212308Z" creationid="Марианна" creationdate="20201012T212000Z">
+        <seg>The Tambov Region</seg>
       </tuv>
     </tu>
     <tu>
@@ -15735,6 +15775,22 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Фактор1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212357Z" creationid="Марианна" creationdate="20201012T212357Z">
+        <seg>Factor 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фактор2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212406Z" creationid="Марианна" creationdate="20201012T212406Z">
+        <seg>Factor 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Форматы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093617Z" creationid="Марианна" creationdate="20200826T093617Z">
@@ -15793,8 +15849,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Читинская обл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T212151Z" creationid="Марианна" creationdate="20201012T212151Z">
-        <seg>Chita Region</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212321Z" creationid="Марианна" creationdate="20201012T212151Z">
+        <seg>The Chita Region</seg>
       </tuv>
     </tu>
     <tu>
