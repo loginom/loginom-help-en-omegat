@@ -10395,6 +10395,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из этого можно сделать вывод, что "Томатная паста" является сопутствующим товаром, а "Макароны" — заместителем товара "Спагетти".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T063059Z" creationid="Марианна" creationdate="20201012T063059Z">
+        <seg>Thus, it is possible to draw a conclusion that the "Tomato paste" item of goods is a complement product, whereas the "Pasta" item of goods is a replacement product.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в области кода сохраняются при выходе из нее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164326Z" creationid="Марианна" creationdate="20201005T164326Z">
