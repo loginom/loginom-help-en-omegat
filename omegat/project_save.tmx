@@ -8561,6 +8561,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике "Факторный анализ" это осуществляется с помощью метода главных компонент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T202734Z" creationid="Марианна" creationdate="20201012T202734Z">
+        <seg>It is achieved in the "Factor Analysis" handler using the main components method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
@@ -12483,6 +12491,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он сводится к выбору новой ортогональной системы координат в пространстве наблюдений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T210611Z" creationid="Марианна" creationdate="20201012T210611Z">
+        <seg>It comes down to selection of the new orthogonal frame of reference in the observation space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Операторы сравнения:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172501Z" creationid="Марианна" creationdate="20201005T172501Z">
@@ -13703,6 +13719,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T074451Z" creationid="Марианна" creationdate="20201012T074451Z">
         <seg>Therefore, the Spearman coefficient will be 1 or -1 for any monotone sequences.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поэтому они содержат большую часть информации, заключенной в первоначальных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T202602Z" creationid="Марианна" creationdate="20201012T202602Z">
+        <seg>That's why they contain the most part of the information included into the source data.</seg>
       </tuv>
     </tu>
     <tu>
