@@ -7433,6 +7433,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экстремум взаимнокорреляционной функции&lt;x2/&gt; — вычисляет максимальный по модулю из коэффициентов корреляции двух процессов, рассчитанных при всевозможных временных сдвигах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T074308Z" creationid="Марианна" creationdate="20201012T074308Z">
+        <seg>&lt;x1/&gt;Extremum of cross-correlation function&lt;x2/&gt; enables to calculate the maximum absolute value of the correlation coefficients of two processes calculated for all possible time shifts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;автоматически&lt;x2/&gt; — обработчик определит область расчета, исходя из количества отсчетов самостоятельно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103834Z" creationid="Марианна" creationdate="20201011T103834Z">
@@ -14419,6 +14427,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рекомендуется использовать для категориальных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T074108Z" creationid="Марианна" creationdate="20201012T074108Z">
+        <seg>It is recommended to use for categorical data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
@@ -14527,6 +14543,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T111504Z" creationid="Марианна" creationdate="20201011T111504Z">
         <seg>Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следует применять, если необходимо узнать линейную зависимость между двумя процессами или частями процессов, происходящими с некоторым временным лагом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T074333Z" creationid="Марианна" creationdate="20201012T074333Z">
+        <seg>It should be applied if it is required to determine the linear relationship between two processes, or parts of the processes that occur with a certain time lag.</seg>
       </tuv>
     </tu>
     <tu>
