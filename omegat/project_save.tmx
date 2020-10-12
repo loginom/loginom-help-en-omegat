@@ -4383,6 +4383,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент корреляции Пирсона&lt;x2/&gt; — с его помощью можно определить силу и направление линейной зависимости между двумя процессами, происходящими одновременно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T073704Z" creationid="Марианна" creationdate="20201012T073704Z">
+        <seg>&lt;x1/&gt;Pearson correlation coefficient&lt;x2/&gt; enables to define force and direction of the linear dependence of two simultaneous processes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициенты регрессии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055807Z" creationid="Марианна" creationdate="20200812T055807Z">
