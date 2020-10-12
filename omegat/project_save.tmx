@@ -5351,6 +5351,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пирсона&lt;x2/&gt; — коэффициенты корреляции Пирсона;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T064219Z" creationid="Марианна" creationdate="20201012T064219Z">
+        <seg>&lt;x1/&gt;Pearson&lt;x2/&gt; means the Pearson correlation coefficients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По имени&lt;x2/&gt; — по наименованию листа книги.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T183801Z" creationid="Марианна" creationdate="20200825T183735Z">
@@ -7381,6 +7389,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202434Z" creationid="Марианна" creationdate="20201006T202434Z">
         <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt; enables to save the replacement table in the specified text file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экстремум К.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T064247Z" creationid="Марианна" creationdate="20201012T064247Z">
+        <seg>&lt;x1/&gt;Correction function</seg>
       </tuv>
     </tu>
     <tu>
@@ -15323,6 +15339,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143141Z" creationid="Марианна" creationdate="20200920T143141Z">
         <seg>Simplification of the &lt;x1/&gt;Workflow&lt;x2/&gt; structure is achieved by combination of several nodes performing particular stage of the data processing into one node of the &lt;x3/&gt;Supernode&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ф.&lt;x2/&gt; — экстремумы взаимнокорреляционной функции;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T072857Z" creationid="Марианна" creationdate="20201012T072857Z">
+        <seg>extremum&lt;x2/&gt; means extremums of cross-correlation function.</seg>
       </tuv>
     </tu>
     <tu>
