@@ -158,10 +158,66 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>-0,05</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212721Z" creationid="Марианна" creationdate="20201012T212721Z">
+        <seg>-0,05</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>-0,12</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T062048Z" creationid="Марианна" creationdate="20201012T062048Z">
         <seg>-0,12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0,34</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212547Z" creationid="Марианна" creationdate="20201012T212547Z">
+        <seg>-0,34</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0,42</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212528Z" creationid="Марианна" creationdate="20201012T212528Z">
+        <seg>-0,42</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0,47</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212507Z" creationid="Марианна" creationdate="20201012T212507Z">
+        <seg>-0,47</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0,49</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212518Z" creationid="Марианна" creationdate="20201012T212518Z">
+        <seg>-0,49</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0,87</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212544Z" creationid="Марианна" creationdate="20201012T212544Z">
+        <seg>-0,87</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-0,88</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212540Z" creationid="Марианна" creationdate="20201012T212540Z">
+        <seg>-0,88</seg>
       </tuv>
     </tu>
     <tu>
@@ -246,10 +302,42 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>0,13</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212502Z" creationid="Марианна" creationdate="20201012T212502Z">
+        <seg>0,13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0,18</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212536Z" creationid="Марианна" creationdate="20201012T212536Z">
+        <seg>0,18</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0,51</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212514Z" creationid="Марианна" creationdate="20201012T212514Z">
+        <seg>0,51</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>0,83</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T062037Z" creationid="Марианна" creationdate="20201012T062037Z">
         <seg>0,83</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>0,98</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212717Z" creationid="Марианна" creationdate="20201012T212717Z">
+        <seg>0,98</seg>
       </tuv>
     </tu>
     <tu>
@@ -754,6 +842,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100756Z" creationid="Марианна" creationdate="20201011T100756Z">
         <seg>3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>3,11</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212524Z" creationid="Марианна" creationdate="20201012T212524Z">
+        <seg>3,11</seg>
       </tuv>
     </tu>
     <tu>
@@ -10201,8 +10297,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доля городского населения, %</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T211350Z" creationid="Марианна" creationdate="20201012T211350Z">
-        <seg>Proportion of urban population, %</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212441Z" creationid="Марианна" creationdate="20201012T211350Z">
+        <seg>Proportion of the urban population, %</seg>
       </tuv>
     </tu>
     <tu>
@@ -15311,6 +15407,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163431Z" creationid="Марианна" creationdate="20201006T163431Z">
         <seg>The table can contain strings for search and replacement according to the following requirements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица факторных нагрузок:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T212711Z" creationid="Марианна" creationdate="20201012T212711Z">
+        <seg>Table of factor loadings:</seg>
       </tuv>
     </tu>
     <tu>
