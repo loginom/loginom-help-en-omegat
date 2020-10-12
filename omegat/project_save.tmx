@@ -1430,6 +1430,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T213525Z" creationid="Марианна" creationdate="20201012T213525Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T101215Z" creationid="Марианна" creationdate="20201011T101215Z">
@@ -11723,6 +11731,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Критерий значимости факторов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T213720Z" creationid="Марианна" creationdate="20201012T213720Z">
+        <seg>Criterion of Factors Significance:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий разделения определяется параметром "Вид групповой обработки":</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201842Z" creationid="Марианна" creationdate="20200921T201842Z">
@@ -15071,6 +15087,22 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T084755Z" creationid="Марианна" creationdate="20201006T084755Z">
         <seg>Content of the Output Data Set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит исходную таблицу, к которой добавлены поля факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T213610Z" creationid="Марианна" creationdate="20201012T213610Z">
+        <seg>It contains the source table to which factors fields are added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит таблицу факторных нагрузок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T213635Z" creationid="Марианна" creationdate="20201012T213635Z">
+        <seg>It contains the table of factor loadings.</seg>
       </tuv>
     </tu>
     <tu>
