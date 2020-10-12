@@ -4383,10 +4383,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент Tay-b Кендалла&lt;x2/&gt; — коэффициент ранговой корреляции, применяется для выявления количественной взаимосвязи между переменными, если их можно ранжировать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T073959Z" creationid="Марианна" creationdate="20201012T073959Z">
+        <seg>&lt;x1/&gt;Kendall's Tau-b coefficient&lt;x2/&gt; is a rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент корреляции Пирсона&lt;x2/&gt; — с его помощью можно определить силу и направление линейной зависимости между двумя процессами, происходящими одновременно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T073704Z" creationid="Марианна" creationdate="20201012T073704Z">
-        <seg>&lt;x1/&gt;Pearson correlation coefficient&lt;x2/&gt; enables to define force and direction of the linear dependence of two simultaneous processes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T074010Z" creationid="Марианна" creationdate="20201012T073704Z">
+        <seg>&lt;x1/&gt;Pearson correlation coefficient&lt;x2/&gt; enables to determine the strength and direction of the linear relationship between two processes that occur simultaneously.</seg>
       </tuv>
     </tu>
     <tu>
