@@ -8489,6 +8489,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве первой главной компоненты избирают направление, вдоль которого массив данных имеет наибольший разброс, а выбор каждой последующей происходит так, чтобы разброс данных вдоль нее был максимальным, и, чтобы она была ортогональна другим главным компонентам, выбранным прежде.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201012T211047Z" creationid="Марианна" creationdate="20201012T211047Z">
+        <seg>As the first main component, it is required to select the direction along which the data array has the widest scatter. Each subsequent one is selected to provide the maximum data scatter along it, and to make it orthogonal relative to other main components selected earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве такого узла, как правило, используется &lt;x1/&gt;Подмодель&lt;x2/&gt;, в которой задаются действия выполняемые над данными в каждой итерации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T170535Z" creationid="Марианна" creationdate="20200920T170535Z">
