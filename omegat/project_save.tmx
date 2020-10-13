@@ -5719,6 +5719,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По собственному значению&lt;x2/&gt; — отбираются только факторы с собственными значениями равными или большими 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T154912Z" creationid="Марианна" creationdate="20201013T154912Z">
+        <seg>&lt;x1/&gt;By own value&lt;x2/&gt;: only factors with own values equal or exceeding 1 are selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; – отображает строку подключения к источнику данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121418Z" creationid="Марианна" creationdate="20200823T121418Z">
