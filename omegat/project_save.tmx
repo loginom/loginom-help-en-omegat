@@ -4007,6 +4007,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Задать число факторов&lt;x2/&gt; — количество значимых факторов выбирается аналитиком самостоятельно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T155725Z" creationid="Марианна" creationdate="20201013T155725Z">
+        <seg>&lt;x1/&gt;Set the factor number&lt;x2/&gt;: the number of the significant factors is selected by an analyst independently.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Закрыть пакет&lt;x2/&gt; — закрытие открытого Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122533Z" creationid="Марианна" creationdate="20200814T122533Z">
@@ -10827,6 +10835,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194456Z" creationid="Марианна" creationdate="20201004T194456Z">
         <seg>The expression value in each data set string will be calculated using the formula set in the expression code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение каждого критерия можно задать в специальном поле справа от соответствующей ему радиокнопки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T155849Z" creationid="Марианна" creationdate="20201013T155849Z">
+        <seg>It is possible to set the value of each criterion in the special field to the right of the radio button corresponding to it.</seg>
       </tuv>
     </tu>
     <tu>
