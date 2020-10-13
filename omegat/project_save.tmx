@@ -11955,6 +11955,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод получения окончательного решения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T160019Z" creationid="Марианна" creationdate="20201013T160019Z">
+        <seg>Method of Receipt of the Final Decision</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм повторного использования алгоритмов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121855Z" creationid="Марианна" creationdate="20200718T141206Z">
