@@ -2958,6 +2958,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Без вращения&lt;x2/&gt; — исходные факторы, полученные методом главных компонент, остаются без изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T160935Z" creationid="Марианна" creationdate="20201013T160935Z">
+        <seg>&lt;x1/&gt;No rotation&lt;x2/&gt;: the source factors received by the main components methods remain unchanged.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Быстрый просмотр&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065429Z" creationid="Марианна" creationdate="20200812T065429Z">
@@ -3106,6 +3114,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065337Z" creationid="Марианна" creationdate="20200812T065337Z">
         <seg>&lt;x1/&gt;Validation of models&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Варимакс&lt;x2/&gt; — критерием является упрощение описания каждого фактора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T161023Z" creationid="Марианна" creationdate="20201013T161023Z">
+        <seg>&lt;x1/&gt;Varimax&lt;x2/&gt;: criterion is simplification of description of each factor.</seg>
       </tuv>
     </tu>
     <tu>
