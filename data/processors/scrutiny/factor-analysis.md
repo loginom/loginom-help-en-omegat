@@ -57,14 +57,14 @@ Table of factor loadings:
 ## The wizard
 
 * Criterion of Factors Significance:
-   * **По собственному значению** — отбираются только факторы с собственными значениями равными или большими 1. Считается, что те факторы, у которых этот показатель меньше 1, не вносят значительного вклада в объяснение результата.
-   * **По дисперсии** — факторы отбираются по доле объясняемой дисперсии. В этом случае выбирают столько факторов, чтобы в сумме они объясняли не менее 70-75% дисперсии. В отдельных вариантах порог дисперсии может достигать 85-90%.
-   * **Задать число факторов** — количество значимых факторов выбирается аналитиком самостоятельно.
+   * **By own value**: only factors with own values equal or exceeding 1 are selected. It is considered that the factors with the value less than 1 don't contribute significantly to the result explanation.
+   * **By variance**: factors are selected by the rate of the explained variance. In this case, it is required to select the number of factors that in sum would enable to explain not less than 70-75% of variance. In some cases the variance threshold can reach 85-90%.
+   * **Set the factor number**: the number of the significant factors is selected by an analyst independently.
 
-Значение каждого критерия можно задать в специальном поле справа от соответствующей ему радиокнопки.
+It is possible to set the value of each criterion in the special field to the right of the radio button corresponding to it.
 
-* Метод получения окончательного решения
-   * **Без вращения** — исходные факторы, полученные методом главных компонент, остаются без изменений.
-   * **Варимакс** — критерием является упрощение описания каждого фактора. В результате максимизируется нагрузка на каждый фактор относительно небольшого числа переменных, а факторные нагрузки остальных переменных минимизируются. Рекомендуется выбирать, когда требуется обеспечить высокую интерпретируемость результатов факторного анализа.
-   * **Квартимакс** — данный критерий упрощает описание каждой переменной, то есть уменьшает число факторов, связанных с этой переменной.
-* **Ограничить число выходных факторов** — необязательный флаг, при активации которого можно задать ограничивающее число выходных факторов в соответствующем поле области.
+* Method of Receipt of the Final Decision
+   * **No rotation**: the source factors received by the main components methods remain unchanged.
+   * **Varimax**: criterion is simplification of description of each factor. In the result, the loading on each factor with respect to relatively small number of variables is maximized, and factor loadings of other variables is minimized. It is recommended to choose when it is required to provide the high interpretability level of the factor analysis results.
+   * **Quartimax**: this criterion simplifies description of each variable, namely, it decreases the number of factors connected with this variable.
+* **Limit output factors number**: an optional flag activation of which enables to set the limiting number of output factors in the corresponding field of the area.
