@@ -9089,6 +9089,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате максимизируется нагрузка на каждый фактор относительно небольшого числа переменных, а факторные нагрузки остальных переменных минимизируются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T161356Z" creationid="Марианна" creationdate="20201013T161356Z">
+        <seg>In the result, the loading on each factor with respect to relatively small number of variables is maximized, and factor loadings of other variables is minimized.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результирующем сценарии добавляется узел экспорта и/или настраивается &lt;x1/&gt;Визуализатор&lt;x2/&gt; результатов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T115541Z" creationid="Марианна" creationdate="20200717T110708Z">
