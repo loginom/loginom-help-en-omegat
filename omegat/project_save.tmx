@@ -5703,6 +5703,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По дисперсии&lt;x2/&gt; — факторы отбираются по доле объясняемой дисперсии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T155255Z" creationid="Марианна" creationdate="20201013T155255Z">
+        <seg>&lt;x1/&gt;By variance&lt;x2/&gt;: factors are selected by the rate of the explained variance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По имени&lt;x2/&gt; — по наименованию листа книги.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T183801Z" creationid="Марианна" creationdate="20200825T183735Z">
@@ -9205,6 +9213,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083044Z" creationid="Марианна" creationdate="20201009T083044Z">
         <seg>In this case, a user selects the variable that contains the parameter value in the parameter field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом случае выбирают столько факторов, чтобы в сумме они объясняли не менее 70-75% дисперсии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T155535Z" creationid="Марианна" creationdate="20201013T155535Z">
+        <seg>In this case, it is required to select the number of factors that in sum would enable to explain not less than 70-75% of variance.</seg>
       </tuv>
     </tu>
     <tu>
