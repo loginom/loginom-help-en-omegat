@@ -25,7 +25,7 @@ The expression formula can contain the following components:
 * characters of mathematical operations and relations;
 * логические операции (AND, OR, NOT, XOR) и значения (TRUE или FALSE);
 * функции в соответствии с синтаксическим описанием ([Список функций](#spisok-funktsiy));
-* строковые выражения в кавычках ("строковое выражение");
+* string expressions in quotation marks ("string expression");
 * integer and real numbers;
 * single-line and multi-line comments.
 

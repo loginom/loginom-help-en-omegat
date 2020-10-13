@@ -1,14 +1,14 @@
-# ![Выражение](../../../images/icons/calcdata/expression_default.svg) Выражение
+# ![Expression](../../../images/icons/calcdata/expression_default.svg) Expression
 
-Выражение может содержать:
+Expression can contain the following components:
 
-* ссылки на другие поля набора данных в виде наименования полей или ранее вычисленных выражений;
+* references to other data set fields in the form of the fields names or earlier calculated expressions;
 * references to the input port variables;
 * brackets defining the order of operations execution;
 * characters of mathematical operations and relations;
-* логические операции (`and`, `or`, `not`, `xor`) и значения (`true` или `1`, `false` или `0`);
-* functions according to the syntactic description (refer to далее [Список функций](../../func/calc-func/README.md)).
-* строковые выражения в кавычках ("строковое выражение");
+* logical operations (`and`, `or`, `not`, `xor`) and values (`true` or `1`, `false` or `0`);
+* functions according to the syntactic description (refer to [List of functions](../../func/calc-func/README.md) further).
+* string expressions in quotation marks ("string expression");
 * integer and real numbers;
 * single-line and multi-line comments.
 
