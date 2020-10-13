@@ -4543,6 +4543,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Квартимакс&lt;x2/&gt; — данный критерий упрощает описание каждой переменной, то есть уменьшает число факторов, связанных с этой переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T161725Z" creationid="Марианна" creationdate="20201013T161725Z">
+        <seg>&lt;x1/&gt;Quartimax&lt;x2/&gt;: this criterion simplifies description of each variable, namely, it decreases the number of factors connected with this variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кластеризация транзакций&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055719Z" creationid="Марианна" creationdate="20200812T055719Z">
@@ -14983,6 +14991,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T105923Z" creationid="Марианна" creationdate="20200916T105923Z">
         <seg>It is required to unload data processing and analysis results to the external sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рекомендуется выбирать, когда требуется обеспечить высокую интерпретируемость результатов факторного анализа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T161522Z" creationid="Марианна" creationdate="20201013T161522Z">
+        <seg>It is recommended to choose when it is required to provide the high interpretability level of the factor analysis results.</seg>
       </tuv>
     </tu>
     <tu>
