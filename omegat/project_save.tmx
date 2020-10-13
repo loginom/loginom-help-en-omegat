@@ -3519,6 +3519,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выражение&lt;x2/&gt; Выражение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T180926Z" creationid="Марианна" creationdate="20201013T180926Z">
+        <seg>&lt;x1/&gt;Expression&lt;x2/&gt; Expression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выход&lt;x2/&gt; — закрытие всех Пакетов и выход из приложения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121242Z" creationid="Марианна" creationdate="20200814T121242Z">
@@ -9731,6 +9739,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161148Z" creationid="Марианна" creationdate="20201006T161058Z">
         <seg>Replacement rules are observed for the values not found at the previous steps.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выражение может содержать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T181004Z" creationid="Марианна" creationdate="20201013T181004Z">
+        <seg>Expression can contain the following components:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16415,6 +16431,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>далее &lt;x1/&gt;Список функций&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T181214Z" creationid="Марианна" creationdate="20201013T181214Z">
+        <seg>&lt;x1/&gt;List of functions&lt;x2/&gt; further).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>далее &lt;x1/&gt;Список функций&lt;x2/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165627Z" creationid="Марианна" creationdate="20201005T165607Z">
@@ -16567,6 +16591,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>логические операции (&lt;x1/&gt;and&lt;x2/&gt;, &lt;x3/&gt;or&lt;x4/&gt;, &lt;x5/&gt;not&lt;x6/&gt;, &lt;x7/&gt;xor&lt;x8/&gt;) и значения (&lt;x9/&gt;true&lt;x10/&gt; или &lt;x11/&gt;1&lt;x12/&gt;, &lt;x13/&gt;false&lt;x14/&gt; или &lt;x15/&gt;0&lt;x16/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T181137Z" creationid="Марианна" creationdate="20201013T181137Z">
+        <seg>logical operations (&lt;x1/&gt;and&lt;x2/&gt;, &lt;x3/&gt;or&lt;x4/&gt;, &lt;x5/&gt;not&lt;x6/&gt;, &lt;x7/&gt;xor&lt;x8/&gt;) and values (&lt;x9/&gt;true&lt;x10/&gt; or &lt;x11/&gt;1&lt;x12/&gt;, &lt;x13/&gt;false&lt;x14/&gt; or &lt;x15/&gt;0&lt;x16/&gt;);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>логические операции (AND, OR, NOT, XOR) и значения (TRUE или 1, FALSE или 0);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165440Z" creationid="Марианна" creationdate="20201005T165440Z">
@@ -16699,6 +16731,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164504Z" creationid="Марианна" creationdate="20201005T164504Z">
         <seg>references to other data set variables in the form of the variables names or earlier computed expressions;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ссылки на другие поля набора данных в виде наименования полей или ранее вычисленных выражений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T181054Z" creationid="Марианна" creationdate="20201013T181054Z">
+        <seg>references to other data set fields in the form of the fields names or earlier calculated expressions;</seg>
       </tuv>
     </tu>
     <tu>
