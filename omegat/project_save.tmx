@@ -15459,6 +15459,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Считается, что те факторы, у которых этот показатель меньше 1, не вносят значительного вклада в объяснение результата.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201013T155204Z" creationid="Марианна" creationdate="20201013T155204Z">
+        <seg>It is considered that the factors with the value less than 1 don't contribute significantly to the result explanation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Считанные данные заменят те, которые уже были в таблице.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202200Z" creationid="Марианна" creationdate="20201006T202200Z">
