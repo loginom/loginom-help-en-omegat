@@ -8809,6 +8809,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T060340Z" creationid="Марианна" creationdate="20201014T060340Z">
+        <seg>It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В выходном наборе будут переменные, полученные из полей с помощью выбранных функций агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T084835Z" creationid="Марианна" creationdate="20201006T084835Z">
