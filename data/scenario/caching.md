@@ -1,4 +1,4 @@
-# Кэширование
+# Caching
 
 **Кэширование** — сохранение однажды вычисленного значения.
 
@@ -14,4 +14,4 @@
 
 *Кэширование* необходимо включать в [выражениях](../processors/transformation/calc/expression.md) *Калькулятора* в случае использования функции `Data()` при рекурсивном вычислении значений.
 
-Рекомендуется применять *Кэширование* при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: `Random()`, `Today()` и других.
+It is recommended to use *Caching* when using the functions the result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.

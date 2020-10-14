@@ -12,15 +12,15 @@ Expression can contain the following components:
 * integer and real numbers;
 * single-line and multi-line comments.
 
-В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений. Consequently, incorrect list item position can cause a mistake.
+It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list. Consequently, incorrect list item position can cause a mistake.
 
-> Примечание: при проведении математических операций над типом ["Дата/время"](./../../../data/datatype.md) (сложение, вычитание и т.д.) в результате может получиться вещественное число с дробной частью. По умолчанию результат операции будет равен количеству дней (целая часть) и количеству часов (дробная часть). Например: после операции вида `02.01.2020 12:00 - 01.01.2020 00:00` результат будет равен `1.5` - один целый день (24 часа) и еще половина дня (12 часов).
+> Note: In the result of the mathematical operations with the ["Date/time"](./../../../data/datatype.md) type (addition, subtraction, etc.), the real number with fractional part can be got. By default, the operation result will be equal to the number of days (integer part) and hours (fractional part). For example: after such operation as `02.01.2020 12:00 - 01.01.2020 00:00` the result will be equal to `1.5` - one full day (24 hours) and half a day (12 hours).
 
-## Кэширование
+## Caching
 
-[Кэширование](../../../scenario/caching.md) необходимо включать в выражениях *Калькулятора* в случае использования функции `Data()` при рекурсивном вычислении значений.
+It is required to include [Caching](../../../scenario/caching.md) to the *Calculator* expressions in case of the `Data()` function usage for the recursive computation of values.
 
-Рекомендуется применять *Кэширование* при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: `Random()`, `Today()` и других.
+It is recommended to use *Caching* when using the functions the result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.
 
 ## Quick Access Toolbar
 
@@ -56,21 +56,21 @@ Logical Values:
 
 ## Comments
 
-Для пояснения полученного выражения калькулятор поддерживает два типа комментария:
+To explain the received expression, calculator supports two types of comments:
 
-* Однострочный комментарий — начинается символами `//` (два слеша) и продолжается до конца строки;
-* Многострочный комментарий — им считаются все символы, содержащиеся между `/*` (слеш-звездочка) и `*/` (звездочка-слеш).
+* The single-line comment starts from `//` (two slashes) characters, and it continues until the end of the string.
+* The multi-line comment is represented by all characters included between `/*` (slash-asterisk) and `*/` (asterisk-slash).
 
-%spoiler%Пример комментария:%spoiler%
+%spoiler%The comment example:%spoiler%
 
 ```java
 // Example of the single-line comment
 
-IF(IsNull(gate_one),gate_two,gate_one) // однострочный комментарий продолжается до конца строки.
+IF(IsNull(gate_one),gate_two,gate_one) // single-line comment continues until the end of the string.
 
-/* Многострочным комментарием
-   считаются все символы,
-   содержащиеся между (слеш-звездочка)
+/* The multi-line comment
+   is represented by all characters
+   included between (slash-asterisk)
    and (asterisk-slash). */
 ```
 
