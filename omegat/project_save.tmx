@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/* Многострочным комментарием</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062828Z" creationid="Марианна" creationdate="20201014T062828Z">
+        <seg>/* The multi-line comment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
@@ -8117,6 +8125,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084200Z" creationid="Марианна" creationdate="20201009T084200Z">
         <seg>FunctionLibrary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>IF(IsNull(gate_one),gate_two,gate_one) // однострочный комментарий продолжается до конца строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062754Z" creationid="Марианна" creationdate="20201014T062754Z">
+        <seg>IF(IsNull(gate_one),gate_two,gate_one) // single-line comment continues until the end of the string.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16815,6 +16831,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>содержащиеся между (слеш-звездочка)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062907Z" creationid="Марианна" creationdate="20201014T062907Z">
+        <seg>included between (slash-asterisk)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>ссылки на другие переменные набора данных в виде наименования переменных или ранее вычисленных выражений;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164504Z" creationid="Марианна" creationdate="20201005T164504Z">
@@ -16859,6 +16883,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165738Z" creationid="Марианна" creationdate="20201005T165738Z">
         <seg>string expressions in quotation marks, for example, &lt;x1/&gt;"string expression"&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>считаются все символы,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062844Z" creationid="Марианна" creationdate="20201014T062844Z">
+        <seg>is represented by all characters</seg>
       </tuv>
     </tu>
     <tu>
