@@ -14747,6 +14747,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примечание: при проведении математических операций над типом &lt;x1/&gt;"Дата/время"&lt;x2/&gt; (сложение, вычитание и т.д.) в результате может получиться вещественное число с дробной частью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T061317Z" creationid="Марианна" creationdate="20201014T061317Z">
+        <seg>Note: In the result of the mathematical operations with the &lt;x1/&gt;"Date/time"&lt;x2/&gt; type (addition, subtraction, etc.), the real number with fractional part can be got.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Принципы проектирования</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114738Z" creationid="Марианна" creationdate="20200717T114738Z">
