@@ -13763,6 +13763,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию результат операции будет равен количеству дней (целая часть) и количеству часов (дробная часть).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T061506Z" creationid="Марианна" creationdate="20201014T061506Z">
+        <seg>By default, the operation result will be equal to the number of days (integer part) and hours (fractional part).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125556Z" creationid="Марианна" creationdate="20200819T125556Z">
