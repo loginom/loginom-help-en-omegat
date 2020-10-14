@@ -12387,6 +12387,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например: после операции вида &lt;x3/&gt;02.01.2020 12:00 - 01.01.2020 00:00&lt;x4/&gt; результат будет равен &lt;x5/&gt;1.5&lt;x6/&gt; - один целый день (24 часа) и еще половина дня (12 часов).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T061722Z" creationid="Марианна" creationdate="20201014T061722Z">
+        <seg>For example: after such operation as &lt;x3/&gt;02.01.2020 12:00 - 01.01.2020 00:00&lt;x4/&gt; the result will be equal to &lt;x5/&gt;1.5&lt;x6/&gt; - one full day (24 hours) and half a day (12 hours).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наряду с наборами данных, представляющих из себя таблицу данных, в Studio объектом, используемым в вычислениях, может быть переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
