@@ -1558,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Калькулятор</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T063123Z" creationid="Марианна" creationdate="20201014T063123Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;Calculator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Корреляционный анализ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T112030Z" creationid="Марианна" creationdate="20201011T112030Z">
