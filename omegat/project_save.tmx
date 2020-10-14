@@ -10207,6 +10207,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для пояснения полученного выражения калькулятор поддерживает два типа комментария:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062457Z" creationid="Марианна" creationdate="20201014T062457Z">
+        <seg>To explain the received expression, calculator supports two types of comments:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для представления даты '11.08.1917' в виде «На дворе стоял &lt;x1/&gt;Август&lt;x2/&gt; месяц &lt;x3/&gt;17&lt;x4/&gt; года» используется строка форматирования: «На дворе стоял &lt;x5/&gt;mmmm&lt;x6/&gt; месяц &lt;x7/&gt;yy&lt;x8/&gt; года».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T084931Z" creationid="Марианна" creationdate="20200918T084931Z">
@@ -12099,6 +12107,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Многострочный комментарий — им считаются все символы, содержащиеся между &lt;x1/&gt;/*&lt;x2/&gt; (слеш-звездочка) и &lt;x3/&gt;*/&lt;x4/&gt; (звездочка-слеш).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062656Z" creationid="Марианна" creationdate="20201014T062656Z">
+        <seg>The multi-line comment is represented by all characters included between &lt;x1/&gt;/*&lt;x2/&gt; (slash-asterisk) and &lt;x3/&gt;*/&lt;x4/&gt; (asterisk-slash).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Многострочным комментарием считаются все символы, содержащиеся между &lt;x3/&gt;/*&lt;x4/&gt; (слеш-звездочка) и &lt;x5/&gt;*/&lt;x6/&gt; (звездочка-слеш).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174708Z" creationid="Марианна" creationdate="20201005T174708Z">
@@ -12934,6 +12950,14 @@ etc.</seg>
         <seg>Однострочный комментарий начинается символами &lt;x1/&gt;//&lt;x2/&gt; (два слеша) и продолжается до конца строки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174229Z" creationid="Марианна" creationdate="20201005T174229Z">
+        <seg>The single-line comment starts from &lt;x1/&gt;//&lt;x2/&gt; (two slashes) characters, and it continues until the end of the string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однострочный комментарий — начинается символами &lt;x1/&gt;//&lt;x2/&gt; (два слеша) и продолжается до конца строки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062558Z" creationid="Марианна" creationdate="20201014T062558Z">
         <seg>The single-line comment starts from &lt;x1/&gt;//&lt;x2/&gt; (two slashes) characters, and it continues until the end of the string.</seg>
       </tuv>
     </tu>
