@@ -4791,6 +4791,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; необходимо включать в выражениях &lt;x3/&gt;Калькулятора&lt;x4/&gt; в случае использования функции &lt;x5/&gt;Data()&lt;x6/&gt; при рекурсивном вычислении значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062025Z" creationid="Марианна" creationdate="20201014T062025Z">
+        <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x3/&gt;Calculator&lt;x4/&gt; expressions in case of the &lt;x5/&gt;Data()&lt;x6/&gt; function usage for the recursive computation of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Лаг&lt;x2/&gt; — количество отсчетов, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102130Z" creationid="Марианна" creationdate="20201011T101510Z">
@@ -11863,6 +11871,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T161459Z" creationid="Марианна" creationdate="20201001T161459Z">
         <seg>Besides, it is possible to set the following indicators:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кэширование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T061734Z" creationid="Марианна" creationdate="20201014T061734Z">
+        <seg>Caching</seg>
       </tuv>
     </tu>
     <tu>
