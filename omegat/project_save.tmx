@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Пример комментария:%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201014T062709Z" creationid="Марианна" creationdate="20201014T062709Z">
+        <seg>%spoiler%The comment example:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112736Z" creationid="Марианна" creationdate="20200825T112736Z">
