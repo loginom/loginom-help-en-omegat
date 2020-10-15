@@ -10151,6 +10151,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Двойной клик мыши по позиции списка вводит имя поля/переменной в область кода выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085108Z" creationid="Марианна" creationdate="20201015T085108Z">
+        <seg>Double click on the list item position enables to enter the field/variable name to the expression code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Двойной клик по полю открывает окно "Выбора агрегации".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083340Z" creationid="Марианна" creationdate="20201006T083340Z">
@@ -16194,6 +16202,14 @@ to set parameters of the node settings.</seg>
         <seg>То же самое можно сделать при помощи Drag-and-Drop.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T180513Z" creationid="Марианна" creationdate="20201005T180513Z">
+        <seg>The Drag-and-Drop method enables to perform the same actions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>То же самое можно сделать при помощи Drag-and-drop.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085125Z" creationid="Марианна" creationdate="20201015T085125Z">
         <seg>The Drag-and-Drop method enables to perform the same actions.</seg>
       </tuv>
     </tu>
