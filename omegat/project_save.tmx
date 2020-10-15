@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Входные переменные (переменные), необязательный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062239Z" creationid="Марианна" creationdate="20201015T062239Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input variables (Variables), optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T213525Z" creationid="Марианна" creationdate="20201012T213525Z">
@@ -5191,6 +5199,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область кода выражений&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062304Z" creationid="Марианна" creationdate="20201015T062304Z">
+        <seg>&lt;x1/&gt;The expressions code area&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область кода выражения&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162607Z" creationid="Марианна" creationdate="20201004T193821Z">
@@ -5987,6 +6003,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185804Z" creationid="Марианна" creationdate="20200810T185804Z">
         <seg>&lt;x1/&gt;User date/time format&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поля/переменные&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062317Z" creationid="Марианна" creationdate="20201015T062317Z">
+        <seg>&lt;x1/&gt;Fields/variables&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
