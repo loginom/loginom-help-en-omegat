@@ -3543,6 +3543,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбор режима работы калькулятора&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085548Z" creationid="Марианна" creationdate="20201015T085529Z">
+        <seg>&lt;x1/&gt;Select calculator mode&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбор составного объекта.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084211Z" creationid="Марианна" creationdate="20200814T084211Z">
@@ -6267,6 +6275,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When following this link, it is required to enter corresponding login and password (if any).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Режим работы калькулятора &lt;x3/&gt;Выражение&lt;x4/&gt; или &lt;x5/&gt;JavaScript&lt;x6/&gt; выбирается для всех полей, т.е. нельзя установить для одного поля синтаксис &lt;x7/&gt;Выражение&lt;x8/&gt;, а для другого &lt;x9/&gt;JavaScript&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085818Z" creationid="Марианна" creationdate="20201015T085544Z">
+        <seg>&lt;x1/&gt;Note: It is required to select &lt;x2/&gt; Calculator mode &lt;x3/&gt;Expression&lt;x4/&gt; or &lt;x5/&gt;JavaScript&lt;x6/&gt; for all fields, namely, it is not possible to set &lt;x7/&gt;Expression&lt;x8/&gt; syntax for one field, and &lt;x9/&gt;JavaScript&lt;x10/&gt; - for another.</seg>
       </tuv>
     </tu>
     <tu>
