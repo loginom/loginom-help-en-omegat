@@ -4911,6 +4911,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэшировать&lt;x2/&gt; — сохранение однажды вычисленного значения выражения, целесообразно при неоднократном использовании значений выражения последующими обработчиками и визуализаторами во избежание выполнения повторных вычислений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T074822Z" creationid="Марианна" creationdate="20201015T074822Z">
+        <seg>&lt;x1/&gt;Cache&lt;x2/&gt; — сохранение однажды вычисленного значения выражения, целесообразно при неоднократном использовании значений выражения последующими обработчиками и визуализаторами во избежание выполнения повторных вычислений;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Лаг&lt;x2/&gt; — количество отсчетов, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102130Z" creationid="Марианна" creationdate="20201011T101510Z">
@@ -6413,6 +6421,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185152Z" creationid="Марианна" creationdate="20200810T182700Z">
         <seg>&lt;x1/&gt;Derived component&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Промежуточное&lt;x2/&gt; — при установке этого флага выражение может использоваться в расчетах, не включается в список полей выходного набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T074752Z" creationid="Марианна" creationdate="20201015T074752Z">
+        <seg>&lt;x1/&gt;Intermediate&lt;x2/&gt;: when selecting this flag, the expression can be used in calculations but it is not included into the list of fields of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
