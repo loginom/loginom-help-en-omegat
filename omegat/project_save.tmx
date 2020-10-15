@@ -1318,6 +1318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — задание параметров выражения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T063010Z" creationid="Марианна" creationdate="20201015T063010Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to set expression parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Свойства&lt;x4/&gt; — открывает окно настройки &lt;x5/&gt;свойств&lt;x6/&gt; выделенного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131801Z" creationid="Марианна" creationdate="20200816T131620Z">
@@ -1698,6 +1706,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102702Z" creationid="Марианна" creationdate="20201009T102702Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; enables to call the action menu of ports of the Workflow variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;|&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Синтаксис&lt;x6/&gt; (выпадающий список)— задание &lt;x7/&gt;синтаксиса расчета выражений&lt;x8/&gt; калькулятора;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062941Z" creationid="Марианна" creationdate="20201015T062941Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;|&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Syntax&lt;x6/&gt; (drop-down list) enables to set &lt;x7/&gt;syntax of expressions calculation&lt;x8/&gt; of the calculator.</seg>
       </tuv>
     </tu>
     <tu>
