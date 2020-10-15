@@ -1110,10 +1110,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;JavaScript&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085339Z" creationid="Марианна" creationdate="20201015T085339Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;JavaScript&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр&lt;x4/&gt; — вызывает &lt;x5/&gt;окно просмотра значений&lt;x6/&gt; переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103751Z" creationid="Марианна" creationdate="20201009T103751Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick view&lt;x4/&gt; enabels to call the variable &lt;x5/&gt;watch window&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выражение&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085336Z" creationid="Марианна" creationdate="20201015T085336Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Expression&lt;x4/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9033,6 +9049,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В калькуляторе существует два способа расчета выражений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085322Z" creationid="Марианна" creationdate="20201015T085322Z">
+        <seg>There are two methods to calculate expressions in the calculator:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве ограничителя строк могут быть использованы символы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151630Z" creationid="Марианна" creationdate="20200917T151630Z">
@@ -10267,6 +10291,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160301Z" creationid="Марианна" creationdate="20200920T160301Z">
         <seg>It is required to provide uniqueness of the input port in the list of the input ports, for the output port - in the list of the output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для выбора синтаксиса необходимо в меню списка выражений выбрать &lt;x1/&gt;JavaScript&lt;x2/&gt; или &lt;x3/&gt;Выражение&lt;x4/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085501Z" creationid="Марианна" creationdate="20201015T085501Z">
+        <seg>To select the syntax, it is required to select &lt;x1/&gt;JavaScript&lt;x2/&gt; or &lt;x3/&gt;Expression&lt;x4/&gt; in the expressions list menu (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -15443,6 +15475,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Синтаксис калькулятора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085245Z" creationid="Марианна" creationdate="20201015T085245Z">
+        <seg>Calculator syntax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
@@ -15815,6 +15855,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T163921Z" creationid="Марианна" creationdate="20201005T163921Z">
         <seg>It is possible to insert references to variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ссылки на поля/переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085219Z" creationid="Марианна" creationdate="20201015T085219Z">
+        <seg>It is possible to insert references to the fields/variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.</seg>
       </tuv>
     </tu>
     <tu>
