@@ -1286,6 +1286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — поднять выражение на одну позицию вверх по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T071527Z" creationid="Марианна" creationdate="20201015T071527Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the expression one item position up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Подключение&lt;x4/&gt; — принимает параметры подключения к базе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154636Z" creationid="Марианна" creationdate="20200824T154636Z">
