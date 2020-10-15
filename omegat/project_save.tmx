@@ -1294,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — опустить выражение на одну позицию вниз по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T071557Z" creationid="Марианна" creationdate="20201015T071557Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the expression one item position down the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Подключение&lt;x4/&gt; — принимает параметры подключения к базе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154636Z" creationid="Марианна" creationdate="20200824T154636Z">
