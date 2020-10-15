@@ -13955,6 +13955,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По возможности, при преобразовании типа сохраняется полнота информации, но в некоторых случаях изменение типа может привести к потере информации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T193605Z" creationid="Марианна" creationdate="20201015T193605Z">
+        <seg>As far as possible, when transforming, information completeness is preserved but in some cases, type change can cause loss of information.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По данным полям можно отсортировать список по возрастанию &lt;x1/&gt; &lt;x2/&gt;, по убыванию &lt;x3/&gt; &lt;x4/&gt; либо отменить сортировку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T134511Z" creationid="Марианна" creationdate="20200816T134511Z">
