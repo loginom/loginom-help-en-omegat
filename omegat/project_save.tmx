@@ -12955,6 +12955,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область содержит список полей и переменных, передаваемых на вход обработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085008Z" creationid="Марианна" creationdate="20201015T085008Z">
+        <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063534Z" creationid="Марианна" creationdate="20200817T063534Z">
@@ -13787,6 +13795,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перечень и параметры полей/переменных определяются при настройке входных портов обработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T085035Z" creationid="Марианна" creationdate="20201015T085035Z">
+        <seg>The list and parameters of fields/variables are defined when configuring input ports of the handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Персональные редакции (Community, Personal)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T092558Z" creationid="Марианна" creationdate="20200818T161343Z">
@@ -14159,6 +14175,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102746Z" creationid="Марианна" creationdate="20201011T102746Z">
         <seg>There are the following fields the availability of which is set by a user:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля/переменные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T084940Z" creationid="Марианна" creationdate="20201015T084940Z">
+        <seg>Fields/variables</seg>
       </tuv>
     </tu>
     <tu>
@@ -15783,6 +15807,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T163921Z" creationid="Марианна" creationdate="20201005T163921Z">
         <seg>It is possible to insert references to variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ссылки на созданные в &lt;x5/&gt;Калькуляторе&lt;x6/&gt; выражения задаются в области кода ручным вводом имени выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T084925Z" creationid="Марианна" creationdate="20201015T084925Z">
+        <seg>References to the expressions created in the &lt;x5/&gt;Calculator&lt;x6/&gt; can be set in the code area by the manual input of the expression name.</seg>
       </tuv>
     </tu>
     <tu>
