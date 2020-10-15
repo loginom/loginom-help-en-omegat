@@ -3174,6 +3174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Узел не накладывает ограничений при изменении типа данных поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094739Z" creationid="Марианна" creationdate="20201015T094553Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The node does not impose restrictions when changing the field data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; вещественные числа записываются с использованием десятичной точки, например, &lt;x3/&gt;&lt;x4/&gt;2.71&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170052Z" creationid="Марианна" creationdate="20201005T170052Z">
@@ -9639,6 +9647,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вид данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094446Z" creationid="Марианна" creationdate="20201015T094446Z">
+        <seg>Data kind</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Видимость узлов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102431Z" creationid="Марианна" creationdate="20200919T102431Z">
@@ -11515,6 +11531,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094420Z" creationid="Марианна" creationdate="20201015T094420Z">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Инспектор свойств</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
@@ -12291,6 +12315,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094427Z" creationid="Марианна" creationdate="20201015T094427Z">
+        <seg>Caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод получения окончательного решения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T160019Z" creationid="Марианна" creationdate="20201013T160019Z">
@@ -12615,6 +12647,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
         <seg>Package Designation and Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Назначение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094455Z" creationid="Марианна" creationdate="20201015T094455Z">
+        <seg>Designation</seg>
       </tuv>
     </tu>
     <tu>
@@ -14167,6 +14207,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090236Z" creationid="Марианна" creationdate="20200816T133511Z">
         <seg>More detailed information is provided in the &lt;x5/&gt;file storage&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подробнее о параметрах полей см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094526Z" creationid="Марианна" creationdate="20201015T094526Z">
+        <seg>The detailed information on the fields parameters is provided in</seg>
       </tuv>
     </tu>
     <tu>
@@ -16259,6 +16307,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165926Z" creationid="Марианна" creationdate="20200916T165926Z">
         <seg>Type of the field data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094435Z" creationid="Марианна" creationdate="20201015T094435Z">
+        <seg>Data type</seg>
       </tuv>
     </tu>
     <tu>
