@@ -4913,8 +4913,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэшировать&lt;x2/&gt; — сохранение однажды вычисленного значения выражения, целесообразно при неоднократном использовании значений выражения последующими обработчиками и визуализаторами во избежание выполнения повторных вычислений;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T080629Z" creationid="Марианна" creationdate="20201015T074822Z">
-        <seg>&lt;x1/&gt;Cache&lt;x2/&gt;: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent handlers and vizualizers in order to avoid repeated calculations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T080642Z" creationid="Марианна" creationdate="20201015T074822Z">
+        <seg>&lt;x1/&gt;Cache&lt;x2/&gt;: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent handlers and visualizers in order to avoid repeated calculations.</seg>
       </tuv>
     </tu>
     <tu>
