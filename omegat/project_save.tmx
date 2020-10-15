@@ -10975,6 +10975,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение выражения в каждой строке набора данных будет вычислено по &lt;x3/&gt;формуле&lt;x4/&gt; или JavaScript коду.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062700Z" creationid="Марианна" creationdate="20201015T062700Z">
+        <seg>The expression value in each data set string will be calculated using the &lt;x3/&gt;formula&lt;x4/&gt; or the JavaScript code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение выражения в каждой строке набора данных будет вычислено по формуле, заданной в области кода выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194456Z" creationid="Марианна" creationdate="20201004T194456Z">
@@ -12799,6 +12807,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160326Z" creationid="Марианна" creationdate="20200920T160326Z">
         <seg>The Supernode Construction Area</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область предназначена для ввода &lt;x1/&gt;Выражений&lt;x2/&gt; — вычисляемых полей, которыми в результате обработки будет дополнен входной набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062610Z" creationid="Марианна" creationdate="20201015T062610Z">
+        <seg>The area is designated for entry of &lt;x1/&gt;Expressions&lt;x2/&gt;, namely, calculated fields to be added to the input data set as the result of processing.</seg>
       </tuv>
     </tu>
     <tu>
