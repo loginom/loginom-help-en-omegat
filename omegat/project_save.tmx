@@ -4399,6 +4399,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — вводится &lt;x3/&gt;имя поля&lt;x4/&gt; присваемое столбцу в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T074448Z" creationid="Марианна" creationdate="20201015T074448Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: it is required to enter the &lt;x3/&gt;field name&lt;x4/&gt; assigned to the column in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — задается уникальное имя поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192402Z" creationid="Марианна" creationdate="20200825T192402Z">
