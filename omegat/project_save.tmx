@@ -1446,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T062212Z" creationid="Марианна" creationdate="20201015T062212Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input data source (data table);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T213525Z" creationid="Марианна" creationdate="20201012T213525Z">
