@@ -10527,6 +10527,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для русской локали это строки: "ИСТИНА"("TRUE"), которые преобразуются в логическое &lt;x7/&gt;TRUE&lt;x8/&gt;, и "ЛОЖЬ"("FALSE"), которые преобразуются в логическое &lt;x9/&gt;FALSE&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T194336Z" creationid="Марианна" creationdate="20201015T194336Z">
+        <seg>These strings are as follows for the Russian locale: "TRUE" that are transformed to the logical &lt;x7/&gt;TRUE&lt;x8/&gt; ones, and "FALSE" that are transforned to the logical &lt;x9/&gt;FALSE&lt;x10/&gt; ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для свободной зоны:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135706Z" creationid="Марианна" creationdate="20200816T135706Z">
