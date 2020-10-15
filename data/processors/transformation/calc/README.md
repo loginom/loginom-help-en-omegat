@@ -1,11 +1,11 @@
-# ![ ](../../../images/icons/components/calc-data_default.svg) Калькулятор
+# ![ ](../../../images/icons/components/calc-data_default.svg)Calculator
 
-Создает новые поля, которые вычисляются по заданной формуле из значений переменных, других полей и [функций](../../func/calc-func/README.md) или используя [JavaScript](./javascript.md) код.
+It enables to create the new fields that are calculated by the defined formula based on the values of variables, other fields and [functions](../../func/calc-func/README.md), or using the [JavaScript](./javascript.md) code.
 
 ### Input
 
-* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Входной источник данных (таблица данных);
-* ![ ](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Входные переменные (переменные), необязательный.
+* ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Input data source (data table);
+* ![ ](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Input variables (Variables), optional.
 
 ### Output
 
@@ -16,32 +16,32 @@
 The wizard window includes the following areas:
 
 1. [List of expressions](#spisok-vyrazheniy);
-2. [Область кода выражений](#oblast-koda-vyrazheniya);
-3. [Поля/переменные](#polyaperemennye);
+2. [The expressions code area](#oblast-koda-vyrazheniya);
+3. [Fields/variables](#polyaperemennye);
 4. [List of functions](#spisok-funktsiy).
 
 ### List of Expressions
 
-Область предназначена для ввода *Выражений* — вычисляемых полей, которыми в результате обработки будет дополнен входной набор данных. Значение выражения в каждой строке набора данных будет вычислено по [формуле](./expression.md) или JavaScript коду.
+The area is designated for entry of *Expressions*, namely, calculated fields to be added to the input data set as the result of processing. The expression value in each data set string will be calculated using the [formula](./expression.md) or the JavaScript code.
 
 It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
-* ![ ](../../../images/icons/calcdata/expression_default.svg)|![](../../../images/icons/calcdata/javascript_default.svg) **Синтаксис** (выпадающий список)— задание [синтаксиса расчета выражений](#sintaksis-kalkulyatora) калькулятора;
-* ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — задание параметров выражения;
-* ![ ](../../../images/icons/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку;
-* ![ ](../../../images/icons/toolbar-controls/down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку;
-* ![ ](../../../images/icons/toolbar-controls/plus_default.svg) **Добавить выражение** — добавляет новое выражение с параметрами по умолчанию;
-* ![ ](../../../images/icons/toolbar-controls/clone_default.svg) **Добавить выражение по образцу** — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;
-* ![ ](../../../images/icons/toolbar-controls/delete_default.svg) **Удалить выражение** — удаляет текущее выражение;
-* ![ ](../../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все выражения** — удаляет все имеющиеся выражения.
+* ![ ](../../../images/icons/calcdata/expression_default.svg)|![](../../../images/icons/calcdata/javascript_default.svg) **Syntax** (drop-down list) enables to set [syntax of expressions calculation](#sintaksis-kalkulyatora) of the calculator.
+* ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to set expression parameters.
+* ![ ](../../../images/icons/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
+* ![ ](../../../images/icons/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
+* ![ ](../../../images/icons/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with default parameters.
+* ![ ](../../../images/icons/toolbar-controls/clone_default.svg) **Add expression by the example** enables to add a new expression with data type, description and formula similar to the current expression.
+* ![ ](../../../images/icons/toolbar-controls/delete_default.svg) **Delete expression** enables to delete the current expression.
+* ![ ](../../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all expressions** enables to delete all existing expressions.
 
 When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
-* **Имя** — вводится [имя поля](../../../data/datasetfieldoptions.md) присваемое столбцу в выходном наборе данных;
-* **Метка** — вводится [метка поля](../../../data/datasetfieldoptions.md) присваемая столбцу в выходном наборе данных;
-* **Тип данных** — выбирается [тип данных](../../../data/datatype.md) поля в выходном наборе данных;
-* **Промежуточное** — при установке этого флага выражение может использоваться в расчетах, не включается в список полей выходного набора данных;
-* **Кэшировать** — сохранение однажды вычисленного значения выражения, целесообразно при неоднократном использовании значений выражения последующими обработчиками и визуализаторами во избежание выполнения повторных вычислений;
+* **Name**: it is required to enter the [field name](../../../data/datasetfieldoptions.md) assigned to the column in the output data set.
+* **Caption**: it is required to enter the [field caption](../../../data/datasetfieldoptions.md) assigned to the column in the output data set.
+* **Data type**: it is required to select [data type](../../../data/datatype.md) of the filed in the output data set.
+* **Intermediate**: when selecting this flag, the expression can be used in calculations but it is not included into the list of fields of the output data set.
+* **Cache**: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent handlers and visualizers in order to avoid repeated calculations.
 * **Description** means clarifying information.
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.

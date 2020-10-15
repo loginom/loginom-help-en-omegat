@@ -33,7 +33,7 @@ It is possible to create a new expression using the toolbar area or the context 
 * ![Move up](../../images/icons/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
 * ![Move down](../../images/icons/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
 * ![Add expression](../../images/icons/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with default parameters.
-* ![Add expression by the example](../../images/icons/toolbar-controls/clone_default.svg) **Add expression by the example** enables to add a new expression with веф type, description and formula similar to the current expression.
+* ![Add expression by the example](../../images/icons/toolbar-controls/clone_default.svg) **Add expression by the example** enables to add a new expression with data type, description and formula similar to the current expression.
 * ![Delete expression](../../images/icons/toolbar-controls/delete_default.svg) **Delete expression** enables to delete the current expression.
 * ![Delete all expressions](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all expressions…** enables to delete all existing expressions.
 
