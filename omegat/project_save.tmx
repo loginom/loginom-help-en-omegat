@@ -1126,6 +1126,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Добавить выражение по образцу&lt;x4/&gt; — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T071805Z" creationid="Марианна" creationdate="20201015T071805Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Add expression by the example&lt;x4/&gt; enables to add a new expression with data type, description and formula similar to the current expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Добавить выражение&lt;x4/&gt; — добавляет новое выражение с параметрами по умолчанию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T071705Z" creationid="Марианна" creationdate="20201015T071705Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Add expression&lt;x4/&gt; enables to add a new expression with default parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Другие действия&lt;x4/&gt; — вызывает контекстное меню с расширенным набором команд.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103602Z" creationid="Марианна" creationdate="20201009T103602Z">
@@ -1426,6 +1442,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T140817Z" creationid="Марианна" creationdate="20200814T140817Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save&lt;x4/&gt; enables to save the selected &lt;x5/&gt;Package&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Удалить выражение&lt;x4/&gt; — удаляет текущее выражение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T071909Z" creationid="Марианна" creationdate="20201015T071909Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Delete expression&lt;x4/&gt; enables to delete the current expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3953,8 +3977,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить выражение по образцу&lt;x2/&gt; &lt;x3/&gt;Добавить выражение по образцу&lt;x4/&gt; — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T195415Z" creationid="Марианна" creationdate="20201004T195415Z">
-        <seg>&lt;x1/&gt;Add expression by the example&lt;x2/&gt; &lt;x3/&gt;Add expression by the example&lt;x4/&gt; enables to add a new expression with веф type, description and formula similar to the current expression.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T071823Z" creationid="Марианна" creationdate="20201004T195415Z">
+        <seg>&lt;x1/&gt;Add expression by the example&lt;x2/&gt; &lt;x3/&gt;Add expression by the example&lt;x4/&gt; enables to add a new expression with data type, description and formula similar to the current expression.</seg>
       </tuv>
     </tu>
     <tu>
