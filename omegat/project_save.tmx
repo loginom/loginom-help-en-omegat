@@ -16375,6 +16375,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел позволяет изменить следующие параметры полей набора данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T094412Z" creationid="Марианна" creationdate="20201015T094412Z">
+        <seg>The node enables to change the following parameters of the data set fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел получает индекс -1, который учитывается при сортировке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T190043Z" creationid="Марианна" creationdate="20201001T190043Z">
