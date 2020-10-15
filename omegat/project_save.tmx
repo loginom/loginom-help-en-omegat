@@ -9121,6 +9121,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области кода в зависимости от выбранного синтаксиса калькулятора задается &lt;x1/&gt;формула расчета выражения&lt;x2/&gt; или &lt;x3/&gt;JavaScript код&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T084624Z" creationid="Марианна" creationdate="20201015T084624Z">
+        <seg>It is required to set the &lt;x1/&gt;expression calculation formula&lt;x2/&gt; or the &lt;x3/&gt;JavaScript code&lt;x4/&gt; in the code area depending on the selected calculator syntax.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В области кода задается формула расчета выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T163305Z" creationid="Марианна" creationdate="20201005T163305Z">
