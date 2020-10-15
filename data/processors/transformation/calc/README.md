@@ -50,15 +50,15 @@ When you first open the wizard, the list of expressions contains one real item w
 
 ### The Expression Code Area
 
-В области кода в зависимости от выбранного синтаксиса калькулятора задается [формула расчета выражения](./expression.md) или [JavaScript код](./javascript.md). Ссылки на входящие поля/переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой. Ссылки на созданные в *Калькуляторе* выражения задаются в области кода ручным вводом имени выражения.
+It is required to set the [expression calculation formula](./expression.md) or the [JavaScript code](./javascript.md) in the code area depending on the selected calculator syntax. It is possible to insert references to the input fields/variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse. References to the expressions created in the *Calculator* can be set in the code area by the manual input of the expression name.
 
 Changes in the code area are saved on exit.
 
-### Поля/переменные
+### Fields/variables
 
-Область содержит список полей и переменных, передаваемых на вход обработчика. Перечень и параметры полей/переменных определяются при настройке входных портов обработчика.
+The area contains the list of fields and variables supplied to the handler input. The list and parameters of fields/variables are defined when configuring input ports of the handler.
 
-Двойной клик мыши по позиции списка вводит имя поля/переменной в область кода выражения. То же самое можно сделать при помощи Drag-and-drop.
+Double click on the list item position enables to enter the field/variable name to the expression code area. The Drag-and-Drop method enables to perform the same actions.
 
 ### List of Functions
 
@@ -66,19 +66,19 @@ Name, input argument and description of the [functions available for use](../../
 
 It is possible to filter by the function category and name.
 
-Double click on the position of the selected function enables to enter its syntax to the expression code area. То же самое можно сделать при помощи Drag-and-drop.
+Double click on the position of the selected function enables to enter its syntax to the expression code area. The Drag-and-Drop method enables to perform the same actions.
 
-Ссылки на поля/переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.
+It is possible to insert references to the fields/variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.
 
-## Синтаксис калькулятора
+## Calculator syntax
 
-В калькуляторе существует два способа расчета выражений:
+There are two methods to calculate expressions in the calculator:
 
-* ![ ](../../../images/icons/calcdata/expression_default.svg) [Выражение](./expression.md);
+* ![ ](../../../images/icons/calcdata/expression_default.svg) [Expression](./expression.md);
 * ![ ](../../../images/icons/calcdata/javascript_default.svg) [JavaScript](./javascript.md).
 
-Для выбора синтаксиса необходимо в меню списка выражений выбрать *JavaScript* или *Выражение* (см. Figure 1).
+To select the syntax, it is required to select *JavaScript* or *Expression* in the expressions list menu (refer to Figure 1).
 
-![Выбор режима работы калькулятора](./readme-1.png)
+![Select calculator mode](./readme-1.png)
 
-> **Примечание:** Режим работы калькулятора *Выражение* или *JavaScript* выбирается для всех полей, т.е. нельзя установить для одного поля синтаксис *Выражение*, а для другого *JavaScript*.
+> **Note: It is required to select ** Calculator mode *Expression* or *JavaScript* for all fields, namely, it is not possible to set *Expression* syntax for one field, and *JavaScript* - for another.
