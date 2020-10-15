@@ -5031,6 +5031,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — вводится &lt;x3/&gt;метка поля&lt;x4/&gt; присваемая столбцу в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T074537Z" creationid="Марианна" creationdate="20201015T074537Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: it is required to enter the &lt;x3/&gt;field caption&lt;x4/&gt; assigned to the column in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — задает пользовательское описание поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192450Z" creationid="Марианна" creationdate="20200825T192450Z">
@@ -7341,6 +7349,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192548Z" creationid="Марианна" creationdate="20200825T192548Z">
         <seg>&lt;x1/&gt;Data type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt;: the text field value will be transformed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — выбирается &lt;x3/&gt;тип данных&lt;x4/&gt; поля в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T074639Z" creationid="Марианна" creationdate="20201015T074639Z">
+        <seg>&lt;x1/&gt;Data type&lt;x2/&gt;: it is required to select &lt;x3/&gt;data type&lt;x4/&gt; of the filed in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
