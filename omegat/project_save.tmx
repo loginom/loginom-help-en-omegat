@@ -15771,6 +15771,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ссылки на входящие поля/переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T084720Z" creationid="Марианна" creationdate="20201015T084720Z">
+        <seg>It is possible to insert references to the input fields/variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ссылки на переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T163921Z" creationid="Марианна" creationdate="20201005T163921Z">
