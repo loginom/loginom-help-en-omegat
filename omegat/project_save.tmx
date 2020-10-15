@@ -3142,6 +3142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Имеются особенности при изменении типа поля со &lt;x3/&gt;"Строкового"&lt;x4/&gt; на &lt;x5/&gt;"Логический"&lt;x6/&gt;: в общем случае из текущей локали выделяются строки, которые преобразуются в логический тип данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T194143Z" creationid="Марианна" creationdate="20201015T194143Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; There are peculiarities observed when changing the field type from the &lt;x3/&gt;"String"&lt;x4/&gt; to the &lt;x5/&gt;"Logical"&lt;x6/&gt; one: in the general case, the strings that are transformed to the logical data type are selected from the current locale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Имя должно быть уникальным, начинаться с заглавной или строчной латинской буквы или с символа подчеркивания.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T200435Z" creationid="Марианна" creationdate="20201004T200435Z">
@@ -14255,6 +14263,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171754Z" creationid="Марианна" creationdate="20200718T163547Z">
         <seg>It can receive data from nodes from other workflows and packages using the &lt;x1/&gt;Reference Node&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пользователь должен иметь в виду данное обстоятельство при принятии решения о преобразовании типа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201015T193709Z" creationid="Марианна" creationdate="20201015T193709Z">
+        <seg>A user must take this fact into account when taking decision on transformation of the data type.</seg>
       </tuv>
     </tu>
     <tu>
