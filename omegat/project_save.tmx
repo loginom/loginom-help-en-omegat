@@ -4951,6 +4951,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt; Кросс-таблица</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T132935Z" creationid="Марианна" creationdate="20201016T132935Z">
+        <seg>&lt;x1/&gt;Cross table&lt;x2/&gt; Cross table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Куб&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065759Z" creationid="Марианна" creationdate="20200812T065759Z">
