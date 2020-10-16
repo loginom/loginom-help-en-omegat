@@ -10231,6 +10231,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данная опция доступна в случае установки для всего узла режима кэширования &lt;x5/&gt;Выбранные поля&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T073830Z" creationid="Марианна" creationdate="20201016T073830Z">
+        <seg>This option is available if the &lt;x5/&gt;Selected fields&lt;x6/&gt; caching mode is set for the whole node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данная страница содержит следующие команды для манипуляции с &lt;x1/&gt;пакетами&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T132711Z" creationid="Марианна" creationdate="20200814T105248Z">
