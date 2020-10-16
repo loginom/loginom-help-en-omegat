@@ -9267,8 +9267,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В настройках этого порта следует выставить назначение &lt;x3/&gt; &lt;x4/&gt; "Используемое" полям, для которых нужно рассчитать автокорреляцию.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T101059Z" creationid="Марианна" creationdate="20201011T101059Z">
-        <seg>The &lt;x3/&gt; &lt;x4/&gt; "Used" value is set in the settings of this port for the fields for which it is required to calculate autocorrelation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T133913Z" creationid="Марианна" creationdate="20201011T101059Z">
+        <seg>&lt;x3/&gt; &lt;x4/&gt; "Used" value is set in the settings of this port for the fields for which it is required to calculate autocorrelation.</seg>
       </tuv>
     </tu>
     <tu>
