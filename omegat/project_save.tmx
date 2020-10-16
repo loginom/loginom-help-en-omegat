@@ -8171,8 +8171,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;временная&lt;x2/&gt; — рекомендуется при обработке небольшого количества отсчетов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T103624Z" creationid="Марианна" creationdate="20201011T103605Z">
-        <seg>&lt;x1/&gt;Time&lt;x2/&gt; is recommended when small lag count processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T134317Z" creationid="Марианна" creationdate="20201011T103605Z">
+        <seg>&lt;x1/&gt;Time&lt;x2/&gt; is recommended in the case of the small lag count processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8243,8 +8243,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;частотная&lt;x2/&gt; — рекомендуется при обработке большого количества отсчетов для ускорения вычислений;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T103722Z" creationid="Марианна" creationdate="20201011T103618Z">
-        <seg>&lt;x1/&gt;Frequency&lt;x2/&gt; is recommended when large lag count processing to speed up the calculation process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T134331Z" creationid="Марианна" creationdate="20201011T103618Z">
+        <seg>&lt;x1/&gt;Frequency&lt;x2/&gt; is recommended in the case of the large lag count processing to speed up the calculation process.</seg>
       </tuv>
     </tu>
     <tu>
