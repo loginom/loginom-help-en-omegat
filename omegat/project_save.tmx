@@ -1544,8 +1544,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T101215Z" creationid="Марианна" creationdate="20201011T101215Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T133948Z" creationid="Марианна" creationdate="20201011T101215Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set.</seg>
       </tuv>
     </tu>
     <tu>
