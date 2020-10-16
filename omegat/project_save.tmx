@@ -5527,6 +5527,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отключено&lt;x2/&gt; — кэширование не будет производится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T072218Z" creationid="Марианна" creationdate="20201016T072218Z">
+        <seg>&lt;x1/&gt;Disabled&lt;x2/&gt; means that caching will not be performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Открывался&lt;x2/&gt; — дата и время открытия Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T110024Z" creationid="Марианна" creationdate="20200814T110024Z">
@@ -6267,6 +6275,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111332Z" creationid="Марианна" creationdate="20200717T111315Z">
         <seg>&lt;x1/&gt;Transformation of the Block of Nodes to the Supernode&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;При активации&lt;x2/&gt; — при активации узла будет производится кэширование всего набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T072357Z" creationid="Марианна" creationdate="20201016T072357Z">
+        <seg>&lt;x1/&gt;On activation&lt;x2/&gt;: on the node activation, the whole data set will be cached.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11707,6 +11723,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T072229Z" creationid="Марианна" creationdate="20201016T072229Z">
+        <seg>It is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется при отладке Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102743Z" creationid="Марианна" creationdate="20201009T102743Z">
@@ -14695,6 +14719,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083825Z" creationid="Марианна" creationdate="20201009T083825Z">
         <seg>Predefined Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предоставляется выбор из следующих вариантов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T072140Z" creationid="Марианна" creationdate="20201016T072140Z">
+        <seg>The following options are available:</seg>
       </tuv>
     </tu>
     <tu>
