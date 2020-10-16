@@ -3447,6 +3447,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T071832Z" creationid="Марианна" creationdate="20201016T071832Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a port for connection of the input data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065841Z" creationid="Марианна" creationdate="20200924T065841Z">
@@ -3691,6 +3699,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T103120Z" creationid="Марианна" creationdate="20200929T103120Z">
         <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a port providing data after their transformation to the tree-like form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт с измененными параметрами полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T072021Z" creationid="Марианна" creationdate="20201016T072021Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a port with changed field features.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4947,6 +4963,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062025Z" creationid="Марианна" creationdate="20201014T062025Z">
         <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x3/&gt;Calculator&lt;x4/&gt; expressions in case of the &lt;x5/&gt;Data()&lt;x6/&gt; function usage for the recursive computation of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэшировать&lt;x2/&gt; — параметры кэширования выходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T072120Z" creationid="Марианна" creationdate="20201016T072120Z">
+        <seg>&lt;x1/&gt;Cache&lt;x2/&gt; means caching parameters of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
