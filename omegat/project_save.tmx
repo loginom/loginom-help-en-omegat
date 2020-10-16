@@ -6295,6 +6295,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;При активации&lt;x2/&gt; — при активации узла будет производится кэширование поля набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T073929Z" creationid="Марианна" creationdate="20201016T073929Z">
+        <seg>&lt;x1/&gt;On activation&lt;x2/&gt;: on the node activation, the data set field will be cached.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;При обращении&lt;x2/&gt; — будет производится кэширование поля при первом запросе его данных последующими узлами сценария или визуализатором.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T074223Z" creationid="Марианна" creationdate="20201016T074223Z">
+        <seg>&lt;x1/&gt;While handling&lt;x2/&gt;: the field will be cached in the case of the first request of its data by the subsequent workflow nodes or visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;При обращении&lt;x2/&gt; — будет производится кэширование тех полей выходного набора, данные которых запрошены последующими узлами сценария или визуализатором.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072703Z" creationid="Марианна" creationdate="20201016T072703Z">
