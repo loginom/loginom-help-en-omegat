@@ -15901,8 +15901,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Соответствует имени файла без расширения, приведенному к правильному идентификатору.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200820T110043Z" creationid="Марианна" creationdate="20200816T133146Z">
-        <seg>It complies with the file name without extension set to the proper identifier.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T125943Z" creationid="Марианна" creationdate="20200816T133146Z">
+        <seg>It complies with the file name without extension set to the correct identifier.</seg>
       </tuv>
     </tu>
     <tu>
