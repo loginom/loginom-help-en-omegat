@@ -22,7 +22,7 @@ Initially, there are no input and output ports. They are created by users in the
 * ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) Data table;
 * ![Output data tree](../../images/icons/app/node/ports/outputs/tree_inactive.svg) Data tree.
 
-## The wizard
+## Wizard
 
 Ports are created here. It is possible to set a type, name and caption for each port. It will be displayed when hovering a cursor over it.
 

@@ -8,7 +8,7 @@ The component enables to use already existing workflow node for repeated process
 
 When creating, the node does not have [ports](../../scenario/ports/README.md). Upon configuration, the node has the ports identical to ports of the base node. It is possible to redefine settings of ports, however, it should be noted that reconfiguration of the input ports can cause incompliance of the new input data with the requirements of the workflow inherited from the base node, and, as a consequence, execution error.
 
-## The wizard
+## Wizard
 
 The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data. The nodes *available* for selection are dispalyed in the form of a tree.
 

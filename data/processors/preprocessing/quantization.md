@@ -14,7 +14,7 @@
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). [Описание структуры](./quantization/calculated-columns.md) результирующего набора.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Диапазоны для квантования (таблица данных). [Описание структуры](./quantization/ranges-quantization.md) таблицы диапазонов.
 
-## The wizard
+## Wizard
 
 Мастер настройки состоит из двух основных областей:  область настройки параметров квантования  и область  отображения результатов квантования. Обе области организованы в виде таблицы. Над ними располагается строка состояния входа.
 

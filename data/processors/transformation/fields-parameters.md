@@ -26,7 +26,7 @@ The node enables to [cache](../../scenario/caching.md) the whole data set, or it
 
 * ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a port with changed field features.
 
-## The wizard
+## Wizard
 
 * **Cache** means caching parameters of the output data set. The following options are available:
    * **Disabled** means that caching will not be performed. It is used by default.

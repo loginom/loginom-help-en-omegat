@@ -54,7 +54,7 @@ Table of factor loadings:
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). It contains the source table to which factors fields are added.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). It contains the table of factor loadings.
 
-## The wizard
+## Wizard
 
 * Criterion of Factors Significance:
    * **By own value**: only factors with own values equal or exceeding 1 are selected. It is considered that the factors with the value less than 1 don't contribute significantly to the result explanation.

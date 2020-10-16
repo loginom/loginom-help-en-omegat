@@ -58,7 +58,7 @@ As shown in the table, the sale series of the "Tomato paste" item of goods is di
       * **Kendall's Tau-b** means the Kendall's Tau-b rank correlation coefficient.
       * **Spearman** means the Spearman's rank correlation coefficient.
 
-## The wizard
+## Wizard
 
 includes the list of flags that enable to select coefficients for correlation estimation:
 

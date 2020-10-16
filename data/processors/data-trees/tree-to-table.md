@@ -10,7 +10,7 @@ The handler transforms the data represented in the hierarchic tree-like form to 
 
 ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** is a data table.
 
-## The wizard
+## Wizard
 
 ### Configuration of the Input Data Set
 

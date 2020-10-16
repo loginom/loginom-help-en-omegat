@@ -11,7 +11,7 @@ It enables to create the new fields that are calculated by the defined formula b
 
 * ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-## The wizard
+## Wizard
 
 The wizard window includes the following areas:
 

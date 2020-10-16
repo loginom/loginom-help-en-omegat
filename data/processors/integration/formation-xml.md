@@ -16,7 +16,7 @@
 
 * ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Выходной набор данных — таблица, содержащая результирующие XML и их идентификаторы (ID).
 
-## The wizard
+## Wizard
 
 ### Step 1. Сопоставление полей для формирования XML
 

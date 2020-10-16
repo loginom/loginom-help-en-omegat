@@ -6,7 +6,7 @@ Reference node enables to receive results of processing (execution) of the other
 
 When creating, the *Reference node* does not have [ports](../../scenario/ports/README.md). Upon the node configuration, the output ports of the data source node are displayed. Configuration of these ports is available only in the source node.
 
-## The wizard
+## Wizard
 
 The nodes available for reference creation are displayed in the wizard window in the form of a tree. The current module nodes and all nodes available for reference are separately displayed for navigation convenience. Availability of nodes is defined by their visibility (refer to the next section - "Visibility of nodes"). It is required to select one of the nodes output data of which are to be received in the current workflow location.
 

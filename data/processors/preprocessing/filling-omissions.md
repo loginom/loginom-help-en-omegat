@@ -17,7 +17,7 @@
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-## The wizard
+## Wizard
 
 Настройка соответствия между столбцами проводится в интерфейсах [таблица](../../scenario/ports/interface-table.md) или [связи](../../scenario/ports/interface-relations.md).
 

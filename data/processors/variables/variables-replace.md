@@ -18,7 +18,7 @@ Sequence of the replacement algorithm actions:
 
 * ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote the variables after processing.
 
-## The wizard
+## Wizard
 
 The wizard window consists of three areas.
 

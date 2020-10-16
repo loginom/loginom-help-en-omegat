@@ -12,7 +12,7 @@ The handler transforms the list of variables to table. It is possible to place t
 
 * ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** denotes a data table.
 
-## The wizard
+## Wizard
 
 Two options of variables record are specified in the wizard:
 

@@ -1,4 +1,4 @@
-# ![Кросс-таблица](../../images/icons/components/cross-tab_default.svg) Кросс-таблица
+# ![Cross table](../../images/icons/components/cross-tab_default.svg) Cross table
 
 Обработчик создает сводную таблицу на основе исходного набора. При создании таблицы:
 
@@ -42,7 +42,7 @@ Source table:
 
 * ![Выходной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с обработанными данными.
 
-## The wizard
+## Wizard
 
 Окно мастера поделено на две области: доступные поля (слева) и выбранные поля (справа).
 

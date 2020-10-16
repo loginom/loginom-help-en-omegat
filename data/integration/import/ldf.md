@@ -14,7 +14,7 @@ LGD is a special format of files optimized for work in Loginom. It provides the 
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
 
-## The wizard
+## Wizard
 
 * **File storage** enables to display information on method of connection to the source file.
 * **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.

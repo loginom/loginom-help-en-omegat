@@ -9,7 +9,7 @@ This page can be opened in two ways:
 
 ## Interface
 
-* ![ ](..\images\icons\toolbar-controls\new_default.svg) **Create** enables to open a window to set a path and name of the new *Package*, it also enables to open this empty *Package* after saving. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
+* ![ ](..\images\icons\toolbar-controls\new_default.svg) **New** enables to open a window to set a path and name of the new *Package*, it also enables to open this empty *Package* after saving. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
    * ![ ](..\images\icons\toolbar-controls\temporary_default.svg) **New Draft** enables to create a temporary *Package* without current saving.
 * ![ ](..\images\icons\toolbar-controls\open_default.svg) **Open** enables to open the selection window of the existing *Package*.
 * ![ ](..\images\icons\toolbar-controls\save_default.svg) **Save** enables to save the selected *Package*. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
@@ -30,8 +30,8 @@ When closing the *Package* with unsaved changes, you will be requested to save i
 
 Opened *Packages* are listed in the table:
 
-* **Name** is a name of the *Package*. It complies with the file name without extension set to the proper identifier.
-* **Path** is a path to the opened *Package*. The path is specified from the root directory in the server version. The absolute path is specified for the Desktop version. More detailed information is provided in the [file storage](../location_user_files.md).
+* **Name** is a name of the *Package*. It complies with the file name without extension set to the correct identifier.
+* **Path** is a path to the opened *Package*. The path is specified from the root directory in the server edition. The absolute path is specified for the Desktop version. More detailed information is provided in the [file storage](../location_user_files.md).
 * **Version** is a version of the opened *Package*. It is configured in its *Properties*.
 * **Published** shows whether the *Package* was published.
 
@@ -60,7 +60,7 @@ Hotkeys are available for some commands:
 * %kbd Ctrl O % — open the *Package*;
 * %kbd Ctrl S % — save the *Package*;
 * %kbd Ctrl Shift S % — save all *Packages*;
-* %kbd Alt P % — publication.
+* %kbd Alt P % — publishing.
 
 ## Package Properties
 

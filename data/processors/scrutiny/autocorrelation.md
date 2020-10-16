@@ -25,7 +25,7 @@ Source table:
 | Saturday | 02.09.2017 | 26 |
 | Sunday | 03.09.2017 | 24 |
 
-The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set the ![ ](../../images/icons/usage-types/active_default.svg) "Used" parameter in the input port settings. The lag count is equal to ten in the wizard.
+The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set ![ ](../../images/icons/usage-types/active_default.svg) "Used" parameter in the input port settings. The lag count is equal to ten in the wizard.
 
 Output table:
 
@@ -48,11 +48,11 @@ Output table:
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). The ![ ](../../images/icons/usage-types/active_default.svg) "Used" value is set in the settings of this port for the fields for which it is required to calculate autocorrelation. Only numeric fields are suitable for this purpose.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). ![ ](../../images/icons/usage-types/active_default.svg) "Used" value is set in the settings of this port for the fields for which it is required to calculate autocorrelation. Only numeric fields are suitable for this purpose.
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set The table has the following structure:
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set. The table has the following structure:
    * Required fields:
       * **Lag** means the lag count to which the source series of numbers is moved relative to its copy.
       * **ACF** means autocorrelation coefficients for each lag.
@@ -61,13 +61,13 @@ Output table:
    * There are the following fields the availability of which is set by a user:
       * **PACF** means partial autocorrelation function coefficients. To add this field, it is required to place corresponding flag in the wizard.
 
-## The wizard
+## Wizard
 
-provides three settings:
+It provides three settings:
 
 * **Lag count** defines the maximum shift (lag) of the source series of numbers relative to its copy. The autocorrelation coefficient is further calculated for each lag count. The lag count cannot exceed the row count in the source table.
 * ACF calculation area:
-   * **Time** is recommended when small lag count processing.
-   * **Frequency** is recommended when large lag count processing to speed up the calculation process.
+   * **Time** is recommended in the case of the small lag count processing.
+   * **Frequency** is recommended in the case of the large lag count processing to speed up the calculation process.
    * **Auto **: the handler will define the calculation area according to the lag count independently.
 * **Calculate PACF**: availability of this flag adds calculation of partial autocorrelation function. Its distinctive feature is exclusion of the correlation dependence between the observations inside the lags, namely, partial autocorrelation function in each lag differs from the standard autocorrelation function by the value of remote autocorrelations with smaller time lags. Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.

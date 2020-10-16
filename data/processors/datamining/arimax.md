@@ -48,7 +48,7 @@
    * Число [степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html) модели (ModelDF)
    * Число степеней свободы остатков (ResDF)
 
-## The wizard
+## Wizard
 
 ### Step 1. Настройка входных столбцов
 

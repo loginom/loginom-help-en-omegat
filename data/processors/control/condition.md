@@ -22,7 +22,7 @@ Primarily, there are no input and output [ports](../../scenario/ports/README.md)
 * ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote a set of variables.
 * ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** denotes a data table.
 
-## The wizard
+## Wizard
 
 ### Step 1. Configuration of the Node Ports
 

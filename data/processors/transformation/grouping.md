@@ -38,7 +38,7 @@ Source table:
 
 * ![Выходной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — порт отдающий сгруппированную таблицу.
 
-## The wizard
+## Wizard
 
 Окно мастера поделено на две области.
 
