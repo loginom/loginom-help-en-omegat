@@ -15221,8 +15221,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Применим автокорреляционный анализ к полю "Продано билетов в кино, тысяч шт.", задав ему параметр &lt;x1/&gt; &lt;x2/&gt; "Используемое" в настройках входного порта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T100433Z" creationid="Марианна" creationdate="20201011T100433Z">
-        <seg>The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set the &lt;x1/&gt; &lt;x2/&gt; "Used" parameter in the input port settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T133829Z" creationid="Марианна" creationdate="20201011T100433Z">
+        <seg>The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set &lt;x1/&gt; &lt;x2/&gt; "Used" parameter in the input port settings.</seg>
       </tuv>
     </tu>
     <tu>
