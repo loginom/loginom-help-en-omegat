@@ -32,7 +32,7 @@ The following data are set below:
 The following buttons are used to edit the list of fields :
 * ![](../../../images/icons/toolbar-controls/moveup_default.svg)/![](../../../images/icons/toolbar-controls/movedown_default.svg) moves the selected field defining its position in the list of fields of the created table;
 * ![](../../../images/icons/toolbar-controls/plus_default.svg) adds a new field to the table;
-* ![](../../../images/icons/toolbar-controls/autosync_default.svg) sets the list and parameters of fields as in the table connected to the input port of the handler;
+* ![](../../../images/icons/toolbar-controls/autosync_default.svg) sets the list and features of fields as in the table connected to the input port of the handler;
 * ![](../../../images/icons/toolbar-controls/delete-all_default.svg) deletes all fields in the new table.
 
 ## SQL Query

@@ -56,7 +56,7 @@ Changes in the code area are saved on exit.
 
 ### Fields/variables
 
-The area contains the list of fields and variables supplied to the handler input. The list and parameters of fields/variables are defined when configuring input ports of the handler.
+The area contains the list of fields and variables supplied to the handler input. The list and features of fields/variables are defined when configuring input ports of the handler.
 
 Double click on the list item position enables to enter the field/variable name to the expression code area. The Drag-and-Drop method enables to perform the same actions.
 

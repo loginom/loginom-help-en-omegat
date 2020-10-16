@@ -41,7 +41,7 @@ The supernode accepts information by means of input ports, performs processing a
 * Калькулятор JS
 * [Cross table](./transformation/cross-table.md)
 * [Union](./transformation/union.md)
-* [Parameters of fields](./transformation/fields-parameters.md)
+* [Features of fields](./transformation/fields-parameters.md)
 * [Ungroup](./transformation/ungrouping.md)
 * [Collapse columns](./transformation/rollup-columns.md)
 * [Lag](./transformation/sliding-window.md)
