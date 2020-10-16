@@ -9137,6 +9137,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В диалоге помимо редактирования &lt;x3/&gt;стандартных параметров&lt;x4/&gt; поля задается параметр кэширования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T073635Z" creationid="Марианна" creationdate="20201016T073635Z">
+        <seg>The dialog enables not only to edit the &lt;x3/&gt;standard field features&lt;x4/&gt; but also to set the caching parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В закладке Подробно содержится информация о приложении (типа Версия продукта X.X.X, где X.X.X  –  номер версии; Версия файла: X.X.X.Y - см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T073910Z" creationid="Марианна" creationdate="20200819T073910Z">
@@ -10315,6 +10323,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083340Z" creationid="Марианна" creationdate="20201006T083340Z">
         <seg>Double click on the field enables to open the "Aggregation selection" window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Двойным кликом по выбранному полю вызывается диалог редактирования его параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T073457Z" creationid="Марианна" creationdate="20201016T073457Z">
+        <seg>Double click on the selected field calls the dialog to edit its features.</seg>
       </tuv>
     </tu>
     <tu>
