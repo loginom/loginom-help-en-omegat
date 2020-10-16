@@ -9483,8 +9483,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В серверной версии путь указывается от корневого каталога.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T133330Z" creationid="Марианна" creationdate="20200816T133330Z">
-        <seg>The path is specified from the root directory in the server version.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201016T125631Z" creationid="Марианна" creationdate="20200816T133330Z">
+        <seg>The path is specified from the root directory in the server edition.</seg>
       </tuv>
     </tu>
     <tu>
