@@ -9339,8 +9339,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В отдельных вариантах порог дисперсии может достигать 85-90%.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201013T155616Z" creationid="Марианна" creationdate="20201013T155616Z">
-        <seg>In some cases the variance threshold can reach 85-90%.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201017T193658Z" creationid="Марианна" creationdate="20201013T155616Z">
+        <seg>In some cases, the variance threshold can reach 85-90%.</seg>
       </tuv>
     </tu>
     <tu>
