@@ -9785,8 +9785,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Включает список флагов, позволяющих выбрать коэффициенты для оценки корреляции:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T073458Z" creationid="Марианна" creationdate="20201012T073458Z">
-        <seg>includes the list of flags that enable to select coefficients for correlation estimation:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201017T192508Z" creationid="Марианна" creationdate="20201012T073458Z">
+        <seg>It includes the list of flags that enable to select coefficients for correlation estimation:</seg>
       </tuv>
     </tu>
     <tu>
