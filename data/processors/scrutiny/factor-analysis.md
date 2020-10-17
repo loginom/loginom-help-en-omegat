@@ -56,7 +56,7 @@ Table of factor loadings:
 
 ## Wizard
 
-* Criterion of Factors Significance:
+* Criterion of factors significance:
    * **By own value**: only factors with own values equal or exceeding 1 are selected. It is considered that the factors with the value less than 1 don't contribute significantly to the result explanation.
    * **By variance**: factors are selected by the rate of the explained variance. In this case, it is required to select the number of factors that in sum would enable to explain not less than 70-75% of variance. In some cases the variance threshold can reach 85-90%.
    * **Set the factor number**: the number of the significant factors is selected by an analyst independently.
