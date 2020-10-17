@@ -13797,8 +13797,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Первым этапом факторного анализа является выбор новых признаков, которые являются линейными комбинациями прежних и "вбирают" в себя большую часть общей изменчивости входных факторов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T202040Z" creationid="Марианна" creationdate="20201012T202040Z">
-        <seg>At the first stage of the factor analysis it is required to select new indicators that are linear combinations of the previous ones. They "absorb" the most part of the total variableness of the input factors.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201017T193129Z" creationid="Марианна" creationdate="20201012T202040Z">
+        <seg>At the first stage of the factor analysis, it is required to select new indicators that are linear combinations of the previous ones. They "absorb" the most part of the total variableness of the input factors.</seg>
       </tuv>
     </tu>
     <tu>
