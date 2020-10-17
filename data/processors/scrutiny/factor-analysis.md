@@ -47,7 +47,7 @@ Table of factor loadings:
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). It is required to set the ![ ](../../images/icons/usage-types/active_default.svg) "Used" designation in the settings of this port for the fields the data of which are subject to the factor analysis.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). It is required to set ![ ](../../images/icons/usage-types/active_default.svg) "Used" designation in the settings of this port for the fields the data of which are subject to the factor analysis.
 
 ### Output
 
