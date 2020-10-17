@@ -60,7 +60,7 @@ As shown in the table, the sale series of the "Tomato paste" item of goods is di
 
 ## Wizard
 
-includes the list of flags that enable to select coefficients for correlation estimation:
+It includes the list of flags that enable to select coefficients for correlation estimation:
 
 * **Pearson correlation coefficient** enables to determine the strength and direction of the linear relationship between two processes that occur simultaneously.
 * **Kendall's Tau-b coefficient** is a rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked. It is recommended to use for categorical data.
