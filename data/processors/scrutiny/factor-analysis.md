@@ -14,7 +14,7 @@ Let's perform the factor analysis of the small table that contains some statisti
 
 Source table:
 
-| Region | Population (thous. people) | Proportion of the urban population, % | employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
+| Region | Population (thous. people) | Proportion of the urban population, % | People employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
 | :-------- | --------: | --------: | --------: | --------: |
 | The Tambov Region | 1269 | 58,4 | 532,4 | 1187,1 |
 | The Penza Region | 1531 | 64,6 | 674,5 | 936,8 |
@@ -24,7 +24,7 @@ Source table:
 
 Table of factors:
 
-| Factor 1 | Factor 2 | Region | Population (thous. people) | Proportion of the urban population, % | employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
+| Factor 1 | Factor 2 | Region | Population (thous. people) | Proportion of the urban population, % | People employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
 | -------------: | -------------: | :------------ | ------------------------------------: | ---------------------------------------------------: | ------------------------------------------------------: | ----------------------------------------------------: |
 | 0,13 | -0,47 | The Tambov Region | 1269 | 58,4 | 532,4 | 1187,1 |
 | 0,51 | -0,49 | The Penza Region | 1531 | 64,6 | 674,5 | 936,8 |
@@ -38,7 +38,7 @@ Table of factor loadings:
 | :---------- | -------------: | -------------: |
 | Population (thous. people) | 0,98 | -0,05 |
 | Proportion of the urban population, % | 0,40 | 0,77 |
-| employed in the economic sphere (thous. people) | 0,98 | 0,04 |
+| People employed in the economic sphere (thous. people) | 0,98 | 0,04 |
 | Per capita income (rub./mon.) | -0,33 | 0,82 |
 
 %/spoiler%
