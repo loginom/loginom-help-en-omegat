@@ -11829,8 +11829,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Итоговый набор в порту "Переменные" содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T104523Z" creationid="Марианна" creationdate="20201009T104523Z">
-        <seg>The final set in the "Variables" port contains a list of all variable. Their values are calculated taking into account the priority specified above.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T105212Z" creationid="Марианна" creationdate="20201009T104523Z">
+        <seg>The final set in the "Variables" port contains a list of all variables. Their values are calculated taking into account the priority specified above.</seg>
       </tuv>
     </tu>
     <tu>
