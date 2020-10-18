@@ -8985,6 +8985,28 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|КТУ|Кластер|
+|:-|-:|
+|&gt; 0.8|1|
+|&gt; 0.8|1|
+|0.5 - 0.8|2|
+|0.5 - 0.8|2|
+|0.2 - 0.5|3|
+|&lt; 0.2|4|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160335Z" creationid="Марианна" creationdate="20201018T160335Z">
+        <seg>|Labor participation coefficient|Cluster|
+|:-|-:|
+|&gt; 0.8|1|
+|&gt; 0.8|1|
+|0.5 - 0.8|2|
+|0.5 - 0.8|2|
+|0.2 - 0.5|3|
+|&lt; 0.2|4|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|ФИО|Год рождения|КТУ|Кластер|
 |:-|:-|:-|-:|
 |Абрамов|1972 г.|&gt; 0.8|1|
@@ -10187,6 +10209,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200923T201547Z" creationid="Марианна" creationdate="20200923T201547Z">
         <seg>The active branch is detected as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Главная таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160505Z" creationid="Марианна" creationdate="20201018T160505Z">
+        <seg>Main table:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15363,6 +15393,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Присоединяемая таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160351Z" creationid="Марианна" creationdate="20201018T160351Z">
+        <seg>Joined table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Присутствует для различных пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085213Z" creationid="Марианна" creationdate="20200814T085213Z">
@@ -15623,6 +15661,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T105923Z" creationid="Марианна" creationdate="20200916T105923Z">
         <seg>It is required to unload data processing and analysis results to the external sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующая таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160218Z" creationid="Марианна" creationdate="20201018T160218Z">
+        <seg>Resulting table:</seg>
       </tuv>
     </tu>
     <tu>
