@@ -8985,6 +8985,38 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|ФИО|Год рождения|КТУ|Кластер|
+|:-|:-|:-|-:|
+|Абрамов|1972 г.|&gt; 0.8|1|
+|Авдеева|1956 г.|&gt; 0.8|1|
+|Агафонов|1978 г.|0.5 - 0.8|2|
+|Аксёнова|1979 г.|0.5 - 0.8|2|
+|Александров|1980 г.|0.2 - 0.5|3|
+|Алексеев|1983 г.|&lt; 0.2|4|
+|Андреева|1982 г.|&amp;#60;null&gt;|&amp;#60;null&gt;|
+|Анисимов|1963 г.|&amp;#60;null&gt;|&amp;#60;null&gt;|
+|Антонов|1984 г.|&amp;#60;null&gt;|&amp;#60;null&gt;|
+|Артемьев|1965 г.|&amp;#60;null&gt;|&amp;#60;null&gt;|
+%/spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160158Z" creationid="Марианна" creationdate="20201018T160158Z">
+        <seg>|Full name|Year of birth|Labor participation coefficient|Cluster|
+|:-|:-|:-|-:|
+|Abramov|1972|&gt; 0.8|1|
+|Avdeyeva|1956|&gt; 0.8|1|
+|Agafonov|1978|0.5 - 0.8|2|
+|Aksenova|1979|0.5 - 0.8|2|
+|Aleksandrov|1980|0.2 - 0.5|3|
+|Alekseyev|1983|&lt; 0.2|4|
+|Andreyeva|1982|&amp;#60;null&gt;|&amp;#60;null&gt;|
+|Anisimov|1963|&amp;#60;null&gt;|&amp;#60;null&gt;|
+|Antonov|1984 |&amp;#60;null&gt;|&amp;#60;null&gt;|
+|Artemyev|1965|&amp;#60;null&gt;|&amp;#60;null&gt;|
+%/spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>АКФ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100640Z" creationid="Марианна" creationdate="20201011T100640Z">
