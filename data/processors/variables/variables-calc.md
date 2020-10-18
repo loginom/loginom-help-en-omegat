@@ -82,7 +82,7 @@ Logical operations:
 * **NOT** means the Logical "NOT" operator;
 * **XOR** means the Logical "exclusive OR" operator.
 
-Comparisons Operator:
+Comparisons operator:
 
 * **=** — Equals.
 * **<>** — Not equal.

@@ -95,7 +95,7 @@ Logical operations:
 * **||** — Логическое "ИЛИ";
 * **!** — Логическое "НЕ".
 
-Comparisons Operator:
+Comparisons operator:
 
 * **=** — Equals.
 * **!=** — Не равно;
