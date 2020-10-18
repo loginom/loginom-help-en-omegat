@@ -12461,8 +12461,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Метку — название, состоящее из любых символов; является пояснением для пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T090521Z" creationid="Марианна" creationdate="20201009T090521Z">
-        <seg>Caption is a name that concists of any characters. It is a clarification for a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T093854Z" creationid="Марианна" creationdate="20201009T090521Z">
+        <seg>Caption is a name that consists of any characters. It is a clarification for a user.</seg>
       </tuv>
     </tu>
     <tu>
