@@ -13255,6 +13255,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новые порты могут быть двух типов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T161023Z" creationid="Марианна" creationdate="20201018T161023Z">
+        <seg>There are two types of the new ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нумерация итераций осуществляется с 0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204709Z" creationid="Марианна" creationdate="20200921T204709Z">
