@@ -2206,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Соединение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160922Z" creationid="Марианна" creationdate="20201018T160922Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Column Union</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Создать производный компонент — создает Производный компонент на основе выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133515Z" creationid="Марианна" creationdate="20200819T133515Z">
@@ -10711,6 +10719,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T065755Z" creationid="Марианна" creationdate="20200715T065755Z">
         <seg>The variables port is designated for receipt and transfer of variables from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для примера возьмем две таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160859Z" creationid="Марианна" creationdate="20201018T160859Z">
+        <seg>Let's consider two tables as an example.</seg>
       </tuv>
     </tu>
     <tu>
