@@ -9235,8 +9235,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T192152Z" creationid="Марианна" creationdate="20201004T192152Z">
-        <seg>New variabls are created and their values are calculated in the wizard according to the expressions set by a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T083336Z" creationid="Марианна" creationdate="20201004T192152Z">
+        <seg>New variables are created and their values are calculated in the wizard according to the expressions set by a user.</seg>
       </tuv>
     </tu>
     <tu>
