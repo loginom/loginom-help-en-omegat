@@ -27,7 +27,7 @@ The wizard window consists of three areas.
 It displays the input variables and replacement method for each variable:
 
 * **Do not replace**: no replacement is performed.
-* **Manual input**; it is required to use the replacement table.
+* **Manual input**: it is required to use the replacement table.
 
 ### Replacement Table
 

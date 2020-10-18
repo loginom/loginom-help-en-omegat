@@ -62,10 +62,10 @@ The following hotkeys duplicating the listed commands are available:
 
 ## Content of the Output Data Set
 
-The output data set will include the variables received from the fileds using the selected aggregation functions. Each output aggregation option will correspond to separate variable.
+The output data set will include the variables received from the fileds using the selected aggregation functions. Each output aggregation option will correspond to a separate variable.
 
 Names, captions and values of fields will be received as follows:
 
-* **Name** will coincide with the field name if only one function is selected. If there is more than one function, the termination corresponding to the selected function will be added to the name.
+* **Name** will coincide with the field name if only one function is selected. If there is more than one function, the ending corresponding to the selected function will be added to the name.
 * **Caption** will consist of the field name and aggregation function name.
 * **Value** is generated from all field values aggregated by the selected function.

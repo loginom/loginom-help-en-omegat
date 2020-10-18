@@ -98,7 +98,7 @@ Templates:
 * ![Date](../../images/icons/toolbar-controls/type-date_default.svg): `StrToDate("____-__-__", "YYYY-MM-DD")` will be inserted to enter the date.
 * ![Time](../../images/icons/toolbar-controls/type-time_default.svg): `StrToDate("__:__:__", "HH:NN:SS")` will be inserted to enter the time.
 
-Logical Values:
+Logical values:
 
 * **FALSE** denotes the false value.
 * **TRUE** denotes the true value.

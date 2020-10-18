@@ -111,7 +111,7 @@ Templates:
 * ![Дата](../../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлена конструкция создания объекта, содержащего текущую дату. Пример: `new Date(2020, 1, 5)`;
 * ![Время](../../../images/icons/toolbar-controls/type-time_default.svg) — для ввода даты/времени, будет вставлена конструкция создания объекта, содержащего текущее дата/время. Пример: `new Date(2020, 1, 5, 13, 12, 50, 100)`.
 
-Logical Values:
+Logical values:
 
 * **false** — Ложь;
 * **true** — Истина.
