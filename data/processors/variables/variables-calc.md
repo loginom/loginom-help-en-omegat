@@ -1,4 +1,4 @@
-# ![Calculator-variables](../../images/icons/components/calc-variables_default.svg) Calculator (variables)
+# ![Calculator-Variables](../../images/icons/components/calc-variables_default.svg) Calculator (Variables)
 
 The handler is designated for mathematical operations with variables. New variabls are created and their values are calculated in the wizard according to the expressions set by a user.
 
