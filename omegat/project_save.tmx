@@ -8163,8 +8163,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ввод вручную&lt;x2/&gt; — использовать таблицу замен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T163156Z" creationid="Марианна" creationdate="20201006T163156Z">
-        <seg>&lt;x1/&gt;Manual input&lt;x2/&gt;; it is required to use the replacement table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T085355Z" creationid="Марианна" creationdate="20201006T163156Z">
+        <seg>&lt;x1/&gt;Manual input&lt;x2/&gt;: it is required to use the replacement table.</seg>
       </tuv>
     </tu>
     <tu>
