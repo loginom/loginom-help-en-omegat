@@ -14213,8 +14213,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>По умолчанию для нового выражения назначается метка &lt;x3/&gt;ВыражениеN&lt;x4/&gt; и имя &lt;x5/&gt;ExprN&lt;x6/&gt;, где &lt;x7/&gt;N&lt;x8/&gt; — номер, обеспечивающий уникальность.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T083848Z" creationid="Марианна" creationdate="20201005T162146Z">
-        <seg>&lt;x3/&gt;ExpressionN&lt;x4/&gt; caption and &lt;x5/&gt;ExprN&lt;x6/&gt; name are assigned to the new expression by default where &lt;x7/&gt;N&lt;x8/&gt; is number providing uniqueness.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T083912Z" creationid="Марианна" creationdate="20201005T162146Z">
+        <seg>&lt;x3/&gt;ExpressionN&lt;x4/&gt; caption and &lt;x5/&gt;ExprN&lt;x6/&gt; name are assigned to the new expression by default where &lt;x7/&gt;N&lt;x8/&gt; is a number providing uniqueness.</seg>
       </tuv>
     </tu>
     <tu>
