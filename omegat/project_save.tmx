@@ -7499,8 +7499,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; переменной.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T093917Z" creationid="Марианна" creationdate="20201009T090558Z">
-        <seg>The Variable &lt;x1/&gt;Data Type&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T093951Z" creationid="Марианна" creationdate="20201009T090558Z">
+        <seg>The Variable &lt;x1/&gt;data type&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
