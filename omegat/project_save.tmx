@@ -11177,8 +11177,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если функций было больше одной, то к имени добавится окончание, соответствующее выбранной функции.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T085600Z" creationid="Марианна" creationdate="20201006T085600Z">
-        <seg>If there is more than one function, the termination corresponding to the selected function will be added to the name.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T085121Z" creationid="Марианна" creationdate="20201006T085600Z">
+        <seg>If there is more than one function, the ending corresponding to the selected function will be added to the name.</seg>
       </tuv>
     </tu>
     <tu>
