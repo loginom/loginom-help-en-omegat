@@ -46,7 +46,7 @@ When adding and editing expressions, the dialog of parameters editing is display
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
-When you first open the wizard, the list of expressions contains one real item with `Expr0` name. `ExpressionN` caption and `ExprN` name are assigned for the new expression by default where `N` is number providing uniqueness.
+When you first open the wizard, the list of expressions contains one real item with `Expr0` name. `ExpressionN` caption and `ExprN` name are assigned to the new expression by default where `N` is a number providing uniqueness.
 
 ### The Expression Code Area
 
