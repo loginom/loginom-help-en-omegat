@@ -1,6 +1,6 @@
 # ![Calculator-Variables](../../images/icons/components/calc-variables_default.svg) Calculator (Variables)
 
-The handler is designated for mathematical operations with variables. New variabls are created and their values are calculated in the wizard according to the expressions set by a user.
+The handler is designated for mathematical operations with variables. New variables are created and their values are calculated in the wizard according to the expressions set by a user.
 
 > **Important:** Values of the expressions are calculated in the order in which they are stated in the expressions list, namely, the expressions that are higher in the list are calculated first. It is allowed to use only the expressions that are higher in the list in the expression formula. Consequently, incorrect list item position can cause a mistake.
 
@@ -21,7 +21,7 @@ The wizard window includes the following areas:
 1. [List of expressions](#spisok-vyrazheniy);
 2. [The expression code area](#oblast-koda-vyrazheniya);
 3. [Variables](#peremennye);
-4. [List of functions](#spisok-funktsiy).
+4. [List of functions](#spisok-funktsiy)
 
 ### List of Expressions
 

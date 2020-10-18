@@ -18,7 +18,7 @@ The wizard window includes the following areas:
 1. [List of expressions](#spisok-vyrazheniy);
 2. [The expressions code area](#oblast-koda-vyrazheniya);
 3. [Fields/variables](#polyaperemennye);
-4. [List of functions](#spisok-funktsiy).
+4. [List of functions](#spisok-funktsiy)
 
 ### List of Expressions
 
