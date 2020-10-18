@@ -11837,8 +11837,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T103915Z" creationid="Марианна" creationdate="20201006T085022Z">
-        <seg>Each output aggregation option will correspond to separate variable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T084956Z" creationid="Марианна" creationdate="20201006T085022Z">
+        <seg>Each output aggregation option will correspond to a separate variable.</seg>
       </tuv>
     </tu>
     <tu>
