@@ -24,7 +24,7 @@ Parameters of the Package in which the Derived Component is used:
 | DerivedPackageFileName | Package file | /user/ProjectName/scripts/main.lgp |
 | DerivedPackageFilePath | Path to the package file | /user/ProjectName/scripts/ |
 
-## Session variables
+## Session Variables
 
 | Name | Description | Example |
 | :---- | :---- | :---- |
