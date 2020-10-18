@@ -1,6 +1,6 @@
 # ![Variable Union](../../images/icons/components/unionvariables_default.svg) Variable Union
 
-The handler is designated for union of two and more sets of variables into one set.
+The handler is designated for combination of two and more sets of variables into one set.
 
 If names of the variables from different sets coincide, names of such variables in the output data set will be supplemented by unique numbers. If the variable name ends with a digit, in this case, names of these variables are numbered in an ascending order in the output data set.
 
