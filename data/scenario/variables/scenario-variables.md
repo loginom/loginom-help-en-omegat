@@ -38,4 +38,4 @@ For example:
 * System variable USERNAME="PC-01$";
 * User variable USERNAME="Ivanov".
 
-The final set in the "Variables" port contains a list of all variables. Their values are calculated taking into account the priority specified above. The value of the*USERNAME* variable in it will be "Ivanov".
+The final set in the "Variables" port contains a list of all variables. Their values are calculated taking into account the priority specified above. The value of the *USERNAME* variable in it will be "Ivanov".
