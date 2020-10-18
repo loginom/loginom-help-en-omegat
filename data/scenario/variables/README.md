@@ -14,13 +14,13 @@ It is possible to create variables using one of the following methods:
 When creating the variable, it is required to set the following information:
 
 * The name must be unique in one set of variables. It can consist of the capital or lower case Latin letters, underscore characters and digits. The first name character can't be a digit. The name is used to specify the variable in the calculator expressions.
-* Caption is a name that concists of any characters. It is a clarification for a user.
-* The Variable [Data Type](../../data/datatype.md)
-* Value
+* Caption is a name that consists of any characters. It is a clarification for a user.
+* The Variable [data type](../../data/datatype.md).
+* Value.
 
 The ports interacting with the sets of variables are graphically displayed as follows:
 
-* ![](../../images/icons/app/node/ports/inputs/variable_inactive.svg) — input oprt;
+* ![](../../images/icons/app/node/ports/inputs/variable_inactive.svg) — input port;
 * ![](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — output port.
 
 > **Important:** The outpot port for variables can have a connection line only with the input port for variables.
