@@ -9611,8 +9611,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В узлах компонентов &lt;x1/&gt;Калькулятор (переменные)&lt;x2/&gt; и &lt;x3/&gt;Таблица в переменные&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T085613Z" creationid="Марианна" creationdate="20201009T085613Z">
-        <seg>in the following components nodes: &lt;x1/&gt;Calculator (variables)&lt;x2/&gt; and &lt;x3/&gt;Table to variables.&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T093701Z" creationid="Марианна" creationdate="20201009T085613Z">
+        <seg>in the following components nodes: &lt;x1/&gt;Calculator (variables)&lt;x2/&gt; and &lt;x3/&gt;Table to variables&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
