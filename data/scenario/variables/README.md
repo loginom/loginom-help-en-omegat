@@ -9,7 +9,7 @@ to set parameters of the node settings.
 It is possible to create variables using one of the following methods:
 
 * in the settings of the output port "User variables" in the upper left corner of the Workflow construction area;
-* in the following components nodes: [Calculator (variables)](../../processors/variables/variables-calc.md) and [Table to variables.](../../processors/variables/variables-from-table.md).
+* in the following components nodes: [Calculator (variables)](../../processors/variables/variables-calc.md) and [Table to variables](../../processors/variables/variables-from-table.md).
 
 When creating the variable, it is required to set the following information:
 
