@@ -13293,8 +13293,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Обработчик предназначен для объединения двух или более наборов переменных в один набор.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T151815Z" creationid="Марианна" creationdate="20201006T151815Z">
-        <seg>The handler is designated for union of two and more sets of variables into one set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T091221Z" creationid="Марианна" creationdate="20201006T151815Z">
+        <seg>The handler is designated for combination of two and more sets of variables into one set.</seg>
       </tuv>
     </tu>
     <tu>
