@@ -8994,8 +8994,8 @@ WHERE</seg>
 |0.2 - 0.5|3|
 |&lt; 0.2|4|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T160335Z" creationid="Марианна" creationdate="20201018T160335Z">
-        <seg>|Labor participation coefficient|Cluster|
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160525Z" creationid="Марианна" creationdate="20201018T160335Z">
+        <seg>|KTU|Cluster|
 |:-|-:|
 |&gt; 0.8|1|
 |&gt; 0.8|1|
@@ -9003,6 +9003,36 @@ WHERE</seg>
 |0.5 - 0.8|2|
 |0.2 - 0.5|3|
 |&lt; 0.2|4|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|ФИО|Год рождения|
+|:-|:-|
+|Абрамов|1972 г.|
+|Авдеева|1956 г.|
+|Агафонов|1978 г.|
+|Аксёнова|1979 г.|
+|Александров|1980 г.|
+|Алексеев|1983 г.|
+|Андреева|1982 г.|
+|Анисимов|1963 г.|
+|Антонов|1984 г.|
+|Артемьев|1965 г.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160749Z" creationid="Марианна" creationdate="20201018T160749Z">
+        <seg>|Full name|Year of birth|
+|:-|:-|
+|Abramov|1972|
+|Avdeyeva|1956|
+|Agafonov|1978|
+|Aksenova|1979|
+|Aleksandrov|1980|
+|Alekseyev|1983|
+|Andreyeva|1982|
+|Anisimov|1963|
+|Antonov|1984|
+|Artemyev|1965|</seg>
       </tuv>
     </tu>
     <tu>
@@ -9021,8 +9051,8 @@ WHERE</seg>
 |Артемьев|1965 г.|&amp;#60;null&gt;|&amp;#60;null&gt;|
 %/spoiler%</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T160158Z" creationid="Марианна" creationdate="20201018T160158Z">
-        <seg>|Full name|Year of birth|Labor participation coefficient|Cluster|
+      <tuv lang="en" changeid="Марианна" changedate="20201018T160517Z" creationid="Марианна" creationdate="20201018T160158Z">
+        <seg>|Full name|Year of birth|KTU|Cluster|
 |:-|:-|:-|-:|
 |Abramov|1972|&gt; 0.8|1|
 |Avdeyeva|1956|&gt; 0.8|1|
