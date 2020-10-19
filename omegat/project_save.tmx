@@ -17667,6 +17667,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>только в первую строку, а в остальных строках для полей строкового и переменного типа будет выведено значение null, для полей остальных типов данных -  пустая ячейка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T064836Z" creationid="Марианна" creationdate="20201019T064836Z">
+        <seg>only to the first row, and the null value will be displayed in other rows for the fileds related to the string and variable types, for the fields related to other types - empty cell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>функции в соответствии с синтаксическим описанием (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165513Z" creationid="Марианна" creationdate="20201005T165513Z">
