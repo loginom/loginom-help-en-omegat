@@ -4169,8 +4169,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение до наибольшего набора&lt;x2/&gt; — предлагается выбрать один из вариантов дополнения наименьших по количеству записей таблиц:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T065357Z" creationid="Марианна" creationdate="20201019T065357Z">
-        <seg>&lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; — предлагается выбрать один из вариантов дополнения наименьших по количеству записей таблиц:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070136Z" creationid="Марианна" creationdate="20201019T065357Z">
+        <seg>&lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt;: it is required to select one of the options of filling of the table records least in number:</seg>
       </tuv>
     </tu>
     <tu>
