@@ -15761,8 +15761,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>С помощью обработчика &lt;x1/&gt;Соединение&lt;x2/&gt; исходный набор данных дополняется полями присоединяемых наборов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T060655Z" creationid="Марианна" creationdate="20201019T060655Z">
-        <seg>by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler исходный набор данных дополняется полями присоединяемых наборов.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061043Z" creationid="Марианна" creationdate="20201019T060655Z">
+        <seg>The source data set is complemented by the fields of the joined data sets by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler.</seg>
       </tuv>
     </tu>
     <tu>
