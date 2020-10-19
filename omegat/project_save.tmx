@@ -5607,6 +5607,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Определяется набором&lt;x2/&gt; - при выборе данного варианта становится доступен список &lt;x3/&gt;Набор данных, определяющий набор строк&lt;x4/&gt;, в нем необходимо выбрать набор, в соответствии с которым будет определяться количество строк результирующего набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T071153Z" creationid="Марианна" creationdate="20201019T071153Z">
+        <seg>&lt;x1/&gt;Data set defined&lt;x2/&gt;: when selecting this option, the &lt;x3/&gt;Data set defining row count&lt;x4/&gt; list becomes available. It is required to select a data set in it according to which the row count of the resulting data set will be defined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Опубликован&lt;x2/&gt; — указывает, был ли опубликован &lt;x3/&gt;Пакет&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133741Z" creationid="Марианна" creationdate="20200816T133741Z">
@@ -13963,6 +13971,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T203723Z" creationid="Марианна" creationdate="20200921T203723Z">
         <seg>Parallel processing is not supported by the postcondition loop.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр &lt;x1/&gt;Дополнение до наибольшего набора&lt;x2/&gt; выставлен в значение &lt;x3/&gt;Не дополнять&lt;x4/&gt;, параметр &lt;x5/&gt;Количество строк соответствует&lt;x6/&gt; — в значение &lt;x7/&gt;Максимальному набору&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T071542Z" creationid="Марианна" creationdate="20201019T071542Z">
+        <seg>&lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; parameter is set to &lt;x3/&gt;Leave empty&lt;x4/&gt; value, &lt;x5/&gt;Row count complies&lt;x6/&gt; parameter — to &lt;x7/&gt;With maximum data set&lt;x8/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
