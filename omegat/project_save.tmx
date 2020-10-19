@@ -4167,6 +4167,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дополнение до наибольшего набора&lt;x2/&gt; — предлагается выбрать один из вариантов дополнения наименьших по количеству записей таблиц:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T065357Z" creationid="Марианна" creationdate="20201019T065357Z">
+        <seg>&lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; — предлагается выбрать один из вариантов дополнения наименьших по количеству записей таблиц:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнить таблицу данными&lt;x2/&gt; — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113018Z" creationid="Марианна" creationdate="20200916T111559Z">
@@ -10687,6 +10695,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102937Z" creationid="Марианна" creationdate="20200919T102937Z">
         <seg>To configure the node visibility, it is required to install corresponding &lt;x9/&gt;Access modifier&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для настройки доступны следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T065340Z" creationid="Марианна" creationdate="20201019T065340Z">
+        <seg>The following parameters can be configured:</seg>
       </tuv>
     </tu>
     <tu>
