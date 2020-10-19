@@ -4183,6 +4183,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дополнять последней строчкой&lt;x2/&gt; — дополнение копиями последней строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070644Z" creationid="Марианна" creationdate="20201019T070644Z">
+        <seg>&lt;x1/&gt;Repeat the last row&lt;x2/&gt;: filling with the last row copies.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные поля&lt;x2/&gt; — представляет список полей входного набора данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082144Z" creationid="Марианна" creationdate="20201006T082144Z">
@@ -6083,6 +6091,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T154912Z" creationid="Марианна" creationdate="20201013T154912Z">
         <seg>&lt;x1/&gt;By own value&lt;x2/&gt;: only factors with own values equal or exceeding 1 are selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Повторять набор&lt;x2/&gt; — таблицы дополнятся копиями своих же записей, начиная с первой;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070458Z" creationid="Марианна" creationdate="20201019T070458Z">
+        <seg>&lt;x1/&gt;Repeat all rows&lt;x2/&gt;: the tables will be filled with the copies of their own records starting from the first one.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15873,8 +15889,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>С помощью обработчика &lt;x1/&gt;Соединение&lt;x2/&gt; исходный набор данных дополняется полями присоединяемых наборов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T061043Z" creationid="Марианна" creationdate="20201019T060655Z">
-        <seg>The source data set is complemented by the fields of the joined data sets by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070514Z" creationid="Марианна" creationdate="20201019T060655Z">
+        <seg>The source data set is filled with the fields of the joined data sets by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16073,8 +16089,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Соединяемые наборы могут обрезаться до количества записей меньшего набора или дополняться до наибольшего.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T061749Z" creationid="Марианна" creationdate="20201019T061749Z">
-        <seg>The joined data sets can be cut up to the number of records of the smaller data set, or they can be complemented by up to the largest one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070535Z" creationid="Марианна" creationdate="20201019T061749Z">
+        <seg>The joined data sets can be cut up to the number of records of the smaller data set, or they can be filled with up to the largest one.</seg>
       </tuv>
     </tu>
     <tu>
