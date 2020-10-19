@@ -15759,6 +15759,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью обработчика &lt;x1/&gt;Соединение&lt;x2/&gt; исходный набор данных дополняется полями присоединяемых наборов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T060655Z" creationid="Марианна" creationdate="20201019T060655Z">
+        <seg>by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler исходный набор данных дополняется полями присоединяемых наборов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
