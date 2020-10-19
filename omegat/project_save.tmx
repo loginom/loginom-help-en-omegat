@@ -15305,8 +15305,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>При этом в зависимости от настроек параметра &lt;x1/&gt;Дополнение до наибольшего набора&lt;x2/&gt; значение присоединенной переменной будет добавлено:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T063315Z" creationid="Марианна" creationdate="20201019T063315Z">
-        <seg>При этом в зависимости от настроек параметра &lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; значение присоединенной переменной будет добавлено:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T064314Z" creationid="Марианна" creationdate="20201019T063315Z">
+        <seg>In this case, according to the settings of &lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; parameter, the value of the joined variable will be added:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17255,6 +17255,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T200403Z" creationid="Марианна" creationdate="20201012T200340Z">
         <seg>they are interdependent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>во все строки нового столбца;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T064507Z" creationid="Марианна" creationdate="20201019T064507Z">
+        <seg>to all rows of the new column;</seg>
       </tuv>
     </tu>
     <tu>
