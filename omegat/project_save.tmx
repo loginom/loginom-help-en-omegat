@@ -15279,6 +15279,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом каждая запись исходного набора соединяется с записью такого же порядкового номера дополнительного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061228Z" creationid="Марианна" creationdate="20201019T061228Z">
+        <seg>In this case, each record of the source data set is joined with the record of the additional data set with the same order number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом максимальное число строк для отображения 200.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T094804Z" creationid="Марианна" creationdate="20200826T094804Z">
