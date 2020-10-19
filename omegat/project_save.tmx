@@ -1902,10 +1902,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — порт для входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T064917Z" creationid="Марианна" creationdate="20201019T064917Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt; is a port for the input data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt; — позволяет добавить к корневому узлу дочерний узел.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T114614Z" creationid="Марианна" creationdate="20201001T114614Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add child node&lt;x4/&gt; enables to add the child node to the root node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить еще один порт&lt;x4/&gt; — создает новые порты входа для присоединяемых таблиц и переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T065001Z" creationid="Марианна" creationdate="20201019T065001Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add another port&lt;x4/&gt; enables to create new input ports for the joined tables and variables.</seg>
       </tuv>
     </tu>
     <tu>
