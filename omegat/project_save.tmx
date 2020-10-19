@@ -11275,6 +11275,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если соединяемые наборы данных имеют разное количество записей, то результирующий набор может содержать пустые значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061448Z" creationid="Марианна" creationdate="20201019T061448Z">
+        <seg>If the joined data sets have different number of records, the resulting data set can contain null values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
@@ -12499,6 +12507,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165412Z" creationid="Марианна" creationdate="20201001T165412Z">
         <seg>The handler wizard is a tree view (the tree passed to output of the input port) with possibility to select some or all nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Мастер настройки предлагает различные варианты обработки данной ситуации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061541Z" creationid="Марианна" creationdate="20201019T061541Z">
+        <seg>The wizard enables to use different processing options for such situation.</seg>
       </tuv>
     </tu>
     <tu>
