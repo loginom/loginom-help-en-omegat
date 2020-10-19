@@ -4879,6 +4879,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Количество строк соответствует&lt;x2/&gt; — предлагается выбрать один из вариантов определения количества записей результирующего набора данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070832Z" creationid="Марианна" creationdate="20201019T070832Z">
+        <seg>&lt;x1/&gt;Row count complies&lt;x2/&gt;: it is required to select one of the options to determine the number of records of the resulting data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты платформы Loginom&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T092015Z" creationid="Марианна" creationdate="20200813T092015Z">
@@ -17575,6 +17583,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135752Z" creationid="Марианна" creationdate="20200814T135752Z">
         <seg>using the &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Packages&lt;x4/&gt; button in &lt;x5/&gt;Address bar&lt;x6/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>по &lt;x1/&gt;Максимальному набору&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070918Z" creationid="Марианна" creationdate="20201019T070918Z">
+        <seg>&lt;x1/&gt;With maximum data set&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>по &lt;x1/&gt;Минимальному набору&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T070924Z" creationid="Марианна" creationdate="20201019T070858Z">
+        <seg>&lt;x1/&gt;With minimum data set&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
