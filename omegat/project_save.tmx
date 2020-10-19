@@ -11951,6 +11951,22 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>К исходному набору можно присоединять переменные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061809Z" creationid="Марианна" creationdate="20201019T061809Z">
+        <seg>Variables can be added to the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Каждая из присоединяемых переменных добавляет новый столбец к исходному набору.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061917Z" creationid="Марианна" creationdate="20201019T061917Z">
+        <seg>Each of the joined variables adds a new column to the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T084956Z" creationid="Марианна" creationdate="20201006T085022Z">
@@ -15979,6 +15995,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T213635Z" creationid="Марианна" creationdate="20201012T213635Z">
         <seg>It contains the table of factor loadings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Соединяемые наборы могут обрезаться до количества записей меньшего набора или дополняться до наибольшего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T061749Z" creationid="Марианна" creationdate="20201019T061749Z">
+        <seg>The joined data sets can be cut up to the number of records of the smaller data set, or they can be complemented by up to the largest one.</seg>
       </tuv>
     </tu>
     <tu>
