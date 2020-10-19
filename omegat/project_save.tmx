@@ -2198,6 +2198,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Присоединяемая таблица &lt;x3/&gt;N&lt;x4/&gt;, где N порядковый номер таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T065229Z" creationid="Марианна" creationdate="20201019T065039Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Joined table &lt;x3/&gt;N&lt;x4/&gt; where N is an order number of the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Присоединяемые переменные &lt;x3/&gt;N&lt;x4/&gt;, где N порядковый номер порта переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T065148Z" creationid="Марианна" creationdate="20201019T065148Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Joined variables &lt;x3/&gt;N&lt;x4/&gt; where N is an order number of the variables port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Развернуть/Свернуть &lt;x3/&gt;подмодель&lt;x4/&gt; — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093617Z" creationid="Марианна" creationdate="20200819T133332Z">
@@ -3747,6 +3763,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T070004Z" creationid="Марианна" creationdate="20200924T070004Z">
         <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a data table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица с присоединенными столбцами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201019T065318Z" creationid="Марианна" creationdate="20201019T065318Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table with joined columns.</seg>
       </tuv>
     </tu>
     <tu>
