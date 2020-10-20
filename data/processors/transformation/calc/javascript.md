@@ -43,10 +43,10 @@ function pow(x, n) {
 return pow(COL1, COL2);
 ```
 
-В данном скрипте определена функция `pow(x, n)`, принимающая в качестве аргументов число и степень, в которую оно возводится.
-Для вывода результата скрипта в вычисляемое поле калькулятора используется команда `return pow(COL1, COL2)`, где `pow(COL1, COL2)` — вызов объявленной функции с передачей параметрам `х` и `n` значений из полей (или переменных) калькулятора `COL1` и `COL2` соответственно.
+`pow(x, n)` function is defined in this script. It takes number and power to which it is risen as arguments.
+To show the script result in the calculated calculator field, it is required to use the `return pow(COL1, COL2)` command where `pow(COL1, COL2)` enables to call the declared function with transfer to `х` and `n` parameters of the values from the calculator fields (or variables) `COL1` and `COL2`, correspondingly.
 
-В коде JavaScript можно использовать встроенные [функции *Калькулятора*](../../func/calc-func/README.md):
+It is possible to use built-in [functions *of Calculator*](../../func/calc-func/README.md) in the JavaScript code:
 
 ```javascript
 function my_concat(x, n) {
@@ -60,13 +60,13 @@ return s;
 return my_concat(COL1, COL2);
 ```
 
-Наименования встроенных функций *Калькулятора* и JavaScript не пересекаются. Функции *Калькулятора* всегда начинаются с большой буквы, однако, их можно переопределить в коде JS.  Явного импорта [функций *Калькулятора*](../../func/calc-func/README.md) (как это делается в [компоненте *JavaScript*](../java-script/calc-functions.md)) делать не нужно.
+Names of the built-in functions of *Calculator* and JavaScript do not intersect each other. The *Calculator* functions always start from the capital letter. However, it is possible to redefine them in the JS code.  It is not required to import [functions *of the Calculator*](../../func/calc-func/README.md) distinctly (as it is done in the [component * of JavaScript*](../java-script/calc-functions.md)).
 
-> **Примечание:** в отличии от [компонента *JavaScript*](../java-script/README.md) в *Калькуляторе* не поддерживается объект [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+> **Note:** As opposed to the [component *of JavaScript*](../java-script/README.md) in *Calculator* the [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise) object is not supported.
 
-## Импорт внешних модулей
+## Import of External Modules
 
-Как и в компоненте JavaScript поддерживаются внешние модули, но в *Калькуляторе* возможно использование только модульной системы [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1). Модульная система [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) не поддерживается. С примерами и документацией использования модулей CommonJS можно ознакомится в статье [JavaScript: Импорт внешних модулей](../../../processors/transformation/java-script/external-modules.html#modulnye-sistemy).
+External modules are supported as in the JavaScript component but it is possible to use only [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1) module systems in *Calculator*. Модульная система [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) не поддерживается. С примерами и документацией использования модулей CommonJS можно ознакомится в статье [JavaScript: Импорт внешних модулей](../../../processors/transformation/java-script/external-modules.html#modulnye-sistemy).
 
 ### Особенности применения внешних модулей
 
