@@ -10841,6 +10841,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для вывода результата в вычисляемое поле калькулятора используется команда &lt;x1/&gt;return&lt;x2/&gt;, которая возвращает значение переменной &lt;x3/&gt;result&lt;x4/&gt;, содержащей вычисленную сумму полей &lt;x5/&gt;Калькулятора&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114815Z" creationid="Марианна" creationdate="20201020T114815Z">
+        <seg>To show the result in the calculated calculator field, it is required to use the &lt;x1/&gt;return&lt;x2/&gt; command that returns the &lt;x3/&gt;result&lt;x4/&gt; variable value which contains the calculated sum of the &lt;x5/&gt;Calculator&lt;x6/&gt; fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для вызова контекстного меню порта необходимо кликнуть мышью порт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
