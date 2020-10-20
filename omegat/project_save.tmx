@@ -12399,6 +12399,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как и в компоненте JavaScript поддерживаются внешние модули, но в &lt;x1/&gt;Калькуляторе&lt;x2/&gt; возможно использование только модульной системы &lt;x3/&gt;CommonJS&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T172433Z" creationid="Марианна" creationdate="20201020T172433Z">
+        <seg>External modules are supported as in the JavaScript component but в &lt;x1/&gt;Калькуляторе&lt;x2/&gt; возможно использование только модульной системы &lt;x3/&gt;CommonJS&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как узнать версию Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161327Z" creationid="Марианна" creationdate="20200818T161327Z">
