@@ -13087,6 +13087,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Модульная система &lt;x5/&gt;ES6&lt;x6/&gt; (ECMAScript 6) не поддерживается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T190038Z" creationid="Марианна" creationdate="20201020T190038Z">
+        <seg>&lt;x5/&gt;ES6&lt;x6/&gt; module system (ECMAScript 6) is not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Может быть:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201151Z" creationid="Марианна" creationdate="20200829T200531Z">
@@ -16251,6 +16259,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
         <seg>It is possible to transform the data from tables to variables and vice versa using the special handlers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С примерами и документацией использования модулей CommonJS можно ознакомится в статье &lt;x7/&gt;JavaScript: Импорт внешних модулей&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T190158Z" creationid="Марианна" creationdate="20201020T190158Z">
+        <seg>Examples and documents related to the usage of the CommonJS modules are described in the following article: &lt;x7/&gt;JavaScript: Import of External Modules&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
