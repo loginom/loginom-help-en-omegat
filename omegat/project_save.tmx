@@ -9097,6 +9097,16 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>let path = require.resolve("foo/foo.js");
+delete require.cache[path];  // Очищается кэш модуля "foo/foo.js"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T191659Z" creationid="Марианна" creationdate="20201020T191659Z">
+        <seg>let path = require.resolve("foo/foo.js");
+delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned out.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>let s;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114336Z" creationid="Марианна" creationdate="20201020T114336Z">
