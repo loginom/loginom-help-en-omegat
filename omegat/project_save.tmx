@@ -13319,6 +13319,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наименования встроенных функций &lt;x1/&gt;Калькулятора&lt;x2/&gt; и JavaScript не пересекаются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T171450Z" creationid="Марианна" creationdate="20201020T171450Z">
+        <seg>Names of the built-in functions of &lt;x1/&gt;Calculator&lt;x2/&gt; and JavaScript do not intersect each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, вещественную переменную можно заменить целочисленной или строковой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202832Z" creationid="Марианна" creationdate="20201006T202832Z">
@@ -17375,6 +17383,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164412Z" creationid="Марианна" creationdate="20201005T164412Z">
         <seg>The expression formula can contain the following components:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функции &lt;x3/&gt;Калькулятора&lt;x4/&gt; всегда начинаются с большой буквы, однако, их можно переопределить в коде JS.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T171631Z" creationid="Марианна" creationdate="20201020T171631Z">
+        <seg>The &lt;x3/&gt;Calculator&lt;x4/&gt; functions always start from the capital letter. However, it is possible to redefine them in the JS code.</seg>
       </tuv>
     </tu>
     <tu>
