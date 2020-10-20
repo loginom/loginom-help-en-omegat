@@ -6627,6 +6627,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в отличии от &lt;x3/&gt;компонента &lt;x4/&gt;JavaScript&lt;x5/&gt;&lt;x6/&gt; в &lt;x7/&gt;Калькуляторе&lt;x8/&gt; не поддерживается объект &lt;x9/&gt;Promise&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T172006Z" creationid="Марианна" creationdate="20201020T172006Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; As opposed to the &lt;x3/&gt;component &lt;x4/&gt;of JavaScript&lt;x5/&gt;&lt;x6/&gt; in &lt;x7/&gt;Calculator&lt;x8/&gt; the &lt;x9/&gt;Promise&lt;x10/&gt; object is not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; для отображения управляющих портов необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082048Z" creationid="Марианна" creationdate="20201009T082048Z">
@@ -12027,6 +12035,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T064118Z" creationid="Марианна" creationdate="20200826T064118Z">
         <seg>Data are imported to Loginom from many sources, for example, a text file, spreadsheets, databases, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Импорт внешних модулей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T172023Z" creationid="Марианна" creationdate="20201020T172023Z">
+        <seg>Import of External Modules</seg>
       </tuv>
     </tu>
     <tu>
