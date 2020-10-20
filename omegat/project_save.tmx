@@ -4083,6 +4083,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дата&lt;x2/&gt; — для ввода даты, будет вставлена конструкция создания объекта, содержащего текущую дату.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T192346Z" creationid="Марианна" creationdate="20201020T192346Z">
+        <seg>&lt;x1/&gt;Date&lt;x2/&gt;: to enter the date, the object creation construction containing the current date will be inserted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дата&lt;x2/&gt; — для ввода даты, будет вставлено &lt;x3/&gt;StrToDate("____-__-__", "YYYY-MM-DD")&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173621Z" creationid="Марианна" creationdate="20201005T173621Z">
