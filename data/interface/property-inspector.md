@@ -13,7 +13,7 @@ The workflow fragment with the opened *Property inspector* window is shown on fi
 
 ![Property inspector](./scenario-property-inspector.png)
 
-The node properties (caption of properties) are displayed in the form of a tree.
+The node properties (captions of properties) are displayed in the form of a tree.
 
 The tree root in the *Property inspector* contains the component name used as a basis for the workflow node creation. The node caption is displayed in the *Value* column. The root tree node is always expanded. It is not possible to collapse it.
 
