@@ -2388,8 +2388,8 @@ function pow(x, n) {</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — идет процесс обработки, и время его окончания невозможно рассчитать заранее;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T063845Z" creationid="Марианна" creationdate="20200817T063845Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — processing process is in progress, and it is not possible to calculate its termination time in advance.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T193241Z" creationid="Марианна" creationdate="20200817T063845Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — processing is in progress, and it is not possible to calculate its termination time in advance.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10351,8 +10351,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Время обработки — разница между началом и концом процесса обработки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T072151Z" creationid="Марианна" creationdate="20200817T072151Z">
-        <seg>Processing time — difference between start and end of the processing process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T193314Z" creationid="Марианна" creationdate="20200817T072151Z">
+        <seg>Processing time — difference between start and end of processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14323,8 +14323,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Панель «Процессы» предназначена для получения дополнительной информации о процессах обработки данных узлами Сценариев в рамках текущей сессии Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T061506Z" creationid="Марианна" creationdate="20200817T061506Z">
-        <seg>"Processes" panel enables to receive additional information on the data processing processes by the Workflow nodes during the current Loginom session.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T193301Z" creationid="Марианна" creationdate="20200817T061506Z">
+        <seg>"Processes" panel enables to receive additional information on the data processing by the Workflow nodes during the current Loginom session.</seg>
       </tuv>
     </tu>
     <tu>
