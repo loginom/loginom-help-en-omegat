@@ -16379,8 +16379,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Свойства узла (метки свойств) отображаются в виде дерева.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T101709Z" creationid="Марианна" creationdate="20200818T101709Z">
-        <seg>The node properties (caption of properties) are displayed in the form of a tree.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T195130Z" creationid="Марианна" creationdate="20200818T101709Z">
+        <seg>The node properties (captions of properties) are displayed in the form of a tree.</seg>
       </tuv>
     </tu>
     <tu>
