@@ -286,6 +286,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Вычисление суммы полей
+let result;
+result = COL1 + COL2;
+
+return result;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T113011Z" creationid="Марианна" creationdate="20201020T113011Z">
+        <seg>// Computation of the sum of fields
+let result;
+result = COL1 + COL2;
+
+return result;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
@@ -9785,6 +9801,14 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111842Z" creationid="Марианна" creationdate="20200825T111842Z">
         <seg>The parameter is written with a colon in the query text, for example: &lt;x3/&gt;:var1&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В теле скрипта можно использовать ссылки на другие поля или переменные &lt;x1/&gt;Калькулятора&lt;x2/&gt;, в том числе новые, созданные в списке выражений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T113306Z" creationid="Марианна" creationdate="20201020T113306Z">
+        <seg>It is possible to use references to other &lt;x1/&gt;Calculator&lt;x2/&gt; fields or variables created in the expressions list, including the new ones.</seg>
       </tuv>
     </tu>
     <tu>
