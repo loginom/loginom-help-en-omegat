@@ -17075,6 +17075,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом измененное состояние объектов модуля может передаваться от вызова к вызову.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T191323Z" creationid="Марианна" creationdate="20201020T191323Z">
+        <seg>Thus, the changed state of the module objects can be transferred from call to call.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом имеется возможность создавать иерархическую структуру сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143505Z" creationid="Марианна" creationdate="20200920T143505Z">
@@ -17703,6 +17711,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T200355Z" creationid="Марианна" creationdate="20201012T200247Z">
         <seg>It is required in the cases when the input factors are correlated with each other,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это необходимо учитывать и при необходимости очищать кэш, доступный через объект &lt;x5/&gt;require.cache&lt;x6/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T191554Z" creationid="Марианна" creationdate="20201020T191554Z">
+        <seg>It is required to take into account and to clean out the cache available via &lt;x5/&gt;require.cache&lt;x6/&gt; object when required:</seg>
       </tuv>
     </tu>
     <tu>
