@@ -9537,8 +9537,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В Проводнике OC Windows навести указатель мыши на интересующее приложение (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T162349Z" creationid="Марианна" creationdate="20200818T162349Z">
-        <seg>It is required to hover a cursor over the required application in Windows Explorer (in this case: C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T195339Z" creationid="Марианна" creationdate="20200818T162349Z">
+        <seg>It is required to hover a cursor over the required application in Windows File Explorer (in this case: C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
       </tuv>
     </tu>
     <tu>
