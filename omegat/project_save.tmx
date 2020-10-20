@@ -6463,6 +6463,14 @@ return result;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T113441Z" creationid="Марианна" creationdate="20201020T113441Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Внутри &lt;x3/&gt;Подмодели&lt;x4/&gt; так же имеется возможность использовать переменные Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102929Z" creationid="Марианна" creationdate="20201009T102929Z">
