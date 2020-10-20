@@ -10351,8 +10351,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Время обработки — разница между началом и концом процесса обработки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T193314Z" creationid="Марианна" creationdate="20200817T072151Z">
-        <seg>Processing time — difference between start and end of processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T194224Z" creationid="Марианна" creationdate="20200817T072151Z">
+        <seg>Process time — difference between start and finish of processing.</seg>
       </tuv>
     </tu>
     <tu>
