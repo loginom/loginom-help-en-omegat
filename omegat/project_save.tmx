@@ -15119,6 +15119,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поскольку в &lt;x1/&gt;Калькуляторе&lt;x2/&gt; для каждой из вычисляемых ячеек таблицы происходит выполнение скрипта, то содержащийся в нем вызов &lt;x3/&gt;require&lt;x4/&gt; модуля происходит многократно и используется кэш.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T191231Z" creationid="Марианна" creationdate="20201020T191231Z">
+        <seg>As the script is executed in &lt;x1/&gt;Calculator&lt;x2/&gt; for each of the calculated table cells, the included&lt;x3/&gt;require&lt;x4/&gt; module is repeatedly called, and cache is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102924Z" creationid="Марианна" creationdate="20200716T093406Z">
