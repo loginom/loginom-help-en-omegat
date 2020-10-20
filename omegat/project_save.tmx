@@ -12747,8 +12747,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Конец — дата и время окончания процесса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T072045Z" creationid="Марианна" creationdate="20200817T072045Z">
-        <seg>End - date and time of the process end.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T194041Z" creationid="Марианна" creationdate="20200817T072045Z">
+        <seg>Finish - date and time of the process end.</seg>
       </tuv>
     </tu>
     <tu>
