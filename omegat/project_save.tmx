@@ -11511,8 +11511,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доступным способом открыть Свойства приложения (в данном случае – C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T072701Z" creationid="Марианна" creationdate="20200819T072701Z">
-        <seg>It is required to open the Application Properties using any available method (in this case, C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T195504Z" creationid="Марианна" creationdate="20200819T072701Z">
+        <seg>It is required to open the application Properties using any available method (in this case, C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
       </tuv>
     </tu>
     <tu>
