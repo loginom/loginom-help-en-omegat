@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// s = x.concat(n);        - используется метод JavaScript</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114352Z" creationid="Марианна" creationdate="20201020T114352Z">
+        <seg>// s = x.concat(n);        - the JavaScript method is used</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Вычисление суммы полей
 let result;
 result = COL1 + COL2;
@@ -8997,6 +9005,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>function my_concat(x, n) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114331Z" creationid="Марианна" creationdate="20201020T114331Z">
+        <seg>function my_concat(x, n) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>h:mm</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T160634Z" creationid="Марианна" creationdate="20200917T160634Z">
@@ -9029,6 +9045,22 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>if (n != 1) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114314Z" creationid="Марианна" creationdate="20201020T114314Z">
+        <seg>if (n != 1) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>let s;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114336Z" creationid="Марианна" creationdate="20201020T114336Z">
+        <seg>let s;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>main</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084400Z" creationid="Марианна" creationdate="20201009T084400Z">
@@ -9049,6 +9081,44 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153555Z" creationid="Марианна" creationdate="20200917T153555Z">
         <seg>mm/dd/yyyy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>return s;
+}
+
+return my_concat(COL1, COL2);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114410Z" creationid="Марианна" creationdate="20201020T114410Z">
+        <seg>return s;
+}
+
+return my_concat(COL1, COL2);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>return x * pow(x, n - 1);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114317Z" creationid="Марианна" creationdate="20201020T114317Z">
+        <seg>return x * pow(x, n - 1);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>return x;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114325Z" creationid="Марианна" creationdate="20201020T114325Z">
+        <seg>return x;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>s = Concat(x,n);       //  - используется функция калькулятора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114406Z" creationid="Марианна" creationdate="20201020T114406Z">
+        <seg>s = Concat(x,n);       //  - the calculator function is used</seg>
       </tuv>
     </tu>
     <tu>
@@ -9241,6 +9311,14 @@ WHERE</seg>
 |Antonov|1984 |&amp;#60;null&gt;|&amp;#60;null&gt;|
 |Artemyev|1965|&amp;#60;null&gt;|&amp;#60;null&gt;|
 %/spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>} else {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114322Z" creationid="Марианна" creationdate="20201020T114322Z">
+        <seg>} else {</seg>
       </tuv>
     </tu>
     <tu>
@@ -15643,6 +15721,22 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T104347Z" creationid="Марианна" creationdate="20201009T104347Z">
         <seg>For example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример: &lt;x3/&gt;new Date(2020, 1, 5)&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114447Z" creationid="Марианна" creationdate="20201020T114447Z">
+        <seg>For example: &lt;x3/&gt;new Date(2020, 1, 5)&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример: &lt;x3/&gt;new Date(2020, 1, 5, 13, 12, 50, 100)&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114432Z" creationid="Марианна" creationdate="20201020T114432Z">
+        <seg>For example: &lt;x3/&gt;new Date(2020, 1, 5, 13, 12, 50, 100)&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
