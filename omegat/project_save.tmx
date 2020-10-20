@@ -15667,8 +15667,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>При отсутствии &lt;x1/&gt;&lt;x2/&gt; показывает только активные процессы и процессы, в которых возникли ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T074026Z" creationid="Марианна" creationdate="20200817T074026Z">
-        <seg>If &lt;x1/&gt;&lt;x2/&gt; is not available, it shows only active processes and the processes in which errors occurred.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T194904Z" creationid="Марианна" creationdate="20200817T074026Z">
+        <seg>If there is no &lt;x1/&gt;&lt;x2/&gt;, it shows only active processes and the processes in which errors occurred.</seg>
       </tuv>
     </tu>
     <tu>
