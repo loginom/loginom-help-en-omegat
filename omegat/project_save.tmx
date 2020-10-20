@@ -14203,8 +14203,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Открыть Панель управления, выбрать пункт Удаление программы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T074210Z" creationid="Марианна" creationdate="20200819T074210Z">
-        <seg>It is required to open Control panel, and select Program uninstallation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T195919Z" creationid="Марианна" creationdate="20200819T074210Z">
+        <seg>It is required to open Control panel, and select Programs and Features.</seg>
       </tuv>
     </tu>
     <tu>
