@@ -9617,8 +9617,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В закладке Подробно содержится информация о приложении (типа Версия продукта X.X.X, где X.X.X  –  номер версии; Версия файла: X.X.X.Y - см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T073910Z" creationid="Марианна" creationdate="20200819T073910Z">
-        <seg>Read more tab contains information on the application (for example, application version X.X.X where X.X.X  is a version number; file version: X.X.X.Y - refer to the information</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T195657Z" creationid="Марианна" creationdate="20200819T073910Z">
+        <seg>Details tab contains information on the application (for example, application version X.X.X where X.X.X  is a version number; file version: X.X.X.Y - refer to the information</seg>
       </tuv>
     </tu>
     <tu>
