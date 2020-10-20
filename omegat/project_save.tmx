@@ -310,10 +310,30 @@ return result;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Вычисление суммы полей
+return COL1 + COL2;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115642Z" creationid="Марианна" creationdate="20201020T115642Z">
+        <seg>// Calculation of the sum of fields
+return COL1 + COL2;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
         <seg>// Example of the single-line comment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Функция вычисления степени числа
+function pow(x, n) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115814Z" creationid="Марианна" creationdate="20201020T115814Z">
+        <seg>// Function of calculation of the power of a number
+function pow(x, n) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -12509,6 +12529,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компактный вариант кода вычисления суммы полей калькулятора:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115621Z" creationid="Марианна" creationdate="20201020T115621Z">
+        <seg>Compact code variant for calculation of the calcualtor fields sum:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент &lt;x1/&gt;Выполнение узла&lt;x2/&gt; не может повторно использовать компоненты &lt;x3/&gt;Цикл&lt;x4/&gt; и &lt;x5/&gt;Узел-ссылка&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072745Z" creationid="Марианна" creationdate="20200919T072638Z">
@@ -15729,6 +15757,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T124203Z" creationid="Марианна" creationdate="20200823T124203Z">
         <seg>Example 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример вычисления степени числа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115744Z" creationid="Марианна" creationdate="20201020T115744Z">
+        <seg>Example of calculation of the power of a number:</seg>
       </tuv>
     </tu>
     <tu>
