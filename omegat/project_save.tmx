@@ -9009,6 +9009,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>const foo = require("foo/foo.js");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T190439Z" creationid="Марианна" creationdate="20201020T190439Z">
+        <seg>const foo = require("foo/foo.js");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>d</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104148Z" creationid="Марианна" creationdate="20201006T104148Z">
@@ -10959,6 +10967,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195107Z" creationid="Марианна" creationdate="20200921T195107Z">
         <seg>To loop the node, it is required to mark it with the radio button and go to the next step.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для импорта модуля CommonJS применяется функция &lt;x1/&gt;require&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T190433Z" creationid="Марианна" creationdate="20201020T190433Z">
+        <seg>To import the CommonJS module, it is required to use &lt;x1/&gt;require&lt;x2/&gt; function.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14083,6 +14099,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084040Z" creationid="Марианна" creationdate="20201009T083948Z">
         <seg>The main usage case is &lt;x1/&gt;Derived Components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Особенности применения внешних модулей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T190352Z" creationid="Марианна" creationdate="20201020T190352Z">
+        <seg>Features of External Modules Usage</seg>
       </tuv>
     </tu>
     <tu>
