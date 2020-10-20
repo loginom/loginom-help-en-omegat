@@ -1,37 +1,37 @@
 # ![](../../../images/icons/calcdata/javascript_default.svg) JavaScript
 
-При установке синтаксиса *JavaScript* область кода выражения должна содержать скрипт JavaScript.
-Следующий пример демонстрирует вычисление суммы двух полей *Калькулятора*:
+When installing the *JavaScript* syntax, the expression code area must contain JavaScript.
+The next example shows how to calculate the sum of two *Calculator* fields:
 
 ```javascript
-// Вычисление суммы полей
+// Calculation of the sum of fields
 let result;
 result = COL1 + COL2;
 
 return result;
 ```
 
-В теле скрипта можно использовать ссылки на другие поля или переменные *Калькулятора*, в том числе новые, созданные в списке выражений.
+It is possible to use references to other *Calculator* fields or variables created in the expressions list, including the new ones.
 
-> **Примечание:** В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений. Consequently, incorrect list item position can cause a mistake.
+> **Note:** It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions. Consequently, incorrect list item position can cause a mistake.
 
-В данном примере для вычисления переменной `result` используются ссылки на поля с именами `COL1` и `COL2`.
+In this example, it is required to use references to the fields with `COL1` and `COL2` names to calculate the `result` variable.
 
-Для вывода результата в вычисляемое поле калькулятора используется команда `return`, которая возвращает значение переменной `result`, содержащей вычисленную сумму полей *Калькулятора*.
+To show the result in the calculated calculator field, it is required to use the `return` command that returns the `result` variable value which contains the calculated sum of the *Calculator* fields.
 
-> **Важно:** скрипт необходимо завершать командой `return`, которая выводит результат в вычисляемое поле калькулятора. В противном случае скрипт будет выполнен, но результат не будет выведен в вычисляемое поле.
+> **Important:** the script must be finished by the `return` command that shows the result in the calculated calculator field. Otherwise, the script will be executed but the result will not be shown in the calculated field.
 
-Компактный вариант кода вычисления суммы полей калькулятора:
+Compact code variant for calculation of the calcualtor fields sum:
 
 ```javascript
-// Вычисление суммы полей
+// Calculation of the sum of fields
 return COL1 + COL2;
 ```
 
-Пример вычисления степени числа:
+Example of calculation of the power of a number:
 
 ```javascript
-// Функция вычисления степени числа
+// Function of calculation of the power of a number
 function pow(x, n) {
   if (n != 1) {
     return x * pow(x, n - 1);
@@ -39,7 +39,7 @@ function pow(x, n) {
     return x;
   }
 }
-// Вывод результата функции в поле калькулятора
+// Show the function result in the calculation field
 return pow(COL1, COL2);
 ```
 
@@ -51,8 +51,8 @@ return pow(COL1, COL2);
 ```javascript
 function my_concat(x, n) {
  let s;
- // s = x.concat(n);        - используется метод JavaScript
- s = Concat(x,n);       //  - используется функция калькулятора
+ // s = x.concat(n);        - the JavaScript method is used
+ s = Concat(x,n);       //  - the calculator function is used
 
 return s;
 }
@@ -91,14 +91,14 @@ delete require.cache[path];  // Очищается кэш модуля "foo/foo.
 
 Logical operations:
 
-* **&&** — Логическое "И";
-* **||** — Логическое "ИЛИ";
-* **!** — Логическое "НЕ".
+* **&&** — Logical "AND";
+* **||** — Logical "OR";
+* **!** — Logical "NOT".
 
 Comparisons operator:
 
 * **=** — Equals.
-* **!=** — Не равно;
+* **!=** — Not equal;
 * **<** — Less than.
 * **>** — Greater than.
 * **<=** — Less than or equal to.
@@ -108,10 +108,10 @@ Templates:
 
 * ![Real number](../../../images/icons/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
 * ![String](../../../images/icons/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
-* ![Дата](../../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлена конструкция создания объекта, содержащего текущую дату. Пример: `new Date(2020, 1, 5)`;
-* ![Время](../../../images/icons/toolbar-controls/type-time_default.svg) — для ввода даты/времени, будет вставлена конструкция создания объекта, содержащего текущее дата/время. Пример: `new Date(2020, 1, 5, 13, 12, 50, 100)`.
+* ![Дата](../../../images/icons/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлена конструкция создания объекта, содержащего текущую дату. For example: `new Date(2020, 1, 5)`;
+* ![Время](../../../images/icons/toolbar-controls/type-time_default.svg) — для ввода даты/времени, будет вставлена конструкция создания объекта, содержащего текущее дата/время. For example: `new Date(2020, 1, 5, 13, 12, 50, 100)`.
 
 Logical values:
 
-* **false** — Ложь;
-* **true** — Истина.
+* **false** — False;
+* **true** — True.

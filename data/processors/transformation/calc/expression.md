@@ -12,7 +12,7 @@ Expression can contain the following components:
 * integer and real numbers;
 * single-line and multi-line comments.
 
-It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list. Consequently, incorrect list item position can cause a mistake.
+It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions. Consequently, incorrect list item position can cause a mistake.
 
 > Note: In the result of the mathematical operations with the ["Date/time"](./../../../data/datatype.md) type (addition, subtraction, etc.), the real number with fractional part can be got. By default, the operation result will be equal to the number of days (integer part) and hours (fractional part). For example: after such operation as `02.01.2020 12:00 - 01.01.2020 00:00` the result will be equal to `1.5` - one full day (24 hours) and half a day (12 hours).
 
