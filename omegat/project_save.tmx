@@ -9803,6 +9803,14 @@ return my_concat(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В противном случае скрипт будет выполнен, но результат не будет выведен в вычисляемое поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115446Z" creationid="Марианна" creationdate="20201020T115446Z">
+        <seg>Otherwise, the script will be executed but the result will not be shown in the calculated field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В рамках стратегии &lt;x13/&gt;декомпозиции&lt;x14/&gt; сложного аналитического решения, которое может состоять из нескольких &lt;x15/&gt;Сценариев&lt;x16/&gt; или &lt;x17/&gt;Пакетов&lt;x18/&gt;, выполняет задачу передачи данных между его независимыми блоками.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092152Z" creationid="Марианна" creationdate="20200919T092152Z">
