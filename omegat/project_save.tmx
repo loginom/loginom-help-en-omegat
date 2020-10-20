@@ -9343,6 +9343,20 @@ return my_concat(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>}
+}
+// Вывод результата функции в поле калькулятора
+return pow(COL1, COL2);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115900Z" creationid="Марианна" creationdate="20201020T115900Z">
+        <seg>}
+}
+// Show the function result in the calculation field
+return pow(COL1, COL2);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>} else {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114322Z" creationid="Марианна" creationdate="20201020T114322Z">
