@@ -10907,6 +10907,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для вывода результата скрипта в вычисляемое поле калькулятора используется команда &lt;x3/&gt;return pow(COL1, COL2)&lt;x4/&gt;, где &lt;x5/&gt;pow(COL1, COL2)&lt;x6/&gt; — вызов объявленной функции с передачей параметрам &lt;x7/&gt;х&lt;x8/&gt; и &lt;x9/&gt;n&lt;x10/&gt; значений из полей (или переменных) калькулятора &lt;x11/&gt;COL1&lt;x12/&gt; и &lt;x13/&gt;COL2&lt;x14/&gt; соответственно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T170735Z" creationid="Марианна" creationdate="20201020T170735Z">
+        <seg>To show the script result in the calculated calculator field, it is required to use the &lt;x3/&gt;return pow(COL1, COL2)&lt;x4/&gt; command where &lt;x5/&gt;pow(COL1, COL2)&lt;x6/&gt; enables to call the declared function with transfer to &lt;x7/&gt;х&lt;x8/&gt; and &lt;x9/&gt;n&lt;x10/&gt; parameters of the values from the calculator fields (or variables) &lt;x11/&gt;COL1&lt;x12/&gt; and &lt;x13/&gt;COL2&lt;x14/&gt; correspondingly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для вызова контекстного меню порта необходимо кликнуть мышью порт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
