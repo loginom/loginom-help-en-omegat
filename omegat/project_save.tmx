@@ -292,8 +292,8 @@ result = COL1 + COL2;
 
 return result;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T113011Z" creationid="Марианна" creationdate="20201020T113011Z">
-        <seg>// Computation of the sum of fields
+      <tuv lang="en" changeid="Марианна" changedate="20201020T113551Z" creationid="Марианна" creationdate="20201020T113011Z">
+        <seg>// Calculation of the sum of fields
 let result;
 result = COL1 + COL2;
 
@@ -9343,8 +9343,8 @@ WHERE</seg>
       <tuv lang="ru">
         <seg>В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201014T060340Z" creationid="Марианна" creationdate="20201014T060340Z">
-        <seg>It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T113452Z" creationid="Марианна" creationdate="20201014T060340Z">
+        <seg>It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16121,8 +16121,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Следующий пример демонстрирует вычисление суммы двух полей &lt;x3/&gt;Калькулятора&lt;x4/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T112934Z" creationid="Марианна" creationdate="20201020T112934Z">
-        <seg>The next example shows how to compute the sum of two &lt;x3/&gt;Calculator&lt;x4/&gt; fields:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T113534Z" creationid="Марианна" creationdate="20201020T112934Z">
+        <seg>The next example shows how to calculate the sum of two &lt;x3/&gt;Calculator&lt;x4/&gt; fields:</seg>
       </tuv>
     </tu>
     <tu>
