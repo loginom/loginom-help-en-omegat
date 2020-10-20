@@ -9421,6 +9421,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В данном примере для вычисления переменной &lt;x1/&gt;result&lt;x2/&gt; используются ссылки на поля с именами &lt;x3/&gt;COL1&lt;x4/&gt; и &lt;x5/&gt;COL2&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T114257Z" creationid="Марианна" creationdate="20201020T114257Z">
+        <seg>In this example, it is required to use references to the fields with &lt;x3/&gt;COL1&lt;x4/&gt; and &lt;x5/&gt;COL2&lt;x6/&gt; names to calculate the &lt;x1/&gt;result&lt;x2/&gt; variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В диалоге помимо редактирования &lt;x3/&gt;стандартных параметров&lt;x4/&gt; поля задается параметр кэширования.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T073635Z" creationid="Марианна" creationdate="20201016T073635Z">
