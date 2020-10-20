@@ -3342,6 +3342,14 @@ return result;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; скрипт необходимо завершать командой &lt;x3/&gt;return&lt;x4/&gt;, которая выводит результат в вычисляемое поле калькулятора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T115322Z" creationid="Марианна" creationdate="20201020T115322Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; the script must be finished by the &lt;x3/&gt;return&lt;x4/&gt; command that shows the result in the calculated calculator field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: В некоторых случаях применение параллельной обработки недопустимо.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T063547Z" creationid="Марианна" creationdate="20200921T203757Z">
