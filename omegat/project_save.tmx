@@ -3394,6 +3394,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: использование кэша для передачи значений между вызовами &lt;x3/&gt;require&lt;x4/&gt; может привести к непредсказуемым результатам вычислений в виду использования многопоточности вычислений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T191940Z" creationid="Марианна" creationdate="20201020T191940Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: The cache usage when transferring values between &lt;x3/&gt;require&lt;x4/&gt; calls can cause unpredictable results of calculations due to the usage of calculation multithreading.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Валидация моделей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065337Z" creationid="Марианна" creationdate="20200812T065337Z">
@@ -13205,6 +13213,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T171958Z" creationid="Марианна" creationdate="20201005T170523Z">
         <seg>The toolbar includes the buttons that enable to insert a template or preset layout into the expression code area upon their pressing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На панели расположены кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблоны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T192049Z" creationid="Марианна" creationdate="20201020T192049Z">
+        <seg>The toolbar includes the buttons that enable to insert templates or preset layout into the expression code area upon their pressing.</seg>
       </tuv>
     </tu>
     <tu>
