@@ -16763,8 +16763,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Способы просмотра номера версии на сервере Loginom средствами ОС аналогичны способам, описанным выше для десктопных редакций, за исключением того, что для удаленного подключения к файловой системе сервера Loginom пользователю необходимы права администратора, а собственно интересующее приложение Loginom – это сервер (C:\Program Files\BaseGroup\Loginom 6\Server\Server.exe).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T080522Z" creationid="Марианна" creationdate="20200819T080522Z">
-        <seg>Methods to view the version number on the Loginom server using the OS tools are similar to the methods that are described above for desktop editions. But a user should have administrator rights to get remote access to the Loginom server file system. The Loginom application of interest is a server (C:\Program Files\BaseGroup\Loginom 6\Server\Server.exe).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T200123Z" creationid="Марианна" creationdate="20200819T080522Z">
+        <seg>Methods to view the version number on the Loginom server using the OS tools are similar to the methods that are described above for desktop editions. But a user should have administrator rights to get remote access to the Loginom server file system. The Loginom application is a server (C:\Program Files\BaseGroup\Loginom 6\Server\Server.exe).</seg>
       </tuv>
     </tu>
     <tu>
