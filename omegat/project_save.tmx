@@ -16087,6 +16087,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Следующий пример демонстрирует вычисление суммы двух полей &lt;x3/&gt;Калькулятора&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T112934Z" creationid="Марианна" creationdate="20201020T112934Z">
+        <seg>The next example shows how to compute the sum of two &lt;x3/&gt;Calculator&lt;x4/&gt; fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Следующим шагом в алгоритме необходимо подсчитать общие суммы покупок по всем клиентам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100900Z" creationid="Марианна" creationdate="20200717T100900Z">
