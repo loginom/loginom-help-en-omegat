@@ -9549,6 +9549,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В данном скрипте определена функция &lt;x1/&gt;pow(x, n)&lt;x2/&gt;, принимающая в качестве аргументов число и степень, в которую оно возводится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T170435Z" creationid="Марианна" creationdate="20201020T170435Z">
+        <seg>&lt;x1/&gt;pow(x, n)&lt;x2/&gt; function is defined in this script. It takes number and power to which it is risen as arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В диалоге помимо редактирования &lt;x3/&gt;стандартных параметров&lt;x4/&gt; поля задается параметр кэширования.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T073635Z" creationid="Марианна" creationdate="20201016T073635Z">
