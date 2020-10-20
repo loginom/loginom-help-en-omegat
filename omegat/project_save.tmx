@@ -17659,6 +17659,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Явного импорта &lt;x5/&gt;функций &lt;x6/&gt;Калькулятора&lt;x7/&gt;&lt;x8/&gt; (как это делается в &lt;x9/&gt;компоненте &lt;x10/&gt;JavaScript&lt;x11/&gt;&lt;x12/&gt;) делать не нужно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201020T171847Z" creationid="Марианна" creationdate="20201020T171847Z">
+        <seg>It is not required to import &lt;x5/&gt;functions &lt;x6/&gt;of the Calculator&lt;x7/&gt;&lt;x8/&gt; distinctly (as it is done in the &lt;x9/&gt;component &lt;x10/&gt; of JavaScript&lt;x11/&gt;&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в качестве &lt;x1/&gt;макроподстановки&lt;x2/&gt; — в значении переменной указывается SQL-запрос или какая-то его часть.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131414Z" creationid="Марианна" creationdate="20200825T112342Z">
