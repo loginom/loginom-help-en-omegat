@@ -16,10 +16,10 @@ The panel has the following structure:
    * ![](./information-panel-5.png) — information on the process execution results has not been received yet.
    * ![](./information-panel-6.png) — an error occurred while the process execution (processing is not completed).
    * ![](./information-panel-7.png) — the process execution has not started yet, an error occurred.
-* ![](../images/icons/toolbar-controls/stop-all_default.svg) — to stop all processes.
-   * ![](../images/icons/toolbar-controls/stop_default.svg) — to stop a given process.
-* ![](../images/icons/toolbar-controls/delete-all_default.svg) — to delete all completed processes.
-   * ![](../images/icons/toolbar-controls/delete_default.svg) — to delete a given process from the list.
+* ![](../images/icons/toolbar-controls/stop-all_default.svg) — stop all processes.
+   * ![](../images/icons/toolbar-controls/stop_default.svg) — stop a given process.
+* ![](../images/icons/toolbar-controls/delete-all_default.svg) — delete all completed processes.
+   * ![](../images/icons/toolbar-controls/delete_default.svg) — delete a given process from the list.
 * Error — error text is specified, should it occur. Full error text will be displayed, when this text pressing.
 * Start — date and time of the process start.
 * Finish - date and time of the process finish.
