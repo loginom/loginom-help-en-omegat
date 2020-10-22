@@ -38,7 +38,7 @@
 
 ## Wizard
 
-Окно мастера поделено на две области: доступные поля (слева) и выбранные поля (справа).
+The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).
 
 * **Доступные поля** — содержит список полей входного набора данных.
 * **Выбранные поля** — делится на списки.

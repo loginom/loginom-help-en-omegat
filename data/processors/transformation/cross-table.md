@@ -30,7 +30,7 @@ Output data set:
 | 05.02.2017 | 750 | | 300 | 4000 |
 | 07.02.2017 | 250 | 800 | | 3000 |
 
-После обработки значения поля *Товар* перешли в заголовки новых столбцов, значения поля *Дата* остались в строках, а значения поля *Количество продаж* просуммированы по датам.
+Upon processing, the values of the *Goods* field were transferred to headers of the new columns, the values of the *Date* field were left in the strings, the values of the *Volume of sales* field were summed by dates.
 
 %/spoiler%
 
@@ -40,11 +40,11 @@ Output data set:
 
 ### Output
 
-* ![Выходной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с обработанными данными.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with processed data is supplied to the port.
 
 ## Wizard
 
-Окно мастера поделено на две области: доступные поля (слева) и выбранные поля (справа).
+The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).
 
 * **Доступные поля** — содержит поля входного набора данных.
 * **Выбранные поля** — делится на группы.
