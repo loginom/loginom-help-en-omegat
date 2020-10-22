@@ -14233,6 +14233,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Окно мастера поделено на две области: доступные поля (слева) и выбранные поля (справа).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T180941Z" creationid="Марианна" creationdate="20201022T180941Z">
+        <seg>The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Окно настроек содержит области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193731Z" creationid="Марианна" creationdate="20201004T193731Z">
