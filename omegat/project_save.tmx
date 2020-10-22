@@ -586,6 +586,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>05.02.2017</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T174617Z" creationid="Марианна" creationdate="20201022T174617Z">
+        <seg>05.02.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>05.09.17</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113113Z" creationid="Марианна" creationdate="20201011T113113Z">
@@ -12625,6 +12633,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество продаж</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T174615Z" creationid="Марианна" creationdate="20201022T174615Z">
+        <seg>Sales volume</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество уровней вложенности при этом не ограничено.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
@@ -13845,6 +13861,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085008Z" creationid="Марианна" creationdate="20201015T085008Z">
         <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обои</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T174638Z" creationid="Марианна" creationdate="20201022T174638Z">
+        <seg>Wallpaper</seg>
       </tuv>
     </tu>
     <tu>
@@ -17297,6 +17321,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085125Z" creationid="Марианна" creationdate="20201015T085125Z">
         <seg>The Drag-and-Drop method enables to perform the same actions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Товар</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T174500Z" creationid="Марианна" creationdate="20201022T174500Z">
+        <seg>Goods</seg>
       </tuv>
     </tu>
     <tu>
