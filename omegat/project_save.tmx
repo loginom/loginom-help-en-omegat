@@ -1130,6 +1130,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>750</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T175300Z" creationid="Марианна" creationdate="20201022T175300Z">
+        <seg>750</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>8</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164955Z" creationid="Марианна" creationdate="20201010T164955Z">
@@ -10649,6 +10657,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200923T201547Z" creationid="Марианна" creationdate="20200923T201547Z">
         <seg>The active branch is detected as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Герметик</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T175258Z" creationid="Марианна" creationdate="20201022T175258Z">
+        <seg>Sealer</seg>
       </tuv>
     </tu>
     <tu>
