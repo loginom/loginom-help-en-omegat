@@ -13937,6 +13937,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик создает сводную таблицу на основе исходного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T172607Z" creationid="Марианна" creationdate="20201022T172607Z">
+        <seg>The handler creates the pivot table based on the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик экспортирует таблицы данных в файлы для программы Microsoft Excel.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193530Z" creationid="Марианна" creationdate="20200916T193530Z">
