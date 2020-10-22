@@ -17557,6 +17557,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Часть полей исходного набора остается без изменений, образуя &lt;x1/&gt;строки&lt;x2/&gt; сводной таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T173616Z" creationid="Марианна" creationdate="20201022T173616Z">
+        <seg>A part of fields of the source data set is unchanged forming the &lt;x1/&gt;strings&lt;x2/&gt; of the pivot table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Часы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083510Z" creationid="Марианна" creationdate="20200918T083510Z">
