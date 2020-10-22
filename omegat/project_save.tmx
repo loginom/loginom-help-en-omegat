@@ -3971,6 +3971,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с обработанными данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T180748Z" creationid="Марианна" creationdate="20201022T180748Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with processed data is supplied to the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт с измененными параметрами полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072021Z" creationid="Марианна" creationdate="20201016T072021Z">
@@ -15453,6 +15461,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092827Z" creationid="Марианна" creationdate="20200919T092419Z">
         <seg>Upon the node configuration, the output ports of the data source node are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После обработки значения поля &lt;x1/&gt;Товар&lt;x2/&gt; перешли в заголовки новых столбцов, значения поля &lt;x3/&gt;Дата&lt;x4/&gt; остались в строках, а значения поля &lt;x5/&gt;Количество продаж&lt;x6/&gt; просуммированы по датам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T180144Z" creationid="Марианна" creationdate="20201022T180144Z">
+        <seg>Upon processing, the values of the &lt;x1/&gt;Goods&lt;x2/&gt; field were transferred to headers of the new columns, the values of the &lt;x3/&gt;Date&lt;x4/&gt; field were left in the strings, the values of the &lt;x5/&gt;Volume of sales&lt;x6/&gt; field were summed by dates.</seg>
       </tuv>
     </tu>
     <tu>
