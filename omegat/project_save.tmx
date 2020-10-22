@@ -10685,6 +10685,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выходной набор данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T175809Z" creationid="Марианна" creationdate="20201022T175809Z">
+        <seg>Output data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выходные порты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121243Z" creationid="Марианна" creationdate="20200823T121243Z">
@@ -14921,6 +14929,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По полю &lt;x7/&gt;Количество продаж&lt;x8/&gt; выберем функцию агрегации &lt;x9/&gt;Сумма&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T175755Z" creationid="Марианна" creationdate="20201022T175755Z">
+        <seg>Let's select the &lt;x9/&gt;Sum&lt;x10/&gt; aggregation function by the &lt;x7/&gt;Volume of sales&lt;x8/&gt; field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По правому краю;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131856Z" creationid="Марианна" creationdate="20200819T131856Z">
@@ -15605,6 +15621,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075918Z" creationid="Марианна" creationdate="20200716T075918Z">
         <seg>They are objects containing only one value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Преобразуем исходную таблицу со следующими параметрами: колонки - &lt;x1/&gt;Товар&lt;x2/&gt;, строки - &lt;x3/&gt;Дата&lt;x4/&gt;, факты - &lt;x5/&gt;Количество продаж&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T175619Z" creationid="Марианна" creationdate="20201022T175619Z">
+        <seg>Let's transform the source table with the following parameters: columns - &lt;x1/&gt;Goods&lt;x2/&gt;, strings - &lt;x3/&gt;Date&lt;x4/&gt;, measures - &lt;x5/&gt;Volume of sales&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
