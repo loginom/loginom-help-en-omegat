@@ -2404,16 +2404,16 @@ function pow(x, n) {</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — остановить все процессы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T065100Z" creationid="Марианна" creationdate="20200817T065100Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — to stop all processes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T093028Z" creationid="Марианна" creationdate="20200817T065100Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — stop all processes.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — остановить конкретный процесс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T065127Z" creationid="Марианна" creationdate="20200817T065127Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — to stop a given process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T093031Z" creationid="Марианна" creationdate="20200817T065127Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — stop a given process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2436,16 +2436,16 @@ function pow(x, n) {</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — удалить все завершенные процессы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T194425Z" creationid="Марианна" creationdate="20200817T065144Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — to delete all completed processes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T093035Z" creationid="Марианна" creationdate="20200817T065144Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — delete all completed processes.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — удалить из списка конкретный процесс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T065211Z" creationid="Марианна" creationdate="20200817T065211Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — to delete a given process from the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T093044Z" creationid="Марианна" creationdate="20200817T065211Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — delete a given process from the list.</seg>
       </tuv>
     </tu>
     <tu>
