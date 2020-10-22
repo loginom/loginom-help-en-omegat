@@ -818,6 +818,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2000</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T174642Z" creationid="Марианна" creationdate="20201022T174642Z">
+        <seg>2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2005</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112932Z" creationid="Марианна" creationdate="20200825T112932Z">
@@ -11809,6 +11817,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062850Z" creationid="Марианна" creationdate="20200917T162018Z">
         <seg>Comma</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Затирка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T175158Z" creationid="Марианна" creationdate="20201022T175158Z">
+        <seg>Grout</seg>
       </tuv>
     </tu>
     <tu>
