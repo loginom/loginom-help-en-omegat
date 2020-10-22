@@ -10781,6 +10781,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные третьей группы полей участвуют в расчете &lt;x1/&gt;фактов&lt;x2/&gt; — &lt;x3/&gt;агрегированных значений&lt;x4/&gt; на пересечении строк и колонок сводной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T174016Z" creationid="Марианна" creationdate="20201022T174016Z">
+        <seg>Data of the third group of fields are used for calculation of &lt;x1/&gt;measures&lt;x2/&gt; — &lt;x3/&gt;aggregated values&lt;x4/&gt; at the intersection of strings and columns of the pivot table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный этап становится доступен только при заключении в цикл &lt;x1/&gt;Подмоделей&lt;x2/&gt;, имеющих входные и выходные порты для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204916Z" creationid="Марианна" creationdate="20200921T204916Z">
@@ -11925,6 +11933,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T103445Z" creationid="Марианна" creationdate="20201006T103445Z">
         <seg>It is possible to place the values of variables in the strings or columns of the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значения ячеек другой группы полей образуют &lt;x1/&gt;колонки&lt;x2/&gt; сводной таблицы, задавая их заголовки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T173738Z" creationid="Марианна" creationdate="20201022T173738Z">
+        <seg>The values of cells of the other fields groups form the&lt;x1/&gt;columns&lt;x2/&gt; of the pivot table defining their headers.</seg>
       </tuv>
     </tu>
     <tu>
