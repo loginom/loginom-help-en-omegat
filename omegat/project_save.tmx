@@ -15777,6 +15777,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При создании таблицы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201022T173515Z" creationid="Марианна" creationdate="20201022T173515Z">
+        <seg>When creating the table, the following criteria are met:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При создании узел не имеет &lt;x1/&gt;портов&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143525Z" creationid="Марианна" creationdate="20200918T143525Z">
