@@ -1,31 +1,31 @@
 # ![Cross table](../../images/icons/components/cross-tab_default.svg) Cross table
 
-Обработчик создает сводную таблицу на основе исходного набора. При создании таблицы:
+The handler creates the pivot table based on the source data set. When creating the table, the following criteria are met:
 
-* Часть полей исходного набора остается без изменений, образуя **строки** сводной таблицы;
-* Значения ячеек другой группы полей образуют **колонки** сводной таблицы, задавая их заголовки;
-* Данные третьей группы полей участвуют в расчете **фактов** — [агрегированных значений](../func/aggregation-functions.md) на пересечении строк и колонок сводной таблицы.
+* A part of fields of the source data set is unchanged forming the **strings** of the pivot table.
+* The values of cells of the other fields groups form the**columns** of the pivot table defining their headers.
+* Data of the third group of fields are used for calculation of **measures** — [aggregated values](../func/aggregation-functions.md) at the intersection of strings and columns of the pivot table.
 
 %spoiler%Example:%spoiler%
 
 Source table:
 
-| Date | Товар | Количество продаж |
+| Date | Goods | Sales volume |
 | :------- | :------- | -------: |
-| 05.02.2017 | Обои | 2000 |
-| 05.02.2017 | Затирка | 300 |
-| 07.02.2017 | Обои | 2000 |
-| 07.02.2017 | Герметик | 750 |
-| 07.02.2017 | Грунтовка | 400 |
-| 10.02.2017 | Грунтовка | 400 |
-| 10.02.2017 | Обои | 3000 |
-| 11.02.2017 | Герметик | 250 |
+| 05.02.2017 | Wallpaper | 2000 |
+| 05.02.2017 | Grout | 300 |
+| 07.02.2017 | Wallpaper | 2000 |
+| 07.02.2017 | Sealer | 750 |
+| 07.02.2017 | Primer | 400 |
+| 10.02.2017 | Primer | 400 |
+| 10.02.2017 | Wallpaper | 3000 |
+| 11.02.2017 | Sealer | 250 |
 
-Преобразуем исходную таблицу со следующими параметрами: колонки - *Товар*, строки - *Дата*, факты - *Количество продаж*. По полю *Количество продаж* выберем функцию агрегации *Сумма*.
+Let's transform the source table with the following parameters: columns - *Goods*, strings - *Date*, measures - *Volume of sales*. Let's select the *Sum* aggregation function by the *Volume of sales* field.
 
-Выходной набор данных:
+Output data set:
 
-| Date | Герметик | Грунтовка | Затирка | Обои |
+| Date | Sealer | Primer | Grout | Wallpaper |
 | :------- | -------: | -------: | -------: | -------: |
 | 05.02.2017 | 750 | | 300 | 4000 |
 | 07.02.2017 | 250 | 800 | | 3000 |
@@ -66,9 +66,9 @@ Source table:
 
 Входная таблица:
 
-| Точка продажи | Товар | Сумма продажи |
+| Точка продажи | Goods | Сумма продажи |
 |:--------------|:-----:|:--------------|
-| СтройРынок | Обои | 170 |
+| СтройРынок | Wallpaper | 170 |
 | СтройРынок | Плитка | 400 |
 
 Кросс-таблица с колонкой: Товар<br>
@@ -78,21 +78,21 @@ Source table:
 
 Результирующая таблица
 
-| Точка продажи | Обои | Плитка | 3 | 4 |
+| Точка продажи | Wallpaper | Плитка | 3 | 4 |
 |:--------------|:-----:|:-----:|---|---|
 | СтройРынок | 170 | 400 | | |
 
 Если во входной набор добавился ещё 1 товар
 
-| Точка продажи | Товар | Сумма продажи |
+| Точка продажи | Goods | Сумма продажи |
 |:--------------|:-----:|:--------------|
-| СтройРынок | Обои | 170 |
+| СтройРынок | Wallpaper | 170 |
 | СтройРынок | Плитка | 400 |
-| СтройРынок | Герметик | 135 |
+| СтройРынок | Sealer | 135 |
 
 И настройки кросс-таблицы не изменились, то результирующий набор будет следующим
 
-| Точка продажи | Обои | Плитка | Герметик | 4 |
+| Точка продажи | Wallpaper | Плитка | Sealer | 4 |
 |:--------------|:-----:|:-----:|:--------:|---|
 | СтройРынок | 170 | 400 | 135 | |
 
