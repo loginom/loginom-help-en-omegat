@@ -46,108 +46,108 @@ Upon processing, the values of the *Goods* field were transferred to headers of 
 
 The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).
 
-* **Доступные поля** — содержит поля входного набора данных.
-* **Выбранные поля** — делится на группы.
-   * ![Колонки](../../images/icons/dataset-operations/dsa-columns_default.svg) Колонки.
-   * ![Строки](../../images/icons/dataset-operations/dsa-rows_default.svg) Строки.
-   * ![Факты](../../images/icons/dataset-operations/dsa-factor_default.svg) Факты.
+* **Available fields** contains the input data set fields.
+* **Selected fields** are divided into groups.
+   * ![Columns](../../images/icons/dataset-operations/dsa-columns_default.svg) Columns.
+   * ![Strings](../../images/icons/dataset-operations/dsa-rows_default.svg) Strings.
+   * ![Measures](../../images/icons/dataset-operations/dsa-factor_default.svg) Measures.
 
-В области *Доступные поля* помимо полей входного набора данных всегда присутствует синтетическое поле *Количество*, оно может быть добавлено только в группу *Факты*. В нем будет подсчитано, сколько раз в исходном наборе данных встречается каждая комбинация из колонок и строк.
+The *Available fields* area always contains the *Count* synthetic field apart from the input data set fields, it can be added only to the *Measures* group. It will be calculated how many times each combination of columns and strings occurs in the source data set.
 
-### Колонки
+### Columns
 
-Значения этих полей станут заголовками столбцов. Поля в данной группе обязательно должны иметь дискретный [вид данных](../../data/datakind.md)
+The values of these fields will be the columns headers. The fields included into this group must relate to the discrete [data kind](../../data/datakind.md)
 
-При работе с кросс-таблицей может возникнуть ситуация, когда в полях, по которым были сформированы колонки, появляются новые значения. В обработчике имеется два подхода к решению этой проблемы:
+When using the cross table, new values can appear in the fields by which the columns were generated. The handler provides two approaches to solve this problem:
 
-* **Скользящие уникальные значения** — заново создает колонки из уникальных значений поля (полей). При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых уникальных значений. Также можно установить минимальное число значений поля, из которых будут созданы колонки. Но в этом случае в результирующей таблице сохранится столбец с оставшимися значениями.
+* **Sliding unique values** enables to create columns from the unique field (fields) values. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new unique values. It is also possible to set the minimum number of the fields values from which the columns will be created. But in this case, the column with the remaining values will be left in the resulting table.
 
 %spoiler%Example:%spoiler%
 
-Входная таблица:
+Input table:
 
-| Точка продажи | Goods | Сумма продажи |
+| Point of sale | Goods | Amount of sales |
 |:--------------|:-----:|:--------------|
-| СтройРынок | Wallpaper | 170 |
-| СтройРынок | Плитка | 400 |
+| StroyRynok | Wallpaper | 170 |
+| StroyRynok | Tiles | 400 |
 
-Кросс-таблица с колонкой: Товар<br>
-Для колонки установлено минимальное количество уникальных значений = 4<br>
-Со строкой: Точка продажи<br>
-Фактом: Сумма продажи (Сумма).<br>
+Cross table with the following column: Goods<br>
+The minimum number of the unique values is set for the column = 4<br>
+With string: Point of sale<br>
+Measure: Amount of sales (Amount).<br>
 
-Результирующая таблица
+Resulting table
 
-| Точка продажи | Wallpaper | Плитка | 3 | 4 |
+| Point of sale | Wallpaper | Tiles | 3 | 4 |
 |:--------------|:-----:|:-----:|---|---|
-| СтройРынок | 170 | 400 | | |
+| StroyRynok | 170 | 400 | | |
 
-Если во входной набор добавился ещё 1 товар
+If one more item of goods was added to the input data set
 
-| Точка продажи | Goods | Сумма продажи |
+| Point of sale | Goods | Amount of sales |
 |:--------------|:-----:|:--------------|
-| СтройРынок | Wallpaper | 170 |
-| СтройРынок | Плитка | 400 |
-| СтройРынок | Sealer | 135 |
+| StroyRynok | Wallpaper | 170 |
+| StroyRynok | Tiles | 400 |
+| StroyRynok | Sealer | 135 |
 
-И настройки кросс-таблицы не изменились, то результирующий набор будет следующим
+And the cross table settings are unchanged, the resulting data set will be as follows:
 
-| Точка продажи | Wallpaper | Плитка | Sealer | 4 |
+| Point of sale | Wallpaper | Tiles | Sealer | 4 |
 |:--------------|:-----:|:-----:|:--------:|---|
-| СтройРынок | 170 | 400 | 135 | |
+| StroyRynok | 170 | 400 | 135 | |
 
 %/spoiler%
 
-* **Группа значений** — если в исходном поле с момента последней настройки узла появятся новые значения, то при включенном флаге *Прочие* факты для таких значений будут агрегироваться в столбце *Прочие*. Установленный флаг *Пропущенные* обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями. Факты для них будут агрегироваться в столбце *Пропущенные значения*.
+* **Группа значений** — если в исходном поле с момента последней настройки узла появятся новые значения, то при включенном флаге *Прочие* факты для таких значений будут агрегироваться в столбце *Прочие*. Установленный флаг *Пропущенные* обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями. Measures for them will be aggregated in the *Null values* column.
 
-В нижней части мастера расположена область *Общие настройки для колонок* имеющая следующие параметры:
+The lower wizard part includes the *General Columns Settings* area that has the following parameters:
 
-* **Разделитель частей меток полей** — выбирается каким символом будут разделены метки новых полей, при выборе нескольких полей в колонках.
-   * . (точка).
-   * | (горизонтальная линия).
+* **Field caption parts separator**: the character to separate the new fields captions when selecting several fields in the columns is selected.
+   * . (Dot mark).
+   * | (horizontal line).
    * ->.
-   * Пробел.
-* **Скользящие уникальные значения** — установка флага позволяет заново создавать колонки из уникальных значений поля (полей). При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых значений.
+   * Space.
+* **Sliding unique values**: flag placement enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
 * **Ограничение количества значений** — используется, чтобы ограничить максимальное количество колонок  в выходном наборе, отбираются первые n сформированных полей, если установленное количество значений больше  количества уникальных значений в колонках, то фиктивные столбцы не добавляются.
 
-С помощью кнопок ![Вверх](../../images/icons/toolbar-controls/moveup_default.svg) и ![Вниз](../../images/icons/toolbar-controls/movedown_default.svg) можно менять порядок полей в группе. То, в каком порядке расположены поля, влияет на структуру результирующей таблицы.
+Using ![Up](../../images/icons/toolbar-controls/moveup_default.svg) and ![Down](../../images/icons/toolbar-controls/movedown_default.svg) buttons, it is possible to change the order of fields in the group. The order of fields location has an impact on the resulting table structure.
 
 %spoiler%Example:%spoiler%
 
 Source table:
 
-|Точка продажи|Товар|Сумма продажи|Дата|
+|Point of sale|Goods|Amount of sale|Date|
 |:-|:-|-:|:-|
-|СтройРынок|Обои|170|10.04.2012|
-|СтройРынок|Плитка|400|10.04.2012|
-|СтройРынок|Герметик|135|10.04.2012|
-|Павильон|Обои|240|11.04.2012|
-|Павильон|Плитка|80|11.04.2012|
-|Павильон|Герметик|40|12.04.2012|
-|СтройРынок|Обои|130|12.04.2012|
-|Павильон|Обои|130|12.04.2012|
-|Павильон|Плитка|20|12.04.2012|
-|Павильон|Обои|230|13.04.2012|
-|СтройРынок|Герметик|65|13.04.2012|
-|Павильон|Герметик|260|13.04.2012|
+|StroyRynok|Wallpaper|170|10.04.2012|
+|StroyRynok|Tiles|400|10.04.2012|
+|StroyRynok|Sealer|135|10.04.2012|
+|Trade stand|Wallpaper|240|11.04.2012|
+|Trade stand|Tiles|80|11.04.2012|
+|Trade stand|Sealer|40|12.04.2012|
+|StroyRynok|Wallpaper|130|12.04.2012|
+|Trade stand|Wallpaper|130|12.04.2012|
+|Trade stand|Tiles|20|12.04.2012|
+|Trade stand|Wallpaper|230|13.04.2012|
+|StroyRynok|Sealer|65|13.04.2012|
+|Trade stand|Sealer|260|13.04.2012|
 
-*Кросс-таблица* с порядком колонок: *Товар*, *Точка продажи*.  Фактом: *Сумма продажи (Сумма)*. И параметром *Разделитель частей меток полей*: `.`
+*Cross table* with the following order of columns: *Goods*, *Point of sale*.  Measure: *Amount of sales (Amount)*. And the following parameter: *Field caption parts separator*: `.`
 
-|Герметик.Павильон|Герметик.СтройРынок|Обои.Павильон|Обои.СтройРынок|Плитка.Павильон|Плитка.СтройРынок|
+|Sealer.Trade stand|Sealer.StroyRynok|Wallpaper.Trade stand|Wallpaper.StroyRynok|Tiles.Trade stand|Tiles.StroyRynok|
 |-:|-:|-:|-:|-:|-:|
 |300|200|600|300|100|400|
 
-*Кросс-таблица* с порядком колонок: *Точка продажи*, *Товар*. Фактом: *Сумма продажи (Сумма)*. И параметром *Разделитель частей меток полей*: `.`
+*Cross table* with the following order of columns: *Point of sale*, *Goods*. Measure: *Amount of sales (Amount)*. And the following parameter: *Field caption parts separator*: `.`
 
-|Павильон.Герметик|Павильон.Обои|Павильон.Плитка|СтройРынок.Герметик|СтройРынок.Обои|СтройРынок.Плитка|
+|Trade stand.Sealer|Trade stand.Wallpaper|Trade stand.Tiles|StroyRynok.Sealer|StroyRynok.Wallpaper|StroyRynok.Tiles|
 |-:|-:|-:|-:|-:|-:|
 |300|600|100|200|300|400|
 
 %/spoiler%
 
-### Строки
+### Strings
 
-Из значений полей  сформируются строки в кросс-таблице. Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике [Группировка](../../processors/transformation/grouping.md).
+The cross table strings will be generated from the fields values. Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике [Группировка](../../processors/transformation/grouping.md).
 
 Порядок полей в данной группе влияет на порядок сортировки данных в результирующей таблице по этим полям.
 
@@ -155,37 +155,37 @@ Source table:
 
 Source table:
 
-|Точка продажи|Товар|Сумма продажи|Дата|
+|Point of sale|Goods|Amount of sale|Date|
 |:-|:-|-:|:-|
-|СтройРынок|Обои|170|10.04.2012|
-|СтройРынок|Плитка|400|10.04.2012|
-|СтройРынок|Герметик|135|10.04.2012|
-|Павильон|Обои|240|11.04.2012|
-|Павильон|Плитка|80|11.04.2012|
-|Павильон|Герметик|40|12.04.2012|
-|СтройРынок|Обои|130|12.04.2012|
-|Павильон|Обои|130|12.04.2012|
-|Павильон|Плитка|20|12.04.2012|
-|Павильон|Обои|230|13.04.2012|
-|СтройРынок|Герметик|65|13.04.2012|
-|Павильон|Герметик|260|13.04.2012|
+|StroyRynok|Wallpaper|170|10.04.2012|
+|StroyRynok|Tiles|400|10.04.2012|
+|StroyRynok|Sealer|135|10.04.2012|
+|Trade stand|Wallpaper|240|11.04.2012|
+|Trade stand|Tiles|80|11.04.2012|
+|Trade stand|Sealer|40|12.04.2012|
+|StroyRynok|Wallpaper|130|12.04.2012|
+|Trade stand|Wallpaper|130|12.04.2012|
+|Trade stand|Tiles|20|12.04.2012|
+|Trade stand|Wallpaper|230|13.04.2012|
+|StroyRynok|Sealer|65|13.04.2012|
+|Trade stand|Sealer|260|13.04.2012|
 
-*Кросс-таблица* с порядком строк: *Точка продажи*, *Дата*. Фактом: *Сумма продажи (Сумма)*.
+*Cross table* with the following order of strings: *Point of sale*, *Date*. Measure: *Amount of sales (Amount)*.
 
-|Точка продажи|Дата|Сумма продажи|
+|Point of sale|Date|Amount of sale|
 |:-|:-|-:|
-|Павильон|11.04.2012|320|
-|Павильон|12.04.2012|190|
-|Павильон|13.04.2012|490|
-|СтройРынок|10.04.2012|705|
-|СтройРынок|12.04.2012|130|
-|СтройРынок|13.04.2012|65|
+|Trade stand|11.04.2012|320|
+|Trade stand|12.04.2012|190|
+|Trade stand|13.04.2012|490|
+|StroyRynok|10.04.2012|705|
+|StroyRynok|12.04.2012|130|
+|StroyRynok|13.04.2012|65|
 
 %/spoiler%
 
-### Факты
+### Measures
 
-Данные полей в этой группе обрабатываются в соответствии с [функциями агрегации](../func/aggregation-functions.md). Получившиеся значения отображаются на пересечении колонок и строк. По умолчанию для числовых типов выбрана функция *Сумма*, а для всех остальных *Количество*.
+The fields data in this group are processes according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. По умолчанию для числовых типов выбрана функция *Сумма*, а для всех остальных *Количество*.
 
 Чтобы выбрать другие функции агрегации, необходимо дважды кликнуть по полю. При выборе нескольких вариантов функций, каждая из них будет рассчитана в отдельном столбце.
 
