@@ -802,6 +802,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>170</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064309Z" creationid="Марианна" creationdate="20201023T064309Z">
+        <seg>170</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>18</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153657Z" creationid="Марианна" creationdate="20201006T153657Z">
@@ -15001,6 +15009,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Плитка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064345Z" creationid="Марианна" creationdate="20201023T064345Z">
+        <seg>Tiles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пн</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164929Z" creationid="Марианна" creationdate="20201010T164929Z">
@@ -17213,6 +17229,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T085121Z" creationid="Марианна" creationdate="20200814T102847Z">
         <seg>"Home" Page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>СтройРынок</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064304Z" creationid="Марианна" creationdate="20201023T064304Z">
+        <seg>StroyRynok</seg>
       </tuv>
     </tu>
     <tu>
