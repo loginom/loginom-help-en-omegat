@@ -4059,6 +4059,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт отдающий сгруппированную таблицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200141Z" creationid="Марианна" creationdate="20201023T200141Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the port providing the grouped table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт с измененными параметрами полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072021Z" creationid="Марианна" creationdate="20201016T072021Z">
@@ -4535,6 +4543,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T055115Z" creationid="Марианна" creationdate="20201023T055115Z">
         <seg>&lt;x1/&gt;Available fields&lt;x2/&gt; contains the input data set fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Доступные поля&lt;x2/&gt; — содержит список полей входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200241Z" creationid="Марианна" creationdate="20201023T200241Z">
+        <seg>&lt;x1/&gt;Available fields&lt;x2/&gt; contains a list of fields of the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14715,6 +14731,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161408Z" creationid="Марианна" creationdate="20201006T161408Z">
         <seg>The wizard window consists of three areas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно мастера поделено на две области.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200157Z" creationid="Марианна" creationdate="20201023T200157Z">
+        <seg>The wizard window is divided into two areas.</seg>
       </tuv>
     </tu>
     <tu>
