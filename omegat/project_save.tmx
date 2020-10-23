@@ -5459,6 +5459,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэшировать значения групп&lt;x2/&gt; — результирующие данные будет &lt;x3/&gt;закэшированы&lt;x4/&gt; для использования последующими узлами;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T203720Z" creationid="Марианна" creationdate="20201023T203720Z">
+        <seg>&lt;x1/&gt;Cache group values&lt;x2/&gt;: the resulting data will be &lt;x3/&gt;cached&lt;x4/&gt; for use for subsequent nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэшировать&lt;x2/&gt; — параметры кэширования выходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072120Z" creationid="Марианна" creationdate="20201016T072120Z">
