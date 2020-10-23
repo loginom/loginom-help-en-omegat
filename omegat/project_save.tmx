@@ -9919,6 +9919,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике имеется два подхода к решению этой проблемы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T062924Z" creationid="Марианна" creationdate="20201023T062924Z">
+        <seg>The handler provides two approaches to solve this problem:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
