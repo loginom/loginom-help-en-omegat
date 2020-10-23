@@ -6635,6 +6635,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показатели&lt;x2/&gt; &lt;x3/&gt;Показатели&lt;x4/&gt; — поля, по которым рассчитываются функции агрегации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200502Z" creationid="Марианна" creationdate="20201023T200502Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; &lt;x3/&gt;Parameters&lt;x4/&gt; denote the fields и which the aggregation functions are calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показать узел&lt;x2/&gt; — выделяет выбранный узел на области построения Сценариев;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073358Z" creationid="Марианна" creationdate="20200817T073358Z">
