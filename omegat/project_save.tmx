@@ -9579,6 +9579,40 @@ return my_concat(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Точка продажи|Товар|Сумма продажи|Дата|
+|:-|:-|-:|:-|
+|СтройРынок|Обои|170|10.04.2012|
+|СтройРынок|Плитка|400|10.04.2012|
+|СтройРынок|Герметик|135|10.04.2012|
+|Павильон|Обои|240|11.04.2012|
+|Павильон|Плитка|80|11.04.2012|
+|Павильон|Герметик|40|12.04.2012|
+|СтройРынок|Обои|130|12.04.2012|
+|Павильон|Обои|130|12.04.2012|
+|Павильон|Плитка|20|12.04.2012|
+|Павильон|Обои|230|13.04.2012|
+|СтройРынок|Герметик|65|13.04.2012|
+|Павильон|Герметик|260|13.04.2012|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T070723Z" creationid="Марианна" creationdate="20201023T070723Z">
+        <seg>|Point of sale|Goods|Amount of sale|Date|
+|:-|:-|-:|:-|
+|StroyRynok|Wallpaper|170|10.04.2012|
+|StroyRynok|Tiles|400|10.04.2012|
+|StroyRynok|Sealer|135|10.04.2012|
+|Trade stand|Wallpaper|240|11.04.2012|
+|Trade stand|Tiles|80|11.04.2012|
+|Trade stand|Sealer|40|12.04.2012|
+|StroyRynok|Wallpaper|130|12.04.2012|
+|Trade stand|Wallpaper|130|12.04.2012|
+|Trade stand|Tiles|20|12.04.2012|
+|Trade stand|Wallpaper|230|13.04.2012|
+|StroyRynok|Sealer|65|13.04.2012|
+|Trade stand|Sealer|260|13.04.2012|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|ФИО|Год рождения|
 |:-|:-|
 |Абрамов|1972 г.|
@@ -11081,6 +11115,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T111649Z" creationid="Марианна" creationdate="20201001T111649Z">
         <seg>The data in the input port of the handler are represented in the form of input and output data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данные полей в этой группе обрабатываются в соответствии с &lt;x1/&gt;функциями агрегации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T070240Z" creationid="Марианна" creationdate="20201023T070240Z">
+        <seg>The fields data in this group are processes according to the &lt;x1/&gt;aggregation functions&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15479,6 +15521,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Получившиеся значения отображаются на пересечении колонок и строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T070425Z" creationid="Марианна" creationdate="20201023T070425Z">
+        <seg>The obtained values are displayed at the intersection of columns and strings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пользователь должен иметь в виду данное обстоятельство при принятии решения о преобразовании типа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T193709Z" creationid="Марианна" creationdate="20201015T193709Z">
@@ -18055,6 +18105,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212406Z" creationid="Марианна" creationdate="20201012T212406Z">
         <seg>Factor 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Факты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T070152Z" creationid="Марианна" creationdate="20201023T070152Z">
+        <seg>Measures</seg>
       </tuv>
     </tu>
     <tu>
