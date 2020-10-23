@@ -9911,6 +9911,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В группе &lt;x1/&gt;Факты&lt;x2/&gt; порядок полей не имеет значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T082208Z" creationid="Марианна" creationdate="20201023T082208Z">
+        <seg>The order of fields does not matter in the &lt;x1/&gt;Measures&lt;x2/&gt; group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В дальнейшем его можно использовать в адресной строке браузера для быстрого перехода к открытому объекту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085540Z" creationid="Марианна" creationdate="20200814T085540Z">
@@ -16087,6 +16095,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При выборе нескольких вариантов функций, каждая из них будет рассчитана в отдельном столбце.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T082052Z" creationid="Марианна" creationdate="20201023T082052Z">
+        <seg>When selecting several function options, each of them will be calculated in a separate column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При выборе процесса на информационной панели можно вызвать контекстное меню, содержащее следующие действия:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072256Z" creationid="Марианна" creationdate="20200817T072247Z">
@@ -18335,6 +18351,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165032Z" creationid="Марианна" creationdate="20201010T165032Z">
         <seg>Thursday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы выбрать другие функции агрегации, необходимо дважды кликнуть по полю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T082010Z" creationid="Марианна" creationdate="20201023T082010Z">
+        <seg>To select other aggregation functions, it is required to double click on the field.</seg>
       </tuv>
     </tu>
     <tu>
