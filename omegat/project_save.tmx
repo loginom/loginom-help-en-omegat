@@ -18155,6 +18155,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Факты для них будут агрегироваться в столбце &lt;x9/&gt;Пропущенные значения&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071113Z" creationid="Марианна" creationdate="20201023T071113Z">
+        <seg>Measures for them will be aggregated in the &lt;x9/&gt;Null values&lt;x10/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Форматы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093617Z" creationid="Марианна" creationdate="20200826T093617Z">
