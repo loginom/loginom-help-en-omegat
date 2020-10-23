@@ -17381,6 +17381,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также можно установить минимальное число значений поля, из которых будут созданы колонки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T063955Z" creationid="Марианна" creationdate="20201023T063955Z">
+        <seg>It is also possible to set the minimum number of the fields values from which the columns will be created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также под кнопкой &lt;x7/&gt; &lt;x8/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T131400Z" creationid="Марианна" creationdate="20200816T130947Z">
