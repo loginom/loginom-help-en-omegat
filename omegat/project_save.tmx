@@ -10637,6 +10637,30 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вес, кг (Количество)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T195239Z" creationid="Марианна" creationdate="20201023T195239Z">
+        <seg>Weight, kg (Number)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вес, кг (Среднее)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T195250Z" creationid="Марианна" creationdate="20201023T195250Z">
+        <seg>Weight, kg (Mean)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вес, кг (Сумма)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T195224Z" creationid="Марианна" creationdate="20201023T195224Z">
+        <seg>Weight, kg (Sum)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ветви проверяются на истинность последовательно по списку сверху вниз, начиная с самой первой;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T064919Z" creationid="Марианна" creationdate="20200924T064919Z">
@@ -11625,6 +11649,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T160859Z" creationid="Марианна" creationdate="20201018T160859Z">
         <seg>Let's consider two tables as an example.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для примера применим три функции агрегации: сумма, количество записей и среднее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T195206Z" creationid="Марианна" creationdate="20201023T195206Z">
+        <seg>As an example, let's use three aggregation functions: sum, number of records and mean.</seg>
       </tuv>
     </tu>
     <tu>
