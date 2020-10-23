@@ -98,7 +98,7 @@ And the cross table settings are unchanged, the resulting data set will be as fo
 
 %/spoiler%
 
-* **Группа значений** — если в исходном поле с момента последней настройки узла появятся новые значения, то при включенном флаге *Прочие* факты для таких значений будут агрегироваться в столбце *Прочие*. Установленный флаг *Пропущенные* обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями. Measures for them will be aggregated in the *Null values* column.
+* **Group of values**: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled *Other* flag, measures for such values will be aggregated in the *Other* column. The enabled *Null* flag displays the field data with null values in the output data set. Measures for them will be aggregated in the *Null values* column.
 
 The lower wizard part includes the *General Columns Settings* area that has the following parameters:
 
@@ -108,7 +108,7 @@ The lower wizard part includes the *General Columns Settings* area that has the 
    * ->.
    * Space.
 * **Sliding unique values**: flag placement enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
-* **Ограничение количества значений** — используется, чтобы ограничить максимальное количество колонок  в выходном наборе, отбираются первые n сформированных полей, если установленное количество значений больше  количества уникальных значений в колонках, то фиктивные столбцы не добавляются.
+* **Value number limit** is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set count of values exceeds the count of the unique values in the columns, the fictitious columns are not added.
 
 Using ![Up](../../images/icons/toolbar-controls/moveup_default.svg) and ![Down](../../images/icons/toolbar-controls/movedown_default.svg) buttons, it is possible to change the order of fields in the group. The order of fields location has an impact on the resulting table structure.
 
@@ -147,9 +147,9 @@ Source table:
 
 ### Strings
 
-The cross table strings will be generated from the fields values. Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике [Группировка](../../processors/transformation/grouping.md).
+The cross table strings will be generated from the fields values. The similar field (fields) values will be grouped in the same manner as it is organized in the [Grouping](../../processors/transformation/grouping.md) handler.
 
-Порядок полей в данной группе влияет на порядок сортировки данных в результирующей таблице по этим полям.
+The fields order in this group has an impact on data sorting in the resulting table by these fields.
 
 %spoiler%Example:%spoiler%
 
@@ -185,8 +185,8 @@ Source table:
 
 ### Measures
 
-The fields data in this group are processes according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. По умолчанию для числовых типов выбрана функция *Сумма*, а для всех остальных *Количество*.
+The fields data in this group are processes according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. By default, the *Sum* function is selected for all numerical types, whereas for others - *Count*.
 
-Чтобы выбрать другие функции агрегации, необходимо дважды кликнуть по полю. При выборе нескольких вариантов функций, каждая из них будет рассчитана в отдельном столбце.
+To select other aggregation functions, it is required to double click on the field. When selecting several function options, each of them will be calculated in a separate column.
 
-В группе *Факты* порядок полей не имеет значения.
+The order of fields does not matter in the *Measures* group.

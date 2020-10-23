@@ -40,7 +40,7 @@ To enter the new string to the replacement table, it is required to use ![add](.
 
 When entering the replacement table, the following actions are available by means of the area toolbar:
 
-* ![Import](../../images/icons/toolbar-controls/import_default.svg) **Import** enables to read the replacement table from the specified [text file of the set format](../transformation/substitution/import-tz.md). The imported data will replace the data that have already been in the table. Further changes of the replacement table or file will not have impact on each other.
+* ![Import](../../images/icons/toolbar-controls/import_default.svg) **Import** enables to read the replacement table from the specified [text file of the set format](../transformation/substitution/import-tz.md). The imported data will replace the data that have already been in the table. Further changes of the replacement table or file will not have an impact on each other.
 * ![Export](../../images/icons/toolbar-controls/export_default.svg) **Export** enables to save the replacement table in the specified text file.
 * ![Sort](../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort** enables to sort the table by field of the source value.
 * **Change replacement type** enables to change [data type](../../data/datatype.md) of the variable after performed replacement. For example, it is possible to replace the real variable with the integer or string one. In this case, if replacement is not performed, the type will not be changed (with the exception / apart from replacement of the real number with the integer one).
