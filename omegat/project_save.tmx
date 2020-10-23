@@ -15889,6 +15889,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых уникальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T063217Z" creationid="Марианна" creationdate="20201023T063217Z">
+        <seg>When changing the source data set values, the whole structure of the resulting table will be reconstructed taking into account the new unique values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При изменений настроек узла &lt;x1/&gt;Инспектор свойств&lt;x2/&gt; обновляет дерево свойств.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110428Z" creationid="Марианна" creationdate="20200818T110428Z">
