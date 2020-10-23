@@ -40,7 +40,7 @@
 
 The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).
 
-* **Доступные поля** — содержит список полей входного набора данных.
+* **Available fields** contains a list of fields of the input data set.
 * **Выбранные поля** — делится на списки.
    * ![Информационные](../../images/icons/usage-types/unspecified_default.svg) **Информационные** — содержит поля, которые не будут изменяться.
    * ![Транспонируемые](../../images/icons/dataset-operations/dsa-flipping_default.svg) **Транспонируемые** — на основе этих полей будут сформированы 4 новых столбца: *Имена*, *Метки*, *Значения*, *Типы данных*.
