@@ -9871,6 +9871,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В нем будет подсчитано, сколько раз в исходном наборе данных встречается каждая комбинация из колонок и строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T061424Z" creationid="Марианна" creationdate="20201023T061424Z">
+        <seg>It will be calculated how many times each combination of columns and strings occurs in the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части окна расположена панель Процессы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
