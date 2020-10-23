@@ -11629,6 +11629,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для настройки требуется переместить поля входного набора в списки &lt;x1/&gt;Группа&lt;x2/&gt; или &lt;x3/&gt;Показатели&lt;x4/&gt;, перетаскивая их мышью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200900Z" creationid="Марианна" creationdate="20201023T200900Z">
+        <seg>To configure, it is required to move the input set fields to the &lt;x1/&gt;Group&lt;x2/&gt; or &lt;x3/&gt;Parameters&lt;x4/&gt; lists, dragging them with the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075157Z" creationid="Марианна" creationdate="20200816T140233Z">
