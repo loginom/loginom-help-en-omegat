@@ -16017,6 +16017,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При работе с кросс-таблицей может возникнуть ситуация, когда в полях, по которым были сформированы колонки, появляются новые значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T062847Z" creationid="Марианна" creationdate="20201023T062847Z">
+        <seg>When using the cross table, new values can appear in the fields by which the columns were generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При редактировании содержимого &lt;x7/&gt;Подмодели&lt;x8/&gt; ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками &lt;x9/&gt;Выходной узел&lt;x10/&gt; &lt;x11/&gt;Входной узел&lt;x12/&gt; и &lt;x13/&gt;Выходной узел&lt;x14/&gt; &lt;x15/&gt;Выходной узел&lt;x16/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164433Z" creationid="Марианна" creationdate="20200920T164433Z">
