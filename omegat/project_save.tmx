@@ -17939,6 +17939,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так же это можно сделать с помощью кнопок : &lt;x5/&gt;Переместить в Группу&lt;x6/&gt; &lt;x7/&gt;Переместить в Группу&lt;x8/&gt; (комбинация горячих клавиш &lt;x9/&gt;Alt+G&lt;x10/&gt;) и &lt;x11/&gt;Переместить в Показатель&lt;x12/&gt; &lt;x13/&gt;Переместить в Показатель&lt;x14/&gt; (комбинация горячих клавиш &lt;x15/&gt;Alt+S&lt;x16/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T202630Z" creationid="Марианна" creationdate="20201023T202630Z">
+        <seg>It can be also done using the following buttons : &lt;x5/&gt;Move to Group&lt;x6/&gt; &lt;x7/&gt;Move to Group&lt;x8/&gt; (hotkeys combination - &lt;x9/&gt;Alt+G&lt;x10/&gt;) and &lt;x11/&gt;Move to Parameter&lt;x12/&gt; &lt;x13/&gt;Move to Parameter&lt;x14/&gt; (hotkeys combination - &lt;x15/&gt;Alt+S&lt;x16/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая конструкция подстановки дает возможность динамически в ходе выполнения сценария формировать текст запроса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
