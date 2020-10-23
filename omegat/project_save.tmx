@@ -14023,6 +14023,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Над списком доступных полей расположено поле &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Фильтрация&lt;x20/&gt;, оно позволяет найти поле по имени или его части.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T202759Z" creationid="Марианна" creationdate="20201023T202759Z">
+        <seg>The &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Filter&lt;x20/&gt; field is located over the list of the available fields. It enables to find the field by name or its part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нажав %kbd Alt S %.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082709Z" creationid="Марианна" creationdate="20201006T082709Z">
