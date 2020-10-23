@@ -9525,6 +9525,18 @@ return my_concat(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Герметик.Павильон|Герметик.СтройРынок|Обои.Павильон|Обои.СтройРынок|Плитка.Павильон|Плитка.СтройРынок|
+|-:|-:|-:|-:|-:|-:|
+|300|200|600|300|100|400|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065929Z" creationid="Марианна" creationdate="20201023T065929Z">
+        <seg>|Sealer.Trade stand|Sealer.StroyRynok|Wallpaper.Trade stand|Wallpaper.StroyRynok|Tiles.Trade stand|Tiles.StroyRynok|
+|-:|-:|-:|-:|-:|-:|
+|300|200|600|300|100|400|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|КТУ|Кластер|
 |:-|-:|
 |&gt; 0.8|1|
@@ -12257,6 +12269,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>И параметром &lt;x9/&gt;Разделитель частей меток полей&lt;x10/&gt;: &lt;x11/&gt;.&lt;x12/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065545Z" creationid="Марианна" creationdate="20201023T065545Z">
+        <seg>And the following parameter: &lt;x9/&gt;Field caption parts separator&lt;x10/&gt;: &lt;x11/&gt;.&lt;x12/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
@@ -13222,11 +13242,11 @@ etc.</seg>
 Со строкой: Точка продажи&lt;x3/&gt;
 Фактом: Сумма продажи (Сумма).&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T064553Z" creationid="Марианна" creationdate="20201023T064553Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065506Z" creationid="Марианна" creationdate="20201023T064553Z">
         <seg>Cross table with the following column: Goods&lt;x1/&gt;
 The minimum number of the unique values is set for the column = 4&lt;x2/&gt;
 With string: Point of sale&lt;x3/&gt;
-Measure: Amount of sales (Sum).&lt;x4/&gt;</seg>
+Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17989,8 +18009,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Фактом: &lt;x7/&gt;Сумма продажи (Сумма)&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T065455Z" creationid="Марианна" creationdate="20201023T065455Z">
-        <seg>Measure: &lt;x7/&gt;Amount of sales (Сумма)&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065514Z" creationid="Марианна" creationdate="20201023T065455Z">
+        <seg>Measure: &lt;x7/&gt;Amount of sales (Amount)&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
