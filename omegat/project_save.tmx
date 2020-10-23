@@ -16151,10 +16151,18 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071531Z" creationid="Марианна" creationdate="20201023T071531Z">
+        <seg>When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых уникальных значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T063217Z" creationid="Марианна" creationdate="20201023T063217Z">
-        <seg>When changing the source data set values, the whole structure of the resulting table will be reconstructed taking into account the new unique values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071546Z" creationid="Марианна" creationdate="20201023T063217Z">
+        <seg>When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new unique values.</seg>
       </tuv>
     </tu>
     <tu>
