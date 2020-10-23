@@ -1026,6 +1026,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>28</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T195304Z" creationid="Марианна" creationdate="20201023T195304Z">
+        <seg>28</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>28.08.2017</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165136Z" creationid="Марианна" creationdate="20201010T165136Z">
@@ -1102,6 +1110,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212335Z" creationid="Марианна" creationdate="20201012T212335Z">
         <seg>33,8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>38</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T195258Z" creationid="Марианна" creationdate="20201023T195258Z">
+        <seg>38</seg>
       </tuv>
     </tu>
     <tu>
