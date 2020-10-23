@@ -4435,6 +4435,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Доступные поля&lt;x2/&gt; — содержит поля входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T055115Z" creationid="Марианна" creationdate="20201023T055115Z">
+        <seg>&lt;x1/&gt;Available fields&lt;x2/&gt; contains the input data set fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные элементы&lt;x2/&gt; — левая часть, содержит список возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164227Z" creationid="Марианна" creationdate="20200827T195837Z">
