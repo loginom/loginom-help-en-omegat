@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(точка).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064955Z" creationid="Марианна" creationdate="20201023T064955Z">
+        <seg>(Dot mark).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>*/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174946Z" creationid="Марианна" creationdate="20201005T174946Z">
@@ -274,6 +282,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100811Z" creationid="Марианна" creationdate="20201011T100811Z">
         <seg>-0.46</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065032Z" creationid="Марианна" creationdate="20201023T065032Z">
+        <seg>-&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064839Z" creationid="Марианна" creationdate="20201023T064839Z">
+        <seg>.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9477,6 +9501,14 @@ return my_concat(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>| (горизонтальная линия).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065028Z" creationid="Марианна" creationdate="20201023T065028Z">
+        <seg>| (horizontal line).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|КТУ|Кластер|
 |:-|-:|
 |&gt; 0.8|1|
@@ -16435,6 +16467,14 @@ Measure: Amount of sales (Sum).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085331Z" creationid="Марианна" creationdate="20200814T085331Z">
         <seg>It is available only for user packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пробел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065132Z" creationid="Марианна" creationdate="20201023T065132Z">
+        <seg>Space.</seg>
       </tuv>
     </tu>
     <tu>
