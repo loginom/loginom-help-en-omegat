@@ -5331,6 +5331,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt; с порядком колонок: &lt;x3/&gt;Товар&lt;x4/&gt;, &lt;x5/&gt;Точка продажи&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065404Z" creationid="Марианна" creationdate="20201023T065404Z">
+        <seg>&lt;x1/&gt;Cross table&lt;x2/&gt; with the following order of columns: &lt;x3/&gt;Goods&lt;x4/&gt;, &lt;x5/&gt;Point of sale&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Куб&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065759Z" creationid="Марианна" creationdate="20200812T065759Z">
@@ -7401,6 +7409,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T063058Z" creationid="Марианна" creationdate="20201023T063058Z">
         <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt; enables to create columns from the unique field (fields) values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скользящие уникальные значения&lt;x2/&gt; — установка флага позволяет заново создавать колонки из уникальных значений поля (полей).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065308Z" creationid="Марианна" creationdate="20201023T065308Z">
+        <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt;: flag placement enables to create columns from the unique field (fields) values again.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17967,6 +17983,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062705Z" creationid="Марианна" creationdate="20200826T062705Z">
         <seg>The file includes settings of fields that simplifies the import process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фактом: &lt;x7/&gt;Сумма продажи (Сумма)&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T065455Z" creationid="Марианна" creationdate="20201023T065455Z">
+        <seg>Measure: &lt;x7/&gt;Amount of sales (Сумма)&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
