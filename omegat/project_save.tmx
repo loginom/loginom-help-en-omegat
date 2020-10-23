@@ -12451,8 +12451,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Изменения, производимые в дальнейшем с таблицей замен или файлом, не отражаются друг на друге.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T202346Z" creationid="Марианна" creationdate="20201006T202346Z">
-        <seg>Further changes of the replacement table or file will not have impact on each other.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T081702Z" creationid="Марианна" creationdate="20201006T202346Z">
+        <seg>Further changes of the replacement table or file will not have an impact on each other.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14503,6 +14503,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике &lt;x1/&gt;Группировка&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T081547Z" creationid="Марианна" creationdate="20201023T081547Z">
+        <seg>The similar field (fields) values will be grouped in the same manner as it is organized in the &lt;x1/&gt;Grouping&lt;x2/&gt; handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одинарная кавычка (');</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062610Z" creationid="Марианна" creationdate="20200917T151747Z">
@@ -15723,6 +15731,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T090708Z" creationid="Марианна" creationdate="20201009T090708Z">
         <seg>The ports interacting with the sets of variables are graphically displayed as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порядок полей в данной группе влияет на порядок сортировки данных в результирующей таблице по этим полям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T081632Z" creationid="Марианна" creationdate="20201023T081632Z">
+        <seg>The fields order in this group has an impact on data sorting in the resulting table by these fields.</seg>
       </tuv>
     </tu>
     <tu>
