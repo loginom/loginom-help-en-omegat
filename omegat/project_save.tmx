@@ -5139,6 +5139,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Колонки&lt;x2/&gt; Колонки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T055420Z" creationid="Марианна" creationdate="20201023T055420Z">
+        <seg>&lt;x1/&gt;Columns&lt;x2/&gt; Columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты платформы Loginom&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T092015Z" creationid="Марианна" creationdate="20200813T092015Z">
@@ -7709,6 +7717,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строки&lt;x2/&gt; Строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T055435Z" creationid="Марианна" creationdate="20201023T055435Z">
+        <seg>&lt;x1/&gt;Strings&lt;x2/&gt; Strings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строковые функции&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T064837Z" creationid="Марианна" creationdate="20200812T064837Z">
@@ -8217,6 +8233,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054950Z" creationid="Марианна" creationdate="20200812T054950Z">
         <seg>&lt;x1/&gt;Factor analysis&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Факты&lt;x2/&gt; Факты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T055451Z" creationid="Марианна" creationdate="20201023T055451Z">
+        <seg>&lt;x1/&gt;Measures&lt;x2/&gt; Measures.</seg>
       </tuv>
     </tu>
     <tu>
