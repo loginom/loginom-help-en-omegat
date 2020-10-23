@@ -4195,6 +4195,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Группа значений&lt;x2/&gt; — если в исходном поле с момента последней настройки узла появятся новые значения, то при включенном флаге &lt;x3/&gt;Прочие&lt;x4/&gt; факты для таких значений будут агрегироваться в столбце &lt;x5/&gt;Прочие&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T080848Z" creationid="Марианна" creationdate="20201023T080848Z">
+        <seg>&lt;x1/&gt;Group of values&lt;x2/&gt;: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled &lt;x3/&gt;Other&lt;x4/&gt; flag, measures for such values will be aggregated in the &lt;x5/&gt;Other&lt;x6/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Группировка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185954Z" creationid="Марианна" creationdate="20200810T185954Z">
