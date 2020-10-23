@@ -10589,6 +10589,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входная таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064104Z" creationid="Марианна" creationdate="20201023T064104Z">
+        <seg>Input table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные и выходные поля будут связаны, если у них совпадают имена и тип данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163257Z" creationid="Марианна" creationdate="20201001T163257Z">
@@ -13977,6 +13985,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но в этом случае в результирующей таблице сохранится столбец с оставшимися значениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064054Z" creationid="Марианна" creationdate="20201023T064054Z">
+        <seg>But in this case, the column with the remaining values will be left in the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но, если таковой применяется, то в каждой итерации на вход узла, заключенного в цикл, подаются все строки этого набора (наборов).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T193850Z" creationid="Марианна" creationdate="20200921T193850Z">
@@ -17241,6 +17257,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сумма продажи</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064247Z" creationid="Марианна" creationdate="20201023T064247Z">
+        <seg>Amount of sales</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сценарий выполнит действия:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084625Z" creationid="Марианна" creationdate="20200717T084625Z">
@@ -17625,6 +17649,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062635Z" creationid="Марианна" creationdate="20200917T152255Z">
         <seg>Dot mark (.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Точка продажи</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064127Z" creationid="Марианна" creationdate="20201023T064127Z">
+        <seg>Point of sale</seg>
       </tuv>
     </tu>
     <tu>
