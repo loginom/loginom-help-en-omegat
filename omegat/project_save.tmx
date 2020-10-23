@@ -7703,8 +7703,8 @@ function pow(x, n) {</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сортировать результирующие данные&lt;x2/&gt; — данные в результирующей таблице будут отсортированы по полям группировки в зависимости от их последовательности расположения в списке &lt;x3/&gt;Группы&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T203858Z" creationid="Марианна" creationdate="20201023T203753Z">
-        <seg>&lt;x1/&gt;Sort result data&lt;x2/&gt;: the data in the resulting table will be sorted by the grouping fields according to their location in the &lt;x3/&gt;Groups&lt;x4/&gt; list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T203948Z" creationid="Марианна" creationdate="20201023T203753Z">
+        <seg>&lt;x1/&gt;Sort result data&lt;x2/&gt;: the data in the resulting table will be sorted by the grouping fields according to their location sequence in the &lt;x3/&gt;Groups&lt;x4/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
