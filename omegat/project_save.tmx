@@ -12129,6 +12129,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения этих полей станут заголовками столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T061456Z" creationid="Марианна" creationdate="20201023T061456Z">
+        <seg>The values of these fields will be the columns headers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения ячеек другой группы полей образуют &lt;x1/&gt;колонки&lt;x2/&gt; сводной таблицы, задавая их заголовки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T173738Z" creationid="Марианна" creationdate="20201022T173738Z">
@@ -12829,6 +12837,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
         <seg>In this case, the number of the nesting levels is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Колонки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T061431Z" creationid="Марианна" creationdate="20201023T061431Z">
+        <seg>Columns</seg>
       </tuv>
     </tu>
     <tu>
@@ -15309,6 +15325,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082420Z" creationid="Марианна" creationdate="20200918T082420Z">
         <seg>User Date/Time Format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля в данной группе обязательно должны иметь дискретный &lt;x1/&gt;вид данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T061653Z" creationid="Марианна" creationdate="20201023T061653Z">
+        <seg>The fields included into this group must relate to the discrete &lt;x1/&gt;data kind&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
