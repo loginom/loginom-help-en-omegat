@@ -7213,6 +7213,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разделитель частей меток полей&lt;x2/&gt; — выбирается каким символом будут разделены метки новых полей, при выборе нескольких полей в колонках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071428Z" creationid="Марианна" creationdate="20201023T071428Z">
+        <seg>&lt;x1/&gt;Field caption parts separator&lt;x2/&gt;: the character to separate the new fields captions when selecting several fields in the columns is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разность&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
@@ -10043,6 +10051,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061424Z" creationid="Марианна" creationdate="20201023T061424Z">
         <seg>It will be calculated how many times each combination of columns and strings occurs in the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В нижней части мастера расположена область &lt;x1/&gt;Общие настройки для колонок&lt;x2/&gt; имеющая следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071235Z" creationid="Марианна" creationdate="20201023T071235Z">
+        <seg>The lower wizard part includes the &lt;x1/&gt;General Columns Settings&lt;x2/&gt; area that has the following parameters:</seg>
       </tuv>
     </tu>
     <tu>
