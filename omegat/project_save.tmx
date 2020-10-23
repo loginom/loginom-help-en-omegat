@@ -3923,6 +3923,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — делится на списки &lt;x3/&gt;Группа&lt;x4/&gt; и &lt;x5/&gt;Показатели&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200339Z" creationid="Марианна" creationdate="20201023T200339Z">
+        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt; is divided into the &lt;x3/&gt;Group&lt;x4/&gt; and &lt;x5/&gt;Parameters&lt;x6/&gt; lists.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — параметры кэширования устанавливаются для каждого поля в отдельности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072813Z" creationid="Марианна" creationdate="20201016T072813Z">
@@ -4239,6 +4247,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T080848Z" creationid="Марианна" creationdate="20201023T080848Z">
         <seg>&lt;x1/&gt;Group of values&lt;x2/&gt;: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled &lt;x3/&gt;Other&lt;x4/&gt; flag, measures for such values will be aggregated in the &lt;x5/&gt;Other&lt;x6/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Группа&lt;x2/&gt; &lt;x3/&gt;Группа&lt;x4/&gt; — поля группировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T200410Z" creationid="Марианна" creationdate="20201023T200410Z">
+        <seg>&lt;x1/&gt;Group&lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt; denotes grouping fields.</seg>
       </tuv>
     </tu>
     <tu>
