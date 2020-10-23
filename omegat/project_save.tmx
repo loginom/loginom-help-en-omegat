@@ -10175,6 +10175,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В нижней части мастера расположены два параметра отмечаемые чекбоксами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T203606Z" creationid="Марианна" creationdate="20201023T203606Z">
+        <seg>Two parameters selected using checkboxes are located in the lower part of the wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части окна расположена панель Процессы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140645Z" creationid="Марианна" creationdate="20200716T140645Z">
@@ -11249,6 +11257,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194630Z" creationid="Марианна" creationdate="20201023T194630Z">
         <seg>Pears</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Далее отметить галочками нужные методы агрегации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T203340Z" creationid="Марианна" creationdate="20201023T203340Z">
+        <seg>Then, it is required to tick the necessary aggregation methods.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17131,6 +17147,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094355Z" creationid="Марианна" creationdate="20200813T094355Z">
         <seg>Platform editions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат для каждого метода будет записан в отдельный столбец.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T203408Z" creationid="Марианна" creationdate="20201023T203408Z">
+        <seg>The result for each method will be recorded in a separate column.</seg>
       </tuv>
     </tu>
     <tu>
