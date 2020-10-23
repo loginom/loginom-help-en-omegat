@@ -11485,6 +11485,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждой группы возвращается одна строка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194242Z" creationid="Марианна" creationdate="20201023T194242Z">
+        <seg>One string is returned for each group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки видимости узла необходимо установить соответствующий &lt;x9/&gt;модификатор доступа&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102937Z" creationid="Марианна" creationdate="20200919T102937Z">
@@ -17563,6 +17571,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113153Z" creationid="Марианна" creationdate="20200713T111357Z">
         <seg>The References are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Статистические показатели (или &lt;x3/&gt;функции агрегации&lt;x4/&gt;) при этом вычисляются для каждой группы, а не для всего набора в целом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194459Z" creationid="Марианна" creationdate="20201023T194459Z">
+        <seg>In this case, the statistical parameters (or &lt;x3/&gt;aggregation functions&lt;x4/&gt;) are calculated for each group but not for the whole data set.</seg>
       </tuv>
     </tu>
     <tu>
