@@ -11125,6 +11125,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Группировка выполняет действия над набором данных аналогичные действиям SQL-запроса с применением предложения &lt;x1/&gt;GROUP BY&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T193508Z" creationid="Марианна" creationdate="20201023T193508Z">
+        <seg>The grouping enables to perform actions with a data set that are simillar to the SQL request actions using &lt;x1/&gt;GROUP BY&lt;x2/&gt; offer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
