@@ -15407,6 +15407,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию для числовых типов выбрана функция &lt;x3/&gt;Сумма&lt;x4/&gt;, а для всех остальных &lt;x5/&gt;Количество&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T081859Z" creationid="Марианна" creationdate="20201023T081859Z">
+        <seg>By default, the &lt;x3/&gt;Sum&lt;x4/&gt; function is selected for all numerical types, whereas for others - &lt;x5/&gt;Count&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию имеет значение первого корневого узла выбранного файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T080438Z" creationid="Марианна" creationdate="20201001T162826Z">
