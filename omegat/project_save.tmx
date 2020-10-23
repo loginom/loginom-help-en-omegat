@@ -9587,6 +9587,28 @@ return my_concat(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Точка продажи|Дата|Сумма продажи|
+|:-|:-|-:|
+|Павильон|11.04.2012|320|
+|Павильон|12.04.2012|190|
+|Павильон|13.04.2012|490|
+|СтройРынок|10.04.2012|705|
+|СтройРынок|12.04.2012|130|
+|СтройРынок|13.04.2012|65|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T070847Z" creationid="Марианна" creationdate="20201023T070847Z">
+        <seg>|Point of sale|Date|Amount of sale|
+|:-|:-|-:|
+|Trade stand|11.04.2012|320|
+|Trade stand|12.04.2012|190|
+|Trade stand|13.04.2012|490|
+|StroyRynok|10.04.2012|705|
+|StroyRynok|12.04.2012|130|
+|StroyRynok|13.04.2012|65|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Точка продажи|Товар|Сумма продажи|Дата|
 |:-|:-|-:|:-|
 |СтройРынок|Обои|170|10.04.2012|
@@ -12367,6 +12389,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T183234Z" creationid="Марианна" creationdate="20201005T183234Z">
         <seg>A variable is generated from the data of each table field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Из значений полей  сформируются строки в кросс-таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T070938Z" creationid="Марианна" creationdate="20201023T070938Z">
+        <seg>The cross table strings will be generated from the fields values.</seg>
       </tuv>
     </tu>
     <tu>
