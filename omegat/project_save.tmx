@@ -18147,6 +18147,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Установленный флаг &lt;x7/&gt;Пропущенные&lt;x8/&gt; обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T081031Z" creationid="Марианна" creationdate="20201023T081031Z">
+        <seg>The enabled &lt;x7/&gt;Null&lt;x8/&gt; flag displays the field data with null values in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ф.&lt;x2/&gt; — экстремумы взаимнокорреляционной функции;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T072857Z" creationid="Марианна" creationdate="20201012T072857Z">
