@@ -9879,6 +9879,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области &lt;x1/&gt;Доступные поля&lt;x2/&gt; помимо полей входного набора данных всегда присутствует синтетическое поле &lt;x3/&gt;Количество&lt;x4/&gt;, оно может быть добавлено только в группу &lt;x5/&gt;Факты&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T060759Z" creationid="Марианна" creationdate="20201023T060759Z">
+        <seg>The &lt;x1/&gt;Available fields&lt;x2/&gt; area always contains the &lt;x3/&gt;Count&lt;x4/&gt; synthetic field apart from the input data set fields, it can be added only to the &lt;x5/&gt;Measures&lt;x6/&gt; group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В области кода в зависимости от выбранного синтаксиса калькулятора задается &lt;x1/&gt;формула расчета выражения&lt;x2/&gt; или &lt;x3/&gt;JavaScript код&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T084624Z" creationid="Марианна" creationdate="20201015T084624Z">
