@@ -4211,6 +4211,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Группировка&lt;x2/&gt; Группировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T193329Z" creationid="Марианна" creationdate="20201023T193329Z">
+        <seg>&lt;x1/&gt;Grouping&lt;x2/&gt; Grouping</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Групповая обработка&lt;x2/&gt; — этот цикл разделяет исходные данные на группы по выбранному критерию, благодаря чему узел, заключенный в цикл, обрабатывает каждую группу данных отдельно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201709Z" creationid="Марианна" creationdate="20200921T201545Z">
