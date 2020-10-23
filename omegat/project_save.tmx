@@ -16943,6 +16943,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью кнопок &lt;x1/&gt;Вверх&lt;x2/&gt; и &lt;x3/&gt;Вниз&lt;x4/&gt; можно менять порядок полей в группе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071659Z" creationid="Марианна" creationdate="20201023T071659Z">
+        <seg>Using &lt;x1/&gt;Up&lt;x2/&gt; and &lt;x3/&gt;Down&lt;x4/&gt; buttons, it is possible to change the order of fields in the group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью обработчика &lt;x1/&gt;Соединение&lt;x2/&gt; исходный набор данных дополняется полями присоединяемых наборов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070514Z" creationid="Марианна" creationdate="20201019T060655Z">
@@ -17911,6 +17919,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085125Z" creationid="Марианна" creationdate="20201015T085125Z">
         <seg>The Drag-and-Drop method enables to perform the same actions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>То, в каком порядке расположены поля, влияет на структуру результирующей таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T071803Z" creationid="Марианна" creationdate="20201023T071803Z">
+        <seg>The order of fields location has an impact on the resulting table structure.</seg>
       </tuv>
     </tu>
     <tu>
