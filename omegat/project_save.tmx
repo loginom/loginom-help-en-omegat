@@ -14199,6 +14199,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка метода агрегации для каждого показателя производится в отдельном окне.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T202837Z" creationid="Марианна" creationdate="20201023T202837Z">
+        <seg>The aggregation method is configured for each parameter in a separate window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка подключения к файлу XML</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T210741Z" creationid="Марианна" creationdate="20200829T210741Z">
