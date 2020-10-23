@@ -13145,6 +13145,20 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кросс-таблица с колонкой: Товар&lt;x1/&gt;
+Для колонки установлено минимальное количество уникальных значений = 4&lt;x2/&gt;
+Со строкой: Точка продажи&lt;x3/&gt;
+Фактом: Сумма продажи (Сумма).&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064553Z" creationid="Марианна" creationdate="20201023T064553Z">
+        <seg>Cross table with the following column: Goods&lt;x1/&gt;
+The minimum number of the unique values is set for the column = 4&lt;x2/&gt;
+With string: Point of sale&lt;x3/&gt;
+Measure: Amount of sales (Sum).&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кэширование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061734Z" creationid="Марианна" creationdate="20201014T061734Z">
@@ -16645,6 +16659,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T105923Z" creationid="Марианна" creationdate="20200916T105923Z">
         <seg>It is required to unload data processing and analysis results to the external sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующая таблица</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T064601Z" creationid="Марианна" creationdate="20201023T064601Z">
+        <seg>Resulting table</seg>
       </tuv>
     </tu>
     <tu>
