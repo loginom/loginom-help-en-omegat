@@ -754,6 +754,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>12.07.2015</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194517Z" creationid="Марианна" creationdate="20201023T194517Z">
+        <seg>12.07.2015</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>12.09.17</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113159Z" creationid="Марианна" creationdate="20201011T113159Z">
@@ -782,6 +790,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165012Z" creationid="Марианна" creationdate="20201010T165012Z">
         <seg>13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>13.07.2015</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194603Z" creationid="Марианна" creationdate="20201023T194603Z">
+        <seg>13.07.2015</seg>
       </tuv>
     </tu>
     <tu>
@@ -10605,6 +10621,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вес, кг</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194513Z" creationid="Марианна" creationdate="20201023T194513Z">
+        <seg>Weight, kg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ветви проверяются на истинность последовательно по списку сверху вниз, начиная с самой первой;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T064919Z" creationid="Марианна" creationdate="20200924T064919Z">
@@ -11129,6 +11153,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T193508Z" creationid="Марианна" creationdate="20201023T193508Z">
         <seg>The grouping enables to perform actions with a data set that are simillar to the SQL request actions using &lt;x1/&gt;GROUP BY&lt;x2/&gt; offer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Груши</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194630Z" creationid="Марианна" creationdate="20201023T194630Z">
+        <seg>Pears</seg>
       </tuv>
     </tu>
     <tu>
@@ -15727,6 +15759,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Помидоры</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194559Z" creationid="Марианна" creationdate="20201023T194559Z">
+        <seg>Tomatoes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Помимо автоматического, возможно связывание полей и объектов XML вручную двумя способами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T095007Z" creationid="Марианна" creationdate="20200918T095007Z">
@@ -18615,6 +18655,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T111231Z" creationid="Марианна" creationdate="20200916T111231Z">
         <seg>This table can be selected from the list of the database tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Яблоки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T194537Z" creationid="Марианна" creationdate="20201023T194537Z">
+        <seg>Apples</seg>
       </tuv>
     </tu>
     <tu>
