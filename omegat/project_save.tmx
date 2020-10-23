@@ -7357,6 +7357,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скользящие уникальные значения&lt;x2/&gt; — заново создает колонки из уникальных значений поля (полей).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201023T063058Z" creationid="Марианна" creationdate="20201023T063058Z">
+        <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt; enables to create columns from the unique field (fields) values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Скрытое&lt;x2/&gt; — навигация по объектам, не поместившимся в &lt;x3/&gt;Адресную строку&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T083032Z" creationid="Марианна" creationdate="20200814T083032Z">
