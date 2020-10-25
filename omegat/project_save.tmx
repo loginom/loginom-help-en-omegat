@@ -9439,10 +9439,34 @@ interface IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>[index: number]: IVariable;
+}
+
+// Представление переменных входного порта
+interface IVariables {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060210Z" creationid="Марианна" creationdate="20201025T060210Z">
+        <seg>[index: number]: IVariable;
+}
+
+// Representation of the input port variables
+interface IVariables {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>[name: string]: IColumn;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055153Z" creationid="Марианна" creationdate="20201025T055153Z">
         <seg>[name: string]: IColumn;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>[name: string]: IVariable;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060137Z" creationid="Марианна" creationdate="20201025T060137Z">
+        <seg>[name: string]: IVariable;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9753,6 +9777,22 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>readonly IsNull: boolean;                                               // Проверка на Null
+}
+
+// Доступ к итерируемому списку входных переменных по имени и индексу
+interface IVariableItems extends Iterable&lt;IVariable&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060134Z" creationid="Марианна" creationdate="20201025T060134Z">
+        <seg>readonly IsNull: boolean;                                               // Check for Null
+}
+
+// Access to iterated list of input variables by name and index
+interface IVariableItems extends Iterable&lt;IVariable&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>readonly Name: string;                                                  // Имя</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054228Z" creationid="Марианна" creationdate="20201025T054228Z">
@@ -9773,6 +9813,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055250Z" creationid="Марианна" creationdate="20201025T055250Z">
         <seg>readonly RowCount: number;                                              // Row count</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly Value: boolean | number | string | Date | undefined;           // Значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060048Z" creationid="Марианна" creationdate="20201025T060048Z">
+        <seg>readonly Value: boolean | number | string | Date | undefined;           // Value</seg>
       </tuv>
     </tu>
     <tu>
