@@ -344,6 +344,14 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Метод Get возвращает значение столбца по индексу</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054932Z" creationid="Марианна" creationdate="20201025T054932Z">
+        <seg>// Get method returns the column value by index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
