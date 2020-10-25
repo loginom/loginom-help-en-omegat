@@ -414,6 +414,14 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Метод clear очищает консоль вывода сообщений в окне предпросмотра</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061221Z" creationid="Марианна" creationdate="20201025T061221Z">
+        <seg>// clear method enables to clean the message console in the preview window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Метод error выводит сообщение об ошибке</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060908Z" creationid="Марианна" creationdate="20201025T060908Z">
@@ -9645,6 +9653,16 @@ interface Console {</seg>
 var console: Console;
 
 interface Console {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>clear(): void;
+}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061224Z" creationid="Марианна" creationdate="20201025T061224Z">
+        <seg>clear(): void;
+}</seg>
       </tuv>
     </tu>
     <tu>
