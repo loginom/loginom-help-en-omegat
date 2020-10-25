@@ -1,119 +1,119 @@
-# ![](../../../images/icons/components/javascript_default.svg) Полное описание API
+# ![](../../../images/icons/components/javascript_default.svg) Full API Description
 
 ```typescript
-const InputTable: IDataSource;      // Источник данных с первого порта
-const InputTables: IDataSource[];   // Массив входных источников данных
-const OutputTable: IOutputTable;    // Выходной набор данных
-const InputVariables: IVariables;   // Входные переменные
+const InputTable: IDataSource;      // Source of the data from the first port
+const InputTables: IDataSource[];   // Array of the input data sources
+const OutputTable: IOutputTable;    // Output data source
+const InputVariables: IVariables;   // Input variables
 
-// Перечисления, описывающие метаданные полей и переменных
-enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Тип данных
-enum DataKind { Undefined, Continuous, Discrete }                           // Вид данных
-enum UsageType { Unspecified, Excluded, Useless, Active,                    // Назначение полей
+// Enumerations describing metadata of fields and variables
+enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Data type
+enum DataKind { Undefined, Continuous, Discrete }                           // Data kind
+enum UsageType { Unspecified, Excluded, Useless, Active,                    // Usage type полей
                  Predicted, Key, Group, Value, Transaction, Item }
 
 // Представление столбцов набора данных
 interface IColumn extends Iterable<boolean | number | string | Date | undefined> {
-    readonly Index: number;                                                 // Индекс
-    readonly Name: string;                                                  // Имя
-    readonly DisplayName: string;                                           // Метка
-    readonly DataType: DataType;                                            // Тип данных
-    readonly DataKind: DataKind;                                            // Вид данных
-    readonly DefaultUsageType: UsageType;                                   // Назначение поля
-    readonly RowCount: number;                                              // Количество значений
+    readonly Index: number;                                                 // Index
+    readonly Name: string;                                                  // Name
+    readonly DisplayName: string;                                           // Caption
+    readonly DataType: DataType;                                            // Data type
+    readonly DataKind: DataKind;                                            // Data kind
+    readonly DefaultUsageType: UsageType;                                   // Field usage type
+    readonly RowCount: number;                                              // Number of values
 
-    // Метод Get возвращает значение столбца по индексу
+    // Get method returns the column value by index
     Get(row: number): boolean | number | string | Date | undefined;
-    // Метод IsNull проверяет на Null значение столбца
+    // IsNull method checks for the Null column value
     IsNull(row: number): boolean;
 }
 
-// Доступ к итерируемому списку столбцов по имени и индексу
+// Access to iterated list of columns by name and index
 interface IColumns extends Iterable<IColumn> {
     [name: string]: IColumn;
     [index: number]: IColumn;
 }
 
-// Свойства и методы набора данных
+// Properties and methods of data set
 interface IDataSource {
-    readonly Columns: IColumns;                                             // Список столбцов
-    readonly ColumnCount: number;                                           // Количество столбцов
-    readonly RowCount: number;                                              // Количество строк
+    readonly Columns: IColumns;                                             // List of columns
+    readonly ColumnCount: number;                                           // List of columns
+    readonly RowCount: number;                                              // Row count
 
-    // Метод Get возвращает значение заданной строки в заданном столбце
+    // Get method returns the value of the set row in the set column
     Get(row: number, col: number | string): boolean | number | string | Date | undefined;
-    // Метод IsNull проверяет на Null значение заданной строки в заданном столбце
+    // IsNull method checks for the Null value of the set row in the set column
     IsNull(row: number, col: number | string): boolean;
 }
 
-// Для выходного набора определены дополнительные методы
+// Additional methods are defined for the output data set
 interface IOutputTable extends IDataSource {
-    // Метод Append добавляет запись в набор
+    // Append method enables to append a record to data set
     Append(): void;
-    // Метод Set задает значение заданного поля в записи, созданной методом Append
+    // Set method enables to set the value of the set field to the records created by Append method
     Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
 }
 
-// Представление входной переменной
+// Representation of the input variable
 interface IVariable {
-    readonly Index: number;                                                 // Индекс
-    readonly Name: string;                                                  // Имя
-    readonly DisplayName: string;                                           // Метка
-    readonly DataType: DataType;                                            // Тип данных
-    readonly Value: boolean | number | string | Date | undefined;           // Значение
-    readonly IsNull: boolean;                                               // Проверка на Null
+    readonly Index: number;                                                 // Index
+    readonly Name: string;                                                  // Name
+    readonly DisplayName: string;                                           // Caption
+    readonly DataType: DataType;                                            // Data type
+    readonly Value: boolean | number | string | Date | undefined;           // Value
+    readonly IsNull: boolean;                                               // Check for Null
 }
 
-// Доступ к итерируемому списку входных переменных по имени и индексу
+// Access to iterated list of input variables by name and index
 interface IVariableItems extends Iterable<IVariable> {
     [name: string]: IVariable;
     [index: number]: IVariable;
 }
 
-// Представление переменных входного порта
+// Representation of the input port variables
 interface IVariables {
     readonly Items: IVariableItems;
     readonly Count: number;
 }
 
-// require применяется для импорта модулей CommonJS
+// require is used for import of CommonJS modules
 const require: IRequire;
 
-// Представление модуля
+// Representation of module
 interface IModule {
-    readonly id: string;               // идентификатор
-    parent?: this;                     // вызывающий модуль
-    filename?: string;                 // полный путь к модулю
-    loaded: boolean;                   // загружен ли модуль полностью
-    exports: any;                      // экспортируемый объект
+    readonly id: string;               // identifier
+    parent?: this;                     // calling module
+    filename?: string;                 // full path to module
+    loaded: boolean;                   // whether the module is completely loaded
+    exports: any;                      // exported object
 }
 
-// функция require принимает идентификатор модуля и возвращает свойство модуля exports
+// require function accepts the module identifier and returns the exports module property
 interface IRequireFunction {
     (id: string): any;
 }
 
 interface IRequire extends IRequireFunction  {
-    // функция resolve возвращает полный путь к модулю
+    // resolve function returns the full path to the module
     resolve: (id: string) => string;
-    // кэш модулей
+    // cache of modules
     cache: { [resolvedId: string]: IModule]; };
 }
 
-// Глобальный объект console
+// Global console object
 var console: Console;
 
 interface Console {
-     // Метод assert выводит в консоль сообщение, если первый аргумент false
+     // assert method enables to send the message to console if the first argument is false
     assert(condition?: boolean, ...data: any[]): void;
-    // Метод error выводит сообщение об ошибке
+    // error method shows error message
     error(...data: any[]): void;
-    // Методы warn выводит предупреждающее сообщение
+    // warn methods show warning message
     warn(...data: any[]): void;
-    // Методы info и log выводят информационное сообщение
+    // info and log methods show information message
     info(...data: any[]): void;
     log(...data: any[]): void;
-    // Метод clear очищает консоль вывода сообщений в окне предпросмотра
+    // clear method enables to clean the message console in the preview window
     clear(): void;
 }
 
