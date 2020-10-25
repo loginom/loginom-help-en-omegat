@@ -9569,6 +9569,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>readonly DefaultUsageType: UsageType;                                   // Назначение поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054309Z" creationid="Марианна" creationdate="20201025T054309Z">
+        <seg>readonly DefaultUsageType: UsageType;                                   // Field usage type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>readonly DisplayName: string;                                           // Метка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054237Z" creationid="Марианна" creationdate="20201025T054237Z">
@@ -9589,6 +9597,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054228Z" creationid="Марианна" creationdate="20201025T054228Z">
         <seg>readonly Name: string;                                                  // Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly RowCount: number;                                              // Количество значений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054324Z" creationid="Марианна" creationdate="20201025T054324Z">
+        <seg>readonly RowCount: number;                                              // Number of values</seg>
       </tuv>
     </tu>
     <tu>
