@@ -2442,6 +2442,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Полное описание API</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T053723Z" creationid="Марианна" creationdate="20201025T053723Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Full API Description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Присоединяемая таблица &lt;x3/&gt;N&lt;x4/&gt;, где N порядковый номер таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T065229Z" creationid="Марианна" creationdate="20201019T065039Z">
