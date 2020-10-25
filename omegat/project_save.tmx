@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Ctrl Space % — автодополнение кода;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T160005Z" creationid="Марианна" creationdate="20201025T160005Z">
+        <seg>%kbd Ctrl Space % — code completion;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Ctrl Up % — Переместить вверх;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195035Z" creationid="Марианна" creationdate="20200827T194944Z">
@@ -2468,6 +2476,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132516Z" creationid="Марианна" creationdate="20200819T132516Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Run all enables to run all nodes of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Горячие клавиши</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T155644Z" creationid="Марианна" creationdate="20201025T155644Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Hotkeys</seg>
       </tuv>
     </tu>
     <tu>
@@ -11053,6 +11069,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092152Z" creationid="Марианна" creationdate="20200919T092152Z">
         <seg>According to the strategy of &lt;x13/&gt;decomposition&lt;x14/&gt; of the complex analytic solution that can consist of several &lt;x15/&gt;Workflows&lt;x16/&gt; or &lt;x17/&gt;Packages&lt;x18/&gt;, it performs the task of data transfer between its independent blocks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В редакторе кода поддерживаются следующие горячие клавиши:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T155731Z" creationid="Марианна" creationdate="20201025T155731Z">
+        <seg>The following hotkeys are supported in the code editor:</seg>
       </tuv>
     </tu>
     <tu>
