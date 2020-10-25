@@ -352,6 +352,14 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Метод IsNull проверяет на Null значение столбца</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055055Z" creationid="Марианна" creationdate="20201025T055055Z">
+        <seg>// IsNull method checks for the Null column value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
@@ -9017,6 +9025,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084200Z" creationid="Марианна" creationdate="20201009T084200Z">
         <seg>FunctionLibrary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Get(row: number): boolean | number | string | Date | undefined;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054938Z" creationid="Марианна" creationdate="20201025T054938Z">
+        <seg>Get(row: number): boolean | number | string | Date | undefined;</seg>
       </tuv>
     </tu>
     <tu>
