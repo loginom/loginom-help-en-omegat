@@ -414,6 +414,30 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Метод error выводит сообщение об ошибке</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060908Z" creationid="Марианна" creationdate="20201025T060908Z">
+        <seg>// error method shows error message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Методы info и log выводят информационное сообщение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061044Z" creationid="Марианна" creationdate="20201025T061044Z">
+        <seg>// info and log methods show information message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Методы warn выводит предупреждающее сообщение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061007Z" creationid="Марианна" creationdate="20201025T061007Z">
+        <seg>// warn methods show warning message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
@@ -9557,6 +9581,14 @@ interface IVariables {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>assert(condition?: boolean, ...data: any[]): void;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060833Z" creationid="Марианна" creationdate="20201025T060833Z">
+        <seg>assert(condition?: boolean, ...data: any[]): void;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>b</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104130Z" creationid="Марианна" creationdate="20201006T104130Z">
@@ -9689,6 +9721,14 @@ enum UsageType { Unspecified, Excluded, Useless, Active,                    // U
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>error(...data: any[]): void;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060912Z" creationid="Марианна" creationdate="20201025T060912Z">
+        <seg>error(...data: any[]): void;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>exports: any;                      // экспортируемый объект
 }
 
@@ -9761,6 +9801,14 @@ interface IRequireFunction {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>info(...data: any[]): void;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061048Z" creationid="Марианна" creationdate="20201025T061048Z">
+        <seg>info(...data: any[]): void;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>let path = require.resolve("foo/foo.js");
 delete require.cache[path];  // Очищается кэш модуля "foo/foo.js"</seg>
       </tuv>
@@ -9783,6 +9831,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060419Z" creationid="Марианна" creationdate="20201025T060419Z">
         <seg>loaded: boolean;                   // whether the module is completely loaded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>log(...data: any[]): void;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061052Z" creationid="Марианна" creationdate="20201025T061052Z">
+        <seg>log(...data: any[]): void;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10035,6 +10091,14 @@ return my_concat(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084525Z" creationid="Марианна" creationdate="20201009T084525Z">
         <seg>user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>warn(...data: any[]): void;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T061011Z" creationid="Марианна" creationdate="20201025T061011Z">
+        <seg>warn(...data: any[]): void;</seg>
       </tuv>
     </tu>
     <tu>
