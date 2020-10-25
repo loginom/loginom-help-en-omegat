@@ -9117,6 +9117,20 @@ included between (slash-asterisk)</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Predicted, Key, Group, Value, Transaction, Item }
+
+// Представление столбцов набора данных
+interface IColumn extends Iterable&lt;boolean | number | string | Date | undefined&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054142Z" creationid="Марианна" creationdate="20201025T054142Z">
+        <seg>Predicted, Key, Group, Value, Transaction, Item }
+
+// Представление столбцов набора данных
+interface IColumn extends Iterable&lt;boolean | number | string | Date | undefined&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SELECT
 Период, Номенклатура.Наименование, Количество
 FROM
@@ -9535,6 +9549,46 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153555Z" creationid="Марианна" creationdate="20200917T153555Z">
         <seg>mm/dd/yyyy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly DataKind: DataKind;                                            // Вид данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054253Z" creationid="Марианна" creationdate="20201025T054253Z">
+        <seg>readonly DataKind: DataKind;                                            // Data kind</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly DataType: DataType;                                            // Тип данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054245Z" creationid="Марианна" creationdate="20201025T054245Z">
+        <seg>readonly DataType: DataType;                                            // Data type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly DisplayName: string;                                           // Метка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054237Z" creationid="Марианна" creationdate="20201025T054237Z">
+        <seg>readonly DisplayName: string;                                           // Caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly Index: number;                                                 // Индекс</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054219Z" creationid="Марианна" creationdate="20201025T054148Z">
+        <seg>readonly Index: number;                                                 // Index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly Name: string;                                                  // Имя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054228Z" creationid="Марианна" creationdate="20201025T054228Z">
+        <seg>readonly Name: string;                                                  // Name</seg>
       </tuv>
     </tu>
     <tu>
