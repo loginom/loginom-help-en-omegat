@@ -384,6 +384,14 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Метод Set задает значение заданного поля в записи, созданной методом Append</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055731Z" creationid="Марианна" creationdate="20201025T055731Z">
+        <seg>// Set method enables to set the value of the set field to the records created by Append method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Пример однострочного комментария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174755Z" creationid="Марианна" creationdate="20201005T174755Z">
@@ -8949,6 +8957,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Append(): void;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055618Z" creationid="Марианна" creationdate="20201025T055618Z">
+        <seg>Append(): void;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Books JOIN Publisher ON Books.PubId = Pub.Id</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112830Z" creationid="Марианна" creationdate="20200825T112830Z">
@@ -9315,6 +9331,22 @@ WHERE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084529Z" creationid="Марианна" creationdate="20201009T084529Z">
         <seg>SessionGuid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
+}
+
+// Представление входной переменной
+interface IVariable {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055932Z" creationid="Марианна" creationdate="20201025T055932Z">
+        <seg>Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
+}
+
+// Representation of the input variable
+interface IVariable {</seg>
       </tuv>
     </tu>
     <tu>
