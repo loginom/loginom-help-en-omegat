@@ -9061,6 +9061,22 @@ included between (slash-asterisk)</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>IsNull(row: number): boolean;
+}
+
+// Доступ к итерируемому списку столбцов по имени и индексу
+interface IColumns extends Iterable&lt;IColumn&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055150Z" creationid="Марианна" creationdate="20201025T055150Z">
+        <seg>IsNull(row: number): boolean;
+}
+
+// Access to iterated list of columns by name and index
+interface IColumns extends Iterable&lt;IColumn&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062507Z" creationid="Марианна" creationdate="20200826T062507Z">
@@ -9327,6 +9343,30 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>[index: number]: IColumn;
+}
+
+// Свойства и методы набора данных
+interface IDataSource {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055217Z" creationid="Марианна" creationdate="20201025T055217Z">
+        <seg>[index: number]: IColumn;
+}
+
+// Properties and methods of data set
+interface IDataSource {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>[name: string]: IColumn;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055153Z" creationid="Марианна" creationdate="20201025T055153Z">
+        <seg>[name: string]: IColumn;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>\Пакеты\Scoring\Расчет скорингового балла\Сценарий</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084713Z" creationid="Марианна" creationdate="20200814T084713Z">
@@ -9577,6 +9617,22 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>readonly ColumnCount: number;                                           // Количество столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055239Z" creationid="Марианна" creationdate="20201025T055239Z">
+        <seg>readonly ColumnCount: number;                                           // List of columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly Columns: IColumns;                                             // Список столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055227Z" creationid="Марианна" creationdate="20201025T055227Z">
+        <seg>readonly Columns: IColumns;                                             // List of columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>readonly DataKind: DataKind;                                            // Вид данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054253Z" creationid="Марианна" creationdate="20201025T054253Z">
@@ -9629,6 +9685,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054324Z" creationid="Марианна" creationdate="20201025T054324Z">
         <seg>readonly RowCount: number;                                              // Number of values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly RowCount: number;                                              // Количество строк</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055250Z" creationid="Марианна" creationdate="20201025T055250Z">
+        <seg>readonly RowCount: number;                                              // Row count</seg>
       </tuv>
     </tu>
     <tu>
