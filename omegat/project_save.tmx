@@ -9835,6 +9835,70 @@ interface IRequireFunction {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>import { OutputTable } from "builtIn/Data";
+
+// Импорт модуля функцией require
+const calcModule = require("builtIn/Calc");
+OutputTable.Append();
+let currentDate = new Date();
+OutputTable.Set(0, calcModule.AddWeek(currentDate, 1));
+OutputTable.Set(1, calcModule.AddQuarter(currentDate, -1));
+
+// Импорт через значение по умолчанию
+import calcDefault from "builtIn/Calc";
+OutputTable.Append();
+OutputTable.Set(0, calcDefault.Val("1"));
+OutputTable.Set(1, calcDefault.Str(1e6));
+
+// Импорт всего содержимого модуля
+import * as calc from "builtIn/Calc";
+OutputTable.Append();
+OutputTable.Set(0, calc.Count("AAA"));
+OutputTable.Set(1, calc.Lower("AAA"));
+
+// Импорт конкретных функций
+import { RegExMatchCount, RegExMatchedExp } from "builtIn/Calc";
+OutputTable.Append();
+OutputTable.Set(0, RegExMatchCount("a+?", "aaa"));
+OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
+
+// Динамический импорт
+import("builtIn/Calc").then(calc =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T155401Z" creationid="Марианна" creationdate="20201025T155401Z">
+        <seg>import { OutputTable } from "builtIn/Data";
+
+// Module import by require function
+const calcModule = require("builtIn/Calc");
+OutputTable.Append();
+let currentDate = new Date();
+OutputTable.Set(0, calcModule.AddWeek(currentDate, 1));
+OutputTable.Set(1, calcModule.AddQuarter(currentDate, -1));
+
+// Import using the default value
+import calcDefault from "builtIn/Calc";
+OutputTable.Append();
+OutputTable.Set(0, calcDefault.Val("1"));
+OutputTable.Set(1, calcDefault.Str(1e6));
+
+// Import of the whole module content
+import * as calc from "builtIn/Calc";
+OutputTable.Append();
+OutputTable.Set(0, calc.Count("AAA"));
+OutputTable.Set(1, calc.Lower("AAA"));
+
+// Import of certain functions
+import { RegExMatchCount, RegExMatchedExp } from "builtIn/Calc";
+OutputTable.Append();
+OutputTable.Set(0, RegExMatchCount("a+?", "aaa"));
+OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
+
+// Dynamic import
+import("builtIn/Calc").then(calc =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>info(...data: any[]): void;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T061048Z" creationid="Марианна" creationdate="20201025T061048Z">
@@ -17451,6 +17515,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T071151Z" creationid="Марианна" creationdate="20200715T071151Z">
         <seg>Examples of the control variables use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примеры использования функций:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T155101Z" creationid="Марианна" creationdate="20201025T155101Z">
+        <seg>Examples of the functions use:</seg>
       </tuv>
     </tu>
     <tu>
