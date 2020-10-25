@@ -2480,6 +2480,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Импорт функций Калькулятора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T153757Z" creationid="Марианна" creationdate="20201025T153757Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Calculator Functions Import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Клонировать узел — клонирование выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133022Z" creationid="Марианна" creationdate="20200819T133022Z">
@@ -10655,6 +10663,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В коде JavaScript возможно использование &lt;x1/&gt;функций Калькулятора&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T153838Z" creationid="Марианна" creationdate="20201025T153838Z">
+        <seg>It is possible to use the &lt;x1/&gt;Calculator functions&lt;x2/&gt; in the JavaScript code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В коде JavaScript можно использовать встроенные &lt;x1/&gt;функции &lt;x2/&gt;Калькулятора&lt;x3/&gt;&lt;x4/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T171146Z" creationid="Марианна" creationdate="20201020T171146Z">
@@ -12457,6 +12473,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102917Z" creationid="Марианна" creationdate="20200711T104055Z">
         <seg>For this purpose, &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to the &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого используется встроенный модуль &lt;x3/&gt;"builtIn/Calc"&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T154031Z" creationid="Марианна" creationdate="20201025T154031Z">
+        <seg>For this purpose, it is required to use the built-in module - &lt;x3/&gt;"builtIn/Calc"&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
