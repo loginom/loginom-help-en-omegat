@@ -344,10 +344,34 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Метод Append добавляет запись в набор</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055615Z" creationid="Марианна" creationdate="20201025T055615Z">
+        <seg>// Append method enables to append a record to data set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Метод Get возвращает значение заданной строки в заданном столбце</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055327Z" creationid="Марианна" creationdate="20201025T055327Z">
+        <seg>// Get method returns the value of the set row in the set column</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Метод Get возвращает значение столбца по индексу</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054932Z" creationid="Марианна" creationdate="20201025T054932Z">
         <seg>// Get method returns the column value by index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Метод IsNull проверяет на Null значение заданной строки в заданном столбце</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055432Z" creationid="Марианна" creationdate="20201025T055432Z">
+        <seg>// IsNull method checks for the Null value of the set row in the set column</seg>
       </tuv>
     </tu>
     <tu>
@@ -9037,6 +9061,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Get(row: number, col: number | string): boolean | number | string | Date | undefined;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055332Z" creationid="Марианна" creationdate="20201025T055332Z">
+        <seg>Get(row: number, col: number | string): boolean | number | string | Date | undefined;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IF(IsNull(gate_one),gate_two,gate_one) // однострочный комментарий продолжается до конца строки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062754Z" creationid="Марианна" creationdate="20201014T062754Z">
@@ -9073,6 +9105,22 @@ interface IColumns extends Iterable&lt;IColumn&gt; {</seg>
 
 // Access to iterated list of columns by name and index
 interface IColumns extends Iterable&lt;IColumn&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>IsNull(row: number, col: number | string): boolean;
+}
+
+// Для выходного набора определены дополнительные методы
+interface IOutputTable extends IDataSource {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T055529Z" creationid="Марианна" creationdate="20201025T055434Z">
+        <seg>IsNull(row: number, col: number | string): boolean;
+}
+
+// Additional methods are defined for the output data set
+interface IOutputTable extends IDataSource {</seg>
       </tuv>
     </tu>
     <tu>
