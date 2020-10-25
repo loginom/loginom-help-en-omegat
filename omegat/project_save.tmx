@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Ctrl / % — закомментировать/раскомментировать код.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T160251Z" creationid="Марианна" creationdate="20201025T160251Z">
+        <seg>%kbd Ctrl / % — comment out/uncomment the code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Ctrl Down % — Переместить вниз.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195027Z" creationid="Марианна" creationdate="20200827T195027Z">
