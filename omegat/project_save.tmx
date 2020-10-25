@@ -9631,6 +9631,30 @@ enum UsageType { Unspecified, Excluded, Useless, Active,                    // U
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>exports: any;                      // экспортируемый объект
+}
+
+// функция require принимает идентификатор модуля и возвращает свойство модуля exports
+interface IRequireFunction {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060528Z" creationid="Марианна" creationdate="20201025T060528Z">
+        <seg>exports: any;                      // exported object
+}
+
+// require function accepts the module identifier and returns the exports module property
+interface IRequireFunction {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>filename?: string;                 // полный путь к модулю</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060334Z" creationid="Марианна" creationdate="20201025T060334Z">
+        <seg>filename?: string;                 // full path to module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>function my_concat(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114331Z" creationid="Марианна" creationdate="20201020T114331Z">
@@ -9697,6 +9721,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>loaded: boolean;                   // загружен ли модуль полностью</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060419Z" creationid="Марианна" creationdate="20201025T060419Z">
+        <seg>loaded: boolean;                   // whether the module is completely loaded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>main</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084400Z" creationid="Марианна" creationdate="20201009T084400Z">
@@ -9721,6 +9753,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>parent?: this;                     // вызывающий модуль</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060323Z" creationid="Марианна" creationdate="20201025T060323Z">
+        <seg>parent?: this;                     // calling module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>readonly ColumnCount: number;                                           // Количество столбцов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055239Z" creationid="Марианна" creationdate="20201025T055239Z">
@@ -9733,6 +9773,28 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055227Z" creationid="Марианна" creationdate="20201025T055227Z">
         <seg>readonly Columns: IColumns;                                             // List of columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly Count: number;
+}
+
+// require применяется для импорта модулей CommonJS
+const require: IRequire;
+
+// Представление модуля
+interface IModule {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060258Z" creationid="Марианна" creationdate="20201025T060258Z">
+        <seg>readonly Count: number;
+}
+
+// require is used for import of CommonJS modules
+const require: IRequire;
+
+// Representation of module
+interface IModule {</seg>
       </tuv>
     </tu>
     <tu>
@@ -9793,6 +9855,14 @@ interface IVariableItems extends Iterable&lt;IVariable&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>readonly Items: IVariableItems;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060213Z" creationid="Марианна" creationdate="20201025T060213Z">
+        <seg>readonly Items: IVariableItems;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>readonly Name: string;                                                  // Имя</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054228Z" creationid="Марианна" creationdate="20201025T054228Z">
@@ -9821,6 +9891,14 @@ interface IVariableItems extends Iterable&lt;IVariable&gt; {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060048Z" creationid="Марианна" creationdate="20201025T060048Z">
         <seg>readonly Value: boolean | number | string | Date | undefined;           // Value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>readonly id: string;               // идентификатор</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T060307Z" creationid="Марианна" creationdate="20201025T060307Z">
+        <seg>readonly id: string;               // identifier</seg>
       </tuv>
     </tu>
     <tu>
