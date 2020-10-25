@@ -9187,6 +9187,14 @@ included between (slash-asterisk)</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>IF, IFF — имеется аналог в JS: &lt;x1/&gt;if (&lt;условие&gt;) {...}&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T154226Z" creationid="Марианна" creationdate="20201025T154226Z">
+        <seg>IF, IFF: there is an analogue in JS: &lt;x1/&gt;if (&lt;condition&gt;) {...}&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IsNull(row: number): boolean;
 }
 
@@ -12601,6 +12609,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
         <seg>Availability of nodes is defined by their visibility (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступны все функции, включая реализованные в плагинах, за исключением следующих:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T154130Z" creationid="Марианна" creationdate="20201025T154130Z">
+        <seg>All functions are available, including the ones implemented in plugins, with the exception of the foloowing ones::</seg>
       </tuv>
     </tu>
     <tu>
