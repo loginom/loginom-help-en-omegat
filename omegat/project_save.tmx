@@ -9385,6 +9385,30 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>const InputTable: IDataSource;      // Источник данных с первого порта
+const InputTables: IDataSource[];   // Массив входных источников данных
+const OutputTable: IOutputTable;    // Выходной набор данных
+const InputVariables: IVariables;   // Входные переменные
+
+// Перечисления, описывающие метаданные полей и переменных
+enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Тип данных
+enum DataKind { Undefined, Continuous, Discrete }                           // Вид данных
+enum UsageType { Unspecified, Excluded, Useless, Active,                    // Назначение полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T054137Z" creationid="Марианна" creationdate="20201025T054137Z">
+        <seg>const InputTable: IDataSource;      // Source of the data from the first port
+const InputTables: IDataSource[];   // Array of the input data sources
+const OutputTable: IOutputTable;    // Output data source
+const InputVariables: IVariables;   // Input variables
+
+// Enumerations describing metadata of fields and variables
+enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Data type
+enum DataKind { Undefined, Continuous, Discrete }                           // Data kind
+enum UsageType { Unspecified, Excluded, Useless, Active,                    // Usage type полей</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>const foo = require("foo/foo.js");</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T190439Z" creationid="Марианна" creationdate="20201020T190439Z">
