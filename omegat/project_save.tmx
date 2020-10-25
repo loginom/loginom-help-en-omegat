@@ -9267,6 +9267,24 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>OutputTable.Append();</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T155405Z" creationid="Марианна" creationdate="20201025T155405Z">
+        <seg>OutputTable.Append();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>OutputTable.Set(0, calc.Repeat(1, 10));
+});</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201025T155408Z" creationid="Марианна" creationdate="20201025T155408Z">
+        <seg>OutputTable.Set(0, calc.Repeat(1, 10));
+});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>PackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084243Z" creationid="Марианна" creationdate="20201009T084243Z">
