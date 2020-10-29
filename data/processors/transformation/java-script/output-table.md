@@ -56,7 +56,7 @@
 
 **Append()**
 
-Метод добавляет новую строку в выходной набор данных. Не имеет аргументов.
+Метод добавляет новую строку в выходной набор данных. It does not have arguments.
 
 %/spoiler%
 
@@ -71,7 +71,7 @@
 
 %/spoiler%
 
-## Примеры
+## Examples:
 
 ```javascript
 import { OutputTable } from "builtIn/Data";

@@ -20,7 +20,7 @@
 
 %/spoiler%
 
-## Примеры
+## Examples:
 
 ```javascript
 import { InputVariables } from "builtIn/Data";

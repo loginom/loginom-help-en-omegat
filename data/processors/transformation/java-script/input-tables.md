@@ -56,7 +56,7 @@
 
 %/spoiler%
 
-## Примеры
+## Examples:
 
 ```javascript
 import { InputTable, InputTables } from "builtIn/Data";
