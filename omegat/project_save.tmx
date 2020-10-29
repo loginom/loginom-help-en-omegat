@@ -13015,6 +13015,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если выражение ложно, то сообщение об ошибке выводится в консоль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T055507Z" creationid="Марианна" creationdate="20201029T055507Z">
+        <seg>If the expression is false, the error message is directed to the console.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если данные переменные не будут определены во входном порту узла импорта, то возникнет исключение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T123050Z" creationid="Марианна" creationdate="20200823T123050Z">
