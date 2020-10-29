@@ -18,12 +18,12 @@ The toolbar that enables the following operations with the construction area and
 * ![](../images/icons/toolbar-controls/workflow_default.svg) Show as workflow enables to display a Workflow in the standard form (in the form of oriented graph).
 * ![](../images/icons/toolbar-controls/table_default.svg)Show as table provides compact display of the Workflow in the form of a table that contains used items.
 * ![](../images/icons/toolbar-controls/v-align-left_default.svg)Vertical alignment provides vertical alignment of the Workflow nodes in the construction area. There are the following types of the vertical alignment:
-   * Vertical left alignment
-   * Vertical middle alignment
-   * Vertical right alignment
-   * Vertical upper alignment
-   * Vertical center alignment.
-   * Vertical bottom alignment
+   * Align left
+   * Align middle
+   * Align right
+   * Align top
+   * Align center
+   * Align bottom
 * ![](../images/icons/toolbar-controls/layout_default.svg) Auto node alignment is an automatic placement of nodes in the Workflow area according to their sequence of data processing.
 * ![](../images/icons/toolbar-controls/move-front_default.svg)Send selected nodes enables to bring selected nodes and their signatures to:
    * Front
