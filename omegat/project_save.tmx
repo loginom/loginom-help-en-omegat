@@ -12053,6 +12053,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вывод в консоль:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T061054Z" creationid="Марианна" creationdate="20201029T061054Z">
+        <seg>Directing to the console:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выводит информационное сообщение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060353Z" creationid="Марианна" creationdate="20201029T060353Z">
@@ -14317,6 +14325,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082615Z" creationid="Марианна" creationdate="20201006T082615Z">
         <seg>Using &lt;x1/&gt;Move to Variables&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Код вывода сообщений в консоль:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T061038Z" creationid="Марианна" creationdate="20201029T061038Z">
+        <seg>Code of directing messages to the console:</seg>
       </tuv>
     </tu>
     <tu>
