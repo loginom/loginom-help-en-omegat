@@ -2560,6 +2560,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Консоль</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T053659Z" creationid="Марианна" creationdate="20201029T053659Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Console</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить узел — заходит в настройки выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132726Z" creationid="Марианна" creationdate="20200819T132726Z">
@@ -16333,6 +16341,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052722Z" creationid="Марианна" creationdate="20200819T131816Z">
         <seg>Align middle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию в окне &lt;x1/&gt;Предпросмотра&lt;x2/&gt; окно вывода сообщений консоли свернуто.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054036Z" creationid="Марианна" creationdate="20201029T054036Z">
+        <seg>By default, the message console window in the &lt;x1/&gt;Preview&lt;x2/&gt; window is collapsed.</seg>
       </tuv>
     </tu>
     <tu>
