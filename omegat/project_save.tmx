@@ -16283,8 +16283,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По левому краю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T131945Z" creationid="Марианна" creationdate="20200819T131812Z">
-        <seg>Vertical left alignment</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T052702Z" creationid="Марианна" creationdate="20200819T131812Z">
+        <seg>Align left</seg>
       </tuv>
     </tu>
     <tu>
