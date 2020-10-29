@@ -16259,8 +16259,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По верхнему краю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T131905Z" creationid="Марианна" creationdate="20200819T131905Z">
-        <seg>Vertical upper alignment</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T052752Z" creationid="Марианна" creationdate="20200819T131905Z">
+        <seg>Align top</seg>
       </tuv>
     </tu>
     <tu>
@@ -16307,8 +16307,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По нижнему краю.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T132010Z" creationid="Марианна" creationdate="20200819T132010Z">
-        <seg>Vertical bottom alignment</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T052817Z" creationid="Марианна" creationdate="20200819T132010Z">
+        <seg>Align bottom</seg>
       </tuv>
     </tu>
     <tu>
@@ -16323,16 +16323,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По правому краю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T131856Z" creationid="Марианна" creationdate="20200819T131856Z">
-        <seg>Vertical right alignment</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T052738Z" creationid="Марианна" creationdate="20200819T131856Z">
+        <seg>Align right</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>По середине;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T131816Z" creationid="Марианна" creationdate="20200819T131816Z">
-        <seg>Vertical middle alignment</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T052722Z" creationid="Марианна" creationdate="20200819T131816Z">
+        <seg>Align middle</seg>
       </tuv>
     </tu>
     <tu>
@@ -16475,8 +16475,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По центру;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T131939Z" creationid="Марианна" creationdate="20200819T131939Z">
-        <seg>Vertical center alignment.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T052800Z" creationid="Марианна" creationdate="20200819T131939Z">
+        <seg>Align center</seg>
       </tuv>
     </tu>
     <tu>
