@@ -182,6 +182,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%error%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T055924Z" creationid="Марианна" creationdate="20201029T055924Z">
+        <seg>%spoiler%error%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%spoiler%warn%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060114Z" creationid="Марианна" creationdate="20201029T060114Z">
+        <seg>%spoiler%warn%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример заполнения:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165201Z" creationid="Марианна" creationdate="20200916T165201Z">
@@ -3312,6 +3328,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;error(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T055928Z" creationid="Марианна" creationdate="20201029T055928Z">
+        <seg>&lt;x1/&gt;error(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;false&lt;x2/&gt; — Ложь;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113808Z" creationid="Марианна" creationdate="20201020T113808Z">
@@ -3404,6 +3428,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113756Z" creationid="Марианна" creationdate="20201020T113756Z">
         <seg>&lt;x1/&gt;true&lt;x2/&gt; — True.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;warn(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060117Z" creationid="Марианна" creationdate="20201029T060117Z">
+        <seg>&lt;x1/&gt;warn(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11161,6 +11193,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В противном случае сообщение не выводится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T055919Z" creationid="Марианна" creationdate="20201029T055919Z">
+        <seg>Otherwise, the message is not shown.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В рамках стратегии &lt;x13/&gt;декомпозиции&lt;x14/&gt; сложного аналитического решения, которое может состоять из нескольких &lt;x15/&gt;Сценариев&lt;x16/&gt; или &lt;x17/&gt;Пакетов&lt;x18/&gt;, выполняет задачу передачи данных между его независимыми блоками.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092152Z" creationid="Марианна" creationdate="20200919T092152Z">
@@ -11827,6 +11867,30 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164030Z" creationid="Марианна" creationdate="20200918T095357Z">
         <seg>It is required to select the item to be linked, and left-click its cell in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выводит предупреждающее сообщение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060201Z" creationid="Марианна" creationdate="20201029T060201Z">
+        <seg>It shows the warning message.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выводит сообщение об ошибке в случае, если первый параметр = &lt;x1/&gt;false&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T055851Z" creationid="Марианна" creationdate="20201029T055851Z">
+        <seg>It shows the message error, if the first parameter = &lt;x1/&gt;false&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выводит сообщение об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060007Z" creationid="Марианна" creationdate="20201029T060007Z">
+        <seg>It shows the message error.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19303,8 +19367,16 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Уровень логирования &lt;x1/&gt;ошибка&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201029T054921Z" creationid="Марианна" creationdate="20201029T054921Z">
-        <seg>&lt;x1/&gt;error&lt;x2/&gt; logging level:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060046Z" creationid="Марианна" creationdate="20201029T054921Z">
+        <seg>The &lt;x1/&gt;error&lt;x2/&gt; logging level:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уровень логирования &lt;x1/&gt;предупреждение&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060112Z" creationid="Марианна" creationdate="20201029T060036Z">
+        <seg>The &lt;x1/&gt;warning&lt;x2/&gt; logging level:</seg>
       </tuv>
     </tu>
     <tu>
