@@ -182,10 +182,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%clear%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060418Z" creationid="Марианна" creationdate="20201029T060418Z">
+        <seg>%spoiler%clear%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%error%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T055924Z" creationid="Марианна" creationdate="20201029T055924Z">
         <seg>%spoiler%error%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%spoiler%info%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060324Z" creationid="Марианна" creationdate="20201029T060324Z">
+        <seg>%spoiler%info%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%spoiler%log%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060358Z" creationid="Марианна" creationdate="20201029T060358Z">
+        <seg>%spoiler%log%spoiler%</seg>
       </tuv>
     </tu>
     <tu>
@@ -3296,6 +3320,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;clear()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060421Z" creationid="Марианна" creationdate="20201029T060421Z">
+        <seg>&lt;x1/&gt;clear()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;d&lt;x2/&gt; — день месяца без ведущего нуля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082652Z" creationid="Марианна" creationdate="20200918T082652Z">
@@ -3356,6 +3388,22 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083554Z" creationid="Марианна" creationdate="20200918T083554Z">
         <seg>&lt;x1/&gt;hh&lt;x2/&gt; — hours in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;info(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060328Z" creationid="Марианна" creationdate="20201029T060328Z">
+        <seg>&lt;x1/&gt;info(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;log(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060401Z" creationid="Марианна" creationdate="20201029T060401Z">
+        <seg>&lt;x1/&gt;log(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11871,6 +11919,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выводит информационное сообщение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060353Z" creationid="Марианна" creationdate="20201029T060353Z">
+        <seg>It shows the information message.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выводит предупреждающее сообщение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060201Z" creationid="Марианна" creationdate="20201029T060201Z">
@@ -11881,16 +11937,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выводит сообщение об ошибке в случае, если первый параметр = &lt;x1/&gt;false&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201029T055851Z" creationid="Марианна" creationdate="20201029T055851Z">
-        <seg>It shows the message error, if the first parameter = &lt;x1/&gt;false&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060225Z" creationid="Марианна" creationdate="20201029T055851Z">
+        <seg>It shows the error message, if the first parameter = &lt;x1/&gt;false&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Выводит сообщение об ошибке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201029T060007Z" creationid="Марианна" creationdate="20201029T060007Z">
-        <seg>It shows the message error.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060243Z" creationid="Марианна" creationdate="20201029T060007Z">
+        <seg>It shows the error message.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15929,6 +15985,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Очищает консоль вывода сообщений в окне &lt;x1/&gt;Предпросмотра&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060510Z" creationid="Марианна" creationdate="20201029T060510Z">
+        <seg>It enables to clean the message console in the &lt;x1/&gt;Preview&lt;x2/&gt; window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100645Z" creationid="Марианна" creationdate="20201011T100645Z">
@@ -17267,8 +17331,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При выполнении узла сообщения консоли записываются в лог сервера, если тип сообщения соответствует &lt;x1/&gt;уровню логирования&lt;x2/&gt; (&lt;x3/&gt;ошибка&lt;x4/&gt;, &lt;x5/&gt;предупреждение&lt;x6/&gt;, &lt;x7/&gt;информация&lt;x8/&gt;):</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201029T054846Z" creationid="Марианна" creationdate="20201029T054846Z">
-        <seg>When running the node, the console messages are recorded to the server log, if the message type matches the &lt;x1/&gt;logging level&lt;x2/&gt; (&lt;x3/&gt;error&lt;x4/&gt;, &lt;x5/&gt;warning&lt;x6/&gt;, &lt;x7/&gt;info&lt;x8/&gt;):</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060322Z" creationid="Марианна" creationdate="20201029T054846Z">
+        <seg>When running the node, the console messages are recorded to the server log, if the message type matches the &lt;x1/&gt;logging level&lt;x2/&gt; (&lt;x3/&gt;error&lt;x4/&gt;, &lt;x5/&gt;warning&lt;x6/&gt;, &lt;x7/&gt;information&lt;x8/&gt;):</seg>
       </tuv>
     </tu>
     <tu>
@@ -17933,6 +17997,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063220Z" creationid="Марианна" creationdate="20200817T063220Z">
         <seg>Process — processes (names) and their constituents are hierarchically specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Прочие методы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060415Z" creationid="Марианна" creationdate="20201029T060415Z">
+        <seg>Other methods:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19361,6 +19433,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143141Z" creationid="Марианна" creationdate="20200920T143141Z">
         <seg>Simplification of the &lt;x1/&gt;Workflow&lt;x2/&gt; structure is achieved by combination of several nodes performing particular stage of the data processing into one node of the &lt;x3/&gt;Supernode&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уровень логирования &lt;x1/&gt;информация&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060314Z" creationid="Марианна" creationdate="20201029T060314Z">
+        <seg>The &lt;x1/&gt;information&lt;x2/&gt; logging level:</seg>
       </tuv>
     </tu>
     <tu>
