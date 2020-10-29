@@ -9275,6 +9275,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Error!!!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060900Z" creationid="Марианна" creationdate="20201029T060900Z">
+        <seg>Error!!!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Excel 2003 (расширение .xls).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194232Z" creationid="Марианна" creationdate="20200916T194232Z">
@@ -9359,6 +9367,16 @@ included between (slash-asterisk)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T154226Z" creationid="Марианна" creationdate="20201025T154226Z">
         <seg>IF, IFF: there is an analogue in JS: &lt;x1/&gt;if (&lt;condition&gt;) {...}&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Information
+Warning!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060854Z" creationid="Марианна" creationdate="20201029T060854Z">
+        <seg>Information
+Warning!</seg>
       </tuv>
     </tu>
     <tu>
@@ -10093,6 +10111,72 @@ import("builtIn/Calc").then(calc =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>import { OutputTable, InputTables } from "builtIn/Data";
+
+function f() { return "something"; }
+
+console.info("Information");
+console.warn("Warning!");
+console.error("Error!!!");
+console.log(true);
+console.log(undefined);
+console.log(null);
+console.log(1, 2, 3);
+console.log(Math);
+console.log(OutputTable);
+console.log(f);
+console.log(OutputTable.Append);
+console.log(new RegExp("a+"));
+console.log(new Error("error"));
+console.log(new String("Str"));
+console.log(new Boolean(true));
+console.log(new Date());
+console.log(new ArrayBuffer(10));
+console.log(Symbol());
+console.log(Symbol("aaa"));
+console.log(Object(Symbol()));
+console.log(new Proxy({}, {}));
+console.log([1, InputTables, /^[0..9]+$/]);
+console.assert(0 == 0);
+console.assert(1 == 0);
+console.assert(1 == 0, "1 != 0");
+console.assert(1 == 0, "lie", "1 != 0");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060846Z" creationid="Марианна" creationdate="20201029T060846Z">
+        <seg>import { OutputTable, InputTables } from "builtIn/Data";
+
+function f() { return "something"; }
+
+console.info("Information");
+console.warn("Warning!");
+console.error("Error!!!");
+console.log(true);
+console.log(undefined);
+console.log(null);
+console.log(1, 2, 3);
+console.log(Math);
+console.log(OutputTable);
+console.log(f);
+console.log(OutputTable.Append);
+console.log(new RegExp("a+"));
+console.log(new Error("error"));
+console.log(new String("Str"));
+console.log(new Boolean(true));
+console.log(new Date());
+console.log(new ArrayBuffer(10));
+console.log(Symbol());
+console.log(Symbol("aaa"));
+console.log(Object(Symbol()));
+console.log(new Proxy({}, {}));
+console.log([1, InputTables, /^[0..9]+$/]);
+console.assert(0 == 0);
+console.assert(1 == 0);
+console.assert(1 == 0, "1 != 0");
+console.assert(1 == 0, "lie", "1 != 0");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>info(...data: any[]): void;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T061048Z" creationid="Марианна" creationdate="20201025T061048Z">
@@ -10383,6 +10467,56 @@ return my_concat(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113215Z" creationid="Марианна" creationdate="20200825T113215Z">
         <seg>title LIKE 'Adventures%'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>true
+undefined
+null
+1 2 3
+[object Math]
+[object Object]
+function f() { return "something"; }
+function Append() { [native code] }
+/a+/
+Error: error
+[object String]
+[object Boolean]
+Mon Dec 17 2018 18:40:56 GMT+0300 (RTZ 2 (зима))
+[object ArrayBuffer]
+Symbol()
+Symbol(aaa)
+[object Symbol]
+[object Proxy]
+1,[object Object],/^[0..9]+$/
+Assertion failed:
+Assertion failed: 1 != 0
+Assertion failed: lie 1 != 0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060940Z" creationid="Марианна" creationdate="20201029T060906Z">
+        <seg>true
+undefined
+null
+1 2 3
+[object Math]
+[object Object]
+function f() { return "something"; }
+function Append() { [native code] }
+/a+/
+Error: error
+[object String]
+[object Boolean]
+Mon Dec 17 2018 18:40:56 GMT+0300 (RTZ 2 (winter))
+[object ArrayBuffer]
+Symbol()
+Symbol(aaa)
+[object Symbol]
+[object Proxy]
+1,[object Object],/^[0..9]+$/
+Assertion failed:
+Assertion failed: 1 != 0
+Assertion failed: lie 1 != 0</seg>
       </tuv>
     </tu>
     <tu>
