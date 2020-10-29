@@ -10843,8 +10843,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В контекст JavaScript добавлен глобальный объект &lt;x1/&gt;Console&lt;x2/&gt;, реализующий базовый функционал &lt;x3/&gt;Console&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201029T054429Z" creationid="Марианна" creationdate="20201029T054429Z">
-        <seg>&lt;x1/&gt;Console&lt;x2/&gt; global object implementing the basic &lt;x3/&gt;Console&lt;x4/&gt; function was added within the JavaScript context.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054536Z" creationid="Марианна" creationdate="20201029T054429Z">
+        <seg>The global &lt;x1/&gt;Console&lt;x2/&gt; object implementing the basic &lt;x3/&gt;Console&lt;x4/&gt; function was added within the JavaScript context.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14537,6 +14537,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Методы Console</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054525Z" creationid="Марианна" creationdate="20201029T054525Z">
+        <seg>Console Methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм повторного использования алгоритмов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121855Z" creationid="Марианна" creationdate="20200718T141206Z">
@@ -17149,6 +17157,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T144001Z" creationid="Марианна" creationdate="20200918T144001Z">
         <seg>When executing the node, the base node is not executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выполнении узла сообщения консоли записываются в лог сервера, если тип сообщения соответствует &lt;x1/&gt;уровню логирования&lt;x2/&gt; (&lt;x3/&gt;ошибка&lt;x4/&gt;, &lt;x5/&gt;предупреждение&lt;x6/&gt;, &lt;x7/&gt;информация&lt;x8/&gt;):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054846Z" creationid="Марианна" creationdate="20201029T054846Z">
+        <seg>When running the node, the console messages are recorded to the server log, if the message type matches the &lt;x1/&gt;logging level&lt;x2/&gt; (&lt;x3/&gt;error&lt;x4/&gt;, &lt;x5/&gt;warning&lt;x6/&gt;, &lt;x7/&gt;info&lt;x8/&gt;):</seg>
       </tuv>
     </tu>
     <tu>
