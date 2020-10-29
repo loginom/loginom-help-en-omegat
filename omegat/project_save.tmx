@@ -174,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%assert%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054924Z" creationid="Марианна" creationdate="20201029T054924Z">
+        <seg>%spoiler%assert%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример заполнения:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165201Z" creationid="Марианна" creationdate="20200916T165201Z">
@@ -3260,6 +3268,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090055Z" creationid="Марианна" creationdate="20200816T132034Z">
         <seg>&lt;x1/&gt;^1&lt;x2/&gt;: It is available only for the editions with possibility to publish &lt;x3/&gt;Web Services&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;assert(&lt;x2/&gt;assertion, msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054927Z" creationid="Марианна" creationdate="20201029T054927Z">
+        <seg>&lt;x1/&gt;assert(&lt;x2/&gt;assertion, msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9699,6 +9715,14 @@ interface IVariables {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060833Z" creationid="Марианна" creationdate="20201025T060833Z">
         <seg>assert(condition?: boolean, ...data: any[]): void;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>assertion — любое булевое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T055013Z" creationid="Марианна" creationdate="20201029T055013Z">
+        <seg>assertion means any boolean expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19249,6 +19273,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143141Z" creationid="Марианна" creationdate="20200920T143141Z">
         <seg>Simplification of the &lt;x1/&gt;Workflow&lt;x2/&gt; structure is achieved by combination of several nodes performing particular stage of the data processing into one node of the &lt;x3/&gt;Supernode&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уровень логирования &lt;x1/&gt;ошибка&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T054921Z" creationid="Марианна" creationdate="20201029T054921Z">
+        <seg>&lt;x1/&gt;error&lt;x2/&gt; logging level:</seg>
       </tuv>
     </tu>
     <tu>
