@@ -15305,6 +15305,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не имеет аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060543Z" creationid="Марианна" creationdate="20201029T060543Z">
+        <seg>It does not have arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не указывать для даты — не указывать временную зону для элементов типа Date.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164040Z" creationid="Марианна" creationdate="20200918T100832Z">
@@ -17805,6 +17813,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114432Z" creationid="Марианна" creationdate="20201020T114432Z">
         <seg>For example: &lt;x3/&gt;new Date(2020, 1, 5, 13, 12, 50, 100)&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примеры</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201029T060551Z" creationid="Марианна" creationdate="20201029T060551Z">
+        <seg>Examples:</seg>
       </tuv>
     </tu>
     <tu>
