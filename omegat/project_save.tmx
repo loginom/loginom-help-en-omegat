@@ -2652,6 +2652,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Импорт внешних модулей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085703Z" creationid="Марианна" creationdate="20201030T085703Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Import of External Modules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Импорт функций Калькулятора</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T153757Z" creationid="Марианна" creationdate="20201025T153757Z">
@@ -9607,6 +9615,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>I am ... ".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085524Z" creationid="Марианна" creationdate="20201030T085524Z">
+        <seg>I am ... ".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IF(IsNull(gate_one),gate_two,gate_one) // однострочный комментарий продолжается до конца строки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062754Z" creationid="Марианна" creationdate="20201014T062754Z">
@@ -10275,6 +10291,52 @@ interface Console {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.error(e);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085631Z" creationid="Марианна" creationdate="20201030T085631Z">
+        <seg>console.error(e);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.error(e);
+});
+// или
+(async () =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085603Z" creationid="Марианна" creationdate="20201030T085603Z">
+        <seg>console.error(e);
+});
+// or
+(async () =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("Hello!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085529Z" creationid="Марианна" creationdate="20201030T085529Z">
+        <seg>console.log("Hello!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log('3^3 = ', mod.cube(3));</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085618Z" creationid="Марианна" creationdate="20201030T085618Z">
+        <seg>console.log('3^3 = ', mod.cube(3));</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log(mod.sayHello());</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085622Z" creationid="Марианна" creationdate="20201030T085622Z">
+        <seg>console.log(mod.sayHello());</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>const InputTable: IDataSource;      // Источник данных с первого порта
 const InputTables: IDataSource[];   // Массив входных источников данных
 const OutputTable: IOutputTable;    // Выходной набор данных
@@ -10303,6 +10365,26 @@ enum UsageType { Unspecified, Excluded, Useless, Active,                    // U
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T190439Z" creationid="Марианна" creationdate="20201020T190439Z">
         <seg>const foo = require("foo/foo.js");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>const foo = require("foo/foo.js");
+console.log(foo.sayHello());
+console.log('3^3 = ', foo.cube(3));</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085647Z" creationid="Марианна" creationdate="20201030T085647Z">
+        <seg>const foo = require("foo/foo.js");
+console.log(foo.sayHello());
+console.log('3^3 = ', foo.cube(3));</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>const mod = await import("foo/foo.js");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085608Z" creationid="Марианна" creationdate="20201030T085608Z">
+        <seg>const mod = await import("foo/foo.js");</seg>
       </tuv>
     </tu>
     <tu>
@@ -10375,6 +10457,14 @@ interface IRequireFunction {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114331Z" creationid="Марианна" creationdate="20201020T114331Z">
         <seg>function my_concat(x, n) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>function sayHello() {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085542Z" creationid="Марианна" creationdate="20201030T085542Z">
+        <seg>function sayHello() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10561,6 +10651,30 @@ console.assert(0 == 0);
 console.assert(1 == 0);
 console.assert(1 == 0, "1 != 0");
 console.assert(1 == 0, "lie", "1 != 0");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>import { cube, foo, sayHello } from "./foo/foo.js";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085518Z" creationid="Марианна" creationdate="20201030T085518Z">
+        <seg>import { cube, foo, sayHello } from "./foo/foo.js";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>import { cube, foo, sayHello } from "/user/foo/foo.js";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085510Z" creationid="Марианна" creationdate="20201030T085510Z">
+        <seg>import { cube, foo, sayHello } from "/user/foo/foo.js";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>import { cube, foo, sayHello } from "C:\\Script\\foo\\foo.js";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085513Z" creationid="Марианна" creationdate="20201030T085513Z">
+        <seg>import { cube, foo, sayHello } from "C:\\Script\\foo\\foo.js";</seg>
       </tuv>
     </tu>
     <tu>
@@ -10797,6 +10911,18 @@ interface IVariableItems extends Iterable&lt;IVariable&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>return "Hello";
+}
+module.exports = sayHello;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085538Z" creationid="Марианна" creationdate="20201030T085538Z">
+        <seg>return "Hello";
+}
+module.exports = sayHello;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>return s;
 }
 
@@ -10815,6 +10941,20 @@ return my_concat(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114317Z" creationid="Марианна" creationdate="20201020T114317Z">
         <seg>return x * pow(x, n - 1);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>return x * x * x;
+}
+exports.sayHello = sayHello;
+exports.cube = cube;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085640Z" creationid="Марианна" creationdate="20201030T085640Z">
+        <seg>return x * x * x;
+}
+exports.sayHello = sayHello;
+exports.cube = cube;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10905,6 +11045,14 @@ Symbol(aaa)
 Assertion failed:
 Assertion failed: 1 != 0
 Assertion failed: lie 1 != 0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>try {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085605Z" creationid="Марианна" creationdate="20201030T085605Z">
+        <seg>try {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11183,6 +11331,24 @@ return pow(COL1, COL2);</seg>
 }
 // Show the function result in the calculation field
 return pow(COL1, COL2);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>}
+})();</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085547Z" creationid="Марианна" creationdate="20201030T085547Z">
+        <seg>}
+})();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>} catch(e) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085628Z" creationid="Марианна" creationdate="20201030T085628Z">
+        <seg>} catch(e) {</seg>
       </tuv>
     </tu>
     <tu>
