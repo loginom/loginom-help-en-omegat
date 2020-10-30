@@ -238,10 +238,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Пример%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085926Z" creationid="Марианна" creationdate="20201030T085926Z">
+        <seg>%spoiler%Example%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112736Z" creationid="Марианна" creationdate="20200825T112736Z">
         <seg>%spoiler%Example:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%spoiler%Примеры%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085958Z" creationid="Марианна" creationdate="20201030T085958Z">
+        <seg>%spoiler%Examples%spoiler%</seg>
       </tuv>
     </tu>
     <tu>
@@ -10329,6 +10345,16 @@ interface Console {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log('3^3 = ', mod.cube(3));
+}).catch(e =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085930Z" creationid="Марианна" creationdate="20201030T085930Z">
+        <seg>console.log('3^3 = ', mod.cube(3));
+}).catch(e =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log(mod.sayHello());</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085622Z" creationid="Марианна" creationdate="20201030T085622Z">
@@ -10679,6 +10705,16 @@ console.assert(1 == 0, "lie", "1 != 0");</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>import { sayHello } from "./module/module.js";
+function cube(x) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085938Z" creationid="Марианна" creationdate="20201030T085938Z">
+        <seg>import { sayHello } from "./module/module.js";
+function cube(x) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>info(...data: any[]): void;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T061048Z" creationid="Марианна" creationdate="20201025T061048Z">
@@ -10941,6 +10977,18 @@ return my_concat(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114317Z" creationid="Марианна" creationdate="20201020T114317Z">
         <seg>return x * pow(x, n - 1);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>return x * x * x;
+}
+export { cube, sayHello };</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085942Z" creationid="Марианна" creationdate="20201030T085942Z">
+        <seg>return x * x * x;
+}
+export { cube, sayHello };</seg>
       </tuv>
     </tu>
     <tu>
