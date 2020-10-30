@@ -2578,8 +2578,8 @@ function pow(x, n) {</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вид данных не задан</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201030T083428Z" creationid="Марианна" creationdate="20201030T083428Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; No data kind specified</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T084131Z" creationid="Марианна" creationdate="20201030T083428Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; No data kind defined</seg>
       </tuv>
     </tu>
     <tu>
@@ -2722,8 +2722,8 @@ function pow(x, n) {</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Переменный</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201030T083331Z" creationid="Марианна" creationdate="20201030T083331Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Variable</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T084039Z" creationid="Марианна" creationdate="20201030T083331Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Variant</seg>
       </tuv>
     </tu>
     <tu>
@@ -2896,6 +2896,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Транзакция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083849Z" creationid="Марианна" creationdate="20201030T083849Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Transaction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить выбранное — удаляет выделенные узлы/связи Сценария;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133431Z" creationid="Марианна" creationdate="20200819T133431Z">
@@ -2908,6 +2916,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083304Z" creationid="Марианна" creationdate="20201030T083304Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Integer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Элемент</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083901Z" creationid="Марианна" creationdate="20201030T083901Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Item</seg>
       </tuv>
     </tu>
     <tu>
@@ -9653,6 +9669,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Item</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083852Z" creationid="Марианна" creationdate="20201030T083852Z">
+        <seg>Item</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Key</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083811Z" creationid="Марианна" creationdate="20201030T083811Z">
@@ -9933,6 +9957,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112841Z" creationid="Марианна" creationdate="20200825T112841Z">
         <seg>TitlePart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Transaction</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083841Z" creationid="Марианна" creationdate="20201030T083841Z">
+        <seg>Transaction</seg>
       </tuv>
     </tu>
     <tu>
@@ -18351,6 +18383,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеры использования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083917Z" creationid="Марианна" creationdate="20201030T083917Z">
+        <seg>Examples of use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры использования переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070101Z" creationid="Марианна" creationdate="20200715T070101Z">
@@ -20293,8 +20333,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Элемент</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201030T083047Z" creationid="Марианна" creationdate="20201030T083047Z">
-        <seg>Element</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083948Z" creationid="Марианна" creationdate="20201030T083047Z">
+        <seg>Item</seg>
       </tuv>
     </tu>
     <tu>
@@ -20317,8 +20357,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Элементы перечисления:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201030T082857Z" creationid="Марианна" creationdate="20201030T082857Z">
-        <seg>Enumeration elements:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083943Z" creationid="Марианна" creationdate="20201030T082857Z">
+        <seg>Enumeration items:</seg>
       </tuv>
     </tu>
     <tu>
