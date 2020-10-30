@@ -1,63 +1,63 @@
-# ![](../../../images/icons/components/javascript_default.svg) Перечисления встроенных сущностей Loginom
+# ![](../../../images/icons/components/javascript_default.svg) Enumerations of the Loginom Built-in Entities
 
-В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.
+The enumerations describing the fields and varibles metadata are built in within the JavaScript execution context.
 
-## Описание перечислений
+## Description of Enumerations
 
 ### DataType
 
-Представляет [типы данных](../../../data/datatype.md). Элементы перечисления:
+It represents [data types](../../../data/datatype.md). Enumeration items:
 
-| Элемент | Тип данных |
+| Item | Data type |
 | :-------- | :------ |
-| None | ![](../../../images/icons/usage-types/unspecified_default.svg) Тип данных не задан |
-| Boolean | ![](../../../images/icons/data-types/boolean_default.svg) Логический |
-| DateTime | ![](../../../images/icons/data-types/datetime_default.svg) Дата/время |
-| Float | ![](../../../images/icons/data-types/float_default.svg) Вещественный |
-| Integer | ![](../../../images/icons/data-types/integer_default.svg) Целый |
-| String | ![](../../../images/icons/data-types/string_default.svg) Строковый |
-| Variant | ![](../../../images/icons/data-types/variant_default.svg) Переменный |
+| None | ![](../../../images/icons/usage-types/unspecified_default.svg) No data type specified |
+| Boolean | ![](../../../images/icons/data-types/boolean_default.svg) Logical |
+| DateTime | ![](../../../images/icons/data-types/datetime_default.svg) Date/time |
+| Float | ![](../../../images/icons/data-types/float_default.svg) Real |
+| Integer | ![](../../../images/icons/data-types/integer_default.svg) Integer |
+| String | ![](../../../images/icons/data-types/string_default.svg) String |
+| Variant | ![](../../../images/icons/data-types/variant_default.svg) Variant |
 
 ### DataKind
 
-Представляет [виды данных](../../../data/datakind.md). Элементы перечисления:
+It represents [data kinds](../../../data/datakind.md). Enumeration items:
 
-| Элемент | Вид данных |
+| Item | Data kind |
 | :-------- | :------ |
-| Undefined | ![](../../../images/icons/usage-types/unspecified_default.svg) Вид данных не задан |
-| Continuous | ![](../../../images/icons/data-types/continuous_default.svg) Непрерывный |
-| Discrete | ![](../../../images/icons/data-types/discrete_default.svg) Дискретный |
+| Undefined | ![](../../../images/icons/usage-types/unspecified_default.svg) No data kind defined |
+| Continuous | ![](../../../images/icons/data-types/continuous_default.svg) Continuous |
+| Discrete | ![](../../../images/icons/data-types/discrete_default.svg) Discrete |
 
 ### UsageType
 
-Представляет [назначение полей](../../../data/datasetfieldoptions.md). Элементы перечисления:
+It represents [usage type of fields](../../../data/datasetfieldoptions.md). Enumeration items:
 
-| Элемент | Назначение поля |
+| Item | Field usage type |
 | :-------- | :------ |
-| Unspecified | ![](../../../images/icons/usage-types/unspecified_default.svg) Назначение не задано |
-| Excluded | ![](../../../images/icons/usage-types/unused_default.svg) Исключенное |
-| Useless | ![](../../../images/icons/usage-types/useless_default.svg) Непригодное |
-| Active | ![](../../../images/icons/usage-types/active_default.svg) Используемое |
-| Predicted | ![](../../../images/icons/usage-types/predicted_default.svg) Предсказываемое |
-| Key | ![](../../../images/icons/usage-types/source_default.svg) Ключ |
-| Group | ![](../../../images/icons/usage-types/group_default.svg) Группа |
-| Value | ![](../../../images/icons/usage-types/value_default.svg) Показатель |
-| Transaction | ![](../../../images/icons/usage-types/transaction_default.svg) Транзакция |
-| Item | ![](../../../images/icons/usage-types/item_default.svg) Элемент |
+| Unspecified | ![](../../../images/icons/usage-types/unspecified_default.svg) No usage type specified |
+| Excluded | ![](../../../images/icons/usage-types/unused_default.svg) Excluded |
+| Useless | ![](../../../images/icons/usage-types/useless_default.svg) Useless |
+| Active | ![](../../../images/icons/usage-types/active_default.svg) Active |
+| Predicted | ![](../../../images/icons/usage-types/predicted_default.svg) Predicted |
+| Key | ![](../../../images/icons/usage-types/source_default.svg) Key |
+| Group | ![](../../../images/icons/usage-types/group_default.svg) Group |
+| Value | ![](../../../images/icons/usage-types/value_default.svg) Value |
+| Transaction | ![](../../../images/icons/usage-types/transaction_default.svg) Transaction |
+| Item | ![](../../../images/icons/usage-types/item_default.svg) Item |
 
-## Примеры использования
+## Examples of use:
 
 ```javascript
 import { OutputTable, DataType, UsageType } from "builtIn/Data";
 
 let col0 = OutputTable.Columns[0];
-// Проверка значения свойства с типом "перечисление"
+// Assertion of the property value with the "enumeration" type
 if (col0.DataType == DataType.String) {
-    // Что-то делаем
+    // We are doing something
 }
 
-// Вывод числового представления значения перечисления
+// Displaying the numeric representation of the enumeration value
 console.log(col0.DefaultUsageType);
-// Вывод строкового представления значения перечисления
+// Displaying the string representation of the enumeration value
 console.log(UsageType[col0.DefaultUsageType]);
 ```
