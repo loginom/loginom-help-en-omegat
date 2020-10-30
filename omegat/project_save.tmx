@@ -568,6 +568,26 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Что-то делаем
+}
+
+// Вывод числового представления значения перечисления
+console.log(col0.DefaultUsageType);
+// Вывод строкового представления значения перечисления
+console.log(UsageType[col0.DefaultUsageType]);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T084911Z" creationid="Марианна" creationdate="20201030T084911Z">
+        <seg>// We are doing something
+}
+
+// Displaying the numeric representation of the enumeration value
+console.log(col0.DefaultUsageType);
+// Displaying the string representation of the enumeration value
+console.log(UsageType[col0.DefaultUsageType]);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// кэш модулей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060632Z" creationid="Марианна" creationdate="20201025T060632Z">
@@ -10459,6 +10479,22 @@ OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
 
 // Dynamic import
 import("builtIn/Calc").then(calc =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>import { OutputTable, DataType, UsageType } from "builtIn/Data";
+
+let col0 = OutputTable.Columns[0];
+// Проверка значения свойства с типом "перечисление"
+if (col0.DataType == DataType.String) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T084437Z" creationid="Марианна" creationdate="20201030T084437Z">
+        <seg>import { OutputTable, DataType, UsageType } from "builtIn/Data";
+
+let col0 = OutputTable.Columns[0];
+// Assertion of the property value with the "enumeration" type
+if (col0.DataType == DataType.String) {</seg>
       </tuv>
     </tu>
     <tu>
