@@ -2632,6 +2632,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Перечисления встроенных сущностей Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T082535Z" creationid="Марианна" creationdate="20201030T082535Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Enumerations of the Loginom Built-in Entities</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131443Z" creationid="Марианна" creationdate="20200819T131443Z">
@@ -9227,6 +9235,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DataType</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T082808Z" creationid="Марианна" creationdate="20201030T082808Z">
+        <seg>DataType</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -11091,6 +11107,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T054536Z" creationid="Марианна" creationdate="20201029T054429Z">
         <seg>The global &lt;x1/&gt;Console&lt;x2/&gt; object implementing the basic &lt;x3/&gt;Console&lt;x4/&gt; function was added within the JavaScript context.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T082748Z" creationid="Марианна" creationdate="20201030T082748Z">
+        <seg>The enumerations describing the fields and varibles metadata are built in within the JavaScript execution context.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15991,6 +16015,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Описание перечислений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T082805Z" creationid="Марианна" creationdate="20201030T082805Z">
+        <seg>Description of Enumerations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определим корреляцию товара "Спагетти" с остальными товарами на основе коэффициентов Пирсона (в мастере настройки обработчика поле "Спагетти" отметим в "Наборе 1", а остальные товары - в "Наборе 2").</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T061950Z" creationid="Марианна" creationdate="20201012T061950Z">
@@ -17395,6 +17427,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
         <seg>Literals:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет &lt;x1/&gt;типы данных&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T082837Z" creationid="Марианна" creationdate="20201030T082837Z">
+        <seg>It represents &lt;x1/&gt;data types&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19919,6 +19959,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081651Z" creationid="Марианна" creationdate="20200814T081651Z">
         <seg>Navigation elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Элементы перечисления:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T082857Z" creationid="Марианна" creationdate="20201030T082857Z">
+        <seg>Enumeration elements:</seg>
       </tuv>
     </tu>
     <tu>
