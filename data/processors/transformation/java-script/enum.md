@@ -56,8 +56,8 @@ if (col0.DataType == DataType.String) {
     // We are doing something
 }
 
-// Displaying the numeric representation of the enumeration value
+// Displaying of the numeric representation of the enumeration value
 console.log(col0.DefaultUsageType);
-// Displaying the string representation of the enumeration value
+// Displaying of the string representation of the enumeration value
 console.log(UsageType[col0.DefaultUsageType]);
 ```
