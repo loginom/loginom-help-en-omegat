@@ -2568,6 +2568,22 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Вещественный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083253Z" creationid="Марианна" creationdate="20201030T083253Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Real</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Вид данных не задан</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083428Z" creationid="Марианна" creationdate="20201030T083428Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; No data kind specified</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Выполнить все — выполнить все узлы Сценария;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132516Z" creationid="Марианна" creationdate="20200819T132516Z">
@@ -2584,10 +2600,26 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Дата/время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083243Z" creationid="Марианна" creationdate="20201030T083243Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Date/time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Дерево в таблицу</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T110659Z" creationid="Марианна" creationdate="20201001T110659Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Tree to Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Дискретный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083449Z" creationid="Марианна" creationdate="20201030T083449Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Discrete</seg>
       </tuv>
     </tu>
     <tu>
@@ -2628,6 +2660,22 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132726Z" creationid="Марианна" creationdate="20200819T132726Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Configure node provides access to setting of the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Непрерывный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Continuous</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083331Z" creationid="Марианна" creationdate="20201030T083331Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Variable</seg>
       </tuv>
     </tu>
     <tu>
@@ -2768,6 +2816,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Строковый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083314Z" creationid="Марианна" creationdate="20201030T083314Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Тип данных не задан</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083219Z" creationid="Марианна" creationdate="20201030T083219Z">
@@ -2780,6 +2836,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133431Z" creationid="Марианна" creationdate="20200819T133431Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Delete selected enables to delete the selected nodes/links of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Целый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083304Z" creationid="Марианна" creationdate="20201030T083304Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Integer</seg>
       </tuv>
     </tu>
     <tu>
@@ -9251,6 +9315,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Continuous</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083431Z" creationid="Марианна" creationdate="20201030T083431Z">
+        <seg>Continuous</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Cлева находится панель компонентов, состоящая из следующих категорий:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125206Z" creationid="Марианна" creationdate="20200819T125206Z">
@@ -9259,10 +9331,26 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DataKind</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083333Z" creationid="Марианна" creationdate="20201030T083333Z">
+        <seg>DataKind</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DataType</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082808Z" creationid="Марианна" creationdate="20201030T082808Z">
         <seg>DataType</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DateTime</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083232Z" creationid="Марианна" creationdate="20201030T083232Z">
+        <seg>DateTime</seg>
       </tuv>
     </tu>
     <tu>
@@ -9315,6 +9403,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Discrete</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083440Z" creationid="Марианна" creationdate="20201030T083440Z">
+        <seg>Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Error!!!</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060900Z" creationid="Марианна" creationdate="20201029T060900Z">
@@ -9351,6 +9447,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100753Z" creationid="Марианна" creationdate="20201011T100753Z">
         <seg>False</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Float</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083246Z" creationid="Марианна" creationdate="20201030T083246Z">
+        <seg>Float</seg>
       </tuv>
     </tu>
     <tu>
@@ -9417,6 +9521,14 @@ Warning!</seg>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060854Z" creationid="Марианна" creationdate="20201029T060854Z">
         <seg>Information
 Warning!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Integer</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083255Z" creationid="Марианна" creationdate="20201030T083255Z">
+        <seg>Integer</seg>
       </tuv>
     </tu>
     <tu>
@@ -9689,6 +9801,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>String</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083306Z" creationid="Марианна" creationdate="20201030T083306Z">
+        <seg>String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Studio</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
@@ -9745,10 +9865,34 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Undefined</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083410Z" creationid="Марианна" creationdate="20201030T083410Z">
+        <seg>Undefined</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>UsageType</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083451Z" creationid="Марианна" creationdate="20201030T083451Z">
+        <seg>UsageType</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>UserName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084455Z" creationid="Марианна" creationdate="20201009T084455Z">
         <seg>UserName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Variant</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083317Z" creationid="Марианна" creationdate="20201030T083317Z">
+        <seg>Variant</seg>
       </tuv>
     </tu>
     <tu>
@@ -11793,6 +11937,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T064919Z" creationid="Марианна" creationdate="20200924T064919Z">
         <seg>The branches are successively tested for authenticity from the top of the list downwards starting from the first one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вид данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083408Z" creationid="Марианна" creationdate="20201030T083408Z">
+        <seg>Data kind</seg>
       </tuv>
     </tu>
     <tu>
@@ -17459,6 +17611,22 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
         <seg>Literals:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет &lt;x1/&gt;виды данных&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083357Z" creationid="Марианна" creationdate="20201030T083357Z">
+        <seg>It represents &lt;x1/&gt;data kinds&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет &lt;x1/&gt;назначение полей&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083543Z" creationid="Марианна" creationdate="20201030T083543Z">
+        <seg>It represents &lt;x1/&gt;usage type of fields&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
