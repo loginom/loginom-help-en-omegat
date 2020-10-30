@@ -15513,6 +15513,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Модульные системы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T085722Z" creationid="Марианна" creationdate="20201030T085722Z">
+        <seg>Module Systems</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Может быть:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201151Z" creationid="Марианна" creationdate="20200829T200531Z">
