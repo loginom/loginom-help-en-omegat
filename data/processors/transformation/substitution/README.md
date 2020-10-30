@@ -49,7 +49,7 @@ Sequence of the replacement algorithm actions:
 
 > **Важно:** в случае замены числовых данных стоит учитывать интервалы, в которые попадет то или иное заменяемое значение.
 
-%spoiler%Пример%spoiler%
+%spoiler%Example%spoiler%
 
 Пусть имеется следующая таблица:
 
