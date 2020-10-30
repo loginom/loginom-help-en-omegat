@@ -2600,6 +2600,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Группа</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083826Z" creationid="Марианна" creationdate="20201030T083826Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Дата/время</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083243Z" creationid="Марианна" creationdate="20201030T083243Z">
@@ -2632,10 +2640,34 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Исключенное</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083734Z" creationid="Марианна" creationdate="20201030T083734Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Excluded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Используемое</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083758Z" creationid="Марианна" creationdate="20201030T083758Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Active</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Клонировать узел — клонирование выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133022Z" creationid="Марианна" creationdate="20200819T133022Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Clone node enables to clone the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Ключ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083817Z" creationid="Марианна" creationdate="20201030T083817Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Key</seg>
       </tuv>
     </tu>
     <tu>
@@ -2656,6 +2688,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Назначение не задано</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083720Z" creationid="Марианна" creationdate="20201030T083720Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; No usage type specified</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить узел — заходит в настройки выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132726Z" creationid="Марианна" creationdate="20200819T132726Z">
@@ -2668,6 +2708,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Continuous</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Непригодное</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083747Z" creationid="Марианна" creationdate="20201030T083747Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Useless</seg>
       </tuv>
     </tu>
     <tu>
@@ -2692,6 +2740,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082535Z" creationid="Марианна" creationdate="20201030T082535Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Enumerations of the Loginom Built-in Entities</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Показатель</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083839Z" creationid="Марианна" creationdate="20201030T083839Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Value</seg>
       </tuv>
     </tu>
     <tu>
@@ -2756,6 +2812,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T053723Z" creationid="Марианна" creationdate="20201025T053723Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Full API Description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Предсказываемое</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083809Z" creationid="Марианна" creationdate="20201030T083809Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Predicted</seg>
       </tuv>
     </tu>
     <tu>
@@ -9291,6 +9355,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Active</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083750Z" creationid="Марианна" creationdate="20201030T083750Z">
+        <seg>Active</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Append(): void;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055618Z" creationid="Марианна" creationdate="20201025T055618Z">
@@ -9443,6 +9515,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Excluded</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083722Z" creationid="Марианна" creationdate="20201030T083722Z">
+        <seg>Excluded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>False</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100753Z" creationid="Марианна" creationdate="20201011T100753Z">
@@ -9479,6 +9559,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055332Z" creationid="Марианна" creationdate="20201025T055332Z">
         <seg>Get(row: number, col: number | string): boolean | number | string | Date | undefined;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Group</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083820Z" creationid="Марианна" creationdate="20201030T083820Z">
+        <seg>Group</seg>
       </tuv>
     </tu>
     <tu>
@@ -9561,6 +9649,14 @@ interface IOutputTable extends IDataSource {</seg>
 
 // Additional methods are defined for the output data set
 interface IOutputTable extends IDataSource {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Key</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083811Z" creationid="Марианна" creationdate="20201030T083811Z">
+        <seg>Key</seg>
       </tuv>
     </tu>
     <tu>
@@ -9667,6 +9763,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084205Z" creationid="Марианна" creationdate="20201009T084205Z">
         <seg>PackageVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Predicted</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083801Z" creationid="Марианна" creationdate="20201030T083801Z">
+        <seg>Predicted</seg>
       </tuv>
     </tu>
     <tu>
@@ -9873,6 +9977,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Unspecified</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083618Z" creationid="Марианна" creationdate="20201030T083618Z">
+        <seg>Unspecified</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>UsageType</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083451Z" creationid="Марианна" creationdate="20201030T083451Z">
@@ -9881,10 +9993,26 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Useless</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083736Z" creationid="Марианна" creationdate="20201030T083736Z">
+        <seg>Useless</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>UserName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084455Z" creationid="Марианна" creationdate="20201009T084455Z">
         <seg>UserName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Value</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083828Z" creationid="Марианна" creationdate="20201030T083828Z">
+        <seg>Value</seg>
       </tuv>
     </tu>
     <tu>
@@ -15403,6 +15531,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
         <seg>Package Designation and Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Назначение поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083616Z" creationid="Марианна" creationdate="20201030T083616Z">
+        <seg>Field usage type</seg>
       </tuv>
     </tu>
     <tu>
