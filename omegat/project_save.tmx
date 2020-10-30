@@ -2616,6 +2616,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Логический</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083229Z" creationid="Марианна" creationdate="20201030T083229Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Logical</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить узел — заходит в настройки выделенного узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132726Z" creationid="Марианна" creationdate="20200819T132726Z">
@@ -2756,6 +2764,14 @@ function pow(x, n) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133515Z" creationid="Марианна" creationdate="20200819T133515Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Create derived component enables to create the Derived Component based on the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Тип данных не задан</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083219Z" creationid="Марианна" creationdate="20201030T083219Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; No data type specified</seg>
       </tuv>
     </tu>
     <tu>
@@ -9227,6 +9243,14 @@ function pow(x, n) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Boolean</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083222Z" creationid="Марианна" creationdate="20201030T083222Z">
+        <seg>Boolean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Cлева находится панель компонентов, состоящая из следующих категорий:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125206Z" creationid="Марианна" creationdate="20200819T125206Z">
@@ -9465,6 +9489,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112919Z" creationid="Марианна" creationdate="20200825T112919Z">
         <seg>MinYear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>None</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083055Z" creationid="Марианна" creationdate="20201030T083055Z">
+        <seg>None</seg>
       </tuv>
     </tu>
     <tu>
@@ -19387,6 +19419,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тип данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083052Z" creationid="Марианна" creationdate="20201030T083052Z">
+        <seg>Data type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тип данных поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165926Z" creationid="Марианна" creationdate="20200916T165926Z">
@@ -19943,6 +19983,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084917Z" creationid="Марианна" creationdate="20200717T084917Z">
         <seg>Export of the received results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Элемент</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201030T083047Z" creationid="Марианна" creationdate="20201030T083047Z">
+        <seg>Element</seg>
       </tuv>
     </tu>
     <tu>
