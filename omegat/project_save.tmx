@@ -10561,6 +10561,30 @@ arrayOfColumns.forEach(column =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("DataKind: ", column.DataKind);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153549Z" creationid="Марианна" creationdate="20201102T153549Z">
+        <seg>console.log("DataKind: ", column.DataKind);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("DataType: ", column.DataType);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153518Z" creationid="Марианна" creationdate="20201102T153518Z">
+        <seg>console.log("DataType: ", column.DataType);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("DefaultUsageType: ", column.DefaultUsageType);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153553Z" creationid="Марианна" creationdate="20201102T153553Z">
+        <seg>console.log("DefaultUsageType: ", column.DefaultUsageType);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log("DisplayName: ", column.DisplayName);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T153500Z" creationid="Марианна" creationdate="20201102T153500Z">
@@ -10589,6 +10613,14 @@ arrayOfColumns.forEach(column =&gt; {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T153454Z" creationid="Марианна" creationdate="20201102T153454Z">
         <seg>console.log("Name: ", column.Name);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("RowCount: ", column.RowCount);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153724Z" creationid="Марианна" creationdate="20201102T153724Z">
+        <seg>console.log("RowCount: ", column.RowCount);</seg>
       </tuv>
     </tu>
     <tu>
