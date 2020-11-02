@@ -12595,6 +12595,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Во внешних модулях относительный путь указывается от расположения модуля, осуществляющего импорт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090307Z" creationid="Марианна" creationdate="20201102T090307Z">
+        <seg>The relative path in the external modules is specified from the import module location.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во всех прочих случаях: "ЛЮБАЯ СТРОКА" приводится к &lt;x15/&gt;null&lt;x16/&gt;, в том числе и "" (пустая строка).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T071632Z" creationid="Марианна" creationdate="20201016T071632Z">
