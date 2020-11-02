@@ -11551,8 +11551,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Абсолютный путь — полный путь в файловой в системе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T090531Z" creationid="Марианна" creationdate="20201102T090531Z">
-        <seg>Absolute path is a full path in the file system.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090629Z" creationid="Марианна" creationdate="20201102T090531Z">
+        <seg>The absolute path is a full path in the file system.</seg>
       </tuv>
     </tu>
     <tu>
