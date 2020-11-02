@@ -12497,6 +12497,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внешние модули могут быть в кодировке &lt;x1/&gt;UTF-8&lt;x2/&gt; или &lt;x3/&gt;UTF-16 Little Endian с BOM&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T083327Z" creationid="Марианна" creationdate="20201102T083327Z">
+        <seg>The external modules can be represented in &lt;x1/&gt;UTF-8&lt;x2/&gt; or &lt;x3/&gt;UTF-16 Little Endian с BOM&lt;x4/&gt; encoding.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внешний модуль "./foo/foo.js":</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T075141Z" creationid="Марианна" creationdate="20201102T075141Z">
@@ -18999,6 +19007,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084317Z" creationid="Марианна" creationdate="20201009T084317Z">
         <seg>Path to the package file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Работа модулей CommonJS реализована в соответствии со &lt;x1/&gt;спецификацией&lt;x2/&gt;, за следующими отличиями:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T083632Z" creationid="Марианна" creationdate="20201102T083632Z">
+        <seg>The CommonJS modules are operated according to the &lt;x1/&gt;specification&lt;x2/&gt; with the following differences:</seg>
       </tuv>
     </tu>
     <tu>
