@@ -10561,6 +10561,26 @@ arrayOfColumns.forEach(column =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("");
+});
+
+// Получение из столбца "CLASS" массива значений
+let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
+// Вывод значений столбца "CLASS"
+arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T154222Z" creationid="Марианна" creationdate="20201102T154222Z">
+        <seg>console.log("");
+});
+
+// Getting the values array from the "CLASS" column
+let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
+// Directing the values of the "CLASS" column
+arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log("DataKind: ", column.DataKind);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T153549Z" creationid="Марианна" creationdate="20201102T153549Z">
