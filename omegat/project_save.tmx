@@ -486,6 +486,16 @@ delete require.cache[path];
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Без очистки кэша этого не происходит
+require("child_module.js");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085351Z" creationid="Марианна" creationdate="20201102T085351Z">
+        <seg>// It is not possible without cache flush
+require("child_module.js");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Вычисление суммы полей
 let result;
 result = COL1 + COL2;
