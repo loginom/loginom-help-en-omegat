@@ -612,8 +612,8 @@ return COL1 + COL2;</seg>
       <tuv lang="ru">
         <seg>// Метод assert выводит в консоль сообщение, если первый аргумент false</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T060828Z" creationid="Марианна" creationdate="20201025T060828Z">
-        <seg>// assert method enables to send the message to console if the first argument is false</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153340Z" creationid="Марианна" creationdate="20201025T060828Z">
+        <seg>// assert method enables to direct the message to console if the first argument is false</seg>
       </tuv>
     </tu>
     <tu>
@@ -10520,12 +10520,12 @@ let arrayOfColumns = Array.from(InputTable.Columns);
 // Вывод значений свойств столбцов в консоль
 arrayOfColumns.forEach(column =&gt; {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T153319Z" creationid="Марианна" creationdate="20201102T153319Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153428Z" creationid="Марианна" creationdate="20201102T153319Z">
         <seg>colOutlook1 = inputTable1.Columns[1];      // Getting reference to the column by index
 
 // Getting the columns array from the Columns object
 let arrayOfColumns = Array.from(InputTable.Columns);
-// Вывод значений свойств столбцов в консоль
+// Directing the values of the columns properties to the console
 arrayOfColumns.forEach(column =&gt; {</seg>
       </tuv>
     </tu>
@@ -10561,10 +10561,34 @@ arrayOfColumns.forEach(column =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("DisplayName: ", column.DisplayName);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153500Z" creationid="Марианна" creationdate="20201102T153500Z">
+        <seg>console.log("DisplayName: ", column.DisplayName);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log("Hello!</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085529Z" creationid="Марианна" creationdate="20201030T085529Z">
         <seg>console.log("Hello!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("Index: ", column.Index);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153450Z" creationid="Марианна" creationdate="20201102T153450Z">
+        <seg>console.log("Index: ", column.Index);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("Name: ", column.Name);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153454Z" creationid="Марианна" creationdate="20201102T153454Z">
+        <seg>console.log("Name: ", column.Name);</seg>
       </tuv>
     </tu>
     <tu>
