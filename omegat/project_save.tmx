@@ -14795,6 +14795,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование модуля "child_module.js" в коде узла JavaSript:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T084624Z" creationid="Марианна" creationdate="20201102T084624Z">
+        <seg>Use of "child_module.js" module in the code of the JavaSript node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование переменных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200714T120440Z" creationid="Марианна" creationdate="20200714T120440Z">
