@@ -10959,6 +10959,16 @@ function cube(x) {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>inputTable1 = InputTables[1];              // Источник данных с порта №2
+let colOutlook0 = inputTable0.Columns.OUTLOOK, // Получение ссылки на столбец по имени</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153055Z" creationid="Марианна" creationdate="20201102T153055Z">
+        <seg>inputTable1 = InputTables[1];              // Источник данных с порта №2
+let colOutlook0 = inputTable0.Columns.OUTLOOK, // Getting reference to the column by name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>let path = require.resolve("foo/foo.js");
 delete require.cache[path];  // Очищается кэш модуля "foo/foo.js"</seg>
       </tuv>
