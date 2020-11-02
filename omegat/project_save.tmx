@@ -3348,6 +3348,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;InputTables[N]&lt;x2/&gt;, где N — номер (индекс) порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T143805Z" creationid="Марианна" creationdate="20201102T143805Z">
+        <seg>&lt;x1/&gt;InputTables[N]&lt;x2/&gt; where N is a port number (index).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
@@ -17245,6 +17253,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первый порт имеет индекс 0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T143831Z" creationid="Марианна" creationdate="20201102T143831Z">
+        <seg>The first port has 0 index.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Первый символ имени не может быть цифрой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T090301Z" creationid="Марианна" creationdate="20201009T090301Z">
@@ -18081,6 +18097,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T191231Z" creationid="Марианна" creationdate="20201020T191231Z">
         <seg>As the script is executed in &lt;x1/&gt;Calculator&lt;x2/&gt; for each of the calculated table cells, the included&lt;x3/&gt;require&lt;x4/&gt; module is repeatedly called, and cache is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поскольку первый порт присутствует в узле &lt;x1/&gt;JavaScript&lt;x2/&gt; по умолчанию, для доступа к его данным существует отдельный объект &lt;x3/&gt;InputTable&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144113Z" creationid="Марианна" creationdate="20201102T144113Z">
+        <seg>As the first port is in the &lt;x1/&gt;JavaScript&lt;x2/&gt; node by default, there is a separate &lt;x3/&gt;InputTable&lt;x4/&gt; object to provide access to its data.</seg>
       </tuv>
     </tu>
     <tu>
