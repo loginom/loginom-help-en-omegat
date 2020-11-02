@@ -14155,6 +14155,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если пакет не сохранен, то относительный путь к внешнему модулю указывается от каталога пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090155Z" creationid="Марианна" creationdate="20201102T090155Z">
+        <seg>If the package is not saved, the relative path to the external module is specified from the user directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если пакет сохранен, то относительный путь к внешнему модулю указывается от расположения пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090120Z" creationid="Марианна" creationdate="20201102T090120Z">
+        <seg>If the package is saved, the relative path to the external module is specified from the package location.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
