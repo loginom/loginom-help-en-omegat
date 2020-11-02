@@ -15877,6 +15877,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод возвращает булево значение &lt;x1/&gt;true&lt;x2/&gt;, если столбец в заданной строке имеет пропущенное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T150410Z" creationid="Марианна" creationdate="20201102T150410Z">
+        <seg>The method returns the boolean &lt;x1/&gt;true&lt;x2/&gt; value, if the column in the set string has the null value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод возвращает значение заданного столбца в заданной строке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145524Z" creationid="Марианна" creationdate="20201102T145524Z">
@@ -19223,8 +19231,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Принимает значение типов &lt;x1/&gt;number&lt;x2/&gt; или &lt;x3/&gt;string&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T145445Z" creationid="Марианна" creationdate="20201102T145445Z">
-        <seg>It takes the value of &lt;x1/&gt;number&lt;x2/&gt; or &lt;x3/&gt;string&lt;x4/&gt; types.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T150033Z" creationid="Марианна" creationdate="20201102T145445Z">
+        <seg>It takes the value of the &lt;x1/&gt;number&lt;x2/&gt; or &lt;x3/&gt;string&lt;x4/&gt; types.</seg>
       </tuv>
     </tu>
     <tu>
