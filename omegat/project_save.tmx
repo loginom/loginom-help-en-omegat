@@ -536,6 +536,14 @@ require("child_module.js");</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Вывод значений столбца с именем "CLASS"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T154444Z" creationid="Марианна" creationdate="20201102T154444Z">
+        <seg>// Directing the values of the column with the "CLASS" name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Вывод значений столбца с индексом 0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T154415Z" creationid="Марианна" creationdate="20201102T154415Z">
@@ -10667,6 +10675,24 @@ arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085930Z" creationid="Марианна" creationdate="20201030T085930Z">
         <seg>console.log('3^3 = ', mod.cube(3));
 }).catch(e =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log(`InputTable.Get(${i}, "CLASS") = `, InputTable.Get(i, "CLASS"));
+}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T154447Z" creationid="Марианна" creationdate="20201102T154447Z">
+        <seg>console.log(`InputTable.Get(${i}, "CLASS") = `, InputTable.Get(i, "CLASS"));
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log(`InputTable.Get(${i}, 0) = `, InputTable.Get(i, 0));</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T154418Z" creationid="Марианна" creationdate="20201102T154418Z">
+        <seg>console.log(`InputTable.Get(${i}, 0) = `, InputTable.Get(i, 0));</seg>
       </tuv>
     </tu>
     <tu>
