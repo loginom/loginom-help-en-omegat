@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%RowCount%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144704Z" creationid="Марианна" creationdate="20201102T144704Z">
+        <seg>%spoiler%RowCount%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%assert%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T054924Z" creationid="Марианна" creationdate="20201029T054924Z">
@@ -3544,6 +3552,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185309Z" creationid="Марианна" creationdate="20200810T184341Z">
         <seg>&lt;x1/&gt;REST service&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;RowCount&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144709Z" creationid="Марианна" creationdate="20201102T144709Z">
+        <seg>&lt;x1/&gt;RowCount&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12699,6 +12715,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает значение типа &lt;x1/&gt;number&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
+        <seg>It returns the value of the &lt;x1/&gt;number&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает объект, реализующий интерфейс &lt;x1/&gt;IColumns&lt;x2/&gt; (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144407Z" creationid="Марианна" creationdate="20201102T144407Z">
@@ -19711,16 +19735,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Содержит доступное для чтения количество столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T144549Z" creationid="Марианна" creationdate="20201102T144549Z">
-        <seg>It provides read-only count of columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144839Z" creationid="Марианна" creationdate="20201102T144549Z">
+        <seg>It contains read-only count of columns.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Содержит доступную для чтения коллекцию столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T144332Z" creationid="Марианна" creationdate="20201102T144332Z">
-        <seg>It provides read-only collection of columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144812Z" creationid="Марианна" creationdate="20201102T144332Z">
+        <seg>It contains read-only collection of columns.</seg>
       </tuv>
     </tu>
     <tu>
