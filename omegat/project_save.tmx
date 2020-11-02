@@ -536,6 +536,14 @@ require("child_module.js");</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Вывод значений столбца с индексом 0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T154415Z" creationid="Марианна" creationdate="20201102T154415Z">
+        <seg>// Directing the values of the column with 0 index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Вычисление суммы полей
 let result;
 result = COL1 + COL2;
@@ -10659,6 +10667,22 @@ arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085930Z" creationid="Марианна" creationdate="20201030T085930Z">
         <seg>console.log('3^3 = ', mod.cube(3));
 }).catch(e =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log(index, ":", value);
+});
+
+// Чтение значений из входной таблицы методом Get
+for (let i = 0, с = InputTable.RowCount; i &lt; с; i++) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T154338Z" creationid="Марианна" creationdate="20201102T154338Z">
+        <seg>console.log(index, ":", value);
+});
+
+// Reading the values from the input table using the Get method
+for (let i = 0, с = InputTable.RowCount; i &lt; с; i++) {</seg>
       </tuv>
     </tu>
     <tu>
