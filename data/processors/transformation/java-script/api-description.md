@@ -104,7 +104,7 @@ interface IRequire extends IRequireFunction  {
 var console: Console;
 
 interface Console {
-     // assert method enables to send the message to console if the first argument is false
+     // assert method enables to direct the message to console if the first argument is false
     assert(condition?: boolean, ...data: any[]): void;
     // error method shows error message
     error(...data: any[]): void;

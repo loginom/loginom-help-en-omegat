@@ -8,7 +8,7 @@
 
 **Columns**
 
-Содержит доступную для чтения коллекцию столбцов выходного набора данных. Возвращает объект, реализующий интерфейс `IColumns` (см. [Полное описание API](./api-description.md)).
+Содержит доступную для чтения коллекцию столбцов выходного набора данных. It returns the object implementing the `IColumns` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -16,7 +16,7 @@
 
 **ColumnCount**
 
-Содержит доступное для чтения количество столбцов выходного набора данных.  Возвращает значение типа `number`.
+Содержит доступное для чтения количество столбцов выходного набора данных.  It returns the value of the `number` type.
 
 %/spoiler%
 
@@ -24,7 +24,7 @@
 
 **RowCount**
 
-Содержит доступное для чтения количество строк выходного набора данных.  Возвращает значение типа `number`.
+Содержит доступное для чтения количество строк выходного набора данных.  It returns the value of the `number` type.
 
 %/spoiler%
 
@@ -34,10 +34,10 @@
 
 **Get(row, col)**
 
-- row — индекс строки. Принимает значение типа `number`.
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- row is a row index. It takes the value of the `number` type.
+- col is a column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает значение заданного столбца в заданной строке. Возвращаемое значение может иметь типы: `boolean`, `number`, `string`, `Date`, `undefined`.
+The method returns the value of the set column in the set string. The returned value can have the following types: `boolean`, `number`, `string`, `Date`, `undefined`.
 
 %/spoiler%
 
@@ -45,10 +45,10 @@
 
 **IsNull(row, col)**
 
-- row — индекс строки. Принимает значение типа `number`.
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- row is a row index. It takes the value of the `number` type.
+- col is a column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает булево значение `true`, если столбец в заданной строке имеет пропущенное значение. В противном случае возвращается `false`.
+The method returns the boolean `true` value, if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
@@ -64,7 +64,7 @@
 
 **Set(col, value)**
 
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- col is a column index or name. It takes the value of the `number` or `string` types.
 - value — значение. Принимает значения следующих типов: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
 
 Метод задает значение заданного столбца в строке, добавленной методом `Append()`.

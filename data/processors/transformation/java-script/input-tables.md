@@ -1,18 +1,18 @@
-# ![](../../../images/icons/components/javascript_default.svg) Доступ к входным наборам данных
+# ![](../../../images/icons/components/javascript_default.svg) Access to the Input Data Sets
 
-Для доступа к данным портов `Входной источник данных[N]` используются объекты `InputTables[]` и `InputTable`. Обращение к источнику данных порта происходит через его номер:
+For access to the data of the ports`Input data source[N]`, `InputTables[]` and `InputTable` objects are used. The port data source is accessed by its number:
 
-`InputTables[N]`, где N — номер (индекс) порта. Первый порт имеет индекс 0.
+`InputTables[N]` where N is a port number (index). The first port has 0 index.
 
-Поскольку первый порт присутствует в узле *JavaScript* по умолчанию, для доступа к его данным существует отдельный объект `InputTable`.
+As the first port is in the *JavaScript* node by default, there is a separate `InputTable` object to provide access to its data.
 
-## Свойства источника данных
+## Data source properties
 
 %spoiler%Columns%spoiler%
 
 **Columns**
 
-Содержит доступную для чтения коллекцию столбцов. Возвращает объект, реализующий интерфейс `IColumns` (см. [Полное описание API](./api-description.md)).
+It contains read-only collection of columns. It returns the object implementing the `IColumns` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -20,7 +20,7 @@
 
 **ColumnCount**
 
-Содержит доступное для чтения количество столбцов.  Возвращает значение типа `number`.
+It contains read-only count of columns.  It returns the value of the `number` type.
 
 %/spoiler%
 
@@ -28,20 +28,20 @@
 
 **RowCount**
 
-Содержит доступное для чтения количество строк. Возвращает значение типа `number`.
+It contains read-only count of rows. It returns the value of the `number` type.
 
 %/spoiler%
 
-## Методы источника данных
+## Data source methods
 
 %spoiler%Get%spoiler%
 
 **Get(row, col)**
 
-- row — индекс строки. Принимает значение типа `number`.
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- row is a row index. It takes the value of the `number` type.
+- col is a column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает значение заданного столбца в заданной строке. Возвращаемое значение может иметь типы: `boolean`, `number`, `string`, `Date`, `undefined`.
+The method returns the value of the set column in the set string. The returned value can have the following types: `boolean`, `number`, `string`, `Date`, `undefined`.
 
 %/spoiler%
 
@@ -49,10 +49,10 @@
 
 **IsNull(row, col)**
 
-- row — индекс строки. Принимает значение типа `number`.
-- col — индекс или имя столбца. Принимает значение типа `number` или `string`.
+- row is a row index. It takes the value of the `number` type.
+- col is a column index or name. It takes the value of the `number` or `string` type.
 
-Метод возвращает булево значение `true`, если столбец в заданной строке имеет пропущенное значение. В противном случае возвращается `false`.
+The method returns the boolean `true` value, if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
@@ -61,14 +61,14 @@
 ```javascript
 import { InputTable, InputTables } from "builtIn/Data";
 
-let inputTable0 = InputTables[0],              // Источник данных с порта №1
+let inputTable0 = InputTables[0],              // Source of the data from port No 1
     inputTable1 = InputTables[1];              // Источник данных с порта №2
-let colOutlook0 = inputTable0.Columns.OUTLOOK, // Получение ссылки на столбец по имени
-    colOutlook1 = inputTable1.Columns[1];      // Получение ссылки на столбец по индексу
+let colOutlook0 = inputTable0.Columns.OUTLOOK, // Getting reference to the column by name
+    colOutlook1 = inputTable1.Columns[1];      // Getting reference to the column by index
 
-// Получение из объекта Columns массива столбцов
+// Getting the columns array from the Columns object
 let arrayOfColumns = Array.from(InputTable.Columns);
-// Вывод значений свойств столбцов в консоль
+// Directing the values of the columns properties to the console
 arrayOfColumns.forEach(column => {
     console.log("Index: ", column.Index);
     console.log("Name: ", column.Name);
@@ -80,18 +80,18 @@ arrayOfColumns.forEach(column => {
     console.log("");
 });
 
-// Получение из столбца "CLASS" массива значений
+// Getting the values array from the "CLASS" column
 let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
-// Вывод значений столбца "CLASS"
+// Directing the values of the "CLASS" column
 arrayOfColumnValues.forEach((value, index) => {
     console.log(index, ":", value);
 });
 
-// Чтение значений из входной таблицы методом Get
+// Reading the values from the input table using the Get method
 for (let i = 0, с = InputTable.RowCount; i < с; i++) {
-    // Вывод значений столбца с индексом 0
+    // Directing the values of the column with 0 index
     console.log(`InputTable.Get(${i}, 0) = `, InputTable.Get(i, 0));
-    // Вывод значений столбца с именем "CLASS"
+    // Directing the values of the column with the "CLASS" name
     console.log(`InputTable.Get(${i}, "CLASS") = `, InputTable.Get(i, "CLASS"));
 }
 
