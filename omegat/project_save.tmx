@@ -444,6 +444,40 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// require.resolve:
+// - на сервере Loginom возвращает полный путь модуля в файловом хранилище
+// - в Desktop версии возвращает полный путь модуля в файловой системе
+let path = require.resolve("child_module.js");
+console.log(path);
+// Вызов внешнего модуля системы CommonJS
+let childModule = require("child_module.js");
+console.log(childModule.filename);
+console.log(childModule.parent);
+console.log(childModule.loaded);
+// Очищается кэш модуля "child_module.js"
+delete require.cache[path];
+// и внешний модуль вызывается повторно,
+// в результате чего повторно выводится "Hello!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085320Z" creationid="Марианна" creationdate="20201102T085320Z">
+        <seg>// require.resolve:
+// - returns the full module path in the file storage on the Loginom server
+// - returns the full module path in the file system in the Desktop version
+let path = require.resolve("child_module.js");
+console.log(path);
+// Calling of the external module of the CommonJS system
+let childModule = require("child_module.js");
+console.log(childModule.filename);
+console.log(childModule.parent);
+console.log(childModule.loaded);
+// Cache of "child_module.js" module is cleared
+delete require.cache[path];
+// and the external module is repeatedly called,
+// consequently, the following information is repeatedly displayed: "Hello! </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// s = x.concat(n);        - используется метод JavaScript</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114352Z" creationid="Марианна" creationdate="20201020T114352Z">
