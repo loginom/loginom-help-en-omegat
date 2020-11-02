@@ -14495,6 +14495,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из модулей CommonJS можно загружать только модули CommonJS.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085445Z" creationid="Марианна" creationdate="20201102T085445Z">
+        <seg>Only the CommonJS modules can be loaded from the CommonJS modules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из модуля доступна глобальная переменная &lt;x1/&gt;__filename&lt;x2/&gt;, хранящая абсолютный путь к модулю внутри файлового хранилища.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T084323Z" creationid="Марианна" creationdate="20201102T084323Z">
@@ -16997,6 +17005,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Относительный путь</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085707Z" creationid="Марианна" creationdate="20201102T085707Z">
+        <seg>Relative path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отображает входные переменные и способ замены для каждой переменной:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161512Z" creationid="Марианна" creationdate="20201006T161512Z">
@@ -19097,6 +19113,22 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165047Z" creationid="Марианна" creationdate="20201010T165047Z">
         <seg>Friday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пути импорта внешних модулей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085619Z" creationid="Марианна" creationdate="20201102T085619Z">
+        <seg>Import paths of external modules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пути импорта модулей могут быть относительными или абсолютными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085659Z" creationid="Марианна" creationdate="20201102T085659Z">
+        <seg>The modules import paths can be relative and absolute.</seg>
       </tuv>
     </tu>
     <tu>
