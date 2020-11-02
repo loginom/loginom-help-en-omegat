@@ -10513,6 +10513,24 @@ interface Console {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>colOutlook1 = inputTable1.Columns[1];      // Получение ссылки на столбец по индексу
+
+// Получение из объекта Columns массива столбцов
+let arrayOfColumns = Array.from(InputTable.Columns);
+// Вывод значений свойств столбцов в консоль
+arrayOfColumns.forEach(column =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T153319Z" creationid="Марианна" creationdate="20201102T153319Z">
+        <seg>colOutlook1 = inputTable1.Columns[1];      // Getting reference to the column by index
+
+// Getting the columns array from the Columns object
+let arrayOfColumns = Array.from(InputTable.Columns);
+// Вывод значений свойств столбцов в консоль
+arrayOfColumns.forEach(column =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>cond1</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112834Z" creationid="Марианна" creationdate="20200825T112834Z">
