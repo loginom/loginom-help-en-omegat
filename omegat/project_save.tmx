@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%IsNull%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145612Z" creationid="Марианна" creationdate="20201102T145612Z">
+        <seg>%spoiler%IsNull%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%RowCount%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144704Z" creationid="Марианна" creationdate="20201102T144704Z">
@@ -3416,6 +3424,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
         <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;IsNull(row, col)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145615Z" creationid="Марианна" creationdate="20201102T145615Z">
+        <seg>&lt;x1/&gt;IsNull(row, col)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12747,6 +12763,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращаемое значение может иметь типы: &lt;x1/&gt;boolean&lt;x2/&gt;, &lt;x3/&gt;number&lt;x4/&gt;, &lt;x5/&gt;string&lt;x6/&gt;, &lt;x7/&gt;Date&lt;x8/&gt;, &lt;x9/&gt;undefined&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145608Z" creationid="Марианна" creationdate="20201102T145608Z">
+        <seg>The returned value can have the following types: &lt;x1/&gt;boolean&lt;x2/&gt;, &lt;x3/&gt;number&lt;x4/&gt;, &lt;x5/&gt;string&lt;x6/&gt;, &lt;x7/&gt;Date&lt;x8/&gt;, &lt;x9/&gt;undefined&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает значение типа &lt;x1/&gt;number&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
@@ -15849,6 +15873,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T094427Z" creationid="Марианна" creationdate="20201015T094427Z">
         <seg>Caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод возвращает значение заданного столбца в заданной строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145524Z" creationid="Марианна" creationdate="20201102T145524Z">
+        <seg>The method returns the value of the set column in the set string.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19169,6 +19201,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061317Z" creationid="Марианна" creationdate="20201014T061317Z">
         <seg>Note: In the result of the mathematical operations with the &lt;x1/&gt;"Date/time"&lt;x2/&gt; type (addition, subtraction, etc.), the real number with fractional part can be got.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принимает значение типа &lt;x1/&gt;number&lt;x2/&gt; или &lt;x3/&gt;string&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145823Z" creationid="Марианна" creationdate="20201102T145823Z">
+        <seg>It takes the value of the &lt;x1/&gt;number&lt;x2/&gt; or &lt;x3/&gt;string&lt;x4/&gt; type.</seg>
       </tuv>
     </tu>
     <tu>
