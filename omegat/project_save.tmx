@@ -6181,6 +6181,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Модульная система ECMAScript 6&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075050Z" creationid="Марианна" creationdate="20201102T075050Z">
+        <seg>&lt;x1/&gt;ECMAScript 6 Module System&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Набор XSD-схем&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185302Z" creationid="Марианна" creationdate="20200810T184320Z">
@@ -9367,6 +9375,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x7/&gt;Полное описание API&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075034Z" creationid="Марианна" creationdate="20201102T075034Z">
+        <seg>&lt;x7/&gt;Full API Description&lt;x8/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x7/&gt;Пример подключения и работы с БД&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T054811Z" creationid="Марианна" creationdate="20200824T154517Z">
@@ -10415,6 +10431,16 @@ console.log('3^3 = ', foo.cube(3));</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>const sayHello = require("./module/module.js");
+function cube(x) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075146Z" creationid="Марианна" creationdate="20201102T075146Z">
+        <seg>const sayHello = require("./module/module.js");
+function cube(x) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>d</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104148Z" creationid="Марианна" creationdate="20201006T104148Z">
@@ -10943,6 +10969,18 @@ interface IVariableItems extends Iterable&lt;IVariable&gt; {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060615Z" creationid="Марианна" creationdate="20201025T060615Z">
         <seg>resolve: (id: string) =&gt; string;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>return "Hello";
+}
+export { sayHello };</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075113Z" creationid="Марианна" creationdate="20201102T075113Z">
+        <seg>return "Hello";
+}
+export { sayHello };</seg>
       </tuv>
     </tu>
     <tu>
@@ -12411,6 +12449,30 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074858Z" creationid="Марианна" creationdate="20200716T074858Z">
         <seg>Nesting of supernodes inside each other is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внешний модуль "./foo/foo.js":</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075141Z" creationid="Марианна" creationdate="20201102T075141Z">
+        <seg>"./foo/foo.js" external module:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внешний модуль "./foo/module/module.js":</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075111Z" creationid="Марианна" creationdate="20201102T075111Z">
+        <seg>"./foo/module/module.js" external module:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внешний модуль "child_module.js":</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075324Z" creationid="Марианна" creationdate="20201102T075324Z">
+        <seg>"child_module.js" external module:</seg>
       </tuv>
     </tu>
     <tu>
