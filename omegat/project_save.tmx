@@ -9675,6 +9675,20 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>I am " + __filename);
+exports.filename = module.filename; // возвращает полный путь к child_module.js
+exports.parent = module.parent.id;  // возвращает идентификатор вызывающего модуля
+exports.loaded = module.loaded;     // возвращает true или false - был ли загружен модуль</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T084528Z" creationid="Марианна" creationdate="20201102T084528Z">
+        <seg>I am " + __filename);
+exports.filename = module.filename; // returns the full path to child_module.js
+exports.parent = module.parent.id;  // returns the identifier of the calling module
+exports.loaded = module.loaded;     // returns true or false - whether the module was loaded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>I am ... ".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085524Z" creationid="Марианна" creationdate="20201030T085524Z">
