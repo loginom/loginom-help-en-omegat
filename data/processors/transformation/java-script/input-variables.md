@@ -44,7 +44,7 @@ for (let variable of InputVariables.Items)
 
 // Получение из объекта Items массива переменных
 let arrayOfVariables = Array.from(InputVariables.Items);
-// Вывод значений переменных в консоль
+// Outputting the variables values to the console
 arrayOfVariables.forEach(variable => {
     console.log(variable.Name, " = ", variable.Value);
 });

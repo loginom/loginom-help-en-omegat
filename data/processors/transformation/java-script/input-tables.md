@@ -68,7 +68,7 @@ let colOutlook0 = inputTable0.Columns.OUTLOOK, // Getting reference to the colum
 
 // Getting the columns array from the Columns object
 let arrayOfColumns = Array.from(InputTable.Columns);
-// Directing the values of the columns properties to the console
+// Outputting the values of the columns properties to the console
 arrayOfColumns.forEach(column => {
     console.log("Index: ", column.Index);
     console.log("Name: ", column.Name);
@@ -82,16 +82,16 @@ arrayOfColumns.forEach(column => {
 
 // Getting the values array from the "CLASS" column
 let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
-// Directing the values of the "CLASS" column
+// Outputting the values of the "CLASS" column
 arrayOfColumnValues.forEach((value, index) => {
     console.log(index, ":", value);
 });
 
 // Reading the values from the input table using the Get method
 for (let i = 0, с = InputTable.RowCount; i < с; i++) {
-    // Directing the values of the column with 0 index
+    // Outputting the values of the column with 0 index
     console.log(`InputTable.Get(${i}, 0) = `, InputTable.Get(i, 0));
-    // Directing the values of the column with the "CLASS" name
+    // Outputting the values of the column with the "CLASS" name
     console.log(`InputTable.Get(${i}, "CLASS") = `, InputTable.Get(i, "CLASS"));
 }
 

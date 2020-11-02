@@ -14,8 +14,8 @@ The `error` logging level:
 
 **assert([assertion, msg1 , ..., msgN])**
 
-- assertion means any boolean expression. If the expression is false, the error message is directed to the console.
-- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be directed to the console.
+- assertion means any boolean expression. If the expression is false, the error message is output to the console.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
 It shows the error message, if the first parameter = `false`. Otherwise, the message is not shown.
 
@@ -25,7 +25,7 @@ It shows the error message, if the first parameter = `false`. Otherwise, the mes
 
 **error([msg1 , ..., msgN])**
 
-- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be directed to the console.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
 It shows the error message.
 
@@ -37,7 +37,7 @@ The `warning` logging level:
 
 **warn([msg1 , ..., msgN])**
 
-- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be directed to the console.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
 It shows the warning message.
 
@@ -49,7 +49,7 @@ The `information` logging level:
 
 **info([msg1 , ..., msgN])**
 
-- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be directed to the console.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
 It shows the information message.
 
@@ -59,7 +59,7 @@ It shows the information message.
 
 **log([msg1 , ..., msgN])**
 
-- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be directed to the console.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
 It shows the information message.
 
@@ -77,7 +77,7 @@ It enables to clean the message console in the *Preview* window. It does not hav
 
 ## Examples:
 
-Code of directing messages to the console:
+Code of outputting messages to the console:
 
 ```javascript
 import { OutputTable, InputTables } from "builtIn/Data";
@@ -112,7 +112,7 @@ console.assert(1 == 0, "1 != 0");
 console.assert(1 == 0, "lie", "1 != 0");
 ```
 
-Directing to the console:
+Outputting to the console:
 
 ```
 Information
