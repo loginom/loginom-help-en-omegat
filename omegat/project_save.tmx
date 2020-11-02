@@ -11783,6 +11783,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В модулях ES6 поддерживается статический и динамический импорт модулей ES6, для импорта модулей CommonJS применяется функция &lt;x5/&gt;require&lt;x6/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T081813Z" creationid="Марианна" creationdate="20201102T081813Z">
+        <seg>The static and dynamic import of ES6 modules is supported in ES6 modules, to import the CommonJS modules, it is required to use &lt;x5/&gt;require&lt;x6/&gt; function (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В настройках выходного порта "Переменные пользователя", закрепленного в верхнем левом углу области построения Сценария;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T085419Z" creationid="Марианна" creationdate="20201009T085419Z">
