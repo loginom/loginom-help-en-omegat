@@ -13785,6 +13785,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлены необязательные свойства &lt;x1/&gt;require.resolve&lt;x2/&gt; и &lt;x3/&gt;require.cache&lt;x4/&gt; (как в NodeJS);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T083754Z" creationid="Марианна" creationdate="20201102T083754Z">
+        <seg>&lt;x1/&gt;require.resolve&lt;x2/&gt; and &lt;x3/&gt;require.cache&lt;x4/&gt; (as in NodeJS) optional properties were added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доля городского населения, %</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212441Z" creationid="Марианна" creationdate="20201012T211350Z">
@@ -16591,6 +16599,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
         <seg>General:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Объект модуля имеет свойства &lt;x1/&gt;parent&lt;x2/&gt;, &lt;x3/&gt;loaded&lt;x4/&gt; и &lt;x5/&gt;filename&lt;x6/&gt; (как в NodeJS);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T083840Z" creationid="Марианна" creationdate="20201102T083840Z">
+        <seg>The module object has &lt;x1/&gt;parent&lt;x2/&gt;, &lt;x3/&gt;loaded&lt;x4/&gt; and &lt;x5/&gt;filename&lt;x6/&gt; (as in NodeJS) properties.</seg>
       </tuv>
     </tu>
     <tu>
