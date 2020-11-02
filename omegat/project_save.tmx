@@ -16741,6 +16741,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обращение к источнику данных порта происходит через его номер:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T143719Z" creationid="Марианна" creationdate="20201102T143719Z">
+        <seg>The port data source is accessed by its number:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Общее:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
