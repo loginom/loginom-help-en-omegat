@@ -10759,6 +10759,18 @@ interface IRequireFunction {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>import { InputTable, InputTables } from "builtIn/Data";
+
+let inputTable0 = InputTables[0],              // Источник данных с порта №1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T150734Z" creationid="Марианна" creationdate="20201102T150734Z">
+        <seg>import { InputTable, InputTables } from "builtIn/Data";
+
+let inputTable0 = InputTables[0],              // Source of the data from port No 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>import { OutputTable } from "builtIn/Data";
 
 // Импорт модуля функцией require
@@ -12241,6 +12253,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113950Z" creationid="Марианна" creationdate="20200716T205016Z">
         <seg>In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В противном случае возвращается &lt;x3/&gt;false&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T150444Z" creationid="Марианна" creationdate="20201102T150444Z">
+        <seg>Otherwise, the &lt;x3/&gt;false&lt;x4/&gt; value returns.</seg>
       </tuv>
     </tu>
     <tu>
