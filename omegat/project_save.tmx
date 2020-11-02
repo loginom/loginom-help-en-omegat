@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Get%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145007Z" creationid="Марианна" creationdate="20201102T145007Z">
+        <seg>%spoiler%Get%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%RowCount%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144704Z" creationid="Марианна" creationdate="20201102T144704Z">
@@ -3384,6 +3392,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183338Z" creationid="Марианна" creationdate="20200810T183338Z">
         <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Get(row, col)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145012Z" creationid="Марианна" creationdate="20201102T145012Z">
+        <seg>&lt;x1/&gt;Get(row, col)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15837,6 +15853,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Методы источника данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145004Z" creationid="Марианна" creationdate="20201102T145004Z">
+        <seg>Data source methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм повторного использования алгоритмов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121855Z" creationid="Марианна" creationdate="20200718T141206Z">
@@ -19737,6 +19761,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144839Z" creationid="Марианна" creationdate="20201102T144549Z">
         <seg>It contains read-only count of columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит доступное для чтения количество строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T144857Z" creationid="Марианна" creationdate="20201102T144857Z">
+        <seg>It contains read-only count of rows.</seg>
       </tuv>
     </tu>
     <tu>
