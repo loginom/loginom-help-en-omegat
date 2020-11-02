@@ -13435,6 +13435,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для доступа к данным портов &lt;x1/&gt;Входной источник данных[N]&lt;x2/&gt; используются объекты &lt;x3/&gt;InputTables[]&lt;x4/&gt; и &lt;x5/&gt;InputTable&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T143540Z" creationid="Марианна" creationdate="20201102T143540Z">
+        <seg>For access to the data of the ports&lt;x1/&gt;Input data source[N]&lt;x2/&gt;, &lt;x3/&gt;InputTables[]&lt;x4/&gt; and &lt;x5/&gt;InputTable&lt;x6/&gt; objects are used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для дочерних узлов есть возможность создать узлы того же иерархического уровня.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113529Z" creationid="Марианна" creationdate="20200929T113529Z">
