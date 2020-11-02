@@ -538,16 +538,16 @@ require("child_module.js");</seg>
       <tuv lang="ru">
         <seg>// Вывод значений столбца с именем "CLASS"</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T154444Z" creationid="Марианна" creationdate="20201102T154444Z">
-        <seg>// Directing the values of the column with the "CLASS" name</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T160242Z" creationid="Марианна" creationdate="20201102T154444Z">
+        <seg>// Outputting the values of the column with the "CLASS" name</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>// Вывод значений столбца с индексом 0</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T154415Z" creationid="Марианна" creationdate="20201102T154415Z">
-        <seg>// Directing the values of the column with 0 index</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T160234Z" creationid="Марианна" creationdate="20201102T154415Z">
+        <seg>// Outputting the values of the column with 0 index</seg>
       </tuv>
     </tu>
     <tu>
@@ -10536,12 +10536,12 @@ let arrayOfColumns = Array.from(InputTable.Columns);
 // Вывод значений свойств столбцов в консоль
 arrayOfColumns.forEach(column =&gt; {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T153428Z" creationid="Марианна" creationdate="20201102T153319Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201102T160215Z" creationid="Марианна" creationdate="20201102T153319Z">
         <seg>colOutlook1 = inputTable1.Columns[1];      // Getting reference to the column by index
 
 // Getting the columns array from the Columns object
 let arrayOfColumns = Array.from(InputTable.Columns);
-// Directing the values of the columns properties to the console
+// Outputting the values of the columns properties to the console
 arrayOfColumns.forEach(column =&gt; {</seg>
       </tuv>
     </tu>
@@ -10585,13 +10585,13 @@ let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
 // Вывод значений столбца "CLASS"
 arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T154222Z" creationid="Марианна" creationdate="20201102T154222Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201102T160225Z" creationid="Марианна" creationdate="20201102T154222Z">
         <seg>console.log("");
 });
 
 // Getting the values array from the "CLASS" column
 let arrayOfColumnValues = Array.from(InputTable.Columns["CLASS"]);
-// Directing the values of the "CLASS" column
+// Outputting the values of the "CLASS" column
 arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
       </tuv>
     </tu>
@@ -10717,6 +10717,24 @@ for (let i = 0, с = InputTable.RowCount; i &lt; с; i++) {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085622Z" creationid="Марианна" creationdate="20201030T085622Z">
         <seg>console.log(mod.sayHello());</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log(variable.Name, " = ", variable.Value);
+
+// Получение из объекта Items массива переменных
+let arrayOfVariables = Array.from(InputVariables.Items);
+// Вывод значений переменных в консоль
+arrayOfVariables.forEach(variable =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T160323Z" creationid="Марианна" creationdate="20201102T160323Z">
+        <seg>console.log(variable.Name, " = ", variable.Value);
+
+// Получение из объекта Items массива переменных
+let arrayOfVariables = Array.from(InputVariables.Items);
+// Outputting the variables values to the console
+arrayOfVariables.forEach(variable =&gt; {</seg>
       </tuv>
     </tu>
     <tu>
