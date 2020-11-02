@@ -18517,6 +18517,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При использовании относительных путей в корневом модуле (скрипте, который содержит редактор кода узла):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T085819Z" creationid="Марианна" creationdate="20201102T085819Z">
+        <seg>When using relative paths in the root modules (the script that contains the node code editor):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При клике мышкой на узле отобразятся иконки возможных действий.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
