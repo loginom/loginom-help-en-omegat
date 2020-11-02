@@ -10489,6 +10489,14 @@ interface Console {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>col — индекс или имя столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145345Z" creationid="Марианна" creationdate="20201102T145345Z">
+        <seg>col is a column index or name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>cond1</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112834Z" creationid="Марианна" creationdate="20200825T112834Z">
@@ -11223,6 +11231,14 @@ exports.cube = cube;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114325Z" creationid="Марианна" creationdate="20201020T114325Z">
         <seg>return x;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>row — индекс строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145236Z" creationid="Марианна" creationdate="20201102T145236Z">
+        <seg>row is a row index.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19153,6 +19169,22 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061317Z" creationid="Марианна" creationdate="20201014T061317Z">
         <seg>Note: In the result of the mathematical operations with the &lt;x1/&gt;"Date/time"&lt;x2/&gt; type (addition, subtraction, etc.), the real number with fractional part can be got.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принимает значение типа &lt;x1/&gt;number&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145310Z" creationid="Марианна" creationdate="20201102T145310Z">
+        <seg>It takes the value of the &lt;x1/&gt;number&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принимает значение типов &lt;x1/&gt;number&lt;x2/&gt; или &lt;x3/&gt;string&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T145445Z" creationid="Марианна" creationdate="20201102T145445Z">
+        <seg>It takes the value of &lt;x1/&gt;number&lt;x2/&gt; or &lt;x3/&gt;string&lt;x4/&gt; types.</seg>
       </tuv>
     </tu>
     <tu>
