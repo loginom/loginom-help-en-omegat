@@ -17505,6 +17505,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживаются модульные системы &lt;x1/&gt;ES6&lt;x2/&gt; (ECMAScript 6) и &lt;x3/&gt;CommonJS&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T074649Z" creationid="Марианна" creationdate="20201102T074649Z">
+        <seg>&lt;x1/&gt;ES6&lt;x2/&gt; (ECMAScript 6) and &lt;x3/&gt;CommonJS&lt;x4/&gt; module systems are supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
