@@ -574,6 +574,26 @@ return COL1 + COL2;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>// Статический импорт
+import { cube, sayHello } from "foo/foo.js";
+console.log(sayHello());
+console.log('3^3 = ', cube(3));
+
+// Динамический импорт
+import("foo/foo.js").then(mod =&gt; {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T082612Z" creationid="Марианна" creationdate="20201102T082612Z">
+        <seg>// Static import
+import { cube, sayHello } from "foo/foo.js";
+console.log(sayHello());
+console.log('3^3 = ', cube(3));
+
+// Dynamic import
+import("foo/foo.js").then(mod =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>// Функция вычисления степени числа
 function pow(x, n) {</seg>
       </tuv>
@@ -6177,6 +6197,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163148Z" creationid="Марианна" creationdate="20200718T163148Z">
         <seg>The &lt;x1/&gt;Module&lt;x2/&gt; as such does not contain data processing nodes, but it provides separate space for the Workflows and &lt;x3/&gt;Connections&lt;x4/&gt; to different data sources.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Модульная система CommonJS&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T082815Z" creationid="Марианна" creationdate="20201102T082815Z">
+        <seg>&lt;x1/&gt;CommonJS Module System&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
