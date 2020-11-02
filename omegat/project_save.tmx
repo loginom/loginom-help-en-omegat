@@ -11455,6 +11455,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Абсолютный путь</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075407Z" creationid="Марианна" creationdate="20201102T075407Z">
+        <seg>Absolute path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Адресная строка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T134742Z" creationid="Марианна" creationdate="20200813T134742Z">
@@ -15763,6 +15771,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T101600Z" creationid="Марианна" creationdate="20200818T101600Z">
         <seg>The workflow fragment with the opened &lt;x1/&gt;Property inspector&lt;x2/&gt; window is shown on figure below for the &lt;x3/&gt;Calculator&lt;x4/&gt; node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На сервере Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T075439Z" creationid="Марианна" creationdate="20201102T075439Z">
+        <seg>on the Loginom server</seg>
       </tuv>
     </tu>
     <tu>
