@@ -11549,6 +11549,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Абсолютный путь — полный путь в файловой в системе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090531Z" creationid="Марианна" creationdate="20201102T090531Z">
+        <seg>Absolute path is a full path in the file system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Адресная строка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T134742Z" creationid="Марианна" creationdate="20200813T134742Z">
@@ -11609,6 +11617,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143824Z" creationid="Марианна" creationdate="20200920T143824Z">
         <seg>It is possible to implement the random processing logics and set the required structure of input and output data in the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Desktop версии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090502Z" creationid="Марианна" creationdate="20201102T090502Z">
+        <seg>in the Desktop version</seg>
       </tuv>
     </tu>
     <tu>
@@ -14183,6 +14199,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
         <seg>If the variable will contain the following value: &lt;x9/&gt;Nomenclature.ProductItem = "4561"&lt;x10/&gt;, the resulting request will have the following form:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если путь начинается с "/", то он интерпретируется как абсолютный внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt; и считается от каталога пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201102T090444Z" creationid="Марианна" creationdate="20201102T090444Z">
+        <seg>If the path starts from "/", is is interpreted as the absolute one inside the &lt;x1/&gt;file storage&lt;x2/&gt;, and it is calculated from the user directory.</seg>
       </tuv>
     </tu>
     <tu>
