@@ -10097,9 +10097,9 @@ ON
 Catalog.Номенклатура.Ссылка = Потребности.Номенклатура
 WHERE %CONDITION%</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T124956Z" creationid="Марианна" creationdate="20200823T124330Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201104T105229Z" creationid="Марианна" creationdate="20200823T124330Z">
         <seg>SELECT
-Period, Nomenclature.Name, Amount
+Period, Nomenclature.Name, Count
 FROM
 InformationRegister.CalendarNeedsInNomenclature.SliceLast(&amp;Date, Amount &gt; &amp;Count) AS Needs
 INNER JOIN
