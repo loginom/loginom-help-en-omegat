@@ -17351,8 +17351,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Особенностью применения данной конструкции подстановки является то, что в запрос через переменные могут передаваться значения только простых типов данных: логический, строковый, числовой, дата/время.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201104T105020Z" creationid="Марианна" creationdate="20200823T123609Z">
-        <seg>When this substitution construction is used, only simple data types can be passed to the query via variables: logical, string, numeric, date/time.. </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T105054Z" creationid="Марианна" creationdate="20200823T123609Z">
+        <seg>When this substitution construction is used, only simple data types can be passed to the query via variables: logical, string, numeric, date/time. </seg>
       </tuv>
     </tu>
     <tu>
