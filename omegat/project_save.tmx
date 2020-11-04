@@ -15049,8 +15049,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Импорт из Excel файла</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T131750Z" creationid="Марианна" creationdate="20200825T113538Z">
-        <seg>Import from the Excel File</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T183335Z" creationid="Марианна" creationdate="20200825T113538Z">
+        <seg>Import from Excel File</seg>
       </tuv>
     </tu>
     <tu>
