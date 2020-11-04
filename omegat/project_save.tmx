@@ -3190,8 +3190,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — прогресс выполнения текущего процесса по мере обработки данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200817T064736Z" creationid="Марианна" creationdate="20200817T064736Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — execution progress of the current process as data are processed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T185531Z" creationid="Марианна" creationdate="20200817T064736Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — execution progress of the current process as data is processed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12151,8 +12151,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201030T082748Z" creationid="Марианна" creationdate="20201030T082748Z">
-        <seg>The enumerations describing the fields and varibles metadata are built in within the JavaScript execution context.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T185540Z" creationid="Марианна" creationdate="20201030T082748Z">
+        <seg>The enumerations describing the fields and varibles metadata is built in within the JavaScript execution context.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13469,8 +13469,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T110132Z" creationid="Марианна" creationdate="20200717T110132Z">
-        <seg>Then these data are sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data are transferred to the node used for selection of the first 10 table rows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T185612Z" creationid="Марианна" creationdate="20200717T110132Z">
+        <seg>Then these data is sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data is transferred to the node used for selection of the first 10 table rows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14701,8 +14701,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Здесь задаются:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T165520Z" creationid="Марианна" creationdate="20200916T165520Z">
-        <seg>The following data are set below:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T185516Z" creationid="Марианна" creationdate="20200916T165520Z">
+        <seg>The following data is set below:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15025,8 +15025,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Импорт в Loginom может осуществляться из множества источников, таких как текстовый файл, электронные таблицы, базы данных и другие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T064118Z" creationid="Марианна" creationdate="20200826T064118Z">
-        <seg>Data are imported to Loginom from many sources, for example, a text file, spreadsheets, databases, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T185523Z" creationid="Марианна" creationdate="20200826T064118Z">
+        <seg>Data is imported to Loginom from many sources, for example, a text file, spreadsheets, databases, etc.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20803,8 +20803,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Теперь в выходном порте узла присутствуют импортированные данные, которые можно увидеть, выбрав &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр…&lt;x4/&gt; в контекстном меню порта (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T100732Z" creationid="Марианна" creationdate="20200717T100732Z">
-        <seg>Now the imported data are present in the output node port. It is possible to view them selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick View…&lt;x4/&gt; in the context port menu (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T185548Z" creationid="Марианна" creationdate="20200717T100732Z">
+        <seg>Now the imported data is present in the output node port. It is possible to view them selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick View…&lt;x4/&gt; in the context port menu (refer to</seg>
       </tuv>
     </tu>
     <tu>
