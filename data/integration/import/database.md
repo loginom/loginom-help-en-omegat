@@ -25,7 +25,7 @@ There are the following parameters in the wizard:
 * **List *Tables/Views***. The data source tables and views available for import are selected from the list. To display the list, connection must be activated by means of the *Activate* button.
 * ![ ](../../images/extjs-theme/splitter/mini-left.svg) / ![ ](../../images/extjs-theme/splitter/mini-right.svg) — hides/shows the *Tables/Views* list.
 * **Area of selection of variant of data retrieval from DB** contains two tabs:
-   * **Table/View** enables to retrieve set fields of the DB object. For this purpose, it is required to mark fields of the DB object in the *Table/View* list that was selected in the *Tables/Views* list.
+   * **Table/View** enables to retrieve set fields of the DB object. For this purpose, it is required to select fields of the DB object in the *Table/View* list that was selected in the *Tables/Views* list.
    * The **SQL query** enables to form the resulting data set by means of the SQL query. For this purpose, it is required to enter text of the database query in the *SQL query* tab. When finalizing the SQL query text, it is possible to use values of the input port variables that enables to improve processing of queries and provide flexible database use.
 
 [Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first lines of the resulting table.
