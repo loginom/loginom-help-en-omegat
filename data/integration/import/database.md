@@ -28,7 +28,7 @@ There are the following parameters in the wizard:
    * **Table/View** enables to retrieve set fields of the DB object. For this purpose, it is required to mark fields of the DB object in the *Table/View* list that was selected in the *Tables/Views* list.
    * The **SQL query** enables to form the resulting data set by means of the SQL query. For this purpose, it is required to enter text of the database query in the *SQL query* tab. When finalizing the SQL query text, it is possible to use values of the input port variables that enables to improve processing of queries and provide flexible database use.
 
-The [Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first lines of the resulting table.
+[Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first lines of the resulting table.
 
 ## Use of Variables in Queries
 
