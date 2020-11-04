@@ -11,7 +11,7 @@ The panel has the following structure:
 * **%** — percentage of the process execution.
 * Processing:
    * ![](./information-panel-2.png) — processing is in progress, and it is not possible to calculate its termination time in advance.
-   * ![](./information-panel-3.png) — execution progress of the current process as data are processed.
+   * ![](./information-panel-3.png) — execution progress of the current process as data is processed.
    * ![](./information-panel-4.png) — successful completion (processing is completed).
    * ![](./information-panel-5.png) — information on the process execution results has not been received yet.
    * ![](./information-panel-6.png) — an error occurred while the process execution (processing is not completed).

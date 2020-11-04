@@ -20,7 +20,7 @@ This window has two tabs:
 
 ## Settings
 
-The following data are set below:
+The following data is set below:
 * Table name is a unique table name in DB.
 * Table fields specifying the following parameters:
    * Table name in the [permissible format](../../../data/datasetfieldoptions.md).

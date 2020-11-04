@@ -40,7 +40,7 @@ Select the [Text file](../integration/import/txt-csv.md) component in the Import
 
 Follow the wizard steps having specified the Sales.txt file location in the File Name parameter.
 
-Execute the node upon its configuration using the menu of possible actions. Now the imported data are present in the output node port. It is possible to view them selecting ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Quick View…](../visualization/preview/quick-view.md) in the context port menu (refer to Figure 4).
+Execute the node upon its configuration using the menu of possible actions. Now the imported data is present in the output node port. It is possible to view them selecting ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Quick View…](../visualization/preview/quick-view.md) in the context port menu (refer to Figure 4).
 
 ![Call Quick View](./first-scenario-4.png)
 
@@ -50,7 +50,7 @@ The next algorithm step is calculation of purchase sum for all clients. For this
 
 The Client Card field is set as a group, and the Sum is set as a parameter in the [Grouping](../processors/transformation/grouping.md) Node Wizard. Upon configuration and execution of the grouping node, data about total sums of the clients' purchases are in the output port.
 
-Then these data are sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then these data are transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row Filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" criteria is set in its wizard.
+Then these data is sorted in the sum descending order using the [Sorting](../processors/transformation/sorting.md) component. Then these data is transferred to the node used for selection of the first 10 table rows.  For this purpose, the [Row Filter](../processors/transformation/row-filter/README.md) component is used. "№ Row number <= 10" criteria is set in its wizard.
 
 The export node is added to the resulting workflow, and/or the [Visualizer](../visualization/README.md) of results is configured (refer to Figure 6).
 
