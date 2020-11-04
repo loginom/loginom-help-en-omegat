@@ -10121,9 +10121,9 @@ ON
 Catalog.Номенклатура.Ссылка = Потребности.Номенклатура
 WHERE Номенклатура.Артикул = "4561"</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T125741Z" creationid="Марианна" creationdate="20200823T125741Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201104T105316Z" creationid="Марианна" creationdate="20200823T125741Z">
         <seg>SELECT
-Period, Nomenclature.Name, Amount
+Period, Nomenclature.Name, Count
 FROM
 InformationRegister.CalendarNeedsInNomenclature.SliceLast(&amp;Date, Amount &gt; &amp;Count) AS Needs
 INNER JOIN
