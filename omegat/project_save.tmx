@@ -12746,7 +12746,7 @@ return pow(COL1, COL2);</seg>
 УПОРЯДОЧИТЬ ПО
 Период УБЫВ</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T122636Z" creationid="Марианна" creationdate="20200823T122257Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201104T105012Z" creationid="Марианна" creationdate="20200823T122257Z">
         <seg>SELECT
 CurrencyRates.Currency.Code,
 CurrencyRates.Currency.Name,
@@ -12757,7 +12757,7 @@ FROM
 RollupLedger.CurrencyRates AS CurrencyRates
 WHERE
 CurrencyRates.Period BETWEEN &amp;start_date AND &amp;end_date
-ARRANGE BY
+ORDER BY
 DESC period</seg>
       </tuv>
     </tu>
