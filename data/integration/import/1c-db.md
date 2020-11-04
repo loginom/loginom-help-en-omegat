@@ -53,7 +53,7 @@ Example 2.
 
 ```sql
 SELECT
-Period, Nomenclature.Name, Amount
+Period, Nomenclature.Name, Count
 FROM
 InformationRegister.CalendarNeedsInNomenclature.SliceLast(&Date, Amount > &Count) AS Needs
 INNER JOIN
@@ -67,7 +67,7 @@ In Example 2 `%CONDITION%` is a construction of substitution of value of `CONDIT
 
 ```sql
 SELECT
-Period, Nomenclature.Name, Amount
+Period, Nomenclature.Name, Count
 FROM
 InformationRegister.CalendarNeedsInNomenclature.SliceLast(&Date, Amount > &Count) AS Needs
 INNER JOIN
