@@ -15449,8 +15449,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Кнопка &lt;x1/&gt;Предпросмотр…&lt;x2/&gt; позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T122050Z" creationid="Марианна" creationdate="20200823T122050Z">
-        <seg>The &lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first lines of the resulting table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T103434Z" creationid="Марианна" creationdate="20200823T122050Z">
+        <seg>&lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first lines of the resulting table.</seg>
       </tuv>
     </tu>
     <tu>
