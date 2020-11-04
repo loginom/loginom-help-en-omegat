@@ -14101,8 +14101,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этого в списке &lt;x3/&gt;Таблица/Представление&lt;x4/&gt; необходимо отметить поля объекта БД, выбранного в списке &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T110720Z" creationid="Марианна" creationdate="20200825T110720Z">
-        <seg>For this purpose, it is required to mark fields of the DB object in the &lt;x3/&gt;Table/View&lt;x4/&gt; list that was selected in the &lt;x5/&gt;Tables/Views&lt;x6/&gt; list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201104T182623Z" creationid="Марианна" creationdate="20200825T110720Z">
+        <seg>For this purpose, it is required to select fields of the DB object in the &lt;x3/&gt;Table/View&lt;x4/&gt; list that was selected in the &lt;x5/&gt;Tables/Views&lt;x6/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
