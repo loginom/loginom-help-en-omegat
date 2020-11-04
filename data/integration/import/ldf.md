@@ -12,7 +12,7 @@ LGD is a special format of files optimized for work in Loginom. It provides the 
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
 
 ## Wizard
 

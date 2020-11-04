@@ -8,7 +8,7 @@ It is used for data import from the Microsoft Excel files.
 
 ### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
 
 ## Wizard
 

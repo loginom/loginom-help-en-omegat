@@ -13,7 +13,7 @@ The component is designated for data tables import from the XML files.
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data set - imported table.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data set - imported data set.
 
 ## Wizard
 

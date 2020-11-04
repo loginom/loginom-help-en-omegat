@@ -13,7 +13,7 @@ The component is designated for import from 1C database.
 
 ### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported table
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
 
 ## Wizard
 
