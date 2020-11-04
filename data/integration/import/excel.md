@@ -14,7 +14,7 @@ It is used for data import from the Microsoft Excel files.
 
 The wizard contains several configuration stages.
 
-### Step 1. Import from the Excel File
+### Step 1. Import from Excel File
 
 The following parameters are specified at the first configuration stage:
 
