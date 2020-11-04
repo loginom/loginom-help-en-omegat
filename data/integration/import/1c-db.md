@@ -69,7 +69,7 @@ In Example 2 `%CONDITION%` is a construction of substitution of value of `CONDIT
 SELECT
 Period, Nomenclature.Name, Count
 FROM
-InformationRegister.CalendarNeedsInNomenclature.SliceLast(&Date, Amount > &Count) AS Needs
+InformationRegister.CalendarNeedsInNomenclature.SliceLast(&Date, Count > &Count) AS Needs
 INNER JOIN
 Catalog.Nomenclature
 ON
