@@ -10626,6 +10626,22 @@ arrayOfColumns.forEach(column =&gt; {</seg>
     <tu>
       <tuv lang="ru">
         <seg>console.log("");
+}
+
+// Перебор входных переменных с использованием итератора
+for (let variable of InputVariables.Items)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103415Z" creationid="Марианна" creationdate="20201105T103415Z">
+        <seg>console.log("");
+}
+
+// Search for the input variables by means of iterator
+for (let variable of InputVariables.Items)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("");
 });
 
 // Получение из столбца "CLASS" массива значений
@@ -10653,10 +10669,26 @@ arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("DataKind: ", variable.IsNull);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103255Z" creationid="Марианна" creationdate="20201105T103255Z">
+        <seg>console.log("DataKind: ", variable.IsNull);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log("DataType: ", column.DataType);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T153518Z" creationid="Марианна" creationdate="20201102T153518Z">
         <seg>console.log("DataType: ", column.DataType);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("DataType: ", variable.DataType);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103252Z" creationid="Марианна" creationdate="20201105T103252Z">
+        <seg>console.log("DataType: ", variable.DataType);</seg>
       </tuv>
     </tu>
     <tu>
@@ -10669,10 +10701,26 @@ arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("DefaultUsageType: ", variable.Value);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103300Z" creationid="Марианна" creationdate="20201105T103300Z">
+        <seg>console.log("DefaultUsageType: ", variable.Value);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log("DisplayName: ", column.DisplayName);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T153500Z" creationid="Марианна" creationdate="20201102T153500Z">
         <seg>console.log("DisplayName: ", column.DisplayName);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("DisplayName: ", variable.DisplayName);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103249Z" creationid="Марианна" creationdate="20201105T103249Z">
+        <seg>console.log("DisplayName: ", variable.DisplayName);</seg>
       </tuv>
     </tu>
     <tu>
@@ -10693,10 +10741,26 @@ arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("Index: ", variable.Index);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103241Z" creationid="Марианна" creationdate="20201105T103241Z">
+        <seg>console.log("Index: ", variable.Index);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log("Name: ", column.Name);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T153454Z" creationid="Марианна" creationdate="20201102T153454Z">
         <seg>console.log("Name: ", column.Name);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>console.log("Name: ", variable.Name);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103245Z" creationid="Марианна" creationdate="20201105T103245Z">
+        <seg>console.log("Name: ", variable.Name);</seg>
       </tuv>
     </tu>
     <tu>
@@ -10776,10 +10840,10 @@ let arrayOfVariables = Array.from(InputVariables.Items);
 // Вывод значений переменных в консоль
 arrayOfVariables.forEach(variable =&gt; {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T160323Z" creationid="Марианна" creationdate="20201102T160323Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103637Z" creationid="Марианна" creationdate="20201102T160323Z">
         <seg>console.log(variable.Name, " = ", variable.Value);
 
-// Получение из объекта Items массива переменных
+// Getting the variables array from the Items object
 let arrayOfVariables = Array.from(InputVariables.Items);
 // Outputting the variables values to the console
 arrayOfVariables.forEach(variable =&gt; {</seg>
@@ -11207,6 +11271,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114336Z" creationid="Марианна" creationdate="20201020T114336Z">
         <seg>let s;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>let variable = InputVariables.Items[i];</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103238Z" creationid="Марианна" creationdate="20201105T103238Z">
+        <seg>let variable = InputVariables.Items[i];</seg>
       </tuv>
     </tu>
     <tu>
