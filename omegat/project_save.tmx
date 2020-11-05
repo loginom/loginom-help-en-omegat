@@ -20095,6 +20095,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Свойства OutputTable</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T105657Z" creationid="Марианна" creationdate="20201105T105657Z">
+        <seg>OutputTable Properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Свойства источника данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144152Z" creationid="Марианна" creationdate="20201102T144152Z">
@@ -20291,6 +20299,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101520Z" creationid="Марианна" creationdate="20201105T101520Z">
         <seg>It contains read-only collection of the input variables of the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит доступную для чтения коллекцию столбцов выходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T105810Z" creationid="Марианна" creationdate="20201105T105810Z">
+        <seg>It contains read-only collection of columns of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
