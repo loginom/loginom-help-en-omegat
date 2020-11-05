@@ -10847,6 +10847,20 @@ for (let prop in InputVariables.Items[0])</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log(prop);
+
+// Проверка существования переменной "MyVar"
+if (InputVariables.Items.MyVar)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T105012Z" creationid="Марианна" creationdate="20201105T105012Z">
+        <seg>console.log(prop);
+
+// Check for existence of the "MyVar" variable
+if (InputVariables.Items.MyVar)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log(variable.Name, " = ", variable.Value);
 
 // Получение из объекта Items массива переменных
