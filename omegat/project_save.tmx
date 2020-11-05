@@ -10773,6 +10773,14 @@ arrayOfColumnValues.forEach((value, index) =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log("Переменная существует");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T105048Z" creationid="Марианна" creationdate="20201105T105048Z">
+        <seg>console.log("The variable exists");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>console.log('3^3 = ', mod.cube(3));</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085618Z" creationid="Марианна" creationdate="20201030T085618Z">
