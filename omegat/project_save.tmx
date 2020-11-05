@@ -11161,6 +11161,44 @@ for (let i = 0, c = InputVariables.Count; i &lt; c; i++) {</seg>
       <tuv lang="ru">
         <seg>import { OutputTable } from "builtIn/Data";
 
+// Добавление строки в выходной набор данных
+OutputTable.Append();
+// В поле с именем "COL0" записывается значение true
+OutputTable.Set("COL0", true);
+// В поле с индексом 1 записываются текущие Дата/Время
+OutputTable.Set(1, new Date());
+
+// Проверка, что значение в столбце №2 не определено
+console.assert(OutputTable.IsNull(0, 2));
+console.assert(typeof OutputTable.Get(0, 2) == "undefined");
+
+// Копирование значений первой строки во вторую
+OutputTable.Append();
+for (let i = 0, c = OutputTable.ColumnCount; i &lt; c; i++) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T111330Z" creationid="Марианна" creationdate="20201105T111330Z">
+        <seg>import { OutputTable } from "builtIn/Data";
+
+// Append string to the output data set
+OutputTable.Append();
+// The true value is recorded in the field with "COL0" name
+OutputTable.Set("COL0", true);
+// The current Date/Time are recorded in the field with index 1
+OutputTable.Set(1, new Date());
+
+// Checking that the value in column No 2 is not defined
+console.assert(OutputTable.IsNull(0, 2));
+console.assert(typeof OutputTable.Get(0, 2) == "undefined");
+
+// Copying the values of the first string to the second one
+OutputTable.Append();
+for (let i = 0, c = OutputTable.ColumnCount; i &lt; c; i++) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>import { OutputTable } from "builtIn/Data";
+
 // Импорт модуля функцией require
 const calcModule = require("builtIn/Calc");
 OutputTable.Append();
