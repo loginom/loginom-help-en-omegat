@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Set%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110151Z" creationid="Марианна" creationdate="20201105T110151Z">
+        <seg>%spoiler%Set%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%assert%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T054924Z" creationid="Марианна" creationdate="20201029T054924Z">
@@ -3712,6 +3720,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
         <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Set(col, value)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110154Z" creationid="Марианна" creationdate="20201105T110154Z">
+        <seg>&lt;x1/&gt;Set(col, value)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11759,6 +11775,14 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>value — значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110207Z" creationid="Марианна" creationdate="20201105T110207Z">
+        <seg>value — value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>warn(...data: any[]): void;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T061011Z" creationid="Марианна" creationdate="20201025T061011Z">
@@ -16323,6 +16347,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145524Z" creationid="Марианна" creationdate="20201102T145524Z">
         <seg>The method returns the value of the set column in the set string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод добавляет новую строку в выходной набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110147Z" creationid="Марианна" creationdate="20201105T110147Z">
+        <seg>The method enables to append the new row to the output data set.</seg>
       </tuv>
     </tu>
     <tu>
