@@ -11375,6 +11375,14 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>let value = OutputTable.Get(0, i);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110223Z" creationid="Марианна" creationdate="20201105T110223Z">
+        <seg>let value = OutputTable.Get(0, i);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>let variable = InputVariables.Items[i];</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T103238Z" creationid="Марианна" creationdate="20201105T103238Z">
@@ -19707,6 +19715,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T150033Z" creationid="Марианна" creationdate="20201102T145445Z">
         <seg>It takes the value of the &lt;x1/&gt;number&lt;x2/&gt; or &lt;x3/&gt;string&lt;x4/&gt; types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принимает значения следующих типов: &lt;x1/&gt;boolean&lt;x2/&gt;, &lt;x3/&gt;number&lt;x4/&gt;, &lt;x5/&gt;string&lt;x6/&gt;, &lt;x7/&gt;Date&lt;x8/&gt;, &lt;x9/&gt;null&lt;x10/&gt;, &lt;x11/&gt;undefined&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110306Z" creationid="Марианна" creationdate="20201105T110306Z">
+        <seg>It takes the values of the following types: &lt;x1/&gt;boolean&lt;x2/&gt;, &lt;x3/&gt;number&lt;x4/&gt;, &lt;x5/&gt;string&lt;x6/&gt;, &lt;x7/&gt;Date&lt;x8/&gt;, &lt;x9/&gt;null&lt;x10/&gt;, &lt;x11/&gt;undefined&lt;x12/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
