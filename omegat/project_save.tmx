@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Count%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101554Z" creationid="Марианна" creationdate="20201105T101554Z">
+        <seg>%spoiler%Count%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Get%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145007Z" creationid="Марианна" creationdate="20201102T145007Z">
@@ -3360,6 +3368,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144205Z" creationid="Марианна" creationdate="20201102T144205Z">
         <seg>&lt;x1/&gt;Columns&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Count&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101558Z" creationid="Марианна" creationdate="20201105T101558Z">
+        <seg>&lt;x1/&gt;Count&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13003,6 +13019,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает объект, реализующий интерфейс &lt;x1/&gt;IVariableItems&lt;x2/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101550Z" creationid="Марианна" creationdate="20201105T101550Z">
+        <seg>It returns the object implementing the &lt;x1/&gt;IVariableItems&lt;x2/&gt; interface (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможна фильтрация по категории и названию функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T180333Z" creationid="Марианна" creationdate="20201005T180333Z">
@@ -20065,6 +20089,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T084755Z" creationid="Марианна" creationdate="20201006T084755Z">
         <seg>Content of the Output Data Set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит доступное для чтения количество входных переменных узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101645Z" creationid="Марианна" creationdate="20201105T101645Z">
+        <seg>It contains read-only count of the input node variables.</seg>
       </tuv>
     </tu>
     <tu>
