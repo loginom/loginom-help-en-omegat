@@ -2828,6 +2828,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Доступ к выходному набору данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T105521Z" creationid="Марианна" creationdate="20201105T105521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Access to the Output Data Set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Импорт внешних модулей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085703Z" creationid="Марианна" creationdate="20201030T085703Z">
@@ -13969,6 +13977,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101343Z" creationid="Марианна" creationdate="20201105T101343Z">
         <seg>For access to the input variables, the &lt;x1/&gt;InputVariables&lt;x2/&gt; object is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для доступа к данным выходного порта используется объект &lt;x1/&gt;OutputTable&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T105642Z" creationid="Марианна" creationdate="20201105T105642Z">
+        <seg>For access to the data of the output port, the &lt;x1/&gt;OutputTable&lt;x2/&gt; object is used.</seg>
       </tuv>
     </tu>
     <tu>
