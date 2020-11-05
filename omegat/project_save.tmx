@@ -10851,6 +10851,30 @@ arrayOfVariables.forEach(variable =&gt; {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>console.log(variable.Name, " = ", variable.Value);
+});
+
+// Обращение к переменной по имени
+console.log(InputVariables.Items["Var0"].Value);
+console.log(InputVariables.Items.Var0.Value);
+
+// Вывод свойств переменных
+for (let prop in InputVariables.Items)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T104434Z" creationid="Марианна" creationdate="20201105T104434Z">
+        <seg>console.log(variable.Name, " = ", variable.Value);
+});
+
+// Access to the variable by name
+console.log(InputVariables.Items["Var0"].Value);
+console.log(InputVariables.Items.Var0.Value);
+
+// Outputting the variables properties
+for (let prop in InputVariables.Items)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>const InputTable: IDataSource;      // Источник данных с первого порта
 const InputTables: IDataSource[];   // Массив входных источников данных
 const OutputTable: IOutputTable;    // Выходной набор данных
