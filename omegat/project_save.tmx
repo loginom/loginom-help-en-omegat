@@ -16367,6 +16367,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод задает значение заданного столбца в строке, добавленной методом &lt;x1/&gt;Append()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T110700Z" creationid="Марианна" creationdate="20201105T110700Z">
+        <seg>The method enables to set the value of the set column in the string appended by the &lt;x1/&gt;Append() method&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод получения окончательного решения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201017T193732Z" creationid="Марианна" creationdate="20201013T160019Z">
