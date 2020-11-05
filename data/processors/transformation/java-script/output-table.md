@@ -1,14 +1,14 @@
-# ![](../../../images/icons/components/javascript_default.svg) Доступ к выходному набору данных
+# ![](../../../images/icons/components/javascript_default.svg) Access to the Output Data Set
 
-Для доступа к данным выходного порта используется объект `OutputTable`.
+For access to the data of the output port, the `OutputTable` object is used.
 
-## Свойства OutputTable
+## OutputTable Properties
 
 %spoiler%Columns%spoiler%
 
 **Columns**
 
-Содержит доступную для чтения коллекцию столбцов выходного набора данных. It returns the object implementing the `IColumns` interface (refer to [Full API Description](./api-description.md)).
+It contains read-only collection of columns of the output data set. It returns the object implementing the `IColumns` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -16,7 +16,7 @@
 
 **ColumnCount**
 
-Содержит доступное для чтения количество столбцов выходного набора данных.  It returns the value of the `number` type.
+It contains read-only count of columns of the output data set.  It returns the value of the `number` type.
 
 %/spoiler%
 
@@ -24,11 +24,11 @@
 
 **RowCount**
 
-Содержит доступное для чтения количество строк выходного набора данных.  It returns the value of the `number` type.
+It contains read-only count of rows of the output data set.  It returns the value of the `number` type.
 
 %/spoiler%
 
-## Методы OutputTable
+## OutputTable Methods
 
 %spoiler%Get%spoiler%
 
@@ -56,7 +56,7 @@ The method returns the boolean `true` value, if the column in the set string has
 
 **Append()**
 
-Метод добавляет новую строку в выходной набор данных. It does not have arguments.
+The method enables to append the new row to the output data set. It does not have arguments.
 
 %/spoiler%
 
@@ -65,9 +65,9 @@ The method returns the boolean `true` value, if the column in the set string has
 **Set(col, value)**
 
 - col is a column index or name. It takes the value of the `number` or `string` types.
-- value — значение. Принимает значения следующих типов: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
+- value — value. It takes the values of the following types: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
 
-Метод задает значение заданного столбца в строке, добавленной методом `Append()`.
+The method enables to set the value of the set column in the string appended by the `Append() method`.
 
 %/spoiler%
 
@@ -76,18 +76,18 @@ The method returns the boolean `true` value, if the column in the set string has
 ```javascript
 import { OutputTable } from "builtIn/Data";
 
-// Добавление строки в выходной набор данных
+// Append string to the output data set
 OutputTable.Append();
-// В поле с именем "COL0" записывается значение true
+// The true value is recorded in the field with "COL0" name
 OutputTable.Set("COL0", true);
-// В поле с индексом 1 записываются текущие Дата/Время
+// The current Date/Time are recorded in the field with index 1
 OutputTable.Set(1, new Date());
 
-// Проверка, что значение в столбце №2 не определено
+// Checking that the value in column No 2 is not defined
 console.assert(OutputTable.IsNull(0, 2));
 console.assert(typeof OutputTable.Get(0, 2) == "undefined");
 
-// Копирование значений первой строки во вторую
+// Copying the values of the first string to the second one
 OutputTable.Append();
 for (let i = 0, c = OutputTable.ColumnCount; i < c; i++) {
     let value = OutputTable.Get(0, i);
@@ -95,6 +95,6 @@ for (let i = 0, c = OutputTable.ColumnCount; i < c; i++) {
 }
 
 console.log("RowCount = ", OutputTable.RowCount);
-// Вывод: RowCount =  2
+// Outputting: RowCount =  2
 
 ```
