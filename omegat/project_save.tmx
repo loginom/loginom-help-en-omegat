@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Items%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101400Z" creationid="Марианна" creationdate="20201105T101400Z">
+        <seg>%spoiler%Items%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%RowCount%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144704Z" creationid="Марианна" creationdate="20201102T144704Z">
@@ -3456,6 +3464,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145615Z" creationid="Марианна" creationdate="20201102T145615Z">
         <seg>&lt;x1/&gt;IsNull(row, col)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Items&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101403Z" creationid="Марианна" creationdate="20201105T101403Z">
+        <seg>&lt;x1/&gt;Items&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13771,6 +13787,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для доступа к входным переменным используется объект &lt;x1/&gt;InputVariables&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101343Z" creationid="Марианна" creationdate="20201105T101343Z">
+        <seg>For access to the input variables, the &lt;x1/&gt;InputVariables&lt;x2/&gt; object is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для доступа к данным портов &lt;x1/&gt;Входной источник данных[N]&lt;x2/&gt; используются объекты &lt;x3/&gt;InputTables[]&lt;x4/&gt; и &lt;x5/&gt;InputTable&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143540Z" creationid="Марианна" creationdate="20201102T143540Z">
@@ -19869,6 +19893,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Свойства InputVariables</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101356Z" creationid="Марианна" creationdate="20201105T101356Z">
+        <seg>InputVariables Properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Свойства источника данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144152Z" creationid="Марианна" creationdate="20201102T144152Z">
@@ -20049,6 +20081,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144857Z" creationid="Марианна" creationdate="20201102T144857Z">
         <seg>It contains read-only count of rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит доступную для чтения коллекцию входных переменных узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T101520Z" creationid="Марианна" creationdate="20201105T101520Z">
+        <seg>It contains read-only collection of the input variables of the node.</seg>
       </tuv>
     </tu>
     <tu>
