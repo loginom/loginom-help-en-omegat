@@ -1,14 +1,14 @@
-# ![](../../../images/icons/components/javascript_default.svg) Доступ к входным переменным
+# ![](../../../images/icons/components/javascript_default.svg) Access to the Input Variables
 
-Для доступа к входным переменным используется объект `InputVariables`.
+For access to the input variables, the `InputVariables` object is used.
 
-## Свойства InputVariables
+## InputVariables Properties
 
 %spoiler%Items%spoiler%
 
 **Items**
 
-Содержит доступную для чтения коллекцию входных переменных узла. Возвращает объект, реализующий интерфейс `IVariableItems` (см. [Full API Description](./api-description.md)).
+It contains read-only collection of the input variables of the node. It returns the object implementing the `IVariableItems` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -16,7 +16,7 @@
 
 **Count**
 
-Содержит доступное для чтения количество входных переменных узла.  It returns the value of the `number` type.
+It contains read-only count of the input node variables.  It returns the value of the `number` type.
 
 %/spoiler%
 
@@ -25,9 +25,9 @@
 ```javascript
 import { InputVariables } from "builtIn/Data";
 
-// Перебор входных переменных и вывод в консоль значений их свойств:
+// Iterating over the input variables and outputting the values of their properties to the console:
 for (let i = 0, c = InputVariables.Count; i < c; i++) {
-    // Обращение к переменной по индексу
+    // Access to the variable by index
     let variable = InputVariables.Items[i];
     console.log("Index: ", variable.Index);
     console.log("Name: ", variable.Name);
@@ -38,31 +38,31 @@ for (let i = 0, c = InputVariables.Count; i < c; i++) {
     console.log("");
 }
 
-// Перебор входных переменных с использованием итератора
+// Iterating over the input variables by means of iterator
 for (let variable of InputVariables.Items)
     console.log(variable.Name, " = ", variable.Value);
 
-// Получение из объекта Items массива переменных
+// Getting the variables array from the Items object
 let arrayOfVariables = Array.from(InputVariables.Items);
 // Outputting the variables values to the console
 arrayOfVariables.forEach(variable => {
     console.log(variable.Name, " = ", variable.Value);
 });
 
-// Обращение к переменной по имени
+// Access to the variable by name
 console.log(InputVariables.Items["Var0"].Value);
 console.log(InputVariables.Items.Var0.Value);
 
-// Вывод свойств переменных
+// Outputting the variables properties
 for (let prop in InputVariables.Items)
     console.log(prop);
 
-// Вывод свойств переменной
+// Outputting the variable properties
 for (let prop in InputVariables.Items[0])
     console.log(prop);
 
-// Проверка существования переменной "MyVar"
+// Check for existence of the "MyVar" variable
 if (InputVariables.Items.MyVar)
-    console.log("Переменная существует");
+    console.log("The variable exists");
 
 ```
