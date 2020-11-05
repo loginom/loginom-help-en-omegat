@@ -10973,6 +10973,20 @@ let inputTable0 = InputTables[0],              // Source of the data from port N
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>import { InputVariables } from "builtIn/Data";
+
+// Перебор входных переменных и вывод в консоль значений их свойств:
+for (let i = 0, c = InputVariables.Count; i &lt; c; i++) {</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201105T103136Z" creationid="Марианна" creationdate="20201105T103136Z">
+        <seg>import { InputVariables } from "builtIn/Data";
+
+// Search for the input variables and outputting the values of their properties to the console:
+for (let i = 0, c = InputVariables.Count; i &lt; c; i++) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>import { OutputTable } from "builtIn/Data";
 
 // Импорт модуля функцией require
