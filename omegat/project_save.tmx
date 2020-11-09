@@ -21401,6 +21401,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел создает новый набор данных с заданным составом и параметрами полей и заполняет его данными в ходе выполнения кода JavaScript.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T052309Z" creationid="Марианна" creationdate="20201109T052309Z">
+        <seg>The node creates a new data set with the set composition and parameters of fields. It fills it with data during the JavaScript code execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел сценария выполняет отдельную операцию над данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091456Z" creationid="Марианна" creationdate="20200715T091456Z">
