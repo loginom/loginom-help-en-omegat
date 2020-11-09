@@ -18621,6 +18621,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается &lt;x1/&gt;импорт внешних модулей JS&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061133Z" creationid="Марианна" creationdate="20201109T061133Z">
+        <seg>&lt;x1/&gt;Import of the external JS modules&lt;x2/&gt; is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается импорт DDF-файлов платформы Deductor.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062159Z" creationid="Марианна" creationdate="20200826T062159Z">
@@ -20505,6 +20513,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062640Z" creationid="Марианна" creationdate="20200917T152308Z">
         <seg>Slash (/)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>См.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061141Z" creationid="Марианна" creationdate="20201109T061141Z">
+        <seg>Also refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -22517,6 +22533,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085306Z" creationid="Марианна" creationdate="20200929T085306Z">
         <seg>&lt;x1/&gt;Web Services&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>также: &lt;x1/&gt;Горячие клавиши редактора кода&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061223Z" creationid="Марианна" creationdate="20201109T061223Z">
+        <seg>&lt;x1/&gt;Code editor hotkeys&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
