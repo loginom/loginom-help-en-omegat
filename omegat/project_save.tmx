@@ -4254,8 +4254,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для того, чтобы при способе слияния &lt;x3/&gt;Полное соединение&lt;x4/&gt; использовать &lt;x5/&gt;FULL JOIN&lt;x6/&gt; соединение, необходимо в мастере настройки сопоставить ключевые поля соединяемых наборов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T194746Z" creationid="Марианна" creationdate="20201109T194746Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; To use &lt;x5/&gt;FULL JOIN&lt;x6/&gt; link when selecting &lt;x3/&gt;Full join&lt;x4/&gt; method of joining, it is required to map the key fields of the joined data sets in the wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T194901Z" creationid="Марианна" creationdate="20201109T194746Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; To use &lt;x5/&gt;FULL JOIN&lt;x6/&gt; when selecting &lt;x3/&gt;Full join&lt;x4/&gt; method of joining, it is required to map the key fields of the joined data sets in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15207,6 +15207,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если сопоставление отсутствует, то задействуется алгоритм &lt;x7/&gt;CROSS JOIN&lt;x8/&gt; соединения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T194851Z" creationid="Марианна" creationdate="20201109T194851Z">
+        <seg>If there is no mapping, the &lt;x7/&gt;CROSS JOIN&lt;x8/&gt; algorithm of joining is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
@@ -19629,6 +19637,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065145Z" creationid="Марианна" creationdate="20200924T065145Z">
         <seg>When detecting the branch with the "true" value, testing is stopped, the branch becomes active, and other branches are locked, even if there are true branches down the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При данном способе слияния объем результирующей выборки может очень быстро расти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T195108Z" creationid="Марианна" creationdate="20201109T195108Z">
+        <seg>When selecting this joining method, the resulting sample volume can get higher very rapidly.</seg>
       </tuv>
     </tu>
     <tu>
