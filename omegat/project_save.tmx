@@ -12129,6 +12129,26 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Имя|Id города|Город|
+|:-|-:|:-|
+|Андрей|1|Москва|
+|Леонид|2|Санкт-Петербург|
+|Сергей|1|Москва|
+|Григорий|4|&amp;#60;null&gt;|
+|&amp;#60;null&gt;||Казань|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T165620Z" creationid="Марианна" creationdate="20201109T165620Z">
+        <seg>|Name|City Id|City|
+|:-|-:|:-|
+|Andrey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|Sergey|1|Moscow|
+|Gregory|4|&amp;#60;null&gt;|
+|&amp;#60;null&gt;||Kazan|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|КТУ|Кластер|
 |:-|-:|
 |&gt; 0.8|1|
