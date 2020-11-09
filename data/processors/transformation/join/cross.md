@@ -1,51 +1,51 @@
-# ![Полное слияние](../../../images/icons/joindata/join-full_default.svg) Полное соединение
+# ![Full join](../../../images/icons/joindata/join-full_default.svg) Full join
 
-## Перекрестное соединение (SQL-аналог: `CROSS JOIN`)
+## Cross join (SQL analogue: `CROSS JOIN`)
 
-При полном соединении ( `CROSS JOIN`) производится перекрестное соединение (или декартово произведение) — каждая строка одной таблицы соединяется с каждой строкой второй таблицы, давая тем самым в результате все возможные сочетания строк двух таблиц.
-При таком соединении порядок таблиц (левая, правая) неважен и отсутствует необходимость в сопоставлении ключевых полей.
+When the join is full ( `CROSS JOIN`), the cross join (or Cartesian product) is performed. Each row of one table is joined with each row of the second table providing all possible combinations of rows of two tables.
+In the case of such join, the order of tables (left, right) is not important, and it is not required to map the key fields.
 
 For example:
 
-Let's consider two tables as an example. Главная таблица — Персона, присоединяемая — Город.
+Let's consider two tables as an example. Main table — A person, joined — A city.
 
 Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
 Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-![Связь](./merge.svg)
+![Link](./merge.svg)
 
 Resulting table:
 
-|Имя|Id города|Город|
+|Name|City Id|City|
 |:-|-:|:-|
-|Андрей|1|Москва|
-|Андрей|1|Санкт-Петербург|
-|Андрей|1|Казань|
-|Леонид|2|Москва|
-|Леонид|2|Санкт-Петербург|
-|Леонид|2|Казань|
-|Сергей|1|Москва|
-|Сергей|1|Санкт-Петербург|
-|Сергей|1|Казань|
-|Григорий|4|Москва|
-|Григорий|4|Санкт-Петербург|
-|Григорий|4|Казань|
+|Andrey|1|Moscow|
+|Andrey|1|Saint Petersburg|
+|Andrey|1|Kazan|
+|Leonid|2|Moscow|
+|Leonid|2|Saint Petersburg|
+|Leonid|2|Kazan|
+|Sergey|1|Moscow|
+|Sergey|1|Saint Petersburg|
+|Sergey|1|Kazan|
+|Gregory|4|Moscow|
+|Gregory|4|Saint Petersburg|
+|Gregory|4|Kazan|
 
-## Полное соединение (SQL-аналог: `FULL JOIN`)
+## Full join (SQL analogue: `FULL JOIN`)
 
 При полном соединении (`FULL JOIN`) производится полное внешнее соединение двух наборов. В результирующий набор добавляются следующие записи:
 
@@ -57,45 +57,45 @@ Resulting table:
 
 For example:
 
-Let's consider two tables as an example. Главная таблица — Персона, присоединяемая — Город.
+Let's consider two tables as an example. Main table — A person, joined — A city.
 
 Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
 Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-![Связь](./merge.svg)
+![Link](./merge.svg)
 
 Resulting table:
 
-|Имя|Id города|Город|
+|Name|City Id|City|
 |:-|-:|:-|
-|Андрей|1|Москва|
-|Леонид|2|Санкт-Петербург|
-|Сергей|1|Москва|
-|Григорий|4|&#60;null>|
-|&#60;null>||Казань|
+|Andrey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|Sergey|1|Moscow|
+|Gregory|4|&#60;null>|
+|&#60;null>||Kazan|
 
 > **Важно:** Для того, чтобы при способе слияния *Полное соединение* использовать `FULL JOIN` соединение, необходимо в мастере настройки сопоставить ключевые поля соединяемых наборов. Если сопоставление отсутствует, то задействуется алгоритм `CROSS JOIN` соединения. При данном способе слияния объем результирующей выборки может очень быстро расти.
 
 При любом соединении (`JOIN`) в результирующий набор данных включаются ключевые поля только главной таблицы. Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг *Добавлять присоединяемые ключевые поля*. Если флаг установлен, то результрующая таблица из предыдущего примера будет выглядеть следующим образом:
 
-|Имя|Id города|Город|Id|
+|Name|City Id|City|Id|
 |:-|-:|:-|:-|
-|Андрей|1|Москва|1|
-|Леонид|2|Санкт-Петербург|2|
-|Сергей|1|Москва|1|
-|Григорий|4|&#60;null>||
-|&#60;null>||Казань|3|
+|Andrey|1|Moscow|1|
+|Leonid|2|Saint Petersburg|2|
+|Sergey|1|Moscow|1|
+|Gregory|4|&#60;null>||
+|&#60;null>||Kazan|3|
