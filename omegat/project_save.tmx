@@ -4252,6 +4252,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для того, чтобы при способе слияния &lt;x3/&gt;Полное соединение&lt;x4/&gt; использовать &lt;x5/&gt;FULL JOIN&lt;x6/&gt; соединение, необходимо в мастере настройки сопоставить ключевые поля соединяемых наборов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T194746Z" creationid="Марианна" creationdate="20201109T194746Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; To use &lt;x5/&gt;FULL JOIN&lt;x6/&gt; link when selecting &lt;x3/&gt;Full join&lt;x4/&gt; method of joining, it is required to map the key fields of the joined data sets in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Если узел заблокирован (узел выполняется или открыт мастер настройки узла), то его свойства посмотреть нельзя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110652Z" creationid="Марианна" creationdate="20200818T110652Z">
