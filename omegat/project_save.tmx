@@ -15281,8 +15281,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Записи первой таблицы, которые не вошли во внутреннее соединение на шаге 1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T183128Z" creationid="Марианна" creationdate="20201109T182826Z">
-        <seg>Records of the first table that were not included into the inner join at step 1.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T184435Z" creationid="Марианна" creationdate="20201109T182826Z">
+        <seg>Records of the first table that were not included into the inner join during step 1.</seg>
       </tuv>
     </tu>
     <tu>
