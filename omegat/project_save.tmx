@@ -2780,6 +2780,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Входной источник данных (таблица данных), необязательный;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054024Z" creationid="Марианна" creationdate="20201109T054024Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Input data source (data table), optional;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Выполнить все — выполнить все узлы Сценария;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132516Z" creationid="Марианна" creationdate="20200819T132516Z">
@@ -2824,6 +2832,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083449Z" creationid="Марианна" creationdate="20201030T083449Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Добавить еще один порт – создает новый порт Входной источник данных&lt;x3/&gt;N&lt;x4/&gt;, где N – порядковый номер порта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054333Z" creationid="Марианна" creationdate="20201109T054333Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Add another port enables to create a new port - Input data source&lt;x3/&gt;N&lt;x4/&gt; where N is an order port number.</seg>
       </tuv>
     </tu>
     <tu>
