@@ -7725,6 +7725,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При нажатии на кнопку &lt;x3/&gt;Предпросмотра&lt;x4/&gt; активируются все входные порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T060617Z" creationid="Марианна" creationdate="20201109T060617Z">
+        <seg>&lt;x1/&gt;Note: It is possible to activate all input ports &lt;x2/&gt; by pressing the &lt;x3/&gt;Preview&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При открытом окне &lt;x3/&gt;Инспектора свойств&lt;x4/&gt; часть кнопок на панели инструментов может не помещаться.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093744Z" creationid="Марианна" creationdate="20200820T105559Z">
