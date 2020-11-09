@@ -13901,8 +13901,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201104T185612Z" creationid="Марианна" creationdate="20200717T110132Z">
-        <seg>Then these data is sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then these data is transferred to the node used for selection of the first 10 table rows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T163924Z" creationid="Марианна" creationdate="20200717T110132Z">
+        <seg>Then this data is sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then this data is transferred to the node used for selection of the first 10 table rows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19641,6 +19641,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194657Z" creationid="Марианна" creationdate="20200921T194657Z">
         <seg>Being originally created, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При полном соединении ( &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;) производится перекрестное соединение (или декартово произведение) — каждая строка одной таблицы соединяется с каждой строкой второй таблицы, давая тем самым в результате все возможные сочетания строк двух таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T163847Z" creationid="Марианна" creationdate="20201109T163847Z">
+        <seg>In the case of the full join ( &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;), the cross join (or Cartesian product) is performed. Each table row.</seg>
       </tuv>
     </tu>
     <tu>
