@@ -8391,6 +8391,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Связь&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T165008Z" creationid="Марианна" creationdate="20201109T165008Z">
+        <seg>&lt;x1/&gt;Link&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Свёртка столбцов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192507Z" creationid="Марианна" creationdate="20200810T192507Z">
@@ -12083,6 +12091,40 @@ Assertion failed: lie 1 != 0</seg>
 |Leonid|2|
 |Sergey|1|
 |Gregory|4|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Имя|Id города|Город|
+|:-|-:|:-|
+|Андрей|1|Москва|
+|Андрей|1|Санкт-Петербург|
+|Андрей|1|Казань|
+|Леонид|2|Москва|
+|Леонид|2|Санкт-Петербург|
+|Леонид|2|Казань|
+|Сергей|1|Москва|
+|Сергей|1|Санкт-Петербург|
+|Сергей|1|Казань|
+|Григорий|4|Москва|
+|Григорий|4|Санкт-Петербург|
+|Григорий|4|Казань|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T165324Z" creationid="Марианна" creationdate="20201109T165324Z">
+        <seg>|Name|City Id|City|
+|:-|-:|:-|
+|Andrey|1|Moscow|
+|Andrey|1|Saint Petersburg|
+|Andrey|1|Kazan|
+|Leonid|2|Moscow|
+|Leonid|2|Saint Petersburg|
+|Leonid|2|Kazan|
+|Sergey|1|Moscow|
+|Sergey|1|Saint Petersburg|
+|Sergey|1|Kazan|
+|Gregory|4|Moscow|
+|Gregory|4|Saint Petersburg|
+|Gregory|4|Kazan|</seg>
       </tuv>
     </tu>
     <tu>
