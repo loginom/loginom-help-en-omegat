@@ -2788,10 +2788,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Входные переменные (переменные), необязательный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054412Z" creationid="Марианна" creationdate="20201109T054412Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Input variables (variables), optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Выполнить все — выполнить все узлы Сценария;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132516Z" creationid="Марианна" creationdate="20200819T132516Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Run all enables to run all nodes of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Выходной набор данных (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054433Z" creationid="Марианна" creationdate="20201109T054433Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Output data set (data table).</seg>
       </tuv>
     </tu>
     <tu>
