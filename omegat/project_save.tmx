@@ -20629,6 +20629,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Состав и параметры полей выходного набора задаются в мастере настройки узла и не могут быть изменены в ходе выполнения кода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T053926Z" creationid="Марианна" creationdate="20201109T053926Z">
+        <seg>Composition and parameters of the output data set fields are set in the node wizard, and they can be changed during the code execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сохранить пакет можно будет уже во время работы с ним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T122151Z" creationid="Марианна" creationdate="20200716T122151Z">
