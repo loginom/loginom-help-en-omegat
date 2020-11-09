@@ -10071,6 +10071,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>JavaScript.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054836Z" creationid="Марианна" creationdate="20201109T054836Z">
+        <seg>JavaScript.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Key</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083811Z" creationid="Марианна" creationdate="20201030T083811Z">
@@ -16741,6 +16749,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На странице &lt;x1/&gt;Настройка выходных столбцов&lt;x2/&gt; мастера настройки задаются состав и параметры полей выходного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T055753Z" creationid="Марианна" creationdate="20201109T055753Z">
+        <seg>Composition and parameters of the output data set fields are set at the following wizard page: &lt;x1/&gt;Configure Output Columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этапе настройки указываются следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190531Z" creationid="Марианна" creationdate="20200825T190531Z">
@@ -17065,6 +17081,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165503Z" creationid="Марианна" creationdate="20200916T165503Z">
         <seg>Settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки выходных столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054847Z" creationid="Марианна" creationdate="20201109T054847Z">
+        <seg>Configure output columns</seg>
       </tuv>
     </tu>
     <tu>
