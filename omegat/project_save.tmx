@@ -13455,6 +13455,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутреннее соединение (&lt;x1/&gt;INNER JOIN&lt;x2/&gt;) первой и второй таблиц;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T182629Z" creationid="Марианна" creationdate="20201109T182629Z">
+        <seg>Inner join (&lt;x1/&gt;INNER JOIN&lt;x2/&gt;) of the first and second tables;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внутри &lt;x1/&gt;Подмодели&lt;x2/&gt; имеется возможность использовать &lt;x3/&gt;&lt;x4/&gt;Переменные сценария&lt;x5/&gt;&lt;x6/&gt;, в состав которых входят &lt;x7/&gt;Переменные пользователя&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164655Z" creationid="Марианна" creationdate="20200920T164655Z">
@@ -15267,6 +15275,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T162025Z" creationid="Марианна" creationdate="20201001T162025Z">
         <seg>It is possible to filter records in the Input Tree and Output Tree lists using &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Filter&lt;x4/&gt; command of corresponding toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Записи первой таблицы, которые не вошли во внутреннее соединение на шаге 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T183128Z" creationid="Марианна" creationdate="20201109T182826Z">
+        <seg>Records of the first table that were not included into the inner join at step 1.</seg>
       </tuv>
     </tu>
     <tu>
