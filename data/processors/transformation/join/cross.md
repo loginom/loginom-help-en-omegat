@@ -47,13 +47,13 @@ Resulting table:
 
 ## Full join (SQL analogue: `FULL JOIN`)
 
-При полном соединении (`FULL JOIN`) производится полное внешнее соединение двух наборов. В результирующий набор добавляются следующие записи:
+When the join is full (`FULL JOIN`), the full external join of two data sets is performed. The following records are added to the resulting data set:
 
-1. Внутреннее соединение (`INNER JOIN`) первой и второй таблиц;
-2. Записи первой таблицы, которые не вошли во внутреннее соединение на шаге 1. Для таких записей поля, соответствующие второй таблице, заполняются значениями `NULL`;
-3. Записи второй таблицы, которые не вошли во внутреннее соединение на шаге 1. Для таких записей поля, соответствующие первой таблице, заполняются значениями `NULL`.
+1. Inner join (`INNER JOIN`) of the first and second tables;
+2. Records of the first table that were not included into the inner join during step 1. For such records, the `NULL` values are appended to the fields matching the second table.
+3. Records of the second table that were not included into the inner join during step 1. For such records, the `NULL` values are appended to the fields matching the first table.
 
-При таком соединении необходимо сопоставление ключевых полей.
+Mapping of the key fields is required for such join.
 
 For example:
 
@@ -88,9 +88,9 @@ Resulting table:
 |Gregory|4|&#60;null>|
 |&#60;null>||Kazan|
 
-> **Важно:** Для того, чтобы при способе слияния *Полное соединение* использовать `FULL JOIN` соединение, необходимо в мастере настройки сопоставить ключевые поля соединяемых наборов. Если сопоставление отсутствует, то задействуется алгоритм `CROSS JOIN` соединения. При данном способе слияния объем результирующей выборки может очень быстро расти.
+> **Important:** To use `FULL JOIN` when selecting *Full join* method of joining, it is required to map the key fields of the joined data sets in the wizard. If there is no mapping, the `CROSS JOIN` algorithm of joining is used. When selecting this joining method, the resulting sample volume can get higher very rapidly.
 
-При любом соединении (`JOIN`) в результирующий набор данных включаются ключевые поля только главной таблицы. Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг *Добавлять присоединяемые ключевые поля*. Если флаг установлен, то результрующая таблица из предыдущего примера будет выглядеть следующим образом:
+Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`). To include the key fields of the joined table into the resulting data set, it is required to select the following flag: *Add joined key fields*. If the flag is selected, the resulting table specified in the previous example will be as follows:
 
 |Name|City Id|City|Id|
 |:-|-:|:-|:-|
