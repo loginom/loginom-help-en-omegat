@@ -17069,6 +17069,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки выходных столбцов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054831Z" creationid="Марианна" creationdate="20201109T054831Z">
+        <seg>Configure output columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки форматов импорта</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T085702Z" creationid="Марианна" creationdate="20200826T085702Z">
@@ -19025,6 +19033,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110321Z" creationid="Марианна" creationdate="20200929T110321Z">
         <seg>Afterwards the child node will be created. It is possible to define value of the following fields for this node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательно выполняются следующие этапы настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T054527Z" creationid="Марианна" creationdate="20201109T054527Z">
+        <seg>The following configuration stages are successively executed:</seg>
       </tuv>
     </tu>
     <tu>
