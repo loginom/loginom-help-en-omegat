@@ -4284,6 +4284,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Неперехваченные ошибки в &lt;x3/&gt;Promise&lt;x4/&gt; записываются в лог сервера, при этом узел выполняется без сообщений об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T063031Z" creationid="Марианна" creationdate="20201109T063031Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Неперехваченные ошибки в &lt;x3/&gt;Promise&lt;x4/&gt; записываются в лог сервера, при этом узел выполняется без сообщений об ошибке.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; При превышении максимального значения длины экспортируемой строки возникнет ошибка экспорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170316Z" creationid="Марианна" creationdate="20200916T170316Z">
@@ -19383,8 +19391,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При вызове окна &lt;x1/&gt;Предпросмотра&lt;x2/&gt; или выполнении узла выводится сообщение об обнаруженных синтаксических ошибках и ошибках хода выполнения с указанием позиции кода, содержащего ошибку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T062939Z" creationid="Марианна" creationdate="20201109T062939Z">
-        <seg>When calling the &lt;x1/&gt;Preview&lt;x2/&gt; window or executing the node, the message informing about detected syntactic errors and execution errors are shown providing position of the code with an error.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T063018Z" creationid="Марианна" creationdate="20201109T062939Z">
+        <seg>When calling the &lt;x1/&gt;Preview&lt;x2/&gt; window or executing the node, the message informing about detected syntactic and execution errors is shown specifying position of the code with an error.</seg>
       </tuv>
     </tu>
     <tu>
