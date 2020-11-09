@@ -12549,6 +12549,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В контексте выполнения JavaScript-кода доступны функции &lt;x1/&gt;Калькулятора&lt;x2/&gt;, которые импортируются из &lt;x3/&gt;встроенного модуля &lt;x4/&gt;"builtIn/Calc"&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T062700Z" creationid="Марианна" creationdate="20201109T062700Z">
+        <seg>In the context of the JavaScript code execution the &lt;x1/&gt;Calculator&lt;x2/&gt; functions are available. They are imported from the &lt;x3/&gt;built-in module&lt;x4/&gt;"builtIn/Calc"&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В левом верхнем углу области построения Сценариев располагаются &lt;x1/&gt;порты&lt;x2/&gt; переменных Сценария:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T101816Z" creationid="Марианна" creationdate="20201009T101816Z">
@@ -17441,6 +17449,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T174638Z" creationid="Марианна" creationdate="20201022T174638Z">
         <seg>Wallpaper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработка ошибок</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T062527Z" creationid="Марианна" creationdate="20201109T062527Z">
+        <seg>Processing of errors</seg>
       </tuv>
     </tu>
     <tu>
