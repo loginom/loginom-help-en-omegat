@@ -4286,8 +4286,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Неперехваченные ошибки в &lt;x3/&gt;Promise&lt;x4/&gt; записываются в лог сервера, при этом узел выполняется без сообщений об ошибке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T063031Z" creationid="Марианна" creationdate="20201109T063031Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Неперехваченные ошибки в &lt;x3/&gt;Promise&lt;x4/&gt; записываются в лог сервера, при этом узел выполняется без сообщений об ошибке.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T063235Z" creationid="Марианна" creationdate="20201109T063031Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Uncaught errors in &lt;x3/&gt;Promise&lt;x4/&gt; are recorded in the server log, and the node is executed without error messages.</seg>
       </tuv>
     </tu>
     <tu>
