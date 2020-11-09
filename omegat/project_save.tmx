@@ -10071,6 +10071,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>JavaScript</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T055757Z" creationid="Марианна" creationdate="20201109T055757Z">
+        <seg>JavaScript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>JavaScript.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T054836Z" creationid="Марианна" creationdate="20201109T054836Z">
@@ -20897,6 +20905,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194459Z" creationid="Марианна" creationdate="20201023T194459Z">
         <seg>In this case, the statistical parameters (or &lt;x3/&gt;aggregation functions&lt;x4/&gt;) are calculated for each group but not for the whole data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Страница &lt;x1/&gt;JavaScript&lt;x2/&gt; содержит редактор исполняемого узлом кода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T060010Z" creationid="Марианна" creationdate="20201109T060010Z">
+        <seg>The &lt;x1/&gt;JavaScript&lt;x2/&gt; page contains the code editor executed by the node.</seg>
       </tuv>
     </tu>
     <tu>
