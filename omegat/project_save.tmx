@@ -19785,6 +19785,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При полном соединении (&lt;x1/&gt;FULL JOIN&lt;x2/&gt;) производится полное внешнее соединение двух наборов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T182426Z" creationid="Марианна" creationdate="20201109T182426Z">
+        <seg>When the join is full (&lt;x1/&gt;FULL JOIN&lt;x2/&gt;), the full external join of two data sets is performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При помощи инструментов &lt;x3/&gt;&lt;x4/&gt;Производный компонент&lt;x5/&gt;&lt;x6/&gt;, &lt;x7/&gt;&lt;x8/&gt;Выполнение узла&lt;x9/&gt;&lt;x10/&gt;, &lt;x11/&gt;&lt;x12/&gt;Публикация веб-сервисов&lt;x13/&gt;&lt;x14/&gt;, &lt;x15/&gt;&lt;x16/&gt;Пакетное выполнение сценариев&lt;x17/&gt;&lt;x18/&gt; созданную в &lt;x19/&gt;Подмодели&lt;x20/&gt; логику обработки можно применять многократно для различных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T144542Z" creationid="Марианна" creationdate="20200920T144542Z">
