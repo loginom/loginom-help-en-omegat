@@ -18533,6 +18533,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию в текст исполняемого узлом кода добавляется строка импорта этих объектов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T062437Z" creationid="Марианна" creationdate="20201109T062437Z">
+        <seg>The import string of these objects is added to the text of the code executed by the node by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию версия равна &lt;x5/&gt;1.0.0&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143611Z" creationid="Марианна" creationdate="20200816T143611Z">
