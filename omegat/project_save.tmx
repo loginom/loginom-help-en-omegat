@@ -19613,6 +19613,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При успешном завершении активации открывается окно &lt;x5/&gt;Предпросмотра&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061040Z" creationid="Марианна" creationdate="20201109T061040Z">
+        <seg>The &lt;x5/&gt;Preview&lt;x6/&gt; window is opened if the activation has been successfully finished.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При установке синтаксиса &lt;x1/&gt;JavaScript&lt;x2/&gt; область кода выражения должна содержать скрипт JavaScript.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T111346Z" creationid="Марианна" creationdate="20201020T111346Z">
