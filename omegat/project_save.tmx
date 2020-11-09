@@ -14647,6 +14647,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для таких записей поля, соответствующие второй таблице, заполняются значениями &lt;x1/&gt;NULL&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T193949Z" creationid="Марианна" creationdate="20201109T193949Z">
+        <seg>For such records, the &lt;x1/&gt;NULL&lt;x2/&gt; values are appended to the fields corresponding to the second table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для такого узла в &lt;x3/&gt;Инспекторе свойств&lt;x4/&gt; будет выведено сообщение: "Узел заблокирован, попробуйте позже".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110947Z" creationid="Марианна" creationdate="20200818T110947Z">
