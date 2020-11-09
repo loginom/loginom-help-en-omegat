@@ -15223,6 +15223,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если флаг установлен, то результрующая таблица из предыдущего примера будет выглядеть следующим образом:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T195916Z" creationid="Марианна" creationdate="20201109T195916Z">
+        <seg>If the flag is selected, the resulting table specified in the previous example will be as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если функций было больше одной, то к имени добавится окончание, соответствующее выбранной функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T085121Z" creationid="Марианна" creationdate="20201006T085600Z">
@@ -22191,8 +22199,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг &lt;x3/&gt;Добавлять присоединяемые ключевые поля&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T195545Z" creationid="Марианна" creationdate="20201109T195545Z">
-        <seg>To include the key fields of the joined table into the resulting data set, it is required to установить флаг &lt;x3/&gt;Add joined key fields&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T195837Z" creationid="Марианна" creationdate="20201109T195545Z">
+        <seg>To include the key fields of the joined table into the resulting data set, it is required to select the following flag: &lt;x3/&gt;Add joined key fields&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
