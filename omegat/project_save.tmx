@@ -18197,6 +18197,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перекрестное соединение (SQL-аналог: &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T163626Z" creationid="Марианна" creationdate="20201109T163626Z">
+        <seg>Cross join (SQL-аналог: &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменная в качестве параметра SQL-запроса при &lt;x1/&gt;Импорте из базы данных&lt;x2/&gt; (переменная содержит текст SQL-запроса).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083229Z" creationid="Марианна" creationdate="20201009T083229Z">
