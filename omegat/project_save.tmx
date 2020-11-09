@@ -13739,6 +13739,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вышеуказанные объекты импортируются из встроенного модуля &lt;x1/&gt;"builtIn/Data"&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061905Z" creationid="Марианна" creationdate="20201109T061905Z">
+        <seg>The objects specified above are imported from the built-in module: &lt;x1/&gt;"builtIn/Data"&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выявление активной ветви происходит по следующему принципу:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200923T201547Z" creationid="Марианна" creationdate="20200923T201547Z">
