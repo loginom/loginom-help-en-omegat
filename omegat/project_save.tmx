@@ -19381,6 +19381,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При вызове окна &lt;x1/&gt;Предпросмотра&lt;x2/&gt; или выполнении узла выводится сообщение об обнаруженных синтаксических ошибках и ошибках хода выполнения с указанием позиции кода, содержащего ошибку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T062939Z" creationid="Марианна" creationdate="20201109T062939Z">
+        <seg>When calling the &lt;x1/&gt;Preview&lt;x2/&gt; window or executing the node, the message informing about detected syntactic errors and execution errors are shown providing position of the code with an error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При выполнении команд &lt;x1/&gt;&lt;x2/&gt;  &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt;, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Добавить соседний узел&lt;x8/&gt;, &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Редактировать...&lt;x12/&gt; задаются значения полей:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T161327Z" creationid="Марианна" creationdate="20201001T161327Z">
