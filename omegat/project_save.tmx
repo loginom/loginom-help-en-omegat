@@ -4613,6 +4613,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные наборы данных&lt;x2/&gt; (&lt;x3/&gt;InputTables&lt;x4/&gt;, &lt;x5/&gt;InputTable&lt;x6/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061633Z" creationid="Марианна" creationdate="20201109T061633Z">
+        <seg>&lt;x1/&gt;Input data sets&lt;x2/&gt; (&lt;x3/&gt;InputTables&lt;x4/&gt;, &lt;x5/&gt;InputTable&lt;x6/&gt;);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные наборы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193036Z" creationid="Марианна" creationdate="20200810T193036Z">
@@ -4625,6 +4633,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T193046Z" creationid="Марианна" creationdate="20200810T193046Z">
         <seg>&lt;x1/&gt;Input variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; (&lt;x3/&gt;InputVariables&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061643Z" creationid="Марианна" creationdate="20201109T061643Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; (&lt;x3/&gt;InputVariables&lt;x4/&gt;);</seg>
       </tuv>
     </tu>
     <tu>
@@ -4881,6 +4897,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T200141Z" creationid="Марианна" creationdate="20201023T200141Z">
         <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the port providing the grouped table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; (&lt;x3/&gt;OutputTable&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061653Z" creationid="Марианна" creationdate="20201109T061653Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; (&lt;x3/&gt;OutputTable&lt;x4/&gt;);</seg>
       </tuv>
     </tu>
     <tu>
@@ -6641,6 +6665,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055908Z" creationid="Марианна" creationdate="20200812T055908Z">
         <seg>&lt;x1/&gt;Neural network (regression)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Необходимые перечисления&lt;x2/&gt; (&lt;x3/&gt;DataType&lt;x4/&gt;, &lt;x5/&gt;DataKind&lt;x6/&gt;, &lt;x7/&gt;UsageType&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061819Z" creationid="Марианна" creationdate="20201109T061819Z">
+        <seg>&lt;x1/&gt;Required enumerations&lt;x2/&gt; (&lt;x3/&gt;DataType&lt;x4/&gt;, &lt;x5/&gt;DataKind&lt;x6/&gt;, &lt;x7/&gt;UsageType&lt;x8/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14151,6 +14183,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143540Z" creationid="Марианна" creationdate="20201102T143540Z">
         <seg>For access to the data of the ports&lt;x1/&gt;Input data source[N]&lt;x2/&gt;, &lt;x3/&gt;InputTables[]&lt;x4/&gt; and &lt;x5/&gt;InputTable&lt;x6/&gt; objects are used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для доступа к данным портов и другим встроенным объектам в контексте выполнения JavaScript-кода предусмотрены следующие объекты:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061610Z" creationid="Марианна" creationdate="20201109T061610Z">
+        <seg>To have access to the data of ports and other built-in objects in the context of the JavaScript code execution, the following objects are provided:</seg>
       </tuv>
     </tu>
     <tu>
