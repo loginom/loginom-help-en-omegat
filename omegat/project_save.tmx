@@ -19647,8 +19647,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При полном соединении ( &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;) производится перекрестное соединение (или декартово произведение) — каждая строка одной таблицы соединяется с каждой строкой второй таблицы, давая тем самым в результате все возможные сочетания строк двух таблиц.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T164155Z" creationid="Марианна" creationdate="20201109T163847Z">
-        <seg>In the case of the full join ( &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;), the cross join (or Cartesian product) is performed. Each row of one table is joined with each row of the second table providing all possible combinations of rows of two tables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T164423Z" creationid="Марианна" creationdate="20201109T163847Z">
+        <seg>When the join is full ( &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;), the cross join (or Cartesian product) is performed. Each row of one table is joined with each row of the second table providing all possible combinations of rows of two tables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19737,6 +19737,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143525Z" creationid="Марианна" creationdate="20200918T143525Z">
         <seg>When creating, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При таком соединении порядок таблиц (левая, правая) неважен и отсутствует необходимость в сопоставлении ключевых полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T164608Z" creationid="Марианна" creationdate="20201109T164407Z">
+        <seg>In the case of such join, the order of tables (left, right) is not important, and it is not required to map the key fields.</seg>
       </tuv>
     </tu>
     <tu>
