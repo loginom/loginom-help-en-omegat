@@ -19753,6 +19753,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При любом соединении (&lt;x1/&gt;JOIN&lt;x2/&gt;) в результирующий набор данных включаются ключевые поля только главной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T195403Z" creationid="Марианна" creationdate="20201109T195403Z">
+        <seg>Only the key fields of the main table can be included into the resulting data set for any join (&lt;x1/&gt;JOIN&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на данный текст на экран выведется полная формулировка ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065436Z" creationid="Марианна" creationdate="20200817T065436Z">
@@ -22177,6 +22185,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165032Z" creationid="Марианна" creationdate="20201010T165032Z">
         <seg>Thursday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг &lt;x3/&gt;Добавлять присоединяемые ключевые поля&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T195545Z" creationid="Марианна" creationdate="20201109T195545Z">
+        <seg>To include the key fields of the joined table into the resulting data set, it is required to установить флаг &lt;x3/&gt;Add joined key fields&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
