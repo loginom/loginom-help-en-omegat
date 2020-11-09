@@ -19905,6 +19905,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При таком соединении необходимо сопоставление ключевых полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T184534Z" creationid="Марианна" creationdate="20201109T184534Z">
+        <seg>Mapping of the key fields is required for such join.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При таком соединении порядок таблиц (левая, правая) неважен и отсутствует необходимость в сопоставлении ключевых полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T164608Z" creationid="Марианна" creationdate="20201109T164407Z">
