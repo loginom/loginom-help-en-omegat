@@ -18397,6 +18397,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По кнопке &lt;x3/&gt;Предпросмотр…&lt;x4/&gt; в отдельном окне выводится до 100 первых строк результирующего набора данных и &lt;x5/&gt;консоль отладки кода&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T060421Z" creationid="Марианна" creationdate="20201109T060421Z">
+        <seg>The &lt;x3/&gt;Preview…&lt;x4/&gt; button enables to show up to 100 first strings of the reslting data set and &lt;x5/&gt;console of code debugging&lt;x6/&gt; in a separate window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По левому краю;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052702Z" creationid="Марианна" creationdate="20200819T131812Z">
