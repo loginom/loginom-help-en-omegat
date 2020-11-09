@@ -29,7 +29,7 @@
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Выход нейросети** (таблица данных). См. [структуру выходного набора](./neural-network-classification/output-set.md).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Выход нейросети** (таблица данных). Also refer to [структуру выходного набора](./neural-network-classification/output-set.md).
 * ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) — **Показатели качества модели**.
 
 ## Wizard
