@@ -14649,8 +14649,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для таких записей поля, соответствующие второй таблице, заполняются значениями &lt;x1/&gt;NULL&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T193949Z" creationid="Марианна" creationdate="20201109T193949Z">
-        <seg>For such records, the &lt;x1/&gt;NULL&lt;x2/&gt; values are appended to the fields corresponding to the second table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T194242Z" creationid="Марианна" creationdate="20201109T193949Z">
+        <seg>For such records, the &lt;x1/&gt;NULL&lt;x2/&gt; values are appended to the fields matching the second table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для таких записей поля, соответствующие первой таблице, заполняются значениями &lt;x1/&gt;NULL&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T194237Z" creationid="Марианна" creationdate="20201109T194237Z">
+        <seg>For such records, the &lt;x1/&gt;NULL&lt;x2/&gt; values are appended to the fields matching the first table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15283,6 +15291,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T162025Z" creationid="Марианна" creationdate="20201001T162025Z">
         <seg>It is possible to filter records in the Input Tree and Output Tree lists using &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Filter&lt;x4/&gt; command of corresponding toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Записи второй таблицы, которые не вошли во внутреннее соединение на шаге 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T194150Z" creationid="Марианна" creationdate="20201109T194150Z">
+        <seg>Records of the second table that were not included into the inner join during step 1.</seg>
       </tuv>
     </tu>
     <tu>
