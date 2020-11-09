@@ -14635,6 +14635,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступ из кода JavaScript к данным портов и другим встроенным объектам</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T061347Z" creationid="Марианна" creationdate="20201109T061347Z">
+        <seg>Access to the data of ports and other built-in objects from the JavaScript code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступность узлов определяется их видимостью (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
