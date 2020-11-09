@@ -13033,6 +13033,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результирующий набор добавляются следующие записи:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201109T182556Z" creationid="Марианна" creationdate="20201109T182556Z">
+        <seg>The following records are added to the resulting data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с этим неверная позиция в списке может приводить к ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193507Z" creationid="Марианна" creationdate="20201004T193507Z">
