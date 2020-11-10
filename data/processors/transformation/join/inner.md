@@ -1,11 +1,11 @@
-# ![Внутреннее соединение](../../../images/icons/joindata/join-inner_default.svg) Внутреннее соединение
+# ![Inner Join](../../../images/icons/joindata/join-inner_default.svg) Inner Join
 
-При внутреннем соединении (SQL-аналог: `INNER JOIN`) происходит соединение двух таблиц. Для данного способа слияния порядок таблиц не важен.
-Результирующий набор данных содержит все строки, для которых найдено совпадение ключевых полей главной и присоединяемой таблицы.
+Two tables are joined in the case of the inner jin (SQL analogue: `INNER JOIN`). The order of tables is not important for this joining method.
+The resulting data set contains all rows for which mapping of the key fields of the main and joined table has been detected.
 
 For example:
 
-Let's consider two tables as an example. Персона - главная таблица и присоединяемая Город.
+Let's consider two tables as an example. A person - the main table and joined City.
 
 Main table:
 
@@ -28,8 +28,8 @@ Joined table:
 
 Resulting table:
 
-|Имя|Id города|Город|
+|Name|City Id|City|
 |:-|-:|:-|
-|Андрей|1|Москва|
-|Леонид|2|Санкт-Петербург|
-|Сергей|1|Москва|
+|Andrey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|Sergey|1|Moscow|

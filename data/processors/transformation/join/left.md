@@ -4,7 +4,7 @@
 
 For example:
 
-Let's consider two tables as an example. Персона - главная таблица и присоединяемою Город.
+Let's consider two tables as an example. A person - the main table and joined City.
 
 Main table:
 

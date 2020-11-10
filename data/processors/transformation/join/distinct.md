@@ -1,10 +1,10 @@
-# ![Разность](../../../images/icons/joindata/join-diff_default.svg) Разность
+# ![Difference](../../../images/icons/joindata/join-diff_default.svg) Difference
 
-Результирующий набор данных содержит записи основного набора, для которых по ключевым полям не найдено соответствий в присоединяемом наборе. В результирующем наборе присутствуют поля только основного набора. SQL-операторов аналогов данной операции нет.
+The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set. There are only fields of the main data set in the resulting data set. There are no SQL operators analogues of this operation.
 
 For example:
 
-Let's consider two tables as an example. Персона - главная таблица и присоединяемою Город.
+Let's consider two tables as an example. A person - the main table and joined City.
 
 Main table:
 
@@ -27,6 +27,6 @@ Joined table:
 
 Resulting table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Григорий|4|
+|Gregory|4|
