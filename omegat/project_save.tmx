@@ -4549,6 +4549,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Внутреннее соединение&lt;x2/&gt; Внутреннее соединение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T105129Z" creationid="Марианна" creationdate="20201110T105129Z">
+        <seg>&lt;x1/&gt;Inner Join&lt;x2/&gt; Inner Join</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вперед&lt;x2/&gt; &lt;x3/&gt;Вперед&lt;x4/&gt; — отменяет переход &lt;x5/&gt;Назад&lt;x6/&gt;, если после него не было произведено никаких других действий навигации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084135Z" creationid="Марианна" creationdate="20200814T082052Z">
