@@ -6357,6 +6357,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Левое соединение&lt;x2/&gt; Левое соединение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T113841Z" creationid="Марианна" creationdate="20201110T113841Z">
+        <seg>&lt;x1/&gt;Left Join&lt;x2/&gt; Left Join</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055729Z" creationid="Марианна" creationdate="20200812T055729Z">
