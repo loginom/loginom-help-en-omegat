@@ -19879,6 +19879,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При левом соединении (SQL-аналог: &lt;x1/&gt;LEFT JOIN&lt;x2/&gt;, левой таблицей является главная таблица) главная и присоединяемая таблицы связываются по ключевым полям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T114126Z" creationid="Марианна" creationdate="20201110T114126Z">
+        <seg>When the join is left (SQL analogue: &lt;x1/&gt;LEFT JOIN&lt;x2/&gt;, the main table is left) the main and joined tables are joined by the key fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При любом соединении (&lt;x1/&gt;JOIN&lt;x2/&gt;) в результирующий набор данных включаются ключевые поля только главной таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T195403Z" creationid="Марианна" creationdate="20201109T195403Z">
