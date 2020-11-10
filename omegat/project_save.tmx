@@ -20717,6 +20717,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результирующий набор данных содержит все строки, для которых найдено совпадение ключевых полей главной и присоединяемой таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T105723Z" creationid="Марианна" creationdate="20201110T105723Z">
+        <seg>The resulting data set contains all rows for which mapping of the key fields of the main and joined table has been detected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Результирующий набор данных содержит записи основного набора, для которых по ключевым полям не найдено соответствий в присоединяемом наборе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T104630Z" creationid="Марианна" creationdate="20201110T104506Z">
