@@ -8223,6 +8223,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разность&lt;x2/&gt; Разность</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T104306Z" creationid="Марианна" creationdate="20201110T104306Z">
+        <seg>&lt;x1/&gt;Difference&lt;x2/&gt; Difference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разрядность&lt;x2/&gt; — выводит информацию о разрядности LGD-файла: 64 или 32 бита.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195720Z" creationid="Марианна" creationdate="20200916T195720Z">
@@ -20621,6 +20629,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T160218Z" creationid="Марианна" creationdate="20201018T160218Z">
         <seg>Resulting table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующий набор данных содержит записи основного набора, для которых по ключевым полям не найдено соответствий в присоединяемом наборе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T104506Z" creationid="Марианна" creationdate="20201110T104506Z">
+        <seg>The resulting data set contains records of the main data set for which there is no mapping in the joined data set.</seg>
       </tuv>
     </tu>
     <tu>
