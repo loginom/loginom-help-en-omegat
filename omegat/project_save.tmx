@@ -13041,6 +13041,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результирующем наборе присутствуют поля только основного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T104725Z" creationid="Марианна" creationdate="20201110T104725Z">
+        <seg>There are only fields of the main data set in the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результирующем сценарии добавляется узел экспорта и/или настраивается &lt;x1/&gt;Визуализатор&lt;x2/&gt; результатов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T115541Z" creationid="Марианна" creationdate="20200717T110708Z">
@@ -20635,8 +20643,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Результирующий набор данных содержит записи основного набора, для которых по ключевым полям не найдено соответствий в присоединяемом наборе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201110T104506Z" creationid="Марианна" creationdate="20201110T104506Z">
-        <seg>The resulting data set contains records of the main data set for which there is no mapping in the joined data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T104630Z" creationid="Марианна" creationdate="20201110T104506Z">
+        <seg>The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set.</seg>
       </tuv>
     </tu>
     <tu>
