@@ -13151,6 +13151,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результирующий набор попадают все записи присоединяемой  таблицы , они дополняются полями из главной таблицы, при этом если для записи из присоединяемой  таблицы не было найдено совпадения по ключевым полям, то добавляемые поля заполняются значением Null.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T125920Z" creationid="Марианна" creationdate="20201110T125920Z">
+        <seg>All records of the joined table fall within the resulting data set. They are appended with the fields from the main table. If no mapping was detected by the key fields for the record from the joined table, the Null value is stated in the appended fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с этим неверная позиция в списке может приводить к ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193507Z" creationid="Марианна" creationdate="20201004T193507Z">
