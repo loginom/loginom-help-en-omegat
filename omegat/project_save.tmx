@@ -12177,6 +12177,22 @@ Assertion failed: lie 1 != 0</seg>
 |:-|-:|:-|
 |Андрей|1|Москва|
 |Леонид|2|Санкт-Петербург|
+|Сергей|1|Москва|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T105311Z" creationid="Марианна" creationdate="20201110T105311Z">
+        <seg>|Name|City Id|City|
+|:-|-:|:-|
+|Andrey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|Sergey|1|Moscow|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Имя|Id города|Город|
+|:-|-:|:-|
+|Андрей|1|Москва|
+|Леонид|2|Санкт-Петербург|
 |Сергей|1|Москва|
 |Григорий|4|&amp;#60;null&gt;|
 |&amp;#60;null&gt;||Казань|</seg>
@@ -14375,6 +14391,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
         <seg>To call the context menu of the port, it is required to click the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для данного способа слияния порядок таблиц не важен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T105559Z" creationid="Марианна" creationdate="20201110T105559Z">
+        <seg>The order of tables is not important for this joining method.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18669,6 +18693,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Персона - главная таблица и присоединяемая Город.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T105214Z" creationid="Марианна" creationdate="20201110T105214Z">
+        <seg>A person - the main table and joined City.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Персона - главная таблица и присоединяемою Город.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T104947Z" creationid="Марианна" creationdate="20201110T104947Z">
@@ -19625,6 +19657,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T201738Z" creationid="Марианна" creationdate="20201006T201738Z">
         <seg>When entering the replacement table, the following actions are available by means of the area toolbar:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При внутреннем соединении (SQL-аналог: &lt;x1/&gt;INNER JOIN&lt;x2/&gt;) происходит соединение двух таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T105441Z" creationid="Марианна" creationdate="20201110T105441Z">
+        <seg>Two tables are joined in the case of the inner jin (SQL analogue: &lt;x1/&gt;INNER JOIN&lt;x2/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
