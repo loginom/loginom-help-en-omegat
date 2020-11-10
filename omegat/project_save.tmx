@@ -10403,6 +10403,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SQL-операторов аналогов данной операции нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T104845Z" creationid="Марианна" creationdate="20201110T104845Z">
+        <seg>There are no SQL operators analogues of this operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SUMMARY</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184936Z" creationid="Марианна" creationdate="20200810T184936Z">
