@@ -20047,6 +20047,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При правом соединении (SQL-аналог: &lt;x1/&gt;RIGHT JOIN&lt;x2/&gt;, правой таблицей является присоединяемая таблица) главная и присоединяемая таблицы связываются по ключевым полям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T125625Z" creationid="Марианна" creationdate="20201110T125625Z">
+        <seg>When the join is right (SQL analogue: &lt;x1/&gt;RIGHT JOIN&lt;x2/&gt;, the joined table is right) the main and joined tables are joined by the key fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При работе с кросс-таблицей может возникнуть ситуация, когда в полях, по которым были сформированы колонки, появляются новые значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T062847Z" creationid="Марианна" creationdate="20201023T062847Z">
