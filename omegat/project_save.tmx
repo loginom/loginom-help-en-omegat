@@ -22037,6 +22037,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Трансформация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201110T130421Z" creationid="Марианна" creationdate="20201110T130421Z">
+        <seg>Transformation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>У переменной может быть только одно значение, поэтому для его расчета к данным поля применяются различные &lt;x1/&gt;функции агрегации&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T183723Z" creationid="Марианна" creationdate="20201005T183723Z">
