@@ -14255,6 +14255,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные ключевых полей основного и присоединяемого наборов сравниваются между собой, результат операции сравнения используется алгоритмом слияния для формирования результирующего набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104625Z" creationid="Марианна" creationdate="20201111T104625Z">
+        <seg>Data of the key fields of the main and joined data sets is compared with each other. The comparison result is used by the joining algorithm to generate the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные полей в этой группе обрабатываются в соответствии с &lt;x1/&gt;функциями агрегации&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T070240Z" creationid="Марианна" creationdate="20201023T070240Z">
