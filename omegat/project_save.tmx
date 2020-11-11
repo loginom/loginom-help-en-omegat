@@ -23341,6 +23341,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в интервале</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170254Z" creationid="Марианна" creationdate="20201111T170254Z">
+        <seg>within the range</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в качестве &lt;x1/&gt;макроподстановки&lt;x2/&gt; — в значении переменной указывается SQL-запрос или какая-то его часть.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131414Z" creationid="Марианна" creationdate="20200825T112342Z">
@@ -23357,10 +23365,34 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в списке</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170320Z" creationid="Марианна" creationdate="20201111T170320Z">
+        <seg>listed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>взаимозависимы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T200403Z" creationid="Марианна" creationdate="20201012T200340Z">
         <seg>they are interdependent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>вне интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170308Z" creationid="Марианна" creationdate="20201111T170308Z">
+        <seg>out of the range</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>вне списка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170331Z" creationid="Марианна" creationdate="20201111T170331Z">
+        <seg>not listed</seg>
       </tuv>
     </tu>
     <tu>
@@ -23461,6 +23493,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>заканчивается на</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170426Z" creationid="Марианна" creationdate="20201111T170426Z">
+        <seg>ending with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>знаки математических операций и отношений;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165400Z" creationid="Марианна" creationdate="20201005T165400Z">
@@ -23557,6 +23597,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>истина</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170534Z" creationid="Марианна" creationdate="20201111T170534Z">
+        <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>логические операции (&lt;x1/&gt;and&lt;x2/&gt;, &lt;x3/&gt;or&lt;x4/&gt;, &lt;x5/&gt;not&lt;x6/&gt;, &lt;x7/&gt;xor&lt;x8/&gt;) и значения (&lt;x9/&gt;true&lt;x10/&gt; или &lt;x11/&gt;1&lt;x12/&gt;, &lt;x13/&gt;false&lt;x14/&gt; или &lt;x15/&gt;0&lt;x16/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T181137Z" creationid="Марианна" creationdate="20201013T181137Z">
@@ -23573,10 +23621,58 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ложь</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170540Z" creationid="Марианна" creationdate="20201111T170540Z">
+        <seg>false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>нажатием на кнопку &lt;x1/&gt;Удалить связь&lt;x2/&gt; на линии связи (при наведении курсора кнопка меняет вид на &lt;x3/&gt;Удалить связь&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165055Z" creationid="Марианна" creationdate="20201001T165055Z">
         <seg>using &lt;x1/&gt;Delete link&lt;x2/&gt; button in the line (when cursor hovering, the button is changed to &lt;x3/&gt;Delete link&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>начинается с</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170407Z" creationid="Марианна" creationdate="20201111T170407Z">
+        <seg>starting with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>не заканчивается на</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170436Z" creationid="Марианна" creationdate="20201111T170436Z">
+        <seg>not ending with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>не начинается с</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170416Z" creationid="Марианна" creationdate="20201111T170416Z">
+        <seg>not starting with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>не первый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170505Z" creationid="Марианна" creationdate="20201111T170505Z">
+        <seg>not first</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>не последний</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170528Z" creationid="Марианна" creationdate="20201111T170528Z">
+        <seg>not last</seg>
       </tuv>
     </tu>
     <tu>
@@ -23597,6 +23693,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>не содержит</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170353Z" creationid="Марианна" creationdate="20201111T170353Z">
+        <seg>does not contain</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>о.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212304Z" creationid="Марианна" creationdate="20201012T212304Z">
@@ -23609,6 +23713,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165904Z" creationid="Марианна" creationdate="20201005T165904Z">
         <seg>single-line and multi-line comments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>первый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170449Z" creationid="Марианна" creationdate="20201111T170449Z">
+        <seg>first</seg>
       </tuv>
     </tu>
     <tu>
@@ -23633,6 +23745,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070924Z" creationid="Марианна" creationdate="20201019T070858Z">
         <seg>&lt;x1/&gt;With minimum data set&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>последний</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170522Z" creationid="Марианна" creationdate="20201111T170522Z">
+        <seg>last</seg>
       </tuv>
     </tu>
     <tu>
@@ -23753,6 +23873,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062907Z" creationid="Марианна" creationdate="20201014T062907Z">
         <seg>included between (slash-asterisk)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>содержит</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170344Z" creationid="Марианна" creationdate="20201111T170344Z">
+        <seg>contains</seg>
       </tuv>
     </tu>
     <tu>
