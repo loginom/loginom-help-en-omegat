@@ -4460,6 +4460,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: При любом соединении (&lt;x3/&gt;JOIN&lt;x4/&gt;) в результирующий набор данных включаются ключевые поля только главной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T111113Z" creationid="Марианна" creationdate="20201111T111113Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: При любом соединении (&lt;x3/&gt;JOIN&lt;x4/&gt;) в результирующий набор данных включаются ключевые поля только главной таблицы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: Узлы из внешних пакетов, других сценариев и подмоделей отобразятся в дереве только в том случае, если доступ к ним разрешен их &lt;x3/&gt;модификатором доступа&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072358Z" creationid="Марианна" creationdate="20200919T072358Z">
@@ -5471,8 +5479,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавлять присоединяемые ключевые поля&lt;x2/&gt; — установка этого флага оставит ключевые поля из присоединяемой таблицы в выходном наборе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T111051Z" creationid="Марианна" creationdate="20201111T111051Z">
-        <seg>&lt;x1/&gt;Add joined key fields&lt;x2/&gt;: placement of this flag enables to keep the key fields from the joined table un the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T111105Z" creationid="Марианна" creationdate="20201111T111051Z">
+        <seg>&lt;x1/&gt;Add joined key fields&lt;x2/&gt;: placement of this flag enables to keep the key fields from the joined table in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
