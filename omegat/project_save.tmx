@@ -812,6 +812,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>0 - Внутреннее соединение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105226Z" creationid="Марианна" creationdate="20201111T105226Z">
+        <seg>0 - Inner join.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>0,04</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212736Z" creationid="Марианна" creationdate="20201012T212736Z">
@@ -1092,6 +1100,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1 - Левое соединение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105237Z" creationid="Марианна" creationdate="20201111T105237Z">
+        <seg>1 - Left join.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1.0.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084221Z" creationid="Марианна" creationdate="20201009T084221Z">
@@ -1304,6 +1320,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104152Z" creationid="Марианна" creationdate="20201006T104152Z">
         <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>2 - Правое соединение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105246Z" creationid="Марианна" creationdate="20201111T105246Z">
+        <seg>2 - Right join.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4294,8 +4318,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для того, чтобы при способе слияния &lt;x3/&gt;Полное соединение&lt;x4/&gt; использовать &lt;x5/&gt;FULL JOIN&lt;x6/&gt; соединение, необходимо в мастере настройки сопоставить ключевые поля соединяемых наборов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T194901Z" creationid="Марианна" creationdate="20201109T194746Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; To use &lt;x5/&gt;FULL JOIN&lt;x6/&gt; when selecting &lt;x3/&gt;Full join&lt;x4/&gt; method of joining, it is required to map the key fields of the joined data sets in the wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105107Z" creationid="Марианна" creationdate="20201109T194746Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; To use &lt;x5/&gt;FULL JOIN&lt;x6/&gt; when selecting &lt;x3/&gt;Full join&lt;x4/&gt; method of join, it is required to map the key fields of the joined data sets in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9087,6 +9111,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип операции&lt;x2/&gt; — выбор способа слияния;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105205Z" creationid="Марианна" creationdate="20201111T105017Z">
+        <seg>&lt;x1/&gt;Operation type&lt;x2/&gt; enables to select the join method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип файла Excel&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194219Z" creationid="Марианна" creationdate="20200916T194219Z">
@@ -9827,6 +9859,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204102Z" creationid="Марианна" creationdate="20201006T204102Z">
         <seg>&lt;x3/&gt;Use of the Allowable Interval&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;типы данных&lt;x4/&gt;):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105212Z" creationid="Марианна" creationdate="20201111T105212Z">
+        <seg>&lt;x3/&gt;data types&lt;x4/&gt;):</seg>
       </tuv>
     </tu>
     <tu>
@@ -14305,8 +14345,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные ключевых полей основного и присоединяемого наборов сравниваются между собой, результат операции сравнения используется алгоритмом слияния для формирования результирующего набора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T104625Z" creationid="Марианна" creationdate="20201111T104625Z">
-        <seg>Data of the key fields of the main and joined data sets is compared with each other. The comparison result is used by the joining algorithm to generate the resulting data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105153Z" creationid="Марианна" creationdate="20201111T104625Z">
+        <seg>Data of the key fields of the main and joined data sets is compared with each other. The comparison result is used by the join algorithm to generate the resulting data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14529,8 +14569,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для данного способа слияния порядок таблиц не важен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201110T105559Z" creationid="Марианна" creationdate="20201110T105559Z">
-        <seg>The order of tables is not important for this joining method.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105038Z" creationid="Марианна" creationdate="20201110T105559Z">
+        <seg>The order of tables is not important for this join method.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15409,8 +15449,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если сопоставление отсутствует, то задействуется алгоритм &lt;x7/&gt;CROSS JOIN&lt;x8/&gt; соединения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T194851Z" creationid="Марианна" creationdate="20201109T194851Z">
-        <seg>If there is no mapping, the &lt;x7/&gt;CROSS JOIN&lt;x8/&gt; algorithm of joining is used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105146Z" creationid="Марианна" creationdate="20201109T194851Z">
+        <seg>If there is no mapping, the &lt;x7/&gt;CROSS JOIN&lt;x8/&gt; algorithm of join is used.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19875,8 +19915,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При данном способе слияния объем результирующей выборки может очень быстро расти.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T195108Z" creationid="Марианна" creationdate="20201109T195108Z">
-        <seg>When selecting this joining method, the resulting sample volume can get higher very rapidly.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105023Z" creationid="Марианна" creationdate="20201109T195108Z">
+        <seg>When selecting this join method, the resulting sample volume can get higher very rapidly.</seg>
       </tuv>
     </tu>
     <tu>
