@@ -4901,6 +4901,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — делится на списки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151753Z" creationid="Марианна" creationdate="20201111T151753Z">
+        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt; are divided into lists.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — параметры кэширования устанавливаются для каждого поля в отдельности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072813Z" creationid="Марианна" creationdate="20201016T072813Z">
@@ -6041,6 +6049,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154938Z" creationid="Марианна" creationdate="20200810T154938Z">
         <seg>&lt;x1/&gt;Interface&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информационные&lt;x2/&gt; &lt;x3/&gt;Информационные&lt;x4/&gt; — содержит поля, которые не будут изменяться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151838Z" creationid="Марианна" creationdate="20201111T151838Z">
+        <seg>&lt;x1/&gt;Info&lt;x2/&gt; &lt;x3/&gt;Info&lt;x4/&gt;: contains the fields that will not be changed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9291,6 +9307,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204042Z" creationid="Марианна" creationdate="20201006T204042Z">
         <seg>&lt;x1/&gt;Precision&lt;x2/&gt;: enables to set the allowable interval based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Транспонируемые&lt;x2/&gt; &lt;x3/&gt;Транспонируемые&lt;x4/&gt; — на основе этих полей будут сформированы 4 новых столбца: &lt;x5/&gt;Имена&lt;x6/&gt;, &lt;x7/&gt;Метки&lt;x8/&gt;, &lt;x9/&gt;Значения&lt;x10/&gt;, &lt;x11/&gt;Типы данных&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T152007Z" creationid="Марианна" creationdate="20201111T152007Z">
+        <seg>On the basis of the &lt;x1/&gt;Transposed&lt;x2/&gt; &lt;x3/&gt;Transposed&lt;x4/&gt; fields 4 new columns will be generated: &lt;x5/&gt;Names&lt;x6/&gt;, &lt;x7/&gt;Captions&lt;x8/&gt;, &lt;x9/&gt;Values&lt;x10/&gt;, &lt;x11/&gt;Data types&lt;x12/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
