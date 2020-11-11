@@ -8575,6 +8575,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свёртка столбцов&lt;x2/&gt; Свёртка столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T144357Z" creationid="Марианна" creationdate="20201111T144357Z">
+        <seg>&lt;x1/&gt;Collapse Columns&lt;x2/&gt; Collapse Columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сглаживание&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055558Z" creationid="Марианна" creationdate="20200812T055558Z">
