@@ -1796,6 +1796,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;, &lt;=, &gt;, &gt;=, =, &lt;&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170134Z" creationid="Марианна" creationdate="20201111T170134Z">
+        <seg>&lt;, &lt;=, &gt;, &gt;=, =, &lt;&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170807Z" creationid="Марианна" creationdate="20200916T170807Z">
@@ -21913,6 +21921,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список возможных условий и типы данных, к которым они применимы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170119Z" creationid="Марианна" creationdate="20201111T170119Z">
+        <seg>A list of possible conditions and data types to which they can be applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список выбора содержит переменные, передаваемые на выходные порты узла, заключенного в цикл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200904Z" creationid="Марианна" creationdate="20200921T200904Z">
@@ -22861,6 +22877,22 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Условие</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170128Z" creationid="Марианна" creationdate="20201111T170128Z">
+        <seg>Condition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Условия фильтрации в обработчике Фильтр строк</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170037Z" creationid="Марианна" creationdate="20201111T170037Z">
+        <seg>Filtering Criteria in the Row Filter Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Установленный флаг &lt;x7/&gt;Пропущенные&lt;x8/&gt; обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081031Z" creationid="Марианна" creationdate="20201023T081031Z">
@@ -23551,8 +23583,16 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>не постоянный</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T150418Z" creationid="Марианна" creationdate="20201111T150418Z">
-        <seg>inconstant</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170234Z" creationid="Марианна" creationdate="20201111T150418Z">
+        <seg>not constant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>не пустой</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170223Z" creationid="Марианна" creationdate="20201111T170223Z">
+        <seg>not null</seg>
       </tuv>
     </tu>
     <tu>
@@ -23601,6 +23641,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T150041Z" creationid="Марианна" creationdate="20201111T150041Z">
         <seg>constant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>пустой</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170150Z" creationid="Марианна" creationdate="20201111T170150Z">
+        <seg>null</seg>
       </tuv>
     </tu>
     <tu>
