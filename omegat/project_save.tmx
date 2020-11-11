@@ -19521,6 +19521,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поля &lt;x1/&gt;Код клиента&lt;x2/&gt; и &lt;x3/&gt;Месяц&lt;x4/&gt; выберем как &lt;x5/&gt;Информационные&lt;x6/&gt; &lt;x7/&gt;Информационные&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150812Z" creationid="Марианна" creationdate="20201111T150812Z">
+        <seg>&lt;x1/&gt;Client code&lt;x2/&gt; and &lt;x3/&gt;Month&lt;x4/&gt; fields will be selected as &lt;x5/&gt;Info&lt;x6/&gt; &lt;x7/&gt;Info&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поля в данной группе обязательно должны иметь дискретный &lt;x1/&gt;вид данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061653Z" creationid="Марианна" creationdate="20201023T061653Z">
