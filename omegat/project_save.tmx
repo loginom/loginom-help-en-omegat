@@ -1500,6 +1500,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>3 - Полное соединение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105255Z" creationid="Марианна" creationdate="20201111T105255Z">
+        <seg>3 - Full join.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>3,11</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212524Z" creationid="Марианна" creationdate="20201012T212524Z">
@@ -1568,6 +1576,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100807Z" creationid="Марианна" creationdate="20201011T100807Z">
         <seg>4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>4 - Разность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105308Z" creationid="Марианна" creationdate="20201111T105308Z">
+        <seg>4 - Difference.</seg>
       </tuv>
     </tu>
     <tu>
