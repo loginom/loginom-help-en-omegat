@@ -5757,6 +5757,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значения&lt;x2/&gt; — этот столбец содержит все значения транспонируемых столбцов, т.к. эти столбцы могут иметь разный тип (как это показано в примере), то столбец Значения имеет тип данных &lt;x3/&gt;Переменный&lt;x4/&gt; &lt;x5/&gt;Переменный&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T164844Z" creationid="Марианна" creationdate="20201111T164844Z">
+        <seg>&lt;x1/&gt;Values&lt;x2/&gt;: this column contains all values of the transposed columns because these columns can be of different type (as in the example), so, the Values column can have the &lt;x3/&gt;Variable&lt;x4/&gt; &lt;x5/&gt;Variable&lt;x6/&gt; type of data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; — условный вывод о наличии/отсутствии корреляции на данном лаге.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102825Z" creationid="Марианна" creationdate="20201011T102706Z">
@@ -6673,6 +6681,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110747Z" creationid="Марианна" creationdate="20200929T110747Z">
         <seg>&lt;x1/&gt;Caption&lt;x2/&gt; denotes a random field description.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метки&lt;x2/&gt; — столбец с метками столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T164334Z" creationid="Марианна" creationdate="20201111T164334Z">
+        <seg>&lt;x1/&gt;Captions&lt;x2/&gt; denote a column with captions of columns.</seg>
       </tuv>
     </tu>
     <tu>
