@@ -1756,6 +1756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Внутреннее соединение&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104853Z" creationid="Марианна" creationdate="20201111T104853Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Inner join&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выражение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085336Z" creationid="Марианна" creationdate="20201015T085336Z">
@@ -1848,6 +1856,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143900Z" creationid="Марианна" creationdate="20200816T143900Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Use relative paths of the base package&lt;x4/&gt; must be enabled in the &lt;x5/&gt;Package&lt;x6/&gt; with base node, if this node has relative paths to files, or it is assumed to use paths in base nodes relative to this &lt;x7/&gt;Package&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Левое соединение&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104900Z" creationid="Марианна" creationdate="20201111T104900Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Left join&lt;x4/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1976,6 +1992,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135517Z" creationid="Марианна" creationdate="20200816T135517Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Show in folder&lt;x4/&gt; enables to open the folder containing the selected &lt;x5/&gt;Package&lt;x6/&gt; and takes focus on it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Полное соединение&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104845Z" creationid="Марианна" creationdate="20201111T104845Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Full join&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Правое соединение&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104908Z" creationid="Марианна" creationdate="20201111T104908Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Right join&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Разность&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104915Z" creationid="Марианна" creationdate="20201111T104915Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Difference&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13443,6 +13483,14 @@ WHERE
 CurrencyRates.Period BETWEEN &amp;start_date AND &amp;end_date
 ORDER BY
 DESC period</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Варианты слияния наборов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104834Z" creationid="Марианна" creationdate="20201111T104834Z">
+        <seg>Options of data sets join:</seg>
       </tuv>
     </tu>
     <tu>
