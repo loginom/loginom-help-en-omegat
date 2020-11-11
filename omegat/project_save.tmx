@@ -5021,6 +5021,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — результат слияния.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105353Z" creationid="Марианна" creationdate="20201111T105353Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a join result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T070004Z" creationid="Марианна" creationdate="20200924T070004Z">
@@ -15511,6 +15519,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>За исключением способа &lt;x1/&gt;Разность&lt;x2/&gt;, каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105645Z" creationid="Марианна" creationdate="20201111T105645Z">
+        <seg>With the exception of the &lt;x1/&gt;Difference&lt;x2/&gt; method, each of the enumerated join methods is an analogue of the particular join type in SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заглавных или строчных латинских букв;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110607Z" creationid="Марианна" creationdate="20200929T110607Z">
@@ -16351,6 +16367,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T174015Z" creationid="Марианна" creationdate="20201020T172433Z">
         <seg>External modules are supported as in the JavaScript component but it is possible to use only &lt;x3/&gt;CommonJS&lt;x4/&gt; module systems in &lt;x1/&gt;Calculator&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Как правило, содержит поля основного и присоединяемого наборов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T105422Z" creationid="Марианна" creationdate="20201111T105422Z">
+        <seg>As a rule, it contains the fields of the main and joined data sets.</seg>
       </tuv>
     </tu>
     <tu>
