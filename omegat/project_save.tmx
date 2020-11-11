@@ -6869,6 +6869,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область сопоставления полей&lt;x2/&gt; — настройка полей связи главного и присоединяемого наборов данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T110337Z" creationid="Марианна" creationdate="20201111T110337Z">
+        <seg>&lt;x1/&gt;Area of fields mapping&lt;x2/&gt; means configuration of the connection fields of the main and joined data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обновить все&lt;x2/&gt; &lt;x3/&gt;Обновить все&lt;x4/&gt; — перечитывает указанное количество строк в таблицу и производит автоматическое формирование результирующего набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T095025Z" creationid="Марианна" creationdate="20200826T095025Z">
@@ -8051,6 +8059,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
         <seg>&lt;x1/&gt;Design principles&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Присоединяемая таблица&lt;x2/&gt; &lt;x3/&gt;Присоединяемая таблица&lt;x4/&gt; — таблица, наборы данных которой добавляются к главной таблице (в контексте понятий языка SQL запросов принимает данные правой таблицы для соединения).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T110141Z" creationid="Марианна" creationdate="20201111T110141Z">
+        <seg>&lt;x1/&gt;Joined table&lt;x2/&gt; &lt;x3/&gt;Joined table&lt;x4/&gt;is a table data sets of which are appended to the main table (in the context of the SQL terms, it accepts the right table data for join).</seg>
       </tuv>
     </tu>
     <tu>
