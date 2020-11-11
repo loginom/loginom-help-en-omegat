@@ -22245,6 +22245,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также это можно сделать при помощи кнопок перемещения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T152710Z" creationid="Марианна" creationdate="20201111T152710Z">
+        <seg>It can be also done using the navigation buttons.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также, нажав на клавишу &lt;x1/&gt;Список подобъектов&lt;x2/&gt; можно перейти к подобъектам составного объекта (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084758Z" creationid="Марианна" creationdate="20200814T084134Z">
