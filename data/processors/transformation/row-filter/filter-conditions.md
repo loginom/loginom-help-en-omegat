@@ -1,25 +1,25 @@
-# Условия фильтрации в обработчике Фильтр строк
+# Filtering Criteria in the Row Filter Handler
 
-Список возможных условий и типы данных, к которым они применимы.
+A list of possible conditions and data types to which they can be applied.
 
-| Условие | ![](../../../images/icons/data-types/integer_default.svg) Integer | ![](../../../images/icons/data-types/float_default.svg) Real | ![](../../../images/icons/data-types/string_default.svg) String | ![](../../../images/icons/data-types/datetime_default.svg) Date/time | ![](../../../images/icons/data-types/boolean_default.svg) Logical | ![](../../../images/icons/data-types/variant_default.svg) Variant |
+| Condition | ![](../../../images/icons/data-types/integer_default.svg) Integer | ![](../../../images/icons/data-types/float_default.svg) Real | ![](../../../images/icons/data-types/string_default.svg) String | ![](../../../images/icons/data-types/datetime_default.svg) Date/time | ![](../../../images/icons/data-types/boolean_default.svg) Logical | ![](../../../images/icons/data-types/variant_default.svg) Variant |
 | :------ | :---: | :----------: | :-------: | :--------: | :--------: | :--------: |
 | <, <=, >, >=, =, <> | • | • | • | • | | • |
-| пустой | • | • | • | • | • | • |
-| не пустой | • | • | • | • | • | • |
-| в интервале | • | • | • | • | | • |
-| вне интервала | • | • | • | • | | • |
-| в списке | • | • | • | • | | • |
-| вне списка | • | • | • | • | | • |
-| содержит | | | • | | | • |
-| не содержит | | | • | | | • |
-| начинается с | | | • | | | • |
-| не начинается с | | | • | | | • |
-| заканчивается на | | | • | | | • |
-| не заканчивается на | | | • | | | • |
-| первый | | | | • | | • |
-| не первый | | | | • | | • |
-| последний | | | | • | | • |
-| не последний | | | | • | | • |
-| истина | | | | | • | • |
-| ложь | | | | | • | • |
+| null | • | • | • | • | • | • |
+| not null | • | • | • | • | • | • |
+| within the range | • | • | • | • | | • |
+| out of the range | • | • | • | • | | • |
+| listed | • | • | • | • | | • |
+| not listed | • | • | • | • | | • |
+| contains | | | • | | | • |
+| does not contain | | | • | | | • |
+| starting with | | | • | | | • |
+| not starting with | | | • | | | • |
+| ending with | | | • | | | • |
+| not ending with | | | • | | | • |
+| first | | | | • | | • |
+| not first | | | | • | | • |
+| last | | | | • | | • |
+| not last | | | | • | | • |
+| true | | | | | • | • |
+| false | | | | | • | • |

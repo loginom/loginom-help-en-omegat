@@ -9,7 +9,7 @@ Source data set:
 | Client code | Month | SMS number | Number of incoming minutes | Status | Discount availability |
 | ----------: | :---- | ---------: | --------------: | :----- | :------------- |
 | 1 | August | 81 | 506 | constant | True |
-| 1 | September | 32 | 231 | inconstant | False |
+| 1 | September | 32 | 231 | not constant | False |
 
 Let's collapse columns. `Client code` and `Month` fields will be selected as ![Info](../../images/icons/usage-types/unspecified_default.svg) *Info*. And `SMS number` (![Integer type](../../images/icons/data-types/integer_default.svg)*Integer type*), `Number of incoming minutes` (![Integer type](../../images/icons/data-types/integer_default.svg)*Integer type*), `Status` (![String type](../../images/icons/data-types/string_default.svg)*String type*), `Discount availability` (![Logical type](../../images/icons/data-types/boolean_default.svg)*Logical type*), will be selected as ![Transposed](../../images/icons/dataset-operations/dsa-flipping_default.svg) *Transposed*.
 
@@ -23,7 +23,7 @@ Resulting data set:
 | 1 | August | COL6 | Discount availability | True | 1 |
 | 1 | September | COL3 | SMS number | 32 | 4 |
 | 1 | September | COL4 | Number of incoming minutes | 231 | 4 |
-| 1 | September | COL5 | Status | inconstant | 5 |
+| 1 | September | COL5 | Status | not constant | 5 |
 | 1 | September | COL6 | Discount availability | False | 1 |
 
 %/spoiler%
