@@ -16315,6 +16315,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исходный набор данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145238Z" creationid="Марианна" creationdate="20201111T145238Z">
+        <seg>Source data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Итоговый набор в порту "Переменные" содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T105212Z" creationid="Марианна" creationdate="20201009T104523Z">
@@ -16555,10 +16563,26 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Код клиента</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145325Z" creationid="Марианна" creationdate="20201111T145325Z">
+        <seg>Client code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Код обработчика является корневым модулем системы ES6.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T075003Z" creationid="Марианна" creationdate="20201102T075003Z">
         <seg>The handler code is a root module of ES6 system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кол-во SMS</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145538Z" creationid="Марианна" creationdate="20201111T145538Z">
+        <seg>SMS number</seg>
       </tuv>
     </tu>
     <tu>
@@ -17021,6 +17045,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103106Z" creationid="Марианна" creationdate="20201009T103106Z">
         <seg>The action menu contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Месяц</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145332Z" creationid="Марианна" creationdate="20201111T145332Z">
+        <seg>Month</seg>
       </tuv>
     </tu>
     <tu>
