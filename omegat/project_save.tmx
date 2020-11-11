@@ -1636,6 +1636,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>506</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145823Z" creationid="Марианна" creationdate="20201111T145823Z">
+        <seg>506</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>532,4</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212012Z" creationid="Марианна" creationdate="20201012T212012Z">
@@ -1736,6 +1744,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175831Z" creationid="Марианна" creationdate="20201022T175831Z">
         <seg>800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>81</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145819Z" creationid="Марианна" creationdate="20201111T145819Z">
+        <seg>81</seg>
       </tuv>
     </tu>
     <tu>
@@ -17569,6 +17585,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наличие скидки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145809Z" creationid="Марианна" creationdate="20201111T145809Z">
+        <seg>Discount availability</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, вещественную переменную можно заменить целочисленной или строковой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202832Z" creationid="Марианна" creationdate="20201006T202832Z">
@@ -22977,6 +23001,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T171847Z" creationid="Марианна" creationdate="20201020T171847Z">
         <seg>It is not required to import &lt;x5/&gt;functions &lt;x6/&gt;of the Calculator&lt;x7/&gt;&lt;x8/&gt; distinctly (as it is done in the &lt;x9/&gt;component &lt;x10/&gt; of JavaScript&lt;x11/&gt;&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>август</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145816Z" creationid="Марианна" creationdate="20201111T145816Z">
+        <seg>August</seg>
       </tuv>
     </tu>
     <tu>
