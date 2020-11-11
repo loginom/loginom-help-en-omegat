@@ -20689,6 +20689,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При установке флага &lt;x1/&gt;Игнорировать пустые значения&lt;x2/&gt; обработчик не будет включать в результирующий набор строки с пустыми значениями в транспонируемых полях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165814Z" creationid="Марианна" creationdate="20201111T165814Z">
+        <seg>When selecting &lt;x1/&gt;Skip null values&lt;x2/&gt; flag, the handler won't include the strings with null values in the transposed fields into the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При формировании текста SQL запроса существует возможность использования значений переменных входного порта, что позволяет оптимизировать обработку запросов и более гибко настроить работу с базой данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111322Z" creationid="Марианна" creationdate="20200825T111322Z">
