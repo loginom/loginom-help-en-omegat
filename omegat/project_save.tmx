@@ -14903,6 +14903,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для настройки требуется переместить поля входного набора в списки &lt;x1/&gt;Информационные&lt;x2/&gt; или &lt;x3/&gt;Транспонируемые&lt;x4/&gt;, перетаскивая их мышью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T152441Z" creationid="Марианна" creationdate="20201111T152441Z">
+        <seg>To configure, it is required to move the input data set fields to the &lt;x1/&gt;Info&lt;x2/&gt; or &lt;x3/&gt;Transposed&lt;x4/&gt; lists, dragging them with the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075157Z" creationid="Марианна" creationdate="20200816T140233Z">
