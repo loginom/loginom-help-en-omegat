@@ -21081,6 +21081,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Слияние наборов данных, связанных по ключевым полям — аналог операции JOIN в SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104749Z" creationid="Марианна" creationdate="20201111T104749Z">
+        <seg>Join of the data sets that are connected by the key fields — analogue of the JOIN operation in SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слэш (/);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062640Z" creationid="Марианна" creationdate="20200917T152308Z">
