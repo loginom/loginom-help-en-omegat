@@ -14183,6 +14183,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выполним свертку столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150443Z" creationid="Марианна" creationdate="20201111T150443Z">
+        <seg>Let's collapse columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выполняются правила замены для значений, не найденных на предыдущих шагах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161148Z" creationid="Марианна" creationdate="20201006T161058Z">
