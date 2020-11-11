@@ -1404,6 +1404,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>231</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150055Z" creationid="Марианна" creationdate="20201111T150055Z">
+        <seg>231</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>24</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165117Z" creationid="Марианна" creationdate="20201010T165117Z">
@@ -1552,6 +1560,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165151Z" creationid="Марианна" creationdate="20201010T165151Z">
         <seg>31.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>32</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150052Z" creationid="Марианна" creationdate="20201111T150052Z">
+        <seg>32</seg>
       </tuv>
     </tu>
     <tu>
@@ -23253,6 +23269,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>не постоянный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150418Z" creationid="Марианна" creationdate="20201111T150418Z">
+        <seg>inconstant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>о.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212304Z" creationid="Марианна" creationdate="20201012T212304Z">
@@ -23289,6 +23313,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070924Z" creationid="Марианна" creationdate="20201019T070858Z">
         <seg>&lt;x1/&gt;With minimum data set&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>постоянный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150041Z" creationid="Марианна" creationdate="20201111T150041Z">
+        <seg>constant</seg>
       </tuv>
     </tu>
     <tu>
@@ -23361,6 +23393,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164853Z" creationid="Марианна" creationdate="20201001T164853Z">
         <seg>using &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all links&lt;x4/&gt; button, it deletes all links;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>сентябрь</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T150048Z" creationid="Марианна" creationdate="20201111T150048Z">
+        <seg>September</seg>
       </tuv>
     </tu>
     <tu>
