@@ -5469,6 +5469,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавлять присоединяемые ключевые поля&lt;x2/&gt; — установка этого флага оставит ключевые поля из присоединяемой таблицы в выходном наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T111051Z" creationid="Марианна" creationdate="20201111T111051Z">
+        <seg>&lt;x1/&gt;Add joined key fields&lt;x2/&gt;: placement of this flag enables to keep the key fields from the joined table un the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191810Z" creationid="Марианна" creationdate="20200810T191810Z">
