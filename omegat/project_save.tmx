@@ -21137,6 +21137,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Связь между полями можно удалить, либо настроить на другое поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T110810Z" creationid="Марианна" creationdate="20201111T110810Z">
+        <seg>The link between the fields can be deleted or set to another field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Секунды.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083644Z" creationid="Марианна" creationdate="20200918T083644Z">
