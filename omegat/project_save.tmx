@@ -8495,6 +8495,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Слияние&lt;x2/&gt; Слияние</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T104325Z" creationid="Марианна" creationdate="20201111T104325Z">
+        <seg>&lt;x1/&gt;Join&lt;x2/&gt; Join</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Служебные порты&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185135Z" creationid="Марианна" creationdate="20200810T182508Z">
