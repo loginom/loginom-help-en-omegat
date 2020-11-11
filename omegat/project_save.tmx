@@ -5823,8 +5823,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имена&lt;x2/&gt; — столбец с именами транспонируемых столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T153443Z" creationid="Марианна" creationdate="20201111T153443Z">
-        <seg>&lt;x1/&gt;Names&lt;x2/&gt; — столбец с именами транспонируемых столбцов.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T164309Z" creationid="Марианна" creationdate="20201111T153443Z">
+        <seg>&lt;x1/&gt;Names&lt;x2/&gt; denote a column with the names of the transposed columns.</seg>
       </tuv>
     </tu>
     <tu>
