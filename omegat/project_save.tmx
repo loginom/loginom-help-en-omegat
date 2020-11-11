@@ -14897,8 +14897,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для настройки требуется переместить поля входного набора в списки &lt;x1/&gt;Группа&lt;x2/&gt; или &lt;x3/&gt;Показатели&lt;x4/&gt;, перетаскивая их мышью.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T200900Z" creationid="Марианна" creationdate="20201023T200900Z">
-        <seg>To configure, it is required to move the input set fields to the &lt;x1/&gt;Group&lt;x2/&gt; or &lt;x3/&gt;Parameters&lt;x4/&gt; lists, dragging them with the mouse.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T152930Z" creationid="Марианна" creationdate="20201023T200900Z">
+        <seg>To configure, it is required to move the input data set fields to the &lt;x1/&gt;Group&lt;x2/&gt; or &lt;x3/&gt;Parameters&lt;x4/&gt; lists, dragging them with the mouse.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21229,6 +21229,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T104630Z" creationid="Марианна" creationdate="20201110T104506Z">
         <seg>The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующий набор данных содержит:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T153049Z" creationid="Марианна" creationdate="20201111T153049Z">
+        <seg>The resulting data set contains the following columns:</seg>
       </tuv>
     </tu>
     <tu>
