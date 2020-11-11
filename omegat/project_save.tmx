@@ -5821,6 +5821,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имена&lt;x2/&gt; — столбец с именами транспонируемых столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T153443Z" creationid="Марианна" creationdate="20201111T153443Z">
+        <seg>&lt;x1/&gt;Names&lt;x2/&gt; — столбец с именами транспонируемых столбцов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Именованный диапазон&lt;x2/&gt; — по наименованию созданного в книге именованного диапазона.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T183926Z" creationid="Марианна" creationdate="20200825T183926Z">
