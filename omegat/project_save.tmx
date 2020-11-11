@@ -15991,6 +15991,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165341Z" creationid="Марианна" creationdate="20201111T165341Z">
+        <seg>Values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения переменных могут использоваться в вычислениях, например, в узлах &lt;x3/&gt;Калькулятор&lt;x4/&gt;,
 &lt;x5/&gt;Условие&lt;x6/&gt;
 и прочие.</seg>
