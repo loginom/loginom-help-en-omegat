@@ -16027,6 +16027,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151138Z" creationid="Марианна" creationdate="20201111T151138Z">
+        <seg>Names</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
@@ -17117,6 +17125,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104303Z" creationid="Марианна" creationdate="20201006T104303Z">
         <seg>Caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151144Z" creationid="Марианна" creationdate="20201111T151144Z">
+        <seg>Captions</seg>
       </tuv>
     </tu>
     <tu>
@@ -21141,6 +21157,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T104630Z" creationid="Марианна" creationdate="20201110T104506Z">
         <seg>The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующий набор данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151129Z" creationid="Марианна" creationdate="20201111T151129Z">
+        <seg>Resulting data set:</seg>
       </tuv>
     </tu>
     <tu>
