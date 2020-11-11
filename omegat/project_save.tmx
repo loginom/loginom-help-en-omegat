@@ -18089,6 +18089,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик предназначен для транспонирования таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T144444Z" creationid="Марианна" creationdate="20201111T144444Z">
+        <seg>The handler is designated for the table transportation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик преобразовывает список переменных в таблицу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T090224Z" creationid="Марианна" creationdate="20201006T090224Z">
@@ -20397,6 +20405,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T064314Z" creationid="Марианна" creationdate="20201019T063315Z">
         <seg>In this case, according to the settings of &lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; parameter, the value of the joined variable will be added:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом заголовки выбранных столбцов переносятся в значения строк, а их данные — в один столбец.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T144732Z" creationid="Марианна" creationdate="20201111T144732Z">
+        <seg>In this case, headers of the selected columns are moved to the values of rows, and their data is moved to one column.</seg>
       </tuv>
     </tu>
     <tu>
