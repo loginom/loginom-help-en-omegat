@@ -88,7 +88,7 @@ Resulting table:
 |Gregory|4|&#60;null>|
 |&#60;null>||Kazan|
 
-> **Important:** To use `FULL JOIN` when selecting *Full join* method of joining, it is required to map the key fields of the joined data sets in the wizard. If there is no mapping, the `CROSS JOIN` algorithm of joining is used. When selecting this joining method, the resulting sample volume can get higher very rapidly.
+> **Important:** To use `FULL JOIN` when selecting *Full join* method of join, it is required to map the key fields of the joined data sets in the wizard. If there is no mapping, the `CROSS JOIN` algorithm of join is used. When selecting this join method, the resulting sample volume can get higher very rapidly.
 
 Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`). To include the key fields of the joined table into the resulting data set, it is required to select the following flag: *Add joined key fields*. If the flag is selected, the resulting table specified in the previous example will be as follows:
 

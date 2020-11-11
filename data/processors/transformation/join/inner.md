@@ -1,6 +1,6 @@
 # ![Inner Join](../../../images/icons/joindata/join-inner_default.svg) Inner Join
 
-Two tables are joined in the case of the inner jin (SQL analogue: `INNER JOIN`). The order of tables is not important for this joining method.
+Two tables are joined in the case of the inner jin (SQL analogue: `INNER JOIN`). The order of tables is not important for this join method.
 The resulting data set contains all rows for which mapping of the key fields of the main and joined table has been detected.
 
 For example:
