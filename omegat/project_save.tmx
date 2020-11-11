@@ -10071,6 +10071,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>COL3</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151203Z" creationid="Марианна" creationdate="20201111T151203Z">
+        <seg>COL3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>COL4</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151210Z" creationid="Марианна" creationdate="20201111T151210Z">
+        <seg>COL4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Continuous</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083431Z" creationid="Марианна" creationdate="20201030T083431Z">
@@ -22345,6 +22361,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110524Z" creationid="Марианна" creationdate="20201111T110511Z">
         <seg>Operation type (join method) can be selected from the drop-down list, or it can be set using the &lt;x1/&gt;control variable&lt;x2/&gt; of the integer type (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Типы данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151200Z" creationid="Марианна" creationdate="20201111T151200Z">
+        <seg>Data types</seg>
       </tuv>
     </tu>
     <tu>
