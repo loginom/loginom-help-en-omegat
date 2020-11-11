@@ -19569,6 +19569,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поскольку в этот столбец могут перемещаться данные разных &lt;x1/&gt;типов&lt;x2/&gt;, то для них используется тип данных &lt;x3/&gt;Переменный&lt;x4/&gt; &lt;x5/&gt;Переменный&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T145222Z" creationid="Марианна" creationdate="20201111T145222Z">
+        <seg>As the data of different &lt;x1/&gt;types&lt;x2/&gt; can be moved to this column, the &lt;x3/&gt;Variable&lt;x4/&gt; &lt;x5/&gt;Variable&lt;x6/&gt; data type is used for them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поскольку первый порт присутствует в узле &lt;x1/&gt;JavaScript&lt;x2/&gt; по умолчанию, для доступа к его данным существует отдельный объект &lt;x3/&gt;InputTable&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144113Z" creationid="Марианна" creationdate="20201102T144113Z">
