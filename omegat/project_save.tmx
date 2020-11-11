@@ -2652,6 +2652,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;6&lt;x2/&gt; — &lt;x3/&gt;Переменный&lt;x4/&gt; &lt;x5/&gt;Переменный&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165319Z" creationid="Марианна" creationdate="20201111T165319Z">
+        <seg>&lt;x1/&gt;6&lt;x2/&gt; — &lt;x3/&gt;Variable&lt;x4/&gt; &lt;x5/&gt;Variable&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;&lt;x2/&gt; — Меньше;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172942Z" creationid="Марианна" creationdate="20201005T172942Z">
