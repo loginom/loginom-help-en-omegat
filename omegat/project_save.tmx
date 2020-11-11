@@ -2596,10 +2596,58 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; — &lt;x3/&gt;Неопределенный&lt;x4/&gt; &lt;x5/&gt;Неопределенный&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165153Z" creationid="Марианна" creationdate="20201111T165153Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; — &lt;x3/&gt;Undefined&lt;x4/&gt; &lt;x5/&gt;Undefined&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; — &lt;x3/&gt;Логический&lt;x4/&gt; &lt;x5/&gt;Логический&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165207Z" creationid="Марианна" creationdate="20201111T165207Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; — &lt;x3/&gt;Logical&lt;x4/&gt; &lt;x5/&gt;Logical&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;1C:Предприятие 8.x&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183333Z" creationid="Марианна" creationdate="20200810T183333Z">
         <seg>&lt;x1/&gt;1C:Enterprise 8.x&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt; — &lt;x3/&gt;Дата/время&lt;x4/&gt; &lt;x5/&gt;Дата/время&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165222Z" creationid="Марианна" creationdate="20201111T165222Z">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt; — &lt;x3/&gt;Date/time&lt;x4/&gt; &lt;x5/&gt;Date/time&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;3&lt;x2/&gt; — &lt;x3/&gt;Вещественный&lt;x4/&gt; &lt;x5/&gt;Вещественный&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165233Z" creationid="Марианна" creationdate="20201111T165233Z">
+        <seg>&lt;x1/&gt;3&lt;x2/&gt; — &lt;x3/&gt;Real&lt;x4/&gt; &lt;x5/&gt;Real&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;4&lt;x2/&gt; — &lt;x3/&gt;Целый&lt;x4/&gt; &lt;x5/&gt;Целый&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165250Z" creationid="Марианна" creationdate="20201111T165250Z">
+        <seg>&lt;x1/&gt;4&lt;x2/&gt; — &lt;x3/&gt;Integer&lt;x4/&gt; &lt;x5/&gt;Integer&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;5&lt;x2/&gt; — &lt;x3/&gt;Строковый&lt;x4/&gt; &lt;x5/&gt;Строковый&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165307Z" creationid="Марианна" creationdate="20201111T165307Z">
+        <seg>&lt;x1/&gt;5&lt;x2/&gt; — &lt;x3/&gt;String&lt;x4/&gt; &lt;x5/&gt;String&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22489,6 +22537,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110524Z" creationid="Марианна" creationdate="20201111T110511Z">
         <seg>Operation type (join method) can be selected from the drop-down list, or it can be set using the &lt;x1/&gt;control variable&lt;x2/&gt; of the integer type (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Типы в данном столбце обозначаются цифрами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165132Z" creationid="Марианна" creationdate="20201111T165132Z">
+        <seg>The types in this column are numerated as follows:</seg>
       </tuv>
     </tu>
     <tu>
