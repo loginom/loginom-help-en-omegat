@@ -9319,6 +9319,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Типы данных&lt;x2/&gt; — столбец, содержащий информацию о типе данных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T165009Z" creationid="Марианна" creationdate="20201111T165009Z">
+        <seg>&lt;x1/&gt;Data types&lt;x2/&gt;: the column that contains information on the data type of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Точное совпадение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191849Z" creationid="Марианна" creationdate="20200810T191849Z">
