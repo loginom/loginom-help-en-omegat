@@ -5037,6 +5037,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с транспонированным набором данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151615Z" creationid="Марианна" creationdate="20201111T151615Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with transposed data set is supplied to the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт отдающий сгруппированную таблицу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T200141Z" creationid="Марианна" creationdate="20201023T200141Z">
@@ -10083,6 +10091,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151210Z" creationid="Марианна" creationdate="20201111T151210Z">
         <seg>COL4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>COL5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151225Z" creationid="Марианна" creationdate="20201111T151225Z">
+        <seg>COL5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>COL6</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T151232Z" creationid="Марианна" creationdate="20201111T151232Z">
+        <seg>COL6</seg>
       </tuv>
     </tu>
     <tu>
