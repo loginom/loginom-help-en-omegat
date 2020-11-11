@@ -19409,6 +19409,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поля связываются при помощи перетаскивания мыши (Drag-and-drop).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T110557Z" creationid="Марианна" creationdate="20201111T110557Z">
+        <seg>The fields are linked using the Drag-and-Drop method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поля таблицы с указанием следующих параметров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165726Z" creationid="Марианна" creationdate="20200916T165726Z">
@@ -21481,6 +21489,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сопоставленные таким образом ключевые поля соединяются линиями связей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T110736Z" creationid="Марианна" creationdate="20201111T110736Z">
+        <seg>The key fields mapped by this method are linked by the connection lines.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Состав и параметры полей выходного набора задаются в мастере настройки узла и не могут быть изменены в ходе выполнения кода.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T053926Z" creationid="Марианна" creationdate="20201109T053926Z">
@@ -22127,8 +22143,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тип операции (способ слияния) можно выбрать из выпадающего списка или задать с помощью &lt;x1/&gt;управляющей переменной&lt;x2/&gt; целого типа (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T110511Z" creationid="Марианна" creationdate="20201111T110511Z">
-        <seg>Operation type (join method) can be selected from the drop-down list, or it can be set using &lt;x1/&gt;control variable&lt;x2/&gt; of the integer type (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T110524Z" creationid="Марианна" creationdate="20201111T110511Z">
+        <seg>Operation type (join method) can be selected from the drop-down list, or it can be set using the &lt;x1/&gt;control variable&lt;x2/&gt; of the integer type (refer to</seg>
       </tuv>
     </tu>
     <tu>
