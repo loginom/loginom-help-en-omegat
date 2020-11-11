@@ -9721,8 +9721,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Фильтр строк&lt;x2/&gt; Фильтр строк</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200807T115253Z" creationid="Марианна" creationdate="20200807T115253Z">
-        <seg>&lt;x1/&gt;Row Filter&lt;x2/&gt; Фильтр строк</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201111T170803Z" creationid="Марианна" creationdate="20200807T115253Z">
+        <seg>&lt;x1/&gt;Row Filter&lt;x2/&gt; Row Filter</seg>
       </tuv>
     </tu>
     <tu>
