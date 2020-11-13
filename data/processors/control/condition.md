@@ -60,8 +60,8 @@ It enables to provide the presence of the required ports. It is possible to set 
 
 > **Note:** the condition is checked based on the atomic values, for example, "A > 1". A variable can represent such value. If a table is supplied to the input, the field will denote not only one value but the whole column. In this case, it is important to set the column to one value using the aggregation methods.
 >
-> **IMPORTANT**: when writing complex conditions, **AND** operator will be prioritised.
-> For example, complex condition of the following type: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed in the following way: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)"
+> **IMPORTANT**: when writing complex criteria, **AND** operator will be prioritised.
+> For example, complex criterion of the following type: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed in the following way: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)"
 
 **Debug mode** ![Debug mode](../../images/icons/checkbox-states/checked_default.svg) will be used to check data correctness at the output ports regardless of conditions. The branches specified in *Run condition branch* list will be active. It includes the following components:
 

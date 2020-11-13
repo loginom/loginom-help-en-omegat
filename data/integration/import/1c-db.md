@@ -22,7 +22,7 @@ There are the following parameters in the wizard:
 * **Connection** enables to display a string of connection to data source. It cannot be edited.
 * **Request text** is a field for request to base entry. It determines structure and content of the imported table.  Both Cyrillic 1C and SQL syntax are supported.
 
-[Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first lines of the resulting table.
+[Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first rows of the resulting table.
 
 ## Use of Parameters in Requests
 
