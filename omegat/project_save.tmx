@@ -22607,8 +22607,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Таким образом, условие фильтра может задаваться динамически в ходе выполнения сценария.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T065847Z" creationid="Марианна" creationdate="20201113T065847Z">
-        <seg>Thus, the filter condition can be dynamically set during the workflow execution.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T072713Z" creationid="Марианна" creationdate="20201113T065847Z">
+        <seg>Thus, the filtering criterion can be dynamically set during the workflow execution.</seg>
       </tuv>
     </tu>
     <tu>
