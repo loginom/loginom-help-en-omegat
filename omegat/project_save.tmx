@@ -6965,6 +6965,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не соответствуют условию&lt;x2/&gt; &lt;x3/&gt;Не соответствуют условию&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073412Z" creationid="Марианна" creationdate="20201113T073412Z">
+        <seg>&lt;x1/&gt;Do not meet criterion&lt;x2/&gt; &lt;x3/&gt;Do not meet criterion&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нейросеть (классификация)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055836Z" creationid="Марианна" creationdate="20200812T055836Z">
@@ -8939,6 +8947,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T114345Z" creationid="Марианна" creationdate="20200716T122116Z">
         <seg>&lt;x1/&gt;New Draft&lt;x2/&gt; — creation of the new package without preliminary saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Соответствует условию&lt;x2/&gt; &lt;x3/&gt;Соответствуют условию&lt;x4/&gt; (таблица данных);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073348Z" creationid="Марианна" creationdate="20201113T073348Z">
+        <seg>&lt;x1/&gt;Meet criterion&lt;x2/&gt; &lt;x3/&gt;Meet criterion&lt;x4/&gt; (data table);</seg>
       </tuv>
     </tu>
     <tu>
@@ -13123,8 +13139,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В качестве параметра условий могут выступать &lt;x1/&gt;управляющие переменные&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T065538Z" creationid="Марианна" creationdate="20201113T065538Z">
-        <seg>The &lt;x1/&gt;control variables&lt;x2/&gt; can be used as the condition parameter.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073305Z" creationid="Марианна" creationdate="20201113T065538Z">
+        <seg>The &lt;x1/&gt;control variables&lt;x2/&gt; can be used as the criteria parameter.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18211,8 +18227,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T072943Z" creationid="Марианна" creationdate="20201113T065245Z">
-        <seg>Several conditions are joined into the complex criterion using the logical AND/OR operators.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073214Z" creationid="Марианна" creationdate="20201113T065245Z">
+        <seg>Several criteria are joined into the complex criterion using the logical AND/OR operators.</seg>
       </tuv>
     </tu>
     <tu>
