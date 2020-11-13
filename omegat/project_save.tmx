@@ -13041,6 +13041,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В верхней части мастера настройки находится &lt;x1/&gt;Состояния входа&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T112917Z" creationid="Марианна" creationdate="20201113T112917Z">
+        <seg>&lt;x1/&gt;Login status&lt;x2/&gt; is located in the upper part of the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113452Z" creationid="Марианна" creationdate="20201014T060340Z">
