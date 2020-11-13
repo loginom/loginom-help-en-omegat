@@ -14631,6 +14631,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Далее выбирается имя поля, &lt;x1/&gt;отношение сравнения&lt;x2/&gt; (&lt;x3/&gt;Условие&lt;x4/&gt;) и значение сравнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113405Z" creationid="Марианна" creationdate="20201113T113405Z">
+        <seg>Then it is required to select the field name, &lt;x1/&gt;comparison ratio&lt;x2/&gt; (&lt;x3/&gt;Condition&lt;x4/&gt;) and comparison value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее отметить галочками нужные методы агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203340Z" creationid="Марианна" creationdate="20201023T203340Z">
@@ -18297,6 +18305,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новое условие добавляется нажатием на кнопку +.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113204Z" creationid="Марианна" creationdate="20201113T113204Z">
+        <seg>The new criterion is added by pressing + button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новые значения также вычисляются регулярными выражениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161010Z" creationid="Марианна" creationdate="20201006T161010Z">
@@ -19677,6 +19693,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052800Z" creationid="Марианна" creationdate="20200819T131939Z">
         <seg>Align center</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Под строкой состояния располагается область настройки условий фильтрации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113115Z" creationid="Марианна" creationdate="20201113T113115Z">
+        <seg>Area of the filtering criteria settings is located under the login status string.</seg>
       </tuv>
     </tu>
     <tu>
