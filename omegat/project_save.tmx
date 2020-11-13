@@ -14193,8 +14193,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Входной набор данных делится на два выходных набора (таблицы данных): записи, удовлетворяющие условию фильтрации, и записи, не удовлетворяющие условию.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T072908Z" creationid="Марианна" creationdate="20201113T071427Z">
-        <seg>The input data set is divided into two output data sets (data tables): the records that match the filtering criterion and the records that do not match the criterion.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073148Z" creationid="Марианна" creationdate="20201113T071427Z">
+        <seg>The input data set is divided into two output data sets (data tables): the records that meet the filtering criterion and the records that do not meet the criterion.</seg>
       </tuv>
     </tu>
     <tu>
