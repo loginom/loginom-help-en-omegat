@@ -15855,6 +15855,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если среди них не найдено записей, удовлетворяющих условию фильтрации, выводится предупреждение &lt;x3/&gt;Достигнуто максимальное количество строк сканирования: 1000&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114259Z" creationid="Марианна" creationdate="20201113T114259Z">
+        <seg>If no records that meet the filtering criterion are detected among them, the following warning is shown: &lt;x3/&gt;Maximum scanned row count reached: 1000&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
