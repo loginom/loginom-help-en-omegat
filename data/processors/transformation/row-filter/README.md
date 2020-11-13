@@ -32,8 +32,8 @@ The input data set is divided into two output data sets (data tables): the recor
 
 *Login status* is located in the upper part of the wizard.
 
-Area of the filtering criteria settings is located under the login status string. The new criterion is added by pressing + button. Then it is required to select the field name, [comparison ratio](./filter-conditions.md) (*Condition*) and comparison value. When creating several criteria, it is required to set the logical AND/OR operators between them. AND operator is set by default. To change the operator, it is required to left-click it.
+Area of the filtering criteria settings is located under the login status row. The new criterion is added by pressing + button. Then it is required to select the field name, [comparison ratio](./filter-conditions.md) (*Condition*) and comparison value. When creating several criteria, it is required to set the logical AND/OR operators between them. AND operator is set by default. To change the operator, it is required to left-click it.
 
 It is possible to preview the filtering result in the handler (the first 25 rows of the resulting table are shown). To start it, it is required to press *Apply filter* button.
 
-> **Note:** To show data in the preview window, only the first thousand rows of the source data set is processed. If no records that meet the filtering criterion are detected among them, the following warning is shown: `Maximum scanned row count reached: 1000`.
+> **Note:** To show data in the preview window, only the first thousand rows of the source data set are processed. If no records that meet the filtering criterion are detected among them, the following warning is shown: `Maximum scanned row count reached: 1000`.
