@@ -20777,6 +20777,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При создании нескольких условий между ними необходимо задать логические операторы И/ИЛИ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113515Z" creationid="Марианна" creationdate="20201113T113515Z">
+        <seg>When creating several criteria, it is required to set the logical AND/OR operators between them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При создании переменной следует задать:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T085807Z" creationid="Марианна" creationdate="20201009T085807Z">
