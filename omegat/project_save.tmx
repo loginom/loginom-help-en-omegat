@@ -13345,6 +13345,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике имеется возможность предпросмотра результата фильтрации (выводятся первые 25 строк результирующей таблицы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113900Z" creationid="Марианна" creationdate="20201113T113900Z">
+        <seg>It is possible to preview the filtering result in the handler (the first 25 lines of the resulting table are shown).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обработчике имеется два подхода к решению этой проблемы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T062924Z" creationid="Марианна" creationdate="20201023T062924Z">
@@ -19681,6 +19689,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию ставится оператор И.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113530Z" creationid="Марианна" creationdate="20201113T113530Z">
+        <seg>AND operator is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125556Z" creationid="Марианна" creationdate="20200819T125556Z">
@@ -23241,6 +23257,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203210Z" creationid="Марианна" creationdate="20201023T203210Z">
         <seg>To open it, it is required to double click on the field in the &lt;x1/&gt;Parameters&lt;x2/&gt; list, or to call this window from the context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы изменить оператор, нужно кликнуть по нему левой кнопкой мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113733Z" creationid="Марианна" creationdate="20201113T113553Z">
+        <seg>To change the operator, it is required to left-click it.</seg>
       </tuv>
     </tu>
     <tu>
