@@ -8085,6 +8085,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для вывода данных в окно предпросмотра обрабатывается только первая тысяча строк исходного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114144Z" creationid="Марианна" creationdate="20201113T114144Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To show data in the preview window, only the first thousand lines of the source data set is processed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Кнопка  &lt;x3/&gt;Показать/скрыть инспектор свойств&lt;x4/&gt; всегда находится в крайней правой позиции на панели инструментов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T091956Z" creationid="Марианна" creationdate="20200818T100839Z">
@@ -23257,6 +23265,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203210Z" creationid="Марианна" creationdate="20201023T203210Z">
         <seg>To open it, it is required to double click on the field in the &lt;x1/&gt;Parameters&lt;x2/&gt; list, or to call this window from the context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы запустить его, необходимо нажать кнопку &lt;x1/&gt;Применить фильтр&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T113944Z" creationid="Марианна" creationdate="20201113T113944Z">
+        <seg>To start it, it is required to press &lt;x1/&gt;Apply filter&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
