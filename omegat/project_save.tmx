@@ -8087,8 +8087,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для вывода данных в окно предпросмотра обрабатывается только первая тысяча строк исходного набора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T114311Z" creationid="Марианна" creationdate="20201113T114144Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To show data in the preview window, only the first thousand rows of the source data set is processed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114709Z" creationid="Марианна" creationdate="20201113T114144Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To show data in the preview window, only the first thousand rows of the source data set are processed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19731,8 +19731,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Под строкой состояния располагается область настройки условий фильтрации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T113115Z" creationid="Марианна" creationdate="20201113T113115Z">
-        <seg>Area of the filtering criteria settings is located under the login status string.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114656Z" creationid="Марианна" creationdate="20201113T113115Z">
+        <seg>Area of the filtering criteria settings is located under the login status row.</seg>
       </tuv>
     </tu>
     <tu>
