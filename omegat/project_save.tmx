@@ -8087,8 +8087,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для вывода данных в окно предпросмотра обрабатывается только первая тысяча строк исходного набора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T114144Z" creationid="Марианна" creationdate="20201113T114144Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To show data in the preview window, only the first thousand lines of the source data set is processed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114311Z" creationid="Марианна" creationdate="20201113T114144Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To show data in the preview window, only the first thousand rows of the source data set is processed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13355,8 +13355,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В обработчике имеется возможность предпросмотра результата фильтрации (выводятся первые 25 строк результирующей таблицы).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T113900Z" creationid="Марианна" creationdate="20201113T113900Z">
-        <seg>It is possible to preview the filtering result in the handler (the first 25 lines of the resulting table are shown).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114328Z" creationid="Марианна" creationdate="20201113T113900Z">
+        <seg>It is possible to preview the filtering result in the handler (the first 25 rows of the resulting table are shown).</seg>
       </tuv>
     </tu>
     <tu>
@@ -16813,8 +16813,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Кнопка &lt;x1/&gt;Предпросмотр…&lt;x2/&gt; позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201104T103434Z" creationid="Марианна" creationdate="20200823T122050Z">
-        <seg>&lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first lines of the resulting table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T114352Z" creationid="Марианна" creationdate="20200823T122050Z">
+        <seg>&lt;x1/&gt;Preview…&lt;x2/&gt; button enables to access request accuracy. It displays up to 100 first rows of the resulting table.</seg>
       </tuv>
     </tu>
     <tu>
