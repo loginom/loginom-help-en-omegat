@@ -348,6 +348,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(Город = &lt;x1/&gt;&lt;VAR1&gt;&lt;x2/&gt;) &lt;x3/&gt;И&lt;x4/&gt; (Имя = &lt;x5/&gt;&lt;VAR2&gt;&lt;x6/&gt;) &lt;x7/&gt;И&lt;x8/&gt; (Возраст &gt;= &lt;x9/&gt;&lt;VAR3&gt;&lt;x10/&gt;) &lt;x11/&gt;И&lt;x12/&gt; (Пол = &lt;x13/&gt;&lt;VAR4&gt;&lt;x14/&gt;) &lt;x15/&gt;ИЛИ&lt;x16/&gt; (Город = &lt;x17/&gt;&lt;VAR5&gt;&lt;x18/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065654Z" creationid="Марианна" creationdate="20201113T065654Z">
+        <seg>(City = &lt;x1/&gt;&lt;VAR1&gt;&lt;x2/&gt;) &lt;x3/&gt;AND&lt;x4/&gt; (Name = &lt;x5/&gt;&lt;VAR2&gt;&lt;x6/&gt;) &lt;x7/&gt;AND&lt;x8/&gt; (Age&gt;= &lt;x9/&gt;&lt;VAR3&gt;&lt;x10/&gt;) &lt;x11/&gt;AND&lt;x12/&gt; (Sex = &lt;x13/&gt;&lt;VAR4&gt;&lt;x14/&gt;) &lt;x15/&gt;OR&lt;x16/&gt; (City = &lt;x17/&gt;&lt;VAR5&gt;&lt;x18/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>(Город = &lt;x1/&gt;Москва&lt;x2/&gt;) &lt;x3/&gt;И&lt;x4/&gt; (Имя = &lt;x5/&gt;Саша&lt;x6/&gt;) &lt;x7/&gt;И&lt;x8/&gt; (Возраст &gt;= &lt;x9/&gt;30&lt;x10/&gt;) &lt;x11/&gt;И&lt;x12/&gt; (Пол = &lt;x13/&gt;мужской&lt;x14/&gt;) &lt;x15/&gt;ИЛИ&lt;x16/&gt; (Город = &lt;x17/&gt;Тула&lt;x18/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T065435Z" creationid="Марианна" creationdate="20201113T065435Z">
@@ -13105,6 +13113,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве параметра условий могут выступать &lt;x1/&gt;управляющие переменные&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065538Z" creationid="Марианна" creationdate="20201113T065538Z">
+        <seg>The &lt;x1/&gt;control variables&lt;x2/&gt; can be used as the condition parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве первой главной компоненты избирают направление, вдоль которого массив данных имеет наибольший разброс, а выбор каждой последующей происходит так, чтобы разброс данных вдоль нее был максимальным, и, чтобы она была ортогональна другим главным компонентам, выбранным прежде.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T211047Z" creationid="Марианна" creationdate="20201012T211047Z">
@@ -13749,6 +13765,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093856Z" creationid="Марианна" creationdate="20200820T105750Z">
         <seg>In this case, &lt;x5/&gt;&lt;x6/&gt; button with a dropdown list appears on the toolbar. It will contain all other buttons for which there is no enough place on the toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом случае приведенный выше пример будет выглядеть следующим образом:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065610Z" creationid="Марианна" creationdate="20201113T065610Z">
+        <seg>In this case, the example provided above will be as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14427,6 +14451,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200923T201547Z" creationid="Марианна" creationdate="20200923T201547Z">
         <seg>The active branch is detected as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Где: &lt;x1/&gt;VAR1&lt;x2/&gt; ... &lt;x3/&gt;VAR5&lt;x4/&gt; — имена управляющих переменных, принятые узлом в качестве входных параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065729Z" creationid="Марианна" creationdate="20201113T065729Z">
+        <seg>Where: &lt;x1/&gt;VAR1&lt;x2/&gt; ... &lt;x3/&gt;VAR5&lt;x4/&gt; are the names of the control variables accepted by the node as the input parameters.</seg>
       </tuv>
     </tu>
     <tu>
