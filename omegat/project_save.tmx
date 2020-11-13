@@ -348,6 +348,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(Город = &lt;x1/&gt;Москва&lt;x2/&gt;) &lt;x3/&gt;И&lt;x4/&gt; (Имя = &lt;x5/&gt;Саша&lt;x6/&gt;) &lt;x7/&gt;И&lt;x8/&gt; (Возраст &gt;= &lt;x9/&gt;30&lt;x10/&gt;) &lt;x11/&gt;И&lt;x12/&gt; (Пол = &lt;x13/&gt;мужской&lt;x14/&gt;) &lt;x15/&gt;ИЛИ&lt;x16/&gt; (Город = &lt;x17/&gt;Тула&lt;x18/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065435Z" creationid="Марианна" creationdate="20201113T065435Z">
+        <seg>(City = &lt;x1/&gt;Moscow&lt;x2/&gt;) &lt;x3/&gt;AND&lt;x4/&gt; (Name = &lt;x5/&gt;Sasha&lt;x6/&gt;) &lt;x7/&gt;AND&lt;x8/&gt; (Age &gt;= &lt;x9/&gt;30&lt;x10/&gt;) &lt;x11/&gt;AND&lt;x12/&gt; (Sex = &lt;x13/&gt;male&lt;x14/&gt;) &lt;x15/&gt;OR&lt;x16/&gt; (City = &lt;x17/&gt;Tula&lt;x18/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>(точка).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064955Z" creationid="Марианна" creationdate="20201023T064955Z">
@@ -18139,8 +18147,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T065245Z" creationid="Марианна" creationdate="20201113T065245Z">
-        <seg>Several conditions are joined into complex condition using the logical AND/OR operators.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065301Z" creationid="Марианна" creationdate="20201113T065245Z">
+        <seg>Several conditions are joined into the complex condition using the logical AND/OR operators.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20877,6 +20885,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174730Z" creationid="Марианна" creationdate="20201005T174730Z">
         <seg>The comment example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример сложного условия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065321Z" creationid="Марианна" creationdate="20201113T065321Z">
+        <seg>The complex condition example:</seg>
       </tuv>
     </tu>
     <tu>
