@@ -4406,8 +4406,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ВАЖНО&lt;x2/&gt;: при написании сложных условий приоритет будет у оператора &lt;x3/&gt;И&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T084106Z" creationid="Марианна" creationdate="20200924T084106Z">
-        <seg>&lt;x1/&gt;IMPORTANT&lt;x2/&gt;: when writing complex conditions, &lt;x3/&gt;AND&lt;x4/&gt; operator will be prioritised.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T072918Z" creationid="Марианна" creationdate="20200924T084106Z">
+        <seg>&lt;x1/&gt;IMPORTANT&lt;x2/&gt;: when writing complex criteria, &lt;x3/&gt;AND&lt;x4/&gt; operator will be prioritised.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13811,8 +13811,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>ВАЖНО: при написании сложных условий приоритет будет у оператора &lt;x1/&gt;И&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T065931Z" creationid="Марианна" creationdate="20201113T065931Z">
-        <seg>IMPORTANT: when writing complex conditions, &lt;x1/&gt;AND&lt;x2/&gt; operator will be prioritised.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073002Z" creationid="Марианна" creationdate="20201113T065931Z">
+        <seg>IMPORTANT: when writing complex criteria, &lt;x1/&gt;AND&lt;x2/&gt; operator will be prioritised.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17907,16 +17907,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Например, сложное условие вида: "A &lt;x3/&gt;ИЛИ&lt;x4/&gt; B &lt;x5/&gt;И&lt;x6/&gt; C &lt;x7/&gt;ИЛИ&lt;x8/&gt; D &lt;x9/&gt;И&lt;x10/&gt; E &lt;x11/&gt;И&lt;x12/&gt; F" удет выполняться следующим образом: "A &lt;x13/&gt;ИЛИ&lt;x14/&gt; (B &lt;x15/&gt;И&lt;x16/&gt; C) &lt;x17/&gt;ИЛИ&lt;x18/&gt; (D &lt;x19/&gt;И&lt;x20/&gt; E &lt;x21/&gt;И&lt;x22/&gt; F)"</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T070101Z" creationid="Марианна" creationdate="20201113T070101Z">
-        <seg>For example, the following complex condition: "A &lt;x3/&gt;OR&lt;x4/&gt; B &lt;x5/&gt;AND&lt;x6/&gt; C &lt;x7/&gt;OR&lt;x8/&gt; D &lt;x9/&gt;AND&lt;x10/&gt; E &lt;x11/&gt;AND&lt;x12/&gt; F" will be executed as follows: "A &lt;x13/&gt;OR&lt;x14/&gt; (B &lt;x15/&gt;AND&lt;x16/&gt; C) &lt;x17/&gt;OR&lt;x18/&gt; (D &lt;x19/&gt;AND&lt;x20/&gt; E &lt;x21/&gt;AND&lt;x22/&gt; F)"</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073026Z" creationid="Марианна" creationdate="20201113T070101Z">
+        <seg>For example, the following complex criterion: "A &lt;x3/&gt;OR&lt;x4/&gt; B &lt;x5/&gt;AND&lt;x6/&gt; C &lt;x7/&gt;OR&lt;x8/&gt; D &lt;x9/&gt;AND&lt;x10/&gt; E &lt;x11/&gt;AND&lt;x12/&gt; F" will be executed as follows: "A &lt;x13/&gt;OR&lt;x14/&gt; (B &lt;x15/&gt;AND&lt;x16/&gt; C) &lt;x17/&gt;OR&lt;x18/&gt; (D &lt;x19/&gt;AND&lt;x20/&gt; E &lt;x21/&gt;AND&lt;x22/&gt; F)"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Например, сложное условие вида: "A &lt;x5/&gt;ИЛИ&lt;x6/&gt; B &lt;x7/&gt;И&lt;x8/&gt; C &lt;x9/&gt;ИЛИ&lt;x10/&gt; D &lt;x11/&gt;И&lt;x12/&gt; E &lt;x13/&gt;И&lt;x14/&gt; F" удет выполняться следующим образом: "A &lt;x15/&gt;ИЛИ&lt;x16/&gt; (B &lt;x17/&gt;И&lt;x18/&gt; C) &lt;x19/&gt;ИЛИ&lt;x20/&gt; (D &lt;x21/&gt;И&lt;x22/&gt; E &lt;x23/&gt;И&lt;x24/&gt; F)"</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T084236Z" creationid="Марианна" creationdate="20200924T084236Z">
-        <seg>For example, complex condition of the following type: "A &lt;x5/&gt;OR&lt;x6/&gt; B &lt;x7/&gt;AND&lt;x8/&gt; C &lt;x9/&gt;OR&lt;x10/&gt; D &lt;x11/&gt;AND&lt;x12/&gt; E &lt;x13/&gt;AND&lt;x14/&gt; F" will be executed in the following way: "A &lt;x15/&gt;OR&lt;x16/&gt; (B &lt;x17/&gt;AND&lt;x18/&gt; C) &lt;x19/&gt;OR&lt;x20/&gt; (D &lt;x21/&gt;AND&lt;x22/&gt; E &lt;x23/&gt;AND&lt;x24/&gt; F)"</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T072933Z" creationid="Марианна" creationdate="20200924T084236Z">
+        <seg>For example, complex criterion of the following type: "A &lt;x5/&gt;OR&lt;x6/&gt; B &lt;x7/&gt;AND&lt;x8/&gt; C &lt;x9/&gt;OR&lt;x10/&gt; D &lt;x11/&gt;AND&lt;x12/&gt; E &lt;x13/&gt;AND&lt;x14/&gt; F" will be executed in the following way: "A &lt;x15/&gt;OR&lt;x16/&gt; (B &lt;x17/&gt;AND&lt;x18/&gt; C) &lt;x19/&gt;OR&lt;x20/&gt; (D &lt;x21/&gt;AND&lt;x22/&gt; E &lt;x23/&gt;AND&lt;x24/&gt; F)"</seg>
       </tuv>
     </tu>
     <tu>
@@ -18211,8 +18211,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T065301Z" creationid="Марианна" creationdate="20201113T065245Z">
-        <seg>Several conditions are joined into the complex condition using the logical AND/OR operators.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T072943Z" creationid="Марианна" creationdate="20201113T065245Z">
+        <seg>Several conditions are joined into the complex criterion using the logical AND/OR operators.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18387,8 +18387,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Обработчик &lt;x1/&gt;Фильтр строк&lt;x2/&gt; позволяет выделить записи, которые удовлетворяют одному или нескольким условиям.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T064933Z" creationid="Марианна" creationdate="20201113T064933Z">
-        <seg>The &lt;x1/&gt;Row filter&lt;x2/&gt; handler enables to select the records that meet one or several conditions.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T073118Z" creationid="Марианна" creationdate="20201113T064933Z">
+        <seg>The &lt;x1/&gt;Row filter&lt;x2/&gt; handler enables to select the records that meet one or several criteria.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20955,8 +20955,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Пример сложного условия:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T065321Z" creationid="Марианна" creationdate="20201113T065321Z">
-        <seg>The complex condition example:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T072952Z" creationid="Марианна" creationdate="20201113T065321Z">
+        <seg>The complex criterion example:</seg>
       </tuv>
     </tu>
     <tu>
