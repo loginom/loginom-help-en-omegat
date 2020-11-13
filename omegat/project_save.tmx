@@ -18137,6 +18137,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065245Z" creationid="Марианна" creationdate="20201113T065245Z">
+        <seg>Several conditions are joined into complex condition using the logical AND/OR operators.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нет строки заголовков - столбцы будут экспортированы без заголовков.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T162712Z" creationid="Марианна" creationdate="20200917T162712Z">
