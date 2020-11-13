@@ -13801,6 +13801,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ВАЖНО: при написании сложных условий приоритет будет у оператора &lt;x1/&gt;И&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065931Z" creationid="Марианна" creationdate="20201113T065931Z">
+        <seg>IMPORTANT: when writing complex conditions, &lt;x1/&gt;AND&lt;x2/&gt; operator will be prioritised.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>ВЫБРАТЬ
 КурсыВалют.Валюта.Код,
 КурсыВалют.Валюта.Наименование,
@@ -17877,6 +17885,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204010Z" creationid="Марианна" creationdate="20200921T203923Z">
         <seg>For example, if access to the data source that does not support parallel requests is required for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, сложное условие вида: "A &lt;x3/&gt;ИЛИ&lt;x4/&gt; B &lt;x5/&gt;И&lt;x6/&gt; C &lt;x7/&gt;ИЛИ&lt;x8/&gt; D &lt;x9/&gt;И&lt;x10/&gt; E &lt;x11/&gt;И&lt;x12/&gt; F" удет выполняться следующим образом: "A &lt;x13/&gt;ИЛИ&lt;x14/&gt; (B &lt;x15/&gt;И&lt;x16/&gt; C) &lt;x17/&gt;ИЛИ&lt;x18/&gt; (D &lt;x19/&gt;И&lt;x20/&gt; E &lt;x21/&gt;И&lt;x22/&gt; F)"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T070101Z" creationid="Марианна" creationdate="20201113T070101Z">
+        <seg>For example, the following complex condition: "A &lt;x3/&gt;OR&lt;x4/&gt; B &lt;x5/&gt;AND&lt;x6/&gt; C &lt;x7/&gt;OR&lt;x8/&gt; D &lt;x9/&gt;AND&lt;x10/&gt; E &lt;x11/&gt;AND&lt;x12/&gt; F" will be executed as follows: "A &lt;x13/&gt;OR&lt;x14/&gt; (B &lt;x15/&gt;AND&lt;x16/&gt; C) &lt;x17/&gt;OR&lt;x18/&gt; (D &lt;x19/&gt;AND&lt;x20/&gt; E &lt;x21/&gt;AND&lt;x22/&gt; F)"</seg>
       </tuv>
     </tu>
     <tu>
@@ -22569,6 +22585,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091041Z" creationid="Марианна" creationdate="20200715T091041Z">
         <seg>Thus, the platform can be used both for creation of indepenent analytical solutions, and for development of modules integrated with external systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, условие фильтра может задаваться динамически в ходе выполнения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201113T065847Z" creationid="Марианна" creationdate="20201113T065847Z">
+        <seg>Thus, the filter condition can be dynamically set during the workflow execution.</seg>
       </tuv>
     </tu>
     <tu>
