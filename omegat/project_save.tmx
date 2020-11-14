@@ -22757,6 +22757,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Термин скользящее окно отражает сущность обработки — выделяется некоторый непрерывный отрезок данных, называемый окном, а окно, в свою очередь, перемещается, "скользит" по всему исходному набору данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T075658Z" creationid="Марианна" creationdate="20201114T075658Z">
+        <seg>The "lag" term reflects the processing nature. A continuous data section is selected. It is called a window that is "sliding", in its turn, along the whole source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тип данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083052Z" creationid="Марианна" creationdate="20201030T083052Z">
