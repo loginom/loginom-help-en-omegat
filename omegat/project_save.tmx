@@ -1012,6 +1012,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>01.02.2012</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083839Z" creationid="Марианна" creationdate="20201114T083839Z">
+        <seg>01.02.2012</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>01.09.2011</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T083804Z" creationid="Марианна" creationdate="20201114T083804Z">
@@ -1340,6 +1348,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>161</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083842Z" creationid="Марианна" creationdate="20201114T083842Z">
+        <seg>161</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>17</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165204Z" creationid="Марианна" creationdate="20201010T165204Z">
@@ -1456,6 +1472,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164950Z" creationid="Марианна" creationdate="20201010T164950Z">
         <seg>22.08.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>229</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083836Z" creationid="Марианна" creationdate="20201114T083836Z">
+        <seg>229</seg>
       </tuv>
     </tu>
     <tu>
@@ -15275,6 +15299,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102731Z" creationid="Марианна" creationdate="20200711T104436Z">
         <seg>Separate handler &lt;x1/&gt;Import from database&lt;x2/&gt; is used to receive data from the database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для поля &lt;x1/&gt;Продажи, шт.&lt;x2/&gt; настроим параметр &lt;x3/&gt;Глубина истории&lt;x4/&gt; равным двум, а параметр &lt;x5/&gt;Горизонт прогноза&lt;x6/&gt; — равным единице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T091408Z" creationid="Марианна" creationdate="20201114T091408Z">
+        <seg>For &lt;x1/&gt;Sales, pieces&lt;x2/&gt; field, it is required to set  &lt;x3/&gt;Depth period&lt;x4/&gt; parameter equal to two, and &lt;x5/&gt;Forecast horizon&lt;x6/&gt; parameter equal to one.</seg>
       </tuv>
     </tu>
     <tu>
