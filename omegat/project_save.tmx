@@ -7381,6 +7381,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Оставлять неполные записи&lt;x2/&gt; — сохраняет все добавленные узлом записи;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T093008Z" creationid="Марианна" creationdate="20201114T093008Z">
+        <seg>&lt;x1/&gt;Leave incomplete records&lt;x2/&gt; enables to save all records added by the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отключено&lt;x2/&gt; — кэширование не будет производится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072218Z" creationid="Марианна" creationdate="20201016T072218Z">
@@ -9731,6 +9739,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083831Z" creationid="Марианна" creationdate="20201006T083831Z">
         <seg>&lt;x1/&gt;Delete&lt;x2/&gt; enables to move the current item to the &lt;x3/&gt;Available fields&lt;x4/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалять добавленные неполные записи&lt;x2/&gt; — удаляет записи добавленные узлом, не трогая записи из изначального набора;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T093209Z" creationid="Марианна" creationdate="20201114T093209Z">
+        <seg>&lt;x1/&gt;Delete added incomplete records&lt;x2/&gt; enables to delete the records added by the node not involving the records from the source data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19269,6 +19285,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T071542Z" creationid="Марианна" creationdate="20201019T071542Z">
         <seg>&lt;x1/&gt;Missing Terminal Rows Filling&lt;x2/&gt; parameter is set to &lt;x3/&gt;Leave empty&lt;x4/&gt; value, &lt;x5/&gt;Row count complies&lt;x6/&gt; parameter — to &lt;x7/&gt;With maximum data set&lt;x8/&gt; value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр &lt;x1/&gt;Способ обработки неполных записей&lt;x2/&gt; предоставляет следующие методы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
+        <seg>&lt;x1/&gt;Incomplete records processing method&lt;x2/&gt; parameter provides the following methods:</seg>
       </tuv>
     </tu>
     <tu>
