@@ -1004,10 +1004,50 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>01.01.2012</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083832Z" creationid="Марианна" creationdate="20201114T083832Z">
+        <seg>01.01.2012</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>01.09.2011</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083804Z" creationid="Марианна" creationdate="20201114T083804Z">
+        <seg>01.09.2011</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>01.09.2017</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165159Z" creationid="Марианна" creationdate="20201010T165159Z">
         <seg>01.09.2017</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>01.10.2011</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083811Z" creationid="Марианна" creationdate="20201114T083811Z">
+        <seg>01.10.2011</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>01.11.2011</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083818Z" creationid="Марианна" creationdate="20201114T083818Z">
+        <seg>01.11.2011</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>01.12.2011</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083825Z" creationid="Марианна" creationdate="20201114T083825Z">
+        <seg>01.12.2011</seg>
       </tuv>
     </tu>
     <tu>
@@ -1220,6 +1260,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>120</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083822Z" creationid="Марианна" creationdate="20201114T083822Z">
+        <seg>120</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1259</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212154Z" creationid="Марианна" creationdate="20201012T212154Z">
@@ -1328,6 +1376,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165053Z" creationid="Марианна" creationdate="20201010T165053Z">
         <seg>19</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>192</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083828Z" creationid="Марианна" creationdate="20201114T083828Z">
+        <seg>192</seg>
       </tuv>
     </tu>
     <tu>
@@ -1652,6 +1708,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>45</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083808Z" creationid="Марианна" creationdate="20201114T083808Z">
+        <seg>45</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>472,9</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212205Z" creationid="Марианна" creationdate="20201012T212205Z">
@@ -1784,6 +1848,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145819Z" creationid="Марианна" creationdate="20201111T145819Z">
         <seg>81</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>82</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T083815Z" creationid="Марианна" creationdate="20201114T083815Z">
+        <seg>82</seg>
       </tuv>
     </tu>
     <tu>
