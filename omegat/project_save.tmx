@@ -18441,6 +18441,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработка данных методом &lt;x1/&gt;скользящего окна&lt;x2/&gt; применяется при предварительной обработке данных в задачах прогнозирования, когда на вход анализатора (например, нейронной сети) требуется подавать значения нескольких смежных отсчетов исходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T075010Z" creationid="Марианна" creationdate="20201114T075010Z">
+        <seg>The &lt;x1/&gt;windowing method&lt;x2/&gt; of data processing is used for data preprocessing during forecasting when it is required to supply the values of several related lags of the source data set to the analyzer input (for example, neural network).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка ошибок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T062527Z" creationid="Марианна" creationdate="20201109T062527Z">
