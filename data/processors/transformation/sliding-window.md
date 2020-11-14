@@ -1,21 +1,21 @@
-# ![Скользящее окно](../../images/icons/components/sliding-window_default.svg) Скользящее окно
+# ![Lag](../../images/icons/components/sliding-window_default.svg) Lag
 
-Обработка данных методом [скользящего окна](https://wiki.loginom.ru/articles/windowing-method.html) применяется при предварительной обработке данных в задачах прогнозирования, когда на вход анализатора (например, нейронной сети) требуется подавать значения нескольких смежных отсчетов исходного набора данных. Термин скользящее окно отражает сущность обработки — выделяется некоторый непрерывный отрезок данных, называемый окном, а окно, в свою очередь, перемещается, "скользит" по всему исходному набору данных.
+The [windowing method](https://wiki.loginom.ru/articles/windowing-method.html) of data processing is used for data preprocessing during forecasting when it is required to supply the values of several related lags of the source data set to the analyzer input (for example, neural network). The "lag" term reflects the processing nature. A continuous data section is selected. It is called a lag that is "sliding", in its turn, along the whole source data set.
 
-В результате будет получен набор данных, где в одном поле будет содержаться значение, соответствующее текущему отсчету (оно будет иметь то же имя, что и в исходном наборе), а слева и справа от него будут расположены поля со значениями, смещенными от текущего отсчета в прошлое и в будущее соответственно.
+In the result, the data set will be obtained. Its field will contain the value that complies with the current lag (it will have the same name as in the source data set). The fields with the values moved to the past and to the future from the current lag correspondingly will be located to the left and to the right of it.
 
-Следовательно, обработка методом скользящего окна имеет два параметра:
+Thus, the processing based on the windowing method has two parameters:
 
-* **Глубина истории** — количество отсчетов в "прошлое";
-* **Горизонт прогноза** — количество отсчетов в "будущее".
+* **Depth period** is a lag count to the "past".
+* **Forecast horizon** is a lag count to the "future".
 
-Необходимо отметить, что для граничных положений окна (конец и начало исходной выборки) будут формироваться неполные записи: в начале исходной выборки будут формироваться пустые значения для "прошлых" отсчетов, а в конце — для "будущих". В зависимости от конкретной ситуации пользователь может включать такие неполные записи в результирующую выборку или исключать их.
+It should be noted that incomplete records will be generated for the bound lag positions (start and end of the source sample): null values for the "past" lags will be generated at the source sample start, and for the "future" lags - at the end. On case by case basis, a user can include such incomplete records into the resulting sample or exclude them.
 
 %spoiler%Example:%spoiler%
 
 Source table:
 
-| Date | Продажи, шт. |
+| Date | Sales, pieces |
 | :--- | -----------: |
 | 01.09.2011 | 45 |
 | 01.10.2011 | 82 |
@@ -24,11 +24,11 @@ Source table:
 | 01.01.2012 | 229 |
 | 01.02.2012 | 161 |
 
-Для поля `Продажи, шт.` настроим параметр *Глубина истории* равным двум, а параметр *Горизонт прогноза* — равным единице. В зависимости от параметра *Оставлять неполные записи* получим разные результирующие таблицы.
+For `Sales, pieces` field, it is required to set *Depth period* parameter equal to two, and *Forecast horizon* parameter equal to one. Different resulting tables will be obtained according to *Leave incomplete records* parameter.
 
-Результирующая таблица при значении *Оставлять неполные записи*:
+The resulting table in the case of *Leave incomplete records* value:
 
-| Date | Продажи, шт.[-2] | Продажи, шт.[-1] | Продажи, шт. | Продажи, шт.[+1] |
+| Date | Sales, pieces[-2] | Sales, pieces[-1] | Sales, pieces | Sales, pieces[+1] |
 | :--- | ---------------: | ---------------: | -----------: | ---------------: |
 | | | | | 45 |
 | 01.09.2011 | | | 45 | 82 |
@@ -50,26 +50,26 @@ Source table:
 
 ### Output
 
-* ![Выходной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с набором данных дополненным смещенными полями.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set appended with biased fields is supplied to the port.
 
 ## Wizard
 
-Окно мастера настройки содержит список полей входной таблицы, для каждого поля имеются настраиваемые параметры:
+The wizard window contains a list of the input table fields. The following configured features are available for each field:
 
-* **Глубина истории** — количество значений из предыдущих записей, для которых создаются новые поля в выходном наборе данных;
-* **Горизонт прогноза** — количество значений из последующих записей, для которых создаются новые поля в выходном наборе данных.
+* **Depth period** means count of values from the previous records for which the new fields are created in the output data set.
+* **Forecast horizon** means count of values from the subsequent records for which the new fields are created in the output data set.
 
-Параметр *Способ обработки неполных записей* предоставляет следующие методы:
+*Incomplete records processing method* parameter provides the following methods:
 
-* **Оставлять неполные записи** — сохраняет все добавленные узлом записи;
-* **Удалять добавленные неполные записи** — удаляет записи добавленные узлом, не трогая записи из изначального набора;
-* **Удалять все неполные записи** — удаляет записи добавленные узлом и записи с пустыми значениями в добавленных полях.
+* **Leave incomplete records** enables to save all records added by the node.
+* **Delete added incomplete records** enables to delete the records added by the node not involving the records from the source data set.
+* **Delete all incomplete records** enables to delete the records added by the node and the records with null values in the added fields.
 
-Варианты результирующей таблицы из примера с разными *Способами обработки неполных записей*.
+The resulting table options from the example with different *Incomplete records processing methods*.
 
-Результирующая таблица при значении *Оставлять неполные записи*:
+The resulting table in the case of *Leave incomplete records* value:
 
-| Date | Продажи, шт.[-2] | Продажи, шт.[-1] | Продажи, шт. | Продажи, шт.[+1] |
+| Date | Sales, pieces[-2] | Sales, pieces[-1] | Sales, pieces | Sales, pieces[+1] |
 | :--- | ---------------: | ---------------: | -----------: | ---------------: |
 | | | | | 45 |
 | 01.09.2011 | | | 45 | 82 |
@@ -81,9 +81,9 @@ Source table:
 | | 229 | 161 | | |
 | | 161 | | | &nbsp; |
 
-Результирующая таблица при значении *Удалять добавленные неполные записи*:
+The resulting table in the case of *Delete added incomplete records* value:
 
-| Date | Продажи, шт.[-2] | Продажи, шт.[-1] | Продажи, шт. | Продажи, шт.[+1] |
+| Date | Sales, pieces[-2] | Sales, pieces[-1] | Sales, pieces | Sales, pieces[+1] |
 | :--- | ---------------: | ---------------: | -----------: | ---------------: |
 | 01.09.2011 | | | 45 | 82 |
 | 01.10.2011 | | 45 | 82 | 120 |
@@ -92,9 +92,9 @@ Source table:
 | 01.01.2012 | 120 | 192 | 229 | 161 |
 | 01.02.2012 | 192 | 229 | 161 | &nbsp; |
 
-Результирующая таблица при значении *Удалять все неполные записи*:
+The resulting table in the case of *Delete all incomplete records* value:
 
-| Date | Продажи, шт.[-2] | Продажи, шт.[-1] | Продажи, шт. | Продажи, шт.[+1] |
+| Date | Sales, pieces[-2] | Sales, pieces[-1] | Sales, pieces | Sales, pieces[+1] |
 | :--- | ---------------: | ---------------: | -----------: | ---------------: |
 | 01.11.2011 | 45 | 82 | 120 | 192 |
 | 01.12.2011 | 82 | 120 | 192 | 229 |
