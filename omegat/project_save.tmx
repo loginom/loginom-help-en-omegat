@@ -13561,6 +13561,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате будет получен набор данных, где в одном поле будет содержаться значение, соответствующее текущему отсчету (оно будет иметь то же имя, что и в исходном наборе), а слева и справа от него будут расположены поля со значениями, смещенными от текущего отсчета в прошлое и в будущее соответственно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T080222Z" creationid="Марианна" creationdate="20201114T080222Z">
+        <seg>In the result, the data set will be obtained. Its fields will contain the value that complies to the current lag (it will have the same name as in the source data set). The fields with the values dislocated from the current lag to the past and to the futeure correspondingly will be located to the left and to the right of it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате будет сформирован следующий запрос:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113204Z" creationid="Марианна" creationdate="20200825T113204Z">
