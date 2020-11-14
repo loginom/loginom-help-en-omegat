@@ -21755,8 +21755,24 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Результирующая таблица при значении &lt;x1/&gt;Оставлять неполные записи&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T091635Z" creationid="Марианна" creationdate="20201114T091635Z">
-        <seg>The resulting table for &lt;x1/&gt;Leave incomplete records&lt;x2/&gt; value:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092536Z" creationid="Марианна" creationdate="20201114T091635Z">
+        <seg>The resulting table in the case of &lt;x1/&gt;Leave incomplete records&lt;x2/&gt; value:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующая таблица при значении &lt;x1/&gt;Удалять все неполные записи&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092706Z" creationid="Марианна" creationdate="20201114T092706Z">
+        <seg>The resulting table in the case of &lt;x1/&gt;Delete all incomplete records&lt;x2/&gt; value:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результирующая таблица при значении &lt;x1/&gt;Удалять добавленные неполные записи&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092737Z" creationid="Марианна" creationdate="20201114T092737Z">
+        <seg>The resulting table in the case of &lt;x1/&gt;Delete added incomplete records&lt;x2/&gt; value:</seg>
       </tuv>
     </tu>
     <tu>
