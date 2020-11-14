@@ -9743,6 +9743,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалять все неполные записи&lt;x2/&gt; — удаляет записи добавленные узлом и записи с пустыми значениями в добавленных полях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T093320Z" creationid="Марианна" creationdate="20201114T093320Z">
+        <seg>&lt;x1/&gt;Delete all incomplete records&lt;x2/&gt; enables to delete the records added by the node and the records with null values in the added fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалять добавленные неполные записи&lt;x2/&gt; — удаляет записи добавленные узлом, не трогая записи из изначального набора;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T093209Z" creationid="Марианна" creationdate="20201114T093209Z">
@@ -14075,6 +14083,14 @@ WHERE
 CurrencyRates.Period BETWEEN &amp;start_date AND &amp;end_date
 ORDER BY
 DESC period</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Варианты результирующей таблицы из примера с разными &lt;x1/&gt;Способами обработки неполных записей&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T093417Z" creationid="Марианна" creationdate="20201114T093417Z">
+        <seg>The resulting table options from the example with different &lt;x1/&gt;Incomplete records processing methods&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
