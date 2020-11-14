@@ -5229,6 +5229,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с набором данных дополненным смещенными полями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T091937Z" creationid="Марианна" creationdate="20201114T091937Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with the data set appended with biased fields is supplied to the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с обработанными данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T180748Z" creationid="Марианна" creationdate="20201022T180748Z">
@@ -18877,6 +18885,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T095522Z" creationid="Марианна" creationdate="20200818T095522Z">
         <seg>The &lt;x1/&gt;Property inspector&lt;x2/&gt; window is located in the right part of the screen on the &lt;x3/&gt;Workflow&lt;x4/&gt; and &lt;x5/&gt;Connections&lt;x6/&gt; pages. It is collapsed by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно мастера настройки содержит список полей входной таблицы, для каждого поля имеются настраиваемые параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092050Z" creationid="Марианна" creationdate="20201114T092050Z">
+        <seg>The wizard window contains a list of the input table fields. The following configured features are available for each field:</seg>
       </tuv>
     </tu>
     <tu>
