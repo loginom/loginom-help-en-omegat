@@ -13145,6 +13145,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В зависимости от конкретной ситуации пользователь может включать такие неполные записи в результирующую выборку или исключать их.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T082248Z" creationid="Марианна" creationdate="20201114T082248Z">
+        <seg>On case by case basis, a user can include such incomplete records into the resulting sample or exclude them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В закладке Подробно содержится информация о приложении (типа Версия продукта X.X.X, где X.X.X  –  номер версии; Версия файла: X.X.X.Y - см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T195657Z" creationid="Марианна" creationdate="20200819T073910Z">
