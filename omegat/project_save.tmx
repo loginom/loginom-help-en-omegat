@@ -5437,6 +5437,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Глубина истории&lt;x2/&gt; — количество значений из предыдущих записей, для которых создаются новые поля в выходном наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092309Z" creationid="Марианна" creationdate="20201114T092309Z">
+        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt; means count of values from the previous records for which the new fields are created in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Глубина истории&lt;x2/&gt; — количество отсчетов в "прошлое";</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T080722Z" creationid="Марианна" creationdate="20201114T080722Z">
@@ -5449,6 +5457,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T190637Z" creationid="Марианна" creationdate="20200929T190637Z">
         <seg>&lt;x1/&gt;Recursive depth&lt;x2/&gt; provides the maximum number of recursions when opening recursive nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Горизонт прогноза&lt;x2/&gt; — количество значений из последующих записей, для которых создаются новые поля в выходном наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092406Z" creationid="Марианна" creationdate="20201114T092406Z">
+        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt; means count of values from the subsequent records for which the new fields are created in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15329,8 +15345,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для поля &lt;x1/&gt;Продажи, шт.&lt;x2/&gt; настроим параметр &lt;x3/&gt;Глубина истории&lt;x4/&gt; равным двум, а параметр &lt;x5/&gt;Горизонт прогноза&lt;x6/&gt; — равным единице.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T091408Z" creationid="Марианна" creationdate="20201114T091408Z">
-        <seg>For &lt;x1/&gt;Sales, pieces&lt;x2/&gt; field, it is required to set  &lt;x3/&gt;Depth period&lt;x4/&gt; parameter equal to two, and &lt;x5/&gt;Forecast horizon&lt;x6/&gt; parameter equal to one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201114T092124Z" creationid="Марианна" creationdate="20201114T091408Z">
+        <seg>For &lt;x1/&gt;Sales, pieces&lt;x2/&gt; field, it is required to set &lt;x3/&gt;Depth period&lt;x4/&gt; parameter equal to two, and &lt;x5/&gt;Forecast horizon&lt;x6/&gt; parameter equal to one.</seg>
       </tuv>
     </tu>
     <tu>
