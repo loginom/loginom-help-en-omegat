@@ -18697,6 +18697,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик выполняет сортировку записей входного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T114927Z" creationid="Марианна" creationdate="20201115T114927Z">
+        <seg>The handler sorts the input data set records.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик заменяет входные переменные, используя таблицы замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T155413Z" creationid="Марианна" creationdate="20201006T155413Z">
