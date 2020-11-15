@@ -8165,6 +8165,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок&lt;x2/&gt; — поле может принимать значения &lt;x3/&gt;По возрастанию&lt;x4/&gt; &lt;x5/&gt;&lt;x6/&gt; и &lt;x7/&gt;По убыванию&lt;x8/&gt; &lt;x9/&gt;&lt;x10/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141720Z" creationid="Марианна" creationdate="20201115T141720Z">
+        <seg>&lt;x1/&gt;Order&lt;x2/&gt;: the field can take &lt;x3/&gt;Ascending&lt;x4/&gt; &lt;x5/&gt;&lt;x6/&gt; and &lt;x7/&gt;Descending&lt;x8/&gt; &lt;x9/&gt;&lt;x10/&gt; values;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
