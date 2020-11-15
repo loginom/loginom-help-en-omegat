@@ -8799,6 +8799,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Регистр&lt;x2/&gt; — для сортировки строковых полей с учетом регистра нужно поставить флаг в чекбоксе этого поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142106Z" creationid="Марианна" creationdate="20201115T142106Z">
+        <seg>&lt;x1/&gt;Case&lt;x2/&gt;: to sort the string fields taking into account the case, it is required to place a flag in the checkbox of this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регистрозависимые строки&lt;x2/&gt; — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204326Z" creationid="Марианна" creationdate="20201006T204326Z">
