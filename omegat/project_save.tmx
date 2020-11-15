@@ -8141,6 +8141,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок сортировки&lt;x2/&gt; — для каждого сортируемого поля задается порядок (&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;По убыванию&lt;x6/&gt; или &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;По возрастанию&lt;x10/&gt;), в котором оно сортируется;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T115858Z" creationid="Марианна" creationdate="20201115T115858Z">
+        <seg>&lt;x1/&gt;Sort order&lt;x2/&gt;: the sorting order (&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Descending&lt;x6/&gt; or &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;Ascending&lt;x10/&gt;) is set for each sorted field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
