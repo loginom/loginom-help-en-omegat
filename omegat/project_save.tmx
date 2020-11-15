@@ -8767,6 +8767,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Регистр данных&lt;x2/&gt; — у полей со &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;Строковым&lt;x6/&gt; или &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;Переменным&lt;x10/&gt; типом данных указывается их регистрозависимость при сортировке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T140147Z" creationid="Марианна" creationdate="20201115T140147Z">
+        <seg>&lt;x1/&gt;Data case&lt;x2/&gt;: case sensitivity of fields while sorting is specified for the fields with the &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;String&lt;x6/&gt; or &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;Variable&lt;x10/&gt; data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регистрозависимые строки&lt;x2/&gt; — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204326Z" creationid="Марианна" creationdate="20201006T204326Z">
