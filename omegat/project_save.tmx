@@ -13145,6 +13145,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм сортирует записи по первому в очереди полю сортировки в соответствии с заданным порядком.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T140444Z" creationid="Марианна" creationdate="20201115T140444Z">
+        <seg>The algorithm sorts the records by the first sort filed according to the set order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аналогичные команды есть и в контекстном меню каждого узла в правом окне (корневой узел &lt;x13/&gt;Root&lt;x14/&gt; переместить нельзя).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T194918Z" creationid="Марианна" creationdate="20200929T194918Z">
