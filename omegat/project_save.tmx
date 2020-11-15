@@ -13489,6 +13489,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В левом списке отображаются поля, по которым можно производить сортировку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141013Z" creationid="Марианна" creationdate="20201115T141013Z">
+        <seg>The fileds by which it is possible to perform sorting are displayed in the left list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки количество отсчетов определим равным десяти.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T101858Z" creationid="Марианна" creationdate="20201011T100553Z">
@@ -22557,6 +22565,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T075513Z" creationid="Марианна" creationdate="20200924T075513Z">
         <seg>The list is not available for variable fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список соответствует полям входного порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141044Z" creationid="Марианна" creationdate="20201115T141044Z">
+        <seg>The list complies with the input port fields.</seg>
       </tuv>
     </tu>
     <tu>
