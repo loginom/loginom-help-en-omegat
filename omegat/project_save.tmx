@@ -2964,6 +2964,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выделенное &lt;x5/&gt;Поле сортировки&lt;x6/&gt; вверх по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142253Z" creationid="Марианна" creationdate="20201115T142253Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the selected &lt;x5/&gt;Sort field&lt;x6/&gt; up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — перемещает выделенное &lt;x5/&gt;Поле сортировки&lt;x6/&gt; вниз по списку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142329Z" creationid="Марианна" creationdate="20201115T142329Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the selected &lt;x5/&gt;Sort field&lt;x6/&gt; down the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переобучить узел&lt;x4/&gt; — переобучает выделенный узел;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132639Z" creationid="Марианна" creationdate="20200819T132639Z">
@@ -3032,6 +3048,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073148Z" creationid="Марианна" creationdate="20200817T073148Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Remove from list&lt;x4/&gt; enables to remove the process from the information panel list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить поле&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142503Z" creationid="Марианна" creationdate="20201115T142503Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete field&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15351,6 +15375,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для исключения сортировки по полю:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142358Z" creationid="Марианна" creationdate="20201115T142358Z">
+        <seg>To exclude sorting by the field, it is required to perform the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для исключения элемента из списка выбранных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203521Z" creationid="Марианна" creationdate="20200829T203521Z">
@@ -15443,6 +15475,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T155424Z" creationid="Марианна" creationdate="20200824T155424Z">
         <seg>To display the list, connection must be activated by means of the &lt;x5/&gt;Activate&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для очистки всего списка нажать &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142554Z" creationid="Марианна" creationdate="20201115T142554Z">
+        <seg>To clear the whole list, it is required to press &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24133,6 +24173,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>дважды щелкнуть мышью по полю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142456Z" creationid="Марианна" creationdate="20201115T142456Z">
+        <seg>double click on the field;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>двойного щелчка мышью по полю;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141410Z" creationid="Марианна" creationdate="20201115T141410Z">
@@ -24433,6 +24481,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141351Z" creationid="Марианна" creationdate="20201115T141351Z">
         <seg>Drag-and-drop method;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>перетащить запись из списка &lt;x1/&gt;Поля сортировки&lt;x2/&gt; в &lt;x3/&gt;Доступные поля&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142445Z" creationid="Марианна" creationdate="20201115T142445Z">
+        <seg>move the record from the &lt;x1/&gt;Sort field&lt;x2/&gt; list to &lt;x3/&gt;Available fields&lt;x4/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
