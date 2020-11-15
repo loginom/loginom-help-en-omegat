@@ -15383,6 +15383,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для настройки сортировки, необходимо переместить требуемые поля в список &lt;x1/&gt;Поля сортировки&lt;x2/&gt; при помощи:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141335Z" creationid="Марианна" creationdate="20201115T141335Z">
+        <seg>To configure sorting, it is required to move the required fields to the &lt;x1/&gt;Sort fields&lt;x2/&gt; list using the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки требуется переместить поля входного набора в списки &lt;x1/&gt;Группа&lt;x2/&gt; или &lt;x3/&gt;Показатели&lt;x4/&gt;, перетаскивая их мышью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T152930Z" creationid="Марианна" creationdate="20201023T200900Z">
@@ -22569,6 +22577,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список полей можно отфильтровать, введя имя или метку поля в области фильтрации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141208Z" creationid="Марианна" creationdate="20201115T141208Z">
+        <seg>It is possible to filter the list of fields specifying the field name or caption in the filter area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список соответствует полям входного порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141044Z" creationid="Марианна" creationdate="20201115T141044Z">
@@ -24085,6 +24101,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>двойного щелчка мышью по полю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141410Z" creationid="Марианна" creationdate="20201115T141410Z">
+        <seg>double click on the field;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>для остальных — функция &lt;x1/&gt;количество&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083004Z" creationid="Марианна" creationdate="20201006T083004Z">
@@ -24361,6 +24385,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135752Z" creationid="Марианна" creationdate="20200814T135752Z">
         <seg>using the &lt;x1/&gt; &lt;x2/&gt;&lt;x3/&gt;Packages&lt;x4/&gt; button in &lt;x5/&gt;Address bar&lt;x6/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>перетаскивания мышью (Drag-and-drop);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141351Z" creationid="Марианна" creationdate="20201115T141351Z">
+        <seg>Drag-and-drop method;</seg>
       </tuv>
     </tu>
     <tu>
