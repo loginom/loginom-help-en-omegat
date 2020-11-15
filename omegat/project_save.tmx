@@ -2828,6 +2828,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T140732Z" creationid="Марианна" creationdate="20201115T140732Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a port for connection of the input data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; – помечает все узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165559Z" creationid="Марианна" creationdate="20201001T165559Z">
@@ -2840,6 +2848,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113657Z" creationid="Марианна" creationdate="20201001T113657Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Check all&lt;x4/&gt; enables to check all nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с набором данных, отсортированным по выбранным полям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T140919Z" creationid="Марианна" creationdate="20201115T140919Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with the data set sorted by the selected fields is supplied to the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24465,6 +24481,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102041Z" creationid="Марианна" creationdate="20200919T102041Z">
         <seg>the next section - "Visibility of nodes").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>согласно очередности полей сортировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T140657Z" creationid="Марианна" creationdate="20201115T140657Z">
+        <seg>according to the order of the sort fields.</seg>
       </tuv>
     </tu>
     <tu>
