@@ -1,51 +1,51 @@
-# ![](../../images/icons/components/sorting_default.svg) Сортировка
+# ![](../../images/icons/components/sorting_default.svg) Sort
 
-Обработчик выполняет сортировку записей входного набора. Алгоритм позволяет сортировать последовательно по нескольким полям.
+The handler sorts the input data set records. The algorithm provides serial sorting by several fields.
 
-При сортировке учитывается:
+The following parameters are taken into account while sorting:
 
-* **Очередность полей сортировки** — в зависимости от позиции в списке *Поля сортировки* меняется очередность сортировки поля;
-* **Порядок сортировки** — для каждого сортируемого поля задается порядок (![](../../images/icons/sorting/order-switcher-desc_default.svg) *По убыванию* или ![](../../images/icons/sorting/order-switcher-asc_default.svg) *По возрастанию*), в котором оно сортируется;
-* **Регистр данных** — у полей со ![](../../images/icons/data-types/string_default.svg)*Строковым* или ![](../../images/icons/data-types/variant_default.svg) *Переменным* типом данных указывается их регистрозависимость при сортировке.
+* **Order of sort fields**: according to the item position in the *Sort fields* list, the field sorting order changes.
+* **Sort order**: the sorting order (![](../../images/icons/sorting/order-switcher-desc_default.svg) *Descending* or ![](../../images/icons/sorting/order-switcher-asc_default.svg) *Ascending*) is set for each sorted field.
+* **Data case**: case sensitivity of fields while sorting is specified for the fields with the ![](../../images/icons/data-types/string_default.svg)*String* or ![](../../images/icons/data-types/variant_default.svg) *Variable* data type.
 
-Алгоритм сортирует записи по первому в очереди полю сортировки в соответствии с заданным порядком. Если существуют одинаковые значения, то содержащие их строки сортируются по второму в очереди полю сортировки и т.д. согласно очередности полей сортировки.
+The algorithm sorts the records by the first sort filed according to the set order. If there are the same values, the strings that contain them are sorted by the second sort field, etc. according to the order of the sort fields.
 
 ### Input
 
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных.
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set.
 
 ### Output
 
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с набором данных, отсортированным по выбранным полям.
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set sorted by the selected fields is supplied to the port.
 
 ## Wizard
 
-В левом списке отображаются поля, по которым можно производить сортировку. Список соответствует полям входного порта.
+The fileds by which it is possible to perform sorting are displayed in the left list. The list complies with the input port fields.
 
-Список полей можно отфильтровать, введя имя или метку поля в области фильтрации.
+It is possible to filter the list of fields specifying the field name or caption in the filter area.
 
-Для настройки сортировки, необходимо переместить требуемые поля в список *Поля сортировки* при помощи:
+To configure sorting, it is required to move the required fields to the *Sort fields* list using the following methods:
 
-* перетаскивания мышью (Drag-and-drop);
-* двойного щелчка мышью по полю;
-* нажатия кнопки *Добавить* ![](../../images/icons/toolbar-controls/arrow-r_default.svg).
+* Drag-and-drop method;
+* double click on the field;
+* by pressing *Add* ![](../../images/icons/toolbar-controls/arrow-r_default.svg) button.
 
-Параметры настройки сортировки:
+Parameters of sorting configuration:
 
-* **Порядок** — поле может принимать значения *По возрастанию* ![](../../images/icons/sorting/order-switcher-asc_default.svg) и *По убыванию* ![](../../images/icons/sorting/order-switcher-desc_default.svg);
-* **Регистр** — для сортировки строковых полей с учетом регистра нужно поставить флаг в чекбоксе этого поля.
+* **Order**: the field can take *Ascending* ![](../../images/icons/sorting/order-switcher-asc_default.svg) and *Descending* ![](../../images/icons/sorting/order-switcher-desc_default.svg) values;
+* **Case**: to sort the string fields taking into account the case, it is required to place a flag in the checkbox of this field.
 
-Очередность полей сортировки можно изменить:
+It is possible to change the fields sorting order:
 
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенное *Поле сортировки* вверх по списку;
-* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенное *Поле сортировки* вниз по списку.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enables to move the selected *Sort field* up the list.
+* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected *Sort field* down the list.
 
-Для исключения сортировки по полю:
+To exclude sorting by the field, it is required to perform the following actions:
 
-* перетащить запись из списка *Поля сортировки* в *Доступные поля*;
-* дважды щелкнуть мышью по полю;
-* ![](../../images/icons/toolbar-controls/delete_default.svg) *Удалить поле*.
+* move the record from the *Sort field* list to *Available fields*;
+* double click on the field;
+* ![](../../images/icons/toolbar-controls/delete_default.svg) *Delete field*.
 
-Для очистки всего списка нажать ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Удалить все...*.
+To clear the whole list, it is required to press ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
-> **Примечание**: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, под учетной записью которого запущен Loginom.
+> **Note**: characters are compared and sorted according to the local settings of the user whose login is used to start Loginom.
