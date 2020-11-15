@@ -7501,6 +7501,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Очередность полей сортировки&lt;x2/&gt; — в зависимости от позиции в списке &lt;x3/&gt;Поля сортировки&lt;x4/&gt; меняется очередность сортировки поля;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T115627Z" creationid="Марианна" creationdate="20201115T115627Z">
+        <seg>&lt;x1/&gt;Order of sort fields&lt;x2/&gt;: according to the item position in the &lt;x3/&gt;Sort fields&lt;x4/&gt; list, the field sorting order changes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Очистить таблицу и заполнить данными&lt;x2/&gt; — таблица базы данных будет полностью очищена и затем наполнена строками экспортируемой таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113028Z" creationid="Марианна" creationdate="20200916T112117Z">
@@ -21109,6 +21117,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143525Z" creationid="Марианна" creationdate="20200918T143525Z">
         <seg>When creating, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При сортировке учитывается:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T115149Z" creationid="Марианна" creationdate="20201115T115149Z">
+        <seg>The following parameters are taken into account while sorting:</seg>
       </tuv>
     </tu>
     <tu>
