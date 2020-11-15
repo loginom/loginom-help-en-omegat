@@ -19433,6 +19433,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры настройки сортировки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141546Z" creationid="Марианна" creationdate="20201115T141546Z">
+        <seg>Parameters of sorting configuration:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры подключения к источнику данных используются узлами &lt;x1/&gt;импорта&lt;x2/&gt;/&lt;x3/&gt;экспорта&lt;x4/&gt; данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T103144Z" creationid="Марианна" creationdate="20200711T103144Z">
@@ -24289,6 +24297,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165055Z" creationid="Марианна" creationdate="20201001T165055Z">
         <seg>using &lt;x1/&gt;Delete link&lt;x2/&gt; button in the line (when cursor hovering, the button is changed to &lt;x3/&gt;Delete link&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>нажатия кнопки &lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T141505Z" creationid="Марианна" creationdate="20201115T141505Z">
+        <seg>by pressing &lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
