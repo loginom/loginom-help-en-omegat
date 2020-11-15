@@ -19313,6 +19313,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Очередность полей сортировки можно изменить:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T142144Z" creationid="Марианна" creationdate="20201115T142144Z">
+        <seg>It is possible to change the fields sorting order:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Очередность элементов можно изменить:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203302Z" creationid="Марианна" creationdate="20200829T203302Z">
