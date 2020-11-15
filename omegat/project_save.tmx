@@ -16127,6 +16127,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если существуют одинаковые значения, то содержащие их строки сортируются по второму в очереди полю сортировки и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T140619Z" creationid="Марианна" creationdate="20201115T140619Z">
+        <seg>If there are the same values, the strings that contain them are sorted by the second sort field, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
