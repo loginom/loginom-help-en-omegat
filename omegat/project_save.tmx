@@ -3436,6 +3436,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сортировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201115T114550Z" creationid="Марианна" creationdate="20201115T114550Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Sort</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Строковый</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083314Z" creationid="Марианна" creationdate="20201030T083314Z">
