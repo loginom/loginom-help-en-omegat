@@ -21265,6 +21265,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При выборе пункта &lt;x1/&gt;На пропущенное&lt;x2/&gt;, все значения не попавшие в &lt;x3/&gt;Таблицу замен&lt;x4/&gt; будут заменены на пустое значение &lt;x5/&gt;&lt;null&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T141013Z" creationid="Марианна" creationdate="20201116T141013Z">
+        <seg>When &lt;x1/&gt;With empty&lt;x2/&gt; option is selected, all values not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; will be replaced with the null value &lt;x5/&gt;&lt;null&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При выборе узла выбираются так же и его родители, вплоть до корня.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T170138Z" creationid="Марианна" creationdate="20201001T170138Z">
