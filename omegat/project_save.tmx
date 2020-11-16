@@ -24437,6 +24437,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это нужно учитывать, если в данных имеются значения &lt;x5/&gt;&lt;null&gt;&lt;x6/&gt;, которые нужно заменить на другие значения, либо если необходимо заменить какие-либо значения на &lt;x7/&gt;&lt;null&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T064731Z" creationid="Марианна" creationdate="20201116T064731Z">
+        <seg>It must be taken into account if &lt;x5/&gt;&lt;null&gt;&lt;x6/&gt; values to be replaced with other values are present in the data, or it is required to replace some values with &lt;x7/&gt;&lt;null&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это позволяет более гибко реализовывать логику обработки данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090332Z" creationid="Марианна" creationdate="20200715T071118Z">
