@@ -1,4 +1,4 @@
-# Substitution of the Replacements not Included into the Table
+# Substitution of the Values not Included into the Replacement Table
 
 *Replace other* parameter is required for processing of the values that are not included into the *Replacement table* and that are out of the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala). Four configuration options parameter:
 
