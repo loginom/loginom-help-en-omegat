@@ -20281,6 +20281,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поле &lt;x1/&gt;Значение&lt;x2/&gt; таблицы замен содержит значения, подлежащие замене.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T055653Z" creationid="Марианна" creationdate="20201116T055616Z">
+        <seg>The &lt;x1/&gt;Value&lt;x2/&gt; field of the replacement table contains the values to be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Полное соединение (SQL-аналог: &lt;x1/&gt;FULL JOIN&lt;x2/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T165920Z" creationid="Марианна" creationdate="20201109T165920Z">
