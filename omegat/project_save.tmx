@@ -19787,8 +19787,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Параметр &lt;x1/&gt;Заменять остальное&lt;x2/&gt; отвечает за обработку значений не попавших в &lt;x3/&gt;Таблицу замен&lt;x4/&gt;, и не попадающих в &lt;x5/&gt;допустимый интервал&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T135810Z" creationid="Марианна" creationdate="20201116T134722Z">
-        <seg>&lt;x1/&gt;Replace other&lt;x2/&gt; parameter is required for processing of the values не попавших в &lt;x3/&gt;Таблицу замен&lt;x4/&gt;, и не попадающих в &lt;x5/&gt;допустимый интервал&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140220Z" creationid="Марианна" creationdate="20201116T134722Z">
+        <seg>&lt;x1/&gt;Replace other&lt;x2/&gt; parameter is required for processing of the values that are not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; and that are out of the &lt;x5/&gt;allowable interval&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
