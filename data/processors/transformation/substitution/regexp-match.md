@@ -9,12 +9,12 @@ For example:
 В обозначении банковского БИК должны содержаться только цифры. Регулярное выражение `\D` обозначает все символы, не являющиеся цифрами. В некоторых значениях БИК содержатся буквы `О` и `З` вместо цифр. Эти значения заменяются строкой `Ошибочный БИК`.
 
 <table>
- <tr><th>Исходные данные</th><th colspan="2">Значения полей таблицы замен</th><th>Результат замены</th></tr>
- <tr><td>БИК банка</td><th>Замена</th><th>Value</th><td>БИК банка Замена</td></tr>
- <tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Ошибочный БИК</td><td>Ошибочный БИК</td></tr>
+ <tr><th>Source data</th><th colspan="2">Значения полей таблицы замен</th><th>Replacement result</th></tr>
+ <tr><td>Bank BIC</td><th>Replace</th><th>Value</th><td>Replace bank BIC</td></tr>
+ <tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Wrong BIC</td><td>Wrong BIC</td></tr>
  <tr><td>40147781</td><td>40147781</td></tr>
  <tr><td>40155000</td><td>40155000</td></tr>
- <tr><td>4017З001</td><td>Ошибочный БИК</td></tr>
+ <tr><td>4017З001</td><td>Wrong BIC</td></tr>
 </table>
 
 Значения не попавшие в *Таблицу замен* обрабатываются согласно настройке параметра [Заменять остальное](./other-match.md).

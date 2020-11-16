@@ -15,7 +15,7 @@ When *Do not replace* option is selected, the values not included into the *Repl
 
 When *With empty* option is selected, all values not included into the *Replacement table* will be replaced with the null value `<null>`.
 
-Возьмем первый пример из [замены по точному совпадению](./exact-match.md):
+Let's consider the first example of [replacement by exact match](./exact-match.md):
 
 Result of the performed replacement
 
@@ -28,65 +28,65 @@ Result of the performed replacement
 |48|Excellent|
 |73|73|
 
-С выбранным пунктом *На пропущенное*, данная таблица имела бы такой вид
+When *With empty* option is selected, this table would be as follows:
 
-|Значение исходных данных|Новое значение|
+|Source data value|New value|
 |-:|:-|
-|12|Плохо|
+|12|Poor|
 |15|`<null>`|
-|24|Удовлетворительно|
+|24|Satisfactory|
 |35|`<null>`|
-|48|Отлично|
+|48|Excellent|
 |73|`<null>`|
 
-## На значение
+## With value
 
-Пункт *На значение* заменяет все значения вне *Таблицы замен*, на введенное в строке.
+*With value* option replaces all values outside the *Replacement table* with the value entered into the row.
 
-Возьмем второй пример из [замены по точному совпадению](./exact-match.md#primenenie-dopustimogo-intervala):
+Let's consider the second example from [replacement by exact match](./exact-match.md#primenenie-dopustimogo-intervala):
 
 Result of the performed replacement
 
 |Source data value|New value|
 |-:|:-|
 |12|Poor|
-|15|Poorо|
+|15|Poor|
 |24|Satisfactory|
 |35|Good|
 |48|Excellent|
 |73|73|
 
-Выбрав *На значение* и введя в строку `Вне оценочного диапазона`, получим результат
+Having selected *With value* option and having entered into the row `Out of estimation range`, the following result will be recieved:
 
-|Значение исходных данных|Новое значение|
+|Source data value|New value|
 |-:|:-|
-|12|Плохо|
-|15|Плохо|
-|24|Удовлетворительно|
-|35|Хорошо|
-|48|Отлично|
-|73|Вне оценочного диапазона|
+|12|Poor|
+|15|Poor|
+|24|Satisfactory|
+|35|Good|
+|48|Excellent|
+|73|Out of estimation range|
 
-## На регулярное выражение
+## With regular expression
 
-Если у параметра *Заменять остальное* выбрать пункт *На регулярное выражение*, то для значений, не найденных при помощи таблицы замен, используется зарезервированное обозначение `$1`. В строке, задающей новое значение, символы `$1` будут заменены на исходное значение.
+If *With regular expression* option of *Replace other* parameter is selected, reserved `$1` character is used for the values not detected using the replacement table. `$1` characters will be replaced with the source value in the row that enables to set the new value.
 
-Для примера используем пример из [замены по регулярному выражению](./regexp-match.md):
+Let's consider the example from [replacement by regular expression](./regexp-match.md):
 <table>
- <tr><th align="left">Исходные данные</th><th colspan="2">Replacement Table</th><th rowspan="2" align="left" valign="top">Заменять остальное:</br>На регулярное выражение</th><th align="left" valign="top">Результат замены</th></tr>
+ <tr><th align="left">Source data</th><th colspan="2">Replacement Table</th><th rowspan="2" align="left" valign="top">Replace other:</br>With regular expression</th><th align="left" valign="top">Replacement result</th></tr>
 
 
-<tr><td>БИК банка</td><th>Замена</th><th>Value</th><td>БИК банка Замена</td></tr>
+<tr><td>Bank BIC</td><th>Replace</th><th>Value</th><td>Replace bank BIC</td></tr>
 
 
-<tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Ошибочный БИК</td><td rowspan="4" valign="top" align="left">БИК $1 указывается в платежном поручении</td><td align="left">Ошибочный БИК</td></tr>
+<tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Wrong BIC</td><td rowspan="4" valign="top" align="left">BIC $1 is specified in payment order</td><td align="left">Wrong BIC</td></tr>
 
 
-<tr><td>40147781</td><td align="left">БИК 40147781 указывается в платежном поручении</td></tr>
+<tr><td>40147781</td><td align="left">BIC 40147781 is specified in payment order</td></tr>
 
 
-<tr><td>40155000</td><td align="left">БИК 40155000 указывается в платежном поручении</td></tr>
+<tr><td>40155000</td><td align="left">BIC 40155000 is specified in payment order</td></tr>
 
 
-<tr><td>4017З001</td><td align="left">Ошибочный БИК</td></tr>
+<tr><td>4017З001</td><td align="left">Wrong BIC</td></tr>
 </table>

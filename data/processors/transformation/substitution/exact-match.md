@@ -1,4 +1,4 @@
-# Replace by Exact Match
+# Replacement by Exact Match
 
 The *Value* field of the replacement table contains the values to be replaced. The algorithm searches for exact match of the source data with the values of this field. If such match is found, it is replaced with the value of the *Replace* field.
 
@@ -82,7 +82,7 @@ Result of the performed replacement
 |Source data value|New value|
 |-:|:-|
 |12|Poor|
-|15|Poorо|
+|15|Poor|
 |24|Satisfactory|
 |35|Good|
 |48|Excellent|
