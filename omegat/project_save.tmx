@@ -16537,8 +16537,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Замена по точному совпадению</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T055548Z" creationid="Марианна" creationdate="20201116T055548Z">
-        <seg>Replace by Exact Match</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T141638Z" creationid="Марианна" creationdate="20201116T055548Z">
+        <seg>Replacement by Exact Match</seg>
       </tuv>
     </tu>
     <tu>
