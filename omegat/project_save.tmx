@@ -19785,6 +19785,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр &lt;x1/&gt;Заменять остальное&lt;x2/&gt; отвечает за обработку значений не попавших в &lt;x3/&gt;Таблицу замен&lt;x4/&gt;, и не попадающих в &lt;x5/&gt;допустимый интервал&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T134722Z" creationid="Марианна" creationdate="20201116T134722Z">
+        <seg>&lt;x1/&gt;Replace other&lt;x2/&gt; отвечает за обработку значений не попавших в &lt;x3/&gt;Таблицу замен&lt;x4/&gt;, и не попадающих в &lt;x5/&gt;допустимый интервал&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр &lt;x1/&gt;Способ обработки неполных записей&lt;x2/&gt; предоставляет следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
