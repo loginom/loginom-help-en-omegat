@@ -16579,6 +16579,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если у параметра &lt;x1/&gt;Заменять остальное&lt;x2/&gt; выбрать пункт &lt;x3/&gt;На регулярное выражение&lt;x4/&gt;, то для значений, не найденных при помощи таблицы замен, используется зарезервированное обозначение &lt;x5/&gt;$1&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T144233Z" creationid="Марианна" creationdate="20201116T144233Z">
+        <seg>If &lt;x3/&gt;With regular expression&lt;x4/&gt; option of &lt;x1/&gt;Replace other&lt;x2/&gt; parameter is selected, reserved &lt;x5/&gt;$1&lt;x6/&gt; character is used for the values not detected using the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
