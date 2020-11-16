@@ -14653,6 +14653,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возьмем второй пример из &lt;x1/&gt;замены по точному совпадению&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142237Z" creationid="Марианна" creationdate="20201116T142237Z">
+        <seg>Let's consider the second example from &lt;x1/&gt;replacement by exact match&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возьмем первый пример из &lt;x1/&gt;замены по точному совпадению&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T141618Z" creationid="Марианна" creationdate="20201116T141618Z">
