@@ -12926,15 +12926,37 @@ Assertion failed: lie 1 != 0</seg>
 |48|Отлично|
 |73|73|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T062940Z" creationid="Марианна" creationdate="20201116T062940Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142726Z" creationid="Марианна" creationdate="20201116T062940Z">
         <seg>|Source data value|New value|
 |-:|:-|
 |12|Poor|
-|15|Poorо|
+|15|Poor|
 |24|Satisfactory|
 |35|Good|
 |48|Excellent|
 |73|73|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Значение исходных данных|Новое значение|
+|-:|:-|
+|12|Плохо|
+|15|Плохо|
+|24|Удовлетворительно|
+|35|Хорошо|
+|48|Отлично|
+|73|Вне оценочного диапазона|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142842Z" creationid="Марианна" creationdate="20201116T142842Z">
+        <seg>|Source data value|New value|
+|-:|:-|
+|12|Poor|
+|15|Poor|
+|24|Satisfactory|
+|35|Good|
+|48|Excellent|
+|73|Out of estimation range|</seg>
       </tuv>
     </tu>
     <tu>
@@ -18475,6 +18497,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140331Z" creationid="Марианна" creationdate="20201116T140331Z">
         <seg>With empty;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На регулярное выражение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142852Z" creationid="Марианна" creationdate="20201116T142852Z">
+        <seg>With regular expression</seg>
       </tuv>
     </tu>
     <tu>
