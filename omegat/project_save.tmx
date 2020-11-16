@@ -1780,6 +1780,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>50</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062759Z" creationid="Марианна" creationdate="20201116T062759Z">
+        <seg>50</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>506</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145823Z" creationid="Марианна" creationdate="20201111T145823Z">
@@ -15961,6 +15969,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Допустимый интервал</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062648Z" creationid="Марианна" creationdate="20201116T062648Z">
+        <seg>Allowable interval</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступ из кода JavaScript к данным портов и другим встроенным объектам</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061347Z" creationid="Марианна" creationdate="20201109T061347Z">
@@ -17009,6 +17025,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
         <seg>Integration with Databases</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интервал совпадения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062757Z" creationid="Марианна" creationdate="20201116T062757Z">
+        <seg>Match interval</seg>
       </tuv>
     </tu>
     <tu>
@@ -21579,6 +21603,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применение допустимого интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062527Z" creationid="Марианна" creationdate="20201116T062527Z">
+        <seg>Use of the Allowable Interval</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Применение параметров в запросах</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122112Z" creationid="Марианна" creationdate="20200823T122112Z">
@@ -24691,6 +24723,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165904Z" creationid="Марианна" creationdate="20201005T165904Z">
         <seg>single-line and multi-line comments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>от 16 до 56</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062822Z" creationid="Марианна" creationdate="20201116T062822Z">
+        <seg>from 16 to 56</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>от 4 до 44</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062814Z" creationid="Марианна" creationdate="20201116T062814Z">
+        <seg>from 4 to 44</seg>
       </tuv>
     </tu>
     <tu>
