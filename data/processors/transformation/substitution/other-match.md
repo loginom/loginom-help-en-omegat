@@ -1,19 +1,19 @@
-# Замена не попавших в Таблицу замен
+# Substitution of the Replacements not Included into the Table
 
-Параметр *Заменять остальное* отвечает за обработку значений не попавших в *Таблицу замен*, и не попадающих в [допустимый интервал](./exact-match.md#primenenie-dopustimogo-intervala). Параметр четыре варианта настройки:
+*Replace other* parameter is required for processing of the values that are not included into the *Replacement table* and that are out of the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala). Four configuration options parameter:
 
-* Не заменять;
-* На пропущенное;
-* На значение;
-* На регулярное выражение.
+* Do not replace;
+* With empty;
+* With value;
+* With regular expression.
 
-И строку для ввода нового значения не попавших в *Таблицу замен* записей.
+And the row for input of the new value of the records not included into the *Replacement table*.
 
-В случае выбора *Не заменять*, к значениям не попавшим в *Таблицу замен* не применяется дополнительная обработка.
+When *Do not replace* option is selected, the values not included into the *Replacement table* are not subject to the additional processing.
 
-## На пропущенное
+## With empty
 
-При выборе пункта *На пропущенное*, все значения не попавшие в *Таблицу замен* будут заменены на пустое значение `<null>`.
+When *With empty* option is selected, all values not included into the *Replacement table* will be replaced with the null value `<null>`.
 
 Возьмем первый пример из [замены по точному совпадению](./exact-match.md):
 
