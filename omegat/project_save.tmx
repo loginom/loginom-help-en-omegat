@@ -18337,6 +18337,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На значение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140343Z" creationid="Марианна" creationdate="20201116T140343Z">
+        <seg>With value;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На итерации, при которой значение переменной удовлетворяет условию, работа цикла заканчивается.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200658Z" creationid="Марианна" creationdate="20200921T200658Z">
@@ -18381,6 +18389,22 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T171652Z" creationid="Марианна" creationdate="20200920T171652Z">
         <seg>The value of the looped output node variable is analysed to ensure its compliance with this condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На пропущенное;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140331Z" creationid="Марианна" creationdate="20201116T140331Z">
+        <seg>With empty;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На регулярное выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140354Z" creationid="Марианна" creationdate="20201116T140354Z">
+        <seg>With regular expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18845,6 +18869,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121507Z" creationid="Марианна" creationdate="20200823T121507Z">
         <seg>It cannot be edited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не заменять;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140313Z" creationid="Марианна" creationdate="20201116T140313Z">
+        <seg>Do not replace;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19797,6 +19829,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
         <seg>&lt;x1/&gt;Incomplete records processing method&lt;x2/&gt; parameter provides the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр четыре варианта настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140300Z" creationid="Марианна" creationdate="20201116T140300Z">
+        <seg>Four configuration options parameter:</seg>
       </tuv>
     </tu>
     <tu>
