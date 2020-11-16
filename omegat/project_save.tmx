@@ -6061,6 +6061,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Замена&lt;x2/&gt; Замена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T144832Z" creationid="Марианна" creationdate="20201116T144832Z">
+        <seg>&lt;x1/&gt;Replace&lt;x2/&gt; Replace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заменять остальное&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192049Z" creationid="Марианна" creationdate="20200810T192049Z">
@@ -19425,6 +19433,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T155413Z" creationid="Марианна" creationdate="20201006T155413Z">
         <seg>The handler replaces the input variables using replacement tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик заменяет данные исходного набора, используя таблицы замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T144930Z" creationid="Марианна" creationdate="20201116T144930Z">
+        <seg>The handler replaces the source data set data using replacement tables.</seg>
       </tuv>
     </tu>
     <tu>
