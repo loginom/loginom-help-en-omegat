@@ -16319,6 +16319,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Замена по точному совпадению</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T055548Z" creationid="Марианна" creationdate="20201116T055548Z">
+        <seg>Replace by Exact Match</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Занятых в экономике (тыс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201017T193307Z" creationid="Марианна" creationdate="20201012T211502Z">
