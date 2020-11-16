@@ -14065,6 +14065,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае, если с учетом интервала будут найдены несколько совпадений, то применяться будет наиболее близкое к исходному.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063524Z" creationid="Марианна" creationdate="20201116T063524Z">
+        <seg>If several matches are found taking into account the interval, the closest match to the source one will be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, если строку можно привести к числу (например, "0" или "7"), то приводится следующим образом: "0" — к логическому &lt;x11/&gt;FALSE&lt;x12/&gt;, а все остальные — к логическому &lt;x13/&gt;TRUE&lt;x14/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T071518Z" creationid="Марианна" creationdate="20201016T070907Z">
@@ -18481,6 +18489,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наиболее близкое к исходному</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063319Z" creationid="Марианна" creationdate="20201116T063319Z">
+        <seg>The closest to source</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наименование, входные аргументы и описание &lt;x1/&gt;доступных для использования функций&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T180034Z" creationid="Марианна" creationdate="20201005T180034Z">
@@ -21721,6 +21737,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пример логики алгоритма с применением интервала:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063355Z" creationid="Марианна" creationdate="20201116T063355Z">
+        <seg>The algorithm logics example with interval use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример логики алгоритма:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T055923Z" creationid="Марианна" creationdate="20201116T055923Z">
@@ -24761,6 +24785,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165904Z" creationid="Марианна" creationdate="20201005T165904Z">
         <seg>single-line and multi-line comments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>от -8 до 32</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063202Z" creationid="Марианна" creationdate="20201116T063202Z">
+        <seg>from -8 to 32</seg>
       </tuv>
     </tu>
     <tu>
