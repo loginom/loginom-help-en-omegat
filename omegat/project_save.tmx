@@ -12821,6 +12821,48 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Замена|Значение|
+|-:|:-|
+|12|Плохо|
+|24|Удовлетворительно|
+|36|Хорошо|
+|48|Отлично|
+|60|Восхитительно|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T061002Z" creationid="Марианна" creationdate="20201116T061002Z">
+        <seg>|Replacement|Value|
+|-:|:-|
+|12|Poor|
+|24|Satisfactory|
+|36|Good|
+|48|Excellent|
+|60|Perfect|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Значение исходных данных|Новое значение|
+|-:|:-|
+|12|Плохо|
+|15|15|
+|24|Удовлетворительно|
+|35|35|
+|48|Отлично|
+|73|73|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T061120Z" creationid="Марианна" creationdate="20201116T061120Z">
+        <seg>|Source data value|New value|
+|-:|:-|
+|12|Poor|
+|15|15|
+|24|Satisfactory|
+|35|35|
+|48|Excellent|
+|73|73|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Имя|Id города|
 |:-|-:|
 |Андрей|1|
@@ -22085,6 +22127,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104215Z" creationid="Марианна" creationdate="20201006T104215Z">
         <seg>Result of the variables list transformation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат проведенной замены</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T061022Z" creationid="Марианна" creationdate="20201116T061022Z">
+        <seg>Result of the performed replacement</seg>
       </tuv>
     </tu>
     <tu>
