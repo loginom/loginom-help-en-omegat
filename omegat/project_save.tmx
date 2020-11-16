@@ -1684,6 +1684,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>36</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060413Z" creationid="Марианна" creationdate="20201116T060413Z">
+        <seg>36</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>38</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T195258Z" creationid="Марианна" creationdate="20201023T195258Z">
@@ -1800,6 +1808,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164936Z" creationid="Марианна" creationdate="20201010T164936Z">
         <seg>6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>60</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060431Z" creationid="Марианна" creationdate="20201116T060431Z">
+        <seg>60</seg>
       </tuv>
     </tu>
     <tu>
@@ -14503,6 +14519,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Восхитительно</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060700Z" creationid="Марианна" creationdate="20201116T060700Z">
+        <seg>Perfect</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Время обработки — разница между началом и концом процесса обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T194224Z" creationid="Марианна" creationdate="20200817T072151Z">
@@ -14987,6 +15011,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194630Z" creationid="Марианна" creationdate="20201023T194630Z">
         <seg>Pears</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Да</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060425Z" creationid="Марианна" creationdate="20201116T060425Z">
+        <seg>Yes</seg>
       </tuv>
     </tu>
     <tu>
@@ -18697,6 +18729,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нет</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060334Z" creationid="Марианна" creationdate="20201116T060334Z">
+        <seg>No</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нет строки заголовков - столбцы будут экспортированы без заголовков.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T162712Z" creationid="Марианна" creationdate="20200917T162712Z">
@@ -19381,6 +19421,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
         <seg>Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отлично</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060347Z" creationid="Марианна" creationdate="20201116T060347Z">
+        <seg>Excellent</seg>
       </tuv>
     </tu>
     <tu>
@@ -23517,6 +23565,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удовлетворительно</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060409Z" creationid="Марианна" creationdate="20201116T060409Z">
+        <seg>Satisfactory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Уже раскрытый рекурсивный узел нельзя раскрыть повторно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T191625Z" creationid="Марианна" creationdate="20200929T191625Z">
@@ -23801,6 +23857,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
         <seg>Component functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Хорошо</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060419Z" creationid="Марианна" creationdate="20201116T060419Z">
+        <seg>Good</seg>
       </tuv>
     </tu>
     <tu>
