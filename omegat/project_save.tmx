@@ -17255,8 +17255,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Как видно из примера, группа образуется уникальным сочетанием значений полей, выбранных в качестве группировочных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T200022Z" creationid="Марианна" creationdate="20201023T200022Z">
-        <seg>The example shoes that the group is formed by the unique combination of the fields values selected as the grouping ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T061834Z" creationid="Марианна" creationdate="20201023T200022Z">
+        <seg>The example shows that the group is formed by the unique combination of the fields values selected as the grouping ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18703,6 +18703,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060543Z" creationid="Марианна" creationdate="20201029T060543Z">
         <seg>It does not have arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не попавшие в &lt;x3/&gt;Таблицу замен&lt;x4/&gt; значения обрабатываются согласно указанной &lt;x5/&gt;Точности&lt;x6/&gt; и параметру &lt;x7/&gt;Заменять остальное&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062507Z" creationid="Марианна" creationdate="20201116T062507Z">
+        <seg>The values not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; are processed according to the specified &lt;x5/&gt;Precision&lt;x6/&gt; and &lt;x7/&gt;Replace other&lt;x8/&gt; parameter.</seg>
       </tuv>
     </tu>
     <tu>
