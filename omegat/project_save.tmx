@@ -14073,6 +14073,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае выбора &lt;x1/&gt;Не заменять&lt;x2/&gt;, к значениям не попавшим в &lt;x3/&gt;Таблицу замен&lt;x4/&gt; не применяется дополнительная обработка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140859Z" creationid="Марианна" creationdate="20201116T140859Z">
+        <seg>When &lt;x1/&gt;Do not replace&lt;x2/&gt; option is selected, the values not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; are not subject to the additional processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, если количество групп не кратно количеству строк в исходном наборе, в некоторых группах количество строк будет отличаться, и они будут равномерно распределены среди остальных групп.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T203127Z" creationid="Марианна" creationdate="20200921T203127Z">
@@ -18397,6 +18405,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T171652Z" creationid="Марианна" creationdate="20200920T171652Z">
         <seg>The value of the looped output node variable is analysed to ensure its compliance with this condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На пропущенное</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140908Z" creationid="Марианна" creationdate="20201116T140908Z">
+        <seg>With empty</seg>
       </tuv>
     </tu>
     <tu>
