@@ -13201,6 +13201,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм ищет точное совпадение исходных данных со значениями данного поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T055742Z" creationid="Марианна" creationdate="20201116T055742Z">
+        <seg>The algorithm searches for exact match of the source data with the values of this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм позволяет сортировать последовательно по нескольким полям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T115104Z" creationid="Марианна" creationdate="20201115T115104Z">
@@ -16231,6 +16239,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если такое совпадение находится, то оно заменяется на значение поля &lt;x3/&gt;Замена&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T055853Z" creationid="Марианна" creationdate="20201116T055853Z">
+        <seg>If such match is found, it is replaced with the value of the &lt;x3/&gt;Replace&lt;x4/&gt; field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083637Z" creationid="Марианна" creationdate="20200929T083637Z">
@@ -16435,6 +16451,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194456Z" creationid="Марианна" creationdate="20201004T194456Z">
         <seg>The expression value in each data set string will be calculated using the formula set in the expression code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение исходных данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T055933Z" creationid="Марианна" creationdate="20201116T055933Z">
+        <seg>The source data value</seg>
       </tuv>
     </tu>
     <tu>
@@ -21485,6 +21509,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174730Z" creationid="Марианна" creationdate="20201005T174730Z">
         <seg>The comment example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример логики алгоритма:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T055923Z" creationid="Марианна" creationdate="20201116T055923Z">
+        <seg>The algorithm logics example:</seg>
       </tuv>
     </tu>
     <tu>
