@@ -12898,6 +12898,28 @@ Assertion failed: lie 1 != 0</seg>
         <seg>|Значение исходных данных|Новое значение|
 |-:|:-|
 |12|Плохо|
+|15|&lt;x1/&gt;&lt;null&gt;&lt;x2/&gt;|
+|24|Удовлетворительно|
+|35|&lt;x3/&gt;&lt;null&gt;&lt;x4/&gt;|
+|48|Отлично|
+|73|&lt;x5/&gt;&lt;null&gt;&lt;x6/&gt;|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T141859Z" creationid="Марианна" creationdate="20201116T141859Z">
+        <seg>|Source data value|New value|
+|-:|:-|
+|12|Poor|
+|15|&lt;x1/&gt;&lt;null&gt;&lt;x2/&gt;|
+|24|Satisfactory|
+|35|&lt;x3/&gt;&lt;null&gt;&lt;x4/&gt;|
+|48|Excellent|
+|73|&lt;x5/&gt;&lt;null&gt;&lt;x6/&gt;|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Значение исходных данных|Новое значение|
+|-:|:-|
+|12|Плохо|
 |15|Плохо|
 |24|Удовлетворительно|
 |35|Хорошо|
@@ -18361,6 +18383,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T141909Z" creationid="Марианна" creationdate="20201116T141909Z">
+        <seg>With value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На значение;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140343Z" creationid="Марианна" creationdate="20201116T140343Z">
@@ -22257,6 +22287,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пункт &lt;x1/&gt;На значение&lt;x2/&gt; заменяет все значения вне &lt;x3/&gt;Таблицы замен&lt;x4/&gt;, на введенное в строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142022Z" creationid="Марианна" creationdate="20201116T142022Z">
+        <seg>&lt;x1/&gt;With value&lt;x2/&gt; option replaces all values outside the &lt;x3/&gt;Replacement table&lt;x4/&gt; with the value stated in the row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пути импорта внешних модулей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085619Z" creationid="Марианна" creationdate="20201102T085619Z">
@@ -22541,6 +22579,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212316Z" creationid="Марианна" creationdate="20201012T212121Z">
         <seg>The Rostov Region</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С выбранным пунктом &lt;x1/&gt;На пропущенное&lt;x2/&gt;, данная таблица имела бы такой вид</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T141820Z" creationid="Марианна" creationdate="20201116T141820Z">
+        <seg>When &lt;x1/&gt;With empty&lt;x2/&gt; option is selected, this table would be as follows:</seg>
       </tuv>
     </tu>
     <tu>
