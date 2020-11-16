@@ -14277,6 +14277,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В строке, задающей новое значение, символы &lt;x7/&gt;$1&lt;x8/&gt; будут заменены на исходное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143848Z" creationid="Марианна" creationdate="20201116T143848Z">
+        <seg>&lt;x7/&gt;$1&lt;x8/&gt; characters will be replaced with the source value in the row that enables to set the new value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В строки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104255Z" creationid="Марианна" creationdate="20201006T104255Z">
