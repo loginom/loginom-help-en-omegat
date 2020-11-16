@@ -13437,6 +13437,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>БИК банка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143134Z" creationid="Марианна" creationdate="20201116T143134Z">
+        <seg>Bank BIC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Без сжатия.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062934Z" creationid="Марианна" creationdate="20200826T062934Z">
