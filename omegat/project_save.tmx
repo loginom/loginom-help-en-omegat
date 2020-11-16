@@ -22289,8 +22289,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Пункт &lt;x1/&gt;На значение&lt;x2/&gt; заменяет все значения вне &lt;x3/&gt;Таблицы замен&lt;x4/&gt;, на введенное в строке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T142022Z" creationid="Марианна" creationdate="20201116T142022Z">
-        <seg>&lt;x1/&gt;With value&lt;x2/&gt; option replaces all values outside the &lt;x3/&gt;Replacement table&lt;x4/&gt; with the value stated in the row.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142149Z" creationid="Марианна" creationdate="20201116T142022Z">
+        <seg>&lt;x1/&gt;With value&lt;x2/&gt; option replaces all values outside the &lt;x3/&gt;Replacement table&lt;x4/&gt; with the value entered into the row.</seg>
       </tuv>
     </tu>
     <tu>
