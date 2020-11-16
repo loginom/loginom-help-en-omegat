@@ -16787,6 +16787,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>И строку для ввода нового значения не попавших в &lt;x1/&gt;Таблицу замен&lt;x2/&gt; записей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T140547Z" creationid="Марианна" creationdate="20201116T140547Z">
+        <seg>And the row for input of the new value of the records not included into the &lt;x1/&gt;Replacement table&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
