@@ -17263,8 +17263,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Как видно из таблицы сравнения исходных данных с итоговыми, все значения не попавшие в &lt;x1/&gt;Таблицу замен&lt;x2/&gt; не заменяются, и выдаются в исходном виде.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T061158Z" creationid="Марианна" creationdate="20201116T061158Z">
-        <seg>Как видно из таблицы сравнения исходных данных с итоговыми, все значения не попавшие в &lt;x1/&gt;Replacement table&lt;x2/&gt; не заменяются, и выдаются в исходном виде.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T061754Z" creationid="Марианна" creationdate="20201116T061158Z">
+        <seg>As shown in the table of comparison of the source data with the final one, all data not included into the &lt;x1/&gt;Replacement table&lt;x2/&gt; is not replaced and it is shown in the source form.</seg>
       </tuv>
     </tu>
     <tu>
