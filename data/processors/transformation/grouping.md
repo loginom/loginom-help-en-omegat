@@ -26,7 +26,7 @@ Resulting table:
 | 13.07.2015 | Pears | 28 | 2 | 14 |
 | 13.07.2015 | Tomatoes | 22 | 1 | 22 |
 
-The example shoes that the group is formed by the unique combination of the fields values selected as the grouping ones.
+The example shows that the group is formed by the unique combination of the fields values selected as the grouping ones.
 
 %/spoiler%
 

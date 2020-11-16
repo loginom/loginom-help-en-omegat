@@ -147,7 +147,7 @@ Source table:
 
 ### Strings
 
-The cross table strings will be generated from the fields values. The similar field (fields) values will be grouped in the same manner as it is organized in the [Grouping](../../processors/transformation/grouping.md) handler.
+The cross table rows will be generated from the fields values. The similar field (fields) values will be grouped in the same manner as it is organized in the [Grouping](../../processors/transformation/grouping.md) handler.
 
 The fields order in this group has an impact on data sorting in the resulting table by these fields.
 
