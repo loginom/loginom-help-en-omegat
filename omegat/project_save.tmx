@@ -16423,6 +16423,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>За его настройку отвечает параметр &lt;x1/&gt;Точность&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063728Z" creationid="Марианна" creationdate="20201116T063728Z">
+        <seg>&lt;x1/&gt;Precision&lt;x2/&gt; parameter is required for its configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>За исключением способа &lt;x1/&gt;Разность&lt;x2/&gt;, каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105645Z" creationid="Марианна" creationdate="20201111T105645Z">
@@ -17079,6 +17087,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062757Z" creationid="Марианна" creationdate="20201116T062757Z">
         <seg>Match interval</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интервалы рассчитываются следующим образом: &lt;x3/&gt;от &lt;Значение поля замена&gt;-&lt;Точность&gt; до &lt;Значение поля замена&gt;+&lt;Точность&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063658Z" creationid="Марианна" creationdate="20201116T063658Z">
+        <seg>Intervals are calculated as follows: &lt;x3/&gt;from &lt;Replace field value&gt;-&lt;Precision&gt; to &lt;Replace field value&gt;+&lt;Precision&gt;&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21397,6 +21413,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194657Z" creationid="Марианна" creationdate="20200921T194657Z">
         <seg>Being originally created, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При поиске среди вещественных и целых данных возможно указание допустимого интервала поиска.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063839Z" creationid="Марианна" creationdate="20201116T063839Z">
+        <seg>It is possible to specify the allowable search interval when searching for real and integer data.</seg>
       </tuv>
     </tu>
     <tu>
