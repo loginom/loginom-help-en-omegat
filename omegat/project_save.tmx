@@ -11411,6 +11411,14 @@ interface IVariables {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>\D</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143204Z" creationid="Марианна" creationdate="20201116T143204Z">
+        <seg>\D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>\Пакеты\Scoring\Расчет скорингового балла\Сценарий</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084713Z" creationid="Марианна" creationdate="20200814T084713Z">
@@ -13437,10 +13445,42 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>БИК $1 указывается в платежном поручении</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143421Z" creationid="Марианна" creationdate="20201116T143421Z">
+        <seg>BIC $1 is specified in payment order</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>БИК 40147781 указывается в платежном поручении</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143438Z" creationid="Марианна" creationdate="20201116T143438Z">
+        <seg>BIC 40147781 is specified in payment order</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>БИК 40155000 указывается в платежном поручении</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143451Z" creationid="Марианна" creationdate="20201116T143451Z">
+        <seg>BIC 40155000 is specified in payment order</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>БИК банка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T143134Z" creationid="Марианна" creationdate="20201116T143134Z">
         <seg>Bank BIC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>БИК банка Замена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143158Z" creationid="Марианна" creationdate="20201116T143158Z">
+        <seg>Replace bank BIC</seg>
       </tuv>
     </tu>
     <tu>
@@ -19913,6 +19953,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065305Z" creationid="Марианна" creationdate="20200817T065305Z">
         <seg>Error — error text is specified, should it occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочный БИК</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143325Z" creationid="Марианна" creationdate="20201116T143325Z">
+        <seg>Wrong BIC</seg>
       </tuv>
     </tu>
     <tu>
