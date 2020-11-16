@@ -9735,6 +9735,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точность&lt;x2/&gt; равна &lt;x3/&gt;12&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062855Z" creationid="Марианна" creationdate="20201116T062855Z">
+        <seg>&lt;x1/&gt;Precision&lt;x2/&gt; is equal to &lt;x3/&gt;12&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Точность&lt;x2/&gt; — для полей целого и вещественного типов задает допустимый интервал от указанных в таблицах замен значений, при котором исходное значение будет заменено.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204042Z" creationid="Марианна" creationdate="20201006T204042Z">
@@ -12865,6 +12873,28 @@ Assertion failed: lie 1 != 0</seg>
 |15|15|
 |24|Satisfactory|
 |35|35|
+|48|Excellent|
+|73|73|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Значение исходных данных|Новое значение|
+|-:|:-|
+|12|Плохо|
+|15|Плохо|
+|24|Удовлетворительно|
+|35|Хорошо|
+|48|Отлично|
+|73|73|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062940Z" creationid="Марианна" creationdate="20201116T062940Z">
+        <seg>|Source data value|New value|
+|-:|:-|
+|12|Poor|
+|15|Poorо|
+|24|Satisfactory|
+|35|Good|
 |48|Excellent|
 |73|73|</seg>
       </tuv>
@@ -16621,6 +16651,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165341Z" creationid="Марианна" creationdate="20201111T165341Z">
         <seg>Values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значения не попавшие, ни в &lt;x1/&gt;Таблицу замен&lt;x2/&gt;, ни в &lt;x3/&gt;Допустимые интервалы&lt;x4/&gt;, обрабатываются согласно настройке параметра &lt;x5/&gt;Заменять остальное&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T063146Z" creationid="Марианна" creationdate="20201116T063146Z">
+        <seg>The values included neither into the &lt;x1/&gt;Replacement table&lt;x2/&gt;, nor into &lt;x3/&gt;Allowable intervals&lt;x4/&gt;, are processed according to the configured parameter - &lt;x5/&gt;Replace other&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24735,10 +24773,26 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>от 28 до 68</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062831Z" creationid="Марианна" creationdate="20201116T062831Z">
+        <seg>from 28 to 68</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>от 4 до 44</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062814Z" creationid="Марианна" creationdate="20201116T062814Z">
         <seg>from 4 to 44</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>от 40 до 80</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T062840Z" creationid="Марианна" creationdate="20201116T062840Z">
+        <seg>from 40 to 80</seg>
       </tuv>
     </tu>
     <tu>
