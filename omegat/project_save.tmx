@@ -16701,8 +16701,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Замена не попавших в Таблицу замен</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T134704Z" creationid="Марианна" creationdate="20201116T134704Z">
-        <seg>Substitution of the Replacements not Included into the Table</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T144359Z" creationid="Марианна" creationdate="20201116T134704Z">
+        <seg>Substitution of the Values not Included into the Replacement Table</seg>
       </tuv>
     </tu>
     <tu>
