@@ -14837,6 +14837,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбрав &lt;x1/&gt;На значение&lt;x2/&gt; и введя в строку &lt;x3/&gt;Вне оценочного диапазона&lt;x4/&gt;, получим результат</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142504Z" creationid="Марианна" creationdate="20201116T142504Z">
+        <seg>Having selected &lt;x1/&gt;With value&lt;x2/&gt; option and having entered into the row &lt;x3/&gt;Out of estimation range&lt;x4/&gt;, the following resilt will be recieved:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные поля</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082725Z" creationid="Марианна" creationdate="20201006T082725Z">
