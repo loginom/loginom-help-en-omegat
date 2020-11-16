@@ -1756,6 +1756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>48</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060257Z" creationid="Марианна" creationdate="20201116T060257Z">
+        <seg>48</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>5</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104126Z" creationid="Марианна" creationdate="20201006T104126Z">
@@ -16547,6 +16555,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения строк таблицы замен</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060150Z" creationid="Марианна" creationdate="20201116T060150Z">
+        <seg>Values of the replacement table rows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения этих полей станут заголовками столбцов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061456Z" creationid="Марианна" creationdate="20201023T061456Z">
@@ -16613,8 +16629,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Из значений полей  сформируются строки в кросс-таблице.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T070938Z" creationid="Марианна" creationdate="20201023T070938Z">
-        <seg>The cross table strings will be generated from the fields values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060104Z" creationid="Марианна" creationdate="20201023T070938Z">
+        <seg>The cross table rows will be generated from the fields values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18737,6 +18753,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новое значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060224Z" creationid="Марианна" creationdate="20201116T060224Z">
+        <seg>New value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новое условие добавляется нажатием на кнопку +.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T113204Z" creationid="Марианна" creationdate="20201113T113204Z">
@@ -19909,6 +19933,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064345Z" creationid="Марианна" creationdate="20201023T064345Z">
         <seg>Tiles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Плохо</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060329Z" creationid="Марианна" creationdate="20201116T060329Z">
+        <seg>Poor</seg>
       </tuv>
     </tu>
     <tu>
@@ -22385,6 +22417,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Совпадение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060216Z" creationid="Марианна" creationdate="20201116T060216Z">
+        <seg>Match</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Содержание выходного набора</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T084755Z" creationid="Марианна" creationdate="20201006T084755Z">
@@ -24561,6 +24601,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070924Z" creationid="Марианна" creationdate="20201019T070858Z">
         <seg>&lt;x1/&gt;With minimum data set&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>поле&lt;x1/&gt;"Замена"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060244Z" creationid="Марианна" creationdate="20201116T060244Z">
+        <seg>&lt;x1/&gt;"Replace" field</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>поле&lt;x1/&gt;"Значение"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T060254Z" creationid="Марианна" creationdate="20201116T060254Z">
+        <seg>&lt;x1/&gt;"Value field"</seg>
       </tuv>
     </tu>
     <tu>
