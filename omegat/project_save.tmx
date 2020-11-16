@@ -1748,6 +1748,38 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>40147781</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142906Z" creationid="Марианна" creationdate="20201116T142906Z">
+        <seg>40147781</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>40147О00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142920Z" creationid="Марианна" creationdate="20201116T142920Z">
+        <seg>40147О00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>40155000</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142909Z" creationid="Марианна" creationdate="20201116T142909Z">
+        <seg>40155000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>4017З001</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142913Z" creationid="Марианна" creationdate="20201116T142913Z">
+        <seg>4017З001</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>4358</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212124Z" creationid="Марианна" creationdate="20201012T212124Z">
@@ -16587,6 +16619,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Замена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142933Z" creationid="Марианна" creationdate="20201116T142933Z">
+        <seg>Replace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Замена не попавших в Таблицу замен</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T134704Z" creationid="Марианна" creationdate="20201116T134704Z">
@@ -16599,6 +16639,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T141638Z" creationid="Марианна" creationdate="20201116T055548Z">
         <seg>Replacement by Exact Match</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять остальное:&lt;e1/&gt;На регулярное выражение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143025Z" creationid="Марианна" creationdate="20201116T143025Z">
+        <seg>Replace other:&lt;e1/&gt;With regular expression</seg>
       </tuv>
     </tu>
     <tu>
@@ -17371,6 +17419,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164801Z" creationid="Марианна" creationdate="20201010T164801Z">
         <seg>Source table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исходные данные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T143011Z" creationid="Марианна" creationdate="20201116T143011Z">
+        <seg>Source data</seg>
       </tuv>
     </tu>
     <tu>
@@ -22489,6 +22545,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203408Z" creationid="Марианна" creationdate="20201023T203408Z">
         <seg>The result for each method will be recorded in a separate column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат замены</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201116T142949Z" creationid="Марианна" creationdate="20201116T142949Z">
+        <seg>Replacement result</seg>
       </tuv>
     </tu>
     <tu>
