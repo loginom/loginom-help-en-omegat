@@ -18,7 +18,7 @@ The component is designated for data import from the Data Warehouse [Deductor Wa
 
 It enables to configure import of the required data from the Data Warehouse.
 
-### Step 1. Selection of the Data Warehouse Object
+### Step 1. Select Data Warehouse Object
 
 * **Connection** enables to display a string of connection to data source. It cannot be edited.
 * **Activate** provides connection with the Data Warehouse if it has not been established yet. Upon connection establishment, the button is inactive, and the name is changed to *Activated*.
