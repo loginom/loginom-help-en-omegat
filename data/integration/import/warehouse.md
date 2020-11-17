@@ -26,7 +26,7 @@ It enables to configure import of the required data from the Data Warehouse.
 
 ### Step 2. Import from Data Warehouse
 
-This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and measures.
+This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and facts.
 
 The wizard window is divided into two areas:
 
