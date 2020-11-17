@@ -4748,6 +4748,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в случае замены числовых данных стоит учитывать интервалы, в которые попадет то или иное заменяемое значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T085545Z" creationid="Марианна" creationdate="20201117T085545Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt;In the case of replacement of the numeric data, it is required to consider the intervals into which this or that replaced value is included.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; вещественные числа записываются с использованием десятичной точки, например, &lt;x3/&gt;&lt;x4/&gt;2.71&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170052Z" creationid="Марианна" creationdate="20201005T170052Z">
