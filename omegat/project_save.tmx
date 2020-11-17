@@ -21781,6 +21781,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке соответствия между столбцами порта можно выбрать варианты замены или добавления столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084301Z" creationid="Марианна" creationdate="20201117T084301Z">
+        <seg>When configuring port columns mapping, it is possible to select columns replacement or addition options.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При необходимости удаления всех связей используется кнопка &lt;x9/&gt; &lt;x10/&gt; &lt;x11/&gt;Удалить все связи&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T094501Z" creationid="Марианна" creationdate="20200918T094501Z">
