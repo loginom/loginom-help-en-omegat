@@ -33,7 +33,7 @@ It displays the input variables and replacement method for each variable:
 
 The area displays the replacement table for the selected variable.
 
-To enter the new string to the replacement table, it is required to use ![add](../../images/icons/toolbar-controls/plus_default.svg) button. The table can contain strings for search and replacement according to the following requirements:
+To enter the new row to the replacement table, it is required to use ![add](../../images/icons/toolbar-controls/plus_default.svg) button. The table can contain rows for search and replacement according to the following requirements:
 
 * **exact match**;
 * **regular expression**.

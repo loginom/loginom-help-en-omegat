@@ -24,7 +24,7 @@
 
 ### Output
 
-* ![Выходной набор данных](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** (таблица данных).
+* ![Output data set](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** (data table).
 
 ## Wizard
 
