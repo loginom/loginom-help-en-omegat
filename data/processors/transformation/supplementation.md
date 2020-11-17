@@ -1,4 +1,4 @@
-# ![Дополнение данных](../../images/icons/components/enrich-data_default.svg) Дополнение данных
+# ![Enrich Data](../../images/icons/components/enrich-data_default.svg) Enrich Data
 
 Соединение таблиц данных на основе связи по ключевым полям — аналог операции `LEFT JOIN` в SQL. Узел выполняет действие аналогичное [Левому соединению](./join/left.md) узла [Соединение](./join/README.md), но количество присоединяемых таблиц произвольно.
 
