@@ -20583,8 +20583,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Параметры импорта с разделителями</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T094031Z" creationid="Марианна" creationdate="20200826T094031Z">
-        <seg>Parameters of Import with Separators</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T102112Z" creationid="Марианна" creationdate="20200826T094031Z">
+        <seg>Import Parameters with Separators</seg>
       </tuv>
     </tu>
     <tu>
