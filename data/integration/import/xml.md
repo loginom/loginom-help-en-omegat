@@ -17,7 +17,7 @@ The component is designated for data tables import from the XML files.
 
 ## Wizard
 
-### Step 1. Configuration of Connection to the XML File
+### Step 1. Import from XML File
 
 * **File storage** enables to display information on method of connection to the source file.
 * **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
