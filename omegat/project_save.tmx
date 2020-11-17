@@ -19309,6 +19309,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новые значения также вычисляются регулярными выражениями;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T083554Z" creationid="Марианна" creationdate="20201117T083554Z">
+        <seg>New values are also computed using regular expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новые порты могут быть двух типов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T161023Z" creationid="Марианна" creationdate="20201018T161023Z">
