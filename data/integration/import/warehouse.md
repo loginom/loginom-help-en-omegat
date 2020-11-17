@@ -40,7 +40,7 @@ The item can be only in one list. It is possible to move items between the lists
 * **Parameter** is a parameter caption. When cursor hovering, the full caption name appears.
 * **Type** enables to display the item type. There are the following items:
    * ![Dimension](../../images/icons/data-warehouse/dimension_default.svg) *Dimension*.
-   * ![Measure](../../images/icons/data-warehouse/fact_default.svg) *Measure*.
+   * ![Fact](../../images/icons/data-warehouse/fact_default.svg) *Fact*.
    * ![Attribute](../../images/icons/data-warehouse/attribute_default.svg) *Attribute*.
 
 It is possible to sort the list by pressing the *Parameter* or the *Type* column. It is possible to select several items by holding down the Shift or Ctrl key.
