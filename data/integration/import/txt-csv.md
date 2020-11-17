@@ -24,7 +24,7 @@ The following parameters are specified at the first configuration stage:
 * **First line title** is a flag that enables to determine that captions of the fileds of the created data set are present in the first line of the imported text.
 * **Skip rows** means count of the rows from the text beginning that cannot be imported.
 
-### Step 2. Configuration of the Import Formats
+### Step 2. Configure Import Formats
 
 The following parameters are specified at the configuration stage:
 
