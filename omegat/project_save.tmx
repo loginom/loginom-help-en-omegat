@@ -9415,6 +9415,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сортировка&lt;x2/&gt; &lt;x3/&gt;Сортировка&lt;x4/&gt; — сортировка таблицы по полю исходного значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T091445Z" creationid="Марианна" creationdate="20201117T091445Z">
+        <seg>&lt;x1/&gt;Sort&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt; enables to sort the table by field of the source value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Состояние входа&lt;x2/&gt; — строка состояния входа &lt;x3/&gt;Источник данных&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161300Z" creationid="Марианна" creationdate="20200917T161300Z">
