@@ -17335,6 +17335,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения полей таблицы замен</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T095118Z" creationid="Марианна" creationdate="20201117T095118Z">
+        <seg>Values of the replacement table fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения строк таблицы замен</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060150Z" creationid="Марианна" creationdate="20201116T060150Z">
@@ -25243,8 +25251,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Эти значения заменяются строкой &lt;x7/&gt;Ошибочный БИК&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T094958Z" creationid="Марианна" creationdate="20201117T094958Z">
-        <seg>These values are replaced with &lt;x7/&gt;Wrong BIC&lt;x8/&gt; string.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T095134Z" creationid="Марианна" creationdate="20201117T094958Z">
+        <seg>These values are replaced with &lt;x7/&gt;Wrong BIC&lt;x8/&gt; row.</seg>
       </tuv>
     </tu>
     <tu>
