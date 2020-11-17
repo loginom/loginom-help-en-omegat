@@ -6109,6 +6109,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Замена&lt;x2/&gt; &lt;x3/&gt;Замена&lt;x4/&gt; — поле содержит новые значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092629Z" creationid="Марианна" creationdate="20201117T092629Z">
+        <seg>&lt;x1/&gt;Replace&lt;x2/&gt; &lt;x3/&gt;Replace&lt;x4/&gt;: the field contains new values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Замена&lt;x2/&gt; Замена</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T144832Z" creationid="Марианна" creationdate="20201116T144832Z">
@@ -6145,6 +6153,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055110Z" creationid="Марианна" creationdate="20200812T055110Z">
         <seg>&lt;x1/&gt;Imputation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; &lt;x3/&gt;Значение&lt;x4/&gt; — поле содержит заменяемые значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092602Z" creationid="Марианна" creationdate="20201117T092602Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; &lt;x3/&gt;Value&lt;x4/&gt;: the field contains replaced values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6497,6 +6513,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154938Z" creationid="Марианна" creationdate="20200810T154938Z">
         <seg>&lt;x1/&gt;Interface&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информационное&lt;x2/&gt; &lt;x3/&gt;Информационное&lt;x4/&gt; — поле содержит дополнительный вариант нового значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092707Z" creationid="Марианна" creationdate="20201117T092707Z">
+        <seg>&lt;x1/&gt;Info&lt;x2/&gt; &lt;x3/&gt;Info&lt;x4/&gt;: the field contains an additional option of the new value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7321,6 +7345,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084549Z" creationid="Марианна" creationdate="20201117T084507Z">
         <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: the output data set won't be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не используется&lt;x2/&gt; &lt;x3/&gt;Не используемое&lt;x4/&gt; — поле таблицы замен не будет использоваться;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092532Z" creationid="Марианна" creationdate="20201117T092532Z">
+        <seg>&lt;x1/&gt;Not used&lt;x2/&gt; &lt;x3/&gt;Not used&lt;x4/&gt;: the replacement table field won't be used.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16415,6 +16447,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T191041Z" creationid="Марианна" creationdate="20200929T191041Z">
         <seg>Additional opening of recursive nodes is possible in the manual mode upon tree building.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дополнительные варианты замены выводятся в результирующем наборе данных отдельным столбцом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092755Z" creationid="Марианна" creationdate="20201117T092755Z">
+        <seg>Additional replacement options are displayed in the resulting data set in the form of a separate column.</seg>
       </tuv>
     </tu>
     <tu>
