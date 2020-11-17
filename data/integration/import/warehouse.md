@@ -56,7 +56,7 @@ The context menu:
 * **Field** is the same as the *Parameter* in the *Available items*.
 * **Type** is the same as the *Type* in the *Available items*.
 * **Condition** for *Dimensions* and *Attributes* enables to select the filtration condition from the drop-down list.
-* **Value** for *Measures* displays the selected [aggregations](../../processors/func/aggregation-functions.md), the filtration value is displayed for other items if a condition is specified.
+* **Value** for *Fact* displays the selected [aggregations](../../processors/func/aggregation-functions.md), the filtration value is displayed for other items if a condition is specified.
 * ![Delete](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to move the required parameter back to the *Available items* list.
 
 > **Note:** if the item showing is disabled, and no *conditions * and/or *values* are specified, upon the list saving, this item will be moved back to the *Available items* list.
@@ -101,6 +101,6 @@ It enables to select the rows with which values will be compared.
 * ![Add](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add a new row to the list.
 * ![Edit](../../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to edit the row added to the list.
 
-Using the![filter](../../images/icons/toolbar-controls/filter_default.svg) *Filtration* field, it is possible to decrease the visible part of the list.
+Using the![filter](../../images/icons/toolbar-controls/filter_default.svg) *Filter* field, it is possible to decrease the visible part of the list.
 
 When the work with the list is completed, it is required to press the *Apply* button to introduce changes, or the *Cancel* button to return to the state before the work with the list.
