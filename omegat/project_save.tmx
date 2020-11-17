@@ -9695,6 +9695,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица замен N&lt;x2/&gt; — наименование принимающего таблицу порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084931Z" creationid="Марианна" creationdate="20201117T084931Z">
+        <seg>&lt;x1/&gt;Replacement table N&lt;x2/&gt;: the name of the table accepting port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица замен&lt;x2/&gt; (Таблица замен N) — используется внешняя таблица замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084653Z" creationid="Марианна" creationdate="20201117T084653Z">
@@ -15501,8 +15509,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данный способ присутствует в настройках, если на входной порт обработчика подаются данные внешней таблицы замен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T084812Z" creationid="Марианна" creationdate="20201117T084723Z">
-        <seg>This method is available in the settings if the external replacement table data are supplied to the input handler port.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084852Z" creationid="Марианна" creationdate="20201117T084723Z">
+        <seg>This method is available in the settings if the external replacement table data is supplied to the input handler port.</seg>
       </tuv>
     </tu>
     <tu>
