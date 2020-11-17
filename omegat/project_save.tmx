@@ -5941,6 +5941,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дополнение данных&lt;x2/&gt; Дополнение данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T095527Z" creationid="Марианна" creationdate="20201117T095527Z">
+        <seg>&lt;x1/&gt;Enrich Data&lt;x2/&gt; Enrich Data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение до наибольшего набора&lt;x2/&gt; — предлагается выбрать один из вариантов дополнения наименьших по количеству записей таблиц:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070136Z" creationid="Марианна" creationdate="20201019T065357Z">
