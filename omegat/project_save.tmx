@@ -8495,8 +8495,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Замена по точному совпадению имеет приоритет перед заменой по регулярному выражению.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T092133Z" creationid="Марианна" creationdate="20201117T092133Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Замена по точному совпадению имеет приоритет перед заменой по регулярному выражению.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092225Z" creationid="Марианна" creationdate="20201117T092133Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Replacement by exact match prevails over replacement by regular expression.</seg>
       </tuv>
     </tu>
     <tu>
