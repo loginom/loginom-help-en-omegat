@@ -40,7 +40,7 @@ The following parameters are specified at the configuration stage:
 * Formats:
    * **Date format**: the parameter enables to set the date format used in the imported text.
 
-### Step 3. Parameters of Import with Separators
+### Step 3. Import Parameters with Separators
 
 It is required to specify the following parameters at the configuration stage:
 
