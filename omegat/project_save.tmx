@@ -14501,6 +14501,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае выходная таблица будет иметь вид:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T090055Z" creationid="Марианна" creationdate="20201117T090055Z">
+        <seg>In this case, the output table will be as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае данную колонку необходимо свети к одному значению с помощью методов агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T083657Z" creationid="Марианна" creationdate="20200924T083657Z">
