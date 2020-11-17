@@ -5037,6 +5037,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; (таблица данных) — набор данных, подлежащий изменению;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T083719Z" creationid="Марианна" creationdate="20201117T083719Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; (data table) denotes a data set to be changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T071625Z" creationid="Марианна" creationdate="20201113T071625Z">
