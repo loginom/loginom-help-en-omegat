@@ -96,14 +96,14 @@ It is required to select **Usage type** for the table fields from the following 
 * ![Replace](../../../images/icons/usage-types/replace-by_default.svg) **Replace**: the field contains new values.
 * ![Info](../../../images/icons/usage-types/unspecified_default.svg) **Info**: the field contains an additional option of the new value. Additional replacement options are displayed in the resulting data set in the form of a separate column.
 
-> **Примечание:** Если замена одного значения может быть произведена по условиям нескольких строк таблицы замен, то приоритет имеет первая из них. В связи с этим **сортировка таблицы замен может влиять на результат обработки**. Данное правило не применяется при использовании [допустимого интервала](./exact-match.md#primenenie-dopustimogo-intervala) (см. параметр *Точность*).
+> **Note:** If one value can be replaced according to conditions of several replacement table rows, the first one must prevail. Thus, **table sorting can have an impact on the processing result**. This rule is not applied when using the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala) (refer to *Precision* parameter).
 
 ### Additional Parameters
 
-* **Заменять остальные** — содержит варианты замены значений, не найденных при помощи таблицы замен.
-   * **Не заменять** — замены производиться не будут.
-   * **На пропущенное** — значения будут заменены на Null.
-   * **На значение** — значения будут заменены на указанное.
-   * **На регулярное выражение** — новое значение будет вычислено с использованием синтаксиса [регулярного выражения](./regexp-match.md).
-* **Точность** — для полей целого и вещественного типов задает [допустимый интервал](./exact-match.md#primenenie-dopustimogo-intervala) от указанных в таблицах замен значений, при котором исходное значение будет заменено.
-* **Case-sensitive strings**: the flag installs the case-sensitive mode of values search in the replacement tables. По умолчанию данный режим не используется.
+* **Replace other** contains replacement options of the values that have not been found using the replacement table.
+   * **Do not replace**: no replacement is performed.
+   * **With empty**: values will be replaced with Null.
+   * **With value**: values will be replaced with the specified value.
+   * **With regular expression**: the new value will be calculated using the [regular expression](./regexp-match.md) syntax.
+* **Precision**: enables to set the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala) based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced.
+* **Case-sensitive strings**: the flag installs the case-sensitive mode of values search in the replacement tables. This mode is not used by default.
