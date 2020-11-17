@@ -13957,6 +13957,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В каждом значении столбца исходного набора регулярным выражением производится поиск заданной последовательности символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094259Z" creationid="Марианна" creationdate="20201117T094259Z">
+        <seg>The regular expression is used to search for the set sequence of characters in each column value of the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В калькуляторе существует два способа расчета выражений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085322Z" creationid="Марианна" creationdate="20201015T085322Z">
@@ -17039,6 +17047,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T144359Z" creationid="Марианна" creationdate="20201116T134704Z">
         <seg>Substitution of the Values not Included into the Replacement Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Замена по регулярному выражению</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094002Z" creationid="Марианна" creationdate="20201117T094002Z">
+        <seg>Replacement by Regular Expression</seg>
       </tuv>
     </tu>
     <tu>
