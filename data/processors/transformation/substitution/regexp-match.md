@@ -1,15 +1,15 @@
-# Замена по регулярному выражению
+# Replacement by Regular Expression
 
-В каждом значении столбца исходного набора регулярным выражением производится поиск заданной последовательности символов. Если последовательность обнаружена, то значение заменяется на новое. Замена по регулярному выражению применима только к данным строкового типа.
+The regular expression is used to search for the set sequence of characters in each column value of the source data set. if the sequence is detected, the value is replaced with the new one. Replacement by regular expression is applied only to the data of the string type.
 
-> **Примечание:** Регулярное выражение — это шаблон поиска последовательностей символов. Задается на языке правил, использующем подмножество [регулярных выражений](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) Perl (Perl regular expressions, regex).
+> **Note:** The regular expression is a template used for search for sequences of characters. It is set using the language of rules based on a subset of [regular expressions ](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) Perl (Perl regular expressions, regex).
 
 For example:
 
-В обозначении банковского БИК должны содержаться только цифры. Регулярное выражение `\D` обозначает все символы, не являющиеся цифрами. В некоторых значениях БИК содержатся буквы `О` и `З` вместо цифр. Эти значения заменяются строкой `Ошибочный БИК`.
+Only digits must be used in the bank BIC. The regular expression `\D` denotes all characters that are not digits. There are `О` and `З` letters instead of digits in some BIC values. These values are replaced with `Wrong BIC` row.
 
 <table>
- <tr><th>Source data</th><th colspan="2">Значения полей таблицы замен</th><th>Replacement result</th></tr>
+ <tr><th>Source data</th><th colspan="2">Values of the replacement table fields</th><th>Replacement result</th></tr>
  <tr><td>Bank BIC</td><th>Replace</th><th>Value</th><td>Replace bank BIC</td></tr>
  <tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Wrong BIC</td><td>Wrong BIC</td></tr>
  <tr><td>40147781</td><td>40147781</td></tr>
@@ -17,4 +17,4 @@ For example:
  <tr><td>4017З001</td><td>Wrong BIC</td></tr>
 </table>
 
-Значения не попавшие в *Таблицу замен* обрабатываются согласно настройке параметра [Заменять остальное](./other-match.md).
+The values not included into the *Replacement table* are processed according to the configured parameter - [Replace other](./other-match.md).
