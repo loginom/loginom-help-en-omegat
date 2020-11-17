@@ -2638,8 +2638,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее &lt;x3/&gt;Подключения к набору XSD-схем&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T102238Z" creationid="Марианна" creationdate="20200829T210635Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to the XSD schema source (required port) enables connection to the &lt;x3/&gt;Connection to set of the XSD schemas&lt;x4/&gt; configured earlier.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T102443Z" creationid="Марианна" creationdate="20200829T210635Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connect to XSD schema source (required port) enables connection to the &lt;x3/&gt;Connection to set of the XSD schemas&lt;x4/&gt; configured earlier.</seg>
       </tuv>
     </tu>
     <tu>
