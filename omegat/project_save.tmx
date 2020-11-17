@@ -14133,6 +14133,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых значениях БИК содержатся буквы &lt;x3/&gt;О&lt;x4/&gt; и &lt;x5/&gt;З&lt;x6/&gt; вместо цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094932Z" creationid="Марианна" creationdate="20201117T094932Z">
+        <seg>There are &lt;x3/&gt;О&lt;x4/&gt; and &lt;x5/&gt;З&lt;x6/&gt; letters instead of digits in some BIC values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нем будет подсчитано, сколько раз в исходном наборе данных встречается каждая комбинация из колонок и строк.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061424Z" creationid="Марианна" creationdate="20201023T061424Z">
@@ -14185,6 +14193,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T163305Z" creationid="Марианна" creationdate="20201005T163305Z">
         <seg>The expression calculation formula is set in the code area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В обозначении банковского БИК должны содержаться только цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094819Z" creationid="Марианна" creationdate="20201117T094819Z">
+        <seg>Only digits must be used in the bank BIC.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23085,6 +23101,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Регулярное выражение &lt;x1/&gt;\D&lt;x2/&gt; обозначает все символы, не являющиеся цифрами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094851Z" creationid="Марианна" creationdate="20201117T094851Z">
+        <seg>The regular expression &lt;x1/&gt;\D&lt;x2/&gt; denotes all characters that are not digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Редактирование возможно лишь для &lt;x5/&gt;Черновика&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140623Z" creationid="Марианна" creationdate="20200816T140623Z">
@@ -25213,6 +25237,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083459Z" creationid="Марианна" creationdate="20201006T083459Z">
         <seg>It is possible to perform the same actions using the quick access toolbar buttons:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эти значения заменяются строкой &lt;x7/&gt;Ошибочный БИК&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094958Z" creationid="Марианна" creationdate="20201117T094958Z">
+        <seg>These values are replaced with &lt;x7/&gt;Wrong BIC&lt;x8/&gt; string.</seg>
       </tuv>
     </tu>
     <tu>
