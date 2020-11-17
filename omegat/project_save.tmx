@@ -17649,8 +17649,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Импорт из хранилища данных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T194618Z" creationid="Марианна" creationdate="20200827T194618Z">
-        <seg>Import from the Data Warehouse</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T102740Z" creationid="Марианна" creationdate="20200827T194618Z">
+        <seg>Import from Data Warehouse</seg>
       </tuv>
     </tu>
     <tu>
