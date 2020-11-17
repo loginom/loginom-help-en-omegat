@@ -19053,6 +19053,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка внутренней таблицы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T085034Z" creationid="Марианна" creationdate="20201117T085034Z">
+        <seg>Configuration of the Internal Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка входного набора</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T111525Z" creationid="Марианна" creationdate="20201001T111525Z">
@@ -20065,6 +20073,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085707Z" creationid="Марианна" creationdate="20201102T085707Z">
         <seg>Relative path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отображает внешнюю или внутреннюю таблицу замен для выбранного поля исходного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T085009Z" creationid="Марианна" creationdate="20201117T085009Z">
+        <seg>It displays the external or internal replacement table for the selected field of the source data set.</seg>
       </tuv>
     </tu>
     <tu>
