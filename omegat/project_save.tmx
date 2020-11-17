@@ -19741,6 +19741,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Окно мастера настройки состоит из 3-х областей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084330Z" creationid="Марианна" creationdate="20201117T084330Z">
+        <seg>The wizard window consists of three areas:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Окно мастера настройки состоит из трех областей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161408Z" creationid="Марианна" creationdate="20201006T161408Z">
