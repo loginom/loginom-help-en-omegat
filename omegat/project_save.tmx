@@ -18967,8 +18967,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге: измерениями, атрибутами и фактами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T201025Z" creationid="Марианна" creationdate="20200827T195507Z">
-        <seg>This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and measures.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T102828Z" creationid="Марианна" creationdate="20200827T195507Z">
+        <seg>This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and facts.</seg>
       </tuv>
     </tu>
     <tu>
