@@ -21669,6 +21669,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При вводе вручную таблицы замены доступны ряд действий через панель инструментов области:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T090753Z" creationid="Марианна" creationdate="20201117T090753Z">
+        <seg>When entering the replacement table manually, the following actions are available by means of the area toolbar:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При вводе таблицы замены доступен ряд действий через панель инструментов области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T201738Z" creationid="Марианна" creationdate="20201006T201738Z">
