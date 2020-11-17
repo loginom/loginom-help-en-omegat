@@ -6287,8 +6287,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт&lt;x2/&gt; &lt;x3/&gt;Импорт&lt;x4/&gt; — импорт таблицы замен из текстового файла определенной &lt;x5/&gt;структуры&lt;x6/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T091241Z" creationid="Марианна" creationdate="20201117T091241Z">
-        <seg>&lt;x1/&gt;Import&lt;x2/&gt; &lt;x3/&gt;Import&lt;x4/&gt; provides import from the text file with a particular &lt;x5/&gt;structure&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T091321Z" creationid="Марианна" creationdate="20201117T091241Z">
+        <seg>&lt;x1/&gt;Import&lt;x2/&gt; &lt;x3/&gt;Import&lt;x4/&gt; provides import of the replacement table from the text file with a particular &lt;x5/&gt;structure&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10483,6 +10483,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202434Z" creationid="Марианна" creationdate="20201006T202434Z">
         <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt; enables to save the replacement table in the specified text file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; &lt;x3/&gt;Экспорт&lt;x4/&gt; — экспорт таблицы замен в текстовый файл;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T091350Z" creationid="Марианна" creationdate="20201117T091300Z">
+        <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt; provides export of the replacement table to the text file.</seg>
       </tuv>
     </tu>
     <tu>
