@@ -8621,6 +8621,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Регулярное выражение — это шаблон поиска последовательностей символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094516Z" creationid="Марианна" creationdate="20201117T094516Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The regular expression is a template used for search for sequences of characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Режим работы калькулятора &lt;x3/&gt;Выражение&lt;x4/&gt; или &lt;x5/&gt;JavaScript&lt;x6/&gt; выбирается для всех полей, т.е. нельзя установить для одного поля синтаксис &lt;x7/&gt;Выражение&lt;x8/&gt;, а для другого &lt;x9/&gt;JavaScript&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085818Z" creationid="Марианна" creationdate="20201015T085544Z">
@@ -16867,6 +16875,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если последовательность обнаружена, то значение заменяется на новое.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094321Z" creationid="Марианна" creationdate="20201117T094321Z">
+        <seg>if the sequence is detected, the value is replaced with the new one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если путь начинается с "/", то он интерпретируется как абсолютный внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt; и считается от каталога пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090444Z" creationid="Марианна" creationdate="20201102T090444Z">
@@ -17055,6 +17071,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094002Z" creationid="Марианна" creationdate="20201117T094002Z">
         <seg>Replacement by Regular Expression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Замена по регулярному выражению применима только к данным строкового типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T094427Z" creationid="Марианна" creationdate="20201117T094427Z">
+        <seg>Replacement by regular expression is applied only to the data of the string type.</seg>
       </tuv>
     </tu>
     <tu>
