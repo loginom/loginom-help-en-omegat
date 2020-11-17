@@ -15501,8 +15501,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данный способ присутствует в настройках, если на входной порт обработчика подаются данные внешней таблицы замен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T084723Z" creationid="Марианна" creationdate="20201117T084723Z">
-        <seg>This method is available in the settings if .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084812Z" creationid="Марианна" creationdate="20201117T084723Z">
+        <seg>This method is available in the settings if the external replacement table data are supplied to the input handler port.</seg>
       </tuv>
     </tu>
     <tu>
