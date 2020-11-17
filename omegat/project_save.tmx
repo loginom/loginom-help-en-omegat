@@ -19407,8 +19407,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройка подключения к файлу XML</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T210741Z" creationid="Марианна" creationdate="20200829T210741Z">
-        <seg>Configuration of Connection to the XML File</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T104049Z" creationid="Марианна" creationdate="20200829T210741Z">
+        <seg>Import from XML File</seg>
       </tuv>
     </tu>
     <tu>
