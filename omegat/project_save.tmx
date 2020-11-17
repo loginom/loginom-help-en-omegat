@@ -6133,6 +6133,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заменять остальные&lt;x2/&gt; — содержит варианты замены значений, не найденных при помощи таблицы замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093329Z" creationid="Марианна" creationdate="20201117T093329Z">
+        <seg>&lt;x1/&gt;Replace other&lt;x2/&gt; contains replacement options of the values that have not been found using the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заменять остальные&lt;x2/&gt; — содержит варианты замены значений, не найденных при помощи таблицы замен:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203438Z" creationid="Марианна" creationdate="20201006T203438Z">
@@ -7197,6 +7205,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;На значение&lt;x2/&gt; — значения будут заменены на указанное.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093427Z" creationid="Марианна" creationdate="20201117T093427Z">
+        <seg>&lt;x1/&gt;With value&lt;x2/&gt;: values will be replaced with the specified value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На пропущенное&lt;x2/&gt; — значения будут заменены на Null.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093407Z" creationid="Марианна" creationdate="20201117T093407Z">
+        <seg>&lt;x1/&gt;With empty&lt;x2/&gt;: values will be replaced with Null.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На регулярное выражение&lt;x2/&gt; — новое значение будет вычислено с использованием синтаксиса &lt;x3/&gt;регулярного выражения&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093524Z" creationid="Марианна" creationdate="20201117T093524Z">
+        <seg>&lt;x1/&gt;With regular expression&lt;x2/&gt;: the new value will be calculated using the &lt;x3/&gt;regular expression&lt;x4/&gt; syntax.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Набор XSD-схем&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185302Z" creationid="Марианна" creationdate="20200810T184320Z">
@@ -7345,6 +7377,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084549Z" creationid="Марианна" creationdate="20201117T084507Z">
         <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: the output data set won't be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не заменять&lt;x2/&gt; — замены производиться не будут.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093346Z" creationid="Марианна" creationdate="20201117T093346Z">
+        <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: no replacement is performed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9995,6 +10035,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062855Z" creationid="Марианна" creationdate="20201116T062855Z">
         <seg>&lt;x1/&gt;Precision&lt;x2/&gt; is equal to &lt;x3/&gt;12&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точность&lt;x2/&gt; — для полей целого и вещественного типов задает &lt;x3/&gt;допустимый интервал&lt;x4/&gt; от указанных в таблицах замен значений, при котором исходное значение будет заменено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093643Z" creationid="Марианна" creationdate="20201117T093643Z">
+        <seg>&lt;x1/&gt;Precision&lt;x2/&gt;: enables to set the &lt;x3/&gt;allowable interval&lt;x4/&gt; based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced.</seg>
       </tuv>
     </tu>
     <tu>
