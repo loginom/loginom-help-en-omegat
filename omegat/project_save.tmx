@@ -24721,6 +24721,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эти таблицы можно задать вручную в мастере настройки (внутренние) или подать на вход обработчика (внешние).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T083327Z" creationid="Марианна" creationdate="20201117T083327Z">
+        <seg>It is possible to set these tables manually in the wizard (internal) or send to the handler port (external).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это количество задается параметром "Количество групп" .</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202900Z" creationid="Марианна" creationdate="20200921T202900Z">
