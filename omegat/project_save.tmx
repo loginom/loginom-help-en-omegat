@@ -15253,8 +15253,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выбор объекта хранилища данных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T193837Z" creationid="Марианна" creationdate="20200827T193837Z">
-        <seg>Selection of the Data Warehouse Object</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T102659Z" creationid="Марианна" creationdate="20200827T193837Z">
+        <seg>Select Data Warehouse Object</seg>
       </tuv>
     </tu>
     <tu>
