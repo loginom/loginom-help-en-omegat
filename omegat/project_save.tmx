@@ -16043,6 +16043,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для полей таблицы необходимо выбрать &lt;x1/&gt;Назначение&lt;x2/&gt; из следующих вариантов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092412Z" creationid="Марианна" creationdate="20201117T092412Z">
+        <seg>It is required to select &lt;x1/&gt;Usage type&lt;x2/&gt; for the table fields from the following options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102731Z" creationid="Марианна" creationdate="20200711T104436Z">
