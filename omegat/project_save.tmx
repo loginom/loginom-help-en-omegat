@@ -4852,6 +4852,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ввод вручную&lt;x2/&gt; — используется внутренняя таблица замен;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084618Z" creationid="Марианна" creationdate="20201117T084618Z">
+        <seg>&lt;x1/&gt;Manual input&lt;x2/&gt;: the internal replacement table is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Веб-сервисы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185816Z" creationid="Марианна" creationdate="20200810T185816Z">
@@ -7287,8 +7295,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Не заменять&lt;x2/&gt; — выходной набор данных замены производиться не будут;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T084507Z" creationid="Марианна" creationdate="20201117T084507Z">
-        <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt; — выходной набор данных замены производиться не будут;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084549Z" creationid="Марианна" creationdate="20201117T084507Z">
+        <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: the output data set won't be replaced.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9683,6 +9691,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T091743Z" creationid="Марианна" creationdate="20201009T091743Z">
         <seg>&lt;x1/&gt;Table to variables&lt;x2/&gt; enables to transform a data table to a set of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица замен&lt;x2/&gt; (Таблица замен N) — используется внешняя таблица замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084653Z" creationid="Марианна" creationdate="20201117T084653Z">
+        <seg>&lt;x1/&gt;Replacement table&lt;x2/&gt; (Replacement table N): the external replacement table is used.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15479,6 +15495,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T174016Z" creationid="Марианна" creationdate="20201022T174016Z">
         <seg>Data of the third group of fields are used for calculation of &lt;x1/&gt;measures&lt;x2/&gt; — &lt;x3/&gt;aggregated values&lt;x4/&gt; at the intersection of strings and columns of the pivot table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данный способ присутствует в настройках, если на входной порт обработчика подаются данные внешней таблицы замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084723Z" creationid="Марианна" creationdate="20201117T084723Z">
+        <seg>This method is available in the settings if .</seg>
       </tuv>
     </tu>
     <tu>
