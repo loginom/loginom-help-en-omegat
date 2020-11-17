@@ -4574,8 +4574,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; — отображение информации о методе сжатия LGD-файла, использованном при его создании.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T195613Z" creationid="Марианна" creationdate="20200826T062922Z">
-        <seg>&lt;x1/&gt;Compression algorithm&lt;x2/&gt; enables to display information on the LGD file compression method used for its creation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T100612Z" creationid="Марианна" creationdate="20200826T062922Z">
+        <seg>&lt;x1/&gt;Compression&lt;x2/&gt; enables to display information on the LGD file compression method used for its creation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19503,8 +19503,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройки форматов импорта</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T085702Z" creationid="Марианна" creationdate="20200826T085702Z">
-        <seg>Configuration of the Import Formats</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T100858Z" creationid="Марианна" creationdate="20200826T085702Z">
+        <seg>Configure Import Formats</seg>
       </tuv>
     </tu>
     <tu>
