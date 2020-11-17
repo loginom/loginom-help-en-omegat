@@ -7125,6 +7125,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Набор данных&lt;x2/&gt; &lt;x3/&gt;Присоединяемая таблица &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (таблица данных) — набор данных, содержащий таблицу замен;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T083831Z" creationid="Марианна" creationdate="20201117T083831Z">
+        <seg>&lt;x1/&gt;Data set&lt;x2/&gt; &lt;x3/&gt;Joined table &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (data table) denotes a data set that contains a replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Навигация.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122717Z" creationid="Марианна" creationdate="20200814T122717Z">
