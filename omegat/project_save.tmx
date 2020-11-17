@@ -6615,8 +6615,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Исходные данные&lt;x2/&gt; — в табличной части окна мастера будет показан исходный вариант загружаемых данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T191124Z" creationid="Марианна" creationdate="20200825T190834Z">
-        <seg>&lt;x1/&gt;Source data&lt;x2/&gt;: the source version of the downloaded data wil be displayed in the table wizard part.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T103526Z" creationid="Марианна" creationdate="20200825T190834Z">
+        <seg>&lt;x1/&gt;Raw data&lt;x2/&gt;: the source version of the downloaded data wil be displayed in the table wizard part.</seg>
       </tuv>
     </tu>
     <tu>
