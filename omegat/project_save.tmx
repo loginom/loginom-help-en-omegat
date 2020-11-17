@@ -19157,6 +19157,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка внешней таблицы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092259Z" creationid="Марианна" creationdate="20201117T092259Z">
+        <seg>Configuration of the External Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка внутренней таблицы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T085034Z" creationid="Марианна" creationdate="20201117T085034Z">
