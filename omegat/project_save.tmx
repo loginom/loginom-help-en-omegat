@@ -6229,6 +6229,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Изменить тип замены&lt;x2/&gt; — задает тип данных столбца с новыми значениями;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T091801Z" creationid="Марианна" creationdate="20201117T091801Z">
+        <seg>&lt;x1/&gt;Change replacement type&lt;x2/&gt; enables to set data type of the column with new values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Изменить тип замены&lt;x2/&gt; — позволяет изменить &lt;x3/&gt;тип данных&lt;x4/&gt; переменной после произведенной замены.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202712Z" creationid="Марианна" creationdate="20201006T202712Z">
