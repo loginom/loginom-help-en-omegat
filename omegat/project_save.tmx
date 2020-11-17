@@ -22327,8 +22327,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При помощи поля &lt;x1/&gt;фильтр&lt;x2/&gt; &lt;x3/&gt;Фильтрация&lt;x4/&gt; можно уменьшить видимую часть списка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T205232Z" creationid="Марианна" creationdate="20200829T205232Z">
-        <seg>Using the&lt;x1/&gt;filter&lt;x2/&gt; &lt;x3/&gt;Filtration&lt;x4/&gt; field, it is possible to decrease the visible part of the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T103219Z" creationid="Марианна" creationdate="20200829T205232Z">
+        <seg>Using the&lt;x1/&gt;filter&lt;x2/&gt; &lt;x3/&gt;Filter&lt;x4/&gt; field, it is possible to decrease the visible part of the list.</seg>
       </tuv>
     </tu>
     <tu>
