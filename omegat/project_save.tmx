@@ -21557,6 +21557,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Правила замены вида: 1) &lt;x1/&gt;5 =&gt; -5&lt;x2/&gt;; 2) &lt;x3/&gt;15 =&gt; -15&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T090010Z" creationid="Марианна" creationdate="20201117T090010Z">
+        <seg>There are the following replacement types: 1) &lt;x1/&gt;5 =&gt; -5&lt;x2/&gt;; 2) &lt;x3/&gt;15 =&gt; -15&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Предназначен для экспорта набора данных в текстовый файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T144729Z" creationid="Марианна" creationdate="20200917T144729Z">
@@ -22673,6 +22681,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T142149Z" creationid="Марианна" creationdate="20201116T142022Z">
         <seg>&lt;x1/&gt;With value&lt;x2/&gt; option replaces all values outside the &lt;x3/&gt;Replacement table&lt;x4/&gt; with the value entered into the row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пусть имеется следующая таблица:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T085815Z" creationid="Марианна" creationdate="20201117T085815Z">
+        <seg>Let's consider the following table:</seg>
       </tuv>
     </tu>
     <tu>
