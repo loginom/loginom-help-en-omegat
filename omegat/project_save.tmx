@@ -17143,6 +17143,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>И точность равная &lt;x1/&gt;5&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T090021Z" creationid="Марианна" creationdate="20201117T090021Z">
+        <seg>And precision is equal to &lt;x1/&gt;5&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
