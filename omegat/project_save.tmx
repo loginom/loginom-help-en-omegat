@@ -5869,6 +5869,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавление порта&lt;x2/&gt; &lt;x3/&gt;Добавление еще одного порта.&lt;x4/&gt; Поскольку таблиц замен может быть несколько, то необходимые порты для них могут быть добавлены пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084030Z" creationid="Марианна" creationdate="20201117T084030Z">
+        <seg>&lt;x1/&gt;Add port&lt;x2/&gt; &lt;x3/&gt;Add another port.&lt;x4/&gt; As several replacement tables are possible, the ports required for them can be added by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавляемые переменные&lt;x2/&gt; &lt;x3/&gt;Добавляемые переменные&lt;x4/&gt; — обязательный набор переменных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153113Z" creationid="Марианна" creationdate="20201006T153113Z">
