@@ -24,7 +24,7 @@ It enables to configure import of the required data from the Data Warehouse.
 * **Activate** provides connection with the Data Warehouse if it has not been established yet. Upon connection establishment, the button is inactive, and the name is changed to *Activated*.
 * **Data Warehouse objects** contains a tree list ![Processes](../../images/icons/data-warehouse/fact-tables-folder_default.svg) *Processes* and ![Dimensions](../../images/icons/data-warehouse/dimensions-folder_default.svg) *Dimensions* from which it is required to select only one object, namely,![Process](../../images/icons/data-warehouse/fact-table_default.svg) *Process* or ![Dimension](../../images/icons/data-warehouse/dimension_default.svg) *Dimension*.
 
-### Step 2. Import from the Data Warehouse
+### Step 2. Import from Data Warehouse
 
 This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and measures.
 
