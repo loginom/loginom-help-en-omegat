@@ -14397,6 +14397,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с этим &lt;x3/&gt;сортировка таблицы замен может влиять на результат обработки&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093151Z" creationid="Марианна" creationdate="20201117T093151Z">
+        <seg>Thus, &lt;x3/&gt;table sorting can have an impact on the processing result&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с этим неверная позиция в списке может приводить к ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193507Z" creationid="Марианна" creationdate="20201004T193507Z">
@@ -15583,6 +15591,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T164025Z" creationid="Марианна" creationdate="20200916T164025Z">
         <seg>This window has two tabs:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данное правило не применяется при использовании &lt;x5/&gt;допустимого интервала&lt;x6/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093226Z" creationid="Марианна" creationdate="20201117T093226Z">
+        <seg>This rule is not applied when using the &lt;x5/&gt;allowable interval&lt;x6/&gt; (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -25661,6 +25677,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062840Z" creationid="Марианна" creationdate="20201116T062840Z">
         <seg>from 40 to 80</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>параметр &lt;x7/&gt;Точность&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093250Z" creationid="Марианна" creationdate="20201117T093250Z">
+        <seg>&lt;x7/&gt;Precision&lt;x8/&gt; parameter).</seg>
       </tuv>
     </tu>
     <tu>
