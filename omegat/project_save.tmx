@@ -5933,6 +5933,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дополнительные параметры&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084418Z" creationid="Марианна" creationdate="20201117T084418Z">
+        <seg>&lt;x1/&gt;Additional parameters&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнить таблицу данными&lt;x2/&gt; — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113018Z" creationid="Марианна" creationdate="20200916T111559Z">
@@ -7273,6 +7281,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070309Z" creationid="Марианна" creationdate="20201019T070309Z">
         <seg>&lt;x1/&gt;Leave empty&lt;x2/&gt;: filling with the records the fields of which will contain null values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не заменять&lt;x2/&gt; — выходной набор данных замены производиться не будут;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084507Z" creationid="Марианна" creationdate="20201117T084507Z">
+        <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt; — выходной набор данных замены производиться не будут;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9455,6 +9471,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Способы замен&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084357Z" creationid="Марианна" creationdate="20201117T084357Z">
+        <seg>&lt;x1/&gt;Replacement methods&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Справка&lt;x2/&gt; — вызов справки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121050Z" creationid="Марианна" creationdate="20200814T121050Z">
@@ -9659,6 +9683,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T091743Z" creationid="Марианна" creationdate="20201009T091743Z">
         <seg>&lt;x1/&gt;Table to variables&lt;x2/&gt; enables to transform a data table to a set of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица замен&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084406Z" creationid="Марианна" creationdate="20201117T084406Z">
+        <seg>&lt;x1/&gt;Replacement table&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15775,6 +15807,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T075306Z" creationid="Марианна" creationdate="20201012T075306Z">
         <seg>For each field from "Set 1" selected with a flag, correlation coefficients with the fields selected with flags in "Set 2" will be calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для каждого поля исходного набора задается способ замены:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084458Z" creationid="Марианна" creationdate="20201117T084458Z">
+        <seg>Replacement method is set for each field of the source data set:</seg>
       </tuv>
     </tu>
     <tu>
@@ -23481,6 +23521,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T175912Z" creationid="Марианна" creationdate="20201005T175912Z">
         <seg>List of Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Способы замен</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T084431Z" creationid="Марианна" creationdate="20201117T084431Z">
+        <seg>Replacement methods</seg>
       </tuv>
     </tu>
     <tu>
