@@ -9047,6 +9047,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать текущую замену&lt;x2/&gt; &lt;x3/&gt;Редактировать текущую замену&lt;x4/&gt; — отображает область редактирования текущей строки таблицы подстановок;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T091850Z" creationid="Марианна" creationdate="20201117T091850Z">
+        <seg>&lt;x1/&gt;Edit current replacement&lt;x2/&gt; &lt;x3/&gt;Edit current replacement&lt;x4/&gt; enables to display the editing area of the current string of the substitution table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Редактировать текущую замену&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — отображает область редактирования текущей строки таблицы подстановок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203223Z" creationid="Марианна" creationdate="20201006T203223Z">
