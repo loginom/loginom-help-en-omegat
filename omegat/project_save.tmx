@@ -23873,6 +23873,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такие выражения могут быть заданы во внутренних таблицах замен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T083523Z" creationid="Марианна" creationdate="20201117T083523Z">
+        <seg>Such expressions can be set in the internal replacement tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такие связи можно удалить кнопкой &lt;x1/&gt;Удалить связь&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205512Z" creationid="Марианна" creationdate="20200921T205512Z">
