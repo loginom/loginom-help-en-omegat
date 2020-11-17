@@ -17307,6 +17307,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения не попавшие в &lt;x1/&gt;Таблицу замен&lt;x2/&gt; обрабатываются согласно настройке параметра &lt;x3/&gt;Заменять остальное&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T095304Z" creationid="Марианна" creationdate="20201117T095304Z">
+        <seg>The values not included into the &lt;x1/&gt;Replacement table&lt;x2/&gt; are processed according to the configured parameter - &lt;x3/&gt;Replace other&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения не попавшие, ни в &lt;x1/&gt;Таблицу замен&lt;x2/&gt;, ни в &lt;x3/&gt;Допустимые интервалы&lt;x4/&gt;, обрабатываются согласно настройке параметра &lt;x5/&gt;Заменять остальное&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063146Z" creationid="Марианна" creationdate="20201116T063146Z">
