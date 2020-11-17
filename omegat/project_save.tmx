@@ -21037,6 +21037,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию данный режим не используется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T093726Z" creationid="Марианна" creationdate="20201117T093726Z">
+        <seg>This mode is not used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию данный режим отключен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T204348Z" creationid="Марианна" creationdate="20201006T204348Z">
