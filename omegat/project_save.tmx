@@ -8525,6 +8525,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Если замена одного значения может быть произведена по условиям нескольких строк таблицы замен, то приоритет имеет первая из них.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T092952Z" creationid="Марианна" creationdate="20201117T092952Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; If one value can be replaced according to conditions of several replacement table rows, the first one must prevail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Замена по точному совпадению имеет приоритет перед заменой по регулярному выражению.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092225Z" creationid="Марианна" creationdate="20201117T092133Z">
