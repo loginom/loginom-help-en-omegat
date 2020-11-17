@@ -6285,6 +6285,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импорт&lt;x2/&gt; &lt;x3/&gt;Импорт&lt;x4/&gt; — импорт таблицы замен из текстового файла определенной &lt;x5/&gt;структуры&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201117T091241Z" creationid="Марианна" creationdate="20201117T091241Z">
+        <seg>&lt;x1/&gt;Import&lt;x2/&gt; &lt;x3/&gt;Import&lt;x4/&gt; provides import from the text file with a particular &lt;x5/&gt;structure&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импортировать&lt;x2/&gt; — пустые строки будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185737Z" creationid="Марианна" creationdate="20200825T185737Z">
