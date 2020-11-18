@@ -18,12 +18,12 @@ Join of the data tables based on connection by the key fields — analogue of th
 
 * **Key fields configuration area**: it is required to place a flag in the column of the joined table opposite the main table field that must become the key one. It is required to select the field from the drop-down list by which the tables will be connected. Activated ![Enabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-off_default.svg) option makes available compatible fields that are not still connected with key fields of the main table, deactivated ![Disabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-on_default.svg) option enables to select any of the fileds compatible by type.
 * **Use prefixes**: placement of this flag enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.
-   * **Префикс имени** — в это поле вводится префикс добавляемый к имени присоединенных полей таблиц, состав именного префикса следует правилу [Параметров полей набора данных](../../data/datasetfieldoptions.md).
-   * **Префикс метки** — в это поле вводится префикс добавляемый к метке присоединенных полей таблиц, именуется согласно *Параметрам полей набора данных*.
+   * **Name prefix**: the prefix added to the name of the joined table fileds is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](../../data/datasetfieldoptions.md).
+   * **Caption prefix**: the prefix added to the caption of the joined table fileds is specified in this field. It is named according to *Features of data set fields<*.
 
 For example:
 
-Для примера возьмем три таблицы. Персона - главная таблица, и две присоединяемых: Город и Регион.
+Let's consider three tables as an example. A person - the main table and two joined: City and District.
 
 Main table:
 
@@ -42,22 +42,22 @@ Joined table:
 |2|Saint Petersburg|
 |3|Kazan|
 
-Присоединяемая таблица 2:
+Joined table 2:
 
-|Id города|Регион|
+|City Id|District|
 |-:|:-|
-|1|Центральный|
-|2|Северо-западный|
-|3|Приволжский|
-|4|Дальневосточный|
+|1|Central|
+|2|Northwestern|
+|3|Volga|
+|4|Far Eastern|
 
-![Порядок связей при присоединении.](./supplementation.svg)
+![Connection order when joining.](./supplementation.svg)
 
 Resulting table:
 
-|Имя|Id города|Город|Регион|
+|Name|City Id|City|District|
 |:-|-:|:-|:-|
-|Андрей|1|Москва|Центральный|
-|Леонид|2|Санкт-Петербург|Северо-западный|
-|Сергей|1|Москва|Центральный|
-|Григорий|4|&#60;null>|Дальневосточный|
+|Andrey|1|Moscow|Central|
+|Leonid|2|Saint Petersburg|Northwestern|
+|Sergey|1|Moscow|Central|
+|Gregory|4|&#60;null>|Far Eastern|
