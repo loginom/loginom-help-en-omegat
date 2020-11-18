@@ -24763,8 +24763,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узел выполняет действие аналогичное &lt;x3/&gt;Левому соединению&lt;x4/&gt; узла &lt;x5/&gt;Соединение&lt;x6/&gt;, но количество присоединяемых таблиц произвольно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T090810Z" creationid="Марианна" creationdate="20201118T090810Z">
-        <seg>The node performs the action similar to the &lt;x3/&gt;Left join&lt;x4/&gt; of the &lt;x5/&gt;Join&lt;x6/&gt; node but different number of joined table is used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T091953Z" creationid="Марианна" creationdate="20201118T090810Z">
+        <seg>The node performs the action similar to the &lt;x3/&gt;Left join&lt;x4/&gt; of the &lt;x5/&gt;Join&lt;x6/&gt; node but the number of joined tables is optional.</seg>
       </tuv>
     </tu>
     <tu>
