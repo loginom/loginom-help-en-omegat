@@ -23677,6 +23677,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Соединение таблиц данных на основе связи по ключевым полям — аналог операции &lt;x1/&gt;LEFT JOIN&lt;x2/&gt; в SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T090514Z" creationid="Марианна" creationdate="20201118T090514Z">
+        <seg>Join of the data tables based on connection by the key fields — analogue of the &lt;x1/&gt;LEFT JOIN&lt;x2/&gt; operation in SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Соединяемые наборы могут обрезаться до количества записей меньшего набора или дополняться до наибольшего.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070535Z" creationid="Марианна" creationdate="20201019T061749Z">
