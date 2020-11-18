@@ -16,8 +16,8 @@ Join of the data tables based on connection by the key fields — analogue of th
 
 ## Wizard
 
-* **Key fields configuration area**: it is required to place a flag in the column of the joined table in front of the main table field that must become the key one. Из выпадающего списка необходимо выбрать поле, по которому таблицы будут связываться. При включенной фильтрации ![Включенная фильтрация](../../images/icons/filter-switcher/filter-switcher-filterswitch-off_default.svg) доступны совместимые поля, которые еще не связаны с ключевыми полями главной таблицы, при отключенной фильтрации ![Выключенная фильтрация](../../images/icons/filter-switcher/filter-switcher-filterswitch-on_default.svg) можно выбрать любое из полей, совместимых по типу.
-* **Использовать префиксы** — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.
+* **Key fields configuration area**: it is required to place a flag in the column of the joined table opposite the main table field that must become the key one. It is required to select the field from the drop-down list by which the tables will be connected. Activated ![Enabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-off_default.svg) option makes available compatible fields that are not still connected with key fields of the main table, deactivated ![Disabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-on_default.svg) option enables to select any of the fileds compatible by type.
+* **Use prefixes**: placement of this flag enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.
    * **Префикс имени** — в это поле вводится префикс добавляемый к имени присоединенных полей таблиц, состав именного префикса следует правилу [Параметров полей набора данных](../../data/datasetfieldoptions.md).
    * **Префикс метки** — в это поле вводится префикс добавляемый к метке присоединенных полей таблиц, именуется согласно *Параметрам полей набора данных*.
 
