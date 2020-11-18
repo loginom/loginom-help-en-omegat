@@ -14313,6 +14313,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В каждом сформированном столбце выделена определенная информация из даты, например, день месяца, минута.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T125816Z" creationid="Марианна" creationdate="20201118T125816Z">
+        <seg>Particular information is selected from the date in each generated column, for example, day of the month, minute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В калькуляторе существует два способа расчета выражений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085322Z" creationid="Марианна" creationdate="20201015T085322Z">
@@ -19397,6 +19405,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200658Z" creationid="Марианна" creationdate="20200921T200658Z">
         <seg>The loop ends at the iteration that makes the variable value meet such condition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На основе исходного столбца формируются остальные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T125722Z" creationid="Марианна" creationdate="20201118T125722Z">
+        <seg>Other columns are generated on the basis of the source column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25433,6 +25449,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071113Z" creationid="Марианна" creationdate="20201023T071113Z">
         <seg>Measures for them will be aggregated in the &lt;x9/&gt;Null values&lt;x10/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат представления даты &lt;x1/&gt;Свой формат&lt;x2/&gt; далее будет рассмотрен более подробно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T125944Z" creationid="Марианна" creationdate="20201118T125944Z">
+        <seg>The date representation format -  &lt;x1/&gt;Own format&lt;x2/&gt; - will be further considered in details.</seg>
       </tuv>
     </tu>
     <tu>
