@@ -21059,8 +21059,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Персона - главная таблица, и две присоединяемых: Город и Регион.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T101235Z" creationid="Марианна" creationdate="20201118T101235Z">
-        <seg>A person - the main table and two joined: City and Region.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102140Z" creationid="Марианна" creationdate="20201118T101235Z">
+        <seg>A person - the main table and two joined: City and District.</seg>
       </tuv>
     </tu>
     <tu>
