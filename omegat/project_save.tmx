@@ -5567,8 +5567,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Главная таблица&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — в контексте понятий языка SQL-запросов является левой таблицей для соединения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T092145Z" creationid="Марианна" creationdate="20201118T092145Z">
-        <seg>&lt;x1/&gt;Main table&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt; is the left table to be joined in the context of the SQL queries.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T092236Z" creationid="Марианна" creationdate="20201118T092145Z">
+        <seg>&lt;x1/&gt;Main table&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt; is the left table to be joined in the context of the SQL queries terms.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5881,6 +5881,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074635Z" creationid="Марианна" creationdate="20200924T074635Z">
         <seg>&lt;x1/&gt;Add new condition&lt;x2/&gt; enables to add a new condition into the branch. Upon pressing, its configuration window will be opened:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить порт&lt;x2/&gt; &lt;x3/&gt;Добавить еще один порт&lt;x4/&gt; — создает новые порты входа для последующих присоединяемых таблиц, которые будут автоматически пронумерованы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T092636Z" creationid="Марианна" creationdate="20201118T092636Z">
+        <seg>&lt;x1/&gt;Add port&lt;x2/&gt; &lt;x3/&gt;Add another port&lt;x4/&gt; enables to create new ports for the subsequemt joined tables that will be automatically numbered.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8779,6 +8787,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
         <seg>&lt;x1/&gt;Design principles&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Присоединяемая таблица&lt;x2/&gt; &lt;x3/&gt;Присоединяемая таблица&lt;x4/&gt; — в контексте понятий языка SQL-запросов является правой таблицей для соединения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T092434Z" creationid="Марианна" creationdate="20201118T092434Z">
+        <seg>&lt;x1/&gt;Joined table&lt;x2/&gt; &lt;x3/&gt;Joined table&lt;x4/&gt; is the right table to be joined in the context of the SQL queries terms.</seg>
       </tuv>
     </tu>
     <tu>
