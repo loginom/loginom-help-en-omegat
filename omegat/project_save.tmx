@@ -14537,6 +14537,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области &lt;x1/&gt;Разбиение&lt;x2/&gt; при помощи флажков чекбокса необходимо выбрать формат и тип данных для преобразования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132011Z" creationid="Марианна" creationdate="20201118T132011Z">
+        <seg>It is required to select the format and data type to be transformed in the &lt;x1/&gt;Time frames&lt;x2/&gt; area using the checkbox flags.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В области кода в зависимости от выбранного синтаксиса калькулятора задается &lt;x1/&gt;формула расчета выражения&lt;x2/&gt; или &lt;x3/&gt;JavaScript код&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T084624Z" creationid="Марианна" creationdate="20201015T084624Z">
