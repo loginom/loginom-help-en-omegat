@@ -22017,6 +22017,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Помимо обычных форматов даты есть возможность установить формат, соответствующий международному стандарту даты &lt;x1/&gt;ISO 8601&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132637Z" creationid="Марианна" creationdate="20201118T132637Z">
+        <seg>Apart from the standard date formats, it is possible to set the format that complies with the international date standard - &lt;x1/&gt;ISO 8601&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075003Z" creationid="Марианна" creationdate="20200716T075003Z">
@@ -22501,6 +22509,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T141013Z" creationid="Марианна" creationdate="20201116T141013Z">
         <seg>When &lt;x1/&gt;With empty&lt;x2/&gt; option is selected, all values not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; will be replaced with the null value &lt;x5/&gt;&lt;null&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выборе типа данных &lt;x1/&gt;Тип данных&lt;x2/&gt; строка в выпадающем списке справа от &lt;x3/&gt;Выбор&lt;x4/&gt; можно выбрать формат представления даты в строковом виде, а также задать &lt;x5/&gt;Свой формат&lt;x6/&gt; при помощи строки форматирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T133754Z" creationid="Марианна" creationdate="20201118T133754Z">
+        <seg>When selecting the &lt;x1/&gt;Data type&lt;x2/&gt; type of data, the string in the drop-down list to the right of &lt;x3/&gt;Choice&lt;x4/&gt; enables to select the date representation format in the string form,and it is also possible to set &lt;x5/&gt;Own format&lt;x6/&gt; using formatting strings.</seg>
       </tuv>
     </tu>
     <tu>
