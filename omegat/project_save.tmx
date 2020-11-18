@@ -13224,8 +13224,8 @@ Assertion failed: lie 1 != 0</seg>
 |3|Приволжский|
 |4|Дальневосточный|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T101502Z" creationid="Марианна" creationdate="20201118T101502Z">
-        <seg>|City Id|Region|
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102009Z" creationid="Марианна" creationdate="20201118T101502Z">
+        <seg>|City Id|District|
 |-:|:-|
 |1|Central|
 |2|Northwestern|
