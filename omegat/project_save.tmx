@@ -14531,8 +14531,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области &lt;x1/&gt;Поле&lt;x2/&gt; отображаются поля  входного набора данных с типом &lt;x3/&gt;Дата/Время&lt;x4/&gt; &lt;x5/&gt;Дата/Время&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T130312Z" creationid="Марианна" creationdate="20201118T130312Z">
-        <seg>The input data set fields with the &lt;x3/&gt;Date/Time&lt;x4/&gt; &lt;x5/&gt;Date/Time&lt;x6/&gt; type are displayed in the &lt;x1/&gt;Field&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T130421Z" creationid="Марианна" creationdate="20201118T130312Z">
+        <seg>The input data set fields with the &lt;x3/&gt;Date/Time&lt;x4/&gt; &lt;x5/&gt;Date/Time&lt;x6/&gt; type are displayed in the &lt;x1/&gt;Field&lt;x2/&gt; area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25769,6 +25769,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T095134Z" creationid="Марианна" creationdate="20201117T094958Z">
         <seg>These values are replaced with &lt;x7/&gt;Wrong BIC&lt;x8/&gt; row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эти поля можно отсортировать по количеству выбранных преобразований.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T131723Z" creationid="Марианна" creationdate="20201118T131723Z">
+        <seg>These fields can be sorted by the number of selected transformations.</seg>
       </tuv>
     </tu>
     <tu>
