@@ -5463,8 +5463,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве ключевых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T092953Z" creationid="Марианна" creationdate="20201118T092953Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports with the exception of the joined tables fileds selected as the key ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T093052Z" creationid="Марианна" creationdate="20201118T092953Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fileds selected as the key ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7513,6 +7513,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162607Z" creationid="Марианна" creationdate="20201004T193821Z">
         <seg>&lt;x1/&gt;The expression code area&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки ключевых полей&lt;x2/&gt; — напротив поля главной таблицы, которое должно стать ключевым, следует выставить флаг в столбце присоединяемой таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T093429Z" creationid="Марианна" creationdate="20201118T093429Z">
+        <seg>&lt;x1/&gt;Key fields configuration area&lt;x2/&gt;: it is required to place a flag in the column of the joined table in front of the main table field that must become the key one.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21041,6 +21049,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T134511Z" creationid="Марианна" creationdate="20200816T134511Z">
         <seg>It is possible to sort the list for these fields in ascending order &lt;x1/&gt; &lt;x2/&gt;, in descending order &lt;x3/&gt; &lt;x4/&gt;, or to cancel sorting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По желанию к меткам полей присоединяемых таблиц можно добавить префиксы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T093248Z" creationid="Марианна" creationdate="20201118T093248Z">
+        <seg>Prefixes can be optionally added to the field captions of the joined tables.</seg>
       </tuv>
     </tu>
     <tu>
