@@ -22021,6 +22021,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При включенной фильтрации &lt;x3/&gt;Включенная фильтрация&lt;x4/&gt; доступны совместимые поля, которые еще не связаны с ключевыми полями главной таблицы, при отключенной фильтрации &lt;x5/&gt;Выключенная фильтрация&lt;x6/&gt; можно выбрать любое из полей, совместимых по типу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T094703Z" creationid="Марианна" creationdate="20201118T094703Z">
+        <seg>Activated &lt;x3/&gt;Enabled filter&lt;x4/&gt; option makes available compatible fields that are not still connected with main table fields, disactivated &lt;x5/&gt;Disabled filter&lt;x6/&gt; option enables to select any of the fileds compatible by type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При внутреннем соединении (SQL-аналог: &lt;x1/&gt;INNER JOIN&lt;x2/&gt;) происходит соединение двух таблиц.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T105441Z" creationid="Марианна" creationdate="20201110T105441Z">
