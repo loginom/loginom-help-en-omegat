@@ -16911,6 +16911,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого нужно нажать на заголовок столбца с количеством преобразований.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T131805Z" creationid="Марианна" creationdate="20201118T131805Z">
+        <seg>In order to do that, it is required to press header of the column with the number of transformations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого переместим компонент &lt;x1/&gt;Группировка&lt;x2/&gt; в рабочую область сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T101034Z" creationid="Марианна" creationdate="20200717T101034Z">
@@ -24301,6 +24309,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110736Z" creationid="Марианна" creationdate="20201111T110736Z">
         <seg>The key fields mapped by this method are linked by the connection lines.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сортировка возможна по возрастанию и по убыванию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T131854Z" creationid="Марианна" creationdate="20201118T131854Z">
+        <seg>It is possible to sort in ascending and descending order.</seg>
       </tuv>
     </tu>
     <tu>
