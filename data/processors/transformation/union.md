@@ -45,7 +45,7 @@ Resulting table:
 
 * ![Главная таблица](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Главная таблица** — первая таблица участвующая в объединении;
 * ![Присоединяемая таблица](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Присоединяемая таблица** — вторая таблица участвующая в объединении, все последующие таблицы добавляются через *Добавить еще один порт*;
-* ![Добавить порт](../../images/icons/toolbar-controls/plus-native_default.svg) **Добавить еще один порт** — создает новые порты входа для последующих присоединяемых таблиц, которые будут автоматически пронумерованы.
+* ![Add port](../../images/icons/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new ports for the subsequemt joined tables that will be automatically numbered.
 
 ### Output
 
