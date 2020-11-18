@@ -8477,6 +8477,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок связей при присоединении.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T101545Z" creationid="Марианна" creationdate="20201118T101545Z">
+        <seg>&lt;x1/&gt;Connection order when joining.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок сортировки&lt;x2/&gt; — для каждого сортируемого поля задается порядок (&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;По убыванию&lt;x6/&gt; или &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;По возрастанию&lt;x10/&gt;), в котором оно сортируется;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T115858Z" creationid="Марианна" creationdate="20201115T115858Z">
@@ -13515,6 +13523,24 @@ Assertion failed: lie 1 != 0</seg>
 |Sergey|1|Moscow|1|
 |Gregory|4|&amp;#60;null&gt;||
 |&amp;#60;null&gt;||Kazan|3|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Имя|Id города|Город|Регион|
+|:-|-:|:-|:-|
+|Андрей|1|Москва|Центральный|
+|Леонид|2|Санкт-Петербург|Северо-западный|
+|Сергей|1|Москва|Центральный|
+|Григорий|4|&amp;#60;null&gt;|Дальневосточный|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T101955Z" creationid="Марианна" creationdate="20201118T101955Z">
+        <seg>|Name|City Id|City|District|
+|:-|-:|:-|:-|
+|Andrey|1|Moscow|Central|
+|Leonid|2|Saint Petersburg|Northwestern|
+|Sergey|1|Moscow|Central|
+|Gregory|4|&amp;#60;null&gt;|Far Eastern|</seg>
       </tuv>
     </tu>
     <tu>
