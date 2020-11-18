@@ -13209,6 +13209,24 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Id города|Регион|
+|-:|:-|
+|1|Центральный|
+|2|Северо-западный|
+|3|Приволжский|
+|4|Дальневосточный|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T101502Z" creationid="Марианна" creationdate="20201118T101502Z">
+        <seg>|City Id|Region|
+|-:|:-|
+|1|Central|
+|2|Northwestern|
+|3|Volga|
+|4|Far Eastern|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Id|Город|
 |-:|:-|
 |1|Москва|
@@ -22905,6 +22923,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
         <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Присоединяемая таблица 2:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T101247Z" creationid="Марианна" creationdate="20201118T101247Z">
+        <seg>Joined table 2:</seg>
       </tuv>
     </tu>
     <tu>
