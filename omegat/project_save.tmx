@@ -5949,6 +5949,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дата/Время&lt;x2/&gt; &lt;x3/&gt;Дата/Время&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132206Z" creationid="Марианна" creationdate="20201118T132206Z">
+        <seg>&lt;x1/&gt;Date/Time&lt;x2/&gt; &lt;x3/&gt;Date/Time&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дата/время&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060411Z" creationid="Марианна" creationdate="20200812T060411Z">
@@ -10039,6 +10047,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка&lt;x2/&gt; &lt;x3/&gt;Строка&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132305Z" creationid="Марианна" creationdate="20201118T132305Z">
+        <seg>&lt;x1/&gt;String&lt;x2/&gt; &lt;x3/&gt;String&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка&lt;x2/&gt; — для ввода строки, будет вставлено &lt;x3/&gt;""&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173525Z" creationid="Марианна" creationdate="20201005T173525Z">
@@ -10891,6 +10907,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102951Z" creationid="Марианна" creationdate="20201011T102903Z">
         <seg>&lt;x1/&gt;PACF&lt;x2/&gt; means partial autocorrelation function coefficients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Число&lt;x2/&gt; &lt;x3/&gt;Число&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132246Z" creationid="Марианна" creationdate="20201118T132246Z">
+        <seg>&lt;x1/&gt;Number&lt;x2/&gt; &lt;x3/&gt;Number&lt;x4/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14539,8 +14563,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области &lt;x1/&gt;Разбиение&lt;x2/&gt; при помощи флажков чекбокса необходимо выбрать формат и тип данных для преобразования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T132011Z" creationid="Марианна" creationdate="20201118T132011Z">
-        <seg>It is required to select the format and data type to be transformed in the &lt;x1/&gt;Time frames&lt;x2/&gt; area using the checkbox flags.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132106Z" creationid="Марианна" creationdate="20201118T132011Z">
+        <seg>It is required to select the data format and type to be transformed in the &lt;x1/&gt;Time frames&lt;x2/&gt; area using the checkbox flags.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15435,6 +15459,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T122154Z" creationid="Марианна" creationdate="20200823T122154Z">
         <seg>It is possible to use parameters in requests in 1С syntax.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возможны варианты преобразования в следующие типы данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132150Z" creationid="Марианна" creationdate="20201118T132150Z">
+        <seg>Options of transformation into the following data types are possible:</seg>
       </tuv>
     </tu>
     <tu>
@@ -22821,6 +22853,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T125625Z" creationid="Марианна" creationdate="20201110T125625Z">
         <seg>When the join is right (SQL analogue: &lt;x1/&gt;RIGHT JOIN&lt;x2/&gt;, the joined table is right) the main and joined tables are joined by the key fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При преобразовании в тип данных &lt;x1/&gt;Дата/Время&lt;x2/&gt; &lt;x3/&gt;Дата/Время&lt;x4/&gt; для ряда форматов имеется возможность выбрать начало и/или конец периода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T132448Z" creationid="Марианна" creationdate="20201118T132448Z">
+        <seg>When transforming to the &lt;x1/&gt;Date/Time&lt;x2/&gt; &lt;x3/&gt;Date/Time&lt;x4/&gt; data type, it is possible to select the period start and/or end for some formats.</seg>
       </tuv>
     </tu>
     <tu>
