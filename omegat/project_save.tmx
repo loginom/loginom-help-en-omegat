@@ -6597,6 +6597,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать префиксы&lt;x2/&gt; — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T095319Z" creationid="Марианна" creationdate="20201118T095319Z">
+        <seg>&lt;x1/&gt;Use prefixes&lt;x2/&gt;: placement of this flag enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать&lt;x2/&gt; — флаг включения поля в результирующий набор данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T064412Z" creationid="Марианна" creationdate="20200825T193642Z">
