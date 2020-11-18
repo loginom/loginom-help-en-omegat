@@ -356,6 +356,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(Год + Месяц)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102548Z" creationid="Марианна" creationdate="20201118T102548Z">
+        <seg>(Year + Month)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>(Город = &lt;x1/&gt;&lt;VAR1&gt;&lt;x2/&gt;) &lt;x3/&gt;И&lt;x4/&gt; (Имя = &lt;x5/&gt;&lt;VAR2&gt;&lt;x6/&gt;) &lt;x7/&gt;И&lt;x8/&gt; (Возраст &gt;= &lt;x9/&gt;&lt;VAR3&gt;&lt;x10/&gt;) &lt;x11/&gt;И&lt;x12/&gt; (Пол = &lt;x13/&gt;&lt;VAR4&gt;&lt;x14/&gt;) &lt;x15/&gt;ИЛИ&lt;x16/&gt; (Город = &lt;x17/&gt;&lt;VAR5&gt;&lt;x18/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T065654Z" creationid="Марианна" creationdate="20201113T065654Z">
@@ -5721,6 +5729,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T190001Z" creationid="Марианна" creationdate="20200810T190001Z">
         <seg>&lt;x1/&gt;Date and time&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дата и время&lt;x2/&gt; Дата и время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102510Z" creationid="Марианна" creationdate="20201118T102510Z">
+        <seg>&lt;x1/&gt;Date and Time&lt;x2/&gt; Date and Time</seg>
       </tuv>
     </tu>
     <tu>
@@ -15867,6 +15883,46 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164822Z" creationid="Марианна" creationdate="20201010T164822Z">
         <seg>Date</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата (Год + День)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102602Z" creationid="Марианна" creationdate="20201118T102602Z">
+        <seg>Date (Year + Day)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата (День месяца)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102630Z" creationid="Марианна" creationdate="20201118T102630Z">
+        <seg>Date (Month day)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата (Минута)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102639Z" creationid="Марианна" creationdate="20201118T102639Z">
+        <seg>Date (Minute)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата (Свой формат)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102859Z" creationid="Марианна" creationdate="20201118T102859Z">
+        <seg>Date (Own format)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата(исходный столбец)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T102539Z" creationid="Марианна" creationdate="20201118T102533Z">
+        <seg>Date(source column)</seg>
       </tuv>
     </tu>
     <tu>
