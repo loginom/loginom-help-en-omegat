@@ -5565,6 +5565,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Главная таблица&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — в контексте понятий языка SQL-запросов является левой таблицей для соединения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T092145Z" creationid="Марианна" creationdate="20201118T092145Z">
+        <seg>&lt;x1/&gt;Main table&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt; is the left table to be joined in the context of the SQL queries.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Главная таблица&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — таблица, к которой добавляются наборы данных из присоединяемой таблицы (в контексте понятий языка SQL запросов принимает данные левой таблицы для соединения);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105921Z" creationid="Марианна" creationdate="20201111T105921Z">
