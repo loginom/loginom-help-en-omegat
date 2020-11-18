@@ -1,20 +1,20 @@
-# ![Дата и время](../../../images/icons/components/date-reform_default.svg) Дата и время
+# ![Date and Time](../../../images/icons/components/date-reform_default.svg) Date and Time
 
-Обработчик *Дата и время* производит трансформацию данных формата ![Дата/Время](../../../images/icons/data-types/datetime_default.svg) *Дата/Время*.
+The *Date and time* handler transforms data of the ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* format.
 
-Суть такого преобразования заключается в том, что на основе столбца с информацией о дате/времени формируется один или несколько дополнительных столбцов, в которых выделяется определенная информация о дате/времени.
+The point of such transformation is that one or several additional columns in which particular information on date/time is selected are generated on the basis of the column with information on date/time.
 
 %spoiler%Example:%spoiler%
 
-| Дата(исходный столбец) | (Год + Месяц) | Дата (Год + День) | Дата (День месяца) | Дата (Минута) | Дата (Свой формат) |
+| Date(source column) | (Year + Month) | Date (Year + Day) | Date (Month day) | Date (Minute) | Date (Own format) |
 |:--------|:--------|:--------|--------:|--------:|:--------|
-| 03.04.2012 00:04 | 01.04.2012 | 03.04.2012 | 3 | 4 | произвольный текст - 03.04.12 |
-| 17.04.2012 19:39 | 01.04.2012 | 17.04.2012 | 17 | 39 | произвольный текст - 17.04.12 |
-| 09.05.2012 19:42 | 01.05.2012 | 09.05.2012 | 9 | 42 | произвольный текст - 09.05.12 |
-| 16.05.2012 12:13 | 01.05.2012 | 16.05.2012 | 16 | 13 | произвольный текст - 16.05.12 |
-| 28.05.2012 20:35 | 01.05.2012 | 28.05.2012 | 28 | 35 | произвольный текст - 28.05.12 |
+| 03.04.2012 00:04 | 01.04.2012 | 03.04.2012 | 3 | 4 | user-defined text - 03.04.12 |
+| 17.04.2012 19:39 | 01.04.2012 | 17.04.2012 | 17 | 39 | user-defined text - 17.04.12 |
+| 09.05.2012 19:42 | 01.05.2012 | 09.05.2012 | 9 | 42 | user-defined text - 09.05.12 |
+| 16.05.2012 12:13 | 01.05.2012 | 16.05.2012 | 16 | 13 | user-defined text - 16.05.12 |
+| 28.05.2012 20:35 | 01.05.2012 | 28.05.2012 | 28 | 35 | user-defined text - 28.05.12 |
 
-На основе исходного столбца формируются остальные. В каждом сформированном столбце выделена определенная информация из даты, например, день месяца, минута. Формат представления даты *Свой формат* далее будет рассмотрен более подробно.
+Other columns are generated on the basis of the source column. Particular information is selected from the date in each generated column, for example, day of the month, minute. The date representation format -  *Own format* - will be further considered in details.
 
 %/spoiler%
 
@@ -28,25 +28,25 @@
 
 ## Wizard
 
-Окно мастера настройки состоит из 2-х областей: *Поле* и *Разбиение*.
+The wizard window consists of two areas: *Field* and *Time frames*.
 
-В области *Поле* отображаются поля  входного набора данных с типом ![Дата/Время](../../../images/icons/data-types/datetime_default.svg) *Дата/Время*. Эти поля можно отсортировать по количеству выбранных преобразований. Для этого нужно нажать на заголовок столбца с количеством преобразований. Сортировка возможна по возрастанию и по убыванию.
+The input data set fields with the ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* type are displayed in the *Field* area. These fields can be sorted by the number of selected transformations. In order to do that, it is required to press header of the column with the number of transformations. It is possible to sort in ascending and descending order.
 
-В области *Разбиение* при помощи флажков чекбокса необходимо выбрать формат и тип данных для преобразования.
+It is required to select the data format and type to be transformed in the *Time frames* area using the checkbox flags.
 
-Возможны варианты преобразования в следующие типы данных:
+Options of transformation into the following data types are possible:
 
-* ![Дата/Время](../../../images/icons/data-types/datetime_default.svg) *Дата/Время*;
-* ![Число](../../../images/icons/data-types/integer_default.svg) *Число*;
-* ![Строка](../../../images/icons/data-types/string_default.svg) *Строка*.
+* ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time*;
+* ![Number](../../../images/icons/data-types/integer_default.svg) *Number*;
+* ![String](../../../images/icons/data-types/string_default.svg) *String*.
 
-При преобразовании в тип данных ![Дата/Время](../../../images/icons/data-types/datetime_default.svg) *Дата/Время* для ряда форматов имеется возможность выбрать начало и/или конец периода.
+When transforming to the ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* data type, it is possible to select the period start and/or end for some formats.
 
 %spoiler%Example:%spoiler%
 
 <table>
-<tr><th rowspan="2">Дата(исходный столбец)</th><th colspan="2">(Год + Месяц)</th><th colspan="2">Дата (Год)</th></tr>
-<tr><td>начало</td><td>конец</td><td>начало</td><td>конец</td></tr>
+<tr><th rowspan="2">Date(source column)</th><th colspan="2">(Year + Month)</th><th colspan="2">Date (Year)</th></tr>
+<tr><td>start</td><td>end</td><td>start</td><td>end</td></tr>
 <tr><td>03.04.2012 00:04</td><td>01.04.2012</td><td>30.04.2012</td><td>01.01.2012</td><td>31.12.2012</td></tr>
 <tr><td>09.05.2012 19:39</td><td>01.05.2012</td><td>31.05.2012</td><td>01.01.2012</td><td>31.12.2012</td></tr>
 <tr><td>09.01.2013 19:42</td><td>01.01.2013</td><td>31.01.2013</td><td>01.01.2013</td><td>31.12.2013</td></tr>
@@ -55,8 +55,8 @@
 
 %/spoiler%
 
-Помимо обычных форматов даты есть возможность установить формат, соответствующий международному стандарту даты [ISO 8601](https://ru.wikipedia.org/wiki/ISO_8601).
+Apart from the standard date formats, it is possible to set the format that complies with the international date standard - [ISO 8601](https://ru.wikipedia.org/wiki/ISO_8601).
 
-При выборе типа данных ![Тип данных](../../../images/icons/data-types/string_default.svg) строка в выпадающем списке справа от ![Выбор](../../../images/icons/toolbar-controls/down_default.svg) можно выбрать формат представления даты в строковом виде, а также задать [Свой формат](./syntax.md) при помощи строки форматирования.
+When selecting the ![Data type](../../../images/icons/data-types/string_default.svg) type of data, the string in the drop-down list to the right of ![Choice](../../../images/icons/toolbar-controls/down_default.svg) enables to select the date representation format in the string form,and it is also possible to set [Own format](./syntax.md) using formatting strings.
 
-Каждый выбранный вариант преобразования в результирующем наборе данных будет образовывать отдельный столбец.
+Each selected option of transformation in the resulting data set will form a separate column.
