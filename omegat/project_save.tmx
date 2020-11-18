@@ -20257,6 +20257,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик &lt;x1/&gt;Дата и время&lt;x2/&gt; производит трансформацию данных формата &lt;x3/&gt;Дата/Время&lt;x4/&gt; &lt;x5/&gt;Дата/Время&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T125131Z" creationid="Марианна" creationdate="20201118T125131Z">
+        <seg>The &lt;x1/&gt;Date and time&lt;x2/&gt; handler transforms data of the &lt;x3/&gt;Date/Time&lt;x4/&gt; &lt;x5/&gt;Date/Time&lt;x6/&gt; format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик &lt;x1/&gt;Фильтр строк&lt;x2/&gt; позволяет выделить записи, которые удовлетворяют одному или нескольким условиям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T073118Z" creationid="Марианна" creationdate="20201113T064933Z">
