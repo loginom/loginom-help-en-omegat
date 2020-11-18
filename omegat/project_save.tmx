@@ -1836,6 +1836,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>31.03.2013</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T103902Z" creationid="Марианна" creationdate="20201118T103902Z">
+        <seg>31.03.2013</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>31.05.2012</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T103133Z" creationid="Марианна" creationdate="20201118T103133Z">
