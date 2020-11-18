@@ -24617,6 +24617,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Суть такого преобразования заключается в том, что на основе столбца с информацией о дате/времени формируется один или несколько дополнительных столбцов, в которых выделяется определенная информация о дате/времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T125648Z" creationid="Марианна" creationdate="20201118T125648Z">
+        <seg>The point of such transformation is that one or several additional columns in which particular information on date/time is selected are generated on the basis of the column with information on date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сформированные обработчиком столбцы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T153350Z" creationid="Марианна" creationdate="20201111T153350Z">
