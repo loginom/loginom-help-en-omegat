@@ -8541,6 +8541,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Префикс имени&lt;x2/&gt; — в это поле вводится префикс добавляемый к имени присоединенных полей таблиц, состав именного префикса следует правилу &lt;x3/&gt;Параметров полей набора данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T100912Z" creationid="Марианна" creationdate="20201118T100912Z">
+        <seg>&lt;x1/&gt;Name prefix&lt;x2/&gt;: the prefix added to the name of the joined table fileds. Composition of the name prefix conforms to the rules of &lt;x3/&gt;Features of data set fields&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;При активации&lt;x2/&gt; — при активации узла будет производится кэширование всего набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072357Z" creationid="Марианна" creationdate="20201016T072357Z">
