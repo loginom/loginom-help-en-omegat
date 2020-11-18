@@ -17481,8 +17481,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Из выпадающего списка необходимо выбрать поле, по которому таблицы будут связываться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T094233Z" creationid="Марианна" creationdate="20201118T094233Z">
-        <seg>It is required to select the field from the drop-down list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T094301Z" creationid="Марианна" creationdate="20201118T094233Z">
+        <seg>It is required to select the field from the drop-down list by which the tables will be connected.</seg>
       </tuv>
     </tu>
     <tu>
