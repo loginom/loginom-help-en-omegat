@@ -18467,6 +18467,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждый выбранный вариант преобразования в результирующем наборе данных будет образовывать отдельный столбец.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T133901Z" creationid="Марианна" creationdate="20201118T133901Z">
+        <seg>Each selected option of transformation in the resulting data set will form a separate column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый новый процесс начинается со строки "Активация узлов", это обусловлено тем, что при старте работы Сценария параллельно могут выполняться сразу несколько узлов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T193007Z" creationid="Марианна" creationdate="20200817T062923Z">
