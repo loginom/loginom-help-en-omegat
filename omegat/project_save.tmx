@@ -22023,8 +22023,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При включенной фильтрации &lt;x3/&gt;Включенная фильтрация&lt;x4/&gt; доступны совместимые поля, которые еще не связаны с ключевыми полями главной таблицы, при отключенной фильтрации &lt;x5/&gt;Выключенная фильтрация&lt;x6/&gt; можно выбрать любое из полей, совместимых по типу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T094703Z" creationid="Марианна" creationdate="20201118T094703Z">
-        <seg>Activated &lt;x3/&gt;Enabled filter&lt;x4/&gt; option makes available compatible fields that are not still connected with main table fields, disactivated &lt;x5/&gt;Disabled filter&lt;x6/&gt; option enables to select any of the fileds compatible by type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201118T094803Z" creationid="Марианна" creationdate="20201118T094703Z">
+        <seg>Activated &lt;x3/&gt;Enabled filter&lt;x4/&gt; option makes available compatible fields that are not still connected with main table fields, deactivated &lt;x5/&gt;Disabled filter&lt;x6/&gt; option enables to select any of the fileds compatible by type.</seg>
       </tuv>
     </tu>
     <tu>
