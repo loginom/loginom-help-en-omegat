@@ -1,55 +1,55 @@
-# ![Объединение](../../images/icons/components/union_default.svg) Объединение
+# ![Union](../../images/icons/components/union_default.svg) Union
 
-С помощью обработчика Объединение исходный набор данных дополняется записями присоединяемых наборов. Объединение является аналогом операции `UNION` в SQL.
+The source data set is appended with the records of the joined data sets by means of the Union handler. The union is an analogue of the `UNION` operation in SQL.
 
 %spoiler%Example:%spoiler%
 
 Source table:
 
-|ФИО|Год|
+|Full name|Year of birth|
 |:-|:-|
-|Андреева|1982 г.|
-|Анисомов|1963 г.|
-|Антонов|1984 г.|
-|Артемьев|1965 г.|
+|Andreyeva|1982|
+|Anisomov|1963|
+|Antonov|1984|
+|Artemyev|1965|
 
 Joined table:
 
-|ФИО|Год|КТУ|Кластер|
+|Full name|Year of birth|KTU|Cluster|
 |:-|:-|:-|-:|
-|Абрамов|1972 г.|\> 0.8|1|
-|Авдеева|1956 г.|\> 0.8|1|
-|Агафонов|1978 г.|0.5 - 0.8|2|
-|Аксёнова|1979 г.|0.5 - 0.8|2|
-|Александров|1980 г.|0.2 - 0.5|3|
-|Алексеев|1983 г.|< 0.2|4|
+|Abramov|1972|\> 0.8|1|
+|Avdeyeva|1956|\> 0.8|1|
+|Agafonov|1978|0.5 - 0.8|2|
+|Aksenova|1979|0.5 - 0.8|2|
+|Aleksandrov|1980|0.2 - 0.5|3|
+|Alekseyev|1983|< 0.2|4|
 
 Resulting table:
 
-|ФИО|Год|КТУ|Кластер|
+|Full name|Year of birth|KTU|Cluster|
 |:-|:-|:-|-:|
-|Андреева|1982 г.|null|null|
-|Анисомов|1963 г.|null|null|
-|Антонов|1984 г.|null|null|
-|Артемьев|1965 г.|null|null|
-|Абрамов|1972 г.|\> 0.8|1|
-|Авдеева|1956 г.|\> 0.8|1|
-|Агафонов|1978 г.|0.5 - 0.8|2|
-|Аксёнова|1979 г.|0.5 - 0.8|2|
-|Александров|1980 г.|0.2 - 0.5|3|
-|Алексеев|1983 г.|< 0.2|4|
+|Andreyeva|1982|null|null|
+|Anisomov|1963|null|null|
+|Antonov|1984|null|null|
+|Artemyev|1965|null|null|
+|Abramov|1972|\> 0.8|1|
+|Avdeyeva|1956|\> 0.8|1|
+|Agafonov|1978|0.5 - 0.8|2|
+|Aksenova|1979|0.5 - 0.8|2|
+|Aleksandrov|1980|0.2 - 0.5|3|
+|Alekseyev|1983|< 0.2|4|
 
 %/spoiler%
 
 ### Input
 
-* ![Главная таблица](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Главная таблица** — первая таблица участвующая в объединении;
-* ![Присоединяемая таблица](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Присоединяемая таблица** — вторая таблица участвующая в объединении, все последующие таблицы добавляются через *Добавить еще один порт*;
+* ![Main table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table** is the first table participating in the union.
+* ![Joined table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table** is the second table participating in the union. All subsequent tables are added by means of *Add another port*.
 * ![Add port](../../images/icons/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new ports for the subsequemt joined tables that will be automatically numbered.
 
 ### Output
 
-* ![Выходной набор данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве сопоставляемых. Выбранные поля объединяются и присоединяются к набору данных согласно проставленному сопоставлению. Поля без сопоставления дополняют набор данных. По желанию к меткам дополненных полей можно добавить префиксы.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the compared ones. Выбранные поля объединяются и присоединяются к набору данных согласно проставленному сопоставлению. Поля без сопоставления дополняют набор данных. По желанию к меткам дополненных полей можно добавить префиксы.
 
 ## Wizard
 

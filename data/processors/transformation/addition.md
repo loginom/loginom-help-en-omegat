@@ -1,12 +1,12 @@
 # ![](../../images/icons/components/coluniondata_default.svg) Column Union
 
-The source data set is filled with the fields of the joined data sets by means of the *Column Union* handler. In this case, each record of the source data set is joined with the record of the additional data set with the same order number.
+The source data set is appended with the fields of the joined data sets by means of the *Column Union* handler. In this case, each record of the source data set is joined with the record of the additional data set with the same order number.
 
 If the joined data sets have different number of records, the resulting data set can contain null values. The wizard enables to use different processing options for such situation. The joined data sets can be cut up to the number of records of the smaller data set, or they can be filled with up to the largest one.
 
 Variables can be added to the source data set. Each of the joined variables adds a new column to the source data set. In this case, according to the settings of *Missing Terminal Rows Filling* parameter, the value of the joined variable will be added:
 * to all rows of the new column;
-* only to the first row, and the null value will be displayed in other rows for the fileds related to the string and variable types, for the fields related to other types - empty cell.
+* only to the first row, and the null value will be displayed in other rows for the fields related to the string and variable types, for the fields related to other types - empty cell.
 
 ### Input
 

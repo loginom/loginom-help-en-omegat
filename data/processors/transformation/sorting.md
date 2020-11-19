@@ -20,7 +20,7 @@ The algorithm sorts the records by the first sort filed according to the set ord
 
 ## Wizard
 
-The fileds by which it is possible to perform sorting are displayed in the left list. The list complies with the input port fields.
+The fields by which it is possible to perform sorting are displayed in the left list. The list complies with the input port fields.
 
 It is possible to filter the list of fields specifying the field name or caption in the filter area.
 

@@ -21,7 +21,7 @@ The following parameters are specified at the first configuration stage:
 * **File storage** enables to display information on method of connection to the source file.
 * **File name** is a path to the file that contains required data.
 * **Codepage** means encoding used for storage of text in a file.
-* **First line title** is a flag that enables to determine that captions of the fileds of the created data set are present in the first line of the imported text.
+* **First line title** is a flag that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
 * **Skip rows** means count of the rows from the text beginning that cannot be imported.
 
 ### Step 2. Configure Import Formats

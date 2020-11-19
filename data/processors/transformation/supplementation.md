@@ -12,14 +12,14 @@ Join of the data tables based on connection by the key fields — analogue of th
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fileds selected as the key ones. Prefixes can be optionally added to the field captions of the joined tables.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones. Prefixes can be optionally added to the field captions of the joined tables.
 
 ## Wizard
 
-* **Key fields configuration area**: it is required to place a flag in the column of the joined table opposite the main table field that must become the key one. It is required to select the field from the drop-down list by which the tables will be connected. Activated ![Enabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-off_default.svg) option makes available compatible fields that are not still connected with key fields of the main table, deactivated ![Disabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-on_default.svg) option enables to select any of the fileds compatible by type.
+* **Key fields configuration area**: it is required to place a flag in the column of the joined table opposite the main table field that must become the key one. It is required to select the field from the drop-down list by which the tables will be connected. Activated ![Enabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-off_default.svg) option makes available compatible fields that are not still connected with key fields of the main table, deactivated ![Disabled filter](../../images/icons/filter-switcher/filter-switcher-filterswitch-on_default.svg) option enables to select any of the fields compatible by type.
 * **Use prefixes**: placement of this flag enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.
-   * **Name prefix**: the prefix added to the name of the joined table fileds is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](../../data/datasetfieldoptions.md).
-   * **Caption prefix**: the prefix added to the caption of the joined table fileds is specified in this field. It is named according to *Features of data set fields<*.
+   * **Name prefix**: the prefix added to the name of the joined table fields is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](../../data/datasetfieldoptions.md).
+   * **Caption prefix**: the prefix added to the caption of the joined table fields is specified in this field. It is named according to *Features of data set fields<*.
 
 For example:
 

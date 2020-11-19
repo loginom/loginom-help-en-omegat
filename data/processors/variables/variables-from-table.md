@@ -62,7 +62,7 @@ The following hotkeys duplicating the listed commands are available:
 
 ## Content of the Output Data Set
 
-The output data set will include the variables received from the fileds using the selected aggregation functions. Each output aggregation option will correspond to a separate variable.
+The output data set will include the variables received from the fields using the selected aggregation functions. Each output aggregation option will correspond to a separate variable.
 
 Names, captions and values of fields will be received as follows:
 
