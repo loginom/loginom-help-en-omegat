@@ -22455,6 +22455,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Полям главной таблицы необходимо сопоставить поля присоединяемой таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T141504Z" creationid="Марианна" creationdate="20201119T141504Z">
+        <seg>It is required to map the fields of the main and joined tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пометить выделенный узел можно нажав клавишу &lt;x1/&gt;Enter&lt;x2/&gt;, повторное нажание &lt;x3/&gt;Enter&lt;x4/&gt; снимает выделение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T170032Z" creationid="Марианна" creationdate="20201001T170032Z">
