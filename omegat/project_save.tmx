@@ -20857,6 +20857,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Объединение является аналогом операции &lt;x1/&gt;UNION&lt;x2/&gt; в SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T074745Z" creationid="Марианна" creationdate="20201119T074745Z">
+        <seg>The union is an analogue of the &lt;x1/&gt;UNION&lt;x2/&gt; operation in SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Объект модуля имеет свойства &lt;x1/&gt;parent&lt;x2/&gt;, &lt;x3/&gt;loaded&lt;x4/&gt; и &lt;x5/&gt;filename&lt;x6/&gt; (как в NodeJS);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083840Z" creationid="Марианна" creationdate="20201102T083840Z">
@@ -24211,8 +24219,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>С помощью обработчика &lt;x1/&gt;Соединение&lt;x2/&gt; исходный набор данных дополняется полями присоединяемых наборов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T070514Z" creationid="Марианна" creationdate="20201019T060655Z">
-        <seg>The source data set is filled with the fields of the joined data sets by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T074605Z" creationid="Марианна" creationdate="20201019T060655Z">
+        <seg>The source data set is appended with the fields of the joined data sets by means of the &lt;x1/&gt;Column Union&lt;x2/&gt; handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С помощью обработчика Объединение исходный набор данных дополняется записями присоединяемых наборов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T074701Z" creationid="Марианна" creationdate="20201119T074701Z">
+        <seg>The source data set is appended with the records of the joined data sets by means of the Union handler.</seg>
       </tuv>
     </tu>
     <tu>
