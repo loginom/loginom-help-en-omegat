@@ -3030,8 +3030,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;%W&lt;x2/&gt; — номер недели в году.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T055238Z" creationid="Марианна" creationdate="20201119T055238Z">
-        <seg>&lt;x1/&gt;%W&lt;x2/&gt; — week number in the year.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055321Z" creationid="Марианна" creationdate="20201119T055238Z">
+        <seg>&lt;x1/&gt;%W&lt;x2/&gt; is a week number in the year.</seg>
       </tuv>
     </tu>
     <tu>
