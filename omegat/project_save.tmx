@@ -3028,6 +3028,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%G&lt;x2/&gt; — часы в 24-часовом формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060205Z" creationid="Марианна" creationdate="20201119T060205Z">
+        <seg>&lt;x1/&gt;%G&lt;x2/&gt; — hours in 24-hour format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%H&lt;x2/&gt; — часы в 24-часовом формате с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060226Z" creationid="Марианна" creationdate="20201119T060226Z">
+        <seg>&lt;x1/&gt;%H&lt;x2/&gt; — hours in 24-hour format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%L&lt;x2/&gt; — дата в длинном формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060404Z" creationid="Марианна" creationdate="20201119T060404Z">
+        <seg>&lt;x1/&gt;%L&lt;x2/&gt; — date in the long format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%M&lt;x2/&gt; — короткое название месяца.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060032Z" creationid="Марианна" creationdate="20201119T055642Z">
@@ -3048,6 +3072,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060057Z" creationid="Марианна" creationdate="20201119T055747Z">
         <seg>&lt;x1/&gt;%Q&lt;x2/&gt; — quarter number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%S&lt;x2/&gt; — дата в коротком формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060413Z" creationid="Марианна" creationdate="20201119T060413Z">
+        <seg>&lt;x1/&gt;%S&lt;x2/&gt; — date in the short format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%T&lt;x2/&gt; — время в длинном формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060433Z" creationid="Марианна" creationdate="20201119T060433Z">
+        <seg>&lt;x1/&gt;%T&lt;x2/&gt; — time in the long format.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3080,6 +3120,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060024Z" creationid="Марианна" creationdate="20201119T055558Z">
         <seg>&lt;x1/&gt;%e&lt;x2/&gt; — week number in the quarter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%g&lt;x2/&gt; — часы в 12-часовом формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060156Z" creationid="Марианна" creationdate="20201119T060156Z">
+        <seg>&lt;x1/&gt;%g&lt;x2/&gt; — hours in 12-hour format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%h&lt;x2/&gt; — часы в 12-часовом формате с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060216Z" creationid="Марианна" creationdate="20201119T060216Z">
+        <seg>&lt;x1/&gt;%h&lt;x2/&gt; — hours in 12-hour format with leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%i&lt;x2/&gt; — минуты с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060242Z" creationid="Марианна" creationdate="20201119T060242Z">
+        <seg>&lt;x1/&gt;%i&lt;x2/&gt; — minutes with leading zero.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3120,6 +3184,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060002Z" creationid="Марианна" creationdate="20201119T054916Z">
         <seg>&lt;x1/&gt;%q&lt;x2/&gt; — day number in the quarter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%s&lt;x2/&gt; — секунды с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060314Z" creationid="Марианна" creationdate="20201119T060314Z">
+        <seg>&lt;x1/&gt;%s&lt;x2/&gt; — seconds with leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%u&lt;x2/&gt; — миллисекунды с ведущими нулями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060342Z" creationid="Марианна" creationdate="20201119T060342Z">
+        <seg>&lt;x1/&gt;%u&lt;x2/&gt; — milliseconds with leading zeros.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5373,6 +5453,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Время.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060419Z" creationid="Марианна" creationdate="20201119T060419Z">
+        <seg>&lt;x1/&gt;Time.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Время&lt;x2/&gt; — для ввода времени, будет вставлено &lt;x3/&gt;StrToDate("__:__:__", "HH:NN:SS")&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173713Z" creationid="Марианна" creationdate="20201005T173713Z">
@@ -6089,6 +6177,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T102510Z" creationid="Марианна" creationdate="20201118T102510Z">
         <seg>&lt;x1/&gt;Date and Time&lt;x2/&gt; Date and Time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дата.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060349Z" creationid="Марианна" creationdate="20201119T060349Z">
+        <seg>&lt;x1/&gt;Date.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7601,6 +7697,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163831Z" creationid="Марианна" creationdate="20200918T095141Z">
         <seg>&lt;x1/&gt;Drag-and-drop method&lt;x2/&gt;: drag the field caption to the item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Миллисекунды.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060330Z" creationid="Марианна" creationdate="20201119T060330Z">
+        <seg>&lt;x1/&gt;Milliseconds.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Минуты.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060232Z" creationid="Марианна" creationdate="20201119T060232Z">
+        <seg>&lt;x1/&gt;Minutes.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9795,6 +9907,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055558Z" creationid="Марианна" creationdate="20200812T055558Z">
         <seg>&lt;x1/&gt;Smoothing&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Секунды.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060254Z" creationid="Марианна" creationdate="20201119T060254Z">
+        <seg>&lt;x1/&gt;Seconds.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
