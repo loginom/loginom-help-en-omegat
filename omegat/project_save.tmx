@@ -9735,6 +9735,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Раскрывающиеся списки полей&lt;x2/&gt; — содержатся в каждой строке таблицы сопоставления.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T210128Z" creationid="Марианна" creationdate="20201119T210128Z">
+        <seg>&lt;x1/&gt;Drop-down lists of fields&lt;x2/&gt; are in each row of the mapping table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Рассчитывать ЧАКФ&lt;x2/&gt; — наличие данного флага добавляет вычисление частной автокорреляционной функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103958Z" creationid="Марианна" creationdate="20201011T103958Z">
