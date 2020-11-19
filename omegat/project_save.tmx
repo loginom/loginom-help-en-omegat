@@ -3196,6 +3196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%t&lt;x2/&gt; — время в коротком формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060444Z" creationid="Марианна" creationdate="20201119T060444Z">
+        <seg>&lt;x1/&gt;%t&lt;x2/&gt; — time in the short format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%u&lt;x2/&gt; — миллисекунды с ведущими нулями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060342Z" creationid="Марианна" creationdate="20201119T060342Z">
@@ -16111,6 +16119,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выполнить преобразование: &lt;x1/&gt;11.08.2017 13:50&lt;x2/&gt; → &lt;x3/&gt;любой текст Aug, еще текст 2017, 13&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060511Z" creationid="Марианна" creationdate="20201119T060511Z">
+        <seg>Perform transformation: &lt;x1/&gt;11.08.2017 13:50&lt;x2/&gt; → &lt;x3/&gt;any Aug text, another text 2017, 13&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выполняются правила замены для значений, не найденных на предыдущих шагах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161148Z" creationid="Марианна" creationdate="20201006T161058Z">
@@ -24989,6 +25005,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064304Z" creationid="Марианна" creationdate="20201023T064304Z">
         <seg>StroyRynok</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка форматирования: &lt;x1/&gt;"любой текст %M, еще текст %Y, %G"&lt;x2/&gt;, результат &lt;x3/&gt;"любой текст Aug, еще текст 2017, 13"&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060614Z" creationid="Марианна" creationdate="20201119T060614Z">
+        <seg>Formatting string: &lt;x1/&gt;"any text %M, another text %Y, %G"&lt;x2/&gt;, result &lt;x3/&gt;"any Aug text, another text 2017, 13"&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
