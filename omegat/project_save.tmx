@@ -16551,8 +16551,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные не сопоставленных полей помещаются в отдельные столбцы результирующего набора, которые можно отметить префиксами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T141804Z" creationid="Марианна" creationdate="20201119T141804Z">
-        <seg>The data of the fields that are not mapped are placed into separate fields of the resulting data set that can be marked with prefixes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T142356Z" creationid="Марианна" creationdate="20201119T141804Z">
+        <seg>The data of the fields that are not mapped are placed into separate columns of the resulting data set that can be checked using prefixes.</seg>
       </tuv>
     </tu>
     <tu>
