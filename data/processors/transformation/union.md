@@ -49,7 +49,7 @@ Resulting table:
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the compared ones. Выбранные поля объединяются и присоединяются к набору данных согласно проставленному сопоставлению. Поля без сопоставления дополняют набор данных. По желанию к меткам дополненных полей можно добавить префиксы.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones. The selected fields are united and joined to the data set according to the set mapping. The fields without mapping append the data set. Prefixes can be optionally added to the captions of the appended fields.
 
 ## Wizard
 
