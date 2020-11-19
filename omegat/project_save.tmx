@@ -8165,6 +8165,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Объединение&lt;x2/&gt; Объединение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T060830Z" creationid="Марианна" creationdate="20201119T060830Z">
+        <seg>&lt;x1/&gt;Union&lt;x2/&gt; Union</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Объекты хранилища данных&lt;x2/&gt; — содержит древовидный список &lt;x3/&gt;Процессы&lt;x4/&gt; &lt;x5/&gt;Процессов&lt;x6/&gt; и &lt;x7/&gt;Измерения&lt;x8/&gt; &lt;x9/&gt;Измерений&lt;x10/&gt; из которых необходимо выбрать лишь один объект — &lt;x11/&gt;Процесс&lt;x12/&gt; &lt;x13/&gt;Процесс&lt;x14/&gt; или &lt;x15/&gt;Измерение&lt;x16/&gt; &lt;x17/&gt;Измерение&lt;x18/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T194521Z" creationid="Марианна" creationdate="20200827T194521Z">
