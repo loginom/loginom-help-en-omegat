@@ -3012,6 +3012,46 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%N&lt;x2/&gt; — номер дня в неделе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055042Z" creationid="Марианна" creationdate="20201119T055042Z">
+        <seg>&lt;x1/&gt;%N&lt;x2/&gt; — day number in the week.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%d&lt;x2/&gt; — день месяца с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054821Z" creationid="Марианна" creationdate="20201119T054821Z">
+        <seg>&lt;x1/&gt;%d&lt;x2/&gt; — day of the month with leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%j&lt;x2/&gt; — день месяца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054830Z" creationid="Марианна" creationdate="20201119T054830Z">
+        <seg>&lt;x1/&gt;%j&lt;x2/&gt; — day of the month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%q&lt;x2/&gt; — номер дня в квартале.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054916Z" creationid="Марианна" creationdate="20201119T054916Z">
+        <seg>&lt;x1/&gt;%q&lt;x2/&gt; — day number in the quarter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%z&lt;x2/&gt; — номер дня в году.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054859Z" creationid="Марианна" creationdate="20201119T054851Z">
+        <seg>&lt;x1/&gt;%z&lt;x2/&gt; — day number in the year.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&amp;&amp;&lt;x2/&gt; — Логическое "И";</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113910Z" creationid="Марианна" creationdate="20201020T113910Z">
@@ -5977,6 +6017,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173621Z" creationid="Марианна" creationdate="20201005T173621Z">
         <seg>&lt;x1/&gt;Date&lt;x2/&gt;: &lt;x3/&gt;StrToDate("____-__-__", "YYYY-MM-DD")&lt;x4/&gt; will be inserted to enter the date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;День.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054805Z" creationid="Марианна" creationdate="20201119T054805Z">
+        <seg>&lt;x1/&gt;Day.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21389,6 +21437,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102149Z" creationid="Марианна" creationdate="20200715T091601Z">
         <seg>A list of possible operations is represented by a number of ready &lt;x1/&gt;components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перечень и назначение маркеров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054759Z" creationid="Марианна" creationdate="20201119T054759Z">
+        <seg>List and Designation of Markers:</seg>
       </tuv>
     </tu>
     <tu>
