@@ -11263,6 +11263,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Чекбокс&lt;x2/&gt; — в этих столбцах у &lt;x3/&gt;Подключаемых таблиц&lt;x4/&gt; флажком отмечаются поля участвующие в сопоставлении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T143958Z" creationid="Марианна" creationdate="20201119T143825Z">
+        <seg>&lt;x1/&gt;Checkbox&lt;x2/&gt;: the fields involved into mapping are selected with a flag in these columns of &lt;x3/&gt;Connected tables&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Число&lt;x2/&gt; &lt;x3/&gt;Число&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T132246Z" creationid="Марианна" creationdate="20201118T132246Z">
