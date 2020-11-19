@@ -24863,6 +24863,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сопоставление возможно только для полей с одинаковым типом данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T142447Z" creationid="Марианна" creationdate="20201119T142447Z">
+        <seg>Mappin is possible only for the fields with the same data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сопоставление переменных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204816Z" creationid="Марианна" creationdate="20200921T204816Z">
