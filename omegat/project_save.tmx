@@ -5911,8 +5911,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве ключевых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T093052Z" creationid="Марианна" creationdate="20201118T092953Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fileds selected as the key ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080008Z" creationid="Марианна" creationdate="20201118T092953Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6575,8 +6575,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T085304Z" creationid="Марианна" creationdate="20200826T085304Z">
-        <seg>&lt;x1/&gt;First line title&lt;x2/&gt; is a flag that enables to determine that captions of the fileds of the created data set are present in the first line of the imported text.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T075936Z" creationid="Марианна" creationdate="20200826T085304Z">
+        <seg>&lt;x1/&gt;First line title&lt;x2/&gt; is a flag that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9103,16 +9103,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Префикс имени&lt;x2/&gt; — в это поле вводится префикс добавляемый к имени присоединенных полей таблиц, состав именного префикса следует правилу &lt;x3/&gt;Параметров полей набора данных&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T100956Z" creationid="Марианна" creationdate="20201118T100912Z">
-        <seg>&lt;x1/&gt;Name prefix&lt;x2/&gt;: the prefix added to the name of the joined table fileds is specified in this field. Composition of the name prefix conforms to the rules of &lt;x3/&gt;Features of data set fields&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080028Z" creationid="Марианна" creationdate="20201118T100912Z">
+        <seg>&lt;x1/&gt;Name prefix&lt;x2/&gt;: the prefix added to the name of the joined table fields is specified in this field. Composition of the name prefix conforms to the rules of &lt;x3/&gt;Features of data set fields&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Префикс метки&lt;x2/&gt; — в это поле вводится префикс добавляемый к метке присоединенных полей таблиц, именуется согласно &lt;x3/&gt;Параметрам полей набора данных&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T101130Z" creationid="Марианна" creationdate="20201118T101130Z">
-        <seg>&lt;x1/&gt;Caption prefix&lt;x2/&gt;: the prefix added to the caption of the joined table fileds is specified in this field. It is named according to &lt;x3/&gt;Features of data set fields&lt;&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080040Z" creationid="Марианна" creationdate="20201118T101130Z">
+        <seg>&lt;x1/&gt;Caption prefix&lt;x2/&gt;: the prefix added to the caption of the joined table fields is specified in this field. It is named according to &lt;x3/&gt;Features of data set fields&lt;&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14657,8 +14657,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В выходном наборе будут переменные, полученные из полей с помощью выбранных функций агрегации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T084835Z" creationid="Марианна" creationdate="20201006T084835Z">
-        <seg>The output data set will include the variables received from the fileds using the selected aggregation functions.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080100Z" creationid="Марианна" creationdate="20201006T084835Z">
+        <seg>The output data set will include the variables received from the fields using the selected aggregation functions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14857,8 +14857,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В левом списке отображаются поля, по которым можно производить сортировку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T141013Z" creationid="Марианна" creationdate="20201115T141013Z">
-        <seg>The fileds by which it is possible to perform sorting are displayed in the left list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T075959Z" creationid="Марианна" creationdate="20201115T141013Z">
+        <seg>The fields by which it is possible to perform sorting are displayed in the left list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22921,8 +22921,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При включенной фильтрации &lt;x3/&gt;Включенная фильтрация&lt;x4/&gt; доступны совместимые поля, которые еще не связаны с ключевыми полями главной таблицы, при отключенной фильтрации &lt;x5/&gt;Выключенная фильтрация&lt;x6/&gt; можно выбрать любое из полей, совместимых по типу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T095152Z" creationid="Марианна" creationdate="20201118T094703Z">
-        <seg>Activated &lt;x3/&gt;Enabled filter&lt;x4/&gt; option makes available compatible fields that are not still connected with key fields of the main table, deactivated &lt;x5/&gt;Disabled filter&lt;x6/&gt; option enables to select any of the fileds compatible by type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080018Z" creationid="Марианна" creationdate="20201118T094703Z">
+        <seg>Activated &lt;x3/&gt;Enabled filter&lt;x4/&gt; option makes available compatible fields that are not still connected with key fields of the main table, deactivated &lt;x5/&gt;Disabled filter&lt;x6/&gt; option enables to select any of the fields compatible by type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27261,8 +27261,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>только в первую строку, а в остальных строках для полей строкового и переменного типа будет выведено значение null, для полей остальных типов данных -  пустая ячейка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T064836Z" creationid="Марианна" creationdate="20201019T064836Z">
-        <seg>only to the first row, and the null value will be displayed in other rows for the fileds related to the string and variable types, for the fields related to other types - empty cell.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T075949Z" creationid="Марианна" creationdate="20201019T064836Z">
+        <seg>only to the first row, and the null value will be displayed in other rows for the fields related to the string and variable types, for the fields related to other types - empty cell.</seg>
       </tuv>
     </tu>
     <tu>
