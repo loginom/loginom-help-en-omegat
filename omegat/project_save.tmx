@@ -15047,6 +15047,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области настройки объединения предусмотрена возможность сортировки полей таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T211434Z" creationid="Марианна" creationdate="20201119T211434Z">
+        <seg>It is possible to sort the table fields in the union configuration area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обозначении банковского БИК должны содержаться только цифры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094819Z" creationid="Марианна" creationdate="20201117T094819Z">
@@ -17441,6 +17449,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084604Z" creationid="Марианна" creationdate="20200814T084604Z">
         <seg>In order to do that, it is required to press address bar and enter the new/corrected path.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого необходимо щелкнуть мышью по заголовку таблицы (Главная таблица или Присоединяемая таблица).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T211600Z" creationid="Марианна" creationdate="20201119T211600Z">
+        <seg>For this purpose, it is required to click on the table header (Main table or Joined table).</seg>
       </tuv>
     </tu>
     <tu>
