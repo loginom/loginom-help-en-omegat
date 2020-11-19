@@ -14537,8 +14537,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аналогичным образом можно сортировать записи по индексу поля в таблице (№).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T211647Z" creationid="Марианна" creationdate="20201119T211647Z">
-        <seg>It is possible to sort the records by the field index in the table in the same manner (No).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T211722Z" creationid="Марианна" creationdate="20201119T211647Z">
+        <seg>It is possible to sort the records in the same manner by the field index in the table (No).</seg>
       </tuv>
     </tu>
     <tu>
