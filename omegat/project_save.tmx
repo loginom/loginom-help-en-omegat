@@ -23311,6 +23311,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При первоначальном открытии мастера поля с одинаковым именем и типом данных сопоставляются автоматически.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T142558Z" creationid="Марианна" creationdate="20201119T142558Z">
+        <seg>When the wizard is initially opened, the fields with the same name and data type are automatically mapped.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При первоначальном создании узел не имеет &lt;x1/&gt;портов&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194657Z" creationid="Марианна" creationdate="20200921T194657Z">
@@ -24343,6 +24351,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ручная настройка осуществляется с помощью элементов управления:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T142649Z" creationid="Марианна" creationdate="20201119T142649Z">
+        <seg>Manual setting is performed using the following control elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С выбранным пунктом &lt;x1/&gt;На пропущенное&lt;x2/&gt;, данная таблица имела бы такой вид</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T141820Z" creationid="Марианна" creationdate="20201116T141820Z">
@@ -24865,8 +24881,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Сопоставление возможно только для полей с одинаковым типом данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T142447Z" creationid="Марианна" creationdate="20201119T142447Z">
-        <seg>Mappin is possible only for the fields with the same data type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T142457Z" creationid="Марианна" creationdate="20201119T142447Z">
+        <seg>Mapping is possible only for the fields with the same data type.</seg>
       </tuv>
     </tu>
     <tu>
