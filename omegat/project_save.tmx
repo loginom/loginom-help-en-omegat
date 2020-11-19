@@ -15239,6 +15239,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результирующем наборе данные сопоставленных полей объединяются в одно поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T141540Z" creationid="Марианна" creationdate="20201119T141540Z">
+        <seg>The data of the mapped fields are joined into one field in the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результирующем наборе присутствуют поля только основного набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T104725Z" creationid="Марианна" creationdate="20201110T104725Z">
@@ -26455,6 +26463,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090332Z" creationid="Марианна" creationdate="20200715T071118Z">
         <seg>It allows for more flexible implementation of the data processing logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это поле получает &lt;x1/&gt;Имя&lt;x2/&gt; и &lt;x3/&gt;Метку&lt;x4/&gt; поля главной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T141705Z" creationid="Марианна" creationdate="20201119T141705Z">
+        <seg>This field is given the &lt;x1/&gt;Name&lt;x2/&gt; and &lt;x3/&gt;Caption&lt;x4/&gt; of the main table field.</seg>
       </tuv>
     </tu>
     <tu>
