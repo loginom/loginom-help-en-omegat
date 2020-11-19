@@ -5917,6 +5917,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве сопоставляемых.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T075919Z" creationid="Марианна" creationdate="20201119T075919Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the compared ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; Таблица данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145349Z" creationid="Марианна" creationdate="20200920T145349Z">
