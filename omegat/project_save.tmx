@@ -7109,6 +7109,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать префиксы&lt;x2/&gt; — применяется, если необходимо выделить не сопоставленные столбцы присоединяемых таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T210639Z" creationid="Марианна" creationdate="20201119T210639Z">
+        <seg>&lt;x1/&gt;Use prefixes&lt;x2/&gt;: it is applied if it is required to select not mapped columns of the joined tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать&lt;x2/&gt; — флаг включения поля в результирующий набор данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T064412Z" creationid="Марианна" creationdate="20200825T193642Z">
@@ -24423,6 +24431,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью переключателя &lt;x3/&gt;Фильтр&lt;x4/&gt; можно изменить способ отображения полей: общим списком или только поля, которые еще не выбраны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T210539Z" creationid="Марианна" creationdate="20201119T210539Z">
+        <seg>The &lt;x3/&gt;Filter&lt;x4/&gt; switch enables to change the method of fields representation: complete list or only the fields that have not been selected yet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080117Z" creationid="Марианна" creationdate="20200716T080117Z">
@@ -25049,8 +25065,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Список позволяет выбрать поле присоединяемой таблицы, которое будет сопоставлено полю главной таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T210224Z" creationid="Марианна" creationdate="20201119T210224Z">
-        <seg>The list enables to select the field of the joined table that will be mapped with the main table field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T210408Z" creationid="Марианна" creationdate="20201119T210224Z">
+        <seg>The list enables to select the field of the joined table that will be mapped to the main table field.</seg>
       </tuv>
     </tu>
     <tu>
