@@ -14305,6 +14305,36 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|ФИО|Год|КТУ|Кластер|
+|:-|:-|:-|-:|
+|Андреева|1982 г.|null|null|
+|Анисомов|1963 г.|null|null|
+|Антонов|1984 г.|null|null|
+|Артемьев|1965 г.|null|null|
+|Абрамов|1972 г.|\&gt; 0.8|1|
+|Авдеева|1956 г.|\&gt; 0.8|1|
+|Агафонов|1978 г.|0.5 - 0.8|2|
+|Аксёнова|1979 г.|0.5 - 0.8|2|
+|Александров|1980 г.|0.2 - 0.5|3|
+|Алексеев|1983 г.|&lt; 0.2|4|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T075500Z" creationid="Марианна" creationdate="20201119T075500Z">
+        <seg>|Full name|Year of birth|KTU|Cluster|
+|:-|:-|:-|-:|
+|Andreyeva|1982|null|null|
+|Anisomov|1963|null|null|
+|Antonov|1984|null|null|
+|Artemyev|1965|null|null|
+|Abramov|1972|\&gt; 0.8|1|
+|Avdeyeva|1956|\&gt; 0.8|1|
+|Agafonov|1978|0.5 - 0.8|2|
+|Aksenova|1979|0.5 - 0.8|2|
+|Aleksandrov|1980|0.2 - 0.5|3|
+|Alekseyev|1983|&lt; 0.2|4|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>}
 }
 // Вывод результата функции в поле калькулятора
