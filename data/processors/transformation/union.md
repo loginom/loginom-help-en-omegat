@@ -59,10 +59,10 @@ Mapping is possible only for the fields with the same data type. When the wizard
 
 * **Mapping configuration area** denotes a table in which the *Main table* fields are in the left part, and *Connected tables* selected with checkboxes and drop-down lists are in the right part. *Connected tables* are shown as follows: *Connected table*, *Connected table 2* ... *Connected table N*.
    * **Checkbox**: the fields involved into mapping are selected with a flag in these columns of *Connected tables*.
-   * **Раскрывающиеся списки полей** — содержатся в каждой строке таблицы сопоставления. Список позволяет выбрать поле присоединяемой таблицы, которое будет сопоставлено полю главной таблицы. С помощью переключателя ![Фильтр](../../images/icons/filter-switcher/filterswitch-on_default.svg) можно изменить способ отображения полей: общим списком или только поля, которые еще не выбраны.
-* **Использовать префиксы** — применяется, если необходимо выделить не сопоставленные столбцы присоединяемых таблиц. Для таких столбцов в результирующем наборе данных можно задать.
-   * **Префикс имени** — в это поле вводится префикс добавляемый к имени не сопоставленных полей таблиц, состав именного префикса следует правилу [Параметров полей набора данных](../../data/datasetfieldoptions.md).
-   * **Префикс метки** — в это поле вводится префикс добавляемый к метке не сопоставленных полей таблиц, именуется согласно *Параметрам полей набора данных*.
+   * **Drop-down lists of fields** are in each row of the mapping table. The list enables to select the field of the joined table that will be mapped to the main table field. The ![Filter](../../images/icons/filter-switcher/filterswitch-on_default.svg) switch enables to change the method of fields representation: complete list or only the fields that have not been selected yet.
+* **Use prefixes**: it is applied if it is required to select not mapped columns of the joined tables. For such columns, it is possible to set the following prefixes in the resulting data set:
+   * **Name prefix**: the prefix added to the name of the table fields that are not mapped is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](../../data/datasetfieldoptions.md).
+   * **Caption prefix**: the prefix added to the caption of the table fields that are not mapped is specified in this field. It is named according to *Features of data set fields<*.
 
 
-В области настройки объединения предусмотрена возможность сортировки полей таблиц. Для этого необходимо щелкнуть мышью по заголовку таблицы (Главная таблица или Присоединяемая таблица). Аналогичным образом можно сортировать записи по индексу поля в таблице (№).
+It is possible to sort the table fields in the union configuration area. For this purpose, it is required to click on the table header (Main table or Joined table). It is possible to sort the records in the same manner by the field index in the table (No).
