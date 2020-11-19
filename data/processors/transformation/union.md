@@ -53,12 +53,12 @@ Resulting table:
 
 ## Wizard
 
-Полям главной таблицы необходимо сопоставить поля присоединяемой таблицы. В результирующем наборе данные сопоставленных полей объединяются в одно поле. Это поле получает *Имя* и *Метку* поля главной таблицы. Данные не сопоставленных полей помещаются в отдельные столбцы результирующего набора, которые можно отметить префиксами.
+It is required to map the fields of the main and joined tables. The data of the mapped fields are joined into one field in the resulting data set. This field is given the *Name* and *Caption* of the main table field. The data of the fields that are not mapped are placed into separate columns of the resulting data set that can be checked using prefixes.
 
-Сопоставление возможно только для полей с одинаковым типом данных. При первоначальном открытии мастера поля с одинаковым именем и типом данных сопоставляются автоматически. Ручная настройка осуществляется с помощью элементов управления:
+Mapping is possible only for the fields with the same data type. When the wizard is initially opened, the fields with the same name and data type are automatically mapped. Manual setting is performed using the following control elements:
 
-* **Область настройки сопоставления** — представляет таблицу где слева представлены поля *Главной таблицы*, а справа *Подключаемые таблицы*, отмечаемые чекбоксами и выпадающими списками. Обозначение *Подключаемых таблиц* идет таким образом: *Подключаемая таблица*, *Подключаемая таблица 2* ... *Подключаемая таблица N*.
-   * **Чекбокс** — в этих столбцах у *Подключаемых таблиц* флажком отмечаются поля участвующие в сопоставлении.
+* **Mapping configuration area** denotes a table in which the *Main table* fields are in the left part, and *Connected tables* selected with checkboxes and drop-down lists are in the right part. *Connected tables* are shown as follows: *Connected table*, *Connected table 2* ... *Connected table N*.
+   * **Checkbox**: the fields involved into mapping are selected with a flag in these columns of *Connected tables*.
    * **Раскрывающиеся списки полей** — содержатся в каждой строке таблицы сопоставления. Список позволяет выбрать поле присоединяемой таблицы, которое будет сопоставлено полю главной таблицы. С помощью переключателя ![Фильтр](../../images/icons/filter-switcher/filterswitch-on_default.svg) можно изменить способ отображения полей: общим списком или только поля, которые еще не выбраны.
 * **Использовать префиксы** — применяется, если необходимо выделить не сопоставленные столбцы присоединяемых таблиц. Для таких столбцов в результирующем наборе данных можно задать.
    * **Префикс имени** — в это поле вводится префикс добавляемый к имени не сопоставленных полей таблиц, состав именного префикса следует правилу [Параметров полей набора данных](../../data/datasetfieldoptions.md).
