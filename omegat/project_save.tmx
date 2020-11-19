@@ -22617,6 +22617,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При задании пользовательского формата можно использовать сочетание произвольного текста и предопределенных маркеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054734Z" creationid="Марианна" creationdate="20201119T054734Z">
+        <seg>When setting the user format, it is possible to use a combination of user-defined text and pre-defined markers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При закрытии &lt;x1/&gt;Пакета&lt;x2/&gt; с несохраненными изменениями будет предложено сохранить его с вариантами:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132443Z" creationid="Марианна" creationdate="20200816T132443Z">
