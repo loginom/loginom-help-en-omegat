@@ -16093,6 +16093,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбранные поля объединяются и присоединяются к набору данных согласно проставленному сопоставлению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080859Z" creationid="Марианна" creationdate="20201119T080859Z">
+        <seg>The selected fields are united and joined to the data set according to the set mapping.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные элементы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201213Z" creationid="Марианна" creationdate="20200827T195151Z">
