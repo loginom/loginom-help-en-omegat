@@ -9117,6 +9117,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Префикс имени&lt;x2/&gt; — в это поле вводится префикс добавляемый к имени не сопоставленных полей таблиц, состав именного префикса следует правилу &lt;x3/&gt;Параметров полей набора данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T211001Z" creationid="Марианна" creationdate="20201119T211001Z">
+        <seg>&lt;x1/&gt;Name prefix&lt;x2/&gt;: the prefix added to the name of the table fields that are not mapped is specified in this field. Composition of the name prefix conforms to the rules of &lt;x3/&gt;Features of data set fields&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Префикс имени&lt;x2/&gt; — в это поле вводится префикс добавляемый к имени присоединенных полей таблиц, состав именного префикса следует правилу &lt;x3/&gt;Параметров полей набора данных&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T080028Z" creationid="Марианна" creationdate="20201118T100912Z">
@@ -17289,6 +17297,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T194237Z" creationid="Марианна" creationdate="20201109T194237Z">
         <seg>For such records, the &lt;x1/&gt;NULL&lt;x2/&gt; values are appended to the fields matching the first table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для таких столбцов в результирующем наборе данных можно задать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T210804Z" creationid="Марианна" creationdate="20201119T210804Z">
+        <seg>For such columns, it is possible to set the following prefixes in the resulting data set:</seg>
       </tuv>
     </tu>
     <tu>
