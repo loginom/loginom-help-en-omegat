@@ -25047,6 +25047,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список позволяет выбрать поле присоединяемой таблицы, которое будет сопоставлено полю главной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T210224Z" creationid="Марианна" creationdate="20201119T210224Z">
+        <seg>The list enables to select the field of the joined table that will be mapped with the main table field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список полей можно отфильтровать, введя имя или метку поля в области фильтрации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141208Z" creationid="Марианна" creationdate="20201115T141208Z">
