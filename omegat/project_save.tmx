@@ -3020,6 +3020,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%F&lt;x2/&gt; — полное название месяца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055655Z" creationid="Марианна" creationdate="20201119T055655Z">
+        <seg>&lt;x1/&gt;%F&lt;x2/&gt; is a full name of the month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%M&lt;x2/&gt; — короткое название месяца.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055642Z" creationid="Марианна" creationdate="20201119T055642Z">
@@ -3036,10 +3044,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%Q&lt;x2/&gt; — номер квартала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055747Z" creationid="Марианна" creationdate="20201119T055747Z">
+        <seg>&lt;x1/&gt;%Q&lt;x2/&gt; is a quarter number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%W&lt;x2/&gt; — номер недели в году.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055321Z" creationid="Марианна" creationdate="20201119T055238Z">
         <seg>&lt;x1/&gt;%W&lt;x2/&gt; is a week number in the year.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%Y&lt;x2/&gt; — год, 4 цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055811Z" creationid="Марианна" creationdate="20201119T055811Z">
+        <seg>&lt;x1/&gt;%Y&lt;x2/&gt; is a year, 4 digits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3076,6 +3100,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%m&lt;x2/&gt; — номер месяца с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055718Z" creationid="Марианна" creationdate="20201119T055718Z">
+        <seg>&lt;x1/&gt;%m&lt;x2/&gt; is a month number with leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%n&lt;x2/&gt; — номер месяца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055730Z" creationid="Марианна" creationdate="20201119T055730Z">
+        <seg>&lt;x1/&gt;%n&lt;x2/&gt; is a month number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%q&lt;x2/&gt; — номер дня в квартале.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055257Z" creationid="Марианна" creationdate="20201119T054916Z">
@@ -3088,6 +3128,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055619Z" creationid="Марианна" creationdate="20201119T055619Z">
         <seg>&lt;x1/&gt;%w&lt;x2/&gt; is a week number in the month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%y&lt;x2/&gt; — год, 2 цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055820Z" creationid="Марианна" creationdate="20201119T055820Z">
+        <seg>&lt;x1/&gt;%y&lt;x2/&gt; is a year, 2 digits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5941,6 +5989,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Год.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055752Z" creationid="Марианна" creationdate="20201119T055752Z">
+        <seg>&lt;x1/&gt;Year.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Горизонт прогноза&lt;x2/&gt; — количество значений из последующих записей, для которых создаются новые поля в выходном наборе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092406Z" creationid="Марианна" creationdate="20201114T092406Z">
@@ -7033,6 +7089,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055135Z" creationid="Марианна" creationdate="20200812T055135Z">
         <seg>&lt;x1/&gt;Binning&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Квартал.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055737Z" creationid="Марианна" creationdate="20201119T055737Z">
+        <seg>&lt;x1/&gt;Quarter.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11019,6 +11083,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102951Z" creationid="Марианна" creationdate="20201011T102903Z">
         <seg>&lt;x1/&gt;PACF&lt;x2/&gt; means partial autocorrelation function coefficients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Часы.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055832Z" creationid="Марианна" creationdate="20201119T055832Z">
+        <seg>&lt;x1/&gt;Hours.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
