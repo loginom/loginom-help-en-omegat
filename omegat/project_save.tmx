@@ -8077,6 +8077,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки сопоставления&lt;x2/&gt; — представляет таблицу где слева представлены поля &lt;x3/&gt;Главной таблицы&lt;x4/&gt;, а справа &lt;x5/&gt;Подключаемые таблицы&lt;x6/&gt;, отмечаемые чекбоксами и выпадающими списками.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T143017Z" creationid="Марианна" creationdate="20201119T143017Z">
+        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt; denotes a table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Joined tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
