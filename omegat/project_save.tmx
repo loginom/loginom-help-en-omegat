@@ -5919,8 +5919,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве сопоставляемых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T075919Z" creationid="Марианна" creationdate="20201119T075919Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the compared ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080908Z" creationid="Марианна" creationdate="20201119T075919Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21959,6 +21959,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По желанию к меткам дополненных полей можно добавить префиксы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T081056Z" creationid="Марианна" creationdate="20201119T081056Z">
+        <seg>Prefixes can be optionally added to the captions of the appended fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По желанию к меткам полей присоединяемых таблиц можно добавить префиксы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T093248Z" creationid="Марианна" creationdate="20201118T093248Z">
@@ -22387,6 +22395,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T150812Z" creationid="Марианна" creationdate="20201111T150812Z">
         <seg>&lt;x1/&gt;Client code&lt;x2/&gt; and &lt;x3/&gt;Month&lt;x4/&gt; fields will be selected as &lt;x5/&gt;Info&lt;x6/&gt; &lt;x7/&gt;Info&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля без сопоставления дополняют набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T080942Z" creationid="Марианна" creationdate="20201119T080942Z">
+        <seg>The fields without mapping append the data set.</seg>
       </tuv>
     </tu>
     <tu>
