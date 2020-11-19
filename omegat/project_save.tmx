@@ -3012,42 +3012,66 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%D&lt;x2/&gt; — короткое название дня недели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055308Z" creationid="Марианна" creationdate="20201119T055152Z">
+        <seg>&lt;x1/&gt;%D&lt;x2/&gt; is a short name of the week day.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%N&lt;x2/&gt; — номер дня в неделе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T055042Z" creationid="Марианна" creationdate="20201119T055042Z">
-        <seg>&lt;x1/&gt;%N&lt;x2/&gt; — day number in the week.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055303Z" creationid="Марианна" creationdate="20201119T055042Z">
+        <seg>&lt;x1/&gt;%N&lt;x2/&gt; is a day number in the week.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%W&lt;x2/&gt; — номер недели в году.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055238Z" creationid="Марианна" creationdate="20201119T055238Z">
+        <seg>&lt;x1/&gt;%W&lt;x2/&gt; — week number in the year.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;%d&lt;x2/&gt; — день месяца с ведущим нулем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T054821Z" creationid="Марианна" creationdate="20201119T054821Z">
-        <seg>&lt;x1/&gt;%d&lt;x2/&gt; — day of the month with leading zero.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055246Z" creationid="Марианна" creationdate="20201119T054821Z">
+        <seg>&lt;x1/&gt;%d&lt;x2/&gt; is a day of the month with leading zero.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;%j&lt;x2/&gt; — день месяца.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T054830Z" creationid="Марианна" creationdate="20201119T054830Z">
-        <seg>&lt;x1/&gt;%j&lt;x2/&gt; — day of the month.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055250Z" creationid="Марианна" creationdate="20201119T054830Z">
+        <seg>&lt;x1/&gt;%j&lt;x2/&gt; is a day of the month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%l&lt;x2/&gt; — полное название дня недели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055314Z" creationid="Марианна" creationdate="20201119T055207Z">
+        <seg>&lt;x1/&gt;%l&lt;x2/&gt; is a full name of the week day.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;%q&lt;x2/&gt; — номер дня в квартале.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T054916Z" creationid="Марианна" creationdate="20201119T054916Z">
-        <seg>&lt;x1/&gt;%q&lt;x2/&gt; — day number in the quarter.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055257Z" creationid="Марианна" creationdate="20201119T054916Z">
+        <seg>&lt;x1/&gt;%q&lt;x2/&gt; is a day number in the quarter.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;%z&lt;x2/&gt; — номер дня в году.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T054859Z" creationid="Марианна" creationdate="20201119T054851Z">
-        <seg>&lt;x1/&gt;%z&lt;x2/&gt; — day number in the year.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055254Z" creationid="Марианна" creationdate="20201119T054851Z">
+        <seg>&lt;x1/&gt;%z&lt;x2/&gt; is a day number in the year.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7721,6 +7745,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T073412Z" creationid="Марианна" creationdate="20201113T073412Z">
         <seg>&lt;x1/&gt;Do not meet criterion&lt;x2/&gt; &lt;x3/&gt;Do not meet criterion&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Неделя.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055214Z" creationid="Марианна" creationdate="20201119T055214Z">
+        <seg>&lt;x1/&gt;Week.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
