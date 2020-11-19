@@ -8079,8 +8079,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки сопоставления&lt;x2/&gt; — представляет таблицу где слева представлены поля &lt;x3/&gt;Главной таблицы&lt;x4/&gt;, а справа &lt;x5/&gt;Подключаемые таблицы&lt;x6/&gt;, отмечаемые чекбоксами и выпадающими списками.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T143017Z" creationid="Марианна" creationdate="20201119T143017Z">
-        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt; denotes a table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Joined tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T143409Z" creationid="Марианна" creationdate="20201119T143017Z">
+        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt; denotes a table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Connected tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20755,6 +20755,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085008Z" creationid="Марианна" creationdate="20201015T085008Z">
         <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обозначение &lt;x7/&gt;Подключаемых таблиц&lt;x8/&gt; идет таким образом: &lt;x9/&gt;Подключаемая таблица&lt;x10/&gt;, &lt;x11/&gt;Подключаемая таблица 2&lt;x12/&gt; ... &lt;x13/&gt;Подключаемая таблица N&lt;x14/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T143639Z" creationid="Марианна" creationdate="20201119T143639Z">
+        <seg>&lt;x7/&gt;Connected tables&lt;x8/&gt; are shown as follows: &lt;x9/&gt;Connected table&lt;x10/&gt;, &lt;x11/&gt;Connected table 2&lt;x12/&gt; ... &lt;x13/&gt;Connected table N&lt;x14/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
