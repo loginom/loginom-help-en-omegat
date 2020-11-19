@@ -24025,6 +24025,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Синтаксис строки форматирования даты/времени</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T054600Z" creationid="Марианна" creationdate="20201119T054600Z">
+        <seg>Syntax of the Date/Time Formatting Strings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
