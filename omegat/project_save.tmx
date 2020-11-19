@@ -3020,6 +3020,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%M&lt;x2/&gt; — короткое название месяца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055642Z" creationid="Марианна" creationdate="20201119T055642Z">
+        <seg>&lt;x1/&gt;%M&lt;x2/&gt; is a short name of the month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%N&lt;x2/&gt; — номер дня в неделе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055303Z" creationid="Марианна" creationdate="20201119T055042Z">
@@ -3044,6 +3052,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;%e&lt;x2/&gt; — номер недели в квартале.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055558Z" creationid="Марианна" creationdate="20201119T055558Z">
+        <seg>&lt;x1/&gt;%e&lt;x2/&gt; is a week number in the quarter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%j&lt;x2/&gt; — день месяца.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055250Z" creationid="Марианна" creationdate="20201119T054830Z">
@@ -3064,6 +3080,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055257Z" creationid="Марианна" creationdate="20201119T054916Z">
         <seg>&lt;x1/&gt;%q&lt;x2/&gt; is a day number in the quarter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;%w&lt;x2/&gt; — номер недели в месяце.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055619Z" creationid="Марианна" creationdate="20201119T055619Z">
+        <seg>&lt;x1/&gt;%w&lt;x2/&gt; is a week number in the month.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7449,6 +7473,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105958Z" creationid="Марианна" creationdate="20200814T105958Z">
         <seg>&lt;x1/&gt;Location&lt;x2/&gt; is a location of the Package on disk (desktop version) or in &lt;x3/&gt;file storage&lt;x4/&gt; (server version).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Месяц.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201119T055626Z" creationid="Марианна" creationdate="20201119T055626Z">
+        <seg>&lt;x1/&gt;Month.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
