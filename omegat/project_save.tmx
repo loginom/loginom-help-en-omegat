@@ -20673,8 +20673,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нет строки заголовков.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T194139Z" creationid="Марианна" creationdate="20200916T194139Z">
-        <seg>There is no headers row.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T180306Z" creationid="Марианна" creationdate="20200916T194139Z">
+        <seg>No headers row.</seg>
       </tuv>
     </tu>
     <tu>
