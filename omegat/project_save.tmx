@@ -14593,8 +14593,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Без сжатия.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T062934Z" creationid="Марианна" creationdate="20200826T062934Z">
-        <seg>Without compression</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T180414Z" creationid="Марианна" creationdate="20200826T062934Z">
+        <seg>None</seg>
       </tuv>
     </tu>
     <tu>
