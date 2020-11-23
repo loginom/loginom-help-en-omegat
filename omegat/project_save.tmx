@@ -13819,8 +13819,8 @@ Assertion failed: lie 1 != 0</seg>
       <tuv lang="ru">
         <seg>{% tabs one="Настройка", two="SQL-запрос" %}</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T165225Z" creationid="Марианна" creationdate="20200916T165225Z">
-        <seg>{% tabs one="Setting", two="SQL query" %}</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T175715Z" creationid="Марианна" creationdate="20200916T165225Z">
+        <seg>{% tabs one="Configure", two="SQL query" %}</seg>
       </tuv>
     </tu>
     <tu>
