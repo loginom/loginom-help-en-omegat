@@ -1,12 +1,12 @@
 # Create New Table
 
 This window has two tabs:
-* Settings
+* Configure
 * SQL query
 
 %spoiler%Example of filling in:%spoiler%
 
-{% tabs one="Setting", two="SQL query" %}
+{% tabs one="Configure", two="SQL query" %}
 
 {% content "one" %}
 ![Configure fields of the new table](./new-table-design-1.png)
@@ -18,12 +18,12 @@ This window has two tabs:
 
 %/spoiler%
 
-## Settings
+## Configure
 
 The following data is set below:
 * Table name is a unique table name in DB.
 * Table fields specifying the following parameters:
-   * Table name in the [permissible format](../../../data/datasetfieldoptions.md).
+   * Field name in the [permissible format](../../../data/datasetfieldoptions.md).
    * Type of the field data.
    * Size (only for the string field) is a maximum string length; by default, it is equal to 50. It is required to adjust the parameter value set by default according to the exported data, if relevant.
 

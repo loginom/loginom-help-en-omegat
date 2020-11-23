@@ -19,7 +19,7 @@ LGD is a special format of files optimized for work in Loginom. It provides the 
 * **File storage** enables to display information on method of connection to the source file.
 * **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * **Compression** enables to display information on the LGD file compression method used for its creation.
-   * Without compression
+   * None
    * [LZO](https://ru.wikipedia.org/wiki/LZO).
    * [LZ4](https://ru.wikipedia.org/wiki/LZ4).
 * **Bitness** enables to display information on bitness of the imported file: 64 or 32 bits.

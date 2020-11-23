@@ -17,8 +17,8 @@ It is possible to compress data using different algorithms.
 
 * **File storage** enables to display information on method of connection to the destination file.
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* **Compression Algorithm** can be applied to decrease the export file size. The following options are available:
-   * Without compression
+* **Compression** can be applied to decrease the export file size. The following options are available:
+   * None
    * [LZO](https://ru.wikipedia.org/wiki/LZO) (it is recommended and used by default)
 * **Bitness** enables to display information on bitness of the LGD file: 64 or 32 bits. Bitness of the LGD file depends on bitness of the used Loginom server.
 * **Activate and Show**: clicking this button shows in the wizard how the exported table will look like.
