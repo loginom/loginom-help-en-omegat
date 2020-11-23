@@ -18691,8 +18691,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Имя поля в &lt;x1/&gt;допустимом формате&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T165842Z" creationid="Марианна" creationdate="20200916T165842Z">
-        <seg>Table name in the &lt;x1/&gt;permissible format&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T175940Z" creationid="Марианна" creationdate="20200916T165842Z">
+        <seg>Field name in the &lt;x1/&gt;permissible format&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
