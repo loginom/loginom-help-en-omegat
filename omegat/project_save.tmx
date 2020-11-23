@@ -24329,8 +24329,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Результаты обработки и анализа данных необходимо выгружать во внешние источники.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T105923Z" creationid="Марианна" creationdate="20200916T105923Z">
-        <seg>It is required to unload data processing and analysis results to the external sources.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T175350Z" creationid="Марианна" creationdate="20200916T105923Z">
+        <seg>It is required to upload data processing and analysis results to the external sources.</seg>
       </tuv>
     </tu>
     <tu>
