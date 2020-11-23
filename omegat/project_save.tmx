@@ -5006,8 +5006,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; может применяться для уменьшения размера файла экспорта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T195551Z" creationid="Марианна" creationdate="20200916T195551Z">
-        <seg>&lt;x1/&gt;Compression Algorithm&lt;x2/&gt; can be applied to decrease the export file size.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T180338Z" creationid="Марианна" creationdate="20200916T195551Z">
+        <seg>&lt;x1/&gt;Compression&lt;x2/&gt; can be applied to decrease the export file size.</seg>
       </tuv>
     </tu>
     <tu>
