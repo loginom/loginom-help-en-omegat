@@ -1276,6 +1276,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1,60</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113316Z" creationid="Марианна" creationdate="20201124T113316Z">
+        <seg>1,60</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1.0.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084221Z" creationid="Марианна" creationdate="20201009T084221Z">
@@ -1576,6 +1584,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064150Z" creationid="Марианна" creationdate="20201116T064143Z">
         <seg>2nd column — new value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>2,90</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113336Z" creationid="Марианна" creationdate="20201124T113336Z">
+        <seg>2,90</seg>
       </tuv>
     </tu>
     <tu>
@@ -2084,6 +2100,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>5,30</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113213Z" creationid="Марианна" creationdate="20201124T113213Z">
+        <seg>5,30</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>5,70</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112530Z" creationid="Марианна" creationdate="20201124T112530Z">
@@ -2128,6 +2152,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164936Z" creationid="Марианна" creationdate="20201010T164936Z">
         <seg>6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>6,20</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113235Z" creationid="Марианна" creationdate="20201124T113235Z">
+        <seg>6,20</seg>
       </tuv>
     </tu>
     <tu>
@@ -18077,6 +18109,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Жидкость для розжига</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113232Z" creationid="Марианна" creationdate="20201124T113232Z">
+        <seg>Fire starter fluid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>За его настройку отвечает параметр &lt;x1/&gt;Точность&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063728Z" creationid="Марианна" creationdate="20201116T063728Z">
@@ -20043,6 +20083,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193558Z" creationid="Марианна" creationdate="20200916T193558Z">
         <seg>It is possible to set the following file formats:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Мыло детское</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113334Z" creationid="Марианна" creationdate="20201124T113334Z">
+        <seg>Baby soap</seg>
       </tuv>
     </tu>
     <tu>
@@ -24547,6 +24595,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062240Z" creationid="Марианна" creationdate="20201014T062240Z">
         <seg>It is recommended to use &lt;x1/&gt;Caching&lt;x2/&gt; when using the functions the result of which depends on the time point when this calculation is performed, for example: &lt;x3/&gt;Random()&lt;x4/&gt;, &lt;x5/&gt;Today()&lt;x6/&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Розовая шипучка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113314Z" creationid="Марианна" creationdate="20201124T113314Z">
+        <seg>Pink sparkling water</seg>
       </tuv>
     </tu>
     <tu>
