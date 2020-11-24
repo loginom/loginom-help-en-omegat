@@ -16839,8 +16839,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные для расчета долей:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201124T102804Z" creationid="Марианна" creationdate="20201124T102804Z">
-        <seg>Data for share calculation:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T115201Z" creationid="Марианна" creationdate="20201124T102804Z">
+        <seg>Data for calculation of shares:</seg>
       </tuv>
     </tu>
     <tu>
