@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&amp;#124; Округлено</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113513Z" creationid="Марианна" creationdate="20201124T113513Z">
+        <seg>&amp;#124; Rounded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;nbsp;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T091714Z" creationid="Марианна" creationdate="20201114T091714Z">
@@ -892,6 +900,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>0,60</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113633Z" creationid="Марианна" creationdate="20201124T113633Z">
+        <seg>0,60</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>0,77</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212730Z" creationid="Марианна" creationdate="20201012T212730Z">
@@ -1276,10 +1292,34 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1,00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113638Z" creationid="Марианна" creationdate="20201124T113638Z">
+        <seg>1,00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1,50</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113626Z" creationid="Марианна" creationdate="20201124T113626Z">
+        <seg>1,50</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1,60</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113316Z" creationid="Марианна" creationdate="20201124T113316Z">
         <seg>1,60</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1,90</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113619Z" creationid="Марианна" creationdate="20201124T113619Z">
+        <seg>1,90</seg>
       </tuv>
     </tu>
     <tu>
@@ -1328,6 +1368,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212134Z" creationid="Марианна" creationdate="20201012T212134Z">
         <seg>1033,6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>11,50</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113546Z" creationid="Марианна" creationdate="20201124T113546Z">
+        <seg>11,50</seg>
       </tuv>
     </tu>
     <tu>
@@ -1464,6 +1512,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112403Z" creationid="Марианна" creationdate="20201124T112403Z">
         <seg>16,00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>16,90</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113553Z" creationid="Марианна" creationdate="20201124T113553Z">
+        <seg>16,90</seg>
       </tuv>
     </tu>
     <tu>
@@ -1820,6 +1876,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>3,80</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113606Z" creationid="Марианна" creationdate="20201124T113606Z">
+        <seg>3,80</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>30</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153714Z" creationid="Марианна" creationdate="20201006T153714Z">
@@ -1980,6 +2044,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>4,40</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113612Z" creationid="Марианна" creationdate="20201124T113612Z">
+        <seg>4,40</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>400</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175348Z" creationid="Марианна" creationdate="20201022T175348Z">
@@ -2104,6 +2176,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113213Z" creationid="Марианна" creationdate="20201124T113213Z">
         <seg>5,30</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>5,40</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113559Z" creationid="Марианна" creationdate="20201124T113559Z">
+        <seg>5,40</seg>
       </tuv>
     </tu>
     <tu>
@@ -10575,6 +10655,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сумма продаж группы, тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T114218Z" creationid="Марианна" creationdate="20201124T114218Z">
+        <seg>&lt;x1/&gt;Amount of group sales, thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — последовательность действий, которые необходимо провести для анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091311Z" creationid="Марианна" creationdate="20200715T091311Z">
@@ -16425,6 +16513,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062723Z" creationid="Марианна" creationdate="20200826T062723Z">
         <seg>Output</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выход разгруппировки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113430Z" creationid="Марианна" creationdate="20201124T113430Z">
+        <seg>Ungroup output:</seg>
       </tuv>
     </tu>
     <tu>
@@ -24359,6 +24455,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Разгруппированное значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113541Z" creationid="Марианна" creationdate="20201124T113541Z">
+        <seg>Ungrouped value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Разгруппируемые данные:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T102310Z" creationid="Марианна" creationdate="20201124T102255Z">
@@ -25563,6 +25667,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163457Z" creationid="Марианна" creationdate="20201001T112236Z">
         <seg>It is possible to set the structure of the set supplied for processing in the manual way, or to download it from the *.xsd file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сумма продаж группы, тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113449Z" creationid="Марианна" creationdate="20201124T113449Z">
+        <seg>Amount of group sales, thous.</seg>
       </tuv>
     </tu>
     <tu>
