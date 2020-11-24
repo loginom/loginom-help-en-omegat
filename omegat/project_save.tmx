@@ -9841,8 +9841,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — в текущем примере это детализация продаж товаров, измеряемая в тыс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201124T114520Z" creationid="Марианна" creationdate="20201124T114520Z">
-        <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: the values obtained when rounding is used are shown in this field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T114722Z" creationid="Марианна" creationdate="20201124T114520Z">
+        <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: detailing of the goods sales measured in thous. is shown in this example.</seg>
       </tuv>
     </tu>
     <tu>
