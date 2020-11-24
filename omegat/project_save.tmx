@@ -1452,6 +1452,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>16,00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112403Z" creationid="Марианна" creationdate="20201124T112403Z">
+        <seg>16,00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>16.03.2013 12:13</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T103150Z" creationid="Марианна" creationdate="20201118T103150Z">
@@ -1640,6 +1648,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113128Z" creationid="Марианна" creationdate="20201011T113128Z">
         <seg>23</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>23,50</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112435Z" creationid="Марианна" creationdate="20201124T112435Z">
+        <seg>23,50</seg>
       </tuv>
     </tu>
     <tu>
@@ -19659,6 +19675,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170533Z" creationid="Марианна" creationdate="20201005T170533Z">
         <seg>Logical operations:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Лопата совковая</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112432Z" creationid="Марианна" creationdate="20201124T112432Z">
+        <seg>Square-point shovel</seg>
       </tuv>
     </tu>
     <tu>
