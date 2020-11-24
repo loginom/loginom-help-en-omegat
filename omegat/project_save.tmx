@@ -8909,6 +8909,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Период сезонности&lt;x2/&gt; — выбор длины периода сезонности, если задать пункт &lt;x3/&gt;нет сезонности&lt;x4/&gt;, откроются опции для настройки прогноза по числу точек временного ряда, а настройки по числу периодов заблокируются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T115631Z" creationid="Марианна" creationdate="20201124T115631Z">
+        <seg>&lt;x1/&gt;Seasonality period&lt;x2/&gt; — выбор длины периода сезонности, если задать пункт &lt;x3/&gt;нет сезонности&lt;x4/&gt;, откроются опции для настройки прогноза по числу точек временного ряда, а настройки по числу периодов заблокируются.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Периодичность фиксации транзакции (строк)&lt;x2/&gt; — разделение процесса экспорта на несколько транзакций.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T112745Z" creationid="Марианна" creationdate="20200916T112745Z">
@@ -16649,6 +16657,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T185956Z" creationid="Марианна" creationdate="20201001T185904Z">
         <seg>Global node index: the node is absent in the tree-like data structure. However, it appears in the tree view and points to the index used in the array node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Глубина истории.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T115543Z" creationid="Марианна" creationdate="20201124T115543Z">
+        <seg>Depth period.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24915,6 +24931,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110810Z" creationid="Марианна" creationdate="20201111T110810Z">
         <seg>The link between the fields can be deleted or set to another field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сезонность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T115610Z" creationid="Марианна" creationdate="20201124T115610Z">
+        <seg>Seasonality.</seg>
       </tuv>
     </tu>
     <tu>
