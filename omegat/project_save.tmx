@@ -24735,6 +24735,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Семена тюльпанов красных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T113211Z" creationid="Марианна" creationdate="20201124T113211Z">
+        <seg>Seeds of red tulips</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Серверные редакции (Team, Standard, Enterprise)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093056Z" creationid="Марианна" creationdate="20200819T074443Z">
