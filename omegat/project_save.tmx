@@ -2052,6 +2052,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>5,00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102724Z" creationid="Марианна" creationdate="20201124T102724Z">
+        <seg>5,00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>50</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062759Z" creationid="Марианна" creationdate="20201116T062759Z">
@@ -16629,6 +16637,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные для расчета долей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102804Z" creationid="Марианна" creationdate="20201124T102804Z">
+        <seg>Data for share calculation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные ключевых полей основного и присоединяемого наборов сравниваются между собой, результат операции сравнения используется алгоритмом слияния для формирования результирующего набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105153Z" creationid="Марианна" creationdate="20201111T104625Z">
@@ -20251,6 +20267,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165559Z" creationid="Марианна" creationdate="20200916T165559Z">
         <seg>Table name is a unique table name in DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Название товара</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102824Z" creationid="Марианна" creationdate="20201124T102824Z">
+        <seg>Name of goods</seg>
       </tuv>
     </tu>
     <tu>
