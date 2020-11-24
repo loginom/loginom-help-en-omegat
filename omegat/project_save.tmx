@@ -27651,6 +27651,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>руб.&lt;x2/&gt; — сумма продаж для конкретный группы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T114255Z" creationid="Марианна" creationdate="20201124T114255Z">
+        <seg>rub.&lt;x2/&gt; — amount of sales of the particular group;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>с помощью кнопки  &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все связи&lt;x4/&gt; — удаляет все связи;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164853Z" creationid="Марианна" creationdate="20201001T164853Z">
