@@ -9679,6 +9679,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разгруппировка&lt;x2/&gt; Разгруппировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102225Z" creationid="Марианна" creationdate="20201124T102225Z">
+        <seg>&lt;x1/&gt;Ungroup&lt;x2/&gt; Ungroup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель времени&lt;x2/&gt; – символ, разделяющий компоненты времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T152210Z" creationid="Марианна" creationdate="20200826T093249Z">
@@ -16481,6 +16489,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153401Z" creationid="Марианна" creationdate="20200917T153401Z">
         <seg>&lt;x1/&gt;Formats&lt;x2/&gt; group of parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Группа товаров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102349Z" creationid="Марианна" creationdate="20201124T102349Z">
+        <seg>Group of goods</seg>
       </tuv>
     </tu>
     <tu>
@@ -24199,6 +24215,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Разгруппируемые данные:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102310Z" creationid="Марианна" creationdate="20201124T102255Z">
+        <seg>Ungrouped data:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Разделителем может быть Двоеточие (:) или Точка (.).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T152432Z" creationid="Марианна" creationdate="20200917T152432Z">
@@ -25375,6 +25399,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сумма продаж, тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102359Z" creationid="Марианна" creationdate="20201124T102359Z">
+        <seg>Amount of sales, thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сумма продажи</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064247Z" creationid="Марианна" creationdate="20201023T064247Z">
@@ -25855,6 +25887,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T174500Z" creationid="Марианна" creationdate="20201022T174500Z">
         <seg>Goods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Товары для дачи</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102644Z" creationid="Марианна" creationdate="20201124T102644Z">
+        <seg>Goods for summer cottage</seg>
       </tuv>
     </tu>
     <tu>
@@ -27303,6 +27343,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
         <seg>Figure 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>руб.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102404Z" creationid="Марианна" creationdate="20201124T102404Z">
+        <seg>rub.</seg>
       </tuv>
     </tu>
     <tu>
