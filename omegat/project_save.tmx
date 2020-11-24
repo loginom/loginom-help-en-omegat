@@ -9839,6 +9839,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — в текущем примере это детализация продаж товаров, измеряемая в тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T114520Z" creationid="Марианна" creationdate="20201124T114520Z">
+        <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: the values obtained when rounding is used are shown in this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппировка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192228Z" creationid="Марианна" creationdate="20200810T192228Z">
@@ -14037,6 +14045,14 @@ Assertion failed: lie 1 != 0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T065028Z" creationid="Марианна" creationdate="20201023T065028Z">
         <seg>| (horizontal line).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>| Округлено&lt;x2/&gt; — в этом поле выводятся значения, получаемые при применении округления;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T114618Z" creationid="Марианна" creationdate="20201124T114618Z">
+        <seg>| Rounded&lt;x2/&gt;: the values obtained when rounding is used are shown in this field.</seg>
       </tuv>
     </tu>
     <tu>
