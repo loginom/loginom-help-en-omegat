@@ -1956,6 +1956,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>4,20</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112629Z" creationid="Марианна" creationdate="20201124T112629Z">
+        <seg>4,20</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>400</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175348Z" creationid="Марианна" creationdate="20201022T175348Z">
@@ -2076,6 +2084,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>5,70</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112530Z" creationid="Марианна" creationdate="20201124T112530Z">
+        <seg>5,70</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>50</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062759Z" creationid="Марианна" creationdate="20201116T062759Z">
@@ -2168,6 +2184,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104135Z" creationid="Марианна" creationdate="20201006T104135Z">
         <seg>7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>7,60</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112715Z" creationid="Марианна" creationdate="20201124T112715Z">
+        <seg>7,60</seg>
       </tuv>
     </tu>
     <tu>
@@ -16477,6 +16501,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Графин стеклянный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112627Z" creationid="Марианна" creationdate="20201124T112627Z">
+        <seg>Glass jug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Грунтовка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175345Z" creationid="Марианна" creationdate="20201022T175345Z">
@@ -24591,6 +24623,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сахарница расписная</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112528Z" creationid="Марианна" creationdate="20201124T112528Z">
+        <seg>Painted sugar bowl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сб</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165111Z" creationid="Марианна" creationdate="20201010T165111Z">
@@ -25855,6 +25895,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T081440Z" creationid="Марианна" creationdate="20201114T075658Z">
         <seg>The "lag" term reflects the processing nature. A continuous data section is selected. It is called a lag that is "sliding", in its turn, along the whole source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Термос стальной</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T112713Z" creationid="Марианна" creationdate="20201124T112713Z">
+        <seg>Steel vacuum flask</seg>
       </tuv>
     </tu>
     <tu>
