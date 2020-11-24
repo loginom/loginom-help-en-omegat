@@ -1996,6 +1996,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>42,00</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102650Z" creationid="Марианна" creationdate="20201124T102650Z">
+        <seg>42,00</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>4358</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212124Z" creationid="Марианна" creationdate="20201012T212124Z">
@@ -25895,6 +25903,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T102644Z" creationid="Марианна" creationdate="20201124T102644Z">
         <seg>Goods for summer cottage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Товары для дома</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201124T102720Z" creationid="Марианна" creationdate="20201124T102720Z">
+        <seg>Household goods</seg>
       </tuv>
     </tu>
     <tu>
