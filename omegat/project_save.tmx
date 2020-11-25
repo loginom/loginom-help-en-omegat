@@ -8911,8 +8911,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Период сезонности&lt;x2/&gt; — выбор длины периода сезонности, если задать пункт &lt;x3/&gt;нет сезонности&lt;x4/&gt;, откроются опции для настройки прогноза по числу точек временного ряда, а настройки по числу периодов заблокируются.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201125T082559Z" creationid="Марианна" creationdate="20201124T115631Z">
-        <seg>&lt;x1/&gt;Seasonality period&lt;x2/&gt;: selection of the seasonality period length if &lt;x3/&gt;No seasonality&lt;x4/&gt; option is set, forecast configuration options by the number of time series points will be opened, and configuration by the period count will be locked.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201125T082724Z" creationid="Марианна" creationdate="20201124T115631Z">
+        <seg>&lt;x1/&gt;Seasonality period&lt;x2/&gt;: selection of the seasonality period length if &lt;x3/&gt;No seasonality&lt;x4/&gt; option is set, forecast configuration options by the count of time series points will be opened, and configuration by the period count will be locked.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19597,6 +19597,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072745Z" creationid="Марианна" creationdate="20200919T072638Z">
         <seg>The &lt;x1/&gt;Node execution&lt;x2/&gt; component cannot repeatedly use the &lt;x3/&gt;Loop&lt;x4/&gt; and &lt;x5/&gt;Reference node&lt;x6/&gt; components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент выполняет действие обратное &lt;x1/&gt;агрегации по сумме&lt;x2/&gt;, применяемой в &lt;x3/&gt;Группировке&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201125T082951Z" creationid="Марианна" creationdate="20201125T082951Z">
+        <seg>The component performs tha action inverse to &lt;x1/&gt;aggregation by sum&lt;x2/&gt; used in &lt;x3/&gt;Grouping&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
