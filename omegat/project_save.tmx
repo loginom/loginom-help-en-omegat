@@ -21097,8 +21097,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Область основного применения разгруппировки — это детализация спрогнозированных данных на основе уже имеющихся.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201125T083647Z" creationid="Марианна" creationdate="20201125T083647Z">
-        <seg>The area of the main usage of ungrouping is detailing of the forecast data according to the available one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201125T083851Z" creationid="Марианна" creationdate="20201125T083647Z">
+        <seg>The main use area of ungrouping is detailing of the forecast data according to the available one.</seg>
       </tuv>
     </tu>
     <tu>
