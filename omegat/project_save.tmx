@@ -17829,6 +17829,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Допустим, у нас есть прогноз сумм продаж, составленный для двух товарных групп, и нам нужно выявить из этого прогноза суммы продаж для отдельных товаров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201125T084459Z" creationid="Марианна" creationdate="20201125T084459Z">
+        <seg>Let us consider the sales amount forecast made for two groups of goods, and we need to define the sales amounts for separate goods according to this forecast.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Допустимый интервал</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062648Z" creationid="Марианна" creationdate="20201116T062648Z">
