@@ -1,55 +1,55 @@
-# ![Разгруппировка](../../images/icons/components/ungroup-data_default.svg) Разгруппировка
+# ![Ungroup](../../images/icons/components/ungroup-data_default.svg) Ungroup
 
-Компонент выполняет действие обратное [агрегации по сумме](../func/aggregation-functions.md), применяемой в [Группировке](./grouping.md). Для определения групп, по которым будет производиться обратная агрегация численного поля, требуется опорная таблица, из которой заимствуются сами группы и учитывается процентное распределение значений численного поля между ними.
+The component performs tha action inverse to [aggregation by sum](../func/aggregation-functions.md) used in [Grouping](./grouping.md). To define the groups by which the inverse aggregation of numeric field will be performed, it is required to use the reference table from which the groups as such will be taken and percentage distribution of the numeric field values between them will be considered.
 
-Область основного применения разгруппировки — это детализация спрогнозированных данных на основе уже имеющихся. Например, если имеются данные о суммах совершенных продаж конкретных товаров, эти данные можно использовать для разгруппировки по товарам таблицы прогноза, сделанного только для товарных групп.
+The main use area of ungrouping is detailing of the forecast data according to the available one. For example, if there is data on the effected sales amount for particular goods, this data can be used for ungrouping by the goods listed in the table with the forecast made only for groups of goods.
 
 %spoiler%Example:%spoiler%
 
-Допустим, у нас есть прогноз сумм продаж, составленный для двух товарных групп, и нам нужно выявить из этого прогноза суммы продаж для отдельных товаров.
+Let us consider the sales amount forecast made for two groups of goods, and we need to define the sales amounts for separate goods according to this forecast.
 
-Разгруппируемые данные:
+Ungrouped data:
 
-| Группа товаров | Сумма продаж, тыс. руб. |
+| Group of goods | Amount of sales, thous. rub. |
 | :------------- | ----------------------: |
-| Товары для дачи | 42,00 |
-| Товары для дома | 5,00 |
+| Goods for summer cottage | 42,00 |
+| Household goods | 5,00 |
 
 В качестве опорных данных будем использовать данные о суммах продаж за предыдущий период.
 
-Данные для расчета долей:
+Data for calculation of shares:
 
-| Группа товаров | Название товара | Сумма продаж, тыс. руб. |
+| Group of goods | Name of goods | Amount of sales, thous. rub. |
 | :------------- | :-------------- | ----------------------: |
-| Товары для дачи | Кресло плетеное | 16,00 |
-| Товары для дачи | Лопата совковая | 23,50 |
-| Товары для дома | Сахарница расписная | 5,70 |
-| Товары для дома | Графин стеклянный | 4,20 |
-| Товары для дачи | Термос стальной | 7,60 |
-| Товары для дачи | Семена тюльпанов красных | 5,30 |
-| Товары для дачи | Жидкость для розжига | 6,20 |
-| Товары для дома | Розовая шипучка | 1,60 |
-| Товары для дома | Мыло детское | 2,90 |
+| Goods for summer cottage | Rattan chair | 16,00 |
+| Goods for summer cottage | Square-point shovel | 23,50 |
+| Household goods | Painted sugar bowl | 5,70 |
+| Household goods | Glass jug | 4,20 |
+| Goods for summer cottage | Steel vacuum flask | 7,60 |
+| Goods for summer cottage | Seeds of red tulips | 5,30 |
+| Goods for summer cottage | Fire starter fluid | 6,20 |
+| Household goods | Pink sparkling water | 1,60 |
+| Household goods | Baby soap | 2,90 |
 
 При настройке узла разгруппировки выберем метод *С расчетом долей по всей выборке*, выставим округление до одного знака после запятой и *Пропорциональный* метод балансировки. В области настройки назначений полей свяжем поля `Группа товаров` обеих таблиц, полю `Сумма продаж, тыс. руб.` из разгруппируемой таблицы выставим назначение *Разгруппируемое*, а полям `Название товара` и `Сумма продаж, тыс. руб.` из опорной таблицы — назначения *Поле с наименованиями* и *Поле с долями* соответственно.
 
-Выход разгруппировки:
+Ungroup output:
 
-| Группа товаров | Название товара | Сумма продаж группы, тыс. руб. | Сумма продаж группы, тыс. руб. &#124; Округлено | Разгруппированное значение |
+| Group of goods | Name of goods | Amount of group sales, thous. rub. | Amount of group sales, thous. rub. &#124; Rounded | Ungrouped value |
 | :------------- | :-------------- | -----------------------------: | -----------------------------------------: | -------------------------: |
-| Товары для дачи | Кресло плетеное | 42,00 | 42,00 | 11,50 |
-| Товары для дачи | Лопата совковая | 42,00 | 42,00 | 16,90 |
-| Товары для дачи | Термос стальной | 42,00 | 42,00 | 5,40 |
-| Товары для дачи | Семена тюльпанов красных | 42,00 | 42,00 | 3,80 |
-| Товары для дачи | Жидкость для розжига | 42,00 | 42,00 | 4,40 |
-| Товары для дома | Сахарница расписная | 5,00 | 5,00 | 1,90 |
-| Товары для дома | Графин стеклянный | 5,00 | 5,00 | 1,50 |
-| Товары для дома | Розовая шипучка | 5,00 | 5,00 | 0,60 |
-| Товары для дома | Мыло детское | 5,00 | 5,00 | 1,00 |
+| Goods for summer cottage | Rattan chair | 42,00 | 42,00 | 11,50 |
+| Goods for summer cottage | Square-point shovel | 42,00 | 42,00 | 16,90 |
+| Goods for summer cottage | Steel vacuum flask | 42,00 | 42,00 | 5,40 |
+| Goods for summer cottage | Seeds of red tulips | 42,00 | 42,00 | 3,80 |
+| Goods for summer cottage | Fire starter fluid | 42,00 | 42,00 | 4,40 |
+| Household goods | Painted sugar bowl | 5,00 | 5,00 | 1,90 |
+| Household goods | Glass jug | 5,00 | 5,00 | 1,50 |
+| Household goods | Pink sparkling water | 5,00 | 5,00 | 0,60 |
+| Household goods | Baby soap | 5,00 | 5,00 | 1,00 |
 
-* **Сумма продаж группы, тыс. руб.** — сумма продаж для конкретный группы;
-* **Сумма продаж группы, тыс. руб. | Округлено** — в этом поле выводятся значения, получаемые при применении округления;
-* **Разгруппированное значение** — в текущем примере это детализация продаж товаров, измеряемая в тыс. руб.
+* **Amount of group sales, thous. rub.** — amount of sales of the particular group;
+* **Amount of group sales, thous. rub. | Rounded**: the values obtained when rounding is used are shown in this field.
+* **Ungrouped value**: detailing of the goods sales measured in thous. is shown in this example. rub.
 
 %/spoiler%
 
@@ -57,8 +57,8 @@
 
 ### Input
 
-* ![Разгруппируемые данные](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Разгруппируемые данные** — таблица, содержащая поле для разгруппировки;
-* ![Данные для расчета долей](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Данные для расчета долей** — таблица, из которой считываются значения долей для разгруппировки.
+* ![Ungrouped data](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Ungrouped data**: the table that contains ungrouping field.
+* ![Data for calculation of shares](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data for calculation of shares**: the table from which the values of ungrouping shares are calculated.
 
 ### Output
 
@@ -109,14 +109,14 @@
 
 **Настройка порядка следования данных** — этот шаг мастера добавляется при использовании метода *с учетом временных колебаний и сезонности опорных данных*, настройки следующие:
 
-* Сезонность.
-   * **Период сезонности** — выбор длины периода сезонности, если задать пункт *нет сезонности*, откроются опции для настройки прогноза по числу точек временного ряда, а настройки по числу периодов заблокируются.
+* Seasonality.
+   * **Seasonality period**: selection of the seasonality period length if *No seasonality* option is set, forecast configuration options by the count of time series points will be opened, and configuration by the period count will be locked.
    * **Количество рассчитываемых сезонных индексов** — в таблицу выходного порта *Показатели качества модели и сезонные индексы* для каждого индекса будет добавлено поле.
 * Разгруппируемый ряд.
    * **Плотность точек редких товаров** — коэффициент может принимать значения от 0,01 до 1, чем он выше, тем больше позиций будет распознано алгоритмом в качестве слишком редких и они будут исключены из прогноза.
    * **Периодов отсутствия для прекращения позиции** — если позиция отсутствует в ряду указанное число периодов, то она исключается из прогноза.
    * **Точек отсутствия для прекращения позиции** — если позиция отсутствует в ряду указанное число точек, то она исключается из прогноза.
    * **Периодов присутствия для новой позиции** — позиции, встречающиеся не чаще указанного числа периодов, будут считаться новыми.
-* Глубина истории.
+* Depth period.
    * **Максимальное число периодов сезонности** — для построения прогноза будет использовано указанное число последних периодов опорных данных, если задать значение `0`, будут использованы все периоды.
    * **Максимальное число точек каждого ряда** — для построения прогноза будет использовано указанное число последних точек ряда опорных данных, если задать значение `0`, будут использованы все точки.
