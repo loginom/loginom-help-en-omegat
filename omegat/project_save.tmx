@@ -20615,6 +20615,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, если имеются данные о суммах совершенных продаж конкретных товаров, эти данные можно использовать для разгруппировки по товарам таблицы прогноза, сделанного только для товарных групп.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201125T084248Z" creationid="Марианна" creationdate="20201125T084248Z">
+        <seg>For example, if there is data on the effected sales amount for particular goods, this data can be used for ungrouping by the goods listed in the table with the forecast made only for groups of goods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если на каждой итерации происходит обращение к источнику данных, не допускающему параллельные запросы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204010Z" creationid="Марианна" creationdate="20200921T203923Z">
