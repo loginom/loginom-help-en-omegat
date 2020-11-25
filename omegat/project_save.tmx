@@ -17357,6 +17357,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для определения групп, по которым будет производиться обратная агрегация численного поля, требуется опорная таблица, из которой заимствуются сами группы и учитывается процентное распределение значений численного поля между ними.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201125T083408Z" creationid="Марианна" creationdate="20201125T083408Z">
+        <seg>To define the groups by which inverse aggregation of numeric field will be performed, it is required to use the reference table from which the groups will be taken and percentage distribution of the numeric field values between them will be considered.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для открытых &lt;x1/&gt;Пакетов&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135134Z" creationid="Марианна" creationdate="20200816T135134Z">
