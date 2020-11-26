@@ -15055,6 +15055,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве опорных данных будем использовать данные о суммах продаж за предыдущий период.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T063232Z" creationid="Марианна" creationdate="20201126T063232Z">
+        <seg>Data on the sales amount in the previous period will be used as reference data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве параметра условий могут выступать &lt;x1/&gt;управляющие переменные&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T073305Z" creationid="Марианна" creationdate="20201113T065538Z">
