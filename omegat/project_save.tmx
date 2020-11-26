@@ -23455,6 +23455,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После этого разница распределяется между всеми разгруппированными значениями в соответствии с выбранным методом балансировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T120108Z" creationid="Марианна" creationdate="20201126T120108Z">
+        <seg>Then the difference is distributed between all ungrouped values according to the selected balance method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательно выполняются следующие этапы настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T054527Z" creationid="Марианна" creationdate="20201109T054527Z">
