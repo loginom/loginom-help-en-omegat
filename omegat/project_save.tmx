@@ -9069,6 +9069,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По заданным долям&lt;x2/&gt; — метод применяется, когда доли для разгруппировки уже присутствуют в опорной таблице, в типичном случае сумма долей должна быть равна единице, но это условие не является обязательным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T110324Z" creationid="Марианна" creationdate="20201126T110324Z">
+        <seg>&lt;x1/&gt;By given quotas&lt;x2/&gt;: the method is applied when the quotas for ungrouping are already in the reference table. Typically, the sum of quotas must be equl to one but this condition is not compulsory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По имени&lt;x2/&gt; — по наименованию листа книги.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T183801Z" creationid="Марианна" creationdate="20200825T183735Z">
