@@ -23695,6 +23695,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке узла разгруппировки выберем метод &lt;x1/&gt;С расчетом долей по всей выборке&lt;x2/&gt;, выставим округление до одного знака после запятой и &lt;x3/&gt;Пропорциональный&lt;x4/&gt; метод балансировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T063712Z" creationid="Марианна" creationdate="20201126T063712Z">
+        <seg>When configuring the ungrouping node, let's select &lt;x1/&gt;With calculation of quotas for total sample&lt;x2/&gt; method, set rounding up to one decimal place and &lt;x3/&gt;Proportional&lt;x4/&gt; balance method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При необходимости удаления всех связей используется кнопка &lt;x9/&gt; &lt;x10/&gt; &lt;x11/&gt;Удалить все связи&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T094501Z" creationid="Марианна" creationdate="20200918T094501Z">
