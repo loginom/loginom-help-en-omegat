@@ -8557,6 +8557,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Округлять до заданной точности&lt;x2/&gt; — округление разгруппированных значений до указанного количества цифр после запятой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T113626Z" creationid="Марианна" creationdate="20201126T113626Z">
+        <seg>&lt;x1/&gt;Round to the required decimal precision&lt;x2/&gt;: rounding of ungrouped values to the specified number of digits following the decimal point.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Округлять до кратного целому&lt;x2/&gt; — округление разгруппированных значений до чисел, кратных заданному целому числу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T113511Z" creationid="Марианна" creationdate="20201126T111407Z">
