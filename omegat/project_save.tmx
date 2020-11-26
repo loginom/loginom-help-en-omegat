@@ -10335,6 +10335,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сезонный индекс (1, 2, 3, ...)&lt;x2/&gt; — количество полей с сезонными индексами указывается в мастере настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T105906Z" creationid="Марианна" creationdate="20201126T105906Z">
+        <seg>&lt;x1/&gt;Seasonal index (1, 2, 3, ...)&lt;x2/&gt;: the number of fields with seasonal indexes is specified in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Секунды.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060254Z" creationid="Марианна" creationdate="20201119T060254Z">
