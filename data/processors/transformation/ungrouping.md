@@ -15,9 +15,9 @@ Ungrouped data:
 | Goods for summer cottage | 42,00 |
 | Household goods | 5,00 |
 
-В качестве опорных данных будем использовать данные о суммах продаж за предыдущий период.
+Data on the sales amount in the previous period will be used as reference data.
 
-Data for calculation of shares:
+Data for calculation of quotas:
 
 | Group of goods | Name of goods | Amount of sales, thous. rub. |
 | :------------- | :-------------- | ----------------------: |
@@ -31,7 +31,7 @@ Data for calculation of shares:
 | Household goods | Pink sparkling water | 1,60 |
 | Household goods | Baby soap | 2,90 |
 
-При настройке узла разгруппировки выберем метод *С расчетом долей по всей выборке*, выставим округление до одного знака после запятой и *Пропорциональный* метод балансировки. В области настройки назначений полей свяжем поля `Группа товаров` обеих таблиц, полю `Сумма продаж, тыс. руб.` из разгруппируемой таблицы выставим назначение *Разгруппируемое*, а полям `Название товара` и `Сумма продаж, тыс. руб.` из опорной таблицы — назначения *Поле с наименованиями* и *Поле с долями* соответственно.
+When configuring the ungrouping node, let's select *With calculation of quotas for total sample* method, set rounding up to one decimal place and *Proportional* balance method. Let's link the following fields in the area of the field usage type configuration: `Group of goods` of both tables, `Amount of sales, thous. rub.` field from the ungroupable table will have the *Ungroupable* usage type, and `Name of goods` and `Amount of sales, thous. rub.` fields from the reference table will have the following usage types: *Field with names* and *Field with quotas* correspondingly.
 
 Ungroup output:
 
@@ -58,22 +58,22 @@ Ungroup output:
 ### Input
 
 * ![Ungrouped data](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Ungrouped data**: the table that contains ungrouping field.
-* ![Data for calculation of shares](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data for calculation of shares**: the table from which the values of ungrouping shares are calculated.
+* ![Data for calculation of quotas](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data for calculation of quotas**: the table from which the values of ungrouping quotas are calculated.
 
 ### Output
 
-* ![Выход разгруппировки](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выход разгруппировки** — исходная таблица после обработки, в нее добавляются следующие поля.
-   * **Метка поля|Округлено** — поле содержит округленные разгруппируемые значения (в случае применения округления).
-   * **Разгруппированное значение** — поле содержит значения разгруппированные согласно *Методу разгруппировки*.
+* ![Ungroup output](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Ungroup output**: the source table after processing. The following fields are added to it:
+   * **Field caption|Rounded**: the field contains rounded ungrouped values (when rounding is used).
+   * **Ungrouped value**: the field contains the values ungrouped according to the*Ungrouping method*.
 
-Если применяется *Метод разгруппировки: С учетом временных колебаний и сезонности опорных данных*, то в эту таблицу добавляются также следующие поля:
+If *Ungrouping method: Given time variations and seasonality of the reference data* is used, the following fields are added to this table:
 
-* **Верхняя граница 95% ДИ** — верхняя граница 95%-го [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html).
-* **Нижняя граница 95% ДИ** — нижняя граница 95%-го доверительного интервала.
-* **Значение тренда** — значение тренда в данной точке для данной позиции.
-* **Значение сезонного индекса** — коэффициент, характеризующий [сезонность](https://wiki.loginom.ru/articles/seasonal-component.html) для данной точки и данной позиции.
-* **Код типа значения** — в зависимости от итогов разгруппировки, может принимать значение от 0 до 6.
-* **Тип значения** — содержит пояснения к каждому коду типа значения, где.
+* **Upper bound 95% CI**: the upper bound of 95% [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html).
+* **Lower bound 95% CI**: the lower bound of 95% confidence interval.
+* **Trend value** means the trend value in this point for this position.
+* **Seasonal index value** means the index describing [seasonality](https://wiki.loginom.ru/articles/seasonal-component.html) of this point and this position.
+* **Value type code** can take values from 0 to 6 according to the ungrouping results.
+* **Value type** contains clarifications concerning each value type code, etc.
    * **0** — нормально разгруппированное значение.
    * **1** — разгруппированное значение, которое изначально было задано как фиксированное, но фиксация была снята алгоритмом.
    * **2** — зафиксированное пользователем значение.

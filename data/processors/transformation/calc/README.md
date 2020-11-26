@@ -39,7 +39,7 @@ When adding and editing expressions, the dialog of parameters editing is display
 
 * **Name**: it is required to enter the [field name](../../../data/datasetfieldoptions.md) assigned to the column in the output data set.
 * **Caption**: it is required to enter the [field caption](../../../data/datasetfieldoptions.md) assigned to the column in the output data set.
-* **Data type**: it is required to select [data type](../../../data/datatype.md) of the filed in the output data set.
+* **Data type**: it is required to select [data type](../../../data/datatype.md) of the field in the output data set.
 * **Intermediate**: when selecting this flag, the expression can be used in calculations but it is not included into the list of fields of the output data set.
 * **Cache**: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent handlers and visualizers in order to avoid repeated calculations.
 * **Description** means clarifying information.

@@ -8,7 +8,7 @@ The following parameters are taken into account while sorting:
 * **Sort order**: the sorting order (![](../../images/icons/sorting/order-switcher-desc_default.svg) *Descending* or ![](../../images/icons/sorting/order-switcher-asc_default.svg) *Ascending*) is set for each sorted field.
 * **Data case**: case sensitivity of fields while sorting is specified for the fields with the ![](../../images/icons/data-types/string_default.svg)*String* or ![](../../images/icons/data-types/variant_default.svg) *Variable* data type.
 
-The algorithm sorts the records by the first sort filed according to the set order. If there are the same values, the strings that contain them are sorted by the second sort field, etc. according to the order of the sort fields.
+The algorithm sorts the records by the first sort field according to the set order. If there are the same values, the strings that contain them are sorted by the second sort field, etc. according to the order of the sort fields.
 
 ### Input
 
