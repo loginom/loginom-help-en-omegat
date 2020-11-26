@@ -8013,6 +8013,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод разгруппировки&lt;x2/&gt; — в выпадающем списке выбирается один из трех методов разгруппировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T110124Z" creationid="Марианна" creationdate="20201126T110124Z">
+        <seg>&lt;x1/&gt;Ungrouping method&lt;x2/&gt;: one of three ungrouping methods is selected in the drop-down list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Методом Drag-and-drop&lt;x2/&gt; — перетащить метку поля на элемент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163831Z" creationid="Марианна" creationdate="20200918T095141Z">
