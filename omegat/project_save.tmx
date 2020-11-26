@@ -27771,6 +27771,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>руб.&lt;x14/&gt; из опорной таблицы — назначения &lt;x15/&gt;Поле с наименованиями&lt;x16/&gt; и &lt;x17/&gt;Поле с долями&lt;x18/&gt; соответственно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T065043Z" creationid="Марианна" creationdate="20201126T064856Z">
+        <seg>fields from the reference table will have the following usage types: &lt;x15/&gt;Field with names&lt;x16/&gt; and &lt;x17/&gt;Field with quotas&lt;x18/&gt; correspondingly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>руб.&lt;x2/&gt; — сумма продаж для конкретный группы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114255Z" creationid="Марианна" creationdate="20201124T114255Z">
@@ -27781,8 +27789,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>руб.&lt;x8/&gt; из разгруппируемой таблицы выставим назначение &lt;x9/&gt;Разгруппируемое&lt;x10/&gt;, а полям &lt;x11/&gt;Название товара&lt;x12/&gt; и &lt;x13/&gt;Сумма продаж, тыс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T064814Z" creationid="Марианна" creationdate="20201126T064814Z">
-        <seg>rub.&lt;x8/&gt; field from the ungroupable table will have the &lt;x9/&gt;Ungroupable&lt;x10/&gt; usage type, and &lt;x11/&gt;Name of goods&lt;x12/&gt; and &lt;x13/&gt;Amount of sales, thous. fields</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T064907Z" creationid="Марианна" creationdate="20201126T064814Z">
+        <seg>rub.&lt;x8/&gt; field from the ungroupable table will have the &lt;x9/&gt;Ungroupable&lt;x10/&gt; usage type, and &lt;x11/&gt;Name of goods&lt;x12/&gt; and &lt;x13/&gt;Amount of sales, thous. rub.&lt;x14/&gt;</seg>
       </tuv>
     </tu>
     <tu>
