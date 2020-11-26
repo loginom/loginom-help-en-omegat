@@ -3524,6 +3524,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;6&lt;x2/&gt; — исключено из обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T104128Z" creationid="Марианна" creationdate="20201126T104128Z">
+        <seg>&lt;x1/&gt;6&lt;x2/&gt; is excluded from processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;&lt;x2/&gt; — Меньше;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172942Z" creationid="Марианна" creationdate="20201005T172942Z">
