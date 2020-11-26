@@ -5725,6 +5725,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Все последнему&lt;x2/&gt; — прибавляется к последнему разгруппированному значению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T120217Z" creationid="Марианна" creationdate="20201126T120217Z">
+        <seg>&lt;x1/&gt;All latest&lt;x2/&gt; — прибавляется к последнему разгруппированному значению.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входное дерево данных&lt;x2/&gt; Дерево данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145235Z" creationid="Марианна" creationdate="20200920T145235Z">
