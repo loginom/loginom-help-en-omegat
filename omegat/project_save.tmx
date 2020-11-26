@@ -10295,6 +10295,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;С расчетом долей по всей выборке&lt;x2/&gt; — процентное соотношение долей для разгруппировки будет таким же, как и у значений поля опорной таблицы, выбранного для расчета долей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T111051Z" creationid="Марианна" creationdate="20201126T111051Z">
+        <seg>&lt;x1/&gt;With calculation of quotas for total sample&lt;x2/&gt;: percentage of quotas for ungrouping will be the same as for the field values of the reference table selected for calculation of quotas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Самоорганизующиеся сети&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055933Z" creationid="Марианна" creationdate="20200812T055933Z">
