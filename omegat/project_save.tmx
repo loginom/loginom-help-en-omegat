@@ -7461,6 +7461,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Код типа значения&lt;x2/&gt; — в зависимости от итогов разгруппировки, может принимать значение от 0 до 6.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T070630Z" creationid="Марианна" creationdate="20201126T070630Z">
+        <seg>&lt;x1/&gt;Value type code&lt;x2/&gt; can take values from 0 to 6 according to the ungrouping results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой сохранится текст.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T162156Z" creationid="Марианна" creationdate="20200917T162156Z">
@@ -10923,6 +10931,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110815Z" creationid="Марианна" creationdate="20200929T110815Z">
         <seg>&lt;x1/&gt;Data type&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип значения&lt;x2/&gt; — содержит пояснения к каждому коду типа значения, где.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T070817Z" creationid="Марианна" creationdate="20201126T070817Z">
+        <seg>&lt;x1/&gt;Value type&lt;x2/&gt; contains clarifications concerning each value type code, etc.</seg>
       </tuv>
     </tu>
     <tu>
