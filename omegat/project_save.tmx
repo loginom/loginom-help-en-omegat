@@ -3420,6 +3420,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; — нормально разгруппированное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T102709Z" creationid="Марианна" creationdate="20201126T102709Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; — normally ungrouped value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; — &lt;x3/&gt;Логический&lt;x4/&gt; &lt;x5/&gt;Логический&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165207Z" creationid="Марианна" creationdate="20201111T165207Z">
