@@ -6893,6 +6893,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение сезонного индекса&lt;x2/&gt; — коэффициент, характеризующий &lt;x3/&gt;сезонность&lt;x4/&gt; для данной точки и данной позиции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T070441Z" creationid="Марианна" creationdate="20201126T070441Z">
+        <seg>&lt;x1/&gt;Seasonal index value&lt;x2/&gt; means the index describing &lt;x3/&gt;seasonality&lt;x4/&gt; of this point and this position.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение тренда&lt;x2/&gt; — значение тренда в данной точке для данной позиции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T070136Z" creationid="Марианна" creationdate="20201126T070136Z">
+        <seg>&lt;x1/&gt;Trend value&lt;x2/&gt; means the trend value in this point for this position.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; &lt;x3/&gt;Значение&lt;x4/&gt; — поле содержит заменяемые значения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092602Z" creationid="Марианна" creationdate="20201117T092602Z">
