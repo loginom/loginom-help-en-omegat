@@ -5508,6 +5508,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Верхняя граница 95% ДИ&lt;x2/&gt; — верхняя граница 95%-го &lt;x3/&gt;доверительного интервала&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T070015Z" creationid="Марианна" creationdate="20201126T070015Z">
+        <seg>&lt;x1/&gt;Upper bound 95% CI&lt;x2/&gt;: the upper bound of 95% &lt;x3/&gt;confidence interval&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Весь лист&lt;x2/&gt; — область листа, содержащего данные для импорта, определяется автоматически.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T184032Z" creationid="Марианна" creationdate="20200825T184032Z">
@@ -8217,6 +8225,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132715Z" creationid="Марианна" creationdate="20200816T132640Z">
         <seg>&lt;x1/&gt;No&lt;x2/&gt; will cancel changes (the &lt;x3/&gt;Package&lt;x4/&gt; will be closed without saving!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нижняя граница 95% ДИ&lt;x2/&gt; — нижняя граница 95%-го доверительного интервала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T070056Z" creationid="Марианна" creationdate="20201126T070056Z">
+        <seg>&lt;x1/&gt;Lower bound 95% CI&lt;x2/&gt;: the lower bound of 95% confidence interval.</seg>
       </tuv>
     </tu>
     <tu>
