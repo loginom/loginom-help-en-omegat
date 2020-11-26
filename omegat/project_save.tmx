@@ -3422,8 +3422,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;0&lt;x2/&gt; — нормально разгруппированное значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T102709Z" creationid="Марианна" creationdate="20201126T102709Z">
-        <seg>&lt;x1/&gt;0&lt;x2/&gt; — normally ungrouped value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T103136Z" creationid="Марианна" creationdate="20201126T102709Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; means the value that is normally ungrouped.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3438,8 +3438,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; — разгруппированное значение, которое изначально было задано как фиксированное, но фиксация была снята алгоритмом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T102836Z" creationid="Марианна" creationdate="20201126T102836Z">
-        <seg>&lt;x1/&gt;1&lt;x2/&gt; — ungrouped value was initially set as the fixed one but fixation was removed by the algorithm.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T103145Z" creationid="Марианна" creationdate="20201126T102836Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; means the ungrouped value that was initially set as the fixed one but fixation was removed by the algorithm.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3460,10 +3460,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt; — зафиксированное пользователем значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T102927Z" creationid="Марианна" creationdate="20201126T102909Z">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt; means the value fixed by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;3&lt;x2/&gt; — &lt;x3/&gt;Вещественный&lt;x4/&gt; &lt;x5/&gt;Вещественный&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165233Z" creationid="Марианна" creationdate="20201111T165233Z">
         <seg>&lt;x1/&gt;3&lt;x2/&gt; — &lt;x3/&gt;Real&lt;x4/&gt; &lt;x5/&gt;Real&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;3&lt;x2/&gt; — значение, зафиксированное пользователем, но несогласованное с опорной выборкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T103422Z" creationid="Марианна" creationdate="20201126T103422Z">
+        <seg>&lt;x1/&gt;3&lt;x2/&gt; means the value fixed by a user but inconsistent with the reference sample.</seg>
       </tuv>
     </tu>
     <tu>
