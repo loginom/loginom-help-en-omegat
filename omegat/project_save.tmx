@@ -3508,6 +3508,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;5&lt;x2/&gt; — ошибочное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T104116Z" creationid="Марианна" creationdate="20201126T104116Z">
+        <seg>&lt;x1/&gt;5&lt;x2/&gt; means the erroneous value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;6&lt;x2/&gt; — &lt;x3/&gt;Переменный&lt;x4/&gt; &lt;x5/&gt;Переменный&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165319Z" creationid="Марианна" creationdate="20201111T165319Z">
