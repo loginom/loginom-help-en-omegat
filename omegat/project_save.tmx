@@ -18205,6 +18205,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если применяется &lt;x1/&gt;Метод разгруппировки: С учетом временных колебаний и сезонности опорных данных&lt;x2/&gt;, то в эту таблицу добавляются также следующие поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T065853Z" creationid="Марианна" creationdate="20201126T065853Z">
+        <seg>If &lt;x1/&gt;Ungrouping method: Given time variations and seasonality of the reference data&lt;x2/&gt; is used, the following fields are added to this table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если путь начинается с "/", то он интерпретируется как абсолютный внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt; и считается от каталога пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090444Z" creationid="Марианна" creationdate="20201102T090444Z">
