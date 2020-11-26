@@ -6351,8 +6351,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Данные для расчета долей&lt;x2/&gt; &lt;x3/&gt;Данные для расчета долей&lt;x4/&gt; — таблица, из которой считываются значения долей для разгруппировки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201124T115506Z" creationid="Марианна" creationdate="20201124T115506Z">
-        <seg>&lt;x1/&gt;Data for calculation of shares&lt;x2/&gt; &lt;x3/&gt;Data for calculation of shares&lt;x4/&gt;: the table from which the values of ungrouping shares are calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T063801Z" creationid="Марианна" creationdate="20201124T115506Z">
+        <seg>&lt;x1/&gt;Data for calculation of quotas&lt;x2/&gt; &lt;x3/&gt;Data for calculation of quotas&lt;x4/&gt;: the table from which the values of ungrouping shares are calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16871,8 +16871,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные для расчета долей:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201124T115201Z" creationid="Марианна" creationdate="20201124T102804Z">
-        <seg>Data for calculation of shares:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T063737Z" creationid="Марианна" creationdate="20201124T102804Z">
+        <seg>Data for calculation of quotas:</seg>
       </tuv>
     </tu>
     <tu>
