@@ -8333,6 +8333,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нет балансировки&lt;x2/&gt; — распределения разницы не производится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T120136Z" creationid="Марианна" creationdate="20201126T120136Z">
+        <seg>&lt;x1/&gt;Not balance&lt;x2/&gt;: the difference is not distributed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нет&lt;x2/&gt; — отклонит изменения (&lt;x3/&gt;Пакет&lt;x4/&gt; будет закрыт без сохранения!).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132715Z" creationid="Марианна" creationdate="20200816T132640Z">
