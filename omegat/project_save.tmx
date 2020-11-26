@@ -3492,6 +3492,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;4&lt;x2/&gt; — значение, зафиксированное алгоритмом в ходе расчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T103536Z" creationid="Марианна" creationdate="20201126T103536Z">
+        <seg>&lt;x1/&gt;4&lt;x2/&gt; means the value fixed by the algorithm in the calculation process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;5&lt;x2/&gt; — &lt;x3/&gt;Строковый&lt;x4/&gt; &lt;x5/&gt;Строковый&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165307Z" creationid="Марианна" creationdate="20201111T165307Z">
