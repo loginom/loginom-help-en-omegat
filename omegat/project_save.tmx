@@ -10857,8 +10857,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — выбирается &lt;x3/&gt;тип данных&lt;x4/&gt; поля в выходном наборе данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T074639Z" creationid="Марианна" creationdate="20201015T074639Z">
-        <seg>&lt;x1/&gt;Data type&lt;x2/&gt;: it is required to select &lt;x3/&gt;data type&lt;x4/&gt; of the filed in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T064235Z" creationid="Марианна" creationdate="20201015T074639Z">
+        <seg>&lt;x1/&gt;Data type&lt;x2/&gt;: it is required to select &lt;x3/&gt;data type&lt;x4/&gt; of the field in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14745,8 +14745,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Алгоритм сортирует записи по первому в очереди полю сортировки в соответствии с заданным порядком.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T140444Z" creationid="Марианна" creationdate="20201115T140444Z">
-        <seg>The algorithm sorts the records by the first sort filed according to the set order.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T064247Z" creationid="Марианна" creationdate="20201115T140444Z">
+        <seg>The algorithm sorts the records by the first sort field according to the set order.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15289,8 +15289,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области настройки назначений полей свяжем поля &lt;x5/&gt;Группа товаров&lt;x6/&gt; обеих таблиц, полю &lt;x7/&gt;Сумма продаж, тыс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T064126Z" creationid="Марианна" creationdate="20201126T064126Z">
-        <seg>Let's link the following fields in the area of usage type configuration: &lt;x5/&gt;Group of goods&lt;x6/&gt; of both tables, полю &lt;x7/&gt;Amount of sales, thous.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T064227Z" creationid="Марианна" creationdate="20201126T064126Z">
+        <seg>Let's link the following fields in the area of the field usage type configuration: &lt;x5/&gt;Group of goods&lt;x6/&gt; of both tables, полю &lt;x7/&gt;Amount of sales, thous.</seg>
       </tuv>
     </tu>
     <tu>
