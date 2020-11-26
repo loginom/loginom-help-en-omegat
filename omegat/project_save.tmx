@@ -7261,6 +7261,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Индекс качества разгруппировки&lt;x2/&gt; — принимает значения от 0 (очень плохое качество, результатам нельзя доверять) до 1 ("идеальное" качество, опорная выборка не содержит шума, а разгруппированные значения точно укладываются в прогноз).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T105721Z" creationid="Марианна" creationdate="20201126T105721Z">
+        <seg>&lt;x1/&gt;Ungrouping quality indicator&lt;x2/&gt; takes the values from 0 (very poor quality, it is not recommended to rely on the results) to 1 (the "ideal" quality, the reference sample does not contain noise, and ungrouped values fully conform to the forecast).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
