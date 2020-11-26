@@ -8277,6 +8277,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не округлять&lt;x2/&gt; — данные не округляются при обработке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T111348Z" creationid="Марианна" creationdate="20201126T111348Z">
+        <seg>&lt;x1/&gt;Not round&lt;x2/&gt;: the data is not rounded when processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не соответствуют условию&lt;x2/&gt; &lt;x3/&gt;Не соответствуют условию&lt;x4/&gt; (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T073412Z" creationid="Марианна" creationdate="20201113T073412Z">
@@ -8545,6 +8553,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T162119Z" creationid="Марианна" creationdate="20201013T162119Z">
         <seg>&lt;x1/&gt;Limit output factors number&lt;x2/&gt;: an optional flag activation of which enables to set the limiting number of output factors in the corresponding field of the area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Округлять до кратного целому&lt;x2/&gt; — округление разгруппированных значений до чисел, кратных заданному целому числу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T111407Z" creationid="Марианна" creationdate="20201126T111407Z">
+        <seg>&lt;x1/&gt;Round to a multiple of a whole&lt;x2/&gt;: .</seg>
       </tuv>
     </tu>
     <tu>
@@ -10303,6 +10319,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;С учетом временных колебаний и сезонности опорных данных&lt;x2/&gt; — применяется для разгруппировки временного ряда данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T111230Z" creationid="Марианна" creationdate="20201126T111230Z">
+        <seg>&lt;x1/&gt;Given time variations and seasonality of the reference data&lt;x2/&gt;: it is applied for ungrouping of the data time series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Самоорганизующиеся сети&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055933Z" creationid="Марианна" creationdate="20200812T055933Z">
@@ -11555,6 +11579,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153544Z" creationid="Марианна" creationdate="20200917T153544Z">
         <seg>&lt;x1/&gt;Date format&lt;x2/&gt; is a format of the date representation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формат округления&lt;x2/&gt; — указывается используемый для округления формат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T111303Z" creationid="Марианна" creationdate="20201126T111303Z">
+        <seg>&lt;x1/&gt;Rounding format&lt;x2/&gt;: the format used for rounding is specified.</seg>
       </tuv>
     </tu>
     <tu>
