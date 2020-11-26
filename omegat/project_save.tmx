@@ -9191,8 +9191,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Показатели качества модели и сезонные индексы&lt;x2/&gt; &lt;x3/&gt;Показатели качества модели и сезонные индексы&lt;x4/&gt; — справочная таблица, составляется только при использовании метода &lt;x5/&gt;с учетом временных колебаний и сезонности опорных данных&lt;x6/&gt;, содержит поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T104317Z" creationid="Марианна" creationdate="20201126T104317Z">
-        <seg>&lt;x1/&gt;Model quality indicators and seasonal indexes&lt;x2/&gt; &lt;x3/&gt;Model quality indicators and seasonal indexes&lt;x4/&gt;: the reference table that is made using the following method: &lt;x5/&gt;Given time variations and seasonality of the reference data&lt;x6/&gt;. It contains fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T104426Z" creationid="Марианна" creationdate="20201126T104317Z">
+        <seg>&lt;x1/&gt;Model quality indicators and seasonal indexes&lt;x2/&gt; &lt;x3/&gt;Model quality indicators and seasonal indexes&lt;x4/&gt;: the reference table that is drawn up only when using the following method: &lt;x5/&gt;Given time variations and seasonality of the reference data&lt;x6/&gt;. It contains fields.</seg>
       </tuv>
     </tu>
     <tu>
