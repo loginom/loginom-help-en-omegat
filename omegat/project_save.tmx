@@ -5973,6 +5973,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выход разгруппировки&lt;x2/&gt; &lt;x3/&gt;Выход разгруппировки&lt;x4/&gt; — исходная таблица после обработки, в нее добавляются следующие поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T065406Z" creationid="Марианна" creationdate="20201126T065406Z">
+        <seg>&lt;x1/&gt;Ungroup output&lt;x2/&gt; &lt;x3/&gt;Ungroup output&lt;x4/&gt;: the source table after processing. The following fields are added to it:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выход&lt;x2/&gt; — закрытие всех Пакетов и выход из приложения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121242Z" creationid="Марианна" creationdate="20200814T121242Z">
