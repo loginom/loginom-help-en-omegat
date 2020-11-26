@@ -15289,8 +15289,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области настройки назначений полей свяжем поля &lt;x5/&gt;Группа товаров&lt;x6/&gt; обеих таблиц, полю &lt;x7/&gt;Сумма продаж, тыс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T064227Z" creationid="Марианна" creationdate="20201126T064126Z">
-        <seg>Let's link the following fields in the area of the field usage type configuration: &lt;x5/&gt;Group of goods&lt;x6/&gt; of both tables, полю &lt;x7/&gt;Amount of sales, thous.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T064325Z" creationid="Марианна" creationdate="20201126T064126Z">
+        <seg>Let's link the following fields in the area of the field usage type configuration: &lt;x5/&gt;Group of goods&lt;x6/&gt; of both tables, &lt;x7/&gt;Amount of sales, thous.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27775,6 +27775,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114255Z" creationid="Марианна" creationdate="20201124T114255Z">
         <seg>rub.&lt;x2/&gt; — amount of sales of the particular group;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>руб.&lt;x8/&gt; из разгруппируемой таблицы выставим назначение &lt;x9/&gt;Разгруппируемое&lt;x10/&gt;, а полям &lt;x11/&gt;Название товара&lt;x12/&gt; и &lt;x13/&gt;Сумма продаж, тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T064814Z" creationid="Марианна" creationdate="20201126T064814Z">
+        <seg>rub.&lt;x8/&gt; field from the ungroupable table will have the &lt;x9/&gt;Ungroupable&lt;x10/&gt; usage type, and &lt;x11/&gt;Name of goods&lt;x12/&gt; and &lt;x13/&gt;Amount of sales, thous. fields</seg>
       </tuv>
     </tu>
     <tu>
