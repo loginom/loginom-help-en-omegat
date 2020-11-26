@@ -8559,8 +8559,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Округлять до кратного целому&lt;x2/&gt; — округление разгруппированных значений до чисел, кратных заданному целому числу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T111407Z" creationid="Марианна" creationdate="20201126T111407Z">
-        <seg>&lt;x1/&gt;Round to a multiple of a whole&lt;x2/&gt;: .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T113511Z" creationid="Марианна" creationdate="20201126T111407Z">
+        <seg>&lt;x1/&gt;Round to a multiple of a whole&lt;x2/&gt;: rounding of ungrouped values to the numbers multiple to the set integer.</seg>
       </tuv>
     </tu>
     <tu>
