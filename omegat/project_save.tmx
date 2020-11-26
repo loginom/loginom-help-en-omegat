@@ -8013,6 +8013,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод балансировки&lt;x2/&gt; — подсчитывается разница между округленным разгруппируемым значением и фактической суммой округленных разгруппированных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T113717Z" creationid="Марианна" creationdate="20201126T113717Z">
+        <seg>&lt;x1/&gt;Balance method&lt;x2/&gt;: the difference between the rounded ungrouped value and actual sum of the rounded ungrouped values is calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метод разгруппировки&lt;x2/&gt; — в выпадающем списке выбирается один из трех методов разгруппировки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T110124Z" creationid="Марианна" creationdate="20201126T110124Z">
