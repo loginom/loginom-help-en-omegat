@@ -7861,6 +7861,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка поля|Округлено&lt;x2/&gt; — поле содержит округленные разгруппируемые значения (в случае применения округления).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T065553Z" creationid="Марианна" creationdate="20201126T065553Z">
+        <seg>&lt;x1/&gt;Field caption|Rounded&lt;x2/&gt;: the field contains rounded ungrouped values (when rounding is used).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — будет состоять из имени поля и названии функции агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T085645Z" creationid="Марианна" creationdate="20201006T085645Z">
@@ -9867,6 +9875,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114722Z" creationid="Марианна" creationdate="20201124T114520Z">
         <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: detailing of the goods sales measured in thous. is shown in this example.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — поле содержит значения разгруппированные согласно &lt;x3/&gt;Методу разгруппировки&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201126T065733Z" creationid="Марианна" creationdate="20201126T065733Z">
+        <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: the field contains the values ungrouped according to the&lt;x3/&gt;Ungrouping method&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
