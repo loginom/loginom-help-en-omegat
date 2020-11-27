@@ -9133,6 +9133,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Периодов отсутствия для прекращения позиции&lt;x2/&gt; — если позиция отсутствует в ряду указанное число периодов, то она исключается из прогноза.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T101357Z" creationid="Марианна" creationdate="20201127T101357Z">
+        <seg>&lt;x1/&gt;Absent periods for position termination&lt;x2/&gt;: if any position is absent in the series for the specified number of periods, it will be excluded from the forecast.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пирсона&lt;x2/&gt; — коэффициенты корреляции Пирсона;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T064219Z" creationid="Марианна" creationdate="20201012T064219Z">
