@@ -7151,8 +7151,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя листа для экспорта&lt;x2/&gt; — то, как будет называться лист в файле Excel, содержащий экспортируемую таблицу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T194015Z" creationid="Марианна" creationdate="20200916T194015Z">
-        <seg>&lt;x1/&gt;Name of the sheet to be exported&lt;x2/&gt; means the name of the sheet in the Excel file that contains the exported table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T103644Z" creationid="Марианна" creationdate="20200916T194015Z">
+        <seg>&lt;x1/&gt;Sheet name&lt;x2/&gt; means the name of the sheet in the Excel file that contains the exported table.</seg>
       </tuv>
     </tu>
     <tu>
