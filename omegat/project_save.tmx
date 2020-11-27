@@ -10039,6 +10039,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Равномерно&lt;x2/&gt; — распределяется между разгруппированными значениями поровну.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T092558Z" creationid="Марианна" creationdate="20201127T092558Z">
+        <seg>&lt;x1/&gt;Evenly&lt;x2/&gt;: the difference is evenly distributed between ungrouped values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разбиение на множества&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055533Z" creationid="Марианна" creationdate="20200812T055533Z">
