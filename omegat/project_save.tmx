@@ -17367,8 +17367,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Двойная кавычка(");</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200928T062605Z" creationid="Марианна" creationdate="20200917T151727Z">
-        <seg>Double quotation mark (")</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T104813Z" creationid="Марианна" creationdate="20200917T151727Z">
+        <seg>Double quote (")</seg>
       </tuv>
     </tu>
     <tu>
@@ -21841,8 +21841,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Одинарная кавычка (');</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200928T062610Z" creationid="Марианна" creationdate="20200917T151747Z">
-        <seg>Single quotation mark (')</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T104804Z" creationid="Марианна" creationdate="20200917T151747Z">
+        <seg>Single quote (')</seg>
       </tuv>
     </tu>
     <tu>
