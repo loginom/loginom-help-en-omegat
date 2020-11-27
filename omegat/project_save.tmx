@@ -17111,8 +17111,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Группа параметров &lt;x1/&gt;Разделители&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T151430Z" creationid="Марианна" creationdate="20200917T151430Z">
-        <seg>&lt;x1/&gt;Delimiters&lt;x2/&gt; group of parameters:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T104525Z" creationid="Марианна" creationdate="20200917T151430Z">
+        <seg>&lt;x1/&gt;Separators&lt;x2/&gt; group of parameters:</seg>
       </tuv>
     </tu>
     <tu>
