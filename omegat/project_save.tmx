@@ -22985,8 +22985,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По умолчанию используется Двойная кавычка (").</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T151836Z" creationid="Марианна" creationdate="20200917T151836Z">
-        <seg>Double quotation mark (") is used by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T104628Z" creationid="Марианна" creationdate="20200917T151836Z">
+        <seg>Double quote (") is used by default.</seg>
       </tuv>
     </tu>
     <tu>
