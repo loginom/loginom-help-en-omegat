@@ -6397,6 +6397,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Группа&lt;x2/&gt; &lt;x3/&gt;Группа&lt;x4/&gt; — такое назначение выставляется автоматически при связывании полей групп.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T093748Z" creationid="Марианна" creationdate="20201127T093748Z">
+        <seg>&lt;x1/&gt;Group&lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt;: such usage type is automatically set when linking the group fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Группировка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185954Z" creationid="Марианна" creationdate="20200810T185954Z">
@@ -16469,6 +16477,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможные варианты назначения полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T093652Z" creationid="Марианна" creationdate="20201127T093652Z">
+        <seg>The following options of the fields usage types are possible:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возьмем второй пример из &lt;x1/&gt;замены по точному совпадению&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T142237Z" creationid="Марианна" creationdate="20201116T142237Z">
@@ -25267,6 +25283,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205548Z" creationid="Марианна" creationdate="20200921T205548Z">
         <seg>It is not required to link variables at this stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Связывать следует поля групп, одинаковые для обеих таблиц — для этого достаточно перетащить метку поля из одной таблицы на соответствующую метку поля из другой таблицы, если образованная при этом связь ошибочна, удалить ее можно нажатием на расположенную на ней кнопку &lt;x5/&gt;Удалить&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T094319Z" creationid="Марианна" creationdate="20201127T094319Z">
+        <seg>It is required to link the group fields that are the same for both tables. For this purpose, it is sufficient to drag the field caption from one table to the corresponding filed caption from another table if the link established in such a manner is erroneous, it can be deleted by pressing &lt;x5/&gt;Delete&lt;x6/&gt; button that is located on it.</seg>
       </tuv>
     </tu>
     <tu>
