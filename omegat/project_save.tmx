@@ -10111,6 +10111,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разгруппируемое&lt;x2/&gt; &lt;x3/&gt;Разгруппируемое&lt;x4/&gt; — назначение выставляется полю таблицы разгруппируемых данных, к которому и будет применена разгруппировка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T094503Z" creationid="Марианна" creationdate="20201127T094503Z">
+        <seg>&lt;x1/&gt;Ungroupable&lt;x2/&gt; &lt;x3/&gt;Ungroupable&lt;x4/&gt;: the usage type is assigned to the table field of ungrouped data to which ungrouping will be applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппируемые данные&lt;x2/&gt; &lt;x3/&gt;Разгруппируемые данные&lt;x4/&gt; — таблица, содержащая поле для разгруппировки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114825Z" creationid="Марианна" creationdate="20201124T114825Z">
