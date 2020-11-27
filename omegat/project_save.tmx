@@ -390,8 +390,8 @@ interface IRequire extends IRequireFunction  {</seg>
       <tuv lang="ru">
         <seg>(точка).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T064955Z" creationid="Марианна" creationdate="20201023T064955Z">
-        <seg>(Dot mark).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T105131Z" creationid="Марианна" creationdate="20201023T064955Z">
+        <seg>(Dot).</seg>
       </tuv>
     </tu>
     <tu>
@@ -21777,8 +21777,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Обратная кавычка (`).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200928T062617Z" creationid="Марианна" creationdate="20200917T151815Z">
-        <seg>Backquote mark (`)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T105042Z" creationid="Марианна" creationdate="20200917T151815Z">
+        <seg>Back quote (`)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24985,16 +24985,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Разделителем может быть Двоеточие (:) или Точка (.).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152432Z" creationid="Марианна" creationdate="20200917T152432Z">
-        <seg>Colon (:) or dot mark (.) can be used as delimiters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T105110Z" creationid="Марианна" creationdate="20200917T152432Z">
+        <seg>Colon (:) or dot (.) can be used as delimiters.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Разделителем может быть Точка (.) или Запятая (,).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152046Z" creationid="Марианна" creationdate="20200917T152046Z">
-        <seg>Dot mark (.) or comma (,) can be used as delimiters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T105049Z" creationid="Марианна" creationdate="20200917T152046Z">
+        <seg>Dot (.) or comma (,) can be used as delimiters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26733,8 +26733,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Точка (.);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200928T062635Z" creationid="Марианна" creationdate="20200917T152255Z">
-        <seg>Dot mark (.)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T105103Z" creationid="Марианна" creationdate="20200917T152255Z">
+        <seg>Dot (.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -26757,8 +26757,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Точка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200928T062854Z" creationid="Марианна" creationdate="20200917T162022Z">
-        <seg>Dot mark</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T105117Z" creationid="Марианна" creationdate="20200917T162022Z">
+        <seg>Dot </seg>
       </tuv>
     </tu>
     <tu>
