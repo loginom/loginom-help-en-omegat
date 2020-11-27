@@ -9143,8 +9143,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Плотность точек редких товаров&lt;x2/&gt; — коэффициент может принимать значения от 0,01 до 1, чем он выше, тем больше позиций будет распознано алгоритмом в качестве слишком редких и они будут исключены из прогноза.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T100353Z" creationid="Марианна" creationdate="20201127T100014Z">
-        <seg>&lt;x1/&gt;Point density of rare goods&lt;x2/&gt;: the coefficient can take the values from 0.01 to 1. The higher coefficient is, the more positions will be identified by the algorithm as too rare and they will be excluded from the forecast.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T101146Z" creationid="Марианна" creationdate="20201127T100014Z">
+        <seg>&lt;x1/&gt;Point density of rare goods&lt;x2/&gt;: the coefficient can take the values from 0.01 to 1. The higher coefficient, the more positions will be identified by the algorithm as too rare, and they will be excluded from the forecast.</seg>
       </tuv>
     </tu>
     <tu>
