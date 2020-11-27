@@ -9895,6 +9895,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пропорционально&lt;x2/&gt; — разница распределяется частями, пропорциональными величине разгруппированных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T092458Z" creationid="Марианна" creationdate="20201127T092458Z">
+        <seg>&lt;x1/&gt;Proportionally&lt;x2/&gt;: the difference is distributed by the parts proportional to the size of ungrouped values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пропустить строк&lt;x2/&gt; — количество строк с начала текста, не подлежащее импорту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T085626Z" creationid="Марианна" creationdate="20200826T085429Z">
