@@ -9301,10 +9301,18 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле с долями&lt;x2/&gt; &lt;x3/&gt;Поле с долями&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему доли или значения для расчета долей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T094909Z" creationid="Марианна" creationdate="20201127T094909Z">
+        <seg>&lt;x1/&gt;Field with quotas&lt;x2/&gt; &lt;x3/&gt;Field with quotas&lt;x4/&gt;: it is assigned to the reference table field that contains quotas or values for calculation of quotas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле с наименование&lt;x2/&gt; &lt;x3/&gt;Поле с наименованиями&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему наименования, по которым будет производиться разгруппировка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T094608Z" creationid="Марианна" creationdate="20201127T094608Z">
-        <seg>&lt;x1/&gt;Field with names&lt;x2/&gt; &lt;x3/&gt;Field with names&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему наименования, по которым будет производиться разгруппировка.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T094740Z" creationid="Марианна" creationdate="20201127T094608Z">
+        <seg>&lt;x1/&gt;Field with names&lt;x2/&gt; &lt;x3/&gt;Field with names&lt;x4/&gt;: it is assigned to the reference table field that contains the names by which ungrouping will be performed.</seg>
       </tuv>
     </tu>
     <tu>
