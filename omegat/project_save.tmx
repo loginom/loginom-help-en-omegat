@@ -9301,6 +9301,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле с наименование&lt;x2/&gt; &lt;x3/&gt;Поле с наименованиями&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему наименования, по которым будет производиться разгруппировка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T094608Z" creationid="Марианна" creationdate="20201127T094608Z">
+        <seg>&lt;x1/&gt;Field with names&lt;x2/&gt; &lt;x3/&gt;Field with names&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему наименования, по которым будет производиться разгруппировка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — содержит список всех переменных, столбцов таблиц и указатель записей таблиц, поданных на входные порты компонента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T075014Z" creationid="Марианна" creationdate="20200924T075014Z">
