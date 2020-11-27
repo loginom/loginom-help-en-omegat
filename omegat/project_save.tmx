@@ -7925,6 +7925,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимальное число периодов сезонности&lt;x2/&gt; — для построения прогноза будет использовано указанное число последних периодов опорных данных, если задать значение &lt;x3/&gt;0&lt;x4/&gt;, будут использованы все периоды.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T102038Z" creationid="Марианна" creationdate="20201127T102038Z">
+        <seg>&lt;x1/&gt;Maximum number of seasonality periods&lt;x2/&gt;: to make a forecast, it is required to use the specified number of the last periods of reference data, if  &lt;x3/&gt;0&lt;x4/&gt; value is set, all periods will be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113302Z" creationid="Марианна" creationdate="20200929T113302Z">
