@@ -15,22 +15,22 @@ The component is configured in two steps:
 
 * **File storage** enables to display information on method of connection to the destination file.
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* *Delimiters* group of parameters:
+* *Separators* group of parameters:
    * **Text qualifier** is a character that frames cell data of the data set. The following characters can be used as text qualifiers:
-      * Double quotation mark (")
-      * Single quotation mark (')
-      * Backquote mark (`)
+      * Double quote (")
+      * Single quote (')
+      * Back quote (`)
 
-      Double quotation mark (") is used by default.
+      Double quote (") is used by default.
 
-   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions. Dot mark (.) or comma (,) can be used as delimiters.
+   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions. Dot (.) or comma (,) can be used as delimiters.
 
    * **Date separator** is a character that separates date components. Available delimiters:
-      * Dot mark (.)
+      * Dot (.)
       * Slash (/)
       * Back slash (&#92;)
 
-   * **Time separator** is a character that separates time components. Colon (:) or dot mark (.) can be used as delimiters.
+   * **Time separator** is a character that separates time components. Colon (:) or dot (.) can be used as delimiters.
 
       [Local settings](../../scenario/local-settings.md) are used as default values in the following parameters: *Decimal separator*, *Date separator* and *Time separator*.
 
@@ -70,7 +70,7 @@ The component is configured in two steps:
          * Semicolumn
          * Space
          * Comma
-         * Dot mark
+         * Dot
       * **Fixed width**: fields in the source file have the set width.
 * **Codepage** means encoding used for storage of text. There are the following available options:
    * ANSI/Windows(0);

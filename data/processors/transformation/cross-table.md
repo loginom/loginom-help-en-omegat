@@ -103,7 +103,7 @@ And the cross table settings are unchanged, the resulting data set will be as fo
 The lower wizard part includes the *General Columns Settings* area that has the following parameters:
 
 * **Field caption parts separator**: the character to separate the new fields captions when selecting several fields in the columns is selected.
-   * . (Dot mark).
+   * . (Dot).
    * | (horizontal line).
    * ->.
    * Space.

@@ -16,7 +16,7 @@ The handler exports the table data to the files for Microsoft Excel. It is possi
 
 * **File storage** enables to display information on method of connection to the destination file.
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* **Name of the sheet to be exported** means the name of the sheet in the Excel file that contains the exported table. Default value — *Sheet 1*.
+* **Sheet name** means the name of the sheet in the Excel file that contains the exported table. Default value — *Sheet 1*.
 * **Headers row** enables to define headers for the table in Excel.
    * No headers row.
    * Fields names.
