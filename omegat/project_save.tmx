@@ -9141,6 +9141,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Периодов присутствия для новой позиции&lt;x2/&gt; — позиции, встречающиеся не чаще указанного числа периодов, будут считаться новыми.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T101641Z" creationid="Марианна" creationdate="20201127T101641Z">
+        <seg>&lt;x1/&gt;Presence periods for the new position&lt;x2/&gt;: the positions occurring not more frequently than the specified number of periods, they will be considered to be new.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пирсона&lt;x2/&gt; — коэффициенты корреляции Пирсона;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T064219Z" creationid="Марианна" creationdate="20201012T064219Z">
@@ -11259,6 +11267,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165009Z" creationid="Марианна" creationdate="20201111T165009Z">
         <seg>&lt;x1/&gt;Data types&lt;x2/&gt;: the column that contains information on the data type of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точек отсутствия для прекращения позиции&lt;x2/&gt; — если позиция отсутствует в ряду указанное число точек, то она исключается из прогноза.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T101503Z" creationid="Марианна" creationdate="20201127T101503Z">
+        <seg>&lt;x1/&gt;Absent data points for position termination&lt;x2/&gt;: if any position is absent in the series for the specified number of points, it will be excluded from the forecast.</seg>
       </tuv>
     </tu>
     <tu>
