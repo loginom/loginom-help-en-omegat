@@ -7605,6 +7605,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Количество рассчитываемых сезонных индексов&lt;x2/&gt; — в таблицу выходного порта &lt;x3/&gt;Показатели качества модели и сезонные индексы&lt;x4/&gt; для каждого индекса будет добавлено поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T095944Z" creationid="Марианна" creationdate="20201127T095944Z">
+        <seg>&lt;x1/&gt;Number of calculated seasonal indexes&lt;x2/&gt;: a field will be added for each index to the output port table &lt;x3/&gt;Model quality indicators and seasonal indexes&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество строк заголовка&lt;x2/&gt; — количество верхних строк заданного предыдущими параметрами диапазона, которые не будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190053Z" creationid="Марианна" creationdate="20200825T190053Z">
