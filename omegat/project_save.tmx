@@ -8421,6 +8421,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки назначений полей&lt;x2/&gt; — представляет собой две таблицы, в первой находится перечень полей разгруппируемых данных, во второй — перечень полей данных для расчета долей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T093528Z" creationid="Марианна" creationdate="20201127T093528Z">
+        <seg>&lt;x1/&gt;Area of the field usage type configuration&lt;x2/&gt; represents two tables. The first one contains a list of the ugrouped data fields, the second one contains a list of the data fields for calculation of quotas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки сопоставления&lt;x2/&gt; — представляет таблицу где слева представлены поля &lt;x3/&gt;Главной таблицы&lt;x4/&gt;, а справа &lt;x5/&gt;Подключаемые таблицы&lt;x6/&gt;, отмечаемые чекбоксами и выпадающими списками.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T143409Z" creationid="Марианна" creationdate="20201119T143017Z">
