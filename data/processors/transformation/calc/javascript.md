@@ -76,7 +76,7 @@ To import the CommonJS module, it is required to use `require` function. For exa
 const foo = require("foo/foo.js");
 ```
 
-The module objects are initialised when first such calling. In the case of subsequent calls cache is used. The module objects state of the previous call is preserved in it. As the script is executed in *Calculator* for each of the calculated table cells, the included`require` module is repeatedly called, and cache is used. Thus, the changed state of the module objects can be transferred from call to call. It is required to take into account and to clean out the cache available via `require.cache` object when required:
+The module objects are initialised upon the first call. In the case of subsequent calls cache is used. The module objects state of the previous call is preserved in it. As the script is executed in *Calculator* for each of the calculated table cells, the included`require` module is repeatedly called, and cache is used. Thus, the changed state of the module objects can be transferred from call to call. It is required to take into account and to clean out the cache available via `require.cache` object when required:
 
 ```javascript
 let path = require.resolve("foo/foo.js");
