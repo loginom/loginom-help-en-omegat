@@ -7823,8 +7823,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; необходимо включать в выражениях &lt;x3/&gt;Калькулятора&lt;x4/&gt; в случае использования функции &lt;x5/&gt;Data()&lt;x6/&gt; при рекурсивном вычислении значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201014T062025Z" creationid="Марианна" creationdate="20201014T062025Z">
-        <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x3/&gt;Calculator&lt;x4/&gt; expressions in case of the &lt;x5/&gt;Data()&lt;x6/&gt; function usage for the recursive computation of values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201128T203201Z" creationid="Марианна" creationdate="20201014T062025Z">
+        <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x3/&gt;Calculator&lt;x4/&gt; expressions in case of &lt;x5/&gt;Data()&lt;x6/&gt; function usage for the recursive computation of values.</seg>
       </tuv>
     </tu>
     <tu>
