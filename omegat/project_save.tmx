@@ -5454,8 +5454,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; скрипт необходимо завершать командой &lt;x3/&gt;return&lt;x4/&gt;, которая выводит результат в вычисляемое поле калькулятора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T115322Z" creationid="Марианна" creationdate="20201020T115322Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; the script must be finished by the &lt;x3/&gt;return&lt;x4/&gt; command that shows the result in the calculated calculator field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201128T203514Z" creationid="Марианна" creationdate="20201020T115322Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The script must be finished by &lt;x3/&gt;return&lt;x4/&gt; command that shows the result in the calculated calculator field.</seg>
       </tuv>
     </tu>
     <tu>
