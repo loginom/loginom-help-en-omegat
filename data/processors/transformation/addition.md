@@ -28,8 +28,8 @@ The following parameters can be configured:
    * **Repeat all rows**: the tables will be filled with the copies of their own records starting from the first one.
    * **Repeat the last row**: filling with the last row copies.
 * **Row count complies**: it is required to select one of the options to determine the number of records of the resulting data set:
-   * **With minimum data set**;
-   * **With maximum data set**;
+   * **With minimum data set**.
+   * **With maximum data set**.
    * **Data set defined**: when selecting this option, the *Data set defining row count* list becomes available. It is required to select a data set in it according to which the row count of the resulting data set will be defined.
 
 %spoiler%Example:%spoiler%
