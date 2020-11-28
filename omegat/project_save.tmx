@@ -27437,8 +27437,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Это необходимо учитывать и при необходимости очищать кэш, доступный через объект &lt;x5/&gt;require.cache&lt;x6/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T191554Z" creationid="Марианна" creationdate="20201020T191554Z">
-        <seg>It is required to take into account and to clean out the cache available via &lt;x5/&gt;require.cache&lt;x6/&gt; object when required:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201128T204639Z" creationid="Марианна" creationdate="20201020T191554Z">
+        <seg>It is required to take into account and clean out the cache available via &lt;x5/&gt;require.cache&lt;x6/&gt; object when required:</seg>
       </tuv>
     </tu>
     <tu>
