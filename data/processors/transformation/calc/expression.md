@@ -7,7 +7,7 @@ Expression can contain the following components:
 * brackets defining the order of operations execution;
 * characters of mathematical operations and relations;
 * logical operations (`and`, `or`, `not`, `xor`) and values (`true` or `1`, `false` or `0`);
-* functions according to the syntactic description (refer to [List of functions](../../func/calc-func/README.md) further).
+* functions according to the syntactic description (refer to [List of functions](../../func/calc-func/README.md) further);
 * string expressions in quotation marks ("string expression");
 * integer and real numbers;
 * single-line and multi-line comments.
@@ -18,7 +18,7 @@ It is possible to use references to the expressions calculated earlier in the ex
 
 ## Caching
 
-It is required to include [Caching](../../../scenario/caching.md) to the *Calculator* expressions in case of the `Data()` function usage for the recursive computation of values.
+It is required to include [Caching](../../../scenario/caching.md) to the *Calculator* expressions in case of `Data()` function usage for the recursive computation of values.
 
 It is recommended to use *Caching* when using the functions the result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.
 

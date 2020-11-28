@@ -19,7 +19,7 @@ In this example, it is required to use references to the fields with `COL1` and 
 
 To show the result in the calculated calculator field, it is required to use the `return` command that returns the `result` variable value which contains the calculated sum of the *Calculator* fields.
 
-> **Important:** the script must be finished by the `return` command that shows the result in the calculated calculator field. Otherwise, the script will be executed but the result will not be shown in the calculated field.
+> **Important:** The script must be finished by `return` command that shows the result in the calculated calculator field. Otherwise, the script will be executed but the result will not be shown in the calculated field.
 
 Compact code variant for calculation of the calcualtor fields sum:
 
