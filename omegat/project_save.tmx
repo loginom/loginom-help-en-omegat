@@ -20361,8 +20361,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Мастер настройки предлагает различные варианты обработки данной ситуации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T061541Z" creationid="Марианна" creationdate="20201019T061541Z">
-        <seg>The wizard enables to use different processing options for such situation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201128T201909Z" creationid="Марианна" creationdate="20201019T061541Z">
+        <seg>The wizard enables to use different processing options in this situation.</seg>
       </tuv>
     </tu>
     <tu>
