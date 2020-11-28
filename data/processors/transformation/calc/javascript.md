@@ -98,7 +98,7 @@ Logical operations:
 Comparisons operator:
 
 * **=** — Equals.
-* **!=** — Not equal;
+* **!=** — Not equal.
 * **<** — Less than.
 * **>** — Greater than.
 * **<=** — Less than or equal to.
@@ -113,5 +113,5 @@ Templates:
 
 Logical values:
 
-* **false** — False;
+* **false** — False.
 * **true** — True.
