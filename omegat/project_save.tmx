@@ -25681,8 +25681,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Соединяемые наборы могут обрезаться до количества записей меньшего набора или дополняться до наибольшего.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T070535Z" creationid="Марианна" creationdate="20201019T061749Z">
-        <seg>The joined data sets can be cut up to the number of records of the smaller data set, or they can be filled with up to the largest one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201128T202002Z" creationid="Марианна" creationdate="20201019T061749Z">
+        <seg>The joined data sets can be cut up to the number of records of the smaller data set, or they can be appended up to the largest one.</seg>
       </tuv>
     </tu>
     <tu>
