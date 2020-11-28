@@ -28,10 +28,10 @@ Compact code variant for calculation of the calcualtor fields sum:
 return COL1 + COL2;
 ```
 
-Example of calculation of the power of a number:
+Example of calculation of the number power:
 
 ```javascript
-// Function of calculation of the power of a number
+// Function of calculation of the number power
 function pow(x, n) {
   if (n != 1) {
     return x * pow(x, n - 1);
@@ -44,7 +44,7 @@ return pow(COL1, COL2);
 ```
 
 `pow(x, n)` function is defined in this script. It takes number and power to which it is risen as arguments.
-To show the script result in the calculated calculator field, it is required to use the `return pow(COL1, COL2)` command where `pow(COL1, COL2)` enables to call the declared function with transfer to `х` and `n` parameters of the values from the calculator fields (or variables) `COL1` and `COL2`, correspondingly.
+To show the script result in the calculated calculator field, it is required to use `return pow(COL1, COL2)` command where `pow(COL1, COL2)` enables to call the declared function with transfer to `х` and `n` parameters of the values from the calculator fields (or variables) `COL1` and `COL2`, correspondingly.
 
 It is possible to use built-in [functions *of Calculator*](../../func/calc-func/README.md) in the JavaScript code:
 
