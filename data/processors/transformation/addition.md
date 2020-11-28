@@ -2,7 +2,7 @@
 
 The source data set is appended with the fields of the joined data sets by means of the *Column Union* handler. In this case, each record of the source data set is joined with the record of the additional data set with the same order number.
 
-If the joined data sets have different number of records, the resulting data set can contain null values. The wizard enables to use different processing options for such situation. The joined data sets can be cut up to the number of records of the smaller data set, or they can be filled with up to the largest one.
+If the joined data sets have different number of records, the resulting data set can contain null values. The wizard enables to use different processing options in this situation. The joined data sets can be cut up to the number of records of the smaller data set, or they can be appended up to the largest one.
 
 Variables can be added to the source data set. Each of the joined variables adds a new column to the source data set. In this case, according to the settings of *Missing Terminal Rows Filling* parameter, the value of the joined variable will be added:
 * to all rows of the new column;
