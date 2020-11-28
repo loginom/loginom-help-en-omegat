@@ -19419,8 +19419,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Инициализация объектов модуля происходит при первом таком вызове, при последующих используется кэш, в котором сохраняется состояние объектов модуля предыдущего вызова.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201020T190859Z" creationid="Марианна" creationdate="20201020T190859Z">
-        <seg>The module objects are initialised when first such calling. In the case of subsequent calls cache is used. The module objects state of the previous call is preserved in it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201128T204048Z" creationid="Марианна" creationdate="20201020T190859Z">
+        <seg>The module objects are initialised upon the first call. In the case of subsequent calls cache is used. The module objects state of the previous call is preserved in it.</seg>
       </tuv>
     </tu>
     <tu>
