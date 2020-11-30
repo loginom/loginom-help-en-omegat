@@ -21569,8 +21569,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Область содержит список полей и переменных, передаваемых на вход обработчика.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201130T134203Z" creationid="Марианна" creationdate="20201015T085008Z">
-        <seg>The area contains a list of fields and variables supplied to the handler input.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T134242Z" creationid="Марианна" creationdate="20201015T085008Z">
+        <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
       </tuv>
     </tu>
     <tu>
