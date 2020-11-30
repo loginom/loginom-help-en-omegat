@@ -17279,8 +17279,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные полей в этой группе обрабатываются в соответствии с &lt;x1/&gt;функциями агрегации&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T070240Z" creationid="Марианна" creationdate="20201023T070240Z">
-        <seg>The fields data in this group are processes according to the &lt;x1/&gt;aggregation functions&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T140929Z" creationid="Марианна" creationdate="20201023T070240Z">
+        <seg>The fields data in this group are processed according to the &lt;x1/&gt;aggregation functions&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
