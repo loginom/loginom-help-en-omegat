@@ -44,9 +44,9 @@ Upon processing, the values of the *Goods* field were transferred to headers of 
 
 ## Wizard
 
-The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).
+The wizard window is divided into two areas: available fields (to the left) and selected fields (to the right).
 
-* **Available fields** contains the input data set fields.
+* **Available fields** contain the input data set fields.
 * **Selected fields** are divided into groups.
    * ![Columns](../../images/icons/dataset-operations/dsa-columns_default.svg) Columns.
    * ![Strings](../../images/icons/dataset-operations/dsa-rows_default.svg) Strings.
@@ -56,7 +56,7 @@ The *Available fields* area always contains the *Count* synthetic field apart fr
 
 ### Columns
 
-The values of these fields will be the columns headers. The fields included into this group must relate to the discrete [data kind](../../data/datakind.md)
+The values of these fields will be the columns headers. The fields included into this group must relate to the discrete [data kind](../../data/datakind.md).
 
 When using the cross table, new values can appear in the fields by which the columns were generated. The handler provides two approaches to solve this problem:
 
@@ -102,13 +102,13 @@ And the cross table settings are unchanged, the resulting data set will be as fo
 
 The lower wizard part includes the *General Columns Settings* area that has the following parameters:
 
-* **Field caption parts separator**: the character to separate the new fields captions when selecting several fields in the columns is selected.
+* **Field caption parts separator**: it is required to select the character to separate the new fields captions when selecting several fields in the columns.
    * . (Dot).
    * | (horizontal line).
    * ->.
    * Space.
 * **Sliding unique values**: flag placement enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
-* **Value number limit** is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set count of values exceeds the count of the unique values in the columns, the fictitious columns are not added.
+* **Value number limit** is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set number of values exceeds the number of the unique values in the columns, the fictitious columns are not added.
 
 Using ![Up](../../images/icons/toolbar-controls/moveup_default.svg) and ![Down](../../images/icons/toolbar-controls/movedown_default.svg) buttons, it is possible to change the order of fields in the group. The order of fields location has an impact on the resulting table structure.
 

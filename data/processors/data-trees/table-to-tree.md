@@ -14,7 +14,7 @@ The **Table to Tree** node enables to transform the source data displayed in the
 
 ## Wizard
 
-It is required to configure mapping of the input data that are located leftward in the **Source data set columns** field, and created data tree that is located rightward in the **Tree node** and **Related fields** fields.
+It is required to configure mapping of the input data that are located to the left in the **Source data set columns** field, and created data tree that is located to the right in the **Tree node** and **Related fields** fields.
 
 Primarily, only one root directory is available in the right field - **Root**.
 

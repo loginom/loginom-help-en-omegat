@@ -38,7 +38,7 @@ Resulting data set:
 
 ## Wizard
 
-The wizard window is divided into two areas: available fields (leftward) and selected fields (rightward).
+The wizard window is divided into two areas: available fields (to the left) and selected fields (to the right).
 
 * **Available fields** contains a list of fields of the input data set.
 * **Selected fields** are divided into lists.
