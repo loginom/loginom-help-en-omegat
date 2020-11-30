@@ -8439,8 +8439,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область кода выражений&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T062304Z" creationid="Марианна" creationdate="20201015T062304Z">
-        <seg>&lt;x1/&gt;The expressions code area&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T133420Z" creationid="Марианна" creationdate="20201015T062304Z">
+        <seg>&lt;x1/&gt;The expressions code area&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9447,8 +9447,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля/переменные&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T062317Z" creationid="Марианна" creationdate="20201015T062317Z">
-        <seg>&lt;x1/&gt;Fields/variables&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T133425Z" creationid="Марианна" creationdate="20201015T062317Z">
+        <seg>&lt;x1/&gt;Fields/variables&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10841,8 +10841,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Список выражений&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T193755Z" creationid="Марианна" creationdate="20201004T193755Z">
-        <seg>&lt;x1/&gt;List of expressions&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T133415Z" creationid="Марианна" creationdate="20201004T193755Z">
+        <seg>&lt;x1/&gt;List of expressions&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10865,8 +10865,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Список функций&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T083638Z" creationid="Марианна" creationdate="20201004T193847Z">
-        <seg>&lt;x1/&gt;List of functions&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T133442Z" creationid="Марианна" creationdate="20201004T193847Z">
+        <seg>&lt;x1/&gt;List of functions&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
