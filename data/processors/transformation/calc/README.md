@@ -5,7 +5,7 @@ It enables to create the new fields that are calculated by the defined formula b
 ### Input
 
 * ![ ](../../../images/icons/app/node/ports/outputs/table_inactive.svg) Input data source (data table);
-* ![ ](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Input variables (Variables), optional.
+* ![ ](../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Input variables (variables), optional.
 
 ### Output
 
@@ -15,10 +15,10 @@ It enables to create the new fields that are calculated by the defined formula b
 
 The wizard window includes the following areas:
 
-1. [List of expressions](#spisok-vyrazheniy);
-2. [The expressions code area](#oblast-koda-vyrazheniya);
-3. [Fields/variables](#polyaperemennye);
-4. [List of functions](#spisok-funktsiy)
+1. [List of expressions](#spisok-vyrazheniy).
+2. [The expressions code area](#oblast-koda-vyrazheniya).
+3. [Fields/variables](#polyaperemennye).
+4. [List of functions](#spisok-funktsiy).
 
 ### List of Expressions
 

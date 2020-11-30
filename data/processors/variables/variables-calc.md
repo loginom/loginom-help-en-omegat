@@ -18,10 +18,10 @@ The handler is designated for mathematical operations with variables. New variab
 
 The wizard window includes the following areas:
 
-1. [List of expressions](#spisok-vyrazheniy);
+1. [List of expressions](#spisok-vyrazheniy).
 2. [The expression code area](#oblast-koda-vyrazheniya);
 3. [Variables](#peremennye);
-4. [List of functions](#spisok-funktsiy)
+4. [List of functions](#spisok-funktsiy).
 
 ### List of Expressions
 
