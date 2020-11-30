@@ -15409,8 +15409,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В калькуляторе существует два способа расчета выражений:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T085322Z" creationid="Марианна" creationdate="20201015T085322Z">
-        <seg>There are two methods to calculate expressions in the calculator:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T134330Z" creationid="Марианна" creationdate="20201015T085322Z">
+        <seg>There are two methods used to calculate expressions in the calculator:</seg>
       </tuv>
     </tu>
     <tu>
