@@ -17287,8 +17287,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные третьей группы полей участвуют в расчете &lt;x1/&gt;фактов&lt;x2/&gt; — &lt;x3/&gt;агрегированных значений&lt;x4/&gt; на пересечении строк и колонок сводной таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201022T174016Z" creationid="Марианна" creationdate="20201022T174016Z">
-        <seg>Data of the third group of fields are used for calculation of &lt;x1/&gt;measures&lt;x2/&gt; — &lt;x3/&gt;aggregated values&lt;x4/&gt; at the intersection of strings and columns of the pivot table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T134828Z" creationid="Марианна" creationdate="20201022T174016Z">
+        <seg>Data of the third group of fields is used for calculation of &lt;x1/&gt;measures&lt;x2/&gt; — &lt;x3/&gt;aggregated values&lt;x4/&gt; at the intersection of strings and columns of the pivot table.</seg>
       </tuv>
     </tu>
     <tu>
