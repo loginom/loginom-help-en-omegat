@@ -70,7 +70,7 @@ Double click on the position of the selected function enables to enter its synta
 
 It is possible to insert references to the fields/variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.
 
-## Calculator syntax
+## Calculator Syntax
 
 There are two methods used to calculate expressions in the calculator:
 
