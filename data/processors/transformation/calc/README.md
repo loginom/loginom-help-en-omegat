@@ -16,7 +16,7 @@ It enables to create the new fields that are calculated by the defined formula b
 The wizard window includes the following areas:
 
 1. [List of expressions](#spisok-vyrazheniy).
-2. [The expressions code area](#oblast-koda-vyrazheniya).
+2. [The expression code area](#oblast-koda-vyrazheniya).
 3. [Fields/variables](#polyaperemennye).
 4. [List of functions](#spisok-funktsiy).
 
@@ -26,7 +26,7 @@ The area is designated for entry of *Expressions*, namely, calculated fields to 
 
 It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
-* ![ ](../../../images/icons/calcdata/expression_default.svg)|![](../../../images/icons/calcdata/javascript_default.svg) **Syntax** (drop-down list) enables to set [syntax of expressions calculation](#sintaksis-kalkulyatora) of the calculator.
+* ![ ](../../../images/icons/calcdata/expression_default.svg)|![](../../../images/icons/calcdata/javascript_default.svg) **Syntax** (drop-down list) enables to set [syntax of the calculator expressions calculation](#sintaksis-kalkulyatora).
 * ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to set expression parameters.
 * ![ ](../../../images/icons/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
 * ![ ](../../../images/icons/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
