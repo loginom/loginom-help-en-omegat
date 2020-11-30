@@ -1,16 +1,16 @@
-# ![Cross table](../../images/icons/components/cross-tab_default.svg) Cross table
+# ![Cross Table](../../images/icons/components/cross-tab_default.svg) Cross Table
 
 The handler creates the pivot table based on the source data set. When creating the table, the following criteria are met:
 
 * A part of fields of the source data set is unchanged forming the **strings** of the pivot table.
-* The values of cells of the other fields groups form the**columns** of the pivot table defining their headers.
-* Data of the third group of fields are used for calculation of **measures** — [aggregated values](../func/aggregation-functions.md) at the intersection of strings and columns of the pivot table.
+* The values of cells of the other fields groups form the **columns** of the pivot table defining their headers.
+* Data of the third group of fields is used for calculation of **measures** — [aggregated values](../func/aggregation-functions.md) at the intersection of strings and columns of the pivot table.
 
 %spoiler%Example:%spoiler%
 
 Source table:
 
-| Date | Goods | Sales volume |
+| Date | Goods | Volume of sales |
 | :------- | :------- | -------: |
 | 05.02.2017 | Wallpaper | 2000 |
 | 05.02.2017 | Grout | 300 |
