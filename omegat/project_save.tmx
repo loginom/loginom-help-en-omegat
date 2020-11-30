@@ -19043,8 +19043,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Значения ячеек другой группы полей образуют &lt;x1/&gt;колонки&lt;x2/&gt; сводной таблицы, задавая их заголовки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201022T173738Z" creationid="Марианна" creationdate="20201022T173738Z">
-        <seg>The values of cells of the other fields groups form the&lt;x1/&gt;columns&lt;x2/&gt; of the pivot table defining their headers.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T134802Z" creationid="Марианна" creationdate="20201022T173738Z">
+        <seg>The values of cells of the other fields groups form the &lt;x1/&gt;columns&lt;x2/&gt; of the pivot table defining their headers.</seg>
       </tuv>
     </tu>
     <tu>
