@@ -185,7 +185,7 @@ Source table:
 
 ### Measures
 
-The fields data in this group are processes according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. By default, the *Sum* function is selected for all numerical types, whereas for others - *Count*.
+The fields data in this group are processed according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. By default, the *Sum* function is selected for all numerical types, whereas for others - *Count*.
 
 To select other aggregation functions, it is required to double click on the field. When selecting several function options, each of them will be calculated in a separate column.
 
