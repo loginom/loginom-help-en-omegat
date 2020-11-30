@@ -6783,8 +6783,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные поля&lt;x2/&gt; — содержит поля входного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T055115Z" creationid="Марианна" creationdate="20201023T055115Z">
-        <seg>&lt;x1/&gt;Available fields&lt;x2/&gt; contains the input data set fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T140126Z" creationid="Марианна" creationdate="20201023T055115Z">
+        <seg>&lt;x1/&gt;Available fields&lt;x2/&gt; contain the input data set fields.</seg>
       </tuv>
     </tu>
     <tu>
