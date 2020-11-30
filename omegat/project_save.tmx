@@ -23257,8 +23257,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Поля в данной группе обязательно должны иметь дискретный &lt;x1/&gt;вид данных&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T061653Z" creationid="Марианна" creationdate="20201023T061653Z">
-        <seg>The fields included into this group must relate to the discrete &lt;x1/&gt;data kind&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T140223Z" creationid="Марианна" creationdate="20201023T061653Z">
+        <seg>The fields included into this group must relate to the discrete &lt;x1/&gt;data kind&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
