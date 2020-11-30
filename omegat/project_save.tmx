@@ -8599,8 +8599,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничение количества значений&lt;x2/&gt; — используется, чтобы ограничить максимальное количество колонок  в выходном наборе, отбираются первые n сформированных полей, если установленное количество значений больше  количества уникальных значений в колонках, то фиктивные столбцы не добавляются.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T081310Z" creationid="Марианна" creationdate="20201023T081310Z">
-        <seg>&lt;x1/&gt;Value number limit&lt;x2/&gt; is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set count of values exceeds the count of the unique values in the columns, the fictitious columns are not added.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T140802Z" creationid="Марианна" creationdate="20201023T081310Z">
+        <seg>&lt;x1/&gt;Value number limit&lt;x2/&gt; is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set number of values exceeds the number of the unique values in the columns, the fictitious columns are not added.</seg>
       </tuv>
     </tu>
     <tu>
