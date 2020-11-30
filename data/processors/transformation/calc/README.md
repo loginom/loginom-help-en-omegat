@@ -30,7 +30,7 @@ It is possible to create a new expression using the toolbar area or the context 
 * ![ ](../../../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to set expression parameters.
 * ![ ](../../../images/icons/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
 * ![ ](../../../images/icons/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
-* ![ ](../../../images/icons/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with default parameters.
+* ![ ](../../../images/icons/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with the default parameters.
 * ![ ](../../../images/icons/toolbar-controls/clone_default.svg) **Add expression by the example** enables to add a new expression with data type, description and formula similar to the current expression.
 * ![ ](../../../images/icons/toolbar-controls/delete_default.svg) **Delete expression** enables to delete the current expression.
 * ![ ](../../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all expressions** enables to delete all existing expressions.
@@ -54,7 +54,7 @@ It is required to set the [expression calculation formula](./expression.md) or t
 
 Changes in the code area are saved on exit.
 
-### Fields/variables
+### Fields/Variables
 
 The area contains the list of fields and variables supplied to the handler input. The list and features of fields/variables are defined when configuring input ports of the handler.
 
@@ -72,9 +72,9 @@ It is possible to insert references to the fields/variables and syntactic constr
 
 ## Calculator syntax
 
-There are two methods to calculate expressions in the calculator:
+There are two methods used to calculate expressions in the calculator:
 
-* ![ ](../../../images/icons/calcdata/expression_default.svg) [Expression](./expression.md);
+* ![ ](../../../images/icons/calcdata/expression_default.svg) [Expression](./expression.md).
 * ![ ](../../../images/icons/calcdata/javascript_default.svg) [JavaScript](./javascript.md).
 
 To select the syntax, it is required to select *JavaScript* or *Expression* in the expressions list menu (refer to Figure 1).
