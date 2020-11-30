@@ -2862,8 +2862,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входные переменные (переменные), необязательный.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T062239Z" creationid="Марианна" creationdate="20201015T062239Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Input variables (Variables), optional.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201130T133352Z" creationid="Марианна" creationdate="20201015T062239Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input variables (variables), optional.</seg>
       </tuv>
     </tu>
     <tu>
