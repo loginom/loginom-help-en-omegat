@@ -24896,8 +24896,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Пути импорта внешних модулей</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T085619Z" creationid="Марианна" creationdate="20201102T085619Z">
-        <seg>Import paths of external modules</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T161853Z" creationid="Марианна" creationdate="20201102T085619Z">
+        <seg>Import Paths of External Modules</seg>
       </tuv>
     </tu>
     <tu>
