@@ -5743,8 +5743,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; (таблица данных) — набор данных, подлежащий изменению;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T083719Z" creationid="Марианна" creationdate="20201117T083719Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; (data table) denotes a data set to be changed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110356Z" creationid="Марианна" creationdate="20201117T083719Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; (data table) denotes the data set to be changed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6159,16 +6159,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве ключевых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T080008Z" creationid="Марианна" creationdate="20201118T092953Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110413Z" creationid="Марианна" creationdate="20201118T092953Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве сопоставляемых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T080908Z" creationid="Марианна" creationdate="20201119T075919Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110419Z" creationid="Марианна" creationdate="20201119T075919Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8167,8 +8167,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Набор данных&lt;x2/&gt; &lt;x3/&gt;Присоединяемая таблица &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (таблица данных) — набор данных, содержащий таблицу замен;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T083831Z" creationid="Марианна" creationdate="20201117T083831Z">
-        <seg>&lt;x1/&gt;Data set&lt;x2/&gt; &lt;x3/&gt;Joined table &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (data table) denotes a data set that contains a replacement table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110405Z" creationid="Марианна" creationdate="20201117T083831Z">
+        <seg>&lt;x1/&gt;Data set&lt;x2/&gt; &lt;x3/&gt;Joined table &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (data table) denotes the data set that contains a replacement table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8471,8 +8471,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки сопоставления&lt;x2/&gt; — представляет таблицу где слева представлены поля &lt;x3/&gt;Главной таблицы&lt;x4/&gt;, а справа &lt;x5/&gt;Подключаемые таблицы&lt;x6/&gt;, отмечаемые чекбоксами и выпадающими списками.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T143409Z" creationid="Марианна" creationdate="20201119T143017Z">
-        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt; denotes a table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Connected tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110436Z" creationid="Марианна" creationdate="20201119T143017Z">
+        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt; denotes the table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Connected tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
       </tuv>
     </tu>
     <tu>
