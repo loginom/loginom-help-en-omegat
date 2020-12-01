@@ -15,7 +15,7 @@ Source table:
 | 13.07.2015 | Pears | 12 |
 | 13.07.2015 | Pears | 16 |
 
-It is required to select the*Date* and *Goods* fields as the group fields, and the *Weight, kg* as the parameter field (it will be used for aggregation). As an example, let's use three aggregation functions: sum, number of records and mean.
+It is required to select the *Date* and *Goods* fields as the group fields, and the *Weight, kg* as the parameter field (it will be used for aggregation). As an example, let's use three aggregation functions: sum, number of records and mean.
 
 Resulting table:
 
