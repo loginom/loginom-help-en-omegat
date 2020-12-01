@@ -9727,8 +9727,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При нажатии на кнопку &lt;x3/&gt;Предпросмотра&lt;x4/&gt; активируются все входные порты.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T060617Z" creationid="Марианна" creationdate="20201109T060617Z">
-        <seg>&lt;x1/&gt;Note: It is possible to activate all input ports &lt;x2/&gt; by pressing the &lt;x3/&gt;Preview&lt;x4/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T175317Z" creationid="Марианна" creationdate="20201109T060617Z">
+        <seg>&lt;x1/&gt;Note: It is possible to activate all input ports &lt;x2/&gt; by pressing &lt;x3/&gt;Preview&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22824,8 +22824,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>По кнопке &lt;x3/&gt;Предпросмотр…&lt;x4/&gt; в отдельном окне выводится до 100 первых строк результирующего набора данных и &lt;x5/&gt;консоль отладки кода&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T175209Z" creationid="Марианна" creationdate="20201109T060421Z">
-        <seg>&lt;x3/&gt;Preview…&lt;x4/&gt; button enables to show up to 100 first strings of the reslting data set and &lt;x5/&gt;console of code debugging&lt;x6/&gt; in a separate window.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T175232Z" creationid="Марианна" creationdate="20201109T060421Z">
+        <seg>&lt;x3/&gt;Preview…&lt;x4/&gt; button enables to show up to 100 first strings of the resulting data set and &lt;x5/&gt;console of code debugging&lt;x6/&gt; in a separate window.</seg>
       </tuv>
     </tu>
     <tu>
