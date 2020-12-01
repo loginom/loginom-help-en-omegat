@@ -15488,8 +15488,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201104T185540Z" creationid="Марианна" creationdate="20201030T082748Z">
-        <seg>The enumerations describing the fields and varibles metadata is built in within the JavaScript execution context.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T122033Z" creationid="Марианна" creationdate="20201030T082748Z">
+        <seg>The enumerations describing the fields and variables metadata are built in within the JavaScript execution context.</seg>
       </tuv>
     </tu>
     <tu>
