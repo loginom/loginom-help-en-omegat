@@ -23217,8 +23217,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Пользователь должен иметь в виду данное обстоятельство при принятии решения о преобразовании типа данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T193709Z" creationid="Марианна" creationdate="20201015T193709Z">
-        <seg>A user must take this fact into account when taking decision on transformation of the data type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T105627Z" creationid="Марианна" creationdate="20201015T193709Z">
+        <seg>A user must consider this fact when taking decision on transformation of the data type.</seg>
       </tuv>
     </tu>
     <tu>
