@@ -61,7 +61,7 @@ for (let prop in InputVariables.Items)
 for (let prop in InputVariables.Items[0])
     console.log(prop);
 
-// Check for existence of the "MyVar" variable
+// Check for existence of "MyVar" variable
 if (InputVariables.Items.MyVar)
     console.log("The variable exists");
 
