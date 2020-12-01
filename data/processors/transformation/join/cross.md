@@ -1,6 +1,6 @@
-# ![Full join](../../../images/icons/joindata/join-full_default.svg) Full join
+# ![Full Join](../../../images/icons/joindata/join-full_default.svg) Full Join
 
-## Cross join (SQL analogue: `CROSS JOIN`)
+## Cross Join (SQL Analogue: `CROSS JOIN`)
 
 When the join is full ( `CROSS JOIN`), the cross join (or Cartesian product) is performed. Each row of one table is joined with each row of the second table providing all possible combinations of rows of two tables.
 In the case of such join, the order of tables (left, right) is not important, and it is not required to map the key fields.

@@ -36,7 +36,7 @@ The *JavaScript* page contains the code editor executed by the node. [Preview…
 
 Also refer to [Code editor hotkeys](./hotkeys.md)
 
-## Access to the Ports Data and Other Built-in Objects from the JavaScript Code
+## Access to the Ports Data and Other Built-In Objects from the JavaScript Code
 
 To have access to the data of ports and other built-in objects in the context of the JavaScript code execution, the following objects are provided:
 
