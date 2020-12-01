@@ -5927,8 +5927,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — делится на списки &lt;x3/&gt;Группа&lt;x4/&gt; и &lt;x5/&gt;Показатели&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T200339Z" creationid="Марианна" creationdate="20201023T200339Z">
-        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt; is divided into the &lt;x3/&gt;Group&lt;x4/&gt; and &lt;x5/&gt;Parameters&lt;x6/&gt; lists.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T111137Z" creationid="Марианна" creationdate="20201023T200339Z">
+        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt; are divided into the &lt;x3/&gt;Group&lt;x4/&gt; and &lt;x5/&gt;Parameters&lt;x6/&gt; lists.</seg>
       </tuv>
     </tu>
     <tu>
