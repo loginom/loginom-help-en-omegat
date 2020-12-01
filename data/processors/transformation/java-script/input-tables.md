@@ -6,7 +6,7 @@ For access to the data of `Input data source[N]` ports, `InputTables[]` and `Inp
 
 As the first port is in the *JavaScript* node by default, there is a separate `InputTable` object to provide access to its data.
 
-## Data source properties
+## Data Source Properties
 
 %spoiler%Columns%spoiler%
 
@@ -32,7 +32,7 @@ It contains read-only count of rows. It returns the value of the `number` type.
 
 %/spoiler%
 
-## Data source methods
+## Data Source Methods
 
 %spoiler%Get%spoiler%
 
