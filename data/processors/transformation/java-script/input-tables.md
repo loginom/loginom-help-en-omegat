@@ -52,7 +52,7 @@ The method returns the value of the set column in the set string. The returned v
 - row is a row index. It takes the value of the `number` type.
 - col is a column index or name. It takes the value of the `number` or `string` type.
 
-The method returns the boolean `true` value, if the column in the set string has the null value. Otherwise, the `false` value returns.
+The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
@@ -62,7 +62,7 @@ The method returns the boolean `true` value, if the column in the set string has
 import { InputTable, InputTables } from "builtIn/Data";
 
 let inputTable0 = InputTables[0],              // Source of the data from port No 1
-    inputTable1 = InputTables[1];              // Источник данных с порта №2
+    inputTable1 = InputTables[1];              // Source of the data from port No 2
 let colOutlook0 = inputTable0.Columns.OUTLOOK, // Getting reference to the column by name
     colOutlook1 = inputTable1.Columns[1];      // Getting reference to the column by index
 

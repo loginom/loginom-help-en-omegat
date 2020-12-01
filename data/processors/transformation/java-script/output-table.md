@@ -48,7 +48,7 @@ The method returns the value of the set column in the set string. The returned v
 - row is a row index. It takes the value of the `number` type.
 - col is a column index or name. It takes the value of the `number` or `string` types.
 
-The method returns the boolean `true` value, if the column in the set string has the null value. Otherwise, the `false` value returns.
+The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
