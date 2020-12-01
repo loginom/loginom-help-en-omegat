@@ -130,11 +130,11 @@ require("child_module.js");
 
 Only the CommonJS modules can be loaded from the CommonJS modules.
 
-## Import paths of external modules
+## Import Paths of External Modules
 
 The modules import paths can be relative and absolute.
 
-### Relative path
+### Relative Path
 
 When using relative paths in the root modules (the script that contains the node code editor):
 
@@ -149,11 +149,11 @@ For example:
 import { cube, foo, sayHello } from "./foo/foo.js";
 ```
 
-### Absolute path
+### Absolute Path
 
 #### on the Loginom server
 
-If the path starts from "/", is is interpreted as the absolute one inside the [file storage](../../../location_user_files.md), and it is calculated from the user directory.
+If the path starts from "/", it is interpreted as the absolute one inside the [file storage](../../../location_user_files.md), and it is calculated from the user directory.
 
 For example:
 
