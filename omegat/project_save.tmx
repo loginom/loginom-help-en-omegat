@@ -18238,8 +18238,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доступ из кода JavaScript к данным портов и другим встроенным объектам</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T175448Z" creationid="Марианна" creationdate="20201109T061347Z">
-        <seg>Access to the Ports Data and Other Built-in Objects from the JavaScript Code</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T180412Z" creationid="Марианна" creationdate="20201109T061347Z">
+        <seg>Access to the Ports Data and Other Built-In Objects from the JavaScript Code</seg>
       </tuv>
     </tu>
     <tu>
