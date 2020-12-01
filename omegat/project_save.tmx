@@ -12670,10 +12670,10 @@ console.log("RowCount = ", OutputTable.RowCount);
 // Представление столбцов набора данных
 interface IColumn extends Iterable&lt;boolean | number | string | Date | undefined&gt; {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T054142Z" creationid="Марианна" creationdate="20201025T054142Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201201T111808Z" creationid="Марианна" creationdate="20201025T054142Z">
         <seg>Predicted, Key, Group, Value, Transaction, Item }
 
-// Представление столбцов набора данных
+// View of the data set columns
 interface IColumn extends Iterable&lt;boolean | number | string | Date | undefined&gt; {</seg>
       </tuv>
     </tu>
