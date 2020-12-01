@@ -10,8 +10,8 @@ Sequence of the replacement algorithm actions:
 
 ### Input
 
-* ![Input data source](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** (data table) denotes a data set to be changed.
-* ![Data set](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table [N]** (data table) denotes a data set that contains a replacement table.
+* ![Input data source](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** (data table) denotes the data set to be changed.
+* ![Data set](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table [N]** (data table) denotes the data set that contains a replacement table.
 * ![Add port](../../../images/icons/app/node/ports/add/add_inactive_default.svg) **Add another port.** As several replacement tables are possible, the ports required for them can be added by a user.
 
 ### Output

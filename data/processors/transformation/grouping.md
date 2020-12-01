@@ -32,11 +32,11 @@ The example shows that the group is formed by the unique combination of the fiel
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
 
 ### Output
 
-* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the port providing the grouped table.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes the port providing the grouped table.
 
 ## Wizard
 

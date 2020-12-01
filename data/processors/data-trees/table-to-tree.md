@@ -6,11 +6,11 @@ The **Table to Tree** node enables to transform the source data displayed in the
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set in the form of a table.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set in the form of a table.
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Output data set** denotes a port providing data after their transformation to the tree-like form.
+* ![Output data set](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Output data set** denotes the port providing data after their transformation to the tree-like form.
 
 ## Wizard
 

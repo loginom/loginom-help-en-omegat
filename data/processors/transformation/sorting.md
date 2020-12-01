@@ -12,7 +12,7 @@ The algorithm sorts the records by the first sort field according to the set ord
 
 ### Input
 
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set.
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
 
 ### Output
 

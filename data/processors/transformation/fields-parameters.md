@@ -20,11 +20,11 @@ The node enables to [cache](../../scenario/caching.md) the whole data set, or it
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a port with changed field features.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes the port with changed field features.
 
 ## Wizard
 

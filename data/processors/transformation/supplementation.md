@@ -12,7 +12,7 @@ Join of the data tables based on connection by the key fields — analogue of th
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones. Prefixes can be optionally added to the field captions of the joined tables.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones. Prefixes can be optionally added to the field captions of the joined tables.
 
 ## Wizard
 

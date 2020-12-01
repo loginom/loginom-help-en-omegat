@@ -30,7 +30,7 @@ Resulting data set:
 
 ## Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a port for connection of the input data set.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
 
 ### Output
 
