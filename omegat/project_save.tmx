@@ -26860,8 +26860,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узел создает новый набор данных с заданным составом и параметрами полей и заполняет его данными в ходе выполнения кода JavaScript.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T052604Z" creationid="Марианна" creationdate="20201109T052309Z">
-        <seg>The node creates a new data set with the set composition and parameters of fields. It appends data to it during the JavaScript code execution.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T175010Z" creationid="Марианна" creationdate="20201109T052309Z">
+        <seg>The node creates a new data set with the set composition and features of fields. It appends data to it during the JavaScript code execution.</seg>
       </tuv>
     </tu>
     <tu>
