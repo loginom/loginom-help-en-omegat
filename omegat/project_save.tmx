@@ -18254,8 +18254,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доступны все функции, включая реализованные в плагинах, за исключением следующих:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T114757Z" creationid="Марианна" creationdate="20201025T154130Z">
-        <seg>All functions are available, including the ones implemented in plugins, with the exception of the following ones::</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T114808Z" creationid="Марианна" creationdate="20201025T154130Z">
+        <seg>All functions are available, including the ones implemented in plugins, with the exception of the following ones:</seg>
       </tuv>
     </tu>
     <tu>
