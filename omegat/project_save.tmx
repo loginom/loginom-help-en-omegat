@@ -13419,10 +13419,10 @@ for (let prop in InputVariables.Items[0])</seg>
 // Проверка существования переменной "MyVar"
 if (InputVariables.Items.MyVar)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201105T105012Z" creationid="Марианна" creationdate="20201105T105012Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201201T173405Z" creationid="Марианна" creationdate="20201105T105012Z">
         <seg>console.log(prop);
 
-// Check for existence of the "MyVar" variable
+// Check for existence of "MyVar" variable
 if (InputVariables.Items.MyVar)</seg>
       </tuv>
     </tu>
