@@ -8,9 +8,9 @@ The node enables to change the following features of the data set fields:
 * Data kind
 * Designation
 
-The detailed information on the fields parameters is provided in [Features of data set field](../../data/datasetfieldoptions.md)
+The detailed information on the fields features is provided in [Features of data set field](../../data/datasetfieldoptions.md)
 
-> **Important:** The node does not impose restrictions when changing the field data type. As far as possible, when transforming, information completeness is preserved but in some cases, type change can cause loss of information. A user must take this fact into account when taking decision on transformation of the data type.
+> **Important:** The node does not impose restrictions when changing the field data type. As far as possible, when transforming, information completeness is preserved but in some cases, type change can cause loss of information. A user must consider this fact when taking decision on transformation of the data type.
 >
 > ---
 >
