@@ -15496,8 +15496,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В контексте выполнения JavaScript-кода доступны функции &lt;x1/&gt;Калькулятора&lt;x2/&gt;, которые импортируются из &lt;x3/&gt;встроенного модуля &lt;x4/&gt;"builtIn/Calc"&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T062700Z" creationid="Марианна" creationdate="20201109T062700Z">
-        <seg>In the context of the JavaScript code execution the &lt;x1/&gt;Calculator&lt;x2/&gt; functions are available. They are imported from the &lt;x3/&gt;built-in module&lt;x4/&gt;"builtIn/Calc"&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T175531Z" creationid="Марианна" creationdate="20201109T062700Z">
+        <seg>In the context of the JavaScript code execution, the &lt;x1/&gt;Calculator&lt;x2/&gt; functions are available. They are imported from the &lt;x3/&gt;built-in module&lt;x4/&gt;"builtIn/Calc"&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
