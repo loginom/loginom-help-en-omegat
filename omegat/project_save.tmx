@@ -3574,8 +3574,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T140732Z" creationid="Марианна" creationdate="20201115T140732Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a port for connection of the input data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110348Z" creationid="Марианна" creationdate="20201115T140732Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes the port for connection of the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5759,16 +5759,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных в виде таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T102902Z" creationid="Марианна" creationdate="20200929T102902Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a port for connection of the input data set in the form of a table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110248Z" creationid="Марианна" creationdate="20200929T102902Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes the port for connection of the input data set in the form of a table.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201016T071832Z" creationid="Марианна" creationdate="20201016T071832Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a port for connection of the input data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110237Z" creationid="Марианна" creationdate="20201016T071832Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes the port for connection of the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6071,8 +6071,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной источник данных&lt;x4/&gt; — порт, отдающий данные после их преобразования в древовидную форму.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T103120Z" creationid="Марианна" creationdate="20200929T103120Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a port providing data after their transformation to the tree-like form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110257Z" creationid="Марианна" creationdate="20200929T103120Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the port providing data after their transformation to the tree-like form.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6103,8 +6103,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт отдающий сгруппированную таблицу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T200141Z" creationid="Марианна" creationdate="20201023T200141Z">
-        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the port providing the grouped table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110216Z" creationid="Марианна" creationdate="20201023T200141Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the port providing the grouped table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6127,8 +6127,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт с измененными параметрами полей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201016T072021Z" creationid="Марианна" creationdate="20201016T072021Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a port with changed field features.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T110310Z" creationid="Марианна" creationdate="20201016T072021Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the port with changed field features.</seg>
       </tuv>
     </tu>
     <tu>
