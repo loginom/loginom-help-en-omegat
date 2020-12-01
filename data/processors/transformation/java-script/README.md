@@ -2,7 +2,7 @@
 
 ## Description
 
-The node creates a new data set with the set composition and parameters of fields. It appends data to it during the JavaScript code execution. To append the output data set, it is possible to use the data of the input ports in the code.
+The node creates a new data set with the set composition and features of fields. It appends data to it during the JavaScript code execution. To append the output data set, it is possible to use the data of the input ports in the code.
 Composition and parameters of the output data set fields are set in the node wizard, and they can be changed during the code execution.
 
 ### Input
@@ -19,18 +19,18 @@ Composition and parameters of the output data set fields are set in the node wiz
 
 The following configuration stages are successively executed:
 
-* Configure output columns
+* Configure output columns.
 * JavaScript.
 
-### Configure output columns
+### Configure Output Columns
 
-Composition and parameters of the output data set fields are set at the following wizard page: *Configure Output Columns*.
+Composition and features of the output data set fields are set at the following wizard page: *Configure Output Columns*.
 
 ### JavaScript
 
-The *JavaScript* page contains the code editor executed by the node. The [Preview…](../../../visualization/preview/preview.md) button enables to show up to 100 first strings of the reslting data set and [console of code debugging](./console.md) in a separate window.
+The *JavaScript* page contains the code editor executed by the node. [Preview…](../../../visualization/preview/preview.md) button enables to show up to 100 first strings of the resulting data set and [console of code debugging](./console.md) in a separate window.
 
-> **Note: It is possible to activate all input ports ** by pressing the *Preview* button. The *Preview* window is opened if the activation has been successfully finished.
+> **Note: It is possible to activate all input ports ** by pressing *Preview* button. The *Preview* window is opened if the activation has been successfully finished.
 
 [Import of the external JS modules](./external-modules.md) is supported.
 
