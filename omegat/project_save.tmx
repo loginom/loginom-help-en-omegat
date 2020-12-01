@@ -18566,8 +18566,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если путь начинается с "/", то он интерпретируется как абсолютный внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt; и считается от каталога пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T090444Z" creationid="Марианна" creationdate="20201102T090444Z">
-        <seg>If the path starts from "/", is is interpreted as the absolute one inside the &lt;x1/&gt;file storage&lt;x2/&gt;, and it is calculated from the user directory.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T161952Z" creationid="Марианна" creationdate="20201102T090444Z">
+        <seg>If the path starts from "/", it is interpreted as the absolute one inside the &lt;x1/&gt;file storage&lt;x2/&gt;, and it is calculated from the user directory.</seg>
       </tuv>
     </tu>
     <tu>
