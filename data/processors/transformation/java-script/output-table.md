@@ -1,6 +1,6 @@
 # ![](../../../images/icons/components/javascript_default.svg) Access to the Output Data Set
 
-For access to the data of the output port, the `OutputTable` object is used.
+For access to the output port data, the `OutputTable` object is used.
 
 ## OutputTable Properties
 
