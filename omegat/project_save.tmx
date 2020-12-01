@@ -12961,11 +12961,10 @@ interface IDataSource {</seg>
 // Представление переменных входного порта
 interface IVariables {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T060210Z" creationid="Марианна" creationdate="20201025T060210Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201201T112129Z" creationid="Марианна" creationdate="20201025T060210Z">
         <seg>[index: number]: IVariable;
 }
-
-// Representation of the input port variables
+View of input port variables
 interface IVariables {</seg>
       </tuv>
     </tu>
@@ -14030,14 +14029,14 @@ const require: IRequire;
 // Представление модуля
 interface IModule {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T060258Z" creationid="Марианна" creationdate="20201025T060258Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201201T112140Z" creationid="Марианна" creationdate="20201025T060258Z">
         <seg>readonly Count: number;
 }
 
 // require is used for import of CommonJS modules
 const require: IRequire;
 
-// Representation of module
+// View of module
 interface IModule {</seg>
       </tuv>
     </tu>
