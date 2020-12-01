@@ -54,7 +54,7 @@ interface IOutputTable extends IDataSource {
     Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
 }
 
-// Representation of the input variable
+// View of input variable
 interface IVariable {
     readonly Index: number;                                                 // Index
     readonly Name: string;                                                  // Name
@@ -69,8 +69,7 @@ interface IVariableItems extends Iterable<IVariable> {
     [name: string]: IVariable;
     [index: number]: IVariable;
 }
-
-// Representation of the input port variables
+View of input port variables
 interface IVariables {
     readonly Items: IVariableItems;
     readonly Count: number;
@@ -79,7 +78,7 @@ interface IVariables {
 // require is used for import of CommonJS modules
 const require: IRequire;
 
-// Representation of module
+// View of module
 interface IModule {
     readonly id: string;               // identifier
     parent?: this;                     // calling module
