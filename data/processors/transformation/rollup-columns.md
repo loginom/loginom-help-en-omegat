@@ -40,7 +40,7 @@ Resulting data set:
 
 The wizard window is divided into two areas: available fields (to the left) and selected fields (to the right).
 
-* **Available fields** contains a list of fields of the input data set.
+* **Available fields** contain a list of fields of the input data set.
 * **Selected fields** are divided into lists.
    * ![Info](../../images/icons/usage-types/unspecified_default.svg) **Info**: contains the fields that will not be changed.
    * On the basis of the ![Transposed](../../images/icons/dataset-operations/dsa-flipping_default.svg) **Transposed** fields 4 new columns will be generated: *Names*, *Captions*, *Values*, *Data types*.

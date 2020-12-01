@@ -42,10 +42,10 @@ The example shows that the group is formed by the unique combination of the fiel
 
 The wizard window is divided into two areas.
 
-* **Available fields** contains a list of fields of the input data set.
-* **Selected fields** is divided into the *Group* and *Parameters* lists.
+* **Available fields** contain a list of fields of the input data set.
+* **Selected fields** are divided into the *Group* and *Parameters* lists.
    * ![Group](../../images/icons/usage-types/group_default.svg) **Group** denotes grouping fields.
-   * ![Parameters](../../images/icons/usage-types/value_default.svg) **Parameters** denote the fields и which the aggregation functions are calculated.
+   * ![Parameters](../../images/icons/usage-types/value_default.svg) **Parameters** denote the fields by which the aggregation functions are calculated.
 
 To configure, it is required to move the input data set fields to the *Group* or *Parameters* lists, dragging them with the mouse. It can be also done using the following buttons : ![Move to Group](../../images/icons/usage-types/group_default.svg) **Move to Group** (hotkeys combination - **Alt+G**) and ![Move to Parameter](../../images/icons/usage-types/value_default.svg) **Move to Parameter** (hotkeys combination - **Alt+S**). The ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_filter_default.svg) *Filter* field is located over the list of the available fields. It enables to find the field by name or its part.
 
