@@ -12793,11 +12793,11 @@ WHERE</seg>
 // Представление входной переменной
 interface IVariable {</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T055932Z" creationid="Марианна" creationdate="20201025T055932Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201201T112044Z" creationid="Марианна" creationdate="20201025T055932Z">
         <seg>Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
 }
 
-// Representation of the input variable
+// View of input variable
 interface IVariable {</seg>
       </tuv>
     </tu>
