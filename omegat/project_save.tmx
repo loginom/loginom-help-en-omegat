@@ -15449,8 +15449,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В качестве полей-групп выберем поля &lt;x1/&gt;Дата&lt;x2/&gt; и &lt;x3/&gt;Товар&lt;x4/&gt;, а поле-параметр (по которому будет проводиться агрегация) — &lt;x5/&gt;Вес, кг&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T195042Z" creationid="Марианна" creationdate="20201023T195042Z">
-        <seg>It is required to select the&lt;x1/&gt;Date&lt;x2/&gt; and &lt;x3/&gt;Goods&lt;x4/&gt; fields as the group fields, and the &lt;x5/&gt;Weight, kg&lt;x6/&gt; as the parameter field (it will be used for aggregation).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T105958Z" creationid="Марианна" creationdate="20201023T195042Z">
+        <seg>It is required to select the &lt;x1/&gt;Date&lt;x2/&gt; and &lt;x3/&gt;Goods&lt;x4/&gt; fields as the group fields, and the &lt;x5/&gt;Weight, kg&lt;x6/&gt; as the parameter field (it will be used for aggregation).</seg>
       </tuv>
     </tu>
     <tu>
