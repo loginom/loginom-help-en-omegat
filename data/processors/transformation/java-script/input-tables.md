@@ -1,6 +1,6 @@
 # ![](../../../images/icons/components/javascript_default.svg) Access to the Input Data Sets
 
-For access to the data of the ports`Input data source[N]`, `InputTables[]` and `InputTable` objects are used. The port data source is accessed by its number:
+For access to the data of `Input data source[N]` ports, `InputTables[]` and `InputTable` objects are used. The port data source is accessed by its number:
 
 `InputTables[N]` where N is a port number (index). The first port has 0 index.
 
