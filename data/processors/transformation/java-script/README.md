@@ -36,7 +36,7 @@ The *JavaScript* page contains the code editor executed by the node. [Preview…
 
 Also refer to [Code editor hotkeys](./hotkeys.md)
 
-## Access to the data of ports and other built-in objects from the JavaScript code
+## Access to the Ports Data and Other Built-in Objects from the JavaScript Code
 
 To have access to the data of ports and other built-in objects in the context of the JavaScript code execution, the following objects are provided:
 
@@ -47,9 +47,9 @@ To have access to the data of ports and other built-in objects in the context of
 
 The objects specified above are imported from the built-in module: `"builtIn/Data"`. The import string of these objects is added to the text of the code executed by the node by default.
 
-In the context of the JavaScript code execution the *Calculator* functions are available. They are imported from the [built-in module`"builtIn/Calc"`](./calc-functions.md).
+In the context of the JavaScript code execution, the *Calculator* functions are available. They are imported from the [built-in module`"builtIn/Calc"`](./calc-functions.md).
 
-## Processing of errors
+## Processing of Errors
 
 When calling the *Preview* window or executing the node, the message informing about detected syntactic and execution errors is shown specifying position of the code with an error.
 
