@@ -15056,8 +15056,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Абсолютный путь</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T075407Z" creationid="Марианна" creationdate="20201102T075407Z">
-        <seg>Absolute path</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T161937Z" creationid="Марианна" creationdate="20201102T075407Z">
+        <seg>Absolute Path</seg>
       </tuv>
     </tu>
     <tu>
@@ -22168,8 +22168,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Относительный путь</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T085707Z" creationid="Марианна" creationdate="20201102T085707Z">
-        <seg>Relative path</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T161933Z" creationid="Марианна" creationdate="20201102T085707Z">
+        <seg>Relative Path</seg>
       </tuv>
     </tu>
     <tu>
