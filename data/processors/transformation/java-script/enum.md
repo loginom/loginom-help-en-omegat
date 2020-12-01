@@ -1,6 +1,6 @@
 # ![](../../../images/icons/components/javascript_default.svg) Enumerations of the Loginom Built-in Entities
 
-The enumerations describing the fields and varibles metadata is built in within the JavaScript execution context.
+The enumerations describing the fields and variables metadata are built in within the JavaScript execution context.
 
 ## Description of Enumerations
 
