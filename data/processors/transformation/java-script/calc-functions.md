@@ -1,8 +1,8 @@
 # ![](../../../images/icons/components/javascript_default.svg) Calculator Functions Import
 
-It is possible to use the [Calculator functions](../../func/calc-func/README.md) in the JavaScript code. For this purpose, it is required to use the built-in module - `"builtIn/Calc"`. All functions are available, including the ones implemented in plugins, with the exception of the foloowing ones::
+It is possible to use the [Calculator functions](../../func/calc-func/README.md) in the JavaScript code. For this purpose, it is required to use the built-in module - `"builtIn/Calc"`. All functions are available, including the ones implemented in plugins, with the exception of the following ones:
 
-- IF, IFF: there is an analogue in JS: `if (<condition>) {...}`;
+- IF, IFF: there is an analogue in JS: `if (<condition>) {...}`.
 - The functions of work with the input data (`Data`, `RowNum`, `RowCount`, `DisplayName`, `CumulativeSum`): there are analogues in [API](./api-description.md) (`RowCount`, `DisplayName`), or they are easily implemented by the JS code.
 
 Examples of the functions use:
