@@ -12447,8 +12447,8 @@ included between (slash-asterisk)</seg>
       <tuv lang="ru">
         <seg>IF, IFF — имеется аналог в JS: &lt;x1/&gt;if (&lt;условие&gt;) {...}&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T154226Z" creationid="Марианна" creationdate="20201025T154226Z">
-        <seg>IF, IFF: there is an analogue in JS: &lt;x1/&gt;if (&lt;condition&gt;) {...}&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T114828Z" creationid="Марианна" creationdate="20201025T154226Z">
+        <seg>IF, IFF: there is an analogue in JS: &lt;x1/&gt;if (&lt;condition&gt;) {...}&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
