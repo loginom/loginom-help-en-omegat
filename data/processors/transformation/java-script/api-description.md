@@ -9,10 +9,10 @@ const InputVariables: IVariables;   // Input variables
 // Enumerations describing metadata of fields and variables
 enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Data type
 enum DataKind { Undefined, Continuous, Discrete }                           // Data kind
-enum UsageType { Unspecified, Excluded, Useless, Active,                    // Usage type полей
+enum UsageType { Unspecified, Excluded, Useless, Active,                    // Usage type of fields
                  Predicted, Key, Group, Value, Transaction, Item }
 
-// Представление столбцов набора данных
+// View of the data set columns
 interface IColumn extends Iterable<boolean | number | string | Date | undefined> {
     readonly Index: number;                                                 // Index
     readonly Name: string;                                                  // Name
