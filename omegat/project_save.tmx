@@ -9343,8 +9343,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Показатели&lt;x2/&gt; &lt;x3/&gt;Показатели&lt;x4/&gt; — поля, по которым рассчитываются функции агрегации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T200502Z" creationid="Марианна" creationdate="20201023T200502Z">
-        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; &lt;x3/&gt;Parameters&lt;x4/&gt; denote the fields и which the aggregation functions are calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T111214Z" creationid="Марианна" creationdate="20201023T200502Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; &lt;x3/&gt;Parameters&lt;x4/&gt; denote the fields by which the aggregation functions are calculated.</seg>
       </tuv>
     </tu>
     <tu>
