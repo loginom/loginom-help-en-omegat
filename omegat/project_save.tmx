@@ -13481,7 +13481,7 @@ enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // �
 enum DataKind { Undefined, Continuous, Discrete }                           // Вид данных
 enum UsageType { Unspecified, Excluded, Useless, Active,                    // Назначение полей</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201025T054137Z" creationid="Марианна" creationdate="20201025T054137Z">
+      <tuv lang="en" changeid="Марианна" changedate="20201201T111553Z" creationid="Марианна" creationdate="20201025T054137Z">
         <seg>const InputTable: IDataSource;      // Source of the data from the first port
 const InputTables: IDataSource[];   // Array of the input data sources
 const OutputTable: IOutputTable;    // Output data source
@@ -13490,7 +13490,7 @@ const InputVariables: IVariables;   // Input variables
 // Enumerations describing metadata of fields and variables
 enum DataType { None, Boolean, DateTime, Float, Integer, String, Variant }  // Data type
 enum DataKind { Undefined, Continuous, Discrete }                           // Data kind
-enum UsageType { Unspecified, Excluded, Useless, Active,                    // Usage type полей</seg>
+enum UsageType { Unspecified, Excluded, Useless, Active,                    // Usage type of fields</seg>
       </tuv>
     </tu>
     <tu>
