@@ -20464,8 +20464,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Метод возвращает булево значение &lt;x1/&gt;true&lt;x2/&gt;, если столбец в заданной строке имеет пропущенное значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T150410Z" creationid="Марианна" creationdate="20201102T150410Z">
-        <seg>The method returns the boolean &lt;x1/&gt;true&lt;x2/&gt; value, if the column in the set string has the null value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T172958Z" creationid="Марианна" creationdate="20201102T150410Z">
+        <seg>The method returns the boolean &lt;x1/&gt;true&lt;x2/&gt; value if the column in the set string has the null value.</seg>
       </tuv>
     </tu>
     <tu>
