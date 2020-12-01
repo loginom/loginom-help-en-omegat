@@ -17582,8 +17582,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для доступа к данным выходного порта используется объект &lt;x1/&gt;OutputTable&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201105T105642Z" creationid="Марианна" creationdate="20201105T105642Z">
-        <seg>For access to the data of the output port, the &lt;x1/&gt;OutputTable&lt;x2/&gt; object is used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201201T174706Z" creationid="Марианна" creationdate="20201105T105642Z">
+        <seg>For access to the output port data, the &lt;x1/&gt;OutputTable&lt;x2/&gt; object is used.</seg>
       </tuv>
     </tu>
     <tu>
