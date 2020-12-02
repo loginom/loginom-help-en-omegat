@@ -16454,8 +16454,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Внутреннее соединение (&lt;x1/&gt;INNER JOIN&lt;x2/&gt;) первой и второй таблиц;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T182629Z" creationid="Марианна" creationdate="20201109T182629Z">
-        <seg>Inner join (&lt;x1/&gt;INNER JOIN&lt;x2/&gt;) of the first and second tables;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T064343Z" creationid="Марианна" creationdate="20201109T182629Z">
+        <seg>Inner join (&lt;x1/&gt;INNER JOIN&lt;x2/&gt;) of the first and second tables.</seg>
       </tuv>
     </tu>
     <tu>
