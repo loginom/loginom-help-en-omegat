@@ -27212,8 +27212,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Чтобы изменить оператор, нужно кликнуть по нему левой кнопкой мыши.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T113733Z" creationid="Марианна" creationdate="20201113T113553Z">
-        <seg>To change the operator, it is required to left-click it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T072053Z" creationid="Марианна" creationdate="20201113T113553Z">
+        <seg>To change the operator, it is required to left-click on it.</seg>
       </tuv>
     </tu>
     <tu>
