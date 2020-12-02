@@ -15040,8 +15040,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>А &lt;x9/&gt;Кол-во SMS&lt;x10/&gt; (&lt;x11/&gt;Целый тип&lt;x12/&gt;&lt;x13/&gt;Целый тип&lt;x14/&gt;), &lt;x15/&gt;Кол-во минут вх&lt;x16/&gt; (&lt;x17/&gt;Целый тип&lt;x18/&gt;&lt;x19/&gt;Целый тип&lt;x20/&gt;), &lt;x21/&gt;Статус&lt;x22/&gt; (&lt;x23/&gt;Строковый тип&lt;x24/&gt;&lt;x25/&gt;Строковый тип&lt;x26/&gt;), &lt;x27/&gt;Наличие скидки&lt;x28/&gt; (&lt;x29/&gt;Логический тип&lt;x30/&gt;&lt;x31/&gt;Логический тип&lt;x32/&gt;), выберем &lt;x33/&gt;Транспонируемые&lt;x34/&gt; &lt;x35/&gt;Транспонируемыми&lt;x36/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T151110Z" creationid="Марианна" creationdate="20201111T151110Z">
-        <seg>And &lt;x9/&gt;SMS number&lt;x10/&gt; (&lt;x11/&gt;Integer type&lt;x12/&gt;&lt;x13/&gt;Integer type&lt;x14/&gt;), &lt;x15/&gt;Number of incoming minutes&lt;x16/&gt; (&lt;x17/&gt;Integer type&lt;x18/&gt;&lt;x19/&gt;Integer type&lt;x20/&gt;), &lt;x21/&gt;Status&lt;x22/&gt; (&lt;x23/&gt;String type&lt;x24/&gt;&lt;x25/&gt;String type&lt;x26/&gt;), &lt;x27/&gt;Discount availability&lt;x28/&gt; (&lt;x29/&gt;Logical type&lt;x30/&gt;&lt;x31/&gt;Logical type&lt;x32/&gt;), will be selected as &lt;x33/&gt;Transposed&lt;x34/&gt; &lt;x35/&gt;Transposed&lt;x36/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T070352Z" creationid="Марианна" creationdate="20201111T151110Z">
+        <seg>And &lt;x9/&gt;SMS number&lt;x10/&gt; (&lt;x11/&gt;Integer type&lt;x12/&gt;&lt;x13/&gt;Integer type&lt;x14/&gt;), &lt;x15/&gt;Number of incoming minutes&lt;x16/&gt; (&lt;x17/&gt;Integer type&lt;x18/&gt;&lt;x19/&gt;Integer type&lt;x20/&gt;), &lt;x21/&gt;Status&lt;x22/&gt; (&lt;x23/&gt;String type&lt;x24/&gt;&lt;x25/&gt;String type&lt;x26/&gt;), &lt;x27/&gt;Discount availability&lt;x28/&gt; (&lt;x29/&gt;Logical type&lt;x30/&gt;&lt;x31/&gt;Logical type&lt;x32/&gt;) will be selected as &lt;x33/&gt;Transposed&lt;x34/&gt; &lt;x35/&gt;Transposed&lt;x36/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
