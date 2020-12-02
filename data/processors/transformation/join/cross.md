@@ -45,11 +45,11 @@ Resulting table:
 |Gregory|4|Saint Petersburg|
 |Gregory|4|Kazan|
 
-## Full join (SQL analogue: `FULL JOIN`)
+## Full Join (SQL Analogue: `FULL JOIN`)
 
 When the join is full (`FULL JOIN`), the full external join of two data sets is performed. The following records are added to the resulting data set:
 
-1. Inner join (`INNER JOIN`) of the first and second tables;
+1. Inner join (`INNER JOIN`) of the first and second tables.
 2. Records of the first table that were not included into the inner join during step 1. For such records, the `NULL` values are appended to the fields matching the second table.
 3. Records of the second table that were not included into the inner join during step 1. For such records, the `NULL` values are appended to the fields matching the first table.
 
