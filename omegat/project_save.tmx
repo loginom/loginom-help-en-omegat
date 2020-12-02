@@ -11337,8 +11337,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Транспонируемые&lt;x2/&gt; &lt;x3/&gt;Транспонируемые&lt;x4/&gt; — на основе этих полей будут сформированы 4 новых столбца: &lt;x5/&gt;Имена&lt;x6/&gt;, &lt;x7/&gt;Метки&lt;x8/&gt;, &lt;x9/&gt;Значения&lt;x10/&gt;, &lt;x11/&gt;Типы данных&lt;x12/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T152007Z" creationid="Марианна" creationdate="20201111T152007Z">
-        <seg>On the basis of the &lt;x1/&gt;Transposed&lt;x2/&gt; &lt;x3/&gt;Transposed&lt;x4/&gt; fields 4 new columns will be generated: &lt;x5/&gt;Names&lt;x6/&gt;, &lt;x7/&gt;Captions&lt;x8/&gt;, &lt;x9/&gt;Values&lt;x10/&gt;, &lt;x11/&gt;Data types&lt;x12/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T070514Z" creationid="Марианна" creationdate="20201111T152007Z">
+        <seg>On the basis of &lt;x1/&gt;Transposed&lt;x2/&gt; &lt;x3/&gt;Transposed&lt;x4/&gt; fields 4 new columns will be generated: &lt;x5/&gt;Names&lt;x6/&gt;, &lt;x7/&gt;Captions&lt;x8/&gt;, &lt;x9/&gt;Values&lt;x10/&gt;, &lt;x11/&gt;Data types&lt;x12/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
