@@ -2422,8 +2422,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Внутреннее соединение&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T104853Z" creationid="Марианна" creationdate="20201111T104853Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Inner join&lt;x4/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T065610Z" creationid="Марианна" creationdate="20201111T104853Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Inner join&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2526,8 +2526,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Левое соединение&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T104900Z" creationid="Марианна" creationdate="20201111T104900Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Left join&lt;x4/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T065616Z" creationid="Марианна" creationdate="20201111T104900Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Left join&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2662,16 +2662,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Полное соединение&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T104845Z" creationid="Марианна" creationdate="20201111T104845Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Full join&lt;x4/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T065605Z" creationid="Марианна" creationdate="20201111T104845Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Full join&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Правое соединение&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T104908Z" creationid="Марианна" creationdate="20201111T104908Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Right join&lt;x4/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T065625Z" creationid="Марианна" creationdate="20201111T104908Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Right join&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
