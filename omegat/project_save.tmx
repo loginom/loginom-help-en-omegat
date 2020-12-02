@@ -7015,8 +7015,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значения&lt;x2/&gt; — этот столбец содержит все значения транспонируемых столбцов, т.к. эти столбцы могут иметь разный тип (как это показано в примере), то столбец Значения имеет тип данных &lt;x3/&gt;Переменный&lt;x4/&gt; &lt;x5/&gt;Переменный&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201202T070616Z" creationid="Марианна" creationdate="20201111T164844Z">
-        <seg>&lt;x1/&gt;Values&lt;x2/&gt;: this column contains all values of the transposed columns because these columns can be of different type (as in the example), so, Values column can have the &lt;x3/&gt;Variable&lt;x4/&gt; &lt;x5/&gt;Variable&lt;x6/&gt; type of data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201202T070645Z" creationid="Марианна" creationdate="20201111T164844Z">
+        <seg>&lt;x1/&gt;Values&lt;x2/&gt;: this column contains all values of the transposed columns because these columns can be of different type (as in the example), so, the Values column can have &lt;x3/&gt;Variable&lt;x4/&gt; &lt;x5/&gt;Variable&lt;x6/&gt; type of data.</seg>
       </tuv>
     </tu>
     <tu>
