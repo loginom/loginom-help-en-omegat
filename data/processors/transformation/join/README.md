@@ -4,10 +4,10 @@ Data of the key fields of the main and joined data sets is compared with each ot
 
 Options of data sets join:
 
-* ![ ](../../../images/icons/joindata/join-full_default.svg) [Full join](./cross.md);
-* ![ ](../../../images/icons/joindata/join-inner_default.svg) [Inner join](./inner.md);
-* ![ ](../../../images/icons/joindata/join-left_default.svg) [Left join](./left.md);
-* ![ ](../../../images/icons/joindata/join-right_default.svg) [Right join](./right.md);
+* ![ ](../../../images/icons/joindata/join-full_default.svg) [Full join](./cross.md).
+* ![ ](../../../images/icons/joindata/join-inner_default.svg) [Inner join](./inner.md).
+* ![ ](../../../images/icons/joindata/join-left_default.svg) [Left join](./left.md).
+* ![ ](../../../images/icons/joindata/join-right_default.svg) [Right join](./right.md).
 * ![ ](../../../images/icons/joindata/join-diff_default.svg) [Difference](./distinct.md).
 
 With the exception of the [Difference](./distinct.md) method, each of the enumerated join methods is an analogue of the particular join type in SQL.

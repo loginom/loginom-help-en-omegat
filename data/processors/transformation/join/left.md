@@ -1,6 +1,6 @@
 # ![Left Join](../../../images/icons/joindata/join-left_default.svg) Left Join
 
-When the join is left (SQL analogue: `LEFT JOIN`, the main table is left) the main and joined tables are joined by the key fields. All records of the main table fall within the resulting data set. They are appended with the fields from the joined table. If no mapping was detected by the key fields for the record from the main table, the Null value is stated in the appended fields.
+When the join is left (SQL analogue: `LEFT JOIN`, the main table is left), the main and joined tables are joined by the key fields. All records of the main table fall within the resulting data set. They are appended with the fields from the joined table. If no mapping was detected by the key fields for the record from the main table, the Null value is stated in the appended fields.
 
 For example:
 
