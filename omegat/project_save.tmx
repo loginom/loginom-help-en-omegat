@@ -20768,8 +20768,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На пропущенное</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T140908Z" creationid="Марианна" creationdate="20201116T140908Z">
-        <seg>With empty</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T141931Z" creationid="Марианна" creationdate="20201116T140908Z">
+        <seg>With Empty</seg>
       </tuv>
     </tu>
     <tu>
