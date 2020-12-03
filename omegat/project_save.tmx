@@ -20784,8 +20784,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На регулярное выражение</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T142852Z" creationid="Марианна" creationdate="20201116T142852Z">
-        <seg>With regular expression</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142140Z" creationid="Марианна" creationdate="20201116T142852Z">
+        <seg>With Regular Expression</seg>
       </tuv>
     </tu>
     <tu>
