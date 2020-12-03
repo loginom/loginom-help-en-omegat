@@ -2,16 +2,16 @@
 
 *Replace other* parameter is required for processing of the values that are not included into the *Replacement table* and that are out of the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala). Four configuration options parameter:
 
-* Do not replace;
-* With empty;
-* With value;
+* Do not replace.
+* With empty.
+* With value.
 * With regular expression.
 
 And the row for input of the new value of the records not included into the *Replacement table*.
 
 When *Do not replace* option is selected, the values not included into the *Replacement table* are not subject to the additional processing.
 
-## With empty
+## With Empty
 
 When *With empty* option is selected, all values not included into the *Replacement table* will be replaced with the null value `<null>`.
 
@@ -39,7 +39,7 @@ When *With empty* option is selected, this table would be as follows:
 |48|Excellent|
 |73|`<null>`|
 
-## With value
+## With Value
 
 *With value* option replaces all values outside the *Replacement table* with the value entered into the row.
 
@@ -56,7 +56,7 @@ Result of the performed replacement
 |48|Excellent|
 |73|73|
 
-Having selected *With value* option and having entered into the row `Out of estimation range`, the following result will be recieved:
+Having selected *With value* option and having entered into `Out of estimation range` row, the following result will be recieved:
 
 |Source data value|New value|
 |-:|:-|
@@ -67,7 +67,7 @@ Having selected *With value* option and having entered into the row `Out of esti
 |48|Excellent|
 |73|Out of estimation range|
 
-## With regular expression
+## With Regular Expression
 
 If *With regular expression* option of *Replace other* parameter is selected, reserved `$1` character is used for the values not detected using the replacement table. `$1` characters will be replaced with the source value in the row that enables to set the new value.
 
