@@ -22,11 +22,11 @@ Sequence of the replacement algorithm actions:
 
 The wizard window consists of three areas:
 
-1. [Replacement methods](#sposoby-zamen);
-2. [Replacement table](#tablitsa-zamen);
+1. [Replacement methods](#sposoby-zamen).
+2. [Replacement table](#tablitsa-zamen).
 3. [Additional parameters](#dopolnitelnye-parametry).
 
-### Replacement methods
+### Replacement Methods
 
 Replacement method is set for each field of the source data set:
 
@@ -42,12 +42,12 @@ It displays the external or internal replacement table for the selected field of
 
 #### Configuration of the Internal Table
 
-To enter the new row to the replacement table, it is required to use ![Add row](../../../images/icons/toolbar-controls/plus_default.svg) button. The table can contain rows for search and replacement according to the following requirements:
+To enter the new row into the replacement table, it is required to use ![Add row](../../../images/icons/toolbar-controls/plus_default.svg) button. The table can contain rows for search and replacement according to the following requirements:
 
-* [Exact match](./exact-match.md);
+* [Exact match](./exact-match.md).
 * [Regular expression](./regexp-match.md) (it is applied only to the data of the string type).
 
-> **Important:**In the case of replacement of the numeric data, it is required to consider the intervals into which this or that replaced value is included.
+> **Important:** In the case of replacement of the numeric data, it is required to consider the intervals into which this or that replaced value is included.
 
 %spoiler%Example%spoiler%
 
@@ -71,7 +71,7 @@ In this case, the output table will be as follows:
 | -15 |
 | -15 |
 
-So, ther are two half-intervals: [5, 10) and [10, 15).
+So, there are two half-intervals: [5, 10) and [10, 15).
 Thus, the bound values are included into the interval in which they are the initial ones.
 
 %/spoiler%
@@ -83,7 +83,7 @@ When entering the replacement table manually, the following actions are availabl
 * ![Sort](../../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort** enables to sort the table by field of the source value.
 * **Change replacement type** enables to set data type of the column with new values.
 * ![Edit current replacement](../../../images/icons/toolbar-controls/edit_default.svg) **Edit current replacement** enables to display the editing area of the current string of the substitution table.
-* ![Get values](../../../images/icons/toolbar-controls/load-values_default.svg) **Get values** enable to load the drop-down list called by ![ ](../../../images/icons/toolbar-controls/down_default.svg) button to the *Value* field in the case of the manual input of the replacement table.
+* ![Get values](../../../images/icons/toolbar-controls/load-values_default.svg) **Get values** enables to load the drop-down list called by ![ ](../../../images/icons/toolbar-controls/down_default.svg) button to the *Value* field in the case of the manual input of the replacement table.
 
 > **Note:** Replacement by exact match prevails over replacement by regular expression.
 
