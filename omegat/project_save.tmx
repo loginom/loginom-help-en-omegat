@@ -18566,8 +18566,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если последовательность обнаружена, то значение заменяется на новое.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T094321Z" creationid="Марианна" creationdate="20201117T094321Z">
-        <seg>if the sequence is detected, the value is replaced with the new one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T145311Z" creationid="Марианна" creationdate="20201117T094321Z">
+        <seg>If the sequence is detected, the value is replaced with the new one.</seg>
       </tuv>
     </tu>
     <tu>
