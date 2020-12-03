@@ -15640,8 +15640,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области &lt;x1/&gt;Поле&lt;x2/&gt; отображаются поля  входного набора данных с типом &lt;x3/&gt;Дата/Время&lt;x4/&gt; &lt;x5/&gt;Дата/Время&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T130421Z" creationid="Марианна" creationdate="20201118T130312Z">
-        <seg>The input data set fields with the &lt;x3/&gt;Date/Time&lt;x4/&gt; &lt;x5/&gt;Date/Time&lt;x6/&gt; type are displayed in the &lt;x1/&gt;Field&lt;x2/&gt; area.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T150116Z" creationid="Марианна" creationdate="20201118T130312Z">
+        <seg>The input data set fields with &lt;x3/&gt;Date/Time&lt;x4/&gt; &lt;x5/&gt;Date/Time&lt;x6/&gt; type are displayed in the &lt;x1/&gt;Field&lt;x2/&gt; area.</seg>
       </tuv>
     </tu>
     <tu>
