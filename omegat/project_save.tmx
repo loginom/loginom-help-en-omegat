@@ -9631,8 +9631,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Префикс метки&lt;x2/&gt; — в это поле вводится префикс добавляемый к метке присоединенных полей таблиц, именуется согласно &lt;x3/&gt;Параметрам полей набора данных&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T080040Z" creationid="Марианна" creationdate="20201118T101130Z">
-        <seg>&lt;x1/&gt;Caption prefix&lt;x2/&gt;: the prefix added to the caption of the joined table fields is specified in this field. It is named according to &lt;x3/&gt;Features of data set fields&lt;&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T145832Z" creationid="Марианна" creationdate="20201118T101130Z">
+        <seg>&lt;x1/&gt;Caption prefix&lt;x2/&gt;: the prefix added to the caption of the joined table fields is specified in this field. It is named according to &lt;x3/&gt;Features of data set fields&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
