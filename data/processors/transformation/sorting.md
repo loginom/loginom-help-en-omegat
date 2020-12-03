@@ -6,7 +6,7 @@ The following parameters are taken into account while sorting:
 
 * **Order of sort fields**: according to the item position in the *Sort fields* list, the field sorting order changes.
 * **Sort order**: the sorting order (![](../../images/icons/sorting/order-switcher-desc_default.svg) *Descending* or ![](../../images/icons/sorting/order-switcher-asc_default.svg) *Ascending*) is set for each sorted field.
-* **Data case**: case sensitivity of fields while sorting is specified for the fields with the ![](../../images/icons/data-types/string_default.svg)*String* or ![](../../images/icons/data-types/variant_default.svg) *Variable* data type.
+* **Data case**: case sensitivity of fields while sorting is specified for the fields with ![](../../images/icons/data-types/string_default.svg)*String* or ![](../../images/icons/data-types/variant_default.svg) *Variable* data type.
 
 The algorithm sorts the records by the first sort field according to the set order. If there are the same values, the strings that contain them are sorted by the second sort field, etc. according to the order of the sort fields.
 
@@ -26,7 +26,7 @@ It is possible to filter the list of fields specifying the field name or caption
 
 To configure sorting, it is required to move the required fields to the *Sort fields* list using the following methods:
 
-* Drag-and-drop method;
+* вrag-and-drop method;
 * double click on the field;
 * by pressing *Add* ![](../../images/icons/toolbar-controls/arrow-r_default.svg) button.
 
@@ -48,4 +48,4 @@ To exclude sorting by the field, it is required to perform the following actions
 
 To clear the whole list, it is required to press ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
-> **Note**: characters are compared and sorted according to the local settings of the user whose login is used to start Loginom.
+> **Note**: Сharacters are compared and sorted according to the local settings of the user whose login is used to start Loginom.
