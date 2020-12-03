@@ -532,6 +532,22 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>-15</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142259Z" creationid="Марианна" creationdate="20201203T142259Z">
+        <seg>-15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142255Z" creationid="Марианна" creationdate="20201203T142255Z">
+        <seg>-5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>-&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T065032Z" creationid="Марианна" creationdate="20201023T065032Z">
