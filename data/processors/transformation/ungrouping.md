@@ -1,6 +1,6 @@
 # ![Ungroup](../../images/icons/components/ungroup-data_default.svg) Ungroup
 
-The component performs tha action inverse to [aggregation by sum](../func/aggregation-functions.md) used in [Grouping](./grouping.md). To define the groups by which the inverse aggregation of numeric field will be performed, it is required to use the reference table from which the groups as such will be taken and percentage distribution of the numeric field values between them will be considered.
+The component performs the action inverse to [aggregation by sum](../func/aggregation-functions.md) used in [Grouping](./grouping.md). To define the groups by which the inverse aggregation of numeric field will be performed, it is required to use the reference table from which the groups as such will be taken and percentage distribution of the numeric field values between them will be considered.
 
 The main use area of ungrouping is detailing of the forecast data according to the available one. For example, if there is data on the effected sales amount for particular goods, this data can be used for ungrouping by the goods listed in the table with the forecast made only for groups of goods.
 
