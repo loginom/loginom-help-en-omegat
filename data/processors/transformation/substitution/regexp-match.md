@@ -1,6 +1,6 @@
 # Replacement by Regular Expression
 
-The regular expression is used to search for the set sequence of characters in each column value of the source data set. if the sequence is detected, the value is replaced with the new one. Replacement by regular expression is applied only to the data of the string type.
+The regular expression is used to search for the set sequence of characters in each column value of the source data set. If the sequence is detected, the value is replaced with the new one. Replacement by regular expression is applied only to the data of the string type.
 
 > **Note:** The regular expression is a template used for search for sequences of characters. It is set using the language of rules based on a subset of [regular expressions ](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) Perl (Perl regular expressions, regex).
 

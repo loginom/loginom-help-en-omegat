@@ -1,6 +1,6 @@
 # ![Date and Time](../../../images/icons/components/date-reform_default.svg) Date and Time
 
-The *Date and time* handler transforms data of the ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* format.
+The *Date and time* handler transforms data of ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* format.
 
 The point of such transformation is that one or several additional columns in which particular information on date/time is selected are generated on the basis of the column with information on date/time.
 
@@ -30,17 +30,17 @@ Other columns are generated on the basis of the source column. Particular inform
 
 The wizard window consists of two areas: *Field* and *Time frames*.
 
-The input data set fields with the ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* type are displayed in the *Field* area. These fields can be sorted by the number of selected transformations. In order to do that, it is required to press header of the column with the number of transformations. It is possible to sort in ascending and descending order.
+The input data set fields with ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* type are displayed in the *Field* area. These fields can be sorted by the number of selected transformations. In order to do that, it is required to press header of the column with the number of transformations. It is possible to sort in ascending and descending order.
 
 It is required to select the data format and type to be transformed in the *Time frames* area using the checkbox flags.
 
 Options of transformation into the following data types are possible:
 
-* ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time*;
-* ![Number](../../../images/icons/data-types/integer_default.svg) *Number*;
+* ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time*.
+* ![Number](../../../images/icons/data-types/integer_default.svg) *Number*.
 * ![String](../../../images/icons/data-types/string_default.svg) *String*.
 
-When transforming to the ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* data type, it is possible to select the period start and/or end for some formats.
+When transforming to ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* data type, it is possible to select the period start and/or end for some formats.
 
 %spoiler%Example:%spoiler%
 
@@ -57,6 +57,6 @@ When transforming to the ![Date/Time](../../../images/icons/data-types/datetime_
 
 Apart from the standard date formats, it is possible to set the format that complies with the international date standard - [ISO 8601](https://ru.wikipedia.org/wiki/ISO_8601).
 
-When selecting the ![Data type](../../../images/icons/data-types/string_default.svg) type of data, the string in the drop-down list to the right of ![Choice](../../../images/icons/toolbar-controls/down_default.svg) enables to select the date representation format in the string form,and it is also possible to set [Own format](./syntax.md) using formatting strings.
+When selecting ![Data type](../../../images/icons/data-types/string_default.svg) type of data, the string in the drop-down list to the right of ![Choice](../../../images/icons/toolbar-controls/down_default.svg) enables to select the date representation format in the string form, and it is also possible to set [Own format](./syntax.md) using formatting strings.
 
 Each selected option of transformation in the resulting data set will form a separate column.

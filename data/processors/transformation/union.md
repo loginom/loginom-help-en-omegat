@@ -45,7 +45,7 @@ Resulting table:
 
 * ![Main table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table** is the first table participating in the union.
 * ![Joined table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table** is the second table participating in the union. All subsequent tables are added by means of *Add another port*.
-* ![Add port](../../images/icons/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new ports for the subsequemt joined tables that will be automatically numbered.
+* ![Add port](../../images/icons/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new ports for the subsequent joined tables that will be automatically numbered.
 
 ### Output
 
