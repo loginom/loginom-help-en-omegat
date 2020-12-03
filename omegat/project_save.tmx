@@ -9873,8 +9873,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, под учетной записью которого запущен Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T142706Z" creationid="Марианна" creationdate="20201115T142706Z">
-        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: characters are compared and sorted according to the local settings of the user whose login is used to start Loginom.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T141320Z" creationid="Марианна" creationdate="20201115T142706Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Сharacters are compared and sorted according to the local settings of the user whose login is used to start Loginom.</seg>
       </tuv>
     </tu>
     <tu>
