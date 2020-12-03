@@ -17518,8 +17518,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;Добавление строки&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T085219Z" creationid="Марианна" creationdate="20201117T085219Z">
-        <seg>To enter the new row to the replacement table, it is required to use &lt;x1/&gt;Add row&lt;x2/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142912Z" creationid="Марианна" creationdate="20201117T085219Z">
+        <seg>To enter the new row into the replacement table, it is required to use &lt;x1/&gt;Add row&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
