@@ -20704,8 +20704,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На значение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T140343Z" creationid="Марианна" creationdate="20201116T140343Z">
-        <seg>With value;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T141901Z" creationid="Марианна" creationdate="20201116T140343Z">
+        <seg>With value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20776,8 +20776,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На пропущенное;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T140331Z" creationid="Марианна" creationdate="20201116T140331Z">
-        <seg>With empty;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T141855Z" creationid="Марианна" creationdate="20201116T140331Z">
+        <seg>With empty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21296,8 +21296,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Не заменять;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201116T140313Z" creationid="Марианна" creationdate="20201116T140313Z">
-        <seg>Do not replace;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T141852Z" creationid="Марианна" creationdate="20201116T140313Z">
+        <seg>Do not replace.</seg>
       </tuv>
     </tu>
     <tu>
