@@ -10889,8 +10889,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Способы замен&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T084357Z" creationid="Марианна" creationdate="20201117T084357Z">
-        <seg>&lt;x1/&gt;Replacement methods&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142513Z" creationid="Марианна" creationdate="20201117T084357Z">
+        <seg>&lt;x1/&gt;Replacement methods&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11137,8 +11137,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица замен&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T084406Z" creationid="Марианна" creationdate="20201117T084406Z">
-        <seg>&lt;x1/&gt;Replacement table&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142518Z" creationid="Марианна" creationdate="20201117T084406Z">
+        <seg>&lt;x1/&gt;Replacement table&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
