@@ -20034,8 +20034,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Компонент выполняет действие обратное &lt;x1/&gt;агрегации по сумме&lt;x2/&gt;, применяемой в &lt;x3/&gt;Группировке&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201125T082951Z" creationid="Марианна" creationdate="20201125T082951Z">
-        <seg>The component performs tha action inverse to &lt;x1/&gt;aggregation by sum&lt;x2/&gt; used in &lt;x3/&gt;Grouping&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T150454Z" creationid="Марианна" creationdate="20201125T082951Z">
+        <seg>The component performs the action inverse to &lt;x1/&gt;aggregation by sum&lt;x2/&gt; used in &lt;x3/&gt;Grouping&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
