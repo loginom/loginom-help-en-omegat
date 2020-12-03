@@ -26684,8 +26684,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>То есть получились два полуинтервала вида [5, 10) и [10, 15).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T090206Z" creationid="Марианна" creationdate="20201117T090206Z">
-        <seg>So, ther are two half-intervals: [5, 10) and [10, 15).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T143025Z" creationid="Марианна" creationdate="20201117T090206Z">
+        <seg>So, there are two half-intervals: [5, 10) and [10, 15).</seg>
       </tuv>
     </tu>
     <tu>
