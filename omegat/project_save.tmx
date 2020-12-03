@@ -11321,8 +11321,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Точному совпадению&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T085333Z" creationid="Марианна" creationdate="20201117T085333Z">
-        <seg>&lt;x1/&gt;Exact match&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T142934Z" creationid="Марианна" creationdate="20201117T085333Z">
+        <seg>&lt;x1/&gt;Exact match&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
