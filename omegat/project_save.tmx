@@ -23864,8 +23864,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>При выборе типа данных &lt;x1/&gt;Тип данных&lt;x2/&gt; строка в выпадающем списке справа от &lt;x3/&gt;Выбор&lt;x4/&gt; можно выбрать формат представления даты в строковом виде, а также задать &lt;x5/&gt;Свой формат&lt;x6/&gt; при помощи строки форматирования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201203T150231Z" creationid="Марианна" creationdate="20201118T133754Z">
-        <seg>When selecting &lt;x1/&gt;Data type&lt;x2/&gt; type of data, the string in the drop-down list to the right of &lt;x3/&gt;Choice&lt;x4/&gt; enables to select the date representation format in the string form,and it is also possible to set &lt;x5/&gt;Own format&lt;x6/&gt; using formatting strings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T150249Z" creationid="Марианна" creationdate="20201118T133754Z">
+        <seg>When selecting &lt;x1/&gt;Data type&lt;x2/&gt; type of data, the string in the drop-down list to the right of &lt;x3/&gt;Choice&lt;x4/&gt; enables to select the date representation format in the string form, and it is also possible to set &lt;x5/&gt;Own format&lt;x6/&gt; using formatting strings.</seg>
       </tuv>
     </tu>
     <tu>
