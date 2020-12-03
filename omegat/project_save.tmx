@@ -9431,8 +9431,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Получить значения&lt;x2/&gt; &lt;x3/&gt;Получить значения&lt;x4/&gt; — подгружает выпадающий список, вызываемый кнопкой &lt;x5/&gt; &lt;x6/&gt;, в поле &lt;x7/&gt;Значение&lt;x8/&gt;, при ручном вводе таблицы замен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T092122Z" creationid="Марианна" creationdate="20201117T092122Z">
-        <seg>&lt;x1/&gt;Get values&lt;x2/&gt; &lt;x3/&gt;Get values&lt;x4/&gt; enable to load the drop-down list called by &lt;x5/&gt; &lt;x6/&gt; button to the &lt;x7/&gt;Value&lt;x8/&gt; field in the case of the manual input of the replacement table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201203T143126Z" creationid="Марианна" creationdate="20201117T092122Z">
+        <seg>&lt;x1/&gt;Get values&lt;x2/&gt; &lt;x3/&gt;Get values&lt;x4/&gt; enables to load the drop-down list called by &lt;x5/&gt; &lt;x6/&gt; button to the &lt;x7/&gt;Value&lt;x8/&gt; field in the case of the manual input of the replacement table.</seg>
       </tuv>
     </tu>
     <tu>
