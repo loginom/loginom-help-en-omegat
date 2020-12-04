@@ -47,7 +47,7 @@ Ungroup output:
 | Household goods | Pink sparkling water | 5,00 | 5,00 | 0,60 |
 | Household goods | Baby soap | 5,00 | 5,00 | 1,00 |
 
-* **Amount of group sales, thous. rub.** — amount of sales of the particular group;
+* **Amount of group sales, thous. rub.** — amount of sales of the particular group.
 * **Amount of group sales, thous. rub. | Rounded**: the values obtained when rounding is used are shown in this field.
 * **Ungrouped value**: detailing of the goods sales measured in thous. is shown in this example. rub.
 
@@ -64,9 +64,9 @@ Ungroup output:
 
 * ![Ungroup output](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Ungroup output**: the source table after processing. The following fields are added to it:
    * **Field caption|Rounded**: the field contains rounded ungrouped values (when rounding is used).
-   * **Ungrouped value**: the field contains the values ungrouped according to the*Ungrouping method*.
+   * **Ungrouped value**: the field contains the values ungrouped according to the *Ungrouping method*.
 
-If *Ungrouping method: Given time variations and seasonality of the reference data* is used, the following fields are added to this table:
+If *Ungrouping method is used: Given time variations and seasonality of the reference data* is used, the following fields are also added to this table:
 
 * **Upper bound 95% CI**: the upper bound of 95% [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html).
 * **Lower bound 95% CI**: the lower bound of 95% confidence interval.
@@ -88,7 +88,7 @@ If *Ungrouping method: Given time variations and seasonality of the reference da
 ## Wizard
 
 * **Ungrouping method**: one of three ungrouping methods is selected in the drop-down list.
-   * **By given quotas**: the method is applied when the quotas for ungrouping have already been provided in the reference table. Typically, the sum of quotas must be equl to one but this condition is not compulsory.
+   * **By given quotas**: the method is applied when the quotas for ungrouping have already been provided in the reference table. Typically, the sum of quotas must be equal to one but this condition is not compulsory.
    * **With calculation of quotas for total sample**: percentage of quotas for ungrouping will be the same as for the field values of the reference table selected for calculation of quotas.
    * **Given time variations and seasonality of the reference data**: it is applied for ungrouping of the data time series.
 * **Rounding format**: the format used for rounding is specified.
@@ -101,11 +101,11 @@ If *Ungrouping method: Given time variations and seasonality of the reference da
    * **Proportionally**: the difference is distributed by the parts proportional to the size of ungrouped values.
    * **Evenly**: the difference is evenly distributed between ungrouped values.
 * **Area of the field usage type configuration** represents two tables. The first one contains a list of the ugrouped data fields, the second one contains a list of the data fields for calculation of quotas. The following options of the fields usage types are possible:
-   * ![Group](../../images/icons/usage-types/group_default.svg) **Group**: such usage type is automatically set when linking the group fields. It is required to link the group fields that are the same for both tables. For this purpose, it is sufficient to drag the field caption from one table to the corresponding filed caption from another table if the link established in such a manner is erroneous, it can be deleted by pressing ![Delete](../../images/icons/link-grid/remove-link_hover.svg) button that is located on it.
+   * ![Group](../../images/icons/usage-types/group_default.svg) **Group**: such usage type is automatically set when linking the group fields. It is required to link the group fields that are the same for both tables. For this purpose, it is sufficient to drag the field caption from one table to the corresponding field caption from another table if the link established in such a manner is erroneous, it can be deleted by pressing ![Delete](../../images/icons/link-grid/remove-link_hover.svg) button that is located on it.
    * ![Ungroupable](../../images/icons/usage-types/value_default.svg) **Ungroupable**: the usage type is assigned to the table field of ungrouped data to which ungrouping will be applied.
    * ![Field with names](../../images/icons/usage-types/active_default.svg) **Field with names**: it is assigned to the reference table field that contains the names by which ungrouping will be performed.
    * ![Field with quotas](../../images/icons/usage-types/source_default.svg) **Field with quotas**: it is assigned to the reference table field that contains quotas or values for calculation of quotas.
-   * ![Ordinal field](../../images/icons/usage-types/transaction_default.svg) **Ordinal field**: this usage type is available only for the fields of the*Date/time* type when using *Given time variations and seasonality of the reference data* method.
+   * ![Ordinal field](../../images/icons/usage-types/transaction_default.svg) **Ordinal field**: this usage type is available only for the fields of the *Date/time* type when using *Given time variations and seasonality of the reference data* method.
 
 **Configure Data Order**: this wizard step is added when using *Given time variations and seasonality of the reference data* method with the following settings:
 
@@ -116,7 +116,7 @@ If *Ungrouping method: Given time variations and seasonality of the reference da
    * **Point density of rare goods**: the coefficient can take the values from 0.01 to 1. The higher coefficient, the more positions will be identified by the algorithm as too rare, and they will be excluded from the forecast.
    * **Absent periods for position termination**: if any position is absent in the series for the specified number of periods, it will be excluded from the forecast.
    * **Absent data points for position termination**: if any position is absent in the series for the specified number of points, it will be excluded from the forecast.
-   * **Presence periods for the new position**: the positions occurring not more frequently than the specified number of periods, they will be considered to be new.
+   * **Presence periods for the new position**: the positions occurring not more frequently than the specified number of periods will be considered to be new.
 * Depth period.
    * **Maximum number of seasonality periods**: to make a forecast, it is required to use the specified number of the last periods of reference data, if  `0` value is set, all periods will be used.
    * **Maximum number of points in each series**: to make a forecast, it is required to use the specified number of the last series points of reference data, if `0`value is set, all points will be used.
