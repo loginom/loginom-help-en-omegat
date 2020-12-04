@@ -9527,8 +9527,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядковое поле&lt;x2/&gt; &lt;x3/&gt;Порядковое поле&lt;x4/&gt; — данное назначение доступно только для полей типа &lt;x5/&gt;Дата/время&lt;x6/&gt; при использовании метода &lt;x7/&gt;с учетом временных колебаний и сезонности опорных данных&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T095108Z" creationid="Марианна" creationdate="20201127T095051Z">
-        <seg>&lt;x1/&gt;Ordinal field&lt;x2/&gt; &lt;x3/&gt;Ordinal field&lt;x4/&gt;: this usage type is available only for the fields of the&lt;x5/&gt;Date/time&lt;x6/&gt; type when using &lt;x7/&gt;Given time variations and seasonality of the reference data&lt;x8/&gt; method.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T061416Z" creationid="Марианна" creationdate="20201127T095051Z">
+        <seg>&lt;x1/&gt;Ordinal field&lt;x2/&gt; &lt;x3/&gt;Ordinal field&lt;x4/&gt;: this usage type is available only for the fields of the &lt;x5/&gt;Date/time&lt;x6/&gt; type when using &lt;x7/&gt;Given time variations and seasonality of the reference data&lt;x8/&gt; method.</seg>
       </tuv>
     </tu>
     <tu>
