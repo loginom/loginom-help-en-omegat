@@ -53,7 +53,7 @@ Resulting table:
 
 ## Wizard
 
-It is required to map the fields of the main and joined tables. The data of the mapped fields are joined into one field in the resulting data set. This field is given the *Name* and *Caption* of the main table field. The data of the fields that are not mapped are placed into separate columns of the resulting data set that can be checked using prefixes.
+It is required to map the fields of the main and joined tables. The data of the mapped fields is joined into one field in the resulting data set. This field is given the *Name* and *Caption* of the main table field. The data of the fields that are not mapped are placed into separate columns of the resulting data set that can be checked using prefixes.
 
 Mapping is possible only for the fields with the same data type. When the wizard is initially opened, the fields with the same name and data type are automatically mapped. Manual setting is performed using the following control elements:
 
@@ -62,7 +62,7 @@ Mapping is possible only for the fields with the same data type. When the wizard
    * **Drop-down lists of fields** are in each row of the mapping table. The list enables to select the field of the joined table that will be mapped to the main table field. The ![Filter](../../images/icons/filter-switcher/filterswitch-on_default.svg) switch enables to change the method of fields representation: complete list or only the fields that have not been selected yet.
 * **Use prefixes**: it is applied if it is required to select not mapped columns of the joined tables. For such columns, it is possible to set the following prefixes in the resulting data set:
    * **Name prefix**: the prefix added to the name of the table fields that are not mapped is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](../../data/datasetfieldoptions.md).
-   * **Caption prefix**: the prefix added to the caption of the table fields that are not mapped is specified in this field. It is named according to *Features of data set fields<*.
+   * **Caption prefix**: the prefix added to the caption of the table fields that are not mapped is specified in this field. It is named according to *Features of data set fields*.
 
 
 It is possible to sort the table fields in the union configuration area. For this purpose, it is required to click on the table header (Main table or Joined table). It is possible to sort the records in the same manner by the field index in the table (No).
