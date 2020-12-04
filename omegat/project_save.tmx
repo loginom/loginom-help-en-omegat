@@ -18574,8 +18574,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если применяется &lt;x1/&gt;Метод разгруппировки: С учетом временных колебаний и сезонности опорных данных&lt;x2/&gt;, то в эту таблицу добавляются также следующие поля:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201204T060819Z" creationid="Марианна" creationdate="20201126T065853Z">
-        <seg>If the &lt;x1/&gt;Ungrouping method is used: Given time variations and seasonality of the reference data&lt;x2/&gt; is used, the following fields are added to this table:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T060932Z" creationid="Марианна" creationdate="20201126T065853Z">
+        <seg>If &lt;x1/&gt;Ungrouping method is used: Given time variations and seasonality of the reference data&lt;x2/&gt; is used, the following fields are also added to this table:</seg>
       </tuv>
     </tu>
     <tu>
