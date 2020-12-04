@@ -9207,8 +9207,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;По заданным долям&lt;x2/&gt; — метод применяется, когда доли для разгруппировки уже присутствуют в опорной таблице, в типичном случае сумма долей должна быть равна единице, но это условие не является обязательным.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T110755Z" creationid="Марианна" creationdate="20201126T110324Z">
-        <seg>&lt;x1/&gt;By given quotas&lt;x2/&gt;: the method is applied when the quotas for ungrouping have already been provided in the reference table. Typically, the sum of quotas must be equl to one but this condition is not compulsory.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T061116Z" creationid="Марианна" creationdate="20201126T110324Z">
+        <seg>&lt;x1/&gt;By given quotas&lt;x2/&gt;: the method is applied when the quotas for ungrouping have already been provided in the reference table. Typically, the sum of quotas must be equal to one but this condition is not compulsory.</seg>
       </tuv>
     </tu>
     <tu>
