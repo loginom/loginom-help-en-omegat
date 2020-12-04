@@ -25408,8 +25408,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Связывать следует поля групп, одинаковые для обеих таблиц — для этого достаточно перетащить метку поля из одной таблицы на соответствующую метку поля из другой таблицы, если образованная при этом связь ошибочна, удалить ее можно нажатием на расположенную на ней кнопку &lt;x5/&gt;Удалить&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T094319Z" creationid="Марианна" creationdate="20201127T094319Z">
-        <seg>It is required to link the group fields that are the same for both tables. For this purpose, it is sufficient to drag the field caption from one table to the corresponding filed caption from another table if the link established in such a manner is erroneous, it can be deleted by pressing &lt;x5/&gt;Delete&lt;x6/&gt; button that is located on it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T061324Z" creationid="Марианна" creationdate="20201127T094319Z">
+        <seg>It is required to link the group fields that are the same for both tables. For this purpose, it is sufficient to drag the field caption from one table to the corresponding field caption from another table if the link established in such a manner is erroneous, it can be deleted by pressing &lt;x5/&gt;Delete&lt;x6/&gt; button that is located on it.</seg>
       </tuv>
     </tu>
     <tu>
