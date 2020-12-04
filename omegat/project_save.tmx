@@ -10185,8 +10185,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — поле содержит значения разгруппированные согласно &lt;x3/&gt;Методу разгруппировки&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T065733Z" creationid="Марианна" creationdate="20201126T065733Z">
-        <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: the field contains the values ungrouped according to the&lt;x3/&gt;Ungrouping method&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T060743Z" creationid="Марианна" creationdate="20201126T065733Z">
+        <seg>&lt;x1/&gt;Ungrouped value&lt;x2/&gt;: the field contains the values ungrouped according to the &lt;x3/&gt;Ungrouping method&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
