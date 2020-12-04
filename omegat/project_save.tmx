@@ -28204,8 +28204,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>руб.&lt;x2/&gt; — сумма продаж для конкретный группы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201124T114255Z" creationid="Марианна" creationdate="20201124T114255Z">
-        <seg>rub.&lt;x2/&gt; — amount of sales of the particular group;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T060645Z" creationid="Марианна" creationdate="20201124T114255Z">
+        <seg>rub.&lt;x2/&gt; — amount of sales of the particular group.</seg>
       </tuv>
     </tu>
     <tu>
