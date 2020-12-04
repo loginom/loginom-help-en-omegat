@@ -15928,8 +15928,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В результирующем наборе данные сопоставленных полей объединяются в одно поле.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T141540Z" creationid="Марианна" creationdate="20201119T141540Z">
-        <seg>The data of the mapped fields are joined into one field in the resulting data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201204T061855Z" creationid="Марианна" creationdate="20201119T141540Z">
+        <seg>The data of the mapped fields is joined into one field in the resulting data set.</seg>
       </tuv>
     </tu>
     <tu>
