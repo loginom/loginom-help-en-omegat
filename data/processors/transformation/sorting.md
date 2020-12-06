@@ -16,7 +16,7 @@ The algorithm sorts the records by the first sort field according to the set ord
 
 ### Output
 
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set sorted by the selected fields is supplied to the port.
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set sorted by the selected fields is output to the port.
 
 ## Wizard
 

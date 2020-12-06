@@ -50,7 +50,7 @@ The resulting table in the case of *Leave incomplete records* value:
 
 ### Output
 
-* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set appended with biased fields is supplied to the port.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set appended with biased fields is output to the port.
 
 ## Wizard
 

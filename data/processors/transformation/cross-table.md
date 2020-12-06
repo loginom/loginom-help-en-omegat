@@ -40,7 +40,7 @@ Upon processing, the values of the *Goods* field were transferred to headers of 
 
 ### Output
 
-* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with processed data is supplied to the port.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with processed data is output to the port.
 
 ## Wizard
 

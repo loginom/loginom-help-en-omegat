@@ -53,7 +53,7 @@ Main table:
 
 Joined table:
 
-|KTU|Cluster|
+|Labor participation coefficient|Cluster|
 |:-|-:|
 |> 0.8|1|
 |> 0.8|1|
@@ -66,7 +66,7 @@ Joined table:
 
 Resulting table:
 
-|Full name|Year of birth|KTU|Cluster|
+|Full name|Year of birth|Labor participation coefficient|Cluster|
 |:-|:-|:-|-:|
 |Abramov|1972|> 0.8|1|
 |Avdeyeva|1956|> 0.8|1|

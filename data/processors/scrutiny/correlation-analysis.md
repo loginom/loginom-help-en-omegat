@@ -54,7 +54,7 @@ As shown in the table, the sale series of the "Tomato paste" item of goods is di
       * **Fields|Caption** is a caption of the second field in the correlation pair.
    * There are the following fields the availability of which is set by a user:
       * **Pearson** means the Pearson correlation coefficients.
-      * **Correction function extremum** means extremums of cross-correlation function.
+      * **Correlation function extremum** means extremums of cross-correlation function.
       * **Kendall's Tau-b** means the Kendall's Tau-b rank correlation coefficient.
       * **Spearman** means the Spearman's rank correlation coefficient.
 

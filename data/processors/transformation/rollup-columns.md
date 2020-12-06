@@ -34,7 +34,7 @@ Resulting data set:
 
 ### Output
 
-* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with transposed data set is supplied to the port.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with transposed data set is output to the port.
 
 ## Wizard
 
