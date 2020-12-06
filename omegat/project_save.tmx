@@ -5735,8 +5735,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Все ветви&lt;x2/&gt; — активирует выполнение всех ветвей, в том числе ветвь &lt;x3/&gt;Иначе&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T084708Z" creationid="Марианна" creationdate="20200924T084708Z">
-        <seg>&lt;x1/&gt;All branches&lt;x2/&gt; enables to activate execution of all branches, including &lt;x3/&gt;Otherwise&lt;x4/&gt; branch.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T153505Z" creationid="Марианна" creationdate="20200924T084708Z">
+        <seg>&lt;x1/&gt;All branches&lt;x2/&gt; enable to activate execution of all branches, including &lt;x3/&gt;Otherwise&lt;x4/&gt; branch.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5887,8 +5887,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входы&lt;x2/&gt; &lt;x3/&gt;Входы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт входа:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T150124Z" creationid="Марианна" creationdate="20200920T145820Z">
-        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enables to create a new input port:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T153515Z" creationid="Марианна" creationdate="20200920T145820Z">
+        <seg>&lt;x1/&gt;Inputs&lt;x2/&gt; &lt;x3/&gt;Inputs&lt;x4/&gt; &lt;x5/&gt;New port&lt;x6/&gt; enable to create a new input port:</seg>
       </tuv>
     </tu>
     <tu>
