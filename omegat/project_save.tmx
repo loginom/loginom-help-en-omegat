@@ -3614,8 +3614,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с набором данных, отсортированным по выбранным полям.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T140919Z" creationid="Марианна" creationdate="20201115T140919Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with the data set sorted by the selected fields is supplied to the port.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145437Z" creationid="Марианна" creationdate="20201115T140919Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with the data set sorted by the selected fields is output to the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6095,8 +6095,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с набором данных дополненным смещенными полями.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T091937Z" creationid="Марианна" creationdate="20201114T091937Z">
-        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with the data set appended with biased fields is supplied to the port.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145412Z" creationid="Марианна" creationdate="20201114T091937Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with the data set appended with biased fields is output to the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6111,8 +6111,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — на порт выводится таблица с транспонированным набором данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T151615Z" creationid="Марианна" creationdate="20201111T151615Z">
-        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with transposed data set is supplied to the port.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145357Z" creationid="Марианна" creationdate="20201111T151615Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table with transposed data set is output to the port.</seg>
       </tuv>
     </tu>
     <tu>
