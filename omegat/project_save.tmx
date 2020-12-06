@@ -14801,8 +14801,8 @@ Assertion failed: lie 1 != 0</seg>
 |0.2 - 0.5|3|
 |&lt; 0.2|4|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T160525Z" creationid="Марианна" creationdate="20201018T160335Z">
-        <seg>|KTU|Cluster|
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145007Z" creationid="Марианна" creationdate="20201018T160335Z">
+        <seg>|Labor participation coefficient|Cluster|
 |:-|-:|
 |&gt; 0.8|1|
 |&gt; 0.8|1|
@@ -14926,8 +14926,8 @@ Assertion failed: lie 1 != 0</seg>
 |Артемьев|1965 г.|&amp;#60;null&gt;|&amp;#60;null&gt;|
 %/spoiler%</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T160517Z" creationid="Марианна" creationdate="20201018T160158Z">
-        <seg>|Full name|Year of birth|KTU|Cluster|
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145016Z" creationid="Марианна" creationdate="20201018T160158Z">
+        <seg>|Full name|Year of birth|Labor participation coefficient|Cluster|
 |:-|:-|:-|-:|
 |Abramov|1972|&gt; 0.8|1|
 |Avdeyeva|1956|&gt; 0.8|1|
@@ -14971,8 +14971,8 @@ Assertion failed: lie 1 != 0</seg>
 |Александров|1980 г.|0.2 - 0.5|3|
 |Алексеев|1983 г.|&lt; 0.2|4|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T075144Z" creationid="Марианна" creationdate="20201119T075144Z">
-        <seg>|Full name|Year of birth|KTU|Cluster|
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145032Z" creationid="Марианна" creationdate="20201119T075144Z">
+        <seg>|Full name|Year of birth|Labor participation coefficient|Cluster|
 |:-|:-|:-|-:|
 |Abramov|1972|\&gt; 0.8|1|
 |Avdeyeva|1956|\&gt; 0.8|1|
@@ -14997,8 +14997,8 @@ Assertion failed: lie 1 != 0</seg>
 |Александров|1980 г.|0.2 - 0.5|3|
 |Алексеев|1983 г.|&lt; 0.2|4|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T075500Z" creationid="Марианна" creationdate="20201119T075500Z">
-        <seg>|Full name|Year of birth|KTU|Cluster|
+      <tuv lang="en" changeid="Марианна" changedate="20201206T145042Z" creationid="Марианна" creationdate="20201119T075500Z">
+        <seg>|Full name|Year of birth|Labor participation coefficient|Cluster|
 |:-|:-|:-|-:|
 |Andreyeva|1982|null|null|
 |Anisomov|1963|null|null|
