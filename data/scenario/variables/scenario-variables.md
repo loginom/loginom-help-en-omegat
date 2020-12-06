@@ -14,9 +14,9 @@ The [ports](../ports/README.md) of the Workflow variables are located in the upp
 The action menu contains the following commands:
 
 * ![ ](../../images/icons/toolbar-controls/launch-node_default.svg) **Start processing** provides the manual ports activations (the activated port contains data).
-* ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Settings** enables to open the dialog of configuration of the user variables values.
+* ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Settings** enable to open the dialog of configuration of the user variables values.
 * ![ ](../../images/icons/toolbar-controls/configure-viewers_default.svg) **Configure visualizers** enables to open the dialog of the visualizers configuration.
-* ![ ](../../images/icons/toolbar-controls/rows_default.svg) **Other actions** enables to call the context menu with the extended set of commands.
+* ![ ](../../images/icons/toolbar-controls/rows_default.svg) **Other actions** enable to call the context menu with the extended set of commands.
 
 To call the context menu of the port, it is required to click the port. The context menu contains the following commands:
 

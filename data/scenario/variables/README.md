@@ -30,5 +30,5 @@ The Loginom components specially designated for operations with sets of variable
 * [Replace (variables)](../../processors/variables/variables-replace.md) enables to replace the values of the selected variables to the values from the replacement table.
 * [Calculator (variables)](../../processors/variables/variables-calc.md) enables to create the new variables according to the entered expressions. The variables supplied to the input port can be used in the expressions.
 * [Union of variables](../../processors/variables/variables-union.md) enables to combine two or more sets of variables into one set.
-* [Variables to table](../../processors/variables/variables-to-table.md) enables to transform a set of variables to a data table.
+* [Variables to table](../../processors/variables/variables-to-table.md) enable to transform a set of variables to a data table.
 * [Table to variables](../../processors/variables/variables-from-table.md) enables to transform a data table to a set of variables.

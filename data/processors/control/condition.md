@@ -66,5 +66,5 @@ It enables to provide the presence of the required ports. It is possible to set 
 **Debug mode** ![Debug mode](../../images/icons/checkbox-states/checked_default.svg) will be used to check data correctness at the output ports regardless of conditions. The branches specified in *Run condition branch* list will be active. It includes the following components:
 
 * **List of user branches** denotes the branches added by a user. It is possible to select one of them.
-* **All branches** enables to activate execution of all branches, including *Otherwise* branch.
+* **All branches** enable to activate execution of all branches, including *Otherwise* branch.
 * **Otherwise** enables to activate execution of only *Otherwise* branch.

@@ -60,7 +60,7 @@ The values of these fields will be the columns headers. The fields included into
 
 When using the cross table, new values can appear in the fields by which the columns were generated. The handler provides two approaches to solve this problem:
 
-* **Sliding unique values** enables to create columns from the unique field (fields) values. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new unique values. It is also possible to set the minimum number of the fields values from which the columns will be created. But in this case, the column with the remaining values will be left in the resulting table.
+* **Sliding unique values** enable to create columns from the unique field (fields) values. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new unique values. It is also possible to set the minimum number of the fields values from which the columns will be created. But in this case, the column with the remaining values will be left in the resulting table.
 
 %spoiler%Example:%spoiler%
 
