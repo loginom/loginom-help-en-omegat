@@ -2478,8 +2478,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Другие действия&lt;x4/&gt; — вызывает контекстное меню с расширенным набором команд.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T103602Z" creationid="Марианна" creationdate="20201009T103602Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Other actions&lt;x4/&gt; enables to call the context menu with the extended set of commands.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T154303Z" creationid="Марианна" creationdate="20201009T103602Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Other actions&lt;x4/&gt; enable to call the context menu with the extended set of commands.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2574,8 +2574,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Настройка&lt;x4/&gt; — открывает диалог настройки значений переменных пользователя;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T103401Z" creationid="Марианна" creationdate="20201009T103401Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Settings&lt;x4/&gt; enables to open the dialog of configuration of the user variables values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T154241Z" creationid="Марианна" creationdate="20201009T103401Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Settings&lt;x4/&gt; enable to open the dialog of configuration of the user variables values.</seg>
       </tuv>
     </tu>
     <tu>
