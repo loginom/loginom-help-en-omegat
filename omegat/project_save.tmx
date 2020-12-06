@@ -11953,8 +11953,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Экстремум К.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T064247Z" creationid="Марианна" creationdate="20201012T064247Z">
-        <seg>&lt;x1/&gt;Correction function</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201206T144901Z" creationid="Марианна" creationdate="20201012T064247Z">
+        <seg>&lt;x1/&gt;Correlation function</seg>
       </tuv>
     </tu>
     <tu>
