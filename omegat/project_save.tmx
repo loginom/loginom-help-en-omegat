@@ -17348,6 +17348,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные поля могут отсутствовать или присутствовать в любом количестве.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T143703Z" creationid="Марианна" creationdate="20201207T143703Z">
+        <seg>These fields can be available or not in any amount.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные третьей группы полей участвуют в расчете &lt;x1/&gt;фактов&lt;x2/&gt; — &lt;x3/&gt;агрегированных значений&lt;x4/&gt; на пересечении строк и колонок сводной таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134828Z" creationid="Марианна" creationdate="20201022T174016Z">
