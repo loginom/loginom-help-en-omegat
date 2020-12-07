@@ -26634,6 +26634,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такое поле должно быть только одно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T143141Z" creationid="Марианна" creationdate="20201207T143141Z">
+        <seg>Only one such field is allowed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такой порт может принять в качестве входных данных или отдать в качестве выходных несколько переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070005Z" creationid="Марианна" creationdate="20200715T070005Z">
