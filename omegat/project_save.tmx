@@ -23262,6 +23262,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поле, соответствующее временному ряду, должно иметь назначение &lt;x1/&gt;Прогнозируемое&lt;x2/&gt;, &lt;x3/&gt;тип данных&lt;x4/&gt; &lt;x5/&gt;Вещественный&lt;x6/&gt; и &lt;x7/&gt;вид данных&lt;x8/&gt; &lt;x9/&gt;Непрерывный&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T142937Z" creationid="Марианна" creationdate="20201207T142937Z">
+        <seg>The field mapping the time series must relate to the &lt;x1/&gt;Forecast&lt;x2/&gt; usage type, &lt;x5/&gt;Real&lt;x6/&gt; &lt;x3/&gt;data type&lt;x4/&gt; and &lt;x9/&gt;Continuous&lt;x10/&gt; &lt;x7/&gt;data kind&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Полное соединение (SQL-аналог: &lt;x1/&gt;FULL JOIN&lt;x2/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T064309Z" creationid="Марианна" creationdate="20201109T165920Z">
