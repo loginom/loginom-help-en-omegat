@@ -2460,6 +2460,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выход модели&lt;x4/&gt; — таблица данных, которая содержит следующие поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T143751Z" creationid="Марианна" creationdate="20201207T143751Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Model output&lt;x4/&gt; is a data table that contains the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая данные о корреляции между полями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T063538Z" creationid="Марианна" creationdate="20201012T063538Z">
@@ -19484,6 +19492,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T094420Z" creationid="Марианна" creationdate="20201015T094420Z">
         <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя_поля|Прогноз — прогнозируемые значения исходного временного ряда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T143935Z" creationid="Марианна" creationdate="20201207T143935Z">
+        <seg>Field_name|Forecast means forecast values of the source time series.</seg>
       </tuv>
     </tu>
     <tu>
