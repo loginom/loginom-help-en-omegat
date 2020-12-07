@@ -24,14 +24,14 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
    * Имя_поля|Нижняя граница — нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html). Поле присутствует, если установлен флаг *Рассчитать доверительный интервал*.
    * Имя_поля|Верхняя граница — верхняя граница доверительного интервала. Поле присутствует, если установлен флаг *Рассчитать доверительный интервал*.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg)  **Коэффициенты модели** — таблица данных, которая содержит следующие коэффициенты:
-   * Тип
-   * Параметр
-   * [Лаг](https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80)
-   * Имя входного поля
-   * Уникальное значение
-   * Коэффициент
-   * [Стандартное отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html)
-   * [T-статистика](https://wiki.loginom.ru/articles/students-distribution.html)
+   * Type
+   * Parameter
+   * [Lag](https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80)
+   * Input field name
+   * Unique value
+   * Coefficient
+   * [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html)
+   * [T-statistics](https://wiki.loginom.ru/articles/students-distribution.html)
    * [P-value](https://wiki.loginom.ru/articles/p-value.html)
 * ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Сводка** — переменные:
    * Всего примеров (TotalSamples)
@@ -62,9 +62,9 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
 
 Для моделей ARIMA [нормализация](../normalization/README.md) для прогнозируемых данных обычно не требуется. Рекомендуется не применять нормализацию для данных временного ряда, для данных внешних факторов не менять настройки по умолчанию.
 
-### Step 3. Настройки ARIMAX
+### Step 3. ARIMAX Settings
 
-#### Структура модели ARIMAX
+#### ARIMAX Model Structure
 
 * **Определить структуру автоматически** — при установке данного флага активируется автоподбор параметров модели. Параметры в процессе вычисления подбираются таким образом, чтобы минимизировать значение *AIC*.
 * **Порядок AR части** — задает порядок (р) авторегрессионной части. Определяет  число предыдущих значений ряда, учитываемых при построении модели. Устанавливается значение целого типа больше 0.
@@ -75,7 +75,7 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
    * **Порядок сезонного  интегрирования** — устанавливает значение целого типа от 0 и выше.
    * **Порядок сезонной MA части** — устанавливает значение целого типа от 0 и выше.
    * **Период сезонной составляющей** — устанавливает положительное значение целого типа.
-* **Включить константу в модель** — значение логического типа. По умолчанию включено.
+* **Включить константу в модель** — значение логического типа. Enabled by default.
 
 #### Прогнозирование временных рядов
 
