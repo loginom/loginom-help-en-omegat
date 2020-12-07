@@ -4820,6 +4820,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;P-value&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144747Z" creationid="Марианна" creationdate="20201207T144747Z">
+        <seg>&lt;x1/&gt;P-value&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183406Z" creationid="Марианна" creationdate="20200810T183406Z">
@@ -4896,6 +4904,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T110154Z" creationid="Марианна" creationdate="20201105T110154Z">
         <seg>&lt;x1/&gt;Set(col, value)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;T-статистика&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144742Z" creationid="Марианна" creationdate="20201207T144742Z">
+        <seg>&lt;x1/&gt;T-statistics&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7905,6 +7921,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T080642Z" creationid="Марианна" creationdate="20201015T074822Z">
         <seg>&lt;x1/&gt;Cache&lt;x2/&gt;: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent handlers and visualizers in order to avoid repeated calculations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Лаг&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144632Z" creationid="Марианна" creationdate="20201207T144632Z">
+        <seg>&lt;x1/&gt;Lag&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10955,6 +10979,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185240Z" creationid="Марианна" creationdate="20200810T183233Z">
         <seg>&lt;x1/&gt;Reference to package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартное отклонение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144722Z" creationid="Марианна" creationdate="20201207T144722Z">
+        <seg>&lt;x1/&gt;Standard deviation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19432,6 +19464,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя входного поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144644Z" creationid="Марианна" creationdate="20201207T144644Z">
+        <seg>Input field name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имя может быть &lt;x7/&gt;&lt;Не задано&gt;&lt;x8/&gt;, если настраиваемый порт единственный в списке входных или выходных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T102436Z" creationid="Марианна" creationdate="20200920T155628Z">
@@ -20300,6 +20340,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T062011Z" creationid="Марианна" creationdate="20201012T062011Z">
         <seg>Pearson</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Коэффициент</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144705Z" creationid="Марианна" creationdate="20201207T144705Z">
+        <seg>Coefficient</seg>
       </tuv>
     </tu>
     <tu>
@@ -21314,6 +21362,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T175847Z" creationid="Марианна" creationdate="20200916T165503Z">
         <seg>Configure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки ARIMAX</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144812Z" creationid="Марианна" creationdate="20201207T144812Z">
+        <seg>ARIMAX Settings</seg>
       </tuv>
     </tu>
     <tu>
@@ -22414,6 +22470,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144626Z" creationid="Марианна" creationdate="20201207T144626Z">
+        <seg>Parameter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр &lt;x1/&gt;Дополнение до наибольшего набора&lt;x2/&gt; выставлен в значение &lt;x3/&gt;Не дополнять&lt;x4/&gt;, параметр &lt;x5/&gt;Количество строк соответствует&lt;x6/&gt; — в значение &lt;x7/&gt;Максимальному набору&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T071542Z" creationid="Марианна" creationdate="20201019T071542Z">
@@ -23010,6 +23074,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143611Z" creationid="Марианна" creationdate="20200816T143611Z">
         <seg>Version &lt;x5/&gt;1.0.0&lt;x6/&gt; is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию включено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144924Z" creationid="Марианна" creationdate="20201207T144924Z">
+        <seg>Enabled by default.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26278,6 +26350,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Структура модели ARIMAX</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144838Z" creationid="Марианна" creationdate="20201207T144838Z">
+        <seg>ARIMAX Model Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структура панели следующая:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T062942Z" creationid="Марианна" creationdate="20200817T062942Z">
@@ -26738,6 +26818,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тип</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144617Z" creationid="Марианна" creationdate="20201207T144617Z">
+        <seg>Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тип данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083052Z" creationid="Марианна" creationdate="20201030T083052Z">
@@ -27046,6 +27134,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100637Z" creationid="Марианна" creationdate="20200918T100637Z">
         <seg>Specify always.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уникальное значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T144654Z" creationid="Марианна" creationdate="20201207T144654Z">
+        <seg>Unique value</seg>
       </tuv>
     </tu>
     <tu>
