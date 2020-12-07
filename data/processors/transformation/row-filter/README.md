@@ -14,7 +14,7 @@ Where: `VAR1` ... `VAR5` are the names of the control variables accepted by the 
 
 Thus, the filtering criterion can be dynamically set during the workflow execution.
 
-> IMPORTANT: when writing complex criteria, **AND** operator will be prioritised.
+> IMPORTANT: When writing complex criteria, **AND** operator will be prioritised.
 > For example, the following complex criterion: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed as follows: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)".
 
 The input data set is divided into two output data sets (data tables): the records that meet the filtering criterion and the records that do not meet the criterion.

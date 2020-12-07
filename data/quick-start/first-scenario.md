@@ -8,7 +8,7 @@ Upon authorization, the action selection window will be opened (the [Home page](
 * **New Draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
 * **Open Package** — opening of the earlier created package.
 
-> **Important:** the software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.
+> **Important:** The software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.
 
 Upon package selection, a user will enter the working space of the software. It can be divided into four main areas (refer to Figure 1):
 

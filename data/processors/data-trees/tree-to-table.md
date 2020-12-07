@@ -42,7 +42,7 @@ The following commands are available for the Output Tree list in the context men
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by *Delete* hotkey).
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg)**Delete all...** enables to delete all child nodes (combination of *Shift+Delete* hotkeys).
 
-> **Note: it is not possible to delete ** Delete root node **Root**.
+> **Note: It is not possible to delete ** Delete root node **Root**.
 
 When running the following commands: ![](../../images/icons/wizards/datatree/add-child_default.svg)  **Add child node**, ![](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node**, ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit...**, the following fields values are set:
 * **Name** denotes a unique column name for one data set. It can consist of the following characters:
