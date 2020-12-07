@@ -4524,6 +4524,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt; (&lt;x3/&gt;A&lt;x4/&gt;uto&lt;x5/&gt;R&lt;x6/&gt;egressive &lt;x7/&gt;I&lt;x8/&gt;ntegrated &lt;x9/&gt;M&lt;x10/&gt;oving &lt;x11/&gt;A&lt;x12/&gt;verage e&lt;x13/&gt;X&lt;x14/&gt;tended) — это математическая модель для анализа &lt;x15/&gt;временных рядов&lt;x16/&gt;, объединяющая в себе интегрированную &lt;x17/&gt;авторегрессию&lt;x18/&gt;, &lt;x19/&gt;скользящее среднее&lt;x20/&gt; и возможность учета дополнительных внешних &lt;x21/&gt;факторов&lt;x22/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T141500Z" creationid="Марианна" creationdate="20201207T141500Z">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt; (&lt;x3/&gt;A&lt;x4/&gt;uto&lt;x5/&gt;R&lt;x6/&gt;egressive &lt;x7/&gt;I&lt;x8/&gt;ntegrated &lt;x9/&gt;M&lt;x10/&gt;oving &lt;x11/&gt;A&lt;x12/&gt;verage e&lt;x13/&gt;X&lt;x14/&gt;tended) is a mathematical model for analysis of &lt;x15/&gt;time series&lt;x16/&gt; that combines integrated &lt;x17/&gt;autoregression&lt;x18/&gt;, &lt;x19/&gt;moving average&lt;x20/&gt; and possibility to consider additional exogenous &lt;x21/&gt;factors&lt;x22/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
