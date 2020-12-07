@@ -2,24 +2,24 @@
 
 ## Description
 
-**ARIMAX** (**A**uto**R**egressive **I**ntegrated **M**oving **A**verage e**X**tended) — это математическая модель для анализа [временных рядов](https://wiki.loginom.ru/articles/time-series.html), объединяющая в себе интегрированную [авторегрессию](https://wiki.loginom.ru/articles/autoregressive-model.html), [скользящее среднее](https://wiki.loginom.ru/articles/moving-average.html) и возможность учета дополнительных внешних [факторов](https://wiki.loginom.ru/articles/factor.html).
+**ARIMAX** (**A**uto**R**egressive **I**ntegrated **M**oving **A**verage e**X**tended) is a mathematical model for analysis of [time series](https://wiki.loginom.ru/articles/time-series.html) that combines integrated [autoregression](https://wiki.loginom.ru/articles/autoregressive-model.html), [moving average](https://wiki.loginom.ru/articles/moving-average.html) and possibility to consider additional exogenous [factors](https://wiki.loginom.ru/articles/factor.html).
 
-Модели [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) применяются для решения [задач](https://wiki.loginom.ru/articles/demand-forecasting.html), в которых требуется построить прогноз на основе имеющихся данных, то есть вычислить последующие значения ряда на основе предыдущих. Временным рядом могут быть любые данные в разрезе времени, например, продажи товаров, количество заказов, поток клиентов и т.д.
+The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are used to accomplish the [tasks](https://wiki.loginom.ru/articles/demand-forecasting.html) that require to make the forecast based on the available data, namely, to calculate subsequent series values according to the previous ones. Time series can be any data from the time perspective, for example, sale of goods, number of purchase orders, customer traffic, etc.
 
-> **Важно**: для получения прогнозируемых данных требуется предварительное [обучение узла](../../scenario/training-processors.md).
+> **Important**: To get the forecast data, it is required to [train the node](../../scenario/training-processors.md) beforehand.
 
 ## Ports
 
 ### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)  **Входной источник данных** — таблица данных. Входные данные должны соответствовать следующим требованиям:
-   * Поле, соответствующее временному ряду, должно иметь назначение *Прогнозируемое*, [тип данных](../../data/datatype.md) *Вещественный* и [вид данных](../../data/datakind.md) *Непрерывный*. Такое поле должно быть только одно.
-   * Поля, соответствующие дополнительным факторам, должны иметь назначение *Входное*. Ограничений на тип данных в этих полях нет, вид данных может быть любой, кроме *Неопределённого*. Данные поля могут отсутствовать или присутствовать в любом количестве.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)  **Input data source** is a data table. The input data must meet the following requirements:
+   * The field mapping the time series must relate to the *Forecast* usage type, *Real* [data type](../../data/datatype.md) and *Continuous* [data kind](../../data/datakind.md). Only one such field is allowed.
+   * The fields mapping the exogenous factors must relate to the *Input* usage type. There are no restrictions for the data type in these fields, any data kind is allowed, with the exception of the *Undefined* one. These fields can be available or not in any amount.
 
 ### Output Ports
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выход модели** — таблица данных, которая содержит следующие поля:
-   * Имя_поля|Прогноз — прогнозируемые значения исходного временного ряда.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Model output** is a data table that contains the following fields:
+   * Field_name|Forecast means forecast values of the source time series.
    * Имя_поля|Ошибка [аппроксимации](https://wiki.loginom.ru/articles/approximation.html) — остатки модели, отклонения между прогнозируемыми и фактическими значениями ряда. Поле присутствует, если установлен флаг *Рассчитать ошибку аппроксимации*.
    * Имя_поля|Нижняя граница — нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html). Поле присутствует, если установлен флаг *Рассчитать доверительный интервал*.
    * Имя_поля|Верхняя граница — верхняя граница доверительного интервала. Поле присутствует, если установлен флаг *Рассчитать доверительный интервал*.
