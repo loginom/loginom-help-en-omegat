@@ -2412,6 +2412,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T142508Z" creationid="Марианна" creationdate="20201207T142508Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Input data source&lt;x4/&gt; is a data table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; / &lt;x3/&gt; &lt;x4/&gt; — скрывает / показывает список &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T155520Z" creationid="Марианна" creationdate="20200824T155520Z">
@@ -16728,6 +16736,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T073148Z" creationid="Марианна" creationdate="20201113T071427Z">
         <seg>The input data set is divided into two output data sets (data tables): the records that meet the filtering criterion and the records that do not meet the criterion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входные данные должны соответствовать следующим требованиям:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T142532Z" creationid="Марианна" creationdate="20201207T142532Z">
+        <seg>The input data must meet the following requirements:</seg>
       </tuv>
     </tu>
     <tu>
