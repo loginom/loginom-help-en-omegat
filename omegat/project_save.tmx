@@ -21902,6 +21902,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ограничений на тип данных в этих полях нет, вид данных может быть любой, кроме &lt;x3/&gt;Неопределённого&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T143529Z" creationid="Марианна" creationdate="20201207T143529Z">
+        <seg>There are no restrictions for the data type in these fields, any data kind is allowed, with the exception of the &lt;x3/&gt;Undefined&lt;x4/&gt; one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике &lt;x1/&gt;Группировка&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081547Z" creationid="Марианна" creationdate="20201023T081547Z">
@@ -23370,6 +23378,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102746Z" creationid="Марианна" creationdate="20201011T102746Z">
         <seg>There are the following fields the availability of which is set by a user:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля, соответствующие дополнительным факторам, должны иметь назначение &lt;x1/&gt;Входное&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T143322Z" creationid="Марианна" creationdate="20201207T143322Z">
+        <seg>The fields mapping the exogenous factors must relate to the &lt;x1/&gt;Input&lt;x2/&gt; usage type.</seg>
       </tuv>
     </tu>
     <tu>
