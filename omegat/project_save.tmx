@@ -9791,8 +9791,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Удалить корневой узел &lt;x3/&gt;Root&lt;x4/&gt; нельзя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T161130Z" creationid="Марианна" creationdate="20201001T161130Z">
-        <seg>&lt;x1/&gt;Note: it is not possible to delete &lt;x2/&gt; Delete root node &lt;x3/&gt;Root&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T135046Z" creationid="Марианна" creationdate="20201001T161130Z">
+        <seg>&lt;x1/&gt;Note: It is not possible to delete &lt;x2/&gt; Delete root node &lt;x3/&gt;Root&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24648,8 +24648,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200713T112550Z" creationid="Марианна" creationdate="20200713T112550Z">
-        <seg>Note: in the case of any package opening the file with the following name is created: &lt;x1/&gt;&lt;Package_name&gt;.lgp.lck&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T135054Z" creationid="Марианна" creationdate="20200713T112550Z">
+        <seg>Note: In the case of any package opening the file with the following name is created: &lt;x1/&gt;&lt;Package_name&gt;.lgp.lck&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
