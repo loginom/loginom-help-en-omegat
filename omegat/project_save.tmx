@@ -5318,8 +5318,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ВАЖНО&lt;x2/&gt;: при написании сложных условий приоритет будет у оператора &lt;x3/&gt;И&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T072918Z" creationid="Марианна" creationdate="20200924T084106Z">
-        <seg>&lt;x1/&gt;IMPORTANT&lt;x2/&gt;: when writing complex criteria, &lt;x3/&gt;AND&lt;x4/&gt; operator will be prioritised.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T135211Z" creationid="Марианна" creationdate="20200924T084106Z">
+        <seg>&lt;x1/&gt;IMPORTANT&lt;x2/&gt;: When writing complex criteria, &lt;x3/&gt;AND&lt;x4/&gt; operator will be prioritised.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5462,8 +5462,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200716T122824Z" creationid="Марианна" creationdate="20200716T122254Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; the software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T135255Z" creationid="Марианна" creationdate="20200716T122254Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The software doesn't auto save. When closing the software window (browser tabs), all changes will be lost.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16256,8 +16256,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>ВАЖНО: при написании сложных условий приоритет будет у оператора &lt;x1/&gt;И&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T073002Z" creationid="Марианна" creationdate="20201113T065931Z">
-        <seg>IMPORTANT: when writing complex criteria, &lt;x1/&gt;AND&lt;x2/&gt; operator will be prioritised.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T135234Z" creationid="Марианна" creationdate="20201113T065931Z">
+        <seg>IMPORTANT: When writing complex criteria, &lt;x1/&gt;AND&lt;x2/&gt; operator will be prioritised.</seg>
       </tuv>
     </tu>
     <tu>
