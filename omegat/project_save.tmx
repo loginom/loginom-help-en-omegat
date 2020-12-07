@@ -5524,6 +5524,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: для получения прогнозируемых данных требуется предварительное &lt;x3/&gt;обучение узла&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201207T142433Z" creationid="Марианна" creationdate="20201207T142433Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: To get the forecast data, it is required to &lt;x3/&gt;train the node&lt;x4/&gt; beforehand.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: использование кэша для передачи значений между вызовами &lt;x3/&gt;require&lt;x4/&gt; может привести к непредсказуемым результатам вычислений в виду использования многопоточности вычислений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T191940Z" creationid="Марианна" creationdate="20201020T191940Z">
