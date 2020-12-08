@@ -9645,6 +9645,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок AR части&lt;x2/&gt; — задает порядок (р) авторегрессионной части.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072032Z" creationid="Марианна" creationdate="20201208T072032Z">
+        <seg>&lt;x1/&gt;AR part order&lt;x2/&gt; sets the order (р) of the autoregressive part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок связей при присоединении.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T101545Z" creationid="Марианна" creationdate="20201118T101545Z">
@@ -22682,6 +22690,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084135Z" creationid="Марианна" creationdate="20201009T084135Z">
         <seg>There are the following parameters of the Package in which the used Derived Component has been created:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры в процессе вычисления подбираются таким образом, чтобы минимизировать значение &lt;x3/&gt;AIC&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071928Z" creationid="Марианна" creationdate="20201208T071928Z">
+        <seg>The parameters are selected in the calculation process to minimize the &lt;x3/&gt;AIC&lt;x4/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
