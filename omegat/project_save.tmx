@@ -7581,6 +7581,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исключать одиночные наборы&lt;x2/&gt; — исключает наборы из одного элемента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195924Z" creationid="Марианна" creationdate="20201208T195924Z">
+        <seg>&lt;x1/&gt;Exclude single sets&lt;x2/&gt; enables to exclude the sets from one item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исключать элементы с поддержкой, больше максимальной&lt;x2/&gt; — элементы, которые слишком часто встречаются в транзакциях, как правило, не несут информации о закономерностях сочетания с ними других элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T195636Z" creationid="Марианна" creationdate="20201208T195636Z">
@@ -10963,6 +10971,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070539Z" creationid="Марианна" creationdate="20200812T070539Z">
         <seg>&lt;x1/&gt;Compatibility of data types&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Содержащие выбранные элементы&lt;x2/&gt; — задает поля вспомогательного набора данных, содержащие дополнительные элементы транзакций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195842Z" creationid="Марианна" creationdate="20201208T195842Z">
+        <seg>&lt;x1/&gt;Containing selected items&lt;x2/&gt; enables to set the supplementary data set fields that contain supplementary transaction items.</seg>
       </tuv>
     </tu>
     <tu>
