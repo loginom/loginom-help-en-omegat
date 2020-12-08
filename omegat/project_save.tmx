@@ -2420,6 +2420,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Коэффициенты модели&lt;x4/&gt; — таблица данных, которая содержит следующие коэффициенты:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064858Z" creationid="Марианна" creationdate="20201208T064858Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Model coefficients&lt;x4/&gt; denote the data table that contains the following coefficients:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; / &lt;x3/&gt; &lt;x4/&gt; — скрывает / показывает список &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T155520Z" creationid="Марианна" creationdate="20200824T155520Z">
@@ -2736,6 +2744,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T063010Z" creationid="Марианна" creationdate="20201015T063010Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to set expression parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сводка&lt;x4/&gt; — переменные:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064952Z" creationid="Марианна" creationdate="20201208T064928Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Summary&lt;x4/&gt; denotes variables:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16748,6 +16764,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Всего отобранных примеров (TotalSelectedSamples)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065018Z" creationid="Марианна" creationdate="20201208T065018Z">
+        <seg>Total selected samples (TotalSelectedSamples)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Всего примеров (TotalSamples)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065008Z" creationid="Марианна" creationdate="20201208T065008Z">
+        <seg>Total samples (TotalSamples)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164948Z" creationid="Марианна" creationdate="20201010T164948Z">
@@ -24818,6 +24850,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114432Z" creationid="Марианна" creationdate="20201020T114432Z">
         <seg>For example: &lt;x3/&gt;new Date(2020, 1, 5, 13, 12, 50, 100)&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примеров в &lt;x1/&gt;обучающем множестве&lt;x2/&gt; (TrainSamples)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065108Z" creationid="Марианна" creationdate="20201208T065108Z">
+        <seg>Samples in &lt;x1/&gt;training set&lt;x2/&gt; (TrainSamples)</seg>
       </tuv>
     </tu>
     <tu>
