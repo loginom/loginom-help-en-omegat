@@ -27570,6 +27570,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Транзакцией в данном примере является чек продажи, содержащий список приобретенных товаров, а каждый товар в чеке является элементом транзакции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T190722Z" creationid="Марианна" creationdate="20201208T190722Z">
+        <seg>The transaction specified in this example is a sales check that contains a list of acquired goods, and each item of goods in the check is a transaction item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Транзакции фиксируются через указанное количество строк.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113008Z" creationid="Марианна" creationdate="20200916T113008Z">
