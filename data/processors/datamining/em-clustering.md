@@ -12,7 +12,7 @@
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
 Поле будет запрещено к использованию, если:
 

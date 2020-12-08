@@ -16,7 +16,7 @@
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных) — обязательный порт.
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
 Поле будет запрещено к использованию, если:
 

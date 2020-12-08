@@ -1,8 +1,8 @@
-# ![ ](../../images/icons/components/assnrules_default.svg) Ассоциативные правила
+# ![ ](../../images/icons/components/assnrules_default.svg) Association Rules
 
 ## Description
 
-Обработчик выявляет [ассоциативные правила](https://wiki.loginom.ru/articles/association-rules.html) в [транзакционных данных](https://wiki.loginom.ru/articles/transaction.html). Примером такого правила служит утверждение, что покупатель, приобретающий 'Хлеб' (*условие правила*), купит и 'Молоко' (*следствие правила*) с вероятностью 75%. Транзакцией в данном примере является чек продажи, содержащий список приобретенных товаров, а каждый товар в чеке является элементом транзакции. При поиске ассоциативных правил применяется алгоритм [FP-Growth](https://basegroup.ru/community/articles/fpg).
+The handler detects [association rules](https://wiki.loginom.ru/articles/association-rules.html) in the [transaction data](https://wiki.loginom.ru/articles/transaction.html). To provide an example of such rule, it is observed that a consumer who buys "Bread" (*condition of rule*), will buy "Milk" as well (*consequence of rule*) with a probability of 75%. Транзакцией в данном примере является чек продажи, содержащий список приобретенных товаров, а каждый товар в чеке является элементом транзакции. При поиске ассоциативных правил применяется алгоритм [FP-Growth](https://basegroup.ru/community/articles/fpg).
 
 Наряду с анализом основных данных транзакций возможно учитывать и вспомогательные. Например, если транзакцией является чек, а элементами — товары, то в качестве вспомогательных данных могут быть использованы: пол покупателя, возраст, регион, сезон и т.д. Фактически вспомогательные данные рассматриваются алгоритмом как еще одни элементы транзакций, и обозначение "вспомогательные" они имеют лишь в контексте аналитической задачи. Поскольку вспомогательные данные чаще представляются в источниках данных как дополнительные атрибуты транзакций, обработчик имеет отдельный вход для их приема.
 
@@ -15,46 +15,46 @@
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Вспомогательные данные** (таблица данных). Необязательный.<br>
    Принимает дополнительные элементы транзакций, которые возможно учитывать при расчете ассоциативных правил.
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
-%spoiler%Примеры входных наборов:%spoiler%
+%spoiler%Examples of input data sets:%spoiler%
 
-Входной источник данных:
+Input data source:
 
-| Идентификатор транзакции | Элементы транзакции |
+| Transaction identifier | Transaction items |
 | -------- | -------- |
-| Чек №000001 | Хлеб |
-| Чек №000001 | Молоко |
-| Чек №000001 | Масло |
-| Чек №000002 | Хлеб |
-| Чек №000003 | Хлеб |
-| Чек №000003 | Молоко |
+| Check No 000001 | Bread |
+| Check No 000001 | Milk |
+| Check No 000001 | Butter |
+| Check No 000002 | Bread |
+| Check No 000003 | Bread |
+| Check No 000003 | Milk |
 
 В отличии от таблицы, принимаемой портом "Входной источник данных", элементы транзакций вспомогательных данных должны располагаться в строках, а не в столбцах. Таким образом, структура таблицы предполагает наличие одного поля идентификатора транзакций и одного или более полей элементов транзакций.
 
-Вспомогательные данные:
+Auxiliary data:
 
-| Идентификатор транзакции | Пол покупателя | Возраст | Region | Сезон |
+| Transaction identifier | Sex of consumer | Age | Region | Season |
 | -------- | -------- | -------- | -------- | -------- |
-| Чек №000001 | м | 20-30 | Московская обл. | 1 |
-| Чек №000002 | ж | 40-50 | Калининградская обл. | 2 |
-| Чек №000003 | ж | 30-40 | Орловская обл. | 1 |
+| Check No 000001 | m | 20-30 | The Moscow Region | 1 |
+| Check No 000002 | f | 40-50 | The Kaliningrad Region | 2 |
+| Check No 000003 | f | 30-40 | The Orel Region | 1 |
 
 %/spoiler%
 
-В настройках портов следует выставить [параметр "Назначение"](../../data/datasetfieldoptions.md) для полей участвующих в обработке. Параметр может принимать значения: *Неиспользуемое, Транзакция, Элемент*. Идентификаторы и элементы транзакций могут быть представлены только [дискретными](../../data/datatype.md) данными.
+It is required to set ["Usage type" parameter](../../data/datasetfieldoptions.md) for the fields included into processing in the ports settings. The parameter can take the following values: *Unused, Transaction, Item*. Identifiers and transaction items can be represented only by [discrete](../../data/datatype.md) data.
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Популярные наборы** (таблица данных). Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Ассоциативные правила** (таблица данных). Выявленные ассоциативные правила и их показатели: [поддержка](https://wiki.loginom.ru/articles/association-rule-support.html), [достоверность](https://wiki.loginom.ru/articles/rule-confidence.html), [лифт](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Применение правил** (таблица данных). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Frequent sets** (data table). The itemsets most frequently occurring in transactions (frequent itemsets).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Association rules** (data table). Detected association rules and their parameters: [support](https://wiki.loginom.ru/articles/association-rule-support.html), [confidence](https://wiki.loginom.ru/articles/rule-confidence.html), [lift](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Apply rules** (data table). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
 
 ## Wizard
 
-Включает следующие группы параметров:
+includes the follwing groups of parameters:
 
-### Частые наборы
+### Frequent Itemsets
 
 Задаются условия, по которым определяются *частые предметные наборы* — наборы элементов, наиболее часто встречающиеся в транзакциях. В дальнейшем только эти наборы участвуют в формировании правил:
 
@@ -65,7 +65,7 @@
 * **Исключать одиночные наборы** — исключает наборы из одного элемента;
 * **Максимальное число элементов** — задает максимальное количество элементов в наборе (максимальная мощность набора).
 
-### Ассоциативные правила
+### Association Rules
 
 В результирующий набор попадают правила, удовлетворяющие следующим условиям:
 

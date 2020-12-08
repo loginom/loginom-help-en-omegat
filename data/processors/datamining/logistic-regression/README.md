@@ -28,7 +28,7 @@
 
 ## Мастер настройки узла
 
-Включает следующие группы параметров:
+includes the follwing groups of parameters:
 
 * Настройки [нормализации](../../normalization/README.md);
 * [Разбиение на множества](#razbienie-na-mnozhestva);
