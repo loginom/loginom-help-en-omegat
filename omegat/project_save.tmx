@@ -23390,6 +23390,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поле присутствует, если установлен флаг &lt;x1/&gt;Рассчитать доверительный интервал&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064632Z" creationid="Марианна" creationdate="20201208T064632Z">
+        <seg>The field is available if the following flag is selected: &lt;x1/&gt;Calculate confidence interval&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поле присутствует, если установлен флаг &lt;x3/&gt;Рассчитать доверительный интервал&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T064450Z" creationid="Марианна" creationdate="20201208T064450Z">
