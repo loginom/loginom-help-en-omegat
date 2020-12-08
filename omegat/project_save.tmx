@@ -19252,6 +19252,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задавая минимальную величину лифта, можно отсеять наименее значимые правила.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T201123Z" creationid="Марианна" creationdate="20201208T201123Z">
+        <seg>Setting the minimum lift value, it is possible to exclude the least important rules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задается на языке правил, использующем подмножество &lt;x3/&gt;регулярных выражений&lt;x4/&gt; Perl (Perl regular expressions, regex).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094635Z" creationid="Марианна" creationdate="20201117T094635Z">
@@ -19464,6 +19472,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T155849Z" creationid="Марианна" creationdate="20201013T155849Z">
         <seg>It is possible to set the value of each criterion in the special field to the right of the radio button corresponding to it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение лифта, равное или меньшее 1, говорит об отсутствии или отрицательной связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T200956Z" creationid="Марианна" creationdate="20201208T200956Z">
+        <seg>The lift value equal or less than 1 shows absence or negative connection.</seg>
       </tuv>
     </tu>
     <tu>
