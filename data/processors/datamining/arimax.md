@@ -70,16 +70,16 @@ It is required to set the [usage type](../../data/datasetfieldoptions.md) of the
 * **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when constructing the model. The integer value more than 0 is set.
 * **Integration order** sets the order of (d) series differences if it is required to set the source series to the [stationary](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C) one. The integer value more than 0 is set.
 * **MA part order** sets the order of (q) part of moving average. It defines the lag size for the source series smoothing. The integer value more than 0 is set.
-* **Включить расчет сезонности** — установка данного флага позволяет задать параметры для [сезонной составляющей](https://wiki.loginom.ru/articles/seasonal-component.html):
-   * **Порядок сезонной AR части** — устанавливает значение целого типа от 0 и выше.
-   * **Порядок сезонного  интегрирования** — устанавливает значение целого типа от 0 и выше.
-   * **Порядок сезонной MA части** — устанавливает значение целого типа от 0 и выше.
-   * **Период сезонной составляющей** — устанавливает положительное значение целого типа.
-* **Включить константу в модель** — значение логического типа. Enabled by default.
+* **Enable seasonality calculation**: selection of this flag enables to set parameters for the [seasonal component](https://wiki.loginom.ru/articles/seasonal-component.html):
+   * **Seasonal AR part order** sets the integer value from 0 and higher.
+   * **Seasonal integration order** sets the integer value from 0 and higher.
+   * **Seasonal MA part order** sets the integer value from 0 and higher.
+   * **Period of the seasonal component** sets the posistive integer value.
+* **Include intercept into the model** means the boolean value. Enabled by default.
 
-#### Прогнозирование временных рядов
+#### Time Series Prediction
 
-* **[Горизонт прогноза](https://wiki.loginom.ru/articles/time-horizon.html)** — задает количество значений, которые будут спрогнозированы и добавлены в выходной набор в конце исходного временного ряда. Устанавливает значение целого типа больше 1.
-* **Рассчитать ошибку аппроксимации** — флаг, установка которого добавляет в выходной набор столбец со средними отклонениями прогнозируемых значений от фактических.
-* **Рассчитать доверительный интервал** — позволяет вручную задать настройку следующего параметра:
-   * Доверительный интервал прогноза в % от 0 до 100 — значение вещественного типа, по умолчанию 95.
+* **[Forecast horizon](https://wiki.loginom.ru/articles/time-horizon.html)** sets the number of the values that will be forecast and added to the output data set at the end of the source time series. It sets the integer value more than 1.
+* **Calculate the approximation error**: selection of this flag enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.
+* **Calculate confidence interval** provides manual setting of the following parameter:
+   * Confidence forecast interval in% from 0 to 100 denotes the real value. By default, it is 95.
