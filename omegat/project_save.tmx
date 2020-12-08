@@ -3108,6 +3108,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Кластеризация транзакций</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T201501Z" creationid="Марианна" creationdate="20201208T201501Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Transaction Clustering</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Корреляционный анализ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T112030Z" creationid="Марианна" creationdate="20201011T112030Z">
