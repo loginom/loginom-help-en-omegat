@@ -19536,6 +19536,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя_поля|Ошибка &lt;x1/&gt;аппроксимации&lt;x2/&gt; — остатки модели, отклонения между прогнозируемыми и фактическими значениями ряда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064035Z" creationid="Марианна" creationdate="20201208T064035Z">
+        <seg>Field_name|Error of &lt;x1/&gt;approximation&lt;x2/&gt; means model residuals, deviations between the forecast and actual series values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имя_поля|Прогноз — прогнозируемые значения исходного временного ряда.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143935Z" creationid="Марианна" creationdate="20201207T143935Z">
