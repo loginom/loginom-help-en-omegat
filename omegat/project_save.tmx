@@ -9647,8 +9647,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок AR части&lt;x2/&gt; — задает порядок (р) авторегрессионной части.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T072032Z" creationid="Марианна" creationdate="20201208T072032Z">
-        <seg>&lt;x1/&gt;AR part order&lt;x2/&gt; sets the order (р) of the autoregressive part.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072518Z" creationid="Марианна" creationdate="20201208T072032Z">
+        <seg>&lt;x1/&gt;AR part order&lt;x2/&gt; sets the order of (р) autoregressive part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок MA части&lt;x2/&gt; — задает порядок (q) части скользящего среднего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072546Z" creationid="Марианна" creationdate="20201208T072502Z">
+        <seg>&lt;x1/&gt;MA part order&lt;x2/&gt; sets the order of (q) part of moving average.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22370,6 +22378,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T061950Z" creationid="Марианна" creationdate="20201012T061950Z">
         <seg>Let's define correlation of the "Spaghetti" item of goods with other goods based on the Pearson coefficients (it is required to mark the "Spaghetti" field in "Set 1" and other goods in "Set 2" in the handler wizard).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Определяет  размер скользящего окна для сглаживания исходного ряда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072651Z" creationid="Марианна" creationdate="20201208T072651Z">
+        <seg>It defines the lag size for the source series smoothing.</seg>
       </tuv>
     </tu>
     <tu>
