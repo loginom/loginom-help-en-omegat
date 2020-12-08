@@ -22062,6 +22062,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик выявляет &lt;x1/&gt;ассоциативные правила&lt;x2/&gt; в &lt;x3/&gt;транзакционных данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T102043Z" creationid="Марианна" creationdate="20201208T102043Z">
+        <seg>The handler detects &lt;x1/&gt;association rules&lt;x2/&gt; in the &lt;x3/&gt;transaction data&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик заменяет входные переменные, используя таблицы замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T155413Z" creationid="Марианна" creationdate="20201006T155413Z">
