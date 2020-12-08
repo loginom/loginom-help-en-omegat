@@ -8781,6 +8781,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Определить структуру автоматически&lt;x2/&gt; — при установке данного флага активируется автоподбор параметров модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071633Z" creationid="Марианна" creationdate="20201208T071633Z">
+        <seg>&lt;x1/&gt;Auto detect structure&lt;x2/&gt;: when this flag is selected, automatic selection of the model parameters is enabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Определяется набором&lt;x2/&gt; - при выборе данного варианта становится доступен список &lt;x3/&gt;Набор данных, определяющий набор строк&lt;x4/&gt;, в нем необходимо выбрать набор, в соответствии с которым будет определяться количество строк результирующего набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T071153Z" creationid="Марианна" creationdate="20201019T071153Z">
