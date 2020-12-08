@@ -15862,6 +15862,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В настройках портов следует выставить &lt;x1/&gt;параметр "Назначение"&lt;x2/&gt; для полей участвующих в обработке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T104125Z" creationid="Марианна" creationdate="20201208T104125Z">
+        <seg>It is required to set &lt;x1/&gt;"Usage type" parameter&lt;x2/&gt; for the fields included into processing in the ports settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В настройках этого порта следует выставить назначение &lt;x3/&gt; &lt;x4/&gt; "Используемое" для полей, данные которых следует подвергнуть факторному анализу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201017T193436Z" creationid="Марианна" creationdate="20201012T213506Z">
