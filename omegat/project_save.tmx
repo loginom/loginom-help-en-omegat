@@ -27538,6 +27538,22 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Число &lt;x1/&gt;степеней свободы&lt;x2/&gt; модели (ModelDF)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065442Z" creationid="Марианна" creationdate="20201208T065442Z">
+        <seg>Number of &lt;x1/&gt;the model degrees of freedom&lt;x2/&gt; (ModelDF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Число степеней свободы остатков (ResDF)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T070427Z" creationid="Марианна" creationdate="20201208T070427Z">
+        <seg>Number of the residues degrees of freedom (ResDF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Читинская обл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212321Z" creationid="Марианна" creationdate="20201012T212151Z">
