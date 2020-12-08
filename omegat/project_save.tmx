@@ -16078,6 +16078,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В отличии от таблицы, принимаемой портом "Входной источник данных", элементы транзакций вспомогательных данных должны располагаться в строках, а не в столбцах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192945Z" creationid="Марианна" creationdate="20201208T192945Z">
+        <seg>As opposed to the table accepted by the "Input data source" port, the transaction items of the supplementary data must be located in strings but not in columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В панели иерархически фиксируются процессы и выполняющиеся в них узлы/подузлы, им присваиваются порядковые номера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T062415Z" creationid="Марианна" creationdate="20200817T062415Z">
