@@ -21422,6 +21422,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103653Z" creationid="Марианна" creationdate="20201208T103653Z">
+        <seg>The itemsets most frequently occurring in transactions (frequent itemsets).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Навигация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122706Z" creationid="Марианна" creationdate="20200814T122706Z">
