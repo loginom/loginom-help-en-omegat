@@ -27422,6 +27422,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, структура таблицы предполагает наличие одного поля идентификатора транзакций и одного или более полей элементов транзакций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T193753Z" creationid="Марианна" creationdate="20201208T193753Z">
+        <seg>Thus, the table structure presupposes availability of one transaction identifier field and one or more transaction items fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, условие фильтра может задаваться динамически в ходе выполнения сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T072713Z" creationid="Марианна" creationdate="20201113T065847Z">
