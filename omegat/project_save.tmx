@@ -8189,6 +8189,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимальное число элементов&lt;x2/&gt; — задает максимальное количество элементов в наборе (максимальная мощность набора).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T200040Z" creationid="Марианна" creationdate="20201208T200040Z">
+        <seg>&lt;x1/&gt;Maximum item count&lt;x2/&gt; enables to set the maximum count of items in a set (maximum itemset power).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113302Z" creationid="Марианна" creationdate="20200929T113302Z">
@@ -16338,6 +16346,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T125920Z" creationid="Марианна" creationdate="20201110T125920Z">
         <seg>All records of the joined table fall within the resulting data set. They are appended with the fields from the main table. If no mapping was detected by the key fields for the record from the joined table, the Null value is stated in the appended fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результирующий набор попадают правила, удовлетворяющие следующим условиям:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T200121Z" creationid="Марианна" creationdate="20201208T200121Z">
+        <seg>The rules meeting the following requirements are included into the resulting data set:</seg>
       </tuv>
     </tu>
     <tu>
