@@ -22950,6 +22950,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр может принимать значения: &lt;x3/&gt;Неиспользуемое, Транзакция, Элемент&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103734Z" creationid="Марианна" creationdate="20201208T103734Z">
+        <seg>The parameter can take the following values: &lt;x3/&gt;Unused, Transaction, Item&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр четыре варианта настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140300Z" creationid="Марианна" creationdate="20201116T140300Z">
