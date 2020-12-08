@@ -10503,6 +10503,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рассчитать ошибку аппроксимации&lt;x2/&gt; — флаг, установка которого добавляет в выходной набор столбец со средними отклонениями прогнозируемых значений от фактических.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T073742Z" creationid="Марианна" creationdate="20201208T073742Z">
+        <seg>&lt;x1/&gt;Calculate the approximation error&lt;x2/&gt;: selection of this flag enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Рассчитывать ЧАКФ&lt;x2/&gt; — наличие данного флага добавляет вычисление частной автокорреляционной функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103958Z" creationid="Марианна" creationdate="20201011T103958Z">
