@@ -21,7 +21,7 @@
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — **Входной источник данных** (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — **Input data source** (data table).
 
 #### Requirements to the Received Data
 

@@ -10,7 +10,7 @@
 
 На рисунке цветом выделены отдельные кластеры и объекты, им принадлежащие.
 
-Для получения результирующих наборов требуется предварительное [обучение обработчика](../../scenario/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [training of the handler](../../scenario/training-processors.md).
 
 ## Ports
 

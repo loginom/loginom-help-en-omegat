@@ -6,7 +6,7 @@
 
 Алгоритм автоматически подбирает количество кластеров. Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.
 
-Для получения результирующих наборов требуется предварительное [обучение обработчика](../../scenario/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [training of the handler](../../scenario/training-processors.md).
 
 ## Ports
 

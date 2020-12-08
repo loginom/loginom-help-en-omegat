@@ -10,7 +10,7 @@
 
 Обработчик может использоваться для решения различных задач [Data Mining](https://wiki.loginom.ru/articles/data-mining.html?q=), например, таких, как [прогнозирование](https://wiki.loginom.ru/articles/forecasting.html) и численное предсказание.
 
-Для получения результирующих наборов требуется предварительное [обучение обработчика](../../../scenario/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [training of the handler](../../../scenario/training-processors.md).
 
 > **Важно:** входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.
 
