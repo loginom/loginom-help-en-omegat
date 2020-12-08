@@ -19536,6 +19536,22 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя_поля|Верхняя граница — верхняя граница доверительного интервала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064606Z" creationid="Марианна" creationdate="20201208T064606Z">
+        <seg>Field_name|Upper bound denotes the lower bound of the confidence interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя_поля|Нижняя граница — нижняя граница &lt;x1/&gt;доверительного интервала&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064418Z" creationid="Марианна" creationdate="20201208T064418Z">
+        <seg>Field_name|Lower bound denotes the lower bound of the &lt;x1/&gt;confidence interval&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имя_поля|Ошибка &lt;x1/&gt;аппроксимации&lt;x2/&gt; — остатки модели, отклонения между прогнозируемыми и фактическими значениями ряда.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T064035Z" creationid="Марианна" creationdate="20201208T064035Z">
@@ -23370,6 +23386,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T055653Z" creationid="Марианна" creationdate="20201116T055616Z">
         <seg>The &lt;x1/&gt;Value&lt;x2/&gt; field of the replacement table contains the values to be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле присутствует, если установлен флаг &lt;x3/&gt;Рассчитать доверительный интервал&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064450Z" creationid="Марианна" creationdate="20201208T064450Z">
+        <seg>The field is available if the following flag is selected: &lt;x3/&gt;Calculate confidence interval&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
