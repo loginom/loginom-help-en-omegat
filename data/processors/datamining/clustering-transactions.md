@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/clope_default.svg) Кластеризация транзакций
+# ![ ](../../images/icons/components/clope_default.svg) Transaction Clustering
 
 ## Description
 
