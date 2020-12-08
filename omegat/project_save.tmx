@@ -24886,6 +24886,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При поиске ассоциативных правил применяется алгоритм &lt;x9/&gt;FP-Growth&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T190809Z" creationid="Марианна" creationdate="20201208T190809Z">
+        <seg>The &lt;x9/&gt;FP-Growth&lt;x10/&gt; algorithm is used when searching for association rules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При поиске среди вещественных и целых данных возможно указание допустимого интервала поиска.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063839Z" creationid="Марианна" creationdate="20201116T063839Z">
