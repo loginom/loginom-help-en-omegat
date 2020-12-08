@@ -25238,6 +25238,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Прогнозирование временных рядов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T073125Z" creationid="Марианна" creationdate="20201208T073125Z">
+        <seg>Time Series Prediction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Продажи, шт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T083800Z" creationid="Марианна" creationdate="20201114T083800Z">
