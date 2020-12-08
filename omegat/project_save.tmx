@@ -8183,8 +8183,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимальное число следствий&lt;x2/&gt; — максимальное количество элементов в наборе, представляющем следствие правила.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T201241Z" creationid="Марианна" creationdate="20201208T201241Z">
-        <seg>&lt;x1/&gt;Maximum number of consequences&lt;x2/&gt; denotes the maximum count of items in the set that represents the rule consequence.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T201302Z" creationid="Марианна" creationdate="20201208T201241Z">
+        <seg>&lt;x1/&gt;Maximum number of consequences&lt;x2/&gt; denotes the maximum number of items in the set that represents the rule consequence.</seg>
       </tuv>
     </tu>
     <tu>
