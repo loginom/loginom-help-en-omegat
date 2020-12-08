@@ -17812,6 +17812,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого из столбцов можно выбрать один из вариантов назначения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T070813Z" creationid="Марианна" creationdate="20201208T070813Z">
+        <seg>It is required to select one of the following usage types for each of the columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждого количества отсчетов впоследствии вычисляется коэффициент автокорреляции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103418Z" creationid="Марианна" creationdate="20201011T103418Z">
