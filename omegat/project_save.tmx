@@ -2460,6 +2460,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Входное&lt;x4/&gt; — для данных, соответствующих дополнительным входным факторам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T070954Z" creationid="Марианна" creationdate="20201208T070954Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Input&lt;x4/&gt;: for the data mapping the additional input factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выражение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134344Z" creationid="Марианна" creationdate="20201015T085336Z">
@@ -2604,6 +2612,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Не задано&lt;x4/&gt; — для данных, не участвующих в построении модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071039Z" creationid="Марианна" creationdate="20201208T071039Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unspecified&lt;x4/&gt;: for the data that do not take part in the model construction process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — производит обновление списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140127Z" creationid="Марианна" creationdate="20200816T140127Z">
@@ -2712,6 +2728,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065625Z" creationid="Марианна" creationdate="20201111T104908Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Right join&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Прогнозируемое&lt;x4/&gt; — для данных, соответствующих временному ряду.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T070920Z" creationid="Марианна" creationdate="20201208T070920Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Forecast&lt;x4/&gt;: for the data mapping the time series.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27390,6 +27414,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T071525Z" creationid="Марианна" creationdate="20201111T170037Z">
         <seg>Filtering Conditions in the Row Filter Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Устанавливается по умолчанию для остальных столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071054Z" creationid="Марианна" creationdate="20201208T071054Z">
+        <seg>It is set for other columns by default.</seg>
       </tuv>
     </tu>
     <tu>
