@@ -23374,6 +23374,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поле присутствует, если установлен флаг &lt;x3/&gt;Рассчитать ошибку аппроксимации&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T064304Z" creationid="Марианна" creationdate="20201208T064304Z">
+        <seg>The field is available if the following flag is selected:&lt;x3/&gt;Calculate the approximation error&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поле, соответствующее временному ряду, должно иметь назначение &lt;x1/&gt;Прогнозируемое&lt;x2/&gt;, &lt;x3/&gt;тип данных&lt;x4/&gt; &lt;x5/&gt;Вещественный&lt;x6/&gt; и &lt;x7/&gt;вид данных&lt;x8/&gt; &lt;x9/&gt;Непрерывный&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T142937Z" creationid="Марианна" creationdate="20201207T142937Z">
