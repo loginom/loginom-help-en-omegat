@@ -15654,6 +15654,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В дальнейшем только эти наборы участвуют в формировании правил:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195242Z" creationid="Марианна" creationdate="20201208T195227Z">
+        <seg>Later on, only these itemsets are used to form the rules:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В данном примере для вычисления переменной &lt;x1/&gt;result&lt;x2/&gt; используются ссылки на поля с именами &lt;x3/&gt;COL1&lt;x4/&gt; и &lt;x5/&gt;COL2&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114257Z" creationid="Марианна" creationdate="20201020T114257Z">
