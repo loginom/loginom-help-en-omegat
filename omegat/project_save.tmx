@@ -3228,6 +3228,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Популярные наборы&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103530Z" creationid="Марианна" creationdate="20201208T103530Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Frequent sets&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Применение правил&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103503Z" creationid="Марианна" creationdate="20201208T103503Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Apply rules&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — вызов меню действий над портами переменных Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102702Z" creationid="Марианна" creationdate="20201009T102702Z">
@@ -15414,6 +15430,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ассоциативные правила</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103422Z" creationid="Марианна" creationdate="20201208T103422Z">
+        <seg>Association Rules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Астра-инфо</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112947Z" creationid="Марианна" creationdate="20200825T112947Z">
@@ -16656,6 +16680,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074935Z" creationid="Марианна" creationdate="20200716T074935Z">
         <seg>Types of ports of the workflow nodes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Включает следующие группы параметров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103440Z" creationid="Марианна" creationdate="20201208T103440Z">
+        <seg>includes the follwing groups of parameters:</seg>
       </tuv>
     </tu>
     <tu>
@@ -27910,6 +27942,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110709Z" creationid="Марианна" creationdate="20200929T110709Z">
         <seg>Digits (it cannot be the first character).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Частые наборы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103409Z" creationid="Марианна" creationdate="20201208T103409Z">
+        <seg>Frequent Itemsets</seg>
       </tuv>
     </tu>
     <tu>
