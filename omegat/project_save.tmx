@@ -20982,6 +20982,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На первом этапе необходимо задать &lt;x1/&gt;назначение&lt;x2/&gt; столбцов входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T070734Z" creationid="Марианна" creationdate="20201208T070734Z">
+        <seg>It is required to set the &lt;x1/&gt;usage type&lt;x2/&gt; of the input data set columns at the first stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе проектирования описывают решение поставленной задачи, выделяя независимые подзадачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
@@ -21354,6 +21362,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T111525Z" creationid="Марианна" creationdate="20201001T111525Z">
         <seg>Configuration of the Input Data Set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка входных столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T070456Z" creationid="Марианна" creationdate="20201208T070456Z">
+        <seg>Configure Input Columns</seg>
       </tuv>
     </tu>
     <tu>
