@@ -5757,6 +5757,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Включить расчет сезонности&lt;x2/&gt; — установка данного флага позволяет задать параметры для &lt;x3/&gt;сезонной составляющей&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072755Z" creationid="Марианна" creationdate="20201208T072755Z">
+        <seg>&lt;x1/&gt;Enable seasonality calculation&lt;x2/&gt;: selection of this flag enables to set parameters for the &lt;x3/&gt;seasonal component&lt;x4/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внешние диапазоны&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055150Z" creationid="Марианна" creationdate="20200812T055150Z">
@@ -9673,6 +9681,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T101545Z" creationid="Марианна" creationdate="20201118T101545Z">
         <seg>&lt;x1/&gt;Connection order when joining.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок сезонной AR части&lt;x2/&gt; — устанавливает значение целого типа от 0 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072828Z" creationid="Марианна" creationdate="20201208T072828Z">
+        <seg>&lt;x1/&gt;Seasonal AR part order&lt;x2/&gt; sets the integer value from 0 and higher.</seg>
       </tuv>
     </tu>
     <tu>
