@@ -12,7 +12,7 @@
 * [ARIMAX](../datamining/arimax.md);
 * [Самоорганизующиеся сети](../datamining/self-organizing-network.md).
 
-## Настройки нормализации
+## Normalization Settings
 
 * **Поле** — поле набора данных.
 * **Нормализатор** — выбранный нормализатор поля.

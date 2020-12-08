@@ -20,10 +20,10 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Model output** is a data table that contains the following fields:
    * Field_name|Forecast means forecast values of the source time series.
-   * Имя_поля|Ошибка [аппроксимации](https://wiki.loginom.ru/articles/approximation.html) — остатки модели, отклонения между прогнозируемыми и фактическими значениями ряда. Поле присутствует, если установлен флаг *Рассчитать ошибку аппроксимации*.
-   * Имя_поля|Нижняя граница — нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html). Поле присутствует, если установлен флаг *Рассчитать доверительный интервал*.
-   * Имя_поля|Верхняя граница — верхняя граница доверительного интервала. Поле присутствует, если установлен флаг *Рассчитать доверительный интервал*.
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg)  **Коэффициенты модели** — таблица данных, которая содержит следующие коэффициенты:
+   * Field_name|Error of [approximation](https://wiki.loginom.ru/articles/approximation.html) means model residuals, deviations between the forecast and actual series values. The field is available if the following flag is selected:*Calculate the approximation error*.
+   * Field_name|Lower bound denotes the lower bound of the [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html). The field is available if the following flag is selected: *Calculate confidence interval*.
+   * Field_name|Upper bound denotes the lower bound of the confidence interval. The field is available if the following flag is selected: *Calculate confidence interval*.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg)  **Model coefficients** denote the data table that contains the following coefficients:
    * Type
    * Parameter
    * [Lag](https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80)
@@ -33,34 +33,34 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
    * [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html)
    * [T-statistics](https://wiki.loginom.ru/articles/students-distribution.html)
    * [P-value](https://wiki.loginom.ru/articles/p-value.html)
-* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Сводка** — переменные:
-   * Всего примеров (TotalSamples)
-   * Всего отобранных примеров (TotalSelectedSamples)
-   * Примеров в [обучающем множестве](https://wiki.loginom.ru/articles/training-set.html) (TrainSamples)
-   * Среднеквадратическая ошибка на обучающем множестве (TrainRMSError)
-   * Средняя абсолютная ошибка на обучающем множестве (TrainAvgError)
-   * Средняя относительная ошибка на обучающем множестве (TrainAvgRelError)
-   * Информационный критерий Акаике ([AIC](https://wiki.loginom.ru/articles/aic.html))
-   * Информационный критерий Акаике скорректированный ([AICc](https://wiki.loginom.ru/articles/aicc.html))
-   * Информационный критерий Байеса ([BIC](https://wiki.loginom.ru/articles/bic.html))
-   * Коэффициент детерминации ([R2](https://wiki.loginom.ru/articles/coefficient-of-determination.html))
-   * Скорректированный коэффициент детерминации ([AdjustedR2](https://wiki.loginom.ru/articles/coefficient-determ-adj.html))
-   * Число [степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html) модели (ModelDF)
-   * Число степеней свободы остатков (ResDF)
+* ![ ](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Summary** denotes variables:
+   * Total samples (TotalSamples)
+   * Total selected samples (TotalSelectedSamples)
+   * Samples in [training set](https://wiki.loginom.ru/articles/training-set.html) (TrainSamples)
+   * The root-mean-square error of the training set (TrainRMSError)
+   * The mean absolute error of the training set (TrainAvgError)
+   * The mean relative error of the training set (TrainAvgRelError)
+   * Akaike information criterion ([AIC](https://wiki.loginom.ru/articles/aic.html))
+   * Akaike information criterion corrected ([AICc](https://wiki.loginom.ru/articles/aicc.html))
+   * Bayesian information criterion ([BIC](https://wiki.loginom.ru/articles/bic.html))
+   * Determination coefficient ([R2](https://wiki.loginom.ru/articles/coefficient-of-determination.html))
+   * Adjusted determination coefficient ([AdjustedR2](https://wiki.loginom.ru/articles/coefficient-determ-adj.html))
+   * Number of [the model degrees of freedom](https://wiki.loginom.ru/articles/degrees-of-freedom.html) (ModelDF)
+   * Number of the residues degrees of freedom (ResDF)
 
 ## Wizard
 
-### Step 1. Настройка входных столбцов
+### Step 1. Configure Input Columns
 
-На первом этапе необходимо задать [назначение](../../data/datasetfieldoptions.md) столбцов входного набора данных. Для каждого из столбцов можно выбрать один из вариантов назначения:
+It is required to set the [usage type](../../data/datasetfieldoptions.md) of the input data set columns at the first stage. It is required to select one of the following usage types for each of the columns:
 
-* ![ ](../../images/icons/usage-types/forecast_default.svg) **Прогнозируемое** — для данных, соответствующих временному ряду.
-* ![ ](../../images/icons/usage-types/active_default.svg) **Входное** — для данных, соответствующих дополнительным входным факторам.
-* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Не задано** — для данных, не участвующих в построении модели. Устанавливается по умолчанию для остальных столбцов.
+* ![ ](../../images/icons/usage-types/forecast_default.svg) **Forecast**: for the data mapping the time series.
+* ![ ](../../images/icons/usage-types/active_default.svg) **Input**: for the data mapping the additional input factors.
+* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Unspecified**: for the data that do not take part in the model construction process. It is set for other columns by default.
 
-### Step 2. Настройки нормализации
+### Step 2. Normalization Settings
 
-Для моделей ARIMA [нормализация](../normalization/README.md) для прогнозируемых данных обычно не требуется. Рекомендуется не применять нормализацию для данных временного ряда, для данных внешних факторов не менять настройки по умолчанию.
+[Normalization](../normalization/README.md) is not usually required for the forecast data for the ARIMA models. It is recommended not to use normalization for the time series data, not to change default settings for the exogenous factors data.
 
 ### Step 3. ARIMAX Settings
 
