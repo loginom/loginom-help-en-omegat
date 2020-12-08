@@ -3228,6 +3228,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Вспомогательные данные&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192631Z" creationid="Марианна" creationdate="20201208T192631Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Supplementary data&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Входной источник данных&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192518Z" creationid="Марианна" creationdate="20201208T192518Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Input data source&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Популярные наборы&lt;x4/&gt; (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103530Z" creationid="Марианна" creationdate="20201208T103530Z">
@@ -21978,6 +21994,26 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083714Z" creationid="Марианна" creationdate="20201102T083714Z">
         <seg>There are no &lt;x1/&gt;require.main&lt;x2/&gt;, &lt;x3/&gt;require.paths&lt;x4/&gt; and &lt;x5/&gt;module.uri&lt;x6/&gt; optional properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необязательный.&lt;x5/&gt;
+Порт ожидает набор данных со столбцами идентификаторов и элементов транзакций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192613Z" creationid="Марианна" creationdate="20201208T192613Z">
+        <seg>Optional.&lt;x5/&gt;
+The port waits for the data set with identifier columns and transaction items.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необязательный.&lt;x5/&gt;
+Принимает дополнительные элементы транзакций, которые возможно учитывать при расчете ассоциативных правил.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192817Z" creationid="Марианна" creationdate="20201208T192817Z">
+        <seg>Optional.&lt;x5/&gt;
+It accepts supplementary transaction items that can be taken into account when calculating association rules.</seg>
       </tuv>
     </tu>
     <tu>
