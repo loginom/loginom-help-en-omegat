@@ -17876,6 +17876,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для моделей ARIMA &lt;x1/&gt;нормализация&lt;x2/&gt; для прогнозируемых данных обычно не требуется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071208Z" creationid="Марианна" creationdate="20201208T071208Z">
+        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; is not usually required for the forecast data for the ARIMA models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки видимости узла необходимо установить соответствующий &lt;x9/&gt;модификатор доступа&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102937Z" creationid="Марианна" creationdate="20200919T102937Z">
@@ -21522,6 +21530,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T175113Z" creationid="Марианна" creationdate="20201109T054831Z">
         <seg>Configure output columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки нормализации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071108Z" creationid="Марианна" creationdate="20201208T071108Z">
+        <seg>Normalization Settings</seg>
       </tuv>
     </tu>
     <tu>
