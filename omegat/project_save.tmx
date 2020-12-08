@@ -24142,6 +24142,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поскольку вспомогательные данные чаще представляются в источниках данных как дополнительные атрибуты транзакций, обработчик имеет отдельный вход для их приема.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192231Z" creationid="Марианна" creationdate="20201208T192231Z">
+        <seg>As the supplementary data is more frequently represented in the data sources as additional transaction attributes, the handler has a separate input to receive it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поскольку первый порт присутствует в узле &lt;x1/&gt;JavaScript&lt;x2/&gt; по умолчанию, для доступа к его данным существует отдельный объект &lt;x3/&gt;InputTable&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144113Z" creationid="Марианна" creationdate="20201102T144113Z">
