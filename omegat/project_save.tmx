@@ -8181,6 +8181,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимальное число следствий&lt;x2/&gt; — максимальное количество элементов в наборе, представляющем следствие правила.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T201241Z" creationid="Марианна" creationdate="20201208T201241Z">
+        <seg>&lt;x1/&gt;Maximum number of consequences&lt;x2/&gt; denotes the maximum count of items in the set that represents the rule consequence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимальное число точек каждого ряда&lt;x2/&gt; — для построения прогноза будет использовано указанное число последних точек ряда опорных данных, если задать значение &lt;x3/&gt;0&lt;x4/&gt;, будут использованы все точки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T102213Z" creationid="Марианна" creationdate="20201127T102213Z">
