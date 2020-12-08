@@ -2924,6 +2924,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Ассоциативные правила</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T074251Z" creationid="Марианна" creationdate="20201208T074251Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Association Rules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100920Z" creationid="Марианна" creationdate="20201011T100920Z">
