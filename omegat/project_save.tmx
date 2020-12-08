@@ -26514,6 +26514,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T194131Z" creationid="Марианна" creationdate="20201208T194131Z">
+        <seg>It contains transactions of the input data set in which the detected rules are effectively implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Соединение таблиц данных на основе связи по ключевым полям — аналог операции &lt;x1/&gt;LEFT JOIN&lt;x2/&gt; в SQL.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T090514Z" creationid="Марианна" creationdate="20201118T090514Z">
