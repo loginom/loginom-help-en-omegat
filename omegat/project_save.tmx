@@ -27906,6 +27906,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Фактически вспомогательные данные рассматриваются алгоритмом как еще одни элементы транзакций, и обозначение "вспомогательные" они имеют лишь в контексте аналитической задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T192021Z" creationid="Марианна" creationdate="20201208T192021Z">
+        <seg>Actually, the supplementary data is considered by the algorithm as one more transaction item, and its "supplementary" context is used only when dealing with analytical tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Фактом: &lt;x7/&gt;Сумма продажи (Сумма)&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T065514Z" creationid="Марианна" creationdate="20201023T065455Z">
