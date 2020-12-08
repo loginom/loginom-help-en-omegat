@@ -19188,6 +19188,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задаются условия, по которым определяются &lt;x1/&gt;частые предметные наборы&lt;x2/&gt; — наборы элементов, наиболее часто встречающиеся в транзакциях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195123Z" creationid="Марианна" creationdate="20201208T195123Z">
+        <seg>It is required to determine conditions according to which &lt;x1/&gt;frequent object itemsets&lt;x2/&gt; are defined, namely, the itemsets that are the most frequently occurring in transactions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задний план.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132327Z" creationid="Марианна" creationdate="20200819T132327Z">
