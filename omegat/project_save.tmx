@@ -25582,6 +25582,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рекомендуется не применять нормализацию для данных временного ряда, для данных внешних факторов не менять настройки по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T071427Z" creationid="Марианна" creationdate="20201208T071427Z">
+        <seg>It is recommended not to use normalization for the time series data, not to change default settings for the exogenous factors data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рекомендуется применять &lt;x1/&gt;Кэширование&lt;x2/&gt; при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: &lt;x3/&gt;Random()&lt;x4/&gt;, &lt;x5/&gt;Today()&lt;x6/&gt; и других.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062240Z" creationid="Марианна" creationdate="20201014T062240Z">
