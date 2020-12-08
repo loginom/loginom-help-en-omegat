@@ -19664,6 +19664,30 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Информационный критерий Акаике (&lt;x1/&gt;AIC&lt;x2/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065247Z" creationid="Марианна" creationdate="20201208T065247Z">
+        <seg>Akaike information criterion (&lt;x1/&gt;AIC&lt;x2/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Информационный критерий Акаике скорректированный (&lt;x1/&gt;AICc&lt;x2/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065300Z" creationid="Марианна" creationdate="20201208T065300Z">
+        <seg>Akaike information criterion corrected (&lt;x1/&gt;AICc&lt;x2/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Информационный критерий Байеса (&lt;x1/&gt;BIC&lt;x2/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065311Z" creationid="Марианна" creationdate="20201208T065311Z">
+        <seg>Bayesian information criterion (&lt;x1/&gt;BIC&lt;x2/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Иными словами, вычисляется корреляция между временным рядом и его копией, сдвинутой на один или несколько временных отсчетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103336Z" creationid="Марианна" creationdate="20201010T163918Z">
@@ -20404,6 +20428,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144705Z" creationid="Марианна" creationdate="20201207T144705Z">
         <seg>Coefficient</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Коэффициент детерминации (&lt;x1/&gt;R2&lt;x2/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065322Z" creationid="Марианна" creationdate="20201208T065322Z">
+        <seg>Determination coefficient (&lt;x1/&gt;R2&lt;x2/&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -25750,6 +25782,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Скорректированный коэффициент детерминации (&lt;x1/&gt;AdjustedR2&lt;x2/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065336Z" creationid="Марианна" creationdate="20201208T065336Z">
+        <seg>Adjusted determination coefficient (&lt;x1/&gt;AdjustedR2&lt;x2/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
@@ -26290,6 +26330,30 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T160842Z" creationid="Марианна" creationdate="20201006T160842Z">
         <seg>The search among the values not found by exact match is performed by &lt;x1/&gt;regular expressions&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Среднеквадратическая ошибка на обучающем множестве (TrainRMSError)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065150Z" creationid="Марианна" creationdate="20201208T065150Z">
+        <seg>The root-mean-square error of the training set (TrainRMSError)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Средняя абсолютная ошибка на обучающем множестве (TrainAvgError)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065210Z" creationid="Марианна" creationdate="20201208T065210Z">
+        <seg>The mean absolute error of the training set (TrainAvgError)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Средняя относительная ошибка на обучающем множестве (TrainAvgRelError)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T065226Z" creationid="Марианна" creationdate="20201208T065226Z">
+        <seg>The mean relative error of the training set (TrainAvgRelError)</seg>
       </tuv>
     </tu>
     <tu>
