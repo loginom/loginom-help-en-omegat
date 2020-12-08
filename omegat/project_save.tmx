@@ -9653,6 +9653,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок интегрирования&lt;x2/&gt; — задает порядок (d) разностей ряда при необходимости привести исходный ряд к &lt;x3/&gt;стационарному&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072404Z" creationid="Марианна" creationdate="20201208T072404Z">
+        <seg>&lt;x1/&gt;Integration order&lt;x2/&gt; sets the order of (d) series differences if it is required to set the source series to the &lt;x3/&gt;stationary&lt;x4/&gt; one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок связей при присоединении.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T101545Z" creationid="Марианна" creationdate="20201118T101545Z">
@@ -22366,6 +22374,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Определяет  число предыдущих значений ряда, учитываемых при построении модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072125Z" creationid="Марианна" creationdate="20201208T072125Z">
+        <seg>It sets the number of the previous series values that are considered when constructing the model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определяют настройки для работы с внешними источниками и приемниками данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
@@ -27462,6 +27478,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T071525Z" creationid="Марианна" creationdate="20201111T170037Z">
         <seg>Filtering Conditions in the Row Filter Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Устанавливается значение целого типа больше 0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072156Z" creationid="Марианна" creationdate="20201208T072156Z">
+        <seg>The integer value more than 0 is set.</seg>
       </tuv>
     </tu>
     <tu>
