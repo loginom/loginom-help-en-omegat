@@ -66,10 +66,10 @@ It is required to set the [usage type](../../data/datasetfieldoptions.md) of the
 
 #### ARIMAX Model Structure
 
-* **Определить структуру автоматически** — при установке данного флага активируется автоподбор параметров модели. Параметры в процессе вычисления подбираются таким образом, чтобы минимизировать значение *AIC*.
-* **Порядок AR части** — задает порядок (р) авторегрессионной части. Определяет  число предыдущих значений ряда, учитываемых при построении модели. Устанавливается значение целого типа больше 0.
-* **Порядок интегрирования** — задает порядок (d) разностей ряда при необходимости привести исходный ряд к [стационарному](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C). Устанавливается значение целого типа больше 0.
-* **Порядок MA части** — задает порядок (q) части скользящего среднего. Определяет  размер скользящего окна для сглаживания исходного ряда. Устанавливается значение целого типа больше 0.
+* **Auto detect structure**: when this flag is selected, automatic selection of the model parameters is enabled. The parameters are selected in the calculation process to minimize the *AIC* value.
+* **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when constructing the model. The integer value more than 0 is set.
+* **Integration order** sets the order of (d) series differences if it is required to set the source series to the [stationary](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C) one. The integer value more than 0 is set.
+* **MA part order** sets the order of (q) part of moving average. It defines the lag size for the source series smoothing. The integer value more than 0 is set.
 * **Включить расчет сезонности** — установка данного флага позволяет задать параметры для [сезонной составляющей](https://wiki.loginom.ru/articles/seasonal-component.html):
    * **Порядок сезонной AR части** — устанавливает значение целого типа от 0 и выше.
    * **Порядок сезонного  интегрирования** — устанавливает значение целого типа от 0 и выше.
