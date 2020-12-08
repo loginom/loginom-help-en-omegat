@@ -25110,6 +25110,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примером такого правила служит утверждение, что покупатель, приобретающий 'Хлеб' (&lt;x5/&gt;условие правила&lt;x6/&gt;), купит и 'Молоко' (&lt;x7/&gt;следствие правила&lt;x8/&gt;) с вероятностью 75%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T102713Z" creationid="Марианна" creationdate="20201208T102713Z">
+        <seg>To provide an example of such rule, it is observed that a consumer who buys "Bread" (&lt;x5/&gt;condition of rule&lt;x6/&gt;), will buy "Milk" as well (&lt;x7/&gt;consequence of rule&lt;x8/&gt;) with a probability of 75%.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060551Z" creationid="Марианна" creationdate="20201029T060551Z">
