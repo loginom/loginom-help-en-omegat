@@ -17364,6 +17364,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выявленные ассоциативные правила и их показатели: &lt;x5/&gt;поддержка&lt;x6/&gt;, &lt;x7/&gt;достоверность&lt;x8/&gt;, &lt;x9/&gt;лифт&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103954Z" creationid="Марианна" creationdate="20201208T103954Z">
+        <seg>Detected association rules and their parameters: &lt;x5/&gt;support&lt;x6/&gt;, &lt;x7/&gt;confidence&lt;x8/&gt;, &lt;x9/&gt;lift&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Где: &lt;x1/&gt;VAR1&lt;x2/&gt; ... &lt;x3/&gt;VAR5&lt;x4/&gt; — имена управляющих переменных, принятые узлом в качестве входных параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T065729Z" creationid="Марианна" creationdate="20201113T065729Z">
@@ -19508,6 +19516,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T102844Z" creationid="Марианна" creationdate="20201208T102844Z">
         <seg>Transaction identifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Идентификаторы и элементы транзакций могут быть представлены только &lt;x5/&gt;дискретными&lt;x6/&gt; данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T103843Z" creationid="Марианна" creationdate="20201208T103843Z">
+        <seg>Identifiers and transaction items can be represented only by &lt;x5/&gt;discrete&lt;x6/&gt; data.</seg>
       </tuv>
     </tu>
     <tu>
