@@ -7581,6 +7581,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исключать элементы с поддержкой, больше максимальной&lt;x2/&gt; — элементы, которые слишком часто встречаются в транзакциях, как правило, не несут информации о закономерностях сочетания с ними других элементов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195636Z" creationid="Марианна" creationdate="20201208T195636Z">
+        <seg>&lt;x1/&gt;Exclude the items with the support exceeding the maximum one&lt;x2/&gt; denotes the items that occur too frequently in transactions and, as a rule, do not contain information on principles of combination with other items.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исключить&lt;x2/&gt; — пустые строки не будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185812Z" creationid="Марианна" creationdate="20200825T185812Z">
@@ -8145,6 +8153,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185235Z" creationid="Марианна" creationdate="20200810T183157Z">
         <seg>&lt;x1/&gt;Local settings&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимальная поддержка, %&lt;x2/&gt; — максимальная частота, с которой элемент встречается в транзакциях (значение от 0 до 100).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195757Z" creationid="Марианна" creationdate="20201208T195757Z">
+        <seg>&lt;x1/&gt;Maximum support, %&lt;x2/&gt; denotes the maximum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).</seg>
       </tuv>
     </tu>
     <tu>
@@ -18096,6 +18112,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203521Z" creationid="Марианна" creationdate="20200829T203521Z">
         <seg>To exclude the item from the list of selected items, it is required to perform the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для их определения и исключения из частых наборов задается:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T195713Z" creationid="Марианна" creationdate="20201208T195713Z">
+        <seg>The following parameters are set for their determination and exclusion:</seg>
       </tuv>
     </tu>
     <tu>
