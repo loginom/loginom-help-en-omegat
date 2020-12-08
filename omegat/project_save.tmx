@@ -21646,6 +21646,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наряду с анализом основных данных транзакций возможно учитывать и вспомогательные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T190944Z" creationid="Марианна" creationdate="20201208T190944Z">
+        <seg>Alongside with analysis of the main transaction data, it is possible to take into account the supplementary one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наряду с наборами данных, представляющих из себя таблицу данных, в Studio объектом, используемым в вычислениях, может быть переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
