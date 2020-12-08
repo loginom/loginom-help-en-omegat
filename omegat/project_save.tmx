@@ -4526,8 +4526,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Горизонт прогноза&lt;x3/&gt;&lt;x4/&gt; — задает количество значений, которые будут спрогнозированы и добавлены в выходной набор в конце исходного временного ряда.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T073227Z" creationid="Марианна" creationdate="20201208T073227Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Forecast horizon&lt;x3/&gt;&lt;x4/&gt; sets the number of values that will be forecast and added to the output data set in the end of the source time series.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T073517Z" creationid="Марианна" creationdate="20201208T073227Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Forecast horizon&lt;x3/&gt;&lt;x4/&gt; sets the number of the values that will be forecast and added to the output data set at the end of the source time series.</seg>
       </tuv>
     </tu>
     <tu>
