@@ -5757,6 +5757,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Включить константу в модель&lt;x2/&gt; — значение логического типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T073104Z" creationid="Марианна" creationdate="20201208T073104Z">
+        <seg>&lt;x1/&gt;Include intercept into the model&lt;x2/&gt; means the boolean value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Включить расчет сезонности&lt;x2/&gt; — установка данного флага позволяет задать параметры для &lt;x3/&gt;сезонной составляющей&lt;x4/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T072755Z" creationid="Марианна" creationdate="20201208T072755Z">
@@ -9269,6 +9277,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Период сезонной составляющей&lt;x2/&gt; — устанавливает положительное значение целого типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T073025Z" creationid="Марианна" creationdate="20201208T073025Z">
+        <seg>&lt;x1/&gt;Period of the seasonal component&lt;x2/&gt; sets the posistive integer value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Период сезонности&lt;x2/&gt; — выбор длины периода сезонности, если задать пункт &lt;x3/&gt;нет сезонности&lt;x4/&gt;, откроются опции для настройки прогноза по числу точек временного ряда, а настройки по числу периодов заблокируются.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201125T082724Z" creationid="Марианна" creationdate="20201124T115631Z">
@@ -9685,10 +9701,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок сезонного  интегрирования&lt;x2/&gt; — устанавливает значение целого типа от 0 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072901Z" creationid="Марианна" creationdate="20201208T072901Z">
+        <seg>&lt;x1/&gt;Seasonal integration order&lt;x2/&gt; sets the integer value from 0 and higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок сезонной AR части&lt;x2/&gt; — устанавливает значение целого типа от 0 и выше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T072828Z" creationid="Марианна" creationdate="20201208T072828Z">
         <seg>&lt;x1/&gt;Seasonal AR part order&lt;x2/&gt; sets the integer value from 0 and higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок сезонной MA части&lt;x2/&gt; — устанавливает значение целого типа от 0 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201208T072954Z" creationid="Марианна" creationdate="20201208T072954Z">
+        <seg>&lt;x1/&gt;Seasonal MA part order&lt;x2/&gt; sets the integer value from 0 and higher.</seg>
       </tuv>
     </tu>
     <tu>
