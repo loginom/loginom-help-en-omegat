@@ -15486,6 +15486,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм автоматически подбирает количество кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201209T140350Z" creationid="Марианна" creationdate="20201209T140350Z">
+        <seg>The algorithm selects the count of clusters automatically.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм ищет точное совпадение исходных данных со значениями данного поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T055742Z" creationid="Марианна" creationdate="20201116T055742Z">
