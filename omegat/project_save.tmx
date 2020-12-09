@@ -16142,6 +16142,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В основе кластеризации транзакций лежит &lt;x1/&gt;алгоритм CLOPE&lt;x2/&gt;, применение которого позволяет обрабатывать огромные массивы &lt;x3/&gt;транзакционных данных&lt;x4/&gt;: чеки в супермаркетах, логи посещений веб-ресурсов и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201209T135737Z" creationid="Марианна" creationdate="20201209T135509Z">
+        <seg>Clustering is based on the &lt;x1/&gt;CLOPE algorithm&lt;x2/&gt;. Its usage enables to process huge arrays of &lt;x3/&gt;transactional data&lt;x4/&gt;: checks in supermarkets, tracking data of web resources, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T121654Z" creationid="Марианна" creationdate="20200718T121459Z">
