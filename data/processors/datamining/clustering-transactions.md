@@ -2,9 +2,9 @@
 
 ## Description
 
-В основе кластеризации транзакций лежит [алгоритм CLOPE](https://basegroup.ru/community/articles/clope), применение которого позволяет обрабатывать огромные массивы [транзакционных данных](https://wiki.loginom.ru/articles/transaction.html): чеки в супермаркетах, логи посещений веб-ресурсов и другие. Задача состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.
+Clustering is based on the [CLOPE algorithm](https://basegroup.ru/community/articles/clope). Its usage enables to process huge arrays of [transactional data](https://wiki.loginom.ru/articles/transaction.html): checks in supermarkets, tracking data of web resources, etc. It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed to different clusters.
 
-Алгоритм автоматически подбирает количество кластеров. Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.
+The algorithm selects the count of clusters automatically. Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.
 
 To get resulting data sets, it is required to provide preliminary [training of the handler](../../scenario/training-processors.md).
 
