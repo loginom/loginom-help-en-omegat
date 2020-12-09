@@ -19302,8 +19302,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Задача состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201209T140230Z" creationid="Марианна" creationdate="20201209T140230Z">
-        <seg>It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be place to different clusters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201209T140305Z" creationid="Марианна" creationdate="20201209T140230Z">
+        <seg>It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed to different clusters.</seg>
       </tuv>
     </tu>
     <tu>
