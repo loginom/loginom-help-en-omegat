@@ -8085,6 +8085,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Критерий Вальда&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135442Z" creationid="Марианна" creationdate="20201210T135442Z">
+        <seg>&lt;x1/&gt;Wald Criterion&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192140Z" creationid="Марианна" creationdate="20200810T192140Z">
@@ -27702,6 +27710,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113153Z" creationid="Марианна" creationdate="20200713T111357Z">
         <seg>The References are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Статистическая характеристика распределения случайной величины, показывающая среднюю степень разброса значений величины относительно &lt;x1/&gt;математического ожидания&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135427Z" creationid="Марианна" creationdate="20201210T135427Z">
+        <seg>Statistical characteristic of random distribution that shows the average degree of spread in values relative to &lt;x1/&gt;statistical expectation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
