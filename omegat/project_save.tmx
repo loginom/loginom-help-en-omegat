@@ -8031,8 +8031,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент отталкивания&lt;x2/&gt; — с его помощью регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T083029Z" creationid="Марианна" creationdate="20201210T082805Z">
-        <seg>&lt;x1/&gt;Repulsion coefficient&lt;x2/&gt;: it enables to control the level of transactions similarity inside the cluster and consequently the final count of clusters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T083706Z" creationid="Марианна" creationdate="20201210T082805Z">
+        <seg>&lt;x1/&gt;Repulsion coefficient&lt;x2/&gt;: it enables to control the level of transactions similarity inside the cluster and consequently the final number of clusters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8961,6 +8961,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T162119Z" creationid="Марианна" creationdate="20201013T162119Z">
         <seg>&lt;x1/&gt;Limit output factors number&lt;x2/&gt;: an optional flag activation of which enables to set the limiting number of output factors in the corresponding field of the area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ограничить число кластеров&lt;x2/&gt; — предполагает возможность вручную задать наибольшее количество кластеров, которые может выдать в результате алгоритм.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T083826Z" creationid="Марианна" creationdate="20201210T083641Z">
+        <seg>&lt;x1/&gt;Limit the number of clusters&lt;x2/&gt; enables to set the highest number of clusters that can be finally provided by the algorithm manually.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15560,8 +15568,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Алгоритм автоматически подбирает количество кластеров.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201209T140350Z" creationid="Марианна" creationdate="20201209T140350Z">
-        <seg>The algorithm selects the count of clusters automatically.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T083649Z" creationid="Марианна" creationdate="20201209T140350Z">
+        <seg>The algorithm selects the number of clusters automatically.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15592,8 +15600,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T074848Z" creationid="Марианна" creationdate="20201210T074848Z">
-        <seg>An analyst can have influence on the result by means of repulsion coefficient and determination of the maximum count of clusters or iterations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T083657Z" creationid="Марианна" creationdate="20201210T074848Z">
+        <seg>An analyst can have influence on the result by means of repulsion coefficient and determination of the maximum number of clusters or iterations.</seg>
       </tuv>
     </tu>
     <tu>
