@@ -3252,6 +3252,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Параметры кластеров.&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082049Z" creationid="Марианна" creationdate="20201210T082049Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Cluster parameters.&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Популярные наборы&lt;x4/&gt; (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103530Z" creationid="Марианна" creationdate="20201208T103530Z">
