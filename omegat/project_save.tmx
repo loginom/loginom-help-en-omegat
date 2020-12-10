@@ -22770,6 +22770,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик производит кластеризацию объектов на основе алгоритмов &lt;x1/&gt;k-means и g-means&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T130237Z" creationid="Марианна" creationdate="20201210T130237Z">
+        <seg>The handler performs clustering of objects on the basis of &lt;x1/&gt;k-means and g-means&lt;x2/&gt; algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик создает сводную таблицу на основе исходного набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T172607Z" creationid="Марианна" creationdate="20201022T172607Z">
@@ -22830,6 +22838,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083840Z" creationid="Марианна" creationdate="20201102T083840Z">
         <seg>The module object has &lt;x1/&gt;parent&lt;x2/&gt;, &lt;x3/&gt;loaded&lt;x4/&gt; and &lt;x5/&gt;filename&lt;x6/&gt; (as in NodeJS) properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Объекты внутри кластера должны быть похожими друг на друга и отличаться от других, которые вошли в другие кластеры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T130156Z" creationid="Марианна" creationdate="20201210T130156Z">
+        <seg>Objects inside the cluster must be similar to each other and differ from the other ones not included into other clusters.</seg>
       </tuv>
     </tu>
     <tu>
