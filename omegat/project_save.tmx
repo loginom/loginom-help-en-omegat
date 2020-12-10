@@ -5020,6 +5020,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;P-значение&lt;x2/&gt; критерия Вальда</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135646Z" creationid="Марианна" creationdate="20201210T135646Z">
+        <seg>&lt;x1/&gt;P-value&lt;x2/&gt; of Wald criterion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183406Z" creationid="Марианна" creationdate="20200810T183406Z">
