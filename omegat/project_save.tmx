@@ -15776,8 +15776,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В алгоритме первый проход по таблице транзакций служит для построения начального разбиения, определяемого функцией стоимости, после чего для повышения качества кластеризации и оптимизации функции дополнительно сканируются таблицы несколько раз, пока изменения в разбиении не прекратятся.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T084537Z" creationid="Марианна" creationdate="20201210T084537Z">
-        <seg>The first transaction table run in the algorithm is required for the first clustering defined by the cost function. Then, to increase the clustering quality and optimise the function, the tables are scanned once again several times, until changes in clustering are not stopped.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T085039Z" creationid="Марианна" creationdate="20201210T084537Z">
+        <seg>The first transaction table check in the algorithm is required for the first clustering defined by the cost function. Then, to improve the clustering quality and optimize the function, the tables are additionally scanned once again several times, until changes in clustering are stopped.</seg>
       </tuv>
     </tu>
     <tu>
