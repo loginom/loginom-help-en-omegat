@@ -8789,6 +8789,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Номер кластера&lt;x2/&gt; — перечислены номера сформированных кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132341Z" creationid="Марианна" creationdate="20201210T132317Z">
+        <seg>&lt;x1/&gt;Cluster number&lt;x2/&gt;: numbers of the generated clusters are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нормализация дискретных данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065241Z" creationid="Марианна" creationdate="20200812T065241Z">
@@ -22556,8 +22564,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Номеров кластеров — перечислены номера сформированных кластеров.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T082129Z" creationid="Марианна" creationdate="20201210T082129Z">
-        <seg>Cluster numbers: the numbers of the generated clusters are listed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132334Z" creationid="Марианна" creationdate="20201210T082129Z">
+        <seg>Cluster numbers: numbers of the generated clusters are listed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26410,6 +26418,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результат — таблица, количество записей которой соответствует числу кластеров, т.е. данные сгруппированы по кластерам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132213Z" creationid="Марианна" creationdate="20201210T132213Z">
+        <seg>Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Результаты можно просмотреть в самой системе или экспортировать в сторонние приемники данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090740Z" creationid="Марианна" creationdate="20200715T090740Z">
@@ -27190,6 +27206,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T053926Z" creationid="Марианна" creationdate="20201109T053926Z">
         <seg>Composition and parameters of the output data set fields are set in the node wizard, and they can be changed during the code execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Состоит из полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132233Z" creationid="Марианна" creationdate="20201210T132233Z">
+        <seg>It consists of the following fields:</seg>
       </tuv>
     </tu>
     <tu>
