@@ -21200,6 +21200,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Коэффициенты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134813Z" creationid="Марианна" creationdate="20201210T134813Z">
+        <seg>Coefficients</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Коэффициенты регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T134217Z" creationid="Марианна" creationdate="20201210T134217Z">
@@ -27546,6 +27554,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список уникальных значений полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134756Z" creationid="Марианна" creationdate="20201210T134756Z">
+        <seg>List of unique values of fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список функций</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T175912Z" creationid="Марианна" creationdate="20201005T175912Z">
@@ -28602,6 +28618,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144654Z" creationid="Марианна" creationdate="20201207T144654Z">
         <seg>Unique value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уникальные значения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134507Z" creationid="Марианна" creationdate="20201210T134507Z">
+        <seg>Unique values</seg>
       </tuv>
     </tu>
     <tu>
