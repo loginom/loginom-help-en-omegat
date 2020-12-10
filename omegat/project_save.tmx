@@ -9189,6 +9189,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отношение шансов&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135756Z" creationid="Марианна" creationdate="20201210T135756Z">
+        <seg>&lt;x1/&gt;Odds ratio&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отображать завершенные процессы&lt;x2/&gt; — изменяет отображение процессов на панели:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073653Z" creationid="Марианна" creationdate="20200817T073653Z">
@@ -16948,10 +16956,34 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Величина, используемая для оценки &lt;x1/&gt;точности&lt;x2/&gt; критерия Вальда</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135746Z" creationid="Марианна" creationdate="20201210T135746Z">
+        <seg>The value used for assessment of Wald criterion &lt;x1/&gt;accuracy&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Версия пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084218Z" creationid="Марианна" creationdate="20201009T084218Z">
         <seg>Package version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Верхняя граница ДИ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135827Z" creationid="Марианна" creationdate="20201210T135827Z">
+        <seg>CI upper bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Верхняя граница доверительного интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135908Z" creationid="Марианна" creationdate="20201210T135908Z">
+        <seg>Upper bound of confidence interval</seg>
       </tuv>
     </tu>
     <tu>
@@ -22638,6 +22670,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T220100Z" creationid="Марианна" creationdate="20200829T220100Z">
         <seg>The area displaying the hierarchical structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the imported table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нижняя граница &lt;x1/&gt;доверительного интервала&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135852Z" creationid="Марианна" creationdate="20201210T135852Z">
+        <seg>Lower bound of &lt;x1/&gt;confidence interval&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нижняя граница ДИ</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T135813Z" creationid="Марианна" creationdate="20201210T135813Z">
+        <seg>CI lower bound</seg>
       </tuv>
     </tu>
     <tu>
