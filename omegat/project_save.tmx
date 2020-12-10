@@ -16916,6 +16916,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ввести нужное количество кластеров (должно быть больше 2).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133424Z" creationid="Марианна" creationdate="20201210T133424Z">
+        <seg>Enter the required number of clusters (must exceed 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Версия пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084218Z" creationid="Марианна" creationdate="20201009T084218Z">
@@ -21542,6 +21550,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Минимальное число кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133506Z" creationid="Марианна" creationdate="20201210T133506Z">
+        <seg>The minimum number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Минуты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083600Z" creationid="Марианна" creationdate="20200918T083600Z">
@@ -24306,6 +24322,30 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию — 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133441Z" creationid="Марианна" creationdate="20201210T133441Z">
+        <seg>By default — 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию — 10.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133448Z" creationid="Марианна" creationdate="20201210T133448Z">
+        <seg>By default — 10.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию — 3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133433Z" creationid="Марианна" creationdate="20201210T133433Z">
+        <seg>By default — 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125556Z" creationid="Марианна" creationdate="20200819T125556Z">
@@ -25310,6 +25350,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T054734Z" creationid="Марианна" creationdate="20201119T054734Z">
         <seg>When setting the user format, it is possible to use a combination of user-defined text and pre-defined markers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При заданном числе кластеров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133204Z" creationid="Марианна" creationdate="20201210T133204Z">
+        <seg>In the case of the set number of clusters:</seg>
       </tuv>
     </tu>
     <tu>
@@ -26990,6 +27038,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061141Z" creationid="Марианна" creationdate="20201109T061141Z">
         <seg>Also refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Снять галочку &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133402Z" creationid="Марианна" creationdate="20201210T133402Z">
+        <seg>Uncheck &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
