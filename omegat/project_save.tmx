@@ -12759,6 +12759,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Data Mining</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134119Z" creationid="Марианна" creationdate="20201210T134119Z">
+        <seg>Data Mining</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DataKind</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083333Z" creationid="Марианна" creationdate="20201030T083333Z">
