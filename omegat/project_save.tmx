@@ -9789,6 +9789,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поля для кластеризации.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082515Z" creationid="Марианна" creationdate="20201210T082515Z">
+        <seg>&lt;x1/&gt;Fields for clustering.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля/переменные&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T133425Z" creationid="Марианна" creationdate="20201015T062317Z">
@@ -18428,6 +18436,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для полей, участвующих в обработке, выставить назначения "Транзакция" и "Элемент".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082606Z" creationid="Марианна" creationdate="20201210T082606Z">
+        <seg>It is required to set the "Transaction" and "Item" usage types for the fields that are included into processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для получения информации из базы данных используется отдельный обработчик &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102731Z" creationid="Марианна" creationdate="20200711T104436Z">
@@ -18504,6 +18520,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T195206Z" creationid="Марианна" creationdate="20201023T195206Z">
         <seg>As an example, let's use three aggregation functions: sum, number of records and mean.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для прочих полей оставить "Не задано".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082739Z" creationid="Марианна" creationdate="20201210T082739Z">
+        <seg>"Unspecified" is preserved in other fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21490,6 +21514,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T102828Z" creationid="Марианна" creationdate="20200827T195507Z">
         <seg>This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and facts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На данном этапе необходимо задать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082447Z" creationid="Марианна" creationdate="20201210T082447Z">
+        <seg>It is required to set as follows at this stage:</seg>
       </tuv>
     </tu>
     <tu>
