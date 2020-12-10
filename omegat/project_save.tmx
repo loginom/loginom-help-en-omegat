@@ -8029,6 +8029,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент отталкивания&lt;x2/&gt; — с его помощью регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082805Z" creationid="Марианна" creationdate="20201210T082805Z">
+        <seg>&lt;x1/&gt;Repulsion coefficient&lt;x2/&gt;: .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициенты регрессии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055807Z" creationid="Марианна" creationdate="20200812T055807Z">
