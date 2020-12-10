@@ -24778,6 +24778,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Преобразовать к требуемому виду (с полями Транзакция и Элемент) обычный набор данных, состоящий из столбцов с измеренными свойствами объектов всегда можно при помощи узлов-обработчиков Loginom, таких как &lt;x1/&gt;Свёртка столбцов&lt;x2/&gt; и &lt;x3/&gt;Калькулятор&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T081101Z" creationid="Марианна" creationdate="20201210T081101Z">
+        <seg>It is always possible to convert the standard data set that consists of columns with measured object properties to the required kind (with the "Transaction" and "Item" fields) using such Loginom handling nodes as &lt;x1/&gt;Unpivoting&lt;x2/&gt; and &lt;x3/&gt;Calculator&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Преобразуем исходную таблицу со следующими параметрами: колонки - &lt;x1/&gt;Товар&lt;x2/&gt;, строки - &lt;x3/&gt;Дата&lt;x4/&gt;, факты - &lt;x5/&gt;Количество продаж&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175619Z" creationid="Марианна" creationdate="20201022T175619Z">
