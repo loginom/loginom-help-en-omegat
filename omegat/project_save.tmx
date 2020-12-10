@@ -20112,6 +20112,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имена входных полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134337Z" creationid="Марианна" creationdate="20201210T134337Z">
+        <seg>Input fields names</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
@@ -21192,6 +21200,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Коэффициенты регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134217Z" creationid="Марианна" creationdate="20201210T134217Z">
+        <seg>Regression Coefficients</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кресло плетеное</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112346Z" creationid="Марианна" creationdate="20201124T112346Z">
@@ -21434,6 +21450,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151144Z" creationid="Марианна" creationdate="20201111T151144Z">
         <seg>Captions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метки входных полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134436Z" creationid="Марианна" creationdate="20201210T134436Z">
+        <seg>Input fields captions</seg>
       </tuv>
     </tu>
     <tu>
@@ -23242,6 +23266,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Описание &lt;x1/&gt;коэффициентов&lt;x2/&gt; представлено в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134317Z" creationid="Марианна" creationdate="20201210T134317Z">
+        <seg>Description of &lt;x1/&gt;coefficients&lt;x2/&gt; is provided in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Описание перечислений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082805Z" creationid="Марианна" creationdate="20201030T082805Z">
@@ -24502,6 +24534,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103157Z" creationid="Марианна" creationdate="20201208T103157Z">
         <seg>Sex of consumer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134322Z" creationid="Марианна" creationdate="20201210T134322Z">
+        <seg>Field</seg>
       </tuv>
     </tu>
     <tu>
@@ -27446,6 +27486,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T195106Z" creationid="Марианна" creationdate="20200827T195106Z">
         <seg>List of Values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список имен входных полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134400Z" creationid="Марианна" creationdate="20201210T134400Z">
+        <seg>List of input fields names</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список меток (названий) входных полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T134458Z" creationid="Марианна" creationdate="20201210T134458Z">
+        <seg>List of captions (names) of input fields</seg>
       </tuv>
     </tu>
     <tu>
