@@ -26,11 +26,11 @@ To get resulting data sets, it is required to provide preliminary [training of t
 * ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Коэффициенты регрессионной модели](./coef-regression.md) — таблица данных;
 * ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Сводка](./report.md) — переменные.
 
-## Мастер настройки узла
+## Node wizard
 
-Мастер настройки включает в себя следующие группы параметров:
+The wizard includes the following groups of parameters:
 
-* Настройки [нормализации](../../normalization/README.md);
+* [Normalization](../../normalization/README.md) Settings;
 * [Разбиение на множества](#razbienie-na-mnozhestva);
 * [Настройка линейной регрессии](#nastroyka-lineynoy-regressii);
 * [Детальные настройки](#detalnye-nastroyki).

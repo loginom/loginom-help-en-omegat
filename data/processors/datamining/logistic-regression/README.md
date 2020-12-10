@@ -17,7 +17,7 @@
 
 ### Выходы
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Выход регрессии.
-   Таблица, состоящая из полей:
+   The table that consists of the following fields:
    * Событие|Прогноз.
    * Вероятность события|Прогноз.
    * Событие|Факт.
@@ -26,11 +26,11 @@
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) —  [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных).
 * ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Сводка](./report.md) (переменные).
 
-## Мастер настройки узла
+## Node wizard
 
 includes the follwing groups of parameters:
 
-* Настройки [нормализации](../../normalization/README.md);
+* [Normalization](../../normalization/README.md) Settings;
 * [Разбиение на множества](#razbienie-na-mnozhestva);
 * [Настройка логистической регрессии](#nastroyka-logisticheskoy-regressii);
 * [Детальные настройки](#detalnye-nastroyki).

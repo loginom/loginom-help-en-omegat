@@ -30,39 +30,39 @@ The field will be no longer permitted for use in the following cases:
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Clustering (data table).
 
-Таблица, состоящая из полей:
+The table that consists of the following fields:
 
-* **Номер кластера** — каждому объекту присвоен номер того кластера, в который он входит.
-* **Расстояние до центра кластера** — положение объекта относительно центра кластера.
-* Поля исходного набора данных (значения не изменяются).
+* **Cluster number**: each object is assigned with the number of the cluster into which it is included.
+* **Distance to cluster center** denotes the object location relative to the cluster center.
+* The source data set fields (values are not changed).
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Центры кластеров (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Cluster centers (data table).
 
-**Центр кластера** — среднее значение переменных объектов, входящих в кластер. Результат — таблица, количество записей которой соответствует числу кластеров, т.е. данные сгруппированы по кластерам. Состоит из полей:
+**Cluster center** denotes the average value of the objects variables included into cluster. Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters. It consists of the following fields:
 
-* **Номер кластера** — перечислены номера сформированных кластеров.
-* Поля исходного набора данных, в ячейках которых рассчитано среднее значение параметров.
+* **Cluster number**: numbers of the generated clusters are listed.
+* The source data set fields in the cells of which the average value of parameters has been calculated.
 
-## Мастер настройки узла
+## Node wizard
 
-Мастер настройки включает в себя следующие группы параметров:
+The wizard includes the following groups of parameters:
 
-* Настройка входных столбцов;
-* Настройки [нормализации](../normalization/README.md);
-* Кластеризация.
+* Configure Input Columns;
+* [Normalization](../normalization/README.md) Settings;
+* Clustering.
 
 ### Configure Input Columns
 
-* Выбор полей для кластеризации:
-   * Для полей, участвующих в кластеризации, выставить назначение *Используемое*.
-   * Для прочих полей оставить *Не задано*.
+* Select fields for clustering:
+   * It is required to set *Used* usage types for the fields that are included into clustering.
+   * *Unspecified* is preserved for other fields.
 
-### Кластеризация
+### Clustering
 
-* При заданном числе кластеров:
-   * Снять галочку *Автоопределение числа кластеров*.
-   * Ввести нужное количество кластеров (должно быть больше 2). По умолчанию — 3.
-* При автоматическом определении числа кластеров:
-   * Минимальное число кластеров. По умолчанию — 1.
-   * Максимальное число кластеров. По умолчанию — 10.
-   * Порог разделения кластеров (в интервале от 0,1 до 5). Чем больше порог разделения, тем больше кластеров будет сгенерировано при кластеризации.
+* In the case of the set number of clusters:
+   * Uncheck *Auto selection of clusters*.
+   * Enter the required number of clusters (must exceed 2). By default — 3.
+* In the case of auto selection of the cluster number:
+   * The minimum number of clusters. By default — 1.
+   * The maximum number of clusters. By default — 10.
+   * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering.

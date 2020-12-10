@@ -24,42 +24,42 @@ The field will be no longer permitted for use in the following cases:
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Clustering (data table).
 
-Таблица, состоящая из полей:
+The table that consists of the following fields:
 
-* **Номер кластера** — каждому объекту присвоен номер того кластера, в который он входит.
+* **Cluster number**: each object is assigned with the number of the cluster into which it is included.
 * **Вероятность принадлежности** — для каждого объекта проставляется вероятность принадлежности к данному кластеру.
-* Поля исходного набора данных (значения не изменяются).
+* The source data set fields (values are not changed).
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Центры кластеров (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Cluster centers (data table).
 
-**Центр кластера** — среднее значение переменных объектов, входящих в кластер.
-Результат — таблица, количество записей которой соответствует числу кластеров, т.е. данные сгруппированы по кластерам. Состоит из полей:
+**Cluster center** denotes the average value of the objects variables included into cluster.
+Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters. It consists of the following fields:
 
-* **Номер кластера** — перечислены номера сформированных кластеров.
-* Поля исходного набора данных, в ячейках которых рассчитано среднее значение параметров.
+* **Cluster number**: numbers of the generated clusters are listed.
+* The source data set fields in the cells of which the average value of parameters has been calculated.
 
 ## Wizard
 
-Мастер настройки включает в себя следующие группы параметров:
+The wizard includes the following groups of parameters:
 
-* Настройка входных столбцов;
+* Configure Input Columns;
 * Настройка [нормализации](../normalization);
 * EM Кластеризация.
 
 ### Configure Input Columns
 
-* Выбор полей для кластеризации:
-   * Для полей, участвующих в кластеризации, выставить назначение *Используемое*.
-   * Для прочих полей оставить *Не задано*.
+* Select fields for clustering:
+   * It is required to set *Used* usage types for the fields that are included into clustering.
+   * *Unspecified* is preserved for other fields.
 
 ### EM Кластеризация
 
 * Автоопределение числа кластеров. При установлении флага становится доступен для настройки блок параметров *Автоматическое определение числа кластеров*.
-   * Минимальное число кластеров. По умолчанию — 1.
-   * Максимальное число кластеров. По умолчанию — 10.
-   * Порог разделения кластеров (в интервале от 0,1 до 5). Чем больше порог разделения, тем больше кластеров будет сгенерировано при кластеризации. По умолчанию — 1.
+   * The minimum number of clusters. By default — 1.
+   * The maximum number of clusters. By default — 10.
+   * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering. By default — 1.
 * Заданное число кластеров. Блок параметров, доступный для настройки, при неактивном флаге *Автоопределение числа кластеров*.
-   * Число кластеров. По умолчанию — 3.
+   * Число кластеров. By default — 3.
 * Параметры EM-кластеризации.
    * Переменные независимы. Учет зависимости между переменными. Если флаг активен, зависимости нет.
    * Медианная модификация. Включение флага означает, что на втором М-шаге алгоритма моментные оценки максимального правдоподобия заменяются более устойчивыми оценками медианного типа. Это может повысить устойчивость алгоритма по отношению к начальным данным.
