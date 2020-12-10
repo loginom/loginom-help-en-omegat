@@ -24338,6 +24338,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поле будет запрещено к использованию, если:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131430Z" creationid="Марианна" creationdate="20201210T131401Z">
+        <seg>The field will be no longer permitted for use in the following cases:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поле присутствует, если установлен флаг &lt;x1/&gt;Рассчитать доверительный интервал&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T064632Z" creationid="Марианна" creationdate="20201208T064632Z">
@@ -29426,6 +29434,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165904Z" creationid="Марианна" creationdate="20201005T165904Z">
         <seg>single-line and multi-line comments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>оно непрерывное и с нулевой дисперсией;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131626Z" creationid="Марианна" creationdate="20201210T131626Z">
+        <seg>It is continuous and with zero variance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>оно является дискретным и содержит всего одно уникальное значение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131508Z" creationid="Марианна" creationdate="20201210T131508Z">
+        <seg>It is discrete and contains only one unique value.</seg>
       </tuv>
     </tu>
     <tu>
