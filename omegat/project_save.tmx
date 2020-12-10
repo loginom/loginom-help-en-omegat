@@ -15518,6 +15518,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T074848Z" creationid="Марианна" creationdate="20201210T074848Z">
+        <seg>An analyst can have influence on the result by means of repulsion coefficient and determination of the maximum count of clusters or iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аналогичные команды есть и в контекстном меню каждого узла в правом окне (корневой узел &lt;x13/&gt;Root&lt;x14/&gt; переместить нельзя).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T194918Z" creationid="Марианна" creationdate="20200929T194918Z">
