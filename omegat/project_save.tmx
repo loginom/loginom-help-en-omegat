@@ -3180,6 +3180,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Разбиение на кластеры (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131715Z" creationid="Марианна" creationdate="20201210T131715Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Clustering (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Таблица в дерево</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085542Z" creationid="Марианна" creationdate="20200929T085542Z">
@@ -29442,6 +29450,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T131626Z" creationid="Марианна" creationdate="20201210T131626Z">
         <seg>It is continuous and with zero variance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>оно содержит пропущенные значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131650Z" creationid="Марианна" creationdate="20201210T131650Z">
+        <seg>It contains null values.</seg>
       </tuv>
     </tu>
     <tu>
