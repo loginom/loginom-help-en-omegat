@@ -20672,6 +20672,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кластеризация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132849Z" creationid="Марианна" creationdate="20201210T132849Z">
+        <seg>Clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кнопка &lt;x1/&gt;Предпросмотр…&lt;x2/&gt; позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114352Z" creationid="Марианна" creationdate="20200823T122050Z">
@@ -22158,6 +22166,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка входных столбцов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132825Z" creationid="Марианна" creationdate="20201210T132825Z">
+        <seg>Configure Input Columns;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка компонента происходит в два этапа:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T145113Z" creationid="Марианна" creationdate="20200917T145113Z">
@@ -22250,6 +22266,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T175847Z" creationid="Марианна" creationdate="20200916T165503Z">
         <seg>Configure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки &lt;x1/&gt;нормализации&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132843Z" creationid="Марианна" creationdate="20201210T132843Z">
+        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; Settings;</seg>
       </tuv>
     </tu>
     <tu>
