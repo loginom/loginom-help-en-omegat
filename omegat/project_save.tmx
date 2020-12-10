@@ -8965,6 +8965,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ограничить число итераций&lt;x2/&gt; — искусственное прекращение работы алгоритма в случае, если количество итераций алгоритма превышает заданное максимальное число итераций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T084123Z" creationid="Марианна" creationdate="20201210T084123Z">
+        <seg>&lt;x1/&gt;Limit the number of iterations&lt;x2/&gt; enables to terminate the algorithm operation deliberately if the algorithm iterations number exceeds the set maximum number of iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничить число кластеров&lt;x2/&gt; — предполагает возможность вручную задать наибольшее количество кластеров, которые может выдать в результате алгоритм.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083826Z" creationid="Марианна" creationdate="20201210T083641Z">
@@ -28858,6 +28866,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T141705Z" creationid="Марианна" creationdate="20201119T141705Z">
         <seg>This field is given the &lt;x1/&gt;Name&lt;x2/&gt; and &lt;x3/&gt;Caption&lt;x4/&gt; of the main table field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этой настройкой можно воспользоваться в случае, если задача требует определенного числа кластеров, например, не больше 15.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T083929Z" creationid="Марианна" creationdate="20201210T083929Z">
+        <seg>This setting can be used if the definite number of cluster is required, for example, not exceeding 15.</seg>
       </tuv>
     </tu>
     <tu>
