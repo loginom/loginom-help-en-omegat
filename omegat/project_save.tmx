@@ -16964,6 +16964,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Величина, показывающая отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T140107Z" creationid="Марианна" creationdate="20201210T140107Z">
+        <seg>The value that shows probability ratio of the fact that the event will occur to the probability of the fact that the event will not occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Версия пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084218Z" creationid="Марианна" creationdate="20201009T084218Z">
