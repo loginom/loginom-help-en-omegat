@@ -24746,6 +24746,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порог разделения кластеров (в интервале от 0,1 до 5).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133704Z" creationid="Марианна" creationdate="20201210T133704Z">
+        <seg>Cluster splitting significance threshold (in the interval from 0.1 to 5).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T075003Z" creationid="Марианна" creationdate="20200716T075003Z">
