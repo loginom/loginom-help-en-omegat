@@ -12999,6 +12999,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>N — количество транзакций, вошедших в кластер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082212Z" creationid="Марианна" creationdate="20201210T082212Z">
+        <seg>N — count of the transactions included into cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>None</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083055Z" creationid="Марианна" creationdate="20201030T083055Z">
@@ -13099,6 +13107,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
 
 // View of the data set columns
 interface IColumn extends Iterable&lt;boolean | number | string | Date | undefined&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>S — мощность (площадь) кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082336Z" creationid="Марианна" creationdate="20201210T082336Z">
+        <seg>S — cluster size (area).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13351,6 +13367,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083317Z" creationid="Марианна" creationdate="20201030T083317Z">
         <seg>Variant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>W — ширина кластера, т.е. число уникальных объектов в нем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082305Z" creationid="Марианна" creationdate="20201210T082305Z">
+        <seg>W — cluster width, namely, the number of the unique objects included into it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22374,6 +22398,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082009Z" creationid="Марианна" creationdate="20201210T082009Z">
         <seg>Numbers of clusters: each transaction is assigned with the number of the cluster into which it is included.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Номеров кластеров — перечислены номера сформированных кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T082129Z" creationid="Марианна" creationdate="20201210T082129Z">
+        <seg>Cluster numbers: the numbers of the generated clusters are listed.</seg>
       </tuv>
     </tu>
     <tu>
