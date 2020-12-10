@@ -19220,6 +19220,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если количество кластеров известно, то применяется алгоритм &lt;x3/&gt;k-means&lt;x4/&gt;, в противном случае — &lt;x5/&gt;g-means&lt;x6/&gt;, который определяет это количество автоматически в рамках заданного интервала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131028Z" creationid="Марианна" creationdate="20201210T131028Z">
+        <seg>If the number of clusters is known, &lt;x3/&gt;k-means&lt;x4/&gt; algorithm is used, otherwise, &lt;x5/&gt;g-means&lt;x6/&gt; algorithm is used. It enables to define this number automatically within the set interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если количество строк в группе не кратно количеству строк в исходном наборе, размер последней группы окажется меньше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202652Z" creationid="Марианна" creationdate="20200921T202652Z">
