@@ -17444,6 +17444,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор полей для кластеризации:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132920Z" creationid="Марианна" creationdate="20201210T132920Z">
+        <seg>Select fields for clustering:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор узла цикла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194925Z" creationid="Марианна" creationdate="20200921T194925Z">
@@ -18548,6 +18556,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для полей, участвующих в кластеризации, выставить назначение &lt;x1/&gt;Используемое&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133020Z" creationid="Марианна" creationdate="20201210T133020Z">
+        <seg>It is required to set &lt;x1/&gt;Used&lt;x2/&gt; usage types for the fields that are included into clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для полей, участвующих в обработке, выставить назначения "Транзакция" и "Элемент".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082606Z" creationid="Марианна" creationdate="20201210T082606Z">
@@ -18638,8 +18654,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для прочих полей оставить "Не задано".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T082739Z" creationid="Марианна" creationdate="20201210T082739Z">
-        <seg>"Unspecified" is preserved in other fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133111Z" creationid="Марианна" creationdate="20201210T082739Z">
+        <seg>"Unspecified" is preserved for other fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для прочих полей оставить &lt;x1/&gt;Не задано&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133103Z" creationid="Марианна" creationdate="20201210T133103Z">
+        <seg>&lt;x1/&gt;Unspecified&lt;x2/&gt; is preserved for other fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20668,6 +20692,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161454Z" creationid="Марианна" creationdate="20200917T161454Z">
         <seg>Cyrillic (1251);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кластеризация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133134Z" creationid="Марианна" creationdate="20201210T133134Z">
+        <seg>Clustering</seg>
       </tuv>
     </tu>
     <tu>
