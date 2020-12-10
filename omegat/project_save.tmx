@@ -28486,6 +28486,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чем больше коэффициент, тем ниже уровень сходства и тем больше кластеров будет сгенерировано.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T083404Z" creationid="Марианна" creationdate="20201210T083404Z">
+        <seg>The higher coefficient, the lower the similarity level and the more clusters will be generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Через контекстное меню "Переместить в Переменные";</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082701Z" creationid="Марианна" creationdate="20201006T082701Z">
