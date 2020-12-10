@@ -3204,6 +3204,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Центры кластеров (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131953Z" creationid="Марианна" creationdate="20201210T131953Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Cluster centers (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экспорт в Excel-файл</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T180030Z" creationid="Марианна" creationdate="20200916T171045Z">
@@ -8773,6 +8781,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Номер кластера&lt;x2/&gt; — каждому объекту присвоен номер того кластера, в который он входит.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131821Z" creationid="Марианна" creationdate="20201210T131821Z">
+        <seg>&lt;x1/&gt;Cluster number&lt;x2/&gt;: each object is assigned with the number of the cluster into which it is included.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нормализация дискретных данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065241Z" creationid="Марианна" creationdate="20200812T065241Z">
@@ -10751,6 +10767,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Расстояние до центра кластера&lt;x2/&gt; — положение объекта относительно центра кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131849Z" creationid="Марианна" creationdate="20201210T131849Z">
+        <seg>&lt;x1/&gt;Distance to cluster center&lt;x2/&gt; denotes the object location relative to the cluster center.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Рассчитать доверительный интервал&lt;x2/&gt; — позволяет вручную задать настройку следующего параметра:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T073947Z" creationid="Марианна" creationdate="20201208T073947Z">
@@ -12323,6 +12347,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193803Z" creationid="Марианна" creationdate="20200916T193803Z">
         <seg>&lt;x1/&gt;File storage&lt;x2/&gt; enables to display information on method of connection to the destination file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Центр кластера&lt;x2/&gt; — среднее значение переменных объектов, входящих в кластер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132119Z" creationid="Марианна" creationdate="20201210T132119Z">
+        <seg>&lt;x1/&gt;Cluster center&lt;x2/&gt; denotes the average value of the objects variables included into cluster.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24458,6 +24490,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поля исходного набора данных (значения не изменяются).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131933Z" creationid="Марианна" creationdate="20201210T131933Z">
+        <seg>The source data set fields (values are not changed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поля с непрерывным видом данных непригодны для обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075317Z" creationid="Марианна" creationdate="20201210T075317Z">
@@ -27654,6 +27694,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212350Z" creationid="Марианна" creationdate="20201012T212350Z">
         <seg>Table of factors:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица, состоящая из полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131742Z" creationid="Марианна" creationdate="20201210T131742Z">
+        <seg>The table that consists of the following fields:</seg>
       </tuv>
     </tu>
     <tu>
