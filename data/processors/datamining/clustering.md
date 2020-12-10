@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/clusterization_default.svg) Кластеризация
+# ![ ](../../images/icons/components/clusterization_default.svg) Clustering
 
 ## Description
 
