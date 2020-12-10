@@ -3268,6 +3268,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Входной источник данных (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T074917Z" creationid="Марианна" creationdate="20201210T074917Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Input data source (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Дополнительный вход (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T075010Z" creationid="Марианна" creationdate="20201210T075010Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Supplementary input (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — вызов меню действий над портами переменных Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102702Z" creationid="Марианна" creationdate="20201009T102702Z">
@@ -17196,6 +17212,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входные данные - это транзакции, сформированные в 2 поля, одно из которых является транзакцией, а второе - элементом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T075122Z" creationid="Марианна" creationdate="20201210T075122Z">
+        <seg>Input data means the transactions generated in 2 fields one of which is a transaction, whereas the second one is an item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные данные должны соответствовать следующим требованиям:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T142532Z" creationid="Марианна" creationdate="20201207T142532Z">
@@ -22162,6 +22186,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083714Z" creationid="Марианна" creationdate="20201102T083714Z">
         <seg>There are no &lt;x1/&gt;require.main&lt;x2/&gt;, &lt;x3/&gt;require.paths&lt;x4/&gt; and &lt;x5/&gt;module.uri&lt;x6/&gt; optional properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необязательный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T074924Z" creationid="Марианна" creationdate="20201210T074924Z">
+        <seg>Optional.</seg>
       </tuv>
     </tu>
     <tu>
