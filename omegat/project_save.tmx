@@ -7357,6 +7357,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Иллюстрация работы алгоритма k-means&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131217Z" creationid="Марианна" creationdate="20201210T131203Z">
+        <seg>&lt;x1/&gt;Figure Describing k-means Algorithm Operation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имена&lt;x2/&gt; — столбец с именами транспонируемых столбцов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T164309Z" creationid="Марианна" creationdate="20201111T153443Z">
@@ -21722,6 +21730,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T101600Z" creationid="Марианна" creationdate="20200818T101600Z">
         <seg>The workflow fragment with the opened &lt;x1/&gt;Property inspector&lt;x2/&gt; window is shown on figure below for the &lt;x3/&gt;Calculator&lt;x4/&gt; node:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На рисунке цветом выделены отдельные кластеры и объекты, им принадлежащие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T131309Z" creationid="Марианна" creationdate="20201210T131309Z">
+        <seg>Separate clusters and objects that relate to them are highlighted by color.</seg>
       </tuv>
     </tu>
     <tu>
