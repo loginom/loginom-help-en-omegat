@@ -1,15 +1,15 @@
-## Коэффициенты регрессии
+## Regression Coefficients
 
-Описание [коэффициентов](https://wiki.loginom.ru/articles/coefficient-of-regression.html) представлено в таблице:
+Description of [coefficients](https://wiki.loginom.ru/articles/coefficient-of-regression.html) is provided in the table:
 
-| Поле | Description |
+| Field | Description |
 |:--------------------|:----------|
-| Имена входных полей | Список имен входных полей |
-| Метки входных полей | Список меток (названий) входных полей |
-| Уникальные значения | Список уникальных значений полей |
-| Коэффициенты | Характеристика связи между [зависимой](https://wiki.loginom.ru/articles/output-variable.html) *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x* |
-| [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) | Статистическая характеристика распределения случайной величины, показывающая среднюю степень разброса значений величины относительно [математического ожидания](https://wiki.loginom.ru/articles/expectation-value.html) |
+| Input fields names | List of input fields names |
+| Input fields captions | List of captions (names) of input fields |
+| Unique values | List of unique values of fields |
+| Coefficients | Characteristics of relation between [dependent variable](https://wiki.loginom.ru/articles/output-variable.html) *y* and [independent variable](https://wiki.loginom.ru/articles/input-variable.html) *x* |
+| [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) | Statistical characteristic of random distribution that shows the average degree of spread in values relative to [statistical expectation](https://wiki.loginom.ru/articles/expectation-value.html) |
 | [T-statistics](https://wiki.loginom.ru/articles/students-distribution.html) | Связана с проверкой равенства средних значений в двух выборках |
 | [Значимость](https://wiki.loginom.ru/articles/significance-regr.html) | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели |
-| Нижняя граница ДИ | Нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html) |
-| Верхняя граница ДИ | Верхняя граница доверительного интервала |
+| CI lower bound | Lower bound of [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html) |
+| CI upper bound | Upper bound of confidence interval |

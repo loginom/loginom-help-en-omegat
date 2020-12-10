@@ -48,7 +48,7 @@
 | ![Вещественный](../../images/icons/data-types/float_default.svg) BIC | [Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html) |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) HQC | [Информационный критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html) |
 
-#### Коэффициенты регрессии
+#### Regression Coefficients
 
 Описание коэффициентов представлено в таблице:
 
@@ -58,9 +58,9 @@
 | [Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
 | [Коэффициент Вальда](https://wiki.loginom.ru/articles/wald-test.html) | Оценка значимости коэффициента при независимой переменной модели |
 | [Значимость](https://wiki.loginom.ru/articles/significance-regr.html) | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели |
-| [Отношение шансов](https://wiki.loginom.ru/articles/odds-ratio.html) | Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет |
-| Нижняя граница ДИ | Нижняя граница [доверительного интервала](https://wiki.loginom.ru/articles/confidence-interval.html) |
-| Верхняя граница ДИ | Верхняя граница доверительного интервала |
+| [Odds ratio](https://wiki.loginom.ru/articles/odds-ratio.html) | Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет |
+| CI lower bound | Lower bound of [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html) |
+| CI upper bound | Upper bound of confidence interval |
 | Порог значимости | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели |
 
 Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls/table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls/tree_default.svg) *Дерева* (см. Figure 2).
@@ -75,7 +75,7 @@
 
 Область ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги построения* состоит из следующих полей:
 
-| Поле | Description |
+| Field | Description |
 |:----------------|:----------------------------------------------------------------------------|
 | Модель | Дерево моделей, в котором отображаются созданные алгоритмом модели в процессе обучения. Оно появляется тогда, когда отбираются факты. Для алгоритмов, которые не поддерживают обработку фактов, в этом поле будет только одна финальная модель. Щелчком левой кнопки мыши по области ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги построения* можно выбрать отображение [информации о выбранной модели](#informatsiya-o-modeli) (если установлен соответствующий флажок), а также [коэффициенты регрессии](#koeffitsienty-regressii) |
 | Показатель | Значение выбранного показателя для текущей модели |
