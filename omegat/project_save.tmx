@@ -21278,6 +21278,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки включает в себя следующие группы параметров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132808Z" creationid="Марианна" creationdate="20201210T132808Z">
+        <seg>The wizard includes the following groups of parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мастер настройки обработчика представляет собой отображение дерева (дерево, поданое на выход входного порта) с возможностью выбора некоторых или всех узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165412Z" creationid="Марианна" creationdate="20201001T165412Z">
@@ -21298,6 +21306,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121341Z" creationid="Марианна" creationdate="20200823T121341Z">
         <seg>There are the following parameters in the wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Мастер настройки узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132542Z" creationid="Марианна" creationdate="20201210T132542Z">
+        <seg>Node wizard</seg>
       </tuv>
     </tu>
     <tu>
@@ -24502,6 +24518,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T131933Z" creationid="Марианна" creationdate="20201210T131933Z">
         <seg>The source data set fields (values are not changed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля исходного набора данных, в ячейках которых рассчитано среднее значение параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T132532Z" creationid="Марианна" creationdate="20201210T132532Z">
+        <seg>The source data set fields in the cells of which the average value of parameters has been calculated.</seg>
       </tuv>
     </tu>
     <tu>
