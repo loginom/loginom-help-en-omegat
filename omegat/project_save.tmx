@@ -21310,6 +21310,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальное число кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133620Z" creationid="Марианна" creationdate="20201210T133620Z">
+        <seg>The maximum number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Масло</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103029Z" creationid="Марианна" creationdate="20201208T103029Z">
@@ -25190,6 +25198,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175619Z" creationid="Марианна" creationdate="20201022T175619Z">
         <seg>Let's transform the source table with the following parameters: columns - &lt;x1/&gt;Goods&lt;x2/&gt;, strings - &lt;x3/&gt;Date&lt;x4/&gt;, measures - &lt;x5/&gt;Volume of sales&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При автоматическом определении числа кластеров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133601Z" creationid="Марианна" creationdate="20201210T133601Z">
+        <seg>In the case of auto selection of the cluster number:</seg>
       </tuv>
     </tu>
     <tu>
