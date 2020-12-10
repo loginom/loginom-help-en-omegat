@@ -28854,6 +28854,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чем больше порог разделения, тем больше кластеров будет сгенерировано при кластеризации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T133756Z" creationid="Марианна" creationdate="20201210T133756Z">
+        <seg>The higher splitting significance threshold, the more clusters will be generated while clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Через контекстное меню "Переместить в Переменные";</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082701Z" creationid="Марианна" creationdate="20201006T082701Z">
