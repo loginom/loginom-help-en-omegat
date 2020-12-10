@@ -22834,6 +22834,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ограничивать максимальное количество итераций следует в случае большого количества данных для предварительной оценки качества кластеризации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T085232Z" creationid="Марианна" creationdate="20201210T085232Z">
+        <seg>It is required to limit the maximum number of iterations in the case of large amount of data for preliminary evaluation of the clustering quality.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике &lt;x1/&gt;Группировка&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081547Z" creationid="Марианна" creationdate="20201023T081547Z">
