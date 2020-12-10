@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/em_default.svg) EM Кластеризация
+# ![ ](../../images/icons/components/em_default.svg) EM Clustering
 
 ## Description
 
