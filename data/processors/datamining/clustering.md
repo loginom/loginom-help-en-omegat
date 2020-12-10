@@ -2,13 +2,13 @@
 
 ## Description
 
-[Кластеризация](https://wiki.loginom.ru/articles/clustering.html) (сегментация) — это группировка объектов (наблюдений, событий) на основе данных, описывающих свойства объектов. Объекты внутри кластера должны быть похожими друг на друга и отличаться от других, которые вошли в другие кластеры.
+[Clustering](https://wiki.loginom.ru/articles/clustering.html) (segmentation) means grouping of objects (observations, events) based on the data describing properties of objects. Objects inside the cluster must be similar to each other and differ from the other ones not included into other clusters.
 
-Обработчик производит кластеризацию объектов на основе алгоритмов [k-means и g-means](https://wiki.loginom.ru/articles/k-means.html). Основное отличие одного алгоритма от другого в том, известно ли заранее количество кластеров. Если количество кластеров известно, то применяется алгоритм *k-means*, в противном случае — *g-means*, который определяет это количество автоматически в рамках заданного интервала.
+The handler performs clustering of objects on the basis of [k-means and g-means](https://wiki.loginom.ru/articles/k-means.html) algorithms. The main difference of one algorithm from the other one lies in the fact whether the number of clusters is known in advance or not. If the number of clusters is known, *k-means* algorithm is used, otherwise, *g-means* algorithm is used. It enables to define this number automatically within the set interval.
 
-![Иллюстрация работы алгоритма k-means](./clustering.svg)
+![Figure Describing k-means Algorithm Operation](./clustering.svg)
 
-На рисунке цветом выделены отдельные кластеры и объекты, им принадлежащие.
+Separate clusters and objects that relate to them are highlighted by color.
 
 To get resulting data sets, it is required to provide preliminary [training of the handler](../../scenario/training-processors.md).
 
@@ -20,15 +20,15 @@ To get resulting data sets, it is required to provide preliminary [training of t
 
 #### Requirements to the Received Data
 
-Поле будет запрещено к использованию, если:
+The field will be no longer permitted for use in the following cases:
 
-* оно является дискретным и содержит всего одно уникальное значение;
-* оно непрерывное и с нулевой дисперсией;
-* оно содержит пропущенные значения.
+* It is discrete and contains only one unique value.
+* It is continuous and with zero variance.
+* It contains null values.
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Разбиение на кластеры (таблица данных).
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Clustering (data table).
 
 Таблица, состоящая из полей:
 

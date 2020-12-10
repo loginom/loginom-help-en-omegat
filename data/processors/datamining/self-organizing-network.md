@@ -18,11 +18,11 @@ To get resulting data sets, it is required to provide preliminary [training of t
 
 #### Requirements to the Received Data
 
-Поле будет запрещено к использованию, если:
+The field will be no longer permitted for use in the following cases:
 
-* оно является дискретным и содержит всего одно уникальное значение;
-* оно непрерывное и с нулевой дисперсией;
-* оно содержит пропущенные значения.
+* It is discrete and contains only one unique value.
+* It is continuous and with zero variance.
+* It contains null values.
 
 ### Output
 
