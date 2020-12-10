@@ -23124,8 +23124,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Основное отличие одного алгоритма от другого в том, известно ли заранее количество кластеров.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T130508Z" creationid="Марианна" creationdate="20201210T130508Z">
-        <seg>The main difference of one algorithm from the other one is whether the numer of clusters is known in advance.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201210T130707Z" creationid="Марианна" creationdate="20201210T130508Z">
+        <seg>The main difference of one algorithm from the other one lies in the fact whether the number of clusters is known in advance or not.</seg>
       </tuv>
     </tu>
     <tu>
