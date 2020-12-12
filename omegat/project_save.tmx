@@ -20504,6 +20504,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Иными словами, предполагается, что данные в каждом кластере подчиняются определенному закону распределения, а именно, нормальному распределению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205254Z" creationid="Марианна" creationdate="20201212T205254Z">
+        <seg>In other words, it is assumed that the data in each cluster is subject to the particular distribution law, namely, probability distribution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исключение составляет корневой узел: для него минимальное количество экземпляров равно 0, если он является массивом, и 1 - если не является.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T084648Z" creationid="Марианна" creationdate="20200929T084648Z">
