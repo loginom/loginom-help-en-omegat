@@ -26010,6 +26010,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При установлении флага становится доступен для настройки блок параметров &lt;x1/&gt;Автоматическое определение числа кластеров&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210109Z" creationid="Марианна" creationdate="20201212T210109Z">
+        <seg>The following set of parameters becomes available for configuration when selecting the flag: &lt;x1/&gt;Auto Determination of Clusters Count&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При формировании текста SQL запроса существует возможность использования значений переменных входного порта, что позволяет оптимизировать обработку запросов и более гибко настроить работу с базой данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111322Z" creationid="Марианна" creationdate="20200825T111322Z">
