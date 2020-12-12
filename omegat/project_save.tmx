@@ -27962,6 +27962,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T211925Z" creationid="Марианна" creationdate="20201212T211925Z">
+        <seg>Degree of statistic link of the input (set of the input ones) and output variables of regression model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Столбцы исходного набора данных из списка &lt;x1/&gt;Информационные&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T153140Z" creationid="Марианна" creationdate="20201111T153140Z">
