@@ -57,11 +57,11 @@
 | Coefficient | Характеристика связи между зависимой *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x* |
 | [Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
 | [Коэффициент Вальда](https://wiki.loginom.ru/articles/wald-test.html) | Оценка значимости коэффициента при независимой переменной модели |
-| [Значимость](https://wiki.loginom.ru/articles/significance-regr.html) | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели |
+| [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 | [Odds ratio](https://wiki.loginom.ru/articles/odds-ratio.html) | Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет |
 | CI lower bound | Lower bound of [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html) |
 | CI upper bound | Upper bound of confidence interval |
-| Порог значимости | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели |
+| Порог значимости | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 
 Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls/table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls/tree_default.svg) *Дерева* (см. Figure 2).
 

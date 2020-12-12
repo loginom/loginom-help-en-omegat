@@ -55,7 +55,7 @@
 | Coefficient | Характеристика связи между зависимой *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x* |
 | [Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
 | Т-статистика | Отношение стандартной ошибки оценки коэффициента к его абсолютной величине. |
-| [Значимость](https://wiki.loginom.ru/articles/significance-regr.html) | Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели |
+| [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 
 Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Дерева* (см. Figure 2).
 
