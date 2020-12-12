@@ -28254,6 +28254,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, любое наблюдение (объект) принадлежит ко всем &lt;x1/&gt;кластерам&lt;x2/&gt;, но с разной вероятностью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205346Z" creationid="Марианна" creationdate="20201212T205346Z">
+        <seg>Thus, any observation (object) belongs to all &lt;x1/&gt;clusters&lt;x2/&gt; but with different likelihood.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, на каждом шаге происходит уточнение функций проекта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T141011Z" creationid="Марианна" creationdate="20200718T141011Z">
