@@ -27114,6 +27114,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Связана с проверкой равенства средних значений в двух выборках</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T211525Z" creationid="Марианна" creationdate="20201212T211525Z">
+        <seg>is connected with test for equality of average values in two samples</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Связи между узлами можно удалять:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164730Z" creationid="Марианна" creationdate="20201001T164730Z">
