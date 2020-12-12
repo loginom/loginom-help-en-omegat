@@ -1,4 +1,4 @@
-# ![](../../../images/icons/components/linear-regress_default.svg) Линейная регрессия
+# ![](../../../images/icons/components/linear-regress_default.svg) Linear Regression
 
 ## Description
 
