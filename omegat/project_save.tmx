@@ -15838,6 +15838,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210411Z" creationid="Марианна" creationdate="20201212T210411Z">
+        <seg>The pack of parameters available for configuration in the case of inactive flag &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок узлов, выполняющих формирование ТОП 10 клиентов, возможно, сгруппировать в отдельную функцию, поместив их в &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121445Z" creationid="Марианна" creationdate="20200717T110908Z">
@@ -19664,6 +19672,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112343Z" creationid="Марианна" creationdate="20201001T112343Z">
         <seg>Manual Setting of the Nodes Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заданное число кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210248Z" creationid="Марианна" creationdate="20201212T210248Z">
+        <seg>Set number of clusters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23802,6 +23818,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры EM-кластеризации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210433Z" creationid="Марианна" creationdate="20201212T210433Z">
+        <seg>Parameters of EM Clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры Пакета, в котором используется Производный компонент:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084348Z" creationid="Марианна" creationdate="20201009T084348Z">
@@ -24030,6 +24054,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102022Z" creationid="Марианна" creationdate="20201009T102022Z">
         <seg>Variables cannot be edited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные независимы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210443Z" creationid="Марианна" creationdate="20201212T210443Z">
+        <seg>Variables are independent.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26012,8 +26044,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При установлении флага становится доступен для настройки блок параметров &lt;x1/&gt;Автоматическое определение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T210109Z" creationid="Марианна" creationdate="20201212T210109Z">
-        <seg>The following set of parameters becomes available for configuration when selecting the flag: &lt;x1/&gt;Auto Determination of Clusters Count&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210315Z" creationid="Марианна" creationdate="20201212T210109Z">
+        <seg>The following pack of parameters becomes available for configuration when selecting the flag: &lt;x1/&gt;Auto Determination of Clusters Count&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28910,6 +28942,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Учет зависимости между переменными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210602Z" creationid="Марианна" creationdate="20201212T210602Z">
+        <seg>Consideration of dependence between variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ф.&lt;x2/&gt; — экстремумы взаимнокорреляционной функции;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T072857Z" creationid="Марианна" creationdate="20201012T072857Z">
@@ -29154,6 +29194,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065442Z" creationid="Марианна" creationdate="20201208T065442Z">
         <seg>Number of &lt;x1/&gt;the model degrees of freedom&lt;x2/&gt; (ModelDF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Число кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210420Z" creationid="Марианна" creationdate="20201212T210420Z">
+        <seg>Number of clusters.</seg>
       </tuv>
     </tu>
     <tu>
