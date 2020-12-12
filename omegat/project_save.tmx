@@ -16368,8 +16368,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В основе &lt;x1/&gt;EM кластеризации&lt;x2/&gt; лежит масштабируемый &lt;x3/&gt;алгоритм EM&lt;x4/&gt;, который опирается на предположение, что исследуемое множество данных может быть смоделировано с помощью линейной комбинации многомерных &lt;x5/&gt;нормальных распределений&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T204652Z" creationid="Марианна" creationdate="20201212T204652Z">
-        <seg>&lt;x1/&gt;EM Clustering&lt;x2/&gt; is based on scalable &lt;x3/&gt;EM algorithm&lt;x4/&gt; that is supported by assumption that the data set under study can be modelled using the linear combination of multidimensional &lt;x5/&gt;probability distributions&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T204724Z" creationid="Марианна" creationdate="20201212T204652Z">
+        <seg>&lt;x1/&gt;EM Clustering&lt;x2/&gt; is based on the scalable &lt;x3/&gt;EM algorithm&lt;x4/&gt; that is supported by assumption that the data set under study can be modelled by means of the linear combination of multidimensional &lt;x5/&gt;probability distributions&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28978,6 +28978,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060419Z" creationid="Марианна" creationdate="20201116T060419Z">
         <seg>Good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целью при этом является оценка параметров распределения, которые максимизируют логарифмическую &lt;x7/&gt;функцию правдоподобия&lt;x8/&gt;, используемую в качестве меры качества модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205011Z" creationid="Марианна" creationdate="20201212T205011Z">
+        <seg>The purpose is to assess distribution parameters that maximize logarithmic &lt;x7/&gt;likelihood function&lt;x8/&gt; used as the model quality measure.</seg>
       </tuv>
     </tu>
     <tu>
