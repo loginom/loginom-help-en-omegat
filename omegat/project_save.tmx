@@ -16366,6 +16366,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В основе &lt;x1/&gt;EM кластеризации&lt;x2/&gt; лежит масштабируемый &lt;x3/&gt;алгоритм EM&lt;x4/&gt;, который опирается на предположение, что исследуемое множество данных может быть смоделировано с помощью линейной комбинации многомерных &lt;x5/&gt;нормальных распределений&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T204652Z" creationid="Марианна" creationdate="20201212T204652Z">
+        <seg>&lt;x1/&gt;EM Clustering&lt;x2/&gt; is based on scalable &lt;x3/&gt;EM algorithm&lt;x4/&gt; that is supported by assumption that the data set under study can be modelled using the linear combination of multidimensional &lt;x5/&gt;probability distributions&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В основе кластеризации транзакций лежит &lt;x1/&gt;алгоритм CLOPE&lt;x2/&gt;, применение которого позволяет обрабатывать огромные массивы &lt;x3/&gt;транзакционных данных&lt;x4/&gt;: чеки в супермаркетах, логи посещений веб-ресурсов и другие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201209T135737Z" creationid="Марианна" creationdate="20201209T135509Z">
