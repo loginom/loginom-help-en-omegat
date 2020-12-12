@@ -5820,6 +5820,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вероятность принадлежности&lt;x2/&gt; — для каждого объекта проставляется вероятность принадлежности к данному кластеру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205619Z" creationid="Марианна" creationdate="20201212T205619Z">
+        <seg>&lt;x1/&gt;Ownership probability&lt;x2/&gt;: it is required to specify ownership probability to this cluster for each object.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Версия Loginom&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185104Z" creationid="Марианна" creationdate="20200810T160306Z">
