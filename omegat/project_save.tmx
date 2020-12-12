@@ -23138,6 +23138,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Объект должен быть отнесен к тому кластеру, для которого данная вероятность выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205457Z" creationid="Марианна" creationdate="20201212T205457Z">
+        <seg>The object must relate to the cluster for which this likelihood is higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Объект модуля имеет свойства &lt;x1/&gt;parent&lt;x2/&gt;, &lt;x3/&gt;loaded&lt;x4/&gt; и &lt;x5/&gt;filename&lt;x6/&gt; (как в NodeJS);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083840Z" creationid="Марианна" creationdate="20201102T083840Z">
