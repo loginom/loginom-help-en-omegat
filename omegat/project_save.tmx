@@ -17164,6 +17164,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Включение флага означает, что на втором М-шаге алгоритма моментные оценки максимального правдоподобия заменяются более устойчивыми оценками медианного типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T211016Z" creationid="Марианна" creationdate="20201212T211016Z">
+        <seg>Selection of the flag means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вложенность подмоделей друг в друга не ограничена.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074858Z" creationid="Марианна" creationdate="20200716T074858Z">
@@ -29466,6 +29474,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202900Z" creationid="Марианна" creationdate="20200921T202900Z">
         <seg>This count is set by the "Group count" parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это может повысить устойчивость алгоритма по отношению к начальным данным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T211156Z" creationid="Марианна" creationdate="20201212T211156Z">
+        <seg>It can increase the algorithm stability relative to the source data.</seg>
       </tuv>
     </tu>
     <tu>
