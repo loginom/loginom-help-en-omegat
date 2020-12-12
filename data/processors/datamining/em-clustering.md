@@ -2,9 +2,9 @@
 
 ## Description
 
-В основе [EM кластеризации](https://basegroup.ru/deductor/function/algorithm/em-clustering) лежит масштабируемый [алгоритм EM](https://basegroup.ru/community/articles/em), который опирается на предположение, что исследуемое множество данных может быть смоделировано с помощью линейной комбинации многомерных [нормальных распределений](https://wiki.loginom.ru/articles/normal-distribution.html). Целью при этом является оценка параметров распределения, которые максимизируют логарифмическую [функцию правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html), используемую в качестве меры качества модели. Иными словами, предполагается, что данные в каждом кластере подчиняются определенному закону распределения, а именно, нормальному распределению.
+[EM Clustering](https://basegroup.ru/deductor/function/algorithm/em-clustering) is based on the scalable [EM algorithm](https://basegroup.ru/community/articles/em) that is supported by assumption that the data set under study can be modelled by means of the linear combination of multidimensional [probability distributions](https://wiki.loginom.ru/articles/normal-distribution.html). The purpose is to assess distribution parameters that maximize logarithmic [likelihood function](https://wiki.loginom.ru/articles/plausibility-function.html) used as the model quality measure. In other words, it is assumed that the data in each cluster is subject to the particular distribution law, namely, probability distribution.
 
-Таким образом, любое наблюдение (объект) принадлежит ко всем [кластерам](https://wiki.loginom.ru/articles/cluster.html), но с разной вероятностью. Объект должен быть отнесен к тому кластеру, для которого данная вероятность выше.
+Thus, any observation (object) belongs to all [clusters](https://wiki.loginom.ru/articles/cluster.html) but with different likelihood. The object must relate to the cluster for which this likelihood is higher.
 
 ## Ports
 
@@ -27,7 +27,7 @@ The field will be no longer permitted for use in the following cases:
 The table that consists of the following fields:
 
 * **Cluster number**: each object is assigned with the number of the cluster into which it is included.
-* **Вероятность принадлежности** — для каждого объекта проставляется вероятность принадлежности к данному кластеру.
+* **Ownership probability**: it is required to specify probability of ownership by this cluster for each object.
 * The source data set fields (values are not changed).
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Cluster centers (data table).
@@ -43,8 +43,8 @@ Result is a table the number of records of which complies with the number of clu
 The wizard includes the following groups of parameters:
 
 * Configure Input Columns;
-* Настройка [нормализации](../normalization);
-* EM Кластеризация.
+* Configuration of [normalization](../normalization);
+* EM clustering.
 
 ### Configure Input Columns
 
@@ -52,14 +52,14 @@ The wizard includes the following groups of parameters:
    * It is required to set *Used* usage types for the fields that are included into clustering.
    * *Unspecified* is preserved for other fields.
 
-### EM Кластеризация
+### EM Clustering
 
-* Автоопределение числа кластеров. При установлении флага становится доступен для настройки блок параметров *Автоматическое определение числа кластеров*.
+* Auto selection of clusters. The following pack of parameters becomes available for configuration when selecting the flag: *Auto Determination of Clusters Count*.
    * The minimum number of clusters. By default — 1.
    * The maximum number of clusters. By default — 10.
    * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering. By default — 1.
-* Заданное число кластеров. Блок параметров, доступный для настройки, при неактивном флаге *Автоопределение числа кластеров*.
-   * Число кластеров. By default — 3.
-* Параметры EM-кластеризации.
-   * Переменные независимы. Учет зависимости между переменными. Если флаг активен, зависимости нет.
-   * Медианная модификация. Включение флага означает, что на втором М-шаге алгоритма моментные оценки максимального правдоподобия заменяются более устойчивыми оценками медианного типа. Это может повысить устойчивость алгоритма по отношению к начальным данным.
+* Set number of clusters. The pack of parameters available for configuration in the case of inactive flag *Auto selection of clusters*.
+   * Number of clusters. By default — 3.
+* Parameters of EM Clustering.
+   * Variables are independent. Consideration of dependence between variables. If the flag is active, there is no dependence.
+   * Median Modification. Selection of the flag means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type. It can increase the algorithm stability relative to the source data.
