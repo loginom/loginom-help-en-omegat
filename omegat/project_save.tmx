@@ -19572,6 +19572,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если флаг активен, зависимости нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210638Z" creationid="Марианна" creationdate="20201212T210638Z">
+        <seg>If the flag is active, there is no dependence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если флаг установлен, то результрующая таблица из предыдущего примера будет выглядеть следующим образом:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T195916Z" creationid="Марианна" creationdate="20201109T195916Z">
@@ -21538,6 +21546,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113529Z" creationid="Марианна" creationdate="20200825T113529Z">
         <seg>The wizard contains several configuration stages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Медианная модификация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T210714Z" creationid="Марианна" creationdate="20201212T210714Z">
+        <seg>Median Modification.</seg>
       </tuv>
     </tu>
     <tu>
