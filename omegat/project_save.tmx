@@ -12887,6 +12887,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>EM Кластеризация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205833Z" creationid="Марианна" creationdate="20201212T205833Z">
+        <seg>EM Clustering</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>EM Кластеризация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205813Z" creationid="Марианна" creationdate="20201212T205813Z">
+        <seg>EM clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Error!!!</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060900Z" creationid="Марианна" creationdate="20201029T060900Z">
@@ -15666,6 +15682,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090629Z" creationid="Марианна" creationdate="20201102T090531Z">
         <seg>The absolute path is a full path in the file system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Автоопределение числа кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205845Z" creationid="Марианна" creationdate="20201212T205845Z">
+        <seg>Auto selection of clusters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22306,6 +22330,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T211301Z" creationid="Марианна" creationdate="20201012T211301Z">
         <seg>Population (thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка &lt;x1/&gt;нормализации&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T205805Z" creationid="Марианна" creationdate="20201212T205805Z">
+        <seg>Configuration of &lt;x1/&gt;normalization&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
