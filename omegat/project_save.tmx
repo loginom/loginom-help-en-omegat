@@ -7325,6 +7325,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значимость&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201212T211534Z" creationid="Марианна" creationdate="20201212T211534Z">
+        <seg>&lt;x1/&gt;Significance&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; — условный вывод о наличии/отсутствии корреляции на данном лаге.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102825Z" creationid="Марианна" creationdate="20201011T102706Z">
