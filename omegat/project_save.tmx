@@ -21446,6 +21446,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Линейная регрессия является одним из наиболее часто используемых алгоритмов в &lt;x1/&gt;машинном обучении&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T073728Z" creationid="Марианна" creationdate="20201214T073728Z">
+        <seg>Linear regression is one of the most frequently used algorithms in &lt;x1/&gt;machine learning&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логика выбора узлов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T170049Z" creationid="Марианна" creationdate="20201001T170049Z">
