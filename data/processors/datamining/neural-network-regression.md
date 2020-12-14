@@ -47,7 +47,7 @@
 
 На этом этапе входные данные приводятся к [нормальному виду](../normalization/README.md) - преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений. Использование [нормализации](https://wiki.loginom.ru/articles/normalization.html) увеличивает качество и скорость обучения *Нейросети*.
 
-### Step 3. Разбиение на множества
+### Step 3. Partitioning
 
 На этом этапе входные данные можно разделить на [тестовое](https://wiki.loginom.ru/articles/test-set.html), [обучающее](https://wiki.loginom.ru/articles/training-set.html) и [валидационное](https://wiki.loginom.ru/articles/validation-set.html) множества (выборки).
 

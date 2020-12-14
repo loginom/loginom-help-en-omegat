@@ -2,48 +2,48 @@
 
 ## Description
 
-[Линейная регрессия](https://wiki.loginom.ru/articles/linear-regression.html) представляет собой модель зависимости между [входными](https://wiki.loginom.ru/articles/input-variable.html) и [выходными переменными](https://wiki.loginom.ru/articles/output-variable.html) c линейной функцией связи.
+[Linear regression](https://wiki.loginom.ru/articles/linear-regression.html) is a model of dependence between [input](https://wiki.loginom.ru/articles/input-variable.html) and [output variables](https://wiki.loginom.ru/articles/output-variable.html) with the linear link function.
 
-Линейная регрессия является одним из наиболее часто используемых алгоритмов в [машинном обучении](https://wiki.loginom.ru/articles/machine-learning.html). Этот алгоритм зачастую дает хороший результат даже на небольших наборах данных.
+Linear regression is one of the most frequently used algorithms in [machine learning](https://wiki.loginom.ru/articles/machine-learning.html). This algorithm frequently produces good results even for small data sets.
 
-Широкое применение линейной регрессии обусловлено тем, что большое количество реальных процессов в науке, экономике и бизнесе можно описать линейными моделями. Так, с помощью линейной регрессии можно оценивать объем ожидаемых продаж в зависимости от установленной цены.
+Wide use of linear regression is explained by the fact that many real processes in science, econimics and business can be described in terms of linear models. For example, linear regression enables to estimate anticipated sales volume depending on the established price.
 
-Обработчик может использоваться для решения различных задач [Data Mining](https://wiki.loginom.ru/articles/data-mining.html?q=), например, таких, как [прогнозирование](https://wiki.loginom.ru/articles/forecasting.html) и численное предсказание.
+The handler can be used to accomplish different [Data Mining](https://wiki.loginom.ru/articles/data-mining.html?q=) tasks, for example, such as [forecasting](https://wiki.loginom.ru/articles/forecasting.html) and numerical prediction.
 
 To get resulting data sets, it is required to provide preliminary [training of the handler](../../../scenario/training-processors.md).
 
-> **Важно:** входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.
+> **Important:** Input data must never contain missing values, output data must not contain missing values during training.
 
 ## Ports
 
 ### Input
 
-* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Входной источник данных (таблица данных) — обязательный порт;
-* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Управляющие переменные](../../../scenario/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Input data source (data table) — required port.
+* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of wizard parameters using variables.
 
-### Выходы
-* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выход регрессии — таблица, состоящая из полей: регрессия поля выходных данных, поля исходного набора данных;
-* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Коэффициенты регрессионной модели](./coef-regression.md) — таблица данных;
-* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Сводка](./report.md) — переменные.
+### Outputs
+* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — Regression output is a table that consists of the following fields: field regression of output data, source data set.
+* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Regression model coefficients](./coef-regression.md) denote a data table.
+* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Summary](./report.md) denotes variables.
 
 ## Node wizard
 
 The wizard includes the following groups of parameters:
 
 * [Normalization](../../normalization/README.md) Settings;
-* [Разбиение на множества](#razbienie-na-mnozhestva);
-* [Настройка линейной регрессии](#nastroyka-lineynoy-regressii);
-* [Детальные настройки](#detalnye-nastroyki).
+* [Partitioning](#razbienie-na-mnozhestva);
+* [Linear regression configuring](#nastroyka-lineynoy-regressii);
+* [Detailed settings](#detalnye-nastroyki).
 
-### Разбиение на множества
+### Partitioning
 
-Страница *Разбиение на множества* мастера настройки узла позволяет разделить множество на обучающее и тестовое:
-* [Обучающее](https://wiki.loginom.ru/articles/training-set.html) — cтруктурированный набор данных, применяемый для обучения [аналитических моделей](https://wiki.loginom.ru/articles/taught-model.html). Каждая запись обучающего множества представляет собой обучающий пример, содержащий заданное входное воздействие и соответствующий ему правильный выходной (целевой) результат.
-* [Тестовое](https://wiki.loginom.ru/articles/test-set.html) — подмножество обучающей выборки, содержащее тестовые примеры, т.е. примеры, использующиеся не для обучения модели, а для проверки его результатов.
+The *Partitioning* page of the wizard enables to divide a set into the training and test ones:
+* [Train](https://wiki.loginom.ru/articles/training-set.html) denotes the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
+* [Test](https://wiki.loginom.ru/articles/test-set.html) denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
 
-Доступные параметры:
-* Размер обучающего и тестового множества в процентах или строках. Может быть задан с помощью переменных.
-* Метод разбиения на обучающее и тестовое множество. Существует два метода разбиения:
+Available Parameters:
+* Size of training and test set in percentage terms or in rows. It can be set by means of variables.
+* Method of partition to training and test sets. There are two partition methods:
    * Случайный — случайно разбивает множество записей на обучающее и тестовое множество.
    * Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д. Порядок множеств можно менять (кнопки *Сдвинуть вверх*, *Сдвинуть вниз*).
 * Метод [валидации](../../validation.md), который может принимать   следующие значения:
@@ -130,13 +130,13 @@ The wizard includes the following groups of parameters:
 
 #### Настройки метода
 
-Доступные параметры:
+Available Parameters:
 * **Точность решения** — критерий остановки итераций. Настройка, которая позволяет определить точность нахождения минимума функции ошибки. Значение вещественного типа от 0 до 1. Представляет собой редактор с шагом изменения значения 0,000001.
 * **Включить в модель константу** — добавляет в модель зависимую переменную.
 
 #### Настройки расчета статистики
 
-Доступные параметры:
+Available Parameters:
 
 * Рассчитать [доверительный интервал](https://wiki.loginom.ru/articles/confidence-interval.html).
 * % доверительного интервала.
@@ -147,7 +147,7 @@ The wizard includes the following groups of parameters:
 
 #### Настройки регуляризации
 
-Доступные параметры:
+Available Parameters:
 
 * **Установка коэффициента L1-регуляризации** — настройка данного параметра возможна только для алгоритмов *LASSO*, *Elastic-Net*;
 * **Установка коэффициента L2-регуляризации** — настройка данного параметра возможна только для алгоритмов *Ridge*, *Elastic-Net*.
@@ -156,7 +156,7 @@ The wizard includes the following groups of parameters:
 
 #### Настройки отбора факторов
 
-Доступные параметры:
+Available Parameters:
 
 * **Критерий отбора факторов** — позволяет выбрать один из следующих информационных критериев:
    * [F-тест](https://wiki.loginom.ru/articles/partial-f-test.html).

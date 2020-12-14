@@ -6,16 +6,16 @@
 
 С помощью логистической регрессии можно оценивать вероятность того, что событие наступит для конкретного испытуемого (больной/здоровый, возврат кредита/дефолт и т.д.).
 
-> **Важно:** входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.
+> **Important:** Input data must never contain missing values, output data must not contain missing values during training.
 
 ## Ports
 
 ### Input
 
-* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Входной источник данных (таблица данных) — обязательный порт;
-* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Управляющие переменные](../../../scenario/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Input data source (data table) — required port.
+* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of wizard parameters using variables.
 
-### Выходы
+### Outputs
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Выход регрессии.
    The table that consists of the following fields:
    * Событие|Прогноз.
@@ -31,21 +31,21 @@
 includes the follwing groups of parameters:
 
 * [Normalization](../../normalization/README.md) Settings;
-* [Разбиение на множества](#razbienie-na-mnozhestva);
+* [Partitioning](#razbienie-na-mnozhestva);
 * [Настройка логистической регрессии](#nastroyka-logisticheskoy-regressii);
-* [Детальные настройки](#detalnye-nastroyki).
+* [Detailed settings](#detalnye-nastroyki).
 
-### Разбиение на множества
+### Partitioning
 
-Страница *Разбиение на множества* мастера настройки узла позволяет разделить множество на обучающее и тестовое:
+The *Partitioning* page of the wizard enables to divide a set into the training and test ones:
 
-* [Обучающее](https://wiki.loginom.ru/articles/training-set.html) — cтруктурированный набор данных, применяемый для обучения [аналитических моделей](https://wiki.loginom.ru/articles/taught-model.html). Каждая запись обучающего множества представляет собой обучающий пример, содержащий заданное входное воздействие и соответствующий ему правильный выходной (целевой) результат.
-* [Тестовое](https://wiki.loginom.ru/articles/test-set.html) — подмножество обучающей выборки, содержащее тестовые примеры, т.е. примеры, использующиеся не для обучения модели, а для проверки его результатов.
+* [Train](https://wiki.loginom.ru/articles/training-set.html) denotes the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
+* [Test](https://wiki.loginom.ru/articles/test-set.html) denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
 
-Доступные параметры:
+Available Parameters:
 
-* Размер обучающего и тестового множества в процентах или строках. Может быть задан с помощью переменных.
-* Метод разбиения на обучающее и тестовое множество. Существует два метода разбиения:
+* Size of training and test set in percentage terms or in rows. It can be set by means of variables.
+* Method of partition to training and test sets. There are two partition methods:
    * Случайный — случайно разбивает множество записей на обучающее и тестовое множество.
    * Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д. Порядок множеств можно менять (кнопки *Сдвинуть вверх*, *Сдвинуть вниз*).
 * Метод [валидации](../../validation.md), который может принимать следующие значения:
@@ -145,14 +145,14 @@ includes the follwing groups of parameters:
 
 #### Настройки метода
 
-Доступные параметры:
+Available Parameters:
 * **Точность решения** — критерий остановки итераций. Настройка, которая позволяет определить точность нахождения минимума функции ошибки. Значение вещественного типа от 0 до 1. Представляет собой редактор с шагом изменения значения 0,000001.
 * **Порог отсечения** — определяет расчетное значение уравнения регрессии. Значение вещественного типа от 0 до 1. Представляет собой редактор с шагом изменения значения 0,1.
 * **Включить в модель константу** — добавляет в модель зависимую переменную.
 
 #### Настройки расчета статистики
 
-Доступные параметры:
+Available Parameters:
 
 * Рассчитать [доверительный интервал](https://wiki.loginom.ru/articles/confidence-interval.html).
 * % доверительного интервала.
@@ -163,7 +163,7 @@ includes the follwing groups of parameters:
 
 #### Настройки регуляризации
 
-Доступные параметры:
+Available Parameters:
 
 * **Установка коэффициента L1-регуляции** — настройка данного параметра возможна только для алгоритмов *LASSO*, *Elastic-Net*;
 * **Установка коэффициента L2-регуляции** — настройка данного параметра возможна только для алгоритмов *Ridge*, *Elastic-Net*.
@@ -172,7 +172,7 @@ includes the follwing groups of parameters:
 
 #### Настройки отбора факторов
 
-Доступные параметры:
+Available Parameters:
 
 * **Критерий отбора факторов** — позволяет выбрать один из следующих информационных критериев:
    * [Отношение правдоподобия](https://wiki.loginom.ru/articles/likelihood-ratio.html).
