@@ -28294,6 +28294,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так, с помощью линейной регрессии можно оценивать объем ожидаемых продаж в зависимости от установленной цены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T074427Z" creationid="Марианна" creationdate="20201214T074427Z">
+        <seg>For example, linear regression enables to estimate anticipated sales volume depending on the established price.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая конструкция подстановки дает возможность динамически в ходе выполнения сценария формировать текст запроса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
