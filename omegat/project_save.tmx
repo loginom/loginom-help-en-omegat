@@ -5708,6 +5708,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T074934Z" creationid="Марианна" creationdate="20201214T074934Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Input data must never contain missing data, output data must not contain missing data during training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; выходной порт для переменных может иметь линию связи только с входным портом для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T090910Z" creationid="Марианна" creationdate="20201009T090910Z">
@@ -23078,6 +23086,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T144930Z" creationid="Марианна" creationdate="20201116T144930Z">
         <seg>The handler replaces the source data set data using replacement tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик может использоваться для решения различных задач &lt;x1/&gt;Data Mining&lt;x2/&gt;, например, таких, как &lt;x3/&gt;прогнозирование&lt;x4/&gt; и численное предсказание.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T074643Z" creationid="Марианна" creationdate="20201214T074643Z">
+        <seg>The handler can be used to accomplish different &lt;x1/&gt;Data Mining&lt;x2/&gt; tasks, for example, such as &lt;x3/&gt;forecasting&lt;x4/&gt; and numerical prediction.</seg>
       </tuv>
     </tu>
     <tu>
