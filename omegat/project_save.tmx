@@ -4524,10 +4524,34 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Коэффициенты регрессионной модели&lt;x4/&gt; — таблица данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075547Z" creationid="Марианна" creationdate="20201214T075547Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Regression model coefficients&lt;x4/&gt; denote a data table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Сводка&lt;x4/&gt; — переменные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075608Z" creationid="Марианна" creationdate="20201214T075608Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Summary&lt;x4/&gt; denotes variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — Входной источник данных (таблица данных) — обязательный порт;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075138Z" creationid="Марианна" creationdate="20201214T075138Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — Input data source (data table) — required port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Выход регрессии — таблица, состоящая из полей: регрессия поля выходных данных, поля исходного набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075511Z" creationid="Марианна" creationdate="20201214T075511Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Regression output is a table that consists of the following fields: field regression of output data, source data set.</seg>
       </tuv>
     </tu>
     <tu>
