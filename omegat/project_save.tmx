@@ -12031,6 +12031,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точность решения&lt;x2/&gt; — критерий остановки итераций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114009Z" creationid="Марианна" creationdate="20201214T114009Z">
+        <seg>&lt;x1/&gt;Solution accuracy&lt;x2/&gt; is a criterion of iterations stop.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Точность&lt;x2/&gt; равна &lt;x3/&gt;12&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062855Z" creationid="Марианна" creationdate="20201116T062855Z">
