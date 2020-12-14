@@ -30110,6 +30110,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Является значением логического типа, по умолчанию выключено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T113218Z" creationid="Марианна" creationdate="20201214T113218Z">
+        <seg>It is a boolean value, disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Явного импорта &lt;x5/&gt;функций &lt;x6/&gt;Калькулятора&lt;x7/&gt;&lt;x8/&gt; (как это делается в &lt;x9/&gt;компоненте &lt;x10/&gt;JavaScript&lt;x11/&gt;&lt;x12/&gt;) делать не нужно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T171847Z" creationid="Марианна" creationdate="20201020T171847Z">
