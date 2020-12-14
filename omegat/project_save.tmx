@@ -19380,6 +19380,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступные параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T080921Z" creationid="Марианна" creationdate="20201214T080921Z">
+        <seg>Available Parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные поля</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082356Z" creationid="Марианна" creationdate="20201006T082356Z">
