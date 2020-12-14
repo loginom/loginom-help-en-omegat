@@ -21838,6 +21838,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод разбиения на обучающее и тестовое множество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T081328Z" creationid="Марианна" creationdate="20201214T081328Z">
+        <seg>Method of partition to training and test sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Методы Console</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T054525Z" creationid="Марианна" creationdate="20201029T054525Z">
@@ -21970,6 +21978,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085722Z" creationid="Марианна" creationdate="20201030T085722Z">
         <seg>Module Systems</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Может быть задан с помощью переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T081237Z" creationid="Марианна" creationdate="20201214T081237Z">
+        <seg>It can be set by means of variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26918,6 +26934,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170045Z" creationid="Марианна" creationdate="20200916T170045Z">
         <seg>Size (only for the string field) is a maximum string length; by default, it is equal to 50.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Размер обучающего и тестового множества в процентах или строках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T081223Z" creationid="Марианна" creationdate="20201214T081223Z">
+        <seg>Size of training and test set in percentage terms or in rows.</seg>
       </tuv>
     </tu>
     <tu>
