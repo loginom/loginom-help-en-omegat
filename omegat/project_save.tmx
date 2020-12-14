@@ -28298,6 +28298,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Существует два метода разбиения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T081343Z" creationid="Марианна" creationdate="20201214T081343Z">
+        <seg>There are two partition methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сформированные обработчиком столбцы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T153350Z" creationid="Марианна" creationdate="20201111T153350Z">
