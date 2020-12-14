@@ -6917,6 +6917,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Детальные настройки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075659Z" creationid="Марианна" creationdate="20201214T075659Z">
+        <seg>&lt;x1/&gt;Detailed settings&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065625Z" creationid="Марианна" creationdate="20200812T065625Z">
@@ -8717,6 +8725,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка линейной регрессии&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075643Z" creationid="Марианна" creationdate="20201214T075643Z">
+        <seg>&lt;x1/&gt;Linear regression configuring&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка назначений столбцов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055444Z" creationid="Марианна" creationdate="20200812T055444Z">
@@ -9033,6 +9049,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185926Z" creationid="Марианна" creationdate="20200810T185926Z">
         <seg>&lt;x1/&gt;Handlers&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обучающее&lt;x2/&gt; — cтруктурированный набор данных, применяемый для обучения &lt;x3/&gt;аналитических моделей&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T080157Z" creationid="Марианна" creationdate="20201214T080157Z">
+        <seg>&lt;x1/&gt;Train&lt;x2/&gt; denotes the structured data set used for training of &lt;x3/&gt;analytical models&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10739,6 +10763,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055533Z" creationid="Марианна" creationdate="20200812T055533Z">
         <seg>&lt;x1/&gt;Partitioning&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разбиение на множества&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075626Z" creationid="Марианна" creationdate="20201214T075626Z">
+        <seg>&lt;x1/&gt;Partitioning&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -26786,6 +26818,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Разбиение на множества</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075708Z" creationid="Марианна" creationdate="20201214T075708Z">
+        <seg>Partitioning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Развитием идеи повторного использования ранее созданных алгоритмов является создание библиотек универсальных функций.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T171404Z" creationid="Марианна" creationdate="20200718T151127Z">
@@ -28070,6 +28110,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T060010Z" creationid="Марианна" creationdate="20201109T060010Z">
         <seg>The &lt;x1/&gt;JavaScript&lt;x2/&gt; page contains the code editor executed by the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Страница &lt;x1/&gt;Разбиение на множества&lt;x2/&gt; мастера настройки узла позволяет разделить множество на обучающее и тестовое:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075854Z" creationid="Марианна" creationdate="20201214T075854Z">
+        <seg>The &lt;x1/&gt;Partitioning&lt;x2/&gt; page of the wizard enables to divide a set into the training and test ones:</seg>
       </tuv>
     </tu>
     <tu>
