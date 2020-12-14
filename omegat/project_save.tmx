@@ -8261,6 +8261,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt; представляет собой модель зависимости между &lt;x3/&gt;входными&lt;x4/&gt; и &lt;x5/&gt;выходными переменными&lt;x6/&gt; c линейной функцией связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T073520Z" creationid="Марианна" creationdate="20201214T073520Z">
+        <seg>&lt;x1/&gt;Linear regression&lt;x2/&gt; is a model of dependence between &lt;x3/&gt;input&lt;x4/&gt; and &lt;x5/&gt;output variables&lt;x6/&gt; with the linear link function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055817Z" creationid="Марианна" creationdate="20200812T055817Z">
