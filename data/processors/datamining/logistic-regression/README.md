@@ -46,7 +46,7 @@ Available Parameters:
 
 * Size of training and test set in percentage terms or in rows. It can be set by means of variables.
 * Method of partition to training and test sets. There are two partition methods:
-   * Случайный — случайно разбивает множество записей на обучающее и тестовое множество.
+   * Random method provides partitioning of records set to training and test sets.
    * Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д. Порядок множеств можно менять (кнопки *Сдвинуть вверх*, *Сдвинуть вниз*).
 * Метод [валидации](../../validation.md), который может принимать следующие значения:
    * Без валидации.
