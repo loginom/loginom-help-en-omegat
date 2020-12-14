@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>% доверительного интервала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114707Z" creationid="Марианна" creationdate="20201214T114707Z">
+        <seg>% confidence interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>% — выделить переменные в коде (добавляются множественные курсоры);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T160157Z" creationid="Марианна" creationdate="20201025T160157Z">
@@ -18644,6 +18652,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для всех моделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114741Z" creationid="Марианна" creationdate="20201214T114741Z">
+        <seg>For all models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для входного порта уникальность должна быть соблюдена в рамках списка входных портов, для выходного — в рамках списка выходных портов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160301Z" creationid="Марианна" creationdate="20200920T160301Z">
@@ -19232,6 +19248,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101838Z" creationid="Марианна" creationdate="20200919T101838Z">
         <seg>The current module nodes and all nodes available for reference are separately displayed for navigation convenience.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для финальной модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114751Z" creationid="Марианна" creationdate="20201214T114751Z">
+        <seg>For the final model.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22966,6 +22990,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки регуляризации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114803Z" creationid="Марианна" creationdate="20201214T114803Z">
+        <seg>Regularization settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки форматов импорта</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T100858Z" creationid="Марианна" creationdate="20200826T085702Z">
@@ -23042,6 +23074,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062507Z" creationid="Марианна" creationdate="20201116T062507Z">
         <seg>The values not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; are processed according to the specified &lt;x5/&gt;Precision&lt;x6/&gt; and &lt;x7/&gt;Replace other&lt;x8/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не рассчитывать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114733Z" creationid="Марианна" creationdate="20201214T114733Z">
+        <seg>Do not calculate.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27266,6 +27306,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рассчитать &lt;x1/&gt;доверительный интервал&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114655Z" creationid="Марианна" creationdate="20201214T114655Z">
+        <seg>Calculate &lt;x1/&gt;confidence interval&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
@@ -27302,6 +27350,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094355Z" creationid="Марианна" creationdate="20200813T094355Z">
         <seg>Platform editions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Режим расчета статистики:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114724Z" creationid="Марианна" creationdate="20201214T114724Z">
+        <seg>Statistics calculation mode:</seg>
       </tuv>
     </tu>
     <tu>
