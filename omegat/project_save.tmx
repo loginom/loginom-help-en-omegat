@@ -4900,6 +4900,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;F-тест&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114913Z" creationid="Марианна" creationdate="20201214T114913Z">
+        <seg>&lt;x1/&gt;F-test&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; — Ложь;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173821Z" creationid="Марианна" creationdate="20201005T173821Z">
@@ -8173,6 +8181,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент детерминации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114924Z" creationid="Марианна" creationdate="20201214T114924Z">
+        <seg>&lt;x1/&gt;Determination coefficient&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент корреляции Пирсона&lt;x2/&gt; — с его помощью можно определить силу и направление линейной зависимости между двумя процессами, происходящими одновременно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T074010Z" creationid="Марианна" creationdate="20201012T073704Z">
@@ -10445,6 +10461,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; все доступные параметры детальных настроек можно задавать с помощью переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115207Z" creationid="Марианна" creationdate="20201214T115207Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; all available parameters of the detailed settings can be set by means of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; все доступные параметры настройки линейной регрессии можно задавать с помощью переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113306Z" creationid="Марианна" creationdate="20201214T113306Z">
@@ -11291,6 +11315,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T065308Z" creationid="Марианна" creationdate="20201023T065308Z">
         <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt;: flag placement enables to create columns from the unique field (fields) values again.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скорректированный коэффициент детерминации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114935Z" creationid="Марианна" creationdate="20201214T114935Z">
+        <seg>&lt;x1/&gt;Adjusted determination coefficient&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20840,6 +20872,38 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Информационный &lt;x1/&gt;критерий Акаике скорректированный&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115014Z" creationid="Марианна" creationdate="20201214T115014Z">
+        <seg>&lt;x1/&gt;Akaike information criterion corrected&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Информационный &lt;x1/&gt;критерий Акаике&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115000Z" creationid="Марианна" creationdate="20201214T115000Z">
+        <seg>&lt;x1/&gt;Akaike information criterion&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Информационный &lt;x1/&gt;критерий Байеса&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115029Z" creationid="Марианна" creationdate="20201214T115029Z">
+        <seg>&lt;x1/&gt;Bayesian information criterion&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Информационный &lt;x1/&gt;критерий Ханнана-Квина&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115048Z" creationid="Марианна" creationdate="20201214T115048Z">
+        <seg>&lt;x1/&gt;Hannan-Quinn information criterion&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Информационный критерий Акаике (&lt;x1/&gt;AIC&lt;x2/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065247Z" creationid="Марианна" creationdate="20201208T065247Z">
@@ -25494,6 +25558,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083006Z" creationid="Марианна" creationdate="20201214T083006Z">
         <seg>Reduced accuracy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порог &lt;x1/&gt;значимости&lt;x2/&gt; при добавлении фактора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115112Z" creationid="Марианна" creationdate="20201214T115112Z">
+        <seg>&lt;x1/&gt;Significance threshold&lt;x2/&gt; in case of factor addition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порог значимости при исключении фактора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T115122Z" creationid="Марианна" creationdate="20201214T115122Z">
+        <seg>Significance threshold in case of factor exception.</seg>
       </tuv>
     </tu>
     <tu>
