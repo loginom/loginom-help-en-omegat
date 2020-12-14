@@ -20840,6 +20840,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждая запись обучающего множества представляет собой обучающий пример, содержащий заданное входное воздействие и соответствующий ему правильный выходной (целевой) результат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T080529Z" creationid="Марианна" creationdate="20201214T080529Z">
+        <seg>Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждая из присоединяемых переменных добавляет новый столбец к исходному набору.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T061917Z" creationid="Марианна" creationdate="20201019T061917Z">
