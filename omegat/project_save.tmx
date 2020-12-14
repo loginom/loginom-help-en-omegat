@@ -11847,6 +11847,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тестовое&lt;x2/&gt; — подмножество обучающей выборки, содержащее тестовые примеры, т.е. примеры, использующиеся не для обучения модели, а для проверки его результатов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T080908Z" creationid="Марианна" creationdate="20201214T080908Z">
+        <seg>&lt;x1/&gt;Test&lt;x2/&gt; denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; переменной.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T093951Z" creationid="Марианна" creationdate="20201009T090558Z">
