@@ -176,11 +176,11 @@ Available Parameters:
 
 * **Критерий отбора факторов** — позволяет выбрать один из следующих информационных критериев:
    * [Отношение правдоподобия](https://wiki.loginom.ru/articles/likelihood-ratio.html).
-   * Информационный [критерий Акаике](https://wiki.loginom.ru/articles/aic.html).
-   * Информационный [критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html).
-   * Информационный [критерий Байеса](https://wiki.loginom.ru/articles/bic.html).
-   * Информационный [критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html).
-* Порог [значимости](https://wiki.loginom.ru/articles/significance-regr.html) при добавлении фактора.
-* Порог значимости при исключении фактора.
+   * [Akaike information criterion](https://wiki.loginom.ru/articles/aic.html).
+   * [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html).
+   * [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html).
+   * [Hannan-Quinn information criterion](https://wiki.loginom.ru/articles/hq.html).
+* [Significance threshold](https://wiki.loginom.ru/articles/significance-regr.html) in case of factor addition.
+* Significance threshold in case of factor exception.
 
-> **Примечание:** все доступные параметры детальных настроек можно задавать с помощью переменных.
+> **Note:** all available parameters of the detailed settings can be set by means of variables.
