@@ -20140,6 +20140,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение вещественного типа от 0 до 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114319Z" creationid="Марианна" creationdate="20201214T114319Z">
+        <seg>It is a real value from 0 to 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение выражения в каждой строке набора данных будет вычислено по &lt;x3/&gt;формуле&lt;x4/&gt; или JavaScript коду.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T062700Z" creationid="Марианна" creationdate="20201015T062700Z">
@@ -22880,8 +22888,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройка, которая позволяет определить точность нахождения минимума функции ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T114233Z" creationid="Марианна" creationdate="20201214T114233Z">
-        <seg>This setting enables to define the accuracy of definition of error function minimum.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114249Z" creationid="Марианна" creationdate="20201214T114233Z">
+        <seg>This setting enables to define the accuracy of definition of the error function minimum.</seg>
       </tuv>
     </tu>
     <tu>
