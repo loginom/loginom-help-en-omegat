@@ -7789,6 +7789,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать детальные настройки&lt;x2/&gt; — позволяет более развернуто настроить линейную регрессию (появляется дополнительная страница мастера — блок детальных настроек).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T113105Z" creationid="Марианна" creationdate="20201214T113105Z">
+        <seg>&lt;x1/&gt;Use detailed settings&lt;x2/&gt; provides more detailed configuration of linear regression (additional wizard page appears - section of detailed settings).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать префиксы&lt;x2/&gt; — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T095319Z" creationid="Марианна" creationdate="20201118T095319Z">
