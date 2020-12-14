@@ -12879,6 +12879,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Backward</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083242Z" creationid="Марианна" creationdate="20201214T083242Z">
+        <seg>Backward</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Books JOIN Publisher ON Books.PubId = Pub.Id</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112830Z" creationid="Марианна" creationdate="20200825T112830Z">
@@ -13043,6 +13051,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205813Z" creationid="Марианна" creationdate="20201212T205813Z">
         <seg>EM clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Elastic-Net</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083259Z" creationid="Марианна" creationdate="20201214T083259Z">
+        <seg>Elastic-Net</seg>
       </tuv>
     </tu>
     <tu>
@@ -13287,6 +13303,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>LASSO</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083255Z" creationid="Марианна" creationdate="20201214T083255Z">
+        <seg>LASSO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062507Z" creationid="Марианна" creationdate="20200826T062507Z">
@@ -13439,6 +13463,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ridge</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083251Z" creationid="Марианна" creationdate="20201214T083251Z">
+        <seg>Ridge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>S — мощность (площадь) кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082336Z" creationid="Марианна" creationdate="20201210T082336Z">
@@ -13567,6 +13599,14 @@ interface IVariable {</seg>
 
 // View of input variable
 interface IVariable {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Stepwise</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083247Z" creationid="Марианна" creationdate="20201214T083247Z">
+        <seg>Stepwise</seg>
       </tuv>
     </tu>
     <tu>
