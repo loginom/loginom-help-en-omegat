@@ -7791,8 +7791,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать детальные настройки&lt;x2/&gt; — позволяет более развернуто настроить линейную регрессию (появляется дополнительная страница мастера — блок детальных настроек).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T113105Z" creationid="Марианна" creationdate="20201214T113105Z">
-        <seg>&lt;x1/&gt;Use detailed settings&lt;x2/&gt; provides more detailed configuration of linear regression (additional wizard page appears - section of detailed settings).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T113747Z" creationid="Марианна" creationdate="20201214T113105Z">
+        <seg>&lt;x1/&gt;Use detailed settings&lt;x2/&gt; provides more detailed configuration of linear regression (additional wizard page appears - pack of detailed settings).</seg>
       </tuv>
     </tu>
     <tu>
@@ -18572,6 +18572,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Детальные настройки объединяются в следующие блоки параметров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T113915Z" creationid="Марианна" creationdate="20201214T113915Z">
+        <seg>Detailed settings are joined into the following packs of parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Диапазон изменения значений от 1 до 4.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083536Z" creationid="Марианна" creationdate="20201210T083536Z">
@@ -20922,8 +20930,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Используются, если включен блок настроек параметров и в нем установлен флаг &lt;x1/&gt;Использовать детальные настройки&lt;x2/&gt;, или же он задан с помощью переменной.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T113608Z" creationid="Марианна" creationdate="20201214T113608Z">
-        <seg>They are used if the section of parameters configuration is enabled, and &lt;x1/&gt;Use detailed settings&lt;x2/&gt; flag is selected in it, or it can be set by means of variable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T113824Z" creationid="Марианна" creationdate="20201214T113608Z">
+        <seg>They are used if the parameters configuration pack is enabled, and &lt;x1/&gt;Use detailed settings&lt;x2/&gt; flag is selected in it, or it can be set by means of variable.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22898,6 +22906,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T175113Z" creationid="Марианна" creationdate="20201109T054831Z">
         <seg>Configure output columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки метода</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T113929Z" creationid="Марианна" creationdate="20201214T113929Z">
+        <seg>Method Settings</seg>
       </tuv>
     </tu>
     <tu>
