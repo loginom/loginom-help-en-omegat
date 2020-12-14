@@ -118,34 +118,34 @@ The following options are available for different methods:
 | LASSO | • |   | • |
 | Elastic-Net | • | • | • |
 
-* **Использовать детальные настройки** — позволяет более развернуто настроить линейную регрессию (появляется дополнительная страница мастера — блок детальных настроек). Является значением логического типа, по умолчанию выключено.
+* **Use detailed settings** provides more detailed configuration of linear regression (additional wizard page appears - pack of detailed settings). It is a boolean value, disabled by default.
 
-> **Примечание:** все доступные параметры настройки линейной регрессии можно задавать с помощью переменных.
+> **Note:** All available parameters of the linear regression configuration can be set by means of variables.
 
-### Детальные настройки
+### Detailed Settings
 
-Используются, если включен блок настроек параметров и в нем установлен флаг *Использовать детальные настройки*, или же он задан с помощью переменной.
+They are used if the parameters configuration pack is enabled, and *Use detailed settings* flag is selected in it, or it can be set by means of variable.
 
-Детальные настройки объединяются в следующие блоки параметров:
+Detailed settings are joined into the following packs of parameters:
 
-#### Настройки метода
-
-Available Parameters:
-* **Точность решения** — критерий остановки итераций. Настройка, которая позволяет определить точность нахождения минимума функции ошибки. Значение вещественного типа от 0 до 1. Представляет собой редактор с шагом изменения значения 0,000001.
-* **Включить в модель константу** — добавляет в модель зависимую переменную.
-
-#### Настройки расчета статистики
+#### Method Settings
 
 Available Parameters:
+* **Solution accuracy** is a criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
+* **Include intercept into the model** adds the dependent variable to the model.
 
-* Рассчитать [доверительный интервал](https://wiki.loginom.ru/articles/confidence-interval.html).
-* % доверительного интервала.
-* Режим расчета статистики:
-   * Не рассчитывать.
-   * Для всех моделей.
-   * Для финальной модели.
+#### Statistics Calculation Settings
 
-#### Настройки регуляризации
+Available Parameters:
+
+* Calculate [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html).
+* % confidence interval.
+* Statistics calculation mode:
+   * Do not calculate.
+   * For all models.
+   * For the final model.
+
+#### Regularization settings
 
 Available Parameters:
 
