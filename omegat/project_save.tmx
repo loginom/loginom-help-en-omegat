@@ -5989,6 +5989,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Включить в модель константу&lt;x2/&gt; — добавляет в модель зависимую переменную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114621Z" creationid="Марианна" creationdate="20201214T114621Z">
+        <seg>&lt;x1/&gt;Include intercept into the model&lt;x2/&gt; adds the dependent variable to the model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Включить константу в модель&lt;x2/&gt; — значение логического типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T073104Z" creationid="Марианна" creationdate="20201208T073104Z">
@@ -22950,6 +22958,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки расчета статистики</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114635Z" creationid="Марианна" creationdate="20201214T114635Z">
+        <seg>Statistics Calculation Settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки форматов импорта</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T100858Z" creationid="Марианна" creationdate="20200826T085702Z">
@@ -25870,6 +25886,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080246Z" creationid="Марианна" creationdate="20200716T080246Z">
         <seg>It is a set of data in the form of hierarchic tree-like structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет собой редактор с шагом изменения значения 0,000001.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T114501Z" creationid="Марианна" creationdate="20201214T114501Z">
+        <seg>It is an editor with value change interval equal to 0.000001.</seg>
       </tuv>
     </tu>
     <tu>
