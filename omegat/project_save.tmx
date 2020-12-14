@@ -29622,6 +29622,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Этот алгоритм зачастую дает хороший результат даже на небольших наборах данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T073946Z" creationid="Марианна" creationdate="20201214T073946Z">
+        <seg>This algorithm frequently produces good results even for small data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этот файл защищает открытый пакет от возможности редактировать или удалить его другими пользователями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
