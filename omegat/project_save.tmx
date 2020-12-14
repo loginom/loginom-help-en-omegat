@@ -8533,6 +8533,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083158Z" creationid="Марианна" creationdate="20201214T083158Z">
+        <seg>&lt;x1/&gt;Method&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Методом Drag-and-drop&lt;x2/&gt; — перетащить метку поля на элемент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163831Z" creationid="Марианна" creationdate="20200918T095141Z">
@@ -10507,6 +10515,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
         <seg>&lt;x1/&gt;Design principles&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Приоритет меньше/больше факторов&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083231Z" creationid="Марианна" creationdate="20201214T083231Z">
+        <seg>&lt;x1/&gt;Less/more factors priority&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Приоритет точность/скорость&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083208Z" creationid="Марианна" creationdate="20201214T083208Z">
+        <seg>&lt;x1/&gt;Accuracy/speed priority&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Приоритет точные/недостоверные данные&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083219Z" creationid="Марианна" creationdate="20201214T083219Z">
+        <seg>&lt;x1/&gt;Exact/inexact data priority&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13015,6 +13047,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Enter</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083233Z" creationid="Марианна" creationdate="20201214T083233Z">
+        <seg>Enter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Error!!!</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060900Z" creationid="Марианна" creationdate="20201029T060900Z">
@@ -13067,6 +13107,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083246Z" creationid="Марианна" creationdate="20201030T083246Z">
         <seg>Float</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Forward</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083237Z" creationid="Марианна" creationdate="20201214T083237Z">
+        <seg>Forward</seg>
       </tuv>
     </tu>
     <tu>
@@ -15962,6 +16010,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T121445Z" creationid="Марианна" creationdate="20200717T110908Z">
         <seg>The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the &lt;x1/&gt;Supernode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Больше факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083106Z" creationid="Марианна" creationdate="20201214T083106Z">
+        <seg>More factors.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21654,6 +21710,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимум факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083118Z" creationid="Марианна" creationdate="20201214T083118Z">
+        <seg>Maximum factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Масло</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103029Z" creationid="Марианна" creationdate="20201208T103029Z">
@@ -21730,6 +21794,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201124Z" creationid="Марианна" creationdate="20200829T200110Z">
         <seg>It is possible to move items between the lists, including drag&amp;drop (&lt;x1/&gt;drag&amp;drop&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Меньше факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083049Z" creationid="Марианна" creationdate="20201214T083049Z">
+        <seg>Less factors.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21922,6 +21994,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133506Z" creationid="Марианна" creationdate="20201210T133506Z">
         <seg>The minimum number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимум факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083040Z" creationid="Марианна" creationdate="20201214T083040Z">
+        <seg>Minimum factors.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22850,6 +22930,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100542Z" creationid="Марианна" creationdate="20200918T100542Z">
         <seg>Do not specify.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Недостоверные данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083019Z" creationid="Марианна" creationdate="20201214T083019Z">
+        <seg>Unreliable data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24426,6 +24514,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перечисленные опции доступны для различных методов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083150Z" creationid="Марианна" creationdate="20201214T083150Z">
+        <seg>The following options are available for different methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Персона - главная таблица и присоединяемая Город.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T105214Z" creationid="Марианна" creationdate="20201110T105214Z">
@@ -25222,6 +25318,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T132637Z" creationid="Марианна" creationdate="20201118T132637Z">
         <seg>Apart from the standard date formats, it is possible to set the format that complies with the international date standard - &lt;x1/&gt;ISO 8601&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пониженная точность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083006Z" creationid="Марианна" creationdate="20201214T083006Z">
+        <seg>Reduced accuracy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26638,6 +26742,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
         <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Приоритет меньше/больше факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083030Z" creationid="Марианна" creationdate="20201214T083030Z">
+        <seg>Less/more factors priority.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28098,6 +28210,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Среднее число факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T083058Z" creationid="Марианна" creationdate="20201214T083058Z">
+        <seg>Average number of factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Среднеквадратическая ошибка на обучающем множестве (TrainRMSError)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065150Z" creationid="Марианна" creationdate="20201208T065150Z">
@@ -28126,6 +28246,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082901Z" creationid="Марианна" creationdate="20201214T082901Z">
         <seg>Average speed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Средняя точность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T082955Z" creationid="Марианна" creationdate="20201214T082955Z">
+        <seg>Average accuracy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28970,6 +29098,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T105117Z" creationid="Марианна" creationdate="20200917T162022Z">
         <seg>Dot </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Точные данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T082945Z" creationid="Марианна" creationdate="20201214T082945Z">
+        <seg>Accurate data.</seg>
       </tuv>
     </tu>
     <tu>
