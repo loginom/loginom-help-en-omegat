@@ -27514,6 +27514,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Случайный — случайно разбивает множество записей на обучающее и тестовое множество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T082553Z" creationid="Марианна" creationdate="20201214T082553Z">
+        <seg>Random method provides partitioning of records set to training and test sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слэш (/);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062640Z" creationid="Марианна" creationdate="20200917T152308Z">
