@@ -4516,6 +4516,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075255Z" creationid="Марианна" creationdate="20201214T075255Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Control variables&lt;x4/&gt; (variables) — optional port. It is possible to set values of wizard parameters using variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Входной источник данных (таблица данных) — обязательный порт;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075138Z" creationid="Марианна" creationdate="20201214T075138Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Input data source (data table) — required port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — входной порт;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T094026Z" creationid="Марианна" creationdate="20201009T090716Z">
@@ -5710,8 +5726,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T074934Z" creationid="Марианна" creationdate="20201214T074934Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Input data must never contain missing data, output data must not contain missing data during training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201214T075056Z" creationid="Марианна" creationdate="20201214T074934Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Input data must never contain missing values, output data must not contain missing values during training.</seg>
       </tuv>
     </tu>
     <tu>
