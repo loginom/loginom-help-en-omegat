@@ -20564,6 +20564,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение целого типа, выбираемое согласно списку уникальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195530Z" creationid="Марианна" creationdate="20201215T195530Z">
+        <seg>The integer value selected according to the list of unique values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение этого параметра выбирается из списка:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161911Z" creationid="Марианна" creationdate="20200917T161911Z">
