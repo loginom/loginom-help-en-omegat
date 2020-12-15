@@ -17484,6 +17484,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Влияет на выбор конкретного метода и его настроек по шкале Точность — Скорость.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102735Z" creationid="Марианна" creationdate="20201215T102735Z">
+        <seg>It has an impact on selection of the particular method and its settings according to the Accuracy - Speed scale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Влияет на использование следующих блоков параметров: если включена, то можно настраивать блок &lt;x1/&gt;Приоритет автоматической настройки&lt;x2/&gt;, если выключена, то можно выбирать алгоритм отбора &lt;x3/&gt;факторов&lt;x4/&gt; и защиту от переобучения и настраивать приоритеты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102611Z" creationid="Марианна" creationdate="20201215T102611Z">
@@ -27094,6 +27102,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111810Z" creationid="Марианна" creationdate="20200717T111810Z">
         <seg>Principles of creation of the solutions based on own components are analysed in the &lt;x1/&gt;Design of Workflows&lt;x2/&gt; article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Приоритет автоматической настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102624Z" creationid="Марианна" creationdate="20201215T102624Z">
+        <seg>Auto setup priority:</seg>
       </tuv>
     </tu>
     <tu>
