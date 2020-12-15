@@ -12489,8 +12489,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Установка коэффициента L2-регуляризации&lt;x2/&gt; — настройка данного параметра возможна только для алгоритмов &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T151750Z" creationid="Марианна" creationdate="20201215T151750Z">
-        <seg>&lt;x1/&gt;L2-regularization coefficient setup&lt;x2/&gt; : configuration of this parameter is possible only for &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt; algorithms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T151940Z" creationid="Марианна" creationdate="20201215T151750Z">
+        <seg>&lt;x1/&gt;L2-regularization coefficient setup&lt;x2/&gt;: configuration of this parameter is possible only for &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt; algorithms.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19008,6 +19008,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T195713Z" creationid="Марианна" creationdate="20201208T195713Z">
         <seg>The following parameters are set for their determination and exclusion:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для каждого из параметров можно задать либо автоматическую установку значения, либо ввести необходимое значение вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T152115Z" creationid="Марианна" creationdate="20201215T152115Z">
+        <seg>It is possible to set auto setup of value for each of parameters, or to enter the required value .</seg>
       </tuv>
     </tu>
     <tu>
