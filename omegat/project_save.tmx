@@ -10599,6 +10599,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Принудительное включение (Enter)&lt;x2/&gt; — включение в регрессионную модель всех заданных признаков независимо от того, оказывают ли они значимое влияние или нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T140620Z" creationid="Марианна" creationdate="20201215T140620Z">
+        <seg>&lt;x1/&gt;Enter (Enter)&lt;x2/&gt;: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Принципы проектирования&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185021Z" creationid="Марианна" creationdate="20200810T154911Z">
