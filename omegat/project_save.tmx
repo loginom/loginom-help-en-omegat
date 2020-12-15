@@ -19014,8 +19014,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для каждого из параметров можно задать либо автоматическую установку значения, либо ввести необходимое значение вручную.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T152115Z" creationid="Марианна" creationdate="20201215T152115Z">
-        <seg>It is possible to set auto setup of value for each of parameters, or to enter the required value .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T152317Z" creationid="Марианна" creationdate="20201215T152115Z">
+        <seg>It is possible either to select auto setup of value for each of parameters, or to enter the required value in the manual way.</seg>
       </tuv>
     </tu>
     <tu>
