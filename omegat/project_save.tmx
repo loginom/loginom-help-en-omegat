@@ -4532,6 +4532,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Коэффициенты регрессионной модели&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194755Z" creationid="Марианна" creationdate="20201215T194755Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Regression model coefficients&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Сводка&lt;x4/&gt; (переменные).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194810Z" creationid="Марианна" creationdate="20201215T194810Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Summary&lt;x4/&gt; (variables).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075255Z" creationid="Марианна" creationdate="20201214T075255Z">
@@ -8873,6 +8889,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075643Z" creationid="Марианна" creationdate="20201214T075643Z">
         <seg>&lt;x1/&gt;Linear regression configuring&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка логистической регрессии&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194825Z" creationid="Марианна" creationdate="20201215T194825Z">
+        <seg>&lt;x1/&gt;Logistic regression configuring&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16270,6 +16294,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без валидации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194905Z" creationid="Марианна" creationdate="20201215T194905Z">
+        <seg>No validation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Без сжатия.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T180414Z" creationid="Марианна" creationdate="20200826T062934Z">
@@ -17880,6 +17912,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
         <seg>All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Все поля исходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194738Z" creationid="Марианна" creationdate="20201215T194738Z">
+        <seg>All fields of the source data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22302,6 +22342,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод &lt;x1/&gt;валидации&lt;x2/&gt;, который может принимать следующие значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194859Z" creationid="Марианна" creationdate="20201215T194859Z">
+        <seg>&lt;x1/&gt;Validation&lt;x2/&gt;method that can take the following values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод возвращает булево значение &lt;x1/&gt;true&lt;x2/&gt;, если столбец в заданной строке имеет пропущенное значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T172958Z" creationid="Марианна" creationdate="20201102T150410Z">
@@ -23130,6 +23178,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102008Z" creationid="Марианна" creationdate="20201215T102008Z">
         <seg>Linear Regression Configuring</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка логистической регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194932Z" creationid="Марианна" creationdate="20201215T194932Z">
+        <seg>Logistic Regression Configuring</seg>
       </tuv>
     </tu>
     <tu>
@@ -25582,6 +25638,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T131430Z" creationid="Марианна" creationdate="20201210T131401Z">
         <seg>The field will be no longer permitted for use in the following cases:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле выходных данных|Прогноз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194715Z" creationid="Марианна" creationdate="20201215T194715Z">
+        <seg>Output data field|Prediction.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28300,8 +28364,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Событие|Прогноз.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T194544Z" creationid="Марианна" creationdate="20201215T194544Z">
-        <seg>Event|Forecast.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194640Z" creationid="Марианна" creationdate="20201215T194544Z">
+        <seg>Event|Prediction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Событие|Факт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194652Z" creationid="Марианна" creationdate="20201215T194652Z">
+        <seg>Event|Actual.</seg>
       </tuv>
     </tu>
     <tu>
