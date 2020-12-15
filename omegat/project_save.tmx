@@ -6901,6 +6901,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Денормализировать коэффициенты модели&lt;x2/&gt; — денормализация необходима для интерпретации результатов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102913Z" creationid="Марианна" creationdate="20201215T102913Z">
+        <seg>&lt;x1/&gt;Denormalize model coefficients&lt;x2/&gt;: denormalization is required for interpretation of results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;День.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T054805Z" creationid="Марианна" creationdate="20201119T054805Z">
