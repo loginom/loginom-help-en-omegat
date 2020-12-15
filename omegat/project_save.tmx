@@ -8677,6 +8677,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Монте-Карло&lt;x2/&gt; — позволяет выбрать &lt;x3/&gt;Количество итераций ресемплинга&lt;x4/&gt; и задать размер обучающего и &lt;x5/&gt;валидационного множества&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101950Z" creationid="Марианна" creationdate="20201215T101950Z">
+        <seg>&lt;x1/&gt;Monte Carlo&lt;x2/&gt; enables to select &lt;x3/&gt;Resampling iteration count&lt;x4/&gt; and set the size of training and &lt;x5/&gt;validation set&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;На значение&lt;x2/&gt; — значения будут заменены на указанное.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T093427Z" creationid="Марианна" creationdate="20201117T093427Z">
@@ -22614,6 +22622,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Набор параметров для настройки линейной регрессии можно сгруппировать в следующие блоки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102119Z" creationid="Марианна" creationdate="20201215T102119Z">
+        <seg>A set of parameters to configure the linear regression can be grouped in the following packs:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103653Z" creationid="Марианна" creationdate="20201208T103653Z">
@@ -22914,6 +22930,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T145113Z" creationid="Марианна" creationdate="20200917T145113Z">
         <seg>The component is configured in two steps:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка линейной регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102008Z" creationid="Марианна" creationdate="20201215T102008Z">
+        <seg>Linear Regression Configuring</seg>
       </tuv>
     </tu>
     <tu>
