@@ -7909,6 +7909,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать детальные настройки&lt;x2/&gt; — позволяет более развернуто настроить логистическую регрессию (появляется дополнительная страница мастера — блок детальных настроек).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200048Z" creationid="Марианна" creationdate="20201215T200048Z">
+        <seg>&lt;x1/&gt;Use detailed settings&lt;x2/&gt; provides more detailed configuration of logistic regression (additional wizard page appears - pack of detailed settings).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать префиксы&lt;x2/&gt; — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T095319Z" creationid="Марианна" creationdate="20201118T095319Z">
@@ -10229,6 +10237,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порог отсечения&lt;x2/&gt; — определяет расчетное значение уравнения регрессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200145Z" creationid="Марианна" creationdate="20201215T200145Z">
+        <seg>&lt;x1/&gt;Cutoff&lt;x2/&gt; — определяет расчетное значение уравнения регрессии.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порт подключений&lt;x2/&gt; &lt;x3/&gt;Подключение&lt;x4/&gt; — принимает параметры подключения к Хранилищу данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T193517Z" creationid="Марианна" creationdate="20200827T193517Z">
@@ -10633,6 +10649,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113306Z" creationid="Марианна" creationdate="20201214T113306Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; All available parameters of the linear regression configuration can be set by means of variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; все доступные параметры настройки логистической регрессии можно задавать с помощью переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200122Z" creationid="Марианна" creationdate="20201215T200122Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; All available parameters of the logistic regression configuration can be set by means of variables.</seg>
       </tuv>
     </tu>
     <tu>
