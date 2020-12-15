@@ -10349,6 +10349,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пошаговое включение/исключение (Stepwise)&lt;x2/&gt; — модификация метода &lt;x3/&gt;Forward&lt;x4/&gt;, однако на каждом шаге после включения новой переменной в модель осуществляется проверка на значимость остальных переменных, которые уже были введены в нее ранее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195915Z" creationid="Марианна" creationdate="20201215T195915Z">
+        <seg>&lt;x1/&gt;Stepwise&lt;x2/&gt;: modification of the &lt;x3/&gt;Forward&lt;x4/&gt; method, however, at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пошаговое исключение (Backward)&lt;x2/&gt; — метод основан на следующем: начать со всех доступных признаков и последовательными итерациями исключить самые "худшие".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T141031Z" creationid="Марианна" creationdate="20201215T141031Z">
