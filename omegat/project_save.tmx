@@ -16326,6 +16326,22 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Более редкое.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195150Z" creationid="Марианна" creationdate="20201215T195150Z">
+        <seg>Rarer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Более частое.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195200Z" creationid="Марианна" creationdate="20201215T195200Z">
+        <seg>More frequent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Больше факторов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083106Z" creationid="Марианна" creationdate="20201214T083106Z">
@@ -19740,6 +19756,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступно для типа события &lt;x1/&gt;Задано явно&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195502Z" creationid="Марианна" creationdate="20201215T195502Z">
+        <seg>It is available for the event of &lt;x1/&gt;Explicitly set&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступность узлов определяется их видимостью (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
@@ -20264,6 +20288,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210248Z" creationid="Марианна" creationdate="20201212T210248Z">
         <seg>Set number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задано явно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195209Z" creationid="Марианна" creationdate="20201215T195209Z">
+        <seg>Explicitly set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21052,6 +21084,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143935Z" creationid="Марианна" creationdate="20201207T143935Z">
         <seg>Field_name|Forecast means forecast values of the source time series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Индекс заданного события.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195219Z" creationid="Марианна" creationdate="20201215T195219Z">
+        <seg>Specified event index.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22870,6 +22910,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Набор параметров для настройки логистической регрессии можно сгруппировать в следующие блоки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194956Z" creationid="Марианна" creationdate="20201215T194956Z">
+        <seg>A set of parameters to configure the logistic regression can be grouped in the following packs:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103653Z" creationid="Марианна" creationdate="20201208T103653Z">
@@ -23234,6 +23282,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T070037Z" creationid="Марианна" creationdate="20200924T070037Z">
         <seg>Configuration of the Node Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка событий</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195107Z" creationid="Марианна" creationdate="20201215T195107Z">
+        <seg>Configure events</seg>
       </tuv>
     </tu>
     <tu>
@@ -24746,6 +24802,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первое в списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195131Z" creationid="Марианна" creationdate="20201215T195131Z">
+        <seg>First listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Первый порт имеет индекс 0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143831Z" creationid="Марианна" creationdate="20201102T143831Z">
@@ -26190,6 +26254,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T120108Z" creationid="Марианна" creationdate="20201126T120108Z">
         <seg>Then the difference is distributed between all ungrouped values according to the selected balance method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последнее в списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195142Z" creationid="Марианна" creationdate="20201215T195142Z">
+        <seg>Last listed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29646,6 +29718,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тип события.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195119Z" creationid="Марианна" creationdate="20201215T195119Z">
+        <seg>Event type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Типы в данном столбце обозначаются цифрами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165132Z" creationid="Марианна" creationdate="20201111T165132Z">
@@ -30218,6 +30298,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060419Z" creationid="Марианна" creationdate="20201116T060419Z">
         <seg>Good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целочисленный тип в диапазоне от 0 до 4 включительно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195039Z" creationid="Марианна" creationdate="20201215T195039Z">
+        <seg>Integer type in the range from 0 to 4 inclusive:</seg>
       </tuv>
     </tu>
     <tu>
