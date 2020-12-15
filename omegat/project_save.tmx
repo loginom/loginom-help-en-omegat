@@ -15974,6 +15974,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическая настройка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102205Z" creationid="Марианна" creationdate="20201215T102205Z">
+        <seg>Auto setup:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоопределение числа кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205845Z" creationid="Марианна" creationdate="20201212T205845Z">
@@ -20276,6 +20284,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение логического типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102225Z" creationid="Марианна" creationdate="20201215T102225Z">
+        <seg>Boolean value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение параметра &lt;x1/&gt;Диапазон&lt;x2/&gt; можно задать при помощи выделения мышью ячеек таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190417Z" creationid="Марианна" creationdate="20200825T190417Z">
@@ -22938,6 +22954,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102008Z" creationid="Марианна" creationdate="20201215T102008Z">
         <seg>Linear Regression Configuring</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка метода</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102145Z" creationid="Марианна" creationdate="20201215T102145Z">
+        <seg>Configure method</seg>
       </tuv>
     </tu>
     <tu>
