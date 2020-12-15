@@ -30462,6 +30462,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Является значением логического типа, по умолчанию включено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T104316Z" creationid="Марианна" creationdate="20201215T104316Z">
+        <seg>It is a boolean value, enabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Является значением логического типа, по умолчанию выключено.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113218Z" creationid="Марианна" creationdate="20201214T113218Z">
