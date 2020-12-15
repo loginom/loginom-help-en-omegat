@@ -9309,6 +9309,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отбор факторов и защита от переобучения&lt;x2/&gt; — значение перечисления:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T104553Z" creationid="Марианна" creationdate="20201215T104553Z">
+        <seg>&lt;x1/&gt;Factor selection and protection against overfitting&lt;x2/&gt; - value of enumeration:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отключено&lt;x2/&gt; — кэширование не будет производится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072218Z" creationid="Марианна" creationdate="20201016T072218Z">
@@ -21100,6 +21108,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102743Z" creationid="Марианна" creationdate="20201009T102743Z">
         <seg>It is used during the Workflow debugging.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется, если не выбран флаг &lt;x1/&gt;Автоматическая настройка&lt;x2/&gt; или же он задан с помощью переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T104454Z" creationid="Марианна" creationdate="20201215T104454Z">
+        <seg>It is used if &lt;x1/&gt;Auto setup&lt;x2/&gt; flag is not selected, or it is set by means of variable.</seg>
       </tuv>
     </tu>
     <tu>
