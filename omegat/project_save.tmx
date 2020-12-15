@@ -28218,6 +28218,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сводка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200839Z" creationid="Марианна" creationdate="20201215T200839Z">
+        <seg>Summary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Свойства InputVariables</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101356Z" creationid="Марианна" creationdate="20201105T101356Z">
