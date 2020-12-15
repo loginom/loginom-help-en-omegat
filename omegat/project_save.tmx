@@ -10239,8 +10239,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Порог отсечения&lt;x2/&gt; — определяет расчетное значение уравнения регрессии.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T200145Z" creationid="Марианна" creationdate="20201215T200145Z">
-        <seg>&lt;x1/&gt;Cutoff&lt;x2/&gt; — определяет расчетное значение уравнения регрессии.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200240Z" creationid="Марианна" creationdate="20201215T200145Z">
+        <seg>&lt;x1/&gt;Cutoff&lt;x2/&gt; enables to define the calculated value of the regression equation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12567,9 +12567,25 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Установка коэффициента L1-регуляции&lt;x2/&gt; — настройка данного параметра возможна только для алгоритмов &lt;x3/&gt;LASSO&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200458Z" creationid="Марианна" creationdate="20201215T200419Z">
+        <seg>&lt;x1/&gt;L1-regularization coefficient setup&lt;x2/&gt;: configuration of this parameter is possible only for &lt;x3/&gt;LASSO&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt; algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Установка коэффициента L2-регуляризации&lt;x2/&gt; — настройка данного параметра возможна только для алгоритмов &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T151940Z" creationid="Марианна" creationdate="20201215T151750Z">
+        <seg>&lt;x1/&gt;L2-regularization coefficient setup&lt;x2/&gt;: configuration of this parameter is possible only for &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt; algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Установка коэффициента L2-регуляции&lt;x2/&gt; — настройка данного параметра возможна только для алгоритмов &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200454Z" creationid="Марианна" creationdate="20201215T200454Z">
         <seg>&lt;x1/&gt;L2-regularization coefficient setup&lt;x2/&gt;: configuration of this parameter is possible only for &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt; algorithms.</seg>
       </tuv>
     </tu>
@@ -26470,6 +26486,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114501Z" creationid="Марианна" creationdate="20201214T114501Z">
         <seg>It is an editor with value change interval equal to 0.000001.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет собой редактор с шагом изменения значения 0,1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200304Z" creationid="Марианна" creationdate="20201215T200304Z">
+        <seg>It is an editor with value change interval equal to 0.1.</seg>
       </tuv>
     </tu>
     <tu>
