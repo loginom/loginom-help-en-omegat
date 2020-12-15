@@ -8445,6 +8445,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt; — это разновидность множественной регрессии, общее назначение которой состоит в анализе связи между несколькими &lt;x3/&gt;независимыми переменными&lt;x4/&gt; и &lt;x5/&gt;зависимой переменной&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T193629Z" creationid="Марианна" creationdate="20201215T193629Z">
+        <seg>&lt;x1/&gt;Logistic regression&lt;x2/&gt; is a kind of multiple regression general purpose of which is to analyze relations between several &lt;x3/&gt;independent variables&lt;x4/&gt; and &lt;x5/&gt;dependent variable&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логические функции&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060442Z" creationid="Марианна" creationdate="20200812T060442Z">
