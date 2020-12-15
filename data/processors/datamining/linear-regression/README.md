@@ -59,7 +59,7 @@ A set of parameters to configure the linear regression can be grouped in the fol
 
 * Auto setup:
    * Boolean value. Enabled by default.
-   * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection from retraining, and it is also possible to set priorities.
+   * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection from overfitting, and it is also possible to set priorities.
 * Auto setup priority:
    * It has an impact on selection of the particular method and its settings according to the Accuracy - Speed scale.
    * Integer type. It can take the following values:
@@ -68,13 +68,13 @@ A set of parameters to configure the linear regression can be grouped in the fol
       * Average speed.
       * Increased speed.
       * Maximum speed.
-* **Денормализировать коэффициенты модели** — денормализация необходима для интерпретации результатов. Т.к. модель может работать только с нормализированными данными, то для ее работы необходимо сначала нормализовать данные, которые поступили в модель, а затем провести денормализацию для того, чтобы данные приняли вид, который был до нормализации. Является значением логического типа, по умолчанию включено.
+* **Denormalize model coefficients**: denormalization is required for interpretation of results. As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization. It is a boolean value, enabled by default.
 
 #### Configure Parameters
 
-Используется, если не выбран флаг *Автоматическая настройка* или же он задан с помощью переменной.
+It is used if *Auto setup* flag is not selected, or it is set by means of variable.
 
-* **Отбор факторов и защита от переобучения** — значение перечисления:
+* **Factor selection and protection against overfitting** - value of enumeration:
    * **Принудительное включение (Enter)** — включение в регрессионную модель всех заданных признаков независимо от того, оказывают ли они значимое влияние или нет.
    * **Пошаговое включение (Forward)** — метод, который базируется на принципе: начать с отсутствия признаков и постепенно найти самые "лучшие", которые будут добавлены в подмножество.
    * **Пошаговое исключение (Backward)** — метод основан на следующем: начать со всех доступных признаков и последовательными итерациями исключить самые "худшие".
