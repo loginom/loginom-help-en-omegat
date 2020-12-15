@@ -10237,6 +10237,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пошаговое включение (Forward)&lt;x2/&gt; — метод, который базируется на принципе: начать с отсутствия признаков и постепенно найти самые "лучшие", которые будут добавлены в подмножество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T140910Z" creationid="Марианна" creationdate="20201215T140910Z">
+        <seg>&lt;x1/&gt;Forward&lt;x2/&gt;: this method is based on the following principle: it is required to start from absence of indicators and gradually find the "best" ones that will be added to the subset.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
@@ -10601,8 +10609,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Принудительное включение (Enter)&lt;x2/&gt; — включение в регрессионную модель всех заданных признаков независимо от того, оказывают ли они значимое влияние или нет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T140620Z" creationid="Марианна" creationdate="20201215T140620Z">
-        <seg>&lt;x1/&gt;Enter (Enter)&lt;x2/&gt;: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T140639Z" creationid="Марианна" creationdate="20201215T140620Z">
+        <seg>&lt;x1/&gt;Enter&lt;x2/&gt;: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.</seg>
       </tuv>
     </tu>
     <tu>
