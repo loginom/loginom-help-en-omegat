@@ -10245,6 +10245,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пошаговое исключение (Backward)&lt;x2/&gt; — метод основан на следующем: начать со всех доступных признаков и последовательными итерациями исключить самые "худшие".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T141031Z" creationid="Марианна" creationdate="20201215T141031Z">
+        <seg>&lt;x1/&gt;Backward&lt;x2/&gt;: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
