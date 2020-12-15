@@ -10647,8 +10647,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; все доступные параметры детальных настроек можно задавать с помощью переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T115207Z" creationid="Марианна" creationdate="20201214T115207Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; all available parameters of the detailed settings can be set by means of variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200652Z" creationid="Марианна" creationdate="20201214T115207Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; All available parameters of the detailed settings can be set by means of variables.</seg>
       </tuv>
     </tu>
     <tu>
