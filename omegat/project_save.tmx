@@ -4572,6 +4572,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Выход регрессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194529Z" creationid="Марианна" creationdate="20201215T194529Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Regression output.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — входной порт;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T094026Z" creationid="Марианна" creationdate="20201009T090716Z">
@@ -17468,6 +17476,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вероятность события|Прогноз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194628Z" creationid="Марианна" creationdate="20201215T194628Z">
+        <seg>Event probabillity|Prediction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Версия пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084218Z" creationid="Марианна" creationdate="20201009T084218Z">
@@ -28278,6 +28294,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133402Z" creationid="Марианна" creationdate="20201210T133402Z">
         <seg>Uncheck &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Событие|Прогноз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194544Z" creationid="Марианна" creationdate="20201215T194544Z">
+        <seg>Event|Forecast.</seg>
       </tuv>
     </tu>
     <tu>
