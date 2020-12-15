@@ -5140,6 +5140,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ridge&lt;x2/&gt; — один из методов &lt;x3/&gt;понижения размерности&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T141725Z" creationid="Марианна" creationdate="20201215T141725Z">
+        <seg>&lt;x1/&gt;Ridge&lt;x2/&gt; is one of the methods used for &lt;x3/&gt;dimension decrease&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;RowCount&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144709Z" creationid="Марианна" creationdate="20201102T144709Z">
@@ -26926,6 +26934,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T133829Z" creationid="Марианна" creationdate="20201011T100433Z">
         <seg>The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set &lt;x1/&gt; &lt;x2/&gt; "Used" parameter in the input port settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применяется для борьбы с переизбыточностью данных, когда независимые переменные &lt;x5/&gt;коррелируют&lt;x6/&gt; друг с другом &lt;x7/&gt;(мультиколлинеарность)&lt;x8/&gt;, вследствие чего проявляется неустойчивость оценок коэффициентов линейной регрессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T142226Z" creationid="Марианна" creationdate="20201215T142226Z">
+        <seg>It is used to avoid data redundancy when independent variables &lt;x5/&gt;correlate&lt;x6/&gt; with each other &lt;x7/&gt;(multicollinearity)&lt;x8/&gt; which results in instability of estimates of linear regression coefficient.</seg>
       </tuv>
     </tu>
     <tu>
