@@ -28954,6 +28954,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Т.к. модель может работать только с нормализированными данными, то для ее работы необходимо сначала нормализовать данные, которые поступили в модель, а затем провести денормализацию для того, чтобы данные приняли вид, который был до нормализации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T104206Z" creationid="Марианна" creationdate="20201215T104206Z">
+        <seg>As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таблица данных, состоящая из:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T081237Z" creationid="Марианна" creationdate="20201210T081237Z">
