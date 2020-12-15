@@ -17510,8 +17510,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Влияет на использование следующих блоков параметров: если включена, то можно настраивать блок &lt;x1/&gt;Приоритет автоматической настройки&lt;x2/&gt;, если выключена, то можно выбирать алгоритм отбора &lt;x3/&gt;факторов&lt;x4/&gt; и защиту от переобучения и настраивать приоритеты.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T102611Z" creationid="Марианна" creationdate="20201215T102611Z">
-        <seg>It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure &lt;x1/&gt;Auto setup priority&lt;x2/&gt; pack, if it is disabled, it is possible to select the algorithm of &lt;x3/&gt;factors&lt;x4/&gt; selection and protection from retraining, and it is also possible to set priorities.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T104644Z" creationid="Марианна" creationdate="20201215T102611Z">
+        <seg>It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure &lt;x1/&gt;Auto setup priority&lt;x2/&gt; pack, if it is disabled, it is possible to select the algorithm of &lt;x3/&gt;factors&lt;x4/&gt; selection and protection from overfitting, and it is also possible to set priorities.</seg>
       </tuv>
     </tu>
     <tu>
