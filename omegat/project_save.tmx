@@ -4892,6 +4892,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Elastic-Net&lt;x2/&gt; — модель регрессии с двумя регуляризаторами &lt;x3/&gt;L1&lt;x4/&gt;, &lt;x5/&gt;L2&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T142509Z" creationid="Марианна" creationdate="20201215T142509Z">
+        <seg>&lt;x1/&gt;Elastic-Net&lt;x2/&gt;: regression model with two regularizers - &lt;x3/&gt;L1&lt;x4/&gt;, &lt;x5/&gt;L2&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185325Z" creationid="Марианна" creationdate="20200810T184455Z">
@@ -4976,6 +4984,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T101744Z" creationid="Марианна" creationdate="20201215T101744Z">
         <seg>&lt;x1/&gt;K-fold cross validation&lt;x2/&gt; enables to select the&lt;x3/&gt;Method of&lt;x4/&gt;sampling&lt;x5/&gt;&lt;x6/&gt; and number of &lt;x7/&gt;Cross validation fold&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;LASSO&lt;x2/&gt; — также как и &lt;x3/&gt;Ridge&lt;x4/&gt;, применяется для борьбы с переизбыточностью данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T142428Z" creationid="Марианна" creationdate="20201215T142428Z">
+        <seg>&lt;x1/&gt;LASSO&lt;x2/&gt; is used to avoid data redundancy as &lt;x3/&gt;Ridge&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26940,8 +26956,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Применяется для борьбы с переизбыточностью данных, когда независимые переменные &lt;x5/&gt;коррелируют&lt;x6/&gt; друг с другом &lt;x7/&gt;(мультиколлинеарность)&lt;x8/&gt;, вследствие чего проявляется неустойчивость оценок коэффициентов линейной регрессии.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T142226Z" creationid="Марианна" creationdate="20201215T142226Z">
-        <seg>It is used to avoid data redundancy when independent variables &lt;x5/&gt;correlate&lt;x6/&gt; with each other &lt;x7/&gt;(multicollinearity)&lt;x8/&gt; which results in instability of estimates of linear regression coefficient.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T142342Z" creationid="Марианна" creationdate="20201215T142226Z">
+        <seg>It is used to avoid data redundancy when independent variables &lt;x5/&gt;correlate&lt;x6/&gt; with each other &lt;x7/&gt;(multicollinearity)&lt;x8/&gt; that causes instability of estimates of linear regression coefficient.</seg>
       </tuv>
     </tu>
     <tu>
