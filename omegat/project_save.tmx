@@ -10343,8 +10343,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пошаговое включение/исключение (Stepwise)&lt;x2/&gt; — модификация метода &lt;x3/&gt;Forward&lt;x4/&gt; с тем отличием, что на каждом шаге после включения новой переменной в модель осуществляется проверка на значимость остальных переменных, которые уже были введены в нее ранее.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T141459Z" creationid="Марианна" creationdate="20201215T141459Z">
-        <seg>&lt;x1/&gt;Stepwise&lt;x2/&gt;: modification of the &lt;x3/&gt;Forward&lt;x4/&gt; method except that upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T195926Z" creationid="Марианна" creationdate="20201215T141459Z">
+        <seg>&lt;x1/&gt;Stepwise&lt;x2/&gt;: modification of the &lt;x3/&gt;Forward&lt;x4/&gt; method except that at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.</seg>
       </tuv>
     </tu>
     <tu>
