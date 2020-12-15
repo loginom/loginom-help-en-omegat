@@ -22136,8 +22136,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Метод &lt;x1/&gt;валидации&lt;x2/&gt;, который может принимать   следующие значения:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T101514Z" creationid="Марианна" creationdate="20201215T101514Z">
-        <seg>&lt;x1/&gt;Validation&lt;x2/&gt; method that can accept the following values:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T102806Z" creationid="Марианна" creationdate="20201215T101514Z">
+        <seg>&lt;x1/&gt;Validation&lt;x2/&gt; method that can take the following values:</seg>
       </tuv>
     </tu>
     <tu>
