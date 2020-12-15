@@ -45,23 +45,23 @@ Available Parameters:
 * Size of training and test set in percentage terms or in rows. It can be set by means of variables.
 * Method of partition to training and test sets. There are two partition methods:
    * Random method provides partitioning of records set to training and test sets.
-   * Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д. Порядок множеств можно менять (кнопки *Сдвинуть вверх*, *Сдвинуть вниз*).
-* Метод [валидации](../../validation.md), который может принимать   следующие значения:
-   * Без  валидации.
-   * [K-fold кросс-валидация](https://wiki.loginom.ru/articles/cross-validation.html) — позволяет выбрать *Метод [сэмплинга](https://wiki.loginom.ru/articles/sampling.html)* и количество *Колод кросс-валидации*.
-   * [Монте-Карло](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) — позволяет выбрать *Количество итераций ресемплинга* и задать размер обучающего и [валидационного множества](https://wiki.loginom.ru/articles/validation-set.html).
+   * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
+* [Validation](../../validation.md) method that can take the following values:
+   * No validation.
+   * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the*Method of[sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
+   * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
-### Настройка линейной регрессии
+### Linear Regression Configuring
 
-Набор параметров для настройки линейной регрессии можно сгруппировать в следующие блоки:
+A set of parameters to configure the linear regression can be grouped in the following packs:
 
-#### Настройка метода
+#### Configure method
 
-* Автоматическая настройка:
-   * Значение логического типа. Enabled by default.
-   * Влияет на использование следующих блоков параметров: если включена, то можно настраивать блок *Приоритет автоматической настройки*, если выключена, то можно выбирать алгоритм отбора [факторов](https://wiki.loginom.ru/articles/factor.html) и защиту от переобучения и настраивать приоритеты.
-* Приоритет автоматической настройки:
-   * Влияет на выбор конкретного метода и его настроек по шкале Точность — Скорость.
+* Auto setup:
+   * Boolean value. Enabled by default.
+   * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection from retraining, and it is also possible to set priorities.
+* Auto setup priority:
+   * It has an impact on selection of the particular method and its settings according to the Accuracy - Speed scale.
    * Integer type. It can take the following values:
       * Maximum accuracy.
       * Increased accuracy.
