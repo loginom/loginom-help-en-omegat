@@ -75,15 +75,15 @@ A set of parameters to configure the linear regression can be grouped in the fol
 It is used if *Auto setup* flag is not selected, or it is set by means of variable.
 
 * **Factor selection and protection against overfitting** - value of enumeration:
-   * **Принудительное включение (Enter)** — включение в регрессионную модель всех заданных признаков независимо от того, оказывают ли они значимое влияние или нет.
-   * **Пошаговое включение (Forward)** — метод, который базируется на принципе: начать с отсутствия признаков и постепенно найти самые "лучшие", которые будут добавлены в подмножество.
-   * **Пошаговое исключение (Backward)** — метод основан на следующем: начать со всех доступных признаков и последовательными итерациями исключить самые "худшие".
-   * **Пошаговое включение/исключение (Stepwise)** — модификация метода *Forward* с тем отличием, что на каждом шаге после включения новой переменной в модель осуществляется проверка на значимость остальных переменных, которые уже были введены в нее ранее.
-   * **Ridge** — один из методов [понижения размерности](https://wiki.loginom.ru/articles/data-reduction.html). Применяется для борьбы с переизбыточностью данных, когда независимые переменные [коррелируют](https://wiki.loginom.ru/articles/correlation.html) друг с другом [(мультиколлинеарность)](https://wiki.loginom.ru/articles/multicollinearity.html), вследствие чего проявляется неустойчивость оценок коэффициентов линейной регрессии.
-   * **LASSO** — также как и *Ridge*, применяется для борьбы с переизбыточностью данных.
-   * **Elastic-Net** — модель регрессии с двумя регуляризаторами *L1*, *L2*. Частными случаями являются модели *LASSO* *L1 = 0* и *Ridge* регрессии *L2 = 0*. Оба регуляризатора помогают улучшить обобщение и ошибки теста, поскольку не допускают переобучения модели из-за шума в данных:
-      * **L1** — реализует это путём отбора наиболее важных факторов, которые сильнее всего влияют на результат.
-      * **L2** — предотвращает переобучения модели путём запрета на непропорционально большие весовые коэффициенты.
+   * **Enter**: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.
+   * **Forward**: this method is based on the following principle: it is required to start from absence of indicators and gradually find the "best" ones that will be added to the subset.
+   * **Backward**: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.
+   * **Stepwise**: modification of the *Forward* method except that upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
+   * **Ridge** is one of the methods used for [dimension decrease](https://wiki.loginom.ru/articles/data-reduction.html). It is used to avoid data redundancy when independent variables [correlate](https://wiki.loginom.ru/articles/correlation.html) with each other [(multicollinearity)](https://wiki.loginom.ru/articles/multicollinearity.html) that causes instability of estimates of linear regression coefficient.
+   * **LASSO** is used to avoid data redundancy as *Ridge*.
+   * **Elastic-Net**: regression model with two regularizers - *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. Both regularizers help to improve generalization and errors of test as they protect the model against overfitting in connection with data noise:
+      * **L1** implements it by selecting the most important factors that have the highest impact on the result.
+      * **L2** prevents from the model overfitting by forbidding disproportionately large weighted coefficients.
 * Accuracy/speed priority.
    * Integer type. It can take the following values:
       * Maximum accuracy.
@@ -149,16 +149,16 @@ Available Parameters:
 
 Available Parameters:
 
-* **Установка коэффициента L1-регуляризации** — настройка данного параметра возможна только для алгоритмов *LASSO*, *Elastic-Net*;
-* **Установка коэффициента L2-регуляризации** — настройка данного параметра возможна только для алгоритмов *Ridge*, *Elastic-Net*.
+* **L1-regularization coefficient setup**: configuration of this parameter is possible only for *LASSO*, *Elastic-Net* algorithms.
+* **L2-regularization coefficient setup**: configuration of this parameter is possible only for *Ridge*, *Elastic-Net* algorithms.
 
-Для каждого из параметров можно задать либо автоматическую установку значения, либо ввести необходимое значение вручную.
+It is possible either to select auto setup of value for each of parameters, or to enter the required value in the manual way.
 
-#### Настройки отбора факторов
+#### Factor Selection Settings
 
 Available Parameters:
 
-* **Критерий отбора факторов** — позволяет выбрать один из следующих информационных критериев:
+* **Factor selection criterion** enables to select one of the following information criteria:
    * [F-test](https://wiki.loginom.ru/articles/partial-f-test.html).
    * [Determination coefficient](https://wiki.loginom.ru/articles/coefficient-of-determination.html).
    * [Adjusted determination coefficient](https://wiki.loginom.ru/articles/coefficient-determ-adj.html).
