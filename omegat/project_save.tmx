@@ -12487,6 +12487,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Установка коэффициента L2-регуляризации&lt;x2/&gt; — настройка данного параметра возможна только для алгоритмов &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T151750Z" creationid="Марианна" creationdate="20201215T151750Z">
+        <seg>&lt;x1/&gt;L2-regularization coefficient setup&lt;x2/&gt; : configuration of this parameter is possible only for &lt;x3/&gt;Ridge&lt;x4/&gt;, &lt;x5/&gt;Elastic-Net&lt;x6/&gt; algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Файловое хранилище&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071142Z" creationid="Марианна" creationdate="20200812T071142Z">
