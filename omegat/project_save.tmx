@@ -9485,6 +9485,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отношение правдоподобия&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T200554Z" creationid="Марианна" creationdate="20201215T200554Z">
+        <seg>&lt;x1/&gt;Likelihood ratio&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отношение шансов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135756Z" creationid="Марианна" creationdate="20201210T135756Z">
