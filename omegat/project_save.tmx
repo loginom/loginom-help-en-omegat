@@ -23570,6 +23570,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Оба регуляризатора помогают улучшить обобщение и ошибки теста, поскольку не допускают переобучения модели из-за шума в данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T143132Z" creationid="Марианна" creationdate="20201215T143132Z">
+        <seg>Both regularizers help to improve generalization and errors of test as they protect the model against overfitting in connection with data noise:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область кода выражения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162642Z" creationid="Марианна" creationdate="20201005T162642Z">
@@ -30058,6 +30066,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110709Z" creationid="Марианна" creationdate="20200929T110709Z">
         <seg>Digits (it cannot be the first character).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Частными случаями являются модели &lt;x7/&gt;LASSO&lt;x8/&gt; &lt;x9/&gt;L1 = 0&lt;x10/&gt; и &lt;x11/&gt;Ridge&lt;x12/&gt; регрессии &lt;x13/&gt;L2 = 0&lt;x14/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T142742Z" creationid="Марианна" creationdate="20201215T142742Z">
+        <seg>&lt;x7/&gt;LASSO&lt;x8/&gt; &lt;x9/&gt;L1 = 0&lt;x10/&gt; and &lt;x11/&gt;Ridge&lt;x12/&gt; of &lt;x13/&gt;L2 = 0&lt;x14/&gt; regression are the models that represent special cases.</seg>
       </tuv>
     </tu>
     <tu>
