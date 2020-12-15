@@ -27922,6 +27922,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью логистической регрессии можно оценивать вероятность того, что событие наступит для конкретного испытуемого (больной/здоровый, возврат кредита/дефолт и т.д.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T194506Z" creationid="Марианна" creationdate="20201215T194506Z">
+        <seg>The logistic regression enables to estimate possibility of the event occurrence for a particular test person (sick/healthy person, credit repayment/default, etc).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью обработчика &lt;x1/&gt;Соединение&lt;x2/&gt; исходный набор данных дополняется полями присоединяемых наборов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T074605Z" creationid="Марианна" creationdate="20201019T060655Z">
