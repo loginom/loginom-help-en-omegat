@@ -4972,6 +4972,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;K-fold кросс-валидация&lt;x2/&gt; — позволяет выбрать &lt;x3/&gt;Метод &lt;x4/&gt;сэмплинга&lt;x5/&gt;&lt;x6/&gt; и количество &lt;x7/&gt;Колод кросс-валидации&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101744Z" creationid="Марианна" creationdate="20201215T101744Z">
+        <seg>&lt;x1/&gt;K-fold cross validation&lt;x2/&gt; enables to select the&lt;x3/&gt;Method of&lt;x4/&gt;sampling&lt;x5/&gt;&lt;x6/&gt; and number of &lt;x7/&gt;Cross validation fold&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;LDAP&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071203Z" creationid="Марианна" creationdate="20200812T071203Z">
@@ -16102,6 +16110,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без  валидации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101526Z" creationid="Марианна" creationdate="20201215T101526Z">
+        <seg>No validation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Без сжатия.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T180414Z" creationid="Марианна" creationdate="20200826T062934Z">
@@ -22078,6 +22094,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод &lt;x1/&gt;валидации&lt;x2/&gt;, который может принимать   следующие значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101514Z" creationid="Марианна" creationdate="20201215T101514Z">
+        <seg>&lt;x1/&gt;Validation&lt;x2/&gt; method that can accept the following values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод возвращает булево значение &lt;x1/&gt;true&lt;x2/&gt;, если столбец в заданной строке имеет пропущенное значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T172958Z" creationid="Марианна" creationdate="20201102T150410Z">
@@ -25626,6 +25650,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порядок множеств можно менять (кнопки &lt;x1/&gt;Сдвинуть вверх&lt;x2/&gt;, &lt;x3/&gt;Сдвинуть вниз&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101436Z" creationid="Марианна" creationdate="20201215T101436Z">
+        <seg>It is posssible to change the order of sets (&lt;x1/&gt;Move up&lt;x2/&gt;, &lt;x3/&gt;Move down&lt;x4/&gt; buttons).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порядок полей в данной группе влияет на порядок сортировки данных в результирующей таблице по этим полям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081632Z" creationid="Марианна" creationdate="20201023T081632Z">
@@ -25908,8 +25940,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T101308Z" creationid="Марианна" creationdate="20201215T101308Z">
-        <seg>Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101335Z" creationid="Марианна" creationdate="20201215T101308Z">
+        <seg>Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc.</seg>
       </tuv>
     </tu>
     <tu>
