@@ -25906,6 +25906,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201215T101308Z" creationid="Марианна" creationdate="20201215T101308Z">
+        <seg>Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последующие символы имени могут быть такими же, либо цифрами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T200546Z" creationid="Марианна" creationdate="20201004T200546Z">
