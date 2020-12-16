@@ -24722,6 +24722,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отличается от нескорректированного коэффициента детерминации тем, что скорректированный коэффициент может уменьшаться при введении в регрессионную модель переменных, не оказывающих существенного влияния на &lt;x1/&gt;зависимую переменную&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T212515Z" creationid="Марианна" creationdate="20201216T212515Z">
+        <seg>It differs from not adjusted determination coefficient by the fact that the adjusted determination coefficient can be decreased when entering the variables that do not have considerable impact on the &lt;x1/&gt;dependent variable&lt;x2/&gt; into the regression model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отлично</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060347Z" creationid="Марианна" creationdate="20201116T060347Z">
