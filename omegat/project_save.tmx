@@ -22734,6 +22734,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Модифицированный критерий Акаике, применяемый для &lt;x1/&gt;выборок&lt;x2/&gt; малого размера, когда отношение числа содержащихся в ней примеров к числу параметров модели меньше 40</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T211506Z" creationid="Марианна" creationdate="20201216T211506Z">
+        <seg>Modified Akaike criterion used for the samll &lt;x1/&gt;samples&lt;x2/&gt; when отношение числа содержащихся в ней примеров к числу параметров модели меньше 40</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модуль включает в себя:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111621Z" creationid="Марианна" creationdate="20200713T111621Z">
