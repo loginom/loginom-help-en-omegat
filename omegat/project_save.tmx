@@ -22736,8 +22736,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Модифицированный критерий Акаике, применяемый для &lt;x1/&gt;выборок&lt;x2/&gt; малого размера, когда отношение числа содержащихся в ней примеров к числу параметров модели меньше 40</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T211525Z" creationid="Марианна" creationdate="20201216T211506Z">
-        <seg>Modified Akaike criterion used for the small &lt;x1/&gt;samples&lt;x2/&gt; when отношение числа содержащихся в ней примеров к числу параметров модели меньше 40</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T211842Z" creationid="Марианна" creationdate="20201216T211506Z">
+        <seg>Modified Akaike criterion used for the small &lt;x1/&gt;samples&lt;x2/&gt; when ratio of number of the samples in it to the number of the model parameters is less than 40.</seg>
       </tuv>
     </tu>
     <tu>
