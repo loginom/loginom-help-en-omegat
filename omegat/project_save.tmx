@@ -26610,6 +26610,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Представляет собой вероятность того, что значение проверочной статистики используемого критерия, вычисленное по выборке, превысит установленное p-значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210507Z" creationid="Марианна" creationdate="20201216T210507Z">
+        <seg>It is probability of the fact that the test statistics value of the used criterion calculated for a sample will exceed the set P-value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представляет собой набор данных в иерархической древовидной структуре.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T080246Z" creationid="Марианна" creationdate="20200716T080246Z">
