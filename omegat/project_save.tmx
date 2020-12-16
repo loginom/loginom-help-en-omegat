@@ -8277,6 +8277,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент детерминации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205334Z" creationid="Марианна" creationdate="20201216T205334Z">
+        <seg>&lt;x1/&gt;Determination coefficient&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент детерминации&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114924Z" creationid="Марианна" creationdate="20201214T114924Z">
@@ -11515,6 +11523,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T065308Z" creationid="Марианна" creationdate="20201023T065308Z">
         <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt;: flag placement enables to create columns from the unique field (fields) values again.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скорректированный коэффициент детерминации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205357Z" creationid="Марианна" creationdate="20201216T205357Z">
+        <seg>&lt;x1/&gt;Adjusted determination coefficient&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17560,6 +17576,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133424Z" creationid="Марианна" creationdate="20201210T133424Z">
         <seg>Enter the required number of clusters (must exceed 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Величина связи между переменными регрессионной модели (изменяется от 0 до 1)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205811Z" creationid="Марианна" creationdate="20201216T205811Z">
+        <seg>Value of link between variables of regression model (changes from 0 to 1)</seg>
       </tuv>
     </tu>
     <tu>
