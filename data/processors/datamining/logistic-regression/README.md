@@ -1,10 +1,10 @@
-# ![ ](../../../images/icons/components/logregression_default.svg) Логистическая регрессия
+# ![ ](../../../images/icons/components/logregression_default.svg) Logistic Regression
 
 ## Description
 
-[Логистическая регрессия](https://wiki.loginom.ru/articles/logistic-regression.html) — это разновидность множественной регрессии, общее назначение которой состоит в анализе связи между несколькими [независимыми переменными](https://wiki.loginom.ru/articles/input-variable.html) и [зависимой переменной](https://wiki.loginom.ru/articles/output-variable.html).
+[Logistic regression](https://wiki.loginom.ru/articles/logistic-regression.html) is a kind of multiple regression general purpose of which is to analyze relations between several [independent variables](https://wiki.loginom.ru/articles/input-variable.html) and [dependent variable](https://wiki.loginom.ru/articles/output-variable.html).
 
-С помощью логистической регрессии можно оценивать вероятность того, что событие наступит для конкретного испытуемого (больной/здоровый, возврат кредита/дефолт и т.д.).
+The logistic regression enables to estimate possibility of the event occurrence for a particular test person (sick/healthy person, credit repayment/default, etc).
 
 > **Important:** Input data must never contain missing values, output data must not contain missing values during training.
 
@@ -16,15 +16,15 @@
 * ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of wizard parameters using variables.
 
 ### Outputs
-* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Выход регрессии.
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Regression output.
    The table that consists of the following fields:
-   * Событие|Прогноз.
-   * Вероятность события|Прогноз.
-   * Событие|Факт.
-   * Поле выходных данных|Прогноз.
-   * Все поля исходного набора данных.
-* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) —  [Коэффициенты регрессионной модели](./coef-regression.md) (таблица данных).
-* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Сводка](./report.md) (переменные).
+   * Event|Prediction.
+   * Event probabillity|Prediction.
+   * Event|Actual.
+   * Output data field|Prediction.
+   * All fields of the source data set.
+* ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) —  [Regression model coefficients](./coef-regression.md) (data table).
+* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Summary](./report.md) (variables).
 
 ## Node wizard
 
@@ -32,7 +32,7 @@ includes the follwing groups of parameters:
 
 * [Normalization](../../normalization/README.md) Settings;
 * [Partitioning](#razbienie-na-mnozhestva);
-* [Настройка логистической регрессии](#nastroyka-logisticheskoy-regressii);
+* [Logistic regression configuring](#nastroyka-logisticheskoy-regressii);
 * [Detailed settings](#detalnye-nastroyki).
 
 ### Partitioning
@@ -48,15 +48,15 @@ Available Parameters:
 * Method of partition to training and test sets. There are two partition methods:
    * Random method provides partitioning of records set to training and test sets.
    * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
-* Метод [валидации](../../validation.md), который может принимать следующие значения:
-   * Без валидации.
+* [Validation](../../validation.md)method that can take the following values:
+   * No validation.
    * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the*Method of[sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
    * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
 
-### Настройка логистической регрессии
+### Logistic Regression Configuring
 
-Набор параметров для настройки логистической регрессии можно сгруппировать в следующие блоки:
+A set of parameters to configure the logistic regression can be grouped in the following packs:
 
 #### Configure method
 
@@ -65,7 +65,7 @@ Available Parameters:
    * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection from overfitting, and it is also possible to set priorities.
 * Auto setup priority:
    * It has an impact on selection of the particular method and its settings according to the Accuracy - Speed scale.
-   * Целочисленный тип в диапазоне от 0 до 4 включительно:
+   * Integer type in the range from 0 to 4 inclusive:
       * Maximum accuracy.
       * Increased accuracy.
       * Average speed.
@@ -73,17 +73,17 @@ Available Parameters:
       * Maximum speed.
 * **Denormalize model coefficients**: denormalization is required for interpretation of results. As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization. It is a boolean value, enabled by default.
 
-#### Настройка событий
+#### Configure events
 
-* Тип события. It can take the following values:
-   * Первое в списке.
-   * Последнее в списке.
-   * Более редкое.
-   * Более частое.
-   * Задано явно.
-* Индекс заданного события.
-   * Доступно для типа события *Задано явно*.
-   * Значение целого типа, выбираемое согласно списку уникальных значений.
+* Event type. It can take the following values:
+   * First listed.
+   * Last listed.
+   * Rarer.
+   * More frequent.
+   * Explicitly set.
+* Specified event index.
+   * It is available for the event of *Explicitly set* type.
+   * The integer value selected according to the list of unique values.
 
 #### Configure Parameters
 
@@ -93,28 +93,28 @@ It is used if *Auto setup* flag is not selected, or it is set by means of variab
    * **Enter**: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.
    * **Forward**: this method is based on the following principle: it is required to start from absence of indicators and gradually find the "best" ones that will be added to the subset.
    * **Backward**: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.
-   * **Пошаговое включение/исключение (Stepwise)** — модификация метода *Forward*, однако на каждом шаге после включения новой переменной в модель осуществляется проверка на значимость остальных переменных, которые уже были введены в нее ранее.
+   * **Stepwise**: modification of the *Forward* method, however, at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
    * **Ridge** is one of the methods used for [dimension decrease](https://wiki.loginom.ru/articles/data-reduction.html). It is used to avoid data redundancy when independent variables [correlate](https://wiki.loginom.ru/articles/correlation.html) with each other [(multicollinearity)](https://wiki.loginom.ru/articles/multicollinearity.html) that causes instability of estimates of linear regression coefficient.
    * **LASSO** is used to avoid data redundancy as *Ridge*.
    * **Elastic-Net**: regression model with two regularizers - *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. Both regularizers help to improve generalization and errors of test as they protect the model against overfitting in connection with data noise:
       * **L1** implements it by selecting the most important factors that have the highest impact on the result.
       * **L2** prevents from the model overfitting by forbidding disproportionately large weighted coefficients.
 * Accuracy/speed priority.
-   * Целочисленный тип в диапазоне от 0 до 4 включительно:
+   * Integer type in the range from 0 to 4 inclusive:
       * Maximum accuracy.
       * Increased accuracy.
       * Average speed.
       * Increased speed.
       * Maximum speed.
 * Exact/inexact data priority.
-   * Целочисленный тип в диапазоне от 0 до 4 включительно:
+   * Integer type in the range from 0 to 4 inclusive:
       * Accurate data.
       * Increased accuracy.
       * Average accuracy.
       * Reduced accuracy.
       * Unreliable data.
 * Less/more factors priority.
-   * Целочисленный тип в диапазоне от 0 до 4 включительно:
+   * Integer type in the range from 0 to 4 inclusive:
       * Minimum factors.
       * Less factors.
       * Average number of factors.
@@ -133,9 +133,9 @@ The following options are available for different methods:
 | LASSO | • |   | • |
 | Elastic-Net | • | • | • |
 
-* **Использовать детальные настройки** — позволяет более развернуто настроить логистическую регрессию (появляется дополнительная страница мастера — блок детальных настроек). It is a boolean value, disabled by default.
+* **Use detailed settings** provides more detailed configuration of logistic regression (additional wizard page appears - pack of detailed settings). It is a boolean value, disabled by default.
 
-> **Примечание:** все доступные параметры настройки логистической регрессии можно задавать с помощью переменных.
+> **Note:** All available parameters of the logistic regression configuration can be set by means of variables.
 
 ### Detailed Settings
 
@@ -147,7 +147,7 @@ Detailed settings are joined into the following packs of parameters:
 
 Available Parameters:
 * **Solution accuracy** is a criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
-* **Порог отсечения** — определяет расчетное значение уравнения регрессии. It is a real value from 0 to 1. Представляет собой редактор с шагом изменения значения 0,1.
+* **Cutoff** enables to define the calculated value of the regression equation. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.1.
 * **Include intercept into the model** adds the dependent variable to the model.
 
 #### Statistics Calculation Settings
@@ -165,8 +165,8 @@ Available Parameters:
 
 Available Parameters:
 
-* **Установка коэффициента L1-регуляции** — настройка данного параметра возможна только для алгоритмов *LASSO*, *Elastic-Net*;
-* **Установка коэффициента L2-регуляции** — настройка данного параметра возможна только для алгоритмов *Ridge*, *Elastic-Net*.
+* **L1-regularization coefficient setup**: configuration of this parameter is possible only for *LASSO*, *Elastic-Net* algorithms.
+* **L2-regularization coefficient setup**: configuration of this parameter is possible only for *Ridge*, *Elastic-Net* algorithms.
 
 It is possible either to select auto setup of value for each of parameters, or to enter the required value in the manual way.
 
@@ -175,7 +175,7 @@ It is possible either to select auto setup of value for each of parameters, or t
 Available Parameters:
 
 * **Factor selection criterion** enables to select one of the following information criteria:
-   * [Отношение правдоподобия](https://wiki.loginom.ru/articles/likelihood-ratio.html).
+   * [Likelihood ratio](https://wiki.loginom.ru/articles/likelihood-ratio.html).
    * [Akaike information criterion](https://wiki.loginom.ru/articles/aic.html).
    * [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html).
    * [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html).
@@ -183,4 +183,4 @@ Available Parameters:
 * [Significance threshold](https://wiki.loginom.ru/articles/significance-regr.html) in case of factor addition.
 * Significance threshold in case of factor exception.
 
-> **Note:** all available parameters of the detailed settings can be set by means of variables.
+> **Note:** All available parameters of the detailed settings can be set by means of variables.

@@ -37,14 +37,14 @@
 |:------------------------|:-----------------------------------------------|
 | ![Логический](../../images/icons/data-types/boolean_default.svg) Константа | [Зависимая переменная](https://wiki.loginom.ru/articles/output-variable.html) |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) -2 Log Likelihood | -2 Логарифма [функции правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html) |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) R2 | [Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html) |
+| ![Вещественный](../../images/icons/data-types/float_default.svg) R2 | [Determination coefficient](https://wiki.loginom.ru/articles/coefficient-of-determination.html) |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) R2 корр. | [Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html) |
 | ![Целый](../../images/icons/data-types/integer_default.svg)[Число степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html) | Число независимо варьируемых значений признака |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html) | Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной переменными](https://wiki.loginom.ru/articles/output-variable.html)  регрессионной модели |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) AIC | [Информационный критерий Акаике](https://wiki.loginom.ru/articles/aic.html) |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) AICc | [Информационный критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html) |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) BIC | [Информационный критерий Байеса](https://wiki.loginom.ru/articles/bic.html) |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) HQC | [Информационный критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html) |
+| ![Вещественный](../../images/icons/data-types/float_default.svg) AIC | [Akaike information criterion](https://wiki.loginom.ru/articles/aic.html) |
+| ![Вещественный](../../images/icons/data-types/float_default.svg) AICc | [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html) |
+| ![Вещественный](../../images/icons/data-types/float_default.svg) BIC | [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html) |
+| ![Вещественный](../../images/icons/data-types/float_default.svg) HQC | [Hannan-Quinn information criterion](https://wiki.loginom.ru/articles/hq.html) |
 
 #### Regression Coefficients
 

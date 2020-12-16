@@ -78,7 +78,7 @@ It is used if *Auto setup* flag is not selected, or it is set by means of variab
    * **Enter**: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.
    * **Forward**: this method is based on the following principle: it is required to start from absence of indicators and gradually find the "best" ones that will be added to the subset.
    * **Backward**: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.
-   * **Stepwise**: modification of the *Forward* method except that upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
+   * **Stepwise**: modification of the *Forward* method except that at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
    * **Ridge** is one of the methods used for [dimension decrease](https://wiki.loginom.ru/articles/data-reduction.html). It is used to avoid data redundancy when independent variables [correlate](https://wiki.loginom.ru/articles/correlation.html) with each other [(multicollinearity)](https://wiki.loginom.ru/articles/multicollinearity.html) that causes instability of estimates of linear regression coefficient.
    * **LASSO** is used to avoid data redundancy as *Ridge*.
    * **Elastic-Net**: regression model with two regularizers - *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. Both regularizers help to improve generalization and errors of test as they protect the model against overfitting in connection with data noise:
@@ -169,4 +169,4 @@ Available Parameters:
 * [Significance threshold](https://wiki.loginom.ru/articles/significance-regr.html) in case of factor addition.
 * Significance threshold in case of factor exception.
 
-> **Note:** all available parameters of the detailed settings can be set by means of variables.
+> **Note:** All available parameters of the detailed settings can be set by means of variables.
