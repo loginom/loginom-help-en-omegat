@@ -3140,6 +3140,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Координаты узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T212909Z" creationid="Марианна" creationdate="20201216T212909Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Coordinates of nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Корреляционный анализ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T112030Z" creationid="Марианна" creationdate="20201011T112030Z">
@@ -9145,6 +9153,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132341Z" creationid="Марианна" creationdate="20201210T132317Z">
         <seg>&lt;x1/&gt;Cluster number&lt;x2/&gt;: numbers of the generated clusters are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Номер узла&lt;x2/&gt; — перечислены номера сформированных узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T212954Z" creationid="Марианна" creationdate="20201216T212954Z">
+        <seg>&lt;x1/&gt;Node number&lt;x2/&gt;: numbers of the generated nodes are listed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23566,6 +23582,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки &lt;x1/&gt;нормализации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213010Z" creationid="Марианна" creationdate="20201216T213010Z">
+        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; Settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки &lt;x1/&gt;нормализации&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132843Z" creationid="Марианна" creationdate="20201210T132843Z">
@@ -23746,6 +23770,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083019Z" creationid="Марианна" creationdate="20201214T083019Z">
         <seg>Unreliable data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нейронный газ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213052Z" creationid="Марианна" creationdate="20201216T213052Z">
+        <seg>Neural gas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25026,6 +25058,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры сети:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213104Z" creationid="Марианна" creationdate="20201216T213104Z">
+        <seg>Network Parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пензенская обл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212312Z" creationid="Марианна" creationdate="20201012T212047Z">
@@ -25454,6 +25494,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164929Z" creationid="Марианна" creationdate="20201010T164929Z">
         <seg>Monday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По   умолчанию — 3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213155Z" creationid="Марианна" creationdate="20201216T213155Z">
+        <seg>By default — 3.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28082,6 +28130,30 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Размер сети по X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213117Z" creationid="Марианна" creationdate="20201216T213117Z">
+        <seg>Network size X.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Размер сети по Y.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213132Z" creationid="Марианна" creationdate="20201216T213132Z">
+        <seg>Network size Y.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Размер сети по Z.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213143Z" creationid="Марианна" creationdate="20201216T213143Z">
+        <seg>Network size Z.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Разрядность LGD-файла зависит от разрядности используемого сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195818Z" creationid="Марианна" creationdate="20200916T195818Z">
@@ -28394,6 +28466,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Самоорганизующаяся нейронная сеть.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213018Z" creationid="Марианна" creationdate="20201216T213018Z">
+        <seg>Self-organizing network.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сахарница расписная</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112528Z" creationid="Марианна" creationdate="20201124T112528Z">
@@ -28558,6 +28638,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093056Z" creationid="Марианна" creationdate="20200819T074443Z">
         <seg>Server Editions (Team, Standard, Enterprise)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сеть Кохонена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213042Z" creationid="Марианна" creationdate="20201216T213042Z">
+        <seg>Kohonen network.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29994,6 +30082,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110524Z" creationid="Марианна" creationdate="20201111T110511Z">
         <seg>Operation type (join method) can be selected from the drop-down list, or it can be set using the &lt;x1/&gt;control variable&lt;x2/&gt; of the integer type (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип самоорганизующейся сети:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213032Z" creationid="Марианна" creationdate="20201216T213032Z">
+        <seg>Type of self-organizing network:</seg>
       </tuv>
     </tu>
     <tu>
