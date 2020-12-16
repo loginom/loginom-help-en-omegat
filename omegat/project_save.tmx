@@ -16518,6 +16518,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без скрытых слоев;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214631Z" creationid="Марианна" creationdate="20201216T214631Z">
+        <seg>No hidden layers;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210411Z" creationid="Марианна" creationdate="20201212T210411Z">
@@ -21576,6 +21584,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется по умолчанию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214820Z" creationid="Марианна" creationdate="20201216T214820Z">
+        <seg>It is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется при отладке Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102743Z" creationid="Марианна" creationdate="20201009T102743Z">
@@ -24586,6 +24602,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Один скрытый слой (используется по умолчанию);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214710Z" creationid="Марианна" creationdate="20201216T214710Z">
+        <seg>One hidden layer (used by default);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в обработчике &lt;x1/&gt;Группировка&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081547Z" creationid="Марианна" creationdate="20201023T081547Z">
@@ -25022,6 +25046,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214035Z" creationid="Марианна" creationdate="20201216T214035Z">
         <seg>Very strong (100).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Очень слабая (0,00001);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214745Z" creationid="Марианна" creationdate="20201216T214745Z">
+        <seg>Very weak (0.00001);</seg>
       </tuv>
     </tu>
     <tu>
@@ -28906,6 +28938,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Слабая (0,001).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214753Z" creationid="Марианна" creationdate="20201216T214753Z">
+        <seg>Weak (0.001).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слабая (40).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214001Z" creationid="Марианна" creationdate="20201216T214001Z">
@@ -30914,6 +30954,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060419Z" creationid="Марианна" creationdate="20201116T060419Z">
         <seg>Good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целое число &gt;= 1 (по умолчанию = 10);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214732Z" creationid="Марианна" creationdate="20201216T214732Z">
+        <seg>Integer &gt;= 1 (by default = 10);</seg>
       </tuv>
     </tu>
     <tu>
