@@ -22000,6 +22000,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество скрытых слоев — предоставляется выбор из списка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214411Z" creationid="Марианна" creationdate="20201216T214411Z">
+        <seg>Number of hidden layers is selected from the list:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество уровней вложенности при этом не ограничено.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
@@ -22714,6 +22722,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201017T193732Z" creationid="Марианна" creationdate="20201013T160019Z">
         <seg>Method of receipt of the final decision</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод разбиения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214338Z" creationid="Марианна" creationdate="20201216T214338Z">
+        <seg>Partition method</seg>
       </tuv>
     </tu>
     <tu>
