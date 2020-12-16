@@ -18020,6 +18020,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Всего отобранных примеров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205100Z" creationid="Марианна" creationdate="20201216T205100Z">
+        <seg>Total selected samples</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Всего отобранных примеров (TotalSelectedSamples)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065018Z" creationid="Марианна" creationdate="20201208T065018Z">
@@ -27402,6 +27410,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеров в &lt;x1/&gt;обучающем множестве&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205200Z" creationid="Марианна" creationdate="20201216T205200Z">
+        <seg>Samples in the &lt;x1/&gt;training set&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеров в &lt;x1/&gt;обучающем множестве&lt;x2/&gt; (TrainSamples)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065108Z" creationid="Марианна" creationdate="20201208T065108Z">
@@ -30546,6 +30562,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210420Z" creationid="Марианна" creationdate="20201212T210420Z">
         <seg>Number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Число примеров, используемое в модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205142Z" creationid="Марианна" creationdate="20201216T205142Z">
+        <seg>Number of the samples used in the model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Число примеров, на котором обучается модель</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205321Z" creationid="Марианна" creationdate="20201216T205321Z">
+        <seg>Number of the samples which are used for the model training</seg>
       </tuv>
     </tu>
     <tu>
