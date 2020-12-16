@@ -14,7 +14,7 @@ To get resulting data sets, it is required to provide preliminary [training of t
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных) — обязательный порт.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table) — required port.
 
 #### Requirements to the Received Data
 
@@ -26,20 +26,20 @@ The field will be no longer permitted for use in the following cases:
 
 ### Output
 
-![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Разбиение на кластеры.
+![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Clustering.
 
 The table that consists of the following fields:
 
-* **Cluster number**: each object is assigned with the number of the cluster into which it is included. Кластер состоит из узлов сети.
+* **Cluster number**: each object is assigned with the number of the cluster into which it is included. The cluster consists of the network nodes.
 * **Номер узла** — каждому объекту присвоен номер узла сети, к которому он относится. Узлы в свою очередь объединяются в кластеры (поле *Номер кластера*).
 * **Расстояние до узла** — евклидово расстояние до ближайшего узла, т.е. того, которому принадлежит объект.
 * Все поля исходного набора данных, независимо от назначения поля.
 
-![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Координаты узлов.
+![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Coordinates of nodes.
 
 The table that consists of the following fields:
 
-* **Номер узла** — перечислены номера сформированных узлов.
+* **Node number**: numbers of the generated nodes are listed.
 * **Cluster number**: numbers of the generated clusters are listed.
 * Поля исходного набора данных, для которых значение параметра *Назначение* выбрано *Используемое*. В ячейках полей указаны веса узлов сети.
 
@@ -47,16 +47,16 @@ The table that consists of the following fields:
 
 The wizard includes the following groups of parameters:
 
-* Настройка входных столбцов. На данном этапе производится выбор полей для кластеризации:
+* Configure Input Columns. The fields for clustering are selected at this stage:
    * It is required to set *Used* usage types for the fields that are included into clustering.
    * *Unspecified* is preserved for other fields.
-* Настройки [нормализации](../normalization/README.md).
-* Самоорганизующаяся нейронная сеть.
-   * Тип самоорганизующейся сети:
-      * Сеть Кохонена.
-      * Нейронный газ. При выборе данной опции блок *Параметры сети*   становится неактивным.
-   * Параметры сети:
+* [Normalization](../normalization/README.md) Settings.
+* Self-organizing network.
+   * Type of self-organizing network:
+      * Kohonen network.
+      * Neural gas. При выборе данной опции блок *Параметры сети*   становится неактивным.
+   * Network Parameters:
       * Топология сети: 1D, 2D прямоугольная, 2D гексагональная, 3D.
-      * Размер сети по X. Параметр доступен для редактирования при любой   топологии сети. Устанавливается значение целого типа в интервале от 2   до 100. By default — 3.
-      * Размер сети по Y. Параметр доступен для редактирования при следующих топологиях сети: 2D прямоугольная, 2D гексагональная, 3D. Устанавливается значение целого типа в интервале от 2 до 100. По   умолчанию — 3.
-      * Размер сети по Z. Параметр доступен для редактирования при топологии сети 3D. Устанавливается значение целого типа в интервале от 2 до 100. By default — 3.
+      * Network size X. Параметр доступен для редактирования при любой   топологии сети. Устанавливается значение целого типа в интервале от 2   до 100. By default — 3.
+      * Network size Y. Параметр доступен для редактирования при следующих топологиях сети: 2D прямоугольная, 2D гексагональная, 3D. Устанавливается значение целого типа в интервале от 2 до 100. By default — 3.
+      * Network size Z. Параметр доступен для редактирования при топологии сети 3D. Устанавливается значение целого типа в интервале от 2 до 100. By default — 3.
