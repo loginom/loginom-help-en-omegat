@@ -5164,6 +5164,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;P-значение модели&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210100Z" creationid="Марианна" creationdate="20201216T210100Z">
+        <seg>&lt;x1/&gt;Model P-value&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;P-значение&lt;x2/&gt; критерия Вальда</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135646Z" creationid="Марианна" creationdate="20201210T135646Z">
@@ -7857,6 +7865,38 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151838Z" creationid="Марианна" creationdate="20201111T151838Z">
         <seg>&lt;x1/&gt;Info&lt;x2/&gt; &lt;x3/&gt;Info&lt;x4/&gt;: contains the fields that will not be changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информационный критерий Акаике скорректированный&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210020Z" creationid="Марианна" creationdate="20201216T210020Z">
+        <seg>&lt;x1/&gt;Akaike information criterion corrected&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информационный критерий Акаике&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210005Z" creationid="Марианна" creationdate="20201216T210005Z">
+        <seg>&lt;x1/&gt;Akaike information criterion&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информационный критерий Байеса&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210035Z" creationid="Марианна" creationdate="20201216T210035Z">
+        <seg>&lt;x1/&gt;Bayesian information criterion&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информационный критерий Ханнана-Квина&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210048Z" creationid="Марианна" creationdate="20201216T210048Z">
+        <seg>&lt;x1/&gt;Hannan-Quinn information criterion&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12915,6 +12955,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T143958Z" creationid="Марианна" creationdate="20201119T143825Z">
         <seg>&lt;x1/&gt;Checkbox&lt;x2/&gt;: the fields involved into mapping are selected with a flag in these columns of &lt;x3/&gt;Connected tables&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Число степеней свободы модели&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T205950Z" creationid="Марианна" creationdate="20201216T205950Z">
+        <seg>&lt;x1/&gt;Number of the model degrees of freedom&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24694,6 +24742,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135619Z" creationid="Марианна" creationdate="20201210T135619Z">
         <seg>Assessment of &lt;x1/&gt;significance&lt;x2/&gt; of coefficient in the case of independent variable of &lt;x3/&gt;model&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оценка &lt;x1/&gt;точности&lt;x2/&gt; модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210208Z" creationid="Марианна" creationdate="20201216T210208Z">
+        <seg>Assessment of the model &lt;x1/&gt;accuracy&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
