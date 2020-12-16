@@ -2980,6 +2980,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных) — обязательный порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213305Z" creationid="Марианна" creationdate="20201216T213305Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input data source (data table) — required port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100920Z" creationid="Марианна" creationdate="20201011T100920Z">
@@ -23426,6 +23434,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T070456Z" creationid="Марианна" creationdate="20201208T070456Z">
         <seg>Configure Input Columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка входных столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213212Z" creationid="Марианна" creationdate="20201216T213212Z">
+        <seg>Configure Input Columns.</seg>
       </tuv>
     </tu>
     <tu>
