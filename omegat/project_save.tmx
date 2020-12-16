@@ -22224,6 +22224,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Критерий основан на использовании &lt;x1/&gt;функции правдоподобия&lt;x2/&gt; и тесно связан с информационным критерием Акаике</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T211006Z" creationid="Марианна" creationdate="20201216T211006Z">
+        <seg>The criterion is based on use of &lt;x1/&gt;likelihood function&lt;x2/&gt; and it is closely connected with Akaike information criterion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий разделения определяется параметром "Вид групповой обработки":</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201842Z" creationid="Марианна" creationdate="20200921T201842Z">
