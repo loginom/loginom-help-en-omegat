@@ -3212,6 +3212,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Разбиение на кластеры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T212800Z" creationid="Марианна" creationdate="20201216T212800Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Таблица в дерево</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085542Z" creationid="Марианна" creationdate="20200929T085542Z">
@@ -21700,6 +21708,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161454Z" creationid="Марианна" creationdate="20200917T161454Z">
         <seg>Cyrillic (1251);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кластер состоит из узлов сети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T212853Z" creationid="Марианна" creationdate="20201216T212853Z">
+        <seg>The cluster consists of the network nodes.</seg>
       </tuv>
     </tu>
     <tu>
