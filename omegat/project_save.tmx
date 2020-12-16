@@ -21992,6 +21992,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество скрытых слоев (0, 1 или 2);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214116Z" creationid="Марианна" creationdate="20201216T214116Z">
+        <seg>Number of hidden layers (0, 1 or 2);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество уровней вложенности при этом не ограничено.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
@@ -23566,6 +23574,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка нормализации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214300Z" creationid="Марианна" creationdate="20201216T214300Z">
+        <seg>Configuration of normalization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка параметров</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082748Z" creationid="Марианна" creationdate="20201214T082748Z">
@@ -24446,6 +24462,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
         <seg>General:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Общие параметры</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214158Z" creationid="Марианна" creationdate="20201216T214158Z">
+        <seg>Common Parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -25750,6 +25774,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052722Z" creationid="Марианна" creationdate="20200819T131816Z">
         <seg>Align middle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию = 0,01.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214100Z" creationid="Марианна" creationdate="20201216T214100Z">
+        <seg>By default = 0.01.</seg>
       </tuv>
     </tu>
     <tu>
