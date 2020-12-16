@@ -23318,6 +23318,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с дискретными и ограниченными зависимыми переменными</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T211233Z" creationid="Марианна" creationdate="20201216T211233Z">
+        <seg>Alongside with Akaike criterion and Bayesian criterion, it is specified in the results of assessment of models with discrete and limited dependent variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наряду с наборами данных, представляющих из себя таблицу данных, в Studio объектом, используемым в вычислениях, может быть переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111435Z" creationid="Марианна" creationdate="20200715T065521Z">
