@@ -16494,6 +16494,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без скрытых слоев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213742Z" creationid="Марианна" creationdate="20201216T213742Z">
+        <seg>No hidden layers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210411Z" creationid="Марианна" creationdate="20201212T210411Z">
@@ -18968,6 +18976,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T102539Z" creationid="Марианна" creationdate="20201118T102533Z">
         <seg>Date(source column)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Два скрытых слоя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213816Z" creationid="Марианна" creationdate="20201216T213816Z">
+        <seg>Two hidden layers.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22280,6 +22296,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Критерии останова</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214047Z" creationid="Марианна" creationdate="20201216T214047Z">
+        <seg>Stop Criteria</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий значимости факторов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201017T193553Z" creationid="Марианна" creationdate="20201012T213720Z">
@@ -24466,6 +24490,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ограничение на значение выходов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213829Z" creationid="Марианна" creationdate="20201216T213829Z">
+        <seg>Output Value Limit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ограничений на тип данных в этих полях нет, вид данных может быть любой, кроме &lt;x3/&gt;Неопределённого&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143529Z" creationid="Марианна" creationdate="20201207T143529Z">
@@ -24478,6 +24510,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T085232Z" creationid="Марианна" creationdate="20201210T085232Z">
         <seg>It is required to limit the maximum number of iterations in the case of large amount of data for preliminary evaluation of the clustering quality.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Один скрытый слой (используется по умолчанию).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213804Z" creationid="Марианна" creationdate="20201216T213804Z">
+        <seg>One hidden layer (used by default).</seg>
       </tuv>
     </tu>
     <tu>
@@ -24914,6 +24954,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Очень сильная (100).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214035Z" creationid="Марианна" creationdate="20201216T214035Z">
+        <seg>Very strong (100).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Очень слабая (20).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213952Z" creationid="Марианна" creationdate="20201216T213952Z">
+        <seg>Very weak (20).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Очередность полей сортировки можно изменить:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T142144Z" creationid="Марианна" creationdate="20201115T142144Z">
@@ -25118,6 +25174,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141546Z" creationid="Марианна" creationdate="20201115T141546Z">
         <seg>Parameters of sorting configuration:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры обучения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213854Z" creationid="Марианна" creationdate="20201216T213854Z">
+        <seg>Training Parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -28722,6 +28786,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сильная (80).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214021Z" creationid="Марианна" creationdate="20201216T214021Z">
+        <seg>Strong (80).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Символ табуляции;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062841Z" creationid="Марианна" creationdate="20200917T161934Z">
@@ -28758,6 +28830,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065336Z" creationid="Марианна" creationdate="20201208T065336Z">
         <seg>Adjusted determination coefficient (&lt;x1/&gt;AdjustedR2&lt;x2/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Слабая (40).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214001Z" creationid="Марианна" creationdate="20201216T214001Z">
+        <seg>Weak (40).</seg>
       </tuv>
     </tu>
     <tu>
@@ -29390,6 +29470,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065150Z" creationid="Марианна" creationdate="20201208T065150Z">
         <seg>The root-mean-square error of the training set (TrainRMSError)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Средняя (60).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214010Z" creationid="Марианна" creationdate="20201216T214010Z">
+        <seg>Mean (60).</seg>
       </tuv>
     </tu>
     <tu>
