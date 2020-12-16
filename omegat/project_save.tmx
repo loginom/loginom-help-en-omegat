@@ -25130,6 +25130,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменные, которые отдает порт &lt;x1/&gt;Сводка&lt;x2/&gt;, сведены в таблицу:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T204920Z" creationid="Марианна" creationdate="20201216T204920Z">
+        <seg>The variables provided by the &lt;x1/&gt;Summary&lt;x2/&gt; port are listed in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перемещение полей между областями возможно с помощью Drag-and-Drop.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082337Z" creationid="Марианна" creationdate="20201006T082337Z">
