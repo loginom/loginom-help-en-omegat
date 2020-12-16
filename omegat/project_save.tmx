@@ -22216,6 +22216,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Критерий используется для сравнения моделей с разным числом параметров, когда требуется выбрать наилучший набор объясняющих переменных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210627Z" creationid="Марианна" creationdate="20201216T210627Z">
+        <seg>The criterion is used for comparison of models with different number of parameters when it is required to select the best set of explicative variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий разделения определяется параметром "Вид групповой обработки":</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201842Z" creationid="Марианна" creationdate="20200921T201842Z">
@@ -30658,6 +30666,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210420Z" creationid="Марианна" creationdate="20201212T210420Z">
         <seg>Number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Число независимо варьируемых значений &lt;x1/&gt;признака&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T210856Z" creationid="Марианна" creationdate="20201216T210856Z">
+        <seg>Number of independently varied values of &lt;x1/&gt;indicator&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
