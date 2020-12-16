@@ -22226,8 +22226,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Критерий основан на использовании &lt;x1/&gt;функции правдоподобия&lt;x2/&gt; и тесно связан с информационным критерием Акаике</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T211006Z" creationid="Марианна" creationdate="20201216T211006Z">
-        <seg>The criterion is based on use of &lt;x1/&gt;likelihood function&lt;x2/&gt; and it is closely connected with Akaike information criterion</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T211021Z" creationid="Марианна" creationdate="20201216T211006Z">
+        <seg>The criterion is based on use of &lt;x1/&gt;likelihood function&lt;x2/&gt;, and it is closely connected with Akaike information criterion</seg>
       </tuv>
     </tu>
     <tu>
