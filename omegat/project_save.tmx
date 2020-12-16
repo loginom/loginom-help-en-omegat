@@ -3196,6 +3196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Нейросеть (классификация)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214519Z" creationid="Марианна" creationdate="20201216T214519Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Neural Network (Classification)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Нейросеть (регрессия)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213450Z" creationid="Марианна" creationdate="20201216T213450Z">
@@ -5584,6 +5592,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083821Z" creationid="Марианна" creationdate="20200918T083821Z">
         <seg>&lt;x1/&gt;zzz&lt;x2/&gt; — mlliseconds in the form of 2 digits.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;{&lt;x2/&gt; P(1), P(2), P(3) ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214521Z" creationid="Марианна" creationdate="20201216T214521Z">
+        <seg>&lt;x1/&gt;{&lt;x2/&gt; P(1), P(2), P(3) ...</seg>
       </tuv>
     </tu>
     <tu>
@@ -23614,6 +23630,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка параметров нейросети</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214558Z" creationid="Марианна" creationdate="20201216T214558Z">
+        <seg>Configure Neural Network Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка подключения к файлу XML</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T104049Z" creationid="Марианна" creationdate="20200829T210741Z">
@@ -31162,6 +31186,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095558Z" creationid="Марианна" creationdate="20200711T095558Z">
         <seg>Step 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 2).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T214450Z" creationid="Марианна" creationdate="20201216T214450Z">
+        <seg>Step 2).</seg>
       </tuv>
     </tu>
     <tu>
