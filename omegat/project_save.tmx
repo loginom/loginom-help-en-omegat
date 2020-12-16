@@ -3196,6 +3196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Нейросеть (регрессия)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213450Z" creationid="Марианна" creationdate="20201216T213450Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Neural network (regression)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее &lt;x3/&gt;Подключения к набору XSD-схем&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T102443Z" creationid="Марианна" creationdate="20200829T210635Z">
@@ -3324,10 +3332,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Выход нейросети&lt;x4/&gt; (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213513Z" creationid="Марианна" creationdate="20201216T213513Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Neural network output&lt;x4/&gt; (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Параметры кластеров.&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082049Z" creationid="Марианна" creationdate="20201210T082049Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Cluster parameters.&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Показатели качества модели&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213552Z" creationid="Марианна" creationdate="20201216T213552Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Model quality indicators&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13207,6 +13231,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x5/&gt;структуру выходного набора&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213536Z" creationid="Марианна" creationdate="20201216T213536Z">
+        <seg>&lt;x5/&gt;output data set structure&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x7/&gt;Полное описание API&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T075034Z" creationid="Марианна" creationdate="20201102T075034Z">
@@ -22606,6 +22638,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод валидации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213639Z" creationid="Марианна" creationdate="20201216T213639Z">
+        <seg>Validation Method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод возвращает булево значение &lt;x1/&gt;true&lt;x2/&gt;, если столбец в заданной строке имеет пропущенное значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T172958Z" creationid="Марианна" creationdate="20201102T150410Z">
@@ -23506,6 +23546,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082748Z" creationid="Марианна" creationdate="20201214T082748Z">
         <seg>Configure Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка параметров Нейросети</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213657Z" creationid="Марианна" creationdate="20201216T213657Z">
+        <seg>Configure Neural Network Parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -29554,6 +29602,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Структура нейросети</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213725Z" creationid="Марианна" creationdate="20201216T213725Z">
+        <seg>Neural Network Structure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структура панели следующая:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T062942Z" creationid="Марианна" creationdate="20200817T062942Z">
@@ -30986,6 +31042,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104329Z" creationid="Марианна" creationdate="20200711T104329Z">
         <seg>Step 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаг 4.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201216T213644Z" creationid="Марианна" creationdate="20201216T213644Z">
+        <seg>Step 4.</seg>
       </tuv>
     </tu>
     <tu>
