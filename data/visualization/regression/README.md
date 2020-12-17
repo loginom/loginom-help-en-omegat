@@ -37,7 +37,7 @@
 | Показатель | Description |
 |:------------------------|:-----------------------------------------------|
 | ![Логический](../../images/icons/data-types/boolean_default.svg) Константа | [Зависимая переменная](https://wiki.loginom.ru/articles/output-variable.html) |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) -2 Log Likelihood | -2 Логарифма [функции правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html) |
+| ![Вещественный](../../images/icons/data-types/float_default.svg) -2 Log Likelihood | -2 Logarithm of the [likelihood function](https://wiki.loginom.ru/articles/plausibility-function.html) |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) R2 | [Determination coefficient](https://wiki.loginom.ru/articles/coefficient-of-determination.html) |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) R2 корр. | [Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html) |
 | ![Вещественный](../../images/icons/data-types/float_default.svg) [Хи-квадрат](https://wiki.loginom.ru/articles/chi-square-test.html) | Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины |
