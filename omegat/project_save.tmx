@@ -31078,6 +31078,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция, которая определяет &lt;x1/&gt;вероятность&lt;x2/&gt; появления значений параметров  регрессионной модели для заданного значения &lt;x3/&gt;независимой переменной&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T211621Z" creationid="Марианна" creationdate="20201217T211621Z">
+        <seg>The function that defines &lt;x1/&gt;probability&lt;x2/&gt; появления значений параметров  регрессионной модели для заданного значения of &lt;x3/&gt;independent variable&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Характеристика связи между &lt;x1/&gt;зависимой&lt;x2/&gt; &lt;x3/&gt;y&lt;x4/&gt; и &lt;x5/&gt;независимой переменной&lt;x6/&gt; &lt;x7/&gt;x&lt;x8/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135114Z" creationid="Марианна" creationdate="20201210T135114Z">
