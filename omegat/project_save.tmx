@@ -30886,6 +30886,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узлы в свою очередь объединяются в кластеры (поле &lt;x3/&gt;Номер кластера&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224214Z" creationid="Марианна" creationdate="20201217T224214Z">
+        <seg>In their turn, the nodes are combined into clusters (&lt;x3/&gt;Cluster number&lt;x4/&gt; field).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узлы дерева могут иметь признаки &lt;x1/&gt;контейнер&lt;x2/&gt; и &lt;x3/&gt;массив&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T083830Z" creationid="Марианна" creationdate="20200929T083830Z">
