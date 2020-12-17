@@ -22408,6 +22408,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Критерий используется для сравнения моделей с разным числом параметров, когда требуется выбрать наилучший набор &lt;x1/&gt;объясняющих&lt;x2/&gt; переменных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T211441Z" creationid="Марианна" creationdate="20201217T211441Z">
+        <seg>The criterion is used for comparison of models with different number of parameters when it is required to select the best set of &lt;x1/&gt;explicative&lt;x2/&gt; variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Критерий используется для сравнения моделей с разным числом параметров, когда требуется выбрать наилучший набор объясняющих переменных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T210627Z" creationid="Марианна" creationdate="20201216T210627Z">
@@ -23544,16 +23552,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с &lt;x1/&gt;дискретными&lt;x2/&gt; и ограниченными зависимыми переменными</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T211303Z" creationid="Марианна" creationdate="20201217T211303Z">
-        <seg>Alongside with Akaike criterion and Bayesian criterion, it is specified in the results of assessment of the models with &lt;x1/&gt;discrete&lt;x2/&gt; and limited dependent variables</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T211402Z" creationid="Марианна" creationdate="20201217T211303Z">
+        <seg>Alongside with Akaike and Bayesian criteria, it is specified in the results of assessment of the models with &lt;x1/&gt;discrete&lt;x2/&gt; and limited dependent variables</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с дискретными и ограниченными зависимыми переменными</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T211343Z" creationid="Марианна" creationdate="20201216T211233Z">
-        <seg>Alongside with Akaike criterion and Bayesian criterion, it is specified in the results of assessment of the models with discrete and limited dependent variables</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T211334Z" creationid="Марианна" creationdate="20201216T211233Z">
+        <seg>Alongside with Akaike and Bayesian criteria, it is specified in the results of assessment of the models with discrete and limited dependent variables</seg>
       </tuv>
     </tu>
     <tu>
