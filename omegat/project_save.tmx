@@ -25386,6 +25386,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр доступен для редактирования при топологии сети 3D.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225448Z" creationid="Марианна" creationdate="20201217T225448Z">
+        <seg>The parameter is available for editing with 3D network topology.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр может принимать значения: &lt;x3/&gt;Неиспользуемое, Транзакция, Элемент&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103734Z" creationid="Марианна" creationdate="20201208T103734Z">
@@ -31097,6 +31105,14 @@ to set parameters of the node settings.</seg>
         <seg>Устанавливается значение целого типа в интервале от 2   до 100.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T225239Z" creationid="Марианна" creationdate="20201217T225239Z">
+        <seg>The integer value is set in the interval from 2 to 100.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Устанавливается значение целого типа в интервале от 2 до 100.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225409Z" creationid="Марианна" creationdate="20201217T225409Z">
         <seg>The integer value is set in the interval from 2 to 100.</seg>
       </tuv>
     </tu>
