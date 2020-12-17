@@ -9229,6 +9229,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Номер узла&lt;x2/&gt; — каждому объекту присвоен номер узла сети, к которому он относится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224115Z" creationid="Марианна" creationdate="20201217T224115Z">
+        <seg>&lt;x1/&gt;Node number&lt;x2/&gt;: each object is assigned with the number of the network node to which it relates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Номер узла&lt;x2/&gt; — перечислены номера сформированных узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T212954Z" creationid="Марианна" creationdate="20201216T212954Z">
@@ -24040,8 +24048,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нейронный газ — это алгоритм, позволяющий осуществлять адаптивную кластеризацию входных данных, то есть не только разделить пространство на кластеры, но и определить необходимое их количество, исходя из особенностей самих данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T223732Z" creationid="Марианна" creationdate="20201217T223732Z">
-        <seg>The neural gas is an algorithm that provides adaptive clustering of input data, namely, not only to cluster the space but also to define their required amount acoording to peculiarities of the data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T223944Z" creationid="Марианна" creationdate="20201217T223732Z">
+        <seg>The neural gas is an algorithm that provides adaptive clustering of input data, namely, not only to cluster the space but also to define its required count according to data peculiarities.</seg>
       </tuv>
     </tu>
     <tu>
