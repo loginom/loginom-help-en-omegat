@@ -23542,6 +23542,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с &lt;x1/&gt;дискретными&lt;x2/&gt; и ограниченными зависимыми переменными</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T211303Z" creationid="Марианна" creationdate="20201217T211303Z">
+        <seg>Alongside with Akaike criterion and Bayesian criterion, it is specified in the results of assessment of the models with &lt;x1/&gt;discrete&lt;x2/&gt; and limited dependent variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с дискретными и ограниченными зависимыми переменными</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T211343Z" creationid="Марианна" creationdate="20201216T211233Z">
