@@ -23454,6 +23454,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наиболее близкие узлы соответствуют похожим объектам, а удаленные друг от друга — непохожим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T223343Z" creationid="Марианна" creationdate="20201217T223343Z">
+        <seg>The closest nodes map the similar objects, and the objects that are remote from each other map the dissimilar ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наиболее близкое к исходному</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063319Z" creationid="Марианна" creationdate="20201116T063319Z">
