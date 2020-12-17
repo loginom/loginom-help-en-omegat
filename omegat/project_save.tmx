@@ -29050,6 +29050,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сети Кохонена представляют собой разновидность самоорганизующихся карт признаков, которые, в свою очередь, являются специальным типом нейронных сетей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T223058Z" creationid="Марианна" creationdate="20201217T223058Z">
+        <seg>Kohonen networks represent a kind of self-organising maps that, in their turn, represent a special type of neural networks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сеть Кохонена.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213042Z" creationid="Марианна" creationdate="20201216T213042Z">
