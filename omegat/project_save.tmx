@@ -11975,6 +11975,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Среднеквадратическая ошибка&lt;x2/&gt; на обучающем множестве</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T205035Z" creationid="Марианна" creationdate="20201217T205035Z">
+        <seg>The &lt;x1/&gt; root-mean-square error&lt;x2/&gt; of the training set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ссылка на пакет&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185240Z" creationid="Марианна" creationdate="20200810T183233Z">
@@ -25110,6 +25118,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100645Z" creationid="Марианна" creationdate="20201011T100645Z">
         <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка обучения, показывающая &lt;x1/&gt;точность&lt;x2/&gt; настройки модели на обучающем множестве</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T205334Z" creationid="Марианна" creationdate="20201217T205334Z">
+        <seg>Training error that reflects the model setting &lt;x1/&gt;accuracy&lt;x2/&gt; of the training set</seg>
       </tuv>
     </tu>
     <tu>
