@@ -11359,6 +11359,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Расстояние до узла&lt;x2/&gt; — евклидово расстояние до ближайшего узла, т.е. того, которому принадлежит объект.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224355Z" creationid="Марианна" creationdate="20201217T224355Z">
+        <seg>&lt;x1/&gt;Distance to node&lt;x2/&gt; means Euclidean distance to the nearest node, namely, to the node of the object.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Расстояние до центра кластера&lt;x2/&gt; — положение объекта относительно центра кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T131849Z" creationid="Марианна" creationdate="20201210T131849Z">
@@ -17710,6 +17718,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В ячейках полей указаны веса узлов сети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224527Z" creationid="Марианна" creationdate="20201217T224527Z">
+        <seg>Weight of the network nodes are specified in the field cells.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164528Z" creationid="Марианна" creationdate="20200716T075828Z">
@@ -18216,6 +18232,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
         <seg>All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Все поля исходного набора данных, независимо от назначения поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224436Z" creationid="Марианна" creationdate="20201217T224436Z">
+        <seg>All fields of the source data set, irrespective of the field usage type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26510,6 +26534,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132532Z" creationid="Марианна" creationdate="20201210T132532Z">
         <seg>The source data set fields in the cells of which the average value of parameters has been calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля исходного набора данных, для которых значение параметра &lt;x1/&gt;Назначение&lt;x2/&gt; выбрано &lt;x3/&gt;Используемое&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224647Z" creationid="Марианна" creationdate="20201217T224647Z">
+        <seg>The source data set fields for which the value of &lt;x1/&gt;Usage type&lt;x2/&gt; parameter, &lt;x3/&gt;Used&lt;x4/&gt; was selected.</seg>
       </tuv>
     </tu>
     <tu>
