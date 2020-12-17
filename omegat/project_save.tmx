@@ -21728,6 +21728,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>К самоорганизующимся сетям относятся, в частности, &lt;x1/&gt;сети Кохонена&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T222854Z" creationid="Марианна" creationdate="20201217T222854Z">
+        <seg>In particular, &lt;x1/&gt;Kohonen networks&lt;x2/&gt; relate to self-organizing networks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждая запись обучающего множества представляет собой обучающий пример, содержащий заданное входное воздействие и соответствующий ему правильный выходной (целевой) результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T080529Z" creationid="Марианна" creationdate="20201214T080529Z">
