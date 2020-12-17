@@ -12967,6 +12967,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хи-квадрат&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210821Z" creationid="Марианна" creationdate="20201217T210821Z">
+        <seg>&lt;x1/&gt;Chi-square&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123159Z" creationid="Марианна" creationdate="20200825T113716Z">
@@ -13051,6 +13059,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T205950Z" creationid="Марианна" creationdate="20201216T205950Z">
         <seg>&lt;x1/&gt;Number of the model degrees of freedom&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Число степеней свободы&lt;x2/&gt; модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210942Z" creationid="Марианна" creationdate="20201217T210942Z">
+        <seg>&lt;x1/&gt;Number of freedom degrees&lt;x2/&gt; of the model</seg>
       </tuv>
     </tu>
     <tu>
