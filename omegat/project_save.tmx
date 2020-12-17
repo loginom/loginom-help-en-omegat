@@ -26540,8 +26540,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Поля исходного набора данных, для которых значение параметра &lt;x1/&gt;Назначение&lt;x2/&gt; выбрано &lt;x3/&gt;Используемое&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T224647Z" creationid="Марианна" creationdate="20201217T224647Z">
-        <seg>The source data set fields for which the value of &lt;x1/&gt;Usage type&lt;x2/&gt; parameter, &lt;x3/&gt;Used&lt;x4/&gt; was selected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T224912Z" creationid="Марианна" creationdate="20201217T224647Z">
+        <seg>The source data set fields for which &lt;x3/&gt;Used&lt;x4/&gt; was selected as &lt;x1/&gt;Usage type&lt;x2/&gt; parameter value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27246,6 +27246,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T064726Z" creationid="Марианна" creationdate="20201110T105441Z">
         <seg>Two tables are joined in the case of the inner join (SQL analogue: &lt;x1/&gt;INNER JOIN&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выборе данной опции блок &lt;x1/&gt;Параметры сети&lt;x2/&gt;   становится неактивным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225010Z" creationid="Марианна" creationdate="20201217T225010Z">
+        <seg>When selecting this option, &lt;x1/&gt;Network Parameters&lt;x2/&gt; pack becomes inactive.</seg>
       </tuv>
     </tu>
     <tu>
