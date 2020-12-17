@@ -31080,8 +31080,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Функция, которая определяет &lt;x1/&gt;вероятность&lt;x2/&gt; появления значений параметров  регрессионной модели для заданного значения &lt;x3/&gt;независимой переменной&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T211754Z" creationid="Марианна" creationdate="20201217T211621Z">
-        <seg>The function that defines &lt;x1/&gt;probability&lt;x2/&gt; of occurrence of the values of regression model parameters for the set value of &lt;x3/&gt;independent variable&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T211922Z" creationid="Марианна" creationdate="20201217T211621Z">
+        <seg>The function that defines occurrence &lt;x1/&gt;probability&lt;x2/&gt; of values of the regression model parameters for the set value of &lt;x3/&gt;independent variable&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
       </tuv>
     </tu>
     <tu>
