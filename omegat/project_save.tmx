@@ -28212,8 +28212,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Процент неправильного отнесение объектов (наблюдений, событий) к одному из заранее известных классов</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T210100Z" creationid="Марианна" creationdate="20201217T210100Z">
-        <seg>Percentage of incorrect assignment of objects (observations, events) to one of classes known in advance </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210114Z" creationid="Марианна" creationdate="20201217T210100Z">
+        <seg>Percentage of incorrect assignment of objects (observations, events) to one of the classes known in advance </seg>
       </tuv>
     </tu>
     <tu>
