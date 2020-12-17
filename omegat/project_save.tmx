@@ -30390,6 +30390,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, они хорошо подходят для кластерного анализа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T213121Z" creationid="Марианна" creationdate="20201217T213121Z">
+        <seg>Thus, they are well suitable for cluster analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, от узла к узлу может передаваться список переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
