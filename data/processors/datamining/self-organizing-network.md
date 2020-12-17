@@ -4,9 +4,9 @@
 
 Self-organizing networks enable to detect [clusters](https://wiki.loginom.ru/articles/cluster.html) (groups) of input vectors that have some common properties. Thus, they are well suitable for cluster analysis.
 
-К самоорганизующимся сетям относятся, в частности, [сети Кохонена](https://wiki.loginom.ru/articles/kohonen-network.html). Сети Кохонена представляют собой разновидность самоорганизующихся карт признаков, которые, в свою очередь, являются специальным типом нейронных сетей. Сеть Кохонена состоит из узлов, которые объединяются в кластеры. Наиболее близкие узлы соответствуют похожим объектам, а удаленные друг от друга — непохожим.
+In particular, [Kohonen networks](https://wiki.loginom.ru/articles/kohonen-network.html) relate to self-organizing networks. Kohonen networks represent a kind of self-organising maps that, in their turn, represent a special type of neural networks. Kohonen network consists of the nodes that are combined into clusters. The closest nodes map the similar objects, and the objects that are remote from each other map the dissimilar ones.
 
-Также одним из типов самоорганизующихся сетей является [нейронный газ](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B0%D0%B7). Нейронный газ — это алгоритм, позволяющий осуществлять адаптивную кластеризацию входных данных, то есть не только разделить пространство на кластеры, но и определить необходимое их количество, исходя из особенностей самих данных.
+[Neural gas](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B0%D0%B7) is one ot the types of self-organizing networks. The neural gas is an algorithm that provides adaptive clustering of input data, namely, not only to cluster the space but also to define its required count according to data peculiarities.
 
 To get resulting data sets, it is required to provide preliminary [training of the handler](../../scenario/training-processors.md).
 
@@ -31,9 +31,9 @@ The field will be no longer permitted for use in the following cases:
 The table that consists of the following fields:
 
 * **Cluster number**: each object is assigned with the number of the cluster into which it is included. The cluster consists of the network nodes.
-* **Номер узла** — каждому объекту присвоен номер узла сети, к которому он относится. Узлы в свою очередь объединяются в кластеры (поле *Номер кластера*).
-* **Расстояние до узла** — евклидово расстояние до ближайшего узла, т.е. того, которому принадлежит объект.
-* Все поля исходного набора данных, независимо от назначения поля.
+* **Node number**: each object is assigned with the number of the network node to which it relates. In their turn, the nodes are combined into clusters (*Cluster number* field).
+* **Distance to node** means Euclidean distance to the nearest node, namely, to the node of the object.
+* All fields of the source data set, irrespective of the field usage type.
 
 ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Coordinates of nodes.
 
@@ -41,7 +41,7 @@ The table that consists of the following fields:
 
 * **Node number**: numbers of the generated nodes are listed.
 * **Cluster number**: numbers of the generated clusters are listed.
-* Поля исходного набора данных, для которых значение параметра *Назначение* выбрано *Используемое*. В ячейках полей указаны веса узлов сети.
+* The source data set fields for which *Used* was selected as *Usage type* parameter value. Weight of the network nodes are specified in the field cells.
 
 ## Wizard
 
@@ -54,9 +54,9 @@ The wizard includes the following groups of parameters:
 * Self-organizing network.
    * Type of self-organizing network:
       * Kohonen network.
-      * Neural gas. При выборе данной опции блок *Параметры сети*   становится неактивным.
+      * Neural gas. When selecting this option, *Network Parameters* pack becomes inactive.
    * Network Parameters:
-      * Топология сети: 1D, 2D прямоугольная, 2D гексагональная, 3D.
-      * Network size X. Параметр доступен для редактирования при любой   топологии сети. Устанавливается значение целого типа в интервале от 2   до 100. By default — 3.
-      * Network size Y. Параметр доступен для редактирования при следующих топологиях сети: 2D прямоугольная, 2D гексагональная, 3D. Устанавливается значение целого типа в интервале от 2 до 100. By default — 3.
-      * Network size Z. Параметр доступен для редактирования при топологии сети 3D. Устанавливается значение целого типа в интервале от 2 до 100. By default — 3.
+      * Network topology: 1D, 2D rectangular, 2D hexagonal, 3D.
+      * Network size X. The parameter is available for editing with any network topology. The integer value is set in the interval from 2 to 100. By default — 3.
+      * Network size Y. The parameter is available for editing with the following network topologies: 2D rectangular, 2D hexagonal, 3D. The integer value is set in the interval from 2 to 100. By default — 3.
+      * Network size Z. The parameter is available for editing with 3D network topology. The integer value is set in the interval from 2 to 100. By default — 3.
