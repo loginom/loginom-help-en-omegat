@@ -29058,6 +29058,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сеть Кохонена состоит из узлов, которые объединяются в кластеры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T223141Z" creationid="Марианна" creationdate="20201217T223141Z">
+        <seg>Kohonen network consists of the nodes that are combined into clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сеть Кохонена.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213042Z" creationid="Марианна" creationdate="20201216T213042Z">
