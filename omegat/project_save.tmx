@@ -22008,6 +22008,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количественная оценка разницы между двумя распределениями вероятностей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210401Z" creationid="Марианна" creationdate="20201217T210401Z">
+        <seg>Quantitative evaluation of difference between two distributions of probabilities</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество входов и выходов узла варьируется в зависимости от функционала.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T093609Z" creationid="Марианна" creationdate="20200716T093547Z">
