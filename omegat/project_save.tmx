@@ -28210,6 +28210,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Процент неправильного отнесение объектов (наблюдений, событий) к одному из заранее известных классов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210100Z" creationid="Марианна" creationdate="20201217T210100Z">
+        <seg>Percentage of incorrect assignment of objects (observations, events) to one of classes known in advance </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Процент ошибок &lt;x1/&gt;классификации&lt;x2/&gt; на обучающем множестве</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T205645Z" creationid="Марианна" creationdate="20201217T205645Z">
+        <seg>Percentage of &lt;x1/&gt;classification&lt;x2/&gt; errors of the training set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML в случае, если имеются невыявленные ошибки валидации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T134507Z" creationid="Марианна" creationdate="20200829T221729Z">
