@@ -24038,6 +24038,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нейронный газ — это алгоритм, позволяющий осуществлять адаптивную кластеризацию входных данных, то есть не только разделить пространство на кластеры, но и определить необходимое их количество, исходя из особенностей самих данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T223732Z" creationid="Марианна" creationdate="20201217T223732Z">
+        <seg>The neural gas is an algorithm that provides adaptive clustering of input data, namely, not only to cluster the space but also to define their required amount acoording to peculiarities of the data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нейронный газ.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213052Z" creationid="Марианна" creationdate="20201216T213052Z">
@@ -30282,6 +30290,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T063955Z" creationid="Марианна" creationdate="20201023T063955Z">
         <seg>It is also possible to set the minimum number of the fields values from which the columns will be created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также одним из типов самоорганизующихся сетей является &lt;x1/&gt;нейронный газ&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T223525Z" creationid="Марианна" creationdate="20201217T223525Z">
+        <seg>&lt;x1/&gt;Neural gas&lt;x2/&gt; is one ot the types of self-organizing networks.</seg>
       </tuv>
     </tu>
     <tu>
