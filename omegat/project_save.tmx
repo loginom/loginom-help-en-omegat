@@ -18196,6 +18196,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Всего &lt;x1/&gt;примеров&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T204747Z" creationid="Марианна" creationdate="20201217T204747Z">
+        <seg>Total &lt;x1/&gt;samples&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Всего отобранных примеров</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T205100Z" creationid="Марианна" creationdate="20201216T205100Z">
@@ -24514,6 +24522,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Общее число примеров, поданных на вход &lt;x1/&gt;модели&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T204848Z" creationid="Марианна" creationdate="20201217T204848Z">
+        <seg>Total number of the samples supplied to the &lt;x1/&gt;model&lt;x2/&gt; input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Общее:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135847Z" creationid="Марианна" creationdate="20200816T135847Z">
@@ -25574,6 +25590,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
         <seg>Variables can be also used to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные, которые отдает порт &lt;x1/&gt;Сводка&lt;x2/&gt;, представлены в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T204729Z" creationid="Марианна" creationdate="20201217T204729Z">
+        <seg>The variables provided by the &lt;x1/&gt;Summary&lt;x2/&gt; port are represented in the table:</seg>
       </tuv>
     </tu>
     <tu>
