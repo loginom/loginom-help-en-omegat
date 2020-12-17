@@ -25370,6 +25370,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр доступен для редактирования при любой   топологии сети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225145Z" creationid="Марианна" creationdate="20201217T225145Z">
+        <seg>The parameter is available for editing with any network topology.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр доступен для редактирования при следующих топологиях сети: 2D прямоугольная, 2D гексагональная, 3D.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225351Z" creationid="Марианна" creationdate="20201217T225351Z">
+        <seg>The parameter is available for editing with the following network topologies: 2D rectangular, 2D hexagonal, 3D.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр может принимать значения: &lt;x3/&gt;Неиспользуемое, Транзакция, Элемент&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103734Z" creationid="Марианна" creationdate="20201208T103734Z">
@@ -30742,6 +30758,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Топология сети: 1D, 2D прямоугольная, 2D гексагональная, 3D.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225057Z" creationid="Марианна" creationdate="20201217T225057Z">
+        <seg>Network topology: 1D, 2D rectangular, 2D hexagonal, 3D.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Точка (.);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T105103Z" creationid="Марианна" creationdate="20200917T152255Z">
@@ -31066,6 +31090,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T072156Z" creationid="Марианна" creationdate="20201208T072156Z">
         <seg>The integer value more than 0 is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Устанавливается значение целого типа в интервале от 2   до 100.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T225239Z" creationid="Марианна" creationdate="20201217T225239Z">
+        <seg>The integer value is set in the interval from 2 to 100.</seg>
       </tuv>
     </tu>
     <tu>
