@@ -1,8 +1,8 @@
-# ![ ](../../images/icons/components/sonn_default.svg) Самоорганизующиеся сети
+# ![ ](../../images/icons/components/sonn_default.svg) Self-Organizing Networks
 
 ## Description
 
-Самоорганизующиеся сети позволяют выявлять [кластеры](https://wiki.loginom.ru/articles/cluster.html) (группы) входных векторов, обладающих некоторыми общими свойствами. Таким образом, они хорошо подходят для кластерного анализа.
+Self-organizing networks enable to detect [clusters](https://wiki.loginom.ru/articles/cluster.html) (groups) of input vectors that have some common properties. Thus, they are well suitable for cluster analysis.
 
 К самоорганизующимся сетям относятся, в частности, [сети Кохонена](https://wiki.loginom.ru/articles/kohonen-network.html). Сети Кохонена представляют собой разновидность самоорганизующихся карт признаков, которые, в свою очередь, являются специальным типом нейронных сетей. Сеть Кохонена состоит из узлов, которые объединяются в кластеры. Наиболее близкие узлы соответствуют похожим объектам, а удаленные друг от друга — непохожим.
 
