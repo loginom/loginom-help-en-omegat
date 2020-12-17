@@ -8453,6 +8453,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Критерий согласия&lt;x2/&gt; для &lt;x3/&gt;проверки гипотезы&lt;x4/&gt; о законе распределения исследуемой случайной величины</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T212300Z" creationid="Марианна" creationdate="20201217T212300Z">
+        <seg>&lt;x1/&gt;Chi-squared test&lt;x2/&gt; to &lt;x3/&gt;test the hypothesis&lt;x4/&gt; concerning the law of distribution of the random value under study</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кросс-таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192140Z" creationid="Марианна" creationdate="20200810T192140Z">
