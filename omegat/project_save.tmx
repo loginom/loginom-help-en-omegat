@@ -26554,6 +26554,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порог отсечения при &lt;x1/&gt;обучении&lt;x2/&gt; модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210522Z" creationid="Марианна" creationdate="20201217T210522Z">
+        <seg>Model &lt;x1/&gt;train&lt;x2/&gt; cutoff</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порог разделения кластеров (в интервале от 0,1 до 5).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133704Z" creationid="Марианна" creationdate="20201210T133704Z">
@@ -28470,6 +28478,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114655Z" creationid="Марианна" creationdate="20201214T114655Z">
         <seg>Calculate &lt;x1/&gt;confidence interval&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Расчетное значение уравнения &lt;x1/&gt;регрессии&lt;x2/&gt; (изменяется от 0 до 1)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T210719Z" creationid="Марианна" creationdate="20201217T210640Z">
+        <seg>Calculated value of &lt;x1/&gt;regression&lt;x2/&gt; equation (changes from 0 to 1)</seg>
       </tuv>
     </tu>
     <tu>
