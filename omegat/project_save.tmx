@@ -3260,6 +3260,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Самоорганизующиеся сети</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T212552Z" creationid="Марианна" creationdate="20201217T212552Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Self-Organizing Networks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Таблица в дерево</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085542Z" creationid="Марианна" creationdate="20200929T085542Z">
@@ -28854,6 +28862,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213018Z" creationid="Марианна" creationdate="20201216T213018Z">
         <seg>Self-organizing network.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Самоорганизующиеся сети позволяют выявлять &lt;x1/&gt;кластеры&lt;x2/&gt; (группы) входных векторов, обладающих некоторыми общими свойствами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201217T212717Z" creationid="Марианна" creationdate="20201217T212717Z">
+        <seg>Self-organizing networks enable to detect &lt;x1/&gt;clusters&lt;x2/&gt; (groups) of input vectors that have some common properties.</seg>
       </tuv>
     </tu>
     <tu>
