@@ -16750,6 +16750,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В выходном наборе к входному добавляются следующие поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201218T203702Z" creationid="Марианна" creationdate="20201218T203702Z">
+        <seg>The following fields are added in the output data set to the input one:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В группе &lt;x1/&gt;Факты&lt;x2/&gt; порядок полей не имеет значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T082208Z" creationid="Марианна" creationdate="20201023T082208Z">
@@ -18664,6 +18672,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100612Z" creationid="Марианна" creationdate="20201011T100612Z">
         <seg>Output table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выходное поле обучающего набора данных (данное поле выводится только при обучении нейросети).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201218T203957Z" creationid="Марианна" creationdate="20201218T203957Z">
+        <seg>The output field of the training data set (this field is displayed only when neural network training).</seg>
       </tuv>
     </tu>
     <tu>
@@ -30070,6 +30086,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162546Z" creationid="Марианна" creationdate="20200718T162546Z">
         <seg>The Project structure can be represented in the hierarchical form:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структура выходного набора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201218T203606Z" creationid="Марианна" creationdate="20201218T203606Z">
+        <seg>Output Data Set Structure</seg>
       </tuv>
     </tu>
     <tu>
