@@ -1,12 +1,12 @@
-# Структура выходного набора
+# Output Data Set Structure
 
-В выходном наборе к входному добавляются следующие поля:
+The following fields are added in the output data set to the input one:
 
-* ![](../../../images/icons/data-types/string_default.svg) **Класс | Прогноз** - обозначение прогнозируемого класса.
+* ![](../../../images/icons/data-types/string_default.svg) **Class | Prediction** means identification of the predicted class.
 
-* ![](../../../images/icons/data-types/integer_default.svg) **ID класса | Прогноз** - идентификатор прогнозируемого класса.
+* ![](../../../images/icons/data-types/integer_default.svg) **Class ID | Prediction** means identifier of the predicted class.
 
-* ![](../../../images/icons/data-types/string_default.svg) **Класс | Факт** - фактический класс. Выходное поле обучающего набора данных (данное поле выводится только при обучении нейросети).
+* ![](../../../images/icons/data-types/string_default.svg) **Class | Fact** means actual fact. The output field of the training data set (this field is displayed only when neural network training).
 
 * ![](../../../images/icons/data-types/integer_default.svg) **ID класса | Факт** - идентификатор, присвоенный фактическому классу (данное поле выводится только при обучении нейросети).
 
