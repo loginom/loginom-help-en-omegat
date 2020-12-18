@@ -3988,6 +3988,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Прогноз&lt;x4/&gt; - обозначение прогнозируемого класса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201218T204446Z" creationid="Марианна" creationdate="20201218T204446Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Prediction&lt;x4/&gt; means identification of the predicted class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить порядок выполнения&lt;x4/&gt; — позволяет задать собственный порядок выполнения узлов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132439Z" creationid="Марианна" creationdate="20200819T132439Z">
