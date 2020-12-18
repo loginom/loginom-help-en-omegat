@@ -3876,6 +3876,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Прогноз&lt;x4/&gt; - идентификатор прогнозируемого класса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201218T204524Z" creationid="Марианна" creationdate="20201218T204524Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID | Prediction&lt;x4/&gt; means identifier of the predicted class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Автоматическая синхронизация&lt;x4/&gt; — при включении данного режима команда  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Синхронизировать поля&lt;x8/&gt; будет выполняться автоматически при выполнении узла (включена по умолчанию).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160641Z" creationid="Марианна" creationdate="20201001T160641Z">
@@ -3992,6 +4000,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201218T204446Z" creationid="Марианна" creationdate="20201218T204446Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Prediction&lt;x4/&gt; means identification of the predicted class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Факт&lt;x4/&gt; - фактический класс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201218T204609Z" creationid="Марианна" creationdate="20201218T204609Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Fact&lt;x4/&gt; means actual fact.</seg>
       </tuv>
     </tu>
     <tu>
