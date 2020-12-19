@@ -3884,6 +3884,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Факт&lt;x4/&gt; - идентификатор, присвоенный фактическому классу (данное поле выводится только при обучении нейросети).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201219T060310Z" creationid="Марианна" creationdate="20201219T060310Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID| Fact&lt;x4/&gt; - идентификатор, присвоенный фактическому классу (this field is displayed only when neural network training).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Автоматическая синхронизация&lt;x4/&gt; — при включении данного режима команда  &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Синхронизировать поля&lt;x8/&gt; будет выполняться автоматически при выполнении узла (включена по умолчанию).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160641Z" creationid="Марианна" creationdate="20201001T160641Z">
