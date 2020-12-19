@@ -3886,8 +3886,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Факт&lt;x4/&gt; - идентификатор, присвоенный фактическому классу (данное поле выводится только при обучении нейросети).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201219T060310Z" creationid="Марианна" creationdate="20201219T060310Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID| Fact&lt;x4/&gt; - идентификатор, присвоенный фактическому классу (this field is displayed only when neural network training).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201219T060458Z" creationid="Марианна" creationdate="20201219T060310Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID| Fact&lt;x4/&gt; means the identifier assigned to the actual class (this field is displayed only when neural network training).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3896,6 +3896,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160641Z" creationid="Марианна" creationdate="20201001T160641Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Automapping&lt;x4/&gt;: when enabling this mode, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Map fields&lt;x8/&gt; command will be automatically performed during the node execution (enabled by default).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Апостериорная вероятность&lt;x4/&gt; - вычисленная по результатам обработки вероятность принадлежности текущего набора параметров прогнозируемому классу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201219T061342Z" creationid="Марианна" creationdate="20201219T061342Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Posterior probability&lt;x4/&gt; means the probability of the current parameters set assignment to the predicted class calculated according to the results of processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4014,8 +4022,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Факт&lt;x4/&gt; - фактический класс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201218T204609Z" creationid="Марианна" creationdate="20201218T204609Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Fact&lt;x4/&gt; means actual fact.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201219T060332Z" creationid="Марианна" creationdate="20201218T204609Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Fact&lt;x4/&gt; means the actual fact.</seg>
       </tuv>
     </tu>
     <tu>
