@@ -19084,6 +19084,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный индекс показывает, насколько неравномерно распределены вероятности назначения различных классов набору входных параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201219T062759Z" creationid="Марианна" creationdate="20201219T062759Z">
+        <seg>This index shows the nonuniformity degree of distribution of assignment probabilities of different classes to the input parameters set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный способ присутствует в настройках, если на входной порт обработчика подаются данные внешней таблицы замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084852Z" creationid="Марианна" creationdate="20201117T084723Z">
