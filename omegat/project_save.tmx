@@ -18004,6 +18004,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вид данных входных полей не регламентируется, они могут быть как непрерывными, так и дискретными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T141246Z" creationid="Марианна" creationdate="20201221T141246Z">
+        <seg>Data kind of input fields are not regulated, they can be both continuous and discrete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вид данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T094446Z" creationid="Марианна" creationdate="20201015T094446Z">
