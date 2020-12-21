@@ -17214,6 +17214,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обратной ситуации, когда все вероятности более-менее одинаковые, и лучший класс выбран лишь «формально», по наибольшему значению, то индекс Джини будет близок к нулю, и классификацию в данном случае можно считать неуверенной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T123713Z" creationid="Марианна" creationdate="20201221T123713Z">
+        <seg>In the reverse situation, when all probabilities are more or less the same, and the best class is selected as a mere formality by the highest value, Gini index will be close to 0, and, in this case, the classification will be considered to be instable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
