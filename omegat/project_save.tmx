@@ -28954,6 +28954,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Решает задачу &lt;x1/&gt;классификации&lt;x2/&gt; — в выходном наборе &lt;x3/&gt;нейросеть&lt;x4/&gt; соотносит множество входных параметров (предикторов) с одним из заранее известных классов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T133713Z" creationid="Марианна" creationdate="20201221T133713Z">
+        <seg>It handles the task of &lt;x1/&gt;classification&lt;x2/&gt;: the &lt;x3/&gt;neural network&lt;x4/&gt; in the output data set correlates a set of input parameters (independent variables) with one of the classes known in advance:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Розовая шипучка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113314Z" creationid="Марианна" creationdate="20201124T113314Z">
