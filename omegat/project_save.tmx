@@ -31878,6 +31878,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это значит, что в случае успешного обучения сеть сможет вернуть верный результат на основании данных, которые отсутствовали в обучающей выборке, а также неполных и/или «зашумленных», частично искажённых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T135829Z" creationid="Марианна" creationdate="20201221T135829Z">
+        <seg>It means that on condition of the successful training, the network can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это количество задается параметром "Количество групп" .</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202900Z" creationid="Марианна" creationdate="20200921T202900Z">
