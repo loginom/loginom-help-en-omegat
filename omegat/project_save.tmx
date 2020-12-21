@@ -30662,6 +30662,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, перечень классов задается обучающим набором данных в процессе обучения нейросети и не может быть изменен/пересмотрен в процессе классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T134647Z" creationid="Марианна" creationdate="20201221T134647Z">
+        <seg>Thus, the list of classes is set by the training data set in the process of the neural network training, and it cannot be changed/reconsidered in the classification process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, платформа может использоваться как для создания автономных аналитических решений, так и для разработки модулей, интегрируемых со сторонними системами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091041Z" creationid="Марианна" creationdate="20200715T091041Z">
