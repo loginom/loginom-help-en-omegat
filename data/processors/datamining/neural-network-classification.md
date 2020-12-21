@@ -1,23 +1,23 @@
 # ![ ](../../images/icons/components/classifierneuralnet_default.svg) Neural Network (Classification)
 
-Решает задачу [классификации](https://wiki.loginom.ru/articles/classification.html) — в выходном наборе [нейросеть](https://basegroup.ru/deductor/function/algorithm/neuronet) соотносит множество входных параметров (предикторов) с одним из заранее известных классов:
+It handles the task of [classification](https://wiki.loginom.ru/articles/classification.html): the [neural network](https://basegroup.ru/deductor/function/algorithm/neuronet) in the output data set correlates a set of input parameters (independent variables) with one of the classes known in advance:
 
-**{** P(1), P(2), P(3) ... P(n) **}** => Class(i) , где P(n) — входной параметр, Class(i) — один из известных классов.
+**{** P(1), P(2), P(3) ... P(n) **}** => Class(i) where P(n) — input parameter, Class(i) — one of the classes known in advance.
 
-Перед тем, как производить классификацию, алгоритм обучается на тренировочном наборе данных — обучающей выборке. Каждая строка такой выборки содержит:
+Before classification, it is required to train the algorithm using the training data set, namely, the training sample. Each row of such sample contains the following data:
 
-* в полях, обозначаемых как **входные** — множество входных параметров;
-* в единственном **выходном** поле — соответствующее этому набору обозначение класса.
+* a set of input parameters in the fields marked as the **input** ones;
+* class identification mapping this set in the only **output** field.
 
-Таким образом, перечень классов задается обучающим набором данных в процессе обучения нейросети и не может быть изменен/пересмотрен в процессе классификации.
+Thus, the list of classes is set by the training data set in the process of the neural network training, and it cannot be changed/reconsidered in the classification process.
 
-Технически обучение заключается в нахождении *весов — коэффициентов связей между нейронами*. В процессе обучения нейронная сеть способна выявлять сложные зависимости между входными параметрами и выходными, а также выполнять обобщение. Это значит, что в случае успешного обучения сеть сможет вернуть верный результат на основании данных, которые отсутствовали в обучающей выборке, а также неполных и/или «зашумленных», частично искажённых данных. Для обучения используется квазиньютоновский [метод Бройдена-Флетчера-Гольдфарба-Шанно](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) с ограниченным использованием памяти L-BFGS.
+Technically, the training consists in determination of *weights — coefficients of links between neurons*. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the network can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
-В задаче классификации (в отличии от [задачи регрессии](../../processors/datamining/neural-network-regression.md)) **выходным** может быть только поле с дискретным [видом данных](../../data/datatype.md). Вид данных входных полей не регламентируется, они могут быть как непрерывными, так и дискретными.
+Only the field with discrete [data kind](../../data/datatype.md) can be the **output** one in the classification task (as opposed to the [regression task](../../processors/datamining/neural-network-regression.md)). Data kind of input fields are not regulated, they can be both continuous and discrete.
 
 ----
 
-**Примечание:** Для каждого непрерывного параметра в структуре нейросети будет создан один вход, в то время как для каждой дискретной – столько входов, сколько у данного параметра имеется различных уникальных значений.
+**Note:** One input will be created for each continuous parameter in the neural network structure, whereas each discrete one will be provided with the inputs the number of which will comply with the number of different unique values of this parameter.
 
 ----
 
@@ -29,7 +29,7 @@
 
 #### Requirements to the Received Data
 
-Поля входного набора, которые будут использоваться в качестве **входных** или **выходных**, не должны содержать пропущенные значения. Если это требование не выполнено, то в момент активации узла будет выдана ошибка.
+The input data set fields that will be used as the **input** or **output** ones, must not contain null values. If this requirement is not met, error message will appear when node activating.
 
 ### Output
 
@@ -38,7 +38,7 @@
 
 ## Wizard
 
-### Step 1. Назначение входных столбцов
+### Step 1. Usage Type of Input Columns
 
 На первом этапе необходимо задать [назначение](../../data/datasetfieldoptions.md) полей входного набора данных.
 Для каждого из полей можно выбрать один из вариантов назначения:
