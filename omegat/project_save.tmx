@@ -23614,6 +23614,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Назначение входных столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T142129Z" creationid="Марианна" creationdate="20201221T142129Z">
+        <seg>Usage Type of Input Columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Назначение и структура пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
