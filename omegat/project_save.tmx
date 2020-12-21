@@ -16886,6 +16886,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В задаче классификации (в отличии от &lt;x1/&gt;задачи регрессии&lt;x2/&gt;) &lt;x3/&gt;выходным&lt;x4/&gt; может быть только поле с дискретным &lt;x5/&gt;видом данных&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T141109Z" creationid="Марианна" creationdate="20201221T141109Z">
+        <seg>Only the field with discrete &lt;x5/&gt;data kind&lt;x6/&gt; can be the &lt;x3/&gt;output&lt;x4/&gt; one in the classification task (as opposed to the &lt;x1/&gt;regression task&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В закладке Подробно содержится информация о приложении (типа Версия продукта X.X.X, где X.X.X  –  номер версии; Версия файла: X.X.X.Y - см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T195657Z" creationid="Марианна" creationdate="20200819T073910Z">
