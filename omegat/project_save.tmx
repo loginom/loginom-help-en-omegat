@@ -21880,6 +21880,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждая строка такой выборки содержит:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T134142Z" creationid="Марианна" creationdate="20201221T134142Z">
+        <seg>Each row of such sample contains the following data:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T084956Z" creationid="Марианна" creationdate="20201006T085022Z">
@@ -32014,6 +32022,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в единственном &lt;x1/&gt;выходном&lt;x2/&gt; поле — соответствующее этому набору обозначение класса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T134510Z" creationid="Марианна" creationdate="20201221T134510Z">
+        <seg>class identification mapping this set in the only &lt;x1/&gt;output&lt;x2/&gt; field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в интервале</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170254Z" creationid="Марианна" creationdate="20201111T170254Z">
@@ -32034,6 +32050,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111543Z" creationid="Марианна" creationdate="20200825T111543Z">
         <seg>As &lt;x1/&gt;parameter&lt;x2/&gt;: a defined value is set for the variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в полях, обозначаемых как &lt;x1/&gt;входные&lt;x2/&gt; — множество входных параметров;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T134251Z" creationid="Марианна" creationdate="20201221T134251Z">
+        <seg>a set of input parameters in the fields marked as the &lt;x1/&gt;input&lt;x2/&gt; ones;</seg>
       </tuv>
     </tu>
     <tu>
