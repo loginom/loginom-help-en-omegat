@@ -13961,6 +13961,14 @@ console.log("RowCount = ", OutputTable.RowCount);
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>P(n) &lt;x3/&gt;}&lt;x4/&gt; =&gt; Class(i) , где P(n) — входной параметр, Class(i) — один из известных классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T133851Z" creationid="Марианна" creationdate="20201221T133851Z">
+        <seg>P(n) &lt;x3/&gt;}&lt;x4/&gt; =&gt; Class(i) where P(n) — input parameter, Class(i) — one of the classes known in advance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>PackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084243Z" creationid="Марианна" creationdate="20201009T084243Z">
@@ -25630,6 +25638,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114439Z" creationid="Марианна" creationdate="20200717T111846Z">
         <seg>The package must be &lt;x1/&gt;saved&lt;x2/&gt; before its closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перед тем, как производить классификацию, алгоритм обучается на тренировочном наборе данных — обучающей выборке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201221T134114Z" creationid="Марианна" creationdate="20201221T134114Z">
+        <seg>Before classification, it is required to train the algorithm using the training data set, namely, the training sample.</seg>
       </tuv>
     </tu>
     <tu>
