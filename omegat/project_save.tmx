@@ -13223,6 +13223,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Шагов автоподбора не более&lt;x2/&gt; — максимальное количество шагов алгоритма (0 — отключение ограничения);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T055144Z" creationid="Марианна" creationdate="20201222T055144Z">
+        <seg>&lt;x1/&gt;Autofit stages not more&lt;x2/&gt; means the maximum number of the algorithm steps (0 — restrictions are disabled);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экранировать одинарные и двойные кавычки&lt;x2/&gt; — замена в выходном файле одинарных кавычек на обозначение &lt;x3/&gt;&lt;x4/&gt;&amp;apos;&lt;x5/&gt;&lt;x6/&gt; и двойных на &lt;x7/&gt;&lt;x8/&gt;&amp;quot;&lt;x9/&gt;&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T091206Z" creationid="Марианна" creationdate="20200918T091206Z">
@@ -23926,6 +23934,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка автоматического подбора параметров Нейросети</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054821Z" creationid="Марианна" creationdate="20201222T054821Z">
+        <seg>Configure Auto Selection of Neural Network Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка вида цикла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195351Z" creationid="Марианна" creationdate="20200921T195351Z">
@@ -24354,6 +24370,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213052Z" creationid="Марианна" creationdate="20201216T213052Z">
         <seg>Neural gas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нейросеть имеет три подбираемых параметра, относящихся к структуре:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054950Z" creationid="Марианна" creationdate="20201222T054950Z">
+        <seg>Three structure related parameters can be selected for the neural network:</seg>
       </tuv>
     </tu>
     <tu>
@@ -26380,8 +26404,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию = 0,01;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T053654Z" creationid="Марианна" creationdate="20201222T053654Z">
-        <seg>By defualt = 0.01;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054805Z" creationid="Марианна" creationdate="20201222T053654Z">
+        <seg>By default = 0.01;</seg>
       </tuv>
     </tu>
     <tu>
