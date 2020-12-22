@@ -20652,6 +20652,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если процесс обучения необходимо ограничить по времени, в этом случае он остановится после заданного количества эпох, даже если обучение еще не пришло к оптимальной точке, т.е. не достигнут порог минимального изменения весов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T085110Z" creationid="Марианна" creationdate="20201222T085110Z">
+        <seg>If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если путь начинается с "/", то он интерпретируется как абсолютный внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt; и считается от каталога пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T161952Z" creationid="Марианна" creationdate="20201102T090444Z">
