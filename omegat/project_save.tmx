@@ -27074,6 +27074,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порог минимального изменения весов - если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T084504Z" creationid="Марианна" creationdate="20201222T084504Z">
+        <seg>Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порог отсечения при &lt;x1/&gt;обучении&lt;x2/&gt; модели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210522Z" creationid="Марианна" creationdate="20201217T210522Z">
