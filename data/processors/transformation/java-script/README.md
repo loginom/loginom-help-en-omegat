@@ -24,7 +24,7 @@ The following configuration stages are successively executed:
 
 ### Configure Output Columns
 
-Composition and features of the output data set fields are set at the following wizard page: *Configure Output Columns*.
+Composition and features of the output data set fields are set on the following wizard page: *Configure Output Columns*.
 
 ### JavaScript
 

@@ -1,19 +1,19 @@
 # ![ ](../../images/icons/components/regressionneuralnet_default.svg) Neural network (regression)
 
-Решает задачу [регрессии](https://wiki.loginom.ru/articles/regression-line.html) — в выходном наборе [*Нейросеть*](https://basegroup.ru/deductor/function/algorithm/neuronet) выдаст прогнозируемое значение для одной или нескольких переменных, зависимых от множества входных параметров.
+It handles the task of [regression](https://wiki.loginom.ru/articles/regression-line.html): the [*Neural Network*](https://basegroup.ru/deductor/function/algorithm/neuronet) in the output data set will provide the forecast value for one or several variables that depend on the input parameters set.
 
 Перед тем, как производить прогноз, алгоритм обучается на тренировочном наборе данных — обучающей выборке. Each row of such sample contains the following data:
 
 * a set of input parameters in the fields marked as the **input** ones;
 * в полях, обозначаемых как **выходные** — соответствующие входным параметрам значения зависимых переменных.
 
-Технически обучение заключается в нахождении *весов* - коэффициентов связей между нейронами. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. Это значит, что в случае успешного обучения *Нейросеть* способна выдать верный результат на основании данных, которые отсутствовали в обучающей выборке, а также на неполных и/или «зашумленных», частично искажённых данных. Для обучения используется квазиньютоновский [метод Бройдена-Флетчера-Гольдфарба-Шанно](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) с ограниченным использованием памяти L-BFGS.
+Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. Это значит, что в случае успешного обучения *Нейросеть* способна выдать верный результат на основании данных, которые отсутствовали в обучающей выборке, а также на неполных и/или «зашумленных», частично искажённых данных. Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
-В задаче регрессии (в отличии от [задачи классификации](../../processors/datamining/neural-network-classification.md)) **выходными** могут быть только поля с непрерывным [видом данных](../../data/datatype.md). Вид данных входных полей не регламентируется.
+В задаче регрессии (в отличии от [задачи классификации](../../processors/datamining/neural-network-classification.md)) **выходными** могут быть только поля с непрерывным [видом данных](../../data/datatype.md). Data kind of input fields is not regulated.
 
 ----
 
-**Примечание:** Для каждого непрерывного параметра в структуре *Нейросети* будет создан один вход, в то время как для каждого дискретного – столько входов, сколько у данного параметра имеется различных уникальных значений.
+**Note:** One input will be created for each continuous parameter in the *Neural Network* structure, whereas each discrete one will be provided with the inputs the number of which will comply with the number of different unique values of this parameter.
 
 ----
 
@@ -39,13 +39,13 @@ The input data set fields that will be used as the **input** or **output** ones,
 It is required to set the [usage type](../../data/datasetfieldoptions.md) of the input data set fields at the first stage.
 It is required to select one of the following usage types for each of the fields:
 
-* ![ ](../../images/icons/usage-types/active_default.svg) **Входное** — поле содержит значения одного из входных параметров.
-* ![ ](../../images/icons/usage-types/predicted_default.svg) **Выходное** — поле содержит значения классов.
+* ![ ](../../images/icons/usage-types/active_default.svg) **Input**: the field contains the values of one of the input parameters.
+* ![ ](../../images/icons/usage-types/predicted_default.svg) **Output**: the field contains the class values.
 * ![ ](../../images/icons/usage-types/unspecified_default.svg) **Unused**: the field is not included into processing. It is set for other fields by default.
 
 ### Step 2. Configuration of normalization
 
-На этом этапе входные данные приводятся к [нормальному виду](../normalization/README.md) - преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений. Использование [нормализации](https://wiki.loginom.ru/articles/normalization.html) увеличивает качество и скорость обучения *Нейросети*.
+На этом этапе входные данные приводятся к [нормальному виду](../normalization/README.md) - преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений. Usage of [normalization](https://wiki.loginom.ru/articles/normalization.html) increases the quality and speed of the *Neural Network* training.
 
 ### Step 3. Partitioning
 
@@ -59,7 +59,7 @@ It is required to select one of the following usage types for each of the fields
 
 #### Validation Method
 
-* Без валидации - [валидация](../validation.md) обучения Нейросети не производится.
+* No validation: [validation](../validation.md) of the Neural Network training is not performed.
 
 * K-fold [кросс-валидация](https://wiki.loginom.ru/articles/cross-validation.html) - входные данные разбиваются на К колод (частей). Нейросеть обучается на основе всех колод кроме одной, которая  используется для валидации. Обучение повторяется K раз, при этом на каждой итерации для валидации используется новая колода.
 
@@ -73,14 +73,14 @@ It is required to select one of the following usage types for each of the fields
    * No hidden layers.
    * One hidden layer (used by default).
    * Two hidden layers.
-* Количество нейронов в первом скрытом слое — целое число >= 1 (по умолчанию = 10).
+* Number of neurons in the first hidden layer — integer >= 1 (by default = 10).
 * Number of neurons in the second hidden layer — integer >= 1 (by default = 10).
 
 #### Output Value Limit
 
 Тип ограничения определяет форму [активационной функции](https://wiki.loginom.ru/articles/activation-function.html) выходного слоя Нейросети:
 
-* Нет — линейная.
+* No - linear.
 * Интервал — гиперболический тангенс.
 * Только снизу — усеченная снизу экспонента.
 * Только сверху — усеченная сверху экспонента.
@@ -91,7 +91,7 @@ It is required to select one of the following usage types for each of the fields
 
 * Количество рестартов — число попыток обучения *Нейросети* (на одном и том же наборе), выполняемых из случайных начальных значений весов сети. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. Должно быть целым числом >= 1 (по умолчанию = 10).
 * Степень регуляризации — степень зависимости весов сети друг от друга. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
-   * Отсутствует (0).
+   * None (0).
    * Very weak (20).
    * Weak (40).
    * Mean (60).
@@ -101,10 +101,10 @@ It is required to select one of the following usage types for each of the fields
 
 #### Stop Criteria
 
-The network is trained in the iterative manner. При каждой итерации считывается весь обучающий набор данных и изменяются веса *Нейросети*. Этот процесс продолжается пока относительные изменения весов не станут меньше заданного порога или количество итераций не превысит заданной величины.
+The network is trained in the iterative manner. При каждой итерации считывается весь обучающий набор данных и изменяются веса *Нейросети*. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
 
 * Порог минимального изменения весов — если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается. By default = 0.01.
-* Максимальное количество эпох — максимальное количество итераций обучения алгоритма. Этот параметр по умолчанию отключен. Если процесс обучения необходимо ограничить по времени, в этом случае он остановится после заданного количества эпох, даже если обучение еще не пришло к оптимальной точке, т.е. не достигнут порог минимального изменения весов.
+* Максимальное количество эпох — максимальное количество итераций обучения алгоритма. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
 ### Step 3. Configure Auto Selection of Neural Network Parameters
 
@@ -117,23 +117,23 @@ Three structure related parameters can be selected for the neural network:
 #### Common Parameters
 
 * **Structure autofit** provides the auto selection of the Neural Network structure:
-   * **Начать с указанной структуры** — использование в качестве начальных параметров значений, заданных на странице настройки параметров Нейросети (см. Step 2).
-* **Подобрать степень регуляризации** — автоматический подбор степени регуляризации Нейросети:
-   * **Начать с указанной степени регуляризации** — использование в качестве начальной *Степени регуляризации* значения, заданного на странице настройки параметров Нейросети.
+   * **Start with the specified structure**: usage of the values set on the page of the Neural Network parameters configuration as the initial parameters (refer to Step 2).
+* **Decay degree autofit** provides the auto selection of the Neural Network decay degree.
+   * **Start with the specified decay degree**: usage of the value set on the page of the Neural Network parameters configuration as the initial *Decay degree*.
 
-> **Примечание:** если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры либо только степени регуляризации, сократив время на обучение.
+> **Note:** if it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.
 
 #### Sampling Parameters
 
-Для ускорения процесса автоподбора предусмотрено задание подвыборки, на которой он будет производиться:
+To speed up the autofit process, it is required to set the subsample in which it will be performed:
 
-* **Использовать подмножество обучающего набора** — использование подвыборки [обучающего множества](https://wiki.loginom.ru/articles/training-set.html) для автоподбора;
+* **Use a subset of the training set** enables to use a subsample of the [training set](https://wiki.loginom.ru/articles/training-set.html) for autofit.
    * **Percent sample size** means the size of the training set subsample.
    * **Maximum sample size** means the maximum size of the training set subsample.
 
 #### Auto Stop Criteria
 
-По умолчанию процесс автоматического подбора останавливается при невозможности найти лучшие параметры, чем уже найденные. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.
+The auto selection process stops by default if it is not possible to find better parameters as compared with the detected ones. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.
 
 * **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled);
 * **Время автоподбора не более (сек.)** — максимальное время работы алгоритма (0 — отключение ограничения).

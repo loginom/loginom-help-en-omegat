@@ -13,7 +13,7 @@ Thus, the list of classes is set by the training data set in the process of the 
 
 Technically, the training consists in determination of *weights — coefficients of links between neurons*. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the network can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
-Only the field with discrete [data kind](../../data/datatype.md) can be the **output** one in the classification task (as opposed to the [regression task](../../processors/datamining/neural-network-regression.md)). Data kind of input fields are not regulated, they can be both continuous and discrete.
+Only the field with discrete [data kind](../../data/datatype.md) can be the **output** one in the classification task (as opposed to the [regression task](../../processors/datamining/neural-network-regression.md)). Data kind of input fields is not regulated, they can be both continuous and discrete.
 
 ----
 
@@ -72,10 +72,10 @@ It is required to select one of the following usage types for each of the fields
 
 #### Stop Criteria
 
-The network is trained in the iterative manner. При каждой итерации считывается весь обучающий набор данных и изменяются веса нейросети. Этот процесс продолжается пока относительные изменения весов не станут меньше заданного порога или количество итераций не превысит заданной величины.
+The network is trained in the iterative manner. The whole training data set is read for each iteration, and the neural network weights are changed. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
 
-* Порог минимального изменения весов - если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается. By default = 0.01;
-* Максимальное количество эпох - максимальное количество итераций обучения алгоритма. Этот параметр по умолчанию отключен. Если процесс обучения необходимо ограничить по времени, в этом случае он остановится после заданного количества эпох, даже если обучение еще не пришло к оптимальной точке, т.е. не достигнут порог минимального изменения весов.
+* Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops. By default = 0.01;
+* Maximum number of epochs means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
 ### Step 3. Configure Auto Selection of Neural Network Parameters
 
@@ -88,23 +88,23 @@ Three structure related parameters can be selected for the neural network:
 #### Common Parameters
 
 * **Structure autofit** provides the auto selection of the Neural Network structure:
-   * **Начать с указанной структуры** — использование в качестве начальных параметров значений, заданных на странице настройки параметров Нейросети (см. Step 2).
-* **Подобрать степень регуляризации** — автоматический подбор степени регуляризации Нейросети:
-   * **Начать с указанной степени регуляризации** — использование в качестве начальной *Степени регуляризации* значения, заданного на странице настройки параметров Нейросети.
+   * **Start with the specified structure**: usage of the values set on the page of the Neural Network parameters configuration as the initial parameters (refer to Step 2).
+* **Decay degree autofit** provides the auto selection of the Neural Network decay degree.
+   * **Start with the specified decay degree**: usage of the value set on the page of the Neural Network parameters configuration as the initial *Decay degree*.
 
-> **Примечание:** если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры либо только степени регуляризации, сократив время на обучение.
+> **Note:** if it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.
 
 #### Sampling Parameters
 
-Для ускорения процесса автоподбора предусмотрено задание подвыборки, на которой он будет производиться:
+To speed up the autofit process, it is required to set the subsample in which it will be performed:
 
-* **Использовать подмножество обучающего набора** — использование подвыборки [обучающего множества](https://wiki.loginom.ru/articles/training-set.html) для автоподбора;
+* **Use a subset of the training set** enables to use a subsample of the [training set](https://wiki.loginom.ru/articles/training-set.html) for autofit.
    * **Percent sample size** means the size of the training set subsample.
    * **Maximum sample size** means the maximum size of the training set subsample.
 
 #### Auto Stop Criteria
 
-По умолчанию процесс автоматического подбора останавливается при невозможности найти лучшие параметры, чем уже найденные. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.
+The auto selection process stops by default if it is not possible to find better parameters as compared with the detected ones. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.
 
 * **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled);
 * **Время автоподбора не более (сек.)** — максимальное время работы алгоритма (0 — отключение ограничения).
