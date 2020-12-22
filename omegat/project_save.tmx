@@ -20124,6 +20124,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для ускорения процесса автоподбора предусмотрено задание подвыборки, на которой он будет производиться:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T093126Z" creationid="Марианна" creationdate="20201222T093126Z">
+        <seg>To speed up the autofit process, it is required to set the subsample in which it will be performed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для финальной модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114751Z" creationid="Марианна" creationdate="20201214T114751Z">
