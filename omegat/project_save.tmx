@@ -21912,6 +21912,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование &lt;x3/&gt;нормализации&lt;x4/&gt; увеличивает качество и скорость обучения &lt;x5/&gt;Нейросети&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T100108Z" creationid="Марианна" creationdate="20201222T100108Z">
+        <seg>Usage of &lt;x3/&gt;normalization&lt;x4/&gt; increases the quality and speed of the &lt;x5/&gt;Neural Network&lt;x6/&gt; training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование модулей в коде узла JavaSript:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T082529Z" creationid="Марианна" creationdate="20201102T082529Z">
