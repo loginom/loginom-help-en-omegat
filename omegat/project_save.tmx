@@ -2516,6 +2516,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Входное&lt;x4/&gt; — поле содержит значения одного из входных параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094333Z" creationid="Марианна" creationdate="20201222T094333Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Input&lt;x4/&gt;: the field contains the values of one of the input parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Входное&lt;x4/&gt; — поле содержит значения одного из входных параметров;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050322Z" creationid="Марианна" creationdate="20201222T050322Z">
@@ -2536,6 +2544,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143751Z" creationid="Марианна" creationdate="20201207T143751Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Model output&lt;x4/&gt; is a data table that contains the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выходное&lt;x4/&gt; — поле содержит значения классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094417Z" creationid="Марианна" creationdate="20201222T094417Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Output&lt;x4/&gt;: the field contains the class values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18118,8 +18134,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Вид данных входных полей не регламентируется, они могут быть как непрерывными, так и дискретными.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201221T141246Z" creationid="Марианна" creationdate="20201221T141246Z">
-        <seg>Data kind of input fields are not regulated, they can be both continuous and discrete.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094244Z" creationid="Марианна" creationdate="20201221T141246Z">
+        <seg>Data kind of input fields is not regulated, they can be both continuous and discrete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вид данных входных полей не регламентируется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094224Z" creationid="Марианна" creationdate="20201222T094224Z">
+        <seg>Data kind of input fields is not regulated.</seg>
       </tuv>
     </tu>
     <tu>
