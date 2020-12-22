@@ -9197,6 +9197,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Начать с указанной структуры&lt;x2/&gt; — использование в качестве начальных параметров значений, заданных на странице настройки параметров Нейросети (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T085630Z" creationid="Марианна" creationdate="20201222T085630Z">
+        <seg>&lt;x1/&gt;Start with the specified structure&lt;x2/&gt;: usage of the values parameters set on the page of Configure Neural Network Parameters as the initial ones (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не дополнять&lt;x2/&gt; — дополнение записями, поля которых будут содержать пустые значения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T070309Z" creationid="Марианна" creationdate="20201019T070309Z">
