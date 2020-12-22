@@ -9197,6 +9197,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Начать с указанной степени регуляризации&lt;x2/&gt; — использование в качестве начальной &lt;x3/&gt;Степени регуляризации&lt;x4/&gt; значения, заданного на странице настройки параметров Нейросети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T092423Z" creationid="Марианна" creationdate="20201222T092423Z">
+        <seg>&lt;x1/&gt;Start with the specified decay degree&lt;x2/&gt;: usage of the value set on the page of the Neural Network parameters configuration as the initial &lt;x3/&gt;Decay degree&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Начать с указанной структуры&lt;x2/&gt; — использование в качестве начальных параметров значений, заданных на странице настройки параметров Нейросети (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T091847Z" creationid="Марианна" creationdate="20201222T085630Z">
