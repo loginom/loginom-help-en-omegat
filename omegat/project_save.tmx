@@ -32326,6 +32326,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Этот процесс продолжается пока относительные изменения весов не станут меньше заданного порога или количество итераций не превысит заданной величины.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T084043Z" creationid="Марианна" creationdate="20201222T084043Z">
+        <seg>This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этот файл защищает открытый пакет от возможности редактировать или удалить его другими пользователями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T112645Z" creationid="Марианна" creationdate="20200713T112645Z">
