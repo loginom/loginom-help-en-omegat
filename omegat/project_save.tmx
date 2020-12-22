@@ -2516,6 +2516,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Входное&lt;x4/&gt; — поле содержит значения одного из входных параметров;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T050322Z" creationid="Марианна" creationdate="20201222T050322Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Input&lt;x4/&gt;: the field contains the values of one of the input parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выражение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134344Z" creationid="Марианна" creationdate="20201015T085336Z">
@@ -2528,6 +2536,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143751Z" creationid="Марианна" creationdate="20201207T143751Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Model output&lt;x4/&gt; is a data table that contains the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выходное&lt;x4/&gt; — поле содержит значения классов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T050351Z" creationid="Марианна" creationdate="20201222T050351Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Output&lt;x4/&gt;: the field contains the class values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2664,6 +2680,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T071039Z" creationid="Марианна" creationdate="20201208T071039Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unspecified&lt;x4/&gt;: for the data that do not take part in the model construction process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Неиспользуемое&lt;x4/&gt; — поле не участвует в обработке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T050444Z" creationid="Марианна" creationdate="20201222T050444Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unused&lt;x4/&gt;: the field is not included into processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19568,6 +19592,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T152317Z" creationid="Марианна" creationdate="20201215T152115Z">
         <seg>It is possible either to select auto setup of value for each of parameters, or to enter the required value in the manual way.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для каждого из полей можно выбрать один из вариантов назначения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T050150Z" creationid="Марианна" creationdate="20201222T050150Z">
+        <seg>It is required to select one of the following usage types for each of the fields:</seg>
       </tuv>
     </tu>
     <tu>
