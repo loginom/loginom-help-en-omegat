@@ -22424,6 +22424,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество нейронов в первом скрытом слое — целое число &gt;= 1 (по умолчанию = 10).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094454Z" creationid="Марианна" creationdate="20201222T094454Z">
+        <seg>Number of neurons in the first hidden layer — integer &gt;= 1 (by default = 10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество нейронов в первом скрытом слое — целое число &gt;= 1 (по умолчанию = 10);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050616Z" creationid="Марианна" creationdate="20201222T050616Z">
@@ -24578,6 +24586,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нет — линейная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094537Z" creationid="Марианна" creationdate="20201222T094537Z">
+        <seg>No - linear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ниже расположена графа "Последние открытые пакеты", включающая в себя историю открытия Пакетов со следующими полями:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105711Z" creationid="Марианна" creationdate="20200814T105711Z">
@@ -25558,6 +25574,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190625Z" creationid="Марианна" creationdate="20200825T190625Z">
         <seg>It is required to display the following data:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отсутствует (0).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094631Z" creationid="Марианна" creationdate="20201222T094631Z">
+        <seg>None (0).</seg>
       </tuv>
     </tu>
     <tu>
@@ -29382,6 +29406,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T133713Z" creationid="Марианна" creationdate="20201221T133713Z">
         <seg>It handles the task of &lt;x1/&gt;classification&lt;x2/&gt;: the &lt;x3/&gt;neural network&lt;x4/&gt; in the output data set correlates a set of input parameters (independent variables) with one of the classes known in advance:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Решает задачу &lt;x1/&gt;регрессии&lt;x2/&gt; — в выходном наборе &lt;x3/&gt;&lt;x4/&gt;Нейросеть&lt;x5/&gt;&lt;x6/&gt; выдаст прогнозируемое значение для одной или нескольких переменных, зависимых от множества входных параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T094944Z" creationid="Марианна" creationdate="20201222T094944Z">
+        <seg>It handles the task of &lt;x1/&gt;regression&lt;x2/&gt;: the &lt;x3/&gt;&lt;x4/&gt;Neural Network&lt;x5/&gt;&lt;x6/&gt; in the output data set will provide the forecast value for one or several variables that depend on the input parameters set.</seg>
       </tuv>
     </tu>
     <tu>
