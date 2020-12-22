@@ -8117,6 +8117,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать подмножество обучающего набора&lt;x2/&gt; — использование подвыборки &lt;x3/&gt;обучающего множества&lt;x4/&gt; для автоподбора;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T092928Z" creationid="Марианна" creationdate="20201222T092928Z">
+        <seg>&lt;x1/&gt;Use a subset of the training set&lt;x2/&gt; enables to use a subset of the &lt;x3/&gt;training set&lt;x4/&gt; for autofit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать префиксы&lt;x2/&gt; — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T095319Z" creationid="Марианна" creationdate="20201118T095319Z">
@@ -10967,8 +10975,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры либо только степени регуляризации, сократив время на обучение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T092707Z" creationid="Марианна" creationdate="20201222T092707Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if it is required to select parameters for the large input volums or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T092741Z" creationid="Марианна" creationdate="20201222T092707Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.</seg>
       </tuv>
     </tu>
     <tu>
