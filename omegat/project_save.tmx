@@ -19812,6 +19812,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для обучения используется квазиньютоновский &lt;x5/&gt;метод Бройдена-Флетчера-Гольдфарба-Шанно&lt;x6/&gt; с ограниченным использованием памяти L-BFGS.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T095130Z" creationid="Марианна" creationdate="20201222T095130Z">
+        <seg>Quasi-Newton &lt;x5/&gt;Broyden — Fletcher — Goldfarb — Shanno method&lt;x6/&gt; is used for training with limited use of L-BFGS memory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для определения групп, по которым будет производиться обратная агрегация численного поля, требуется опорная таблица, из которой заимствуются сами группы и учитывается процентное распределение значений численного поля между ними.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201125T083534Z" creationid="Марианна" creationdate="20201125T083408Z">
