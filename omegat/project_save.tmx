@@ -8119,8 +8119,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать подмножество обучающего набора&lt;x2/&gt; — использование подвыборки &lt;x3/&gt;обучающего множества&lt;x4/&gt; для автоподбора;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T092928Z" creationid="Марианна" creationdate="20201222T092928Z">
-        <seg>&lt;x1/&gt;Use a subset of the training set&lt;x2/&gt; enables to use a subset of the &lt;x3/&gt;training set&lt;x4/&gt; for autofit.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T093201Z" creationid="Марианна" creationdate="20201222T092928Z">
+        <seg>&lt;x1/&gt;Use a subset of the training set&lt;x2/&gt; enables to use a subsample of the &lt;x3/&gt;training set&lt;x4/&gt; for autofit.</seg>
       </tuv>
     </tu>
     <tu>
