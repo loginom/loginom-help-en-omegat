@@ -25626,6 +25626,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр регуляризации - степень зависимости весов сети друг от друга.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T051350Z" creationid="Марианна" creationdate="20201222T051350Z">
+        <seg>Decay parameter means the degree of the network weights dependence from each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр четыре варианта настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140300Z" creationid="Марианна" creationdate="20201116T140300Z">
@@ -31698,6 +31706,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133756Z" creationid="Марианна" creationdate="20201210T133756Z">
         <seg>The higher splitting significance threshold, the more clusters will be generated while clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чем больше эта зависимость, тем сильнее будет влияние одного входного параметра на другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T052516Z" creationid="Марианна" creationdate="20201222T052516Z">
+        <seg>The higher this dependence, the stronger impact exerts one input parameter on the other ones.</seg>
       </tuv>
     </tu>
     <tu>
