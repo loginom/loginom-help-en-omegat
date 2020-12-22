@@ -40,12 +40,12 @@ The input data set fields that will be used as the **input** or **output** ones,
 
 ### Step 1. Usage Type of Input Columns
 
-На первом этапе необходимо задать [назначение](../../data/datasetfieldoptions.md) полей входного набора данных.
-Для каждого из полей можно выбрать один из вариантов назначения:
+It is required to set the [usage type](../../data/datasetfieldoptions.md) of the input data set fields at the first stage.
+It is required to select one of the following usage types for each of the fields:
 
-* ![ ](../../images/icons/usage-types/active_default.svg) **Входное** — поле содержит значения одного из входных параметров;
-* ![ ](../../images/icons/usage-types/predicted_default.svg) **Выходное** — поле содержит значения классов;
-* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Неиспользуемое** — поле не участвует в обработке. Устанавливается по умолчанию для прочих полей.
+* ![ ](../../images/icons/usage-types/active_default.svg) **Input**: the field contains the values of one of the input parameters.
+* ![ ](../../images/icons/usage-types/predicted_default.svg) **Output**: the field contains the class values.
+* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Unused**: the field is not included into processing. It is set for other fields by default.
 
 ### Step 2. Configure Neural Network Parameters
 
@@ -55,58 +55,58 @@ The input data set fields that will be used as the **input** or **output** ones,
    * No hidden layers;
    * One hidden layer (used by default);
    * Two hidden layers.
-* Количество нейронов в первом скрытом слое — целое число >= 1 (по умолчанию = 10);
-* Количество нейронов во втором скрытом слое — целое число >= 1 (по умолчанию = 10).
+* Number of neurons in the first hidden layer — integer >= 1 (by default = 10);
+* Number of neurons in the second hidden layer — integer >= 1 (by default = 10).
 
 #### Training Parameters
 
-* Количество рестартов - число попыток обучения нейросети (на одном и том же наборе), выполняемых из случайных начальных значений весов нейросети. По завершении всех рестартов выбирается сеть, которая обеспечивает наименьшую среднеквадратическую ошибку на обучающем множестве. Integer >= 1 (by default = 10);
-* Параметр регуляризации - степень зависимости весов сети друг от друга. Чем больше эта зависимость, тем сильнее будет влияние одного входного параметра на другие. Регуляризация позволяет снизить эффективное число степеней свободы модели, избежав тем самым переобучения. Предоставляется выбор из следующих вариантов:
-   * Отсутствует (0);
+* Number of restarts: number of attempts of the neural network training (using one and the same set) based on the random initial values of the neural network weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. Integer >= 1 (by default = 10);
+* Decay parameter means the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
+   * None (0);
    * Very weak (0.00001);
    * Weak (0.001). It is used by default.
-   * Средняя (0,1);
-   * Сильная (100);
-   * Очень сильная (10000).
-* Продолжить обучение - установление данного флага позволяет начать переобучение модели не со случайных значений весов нейросети, а с полученных при последнем обучении. При этом параметр «Количество рестартов» игнорируется.
+   * Mean (0.1);
+   * Strong (100);
+   * Very strong (10000).
+* Continue training: selection of this flag enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training. In this case, the "Number of restarts" parameter is ignored.
 
 #### Stop Criteria
 
-Обучение сети происходит итерационно. При каждой итерации считывается весь обучающий набор данных и изменяются веса нейросети. Этот процесс продолжается пока относительные изменения весов не станут меньше заданного порога или количество итераций не превысит заданной величины.
+The network is trained in the iterative manner. При каждой итерации считывается весь обучающий набор данных и изменяются веса нейросети. Этот процесс продолжается пока относительные изменения весов не станут меньше заданного порога или количество итераций не превысит заданной величины.
 
-* Порог минимального изменения весов - если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается. По умолчанию = 0,01;
+* Порог минимального изменения весов - если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается. By default = 0.01;
 * Максимальное количество эпох - максимальное количество итераций обучения алгоритма. Этот параметр по умолчанию отключен. Если процесс обучения необходимо ограничить по времени, в этом случае он остановится после заданного количества эпох, даже если обучение еще не пришло к оптимальной точке, т.е. не достигнут порог минимального изменения весов.
 
-### Step 3. Настройка автоматического подбора параметров Нейросети
+### Step 3. Configure Auto Selection of Neural Network Parameters
 
-Нейросеть имеет три подбираемых параметра, относящихся к структуре:
+Three structure related parameters can be selected for the neural network:
 
 * Number of hidden layers (0, 1 or 2);
-* Количество нейронов в каждом из скрытых слоев;
-* Степень регуляризации — параметр, регулирующий жесткость модели.
+* Number of neurons in each hidden layer;
+* Decay degree enables to adjust the model stiffness.
 
 #### Common Parameters
 
-* **Подобрать структуру** — автоматический подбор структуры Нейросети:
+* **Structure autofit** provides the auto selection of the Neural Network structure:
    * **Начать с указанной структуры** — использование в качестве начальных параметров значений, заданных на странице настройки параметров Нейросети (см. Step 2).
 * **Подобрать степень регуляризации** — автоматический подбор степени регуляризации Нейросети:
    * **Начать с указанной степени регуляризации** — использование в качестве начальной *Степени регуляризации* значения, заданного на странице настройки параметров Нейросети.
 
 > **Примечание:** если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры либо только степени регуляризации, сократив время на обучение.
 
-#### Параметры выборки
+#### Sampling Parameters
 
 Для ускорения процесса автоподбора предусмотрено задание подвыборки, на которой он будет производиться:
 
 * **Использовать подмножество обучающего набора** — использование подвыборки [обучающего множества](https://wiki.loginom.ru/articles/training-set.html) для автоподбора;
-   * **Размер выборки в процентах** — размер подвыборки обучающего множества;
-   * **Максимальный размер выборки** — максимальный размер подвыборки обучающего множества.
+   * **Percent sample size** means the size of the training set subsample.
+   * **Maximum sample size** means the maximum size of the training set subsample.
 
-#### Критерии останова автоподбора
+#### Auto Stop Criteria
 
 По умолчанию процесс автоматического подбора останавливается при невозможности найти лучшие параметры, чем уже найденные. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.
 
-* **Шагов автоподбора не более** — максимальное количество шагов алгоритма (0 — отключение ограничения);
+* **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled);
 * **Время автоподбора не более (сек.)** — максимальное время работы алгоритма (0 — отключение ограничения).
 
 > **Примечание:** при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей Нейросети на полном наборе.
@@ -138,4 +138,4 @@ The input data set fields that will be used as the **input** or **output** ones,
 
 Блок-схема (граф переходов) реализованной стратегии автоподбора указана на рисунке ниже.
 
-![Алгоритм автоподбора](./autofit-neural-network-1.svg)
+![Auto Selection Algorithm](./autofit-neural-network-1.svg)
