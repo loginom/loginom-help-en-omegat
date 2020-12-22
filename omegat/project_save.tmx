@@ -30394,6 +30394,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Степень регуляризации — параметр, регулирующий жесткость модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054734Z" creationid="Марианна" creationdate="20201222T054734Z">
+        <seg>Decay degree enables to adjust the model stiffness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T211925Z" creationid="Марианна" creationdate="20201212T211925Z">
