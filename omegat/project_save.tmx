@@ -16750,6 +16750,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без валидации - &lt;x1/&gt;валидация&lt;x2/&gt; обучения Нейросети не производится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T101053Z" creationid="Марианна" creationdate="20201222T101053Z">
+        <seg>No validation: &lt;x1/&gt;validation&lt;x2/&gt; of the Neural Network training is not performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Без валидации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194905Z" creationid="Марианна" creationdate="20201215T194905Z">
