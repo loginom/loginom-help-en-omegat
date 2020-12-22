@@ -31222,6 +31222,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Технически обучение заключается в нахождении &lt;x1/&gt;весов&lt;x2/&gt; - коэффициентов связей между нейронами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T095027Z" creationid="Марианна" creationdate="20201222T095027Z">
+        <seg>Technically, the training consists in determination of &lt;x1/&gt;weights&lt;x2/&gt; — coefficients of links between neurons.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тип</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144617Z" creationid="Марианна" creationdate="20201207T144617Z">
