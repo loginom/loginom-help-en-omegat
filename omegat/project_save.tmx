@@ -10837,6 +10837,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для каждого непрерывного параметра в структуре &lt;x3/&gt;Нейросети&lt;x4/&gt; будет создан один вход, в то время как для каждого дискретного – столько входов, сколько у данного параметра имеется различных уникальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T095359Z" creationid="Марианна" creationdate="20201222T095359Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; One input will be created for each continuous parameter in the &lt;x3/&gt;Neural Network&lt;x4/&gt; structure, whereas each discrete one will be provided with the inputs the number of which will comply with the number of different unique values of this parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для каждого непрерывного параметра в структуре нейросети будет создан один вход, в то время как для каждой дискретной – столько входов, сколько у данного параметра имеется различных уникальных значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T141822Z" creationid="Марианна" creationdate="20201221T141728Z">
