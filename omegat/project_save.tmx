@@ -23366,6 +23366,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На первом этапе необходимо задать &lt;x1/&gt;назначение&lt;x2/&gt; полей входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T050119Z" creationid="Марианна" creationdate="20201222T050119Z">
+        <seg>It is required to set the &lt;x1/&gt;usage type&lt;x2/&gt; of the input data set fields at the first stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На первом этапе необходимо задать &lt;x1/&gt;назначение&lt;x2/&gt; столбцов входного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T070734Z" creationid="Марианна" creationdate="20201208T070734Z">
