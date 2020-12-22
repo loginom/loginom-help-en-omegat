@@ -27874,6 +27874,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При каждой итерации считывается весь обучающий набор данных и изменяются веса нейросети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T083613Z" creationid="Марианна" creationdate="20201222T083613Z">
+        <seg>The whole training data set is read for each iteration, and the neural network weights are changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При клике мышкой на узле отобразятся иконки возможных действий.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085658Z" creationid="Марианна" creationdate="20200717T085658Z">
