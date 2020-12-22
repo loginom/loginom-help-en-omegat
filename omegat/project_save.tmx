@@ -9199,8 +9199,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Начать с указанной структуры&lt;x2/&gt; — использование в качестве начальных параметров значений, заданных на странице настройки параметров Нейросети (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T091733Z" creationid="Марианна" creationdate="20201222T085630Z">
-        <seg>&lt;x1/&gt;Start with the specified structure&lt;x2/&gt;: usage of the values set on the page of the Neural Network Parameters configuration as the initial parameters (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T091847Z" creationid="Марианна" creationdate="20201222T085630Z">
+        <seg>&lt;x1/&gt;Start with the specified structure&lt;x2/&gt;: usage of the values set on the page of the Neural Network parameters configuration as the initial parameters (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -23608,8 +23608,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На странице &lt;x1/&gt;Настройка выходных столбцов&lt;x2/&gt; мастера настройки задаются состав и параметры полей выходного набора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T175204Z" creationid="Марианна" creationdate="20201109T055753Z">
-        <seg>Composition and features of the output data set fields are set at the following wizard page: &lt;x1/&gt;Configure Output Columns&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T091741Z" creationid="Марианна" creationdate="20201109T055753Z">
+        <seg>Composition and features of the output data set fields are set on the following wizard page: &lt;x1/&gt;Configure Output Columns&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
