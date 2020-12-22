@@ -22886,6 +22886,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальное количество эпох - максимальное количество итераций обучения алгоритма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T084611Z" creationid="Марианна" creationdate="20201222T084611Z">
+        <seg>Maximum number of epochs means the maximum count of the algorithm training iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Максимальное число кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133620Z" creationid="Марианна" creationdate="20201210T133620Z">
@@ -32330,6 +32338,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T073946Z" creationid="Марианна" creationdate="20201214T073946Z">
         <seg>This algorithm frequently produces good results even for small data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот параметр по умолчанию отключен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T084625Z" creationid="Марианна" creationdate="20201222T084625Z">
+        <seg>This parameter is disabled by default.</seg>
       </tuv>
     </tu>
     <tu>
