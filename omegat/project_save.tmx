@@ -26210,6 +26210,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По завершении всех рестартов выбирается сеть, которая обеспечивает наименьшую среднеквадратическую ошибку на обучающем множестве.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T051152Z" creationid="Марианна" creationdate="20201222T051152Z">
+        <seg>Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По кнопке &lt;x3/&gt;Предпросмотр…&lt;x4/&gt; в отдельном окне выводится до 100 первых строк результирующего набора данных и &lt;x5/&gt;консоль отладки кода&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T175232Z" creationid="Марианна" creationdate="20201109T060421Z">
