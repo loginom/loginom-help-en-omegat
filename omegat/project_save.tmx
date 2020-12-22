@@ -8773,6 +8773,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимальный размер выборки&lt;x2/&gt; — максимальный размер подвыборки обучающего множества.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054304Z" creationid="Марианна" creationdate="20201222T054304Z">
+        <seg>&lt;x1/&gt;Maximum sample size&lt;x2/&gt; means the maximum size of the training set subsample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113302Z" creationid="Марианна" creationdate="20200929T113302Z">
@@ -10293,6 +10301,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подобрать структуру&lt;x2/&gt; — автоматический подбор структуры Нейросети:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054353Z" creationid="Марианна" creationdate="20201222T054353Z">
+        <seg>&lt;x1/&gt;Structure autofit&lt;x2/&gt; provides the auto selection of the Neural Network structure:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подробнее&lt;x2/&gt; — выводит на экран сообщение об ошибке передаваемое узлом;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073528Z" creationid="Марианна" creationdate="20200817T073528Z">
@@ -11403,6 +11419,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T140448Z" creationid="Марианна" creationdate="20201023T071428Z">
         <seg>&lt;x1/&gt;Field caption parts separator&lt;x2/&gt;: it is required to select the character to separate the new fields captions when selecting several fields in the columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Размер выборки в процентах&lt;x2/&gt; — размер подвыборки обучающего множества;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T054216Z" creationid="Марианна" creationdate="20201222T054216Z">
+        <seg>&lt;x1/&gt;Percent sample size&lt;x2/&gt; means the size of the training set subsample.</seg>
       </tuv>
     </tu>
     <tu>
