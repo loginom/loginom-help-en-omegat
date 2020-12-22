@@ -10965,6 +10965,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры либо только степени регуляризации, сократив время на обучение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T092707Z" creationid="Марианна" creationdate="20201222T092707Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if it is required to select parameters for the large input volums or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; если отключить вывод элемента и не задать &lt;x3/&gt;условий&lt;x4/&gt; и/или &lt;x5/&gt;значений&lt;x6/&gt;, то после сохранения списка этот элемент будет перемещен обратно в список &lt;x7/&gt;Доступные элементы&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202628Z" creationid="Марианна" creationdate="20200829T202628Z">
