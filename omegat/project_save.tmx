@@ -28930,6 +28930,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Регуляризация позволяет снизить эффективное число степеней свободы модели, избежав тем самым переобучения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T052835Z" creationid="Марианна" creationdate="20201222T052835Z">
+        <seg>The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Регулярное выражение &lt;x1/&gt;\D&lt;x2/&gt; обозначает все символы, не являющиеся цифрами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094851Z" creationid="Марианна" creationdate="20201117T094851Z">
