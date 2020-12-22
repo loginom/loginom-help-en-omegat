@@ -26634,6 +26634,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию процесс автоматического подбора останавливается при невозможности найти лучшие параметры, чем уже найденные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T093426Z" creationid="Марианна" creationdate="20201222T093426Z">
+        <seg>The auto selection process stops by default if it is not possible to find better parameters as compared with the detected ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию результат операции будет равен количеству дней (целая часть) и количеству часов (дробная часть).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061506Z" creationid="Марианна" creationdate="20201014T061506Z">
