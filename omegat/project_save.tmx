@@ -31374,6 +31374,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Устанавливается по умолчанию для прочих полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201222T050501Z" creationid="Марианна" creationdate="20201222T050501Z">
+        <seg>It is set for other fields by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Установленный флаг &lt;x7/&gt;Пропущенные&lt;x8/&gt; обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081031Z" creationid="Марианна" creationdate="20201023T081031Z">
