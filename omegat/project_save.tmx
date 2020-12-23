@@ -20748,6 +20748,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если необходим автоподбор структуры и регуляризации:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T095326Z" creationid="Марианна" creationdate="20201223T095326Z">
+        <seg>If autofit of structure and decay is required:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если необходимо подобрать только степень регуляризации для заданной структуры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T092727Z" creationid="Марианна" creationdate="20201223T092727Z">
