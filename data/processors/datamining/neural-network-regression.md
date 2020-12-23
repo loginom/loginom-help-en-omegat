@@ -133,35 +133,35 @@ To speed up the autofit process, it is required to set the subsample in which it
 
 #### Auto Stop Criteria
 
-The auto selection process stops by default if it is not possible to find better parameters as compared with the detected ones. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.
+The auto selection process stops by default if it is not possible to find better parameters as compared with the detected ones. To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time.
 
 * **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled);
-* **Время автоподбора не более (сек.)** — максимальное время работы алгоритма (0 — отключение ограничения).
+* **Autofit time not more (s)** means the maximum algorithm operation time (0 — restriction is disabled).
 
-> **Примечание:** при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей Нейросети на полном наборе.
+> **Note:** In the course of the work it is required to take into account that practically both restrictions can be insignificantly exceeded when using subsample for autofit, as the best full set Neural Network will be trained at the last unrestricted stage.
 
-Отдельный случай останова оптимизатора — если достигнут теоретически наилучший результат. Как для регрессионных сетей, так и для классификатора это равная 0 среднеквадратическая ошибка на обучающем множестве.
+The optimizer is stopped in some specific cases if, from a theoretical standpoint, the best result is reached. It is the root-mean-square error of the training set equal to 0 both for regression networks, and for the classifier.
 
-Для классификатора также по умолчанию включен *Останов при нулевой ошибки классификации*:
+By default, *Stop at zero classification error* is also enabled for the classifier:
 
-* **Останов при нулевой ошибки классификации** — прекращение автоподбора при достижении нулевой ошибки классификации.
+* **Stop at zero classification error** enables to stop autofit when reaching zero classification error.
 
 > **Примечание:** опцию *Останов при нулевой ошибки классификации* можно отключить,
 > т.к. правильная классификация всех примеров не всегда означает наилучшую структуру Нейросети: оптимизатору можно дать возможность подобрать сеть с лучшей обобщающей способностью (например, с меньшим числом нейронов или сильнее регуляризованную), но при этом не обязательно с нулевой ошибкой классификации.
 
-#### Стратегия оптимизации
+#### Optimization Strategy
 
-Целевой функцией для оптимизатора является среднеквадратическая ошибка на обучающем наборе. При этом для учета случаев, когда несколько сетей показывают сравнимые по точности результаты, в целях выбора сети с самой простой структурой значение целевой функции дополнительно штрафуется на слабо отличающийся от единицы множитель (1+1e-8) за каждый скрытый нейрон.
+The root-mean-square error of the training set is a target function for the optimizer. При этом для учета случаев, когда несколько сетей показывают сравнимые по точности результаты, в целях выбора сети с самой простой структурой значение целевой функции дополнительно штрафуется на слабо отличающийся от единицы множитель (1+1e-8) за каждый скрытый нейрон.
 
-Стратегия оптимизации следующая:
+The following optimization strategy is used:
 
-* Если необходимо подобрать только степень регуляризации для заданной структуры:
+* If it is required to select only the decay degree for the set structure:
    1. Если начальная точка не задана, то степень регуляризации подбирается методом "золотого сечения", в противном случае - методом "схождения к вершине".
-* Если необходимо подобрать только структуру, не изменяя степень регуляризации
+* If it is required to select only the structure without changing the decay degree.
    1. Если не задана начальная структура, то она подбирается в два этапа: сначала происходит выбор количества скрытых слоев (0, 1 или 2), затем, если результат предыдущего этапа не 0, грубо подбирается размер скрытых слоев методом "золотого сечения", причем для 2 скрытых слоев количество нейронов на данном этапе делается одинаковым;
    2. Структура подбирается сразу по всем трем параметрам (число слоев, число нейронов) методом "схождения к вершине" из заданной либо подобранной начальной точки.
-* Если необходим автоподбор структуры и регуляризации:
-   1. Подбирается структура так же, как и в предыдущем пункте. При этом, если начальное значение регуляризации задано, то используется оно, в противном случае регуляризация отключена.
+* If autofit of structure and decay is required:
+   1. The structure is selected as in the previous clause. При этом, если начальное значение регуляризации задано, то используется оно, в противном случае регуляризация отключена.
    2. Если начальное значение регуляризации не было задано, оно подбирается методом "золотого сечения".
    3. Финальный этап автоподбора производится методом "схождения к вершине" по всем четырем параметрам.
 
