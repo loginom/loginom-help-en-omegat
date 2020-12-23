@@ -9701,6 +9701,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Останов при нулевой ошибки классификации&lt;x2/&gt; — прекращение автоподбора при достижении нулевой ошибки классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092236Z" creationid="Марианна" creationdate="20201223T092236Z">
+        <seg>&lt;x1/&gt;Stop at zero classification error&lt;x2/&gt; enables to stop autofit when reaching zero classification error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отбор факторов и защита от переобучения&lt;x2/&gt; — значение перечисления:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T104553Z" creationid="Марианна" creationdate="20201215T104553Z">
@@ -19776,6 +19784,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194242Z" creationid="Марианна" creationdate="20201023T194242Z">
         <seg>One string is returned for each group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для классификатора также по умолчанию включен &lt;x1/&gt;Останов при нулевой ошибки классификации&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092147Z" creationid="Марианна" creationdate="20201223T092147Z">
+        <seg>By default, &lt;x1/&gt;Stop at zero classification error&lt;x2/&gt; is also enabled for the classifier:</seg>
       </tuv>
     </tu>
     <tu>
