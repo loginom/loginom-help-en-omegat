@@ -20748,6 +20748,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если необходимо подобрать только степень регуляризации для заданной структуры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092727Z" creationid="Марианна" creationdate="20201223T092727Z">
+        <seg>If it is required to select only the decay degree for the set structure:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если пакет не сохранен, то относительный путь к внешнему модулю указывается от каталога пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090155Z" creationid="Марианна" creationdate="20201102T090155Z">
@@ -30702,6 +30710,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T092346Z" creationid="Марианна" creationdate="20201223T092346Z">
         <seg>Optimization Strategy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стратегия оптимизации следующая:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092641Z" creationid="Марианна" creationdate="20201223T092641Z">
+        <seg>The following optimization strategy is used:</seg>
       </tuv>
     </tu>
     <tu>
