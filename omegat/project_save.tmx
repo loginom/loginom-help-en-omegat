@@ -30698,6 +30698,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Стратегия оптимизации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092346Z" creationid="Марианна" creationdate="20201223T092346Z">
+        <seg>Optimization Strategy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>СтройРынок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064304Z" creationid="Марианна" creationdate="20201023T064304Z">
@@ -31994,6 +32002,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060419Z" creationid="Марианна" creationdate="20201116T060419Z">
         <seg>Good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целевой функцией для оптимизатора является среднеквадратическая ошибка на обучающем наборе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092619Z" creationid="Марианна" creationdate="20201223T092619Z">
+        <seg>The root-mean-square error of the training set is a target function for the optimizer.</seg>
       </tuv>
     </tu>
     <tu>
