@@ -22232,6 +22232,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как для регрессионных сетей, так и для классификатора это равная 0 среднеквадратическая ошибка на обучающем множестве.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T092033Z" creationid="Марианна" creationdate="20201223T092033Z">
+        <seg>It is the root-mean-square error of the training set equal to 0 both for regression networks, and for the classifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как и в компоненте JavaScript поддерживаются внешние модули, но в &lt;x1/&gt;Калькуляторе&lt;x2/&gt; возможно использование только модульной системы &lt;x3/&gt;CommonJS&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T174015Z" creationid="Марианна" creationdate="20201020T172433Z">
@@ -25510,6 +25518,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201104T105054Z" creationid="Марианна" creationdate="20200823T123609Z">
         <seg>When this substitution construction is used, only simple data types can be passed to the query via variables: logical, string, numeric, date/time. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отдельный случай останова оптимизатора — если достигнут теоретически наилучший результат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T091849Z" creationid="Марианна" creationdate="20201223T091849Z">
+        <seg>The optimizer is stopped in some specific cases if, from a theoretical standpoint, the best result is reached.</seg>
       </tuv>
     </tu>
     <tu>
