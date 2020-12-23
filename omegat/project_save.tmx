@@ -11047,6 +11047,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей Нейросети на полном наборе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T091612Z" creationid="Марианна" creationdate="20201223T091612Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; In the course of the work it is required to take into account that practically both restrictions can be insignificantly exceeded when using subsample for autofit, as the best full set Neural Network will be trained at the last unrestricted stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; условие проверяется на атомарных значениях, например "A &gt; 1".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082856Z" creationid="Марианна" creationdate="20200924T082856Z">
