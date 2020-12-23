@@ -26882,6 +26882,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подбирается структура так же, как и в предыдущем пункте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T100254Z" creationid="Марианна" creationdate="20201223T100254Z">
+        <seg>The structure is selected as in the previous clause.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается &lt;x1/&gt;импорт внешних модулей JS&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061133Z" creationid="Марианна" creationdate="20201109T061133Z">
