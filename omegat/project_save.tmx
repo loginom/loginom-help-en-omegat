@@ -20756,6 +20756,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если необходимо подобрать только структуру, не изменяя степень регуляризации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T095013Z" creationid="Марианна" creationdate="20201223T095013Z">
+        <seg>If it is required to select only the structure without changing the decay degree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если пакет не сохранен, то относительный путь к внешнему модулю указывается от каталога пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090155Z" creationid="Марианна" creationdate="20201102T090155Z">
