@@ -19836,6 +19836,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно: количество шагов автоподбора и время автоподбора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201223T084811Z" creationid="Марианна" creationdate="20201223T084811Z">
+        <seg>To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для определения групп, по которым будет производиться обратная агрегация численного поля, требуется опорная таблица, из которой заимствуются сами группы и учитывается процентное распределение значений численного поля между ними.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201125T083534Z" creationid="Марианна" creationdate="20201125T083408Z">
