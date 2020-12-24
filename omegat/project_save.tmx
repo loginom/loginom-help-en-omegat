@@ -20397,6 +20397,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Должно быть целым числом &gt;= 1 (по умолчанию = 10).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085545Z" creationid="Марианна" creationdate="20201224T085545Z">
+        <seg>It must be Integer&gt;= 1 (by default = 10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доля городского населения, %</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212441Z" creationid="Марианна" creationdate="20201012T211350Z">
@@ -22613,6 +22621,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050911Z" creationid="Марианна" creationdate="20201222T050911Z">
         <seg>Number of restarts: number of attempts of the neural network training (using one and the same set) based on the random initial values of the neural network weights.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество рестартов — число попыток обучения &lt;x1/&gt;Нейросети&lt;x2/&gt; (на одном и том же наборе), выполняемых из случайных начальных значений весов сети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085632Z" creationid="Марианна" creationdate="20201224T085632Z">
+        <seg>Number of restarts: number of attempts of the &lt;x1/&gt;Neural Network&lt;x2/&gt; training (using one and the same set) based on the random initial values of the network weights.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29091,6 +29107,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Продолжить обучение — установление данного флага позволяет начать переобучение модели не со случайных значений весов Нейросети, а с полученных при последнем обучении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085448Z" creationid="Марианна" creationdate="20201224T085448Z">
+        <seg>Continue training: selection of this flag enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проект может объединять в себе несколько пакетов благодаря тому, что каждый пакет имеет возможность предоставлять свои объекты другим пакетам через механизм ссылок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T120709Z" creationid="Марианна" creationdate="20200718T120709Z">
@@ -30775,6 +30799,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T054734Z" creationid="Марианна" creationdate="20201222T054734Z">
         <seg>Decay degree enables to adjust the model stiffness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Степень регуляризации — степень зависимости весов сети друг от друга.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085521Z" creationid="Марианна" creationdate="20201224T085521Z">
+        <seg>Decay degree means the degree of the network weights dependence from each other.</seg>
       </tuv>
     </tu>
     <tu>
