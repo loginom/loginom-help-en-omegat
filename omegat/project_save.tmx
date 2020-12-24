@@ -20765,6 +20765,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если не задана начальная структура, то она подбирается в два этапа: сначала происходит выбор количества скрытых слоев (0, 1 или 2), затем, если результат предыдущего этапа не 0, грубо подбирается размер скрытых слоев методом "золотого сечения", причем для 2 скрытых слоев количество нейронов на данном этапе делается одинаковым;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T083629Z" creationid="Марианна" creationdate="20201224T083629Z">
+        <seg>If the initial structure is not set, it is selected in two stages. First, the number of hidden layers is selected (0, 1 or 2), then, the size of hidden layers is approximately selected using the "golden section search" method if the previous stage result is not equl to 0. In this case, the number of neurons for 2 hidden layers becomes the same at this stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если необходим автоподбор структуры и регуляризации:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T095326Z" creationid="Марианна" creationdate="20201223T095326Z">
