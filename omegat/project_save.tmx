@@ -30851,6 +30851,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Структура подбирается сразу по всем трем параметрам (число слоев, число нейронов) методом "схождения к вершине" из заданной либо подобранной начальной точки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T083939Z" creationid="Марианна" creationdate="20201224T083939Z">
+        <seg>The structure is selected for all three parameters at once (number of layers, number of neurons) using the "hill climbing" method from the set or selected starting point.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структура файла замен</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064007Z" creationid="Марианна" creationdate="20201116T064007Z">
