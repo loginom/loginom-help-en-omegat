@@ -16839,6 +16839,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Блок-схема (граф переходов) реализованной стратегии автоподбора указана на рисунке ниже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084545Z" creationid="Марианна" creationdate="20201224T084545Z">
+        <seg>The flowgraph (transition graph) of the implemented autofit strategy is shown on the figure below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Более редкое.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195150Z" creationid="Марианна" creationdate="20201215T195150Z">
@@ -20745,6 +20753,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T083217Z" creationid="Марианна" creationdate="20201224T083217Z">
         <seg>If the starting point is not set, the decay degree is selected using the "golden section search" method, otherwise, the "hill climbing" method is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если начальное значение регуляризации не было задано, оно подбирается методом "золотого сечения".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084245Z" creationid="Марианна" creationdate="20201224T084245Z">
+        <seg>If the initial decay value is not set, it is selected using the "golden section search" method.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28589,8 +28605,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При этом, если начальное значение регуляризации задано, то используется оно, в противном случае регуляризация отключена.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201224T084103Z" creationid="Марианна" creationdate="20201224T084103Z">
-        <seg>In this case, if the initial decay value is set, it can be used, otherwise, decay option is disabled.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084121Z" creationid="Марианна" creationdate="20201224T084103Z">
+        <seg>In this case, if the initial decay value is set, it can be used, otherwise, the decay option is disabled.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32011,6 +32027,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071113Z" creationid="Марианна" creationdate="20201023T071113Z">
         <seg>Measures for them will be aggregated in the &lt;x9/&gt;Null values&lt;x10/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Финальный этап автоподбора производится методом "схождения к вершине" по всем четырем параметрам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084352Z" creationid="Марианна" creationdate="20201224T084352Z">
+        <seg>The final autofit stage is implemented using the "hill climbing" method for all four parameters.</seg>
       </tuv>
     </tu>
     <tu>
