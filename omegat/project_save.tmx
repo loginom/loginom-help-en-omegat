@@ -23127,6 +23127,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальное количество эпох — максимальное количество итераций обучения алгоритма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084826Z" creationid="Марианна" creationdate="20201224T084826Z">
+        <seg>Maximum number of epochs means the maximum count of the algorithm training iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Максимальное число кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133620Z" creationid="Марианна" creationdate="20201210T133620Z">
@@ -27363,6 +27371,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порог минимального изменения весов — если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084859Z" creationid="Марианна" creationdate="20201224T084859Z">
+        <seg>Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порог отсечения при &lt;x1/&gt;обучении&lt;x2/&gt; модели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210522Z" creationid="Марианна" creationdate="20201217T210522Z">
@@ -28159,6 +28175,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085819Z" creationid="Марианна" creationdate="20201102T085819Z">
         <seg>When using relative paths in the root modules (the script that contains the node code editor):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При каждой итерации считывается весь обучающий набор данных и изменяются веса &lt;x1/&gt;Нейросети&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084948Z" creationid="Марианна" creationdate="20201224T084948Z">
+        <seg>The whole training data set is read for each iteration, and the &lt;x1/&gt;Neural Network&lt;x2/&gt; weights are changed.</seg>
       </tuv>
     </tu>
     <tu>
