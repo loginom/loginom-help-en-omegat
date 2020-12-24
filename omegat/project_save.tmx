@@ -28587,6 +28587,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом, если начальное значение регуляризации задано, то используется оно, в противном случае регуляризация отключена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T084103Z" creationid="Марианна" creationdate="20201224T084103Z">
+        <seg>In this case, if the initial decay value is set, it can be used, otherwise, decay option is disabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Признак &lt;x1/&gt;массив&lt;x2/&gt; показывает, что в пределах одного родительского узла может содержаться более одного экземпляра данного узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T084423Z" creationid="Марианна" creationdate="20200929T084423Z">
