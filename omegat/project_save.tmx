@@ -26163,6 +26163,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед тем, как производить прогноз, алгоритм обучается на тренировочном наборе данных — обучающей выборке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085033Z" creationid="Марианна" creationdate="20201224T085033Z">
+        <seg>Before forecasting, it is required to train the algorithm using the training data set, namely, the training sample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Передача в запрос внутренних объектных переменных 1С (например объектов или ссылок справочников и документов) невозможна.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T124110Z" creationid="Марианна" creationdate="20200823T124110Z">
@@ -32591,6 +32599,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это значит, что в случае успешного обучения &lt;x3/&gt;Нейросеть&lt;x4/&gt; способна выдать верный результат на основании данных, которые отсутствовали в обучающей выборке, а также на неполных и/или «зашумленных», частично искажённых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085355Z" creationid="Марианна" creationdate="20201224T085355Z">
+        <seg>It means that on condition of the successful training, the &lt;x3/&gt;Neural Network&lt;x4/&gt; can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это значит, что в случае успешного обучения сеть сможет вернуть верный результат на основании данных, которые отсутствовали в обучающей выборке, а также неполных и/или «зашумленных», частично искажённых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T135829Z" creationid="Марианна" creationdate="20201221T135829Z">
@@ -32819,6 +32835,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T134251Z" creationid="Марианна" creationdate="20201221T134251Z">
         <seg>a set of input parameters in the fields marked as the &lt;x1/&gt;input&lt;x2/&gt; ones;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в полях, обозначаемых как &lt;x1/&gt;выходные&lt;x2/&gt; — соответствующие входным параметрам значения зависимых переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T085250Z" creationid="Марианна" creationdate="20201224T085250Z">
+        <seg>the dependent variables values mapping the input parameters in the fields marked as the &lt;x1/&gt;output&lt;x2/&gt; ones.</seg>
       </tuv>
     </tu>
     <tu>
