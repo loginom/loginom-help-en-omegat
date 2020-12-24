@@ -11055,6 +11055,15 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; опцию &lt;x3/&gt;Останов при нулевой ошибки классификации&lt;x4/&gt; можно отключить,
+т.к. правильная классификация всех примеров не всегда означает наилучшую структуру Нейросети: оптимизатору можно дать возможность подобрать сеть с лучшей обобщающей способностью (например, с меньшим числом нейронов или сильнее регуляризованную), но при этом не обязательно с нулевой ошибкой классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201224T081549Z" creationid="Марианна" creationdate="20201224T081549Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; &lt;x3/&gt;Stop at zero classification error&lt;x4/&gt; option can be disabled because the correct classification of all examples does not always mean the best structure of the Neural Network, namely, the optimizer can be allowed to select the network with the best generalization ability (for example, with the least number of neurons or more regularizable) but not necessarily with zero classification error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей Нейросети на полном наборе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T091612Z" creationid="Марианна" creationdate="20201223T091612Z">
