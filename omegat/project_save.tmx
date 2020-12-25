@@ -23879,6 +23879,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На этом этапе входные данные приводятся к &lt;x1/&gt;нормальному виду&lt;x2/&gt; - преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T074321Z" creationid="Марианна" creationdate="20201225T074321Z">
+        <seg>At this stage, the input data is set to the &lt;x1/&gt;normal kind&lt;x2/&gt;. It is transformed from the natural values to the non-dimensional ones to ensure that the data with wide scatter of values does not prevail over the data with less significant scatter of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этом этапе настраивается передача значений выходных переменных соответствующим входным переменным на следующей итерации цикла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205056Z" creationid="Марианна" creationdate="20200921T205056Z">
