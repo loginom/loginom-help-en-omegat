@@ -117,25 +117,24 @@ By default, *Stop at zero classification error* is also enabled for the classifi
 
 * **Stop at zero classification error** enables to stop autofit when reaching zero classification error.
 
-> **Примечание:** опцию *Останов при нулевой ошибки классификации* можно отключить,
-> т.к. правильная классификация всех примеров не всегда означает наилучшую структуру Нейросети: оптимизатору можно дать возможность подобрать сеть с лучшей обобщающей способностью (например, с меньшим числом нейронов или сильнее регуляризованную), но при этом не обязательно с нулевой ошибкой классификации.
+> **Note:** *Stop at zero classification error* option can be disabled because the correct classification of all examples does not always mean the best structure of the Neural Network, namely, the optimizer can be allowed to select the network with the best generalization ability (for example, with the least number of neurons or more regularizable) but not necessarily with zero classification error.
 
 #### Optimization Strategy
 
-The root-mean-square error of the training set is a target function for the optimizer. При этом для учета случаев, когда несколько сетей показывают сравнимые по точности результаты, в целях выбора сети с самой простой структурой значение целевой функции дополнительно штрафуется на слабо отличающийся от единицы множитель (1+1e-8) за каждый скрытый нейрон.
+The root-mean-square error of the training set is a target function for the optimizer. Under these circumstances, to take into account the cases when several networks provide the results comparable in accuracy, in order to select the network with the simplest structure, the target function value is additionally fined by the multiplier (1+1e-8) slightly different from 1 for each hidden neuron.
 
 The following optimization strategy is used:
 
 * If it is required to select only the decay degree for the set structure:
-   1. Если начальная точка не задана, то степень регуляризации подбирается методом "золотого сечения", в противном случае - методом "схождения к вершине".
+   1. If the starting point is not set, the decay degree is selected using the "golden section search" method, otherwise, the "hill climbing" method is used.
 * If it is required to select only the structure without changing the decay degree.
-   1. Если не задана начальная структура, то она подбирается в два этапа: сначала происходит выбор количества скрытых слоев (0, 1 или 2), затем, если результат предыдущего этапа не 0, грубо подбирается размер скрытых слоев методом "золотого сечения", причем для 2 скрытых слоев количество нейронов на данном этапе делается одинаковым;
-   2. Структура подбирается сразу по всем трем параметрам (число слоев, число нейронов) методом "схождения к вершине" из заданной либо подобранной начальной точки.
+   1. If the initial structure is not set, it is selected in two stages. First, the number of hidden layers is selected (0, 1 or 2), then, the size of hidden layers is approximately selected using the "golden section search" method if the previous stage result is not equl to 0. In this case, the number of neurons for 2 hidden layers becomes the same at this stage.
+   2. The structure is selected for all three parameters at once (number of layers, number of neurons) using the "hill climbing" method from the set or selected starting point.
 * If autofit of structure and decay is required:
-   1. The structure is selected as in the previous clause. При этом, если начальное значение регуляризации задано, то используется оно, в противном случае регуляризация отключена.
-   2. Если начальное значение регуляризации не было задано, оно подбирается методом "золотого сечения".
-   3. Финальный этап автоподбора производится методом "схождения к вершине" по всем четырем параметрам.
+   1. The structure is selected as in the previous clause. In this case, if the initial decay value is set, it can be used, otherwise, the decay option is disabled.
+   2. If the initial decay value is not set, it is selected using the "golden section search" method.
+   3. The final autofit stage is implemented using the "hill climbing" method for all four parameters.
 
-Блок-схема (граф переходов) реализованной стратегии автоподбора указана на рисунке ниже.
+The flowgraph (transition graph) of the implemented autofit strategy is shown on the figure below.
 
 ![Auto Selection Algorithm](./autofit-neural-network-1.svg)

@@ -2,14 +2,14 @@
 
 It handles the task of [regression](https://wiki.loginom.ru/articles/regression-line.html): the [*Neural Network*](https://basegroup.ru/deductor/function/algorithm/neuronet) in the output data set will provide the forecast value for one or several variables that depend on the input parameters set.
 
-Перед тем, как производить прогноз, алгоритм обучается на тренировочном наборе данных — обучающей выборке. Each row of such sample contains the following data:
+Before forecasting, it is required to train the algorithm using the training data set, namely, the training sample. Each row of such sample contains the following data:
 
 * a set of input parameters in the fields marked as the **input** ones;
-* в полях, обозначаемых как **выходные** — соответствующие входным параметрам значения зависимых переменных.
+* the dependent variables values mapping the input parameters in the fields marked as the **output** ones.
 
-Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. Это значит, что в случае успешного обучения *Нейросеть* способна выдать верный результат на основании данных, которые отсутствовали в обучающей выборке, а также на неполных и/или «зашумленных», частично искажённых данных. Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
+Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the *Neural Network* can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
-В задаче регрессии (в отличии от [задачи классификации](../../processors/datamining/neural-network-classification.md)) **выходными** могут быть только поля с непрерывным [видом данных](../../data/datatype.md). Data kind of input fields is not regulated.
+Only the fields with continuous [data kind](../../data/datatype.md) can be the **output** ones in the regression task (as opposed to the [classification task](../../processors/datamining/neural-network-classification.md)). Data kind of input fields is not regulated.
 
 ----
 
@@ -45,25 +45,25 @@ It is required to select one of the following usage types for each of the fields
 
 ### Step 2. Configuration of normalization
 
-На этом этапе входные данные приводятся к [нормальному виду](../normalization/README.md) - преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений. Usage of [normalization](https://wiki.loginom.ru/articles/normalization.html) increases the quality and speed of the *Neural Network* training.
+At this stage, the input data is set to the [normal kind](../normalization/README.md). It is transformed from the natural values to the non-dimensional ones to ensure that the data with wide scatter of values does not prevail over the data with less significant scatter of values. Usage of [normalization](https://wiki.loginom.ru/articles/normalization.html) increases the quality and speed of the *Neural Network* training.
 
 ### Step 3. Partitioning
 
-На этом этапе входные данные можно разделить на [тестовое](https://wiki.loginom.ru/articles/test-set.html), [обучающее](https://wiki.loginom.ru/articles/training-set.html) и [валидационное](https://wiki.loginom.ru/articles/validation-set.html) множества (выборки).
+At this stage, the input data can be divided into the [test](https://wiki.loginom.ru/articles/test-set.html), [training](https://wiki.loginom.ru/articles/training-set.html) and [validation](https://wiki.loginom.ru/articles/validation-set.html) sets (samples).
 
 #### Partition method
 
-* Случайный - данные для тестового и обучающего множеств формируется из всего объема входных данных в случайном порядке и случайной пропорции.
+* Random: the data for the test and training sets is formed from the whole volume of the input data in random order and proportion.
 
-* Последовательный - соотношение данных для тестового и обучающего множеств задается вручную. При этом есть возможность выбрать очередность, по которой сперва выбираются данные для тестового множества, потом для обучающего, или наоборот.
+* Consequent: data ratio for the test and training sets is manually set. In this case, it is possible to select the order in which the data is selected first for the test set and then for the training one, or vice versa.
 
 #### Validation Method
 
 * No validation: [validation](../validation.md) of the Neural Network training is not performed.
 
-* K-fold [кросс-валидация](https://wiki.loginom.ru/articles/cross-validation.html) - входные данные разбиваются на К колод (частей). Нейросеть обучается на основе всех колод кроме одной, которая  используется для валидации. Обучение повторяется K раз, при этом на каждой итерации для валидации используется новая колода.
+* K-fold [cross validation](https://wiki.loginom.ru/articles/cross-validation.html): the input data is divided into K folds (parts). The neural network is trained on the basis of all folds, with the exception of one that is used for validation. The training process is repeated K times, and a new fold is used for the validation purposes for each iteration.
 
-* [Монте-Карло](https://wiki.loginom.ru/articles/monte-carlo-technique.html) - входные данные случайным образом разделяются на обучающее и валидационное множество в соответствии с заданной пропорцией. Обучение повторяется в соответствии с заданным количеством итераций ресемплинга, при этом для каждой итерации формируется новое валидационное множество (ресемпл).
+* [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html): the input data is randomly divided into the training and validation set according to the set proportion. The training process is repeated according to the set count of resampling iterations, and a new validation set (resample) is generated for each iteration.
 
 ### Step 4. Configure Neural Network Parameters
 
@@ -78,33 +78,33 @@ It is required to select one of the following usage types for each of the fields
 
 #### Output Value Limit
 
-Тип ограничения определяет форму [активационной функции](https://wiki.loginom.ru/articles/activation-function.html) выходного слоя Нейросети:
+The limit type defines the form of [activation function](https://wiki.loginom.ru/articles/activation-function.html) of the output Neural Network layer:
 
 * No - linear.
-* Интервал — гиперболический тангенс.
-* Только снизу — усеченная снизу экспонента.
-* Только сверху — усеченная сверху экспонента.
+* Interval — hyperbolic tangent.
+* Bottom only — exponent truncated from below.
+* Top only — exponent truncated from above.
 
-Также возможно задать верхнюю и нижнюю границу ограничения формы активационной функции. Как правило, этот параметр напрямую коррелирует от параметра нормализации входных данных.
+It is also possible to set the upper and lower bounds of the activation function form limit. As a rule, this parameter directly correlates with the normalization parameter of the input data.
 
 #### Training Parameters
 
-* Количество рестартов — число попыток обучения *Нейросети* (на одном и том же наборе), выполняемых из случайных начальных значений весов сети. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. Должно быть целым числом >= 1 (по умолчанию = 10).
-* Степень регуляризации — степень зависимости весов сети друг от друга. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
+* Number of restarts: number of attempts of the *Neural Network* training (using one and the same set) based on the random initial values of the network weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. It must be Integer>= 1 (by default = 10).
+* Decay degree means the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
    * None (0).
    * Very weak (20).
    * Weak (40).
    * Mean (60).
    * Strong (80).
    * Very strong (100).
-* Продолжить обучение — установление данного флага позволяет начать переобучение модели не со случайных значений весов Нейросети, а с полученных при последнем обучении. In this case, the "Number of restarts" parameter is ignored.
+* Continue training: selection of this flag enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training. In this case, the "Number of restarts" parameter is ignored.
 
 #### Stop Criteria
 
-The network is trained in the iterative manner. При каждой итерации считывается весь обучающий набор данных и изменяются веса *Нейросети*. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
+The network is trained in the iterative manner. The whole training data set is read for each iteration, and the *Neural Network* weights are changed. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
 
-* Порог минимального изменения весов — если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается. By default = 0.01.
-* Максимальное количество эпох — максимальное количество итераций обучения алгоритма. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
+* Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops. By default = 0.01.
+* Maximum number of epochs means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
 ### Step 3. Configure Auto Selection of Neural Network Parameters
 
@@ -146,25 +146,24 @@ By default, *Stop at zero classification error* is also enabled for the classifi
 
 * **Stop at zero classification error** enables to stop autofit when reaching zero classification error.
 
-> **Примечание:** опцию *Останов при нулевой ошибки классификации* можно отключить,
-> т.к. правильная классификация всех примеров не всегда означает наилучшую структуру Нейросети: оптимизатору можно дать возможность подобрать сеть с лучшей обобщающей способностью (например, с меньшим числом нейронов или сильнее регуляризованную), но при этом не обязательно с нулевой ошибкой классификации.
+> **Note:** *Stop at zero classification error* option can be disabled because the correct classification of all examples does not always mean the best structure of the Neural Network, namely, the optimizer can be allowed to select the network with the best generalization ability (for example, with the least number of neurons or more regularizable) but not necessarily with zero classification error.
 
 #### Optimization Strategy
 
-The root-mean-square error of the training set is a target function for the optimizer. При этом для учета случаев, когда несколько сетей показывают сравнимые по точности результаты, в целях выбора сети с самой простой структурой значение целевой функции дополнительно штрафуется на слабо отличающийся от единицы множитель (1+1e-8) за каждый скрытый нейрон.
+The root-mean-square error of the training set is a target function for the optimizer. Under these circumstances, to take into account the cases when several networks provide the results comparable in accuracy, in order to select the network with the simplest structure, the target function value is additionally fined by the multiplier (1+1e-8) slightly different from 1 for each hidden neuron.
 
 The following optimization strategy is used:
 
 * If it is required to select only the decay degree for the set structure:
-   1. Если начальная точка не задана, то степень регуляризации подбирается методом "золотого сечения", в противном случае - методом "схождения к вершине".
+   1. If the starting point is not set, the decay degree is selected using the "golden section search" method, otherwise, the "hill climbing" method is used.
 * If it is required to select only the structure without changing the decay degree.
-   1. Если не задана начальная структура, то она подбирается в два этапа: сначала происходит выбор количества скрытых слоев (0, 1 или 2), затем, если результат предыдущего этапа не 0, грубо подбирается размер скрытых слоев методом "золотого сечения", причем для 2 скрытых слоев количество нейронов на данном этапе делается одинаковым;
-   2. Структура подбирается сразу по всем трем параметрам (число слоев, число нейронов) методом "схождения к вершине" из заданной либо подобранной начальной точки.
+   1. If the initial structure is not set, it is selected in two stages. First, the number of hidden layers is selected (0, 1 or 2), then, the size of hidden layers is approximately selected using the "golden section search" method if the previous stage result is not equl to 0. In this case, the number of neurons for 2 hidden layers becomes the same at this stage.
+   2. The structure is selected for all three parameters at once (number of layers, number of neurons) using the "hill climbing" method from the set or selected starting point.
 * If autofit of structure and decay is required:
-   1. The structure is selected as in the previous clause. При этом, если начальное значение регуляризации задано, то используется оно, в противном случае регуляризация отключена.
-   2. Если начальное значение регуляризации не было задано, оно подбирается методом "золотого сечения".
-   3. Финальный этап автоподбора производится методом "схождения к вершине" по всем четырем параметрам.
+   1. The structure is selected as in the previous clause. In this case, if the initial decay value is set, it can be used, otherwise, the decay option is disabled.
+   2. If the initial decay value is not set, it is selected using the "golden section search" method.
+   3. The final autofit stage is implemented using the "hill climbing" method for all four parameters.
 
-Блок-схема (граф переходов) реализованной стратегии автоподбора указана на рисунке ниже.
+The flowgraph (transition graph) of the implemented autofit strategy is shown on the figure below.
 
 ![Auto Selection Algorithm](./autofit-neural-network-1.svg)
