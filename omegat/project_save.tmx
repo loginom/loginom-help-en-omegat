@@ -23879,6 +23879,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На этом этапе входные данные можно разделить на &lt;x1/&gt;тестовое&lt;x2/&gt;, &lt;x3/&gt;обучающее&lt;x4/&gt; и &lt;x5/&gt;валидационное&lt;x6/&gt; множества (выборки).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T074801Z" creationid="Марианна" creationdate="20201225T074801Z">
+        <seg>At this stage, the input data can be divided into the &lt;x1/&gt;test&lt;x2/&gt;, &lt;x3/&gt;training&lt;x4/&gt; and &lt;x5/&gt;validation&lt;x6/&gt; sets (samples).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этом этапе входные данные приводятся к &lt;x1/&gt;нормальному виду&lt;x2/&gt; - преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T074321Z" creationid="Марианна" creationdate="20201225T074321Z">
