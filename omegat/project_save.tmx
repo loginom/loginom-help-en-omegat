@@ -14024,6 +14024,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>K-fold &lt;x1/&gt;кросс-валидация&lt;x2/&gt; - входные данные разбиваются на К колод (частей).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T075606Z" creationid="Марианна" creationdate="20201225T075606Z">
+        <seg>K-fold &lt;x1/&gt;cross validation&lt;x2/&gt;: the input data is divided into K folds (parts).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Key</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083811Z" creationid="Марианна" creationdate="20201030T083811Z">
@@ -24667,6 +24675,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T054950Z" creationid="Марианна" creationdate="20201222T054950Z">
         <seg>Three structure related parameters can be selected for the neural network:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нейросеть обучается на основе всех колод кроме одной, которая  используется для валидации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T075909Z" creationid="Марианна" creationdate="20201225T075909Z">
+        <seg>The neural network is trained on the basis of all folds, with the exception of one that is used for validation.</seg>
       </tuv>
     </tu>
     <tu>
