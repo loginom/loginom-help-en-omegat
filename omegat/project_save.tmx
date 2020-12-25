@@ -25251,6 +25251,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обучение повторяется K раз, при этом на каждой итерации для валидации используется новая колода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T080017Z" creationid="Марианна" creationdate="20201225T080017Z">
+        <seg>The training process is repeated K times, and a new fold is used for the validation purposes for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обучение сети происходит итерационно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053534Z" creationid="Марианна" creationdate="20201222T053534Z">
