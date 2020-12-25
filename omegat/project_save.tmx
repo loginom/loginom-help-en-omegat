@@ -30123,6 +30123,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Случайный - данные для тестового и обучающего множеств формируется из всего объема входных данных в случайном порядке и случайной пропорции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T075024Z" creationid="Марианна" creationdate="20201225T075024Z">
+        <seg>Random: the data for the test and training sets is formed from the whole volume of the input data in random order and proportion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Случайный — случайно разбивает множество записей на обучающее и тестовое множество.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082553Z" creationid="Марианна" creationdate="20201214T082553Z">
