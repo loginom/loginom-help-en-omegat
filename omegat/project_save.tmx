@@ -22377,6 +22377,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как правило, этот параметр напрямую коррелирует от параметра нормализации входных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T083937Z" creationid="Марианна" creationdate="20201225T083937Z">
+        <seg>As a rule, this parameter directly correlates with the normalization parameter of the input data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как узнать версию Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161327Z" creationid="Марианна" creationdate="20200818T161327Z">
