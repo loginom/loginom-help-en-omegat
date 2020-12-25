@@ -25267,6 +25267,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обучение повторяется в соответствии с заданным количеством итераций ресемплинга, при этом для каждой итерации формируется новое валидационное множество (ресемпл).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T080353Z" creationid="Марианна" creationdate="20201225T080353Z">
+        <seg>The training process is repeated according to the set count of resampling iterations, and a new validation set (resample) is generated for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обучение сети происходит итерационно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053534Z" creationid="Марианна" creationdate="20201222T053534Z">
