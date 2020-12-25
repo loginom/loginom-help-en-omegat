@@ -27779,6 +27779,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Последовательный - соотношение данных для тестового и обучающего множеств задается вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T075211Z" creationid="Марианна" creationdate="20201225T075211Z">
+        <seg>Consequent: data ratio for the test and training sets is manually set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T101335Z" creationid="Марианна" creationdate="20201215T101308Z">
@@ -28615,6 +28623,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T082707Z" creationid="Марианна" creationdate="20201224T082707Z">
         <seg>Under these circumstances, to take into account the cases when several networks provide the results comparable in accuracy, in order to select the network with the simplest structure, the target function value is additionally fined by the multiplier (1+1e-8) slightly different from 1 for each hidden neuron.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом есть возможность выбрать очередность, по которой сперва выбираются данные для тестового множества, потом для обучающего, или наоборот.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T075335Z" creationid="Марианна" creationdate="20201225T075335Z">
+        <seg>In this case, it is possible to select the order in which the data is selected first for the test set and then for the training one, or vice versa.</seg>
       </tuv>
     </tu>
     <tu>
