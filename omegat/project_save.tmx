@@ -31297,8 +31297,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Также возможно задать верхнюю и нижнюю границу ограничения формы активационной функции.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201225T083300Z" creationid="Марианна" creationdate="20201225T083300Z">
-        <seg>It is also possible to set the upper and lower bounds of ограничения формы активационной функции.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T083356Z" creationid="Марианна" creationdate="20201225T083300Z">
+        <seg>It is also possible to set the upper and lower bounds of the activation function form limit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31633,8 +31633,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тип ограничения определяет форму &lt;x1/&gt;активационной функции&lt;x2/&gt; выходного слоя Нейросети:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201225T080705Z" creationid="Марианна" creationdate="20201225T080705Z">
-        <seg>The restrictions type defines the form of &lt;x1/&gt;activation function&lt;x2/&gt; of the output Neural Network layer:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T083312Z" creationid="Марианна" creationdate="20201225T080705Z">
+        <seg>The limit type defines the form of &lt;x1/&gt;activation function&lt;x2/&gt; of the output Neural Network layer:</seg>
       </tuv>
     </tu>
     <tu>
