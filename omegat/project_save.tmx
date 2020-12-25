@@ -31295,6 +31295,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также возможно задать верхнюю и нижнюю границу ограничения формы активационной функции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T083300Z" creationid="Марианна" creationdate="20201225T083300Z">
+        <seg>It is also possible to set the upper and lower bounds of ограничения формы активационной функции.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также каждый дочерний узел можно связывать с источником данных командой контекстного меню &lt;x5/&gt;Связать автоматически&lt;x6/&gt;&lt;x7/&gt;Связать автоматически&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T192913Z" creationid="Марианна" creationdate="20200929T192913Z">
