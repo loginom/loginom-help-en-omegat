@@ -21937,6 +21937,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интервал — гиперболический тангенс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T080735Z" creationid="Марианна" creationdate="20201225T080735Z">
+        <seg>Interval — hyperbolic tangent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интервалы рассчитываются следующим образом: &lt;x3/&gt;от &lt;Значение поля замена&gt;-&lt;Точность&gt; до &lt;Значение поля замена&gt;+&lt;Точность&gt;&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063658Z" creationid="Марианна" creationdate="20201116T063658Z">
@@ -31611,6 +31619,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T094435Z" creationid="Марианна" creationdate="20201015T094435Z">
         <seg>Data type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип ограничения определяет форму &lt;x1/&gt;активационной функции&lt;x2/&gt; выходного слоя Нейросети:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201225T080705Z" creationid="Марианна" creationdate="20201225T080705Z">
+        <seg>The restrictions type defines the form of &lt;x1/&gt;activation function&lt;x2/&gt; of the output Neural Network layer:</seg>
       </tuv>
     </tu>
     <tu>
