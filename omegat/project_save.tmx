@@ -24305,8 +24305,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройка входных столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T213212Z" creationid="Марианна" creationdate="20201216T213212Z">
-        <seg>Configure Input Columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T200450Z" creationid="Марианна" creationdate="20201216T213212Z">
+        <seg>Configure input columns.</seg>
       </tuv>
     </tu>
     <tu>
