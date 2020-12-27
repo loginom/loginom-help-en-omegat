@@ -26,7 +26,7 @@ To get resulting data sets, it is required to provide preliminary [training of t
 * ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Regression model coefficients](./coef-regression.md) denote a data table.
 * ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Summary](./report.md) denotes variables.
 
-## Node wizard
+## Node Wizard
 
 The wizard includes the following groups of parameters:
 

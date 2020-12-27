@@ -43,7 +43,7 @@ The table that consists of the following fields:
 * **Cluster number**: numbers of the generated clusters are listed.
 * The source data set fields in the cells of which the average value of parameters has been calculated.
 
-## Node wizard
+## Node Wizard
 
 The wizard includes the following groups of parameters:
 

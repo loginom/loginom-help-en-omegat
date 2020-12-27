@@ -26,7 +26,7 @@ The logistic regression enables to estimate possibility of the event occurrence 
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) —  [Regression model coefficients](./coef-regression.md) (data table).
 * ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Summary](./report.md) (variables).
 
-## Node wizard
+## Node Wizard
 
 It includes the following groups of parameters:
 
