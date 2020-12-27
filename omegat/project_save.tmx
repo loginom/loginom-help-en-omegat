@@ -26109,8 +26109,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметры EM-кластеризации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T210433Z" creationid="Марианна" creationdate="20201212T210433Z">
-        <seg>Parameters of EM Clustering.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T200621Z" creationid="Марианна" creationdate="20201212T210433Z">
+        <seg>Parameters of EM clustering.</seg>
       </tuv>
     </tu>
     <tu>
