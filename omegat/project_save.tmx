@@ -24297,8 +24297,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройка входных столбцов</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T070456Z" creationid="Марианна" creationdate="20201208T070456Z">
-        <seg>Configure Input Columns</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T200411Z" creationid="Марианна" creationdate="20201208T070456Z">
+        <seg>Configure input columns</seg>
       </tuv>
     </tu>
     <tu>
@@ -24313,8 +24313,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройка входных столбцов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T132825Z" creationid="Марианна" creationdate="20201210T132825Z">
-        <seg>Configure Input Columns;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T200353Z" creationid="Марианна" creationdate="20201210T132825Z">
+        <seg>Configure input columns;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24497,8 +24497,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройки &lt;x1/&gt;нормализации&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T132843Z" creationid="Марианна" creationdate="20201210T132843Z">
-        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; Settings;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T200424Z" creationid="Марианна" creationdate="20201210T132843Z">
+        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; settings;</seg>
       </tuv>
     </tu>
     <tu>
