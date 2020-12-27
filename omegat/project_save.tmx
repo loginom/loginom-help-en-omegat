@@ -4054,8 +4054,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Индекс Джини&lt;x4/&gt; - поскольку в выходном наборе выводится только класс с наибольшей вероятностью, то для того, чтобы оценить, насколько уверенно классификатор назначил класс, на основе апостериорных вероятностей подсчитывается индекс Джини.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201219T062310Z" creationid="Марианна" creationdate="20201219T062310Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Gini index&lt;x4/&gt;: as only the class with the highest probability is displayed in the output data set, Gini index is calculated to estimate the accuracy of the class assignment by the classifier according to the posterior probabilities.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T220711Z" creationid="Марианна" creationdate="20201219T062310Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Gini index&lt;x4/&gt;: as only the class with the highest probability is displayed in the output data set, the Gini index is calculated to estimate the accuracy of the class assignment by the classifier according to the posterior probabilities.</seg>
       </tuv>
     </tu>
     <tu>
