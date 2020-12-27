@@ -9159,8 +9159,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка линейной регрессии&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T075643Z" creationid="Марианна" creationdate="20201214T075643Z">
-        <seg>&lt;x1/&gt;Linear regression configuring&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T202604Z" creationid="Марианна" creationdate="20201214T075643Z">
+        <seg>&lt;x1/&gt;Linear regression configuring&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11418,8 +11418,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разбиение на множества&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T075626Z" creationid="Марианна" creationdate="20201214T075626Z">
-        <seg>&lt;x1/&gt;Partitioning&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T202555Z" creationid="Марианна" creationdate="20201214T075626Z">
+        <seg>&lt;x1/&gt;Partitioning&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24497,8 +24497,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Настройки &lt;x1/&gt;нормализации&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T200424Z" creationid="Марианна" creationdate="20201210T132843Z">
-        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; settings;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T202550Z" creationid="Марианна" creationdate="20201210T132843Z">
+        <seg>&lt;x1/&gt;Normalization&lt;x2/&gt; settings.</seg>
       </tuv>
     </tu>
     <tu>
