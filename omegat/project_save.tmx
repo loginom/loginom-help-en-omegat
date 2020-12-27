@@ -27213,8 +27213,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Поле присутствует, если установлен флаг &lt;x3/&gt;Рассчитать ошибку аппроксимации&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064304Z" creationid="Марианна" creationdate="20201208T064304Z">
-        <seg>The field is available if the following flag is selected:&lt;x3/&gt;Calculate the approximation error&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T193624Z" creationid="Марианна" creationdate="20201208T064304Z">
+        <seg>The field is available if the following flag is selected: &lt;x3/&gt;Calculate the approximation error&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
