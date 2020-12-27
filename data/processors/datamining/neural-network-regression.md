@@ -43,7 +43,7 @@ It is required to select one of the following usage types for each of the fields
 * ![ ](../../images/icons/usage-types/predicted_default.svg) **Output**: the field contains the class values.
 * ![ ](../../images/icons/usage-types/unspecified_default.svg) **Unused**: the field is not included into processing. It is set for other fields by default.
 
-### Step 2. Configuration of normalization
+### Step 2. Configuration of Normalization
 
 At this stage, the input data is set to the [normal kind](../normalization/README.md). It is transformed from the natural values to the non-dimensional ones to ensure that the data with wide scatter of values does not prevail over the data with less significant scatter of values. Usage of [normalization](https://wiki.loginom.ru/articles/normalization.html) increases the quality and speed of the *Neural Network* training.
 
@@ -51,7 +51,7 @@ At this stage, the input data is set to the [normal kind](../normalization/READM
 
 At this stage, the input data can be divided into the [test](https://wiki.loginom.ru/articles/test-set.html), [training](https://wiki.loginom.ru/articles/training-set.html) and [validation](https://wiki.loginom.ru/articles/validation-set.html) sets (samples).
 
-#### Partition method
+#### Partition Method
 
 * Random: the data for the test and training sets is formed from the whole volume of the input data in random order and proportion.
 
@@ -89,7 +89,7 @@ It is also possible to set the upper and lower bounds of the activation function
 
 #### Training Parameters
 
-* Number of restarts: number of attempts of the *Neural Network* training (using one and the same set) based on the random initial values of the network weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. It must be Integer>= 1 (by default = 10).
+* Number of restarts: number of attempts of the *Neural Network* training (using one and the same set) based on the random initial values of the network weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. It must be integer>= 1 (by default = 10).
 * Decay degree means the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
    * None (0).
    * Very weak (20).
@@ -104,7 +104,7 @@ It is also possible to set the upper and lower bounds of the activation function
 The network is trained in the iterative manner. The whole training data set is read for each iteration, and the *Neural Network* weights are changed. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
 
 * Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops. By default = 0.01.
-* Maximum number of epochs means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
+* Maximum number of epochs means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will be stopped upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
 ### Step 3. Configure Auto Selection of Neural Network Parameters
 

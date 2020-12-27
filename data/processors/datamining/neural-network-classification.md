@@ -75,7 +75,7 @@ It is required to select one of the following usage types for each of the fields
 The network is trained in the iterative manner. The whole training data set is read for each iteration, and the neural network weights are changed. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
 
 * Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops. By default = 0.01.
-* Maximum number of epochs means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
+* Maximum number of epochs means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will be stopped upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
 ### Step 3. Configure Auto Selection of Neural Network Parameters
 
