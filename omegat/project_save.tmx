@@ -23257,8 +23257,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Мастер настройки узла</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T132542Z" creationid="Марианна" creationdate="20201210T132542Z">
-        <seg>Node wizard</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T195850Z" creationid="Марианна" creationdate="20201210T132542Z">
+        <seg>Node Wizard</seg>
       </tuv>
     </tu>
     <tu>
