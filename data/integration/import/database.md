@@ -11,7 +11,7 @@ It is allowed to use [Control variables](../../scenario/variables/control-variab
 ### Input Ports
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) **Connection** accepts parameters of connection to database.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Control variables** (optional port): it is possible to set values of wizard parameters using variables.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Control variables** (optional port): it is possible to set values of the wizard parameters using variables.
 
 ### Output Ports
 

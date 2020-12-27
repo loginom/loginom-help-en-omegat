@@ -13,7 +13,7 @@ The logistic regression enables to estimate possibility of the event occurrence 
 ### Input
 
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Input data source (data table) — required port.
-* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of wizard parameters using variables.
+* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of the wizard parameters using variables.
 
 ### Outputs
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Regression output.
@@ -48,7 +48,7 @@ Available Parameters:
 * Method of partition to training and test sets. There are two partition methods:
    * Random method provides partitioning of records set to training and test sets.
    * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
-* [Validation](../../validation.md)method that can take the following values:
+* [Validation](../../validation.md) method that can take the following values:
    * No validation.
    * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the *Method of [sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
    * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
@@ -73,7 +73,7 @@ A set of parameters to configure the logistic regression can be grouped in the f
       * Maximum speed.
 * **Denormalize model coefficients**: denormalization is required for interpretation of results. As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization. It is a boolean value, enabled by default.
 
-#### Configure events
+#### Configure Events
 
 * Event type. It can take the following values:
    * First listed.

@@ -19,7 +19,7 @@ To get resulting data sets, it is required to provide preliminary [training of t
 ### Input
 
 * ![](../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Input data source (data table) — required port.
-* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of wizard parameters using variables.
+* ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of the wizard parameters using variables.
 
 ### Outputs
 * ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — Regression output is a table that consists of the following fields: field regression of output data, source data set.
