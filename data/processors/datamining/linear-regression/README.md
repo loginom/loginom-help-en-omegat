@@ -30,7 +30,7 @@ To get resulting data sets, it is required to provide preliminary [training of t
 
 The wizard includes the following groups of parameters:
 
-* [Normalization](../../normalization/README.md) Settings;
+* [Normalization](../../normalization/README.md) settings;
 * [Partitioning](#razbienie-na-mnozhestva);
 * [Linear regression configuring](#nastroyka-lineynoy-regressii);
 * [Detailed settings](#detalnye-nastroyki).

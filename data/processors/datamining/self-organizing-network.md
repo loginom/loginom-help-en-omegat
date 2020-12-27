@@ -47,7 +47,7 @@ The table that consists of the following fields:
 
 The wizard includes the following groups of parameters:
 
-* Configure Input Columns. The fields for clustering are selected at this stage:
+* Configure input columns. The fields for clustering are selected at this stage:
    * It is required to set *Used* usage types for the fields that are included into clustering.
    * *Unspecified* is preserved for other fields.
 * [Normalization](../normalization/README.md) Settings.

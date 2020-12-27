@@ -50,7 +50,7 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
 
 ## Wizard
 
-### Step 1. Configure Input Columns
+### Step 1. Configure input columns
 
 It is required to set the [usage type](../../data/datasetfieldoptions.md) of the input data set columns at the first stage. It is required to select one of the following usage types for each of the columns:
 

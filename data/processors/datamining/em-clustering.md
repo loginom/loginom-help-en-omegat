@@ -42,11 +42,11 @@ Result is a table the number of records of which complies with the number of clu
 
 The wizard includes the following groups of parameters:
 
-* Configure Input Columns;
+* Configure input columns;
 * Configuration of [normalization](../normalization);
 * EM clustering.
 
-### Configure Input Columns
+### Configure input columns
 
 * Select fields for clustering:
    * It is required to set *Used* usage types for the fields that are included into clustering.
@@ -58,8 +58,8 @@ The wizard includes the following groups of parameters:
    * The minimum number of clusters. By default — 1.
    * The maximum number of clusters. By default — 10.
    * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering. By default — 1.
-* Set number of clusters. The pack of parameters available for configuration in the case of inactive flag *Auto selection of clusters*.
+* Set number of clusters. The pack of parameters available for configuration in the case of inactive flag: *Auto selection of clusters*.
    * Number of clusters. By default — 3.
-* Parameters of EM Clustering.
+* Parameters of EM clustering.
    * Variables are independent. Consideration of dependence between variables. If the flag is active, there is no dependence.
-   * Median Modification. Selection of the flag means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type. It can increase the algorithm stability relative to the source data.
+   * Median modification. Selection of the flag means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type. It can increase the algorithm stability relative to the source data.

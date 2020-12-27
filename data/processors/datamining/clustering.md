@@ -47,11 +47,11 @@ The table that consists of the following fields:
 
 The wizard includes the following groups of parameters:
 
-* Configure Input Columns;
-* [Normalization](../normalization/README.md) Settings;
+* Configure input columns;
+* [Normalization](../normalization/README.md) settings;
 * Clustering.
 
-### Configure Input Columns
+### Configure input columns
 
 * Select fields for clustering:
    * It is required to set *Used* usage types for the fields that are included into clustering.

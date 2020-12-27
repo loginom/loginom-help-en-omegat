@@ -30,7 +30,7 @@ The logistic regression enables to estimate possibility of the event occurrence 
 
 It includes the following groups of parameters:
 
-* [Normalization](../../normalization/README.md) Settings;
+* [Normalization](../../normalization/README.md) settings;
 * [Partitioning](#razbienie-na-mnozhestva);
 * [Logistic regression configuring](#nastroyka-logisticheskoy-regressii);
 * [Detailed settings](#detalnye-nastroyki).
