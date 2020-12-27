@@ -18095,16 +18095,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Величина связи между переменными регрессионной модели (изменяется от 0 до 1)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T205830Z" creationid="Марианна" creationdate="20201216T205811Z">
-        <seg>Value of link between variables of regression model (changes from 0 to 1).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T212136Z" creationid="Марианна" creationdate="20201216T205811Z">
+        <seg>Value of link between variables of regression model (changes from 0 to 1)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Величина связи между переменными регрессионной модели (изменяется от 0 до 1).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T205932Z" creationid="Марианна" creationdate="20201216T205932Z">
-        <seg>Value of link between variables of regression model (changes from 0 to 1).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T212142Z" creationid="Марианна" creationdate="20201216T205932Z">
+        <seg>Value of link between variables of regression model (changes from 0 to 1)</seg>
       </tuv>
     </tu>
     <tu>
@@ -25309,8 +25309,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Общее число примеров, поданных на вход &lt;x1/&gt;модели&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T204848Z" creationid="Марианна" creationdate="20201217T204848Z">
-        <seg>Total number of the samples supplied to the &lt;x1/&gt;model&lt;x2/&gt; input.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T212102Z" creationid="Марианна" creationdate="20201217T204848Z">
+        <seg>Total number of the samples supplied to the &lt;x1/&gt;model&lt;x2/&gt; input</seg>
       </tuv>
     </tu>
     <tu>
@@ -25941,8 +25941,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Ошибка обучения, показывающая &lt;x1/&gt;точность&lt;x2/&gt; настройки модели на обучающем множестве</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T211739Z" creationid="Марианна" creationdate="20201217T205334Z">
-        <seg>Tthe training error that reflects the model setting &lt;x1/&gt;accuracy&lt;x2/&gt; of the training set</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T212129Z" creationid="Марианна" creationdate="20201217T205334Z">
+        <seg>The training error that reflects the model setting &lt;x1/&gt;accuracy&lt;x2/&gt; of the training set</seg>
       </tuv>
     </tu>
     <tu>
