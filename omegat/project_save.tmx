@@ -20759,8 +20759,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если классификация уверенная и класс-«победитель» имеет вероятность, значительно превышающую вероятности остальных классов, индекс Джини будет близок к 1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201221T123338Z" creationid="Марианна" creationdate="20201221T123338Z">
-        <seg>If classification is stable, and the "winning" class has probability significantly higher than probabilities of other classes, Gini index wil be close to 1.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T220741Z" creationid="Марианна" creationdate="20201221T123338Z">
+        <seg>If classification is stable, and the "winning" class has probability significantly higher than probabilities of other classes, the Gini index wil be close to 1.</seg>
       </tuv>
     </tu>
     <tu>
