@@ -23035,8 +23035,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Критерий основан на использовании &lt;x1/&gt;функции правдоподобия&lt;x2/&gt; и тесно связан с информационным критерием Акаике</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T211021Z" creationid="Марианна" creationdate="20201216T211006Z">
-        <seg>The criterion is based on use of &lt;x1/&gt;likelihood function&lt;x2/&gt;, and it is closely connected with Akaike information criterion</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T204004Z" creationid="Марианна" creationdate="20201216T211006Z">
+        <seg>The criterion is based on use of &lt;x1/&gt;likelihood function&lt;x2/&gt;, and it is closely connected with the Akaike information criterion</seg>
       </tuv>
     </tu>
     <tu>
@@ -23577,8 +23577,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Модифицированный критерий Акаике, применяемый для &lt;x1/&gt;выборок&lt;x2/&gt; малого размера, когда отношение числа содержащихся в ней примеров к числу параметров модели меньше 40</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T211933Z" creationid="Марианна" creationdate="20201216T211506Z">
-        <seg>Modified Akaike criterion used for the small &lt;x1/&gt;samples&lt;x2/&gt; when ratio of the number of the samples in it to the number of the model parameters is less than 40.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T203955Z" creationid="Марианна" creationdate="20201216T211506Z">
+        <seg>The modified Akaike criterion used for the small &lt;x1/&gt;samples&lt;x2/&gt; when ratio of the number of the samples in it to the number of the model parameters is less than 40.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24217,16 +24217,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с &lt;x1/&gt;дискретными&lt;x2/&gt; и ограниченными зависимыми переменными</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T211402Z" creationid="Марианна" creationdate="20201217T211303Z">
-        <seg>Alongside with Akaike and Bayesian criteria, it is specified in the results of assessment of the models with &lt;x1/&gt;discrete&lt;x2/&gt; and limited dependent variables</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T204039Z" creationid="Марианна" creationdate="20201217T211303Z">
+        <seg>Alongside with the Akaike and Bayesian criteria, it is specified in the results of assessment of the models with &lt;x1/&gt;discrete&lt;x2/&gt; and limited dependent variables</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Наряду с критерием Акаике и критерием Байеса, выдается в результатах оценки моделей с дискретными и ограниченными зависимыми переменными</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T211334Z" creationid="Марианна" creationdate="20201216T211233Z">
-        <seg>Alongside with Akaike and Bayesian criteria, it is specified in the results of assessment of the models with discrete and limited dependent variables</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T204011Z" creationid="Марианна" creationdate="20201216T211233Z">
+        <seg>Alongside with the Akaike and Bayesian criteria, it is specified in the results of assessment of the models with discrete and limited dependent variables</seg>
       </tuv>
     </tu>
     <tu>
