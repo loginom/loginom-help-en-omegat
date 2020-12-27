@@ -16833,8 +16833,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Без скрытых слоев;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T214631Z" creationid="Марианна" creationdate="20201216T214631Z">
-        <seg>No hidden layers;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215700Z" creationid="Марианна" creationdate="20201216T214631Z">
+        <seg>No hidden layers.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25405,8 +25405,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Один скрытый слой (используется по умолчанию);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T214710Z" creationid="Марианна" creationdate="20201216T214710Z">
-        <seg>One hidden layer (used by default);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215705Z" creationid="Марианна" creationdate="20201216T214710Z">
+        <seg>One hidden layer (used by default).</seg>
       </tuv>
     </tu>
     <tu>
