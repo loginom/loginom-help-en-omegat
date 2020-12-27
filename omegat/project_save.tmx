@@ -23027,8 +23027,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Критерий используется для сравнения моделей с разным числом параметров, когда требуется выбрать наилучший набор объясняющих переменных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T210627Z" creationid="Марианна" creationdate="20201216T210627Z">
-        <seg>The criterion is used for comparison of models with different number of parameters when it is required to select the best set of explicative variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T203830Z" creationid="Марианна" creationdate="20201216T210627Z">
+        <seg>The criterion is used for comparison of the models with different number of parameters when it is required to select the best set of explicative variables.</seg>
       </tuv>
     </tu>
     <tu>
