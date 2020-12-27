@@ -30877,8 +30877,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Статистическая характеристика распределения случайной величины, показывающая среднюю степень разброса значений величины относительно &lt;x1/&gt;математического ожидания&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T135427Z" creationid="Марианна" creationdate="20201210T135427Z">
-        <seg>Statistical characteristic of random distribution that shows the average degree of spread in values relative to &lt;x1/&gt;statistical expectation&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T204336Z" creationid="Марианна" creationdate="20201210T135427Z">
+        <seg>Statistical characteristics of random distribution that shows the average degree of spread in values relative to &lt;x1/&gt;statistical expectation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
