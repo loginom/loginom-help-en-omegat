@@ -20887,8 +20887,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если процесс обучения необходимо ограничить по времени, в этом случае он остановится после заданного количества эпох, даже если обучение еще не пришло к оптимальной точке, т.е. не достигнут порог минимального изменения весов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T085110Z" creationid="Марианна" creationdate="20201222T085110Z">
-        <seg>If it is required to limit the training process in time, in this case, it will stop upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T221623Z" creationid="Марианна" creationdate="20201222T085110Z">
+        <seg>If it is required to limit the training process in time, in this case, it will be stopped upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.</seg>
       </tuv>
     </tu>
     <tu>
