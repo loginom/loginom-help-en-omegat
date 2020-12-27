@@ -23019,8 +23019,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Критерий используется для сравнения моделей с разным числом параметров, когда требуется выбрать наилучший набор &lt;x1/&gt;объясняющих&lt;x2/&gt; переменных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T211441Z" creationid="Марианна" creationdate="20201217T211441Z">
-        <seg>The criterion is used for comparison of models with different number of parameters when it is required to select the best set of &lt;x1/&gt;explicative&lt;x2/&gt; variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T212228Z" creationid="Марианна" creationdate="20201217T211441Z">
+        <seg>The criterion is used for comparison of the models with different number of parameters when it is required to select the best set of &lt;x1/&gt;explicative&lt;x2/&gt; variables.</seg>
       </tuv>
     </tu>
     <tu>
