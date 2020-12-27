@@ -7,7 +7,7 @@ Before forecasting, it is required to train the algorithm using the training dat
 * a set of input parameters in the fields marked as the **input** ones;
 * the dependent variables values mapping the input parameters in the fields marked as the **output** ones.
 
-Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the *Neural Network* can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
+Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the *Neural Network* can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. The Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
 Only the fields with continuous [data kind](../../data/datatype.md) can be the **output** ones in the regression task (as opposed to the [classification task](../../processors/datamining/neural-network-classification.md)). Data kind of input fields is not regulated.
 
@@ -110,8 +110,8 @@ The network is trained in the iterative manner. The whole training data set is r
 
 Three structure related parameters can be selected for the neural network:
 
-* Number of hidden layers (0, 1 or 2);
-* Number of neurons in each hidden layer;
+* Number of hidden layers (0, 1 or 2).
+* Number of neurons in each hidden layer.
 * Decay degree enables to adjust the model stiffness.
 
 #### Common Parameters
@@ -121,7 +121,7 @@ Three structure related parameters can be selected for the neural network:
 * **Decay degree autofit** provides the auto selection of the Neural Network decay degree.
    * **Start with the specified decay degree**: usage of the value set on the page of the Neural Network parameters configuration as the initial *Decay degree*.
 
-> **Note:** if it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.
+> **Note:** If it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.
 
 #### Sampling Parameters
 
@@ -133,9 +133,9 @@ To speed up the autofit process, it is required to set the subsample in which it
 
 #### Auto Stop Criteria
 
-The auto selection process stops by default if it is not possible to find better parameters as compared with the detected ones. To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time.
+The auto selection process is stopped by default if it is not possible to find better parameters as compared with the detected ones. To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time.
 
-* **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled);
+* **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled).
 * **Autofit time not more (s)** means the maximum algorithm operation time (0 — restriction is disabled).
 
 > **Note:** In the course of the work it is required to take into account that practically both restrictions can be insignificantly exceeded when using subsample for autofit, as the best full set Neural Network will be trained at the last unrestricted stage.
