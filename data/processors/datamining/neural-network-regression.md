@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/regressionneuralnet_default.svg) Neural network (regression)
+# ![ ](../../images/icons/components/regressionneuralnet_default.svg) Neural Network (Regression)
 
 It handles the task of [regression](https://wiki.loginom.ru/articles/regression-line.html): the [*Neural Network*](https://basegroup.ru/deductor/function/algorithm/neuronet) in the output data set will provide the forecast value for one or several variables that depend on the input parameters set.
 
