@@ -6,7 +6,7 @@
 
 Linear regression is one of the most frequently used algorithms in [machine learning](https://wiki.loginom.ru/articles/machine-learning.html). This algorithm frequently produces good results even for small data sets.
 
-Wide use of linear regression is explained by the fact that many real processes in science, econimics and business can be described in terms of linear models. For example, linear regression enables to estimate anticipated sales volume depending on the established price.
+Wide use of linear regression is explained by the fact that many real processes in science, economics and business can be described in terms of linear models. For example, linear regression enables to estimate anticipated sales volume depending on the established price.
 
 The handler can be used to accomplish different [Data Mining](https://wiki.loginom.ru/articles/data-mining.html?q=) tasks, for example, such as [forecasting](https://wiki.loginom.ru/articles/forecasting.html) and numerical prediction.
 
@@ -30,9 +30,9 @@ To get resulting data sets, it is required to provide preliminary [training of t
 
 The wizard includes the following groups of parameters:
 
-* [Normalization](../../normalization/README.md) settings;
-* [Partitioning](#razbienie-na-mnozhestva);
-* [Linear regression configuring](#nastroyka-lineynoy-regressii);
+* [Normalization](../../normalization/README.md) settings.
+* [Partitioning](#razbienie-na-mnozhestva).
+* [Linear regression configuring](#nastroyka-lineynoy-regressii).
 * [Detailed settings](#detalnye-nastroyki).
 
 ### Partitioning
@@ -48,14 +48,14 @@ Available Parameters:
    * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
 * [Validation](../../validation.md) method that can take the following values:
    * No validation.
-   * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the*Method of[sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
+   * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the *Method of[sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
    * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
 ### Linear Regression Configuring
 
 A set of parameters to configure the linear regression can be grouped in the following packs:
 
-#### Configure method
+#### Configure Method
 
 * Auto setup:
    * Boolean value. Enabled by default.
@@ -145,7 +145,7 @@ Available Parameters:
    * For all models.
    * For the final model.
 
-#### Regularization settings
+#### Regularization Settings
 
 Available Parameters:
 

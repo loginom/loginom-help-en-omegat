@@ -48,7 +48,7 @@ The table that consists of the following fields:
 The wizard includes the following groups of parameters:
 
 * Configure input columns;
-* [Normalization](../normalization/README.md) settings;
+* [Normalization](../normalization/README.md) settings.
 * Clustering.
 
 ### Configure input columns

@@ -30,8 +30,8 @@ The logistic regression enables to estimate possibility of the event occurrence 
 
 It includes the following groups of parameters:
 
-* [Normalization](../../normalization/README.md) settings;
-* [Partitioning](#razbienie-na-mnozhestva);
+* [Normalization](../../normalization/README.md) settings.
+* [Partitioning](#razbienie-na-mnozhestva).
 * [Logistic regression configuring](#nastroyka-logisticheskoy-regressii);
 * [Detailed settings](#detalnye-nastroyki).
 
@@ -50,7 +50,7 @@ Available Parameters:
    * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
 * [Validation](../../validation.md)method that can take the following values:
    * No validation.
-   * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the*Method of[sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
+   * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the *Method of[sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
    * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
 
@@ -58,7 +58,7 @@ Available Parameters:
 
 A set of parameters to configure the logistic regression can be grouped in the following packs:
 
-#### Configure method
+#### Configure Method
 
 * Auto setup:
    * Boolean value. Enabled by default.
@@ -161,7 +161,7 @@ Available Parameters:
    * For all models.
    * For the final model.
 
-#### Regularization settings
+#### Regularization Settings
 
 Available Parameters:
 
