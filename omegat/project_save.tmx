@@ -25941,8 +25941,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Ошибка обучения, показывающая &lt;x1/&gt;точность&lt;x2/&gt; настройки модели на обучающем множестве</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T205334Z" creationid="Марианна" creationdate="20201217T205334Z">
-        <seg>Training error that reflects the model setting &lt;x1/&gt;accuracy&lt;x2/&gt; of the training set</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T211739Z" creationid="Марианна" creationdate="20201217T205334Z">
+        <seg>Tthe training error that reflects the model setting &lt;x1/&gt;accuracy&lt;x2/&gt; of the training set</seg>
       </tuv>
     </tu>
     <tu>
