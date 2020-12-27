@@ -43,11 +43,11 @@ The data table that consists of:
 
 ## Wizard
 
-It is required to set as follows at this stage:
+At this stage it is required to provide the following settings:
 
 * **Fields for clustering.**
    * It is required to set the "Transaction" and "Item" usage types for the fields that are included into processing.
    * "Unspecified" is preserved for other fields.
-* **Repulsion coefficient**: it enables to control the level of transactions similarity inside the cluster and consequently the final number of clusters. The higher coefficient, the lower the similarity level and the more clusters will be generated. The default repulsion coefficient value is equal to 2.6. Range of values change from 1 to 4.
+* **Repulsion coefficient**: it enables to control the level of transactions similarity inside the cluster and consequently the final number of clusters. The higher coefficient, the lower the similarity level and the more clusters will be generated. The default repulsion coefficient value is equal to 2.6. Range of values change varies from 1 to 4.
 * **Limit the number of clusters** enables to set the highest number of clusters that can be finally provided by the algorithm manually. This setting can be used if the definite number of cluster is required, for example, not exceeding 15.
 * **Limit the number of iterations** enables to terminate the algorithm operation deliberately if the algorithm iterations number exceeds the set maximum number of iterations. The first transaction table check in the algorithm is required for the first clustering defined by the cost function. Then, to improve the clustering quality and optimize the function, the tables are additionally scanned once again several times, until changes in clustering are stopped. It is required to limit the maximum number of iterations in the case of large amount of data for preliminary evaluation of the clustering quality.
