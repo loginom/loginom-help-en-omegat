@@ -30045,8 +30045,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Сильная (100);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T052945Z" creationid="Марианна" creationdate="20201222T052945Z">
-        <seg>Strong (100);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215902Z" creationid="Марианна" creationdate="20201222T052945Z">
+        <seg>Strong (100).</seg>
       </tuv>
     </tu>
     <tu>
@@ -30757,8 +30757,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Средняя (0,1);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T052923Z" creationid="Марианна" creationdate="20201222T052923Z">
-        <seg>Mean (0.1);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215909Z" creationid="Марианна" creationdate="20201222T052923Z">
+        <seg>Mean (0.1).</seg>
       </tuv>
     </tu>
     <tu>
