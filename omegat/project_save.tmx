@@ -22627,8 +22627,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество нейронов в первом скрытом слое — целое число &gt;= 1 (по умолчанию = 10);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T050616Z" creationid="Марианна" creationdate="20201222T050616Z">
-        <seg>Number of neurons in the first hidden layer — integer &gt;= 1 (by default = 10);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215728Z" creationid="Марианна" creationdate="20201222T050616Z">
+        <seg>Number of neurons in the first hidden layer — integer &gt;= 1 (by default = 10).</seg>
       </tuv>
     </tu>
     <tu>
