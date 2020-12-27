@@ -25301,8 +25301,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Общее число &lt;x1/&gt;примеров&lt;x2/&gt;, поданных на вход &lt;x3/&gt;модели&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T205049Z" creationid="Марианна" creationdate="20201216T205049Z">
-        <seg>Total number of the &lt;x1/&gt;samples&lt;x2/&gt; supplied to the &lt;x3/&gt;model&lt;x4/&gt; input.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T203725Z" creationid="Марианна" creationdate="20201216T205049Z">
+        <seg>Total number of the &lt;x1/&gt;samples&lt;x2/&gt; supplied to the &lt;x3/&gt;model&lt;x4/&gt; input</seg>
       </tuv>
     </tu>
     <tu>
