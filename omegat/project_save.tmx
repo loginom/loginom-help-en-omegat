@@ -26781,8 +26781,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию = 0,01;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T054805Z" creationid="Марианна" creationdate="20201222T053654Z">
-        <seg>By default = 0.01;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T220001Z" creationid="Марианна" creationdate="20201222T053654Z">
+        <seg>By default = 0.01.</seg>
       </tuv>
     </tu>
     <tu>
