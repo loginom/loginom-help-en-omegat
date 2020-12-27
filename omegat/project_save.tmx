@@ -32329,8 +32329,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Целое число &gt;= 1 (по умолчанию = 10);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T214732Z" creationid="Марианна" creationdate="20201216T214732Z">
-        <seg>Integer &gt;= 1 (by default = 10);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215809Z" creationid="Марианна" creationdate="20201216T214732Z">
+        <seg>Integer &gt;= 1 (by default = 10).</seg>
       </tuv>
     </tu>
     <tu>
