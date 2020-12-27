@@ -20423,8 +20423,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Должно быть целым числом &gt;= 1 (по умолчанию = 10).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201224T085545Z" creationid="Марианна" creationdate="20201224T085545Z">
-        <seg>It must be Integer&gt;= 1 (by default = 10).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T221420Z" creationid="Марианна" creationdate="20201224T085545Z">
+        <seg>It must be integer&gt;= 1 (by default = 10).</seg>
       </tuv>
     </tu>
     <tu>
