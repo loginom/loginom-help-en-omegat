@@ -16841,8 +16841,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T210411Z" creationid="Марианна" creationdate="20201212T210411Z">
-        <seg>The pack of parameters available for configuration in the case of inactive flag &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T200541Z" creationid="Марианна" creationdate="20201212T210411Z">
+        <seg>The pack of parameters available for configuration in the case of inactive flag: &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
