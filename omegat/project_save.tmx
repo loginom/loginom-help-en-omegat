@@ -25869,8 +25869,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Оценка точности модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T211121Z" creationid="Марианна" creationdate="20201217T211121Z">
-        <seg>Assessment of the Model Accuracy.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T211911Z" creationid="Марианна" creationdate="20201217T211121Z">
+        <seg>Assessment of the model accuracy.</seg>
       </tuv>
     </tu>
     <tu>
