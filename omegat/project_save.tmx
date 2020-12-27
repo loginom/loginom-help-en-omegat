@@ -18017,8 +18017,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В ячейках полей указаны веса узлов сети.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T224527Z" creationid="Марианна" creationdate="20201217T224527Z">
-        <seg>Weight of the network nodes are specified in the field cells.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T222532Z" creationid="Марианна" creationdate="20201217T224527Z">
+        <seg>Weights of the network nodes are specified in the field cells.</seg>
       </tuv>
     </tu>
     <tu>
