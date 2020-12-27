@@ -11023,8 +11023,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры либо только степени регуляризации, сократив время на обучение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T092741Z" creationid="Марианна" creationdate="20201222T092707Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T220101Z" creationid="Марианна" creationdate="20201222T092707Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; If it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22611,8 +22611,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество нейронов в каждом из скрытых слоев;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T053812Z" creationid="Марианна" creationdate="20201222T053723Z">
-        <seg>Number of neurons in each hidden layer;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T220055Z" creationid="Марианна" creationdate="20201222T053723Z">
+        <seg>Number of neurons in each hidden layer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22675,8 +22675,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество скрытых слоев (0, 1 или 2);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201216T214116Z" creationid="Марианна" creationdate="20201216T214116Z">
-        <seg>Number of hidden layers (0, 1 or 2);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T220024Z" creationid="Марианна" creationdate="20201216T214116Z">
+        <seg>Number of hidden layers (0, 1 or 2).</seg>
       </tuv>
     </tu>
     <tu>
