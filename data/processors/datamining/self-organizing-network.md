@@ -32,7 +32,7 @@ The table that consists of the following fields:
 
 * **Cluster number**: each object is assigned with the number of the cluster into which it is included. The cluster consists of the network nodes.
 * **Node number**: each object is assigned with the number of the network node to which it relates. In their turn, the nodes are combined into clusters (*Cluster number* field).
-* **Distance to node** means Euclidean distance to the nearest node, namely, to the node of the object.
+* **Distance to node** means the Euclidean distance to the nearest node, namely, to the node of the object.
 * All fields of the source data set, irrespective of the field usage type.
 
 ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Coordinates of nodes.
@@ -41,7 +41,7 @@ The table that consists of the following fields:
 
 * **Node number**: numbers of the generated nodes are listed.
 * **Cluster number**: numbers of the generated clusters are listed.
-* The source data set fields for which *Used* was selected as *Usage type* parameter value. Weight of the network nodes are specified in the field cells.
+* The source data set fields for which *Used* was selected as *Usage type* parameter value. Weights of the network nodes are specified in the field cells.
 
 ## Wizard
 
@@ -50,7 +50,7 @@ The wizard includes the following groups of parameters:
 * Configure input columns. The fields for clustering are selected at this stage:
    * It is required to set *Used* usage types for the fields that are included into clustering.
    * *Unspecified* is preserved for other fields.
-* [Normalization](../normalization/README.md) Settings.
+* [Normalization](../normalization/README.md) settings.
 * Self-organizing network.
    * Type of self-organizing network:
       * Kohonen network.
