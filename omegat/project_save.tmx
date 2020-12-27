@@ -2982,16 +2982,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T210235Z" creationid="Марианна" creationdate="20200829T210235Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of wizard parameters using variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T210736Z" creationid="Марианна" creationdate="20200829T210235Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; — (необязательный порт) переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T210313Z" creationid="Марианна" creationdate="20200824T154754Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of wizard parameters using variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T210744Z" creationid="Марианна" creationdate="20200824T154754Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4710,8 +4710,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T075255Z" creationid="Марианна" creationdate="20201214T075255Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Control variables&lt;x4/&gt; (variables) — optional port. It is possible to set values of wizard parameters using variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T210758Z" creationid="Марианна" creationdate="20201214T075255Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; —  &lt;x3/&gt;Control variables&lt;x4/&gt; (variables) — optional port. It is possible to set values of the wizard parameters using variables.</seg>
       </tuv>
     </tu>
     <tu>
