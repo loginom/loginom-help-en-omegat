@@ -18111,8 +18111,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Величина, используемая для оценки &lt;x1/&gt;точности&lt;x2/&gt; критерия Вальда</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T135746Z" creationid="Марианна" creationdate="20201210T135746Z">
-        <seg>The value used for assessment of Wald criterion &lt;x1/&gt;accuracy&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T204423Z" creationid="Марианна" creationdate="20201210T135746Z">
+        <seg>The value used for assessment of the Wald criterion &lt;x1/&gt;accuracy&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
