@@ -52,7 +52,7 @@ It is required to set ["Usage type" parameter](../../data/datasetfieldoptions.md
 
 ## Wizard
 
-includes the follwing groups of parameters:
+It includes the following groups of parameters:
 
 ### Frequent Itemsets
 

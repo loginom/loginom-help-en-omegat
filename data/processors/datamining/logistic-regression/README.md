@@ -28,7 +28,7 @@ The logistic regression enables to estimate possibility of the event occurrence 
 
 ## Node wizard
 
-includes the follwing groups of parameters:
+It includes the following groups of parameters:
 
 * [Normalization](../../normalization/README.md) Settings;
 * [Partitioning](#razbienie-na-mnozhestva);
