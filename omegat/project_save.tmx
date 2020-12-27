@@ -11578,8 +11578,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Расстояние до узла&lt;x2/&gt; — евклидово расстояние до ближайшего узла, т.е. того, которому принадлежит объект.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201217T224355Z" creationid="Марианна" creationdate="20201217T224355Z">
-        <seg>&lt;x1/&gt;Distance to node&lt;x2/&gt; means Euclidean distance to the nearest node, namely, to the node of the object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T222453Z" creationid="Марианна" creationdate="20201217T224355Z">
+        <seg>&lt;x1/&gt;Distance to node&lt;x2/&gt; means the Euclidean distance to the nearest node, namely, to the node of the object.</seg>
       </tuv>
     </tu>
     <tu>
