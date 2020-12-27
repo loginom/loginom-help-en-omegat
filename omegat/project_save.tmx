@@ -19895,16 +19895,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для обучения используется квазиньютоновский &lt;x3/&gt;метод Бройдена-Флетчера-Гольдфарба-Шанно&lt;x4/&gt; с ограниченным использованием памяти L-BFGS.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201221T140651Z" creationid="Марианна" creationdate="20201221T140651Z">
-        <seg>Quasi-Newton &lt;x3/&gt;Broyden — Fletcher — Goldfarb — Shanno method&lt;x4/&gt; is used for training with limited use of L-BFGS memory.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215409Z" creationid="Марианна" creationdate="20201221T140651Z">
+        <seg>The Quasi-Newton &lt;x3/&gt;Broyden — Fletcher — Goldfarb — Shanno method&lt;x4/&gt; is used for training with limited use of L-BFGS memory.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Для обучения используется квазиньютоновский &lt;x5/&gt;метод Бройдена-Флетчера-Гольдфарба-Шанно&lt;x6/&gt; с ограниченным использованием памяти L-BFGS.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T095130Z" creationid="Марианна" creationdate="20201222T095130Z">
-        <seg>Quasi-Newton &lt;x5/&gt;Broyden — Fletcher — Goldfarb — Shanno method&lt;x6/&gt; is used for training with limited use of L-BFGS memory.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201227T215415Z" creationid="Марианна" creationdate="20201222T095130Z">
+        <seg>The Quasi-Newton &lt;x5/&gt;Broyden — Fletcher — Goldfarb — Shanno method&lt;x6/&gt; is used for training with limited use of L-BFGS memory.</seg>
       </tuv>
     </tu>
     <tu>
