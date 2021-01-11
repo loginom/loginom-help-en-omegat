@@ -12264,6 +12264,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122914Z" creationid="Марианна" creationdate="20210111T122914Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Спирмена&lt;x2/&gt; — коэффициенты корреляции Спирмена.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T073411Z" creationid="Марианна" creationdate="20201012T073411Z">
