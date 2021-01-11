@@ -2,9 +2,9 @@
 
 Используется для подключения к базе данных Microsoft Access.
 
-## Параметры подключения
+## Connection Parameters
 
-При настройке подключения задаются следующие параметры:
+The following parameters are set during the connection setup:
 
 * **Метка** — содержит задаваемое пользователем имя подключения;
 * **Строка подключения** — указывается путь к файлу БД, содержащему необходимые данные. Параметры можно ввести вручную или нажатием кнопки ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызвать окно *Открыть файл*;
@@ -20,7 +20,7 @@
 
 > **Примечание:** Для подключения к базе данных необходима установка Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) той же разрядности, что и разрядность приложения/сервера Loginom.
 
-## Совместимость
+## Compatibility
 
 Версии 95, 97, 2000, 2003, 2007, 2010, 2013 и 2016.
 
