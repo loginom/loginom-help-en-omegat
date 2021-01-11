@@ -5908,6 +5908,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В файловом хранилище или локальной сети&lt;x2/&gt; — подключение к базе данных через указание ее каталога на жестком диске.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122043Z" creationid="Марианна" creationdate="20210111T122043Z">
+        <seg>&lt;x1/&gt;In file storage or local network&lt;x2/&gt;: connection to the database by specifying its directory on the hard disk.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ВАЖНО&lt;x2/&gt;: при написании сложных условий приоритет будет у оператора &lt;x3/&gt;И&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T135211Z" creationid="Марианна" creationdate="20200924T084106Z">
@@ -9153,6 +9161,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185007Z" creationid="Марианна" creationdate="20200810T154844Z">
         <seg>&lt;x1/&gt;Package designation and structure&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Наименование&lt;x2/&gt; — отображает список выбора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T121842Z" creationid="Марианна" creationdate="20210111T121842Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt; displays the selection list.</seg>
       </tuv>
     </tu>
     <tu>
