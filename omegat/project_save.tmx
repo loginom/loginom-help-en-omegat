@@ -8287,8 +8287,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Каталог базы данных&lt;x2/&gt; — путь к базе данных 1С:Предприятие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T122205Z" creationid="Марианна" creationdate="20210111T122157Z">
-        <seg>&lt;x1/&gt;Database directory&lt;x2/&gt; provides a path to 1C:Enterprise database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122357Z" creationid="Марианна" creationdate="20210111T122157Z">
+        <seg>&lt;x1/&gt;Database directory&lt;x2/&gt;: a path to 1C:Enterprise database.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8321,6 +8321,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T161725Z" creationid="Марианна" creationdate="20201013T161725Z">
         <seg>&lt;x1/&gt;Quartimax&lt;x2/&gt;: this criterion simplifies description of each variable, namely, it decreases the number of factors connected with this variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кластер серверов&lt;x2/&gt; — доменное имя кластера или его IP-адрес.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122507Z" creationid="Марианна" creationdate="20210111T122348Z">
+        <seg>&lt;x1/&gt;Server cluster&lt;x2/&gt;: cluster domain name кластера or its IP address.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9121,6 +9129,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T093524Z" creationid="Марианна" creationdate="20201117T093524Z">
         <seg>&lt;x1/&gt;With regular expression&lt;x2/&gt;: the new value will be calculated using the &lt;x3/&gt;regular expression&lt;x4/&gt; syntax.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На сервере 1С:Предприятия&lt;x2/&gt; — подключение через указание имени кластера и названия базы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122412Z" creationid="Марианна" creationdate="20210111T122319Z">
+        <seg>&lt;x1/&gt;On 1C:Enterprise server&lt;x2/&gt;: connection by specifying the cluster and database names:</seg>
       </tuv>
     </tu>
     <tu>
