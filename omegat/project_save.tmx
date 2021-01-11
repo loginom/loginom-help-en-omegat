@@ -22147,8 +22147,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Используется для подключения к базам данных платформы 1С:Предприятие версий 8.x.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T053946Z" creationid="Марианна" creationdate="20210111T053946Z">
-        <seg>It is used for connection to databases of 1C:Enterprise 8.x platform.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T053959Z" creationid="Марианна" creationdate="20210111T053946Z">
+        <seg>It is used for connection to the databases of 1C:Enterprise 8.x platform.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26187,6 +26187,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры подключения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T054103Z" creationid="Марианна" creationdate="20210111T054031Z">
+        <seg>Connection Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры подключения к источнику данных используются узлами &lt;x1/&gt;импорта&lt;x2/&gt;/&lt;x3/&gt;экспорта&lt;x4/&gt; данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T103144Z" creationid="Марианна" creationdate="20200711T103144Z">
@@ -28367,6 +28375,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073935Z" creationid="Марианна" creationdate="20200817T073935Z">
         <seg>If &lt;x1/&gt;&lt;x2/&gt; is available, it shows all processes, with the exception of those processes that have been removed by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При настройке подключения задаются следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T054455Z" creationid="Марианна" creationdate="20210111T054455Z">
+        <seg>The following parameters are set during the connection setup:</seg>
       </tuv>
     </tu>
     <tu>
