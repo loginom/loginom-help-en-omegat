@@ -12352,6 +12352,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — содержит параметры подключения к базе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T054920Z" creationid="Марианна" creationdate="20210111T054920Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; contains parameters of connection to database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка&lt;x2/&gt; &lt;x3/&gt;Строка&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T132305Z" creationid="Марианна" creationdate="20201118T132305Z">
