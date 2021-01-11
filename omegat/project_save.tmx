@@ -22145,6 +22145,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется для подключения к базам данных платформы 1С:Предприятие версий 8.x.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T053946Z" creationid="Марианна" creationdate="20210111T053946Z">
+        <seg>It is used for connection to databases of 1C:Enterprise 8.x platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется по умолчанию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072229Z" creationid="Марианна" creationdate="20201016T072229Z">
