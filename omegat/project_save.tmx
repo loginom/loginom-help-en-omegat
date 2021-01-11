@@ -7861,6 +7861,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя базы&lt;x2/&gt; — системное наименование базы данных, может состоять только из символов английской раскладки клавиатуры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122707Z" creationid="Марианна" creationdate="20210111T122707Z">
+        <seg>&lt;x1/&gt;Base name&lt;x2/&gt;: the system database name can consist of the English keyboard layout characters only.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя листа для экспорта&lt;x2/&gt; — то, как будет называться лист в файле Excel, содержащий экспортируемую таблицу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T103644Z" creationid="Марианна" creationdate="20200916T194015Z">
@@ -11388,6 +11396,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T162620Z" creationid="Марианна" creationdate="20201001T162620Z">
         <seg>&lt;x1/&gt;Namespace&lt;x2/&gt; enables to select a namespace from a list of all namespaces described in the XSD file. It limits selection of the root element only by the specified space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Протестировать подключение&lt;x2/&gt; — тест указанных настроек подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T122739Z" creationid="Марианна" creationdate="20210111T122739Z">
+        <seg>&lt;x1/&gt;Test connection&lt;x2/&gt;: test of the specified connection settings.</seg>
       </tuv>
     </tu>
     <tu>
