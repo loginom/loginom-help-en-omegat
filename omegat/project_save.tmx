@@ -26221,8 +26221,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Выбор информационной базы&lt;x6/&gt;, предоставляющее следующие варианты подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T121015Z" creationid="Марианна" creationdate="20210111T121015Z">
-        <seg>Parameters can be manually entered, or it is possible to press the following button: &lt;x3/&gt; &lt;x4/&gt; calll window &lt;x5/&gt;Select Information Base&lt;x6/&gt; that provides the following connection  options.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T121040Z" creationid="Марианна" creationdate="20210111T121015Z">
+        <seg>Parameters can be manually entered, or it is possible to press the following button: &lt;x3/&gt; &lt;x4/&gt; calll window &lt;x5/&gt;Select Information Base&lt;x6/&gt; that provides the following connection options:</seg>
       </tuv>
     </tu>
     <tu>
