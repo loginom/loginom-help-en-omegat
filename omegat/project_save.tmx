@@ -6180,6 +6180,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Версия платформы&lt;x2/&gt; — версия платформы 1С:Предприятие, к которой настраивается подключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T054834Z" creationid="Марианна" creationdate="20210111T054834Z">
+        <seg>&lt;x1/&gt;Platform version&lt;x2/&gt; is a version of 1C:Enterprise platform for which the connection is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Версия&lt;x2/&gt; — версия открытого &lt;x3/&gt;Пакета&lt;x4/&gt;, настраивается в его &lt;x5/&gt;Свойствах&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133615Z" creationid="Марианна" creationdate="20200816T133615Z">
@@ -8921,6 +8929,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110747Z" creationid="Марианна" creationdate="20200929T110747Z">
         <seg>&lt;x1/&gt;Caption&lt;x2/&gt; denotes a random field description.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — содержит задаваемое пользователем имя подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T054621Z" creationid="Марианна" creationdate="20210111T054621Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; contains the connection name set by a user.</seg>
       </tuv>
     </tu>
     <tu>
