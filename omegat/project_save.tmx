@@ -3260,6 +3260,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to 1C:Enterprise 8.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к источнику XSD-схемы (обязательный порт) — подключение настроенного ранее &lt;x3/&gt;Подключения к набору XSD-схем&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T102443Z" creationid="Марианна" creationdate="20200829T210635Z">
