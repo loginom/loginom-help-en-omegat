@@ -7861,6 +7861,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя пользователя&lt;x2/&gt; — имя пользователя БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T055644Z" creationid="Марианна" creationdate="20210111T055644Z">
+        <seg>&lt;x1/&gt;Username&lt;x2/&gt; is a name of the DB user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя таблицы&lt;x2/&gt; — задает имя таблицы, в которую планируется осуществить экспорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T111143Z" creationid="Марианна" creationdate="20200916T111143Z">
@@ -10023,8 +10031,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль пользователя БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T055542Z" creationid="Марианна" creationdate="20210111T055542Z">
-        <seg>&lt;x1/&gt;Password&lt;x2/&gt;is a password of the DB user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T055603Z" creationid="Марианна" creationdate="20210111T055542Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt; is a password of the DB user.</seg>
       </tuv>
     </tu>
     <tu>
