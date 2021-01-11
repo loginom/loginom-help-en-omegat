@@ -9861,6 +9861,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Официальный сайт производителя&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T055444Z" creationid="Марианна" creationdate="20210111T055444Z">
+        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200821T123820Z" creationid="Марианна" creationdate="20200813T095208Z">
@@ -10009,6 +10017,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071321Z" creationid="Марианна" creationdate="20200812T071321Z">
         <seg>&lt;x1/&gt;Parameters&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль пользователя БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T055542Z" creationid="Марианна" creationdate="20210111T055542Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt;is a password of the DB user.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30303,6 +30319,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194652Z" creationid="Марианна" creationdate="20201215T194652Z">
         <seg>Event|Actual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Совместимость</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210111T055455Z" creationid="Марианна" creationdate="20210111T055455Z">
+        <seg>Compatibility</seg>
       </tuv>
     </tu>
     <tu>
