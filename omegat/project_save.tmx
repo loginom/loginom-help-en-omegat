@@ -10991,8 +10991,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения​к базе данных необходима установка толстого клиента 1С той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210115T134126Z" creationid="Марианна" creationdate="20210115T134126Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, it is required to install 1C heavy client with the same bitness as the application.server bitness.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210115T134324Z" creationid="Марианна" creationdate="20210115T134126Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, it is required to install 1C thick client with the same bitness as the Loginom application/server bitness.</seg>
       </tuv>
     </tu>
     <tu>
