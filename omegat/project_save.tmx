@@ -17433,8 +17433,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В настольной (Desktop) версии Loginom нужно указывать пути вида &lt;x7/&gt;"C:datadatabases1C"&lt;x8/&gt; и &lt;x9/&gt;%% «netdiskdatadatabases1C» %%&lt;x10/&gt; (соответственно, для локально хранящейся базы и базы на сетевом диске).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210115T140942Z" creationid="Марианна" creationdate="20210115T140942Z">
-        <seg>It is required to specify the following path in the desktop Loginom version: &lt;x7/&gt;"C:datadatabases1C"&lt;x8/&gt; and &lt;x9/&gt;%% «netdiskdatadatabases1C» %%&lt;x10/&gt; (correspondingly, for the locally stored base and the base on the network drive).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210115T141154Z" creationid="Марианна" creationdate="20210115T140942Z">
+        <seg>It is required to specify the following path in the desktop Loginom version: &lt;x7/&gt;"C:datadatabases1C"&lt;x8/&gt; and &lt;x9/&gt;%% «netdiskdatadatabases1C» %%&lt;x10/&gt; (correspondingly, for the locally stored base and the base on the net drive).</seg>
       </tuv>
     </tu>
     <tu>
