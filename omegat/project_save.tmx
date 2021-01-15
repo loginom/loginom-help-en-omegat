@@ -5964,6 +5964,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Если используется серверный (Server) вариант Loginom, то путь к базе данных должен иметь вид &lt;x3/&gt;"&lt;root&gt;datadatabases1C"&lt;x4/&gt;, где &lt;x5/&gt;&lt;root&gt;&lt;x6/&gt; — корневая папка Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210115T134434Z" creationid="Марианна" creationdate="20210115T134434Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Если используется серверный (Server) вариант Loginom, то путь к базе данных должен иметь вид &lt;x3/&gt;"&lt;root&gt;datadatabases1C"&lt;x4/&gt;, где &lt;x5/&gt;&lt;root&gt;&lt;x6/&gt; — корневая папка Loginom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Если узел заблокирован (узел выполняется или открыт мастер настройки узла), то его свойства посмотреть нельзя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110652Z" creationid="Марианна" creationdate="20200818T110652Z">
@@ -29943,6 +29951,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T142649Z" creationid="Марианна" creationdate="20201119T142649Z">
         <seg>Manual setting is performed using the following control elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С базами данных платформы 1С:Предприятие версий 8.x.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210115T134421Z" creationid="Марианна" creationdate="20210115T134421Z">
+        <seg>with the databases of 1C:Enterprise 8.x platform.</seg>
       </tuv>
     </tu>
     <tu>
