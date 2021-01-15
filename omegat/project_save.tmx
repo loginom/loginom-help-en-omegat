@@ -3260,6 +3260,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение ClickHouse</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210115T141231Z" creationid="Марианна" creationdate="20210115T141231Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to ClickHouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
@@ -22301,6 +22309,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053959Z" creationid="Марианна" creationdate="20210111T053946Z">
         <seg>It is used for connection to the databases of 1C:Enterprise 8.x platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к базе данных ClickHouse.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210115T141317Z" creationid="Марианна" creationdate="20210115T141317Z">
+        <seg>It is used for connection to the ClickHouse database.</seg>
       </tuv>
     </tu>
     <tu>
