@@ -28019,6 +28019,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поскольку мутации используются при выполнении операции экспорта с удалением по ключу, то факт активации узла экспорта не гарантирует завершение процесса удаления записей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T150800Z" creationid="Марианна" creationdate="20210118T150800Z">
+        <seg>As mutations are used during the export operation with deletion by key, the export node activation does not provide termination of the records deletion process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поскольку первый порт присутствует в узле &lt;x1/&gt;JavaScript&lt;x2/&gt; по умолчанию, для доступа к его данным существует отдельный объект &lt;x3/&gt;InputTable&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144113Z" creationid="Марианна" creationdate="20201102T144113Z">
