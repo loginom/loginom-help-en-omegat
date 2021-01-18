@@ -10109,6 +10109,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Очищать пул при деактивации&lt;x2/&gt; — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T154109Z" creationid="Марианна" creationdate="20210118T154109Z">
+        <seg>&lt;x1/&gt;Clear pool when deactivated&lt;x2/&gt; enables to clear the pool of the Loginom Integrator packages frequently used in the package processing saved for quick call upon the node deactivation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ошибка&lt;x2/&gt; — стандартные ошибки коэффициентов корреляции для последовательности лагов данного диапазона;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102521Z" creationid="Марианна" creationdate="20201011T102521Z">
@@ -20425,6 +20433,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081502Z" creationid="Марианна" creationdate="20200814T081502Z">
         <seg>To move to the objects located higher as far as the nesting level is concerned, it is required to press corresponding object in the trail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для подключения к файлам Microsoft Excel 2007 и выше  (*.xlsx) в системе необходимо наличие совпадающих по разрядности с сервером Loginom компонентов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T153917Z" creationid="Марианна" creationdate="20210118T153917Z">
+        <seg>To connect to the files of Microsoft Excel 2007 and higher (*.xlsx), the system must include the following components matching the Loginom server by bitness:</seg>
       </tuv>
     </tu>
     <tu>
