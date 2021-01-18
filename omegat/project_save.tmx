@@ -10149,6 +10149,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пароль приватного ключа&lt;x2/&gt; — пароль приватного ключа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T121652Z" creationid="Марианна" creationdate="20210118T121652Z">
+        <seg>&lt;x1/&gt;Private key password&lt;x2/&gt; is a private key password.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль пользователя БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T055603Z" creationid="Марианна" creationdate="20210111T055542Z">
@@ -10985,6 +10993,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072703Z" creationid="Марианна" creationdate="20201016T072703Z">
         <seg>&lt;x1/&gt;While handling&lt;x2/&gt;: only those output data set fields will be cached data of which are requested by the subsequent workflow nodes or visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Приватный ключ&lt;x2/&gt; — путь к файлу с приватным ключом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T121727Z" creationid="Марианна" creationdate="20210118T121727Z">
+        <seg>&lt;x1/&gt;Private key&lt;x2/&gt; is a path to the file with the private key.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12052,6 +12068,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060254Z" creationid="Марианна" creationdate="20201119T060254Z">
         <seg>&lt;x1/&gt;Seconds.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сертификат пользователя&lt;x2/&gt; — путь к файлу с клиентским сертификатом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T121822Z" creationid="Марианна" creationdate="20210118T121822Z">
+        <seg>&lt;x1/&gt;User certificate&lt;x2/&gt; is a path to the file with the client certificate.</seg>
       </tuv>
     </tu>
     <tu>
