@@ -26299,6 +26299,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры &lt;x7/&gt;port&lt;x8/&gt; и &lt;x9/&gt;database&lt;x10/&gt; опциональные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T111535Z" creationid="Марианна" creationdate="20210118T111535Z">
+        <seg>&lt;x7/&gt;Port&lt;x8/&gt; and &lt;x9/&gt;database&lt;x10/&gt; parameters are optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры EM-кластеризации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T200621Z" creationid="Марианна" creationdate="20201212T210433Z">
@@ -26975,6 +26983,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052722Z" creationid="Марианна" creationdate="20200819T131816Z">
         <seg>Align middle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию &lt;x11/&gt;port&lt;x12/&gt; &lt;x13/&gt;9000&lt;x14/&gt;, &lt;x15/&gt;database&lt;x16/&gt; &lt;x17/&gt;default&lt;x18/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T111554Z" creationid="Марианна" creationdate="20210118T111554Z">
+        <seg>By default &lt;x11/&gt;port&lt;x12/&gt; &lt;x13/&gt;9000&lt;x14/&gt;, &lt;x15/&gt;database&lt;x16/&gt; &lt;x17/&gt;default&lt;x18/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
