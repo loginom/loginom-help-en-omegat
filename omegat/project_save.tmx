@@ -13704,6 +13704,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;Мутации&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120032Z" creationid="Марианна" creationdate="20210118T120032Z">
+        <seg>&lt;x3/&gt;Mutations&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;Полное описание API&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144419Z" creationid="Марианна" creationdate="20201102T144419Z">
