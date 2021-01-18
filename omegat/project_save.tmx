@@ -5300,6 +5300,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Microsoft Access Database Engine 2016 Redistributable&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152717Z" creationid="Марианна" creationdate="20210118T152717Z">
+        <seg>&lt;x1/&gt;Microsoft Access Database Engine 2016 Redistributable&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MySQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183356Z" creationid="Марианна" creationdate="20200810T183356Z">
@@ -12456,6 +12464,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — подключении к файлу Microsoft Excel этот параметр не используются;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T153009Z" creationid="Марианна" creationdate="20210118T153009Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when connecting to the Microsoft Excel file, this parameter is not used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122914Z" creationid="Марианна" creationdate="20210111T122914Z">
@@ -14436,6 +14452,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112935Z" creationid="Марианна" creationdate="20200825T112935Z">
         <seg>Media</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Microsoft Excel 2007 и выше;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152714Z" creationid="Марианна" creationdate="20210118T152714Z">
+        <seg>Microsoft Excel 2007 and higher;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19985,6 +20009,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
         <seg>The absolute path is specified for the Desktop version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для Microsoft Excel — двойные кавычки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152807Z" creationid="Марианна" creationdate="20210118T152807Z">
+        <seg>Double quotes are used for Microsoft Excel.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27479,6 +27511,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T113530Z" creationid="Марианна" creationdate="20201113T113530Z">
         <seg>AND operator is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию этот параметр отключен;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152829Z" creationid="Марианна" creationdate="20210118T152829Z">
+        <seg>This parameter is disabled by default.</seg>
       </tuv>
     </tu>
     <tu>
