@@ -32343,6 +32343,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удаление по ключу работает только для таблиц с движком из семейства &lt;x1/&gt;MergeTree&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T132350Z" creationid="Марианна" creationdate="20210118T132350Z">
+        <seg>Deletion by key is available only for the tables with the &lt;x1/&gt;MergeTree&lt;x2/&gt; engines.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удалить дочерний узел можно нажав на иконку &lt;x1/&gt;Удалить&lt;x2/&gt;&lt;x3/&gt;Удалить&lt;x4/&gt; (горячая клавиша &lt;x5/&gt;Delete&lt;x6/&gt;), которая находится с правой части строки дочернего узла и видна при наведении курсора на строку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075229Z" creationid="Марианна" creationdate="20200929T195535Z">
