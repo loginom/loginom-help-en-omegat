@@ -3268,6 +3268,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS Excel</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T151645Z" creationid="Марианна" creationdate="20210118T151645Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MS Excel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
@@ -9024,6 +9032,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — содержит задаваемое пользователем имя подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T054621Z" creationid="Марианна" creationdate="20210111T054621Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; contains the connection name set by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — содержит задаваемое пользователем имя подключения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T151806Z" creationid="Марианна" creationdate="20210118T151806Z">
         <seg>&lt;x1/&gt;Caption&lt;x2/&gt; contains the connection name set by a user.</seg>
       </tuv>
     </tu>
@@ -22501,6 +22517,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210115T141317Z" creationid="Марианна" creationdate="20210115T141317Z">
         <seg>It is used for connection to the ClickHouse database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к файлу Microsoft Excel как к базе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T151724Z" creationid="Марианна" creationdate="20210118T151724Z">
+        <seg>It is used for connection to the Microsoft Excel file as to a database.</seg>
       </tuv>
     </tu>
     <tu>
