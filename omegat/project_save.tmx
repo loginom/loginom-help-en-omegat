@@ -9045,6 +9045,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод сжатия&lt;x2/&gt; — доступны варианты &lt;x3/&gt;Без сжатия&lt;x4/&gt; (используется по умолчанию) и &lt;x5/&gt;LZ4&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T123811Z" creationid="Марианна" creationdate="20210118T123811Z">
+        <seg>&lt;x1/&gt;Compression method&lt;x2/&gt;: &lt;x3/&gt;Without compression&lt;x4/&gt; (it is used by default) and &lt;x5/&gt;LZ4&lt;x6/&gt; options are available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метод&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083158Z" creationid="Марианна" creationdate="20201214T083158Z">
