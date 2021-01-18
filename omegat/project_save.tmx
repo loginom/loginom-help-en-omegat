@@ -9317,6 +9317,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройки SSL&lt;x2/&gt;  — по кнопке &lt;x3/&gt; &lt;x4/&gt; вызывается диалог установки параметров подключения через безопасное соединение:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T112309Z" creationid="Марианна" creationdate="20210118T112309Z">
+        <seg>&lt;x1/&gt;SSL settings&lt;x2/&gt;: &lt;x3/&gt; &lt;x4/&gt; button enables to call the dialog of connection parameters setup via secure connection:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройки осей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065726Z" creationid="Марианна" creationdate="20200812T065726Z">
