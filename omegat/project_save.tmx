@@ -8181,6 +8181,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Использовать SSL&lt;x2/&gt; — при установленном флаге данные передаются по критографическому протоколу SSL/TLS.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T115129Z" creationid="Марианна" creationdate="20210118T115129Z">
+        <seg>&lt;x1/&gt;Use SSL&lt;x2/&gt; — при установленном флаге данные передаются по критографическому протоколу SSL/TLS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать детальные настройки&lt;x2/&gt; — позволяет более развернуто настроить линейную регрессию (появляется дополнительная страница мастера — блок детальных настроек).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113747Z" creationid="Марианна" creationdate="20201214T113105Z">
