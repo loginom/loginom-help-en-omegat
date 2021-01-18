@@ -9285,6 +9285,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка кавычек&lt;x2/&gt; — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении к данной БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T131815Z" creationid="Марианна" creationdate="20210118T131815Z">
+        <seg>&lt;x1/&gt;Configure quotes&lt;x2/&gt; represents the information field that enables to define which framing characters are used for connection to this DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка конечных классов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055509Z" creationid="Марианна" creationdate="20200812T055509Z">
