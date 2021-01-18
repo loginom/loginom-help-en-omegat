@@ -8829,6 +8829,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин при подключении к файлу Microsoft Excel не используются;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152519Z" creationid="Марианна" creationdate="20210118T152519Z">
+        <seg>&lt;x1/&gt;Login&lt;x2/&gt; is not used for connection to the Microsoft Excel file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055817Z" creationid="Марианна" creationdate="20200812T055817Z">
@@ -10213,6 +10221,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль при подключении к файлу Microsoft Excel не используются;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152547Z" creationid="Марианна" creationdate="20210118T152547Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt; is not used for connection to the Microsoft Excel file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185016Z" creationid="Марианна" creationdate="20200810T154859Z">
@@ -11555,6 +11571,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt;Протестировать подключение&lt;x2/&gt; — тест указанных настроек подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122739Z" creationid="Марианна" creationdate="20210111T122739Z">
+        <seg>&lt;x1/&gt;Test connection&lt;x2/&gt;: test of the specified connection settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Протестировать подключение&lt;x2/&gt; — тест указанных настроек подключения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152434Z" creationid="Марианна" creationdate="20210118T152434Z">
         <seg>&lt;x1/&gt;Test connection&lt;x2/&gt;: test of the specified connection settings.</seg>
       </tuv>
     </tu>
@@ -26581,8 +26605,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Выбор информационной базы&lt;x6/&gt;, предоставляющее следующие варианты подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T121040Z" creationid="Марианна" creationdate="20210111T121015Z">
-        <seg>Parameters can be manually entered, or it is possible to press the following button: &lt;x3/&gt; &lt;x4/&gt; calll window &lt;x5/&gt;Select Information Base&lt;x6/&gt; that provides the following connection options:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152356Z" creationid="Марианна" creationdate="20210111T121015Z">
+        <seg>Parameters can be manually entered, or it is possible to press the following button: &lt;x3/&gt; &lt;x4/&gt; to calll window &lt;x5/&gt;Select Information Base&lt;x6/&gt; that provides the following connection options:</seg>
       </tuv>
     </tu>
     <tu>
