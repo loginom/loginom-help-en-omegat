@@ -12490,8 +12490,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — строка вида &lt;x3/&gt;host[:port][:database]&lt;x4/&gt; задается как в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x5/&gt; &lt;x6/&gt;, так и вводом параметров вручную.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T110839Z" creationid="Марианна" creationdate="20210118T110839Z">
-        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; represents the string of the following kind: &lt;x3/&gt;host[:port][:database]&lt;x4/&gt;. It is set in a separate window that is called both by clicking on &lt;x5/&gt; &lt;x6/&gt; button and manual entering.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T111511Z" creationid="Марианна" creationdate="20210118T110839Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; represents the string of the following kind: &lt;x3/&gt;host[:port][:database]&lt;x4/&gt;. It is set in a separate window that can be called both by clicking on &lt;x5/&gt; &lt;x6/&gt; button and by entering the parameters manually.</seg>
       </tuv>
     </tu>
     <tu>
