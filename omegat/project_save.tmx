@@ -10613,6 +10613,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T124157Z" creationid="Марианна" creationdate="20210118T124157Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле с долями&lt;x2/&gt; &lt;x3/&gt;Поле с долями&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему доли или значения для расчета долей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T094909Z" creationid="Марианна" creationdate="20201127T094909Z">
