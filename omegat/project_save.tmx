@@ -12072,6 +12072,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сертификат CA&lt;x2/&gt; — путь к файлу с корневым сертификатом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T121914Z" creationid="Марианна" creationdate="20210118T121914Z">
+        <seg>&lt;x1/&gt;CA certificate&lt;x2/&gt; is a path to the file with the root certificate.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сертификат пользователя&lt;x2/&gt; — путь к файлу с клиентским сертификатом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T121822Z" creationid="Марианна" creationdate="20210118T121822Z">
