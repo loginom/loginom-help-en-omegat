@@ -19613,6 +19613,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данную особенность БД ClickHouse следует учитывать при проектировании систем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T151323Z" creationid="Марианна" creationdate="20210118T151323Z">
+        <seg>It is required to take into account this feature of the ClickHouse DB when designing systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные во входном порте обработчика представлены в виде входного и выходного наборов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T111649Z" creationid="Марианна" creationdate="20201001T111649Z">
@@ -33691,6 +33699,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170426Z" creationid="Марианна" creationdate="20201111T170426Z">
         <seg>ending with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>запрос на выборку данных, заданный непосредственно после выполнения узла экспорта с удалением по ключу, может вернуть старые записи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T151128Z" creationid="Марианна" creationdate="20210118T151128Z">
+        <seg>request for data sampling set just after execution of the export node with deletion by key can return the old records.</seg>
       </tuv>
     </tu>
     <tu>
