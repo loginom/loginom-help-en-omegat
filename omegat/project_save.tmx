@@ -26587,6 +26587,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Открыть файл&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T152344Z" creationid="Марианна" creationdate="20210118T152344Z">
+        <seg>Parameters can be manually entered, or it is possible to press the following button &lt;x3/&gt; &lt;x4/&gt; to call window &lt;x5/&gt;Open file&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры настройки сортировки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141546Z" creationid="Марианна" creationdate="20201115T141546Z">
