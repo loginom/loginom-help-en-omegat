@@ -9413,6 +9413,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — параметр недоступен, т.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120653Z" creationid="Марианна" creationdate="20210118T120653Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt; is not available</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не используется&lt;x2/&gt; &lt;x3/&gt;Не используемое&lt;x4/&gt; — поле таблицы замен не будет использоваться;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092532Z" creationid="Марианна" creationdate="20201117T092532Z">
@@ -28371,6 +28379,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При &lt;x1/&gt;экспорте данных в новую таблицу&lt;x2/&gt; создается таблица &lt;x3/&gt;движка Log&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T121008Z" creationid="Марианна" creationdate="20210118T121008Z">
+        <seg>When &lt;x1/&gt;exporting data to the new table&lt;x2/&gt;, the table of &lt;x3/&gt;Log engine&lt;x4/&gt; is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При автоматическом определении числа кластеров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133601Z" creationid="Марианна" creationdate="20201210T133601Z">
@@ -33503,6 +33519,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>для подключения к ClickHouse всегда используется встроенный драйвер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120810Z" creationid="Марианна" creationdate="20210118T120810Z">
+        <seg>the inbox driver is always used to connect to ClickHouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>для чисел будет выбрана функция &lt;x1/&gt;сумма&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082915Z" creationid="Марианна" creationdate="20201006T082915Z">
@@ -33651,6 +33675,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170534Z" creationid="Марианна" creationdate="20201111T170534Z">
         <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>к.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120658Z" creationid="Марианна" creationdate="20210118T120658Z">
+        <seg>as</seg>
       </tuv>
     </tu>
     <tu>
