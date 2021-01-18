@@ -10997,6 +10997,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120038Z" creationid="Марианна" creationdate="20210118T120038Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113441Z" creationid="Марианна" creationdate="20201020T113441Z">
@@ -19805,6 +19813,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для ClickHouse — двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120208Z" creationid="Марианна" creationdate="20210118T120208Z">
+        <seg>Double quotes are used for ClickHouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для Desktop-версии указывается абсолютный путь.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
@@ -27219,6 +27235,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию опция включена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120254Z" creationid="Марианна" creationdate="20210118T120254Z">
+        <seg>This option is enabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию пароль отсутствует.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T111706Z" creationid="Марианна" creationdate="20210118T111706Z">
@@ -29599,6 +29623,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165047Z" creationid="Марианна" creationdate="20201010T165047Z">
         <seg>Friday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пул подключений не используется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120144Z" creationid="Марианна" creationdate="20210118T120144Z">
+        <seg>Connection pool is not used.</seg>
       </tuv>
     </tu>
     <tu>
