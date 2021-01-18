@@ -8191,8 +8191,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать SSL&lt;x2/&gt; — при установленном флаге данные передаются по критографическому протоколу SSL/TLS.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T115129Z" creationid="Марианна" creationdate="20210118T115129Z">
-        <seg>&lt;x1/&gt;Use SSL&lt;x2/&gt; — при установленном флаге данные передаются по критографическому протоколу SSL/TLS.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T122908Z" creationid="Марианна" creationdate="20210118T115129Z">
+        <seg>&lt;x1/&gt;Use SSL&lt;x2/&gt;: when this flag is selected, the data is transferred via cryptographic SSL/TLS protocol.</seg>
       </tuv>
     </tu>
     <tu>
