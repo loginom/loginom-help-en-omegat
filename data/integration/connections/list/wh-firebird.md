@@ -14,17 +14,17 @@ The following parameters are set during the connection setup:
       * **Сервер** — хост сервера Firebird.
    * **База данных** — путь к файлу базы данных.
 * **Протестировать подключение** — проверка возможности подключения при заданных настройках.
-* **Логин** — логин пользователя БД. Если логин не указан, то используется доменная авторизация.
+* **Login** is a login of the DB user. Если логин не указан, то используется доменная авторизация.
 * **Password** is a password of the DB user.
 
 * **Параметры**:
    * **Сохранить пароль** — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.
-   * **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.
-   * **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени.
-   * **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении к данной БД. Для Firebird — двойные кавычки.
+   * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
+   * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
+   * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для Firebird — двойные кавычки.
    * **Значение кодировки** — задает кодировку символов, в которой будут трактоваться данные с сервера.
    * **Не использовать клиент СУБД** — для Firebird изменение этого параметра не доступно.
-   * **Очищать пул при деактивации** — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла. По умолчанию этот параметр отключен.
+   * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. По умолчанию этот параметр отключен.
 
 * **Описание** — в этом поле можно оставить любую справочную информацию о подключении.
 

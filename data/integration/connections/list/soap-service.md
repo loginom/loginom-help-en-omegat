@@ -30,5 +30,5 @@ The following parameters are set during the connection setup:
 
 ## Описание узла
 
-* **Метка** — содержит задаваемое пользователем имя подключения;
+* **Caption** contains the connection name set by a user.
 * **Комментарий** — в этой форме можно оставить любую справочную информацию о подключении.

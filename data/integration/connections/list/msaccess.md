@@ -6,14 +6,14 @@
 
 The following parameters are set during the connection setup:
 
-* **Метка** — содержит задаваемое пользователем имя подключения;
-* **Строка подключения** — указывается путь к файлу БД, содержащему необходимые данные. Параметры можно ввести вручную или нажатием кнопки ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызвать окно *Открыть файл*;
-* **Протестировать подключение** — тест указанных настроек подключения;
+* **Caption** contains the connection name set by a user.
+* **Строка подключения** — указывается путь к файлу БД, содержащему необходимые данные. Parameters can be manually entered, or it is possible to press the following button ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) to call window *Open file*.
+* **Test connection**: test of the specified connection settings.
 * **Логин** — логин при подключении к Microsoft Access не используется;
 * **Логин** — указывается пароль, установленный пользователем БД;
 * **Сохранять пароль** — при установке этого флага пароль будет сохранен в текущих настройках подключения;
 * **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД;
-* **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени;
+* **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении  к данной БД. Для Microsoft Access — квадратные скобки;
 * **Не использовать клиент СУБД** —  для Microsoft Access этот параметр не доступен;
 * **Description**: it is possible to provide any reference data concerning connection in this form.
@@ -27,4 +27,4 @@ The following parameters are set during the connection setup:
 **See also:**
 
 * [Manufacturer official website](https://www.microsoft.com/ru-ru)
-* [Документация по продукции](https://docs.microsoft.com/ru-ru/).
+* [Product Documentation](https://docs.microsoft.com/ru-ru/).

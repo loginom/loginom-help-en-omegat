@@ -6,17 +6,17 @@
 
 The following parameters are set during the connection setup:
 
-* **Метка** — содержит задаваемое пользователем имя подключения;
+* **Caption** contains the connection name set by a user.
 * **Строка подключения** — указывается строка подключения в формате установленного в системе драйвера ODBC, либо выбирается один из настроенных в системе источников данных ODBC. Список источников вызывается при клике мышью по кнопке ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). В списке выводятся доступные источники данных ODBC. Настройка источников осуществляется в [администраторе источников данных ODBC Windows](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). Там же содержится информация об установленных в системе драйверах и можно узнать формат строки подключения;
-* **Протестировать подключение** — тест указанных настроек подключения;
+* **Test connection**: test of the specified connection settings.
 * **Логин** — логин пользователя БД;
 * **Пароль** — пароль пользователя БД;
 * **Сохранять пароль** — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения;
 * **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel);
-* **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени;
-* **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении к данной БД. Для ODBC символы обрамляющих кавычек определяются автоматически;
+* **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
+* **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для ODBC символы обрамляющих кавычек определяются автоматически;
 * **Не использовать клиент СУБД** — для подключений ODBC эта опция не используется;
-* **Очищать пул при деактивации** — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла. По умолчанию этот параметр отключен;
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
 > **Примечание:** Для подключения необходима установка драйвера ODBC той же разрядности, что и разрядность приложения/сервера Loginom. В 64-разрядных ОС используются два администратора источников данных ODBC 32-разрядный C:\Windows\SysWOW64\odbcad32.exe и 64-разрядный C:\Windows\System32\odbcad32.exe.
