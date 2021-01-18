@@ -8789,6 +8789,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин пользователя БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T111636Z" creationid="Марианна" creationdate="20210118T111636Z">
+        <seg>&lt;x1/&gt;Login&lt;x2/&gt; is a login of the DB user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055817Z" creationid="Марианна" creationdate="20200812T055817Z">
@@ -26995,6 +27003,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию &lt;x3/&gt;default&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T111643Z" creationid="Марианна" creationdate="20210118T111643Z">
+        <seg>By default &lt;x3/&gt;default&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию = 0,01.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214100Z" creationid="Марианна" creationdate="20201216T214100Z">
@@ -27159,6 +27175,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T113849Z" creationid="Марианна" creationdate="20200716T140736Z">
         <seg>It is concealed by default, but it is possibble to lock it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию пароль отсутствует.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T111706Z" creationid="Марианна" creationdate="20210118T111706Z">
+        <seg>The password is not available by default.</seg>
       </tuv>
     </tu>
     <tu>
