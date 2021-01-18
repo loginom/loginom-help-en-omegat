@@ -12632,6 +12632,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — указывается путь к файлу, содержащему необходимые данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T151901Z" creationid="Марианна" creationdate="20210118T151901Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt;: the path to the file containing the required data is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка&lt;x2/&gt; &lt;x3/&gt;Строка&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T132305Z" creationid="Марианна" creationdate="20201118T132305Z">
