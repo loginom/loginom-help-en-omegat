@@ -10111,8 +10111,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Очищать пул при деактивации&lt;x2/&gt; — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T154109Z" creationid="Марианна" creationdate="20210118T154109Z">
-        <seg>&lt;x1/&gt;Clear pool when deactivated&lt;x2/&gt; enables to clear the pool of the Loginom Integrator packages frequently used in the package processing saved for quick call upon the node deactivation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T154345Z" creationid="Марианна" creationdate="20210118T154109Z">
+        <seg>&lt;x1/&gt;Clear pool when deactivated&lt;x2/&gt; enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation.</seg>
       </tuv>
     </tu>
     <tu>
