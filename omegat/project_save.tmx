@@ -19901,6 +19901,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Длительность выполнения мутации пользователем не контролируется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T150905Z" creationid="Марианна" creationdate="20210118T150905Z">
+        <seg>Duration of the mutation performed by a user is not controlled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для &lt;x1/&gt;Подмодели&lt;x2/&gt; можно задать произвольное количество входных/выходных портов следующих типов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145000Z" creationid="Марианна" creationdate="20200920T145000Z">
@@ -31663,6 +31671,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T104206Z" creationid="Марианна" creationdate="20201215T104206Z">
         <seg>As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Т.о.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T150912Z" creationid="Марианна" creationdate="20210118T150912Z">
+        <seg>Thus,</seg>
       </tuv>
     </tu>
     <tu>
