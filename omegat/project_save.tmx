@@ -7437,6 +7437,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Документация ClickHouse&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T115232Z" creationid="Марианна" creationdate="20210118T115216Z">
+        <seg>&lt;x1/&gt;ClickHouse Documents&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191810Z" creationid="Марианна" creationdate="20200810T191810Z">
@@ -18329,6 +18337,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194628Z" creationid="Марианна" creationdate="20201215T194628Z">
         <seg>Event probabillity|Prediction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Версии БД ClickHouse 19.1 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T115401Z" creationid="Марианна" creationdate="20210118T115401Z">
+        <seg>DB versions of ClickHouse 19.1 and higher.</seg>
       </tuv>
     </tu>
     <tu>
