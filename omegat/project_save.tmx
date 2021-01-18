@@ -17207,6 +17207,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В виду ограничений БД ClickHouse:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120630Z" creationid="Марианна" creationdate="20210118T120630Z">
+        <seg>In connection with the ClickHouse DB restrictions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113452Z" creationid="Марианна" creationdate="20201014T060340Z">
@@ -24895,6 +24903,22 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не поддерживается обновление существующих записей в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120447Z" creationid="Марианна" creationdate="20210118T120447Z">
+        <seg>Update of the current records in the table is not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не поддерживаются транзакции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120308Z" creationid="Марианна" creationdate="20210118T120308Z">
+        <seg>Transactions are not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не попавшие в &lt;x3/&gt;Таблицу замен&lt;x4/&gt; значения обрабатываются согласно указанной &lt;x5/&gt;Точности&lt;x6/&gt; и параметру &lt;x7/&gt;Заменять остальное&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062507Z" creationid="Марианна" creationdate="20201116T062507Z">
@@ -27375,6 +27399,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121822Z" creationid="Марианна" creationdate="20200823T121822Z">
         <seg>Both Cyrillic 1C and SQL syntax are supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддерживаются даты с 1970 до 2106 года.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T120328Z" creationid="Марианна" creationdate="20210118T120328Z">
+        <seg>Dates from1970 to 2106 are supported.</seg>
       </tuv>
     </tu>
     <tu>
