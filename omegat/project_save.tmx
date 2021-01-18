@@ -27299,6 +27299,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию пустой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210118T121541Z" creationid="Марианна" creationdate="20210118T121541Z">
+        <seg>It is null be default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию результат операции будет равен количеству дней (целая часть) и количеству часов (дробная часть).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061506Z" creationid="Марианна" creationdate="20201014T061506Z">
