@@ -7485,6 +7485,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Документация по SQL синтаксису&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090451Z" creationid="Марианна" creationdate="20210121T090451Z">
+        <seg>&lt;x1/&gt;SQL Syntax Documents&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Документация по продукции&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T153710Z" creationid="Марианна" creationdate="20210118T153710Z">
@@ -8201,6 +8209,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T210048Z" creationid="Марианна" creationdate="20201216T210048Z">
         <seg>&lt;x1/&gt;Hannan-Quinn information criterion&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информация в русском разделе википедии&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090419Z" creationid="Марианна" creationdate="20210121T090419Z">
+        <seg>&lt;x1/&gt;Information in the Russian section in Wikipedia&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10121,6 +10137,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200821T123820Z" creationid="Марианна" creationdate="20200813T095208Z">
         <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Официальный сайт разработчика&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090431Z" creationid="Марианна" creationdate="20210121T090431Z">
+        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
