@@ -8917,6 +8917,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин при подключении к Microsoft Access не используется;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T152701Z" creationid="Марианна" creationdate="20210121T152701Z">
+        <seg>&lt;x1/&gt;Login&lt;x2/&gt; is not used for connection to Microsoft Access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин при подключении к файлу Microsoft Excel не используются;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152519Z" creationid="Марианна" creationdate="20210118T152519Z">
