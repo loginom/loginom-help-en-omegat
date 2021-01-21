@@ -13904,6 +13904,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;протокол&lt;x2/&gt; — протокол, используемый сервером для взаимодействия с клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083502Z" creationid="Марианна" creationdate="20210121T083502Z">
+        <seg>&lt;x1/&gt;Protocol&lt;x2/&gt; is a protocol that is used by the server for interaction with a client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;регулярному выражению&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163456Z" creationid="Марианна" creationdate="20201006T163456Z">
@@ -21297,6 +21305,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202652Z" creationid="Марианна" creationdate="20200921T202652Z">
         <seg>If the row count in the group is not in multiples of the row count in the source data set, the latter group will have smaller size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если логин не указан, то используется доменная авторизация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083617Z" creationid="Марианна" creationdate="20210121T083617Z">
+        <seg>If the login is not specified, the domain authorization is used.</seg>
       </tuv>
     </tu>
     <tu>
