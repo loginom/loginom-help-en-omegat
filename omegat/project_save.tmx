@@ -3300,6 +3300,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS SQL</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175408Z" creationid="Марианна" creationdate="20210121T175408Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MS SQL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
@@ -14956,6 +14964,54 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SQL Native Client.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175315Z" creationid="Марианна" creationdate="20210121T175315Z">
+        <seg>SQL Native Client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SQL OLE DB.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175311Z" creationid="Марианна" creationdate="20210121T175311Z">
+        <seg>SQL OLE DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SQL Server 2000 (включая MSDE).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175347Z" creationid="Марианна" creationdate="20210121T175347Z">
+        <seg>SQL Server 2000 (including MSDE).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (включая Express edition).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175338Z" creationid="Марианна" creationdate="20210121T175338Z">
+        <seg>SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (including Express edition).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SQL Server 7.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175349Z" creationid="Марианна" creationdate="20210121T175349Z">
+        <seg>SQL Server 7.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SQL Server Compact 4.0, 3.5, 3.1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175352Z" creationid="Марианна" creationdate="20210121T175352Z">
+        <seg>SQL Server Compact 4.0, 3.5, 3.1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SQL-запрос</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T055844Z" creationid="Марианна" creationdate="20200916T170735Z">
@@ -22937,6 +22993,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется для подключения к базе данных MS SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175426Z" creationid="Марианна" creationdate="20210121T175426Z">
+        <seg>It is used for connection to the MS SQL database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется для подключения к базе данных Microsoft Access.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T091231Z" creationid="Марианна" creationdate="20210121T091231Z">
@@ -23245,6 +23309,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132849Z" creationid="Марианна" creationdate="20201210T132849Z">
         <seg>Clustering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Клиенты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175308Z" creationid="Марианна" creationdate="20210121T175304Z">
+        <seg>Clients.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31007,6 +31079,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093056Z" creationid="Марианна" creationdate="20200819T074443Z">
         <seg>Server Editions (Team, Standard, Enterprise)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Серверы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175326Z" creationid="Марианна" creationdate="20210121T175326Z">
+        <seg>Servers.</seg>
       </tuv>
     </tu>
     <tu>
