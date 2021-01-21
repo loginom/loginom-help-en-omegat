@@ -6006,8 +6006,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T090124Z" creationid="Марианна" creationdate="20210121T090124Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The domain authorization process is performed as user under whose name the Loginom server has been started.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090158Z" creationid="Марианна" creationdate="20210121T090124Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The domain authorization process is implemented as user under whose name the Loginom server has been started.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25211,6 +25211,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T071948Z" creationid="Марианна" creationdate="20200817T071948Z">
         <seg>Start — date and time of the process start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Начиная с версии Firebird 2.5 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090308Z" creationid="Марианна" creationdate="20210121T090308Z">
+        <seg>Starting from Firebird 2.5 and higher.</seg>
       </tuv>
     </tu>
     <tu>
