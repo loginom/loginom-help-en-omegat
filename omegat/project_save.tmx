@@ -6004,6 +6004,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090124Z" creationid="Марианна" creationdate="20210121T090124Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The domain authorization process is performed as user under whose name the Loginom server has been started.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Если используется серверный (Server) вариант Loginom, то путь к базе данных должен иметь вид &lt;x3/&gt;"&lt;root&gt;datadatabases1C"&lt;x4/&gt;, где &lt;x5/&gt;&lt;root&gt;&lt;x6/&gt; — корневая папка Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210115T134616Z" creationid="Марианна" creationdate="20210115T134434Z">
