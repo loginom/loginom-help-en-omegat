@@ -9485,6 +9485,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; —  для Firebird изменение этого параметра не доступно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083759Z" creationid="Марианна" creationdate="20210121T083759Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: it is not possible to change this parameter for Firebird.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; —  для Microsoft Excel изменение этого параметра не доступно;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T153547Z" creationid="Марианна" creationdate="20210118T153547Z">
@@ -20097,6 +20105,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133410Z" creationid="Марианна" creationdate="20200816T133410Z">
         <seg>The absolute path is specified for the Desktop version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для Firebird – двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083643Z" creationid="Марианна" creationdate="20210121T083643Z">
+        <seg>Double quotes are used for Firebird.</seg>
       </tuv>
     </tu>
     <tu>
