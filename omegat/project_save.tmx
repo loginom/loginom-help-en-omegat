@@ -27651,6 +27651,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию этот параметр отключен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T085155Z" creationid="Марианна" creationdate="20210121T085155Z">
+        <seg>This parameter is disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию этот параметр отключен;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152829Z" creationid="Марианна" creationdate="20210118T152829Z">
