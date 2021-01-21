@@ -14,7 +14,7 @@ The following parameters are set during the connection setup:
       * **Сервер** — хост сервера Firebird.
    * **База данных** — путь к файлу базы данных.
 * **Протестировать подключение** — проверка возможности подключения при заданных настройках.
-* **Login** is a login of the DB user. Если логин не указан, то используется доменная авторизация.
+* **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password** is a password of the DB user.
 
 * **Параметры**:
@@ -22,22 +22,22 @@ The following parameters are set during the connection setup:
    * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
    * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
    * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для Firebird — двойные кавычки.
-   * **Значение кодировки** — задает кодировку символов, в которой будут трактоваться данные с сервера.
+   * **Encoding value** provides encoding of characters according to which the server data will be interpreted.
    * **Не использовать клиент СУБД** — для Firebird изменение этого параметра не доступно.
-   * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. По умолчанию этот параметр отключен.
+   * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 
 * **Описание** — в этом поле можно оставить любую справочную информацию о подключении.
 
 
-> **Примечание:** Для подключения к базе данных необходима установка файлов клиентской библиотеки (DLL) той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** To provide connection to the database, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
 
 
 ## Compatibility
 
-Начиная с версии Firebird 2.5 и выше.
+Starting from Firebird 2.5 and higher.
 
 
-> **Важно:** Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom. В случае, если используется многопользовательский доступ к БД, рекомендуется использовать сервер Firebird для избежания блокировок доступа.
+> **Important:** The domain authorization process is implemented as user under whose name the Loginom server has been started. In the case of the multiple user access to the DB, it is recommended to use the Firebird server to avoid access lock.
 
 
 **See also:**

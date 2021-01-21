@@ -26,7 +26,7 @@ The following parameters are set during the connection setup:
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для MySQL — обратные апострофы.
 * **Не использовать клиент СУБД** — если задействовать эту опцию, то для подключения к СУБД используется альтернативный, встроенный в платформу драйвер.
-* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. По умолчанию этот параметр отключен.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Время жизни на время транзакции при неактивности** — сервер MySQL не контролирует некорректно разорванные подключения. В случае некорректного отключения клиента сессия на сервере продолжает существовать до тех пор, пока не завершится timeout. Незавершенные транзакции блокируют данные БД. Во избежание длительных блокировок timeout можно ограничить параметром "Время жизни на время транзакции при неактивности". Задается в секундах.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
@@ -41,6 +41,6 @@ The following parameters are set during the connection setup:
 
 **Смотри также**:
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/MySQL);
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/MySQL);
 * [Manufacturer official website](https://www.mysql.com/)
-* [Документация по SQL синтаксису](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html).
+* [SQL Syntax Documents](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html).

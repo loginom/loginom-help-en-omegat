@@ -24,7 +24,7 @@ The following parameters are set during the connection setup:
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для Oracle — двойные кавычки.
 * **Не использовать клиент СУБД** — если задействовать эту опцию, то для подключения к СУБД используется альтернативный, встроенный в платформу драйвер.
-* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. По умолчанию этот параметр отключен.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
 > **Примечание:** Для подключения к базе данных через клиент СУБД необходима установка файлов клиентской библиотеки (DLL) той же разрядности, что и разрядность приложения/сервера Loginom.
@@ -38,7 +38,7 @@ The following parameters are set during the connection setup:
 
 **See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database);
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database);
 * [Manufacturer official website](https://www.oracle.com/)
 * [Краткая документация по SQL синтаксису](http://docs.oracle.com/database/122/SQLQR/toc.htm);
 * [Полная документация по SQL синтаксису](http://docs.oracle.com/database/122/SQLRF/toc.htm);

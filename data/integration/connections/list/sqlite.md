@@ -24,7 +24,7 @@ The following parameters are set during the connection setup:
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для SQLite — двойные кавычки.
 * **Не использовать клиент СУБД** — для SQLite этот параметр не доступен.
-* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. По умолчанию этот параметр отключен.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Зашифрованная БД** — флаг устанавливает режим шифрования БД. Данный режим использует алгоритм шифрования AES256 и предусматривает использование пароля.
 * **Размер кэша** — устанавливает размер кэша. Действие параметра аналогично выполнению команды БД `"PRAGMA schema.cache_size = pages | -kibibytes;"`, где при введении положительного числа указывается количество памяти в страницах, а при отрицательного числа выделение памяти в КиБ.
 * **Режим синхронизации** — устанавливается режим синхронизации с файловой системой. Выбор данного режима влияет на быстродействие БД, без синхронизации повышая быстродействие с наименьшей защищенностью от сбоев, и с уменьшением быстродействия в счет наибольшей защищенности от сбоев. Действие параметра аналогично выполнению команды БД `"PRAGMA schema.synchronous = 0 | OFF | 1 | NORMAL | 2 | FULL | 3 | EXTRA;"` и предусматривает выбор из следующих вариантов.
@@ -57,7 +57,7 @@ The following parameters are set during the connection setup:
 
 **See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/SQLite);
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/SQLite);
 * [Manufacturer official website](https://sqlite.org)
 * [Документация по SQL синтаксису](https://sqlite.org/lang.html);
 * [Информация по PRAGMA](https://sqlite.org/pragma.html).

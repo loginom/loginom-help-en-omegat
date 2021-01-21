@@ -20,7 +20,7 @@ The following parameters are set during the connection setup:
       * **Port** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.Если параметр пустой, то порт по умолчанию `1433`.
       * **DatabaseName** — имя базы, содержащей необходимые данные.
 * **Test connection**: test of the specified connection settings.
-* **Login** is a login of the DB user. Если логин не указан, то используется доменная авторизация.
+* **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password** is a password of the DB user.
 * **Save password**: when selecting this flag, login and password will be saved in the current connection settings.
 * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
@@ -28,7 +28,7 @@ The following parameters are set during the connection setup:
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для MS SQL — квадратные скобки.
 * **Значение кодировки** — позволяет задать язык сообщений сервера БД и кодовую страницу для значений символьных типов, представленных не в UNICODE: char, varchar, text.
 * **Не использовать клиент СУБД** — для MS SQL этот параметр недоступен.
-* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. По умолчанию этот параметр отключен.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
 > **Примечание:** Для подключения к базе данных клиенты или драйвер ODBC должны быть той же разрядности, что и разрядность приложения/сервера Loginom.
@@ -45,10 +45,10 @@ The following parameters are set during the connection setup:
    * SQL Server 7.
    * SQL Server Compact 4.0, 3.5, 3.1.
 
-> **Важно:** Доменная авторизация осуществляется от имени пользователя, под которым запущен сервер Loginom.
+> **Important:** The domain authorization process is implemented as user under whose name the Loginom server has been started.
 
 **See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
 * [Manufacturer official website](https://www.microsoft.com/ru-ru/sql-server)
-* [Документация по SQL синтаксису](https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries).
+* [SQL Syntax Documents](https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries).
