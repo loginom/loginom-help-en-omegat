@@ -1,6 +1,6 @@
-# ![ ](../../../images/icons/data-sources/db-mssql_default.svg) Подключение MS SQL
+# ![ ](../../../images/icons/data-sources/db-mssql_default.svg) Connection to MS SQL
 
-Используется для подключения к базе данных MS SQL.
+It is used for connection to the MS SQL database.
 
 Подключение осуществляется через OLE DB. Используется либо предустановленный в ОС Windows клиент OLE DB, либо SQL Server Native Client. Применение последнего более предпочтительно.
 
@@ -25,9 +25,9 @@ The following parameters are set during the connection setup:
 * **Save password**: when selecting this flag, login and password will be saved in the current connection settings.
 * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
-* **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для MS SQL — квадратные скобки.
+* **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Square brackets are used for MS SQL.
 * **Значение кодировки** — позволяет задать язык сообщений сервера БД и кодовую страницу для значений символьных типов, представленных не в UNICODE: char, varchar, text.
-* **Не использовать клиент СУБД** — для MS SQL этот параметр недоступен.
+* **Do not use DBMS client**: this parameter is not available for MS SQL.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
@@ -35,13 +35,13 @@ The following parameters are set during the connection setup:
 
 ## Compatibility
 
-* Клиенты.
+* Clients.
    * SQL OLE DB.
    * SQL Native Client.
 
-* Серверы.
-   * SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (включая Express edition).
-   * SQL Server 2000 (включая MSDE).
+* Servers.
+   * SQL Server 2016, 2014, 2012, 2008 R2, 2008, 2005 (including Express edition).
+   * SQL Server 2000 (including MSDE).
    * SQL Server 7.
    * SQL Server Compact 4.0, 3.5, 3.1.
 

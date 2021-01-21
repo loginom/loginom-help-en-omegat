@@ -24,9 +24,9 @@ The following parameters are set during the connection setup:
    * **Save password**: when selecting this flag, login and password will be saved in the current connection settings.
    * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
    * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
-   * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Для MS SQL — квадратные скобки.
+   * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Square brackets are used for MS SQL.
    * **Значение кодировки** — позволяет задать язык сообщений сервера БД и кодовую страницу для значений символьных типов, представленных не в UNICODE: char, varchar, text.
-   * **Не использовать клиент СУБД** — для MS SQL этот параметр недоступен.
+   * **Do not use DBMS client**: this parameter is not available for MS SQL.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 
 * **Описание** — в этом поле можно оставить любую справочную информацию о подключении.

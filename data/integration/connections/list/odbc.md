@@ -58,6 +58,6 @@ The following parameters are set during the connection setup:
 
 **See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/ODBC)
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/ODBC)
 * [Сайт с описанием правил и примеров написания строк подключения](https://www.connectionstrings.com/)
 * [Примеры написания строк подключения к разным источникам данных](https://www.sqlmaestro.com/resources/all/anysql_maestro_connection_strings/)

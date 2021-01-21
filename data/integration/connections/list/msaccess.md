@@ -1,28 +1,28 @@
-# ![ ](../../../images/icons/data-sources/db-msaccess_default.svg) Подключение MS Access
+# ![ ](../../../images/icons/data-sources/db-msaccess_default.svg) Connection to MS Access
 
-Используется для подключения к базе данных Microsoft Access.
+It is used for connection to the Microsoft Access database.
 
 ## Connection Parameters
 
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — указывается путь к файлу БД, содержащему необходимые данные. Parameters can be manually entered, or it is possible to press the following button ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) to call window *Open file*.
+* **Connection string**: the path to the DB file containing the required data is specified. Parameters can be manually entered, or it is possible to press the following button ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) to call window *Open file*.
 * **Test connection**: test of the specified connection settings.
-* **Логин** — логин при подключении к Microsoft Access не используется;
-* **Логин** — указывается пароль, установленный пользователем БД;
-* **Сохранять пароль** — при установке этого флага пароль будет сохранен в текущих настройках подключения;
-* **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД;
+* **Login** is not used for connection to Microsoft Access.
+* **Login**: the password set by the DB user is specified.
+* **Save password**: when selecting this flag, password will be saved in the current connection settings.
+* **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
-* **Настройка кавычек** — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении  к данной БД. Для Microsoft Access — квадратные скобки;
-* **Не использовать клиент СУБД** —  для Microsoft Access этот параметр не доступен;
+* **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Square brackets are used for Microsoft Access.
+* **Do not use DBMS client**: this parameter is not available for Microsoft Access.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
-> **Примечание:** Для подключения к базе данных необходима установка Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** To provide connection to the database, it is required to install Microsoft Office or [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) with the same bitness as the Loginom application/server bitness.
 
 ## Compatibility
 
-Версии 95, 97, 2000, 2003, 2007, 2010, 2013 и 2016.
+Versions 95, 97, 2000, 2003, 2007, 2010, 2013 and 2016.
 
 **See also:**
 
