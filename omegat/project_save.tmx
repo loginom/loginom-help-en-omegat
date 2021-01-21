@@ -3276,6 +3276,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение Interbase</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090621Z" creationid="Марианна" creationdate="20210121T090621Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to Interbase</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS Excel</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T151645Z" creationid="Марианна" creationdate="20210118T151645Z">
@@ -13920,6 +13928,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;локальное&lt;x2/&gt; — подключение без использования сервера Interbase, указывается только путь к БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090723Z" creationid="Марианна" creationdate="20210121T090723Z">
+        <seg>&lt;x1/&gt;Local&lt;x2/&gt;: connection without the use of the Interbase server; only a path to the DB is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;на значение&lt;x2/&gt; — значения будут заменены на указанное.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203621Z" creationid="Марианна" creationdate="20201006T203621Z">
@@ -13984,6 +14000,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;сервер&lt;x2/&gt; — хост сервера Interbase.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090815Z" creationid="Марианна" creationdate="20210121T090815Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the Interbase server host.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;точному совпадению&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163444Z" creationid="Марианна" creationdate="20201006T163444Z">
@@ -13996,6 +14020,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T083321Z" creationid="Марианна" creationdate="20210121T083321Z">
         <seg>&lt;x1/&gt;Remote&lt;x2/&gt;: connection with the use of the Firebird server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;удаленное&lt;x2/&gt; — подключение с использованием сервера Interbase.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090749Z" creationid="Марианна" creationdate="20210121T090749Z">
+        <seg>&lt;x1/&gt;Remote&lt;x2/&gt;: connection with the use of the Interbase server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20173,6 +20205,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для Interbase – двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090836Z" creationid="Марианна" creationdate="20210121T090836Z">
+        <seg>Double quotes are used for Interbase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для Microsoft Excel — двойные кавычки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152807Z" creationid="Марианна" creationdate="20210118T152807Z">
@@ -22765,6 +22805,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210115T141317Z" creationid="Марианна" creationdate="20210115T141317Z">
         <seg>It is used for connection to the ClickHouse database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к базе данных Interbase.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T090638Z" creationid="Марианна" creationdate="20210121T090638Z">
+        <seg>It is used for connection to the Interbase database.</seg>
       </tuv>
     </tu>
     <tu>
