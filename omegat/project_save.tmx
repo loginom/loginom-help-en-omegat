@@ -12888,6 +12888,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — настраивается как в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x3/&gt; &lt;x4/&gt;, так и вводом параметров вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175832Z" creationid="Марианна" creationdate="20210121T175832Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called both by clicking on &lt;x3/&gt; &lt;x4/&gt; button and by entering the parameters manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — содержит параметры подключения к базе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T054920Z" creationid="Марианна" creationdate="20210111T054920Z">
