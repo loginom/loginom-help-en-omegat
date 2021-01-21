@@ -13858,8 +13858,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;локальное&lt;x2/&gt; — подключение без использования сервера Firebird, указывается только путь к БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T083135Z" creationid="Марианна" creationdate="20210121T082916Z">
-        <seg>&lt;x1/&gt;Local&lt;x2/&gt; connection without the use of the Firebird server; only a path to the DB is specified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083326Z" creationid="Марианна" creationdate="20210121T082916Z">
+        <seg>&lt;x1/&gt;Local&lt;x2/&gt;: connection without the use of the Firebird server; only a path to the DB is specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13916,6 +13916,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163444Z" creationid="Марианна" creationdate="20201006T163444Z">
         <seg>&lt;x1/&gt;exact match&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;удаленное&lt;x2/&gt; — подключение с использованием сервера Firebird.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083321Z" creationid="Марианна" creationdate="20210121T083321Z">
+        <seg>&lt;x1/&gt;Remote&lt;x2/&gt;: connection with the use of the Firebird server.</seg>
       </tuv>
     </tu>
     <tu>
