@@ -13856,6 +13856,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;локальное&lt;x2/&gt; — подключение без использования сервера Firebird, указывается только путь к БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083135Z" creationid="Марианна" creationdate="20210121T082916Z">
+        <seg>&lt;x1/&gt;Local&lt;x2/&gt; connection without the use of the Firebird server; only a path to the DB is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;на значение&lt;x2/&gt; — значения будут заменены на указанное.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203621Z" creationid="Марианна" creationdate="20201006T203621Z">
