@@ -13912,6 +13912,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;сервер&lt;x2/&gt; — хост сервера Firebird.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T083355Z" creationid="Марианна" creationdate="20210121T083355Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the Firebird server host.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;точному совпадению&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163444Z" creationid="Марианна" creationdate="20201006T163444Z">
