@@ -8933,6 +8933,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — указывается пароль, установленный пользователем БД;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T152836Z" creationid="Марианна" creationdate="20210121T152836Z">
+        <seg>&lt;x1/&gt;Login&lt;x2/&gt;: the password set by the DB user is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055817Z" creationid="Марианна" creationdate="20200812T055817Z">
