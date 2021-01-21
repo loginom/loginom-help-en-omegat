@@ -11213,6 +11213,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных необходима установка файлов клиентской библиотеки (DLL) той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T085429Z" creationid="Марианна" creationdate="20210121T085429Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения​к базе данных необходима установка толстого клиента 1С той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210115T134324Z" creationid="Марианна" creationdate="20210115T134126Z">
@@ -18267,6 +18275,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140859Z" creationid="Марианна" creationdate="20201116T140859Z">
         <seg>When &lt;x1/&gt;Do not replace&lt;x2/&gt; option is selected, the values not included into the &lt;x3/&gt;Replacement table&lt;x4/&gt; are not subject to the additional processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В случае, если используется многопользовательский доступ к БД, рекомендуется использовать сервер Firebird для избежания блокировок доступа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T085612Z" creationid="Марианна" creationdate="20210121T085612Z">
+        <seg>In the case of the multiple user access to the DB, it is recommended to use the Firebird server to avoid access lock.</seg>
       </tuv>
     </tu>
     <tu>
