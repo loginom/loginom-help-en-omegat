@@ -18813,6 +18813,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Версии 95, 97, 2000, 2003, 2007, 2010, 2013 и 2016.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175156Z" creationid="Марианна" creationdate="20210121T175156Z">
+        <seg>Versions 95, 97, 2000, 2003, 2007, 2010, 2013 and 2016.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Версии БД ClickHouse 19.1 и выше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T115401Z" creationid="Марианна" creationdate="20210118T115401Z">
