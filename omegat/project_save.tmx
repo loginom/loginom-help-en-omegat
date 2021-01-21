@@ -9421,6 +9421,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка кавычек&lt;x2/&gt; — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении  к данной БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T174203Z" creationid="Марианна" creationdate="20210121T174203Z">
+        <seg>&lt;x1/&gt;Configure quotes&lt;x2/&gt; represents the information field that enables to define which framing characters are used for connection to this DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка кавычек&lt;x2/&gt; — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении к данной БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T131815Z" creationid="Марианна" creationdate="20210118T131815Z">
@@ -9577,6 +9585,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090917Z" creationid="Марианна" creationdate="20210121T090917Z">
         <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: it is not possible to change this parameter for Interbase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; —  для Microsoft Access этот параметр не доступен;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T174913Z" creationid="Марианна" creationdate="20210121T174913Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: this parameter is not available for Microsoft Access.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10832,6 +10848,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T124157Z" creationid="Марианна" creationdate="20210118T124157Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T174124Z" creationid="Марианна" creationdate="20210121T174124Z">
         <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
       </tuv>
     </tu>
@@ -20281,6 +20305,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090836Z" creationid="Марианна" creationdate="20210121T090836Z">
         <seg>Double quotes are used for Interbase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для Microsoft Access — квадратные скобки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T174325Z" creationid="Марианна" creationdate="20210121T174325Z">
+        <seg>Square brackets are used for Microsoft Access.</seg>
       </tuv>
     </tu>
     <tu>
