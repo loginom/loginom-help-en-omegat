@@ -3284,6 +3284,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS Access</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T091214Z" creationid="Марианна" creationdate="20210121T091214Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MS Access</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS Excel</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T151645Z" creationid="Марианна" creationdate="20210118T151645Z">
@@ -12820,6 +12828,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T111511Z" creationid="Марианна" creationdate="20210118T110839Z">
         <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; represents the string of the following kind: &lt;x3/&gt;host[:port][:database]&lt;x4/&gt;. It is set in a separate window that can be called both by clicking on &lt;x5/&gt; &lt;x6/&gt; button and by entering the parameters manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — указывается путь к файлу БД, содержащему необходимые данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T091205Z" creationid="Марианна" creationdate="20210121T091205Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt;: the path to the DB file containing the required data is specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22845,6 +22861,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090638Z" creationid="Марианна" creationdate="20210121T090638Z">
         <seg>It is used for connection to the Interbase database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к базе данных Microsoft Access.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T091231Z" creationid="Марианна" creationdate="20210121T091231Z">
+        <seg>It is used for connection to the Microsoft Access database.</seg>
       </tuv>
     </tu>
     <tu>
