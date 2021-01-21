@@ -12704,6 +12704,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — настраивается в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x3/&gt; &lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T082737Z" creationid="Марианна" creationdate="20210121T082737Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called by clicking on &lt;x3/&gt; &lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — содержит параметры подключения к базе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T054920Z" creationid="Марианна" creationdate="20210111T054920Z">
@@ -27663,6 +27671,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061133Z" creationid="Марианна" creationdate="20201109T061133Z">
         <seg>&lt;x1/&gt;Import of the external JS modules&lt;x2/&gt; is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддерживается два типа подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T082754Z" creationid="Марианна" creationdate="20210121T082754Z">
+        <seg>Two connection types are supported.</seg>
       </tuv>
     </tu>
     <tu>
