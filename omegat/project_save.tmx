@@ -9613,6 +9613,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — для MS SQL этот параметр недоступен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175621Z" creationid="Марианна" creationdate="20210121T175621Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: this parameter is not available for MS SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — параметр недоступен, т.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120653Z" creationid="Марианна" creationdate="20210118T120653Z">
@@ -20377,6 +20385,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090836Z" creationid="Марианна" creationdate="20210121T090836Z">
         <seg>Double quotes are used for Interbase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для MS SQL — квадратные скобки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T175521Z" creationid="Марианна" creationdate="20210121T175521Z">
+        <seg>Square brackets are used for MS SQL.</seg>
       </tuv>
     </tu>
     <tu>
