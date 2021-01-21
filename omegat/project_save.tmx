@@ -7725,6 +7725,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение кодировки&lt;x2/&gt; — задает кодировку символов, в которой будут трактоваться данные с сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210121T085140Z" creationid="Марианна" creationdate="20210121T085140Z">
+        <seg>&lt;x1/&gt;Encoding value&lt;x2/&gt; provides encoding of characters according to which the server data will be interpreted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение сезонного индекса&lt;x2/&gt; — коэффициент, характеризующий &lt;x3/&gt;сезонность&lt;x4/&gt; для данной точки и данной позиции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070441Z" creationid="Марианна" creationdate="20201126T070441Z">
