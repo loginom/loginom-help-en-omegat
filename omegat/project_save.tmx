@@ -5404,6 +5404,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Port&lt;x2/&gt; — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.Если параметр пустой, то порт по умолчанию &lt;x3/&gt;1433&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T151929Z" creationid="Марианна" creationdate="20210201T151929Z">
+        <seg>&lt;x1/&gt;Port&lt;x2/&gt; means the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, &lt;x3/&gt;1433&lt;x4/&gt; is used as the default port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183406Z" creationid="Марианна" creationdate="20200810T183406Z">
@@ -5480,6 +5488,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
         <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ServerName&lt;x2/&gt; — хост сервера СУБД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T151551Z" creationid="Марианна" creationdate="20210201T151551Z">
+        <seg>&lt;x1/&gt;ServerName&lt;x2/&gt;: the DBMS server host.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33443,6 +33459,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125944Z" creationid="Марианна" creationdate="20201118T125944Z">
         <seg>The date representation format -  &lt;x1/&gt;Own format&lt;x2/&gt; - will be further considered in details.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;host:1433:database1&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T151504Z" creationid="Марианна" creationdate="20210201T151504Z">
+        <seg>The following string format is used: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;host:1433:database1&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
