@@ -11429,6 +11429,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных через клиент СУБД необходима установка файлов клиентской библиотеки (DLL) той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T154927Z" creationid="Марианна" creationdate="20210201T154927Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database via DBMS client, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения​к базе данных необходима установка толстого клиента 1С той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210115T134324Z" creationid="Марианна" creationdate="20210115T134126Z">
@@ -25801,8 +25809,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Незавершенные транзакции блокируют данные БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T154453Z" creationid="Марианна" creationdate="20210201T154453Z">
-        <seg>Incomplete transactions block the DB data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T154719Z" creationid="Марианна" creationdate="20210201T154453Z">
+        <seg>Incomplete transactions lock the DB data.</seg>
       </tuv>
     </tu>
     <tu>
