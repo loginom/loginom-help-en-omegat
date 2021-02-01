@@ -17439,6 +17439,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Альтернативный способ интеграции с MS SQL — использование &lt;x1/&gt;ODBC-подключения&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T150349Z" creationid="Марианна" creationdate="20210201T150349Z">
+        <seg>Use &lt;x1/&gt;ODBC connection&lt;x2/&gt; is an alternative method of integration with MS SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083657Z" creationid="Марианна" creationdate="20201210T074848Z">
@@ -29879,6 +29887,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T111402Z" creationid="Марианна" creationdate="20200825T111402Z">
         <seg>Use of Variables in Queries</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применение последнего более предпочтительно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T150238Z" creationid="Марианна" creationdate="20210201T150151Z">
+        <seg>It is preferable to use the latter.</seg>
       </tuv>
     </tu>
     <tu>
