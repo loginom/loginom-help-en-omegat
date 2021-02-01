@@ -22037,6 +22037,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задается в секундах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T153757Z" creationid="Марианна" creationdate="20210201T153757Z">
+        <seg>It is set in seconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задается на языке правил, использующем подмножество &lt;x3/&gt;регулярных выражений&lt;x4/&gt; Perl (Perl regular expressions, regex).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094635Z" creationid="Марианна" creationdate="20201117T094635Z">
