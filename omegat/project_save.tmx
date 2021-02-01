@@ -28131,6 +28131,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подключение осуществляется через OLE DB.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T145812Z" creationid="Марианна" creationdate="20210201T145812Z">
+        <seg>The connection is provided via OLE DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подключение происходит аналогично &lt;x7/&gt;подключению с БД&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T134308Z" creationid="Марианна" creationdate="20200823T120625Z">
