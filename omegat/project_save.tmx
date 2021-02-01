@@ -18949,6 +18949,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ввод параметров подключения вручную, параметры в строке указываются через двоеточие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T154222Z" creationid="Марианна" creationdate="20210201T154222Z">
+        <seg>When parameters are manually entered, it is required to provide the colon separated parameters in the string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Величина связи между переменными регрессионной модели (изменяется от 0 до 1)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T212136Z" creationid="Марианна" creationdate="20201216T205811Z">
