@@ -11389,6 +11389,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных клиенты или драйвер ODBC должны быть той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T152717Z" creationid="Марианна" creationdate="20210201T152717Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, the clients or ODBC driver must be with the same bitness as the Loginom application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных необходима установка Microsoft Office или &lt;x3/&gt;Microsoft Access Database Engine&lt;x4/&gt; той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T175134Z" creationid="Марианна" creationdate="20210121T175134Z">
