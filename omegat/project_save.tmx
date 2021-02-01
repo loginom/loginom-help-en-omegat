@@ -7813,6 +7813,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение кодировки&lt;x2/&gt; — позволяет задать язык сообщений сервера БД и кодовую страницу для значений символьных типов, представленных не в UNICODE: char, varchar, text.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T152450Z" creationid="Марианна" creationdate="20210201T152450Z">
+        <seg>&lt;x1/&gt;Encoding value&lt;x2/&gt; enables to set the message language of the DB server and codepage for the values related to the character types represented not in UNICODE: char, varchar, text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение сезонного индекса&lt;x2/&gt; — коэффициент, характеризующий &lt;x3/&gt;сезонность&lt;x4/&gt; для данной точки и данной позиции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070441Z" creationid="Марианна" creationdate="20201126T070441Z">
