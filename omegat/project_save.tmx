@@ -12768,6 +12768,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; —  при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T153644Z" creationid="Марианна" creationdate="20210201T153644Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — подключении к файлу Microsoft Excel этот параметр не используются;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T153009Z" creationid="Марианна" creationdate="20210118T153009Z">
@@ -20521,6 +20529,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152807Z" creationid="Марианна" creationdate="20210118T152807Z">
         <seg>Double quotes are used for Microsoft Excel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для MySQL — обратные апострофы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T153718Z" creationid="Марианна" creationdate="20210201T153718Z">
+        <seg>Backquotes are used for MySQL.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33539,6 +33555,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125944Z" creationid="Марианна" creationdate="20201118T125944Z">
         <seg>The date representation format -  &lt;x1/&gt;Own format&lt;x2/&gt; - will be further considered in details.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port/Shared Memory&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;localhost:3306:database1&lt;x4/&gt;, а при использовании Shared-Memory возможно такое написание &lt;x5/&gt;localhost:MYSQL:database1&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T153605Z" creationid="Марианна" creationdate="20210201T153605Z">
+        <seg>The following string format is used: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port/Shared Memory&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, for example, &lt;x3/&gt;localhost:3306:database1&lt;x4/&gt;. When Shared-Memory using, the following way of writing is also possible: &lt;x5/&gt;localhost:MYSQL:database1&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
