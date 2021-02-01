@@ -19285,6 +19285,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Во избежание длительных блокировок timeout можно ограничить параметром "Время жизни на время транзакции при неактивности".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T154714Z" creationid="Марианна" creationdate="20210201T154714Z">
+        <seg>To avoid long-lasting data lock, timeout can be limited by "Idle-in-transaction timeout" parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращаемое значение может иметь типы: &lt;x1/&gt;boolean&lt;x2/&gt;, &lt;x3/&gt;number&lt;x4/&gt;, &lt;x5/&gt;string&lt;x6/&gt;, &lt;x7/&gt;Date&lt;x8/&gt;, &lt;x9/&gt;undefined&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145608Z" creationid="Марианна" creationdate="20201102T145608Z">
@@ -25787,6 +25795,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083019Z" creationid="Марианна" creationdate="20201214T083019Z">
         <seg>Unreliable data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Незавершенные транзакции блокируют данные БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T154453Z" creationid="Марианна" creationdate="20210201T154453Z">
+        <seg>Incomplete transactions block the DB data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33585,8 +33601,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port/Shared Memory&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;localhost:3306:database1&lt;x4/&gt;, а при использовании Shared-Memory возможно такое написание &lt;x5/&gt;localhost:MYSQL:database1&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T153605Z" creationid="Марианна" creationdate="20210201T153605Z">
-        <seg>The following string format is used: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port/Shared Memory&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, for example, &lt;x3/&gt;localhost:3306:database1&lt;x4/&gt;. When Shared-Memory using, the following way of writing is also possible: &lt;x5/&gt;localhost:MYSQL:database1&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T154255Z" creationid="Марианна" creationdate="20210201T153605Z">
+        <seg>The following string format is used: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port/Shared Memory&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, for example, &lt;x3/&gt;localhost:3306:database1&lt;x4/&gt;. When Shared-Memory is used, the following way of writing is also possible: &lt;x5/&gt;localhost:MYSQL:database1&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
