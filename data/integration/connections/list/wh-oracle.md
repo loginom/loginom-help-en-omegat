@@ -2,7 +2,7 @@
 
 Используется для подключения к Хранилищу данных [Deductor Warehouse](../../../data-format/data-warehouse.md), основанному на СУБД Oracle.
 
-Возможно подключение как через клиент СУБД, так и через внутренний драйвер Loginom.
+It is possible to provide connection both via DBMS client, and Loginom internal driver.
 
 ## Connection Parameters
 

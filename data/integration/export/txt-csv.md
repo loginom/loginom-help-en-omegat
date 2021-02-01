@@ -72,7 +72,7 @@ The component is configured in two steps:
          * Comma
          * Dot
       * **Fixed width**: fields in the source file have the set width.
-* **Codepage** means encoding used for storage of text. There are the following available options:
+* **Codepage** means the encoding used for storage of text. There are the following available options:
    * ANSI/Windows(0);
    * ASCII/MS DOS(1);
    * Cyrillic (1251);

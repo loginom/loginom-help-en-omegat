@@ -2,7 +2,7 @@
 
 Используется для подключения к базе данных Oracle.
 
-Возможно подключение как через клиент СУБД, так и через внутренний драйвер Loginom.
+It is possible to provide connection both via DBMS client, and Loginom internal driver.
 
 ## Connection Parameters
 
@@ -27,7 +27,7 @@ The following parameters are set during the connection setup:
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
-> **Примечание:** Для подключения к базе данных через клиент СУБД необходима установка файлов клиентской библиотеки (DLL) той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** To provide connection to the database via DBMS client, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
 
 ## Compatibility
 
