@@ -16,7 +16,7 @@ The following parameters are set during the connection setup:
    * Формат строки при использовании встроенного драйвера может иметь вид:
       * **`<ServerName>:<Port>:<SID>`** либо
       * **`<ServerName>[:<Port>]/<Service_name>`**, где:
-         * **ServerName** — хост сервера СУБД.
+         * **ServerName**: the DBMS server host.
          * **Port** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.
          * **SID** — уникальное имя образца БД (System ID).
          * **ServiceName** — псевдоним для одной или нескольких образцов БД.

@@ -2,23 +2,23 @@
 
 It is used for connection to the MS SQL database.
 
-Подключение осуществляется через OLE DB. Используется либо предустановленный в ОС Windows клиент OLE DB, либо SQL Server Native Client. Применение последнего более предпочтительно.
+The connection is provided via OLE DB. Either OLE DB client preinstalled in Windows OS, or SQL Server Native Client is used. It is preferable to use the latter.
 
-Альтернативный способ интеграции с MS SQL — использование [ODBC-подключения](./odbc.md).
+Use [ODBC connection](./odbc.md) is an alternative method of integration with MS SQL.
 
 ## Connection Parameters
 
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button and by entering the parameters manually. Эти настройки используются драйвером OLE DB для подключения к необходимой базе данных.
-   * Первый вариант с выводом отдельного окна, вызываемом при клике мышью по кнопке ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). Окно имеет два поля.
-      * **Сервер** — хост SQL-сервера. При необходимости, через "" указывается именованный экземпляр SQL-сервера.
-      * **База данных** — имя базы, содержащей необходимые данные.
-   * Второй вариант с вводом параметров подключения вручную, параметры в строке указываются через двоеточие. Формат строки: `<ServerName>:<Port>:<DatabaseName>`, например `host:1433:database1`.
-      * **ServerName** — хост сервера СУБД.
-      * **Port** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.Если параметр пустой, то порт по умолчанию `1433`.
-      * **DatabaseName** — имя базы, содержащей необходимые данные.
+* **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button and by entering the parameters manually. These settings are used by OLE DB driver to connect to the required database.
+   * The first option with a separate window called when clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
+      * **Server**: the SQL server host. If it is necessary, the named instance of SQL server is specified using "".
+      * **Database** is a name of the database that includes the required data.
+   * When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port>:<DatabaseName>`, например `host:1433:database1`.
+      * **ServerName**: the DBMS server host.
+      * **Port** means the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
+      * **DatabaseName** is a name of the database that includes the required data.
 * **Test connection**: test of the specified connection settings.
 * **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password** is a password of the DB user.
@@ -26,12 +26,12 @@ The following parameters are set during the connection setup:
 * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Square brackets are used for MS SQL.
-* **Значение кодировки** — позволяет задать язык сообщений сервера БД и кодовую страницу для значений символьных типов, представленных не в UNICODE: char, varchar, text.
+* **Encoding value** enables to set the message language of the DB server and codepage for the values related to the character types represented not in UNICODE: char, varchar, text.
 * **Do not use DBMS client**: this parameter is not available for MS SQL.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference data concerning connection in this form.
 
-> **Примечание:** Для подключения к базе данных клиенты или драйвер ODBC должны быть той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** To provide connection to the database, the clients or ODBC driver must be with the same bitness as the Loginom application/server bitness.
 
 ## Compatibility
 

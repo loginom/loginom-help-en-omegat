@@ -9,14 +9,14 @@
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button and by entering the parameters manually. Эти настройки используются драйвером OLE DB для подключения к необходимой базе данных.
-   * Первый вариант с выводом отдельного окна, вызываемом при клике мышью по кнопке ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). Окно имеет два поля.
+* **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button and by entering the parameters manually. These settings are used by OLE DB driver to connect to the required database.
+   * The first option with a separate window called when clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
       * **Сервер** — хост сервера MySQL.
       * **База данных** — наименование БД.
    * Ввод параметров подключения вручную, параметры в строке указываются через двоеточие. Формат строки: `<ServerName>:<Port/Shared Memory>:<DatabaseName>`, например `localhost:3306:database1`, а при использовании Shared-Memory возможно такое написание `localhost:MYSQL:database1`.
       * **ServerName** — хост сервера СУБД, для подключения по протоколу Shared Memory значение хоста должно быть `localhost`.
       * **Port/Shared Memory** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом. Или заданная сервером опция `shared-memory-base-name` (не должна являться корректным номером порта). Если параметр пустой и *ServerName* не `localhost`, то подключение проходит по протоколу TCP/IP с портом по умолчанию `3306`.
-      * **DatabaseName** — имя базы, содержащей необходимые данные. Если параметр *Port/Shared Memory* пустой, то этот параметр можно оставить пустым, в таком случае будут показаны все доступные базы данных.
+      * **DatabaseName** is a name of the database that includes the required data. Если параметр *Port/Shared Memory* пустой, то этот параметр можно оставить пустым, в таком случае будут показаны все доступные базы данных.
    * При пустой строке в поле происходит подключение к `localhost`.
 * **Test connection**: test of the specified connection settings.
 * **Login** is a login of the DB user.
