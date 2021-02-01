@@ -5100,6 +5100,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DatabaseName&lt;x2/&gt; — имя базы, содержащей необходимые данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T152001Z" creationid="Марианна" creationdate="20210201T152001Z">
+        <seg>&lt;x1/&gt;DatabaseName&lt;x2/&gt; is a name of the database that includes the required data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
