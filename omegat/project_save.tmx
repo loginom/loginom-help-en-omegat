@@ -23041,6 +23041,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется либо предустановленный в ОС Windows клиент OLE DB, либо SQL Server Native Client.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T150033Z" creationid="Марианна" creationdate="20210201T150033Z">
+        <seg>Either OLE DB client preinstalled in Windows OS, or SQL Server Native Client is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется по умолчанию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072229Z" creationid="Марианна" creationdate="20201016T072229Z">
