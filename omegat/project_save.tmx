@@ -12376,6 +12376,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сервер&lt;x2/&gt; — хост SQL-сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T150759Z" creationid="Марианна" creationdate="20210201T150759Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the SQL server host.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сертификат CA&lt;x2/&gt; — путь к файлу с корневым сертификатом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T121914Z" creationid="Марианна" creationdate="20210118T121914Z">
@@ -26439,6 +26447,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T095522Z" creationid="Марианна" creationdate="20200818T095522Z">
         <seg>The &lt;x1/&gt;Property inspector&lt;x2/&gt; window is located in the right part of the screen on the &lt;x3/&gt;Workflow&lt;x4/&gt; and &lt;x5/&gt;Connections&lt;x6/&gt; pages. It is collapsed by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно имеет два поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T150726Z" creationid="Марианна" creationdate="20210201T150726Z">
+        <seg>The window includes two fields.</seg>
       </tuv>
     </tu>
     <tu>
