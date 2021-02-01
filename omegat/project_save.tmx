@@ -8559,16 +8559,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой сохранится текст.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T162156Z" creationid="Марианна" creationdate="20200917T162156Z">
-        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means encoding used for storage of text.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T152948Z" creationid="Марианна" creationdate="20200917T162156Z">
+        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means the encoding used for storage of text.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой хранится текст в файле;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T085048Z" creationid="Марианна" creationdate="20200826T085048Z">
-        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means encoding used for storage of text in a file.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T152955Z" creationid="Марианна" creationdate="20200826T085048Z">
+        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means the encoding used for storage of text in a file.</seg>
       </tuv>
     </tu>
     <tu>
