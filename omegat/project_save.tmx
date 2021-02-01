@@ -5420,6 +5420,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Port/Shared Memory&lt;x2/&gt; — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210201T155248Z" creationid="Марианна" creationdate="20210201T155248Z">
+        <seg>&lt;x1/&gt;Port/Shared Memory&lt;x2/&gt; means the TCP port used by the DBMS server to provide interaction with the client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Port&lt;x2/&gt; — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.Если параметр пустой, то порт по умолчанию &lt;x3/&gt;1433&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T151929Z" creationid="Марианна" creationdate="20210201T151929Z">
