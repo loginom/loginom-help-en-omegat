@@ -9013,6 +9013,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин пользователя БД;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T113041Z" creationid="Марианна" creationdate="20210202T113041Z">
+        <seg>&lt;x1/&gt;Login&lt;x2/&gt; is a login of the DB user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин при подключении к Microsoft Access не используется;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T152701Z" creationid="Марианна" creationdate="20210121T152701Z">
@@ -10509,6 +10517,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль пользователя БД;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T113107Z" creationid="Марианна" creationdate="20210202T113107Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt; is a password of the DB user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль при подключении к файлу Microsoft Excel не используются;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152547Z" creationid="Марианна" creationdate="20210118T152547Z">
@@ -10953,6 +10969,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073358Z" creationid="Марианна" creationdate="20200817T073358Z">
         <seg>&lt;x1/&gt;Show node&lt;x2/&gt; enables to show the selected node in the Workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T113342Z" creationid="Марианна" creationdate="20210202T113342Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12843,6 +12867,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122914Z" creationid="Марианна" creationdate="20210111T122914Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T113133Z" creationid="Марианна" creationdate="20210202T113133Z">
         <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
       </tuv>
     </tu>
@@ -23277,6 +23309,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T153233Z" creationid="Марианна" creationdate="20210201T153233Z">
         <seg>It is used for connection to the MySQL database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к одному из источников данных &lt;x1/&gt;ODBC&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T113015Z" creationid="Марианна" creationdate="20210202T113015Z">
+        <seg>It is used for connection to one of the &lt;x1/&gt;ODBC&lt;x2/&gt; data sources.</seg>
       </tuv>
     </tu>
     <tu>
