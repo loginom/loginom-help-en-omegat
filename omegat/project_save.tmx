@@ -11535,8 +11535,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Проверка совместимости с версией 8.0 не проводилась.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210202T111052Z" creationid="Марианна" creationdate="20210202T111052Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Compatibility with 8.0 version was not tested.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T112549Z" creationid="Марианна" creationdate="20210202T111052Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Compatibility with version 8.0 was not tested.</seg>
       </tuv>
     </tu>
     <tu>
