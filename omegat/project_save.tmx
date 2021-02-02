@@ -6517,6 +6517,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Время жизни на время транзакции при неактивности&lt;x2/&gt; — сервер MySQL не контролирует некорректно разорванные подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T110502Z" creationid="Марианна" creationdate="20210202T110502Z">
+        <seg>&lt;x1/&gt;Idle-in-transaction timeout&lt;x2/&gt;: MySQL server does not control incorrectly disrupted connections.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Время.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060419Z" creationid="Марианна" creationdate="20201119T060419Z">
