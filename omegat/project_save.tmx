@@ -11533,6 +11533,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Проверка совместимости с версией 8.0 не проводилась.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T111052Z" creationid="Марианна" creationdate="20210202T111052Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Compatibility with 8.0 version was not tested.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Регулярное выражение — это шаблон поиска последовательностей символов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094516Z" creationid="Марианна" creationdate="20201117T094516Z">
@@ -29615,6 +29623,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064536Z" creationid="Марианна" creationdate="20201116T064536Z">
         <seg>When importing the file that contains single inquiry character &lt;x1/&gt;?&lt;x2/&gt;, this character will be interpreted as &lt;x3/&gt;&lt;null&gt;&lt;x4/&gt; (null value).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При использовании версии 8.0 не рекомендуется использовать новый метод аутентификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T112528Z" creationid="Марианна" creationdate="20210202T112528Z">
+        <seg>It is recommended to use the new authentification method if version 8.0 is used.</seg>
       </tuv>
     </tu>
     <tu>
