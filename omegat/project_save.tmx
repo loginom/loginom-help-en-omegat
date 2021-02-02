@@ -21877,6 +21877,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметр &lt;x3/&gt;Port/Shared Memory&lt;x4/&gt; пустой, то этот параметр можно оставить пустым, в таком случае будут показаны все доступные базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T105549Z" creationid="Марианна" creationdate="20210202T105549Z">
+        <seg>If &lt;x3/&gt;Port/Shared Memory&lt;x4/&gt; parameter is null, it is allowed to leave this parameter null, in this case all available databases will be shown.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если параметр пустой и &lt;x5/&gt;ServerName&lt;x6/&gt; не &lt;x7/&gt;localhost&lt;x8/&gt;, то подключение проходит по протоколу TCP/IP с портом по умолчанию &lt;x9/&gt;3306&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T105336Z" creationid="Марианна" creationdate="20210202T105336Z">
@@ -29847,6 +29855,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T150223Z" creationid="Марианна" creationdate="20201118T132448Z">
         <seg>When transforming to &lt;x1/&gt;Date/Time&lt;x2/&gt; &lt;x3/&gt;Date/Time&lt;x4/&gt; data type, it is possible to select the period start and/or end for some formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При пустой строке в поле происходит подключение к &lt;x1/&gt;localhost&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T105836Z" creationid="Марианна" creationdate="20210202T105836Z">
+        <seg>When the string is empty, connection to &lt;x1/&gt;localhost&lt;x2/&gt; is provided in the field.</seg>
       </tuv>
     </tu>
     <tu>
