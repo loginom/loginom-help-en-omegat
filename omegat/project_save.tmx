@@ -22649,6 +22649,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Или заданная сервером опция &lt;x3/&gt;shared-memory-base-name&lt;x4/&gt; (не должна являться корректным номером порта).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T105148Z" creationid="Марианна" creationdate="20210202T105148Z">
+        <seg>Or &lt;x3/&gt;shared-memory-base-name&lt;x4/&gt; option set by the server (it mustn't be the correct port number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имеет следующую структуру:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T063551Z" creationid="Марианна" creationdate="20201012T063551Z">
