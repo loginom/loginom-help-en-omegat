@@ -3316,6 +3316,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение ODBC</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T112930Z" creationid="Марианна" creationdate="20210202T112930Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to ODBC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
