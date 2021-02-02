@@ -9693,6 +9693,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — если задействовать эту опцию, то для подключения к СУБД используется альтернативный, встроенный в платформу драйвер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T110116Z" creationid="Марианна" creationdate="20210202T110116Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — параметр недоступен, т.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120653Z" creationid="Марианна" creationdate="20210118T120653Z">
