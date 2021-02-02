@@ -21877,6 +21877,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметр пустой и &lt;x5/&gt;ServerName&lt;x6/&gt; не &lt;x7/&gt;localhost&lt;x8/&gt;, то подключение проходит по протоколу TCP/IP с портом по умолчанию &lt;x9/&gt;3306&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210202T105336Z" creationid="Марианна" creationdate="20210202T105336Z">
+        <seg>If the parameter is null, and &lt;x5/&gt;ServerName&lt;x6/&gt; is not &lt;x7/&gt;localhost&lt;x8/&gt;, connection is provided via TCP/IP protocol with default port &lt;x9/&gt;3306&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
