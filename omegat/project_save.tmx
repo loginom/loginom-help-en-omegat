@@ -8469,6 +8469,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информация по Microsoft SQL Server в русском разделе википедии&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213614Z" creationid="Марианна" creationdate="20210203T213614Z">
+        <seg>&lt;x1/&gt;Information on Microsoft SQL Server in the Russian section in Wikipedia&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Информация по PRAGMA&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204602Z" creationid="Марианна" creationdate="20210203T204602Z">
@@ -10517,6 +10525,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Официальный сайт производителя MS SQL Server&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213704Z" creationid="Марианна" creationdate="20210203T213704Z">
+        <seg>&lt;x1/&gt;Official website of MS SQL Server manufacturer&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T055444Z" creationid="Марианна" creationdate="20210111T055444Z">
@@ -10535,8 +10551,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт разработчика Firebird&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T204945Z" creationid="Марианна" creationdate="20210203T204945Z">
-        <seg>&lt;x1/&gt;Firebird manufacturer official website&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213727Z" creationid="Марианна" creationdate="20210203T204945Z">
+        <seg>&lt;x1/&gt;Official website of Firebird manufacturer&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26531,6 +26547,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090308Z" creationid="Марианна" creationdate="20210121T090308Z">
         <seg>Starting from Firebird 2.5 and higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Начиная с версии Microsoft SQL Server 2000 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213555Z" creationid="Марианна" creationdate="20210203T213555Z">
+        <seg>Starting from Microsoft SQL Server 2000 and higher.</seg>
       </tuv>
     </tu>
     <tu>
