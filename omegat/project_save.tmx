@@ -5572,6 +5572,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ServerName&lt;x2/&gt; — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T065439Z" creationid="Марианна" creationdate="20210203T065439Z">
+        <seg>&lt;x1/&gt;ServerName&lt;x2/&gt;: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ServerName&lt;x2/&gt; — хост сервера СУБД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T151551Z" creationid="Марианна" creationdate="20210201T151551Z">
@@ -34107,6 +34115,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T065023Z" creationid="Марианна" creationdate="20210203T065023Z">
         <seg>The string format when the inbox driver is used is as follows: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;Instance&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат строки при использовании клиента СУБД: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T065237Z" creationid="Марианна" creationdate="20210203T065237Z">
+        <seg>The string format when DBMS client is used is as follows: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
