@@ -6076,6 +6076,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;База данных&lt;x2/&gt; — путь к файлу базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T205237Z" creationid="Марианна" creationdate="20210203T205237Z">
+        <seg>&lt;x1/&gt;Database&lt;x2/&gt; is a path to the database file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Базовый узел&lt;x2/&gt; — узел или &lt;x3/&gt;Подмодель&lt;x4/&gt;, настройки и алгоритм которого предполагается использовать повторно, может находиться за пределами текущей &lt;x5/&gt;Подмодели&lt;x6/&gt;, &lt;x7/&gt;Сценария&lt;x8/&gt;, &lt;x9/&gt;Модуля&lt;x10/&gt; или &lt;x11/&gt;Пакета&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143437Z" creationid="Марианна" creationdate="20200918T143437Z">
@@ -9213,6 +9221,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Локальное&lt;x2/&gt; — подключение без использования сервера Firebird, указывается только путь к БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T205053Z" creationid="Марианна" creationdate="20210203T205053Z">
+        <seg>&lt;x1/&gt;Local&lt;x2/&gt;: connection without the use of the Firebird server; only a path to the DB is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Локальные настройки&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185235Z" creationid="Марианна" creationdate="20200810T183157Z">
@@ -12208,6 +12224,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Протокол&lt;x2/&gt; — протокол, используемый сервером для взаимодействия с клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T205145Z" creationid="Марианна" creationdate="20210203T205145Z">
+        <seg>&lt;x1/&gt;Protocol&lt;x2/&gt; is a protocol that is used by the server for interaction with a client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Профили кластеров&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
@@ -13820,6 +13844,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204244Z" creationid="Марианна" creationdate="20210203T204244Z">
         <seg>&lt;x1/&gt;Delete&lt;x2/&gt; (DELETE).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удаленное&lt;x2/&gt; — подключение с использованием сервера Firebird:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T205119Z" creationid="Марианна" creationdate="20210203T205119Z">
+        <seg>&lt;x1/&gt;Remote&lt;x2/&gt;: connection with the use of the Firebird server.</seg>
       </tuv>
     </tu>
     <tu>
