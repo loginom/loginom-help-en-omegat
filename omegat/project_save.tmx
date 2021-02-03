@@ -22621,6 +22621,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметр пустой, то по умолчанию используется &lt;x3/&gt;1433&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213517Z" creationid="Марианна" creationdate="20210203T213517Z">
+        <seg>If the parameter is null, &lt;x3/&gt;1433&lt;x4/&gt; is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
@@ -34569,8 +34577,16 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;host:1433:database1&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T151504Z" creationid="Марианна" creationdate="20210201T151504Z">
-        <seg>The following string format is used: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;host:1433:database1&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213350Z" creationid="Марианна" creationdate="20210201T151504Z">
+        <seg>The following string format is used: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, for example, &lt;x3/&gt;host:1433:database1&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат строки: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x3/&gt;&lt;x4/&gt;, например &lt;x5/&gt;host:1433:database1&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T213338Z" creationid="Марианна" creationdate="20210203T213338Z">
+        <seg>The following string format is used: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x3/&gt;&lt;x4/&gt;, for example, &lt;x5/&gt;host:1433:database1&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
