@@ -59,5 +59,5 @@ The following parameters are set during the connection setup:
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/SQLite);
 * [Manufacturer official website](https://sqlite.org)
-* [Документация по SQL синтаксису](https://sqlite.org/lang.html);
+* [SQL Syntax Documentation](https://sqlite.org/lang.html);
 * [Информация по PRAGMA](https://sqlite.org/pragma.html).
