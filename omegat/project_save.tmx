@@ -8437,6 +8437,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информация по PRAGMA&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204602Z" creationid="Марианна" creationdate="20210203T204602Z">
+        <seg>&lt;x1/&gt;PRAGMA Information&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исключать одиночные наборы&lt;x2/&gt; — исключает наборы из одного элемента;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T195924Z" creationid="Марианна" creationdate="20201208T195924Z">
@@ -10645,6 +10653,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204658Z" creationid="Марианна" creationdate="20210203T204658Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль приватного ключа&lt;x2/&gt; — пароль приватного ключа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T121652Z" creationid="Марианна" creationdate="20210118T121652Z">
@@ -12740,6 +12756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T150759Z" creationid="Марианна" creationdate="20210201T150759Z">
         <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the SQL server host.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сервер&lt;x2/&gt; — хост сервера Firebird.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204630Z" creationid="Марианна" creationdate="20210203T204630Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the Firebird server host.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18167,6 +18191,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без учета регистра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204418Z" creationid="Марианна" creationdate="20210203T204418Z">
+        <seg>Case-insensitive.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T200541Z" creationid="Марианна" creationdate="20201212T210411Z">
@@ -19513,6 +19545,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194628Z" creationid="Марианна" creationdate="20201215T194628Z">
         <seg>Event probabillity|Prediction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Версии 3.0 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204443Z" creationid="Марианна" creationdate="20210203T204443Z">
+        <seg>Versions 3.0 and higher.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31831,6 +31871,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T190158Z" creationid="Марианна" creationdate="20201020T190158Z">
         <seg>Examples and documents related to the usage of the CommonJS modules are described in the following article: &lt;x7/&gt;JavaScript: Import of External Modules&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С учетом регистра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204407Z" creationid="Марианна" creationdate="20210203T204407Z">
+        <seg>Case-sensitive.</seg>
       </tuv>
     </tu>
     <tu>
