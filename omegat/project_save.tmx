@@ -3340,6 +3340,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение Oracle</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T064130Z" creationid="Марианна" creationdate="20210203T064130Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to Oracle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
@@ -20861,6 +20869,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для Oracle — двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T064113Z" creationid="Марианна" creationdate="20210203T064113Z">
+        <seg>Double quotes are used for Oracle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;Добавление строки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142912Z" creationid="Марианна" creationdate="20201117T085219Z">
@@ -23877,6 +23893,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T175308Z" creationid="Марианна" creationdate="20210121T175304Z">
         <seg>Clients.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Клиенты: 12c, 11g, 10g, 9i, 8i, 8.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T064039Z" creationid="Марианна" creationdate="20210203T064039Z">
+        <seg>Clients: 12c, 11g, 10g, 9i, 8i, 8.0</seg>
       </tuv>
     </tu>
     <tu>
@@ -31735,6 +31759,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T175326Z" creationid="Марианна" creationdate="20210121T175326Z">
         <seg>Servers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Серверы: 12c, 11g, 10g, 9i, 8i, 8.0, включая Oracle Express Edition 11g и 10g</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T064057Z" creationid="Марианна" creationdate="20210203T064057Z">
+        <seg>Servers: 12c, 11g, 10g, 9i, 8i, 8.0, including Oracle Express Edition 11g and 10g</seg>
       </tuv>
     </tu>
     <tu>
