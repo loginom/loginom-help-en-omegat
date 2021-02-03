@@ -5244,6 +5244,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Instance&lt;x2/&gt; — Oracle Database Instance (SID), содержащий необходимые данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T065123Z" creationid="Марианна" creationdate="20210203T065123Z">
+        <seg>&lt;x1/&gt;Instance&lt;x2/&gt; means Oracle Database Instance (SID) that contains the required data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
@@ -5456,6 +5464,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T155248Z" creationid="Марианна" creationdate="20210201T155248Z">
         <seg>&lt;x1/&gt;Port/Shared Memory&lt;x2/&gt; means the TCP port used by the DBMS server to provide interaction with the client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Port&lt;x2/&gt; — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T065055Z" creationid="Марианна" creationdate="20210203T065055Z">
+        <seg>&lt;x1/&gt;Port&lt;x2/&gt; means the TCP port used by the DBMS server to provide interaction with the client.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34083,6 +34099,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T064738Z" creationid="Марианна" creationdate="20210203T064738Z">
         <seg>The string connection format is defined by the used driver (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат строки при использовании встроенного драйвера: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;Instance&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T065023Z" creationid="Марианна" creationdate="20210203T065023Z">
+        <seg>The string format when the inbox driver is used is as follows: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;Instance&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
