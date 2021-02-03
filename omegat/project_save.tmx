@@ -13564,8 +13564,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — настраивается в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x3/&gt;уточнить&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T210938Z" creationid="Марианна" creationdate="20210203T210938Z">
-        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called by clicking on &lt;x3/&gt;define&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220840Z" creationid="Марианна" creationdate="20210203T210938Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called by clicking on &lt;x3/&gt;to be defined&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13580,8 +13580,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — настраивается как в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x3/&gt;уточнить&lt;x4/&gt;, так и вводом параметров вручную.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T213110Z" creationid="Марианна" creationdate="20210203T213110Z">
-        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called both by clicking on &lt;x3/&gt;define&lt;x4/&gt; button, and by entering the parameters manually.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220847Z" creationid="Марианна" creationdate="20210203T213110Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called both by clicking on &lt;x3/&gt;to be defined&lt;x4/&gt; button, and by entering the parameters manually.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26195,8 +26195,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нажав на кнопку &lt;x9/&gt;уточнить&lt;x10/&gt; откроется окно &lt;x11/&gt;Список значений&lt;x12/&gt; (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T203232Z" creationid="Марианна" creationdate="20200829T203055Z">
-        <seg>By pressing the &lt;x9/&gt;redefine&lt;x10/&gt; button, the &lt;x11/&gt;List of values&lt;x12/&gt; window will be opened (refer to the information</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T221026Z" creationid="Марианна" creationdate="20200829T203055Z">
+        <seg>By pressing the &lt;x9/&gt;to be defined&lt;x10/&gt; button, the &lt;x11/&gt;List of values&lt;x12/&gt; window will be opened (refer to the information</seg>
       </tuv>
     </tu>
     <tu>
@@ -28511,8 +28511,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Первый вариант с выводом отдельного окна, вызываемом при клике мышью по кнопке &lt;x1/&gt;уточнить&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T213250Z" creationid="Марианна" creationdate="20210203T213250Z">
-        <seg>The first option with a separate window called when clicking on &lt;x1/&gt;define&lt;x2/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220856Z" creationid="Марианна" creationdate="20210203T213250Z">
+        <seg>The first option with a separate window called when clicking on &lt;x1/&gt;to be defined&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
