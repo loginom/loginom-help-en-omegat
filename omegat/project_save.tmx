@@ -8109,6 +8109,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импорт XML&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T203554Z" creationid="Марианна" creationdate="20210203T203554Z">
+        <seg>&lt;x1/&gt;XML Import&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185317Z" creationid="Марианна" creationdate="20200810T184425Z">
@@ -9113,6 +9121,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T152701Z" creationid="Марианна" creationdate="20210121T152701Z">
         <seg>&lt;x1/&gt;Login&lt;x2/&gt; is not used for connection to Microsoft Access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин при подключении к SQLite не используется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T203755Z" creationid="Марианна" creationdate="20210203T203755Z">
+        <seg>&lt;x1/&gt;Login&lt;x2/&gt; is not used for connection to SQLite.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14308,6 +14324,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T090756Z" creationid="Марианна" creationdate="20200918T090756Z">
         <seg>&lt;x1/&gt;Escape tabs and line breaks in attributes&lt;x2/&gt;: replacement of tab characters in attributes of the output file to &lt;x3/&gt;&lt;x4/&gt;&amp;#x9;&lt;x5/&gt;&lt;x6/&gt; and line feed character to &lt;x7/&gt;&lt;x8/&gt;&amp;#xA;&lt;x9/&gt;&lt;x10/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт XML&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T203606Z" creationid="Марианна" creationdate="20210203T203606Z">
+        <seg>&lt;x1/&gt;XML Export&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27287,6 +27311,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082805Z" creationid="Марианна" creationdate="20201030T082805Z">
         <seg>Description of Enumerations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Описание узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T203707Z" creationid="Марианна" creationdate="20210203T203707Z">
+        <seg>Node Description</seg>
       </tuv>
     </tu>
     <tu>
