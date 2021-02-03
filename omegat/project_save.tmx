@@ -11445,6 +11445,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примеры написания строк подключения к разным источникам данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T063803Z" creationid="Марианна" creationdate="20210203T063803Z">
+        <seg>&lt;x1/&gt;Examples of writing of connection strings for different data sources&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120038Z" creationid="Марианна" creationdate="20210118T120038Z">
@@ -12476,6 +12484,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T111230Z" creationid="Марианна" creationdate="20201126T111230Z">
         <seg>&lt;x1/&gt;Given time variations and seasonality of the reference data&lt;x2/&gt;: it is applied for ungrouping of the data time series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сайт с описанием правил и примеров написания строк подключения&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T063647Z" creationid="Марианна" creationdate="20210203T063647Z">
+        <seg>&lt;x1/&gt;Site with rules and examples of connection string writing&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
