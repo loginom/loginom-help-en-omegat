@@ -12554,8 +12554,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Российская СУБД (Postgres Pro), разработанная на основе свободно-распространяемой СУБД PostgreSQL&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T071017Z" creationid="Марианна" creationdate="20210203T071017Z">
-        <seg>&lt;x1/&gt;The Russian DBMS (Postgres Pro) based on freeware DBMS PostgreSQL&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T071116Z" creationid="Марианна" creationdate="20210203T071017Z">
+        <seg>&lt;x1/&gt;The Russian DBMS (Postgres Pro) based on free open-source DBMS PostgreSQL&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
