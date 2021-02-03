@@ -5004,6 +5004,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;&lt;x3/&gt;&lt;x4/&gt;, где
+&lt;x5/&gt;ServerName&lt;x6/&gt; — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214513Z" creationid="Марианна" creationdate="20210203T214513Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;&lt;x3/&gt;&lt;x4/&gt; where
+&lt;x5/&gt;ServerName&lt;x6/&gt;: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;Удалить все...&lt;x4/&gt; — удаляет все дочерние узлы (комбинация горячих клавиш &lt;x5/&gt;Shift+Delete&lt;x6/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075302Z" creationid="Марианна" creationdate="20201001T161039Z">
@@ -34591,10 +34601,26 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат строки при использовании встроенного драйвера может иметь вид:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214633Z" creationid="Марианна" creationdate="20210203T214633Z">
+        <seg>The string format when the inbox driver is used can relate to the following kind:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат строки при использовании встроенного драйвера: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;Instance&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T065023Z" creationid="Марианна" creationdate="20210203T065023Z">
         <seg>The string format when the inbox driver is used is as follows: &lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;Instance&gt;&lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат строки при использовании клиента СУБД:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214404Z" creationid="Марианна" creationdate="20210203T214404Z">
+        <seg>The string format when DBMS client is used is as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -35915,6 +35941,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062840Z" creationid="Марианна" creationdate="20201116T062840Z">
         <seg>from 40 to 80</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>параметр &lt;x3/&gt;Не использовать клиент СУБД&lt;x4/&gt; ниже):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214350Z" creationid="Марианна" creationdate="20210203T214350Z">
+        <seg>&lt;x3/&gt;Do not use DBMS client&lt;x4/&gt; parameter below):</seg>
       </tuv>
     </tu>
     <tu>
