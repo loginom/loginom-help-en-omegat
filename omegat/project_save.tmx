@@ -34079,6 +34079,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат строки подключения определяется используемым драйвером (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T064738Z" creationid="Марианна" creationdate="20210203T064738Z">
+        <seg>The string connection format is defined by the used driver (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port/Shared Memory&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;localhost:3306:database1&lt;x4/&gt;, а при использовании Shared-Memory возможно такое написание &lt;x5/&gt;localhost:MYSQL:database1&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T154255Z" creationid="Марианна" creationdate="20210201T153605Z">
