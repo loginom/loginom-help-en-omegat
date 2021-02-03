@@ -10645,6 +10645,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — указывается пароль, установленный пользователем БД для защиты данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T203842Z" creationid="Марианна" creationdate="20210203T203842Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt;: the password set by the DB user is specified for data protection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Первый сценарий&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185016Z" creationid="Марианна" creationdate="20200810T154859Z">
@@ -10929,6 +10937,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T154912Z" creationid="Марианна" creationdate="20201013T154912Z">
         <seg>&lt;x1/&gt;By own value&lt;x2/&gt;: only factors with own values equal or exceeding 1 are selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;По умолчанию&lt;x2/&gt; используется режим FULL (Полный).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204124Z" creationid="Марианна" creationdate="20210203T204124Z">
+        <seg>In the case of &lt;x1/&gt;Default&lt;x2/&gt;, the FULL mode is used.</seg>
       </tuv>
     </tu>
     <tu>
