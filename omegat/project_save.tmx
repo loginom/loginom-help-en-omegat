@@ -9981,6 +9981,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормальный&lt;x2/&gt; (NORMAL).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204202Z" creationid="Марианна" creationdate="20210203T204202Z">
+        <seg>&lt;x1/&gt;Normal&lt;x2/&gt; (NORMAL).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область выбора варианта извлечения данных из БД&lt;x2/&gt; — содержит две вкладки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T110232Z" creationid="Марианна" creationdate="20200824T155612Z">
@@ -10073,6 +10081,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T055322Z" creationid="Марианна" creationdate="20200916T112624Z">
         <seg>&lt;x1/&gt;Update existing table records&lt;x2/&gt; enables to select the key field by which records will be updated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обнуление заголовка&lt;x2/&gt; (PERSIST).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204307Z" creationid="Марианна" creationdate="20210203T204307Z">
+        <seg>&lt;x1/&gt;Persist&lt;x2/&gt; (PERSIST).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10317,6 +10333,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отключена&lt;x2/&gt; (OFF).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204143Z" creationid="Марианна" creationdate="20210203T204143Z">
+        <seg>&lt;x1/&gt;Off&lt;x2/&gt; (OFF).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отключено&lt;x2/&gt; — кэширование не будет производится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T072218Z" creationid="Марианна" creationdate="20201016T072218Z">
@@ -10473,6 +10497,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113028Z" creationid="Марианна" creationdate="20200916T112117Z">
         <seg>&lt;x1/&gt;Clear table and fill in data&lt;x2/&gt; enables to clear the database table completely and fill in with rows of the exported table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Очистка содержимого&lt;x2/&gt; (TRUNCATE).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204255Z" creationid="Марианна" creationdate="20210203T204255Z">
+        <seg>&lt;x1/&gt;Truncate&lt;x2/&gt; (TRUNCATE).</seg>
       </tuv>
     </tu>
     <tu>
@@ -11185,6 +11217,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192609Z" creationid="Марианна" creationdate="20200810T192609Z">
         <seg>&lt;x1/&gt;Full join&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Полный&lt;x2/&gt; (FULL).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204207Z" creationid="Марианна" creationdate="20210203T204207Z">
+        <seg>&lt;x1/&gt;Full&lt;x2/&gt; (FULL).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13704,6 +13744,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удаление файла&lt;x2/&gt; (DELETE).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204244Z" creationid="Марианна" creationdate="20210203T204244Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; (DELETE).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить ветвь&lt;x2/&gt; — удалить ветвь;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074101Z" creationid="Марианна" creationdate="20200924T074101Z">
@@ -13884,6 +13932,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185141Z" creationid="Марианна" creationdate="20200810T182527Z">
         <seg>&lt;x1/&gt;Control variables&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Упреждающая запись&lt;x2/&gt; (WAL).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204343Z" creationid="Марианна" creationdate="20210203T204343Z">
+        <seg>&lt;x1/&gt;Write-ahead log&lt;x2/&gt; (WAL).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14216,6 +14272,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хранение в памяти&lt;x2/&gt; (MEMORY).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204320Z" creationid="Марианна" creationdate="20210203T204320Z">
+        <seg>&lt;x1/&gt;Memory&lt;x2/&gt; (MEMORY).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123159Z" creationid="Марианна" creationdate="20200825T113716Z">
@@ -14372,6 +14436,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T091350Z" creationid="Марианна" creationdate="20201117T091300Z">
         <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt; provides export of the replacement table to the text file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экстра&lt;x2/&gt; (EXTRA).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204213Z" creationid="Марианна" creationdate="20210203T204213Z">
+        <seg>&lt;x1/&gt;Extra&lt;x2/&gt; (EXTRA).</seg>
       </tuv>
     </tu>
     <tu>
@@ -18083,6 +18155,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T215700Z" creationid="Марианна" creationdate="20201216T214631Z">
         <seg>No hidden layers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Без учета регистра ASCII символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T204355Z" creationid="Марианна" creationdate="20210203T204355Z">
+        <seg>Case-insensitive ASCII characters.</seg>
       </tuv>
     </tu>
     <tu>
