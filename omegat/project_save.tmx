@@ -2036,6 +2036,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>32-разрядные:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T062928Z" creationid="Марианна" creationdate="20210203T062928Z">
+        <seg>32 bit:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>33,8</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212335Z" creationid="Марианна" creationdate="20201012T212335Z">
@@ -2328,6 +2336,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212052Z" creationid="Марианна" creationdate="20201012T212052Z">
         <seg>64,6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>64-разрядные:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T062938Z" creationid="Марианна" creationdate="20210203T062938Z">
+        <seg>64 bit:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32295,6 +32311,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193929Z" creationid="Марианна" creationdate="20201004T193929Z">
         <seg>List of Expressions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список драйверов ODBC, для которых предусмотрено использование строки подключения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T063115Z" creationid="Марианна" creationdate="20210203T063115Z">
+        <seg>List of ODBC drivers for which it is recommended to use the connection string:</seg>
       </tuv>
     </tu>
     <tu>
