@@ -5860,6 +5860,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;wh-oracle&lt;x2/&gt; Подключение к Deductor Warehouse &lt;x3/&gt;Oracle&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214055Z" creationid="Марианна" creationdate="20210203T214055Z">
+        <seg>&lt;x1/&gt;wh-oracle&lt;x2/&gt; Connection to Deductor Warehouse &lt;x3/&gt;Oracle&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;y&lt;x2/&gt; или &lt;x3/&gt;yy&lt;x4/&gt; — год, 2 цифры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083446Z" creationid="Марианна" creationdate="20200918T083446Z">
@@ -11817,6 +11825,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T091956Z" creationid="Марианна" creationdate="20200818T100839Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; &lt;x3/&gt;Show/hide property inspector&lt;x4/&gt; button is always located in the far right position on the toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; На компьютере пользователя должен быть установлен клиент СУБД той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214023Z" creationid="Марианна" creationdate="20210203T214023Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to install DBMS client on the user computer with the same bitness as the Loginom application/server bitness.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23965,6 +23981,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T212942Z" creationid="Марианна" creationdate="20210203T212942Z">
         <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Database based on MS SQL Server DBMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к Хранилищу данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД Oracle.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214159Z" creationid="Марианна" creationdate="20210203T214159Z">
+        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД Oracle.</seg>
       </tuv>
     </tu>
     <tu>
