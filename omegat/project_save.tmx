@@ -13392,6 +13392,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — настраивается в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x3/&gt;уточнить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T210938Z" creationid="Марианна" creationdate="20210203T210938Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is set in a separate window that can be called by clicking on &lt;x3/&gt;define&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — настраивается как в отдельном окне, которое вызывается при клике мышью по кнопке &lt;x3/&gt; &lt;x4/&gt;, так и вводом параметров вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T175832Z" creationid="Марианна" creationdate="20210121T175832Z">
@@ -23893,6 +23901,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T070404Z" creationid="Марианна" creationdate="20210203T070404Z">
         <seg>It is used for connection to the PostgreSQL database and its operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к Хранилищу данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД Firebird.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T205601Z" creationid="Марианна" creationdate="20210203T205601Z">
+        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Database based on Firebird DBMS.</seg>
       </tuv>
     </tu>
     <tu>
