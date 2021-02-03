@@ -5566,6 +5566,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;SID&lt;x2/&gt; — уникальное имя образца БД (System ID).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T215151Z" creationid="Марианна" creationdate="20210203T215151Z">
+        <seg>&lt;x1/&gt;SID&lt;x2/&gt; is a unique name of the DB example (System ID).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;SOAP-запрос&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060227Z" creationid="Марианна" creationdate="20200812T060227Z">
@@ -5618,6 +5626,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T151551Z" creationid="Марианна" creationdate="20210201T151551Z">
         <seg>&lt;x1/&gt;ServerName&lt;x2/&gt;: the DBMS server host.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ServiceName&lt;x2/&gt; — псевдоним для одной или нескольких образцов БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T215315Z" creationid="Марианна" creationdate="20210203T215315Z">
+        <seg>&lt;x1/&gt;ServiceName&lt;x2/&gt; means the alias of one or several DB examples.</seg>
       </tuv>
     </tu>
     <tu>
