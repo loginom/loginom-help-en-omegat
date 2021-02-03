@@ -11871,6 +11871,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Если используется клмент СУБД, то он должен быть той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T215524Z" creationid="Марианна" creationdate="20210203T215524Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; If DBMS client is used, it must be with the same bitness as the Loginom application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Замена по точному совпадению имеет приоритет перед заменой по регулярному выражению.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092225Z" creationid="Марианна" creationdate="20201117T092133Z">
