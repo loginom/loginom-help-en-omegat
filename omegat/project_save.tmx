@@ -23971,24 +23971,24 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Используется для подключения к Хранилищу данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД Firebird.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T205601Z" creationid="Марианна" creationdate="20210203T205601Z">
-        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Database based on Firebird DBMS.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214214Z" creationid="Марианна" creationdate="20210203T205601Z">
+        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Data Warehouse based on Firebird DBMS.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Используется для подключения к Хранилищу данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД MS SQL Server.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T212942Z" creationid="Марианна" creationdate="20210203T212942Z">
-        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Database based on MS SQL Server DBMS.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214232Z" creationid="Марианна" creationdate="20210203T212942Z">
+        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Data Warehouse based on MS SQL Server DBMS.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Используется для подключения к Хранилищу данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД Oracle.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T214159Z" creationid="Марианна" creationdate="20210203T214159Z">
-        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД Oracle.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214315Z" creationid="Марианна" creationdate="20210203T214159Z">
+        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Data Warehouse based on Oracle DBMS.</seg>
       </tuv>
     </tu>
     <tu>
