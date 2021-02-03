@@ -33223,6 +33223,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Там же содержится информация об установленных в системе драйверах и можно узнать формат строки подключения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T061655Z" creationid="Марианна" creationdate="20210203T061655Z">
+        <seg>It also contains information on the drivers installed in the system, and it is possible to define the connection string format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тамбовская обл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212308Z" creationid="Марианна" creationdate="20201012T212000Z">
