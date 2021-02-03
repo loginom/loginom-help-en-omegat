@@ -15034,6 +15034,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Basic;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220121Z" creationid="Марианна" creationdate="20210203T220121Z">
+        <seg>Basic;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Books JOIN Publisher ON Books.PubId = Pub.Id</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112830Z" creationid="Марианна" creationdate="20200825T112830Z">
@@ -15174,6 +15182,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
         <seg>Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Digest;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220125Z" creationid="Марианна" creationdate="20210203T220125Z">
+        <seg>Digest;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15626,6 +15642,22 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>NTLM;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220128Z" creationid="Марианна" creationdate="20210203T220128Z">
+        <seg>NTLM;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Negotiate.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220135Z" creationid="Марианна" creationdate="20210203T220135Z">
+        <seg>Negotiate.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>None</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083055Z" creationid="Марианна" creationdate="20201030T083055Z">
@@ -15712,6 +15744,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084205Z" creationid="Марианна" creationdate="20201009T084205Z">
         <seg>PackageVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Passport;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220132Z" creationid="Марианна" creationdate="20210203T220132Z">
+        <seg>Passport;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19771,6 +19811,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T154222Z" creationid="Марианна" creationdate="20210201T154222Z">
         <seg>When parameters are manually entered, it is required to provide the colon separated parameters in the string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Веб-сервисы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220013Z" creationid="Марианна" creationdate="20210203T220013Z">
+        <seg>Web Services</seg>
       </tuv>
     </tu>
     <tu>
