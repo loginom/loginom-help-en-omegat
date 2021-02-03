@@ -8901,6 +8901,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Краткая документация по SQL синтаксису&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070109Z" creationid="Марианна" creationdate="20210203T070109Z">
+        <seg>&lt;x1/&gt;Brief SQL Syntax Documentation&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Критерий Вальда&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135442Z" creationid="Марианна" creationdate="20201210T135442Z">
