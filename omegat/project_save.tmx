@@ -9951,6 +9951,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — для SQLite этот параметр не доступен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220820Z" creationid="Марианна" creationdate="20210203T220820Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: this parameter is not available for SQLite.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — для подключений ODBC эта опция не используется;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T062102Z" creationid="Марианна" creationdate="20210203T062102Z">
@@ -13598,6 +13606,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T064239Z" creationid="Марианна" creationdate="20210203T064239Z">
         <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is a string used by the driver for connection to the required database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — указывается путь к файлу БД, содержащей необходимые данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220622Z" creationid="Марианна" creationdate="20210203T220622Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt;: the path to the DB file containing the required data is specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21487,6 +21503,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для SQLite — двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220733Z" creationid="Марианна" creationdate="20210203T220733Z">
+        <seg>Double quotes are used for SQLite.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;Добавление строки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142912Z" creationid="Марианна" creationdate="20201117T085219Z">
@@ -28401,6 +28425,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152356Z" creationid="Марианна" creationdate="20210111T121015Z">
         <seg>Parameters can be manually entered, or it is possible to press the following button: &lt;x3/&gt; &lt;x4/&gt; to calll window &lt;x5/&gt;Select Information Base&lt;x6/&gt; that provides the following connection options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Открыть файл&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220721Z" creationid="Марианна" creationdate="20210203T220721Z">
+        <seg>Parameters can be manually entered, or it is possible to press the following button &lt;x3/&gt; &lt;x4/&gt; to call window &lt;x5/&gt;Open file&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
