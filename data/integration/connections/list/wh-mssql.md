@@ -14,7 +14,7 @@ The following parameters are set during the connection setup:
       * **Database** is a name of the database that includes the required data.
    * When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string. Формат строки: **`<ServerName>:<Port>:<DatabaseName>`**, например `host:1433:database1`.
       * **ServerName**: the DBMS server host.
-      * **Port** — порт TCP, используемый сервером СУБД для взаимодействия с клиентом. Если параметр пустой, то по умолчанию используется `1433`.
+      * **Port** means the TCP port used by the DBMS server to provide interaction with the client. Если параметр пустой, то по умолчанию используется `1433`.
       * **DatabaseName** is a name of the database that includes the required data.
 * **Протестировать подключение** — проверка возможности подключения при заданных настройках.
 * **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.

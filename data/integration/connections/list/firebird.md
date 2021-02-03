@@ -38,4 +38,4 @@ Starting from Firebird 2.5 and higher.
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Firebird);
 * [Manufacturer official website](https://firebirdsql.org/);
-* [SQL Syntax Documents](https://www.firebirdsql.org/file/documentation/reference_manuals/fblangref25-en/html/fblangref25-dml.html).
+* [SQL Syntax Documentation](https://www.firebirdsql.org/file/documentation/reference_manuals/fblangref25-en/html/fblangref25-dml.html).
