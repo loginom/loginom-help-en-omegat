@@ -32275,6 +32275,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список источников вызывается при клике мышью по кнопке &lt;x3/&gt; &lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T060634Z" creationid="Марианна" creationdate="20210203T060634Z">
+        <seg>List of the sources is called by clickong on &lt;x3/&gt; &lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список меток (названий) входных полей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T134458Z" creationid="Марианна" creationdate="20201210T134458Z">
