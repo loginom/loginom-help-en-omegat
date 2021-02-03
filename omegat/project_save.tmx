@@ -12552,6 +12552,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Российская СУБД (Postgres Pro), разработанная на основе свободно-распространяемой СУБД PostgreSQL&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T071017Z" creationid="Марианна" creationdate="20210203T071017Z">
+        <seg>&lt;x1/&gt;The Russian DBMS (Postgres Pro) based on freeware DBMS PostgreSQL&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;С разделителями&lt;x2/&gt; — значения полей в исходном файле отделяются символом, заданным параметром &lt;x3/&gt;Разделитель столбцов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161804Z" creationid="Марианна" creationdate="20200917T161804Z">
