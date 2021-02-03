@@ -35375,6 +35375,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>параметр &lt;x3/&gt;Не использовать клиент СУБД&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T064800Z" creationid="Марианна" creationdate="20210203T064800Z">
+        <seg>&lt;x3/&gt;Do not use DBMS client&lt;x4/&gt; parameter).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>параметр &lt;x7/&gt;Точность&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T093250Z" creationid="Марианна" creationdate="20201117T093250Z">
