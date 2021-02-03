@@ -8511,6 +8511,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Информация по Oracle Database в русском разделе википедии&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214845Z" creationid="Марианна" creationdate="20210203T214845Z">
+        <seg>&lt;x1/&gt;Information on Oracle Database in the Russian section in Wikipedia&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Информация по PRAGMA&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204602Z" creationid="Марианна" creationdate="20210203T204602Z">
@@ -10563,6 +10571,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T213704Z" creationid="Марианна" creationdate="20210203T213704Z">
         <seg>&lt;x1/&gt;Official website of MS SQL Server manufacturer&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Официальный сайт производителя Oracle Database&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214920Z" creationid="Марианна" creationdate="20210203T214920Z">
+        <seg>&lt;x1/&gt;Official website of Oracle Database manufacturer&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26605,6 +26621,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T213555Z" creationid="Марианна" creationdate="20210203T213555Z">
         <seg>Starting from Microsoft SQL Server 2000 and higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Начиная с версии Oracle Database 9i и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214821Z" creationid="Марианна" creationdate="20210203T214821Z">
+        <seg>Starting from Oracle Database 9i and higher.</seg>
       </tuv>
     </tu>
     <tu>
