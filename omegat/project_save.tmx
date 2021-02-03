@@ -3372,6 +3372,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение набора XSD-схем</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220217Z" creationid="Марианна" creationdate="20210203T220217Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection of XSD Schemas Set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение — порт для установки подключения к базе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110801Z" creationid="Марианна" creationdate="20200916T110801Z">
@@ -24227,6 +24235,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется для подключения к файлам &lt;x1/&gt;XSD-схем&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220255Z" creationid="Марианна" creationdate="20210203T220255Z">
+        <seg>It is used for connection to the &lt;x1/&gt;XSD schemas&lt;x2/&gt; files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется для подключения к файлу Microsoft Excel как к базе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T151724Z" creationid="Марианна" creationdate="20210118T151724Z">
@@ -24855,6 +24871,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110126Z" creationid="Марианна" creationdate="20200818T110126Z">
         <seg>The context menu commands enable to collapse/expand all nodes in the properties tree simultaneously.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Команды списка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220422Z" creationid="Марианна" creationdate="20210203T220422Z">
+        <seg>Listed commands:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32817,6 +32841,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T213610Z" creationid="Марианна" creationdate="20201012T213610Z">
         <seg>It contains the source table to which factors fields are added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит параметры подключения к списку (набору) файлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T220353Z" creationid="Марианна" creationdate="20210203T220353Z">
+        <seg>It contains parameters of connection to the list (set) of files.</seg>
       </tuv>
     </tu>
     <tu>
