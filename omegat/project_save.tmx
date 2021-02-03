@@ -20797,6 +20797,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для ODBC символы обрамляющих кавычек определяются автоматически;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T062022Z" creationid="Марианна" creationdate="20210203T062022Z">
+        <seg>The framing quotes characters are automatically defined for ODBC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;Добавление строки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142912Z" creationid="Марианна" creationdate="20201117T085219Z">
