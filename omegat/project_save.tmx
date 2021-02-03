@@ -6108,6 +6108,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для обмена данными с сервером используется кодировка UTF16.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T065936Z" creationid="Марианна" creationdate="20210203T065936Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; UTF16 encoding is used for data exchange with the server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Для работы узла требуется предварительно создать &lt;x3/&gt;Подключение&lt;x4/&gt; к &lt;x5/&gt;Хранилищу данных&lt;x6/&gt; и связать его с входным портом &lt;x7/&gt;Подключение&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T133331Z" creationid="Марианна" creationdate="20200827T193329Z">
