@@ -7647,16 +7647,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Документация по SQL синтаксису&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T091014Z" creationid="Марианна" creationdate="20210121T091014Z">
-        <seg>&lt;x1/&gt;SQL Syntax Documents&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070158Z" creationid="Марианна" creationdate="20210121T091014Z">
+        <seg>&lt;x1/&gt;SQL Syntax Documentation&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Документация по SQL синтаксису&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T090451Z" creationid="Марианна" creationdate="20210121T090451Z">
-        <seg>&lt;x1/&gt;SQL Syntax Documents&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070150Z" creationid="Марианна" creationdate="20210121T090451Z">
+        <seg>&lt;x1/&gt;SQL Syntax Documentation&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11105,6 +11105,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201835Z" creationid="Марианна" creationdate="20200829T201752Z">
         <seg>&lt;x1/&gt;Field&lt;x2/&gt; is the same as the &lt;x3/&gt;Parameter&lt;x4/&gt; in the &lt;x5/&gt;Available items&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Полная документация по SQL синтаксису&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070141Z" creationid="Марианна" creationdate="20210203T070141Z">
+        <seg>&lt;x1/&gt;Full SQL Syntax Documentation&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
