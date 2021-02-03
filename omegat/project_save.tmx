@@ -12208,6 +12208,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Протестировать подключение&lt;x2/&gt; — проверка возможности подключения при заданных настройках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T211156Z" creationid="Марианна" creationdate="20210203T211156Z">
+        <seg>&lt;x1/&gt;Test connection&lt;x2/&gt;: connectivity test with the specified settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Протестировать подключение&lt;x2/&gt; — тест указанных настроек подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122739Z" creationid="Марианна" creationdate="20210111T122739Z">
@@ -29095,6 +29103,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T082754Z" creationid="Марианна" creationdate="20210121T082754Z">
         <seg>Two connection types are supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддерживается два типа подключения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T210947Z" creationid="Марианна" creationdate="20210203T210947Z">
+        <seg>Two connection types are supported:</seg>
       </tuv>
     </tu>
     <tu>
