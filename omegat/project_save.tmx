@@ -18919,6 +18919,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В списке выводятся доступные источники данных ODBC.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T060709Z" creationid="Марианна" creationdate="20210203T060709Z">
+        <seg>The available ODBC data sources are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В столбцы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104224Z" creationid="Марианна" creationdate="20201006T104224Z">
@@ -25691,6 +25699,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T200353Z" creationid="Марианна" creationdate="20201210T132825Z">
         <seg>Configure input columns;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка источников осуществляется в &lt;x5/&gt;администраторе источников данных ODBC Windows&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T061114Z" creationid="Марианна" creationdate="20210203T061114Z">
+        <seg>The sources are configured in &lt;x5/&gt;ODBC Windows data sources administrator&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
