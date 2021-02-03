@@ -5852,6 +5852,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;wh-mssql&lt;x2/&gt; Подключение к Deductor Warehouse &lt;x3/&gt;MS SQL&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T212841Z" creationid="Марианна" creationdate="20210203T212841Z">
+        <seg>&lt;x1/&gt;wh-mssql&lt;x2/&gt; Connection to Deductor Warehouse &lt;x3/&gt;MS SQL&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;y&lt;x2/&gt; или &lt;x3/&gt;yy&lt;x4/&gt; — год, 2 цифры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083446Z" creationid="Марианна" creationdate="20200918T083446Z">
@@ -23917,6 +23925,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T205601Z" creationid="Марианна" creationdate="20210203T205601Z">
         <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Database based on Firebird DBMS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения к Хранилищу данных &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, основанному на СУБД MS SQL Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T212942Z" creationid="Марианна" creationdate="20210203T212942Z">
+        <seg>It is used for connection to the &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; Database based on MS SQL Server DBMS.</seg>
       </tuv>
     </tu>
     <tu>
