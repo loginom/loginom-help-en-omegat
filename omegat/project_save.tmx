@@ -3348,6 +3348,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение PostgreSQL</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070345Z" creationid="Марианна" creationdate="20210203T070345Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to PostgreSQL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
@@ -12640,6 +12648,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сервер&lt;x2/&gt; — хост сервера PostgreSQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070433Z" creationid="Марианна" creationdate="20210203T070433Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the PostgreSQL server host.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сертификат CA&lt;x2/&gt; — путь к файлу с корневым сертификатом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T121914Z" creationid="Марианна" creationdate="20210118T121914Z">
@@ -20933,6 +20949,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для PostgreSQL — двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070529Z" creationid="Марианна" creationdate="20210203T070529Z">
+        <seg>Double quotes are used for PostgreSQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;Добавление строки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142912Z" creationid="Марианна" creationdate="20201117T085219Z">
@@ -23573,6 +23597,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T082445Z" creationid="Марианна" creationdate="20210121T082445Z">
         <seg>It is used for connection to the Firebird database and its operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для подключения и работы с базой данных PostgreSQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070404Z" creationid="Марианна" creationdate="20210203T070404Z">
+        <seg>It is used for connection to the PostgreSQL database and its operation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34159,6 +34191,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;192.168.0.180:5432:postgres&lt;x4/&gt;, где.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070458Z" creationid="Марианна" creationdate="20210203T070458Z">
+        <seg>The string format is as follows: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, for example, &lt;x3/&gt;192.168.0.180:5432:postgres&lt;x4/&gt;, where</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат строки: &lt;x1/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;DatabaseName&gt;&lt;x2/&gt;, например &lt;x3/&gt;host:1433:database1&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T151504Z" creationid="Марианна" creationdate="20210201T151504Z">
@@ -34891,6 +34931,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145816Z" creationid="Марианна" creationdate="20201111T145816Z">
         <seg>August</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в Loginom для PostgreSQL всегда используется встроенный драйвер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T070623Z" creationid="Марианна" creationdate="20210203T070623Z">
+        <seg>the inbox driver is always used for PostgreSQL in Loginom.</seg>
       </tuv>
     </tu>
     <tu>
