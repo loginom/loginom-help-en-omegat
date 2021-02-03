@@ -17951,6 +17951,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В 64-разрядных ОС используются два администратора источников данных ODBC 32-разрядный C:\Windows\SysWOW64\odbcad32.exe и 64-разрядный C:\Windows\System32\odbcad32.exe.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T062914Z" creationid="Марианна" creationdate="20210203T062914Z">
+        <seg>Two ODBC data sources administrators are used in 64 bit OS - 32 bit C:\Windows\SysWOW64\odbcad32.exe and 64 bit C:\Windows\System32\odbcad32.exe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;x1/&gt;Подмодели&lt;x2/&gt; можно реализовать произвольную логику обработки и задать необходимую структуру входных и выходных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143824Z" creationid="Марианна" creationdate="20200920T143824Z">
