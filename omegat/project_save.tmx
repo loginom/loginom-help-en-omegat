@@ -5004,12 +5004,28 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;SID&gt;&lt;x3/&gt;&lt;x4/&gt; либо</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214640Z" creationid="Марианна" creationdate="20210203T214640Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;:&lt;Port&gt;:&lt;SID&gt;&lt;x3/&gt;&lt;x4/&gt; or</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;&lt;x3/&gt;&lt;x4/&gt;, где
 &lt;x5/&gt;ServerName&lt;x6/&gt; — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T214513Z" creationid="Марианна" creationdate="20210203T214513Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;&lt;x3/&gt;&lt;x4/&gt; where
 &lt;x5/&gt;ServerName&lt;x6/&gt;: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;[:&lt;Port&gt;]/&lt;Service_name&gt;&lt;x3/&gt;&lt;x4/&gt;, где:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T214656Z" creationid="Марианна" creationdate="20210203T214656Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;ServerName&gt;[:&lt;Port&gt;]/&lt;Service_name&gt;&lt;x3/&gt;&lt;x4/&gt; where:</seg>
       </tuv>
     </tu>
     <tu>
