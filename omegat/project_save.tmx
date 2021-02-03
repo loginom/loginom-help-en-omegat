@@ -22021,6 +22021,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если драйвер не находится в данном списке, то настроить подключение к нему возможно только через выбор уже настроенного источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T063412Z" creationid="Марианна" creationdate="20210203T063412Z">
+        <seg>If the driver is not listed, it is possible to set up a connection to it only by selecting already configured data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если же на вход подана таблица, то поле обозначает не одно значение, а целую колонку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T083140Z" creationid="Марианна" creationdate="20200924T083140Z">
@@ -32349,7 +32357,7 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Список источников вызывается при клике мышью по кнопке &lt;x3/&gt; &lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T060634Z" creationid="Марианна" creationdate="20210203T060634Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210203T063201Z" creationid="Марианна" creationdate="20210203T060634Z">
         <seg>List of the sources is called by clickong on &lt;x3/&gt; &lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
@@ -32397,7 +32405,7 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Список предустановленных в ОС Windows драйверов ODBC:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T062510Z" creationid="Марианна" creationdate="20210203T062510Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210203T063230Z" creationid="Марианна" creationdate="20210203T062510Z">
         <seg>List of ODBC drivers preinstalled in Windows OS:</seg>
       </tuv>
     </tu>
