@@ -11509,6 +11509,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения необходима установка драйвера ODBC той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T062248Z" creationid="Марианна" creationdate="20210203T062248Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection, it is required to install ODBC driver with the same bitness as the Loginom application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения​к базе данных необходима установка толстого клиента 1С той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210115T134324Z" creationid="Марианна" creationdate="20210115T134126Z">
@@ -32351,6 +32359,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141208Z" creationid="Марианна" creationdate="20201115T141208Z">
         <seg>It is possible to filter the list of fields specifying the field name or caption in the filter area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список предустановленных в ОС Windows драйверов ODBC:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210203T062510Z" creationid="Марианна" creationdate="20210203T062510Z">
+        <seg>List of ODBC drivers preinstalled in Windows OS:</seg>
       </tuv>
     </tu>
     <tu>
