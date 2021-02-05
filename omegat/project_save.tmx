@@ -9543,6 +9543,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод&lt;x2/&gt; — выбирается один из HTTP-методов, используемых при отправке запросов к сервису:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T115016Z" creationid="Марианна" creationdate="20210205T115016Z">
+        <seg>&lt;x1/&gt;Method&lt;x2/&gt;: one of HTTP methods used while request sending to the service is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Методом Drag-and-drop&lt;x2/&gt; — перетащить метку поля на элемент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163831Z" creationid="Марианна" creationdate="20200918T095141Z">
