@@ -28437,6 +28437,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры GET запроса — задается перечень параметров GET запроса, их имена и типы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T115851Z" creationid="Марианна" creationdate="20210205T115851Z">
+        <seg>GET request parameters: a list of GET request parameters, their names and data types are set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры Пакета, в котором используется Производный компонент:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084348Z" creationid="Марианна" creationdate="20201009T084348Z">
