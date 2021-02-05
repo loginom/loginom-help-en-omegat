@@ -23127,6 +23127,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задаются параметры подключения, запроса и ответа REST-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T114107Z" creationid="Марианна" creationdate="20210205T114107Z">
+        <seg>Parameters of connection, request and response of REST service are set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задаются следующие настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T200715Z" creationid="Марианна" creationdate="20200921T200715Z">
