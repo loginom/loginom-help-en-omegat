@@ -5278,6 +5278,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;GET&lt;x2/&gt; — при выборе данного метода доступны следующие настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T115059Z" creationid="Марианна" creationdate="20210205T115059Z">
+        <seg>&lt;x1/&gt;GET&lt;x2/&gt;: when selecting this method, the following settings are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Get(row, col)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145012Z" creationid="Марианна" creationdate="20201102T145012Z">
@@ -34229,6 +34237,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144617Z" creationid="Марианна" creationdate="20201207T144617Z">
         <seg>Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип Content-type ответа — узел REST-запрос, использующий данное подключение, проверяет тип ответа на соответствие заявленному в данном параметре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T115422Z" creationid="Марианна" creationdate="20210205T115422Z">
+        <seg>Type of the Content-type response: the REST request node that uses this connection checks the response type for consistency with the data specified in this parameter.</seg>
       </tuv>
     </tu>
     <tu>
