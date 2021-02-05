@@ -5686,6 +5686,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;URL сервиса&lt;x2/&gt; — задается адрес отправки запросов к REST-сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T114924Z" creationid="Марианна" creationdate="20210205T114924Z">
+        <seg>&lt;x1/&gt;Service URL&lt;x2/&gt;: address of request sending to REST service is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;XML-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185333Z" creationid="Марианна" creationdate="20200810T184536Z">
@@ -20811,6 +20819,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175809Z" creationid="Марианна" creationdate="20201022T175809Z">
         <seg>Output data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выходные данные подключения используются узлом &lt;x1/&gt;REST-запрос&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T114213Z" creationid="Марианна" creationdate="20210205T114213Z">
+        <seg>The output connection data is used by the &lt;x1/&gt;REST Request&lt;x2/&gt; node.</seg>
       </tuv>
     </tu>
     <tu>
