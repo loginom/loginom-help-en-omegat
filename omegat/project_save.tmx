@@ -21095,6 +21095,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данная проверка не осуществляется, если параметр имеет значение &lt;x1/&gt;*/*&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T115638Z" creationid="Марианна" creationdate="20210205T115638Z">
+        <seg>This test is not performed in the case of the following parameter value:&lt;x1/&gt;*/*&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данная страница содержит следующие команды для манипуляции с &lt;x1/&gt;пакетами&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T132711Z" creationid="Марианна" creationdate="20200814T105248Z">
@@ -30889,6 +30897,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T150924Z" creationid="Марианна" creationdate="20210201T150924Z">
         <seg>If it is necessary, the named instance of SQL server is specified using "".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При несоответствии типов выходной набор этого узла будет содержать сообщение об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210205T115528Z" creationid="Марианна" creationdate="20210205T115528Z">
+        <seg>If the types are inconsistent, the output data set of this node will contain an error message.</seg>
       </tuv>
     </tu>
     <tu>
