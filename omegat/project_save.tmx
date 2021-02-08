@@ -13994,6 +13994,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Токен OAuth&lt;x2/&gt; — поле становится активным, если выбран тип &lt;x3/&gt;Токен OAuth&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T083250Z" creationid="Марианна" creationdate="20210208T083250Z">
+        <seg>&lt;x1/&gt;OAuth token&lt;x2/&gt;: the field becomes active is &lt;x3/&gt;OAuth token&lt;x4/&gt; type is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Точек отсутствия для прекращения позиции&lt;x2/&gt; — если позиция отсутствует в ряду указанное число точек, то она исключается из прогноза.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T101503Z" creationid="Марианна" creationdate="20201127T101503Z">
