@@ -3286,8 +3286,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение Firebird</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T082340Z" creationid="Марианна" creationdate="20210121T082340Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to Firebird</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132559Z" creationid="Марианна" creationdate="20210121T082340Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Firebird Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -3310,8 +3310,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS Excel</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T151645Z" creationid="Марианна" creationdate="20210118T151645Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MS Excel</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132527Z" creationid="Марианна" creationdate="20210118T151645Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; MS Excel Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -3374,8 +3374,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение набора XSD-схем</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T220217Z" creationid="Марианна" creationdate="20210203T220217Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection of XSD Schemas Set</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132324Z" creationid="Марианна" creationdate="20210203T220217Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; XSD Schemas Set Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -11241,24 +11241,40 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение Deductor Warehouse [Firebird]&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215740Z" creationid="Марианна" creationdate="20210203T215740Z">
-        <seg>&lt;x1/&gt;Connection of Deductor Warehouse [Firebird]&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132405Z" creationid="Марианна" creationdate="20210203T215740Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse [Firebird] Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение Deductor Warehouse [MS SQL]&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215746Z" creationid="Марианна" creationdate="20210203T215746Z">
-        <seg>&lt;x1/&gt;Connection of Deductor Warehouse [MS SQL]&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132418Z" creationid="Марианна" creationdate="20210203T215746Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse [MS SQL] Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение Deductor Warehouse [Oracle]&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215753Z" creationid="Марианна" creationdate="20210203T215753Z">
-        <seg>&lt;x1/&gt;Connection of Deductor Warehouse [Oracle]&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132500Z" creationid="Марианна" creationdate="20210203T215753Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse [Oracle] Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение Firebird&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132603Z" creationid="Марианна" creationdate="20210208T132603Z">
+        <seg>&lt;x1/&gt;Firebird Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение MS Excel&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132538Z" creationid="Марианна" creationdate="20210208T132538Z">
+        <seg>&lt;x1/&gt;MS Excel Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11273,8 +11289,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение набора XSD-схем&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215710Z" creationid="Марианна" creationdate="20210203T215710Z">
-        <seg>&lt;x1/&gt;Connection of XSD schemas set&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132329Z" creationid="Марианна" creationdate="20210203T215710Z">
+        <seg>&lt;x1/&gt;XSD Schemas Set Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
