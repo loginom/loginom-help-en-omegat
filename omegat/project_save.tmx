@@ -10055,6 +10055,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не требуется&lt;x2/&gt; — при выборе этого пункта Loginom не проводит авторизацию при подключении к сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T120843Z" creationid="Марианна" creationdate="20210208T120843Z">
+        <seg>&lt;x1/&gt;Not required&lt;x2/&gt;: when selecting this option, Loginom does not perform authorization when connecting to the service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Неделя.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T055214Z" creationid="Марианна" creationdate="20201119T055214Z">
