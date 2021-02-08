@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Delete % — удалить подключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204052Z" creationid="Марианна" creationdate="20210208T204052Z">
+        <seg>%kbd Delete % — delete connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Delete % — удалить;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T194954Z" creationid="Марианна" creationdate="20200827T194855Z">
