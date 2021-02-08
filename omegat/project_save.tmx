@@ -2988,6 +2988,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удаляет выделенную позицию в списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T140250Z" creationid="Марианна" creationdate="20210208T140250Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the selected list item position.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T054902Z" creationid="Марианна" creationdate="20200823T121119Z">
