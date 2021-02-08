@@ -23319,6 +23319,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Затем в таблице под списком выбирается используемый для авторизации сертификат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T085329Z" creationid="Марианна" creationdate="20210208T085329Z">
+        <seg>Then it is required to select the certificate used for authorization in the table below the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Затирка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175158Z" creationid="Марианна" creationdate="20201022T175158Z">
