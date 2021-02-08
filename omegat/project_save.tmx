@@ -24635,6 +24635,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использует для авторизации пароль заданный пользователем при его регистрации в системе SOAP-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T195608Z" creationid="Марианна" creationdate="20210208T195608Z">
+        <seg>The password set by a user during his registration in the SOAP service system is used for authorization.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется для импорта данных из текстовых файлов c разделителями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T064616Z" creationid="Марианна" creationdate="20200826T064616Z">
