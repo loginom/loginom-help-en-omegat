@@ -11743,6 +11743,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Предоставить сертификат клиента&lt;x2/&gt; — выбирается для авторизации по SSL посредством сертификата.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T115126Z" creationid="Марианна" creationdate="20210208T115126Z">
+        <seg>&lt;x1/&gt;Provide client certificate&lt;x2/&gt; is selected for SSL authorization using the certificate.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Предпросмотр&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065441Z" creationid="Марианна" creationdate="20200812T065441Z">
