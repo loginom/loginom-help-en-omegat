@@ -26849,6 +26849,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, авторизация через социальные сети.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T201357Z" creationid="Марианна" creationdate="20210208T201357Z">
+        <seg>For example, authorization via social networks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, вещественную переменную можно заменить целочисленной или строковой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202832Z" creationid="Марианна" creationdate="20201006T202832Z">
