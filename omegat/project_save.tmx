@@ -8367,6 +8367,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя пользователя и пароль&lt;x2/&gt; — выбирается если SOAP-сервис для работы требует авторизацию по имени/паролю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194247Z" creationid="Марианна" creationdate="20210208T194247Z">
+        <seg>&lt;x1/&gt;Username and password&lt;x2/&gt; is selected if authorization by name/password is required by SOAP service for work.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя пользователя и пароль&lt;x2/&gt; — выбирается, если требуется авторизация по имени/паролю.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T115933Z" creationid="Марианна" creationdate="20210208T115933Z">
@@ -10154,6 +10162,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt;Не требуется&lt;x2/&gt; — при выборе этого пункта Loginom не проводит авторизацию при подключении к сервису.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T120843Z" creationid="Марианна" creationdate="20210208T120843Z">
+        <seg>&lt;x1/&gt;Not required&lt;x2/&gt;: when selecting this option, Loginom does not perform authorization when connecting to the service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Не требуется&lt;x2/&gt; — при выборе этого пункта, Loginom не проводит авторизацию при подключении к сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194147Z" creationid="Марианна" creationdate="20210208T194147Z">
         <seg>&lt;x1/&gt;Not required&lt;x2/&gt;: when selecting this option, Loginom does not perform authorization when connecting to the service.</seg>
       </tuv>
     </tu>
@@ -14150,6 +14166,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T080908Z" creationid="Марианна" creationdate="20201214T080908Z">
         <seg>&lt;x1/&gt;Test&lt;x2/&gt; denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип авторизации&lt;x2/&gt; — представляет выпадающий список с вариантами авторизации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194124Z" creationid="Марианна" creationdate="20210208T194124Z">
+        <seg>&lt;x1/&gt;Authorization Type&lt;x2/&gt; provides a drop-down list with authorization options.</seg>
       </tuv>
     </tu>
     <tu>
