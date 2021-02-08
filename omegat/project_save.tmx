@@ -27051,8 +27051,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Необходимо выбрать один из узлов, выходные данные которого требуется получить в текущем месте сценария.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T102137Z" creationid="Марианна" creationdate="20200919T102137Z">
-        <seg>It is required to select one of the nodes output data of which are to be received in the current workflow location.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T084259Z" creationid="Марианна" creationdate="20200919T102137Z">
+        <seg>It is required to select one of the nodes the output data of which is to be received in the current workflow location.</seg>
       </tuv>
     </tu>
     <tu>
