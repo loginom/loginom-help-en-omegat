@@ -22559,6 +22559,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступен как выбор из списка предопределенных значений, так и ввод произвольного значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T125531Z" creationid="Марианна" creationdate="20210208T125531Z">
+        <seg>It is allowed both to select from the list of predefined values, and to enter a random value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступно для типа события &lt;x1/&gt;Задано явно&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195502Z" creationid="Марианна" creationdate="20201215T195502Z">
@@ -34405,6 +34413,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T125417Z" creationid="Марианна" creationdate="20210208T125417Z">
         <seg>Type of the Content-type request: the &lt;x1/&gt;Content-type&lt;x2/&gt; header value of HTTP request to REST service is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип Content-type ответа — то же, что и для GET метода (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T125637Z" creationid="Марианна" creationdate="20210208T125637Z">
+        <seg>Type of the Content-type response: the same as for GET method (refer to</seg>
       </tuv>
     </tu>
     <tu>
