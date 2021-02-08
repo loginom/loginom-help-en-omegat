@@ -14618,6 +14618,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хранилище сертификатов&lt;x2/&gt; — выпадающий список, который становится доступен при выборе &lt;x3/&gt;Предоставить сертификат клиента&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T083948Z" creationid="Марианна" creationdate="20210208T083948Z">
+        <seg>&lt;x1/&gt;Certificate store&lt;x2/&gt;: the drop-down list that will be available when selecting &lt;x3/&gt;Provide client certificate&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123159Z" creationid="Марианна" creationdate="20200825T113716Z">
