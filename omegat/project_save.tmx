@@ -22999,6 +22999,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметр равен нулю, то таймаут не ограничен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T124933Z" creationid="Марианна" creationdate="20210208T124933Z">
+        <seg>If this parameter is equal to 0, timeout is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
