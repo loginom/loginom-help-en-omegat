@@ -3278,8 +3278,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение ClickHouse</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210115T141231Z" creationid="Марианна" creationdate="20210115T141231Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to ClickHouse</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133054Z" creationid="Марианна" creationdate="20210115T141231Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; ClickHouse Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -3350,8 +3350,24 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение PostgreSQL</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T070345Z" creationid="Марианна" creationdate="20210203T070345Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to PostgreSQL</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132950Z" creationid="Марианна" creationdate="20210203T070345Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; PostgreSQL Connection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение SOAP-сервиса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133137Z" creationid="Марианна" creationdate="20210208T133137Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; SOAP Service Connection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение SQLite</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133025Z" creationid="Марианна" creationdate="20210208T133025Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; SQLite Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -3568,6 +3584,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075010Z" creationid="Марианна" creationdate="20201210T075010Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Supplementary input (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Подключение к SOAP-сервису (связь с компонентом &lt;x3/&gt;Подключение SOAP-сервиса&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133310Z" creationid="Марианна" creationdate="20210208T133310Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Connection to SOAP Service (connection with &lt;x3/&gt;SOAP Service Connection&lt;x4/&gt; component);</seg>
       </tuv>
     </tu>
     <tu>
@@ -11239,6 +11263,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение ClickHouse&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133100Z" creationid="Марианна" creationdate="20210208T133100Z">
+        <seg>&lt;x1/&gt;ClickHouse Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение Deductor Warehouse [Firebird]&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T132405Z" creationid="Марианна" creationdate="20210203T215740Z">
@@ -11315,6 +11347,46 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T132849Z" creationid="Марианна" creationdate="20210208T132849Z">
         <seg>&lt;x1/&gt;ODBC Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение Oracle&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132915Z" creationid="Марианна" creationdate="20210208T132915Z">
+        <seg>&lt;x1/&gt;Oracle Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение PostgreSQL&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132958Z" creationid="Марианна" creationdate="20210208T132958Z">
+        <seg>&lt;x1/&gt;PostgreSQL Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение SOAP-сервиса&lt;x2/&gt; (SOAP-сервис);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133203Z" creationid="Марианна" creationdate="20210208T133203Z">
+        <seg>&lt;x1/&gt;SOAP Service Connection&lt;x2/&gt; (SOAP service);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение SOAP-сервиса&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133145Z" creationid="Марианна" creationdate="20210208T133145Z">
+        <seg>&lt;x1/&gt;SOAP Service Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение SQLite&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133032Z" creationid="Марианна" creationdate="20210208T133032Z">
+        <seg>&lt;x1/&gt;SQLite Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20051,6 +20123,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220013Z" creationid="Марианна" creationdate="20210203T220013Z">
         <seg>Web Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Веб-сервисы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133107Z" creationid="Марианна" creationdate="20210208T133107Z">
+        <seg>Web Services:</seg>
       </tuv>
     </tu>
     <tu>
