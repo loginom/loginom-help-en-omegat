@@ -8825,8 +8825,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Источник WSDL&lt;x2/&gt; — в данном поле указывается URL или расположение (в файловом хранилище) WSDL-файла с описанием сервиса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T201606Z" creationid="Марианна" creationdate="20210208T201606Z">
-        <seg>&lt;x1/&gt;WSDL source&lt;x2/&gt;: URL or location (in file storage) of WSDL file with the service description is specified in this field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203051Z" creationid="Марианна" creationdate="20210208T201606Z">
+        <seg>&lt;x1/&gt;WSDL source&lt;x2/&gt;: URL or path (in file storage) of WSDL file with the service description is specified in this field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13006,6 +13006,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T210128Z" creationid="Марианна" creationdate="20201119T210128Z">
         <seg>&lt;x1/&gt;Drop-down lists of fields&lt;x2/&gt; are in each row of the mapping table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Расположение XSLT&lt;x2/&gt; — в данном поле указывается URL или расположение (в файловом хранилище) XSLT-файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203041Z" creationid="Марианна" creationdate="20210208T203041Z">
+        <seg>&lt;x1/&gt;XSLT path&lt;x2/&gt;: URL or path (in file storage) of XSLT file is specified in this field.</seg>
       </tuv>
     </tu>
     <tu>
