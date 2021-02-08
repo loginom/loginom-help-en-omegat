@@ -15570,6 +15570,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;виды данных&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T205348Z" creationid="Марианна" creationdate="20210208T205348Z">
+        <seg>&lt;x3/&gt;data kinds&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;типы данных&lt;x4/&gt;):</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105212Z" creationid="Марианна" creationdate="20201111T105212Z">
@@ -21787,6 +21795,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T151354Z" creationid="Марианна" creationdate="20210118T151323Z">
         <seg>It is required to take this feature of the ClickHouse DB into account when designing systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T205339Z" creationid="Марианна" creationdate="20210208T205339Z">
+        <seg>Data</seg>
       </tuv>
     </tu>
     <tu>
@@ -34725,6 +34741,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T083356Z" creationid="Марианна" creationdate="20201225T083300Z">
         <seg>It is also possible to set the upper and lower bounds of the activation function form limit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также для каждого подключения доступно контекстное меню:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T205324Z" creationid="Марианна" creationdate="20210208T205324Z">
+        <seg>The context menu is available for each connection:</seg>
       </tuv>
     </tu>
     <tu>
