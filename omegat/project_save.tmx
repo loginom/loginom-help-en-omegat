@@ -28677,6 +28677,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Панель инструментов диалога настройки содержит следующие команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T141013Z" creationid="Марианна" creationdate="20210208T141013Z">
+        <seg>The configuration dialog toolbar contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Панель инструментов и контекстное меню списка Входное дерево содержит команды:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113610Z" creationid="Марианна" creationdate="20201001T113610Z">
