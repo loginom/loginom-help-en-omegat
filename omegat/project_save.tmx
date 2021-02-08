@@ -14962,6 +14962,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хранилище сертификатов&lt;x2/&gt; — это выпадающий список, который становится доступен при выборе &lt;x3/&gt;Предоставить сертификат клиента&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T195824Z" creationid="Марианна" creationdate="20210208T195824Z">
+        <seg>&lt;x1/&gt;Certificate store&lt;x2/&gt;: the drop-down list that will be available when selecting &lt;x3/&gt;Provide client certificate&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Хранилище файлов&lt;x2/&gt; — выводит информацию о способе подключения к файлу-источнику.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T123159Z" creationid="Марианна" creationdate="20200825T113716Z">
@@ -18685,6 +18693,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205845Z" creationid="Марианна" creationdate="20201212T205845Z">
         <seg>Auto selection of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Авторизация для выполнения запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T195748Z" creationid="Марианна" creationdate="20210208T195748Z">
+        <seg>Authorization for Request Execution</seg>
       </tuv>
     </tu>
     <tu>
@@ -24071,6 +24087,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T084323Z" creationid="Марианна" creationdate="20201102T084323Z">
         <seg>The global &lt;x1/&gt;__filename&lt;x2/&gt; variable that keeps the absolute path to the module inside the file storage is available by the module.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Из списка выбирается одно из хранилищ сертификатов имеющихся в системе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T195853Z" creationid="Марианна" creationdate="20210208T195853Z">
+        <seg>One of the certificate stores available in the system is selected from the list.</seg>
       </tuv>
     </tu>
     <tu>
