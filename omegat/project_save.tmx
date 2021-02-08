@@ -3540,6 +3540,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Тестировать подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204131Z" creationid="Марианна" creationdate="20210208T204131Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Test connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Факторный анализ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T075516Z" creationid="Марианна" creationdate="20201012T075516Z">
@@ -15258,6 +15266,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;активировать&lt;x2/&gt; Активировать подключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204232Z" creationid="Марианна" creationdate="20210208T204232Z">
+        <seg>&lt;x1/&gt;activate&lt;x2/&gt; Activate connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;в столбцы&lt;x2/&gt; — каждой переменной будет соответствовать отдельное поле таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104005Z" creationid="Марианна" creationdate="20201006T103832Z">
@@ -15294,6 +15310,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204025Z" creationid="Марианна" creationdate="20200829T204025Z">
         <seg>&lt;x1/&gt;show&lt;x2/&gt; &lt;x3/&gt;Show&lt;x4/&gt; enables to define whether this item will be added in the form of a field to the output data set. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;доступ&lt;x2/&gt; Настроить модификатор доступа…;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204306Z" creationid="Марианна" creationdate="20210208T204306Z">
+        <seg>&lt;x1/&gt;access&lt;x2/&gt; Configure visibility…;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15338,6 +15362,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;настроить&lt;x2/&gt; Настроить подключение…;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204324Z" creationid="Марианна" creationdate="20210208T204324Z">
+        <seg>&lt;x1/&gt;configure&lt;x2/&gt; Configure connection…;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;не заменять&lt;x2/&gt; — замены производиться не будут.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203500Z" creationid="Марианна" creationdate="20201006T203500Z">
@@ -15350,6 +15382,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163111Z" creationid="Марианна" creationdate="20201006T163111Z">
         <seg>&lt;x1/&gt;Do not replace&lt;x2/&gt;: no replacement is performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;переименовать&lt;x2/&gt; Переименовать подключение…;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204344Z" creationid="Марианна" creationdate="20210208T204344Z">
+        <seg>&lt;x1/&gt;rename&lt;x2/&gt; Rename connection…;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15386,6 +15426,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;сортировать список&lt;x2/&gt; — сортировка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204435Z" creationid="Марианна" creationdate="20210208T204435Z">
+        <seg>&lt;x1/&gt;Sort list&lt;x2/&gt; — sorting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;точному совпадению&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T163444Z" creationid="Марианна" creationdate="20201006T163444Z">
@@ -15406,6 +15454,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090749Z" creationid="Марианна" creationdate="20210121T090749Z">
         <seg>&lt;x1/&gt;Remote&lt;x2/&gt;: connection with the use of the Interbase server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;удалить&lt;x2/&gt; Удалить подключение…;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204148Z" creationid="Марианна" creationdate="20210208T204148Z">
+        <seg>&lt;x1/&gt;delete&lt;x2/&gt; Delete connection…;</seg>
       </tuv>
     </tu>
     <tu>
