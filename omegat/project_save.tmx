@@ -18401,6 +18401,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Авторизация при выполнении запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T121304Z" creationid="Марианна" creationdate="20210208T121304Z">
+        <seg>Authorization for Request Execution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Адресная строка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T134742Z" creationid="Марианна" creationdate="20200813T134742Z">
