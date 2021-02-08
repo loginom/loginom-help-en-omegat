@@ -23215,6 +23215,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задают параметры авторизации пользователя при его регистрации в системе веб-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T115627Z" creationid="Марианна" creationdate="20210208T115627Z">
+        <seg>When registering in the web service system, parameters of user authorization are set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задаются параметры подключения, запроса и ответа REST-сервиса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210205T114107Z" creationid="Марианна" creationdate="20210205T114107Z">
