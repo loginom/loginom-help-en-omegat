@@ -8247,6 +8247,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Игнорировать ошибки SSL сертификата&lt;x2/&gt; — при подключении по SSL сертификат сервера может не пройти проверку по каким-то причинам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203530Z" creationid="Марианна" creationdate="20210208T203530Z">
+        <seg>&lt;x1/&gt;Ignore SSL certificate errors&lt;x2/&gt;: when SSL connecting, the server certificate can fail the test due to some reasons.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Игнорировать ошибки&lt;x2/&gt; — флаг отключает прерывание выполнения цикла при обнаружении ошибок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204524Z" creationid="Марианна" creationdate="20200921T204524Z">
