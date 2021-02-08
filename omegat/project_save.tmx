@@ -15266,6 +15266,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;активировать подключение&lt;x2/&gt; — активировать подключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204713Z" creationid="Марианна" creationdate="20210208T204713Z">
+        <seg>&lt;x1/&gt;Activate connection&lt;x2/&gt; — Activate connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;активировать&lt;x2/&gt; Активировать подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204232Z" creationid="Марианна" creationdate="20210208T204232Z">
@@ -15486,6 +15494,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204148Z" creationid="Марианна" creationdate="20210208T204148Z">
         <seg>&lt;x1/&gt;delete&lt;x2/&gt; Delete connection…;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;фильтровать список&lt;x2/&gt; — фильтрация по группам/меткам/пути подключения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204802Z" creationid="Марианна" creationdate="20210208T204802Z">
+        <seg>&lt;x1/&gt;Filter list&lt;x2/&gt; — filtering by groups/captions/path of connection;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32401,6 +32417,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T211217Z" creationid="Марианна" creationdate="20201012T211217Z">
         <seg>Let's perform the factor analysis of the small table that contains some statistical data by regions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проверить — тестировать подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204652Z" creationid="Марианна" creationdate="20210208T204652Z">
+        <seg>Check — test connection;</seg>
       </tuv>
     </tu>
     <tu>
