@@ -11031,6 +11031,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — поле становится активным если выбран тип &lt;x3/&gt;Имя пользователя и пароль&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194825Z" creationid="Марианна" creationdate="20210208T194825Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt;: the field becomes active if &lt;x3/&gt;Username and password&lt;x4/&gt; type is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — указывается пароль, установленный пользователем БД для защиты данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T203842Z" creationid="Марианна" creationdate="20210203T203842Z">
