@@ -15362,6 +15362,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;настроить модификатор доступа&lt;x2/&gt; — настроить &lt;x3/&gt;модификатор доступа&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204529Z" creationid="Марианна" creationdate="20210208T204529Z">
+        <seg>&lt;x1/&gt;Configure visibility&lt;x2/&gt; — configure &lt;x3/&gt;visibility&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;настроить подключение&lt;x2/&gt; — настроить подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204547Z" creationid="Марианна" creationdate="20210208T204547Z">
+        <seg>&lt;x1/&gt;Configure connection&lt;x2/&gt; — configure connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;настроить&lt;x2/&gt; Настроить подключение…;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204324Z" creationid="Марианна" creationdate="20210208T204324Z">
@@ -15454,6 +15470,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090749Z" creationid="Марианна" creationdate="20210121T090749Z">
         <seg>&lt;x1/&gt;Remote&lt;x2/&gt;: connection with the use of the Interbase server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;удалить подключение&lt;x2/&gt; — удалить подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204452Z" creationid="Марианна" creationdate="20210208T204452Z">
+        <seg>&lt;x1/&gt;Delete connection&lt;x2/&gt; — delete connection;</seg>
       </tuv>
     </tu>
     <tu>
