@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Alt G % — группировка списка;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204006Z" creationid="Марианна" creationdate="20210208T204006Z">
+        <seg>%kbd Alt G % — group list;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Alt P % — публикация.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T125805Z" creationid="Марианна" creationdate="20200816T140402Z">
@@ -58,6 +66,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T160251Z" creationid="Марианна" creationdate="20201025T160251Z">
         <seg>%kbd Ctrl / % — comment out/uncomment the code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Ctrl D % — фильтровать список;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204021Z" creationid="Марианна" creationdate="20210208T204021Z">
+        <seg>%kbd Ctrl D % — filter list;</seg>
       </tuv>
     </tu>
     <tu>
@@ -158,10 +174,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd Enter % — настроить подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204034Z" creationid="Марианна" creationdate="20210208T204034Z">
+        <seg>%kbd Enter % — configure connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd F2 % — Редактировать;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T084655Z" creationid="Марианна" creationdate="20201006T084655Z">
         <seg>%kbd F2 % means to edit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd F2 % — переименовать подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203937Z" creationid="Марианна" creationdate="20210208T203937Z">
+        <seg>%kbd F2 % — rename connection;</seg>
       </tuv>
     </tu>
     <tu>
@@ -174,10 +206,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%kbd F3 % — активировать подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203911Z" creationid="Марианна" creationdate="20210208T203911Z">
+        <seg>%kbd F3 % — activate connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%kbd Shift Delete % — удалить все;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T194949Z" creationid="Марианна" creationdate="20200827T194916Z">
         <seg>%kbd Shift Delete % means to delete all.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>%kbd Shift F3 % — тестировать подключение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203924Z" creationid="Марианна" creationdate="20210208T203924Z">
+        <seg>%kbd Shift F3 % — test connection;</seg>
       </tuv>
     </tu>
     <tu>
@@ -30105,6 +30153,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
         <seg>The subtask solved by the address check component can be applied both for data cleansing and scoring tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подключение можно создать двумя способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203850Z" creationid="Марианна" creationdate="20210208T203850Z">
+        <seg>Connection can be created in two ways:</seg>
       </tuv>
     </tu>
     <tu>
