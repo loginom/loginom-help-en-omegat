@@ -18937,6 +18937,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom имеется возможность подключаться к внешнему SOAP-сервису и импортировать полученные от него данные для дальнейшей обработки и анализа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194058Z" creationid="Марианна" creationdate="20210208T194058Z">
+        <seg>Loginom gives an opportunity to connect to the external SOAP service and import the data provided by it for further processing and analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom можно экспортировать данные в текстовый файл, XML-файл, электронные таблицы, внутренний формат программы, а также в базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110110Z" creationid="Марианна" creationdate="20200916T110110Z">
