@@ -9553,8 +9553,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Метод&lt;x2/&gt; — выбирается один из HTTP-методов, используемых при отправке запросов к сервису:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210205T115016Z" creationid="Марианна" creationdate="20210205T115016Z">
-        <seg>&lt;x1/&gt;Method&lt;x2/&gt;: one of HTTP methods used while request sending to the service is selected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T084621Z" creationid="Марианна" creationdate="20210205T115016Z">
+        <seg>&lt;x1/&gt;Method&lt;x2/&gt;: one of the HTTP methods used while request sending to the service is selected.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13668,8 +13668,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — указывается строка подключения в формате установленного в системе драйвера ODBC, либо выбирается один из настроенных в системе источников данных ODBC.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T060303Z" creationid="Марианна" creationdate="20210203T060303Z">
-        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt;: it is required to specify the connection string in the format set in the ODBC driver system, or it is possible to select one of ODBC data sources configured in the system.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T084522Z" creationid="Марианна" creationdate="20210203T060303Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt;: it is required to specify the connection string in the format set in the ODBC driver system, or it is possible to select one of the ODBC data sources configured in the system.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23669,8 +23669,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Из списка выбирается одно из хранилищ сертификатов, имеющихся в системе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T084209Z" creationid="Марианна" creationdate="20210208T084209Z">
-        <seg>One of certificate stores available in the system is selected from the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T084603Z" creationid="Марианна" creationdate="20210208T084209Z">
+        <seg>One of the certificate stores available in the system is selected from the list.</seg>
       </tuv>
     </tu>
     <tu>
