@@ -5518,6 +5518,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;POST&lt;x2/&gt; — при выборе данного метода доступны следующие настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T125009Z" creationid="Марианна" creationdate="20210208T125009Z">
+        <seg>&lt;x1/&gt;POST&lt;x2/&gt;: when selecting this method, the following settings are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Port/Shared Memory&lt;x2/&gt; — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T155248Z" creationid="Марианна" creationdate="20210201T155248Z">
@@ -34389,6 +34397,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144617Z" creationid="Марианна" creationdate="20201207T144617Z">
         <seg>Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип Content-type запроса — задается значение заголовка &lt;x1/&gt;Content-type&lt;x2/&gt; HTTP-запроса к REST-сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T125417Z" creationid="Марианна" creationdate="20210208T125417Z">
+        <seg>Type of the Content-type request: the &lt;x1/&gt;Content-type&lt;x2/&gt; header value of HTTP request to REST service is set.</seg>
       </tuv>
     </tu>
     <tu>
