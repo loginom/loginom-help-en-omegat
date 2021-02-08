@@ -6727,6 +6727,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Включить резервный источник WSDL&lt;x2/&gt; — при выставлении флажка в чекбоксе делает активным &lt;x3/&gt;Резервный источник WDSL&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T201835Z" creationid="Марианна" creationdate="20210208T201835Z">
+        <seg>&lt;x1/&gt;Enable reserve WSDL source&lt;x2/&gt;: when selecting this checkbox, &lt;x3/&gt;Reserve WSDL source&lt;x4/&gt; is enabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внешние диапазоны&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055150Z" creationid="Марианна" creationdate="20200812T055150Z">
@@ -8811,6 +8819,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T152958Z" creationid="Марианна" creationdate="20200917T152958Z">
         <seg>&lt;x1/&gt;True&lt;x2/&gt; is a text that represents the logical TRUE value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Источник WSDL&lt;x2/&gt; — в данном поле указывается URL или расположение (в файловом хранилище) WSDL-файла с описанием сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T201606Z" creationid="Марианна" creationdate="20210208T201606Z">
+        <seg>&lt;x1/&gt;WSDL source&lt;x2/&gt;: URL or location (in file storage) of WSDL file with the service description is specified in this field.</seg>
       </tuv>
     </tu>
     <tu>
