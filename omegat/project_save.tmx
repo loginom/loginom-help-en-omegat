@@ -8399,6 +8399,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя пользователя&lt;x2/&gt; — поле становится активным если выбран тип &lt;x3/&gt;Имя пользователя и пароль&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194506Z" creationid="Марианна" creationdate="20210208T194506Z">
+        <seg>&lt;x1/&gt;Username&lt;x2/&gt;: the field becomes active if &lt;x3/&gt;Username and password&lt;x4/&gt; type is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя таблицы&lt;x2/&gt; — задает имя таблицы, в которую планируется осуществить экспорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T111143Z" creationid="Марианна" creationdate="20200916T111143Z">
@@ -14286,6 +14294,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165009Z" creationid="Марианна" creationdate="20201111T165009Z">
         <seg>&lt;x1/&gt;Data types&lt;x2/&gt;: the column that contains information on the data type of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Токен OAuth&lt;x2/&gt; — выбирается при подключении к SOAP-сервису посредством протокола &lt;x3/&gt;OAuth&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194413Z" creationid="Марианна" creationdate="20210208T194413Z">
+        <seg>&lt;x1/&gt;OAuth token&lt;x2/&gt; is selected when connecting to SOAP service via &lt;x3/&gt;OAuth&lt;x4/&gt; protocol.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24599,6 +24615,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112203Z" creationid="Марианна" creationdate="20200825T112203Z">
         <seg>It is allowed to use parameters only in the &lt;x5/&gt;WHERE&lt;x6/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использует для авторизации имя заданное пользователем при его регистрации в системе SOAP-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T194735Z" creationid="Марианна" creationdate="20210208T194735Z">
+        <seg>The name set by a user during his registration in the SOAP service system is used for authorization.</seg>
       </tuv>
     </tu>
     <tu>
