@@ -19393,6 +19393,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В последующем, в узле вызова REST-сервиса этим параметрам задаются значения и формируется текст запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T130009Z" creationid="Марианна" creationdate="20210208T130009Z">
+        <seg>Subsequently, values are set for these parameters and the request text is generated in the node used for REST service calling.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В появившемся диалоговом окне будут следующие поля:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T185515Z" creationid="Марианна" creationdate="20200929T185515Z">
@@ -34419,8 +34427,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тип Content-type ответа — то же, что и для GET метода (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T125637Z" creationid="Марианна" creationdate="20210208T125637Z">
-        <seg>Type of the Content-type response: the same as for GET method (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T125648Z" creationid="Марианна" creationdate="20210208T125637Z">
+        <seg>Type of the Content-type response: the same as for GET method (refer to the information</seg>
       </tuv>
     </tu>
     <tu>
