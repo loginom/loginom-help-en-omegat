@@ -3358,8 +3358,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение к 1C:Предприятие 8.x</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T053637Z" creationid="Марианна" creationdate="20210111T053637Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to 1C:Enterprise 8.x</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132234Z" creationid="Марианна" creationdate="20210111T053637Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; 1C:Enterprise 8.x Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -11265,8 +11265,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение к 1C:Предприятие 8.x&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215632Z" creationid="Марианна" creationdate="20210203T215632Z">
-        <seg>&lt;x1/&gt;Connection to 1C:Enterprise 8.x&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132244Z" creationid="Марианна" creationdate="20210203T215632Z">
+        <seg>&lt;x1/&gt;1C:Enterprise 8.x Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34539,8 +34539,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Типы подключений</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215607Z" creationid="Марианна" creationdate="20210203T215607Z">
-        <seg>Types of connections</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132011Z" creationid="Марианна" creationdate="20210203T215607Z">
+        <seg>Types of Connections</seg>
       </tuv>
     </tu>
     <tu>
