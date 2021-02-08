@@ -29605,6 +29605,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживаются следующие типы авторизации по имени пользователя и паролю:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T115747Z" creationid="Марианна" creationdate="20210208T115747Z">
+        <seg>The following types of authorization by username and password are supported:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
