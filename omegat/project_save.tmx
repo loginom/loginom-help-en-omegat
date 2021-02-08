@@ -23667,6 +23667,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из списка выбирается одно из хранилищ сертификатов, имеющихся в системе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T084209Z" creationid="Марианна" creationdate="20210208T084209Z">
+        <seg>One of certificate stores available in the system is selected from the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из этого можно сделать вывод, что "Томатная паста" является сопутствующим товаром, а "Макароны" — заместителем товара "Спагетти".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T063059Z" creationid="Марианна" creationdate="20201012T063059Z">
