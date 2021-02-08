@@ -24835,6 +24835,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Используется для подключения к базе данных SQLite.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T203652Z" creationid="Марианна" creationdate="20210208T203652Z">
+        <seg>It is used for connection to the SQLite database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Используется для подключения к одному из источников данных &lt;x1/&gt;ODBC&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T113015Z" creationid="Марианна" creationdate="20210202T113015Z">
