@@ -9023,6 +9023,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Комментарий&lt;x2/&gt; — в этой форме можно оставить любую справочную информацию о подключении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T192734Z" creationid="Марианна" creationdate="20210208T192734Z">
+        <seg>&lt;x1/&gt;Comment&lt;x2/&gt;: it is possible to provide any reference data concerning connection in this form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты платформы Loginom&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T092015Z" creationid="Марианна" creationdate="20200813T092015Z">
@@ -28329,6 +28337,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
         <seg>They define configuration for work with external sources and data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Опции аналогичны настройкам &lt;x3/&gt;Тип авторизации&lt;x4/&gt; из &lt;x5/&gt;Параметры подключения&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T192844Z" creationid="Марианна" creationdate="20210208T192844Z">
+        <seg>Options are similar to &lt;x3/&gt;Authorization Type&lt;x4/&gt; settings from &lt;x5/&gt;Connection parameters&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
