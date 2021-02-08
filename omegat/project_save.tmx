@@ -8279,6 +8279,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя пользователя и пароль&lt;x2/&gt; — выбирается, если требуется авторизация по имени/паролю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T115933Z" creationid="Марианна" creationdate="20210208T115933Z">
+        <seg>&lt;x1/&gt;Username and password&lt;x2/&gt; is selected when authorization by name/password is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя пользователя, Пароль&lt;x2/&gt; — поле становится активным, если выбран тип &lt;x3/&gt;Имя пользователя и пароль&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T115312Z" creationid="Марианна" creationdate="20210208T115312Z">
