@@ -3588,6 +3588,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Подключение к REST-сервису (связь с компонентом &lt;x3/&gt;Подключение REST-сервиса&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133610Z" creationid="Марианна" creationdate="20210208T133610Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Connection to REST service (connection to &lt;x3/&gt;REST Service Connection&lt;x4/&gt; component);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Подключение к SOAP-сервису (связь с компонентом &lt;x3/&gt;Подключение SOAP-сервиса&lt;x4/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133310Z" creationid="Марианна" creationdate="20210208T133310Z">
@@ -4638,8 +4646,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Подключение REST-сервиса</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210205T113838Z" creationid="Марианна" creationdate="20210205T113838Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Connection of REST Service</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133439Z" creationid="Марианна" creationdate="20210205T113838Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; REST Service Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -11363,6 +11371,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T132958Z" creationid="Марианна" creationdate="20210208T132958Z">
         <seg>&lt;x1/&gt;PostgreSQL Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение REST-сервиса&lt;x2/&gt; (REST-сервис).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133504Z" creationid="Марианна" creationdate="20210208T133504Z">
+        <seg>&lt;x1/&gt;REST Service Connection&lt;x2/&gt; (REST service).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение REST-сервиса&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133447Z" creationid="Марианна" creationdate="20210208T133447Z">
+        <seg>&lt;x1/&gt;REST Service Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22315,6 +22339,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133103Z" creationid="Марианна" creationdate="20201210T133103Z">
         <seg>&lt;x1/&gt;Unspecified&lt;x2/&gt; is preserved for other fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для работы с SOAP-сервисом необходимо настроенное &lt;x1/&gt;подключение к SOAP-сервису&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T133326Z" creationid="Марианна" creationdate="20210208T133326Z">
+        <seg>Для работы с SOAP-сервисом необходимо настроенное &lt;x1/&gt;connection to SOAP-сервису&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
