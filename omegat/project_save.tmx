@@ -18705,6 +18705,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Авторизация осуществляется по протоколу OAuth, который позволяет выдать одному сервису (приложению) права на доступ к ресурсам пользователя на другом сервисе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T201216Z" creationid="Марианна" creationdate="20210208T201216Z">
+        <seg>The authorization process is implemented via OAuth protocol that grants rights to one service (application) to get access to the user resources available in another service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Авторизация при выполнении запроса</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T121304Z" creationid="Марианна" creationdate="20210208T121304Z">
