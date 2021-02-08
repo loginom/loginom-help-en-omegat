@@ -31229,6 +31229,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке подключения формируется список путей к файлам XSD-схем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T141529Z" creationid="Марианна" creationdate="20210208T141529Z">
+        <seg>During the connection setup a list of paths to the XSD schemas files is made.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При настройке порта возможно задать их перечень и значения по умолчанию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082243Z" creationid="Марианна" creationdate="20201009T082243Z">
