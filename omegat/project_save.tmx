@@ -3294,16 +3294,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение Interbase</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T090621Z" creationid="Марианна" creationdate="20210121T090621Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to Interbase</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132626Z" creationid="Марианна" creationdate="20210121T090621Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Interbase Connection</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS Access</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T091214Z" creationid="Марианна" creationdate="20210121T091214Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MS Access</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132659Z" creationid="Марианна" creationdate="20210121T091214Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; MS Access Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -3318,32 +3318,32 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MS SQL</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T175408Z" creationid="Марианна" creationdate="20210121T175408Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MS SQL</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132726Z" creationid="Марианна" creationdate="20210121T175408Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; MS SQL Connection</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение MySQL</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T153214Z" creationid="Марианна" creationdate="20210201T153214Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to MySQL</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132800Z" creationid="Марианна" creationdate="20210201T153214Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; MySQL Connection</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение ODBC</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210202T112930Z" creationid="Марианна" creationdate="20210202T112930Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to ODBC</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132836Z" creationid="Марианна" creationdate="20210202T112930Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; ODBC Connection</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение Oracle</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T064130Z" creationid="Марианна" creationdate="20210203T064130Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Connection to Oracle</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132907Z" creationid="Марианна" creationdate="20210203T064130Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Oracle Connection</seg>
       </tuv>
     </tu>
     <tu>
@@ -11271,10 +11271,50 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение Interbase&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132636Z" creationid="Марианна" creationdate="20210208T132636Z">
+        <seg>&lt;x1/&gt;Interbase Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение MS Access&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132704Z" creationid="Марианна" creationdate="20210208T132704Z">
+        <seg>&lt;x1/&gt;MS Access Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение MS Excel&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T132538Z" creationid="Марианна" creationdate="20210208T132538Z">
         <seg>&lt;x1/&gt;MS Excel Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение MS SQL&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132731Z" creationid="Марианна" creationdate="20210208T132731Z">
+        <seg>&lt;x1/&gt;MS SQL Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение MySQL&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132807Z" creationid="Марианна" creationdate="20210208T132807Z">
+        <seg>&lt;x1/&gt;MySQL Connection&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение ODBC&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T132849Z" creationid="Марианна" creationdate="20210208T132849Z">
+        <seg>&lt;x1/&gt;ODBC Connection&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
