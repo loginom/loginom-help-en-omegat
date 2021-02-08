@@ -2604,6 +2604,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавляет в список новый файл XSD-схемы, выбранный пользователем в диалоге выбора файла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T140841Z" creationid="Марианна" creationdate="20210208T140841Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new XSD schema file selected by a user in the file selection dialog to the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Другие действия&lt;x4/&gt; — вызывает контекстное меню с расширенным набором команд.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201206T154303Z" creationid="Марианна" creationdate="20201009T103602Z">
@@ -2976,6 +2984,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T071935Z" creationid="Марианна" creationdate="20201015T071935Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Delete all expressions&lt;x4/&gt; enables to delete all existing expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt; — удаляет все позиции списка;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T140432Z" creationid="Марианна" creationdate="20210208T140432Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt; enables to delete all list item positions.</seg>
       </tuv>
     </tu>
     <tu>
