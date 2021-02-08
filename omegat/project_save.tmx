@@ -15330,6 +15330,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;крупная плитка&lt;x2/&gt; — отображение в виде крупной плитки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T205128Z" creationid="Марианна" creationdate="20210208T205128Z">
+        <seg>&lt;x1/&gt;Large tiles&lt;x2/&gt; — large tiles view;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;локальное&lt;x2/&gt; — подключение без использования сервера Firebird, указывается только путь к БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T083326Z" creationid="Марианна" creationdate="20210121T082916Z">
@@ -15418,6 +15426,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;показать дерево&lt;x2/&gt; — показать дерево классов подключений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T204957Z" creationid="Марианна" creationdate="20210208T204957Z">
+        <seg>&lt;x1/&gt;Show tree&lt;x2/&gt; — show connection class tree;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;протокол&lt;x2/&gt; — протокол, используемый сервером для взаимодействия с клиентом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T083502Z" creationid="Марианна" creationdate="20210121T083502Z">
@@ -15450,10 +15466,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;скрыть дерево&lt;x2/&gt; — скрыть дерево классов подключений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T205024Z" creationid="Марианна" creationdate="20210208T205024Z">
+        <seg>&lt;x1/&gt;Hide tree&lt;x2/&gt; — hide connection class tree;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;сортировать список&lt;x2/&gt; — сортировка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204435Z" creationid="Марианна" creationdate="20210208T204435Z">
         <seg>&lt;x1/&gt;Sort list&lt;x2/&gt; — sorting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;таблица&lt;x2/&gt; — отображение в виде таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T205152Z" creationid="Марианна" creationdate="20210208T205152Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; — table view;</seg>
       </tuv>
     </tu>
     <tu>
