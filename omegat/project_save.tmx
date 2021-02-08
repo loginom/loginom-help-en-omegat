@@ -2500,6 +2500,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Переместить вверх/вниз&lt;x6/&gt; — изменяет позицию выделенного элемента списка;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210208T141709Z" creationid="Марианна" creationdate="20210208T141709Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Move up/down&lt;x6/&gt; enables to change the position of the selected list item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;JavaScript&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T085339Z" creationid="Марианна" creationdate="20201015T085339Z">
