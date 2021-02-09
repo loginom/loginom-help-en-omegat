@@ -23375,6 +23375,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если авторизация для выполнения запроса отличается от авторизации для получения WSDL, то необходимо снять флаг и настроить необходимые параметры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210209T162623Z" creationid="Марианна" creationdate="20210209T162623Z">
+        <seg>If the request authorization differs from the WSDL authorization, it is required to deselect the flag and set the required parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в качестве признака группы указываются уникальные идентификаторы строк входного набора, то такая группа будет содержать только одну строку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194341Z" creationid="Марианна" creationdate="20200921T194341Z">
