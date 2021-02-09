@@ -23431,6 +23431,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если данный флаг стоит, то ошибки из-за непроверенного сертификата игнорируются, иначе подключение не произойдет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210209T162019Z" creationid="Марианна" creationdate="20210209T162019Z">
+        <seg>If this flag is selected, errors caused by untested certificate are ignored, otherwise connection will not be established.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если драйвер не находится в данном списке, то настроить подключение к нему возможно только через выбор уже настроенного источника данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T063412Z" creationid="Марианна" creationdate="20210203T063412Z">
