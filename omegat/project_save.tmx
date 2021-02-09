@@ -14234,6 +14234,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таймаут обмена данными (мсек)&lt;x2/&gt; — максимальное время ожидания данных от сервера в миллисекундах, по истечении которого при отсутствии отклика обращение будет прервано со статусом ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210209T161133Z" creationid="Марианна" creationdate="20210209T161133Z">
+        <seg>&lt;x1/&gt;Data exchange timeout (ms)&lt;x2/&gt; means the maximum timeout of data wait from server expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Таймаут обмена данными (мсек)&lt;x2/&gt; — максимальное время, которое будет затрачено на отправку HTTP-запроса и получение ответа, по истечении которого обмен будет прерван со статусом ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T131036Z" creationid="Марианна" creationdate="20210208T131036Z">
