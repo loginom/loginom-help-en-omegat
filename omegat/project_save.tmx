@@ -6166,6 +6166,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Авторизация та же, что и для получения WSDL&lt;x2/&gt; — при выставлении флажка использует тех же параметры авторизации, что и при получении WSDL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210209T162156Z" creationid="Марианна" creationdate="20210209T162156Z">
+        <seg>&lt;x1/&gt;Authorization is the same as for WSDL&lt;x2/&gt;: when this flag is selected, the same authorization parameters are used as for WSDL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Агрегация&lt;x2/&gt; — содержит список методов &lt;x3/&gt;агрегации&lt;x4/&gt;, применимых к полям таблиц.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T075144Z" creationid="Марианна" creationdate="20200924T075144Z">
