@@ -5790,6 +5790,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt; — основной компонент платформы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222538Z" creationid="Марианна" creationdate="20210210T222538Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt; is the main platform component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ServerName&lt;x2/&gt; — хост сервера СУБД, для подключения по протоколу Shared Memory значение хоста должно быть &lt;x3/&gt;localhost&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T155158Z" creationid="Марианна" creationdate="20210201T155158Z">
@@ -12411,6 +12419,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092225Z" creationid="Марианна" creationdate="20201117T092133Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Replacement by exact match prevails over replacement by regular expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Инструменты работы с веб-сервисами доступны только в &lt;x3/&gt;серверных редакциях Loginom&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222431Z" creationid="Марианна" creationdate="20210210T222431Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The web service tools are available only in the &lt;x3/&gt;server Loginom editions&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21599,6 +21615,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выполняет задачи загрузки, расчетов, построения моделей, визуализации, управления правами и прочее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222923Z" creationid="Марианна" creationdate="20210210T222923Z">
+        <seg>It completes the loading, calculation, model training, visualisation, right management and other tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выполняются правила замены для значений, не найденных на предыдущих шагах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161148Z" creationid="Марианна" creationdate="20201006T161058Z">
@@ -24935,6 +24959,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
         <seg>Property Inspector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интеграция и работа с веб-сервисами требует наличия следующих компонентов платформы Loginom:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222523Z" creationid="Марианна" creationdate="20210210T222523Z">
+        <seg>The following Loginom platform components are required for web services integration and operation:</seg>
       </tuv>
     </tu>
     <tu>
