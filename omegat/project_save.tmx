@@ -21943,6 +21943,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный режим использует алгоритм шифрования AES256 и предусматривает использование пароля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T143837Z" creationid="Марианна" creationdate="20210210T143837Z">
+        <seg>AES256 encryption is used in this mode, and a password is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный способ присутствует в настройках, если на входной порт обработчика подаются данные внешней таблицы замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084852Z" creationid="Марианна" creationdate="20201117T084723Z">
