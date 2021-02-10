@@ -12303,6 +12303,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример подключения и работы с БД&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T224310Z" creationid="Марианна" creationdate="20210210T224310Z">
+        <seg>&lt;x1/&gt;Example of the DB connection and operation&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пример сценария.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092012Z" creationid="Марианна" creationdate="20200715T092012Z">
