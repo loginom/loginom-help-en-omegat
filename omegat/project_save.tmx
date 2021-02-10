@@ -13330,6 +13330,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим работы LIKE&lt;x2/&gt; — предлагается выбрать один из вариантов сравнения символов при использовании функции LIKE.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T220854Z" creationid="Марианна" creationdate="20210210T220854Z">
+        <seg>&lt;x1/&gt;LIKE Mode&lt;x2/&gt;: it is required to select one of the character collation options to use LIKE function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Режим синхронизации&lt;x2/&gt; — устанавливается режим синхронизации с файловой системой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T145512Z" creationid="Марианна" creationdate="20210210T145512Z">
@@ -19229,6 +19237,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194905Z" creationid="Марианна" creationdate="20201215T194905Z">
         <seg>No validation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Без задействований данной опции функции lower, upper работают только для букв латинского алфавита.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T220648Z" creationid="Марианна" creationdate="20210210T220648Z">
+        <seg>If this option is not enabled, lower, upper functions are available only for the Latin letters.</seg>
       </tuv>
     </tu>
     <tu>
