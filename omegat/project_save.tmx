@@ -35769,6 +35769,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Требуется для взаимодействия с нестандартными веб-сервисами, например, с бюро кредитных историй.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T224206Z" creationid="Марианна" creationdate="20210210T224206Z">
+        <seg>It is required for interaction with non-standard web services, for example, with credit reference bureau.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>У переменной может быть только одно значение, поэтому для его расчета к данным поля применяются различные &lt;x1/&gt;функции агрегации&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T183723Z" creationid="Марианна" creationdate="20201005T183723Z">
