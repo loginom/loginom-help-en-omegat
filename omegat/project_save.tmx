@@ -13682,6 +13682,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создавать БД, если не существует&lt;x2/&gt; — при установке флага, указанная в параметре &lt;x3/&gt;Строка подключения&lt;x4/&gt; база данных будет создана, если таковая не существует.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T221134Z" creationid="Марианна" creationdate="20210210T221134Z">
+        <seg>&lt;x1/&gt;Create DB if it doesn't exist&lt;x2/&gt;: when this flag is selected, the database specified in the &lt;x3/&gt;Connection string&lt;x4/&gt; parameter will be created if it doesn't exist.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание выхода&lt;x2/&gt; &lt;x3/&gt;Передавать на выход&lt;x4/&gt; — для выделенного входного порта будет создан порт выхода в каждой ветви.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T073523Z" creationid="Марианна" creationdate="20200924T073523Z">
@@ -28113,6 +28121,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T193850Z" creationid="Марианна" creationdate="20200921T193850Z">
         <seg>But if it is used, it is required to supply all rows of this data set (data sets) to the looped node input for each iteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Новая БД создается в кодировке UTF-16.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T221219Z" creationid="Марианна" creationdate="20210210T221219Z">
+        <seg>The new DB is created using UTF-16 encoding.</seg>
       </tuv>
     </tu>
     <tu>
