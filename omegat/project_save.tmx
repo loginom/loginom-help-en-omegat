@@ -13082,6 +13082,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Размер кэша&lt;x2/&gt; — устанавливает размер кэша.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T144428Z" creationid="Марианна" creationdate="20210210T144428Z">
+        <seg>&lt;x1/&gt;Cache size&lt;x2/&gt; enables to set the cache size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разность&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
