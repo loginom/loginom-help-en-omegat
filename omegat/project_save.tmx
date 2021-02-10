@@ -5998,6 +5998,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;lower, upper для UNICODE&lt;x2/&gt; — флаг расширяет действия функций lower, upper на все символы UNICODE.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T220532Z" creationid="Марианна" creationdate="20210210T220532Z">
+        <seg>&lt;x1/&gt;lower, upper for UNICODE&lt;x2/&gt;: the flag extends the effect of lower, upper functions for all UNICODE characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;m&lt;x2/&gt; — номер месяца без ведущего нуля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083139Z" creationid="Марианна" creationdate="20200918T083139Z">
