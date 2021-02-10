@@ -5454,6 +5454,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Integrator&lt;x2/&gt; — компонент, отвечающий за публикацию собственных веб-сервисов на основе созданных в Loginom пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223044Z" creationid="Марианна" creationdate="20210210T223044Z">
+        <seg>&lt;x1/&gt;Integrator&lt;x2/&gt; is a component responsible for publication of own web services based on the packages created in Loginom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
@@ -5726,6 +5734,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;REST-запрос&lt;x2/&gt; — REST-запрос.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223155Z" creationid="Марианна" creationdate="20210210T223155Z">
+        <seg>&lt;x1/&gt;REST request&lt;x2/&gt; — REST request.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;REST-сервис&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185309Z" creationid="Марианна" creationdate="20200810T184341Z">
@@ -5762,6 +5778,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060227Z" creationid="Марианна" creationdate="20200812T060227Z">
         <seg>&lt;x1/&gt;SOAP request&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SOAP-запрос&lt;x2/&gt; — SOAP-запрос;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223137Z" creationid="Марианна" creationdate="20210210T223137Z">
+        <seg>&lt;x1/&gt;SOAP request&lt;x2/&gt; — SOAP request;</seg>
       </tuv>
     </tu>
     <tu>
@@ -33001,6 +33025,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094258Z" creationid="Марианна" creationdate="20200813T093856Z">
         <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Работает в связке с &lt;x3/&gt;IIS&lt;x4/&gt;, создавая в нем отдельное приложение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223126Z" creationid="Марианна" creationdate="20210210T223126Z">
+        <seg>It is used in combination with &lt;x3/&gt;IIS&lt;x4/&gt; creating a separate application in it.</seg>
       </tuv>
     </tu>
     <tu>
