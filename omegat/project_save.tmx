@@ -21321,8 +21321,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выбор данного режима влияет на быстродействие БД, без синхронизации повышая быстродействие с наименьшей защищенностью от сбоев, и с уменьшением быстродействия в счет наибольшей защищенности от сбоев.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T150155Z" creationid="Марианна" creationdate="20210210T150155Z">
-        <seg>Selection of this mode affects the DB speed. It increases the processing speed without synchronization providing the lowest degree of protection from failures and decreasing the processing speed in order to provide higher degree of protection against failures.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T150249Z" creationid="Марианна" creationdate="20210210T150155Z">
+        <seg>Selection of this mode affects the DB speed. It increases the speed without synchronization providing the lowest degree of protection against failures and decreasing the speed in order to provide higher degree of protection against failures.</seg>
       </tuv>
     </tu>
     <tu>
