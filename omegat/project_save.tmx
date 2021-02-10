@@ -5838,6 +5838,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt; — языконезависимое сравнение символов Unicode без чувствительности к регистру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T134236Z" creationid="Марианна" creationdate="20210210T134236Z">
+        <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt; is a language independent Unicode collation without case sensitivity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;URL сервиса&lt;x2/&gt; — задается адрес отправки запросов к REST-сервису.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210205T114924Z" creationid="Марианна" creationdate="20210205T114924Z">
@@ -27275,8 +27283,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Наряду со стандартными правилами сравнения символов (collation) BINARY, RTRIM и NOCASE возможно использование нижеследующих, не регламентированных стандартом SQLite.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T133934Z" creationid="Марианна" creationdate="20210210T133934Z">
-        <seg>Alongside with the standard character collation rules, namely, BINARY, RTRIM and NOCASE, it is possible to use the following ones that are not subject to the SQLite standard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T134019Z" creationid="Марианна" creationdate="20210210T133934Z">
+        <seg>Alongside with the standard collation rules, namely, BINARY, RTRIM and NOCASE, it is possible to use the following ones that are not subject to the SQLite standard.</seg>
       </tuv>
     </tu>
     <tu>
