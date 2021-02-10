@@ -34231,8 +34231,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Создание и публикация веб-сервиса</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T223339Z" creationid="Марианна" creationdate="20210210T223339Z">
-        <seg>Web service Creation and Publication</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223826Z" creationid="Марианна" creationdate="20210210T223339Z">
+        <seg>Web Service Creation and Publication</seg>
       </tuv>
     </tu>
     <tu>
