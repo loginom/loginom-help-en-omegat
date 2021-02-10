@@ -5278,6 +5278,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Adapter&lt;x2/&gt; — необязательный компонент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222225Z" creationid="Марианна" creationdate="20210210T222225Z">
+        <seg>&lt;x1/&gt;Adapter&lt;x2/&gt; is an optional component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
@@ -19385,6 +19393,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom есть инструменты интеграции с внешними веб-сервисами и публикации своих собственных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222323Z" creationid="Марианна" creationdate="20210210T222323Z">
+        <seg>Loginom provides the tools used for integration with external web services and publication of the own ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom имеется возможность подключаться к внешнему SOAP-сервису и импортировать полученные от него данные для дальнейшей обработки и анализа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T194058Z" creationid="Марианна" creationdate="20210208T194058Z">
@@ -24927,6 +24943,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T145314Z" creationid="Марианна" creationdate="20200710T145314Z">
         <seg>Integration with Databases</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интеграция с внешними веб-сервисами</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T222202Z" creationid="Марианна" creationdate="20210210T222202Z">
+        <seg>Integration with External Web Services</seg>
       </tuv>
     </tu>
     <tu>
