@@ -10791,6 +10791,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Опубликованные пакеты&lt;x2/&gt; — список уже опубликованных пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223438Z" creationid="Марианна" creationdate="20210210T223438Z">
+        <seg>&lt;x1/&gt;Published packages&lt;x2/&gt; is a list of already published packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Основная таблица&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070304Z" creationid="Марианна" creationdate="20200812T070304Z">
@@ -21455,6 +21463,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор одного из вариантов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223508Z" creationid="Марианна" creationdate="20210210T223508Z">
+        <seg>It is required to select one of the options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор полей для кластеризации:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132920Z" creationid="Марианна" creationdate="20201210T132920Z">
@@ -25199,6 +25215,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112203Z" creationid="Марианна" creationdate="20200825T112203Z">
         <seg>It is allowed to use parameters only in the &lt;x5/&gt;WHERE&lt;x6/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использовать пространство имен Loginom Integrator;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223545Z" creationid="Марианна" creationdate="20210210T223545Z">
+        <seg>Use Loginom Integrator namespace;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32965,6 +32989,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Публикация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223414Z" creationid="Марианна" creationdate="20210210T223414Z">
+        <seg>Publication</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пул подключений не используется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120144Z" creationid="Марианна" creationdate="20210118T120144Z">
@@ -34145,6 +34177,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T062137Z" creationid="Марианна" creationdate="20201015T062137Z">
         <seg>It enables to create the new fields that are calculated by the defined formula based on the values of variables, other fields and &lt;x1/&gt;functions&lt;x2/&gt;, or using the &lt;x3/&gt;JavaScript&lt;x4/&gt; code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создание и публикация веб-сервиса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223339Z" creationid="Марианна" creationdate="20210210T223339Z">
+        <seg>Web service Creation and Publication</seg>
       </tuv>
     </tu>
     <tu>
