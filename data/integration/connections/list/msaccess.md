@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/db-msaccess_default.svg) Connection to MS Access
+# ![ ](../../../images/icons/data-sources/db-msaccess_default.svg) MS Access Connection
 
 It is used for connection to the Microsoft Access database.
 

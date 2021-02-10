@@ -4,13 +4,13 @@
 
 Поддерживаются описание SOAP-сервисов спецификации WSDL 1.1 и протоколы SOAP версий 1.1 и 1.2.
 
-Для работы с SOAP-сервисом необходимо настроенное [подключение к SOAP-сервису](../../integration/connections/list/soap-service.md).
+Для работы с SOAP-сервисом необходимо настроенное [connection to SOAP-сервису](../../integration/connections/list/soap-service.md).
 
 ## Ports
 
 ### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к SOAP-сервису (связь с компонентом *Подключение SOAP-сервиса*);
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Connection to SOAP Service (connection to *SOAP Service Connection* component);
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный;
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
 

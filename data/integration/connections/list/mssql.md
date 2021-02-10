@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/db-mssql_default.svg) Connection to MS SQL
+# ![ ](../../../images/icons/data-sources/db-mssql_default.svg) MS SQL Connection
 
 It is used for connection to the MS SQL database.
 
@@ -11,11 +11,11 @@ Use [ODBC connection](./odbc.md) is an alternative method of integration with MS
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button and by entering the parameters manually. These settings are used by OLE DB driver to connect to the required database.
+* **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. These settings are used by OLE DB driver to connect to the required database.
    * The first option with a separate window called when clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
       * **Server**: the SQL server host. If it is necessary, the named instance of SQL server is specified using "".
       * **Database** is a name of the database that includes the required data.
-   * When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port>:<DatabaseName>`, например `host:1433:database1`.
+   * When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port>:<DatabaseName>`, for example, `host:1433:database1`.
       * **ServerName**: the DBMS server host.
       * **Port** means the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
       * **DatabaseName** is a name of the database that includes the required data.

@@ -61,7 +61,7 @@ The context menu:
 
 > **Note:** if the item showing is disabled, and no *conditions * and/or *values* are specified, upon the list saving, this item will be moved back to the *Available items* list.
 
-If *listed* or *not listed* option is selected in the *Condition* field, it will be possible to edit the list used for comparison in the *Value* field. By pressing the ![redefine](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, the *List of values* window will be opened (refer to the information below).
+If *listed* or *not listed* option is selected in the *Condition* field, it will be possible to edit the list used for comparison in the *Value* field. By pressing the ![to be defined](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, the *List of values* window will be opened (refer to the information below).
 
 It is possible to change the order of items.
 

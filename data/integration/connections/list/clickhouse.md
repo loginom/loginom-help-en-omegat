@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/db-clickhouse_default.svg) Connection to ClickHouse
+# ![ ](../../../images/icons/data-sources/db-clickhouse_default.svg) ClickHouse Connection
 
 It is used for connection to the ClickHouse database.
 
@@ -7,7 +7,7 @@ It is used for connection to the ClickHouse database.
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** represents the string of the following kind: `host[:port][:database]`. It is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button and by entering the parameters manually. *Port* and *database* parameters are optional. By default *port* `9000`, *database* `default`.
+* **Connection string** represents the string of the following kind: `host[:port][:database]`. It is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. *Port* and *database* parameters are optional. By default *port* `9000`, *database* `default`.
 * **Test connection**: test of the specified connection settings.
 * **Login** is a login of the DB user. By default `default`.
 * **Password** is a password of the DB user. The password is not available by default.

@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/file-excel_default.svg) Connection to MS Excel
+# ![ ](../../../images/icons/data-sources/file-excel_default.svg) MS Excel Connection
 
 It is used for connection to the Microsoft Excel file as to a database.
 

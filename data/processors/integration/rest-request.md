@@ -17,7 +17,7 @@
 
 ### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к REST-сервису (связь с компонентом *Подключение REST-сервиса*);
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Connection to REST service (connection to *REST Service Connection* component);
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный;
 * ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный.
 

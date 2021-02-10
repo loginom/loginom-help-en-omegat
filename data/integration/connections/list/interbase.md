@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/db-interbase_default.svg) Connection to Interbase
+# ![ ](../../../images/icons/data-sources/db-interbase_default.svg) Interbase Connection
 
 It is used for connection to the Interbase database.
 

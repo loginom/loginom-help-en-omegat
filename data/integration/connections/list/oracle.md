@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/db-oracle_default.svg) Connection to Oracle
+# ![ ](../../../images/icons/data-sources/db-oracle_default.svg) Oracle Connection
 
 It is used for connection to the Oracle database.
 

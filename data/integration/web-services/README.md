@@ -1,4 +1,4 @@
-# Веб-сервисы
+# Web Services
 
 В Loginom есть инструменты интеграции с внешними веб-сервисами и публикации своих собственных. Благодаря этому решения, созданные на базе Loginom, могут быть легко встроены в IT-ландшафт любой сложности.
 
@@ -17,8 +17,8 @@
 Платформа Loginom предоставляет возможность интеграции с [SOAP](https://ru.wikipedia.org/wiki/SOAP) или [REST](https://ru.wikipedia.org/wiki/REST) сервисами.
 Для этого необходимо [создать](../connections/README.md#nastroyka-podklyucheniya) соответствующее подключение:
 
-- [Подключение SOAP-сервиса](../connections/list/soap-service.md) (SOAP-сервис);
-- [Подключение REST-сервиса](../connections/list/rest-service.md) (REST-сервис).
+- [SOAP Service Connection](../connections/list/soap-service.md) (SOAP service);
+- [REST Service Connection](../connections/list/rest-service.md) (REST service).
 
 В дальнейшем выходные данные созданного подключения используются соответствующим узлом вызова сервиса:
 

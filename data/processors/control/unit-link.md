@@ -8,7 +8,7 @@ When creating, the *Reference node* does not have [ports](../../scenario/ports/R
 
 ## Wizard
 
-The nodes available for reference creation are displayed in the wizard window in the form of a tree. The current module nodes and all nodes available for reference are separately displayed for navigation convenience. Availability of nodes is defined by their visibility (refer to the next section - "Visibility of nodes"). It is required to select one of the nodes output data of which are to be received in the current workflow location.
+The nodes available for reference creation are displayed in the wizard window in the form of a tree. The current module nodes and all nodes available for reference are separately displayed for navigation convenience. Availability of nodes is defined by their visibility (refer to the next section - "Visibility of nodes"). It is required to select one of the nodes the output data of which is to be received in the current workflow location.
 
 The wizard interface enables to search for the nodes in the general list by means of filters, namely, by name and node comment.
 

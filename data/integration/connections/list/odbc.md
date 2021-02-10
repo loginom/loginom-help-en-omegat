@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/driver-odbc_default.svg) Connection to ODBC
+# ![ ](../../../images/icons/data-sources/driver-odbc_default.svg) ODBC Connection
 
 It is used for connection to one of the [ODBC](https://wiki.loginom.ru/articles/odbc.html) data sources.
 
@@ -7,7 +7,7 @@ It is used for connection to one of the [ODBC](https://wiki.loginom.ru/articles/
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string**: it is required to specify the connection string in the format set in the ODBC driver system, or it is possible to select one of ODBC data sources configured in the system. List of the sources is called by clickong on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The available ODBC data sources are listed. The sources are configured in [ODBC Windows data sources administrator](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). It also contains information on the drivers installed in the system, and it is possible to define the connection string format.
+* **Connection string**: it is required to specify the connection string in the format set in the ODBC driver system, or it is possible to select one of the ODBC data sources configured in the system. List of the sources is called by clickong on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The available ODBC data sources are listed. The sources are configured in [ODBC Windows data sources administrator](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). It also contains information on the drivers installed in the system, and it is possible to define the connection string format.
 * **Test connection**: test of the specified connection settings.
 * **Login** is a login of the DB user.
 * **Password** is a password of the DB user.

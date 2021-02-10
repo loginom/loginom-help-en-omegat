@@ -1,4 +1,4 @@
-# ![ ](../../../images/icons/data-sources/db-firebird_default.svg) Connection to Firebird
+# ![ ](../../../images/icons/data-sources/db-firebird_default.svg) Firebird Connection
 
 It is used for connection to the Firebird database and its operation.
 

@@ -1,31 +1,31 @@
-# Подключения
+# Connections
 
 Перед тем как использовать в сценариях узлы [взаимодействия с SOAP-сервисами](../../processors/integration/soap-request.md)/[REST-сервисами](../../processors/integration/rest-request.md) и [импорта](../import/README.md)/[экспорта](../export/README.md) из бизнес приложений, хранилищ данных, баз данных или иных источников, в пакете необходимо создать подключение к источнику данных. Подключение содержит в себе все необходимые параметры для соединения с источником данных, такие как пароль/логин, расположение источника и др. Созданное подключение в дальнейшем может использоваться в пакете многократно.
 
-## Типы подключений
+## Types of Connections
 
-* Бизнес приложения:
-   * [Подключение к 1C:Предприятие 8.x](./list/1c.md).
-* Хранилища данных:
-   * [Подключение набора XSD-схем](./list/schemes.md).
-   * [Подключение Deductor Warehouse [Firebird]](./list/wh-firebird.md).
-   * [Подключение Deductor Warehouse [MS SQL]](./list/wh-mssql.md).
-   * [Подключение Deductor Warehouse [Oracle]](./list/wh-oracle.md).
-* Базы данных:
-   * [Подключение MS Excel](./list/excel.md).
-   * [Подключение Firebird](./list/firebird.md).
-   * [Подключение Interbase](./list/interbase.md).
-   * [Подключение MS Access](./list/msaccess.md).
-   * [Подключение MS SQL](./list/mssql.md).
-   * [Подключение MySQL](./list/mysql.md).
-   * [Подключение ODBC](./list/odbc.md).
-   * [Подключение Oracle](./list/oracle.md).
-   * [Подключение PostgreSQL](./list/postgresql.md).
-   * [Подключение SQLite](./list/sqlite.md).
-   * [Подключение ClickHouse](./list/clickhouse.md).
-* Веб-сервисы:
-   * [Подключение SOAP-сервиса](./list/soap-service.md).
-   * [Подключение REST-сервиса](./list/rest-service.md).
+* Business Applications:
+   * [1C:Enterprise 8.x Connection](./list/1c.md).
+* Data Warehouses:
+   * [XSD Schemas Set Connection](./list/schemes.md).
+   * [Deductor Warehouse [Firebird] Connection](./list/wh-firebird.md).
+   * [Deductor Warehouse [MS SQL] Connection](./list/wh-mssql.md).
+   * [Deductor Warehouse [Oracle] Connection](./list/wh-oracle.md).
+* Databases:
+   * [MS Excel Connection](./list/excel.md).
+   * [Firebird Connection](./list/firebird.md).
+   * [Interbase Connection](./list/interbase.md).
+   * [MS Access Connection](./list/msaccess.md).
+   * [MS SQL Connection](./list/mssql.md).
+   * [MySQL Connection](./list/mysql.md).
+   * [ODBC Connection](./list/odbc.md).
+   * [Oracle Connection](./list/oracle.md).
+   * [PostgreSQL Connection](./list/postgresql.md).
+   * [SQLite Connection](./list/sqlite.md).
+   * [ClickHouse Connection](./list/clickhouse.md).
+* Web Services:
+   * [SOAP Service Connection](./list/soap-service.md).
+   * [REST Service Connection](./list/rest-service.md).
 
 ## Настройка подключения
 
@@ -35,7 +35,7 @@
 
 В результате в левой части экрана в виде дерева отобразится перечень возможных для создания подключений (см. рисунок 2 область 1) — дерево классов подключений.
 
-Подключение можно создать двумя способами:
+Connection can be created in two ways:
 
 * перетащить нужное подключение из дерева (1) в область подключений (2);
 * дважды кликнуть по выбранному подключению в дереве.
@@ -48,41 +48,41 @@
 
 Управление подключениями осуществляется с помощью панели инструментов (4):
 
-* ![показать дерево](../../images/icons/toolbar-controls/arrow-rr_default.svg) — показать дерево классов подключений;
-* ![скрыть дерево](../../images/icons/toolbar-controls/arrow-ll_default.svg) — скрыть дерево классов подключений;
-* ![крупная плитка](../../images/icons/toolbar-controls/tile_default.svg) — отображение в виде крупной плитки;
-* ![таблица](../../images/icons/toolbar-controls/table_default.svg) — отображение в виде таблицы;
+* ![Show tree](../../images/icons/toolbar-controls/arrow-rr_default.svg) — show connection class tree;
+* ![Hide tree](../../images/icons/toolbar-controls/arrow-ll_default.svg) — hide connection class tree;
+* ![Large tiles](../../images/icons/toolbar-controls/tile_default.svg) — large tiles view;
+* ![Table](../../images/icons/toolbar-controls/table_default.svg) — table view;
 * ![группировать список](../../images/icons/toolbar-controls/group-list_default.svg) — включение группировки списка по видам подключений;
-* ![настроить подключение](../../images/icons/toolbar-controls/setup_default.svg) — настроить подключение;
-* ![настроить модификатор доступа](../../images/icons/toolbar-controls/access-rights_default.svg) — настроить [модификатор доступа](../../scenario/access-modifier.md);
-* ![удалить подключение](../../images/icons/toolbar-controls/delete_default.svg) — удалить подключение;
-* Проверить — тестировать подключение;
-* ![активировать подключение](../../images/icons/toolbar-controls/test-connection_default.svg) — активировать подключение.
+* ![Configure connection](../../images/icons/toolbar-controls/setup_default.svg) — configure connection;
+* ![Configure visibility](../../images/icons/toolbar-controls/access-rights_default.svg) — configure [visibility](../../scenario/access-modifier.md);
+* ![Delete connection](../../images/icons/toolbar-controls/delete_default.svg) — delete connection;
+* Check — test connection;
+* ![Activate connection](../../images/icons/toolbar-controls/test-connection_default.svg) — Activate connection.
 
 Навигация по подключениям осуществляется с помощью инструментов:
 
 * ![искать по списку](../../images/icons/toolbar-controls/zoom_default.svg) — поиск подключения по имени/пути, возможно искать в разных группах;
-* ![фильтровать список](../../images/icons/toolbar-controls/filter_default.svg) — фильтрация по группам/меткам/пути подключения;
-* ![сортировать список](../../images/icons/toolbar-controls/sort-asc_default.svg) — сортировка.
+* ![Filter list](../../images/icons/toolbar-controls/filter_default.svg) — filtering by groups/captions/path of connection;
+* ![Sort list](../../images/icons/toolbar-controls/sort-asc_default.svg) — sorting.
 
-Также для каждого подключения доступно контекстное меню:
+The context menu is available for each connection:
 
-* ![переименовать](../../images/icons/toolbar-controls/edit_default.svg) Переименовать подключение…;
-* ![настроить](../../images/icons/toolbar-controls/setup_default.svg) Настроить подключение…;
-* ![доступ](../../images/icons/toolbar-controls/access-rights_default.svg) Настроить модификатор доступа…;
-* ![удалить](../../images/icons/toolbar-controls/delete_default.svg) Удалить подключение…;
-* ![ ](../../images/icons/blank.svg) Тестировать подключение;
-* ![активировать](../../images/icons/toolbar-controls/test-connection_default.svg) Активировать подключение.
+* ![rename](../../images/icons/toolbar-controls/edit_default.svg) Rename connection…;
+* ![configure](../../images/icons/toolbar-controls/setup_default.svg) Configure connection…;
+* ![access](../../images/icons/toolbar-controls/access-rights_default.svg) Configure visibility…;
+* ![delete](../../images/icons/toolbar-controls/delete_default.svg) Delete connection…;
+* ![ ](../../images/icons/blank.svg) Test connection;
+* ![activate](../../images/icons/toolbar-controls/test-connection_default.svg) Activate connection.
 
 The following hotkeys duplicating some listed commands are available:
 
-* %kbd F3 % — активировать подключение;
-* %kbd Shift F3 % — тестировать подключение;
-* %kbd F2 % — переименовать подключение;
-* %kbd Alt G % — группировка списка;
-* %kbd Ctrl D % — фильтровать список;
-* %kbd Enter % — настроить подключение;
-* %kbd Delete % — удалить подключение.
+* %kbd F3 % — activate connection;
+* %kbd Shift F3 % — test connection;
+* %kbd F2 % — rename connection;
+* %kbd Alt G % — group list;
+* %kbd Ctrl D % — filter list;
+* %kbd Enter % — configure connection;
+* %kbd Delete % — delete connection.
 
 > **Важно:** Для организации подключений к некоторыми источниками, например, к некоторым базам данных, необходимо наличие установленного клиента этой СУБД, либо клиентских библиотек той же разрядности, что и разрядность приложения/сервера Loginom.
 
