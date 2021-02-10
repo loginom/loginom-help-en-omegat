@@ -14586,6 +14586,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Трактовать NOCASE как UNICODE&lt;x2/&gt; — флаг переопределяет сравнение NOCASE как UNICODE — языконезависимое сравнение символов Unicode без чувствительности к регистру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T220307Z" creationid="Марианна" creationdate="20210210T220307Z">
+        <seg>&lt;x1/&gt;Regard NOCASE as UNICODE&lt;x2/&gt;: the flag redefines collation of NOCASE as UNICODE — the language independent Unicode character collation without case sensitivity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Транспонируемые&lt;x2/&gt; &lt;x3/&gt;Транспонируемые&lt;x4/&gt; — на основе этих полей будут сформированы 4 новых столбца: &lt;x5/&gt;Имена&lt;x6/&gt;, &lt;x7/&gt;Метки&lt;x8/&gt;, &lt;x9/&gt;Значения&lt;x10/&gt;, &lt;x11/&gt;Типы данных&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T070514Z" creationid="Марианна" creationdate="20201111T152007Z">
