@@ -12327,6 +12327,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных используются библиотеки sqlite3.dll и sqlcipher.dll, совпадающие по разрядности с приложением/сервером Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T221401Z" creationid="Марианна" creationdate="20210210T221401Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, sqlite3.dll and sqlcipher.dll libraries are used. Their bitness match the Loginom application/ server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных клиенты или драйвер ODBC должны быть той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T152717Z" creationid="Марианна" creationdate="20210201T152717Z">
@@ -21955,6 +21963,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T205339Z" creationid="Марианна" creationdate="20210208T205339Z">
         <seg>Data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данные библиотеки поставляются в составе дистрибутива Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T221446Z" creationid="Марианна" creationdate="20210210T221446Z">
+        <seg>These libraries are included into the Loginom distribution kit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31777,6 +31793,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085819Z" creationid="Марианна" creationdate="20201102T085819Z">
         <seg>When using relative paths in the root modules (the script that contains the node code editor):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При использовании сторонних библиотек возможно переопределение значений по умолчанию параметров &lt;x3/&gt;Режим синхронизации&lt;x4/&gt; и &lt;x5/&gt;Режим журнала транзакций&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T221644Z" creationid="Марианна" creationdate="20210210T221644Z">
+        <seg>When third-party libraries are used, it is possible to refefine values of &lt;x3/&gt;Sync mode&lt;x4/&gt; and &lt;x5/&gt;Transaction journal mode&lt;x6/&gt; parameters by default.</seg>
       </tuv>
     </tu>
     <tu>
