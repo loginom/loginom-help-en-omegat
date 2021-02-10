@@ -32565,6 +32565,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проверка по внешним ключам включена по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T135700Z" creationid="Марианна" creationdate="20210210T135700Z">
+        <seg>Check by foreign keys is enabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Прогнозирование временных рядов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T073125Z" creationid="Марианна" creationdate="20201208T073125Z">
