@@ -21775,6 +21775,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Генерировать уникальное для каждой версии пакета;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223628Z" creationid="Марианна" creationdate="20210210T223628Z">
+        <seg>Generate unique for each package version;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Генерировать уникальное для пакета (используется по умолчанию);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223607Z" creationid="Марианна" creationdate="20210210T223607Z">
+        <seg>Generate unique for package (it is used by default);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Герметик</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175258Z" creationid="Марианна" creationdate="20201022T175258Z">
@@ -24131,6 +24147,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195209Z" creationid="Марианна" creationdate="20201215T195209Z">
         <seg>Explicitly set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223648Z" creationid="Марианна" creationdate="20210210T223648Z">
+        <seg>Custom.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32565,6 +32589,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пример: &lt;x1/&gt;http://localhost/lgi/service.svc/rest/help&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223706Z" creationid="Марианна" creationdate="20210210T223706Z">
+        <seg>Example: &lt;x1/&gt;http://localhost/lgi/service.svc/rest/help&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример: &lt;x1/&gt;http://localhost/lgi/service.svc?wsdl&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223655Z" creationid="Марианна" creationdate="20210210T223655Z">
+        <seg>Example: &lt;x1/&gt;http://localhost/lgi/service.svc?wsdl&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример: &lt;x3/&gt;new Date(2020, 1, 5)&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114447Z" creationid="Марианна" creationdate="20201020T114447Z">
@@ -34017,6 +34057,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T055455Z" creationid="Марианна" creationdate="20210111T055455Z">
         <seg>Compatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Совместимость веб-сервисов Loginom с Deductor</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T223802Z" creationid="Марианна" creationdate="20210210T223802Z">
+        <seg>Compatibility of Loginom Web Services with Deductor</seg>
       </tuv>
     </tu>
     <tu>
