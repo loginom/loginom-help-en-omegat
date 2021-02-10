@@ -22087,6 +22087,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Действие параметра аналогично выполнению команды БД &lt;x3/&gt;"PRAGMA schema.cache_size = pages | -kibibytes;"&lt;x4/&gt;, где при введении положительного числа указывается количество памяти в страницах, а при отрицательного числа выделение памяти в КиБ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T145408Z" creationid="Марианна" creationdate="20210210T145408Z">
+        <seg>The parameter enables to perform the same actions as the DB command does: &lt;x3/&gt;"PRAGMA schema.cache_size = pages | -kibibytes;"&lt;x4/&gt;. When a positive number is entered, the cache size is specified in pages, and when a negative number is entered, the cache is specified in KiB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Действия над выбранными полями можно осуществлять мышью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083036Z" creationid="Марианна" creationdate="20201006T083036Z">
