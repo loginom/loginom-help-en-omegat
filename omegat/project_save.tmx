@@ -13306,6 +13306,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим синхронизации&lt;x2/&gt; — устанавливается режим синхронизации с файловой системой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T145512Z" creationid="Марианна" creationdate="20210210T145512Z">
+        <seg>&lt;x1/&gt;Sync mode&lt;x2/&gt; enables to set the mode of synchronization with the file system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Резервный источник WSDL&lt;x2/&gt; — указывается резервный источник WSDL, который будет использован программой, если не удастся получить основной источник, либо если при разборе основного WSDL возникнут ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T202737Z" creationid="Марианна" creationdate="20210208T201848Z">
@@ -21307,6 +21315,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T190711Z" creationid="Марианна" creationdate="20200929T190711Z">
         <seg>It is selected in the range from 0 to 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выбор данного режима влияет на быстродействие БД, без синхронизации повышая быстродействие с наименьшей защищенностью от сбоев, и с уменьшением быстродействия в счет наибольшей защищенности от сбоев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T150155Z" creationid="Марианна" creationdate="20210210T150155Z">
+        <seg>Selection of this mode affects the DB speed. It increases the processing speed without synchronization providing the lowest degree of protection from failures and decreasing the processing speed in order to provide higher degree of protection against failures.</seg>
       </tuv>
     </tu>
     <tu>
