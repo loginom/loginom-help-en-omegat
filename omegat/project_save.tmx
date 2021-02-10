@@ -11455,6 +11455,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По умолчанию&lt;x2/&gt; используется режим DELETE (Удаление файла).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T151200Z" creationid="Марианна" creationdate="20210210T151200Z">
+        <seg>In the case of &lt;x1/&gt;Default&lt;x2/&gt;, the DELETE (Delete file) mode is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По умолчанию&lt;x2/&gt; используется режим FULL (Полный).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204124Z" creationid="Марианна" creationdate="20210203T204124Z">
@@ -13294,6 +13302,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185210Z" creationid="Марианна" creationdate="20200810T182856Z">
         <seg>&lt;x1/&gt;Node activation mode&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим журнала транзакций&lt;x2/&gt; — устанавливается режим работы журнала транзакций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T150644Z" creationid="Марианна" creationdate="20210210T150644Z">
+        <seg>&lt;x1/&gt;Transaction journal mode&lt;x2/&gt;: the transaction journal mode is set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22115,6 +22131,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T150554Z" creationid="Марианна" creationdate="20210210T150554Z">
         <seg>The parameter provides the same effect as the DB command does: &lt;x3/&gt;"PRAGMA schema.synchronous = 0 | OFF | 1 | NORMAL | 2 | FULL | 3 | EXTRA;"&lt;x4/&gt;, and it allows for one of the following options.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Действие параметра аналогично выполнению команды БД: &lt;x3/&gt;"PRAGMA schema.journal_mode = DELETE | TRUNCATE | PERSIST | MEMORY | WAL;"&lt;x4/&gt; и предусматривает выбор из следующих вариантов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T150732Z" creationid="Марианна" creationdate="20210210T150732Z">
+        <seg>The parameter provides the same effect as the DB command does: &lt;x3/&gt;"PRAGMA schema.journal_mode = DELETE | TRUNCATE | PERSIST | MEMORY | WAL;"&lt;x4/&gt;, and it allows for one of the following options.</seg>
       </tuv>
     </tu>
     <tu>
