@@ -8215,6 +8215,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Зашифрованная БД&lt;x2/&gt; — флаг устанавливает режим шифрования БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T135831Z" creationid="Марианна" creationdate="20210210T135831Z">
+        <seg>&lt;x1/&gt;Encrypted DB&lt;x2/&gt;: the flag enables to set the DB encryption mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение кодировки&lt;x2/&gt; — задает кодировку символов, в которой будут трактоваться данные с сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T085140Z" creationid="Марианна" creationdate="20210121T085140Z">
