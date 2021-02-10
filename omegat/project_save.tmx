@@ -21799,6 +21799,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данное подключение так же реализует следующие особенности работы с &lt;x1/&gt;импортом баз данных&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T132928Z" creationid="Марианна" creationdate="20210210T132928Z">
+        <seg>This connection also implements the following features of work with &lt;x1/&gt;database import&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данное правило не применяется при использовании &lt;x5/&gt;допустимого интервала&lt;x6/&gt; (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T093226Z" creationid="Марианна" creationdate="20201117T093226Z">
