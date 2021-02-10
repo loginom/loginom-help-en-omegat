@@ -27273,6 +27273,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наряду со стандартными правилами сравнения символов (collation) BINARY, RTRIM и NOCASE возможно использование нижеследующих, не регламентированных стандартом SQLite.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T133934Z" creationid="Марианна" creationdate="20210210T133934Z">
+        <seg>Alongside with the standard character collation rules, namely, BINARY, RTRIM and NOCASE, it is possible to use the following ones that are not subject to the SQLite standard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Население (тыс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T211301Z" creationid="Марианна" creationdate="20201012T211301Z">
