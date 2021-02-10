@@ -19313,6 +19313,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В SQL конструкциях возможно использование функции iLIKE, реализующей функциональность LIKE в режиме регистронезависимости символов Unicode.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210210T135458Z" creationid="Марианна" creationdate="20210210T135458Z">
+        <seg>It is possible to use iLIKE function in the SQL constructions. It implements LIKE functionality in the case insensitivity mode of Unicode characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В SQL-запросах возможно использование переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131536Z" creationid="Марианна" creationdate="20200825T111424Z">
