@@ -20281,6 +20281,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате в левой части экрана в виде дерева отобразится перечень возможных для создания подключений (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T120923Z" creationid="Марианна" creationdate="20210213T120923Z">
+        <seg>In the result, a list of connections that can be created will be displayed in the left part of the screen in the form of a tree (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате максимизируется нагрузка на каждый фактор относительно небольшого числа переменных, а факторные нагрузки остальных переменных минимизируются.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T161356Z" creationid="Марианна" creationdate="20201013T161356Z">
