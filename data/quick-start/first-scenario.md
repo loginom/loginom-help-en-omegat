@@ -62,7 +62,7 @@ The block of the nodes forming TOP 10 list of clients can be grouped as a separa
 
 ![Transformation of the Block of Nodes to the Supernode](./first-scenario-8.png)
 
-Later on the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components. Principles of creation of the solutions based on own components are analysed in the [Design of Workflows](../scenario/README.md) article.
+Later on, the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components. Principles of creation of the solutions based on own components are analysed in the [Design of Workflows](../scenario/README.md) article.
 
 The package must be *saved* before its closure. It can be done in the Package menu (refer to Figure 9).
 

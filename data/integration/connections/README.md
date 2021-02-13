@@ -1,6 +1,6 @@
 # Connections
 
-Перед тем как использовать в сценариях узлы [взаимодействия с SOAP-сервисами](../../processors/integration/soap-request.md)/[REST-сервисами](../../processors/integration/rest-request.md) и [импорта](../import/README.md)/[экспорта](../export/README.md) из бизнес приложений, хранилищ данных, баз данных или иных источников, в пакете необходимо создать подключение к источнику данных. Подключение содержит в себе все необходимые параметры для соединения с источником данных, такие как пароль/логин, расположение источника и др. Созданное подключение в дальнейшем может использоваться в пакете многократно.
+Before [interaction with SOAP services](../../processors/integration/soap-request.md)/[REST services](../../processors/integration/rest-request.md) nodes and nodes of [import](../import/README.md)/[export](../export/README.md) from business applications, data warehouses, databases or other sources are used in the workflows, it is required to create the data source connection in the package. The connection includes all parameters required for the data source connection, namely, password/login, source location, etc. Later on, the created connection can be repeatedly used in the package.
 
 ## Types of Connections
 
@@ -27,13 +27,13 @@
    * [SOAP Service Connection](./list/soap-service.md).
    * [REST Service Connection](./list/rest-service.md).
 
-## Настройка подключения
+## Connection Setup
 
-Для каждого модуля в составе пакета можно настроить свой список подключений. Для создания/редактирования подключений необходимо отобразить в панели навигации структуру пакета и выбрать пункт *Подключения* соответствующего модуля (см. Figure 1).
+A separate list of connections can be set for each module included into the package. To create/edit connections, it is required to show the package structure on the navigation bar and select *Connections* of corresponding module (refer to Figure 1).
 
-![Выбор пункта "Подключения" в панели навигации](./readme-1.png)
+![Select "Connections" on the navigation bar](./readme-1.png)
 
-В результате в левой части экрана в виде дерева отобразится перечень возможных для создания подключений (см. рисунок 2 область 1) — дерево классов подключений.
+In the result, a list of connections that can be created will be displayed in the left part of the screen in the form of a tree (refer to Figure 2, Area 1) — Connection Class Tree.
 
 Connection can be created in two ways:
 
@@ -86,4 +86,4 @@ The following hotkeys duplicating some listed commands are available:
 
 > **Важно:** Для организации подключений к некоторыми источниками, например, к некоторым базам данных, необходимо наличие установленного клиента этой СУБД, либо клиентских библиотек той же разрядности, что и разрядность приложения/сервера Loginom.
 
-[Пример подключения и работы с БД](../../quick-start/database.md)
+[Example of the DB connection and operation](../../quick-start/database.md)

@@ -1,18 +1,18 @@
 # Web Services
 
-В Loginom есть инструменты интеграции с внешними веб-сервисами и публикации своих собственных. Благодаря этому решения, созданные на базе Loginom, могут быть легко встроены в IT-ландшафт любой сложности.
+Loginom provides the tools used for integration with external web services and publication of the own ones. Благодаря этому решения, созданные на базе Loginom, могут быть легко встроены в IT-ландшафт любой сложности.
 
-> **Примечание:** Инструменты работы с веб-сервисами доступны только в [серверных редакциях Loginom](https://loginom.ru/platform/pricing#compare).
+> **Note:** The web service tools are available only in the [server Loginom editions](https://loginom.ru/platform/pricing#compare).
 
-Интеграция и работа с веб-сервисами требует наличия следующих компонентов платформы Loginom:
+The following Loginom platform components are required for web services integration and operation:
 
-* [Server](https://loginom.ru/platform/pricing#component-server) — основной компонент платформы. Выполняет задачи загрузки, расчетов, построения моделей, визуализации, управления правами и прочее.
-* [Integrator](https://loginom.ru/platform/pricing#component-integrator) — компонент, отвечающий за публикацию собственных веб-сервисов на основе созданных в Loginom пакетов. Работает в связке с [IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services), создавая в нем отдельное приложение.
-* [Adapter](https://loginom.ru/platform/pricing#component-adapter) — необязательный компонент. Требуется для взаимодействия с нестандартными веб-сервисами, например, с бюро кредитных историй.
+* [Server](https://loginom.ru/platform/pricing#component-server) is the main platform component. It completes the loading, calculation, model training, visualisation, right management and other tasks.
+* [Integrator](https://loginom.ru/platform/pricing#component-integrator) is a component responsible for publication of own web services based on the packages created in Loginom. It is used in combination with [IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services) creating a separate application in it.
+* [Adapter](https://loginom.ru/platform/pricing#component-adapter) is an optional component. It is required for interaction with non-standard web services, for example, with credit reference bureau.
 
 ## Работа с веб-сервисами
 
-### Интеграция с внешними веб-сервисами
+### Integration with External Web Services
 
 Платформа Loginom предоставляет возможность интеграции с [SOAP](https://ru.wikipedia.org/wiki/SOAP) или [REST](https://ru.wikipedia.org/wiki/REST) сервисами.
 Для этого необходимо [создать](../connections/README.md#nastroyka-podklyucheniya) соответствующее подключение:
@@ -22,8 +22,8 @@
 
 В дальнейшем выходные данные созданного подключения используются соответствующим узлом вызова сервиса:
 
-- [SOAP-запрос](../../processors/integration/soap-request.md) — SOAP-запрос;
-- [REST-запрос](../../processors/integration/rest-request.md) — REST-запрос.
+- [SOAP request](../../processors/integration/soap-request.md) — SOAP request;
+- [REST request](../../processors/integration/rest-request.md) — REST request.
 
 > **Примечание:** Ряд сервисов предоставляет ответ в виде вложенного XML. Для его преобразования в табличный вид предназначен компонент [Извлечение XML](../../processors/integration/extracting-xml.md). Для преобразования ответа, полученного в виде JSON, возможно использование конструкции [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) в компоненте [Java-script](../../processors/transformation/java-script).
 
