@@ -29757,6 +29757,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед тем как использовать в сценариях узлы &lt;x1/&gt;взаимодействия с SOAP-сервисами&lt;x2/&gt;/&lt;x3/&gt;REST-сервисами&lt;x4/&gt; и &lt;x5/&gt;импорта&lt;x6/&gt;/&lt;x7/&gt;экспорта&lt;x8/&gt; из бизнес приложений, хранилищ данных, баз данных или иных источников, в пакете необходимо создать подключение к источнику данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T115253Z" creationid="Марианна" creationdate="20210213T115253Z">
+        <seg>Before &lt;x1/&gt;interaction with SOAP services&lt;x2/&gt;/&lt;x3/&gt;REST services&lt;x4/&gt; nodes and nodes of &lt;x5/&gt;import&lt;x6/&gt;/&lt;x7/&gt;export&lt;x8/&gt; from business applications, data warehouses, data bases or other sources are used in the workflows, it is required to create the data source connection in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед тем, как производить классификацию, алгоритм обучается на тренировочном наборе данных — обучающей выборке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T134114Z" creationid="Марианна" creationdate="20201221T134114Z">
