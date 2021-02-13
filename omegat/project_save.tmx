@@ -13778,6 +13778,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Создание нового подключения&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T121752Z" creationid="Марианна" creationdate="20210213T121752Z">
+        <seg>&lt;x1/&gt;Create New Connection&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Создание новой таблицы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184933Z" creationid="Марианна" creationdate="20200810T184933Z">
