@@ -37665,6 +37665,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>перетащить нужное подключение из дерева (1) в область подключений (2);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T121245Z" creationid="Марианна" creationdate="20210213T121245Z">
+        <seg>drag the required connection from tree (1) to area of connections (2);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>по &lt;x1/&gt;Максимальному набору&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201128T202636Z" creationid="Марианна" creationdate="20201019T070918Z">
