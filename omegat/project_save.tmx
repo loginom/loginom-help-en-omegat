@@ -36057,6 +36057,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Управление подключениями осуществляется с помощью панели инструментов (4):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T122031Z" creationid="Марианна" creationdate="20210213T122031Z">
+        <seg>Toolbar (4) is used to control the connections:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Управляющие переменные</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T072253Z" creationid="Марианна" creationdate="20200715T070537Z">
