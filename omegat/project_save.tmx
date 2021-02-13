@@ -23113,8 +23113,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для создания/редактирования подключений необходимо отобразить в панели навигации структуру пакета и выбрать пункт &lt;x1/&gt;Подключения&lt;x2/&gt; соответствующего модуля (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210213T120126Z" creationid="Марианна" creationdate="20210213T120126Z">
-        <seg>Для создания/редактирования подключений необходимо отобразить в панели навигации структуру пакета и выбрать пункт &lt;x1/&gt;Connections&lt;x2/&gt; of corresponding module (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T120521Z" creationid="Марианна" creationdate="20210213T120126Z">
+        <seg>To create/edit connections, it is required to show the package structure on the navigation bar and select &lt;x1/&gt;Connections&lt;x2/&gt; of corresponding module (refer to</seg>
       </tuv>
     </tu>
     <tu>
