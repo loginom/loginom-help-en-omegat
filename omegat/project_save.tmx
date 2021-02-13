@@ -19611,8 +19611,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В дальнейшем подмодель, выполняющая заданную пользователем функцию, может быть опубликована как производный компонент и наравне со стандартными компонентами многократно использоваться в других сценариях.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T111706Z" creationid="Марианна" creationdate="20200717T111706Z">
-        <seg>Later on the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T115609Z" creationid="Марианна" creationdate="20200717T111706Z">
+        <seg>Later on, the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29759,8 +29759,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Перед тем как использовать в сценариях узлы &lt;x1/&gt;взаимодействия с SOAP-сервисами&lt;x2/&gt;/&lt;x3/&gt;REST-сервисами&lt;x4/&gt; и &lt;x5/&gt;импорта&lt;x6/&gt;/&lt;x7/&gt;экспорта&lt;x8/&gt; из бизнес приложений, хранилищ данных, баз данных или иных источников, в пакете необходимо создать подключение к источнику данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210213T115253Z" creationid="Марианна" creationdate="20210213T115253Z">
-        <seg>Before &lt;x1/&gt;interaction with SOAP services&lt;x2/&gt;/&lt;x3/&gt;REST services&lt;x4/&gt; nodes and nodes of &lt;x5/&gt;import&lt;x6/&gt;/&lt;x7/&gt;export&lt;x8/&gt; from business applications, data warehouses, data bases or other sources are used in the workflows, it is required to create the data source connection in the package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T115349Z" creationid="Марианна" creationdate="20210213T115253Z">
+        <seg>Before &lt;x1/&gt;interaction with SOAP services&lt;x2/&gt;/&lt;x3/&gt;REST services&lt;x4/&gt; nodes and nodes of &lt;x5/&gt;import&lt;x6/&gt;/&lt;x7/&gt;export&lt;x8/&gt; from business applications, data warehouses, databases or other sources are used in the workflows, it is required to create the data source connection in the package.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30705,6 +30705,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T134308Z" creationid="Марианна" creationdate="20200823T120625Z">
         <seg>The connection is performed similar to &lt;x7/&gt;connection to DB&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подключение содержит в себе все необходимые параметры для соединения с источником данных, такие как пароль/логин, расположение источника и др.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T115514Z" creationid="Марианна" creationdate="20210213T115514Z">
+        <seg>The connection includes all parameters required for the data source connection, namely, password/login, source location, etc.</seg>
       </tuv>
     </tu>
     <tu>
