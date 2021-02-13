@@ -20001,6 +20001,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области подключений появится новое подключение (3), и откроется диалог редактирования параметров подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T121705Z" creationid="Марианна" creationdate="20210213T121705Z">
+        <seg>New connection (3) will appear in the area of connections, and the dialog of connection parameters edition will be opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обозначении банковского БИК должны содержаться только цифры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094819Z" creationid="Марианна" creationdate="20201117T094819Z">
@@ -37197,6 +37205,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203102Z" creationid="Марианна" creationdate="20200829T203102Z">
         <seg>below).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>дважды кликнуть по выбранному подключению в дереве.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T121413Z" creationid="Марианна" creationdate="20210213T121413Z">
+        <seg>double click on the selected connection in the tree.</seg>
       </tuv>
     </tu>
     <tu>
