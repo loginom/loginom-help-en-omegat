@@ -27369,6 +27369,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Навигация по подключениям осуществляется с помощью инструментов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T122548Z" creationid="Марианна" creationdate="20210213T122548Z">
+        <seg>The following tools are used for connection navigation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Над списком доступных полей расположено поле &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Фильтрация&lt;x20/&gt;, оно позволяет найти поле по имени или его части.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T202759Z" creationid="Марианна" creationdate="20201023T202759Z">
