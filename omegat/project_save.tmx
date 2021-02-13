@@ -22735,6 +22735,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого модуля в составе пакета можно настроить свой список подключений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T120056Z" creationid="Марианна" creationdate="20210213T120056Z">
+        <seg>A separate list of connections can be set for each module included into the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждого поля из "Набора 1", отмеченного флагом, будут вычислены коэффициенты корреляции с полями, отмеченными флагами в "Наборе 2".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T075306Z" creationid="Марианна" creationdate="20201012T075306Z">
@@ -27733,6 +27741,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214558Z" creationid="Марианна" creationdate="20201216T214558Z">
         <seg>Configure Neural Network Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка подключения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T115808Z" creationid="Марианна" creationdate="20210213T115808Z">
+        <seg>Connection Setup</seg>
       </tuv>
     </tu>
     <tu>
@@ -34281,6 +34297,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100134Z" creationid="Марианна" creationdate="20200711T100134Z">
         <seg>Creation of the Connection Node in the Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Созданное подключение в дальнейшем может использоваться в пакете многократно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210213T115722Z" creationid="Марианна" creationdate="20210213T115722Z">
+        <seg>Later on, the created connection can be repeatedly used in the package.</seg>
       </tuv>
     </tu>
     <tu>
