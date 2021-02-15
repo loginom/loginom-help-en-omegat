@@ -24175,6 +24175,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Есть возможность &lt;x1/&gt;создания собственных SOAP и REST сервисов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T061648Z" creationid="Марианна" creationdate="20210215T061648Z">
+        <seg>It is possible to &lt;x1/&gt;create own SOAP and REST services&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще до введения логин/пароль в нижнем левом углу содержится номер версии (типа Loginom X.X.X, где X.X.X  –  номер версии).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074839Z" creationid="Марианна" creationdate="20200819T074839Z">
@@ -34433,6 +34441,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T095745Z" creationid="Марианна" creationdate="20200711T095745Z">
         <seg>Connection Creation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Создание собственных веб-сервисов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T061602Z" creationid="Марианна" creationdate="20210215T061602Z">
+        <seg>Creation of Own Web Services</seg>
       </tuv>
     </tu>
     <tu>
