@@ -26977,6 +26977,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Механизмы интеграции предназначены для обмена данными между платформой Loginom и сторонними внешними системами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T151644Z" creationid="Марианна" creationdate="20210215T151644Z">
+        <seg>The integration mechanisms are designated for data exchange between the third party external systems and Loginom platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Миллисекунды.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083736Z" creationid="Марианна" creationdate="20200918T083736Z">
