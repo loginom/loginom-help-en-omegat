@@ -23225,6 +23225,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для публикации следует указать путь к файлу пакета, выбрать пространство имен и нажать кнопку &lt;x1/&gt;Опубликовать&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T155144Z" creationid="Марианна" creationdate="20210215T155144Z">
+        <seg>It is required to show the path to the package file, select the namespace and press the &lt;x1/&gt;Publish&lt;x2/&gt; button for publication.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для работы с SOAP-сервисом необходимо настроенное &lt;x1/&gt;подключение к SOAP-сервису&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133326Z" creationid="Марианна" creationdate="20210208T133326Z">
@@ -28697,8 +28705,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Обновление публикации</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210215T154004Z" creationid="Марианна" creationdate="20210215T154004Z">
-        <seg>Publication Update</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T154753Z" creationid="Марианна" creationdate="20210215T154004Z">
+        <seg>Update Publication</seg>
       </tuv>
     </tu>
     <tu>
@@ -36135,6 +36143,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T132350Z" creationid="Марианна" creationdate="20210118T132350Z">
         <seg>Deletion by key is available only for the tables with the &lt;x1/&gt;MergeTree&lt;x2/&gt; engines.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Удаление публикации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T154740Z" creationid="Марианна" creationdate="20210215T154740Z">
+        <seg>Delete Publication</seg>
       </tuv>
     </tu>
     <tu>
