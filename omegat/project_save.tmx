@@ -8529,6 +8529,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Импорт&lt;x2/&gt; — раздел предназначен для описания узлов извлечения данных из внешних источников с целью их последующей обработки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T153037Z" creationid="Марианна" creationdate="20210215T153037Z">
+        <seg>&lt;x1/&gt;Import&lt;x2/&gt;. The section is designated for description of the nodes used for data retrieval from the external sources for their further processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импортировать&lt;x2/&gt; — пустые строки будут импортированы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T185737Z" creationid="Марианна" creationdate="20200825T185737Z">
