@@ -105,7 +105,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 ### [Integration](./integration/README.md)
 
-Механизмы интеграции предназначены для обмена данными между платформой Loginom и сторонними внешними системами.
+The integration mechanisms are designated for data exchange between the third party external systems and Loginom platform.
 
 * [SOAP request](./integration/soap-request.md)
 * [REST request](./integration/rest-request.md)

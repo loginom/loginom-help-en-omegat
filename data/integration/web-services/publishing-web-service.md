@@ -47,9 +47,9 @@
 
 > **Важно:** чтобы избежать конфликта имён, необходимо обеспечить уникальность пары значений:  `имя публикуемого узла` , `пространство имён публикуемого пакета`. Для этого рекомендуется у всех публикуемых пакетов использовать настройку *Генерировать уникальное для пакета* или *Генерировать уникальное для каждой версии пакета*, либо задавать уникальные пространства имён вручную.
 
-Для публикации следует указать путь к файлу пакета, выбрать пространство имен и нажать кнопку *Опубликовать*.
+It is required to show the path to the package file, select the namespace and press the *Publish* button for publication.
 
-### Обновление публикации
+### Update Publication
 
 В случае изменения настроек входных/выходных портов (например, количество или имена полей/переменных) опубликованного ранее узла, необходимо обновить публикацию пакета, в котором этот узел содержиться. Для этого нужно:
 
@@ -58,7 +58,7 @@
 
 > **Важно:** после обновления следует проверить работоспособность вызывающих переопубликованный веб-сервис узлов сценария и, при необходимости, перенастроить их.
 
-### Удаление публикации
+### Delete Publication
 
 Выбрать необходимый пакет в списке *Опубликованные пакеты* мастера *Публикация пакетов…* и нажать кнопку *Удалить*.
 
@@ -72,11 +72,11 @@ Example: `http://localhost/lgi/service.svc?wsdl`
 
 Информацию о конечных точках, операциях, URL, структуре REST-запросов и ответов можно получить по ссылке:
 
-`http://<Server>/<App>/service.svc/rest/help`, где `<Server>` — хост Loginom Integrator, `<App>` — имя приложения Loginom Integrator в IIS (задается при инсталляции Loginom Integrator, при установке по умолчанию `<App>` = `lgi`).
+`http://<Server>/<App>/service.svc/rest/help` where `<Server>` is a Loginom Integrator host, `<App>` is a name of Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
 
 Example: `http://localhost/lgi/service.svc/rest/help`
 
-Для обращения к опубликованным сервисам из сценария Loginom используются компоненты [*SOAP-запрос*](../../processors/integration/soap-request.md) и [*REST-запрос*](../../processors/integration/rest-request.md).
+To provide access to the published services from the Loginom workflow, [*SOAP request*](../../processors/integration/soap-request.md) and [*REST request*](../../processors/integration/rest-request.md) components are used.
 
 ## Compatibility of Loginom Web Services with Deductor
 
