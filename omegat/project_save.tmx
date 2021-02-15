@@ -19417,6 +19417,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Благодаря этому решения, созданные на базе Loginom, могут быть легко встроены в IT-ландшафт любой сложности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T060118Z" creationid="Марианна" creationdate="20210215T060118Z">
+        <seg>Consequently, the solutions created on the Loginom base can be easily built into IT landscape of any complexity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T200541Z" creationid="Марианна" creationdate="20201212T210411Z">
