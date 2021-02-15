@@ -12375,6 +12375,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Возможна публикация нескольких подмоделей (узлов) в различных пакетах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T062739Z" creationid="Марианна" creationdate="20210215T062739Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to publish several supernodes (nodes) in different packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для вывода данных в окно предпросмотра обрабатывается только первая тысяча строк исходного набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114709Z" creationid="Марианна" creationdate="20201113T114144Z">
@@ -22859,6 +22867,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194242Z" creationid="Марианна" creationdate="20201023T194242Z">
         <seg>One string is returned for each group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для каждой из них создается отдельный метод SOAP-сервиса и URL REST-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T063009Z" creationid="Марианна" creationdate="20210215T063009Z">
+        <seg>A separate method of SOAP service and URL REST service is created for each of them.</seg>
       </tuv>
     </tu>
     <tu>
