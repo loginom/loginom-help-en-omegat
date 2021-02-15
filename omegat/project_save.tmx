@@ -11745,6 +11745,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; — этот раздел включает описание подключений с указанием параметров доступа ко внешним системам, требуемых для последующего многократного использования;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T152808Z" creationid="Марианна" creationdate="20210215T152808Z">
+        <seg>&lt;x1/&gt;Connnection&lt;x2/&gt;. This section includes description of connections with parameters of access to the external systems that are required for the subsequent multiple use.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183319Z" creationid="Марианна" creationdate="20200810T183319Z">
@@ -22981,6 +22989,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T084811Z" creationid="Марианна" creationdate="20201223T084811Z">
         <seg>To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для описания реализации обмена данными можно выделить несколько разделов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T152332Z" creationid="Марианна" creationdate="20210215T152332Z">
+        <seg>To describe the data exchange process, several sections can be identified:</seg>
       </tuv>
     </tu>
     <tu>
