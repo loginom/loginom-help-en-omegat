@@ -37,31 +37,31 @@ In the result, a list of connections that can be created will be displayed in th
 
 Connection can be created in two ways:
 
-* перетащить нужное подключение из дерева (1) в область подключений (2);
-* дважды кликнуть по выбранному подключению в дереве.
+* drag the required connection from tree (1) to area of connections (2);
+* double click on the selected connection in the tree.
 
-В области подключений появится новое подключение (3), и откроется диалог редактирования параметров подключения.
+New connection (3) will appear in the area of connections, and the dialog of connection parameters edition will be opened.
 
-![Создание нового подключения](./readme-2.png)
+![Create New Connection](./readme-2.png)
 
-После того, как требуемые параметры будут заданы, подключение может быть протестировано.
+When all required parameters are set, the connection can be tested.
 
-Управление подключениями осуществляется с помощью панели инструментов (4):
+Toolbar (4) is used for connection control:
 
 * ![Show tree](../../images/icons/toolbar-controls/arrow-rr_default.svg) — show connection class tree;
 * ![Hide tree](../../images/icons/toolbar-controls/arrow-ll_default.svg) — hide connection class tree;
 * ![Large tiles](../../images/icons/toolbar-controls/tile_default.svg) — large tiles view;
 * ![Table](../../images/icons/toolbar-controls/table_default.svg) — table view;
-* ![группировать список](../../images/icons/toolbar-controls/group-list_default.svg) — включение группировки списка по видам подключений;
+* ![Group list](../../images/icons/toolbar-controls/group-list_default.svg) — include the list grouping by connection kinds;
 * ![Configure connection](../../images/icons/toolbar-controls/setup_default.svg) — configure connection;
 * ![Configure visibility](../../images/icons/toolbar-controls/access-rights_default.svg) — configure [visibility](../../scenario/access-modifier.md);
 * ![Delete connection](../../images/icons/toolbar-controls/delete_default.svg) — delete connection;
 * Check — test connection;
 * ![Activate connection](../../images/icons/toolbar-controls/test-connection_default.svg) — Activate connection.
 
-Навигация по подключениям осуществляется с помощью инструментов:
+The following tools are used for navigation through the connections:
 
-* ![искать по списку](../../images/icons/toolbar-controls/zoom_default.svg) — поиск подключения по имени/пути, возможно искать в разных группах;
+* ![search in list](../../images/icons/toolbar-controls/zoom_default.svg) — search for connection by name/path, it is possible to search in different groups;
 * ![Filter list](../../images/icons/toolbar-controls/filter_default.svg) — filtering by groups/captions/path of connection;
 * ![Sort list](../../images/icons/toolbar-controls/sort-asc_default.svg) — sorting.
 
@@ -84,6 +84,6 @@ The following hotkeys duplicating some listed commands are available:
 * %kbd Enter % — configure connection;
 * %kbd Delete % — delete connection.
 
-> **Важно:** Для организации подключений к некоторыми источниками, например, к некоторым базам данных, необходимо наличие установленного клиента этой СУБД, либо клиентских библиотек той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Important:** To provide connections to some sources, for example, to some databases, it is required to install the client of this DBMS or the client libraries with the same bitness as the Loginom application/server bitness.
 
 [Example of the DB connection and operation](../../quick-start/database.md)
