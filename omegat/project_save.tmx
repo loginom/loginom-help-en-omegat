@@ -19649,6 +19649,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В дальнейшем выходные данные созданного подключения используются соответствующим узлом вызова сервиса:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T060621Z" creationid="Марианна" creationdate="20210215T060621Z">
+        <seg>Later on, the output data of the created connection is used by corresponding node designated for service calling:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В дальнейшем его можно использовать в адресной строке браузера для быстрого перехода к открытому объекту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085540Z" creationid="Марианна" creationdate="20200814T085540Z">
