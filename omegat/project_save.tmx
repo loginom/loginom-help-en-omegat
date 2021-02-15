@@ -21463,6 +21463,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входные &lt;x5/&gt;порты&lt;x6/&gt; подмодели задают структуру запроса к сервису, а выходные — структуру ответа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T062704Z" creationid="Марианна" creationdate="20210215T062704Z">
+        <seg>The input supernode &lt;x5/&gt;ports&lt;x6/&gt; set the service request structure, whereas the output ones set the response structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные данные - это транзакции, сформированные в 2 поля, одно из которых является транзакцией, а второе - элементом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075122Z" creationid="Марианна" creationdate="20201210T075122Z">
@@ -36637,6 +36645,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
         <seg>The &lt;x1/&gt;supernode&lt;x2/&gt; is most commonly used to create the derived component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чаще всего таким узлом является &lt;x3/&gt;подмодель&lt;x4/&gt;, поскольку в ней возможно реализовать произвольную логику обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T062415Z" creationid="Марианна" creationdate="20210215T062415Z">
+        <seg>Most frequently, such node is a &lt;x3/&gt;supernode&lt;x4/&gt;, as it is possible to implement the random processing logics in it.</seg>
       </tuv>
     </tu>
     <tu>
