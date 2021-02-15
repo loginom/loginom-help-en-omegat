@@ -25187,6 +25187,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интеграция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T063219Z" creationid="Марианна" creationdate="20210215T063219Z">
+        <seg>Integration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интеграция и работа с веб-сервисами требует наличия следующих компонентов платформы Loginom:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222523Z" creationid="Марианна" creationdate="20210210T222523Z">
