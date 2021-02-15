@@ -6638,6 +6638,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;:
+Для интеграции с некоторыми источниками, например, базами данных и веб-сервисами, необходима предварительная настройка &lt;x3/&gt;подключения&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T152050Z" creationid="Марианна" creationdate="20210215T152050Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;:
+To provide integration with several sources, for example, databases and web services, prior &lt;x3/&gt;connection&lt;x4/&gt; setup is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: В некоторых случаях применение параллельной обработки недопустимо.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T063547Z" creationid="Марианна" creationdate="20200921T203757Z">
@@ -16398,6 +16408,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195123Z" creationid="Марианна" creationdate="20200916T195123Z">
         <seg>The LGD file already contains all required information on the field features (field name, caption, data type, etc.) that enables to export and import data sets with minimum settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Loginom имеет возможность  работать как с &lt;x1/&gt;веб-сервисами&lt;x2/&gt;, так и базами данных и файловыми хранилищами данных (электронные таблицы, текстовые файлы и т.д.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T151822Z" creationid="Марианна" creationdate="20210215T151822Z">
+        <seg>Loginom can work both with &lt;x1/&gt;web services&lt;x2/&gt;, databases and file data warehouses (spreadsheets, text files, etc.).</seg>
       </tuv>
     </tu>
     <tu>
