@@ -15546,6 +15546,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;искать по списку&lt;x2/&gt; — поиск подключения по имени/пути, возможно искать в разных группах;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T055139Z" creationid="Марианна" creationdate="20210215T055139Z">
+        <seg>&lt;x1/&gt;search in list&lt;x2/&gt; — search for connection by name/path, it is possible to search in different groups;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;крупная плитка&lt;x2/&gt; — отображение в виде крупной плитки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T205128Z" creationid="Марианна" creationdate="20210208T205128Z">
