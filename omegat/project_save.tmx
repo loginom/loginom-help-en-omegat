@@ -23001,6 +23001,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для обращения к опубликованным сервисам из сценария Loginom используются компоненты &lt;x1/&gt;&lt;x2/&gt;SOAP-запрос&lt;x3/&gt;&lt;x4/&gt; и &lt;x5/&gt;&lt;x6/&gt;REST-запрос&lt;x7/&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T154652Z" creationid="Марианна" creationdate="20210215T154652Z">
+        <seg>To provide access to the published services from the Loginom workflow, &lt;x1/&gt;&lt;x2/&gt;SOAP request&lt;x3/&gt;&lt;x4/&gt; and &lt;x5/&gt;&lt;x6/&gt;REST request&lt;x7/&gt;&lt;x8/&gt; components are used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для обучения используется квазиньютоновский &lt;x3/&gt;метод Бройдена-Флетчера-Гольдфарба-Шанно&lt;x4/&gt; с ограниченным использованием памяти L-BFGS.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T215409Z" creationid="Марианна" creationdate="20201221T140651Z">
