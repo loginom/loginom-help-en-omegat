@@ -22727,6 +22727,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для его преобразования в табличный вид предназначен компонент &lt;x3/&gt;Извлечение XML&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T061201Z" creationid="Марианна" creationdate="20210215T061201Z">
+        <seg>&lt;x3/&gt;XML Extraction&lt;x4/&gt; component is designated for its transformation to the table form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для заключения узла в цикл следует отметить его радиокнопкой и перейти к следующему шагу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195107Z" creationid="Марианна" creationdate="20200921T195107Z">
@@ -23051,6 +23059,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T084931Z" creationid="Марианна" creationdate="20200918T084931Z">
         <seg>To represent '11.08.1917' date in the following form: "It was &lt;x1/&gt;August&lt;x2/&gt; &lt;x3/&gt;17&lt;x4/&gt;" the following formatting string is used: "It was &lt;x5/&gt;mmmm&lt;x6/&gt; &lt;x7/&gt;yy&lt;x8/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для преобразования ответа, полученного в виде JSON, возможно использование конструкции &lt;x5/&gt;JSON.parse()&lt;x6/&gt; в компоненте &lt;x7/&gt;Java-script&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T061323Z" creationid="Марианна" creationdate="20210215T061323Z">
+        <seg>To transform the response received in the form of JSON, it is possible to use &lt;x5/&gt;JSON.parse()&lt;x6/&gt; construction in &lt;x7/&gt;Java-script&lt;x8/&gt; component.</seg>
       </tuv>
     </tu>
     <tu>
