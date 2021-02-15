@@ -6736,6 +6736,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Веб-сервисы&lt;x2/&gt; — данный раздел описывает работу Loginom с веб-сервисами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T153727Z" creationid="Марианна" creationdate="20210215T153727Z">
+        <seg>&lt;x1/&gt;Web services&lt;x2/&gt;. This section describes Loginom and web services operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вероятность принадлежности&lt;x2/&gt; — для каждого объекта проставляется вероятность принадлежности к данному кластеру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205642Z" creationid="Марианна" creationdate="20201212T205619Z">
@@ -15488,6 +15496,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T091350Z" creationid="Марианна" creationdate="20201117T091300Z">
         <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt; provides export of the replacement table to the text file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; — раздел предназначен для описания узлов наполнения внешних систем обработанными данными с целью их дальнейшего хранения, использования, пересылки или публикации;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T153324Z" creationid="Марианна" creationdate="20210215T153324Z">
+        <seg>&lt;x1/&gt;Export&lt;x2/&gt;. The section is designated for description of the nodes used for filling the external systems with the processed data for their further storage, use, transfer or publication.</seg>
       </tuv>
     </tu>
     <tu>
