@@ -23351,6 +23351,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого необходимо &lt;x5/&gt;создать&lt;x6/&gt; соответствующее подключение:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T060501Z" creationid="Марианна" creationdate="20210215T060501Z">
+        <seg>For this purpose, it is required to &lt;x5/&gt;create&lt;x6/&gt; corresponding connection:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого необходимо выделить узел, который нужно переместить и нажать на кнопки &lt;x1/&gt;Переместить вверх&lt;x2/&gt;&lt;x3/&gt;Переместить вверх&lt;x4/&gt; (комбинация горячих клавиш &lt;x5/&gt;Ctrl+Up&lt;x6/&gt;) или &lt;x7/&gt;Переместить вниз&lt;x8/&gt;&lt;x9/&gt;Переместить вниз&lt;x10/&gt; (комбинация горячих клавиш &lt;x11/&gt;Ctrl+Down&lt;x12/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075221Z" creationid="Марианна" creationdate="20200929T194729Z">
@@ -30229,6 +30237,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Платформа Loginom предоставляет возможность интеграции с &lt;x1/&gt;SOAP&lt;x2/&gt; или &lt;x3/&gt;REST&lt;x4/&gt; сервисами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T060413Z" creationid="Марианна" creationdate="20210215T060413Z">
+        <seg>Loginom platform provides integration with &lt;x1/&gt;SOAP&lt;x2/&gt; or &lt;x3/&gt;REST&lt;x4/&gt; services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Плитка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064345Z" creationid="Марианна" creationdate="20201023T064345Z">
@@ -33225,6 +33241,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094258Z" creationid="Марианна" creationdate="20200813T093856Z">
         <seg>Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Работа с веб-сервисами</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T060317Z" creationid="Марианна" creationdate="20210215T060317Z">
+        <seg>Web Services Operation</seg>
       </tuv>
     </tu>
     <tu>
