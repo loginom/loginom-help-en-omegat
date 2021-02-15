@@ -12567,6 +12567,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Ряд сервисов предоставляет ответ в виде вложенного XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T061008Z" creationid="Марианна" creationdate="20210215T061008Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Some services give response in the form of nested XML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее в платформе Deductor файлов DDF.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T200456Z" creationid="Марианна" creationdate="20200916T200456Z">
