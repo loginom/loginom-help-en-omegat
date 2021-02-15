@@ -6022,6 +6022,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc/rest/help&lt;x2/&gt;, где &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt; — хост Loginom Integrator, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; — имя приложения Loginom Integrator в IIS (задается при инсталляции Loginom Integrator, при установке по умолчанию &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T154344Z" creationid="Марианна" creationdate="20210215T154344Z">
+        <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc/rest/help&lt;x2/&gt; where &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt; is a Loginom Integrator host, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; is a name of Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;info(&lt;x2/&gt;msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060328Z" creationid="Марианна" creationdate="20201029T060328Z">
@@ -28675,6 +28683,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134242Z" creationid="Марианна" creationdate="20201015T085008Z">
         <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обновление публикации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210215T154004Z" creationid="Марианна" creationdate="20210215T154004Z">
+        <seg>Publication Update</seg>
       </tuv>
     </tu>
     <tu>
