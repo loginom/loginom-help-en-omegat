@@ -33359,6 +33359,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Публикация и работа созданных в Loginom веб-сервисов доступна при наличии установленного компонента &lt;x1/&gt;Loginom Integrator&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210216T163707Z" creationid="Марианна" creationdate="20210216T163707Z">
+        <seg>Publication and operation of the web services created in Loginom are available if the &lt;x1/&gt;Loginom Integrator&lt;x2/&gt; component is installed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пул подключений не используется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120144Z" creationid="Марианна" creationdate="20210118T120144Z">
