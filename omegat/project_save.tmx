@@ -25917,6 +25917,15 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как правило, (но не обязательно)
+метод принимает входные данные и возвращает ответ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210216T164546Z" creationid="Марианна" creationdate="20210216T164546Z">
+        <seg>As a rule, the method receives the input data and returns the response (but not necessarily).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как правило, содержит поля основного и присоединяемого наборов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105422Z" creationid="Марианна" creationdate="20201111T105422Z">
