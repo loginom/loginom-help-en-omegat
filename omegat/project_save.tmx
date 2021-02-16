@@ -22465,6 +22465,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Действие, выполняемое методом, в Loginom реализуется публикуемым узлом Сценария, а структура входных данных и ответа определяется входными и выходными портами этого узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210216T164801Z" creationid="Марианна" creationdate="20210216T164801Z">
+        <seg>The action performed by the method is implemented in Loginom by the published Workflow node, and the structure of the input data and response is defined by the input and output ports of this node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Действия над выбранными полями можно осуществлять мышью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083036Z" creationid="Марианна" creationdate="20201006T083036Z">
