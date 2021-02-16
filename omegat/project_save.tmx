@@ -21033,6 +21033,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Взаимодействие с веб-сервисом осуществляется при помощи его методов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210216T163834Z" creationid="Марианна" creationdate="20210216T163834Z">
+        <seg>Interaction with web service is performed using its methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вид данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083408Z" creationid="Марианна" creationdate="20201030T083408Z">
@@ -25833,6 +25841,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T133901Z" creationid="Марианна" creationdate="20201118T133901Z">
         <seg>Each selected option of transformation in the resulting data set will form a separate column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Каждый метод веб-сервиса имеет определенный идентификатор и выполняет сопоставленное этому идентификатору действие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210216T164415Z" creationid="Марианна" creationdate="20210216T164415Z">
+        <seg>Each web service method has a particular identifier and performs the action that matches this identifier.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33603,6 +33619,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210719Z" creationid="Марианна" creationdate="20201217T210640Z">
         <seg>Calculated value of &lt;x1/&gt;regression&lt;x2/&gt; equation (changes from 0 to 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализация методов сервиса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210216T163729Z" creationid="Марианна" creationdate="20210216T163729Z">
+        <seg>Implementation of the Service Methods</seg>
       </tuv>
     </tu>
     <tu>
