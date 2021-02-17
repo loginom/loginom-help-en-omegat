@@ -20563,6 +20563,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае, если таких узлов в пакете несколько и публикуется несколько пакетов, то для каждого из таких узлов создается соответствующий ему метод SOAP-сервиса и операция REST-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T105439Z" creationid="Марианна" creationdate="20210217T105439Z">
+        <seg>If the package contains several such nodes and several packages are published, the SOAP service method and REST service operation are created for each of such nodes providing that it complies with it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, когда имена переменных из разных наборов совпадают, в выходном наборе имена таких переменных будут дополнены уникальными номерами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T085932Z" creationid="Марианна" creationdate="20201006T152449Z">
@@ -28570,8 +28578,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Но в общем случае таким узлом может быть любой узел Сценария, имеющий настройки, описанные в разделе &lt;x5/&gt;&lt;x6/&gt;Настройка публикуемых узлов&lt;x7/&gt;&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T104640Z" creationid="Марианна" creationdate="20210217T104640Z">
-        <seg>But, generally, any Workflow node with the settings described in section &lt;x5/&gt;&lt;x6/&gt;Configure published nodes&lt;x7/&gt;&lt;x8/&gt; can be such node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T104703Z" creationid="Марианна" creationdate="20210217T104640Z">
+        <seg>But, generally, any Workflow node with the settings described in &lt;x5/&gt;&lt;x6/&gt;Configure published nodes&lt;x7/&gt;&lt;x8/&gt; section can be such node.</seg>
       </tuv>
     </tu>
     <tu>
