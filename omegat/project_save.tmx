@@ -24201,6 +24201,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если при включенной автосинхронизации удалить связь порта с источником данных, то ранее созданные из данных поля/переменные будут удалены из порта механизмом автосинхронизации как временные, актуальные только для конкретных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T120126Z" creationid="Марианна" creationdate="20210217T120126Z">
+        <seg>If the port link with the data source is deleted when the automapping is enabled, the fields/variables that have been earlier created from the data will be deleted from the port by the automapping mechanism as the temporary ones relevant only to the specific data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если применяется &lt;x1/&gt;Метод разгруппировки: С учетом временных колебаний и сезонности опорных данных&lt;x2/&gt;, то в эту таблицу добавляются также следующие поля:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201204T060932Z" creationid="Марианна" creationdate="20201126T065853Z">
