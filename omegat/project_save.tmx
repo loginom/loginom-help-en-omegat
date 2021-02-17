@@ -31840,6 +31840,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После того, как необходимые для публикации узлы сценария настроены, необходимо произвести публикацию пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T123547Z" creationid="Марианна" creationdate="20210217T123547Z">
+        <seg>When workflow nodes are set as the nodes required for publication, it is necessary to publish the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После того, как требуемые параметры будут заданы, подключение может быть протестировано.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T121923Z" creationid="Марианна" creationdate="20210213T121923Z">
