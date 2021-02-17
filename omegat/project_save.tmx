@@ -29752,6 +29752,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Очистить список и создать все необходимые поля/переменные вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T122253Z" creationid="Марианна" creationdate="20210217T122253Z">
+        <seg>Clean the list and create all required fields/variables manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Очищает консоль вывода сообщений в окне &lt;x1/&gt;Предпросмотра&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060510Z" creationid="Марианна" creationdate="20201029T060510Z">
