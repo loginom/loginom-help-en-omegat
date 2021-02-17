@@ -24081,6 +24081,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если механизмом автосинхронизации уже созданы необходимые поля/переменные из подаваемых в порт данных, то необходимо отредактировать любой из &lt;x1/&gt;&lt;x2/&gt;параметров&lt;x3/&gt;&lt;x4/&gt; (&lt;x5/&gt;Имя&lt;x6/&gt;, &lt;x7/&gt;Метку&lt;x8/&gt;, &lt;x9/&gt;Назначение&lt;x10/&gt; и т.д.) всех необходимых полей/переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T121910Z" creationid="Марианна" creationdate="20210217T121910Z">
+        <seg>If the required fields/variables have been already created by the automapping mechanism from the data supplied to the port, it is required to edit any of the following &lt;x1/&gt;&lt;x2/&gt;parameters&lt;x3/&gt;&lt;x4/&gt; (&lt;x5/&gt;Name&lt;x6/&gt;, &lt;x7/&gt;Caption&lt;x8/&gt;, &lt;x9/&gt;Usage type&lt;x10/&gt;, etc.) of all required fields/variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если начальная точка не задана, то степень регуляризации подбирается методом "золотого сечения", в противном случае - методом "схождения к вершине".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T083217Z" creationid="Марианна" creationdate="20201224T083217Z">
@@ -25001,6 +25009,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081702Z" creationid="Марианна" creationdate="20201006T202346Z">
         <seg>Further changes of the replacement table or file will not have an impact on each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Измененные поля выделяются в мастере настройки порта жирным шрифтом и фиксируются как постоянные, ожидаемые портом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T122137Z" creationid="Марианна" creationdate="20210217T122137Z">
+        <seg>If the changed fields are highlighted in bold in the wizard, and they are reflected as the constant ones expected by the port.</seg>
       </tuv>
     </tu>
     <tu>
