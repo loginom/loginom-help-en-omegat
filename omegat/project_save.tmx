@@ -37164,6 +37164,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы опубликовать пакет, в &lt;x1/&gt;дереве навигации&lt;x2/&gt; необходимо кликнуть на нужном пакете правой кнопкой мыши и в контекстном меню выбрать пункт &lt;x3/&gt;Публикация пакетов…&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T124355Z" creationid="Марианна" creationdate="20210217T124355Z">
+        <seg>To publish the package, it is required to click on the required package in the &lt;x1/&gt;navigation tree&lt;x2/&gt; using the right button, and select&lt;x3/&gt;Publish packages…&lt;x4/&gt; in the context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы посмотреть свойства узла, необходимо его выделить и нажать на кнопку &lt;x1/&gt;Показать/скрыть инспектор свойств&lt;x2/&gt; на панели инструментов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T091931Z" creationid="Марианна" creationdate="20200818T095749Z">
