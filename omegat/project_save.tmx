@@ -20515,6 +20515,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с этим порты публикуемых узлов необходимо настроить одним из способов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T120636Z" creationid="Марианна" creationdate="20210217T120636Z">
+        <seg>Consequently, ports of the published nodes must be configured using one of the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В серверной версии путь указывается от корневого каталога.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T125631Z" creationid="Марианна" creationdate="20200816T133330Z">
@@ -29508,6 +29516,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T091849Z" creationid="Марианна" creationdate="20201223T091849Z">
         <seg>The optimizer is stopped in some specific cases if, from a theoretical standpoint, the best result is reached.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отключить &lt;x1/&gt;автосинхронизацию полей&lt;x2/&gt; и при необходимости задать нужные поля/переменные (рекомендуется).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T121610Z" creationid="Марианна" creationdate="20210217T121610Z">
+        <seg>It is required to disable &lt;x1/&gt;Automapping of fields&lt;x2/&gt; and set the required fields/variables (recommended) when applicable.</seg>
       </tuv>
     </tu>
     <tu>
