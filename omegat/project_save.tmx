@@ -20531,6 +20531,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае с REST-сервисом для каждого из публикуемых пакетов создается конечная точка REST-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T105759Z" creationid="Марианна" creationdate="20210217T105759Z">
+        <seg>In the case of REST service, the REST service endpoint is created for each of the published packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, если используется многопользовательский доступ к БД, рекомендуется использовать сервер Firebird для избежания блокировок доступа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T085612Z" creationid="Марианна" creationdate="20210121T085612Z">
@@ -28072,6 +28080,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T070037Z" creationid="Марианна" creationdate="20200924T070037Z">
         <seg>Configuration of the Node Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка публикуемых узлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T105516Z" creationid="Марианна" creationdate="20210217T105516Z">
+        <seg>Configure Published Nodes</seg>
       </tuv>
     </tu>
     <tu>
