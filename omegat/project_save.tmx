@@ -29896,6 +29896,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр &lt;x1/&gt;Назначение&lt;x2/&gt; входного поля влияет на свойство его обязательности в запросе к сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T122724Z" creationid="Марианна" creationdate="20210217T122724Z">
+        <seg>&lt;x1/&gt;Usage type&lt;x2/&gt; parameter of the input field affects its property of obligatory specification in the service request.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр &lt;x1/&gt;Способ обработки неполных записей&lt;x2/&gt; предоставляет следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
