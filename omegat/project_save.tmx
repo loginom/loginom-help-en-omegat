@@ -28568,6 +28568,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но в общем случае таким узлом может быть любой узел Сценария, имеющий настройки, описанные в разделе &lt;x5/&gt;&lt;x6/&gt;Настройка публикуемых узлов&lt;x7/&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T104640Z" creationid="Марианна" creationdate="20210217T104640Z">
+        <seg>But, generally, any Workflow node with the settings described in section &lt;x5/&gt;&lt;x6/&gt;Configure published nodes&lt;x7/&gt;&lt;x8/&gt; can be such node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но в этом случае в результирующей таблице сохранится столбец с оставшимися значениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064054Z" creationid="Марианна" creationdate="20201023T064054Z">
