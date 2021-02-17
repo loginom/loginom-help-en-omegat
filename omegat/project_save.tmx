@@ -37684,6 +37684,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>задан &lt;x1/&gt;&lt;x2/&gt;модификатор доступа&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Опубликованный&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T110808Z" creationid="Марианна" creationdate="20210217T110808Z">
+        <seg>the following &lt;x1/&gt;&lt;x2/&gt;access modifier&lt;x3/&gt;&lt;x4/&gt; is set: &lt;x5/&gt;Published&lt;x6/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>заканчивается на</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170426Z" creationid="Марианна" creationdate="20201111T170426Z">
