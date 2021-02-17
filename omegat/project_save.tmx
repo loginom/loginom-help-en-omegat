@@ -12689,6 +12689,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; для минимизации возможных проблем подключения к веб-сервису сторонними клиентами рекомендуется использовать в имени публикуемого пакета только символы английского алфавита, числа и символ подчеркивания.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T124151Z" creationid="Марианна" creationdate="20210217T124151Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; In order to minimise possible problems of connection to the web service using the external clients, it is recommended to use only the English alphabet characters, numbers and underscore character in the name of the published package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; для отображения управляющих портов необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082048Z" creationid="Марианна" creationdate="20201009T082048Z">
