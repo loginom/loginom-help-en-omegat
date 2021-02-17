@@ -33440,6 +33440,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Публикуемый в качестве метода веб-сервиса узел должен иметь следующие настройки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T105856Z" creationid="Марианна" creationdate="20210217T105856Z">
+        <seg>The node published as the web service method must have the following settings:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пул подключений не используется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120144Z" creationid="Марианна" creationdate="20210118T120144Z">
