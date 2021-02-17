@@ -13076,6 +13076,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Путь к файлу пакета&lt;x2/&gt; — указывается вручную или выбирается из выпадающего списка открытых пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T124620Z" creationid="Марианна" creationdate="20210217T124620Z">
+        <seg>&lt;x1/&gt;Path to the package file&lt;x2/&gt; is manually specified or selected from the drop-down list of the opened packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Путь&lt;x2/&gt; — путь до открытого &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133207Z" creationid="Марианна" creationdate="20200816T133207Z">
@@ -29556,6 +29564,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T121610Z" creationid="Марианна" creationdate="20210217T121610Z">
         <seg>It is required to disable &lt;x1/&gt;Automapping of fields&lt;x2/&gt; and set the required fields/variables (recommended) when applicable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Откроется мастер публикации пакетов со следующими настройками:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T124511Z" creationid="Марианна" creationdate="20210217T124511Z">
+        <seg>It will enable to open the package publication wizard with the following settings:</seg>
       </tuv>
     </tu>
     <tu>
