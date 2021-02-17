@@ -31384,6 +31384,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поля с &lt;x3/&gt;Назначением&lt;x4/&gt; &lt;x5/&gt;Не задано&lt;x6/&gt; или &lt;x7/&gt;Непригодное&lt;x8/&gt; публикуются как необязательные (в WSDL SOAP-сервиса имеют атрибут &lt;x9/&gt;minOccurs="0"&lt;x10/&gt;, а в схеме запроса REST-сервиса не входят в состав &lt;x11/&gt;required&lt;x12/&gt;-узлов).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T123214Z" creationid="Марианна" creationdate="20210217T123214Z">
+        <seg>The fields with &lt;x5/&gt;Unspecified&lt;x6/&gt;or &lt;x7/&gt;Useless&lt;x8/&gt; &lt;x3/&gt;Usage type&lt;x4/&gt; are published as optional (they have &lt;x9/&gt;minOccurs="0"&lt;x10/&gt; attribute in WSDL of SOAP service, they are not included into &lt;x11/&gt;required&lt;x12/&gt; nodes in the request schema of REST service).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поля с непрерывным видом данных непригодны для обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075317Z" creationid="Марианна" creationdate="20201210T075317Z">
