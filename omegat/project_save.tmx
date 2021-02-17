@@ -7265,6 +7265,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбрать пространство имен&lt;x2/&gt; — пространство имён элементов и атрибутов, служащее для обеспечения их уникальности в WSDL-описании сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T125626Z" creationid="Марианна" creationdate="20210217T125626Z">
+        <seg>&lt;x1/&gt;Select namespace&lt;x2/&gt; means the namespace of items and attributes that provides their uniqueness in WSDL description of the service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выводить&lt;x2/&gt; &lt;x3/&gt;Выводить&lt;x4/&gt; — определяет будет ли добавлен этот элемент в виде поля в выходной набор данных (если отключено, то поле добавлено не будет, но по нему можно установить фильтр);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201715Z" creationid="Марианна" creationdate="20200829T201715Z">
