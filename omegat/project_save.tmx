@@ -24203,8 +24203,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если при включенной автосинхронизации удалить связь порта с источником данных, то ранее созданные из данных поля/переменные будут удалены из порта механизмом автосинхронизации как временные, актуальные только для конкретных данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T120126Z" creationid="Марианна" creationdate="20210217T120126Z">
-        <seg>If the port link with the data source is deleted when the automapping is enabled, the fields/variables that have been earlier created from the data will be deleted from the port by the automapping mechanism as the temporary ones relevant only to the specific data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T120335Z" creationid="Марианна" creationdate="20210217T120126Z">
+        <seg>If the port link with the data source is deleted when automapping is enabled, the fields/variables that have been earlier created from the data will be deleted from the port by the automapping mechanism as the temporary ones that are relevant only to the specific data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32596,6 +32596,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T150223Z" creationid="Марианна" creationdate="20201118T132448Z">
         <seg>When transforming to &lt;x1/&gt;Date/Time&lt;x2/&gt; &lt;x3/&gt;Date/Time&lt;x4/&gt; data type, it is possible to select the period start and/or end for some formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При публикации такого узла поля/переменные в портах не будут заданы, соответственно структуры запроса/ответа сервиса не будут определены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T120534Z" creationid="Марианна" creationdate="20210217T120534Z">
+        <seg>When publishing such node, the fields/variables in the ports will not be set, correspondingly, structures of the service request/response will not be defined.</seg>
       </tuv>
     </tu>
     <tu>
