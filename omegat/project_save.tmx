@@ -19851,6 +19851,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве идентификатора метода используется строка, состоящая из имени узла и имени пакета, в котором узел содержится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T084526Z" creationid="Марианна" creationdate="20210217T084526Z">
+        <seg>The string that consists of the node name and name of the package with the node is used as the method identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве ограничителя строк могут быть использованы символы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151630Z" creationid="Марианна" creationdate="20200917T151630Z">
