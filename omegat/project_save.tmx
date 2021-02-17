@@ -36828,6 +36828,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чаще всего в качестве такого узла выступает &lt;x1/&gt;&lt;x2/&gt;Подмодель&lt;x3/&gt;&lt;x4/&gt;, поскольку в ней пользователь имеет возможность реализовать произвольную логику и задать структуру входных и выходных данных, создавая и настраивая ее порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T084949Z" creationid="Марианна" creationdate="20210217T084949Z">
+        <seg>Most frequently, the &lt;x1/&gt;&lt;x2/&gt;Supernode&lt;x3/&gt;&lt;x4/&gt; is used as such node, because a user can implement the random logics in it and set the structure of the input and output data creating and configuring its ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чаще всего для создания производного компонента используется &lt;x1/&gt;Подмодель&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093404Z" creationid="Марианна" creationdate="20200715T093244Z">
