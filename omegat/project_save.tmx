@@ -6630,6 +6630,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; при использовании &lt;x3/&gt;&lt;x4/&gt;автосинхронизации полей&lt;x5/&gt;&lt;x6/&gt; возможны ситуации, когда поля/переменные в портах определены механизмом автосинхронизации из структуры данных, подаваемых в порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210217T114156Z" creationid="Марианна" creationdate="20210217T114156Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; When &lt;x3/&gt;&lt;x4/&gt;Automapping of fields&lt;x5/&gt;&lt;x6/&gt; is used, there might be situations in which the fields/variables in ports are defined by the automapping mechanism based on structure of the data supplied to the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; программа не поддерживает автосохранений, при закрытии окна программы (вкладки браузера) все изменения будут утеряны.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T135255Z" creationid="Марианна" creationdate="20200716T122254Z">
