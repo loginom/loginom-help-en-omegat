@@ -10417,6 +10417,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка внешнего разбиения&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224135Z" creationid="Марианна" creationdate="20210218T224135Z">
+        <seg>&lt;x1/&gt;Configure External Binning&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка кавычек&lt;x2/&gt; — является информационным полем, указывающим, какие именно обрамляющие символы используются в подключении  к данной БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T174203Z" creationid="Марианна" creationdate="20210121T174203Z">
@@ -10493,6 +10501,46 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T112309Z" creationid="Марианна" creationdate="20210118T112309Z">
         <seg>&lt;x1/&gt;SSL settings&lt;x2/&gt;: &lt;x3/&gt; &lt;x4/&gt; button enables to call the dialog of connection parameters setup via secure connection:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройки алгоритма&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224146Z" creationid="Марианна" creationdate="20210218T224146Z">
+        <seg>&lt;x1/&gt;Algorithm Settings&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройки внешнего разбиения&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224124Z" creationid="Марианна" creationdate="20210218T224124Z">
+        <seg>&lt;x1/&gt;Configure External Binning&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройки входного дискретного поля&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224056Z" creationid="Марианна" creationdate="20210218T224056Z">
+        <seg>&lt;x1/&gt;Input Discrete Field Settings&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройки входного непрерывного поля&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224042Z" creationid="Марианна" creationdate="20210218T224042Z">
+        <seg>&lt;x1/&gt;Input Continuous Field Settings&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройки выходного поля&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224112Z" creationid="Марианна" creationdate="20210218T224112Z">
+        <seg>&lt;x1/&gt;Configure Output Field&lt;x2/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -27516,6 +27564,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальное количество классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224213Z" creationid="Марианна" creationdate="20210218T224213Z">
+        <seg>Maximum class count.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Максимальное количество эпох - максимальное количество итераций обучения алгоритма.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T084611Z" creationid="Марианна" creationdate="20201222T084611Z">
@@ -34444,6 +34500,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T081119Z" creationid="Марианна" creationdate="20200819T081119Z">
         <seg>Working space consists of a panel of components, toolbar and area of the Workflow construction (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Равномерность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224253Z" creationid="Марианна" creationdate="20210218T224253Z">
+        <seg>Uniformity.</seg>
       </tuv>
     </tu>
     <tu>
