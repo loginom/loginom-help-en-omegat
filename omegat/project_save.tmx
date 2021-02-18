@@ -37764,6 +37764,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>выбрать этот пакет в списке &lt;x1/&gt;Опубликованные пакеты&lt;x2/&gt; мастера &lt;x3/&gt;Публикация пакетов…&lt;x4/&gt; и нажать кнопку &lt;x5/&gt;Обновить&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T140108Z" creationid="Марианна" creationdate="20210218T140108Z">
+        <seg>select this package in &lt;x1/&gt;Published packages&lt;x2/&gt; list of &lt;x3/&gt;Publish packages…&lt;x4/&gt; wizard and press &lt;x5/&gt;Refresh&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>выше).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T073916Z" creationid="Марианна" creationdate="20200819T073916Z">
@@ -38544,6 +38552,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170344Z" creationid="Марианна" creationdate="20201111T170344Z">
         <seg>contains</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>сохранить пакет с измененным узлом;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T135616Z" creationid="Марианна" creationdate="20210218T135616Z">
+        <seg>save the package with the changed node;</seg>
       </tuv>
     </tu>
     <tu>
