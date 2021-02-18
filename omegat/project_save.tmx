@@ -10729,6 +10729,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Общие папки&lt;x2/&gt; Общие папки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221203Z" creationid="Марианна" creationdate="20210218T221203Z">
+        <seg>&lt;x1/&gt;Shared Folders&lt;x2/&gt; Shared Folders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Объединение переменных&lt;x2/&gt; — объединяет два или более наборов переменных в один набор;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T091529Z" creationid="Марианна" creationdate="20201009T091529Z">
