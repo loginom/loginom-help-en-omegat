@@ -3732,6 +3732,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Сглаживание</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223353Z" creationid="Марианна" creationdate="20210218T223353Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Smoothing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Сэмплинг</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221508Z" creationid="Марианна" creationdate="20210218T221508Z">
@@ -19755,6 +19763,22 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Антисимметричное без крайней точки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223526Z" creationid="Марианна" creationdate="20210218T223526Z">
+        <seg>Antisymmetric without extreme point.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Антисимметричное;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223413Z" creationid="Марианна" creationdate="20210218T223413Z">
+        <seg>Antisymmetric;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ассоциативные правила</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103422Z" creationid="Марианна" creationdate="20201208T103422Z">
@@ -27094,6 +27118,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Константное;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223434Z" creationid="Марианна" creationdate="20210218T223434Z">
+        <seg>Constant;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Конструкция &lt;x5/&gt;%CONDITION%&lt;x6/&gt; в тексте запроса будет заменена на строковое значение переменной &lt;x7/&gt;CONDITION&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125344Z" creationid="Марианна" creationdate="20200823T125344Z">
@@ -29272,6 +29304,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нижняя граница</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223303Z" creationid="Марианна" creationdate="20210218T223303Z">
+        <seg>Lower bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нижняя граница &lt;x1/&gt;доверительного интервала&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135852Z" creationid="Марианна" creationdate="20201210T135852Z">
@@ -31212,6 +31252,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083150Z" creationid="Марианна" creationdate="20201214T083150Z">
         <seg>The following options are available for different methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Периодическое;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223443Z" creationid="Марианна" creationdate="20210218T223443Z">
+        <seg>Periodic;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34136,6 +34184,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Продолжение нулями;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223424Z" creationid="Марианна" creationdate="20210218T223424Z">
+        <seg>Zero padding;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Продолжить обучение - установление данного флага позволяет начать переобучение модели не со случайных значений весов нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053351Z" creationid="Марианна" creationdate="20201222T053351Z">
@@ -35132,6 +35188,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110629Z" creationid="Марианна" creationdate="20200929T110629Z">
         <seg>Underscore characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Симметричное без крайней точки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223502Z" creationid="Марианна" creationdate="20210218T223502Z">
+        <seg>Symmetric without extreme point;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Симметричное;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223402Z" creationid="Марианна" creationdate="20210218T223402Z">
+        <seg>Symmetric;</seg>
       </tuv>
     </tu>
     <tu>
