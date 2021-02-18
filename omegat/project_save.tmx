@@ -3996,6 +3996,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Источник данных запроса (таблица с параметрами запроса), необязательный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230231Z" creationid="Марианна" creationdate="20210218T230231Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Request data source (table with the request parameters), optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Подключение к REST-сервису (связь с компонентом &lt;x3/&gt;Подключение REST-сервиса&lt;x4/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133610Z" creationid="Марианна" creationdate="20210208T133610Z">
@@ -5360,6 +5368,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T225814Z" creationid="Марианна" creationdate="20210218T225814Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — Output data set (table with the service responses);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Дополнительные данные (таблица с результатами выполнения запросов, описанием ошибок).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230419Z" creationid="Марианна" creationdate="20210218T230419Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Additional data (table with the results of requests execution, errors description).</seg>
       </tuv>
     </tu>
     <tu>
@@ -22385,6 +22401,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор метода запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230030Z" creationid="Марианна" creationdate="20210218T230030Z">
+        <seg>Selection of the request method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор объекта хранилища данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T102659Z" creationid="Марианна" creationdate="20200827T193837Z">
@@ -24445,6 +24469,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092755Z" creationid="Марианна" creationdate="20201117T092755Z">
         <seg>Additional replacement options are displayed in the resulting data set in the form of a separate column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дополнительные данные о результатах выполнения каждого запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230146Z" creationid="Марианна" creationdate="20210218T230146Z">
+        <seg>Additional data on the results of each request execution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29028,6 +29060,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка обрабатываемых исключений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230041Z" creationid="Марианна" creationdate="20210218T230041Z">
+        <seg>Configure Exception Handled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка параметров</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082748Z" creationid="Марианна" creationdate="20201214T082748Z">
@@ -29072,6 +29112,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190439Z" creationid="Марианна" creationdate="20200825T190439Z">
         <seg>Configure Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка пользовательских заголовков</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230106Z" creationid="Марианна" creationdate="20210218T230106Z">
+        <seg>Custom User Headers</seg>
       </tuv>
     </tu>
     <tu>
