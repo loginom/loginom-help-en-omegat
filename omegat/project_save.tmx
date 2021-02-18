@@ -3268,6 +3268,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; REST-запрос</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224630Z" creationid="Марианна" creationdate="20210218T224630Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; REST Request</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Автокорреляция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T105048Z" creationid="Марианна" creationdate="20201009T105048Z">
@@ -3324,6 +3332,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Выполнение программы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224401Z" creationid="Марианна" creationdate="20210218T224401Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Program Execution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T213525Z" creationid="Марианна" creationdate="20201012T213525Z">
@@ -3376,6 +3392,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222143Z" creationid="Марианна" creationdate="20210218T222143Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Imputation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Извлечение XML</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224529Z" creationid="Марианна" creationdate="20210218T224529Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; XML Extraction</seg>
       </tuv>
     </tu>
     <tu>
@@ -3904,6 +3928,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T074917Z" creationid="Марианна" creationdate="20201210T074917Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Input data source (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Входные переменные (переменные) — необязательный порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224441Z" creationid="Марианна" creationdate="20210218T224441Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Input variables (variables) — optional port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5168,6 +5200,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133431Z" creationid="Марианна" creationdate="20200819T133431Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Delete selected enables to delete the selected nodes/links of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Формирование XML</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224543Z" creationid="Марианна" creationdate="20210218T224543Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; XML generation</seg>
       </tuv>
     </tu>
     <tu>
@@ -16308,6 +16348,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x7/&gt;Примеры&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224456Z" creationid="Марианна" creationdate="20210218T224456Z">
+        <seg>&lt;x7/&gt;Examples&lt;x8/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AND Books.year &gt; 2005</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113218Z" creationid="Марианна" creationdate="20200825T113218Z">
@@ -21925,6 +21973,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T093652Z" creationid="Марианна" creationdate="20201127T093652Z">
         <seg>The following options of the fields usage types are possible:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возможные значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224553Z" creationid="Марианна" creationdate="20210218T224553Z">
+        <seg>Possible values:</seg>
       </tuv>
     </tu>
     <tu>
@@ -30924,6 +30980,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213104Z" creationid="Марианна" creationdate="20201216T213104Z">
         <seg>Network Parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры формирования XML</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224610Z" creationid="Марианна" creationdate="20210218T224610Z">
+        <seg>XML Generation Parameters</seg>
       </tuv>
     </tu>
     <tu>
