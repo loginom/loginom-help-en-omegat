@@ -3276,6 +3276,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; SOAP-запрос</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224703Z" creationid="Марианна" creationdate="20210218T224703Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; SOAP Request</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Автокорреляция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T105048Z" creationid="Марианна" creationdate="20201009T105048Z">
@@ -3944,6 +3952,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075010Z" creationid="Марианна" creationdate="20201210T075010Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Supplementary input (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Исключения (WSDL fault);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224720Z" creationid="Марианна" creationdate="20210218T224720Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Exceptions (WSDL fault);</seg>
       </tuv>
     </tu>
     <tu>
@@ -24329,6 +24345,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дополнительно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224915Z" creationid="Марианна" creationdate="20210218T224915Z">
+        <seg>Additional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дополнительные варианты замены выводятся в результирующем наборе данных отдельным столбцом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092755Z" creationid="Марианна" creationdate="20201117T092755Z">
@@ -25641,6 +25665,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103843Z" creationid="Марианна" creationdate="20201208T103843Z">
         <seg>Identifiers and transaction items can be represented only by &lt;x5/&gt;discrete&lt;x6/&gt; data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Идентификация запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224827Z" creationid="Марианна" creationdate="20210218T224827Z">
+        <seg>Request Identification.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28828,6 +28860,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка запроса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224816Z" creationid="Марианна" creationdate="20210218T224816Z">
+        <seg>Configure Request</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка источников осуществляется в &lt;x5/&gt;администраторе источников данных ODBC Windows&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T061114Z" creationid="Марианна" creationdate="20210203T061114Z">
@@ -29260,6 +29300,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не указывать;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224653Z" creationid="Марианна" creationdate="20210218T224653Z">
+        <seg>Do not specify;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Недостоверные данные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083019Z" creationid="Марианна" creationdate="20201214T083019Z">
@@ -29684,6 +29732,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T075010Z" creationid="Марианна" creationdate="20201114T075010Z">
         <seg>The &lt;x1/&gt;windowing method&lt;x2/&gt; of data processing is used for data preprocessing during forecasting when it is required to supply the values of several related lags of the source data set to the analyzer input (for example, neural network).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработка ответа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224843Z" creationid="Марианна" creationdate="20210218T224843Z">
+        <seg>Response Processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30484,6 +30540,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122419Z" creationid="Марианна" creationdate="20200711T100746Z">
         <seg>Open the workflow to be edited and expand the Connections panel that includes a list of all connections created in the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отладка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224930Z" creationid="Марианна" creationdate="20210218T224930Z">
+        <seg>Debug.</seg>
       </tuv>
     </tu>
     <tu>
