@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230903Z" creationid="Марианна" creationdate="20210218T230903Z">
+        <seg>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;nbsp;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T091714Z" creationid="Марианна" creationdate="20201114T091714Z">
@@ -3864,6 +3872,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T144651Z" creationid="Марианна" creationdate="20200917T144651Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Export to the Text File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; —  Управляющие переменные (переменные), необязательный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T230844Z" creationid="Марианна" creationdate="20210218T230844Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; —  Control variables (variables), optional.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17716,6 +17732,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T142031Z" creationid="Марианна" creationdate="20210218T142031Z">
         <seg>See the link below to get WSDL of the published SOAP service:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>XML-ответы сервиса преобразуются в табличное представление.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T231107Z" creationid="Марианна" creationdate="20210218T231107Z">
+        <seg>The service XML responses are transformed to the table view.</seg>
       </tuv>
     </tu>
     <tu>
