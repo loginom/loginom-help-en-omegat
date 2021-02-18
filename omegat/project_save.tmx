@@ -20579,6 +20579,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае изменения настроек входных/выходных портов (например, количество или имена полей/переменных) опубликованного ранее узла, необходимо обновить публикацию пакета, в котором этот узел содержиться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T135128Z" creationid="Марианна" creationdate="20210218T135128Z">
+        <seg>If the settings of the input/output ports are changed (for example, the number or names of fields/variables) of the node that has been published earlier, it is required to refresh publication of the package which includes this node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае некорректного отключения клиента сессия на сервере продолжает существовать до тех пор, пока не завершится timeout.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T110939Z" creationid="Марианна" creationdate="20210202T110939Z">
