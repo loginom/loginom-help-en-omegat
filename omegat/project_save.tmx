@@ -22441,6 +22441,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выходное — значения поля будут использоваться как выходные (целевые).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T224010Z" creationid="Марианна" creationdate="20210218T224010Z">
+        <seg>Output: the field values will be used as the output ones (target).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выходной набор данных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175809Z" creationid="Марианна" creationdate="20201022T175809Z">
