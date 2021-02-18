@@ -24817,6 +24817,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заменять значением «Не задано»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222311Z" creationid="Марианна" creationdate="20210218T222311Z">
+        <seg>Replace with "Not defined"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заменять медианой</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221957Z" creationid="Марианна" creationdate="20210218T221957Z">
@@ -27352,6 +27360,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T094427Z" creationid="Марианна" creationdate="20201015T094427Z">
         <seg>Caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222321Z" creationid="Марианна" creationdate="20210218T222321Z">
+        <seg>Method</seg>
       </tuv>
     </tu>
     <tu>
@@ -35452,6 +35468,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T175912Z" creationid="Марианна" creationdate="20201005T175912Z">
         <seg>List of Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сплайн-интерполяция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222248Z" creationid="Марианна" creationdate="20210218T222248Z">
+        <seg>Spline interpolation</seg>
       </tuv>
     </tu>
     <tu>
