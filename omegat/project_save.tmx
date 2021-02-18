@@ -20403,6 +20403,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В продуктах прошлого поколения (&lt;x1/&gt;Deductor&lt;x2/&gt;) публикация веб-сервисов осуществлялась DIS (&lt;x3/&gt;Deductor Integration Server&lt;x4/&gt;), а обращение к веб-сервисам DIS из сценариев Deductor осуществлялось при помощи узла &lt;x5/&gt;WEB-сервис&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T151836Z" creationid="Марианна" creationdate="20210218T151836Z">
+        <seg>Web services were published using DIS (&lt;x3/&gt;Deductor Integration Server&lt;x4/&gt;), DIS web services were accessed from the Deductor workflows using &lt;x5/&gt;WEB service&lt;x6/&gt; node in the past generation products (&lt;x1/&gt;Deductor&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В производных компонентах реализуется &lt;x1/&gt;механизм наследования&lt;x2/&gt;, преимуществом которого является то, что он позволяет модифицировать созданный пользователем универсальный компонент лишь в одном месте — в библиотеке функций, и эти изменения автоматически произойдут во всех сценариях, где он применяется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T161147Z" creationid="Марианна" creationdate="20200718T161147Z">
