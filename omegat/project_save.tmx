@@ -2644,6 +2644,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;?xml version=«1.0» encoding=«UTF-8»?&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225329Z" creationid="Марианна" creationdate="20210218T225329Z">
+        <seg>&lt;?xml version=«1.0» encoding=«UTF-8»?&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170807Z" creationid="Марианна" creationdate="20200916T170807Z">
@@ -5230,8 +5238,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Формирование XML</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T224543Z" creationid="Марианна" creationdate="20210218T224543Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; XML generation</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225342Z" creationid="Марианна" creationdate="20210218T224543Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; XML Generation</seg>
       </tuv>
     </tu>
     <tu>
@@ -14640,6 +14648,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T131904Z" creationid="Марианна" creationdate="20200825T184109Z">
         <seg>&lt;x1/&gt;Reference style&lt;x2/&gt;: it is requested to select one of the identification options of the Excel worksheet cells.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Столбец, содержащий XML&lt;x2/&gt; — выбор столбца с документами XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225327Z" creationid="Марианна" creationdate="20210218T225327Z">
+        <seg>&lt;x1/&gt;XML column&lt;x2/&gt; means the selection of the column with the XML documents.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27278,6 +27294,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент предназначен для преобразования таблицы в XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225414Z" creationid="Марианна" creationdate="20210218T225414Z">
+        <seg>The component is designated for the table transformation to XML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент предназначен для экспорта таблиц данных в файлы формата XML.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T063833Z" creationid="Марианна" creationdate="20200918T085403Z">
@@ -31004,6 +31028,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223246Z" creationid="Марианна" creationdate="20210218T223246Z">
         <seg>Parameters of Binning Ranges</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры извлечения XML</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225248Z" creationid="Марианна" creationdate="20210218T225248Z">
+        <seg>Parameters of XML Extraction</seg>
       </tuv>
     </tu>
     <tu>
@@ -35316,6 +35348,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T133855Z" creationid="Марианна" creationdate="20210218T133855Z">
         <seg>The generated namespace that will be used for publication will be displayed in the wizard window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сделать это можно несколькими способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225450Z" creationid="Марианна" creationdate="20210218T225450Z">
+        <seg>It can be done in several ways:</seg>
       </tuv>
     </tu>
     <tu>
