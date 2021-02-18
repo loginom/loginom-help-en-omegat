@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/data-sources/web-rest-client_default.svg) REST-запрос
+# ![ ](../../images/icons/data-sources/web-rest-client_default.svg) REST Request
 
 Компонент позволяет взаимодействовать с внешним [REST-сервисом](https://ru.wikipedia.org/wiki/REST), отправляя ему [GET](https://ru.wikipedia.org/wiki/HTTP#GET) или [POST](https://ru.wikipedia.org/wiki/HTTP#POST) запросы и получая ответы. В качестве входного набора данных используется таблица с параметрами запросов. REST-сервису будет отправлено столько запросов, сколько строк во входном наборе данных.
 
@@ -6,8 +6,8 @@
 
 В выходных портах обработчика формируются:
 
-- Таблица ответов сервиса;
-- Дополнительные данные о результатах выполнения каждого запроса.
+- Table of the service responses;
+- Additional data on the results of each request execution.
 
 В случае отправки GET-запросов, каждая строка входного набора должна содержать параметры GET-запроса, а при POST-запросах — [тело HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения). При настройке узла задается произвольное количество [заголовков HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Заголовки).
 
@@ -18,21 +18,21 @@
 ### Input Ports
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Connection to REST service (connection to *REST Service Connection* component);
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Control variables (variables), optional;
+* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Request data source (table with the request parameters), optional.
 
 ### Output Ports
 
-* ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выходной набор данных (таблица с ответами сервиса);
-* ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Дополнительные данные (таблица с результатами выполнения запросов, описанием ошибок).
+* ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Output data set (table with the service responses);
+* ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Additional data (table with the results of requests execution, errors description).
 
 ## Настройка
 
 Мастер настройки вызова сервиса состоит из нескольких шагов.
 
-### Настройка запроса
+### Configure Request
 
-На данном шаге задаются параметры запроса. Слева расположен список полей входного набора данных. Справа расположен список принимаемых REST-сервисом параметров. Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:
+The request parameters are set at this stage. Слева расположен список полей входного набора данных. Справа расположен список принимаемых REST-сервисом параметров. Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:
 
 * Методом *Drag-and-drop* — перетащить метку поля из левого списка полей на элемент списка параметров запроса;
 * В правой таблице выбрать нужный параметр запроса и в столбце *Связанные поля* выбрать из выпадающего списка метку поля из входного набора;
@@ -42,12 +42,12 @@
 
 При POST-запросах поля входной таблицы связываются с предопределенным параметром `request`, принимающим тело HTTP-запроса.
 
-Параметр **Наличие временной зоны** определяет указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передачи параметров GET-запроса типа `Дата/Время`. Возможные значения:
+Параметр **Наличие временной зоны** определяет указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передачи параметров GET-запроса типа `Дата/Время`. Possible values:
 
-- Не указывать;
+- Do not specify;
 - Specify always.
 
-### Настройка пользовательских заголовков
+### Custom User Headers
 
 На данном шаге задаются имена заголовков HTTP-запроса и их значения.
 

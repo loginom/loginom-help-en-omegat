@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/coarseclasses_default.svg) Конечные классы
+# ![ ](../../images/icons/components/coarseclasses_default.svg) Coarse classes
 
 ## Description
 
@@ -15,13 +15,13 @@
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт. Внешние диапазоны квантования (таблица данных).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. Внешние диапазоны квантования (таблица данных).
 
 ### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-%spoiler%Структура данных:%spoiler%
+%spoiler%Data structure:%spoiler%
 
 * ![ ](../../images/icons/data-types/none_default.svg) **Поля исходного набора данных** (значения не изменяются).
 * ![ ](../../images/icons/data-types/integer_default.svg) **Поле «<Метка столбца> Номер класса»** – идентификатор конечного класса, целое число (начиная с 0) – столбец создается всегда.
@@ -30,9 +30,9 @@
 
 %/spoiler%
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Параметры классов (таблица данных).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Class Parameters (data table).
 
-%spoiler%Структура данных:%spoiler%
+%spoiler%Data structure:%spoiler%
 
 * ![ ](../../images/icons/data-types/integer_default.svg) **Группа** – номер группы, к которой относится запись в таблице. Каждая группа записей ассоциирована с признаком (полем) исходного набора данных, являющимся входным для узла Конечные классы. Количество записей в группе соответствует числу конечных классов исходного столбца.
 * ![ ](../../images/icons/data-types/string_default.svg) **Идентификатор** – имя столбца, под которым он будет обрабатываться в наборе данных. Число столбцов равно числу входных полей узла Конечные классы.
@@ -54,7 +54,7 @@
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Значимости столбцов (таблица данных).
 
-%spoiler%Структура данных:%spoiler%
+%spoiler%Data structure:%spoiler%
 
 * ![ ](../../images/icons/data-types/string_default.svg) **Имя столбца** – идентификатор столбца, под которым он будет обрабатываться в наборе данных. Число столбцов равно числу входных полей узла Конечные классы.
 * ![ ](../../images/icons/data-types/string_default.svg) **Метка столбца** – мнемоническое обозначение входного столбца, под которым он будет виден пользователю в базе или хранилище данных. По умолчанию устанавливается название, под которым данный столбец виден в исходном наборе данных.

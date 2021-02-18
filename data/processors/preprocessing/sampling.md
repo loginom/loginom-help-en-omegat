@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/sampling_default.svg) Сэмплинг
+# ![ ](../../images/icons/components/sampling_default.svg) Sampling
 
 ## Description
 

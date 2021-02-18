@@ -1,4 +1,4 @@
-# ![Общие папки](../images/icons/admin-system-objects/sharedfolders_default.svg) Общие папки
+# ![Shared Folders](../images/icons/admin-system-objects/sharedfolders_default.svg) Shared Folders
 
 Этот подраздел администрирования используется для управления общими папками и правами доступа к ним. В верхней части раздела имеется четыре кнопки:
 

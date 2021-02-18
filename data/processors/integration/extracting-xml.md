@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/components/extract-xml_default.svg) Извлечение XML
+# ![ ](../../images/icons/components/extract-xml_default.svg) XML Extraction
 
 ## Description
 
@@ -9,7 +9,7 @@
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Поключение к источнику XSD-схемы — подключение настроенного ранее подключения к файлам [XSD-схем](../../integration/connections/list/schemes.md).
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  Управляющие переменные (переменные), необязательный.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  Control variables (variables), optional.
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — Источник данных — таблица данных, содержащая ячейки с документами XML.
 
 ### Output
@@ -27,9 +27,9 @@
 
 ## Wizard
 
-### Step 1. Параметры извлечения XML
+### Step 1. Parameters of XML Extraction
 
-* **Столбец, содержащий XML** — выбор столбца с документами XML.
+* **XML column** means the selection of the column with the XML documents.
 
 * **Идентификация XML-документа** — в этой области определяется наличие столбца идентификаторов в извлекаемой таблице и в таблице логов:
    * Использовать идентификатор — флаг включает идентификаторы. Далее с помощью радиокнопки определяется тип идентификаторов:
