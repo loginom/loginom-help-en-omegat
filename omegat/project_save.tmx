@@ -37284,6 +37284,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы использовать этот узел для обращения к веб-сервисам Loginom, при публикации пакетов должна применятся настройка &lt;x7/&gt;Использовать пространство имен Loginom Integrator&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T152337Z" creationid="Марианна" creationdate="20210218T152337Z">
+        <seg>In order to use this node to access the Loginom web services, &lt;x7/&gt;Use Loginom Integrator namespace&lt;x8/&gt; option must be used to publish packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы опубликовать пакет, в &lt;x1/&gt;дереве навигации&lt;x2/&gt; необходимо кликнуть на нужном пакете правой кнопкой мыши и в контекстном меню выбрать пункт &lt;x3/&gt;Публикация пакетов…&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T124355Z" creationid="Марианна" creationdate="20210217T124355Z">
