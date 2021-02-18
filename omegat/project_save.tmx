@@ -3996,6 +3996,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Управляющие переменные (переменные), необязательный;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225645Z" creationid="Марианна" creationdate="20210218T225645Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Control variables (variables), optional;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — вызов меню действий над портами переменных Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102702Z" creationid="Марианна" creationdate="20201009T102702Z">
@@ -5320,6 +5328,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194529Z" creationid="Марианна" creationdate="20201215T194529Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — Regression output.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Выходной набор данных (таблица с ответами сервиса);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225814Z" creationid="Марианна" creationdate="20210218T225814Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Output data set (table with the service responses);</seg>
       </tuv>
     </tu>
     <tu>
@@ -36732,6 +36748,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T085325Z" creationid="Марианна" creationdate="20201006T163431Z">
         <seg>The table can contain rows for search and replacement according to the following requirements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица ответов сервиса;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225623Z" creationid="Марианна" creationdate="20210218T225623Z">
+        <seg>Table of the service responses;</seg>
       </tuv>
     </tu>
     <tu>
