@@ -21009,6 +21009,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Веб-сервисы Loginom имеют следующую особенность: XML ответов и запросов веб-сервисов в своей структуре могут иметь элемент &lt;x1/&gt;&lt;PortName&gt;&lt;x2/&gt; (элемент содержит имя порта), отсутствующий в веб-сервисах DIS.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T220211Z" creationid="Марианна" creationdate="20210218T220211Z">
+        <seg>The Loginom web services are disntinguished by the following peculiarity: XML responses and requests of web services can have the following item in their structure: &lt;x1/&gt;&lt;PortName&gt;&lt;x2/&gt; (the item contains the port name). It is not available in the DIS web services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Веб-сервисы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133107Z" creationid="Марианна" creationdate="20210208T133107Z">
