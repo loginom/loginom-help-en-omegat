@@ -3564,6 +3564,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Параметры классов (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223836Z" creationid="Марианна" creationdate="20210218T223836Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Class Parameters (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение ClickHouse</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133054Z" creationid="Марианна" creationdate="20210115T141231Z">
@@ -22053,6 +22061,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064104Z" creationid="Марианна" creationdate="20201023T064104Z">
         <seg>Input table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входное — значения поля будут использоваться как входные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223923Z" creationid="Марианна" creationdate="20210218T223923Z">
+        <seg>Input: the field values will be used as the input ones.</seg>
       </tuv>
     </tu>
     <tu>
