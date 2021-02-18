@@ -3468,6 +3468,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Квантование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222959Z" creationid="Марианна" creationdate="20210218T222959Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Кластеризация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T085602Z" creationid="Марианна" creationdate="20201210T085602Z">
@@ -18121,6 +18129,14 @@ interface IRequireFunction {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>false</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223204Z" creationid="Марианна" creationdate="20210218T223204Z">
+        <seg>false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>filename?: string;                 // полный путь к модулю</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T060334Z" creationid="Марианна" creationdate="20201025T060334Z">
@@ -18803,6 +18819,14 @@ exports.cube = cube;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113215Z" creationid="Марианна" creationdate="20200825T113215Z">
         <seg>title LIKE 'Adventures%'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>true</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223218Z" creationid="Марианна" creationdate="20210218T223218Z">
+        <seg>true</seg>
       </tuv>
     </tu>
     <tu>
@@ -21637,6 +21661,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T083449Z" creationid="Марианна" creationdate="20201117T083449Z">
         <seg>First of all, it is required to search and replace by the &lt;x1/&gt;exact match&lt;x2/&gt; with the values specified in the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внешние диапазоны</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223020Z" creationid="Марианна" creationdate="20210218T223020Z">
+        <seg>External Ranges</seg>
       </tuv>
     </tu>
     <tu>
@@ -25273,6 +25305,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение по умолчанию</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223102Z" creationid="Марианна" creationdate="20210218T223102Z">
+        <seg>Default value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение по умолчанию — &lt;x3/&gt;Лист 1&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194029Z" creationid="Марианна" creationdate="20200916T194029Z">
@@ -27356,10 +27396,26 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логический</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223216Z" creationid="Марианна" creationdate="20210218T223216Z">
+        <seg>Logical</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Лопата совковая</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112432Z" creationid="Марианна" creationdate="20201124T112432Z">
         <seg>Square-point shovel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Любой</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223112Z" creationid="Марианна" creationdate="20210218T223112Z">
+        <seg>Any</seg>
       </tuv>
     </tu>
     <tu>
@@ -29784,6 +29840,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обязательный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223038Z" creationid="Марианна" creationdate="20210218T223038Z">
+        <seg>Required</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ограничение на значение выходов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213829Z" creationid="Марианна" creationdate="20201216T213829Z">
@@ -30304,6 +30368,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отсутствует</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223123Z" creationid="Марианна" creationdate="20210218T223123Z">
+        <seg>None</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отсутствует (0).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T094631Z" creationid="Марианна" creationdate="20201222T094631Z">
@@ -30652,6 +30724,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053833Z" creationid="Марианна" creationdate="20201222T053833Z">
         <seg>Sampling Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры диапазонов квантования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223246Z" creationid="Марианна" creationdate="20210218T223246Z">
+        <seg>Parameters of Binning Ranges</seg>
       </tuv>
     </tu>
     <tu>
@@ -37600,6 +37680,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222810Z" creationid="Марианна" creationdate="20210218T222810Z">
         <seg>Integer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целый, Вещественный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223203Z" creationid="Марианна" creationdate="20210218T223203Z">
+        <seg>Integer, Real</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целый, вещественный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T223151Z" creationid="Марианна" creationdate="20210218T223151Z">
+        <seg>Integer, real</seg>
       </tuv>
     </tu>
     <tu>
