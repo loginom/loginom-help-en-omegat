@@ -3964,6 +3964,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Выходной набор данных (таблица с ответами SOAP-сервиса);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225902Z" creationid="Марианна" creationdate="20210218T225902Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Output data set (table with the SOAP service responses);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Дополнительные данные (таблица) содержат описание ошибок и SOAP-ответы сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225943Z" creationid="Марианна" creationdate="20210218T225943Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Additional data (table) contains description of errors and SOAP responses of the service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Дополнительный вход (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075010Z" creationid="Марианна" creationdate="20201210T075010Z">
@@ -3992,6 +4008,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133644Z" creationid="Марианна" creationdate="20210208T133310Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Connection to SOAP Service (connection to &lt;x3/&gt;SOAP Service Connection&lt;x4/&gt; component);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Управляющие переменные (переменные), необязательный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225836Z" creationid="Марианна" creationdate="20210218T225836Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Control variables (variables), optional.</seg>
       </tuv>
     </tu>
     <tu>
