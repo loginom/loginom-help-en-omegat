@@ -12804,6 +12804,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; применение настройки &lt;x3/&gt;Использовать пространство имен Loginom Integrator&lt;x4/&gt; при публикации нескольких пакетов накладывает ограничение на именование публикуемых узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T152605Z" creationid="Марианна" creationdate="20210218T152605Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When &lt;x3/&gt;Use Loginom Integrator namespace&lt;x4/&gt; option is used to publish several packages, it restricts naming of the published packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; условие проверяется на атомарных значениях, например "A &gt; 1".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082856Z" creationid="Марианна" creationdate="20200924T082856Z">
