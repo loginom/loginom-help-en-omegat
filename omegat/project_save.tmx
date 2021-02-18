@@ -2532,6 +2532,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222011Z" creationid="Марианна" creationdate="20210218T222011Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T142508Z" creationid="Марианна" creationdate="20201207T142508Z">
@@ -3232,6 +3240,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122657Z" creationid="Марианна" creationdate="20200711T102053Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Add Connection node to Workflow — derived node (2) inherited from the selected connection will be added to the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Заполнение пропусков</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222143Z" creationid="Марианна" creationdate="20210218T222143Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Imputation</seg>
       </tuv>
     </tu>
     <tu>
@@ -16028,6 +16044,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;типы данных&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222158Z" creationid="Марианна" creationdate="20210218T222158Z">
+        <seg>&lt;x3/&gt;data types&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;типы данных&lt;x4/&gt;):</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105212Z" creationid="Марианна" creationdate="20201111T105212Z">
@@ -24785,10 +24809,50 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заменять заданным значением</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222021Z" creationid="Марианна" creationdate="20210218T222021Z">
+        <seg>Replace with set value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять медианой</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221957Z" creationid="Марианна" creationdate="20210218T221957Z">
+        <seg>Replace with median</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять наиболее вероятным</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222007Z" creationid="Марианна" creationdate="20210218T222007Z">
+        <seg>Replace with most frequent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заменять остальное:&lt;e1/&gt;На регулярное выражение</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T143025Z" creationid="Марианна" creationdate="20201116T143025Z">
         <seg>Replace other:&lt;e1/&gt;With regular expression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять случайными значениями</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222215Z" creationid="Марианна" creationdate="20210218T222215Z">
+        <seg>Replace with random values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять средним</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221945Z" creationid="Марианна" creationdate="20210218T221945Z">
+        <seg>Replace with average</seg>
       </tuv>
     </tu>
     <tu>
@@ -26972,6 +27036,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кубическая интерполяция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222236Z" creationid="Марианна" creationdate="20210218T222236Z">
+        <seg>Cubic interpolation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кэширование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061734Z" creationid="Марианна" creationdate="20201014T061734Z">
@@ -26984,6 +27056,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100625Z" creationid="Марианна" creationdate="20201011T100625Z">
         <seg>Lag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Линейная интерполяция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222225Z" creationid="Марианна" creationdate="20210218T222225Z">
+        <seg>Linear interpolation</seg>
       </tuv>
     </tu>
     <tu>
@@ -29428,6 +29508,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143529Z" creationid="Марианна" creationdate="20201207T143529Z">
         <seg>There are no restrictions for the data type in these fields, any data kind is allowed, with the exception of the &lt;x3/&gt;Undefined&lt;x4/&gt; one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ограничивать</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222032Z" creationid="Марианна" creationdate="20210218T222032Z">
+        <seg>Limit</seg>
       </tuv>
     </tu>
     <tu>
@@ -36632,6 +36720,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075229Z" creationid="Марианна" creationdate="20200929T195535Z">
         <seg>To delete a child node, it is required to press &lt;x1/&gt;Delete&lt;x2/&gt;&lt;x3/&gt;Delete&lt;x4/&gt; (&lt;x5/&gt;Delete&lt;x6/&gt; hotkey) that is located in the right part of the child node string, and it is visible only when cursor hovering over the string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Удалять записи</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221935Z" creationid="Марианна" creationdate="20210218T221935Z">
+        <seg>Delete records</seg>
       </tuv>
     </tu>
     <tu>
