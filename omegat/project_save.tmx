@@ -2556,6 +2556,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221921Z" creationid="Марианна" creationdate="20210218T221921Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221918Z" creationid="Марианна" creationdate="20210218T221918Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Переместить вверх/вниз&lt;x6/&gt; — изменяет позицию выделенного элемента списка;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T141709Z" creationid="Марианна" creationdate="20210208T141709Z">
@@ -3166,8 +3182,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных — таблица данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T221628Z" creationid="Марианна" creationdate="20210218T221628Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Input data source — data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221759Z" creationid="Марианна" creationdate="20210218T221628Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input data source is a data table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3192,6 +3208,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T133948Z" creationid="Марианна" creationdate="20201011T101215Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор — исходная таблица после обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221817Z" creationid="Марианна" creationdate="20210218T221729Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set is a source table after processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3760,6 +3784,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T111015Z" creationid="Марианна" creationdate="20200716T080126Z">
         <seg>&lt;x1/&gt; Data tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; Дискретный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221855Z" creationid="Марианна" creationdate="20210218T221855Z">
+        <seg>&lt;x1/&gt; Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; Непрерывный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221905Z" creationid="Марианна" creationdate="20210218T221905Z">
+        <seg>&lt;x1/&gt; Continuous</seg>
       </tuv>
     </tu>
     <tu>
@@ -15712,6 +15752,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T122502Z" creationid="Марианна" creationdate="20210213T122502Z">
         <seg>&lt;x1/&gt;Group list&lt;x2/&gt; — include the list grouping by connection kinds;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;данные&lt;x2/&gt;):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221822Z" creationid="Марианна" creationdate="20210218T221822Z">
+        <seg>&lt;x1/&gt;data&lt;x2/&gt;):</seg>
       </tuv>
     </tu>
     <tu>
@@ -29724,6 +29772,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201104T105054Z" creationid="Марианна" creationdate="20200823T123609Z">
         <seg>When this substitution construction is used, only simple data types can be passed to the query via variables: logical, string, numeric, date/time. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оставить без изменения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T221916Z" creationid="Марианна" creationdate="20210218T221916Z">
+        <seg>Leave unchanged</seg>
       </tuv>
     </tu>
     <tu>
