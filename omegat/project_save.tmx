@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Структура данных:%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222407Z" creationid="Марианна" creationdate="20210218T222407Z">
+        <seg>%spoiler%Data structure:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;#124; Округлено</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113513Z" creationid="Марианна" creationdate="20201124T113513Z">
@@ -480,6 +488,14 @@ interface IRequire extends IRequireFunction  {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083111Z" creationid="Марианна" creationdate="20200918T083111Z">
         <seg>*Month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>+</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222627Z" creationid="Марианна" creationdate="20210218T222627Z">
+        <seg>+</seg>
       </tuv>
     </tu>
     <tu>
@@ -3228,6 +3244,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить еще один порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222357Z" creationid="Марианна" creationdate="20210218T222357Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Add another port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Добавить ссылку на Подключение в Сценарий — в сценарий будет добавлен &lt;x3/&gt;Узел-ссылка&lt;x4/&gt; (1) на подключение.</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T102858Z" creationid="Марианна" creationdate="20200711T101529Z">
@@ -3352,6 +3376,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T201501Z" creationid="Марианна" creationdate="20201208T201501Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Transaction Clustering</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Конечные классы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222343Z" creationid="Марианна" creationdate="20210218T222343Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Coarse classes</seg>
       </tuv>
     </tu>
     <tu>
@@ -10209,6 +10241,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Назначение столбца&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222519Z" creationid="Марианна" creationdate="20210218T222519Z">
+        <seg>&lt;x1/&gt;Column Usage Type&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Наименование&lt;x2/&gt; — отображает список выбора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T121842Z" creationid="Марианна" creationdate="20210111T121842Z">
@@ -16212,6 +16252,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ColumnName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222616Z" creationid="Марианна" creationdate="20210218T222616Z">
+        <seg>ColumnName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Continuous</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083431Z" creationid="Марианна" creationdate="20201030T083431Z">
@@ -21225,6 +21273,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя граница</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222643Z" creationid="Марианна" creationdate="20210218T222643Z">
+        <seg>Upper bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Верхняя граница ДИ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135827Z" creationid="Марианна" creationdate="20201210T135827Z">
@@ -25581,6 +25637,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имя столбца</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222613Z" creationid="Марианна" creationdate="20210218T222613Z">
+        <seg>Column name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имя — уникальное в пределах одного набора переменных название, может состоять из заглавных или строчных латинских букв, символов подчеркивания и цифр.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T090020Z" creationid="Марианна" creationdate="20201009T090020Z">
@@ -28092,6 +28156,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Назначение столбца</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222556Z" creationid="Марианна" creationdate="20210218T222556Z">
+        <seg>Column usage type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Назначение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T094455Z" creationid="Марианна" creationdate="20201015T094455Z">
@@ -28300,6 +28372,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка внешнего разбиения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222544Z" creationid="Марианна" creationdate="20210218T222544Z">
+        <seg>Configure External Binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка внешней таблицы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092259Z" creationid="Марианна" creationdate="20201117T092259Z">
@@ -28392,6 +28472,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T202837Z" creationid="Марианна" creationdate="20201023T202837Z">
         <seg>The aggregation method is configured for each parameter in a separate window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка назначений столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222507Z" creationid="Марианна" creationdate="20210218T222507Z">
+        <seg>Configure Column Usage Types</seg>
       </tuv>
     </tu>
     <tu>
@@ -35788,6 +35876,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T160544Z" creationid="Марианна" creationdate="20201029T055808Z">
         <seg>The string representation of these objects will be combined in the order specified in the list. It will be output to the console.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строковый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222624Z" creationid="Марианна" creationdate="20210218T222624Z">
+        <seg>String</seg>
       </tuv>
     </tu>
     <tu>
