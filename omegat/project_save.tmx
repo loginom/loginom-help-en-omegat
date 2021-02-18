@@ -6630,6 +6630,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; после обновления следует проверить работоспособность вызывающих переопубликованный веб-сервис узлов сценария и, при необходимости, перенастроить их.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T140712Z" creationid="Марианна" creationdate="20210218T140144Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; After the update, it is required to check operation of the workflow nodes that call the republished web service, and then it is recommended to reconfigure them when applicable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; при использовании &lt;x3/&gt;&lt;x4/&gt;автосинхронизации полей&lt;x5/&gt;&lt;x6/&gt; возможны ситуации, когда поля/переменные в портах определены механизмом автосинхронизации из структуры данных, подаваемых в порт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T114156Z" creationid="Марианна" creationdate="20210217T114156Z">
@@ -20581,8 +20589,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В случае изменения настроек входных/выходных портов (например, количество или имена полей/переменных) опубликованного ранее узла, необходимо обновить публикацию пакета, в котором этот узел содержиться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T135128Z" creationid="Марианна" creationdate="20210218T135128Z">
-        <seg>If the settings of the input/output ports are changed (for example, the number or names of fields/variables) of the node that has been published earlier, it is required to refresh publication of the package which includes this node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T140203Z" creationid="Марианна" creationdate="20210218T135128Z">
+        <seg>If the settings of the input/output ports are changed (for example, the number or names of fields/variables) of the node that has been published earlier, it is required to update publication of the package which includes this node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37766,8 +37774,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>выбрать этот пакет в списке &lt;x1/&gt;Опубликованные пакеты&lt;x2/&gt; мастера &lt;x3/&gt;Публикация пакетов…&lt;x4/&gt; и нажать кнопку &lt;x5/&gt;Обновить&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T140108Z" creationid="Марианна" creationdate="20210218T140108Z">
-        <seg>select this package in &lt;x1/&gt;Published packages&lt;x2/&gt; list of &lt;x3/&gt;Publish packages…&lt;x4/&gt; wizard and press &lt;x5/&gt;Refresh&lt;x6/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T140151Z" creationid="Марианна" creationdate="20210218T140108Z">
+        <seg>select this package in &lt;x1/&gt;Published packages&lt;x2/&gt; list of &lt;x3/&gt;Publish packages…&lt;x4/&gt; wizard and press &lt;x5/&gt;Update&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
