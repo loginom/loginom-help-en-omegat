@@ -508,6 +508,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>-</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222721Z" creationid="Марианна" creationdate="20210218T222721Z">
+        <seg>-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>-0,05</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212721Z" creationid="Марианна" creationdate="20201012T212721Z">
@@ -1476,10 +1484,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>10050,99</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222909Z" creationid="Марианна" creationdate="20210218T222909Z">
+        <seg>10050,99</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1033,6</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212134Z" creationid="Марианна" creationdate="20201012T212134Z">
         <seg>1033,6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>10533052</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222833Z" creationid="Марианна" creationdate="20210218T222833Z">
+        <seg>10533052</seg>
       </tuv>
     </tu>
     <tu>
@@ -1592,6 +1616,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113108Z" creationid="Марианна" creationdate="20201011T113108Z">
         <seg>14</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>14870</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222912Z" creationid="Марианна" creationdate="20210218T222912Z">
+        <seg>14870</seg>
       </tuv>
     </tu>
     <tu>
@@ -1860,6 +1892,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2308,07</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222900Z" creationid="Марианна" creationdate="20210218T222900Z">
+        <seg>2308,07</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>231</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T150055Z" creationid="Марианна" creationdate="20201111T150055Z">
@@ -2052,6 +2092,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>30721946</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222827Z" creationid="Марианна" creationdate="20210218T222827Z">
+        <seg>30721946</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>31.01.2013</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T103144Z" creationid="Марианна" creationdate="20201118T103144Z">
@@ -2140,6 +2188,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>36494956</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222842Z" creationid="Марианна" creationdate="20210218T222842Z">
+        <seg>36494956</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>3728129</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222816Z" creationid="Марианна" creationdate="20210218T222816Z">
+        <seg>3728129</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>38</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T195258Z" creationid="Марианна" creationdate="20201023T195258Z">
@@ -2152,6 +2216,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T102944Z" creationid="Марианна" creationdate="20201118T102944Z">
         <seg>39</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>39509806</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222846Z" creationid="Марианна" creationdate="20210218T222846Z">
+        <seg>39509806</seg>
       </tuv>
     </tu>
     <tu>
@@ -2300,6 +2372,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>490,01</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222855Z" creationid="Марианна" creationdate="20210218T222855Z">
+        <seg>490,01</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>5</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104126Z" creationid="Марианна" creationdate="20201006T104126Z">
@@ -2372,6 +2452,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>5981,98</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222903Z" creationid="Марианна" creationdate="20210218T222903Z">
+        <seg>5981,98</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>6</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164936Z" creationid="Марианна" creationdate="20201010T164936Z">
@@ -2416,6 +2504,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T062938Z" creationid="Марианна" creationdate="20210203T062938Z">
         <seg>64 bit:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>6600,01</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222906Z" creationid="Марианна" creationdate="20210218T222906Z">
+        <seg>6600,01</seg>
       </tuv>
     </tu>
     <tu>
@@ -2472,6 +2568,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175300Z" creationid="Марианна" creationdate="20201022T175300Z">
         <seg>750</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>7934343</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222819Z" creationid="Марианна" creationdate="20210218T222819Z">
+        <seg>7934343</seg>
       </tuv>
     </tu>
     <tu>
@@ -16220,6 +16324,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>COL2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222812Z" creationid="Марианна" creationdate="20210218T222812Z">
+        <seg>COL2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>COL3</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151203Z" creationid="Марианна" creationdate="20201111T151203Z">
@@ -16248,6 +16360,22 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151232Z" creationid="Марианна" creationdate="20201111T151232Z">
         <seg>COL6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>COL8</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222851Z" creationid="Марианна" creationdate="20210218T222851Z">
+        <seg>COL8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ClassNumber</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222759Z" creationid="Марианна" creationdate="20210218T222759Z">
+        <seg>ClassNumber</seg>
       </tuv>
     </tu>
     <tu>
@@ -16558,6 +16686,14 @@ included between (slash-asterisk)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T114828Z" creationid="Марианна" creationdate="20201025T154226Z">
         <seg>IF, IFF: there is an analogue in JS: &lt;x1/&gt;if (&lt;condition&gt;) {...}&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>IncludeUpperBound</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222726Z" creationid="Марианна" creationdate="20210218T222726Z">
+        <seg>IncludeUpperBound</seg>
       </tuv>
     </tu>
     <tu>
@@ -17248,10 +17384,26 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>UniqueValue</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222737Z" creationid="Марианна" creationdate="20210218T222737Z">
+        <seg>UniqueValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Unspecified</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083618Z" creationid="Марианна" creationdate="20201030T083618Z">
         <seg>Unspecified</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>UpperBound</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222646Z" creationid="Марианна" creationdate="20210218T222646Z">
+        <seg>UpperBound</seg>
       </tuv>
     </tu>
     <tu>
@@ -19723,6 +19875,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Бинарная</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222735Z" creationid="Марианна" creationdate="20210218T222735Z">
+        <seg>Binary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Благодаря этому решения, созданные на базе Loginom, могут быть легко встроены в IT-ландшафт любой сложности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T060118Z" creationid="Марианна" creationdate="20210215T060118Z">
@@ -21341,6 +21501,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T064919Z" creationid="Марианна" creationdate="20200924T064919Z">
         <seg>The branches are successively tested for authenticity from the top of the list downwards starting from the first one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вещественный/целый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222719Z" creationid="Марианна" creationdate="20210218T222719Z">
+        <seg>Real/integer</seg>
       </tuv>
     </tu>
     <tu>
@@ -27196,6 +27364,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Любой (валидный)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222748Z" creationid="Марианна" creationdate="20210218T222748Z">
+        <seg>Any (valid)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Любую ячейку или диапазон ячеек &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно выделить указателем мыши и скопировать ее (их) значение, нажав сочетание клавиш &lt;x3/&gt;Ctrl+C&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105745Z" creationid="Марианна" creationdate="20200818T105745Z">
@@ -29132,6 +29308,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T161023Z" creationid="Марианна" creationdate="20201018T161023Z">
         <seg>There are two types of the new ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Номер класса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222758Z" creationid="Марианна" creationdate="20210218T222758Z">
+        <seg>Class number</seg>
       </tuv>
     </tu>
     <tu>
@@ -37408,6 +37592,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082817Z" creationid="Марианна" creationdate="20201214T082817Z">
         <seg>Integer type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Целый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T222810Z" creationid="Марианна" creationdate="20210218T222810Z">
+        <seg>Integer</seg>
       </tuv>
     </tu>
     <tu>
