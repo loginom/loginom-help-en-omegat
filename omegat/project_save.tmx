@@ -3932,6 +3932,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (переменные) — необязательный порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225048Z" creationid="Марианна" creationdate="20210218T225048Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — &lt;x3/&gt;Control variables&lt;x4/&gt; (variables) — optional port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Входной источник данных (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T074917Z" creationid="Марианна" creationdate="20201210T074917Z">
@@ -6250,6 +6258,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060421Z" creationid="Марианна" creationdate="20201029T060421Z">
         <seg>&lt;x1/&gt;clear()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;cmd.exe /C %ИмяПеременной%&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225149Z" creationid="Марианна" creationdate="20210218T225149Z">
+        <seg>&lt;x1/&gt;cmd.exe /C %VariableName%&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;cmd.exe /C mkdir D:\Dir\&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225139Z" creationid="Марианна" creationdate="20210218T225139Z">
+        <seg>&lt;x1/&gt;cmd.exe /C mkdir D:\Dir\&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16616,6 +16640,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
         <seg>Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Desktop-версия Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225124Z" creationid="Марианна" creationdate="20210218T225124Z">
+        <seg>Desktop Loginom Version</seg>
       </tuv>
     </tu>
     <tu>
@@ -35320,6 +35352,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Серверная версия Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225136Z" creationid="Марианна" creationdate="20210218T225136Z">
+        <seg>Server Loginom Version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Серверные редакции (Team, Standard, Enterprise)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093056Z" creationid="Марианна" creationdate="20200819T074443Z">
@@ -37024,6 +37064,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T084239Z" creationid="Марианна" creationdate="20200826T083623Z">
         <seg>The text file with separators is a standard text file the data columns of which are separated with separating characters of the same type, for example, tab characters, commas, semicolumns,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Текущий каталог проекта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T225110Z" creationid="Марианна" creationdate="20210218T225110Z">
+        <seg>Current Project Directory</seg>
       </tuv>
     </tu>
     <tu>
