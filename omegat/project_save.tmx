@@ -20867,6 +20867,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае для формирования произвольной структуры запроса/ответа в качестве портов &lt;x5/&gt;Подмодели&lt;x6/&gt; удобно использовать порты типа &lt;x7/&gt;Дерево данных&lt;x8/&gt; с возможностью задать структуру данных XSD-схемой, т.е. использовать тот же механизм, что и в Deductor Integration Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210218T220755Z" creationid="Марианна" creationdate="20210218T220755Z">
+        <seg>In this case, to generate the request/response random structure, it is convinient to use as the &lt;x5/&gt;Supernode&lt;x6/&gt; ports the ports of &lt;x7/&gt;Data tree&lt;x8/&gt; type that enable to set the data structure by XSD schema, namely, to use the same mechanism as in Deductor Integration Server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае значения имен полей не важны, однако типы данных по-прежнему должны совпадать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T193320Z" creationid="Марианна" creationdate="20200929T193320Z">
