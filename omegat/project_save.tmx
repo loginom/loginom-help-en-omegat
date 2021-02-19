@@ -33168,6 +33168,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Права на эту операцию задаются в &lt;x3/&gt;Администрировании&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T165351Z" creationid="Марианна" creationdate="20210219T165351Z">
+        <seg>Rights to this operation are defined in &lt;x3/&gt;Administration&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Правила замены вида: 1) &lt;x1/&gt;5 =&gt; -5&lt;x2/&gt;; 2) &lt;x3/&gt;15 =&gt; -15&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T090010Z" creationid="Марианна" creationdate="20201117T090010Z">
