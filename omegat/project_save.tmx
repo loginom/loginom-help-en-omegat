@@ -35288,6 +35288,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью компонента &lt;x1/&gt;Выполнение программы&lt;x2/&gt; можно запустить на выполнение внешнюю программу (исполняемый файл: cmd, bat, exe и т.д.)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T165056Z" creationid="Марианна" creationdate="20210219T165056Z">
+        <seg>&lt;x1/&gt;Program Execution&lt;x2/&gt; component can start execution of the external program (there are the following executed files: cmd, bat, exe, etc.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью логистической регрессии можно оценивать вероятность того, что событие наступит для конкретного испытуемого (больной/здоровый, возврат кредита/дефолт и т.д.).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194506Z" creationid="Марианна" creationdate="20201215T194506Z">
