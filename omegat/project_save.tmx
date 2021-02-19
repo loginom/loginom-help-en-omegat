@@ -36712,6 +36712,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Стрелками можно увеличивать или уменьшать тайм-аут с интервалом в 100 миллисекунд.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T172401Z" creationid="Марианна" creationdate="20210219T172401Z">
+        <seg>Arrows enable to increase or decrease the timeout at 100 ms interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>СтройРынок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064304Z" creationid="Марианна" creationdate="20201023T064304Z">
