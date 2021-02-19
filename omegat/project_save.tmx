@@ -3172,6 +3172,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сообщение об ошибке&lt;x4/&gt; — переменная строкового типа, содержащая сообщение об ошибке, если она произошла при выполнении или подготовке к выполнению программы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T171143Z" creationid="Марианна" creationdate="20210219T171143Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Error message&lt;x4/&gt; denotes the string variable that contains an error message if it occurred while execution or preparation to the program execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить все пакеты&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135750Z" creationid="Марианна" creationdate="20200816T135750Z">
