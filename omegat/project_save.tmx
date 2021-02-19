@@ -21067,6 +21067,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В поле &lt;x1/&gt;Текст команды&lt;x2/&gt; следует вводить команду следующим образом:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T173900Z" creationid="Марианна" creationdate="20210219T173900Z">
+        <seg>It is required to enter the command in the &lt;x1/&gt;Command text&lt;x2/&gt; field as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
@@ -28912,6 +28920,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145809Z" creationid="Марианна" creationdate="20201111T145809Z">
         <seg>Discount availability</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Написание команд</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T173637Z" creationid="Марианна" creationdate="20210219T173637Z">
+        <seg>Writing Commands</seg>
       </tuv>
     </tu>
     <tu>
