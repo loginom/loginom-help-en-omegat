@@ -4028,6 +4028,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Исходные переменные и переменные, содержащие информацию об успешности выполнения программы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T170639Z" creationid="Марианна" creationdate="20210219T170639Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Source variables and variables that contain information on the program execution success:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Подключение к REST-сервису (связь с компонентом &lt;x3/&gt;Подключение REST-сервиса&lt;x4/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133610Z" creationid="Марианна" creationdate="20210208T133610Z">
