@@ -4412,6 +4412,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;/C&lt;x2/&gt; — выполнение указанной команды с последующим завершением;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T174309Z" creationid="Марианна" creationdate="20210219T174246Z">
+        <seg>&lt;x1/&gt;/C&lt;x2/&gt;: execution of the given command with subsequent completion;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;/K&lt;x2/&gt; — выполнение указанной команды без последующего завершения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T174302Z" creationid="Марианна" creationdate="20210219T174302Z">
+        <seg>&lt;x1/&gt;/K&lt;x2/&gt;: execution of the given command without subsequent completion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;0&lt;x2/&gt; — &lt;x3/&gt;Неопределенный&lt;x4/&gt; &lt;x5/&gt;Неопределенный&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165153Z" creationid="Марианна" creationdate="20201111T165153Z">
@@ -24837,6 +24853,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085316Z" creationid="Марианна" creationdate="20200929T085225Z">
         <seg>The tree-like data can be passed to input and output of handlers (similar to data set and variables) through the corresponding port, and also to the published package through Integrator (also refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Другие ключи запуска можно посмотреть на соответствующих сайтах по командной строке Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T174433Z" creationid="Марианна" creationdate="20210219T174433Z">
+        <seg>Other start keys are available on corresponding sites related to the Windows command line.</seg>
       </tuv>
     </tu>
     <tu>
