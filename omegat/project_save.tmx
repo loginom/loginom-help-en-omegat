@@ -6414,6 +6414,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;cmd.exe&lt;x2/&gt; — указывается название программы и ее расширение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T174016Z" creationid="Марианна" creationdate="20210219T174016Z">
+        <seg>&lt;x1/&gt;cmd.exe&lt;x2/&gt;: the program name and its extension are specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;d&lt;x2/&gt; — день месяца без ведущего нуля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082652Z" creationid="Марианна" creationdate="20200918T082652Z">
@@ -23673,6 +23681,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для выполнения команд через &lt;x1/&gt;cmd.exe&lt;x2/&gt; необходимо указывать соответствующие ключи:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T174132Z" creationid="Марианна" creationdate="20210219T174132Z">
+        <seg>To run commands using &lt;x1/&gt;cmd.exe&lt;x2/&gt;, it is required to state the following keys:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для данного способа слияния порядок таблиц не важен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105038Z" creationid="Марианна" creationdate="20201110T105559Z">
@@ -25269,6 +25285,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082804Z" creationid="Марианна" creationdate="20201009T082725Z">
         <seg>If a value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если это стандартная программа Windows:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T173930Z" creationid="Марианна" creationdate="20210219T173930Z">
+        <seg>If it is a standard Windows program:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если это сторонняя программа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T174039Z" creationid="Марианна" creationdate="20210219T174039Z">
+        <seg>If it is a third-party program:</seg>
       </tuv>
     </tu>
     <tu>
