@@ -3116,6 +3116,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Результат выполнения&lt;x4/&gt; — переменная целого типа, содержащая значение &lt;x5/&gt;0&lt;x6/&gt; в случае успешного завершения выполняемой программы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T170941Z" creationid="Марианна" creationdate="20210219T170941Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Execution result&lt;x4/&gt; denotes the integer variable that contains &lt;x5/&gt;0&lt;x6/&gt; in the case of the successful completion of the executed program;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сводка&lt;x4/&gt; — переменные:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T064952Z" creationid="Марианна" creationdate="20201208T064928Z">
