@@ -26781,6 +26781,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Их можно использовать для задания таких параметров, как &lt;x5/&gt;Тайм-аут выполнения узла&lt;x6/&gt; и &lt;x7/&gt;Завершить программу по тайм-ауту&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T170205Z" creationid="Марианна" creationdate="20210219T170205Z">
+        <seg>They can be used to set such parameters as &lt;x5/&gt;Node execution timeout&lt;x6/&gt; and &lt;x7/&gt;Terminate program by timeout&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>К исходному набору можно присоединять переменные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T061809Z" creationid="Марианна" creationdate="20201019T061809Z">
