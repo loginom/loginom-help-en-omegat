@@ -8689,6 +8689,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Завершить программу по тайм-ауту&lt;x2/&gt; — переключатель позволяет включать/отключать тайм-аут выполнения узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T173427Z" creationid="Марианна" creationdate="20210219T173427Z">
+        <seg>&lt;x1/&gt;Terminate program by timeout&lt;x2/&gt;: the switch enables/disables the node execution timeout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T075936Z" creationid="Марианна" creationdate="20200826T085304Z">
