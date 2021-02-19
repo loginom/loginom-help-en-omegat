@@ -4428,6 +4428,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; — узел сразу завершится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T171403Z" creationid="Марианна" creationdate="20210219T171403Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt;: the node will be completed at once.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;1 и более&lt;x2/&gt; — количество миллисекунд, через которые узел перестанет выполняться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T171737Z" creationid="Марианна" creationdate="20210219T171737Z">
+        <seg>&lt;x1/&gt;1 and more&lt;x2/&gt;: number of milliseconds upon expiration of which the node will not be executed anymore.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; — &lt;x3/&gt;Логический&lt;x4/&gt; &lt;x5/&gt;Логический&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165207Z" creationid="Марианна" creationdate="20201111T165207Z">
@@ -15064,6 +15080,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065447Z" creationid="Марианна" creationdate="20200812T065447Z">
         <seg>&lt;x1/&gt;Table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тайм-аут выполнения узла (мсек.)&lt;x2/&gt; — устанавливает время выполнения узла:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T171251Z" creationid="Марианна" creationdate="20210219T171251Z">
+        <seg>&lt;x1/&gt;Node execution timeout (ms)&lt;x2/&gt; enables to set the time of the node execution:</seg>
       </tuv>
     </tu>
     <tu>
