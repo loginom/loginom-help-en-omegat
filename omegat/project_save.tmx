@@ -26021,6 +26021,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имена переменных можно использовать в &lt;x3/&gt;Командной строке&lt;x4/&gt;, т.е. поддерживается макроподстановка команд: &lt;x5/&gt;%ИмяПеременной%&lt;x6/&gt; — переменная, содержащая команду, которая подается на вход данного узла (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T170043Z" creationid="Марианна" creationdate="20210219T170043Z">
+        <seg>The variables names can be used in &lt;x3/&gt;Command line&lt;x4/&gt;, namely, macro replacement of commands is supported: &lt;x5/&gt;%VariableName%&lt;x6/&gt; means the variable that contains the command that is supplied to the input of this node (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194154Z" creationid="Марианна" creationdate="20200916T194154Z">
