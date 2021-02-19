@@ -6878,6 +6878,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Бесконечность&lt;x2/&gt; — в этом случае узел будет выполняться до тех пор, пока программа не будет закрыта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T172504Z" creationid="Марианна" creationdate="20210219T172504Z">
+        <seg>&lt;x1/&gt;Infinity&lt;x2/&gt;: in this case the node will be executed until the program is closed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Быстрый просмотр&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065429Z" creationid="Марианна" creationdate="20200812T065429Z">
@@ -24309,6 +24317,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T103903Z" creationid="Марианна" creationdate="20200929T103903Z">
         <seg>To create the hierarchic structure, it is required to add at least one child node in the root folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для того, чтобы установить время выполнения узла, в значении &lt;x3/&gt;Бесконечность&lt;x4/&gt; необходимо в поле тайм-аута ввести либо &lt;x5/&gt;-1&lt;x6/&gt;, либо удалить все цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210219T172906Z" creationid="Марианна" creationdate="20210219T172906Z">
+        <seg>To set the node execution time, it is required to enter &lt;x5/&gt;-1&lt;x6/&gt; in the timeout field in the &lt;x3/&gt;Infinity&lt;x4/&gt; value, or it is required to delete all digits.</seg>
       </tuv>
     </tu>
     <tu>
