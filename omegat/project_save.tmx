@@ -30004,6 +30004,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Необходимо проставить связи между полями таблицы и элементами схемы XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T163254Z" creationid="Марианна" creationdate="20210220T163206Z">
+        <seg>It is required to establish the links between the table fields and XML schema items.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Необязательные свойства &lt;x1/&gt;require.main&lt;x2/&gt;, &lt;x3/&gt;require.paths&lt;x4/&gt; и &lt;x5/&gt;module.uri&lt;x6/&gt; отсутствуют;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083714Z" creationid="Марианна" creationdate="20201102T083714Z">
