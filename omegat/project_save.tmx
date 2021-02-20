@@ -14356,6 +14356,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Связывание объектов&lt;x2/&gt; — представлены списки полей входной таблицы и элементов схемы результирующего XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T163104Z" creationid="Марианна" creationdate="20210220T163104Z">
+        <seg>&lt;x1/&gt;Binding of objects&lt;x2/&gt;: lists of the input table fields and items of the resulting XML schema are represented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Связывание объектов&lt;x2/&gt; — список полей экспортируемой таблицы и иерархической структуры XML, которые необходимо соотнести друг с другом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T092344Z" creationid="Марианна" creationdate="20200918T092344Z">
@@ -28496,6 +28504,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T081328Z" creationid="Марианна" creationdate="20201214T081328Z">
         <seg>Method of partition to training and test sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Методом &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; — перетащить метку поля из левого списка полей на элемент схемы XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162921Z" creationid="Марианна" creationdate="20210220T162744Z">
+        <seg>&lt;x1/&gt;Drag-and-drop&lt;x2/&gt; method: drag the field caption from the left list of the fields to the XML schema item.</seg>
       </tuv>
     </tu>
     <tu>
