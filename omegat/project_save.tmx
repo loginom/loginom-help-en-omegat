@@ -4044,10 +4044,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Источник данных — таблица данных, содержащая ячейки с документами XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T102752Z" creationid="Марианна" creationdate="20210220T102752Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Data source is a data table that contains the cells with the XML documents.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Исходные переменные и переменные, содержащие информацию об успешности выполнения программы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T170639Z" creationid="Марианна" creationdate="20210219T170639Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Source variables and variables that contain information on the program execution success:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Набор данных — таблица данных, извлеченных из документов XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T102848Z" creationid="Марианна" creationdate="20210220T102848Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Data set means the table of data extracted from the XML documents.</seg>
       </tuv>
     </tu>
     <tu>
