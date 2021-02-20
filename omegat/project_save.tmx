@@ -28748,6 +28748,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На сервере Loginom, если проект не сохранен, то текущий каталог совпадает с каталогом пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T095952Z" creationid="Марианна" creationdate="20210220T095952Z">
+        <seg>As far as the Loginom server is concerned, if the project is not saved, the current directory matches the user directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На следующем аналогично описывают подзадачи, формулируя при этом элементы следующего уровня.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164438Z" creationid="Марианна" creationdate="20200718T140932Z">
@@ -34468,6 +34476,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T072952Z" creationid="Марианна" creationdate="20201113T065321Z">
         <seg>The complex criterion example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример создания директории через командную строку:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T100344Z" creationid="Марианна" creationdate="20210220T100344Z">
+        <seg>Example of the directory created via the command line:</seg>
       </tuv>
     </tu>
     <tu>
