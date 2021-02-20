@@ -29228,6 +29228,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, составная метка "ROOT|PERSON|ACCES-LEVEL" будет сформирована для поля извлеченной таблицы, содержащего данные атрибута "ACCESS-LEVEL" элемента "PERSON" из корневого элемента "ROOT" документа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154824Z" creationid="Марианна" creationdate="20210220T154824Z">
+        <seg>For example, complex "ROOT|PERSON|ACCES-LEVEL" caption will be generated for the extracted table field that contains data of "ACCESS-LEVEL" attribute of "PERSON" element from the root element of "ROOT" document.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, составная метка &lt;x3/&gt;ROOT|PERSON|ACCES-LEVEL&lt;x4/&gt; будет сформирована для поля импортированной таблицы, содержащего данные атрибута &lt;x5/&gt;ACCESS-LEVEL&lt;x6/&gt; элемента &lt;x7/&gt;PERSON&lt;x8/&gt; из корневого элемента &lt;x9/&gt;ROOT&lt;x10/&gt; файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T222209Z" creationid="Марианна" creationdate="20200829T222209Z">
