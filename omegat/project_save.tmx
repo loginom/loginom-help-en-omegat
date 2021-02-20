@@ -30024,6 +30024,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля извлекаемой таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154345Z" creationid="Марианна" creationdate="20210220T154043Z">
+        <seg>The area displaying the hierarchical structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля импортируемой таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T220100Z" creationid="Марианна" creationdate="20200829T220100Z">
