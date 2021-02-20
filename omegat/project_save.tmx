@@ -9033,6 +9033,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Идентификация XML-документа&lt;x2/&gt; — в этой области определяется наличие столбца идентификаторов в извлекаемой таблице и в таблице логов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T151351Z" creationid="Марианна" creationdate="20210220T151351Z">
+        <seg>&lt;x1/&gt;XML Document Identification&lt;x2/&gt;: availability of the identifier column in the extracted table and log table is defined in this area:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
@@ -26729,6 +26737,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163924Z" creationid="Марианна" creationdate="20200718T163924Z">
         <seg>It can use ready algorithms of processing of the data created in other workflows and packages using the &lt;x1/&gt;Derived Components&lt;x2/&gt; mechanism.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использовать идентификатор — флаг включает идентификаторы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T151427Z" creationid="Марианна" creationdate="20210220T151427Z">
+        <seg>Use identifier: the flag enables identifiers.</seg>
       </tuv>
     </tu>
     <tu>
