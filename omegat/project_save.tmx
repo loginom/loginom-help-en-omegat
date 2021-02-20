@@ -23153,6 +23153,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Далее с помощью радиокнопки определяется тип идентификаторов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T151522Z" creationid="Марианна" creationdate="20210220T151522Z">
+        <seg>Then it is required to define the type of identifiers using the radio button:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее эти данные сортируются по убыванию суммы при помощи компонента &lt;x1/&gt;Сортировка&lt;x2/&gt; и затем передаются на узел выделения первых 10 строк таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T163924Z" creationid="Марианна" creationdate="20200717T110132Z">
@@ -30092,6 +30100,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222758Z" creationid="Марианна" creationdate="20210218T222758Z">
         <seg>Class number</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Номер строки входного набора — номер строки, в которой содержится документ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T151836Z" creationid="Марианна" creationdate="20210220T151836Z">
+        <seg>Number of the input data set string means the number of the string which contains a document.</seg>
       </tuv>
     </tu>
     <tu>
