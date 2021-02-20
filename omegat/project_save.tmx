@@ -9937,6 +9937,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут извлекаться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T153902Z" creationid="Марианна" creationdate="20210220T153902Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root item according to which data will be extracted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут импортироваться.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T215602Z" creationid="Марианна" creationdate="20200829T215602Z">
