@@ -13988,6 +13988,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разэкранировать сущности XML&lt;x2/&gt; — применяется в том случае, если документы извлекаются из другого документа XML, в котором они были заэкранированы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T152304Z" creationid="Марианна" creationdate="20210220T152304Z">
+        <seg>&lt;x1/&gt;Unescape XML entities&lt;x2/&gt; is applied if the documents are extracted from another XML document in which they have been escaped.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Раскрывающиеся списки полей&lt;x2/&gt; — содержатся в каждой строке таблицы сопоставления.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T210128Z" creationid="Марианна" creationdate="20201119T210128Z">
