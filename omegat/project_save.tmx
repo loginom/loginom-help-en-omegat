@@ -5012,6 +5012,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Выходной набор данных — таблица, содержащая результирующие XML и их идентификаторы (ID).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162333Z" creationid="Марианна" creationdate="20210220T162333Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Output data set is a table that contains resulting XML and their identifiers (ID).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Горячие клавиши</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155644Z" creationid="Марианна" creationdate="20201025T155644Z">
@@ -13403,8 +13411,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; для отображения управляющих портов необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T082048Z" creationid="Марианна" creationdate="20201009T082048Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To display the control ports, it is required to select the following item in the context node menu: "Show control variables port".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162158Z" creationid="Марианна" creationdate="20201009T082048Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To display the control ports, it is required to select the following item in the context menu of the node: "Show control variables port".</seg>
       </tuv>
     </tu>
     <tu>
@@ -24179,8 +24187,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для отображения порта необходимо в контекстном меню узла выбрать пункт &lt;x5/&gt;Показать порт управляющих переменных&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T162010Z" creationid="Марианна" creationdate="20210220T162010Z">
-        <seg>To display the port, it is required to select the following item in the context node menu &lt;x5/&gt;Show control variables port&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162144Z" creationid="Марианна" creationdate="20210220T162010Z">
+        <seg>To display the port, it is required to select the following item in the context menu of the node: &lt;x5/&gt;Show control variables port&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
