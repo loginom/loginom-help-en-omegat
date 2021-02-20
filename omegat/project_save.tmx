@@ -7841,6 +7841,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выдавать описание кодов завершения&lt;x2/&gt; — в таблицу с логами будет добавлен столбец "Описание ошибки".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T153819Z" creationid="Марианна" creationdate="20210220T153819Z">
+        <seg>&lt;x1/&gt;Provide description of error codes&lt;x2/&gt;: "Error description" column will be added to the table with logs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выделение блока узлов.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T111326Z" creationid="Марианна" creationdate="20200717T111232Z">
