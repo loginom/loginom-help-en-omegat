@@ -30224,6 +30224,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик извлекает таблицу данных из столбца входной таблицы, в ячейках которого содержатся документы XML в строковом виде.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T102125Z" creationid="Марианна" creationdate="20210220T102125Z">
+        <seg>The handler extracts the data table from the column of the input table in the cells of which the XML documents are kept in the string form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик может использоваться для решения различных задач &lt;x1/&gt;Data Mining&lt;x2/&gt;, например, таких, как &lt;x3/&gt;прогнозирование&lt;x4/&gt; и численное предсказание.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T074643Z" creationid="Марианна" creationdate="20201214T074643Z">
