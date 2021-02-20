@@ -4068,6 +4068,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Ошибки и коды завершения — таблица логов извлечения, имеет следующую структуру:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T150240Z" creationid="Марианна" creationdate="20210220T150240Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Errors and exit codes — a table of extraction logs that has the following structure:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Подключение к REST-сервису (связь с компонентом &lt;x3/&gt;Подключение REST-сервиса&lt;x4/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133610Z" creationid="Марианна" creationdate="20210208T133610Z">
@@ -27362,6 +27370,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T160335Z" creationid="Марианна" creationdate="20201029T061038Z">
         <seg>Code of outputting messages to the console:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Код завершения — содержит значения кодов извлечения для каждого документа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T150343Z" creationid="Марианна" creationdate="20210220T150343Z">
+        <seg>The exit code contains the values of extraction codes for each document.</seg>
       </tuv>
     </tu>
     <tu>
