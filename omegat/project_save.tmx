@@ -20387,6 +20387,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Desktop-версии приложения, если проект не сохранен, то текущий каталог совпадает с текущим каталогом Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T095859Z" creationid="Марианна" creationdate="20210220T095859Z">
+        <seg>If the project is not saved, the current directory matches the current Loginom directory in the Desktop version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom есть инструменты интеграции с внешними веб-сервисами и публикации своих собственных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222323Z" creationid="Марианна" creationdate="20210210T222323Z">
