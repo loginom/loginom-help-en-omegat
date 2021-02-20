@@ -22905,6 +22905,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Где &lt;x1/&gt;%ИмяПеременной%&lt;x2/&gt; — переменная, содержащая любую команду для выполнения в командной строке Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T100700Z" creationid="Марианна" creationdate="20210220T100700Z">
+        <seg>Where &lt;x1/&gt;%VariableName%&lt;x2/&gt; means the variable that contains any command to be executed on the Windows command line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Где: &lt;x1/&gt;VAR1&lt;x2/&gt; ... &lt;x3/&gt;VAR5&lt;x4/&gt; — имена управляющих переменных, принятые узлом в качестве входных параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T065729Z" creationid="Марианна" creationdate="20201113T065729Z">
@@ -34460,6 +34468,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T055923Z" creationid="Марианна" creationdate="20201116T055923Z">
         <seg>The algorithm logics example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример макроподстановки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T100414Z" creationid="Марианна" creationdate="20210220T100414Z">
+        <seg>Example of macro substitution:</seg>
       </tuv>
     </tu>
     <tu>
