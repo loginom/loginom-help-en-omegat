@@ -9979,8 +9979,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут извлекаться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T153902Z" creationid="Марианна" creationdate="20210220T153902Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root item according to which data will be extracted.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162600Z" creationid="Марианна" creationdate="20210220T153902Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element according to which data will be extracted.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9995,8 +9995,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут экспортироваться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T164002Z" creationid="Марианна" creationdate="20200918T091351Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root item according to which data will be exported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162551Z" creationid="Марианна" creationdate="20200918T091351Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element according to which data will be exported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, структура которого описывает результирующий XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162645Z" creationid="Марианна" creationdate="20210220T162541Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element the structure of which enables to describe the resulting XML.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36628,6 +36636,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T162928Z" creationid="Марианна" creationdate="20201001T162928Z">
         <seg>Fields Mapping</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сопоставление полей для формирования XML</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162358Z" creationid="Марианна" creationdate="20210220T162358Z">
+        <seg>Fields Mapping for XML Generation</seg>
       </tuv>
     </tu>
     <tu>
