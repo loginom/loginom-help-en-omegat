@@ -7264,6 +7264,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: для работы узла требуется предварительно создать &lt;x3/&gt;подключение к XSD-схеме&lt;x4/&gt; и связать его с входным портом &lt;x5/&gt;Подключение к источнику XSD-схемы&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T160959Z" creationid="Марианна" creationdate="20210220T160959Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: For the node operation, it is required to pre-create &lt;x3/&gt;connection to the XSD schema&lt;x4/&gt; and connect it with &lt;x5/&gt;Connect to XSD schema source&lt;x6/&gt; input port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: использование кэша для передачи значений между вызовами &lt;x3/&gt;require&lt;x4/&gt; может привести к непредсказуемым результатам вычислений в виду использования многопоточности вычислений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T191940Z" creationid="Марианна" creationdate="20201020T191940Z">
