@@ -25209,6 +25209,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если проект сохранен, то текущим каталогом для процесса, запускаемого узлом &lt;x1/&gt;Выполнение программы&lt;x2/&gt;, считается текущий каталог пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T095049Z" creationid="Марианна" creationdate="20210220T095049Z">
+        <seg>If the project has been saved, the current package directory is considered to be the current directory for the process started by the &lt;x1/&gt;Program execution&lt;x2/&gt; node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если процесс обучения необходимо ограничить по времени, в этом случае он остановится после заданного количества эпох, даже если обучение еще не пришло к оптимальной точке, т.е. не достигнут порог минимального изменения весов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T221623Z" creationid="Марианна" creationdate="20201222T085110Z">
