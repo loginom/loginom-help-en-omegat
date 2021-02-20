@@ -7086,6 +7086,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в настройках устанавливается время выполнения узла, а не программы, поэтому если галочка &lt;x3/&gt;Завершить программу по тайм-ауту&lt;x4/&gt; не установлена, то через определенное тайм-аутом время узел перестанет выполняться, а программа — нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T094913Z" creationid="Марианна" creationdate="20210220T094913Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The time of node execution is set in the settings (not the time of the program execution) that is why if flag is not selected for &lt;x3/&gt;Terminate program by timeout&lt;x4/&gt;, the node execution will be terminated upon expiration of some time period set by the timeout, whereas the program execution will not be terminated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в случае замены числовых данных стоит учитывать интервалы, в которые попадет то или иное заменяемое значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142948Z" creationid="Марианна" creationdate="20201117T085545Z">
