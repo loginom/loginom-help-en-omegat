@@ -13396,6 +13396,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; производный узел, так же, как и любой другой, работает в контексте того пакета, в котором он находится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T095343Z" creationid="Марианна" creationdate="20210220T095343Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The derived node is operated in the context of the package in which it is located as any other node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; условие проверяется на атомарных значениях, например "A &gt; 1".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082856Z" creationid="Марианна" creationdate="20200924T082856Z">
@@ -37640,6 +37648,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T143025Z" creationid="Марианна" creationdate="20201117T090206Z">
         <seg>So, there are two half-intervals: [5, 10) and [10, 15).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>То есть текущим каталогом для производного узла будет текущий каталог пакета, в котором находится именно производный узел, а не базовый.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T095513Z" creationid="Марианна" creationdate="20210220T095513Z">
+        <seg>Thus, the current directory of the derived node will be the current package directory in which exactly the derived node is located but not the base one.</seg>
       </tuv>
     </tu>
     <tu>
