@@ -26021,6 +26021,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Идентификатор поля — показывает, из какого именно документа была извлечена конкретная строка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T150011Z" creationid="Марианна" creationdate="20210220T150011Z">
+        <seg>Field identifier enables to identify from which document a particular string has been extracted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор текущей сессии на сервере Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084623Z" creationid="Марианна" creationdate="20201009T084623Z">
