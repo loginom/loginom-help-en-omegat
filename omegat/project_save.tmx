@@ -34120,10 +34120,18 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При отсутствии данного флага извлечение документа, начинающегося, например, с объявления &lt;x3/&gt;&amp;lt;&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T152527Z" creationid="Марианна" creationdate="20210220T152527Z">
+        <seg>When this flag is absent, extraction of the document that starts, for example, from such notice as &lt;x3/&gt;&amp;lt;&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При отсутствии данного флага поле получит название &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T222322Z" creationid="Марианна" creationdate="20200829T222322Z">
-        <seg>When this flag is absent, the field will get the &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt; name.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T152416Z" creationid="Марианна" creationdate="20200829T222322Z">
+        <seg>When this flag is absent, the field will get &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt; name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39416,6 +39424,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T140151Z" creationid="Марианна" creationdate="20210218T140108Z">
         <seg>select this package in &lt;x1/&gt;Published packages&lt;x2/&gt; list of &lt;x3/&gt;Publish packages…&lt;x4/&gt; wizard and press &lt;x5/&gt;Update&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>выдаст ошибку, а при наличии флага обработчик интерпретирует такое объявление как корректное:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T152645Z" creationid="Марианна" creationdate="20210220T152645Z">
+        <seg>will cause an error, and when this flag is selected, the handler will interpret such notice as the correct one:</seg>
       </tuv>
     </tu>
     <tu>
