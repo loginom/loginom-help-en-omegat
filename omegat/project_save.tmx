@@ -4924,6 +4924,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными порта можно задать значения параметров мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T161833Z" creationid="Марианна" creationdate="20210220T161833Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using the port variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; JavaScript</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T111204Z" creationid="Марианна" creationdate="20201020T111204Z">
@@ -24165,6 +24173,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135134Z" creationid="Марианна" creationdate="20200816T135134Z">
         <seg>For the opened &lt;x1/&gt;Packages&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для отображения порта необходимо в контекстном меню узла выбрать пункт &lt;x5/&gt;Показать порт управляющих переменных&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T162010Z" creationid="Марианна" creationdate="20210220T162010Z">
+        <seg>To display the port, it is required to select the following item in the context node menu &lt;x5/&gt;Show control variables port&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
