@@ -30824,6 +30824,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Описание ошибки — описание кодов завершения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T151045Z" creationid="Марианна" creationdate="20210220T151045Z">
+        <seg>Error description means the description of exit codes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Описание перечислений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082805Z" creationid="Марианна" creationdate="20201030T082805Z">
