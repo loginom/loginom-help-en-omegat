@@ -21117,8 +21117,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В основе построения проекта лежит методология &lt;x1/&gt;структурного проектирования&lt;x2/&gt; — представление алгоритма в виде иерархической структуры блоков.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T121654Z" creationid="Марианна" creationdate="20200718T121459Z">
-        <seg>The project construction is based on the &lt;x1/&gt;structural design&lt;x2/&gt; methodology— representation of an algorithm in the form of hierarchical structure of blocks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154407Z" creationid="Марианна" creationdate="20200718T121459Z">
+        <seg>The project construction is based on the &lt;x1/&gt;structural design&lt;x2/&gt; methodology— representation of an algorithm in the form of hierarchic structure of blocks.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27151,8 +27151,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T135300Z" creationid="Марианна" creationdate="20200718T135300Z">
-        <seg>Each block can be represented on its hierarchical level in the form of the "black box" performing its independent subtask.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154413Z" creationid="Марианна" creationdate="20200718T135300Z">
+        <seg>Each block can be represented on its hierarchic level in the form of the "black box" performing its independent subtask.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30026,16 +30026,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля извлекаемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T154345Z" creationid="Марианна" creationdate="20210220T154043Z">
-        <seg>The area displaying the hierarchical structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154400Z" creationid="Марианна" creationdate="20210220T154043Z">
+        <seg>The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля импортируемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T220100Z" creationid="Марианна" creationdate="20200829T220100Z">
-        <seg>The area displaying the hierarchical structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the imported table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154355Z" creationid="Марианна" creationdate="20200829T220100Z">
+        <seg>The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the imported table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37098,8 +37098,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Структура Проекта может быть представлена в иерархическом виде:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T162546Z" creationid="Марианна" creationdate="20200718T162546Z">
-        <seg>The Project structure can be represented in the hierarchical form:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210220T154422Z" creationid="Марианна" creationdate="20200718T162546Z">
+        <seg>The Project structure can be represented in the hierarchic form:</seg>
       </tuv>
     </tu>
     <tu>
