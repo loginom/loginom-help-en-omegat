@@ -24713,6 +24713,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого нужно выбрать метку и нажать на кнопку &lt;x3/&gt;&lt;x4/&gt; на линии связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T060435Z" creationid="Марианна" creationdate="20210224T060435Z">
+        <seg>In order to do that, it is required to select the caption and press &lt;x3/&gt;&lt;x4/&gt; button in the line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого нужно выделить корневой узел и вызвать соответствующую команду контекстного меню.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110214Z" creationid="Марианна" creationdate="20200818T110214Z">
@@ -25427,8 +25435,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если связь между полем и объектом была установлена неправильно, ее можно удалить, нажав на кнопку &lt;x7/&gt; &lt;x8/&gt; на линии связи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T094311Z" creationid="Марианна" creationdate="20200918T094311Z">
-        <seg>If the link between the field and object was incorrectly set, it can be deleted, pressing the &lt;x7/&gt; &lt;x8/&gt; button in the line.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T060551Z" creationid="Марианна" creationdate="20200918T094311Z">
+        <seg>If the link between the field and object has been incorrectly established, it can be deleted by pressing &lt;x7/&gt; &lt;x8/&gt; button in the line.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29126,8 +29134,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нажав на кнопку &lt;x9/&gt;уточнить&lt;x10/&gt; откроется окно &lt;x11/&gt;Список значений&lt;x12/&gt; (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T221026Z" creationid="Марианна" creationdate="20200829T203055Z">
-        <seg>By pressing the &lt;x9/&gt;to be defined&lt;x10/&gt; button, the &lt;x11/&gt;List of values&lt;x12/&gt; window will be opened (refer to the information</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T060618Z" creationid="Марианна" creationdate="20200829T203055Z">
+        <seg>By pressing &lt;x9/&gt;to be defined&lt;x10/&gt; button, the &lt;x11/&gt;List of values&lt;x12/&gt; window will be opened (refer to the information</seg>
       </tuv>
     </tu>
     <tu>
