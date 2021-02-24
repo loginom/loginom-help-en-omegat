@@ -13580,6 +13580,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: если входной набор данных пустой, то на выходе количество строк равно нулю при любых настройках параметра &lt;x3/&gt;Идентификация XML-документа&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T064656Z" creationid="Марианна" creationdate="20210224T064656Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: If the input data set is empty, at the output &lt;x3/&gt;XML Document Identification&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: если связь между полем и объектом была установлена неправильно, ее можно удалить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T060314Z" creationid="Марианна" creationdate="20210224T060314Z">
