@@ -12313,6 +12313,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По строчкам&lt;x2/&gt; — для каждой записи входной таблицы сформируется XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T062804Z" creationid="Марианна" creationdate="20210224T062804Z">
+        <seg>&lt;x1/&gt;By rows&lt;x2/&gt;: XML will be generated for each input table record.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По умолчанию&lt;x2/&gt; используется режим DELETE (Удаление файла).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T151200Z" creationid="Марианна" creationdate="20210210T151200Z">
@@ -21775,6 +21783,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T090055Z" creationid="Марианна" creationdate="20201117T090055Z">
         <seg>In this case, the output table will be as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом случае выходной набор данных содержит единственную запись.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T062512Z" creationid="Марианна" creationdate="20210224T062512Z">
+        <seg>In this case, the output data set contains the only record.</seg>
       </tuv>
     </tu>
     <tu>
