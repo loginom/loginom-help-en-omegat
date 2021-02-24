@@ -10761,6 +10761,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; — определяет указывается ли информация о &lt;x3/&gt;часовом поясе&lt;x4/&gt; в рамках стандарта &lt;x5/&gt;ISO_8601&lt;x6/&gt; в элементах XML, содержащих дату и/или время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T061104Z" creationid="Марианна" creationdate="20210224T061104Z">
+        <seg>&lt;x1/&gt;Specify time zone&lt;x2/&gt; defines whether the &lt;x3/&gt;time zone&lt;x4/&gt; information is specified according to &lt;x5/&gt;ISO_8601&lt;x6/&gt; in the XML items that contain the date and/or time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; — указание для данных формата дата/время временной зоны машины, на которой производится экспорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100520Z" creationid="Марианна" creationdate="20200918T100520Z">
@@ -34212,6 +34220,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T063712Z" creationid="Марианна" creationdate="20201126T063712Z">
         <seg>When configuring the ungrouping node, let's select &lt;x1/&gt;With calculation of quotas for total sample&lt;x2/&gt; method, set rounding up to one decimal place and &lt;x3/&gt;Proportional&lt;x4/&gt; balance method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При необходимости удаления всех связей используется кнопка &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Удалить все связи&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T060743Z" creationid="Марианна" creationdate="20210224T060743Z">
+        <seg>If all links are to be deleted, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Delete all links&lt;x8/&gt; button is used.</seg>
       </tuv>
     </tu>
     <tu>
