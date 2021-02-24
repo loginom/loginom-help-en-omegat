@@ -13540,6 +13540,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: если связь между полем и объектом была установлена неправильно, ее можно удалить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T060314Z" creationid="Марианна" creationdate="20210224T060314Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: If the link between the field and object has been incorrectly established, it can be deleted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, под учетной записью которого запущен Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T141320Z" creationid="Марианна" creationdate="20201115T142706Z">
