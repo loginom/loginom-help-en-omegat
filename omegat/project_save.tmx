@@ -38572,6 +38572,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Фильтр выпадающего списка в состоянии &lt;x3/&gt;&lt;x4/&gt; оставляет только те поля, которые еще не связаны с какими-либо элементами, а в состоянии &lt;x5/&gt;&lt;x6/&gt; — предоставляет к выбору все поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T055628Z" creationid="Марианна" creationdate="20210224T055628Z">
+        <seg>The drop-down list filter in &lt;x3/&gt;&lt;x4/&gt; state displays only the fields that have not been connected with items yet, and it dispalys all fields for selection in &lt;x5/&gt;&lt;x6/&gt; state.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Финальный этап автоподбора производится методом "схождения к вершине" по всем четырем параметрам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T084352Z" creationid="Марианна" creationdate="20201224T084352Z">
