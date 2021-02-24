@@ -21795,6 +21795,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае выходной набор данных содержит такое же количество записей, что и во входной таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T063023Z" creationid="Марианна" creationdate="20210224T062943Z">
+        <seg>In this case, the output data set contains the same count of records as the input table does.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае данную колонку необходимо свети к одному значению с помощью методов агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T083657Z" creationid="Марианна" creationdate="20200924T083657Z">
@@ -23045,6 +23053,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175809Z" creationid="Марианна" creationdate="20201022T175809Z">
         <seg>Output data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выходной столбец &lt;x3/&gt;ID&lt;x4/&gt; содержит целое значение номера записи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T063015Z" creationid="Марианна" creationdate="20210224T063015Z">
+        <seg>&lt;x3/&gt;ID&lt;x4/&gt; output column contains the integer value of the record number.</seg>
       </tuv>
     </tu>
     <tu>
