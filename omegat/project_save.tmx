@@ -21803,10 +21803,18 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае выходной набор данных содержит количество записей, равное количеству уникальных значений идентификатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T063501Z" creationid="Марианна" creationdate="20210224T063501Z">
+        <seg>In this case, the output data set contains the number of records that is equal to the number of unique identifier values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае выходной набор данных содержит такое же количество записей, что и во входной таблице.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210224T063023Z" creationid="Марианна" creationdate="20210224T062943Z">
-        <seg>In this case, the output data set contains the same count of records as the input table does.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T063327Z" creationid="Марианна" creationdate="20210224T062943Z">
+        <seg>In this case, the output data set contains the same number of records as the input table does.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23061,6 +23069,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175809Z" creationid="Марианна" creationdate="20201022T175809Z">
         <seg>Output data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выходной столбец &lt;x3/&gt;ID&lt;x4/&gt; при данной настройке содержит значения идентификаторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T064316Z" creationid="Марианна" creationdate="20210224T064316Z">
+        <seg>When this setting is selected, &lt;x3/&gt;ID&lt;x4/&gt; output column contains the identifier values.</seg>
       </tuv>
     </tu>
     <tu>
