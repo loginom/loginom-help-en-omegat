@@ -38262,8 +38262,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Транзакции фиксируются через указанное количество строк.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T113008Z" creationid="Марианна" creationdate="20200916T113008Z">
-        <seg>Transactions are committed after a given number of rows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T064854Z" creationid="Марианна" creationdate="20200916T113008Z">
+        <seg>Transactions are committed after a given count of rows.</seg>
       </tuv>
     </tu>
     <tu>
