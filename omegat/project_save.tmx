@@ -8641,6 +8641,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавлять отступы и переводы строк&lt;x2/&gt; — в результирующем XML каждый элемент располагается в отдельной строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T071214Z" creationid="Марианна" creationdate="20210224T071214Z">
+        <seg>&lt;x1/&gt;Add indents and line breaks&lt;x2/&gt;: each item is located in the separate row in the resulting XML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавлять отступы и переводы строк&lt;x2/&gt; — в файле экспорта каждой строке будет соответствовать один элемент, перед которым будет стоять позиция табуляции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163935Z" creationid="Марианна" creationdate="20200918T090354Z">
@@ -10893,6 +10901,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T085716Z" creationid="Марианна" creationdate="20200918T085602Z">
         <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: this area includes the following flags.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка форматирования&lt;x2/&gt; — область включает следующие флаги:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T065349Z" creationid="Марианна" creationdate="20210224T065349Z">
+        <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: the area includes the following flags:</seg>
       </tuv>
     </tu>
     <tu>
