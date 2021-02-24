@@ -7416,6 +7416,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Весь набор данных (используется по умолчанию)&lt;x2/&gt;  — все записи входной таблицы войдут в результирующий XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T062410Z" creationid="Марианна" creationdate="20210224T062410Z">
+        <seg>&lt;x1/&gt;The whole data set (it is used by default)&lt;x2/&gt;: all records of the input table will be included into the resulting XML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вещественное число&lt;x2/&gt; — для ввода вещественного числа, будет вставлено &lt;x3/&gt;0.0&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173358Z" creationid="Марианна" creationdate="20201005T173358Z">
