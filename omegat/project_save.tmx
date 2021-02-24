@@ -9089,6 +9089,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Идентификация XML-документа&lt;x2/&gt; — выбор одного из вариантов наполнения XML данными входной таблицы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T061616Z" creationid="Марианна" creationdate="20210224T061616Z">
+        <seg>&lt;x1/&gt;XML Document Identification&lt;x2/&gt;: selection of one of the options used to fill XML with the input table data:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
@@ -29936,6 +29944,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114733Z" creationid="Марианна" creationdate="20201214T114733Z">
         <seg>Do not calculate.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не указывать для даты — не указывать временную зону для элементов типа &lt;x1/&gt;date&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T061151Z" creationid="Марианна" creationdate="20210224T061151Z">
+        <seg>Do not specify for date: do not specify the time zone for the &lt;x1/&gt;date&lt;x2/&gt; type items.</seg>
       </tuv>
     </tu>
     <tu>
