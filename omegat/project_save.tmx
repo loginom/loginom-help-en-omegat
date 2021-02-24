@@ -14358,8 +14358,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Связывание объектов&lt;x2/&gt; — представлены списки полей входной таблицы и элементов схемы результирующего XML.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T163104Z" creationid="Марианна" creationdate="20210220T163104Z">
-        <seg>&lt;x1/&gt;Binding of objects&lt;x2/&gt;: lists of the input table fields and items of the resulting XML schema are represented.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T055912Z" creationid="Марианна" creationdate="20210220T163104Z">
+        <seg>&lt;x1/&gt;Object linking&lt;x2/&gt;: lists of the input table fields and items of the resulting XML schema are represented.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39832,6 +39832,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112808Z" creationid="Марианна" creationdate="20200825T112808Z">
         <seg>variable name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>использовать кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Связать все автоматически&lt;x4/&gt;, при этом происходит автоматическое связывание, исходя из значений меток и типов данных полей входной таблицы и элементов схемы XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210224T060150Z" creationid="Марианна" creationdate="20210224T055856Z">
+        <seg>Use &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Auto Link All&lt;x4/&gt; button. It providies auto linking based on values of captions and types of fields data of the input table and XML schema items.</seg>
       </tuv>
     </tu>
     <tu>
