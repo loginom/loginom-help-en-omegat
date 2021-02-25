@@ -21653,8 +21653,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В случае отправки GET-запросов, каждая строка входного набора должна содержать параметры GET-запроса, а при POST-запросах — &lt;x1/&gt;тело HTTP-запроса&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T185121Z" creationid="Марианна" creationdate="20210225T185121Z">
-        <seg>If GET requests are sent, each row of the input data set must contain the GET request parameters, and when POST requests are sent, &lt;x1/&gt;HTTP request body&lt;x2/&gt; must be provided.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185408Z" creationid="Марианна" creationdate="20210225T185121Z">
+        <seg>If GET requests are sent, each row of the input data set must contain the GET request parameters, and in the case of POST requests, &lt;x1/&gt;HTTP request body&lt;x2/&gt; must be provided.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26099,16 +26099,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Значение выражения в каждой строке набора данных будет вычислено по &lt;x3/&gt;формуле&lt;x4/&gt; или JavaScript коду.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T062700Z" creationid="Марианна" creationdate="20201015T062700Z">
-        <seg>The expression value in each data set string will be calculated using the &lt;x3/&gt;formula&lt;x4/&gt; or the JavaScript code.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185138Z" creationid="Марианна" creationdate="20201015T062700Z">
+        <seg>The expression value in each data set row will be calculated using the &lt;x3/&gt;formula&lt;x4/&gt; or the JavaScript code.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Значение выражения в каждой строке набора данных будет вычислено по формуле, заданной в области кода выражения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T194456Z" creationid="Марианна" creationdate="20201004T194456Z">
-        <seg>The expression value in each data set string will be calculated using the formula set in the expression code area.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185200Z" creationid="Марианна" creationdate="20201004T194456Z">
+        <seg>The expression value in each data set row will be calculated using the formula set in the expression code area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30450,8 +30450,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Номер строки входного набора — номер строки, в которой содержится документ.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T151836Z" creationid="Марианна" creationdate="20210220T151836Z">
-        <seg>Number of the input data set string means the number of the string which contains a document.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185130Z" creationid="Марианна" creationdate="20210220T151836Z">
+        <seg>Number of the input data set row means the number of the string which contains a document.</seg>
       </tuv>
     </tu>
     <tu>
