@@ -31816,6 +31816,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр &lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; определяет указывается ли информация о &lt;x3/&gt;часовом поясе&lt;x4/&gt; в рамках стандарта &lt;x5/&gt;ISO_8601&lt;x6/&gt; при передачи параметров GET-запроса типа &lt;x7/&gt;Дата/Время&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T200713Z" creationid="Марианна" creationdate="20210225T200713Z">
+        <seg>&lt;x1/&gt;Specify time zone&lt;x2/&gt; defines whether the &lt;x3/&gt;time zone&lt;x4/&gt; information is specified according to &lt;x5/&gt;ISO_8601&lt;x6/&gt; when GET request parameters of &lt;x7/&gt;Date/Time&lt;x8/&gt; type are transferred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр &lt;x1/&gt;Способ обработки неполных записей&lt;x2/&gt; предоставляет следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
