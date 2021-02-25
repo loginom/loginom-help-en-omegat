@@ -7569,6 +7569,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Временная зона по умолчанию&lt;x2/&gt; — значения с типом &lt;x3/&gt;Дата/Время&lt;x4/&gt; преобразуются при обработке ответа сервера по следующему алгоритму:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205921Z" creationid="Марианна" creationdate="20210225T205921Z">
+        <seg>&lt;x1/&gt;Default time zone&lt;x2/&gt;: the &lt;x3/&gt;Date/Time&lt;x4/&gt; type values are transformed when processing the server response according to the following algorithm:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Время автоподбора не более (сек.)&lt;x2/&gt; — максимальное время работы алгоритма (0 — отключение ограничения).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T084948Z" creationid="Марианна" creationdate="20201223T084948Z">
@@ -13648,6 +13656,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T060314Z" creationid="Марианна" creationdate="20210224T060314Z">
         <seg>&lt;x1/&gt;Note&lt;x2/&gt;: If the link between the field and object has been incorrectly established, it can be deleted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова SOAP-сервиса отправит единичный SOAP-запрос без параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205652Z" creationid="Марианна" creationdate="20210225T205652Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: As the input data set with the request parameters is optional, when it is not provided, the SOAP service call node will send the only SOAP request without parameters.</seg>
       </tuv>
     </tu>
     <tu>
