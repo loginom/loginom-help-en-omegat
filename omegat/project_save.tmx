@@ -11569,6 +11569,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Один запрос в каждой строке входного запроса&lt;x2/&gt; — каждая строка входной таблицы содержит параметры одного запроса к сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T211952Z" creationid="Марианна" creationdate="20210225T211952Z">
+        <seg>&lt;x1/&gt;One request per input request row&lt;x2/&gt;: each row of the input table contains parameters of one request to the service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Округлять до заданной точности&lt;x2/&gt; — округление разгруппированных значений до указанного количества цифр после запятой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T113626Z" creationid="Марианна" creationdate="20201126T113626Z">
