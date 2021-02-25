@@ -29116,6 +29116,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На данном шаге выбираются атрибуты ошибок, которые необходимо вывести в выходном наборе порта &lt;x1/&gt;Исключения&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T211739Z" creationid="Марианна" creationdate="20210225T211739Z">
+        <seg>Attributes of the errors that are to be displayed in the output data set of the &lt;x1/&gt;Exceptions&lt;x2/&gt; port are selected at this stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На данном шаге задаются имена заголовков HTTP-запроса и их значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T193013Z" creationid="Марианна" creationdate="20210225T193013Z">
@@ -35820,6 +35828,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T224253Z" creationid="Марианна" creationdate="20210218T224253Z">
         <seg>Uniformity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Радиокнопкой необходимо выбрать один из предоставляемых SOAP-сервисом методов (операций).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T211509Z" creationid="Марианна" creationdate="20210225T211441Z">
+        <seg>The radio button is used to select one of the methods (operations) provided by SOAP service.</seg>
       </tuv>
     </tu>
     <tu>
