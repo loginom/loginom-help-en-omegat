@@ -13588,6 +13588,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: Если связь между полем и объектом была установлена неправильно, ее можно удалить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T195806Z" creationid="Марианна" creationdate="20210225T195806Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: If the link between the field and object has been incorrectly established, it can be deleted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: Обработчик "Калькулятор" использует механизм &lt;x3/&gt;ленивых вычислений&lt;x4/&gt;, это означает, что расчет производится только тогда, когда значение выражения отображается или используется другим узлом сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T182433Z" creationid="Марианна" creationdate="20201005T182433Z">
@@ -21413,16 +21421,16 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В правой таблице выбрать нужный параметр запроса и в столбце &lt;x1/&gt;Связанные поля&lt;x2/&gt; выбрать из выпадающего списка метку поля из входного набора;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T195338Z" creationid="Марианна" creationdate="20210225T195338Z">
-        <seg>It is required to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T195907Z" creationid="Марианна" creationdate="20210225T195338Z">
+        <seg>It is necessary to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>В правой таблице выбрать нужный элемент схемы XML и в столбце &lt;x1/&gt;Связанные поля&lt;x2/&gt; выбрать из выпадающего списка метку поля входной таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210224T055234Z" creationid="Марианна" creationdate="20210224T055234Z">
-        <seg>It is required to select the required item of the XML schema in the right table and select the input table field caption from the drop-down list in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T195900Z" creationid="Марианна" creationdate="20210224T055234Z">
+        <seg>It is necessary to select the required item of the XML schema in the right table and select the input table field caption from the drop-down list in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24909,6 +24917,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T211600Z" creationid="Марианна" creationdate="20201119T211600Z">
         <seg>For this purpose, it is required to click on the table header (Main table or Joined table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого нужно выбрать метку и нажать на кнопку &lt;x3/&gt; &lt;x4/&gt; на линии связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T195847Z" creationid="Марианна" creationdate="20210225T195847Z">
+        <seg>In order to do that, it is required to select the caption and press &lt;x3/&gt; &lt;x4/&gt; button in the line.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34476,6 +34492,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T063712Z" creationid="Марианна" creationdate="20201126T063712Z">
         <seg>When configuring the ungrouping node, let's select &lt;x1/&gt;With calculation of quotas for total sample&lt;x2/&gt; method, set rounding up to one decimal place and &lt;x3/&gt;Proportional&lt;x4/&gt; balance method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При необходимости удаления всех связей используется кнопка &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Удалить все связи&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T200008Z" creationid="Марианна" creationdate="20210225T200008Z">
+        <seg>If all links are to be deleted, &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Delete all links&lt;x8/&gt; button is used.</seg>
       </tuv>
     </tu>
     <tu>
