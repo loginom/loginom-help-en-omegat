@@ -20,7 +20,7 @@
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Exceptions (WSDL fault);
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Additional data (table) contains description of errors and SOAP responses of the service.
 
-## Настройка
+## Wizard
 
 Перед началом настройки требуется установить связь с узлом подключения к SOAP-сервису. Настройка включает несколько шагов.
 
@@ -30,13 +30,13 @@
 
 ### Configure Request
 
-The request parameters are set at this stage. Слева расположен список полей входного набора данных. Справа расположен список принимаемых SOAP-сервисом параметров. Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:
+The request parameters are set at this stage. The list of the input data set fields is located on the left. Справа расположен список принимаемых SOAP-сервисом параметров. It is required to establish the links between fields and parameters for provide further setup. It can be done in several ways:
 
-* Методом *Drag-and-drop* — перетащить метку поля из левого списка полей на элемент списка параметров запроса;
-* В правой таблице выбрать нужный параметр запроса и в столбце *Связанные поля* выбрать из выпадающего списка метку поля из входного набора;
+* *Drag-and-drop* method: drag the field caption from the left list of the fields to the item of the request parameters list.
+* It is necessary to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the *Related fields* column.
 * Использовать кнопку ![ ](../../images/icons/toolbar-controls/auto-connect_default.svg) *Связать все автоматически*, при этом происходит автоматическое связывание входных полей и параметров запроса, исходя из значений меток и типов данных полей входного набора и параметров.
 
-> **Примечание**: если связь между полем и объектом была установлена неправильно, ее можно удалить. Для этого нужно выбрать метку и нажать на кнопку ![ ](../../images/icons/link-grid/remove-link_hover.svg) на линии связи. При необходимости удаления всех связей используется кнопка ![ ](../../images/icons/toolbar-controls/remove-all-links_default.svg) *Удалить все связи*.
+> **Note**: If the link between the field and object has been incorrectly established, it can be deleted. In order to do that, it is required to select the caption and press ![ ](../../images/icons/link-grid/remove-link_hover.svg) button in the line. If all links are to be deleted, ![ ](../../images/icons/toolbar-controls/remove-all-links_default.svg) *Delete all links* button is used.
 
 * **Наличие временной зоны** — определяет, указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передаче параметров запроса типа `Дата/Время`. Possible values:
    * Do not specify.

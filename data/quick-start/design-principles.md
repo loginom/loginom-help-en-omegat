@@ -6,9 +6,9 @@ The project can include several packages due to the fact that each package can p
 
 ## Structural Approach
 
-The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchical structure of blocks.
+The project construction is based on the *structural design* methodology— representation of an algorithm in the form of hierarchic structure of blocks.
 
-Each block can be represented on its hierarchical level in the form of the "black box" performing its independent subtask. It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.
+Each block can be represented on its hierarchic level in the form of the "black box" performing its independent subtask. It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.
 
 The project designed in such a way has a clear and transparent structure. It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.
 
@@ -30,7 +30,7 @@ This task is solved by the *overriding mechanism* providing modification of the 
 
 ## Decomposition
 
-The Project structure can be represented in the hierarchical form:
+The Project structure can be represented in the hierarchic form:
 
 * The Project can consist of interconnected Packages. It is possible due to the fact that *each package can provide its objects to other packages* using the mechanism of references.
 * The package includes the Modules - the package decomposition on the level of modules.

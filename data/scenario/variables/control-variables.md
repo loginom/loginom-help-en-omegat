@@ -2,7 +2,7 @@
 
 The control variables port accepts the variables that enable to set parameters of the node settings. Thus, the node settings can be the calculation subject matter in the course of the Workflow execution. It allows for more flexible implementation of the data processing logics.
 
-> **Note:** To display the control ports, it is required to select the following item in the context node menu: "Show control variables port".
+> **Note:** To display the control ports, it is required to select the following item in the context menu of the node: "Show control variables port".
 
 It is not required to accept control variables from another handler. When configuring the port, it is required to set their list and values by default.
 

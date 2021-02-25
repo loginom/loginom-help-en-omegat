@@ -8,7 +8,7 @@ The Main Designation of the *Supernode*:
 
 ## Ports
 
-Initially, there are no input and output ports. They are created by users in the wizard. It is possible to set random number of the following input/output ports for the *Supernode*:
+Initially, there are no input and output ports. They are created by users in the wizard. It is possible to set the random number of the following input/output ports for the *Supernode*:
 
 ### Input
 

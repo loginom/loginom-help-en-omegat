@@ -2,28 +2,28 @@
 
 ## Description
 
-Обработчик извлекает таблицу данных из столбца входной таблицы, в ячейках которого содержатся документы XML в строковом виде. Все документы из столбца должны соответствовать подключенной [XSD-схеме](https://ru.wikipedia.org/wiki/XML_Schema_%28W3C%29).
+The handler extracts the data table from the column of the input table in the cells of which the XML documents are kept in the string form. All documents from the column must comply with the connected [XSD schema](https://ru.wikipedia.org/wiki/XML_Schema_%28W3C%29).
 
 ## Ports
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Поключение к источнику XSD-схемы — подключение настроенного ранее подключения к файлам [XSD-схем](../../integration/connections/list/schemes.md).
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  Control variables (variables), optional.
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — Источник данных — таблица данных, содержащая ячейки с документами XML.
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Connect to XSD schema source allows for connection of the configured earlier connection to the [XSD schemas](../../integration/connections/list/schemes.md) files.
+* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Control variables (variables), optional.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — Data source is a data table that contains the cells with the XML documents.
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Набор данных — таблица данных, извлеченных из документов XML.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Data set means the table of data extracted from the XML documents.
    * There are the following fields the availability of which is set by a user:
-      * Идентификатор поля — показывает, из какого именно документа была извлечена конкретная строка.
+      * The field identifier enables to identify from which document a particular string has been extracted.
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Ошибки и коды завершения — таблица логов извлечения, имеет следующую структуру:
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Errors and exit codes — a table of extraction logs that has the following structure:
    * Required fields:
-      * Код завершения — содержит значения кодов извлечения для каждого документа.
+      * The exit code contains the values of extraction codes for each document.
    * There are the following fields the availability of which is set by a user:
-      * Идентификатор поля — показывает, какому документу соответствует запись в таблице логов;
-      * Описание ошибки — описание кодов завершения.
+      * The field identifier enables to identify the document with which a record is connected in the log table.
+      * Error description means the description of exit codes.
 
 ## Wizard
 
@@ -31,32 +31,32 @@
 
 * **XML column** means the selection of the column with the XML documents.
 
-* **Идентификация XML-документа** — в этой области определяется наличие столбца идентификаторов в извлекаемой таблице и в таблице логов:
-   * Использовать идентификатор — флаг включает идентификаторы. Далее с помощью радиокнопки определяется тип идентификаторов:
-      * Номер строки входного набора — номер строки, в которой содержится документ. Первой строке соответствует идентификатор 0.
-      * Значение столбца — в качестве идентификаторов будут использованы значения выбранного столбца входной таблицы.
+* **XML Document Identification**: availability of the identifier column in the extracted table and log table is defined in this area:
+   * Use identifier: the flag enables identifiers. Then it is required to define the type of identifiers using the radio button:
+      * Number of the input data set row means the number of the string which contains a document. 0 identifier matches the first string.
+      * The column value: values of the selected column of the input table will be used as identifiers.
 
-* **Останавливаться при ошибках** — данный флаг отменит извлечение при обнаружении первой ошибки.
+* **Halt on errors**: this flag enables to cancel extraction when the first error is defined.
 
-* **Разэкранировать сущности XML** — применяется в том случае, если документы извлекаются из другого документа XML, в котором они были заэкранированы. При отсутствии данного флага извлечение документа, начинающегося, например, с объявления `&lt;`
+* **Unescape XML entities** is applied if the documents are extracted from another XML document in which they have been escaped. When this flag is absent, extraction of the document that starts, for example, from such notice as `&lt;`
 
 ```xml
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt
 ```
 
-выдаст ошибку, а при наличии флага обработчик интерпретирует такое объявление как корректное:
+will cause an error, and when this flag is selected, the handler will interpret such notice as the correct one:
 
 ```xml
 <?xml version=«1.0» encoding=«UTF-8»?>
 ```
 
-* **Выдавать описание кодов завершения** — в таблицу с логами будет добавлен столбец "Описание ошибки".
+* **Provide description of error codes**: "Error description" column will be added to the table with logs.
 
 ### Step 2. Imported Fields
 
 * **Connection** is a state of connection to the XSD schema.
 
-* **Корневой элемент** — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут извлекаться. Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля извлекаемой таблицы.
+* **Root element** means selection of the XSD schema root element according to which data will be extracted. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.
 
 * **Default time zone**: the *Date/time* type values are transformed when extracting from XML according to the following algorithm:
    * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
@@ -68,4 +68,4 @@
 
 * **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
 
-* **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. Например, составная метка "ROOT|PERSON|ACCES-LEVEL" будет сформирована для поля извлеченной таблицы, содержащего данные атрибута "ACCESS-LEVEL" элемента "PERSON" из корневого элемента "ROOT" документа. При отсутствии флага поле получит название "ACCESS-LEVEL".
+* **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. For example, complex "ROOT|PERSON|ACCES-LEVEL" caption will be generated for the extracted table field that contains the data of "ACCESS-LEVEL" attribute of "PERSON" element from the root element of "ROOT" document. When there is no such flag, the field will get the following name: "ACCESS-LEVEL".

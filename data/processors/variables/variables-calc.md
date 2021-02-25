@@ -25,7 +25,7 @@ The wizard window includes the following areas:
 
 ### List of Expressions
 
-The area is designated for entry of *expressions*, namely, calculated variables to be added to the output data set as the result of processing. The expression value in each data set string will be calculated using the formula set in the expression code area.
+The area is designated for entry of *expressions*, namely, calculated variables to be added to the output data set as the result of processing. The expression value in each data set row will be calculated using the formula set in the expression code area.
 
 It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
