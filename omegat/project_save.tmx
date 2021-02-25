@@ -21651,6 +21651,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае отправки GET-запросов, каждая строка входного набора должна содержать параметры GET-запроса, а при POST-запросах — &lt;x1/&gt;тело HTTP-запроса&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185121Z" creationid="Марианна" creationdate="20210225T185121Z">
+        <seg>If GET requests are sent, each row of the input data set must contain the GET request parameters, and when POST requests are sent, &lt;x1/&gt;HTTP request body&lt;x2/&gt; must be provided.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае с REST-сервисом для каждого из публикуемых пакетов создается конечная точка REST-сервиса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T105759Z" creationid="Марианна" creationdate="20210217T105759Z">
@@ -37642,8 +37650,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Таблица ответов сервиса;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T225623Z" creationid="Марианна" creationdate="20210218T225623Z">
-        <seg>Table of the service responses;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T184722Z" creationid="Марианна" creationdate="20210218T225623Z">
+        <seg>Table of the service responses.</seg>
       </tuv>
     </tu>
     <tu>
