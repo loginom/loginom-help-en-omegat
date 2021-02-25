@@ -21669,8 +21669,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В случае отправки GET-запросов, каждая строка входного набора должна содержать параметры GET-запроса, а при POST-запросах — &lt;x1/&gt;тело HTTP-запроса&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T185408Z" creationid="Марианна" creationdate="20210225T185121Z">
-        <seg>If GET requests are sent, each row of the input data set must contain the GET request parameters, and in the case of POST requests, &lt;x1/&gt;HTTP request body&lt;x2/&gt; must be provided.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T201041Z" creationid="Марианна" creationdate="20210225T185121Z">
+        <seg>If GET requests are sent, each row of the input data set must contain the GET request parameters, and in the case of POST requests, the &lt;x1/&gt;HTTP request body&lt;x2/&gt; must be provided.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34114,8 +34114,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При POST-запросах поля входной таблицы связываются с предопределенным параметром &lt;x1/&gt;request&lt;x2/&gt;, принимающим тело HTTP-запроса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T201032Z" creationid="Марианна" creationdate="20210225T201032Z">
-        <seg>In the case of POST requests, the input table fields are linked with predefined &lt;x1/&gt;request&lt;x2/&gt; parameter that accepts the HTTP request body.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T201159Z" creationid="Марианна" creationdate="20210225T201032Z">
+        <seg>In the case of POST requests, the input table fields are linked to the predefined &lt;x1/&gt;request&lt;x2/&gt; parameter that accepts the HTTP request body.</seg>
       </tuv>
     </tu>
     <tu>
