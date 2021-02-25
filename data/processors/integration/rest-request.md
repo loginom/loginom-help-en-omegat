@@ -11,7 +11,7 @@ The following data is generated in the output ports of the handler:
 
 If GET requests are sent, each row of the input data set must contain the GET request parameters, and in the case of POST requests, the [HTTP request body](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения) must be provided. When configuring the node, the random number of [HTTP request headers](https://ru.wikipedia.org/wiki/HTTP#Заголовки) is set.
 
-It is required to configure [Connect to REST service](../../integration/connections/list/rest-service.md) to work with REST service. The request type (GET or POST) is selected, and the GET request parameters are listed when this connection is configured. The REST service call node checks the response type, and if the received response does not match the one stated in the `"Type of Response Content-Type"` parameter of the used connection, the output data sets of the node will contain error messages.
+It is required to provide the configured [Connection to REST service](../../integration/connections/list/rest-service.md) to work with REST service. The request type (GET or POST) is selected, and the GET request parameters are listed when this connection is configured. The REST service call node checks the response type, and if the received response does not match the one stated in the `"Type of Response Content-Type"` parameter of the used connection, the output data sets of the node will contain error messages.
 
 ## Ports
 

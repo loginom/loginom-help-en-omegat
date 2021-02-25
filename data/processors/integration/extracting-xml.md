@@ -58,7 +58,7 @@ will cause an error, and when this flag is selected, the handler will interpret 
 
 * **Root element** means selection of the XSD schema root element according to which data will be extracted. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.
 
-* **Default time zone**: the *Date/time* type values are transformed when extracting from XML according to the following algorithm:
+* **Default time zone**: the *Date/Time* type values are transformed when extracting from XML according to the following algorithm:
    * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
    * If the time zone is not specified for the value, the following conditions are met:
       * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.

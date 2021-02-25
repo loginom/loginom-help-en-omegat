@@ -1,10 +1,10 @@
 # ![ ](../../images/icons/data-sources/web-soap-client_default.svg) SOAP Request
 
-Компонент позволяет взаимодействовать с внешним [SOAP-сервисом](https://ru.wikipedia.org/wiki/SOAP), отправляя ему запросы и получая ответы. SOAP-сервису может быть отправлено несколько последовательных запросов, формируемых из строк входной таблицы с параметрами запросов. На выходных портах обработчика формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными. The service XML responses are transformed to the table view.
+The component enables to interact with the external [SOAP service](https://ru.wikipedia.org/wiki/SOAP). It sends requests to it and receives responses. SOAP-сервису может быть отправлено несколько последовательных запросов, формируемых из строк входной таблицы с параметрами запросов. На выходных портах обработчика формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными. The service XML responses are transformed to the table view.
 
-Поддерживаются описание SOAP-сервисов спецификации WSDL 1.1 и протоколы SOAP версий 1.1 и 1.2.
+The SOAP services description, WSDL 1.1 specification and SOAP protocols, versions 1.1 and 1.2 are supported.
 
-Для работы с SOAP-сервисом необходимо настроенное [connection to SOAP-сервису](../../integration/connections/list/soap-service.md).
+It is required to provide the configured [Connection to SOAP service](../../integration/connections/list/soap-service.md) to work with SOAP service.
 
 ## Ports
 
@@ -22,59 +22,59 @@
 
 ## Wizard
 
-Перед началом настройки требуется установить связь с узлом подключения к SOAP-сервису. Настройка включает несколько шагов.
+Before setup start, it is required to provide connection with the SOAP service connection node. Setup includes several steps.
 
 ### Selection of the request method
 
-Радиокнопкой необходимо выбрать один из предоставляемых SOAP-сервисом методов (операций).
+The radio button is used to select one of the methods (operations) provided by SOAP service.
 
 ### Configure Request
 
-The request parameters are set at this stage. The list of the input data set fields is located on the left. Справа расположен список принимаемых SOAP-сервисом параметров. It is required to establish the links between fields and parameters for provide further setup. It can be done in several ways:
+The request parameters are set at this stage. The list of the input data set fields is located on the left. The list of the parameters accepted by SOAP service is located on the right. It is required to establish the links between fields and parameters for provide further setup. It can be done in several ways:
 
 * *Drag-and-drop* method: drag the field caption from the left list of the fields to the item of the request parameters list.
 * It is necessary to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the *Related fields* column.
-* Использовать кнопку ![ ](../../images/icons/toolbar-controls/auto-connect_default.svg) *Связать все автоматически*, при этом происходит автоматическое связывание входных полей и параметров запроса, исходя из значений меток и типов данных полей входного набора и параметров.
+* Use ![ ](../../images/icons/toolbar-controls/auto-connect_default.svg) *Auto Link All* button. It providies auto linking of the input fields and request parameters based on values of captions and types of fields data of the input data set and parameters.
 
 > **Note**: If the link between the field and object has been incorrectly established, it can be deleted. In order to do that, it is required to select the caption and press ![ ](../../images/icons/link-grid/remove-link_hover.svg) button in the line. If all links are to be deleted, ![ ](../../images/icons/toolbar-controls/remove-all-links_default.svg) *Delete all links* button is used.
 
-* **Наличие временной зоны** — определяет, указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передаче параметров запроса типа `Дата/Время`. Possible values:
+* **Specify time zone** defines whether the [time zone](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) information is specified according to [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) when request parameters of the `Date/Time` type are transferred. Possible values:
    * Do not specify.
-   * Не указывать для даты — не указывать временную зону для элементов SOAP-запроса типа [Date](https://www.w3.org/TR/xmlschema-2/#date).
+   * Do not specify for date: do not specify the time zone for the SOAP request items related to the [Date](https://www.w3.org/TR/xmlschema-2/#date) type.
    * Specify always.
 
 ### Configure Service Response
 
-Необходимо выбрать параметры ответа SOAP-сервиса, которые будут включены в результирующую таблицу в виде отдельных столбцов.
+It is required to select parameters of the SOAP service response that will be included into the resulting table in the form of separate columns.
 
 ### Configure Exception Handled
 
-На данном шаге выбираются атрибуты ошибок, которые необходимо вывести в выходном наборе порта *Исключения*.
+Attributes of the errors that are to be displayed in the output data set of the *Exceptions* port are selected at this stage.
 
 ### Custom User Headers
 
-На данном шаге задаются имена и значения [заголовков HTTP-запросов](https://ru.wikipedia.org/wiki/HTTP#Заголовки) к сервису.
+Names and values of [headers of HTTP requests](https://ru.wikipedia.org/wiki/HTTP#Заголовки) to the service are set at this stage.
 
 ### Additional Parameters
 
 * Request Identification.
-   * **Один запрос в каждой строке входного запроса** — каждая строка входной таблицы содержит параметры одного запроса к сервису.
-   * **Идентификатор запроса — поле входного набора** — каждый запрос формируется из нескольких строк входной таблицы с совпадающим идентификатором. Необходимо выбрать поле идентификатора из списка полей входного набора.
+   * **One request per input request row**: each row of the input table contains parameters of one request to the service.
+   * **Идентификатор запроса — поле входного набора** — каждый запрос формируется из нескольких строк входной таблицы с совпадающим идентификатором. It is required to select the identifier field from the list of the input data set fields.
 
-> **Примечание**: поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова SOAP-сервиса отправит единичный SOAP-запрос без параметров.
+> **Note**: As the input data set with the request parameters is optional, when it is not provided, the SOAP service call node will send the only SOAP request without parameters.
 
 * Response Processing.
-   * **Временная зона по умолчанию** — значения с типом *Дата/Время* преобразуются при обработке ответа сервера по следующему алгоритму:
+   * **Default time zone**: the *Date/Time* type values are transformed when processing the server response according to the following algorithm:
       * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
       * If the time zone is not specified for the value, the following conditions are met:
          * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
          * If *Default time zone* is not specified, the value is not changed.
    * **Дублировать единичные значения** — при установке данного флага для каждого дочернего элемента XML ответа сервиса выводится информация, содержащаяся в родительском элементе (например, атрибуты, дочерние элементы с maxOccurs=1). В противном случае эта информация выводится только для первого дочернего элемента.
-   * **Проверять на строгое соответствие XSD** — при установке флага производится валидация XML ответа сервиса на строгое соответствие XSD схеме, заявленной в WSDL веб-сервиса. В противном случае проверка ответа веб-сервиса производится в упрощенном, ускоренном режиме, и большинство проверок осуществляются только для элементов XML, которые были выбраны для вывода в результирующем наборе данных. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML ответа сервиса в случае, если имеются невыявленные ошибки валидации.
+   * **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service. В противном случае проверка ответа веб-сервиса производится в упрощенном, ускоренном режиме, и большинство проверок осуществляются только для элементов XML, которые были выбраны для вывода в результирующем наборе данных. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML ответа сервиса в случае, если имеются невыявленные ошибки валидации.
    * **Генерировать составные метки полей** — метка поля вывода элементов XML ответа сервиса содержит полный путь их расположения в иерархической структуре XML.
 * Additional.
    * **Выдавать описание кодов завершения** — отображать описание ошибок, произошедших при отправке запроса, получении и разборе ответа сервиса.
    * **Выдавать "сырой" ответ сервера** — в выходном наборе данных порта *Дополнительные данные* выводить SOAP-сообщение ответа сервиса.
 * Debug.
-   * **Сохранять текст запроса на диск** — все запросы, отправленные сервису, записываются в указанную папку в файловом хранилище.
-   * **Имитировать запрос с ответом в файле** — при установке флага фактического запроса к сервису не происходит, а в качестве ответа сервиса выводится содержимое указанного файла.
+   * **Save Request Text to Disk**: all requests sent to the service are written to the specified folder in the file storage.
+   * **Simulate request with response in a file**: when this flag is selected, no actual request is sent to the service, and the content of the specified file is displayed as the service response.
