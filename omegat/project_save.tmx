@@ -22897,6 +22897,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор типа запроса (GET или POST), а так же определение списка параметров GET-запроса осуществляется при настройке этого подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T191417Z" creationid="Марианна" creationdate="20210225T191417Z">
+        <seg>The request type (GET or POST) is selected, and the GET request parameters are listed when this connection is configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор узла цикла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194925Z" creationid="Марианна" creationdate="20200921T194925Z">
