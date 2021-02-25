@@ -24065,6 +24065,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T194815Z" creationid="Марианна" creationdate="20210225T194815Z">
+        <seg>It is required to establish the links between fields and parameters for provide further setup. It can be done in several ways:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для данного способа слияния порядок таблиц не важен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105038Z" creationid="Марианна" creationdate="20201110T105559Z">
