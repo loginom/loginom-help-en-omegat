@@ -38150,8 +38150,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Текст, следующий за этим символом и предшествующий следующему его вхождению, импортируется как одно значение, даже если текст содержит символ-разделитель.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T092740Z" creationid="Марианна" creationdate="20200826T092740Z">
-        <seg>The text following this character and preceding its subsequent occurence is imported as one value even if the text contains a separating character.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T201549Z" creationid="Марианна" creationdate="20200826T092740Z">
+        <seg>The text following this character and preceding its subsequent occurrence is imported as one value even if the text contains a separating character.</seg>
       </tuv>
     </tu>
     <tu>
