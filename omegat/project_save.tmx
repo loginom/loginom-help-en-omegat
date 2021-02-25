@@ -10809,6 +10809,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; — определяет, указывается ли информация о &lt;x3/&gt;часовом поясе&lt;x4/&gt; в рамках стандарта &lt;x5/&gt;ISO_8601&lt;x6/&gt; при передаче параметров запроса типа &lt;x7/&gt;Дата/Время&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205019Z" creationid="Марианна" creationdate="20210225T205019Z">
+        <seg>&lt;x1/&gt;Specify time zone&lt;x2/&gt; defines whether the &lt;x3/&gt;time zone&lt;x4/&gt; information is specified according to &lt;x5/&gt;ISO_8601&lt;x6/&gt; when request parameters of the &lt;x7/&gt;Date/Time&lt;x8/&gt; type are transferred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; — указание для данных формата дата/время временной зоны машины, на которой производится экспорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100520Z" creationid="Марианна" creationdate="20200918T100520Z">
@@ -28034,6 +28042,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T181515Z" creationid="Марианна" creationdate="20210225T181515Z">
         <seg>The component enables to interact with the external &lt;x1/&gt;REST service&lt;x2/&gt;. It sends &lt;x3/&gt;GET&lt;x4/&gt; or &lt;x5/&gt;POST&lt;x6/&gt; requests to it and receives responses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент позволяет взаимодействовать с внешним &lt;x1/&gt;SOAP-сервисом&lt;x2/&gt;, отправляя ему запросы и получая ответы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T203404Z" creationid="Марианна" creationdate="20210225T203404Z">
+        <seg>The component enables to interact with the external &lt;x1/&gt;SOAP service&lt;x2/&gt;. It sends requests to it and receives responses.</seg>
       </tuv>
     </tu>
     <tu>
