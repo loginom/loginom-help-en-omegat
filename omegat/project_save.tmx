@@ -28492,6 +28492,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки вызова сервиса состоит из нескольких шагов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T192554Z" creationid="Марианна" creationdate="20210225T192554Z">
+        <seg>The service call wizard consists of several steps.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мастер настройки обработчика представляет собой отображение дерева (дерево, поданое на выход входного порта) с возможностью выбора некоторых или всех узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165412Z" creationid="Марианна" creationdate="20201001T165412Z">
@@ -29592,6 +29600,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T211301Z" creationid="Марианна" creationdate="20201012T211301Z">
         <seg>Population (thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T192301Z" creationid="Марианна" creationdate="20210225T192301Z">
+        <seg>Wizard</seg>
       </tuv>
     </tu>
     <tu>
