@@ -31818,8 +31818,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметр &lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; определяет указывается ли информация о &lt;x3/&gt;часовом поясе&lt;x4/&gt; в рамках стандарта &lt;x5/&gt;ISO_8601&lt;x6/&gt; при передачи параметров GET-запроса типа &lt;x7/&gt;Дата/Время&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T200713Z" creationid="Марианна" creationdate="20210225T200713Z">
-        <seg>&lt;x1/&gt;Specify time zone&lt;x2/&gt; defines whether the &lt;x3/&gt;time zone&lt;x4/&gt; information is specified according to &lt;x5/&gt;ISO_8601&lt;x6/&gt; when GET request parameters of &lt;x7/&gt;Date/Time&lt;x8/&gt; type are transferred.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T200900Z" creationid="Марианна" creationdate="20210225T200713Z">
+        <seg>&lt;x1/&gt;Specify time zone&lt;x2/&gt; defines whether the &lt;x3/&gt;time zone&lt;x4/&gt; information is specified according to &lt;x5/&gt;ISO_8601&lt;x6/&gt; when GET request parameters of the &lt;x7/&gt;Date/Time&lt;x8/&gt; type are transferred.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34108,6 +34108,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T121008Z" creationid="Марианна" creationdate="20210118T121008Z">
         <seg>When &lt;x1/&gt;exporting data to the new table&lt;x2/&gt;, the table of &lt;x3/&gt;Log engine&lt;x4/&gt; is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При POST-запросах поля входной таблицы связываются с предопределенным параметром &lt;x1/&gt;request&lt;x2/&gt;, принимающим тело HTTP-запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T201032Z" creationid="Марианна" creationdate="20210225T201032Z">
+        <seg>In the case of POST requests, the input table fields are linked with predefined &lt;x1/&gt;request&lt;x2/&gt; parameter that accepts the HTTP request body.</seg>
       </tuv>
     </tu>
     <tu>
