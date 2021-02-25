@@ -9177,6 +9177,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имитировать запрос с ответом в файле&lt;x2/&gt; — при установке флага фактического запроса к сервису не происходит, а обработчик в качестве ответа сервиса подставляет содержимое указанного файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T202842Z" creationid="Марианна" creationdate="20210225T202842Z">
+        <seg>&lt;x1/&gt;Simulate request with response in a file&lt;x2/&gt;: when this flag is selected, no actual request is sent to the service, and the handler substitutes content of the specified file as the service response.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T203554Z" creationid="Марианна" creationdate="20210203T203554Z">
