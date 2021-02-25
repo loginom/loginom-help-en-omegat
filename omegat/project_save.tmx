@@ -40148,6 +40148,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>использовать кнопку &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Связать все автоматически&lt;x4/&gt;, при этом происходит автоматическое связывание входных полей и параметров запроса, исходя из значений меток и типов данных полей входного набора и параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T195733Z" creationid="Марианна" creationdate="20210225T195733Z">
+        <seg>Use &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Auto Link All&lt;x4/&gt; button. It providies auto linking of the input fields and request parameters based on values of captions and types of fields data of the input data set and parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>использовать кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Связать все автоматически&lt;x4/&gt;, при этом происходит автоматическое связывание, исходя из значений меток и типов данных полей входной таблицы и элементов схемы XML.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T060150Z" creationid="Марианна" creationdate="20210224T055856Z">
