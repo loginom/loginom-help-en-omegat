@@ -32264,6 +32264,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед началом настройки требуется установить связь с узлом подключения к SOAP-сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T212528Z" creationid="Марианна" creationdate="20210225T212528Z">
+        <seg>Before setup start, it is required to provide connection with the SOAP service connection node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед тем как использовать в сценариях узлы &lt;x1/&gt;взаимодействия с SOAP-сервисами&lt;x2/&gt;/&lt;x3/&gt;REST-сервисами&lt;x4/&gt; и &lt;x5/&gt;импорта&lt;x6/&gt;/&lt;x7/&gt;экспорта&lt;x8/&gt; из бизнес приложений, хранилищ данных, баз данных или иных источников, в пакете необходимо создать подключение к источнику данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T115349Z" creationid="Марианна" creationdate="20210213T115253Z">
