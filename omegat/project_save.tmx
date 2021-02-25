@@ -13596,6 +13596,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: Поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова REST-сервиса отправит единичный запрос без параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T184441Z" creationid="Марианна" creationdate="20210225T184441Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: As the input data set with the request parameters is optional, when it is not provided, the REST service call node will send the only request without parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: если входной набор данных пустой, то на выходе количество строк равно нулю при любых настройках параметра &lt;x3/&gt;Идентификация XML-документа&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T065243Z" creationid="Марианна" creationdate="20210224T064656Z">
