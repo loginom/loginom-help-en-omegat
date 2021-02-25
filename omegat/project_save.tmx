@@ -29092,6 +29092,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На данном шаге задаются имена и значения &lt;x1/&gt;заголовков HTTP-запросов&lt;x2/&gt; к сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205536Z" creationid="Марианна" creationdate="20210225T205536Z">
+        <seg>Names and values of &lt;x1/&gt;headers of HTTP requests&lt;x2/&gt; to the service are set at this stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На данном шаге задаются параметры запроса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T230645Z" creationid="Марианна" creationdate="20210218T230645Z">
@@ -30344,6 +30352,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T084259Z" creationid="Марианна" creationdate="20200919T102137Z">
         <seg>It is required to select one of the nodes the output data of which is to be received in the current workflow location.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необходимо выбрать параметры ответа SOAP-сервиса, которые будут включены в результирующую таблицу в виде отдельных столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205318Z" creationid="Марианна" creationdate="20210225T205318Z">
+        <seg>It is required to select parameters of the SOAP service response that will be included into the resulting table in the form of separate columns.</seg>
       </tuv>
     </tu>
     <tu>
