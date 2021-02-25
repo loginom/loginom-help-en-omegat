@@ -30244,6 +30244,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не указывать для даты — не указывать временную зону для элементов SOAP-запроса типа &lt;x1/&gt;Date&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205151Z" creationid="Марианна" creationdate="20210225T205151Z">
+        <seg>Do not specify for date: do not specify the time zone for the SOAP request items related to the &lt;x1/&gt;Date&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не указывать для даты — не указывать временную зону для элементов типа &lt;x1/&gt;date&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T061151Z" creationid="Марианна" creationdate="20210224T061151Z">
