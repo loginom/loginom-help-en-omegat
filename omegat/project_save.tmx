@@ -7563,8 +7563,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Временная зона по умолчанию&lt;x2/&gt; — значения с типом &lt;x3/&gt;Дата/Время&lt;x4/&gt; преобразуются при извлечении из XML по следующему алгоритму:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T220252Z" creationid="Марианна" creationdate="20200829T220252Z">
-        <seg>&lt;x1/&gt;Default time zone&lt;x2/&gt;: the &lt;x3/&gt;Date/time&lt;x4/&gt; type values are transformed when extracting from XML according to the following algorithm:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T205931Z" creationid="Марианна" creationdate="20200829T220252Z">
+        <seg>&lt;x1/&gt;Default time zone&lt;x2/&gt;: the &lt;x3/&gt;Date/Time&lt;x4/&gt; type values are transformed when extracting from XML according to the following algorithm:</seg>
       </tuv>
     </tu>
     <tu>
