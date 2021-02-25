@@ -38484,6 +38484,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел вызова REST-сервиса осуществляет проверку типа  ответа, и если полученный ответ не соответствует заявленному в параметре &lt;x3/&gt;"Тип Content-type ответа"&lt;x4/&gt; используемого подключения, то выходные наборы данных узла будут содержать сообщения об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T192128Z" creationid="Марианна" creationdate="20210225T192128Z">
+        <seg>The REST service call node checks the response type, and if the received response does not match the one stated in the &lt;x3/&gt;"Type of Response Content-Type"&lt;x4/&gt; parameter of the used connection, the output data sets of the node will contain error messages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел выполняет действие аналогичное &lt;x3/&gt;Левому соединению&lt;x4/&gt; узла &lt;x5/&gt;Соединение&lt;x6/&gt;, но количество присоединяемых таблиц произвольно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T091953Z" creationid="Марианна" creationdate="20201118T090810Z">
