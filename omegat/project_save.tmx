@@ -34400,6 +34400,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке узла задается произвольное количество &lt;x3/&gt;заголовков HTTP-запроса&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185833Z" creationid="Марианна" creationdate="20210225T185833Z">
+        <seg>When configuring the node, the random number of &lt;x3/&gt;HTTP request headers&lt;x4/&gt; is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При настройке узла разгруппировки выберем метод &lt;x1/&gt;С расчетом долей по всей выборке&lt;x2/&gt;, выставим округление до одного знака после запятой и &lt;x3/&gt;Пропорциональный&lt;x4/&gt; метод балансировки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T063712Z" creationid="Марианна" creationdate="20201126T063712Z">
