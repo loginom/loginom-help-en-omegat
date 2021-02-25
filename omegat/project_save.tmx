@@ -33160,6 +33160,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживаются описание SOAP-сервисов спецификации WSDL 1.1 и протоколы SOAP версий 1.1 и 1.2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T211027Z" creationid="Марианна" creationdate="20210225T211027Z">
+        <seg>The SOAP services description, WSDL 1.1 specification and SOAP protocols, versions 1.1 and 1.2 are supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживаются следующие типы авторизации по имени пользователя и паролю:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T115747Z" creationid="Марианна" creationdate="20210208T115747Z">
