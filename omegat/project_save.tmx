@@ -27125,6 +27125,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использовать кнопку &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Связать все автоматически&lt;x4/&gt;, при этом происходит автоматическое связывание входных полей и параметров запроса, исходя из значений меток и типов данных полей входного набора и параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T203252Z" creationid="Марианна" creationdate="20210225T203252Z">
+        <seg>Use &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Auto Link All&lt;x4/&gt; button. It providies auto linking of the input fields and request parameters based on values of captions and types of fields data of the input data set and parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использовать настройки и обученные модели узлов из других сценариев и пакетов через механизм &lt;x1/&gt;Выполнение узла&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163712Z" creationid="Марианна" creationdate="20200718T163712Z">
@@ -29704,6 +29712,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195351Z" creationid="Марианна" creationdate="20200921T195351Z">
         <seg>Configuration of the Loop Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка включает несколько шагов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T203112Z" creationid="Марианна" creationdate="20210225T203112Z">
+        <seg>Setup includes several steps.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37276,6 +37292,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T194433Z" creationid="Марианна" creationdate="20210225T194433Z">
         <seg>The list of the parameters accepted by REST service is located on the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Справа расположен список принимаемых SOAP-сервисом параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T203143Z" creationid="Марианна" creationdate="20210225T203143Z">
+        <seg>The list of the parameters accepted by SOAP service is located on the right.</seg>
       </tuv>
     </tu>
     <tu>
