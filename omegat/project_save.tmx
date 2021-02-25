@@ -20771,6 +20771,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В выходных портах обработчика формируются:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T184716Z" creationid="Марианна" creationdate="20210225T184716Z">
+        <seg>The following data is generated in the output ports of the handler:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В группе &lt;x1/&gt;Факты&lt;x2/&gt; порядок полей не имеет значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T082208Z" creationid="Марианна" creationdate="20201023T082208Z">
