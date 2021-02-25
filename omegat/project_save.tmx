@@ -37184,6 +37184,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Справа расположен список принимаемых REST-сервисом параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T194433Z" creationid="Марианна" creationdate="20210225T194433Z">
+        <seg>The list of the parameters accepted by REST service is located on the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Спроектированный таким образом проект имеет четкую, легко читаемую структуру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140028Z" creationid="Марианна" creationdate="20200718T140028Z">
