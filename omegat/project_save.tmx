@@ -13780,6 +13780,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проверять на строгое соответствие XSD&lt;x2/&gt; — при установке флага производится валидация XML ответа сервиса на строгое соответствие XSD схеме, заявленной в WSDL веб-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T212225Z" creationid="Марианна" creationdate="20210225T212225Z">
+        <seg>&lt;x1/&gt;Check for strict XSD validation&lt;x2/&gt;: when flag placing, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164424Z" creationid="Марианна" creationdate="20200718T120529Z">
@@ -30408,6 +30416,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T205318Z" creationid="Марианна" creationdate="20210225T205318Z">
         <seg>It is required to select parameters of the SOAP service response that will be included into the resulting table in the form of separate columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необходимо выбрать поле идентификатора из списка полей входного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T212043Z" creationid="Марианна" creationdate="20210225T212043Z">
+        <seg>It is required to select the identifier field from the list of the input data set fields.</seg>
       </tuv>
     </tu>
     <tu>
