@@ -17692,6 +17692,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>REST-сервису будет отправлено столько запросов, сколько строк во входном наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T183843Z" creationid="Марианна" creationdate="20210225T183843Z">
+        <seg>REST service will get as many requests as there are rows in the input data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ridge</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083251Z" creationid="Марианна" creationdate="20201214T083251Z">
@@ -20887,6 +20895,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134330Z" creationid="Марианна" creationdate="20201015T085322Z">
         <seg>There are two methods used to calculate expressions in the calculator:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В качестве входного набора данных используется таблица с параметрами запросов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T181613Z" creationid="Марианна" creationdate="20210225T181613Z">
+        <seg>The table with the request parameters is used as the input data set.</seg>
       </tuv>
     </tu>
     <tu>
