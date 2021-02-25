@@ -14926,8 +14926,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять текст запроса на диск&lt;x2/&gt; — все запросы, отправленные сервису, записываются в указанную папку в файловом хранилище;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T201748Z" creationid="Марианна" creationdate="20210225T201748Z">
-        <seg>&lt;x1/&gt;Save Request Text to Disk&lt;x2/&gt;: all requests sent to the service are recorded in the specified folder in the file storage.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T202054Z" creationid="Марианна" creationdate="20210225T201748Z">
+        <seg>&lt;x1/&gt;Save Request Text to Disk&lt;x2/&gt;: all requests sent to the service are written to the specified folder in the file storage.</seg>
       </tuv>
     </tu>
     <tu>
