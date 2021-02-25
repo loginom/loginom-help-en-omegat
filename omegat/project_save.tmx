@@ -28740,6 +28740,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Методом &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; — перетащить метку поля из левого списка полей на элемент списка параметров запроса;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T194929Z" creationid="Марианна" creationdate="20210225T194929Z">
+        <seg>&lt;x1/&gt;Drag-and-drop&lt;x2/&gt; method: drag the field caption from the left list of the fields to the item of the request parameters list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Методом &lt;x1/&gt;Drag-and-drop&lt;x2/&gt; — перетащить метку поля из левого списка полей на элемент схемы XML.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T162921Z" creationid="Марианна" creationdate="20210220T162744Z">
