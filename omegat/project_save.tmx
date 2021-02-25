@@ -27910,6 +27910,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент позволяет взаимодействовать с внешним &lt;x1/&gt;REST-сервисом&lt;x2/&gt;, отправляя ему &lt;x3/&gt;GET&lt;x4/&gt; или &lt;x5/&gt;POST&lt;x6/&gt; запросы и получая ответы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T181515Z" creationid="Марианна" creationdate="20210225T181515Z">
+        <seg>The component enables to interact with the external &lt;x1/&gt;REST service&lt;x2/&gt;. It sends &lt;x3/&gt;GET&lt;x4/&gt; or &lt;x5/&gt;POST&lt;x6/&gt; requests to it and receives responses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент позволяет повторно использовать уже имеющийся узел сценария для обработки новых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T070534Z" creationid="Марианна" creationdate="20200918T142731Z">
