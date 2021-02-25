@@ -36488,6 +36488,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Слева расположен список полей входного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T194201Z" creationid="Марианна" creationdate="20210225T194201Z">
+        <seg>The list of the input data set fields is located on the left.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слева расположено главное меню с кнопками: Меню, Пакеты, Навигация, &lt;x1/&gt;Файлы&lt;x2/&gt;, &lt;x3/&gt;Процессы&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T134914Z" creationid="Марианна" creationdate="20200716T134914Z">
