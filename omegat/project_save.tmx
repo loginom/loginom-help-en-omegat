@@ -9185,6 +9185,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имитировать запрос с ответом в файле&lt;x2/&gt; — при установке флага фактического запроса к сервису не происходит, а в качестве ответа сервиса выводится содержимое указанного файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T210317Z" creationid="Марианна" creationdate="20210225T210317Z">
+        <seg>&lt;x1/&gt;Simulate request with response in a file&lt;x2/&gt;: when this flag is selected, no actual request is sent to the service, and the content of the specified file is displayed as the service response.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имитировать запрос с ответом в файле&lt;x2/&gt; — при установке флага фактического запроса к сервису не происходит, а обработчик в качестве ответа сервиса подставляет содержимое указанного файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T202842Z" creationid="Марианна" creationdate="20210225T202842Z">
@@ -14952,6 +14960,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T153158Z" creationid="Марианна" creationdate="20210121T153003Z">
         <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, password will be saved in the current connection settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранять текст запроса на диск&lt;x2/&gt; — все запросы, отправленные сервису, записываются в указанную папку в файловом хранилище.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T210114Z" creationid="Марианна" creationdate="20210225T210114Z">
+        <seg>&lt;x1/&gt;Save Request Text to Disk&lt;x2/&gt;: all requests sent to the service are written to the specified folder in the file storage.</seg>
       </tuv>
     </tu>
     <tu>
