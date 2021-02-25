@@ -24569,6 +24569,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для работы с REST-сервисом необходимо настроенное &lt;x1/&gt;подключение к REST-сервису&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T191114Z" creationid="Марианна" creationdate="20210225T191114Z">
+        <seg>It is required to configure &lt;x1/&gt;Connect to REST service&lt;x2/&gt; to work with REST service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для работы с SOAP-сервисом необходимо настроенное &lt;x1/&gt;подключение к SOAP-сервису&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133326Z" creationid="Марианна" creationdate="20210208T133326Z">
