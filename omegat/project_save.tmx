@@ -24675,8 +24675,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для работы с SOAP-сервисом необходимо настроенное &lt;x1/&gt;подключение к SOAP-сервису&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T211154Z" creationid="Марианна" creationdate="20210208T133326Z">
-        <seg>It is required to provide configured &lt;x1/&gt;Connection to SOAP service&lt;x2/&gt; to work with SOAP service.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T211324Z" creationid="Марианна" creationdate="20210208T133326Z">
+        <seg>It is required to provide the configured &lt;x1/&gt;Connection to SOAP service&lt;x2/&gt; to work with SOAP service.</seg>
       </tuv>
     </tu>
     <tu>
