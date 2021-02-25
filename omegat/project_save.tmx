@@ -23875,8 +23875,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для &lt;x1/&gt;Подмодели&lt;x2/&gt; можно задать произвольное количество входных/выходных портов следующих типов:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200920T145000Z" creationid="Марианна" creationdate="20200920T145000Z">
-        <seg>It is possible to set random number of the following input/output ports for the &lt;x1/&gt;Supernode&lt;x2/&gt;:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T185850Z" creationid="Марианна" creationdate="20200920T145000Z">
+        <seg>It is possible to set the random number of the following input/output ports for the &lt;x1/&gt;Supernode&lt;x2/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
