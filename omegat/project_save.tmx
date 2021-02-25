@@ -21411,6 +21411,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В правой таблице выбрать нужный параметр запроса и в столбце &lt;x1/&gt;Связанные поля&lt;x2/&gt; выбрать из выпадающего списка метку поля из входного набора;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210225T195338Z" creationid="Марианна" creationdate="20210225T195338Z">
+        <seg>It is required to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В правой таблице выбрать нужный элемент схемы XML и в столбце &lt;x1/&gt;Связанные поля&lt;x2/&gt; выбрать из выпадающего списка метку поля входной таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T055234Z" creationid="Марианна" creationdate="20210224T055234Z">
