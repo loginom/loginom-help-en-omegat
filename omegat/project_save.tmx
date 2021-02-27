@@ -8201,6 +8201,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; — метка поля вывода элементов XML ответа сервиса содержит полный путь их расположения в иерархической структуре XML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T210454Z" creationid="Марианна" creationdate="20210227T210454Z">
+        <seg>&lt;x1/&gt;Generate composite field captions&lt;x2/&gt;: the field caption used to display XML elements of the service response contains the full path of their location in the hierarchic XML structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; — при наличии данного флага в каждой метке поля будет отражена иерархия относительно корневого элемента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T221931Z" creationid="Марианна" creationdate="20200829T221931Z">
@@ -35754,8 +35762,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML ответа сервиса в случае, если имеются невыявленные ошибки валидации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210227T205850Z" creationid="Марианна" creationdate="20210227T205850Z">
-        <seg>The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T210045Z" creationid="Марианна" creationdate="20210227T205850Z">
+        <seg>The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML of the service response if there are undetected validation errors.</seg>
       </tuv>
     </tu>
     <tu>
