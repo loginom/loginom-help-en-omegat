@@ -21579,6 +21579,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В противном случае проверка ответа веб-сервиса производится в упрощенном, ускоренном режиме, и большинство проверок осуществляются только для элементов XML, которые были выбраны для вывода в результирующем наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T205839Z" creationid="Марианна" creationdate="20210227T205839Z">
+        <seg>Otherwise, the web service response is checked in the simplified accelerated mode. And most checks are performed only for the XML elements that have been selected for displaying in the resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В противном случае проверка производится в упрощенном, ускоренном режиме.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T221613Z" creationid="Марианна" creationdate="20200829T221613Z">
@@ -35739,6 +35747,14 @@ It accepts supplementary transaction items that can be taken into account when c
         <seg>Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML в случае, если имеются невыявленные ошибки валидации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T134507Z" creationid="Марианна" creationdate="20200829T221729Z">
+        <seg>The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML ответа сервиса в случае, если имеются невыявленные ошибки валидации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T205850Z" creationid="Марианна" creationdate="20210227T205850Z">
         <seg>The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.</seg>
       </tuv>
     </tu>
