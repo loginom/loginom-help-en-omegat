@@ -7905,6 +7905,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выдавать описание кодов завершения&lt;x2/&gt; — отображать описание ошибок, произошедших при отправке запроса, получении и разборе ответа сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T210608Z" creationid="Марианна" creationdate="20210227T210608Z">
+        <seg>&lt;x1/&gt;Provide description of error codes&lt;x2/&gt; enables to display description of the errors that occurred while request sending, receipt and parsing of the service response.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выдавать описание кодов завершения&lt;x2/&gt; — отображать описание ошибок, произошедших при отправке запроса, получении и разборе ответа сервиса;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T201434Z" creationid="Марианна" creationdate="20210225T201434Z">
