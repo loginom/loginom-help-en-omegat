@@ -21603,6 +21603,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В противном случае эта информация выводится только для первого дочернего элемента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T205527Z" creationid="Марианна" creationdate="20210227T205527Z">
+        <seg>Otherwise, this information is displayed only for the first child element.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В процессе обучения нейронная сеть способна выявлять сложные зависимости между входными параметрами и выходными, а также выполнять обобщение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T135524Z" creationid="Марианна" creationdate="20201221T135524Z">
