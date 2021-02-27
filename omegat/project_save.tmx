@@ -17880,6 +17880,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SOAP-сервису может быть отправлено несколько последовательных запросов, формируемых из строк входной таблицы с параметрами запросов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T204429Z" creationid="Марианна" creationdate="20210227T204429Z">
+        <seg>It is possible to send several consequent requests generated from the input table rows with the request parameters to SOAP service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SQL Native Client.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T175315Z" creationid="Марианна" creationdate="20210121T175315Z">
@@ -29112,6 +29120,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T164356Z" creationid="Марианна" creationdate="20200718T164356Z">
         <seg>The Derived Component can be created on the supernode base.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На выходных портах обработчика формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T204646Z" creationid="Марианна" creationdate="20210227T204646Z">
+        <seg>Tables with the service responses, returned errors and additional data are generated in the output ports of the handler.</seg>
       </tuv>
     </tu>
     <tu>
