@@ -9113,6 +9113,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Идентификатор запроса — поле входного набора&lt;x2/&gt; — каждый запрос формируется из нескольких строк входной таблицы с совпадающим идентификатором.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T204954Z" creationid="Марианна" creationdate="20210227T204954Z">
+        <seg>&lt;x1/&gt;Request identifier - input data set field&lt;x2/&gt;: each request is generated from several input table rows with matching identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Идентификация XML-документа&lt;x2/&gt; — в этой области определяется наличие столбца идентификаторов в извлекаемой таблице и в таблице логов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T151351Z" creationid="Марианна" creationdate="20210220T151351Z">
