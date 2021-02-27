@@ -7897,6 +7897,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выдавать "сырой" ответ сервера&lt;x2/&gt; — в выходном наборе данных порта &lt;x3/&gt;Дополнительные данные&lt;x4/&gt; выводить SOAP-сообщение ответа сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210227T210822Z" creationid="Марианна" creationdate="20210227T210822Z">
+        <seg>&lt;x1/&gt;Produce "raw" server response&lt;x2/&gt;: to show SOAP message of the service response in the output data set of the &lt;x3/&gt;Additional data&lt;x4/&gt; port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выдавать описание кодов завершения&lt;x2/&gt; — в таблицу с логами будет добавлен столбец "Описание ошибки".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T153819Z" creationid="Марианна" creationdate="20210220T153819Z">
