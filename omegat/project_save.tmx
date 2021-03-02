@@ -34338,8 +34338,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При &lt;x1/&gt;экспорте данных в новую таблицу&lt;x2/&gt; создается таблица &lt;x3/&gt;движка Log&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T121008Z" creationid="Марианна" creationdate="20210118T121008Z">
-        <seg>When &lt;x1/&gt;exporting data to the new table&lt;x2/&gt;, the table of &lt;x3/&gt;Log engine&lt;x4/&gt; is created.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T202237Z" creationid="Марианна" creationdate="20210118T121008Z">
+        <seg>When &lt;x1/&gt;exporting data to the new table&lt;x2/&gt;, the &lt;x3/&gt;Log engine&lt;x4/&gt; table is created.</seg>
       </tuv>
     </tu>
     <tu>
