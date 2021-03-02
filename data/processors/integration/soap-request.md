@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/data-sources/web-soap-client_default.svg) SOAP Request
 
-The component enables to interact with the external [SOAP service](https://ru.wikipedia.org/wiki/SOAP). It sends requests to it and receives responses. SOAP-сервису может быть отправлено несколько последовательных запросов, формируемых из строк входной таблицы с параметрами запросов. На выходных портах обработчика формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными. The service XML responses are transformed to the table view.
+The component enables to interact with the external [SOAP service](https://ru.wikipedia.org/wiki/SOAP). It sends requests to it and receives responses. It is possible to send several consequent requests generated from the input table rows with the request parameters to SOAP service. Tables with the service responses, returned errors and additional data are generated in the output ports of the handler. The service XML responses are transformed to the table view.
 
 The SOAP services description, WSDL 1.1 specification and SOAP protocols, versions 1.1 and 1.2 are supported.
 
@@ -59,7 +59,7 @@ Names and values of [headers of HTTP requests](https://ru.wikipedia.org/wiki/HTT
 
 * Request Identification.
    * **One request per input request row**: each row of the input table contains parameters of one request to the service.
-   * **Идентификатор запроса — поле входного набора** — каждый запрос формируется из нескольких строк входной таблицы с совпадающим идентификатором. It is required to select the identifier field from the list of the input data set fields.
+   * **Request identifier - input data set field**: each request is generated from several input table rows with matching identifier. It is required to select the identifier field from the list of the input data set fields.
 
 > **Note**: As the input data set with the request parameters is optional, when it is not provided, the SOAP service call node will send the only SOAP request without parameters.
 
@@ -69,12 +69,12 @@ Names and values of [headers of HTTP requests](https://ru.wikipedia.org/wiki/HTT
       * If the time zone is not specified for the value, the following conditions are met:
          * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
          * If *Default time zone* is not specified, the value is not changed.
-   * **Дублировать единичные значения** — при установке данного флага для каждого дочернего элемента XML ответа сервиса выводится информация, содержащаяся в родительском элементе (например, атрибуты, дочерние элементы с maxOccurs=1). В противном случае эта информация выводится только для первого дочернего элемента.
-   * **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service. В противном случае проверка ответа веб-сервиса производится в упрощенном, ускоренном режиме, и большинство проверок осуществляются только для элементов XML, которые были выбраны для вывода в результирующем наборе данных. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML ответа сервиса в случае, если имеются невыявленные ошибки валидации.
-   * **Генерировать составные метки полей** — метка поля вывода элементов XML ответа сервиса содержит полный путь их расположения в иерархической структуре XML.
+   * **Repeat single values**: when this flag is selected, the information in the parent element is displayed for each child XML element of the service response (for example, attributes, child elements with maxOccurs=1). Otherwise, this information is displayed only for the first child element.
+   * **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service. Otherwise, the web service response is checked in the simplified accelerated mode. And most checks are performed only for the XML elements that have been selected for displaying in the resulting data set. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML of the service response if there are undetected validation errors.
+   * **Generate composite field captions**: the field caption used to display XML elements of the service response contains the full path of their location in the hierarchic XML structure.
 * Additional.
-   * **Выдавать описание кодов завершения** — отображать описание ошибок, произошедших при отправке запроса, получении и разборе ответа сервиса.
-   * **Выдавать "сырой" ответ сервера** — в выходном наборе данных порта *Дополнительные данные* выводить SOAP-сообщение ответа сервиса.
+   * **Provide description of error codes** enables to display description of the errors that occurred while request sending, receipt and parsing of the service response.
+   * **Produce "raw" server response**: to show SOAP message of the service response in the output data set of the *Additional data* port.
 * Debug.
    * **Save Request Text to Disk**: all requests sent to the service are written to the specified folder in the file storage.
    * **Simulate request with response in a file**: when this flag is selected, no actual request is sent to the service, and the content of the specified file is displayed as the service response.
