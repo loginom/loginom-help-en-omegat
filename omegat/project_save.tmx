@@ -16094,8 +16094,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Учитывать временную зону&lt;x2/&gt; — выполнять конвертацию из локального времени в UTC и обратно для столбцов типа &lt;x3/&gt;DateTime&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T123417Z" creationid="Марианна" creationdate="20210118T123417Z">
-        <seg>&lt;x1/&gt;Use local time zone&lt;x2/&gt; ptovides conversion from the local time to UTC and vice versa for the columns of &lt;x3/&gt;DateTime&lt;x4/&gt; type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T201853Z" creationid="Марианна" creationdate="20210118T123417Z">
+        <seg>&lt;x1/&gt;Use local time zone&lt;x2/&gt; ptovides conversion from the local time to UTC and vice versa for the columns of the &lt;x3/&gt;DateTime&lt;x4/&gt; type.</seg>
       </tuv>
     </tu>
     <tu>
