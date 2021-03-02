@@ -7,7 +7,7 @@ It is used for connection to the Microsoft Excel file as to a database.
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string**: the path to the file containing the required data is specified. Parameters can be manually entered, or it is possible to press the following button ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) to call window *Open file*.
+* **Connection string**: the path to the file containing the required data is specified. Parameters can be manually entered, or it is possible to press ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button to call *Open file* window.
 * **Test connection**: test of the specified connection settings.
 * **Login** is not used for connection to the Microsoft Excel file.
 * **Password** is not used for connection to the Microsoft Excel file.
