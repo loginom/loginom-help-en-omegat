@@ -32,6 +32,6 @@ Starting from XE3 version.
 
 **See also:**
 
-* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Interbase)
-* [Manufacturer official website](https://www.embarcadero.com/ru/products/interbase)
-* [SQL Syntax Documentation](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide)
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Interbase);
+* [Manufacturer official website](https://www.embarcadero.com/ru/products/interbase);
+* [SQL Syntax Documentation](http://docwiki.embarcadero.com/InterBase/2017/en/Embedded_SQL_Guide).

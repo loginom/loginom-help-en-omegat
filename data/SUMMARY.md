@@ -80,7 +80,7 @@
          * [Grouping](./processors/transformation/grouping.md)
          * [Date and time](./processors/transformation/trans-datatime/README.md)
             * [Format](./processors/transformation/trans-datatime/syntax.md)
-         * [Enrich data](./processors/transformation/supplementation.md)
+         * [Enrich data](./processors/transformation/supplementation.md);
          * [Replace](./processors/transformation/substitution/README.md)
             * [Exact match](./processors/transformation/substitution/exact-match.md)
             * [Regular expression](./processors/transformation/substitution/regexp-match.md)
@@ -90,7 +90,7 @@
             * [Expression](./processors/transformation/calc/expression.md)
             * [JavaScript](./processors/transformation/calc/javascript.md)
          * [Cross table](./processors/transformation/cross-table.md)
-         * [Union](./processors/transformation/union.md)
+         * [Union](./processors/transformation/union.md).
          * [Features of fields](./processors/transformation/fields-parameters.md)
          * [Ungroup](./processors/transformation/ungrouping.md)
          * [Collapse columns](./processors/transformation/rollup-columns.md)
@@ -101,7 +101,7 @@
             * [Left join](./processors/transformation/join/left.md)
             * [Right join](./processors/transformation/join/right.md)
             * [Difference](./processors/transformation/join/distinct.md)
-         * [Connection](./processors/transformation/addition.md)
+         * [Connection](./processors/transformation/addition.md);
          * [Sort](./processors/transformation/sorting.md)
          * [Row filter](./processors/transformation/row-filter/README.md)
             * [Filter relation](./processors/transformation/row-filter/filter-conditions.md)
@@ -126,7 +126,7 @@
          * [Correlation analysis](./processors/scrutiny/correlation-analysis.md)
          * [Factor analysis](./processors/scrutiny/factor-analysis.md)
       * [Preprocessing](./processors/preprocessing/README.md)
-         * [Imputation](./processors/preprocessing/filling-omissions.md)
+         * [Imputation](./processors/preprocessing/filling-omissions.md);
          * [Binning](./processors/preprocessing/quantization.md)
             * [External ranges](./processors/preprocessing/quantization/outdoor-ranges.md)
             * [Resulting data set structure](./processors/preprocessing/quantization/calculated-columns.md)
@@ -168,7 +168,7 @@
          * [SOAP request](./processors/integration/soap-request.md)
          * [REST request](./processors/integration/rest-request.md)
          * [Program execution](./processors/integration/exec-program.md)
-         * [XML Extraction](./processors/integration/extracting-xml.md)
+         * [XML Extraction](./processors/integration/extracting-xml.md).
          * [XML generation](./processors/integration/formation-xml.md)
    * [Functions](./processors/func/README.md)
       * [Calculator functions](./processors/func/calc-func/README.md)

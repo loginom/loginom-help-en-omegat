@@ -28,4 +28,4 @@ To connect to the files of Microsoft Excel 2007 and higher (*.xlsx), the system 
 **See also:**
 
 * [Manufacturer official website](https://www.microsoft.com/ru-ru)
-* [Product Documentation](https://docs.microsoft.com/ru-ru/)
+* [Product Documentation](https://docs.microsoft.com/ru-ru/).

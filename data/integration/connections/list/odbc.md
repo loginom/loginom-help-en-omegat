@@ -58,6 +58,6 @@ If the driver is not listed, it is possible to set up a connection to it only by
 
 **See also:**
 
-* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/ODBC)
-* [Site with rules and examples of connection string writing](https://www.connectionstrings.com/)
-* [Examples of writing of connection strings for different data sources](https://www.sqlmaestro.com/resources/all/anysql_maestro_connection_strings/)
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/ODBC);
+* [Site with rules and examples of connection string writing](https://www.connectionstrings.com/);
+* [Examples of writing of connection strings for different data sources](https://www.sqlmaestro.com/resources/all/anysql_maestro_connection_strings/).

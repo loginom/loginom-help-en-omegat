@@ -56,5 +56,5 @@
 
 **See also:**
 
-* [Imputation](../../processors/preprocessing/filling-omissions.md)
-* [Аномальные значения](https://wiki.loginom.ru/articles/outlier.html)
+* [Imputation](../../processors/preprocessing/filling-omissions.md);
+* [Anomalous values](https://wiki.loginom.ru/articles/outlier.html).

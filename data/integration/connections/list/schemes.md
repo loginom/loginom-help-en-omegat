@@ -17,6 +17,6 @@ Listed commands:
 
 **See also:**
 
-* [XML Import](../../import/xml.md)
-* [XML Export](../../export/xml.md)
-* [XML Extraction](../../../processors/integration/extracting-xml.md)
+* [XML Import](../../import/xml.md);
+* [XML Export](../../export/xml.md);
+* [XML Extraction](../../../processors/integration/extracting-xml.md).

@@ -35,18 +35,18 @@ The supernode accepts information by means of input ports, performs processing a
 
 * [Grouping](./transformation/grouping.md)
 * [Date and time](./transformation/trans-datatime/README.md)
-* [Enrich data](./transformation/supplementation.md)
+* [Enrich data](./transformation/supplementation.md);
 * [Replace](./transformation/substitution/README.md)
 * [Calculator](./transformation/calc/README.md)
 * Калькулятор JS
 * [Cross table](./transformation/cross-table.md)
-* [Union](./transformation/union.md)
+* [Union](./transformation/union.md).
 * [Features of fields](./transformation/fields-parameters.md)
 * [Ungroup](./transformation/ungrouping.md)
 * [Collapse columns](./transformation/rollup-columns.md)
 * [Lag](./transformation/sliding-window.md)
 * [Join](./transformation/join/README.md)
-* [Connection](./transformation/addition.md)
+* [Connection](./transformation/addition.md);
 * [Sort](./transformation/sorting.md)
 * [Row filter](./transformation/row-filter/README.md)
 
@@ -72,7 +72,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining. Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.
 
-* [Imputation](./preprocessing/filling-omissions.md)
+* [Imputation](./preprocessing/filling-omissions.md);
 * [Binning](./preprocessing/quantization.md)
 * [Coarse classes](./preprocessing/fine-classes.md)
 * [Partitioning](./preprocessing/separating-to-multiplicity.md)
@@ -110,4 +110,4 @@ The integration mechanisms are designated for data exchange between the third pa
 * [SOAP request](./integration/soap-request.md)
 * [REST request](./integration/rest-request.md)
 * [Program execution](./integration/exec-program.md)
-* [XML Extraction](./integration/extracting-xml.md)
+* [XML Extraction](./integration/extracting-xml.md).
