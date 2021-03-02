@@ -32178,24 +32178,24 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Выбор информационной базы&lt;x6/&gt;, предоставляющее следующие варианты подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T194237Z" creationid="Марианна" creationdate="20210111T121015Z">
-        <seg>The parameters can be manually entered, or it is possible to press the following button: &lt;x3/&gt; &lt;x4/&gt; to calll window &lt;x5/&gt;Select Information Base&lt;x6/&gt; that provides the following connection options:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T194402Z" creationid="Марианна" creationdate="20210111T121015Z">
+        <seg>The parameters can be manually entered, or it is possible to press &lt;x3/&gt; &lt;x4/&gt; button to calll &lt;x5/&gt;Select Information Base&lt;x6/&gt; window that provides the following connection options:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Открыть файл&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T220721Z" creationid="Марианна" creationdate="20210203T220721Z">
-        <seg>Parameters can be manually entered, or it is possible to press the following button &lt;x3/&gt; &lt;x4/&gt; to call window &lt;x5/&gt;Open file&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T194520Z" creationid="Марианна" creationdate="20210203T220721Z">
+        <seg>Parameters can be manually entered, or it is possible to press &lt;x3/&gt; &lt;x4/&gt; button to call &lt;x5/&gt;Open file&lt;x6/&gt; window.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Открыть файл&lt;x6/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T152344Z" creationid="Марианна" creationdate="20210118T152344Z">
-        <seg>Parameters can be manually entered, or it is possible to press the following button &lt;x3/&gt; &lt;x4/&gt; to call window &lt;x5/&gt;Open file&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T194442Z" creationid="Марианна" creationdate="20210118T152344Z">
+        <seg>Parameters can be manually entered, or it is possible to press &lt;x3/&gt; &lt;x4/&gt; button to call &lt;x5/&gt;Open file&lt;x6/&gt; window.</seg>
       </tuv>
     </tu>
     <tu>
