@@ -11179,8 +11179,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Не использовать клиент СУБД&lt;x2/&gt; — для подключений ODBC эта опция не используется;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T062102Z" creationid="Марианна" creationdate="20210203T062102Z">
-        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: this option is not used for ODBC connections.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212506Z" creationid="Марианна" creationdate="20210203T062102Z">
+        <seg>&lt;x1/&gt;Do not use DBMS client&lt;x2/&gt;: this option is not used for the ODBC connections.</seg>
       </tuv>
     </tu>
     <tu>
