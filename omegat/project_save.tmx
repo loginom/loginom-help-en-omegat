@@ -33258,8 +33258,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Поддерживаются даты с 1970 до 2106 года.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T120328Z" creationid="Марианна" creationdate="20210118T120328Z">
-        <seg>Dates from1970 to 2106 are supported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T202305Z" creationid="Марианна" creationdate="20210118T120328Z">
+        <seg>Dates from 1970 to 2106 are supported.</seg>
       </tuv>
     </tu>
     <tu>
