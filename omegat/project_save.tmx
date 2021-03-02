@@ -6894,6 +6894,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Аномальные значения&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203636Z" creationid="Марианна" creationdate="20210302T203636Z">
+        <seg>&lt;x1/&gt;Anomalous values&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ассоциативные правила&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055648Z" creationid="Марианна" creationdate="20200812T055648Z">
@@ -8995,8 +9003,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Заполнение пропусков&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200812T055110Z" creationid="Марианна" creationdate="20200812T055110Z">
-        <seg>&lt;x1/&gt;Imputation&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203427Z" creationid="Марианна" creationdate="20200812T055110Z">
+        <seg>&lt;x1/&gt;Imputation&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9171,8 +9179,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200812T060330Z" creationid="Марианна" creationdate="20200812T060330Z">
-        <seg>&lt;x1/&gt;XML Extraction&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203401Z" creationid="Марианна" creationdate="20200812T060330Z">
+        <seg>&lt;x1/&gt;XML Extraction&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9243,8 +9251,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт XML&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T203554Z" creationid="Марианна" creationdate="20210203T203554Z">
-        <seg>&lt;x1/&gt;XML Import&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203350Z" creationid="Марианна" creationdate="20210203T203554Z">
+        <seg>&lt;x1/&gt;XML Import&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12835,8 +12843,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Полная документация по SQL синтаксису&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T070141Z" creationid="Марианна" creationdate="20210203T070141Z">
-        <seg>&lt;x1/&gt;Full SQL Syntax Documentation&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203335Z" creationid="Марианна" creationdate="20210203T070141Z">
+        <seg>&lt;x1/&gt;Full SQL Syntax Documentation&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13259,8 +13267,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примеры написания строк подключения к разным источникам данных&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T063803Z" creationid="Марианна" creationdate="20210203T063803Z">
-        <seg>&lt;x1/&gt;Examples of writing of connection strings for different data sources&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203324Z" creationid="Марианна" creationdate="20210203T063803Z">
+        <seg>&lt;x1/&gt;Examples of writing of connection strings for different data sources&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14526,8 +14534,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сайт с описанием правил и примеров написания строк подключения&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T063647Z" creationid="Марианна" creationdate="20210203T063647Z">
-        <seg>&lt;x1/&gt;Site with rules and examples of connection string writing&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203316Z" creationid="Марианна" creationdate="20210203T063647Z">
+        <seg>&lt;x1/&gt;Site with rules and examples of connection string writing&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16502,8 +16510,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Экспорт XML&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T203606Z" creationid="Марианна" creationdate="20210203T203606Z">
-        <seg>&lt;x1/&gt;XML Export&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203353Z" creationid="Марианна" creationdate="20210203T203606Z">
+        <seg>&lt;x1/&gt;XML Export&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
