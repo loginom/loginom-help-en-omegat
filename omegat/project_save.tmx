@@ -8715,8 +8715,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Документация по SQL синтаксису&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T070158Z" creationid="Марианна" creationdate="20210121T091014Z">
-        <seg>&lt;x1/&gt;SQL Syntax Documentation&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203249Z" creationid="Марианна" creationdate="20210121T091014Z">
+        <seg>&lt;x1/&gt;SQL Syntax Documentation&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8739,8 +8739,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Документация по продукции&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T202841Z" creationid="Марианна" creationdate="20210118T153710Z">
-        <seg>&lt;x1/&gt;Product Documentation&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203223Z" creationid="Марианна" creationdate="20210118T153710Z">
+        <seg>&lt;x1/&gt;Product Documentation&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9595,8 +9595,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Информация в русском разделе википедии&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T090951Z" creationid="Марианна" creationdate="20210121T090951Z">
-        <seg>&lt;x1/&gt;Information in the Russian section in Wikipedia&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203239Z" creationid="Марианна" creationdate="20210121T090951Z">
+        <seg>&lt;x1/&gt;Information in the Russian section in Wikipedia&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11883,8 +11883,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200821T123820Z" creationid="Марианна" creationdate="20200813T095208Z">
-        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203217Z" creationid="Марианна" creationdate="20200813T095208Z">
+        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11899,8 +11899,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт разработчика&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T090958Z" creationid="Марианна" creationdate="20210121T090958Z">
-        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T203243Z" creationid="Марианна" creationdate="20210121T090958Z">
+        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
