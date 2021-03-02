@@ -8,7 +8,7 @@ It is used for connection to the [Deductor Warehouse](../../../data-format/data-
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** is set in a separate window that can be called both by clicking on ![to be defined](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. These settings are used by OLE DB driver to connect to the required database.
+* **Connection string** is set in a separate window that can be called both by clicking on ![to be defined](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. These settings are used by the OLE DB driver to connect to the required database.
    * The first option with a separate window called when clicking on ![to be defined](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
       * **Server**: the SQL server host. If it is necessary, the named instance of SQL server is specified using "".
       * **Database** is a name of the database that includes the required data.
