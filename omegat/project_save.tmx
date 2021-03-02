@@ -9867,8 +9867,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кластер серверов&lt;x2/&gt; — доменное имя кластера или его IP-адрес.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T122507Z" creationid="Марианна" creationdate="20210111T122348Z">
-        <seg>&lt;x1/&gt;Server cluster&lt;x2/&gt;: cluster domain name кластера or its IP address.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T200446Z" creationid="Марианна" creationdate="20210111T122348Z">
+        <seg>&lt;x1/&gt;Server cluster&lt;x2/&gt;: cluster domain name or its IP address.</seg>
       </tuv>
     </tu>
     <tu>
