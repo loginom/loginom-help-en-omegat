@@ -22691,8 +22691,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Возможно подключение как через клиент СУБД, так и через внутренний драйвер Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T154051Z" creationid="Марианна" creationdate="20210201T154051Z">
-        <seg>It is possible to provide connection both via DBMS client, and Loginom internal driver.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212851Z" creationid="Марианна" creationdate="20210201T154051Z">
+        <seg>It is possible to provide connection both via DBMS client, and the internal Loginom driver.</seg>
       </tuv>
     </tu>
     <tu>
