@@ -23683,8 +23683,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данную особенность БД ClickHouse следует учитывать при проектировании систем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T151354Z" creationid="Марианна" creationdate="20210118T151323Z">
-        <seg>It is required to take this feature of the ClickHouse DB into account when designing systems.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T202436Z" creationid="Марианна" creationdate="20210118T151323Z">
+        <seg>It is required to take this ClickHouse DB feature into account when designing systems.</seg>
       </tuv>
     </tu>
     <tu>
