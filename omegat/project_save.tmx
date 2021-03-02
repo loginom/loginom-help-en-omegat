@@ -6344,8 +6344,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ServerName&lt;x2/&gt; — хост сервера СУБД, для подключения по протоколу Shared Memory значение хоста должно быть &lt;x3/&gt;localhost&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T155158Z" creationid="Марианна" creationdate="20210201T155158Z">
-        <seg>&lt;x1/&gt;ServerName&lt;x2/&gt;: the DBMS server host. The host value must be &lt;x3/&gt;localhost&lt;x4/&gt; to connect via Shared Memory protocol.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212001Z" creationid="Марианна" creationdate="20210201T155158Z">
+        <seg>&lt;x1/&gt;ServerName&lt;x2/&gt;: the DBMS server host. The host value must be &lt;x3/&gt;localhost&lt;x4/&gt; to connect via the Shared Memory protocol.</seg>
       </tuv>
     </tu>
     <tu>
