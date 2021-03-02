@@ -32890,8 +32890,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию &lt;x11/&gt;port&lt;x12/&gt; &lt;x13/&gt;9000&lt;x14/&gt;, &lt;x15/&gt;database&lt;x16/&gt; &lt;x17/&gt;default&lt;x18/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T201042Z" creationid="Марианна" creationdate="20210118T111554Z">
-        <seg>By default, &lt;x11/&gt;port&lt;x12/&gt; &lt;x13/&gt;9000&lt;x14/&gt;, &lt;x15/&gt;database&lt;x16/&gt; &lt;x17/&gt;default&lt;x18/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T201146Z" creationid="Марианна" creationdate="20210118T111554Z">
+        <seg>By default, &lt;x11/&gt;port&lt;x12/&gt; &lt;x13/&gt;9000&lt;x14/&gt;, &lt;x17/&gt;default&lt;x18/&gt; &lt;x15/&gt;database&lt;x16/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
