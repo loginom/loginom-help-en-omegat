@@ -7378,8 +7378,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Версия платформы&lt;x2/&gt; — версия платформы 1С:Предприятие, к которой настраивается подключение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T054834Z" creationid="Марианна" creationdate="20210111T054834Z">
-        <seg>&lt;x1/&gt;Platform version&lt;x2/&gt; is a version of 1C:Enterprise platform for which the connection is set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T195429Z" creationid="Марианна" creationdate="20210111T054834Z">
+        <seg>&lt;x1/&gt;Platform version&lt;x2/&gt; is a version of the 1C:Enterprise platform for which the connection is set.</seg>
       </tuv>
     </tu>
     <tu>
