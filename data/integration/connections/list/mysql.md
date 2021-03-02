@@ -26,7 +26,7 @@ The following parameters are set during the connection setup:
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Backquotes are used for MySQL.
 * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
-* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 * **Idle-in-transaction timeout**: MySQL server does not control incorrectly disrupted connections. If the client is disabled incorrectly, the server session still exists until timout is completed. Incomplete transactions lock the DB data. To avoid long-lasting data lock, timeout can be limited by "Idle-in-transaction timeout" parameter. It is set in seconds.
 * **Description**: it is possible to provide any reference connection data in this form.
 

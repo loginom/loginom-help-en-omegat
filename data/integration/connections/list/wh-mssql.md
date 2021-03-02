@@ -27,7 +27,7 @@ The following parameters are set during the connection setup:
    * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Square brackets are used for MS SQL.
    * **Encoding value** enables to set the message language of the DB server and codepage for the values related to the character types represented not in UNICODE: char, varchar, text.
    * **Do not use DBMS client**: this parameter is not available for MS SQL.
-   * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
+   * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 
 * **Description**: it is possible to provide any reference data concerning connection in this field.
 

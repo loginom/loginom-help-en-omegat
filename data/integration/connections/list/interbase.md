@@ -21,7 +21,7 @@ The following parameters are set during the connection setup:
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Double quotes are used for Interbase.
 * **Encoding value** provides encoding of characters according to which the server data will be interpreted.
 * **Do not use DBMS client**: it is not possible to change this parameter for Interbase.
-* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
+* **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference connection data in this form.
 
 > **Note:** To provide connection to the database, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
