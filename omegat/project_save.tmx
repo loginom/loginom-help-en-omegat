@@ -9827,8 +9827,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Каталог базы данных&lt;x2/&gt; — путь к базе данных 1С:Предприятие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T122357Z" creationid="Марианна" creationdate="20210111T122157Z">
-        <seg>&lt;x1/&gt;Database directory&lt;x2/&gt;: a path to 1C:Enterprise database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T200234Z" creationid="Марианна" creationdate="20210111T122157Z">
+        <seg>&lt;x1/&gt;Database directory&lt;x2/&gt;: a path to the 1C:Enterprise database.</seg>
       </tuv>
     </tu>
     <tu>
