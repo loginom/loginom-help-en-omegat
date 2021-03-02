@@ -13371,8 +13371,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения необходима установка драйвера ODBC той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T062248Z" creationid="Марианна" creationdate="20210203T062248Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection, it is required to install ODBC driver with the same bitness as the Loginom application/server bitness.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212605Z" creationid="Марианна" creationdate="20210203T062248Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection, it is required to install the ODBC driver with the same bitness as the Loginom application/server bitness.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37362,8 +37362,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Список драйверов ODBC, для которых предусмотрено использование строки подключения:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T063115Z" creationid="Марианна" creationdate="20210203T063115Z">
-        <seg>List of ODBC drivers for which it is recommended to use the connection string:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212625Z" creationid="Марианна" creationdate="20210203T063115Z">
+        <seg>List of the ODBC drivers for which it is recommended to use the connection string:</seg>
       </tuv>
     </tu>
     <tu>
@@ -37442,8 +37442,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Список предустановленных в ОС Windows драйверов ODBC:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T063230Z" creationid="Марианна" creationdate="20210203T062510Z">
-        <seg>List of ODBC drivers preinstalled in Windows OS:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212614Z" creationid="Марианна" creationdate="20210203T062510Z">
+        <seg>List of the ODBC drivers preinstalled in Windows OS:</seg>
       </tuv>
     </tu>
     <tu>
