@@ -39854,8 +39854,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Эти настройки используются драйвером OLE DB для подключения к необходимой базе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T150531Z" creationid="Марианна" creationdate="20210201T150531Z">
-        <seg>These settings are used by OLE DB driver to connect to the required database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T211350Z" creationid="Марианна" creationdate="20210201T150531Z">
+        <seg>These settings are used by the OLE DB driver to connect to the required database.</seg>
       </tuv>
     </tu>
     <tu>
