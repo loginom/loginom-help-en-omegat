@@ -50,5 +50,5 @@ The following parameters are set during the connection setup:
 **See also:**
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
-* [Manufacturer official website](https://www.microsoft.com/ru-ru/sql-server)
+* [Manufacturer official website](https://www.microsoft.com/ru-ru/sql-server);
 * [SQL Syntax Documentation](https://docs.microsoft.com/ru-ru/sql/t-sql/queries/queries).
