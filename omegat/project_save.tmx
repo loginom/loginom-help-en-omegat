@@ -10883,8 +10883,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настроенная информационная база&lt;x2/&gt; — выбор из списка базы данных, подключение к которой уже было настроено через клиент 1С, установленный на той же машине, что и Loginom (в этом случае Loginom обращается к файлам с настройками подключений клиента 1С).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T121823Z" creationid="Марианна" creationdate="20210111T121823Z">
-        <seg>&lt;x1/&gt;Configured information base&lt;x2/&gt; enables to select from the list of the database connection to which has already been set up by means of 1С client installed on the same machine as Loginom (in this case, Loginom accesses the files with 1С client connection settings).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T194944Z" creationid="Марианна" creationdate="20210111T121823Z">
+        <seg>&lt;x1/&gt;Configured information base&lt;x2/&gt; enables to select from the list of the database connection to which has already been set up by means of 1С client installed on the same machine as Loginom (in this case, Loginom accesses the files with the 1С client connection settings).</seg>
       </tuv>
     </tu>
     <tu>
