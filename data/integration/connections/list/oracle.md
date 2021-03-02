@@ -2,7 +2,7 @@
 
 It is used for connection to the Oracle database.
 
-It is possible to provide connection both via DBMS client, and Loginom internal driver.
+It is possible to provide connection both via DBMS client, and the internal Loginom driver.
 
 ## Connection Parameters
 
@@ -12,7 +12,7 @@ The following parameters are set during the connection setup:
 * **Connection string** is a string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter).
    * The string format when the inbox driver is used is as follows: **`<ServerName>:<Port>:<Instance>`**.
       * **ServerName**: the DBMS server host.
-      * **Port** means the TCP port used by the DBMS server to provide interaction with the client.
+      * **Port** means the TCP port used by DBMS server to provide interaction with the client.
       * **Instance** means Oracle Database Instance (SID) that contains the required data.
    * The string format when DBMS client is used is as follows: *`<ServerName>`*.
       * **ServerName**: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.

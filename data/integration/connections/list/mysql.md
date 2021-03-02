@@ -2,7 +2,7 @@
 
 It is used for connection to the MySQL database.
 
-It is possible to provide connection both via DBMS client, and Loginom internal driver.
+It is possible to provide connection both via DBMS client, and the internal Loginom driver.
 
 ## Connection Parameters
 
@@ -15,7 +15,7 @@ The following parameters are set during the connection setup:
       * **Database** is a DB name.
    * When parameters are manually entered, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port/Shared Memory>:<DatabaseName>`, for example, `localhost:3306:database1`. When Shared-Memory is used, the following way of writing is also possible: `localhost:MYSQL:database1`.
       * **ServerName**: the DBMS server host. The host value must be `localhost` to connect via the Shared Memory protocol.
-      * **Port/Shared Memory** means the TCP port used by the DBMS server to provide interaction with the client. Or `shared-memory-base-name` option set by the server (it mustn't be the correct port number). If the parameter is null, and *ServerName* is not `localhost`, connection is provided via TCP/IP protocol with default port `3306`.
+      * **Port/Shared Memory** means the TCP port used by DBMS server to provide interaction with the client. Or `shared-memory-base-name` option set by the server (it mustn't be the correct port number). If the parameter is null, and *ServerName* is not `localhost`, connection is provided via TCP/IP protocol with default port `3306`.
       * **DatabaseName** is a name of the database that includes the required data. If *Port/Shared Memory* parameter is null, it is allowed to leave this parameter null, in this case all available databases will be shown.
    * When the string is empty, connection to `localhost` is provided in the field.
 * **Test connection**: test of the specified connection settings.

@@ -13,7 +13,7 @@ The following parameters are set during the connection setup:
       * **Database** is a DB name.
    * When parameters are manually entered, it is required to provide the colon separated parameters in the string. The string format is as follows: `<ServerName>:<Port>:<DatabaseName>`, for example, `192.168.0.180:5432:postgres`, where
       * **ServerName**: the DBMS server host.
-      * **Port** means the TCP port used by the DBMS server to provide interaction with the client.
+      * **Port** means the TCP port used by DBMS server to provide interaction with the client.
       * **DatabaseName** is a name of the database that includes the required data.
 * **Test connection**: test of the specified connection settings.
 * **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.

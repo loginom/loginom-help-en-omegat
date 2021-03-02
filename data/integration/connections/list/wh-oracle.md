@@ -2,7 +2,7 @@
 
 It is used for connection to the [Deductor Warehouse](../../../data-format/data-warehouse.md) Data Warehouse based on Oracle DBMS.
 
-It is possible to provide connection both via DBMS client, and Loginom internal driver.
+It is possible to provide connection both via DBMS client, and the internal Loginom driver.
 
 ## Connection Parameters
 
@@ -17,7 +17,7 @@ The following parameters are set during the connection setup:
       * **`<ServerName>:<Port>:<SID>`** or
       * **`<ServerName>[:<Port>]/<Service_name>`** where:
          * **ServerName**: the DBMS server host.
-         * **Port** means the TCP port used by the DBMS server to provide interaction with the client.
+         * **Port** means the TCP port used by DBMS server to provide interaction with the client.
          * **SID** is a unique name of the DB example (System ID).
          * **ServiceName** means the alias of one or several DB examples.
 * **Test connection**: connectivity test with the specified settings.

@@ -17,7 +17,7 @@ The following parameters are set during the connection setup:
       * **Database** is a name of the database that includes the required data.
    * When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port>:<DatabaseName>`, for example, `host:1433:database1`.
       * **ServerName**: the DBMS server host.
-      * **Port** means the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
+      * **Port** means the TCP port used by DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
       * **DatabaseName** is a name of the database that includes the required data.
 * **Test connection**: test of the specified connection settings.
 * **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
