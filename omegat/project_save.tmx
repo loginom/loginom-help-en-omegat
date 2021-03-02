@@ -33106,8 +33106,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию пустой.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T121541Z" creationid="Марианна" creationdate="20210118T121541Z">
-        <seg>It is null be default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T201630Z" creationid="Марианна" creationdate="20210118T121541Z">
+        <seg>It is null by default.</seg>
       </tuv>
     </tu>
     <tu>
