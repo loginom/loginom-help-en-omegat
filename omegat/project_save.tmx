@@ -14638,8 +14638,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сервер&lt;x2/&gt; — хост сервера MySQL.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T153321Z" creationid="Марианна" creationdate="20210201T153321Z">
-        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: the MySQL server host.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T211524Z" creationid="Марианна" creationdate="20210201T153321Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;: MySQL server host.</seg>
       </tuv>
     </tu>
     <tu>
