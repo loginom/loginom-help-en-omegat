@@ -16,7 +16,7 @@ The following parameters are set during the connection setup:
    * **CA certificate** is a path to the file with the root certificate.
    * **User certificate** is a path to the file with the client certificate.
    * **Private key** is a path to the file with the private key.
-   * **Private key password** is a private key password. It is null be default.
+   * **Private key password** is a private key password. It is null by default.
 * **Use local time zone** ptovides conversion from the local time to UTC and vice versa for the columns of [DateTime](https://clickhouse.tech/docs/ru/sql_reference/data_types/datetime/) type. This option is enabled by default.
 * **Compression method**: `Without compression` (it is used by default) and `LZ4` options are available.
 * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
