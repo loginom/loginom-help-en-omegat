@@ -21813,8 +21813,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В случае некорректного отключения клиента сессия на сервере продолжает существовать до тех пор, пока не завершится timeout.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210202T110939Z" creationid="Марианна" creationdate="20210202T110939Z">
-        <seg>If the client is disabled incorrectly, the server session still exists until timout is completed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T212206Z" creationid="Марианна" creationdate="20210202T110939Z">
+        <seg>If the client is disabled incorrectly, the server session still exists until timeout is completed.</seg>
       </tuv>
     </tu>
     <tu>
