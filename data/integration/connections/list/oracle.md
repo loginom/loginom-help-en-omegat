@@ -25,7 +25,7 @@ The following parameters are set during the connection setup:
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Double quotes are used for Oracle.
 * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
-* **Description**: it is possible to provide any reference data concerning connection in this form.
+* **Description**: it is possible to provide any reference connection data in this form.
 
 > **Note:** To provide connection to the database via DBMS client, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
 

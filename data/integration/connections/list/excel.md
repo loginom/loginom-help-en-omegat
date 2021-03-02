@@ -17,7 +17,7 @@ The following parameters are set during the connection setup:
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Double quotes are used for Microsoft Excel.
 * **Do not use DBMS client**: it is not possible to change this parameter for Microsoft Excel.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
-* **Description**: it is possible to provide any reference data concerning connection in this form.
+* **Description**: it is possible to provide any reference connection data in this form.
 
 ## Compatibility
 

@@ -28,7 +28,7 @@ The following parameters are set during the connection setup:
 * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
 * **Idle-in-transaction timeout**: MySQL server does not control incorrectly disrupted connections. If the client is disabled incorrectly, the server session still exists until timout is completed. Incomplete transactions lock the DB data. To avoid long-lasting data lock, timeout can be limited by "Idle-in-transaction timeout" parameter. It is set in seconds.
-* **Description**: it is possible to provide any reference data concerning connection in this form.
+* **Description**: it is possible to provide any reference connection data in this form.
 
 > **Note:** To provide connection to the database via DBMS client, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
 

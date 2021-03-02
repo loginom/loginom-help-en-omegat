@@ -17,7 +17,7 @@ The following parameters are set during the connection setup:
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. The framing quotes characters are automatically defined for ODBC.
 * **Do not use DBMS client**: this option is not used for ODBC connections.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for quick call upon the node deactivation. This parameter is disabled by default.
-* **Description**: it is possible to provide any reference data concerning connection in this form.
+* **Description**: it is possible to provide any reference connection data in this form.
 
 > **Note:** To provide connection, it is required to install ODBC driver with the same bitness as the Loginom application/server bitness. Two ODBC data sources administrators are used in 64 bit OS - 32 bit C:\Windows\SysWOW64\odbcad32.exe and 64 bit C:\Windows\System32\odbcad32.exe.
 
