@@ -32898,8 +32898,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию &lt;x3/&gt;default&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T111643Z" creationid="Марианна" creationdate="20210118T111643Z">
-        <seg>By default &lt;x3/&gt;default&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T201345Z" creationid="Марианна" creationdate="20210118T111643Z">
+        <seg>By default, &lt;x3/&gt;default&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
