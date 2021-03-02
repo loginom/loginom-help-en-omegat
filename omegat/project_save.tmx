@@ -11643,8 +11643,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Описание&lt;x2/&gt; — в этой форме можно оставить любую справочную информацию о подключении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210115T134004Z" creationid="Марианна" creationdate="20210115T134004Z">
-        <seg>&lt;x1/&gt;Description&lt;x2/&gt;: it is possible to provide any reference data concerning connection in this form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T200635Z" creationid="Марианна" creationdate="20210115T134004Z">
+        <seg>&lt;x1/&gt;Description&lt;x2/&gt;: it is possible to provide any reference connection data in this form.</seg>
       </tuv>
     </tu>
     <tu>
