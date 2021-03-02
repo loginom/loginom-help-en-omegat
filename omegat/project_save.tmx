@@ -20485,8 +20485,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Альтернативный способ интеграции с MS SQL — использование &lt;x1/&gt;ODBC-подключения&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T150349Z" creationid="Марианна" creationdate="20210201T150349Z">
-        <seg>Use &lt;x1/&gt;ODBC connection&lt;x2/&gt; is an alternative method of integration with MS SQL.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T211254Z" creationid="Марианна" creationdate="20210201T150349Z">
+        <seg>The use of &lt;x1/&gt;ODBC connection&lt;x2/&gt; is an alternative method of integration with MS SQL.</seg>
       </tuv>
     </tu>
     <tu>
