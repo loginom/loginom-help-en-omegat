@@ -15,13 +15,13 @@ The following parameters are set during the connection setup:
 * **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. The framing quotes characters are automatically defined for ODBC.
-* **Do not use DBMS client**: this option is not used for ODBC connections.
+* **Do not use DBMS client**: this option is not used for the ODBC connections.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 * **Description**: it is possible to provide any reference connection data in this form.
 
-> **Note:** To provide connection, it is required to install ODBC driver with the same bitness as the Loginom application/server bitness. Two ODBC data sources administrators are used in 64 bit OS - 32 bit C:\Windows\SysWOW64\odbcad32.exe and 64 bit C:\Windows\System32\odbcad32.exe.
+> **Note:** To provide connection, it is required to install the ODBC driver with the same bitness as the Loginom application/server bitness. Two ODBC data sources administrators are used in 64 bit OS - 32 bit C:\Windows\SysWOW64\odbcad32.exe and 64 bit C:\Windows\System32\odbcad32.exe.
 
-List of ODBC drivers preinstalled in Windows OS:
+List of the ODBC drivers preinstalled in Windows OS:
 
 32 bit:
 
@@ -38,7 +38,7 @@ List of ODBC drivers preinstalled in Windows OS:
 
 * SQL Server
 
-List of ODBC drivers for which it is recommended to use the connection string:
+List of the ODBC drivers for which it is recommended to use the connection string:
 
 * Different drivers for SQL Server
 * Microsoft Text Driver
