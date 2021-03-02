@@ -14,7 +14,7 @@ The following parameters are set during the connection setup:
       * **Server**: MySQL server host.
       * **Database** is a DB name.
    * When parameters are manually entered, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port/Shared Memory>:<DatabaseName>`, for example, `localhost:3306:database1`. When Shared-Memory is used, the following way of writing is also possible: `localhost:MYSQL:database1`.
-      * **ServerName**: the DBMS server host. The host value must be `localhost` to connect via Shared Memory protocol.
+      * **ServerName**: the DBMS server host. The host value must be `localhost` to connect via the Shared Memory protocol.
       * **Port/Shared Memory** means the TCP port used by the DBMS server to provide interaction with the client. Or `shared-memory-base-name` option set by the server (it mustn't be the correct port number). If the parameter is null, and *ServerName* is not `localhost`, connection is provided via TCP/IP protocol with default port `3306`.
       * **DatabaseName** is a name of the database that includes the required data. If *Port/Shared Memory* parameter is null, it is allowed to leave this parameter null, in this case all available databases will be shown.
    * When the string is empty, connection to `localhost` is provided in the field.
@@ -27,7 +27,7 @@ The following parameters are set during the connection setup:
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Backquotes are used for MySQL.
 * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
-* **Idle-in-transaction timeout**: MySQL server does not control incorrectly disrupted connections. If the client is disabled incorrectly, the server session still exists until timout is completed. Incomplete transactions lock the DB data. To avoid long-lasting data lock, timeout can be limited by "Idle-in-transaction timeout" parameter. It is set in seconds.
+* **Idle-in-transaction timeout**: MySQL server does not control incorrectly disrupted connections. If the client is disabled incorrectly, the server session still exists until timeout is completed. Incomplete transactions lock the DB data. To avoid long-lasting data lock, timeout can be limited by "Idle-in-transaction timeout" parameter. It is set in seconds.
 * **Description**: it is possible to provide any reference connection data in this form.
 
 > **Note:** To provide connection to the database via DBMS client, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.
