@@ -11,7 +11,7 @@ The following parameters are set during the connection setup:
 * **Caption** contains the connection name set by a user.
 * **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. These settings are used by the OLE DB driver to connect to the required database.
    * The first option with a separate window called when clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
-      * **Server**: the MySQL server host.
+      * **Server**: MySQL server host.
       * **Database** is a DB name.
    * When parameters are manually entered, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port/Shared Memory>:<DatabaseName>`, for example, `localhost:3306:database1`. When Shared-Memory is used, the following way of writing is also possible: `localhost:MYSQL:database1`.
       * **ServerName**: the DBMS server host. The host value must be `localhost` to connect via Shared Memory protocol.
