@@ -26,15 +26,15 @@ The following parameters are set during the connection setup:
 
 > **Note:**
 > * Connection pool is not used.
-> * When [exporting data to the new table](../../export/database/new-table-design.md), the table of [Log engine](https://clickhouse.tech/docs/ru/engines/table_engines/log_family/log/) is created.
+> * When [exporting data to the new table](../../export/database/new-table-design.md), the [Log engine](https://clickhouse.tech/docs/ru/engines/table_engines/log_family/log/) table is created.
 > * In connection with the ClickHouse DB restrictions:
 >    * Transactions are not supported.
->    * Dates from1970 to 2106 are supported.
+>    * Dates from 1970 to 2106 are supported.
 >    * Update of the current records in the table is not supported.
 >    * Deletion by key is available only for the tables with the [MergeTree](https://clickhouse.tech/docs/ru/engines/table_engines/#mergetree) engines.
 
 > **Important:** Data mutation operations are not atomic in the MergeTree tables (for more details, see [Mutations](https://clickhouse.tech/docs/ru/sql_reference/statements/alter/#alter-mutations)). As mutations are used during the export operation with deletion by key, the export node activation does not provide termination of the records deletion process. Duration of the mutation performed by a user is not controlled. Thus, request for data sampling set just after execution of the export node with deletion by key can return the old records.
-> It is required to take this feature of the ClickHouse DB into account when designing systems.
+> It is required to take this ClickHouse DB feature into account when designing systems.
 
 ## Compatibility
 
