@@ -36370,8 +36370,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>С базами данных платформы 1С:Предприятие версий 8.x.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210115T134421Z" creationid="Марианна" creationdate="20210115T134421Z">
-        <seg>with the databases of 1C:Enterprise 8.x platform.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210302T194001Z" creationid="Марианна" creationdate="20210115T134421Z">
+        <seg>with the 1C:Enterprise 8.x platform databases.</seg>
       </tuv>
     </tu>
     <tu>
