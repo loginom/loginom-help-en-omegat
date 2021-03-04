@@ -7257,9 +7257,9 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;:
 Для интеграции с некоторыми источниками, например, базами данных и веб-сервисами, необходима предварительная настройка &lt;x3/&gt;подключения&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210215T152050Z" creationid="Марианна" creationdate="20210215T152050Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210304T133901Z" creationid="Марианна" creationdate="20210215T152050Z">
         <seg>&lt;x1/&gt;Important&lt;x2/&gt;:
-To provide integration with several sources, for example, databases and web services, prior &lt;x3/&gt;connection&lt;x4/&gt; setup is required.</seg>
+To provide integration with several sources, for example, databases and web services, it is required to preset &lt;x3/&gt;connection&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
