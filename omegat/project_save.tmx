@@ -36962,8 +36962,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Совместимость веб-сервисов Loginom с Deductor</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T223802Z" creationid="Марианна" creationdate="20210210T223802Z">
-        <seg>Compatibility of Loginom Web Services with Deductor</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T135301Z" creationid="Марианна" creationdate="20210210T223802Z">
+        <seg>Compatibility of the Loginom Web Services with Deductor</seg>
       </tuv>
     </tu>
     <tu>
