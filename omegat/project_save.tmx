@@ -24747,8 +24747,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для публикации следует указать путь к файлу пакета, выбрать пространство имен и нажать кнопку &lt;x1/&gt;Опубликовать&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210215T155144Z" creationid="Марианна" creationdate="20210215T155144Z">
-        <seg>It is required to show the path to the package file, select the namespace and press the &lt;x1/&gt;Publish&lt;x2/&gt; button for publication.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T135029Z" creationid="Марианна" creationdate="20210215T155144Z">
+        <seg>It is required to show the path to the package file, select the namespace and press &lt;x1/&gt;Publish&lt;x2/&gt; button for publication.</seg>
       </tuv>
     </tu>
     <tu>
