@@ -27279,8 +27279,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Использовать пространство имен Loginom Integrator;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T223545Z" creationid="Марианна" creationdate="20210210T223545Z">
-        <seg>Use Loginom Integrator namespace;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T134931Z" creationid="Марианна" creationdate="20210210T223545Z">
+        <seg>Use the Loginom Integrator namespace;</seg>
       </tuv>
     </tu>
     <tu>
