@@ -32,7 +32,7 @@ When workflow nodes are set as the nodes required for publication, it is necessa
 
 > **Note:** In order to minimise possible problems of connection to the web service using the external clients, it is recommended to use only the English alphabet characters, numbers and underscore character in the name of the published package.
 
-To publish the package, it is required to click on the required package in the [navigation tree](../../interface/main-menu.md#navigatsiya) using the right button, and select*Publish packages…* in the context menu. It will enable to open the package publication wizard with the following settings:
+To publish the package, it is required to click on the required package in the [navigation tree](../../interface/main-menu.md#navigatsiya) using the right button, and select *Publish packages…* in the context menu. It will enable to open the package publication wizard with the following settings:
 
 * **Published packages** is a list of already published packages.
 * **Path to the package file** is manually specified or selected from the drop-down list of the opened packages.
@@ -46,14 +46,14 @@ The generated namespace that will be used for publication will be displayed in t
 
 > **Important:** To avoid the name conflict, it is required to provide uniqueness of the paired values:  `published node name`, `published package namespace`. For this purpose, it is recommended to use *Generate unique for package* or *Generate unique for each package version* option for all published packages, or to set the unique namespaces manually.
 
-It is required to show the path to the package file, select the namespace and press the *Publish* button for publication.
+It is required to show the path to the package file, select the namespace and press *Publish* button for publication.
 
 ### Update Publication
 
 If the settings of the input/output ports are changed (for example, the number or names of fields/variables) of the node that has been published earlier, it is required to update publication of the package which includes this node. In this regard, it is required to perform the following actions:
 
-1. save the package with the changed node;
-2. select this package in *Published packages* list of *Publish packages…* wizard and press *Update* button.
+1. Save the package with the changed node;
+2. Select this package in *Published packages* list of *Publish packages…* wizard and press *Update* button.
 
 > **Important:** After the update, it is required to check operation of the workflow nodes that call the republished web service, and then it is recommended to reconfigure them when applicable.
 
