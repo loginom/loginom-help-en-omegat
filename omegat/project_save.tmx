@@ -40118,8 +40118,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>в окне выбора &lt;x1/&gt;модификатора доступа&lt;x2/&gt; задано уникальное в пределах пакета имя узла;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T111829Z" creationid="Марианна" creationdate="20210217T111829Z">
-        <seg>the node name that is unique within the package is set in &lt;x1/&gt;access modifier&lt;x2/&gt; selection window;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T134449Z" creationid="Марианна" creationdate="20210217T111829Z">
+        <seg>The node name that is unique within the package is set in &lt;x1/&gt;access modifier&lt;x2/&gt; selection window;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40182,8 +40182,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>во входных и выходных портах заданы поля/переменные, определяющие структуру запроса и ответа метода веб-сервиса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T112405Z" creationid="Марианна" creationdate="20210217T112405Z">
-        <seg>the fields/variables that define the request structure and web service method response are set in the input and output ports.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T134458Z" creationid="Марианна" creationdate="20210217T112405Z">
+        <seg>The fields/variables that define the request structure and web service method response are set in the input and output ports.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40334,8 +40334,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>задан &lt;x1/&gt;&lt;x2/&gt;модификатор доступа&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Опубликованный&lt;x6/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T110808Z" creationid="Марианна" creationdate="20210217T110808Z">
-        <seg>the following &lt;x1/&gt;&lt;x2/&gt;access modifier&lt;x3/&gt;&lt;x4/&gt; is set: &lt;x5/&gt;Published&lt;x6/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T134445Z" creationid="Марианна" creationdate="20210217T110808Z">
+        <seg>The following &lt;x1/&gt;&lt;x2/&gt;access modifier&lt;x3/&gt;&lt;x4/&gt; is set: &lt;x5/&gt;Published&lt;x6/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41110,8 +41110,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>узел должен быть видимым из корня сценария, т.е. в случае, если узел является вложенным (в подмодель или иерархию подмоделей), то у всех подмоделей, в которых он содержится, должен быть установлен &lt;x1/&gt;модификатор доступа&lt;x2/&gt; &lt;x3/&gt;Открытый&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T112314Z" creationid="Марианна" creationdate="20210217T112153Z">
-        <seg>the node must be visible from the workflow root, namely, if the node is nested (into the supernode or hierarchy of supernodes), &lt;x3/&gt;Public&lt;x4/&gt; &lt;x1/&gt;access modifier&lt;x2/&gt; must be installed for all supernodes that include it;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T134454Z" creationid="Марианна" creationdate="20210217T112153Z">
+        <seg>The node must be visible from the workflow root, namely, if the node is nested (into the supernode or hierarchy of supernodes), &lt;x3/&gt;Public&lt;x4/&gt; &lt;x1/&gt;access modifier&lt;x2/&gt; must be installed for all supernodes that include it;</seg>
       </tuv>
     </tu>
     <tu>
