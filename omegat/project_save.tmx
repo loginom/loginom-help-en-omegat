@@ -16582,8 +16582,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;активировать подключение&lt;x2/&gt; — активировать подключение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T204713Z" creationid="Марианна" creationdate="20210208T204713Z">
-        <seg>&lt;x1/&gt;Activate connection&lt;x2/&gt; — Activate connection.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130731Z" creationid="Марианна" creationdate="20210208T204713Z">
+        <seg>&lt;x1/&gt;Activate connection&lt;x2/&gt; — activate connection.</seg>
       </tuv>
     </tu>
     <tu>
