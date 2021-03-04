@@ -3,7 +3,7 @@
 The integration mechanisms are designated for data exchange between the third party external systems and Loginom platform. Loginom can work both with [web services](./web-services/README.md), databases and file data warehouses (spreadsheets, text files, etc.).
 
 > **Important**:
-> To provide integration with several sources, for example, databases and web services, prior [connection](./connections/README.md) setup is required.
+> To provide integration with several sources, for example, databases and web services, it is required to preset [connection](./connections/README.md).
 
 To describe the data exchange process, several sections can be identified:
 
