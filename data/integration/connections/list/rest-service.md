@@ -20,7 +20,7 @@ Parameters of the REST service connection, request and response are set. The out
 
 * **Authorization Type** provides a drop-down list with authorization options:
    * **Not required**: when selecting this option, Loginom does not perform authorization when connecting to the service.
-   * **Username and password** is selected when authorization by name/password is required. The following types of authorization by username and password are supported:
+   * **Username and password**: this option is selected when authorization by name/password is required. The following types of authorization by username and password are supported:
       * Basic;
       * Digest;
       * NTLM;
