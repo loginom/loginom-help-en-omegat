@@ -22899,8 +22899,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Второй вариант с вводом параметров подключения вручную, параметры в строке указываются через двоеточие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T151443Z" creationid="Марианна" creationdate="20210201T151443Z">
-        <seg>When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T124610Z" creationid="Марианна" creationdate="20210201T151443Z">
+        <seg>When the second option based on the manual entering of parameters is used, it is required to provide the colon separated parameters in the string.</seg>
       </tuv>
     </tu>
     <tu>
