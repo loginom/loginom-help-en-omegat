@@ -8,7 +8,7 @@ The following parameters are set during the connection setup:
 
 * **Authorization Type** provides a drop-down list with authorization options.
    * **Not required**: when selecting this option, Loginom does not perform authorization when connecting to the service.
-   * **Username and password** is selected if authorization by name/password is required by SOAP service for work.
+   * **Username and password**: this option is selected if authorization by name/password is required by SOAP service for work.
    * **OAuth token** is selected when connecting to SOAP service via [OAuth](https://ru.wikipedia.org/wiki/OAuth) protocol.
    * **Provide client certificate** is selected for SSL authorization using the certificate.
 * **Username**: the field becomes active if *Username and password* type is selected. The name set by a user during his registration in the SOAP service system is used for authorization.
