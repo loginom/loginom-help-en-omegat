@@ -58,6 +58,6 @@ Versions 3.0 and higher.
 **See also:**
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/SQLite);
-* [Manufacturer official website](https://sqlite.org);
+* [Official manufacturer website](https://sqlite.org);
 * [SQL Syntax Documentation](https://sqlite.org/lang.html);
 * [PRAGMA Information](https://sqlite.org/pragma.html).

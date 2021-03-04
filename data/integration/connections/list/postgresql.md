@@ -37,6 +37,6 @@ Versions from 8.0 to 10.0.
 **See also:**
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/PostgreSQL);
-* [Manufacturer official website](https://www.postgresql.org/);
+* [Official manufacturer website](https://www.postgresql.org/);
 * [SQL Syntax Documentation](https://postgrespro.ru/docs/postgresql);
 * [The Russian DBMS (Postgres Pro) based on free open-source DBMS PostgreSQL](https://postgrespro.ru/).

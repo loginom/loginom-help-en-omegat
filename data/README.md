@@ -26,4 +26,4 @@ Differences between editions are connected with usage cases and mechanisms of in
 
 **See also:**
 
-* [Manufacturer official website](https://loginom.ru);
+* [Official manufacturer website](https://loginom.ru);

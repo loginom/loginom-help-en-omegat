@@ -42,5 +42,5 @@ The following parameters are set during the connection setup:
 **See also**:
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/MySQL);
-* [Manufacturer official website](https://www.mysql.com/);
+* [Official manufacturer website](https://www.mysql.com/);
 * [SQL Syntax Documentation](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html).
