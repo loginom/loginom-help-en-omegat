@@ -75,7 +75,7 @@ See the link below to get information on endpoints, operations, URL, structure o
 
 Example: `http://localhost/lgi/service.svc/rest/help`
 
-To provide access to the published services from the Loginom workflow, [*SOAP request*](../../processors/integration/soap-request.md) and [*REST request*](../../processors/integration/rest-request.md) components are used.
+To provide access to the published services from the Loginom workflow, the [*SOAP request*](../../processors/integration/soap-request.md) and [*REST request*](../../processors/integration/rest-request.md) components are used.
 
 ## Compatibility of Loginom Web Services with Deductor
 
