@@ -40118,8 +40118,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>в окне выбора &lt;x1/&gt;модификатора доступа&lt;x2/&gt; задано уникальное в пределах пакета имя узла;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210304T134449Z" creationid="Марианна" creationdate="20210217T111829Z">
-        <seg>The node name that is unique within the package is set in &lt;x1/&gt;access modifier&lt;x2/&gt; selection window;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T134526Z" creationid="Марианна" creationdate="20210217T111829Z">
+        <seg>The node name that is unique within the package is set in the &lt;x1/&gt;access modifier&lt;x2/&gt; selection window;</seg>
       </tuv>
     </tu>
     <tu>
