@@ -11867,16 +11867,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя MS SQL Server&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T213704Z" creationid="Марианна" creationdate="20210203T213704Z">
-        <seg>&lt;x1/&gt;Official website of MS SQL Server manufacturer&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130423Z" creationid="Марианна" creationdate="20210203T213704Z">
+        <seg>&lt;x1/&gt;Official website of the MS SQL Server manufacturer&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя Oracle Database&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T214920Z" creationid="Марианна" creationdate="20210203T214920Z">
-        <seg>&lt;x1/&gt;Official website of Oracle Database manufacturer&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130438Z" creationid="Марианна" creationdate="20210203T214920Z">
+        <seg>&lt;x1/&gt;Official website of the Oracle Database manufacturer&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11899,8 +11899,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт разработчика Firebird&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T213727Z" creationid="Марианна" creationdate="20210203T204945Z">
-        <seg>&lt;x1/&gt;Official website of Firebird manufacturer&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130416Z" creationid="Марианна" creationdate="20210203T204945Z">
+        <seg>&lt;x1/&gt;Official website of the Firebird manufacturer&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
