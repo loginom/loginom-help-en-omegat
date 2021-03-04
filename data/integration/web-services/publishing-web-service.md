@@ -77,7 +77,7 @@ Example: `http://localhost/lgi/service.svc/rest/help`
 
 To provide access to the published services from the Loginom workflow, the [*SOAP request*](../../processors/integration/soap-request.md) and [*REST request*](../../processors/integration/rest-request.md) components are used.
 
-## Compatibility of Loginom Web Services with Deductor
+## Compatibility of the Loginom Web Services with Deductor
 
 Web services were published using DIS ([Deductor Integration Server](https://basegroup.ru/deductor/components/integration-server)), DIS web services were accessed from the Deductor workflows using *WEB service* node in the past generation products ([Deductor](https://basegroup.ru/deductor/description)). In order to use this node to access the Loginom web services, *Use Loginom Integrator namespace* option must be used to publish packages.
 
