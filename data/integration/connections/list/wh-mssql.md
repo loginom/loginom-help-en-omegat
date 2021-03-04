@@ -42,4 +42,4 @@ Starting from Microsoft SQL Server 2000 and higher.
 **See also:**
 
 * [Information on Microsoft SQL Server in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server);
-* [Official website of MS SQL Server manufacturer](https://www.microsoft.com/ru-ru/sql-server).
+* [Official website of the MS SQL Server manufacturer](https://www.microsoft.com/ru-ru/sql-server).

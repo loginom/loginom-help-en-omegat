@@ -43,4 +43,4 @@ Starting from Oracle Database 9i and higher.
 **See also:**
 
 * [Information on Oracle Database in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database);
-* [Official website of Oracle Database manufacturer](https://www.oracle.com/database).
+* [Official website of the Oracle Database manufacturer](https://www.oracle.com/database).

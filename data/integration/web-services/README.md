@@ -14,7 +14,7 @@ The following Loginom platform components are required for web services integrat
 
 ### Integration with External Web Services
 
-Loginom platform provides integration with [SOAP](https://ru.wikipedia.org/wiki/SOAP) or [REST](https://ru.wikipedia.org/wiki/REST) services.
+The Loginom platform provides integration with [SOAP](https://ru.wikipedia.org/wiki/SOAP) or [REST](https://ru.wikipedia.org/wiki/REST) services.
 For this purpose, it is required to [create](../connections/README.md#nastroyka-podklyucheniya) corresponding connection:
 
 - [SOAP Service Connection](../connections/list/soap-service.md) (SOAP service);

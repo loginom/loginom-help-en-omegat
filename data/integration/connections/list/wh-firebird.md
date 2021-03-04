@@ -43,4 +43,4 @@ Starting from Firebird 2.5 and higher.
 **See also:**
 
 * [Information on Firebird in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Firebird);
-* [Official website of Firebird manufacturer](https://firebirdsql.org/).
+* [Official website of the Firebird manufacturer](https://firebirdsql.org/).

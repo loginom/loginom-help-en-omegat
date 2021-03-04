@@ -2,7 +2,7 @@
 
 [**Loginom**](https://loginom.ru) is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.
 
-![Loginom platform components](./components.svg)
+![The Loginom platform components](./components.svg)
 
 Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.
 

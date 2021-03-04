@@ -40,7 +40,7 @@ Connection can be created in two ways:
 * drag the required connection from tree (1) to area of connections (2);
 * double click on the selected connection in the tree.
 
-New connection (3) will appear in the area of connections, and the dialog of connection parameters edition will be opened.
+New connection (3) will appear in the area of connections, and the dialog of connection parameters editing will be opened.
 
 ![Create New Connection](./readme-2.png)
 
@@ -57,7 +57,7 @@ Toolbar (4) is used for connection control:
 * ![Configure visibility](../../images/icons/toolbar-controls/access-rights_default.svg) — configure [visibility](../../scenario/access-modifier.md);
 * ![Delete connection](../../images/icons/toolbar-controls/delete_default.svg) — delete connection;
 * Check — test connection;
-* ![Activate connection](../../images/icons/toolbar-controls/test-connection_default.svg) — Activate connection.
+* ![Activate connection](../../images/icons/toolbar-controls/test-connection_default.svg) — activate connection.
 
 The following tools are used for navigation through the connections:
 
