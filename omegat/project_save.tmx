@@ -27039,8 +27039,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Интеграция и работа с веб-сервисами требует наличия следующих компонентов платформы Loginom:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T222523Z" creationid="Марианна" creationdate="20210210T222523Z">
-        <seg>The following Loginom platform components are required for web services integration and operation:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T135928Z" creationid="Марианна" creationdate="20210210T222523Z">
+        <seg>The following Loginom platform components are required for the web services integration and operation:</seg>
       </tuv>
     </tu>
     <tu>
