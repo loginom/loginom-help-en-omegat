@@ -4,7 +4,7 @@ Loginom provides the tools used for integration with external web services and p
 
 > **Note:** The web service tools are available only in the [server Loginom editions](https://loginom.ru/platform/pricing#compare).
 
-The following Loginom platform components are required for web services integration and operation:
+The following Loginom platform components are required for the web services integration and operation:
 
 * [Server](https://loginom.ru/platform/pricing#component-server) is the main platform component. It completes the loading, calculation, model training, visualisation, right management and other tasks.
 * [Integrator](https://loginom.ru/platform/pricing#component-integrator) is a component responsible for publication of own web services based on the packages created in Loginom. It is used in combination with [IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services) creating a separate application in it.
