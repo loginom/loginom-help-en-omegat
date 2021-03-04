@@ -21349,8 +21349,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области подключений появится новое подключение (3), и откроется диалог редактирования параметров подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210213T121705Z" creationid="Марианна" creationdate="20210213T121705Z">
-        <seg>New connection (3) will appear in the area of connections, and the dialog of connection parameters edition will be opened.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130649Z" creationid="Марианна" creationdate="20210213T121705Z">
+        <seg>New connection (3) will appear in the area of connections, and the dialog of connection parameters editing will be opened.</seg>
       </tuv>
     </tu>
     <tu>
