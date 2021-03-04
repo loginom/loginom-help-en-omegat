@@ -15,7 +15,7 @@ The following parameters are set during the connection setup:
    * The first option with a separate window called when clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
       * **Server**: the SQL server host. If it is necessary, the named instance of SQL server is specified using "".
       * **Database** is a name of the database that includes the required data.
-   * When the second option with manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port>:<DatabaseName>`, for example, `host:1433:database1`.
+   * When the second option based on the manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port>:<DatabaseName>`, for example, `host:1433:database1`.
       * **ServerName**: the DBMS server host.
       * **Port** means the TCP port used by DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
       * **DatabaseName** is a name of the database that includes the required data.
