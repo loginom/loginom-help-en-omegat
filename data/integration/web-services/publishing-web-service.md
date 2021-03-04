@@ -12,10 +12,10 @@ Most frequently, the *[Supernode](../../processors/control/submodel.md)* is used
 
 The node published as the web service method must have the following settings:
 
-* the following *[access modifier](../../scenario/access-modifier.md)* is set: `Published`;
-* the node name that is unique within the package is set in *access modifier* selection window;
-* the node must be visible from the workflow root, namely, if the node is nested (into the supernode or hierarchy of supernodes), `Public` *access modifier* must be installed for all supernodes that include it;
-* the fields/variables that define the request structure and web service method response are set in the input and output ports.
+* The following *[access modifier](../../scenario/access-modifier.md)* is set: `Published`;
+* The node name that is unique within the package is set in the *access modifier* selection window;
+* The node must be visible from the workflow root, namely, if the node is nested (into the supernode or hierarchy of supernodes), `Public` *access modifier* must be installed for all supernodes that include it;
+* The fields/variables that define the request structure and web service method response are set in the input and output ports.
 
 > **Important:** When *[Automapping of fields](../../scenario/ports/field-synchronization.md)* is used, there might be situations in which the fields/variables in ports are defined by the automapping mechanism based on structure of the data supplied to the port. If the port link with the data source is deleted when automapping is enabled, the fields/variables that have been earlier created from the data will be deleted from the port by the automapping mechanism as the temporary ones that are relevant only to the specific data. When publishing such node, the fields/variables in the ports will not be set, correspondingly, structures of the service request/response will not be defined.
 >
