@@ -13331,8 +13331,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения к базе данных используются библиотеки sqlite3.dll и sqlcipher.dll, совпадающие по разрядности с приложением/сервером Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T221401Z" creationid="Марианна" creationdate="20210210T221401Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, sqlite3.dll and sqlcipher.dll libraries are used. Their bitness match the Loginom application/ server bitness.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T121717Z" creationid="Марианна" creationdate="20210210T221401Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, sqlite3.dll and sqlcipher.dll libraries are used. Their bitness matches the Loginom application/ server bitness.</seg>
       </tuv>
     </tu>
     <tu>
