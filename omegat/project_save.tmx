@@ -10011,8 +10011,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты платформы Loginom&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200813T092015Z" creationid="Марианна" creationdate="20200813T092015Z">
-        <seg>&lt;x1/&gt;Loginom platform components&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T131722Z" creationid="Марианна" creationdate="20200813T092015Z">
+        <seg>&lt;x1/&gt;The Loginom platform components&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32738,8 +32738,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Платформа Loginom предоставляет возможность интеграции с &lt;x1/&gt;SOAP&lt;x2/&gt; или &lt;x3/&gt;REST&lt;x4/&gt; сервисами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210215T060413Z" creationid="Марианна" creationdate="20210215T060413Z">
-        <seg>Loginom platform provides integration with &lt;x1/&gt;SOAP&lt;x2/&gt; or &lt;x3/&gt;REST&lt;x4/&gt; services.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T131712Z" creationid="Марианна" creationdate="20210215T060413Z">
+        <seg>The Loginom platform provides integration with &lt;x1/&gt;SOAP&lt;x2/&gt; or &lt;x3/&gt;REST&lt;x4/&gt; services.</seg>
       </tuv>
     </tu>
     <tu>
