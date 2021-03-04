@@ -1,6 +1,6 @@
 # ![](../../../images/icons/data-sources/web-rest_default.svg) REST Service Connection
 
-Parameters of connection, request and response of REST service are set. The output connection data is used by the [REST Request](../../../processors/integration/rest-request.md) node.
+Parameters of the REST service connection, request and response are set. The output connection data is used by the [REST Request](../../../processors/integration/rest-request.md) node.
 
 ## Connection Parameters
 
