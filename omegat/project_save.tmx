@@ -11883,16 +11883,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T055444Z" creationid="Марианна" creationdate="20210111T055444Z">
-        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T125951Z" creationid="Марианна" creationdate="20210111T055444Z">
+        <seg>&lt;x1/&gt;Official manufacturer website&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт производителя&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T205953Z" creationid="Марианна" creationdate="20200813T095208Z">
-        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130059Z" creationid="Марианна" creationdate="20200813T095208Z">
+        <seg>&lt;x1/&gt;Official manufacturer website&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11907,16 +11907,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт разработчика&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T203243Z" creationid="Марианна" creationdate="20210121T090958Z">
-        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130137Z" creationid="Марианна" creationdate="20210121T090958Z">
+        <seg>&lt;x1/&gt;Official developer website&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Официальный сайт разработчика&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T090431Z" creationid="Марианна" creationdate="20210121T090431Z">
-        <seg>&lt;x1/&gt;Manufacturer official website&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T130117Z" creationid="Марианна" creationdate="20210121T090431Z">
+        <seg>&lt;x1/&gt;Official developer website&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
