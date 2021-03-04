@@ -11659,8 +11659,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Описание&lt;x2/&gt; — в этом поле можно оставить любую справочную информацию о подключении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T204852Z" creationid="Марианна" creationdate="20210203T204852Z">
-        <seg>&lt;x1/&gt;Description&lt;x2/&gt;: it is possible to provide any reference data concerning connection in this field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210304T124339Z" creationid="Марианна" creationdate="20210203T204852Z">
+        <seg>&lt;x1/&gt;Description&lt;x2/&gt;: it is possible to provide any reference connection data in this field.</seg>
       </tuv>
     </tu>
     <tu>
