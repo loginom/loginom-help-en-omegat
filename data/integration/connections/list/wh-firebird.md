@@ -26,7 +26,7 @@ The following parameters are set during the connection setup:
    * **Do not use DBMS client**: it is not possible to change this parameter for Firebird.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 
-* **Description**: it is possible to provide any reference data concerning connection in this field.
+* **Description**: it is possible to provide any reference connection data in this field.
 
 
 > **Note:** To provide connection to the database, it is required to install the client library files (DLL) with the same bitness as the Loginom application/server bitness.

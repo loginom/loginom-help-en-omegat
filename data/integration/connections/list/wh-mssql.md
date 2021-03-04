@@ -29,7 +29,7 @@ The following parameters are set during the connection setup:
    * **Do not use DBMS client**: this parameter is not available for MS SQL.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 
-* **Description**: it is possible to provide any reference data concerning connection in this field.
+* **Description**: it is possible to provide any reference connection data in this field.
 
 > **Note:** It is required to install DBMS client on the user computer with the same bitness as the Loginom application/server bitness.
 
