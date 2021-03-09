@@ -8347,8 +8347,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Группа значений&lt;x2/&gt; — если в исходном поле с момента последней настройки узла появятся новые значения, то при включенном флаге &lt;x3/&gt;Прочие&lt;x4/&gt; факты для таких значений будут агрегироваться в столбце &lt;x5/&gt;Прочие&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T080848Z" creationid="Марианна" creationdate="20201023T080848Z">
-        <seg>&lt;x1/&gt;Group of values&lt;x2/&gt;: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled &lt;x3/&gt;Other&lt;x4/&gt; flag, measures for such values will be aggregated in the &lt;x5/&gt;Other&lt;x6/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133450Z" creationid="Марианна" creationdate="20201023T080848Z">
+        <seg>&lt;x1/&gt;Group of values&lt;x2/&gt;: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled &lt;x3/&gt;Other&lt;x4/&gt; checkbox, measures for such values will be aggregated in the &lt;x5/&gt;Other&lt;x6/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8851,8 +8851,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Дублировать единичные значения&lt;x2/&gt; — при установке данного флага для каждого дочернего элемента XML ответа сервиса выводится информация, содержащаяся в родительском элементе (например, атрибуты, дочерние элементы с maxOccurs=1).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210227T205446Z" creationid="Марианна" creationdate="20210227T205446Z">
-        <seg>&lt;x1/&gt;Repeat single values&lt;x2/&gt;: when this flag is selected, the information in the parent element is displayed for each child XML element of the service response (for example, attributes, child elements with maxOccurs=1).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133324Z" creationid="Марианна" creationdate="20210227T205446Z">
+        <seg>&lt;x1/&gt;Repeat single values&lt;x2/&gt;: when this checkbox is selected, the information in the parent element is displayed for each child XML element of the service response (for example, attributes, child elements with maxOccurs=1).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9235,16 +9235,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имитировать запрос с ответом в файле&lt;x2/&gt; — при установке флага фактического запроса к сервису не происходит, а в качестве ответа сервиса выводится содержимое указанного файла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T210317Z" creationid="Марианна" creationdate="20210225T210317Z">
-        <seg>&lt;x1/&gt;Simulate request with response in a file&lt;x2/&gt;: when this flag is selected, no actual request is sent to the service, and the content of the specified file is displayed as the service response.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133348Z" creationid="Марианна" creationdate="20210225T210317Z">
+        <seg>&lt;x1/&gt;Simulate request with response in a file&lt;x2/&gt;: when this checkbox is selected, no actual request is sent to the service, and the content of the specified file is displayed as the service response.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имитировать запрос с ответом в файле&lt;x2/&gt; — при установке флага фактического запроса к сервису не происходит, а обработчик в качестве ответа сервиса подставляет содержимое указанного файла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T202842Z" creationid="Марианна" creationdate="20210225T202842Z">
-        <seg>&lt;x1/&gt;Simulate request with response in a file&lt;x2/&gt;: when this flag is selected, no actual request is sent to the service, and the handler substitutes content of the specified file as the service response.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133319Z" creationid="Марианна" creationdate="20210225T202842Z">
+        <seg>&lt;x1/&gt;Simulate request with response in a file&lt;x2/&gt;: when this checkbox is selected, no actual request is sent to the service, and the handler substitutes content of the specified file as the service response.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10995,8 +10995,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка форматирования&lt;x2/&gt; — область включает следующие флаги:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210224T065349Z" creationid="Марианна" creationdate="20210224T065349Z">
-        <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: the area includes the following flags:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133314Z" creationid="Марианна" creationdate="20210224T065349Z">
+        <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: the area includes the following checkboxes:</seg>
       </tuv>
     </tu>
     <tu>
@@ -11595,8 +11595,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничить число выходных факторов&lt;x2/&gt; — необязательный флаг, при активации которого можно задать ограничивающее число выходных факторов в соответствующем поле области.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201013T162119Z" creationid="Марианна" creationdate="20201013T162119Z">
-        <seg>&lt;x1/&gt;Limit output factors number&lt;x2/&gt;: an optional flag activation of which enables to set the limiting number of output factors in the corresponding field of the area.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133439Z" creationid="Марианна" creationdate="20201013T162119Z">
+        <seg>&lt;x1/&gt;Limit output factors number&lt;x2/&gt;: an optional checkbox activation of which enables to set the limiting number of output factors in the corresponding field of the area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13830,8 +13830,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Проверять на строгое соответствие XSD&lt;x2/&gt; — при установке флага производится валидация XML ответа сервиса на строгое соответствие XSD схеме, заявленной в WSDL веб-сервиса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T212225Z" creationid="Марианна" creationdate="20210225T212225Z">
-        <seg>&lt;x1/&gt;Check for strict XSD validation&lt;x2/&gt;: when flag placing, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133344Z" creationid="Марианна" creationdate="20210225T212225Z">
+        <seg>&lt;x1/&gt;Check for strict XSD validation&lt;x2/&gt;: when this checkbox is selected, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13878,8 +13878,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Промежуточное&lt;x2/&gt; — при установке этого флага выражение может использоваться в расчетах, не включается в список полей выходного набора данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201015T074752Z" creationid="Марианна" creationdate="20201015T074752Z">
-        <seg>&lt;x1/&gt;Intermediate&lt;x2/&gt;: when selecting this flag, the expression can be used in calculations but it is not included into the list of fields of the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133443Z" creationid="Марианна" creationdate="20201015T074752Z">
+        <seg>&lt;x1/&gt;Intermediate&lt;x2/&gt;: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of fields of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14310,8 +14310,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рассчитывать ЧАКФ&lt;x2/&gt; — наличие данного флага добавляет вычисление частной автокорреляционной функции.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T103958Z" creationid="Марианна" creationdate="20201011T103958Z">
-        <seg>&lt;x1/&gt;Calculate PACF&lt;x2/&gt;: availability of this flag adds calculation of partial autocorrelation function.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133407Z" creationid="Марианна" creationdate="20201011T103958Z">
+        <seg>&lt;x1/&gt;Calculate PACF&lt;x2/&gt;: availability of this checkbox adds calculation of partial autocorrelation function.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14326,8 +14326,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Регистр&lt;x2/&gt; — для сортировки строковых полей с учетом регистра нужно поставить флаг в чекбоксе этого поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T142106Z" creationid="Марианна" creationdate="20201115T142106Z">
-        <seg>&lt;x1/&gt;Case&lt;x2/&gt;: to sort the string fields taking into account the case, it is required to place a flag in the checkbox of this field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133559Z" creationid="Марианна" creationdate="20201115T142106Z">
+        <seg>&lt;x1/&gt;Case&lt;x2/&gt;: to sort the string fields taking into account the case, it is required to select a checkbox in this field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14694,8 +14694,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Скользящие уникальные значения&lt;x2/&gt; — установка флага позволяет заново создавать колонки из уникальных значений поля (полей).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T065308Z" creationid="Марианна" creationdate="20201023T065308Z">
-        <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt;: flag placement enables to create columns from the unique field (fields) values again.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133517Z" creationid="Марианна" creationdate="20201023T065308Z">
+        <seg>&lt;x1/&gt;Sliding unique values&lt;x2/&gt;: the checkbox selection enables to create columns from the unique field (fields) values again.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22475,8 +22475,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Включает список флагов, позволяющих выбрать коэффициенты для оценки корреляции:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201017T192508Z" creationid="Марианна" creationdate="20201012T073458Z">
-        <seg>It includes the list of flags that enable to select coefficients for correlation estimation:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133414Z" creationid="Марианна" creationdate="20201012T073458Z">
+        <seg>It includes the list of checkboxes that enable to select coefficients for correlation estimation:</seg>
       </tuv>
     </tu>
     <tu>
@@ -24251,8 +24251,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для добавления данного поля следует выставить соответствующий флаг в мастере настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T103102Z" creationid="Марианна" creationdate="20201011T103102Z">
-        <seg>To add this field, it is required to place corresponding flag in the wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133401Z" creationid="Марианна" creationdate="20201011T103102Z">
+        <seg>To add this field, it is required to select corresponding checkbox in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24411,8 +24411,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для каждого поля из "Набора 1", отмеченного флагом, будут вычислены коэффициенты корреляции с полями, отмеченными флагами в "Наборе 2".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T075306Z" creationid="Марианна" creationdate="20201012T075306Z">
-        <seg>For each field from "Set 1" selected with a flag, correlation coefficients with the fields selected with flags in "Set 2" will be calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133434Z" creationid="Марианна" creationdate="20201012T075306Z">
+        <seg>For each field from "Set 1" selected with a checkbox, correlation coefficients with the fields selected with checkboxes in "Set 2" will be calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25875,8 +25875,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если флаг установлен, то результрующая таблица из предыдущего примера будет выглядеть следующим образом:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T195916Z" creationid="Марианна" creationdate="20201109T195916Z">
-        <seg>If the flag is selected, the resulting table specified in the previous example will be as follows:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133527Z" creationid="Марианна" creationdate="20201109T195916Z">
+        <seg>If the checkbox is selected, the resulting table specified in the previous example will be as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -30626,8 +30626,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля извлекаемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T154400Z" creationid="Марианна" creationdate="20210220T154043Z">
-        <seg>The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133301Z" creationid="Марианна" creationdate="20210220T154043Z">
+        <seg>The area displaying the hierarchic structure of the selected root element is located below. It is required to select the checkboxes for the elements that form the fields of the extracted table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34834,8 +34834,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При отсутствии флага поле получит название "ACCESS-LEVEL".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T155129Z" creationid="Марианна" creationdate="20210220T155129Z">
-        <seg>When there is no such flag, the field will get the following name: "ACCESS-LEVEL".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133307Z" creationid="Марианна" creationdate="20210220T155129Z">
+        <seg>When there is no such checkbox, the field will get the following name: "ACCESS-LEVEL".</seg>
       </tuv>
     </tu>
     <tu>
@@ -35074,8 +35074,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При установке флага &lt;x1/&gt;Игнорировать пустые значения&lt;x2/&gt; обработчик не будет включать в результирующий набор строки с пустыми значениями в транспонируемых полях.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T165814Z" creationid="Марианна" creationdate="20201111T165814Z">
-        <seg>When selecting &lt;x1/&gt;Skip null values&lt;x2/&gt; flag, the handler won't include the strings with null values in the transposed fields into the resulting data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133533Z" creationid="Марианна" creationdate="20201111T165814Z">
+        <seg>When selecting &lt;x1/&gt;Skip null values&lt;x2/&gt; checkbox, the handler won't include the strings with null values in the transposed fields into the resulting data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39102,8 +39102,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Установленный флаг &lt;x7/&gt;Пропущенные&lt;x8/&gt; обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T081031Z" creationid="Марианна" creationdate="20201023T081031Z">
-        <seg>The enabled &lt;x7/&gt;Null&lt;x8/&gt; flag displays the field data with null values in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133455Z" creationid="Марианна" creationdate="20201023T081031Z">
+        <seg>The enabled &lt;x7/&gt;Null&lt;x8/&gt; checkbox displays the field data with null values in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39614,8 +39614,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг &lt;x3/&gt;Добавлять присоединяемые ключевые поля&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201109T195837Z" creationid="Марианна" creationdate="20201109T195545Z">
-        <seg>To include the key fields of the joined table into the resulting data set, it is required to select the following flag: &lt;x3/&gt;Add joined key fields&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133522Z" creationid="Марианна" creationdate="20201109T195545Z">
+        <seg>To include the key fields of the joined table into the resulting data set, it is required to select the following checkbox: &lt;x3/&gt;Add joined key fields&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40206,8 +40206,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>выдаст ошибку, а при наличии флага обработчик интерпретирует такое объявление как корректное:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T152645Z" creationid="Марианна" creationdate="20210220T152645Z">
-        <seg>will cause an error, and when this flag is selected, the handler will interpret such notice as the correct one:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133246Z" creationid="Марианна" creationdate="20210220T152645Z">
+        <seg>will cause an error, and when this checkbox is selected, the handler will interpret such notice as the correct one:</seg>
       </tuv>
     </tu>
     <tu>
