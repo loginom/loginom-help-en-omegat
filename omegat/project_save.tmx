@@ -3190,8 +3190,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сохранить все&lt;x4/&gt; — аналогично кнопке &lt;x5/&gt;Сохранить&lt;x6/&gt; для всех открытых &lt;x7/&gt;Пакетов&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T131316Z" creationid="Марианна" creationdate="20200816T131316Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save all&lt;x4/&gt; is similar to the &lt;x5/&gt;Save&lt;x6/&gt; button for all opened &lt;x7/&gt;Packages&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132026Z" creationid="Марианна" creationdate="20200816T131316Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Save all&lt;x4/&gt; is similar to &lt;x5/&gt;Save&lt;x6/&gt; button for all opened &lt;x7/&gt;Packages&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27816,8 +27816,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Кнопка &lt;x1/&gt;Следующий рекурсивный нераскрытый узел&lt;x2/&gt; &lt;x3/&gt;Следующий рекурсивный нераскрытый узел&lt;x4/&gt; выбирает текущим узлом следующий рекурсивный нераскрытый узел после текущего выбранного узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T192201Z" creationid="Марианна" creationdate="20200929T192201Z">
-        <seg>The &lt;x1/&gt;Next recursive unopened node&lt;x2/&gt; &lt;x3/&gt;Next recursive unopened node&lt;x4/&gt; button enables to select the next recursive unopened node as the current node after the current selected node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132033Z" creationid="Марианна" creationdate="20200929T192201Z">
+        <seg>&lt;x1/&gt;Next recursive unopened node&lt;x2/&gt; &lt;x3/&gt;Next recursive unopened node&lt;x4/&gt; button enables to select the next recursive unopened node as the current node after the current selected node.</seg>
       </tuv>
     </tu>
     <tu>
