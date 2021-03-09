@@ -6600,8 +6600,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;lower, upper для UNICODE&lt;x2/&gt; — флаг расширяет действия функций lower, upper на все символы UNICODE.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T220532Z" creationid="Марианна" creationdate="20210210T220532Z">
-        <seg>&lt;x1/&gt;lower, upper for UNICODE&lt;x2/&gt;: the flag extends the effect of lower, upper functions for all UNICODE characters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132753Z" creationid="Марианна" creationdate="20210210T220532Z">
+        <seg>&lt;x1/&gt;lower, upper for UNICODE&lt;x2/&gt;: the checkbox extends the effect of lower, upper functions for all UNICODE characters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6792,8 +6792,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Авторизация та же, что и для получения WSDL&lt;x2/&gt; — при выставлении флажка использует тех же параметры авторизации, что и при получении WSDL.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210209T162156Z" creationid="Марианна" creationdate="20210209T162156Z">
-        <seg>&lt;x1/&gt;Authorization is the same as for WSDL&lt;x2/&gt;: when this flag is selected, the same authorization parameters are used as for WSDL.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132734Z" creationid="Марианна" creationdate="20210209T162156Z">
+        <seg>&lt;x1/&gt;Authorization is the same as for WSDL&lt;x2/&gt;: when this checkbox is selected, the same authorization parameters are used as for WSDL.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8235,8 +8235,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; — при наличии данного флага в каждой метке поля будет отражена иерархия относительно корневого элемента.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T221931Z" creationid="Марианна" creationdate="20200829T221931Z">
-        <seg>&lt;x1/&gt;Generate composite field captions&lt;x2/&gt;: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132938Z" creationid="Марианна" creationdate="20200829T221931Z">
+        <seg>&lt;x1/&gt;Generate composite field captions&lt;x2/&gt;: if this checkbox has been selected, hierarchy relative to the root element will be displayed in each field caption.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8883,8 +8883,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T075936Z" creationid="Марианна" creationdate="20200826T085304Z">
-        <seg>&lt;x1/&gt;First line title&lt;x2/&gt; is a flag that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132819Z" creationid="Марианна" creationdate="20200826T085304Z">
+        <seg>&lt;x1/&gt;First line title&lt;x2/&gt; is a checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9011,8 +9011,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Зашифрованная БД&lt;x2/&gt; — флаг устанавливает режим шифрования БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T135831Z" creationid="Марианна" creationdate="20210210T135831Z">
-        <seg>&lt;x1/&gt;Encrypted DB&lt;x2/&gt;: the flag enables to set the DB encryption mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132743Z" creationid="Марианна" creationdate="20210210T135831Z">
+        <seg>&lt;x1/&gt;Encrypted DB&lt;x2/&gt;: the checkbox enables to set the DB encryption mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9131,8 +9131,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Игнорировать ошибки SSL сертификата&lt;x2/&gt; — если данный флаг установлен, то ошибки при проверке сертификата сервера, к которому производится подключение, игнорируются.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T124802Z" creationid="Марианна" creationdate="20210208T124802Z">
-        <seg>&lt;x1/&gt;Ignore SSL certificate errors&lt;x2/&gt;: if this flag is selected, the errors detected while testing the server certificate to be connected with are ignored.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132717Z" creationid="Марианна" creationdate="20210208T124802Z">
+        <seg>&lt;x1/&gt;Ignore SSL certificate errors&lt;x2/&gt;: if this checkbox is selected, the errors detected while testing the server certificate to be connected with are ignored.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9739,8 +9739,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать&lt;x2/&gt; — флаг включения поля в результирующий набор данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T064412Z" creationid="Марианна" creationdate="20200825T193642Z">
-        <seg>&lt;x1/&gt;Use&lt;x2/&gt;: flag of the field inclusion into the resulting data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132813Z" creationid="Марианна" creationdate="20200825T193642Z">
+        <seg>&lt;x1/&gt;Use&lt;x2/&gt;: checkbox of the field inclusion into the resulting data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10987,8 +10987,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка форматирования&lt;x2/&gt; — область включает следующие флаги.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T085716Z" creationid="Марианна" creationdate="20200918T085602Z">
-        <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: this area includes the following flags.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132809Z" creationid="Марианна" creationdate="20200918T085602Z">
+        <seg>&lt;x1/&gt;Configure Formatting&lt;x2/&gt;: this area includes the following checkboxes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12779,8 +12779,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210202T113342Z" creationid="Марианна" creationdate="20210202T113342Z">
-        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132712Z" creationid="Марианна" creationdate="20210202T113342Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12795,8 +12795,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T174124Z" creationid="Марианна" creationdate="20210121T174124Z">
-        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132656Z" creationid="Марианна" creationdate="20210121T174124Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13155,8 +13155,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Преобразование WSDL-описания с помощью XSLT&lt;x2/&gt; — при выставлении флажка позволяет вносить изменения в полученный WSDL-файл с помощью XSLT преобразования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210209T142508Z" creationid="Марианна" creationdate="20210209T142508Z">
-        <seg>&lt;x1/&gt;Transform WSDL description using XSLT&lt;x2/&gt;: selection of this flag enables to introduce changes into the received WSDL file using XSLT transformation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132722Z" creationid="Марианна" creationdate="20210209T142508Z">
+        <seg>&lt;x1/&gt;Transform WSDL description using XSLT&lt;x2/&gt;: selection of this checkbox enables to introduce changes into the received WSDL file using XSLT transformation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13742,8 +13742,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Принимать несколько подряд разделителей за один&lt;x2/&gt; — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T094354Z" creationid="Марианна" creationdate="20200826T094354Z">
-        <seg>&lt;x1/&gt;Treat consecutive delimiters as one&lt;x2/&gt;: flag placement enables to treat several consecutive column delimiters as one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132830Z" creationid="Марианна" creationdate="20200826T094354Z">
+        <seg>&lt;x1/&gt;Treat consecutive delimiters as one&lt;x2/&gt;: checkbox selection enables to treat several consecutive column delimiters as one.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13822,8 +13822,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Проверять на строгое соответствие XSD&lt;x2/&gt; — при установке флага производится валидация XML на строгое соответствие XSD схеме.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T221349Z" creationid="Марианна" creationdate="20200829T221349Z">
-        <seg>&lt;x1/&gt;Check for strict XSD validation&lt;x2/&gt;: when flag placing, XML is validated for strict compliance with the XSD schema.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132917Z" creationid="Марианна" creationdate="20200829T221349Z">
+        <seg>&lt;x1/&gt;Check for strict XSD validation&lt;x2/&gt;: when this checkbox is selected, XML is validated for strict compliance with the XSD schema.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14814,8 +14814,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Создавать БД, если не существует&lt;x2/&gt; — при установке флага, указанная в параметре &lt;x3/&gt;Строка подключения&lt;x4/&gt; база данных будет создана, если таковая не существует.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T221134Z" creationid="Марианна" creationdate="20210210T221134Z">
-        <seg>&lt;x1/&gt;Create DB if it doesn't exist&lt;x2/&gt;: when this flag is selected, the database specified in the &lt;x3/&gt;Connection string&lt;x4/&gt; parameter will be created if it doesn't exist.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132757Z" creationid="Марианна" creationdate="20210210T221134Z">
+        <seg>&lt;x1/&gt;Create DB if it doesn't exist&lt;x2/&gt;: when this checkbox is selected, the database specified in the &lt;x3/&gt;Connection string&lt;x4/&gt; parameter will be created if it doesn't exist.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14974,8 +14974,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранить пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T204723Z" creationid="Марианна" creationdate="20210203T204723Z">
-        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132801Z" creationid="Марианна" creationdate="20210203T204723Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this checkbox, login and password will be saved in the current connection settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14990,8 +14990,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; —  при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T153644Z" creationid="Марианна" creationdate="20210201T153644Z">
-        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132701Z" creationid="Марианна" creationdate="20210201T153644Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this checkbox, login and password will be saved in the current connection settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15014,16 +15014,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210202T113133Z" creationid="Марианна" creationdate="20210202T113133Z">
-        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132706Z" creationid="Марианна" creationdate="20210202T113133Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this checkbox, login and password will be saved in the current connection settings.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага пароль будет сохранен в текущих настройках подключения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T153158Z" creationid="Марианна" creationdate="20210121T153003Z">
-        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, password will be saved in the current connection settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132651Z" creationid="Марианна" creationdate="20210121T153003Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this checkbox, password will be saved in the current connection settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15782,8 +15782,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Трактовать NOCASE как UNICODE&lt;x2/&gt; — флаг переопределяет сравнение NOCASE как UNICODE — языконезависимое сравнение символов Unicode без чувствительности к регистру.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T220307Z" creationid="Марианна" creationdate="20210210T220307Z">
-        <seg>&lt;x1/&gt;Regard NOCASE as UNICODE&lt;x2/&gt;: the flag redefines collation of NOCASE as UNICODE — the language independent Unicode character collation without case sensitivity.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132748Z" creationid="Марианна" creationdate="20210210T220307Z">
+        <seg>&lt;x1/&gt;Regard NOCASE as UNICODE&lt;x2/&gt;: the checkbox redefines collation of NOCASE as UNICODE — the language independent Unicode character collation without case sensitivity.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25475,8 +25475,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если авторизация для выполнения запроса отличается от авторизации для получения WSDL, то необходимо снять флаг и настроить необходимые параметры.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210209T162623Z" creationid="Марианна" creationdate="20210209T162623Z">
-        <seg>If the request authorization differs from the WSDL authorization, it is required to deselect the flag and set the required parameters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132739Z" creationid="Марианна" creationdate="20210209T162623Z">
+        <seg>If the request authorization differs from the WSDL authorization, it is required to deselect the checkbox and set the required parameters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25547,8 +25547,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если данный флаг стоит, то ошибки из-за непроверенного сертификата игнорируются, иначе подключение не произойдет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210209T162019Z" creationid="Марианна" creationdate="20210209T162019Z">
-        <seg>If this flag is selected, errors caused by untested certificate are ignored, otherwise connection will not be established.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132727Z" creationid="Марианна" creationdate="20210209T162019Z">
+        <seg>If this checkbox is selected, errors caused by untested certificate are ignored, otherwise connection will not be established.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30634,8 +30634,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Ниже расположена область, отображающая иерархическую структуру выбранного корневого элемента — в ней следует отметить флагами элементы, которые сформируют поля импортируемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T154355Z" creationid="Марианна" creationdate="20200829T220100Z">
-        <seg>The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the imported table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132844Z" creationid="Марианна" creationdate="20200829T220100Z">
+        <seg>The area displaying the hierarchic structure of the selected root element is located below. It is required to place the checkboxes for the elements that form the fields of the imported table.</seg>
       </tuv>
     </tu>
     <tu>
