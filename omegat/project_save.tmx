@@ -34362,8 +34362,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При автоматическом определении числа кластеров:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T133601Z" creationid="Марианна" creationdate="20201210T133601Z">
-        <seg>In the case of auto selection of the cluster number:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T140911Z" creationid="Марианна" creationdate="20201210T133601Z">
+        <seg>In the case of auto selection of the cluster count:</seg>
       </tuv>
     </tu>
     <tu>
