@@ -24579,8 +24579,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для отображения списка должно быть активировано подключение с помощью кнопки &lt;x5/&gt;Активировать&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T155424Z" creationid="Марианна" creationdate="20200824T155424Z">
-        <seg>To display the list, connection must be activated by means of the &lt;x5/&gt;Activate&lt;x6/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T131811Z" creationid="Марианна" creationdate="20200824T155424Z">
+        <seg>To display the list, connection must be activated by means of &lt;x5/&gt;Activate&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24595,8 +24595,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для очистки всего списка нажать &lt;x1/&gt;Удалить все&lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T203741Z" creationid="Марианна" creationdate="20200829T203741Z">
-        <seg>To clear the whole list, it is required to press the &lt;x1/&gt;Delete all&lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T131832Z" creationid="Марианна" creationdate="20200829T203741Z">
+        <seg>To clear the whole list, it is required to press &lt;x1/&gt;Delete all&lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29590,8 +29590,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нажать на кнопку &lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T203641Z" creationid="Марианна" creationdate="20200827T195137Z">
-        <seg>Press the &lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T131821Z" creationid="Марианна" creationdate="20200827T195137Z">
+        <seg>Press &lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33906,8 +33906,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>После завершения работы со списком следует нажать кнопку &lt;x1/&gt;Применить&lt;x2/&gt; для внесения изменений либо &lt;x3/&gt;Отменить&lt;x4/&gt; для возврата к состоянию до начала работы со списком.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T205546Z" creationid="Марианна" creationdate="20200829T205546Z">
-        <seg>When the work with the list is completed, it is required to press the &lt;x1/&gt;Apply&lt;x2/&gt; button to introduce changes, or the &lt;x3/&gt;Cancel&lt;x4/&gt; button to return to the state before the work with the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T131912Z" creationid="Марианна" creationdate="20200829T205546Z">
+        <seg>When the work with the list is completed, it is required to press &lt;x1/&gt;Apply&lt;x2/&gt; button to introduce changes, or &lt;x3/&gt;Cancel&lt;x4/&gt; button to return to the state before the work with the list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37330,8 +37330,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Списки можно связать автоматически, воспользовавшись кнопкой &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Связать автоматически&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T104352Z" creationid="Марианна" creationdate="20200918T092757Z">
-        <seg>It is possible to auto link the lists using the &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Auto link all&lt;x6/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T131751Z" creationid="Марианна" creationdate="20200918T092757Z">
+        <seg>It is possible to auto link the lists using &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Auto link all&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
