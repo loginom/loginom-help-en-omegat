@@ -9691,8 +9691,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать SSL&lt;x2/&gt; — при установленном флаге данные передаются по критографическому протоколу SSL/TLS.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T201502Z" creationid="Марианна" creationdate="20210118T115129Z">
-        <seg>&lt;x1/&gt;Use SSL&lt;x2/&gt;: when this flag is selected, the data is transferred via the cryptographic SSL/TLS protocol.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132614Z" creationid="Марианна" creationdate="20210118T115129Z">
+        <seg>&lt;x1/&gt;Use SSL&lt;x2/&gt;: when this checkbox is selected, the data is transferred via the cryptographic SSL/TLS protocol.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12787,8 +12787,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T124157Z" creationid="Марианна" creationdate="20210118T124157Z">
-        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132620Z" creationid="Марианна" creationdate="20210118T124157Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12803,8 +12803,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующем данное подключение, становятся видимы доступные пользователю системные таблицы БД;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T153206Z" creationid="Марианна" creationdate="20210118T153206Z">
-        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132630Z" creationid="Марианна" creationdate="20210118T153206Z">
+        <seg>&lt;x1/&gt;Show system tables&lt;x2/&gt;: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15006,8 +15006,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранять пароль&lt;x2/&gt; — при установке этого флага логин и пароль будут сохранены в текущих настройках подключения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T122914Z" creationid="Марианна" creationdate="20210111T122914Z">
-        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this flag, login and password will be saved in the current connection settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132608Z" creationid="Марианна" creationdate="20210111T122914Z">
+        <seg>&lt;x1/&gt;Save password&lt;x2/&gt;: when selecting this checkbox, login and password will be saved in the current connection settings.</seg>
       </tuv>
     </tu>
     <tu>
