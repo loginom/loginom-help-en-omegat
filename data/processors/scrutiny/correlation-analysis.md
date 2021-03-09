@@ -60,11 +60,11 @@ As shown in the table, the sale series of the "Tomato paste" item of goods is di
 
 ## Wizard
 
-It includes the list of flags that enable to select coefficients for correlation estimation:
+It includes the list of checkboxes that enable to select coefficients for correlation estimation:
 
 * **Pearson correlation coefficient** enables to determine the strength and direction of the linear relationship between two processes that occur simultaneously.
 * **Kendall's Tau-b coefficient** is a rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked. It is recommended to use for categorical data.
 * **Extremum of cross-correlation function** enables to calculate the maximum absolute value of the correlation coefficients of two processes calculated for all possible time shifts. It should be applied if it is required to determine the linear relationship between two processes, or parts of the processes that occur with a certain time lag.
 * **Spearman's rank correlation coefficient** is another version of the rank correlation. Corresponding ranks, not numerical values, are used for numerical fields to estimate the connection strength. Therefore, the Spearman coefficient will be 1 or -1 for any monotone sequences.
 
-It is possible to select the series in the table to analyze interconnection. For each field from "Set 1" selected with a flag, correlation coefficients with the fields selected with flags in "Set 2" will be calculated.
+It is possible to select the series in the table to analyze interconnection. For each field from "Set 1" selected with a checkbox, correlation coefficients with the fields selected with checkboxes in "Set 2" will be calculated.

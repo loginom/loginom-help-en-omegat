@@ -33,7 +33,7 @@ To configure sorting, it is required to move the required fields to the *Sort fi
 Parameters of sorting configuration:
 
 * **Order**: the field can take *Ascending* ![](../../images/icons/sorting/order-switcher-asc_default.svg) and *Descending* ![](../../images/icons/sorting/order-switcher-desc_default.svg) values;
-* **Case**: to sort the string fields taking into account the case, it is required to place a flag in the checkbox of this field.
+* **Case**: to sort the string fields taking into account the case, it is required to select a checkbox in this field.
 
 It is possible to change the fields sorting order:
 

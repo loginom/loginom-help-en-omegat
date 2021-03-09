@@ -21,7 +21,7 @@ The following parameters are specified at the first configuration stage:
 * **File storage** enables to display information on method of connection to the source file.
 * **File name** is a path to the file that contains required data.
 * **Codepage** means the encoding used for storage of text in a file.
-* **First line title** is a flag that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
+* **First line title** is a checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
 * **Skip rows** means count of the rows from the text beginning that cannot be imported.
 
 ### Step 2. Configure Import Formats
@@ -45,7 +45,7 @@ The following parameters are specified at the configuration stage:
 It is required to specify the following parameters at the configuration stage:
 
 * **Column delimiter** is a character separating data of adjacent columns.
-* **Treat consecutive delimiters as one**: flag placement enables to treat several consecutive column delimiters as one.
+* **Treat consecutive delimiters as one**: checkbox selection enables to treat several consecutive column delimiters as one.
 * It is required to display the following data:
    * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
    * **Raw data**: the source (text) version of downloaded data will be displayed in the table wizard part.
@@ -65,4 +65,4 @@ The following settings are used to generate the resulting data set in the manual
    * Continuous
    * Discrete
    * Undefined
-* **Use**: flag of the field inclusion into the resulting data set.
+* **Use**: checkbox of the field inclusion into the resulting data set.

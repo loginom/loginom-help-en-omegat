@@ -43,7 +43,7 @@ The component is designated for the table transformation to XML.
 
 > **Note**: If the input data set is empty, the row count is equal to zero at the output with any settings of *XML Document Identification*.
 
-* **Configure Formatting**: the area includes the following flags:
+* **Configure Formatting**: the area includes the following checkboxes:
    * **Add indents and line breaks**: each item is located in the separate row in the resulting XML. Indents are set according to the hierarchy of items.
    * **Escape tabs and line breaks in attributes**: replacement of tab characters in attributes of the resulting XML to*`&#x9;`* and line feed character to *`&#xA;`*
    * **Escape single and double quotes**: replacement of single quotes in the resulting XML to *`&apos;`* and double quotes to *`&quot;`*.

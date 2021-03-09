@@ -56,4 +56,4 @@ When entering the replacement table, the following actions are available by mean
    * **With regular expression**: the new value will be calculated using the [regular expression syntax](../transformation/substitution/regexp-match.md).
 
 * **Precision**: enables to set the allowable interval based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced. [Use of the Allowable Interval](../transformation/substitution/exact-match.md#primenenie-dopustimogo-intervala).
-* **Case-sensitive strings**: the flag installs the case-sensitive mode of values search in the replacement tables. This mode is disabled by default.
+* **Case-sensitive strings**: the checkbox installs the case-sensitive mode of values search in the replacement tables. This mode is disabled by default.

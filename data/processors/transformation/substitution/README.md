@@ -106,4 +106,4 @@ It is required to select **Usage type** for the table fields from the following 
    * **With value**: values will be replaced with the specified value.
    * **With regular expression**: the new value will be calculated using the [regular expression](./regexp-match.md) syntax.
 * **Precision**: enables to set the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala) based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced.
-* **Case-sensitive strings**: the flag installs the case-sensitive mode of values search in the replacement tables. This mode is not used by default.
+* **Case-sensitive strings**: the checkbox installs the case-sensitive mode of values search in the replacement tables. This mode is not used by default.

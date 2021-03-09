@@ -26,12 +26,12 @@ The component is designated for data tables import from the XML files.
 ### Step 2. Imported Fields
 
 * **Connection** is a state of connection to the XSD schema.
-* **Root element** means selection of the XSD schema root element according to which data will be imported. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the imported table.
+* **Root element** means selection of the XSD schema root element according to which data will be imported. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the checkboxes for the elements that form the fields of the imported table.
 * **Default time zone**: the *Date/Time* type values are transformed when extracting from XML according to the following algorithm:
    * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
    * If the time zone is not specified for the value, the following conditions are met:
       * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
       * If *Default time zone* is not specified, the value is not changed.
 * **Repeat single values**: if there are a single item and nested sequence included into a sequence, the single item values will be repeated for each row formed from the nested sequence.
-* **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
-* **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. For example, complex `ROOT|PERSON|ACCES-LEVEL` caption will be generated for the imported table field that contains the data of `ACCESS-LEVEL` attribute of `PERSON` element from the root element of `ROOT` file. When this flag is absent, the field will get `ACCESS-LEVEL` name.
+* **Check for strict XSD validation**: when this checkbox is selected, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
+* **Generate composite field captions**: if this checkbox has been selected, hierarchy relative to the root element will be displayed in each field caption. For example, complex `ROOT|PERSON|ACCES-LEVEL` caption will be generated for the imported table field that contains the data of `ACCESS-LEVEL` attribute of `PERSON` element from the root element of `ROOT` file. When this checkbox is not available, the field will get `ACCESS-LEVEL` name.

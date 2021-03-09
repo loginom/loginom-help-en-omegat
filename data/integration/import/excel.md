@@ -62,4 +62,4 @@ The following settings are used to generate the resulting data set in the manual
    * Undefined
    * Continuous
    * Discrete
-* **Use**: flag of the field inclusion into the resulting data set.
+* **Use**: checkbox of the field inclusion into the resulting data set.

@@ -67,4 +67,4 @@ It is possible to set the value of each criterion in the special field to the ri
    * **No rotation**: the source factors received by the main components methods remain unchanged.
    * **Varimax**: criterion is simplification of description of each factor. In the result, the loading on each factor with respect to relatively small number of variables is maximized, and factor loadings of other variables is minimized. It is recommended to choose when it is required to provide the high interpretability level of the factor analysis results.
    * **Quartimax**: this criterion simplifies description of each variable, namely, it decreases the number of factors connected with this variable.
-* **Limit output factors number**: an optional flag activation of which enables to set the limiting number of output factors in the corresponding field of the area.
+* **Limit output factors number**: an optional checkbox activation of which enables to set the limiting number of output factors in the corresponding field of the area.

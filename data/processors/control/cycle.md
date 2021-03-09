@@ -8,7 +8,7 @@ The component will be used for the loop execution of the node selected by a user
 
 It is not obligatory to use the input data set in the first and second cases. But if it is used, it is required to supply all rows of this data set (data sets) to the looped node input for each iteration.
 
-In the third case, the input data set rows are divided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration. If unique identifiers of the input data set rows are specified as the group parameter, such group will contain only one row. In this case, the loop will go over the input data rows, and then it will transfer the next row to the looped node input.
+In the third case, the input data set rows are divided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration. If unique identifiers of the input data set rows are specified as the group parameter, such group will contain only one row. In this case, the loop will iterate over the input data rows, and then it will transfer the next row to the looped node input.
 
 ## Ports
 
@@ -44,9 +44,9 @@ It is not allowed to run the handlers in the loop that have been created on the 
 
 > **Important**: In some cases parallel processing is not allowed. For example, if access to the data source that does not support parallel requests is required for each iteration.
 
-**Add iteration identifiers**: the flag enables to add the "Iteration identifier" field to the output table where the number of the iteration at which the row has been created is specified for each row.
+**Add iteration identifiers**: the checkbox enables to add the "Iteration identifier" field to the output table where the number of the iteration at which the row has been created is specified for each row.
 
-**Ignore errors**: the flag disables interruption of the loop execution in the case of errors detection.
+**Ignore errors**: the checkbox disables interruption of the loop execution in the case of errors detection.
 
 **Loop variable** is a variable to which the current iteration number is assigned during the loop execution. Iterations are numbered from 0. The variable is selected from a list of variables of the input ports of the looped node.
 

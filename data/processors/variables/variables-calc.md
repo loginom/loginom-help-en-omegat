@@ -42,7 +42,7 @@ When adding and editing expressions, the dialog of parameters editing is display
 * **Name** denotes a variable name in the output data set.
 * **Caption** is a variable caption in the output data set.
 * **Type** — [data type](../../data/datatype.md) of the variable in the output data set.
-* **Intermediate**: when selecting this flag, the expression can be used in calculations but it is not included into the list of variables of the output data set.
+* **Intermediate**: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of variables of the output data set.
 * **Description** means clarifying information.
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.

@@ -59,7 +59,7 @@ Output table:
       * **Error** means standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.
       * **Significance** means conditional conclusion concerning availability/unavailability of correlation in the given lag.
    * There are the following fields the availability of which is set by a user:
-      * **PACF** means partial autocorrelation function coefficients. To add this field, it is required to place corresponding flag in the wizard.
+      * **PACF** means partial autocorrelation function coefficients. To add this field, it is required to select corresponding checkbox in the wizard.
 
 ## Wizard
 
@@ -70,4 +70,4 @@ It provides three settings:
    * **Time** is recommended in the case of the small lag count processing.
    * **Frequency** is recommended in the case of the large lag count processing to speed up the calculation process.
    * **Auto **: the handler will define the calculation area according to the lag count independently.
-* **Calculate PACF**: availability of this flag adds calculation of partial autocorrelation function. Its distinctive feature is exclusion of the correlation dependence between the observations inside the lags, namely, partial autocorrelation function in each lag differs from the standard autocorrelation function by the value of remote autocorrelations with smaller time lags. Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.
+* **Calculate PACF**: availability of this checkbox adds calculation of partial autocorrelation function. Its distinctive feature is exclusion of the correlation dependence between the observations inside the lags, namely, partial autocorrelation function in each lag differs from the standard autocorrelation function by the value of remote autocorrelations with smaller time lags. Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.

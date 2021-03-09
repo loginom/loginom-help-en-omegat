@@ -54,8 +54,8 @@ When running the following commands: ![](../../images/icons/wizards/datatree/add
 * **Data kind** denotes one of the possible [data kinds](./../../data/datakind.md).
 
 Besides, it is possible to set the following indicators:
-* **Array**: when selecting the flag, the selected child node will be defined as ordered set (array) of one data type.
-* **Container**: when selecting the flag, the selected child node will be a root node for other created child nodes of different types.
+* **Array**: when selecting the checkbox, the selected child node will be defined as ordered set (array) of one data type.
+* **Container**: when selecting the checkbox, the selected child node will be a root node for other created child nodes of different types.
 
 It is possible to filter records in the Input Tree and Output Tree lists using ![](../../images/icons/toolbar-controls/filter_default.svg)**Filter** command of corresponding toolbar.
 
@@ -105,4 +105,4 @@ Logics of Nodes Selection:
 
 **Repeat parent node values**: if there are a parent node and a sequence of descendants in the structure, the parent node value will be repeated for each string generated from a sequence of descendants.
 
-**Generate composite field captions**: if this flag has been placed, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.
+**Generate composite field captions**: if this checkbox has been selected, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.

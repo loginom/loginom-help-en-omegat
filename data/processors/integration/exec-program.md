@@ -28,7 +28,7 @@
    * **Infinity**: in this case the node will be executed until the program is closed. To set the node execution time, it is required to enter *-1* in the timeout field in the *Infinity* value, or it is required to delete all digits.
 * **Terminate program by timeout**: the switch enables/disables the node execution timeout.
 
-> **Important:** The time of node execution is set in the settings (not the time of the program execution) that is why if flag is not selected for *Terminate program by timeout*, the node execution will be terminated upon expiration of some time period set by the timeout, whereas the program execution will not be terminated.
+> **Important:** The time of node execution is set in the settings (not the time of the program execution) that is why if checkbox is not selected for *Terminate program by timeout*, the node execution will be terminated upon expiration of some time period set by the timeout, whereas the program execution will not be terminated.
 
 ## Writing Commands
 

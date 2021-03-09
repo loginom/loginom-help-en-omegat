@@ -68,7 +68,7 @@ It is required to select one of the following usage types for each of the fields
    * Mean (0.1).
    * Strong (100).
    * Very strong (10000).
-* Continue training: selection of this flag enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training. In this case, the "Number of restarts" parameter is ignored.
+* Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training. In this case, the "Number of restarts" parameter is ignored.
 
 #### Stop Criteria
 

@@ -18,15 +18,15 @@ The following parameters are set during the connection setup:
 * **WSDL source**: URL or path (in file storage) of WSDL file with the service description is specified in this field.
 * **Enable reserve WSDL source**: when selecting this checkbox, *Reserve WSDL source* is enabled.
    * **Reserve WSDL source**: the reserve WSDL source is specified. It will be used by the application if the main source is not available, or if errors occur while parsing the main WSDL.
-* **Transform WSDL description using XSLT**: selection of this flag enables to introduce changes into the received WSDL file using XSLT transformation.
+* **Transform WSDL description using XSLT**: selection of this checkbox enables to introduce changes into the received WSDL file using XSLT transformation.
    * **XSLT path**: URL or path (in file storage) of XSLT file is specified in this field.
 * **Connection timeout (ms)** means the maximum timeout of server response wait expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.
 * **Data exchange timeout (ms)** means the maximum timeout of data wait from server expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.
-* **Ignore SSL certificate errors**: when SSL connecting, the server certificate can fail the test due to some reasons. If this flag is selected, errors caused by untested certificate are ignored, otherwise connection will not be established.
+* **Ignore SSL certificate errors**: when SSL connecting, the server certificate can fail the test due to some reasons. If this checkbox is selected, errors caused by untested certificate are ignored, otherwise connection will not be established.
 
 ## Authorization for Request Execution
 
-* **Authorization is the same as for WSDL**: when this flag is selected, the same authorization parameters are used as for WSDL. If the request authorization differs from the WSDL authorization, it is required to deselect the flag and set the required parameters. Options are similar to *Authorization Type* settings from *Connection parameters*.
+* **Authorization is the same as for WSDL**: when this checkbox is selected, the same authorization parameters are used as for WSDL. If the request authorization differs from the WSDL authorization, it is required to deselect the checkbox and set the required parameters. Options are similar to *Authorization Type* settings from *Connection parameters*.
 
 ## Node Description
 

@@ -38,7 +38,7 @@ The fields are linked using the Drag-and-Drop method. The key fields mapped by t
 
 Linking is allowed only for the fields with the similar data types.
 
-* **Add joined key fields**: placement of this flag enables to keep the key fields from the joined table in the output data set.
+* **Add joined key fields**: selection of this checkbox enables to keep the key fields from the joined table in the output data set.
 
 > **Important**: Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`).
 

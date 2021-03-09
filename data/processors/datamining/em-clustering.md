@@ -54,12 +54,12 @@ The wizard includes the following groups of parameters:
 
 ### EM Clustering
 
-* Auto selection of clusters. The following pack of parameters becomes available for configuration when selecting the flag: *Auto Determination of Clusters Count*.
+* Auto selection of clusters. The following pack of parameters becomes available for configuration when selecting the checkbox: *Auto Determination of Clusters Count*.
    * The minimum number of clusters. By default — 1.
    * The maximum number of clusters. By default — 10.
    * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering. By default — 1.
-* Set number of clusters. The pack of parameters available for configuration in the case of inactive flag: *Auto selection of clusters*.
+* Set number of clusters. The pack of parameters available for configuration in the case of inactive checkbox: *Auto selection of clusters*.
    * Number of clusters. By default — 3.
 * Parameters of EM clustering.
-   * Variables are independent. Consideration of dependence between variables. If the flag is active, there is no dependence.
-   * Median modification. Selection of the flag means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type. It can increase the algorithm stability relative to the source data.
+   * Variables are independent. Consideration of dependence between variables. If the checkbox is active, there is no dependence.
+   * Median modification. Selection of the checkbox means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type. It can increase the algorithm stability relative to the source data.

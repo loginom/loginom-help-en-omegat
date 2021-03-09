@@ -32,7 +32,7 @@ The wizard window consists of two areas: *Field* and *Time frames*.
 
 The input data set fields with ![Date/Time](../../../images/icons/data-types/datetime_default.svg) *Date/Time* type are displayed in the *Field* area. These fields can be sorted by the number of selected transformations. In order to do that, it is required to press header of the column with the number of transformations. It is possible to sort in ascending and descending order.
 
-It is required to select the data format and type to be transformed in the *Time frames* area using the checkbox flags.
+It is required to select the data format and type to be transformed in the *Time frames* area using the checkboxes.
 
 Options of transformation into the following data types are possible:
 

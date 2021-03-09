@@ -98,7 +98,7 @@ And the cross table settings are unchanged, the resulting data set will be as fo
 
 %/spoiler%
 
-* **Group of values**: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled *Other* flag, measures for such values will be aggregated in the *Other* column. The enabled *Null* flag displays the field data with null values in the output data set. Measures for them will be aggregated in the *Null values* column.
+* **Group of values**: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled *Other* checkbox, measures for such values will be aggregated in the *Other* column. The enabled *Null* checkbox displays the field data with null values in the output data set. Measures for them will be aggregated in the *Null values* column.
 
 The lower wizard part includes the *General Columns Settings* area that has the following parameters:
 
@@ -107,7 +107,7 @@ The lower wizard part includes the *General Columns Settings* area that has the 
    * | (horizontal line).
    * ->.
    * Space.
-* **Sliding unique values**: flag placement enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
+* **Sliding unique values**: the checkbox selection enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
 * **Value number limit** is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set number of values exceeds the number of the unique values in the columns, the fictitious columns are not added.
 
 Using ![Up](../../images/icons/toolbar-controls/moveup_default.svg) and ![Down](../../images/icons/toolbar-controls/movedown_default.svg) buttons, it is possible to change the order of fields in the group. The order of fields location has an impact on the resulting table structure.

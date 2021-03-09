@@ -63,4 +63,4 @@ The resulting data set contains the following columns:
       * **5** — ![String](../../images/icons/data-types/string_default.svg) *String*.
       * **6** — ![Variable](../../images/icons/data-types/variant_default.svg) *Variable*.
 
-When selecting *Skip null values* flag, the handler won't include the strings with null values in the transposed fields into the resulting data set.
+When selecting *Skip null values* checkbox, the handler won't include the strings with null values in the transposed fields into the resulting data set.

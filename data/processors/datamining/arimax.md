@@ -20,9 +20,9 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Model output** is a data table that contains the following fields:
    * Field_name|Forecast means forecast values of the source time series.
-   * Field_name|Error of [approximation](https://wiki.loginom.ru/articles/approximation.html) means model residuals, deviations between the forecast and actual series values. The field is available if the following flag is selected: *Calculate the approximation error*.
-   * Field_name|Lower bound denotes the lower bound of the [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html). The field is available if the following flag is selected: *Calculate confidence interval*.
-   * Field_name|Upper bound denotes the lower bound of the confidence interval. The field is available if the following flag is selected: *Calculate confidence interval*.
+   * Field_name|Error of [approximation](https://wiki.loginom.ru/articles/approximation.html) means model residuals, deviations between the forecast and actual series values. The field is available if the following checkbox is selected: *Calculate the approximation error*.
+   * Field_name|Lower bound denotes the lower bound of the [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html). The field is available if the following checkbox is selected: *Calculate confidence interval*.
+   * Field_name|Upper bound denotes the lower bound of the confidence interval. The field is available if the following checkbox is selected: *Calculate confidence interval*.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg)  **Model coefficients** denote the data table that contains the following coefficients:
    * Type
    * Parameter
@@ -66,11 +66,11 @@ It is required to set the [usage type](../../data/datasetfieldoptions.md) of the
 
 #### ARIMAX Model Structure
 
-* **Auto detect structure**: when this flag is selected, automatic selection of the model parameters is enabled. The parameters are selected in the calculation process to minimize the *AIC* value.
+* **Auto detect structure**: when this checkbox is selected, automatic selection of the model parameters is enabled. The parameters are selected in the calculation process to minimize the *AIC* value.
 * **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when constructing the model. The integer value more than 0 is set.
 * **Integration order** sets the order of (d) series differences if it is required to set the source series to the [stationary](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C) one. The integer value more than 0 is set.
 * **MA part order** sets the order of (q) part of moving average. It defines the lag size for the source series smoothing. The integer value more than 0 is set.
-* **Enable seasonality calculation**: selection of this flag enables to set parameters for the [seasonal component](https://wiki.loginom.ru/articles/seasonal-component.html):
+* **Enable seasonality calculation**: selection of this checkbox enables to set parameters for the [seasonal component](https://wiki.loginom.ru/articles/seasonal-component.html):
    * **Seasonal AR part order** sets the integer value from 0 and higher.
    * **Seasonal integration order** sets the integer value from 0 and higher.
    * **Seasonal MA part order** sets the integer value from 0 and higher.
@@ -80,6 +80,6 @@ It is required to set the [usage type](../../data/datasetfieldoptions.md) of the
 #### Time Series Prediction
 
 * **[Forecast horizon](https://wiki.loginom.ru/articles/time-horizon.html)** sets the number of the values that will be forecast and added to the output data set at the end of the source time series. It sets the integer value more than 1.
-* **Calculate the approximation error**: selection of this flag enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.
+* **Calculate the approximation error**: selection of this checkbox enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.
 * **Calculate confidence interval** provides manual setting of the following parameter:
    * Confidence forecast interval in % from 0 to 100 denotes the real value. By default, it is 95.

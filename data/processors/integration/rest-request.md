@@ -55,4 +55,4 @@ HTTP request headers and their values are set at this stage.
 
 - **Provide description of error codes** enables to display description of the errors that occurred while request sending, receipt and parsing of the service response.
 - **Save Request Text to Disk**: all requests sent to the service are written to the specified folder in the file storage.
-- **Simulate request with response in a file**: when this flag is selected, no actual request is sent to the service, and the handler substitutes content of the specified file as the service response.
+- **Simulate request with response in a file**: when this checkbox is selected, no actual request is sent to the service, and the handler substitutes content of the specified file as the service response.

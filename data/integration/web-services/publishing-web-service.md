@@ -79,7 +79,7 @@ To provide access to the published services from the Loginom workflow, the [*SOA
 
 ## Compatibility of the Loginom Web Services with Deductor
 
-Web services were published using DIS ([Deductor Integration Server](https://basegroup.ru/deductor/components/integration-server)), DIS web services were accessed from the Deductor workflows using *WEB service* node in the past generation products ([Deductor](https://basegroup.ru/deductor/description)). In order to use this node to access the Loginom web services, *Use Loginom Integrator namespace* option must be used to publish packages.
+Web services were published using DIS ([Deductor Integration Server](https://basegroup.ru/deductor/components/integration-server)), DIS web services were accessed from the Deductor workflows using *WEB service* node in the past generation products ([Deductor](https://basegroup.ru/deductor/description)). In order to use this node to get access to the Loginom web services, *Use Loginom Integrator namespace* option must be used to publish packages.
 
 > **Note:** When *Use Loginom Integrator namespace* option is used to publish several packages, it restricts naming of the published packages. The names set when selecting [access modifier](../../scenario/access-modifier.md) must be unique within the whole set of the published packages.
 

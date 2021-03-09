@@ -32,19 +32,19 @@ The handler extracts the data table from the column of the input table in the ce
 * **XML column** means the selection of the column with the XML documents.
 
 * **XML Document Identification**: availability of the identifier column in the extracted table and log table is defined in this area:
-   * Use identifier: the flag enables identifiers. Then it is required to define the type of identifiers using the radio button:
+   * Use identifier: the checkbox enables identifiers. Then it is required to define the type of identifiers using the radio button:
       * Number of the input data set row means the number of the string which contains a document. 0 identifier matches the first string.
       * The column value: values of the selected column of the input table will be used as identifiers.
 
-* **Halt on errors**: this flag enables to cancel extraction when the first error is defined.
+* **Halt on errors**: this checkbox enables to cancel extraction when the first error is defined.
 
-* **Unescape XML entities** is applied if the documents are extracted from another XML document in which they have been escaped. When this flag is absent, extraction of the document that starts, for example, from such notice as `&lt;`
+* **Unescape XML entities** is applied if the documents are extracted from another XML document in which they have been escaped. When this checkbox is not available, extraction of the document that starts, for example, from such notice as `&lt;`
 
 ```xml
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt
 ```
 
-will cause an error, and when this flag is selected, the handler will interpret such notice as the correct one:
+will cause an error, and when this checkbox is selected, the handler will interpret such notice as the correct one:
 
 ```xml
 <?xml version=«1.0» encoding=«UTF-8»?>
@@ -56,7 +56,7 @@ will cause an error, and when this flag is selected, the handler will interpret 
 
 * **Connection** is a state of connection to the XSD schema.
 
-* **Root element** means selection of the XSD schema root element according to which data will be extracted. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the flags for the elements that form the fields of the extracted table.
+* **Root element** means selection of the XSD schema root element according to which data will be extracted. The area displaying the hierarchic structure of the selected root element is located below. It is required to select the checkboxes for the elements that form the fields of the extracted table.
 
 * **Default time zone**: the *Date/Time* type values are transformed when extracting from XML according to the following algorithm:
    * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
@@ -66,6 +66,6 @@ will cause an error, and when this flag is selected, the handler will interpret 
 
 * **Repeat single values**: if there are a single item and nested sequence included into a sequence, the single item values will be repeated for each row formed from the nested sequence.
 
-* **Check for strict XSD validation**: when flag placing, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
+* **Check for strict XSD validation**: when this checkbox is selected, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML if there are undetected validation errors.
 
-* **Generate composite field captions**: if this flag has been placed, hierarchy relative to the root element will be displayed in each field caption. For example, complex "ROOT|PERSON|ACCES-LEVEL" caption will be generated for the extracted table field that contains the data of "ACCESS-LEVEL" attribute of "PERSON" element from the root element of "ROOT" document. When there is no such flag, the field will get the following name: "ACCESS-LEVEL".
+* **Generate composite field captions**: if this checkbox has been selected, hierarchy relative to the root element will be displayed in each field caption. For example, complex "ROOT|PERSON|ACCES-LEVEL" caption will be generated for the extracted table field that contains the data of "ACCESS-LEVEL" attribute of "PERSON" element from the root element of "ROOT" document. When there is no such checkbox, the field will get the following name: "ACCESS-LEVEL".

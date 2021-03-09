@@ -97,7 +97,7 @@ It is also possible to set the upper and lower bounds of the activation function
    * Mean (60).
    * Strong (80).
    * Very strong (100).
-* Continue training: selection of this flag enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training. In this case, the "Number of restarts" parameter is ignored.
+* Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training. In this case, the "Number of restarts" parameter is ignored.
 
 #### Stop Criteria
 

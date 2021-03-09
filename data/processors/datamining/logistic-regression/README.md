@@ -87,7 +87,7 @@ A set of parameters to configure the logistic regression can be grouped in the f
 
 #### Configure Parameters
 
-It is used if *Auto setup* flag is not selected, or it is set by means of variable.
+It is used if *Auto setup* checkbox is not selected, or it is set by means of variable.
 
 * **Factor selection and protection against overfitting** - value of enumeration:
    * **Enter**: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.
@@ -139,7 +139,7 @@ The following options are available for different methods:
 
 ### Detailed Settings
 
-They are used if the parameters configuration pack is enabled, and *Use detailed settings* flag is selected in it, or it can be set by means of variable.
+They are used if the parameters configuration pack is enabled, and *Use detailed settings* checkbox is selected in it, or it can be set by means of variable.
 
 Detailed settings are joined into the following packs of parameters:
 

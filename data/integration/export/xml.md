@@ -18,7 +18,7 @@ The component is designated for the data tables export to the XML files.
 
 * **File storage** enables to display information on method of connection to the destination file.
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* **Configure Formatting**: this area includes the following flags.
+* **Configure Formatting**: this area includes the following checkboxes.
    * **Write Byte Order Mark** enables to write [marker of bytes sequence](https://ru.wikipedia.org/wiki/Маркер_последовательности_байтов).
    * **Add indents and line breaks**: each line will correspond to one item before which tab stop will be placed in the export file.
    * **Escape tabs and line breaks in attributes**: replacement of tab characters in attributes of the output file to *`&#x9;`* and line feed character to *`&#xA;`*

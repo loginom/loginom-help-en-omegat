@@ -12,14 +12,14 @@ The following parameters are set during the connection setup:
 * **Login** is a login of the DB user. By default, `default`.
 * **Password** is a password of the DB user. The password is not available by default.
 * **SSL settings**: ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button enables to call the dialog of connection parameters setup via secure connection:
-   * **Use SSL**: when this flag is selected, the data is transferred via the cryptographic SSL/TLS protocol.
+   * **Use SSL**: when this checkbox is selected, the data is transferred via the cryptographic SSL/TLS protocol.
    * **CA certificate** is a path to the file with the root certificate.
    * **User certificate** is a path to the file with the client certificate.
    * **Private key** is a path to the file with the private key.
    * **Private key password** is a private key password. It is null by default.
 * **Use local time zone** provides conversion from the local time to UTC and vice versa for the columns of the [DateTime](https://clickhouse.tech/docs/ru/sql_reference/data_types/datetime/) type. This option is enabled by default.
 * **Compression method**: `Without compression` (it is used by default) and `LZ4` options are available.
-* **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Double quotes are used for ClickHouse.
 * **Do not use DBMS client** is not available as the inbox driver is always used to connect to ClickHouse.

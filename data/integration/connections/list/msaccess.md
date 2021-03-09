@@ -11,8 +11,8 @@ The following parameters are set during the connection setup:
 * **Test connection**: test of the specified connection settings.
 * **Login** is not used for connection to Microsoft Access.
 * **Login**: the password set by the DB user is specified.
-* **Save password**: when selecting this flag, password will be saved in the current connection settings.
-* **Show system tables**: when selecting this flag in the import wizard that uses this connection, the system DB tables available to a user become visible.
+* **Save password**: when selecting this checkbox, password will be saved in the current connection settings.
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Square brackets are used for Microsoft Access.
 * **Do not use DBMS client**: this parameter is not available for Microsoft Access.
