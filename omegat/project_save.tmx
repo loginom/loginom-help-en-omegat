@@ -7160,8 +7160,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в настройках устанавливается время выполнения узла, а не программы, поэтому если галочка &lt;x3/&gt;Завершить программу по тайм-ауту&lt;x4/&gt; не установлена, то через определенное тайм-аутом время узел перестанет выполняться, а программа — нет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T094913Z" creationid="Марианна" creationdate="20210220T094913Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The time of node execution is set in the settings (not the time of the program execution) that is why if flag is not selected for &lt;x3/&gt;Terminate program by timeout&lt;x4/&gt;, the node execution will be terminated upon expiration of some time period set by the timeout, whereas the program execution will not be terminated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133210Z" creationid="Марианна" creationdate="20210220T094913Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The time of node execution is set in the settings (not the time of the program execution) that is why if checkbox is not selected for &lt;x3/&gt;Terminate program by timeout&lt;x4/&gt;, the node execution will be terminated upon expiration of some time period set by the timeout, whereas the program execution will not be terminated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7515,8 +7515,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Включить расчет сезонности&lt;x2/&gt; — установка данного флага позволяет задать параметры для &lt;x3/&gt;сезонной составляющей&lt;x4/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T072755Z" creationid="Марианна" creationdate="20201208T072755Z">
-        <seg>&lt;x1/&gt;Enable seasonality calculation&lt;x2/&gt;: selection of this flag enables to set parameters for the &lt;x3/&gt;seasonal component&lt;x4/&gt;:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133105Z" creationid="Марианна" creationdate="20201208T072755Z">
+        <seg>&lt;x1/&gt;Enable seasonality calculation&lt;x2/&gt;: selection of this checkbox enables to set parameters for the &lt;x3/&gt;seasonal component&lt;x4/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8219,8 +8219,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; – при наличии данного флага используется составная метка узла массива: в метках полей будет отражена иерархия относительно корневого элемента.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T192031Z" creationid="Марианна" creationdate="20201001T191819Z">
-        <seg>&lt;x1/&gt;Generate composite field captions&lt;x2/&gt;: if this flag has been placed, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133036Z" creationid="Марианна" creationdate="20201001T191819Z">
+        <seg>&lt;x1/&gt;Generate composite field captions&lt;x2/&gt;: if this checkbox has been selected, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8683,8 +8683,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавлять идентификаторы итераций&lt;x2/&gt; — флаг добавляет в выходную таблицу поле "Идентификатор итерации", где для каждой строки указан номер итерации, на которой строка была создана.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T204307Z" creationid="Марианна" creationdate="20200921T204307Z">
-        <seg>&lt;x1/&gt;Add iteration identifiers&lt;x2/&gt;: the flag enables to add the "Iteration identifier" field to the output table where the number of the iteration at which the row has been created is specified for each row.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133009Z" creationid="Марианна" creationdate="20200921T204307Z">
+        <seg>&lt;x1/&gt;Add iteration identifiers&lt;x2/&gt;: the checkbox enables to add the "Iteration identifier" field to the output table where the number of the iteration at which the row has been created is specified for each row.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9147,8 +9147,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Игнорировать ошибки&lt;x2/&gt; — флаг отключает прерывание выполнения цикла при обнаружении ошибок.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T204524Z" creationid="Марианна" creationdate="20200921T204524Z">
-        <seg>&lt;x1/&gt;Ignore errors&lt;x2/&gt;: the flag disables interruption of the loop execution in the case of errors detection.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133014Z" creationid="Марианна" creationdate="20200921T204524Z">
+        <seg>&lt;x1/&gt;Ignore errors&lt;x2/&gt;: the checkbox disables interruption of the loop execution in the case of errors detection.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10051,8 +10051,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Контейнер&lt;x2/&gt; — если флаг установлен, выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T161752Z" creationid="Марианна" creationdate="20201001T161752Z">
-        <seg>&lt;x1/&gt;Container&lt;x2/&gt;: when selecting the flag, the selected child node will be a root node for other created child nodes of different types.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133023Z" creationid="Марианна" creationdate="20201001T161752Z">
+        <seg>&lt;x1/&gt;Container&lt;x2/&gt;: when selecting the checkbox, the selected child node will be a root node for other created child nodes of different types.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10507,8 +10507,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при установке флага выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T161711Z" creationid="Марианна" creationdate="20201001T161711Z">
-        <seg>&lt;x1/&gt;Array&lt;x2/&gt;: when selecting the flag, the selected child node will be defined as ordered set (array) of one data type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133019Z" creationid="Марианна" creationdate="20201001T161711Z">
+        <seg>&lt;x1/&gt;Array&lt;x2/&gt;: when selecting the checkbox, the selected child node will be defined as ordered set (array) of one data type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11675,8 +11675,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Определить структуру автоматически&lt;x2/&gt; — при установке данного флага активируется автоподбор параметров модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T071633Z" creationid="Марианна" creationdate="20201208T071633Z">
-        <seg>&lt;x1/&gt;Auto detect structure&lt;x2/&gt;: when this flag is selected, automatic selection of the model parameters is enabled.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133100Z" creationid="Марианна" creationdate="20201208T071633Z">
+        <seg>&lt;x1/&gt;Auto detect structure&lt;x2/&gt;: when this checkbox is selected, automatic selection of the model parameters is enabled.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11723,8 +11723,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Останавливаться при ошибках&lt;x2/&gt; — данный флаг отменит извлечение при обнаружении первой ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T152122Z" creationid="Марианна" creationdate="20210220T152122Z">
-        <seg>&lt;x1/&gt;Halt on errors&lt;x2/&gt;: this flag enables to cancel extraction when the first error is defined.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133229Z" creationid="Марианна" creationdate="20210220T152122Z">
+        <seg>&lt;x1/&gt;Halt on errors&lt;x2/&gt;: this checkbox enables to cancel extraction when the first error is defined.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14302,8 +14302,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рассчитать ошибку аппроксимации&lt;x2/&gt; — флаг, установка которого добавляет в выходной набор столбец со средними отклонениями прогнозируемых значений от фактических.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T073742Z" creationid="Марианна" creationdate="20201208T073742Z">
-        <seg>&lt;x1/&gt;Calculate the approximation error&lt;x2/&gt;: selection of this flag enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133111Z" creationid="Марианна" creationdate="20201208T073742Z">
+        <seg>&lt;x1/&gt;Calculate the approximation error&lt;x2/&gt;: selection of this checkbox enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20693,8 +20693,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T200541Z" creationid="Марианна" creationdate="20201212T210411Z">
-        <seg>The pack of parameters available for configuration in the case of inactive flag: &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133122Z" creationid="Марианна" creationdate="20201212T210411Z">
+        <seg>The pack of parameters available for configuration in the case of inactive checkbox: &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22499,8 +22499,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Включение флага означает, что на втором М-шаге алгоритма моментные оценки максимального правдоподобия заменяются более устойчивыми оценками медианного типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T211016Z" creationid="Марианна" creationdate="20201212T211016Z">
-        <seg>Selection of the flag means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133130Z" creationid="Марианна" creationdate="20201212T211016Z">
+        <seg>Selection of the checkbox means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25867,8 +25867,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если флаг активен, зависимости нет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T210638Z" creationid="Марианна" creationdate="20201212T210638Z">
-        <seg>If the flag is active, there is no dependence.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133126Z" creationid="Марианна" creationdate="20201212T210638Z">
+        <seg>If the checkbox is active, there is no dependence.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27247,8 +27247,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Использовать идентификатор — флаг включает идентификаторы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T151427Z" creationid="Марианна" creationdate="20210220T151427Z">
-        <seg>Use identifier: the flag enables identifiers.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133214Z" creationid="Марианна" creationdate="20210220T151427Z">
+        <seg>Use identifier: the checkbox enables identifiers.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27479,16 +27479,16 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Используется, если не выбран флаг &lt;x1/&gt;Автоматическая настройка&lt;x2/&gt; или же он задан с помощью переменной.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201215T104454Z" creationid="Марианна" creationdate="20201215T104454Z">
-        <seg>It is used if &lt;x1/&gt;Auto setup&lt;x2/&gt; flag is not selected, or it is set by means of variable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133136Z" creationid="Марианна" creationdate="20201215T104454Z">
+        <seg>It is used if &lt;x1/&gt;Auto setup&lt;x2/&gt; checkbox is not selected, or it is set by means of variable.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Используются, если включен блок настроек параметров и в нем установлен флаг &lt;x1/&gt;Использовать детальные настройки&lt;x2/&gt;, или же он задан с помощью переменной.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T113824Z" creationid="Марианна" creationdate="20201214T113608Z">
-        <seg>They are used if the parameters configuration pack is enabled, and &lt;x1/&gt;Use detailed settings&lt;x2/&gt; flag is selected in it, or it can be set by means of variable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133141Z" creationid="Марианна" creationdate="20201214T113608Z">
+        <seg>They are used if the parameters configuration pack is enabled, and &lt;x1/&gt;Use detailed settings&lt;x2/&gt; checkbox is selected in it, or it can be set by means of variable.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33458,24 +33458,24 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Поле присутствует, если установлен флаг &lt;x1/&gt;Рассчитать доверительный интервал&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064632Z" creationid="Марианна" creationdate="20201208T064632Z">
-        <seg>The field is available if the following flag is selected: &lt;x1/&gt;Calculate confidence interval&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133055Z" creationid="Марианна" creationdate="20201208T064632Z">
+        <seg>The field is available if the following checkbox is selected: &lt;x1/&gt;Calculate confidence interval&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Поле присутствует, если установлен флаг &lt;x3/&gt;Рассчитать доверительный интервал&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064450Z" creationid="Марианна" creationdate="20201208T064450Z">
-        <seg>The field is available if the following flag is selected: &lt;x3/&gt;Calculate confidence interval&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133051Z" creationid="Марианна" creationdate="20201208T064450Z">
+        <seg>The field is available if the following checkbox is selected: &lt;x3/&gt;Calculate confidence interval&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Поле присутствует, если установлен флаг &lt;x3/&gt;Рассчитать ошибку аппроксимации&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T193624Z" creationid="Марианна" creationdate="20201208T064304Z">
-        <seg>The field is available if the following flag is selected: &lt;x3/&gt;Calculate the approximation error&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133040Z" creationid="Марианна" creationdate="20201208T064304Z">
+        <seg>The field is available if the following checkbox is selected: &lt;x3/&gt;Calculate the approximation error&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34818,16 +34818,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При отсутствии данного флага извлечение документа, начинающегося, например, с объявления &lt;x3/&gt;&amp;lt;&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T152527Z" creationid="Марианна" creationdate="20210220T152527Z">
-        <seg>When this flag is absent, extraction of the document that starts, for example, from such notice as &lt;x3/&gt;&amp;lt;&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133241Z" creationid="Марианна" creationdate="20210220T152527Z">
+        <seg>When this checkbox is not available, extraction of the document that starts, for example, from such notice as &lt;x3/&gt;&amp;lt;&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>При отсутствии данного флага поле получит название &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T152416Z" creationid="Марианна" creationdate="20200829T222322Z">
-        <seg>When this flag is absent, the field will get &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt; name.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133004Z" creationid="Марианна" creationdate="20200829T222322Z">
+        <seg>When this checkbox is not available, the field will get &lt;x11/&gt;ACCESS-LEVEL&lt;x12/&gt; name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35082,8 +35082,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При установлении флага становится доступен для настройки блок параметров &lt;x1/&gt;Автоматическое определение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201212T210315Z" creationid="Марианна" creationdate="20201212T210109Z">
-        <seg>The following pack of parameters becomes available for configuration when selecting the flag: &lt;x1/&gt;Auto Determination of Clusters Count&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133116Z" creationid="Марианна" creationdate="20201212T210109Z">
+        <seg>The following pack of parameters becomes available for configuration when selecting the checkbox: &lt;x1/&gt;Auto Determination of Clusters Count&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35706,16 +35706,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Продолжить обучение - установление данного флага позволяет начать переобучение модели не со случайных значений весов нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T053351Z" creationid="Марианна" creationdate="20201222T053351Z">
-        <seg>Continue training: selection of this flag enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133200Z" creationid="Марианна" creationdate="20201222T053351Z">
+        <seg>Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Продолжить обучение — установление данного флага позволяет начать переобучение модели не со случайных значений весов Нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201224T085448Z" creationid="Марианна" creationdate="20201224T085448Z">
-        <seg>Continue training: selection of this flag enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133206Z" creationid="Марианна" creationdate="20201224T085448Z">
+        <seg>Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
       </tuv>
     </tu>
     <tu>
