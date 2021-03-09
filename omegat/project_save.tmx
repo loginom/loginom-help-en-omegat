@@ -35706,16 +35706,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Продолжить обучение - установление данного флага позволяет начать переобучение модели не со случайных значений весов нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210309T133200Z" creationid="Марианна" creationdate="20201222T053351Z">
-        <seg>Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T141354Z" creationid="Марианна" creationdate="20201222T053351Z">
+        <seg>Continue training: selection of this checkbox enables to start the model retraining not from the random values of the neural network weights, but from the ones obtained during the last training.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Продолжить обучение — установление данного флага позволяет начать переобучение модели не со случайных значений весов Нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210309T133206Z" creationid="Марианна" creationdate="20201224T085448Z">
-        <seg>Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T141414Z" creationid="Марианна" creationdate="20201224T085448Z">
+        <seg>Continue training: selection of this checkbox enables to start the model retraining not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
       </tuv>
     </tu>
     <tu>
