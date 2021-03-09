@@ -8707,8 +8707,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавлять присоединяемые ключевые поля&lt;x2/&gt; — установка этого флага оставит ключевые поля из присоединяемой таблицы в выходном наборе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T111105Z" creationid="Марианна" creationdate="20201111T111051Z">
-        <seg>&lt;x1/&gt;Add joined key fields&lt;x2/&gt;: placement of this flag enables to keep the key fields from the joined table in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133725Z" creationid="Марианна" creationdate="20201111T111051Z">
+        <seg>&lt;x1/&gt;Add joined key fields&lt;x2/&gt;: selection of this checkbox enables to keep the key fields from the joined table in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9723,8 +9723,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использовать префиксы&lt;x2/&gt; — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T095319Z" creationid="Марианна" creationdate="20201118T095319Z">
-        <seg>&lt;x1/&gt;Use prefixes&lt;x2/&gt;: placement of this flag enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133628Z" creationid="Марианна" creationdate="20201118T095319Z">
+        <seg>&lt;x1/&gt;Use prefixes&lt;x2/&gt;: selection of this checkbox enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11387,8 +11387,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки ключевых полей&lt;x2/&gt; — напротив поля главной таблицы, которое должно стать ключевым, следует выставить флаг в столбце присоединяемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T094032Z" creationid="Марианна" creationdate="20201118T093429Z">
-        <seg>&lt;x1/&gt;Key fields configuration area&lt;x2/&gt;: it is required to place a flag in the column of the joined table opposite the main table field that must become the key one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133615Z" creationid="Марианна" creationdate="20201118T093429Z">
+        <seg>&lt;x1/&gt;Key fields configuration area&lt;x2/&gt;: it is required to select a checkbox in the column of the joined table opposite the main table field that must become the key one.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13886,8 +13886,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Промежуточное&lt;x2/&gt; — при установке этого флага выражение может использоваться в расчетах, но не включается в список переменных выходного набора данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T200129Z" creationid="Марианна" creationdate="20201004T200129Z">
-        <seg>&lt;x1/&gt;Intermediate&lt;x2/&gt;: when selecting this flag, the expression can be used in calculations but it is not included into the list of variables of the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133654Z" creationid="Марианна" creationdate="20201004T200129Z">
+        <seg>&lt;x1/&gt;Intermediate&lt;x2/&gt;: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of variables of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14334,8 +14334,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Регистрозависимые строки&lt;x2/&gt; — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T204326Z" creationid="Марианна" creationdate="20201006T204326Z">
-        <seg>&lt;x1/&gt;Case-sensitive strings&lt;x2/&gt;: the flag installs the case-sensitive mode of values search in the replacement tables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133605Z" creationid="Марианна" creationdate="20201006T204326Z">
+        <seg>&lt;x1/&gt;Case-sensitive strings&lt;x2/&gt;: the checkbox installs the case-sensitive mode of values search in the replacement tables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16438,8 +16438,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Чекбокс&lt;x2/&gt; — в этих столбцах у &lt;x3/&gt;Подключаемых таблиц&lt;x4/&gt; флажком отмечаются поля участвующие в сопоставлении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201119T143958Z" creationid="Марианна" creationdate="20201119T143825Z">
-        <seg>&lt;x1/&gt;Checkbox&lt;x2/&gt;: the fields involved into mapping are selected with a flag in these columns of &lt;x3/&gt;Connected tables&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133650Z" creationid="Марианна" creationdate="20201119T143825Z">
+        <seg>&lt;x1/&gt;Checkbox&lt;x2/&gt;: the fields involved into mapping are selected with a checkbox in these columns of &lt;x3/&gt;Connected tables&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21309,8 +21309,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В области &lt;x1/&gt;Разбиение&lt;x2/&gt; при помощи флажков чекбокса необходимо выбрать формат и тип данных для преобразования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201118T132106Z" creationid="Марианна" creationdate="20201118T132011Z">
-        <seg>It is required to select the data format and type to be transformed in the &lt;x1/&gt;Time frames&lt;x2/&gt; area using the checkbox flags.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T133645Z" creationid="Марианна" creationdate="20201118T132011Z">
+        <seg>It is required to select the data format and type to be transformed in the &lt;x1/&gt;Time frames&lt;x2/&gt; area using the checkboxes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22125,8 +22125,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В этом случае цикл будет перебирать строки входного набора и передавать очередную строку на вход узла, заключенного в цикл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T194540Z" creationid="Марианна" creationdate="20200921T194540Z">
-        <seg>In this case, the loop will go over the input data rows, and then it will transfer the next row to the looped node input.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T140209Z" creationid="Марианна" creationdate="20200921T194540Z">
+        <seg>In this case, the loop will iterate over the input data rows, and then it will transfer the next row to the looped node input.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39654,8 +39654,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Чтобы использовать этот узел для обращения к веб-сервисам Loginom, при публикации пакетов должна применятся настройка &lt;x7/&gt;Использовать пространство имен Loginom Integrator&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T152337Z" creationid="Марианна" creationdate="20210218T152337Z">
-        <seg>In order to use this node to access the Loginom web services, &lt;x7/&gt;Use Loginom Integrator namespace&lt;x8/&gt; option must be used to publish packages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T140327Z" creationid="Марианна" creationdate="20210218T152337Z">
+        <seg>In order to use this node to get access to the Loginom web services, &lt;x7/&gt;Use Loginom Integrator namespace&lt;x8/&gt; option must be used to publish packages.</seg>
       </tuv>
     </tu>
     <tu>
