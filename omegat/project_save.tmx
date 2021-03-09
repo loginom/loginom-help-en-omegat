@@ -25051,8 +25051,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этого необходимо выделить эти узлы и при помощи кнопки &lt;x3/&gt;&lt;x4/&gt; создать подмодель.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200717T111038Z" creationid="Марианна" creationdate="20200717T111038Z">
-        <seg>For this purpose, it is required to select these nodes and using the &lt;x3/&gt;&lt;x4/&gt; button create a supernode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210309T132306Z" creationid="Марианна" creationdate="20200717T111038Z">
+        <seg>For this purpose, it is required to select these nodes and using &lt;x3/&gt;&lt;x4/&gt; button create a supernode.</seg>
       </tuv>
     </tu>
     <tu>
