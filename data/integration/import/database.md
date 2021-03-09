@@ -22,7 +22,7 @@ It is allowed to use [Control variables](../../scenario/variables/control-variab
 There are the following parameters in the wizard:
 
 * **Connection** enables to display a string of connection to data source. It cannot be edited.
-* **List *Tables/Views***. The data source tables and views available for import are selected from the list. To display the list, connection must be activated by means of the *Activate* button.
+* **List *Tables/Views***. The data source tables and views available for import are selected from the list. To display the list, connection must be activated by means of *Activate* button.
 * ![ ](../../images/extjs-theme/splitter/mini-left.svg) / ![ ](../../images/extjs-theme/splitter/mini-right.svg) — hides/shows the *Tables/Views* list.
 * **Area of selection of variant of data retrieval from DB** contains two tabs:
    * **Table/View** enables to retrieve set fields of the DB object. For this purpose, it is required to select fields of the DB object in the *Table/View* list that was selected in the *Tables/Views* list.

@@ -71,9 +71,9 @@ It is possible to change the order of items.
 To exclude the item from the list of selected items, it is required to perform the following actions:
 
 * Drag the item from the *Selected items* list to the *Available items* list.
-* Press the ![Delete](../../images/icons/toolbar-controls/delete_default.svg) *Delete* button.
+* Press ![Delete](../../images/icons/toolbar-controls/delete_default.svg) *Delete* button.
 
-To clear the whole list, it is required to press the ![Delete all](../../images/icons/toolbar-controls/delete-all_default.svg) *Delete all...* button.
+To clear the whole list, it is required to press ![Delete all](../../images/icons/toolbar-controls/delete-all_default.svg) *Delete all...* button.
 
 The context menu duplicates the general functions:
 
@@ -103,4 +103,4 @@ It enables to select the rows with which values will be compared.
 
 Using the![filter](../../images/icons/toolbar-controls/filter_default.svg) *Filter* field, it is possible to decrease the visible part of the list.
 
-When the work with the list is completed, it is required to press the *Apply* button to introduce changes, or the *Cancel* button to return to the state before the work with the list.
+When the work with the list is completed, it is required to press *Apply* button to introduce changes, or *Cancel* button to return to the state before the work with the list.

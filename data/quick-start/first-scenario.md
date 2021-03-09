@@ -56,7 +56,7 @@ The export node is added to the resulting workflow, and/or the [Visualizer](../v
 
 ![Resulting Workflow](./first-scenario-6.png)
 
-The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using the ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
+The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the [Supernode](../processors/control/submodel.md). For this purpose, it is required to select these nodes and using ![](../images/icons/toolbar-controls/compose-generic-model_default.svg) button create a supernode.
 
 ![Selection of the Block of Nodes](./first-scenario-7.png)
 

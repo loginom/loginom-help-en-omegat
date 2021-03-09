@@ -14,7 +14,7 @@ This page can be opened in two ways:
 * ![ ](..\images\icons\toolbar-controls\open_default.svg) **Open** enables to open the selection window of the existing *Package*.
 * ![ ](..\images\icons\toolbar-controls\save_default.svg) **Save** enables to save the selected *Package*. The following buttons enable to perform the following operations ![ ](..\images\icons\toolbar-controls\down_default.svg):
    * ![ ](..\images\icons\toolbar-controls\save-as_default.svg) **Save as** enables to save the selected *Package* under a new name, and/or using another available path.
-* ![ ](..\images\icons\toolbar-controls\save-all_default.svg) **Save all** is similar to the *Save* button for all opened *Packages*.
+* ![ ](..\images\icons\toolbar-controls\save-all_default.svg) **Save all** is similar to *Save* button for all opened *Packages*.
 * ![ ](..\images\icons\toolbar-controls\publish_default.svg) **Publish**[^1] enables to open a window for the *Package* publication.
 * ![ ](..\images\icons\toolbar-controls\edit_default.svg) **Properties** enables to open the [properties](#svoystva-paketa) configuration window of the selected *Package*.
 * ![ ](..\images\icons\toolbar-controls\close_default.svg) **Close** enables to close the selected *Package*.
