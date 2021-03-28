@@ -5910,6 +5910,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DateToStr(Дата &lt;x2/&gt;, Формат\_даты&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T212844Z" creationid="Марианна" creationdate="20210328T212844Z">
+        <seg>&lt;x1/&gt;DateToStr(Date &lt;x2/&gt;, Format\_of date&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17276,6 +17284,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DateToStr</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T212638Z" creationid="Марианна" creationdate="20210328T212638Z">
+        <seg>DateToStr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -24013,6 +24029,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T205234Z" creationid="Марианна" creationdate="20210328T205100Z">
         <seg>Date - argument of the Date/Time type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата - выражение типа дата/время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213026Z" creationid="Марианна" creationdate="20210328T213026Z">
+        <seg>Date - expression of the date/time type.</seg>
       </tuv>
     </tu>
     <tu>
