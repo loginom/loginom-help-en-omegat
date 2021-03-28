@@ -39192,6 +39192,16 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Участвующие в агрегации поля как у агрегации Среднее.|
+|&lt;x91/&gt;&lt;x92/&gt; &lt;x93/&gt;Стандартное отклонение&lt;x94/&gt;||&lt;x95/&gt;•&lt;x96/&gt;|&lt;x97/&gt;•&lt;x98/&gt;||||Выводит среднеквадратическое отклонение по столбцу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T165920Z" creationid="Марианна" creationdate="20210328T165920Z">
+        <seg>The fields that are included into the aggregation are as for the Average aggregation.|
+|&lt;x91/&gt;&lt;x92/&gt; &lt;x93/&gt;Standard deviation&lt;x94/&gt;||&lt;x95/&gt;•&lt;x96/&gt;|&lt;x97/&gt;•&lt;x98/&gt;||||It shows mean-square deviation by column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Учет зависимости между переменными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210602Z" creationid="Марианна" creationdate="20201212T210602Z">
