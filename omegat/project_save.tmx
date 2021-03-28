@@ -19773,6 +19773,16 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|&lt;x19/&gt;&lt;x20/&gt; Количество|&lt;x21/&gt;•&lt;x22/&gt;|&lt;x23/&gt;•&lt;x24/&gt;|&lt;x25/&gt;•&lt;x26/&gt;|&lt;x27/&gt;•&lt;x28/&gt;|&lt;x29/&gt;•&lt;x30/&gt;|&lt;x31/&gt;•&lt;x32/&gt;|Показывает общее количество записей в наборе данных, в том числе пустые записи и записи без значения (&lt;x33/&gt;&lt;x34/&gt;&lt;null&gt;&lt;x35/&gt;&lt;x36/&gt;).|
+|&lt;x37/&gt;&lt;x38/&gt; Минимум|&lt;x39/&gt;•&lt;x40/&gt;|&lt;x41/&gt;•&lt;x42/&gt;|&lt;x43/&gt;•&lt;x44/&gt;|&lt;x45/&gt;•&lt;x46/&gt;|&lt;x47/&gt;•&lt;x48/&gt;|&lt;x49/&gt;•&lt;x50/&gt;|Выводит наименьшее значение по столбцу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T164346Z" creationid="Марианна" creationdate="20210328T164346Z">
+        <seg>|&lt;x19/&gt;&lt;x20/&gt; Count|&lt;x21/&gt;•&lt;x22/&gt;|&lt;x23/&gt;•&lt;x24/&gt;|&lt;x25/&gt;•&lt;x26/&gt;|&lt;x27/&gt;•&lt;x28/&gt;|&lt;x29/&gt;•&lt;x30/&gt;|&lt;x31/&gt;•&lt;x32/&gt;|It displays total count of records in the data set, including null records and records without a value (&lt;x33/&gt;&lt;x34/&gt;&lt;null&gt;&lt;x35/&gt;&lt;x36/&gt;).|
+|&lt;x37/&gt;&lt;x38/&gt; Minimum|&lt;x39/&gt;•&lt;x40/&gt;|&lt;x41/&gt;•&lt;x42/&gt;|&lt;x43/&gt;•&lt;x44/&gt;|&lt;x45/&gt;•&lt;x46/&gt;|&lt;x47/&gt;•&lt;x48/&gt;|&lt;x49/&gt;•&lt;x50/&gt;|It shows the minimum value by column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Id города|Регион|
 |-:|:-|
 |1|Центральный|
