@@ -39308,6 +39308,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функции агрегации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T114820Z" creationid="Марианна" creationdate="20210328T114820Z">
+        <seg>Aggregation Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функций работы со входными данными (&lt;x1/&gt;Data&lt;x2/&gt;, &lt;x3/&gt;RowNum&lt;x4/&gt;, &lt;x5/&gt;RowCount&lt;x6/&gt;, &lt;x7/&gt;DisplayName&lt;x8/&gt;, &lt;x9/&gt;CumulativeSum&lt;x10/&gt;) — имеются аналоги в &lt;x11/&gt;API&lt;x12/&gt; (&lt;x13/&gt;RowCount&lt;x14/&gt;, &lt;x15/&gt;DisplayName&lt;x16/&gt;) или легко реализуются кодом JS.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155038Z" creationid="Марианна" creationdate="20201025T155038Z">
