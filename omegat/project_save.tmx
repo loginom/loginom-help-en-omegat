@@ -36208,6 +36208,18 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеры формата:
+"DD.MM.YY" - говорит, что Аргумент содержит строки вида "25.12.04";
+"DD/MM/YY/HH:NN:SS" - говорит, что Аргумент содержит строки вида "25/12/04/12:44:54";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T222020Z" creationid="Марианна" creationdate="20210328T222020Z">
+        <seg>The format examples:
+"DD.MM.YY" - means that the Argument contains strings of the following type: "25.12.04";
+"DD/MM/YY/HH:NN:SS" - means that the Argument contains strings of the following type: "25/12/04/12:44:54";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T154136Z" creationid="Марианна" creationdate="20201006T154136Z">
