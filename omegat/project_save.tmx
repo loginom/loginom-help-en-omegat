@@ -35762,6 +35762,24 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеры формата даты:
+"DD.MM.YY" - преобразует дату в формат "день.месяц.год" ("25.12.04")
+"MM/DD/YYYY"  - преобразует дату в формат "месяц.день.год" ("12/25/2004")
+Примеры формата времени:
+"H:NN" - преобразует время в формат "часы:минуты" ("9:53")
+"HH:NN:SS"  - преобразует время в формат "часы:минуты:секунды" ("09:05:53")</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T212635Z" creationid="Марианна" creationdate="20210328T212635Z">
+        <seg>Examples of the date format:
+"DD.MM.YY" - converts the date into the "day.month.year" format ("25.12.04")
+"MM/DD/YYYY" - converts the date into the "month.day.year" format ("12/25/2004")
+Examples of the time format:
+"H:NN" - converts the time into the "hours:minutes" format ("9:53")
+"HH:NN:SS" - converts the time into the "hours:minutes:seconds" format ("09:05:53")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T154136Z" creationid="Марианна" creationdate="20201006T154136Z">
