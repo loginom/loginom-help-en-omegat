@@ -39618,6 +39618,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает значение аргумента Дата, увеличенного на указанное Количество недель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211509Z" creationid="Марианна" creationdate="20210328T211509Z">
+        <seg>Function returns the Date argument value, increased by the specified Number of weeks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция, которая определяет &lt;x1/&gt;вероятность&lt;x2/&gt; появления значений параметров  регрессионной модели для заданного значения &lt;x3/&gt;независимой переменной&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T211922Z" creationid="Марианна" creationdate="20201217T211621Z">
