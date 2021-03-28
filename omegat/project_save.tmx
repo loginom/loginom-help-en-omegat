@@ -6254,6 +6254,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Month(Дата)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215344Z" creationid="Марианна" creationdate="20210328T215344Z">
+        <seg>&lt;x1/&gt;Month(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;MonthsBetween(Дата1, Дата2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215644Z" creationid="Марианна" creationdate="20210328T215644Z">
+        <seg>&lt;x1/&gt;MonthsBetween(Date1, Date2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MySQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183356Z" creationid="Марианна" creationdate="20200810T183356Z">
@@ -17940,6 +17956,22 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Month</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215327Z" creationid="Марианна" creationdate="20210328T215327Z">
+        <seg>Month</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>MonthsBetween</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215500Z" creationid="Марианна" creationdate="20210328T215500Z">
+        <seg>MonthsBetween</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>N — количество транзакций, вошедших в кластер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082212Z" creationid="Марианна" creationdate="20201210T082212Z">
@@ -22949,6 +22981,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
         <seg>It returns the value of the &lt;x1/&gt;number&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает месяц по заданной дате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215458Z" creationid="Марианна" creationdate="20210328T215458Z">
+        <seg>Returns the month according to the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает минуты по заданной дате/времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215325Z" creationid="Марианна" creationdate="20210328T215325Z">
+        <seg>Returns minutes according to the specified date/time.</seg>
       </tuv>
     </tu>
     <tu>
