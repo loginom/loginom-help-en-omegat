@@ -28548,6 +28548,18 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме типа данных &lt;x141/&gt;&lt;x142/&gt; Строковый, где пропусками считаются записи со значением &lt;x143/&gt;&lt;x144/&gt;&lt;null&gt;&lt;x145/&gt;&lt;x146/&gt;.|
+|&lt;x147/&gt;&lt;x148/&gt; Первый|&lt;x149/&gt;•&lt;x150/&gt;|&lt;x151/&gt;•&lt;x152/&gt;|&lt;x153/&gt;•&lt;x154/&gt;|&lt;x155/&gt;•&lt;x156/&gt;|&lt;x157/&gt;•&lt;x158/&gt;|&lt;x159/&gt;•&lt;x160/&gt;|Выводит значение первой записи в наборе данных.|
+|&lt;x161/&gt;&lt;x162/&gt; Последний|&amp;nbsp;&amp;nbsp;&lt;x163/&gt;•&lt;x164/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x165/&gt;•&lt;x166/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x167/&gt;•&lt;x168/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x169/&gt;•&lt;x170/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x171/&gt;•&lt;x172/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x173/&gt;•&lt;x174/&gt;&amp;nbsp;&amp;nbsp;|Выводит значение последней записи наборе данных.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T171721Z" creationid="Марианна" creationdate="20210328T171721Z">
+        <seg>With the exception of the &lt;x141/&gt;&lt;x142/&gt; String data type where the records with &lt;x143/&gt;&lt;x144/&gt;&lt;null&gt;&lt;x145/&gt;&lt;x146/&gt; value are considered to be null.|
+|&lt;x147/&gt;&lt;x148/&gt; The first|&lt;x149/&gt;•&lt;x150/&gt;|&lt;x151/&gt;•&lt;x152/&gt;|&lt;x153/&gt;•&lt;x154/&gt;|&lt;x155/&gt;•&lt;x156/&gt;|&lt;x157/&gt;•&lt;x158/&gt;|&lt;x159/&gt;•&lt;x160/&gt;|It shows the value of the first record in the data set.|
+|&lt;x161/&gt;&lt;x162/&gt; The last|&amp;nbsp;&amp;nbsp;&lt;x163/&gt;•&lt;x164/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x165/&gt;•&lt;x166/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x167/&gt;•&lt;x168/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x169/&gt;•&lt;x170/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x171/&gt;•&lt;x172/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x173/&gt;•&lt;x174/&gt;&amp;nbsp;&amp;nbsp;|It shows the value of the last record in the data set.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме того, можно установить следующие признаки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T161459Z" creationid="Марианна" creationdate="20201001T161459Z">
