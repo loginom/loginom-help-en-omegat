@@ -5806,6 +5806,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AddMonth(Дата, Количество)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210143Z" creationid="Марианна" creationdate="20210328T210143Z">
+        <seg>&lt;x1/&gt;AddMonth(Date, Count)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
@@ -17048,6 +17056,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T204639Z" creationid="Марианна" creationdate="20210328T204639Z">
         <seg>AddDay</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>AddMonth</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210129Z" creationid="Марианна" creationdate="20210328T210129Z">
+        <seg>AddMonth</seg>
       </tuv>
     </tu>
     <tu>
@@ -39526,6 +39542,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T205755Z" creationid="Марианна" creationdate="20210328T205755Z">
         <seg>Function returns the Date argument value, increased by the specified Number of days.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение аргумента Дата, увеличенного на указанное Количество месяцев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210238Z" creationid="Марианна" creationdate="20210328T210238Z">
+        <seg>Function returns the Date argument value, increased by the specified Number of months.</seg>
       </tuv>
     </tu>
     <tu>
