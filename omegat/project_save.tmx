@@ -22673,6 +22673,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращают одно значение, характеризующее это множество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T115825Z" creationid="Марианна" creationdate="20210328T115825Z">
+        <seg>They return one value that is characteristic of such set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможна фильтрация по категории и названию функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T180333Z" creationid="Марианна" creationdate="20201005T180333Z">
