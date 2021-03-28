@@ -34948,6 +34948,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При подсчете не учитываются записи с пустым значением, со значением &lt;x113/&gt;&lt;x114/&gt;&lt;null&gt;&lt;x115/&gt;&lt;x116/&gt; или значением не соответствующим типу данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T170623Z" creationid="Марианна" creationdate="20210328T170623Z">
+        <seg>The records with the null value, with &lt;x113/&gt;&lt;x114/&gt;&lt;null&gt;&lt;x115/&gt;&lt;x116/&gt; value or the value that does not match the data type are not taken into account in the calculation process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При поиске ассоциативных правил применяется алгоритм &lt;x9/&gt;FP-Growth&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T190809Z" creationid="Марианна" creationdate="20201208T190809Z">
