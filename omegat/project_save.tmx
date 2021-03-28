@@ -26003,6 +26003,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если указанный день месяца больше, чем последний день месяца получившегося квартала , то функция устанавливает дату на последний день месяца получившегося квартала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210856Z" creationid="Марианна" creationdate="20210328T210856Z">
+        <seg>If the specified day of the month exceeds the last day of the month of the resulting quarter, the function will set the date to the last day of the month of the resulting quarter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если указанный день месяца больше, чем последний день получившегося месяца, то функция устанавливает дату на последний день получившегося месяца.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210557Z" creationid="Марианна" creationdate="20210328T210557Z">
@@ -28150,6 +28158,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210126Z" creationid="Марианна" creationdate="20210328T210126Z">
         <seg>The number can also be negative. In this case, the function will return the date to the given number of days before the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество кварталов раньше указанной даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210724Z" creationid="Марианна" creationdate="20210328T210724Z">
+        <seg>The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39574,6 +39590,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T205755Z" creationid="Марианна" creationdate="20210328T205755Z">
         <seg>Function returns the Date argument value, increased by the specified Number of days.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение аргумента Дата, увеличенного на указанное Количество кварталов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210647Z" creationid="Марианна" creationdate="20210328T210647Z">
+        <seg>Function returns the Date argument value, increased by the specified Number of quarters.</seg>
       </tuv>
     </tu>
     <tu>
