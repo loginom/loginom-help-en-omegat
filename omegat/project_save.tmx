@@ -5918,6 +5918,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Day(Дата)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213417Z" creationid="Марианна" creationdate="20210328T213417Z">
+        <seg>&lt;x1/&gt;Day(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;DayOfWeek(Дата)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213519Z" creationid="Марианна" creationdate="20210328T213519Z">
+        <seg>&lt;x1/&gt;DayOfWeek(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17292,6 +17308,22 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Day</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213400Z" creationid="Марианна" creationdate="20210328T213400Z">
+        <seg>Day</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DayOfWeek</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213503Z" creationid="Марианна" creationdate="20210328T213503Z">
+        <seg>DayOfWeek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -22801,6 +22833,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает день по заданной дате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213459Z" creationid="Марианна" creationdate="20210328T213459Z">
+        <seg>Returns the day according to the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает значение типа &lt;x1/&gt;number&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
@@ -24045,6 +24085,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213026Z" creationid="Марианна" creationdate="20210328T213026Z">
         <seg>Date - expression of the date/time type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата - поле типа дата.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213444Z" creationid="Марианна" creationdate="20210328T213444Z">
+        <seg>Date - the date type field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35790,6 +35838,18 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155101Z" creationid="Марианна" creationdate="20201025T155101Z">
         <seg>Examples of the functions use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примеры формата даты:
+"DD.MM.YY" - преобразует дату в формат "день.месяц.год" ("25.12.04")
+"MM/DD/YYYY"  - преобразует дату в формат "месяц.день.год" ("12/25/2004")</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213358Z" creationid="Марианна" creationdate="20210328T213358Z">
+        <seg>Examples of the date format::
+"DD.MM.YY" - converts the date into the "day.month.year" format ("25.12.04")
+"MM/DD/YYYY" - converts the date into the "month.day.year" format ("12/25/2004")</seg>
       </tuv>
     </tu>
     <tu>
