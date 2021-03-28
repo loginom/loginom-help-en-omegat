@@ -21700,8 +21700,8 @@ return pow(COL1, COL2);</seg>
         <seg>В расчетах участвуют те поля, которые не пустые, и не &lt;x79/&gt;&lt;x80/&gt;&lt;null&gt;&lt;x81/&gt;&lt;x82/&gt;.|
 |&lt;x83/&gt;&lt;x84/&gt; &lt;x85/&gt;Медиана&lt;x86/&gt;||&lt;x87/&gt;•&lt;x88/&gt;|&lt;x89/&gt;•&lt;x90/&gt;||||Выводит значение медианы по столбцу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T165547Z" creationid="Марианна" creationdate="20210328T165547Z">
-        <seg>The fields that are not empty and &lt;x79/&gt;&lt;x80/&gt;&lt;null&gt;&lt;x81/&gt;&lt;x82/&gt; are used in calculations.|
+      <tuv lang="en" changeid="Марианна" changedate="20210328T170010Z" creationid="Марианна" creationdate="20210328T165547Z">
+        <seg>The fields that are not empty and &lt;x79/&gt;&lt;x80/&gt;&lt;null&gt;&lt;x81/&gt;&lt;x82/&gt; are included into calculations.|
 |&lt;x83/&gt;&lt;x84/&gt; &lt;x85/&gt;Median&lt;x86/&gt;||&lt;x87/&gt;•&lt;x88/&gt;|&lt;x89/&gt;•&lt;x90/&gt;||||It shows the median value by column.</seg>
       </tuv>
     </tu>
@@ -39198,6 +39198,16 @@ to set parameters of the node settings.</seg>
       <tuv lang="en" changeid="Марианна" changedate="20210328T165920Z" creationid="Марианна" creationdate="20210328T165920Z">
         <seg>The fields that are included into the aggregation are as for the Average aggregation.|
 |&lt;x91/&gt;&lt;x92/&gt; &lt;x93/&gt;Standard deviation&lt;x94/&gt;||&lt;x95/&gt;•&lt;x96/&gt;|&lt;x97/&gt;•&lt;x98/&gt;||||It shows mean-square deviation by column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Участвующие в агрегации поля как у агрегации Среднее.|
+|&lt;x99/&gt;&lt;x100/&gt; Количество уникальных|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|Показывает количество уникальных значений записей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T170341Z" creationid="Марианна" creationdate="20210328T170341Z">
+        <seg>The fields that are included into the aggregation are as for the Average aggregation.|
+|&lt;x99/&gt;&lt;x100/&gt; Count of unique|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|It displays the count of unique record values.</seg>
       </tuv>
     </tu>
     <tu>
