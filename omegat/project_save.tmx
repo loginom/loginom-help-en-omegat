@@ -5998,6 +5998,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;EncodeDateTime(Год, Месяц, День, Часы, Минуты, Секунды)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214441Z" creationid="Марианна" creationdate="20210328T214441Z">
+        <seg>&lt;x1/&gt;EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185325Z" creationid="Марианна" creationdate="20200810T184455Z">
@@ -17452,6 +17460,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>EncodeDateTime</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214406Z" creationid="Марианна" creationdate="20210328T214406Z">
+        <seg>EncodeDateTime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Enter</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083233Z" creationid="Марианна" creationdate="20201214T083233Z">
@@ -24289,6 +24305,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>День - день в виде числа,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214513Z" creationid="Марианна" creationdate="20210328T214513Z">
+        <seg>Day - day in the form of number,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>День - день в виде числа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T214336Z" creationid="Марианна" creationdate="20210328T214336Z">
@@ -29474,6 +29498,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083040Z" creationid="Марианна" creationdate="20201214T083040Z">
         <seg>Minimum factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минуты - минуты в виде числа,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214609Z" creationid="Марианна" creationdate="20210328T214609Z">
+        <seg>Minutes - minutes in the form of number,</seg>
       </tuv>
     </tu>
     <tu>
@@ -37136,6 +37168,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Секунды - секунды в виде числа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214635Z" creationid="Марианна" creationdate="20210328T214635Z">
+        <seg>Seconds - seconds in the form of number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Секунды.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083644Z" creationid="Марианна" creationdate="20200918T083644Z">
@@ -39864,6 +39904,22 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает дату и время, сформированные из указанных аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214716Z" creationid="Марианна" creationdate="20210328T214716Z">
+        <seg>Function returns the date and time formed from the specified arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает дату, сформированную из указанных аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214404Z" creationid="Марианна" creationdate="20210328T214404Z">
+        <seg>Function returns the date formed from the specified arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция возвращает значение аргумента Дата, увеличенного на указанное Количество дней.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T205755Z" creationid="Марианна" creationdate="20210328T205755Z">
@@ -40036,6 +40092,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T173616Z" creationid="Марианна" creationdate="20201022T173616Z">
         <seg>A part of fields of the source data set is unchanged forming the &lt;x1/&gt;strings&lt;x2/&gt; of the pivot table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Часы - часы в виде числа,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214540Z" creationid="Марианна" creationdate="20210328T214540Z">
+        <seg>Hours - hours in the form of number,</seg>
       </tuv>
     </tu>
     <tu>
