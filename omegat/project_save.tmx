@@ -6574,6 +6574,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Today()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T222039Z" creationid="Марианна" creationdate="20210328T222039Z">
+        <seg>&lt;x1/&gt;Today()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt; — языконезависимое сравнение символов Unicode без чувствительности к регистру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T134513Z" creationid="Марианна" creationdate="20210210T134236Z">
@@ -18440,6 +18448,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Today</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T222031Z" creationid="Марианна" creationdate="20210328T222031Z">
+        <seg>Today</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Transaction</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083841Z" creationid="Марианна" creationdate="20201030T083841Z">
@@ -23141,6 +23157,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215847Z" creationid="Марианна" creationdate="20210328T215847Z">
         <seg>Returns the current date and time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает текущую дату.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T222144Z" creationid="Марианна" creationdate="20210328T222144Z">
+        <seg>Returns the current date.</seg>
       </tuv>
     </tu>
     <tu>
