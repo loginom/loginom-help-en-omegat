@@ -5822,6 +5822,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AddWeek(Дата, Количество)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210943Z" creationid="Марианна" creationdate="20210328T210943Z">
+        <seg>&lt;x1/&gt;AddWeek(Date, Count)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
