@@ -25987,6 +25987,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если указанный день месяца больше, чем последний день получившегося месяца, то функция устанавливает дату на последний день получившегося месяца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210557Z" creationid="Марианна" creationdate="20210328T210557Z">
+        <seg>If the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если флаг активен, зависимости нет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133126Z" creationid="Марианна" creationdate="20201212T210638Z">
@@ -28126,6 +28134,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210126Z" creationid="Марианна" creationdate="20210328T210126Z">
         <seg>The number can also be negative. In this case, the function will return the date to the given number of days before the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество месяцев раньше указанной даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210330Z" creationid="Марианна" creationdate="20210328T210330Z">
+        <seg>The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.</seg>
       </tuv>
     </tu>
     <tu>
