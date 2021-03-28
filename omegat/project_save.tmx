@@ -26271,6 +26271,16 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Записи с &lt;x53/&gt;&lt;x54/&gt;&lt;null&gt;&lt;x55/&gt;&lt;x56/&gt; в агрегации не участвуют вовсе.|
+|&lt;x57/&gt;&lt;x58/&gt; Максимум|&lt;x59/&gt;•&lt;x60/&gt;|&lt;x61/&gt;•&lt;x62/&gt;|&lt;x63/&gt;•&lt;x64/&gt;|&lt;x65/&gt;•&lt;x66/&gt;|&lt;x67/&gt;•&lt;x68/&gt;|&lt;x69/&gt;•&lt;x70/&gt;|Выводит наибольшее значение по столбцу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T164641Z" creationid="Марианна" creationdate="20210328T164641Z">
+        <seg>Records with &lt;x53/&gt;&lt;x54/&gt;&lt;null&gt;&lt;x55/&gt;&lt;x56/&gt; are not included into the aggregation.|
+|&lt;x57/&gt;&lt;x58/&gt; Maximum|&lt;x59/&gt;•&lt;x60/&gt;|&lt;x61/&gt;•&lt;x62/&gt;|&lt;x63/&gt;•&lt;x64/&gt;|&lt;x65/&gt;•&lt;x66/&gt;|&lt;x67/&gt;•&lt;x68/&gt;|&lt;x69/&gt;•&lt;x70/&gt;|It shows the maximum value by column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запятая;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062850Z" creationid="Марианна" creationdate="20200917T162018Z">
@@ -35906,6 +35916,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T142149Z" creationid="Марианна" creationdate="20201116T142022Z">
         <seg>&lt;x1/&gt;With value&lt;x2/&gt; option replaces all values outside the &lt;x3/&gt;Replacement table&lt;x4/&gt; with the value entered into the row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пустые записи в агрегации не участвуют, кроме типа &lt;x51/&gt;&lt;x52/&gt; Строковый, где пустая запись является наименьшей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T164521Z" creationid="Марианна" creationdate="20210328T164521Z">
+        <seg>The null records are not included into the aggregation, with the exception of the &lt;x51/&gt;&lt;x52/&gt; String type where the null record is the minimum one.</seg>
       </tuv>
     </tu>
     <tu>
