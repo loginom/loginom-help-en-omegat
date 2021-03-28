@@ -5800,8 +5800,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;AddDay(Дата, Количество)&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T204733Z" creationid="Марианна" creationdate="20210328T204733Z">
-        <seg>&lt;x1/&gt;AddDay(Date, Number)&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T205228Z" creationid="Марианна" creationdate="20210328T204733Z">
+        <seg>&lt;x1/&gt;AddDay(Date, Count)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23931,8 +23931,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Дата - аргумент типа Дата/Время</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T205100Z" creationid="Марианна" creationdate="20210328T205100Z">
-        <seg>Date is an argument of the Date/Time type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T205234Z" creationid="Марианна" creationdate="20210328T205100Z">
+        <seg>Date - argument of the Date/Time type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28078,6 +28078,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210401Z" creationid="Марианна" creationdate="20201217T210401Z">
         <seg>Quantitative evaluation of difference between two distributions of probabilities</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество - аргумент целого типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T205245Z" creationid="Марианна" creationdate="20210328T205245Z">
+        <seg>Count - argument of the integer type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39502,6 +39510,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
         <seg>Component functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение аргумента Дата, увеличенного на указанное Количество дней.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T205755Z" creationid="Марианна" creationdate="20210328T205755Z">
+        <seg>Function returns the Date argument value, increased by the specified Number of days.</seg>
       </tuv>
     </tu>
     <tu>
