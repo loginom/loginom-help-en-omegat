@@ -24103,6 +24103,16 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для &lt;x71/&gt;&lt;x72/&gt; Строкового типа порядок к максимуму такой: "Пустое значение → Символы → Цифры → латинский алфавит в нижнем регистре → Латинский в верхнем → Русский в нижнем → Русский в верхнем регистре".|
+|&lt;x73/&gt;&lt;x74/&gt; Среднее||&lt;x75/&gt;•&lt;x76/&gt;|&lt;x77/&gt;•&lt;x78/&gt;||||Выводит среднее значение всех ячеек столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T165326Z" creationid="Марианна" creationdate="20210328T165326Z">
+        <seg>For the &lt;x71/&gt;&lt;x72/&gt; String type the order to maximum is as follows: "Null value → Characters → Digits → the lowercase Latin alphabet → the uppercase Latin alphabet → the lowercase Russian alphabet → the uppercase Russian alphabet".|
+|&lt;x73/&gt;&lt;x74/&gt; Average||&lt;x75/&gt;•&lt;x76/&gt;|&lt;x77/&gt;•&lt;x78/&gt;||||It shows the average value of all column cells.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ClickHouse — двойные кавычки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120208Z" creationid="Марианна" creationdate="20210118T120208Z">
