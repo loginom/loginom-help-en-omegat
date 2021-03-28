@@ -5990,6 +5990,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;EncodeDate(Год, Месяц, День)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214222Z" creationid="Марианна" creationdate="20210328T214222Z">
+        <seg>&lt;x1/&gt;EncodeDate(Year, Month, Day)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185325Z" creationid="Марианна" creationdate="20200810T184455Z">
@@ -17436,6 +17444,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>EncodeDate</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214155Z" creationid="Марианна" creationdate="20210328T214155Z">
+        <seg>EncodeDate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Enter</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083233Z" creationid="Марианна" creationdate="20201214T083233Z">
@@ -23737,6 +23753,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Год - год в виде числа,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214241Z" creationid="Марианна" creationdate="20210328T214241Z">
+        <seg>Year - year in the form of number,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Год.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083425Z" creationid="Марианна" creationdate="20200918T083425Z">
@@ -24261,6 +24285,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
         <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>День - день в виде числа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214336Z" creationid="Марианна" creationdate="20210328T214336Z">
+        <seg>Day - day in the form of number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29194,6 +29226,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145332Z" creationid="Марианна" creationdate="20201111T145332Z">
         <seg>Month</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Месяц - месяц в виде числа,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214308Z" creationid="Марианна" creationdate="20210328T214308Z">
+        <seg>Month - month in the form of number,</seg>
       </tuv>
     </tu>
     <tu>
