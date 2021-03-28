@@ -23921,6 +23921,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дата/Время функции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T204610Z" creationid="Марианна" creationdate="20210328T204610Z">
+        <seg>Function Date/Time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Два скрытых слоя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213816Z" creationid="Марианна" creationdate="20201216T213816Z">
