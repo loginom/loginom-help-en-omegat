@@ -59,7 +59,7 @@ A set of parameters to configure the linear regression can be grouped in the fol
 
 * Auto setup:
    * Boolean value. Enabled by default.
-   * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection from overfitting, and it is also possible to set priorities.
+   * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection against overfitting, and it is also possible to set priorities.
 * Auto setup priority:
    * It has an impact on selection of the particular method and its settings according to the Accuracy - Speed scale.
    * Integer type. It can take the following values:

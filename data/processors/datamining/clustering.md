@@ -62,7 +62,7 @@ The wizard includes the following groups of parameters:
 * In the case of the set number of clusters:
    * Uncheck *Auto selection of clusters*.
    * Enter the required number of clusters (must exceed 2). By default — 3.
-* In the case of auto selection of the cluster number:
+* In the case of auto selection of the cluster count:
    * The minimum number of clusters. By default — 1.
    * The maximum number of clusters. By default — 10.
    * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering.
