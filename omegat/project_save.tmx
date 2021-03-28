@@ -6542,6 +6542,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;StrToDate(Аргумент &lt;x2/&gt;, Формат&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220956Z" creationid="Марианна" creationdate="20210328T220956Z">
+        <seg>&lt;x1/&gt;StrToDate(Argument &lt;x2/&gt;, Format&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;T-статистика&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144742Z" creationid="Марианна" creationdate="20201207T144742Z">
@@ -18392,6 +18400,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>StrToDate</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220933Z" creationid="Марианна" creationdate="20210328T220933Z">
+        <seg>StrToDate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>String</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083306Z" creationid="Марианна" creationdate="20201030T083306Z">
@@ -20877,6 +20893,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223413Z" creationid="Марианна" creationdate="20210218T223413Z">
         <seg>Antisymmetric;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент - строковое выражение, содержащее дату/время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T221021Z" creationid="Марианна" creationdate="20210328T221021Z">
+        <seg>Argument - the string expression containing date/time</seg>
       </tuv>
     </tu>
     <tu>
@@ -40124,6 +40148,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T214716Z" creationid="Марианна" creationdate="20210328T214716Z">
         <seg>Function returns the date and time formed from the specified arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает дату начала указанной недели в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220928Z" creationid="Марианна" creationdate="20210328T220928Z">
+        <seg>Function returns the date of the specified week start according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday.</seg>
       </tuv>
     </tu>
     <tu>
