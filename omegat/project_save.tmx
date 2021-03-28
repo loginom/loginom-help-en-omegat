@@ -6246,6 +6246,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Minute(ДатаВремя)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215232Z" creationid="Марианна" creationdate="20210328T215232Z">
+        <seg>&lt;x1/&gt;Minute(DateTime)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MySQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183356Z" creationid="Марианна" creationdate="20200810T183356Z">
@@ -17924,6 +17932,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Minute</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215210Z" creationid="Марианна" creationdate="20210328T215210Z">
+        <seg>Minute</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>N — количество транзакций, вошедших в кластер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082212Z" creationid="Марианна" creationdate="20201210T082212Z">
@@ -22977,6 +22993,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает час по заданной дате/времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215208Z" creationid="Марианна" creationdate="20210328T215208Z">
+        <seg>Returns the hour according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращают одно значение, характеризующее это множество.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T115825Z" creationid="Марианна" creationdate="20210328T115825Z">
@@ -24229,6 +24253,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T211907Z" creationid="Марианна" creationdate="20210328T211907Z">
         <seg>Date_time - expression of the date/time type..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ДатаВремя - поле типа дата/время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214933Z" creationid="Марианна" creationdate="20210328T214933Z">
+        <seg>DateTime - the date/time type field.</seg>
       </tuv>
     </tu>
     <tu>
