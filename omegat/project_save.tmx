@@ -6534,6 +6534,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;StartOfTheWeek(Дата)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220753Z" creationid="Марианна" creationdate="20210328T220753Z">
+        <seg>&lt;x1/&gt;StartOfTheWeek(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;T-статистика&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144742Z" creationid="Марианна" creationdate="20201207T144742Z">
@@ -18368,6 +18376,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>StartOfTheWeek</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220729Z" creationid="Марианна" creationdate="20210328T220729Z">
+        <seg>StartOfTheWeek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Stepwise</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083247Z" creationid="Марианна" creationdate="20201214T083247Z">
@@ -23073,6 +23089,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает секунды по заданной дате/времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220727Z" creationid="Марианна" creationdate="20210328T220727Z">
+        <seg>Returns seconds according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает строковое представление аргумента Дата.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213157Z" creationid="Марианна" creationdate="20210328T213157Z">
@@ -24308,6 +24332,14 @@ DESC period</seg>
         <seg>Дата - аргумент типа Дата/Время</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T205234Z" creationid="Марианна" creationdate="20210328T205100Z">
+        <seg>Date - argument of the Date/Time type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата - аргумент типа Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T220819Z" creationid="Марианна" creationdate="20210328T220819Z">
         <seg>Date - argument of the Date/Time type.</seg>
       </tuv>
     </tu>
