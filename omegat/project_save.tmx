@@ -28186,6 +28186,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество недель раньше указанной даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211616Z" creationid="Марианна" creationdate="20210328T211616Z">
+        <seg>The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество нейронов в каждом из скрытых слоев;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T220055Z" creationid="Марианна" creationdate="20201222T053723Z">
