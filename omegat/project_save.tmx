@@ -6062,6 +6062,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Hour(ДатаВремя)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214901Z" creationid="Марианна" creationdate="20210328T214901Z">
+        <seg>&lt;x1/&gt;Hour(DateTime)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;InputTables[N]&lt;x2/&gt;, где N — номер (индекс) порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143805Z" creationid="Марианна" creationdate="20201102T143805Z">
@@ -17592,6 +17600,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083820Z" creationid="Марианна" creationdate="20201030T083820Z">
         <seg>Group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Hour</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214836Z" creationid="Марианна" creationdate="20210328T214836Z">
+        <seg>Hour</seg>
       </tuv>
     </tu>
     <tu>
@@ -39916,6 +39932,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094043Z" creationid="Марианна" creationdate="20200813T094043Z">
         <seg>Component functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает время, сформированное из указанных аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214834Z" creationid="Марианна" creationdate="20210328T214834Z">
+        <seg>Function returns the time formed from the specified arguments.</seg>
       </tuv>
     </tu>
     <tu>
