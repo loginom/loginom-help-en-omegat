@@ -39602,6 +39602,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат\_времени - необязательный параметр формат времени в терминах H, N, S, Z.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T212144Z" creationid="Марианна" creationdate="20210328T212144Z">
+        <seg>Time_format - optional parameter time format in terms of H, N, S, Z.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат\_даты - необязательный параметр формат даты в терминах D, M, Y.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212041Z" creationid="Марианна" creationdate="20210328T212041Z">
