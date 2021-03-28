@@ -39992,6 +39992,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат - необязательный параметр формат даты/время в терминах D, M, Y, H, N, S, Z</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T221158Z" creationid="Марианна" creationdate="20210328T221158Z">
+        <seg>Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат представления даты &lt;x1/&gt;Свой формат&lt;x2/&gt; далее будет рассмотрен более подробно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125944Z" creationid="Марианна" creationdate="20201118T125944Z">
@@ -40204,6 +40212,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T211509Z" creationid="Марианна" creationdate="20210328T211509Z">
         <seg>Function returns the Date argument value, increased by the specified Number of weeks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция конвертирует строку, содержащую дату в формат типа "Дата/Время".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T221701Z" creationid="Марианна" creationdate="20210328T221701Z">
+        <seg>Function converts the string containing the date into the "Date/Time" format.</seg>
       </tuv>
     </tu>
     <tu>
