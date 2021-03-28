@@ -22825,6 +22825,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает строковое представление аргумента Дата.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213157Z" creationid="Марианна" creationdate="20210328T213157Z">
+        <seg>Returns the string representation of the Date argument</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает строковое представление аргумента Дата\_время.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212229Z" creationid="Марианна" creationdate="20210328T212229Z">
