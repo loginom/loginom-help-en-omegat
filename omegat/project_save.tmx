@@ -5902,6 +5902,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DateTimeToStr(Дата\_время [, Формат\_даты &lt;x2/&gt;, Формат\_времени&lt;x3/&gt;])&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211848Z" creationid="Марианна" creationdate="20210328T211848Z">
+        <seg>&lt;x1/&gt;DateTimeToStr(Date\_time [, Format\_of date &lt;x2/&gt;, Format\_of time&lt;x3/&gt;])&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17260,6 +17268,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DateTimeToStr</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211809Z" creationid="Марианна" creationdate="20210328T211809Z">
+        <seg>DateTimeToStr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -24009,6 +24025,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дата\_время - выражение типа дата/время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211907Z" creationid="Марианна" creationdate="20210328T211907Z">
+        <seg>Date_time - expression of the date/time type..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Два скрытых слоя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213816Z" creationid="Марианна" creationdate="20201216T213816Z">
@@ -28190,6 +28214,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210724Z" creationid="Марианна" creationdate="20210328T210724Z">
         <seg>The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество лет раньше указанной даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211807Z" creationid="Марианна" creationdate="20210328T211807Z">
+        <seg>The number can also be negative. In this case, the function will return the date to the given number of years before the specified date.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39570,6 +39602,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат\_даты - необязательный параметр формат даты в терминах D, M, Y.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T212041Z" creationid="Марианна" creationdate="20210328T212041Z">
+        <seg>Date_format - optional parameter date format in terms of D, M, Y.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Форматы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093617Z" creationid="Марианна" creationdate="20200826T093617Z">
@@ -39630,6 +39670,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210647Z" creationid="Марианна" creationdate="20210328T210647Z">
         <seg>Function returns the Date argument value, increased by the specified Number of quarters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение аргумента Дата, увеличенного на указанное Количество лет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T211732Z" creationid="Марианна" creationdate="20210328T211732Z">
+        <seg>Function returns the Date argument value, increased by the specified Number of years.</seg>
       </tuv>
     </tu>
     <tu>
