@@ -6286,6 +6286,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Now()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215734Z" creationid="Марианна" creationdate="20210328T215734Z">
+        <seg>&lt;x1/&gt;Now()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ODBC&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183359Z" creationid="Марианна" creationdate="20200810T183359Z">
@@ -18004,6 +18012,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Now</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215713Z" creationid="Марианна" creationdate="20210328T215713Z">
+        <seg>Now</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>OutputTable.Append();</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155405Z" creationid="Марианна" creationdate="20201025T155405Z">
@@ -20833,6 +20849,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргументы отсутствуют.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215807Z" creationid="Марианна" creationdate="20210328T215807Z">
+        <seg>Arguments are absent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ассоциативные правила</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103422Z" creationid="Марианна" creationdate="20201208T103422Z">
@@ -23025,6 +23049,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает полное количество месяцев между двумя датами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215711Z" creationid="Марианна" creationdate="20210328T215711Z">
+        <seg>Returns the total number of months between two dates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает строковое представление аргумента Дата.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213157Z" creationid="Марианна" creationdate="20210328T213157Z">
@@ -23037,6 +23069,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212229Z" creationid="Марианна" creationdate="20210328T212229Z">
         <seg>Returns the string representation of the Date\_time argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает текущую дату и время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T215847Z" creationid="Марианна" creationdate="20210328T215847Z">
+        <seg>Returns the current date and time.</seg>
       </tuv>
     </tu>
     <tu>
