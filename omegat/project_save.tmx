@@ -21697,6 +21697,16 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В расчетах участвуют те поля, которые не пустые, и не &lt;x79/&gt;&lt;x80/&gt;&lt;null&gt;&lt;x81/&gt;&lt;x82/&gt;.|
+|&lt;x83/&gt;&lt;x84/&gt; &lt;x85/&gt;Медиана&lt;x86/&gt;||&lt;x87/&gt;•&lt;x88/&gt;|&lt;x89/&gt;•&lt;x90/&gt;||||Выводит значение медианы по столбцу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T165547Z" creationid="Марианна" creationdate="20210328T165547Z">
+        <seg>The fields that are not empty and &lt;x79/&gt;&lt;x80/&gt;&lt;null&gt;&lt;x81/&gt;&lt;x82/&gt; are used in calculations.|
+|&lt;x83/&gt;&lt;x84/&gt; &lt;x85/&gt;Median&lt;x86/&gt;||&lt;x87/&gt;•&lt;x88/&gt;|&lt;x89/&gt;•&lt;x90/&gt;||||It shows the median value by column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В редакторе кода поддерживаются следующие горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155731Z" creationid="Марианна" creationdate="20201025T155731Z">
