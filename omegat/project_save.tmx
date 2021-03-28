@@ -16316,6 +16316,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Функции агрегации&lt;x2/&gt; - статистические функции, которые работают с множеством значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T115504Z" creationid="Марианна" creationdate="20210328T115504Z">
+        <seg>&lt;x1/&gt;Aggregation functions&lt;x2/&gt; are statistical functions that are used with a set of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Функции калькулятора&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060404Z" creationid="Марианна" creationdate="20200812T060404Z">
