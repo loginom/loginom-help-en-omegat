@@ -23929,6 +23929,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дата - аргумент типа Дата/Время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T205100Z" creationid="Марианна" creationdate="20210328T205100Z">
+        <seg>Date is an argument of the Date/Time type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дата(исходный столбец)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T102539Z" creationid="Марианна" creationdate="20201118T102533Z">
