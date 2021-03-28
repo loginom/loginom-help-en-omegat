@@ -5814,6 +5814,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AddQuarter(Дата, Количество)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210613Z" creationid="Марианна" creationdate="20210328T210613Z">
+        <seg>&lt;x1/&gt;AddQuarter(Date, Count)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
@@ -17064,6 +17072,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210129Z" creationid="Марианна" creationdate="20210328T210129Z">
         <seg>AddMonth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>AddQuarter</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T210601Z" creationid="Марианна" creationdate="20210328T210601Z">
+        <seg>AddQuarter</seg>
       </tuv>
     </tu>
     <tu>
