@@ -5934,6 +5934,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DaysBetween(Дата1, Дата2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213613Z" creationid="Марианна" creationdate="20210328T213613Z">
+        <seg>&lt;x1/&gt;DaysBetween(Date1, Date2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17324,6 +17332,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DaysBetween</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213548Z" creationid="Марианна" creationdate="20210328T213548Z">
+        <seg>DaysBetween</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -22833,6 +22849,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает день недели заданной даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213546Z" creationid="Марианна" creationdate="20210328T213546Z">
+        <seg>Returns the week day according to the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает день по заданной дате.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213459Z" creationid="Марианна" creationdate="20210328T213459Z">
@@ -24109,6 +24133,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T204610Z" creationid="Марианна" creationdate="20210328T204610Z">
         <seg>Function Date/Time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата1, Дата2 - поля типа дата.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T213715Z" creationid="Марианна" creationdate="20210328T213715Z">
+        <seg>Date1, Date2 - the date type fields.</seg>
       </tuv>
     </tu>
     <tu>
