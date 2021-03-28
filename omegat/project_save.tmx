@@ -5798,6 +5798,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AddDay(Дата, Количество)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T204733Z" creationid="Марианна" creationdate="20210328T204733Z">
+        <seg>&lt;x1/&gt;AddDay(Date, Number)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
@@ -17032,6 +17040,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083750Z" creationid="Марианна" creationdate="20201030T083750Z">
         <seg>Active</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>AddDay</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T204639Z" creationid="Марианна" creationdate="20210328T204639Z">
+        <seg>AddDay</seg>
       </tuv>
     </tu>
     <tu>
