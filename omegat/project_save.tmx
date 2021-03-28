@@ -6006,6 +6006,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;EncodeTime(Часы, Минуты, Секунды)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214750Z" creationid="Марианна" creationdate="20210328T214750Z">
+        <seg>&lt;x1/&gt;EncodeTime(Hours, Minutes, Seconds)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185325Z" creationid="Марианна" creationdate="20200810T184455Z">
@@ -17464,6 +17472,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T214406Z" creationid="Марианна" creationdate="20210328T214406Z">
         <seg>EncodeDateTime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>EncodeTime</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210328T214719Z" creationid="Марианна" creationdate="20210328T214719Z">
+        <seg>EncodeTime</seg>
       </tuv>
     </tu>
     <tu>
