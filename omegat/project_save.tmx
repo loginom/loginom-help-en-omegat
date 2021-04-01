@@ -5904,16 +5904,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;DateTimeToStr(Дата\_время [, Формат\_даты &lt;x2/&gt;, Формат\_времени&lt;x3/&gt;])&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T211848Z" creationid="Марианна" creationdate="20210328T211848Z">
-        <seg>&lt;x1/&gt;DateTimeToStr(Date\_time [, Format\_of date &lt;x2/&gt;, Format\_of time&lt;x3/&gt;])&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T203100Z" creationid="Марианна" creationdate="20210328T211848Z">
+        <seg>&lt;x1/&gt;DateTimeToStr(Date\_time [, Date\_format &lt;x2/&gt;, Format\_of time&lt;x3/&gt;])&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;DateToStr(Дата &lt;x2/&gt;, Формат\_даты&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T212844Z" creationid="Марианна" creationdate="20210328T212844Z">
-        <seg>&lt;x1/&gt;DateToStr(Date &lt;x2/&gt;, Format\_of date&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T203116Z" creationid="Марианна" creationdate="20210328T212844Z">
+        <seg>&lt;x1/&gt;DateToStr(Date &lt;x2/&gt;, Date\_format&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
