@@ -5808,16 +5808,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;AddMonth(Дата, Количество)&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T210143Z" creationid="Марианна" creationdate="20210328T210143Z">
-        <seg>&lt;x1/&gt;AddMonth(Date, Count)&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T200907Z" creationid="Марианна" creationdate="20210328T210143Z">
+        <seg>&lt;x1/&gt;AddMonth(Date, Number)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;AddQuarter(Дата, Количество)&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T210613Z" creationid="Марианна" creationdate="20210328T210613Z">
-        <seg>&lt;x1/&gt;AddQuarter(Date, Count)&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T200936Z" creationid="Марианна" creationdate="20210328T210613Z">
+        <seg>&lt;x1/&gt;AddQuarter(Date, Number)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
