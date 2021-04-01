@@ -28684,8 +28684,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество - аргумент целого типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T205245Z" creationid="Марианна" creationdate="20210328T205245Z">
-        <seg>Count - argument of the integer type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T194944Z" creationid="Марианна" creationdate="20210328T205245Z">
+        <seg>Number - argument of the integer type.</seg>
       </tuv>
     </tu>
     <tu>
