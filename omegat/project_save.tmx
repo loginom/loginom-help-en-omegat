@@ -38920,6 +38920,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так как текущая дата - это дата вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154702Z" creationid="Марианна" creationdate="20210401T154702Z">
+        <seg>As the current date is the time of the expression calculation that is calculated each time when getting the expression value. For example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache the calculated expression values" expression parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Так как текущая дата и время - это время вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220426Z" creationid="Марианна" creationdate="20210328T220426Z">
