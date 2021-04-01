@@ -2,19 +2,19 @@
 
 ## AddDay
 
-**AddDay(Date, Count)**
+**AddDay(Date, Number)**
 
 * Date - argument of the Date/Time type.
-* Count - argument of the integer type.
+* Number - argument of the integer type.
 
 Function returns the Date argument value, increased by the specified Number of days. The number can also be negative. In this case, the function will return the date to the given number of days before the specified date.
 
 ## AddMonth
 
-**AddMonth(Date, Count)**
+**AddMonth(Date, Number)**
 
 * Date - argument of the Date/Time type.
-* Count - argument of the integer type.
+* Number - argument of the integer type.
 
 Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.
 
@@ -22,10 +22,10 @@ If the specified day of the month exceeds the last day of the resulting month, t
 
 ## AddQuarter
 
-**AddQuarter(Date, Count)**
+**AddQuarter(Date, Number)**
 
 * Date - argument of the Date/Time type.
-* Count - argument of the integer type.
+* Number - argument of the integer type.
 
 Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.
 
@@ -33,19 +33,19 @@ If the specified day of the month exceeds the last day of the month of the resul
 
 ## AddWeek
 
-**AddWeek(Date, Count)**
+**AddWeek(Date, Number)**
 
 * Date - argument of the Date/Time type.
-* Count - argument of the integer type.
+* Number - argument of the integer type.
 
 Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date.
 
 ## AddYear
 
-**AddYear(Date, Count)**
+**AddYear(Date, Number)**
 
 * Date - argument of the Date/Time type.
-* Count - argument of the integer type.
+* Number - argument of the integer type.
 
 Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date.
 
@@ -53,7 +53,7 @@ Function returns the Date argument value, increased by the specified Number of y
 
 **DateTimeToStr(Date\_time [, Format\_of date [, Format\_of time]])**
 
-* Date_time - expression of the date/time type..
+* Date_time - expression of the date/time type.
 * Date_format - optional parameter date format in terms of D, M, Y.
 * Time_format - optional parameter time format in terms of H, N, S, Z.
 
@@ -105,9 +105,9 @@ Returns the total number of days between two dates.
 
 **EncodeDate(Year, Month, Day)**
 
-* Year - year in the form of number,
-* Month - month in the form of number,
-* Day - day in the form of number.
+* Year - year in the form of a number,
+* Month - month in the form of a number,
+* Day - day in the form of a number.
 
 Function returns the date formed from the specified arguments.
 
@@ -115,12 +115,12 @@ Function returns the date formed from the specified arguments.
 
 **EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)**
 
-* Year - year in the form of number,
-* Month - month in the form of number,
-* Day - day in the form of number,
-* Hours - hours in the form of number,
-* Minutes - minutes in the form of number,
-* Seconds - seconds in the form of number.
+* Year - year in the form of a number,
+* Month - month in the form of a number,
+* Day - day in the form of a number,
+* Hours - hours in the form of a number,
+* Minutes - minutes in the form of a number,
+* Seconds - seconds in the form of a number.
 
 Function returns the date and time formed from the specified arguments.
 
@@ -128,9 +128,9 @@ Function returns the date and time formed from the specified arguments.
 
 **EncodeTime(Hours, Minutes, Seconds)**
 
-* Hours - hours in the form of number,
-* Minutes - minutes in the form of number,
-* Seconds - seconds in the form of number.
+* Hours - hours in the form of a number,
+* Minutes - minutes in the form of a number,
+* Seconds - seconds in the form of a number.
 
 Function returns the time formed from the specified arguments.
 
@@ -210,28 +210,28 @@ The format examples:
 * Arguments are absent.
 
 Returns the current date.
-Так как текущая дата - это дата вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.
+As the current date is the time of the expression calculation that is calculated each time when getting the expression value. For example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache the calculated expression values" expression parameter.
 
 ## Week
 
-**Week(Дата)**
+**Week(Date)**
 
 * Date - the date type field.
 
-Возвращает номер недели в году по заданной дате в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем. Первая неделя года начинается с понедельника, для дней с 1 января по первый понедельник возвращается номер последней недели предыдущего года.
+Returns the week number of the year by the set date according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday. The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned.
 
 ## Year
 
-**Year(Дата)**
+**Year(Date)**
 
 * Date - the date type field.
 
-Возвращает год по заданной дате.
+Returns the year according to the specified date.
 
 ## YearsBetween
 
-**YearsBetween(Дата1, Дата2)**
+**YearsBetween(Date1, Date2)**
 
 * Date1, Date2 - the date type fields.
 
-Возвращает полное количество лет между двумя датами.
+Returns the total number of years between two dates.
