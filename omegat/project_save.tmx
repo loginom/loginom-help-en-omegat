@@ -6598,6 +6598,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Week(Дата)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154718Z" creationid="Марианна" creationdate="20210401T154718Z">
+        <seg>&lt;x1/&gt;Week(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;XML-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185333Z" creationid="Марианна" creationdate="20200810T184536Z">
@@ -18592,10 +18600,26 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Week</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154710Z" creationid="Марианна" creationdate="20210401T154710Z">
+        <seg>Week</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>XML-ответы сервиса преобразуются в табличное представление.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T231107Z" creationid="Марианна" creationdate="20210218T231107Z">
         <seg>The service XML responses are transformed to the table view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Year</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154931Z" creationid="Марианна" creationdate="20210401T154931Z">
+        <seg>Year</seg>
       </tuv>
     </tu>
     <tu>
@@ -23093,6 +23117,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215325Z" creationid="Марианна" creationdate="20210328T215325Z">
         <seg>Returns minutes according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает номер недели в году по заданной дате в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154856Z" creationid="Марианна" creationdate="20210401T154856Z">
+        <seg>Returns the week number of the year by the set date according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32990,6 +33022,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212312Z" creationid="Марианна" creationdate="20201012T212047Z">
         <seg>The Penza Region</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Первая неделя года начинается с понедельника, для дней с 1 января по первый понедельник возвращается номер последней недели предыдущего года.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154928Z" creationid="Марианна" creationdate="20210401T154928Z">
+        <seg>The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned.</seg>
       </tuv>
     </tu>
     <tu>
