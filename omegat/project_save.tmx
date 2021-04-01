@@ -24515,8 +24515,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Дата\_время - выражение типа дата/время.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T211907Z" creationid="Марианна" creationdate="20210328T211907Z">
-        <seg>Date_time - expression of the date/time type..</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T202103Z" creationid="Марианна" creationdate="20210328T211907Z">
+        <seg>Date_time - expression of the date/time type.</seg>
       </tuv>
     </tu>
     <tu>
