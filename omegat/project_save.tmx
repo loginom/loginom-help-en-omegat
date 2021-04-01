@@ -6638,6 +6638,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Year(Дата)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154938Z" creationid="Марианна" creationdate="20210401T154938Z">
+        <seg>&lt;x1/&gt;Year(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;YearsBetween(Дата1, Дата2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T155007Z" creationid="Марианна" creationdate="20210401T155007Z">
+        <seg>&lt;x1/&gt;YearsBetween(Date1, Date2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;^1&lt;x2/&gt;: Доступно только для редакций с возможностью публикации &lt;x3/&gt;Веб-сервисов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090055Z" creationid="Марианна" creationdate="20200816T132034Z">
@@ -18624,6 +18640,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>YearsBetween</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154957Z" creationid="Марианна" creationdate="20210401T154957Z">
+        <seg>YearsBetween</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>[index: number]: IColumn;
 }
 
@@ -23081,6 +23105,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает год по заданной дате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T154955Z" creationid="Марианна" creationdate="20210401T154955Z">
+        <seg>Returns the year according to the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает день недели заданной даты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213546Z" creationid="Марианна" creationdate="20210328T213546Z">
@@ -23149,6 +23181,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T214150Z" creationid="Марианна" creationdate="20210328T214150Z">
         <seg>Returns the total number of days between two dates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает полное количество лет между двумя датами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T155027Z" creationid="Марианна" creationdate="20210401T155027Z">
+        <seg>Returns the total number of years between two dates.</seg>
       </tuv>
     </tu>
     <tu>
