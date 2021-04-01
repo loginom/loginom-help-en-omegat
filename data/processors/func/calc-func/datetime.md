@@ -51,7 +51,7 @@ Function returns the Date argument value, increased by the specified Number of y
 
 ## DateTimeToStr
 
-**DateTimeToStr(Date\_time [, Format\_of date [, Format\_of time]])**
+**DateTimeToStr(Date\_time [, Date\_format [, Format\_of time]])**
 
 * Date_time - expression of the date/time type.
 * Date_format - optional parameter date format in terms of D, M, Y.
@@ -67,7 +67,7 @@ Examples of the time format:
 
 ## DateToStr
 
-**DateToStr(Date [, Format\_of date])**
+**DateToStr(Date [, Date\_format])**
 
 * Date - expression of the date/time type.
 * Date_format - optional parameter date format in terms of D, M, Y.
