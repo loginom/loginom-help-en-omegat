@@ -17260,6 +17260,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AddWeek</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210401T195038Z" creationid="Марианна" creationdate="20210401T195038Z">
+        <seg>AddWeek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AddYear</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T211619Z" creationid="Марианна" creationdate="20210328T211619Z">
