@@ -37268,6 +37268,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>РезультатN - выражение числового типа или типа Дата/Время, которое возвращается, если Выражение = ЗначениеN.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T101711Z" creationid="Марианна" creationdate="20210402T101711Z">
+        <seg>ResultN - the expression of the numeric or Date/Time type that is returned if the Expression = ValueN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>РезультатN - значение, которое возвращается, если |ЗначениеN - ВыражениеN| &lt;= Погрешность.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T095005Z" creationid="Марианна" creationdate="20210402T095005Z">
