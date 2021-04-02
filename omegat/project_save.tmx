@@ -23993,6 +23993,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов Значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103154Z" creationid="Марианна" creationdate="20210402T103154Z">
+        <seg>Expression - the expression value of which is alternately compared with the values of the Value arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов ЗначениеN.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093902Z" creationid="Марианна" creationdate="20210402T093902Z">
@@ -27145,6 +27153,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104119Z" creationid="Марианна" creationdate="20201006T104119Z">
         <seg>Value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение - выражение, величина которого сравнивается с аргументом Выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103249Z" creationid="Марианна" creationdate="20210402T103249Z">
+        <seg>Value - the expression value of which is compared with the Expression argument.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37256,6 +37272,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114724Z" creationid="Марианна" creationdate="20201214T114724Z">
         <seg>Statistics calculation mode:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат - выражение, которое возвращается, если Выражение = Значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103338Z" creationid="Марианна" creationdate="20210402T103338Z">
+        <seg>Result - the value that is returned if Expression = Value.</seg>
       </tuv>
     </tu>
     <tu>
