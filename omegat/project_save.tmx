@@ -6374,6 +6374,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Log(Основание, Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105748Z" creationid="Марианна" creationdate="20210402T105748Z">
+        <seg>&lt;x1/&gt;Log(Basis, Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Loginom Data File&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071114Z" creationid="Марианна" creationdate="20200812T071114Z">
@@ -6418,6 +6426,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215232Z" creationid="Марианна" creationdate="20210328T215232Z">
         <seg>&lt;x1/&gt;Minute(DateTime)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Mod(Делимое, Делитель)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105901Z" creationid="Марианна" creationdate="20210402T105901Z">
+        <seg>&lt;x1/&gt;Mod(Dividend, Divisor)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6526,6 +6542,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Pi()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110002Z" creationid="Марианна" creationdate="20210402T110002Z">
+        <seg>&lt;x1/&gt;Pi()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Port/Shared Memory&lt;x2/&gt; — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T213050Z" creationid="Марианна" creationdate="20210201T155248Z">
@@ -6554,6 +6578,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183406Z" creationid="Марианна" creationdate="20200810T183406Z">
         <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Pow(Аргумент, Степень)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110037Z" creationid="Марианна" creationdate="20210402T110037Z">
+        <seg>&lt;x1/&gt;Pow(Argument, Degree)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18228,6 +18260,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Log</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105731Z" creationid="Марианна" creationdate="20210402T105731Z">
+        <seg>Log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom имеет возможность  работать как с &lt;x1/&gt;веб-сервисами&lt;x2/&gt;, так и базами данных и файловыми хранилищами данных (электронные таблицы, текстовые файлы и т.д.).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T151822Z" creationid="Марианна" creationdate="20210215T151822Z">
@@ -18368,6 +18408,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215210Z" creationid="Марианна" creationdate="20210328T215210Z">
         <seg>Minute</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Mod</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105843Z" creationid="Марианна" creationdate="20210402T105843Z">
+        <seg>Mod</seg>
       </tuv>
     </tu>
     <tu>
@@ -18522,6 +18570,22 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220132Z" creationid="Марианна" creationdate="20210203T220132Z">
         <seg>Passport;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Pi</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105959Z" creationid="Марианна" creationdate="20210402T105959Z">
+        <seg>Pi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Pow</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110024Z" creationid="Марианна" creationdate="20210402T110024Z">
+        <seg>Pow</seg>
       </tuv>
     </tu>
     <tu>
@@ -23601,6 +23665,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает значение константы "ПИ" 3.1415926535897932385.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110021Z" creationid="Марианна" creationdate="20210402T110021Z">
+        <seg>Returns the pi constant value 3.1415926535897932385.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает значение типа &lt;x1/&gt;number&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
@@ -23613,6 +23685,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105432Z" creationid="Марианна" creationdate="20210402T105432Z">
         <seg>Returns cosine of the set angle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает логарифм аргумента с заданным основанием.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105841Z" creationid="Марианна" creationdate="20210402T105841Z">
+        <seg>Returns the argument logarithm with the given basis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23677,6 +23757,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101550Z" creationid="Марианна" creationdate="20201105T101550Z">
         <seg>It returns the object implementing the &lt;x1/&gt;IVariableItems&lt;x2/&gt; interface (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает остаток от целочисленного деления Делимого на Делитель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105957Z" creationid="Марианна" creationdate="20210402T105957Z">
+        <seg>Returns remainder from integer division of the Dividend by the Divisor.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25197,6 +25285,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
         <seg>Decomposition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Делимое - целое числовое выражение,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105916Z" creationid="Марианна" creationdate="20210402T105916Z">
+        <seg>Dividend - integer numerical expression,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Делитель - целое числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105938Z" creationid="Марианна" creationdate="20210402T105938Z">
+        <seg>Divisor - integer numerical expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33086,6 +33190,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103314Z" creationid="Марианна" creationdate="20201208T103314Z">
         <seg>The Orel Region</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Основание - числовое выражение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105759Z" creationid="Марианна" creationdate="20210402T105759Z">
+        <seg>Basis - numeric expression;</seg>
       </tuv>
     </tu>
     <tu>
