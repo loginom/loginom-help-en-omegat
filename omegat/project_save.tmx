@@ -6758,6 +6758,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Sign(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110340Z" creationid="Марианна" creationdate="20210402T110340Z">
+        <seg>&lt;x1/&gt;Sign(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Sin(Угол)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110408Z" creationid="Марианна" creationdate="20210402T110408Z">
+        <seg>&lt;x1/&gt;Sin(Angle)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Sqrt(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110432Z" creationid="Марианна" creationdate="20210402T110432Z">
+        <seg>&lt;x1/&gt;Sqrt(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;StartOfTheWeek(Дата)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220753Z" creationid="Марианна" creationdate="20210328T220753Z">
@@ -6786,6 +6810,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173837Z" creationid="Марианна" creationdate="20201005T173837Z">
         <seg>&lt;x1/&gt;TRUE&lt;x2/&gt; denotes the true value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Tan(Угол)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110454Z" creationid="Марианна" creationdate="20210402T110454Z">
+        <seg>&lt;x1/&gt;Tan(Angle)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18880,6 +18912,22 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Sin</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110355Z" creationid="Марианна" creationdate="20210402T110355Z">
+        <seg>Sin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Sqrt</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110423Z" creationid="Марианна" creationdate="20210402T110423Z">
+        <seg>Sqrt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>StartOfTheWeek</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220729Z" creationid="Марианна" creationdate="20210328T220729Z">
@@ -18924,6 +18972,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T170956Z" creationid="Марианна" creationdate="20200920T170956Z">
         <seg>TO ...".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Tan</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110447Z" creationid="Марианна" creationdate="20210402T110447Z">
+        <seg>Tan</seg>
       </tuv>
     </tu>
     <tu>
@@ -23641,6 +23697,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает  квадратный корень аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110444Z" creationid="Марианна" creationdate="20210402T110444Z">
+        <seg>Returns the argument square root.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает Значение1, если Условие истинно или Значение2, если ложно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103730Z" creationid="Марианна" creationdate="20210402T103730Z">
@@ -23725,6 +23789,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105632Z" creationid="Марианна" creationdate="20210402T105632Z">
         <seg>Returns the fractional part of the Argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает знак аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110353Z" creationid="Марианна" creationdate="20210402T110353Z">
+        <seg>Returns the argument sign.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23881,6 +23953,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает синус заданного угла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110421Z" creationid="Марианна" creationdate="20210402T110421Z">
+        <seg>Returns sinus of the set angle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает строковое представление аргумента Дата.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213157Z" creationid="Марианна" creationdate="20210328T213157Z">
@@ -23893,6 +23973,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212229Z" creationid="Марианна" creationdate="20210328T212229Z">
         <seg>Returns the string representation of the Date\_time argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает тангенс заданного угла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110508Z" creationid="Марианна" creationdate="20210402T110508Z">
+        <seg>Returns tangent of the set angle.</seg>
       </tuv>
     </tu>
     <tu>
