@@ -5766,6 +5766,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AMGD(Стоимость, Остаточная\_стоимость, Время\_эксплуатации, Период)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093536Z" creationid="Марианна" creationdate="20210402T093536Z">
+        <seg>&lt;x1/&gt;AMGD(Cost, Residual\_cost, Operating\_time, Period)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;AND&lt;x2/&gt; — операция Логическое "И";</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172432Z" creationid="Марианна" creationdate="20201005T172129Z">
@@ -17188,6 +17196,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AMGD</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093426Z" creationid="Марианна" creationdate="20210402T093426Z">
+        <seg>AMGD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AND Books.year &gt; 2005</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113218Z" creationid="Марианна" creationdate="20200825T113218Z">
@@ -20985,6 +21001,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргументы, числовые выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093605Z" creationid="Марианна" creationdate="20210402T093605Z">
+        <seg>Arguments, numeric expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ассоциативные правила</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103422Z" creationid="Марианна" creationdate="20201208T103422Z">
@@ -23117,6 +23141,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154955Z" creationid="Марианна" creationdate="20210401T154955Z">
         <seg>Returns the year according to the specified date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает годовую амортизацию имущества для указанного периода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093625Z" creationid="Марианна" creationdate="20210402T093625Z">
+        <seg>Returns the annual property depreciation for the specified period.</seg>
       </tuv>
     </tu>
     <tu>
