@@ -27237,6 +27237,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ЗначениеN - числовое выражение, величина которого сравнивается с аргументом Выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094525Z" creationid="Марианна" creationdate="20210402T094525Z">
+        <seg>ValueN - the numeric expression value of which is compared with the Expression argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение\_по\_умолчанию - выражение строкового типа, результат которого возвращается, если Выражение не равно ни одному из ЗначениеN (если не указано, то равно "").</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T094046Z" creationid="Марианна" creationdate="20210402T094046Z">
@@ -37224,6 +37232,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093954Z" creationid="Марианна" creationdate="20210402T093954Z">
         <seg>ResultN - the expression of the string type that is returned if the Expression = ValueN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>РезультатN - значение, которое возвращается, если |ЗначениеN - ВыражениеN| &lt;= Погрешность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T095005Z" creationid="Марианна" creationdate="20210402T095005Z">
+        <seg>ResultN - the value that is returned if |ValueN - ExpressionN| &lt;= Error.</seg>
       </tuv>
     </tu>
     <tu>
