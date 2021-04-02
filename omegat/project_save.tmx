@@ -27277,6 +27277,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение\_по\_умолчанию - выражение числового типа или типа Дата/Время, результат которого возвращается, если Выражение не равно ни одному из ЗначениеN (если не указано, то равно 0).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T101900Z" creationid="Марианна" creationdate="20210402T101900Z">
+        <seg>Default\_value - the expression of the numeric or Date/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165341Z" creationid="Марианна" creationdate="20201111T165341Z">
@@ -37152,6 +37160,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T094118Z" creationid="Марианна" creationdate="20210402T094118Z">
         <seg>Implements IF - THEN - ELSE feature and the function result is related to the string type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализует функциональность IF - THEN - ELSE, при этом результат функции имеет числовой тип или тип Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T102022Z" creationid="Марианна" creationdate="20210402T102022Z">
+        <seg>Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date/Time type.</seg>
       </tuv>
     </tu>
     <tu>
