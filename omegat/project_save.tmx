@@ -6118,6 +6118,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Exp(Степень)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105449Z" creationid="Марианна" creationdate="20210402T105449Z">
+        <seg>&lt;x1/&gt;Exp(Degree)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;F-тест&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114913Z" creationid="Марианна" creationdate="20201214T114913Z">
@@ -6134,10 +6142,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Factorial(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105526Z" creationid="Марианна" creationdate="20210402T105526Z">
+        <seg>&lt;x1/&gt;Factorial(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183338Z" creationid="Марианна" creationdate="20200810T183338Z">
         <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Frac(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105618Z" creationid="Марианна" creationdate="20210402T105618Z">
+        <seg>&lt;x1/&gt;Frac(Argument)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6202,6 +6226,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T065123Z" creationid="Марианна" creationdate="20210203T065123Z">
         <seg>&lt;x1/&gt;Instance&lt;x2/&gt; means Oracle Database Instance (SID) that contains the required data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Int(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105642Z" creationid="Марианна" creationdate="20210402T105642Z">
+        <seg>&lt;x1/&gt;Int(Argument)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6330,6 +6362,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062938Z" creationid="Марианна" creationdate="20200826T062938Z">
         <seg>&lt;x1/&gt;LZO&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ln(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105703Z" creationid="Марианна" creationdate="20210402T105703Z">
+        <seg>&lt;x1/&gt;Ln(Argument)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17868,6 +17908,22 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Exp</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105435Z" creationid="Марианна" creationdate="20210402T105435Z">
+        <seg>Exp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Factorial</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105517Z" creationid="Марианна" creationdate="20210402T105517Z">
+        <seg>Factorial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>False</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100753Z" creationid="Марианна" creationdate="20201011T100753Z">
@@ -17896,6 +17952,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083237Z" creationid="Марианна" creationdate="20201214T083237Z">
         <seg>Forward</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Frac</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105610Z" creationid="Марианна" creationdate="20210402T105610Z">
+        <seg>Frac</seg>
       </tuv>
     </tu>
     <tu>
@@ -18036,6 +18100,14 @@ Warning!</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Int</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105635Z" creationid="Марианна" creationdate="20210402T105635Z">
+        <seg>Int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Integer</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083255Z" creationid="Марианна" creationdate="20201030T083255Z">
@@ -18144,6 +18216,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195123Z" creationid="Марианна" creationdate="20200916T195123Z">
         <seg>The LGD file already contains all required information on the field features (field name, caption, data type, etc.) that enables to export and import data sets with minimum settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ln</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105656Z" creationid="Марианна" creationdate="20210402T105656Z">
+        <seg>Ln</seg>
       </tuv>
     </tu>
     <tu>
@@ -21249,10 +21329,26 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент - положительное числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105716Z" creationid="Марианна" creationdate="20210402T105716Z">
+        <seg>Argument - integer positive numeric expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент - строковое выражение, содержащее дату/время</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T221021Z" creationid="Марианна" creationdate="20210328T221021Z">
         <seg>Argument - the string expression containing date/time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент - целое положительное числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105555Z" creationid="Марианна" creationdate="20210402T105555Z">
+        <seg>Argument - integer positive numeric expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23489,6 +23585,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает дробную часть Аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105632Z" creationid="Марианна" creationdate="20210402T105632Z">
+        <seg>Returns the fractional part of the Argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает значение Выражения, если оно не равно Null, и Значение\_по\_умолчанию в противном случае.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104527Z" creationid="Марианна" creationdate="20210402T104527Z">
@@ -23501,6 +23605,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
         <seg>It returns the value of the &lt;x1/&gt;number&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает косинус заданного угла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105432Z" creationid="Марианна" creationdate="20210402T105432Z">
+        <seg>Returns cosine of the set angle.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23533,6 +23645,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104955Z" creationid="Марианна" creationdate="20210402T104955Z">
         <seg>Returns the absolute value of argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает натуральный логарифм аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105729Z" creationid="Марианна" creationdate="20210402T105729Z">
+        <seg>Returns the natural argument logarithm.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23625,10 +23745,34 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает факториал аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105608Z" creationid="Марианна" creationdate="20210402T105608Z">
+        <seg>Returns the argument factorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает целую часть Аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105653Z" creationid="Марианна" creationdate="20210402T105653Z">
+        <seg>Returns the integer part of the Argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает час по заданной дате/времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215208Z" creationid="Марианна" creationdate="20210328T215208Z">
         <seg>Returns the hour according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает число e в заданной степени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105515Z" creationid="Марианна" creationdate="20210402T105515Z">
+        <seg>Returns e constant in the given degree.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39232,6 +39376,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145715Z" creationid="Марианна" creationdate="20201111T145715Z">
         <seg>Status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Степень -  числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105503Z" creationid="Марианна" creationdate="20210402T105503Z">
+        <seg>Degree - numeric expression.</seg>
       </tuv>
     </tu>
     <tu>
