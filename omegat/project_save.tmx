@@ -6182,6 +6182,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;IsNull(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104050Z" creationid="Марианна" creationdate="20210402T104050Z">
+        <seg>&lt;x1/&gt;IsNull(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Items&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101403Z" creationid="Марианна" creationdate="20201105T101403Z">
@@ -6354,6 +6362,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172423Z" creationid="Марианна" creationdate="20201005T172155Z">
         <seg>&lt;x1/&gt;NOT&lt;x2/&gt; means the Logical "NOT" operator;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;NVL(Выражение &lt;x2/&gt;, Значение\_по\_умолчанию = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104207Z" creationid="Марианна" creationdate="20210402T104207Z">
+        <seg>&lt;x1/&gt;NVL(Expression &lt;x2/&gt;, Default\_value = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17932,6 +17948,14 @@ Warning!</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>IsNull</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104042Z" creationid="Марианна" creationdate="20210402T104042Z">
+        <seg>IsNull</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IsNull(row: number): boolean;
 }
 
@@ -18200,6 +18224,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220128Z" creationid="Марианна" creationdate="20210203T220128Z">
         <seg>NTLM;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>NVL</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104143Z" creationid="Марианна" creationdate="20210402T104143Z">
+        <seg>NVL</seg>
       </tuv>
     </tu>
     <tu>
@@ -21113,6 +21145,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент - любое выражение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104104Z" creationid="Марианна" creationdate="20210402T104104Z">
+        <seg>Argument - any expression;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент - строковое выражение, содержащее дату/время</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T221021Z" creationid="Марианна" creationdate="20210328T221021Z">
@@ -23313,6 +23353,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает логическое значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104140Z" creationid="Марианна" creationdate="20210402T104140Z">
+        <seg>Returns the logical value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает месяц по заданной дате.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215458Z" creationid="Марианна" creationdate="20210328T215458Z">
@@ -24069,6 +24117,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093902Z" creationid="Марианна" creationdate="20210402T093902Z">
         <seg>Expression - the expression value of which is alternately compared with the values of the ValueN arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выражение - любое строковое или числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104224Z" creationid="Марианна" creationdate="20210402T104224Z">
+        <seg>Expression - any string or numeric expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27433,6 +27489,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103512Z" creationid="Марианна" creationdate="20210402T103512Z">
         <seg>Default\_value - the expression, the result of which is returned if the Expression is equal to none of the Values (if it is not stated then it is equal to Null).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение\_по\_умолчанию - необязательный параметр, строковое или числовое выражение, значение которого возвращается, если Выражение равно Null.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104302Z" creationid="Марианна" creationdate="20210402T104302Z">
+        <seg>Default\_value - optional parameter, string or numeric expression value of which is returned if the Expression is equal to Null.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36828,6 +36892,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проверяет, является ли Аргумент пустым.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104123Z" creationid="Марианна" creationdate="20210402T104123Z">
+        <seg>Checks whether the Argument is null.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Прогнозирование временных рядов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T073125Z" creationid="Марианна" creationdate="20201208T073125Z">
@@ -40748,6 +40820,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает значение логического типа TRUE (истина), если Значение содержится в списке, иначе результат равен FALSE (ложь).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104039Z" creationid="Марианна" creationdate="20210402T104039Z">
+        <seg>Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция конвертирует строку, содержащую дату в формат типа "Дата/Время".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T221701Z" creationid="Марианна" creationdate="20210328T221701Z">
@@ -41248,6 +41328,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103942Z" creationid="Марианна" creationdate="20210402T103942Z">
         <seg>Element1,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Элемент2,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103948Z" creationid="Марианна" creationdate="20210402T103948Z">
+        <seg>Element2,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ЭлементN - значения элементов списка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104009Z" creationid="Марианна" creationdate="20210402T104009Z">
+        <seg>ElementN - values of the list elements</seg>
       </tuv>
     </tu>
     <tu>
