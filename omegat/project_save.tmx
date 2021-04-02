@@ -5982,6 +5982,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DecodeV(Выражение, Значение, Результат &lt;x2/&gt;, Значение, Результат&lt;x3/&gt;... &lt;x4/&gt;, Значение\_по\_умолчанию = Null&lt;x5/&gt;)&lt;x6/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103059Z" creationid="Марианна" creationdate="20210402T103059Z">
+        <seg>&lt;x1/&gt;DecodeV(Expression, Value, Result &lt;x2/&gt;, Value, Result&lt;x3/&gt;... &lt;x4/&gt;, Default\_value = Null&lt;x5/&gt;)&lt;x6/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17544,6 +17552,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T102149Z" creationid="Марианна" creationdate="20210402T102149Z">
         <seg>DecodeS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DecodeV</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103021Z" creationid="Марианна" creationdate="20210402T103021Z">
+        <seg>DecodeV</seg>
       </tuv>
     </tu>
     <tu>
