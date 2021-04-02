@@ -23345,6 +23345,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает значение Выражения, если оно не равно Null, и Значение\_по\_умолчанию в противном случае.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104527Z" creationid="Марианна" creationdate="20210402T104527Z">
+        <seg>Returns the Expression value if it is not equal to Null, and Default\_value otherwise.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает значение типа &lt;x1/&gt;number&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
