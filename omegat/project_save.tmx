@@ -6126,6 +6126,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;IFF(Условие, Значение1, Значение2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103810Z" creationid="Марианна" creationdate="20210402T103810Z">
+        <seg>&lt;x1/&gt;IFF(Antecedent, Value1, Value2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;IN(Значение, Элемент1, Элемент2, ..., ЭлементN)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103913Z" creationid="Марианна" creationdate="20210402T103913Z">
+        <seg>&lt;x1/&gt;IN(Value, Element1, Element2, ..., ElementN)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;InputTables[N]&lt;x2/&gt;, где N — номер (индекс) порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143805Z" creationid="Марианна" creationdate="20201102T143805Z">
@@ -17874,6 +17890,22 @@ included between (slash-asterisk)</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>IFF</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103753Z" creationid="Марианна" creationdate="20210402T103753Z">
+        <seg>IFF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>IN</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103837Z" creationid="Марианна" creationdate="20210402T103837Z">
+        <seg>IN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IncludeUpperBound</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222726Z" creationid="Марианна" creationdate="20210218T222726Z">
@@ -23233,6 +23265,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает Значение1, если Условие истинно или Значение2, если ложно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103730Z" creationid="Марианна" creationdate="20210402T103730Z">
+        <seg>Returns Value1 if the Antecedent is true or Value2 if it is false.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает год по заданной дате.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154955Z" creationid="Марианна" creationdate="20210401T154955Z">
@@ -27189,6 +27229,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение - значение искомого элемента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103935Z" creationid="Марианна" creationdate="20210402T103935Z">
+        <seg>Value - value of the target element;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение вещественного типа от 0 до 1.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114319Z" creationid="Марианна" creationdate="20201214T114319Z">
@@ -27321,6 +27369,30 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T093922Z" creationid="Марианна" creationdate="20201009T090605Z">
         <seg>Value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение1,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103650Z" creationid="Марианна" creationdate="20210402T103650Z">
+        <seg>Value1,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение2 - выражения любых типов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103704Z" creationid="Марианна" creationdate="20210402T103704Z">
+        <seg>Value2 - expressions of any types</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение2 - числовые выражения или выражения типа Дата/время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103833Z" creationid="Марианна" creationdate="20210402T103833Z">
+        <seg>Value2 - numeric expressions or expressions of the Date/time type</seg>
       </tuv>
     </tu>
     <tu>
@@ -37364,6 +37436,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результат функции имеет переменный тип</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103751Z" creationid="Марианна" creationdate="20210402T103751Z">
+        <seg>The function result has the variant type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Результат — таблица, количество записей которой соответствует числу кластеров, т.е. данные сгруппированы по кластерам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132213Z" creationid="Марианна" creationdate="20201210T132213Z">
@@ -40248,6 +40328,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Условие - логическое выражение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103645Z" creationid="Марианна" creationdate="20210402T103645Z">
+        <seg>Antecedent - logical expression;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Условия фильтрации в обработчике Фильтр строк</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T071525Z" creationid="Марианна" creationdate="20201111T170037Z">
@@ -41152,6 +41240,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201117Z" creationid="Марианна" creationdate="20200827T200146Z">
         <seg>The item can be only in one list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Элемент1,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T103942Z" creationid="Марианна" creationdate="20210402T103942Z">
+        <seg>Element1,</seg>
       </tuv>
     </tu>
     <tu>
