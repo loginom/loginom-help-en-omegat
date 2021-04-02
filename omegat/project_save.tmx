@@ -5798,6 +5798,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Abs(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104924Z" creationid="Марианна" creationdate="20210402T104924Z">
+        <seg>&lt;x1/&gt;Abs(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;AbsErr(Аргумент1, Аргумент2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105011Z" creationid="Марианна" creationdate="20210402T105011Z">
+        <seg>&lt;x1/&gt;AbsErr(Argument1, Argument2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Adapter&lt;x2/&gt; — необязательный компонент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222225Z" creationid="Марианна" creationdate="20210210T222225Z">
@@ -17324,6 +17340,22 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Abs</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104915Z" creationid="Марианна" creationdate="20210402T104915Z">
+        <seg>Abs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>AbsErr</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104957Z" creationid="Марианна" creationdate="20210402T104957Z">
+        <seg>AbsErr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Active</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083750Z" creationid="Марианна" creationdate="20201030T083750Z">
@@ -21161,6 +21193,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент - числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104940Z" creationid="Марианна" creationdate="20210402T104940Z">
+        <seg>Argument - numeric expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргументы отсутствуют.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215807Z" creationid="Марианна" creationdate="20210328T215807Z">
@@ -23381,6 +23421,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215325Z" creationid="Марианна" creationdate="20210328T215325Z">
         <seg>Returns minutes according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает модуль аргумента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104955Z" creationid="Марианна" creationdate="20210402T104955Z">
+        <seg>Returns the absolute value of argument.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29906,6 +29954,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113529Z" creationid="Марианна" creationdate="20200825T113529Z">
         <seg>The wizard contains several configuration stages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Математические функции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T104913Z" creationid="Марианна" creationdate="20210402T104913Z">
+        <seg>Mathematical Functions</seg>
       </tuv>
     </tu>
     <tu>
