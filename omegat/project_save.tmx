@@ -17532,6 +17532,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DecodeS</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T102149Z" creationid="Марианна" creationdate="20210402T102149Z">
+        <seg>DecodeS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -21323,8 +21331,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В SQL конструкциях возможно использование функции iLIKE, реализующей функциональность LIKE в режиме регистронезависимости символов Unicode.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T135458Z" creationid="Марианна" creationdate="20210210T135458Z">
-        <seg>It is possible to use iLIKE function in the SQL constructions. It implements LIKE functionality in the case insensitivity mode of Unicode characters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T102113Z" creationid="Марианна" creationdate="20210210T135458Z">
+        <seg>It is possible to use iLIKE function in the SQL constructions. It implements LIKE feature in the case insensitivity mode of Unicode characters.</seg>
       </tuv>
     </tu>
     <tu>
