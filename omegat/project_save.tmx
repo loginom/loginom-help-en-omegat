@@ -6622,10 +6622,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;RelErr(Аргумент1, Аргумент2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110139Z" creationid="Марианна" creationdate="20210402T110139Z">
+        <seg>&lt;x1/&gt;RelErr(Argument1, Argument2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ridge&lt;x2/&gt; — один из методов &lt;x3/&gt;понижения размерности&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T141725Z" creationid="Марианна" creationdate="20201215T141725Z">
         <seg>&lt;x1/&gt;Ridge&lt;x2/&gt; is one of the methods used for &lt;x3/&gt;dimension decrease&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Round(Аргумент1 &lt;x2/&gt;, Аргумент2 = 0&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110211Z" creationid="Марианна" creationdate="20210402T110211Z">
+        <seg>&lt;x1/&gt;Round(Argument1 &lt;x2/&gt;, Argument2 = 0&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18620,10 +18636,26 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>RelErr</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110125Z" creationid="Марианна" creationdate="20210402T110125Z">
+        <seg>RelErr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ridge</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083251Z" creationid="Марианна" creationdate="20201214T083251Z">
         <seg>Ridge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Round</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110200Z" creationid="Марианна" creationdate="20210402T110200Z">
+        <seg>Round</seg>
       </tuv>
     </tu>
     <tu>
@@ -18836,6 +18868,14 @@ interface IVariable {</seg>
 
 // View of input variable
 interface IVariable {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Sign</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110332Z" creationid="Марианна" creationdate="20210402T110332Z">
+        <seg>Sign</seg>
       </tuv>
     </tu>
     <tu>
@@ -21425,6 +21465,30 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент - числовое выражение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110058Z" creationid="Марианна" creationdate="20210402T110058Z">
+        <seg>Argument - numeric expression;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент1 - числовое выражение,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110223Z" creationid="Марианна" creationdate="20210402T110223Z">
+        <seg>Argument1 - numeric expression,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент2 - необязательный параметр, количество цифр после запятой, целое число.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110241Z" creationid="Марианна" creationdate="20210402T110241Z">
+        <seg>Argument2 - optional parameter, the number of digits following the decimal point, integer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргументы - любые числовые выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105024Z" creationid="Марианна" creationdate="20210402T105024Z">
@@ -23593,6 +23657,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает аргумент в заданной степени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110123Z" creationid="Марианна" creationdate="20210402T110123Z">
+        <seg>Returns the argument in the given degree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает арккосинус значения, т.е. угол в радианах, косинус которого равен Значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105156Z" creationid="Марианна" creationdate="20210402T105156Z">
@@ -23765,6 +23837,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105957Z" creationid="Марианна" creationdate="20210402T105957Z">
         <seg>Returns remainder from integer division of the Dividend by the Divisor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает относительную погрешность двух аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110157Z" creationid="Марианна" creationdate="20210402T110157Z">
+        <seg>Returns the relative error of two arguments.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33058,6 +33138,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Округляет вещественное число до ближайшего числа, имеющего указанное количество цифр после запятой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110330Z" creationid="Марианна" creationdate="20210402T110330Z">
+        <seg>Rounds up the real number to the nearest number that has the specified number of digits following the decimal point.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он включает левую панель, где отображаются рабочие компоненты и структура решения (пакеты и их составные части), а также непосредственно область построения сценария и визуализации данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140615Z" creationid="Марианна" creationdate="20200716T140615Z">
@@ -39496,6 +39584,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105503Z" creationid="Марианна" creationdate="20210402T105503Z">
         <seg>Degree - numeric expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Степень - числовое выражение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T110109Z" creationid="Марианна" creationdate="20210402T110109Z">
+        <seg>Degree - numeric expression;</seg>
       </tuv>
     </tu>
     <tu>
