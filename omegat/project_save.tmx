@@ -40124,6 +40124,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Финансовые функции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093423Z" creationid="Марианна" creationdate="20210402T093423Z">
+        <seg>Financial Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат - необязательный параметр формат даты/время в терминах D, M, Y, H, N, S, Z</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T221158Z" creationid="Марианна" creationdate="20210328T221158Z">
