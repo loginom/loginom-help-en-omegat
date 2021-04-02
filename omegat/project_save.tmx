@@ -23953,6 +23953,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выражение - любое числовое выражение, величина которого используется для сравнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094412Z" creationid="Марианна" creationdate="20210402T094412Z">
+        <seg>Expression - any numeric expression value of which is used for comparison.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выражение может содержать:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T181004Z" creationid="Марианна" creationdate="20201013T181004Z">
@@ -34126,6 +34134,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082852Z" creationid="Марианна" creationdate="20201214T082852Z">
         <seg>Increased accuracy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Погрешность - числовое выражение, погрешность сравнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094439Z" creationid="Марианна" creationdate="20210402T094439Z">
+        <seg>Error - the numeric expression, comparison error.</seg>
       </tuv>
     </tu>
     <tu>
