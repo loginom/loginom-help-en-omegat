@@ -17516,6 +17516,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DecodeN</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T095206Z" creationid="Марианна" creationdate="20210402T095206Z">
+        <seg>DecodeN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -37136,6 +37144,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T094118Z" creationid="Марианна" creationdate="20210402T094118Z">
         <seg>Implements IF - THEN - ELSE feature and the function result is related to the string type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализует функциональность IF - THEN - ELSE, при этом результат функции, также как и все ее аргументы, имеют числовой тип или тип Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T095201Z" creationid="Марианна" creationdate="20210402T095201Z">
+        <seg>Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date/Time type.</seg>
       </tuv>
     </tu>
     <tu>
