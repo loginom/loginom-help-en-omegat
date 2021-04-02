@@ -7,7 +7,7 @@ This connection also implements the following features of work with [database im
 * Alongside with the standard character collation rules, namely, BINARY, RTRIM and NOCASE, it is possible to use the following ones that are not subject to the SQLite standard.
    * **UNICODE** means the language independent Unicode character collation without case sensitivity.
    * **LOCALIZED** means the language dependent Unicode character collation without case sensitivity. The string comparison result depends on the operational system locale of the Loginom server.
-* It is possible to use iLIKE function in the SQL constructions. It implements LIKE functionality in the case insensitivity mode of Unicode characters.
+* It is possible to use iLIKE function in the SQL constructions. It implements LIKE feature in the case insensitivity mode of Unicode characters.
 * Check by foreign keys is enabled by default.
 
 ## Connection Parameters

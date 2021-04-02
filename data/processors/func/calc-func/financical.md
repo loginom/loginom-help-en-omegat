@@ -1,9 +1,9 @@
-# Финансовые функции
+# Financial Functions
 
 ## AMGD
 
-**AMGD(Стоимость, Остаточная\_стоимость, Время\_эксплуатации, Период)**
+**AMGD(Cost, Residual\_cost, Operating\_time, Period)**
 
-* Аргументы, числовые выражения.
+* Arguments, numeric expressions.
 
-Возвращает годовую амортизацию имущества для указанного периода.
+Returns the annual property depreciation for the specified period.
