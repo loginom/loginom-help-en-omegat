@@ -5870,6 +5870,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ArcCos(Значение)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105047Z" creationid="Марианна" creationdate="20210402T105047Z">
+        <seg>&lt;x1/&gt;ArcCos(Value)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE&lt;x2/&gt; — указывается абсолютный путь до исполняемого файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T231237Z" creationid="Марианна" creationdate="20210218T231237Z">
@@ -17412,6 +17420,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ArcCos</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105039Z" creationid="Марианна" creationdate="20210402T105039Z">
+        <seg>ArcCos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Backward</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083242Z" creationid="Марианна" creationdate="20201214T083242Z">
@@ -21201,6 +21217,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргументы - любые числовые выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105024Z" creationid="Марианна" creationdate="20210402T105024Z">
+        <seg>Arguments - any numeric expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргументы отсутствуют.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215807Z" creationid="Марианна" creationdate="20210328T215807Z">
@@ -23349,6 +23373,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103730Z" creationid="Марианна" creationdate="20210402T103730Z">
         <seg>Returns Value1 if the Antecedent is true or Value2 if it is false.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает абсолютную погрешность двух аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105037Z" creationid="Марианна" creationdate="20210402T105037Z">
+        <seg>Returns the absolute error of two arguments.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27345,6 +27377,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103935Z" creationid="Марианна" creationdate="20210402T103935Z">
         <seg>Value - value of the target element;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение - значение косинуса, для которого необходимо найти угол.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105103Z" creationid="Марианна" creationdate="20210402T105103Z">
+        <seg>Value - the cosine value for which it is required to determine the angle.</seg>
       </tuv>
     </tu>
     <tu>
