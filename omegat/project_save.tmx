@@ -5958,6 +5958,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DecodeF(Выражение, Погрешность, Значение1, Результат1 &lt;x2/&gt;, Значение2, Результат2&lt;x3/&gt;... &lt;x4/&gt;, Значение\_по\_умолчанию = 0&lt;x5/&gt;)&lt;x6/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094349Z" creationid="Марианна" creationdate="20210402T094349Z">
+        <seg>&lt;x1/&gt;DecodeF(Expression, Error, Value1, Result1 &lt;x2/&gt;, Value2, Result2&lt;x3/&gt;... &lt;x4/&gt;, Default\_value = 0&lt;x5/&gt;)&lt;x6/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17500,6 +17508,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DecodeF</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094145Z" creationid="Марианна" creationdate="20210402T094145Z">
+        <seg>DecodeF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -23433,6 +23449,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все выражения РезультатN вычисляются до сравнения Выражения с ЗначениеN.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094142Z" creationid="Марианна" creationdate="20210402T094142Z">
+        <seg>All ResultN expressions are calculated before the Expression and ValueN comparison.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все действия с проектом в Loginom осуществляются в рамках Пакета, который является минимальной единицей поставки и представляет собой контейнер для компонентов, сценариев, подключений и т.д.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111028Z" creationid="Марианна" creationdate="20200713T111028Z">
@@ -27201,6 +27225,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093930Z" creationid="Марианна" creationdate="20210402T093930Z">
         <seg>ValueN - the expression value of which is compared with the Expression argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение\_по\_умолчанию - выражение строкового типа, результат которого возвращается, если Выражение не равно ни одному из ЗначениеN (если не указано, то равно "").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094046Z" creationid="Марианна" creationdate="20210402T094046Z">
+        <seg>Default\_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to "").</seg>
       </tuv>
     </tu>
     <tu>
@@ -37064,6 +37096,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
         <seg>Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "&lt;x1/&gt;black box&lt;x2/&gt;".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализует функциональность IF - THEN - ELSE, при этом результат функции имеет строковый тип.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T094118Z" creationid="Марианна" creationdate="20210402T094118Z">
+        <seg>Implements IF - THEN - ELSE feature and the function result is related to the string type.</seg>
       </tuv>
     </tu>
     <tu>
