@@ -27189,6 +27189,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение по умолчанию - числовое выражение, результат которого возвращается, если ни одно ЗначениеN  не равно Выражению (по умолчанию 0).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T095107Z" creationid="Марианна" creationdate="20210402T095107Z">
+        <seg>Default value - the numeric expression the result of which is returned if none of the ValuesN is equal to the Expression (by default 0).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение по умолчанию — &lt;x3/&gt;Лист 1&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194029Z" creationid="Марианна" creationdate="20200916T194029Z">
