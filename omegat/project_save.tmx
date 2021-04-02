@@ -5878,6 +5878,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ArcSin(Значение)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105205Z" creationid="Марианна" creationdate="20210402T105205Z">
+        <seg>&lt;x1/&gt;ArcSin(Value)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;ArcTan(Значение)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105302Z" creationid="Марианна" creationdate="20210402T105302Z">
+        <seg>&lt;x1/&gt;ArcTan(Value)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE&lt;x2/&gt; — указывается абсолютный путь до исполняемого файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T231237Z" creationid="Марианна" creationdate="20210218T231237Z">
@@ -5906,6 +5922,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144205Z" creationid="Марианна" creationdate="20201102T144205Z">
         <seg>&lt;x1/&gt;Columns&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Cos(Угол)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105407Z" creationid="Марианна" creationdate="20210402T105407Z">
+        <seg>&lt;x1/&gt;Cos(Angle)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17428,6 +17452,22 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ArcSin</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105158Z" creationid="Марианна" creationdate="20210402T105158Z">
+        <seg>ArcSin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ArcTan</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105255Z" creationid="Марианна" creationdate="20210402T105255Z">
+        <seg>ArcTan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Backward</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083242Z" creationid="Марианна" creationdate="20201214T083242Z">
@@ -17528,6 +17568,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083431Z" creationid="Марианна" creationdate="20201030T083431Z">
         <seg>Continuous</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Cos</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105347Z" creationid="Марианна" creationdate="20210402T105347Z">
+        <seg>Cos</seg>
       </tuv>
     </tu>
     <tu>
@@ -23385,6 +23433,30 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает арккосинус значения, т.е. угол в радианах, косинус которого равен Значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105156Z" creationid="Марианна" creationdate="20210402T105156Z">
+        <seg>Returns the value arccosine, namely, the angle in radians the cosine of which is equal to the Value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает арксинус значения, т.е. угол в радианах, синус которого равен Значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105252Z" creationid="Марианна" creationdate="20210402T105252Z">
+        <seg>Returns the value arcsine, namely, the angle in radians the sinus of which is equal to the Value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает арктангенс значения, т.е. угол в радианах, тангенс которого равен Значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105345Z" creationid="Марианна" creationdate="20210402T105345Z">
+        <seg>Returns the value arctangent, namely, the angle in radians the tangent of which is equal to the Value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает год по заданной дате.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154955Z" creationid="Марианна" creationdate="20210401T154955Z">
@@ -27385,6 +27457,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105103Z" creationid="Марианна" creationdate="20210402T105103Z">
         <seg>Value - the cosine value for which it is required to determine the angle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение - значение синуса, для которого необходимо найти угол.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105232Z" creationid="Марианна" creationdate="20210402T105232Z">
+        <seg>Value - the sinus value for which it is required to determine the angle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение - значение тангенса, для которого необходимо найти угол.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105324Z" creationid="Марианна" creationdate="20210402T105324Z">
+        <seg>Value - the tangent value for which it is required to determine the angle.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40244,6 +40332,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T084138Z" creationid="Марианна" creationdate="20200929T084138Z">
         <seg>It is impossible to set the data type and kind for the node-container.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Угол - значение угла в радианах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T105422Z" creationid="Марианна" creationdate="20210402T105422Z">
+        <seg>Angle - angle value in radians.</seg>
       </tuv>
     </tu>
     <tu>
