@@ -5950,6 +5950,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Decode(Выражение, Значение1, Результат1 &lt;x2/&gt;, Значение2, Результат2&lt;x3/&gt;... &lt;x4/&gt;, Значение\_по\_умолчанию = ""&lt;x5/&gt;)&lt;x6/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093816Z" creationid="Марианна" creationdate="20210402T093816Z">
+        <seg>&lt;x1/&gt;Decode(Expression, Value1, Result1 &lt;x2/&gt;, Value2, Result2&lt;x3/&gt;... &lt;x4/&gt;, Default\_value= ""&lt;x5/&gt;)&lt;x6/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse [Firebird]&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184351Z" creationid="Марианна" creationdate="20200810T184351Z">
@@ -17484,6 +17492,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Decode</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093657Z" creationid="Марианна" creationdate="20210402T093657Z">
+        <seg>Decode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -23905,6 +23921,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов ЗначениеN.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093902Z" creationid="Марианна" creationdate="20210402T093902Z">
+        <seg>Expression - the expression value of which is alternately compared with the values of the ValueN arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выражение может содержать:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T181004Z" creationid="Марианна" creationdate="20201013T181004Z">
@@ -27173,6 +27197,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ЗначениеN - выражение, величина которого сравнивается с аргументом Выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093930Z" creationid="Марианна" creationdate="20210402T093930Z">
+        <seg>ValueN - the expression value of which is compared with the Expression argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165341Z" creationid="Марианна" creationdate="20201111T165341Z">
@@ -29386,6 +29418,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170533Z" creationid="Марианна" creationdate="20201005T170533Z">
         <seg>Logical operations:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логические функции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093654Z" creationid="Марианна" creationdate="20210402T093654Z">
+        <seg>Logical Functions</seg>
       </tuv>
     </tu>
     <tu>
@@ -37120,6 +37160,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132213Z" creationid="Марианна" creationdate="20201210T132213Z">
         <seg>Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>РезультатN - выражение строкового типа, которое возвращается, если Выражение = ЗначениеN.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210402T093954Z" creationid="Марианна" creationdate="20210402T093954Z">
+        <seg>ResultN - the expression of the string type that is returned if the Expression = ValueN.</seg>
       </tuv>
     </tu>
     <tu>
