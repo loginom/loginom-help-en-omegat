@@ -6134,6 +6134,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ExpMovingAverage(X{t}, X{t-1} ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125614Z" creationid="Марианна" creationdate="20210405T125614Z">
+        <seg>&lt;x1/&gt;ExpMovingAverage(X{t}, X{t-1} ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;F-тест&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114913Z" creationid="Марианна" creationdate="20201214T114913Z">
@@ -18036,6 +18044,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ExpMovingAverage</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125610Z" creationid="Марианна" creationdate="20210405T125610Z">
+        <seg>ExpMovingAverage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Factorial</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105517Z" creationid="Марианна" creationdate="20210402T105517Z">
@@ -21597,6 +21613,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110241Z" creationid="Марианна" creationdate="20210402T110241Z">
         <seg>Argument2 - optional parameter, the number of digits following the decimal point, integer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргументы - значения числового ряда</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125638Z" creationid="Марианна" creationdate="20210405T125638Z">
+        <seg>Arguments - values of the numeric series</seg>
       </tuv>
     </tu>
     <tu>
@@ -37158,6 +37182,16 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T112730Z" creationid="Марианна" creationdate="20201011T112730Z">
         <seg>It is used to access the supposed dependence of factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применяется для построения пользовательской модели авторегрессии вида
+Прогноз = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125606Z" creationid="Марианна" creationdate="20210405T125606Z">
+        <seg>It is used to create customizable model of the following autoregression type
+Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
     </tu>
     <tu>
