@@ -41696,6 +41696,24 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает строковое представление GUID в указанном формате:
+"N" - 32 цифры;
+"D" - 32 цифры, разделенные дефисами;
+"B" - 32 цифры, разделенные дефисами и заключенные в фигурные скобки;
+"P" - 32 цифры, разделенные дефисами и заключенные в круглые скобки;
+Если формат не указан, то используется формат "B".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T144809Z" creationid="Марианна" creationdate="20210405T144809Z">
+        <seg>Function returns GUID string representation in the specified format:
+"N" - 32 digits;
+"D" - 32 hyphenated digits;
+"B" - 32 hyphenated digits and digits in curved brackets;
+"P" - 32 hyphenated digits and digits in round brackets.
+If the format is not specified, use of "B" format is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция возвращает число - значение CRC32 рассчитанное от заданной строки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T141557Z" creationid="Марианна" creationdate="20210405T141557Z">
