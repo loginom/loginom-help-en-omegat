@@ -35090,6 +35090,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию шестнадцатеричные цифры записываются в верхнем регистре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T144924Z" creationid="Марианна" creationdate="20210405T144924Z">
+        <seg>By default, hexadecimal digits are written in uppercase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию этот параметр отключен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T085155Z" creationid="Марианна" creationdate="20210121T085155Z">
