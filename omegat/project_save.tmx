@@ -5894,6 +5894,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AutoRegression(C, A0, X{t}, A1, X{t-1} ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125216Z" creationid="Марианна" creationdate="20210405T125216Z">
+        <seg>&lt;x1/&gt;AutoRegression(C, A0, X{t}, A1, X{t-1} ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE&lt;x2/&gt; — указывается абсолютный путь до исполняемого файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T231237Z" creationid="Марианна" creationdate="20210218T231237Z">
@@ -17444,6 +17452,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>A0 ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125240Z" creationid="Марианна" creationdate="20210405T125240Z">
+        <seg>A0 ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AMGD</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093426Z" creationid="Марианна" creationdate="20210402T093426Z">
@@ -17556,6 +17572,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>An - коэффициенты регрессии,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125259Z" creationid="Марианна" creationdate="20210405T125259Z">
+        <seg>An - regression coefficients,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Append(): void;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T055618Z" creationid="Марианна" creationdate="20201025T055618Z">
@@ -17588,6 +17612,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AutoRegression</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125211Z" creationid="Марианна" creationdate="20210405T125211Z">
+        <seg>AutoRegression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Backward</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083242Z" creationid="Марианна" creationdate="20201214T083242Z">
@@ -17616,6 +17648,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083222Z" creationid="Марианна" creationdate="20201030T083222Z">
         <seg>Boolean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>C - постоянная,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125237Z" creationid="Марианна" creationdate="20210405T125237Z">
+        <seg>C - constant,</seg>
       </tuv>
     </tu>
     <tu>
@@ -19140,6 +19180,22 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154710Z" creationid="Марианна" creationdate="20210401T154710Z">
         <seg>Week</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>X(t) ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125302Z" creationid="Марианна" creationdate="20210405T125302Z">
+        <seg>X(t) ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>X(t-n) - значения ряда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125319Z" creationid="Марианна" creationdate="20210405T125319Z">
+        <seg>X(t-n) - series values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30864,8 +30920,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Модели функции</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T125149Z" creationid="Марианна" creationdate="20210405T125149Z">
-        <seg> </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T125209Z" creationid="Марианна" creationdate="20210405T125149Z">
+        <seg>Function Models</seg>
       </tuv>
     </tu>
     <tu>
