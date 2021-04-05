@@ -5958,6 +5958,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;CreateGUID(&lt;x2/&gt;Формат = "B", ВерхнийРегистр = True&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T143202Z" creationid="Марианна" creationdate="20210405T143202Z">
+        <seg>&lt;x1/&gt;CreateGUID(&lt;x2/&gt;Format = "B", UpperCase = True&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Data Mining&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055609Z" creationid="Марианна" creationdate="20200812T055609Z">
@@ -17772,6 +17780,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CreateGUID</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T143136Z" creationid="Марианна" creationdate="20210405T143136Z">
+        <seg>CreateGUID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Cлева находится панель компонентов, состоящая из следующих категорий:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125206Z" creationid="Марианна" creationdate="20200819T125206Z">
@@ -23493,6 +23509,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084218Z" creationid="Марианна" creationdate="20201009T084218Z">
         <seg>Package version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ВерхнийРегистр - аргумент логического типа, определяющий регистр символов шестнадцатеричных цифр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T143251Z" creationid="Марианна" creationdate="20210405T143251Z">
+        <seg>UpperCase - argument of the logical type defining the character case of hexadecimal digits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41418,6 +41442,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T221158Z" creationid="Марианна" creationdate="20210328T221158Z">
         <seg>Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат - способ строкового представления GUID ("N", "D", "B", "P").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T143226Z" creationid="Марианна" creationdate="20210405T143226Z">
+        <seg>Format - method of GUID string representation ("N", "D", "B", "P").</seg>
       </tuv>
     </tu>
     <tu>
