@@ -41502,6 +41502,16 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формула вычисления скользящего среднего:
+MA = (X(t) + ... + X(t - n))/n.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141244Z" creationid="Марианна" creationdate="20210405T141244Z">
+        <seg>Formula of the moving average calculation:
+MA = (X(t) + ... + X(t - n))/n.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функции &lt;x3/&gt;Калькулятора&lt;x4/&gt; всегда начинаются с большой буквы, однако, их можно переопределить в коде JS.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T171631Z" creationid="Марианна" creationdate="20201020T171631Z">
