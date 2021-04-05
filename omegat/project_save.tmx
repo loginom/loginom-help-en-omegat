@@ -5910,6 +5910,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;CRC32(Строка)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141443Z" creationid="Марианна" creationdate="20210405T141443Z">
+        <seg>&lt;x1/&gt;CRC32(String)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183414Z" creationid="Марианна" creationdate="20200810T183414Z">
@@ -17720,6 +17728,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222851Z" creationid="Марианна" creationdate="20210218T222851Z">
         <seg>COL8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>CRC32</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141423Z" creationid="Марианна" creationdate="20210405T141423Z">
+        <seg>CRC32</seg>
       </tuv>
     </tu>
     <tu>
@@ -37822,6 +37838,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Прочие функции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141416Z" creationid="Марианна" creationdate="20210405T141416Z">
+        <seg>Other Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T165047Z" creationid="Марианна" creationdate="20201010T165047Z">
@@ -39902,6 +39926,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Строка - строка, для которой расчитывается CRC32 значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141531Z" creationid="Марианна" creationdate="20210405T141531Z">
+        <seg>String is a string for which CRC32 value is calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Строка форматирования: &lt;x1/&gt;"любой текст %M, еще текст %Y, %G"&lt;x2/&gt;, результат &lt;x3/&gt;"любой текст Aug, еще текст 2017, 13"&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060614Z" creationid="Марианна" creationdate="20201119T060614Z">
@@ -41620,6 +41652,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104039Z" creationid="Марианна" creationdate="20210402T104039Z">
         <seg>Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает число - значение CRC32 рассчитанное от заданной строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141557Z" creationid="Марианна" creationdate="20210405T141557Z">
+        <seg>Function returns the number - CRC32 value calculated on the basis of the given string.</seg>
       </tuv>
     </tu>
     <tu>
