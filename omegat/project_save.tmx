@@ -37196,6 +37196,14 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применяется для построения пользовательской модели экспоненциально сглаженного скользящего среднего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T130634Z" creationid="Марианна" creationdate="20210405T130634Z">
+        <seg>Used for construction of the user model of the exponentially smoothed moving average.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084144Z" creationid="Марианна" creationdate="20201009T084144Z">
