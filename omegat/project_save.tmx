@@ -42030,6 +42030,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Экспоненциально сглаженное скользящее среднее, в отличие от простого скользящего среднего придает последним наблюдениям более значимый вес, чем предпоследним, и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T130724Z" creationid="Марианна" creationdate="20210405T130724Z">
+        <seg>An exponentially smoothed moving average, as opposed to a simple moving average, gives the latest observations a more significant weight than the penultimate one, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Экспорт</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T105652Z" creationid="Марианна" creationdate="20200916T105652Z">
