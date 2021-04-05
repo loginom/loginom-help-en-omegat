@@ -6470,6 +6470,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;MovingAverage(X{t}, X{t-1} ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141055Z" creationid="Марианна" creationdate="20210405T141055Z">
+        <seg>&lt;x1/&gt;MovingAverage(X{t}, X{t-1} ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MySQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183356Z" creationid="Марианна" creationdate="20200810T183356Z">
@@ -18536,6 +18544,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215500Z" creationid="Марианна" creationdate="20210328T215500Z">
         <seg>MonthsBetween</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>MovingAverage</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141051Z" creationid="Марианна" creationdate="20210405T141051Z">
+        <seg>MovingAverage</seg>
       </tuv>
     </tu>
     <tu>
@@ -37189,9 +37205,17 @@ It accepts supplementary transaction items that can be taken into account when c
         <seg>Применяется для построения пользовательской модели авторегрессии вида
 Прогноз = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T131722Z" creationid="Марианна" creationdate="20210405T125606Z">
-        <seg>It is used for construction of the customizable model of the following autoregression type
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141003Z" creationid="Марианна" creationdate="20210405T125606Z">
+        <seg>It is used for construction of the user model of the following autoregression type
 Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применяется для построения пользовательской модели простого скользящего среднего в пользовательских моделях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141221Z" creationid="Марианна" creationdate="20210405T141221Z">
+        <seg>It is used for construction of the user model of the simple moving average in the user models.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41466,6 +41490,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164412Z" creationid="Марианна" creationdate="20201005T164412Z">
         <seg>The expression formula can contain the following components:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формула вычисления задается рекуррентным соотношением: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), где EMA(k) - значение экспоненциально сглаженного скользящего среднего в точке k, a - параметр сглаживания, a = 2 / (n + 1), где n - ширина окна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210405T141049Z" creationid="Марианна" creationdate="20210405T141049Z">
+        <seg>Calculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (1 - a) * EMA(t-1), where EMA(k) - the value of exponentially smoothed moving average in point k, a - smoothing parameter, a = 2 / (n + 1), where n - window width.</seg>
       </tuv>
     </tu>
     <tu>
