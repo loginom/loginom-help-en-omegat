@@ -5934,6 +5934,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Chr(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125510Z" creationid="Марианна" creationdate="20210406T125510Z">
+        <seg>&lt;x1/&gt;Chr(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183414Z" creationid="Марианна" creationdate="20200810T183414Z">
@@ -5954,6 +5962,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144205Z" creationid="Марианна" creationdate="20201102T144205Z">
         <seg>&lt;x1/&gt;Columns&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Concat(Строка, Строка &lt;x2/&gt;, ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125609Z" creationid="Марианна" creationdate="20210406T125609Z">
+        <seg>&lt;x1/&gt;Concat(String, String &lt;x2/&gt;, ...</seg>
       </tuv>
     </tu>
     <tu>
@@ -17908,6 +17924,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Chr</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125501Z" creationid="Марианна" creationdate="20210406T125501Z">
+        <seg>Chr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>ClassNumber</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222759Z" creationid="Марианна" creationdate="20210218T222759Z">
@@ -17920,6 +17944,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222616Z" creationid="Марианна" creationdate="20210218T222616Z">
         <seg>ColumnName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Concat</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125550Z" creationid="Марианна" creationdate="20210406T125550Z">
+        <seg>Concat</seg>
       </tuv>
     </tu>
     <tu>
@@ -21945,6 +21977,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент - числовой код символа Unicode в диапазоне &lt;x1/&gt;0, 65535&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125533Z" creationid="Марианна" creationdate="20210406T125533Z">
+        <seg>Argument - numerical code of Unicode character in the range &lt;x1/&gt;0, 65535&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент1 - числовое выражение,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110223Z" creationid="Марианна" creationdate="20210402T110223Z">
@@ -24461,6 +24501,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220727Z" creationid="Марианна" creationdate="20210328T220727Z">
         <seg>Returns seconds according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает символ Unicode по его коду.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125547Z" creationid="Марианна" creationdate="20210406T125547Z">
+        <seg>Returns Unicode character according to its code.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33586,6 +33634,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Объединяет несколько строк в одну.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125640Z" creationid="Марианна" creationdate="20210406T125640Z">
+        <seg>Combines several strings into one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Объект должен быть отнесен к тому кластеру, для которого данная вероятность выше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205457Z" creationid="Марианна" creationdate="20201212T205457Z">
@@ -38270,6 +38326,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пропущенные значения интерпретируются как строки с нулевой длиной, т.е. как "".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125713Z" creationid="Марианна" creationdate="20210406T125713Z">
+        <seg>Null values are interpreted as the strings with zero length, namely, as "".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Процент неправильного отнесение объектов (наблюдений, событий) к одному из заранее известных классов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210114Z" creationid="Марианна" creationdate="20201217T210100Z">
@@ -40462,10 +40526,26 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Строка - строковое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125628Z" creationid="Марианна" creationdate="20210406T125628Z">
+        <seg>String - string expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Строка форматирования: &lt;x1/&gt;"любой текст %M, еще текст %Y, %G"&lt;x2/&gt;, результат &lt;x3/&gt;"любой текст Aug, еще текст 2017, 13"&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060614Z" creationid="Марианна" creationdate="20201119T060614Z">
         <seg>Formatting string: &lt;x1/&gt;"any text %M, another text %Y, %G"&lt;x2/&gt;, result &lt;x3/&gt;"any Aug text, another text 2017, 13"&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125616Z" creationid="Марианна" creationdate="20210406T125616Z">
+        <seg>String&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
