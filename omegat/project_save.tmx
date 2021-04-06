@@ -5902,6 +5902,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Avg(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123729Z" creationid="Марианна" creationdate="20210406T123729Z">
+        <seg>&lt;x1/&gt;Avg(Argument1, Argument2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE&lt;x2/&gt; — указывается абсолютный путь до исполняемого файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T231237Z" creationid="Марианна" creationdate="20210218T231237Z">
@@ -17716,6 +17724,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Avg</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123713Z" creationid="Марианна" creationdate="20210406T123713Z">
+        <seg>Avg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Backward</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083242Z" creationid="Марианна" creationdate="20201214T083242Z">
@@ -24229,6 +24245,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110421Z" creationid="Марианна" creationdate="20210402T110421Z">
         <seg>Returns sinus of the set angle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает среднее арифметическое аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123748Z" creationid="Марианна" creationdate="20210406T123748Z">
+        <seg>Returns arithmetic mean of arguments.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40030,6 +40054,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Статистические функции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123710Z" creationid="Марианна" creationdate="20210406T123710Z">
+        <seg>Statistical Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Статус</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145715Z" creationid="Марианна" creationdate="20201111T145715Z">
@@ -41812,6 +41844,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T114820Z" creationid="Марианна" creationdate="20210328T114820Z">
         <seg>Aggregation Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функции калькулятора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123554Z" creationid="Марианна" creationdate="20210406T123554Z">
+        <seg>Calculator Functions</seg>
       </tuv>
     </tu>
     <tu>
