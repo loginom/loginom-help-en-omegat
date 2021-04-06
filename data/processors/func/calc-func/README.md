@@ -1,2 +1,2 @@
-# Функции калькулятора
+# Calculator Functions
 

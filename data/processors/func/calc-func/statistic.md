@@ -1,89 +1,89 @@
-# Статистические функции
+# Statistical Functions
 
 ## Avg
 
-**Avg(Аргумент1, Аргумент2 ...)**
+**Avg(Argument1, Argument2 ...)**
 
 * Arguments - any numeric expressions.
 
-Возвращает среднее арифметическое аргументов.
+Returns the arithmetic mean of arguments.
 
 ## DKhi2
 
-**DKhi2(Степени\_свободы, Аргумент)**
+**DKhi2(Degrees\_of\_freedom, Argument)**
 
-* Степени\_свободы - число степеней свободы.
-* Аргумент - значение, для которого требуется вычислить плотность распределения.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Argument - value for which it is required to calculate the distribution density.
 
-Функция плотности гамма-распределения хи-квадрат.
+Density function of gamma distribution of Chi-square.
 
 ## FKhi2
 
-**FKhi2(Степени\_свободы, Аргумент)**
+**FKhi2(Degrees\_of\_freedom, Argument)**
 
-* Степени\_свободы - число степеней свободы.
-* Аргумент - значение, для которого требуется вычислить плотность распределения.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Argument - value for which it is required to calculate the distribution density.
 
-Интегральная функция гамма-распределения, равная (1 - односторонняя вероятность распределения хи-квадрат) с n степенями свободы.
+Integral function of gamma distribution equal to (1 - one-sided probability of Chi-square distribution) with n degrees of freedom.
 
 ## InvKhi2
 
-**InvKhi2(Степени\_свободы, Вероятность)**
+**InvKhi2(Degrees\_of\_freedom, Probability)**
 
-* Степени\_свободы - число степеней свободы.
-* Вероятность - вероятность, связанная с гамма-распределением.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Probability - the probability connected with gamma distribution.
 
-Возвращает обратное гамма-распределение для интегральной функции, равной (1 - односторонняя вероятность распределения хи-квадрат). Если p=FKhi2(N, X), то InvKhi2(N, P) = X
+Returns inverse gamma distribution for the integral function equal to (1 - one-sided probability of Chi-square distribution). If p=FKhi2(N, X), then InvKhi2(N, P) = X
 
 ## Max
 
-**Max(Аргумент1, Аргумент2 ...)**
+**Max(Argument1, Argument2 ...)**
 
-* Аргумент1,
-* Аргумент2,
-* ... - числовые выражения.
+* Argument1,
+* Argument2,
+* ... - numeric expressions.
 
-Возвращает максимальное из аргументов.
+Returns the maximum argument.
 
 ## Min
 
-**Min(Аргумент1, Аргумент2 ...)**
+**Min(Argument1, Argument2 ...)**
 
-* Аргумент1,
-* Аргумент2,
-* ... - числовые выражения.
+* Argument1,
+* Argument2,
+* ... - numeric expressions.
 
-Возвращает минимальное из аргументов.
+Returns the minimum argument.
 
 ## PKhi2
 
-**PKhi2(Степени\_свободы, Аргумент)**
+**PKhi2(Degrees\_of\_freedom, Argument)**
 
-* Степени\_свободы - число степеней свободы.
-* Аргумент - значение, для которого требуется вычислить плотность распределения.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Argument - value for which it is required to calculate the distribution density.
 
-Возвращает одностороннюю вероятность распределения хи-квадрат.
+Returns one-sided probability of Chi-square distribution.
 
 ## StdDev
 
-**StdDev(Аргумент1, Аргумент2 ...)**
+**StdDev(Argument1, Argument2 ...)**
 
 * Arguments - any numeric expressions.
 
-Возвращает стандартное отклонение аргументов.
+Returns the standard deviation of arguments.
 
 ## Sum
 
-**Sum(Аргумент1, Аргумент2 ...)**
+**Sum(Argument1, Argument2 ...)**
 
 * Arguments - any numeric expressions.
 
-Возвращает  сумму аргументов.
+Returns the sum of arguments.
 
 ## SumSq
 
-**SumSq(Аргумент1, Аргумент2 ...)**
+**SumSq(Argument1, Argument2 ...)**
 
 * Arguments - any numeric expressions.
 
-Возвращает сумму квадратов аргументов.
+Returns the sum of squared arguments.
