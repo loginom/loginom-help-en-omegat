@@ -6526,6 +6526,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Min(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124342Z" creationid="Марианна" creationdate="20210406T124342Z">
+        <seg>&lt;x1/&gt;Min(Argument1, Argument2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Minute(ДатаВремя)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215232Z" creationid="Марианна" creationdate="20210328T215232Z">
@@ -6650,6 +6658,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135646Z" creationid="Марианна" creationdate="20201210T135646Z">
         <seg>&lt;x1/&gt;P-value&lt;x2/&gt; of Wald criterion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;PKhi2(Степени\_свободы, Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124411Z" creationid="Марианна" creationdate="20210406T124411Z">
+        <seg>&lt;x1/&gt;PKhi2(Degrees\_of\_freedom, Argument)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6942,10 +6958,34 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;StdDev(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124446Z" creationid="Марианна" creationdate="20210406T124446Z">
+        <seg>&lt;x1/&gt;StdDev(Argument1, Argument2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;StrToDate(Аргумент &lt;x2/&gt;, Формат&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220956Z" creationid="Марианна" creationdate="20210328T220956Z">
         <seg>&lt;x1/&gt;StrToDate(Argument &lt;x2/&gt;, Format&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Sum(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124602Z" creationid="Марианна" creationdate="20210406T124602Z">
+        <seg>&lt;x1/&gt;Sum(Argument1, Argument2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SumSq(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124635Z" creationid="Марианна" creationdate="20210406T124635Z">
+        <seg>&lt;x1/&gt;SumSq(Argument1, Argument2 ...)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18716,6 +18756,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Min</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124332Z" creationid="Марианна" creationdate="20210406T124332Z">
+        <seg>Min</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>MinYear</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112919Z" creationid="Марианна" creationdate="20200825T112919Z">
@@ -18858,6 +18906,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T133851Z" creationid="Марианна" creationdate="20201221T133851Z">
         <seg>P(n) &lt;x3/&gt;}&lt;x4/&gt; =&gt; Class(i) where P(n) — input parameter, Class(i) — one of the classes known in advance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PKhi2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124357Z" creationid="Марианна" creationdate="20210406T124357Z">
+        <seg>PKhi2</seg>
       </tuv>
     </tu>
     <tu>
@@ -19256,6 +19312,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>StdDev</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124433Z" creationid="Марианна" creationdate="20210406T124433Z">
+        <seg>StdDev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Stepwise</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083247Z" creationid="Марианна" creationdate="20201214T083247Z">
@@ -19284,6 +19348,22 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
         <seg>Studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Sum</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124554Z" creationid="Марианна" creationdate="20210406T124554Z">
+        <seg>Sum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SumSq</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124622Z" creationid="Марианна" creationdate="20210406T124622Z">
+        <seg>SumSq</seg>
       </tuv>
     </tu>
     <tu>
@@ -24089,6 +24169,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает  сумму аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124619Z" creationid="Марианна" creationdate="20210406T124619Z">
+        <seg>Returns the sum of arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает Значение1, если Условие истинно или Значение2, если ложно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103730Z" creationid="Марианна" creationdate="20210402T103730Z">
@@ -24249,6 +24337,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает минимальное из аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124355Z" creationid="Марианна" creationdate="20210406T124355Z">
+        <seg>Returns the minimum argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает минуты по заданной дате/времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215325Z" creationid="Марианна" creationdate="20210328T215325Z">
@@ -24301,6 +24397,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101550Z" creationid="Марианна" creationdate="20201105T101550Z">
         <seg>It returns the object implementing the &lt;x1/&gt;IVariableItems&lt;x2/&gt; interface (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает одностороннюю вероятность распределения хи-квадрат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124430Z" creationid="Марианна" creationdate="20210406T124430Z">
+        <seg>Returns one-sided probability of Chi-square distribution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24371,8 +24475,16 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Возвращает среднее арифметическое аргументов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T123748Z" creationid="Марианна" creationdate="20210406T123748Z">
-        <seg>Returns arithmetic mean of arguments.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124550Z" creationid="Марианна" creationdate="20210406T123748Z">
+        <seg>Returns the arithmetic mean of arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает стандартное отклонение аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124541Z" creationid="Марианна" creationdate="20210406T124541Z">
+        <seg>Returns the standard deviation of arguments.</seg>
       </tuv>
     </tu>
     <tu>
