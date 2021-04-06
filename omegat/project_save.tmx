@@ -18364,6 +18364,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Find</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130032Z" creationid="Марианна" creationdate="20210406T130032Z">
+        <seg>Find</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Firebird/InterBase® driver</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T113436Z" creationid="Марианна" creationdate="20210202T113436Z">
