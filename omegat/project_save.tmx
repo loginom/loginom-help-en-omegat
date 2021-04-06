@@ -24505,6 +24505,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает сумму квадратов аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124653Z" creationid="Марианна" creationdate="20210406T124653Z">
+        <seg>Returns the sum of squared arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает тангенс заданного угла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110508Z" creationid="Марианна" creationdate="20210402T110508Z">
