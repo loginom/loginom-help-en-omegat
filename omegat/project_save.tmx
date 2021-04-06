@@ -5974,6 +5974,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DKhi2(Степени\_свободы, Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123840Z" creationid="Марианна" creationdate="20210406T123840Z">
+        <seg>&lt;x1/&gt;DKhi2(Degrees\_of\_freedom, Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Data Mining&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055609Z" creationid="Марианна" creationdate="20200812T055609Z">
@@ -6194,6 +6202,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173821Z" creationid="Марианна" creationdate="20201005T173821Z">
         <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; denotes the false value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;FKhi2(Степени\_свободы, Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124004Z" creationid="Марианна" creationdate="20210406T124004Z">
+        <seg>&lt;x1/&gt;FKhi2(Degrees\_of\_freedom, Argument)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17876,6 +17892,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DKhi2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123751Z" creationid="Марианна" creationdate="20210406T123751Z">
+        <seg>DKhi2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Data</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T121024Z" creationid="Марианна" creationdate="20210406T121024Z">
@@ -18184,6 +18208,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T125610Z" creationid="Марианна" creationdate="20210405T125610Z">
         <seg>ExpMovingAverage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>FKhi2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123947Z" creationid="Марианна" creationdate="20210406T123947Z">
+        <seg>FKhi2</seg>
       </tuv>
     </tu>
     <tu>
@@ -21805,6 +21837,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110241Z" creationid="Марианна" creationdate="20210402T110241Z">
         <seg>Argument2 - optional parameter, the number of digits following the decimal point, integer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент - значение, для которого требуется вычислить плотность распределения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123930Z" creationid="Марианна" creationdate="20210406T123930Z">
+        <seg>Argument - value for which it is required to calculate the distribution density.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40070,6 +40110,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Степени\_свободы - число степеней свободы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123905Z" creationid="Марианна" creationdate="20210406T123905Z">
+        <seg>Degrees\_of\_freedom - number of degrees of freedom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Степень -  числовое выражение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105503Z" creationid="Марианна" creationdate="20210402T105503Z">
@@ -42038,6 +42086,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T221701Z" creationid="Марианна" creationdate="20210328T221701Z">
         <seg>Function converts the string containing the date into the "Date/Time" format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция плотности гамма-распределения хи-квадрат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123945Z" creationid="Марианна" creationdate="20210406T123945Z">
+        <seg>Density function of gamma distribution of Chi-square.</seg>
       </tuv>
     </tu>
     <tu>
