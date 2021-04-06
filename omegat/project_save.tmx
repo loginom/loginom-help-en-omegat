@@ -40306,6 +40306,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так как GUID будет генерироваться каждый раз при получении значения выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то в общем случае рекомендуется при наличии параметра выражения "Кэшировать" включить эту опцию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T121017Z" creationid="Марианна" creationdate="20210406T121017Z">
+        <seg>As GUID will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache" expression parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Так как текущая дата - это дата вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154702Z" creationid="Марианна" creationdate="20210401T154702Z">
