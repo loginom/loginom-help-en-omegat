@@ -36626,6 +36626,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При использовании данной функции необходимо в окне "Параметры выражения" установить флаг "Кэшировать рассчитанные значения выражения".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122702Z" creationid="Марианна" creationdate="20210406T122702Z">
+        <seg>When using this function, it is required to select "Cache the calculated expression values" checkbox in the "Expression parameters" window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При использовании относительных путей в корневом модуле (скрипте, который содержит редактор кода узла):</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085819Z" creationid="Марианна" creationdate="20201102T085819Z">
@@ -41740,6 +41748,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104039Z" creationid="Марианна" creationdate="20210402T104039Z">
         <seg>Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение поля ИмяСтолбца взятое из строки НомерСтроки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T121947Z" creationid="Марианна" creationdate="20210406T121947Z">
+        <seg>Function returns the ColumnName field value taken from the RowNumber row.</seg>
       </tuv>
     </tu>
     <tu>
