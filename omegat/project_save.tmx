@@ -18396,6 +18396,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Format</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130734Z" creationid="Марианна" creationdate="20210406T130734Z">
+        <seg>Format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Forward</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083237Z" creationid="Марианна" creationdate="20201214T083237Z">
