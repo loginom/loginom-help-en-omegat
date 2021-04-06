@@ -676,6 +676,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>... - числовые выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124315Z" creationid="Марианна" creationdate="20210406T124315Z">
+        <seg>... - numeric expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/* Многострочным комментарием</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062828Z" creationid="Марианна" creationdate="20201014T062828Z">
@@ -6326,6 +6334,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;InvKhi2(Степени\_свободы, Вероятность)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124104Z" creationid="Марианна" creationdate="20210406T124104Z">
+        <seg>&lt;x1/&gt;InvKhi2(Degrees\_of\_freedom, Probability)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;IsNull(row, col)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145615Z" creationid="Марианна" creationdate="20201102T145615Z">
@@ -6490,6 +6506,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183352Z" creationid="Марианна" creationdate="20200810T183352Z">
         <seg>&lt;x1/&gt;MS SQL&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Max(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124246Z" creationid="Марианна" creationdate="20210406T124246Z">
+        <seg>&lt;x1/&gt;Max(Argument1, Argument2 ...)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18420,6 +18444,14 @@ Warning!</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>InvKhi2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124039Z" creationid="Марианна" creationdate="20210406T124039Z">
+        <seg>InvKhi2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IsNull</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104042Z" creationid="Марианна" creationdate="20210402T104042Z">
@@ -18560,6 +18592,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122834Z" creationid="Марианна" creationdate="20210406T122834Z">
         <seg>MD5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Max</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124229Z" creationid="Марианна" creationdate="20210406T124229Z">
+        <seg>Max</seg>
       </tuv>
     </tu>
     <tu>
@@ -21833,10 +21873,26 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент1,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124249Z" creationid="Марианна" creationdate="20210406T124249Z">
+        <seg>Argument1,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент2 - необязательный параметр, количество цифр после запятой, целое число.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110241Z" creationid="Марианна" creationdate="20210402T110241Z">
         <seg>Argument2 - optional parameter, the number of digits following the decimal point, integer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент2,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124252Z" creationid="Марианна" creationdate="20210406T124252Z">
+        <seg>Argument2,</seg>
       </tuv>
     </tu>
     <tu>
@@ -23649,6 +23705,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вероятность - вероятность, связанная с гамма-распределением.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124127Z" creationid="Марианна" creationdate="20210406T124127Z">
+        <seg>Probability - the probability connected with gamma distribution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вероятность события|Прогноз.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194628Z" creationid="Марианна" creationdate="20201215T194628Z">
@@ -24169,6 +24233,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает максимальное из аргументов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124329Z" creationid="Марианна" creationdate="20210406T124329Z">
+        <seg>Returns the maximum argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает месяц по заданной дате.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215458Z" creationid="Марианна" creationdate="20210328T215458Z">
@@ -24205,6 +24277,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154856Z" creationid="Марианна" creationdate="20210401T154856Z">
         <seg>Returns the week number of the year by the set date according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает обратное гамма-распределение для интегральной функции, равной (1 - односторонняя вероятность распределения хи-квадрат).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124206Z" creationid="Марианна" creationdate="20210406T124206Z">
+        <seg>Returns inverse gamma distribution for the integral function equal to (1 - one-sided probability of Chi-square distribution).</seg>
       </tuv>
     </tu>
     <tu>
@@ -27347,6 +27427,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если p=FKhi2(N, X), то InvKhi2(N, P) = X</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124226Z" creationid="Марианна" creationdate="20210406T124226Z">
+        <seg>If p=FKhi2(N, X), then InvKhi2(N, P) = X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если авторизация для выполнения запроса отличается от авторизации для получения WSDL, то необходимо снять флаг и настроить необходимые параметры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T132739Z" creationid="Марианна" creationdate="20210209T162623Z">
@@ -29069,6 +29157,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
         <seg>Property Inspector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интегральная функция гамма-распределения, равная (1 - односторонняя вероятность распределения хи-квадрат) с n степенями свободы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T124036Z" creationid="Марианна" creationdate="20210406T124036Z">
+        <seg>Integral function of gamma distribution equal to (1 - one-sided probability of Chi-square distribution) with n degrees of freedom.</seg>
       </tuv>
     </tu>
     <tu>
