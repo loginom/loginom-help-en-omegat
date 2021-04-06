@@ -6262,6 +6262,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Find(Подстрока, Строка&lt;x2/&gt;, Порядок = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130144Z" creationid="Марианна" creationdate="20210406T130144Z">
+        <seg>&lt;x1/&gt;Find(Substring, String&lt;x2/&gt;, MatchIndex = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183338Z" creationid="Марианна" creationdate="20200810T183338Z">
@@ -22025,6 +22033,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент числового типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130339Z" creationid="Марианна" creationdate="20210406T130339Z">
+        <seg>Argument of the numeric type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент1 - числовое выражение,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110223Z" creationid="Марианна" creationdate="20210402T110223Z">
@@ -35914,6 +35930,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подстрока - искомая подстрока,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130207Z" creationid="Марианна" creationdate="20210406T130207Z">
+        <seg>Substring - searched substring,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Позволяет выбрать строки с которыми будут сравниваться значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204623Z" creationid="Марианна" creationdate="20200829T204623Z">
@@ -36334,6 +36358,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T090708Z" creationid="Марианна" creationdate="20201009T090708Z">
         <seg>The ports interacting with the sets of variables are graphically displayed as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порядок - необязательный параметр, позицию какого по счету вхождения Подстроки в Строку возвращать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130325Z" creationid="Марианна" creationdate="20210406T130325Z">
+        <seg>MatchIndex - optional occurrence index of the Substring in the String to be returned.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40562,6 +40594,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064304Z" creationid="Марианна" creationdate="20201023T064304Z">
         <seg>StroyRynok</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка - строка, в которой ищется подстрока,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130225Z" creationid="Марианна" creationdate="20210406T130225Z">
+        <seg>String - the string in which substring is searched,</seg>
       </tuv>
     </tu>
     <tu>
