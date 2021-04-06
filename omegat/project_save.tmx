@@ -6550,6 +6550,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Null()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123034Z" creationid="Марианна" creationdate="20210406T123034Z">
+        <seg>&lt;x1/&gt;Null()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ODBC&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183359Z" creationid="Марианна" creationdate="20200810T183359Z">
@@ -6682,6 +6690,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185309Z" creationid="Марианна" creationdate="20200810T184341Z">
         <seg>&lt;x1/&gt;REST service&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Random()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123056Z" creationid="Марианна" creationdate="20210406T123056Z">
+        <seg>&lt;x1/&gt;Random()&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18684,6 +18700,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Null</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123031Z" creationid="Марианна" creationdate="20210406T123031Z">
+        <seg>Null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>OutputTable.Append();</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155405Z" creationid="Марианна" creationdate="20201025T155405Z">
@@ -18816,6 +18840,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T183843Z" creationid="Марианна" creationdate="20210225T183843Z">
         <seg>REST service will get as many requests as there are rows in the input data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Random</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123052Z" creationid="Марианна" creationdate="20210406T123052Z">
+        <seg>Random</seg>
       </tuv>
     </tu>
     <tu>
@@ -24125,6 +24157,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215711Z" creationid="Марианна" creationdate="20210328T215711Z">
         <seg>Returns the total number of months between two dates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает псевдослучайное равномерно распределенное число, большее или равное 0 и меньше 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123121Z" creationid="Марианна" creationdate="20210406T123121Z">
+        <seg>Returns pseudorandom evenly distributed number larger or equal to 0 and less than 1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40410,6 +40450,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так как случайное число будет генерироваться каждый раз при получении значения выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то в общем случае рекомендуется при наличии параметра выражения "Кэшировать" включить эту опцию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123204Z" creationid="Марианна" creationdate="20210406T123204Z">
+        <seg>As a random number will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache" expression parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Так как текущая дата - это дата вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154702Z" creationid="Марианна" creationdate="20210401T154702Z">
@@ -41728,6 +41776,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает HEX значение MD5 рассчитанное от заданной строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123024Z" creationid="Марианна" creationdate="20210406T123024Z">
+        <seg>Function returns HEX value MD5 calculated on the basis of the given string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция возвращает время, сформированное из указанных аргументов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T214834Z" creationid="Марианна" creationdate="20210328T214834Z">
@@ -41820,6 +41876,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122810Z" creationid="Марианна" creationdate="20210406T122810Z">
         <seg>Function returns the caption (display name) according to the field name, variable or expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает пустое значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123049Z" creationid="Марианна" creationdate="20210406T123049Z">
+        <seg>Function returns the null value.</seg>
       </tuv>
     </tu>
     <tu>
