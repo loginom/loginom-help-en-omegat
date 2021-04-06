@@ -5974,6 +5974,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Data("ИмяСтолбца",НомерСтроки)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T121122Z" creationid="Марианна" creationdate="20210406T121122Z">
+        <seg>&lt;x1/&gt;Data("ColumnName",RowNumber)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;DatabaseName&lt;x2/&gt; — имя базы, содержащей необходимые данные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T152001Z" creationid="Марианна" creationdate="20210201T152001Z">
@@ -17796,6 +17804,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Data</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T121024Z" creationid="Марианна" creationdate="20210406T121024Z">
+        <seg>Data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Data Mining</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T134119Z" creationid="Марианна" creationdate="20201210T134119Z">
@@ -28825,6 +28841,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ИмяСтолбца - имя столбца, данные которого необходимо получить</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T121322Z" creationid="Марианна" creationdate="20210406T121322Z">
+        <seg>ColumnName - return value column name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Индекс заданного события.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195219Z" creationid="Марианна" creationdate="20201215T195219Z">
@@ -32686,6 +32710,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T185130Z" creationid="Марианна" creationdate="20210220T151836Z">
         <seg>Number of the input data set row means the number of the string which contains a document.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>НомерСтроки - номер строки, значение которой необходимо получить</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T121700Z" creationid="Марианна" creationdate="20210406T121700Z">
+        <seg>RowNumber - return value row number</seg>
       </tuv>
     </tu>
     <tu>
