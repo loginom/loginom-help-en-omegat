@@ -6726,10 +6726,34 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;RowCount()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123211Z" creationid="Марианна" creationdate="20210406T123211Z">
+        <seg>&lt;x1/&gt;RowCount()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;RowCount&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144709Z" creationid="Марианна" creationdate="20201102T144709Z">
         <seg>&lt;x1/&gt;RowCount&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;RowNum()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123247Z" creationid="Марианна" creationdate="20210406T123247Z">
+        <seg>&lt;x1/&gt;RowNum()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SHA1(Строка)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123328Z" creationid="Марианна" creationdate="20210406T123328Z">
+        <seg>&lt;x1/&gt;SHA1(String)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18876,6 +18900,22 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>RowCount</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123207Z" creationid="Марианна" creationdate="20210406T123207Z">
+        <seg>RowCount</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>RowNum</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123244Z" creationid="Марианна" creationdate="20210406T123244Z">
+        <seg>RowNum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>S — мощность (площадь) кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082336Z" creationid="Марианна" creationdate="20201210T082336Z">
@@ -18948,6 +18988,14 @@ WHERE</seg>
       <tuv lang="en" changeid="Марианна" changedate="20200825T113208Z" creationid="Марианна" creationdate="20200825T113208Z">
         <seg>SELECT * FROM Books JOIN Publisher ON Books.PubId = Pub.Id
 WHERE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SHA1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123312Z" creationid="Марианна" creationdate="20210406T123312Z">
+        <seg>SHA1</seg>
       </tuv>
     </tu>
     <tu>
@@ -40110,6 +40158,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Строка - строка, для которой расчитывается SHA1 значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123356Z" creationid="Марианна" creationdate="20210406T123356Z">
+        <seg>String is a string for which SHA1 value is calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Строка форматирования: &lt;x1/&gt;"любой текст %M, еще текст %Y, %G"&lt;x2/&gt;, результат &lt;x3/&gt;"любой текст Aug, еще текст 2017, 13"&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060614Z" creationid="Марианна" creationdate="20201119T060614Z">
@@ -41784,6 +41840,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает HEX значение SHA1 рассчитанное от заданной строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123427Z" creationid="Марианна" creationdate="20210406T123427Z">
+        <seg>Function returns HEX value SHA1 calculated on the basis of the given string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция возвращает время, сформированное из указанных аргументов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T214834Z" creationid="Марианна" creationdate="20210328T214834Z">
@@ -41880,6 +41944,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Функция возвращает номер текущей записи источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123309Z" creationid="Марианна" creationdate="20210406T123309Z">
+        <seg>Function returns the current record number of the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Функция возвращает пустое значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123049Z" creationid="Марианна" creationdate="20210406T123049Z">
@@ -41910,6 +41982,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T141557Z" creationid="Марианна" creationdate="20210405T141557Z">
         <seg>Function returns the number - CRC32 value calculated on the basis of the given string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает число строк в источнике данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T123242Z" creationid="Марианна" creationdate="20210406T123242Z">
+        <seg>Function returns the row count in the data source.</seg>
       </tuv>
     </tu>
     <tu>
