@@ -5982,6 +5982,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Count(Строка)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125734Z" creationid="Марианна" creationdate="20210406T125734Z">
+        <seg>&lt;x1/&gt;Count(String)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Count&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101558Z" creationid="Марианна" creationdate="20201105T101558Z">
@@ -6002,6 +6010,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123840Z" creationid="Марианна" creationdate="20210406T123840Z">
         <seg>&lt;x1/&gt;DKhi2(Degrees\_of\_freedom, Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;DamLevDist(Строка1, Строка2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125821Z" creationid="Марианна" creationdate="20210406T125821Z">
+        <seg>&lt;x1/&gt;DamLevDist(String1, String2)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17972,6 +17988,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Count</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125715Z" creationid="Марианна" creationdate="20210406T125715Z">
+        <seg>Count</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CreateGUID</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T143136Z" creationid="Марианна" creationdate="20210405T143136Z">
@@ -17992,6 +18016,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123751Z" creationid="Марианна" creationdate="20210406T123751Z">
         <seg>DKhi2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>DamLevDist</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125759Z" creationid="Марианна" creationdate="20210406T125759Z">
+        <seg>DamLevDist</seg>
       </tuv>
     </tu>
     <tu>
@@ -24333,6 +24365,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144700Z" creationid="Марианна" creationdate="20201102T144700Z">
         <seg>It returns the value of the &lt;x1/&gt;number&lt;x2/&gt; type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает количество символов в строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125757Z" creationid="Марианна" creationdate="20210406T125757Z">
+        <seg>Returns count of characters in the string.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38678,6 +38718,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Расстояние Дамерау-Левенштейна также называют расстоянием редактирования с учетом перестановок, которое является мерой похожести двух строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125949Z" creationid="Марианна" creationdate="20210406T125949Z">
+        <seg>The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рассчитать &lt;x1/&gt;доверительный интервал&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114655Z" creationid="Марианна" creationdate="20201214T114655Z">
@@ -38802,6 +38850,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103431Z" creationid="Марианна" creationdate="20210402T103338Z">
         <seg>Result - the expression that is returned if the Expression = the Value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат - это минимальное количество операций удалений, вставки, замены и перестановок символов, которое нужно произвести, чтобы преобразовать одну строку в другую.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130030Z" creationid="Марианна" creationdate="20210406T130030Z">
+        <seg>Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40538,6 +40594,22 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060614Z" creationid="Марианна" creationdate="20201119T060614Z">
         <seg>Formatting string: &lt;x1/&gt;"any text %M, another text %Y, %G"&lt;x2/&gt;, result &lt;x3/&gt;"any Aug text, another text 2017, 13"&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка1,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125828Z" creationid="Марианна" creationdate="20210406T125828Z">
+        <seg>String1,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка2 - выражения строкового типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125845Z" creationid="Марианна" creationdate="20210406T125845Z">
+        <seg>String2 - expressions of the string type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42324,6 +42396,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T121947Z" creationid="Марианна" creationdate="20210406T121947Z">
         <seg>Function returns the ColumnName field value taken from the RowNumber row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение расстояния Дамерау-Левенштейна для строк Строка1, Строка2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T125913Z" creationid="Марианна" creationdate="20210406T125913Z">
+        <seg>Function returns the value of the Damerau–Levenshtein distance for String1, String2.</seg>
       </tuv>
     </tu>
     <tu>
