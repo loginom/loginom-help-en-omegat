@@ -6102,6 +6102,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;DisplayName(&lt;x2/&gt;"Имя"&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122718Z" creationid="Марианна" creationdate="20210406T122718Z">
+        <seg>&lt;x1/&gt;DisplayName(&lt;x2/&gt;"Name"&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;EM Кластеризация&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055628Z" creationid="Марианна" creationdate="20200812T055628Z">
@@ -6426,6 +6434,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071114Z" creationid="Марианна" creationdate="20200812T071114Z">
         <seg>&lt;x1/&gt;Loginom data file&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;MD5(Строка)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122852Z" creationid="Марианна" creationdate="20210406T122852Z">
+        <seg>&lt;x1/&gt;MD5(String)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17996,6 +18012,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DisplayName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122704Z" creationid="Марианна" creationdate="20210406T122704Z">
+        <seg>DisplayName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>EM Кластеризация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205833Z" creationid="Марианна" creationdate="20201212T205833Z">
@@ -18440,6 +18464,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T091725Z" creationid="Марианна" creationdate="20200813T091725Z">
         <seg>Loginom — User Manual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>MD5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122834Z" creationid="Марианна" creationdate="20210406T122834Z">
+        <seg>MD5</seg>
       </tuv>
     </tu>
     <tu>
@@ -27595,6 +27627,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если функция вызывается без аргументов, то она возвращает метку текущего вычисляемого выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122832Z" creationid="Марианна" creationdate="20210406T122832Z">
+        <seg>If the function is called without arguments, it returns the caption of the current calculated expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если хотя бы для одной из управляющих переменных узла задано значение, то в мастере настройки появляются переключатели выбора способа задания значений его параметров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082804Z" creationid="Марианна" creationdate="20201009T082725Z">
@@ -28725,6 +28765,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104111Z" creationid="Марианна" creationdate="20201006T104111Z">
         <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя - имя поля, переменной или выражения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122736Z" creationid="Марианна" creationdate="20210406T122736Z">
+        <seg>FieldName - name of field, variable or expression</seg>
       </tuv>
     </tu>
     <tu>
@@ -40014,6 +40062,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Строка - строка, для которой расчитывается MD5 значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122922Z" creationid="Марианна" creationdate="20210406T122922Z">
+        <seg>String is a string for which MD5 value is calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Строка форматирования: &lt;x1/&gt;"любой текст %M, еще текст %Y, %G"&lt;x2/&gt;, результат &lt;x3/&gt;"любой текст Aug, еще текст 2017, 13"&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060614Z" creationid="Марианна" creationdate="20201119T060614Z">
@@ -41756,6 +41812,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T121947Z" creationid="Марианна" creationdate="20210406T121947Z">
         <seg>Function returns the ColumnName field value taken from the RowNumber row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает метку (отображаемое имя) по имени поля, переменной или выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T122810Z" creationid="Марианна" creationdate="20210406T122810Z">
+        <seg>Function returns the caption (display name) according to the field name, variable or expression.</seg>
       </tuv>
     </tu>
     <tu>
