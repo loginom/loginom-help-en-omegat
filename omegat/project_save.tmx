@@ -27667,6 +27667,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если Порядок положительный, то поиск происходит слева направо, если отрицательный, то справа налево.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130524Z" creationid="Марианна" creationdate="20210406T130524Z">
+        <seg>If the MatchIndex is positive, the search is performed from left to right, if it is negative, the search is performed from right to left.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если Порядок равен нулю, то функция возвращает Неопределенное значение (Null).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130732Z" creationid="Марианна" creationdate="20210406T130732Z">
+        <seg>If the MatchIndex is equal to zero, the function will return the Null value (Null).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если авторизация для выполнения запроса отличается от авторизации для получения WSDL, то необходимо снять флаг и настроить необходимые параметры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T132739Z" creationid="Марианна" creationdate="20210209T162623Z">
@@ -27719,6 +27735,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065253Z" creationid="Марианна" creationdate="20200924T065253Z">
         <seg>If all branches have the "false" value, the special &lt;x1/&gt;Otherwise&lt;x2/&gt; branch will be activated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если вхождения заданного порядка нет, то функция возвращает 0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130546Z" creationid="Марианна" creationdate="20210406T130546Z">
+        <seg>If there is no occurrence of the set order, the function returns 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32182,6 +32206,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, Find("A", "A000A00A", 2) вернет позицию второго слева вхождения подстроки "А" в строку "A000A00A", т.е. 5;
+Find("A", "A000A00A", -1) вернет позицию первого справа вхождения подстроки "А" в строку "A000A00A", т.е. 8.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130649Z" creationid="Марианна" creationdate="20210406T130649Z">
+        <seg>For example, Find("A", "A000A00A", 2) will return position of the second left occurrence of substring "A" to string "A000A00A", namely, 5;
+Find("A", "A000A00A", -1) will return position of the first right occurrence of substring "A" to string "A000A00A", namely, 8.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, авторизация через социальные сети.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T201357Z" creationid="Марианна" creationdate="20210208T201357Z">
@@ -36374,6 +36408,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T101436Z" creationid="Марианна" creationdate="20201215T101436Z">
         <seg>It is posssible to change the order of sets (&lt;x1/&gt;Move up&lt;x2/&gt;, &lt;x3/&gt;Move down&lt;x4/&gt; buttons).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порядок может быть как положительным, так и отрицательным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130457Z" creationid="Марианна" creationdate="20210406T130457Z">
+        <seg>The MatchIndex can be both positive and negative.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42468,6 +42510,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123309Z" creationid="Марианна" creationdate="20210406T123309Z">
         <seg>Function returns the current record number of the data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает позицию первого символа Подстроки заданного Порядка в Строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210406T130443Z" creationid="Марианна" creationdate="20210406T130443Z">
+        <seg>Function returns position of the first character of the Substring of the set MatchIndex in the String.</seg>
       </tuv>
     </tu>
     <tu>
