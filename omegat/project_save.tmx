@@ -7174,6 +7174,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Stuff(Источник, Начало\_позиции, Длина &lt;x2/&gt;, Вставляемая\_строка = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095716Z" creationid="Марианна" creationdate="20210407T095716Z">
+        <seg>&lt;x1/&gt;Stuff(Source, Position\_start, Length &lt;x2/&gt;, Inserted_string = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Sum(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124602Z" creationid="Марианна" creationdate="20210406T124602Z">
@@ -19748,6 +19756,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
         <seg>Studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Stuff</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095216Z" creationid="Марианна" creationdate="20210407T095216Z">
+        <seg>Stuff</seg>
       </tuv>
     </tu>
     <tu>
