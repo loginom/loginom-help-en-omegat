@@ -27859,6 +27859,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавляет спереди заданного выражения нули так, чтобы длина результирующей строки равнялась Общей\_длине.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095214Z" creationid="Марианна" creationdate="20210407T095214Z">
+        <seg>Adds zeros at the front of the specified expression so that the resulting string length is equal to the Total\_length.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доверительный интервал прогноза в % от 0 до 100 — значение вещественного типа, по умолчанию 95.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T194007Z" creationid="Марианна" creationdate="20201208T074040Z">
