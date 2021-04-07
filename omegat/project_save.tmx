@@ -6502,6 +6502,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Left(Строка, Количество\_символов)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073205Z" creationid="Марианна" creationdate="20210407T073205Z">
+        <seg>&lt;x1/&gt;Left(String, Count\_of\_characters)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ln(Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105703Z" creationid="Марианна" creationdate="20210402T105703Z">
@@ -18692,6 +18700,22 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Left</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073134Z" creationid="Марианна" creationdate="20210407T073134Z">
+        <seg>Left</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>LevDist</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073241Z" creationid="Марианна" creationdate="20210407T073241Z">
+        <seg>LevDist</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ln</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105656Z" creationid="Марианна" creationdate="20210402T105656Z">
@@ -24377,6 +24401,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает заданное количество символов левой части строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073238Z" creationid="Марианна" creationdate="20210407T073238Z">
+        <seg>Returns the given count of characters of the left string part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает знак аргумента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110353Z" creationid="Марианна" creationdate="20210402T110353Z">
@@ -24597,6 +24629,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110421Z" creationid="Марианна" creationdate="20210402T110421Z">
         <seg>Returns sinus of the set angle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает список выражений в заданном формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073007Z" creationid="Марианна" creationdate="20210407T073007Z">
+        <seg>Returns the list of expressions in the given format.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40672,6 +40712,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Строка - выражение строкового типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073219Z" creationid="Марианна" creationdate="20210407T073219Z">
+        <seg>String - expression of the string type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Строка - строка, в которой ищется подстрока,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T130225Z" creationid="Марианна" creationdate="20210406T130225Z">
@@ -40748,6 +40796,20 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T072932Z" creationid="Марианна" creationdate="20210407T072932Z">
         <seg>Format\_string - string expression of the special type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка\_формата имеет следующий вид:
+&lt;x1/&gt;Строка&lt;x2/&gt; %s &lt;x3/&gt;Строка&lt;x4/&gt; [... [&lt;x5/&gt;Строка&lt;x6/&gt;%s&lt;x7/&gt;Строка&lt;x8/&gt;]]
+Строка - строковое выражение
+%s - символ, на место которого ставится очередное Выражение из списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073129Z" creationid="Марианна" creationdate="20210407T073129Z">
+        <seg>Format\_string is represented below:
+&lt;x1/&gt;String&lt;x2/&gt; %s &lt;x3/&gt;String&lt;x4/&gt; [... [&lt;x5/&gt;String&lt;x6/&gt;%s&lt;x7/&gt;String&lt;x8/&gt;]]
+String - string expression
+%s - character that is replaced by another Expression from the list.</seg>
       </tuv>
     </tu>
     <tu>
