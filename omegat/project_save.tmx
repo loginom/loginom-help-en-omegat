@@ -19340,6 +19340,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Replace</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091500Z" creationid="Марианна" creationdate="20210407T091500Z">
+        <seg>Replace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ridge</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083251Z" creationid="Марианна" creationdate="20201214T083251Z">
