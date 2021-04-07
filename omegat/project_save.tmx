@@ -6934,6 +6934,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Replace(Строка, Старый\_шаблон, Новый\_шаблон &lt;x2/&gt;, Заменять\_все, Игнорировать\_регистр&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091722Z" creationid="Марианна" creationdate="20210407T091722Z">
+        <seg>&lt;x1/&gt;Replace(String, Old\_template, New\_template &lt;x2/&gt;, Replace\_all, Ignore\_case&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ridge&lt;x2/&gt; — один из методов &lt;x3/&gt;понижения размерности&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T141725Z" creationid="Марианна" creationdate="20201215T141725Z">
@@ -40984,6 +40992,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Старый\_шаблон - заменяемая подстрока;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091847Z" creationid="Марианна" creationdate="20210407T091847Z">
+        <seg>Old\_template - the replaced substring;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Статистическая характеристика распределения случайной величины, показывающая среднюю степень разброса значений величины относительно &lt;x1/&gt;математического ожидания&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T204336Z" creationid="Марианна" creationdate="20201210T135427Z">
@@ -41156,6 +41172,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T130225Z" creationid="Марианна" creationdate="20210406T130225Z">
         <seg>String - the string in which substring is searched,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка - строка, в которой необходимо сделать замену;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091807Z" creationid="Марианна" creationdate="20210407T091807Z">
+        <seg>String - the string in which a replacement is required;</seg>
       </tuv>
     </tu>
     <tu>
