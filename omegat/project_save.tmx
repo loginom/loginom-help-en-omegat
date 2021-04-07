@@ -22289,6 +22289,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент логического типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T092718Z" creationid="Марианна" creationdate="20210407T092718Z">
+        <seg>Argument of the logical type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент логического типа;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T092452Z" creationid="Марианна" creationdate="20210407T092452Z">
@@ -29301,6 +29309,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T090021Z" creationid="Марианна" creationdate="20201117T090021Z">
         <seg>And precision is equal to &lt;x1/&gt;5&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Игнорировать\_регистр - флаг чувствительности к регистру при замене.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T092700Z" creationid="Марианна" creationdate="20210407T092700Z">
+        <seg>Ignore\_case - flag of case sensitivity in case of replacement.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42996,6 +43012,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123427Z" creationid="Марианна" creationdate="20210406T123427Z">
         <seg>Function returns HEX value SHA1 calculated on the basis of the given string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает Строку, в которой вхождения Старого шаблона были заменены на Новый шаблон.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T092740Z" creationid="Марианна" creationdate="20210407T092740Z">
+        <seg>Function returns the String in which occurrences of the Old template were substituted with the New template.</seg>
       </tuv>
     </tu>
     <tu>
