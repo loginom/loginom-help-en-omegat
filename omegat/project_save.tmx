@@ -6950,6 +6950,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Right(Строка, Количество\_символов)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093637Z" creationid="Марианна" creationdate="20210407T093637Z">
+        <seg>&lt;x1/&gt;Right(String, Count\_of\_characters)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Round(Аргумент1 &lt;x2/&gt;, Аргумент2 = 0&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110211Z" creationid="Марианна" creationdate="20210402T110211Z">
@@ -7106,6 +7114,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110408Z" creationid="Марианна" creationdate="20210402T110408Z">
         <seg>&lt;x1/&gt;Sin(Angle)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Space(Количество\_пробелов)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093708Z" creationid="Марианна" creationdate="20210407T093708Z">
+        <seg>&lt;x1/&gt;Space(Count\_of\_characters)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19356,10 +19372,26 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Replace("A000а00A", "А", "B") вернет строку "B000а00A".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093556Z" creationid="Марианна" creationdate="20210407T093556Z">
+        <seg>Replace("A000а00A", "А", "B") will return string "B000а00A".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ridge</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083251Z" creationid="Марианна" creationdate="20201214T083251Z">
         <seg>Ridge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Right</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093558Z" creationid="Марианна" creationdate="20210407T093558Z">
+        <seg>Right</seg>
       </tuv>
     </tu>
     <tu>
@@ -19620,6 +19652,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110355Z" creationid="Марианна" creationdate="20210402T110355Z">
         <seg>Sin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Space</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093657Z" creationid="Марианна" creationdate="20210407T093657Z">
+        <seg>Space</seg>
       </tuv>
     </tu>
     <tu>
@@ -24677,6 +24717,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T073238Z" creationid="Марианна" creationdate="20210407T073238Z">
         <seg>Returns the given count of characters of the left string part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает заданное количество символов правой части строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093654Z" creationid="Марианна" creationdate="20210407T093654Z">
+        <seg>Returns the given count of characters of the right string part.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31011,6 +31059,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество\_пробелов - целое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093723Z" creationid="Марианна" creationdate="20210407T093723Z">
+        <seg>Count\_of\_characters - integer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Колонки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061431Z" creationid="Марианна" creationdate="20201023T061431Z">
@@ -32709,6 +32765,16 @@ Find("A", "A000A00A", -1) вернет позицию первого справ�
       <tuv lang="en" changeid="Марианна" changedate="20210406T130649Z" creationid="Марианна" creationdate="20210406T130649Z">
         <seg>For example, Find("A", "A000A00A", 2) will return position of the second left occurrence of substring "A" to string "A000A00A", namely, 5;
 Find("A", "A000A00A", -1) will return position of the first right occurrence of substring "A" to string "A000A00A", namely, 8.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, Replace("A000а00A", "А", "B", True, True) вернет строку "B000B00B" , т.е. заменит все вхождения строки "А" на строку "В" игнорируя регистр символов;
+Replace("A000а00A", "А", "B", True, False) вернет строку "B000а00B".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093542Z" creationid="Марианна" creationdate="20210407T093542Z">
+        <seg>For example, Replace("A000а00A", "А", "B", True, True) will return string "B000B00B", namely, it will replace all occurrences of string "А" with string "В" ignoring the character case;
+Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</seg>
       </tuv>
     </tu>
     <tu>
