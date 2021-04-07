@@ -6846,6 +6846,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExEmail(Вх.Строка &lt;x2/&gt;, Ном.Вхожд = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074244Z" creationid="Марианна" creationdate="20210407T074244Z">
+        <seg>&lt;x1/&gt;RegExEmail(InputString &lt;x2/&gt;, OccurenceNumber = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;RelErr(Аргумент1, Аргумент2)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110139Z" creationid="Марианна" creationdate="20210402T110139Z">
@@ -19180,6 +19188,22 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>RegExEmail</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074203Z" creationid="Марианна" creationdate="20210407T074203Z">
+        <seg>RegExEmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>RegExMatch</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074342Z" creationid="Марианна" creationdate="20210407T074342Z">
+        <seg>RegExMatch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>RelErr</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110125Z" creationid="Марианна" creationdate="20210402T110125Z">
@@ -26947,6 +26971,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для поиска используются регулярные выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074200Z" creationid="Марианна" creationdate="20210407T074200Z">
+        <seg>Regular expressions are used for search.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для полей таблицы необходимо выбрать &lt;x1/&gt;Назначение&lt;x2/&gt; из следующих вариантов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092412Z" creationid="Марианна" creationdate="20201117T092412Z">
@@ -29165,6 +29197,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T063059Z" creationid="Марианна" creationdate="20201012T063059Z">
         <seg>Thus, it is possible to draw a conclusion that the "Tomato paste" item of goods is a complement product, whereas the "Pasta" item of goods is a replacement product.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Извлекает Ном.Вхожд-й Email-адрес из строки Вх.Строка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074337Z" creationid="Марианна" creationdate="20210407T074337Z">
+        <seg>Extracts OccurencesNumber Email-address from the InputString string.</seg>
       </tuv>
     </tu>
     <tu>
