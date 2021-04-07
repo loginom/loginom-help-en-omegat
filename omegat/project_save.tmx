@@ -33540,6 +33540,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>НомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T075916Z" creationid="Марианна" creationdate="20210407T075916Z">
+        <seg>PartNumber - the part index matching the regular expression, input string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Номеров кластеров — каждой транзакции присвоен номер того кластера, в который она входит.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T082009Z" creationid="Марианна" creationdate="20201210T082009Z">
