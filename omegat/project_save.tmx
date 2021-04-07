@@ -6926,6 +6926,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Repeat(Строка, Количество\_повторов)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091409Z" creationid="Марианна" creationdate="20210407T091409Z">
+        <seg>&lt;x1/&gt;Repeat(String, Count\_of\_repeats)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ridge&lt;x2/&gt; — один из методов &lt;x3/&gt;понижения размерности&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T141725Z" creationid="Марианна" creationdate="20201215T141725Z">
@@ -19324,6 +19332,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Repeat</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091336Z" creationid="Марианна" creationdate="20210407T091336Z">
+        <seg>Repeat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ridge</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083251Z" creationid="Марианна" creationdate="20201214T083251Z">
@@ -24505,6 +24521,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает Вх.Строка, в которой все вхождения выражения Рег.Выр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091321Z" creationid="Марианна" creationdate="20210407T091321Z">
+        <seg>Returns the InputString in which all occurrences of the RegularExpression expression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает Значение1, если Условие истинно или Значение2, если ложно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103730Z" creationid="Марианна" creationdate="20210402T103730Z">
@@ -24893,6 +24917,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212229Z" creationid="Марианна" creationdate="20210328T212229Z">
         <seg>Returns the string representation of the Date\_time argument.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает строку - повторяющую заданную строку необходимое количество раз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091457Z" creationid="Марианна" creationdate="20210407T091457Z">
+        <seg>Returns a string - repeating the given string as many times as necessary.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30870,6 +30902,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T102738Z" creationid="Марианна" creationdate="20200929T102738Z">
         <seg>In this case, the number of the nesting levels is not limited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество\_повторов - целое выражение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091437Z" creationid="Марианна" creationdate="20210407T091437Z">
+        <seg>Count\_of\_repeats - integer</seg>
       </tuv>
     </tu>
     <tu>
@@ -41198,6 +41238,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>СтрокаЗамены - строка, которая будет вставлена вместо частей входной строки, соответствующих регулярному выражению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091239Z" creationid="Марианна" creationdate="20210407T091239Z">
+        <seg>ReplaceString - the string that will be inserted instead of the input string parts matching the regular expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>СтрокаЗамены - строка, которая будет вставлена вместо части входной строки, оответствующией регулярному выражению;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T090518Z" creationid="Марианна" creationdate="20210407T090518Z">
@@ -43877,6 +43925,14 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>будет заменено на СтрокаЗамены.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T091028Z" creationid="Марианна" creationdate="20210407T091028Z">
+        <seg>will be replaced with the ReplaceString.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>будут заменены на СтрокаЗамены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091329Z" creationid="Марианна" creationdate="20210407T091329Z">
         <seg>will be replaced with the ReplaceString.</seg>
       </tuv>
     </tu>
