@@ -10969,6 +10969,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Контролируемый диапазон&lt;x2/&gt; — ручная настройка диапазона значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101332Z" creationid="Марианна" creationdate="20210407T101332Z">
+        <seg>&lt;x1/&gt;Controlled Range&lt;x2/&gt; means the manual setting of values range.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого узла из списка в загруженном *.xsd-файле.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T190158Z" creationid="Марианна" creationdate="20200929T190158Z">
@@ -29012,6 +29020,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заданное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101435Z" creationid="Марианна" creationdate="20210407T101435Z">
+        <seg>Sert value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заданное число кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T210248Z" creationid="Марианна" creationdate="20201212T210248Z">
@@ -31959,6 +31975,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальное.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101215Z" creationid="Марианна" creationdate="20210407T101215Z">
+        <seg>Maximum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Максимум факторов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083118Z" creationid="Марианна" creationdate="20201214T083118Z">
@@ -32331,6 +32355,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133506Z" creationid="Марианна" creationdate="20201210T133506Z">
         <seg>The minimum number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимальное.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101203Z" creationid="Марианна" creationdate="20210407T101203Z">
+        <seg>Minimum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34179,6 +34211,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132334Z" creationid="Марианна" creationdate="20201210T082129Z">
         <seg>Cluster numbers: numbers of the generated clusters are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нормализация непрерывных данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101129Z" creationid="Марианна" creationdate="20210407T101129Z">
+        <seg>Normalization of Continuous Data</seg>
       </tuv>
     </tu>
     <tu>
@@ -43113,6 +43153,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050501Z" creationid="Марианна" creationdate="20201222T050501Z">
         <seg>It is set for other fields by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Устанавливается при переобучении узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101412Z" creationid="Марианна" creationdate="20210407T101412Z">
+        <seg>It is set when retraining the node.</seg>
       </tuv>
     </tu>
     <tu>
