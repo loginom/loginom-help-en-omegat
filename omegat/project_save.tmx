@@ -22289,6 +22289,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент логического типа;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T092452Z" creationid="Марианна" creationdate="20210407T092452Z">
+        <seg>Argument of the logical type;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент числового типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T130339Z" creationid="Марианна" creationdate="20210406T130339Z">
@@ -28807,6 +28815,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221945Z" creationid="Марианна" creationdate="20210218T221945Z">
         <seg>Replace with average</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять\_все - флаг замены всех вхождений Старого шаблона на Новый шаблон.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T092358Z" creationid="Марианна" creationdate="20210407T092358Z">
+        <seg>Replace\_all - flag of replacement of all occurrences of the Old template with the New template.</seg>
       </tuv>
     </tu>
     <tu>
