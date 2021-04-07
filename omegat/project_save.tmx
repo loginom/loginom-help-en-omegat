@@ -6886,6 +6886,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExMatchedNamedSubExp(Рег.Выр., Строка, ИмяГруппы &lt;x2/&gt;, НомерЧасти = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T080311Z" creationid="Марианна" creationdate="20210407T080311Z">
+        <seg>&lt;x1/&gt;RegExMatchedNamedSubExp(RegularExpression, String, GroupName &lt;x2/&gt;, PartNumber = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;RelErr(Аргумент1, Аргумент2)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110139Z" creationid="Марианна" creationdate="20210402T110139Z">
@@ -19252,6 +19260,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>RegExMatchedNamedSubExp</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T080051Z" creationid="Марианна" creationdate="20210407T080051Z">
+        <seg>RegExMatchedNamedSubExp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>RelErr</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110125Z" creationid="Марианна" creationdate="20210402T110125Z">
@@ -24869,6 +24885,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215208Z" creationid="Марианна" creationdate="20210328T215208Z">
         <seg>Returns the hour according to the specified date/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает часть строки, соответствующую регулярному выражению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T080040Z" creationid="Марианна" creationdate="20210407T080040Z">
+        <seg>Returns the string part matching the regular expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34864,6 +34888,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
         <seg>&lt;x1/&gt;Incomplete records processing method&lt;x2/&gt; parameter provides the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр должен входить в диапазон от 1 до RegExMatchCount.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T075943Z" creationid="Марианна" creationdate="20210407T075943Z">
+        <seg>Parameter must be included into the range from 1 to RegExMatchCount.</seg>
       </tuv>
     </tu>
     <tu>
