@@ -6854,6 +6854,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExMatch(Рег.Выр., Строка)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074656Z" creationid="Марианна" creationdate="20210407T074656Z">
+        <seg>&lt;x1/&gt;RegExMatch(RegularExpression, String)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;RelErr(Аргумент1, Аргумент2)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110139Z" creationid="Марианна" creationdate="20210402T110139Z">
@@ -39076,6 +39084,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103539Z" creationid="Марианна" creationdate="20210402T103539Z">
         <seg>Implements IF - THEN - ELSE feature.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рег.Выр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074722Z" creationid="Марианна" creationdate="20210407T074722Z">
+        <seg>RegularExpression</seg>
       </tuv>
     </tu>
     <tu>
