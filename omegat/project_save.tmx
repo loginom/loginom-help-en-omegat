@@ -24529,6 +24529,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает группу части строки, соответствующую регулярному выражению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T080447Z" creationid="Марианна" creationdate="20210407T080447Z">
+        <seg>Returns the string part group matching the regular expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает день недели заданной даты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213546Z" creationid="Марианна" creationdate="20210328T213546Z">
@@ -29645,6 +29653,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143935Z" creationid="Марианна" creationdate="20201207T143935Z">
         <seg>Field_name|Forecast means forecast values of the source time series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ИмяГруппы - имя группы, определяемой метасимволами (...);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T080407Z" creationid="Марианна" creationdate="20210407T080407Z">
+        <seg>GroupName - name of the group defined by metacharacters (...);</seg>
       </tuv>
     </tu>
     <tu>
