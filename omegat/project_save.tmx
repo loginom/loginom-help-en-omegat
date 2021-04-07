@@ -6510,6 +6510,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;LevDist(Строка1, Строка2)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073306Z" creationid="Марианна" creationdate="20210407T073306Z">
+        <seg>&lt;x1/&gt;LevDist(String1, String2)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ln(Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105703Z" creationid="Марианна" creationdate="20210402T105703Z">
@@ -42596,6 +42604,14 @@ MA = (X(t) + ... + X(t - n))/n.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T125913Z" creationid="Марианна" creationdate="20210406T125913Z">
         <seg>Function returns the value of the Damerau–Levenshtein distance for String1, String2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Функция возвращает значение расстояния Левенштейна для строк Строка1, Строка2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073430Z" creationid="Марианна" creationdate="20210407T073410Z">
+        <seg>Function returns the value of the Levenshtein distance for String1, String2.</seg>
       </tuv>
     </tu>
     <tu>
