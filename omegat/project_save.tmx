@@ -30522,6 +30522,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Источник - строковое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095732Z" creationid="Марианна" creationdate="20210407T095732Z">
+        <seg>Source - string expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исходная таблица:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164801Z" creationid="Марианна" creationdate="20201010T164801Z">
