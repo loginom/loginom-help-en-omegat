@@ -25361,10 +25361,26 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выражение - произвольное строковое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T072947Z" creationid="Марианна" creationdate="20210407T072947Z">
+        <seg>Expression - arbitrary string expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выражение может содержать:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T181004Z" creationid="Марианна" creationdate="20201013T181004Z">
         <seg>Expression can contain the following components:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выражение&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T072908Z" creationid="Марианна" creationdate="20210407T072908Z">
+        <seg>Expression&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40724,6 +40740,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T125616Z" creationid="Марианна" creationdate="20210406T125616Z">
         <seg>String&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строка\_формата - строковое выражение специального вида</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T072932Z" creationid="Марианна" creationdate="20210407T072932Z">
+        <seg>Format\_string - string expression of the special type</seg>
       </tuv>
     </tu>
     <tu>
