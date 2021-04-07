@@ -6278,6 +6278,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Format(Строка\_формата, Выражение &lt;x2/&gt;, ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T072852Z" creationid="Марианна" creationdate="20210407T072852Z">
+        <seg>&lt;x1/&gt;Format(Format\_string, Expression &lt;x2/&gt;, ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Frac(Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105618Z" creationid="Марианна" creationdate="20210402T105618Z">
