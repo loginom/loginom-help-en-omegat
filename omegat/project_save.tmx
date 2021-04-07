@@ -6894,6 +6894,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExMatchedSubExp(Рег.Выр., Строка, НомерГруппы &lt;x2/&gt;, НомерЧасти = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090117Z" creationid="Марианна" creationdate="20210407T090117Z">
+        <seg>&lt;x1/&gt;RegExMatchedSubExp(RegularExpression, String, GroupNumber &lt;x2/&gt;, PartNumber = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExReplace(Рег.Выр., Вх.Строка, СтрокаЗамены &lt;x2/&gt;, НомерЧасти = 1, Расш.Синтаксис = False&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090411Z" creationid="Марианна" creationdate="20210407T090411Z">
+        <seg>&lt;x1/&gt;RegExReplace(RegularExpression, InputString, ReplaceString &lt;x2/&gt;, PartNumber = 1, ExtendedSyntax = False&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExReplaceAll(Рег.Выр., Вх.Строка, СтрокаЗамены &lt;x2/&gt;, Расш.Синтаксис = False&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091126Z" creationid="Марианна" creationdate="20210407T091126Z">
+        <seg>&lt;x1/&gt;RegExReplaceAll(RegularExpression, InputString, ReplaceString &lt;x2/&gt;, ExtendedSyntax = False&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;RelErr(Аргумент1, Аргумент2)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110139Z" creationid="Марианна" creationdate="20210402T110139Z">
@@ -19268,6 +19292,30 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>RegExMatchedSubExp</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090026Z" creationid="Марианна" creationdate="20210407T090026Z">
+        <seg>RegExMatchedSubExp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>RegExReplace</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090300Z" creationid="Марианна" creationdate="20210407T090300Z">
+        <seg>RegExReplace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>RegExReplaceAll</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091033Z" creationid="Марианна" creationdate="20210407T091033Z">
+        <seg>RegExReplaceAll</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>RelErr</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110125Z" creationid="Марианна" creationdate="20210402T110125Z">
@@ -24449,6 +24497,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает Вх.Строка, в которой НомерЧасти-ое вхождение выражения Рег.Выр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091015Z" creationid="Марианна" creationdate="20210407T091015Z">
+        <seg>Returns the InputString in which the PartNumber expression occurrence of the RegularExpression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает Значение1, если Условие истинно или Значение2, если ложно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103730Z" creationid="Марианна" creationdate="20210402T103730Z">
@@ -25185,6 +25241,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вх.Строка - входная строка, которая будет подвержена замене;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090432Z" creationid="Марианна" creationdate="20210407T090432Z">
+        <seg>InputString - the input string that will be replaced;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вход</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062716Z" creationid="Марианна" creationdate="20200826T062716Z">
@@ -25893,6 +25957,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T193508Z" creationid="Марианна" creationdate="20201023T193508Z">
         <seg>The grouping enables to perform actions with a data set that are simillar to the SQL request actions using &lt;x1/&gt;GROUP BY&lt;x2/&gt; offer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Группы нумеруются слева направо, в порядке появления открывающихся скобок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T080531Z" creationid="Марианна" creationdate="20210407T080531Z">
+        <seg>Groups are numbered from left to right according to occurrence of opening brackets.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33572,6 +33644,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>НомерГруппы - порядковый номер группы, определяемой метасимволами (...);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090248Z" creationid="Марианна" creationdate="20210407T090248Z">
+        <seg>GroupNumber - index number of the group defined by metacharacters (...);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>НомерСтроки - номер строки, значение которой необходимо получить</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T121700Z" creationid="Марианна" creationdate="20210406T121700Z">
@@ -39160,6 +39240,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Расш.Синтаксис - расширенный синтаксис замены (только для PCRE2)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090623Z" creationid="Марианна" creationdate="20210407T090623Z">
+        <seg>ExtendedSyntax - extended replacement syntax (only for PCRE2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализация методов сервиса</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210216T163729Z" creationid="Марианна" creationdate="20210216T163729Z">
@@ -41106,6 +41194,14 @@ Examples of the time format:
 &lt;x1/&gt;String&lt;x2/&gt; %s &lt;x3/&gt;String&lt;x4/&gt; [... [&lt;x5/&gt;String&lt;x6/&gt;%s&lt;x7/&gt;String&lt;x8/&gt;]]
 String - string expression
 %s - character that is replaced by another Expression from the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>СтрокаЗамены - строка, которая будет вставлена вместо части входной строки, оответствующией регулярному выражению;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T090518Z" creationid="Марианна" creationdate="20210407T090518Z">
+        <seg>ReplaceString - the string that will be inserted instead of the input string part matching the regular expression;</seg>
       </tuv>
     </tu>
     <tu>
@@ -43774,6 +43870,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145816Z" creationid="Марианна" creationdate="20201111T145816Z">
         <seg>August</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>будет заменено на СтрокаЗамены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T091028Z" creationid="Марианна" creationdate="20210407T091028Z">
+        <seg>will be replaced with the ReplaceString.</seg>
       </tuv>
     </tu>
     <tu>
