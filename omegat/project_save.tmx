@@ -7150,10 +7150,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Str(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093916Z" creationid="Марианна" creationdate="20210407T093916Z">
+        <seg>&lt;x1/&gt;Str(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;StrToDate(Аргумент &lt;x2/&gt;, Формат&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220956Z" creationid="Марианна" creationdate="20210328T220956Z">
         <seg>&lt;x1/&gt;StrToDate(Argument &lt;x2/&gt;, Format&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;StrZero(Выражение, Общая\_длина)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T094020Z" creationid="Марианна" creationdate="20210407T094020Z">
+        <seg>&lt;x1/&gt;StrZero(Expression, Total\_length)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19696,10 +19712,26 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Str</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093854Z" creationid="Марианна" creationdate="20210407T093854Z">
+        <seg>Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>StrToDate</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T220933Z" creationid="Марианна" creationdate="20210328T220933Z">
         <seg>StrToDate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>StrZero</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093951Z" creationid="Марианна" creationdate="20210407T093951Z">
+        <seg>StrZero</seg>
       </tuv>
     </tu>
     <tu>
@@ -22261,6 +22293,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223413Z" creationid="Марианна" creationdate="20210218T223413Z">
         <seg>Antisymmetric;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аргумент - выражение числового типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093931Z" creationid="Марианна" creationdate="20210407T093931Z">
+        <seg>Argument - expression of the numeric type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24993,6 +25033,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает строковое представление Аргумента с учетом локали.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093949Z" creationid="Марианна" creationdate="20210407T093949Z">
+        <seg>Returns the Argument as a string taking into account locales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает строковое представление аргумента Дата.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T213157Z" creationid="Марианна" creationdate="20210328T213157Z">
@@ -25773,6 +25821,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T072947Z" creationid="Марианна" creationdate="20210407T072947Z">
         <seg>Expression - arbitrary string expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выражение - числовое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T094127Z" creationid="Марианна" creationdate="20210407T094127Z">
+        <seg>Expression - numeric expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34291,6 +34347,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053534Z" creationid="Марианна" creationdate="20201222T053534Z">
         <seg>The network is trained in the iterative manner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Общая\_длина - длина результирующей строки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T094401Z" creationid="Марианна" creationdate="20210407T094401Z">
+        <seg>Total\_length - length of the resulting string</seg>
       </tuv>
     </tu>
     <tu>
