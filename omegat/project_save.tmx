@@ -40944,6 +40944,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Строка - входная строка;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T075153Z" creationid="Марианна" creationdate="20210407T075153Z">
+        <seg>String - the input string;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Строка - выражение строкового типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T073219Z" creationid="Марианна" creationdate="20210407T073219Z">
