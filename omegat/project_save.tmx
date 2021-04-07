@@ -28499,6 +28499,15 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если флаг "Заменять все" имеет значение True (истина), то в возвращаемой строке будут заменены все
+вхождения Старого Шаблона на Новый шаблон.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093103Z" creationid="Марианна" creationdate="20210407T093103Z">
+        <seg>If "Replace all" flag has the True (true) meaning, then all occurrences of the Old template will be replaced with the New template in the returned string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если флаг активен, зависимости нет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133126Z" creationid="Марианна" creationdate="20201212T210638Z">
