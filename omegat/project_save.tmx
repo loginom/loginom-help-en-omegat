@@ -6542,6 +6542,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Lower(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073659Z" creationid="Марианна" creationdate="20210407T073659Z">
+        <seg>&lt;x1/&gt;Lower(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MD5(Строка)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122852Z" creationid="Марианна" creationdate="20210406T122852Z">
@@ -6826,6 +6834,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123056Z" creationid="Марианна" creationdate="20210406T123056Z">
         <seg>&lt;x1/&gt;Random()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;RegExDomain(Вх.Строка &lt;x2/&gt;, Ном.Вхожд = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073813Z" creationid="Марианна" creationdate="20210407T073813Z">
+        <seg>&lt;x1/&gt;RegExDomain(InputString &lt;x2/&gt;, OccurenceNumber = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18756,6 +18772,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Lower</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073649Z" creationid="Марианна" creationdate="20210407T073649Z">
+        <seg>Lower</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>MD5</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122834Z" creationid="Марианна" creationdate="20210406T122834Z">
@@ -19144,6 +19168,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123052Z" creationid="Марианна" creationdate="20210406T123052Z">
         <seg>Random</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>RegExDomain</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073742Z" creationid="Марианна" creationdate="20210407T073742Z">
+        <seg>RegExDomain</seg>
       </tuv>
     </tu>
     <tu>
@@ -22049,6 +22081,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аргумент - строковое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073726Z" creationid="Марианна" creationdate="20210407T073726Z">
+        <seg>Argument - string expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аргумент - целое положительное числовое выражение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105555Z" creationid="Марианна" creationdate="20210402T105555Z">
@@ -24341,6 +24381,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110123Z" creationid="Марианна" creationdate="20210402T110123Z">
         <seg>Returns the argument in the given degree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает аргумент в нижнем регистре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073739Z" creationid="Марианна" creationdate="20210407T073739Z">
+        <seg>Returns the lowercase argument.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38888,6 +38936,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Расстояние Левенштейна также называют расстоянием редактирования, которое является мерой похожести двух строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073549Z" creationid="Марианна" creationdate="20210407T073549Z">
+        <seg>The Levenshtein distance is also called the edit distance that is the similarity of measurement of the two strings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рассчитать &lt;x1/&gt;доверительный интервал&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114655Z" creationid="Марианна" creationdate="20201214T114655Z">
@@ -39012,6 +39068,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103431Z" creationid="Марианна" creationdate="20210402T103338Z">
         <seg>Result - the expression that is returned if the Expression = the Value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат - это минимальное количество операций удалений, вставки и замены символа, которое нужно произвести, чтобы преобразовать одну строку в другую.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073646Z" creationid="Марианна" creationdate="20210407T073646Z">
+        <seg>Its result is the minimum number of the character deletion, insertion and substitution operations that must be performed in order to transform one string into another.</seg>
       </tuv>
     </tu>
     <tu>
