@@ -7120,8 +7120,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Space(Количество\_пробелов)&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T093708Z" creationid="Марианна" creationdate="20210407T093708Z">
-        <seg>&lt;x1/&gt;Space(Count\_of\_characters)&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093813Z" creationid="Марианна" creationdate="20210407T093708Z">
+        <seg>&lt;x1/&gt;Space(Count\_of\_spaces)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24713,6 +24713,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает заданное количество пробелов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093757Z" creationid="Марианна" creationdate="20210407T093757Z">
+        <seg>Returns the given count of spaces..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает заданное количество символов левой части строки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T073238Z" creationid="Марианна" creationdate="20210407T073238Z">
@@ -31061,8 +31069,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество\_пробелов - целое выражение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T093723Z" creationid="Марианна" creationdate="20210407T093723Z">
-        <seg>Count\_of\_characters - integer.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T093840Z" creationid="Марианна" creationdate="20210407T093723Z">
+        <seg>Count\_of\_spaces - integer.</seg>
       </tuv>
     </tu>
     <tu>
