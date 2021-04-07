@@ -33676,6 +33676,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новый\_шаблон - строка, на которую будет заменяться Старый шаблон;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T092319Z" creationid="Марианна" creationdate="20210407T092319Z">
+        <seg>New\_template - the string with which the Old template will be replaced;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ном.Вхожд - порядковый номер Email-адрес-а, в искомой строке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T073901Z" creationid="Марианна" creationdate="20210407T073901Z">
