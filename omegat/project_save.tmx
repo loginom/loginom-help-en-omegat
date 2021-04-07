@@ -24369,6 +24369,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает Ном.Вхожд-й адрес сайта из строки Вх.Строка не включая www до домена 1-го уровня включительно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T074127Z" creationid="Марианна" creationdate="20210407T074127Z">
+        <seg>Returns OccurencesNumber site address from the InputString string, not including www till the top level domain, inclusively.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает абсолютную погрешность двух аргументов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105037Z" creationid="Марианна" creationdate="20210402T105037Z">
@@ -25053,6 +25061,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T124610Z" creationid="Марианна" creationdate="20210201T151443Z">
         <seg>When the second option based on the manual entering of parameters is used, it is required to provide the colon separated parameters in the string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вх.Строка - входная строка, в которой будет искаться Email-адрес;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073836Z" creationid="Марианна" creationdate="20210407T073836Z">
+        <seg>InputString - the input string in which Email-address will be searched;</seg>
       </tuv>
     </tu>
     <tu>
@@ -33384,6 +33400,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T161023Z" creationid="Марианна" creationdate="20201018T161023Z">
         <seg>There are two types of the new ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ном.Вхожд - порядковый номер Email-адрес-а, в искомой строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T073901Z" creationid="Марианна" creationdate="20210407T073901Z">
+        <seg>OccurenceNumber - the index of Email-address in the searched string.</seg>
       </tuv>
     </tu>
     <tu>
