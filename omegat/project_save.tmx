@@ -7182,6 +7182,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;SubStr(Источник, Начало, Длина)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100113Z" creationid="Марианна" creationdate="20210407T100113Z">
+        <seg>&lt;x1/&gt;SubStr(Source, Start, Length)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Sum(Аргумент1, Аргумент2 ...)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124602Z" creationid="Марианна" creationdate="20210406T124602Z">
@@ -7238,6 +7246,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Trim(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100237Z" creationid="Марианна" creationdate="20210407T100237Z">
+        <seg>&lt;x1/&gt;Trim(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;TrimLeft(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100303Z" creationid="Марианна" creationdate="20210407T100303Z">
+        <seg>&lt;x1/&gt;TrimLeft(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;TrimRight(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100334Z" creationid="Марианна" creationdate="20210407T100334Z">
+        <seg>&lt;x1/&gt;TrimRight(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt; — языконезависимое сравнение символов Unicode без чувствительности к регистру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T134513Z" creationid="Марианна" creationdate="20210210T134236Z">
@@ -7250,6 +7282,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210205T114924Z" creationid="Марианна" creationdate="20210205T114924Z">
         <seg>&lt;x1/&gt;Service URL&lt;x2/&gt;: address of request sending to REST service is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Upper(Аргумент)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100412Z" creationid="Марианна" creationdate="20210407T100412Z">
+        <seg>&lt;x1/&gt;Upper(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Val(Строка)&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100500Z" creationid="Марианна" creationdate="20210407T100500Z">
+        <seg>&lt;x1/&gt;Val(String)&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19768,6 +19816,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SubStr</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100040Z" creationid="Марианна" creationdate="20210407T100040Z">
+        <seg>SubStr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Sum</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124554Z" creationid="Марианна" creationdate="20210406T124554Z">
@@ -19820,6 +19876,30 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083841Z" creationid="Марианна" creationdate="20201030T083841Z">
         <seg>Transaction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Trim</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100227Z" creationid="Марианна" creationdate="20210407T100227Z">
+        <seg>Trim</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>TrimLeft</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100256Z" creationid="Марианна" creationdate="20210407T100256Z">
+        <seg>TrimLeft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>TrimRight</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100326Z" creationid="Марианна" creationdate="20210407T100326Z">
+        <seg>TrimRight</seg>
       </tuv>
     </tu>
     <tu>
@@ -19880,6 +19960,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Upper</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100404Z" creationid="Марианна" creationdate="20210407T100404Z">
+        <seg>Upper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>UpperBound</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222646Z" creationid="Марианна" creationdate="20210218T222646Z">
@@ -19908,6 +19996,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084455Z" creationid="Марианна" creationdate="20201009T084455Z">
         <seg>UserName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Val</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100433Z" creationid="Марианна" creationdate="20210407T100433Z">
+        <seg>Val</seg>
       </tuv>
     </tu>
     <tu>
@@ -24641,6 +24737,30 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает Аргумент без ведомых пробелов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100402Z" creationid="Марианна" creationdate="20210407T100402Z">
+        <seg>Returns the Argument without trailing spaces.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает Аргумент без ведущих и ведомых пробелов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100254Z" creationid="Марианна" creationdate="20210407T100254Z">
+        <seg>Returns the Argument without leading and trailing spaces.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает Аргумент без ведущих пробелов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100323Z" creationid="Марианна" creationdate="20210407T100323Z">
+        <seg>Returns the Argument without leading spaces.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает Вх.Строка, в которой НомерЧасти-ое вхождение выражения Рег.Выр.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T091015Z" creationid="Марианна" creationdate="20210407T091015Z">
@@ -24677,6 +24797,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105037Z" creationid="Марианна" creationdate="20210402T105037Z">
         <seg>Returns the absolute error of two arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает аргумент в верхнем регистре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100431Z" creationid="Марианна" creationdate="20210407T100431Z">
+        <seg>Returns the uppercase argument.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24965,6 +25093,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110157Z" creationid="Марианна" creationdate="20210402T110157Z">
         <seg>Returns the relative error of two arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возвращает подстроку из строки - источника, начиная с позиции Начало длиной Длина.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100225Z" creationid="Марианна" creationdate="20210407T100225Z">
+        <seg>Returns substring from string - source, starting from the Start position of the Length length.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26749,6 +26885,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
         <seg>Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Длина - длина подстроки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100206Z" creationid="Марианна" creationdate="20210407T100206Z">
+        <seg>Length - the substring length</seg>
       </tuv>
     </tu>
     <tu>
@@ -29106,6 +29250,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T085329Z" creationid="Марианна" creationdate="20210208T085329Z">
         <seg>Then it is required to select the certificate used for authorization in the table below the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Затем на место удаленной подстроки вставляется Вставляемая\_строка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100038Z" creationid="Марианна" creationdate="20210407T100038Z">
+        <seg>Then instead of the deleted substring, the Inserted\_string is inserted.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33475,6 +33627,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Начало - позиция начало подстроки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T100141Z" creationid="Марианна" creationdate="20210407T100141Z">
+        <seg>Start - position of the substring start</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Начало работы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T154818Z" creationid="Марианна" creationdate="20200715T090041Z">
@@ -37683,6 +37843,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175619Z" creationid="Марианна" creationdate="20201022T175619Z">
         <seg>Let's transform the source table with the following parameters: columns - &lt;x1/&gt;Goods&lt;x2/&gt;, strings - &lt;x3/&gt;Date&lt;x4/&gt;, measures - &lt;x5/&gt;Volume of sales&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Преобразует заданную строку в число с учетом локали</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T101012Z" creationid="Марианна" creationdate="20210407T101012Z">
+        <seg>Converts the given string into a number, taking locale into account</seg>
       </tuv>
     </tu>
     <tu>
