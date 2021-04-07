@@ -7176,8 +7176,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Stuff(Источник, Начало\_позиции, Длина &lt;x2/&gt;, Вставляемая\_строка = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T095716Z" creationid="Марианна" creationdate="20210407T095716Z">
-        <seg>&lt;x1/&gt;Stuff(Source, Position\_start, Length &lt;x2/&gt;, Inserted_string = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095955Z" creationid="Марианна" creationdate="20210407T095716Z">
+        <seg>&lt;x1/&gt;Stuff(Source, Start\_position, Length &lt;x2/&gt;, Inserted_string = ""&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -25081,6 +25081,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возвращает строку следующего вида.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095907Z" creationid="Марианна" creationdate="20210407T095907Z">
+        <seg>Returns the string of the following type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возвращает сумму квадратов аргументов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124653Z" creationid="Марианна" creationdate="20210406T124653Z">
@@ -25397,6 +25405,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T193810Z" creationid="Марианна" creationdate="20201208T103129Z">
         <seg> Supplementary data:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вставляемая\_строка - строковое выражение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095756Z" creationid="Марианна" creationdate="20210407T095756Z">
+        <seg>Inserted\_string - string expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26733,6 +26749,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
         <seg>Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Длина - длина удаляемой подстроки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095854Z" creationid="Марианна" creationdate="20210407T095854Z">
+        <seg>Length - length of the deleted substring</seg>
       </tuv>
     </tu>
     <tu>
@@ -33439,6 +33463,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T175644Z" creationid="Марианна" creationdate="20200916T164034Z">
         <seg>Configure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Начало - позиция начала вставки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095840Z" creationid="Марианна" creationdate="20210407T095840Z">
+        <seg>Start - position of the insert start</seg>
       </tuv>
     </tu>
     <tu>
@@ -40503,6 +40535,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061141Z" creationid="Марианна" creationdate="20201109T061141Z">
         <seg>Also refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сначала из Источника удаляется подстрока, начиная с позиции Начало длиной Длина.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210407T095943Z" creationid="Марианна" creationdate="20210407T095943Z">
+        <seg>At first, substring is deleted from the Source, starting from the Start position of the Length length.</seg>
       </tuv>
     </tu>
     <tu>
