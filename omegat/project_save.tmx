@@ -34177,8 +34177,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>НомерГруппы - порядковый номер группы, определяемой метасимволами (...);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T090248Z" creationid="Марианна" creationdate="20210407T090248Z">
-        <seg>GroupNumber - index number of the group defined by metacharacters (...);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213735Z" creationid="Марианна" creationdate="20210407T090248Z">
+        <seg>GroupNumber - index number of the group defined by metacharacters (...).</seg>
       </tuv>
     </tu>
     <tu>
