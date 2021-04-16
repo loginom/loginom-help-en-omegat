@@ -29,7 +29,7 @@ Returns count of characters in the string.
 
 **DamLevDist(String1, String2)**
 
-* String1,
+* String1.
 * String2 - expressions of the string type.
 
 Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another.
@@ -38,8 +38,8 @@ Function returns the value of the Damerau–Levenshtein distance for String1, St
 
 **Find(Substring, String[, MatchIndex = 1])**
 
-* Substring - searched substring,
-* String - the string in which substring is searched,
+* Substring - searched substring.
+* String - the string in which substring is searched.
 * MatchIndex - optional occurrence index of the Substring in the String to be returned. Argument of the numeric type.
 
 Function returns position of the first character of the Substring of the set MatchIndex in the String.
@@ -53,7 +53,7 @@ If the MatchIndex is equal to zero, the function will return the Null value (Nul
 
 **Format(Format\_string, Expression [, ... Expression])**
 
-* Format\_string - string expression of the special type
+* Format\_string - string expression of the special type.
 * Expression - arbitrary string expression.
 
 Returns the list of expressions in the given format.
@@ -74,7 +74,7 @@ Returns the given count of characters of the left string part.
 
 **LevDist(String1, String2)**
 
-* String1,
+* String1.
 * String2 - expressions of the string type.
 
 Function returns the value of the Levenshtein distance for String1, String2. The Levenshtein distance is also called the edit distance that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion and substitution operations that must be performed in order to transform one string into another.
