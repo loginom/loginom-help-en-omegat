@@ -30188,8 +30188,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>ИмяГруппы - имя группы, определяемой метасимволами (...);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T080407Z" creationid="Марианна" creationdate="20210407T080407Z">
-        <seg>GroupName - name of the group defined by metacharacters (...);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213547Z" creationid="Марианна" creationdate="20210407T080407Z">
+        <seg>GroupName - name of the group defined by metacharacters (...).</seg>
       </tuv>
     </tu>
     <tu>
