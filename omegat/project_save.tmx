@@ -41765,8 +41765,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строка\_формата - строковое выражение специального вида</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T072932Z" creationid="Марианна" creationdate="20210407T072932Z">
-        <seg>Format\_string - string expression of the special type</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T212849Z" creationid="Марианна" creationdate="20210407T072932Z">
+        <seg>Format\_string - string expression of the special type.</seg>
       </tuv>
     </tu>
     <tu>
