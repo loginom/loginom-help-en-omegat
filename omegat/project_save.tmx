@@ -22499,8 +22499,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент логического типа;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T092452Z" creationid="Марианна" creationdate="20210407T092452Z">
-        <seg>Argument of the logical type;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214147Z" creationid="Марианна" creationdate="20210407T092452Z">
+        <seg>Argument of the logical type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34145,8 +34145,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Новый\_шаблон - строка, на которую будет заменяться Старый шаблон;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T092319Z" creationid="Марианна" creationdate="20210407T092319Z">
-        <seg>New\_template - the string with which the Old template will be replaced;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214138Z" creationid="Марианна" creationdate="20210407T092319Z">
+        <seg>New\_template - the string with which the Old template will be replaced.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41509,8 +41509,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Старый\_шаблон - заменяемая подстрока;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T091847Z" creationid="Марианна" creationdate="20210407T091847Z">
-        <seg>Old\_template - the replaced substring;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214132Z" creationid="Марианна" creationdate="20210407T091847Z">
+        <seg>Old\_template - the replaced substring.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41693,8 +41693,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строка - строка, в которой необходимо сделать замену;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T091807Z" creationid="Марианна" creationdate="20210407T091807Z">
-        <seg>String - the string in which a replacement is required;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214128Z" creationid="Марианна" creationdate="20210407T091807Z">
+        <seg>String - the string in which a replacement is required.</seg>
       </tuv>
     </tu>
     <tu>
