@@ -101,7 +101,7 @@ Returns the argument logarithm with the given basis.
 
 **Mod(Dividend, Divisor)**
 
-* Dividend - integer numerical expression,
+* Dividend - integer numerical expression.
 * Divisor - integer numerical expression.
 
 Returns remainder from integer division of the Dividend by the Divisor.
@@ -118,8 +118,8 @@ Returns the pi constant value 3.1415926535897932385.
 
 **Pow(Argument, Degree)**
 
-* Argument - numeric expression;
-* Degree - numeric expression;
+* Argument - numeric expression.
+* Degree - numeric expression.
 
 Returns the argument in the given degree.
 
@@ -135,7 +135,7 @@ Returns the relative error of two arguments.
 
 **Round(Argument1 [, Argument2 = 0])**
 
-* Argument1 - numeric expression,
+* Argument1 - numeric expression.
 * Argument2 - optional parameter, the number of digits following the decimal point, integer.
 
 Rounds up the real number to the nearest number that has the specified number of digits following the decimal point.
@@ -144,7 +144,7 @@ Rounds up the real number to the nearest number that has the specified number of
 
 **Sign(Argument)**
 
-* Argument - numeric expression;
+* Argument - numeric expression.
 
 Returns the argument sign.
 
