@@ -18022,8 +18022,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>An - коэффициенты регрессии,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T125259Z" creationid="Марианна" creationdate="20210405T125259Z">
-        <seg>An - regression coefficients,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211446Z" creationid="Марианна" creationdate="20210405T125259Z">
+        <seg>An - regression coefficients.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18110,8 +18110,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>C - постоянная,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T125237Z" creationid="Марианна" creationdate="20210405T125237Z">
-        <seg>C - constant,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211441Z" creationid="Марианна" creationdate="20210405T125237Z">
+        <seg>C - constant.</seg>
       </tuv>
     </tu>
     <tu>
