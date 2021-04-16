@@ -65,9 +65,9 @@ All Result expressions are calculated before the Expression and Values compariso
 
 **IF(Antecedent, Value1, Value2)**
 
-* Antecedent - logical expression;
-* Value1,
-* Value2 - expressions of any types
+* Antecedent - logical expression.
+* Value1.
+* Value2 - expressions of any types.
 
 Returns Value1 if the Antecedent is true or Value2 if it is false. The function result has the variant type
 
@@ -75,8 +75,8 @@ Returns Value1 if the Antecedent is true or Value2 if it is false. The function 
 
 **IFF(Antecedent, Value1, Value2)**
 
-* Antecedent - logical expression;
-* Value1,
+* Antecedent - logical expression.
+* Value1.
 * Value2 - numeric expressions or expressions of the Date/time type
 
 Returns Value1 if the Antecedent is true or Value2 if it is false.
