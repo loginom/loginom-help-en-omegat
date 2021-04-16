@@ -29520,8 +29520,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Значение2 - числовые выражения или выражения типа Дата/время</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103833Z" creationid="Марианна" creationdate="20210402T103833Z">
-        <seg>Value2 - numeric expressions or expressions of the Date/time type</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210521Z" creationid="Марианна" creationdate="20210402T103833Z">
+        <seg>Value2 - numeric expressions or expressions of the Date/time type.</seg>
       </tuv>
     </tu>
     <tu>
