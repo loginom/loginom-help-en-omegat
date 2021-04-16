@@ -29336,8 +29336,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Значение - значение искомого элемента;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103935Z" creationid="Марианна" creationdate="20210402T103935Z">
-        <seg>Value - value of the target element;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210600Z" creationid="Марианна" creationdate="20210402T103935Z">
+        <seg>Value - value of the target element.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44191,24 +44191,24 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Элемент1,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103942Z" creationid="Марианна" creationdate="20210402T103942Z">
-        <seg>Element1,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210607Z" creationid="Марианна" creationdate="20210402T103942Z">
+        <seg>Element1.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Элемент2,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103948Z" creationid="Марианна" creationdate="20210402T103948Z">
-        <seg>Element2,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210620Z" creationid="Марианна" creationdate="20210402T103948Z">
+        <seg>Element2.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>ЭлементN - значения элементов списка</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T104009Z" creationid="Марианна" creationdate="20210402T104009Z">
-        <seg>ElementN - values of the list elements</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210627Z" creationid="Марианна" creationdate="20210402T104009Z">
+        <seg>ElementN - values of the list elements.</seg>
       </tuv>
     </tu>
     <tu>
