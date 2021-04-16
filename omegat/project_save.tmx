@@ -26227,8 +26227,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Год - год в виде числа,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210401T202456Z" creationid="Марианна" creationdate="20210328T214241Z">
-        <seg>Year - year in the form of a number,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205346Z" creationid="Марианна" creationdate="20210328T214241Z">
+        <seg>Year - year in the form of a number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26803,8 +26803,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>День - день в виде числа,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210401T202525Z" creationid="Марианна" creationdate="20210328T214513Z">
-        <seg>Day - day in the form of a number,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205405Z" creationid="Марианна" creationdate="20210328T214513Z">
+        <seg>Day - day in the form of a number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32121,8 +32121,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Месяц - месяц в виде числа,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210401T202500Z" creationid="Марианна" creationdate="20210328T214308Z">
-        <seg>Month - month in the form of a number,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205353Z" creationid="Марианна" creationdate="20210328T214308Z">
+        <seg>Month - month in the form of a number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32377,8 +32377,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Минуты - минуты в виде числа,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210401T202535Z" creationid="Марианна" creationdate="20210328T214609Z">
-        <seg>Minutes - minutes in the form of a number,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205413Z" creationid="Марианна" creationdate="20210328T214609Z">
+        <seg>Minutes - minutes in the form of a number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43831,8 +43831,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Часы - часы в виде числа,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210401T202530Z" creationid="Марианна" creationdate="20210328T214540Z">
-        <seg>Hours - hours in the form of a number,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205409Z" creationid="Марианна" creationdate="20210328T214540Z">
+        <seg>Hours - hours in the form of a number.</seg>
       </tuv>
     </tu>
     <tu>
