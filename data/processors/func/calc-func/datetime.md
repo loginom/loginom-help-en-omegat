@@ -195,8 +195,8 @@ Function returns the date of the specified week start according to ISO 8601 stan
 
 **StrToDate(Argument [, Format])**
 
-* Argument - the string expression containing date/time
-* Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z
+* Argument - the string expression containing date/time.
+* Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z.
 
 Function converts the string containing the date into the "Date/Time" format.
 The format examples:
