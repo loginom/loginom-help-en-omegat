@@ -77,7 +77,7 @@ Returns Value1 if the Antecedent is true or Value2 if it is false. The function 
 
 * Antecedent - logical expression.
 * Value1.
-* Value2 - numeric expressions or expressions of the Date/time type
+* Value2 - numeric expressions or expressions of the Date/time type.
 
 Returns Value1 if the Antecedent is true or Value2 if it is false.
 
