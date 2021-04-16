@@ -269,8 +269,8 @@ Returns the string of the following type. At first, substring is deleted from th
 **SubStr(Source, Start, Length)**
 
 * Source - string expression.
-* Start - position of the substring start
-* Length - the substring length
+* Start - position of the substring start.
+* Length - the substring length.
 
 Returns substring from string - source, starting from the Start position of the Length length.
 
