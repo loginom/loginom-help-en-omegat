@@ -105,8 +105,8 @@ Returns the total number of days between two dates.
 
 **EncodeDate(Year, Month, Day)**
 
-* Year - year in the form of a number,
-* Month - month in the form of a number,
+* Year - year in the form of a number.
+* Month - month in the form of a number.
 * Day - day in the form of a number.
 
 Function returns the date formed from the specified arguments.
@@ -115,11 +115,11 @@ Function returns the date formed from the specified arguments.
 
 **EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)**
 
-* Year - year in the form of a number,
-* Month - month in the form of a number,
-* Day - day in the form of a number,
-* Hours - hours in the form of a number,
-* Minutes - minutes in the form of a number,
+* Year - year in the form of a number.
+* Month - month in the form of a number.
+* Day - day in the form of a number.
+* Hours - hours in the form of a number.
+* Minutes - minutes in the form of a number.
 * Seconds - seconds in the form of a number.
 
 Function returns the date and time formed from the specified arguments.
@@ -128,8 +128,8 @@ Function returns the date and time formed from the specified arguments.
 
 **EncodeTime(Hours, Minutes, Seconds)**
 
-* Hours - hours in the form of a number,
-* Minutes - minutes in the form of a number,
+* Hours - hours in the form of a number.
+* Minutes - minutes in the form of a number.
 * Seconds - seconds in the form of a number.
 
 Function returns the time formed from the specified arguments.
