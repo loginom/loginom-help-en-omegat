@@ -38842,8 +38842,8 @@ It accepts supplementary transaction items that can be taken into account when c
         <seg>Применяется для построения пользовательской модели авторегрессии вида
 Прогноз = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T141003Z" creationid="Марианна" creationdate="20210405T125606Z">
-        <seg>It is used for construction of the user model of the following autoregression type
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211512Z" creationid="Марианна" creationdate="20210405T125606Z">
+        <seg>It is used for construction of the user model of the following autoregression type:
 Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
     </tu>
