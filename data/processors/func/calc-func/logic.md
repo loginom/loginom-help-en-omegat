@@ -96,7 +96,7 @@ Function returns the TRUE value of the logical type if the Value is in the list,
 
 **IsNull(Argument)**
 
-* Argument - any expression;
+* Argument - any expression.
 
 Checks whether the Argument is null. Returns the logical value.
 
