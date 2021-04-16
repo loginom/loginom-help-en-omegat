@@ -4,18 +4,18 @@
 
 **AutoRegression(C, A0, X{t}, A1, X{t-1} ...)**
 
-* C - constant,
-* A0 ... An - regression coefficients,
+* C - constant.
+* A0 ... An - regression coefficients.
 * X(t) ... X(t-n) - series values.
 
-It is used for construction of the user model of the following autoregression type
+It is used for construction of the user model of the following autoregression type:
 Prediction = С + A0 * X(t) + A1 * X(t-1) + ...
 
 ## ExpMovingAverage
 
 **ExpMovingAverage(X{t}, X{t-1} ...)**
 
-* Arguments - values of the numeric series
+* Arguments - values of the numeric series.
 
 It is used for construction of the user model of the exponentially smoothed moving average.
 
@@ -27,7 +27,7 @@ Calculation formula is defined by the recurrence equation: EMA(t) = a * X(t) + (
 
 **MovingAverage(X{t}, X{t-1} ...)**
 
-* Arguments - values of the numeric series
+* Arguments - values of the numeric series.
 
 It is used for construction of the user model of the simple moving average in the user models.
 
