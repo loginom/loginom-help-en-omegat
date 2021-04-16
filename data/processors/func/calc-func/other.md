@@ -28,8 +28,8 @@ As GUID will be generated each time when getting the expression value, for examp
 
 **Data("ColumnName",RowNumber)**
 
-* ColumnName - return value column name
-* RowNumber - return value row number
+* ColumnName - return value column name.
+* RowNumber - return value row number.
 
 Function returns the ColumnName field value taken from the RowNumber row.
 When using this function, it is required to select "Cache the calculated expression values" checkbox in the "Expression parameters" window.
@@ -38,7 +38,7 @@ When using this function, it is required to select "Cache the calculated express
 
 **DisplayName(["Name"])**
 
-* FieldName - name of field, variable or expression
+* FieldName - name of field, variable or expression.
 
 Function returns the caption (display name) according to the field name, variable or expression.
 If the function is called without arguments, it returns the caption of the current calculated expression.
