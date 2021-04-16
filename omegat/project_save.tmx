@@ -25579,8 +25579,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Вх.Строка - входная строка, в которой будет искаться Email-адрес;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T073836Z" creationid="Марианна" creationdate="20210407T073836Z">
-        <seg>InputString - the input string in which Email-address will be searched;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213105Z" creationid="Марианна" creationdate="20210407T073836Z">
+        <seg>InputString - the input string in which Email-address will be searched.</seg>
       </tuv>
     </tu>
     <tu>
