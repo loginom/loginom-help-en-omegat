@@ -22427,8 +22427,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент - любое выражение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T104104Z" creationid="Марианна" creationdate="20210402T104104Z">
-        <seg>Argument - any expression;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210754Z" creationid="Марианна" creationdate="20210402T104104Z">
+        <seg>Argument - any expression.</seg>
       </tuv>
     </tu>
     <tu>
