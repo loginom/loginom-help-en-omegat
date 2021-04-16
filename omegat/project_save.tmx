@@ -41741,8 +41741,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строка1,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T125828Z" creationid="Марианна" creationdate="20210406T125828Z">
-        <seg>String1,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T212637Z" creationid="Марианна" creationdate="20210406T125828Z">
+        <seg>String1.</seg>
       </tuv>
     </tu>
     <tu>
