@@ -29512,8 +29512,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Значение2 - выражения любых типов</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103704Z" creationid="Марианна" creationdate="20210402T103704Z">
-        <seg>Value2 - expressions of any types</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210401Z" creationid="Марианна" creationdate="20210402T103704Z">
+        <seg>Value2 - expressions of any types.</seg>
       </tuv>
     </tu>
     <tu>
