@@ -26907,8 +26907,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Длина - длина удаляемой подстроки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T095854Z" creationid="Марианна" creationdate="20210407T095854Z">
-        <seg>Length - length of the deleted substring</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214616Z" creationid="Марианна" creationdate="20210407T095854Z">
+        <seg>Length - length of the deleted substring.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33653,8 +33653,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Начало - позиция начала вставки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T095840Z" creationid="Марианна" creationdate="20210407T095840Z">
-        <seg>Start - position of the insert start</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214612Z" creationid="Марианна" creationdate="20210407T095840Z">
+        <seg>Start - position of the insert start.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34617,8 +34617,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Общая\_длина - длина результирующей строки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T094401Z" creationid="Марианна" creationdate="20210407T094401Z">
-        <seg>Total\_length - length of the resulting string</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214608Z" creationid="Марианна" creationdate="20210407T094401Z">
+        <seg>Total\_length - length of the resulting string.</seg>
       </tuv>
     </tu>
     <tu>
