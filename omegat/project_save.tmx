@@ -25587,8 +25587,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Вх.Строка - входная строка, которая будет подвержена замене;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T090432Z" creationid="Марианна" creationdate="20210407T090432Z">
-        <seg>InputString - the input string that will be replaced;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213808Z" creationid="Марианна" creationdate="20210407T090432Z">
+        <seg>InputString - the input string that will be replaced.</seg>
       </tuv>
     </tu>
     <tu>
