@@ -22443,8 +22443,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент - строковое выражение, содержащее дату/время</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T221021Z" creationid="Марианна" creationdate="20210328T221021Z">
-        <seg>Argument - the string expression containing date/time</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205710Z" creationid="Марианна" creationdate="20210328T221021Z">
+        <seg>Argument - the string expression containing date/time.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43299,8 +43299,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Формат - необязательный параметр формат даты/время в терминах D, M, Y, H, N, S, Z</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T221158Z" creationid="Марианна" creationdate="20210328T221158Z">
-        <seg>Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T205715Z" creationid="Марианна" creationdate="20210328T221158Z">
+        <seg>Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z.</seg>
       </tuv>
     </tu>
     <tu>
