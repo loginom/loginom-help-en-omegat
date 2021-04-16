@@ -526,8 +526,8 @@ interface IRequire extends IRequireFunction  {</seg>
       <tuv lang="ru">
         <seg>- строка регулярного выражения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T074759Z" creationid="Марианна" creationdate="20210407T074759Z">
-        <seg>- the regular expressions string;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213223Z" creationid="Марианна" creationdate="20210407T074759Z">
+        <seg>- the regular expressions string.</seg>
       </tuv>
     </tu>
     <tu>
