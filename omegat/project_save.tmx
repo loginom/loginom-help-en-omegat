@@ -29504,8 +29504,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Значение1,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103650Z" creationid="Марианна" creationdate="20210402T103650Z">
-        <seg>Value1,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210337Z" creationid="Марианна" creationdate="20210402T103650Z">
+        <seg>Value1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43095,8 +43095,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Условие - логическое выражение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T103645Z" creationid="Марианна" creationdate="20210402T103645Z">
-        <seg>Antecedent - logical expression;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T210328Z" creationid="Марианна" creationdate="20210402T103645Z">
+        <seg>Antecedent - logical expression.</seg>
       </tuv>
     </tu>
     <tu>
