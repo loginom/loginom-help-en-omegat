@@ -22555,8 +22555,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргументы - значения числового ряда</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T125638Z" creationid="Марианна" creationdate="20210405T125638Z">
-        <seg>Arguments - values of the numeric series</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211533Z" creationid="Марианна" creationdate="20210405T125638Z">
+        <seg>Arguments - values of the numeric series.</seg>
       </tuv>
     </tu>
     <tu>
