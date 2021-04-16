@@ -91,7 +91,7 @@ Returns the lowercase argument.
 
 **RegExDomain(InputString [, OccurenceNumber = 1])**
 
-* InputString - the input string in which Email-address will be searched;
+* InputString - the input string in which Email-address will be searched.
 * OccurenceNumber - the index of Email-address in the searched string.
 
 Returns OccurencesNumber site address from the InputString string, not including www till the top level domain, inclusively.
@@ -101,7 +101,7 @@ Regular expressions are used for search.
 
 **RegExEmail(InputString [, OccurenceNumber = 1])**
 
-* InputString - the input string in which Email-address will be searched;
+* InputString - the input string in which Email-address will be searched.
 * OccurenceNumber - the index of Email-address in the searched string.
 
 Extracts OccurencesNumber Email-address from the InputString string.
@@ -111,7 +111,7 @@ Regular expressions are used for search.
 
 **RegExMatch(RegularExpression, String)**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * String - the input string.
 
 Checks the string and regular expression matching.
@@ -121,7 +121,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 **RegExMatchCount(RegularExpression, String)**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * String - the input string.
 
 Returns the number of the string parts matching the regular expression.
@@ -131,7 +131,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 **RegExMatchedExp(RegularExpression, String [, PartNumber = 1])**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * String - the input string;
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
 
@@ -142,7 +142,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 **RegExMatchedNamedSubExp(RegularExpression, String, GroupName [, PartNumber = 1])**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * String - the input string;
 * GroupName - name of the group defined by metacharacters (...);
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
@@ -155,7 +155,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 **RegExMatchedSubExp(RegularExpression, String, GroupNumber [, PartNumber = 1])**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * String - the input string;
 * GroupNumber - index number of the group defined by metacharacters (...);
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
@@ -168,7 +168,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 **RegExReplace(RegularExpression, InputString, ReplaceString [, PartNumber = 1, ExtendedSyntax = False])**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * InputString - the input string that will be replaced;
 * ReplaceString - the string that will be inserted instead of the input string part matching the regular expression;
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
@@ -181,7 +181,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 **RegExReplaceAll(RegularExpression, InputString, ReplaceString [, ExtendedSyntax = False])**
 
-* RegularExpression - the regular expressions string;
+* RegularExpression - the regular expressions string.
 * InputString - the input string that will be replaced;
 * ReplaceString - the string that will be inserted instead of the input string parts matching the regular expression.
 * ExtendedSyntax - extended replacement syntax (only for PCRE2)
