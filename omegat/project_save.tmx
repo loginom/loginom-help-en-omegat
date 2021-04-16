@@ -39805,8 +39805,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Расш.Синтаксис - расширенный синтаксис замены (только для PCRE2)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T090623Z" creationid="Марианна" creationdate="20210407T090623Z">
-        <seg>ExtendedSyntax - extended replacement syntax (only for PCRE2)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213907Z" creationid="Марианна" creationdate="20210407T090623Z">
+        <seg>ExtendedSyntax - extended replacement syntax (only for PCRE2).</seg>
       </tuv>
     </tu>
     <tu>
