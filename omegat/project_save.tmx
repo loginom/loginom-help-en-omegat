@@ -14427,8 +14427,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Тип данных &lt;x3/&gt;&lt;x4/&gt; Переменный следует методу агрегации того типа данных который был выбран в мастере настройки перед ним.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T172226Z" creationid="Марианна" creationdate="20210328T172226Z">
-        <seg>&lt;x1/&gt;Note: the Variable&lt;x2/&gt; Data type &lt;x3/&gt;&lt;x4/&gt; follows the aggregation method of the data type that has been selected in the wizard before.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T201409Z" creationid="Марианна" creationdate="20210328T172226Z">
+        <seg>&lt;x1/&gt;Note: The Variable&lt;x2/&gt; Data type &lt;x3/&gt;&lt;x4/&gt; follows the aggregation method of the data type that has been selected in the wizard before.</seg>
       </tuv>
     </tu>
     <tu>
