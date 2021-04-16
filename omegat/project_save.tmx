@@ -31341,8 +31341,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество\_повторов - целое выражение</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T091437Z" creationid="Марианна" creationdate="20210407T091437Z">
-        <seg>Count\_of\_repeats - integer</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214053Z" creationid="Марианна" creationdate="20210407T091437Z">
+        <seg>Count\_of\_repeats - integer.</seg>
       </tuv>
     </tu>
     <tu>
