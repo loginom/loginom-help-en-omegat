@@ -39,8 +39,8 @@ Returns inverse gamma distribution for the integral function equal to (1 - one-s
 
 **Max(Argument1, Argument2 ...)**
 
-* Argument1,
-* Argument2,
+* Argument1.
+* Argument2.
 * ... - numeric expressions.
 
 Returns the maximum argument.
@@ -49,8 +49,8 @@ Returns the maximum argument.
 
 **Min(Argument1, Argument2 ...)**
 
-* Argument1,
-* Argument2,
+* Argument1.
+* Argument2.
 * ... - numeric expressions.
 
 Returns the minimum argument.
