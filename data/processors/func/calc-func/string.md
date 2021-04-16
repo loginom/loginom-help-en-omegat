@@ -132,7 +132,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 **RegExMatchedExp(RegularExpression, String [, PartNumber = 1])**
 
 * RegularExpression - the regular expressions string.
-* String - the input string;
+* String - the input string.
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
 
 Returns the string part matching the regular expression.
@@ -143,8 +143,8 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 **RegExMatchedNamedSubExp(RegularExpression, String, GroupName [, PartNumber = 1])**
 
 * RegularExpression - the regular expressions string.
-* String - the input string;
-* GroupName - name of the group defined by metacharacters (...);
+* String - the input string.
+* GroupName - name of the group defined by metacharacters (...).
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
 
 Returns the string part group matching the regular expression.
@@ -156,7 +156,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 **RegExMatchedSubExp(RegularExpression, String, GroupNumber [, PartNumber = 1])**
 
 * RegularExpression - the regular expressions string.
-* String - the input string;
+* String - the input string.
 * GroupNumber - index number of the group defined by metacharacters (...);
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
 
