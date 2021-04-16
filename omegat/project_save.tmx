@@ -39533,8 +39533,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Пустые записи в агрегации не участвуют, кроме типа &lt;x51/&gt;&lt;x52/&gt; Строковый, где пустая запись является наименьшей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T164521Z" creationid="Марианна" creationdate="20210328T164521Z">
-        <seg>The null records are not included into the aggregation, with the exception of the &lt;x51/&gt;&lt;x52/&gt; String type where the null record is the minimum one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T200820Z" creationid="Марианна" creationdate="20210328T164521Z">
+        <seg>The null records are not included into the aggregation, with the exception of &lt;x51/&gt;&lt;x52/&gt; String type where the null record is the minimum one.</seg>
       </tuv>
     </tu>
     <tu>
