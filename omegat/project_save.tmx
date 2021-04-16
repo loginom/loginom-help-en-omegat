@@ -26899,8 +26899,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Длина - длина подстроки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T100206Z" creationid="Марианна" creationdate="20210407T100206Z">
-        <seg>Length - the substring length</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214726Z" creationid="Марианна" creationdate="20210407T100206Z">
+        <seg>Length - the substring length.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33661,8 +33661,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Начало - позиция начало подстроки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T100141Z" creationid="Марианна" creationdate="20210407T100141Z">
-        <seg>Start - position of the substring start</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T214721Z" creationid="Марианна" creationdate="20210407T100141Z">
+        <seg>Start - position of the substring start.</seg>
       </tuv>
     </tu>
     <tu>
