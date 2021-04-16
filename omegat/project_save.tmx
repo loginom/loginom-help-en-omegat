@@ -30068,8 +30068,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Имя - имя поля, переменной или выражения</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T122736Z" creationid="Марианна" creationdate="20210406T122736Z">
-        <seg>FieldName - name of field, variable or expression</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211944Z" creationid="Марианна" creationdate="20210406T122736Z">
+        <seg>FieldName - name of field, variable or expression.</seg>
       </tuv>
     </tu>
     <tu>
