@@ -30196,8 +30196,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>ИмяСтолбца - имя столбца, данные которого необходимо получить</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T121322Z" creationid="Марианна" creationdate="20210406T121322Z">
-        <seg>ColumnName - return value column name</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211919Z" creationid="Марианна" creationdate="20210406T121322Z">
+        <seg>ColumnName - return value column name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34185,8 +34185,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>НомерСтроки - номер строки, значение которой необходимо получить</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T121700Z" creationid="Марианна" creationdate="20210406T121700Z">
-        <seg>RowNumber - return value row number</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211924Z" creationid="Марианна" creationdate="20210406T121700Z">
+        <seg>RowNumber - return value row number.</seg>
       </tuv>
     </tu>
     <tu>
