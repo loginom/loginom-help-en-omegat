@@ -194,7 +194,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 **Repeat(String, Count\_of\_repeats)**
 
 * String - string expression.
-* Count\_of\_repeats - integer
+* Count\_of\_repeats - integer.
 
 Returns a string - repeating the given string as many times as necessary.
 
@@ -202,10 +202,10 @@ Returns a string - repeating the given string as many times as necessary.
 
 **Replace(String, Old\_template, New\_template [, Replace\_all, Ignore\_case])**
 
-* String - the string in which a replacement is required;
-* Old\_template - the replaced substring;
-* New\_template - the string with which the Old template will be replaced;
-* Replace\_all - flag of replacement of all occurrences of the Old template with the New template. Argument of the logical type;
+* String - the string in which a replacement is required.
+* Old\_template - the replaced substring.
+* New\_template - the string with which the Old template will be replaced.
+* Replace\_all - flag of replacement of all occurrences of the Old template with the New template. Argument of the logical type.
 * Ignore\_case - flag of case sensitivity in case of replacement. Argument of the logical type.
 
 Function returns the String in which occurrences of the Old template were substituted with the New template.
