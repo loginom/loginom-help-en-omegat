@@ -249,7 +249,7 @@ Returns the Argument as a string taking into account locales.
 **StrZero(Expression, Total\_length)**
 
 * Expression - numeric expression.
-* Total\_length - length of the resulting string
+* Total\_length - length of the resulting string.
 
 Adds zeros at the front of the specified expression so that the resulting string length is equal to the Total\_length.
 
@@ -259,8 +259,8 @@ Adds zeros at the front of the specified expression so that the resulting string
 
 * Source - string expression.
 * Inserted\_string - string expression.
-* Start - position of the insert start
-* Length - length of the deleted substring
+* Start - position of the insert start.
+* Length - length of the deleted substring.
 
 Returns the string of the following type. At first, substring is deleted from the Source, starting from the Start position of the Length length. Then instead of the deleted substring, the Inserted\_string is inserted.
 
