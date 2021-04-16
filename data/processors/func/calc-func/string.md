@@ -157,7 +157,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 * RegularExpression - the regular expressions string.
 * String - the input string.
-* GroupNumber - index number of the group defined by metacharacters (...);
+* GroupNumber - index number of the group defined by metacharacters (...).
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
 
 Returns the string part group matching the regular expression.
@@ -169,10 +169,10 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 **RegExReplace(RegularExpression, InputString, ReplaceString [, PartNumber = 1, ExtendedSyntax = False])**
 
 * RegularExpression - the regular expressions string.
-* InputString - the input string that will be replaced;
-* ReplaceString - the string that will be inserted instead of the input string part matching the regular expression;
+* InputString - the input string that will be replaced.
+* ReplaceString - the string that will be inserted instead of the input string part matching the regular expression.
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
-* ExtendedSyntax - extended replacement syntax (only for PCRE2)
+* ExtendedSyntax - extended replacement syntax (only for PCRE2).
 
 Returns the InputString in which the PartNumber expression occurrence of the RegularExpression will be replaced with the ReplaceString.
 PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
@@ -182,9 +182,9 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 **RegExReplaceAll(RegularExpression, InputString, ReplaceString [, ExtendedSyntax = False])**
 
 * RegularExpression - the regular expressions string.
-* InputString - the input string that will be replaced;
+* InputString - the input string that will be replaced.
 * ReplaceString - the string that will be inserted instead of the input string parts matching the regular expression.
-* ExtendedSyntax - extended replacement syntax (only for PCRE2)
+* ExtendedSyntax - extended replacement syntax (only for PCRE2).
 
 Returns the InputString in which all occurrences of the RegularExpression expression will be replaced with the ReplaceString.
 PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
