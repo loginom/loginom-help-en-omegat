@@ -22523,8 +22523,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент1,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T124249Z" creationid="Марианна" creationdate="20210406T124249Z">
-        <seg>Argument1,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T212322Z" creationid="Марианна" creationdate="20210406T124249Z">
+        <seg>Argument1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22539,8 +22539,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент2,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T124252Z" creationid="Марианна" creationdate="20210406T124252Z">
-        <seg>Argument2,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T212333Z" creationid="Марианна" creationdate="20210406T124252Z">
+        <seg>Argument2.</seg>
       </tuv>
     </tu>
     <tu>
