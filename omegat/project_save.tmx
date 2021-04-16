@@ -22475,8 +22475,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент - числовое выражение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T110058Z" creationid="Марианна" creationdate="20210402T110058Z">
-        <seg>Argument - numeric expression;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211120Z" creationid="Марианна" creationdate="20210402T110058Z">
+        <seg>Argument - numeric expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26787,8 +26787,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Делимое - целое числовое выражение,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T105916Z" creationid="Марианна" creationdate="20210402T105916Z">
-        <seg>Dividend - integer numerical expression,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211115Z" creationid="Марианна" creationdate="20210402T105916Z">
+        <seg>Dividend - integer numerical expression.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41565,8 +41565,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Степень - числовое выражение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210402T110109Z" creationid="Марианна" creationdate="20210402T110109Z">
-        <seg>Degree - numeric expression;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T211126Z" creationid="Марианна" creationdate="20210402T110109Z">
+        <seg>Degree - numeric expression.</seg>
       </tuv>
     </tu>
     <tu>
