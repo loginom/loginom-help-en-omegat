@@ -41795,8 +41795,8 @@ String - string expression
       <tuv lang="ru">
         <seg>СтрокаЗамены - строка, которая будет вставлена вместо части входной строки, оответствующией регулярному выражению;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T090518Z" creationid="Марианна" creationdate="20210407T090518Z">
-        <seg>ReplaceString - the string that will be inserted instead of the input string part matching the regular expression;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T213837Z" creationid="Марианна" creationdate="20210407T090518Z">
+        <seg>ReplaceString - the string that will be inserted instead of the input string part matching the regular expression.</seg>
       </tuv>
     </tu>
     <tu>
