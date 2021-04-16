@@ -36905,8 +36905,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Подстрока - искомая подстрока,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T130207Z" creationid="Марианна" creationdate="20210406T130207Z">
-        <seg>Substring - searched substring,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T212736Z" creationid="Марианна" creationdate="20210406T130207Z">
+        <seg>Substring - searched substring.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41685,8 +41685,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строка - строка, в которой ищется подстрока,</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T130225Z" creationid="Марианна" creationdate="20210406T130225Z">
-        <seg>String - the string in which substring is searched,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210416T212745Z" creationid="Марианна" creationdate="20210406T130225Z">
+        <seg>String - the string in which substring is searched.</seg>
       </tuv>
     </tu>
     <tu>
