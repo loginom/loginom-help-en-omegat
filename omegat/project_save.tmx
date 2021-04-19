@@ -40243,6 +40243,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пусть необходимо привести значения к диапазону &lt;x1/&gt;a, b&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094917Z" creationid="Марианна" creationdate="20210419T094917Z">
+        <seg>Let us assume that it is required to cast values to &lt;x1/&gt;a, b&lt;x2/&gt; range.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пути импорта внешних модулей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T161853Z" creationid="Марианна" creationdate="20201102T085619Z">
