@@ -12249,6 +12249,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормализация значений полей&lt;x2/&gt; — это преобразование данных к виду, наиболее подходящему для обработки алгоритмом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090236Z" creationid="Марианна" creationdate="20210419T090236Z">
+        <seg>&lt;x1/&gt;Normalization of field values&lt;x2/&gt; means data transformation by the kind that is the most suitable for algorithm processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нормализация непрерывных данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065203Z" creationid="Марианна" creationdate="20200812T065203Z">
@@ -34211,6 +34219,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132334Z" creationid="Марианна" creationdate="20201210T082129Z">
         <seg>Cluster numbers: numbers of the generated clusters are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нормализация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T085811Z" creationid="Марианна" creationdate="20210419T085811Z">
+        <seg>Normalization</seg>
       </tuv>
     </tu>
     <tu>
