@@ -10937,6 +10937,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Компонент&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092519Z" creationid="Марианна" creationdate="20210419T092519Z">
+        <seg>&lt;x1/&gt;Component&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Компоненты платформы Loginom&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T131722Z" creationid="Марианна" creationdate="20200813T092015Z">
@@ -12309,6 +12317,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T212954Z" creationid="Марианна" creationdate="20201216T212954Z">
         <seg>&lt;x1/&gt;Node number&lt;x2/&gt;: numbers of the generated nodes are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормализатор&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092541Z" creationid="Марианна" creationdate="20210419T092541Z">
+        <seg>&lt;x1/&gt;Normalizer&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13821,6 +13837,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T094740Z" creationid="Марианна" creationdate="20201127T094608Z">
         <seg>&lt;x1/&gt;Field with names&lt;x2/&gt; &lt;x3/&gt;Field with names&lt;x4/&gt;: it is assigned to the reference table field that contains the names by which ungrouping will be performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092524Z" creationid="Марианна" creationdate="20210419T092524Z">
+        <seg>&lt;x1/&gt;Field&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -26665,6 +26689,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный фактор всегда будет присутствовать в модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092329Z" creationid="Марианна" creationdate="20210419T092329Z">
+        <seg>This factor will be always included into the model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный этап становится доступен только при заключении в цикл &lt;x1/&gt;Подмоделей&lt;x2/&gt;, имеющих входные и выходные порты для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204916Z" creationid="Марианна" creationdate="20200921T204916Z">
@@ -36307,6 +36339,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T073104Z" creationid="Марианна" creationdate="20201015T085035Z">
         <seg>The list and features of fields/variables are defined when configuring input ports of the handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перечисленные алгоритмы используют различные параметры настроек нормализации:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092512Z" creationid="Марианна" creationdate="20210419T092429Z">
+        <seg>Different parameters of the normalization settings are used by the listed algorithms:</seg>
       </tuv>
     </tu>
     <tu>
