@@ -11673,6 +11673,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Множитель&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092553Z" creationid="Марианна" creationdate="20210419T092553Z">
+        <seg>&lt;x1/&gt;Multiplier&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Множитель&lt;x2/&gt; — параметр, определяющий значимость столбца при построении модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T091350Z" creationid="Марианна" creationdate="20210419T091350Z">
@@ -12269,6 +12277,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132715Z" creationid="Марианна" creationdate="20200816T132640Z">
         <seg>&lt;x1/&gt;No&lt;x2/&gt; will cancel changes (the &lt;x3/&gt;Package&lt;x4/&gt; will be closed without saving!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Неудаляемое&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092611Z" creationid="Марианна" creationdate="20210419T092611Z">
+        <seg>&lt;x1/&gt;Irremovable&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18072,6 +18088,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161420Z" creationid="Марианна" creationdate="20200917T161420Z">
         <seg>ANSI/Windows(0);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ARIMAX</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092700Z" creationid="Марианна" creationdate="20210419T092700Z">
+        <seg>ARIMAX</seg>
       </tuv>
     </tu>
     <tu>
@@ -31967,6 +31991,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Линейная регрессия</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092620Z" creationid="Марианна" creationdate="20210419T092620Z">
+        <seg>Linear regression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Линейная регрессия является одним из наиболее часто используемых алгоритмов в &lt;x1/&gt;машинном обучении&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T073728Z" creationid="Марианна" creationdate="20201214T073728Z">
@@ -31995,6 +32027,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084522Z" creationid="Марианна" creationdate="20201009T084522Z">
         <seg>Login of the user who opened this Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логистическая регрессия</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092631Z" creationid="Марианна" creationdate="20210419T092631Z">
+        <seg>Logistic regression</seg>
       </tuv>
     </tu>
     <tu>
@@ -34019,6 +34059,22 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нейросеть (классификация)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092643Z" creationid="Марианна" creationdate="20210419T092643Z">
+        <seg>Neural network (classification)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нейросеть (регрессия)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092652Z" creationid="Марианна" creationdate="20210419T092652Z">
+        <seg>Neural network (regression)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нейросеть имеет три подбираемых параметра, относящихся к структуре:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T054950Z" creationid="Марианна" creationdate="20201222T054950Z">
@@ -34379,6 +34435,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T085811Z" creationid="Марианна" creationdate="20210419T085811Z">
         <seg>Normalization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нормализация дискретных данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092904Z" creationid="Марианна" creationdate="20210419T092904Z">
+        <seg>Normalization of Discrete Data</seg>
       </tuv>
     </tu>
     <tu>
@@ -40455,6 +40519,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213018Z" creationid="Марианна" creationdate="20201216T213018Z">
         <seg>Self-organizing network.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Самоорганизующиеся сети</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092709Z" creationid="Марианна" creationdate="20210419T092709Z">
+        <seg>Self-organizing networks</seg>
       </tuv>
     </tu>
     <tu>
