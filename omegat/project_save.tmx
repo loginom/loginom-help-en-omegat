@@ -10577,6 +10577,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Индекс уникального значения&lt;x2/&gt; — каждое уникальное значение заменяется на индекс уникального значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093708Z" creationid="Марианна" creationdate="20210419T093708Z">
+        <seg>&lt;x1/&gt;Unique value index&lt;x2/&gt;: each unique value is replaced with the unique value index.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
@@ -23753,6 +23761,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых нормализаторах дискретных данных используется опорное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093551Z" creationid="Марианна" creationdate="20210419T093551Z">
+        <seg>The reference value is used in some normalizers of discrete data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нем будет подсчитано, сколько раз в исходном наборе данных встречается каждая комбинация из колонок и строк.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061424Z" creationid="Марианна" creationdate="20201023T061424Z">
@@ -26181,6 +26197,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T223508Z" creationid="Марианна" creationdate="20210210T223508Z">
         <seg>It is required to select one of the options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выбор опорного значения происходит из таблицы уникальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093621Z" creationid="Марианна" creationdate="20210419T093621Z">
+        <seg>The reference value is selected from the unique values table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35543,6 +35567,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Опорное значение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093415Z" creationid="Марианна" creationdate="20210419T093415Z">
+        <seg>Reference value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определим корреляцию товара "Спагетти" с остальными товарами на основе коэффициентов Пирсона (в мастере настройки обработчика поле "Спагетти" отметим в "Наборе 1", а остальные товары - в "Наборе 2").</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T061950Z" creationid="Марианна" creationdate="20201012T061950Z">
@@ -42525,6 +42557,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T081343Z" creationid="Марианна" creationdate="20201214T081343Z">
         <seg>There are two partition methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Существует несколько вариантов задать опорное значение:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093446Z" creationid="Марианна" creationdate="20210419T093446Z">
+        <seg>There are several options to set the reference value:</seg>
       </tuv>
     </tu>
     <tu>
