@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>$$x^* = \frac{x-x_{min}}{x_{max}-x_{min}}*(b-a)+a$$ ,</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093844Z" creationid="Марианна" creationdate="20210419T093844Z">
+        <seg>$$x^* = \frac{x-x_{min}}{x_{max}-x_{min}}*(b-a)+a$$ ,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>% доверительного интервала.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114707Z" creationid="Марианна" creationdate="20201214T114707Z">
@@ -12449,10 +12457,26 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нет&lt;x2/&gt; — метод контроля отсутствует.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093959Z" creationid="Марианна" creationdate="20210419T093959Z">
+        <seg>&lt;x1/&gt;No&lt;x2/&gt;: there is no control method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нет&lt;x2/&gt; — отклонит изменения (&lt;x3/&gt;Пакет&lt;x4/&gt; будет закрыт без сохранения!).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132715Z" creationid="Марианна" creationdate="20200816T132640Z">
         <seg>&lt;x1/&gt;No&lt;x2/&gt; will cancel changes (the &lt;x3/&gt;Package&lt;x4/&gt; will be closed without saving!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нет&lt;x2/&gt; — отсутствие нормализации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094049Z" creationid="Марианна" creationdate="20210419T094049Z">
+        <seg>&lt;x1/&gt;No&lt;x2/&gt;: there is no normalization.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24713,6 +24737,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Варианты нормализации данных в Loginom:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094120Z" creationid="Марианна" creationdate="20210419T094120Z">
+        <seg>The following data normalization options are available in Loginom:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Варианты результирующей таблицы из примера с разными &lt;x1/&gt;Способами обработки неполных записей&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T093417Z" creationid="Марианна" creationdate="20201114T093417Z">
@@ -27273,6 +27305,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Делитель:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093901Z" creationid="Марианна" creationdate="20210419T093901Z">
+        <seg>Divisor:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>День - день в виде числа,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T205405Z" creationid="Марианна" creationdate="20210328T214513Z">
@@ -28375,6 +28415,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="mayorov" changedate="20200810T101620Z" creationid="Марианна" creationdate="20200717T110526Z">
         <seg>For this purpose, the &lt;x3/&gt;Row Filter&lt;x4/&gt; component is used. "№ Row number &lt;= 10" criteria is set in its wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого используется следующая формула:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093840Z" creationid="Марианна" creationdate="20210419T093840Z">
+        <seg>The following formula is used for this purpose:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32091,6 +32139,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Контроль диапазона значений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094019Z" creationid="Марианна" creationdate="20210419T094019Z">
+        <seg>Range Control</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Корень дерева в &lt;x1/&gt;Инспекторе свойств&lt;x2/&gt; содержит название компонента, на основе которого создан узел сценария, а в колонке &lt;x3/&gt;Значение&lt;x4/&gt; выводится метка узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T092200Z" creationid="Марианна" creationdate="20200818T101947Z">
@@ -32755,6 +32811,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T110700Z" creationid="Марианна" creationdate="20201105T110700Z">
         <seg>The method enables to set the value of the set column in the string appended by the &lt;x1/&gt;Append() method&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод контроля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093914Z" creationid="Марианна" creationdate="20210419T093914Z">
+        <seg>Control method:</seg>
       </tuv>
     </tu>
     <tu>
