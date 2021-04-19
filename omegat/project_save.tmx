@@ -11641,6 +11641,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; — максимальное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094223Z" creationid="Марианна" creationdate="20210419T094223Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; means the maximum value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113302Z" creationid="Марианна" creationdate="20200929T113302Z">
@@ -11845,6 +11853,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T200744Z" creationid="Марианна" creationdate="20201208T200744Z">
         <seg>&lt;x1/&gt;Minimum rule lift&lt;x2/&gt;: the lift value &gt; 1 indirectly confirms the rule importance, as it shows the positive connection of two object itemsets (rule condition and consequence).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; — минимальное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094201Z" creationid="Марианна" creationdate="20210419T094201Z">
+        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; means the minimum value.</seg>
       </tuv>
     </tu>
     <tu>
