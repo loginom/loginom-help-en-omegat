@@ -35575,6 +35575,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Опорное значение не используется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093742Z" creationid="Марианна" creationdate="20210419T093742Z">
+        <seg>The reference value is not used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определим корреляцию товара "Спагетти" с остальными товарами на основе коэффициентов Пирсона (в мастере настройки обработчика поле "Спагетти" отметим в "Наборе 1", а остальные товары - в "Наборе 2").</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T061950Z" creationid="Марианна" creationdate="20201012T061950Z">
