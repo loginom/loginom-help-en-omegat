@@ -5814,6 +5814,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090948Z" creationid="Марианна" creationdate="20210419T090948Z">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Abs(Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104924Z" creationid="Марианна" creationdate="20210402T104924Z">
@@ -6178,6 +6186,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055628Z" creationid="Марианна" creationdate="20200812T055628Z">
         <seg>&lt;x1/&gt;EM clustering&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;EM Кластеризация&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090945Z" creationid="Марианна" creationdate="20210419T090945Z">
+        <seg>&lt;x1/&gt;EM clustering&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10809,6 +10825,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кластеризация&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090938Z" creationid="Марианна" creationdate="20210419T090938Z">
+        <seg>&lt;x1/&gt;Clustering&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Код типа значения&lt;x2/&gt; — в зависимости от итогов разгруппировки, может принимать значение от 0 до 6.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070630Z" creationid="Марианна" creationdate="20201126T070630Z">
@@ -12185,10 +12209,26 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нейросеть (классификация)&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090921Z" creationid="Марианна" creationdate="20210419T090921Z">
+        <seg>&lt;x1/&gt;Neural network (classification)&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нейросеть (регрессия)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055908Z" creationid="Марианна" creationdate="20200812T055908Z">
         <seg>&lt;x1/&gt;Neural network (regression)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нейросеть (регрессия)&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090930Z" creationid="Марианна" creationdate="20210419T090930Z">
+        <seg>&lt;x1/&gt;Neural network (regression)&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15488,6 +15528,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055933Z" creationid="Марианна" creationdate="20200812T055933Z">
         <seg>&lt;x1/&gt;Self-organizing networks&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Самоорганизующиеся сети&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090958Z" creationid="Марианна" creationdate="20210419T090958Z">
+        <seg>&lt;x1/&gt;Self-organizing networks&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
