@@ -11257,6 +11257,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090418Z" creationid="Марианна" creationdate="20210419T090418Z">
+        <seg>&lt;x1/&gt;Linear regression&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин пользователя БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T111636Z" creationid="Марианна" creationdate="20210118T111636Z">
@@ -11317,6 +11325,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T193629Z" creationid="Марианна" creationdate="20201215T193629Z">
         <seg>&lt;x1/&gt;Logistic regression&lt;x2/&gt; is a kind of multiple regression general purpose of which is to analyze relations between several &lt;x3/&gt;independent variables&lt;x4/&gt; and &lt;x5/&gt;dependent variable&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090910Z" creationid="Марианна" creationdate="20210419T090910Z">
+        <seg>&lt;x1/&gt;Logistic regression&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -33399,6 +33415,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T221145Z" creationid="Марианна" creationdate="20201216T214300Z">
         <seg>Configuration of Normalization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка нормализации доступна как отдельная страница в мастерах:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T090407Z" creationid="Марианна" creationdate="20210419T090407Z">
+        <seg>Normalization configuration is available as a separate page in the following wizards:</seg>
       </tuv>
     </tu>
     <tu>
