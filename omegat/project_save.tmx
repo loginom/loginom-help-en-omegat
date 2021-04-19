@@ -10593,6 +10593,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Индикатор (без опорной категории)&lt;x2/&gt; — длина закодированной строки равна n.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T094618Z" creationid="Марианна" creationdate="20210419T094618Z">
+        <seg>&lt;x1/&gt;Indicator (without reference category)&lt;x2/&gt;: the encoded string length is equal to n.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
