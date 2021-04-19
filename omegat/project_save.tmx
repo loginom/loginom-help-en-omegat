@@ -12265,6 +12265,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Неудаляемое&lt;x2/&gt; — признак неудаляемости поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092045Z" creationid="Марианна" creationdate="20210419T092045Z">
+        <seg>&lt;x1/&gt;Irremovable&lt;x2/&gt; is an indicator of the irremovable field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нижняя граница 95% ДИ&lt;x2/&gt; — нижняя граница 95%-го доверительного интервала.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070056Z" creationid="Марианна" creationdate="20201126T070056Z">
@@ -22861,6 +22869,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T084545Z" creationid="Марианна" creationdate="20201224T084545Z">
         <seg>The flowgraph (transition graph) of the implemented autofit strategy is shown on the figure below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Более высокое значение по сравнению с другими полями увеличивает шансы, что столбец будет присутствовать в финальной модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T091905Z" creationid="Марианна" creationdate="20210419T091905Z">
+        <seg>Higher value as compared with other fields increases a chance that the column will be included into the final model.</seg>
       </tuv>
     </tu>
     <tu>
