@@ -45365,6 +45365,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>где $$x$$ — текущее значение, $$x_{min}$$, $$x_{max}$$ — минимальные и максимальные значения поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T095157Z" creationid="Марианна" creationdate="20210419T095157Z">
+        <seg>where $$x$$ is a current value, $$x_{min}$$, $$x_{max}$$ are minimum and maximum field values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>д.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T083653Z" creationid="Марианна" creationdate="20200826T083653Z">
