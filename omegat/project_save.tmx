@@ -468,6 +468,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(n-2)/n)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093247Z" creationid="Марианна" creationdate="20210419T093247Z">
+        <seg>(n-2)/n)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>(n-3)/n</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093024Z" creationid="Марианна" creationdate="20210419T093024Z">
@@ -704,6 +712,22 @@ interface IRequire extends IRequireFunction  {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100811Z" creationid="Марианна" creationdate="20201011T100811Z">
         <seg>-0.46</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-1/(n-1)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093217Z" creationid="Марианна" creationdate="20210419T093217Z">
+        <seg>-1/(n-1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>-1/(n-2)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093221Z" creationid="Марианна" creationdate="20210419T093221Z">
+        <seg>-1/(n-2)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1916,6 +1940,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2/n</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093153Z" creationid="Марианна" creationdate="20210419T093153Z">
+        <seg>2/n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>20</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153652Z" creationid="Марианна" creationdate="20201006T153652Z">
@@ -2160,6 +2192,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113606Z" creationid="Марианна" creationdate="20201124T113606Z">
         <seg>3,80</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>3/n</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093159Z" creationid="Марианна" creationdate="20210419T093159Z">
+        <seg>3/n</seg>
       </tuv>
     </tu>
     <tu>
@@ -7402,6 +7442,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093005Z" creationid="Марианна" creationdate="20210419T093005Z">
         <seg>&lt;x1/&gt;U3 vs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;U4 vs.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093237Z" creationid="Марианна" creationdate="20210419T093237Z">
+        <seg>&lt;x1/&gt;U4 vs.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20200,10 +20248,42 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>U1 и U2&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093235Z" creationid="Марианна" creationdate="20210419T093235Z">
+        <seg>U1 and U2&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>U1, U2 и U3&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093245Z" creationid="Марианна" creationdate="20210419T093245Z">
+        <seg>U1, U2 and U3&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>U1&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093227Z" creationid="Марианна" creationdate="20210419T093227Z">
+        <seg>U1&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>U2</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093028Z" creationid="Марианна" creationdate="20210419T093028Z">
         <seg>U2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>U2, U3 и U4&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093208Z" creationid="Марианна" creationdate="20210419T093208Z">
+        <seg>U2, U3 and U4&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20220,6 +20300,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093043Z" creationid="Марианна" creationdate="20210419T093043Z">
         <seg>U3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>U3 и U4&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093215Z" creationid="Марианна" creationdate="20210419T093215Z">
+        <seg>U3 and U4&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23113,9 +23201,25 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Более редкое;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093341Z" creationid="Марианна" creationdate="20210419T093341Z">
+        <seg>Rarer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Более частое.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195200Z" creationid="Марианна" creationdate="20201215T195200Z">
+        <seg>More frequent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Более частое;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093357Z" creationid="Марианна" creationdate="20210419T093357Z">
         <seg>More frequent.</seg>
       </tuv>
     </tu>
@@ -36207,6 +36311,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первое в списке;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093316Z" creationid="Марианна" creationdate="20210419T093307Z">
+        <seg>First listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Первой строке соответствует идентификатор 0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T151901Z" creationid="Марианна" creationdate="20210220T151901Z">
@@ -38066,6 +38178,14 @@ It accepts supplementary transaction items that can be taken into account when c
         <seg>Последнее в списке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195142Z" creationid="Марианна" creationdate="20201215T195142Z">
+        <seg>Last listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последнее в списке;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T093329Z" creationid="Марианна" creationdate="20210419T093329Z">
         <seg>Last listed.</seg>
       </tuv>
     </tu>
