@@ -2966,8 +2966,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Не задано&lt;x4/&gt; — для данных, не участвующих в построении модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T091544Z" creationid="Марианна" creationdate="20201208T071039Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unspecifiin the model construction processed&lt;x4/&gt;: for the data that do not take part in the model training process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092251Z" creationid="Марианна" creationdate="20201208T071039Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unspecified&lt;x4/&gt;: for the data that do not take part in the model training process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33871,6 +33871,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T060543Z" creationid="Марианна" creationdate="20201029T060543Z">
         <seg>It does not have arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не может быть удалено в процессе отбора факторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210419T092113Z" creationid="Марианна" creationdate="20210419T092113Z">
+        <seg>It cannot be removed in the factor selection process.</seg>
       </tuv>
     </tu>
     <tu>
