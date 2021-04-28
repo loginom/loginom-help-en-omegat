@@ -13057,6 +13057,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отклонение&lt;x2/&gt; — то же, что и "Индикатор", но опорная категория кодируется строкой из -1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T201239Z" creationid="Марианна" creationdate="20210428T201239Z">
+        <seg>&lt;x1/&gt;Deviation&lt;x2/&gt; means the same as the "Indicator", but the reference category is encoded using the string that consists of -1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отключена&lt;x2/&gt; (OFF).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204143Z" creationid="Марианна" creationdate="20210203T204143Z">
