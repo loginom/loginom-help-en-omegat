@@ -15276,6 +15276,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Простая&lt;x2/&gt; — то же, что и "Индикатор", но вместо 0 используется значение -1/n, а вместо 1 используется значение 1-1/n.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T201436Z" creationid="Марианна" creationdate="20210428T201436Z">
+        <seg>&lt;x1/&gt;Simple&lt;x2/&gt; means the same as the "Indicator", but value -1/n is used instead of 0, and value 1-1/n is used instead of 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пространство имен&lt;x2/&gt; — выбор пространства имен из списка всех пространств имен описанных в *.xsd-файле, ограничивает выбор корневого элемента только указанным пространством.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T185942Z" creationid="Марианна" creationdate="20200929T185632Z">
@@ -15592,6 +15600,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T104306Z" creationid="Марианна" creationdate="20201110T104306Z">
         <seg>&lt;x1/&gt;Difference&lt;x2/&gt; Difference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разность&lt;x2/&gt; — уникальные значения упорядочиваются, после чего каждое уникальное значение сравнивается со следующим по таблице вида:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T201733Z" creationid="Марианна" creationdate="20210428T201733Z">
+        <seg>&lt;x1/&gt;Difference&lt;x2/&gt;: the unique values are ordered, then each unique value is compared with the next one according to the following table:</seg>
       </tuv>
     </tu>
     <tu>
