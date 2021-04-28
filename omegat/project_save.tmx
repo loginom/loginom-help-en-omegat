@@ -9329,6 +9329,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Гельмерт&lt;x2/&gt; — уникальные значения упорядочиваются, после чего каждое уникальное значение сравнивается со средним из последующих значений по таблице вида:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T202346Z" creationid="Марианна" creationdate="20210428T202346Z">
+        <seg>&lt;x1/&gt;Helmert&lt;x2/&gt;: the unique values are ordered, then each unique value is compared with the average value from the subsequent values according to the following table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Генерировать составные метки полей&lt;x2/&gt; – при наличии данного флага используется составная метка узла массива: в метках полей будет отражена иерархия относительно корневого элемента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133036Z" creationid="Марианна" creationdate="20201001T191819Z">
