@@ -32227,6 +32227,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Контроль диапазона значений отвечает за то, чтобы при выполнении узла значение не вышло за указанный диапазон, сохраненный при обучении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T150254Z" creationid="Марианна" creationdate="20210428T150254Z">
+        <seg>Control of values range does not let the value go out of the specified range saved while training when executing the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Корень дерева в &lt;x1/&gt;Инспекторе свойств&lt;x2/&gt; содержит название компонента, на основе которого создан узел сценария, а в колонке &lt;x3/&gt;Значение&lt;x4/&gt; выводится метка узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T092200Z" creationid="Марианна" creationdate="20200818T101947Z">
