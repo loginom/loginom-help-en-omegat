@@ -12809,6 +12809,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обратная разность&lt;x2/&gt; — уникальные значения упорядочиваются, после чего каждое уникальное значение сравнивается с предыдущим по таблице вида:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T202040Z" creationid="Марианна" creationdate="20210428T202040Z">
+        <seg>&lt;x1/&gt;Backward difference&lt;x2/&gt;: the unique values are ordered, then each unique value is compared with the previous one according to the following table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обучающее&lt;x2/&gt; — cтруктурированный набор данных, применяемый для обучения &lt;x3/&gt;аналитических моделей&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T080157Z" creationid="Марианна" creationdate="20201214T080157Z">
