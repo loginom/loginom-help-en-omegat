@@ -7862,6 +7862,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Абсолютное масштабирование&lt;x2/&gt; — каждое значение делится на максимальное абсолютное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T144927Z" creationid="Марианна" creationdate="20210428T144927Z">
+        <seg>&lt;x1/&gt;Absolute scaling&lt;x2/&gt;: each value is divided by the maximum absolute value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Абсолютный&lt;x2/&gt; (для совместного использования) — включает в себя имя папки, из которой загружен файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085145Z" creationid="Марианна" creationdate="20200814T085145Z">
@@ -16448,6 +16456,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185240Z" creationid="Марианна" creationdate="20200810T183233Z">
         <seg>&lt;x1/&gt;Reference to package&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартизация&lt;x2/&gt; — из каждого значение вычитается среднее значение и делится на стандартное отклонение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T145151Z" creationid="Марианна" creationdate="20210428T145151Z">
+        <seg>&lt;x1/&gt;Standardization&lt;x2/&gt;: the average value is subtracted from each value, and then it is divided by the standard deviation.</seg>
       </tuv>
     </tu>
     <tu>
