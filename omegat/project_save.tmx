@@ -24531,6 +24531,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В таком случае данные поступают в основной алгоритм без предварительной обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T144108Z" creationid="Марианна" creationdate="20210428T144108Z">
+        <seg>In this case, the data is sent to the main algorithm without preprocessing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В тексте SQL-запроса можно использовать &lt;x1/&gt;Управляющие переменные&lt;x2/&gt; в качестве параметров и макроподстановок, что позволяет динамически формировать запрос, отправляемый на сервер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154321Z" creationid="Марианна" creationdate="20200824T154321Z">
