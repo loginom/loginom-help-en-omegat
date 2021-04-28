@@ -8601,6 +8601,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Винсоризация&lt;x2/&gt; — если встречается значение вне заданного диапазона, то оно приводится к максимальному/минимальному значению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T151147Z" creationid="Марианна" creationdate="20210428T151147Z">
+        <seg>&lt;x1/&gt;Winsorization&lt;x2/&gt;: if the value that goes out of the given range is detected, it is reduced to the maximum/minimum value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Включить в модель константу&lt;x2/&gt; — добавляет в модель зависимую переменную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114621Z" creationid="Марианна" creationdate="20201214T114621Z">
@@ -10909,6 +10917,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T103526Z" creationid="Марианна" creationdate="20200825T190834Z">
         <seg>&lt;x1/&gt;Raw data&lt;x2/&gt;: the source version of the downloaded data wil be displayed in the table wizard part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исходный диапазон&lt;x2/&gt; — значения минимума и максимума входного поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T151240Z" creationid="Марианна" creationdate="20210428T151240Z">
+        <seg>&lt;x1/&gt;Source Range&lt;x2/&gt; means the values of the input field minimum and maximum.</seg>
       </tuv>
     </tu>
     <tu>
