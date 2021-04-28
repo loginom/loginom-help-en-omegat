@@ -1,33 +1,33 @@
-# Нормализация
+# Normalization
 
-**Нормализация значений полей** — это преобразование данных к виду, наиболее подходящему для обработки алгоритмом.
+**Normalization of field values** means data transformation by the kind that is the most suitable for algorithm processing.
 
-Настройка нормализации доступна как отдельная страница в мастерах:
-* [Линейная регрессия](../datamining/linear-regression/README.md);
-* [Логистическая регрессия](../datamining/logistic-regression/README.md);
-* [Нейросеть (классификация)](../datamining/neural-network-classification.md);
-* [Нейросеть (регрессия)](../datamining/neural-network-regression.md);
-* [Кластеризация](../datamining/clustering.md);
-* [EM Кластеризация](../datamining/em-clustering.md);
+Normalization configuration is available as a separate page in the following wizards:
+* [Linear regression](../datamining/linear-regression/README.md);
+* [Logistic regression](../datamining/logistic-regression/README.md);
+* [Neural network (classification)](../datamining/neural-network-classification.md);
+* [Neural network (regression)](../datamining/neural-network-regression.md);
+* [Clustering](../datamining/clustering.md);
+* [EM clustering](../datamining/em-clustering.md);
 * [ARIMAX](../datamining/arimax.md);
-* [Самоорганизующиеся сети](../datamining/self-organizing-network.md).
+* [Self-organizing networks](../datamining/self-organizing-network.md).
 
 ## Normalization Settings
 
-* **Поле** — поле набора данных.
-* **Нормализатор** — выбранный нормализатор поля.
-* **Множитель** — параметр, определяющий значимость столбца при построении модели. Нулевое значение эквивалентно тому, что столбец не участвует при построении модели. Более высокое значение по сравнению с другими полями увеличивает шансы, что столбец будет присутствовать в финальной модели.
-* **Неудаляемое** — признак неудаляемости поля. Не может быть удалено в процессе отбора факторов. Данный фактор всегда будет присутствовать в модели.
+* **Field** is a data set field.
+* **Normalizer** means the selected field normalizer.
+* **Multiplier** means the parameter that enables to define column significance while model training. Zero value means that the column do not take part in the model training process. Higher value as compared with other fields increases a chance that the column will be included into the final model.
+* **Irremovable** is an indicator of the irremovable field. It cannot be removed in the factor selection process. This factor will be always included into the model.
 
-Перечисленные алгоритмы используют различные параметры настроек нормализации:
+Different parameters of the normalization settings are used by the listed algorithms:
 
-| **Компонент** | **Поле** | **Нормализатор** | **Множитель** | **Неудаляемое** |
+| **Component** | **Field** | **Normalizer** | **Multiplier** | **Irremovable** |
 | :--------------------- | :------------: | :------------: | :------------: |:------------: |
-| Линейная регрессия | • | • | • | • |
-| Логистическая регрессия | • | • | • | • |
-| Нейросеть (классификация) | • | • |  |  |
-| Нейросеть (регрессия) | • | • |  |  |
+| Linear regression | • | • | • | • |
+| Logistic regression | • | • | • | • |
+| Neural network (classification) | • | • |  |  |
+| Neural network (regression) | • | • |  |  |
 | Clustering | • | • |  |  |
 | EM Clustering | • | • |  |   |
 | ARIMAX | • | • |  |   |
-| Самоорганизующиеся сети | • | • |  | &nbsp; |
+| Self-organizing networks | • | • |  | &nbsp; |

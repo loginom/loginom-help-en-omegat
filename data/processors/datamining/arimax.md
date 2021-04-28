@@ -56,7 +56,7 @@ It is required to set the [usage type](../../data/datasetfieldoptions.md) of the
 
 * ![ ](../../images/icons/usage-types/forecast_default.svg) **Forecast**: for the data mapping the time series.
 * ![ ](../../images/icons/usage-types/active_default.svg) **Input**: for the data mapping the additional input factors.
-* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Unspecified**: for the data that do not take part in the model construction process. It is set for other columns by default.
+* ![ ](../../images/icons/usage-types/unspecified_default.svg) **Unspecified**: for the data that do not take part in the model training process. It is set for other columns by default.
 
 ### Step 2. Normalization Settings
 
