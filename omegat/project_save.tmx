@@ -31474,6 +31474,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждому уникальному значению поля, кроме опорной категории, выделяется своя колонка, в которую записывается значение 1, а все остальные значения строки равны 0; опорная категория кодируется строкой из нулей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T201008Z" creationid="Марианна" creationdate="20210428T201008Z">
+        <seg>A separate column is assigned to each unique field value, with the exception of the reference category. Value 1 is recorded in it, whereas all other string values are equal to 0. The reference category is encoded using the string that consists of zeros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый блок на своем уровне иерархии может быть представлен в виде «черного ящика», выполняющего независимую подзадачу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T154413Z" creationid="Марианна" creationdate="20200718T135300Z">
