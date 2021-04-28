@@ -13121,6 +13121,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отношение&lt;x2/&gt; — каждое значение делится на статистический показатель, либо на заданное пользователем значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T145408Z" creationid="Марианна" creationdate="20210428T145408Z">
+        <seg>&lt;x1/&gt;Quotient&lt;x2/&gt;: each value is divided by the statistical indicator or the value set by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отображать завершенные процессы&lt;x2/&gt; — изменяет отображение процессов на панели:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073653Z" creationid="Марианна" creationdate="20200817T073653Z">
@@ -42295,6 +42303,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123710Z" creationid="Марианна" creationdate="20210406T123710Z">
         <seg>Statistical Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Статистический показатель (Минимум, Максимум, Среднее, Сумма, Стандартное отклонение).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T145519Z" creationid="Марианна" creationdate="20210428T145519Z">
+        <seg>Statistical indicator (Minimum, Maximum, Average, Sum, Standard deviation).</seg>
       </tuv>
     </tu>
     <tu>
