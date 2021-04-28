@@ -42885,6 +42885,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так работает линейный нормализатор.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T143920Z" creationid="Марианна" creationdate="20210428T143920Z">
+        <seg>This is how the linear normalizer is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Так, с помощью линейной регрессии можно оценивать объем ожидаемых продаж в зависимости от установленной цены.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T074427Z" creationid="Марианна" creationdate="20201214T074427Z">
