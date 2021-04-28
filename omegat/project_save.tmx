@@ -15852,6 +15852,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ручная настройка&lt;x2/&gt; — при установке данного флага становится доступным выбор диапазона значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T151427Z" creationid="Марианна" creationdate="20210428T151427Z">
+        <seg>&lt;x1/&gt;Manual setting&lt;x2/&gt;: when this checkbox is selected, it becomes possible to select the range of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;С разделителями&lt;x2/&gt; — значения полей в исходном файле отделяются символом, заданным параметром &lt;x3/&gt;Разделитель столбцов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161804Z" creationid="Марианна" creationdate="20200917T161804Z">
