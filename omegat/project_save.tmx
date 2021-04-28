@@ -11673,6 +11673,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Масштабирование &lt;x2/&gt;-1;1&lt;x3/&gt;&lt;x4/&gt; — приведение данных линейным преобразованием к диапазону &lt;x5/&gt;-1;1&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T144641Z" creationid="Марианна" creationdate="20210428T144641Z">
+        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;-1;1&lt;x3/&gt;&lt;x4/&gt; means the data reduction to &lt;x5/&gt;-1;1&lt;x6/&gt; range by means of the linear transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Масштабирование &lt;x2/&gt;min; max&lt;x3/&gt;&lt;x4/&gt; — приведение данных линейным преобразованием к заданному пользователем диапазону &lt;x5/&gt;min; max&lt;x6/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210428T144528Z" creationid="Марианна" creationdate="20210428T144528Z">
