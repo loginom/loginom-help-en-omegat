@@ -10617,6 +10617,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Индикатор&lt;x2/&gt; — длина закодированной строки равна n-1, где n — количество уникальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T200441Z" creationid="Марианна" creationdate="20210428T200441Z">
+        <seg>&lt;x1/&gt;Indicator&lt;x2/&gt;: the encoded string length is equal to n-1 where n is a number of unique values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
