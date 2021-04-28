@@ -13249,6 +13249,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ошибка&lt;x2/&gt; — если встречается значение вне заданного диапазона, то при запуске узла выдается ошибка &lt;x3/&gt;Нормализующее значение больше максимума диапазона значений&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210428T150909Z" creationid="Марианна" creationdate="20210428T150909Z">
+        <seg>&lt;x1/&gt;Error&lt;x2/&gt;: if the value that goes out of the given range is detected, the following error occurs when the node is started: &lt;x3/&gt;Normalizing value exceeds the values range maximum&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ошибка&lt;x2/&gt; — стандартные ошибки коэффициентов корреляции для последовательности лагов данного диапазона;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102521Z" creationid="Марианна" creationdate="20201011T102521Z">
