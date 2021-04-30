@@ -16,7 +16,7 @@ Normalization configuration is available as a separate page in the following wiz
 
 * **Field** is a data set field.
 * **Normalizer** means the selected field normalizer.
-* **Multiplier** means the parameter that enables to define column significance while model training. Zero value means that the column do not take part in the model training process. Higher value as compared with other fields increases a chance that the column will be included into the final model.
+* **Multiplier** means the parameter that enables to define column significance while model training. Zero value means that the column does not take part in the model training process. Higher value as compared with other fields increases a chance that the column will be included into the final model.
 * **Irremovable** is an indicator of the irremovable field. It cannot be removed in the factor selection process. This factor will be always included into the model.
 
 Different parameters of the normalization settings are used by the listed algorithms:
