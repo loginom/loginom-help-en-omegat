@@ -12651,8 +12651,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нормализация значений полей&lt;x2/&gt; — это преобразование данных к виду, наиболее подходящему для обработки алгоритмом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210430T155157Z" creationid="Марианна" creationdate="20210419T090236Z">
-        <seg>&lt;x1/&gt;Normalization of field values&lt;x2/&gt; means the data transformation by the kind that is the most suitable for algorithm processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155227Z" creationid="Марианна" creationdate="20210419T090236Z">
+        <seg>&lt;x1/&gt;Normalization of field values&lt;x2/&gt; means the data transformation by the kind that is the most suitable one for algorithm processing.</seg>
       </tuv>
     </tu>
     <tu>
