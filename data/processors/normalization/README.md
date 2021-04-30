@@ -1,6 +1,6 @@
 # Normalization
 
-**Normalization of field values** means data transformation by the kind that is the most suitable for algorithm processing.
+**Normalization of field values** means the data transformation by the kind that is the most suitable one for algorithm processing.
 
 Normalization configuration is available as a separate page in the following wizards:
 * [Linear regression](../datamining/linear-regression/README.md);
