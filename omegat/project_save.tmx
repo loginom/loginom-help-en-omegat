@@ -35033,8 +35033,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Нулевое значение эквивалентно тому, что столбец не участвует при построении модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T091722Z" creationid="Марианна" creationdate="20210419T091722Z">
-        <seg>Zero value means that the column do not take part in the model training process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155341Z" creationid="Марианна" creationdate="20210419T091722Z">
+        <seg>Zero value means that the column does not take part in the model training process.</seg>
       </tuv>
     </tu>
     <tu>
