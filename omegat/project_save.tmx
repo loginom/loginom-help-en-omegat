@@ -12827,8 +12827,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Обратный Гельмерт&lt;x2/&gt; — уникальные значения упорядочиваются, после чего каждое уникальное значение сравнивается со средним из предыдущих значений по таблице вида:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210428T202450Z" creationid="Марианна" creationdate="20210428T202450Z">
-        <seg>&lt;x1/&gt;Reverse Helmert&lt;x2/&gt;: the unique values are ordered, then each unique value is compared with the average value from the previous values according to the following table::</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155758Z" creationid="Марианна" creationdate="20210428T202450Z">
+        <seg>&lt;x1/&gt;Reverse Helmert&lt;x2/&gt;: the unique values are ordered, then each unique value is compared with the average value from the previous values according to the following table:</seg>
       </tuv>
     </tu>
     <tu>
