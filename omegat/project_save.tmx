@@ -5960,8 +5960,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090948Z" creationid="Марианна" creationdate="20210419T090948Z">
-        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155534Z" creationid="Марианна" creationdate="20210419T090948Z">
+        <seg>&lt;x1/&gt;ARIMAX&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6336,8 +6336,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;EM Кластеризация&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090945Z" creationid="Марианна" creationdate="20210419T090945Z">
-        <seg>&lt;x1/&gt;EM clustering&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155530Z" creationid="Марианна" creationdate="20210419T090945Z">
+        <seg>&lt;x1/&gt;EM clustering&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11059,8 +11059,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кластеризация&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090938Z" creationid="Марианна" creationdate="20210419T090938Z">
-        <seg>&lt;x1/&gt;Clustering&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155525Z" creationid="Марианна" creationdate="20210419T090938Z">
+        <seg>&lt;x1/&gt;Clustering&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11523,8 +11523,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090418Z" creationid="Марианна" creationdate="20210419T090418Z">
-        <seg>&lt;x1/&gt;Linear regression&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155507Z" creationid="Марианна" creationdate="20210419T090418Z">
+        <seg>&lt;x1/&gt;Linear regression&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11595,8 +11595,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Логистическая регрессия&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090910Z" creationid="Марианна" creationdate="20210419T090910Z">
-        <seg>&lt;x1/&gt;Logistic regression&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155512Z" creationid="Марианна" creationdate="20210419T090910Z">
+        <seg>&lt;x1/&gt;Logistic regression&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12507,8 +12507,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нейросеть (классификация)&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090921Z" creationid="Марианна" creationdate="20210419T090921Z">
-        <seg>&lt;x1/&gt;Neural network (classification)&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155516Z" creationid="Марианна" creationdate="20210419T090921Z">
+        <seg>&lt;x1/&gt;Neural network (classification)&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12523,8 +12523,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нейросеть (регрессия)&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T090930Z" creationid="Марианна" creationdate="20210419T090930Z">
-        <seg>&lt;x1/&gt;Neural network (regression)&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155520Z" creationid="Марианна" creationdate="20210419T090930Z">
+        <seg>&lt;x1/&gt;Neural network (regression)&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
