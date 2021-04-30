@@ -34,7 +34,7 @@
 | U3 | -1/n | -1/(n-1) | (n-3)/n |
 | U4 | -1/n | -1/(n-1) | -1/(n-2) |
 
-* **Reverse Helmert**: the unique values are ordered, then each unique value is compared with the average value from the previous values according to the following table::
+* **Reverse Helmert**: the unique values are ordered, then each unique value is compared with the average value from the previous values according to the following table:
 
 | Unique values | Contrast 1 | Contrast 2 | Contrast 3 |
 | :--------------------- | :------------ | :------------ | :------------ |
@@ -46,7 +46,7 @@
 
 * **Unique value index**: each unique value is replaced with the unique value index.
 
-## Reference value
+## Reference Value
 
 The reference value is used in some normalizers of discrete data. The reference value is selected from the unique values table. There are several options to set the reference value:
 
