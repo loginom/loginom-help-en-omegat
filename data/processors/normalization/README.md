@@ -3,13 +3,13 @@
 **Normalization of field values** means the data transformation by the kind that is the most suitable one for algorithm processing.
 
 Normalization configuration is available as a separate page in the following wizards:
-* [Linear regression](../datamining/linear-regression/README.md);
-* [Logistic regression](../datamining/logistic-regression/README.md);
-* [Neural network (classification)](../datamining/neural-network-classification.md);
-* [Neural network (regression)](../datamining/neural-network-regression.md);
-* [Clustering](../datamining/clustering.md);
-* [EM clustering](../datamining/em-clustering.md);
-* [ARIMAX](../datamining/arimax.md);
+* [Linear regression](../datamining/linear-regression/README.md).
+* [Logistic regression](../datamining/logistic-regression/README.md).
+* [Neural network (classification)](../datamining/neural-network-classification.md).
+* [Neural network (regression)](../datamining/neural-network-regression.md).
+* [Clustering](../datamining/clustering.md).
+* [EM clustering](../datamining/em-clustering.md).
+* [ARIMAX](../datamining/arimax.md).
 * [Self-organizing networks](../datamining/self-organizing-network.md).
 
 ## Normalization Settings
