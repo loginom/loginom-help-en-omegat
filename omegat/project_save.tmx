@@ -35817,8 +35817,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Опорное значение</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T093415Z" creationid="Марианна" creationdate="20210419T093415Z">
-        <seg>Reference value</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210430T155832Z" creationid="Марианна" creationdate="20210419T093415Z">
+        <seg>Reference Value</seg>
       </tuv>
     </tu>
     <tu>
