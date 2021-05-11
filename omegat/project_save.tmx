@@ -25243,8 +25243,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Видом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210511T085442Z" creationid="Марианна" creationdate="20210511T085442Z">
-        <seg>Kind.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085639Z" creationid="Марианна" creationdate="20210511T085442Z">
+        <seg>Kind</seg>
       </tuv>
     </tu>
     <tu>
@@ -43607,8 +43607,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Типом;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210511T085437Z" creationid="Марианна" creationdate="20210511T085437Z">
-        <seg>Type;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085628Z" creationid="Марианна" creationdate="20210511T085437Z">
+        <seg>Type</seg>
       </tuv>
     </tu>
     <tu>
@@ -44033,6 +44033,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T134507Z" creationid="Марианна" creationdate="20201210T134507Z">
         <seg>Unique values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Упорядоченностью;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085634Z" creationid="Марианна" creationdate="20210511T085618Z">
+        <seg>Degree of order</seg>
       </tuv>
     </tu>
     <tu>
