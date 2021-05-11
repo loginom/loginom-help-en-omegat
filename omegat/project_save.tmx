@@ -27249,6 +27249,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный метод следует применять, если известно, что распределение данных близко к нормальному.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T104401Z" creationid="Марианна" creationdate="20210511T104401Z">
+        <seg>This method can be used if it is known that data distribution is close to the normal one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный режим использует алгоритм шифрования AES256 и предусматривает использование пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T143837Z" creationid="Марианна" creationdate="20210210T143837Z">
