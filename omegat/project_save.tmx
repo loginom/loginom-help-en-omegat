@@ -37583,6 +37583,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Под выбросами при этом подразумеваются значения данных, существенно отклоняющиеся от средних, а под экстремальными — значения, которые настолько сильно отклоняются от типичных значений, что перестают соответствовать логике исследуемых процессов и явлений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T082548Z" creationid="Марианна" creationdate="20210511T082548Z">
+        <seg>The outliers mean the data values that distinctly deviate from the average ones, the extreme values mean the values that deviate from the typical values to such extent that they are not consistent with the logics of the processes and events under research anymore.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Под строкой состояния располагается область настройки условий фильтрации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114656Z" creationid="Марианна" creationdate="20201113T113115Z">
