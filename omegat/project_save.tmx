@@ -10937,6 +10937,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Исходные данные упорядочены&lt;x2/&gt; — выставлять данный флаг следует в том случае, когда известно, что числовой ряд является упорядоченным, т.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T083056Z" creationid="Марианна" creationdate="20210511T083056Z">
+        <seg>&lt;x1/&gt;Source data ordered&lt;x2/&gt;: it is required to select this checkbox when it is known that the numeric series is ordered,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Исходные данные&lt;x2/&gt; — в табличной части окна мастера будет показан исходный (текстовый) вариант загружаемых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T103639Z" creationid="Марианна" creationdate="20200826T094529Z">
