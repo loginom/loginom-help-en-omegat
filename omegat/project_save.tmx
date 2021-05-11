@@ -27979,6 +27979,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого поля исходного набора данных критерии определения выбросов и экстремальных значений задаются пользователем с помощью указания допустимого &lt;x1/&gt;стандартного отклонения&lt;x2/&gt; или интерквартильного размаха.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T081930Z" creationid="Марианна" creationdate="20210511T081930Z">
+        <seg>A user sets criteria of determination of outliers and extreme values for each field of the source data set by specifying the allowable &lt;x1/&gt;standard deviation&lt;x2/&gt; or interquartile range.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждого поля исходного набора задается способ замены:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084458Z" creationid="Марианна" creationdate="20201117T084458Z">
