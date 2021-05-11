@@ -46085,6 +46085,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>оставить без изменения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085151Z" creationid="Марианна" creationdate="20210511T085151Z">
+        <seg>Leave unchanged;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>от -8 до 32</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063202Z" creationid="Марианна" creationdate="20201116T063202Z">
@@ -46545,6 +46553,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T075949Z" creationid="Марианна" creationdate="20201019T064836Z">
         <seg>only to the first row, and the null value will be displayed in other rows for the fields related to the string and variable types, for the fields related to other types - empty cell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>удалять записи — исключить строки с аномальными значениями из набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085412Z" creationid="Марианна" creationdate="20210511T085412Z">
+        <seg>Delete records: delete the records with anomalous values from data set.</seg>
       </tuv>
     </tu>
     <tu>
