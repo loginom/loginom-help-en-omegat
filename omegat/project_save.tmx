@@ -28883,6 +28883,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступность некоторых методов обработки зависит от состояния данного флага.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T083627Z" creationid="Марианна" creationdate="20210511T083627Z">
+        <seg>Availability of some elimination methods depends on the status of this checkbox.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступность узлов определяется их видимостью (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
@@ -46465,6 +46473,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061223Z" creationid="Марианна" creationdate="20201109T061223Z">
         <seg>&lt;x1/&gt;Code editor hotkeys&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>таким, значения которого упорядочены по возрастанию или убыванию (например, по дате или времени).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T083250Z" creationid="Марианна" creationdate="20210511T083250Z">
+        <seg>its values are ordered in ascending or descending order (for example, by date or time).</seg>
       </tuv>
     </tu>
     <tu>
