@@ -13041,6 +13041,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Определение выбросов и экстремальных значений&lt;x2/&gt; — доступны два метода выявления:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T084921Z" creationid="Марианна" creationdate="20210511T084921Z">
+        <seg>&lt;x1/&gt;Determination of Outliers and Extreme Values&lt;x2/&gt;: two detection methods are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Определить структуру автоматически&lt;x2/&gt; — при установке данного флага активируется автоподбор параметров модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133100Z" creationid="Марианна" creationdate="20201208T071633Z">
@@ -28023,6 +28031,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084458Z" creationid="Марианна" creationdate="20201117T084458Z">
         <seg>Replacement method is set for each field of the source data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для каждого поля можно выставить флаг, определяющий наличие обработки, и затем, выделив поле, задать метод редактирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T084841Z" creationid="Марианна" creationdate="20210511T084841Z">
+        <seg>It is possible to select the checkbox that enables to define the processing avialability for each field. Upon selection of the field, it is possible to set the processing method.</seg>
       </tuv>
     </tu>
     <tu>
