@@ -42483,6 +42483,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Стандартное отклонение — критерием является отклонение значения признака от среднего более, чем на заданное число стандартных отклонений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T104143Z" creationid="Марианна" creationdate="20210511T104143Z">
+        <seg>Standard deviation: the criterion is deviation of the indicator value from the mean one more than by the set number of standard deviations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Старый\_шаблон - заменяемая подстрока;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T214132Z" creationid="Марианна" creationdate="20210407T091847Z">
