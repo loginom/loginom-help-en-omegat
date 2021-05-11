@@ -25241,6 +25241,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Видом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085442Z" creationid="Марианна" creationdate="20210511T085442Z">
+        <seg>Kind.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Виды портов узлов сценария:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074935Z" creationid="Марианна" creationdate="20200716T074935Z">
@@ -43041,6 +43049,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таблица применимости по этим характеристикам:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085556Z" creationid="Марианна" creationdate="20210511T085556Z">
+        <seg>Applicability table by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таблица факторных нагрузок:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212711Z" creationid="Марианна" creationdate="20201012T212711Z">
@@ -43585,6 +43601,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195119Z" creationid="Марианна" creationdate="20201215T195119Z">
         <seg>Event type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Типом;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085437Z" creationid="Марианна" creationdate="20210511T085437Z">
+        <seg>Type;</seg>
       </tuv>
     </tu>
     <tu>
@@ -46087,8 +46111,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>оставить без изменения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210511T085151Z" creationid="Марианна" creationdate="20210511T085151Z">
-        <seg>Leave unchanged;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T085424Z" creationid="Марианна" creationdate="20210511T085151Z">
+        <seg>Leave unchanged.</seg>
       </tuv>
     </tu>
     <tu>
