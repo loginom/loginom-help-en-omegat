@@ -39647,6 +39647,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом данный параметр отдельно задается для выбросов и для экстремальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T104242Z" creationid="Марианна" creationdate="20210511T104242Z">
+        <seg>In this case, this parameter can be separately set for outliers and exreme values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом для учета случаев, когда несколько сетей показывают сравнимые по точности результаты, в целях выбора сети с самой простой структурой значение целевой функции дополнительно штрафуется на слабо отличающийся от единицы множитель (1+1e-8) за каждый скрытый нейрон.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T082707Z" creationid="Марианна" creationdate="20201224T082707Z">
