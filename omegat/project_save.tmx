@@ -33455,6 +33455,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На обработку логических и строковых полей положение флага не влияет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T083844Z" creationid="Марианна" creationdate="20210511T083844Z">
+        <seg>The checkbox status does not affect processing of logical and string fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На основе исходного столбца формируются остальные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125722Z" creationid="Марианна" creationdate="20201118T125722Z">
