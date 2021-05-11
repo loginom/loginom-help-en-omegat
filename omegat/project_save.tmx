@@ -35295,6 +35295,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик предназначен для автоматической корректировки выбросов и экстремальных значений в наборах данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T081423Z" creationid="Марианна" creationdate="20210511T081423Z">
+        <seg>The handler is designated for automatic elimination of outliers and extreme values in data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик предназначен для импорта таблицы из &lt;x1/&gt;LGD-файла&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062102Z" creationid="Марианна" creationdate="20200826T062102Z">
