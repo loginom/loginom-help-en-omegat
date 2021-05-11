@@ -12737,6 +12737,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки методов обработки выбросов и экстремальных значений&lt;x2/&gt; — содержит список полей доступных для обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T084637Z" creationid="Марианна" creationdate="20210511T084637Z">
+        <seg>&lt;x1/&gt;Area of configuration of outliers and extreme values elimination methods&lt;x2/&gt; contains a list of the fields available for processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки назначений полей&lt;x2/&gt; — представляет собой две таблицы, в первой находится перечень полей разгруппируемых данных, во второй — перечень полей данных для расчета долей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T093528Z" creationid="Марианна" creationdate="20201127T093528Z">
@@ -34855,6 +34863,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Неупорядоченный набор</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T084005Z" creationid="Марианна" creationdate="20210511T084005Z">
+        <seg>Unordered set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ниже расположена графа "Последние открытые пакеты", включающая в себя историю открытия Пакетов со следующими полями:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T105711Z" creationid="Марианна" creationdate="20200814T105711Z">
@@ -43977,6 +43993,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T134507Z" creationid="Марианна" creationdate="20201210T134507Z">
         <seg>Unique values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Упорядоченный набор</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210511T084022Z" creationid="Марианна" creationdate="20210511T084022Z">
+        <seg>Ordered set</seg>
       </tuv>
     </tu>
     <tu>
