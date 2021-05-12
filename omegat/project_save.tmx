@@ -31058,6 +31058,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интерквартильный размах — критерием является расстояние между 1-м и 3-м квартилями распределения значений признака.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T064613Z" creationid="Марианна" creationdate="20210512T064613Z">
+        <seg>Interquartile range: the criterion is distance between the first and the third quartiles of indicator values distribution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интерфейс</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T131357Z" creationid="Марианна" creationdate="20200814T131357Z">
