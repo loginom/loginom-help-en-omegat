@@ -45877,6 +45877,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>заменять заданным значением — замена аномалий на значение, прописанное вручную;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T071815Z" creationid="Марианна" creationdate="20210512T071815Z">
+        <seg>Replace with set value: replace anomalous values with the manually recorded value. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>заменять медианой — заменять аномалии медианой, вычисленной по столбцу;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210512T071022Z" creationid="Марианна" creationdate="20210512T070842Z">
@@ -46169,6 +46177,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212304Z" creationid="Марианна" creationdate="20201012T212304Z">
         <seg>District</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ограничивать — аномалии будут заменены значением границы, с которой начинается определение аномалии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T072010Z" creationid="Марианна" creationdate="20210512T072010Z">
+        <seg>Limit: replace anomalous values with the bound value from which the anomalous values start.</seg>
       </tuv>
     </tu>
     <tu>
