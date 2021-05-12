@@ -28067,6 +28067,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого поля спектр доступных методов определяется тремя характеристиками данных одновременно (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T072236Z" creationid="Марианна" creationdate="20210512T072236Z">
+        <seg>The spectrum of available methods is defined for each field by three data characteristics simultaneously (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждой группы возвращается одна строка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194242Z" creationid="Марианна" creationdate="20201023T194242Z">
