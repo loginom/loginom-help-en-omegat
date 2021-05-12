@@ -45877,6 +45877,22 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>заменять медианой — заменять аномалии медианой, вычисленной по столбцу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T071022Z" creationid="Марианна" creationdate="20210512T070842Z">
+        <seg>Replace with median: replace anomalous values with the median calculated for the column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>заменять наиболее вероятным — замена аномалий наиболее вероятным значением по столбцу, замена производится на среднее значение из наиболее вероятного интервала, число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T071305Z" creationid="Марианна" creationdate="20210512T070952Z">
+        <seg>Replace with most frequent: replace anomalous values with the most frequent column value. Replacement is performed using the average value from the most frequent range, Interval count varies according to the sample size: the larger is the sample size, the more ranges.  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>заменять средним — заменять аномалии средним значением столбца;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210512T070706Z" creationid="Марианна" creationdate="20210512T070706Z">
