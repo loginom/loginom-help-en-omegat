@@ -27257,6 +27257,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный параметр задается отдельно для выбросов и экстремальных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T070341Z" creationid="Марианна" creationdate="20210512T070341Z">
+        <seg>This parameter is set only for outliers and exreme values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный режим использует алгоритм шифрования AES256 и предусматривает использование пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T143837Z" creationid="Марианна" creationdate="20210210T143837Z">
@@ -31694,6 +31702,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T062700Z" creationid="Марианна" creationdate="20201012T062700Z">
         <seg>As shown in the table, the sale series of the "Tomato paste" item of goods is distinguished by very high positive correlation, whereas the "Pasta" item of goods is characterized by the negative correlation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Как для выбросов, так и для экстремальных значений доступны следующие методы редактирования:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T070548Z" creationid="Марианна" creationdate="20210512T070548Z">
+        <seg>The following elimination methods are available both for outliers and extreme values:</seg>
       </tuv>
     </tu>
     <tu>
@@ -45481,6 +45497,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T073946Z" creationid="Марианна" creationdate="20201214T073946Z">
         <seg>This algorithm frequently produces good results even for small data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот метод можно применять и в случае, когда распределение данных отличается от нормального.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T070438Z" creationid="Марианна" creationdate="20210512T070438Z">
+        <seg>This method can be also used when data distribution differs from the normal one.</seg>
       </tuv>
     </tu>
     <tu>
