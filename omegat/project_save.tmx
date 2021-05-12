@@ -45877,6 +45877,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>заменять средним — заменять аномалии средним значением столбца;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T070706Z" creationid="Марианна" creationdate="20210512T070706Z">
+        <seg>Replace with average: replace anomalous values with the average column value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>запрос на выборку данных, заданный непосредственно после выполнения узла экспорта с удалением по ключу, может вернуть старые записи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T151128Z" creationid="Марианна" creationdate="20210118T151128Z">
