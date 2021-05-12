@@ -45887,8 +45887,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>заменять наиболее вероятным — замена аномалий наиболее вероятным значением по столбцу, замена производится на среднее значение из наиболее вероятного интервала, число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210512T071305Z" creationid="Марианна" creationdate="20210512T070952Z">
-        <seg>Replace with most frequent: replace anomalous values with the most frequent column value. Replacement is performed using the average value from the most frequent range, Interval count varies according to the sample size: the larger is the sample size, the more ranges.  </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T071700Z" creationid="Марианна" creationdate="20210512T070952Z">
+        <seg>Replace with most frequent: replace anomalous values with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.</seg>
       </tuv>
     </tu>
     <tu>
