@@ -29275,6 +29275,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если значение признака отклоняется от медианы более, чем на заданное число интерквартильного размаха, то оно считается аномальным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210512T070309Z" creationid="Марианна" creationdate="20210512T070309Z">
+        <seg>If the indicator value deviates from the median more than by the set number of the interquartile range, it is considered to be anomalous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если значение содержит указание временной зоны, оно преобразуется к текущей временной зоне сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T220415Z" creationid="Марианна" creationdate="20200829T220415Z">
