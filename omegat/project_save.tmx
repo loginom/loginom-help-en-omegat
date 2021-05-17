@@ -28083,6 +28083,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого столбца исходного набора данных пользователь может выбрать наиболее подходящий метод заполнения пропусков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T105200Z" creationid="Марианна" creationdate="20210517T105200Z">
+        <seg>A user can select the most suitable imputation method for each column of the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждой группы возвращается одна строка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194242Z" creationid="Марианна" creationdate="20201023T194242Z">
@@ -40431,6 +40439,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100236Z" creationid="Марианна" creationdate="20200717T100236Z">
         <seg>Follow the wizard steps having specified the Sales.txt file location in the File Name parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пропусками считаются Null-значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T105253Z" creationid="Марианна" creationdate="20210517T105253Z">
+        <seg>Null values are considered to be null data.</seg>
       </tuv>
     </tu>
     <tu>
