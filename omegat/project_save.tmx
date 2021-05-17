@@ -15092,6 +15092,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; узел не обрабатывает поля с переменным типом данных (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T105418Z" creationid="Марианна" creationdate="20210517T105418Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The node does not process the fields with the variable data type (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; условие проверяется на атомарных значениях, например "A &gt; 1".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082856Z" creationid="Марианна" creationdate="20200924T082856Z">
