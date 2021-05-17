@@ -27257,6 +27257,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный обработчик предназначен для автоматического заполнения пропущенных значений в наборах данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T105056Z" creationid="Марианна" creationdate="20210517T105056Z">
+        <seg>The handler is designated for automatic filling of null values in data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный параметр задается отдельно для выбросов и экстремальных значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210512T070341Z" creationid="Марианна" creationdate="20210512T070341Z">
