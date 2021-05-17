@@ -34019,6 +34019,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, временной или иной ряд, значения которого упорядочены по возрастанию или убыванию (например, по дате или времени).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T110346Z" creationid="Марианна" creationdate="20210517T110346Z">
+        <seg>For example, time or other series the values of which are ordered in ascending or descending order (for example, by date or time).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если имеются данные о суммах совершенных продаж конкретных товаров, эти данные можно использовать для разгруппировки по товарам таблицы прогноза, сделанного только для товарных групп.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201125T084248Z" creationid="Марианна" creationdate="20201125T084248Z">
