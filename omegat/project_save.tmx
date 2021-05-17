@@ -34235,6 +34235,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка заполнения пропусков</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T105638Z" creationid="Марианна" creationdate="20210517T105638Z">
+        <seg>Imputation Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка запроса</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T224816Z" creationid="Марианна" creationdate="20210218T224816Z">
@@ -34407,6 +34415,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T211231Z" creationid="Марианна" creationdate="20201215T195107Z">
         <seg>Configure Events</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка соответствия между столбцами проводится в интерфейсах &lt;x1/&gt;таблица&lt;x2/&gt; или &lt;x3/&gt;связи&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210517T105621Z" creationid="Марианна" creationdate="20210517T105621Z">
+        <seg>Columns mapping is configured in &lt;x1/&gt;table&lt;x2/&gt; or &lt;x3/&gt;links&lt;x4/&gt; interfaces.</seg>
       </tuv>
     </tu>
     <tu>
