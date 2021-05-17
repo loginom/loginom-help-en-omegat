@@ -2,10 +2,10 @@
 
 ## Description
 
-Данный обработчик предназначен для автоматического заполнения пропущенных значений в наборах данных.
-Для каждого столбца исходного набора данных пользователь может выбрать наиболее подходящий метод заполнения пропусков. Пропусками считаются Null-значения.
+The handler is designated for automatic filling of null values in data sets.
+A user can select the most suitable imputation method for each column of the source data set. Null values are considered to be null data.
 
-> **Примечание:** узел не обрабатывает поля с переменным типом данных (см. [data types](../../data/datatype.md)).
+> **Note:** The node does not process the fields with the variable data type (refer to [data types](../../data/datatype.md)).
 
 ## Ports
 
@@ -19,11 +19,11 @@
 
 ## Wizard
 
-Настройка соответствия между столбцами проводится в интерфейсах [таблица](../../scenario/ports/interface-table.md) или [связи](../../scenario/ports/interface-relations.md).
+Columns mapping is configured in [table](../../scenario/ports/interface-table.md) or [links](../../scenario/ports/interface-relations.md) interfaces.
 
-### Настройка заполнения пропусков
+### Imputation Configuration
 
-* **Исходные данные упорядочены** — установку данного флага следует производить в том случае, когда известно, что данные являются упорядоченными. Например, временной или иной ряд, значения которого упорядочены по возрастанию или убыванию (например, по дате или времени). Для упорядоченных и неупорядоченных данных могут применяться различные методы заполнения пропусков.
+* **Source data ordered**: it is required to select this checkbox when it is known that the data is ordered. Например, временной или иной ряд, значения которого упорядочены по возрастанию или убыванию (например, по дате или времени). Для упорядоченных и неупорядоченных данных могут применяться различные методы заполнения пропусков.
 * **Допустимый процент пропусков** — принимает значение в процентах и определяет порог, после которого заполнение пропусков не происходит. Например, если этому параметру задано значение 50, то поля, содержащие более 50% пропусков, заполняться не будут.
 * **Область настройки методов обработки пропусков** — содержит список полей доступных для обработки. Для каждого поля можно выставить флаг, задающий необходимость обработки, и затем выставить метод заполнения пропусков.
 
@@ -40,16 +40,16 @@
 * Удалять записи — строки с выявленными пропусками исключаются из выходного набора данных;
 * Заменять значением "Не задано" — выявленные пропуски заменяются значением "Не задано".
 
-Для каждого поля спектр доступных методов определяется тремя характеристиками данных одновременно (см. [data](../../data/README.md)):
+The spectrum of available methods is defined for each field by three data characteristics simultaneously (refer to [data](../../data/README.md)):
 
-* Упорядоченностью;
-* Типом;
-* Видом.
+* Degree of order
+* Type
+* Kind
 
-Таблица применимости по этим характеристикам:
+Applicability table by the following features:
 
 <table>
-<tr><th valign="top" align="center" rowspan="2">Method</th><th align="center" colspan="2">Неупорядоченный набор</th><th align="center" colspan="2">Упорядоченный набор</th></tr>
+<tr><th valign="top" align="center" rowspan="2">Method</th><th align="center" colspan="2">Unordered set</th><th align="center" colspan="2">Ordered set</th></tr>
 <tr><th align="center"><img src="../../images/icons/data-types/discrete_default.svg"> Discrete</th><th align="center"><img src="../../images/icons/data-types/continuous_default.svg"> Continuous</th><th align="center"><img src="../../images/icons/data-types/discrete_default.svg"> Discrete</th><th align="center"><img src="../../images/icons/data-types/continuous_default.svg"> Continuous</th></tr>
 
 <tr><td align="left">Replace with average</td><td align="center"><img src="../../images/icons/data-types/datetime_default.svg"></td><td align="center"> <img src="../../images/icons/data-types/datetime_default.svg"> <img src="../../images/icons/data-types/float_default.svg"> <img src="../../images/icons/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/data-types/datetime_default.svg"></td><td align="center"><img src="../../images/icons/data-types/datetime_default.svg"> <img src="../../images/icons/data-types/float_default.svg"> <img src="../../images/icons/data-types/integer_default.svg"></td></tr>
