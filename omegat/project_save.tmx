@@ -30070,8 +30070,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Заменять случайными значениями — выявленные пропуски заменяются случайными значениями, которые формируются из диапазона от наименьшего до наибольшего значения столбца;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T142918Z" creationid="Марианна" creationdate="20210523T142918Z">
-        <seg>Replace with random values: replace detected null values with the random values that are formed from the range from the least to the highest column value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T145041Z" creationid="Марианна" creationdate="20210523T142918Z">
+        <seg>Replace with random values: replace detected null data with the random values that are formed from the range from the least to the highest column value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44122,6 +44122,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221935Z" creationid="Марианна" creationdate="20210218T221935Z">
         <seg>Delete records</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Удалять записи — строки с выявленными пропусками исключаются из выходного набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T144931Z" creationid="Марианна" creationdate="20210523T144931Z">
+        <seg>Delete records: delete the rows with detected null data from the output data set.</seg>
       </tuv>
     </tu>
     <tu>
