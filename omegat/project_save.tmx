@@ -28643,6 +28643,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для упорядоченных и неупорядоченных данных могут применяться различные методы заполнения пропусков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T133846Z" creationid="Марианна" creationdate="20210523T133846Z">
+        <seg>Diffferent imputation methods can be used for ordered and unordered data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ускорения процесса автоподбора предусмотрено задание подвыборки, на которой он будет производиться:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T093126Z" creationid="Марианна" creationdate="20201222T093126Z">
