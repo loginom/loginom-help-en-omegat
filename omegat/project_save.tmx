@@ -35496,6 +35496,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик Конечные классы предназначен для решения следующих задач:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T150000Z" creationid="Марианна" creationdate="20210523T150000Z">
+        <seg>The Coarse Classes handler enables to solve the following problems:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик выполняет сортировку записей входного набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T114927Z" creationid="Марианна" creationdate="20201115T114927Z">
