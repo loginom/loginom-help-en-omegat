@@ -9937,6 +9937,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Допустимый процент пропусков&lt;x2/&gt; — принимает значение в процентах и определяет порог, после которого заполнение пропусков не происходит.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T134221Z" creationid="Марианна" creationdate="20210523T134221Z">
+        <seg>&lt;x1/&gt;Allowable percentage of nulls&lt;x2/&gt;: it takes the value expressed in percentage terms and sets the threshold after which no imputation occurs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные поля&lt;x2/&gt; — представляет список полей входного набора данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082144Z" creationid="Марианна" creationdate="20201006T082144Z">
