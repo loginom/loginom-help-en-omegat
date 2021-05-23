@@ -36240,6 +36240,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Оставить без изменения — выявленные пропуски заполняться не будут;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T144639Z" creationid="Марианна" creationdate="20210523T144639Z">
+        <seg>Leave unchanged: detected null data will not be filled in.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отдельный случай останова оптимизатора — если достигнут теоретически наилучший результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T091849Z" creationid="Марианна" creationdate="20201223T091849Z">
