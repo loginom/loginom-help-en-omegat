@@ -34069,8 +34069,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Например, если этому параметру задано значение 50, то поля, содержащие более 50% пропусков, заполняться не будут.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T134244Z" creationid="Марианна" creationdate="20210523T134244Z">
-        <seg>For example, .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T141249Z" creationid="Марианна" creationdate="20210523T134244Z">
+        <seg>For example, if 50 value is set for this parameter, the fileds that contain more than 50% of null data will not be filled in.</seg>
       </tuv>
     </tu>
     <tu>
