@@ -32760,6 +32760,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кубическая интерполяция — выявленные пропуски заменяются на промежуточные значения кубического сплайна (сплайны третьей степени с непрерывной первой производной), полученного по известным значениям;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T143710Z" creationid="Марианна" creationdate="20210523T143710Z">
+        <seg>Cubic interpolation: detected null data is replaced with the intermediate values of the cubic spline (the third degree splines with the continuous first derivative) received using the known values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кэширование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T061734Z" creationid="Марианна" creationdate="20201014T061734Z">
