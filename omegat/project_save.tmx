@@ -34067,6 +34067,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, если этому параметру задано значение 50, то поля, содержащие более 50% пропусков, заполняться не будут.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T134244Z" creationid="Марианна" creationdate="20210523T134244Z">
+        <seg>For example, .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, первое поле - код покупателя, второе - список его покупок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075221Z" creationid="Марианна" creationdate="20201210T075221Z">
