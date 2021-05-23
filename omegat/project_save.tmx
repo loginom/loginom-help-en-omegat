@@ -32794,8 +32794,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Линейная интерполяция — выявленные пропуски заменяются на вычисленные промежуточные значения линейной функции, полученной по известным значениям (условно проведя прямую между ними);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T143422Z" creationid="Марианна" creationdate="20210523T143422Z">
-        <seg>Linear interpolation: detected null data is replaced with the calculated intermediate values of the linear function received on the basis of the known values (drawing a conditional line between them).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T143717Z" creationid="Марианна" creationdate="20210523T143422Z">
+        <seg>Linear interpolation: detected null data is replaced with the calculated intermediate values of the linear function received using the known values (drawing a conditional line between them).</seg>
       </tuv>
     </tu>
     <tu>
