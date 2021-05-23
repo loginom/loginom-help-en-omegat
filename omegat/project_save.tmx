@@ -29051,6 +29051,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступны следующие методы обработки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T141852Z" creationid="Марианна" creationdate="20210523T141852Z">
+        <seg>The following processing methods are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные варианты:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161521Z" creationid="Марианна" creationdate="20200917T161521Z">
@@ -30048,6 +30056,15 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221945Z" creationid="Марианна" creationdate="20210218T221945Z">
         <seg>Replace with average</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять средним — выявленные пропуски заменяются средним значением столбца;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T142504Z" creationid="Марианна" creationdate="20210523T142504Z">
+        <seg>Replace with average: replace detected null values with the average column value.
+&lt;62/62/77% &gt;</seg>
       </tuv>
     </tu>
     <tu>
