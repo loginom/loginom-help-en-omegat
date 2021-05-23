@@ -30028,10 +30028,26 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заменять медианой — выявленные пропуски заменяются медианой, вычисленной по столбцу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T142529Z" creationid="Марианна" creationdate="20210523T142529Z">
+        <seg>Replace with median: replace detected null values with the median calculated for the column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заменять наиболее вероятным</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222007Z" creationid="Марианна" creationdate="20210218T222007Z">
         <seg>Replace with most frequent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заменять наиболее вероятным — выявленные пропуски заменяются наиболее вероятным значением по столбцу, замена производится на среднее значение из наиболее вероятного интервала, число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T142640Z" creationid="Марианна" creationdate="20210523T142640Z">
+        <seg>Replace with most frequent: replace null values with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.</seg>
       </tuv>
     </tu>
     <tu>
