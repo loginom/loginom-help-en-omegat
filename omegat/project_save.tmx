@@ -12761,6 +12761,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки методов обработки пропусков&lt;x2/&gt; — содержит список полей доступных для обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T141608Z" creationid="Марианна" creationdate="20210523T141608Z">
+        <seg>&lt;x1/&gt;Area of configuration of null data processing&lt;x2/&gt; contains a list of the fields available for processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки назначений полей&lt;x2/&gt; — представляет собой две таблицы, в первой находится перечень полей разгруппируемых данных, во второй — перечень полей данных для расчета долей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T093528Z" creationid="Марианна" creationdate="20201127T093528Z">
@@ -28087,6 +28095,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084458Z" creationid="Марианна" creationdate="20201117T084458Z">
         <seg>Replacement method is set for each field of the source data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для каждого поля можно выставить флаг, задающий необходимость обработки, и затем выставить метод заполнения пропусков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T141808Z" creationid="Марианна" creationdate="20210523T141808Z">
+        <seg>It is possible to select the checkbox that enables to define the processing necessity for each field. Then, it is possible to set the imputation method.</seg>
       </tuv>
     </tu>
     <tu>
