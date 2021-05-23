@@ -42500,6 +42500,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сплайн-интерполяция — выявленные пропуски заменяются на промежуточные значения сплайн-функции , полученной по известным значениям;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T144115Z" creationid="Марианна" creationdate="20210523T144115Z">
+        <seg>Spline interpolation: detected null data is replaced with the intermediate values of the spline function received using the known values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Способы замен</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142531Z" creationid="Марианна" creationdate="20201117T084431Z">
