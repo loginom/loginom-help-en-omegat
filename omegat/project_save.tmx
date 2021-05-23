@@ -13875,8 +13875,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Повторять набор&lt;x2/&gt; — таблицы дополнятся копиями своих же записей, начиная с первой;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T070458Z" creationid="Марианна" creationdate="20201019T070458Z">
-        <seg>&lt;x1/&gt;Repeat all rows&lt;x2/&gt;: the tables will be filled with the copies of their own records starting from the first one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T141352Z" creationid="Марианна" creationdate="20201019T070458Z">
+        <seg>&lt;x1/&gt;Repeat all rows&lt;x2/&gt;: copies of the table records starting from the first one are repeated in the tables.</seg>
       </tuv>
     </tu>
     <tu>
