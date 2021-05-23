@@ -30012,6 +30012,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заменять значением "Не задано" — выявленные пропуски заменяются значением "Не задано".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T145234Z" creationid="Марианна" creationdate="20210523T145234Z">
+        <seg>Replace with "Not defined": replace detected null data with "Not defined".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заменять значением «Не задано»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222311Z" creationid="Марианна" creationdate="20210218T222311Z">
@@ -30030,8 +30038,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Заменять медианой — выявленные пропуски заменяются медианой, вычисленной по столбцу;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T142529Z" creationid="Марианна" creationdate="20210523T142529Z">
-        <seg>Replace with median: replace detected null values with the median calculated for the column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T145100Z" creationid="Марианна" creationdate="20210523T142529Z">
+        <seg>Replace with median: replace detected null data with the median calculated for the column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30046,8 +30054,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Заменять наиболее вероятным — выявленные пропуски заменяются наиболее вероятным значением по столбцу, замена производится на среднее значение из наиболее вероятного интервала, число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T142640Z" creationid="Марианна" creationdate="20210523T142640Z">
-        <seg>Replace with most frequent: replace null values with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210523T145109Z" creationid="Марианна" creationdate="20210523T142640Z">
+        <seg>Replace with most frequent: replace null data with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30086,8 +30094,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Заменять средним — выявленные пропуски заменяются средним значением столбца;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T142504Z" creationid="Марианна" creationdate="20210523T142504Z">
-        <seg>Replace with average: replace detected null values with the average column value.
+      <tuv lang="en" changeid="Марианна" changedate="20210523T145051Z" creationid="Марианна" creationdate="20210523T142504Z">
+        <seg>Replace with average: replace detected null data with the average column value.
 &lt;62/62/77% &gt;</seg>
       </tuv>
     </tu>
