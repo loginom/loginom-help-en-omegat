@@ -31363,6 +31363,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование результатов такого преобразования для построения моделей бинарной классификации (например, &lt;x5/&gt;логистической регрессии&lt;x6/&gt;), позволяет повысить их точность и устойчивость к изменению входных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T122345Z" creationid="Марианна" creationdate="20210524T122345Z">
+        <seg>Usage of such conversion results for the binary classification models training (for example, &lt;x5/&gt;logistic regression&lt;x6/&gt;) enables to improve their accuracy and resilience to the input data change.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использовать готовые алгоритмы обработки данных, созданные в других сценариях и пакетах через механизм &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163924Z" creationid="Марианна" creationdate="20200718T163924Z">
