@@ -2900,10 +2900,34 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница диапазонов открыта&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T123401Z" creationid="Марианна" creationdate="20210524T123401Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper range bound open&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Вес доказательства&lt;x4/&gt; – &lt;x5/&gt;коэффициент WoE&lt;x6/&gt; для каждого класса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T123544Z" creationid="Марианна" creationdate="20210524T123544Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Weight of evidence&lt;x4/&gt; means the &lt;x5/&gt;WoE coefficient&lt;x6/&gt; for each class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Внутреннее соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065610Z" creationid="Марианна" creationdate="20201111T104853Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Inner join&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Всего&lt;x4/&gt; – общее число наблюдений в классе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T123309Z" creationid="Марианна" creationdate="20210524T123309Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Total&lt;x4/&gt; means the total number of observations in the class.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3624,6 +3648,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222143Z" creationid="Марианна" creationdate="20210218T222143Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Imputation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Значимости столбцов (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T123342Z" creationid="Марианна" creationdate="20210524T123342Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Column Significance (Data Table).</seg>
       </tuv>
     </tu>
     <tu>
