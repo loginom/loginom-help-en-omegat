@@ -39056,6 +39056,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Преобразование непрерывных и дискретных входных полей, используемых для построения моделей &lt;x1/&gt;бинарной классификации&lt;x2/&gt;, путем квантования на основе метода совокупности доказательств или &lt;x3/&gt;WoE-анализа&lt;x4/&gt; (weights of evidence, WoE).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T121302Z" creationid="Марианна" creationdate="20210524T121302Z">
+        <seg>Conversion of the continuous and discrete input fields used for training of the models related to the &lt;x1/&gt;binary classification&lt;x2/&gt;by means of the binning based on totality-of-evidence approach or &lt;x3/&gt;WoE analysis&lt;x4/&gt; (weights of evidence, WoE).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Преобразовать к требуемому виду (с полями Транзакция и Элемент) обычный набор данных, состоящий из столбцов с измеренными свойствами объектов всегда можно при помощи узлов-обработчиков Loginom, таких как &lt;x1/&gt;Свёртка столбцов&lt;x2/&gt; и &lt;x3/&gt;Калькулятор&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T081101Z" creationid="Марианна" creationdate="20201210T081101Z">
