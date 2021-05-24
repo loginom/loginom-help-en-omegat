@@ -3220,6 +3220,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поле «&lt;Метка столбца&gt; Значимость».&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T122918Z" creationid="Марианна" creationdate="20210524T122918Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt;  Significance» Field.&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Полное соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065605Z" creationid="Марианна" creationdate="20201111T104845Z">
@@ -3440,6 +3448,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T210744Z" creationid="Марианна" creationdate="20200824T154754Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Число не-событий&lt;x4/&gt; – количество не-событий, попавших в данный класс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T123011Z" creationid="Марианна" creationdate="20210524T123011Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Non-events count&lt;x4/&gt;: count of the non-events not included into this class.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25373,6 +25389,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223020Z" creationid="Марианна" creationdate="20210218T223020Z">
         <seg>External Ranges</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внешние диапазоны квантования (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T122801Z" creationid="Марианна" creationdate="20210524T122801Z">
+        <seg>External Binning Bins (Data Table).</seg>
       </tuv>
     </tu>
     <tu>
