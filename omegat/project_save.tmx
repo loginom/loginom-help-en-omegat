@@ -24475,6 +24475,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате каждое исходное значение признака заменяется на метку интервала квантования, в который данное значение попало.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T121936Z" creationid="Марианна" creationdate="20210524T121936Z">
+        <seg>In the result, each source indicator value is replaced with the caption of the binning range with which this value complies.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате максимизируется нагрузка на каждый фактор относительно небольшого числа переменных, а факторные нагрузки остальных переменных минимизируются.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T161356Z" creationid="Марианна" creationdate="20201013T161356Z">
