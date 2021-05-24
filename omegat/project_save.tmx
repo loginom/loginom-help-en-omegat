@@ -3452,6 +3452,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Уник.значение&lt;x4/&gt; – для дискретных полей отображает их уникальные значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210524T123741Z" creationid="Марианна" creationdate="20210524T123741Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unique value&lt;x4/&gt; displays unique values for the discrete fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными можно задать значения параметров мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T054902Z" creationid="Марианна" creationdate="20200823T121119Z">
