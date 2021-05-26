@@ -28083,6 +28083,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для значений входного поля применяются параметры настроенного внешнего разбиения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210526T083211Z" creationid="Марианна" creationdate="20210526T083211Z">
+        <seg>Parameters of the configured external binning are used for the input field values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для импорта модуля CommonJS применяется функция &lt;x1/&gt;require&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T190433Z" creationid="Марианна" creationdate="20201020T190433Z">
