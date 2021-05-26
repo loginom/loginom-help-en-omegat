@@ -34860,6 +34860,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не выбрано — поле не будет участвовать в обработке, но будет включено в результирующую выборку без изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210526T082558Z" creationid="Марианна" creationdate="20210526T082558Z">
+        <seg>Not selected: the field will not be included into processing but it will be included into the resulting sample without changes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не допускается выполнение в цикле обработчиков, созданных на базе следующих компонентов: &lt;x1/&gt;Выполнение узла&lt;x2/&gt;, &lt;x3/&gt;Узел-ссылка&lt;x4/&gt;, &lt;x5/&gt;Условие&lt;x6/&gt; и &lt;x7/&gt;Цикл&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T195328Z" creationid="Марианна" creationdate="20200921T195328Z">
