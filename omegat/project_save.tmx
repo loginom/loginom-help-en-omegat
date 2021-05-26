@@ -42356,6 +42356,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сокращение размерности данных за счет исключения признаков с низкой значимостью, снижения разнообразия значений признаков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210526T082049Z" creationid="Марианна" creationdate="20210526T082049Z">
+        <seg>Reduction of data dimensionality by excluding the indicators with low significance, by decreasing variety of indicator values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Соответственно, граничные значения входят в тот интервал, где они являются начальными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T090422Z" creationid="Марианна" creationdate="20201117T090422Z">
