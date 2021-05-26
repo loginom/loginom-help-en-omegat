@@ -26433,6 +26433,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входное (замороженное) — появляется после первого выполнения и обучения узла Конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210526T083325Z" creationid="Марианна" creationdate="20210526T083325Z">
+        <seg>Input (locked): it appears upon the first execution and training of the Coarse Classes node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входное — значения поля будут использоваться как входные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223923Z" creationid="Марианна" creationdate="20210218T223923Z">
@@ -39732,6 +39740,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194657Z" creationid="Марианна" creationdate="20200921T194657Z">
         <seg>Being originally created, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При перенастройке или переобучении столбца будет пересчитана только статистика, а разбиение на конечные классы останется прежним для всех столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210526T083420Z" creationid="Марианна" creationdate="20210526T083420Z">
+        <seg>When reconfiguring .</seg>
       </tuv>
     </tu>
     <tu>
