@@ -32268,6 +32268,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество интервалов — количество интервалов предварительного квантования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T182544Z" creationid="Марианна" creationdate="20210528T182544Z">
+        <seg>Interval count means the prequanting interval count.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество дней раньше указанной даты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T210126Z" creationid="Марианна" creationdate="20210328T210126Z">
@@ -34320,6 +34328,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T154924Z" creationid="Марианна" creationdate="20200829T222209Z">
         <seg>For example, complex &lt;x3/&gt;ROOT|PERSON|ACCES-LEVEL&lt;x4/&gt; caption will be generated for the imported table field that contains the data of &lt;x5/&gt;ACCESS-LEVEL&lt;x6/&gt; attribute of &lt;x7/&gt;PERSON&lt;x8/&gt; element from the root element of &lt;x9/&gt;ROOT&lt;x10/&gt; file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, флаг активен: 10 &lt;...≤ 20 и флаг неактивен: 10 ≤...&lt; 20.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T182136Z" creationid="Марианна" creationdate="20210528T182136Z">
+        <seg>For example, the checkbox is active: 10 &lt;...≤ 20, the checkbox is inactive: 10 ≤...&lt; 20.</seg>
       </tuv>
     </tu>
     <tu>
