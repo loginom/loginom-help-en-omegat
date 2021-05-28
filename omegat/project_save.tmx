@@ -29844,6 +29844,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если флаг неактивен, то значение верхней границы интервала относится к следующему интервалу (т.е. включается в него в качестве нижней границы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T182047Z" creationid="Марианна" creationdate="20210528T182047Z">
+        <seg>If the checkbox is inactive, the upper interval bound value relates to the next interval (namely, it is included into it as the lower bound).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если флаг установлен, то результрующая таблица из предыдущего примера будет выглядеть следующим образом:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133527Z" creationid="Марианна" creationdate="20201109T195916Z">
