@@ -39746,8 +39746,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При перенастройке или переобучении столбца будет пересчитана только статистика, а разбиение на конечные классы останется прежним для всех столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210526T083420Z" creationid="Марианна" creationdate="20210526T083420Z">
-        <seg>When reconfiguring .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T175025Z" creationid="Марианна" creationdate="20210526T083420Z">
+        <seg>When reconfiguring or retraining the column, .</seg>
       </tuv>
     </tu>
     <tu>
