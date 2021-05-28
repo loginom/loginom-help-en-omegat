@@ -45002,6 +45002,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формирование классов с весом меньше заданного не допускается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T205002Z" creationid="Марианна" creationdate="20210528T205002Z">
+        <seg>It is not allowed to generate the classes with the weight that is less than the set one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формула выражения может содержать:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164412Z" creationid="Марианна" creationdate="20201005T164412Z">
