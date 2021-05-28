@@ -44694,6 +44694,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Установка данного параметра влияет на интерпретацию результатов &lt;x1/&gt;WoE-анализа&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T203834Z" creationid="Марианна" creationdate="20210528T203834Z">
+        <seg>Selection of this parameter affects interpretation of the &lt;x1/&gt;WoE analysis&lt;x2/&gt; results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Установленный флаг &lt;x7/&gt;Пропущенные&lt;x8/&gt; обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133455Z" creationid="Марианна" creationdate="20201023T081031Z">
