@@ -7,7 +7,7 @@
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. Внешние диапазоны квантования (таблица данных).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Bins (Data Table).
 
 ### Output
 

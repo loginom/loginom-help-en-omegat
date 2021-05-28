@@ -25,7 +25,7 @@ The following parameters can be configured:
 
 * **Missing Terminal Rows Filling**: it is required to select one of the options of filling of the table records least in number:
    * **Leave empty**: filling with the records the fields of which will contain null values.
-   * **Repeat all rows**: the tables will be filled with the copies of their own records starting from the first one.
+   * **Repeat all rows**: copies of the table records starting from the first one are repeated in the tables.
    * **Repeat the last row**: filling with the last row copies.
 * **Row count complies**: it is required to select one of the options to determine the number of records of the resulting data set:
    * **With minimum data set**.

@@ -23,22 +23,23 @@ Columns mapping is configured in [table](../../scenario/ports/interface-table.md
 
 ### Imputation Configuration
 
-* **Source data ordered**: it is required to select this checkbox when it is known that the data is ordered. Например, временной или иной ряд, значения которого упорядочены по возрастанию или убыванию (например, по дате или времени). Для упорядоченных и неупорядоченных данных могут применяться различные методы заполнения пропусков.
-* **Допустимый процент пропусков** — принимает значение в процентах и определяет порог, после которого заполнение пропусков не происходит. Например, если этому параметру задано значение 50, то поля, содержащие более 50% пропусков, заполняться не будут.
-* **Область настройки методов обработки пропусков** — содержит список полей доступных для обработки. Для каждого поля можно выставить флаг, задающий необходимость обработки, и затем выставить метод заполнения пропусков.
+* **Source data ordered**: it is required to select this checkbox when it is known that the data is ordered. For example, time or other series the values of which are ordered in ascending or descending order (for example, by date or time). Diffferent imputation methods can be used for ordered and unordered data.
+* **Allowable percentage of nulls**: it takes the value expressed in percentage terms and sets the threshold after which no imputation occurs. For example, if 50 value is set for this parameter, the fileds that contain more than 50% of null data will not be filled in.
+* **Area of configuration of null data processing** contains a list of the fields available for processing. It is possible to select the checkbox that enables to define the processing necessity for each field. Then, it is possible to set the imputation method.
 
-Доступны следующие методы обработки:
+The following processing methods are available:
 
-* Заменять средним — выявленные пропуски заменяются средним значением столбца;
-* Заменять медианой — выявленные пропуски заменяются медианой, вычисленной по столбцу;
-* Заменять наиболее вероятным — выявленные пропуски заменяются наиболее вероятным значением по столбцу, замена производится на среднее значение из наиболее вероятного интервала, число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов;
-* Заменять случайными значениями — выявленные пропуски заменяются случайными значениями, которые формируются из диапазона от наименьшего до наибольшего значения столбца;
-* Линейная интерполяция — выявленные пропуски заменяются на вычисленные промежуточные значения линейной функции, полученной по известным значениям (условно проведя прямую между ними);
-* Кубическая интерполяция — выявленные пропуски заменяются на промежуточные значения кубического сплайна (сплайны третьей степени с непрерывной первой производной), полученного по известным значениям;
-* Сплайн-интерполяция — выявленные пропуски заменяются на промежуточные значения сплайн-функции , полученной по известным значениям;
-* Оставить без изменения — выявленные пропуски заполняться не будут;
-* Удалять записи — строки с выявленными пропусками исключаются из выходного набора данных;
-* Заменять значением "Не задано" — выявленные пропуски заменяются значением "Не задано".
+* Replace with average: replace detected null data with the average column value.
+   <62/62/77% >
+* Replace with median: replace detected null data with the median calculated for the column.
+* Replace with most frequent: replace null data with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.
+* Replace with random values: replace detected null data with the random values that are formed from the range from the least to the highest column value.
+* Linear interpolation: detected null data is replaced with the calculated intermediate values of the linear function received using the known values (drawing a conditional line between them).
+* Cubic interpolation: detected null data is replaced with the intermediate values of the cubic spline (the third degree splines with the continuous first derivative) received using the known values.
+* Spline interpolation: detected null data is replaced with the intermediate values of the spline function received using the known values.
+* Leave unchanged: detected null data will not be filled in.
+* Delete records: delete the rows with detected null data from the output data set.
+* Replace with "Not defined": replace detected null data with "Not defined".
 
 The spectrum of available methods is defined for each field by three data characteristics simultaneously (refer to [data](../../data/README.md)):
 
