@@ -34884,6 +34884,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Начальные классы в качестве разбиения — уникальные значения (начальные классы) используются в качестве конечных классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T194047Z" creationid="Марианна" creationdate="20210528T194047Z">
+        <seg>Fine classes as binning: the unique values (fine classes) are used as coarse classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Начиная с версии Firebird 2.5 и выше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090308Z" creationid="Марианна" creationdate="20210121T090308Z">
