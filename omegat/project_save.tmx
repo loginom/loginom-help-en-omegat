@@ -36336,6 +36336,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Определяется целью и логикой решаемой задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T203634Z" creationid="Марианна" creationdate="20210528T203634Z">
+        <seg>It is defined by the objective and logics of the performed task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определяют настройки для работы с внешними источниками и приемниками данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
