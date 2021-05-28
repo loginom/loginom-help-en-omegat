@@ -30723,6 +30723,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Идентификатор внешнего разбиения — появляется если выбрано назначение "Входное (внешнее разбиение)", где разбиение берется из таблицы, а не рассчитывается алгоритмом на основе текущих данных (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T204754Z" creationid="Марианна" creationdate="20210528T204754Z">
+        <seg>External binning identifier: it appears if "Input (external binning)" usage type is selected, when the binning is taken from the table, and it is not calculated using the algorithm based on the current data (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
