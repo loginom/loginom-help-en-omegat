@@ -37944,6 +37944,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию параметр равен 0, и может изменяться от 0 до 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T204914Z" creationid="Марианна" creationdate="20210528T204914Z">
+        <seg>This parameter is equal to 0 by default, and it can vary from 0 to 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию пароль отсутствует.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T111706Z" creationid="Марианна" creationdate="20210118T111706Z">
