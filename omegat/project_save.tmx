@@ -34404,6 +34404,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настраиваемое значение "события" — требуется выбрать значение бинарной целевой переменной, которое является событием.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T203458Z" creationid="Марианна" creationdate="20210528T203458Z">
+        <seg>Custom "event" value: it is required to select the value of the binary target variable that is an event.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T192301Z" creationid="Марианна" creationdate="20210225T192301Z">
