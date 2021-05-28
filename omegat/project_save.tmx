@@ -25401,6 +25401,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Включить верхние границы интервала — верхнее значение границы будет включено в текущий интервал.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T181630Z" creationid="Марианна" creationdate="20210528T181630Z">
+        <seg>Include upper interval bounds: the upper bound value will be included into the current interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Влияет на выбор конкретного метода и его настроек по шкале Точность — Скорость.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102735Z" creationid="Марианна" creationdate="20201215T102735Z">
@@ -41480,6 +41488,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T074108Z" creationid="Марианна" creationdate="20201012T074108Z">
         <seg>It is recommended to use for categorical data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рекомендуется использовать ее при большом числе уникальных значений в непрерывном поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T181354Z" creationid="Марианна" creationdate="20210528T181354Z">
+        <seg>It is recommended to use it when there are many unique values in the continuous field.</seg>
       </tuv>
     </tu>
     <tu>
