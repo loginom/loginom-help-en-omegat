@@ -44118,6 +44118,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>То есть количество конечных классов будет соответствовать количеству уникальных значений на входе, максимально возможное число — 1000.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T194424Z" creationid="Марианна" creationdate="20210528T194424Z">
+        <seg>Namely, the coarse classes count will meet the unique values count at the input, maximum possible count - 1000.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>То есть получились два полуинтервала вида [5, 10) и [10, 15).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T143025Z" creationid="Марианна" creationdate="20201117T090206Z">
