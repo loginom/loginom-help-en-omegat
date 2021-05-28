@@ -41452,6 +41452,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рекомендуется в случае, если пользователь не намерен изменять разбиение на конечные классы с учетом новых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T180522Z" creationid="Марианна" creationdate="20210528T180522Z">
+        <seg>It is recommended when a user does not intend to change the coarse classes binning taking into account the new data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рекомендуется выбирать, когда требуется обеспечить высокую интерпретируемость результатов факторного анализа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T161522Z" creationid="Марианна" creationdate="20201013T161522Z">
