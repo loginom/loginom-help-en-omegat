@@ -41516,6 +41516,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рекомендуется в качестве события всегда назначать редкий класс (такой вариант предлагается по умолчанию).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T204158Z" creationid="Марианна" creationdate="20210528T204158Z">
+        <seg>It is recommended to assign the rare class (such option is offered by default) always as an event.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рекомендуется в случае, если пользователь не намерен изменять разбиение на конечные классы с учетом новых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T180522Z" creationid="Марианна" creationdate="20210528T180522Z">
