@@ -39048,6 +39048,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предварительное квантование — задает начальное число интервалов квантования входного признака (начальные классы) из которых, в соответствии с настроенными параметрами, будут сформированы конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T180940Z" creationid="Марианна" creationdate="20210528T180940Z">
+        <seg>Prequanting sets the initial quantization interval count of the input indicator (fine classes) from which the coarse classes will be generated according to the set parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Предназначен для экспорта набора данных в текстовый файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T144729Z" creationid="Марианна" creationdate="20200917T144729Z">
@@ -39746,8 +39754,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При перенастройке или переобучении столбца будет пересчитана только статистика, а разбиение на конечные классы останется прежним для всех столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T180229Z" creationid="Марианна" creationdate="20210526T083420Z">
-        <seg>When reconfiguring or retraining the column, only statistics will be recalculated, and coarse classes binning will be the same for all columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T180531Z" creationid="Марианна" creationdate="20210526T083420Z">
+        <seg>When reconfiguring or retraining the column, only statistics will be recalculated, and the coarse classes binning will be the same for all columns.</seg>
       </tuv>
     </tu>
     <tu>
