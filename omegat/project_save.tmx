@@ -39050,8 +39050,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Предварительное квантование — задает начальное число интервалов квантования входного признака (начальные классы) из которых, в соответствии с настроенными параметрами, будут сформированы конечные классы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T180940Z" creationid="Марианна" creationdate="20210528T180940Z">
-        <seg>Prequanting sets the initial quantization interval count of the input indicator (fine classes) from which the coarse classes will be generated according to the set parameters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210528T181207Z" creationid="Марианна" creationdate="20210528T180940Z">
+        <seg>Prequanting sets the initial quantizing interval count of the input indicator (fine classes) from which the coarse classes will be generated according to the set parameters.</seg>
       </tuv>
     </tu>
     <tu>
