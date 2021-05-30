@@ -39584,6 +39584,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При значении параметра, равном 1, алгоритм формирует классы таким образом, чтобы в каждый из них попало примерно одинаковое число наблюдений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T140340Z" creationid="Марианна" creationdate="20210530T140340Z">
+        <seg>When the parameter value is equal to 1, the algorithm generates classes in such a way to include roughly the same number of observations into each of them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071531Z" creationid="Марианна" creationdate="20201023T071531Z">
@@ -43890,6 +43898,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143505Z" creationid="Марианна" creationdate="20200920T143505Z">
         <seg>Thus, it is possible to create the hierarchic structure of the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, в первом случае повышается значимость признака, а во втором — интепретируемость конечных классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T140556Z" creationid="Марианна" creationdate="20210530T140556Z">
+        <seg>Thus, in the first case, the indicator significance is increased, whereas in the second case, interpretability of the coarse classes is increased.</seg>
       </tuv>
     </tu>
     <tu>
