@@ -36376,6 +36376,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Определяет способ разбиения диапазона изменения входного признака на классы (интервалы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T135615Z" creationid="Марианна" creationdate="20210530T135615Z">
+        <seg>It defines the method of partitioning of the input indicator variation range into classes (bins).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определяется целью и логикой решаемой задачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T203634Z" creationid="Марианна" creationdate="20210528T203634Z">
