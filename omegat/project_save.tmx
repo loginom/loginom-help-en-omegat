@@ -30527,6 +30527,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение, равное 0, обеспечивает такое разбиение на классы, которое максимизирует информационный индекс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T135722Z" creationid="Марианна" creationdate="20210530T135722Z">
+        <seg>The value that is equal to 0 provides for such partitioning into classes that maximizes the information index.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T093922Z" creationid="Марианна" creationdate="20201009T090605Z">
