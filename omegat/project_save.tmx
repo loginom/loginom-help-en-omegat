@@ -22549,6 +22549,32 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Имя столбца|Номер класса|Уникальное значение|
+|-|-|-|
+|COL4|0|жен|
+|COL4|1|муж|
+|COL4|2|NULL|
+|COL4|2||
+|COL6|0|Бронзовый|
+|COL6|1|Серебряный|
+|COL6|2|Золотой|
+|COL6|2|Платиновый|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T141243Z" creationid="Марианна" creationdate="20210530T141243Z">
+        <seg>|Column name|Class number|Unique value|
+|-|-|-|
+|COL4|0|female|
+|COL4|1|male|
+|COL4|2|NULL|
+|COL4|2||
+|COL6|0|Bronze|
+|COL6|1|Silver|
+|COL6|2|Gold|
+|COL6|2|Platinum|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Имя|Id города|
 |:-|-:|
 |Андрей|1|
