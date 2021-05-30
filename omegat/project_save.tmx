@@ -33144,6 +33144,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Малый вес класса указывает на его низкую значимость и целесообразность объединения с некоторым другим классом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T121732Z" creationid="Марианна" creationdate="20210530T121732Z">
+        <seg>The low class weight denotes its low significance and necessity of union with another class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Масло</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103029Z" creationid="Марианна" creationdate="20201208T103029Z">
