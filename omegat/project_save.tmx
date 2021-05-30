@@ -25249,6 +25249,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вес класса — это отношение числа наблюдений, для которых значение входного признака попадает в данный класс, к общему числу наблюдений исходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210530T121408Z" creationid="Марианна" creationdate="20210530T121408Z">
+        <seg>Class weight means the ratio of observations count for which the input indicator value is included into this class to the total count of the initial data set observations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вес, кг</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194513Z" creationid="Марианна" creationdate="20201023T194513Z">
