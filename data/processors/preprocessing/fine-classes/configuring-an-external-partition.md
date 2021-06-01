@@ -41,13 +41,13 @@
 
 Дискретное разбиение
 
-|Имя столбца|Номер класса|Уникальное значение|
+|Column name|Class number|Unique value|
 |-|-|-|
-|COL4|0|жен|
-|COL4|1|муж|
+|COL4|0|female|
+|COL4|1|male|
 |COL4|2|NULL|
 |COL4|2||
-|COL6|0|Бронзовый|
-|COL6|1|Серебряный|
-|COL6|2|Золотой|
-|COL6|2|Платиновый|
+|COL6|0|Bronze|
+|COL6|1|Silver|
+|COL6|2|Gold|
+|COL6|2|Platinum|
