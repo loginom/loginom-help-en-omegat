@@ -25275,6 +25275,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя граница интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T191033Z" creationid="Марианна" creationdate="20210601T191033Z">
+        <seg>Upper interval bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140301Z" creationid="Марианна" creationdate="20200716T140301Z">
@@ -35414,6 +35422,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135813Z" creationid="Марианна" creationdate="20201210T135813Z">
         <seg>CI lower bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нижняя граница интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T160440Z" creationid="Марианна" creationdate="20210601T160440Z">
+        <seg>Lower interval bound</seg>
       </tuv>
     </tu>
     <tu>
