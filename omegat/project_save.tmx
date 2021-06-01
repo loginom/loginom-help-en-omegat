@@ -22257,6 +22257,22 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>true - если установлен флаг "Верхняя граница открыта";  &lt;x1/&gt;false - если не установлен флаг "Верхняя граница открыта"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T202238Z" creationid="Марианна" creationdate="20210601T202238Z">
+        <seg>true if "Upper bound open" checkbox is selected; &lt;x1/&gt;false if "Upper bound open" checkbox is not selected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>true - если установлен флаг "Нижняя граница открыта";  &lt;x1/&gt;false - если не установлен флаг "Нижняя граница открыта"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T202108Z" creationid="Марианна" creationdate="20210601T202108Z">
+        <seg>true if "Lower bound open" checkbox is selected;  &lt;x1/&gt;false if "Lower bound open" checkbox is not selected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>try {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085605Z" creationid="Марианна" creationdate="20201030T085605Z">
@@ -25295,6 +25311,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135827Z" creationid="Марианна" creationdate="20201210T135827Z">
         <seg>CI upper bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Верхняя граница диапазонов открыта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T202138Z" creationid="Марианна" creationdate="20210601T202138Z">
+        <seg>Upper range bound open</seg>
       </tuv>
     </tu>
     <tu>
@@ -32166,6 +32190,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Квота интервала</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201912Z" creationid="Марианна" creationdate="20210601T201912Z">
+        <seg>Bin quota</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Квота нижней границы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201720Z" creationid="Марианна" creationdate="20210601T201720Z">
@@ -35502,6 +35534,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135813Z" creationid="Марианна" creationdate="20201210T135813Z">
         <seg>CI lower bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нижняя граница диапазонов открыта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201946Z" creationid="Марианна" creationdate="20210601T201946Z">
+        <seg>Lower range bound open</seg>
       </tuv>
     </tu>
     <tu>
@@ -46492,6 +46532,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T134458Z" creationid="Марианна" creationdate="20210217T112405Z">
         <seg>The fields/variables that define the request structure and web service method response are set in the input and output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>всегда 0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201927Z" creationid="Марианна" creationdate="20210601T201927Z">
+        <seg>always 0</seg>
       </tuv>
     </tu>
     <tu>
