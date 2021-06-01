@@ -4044,6 +4044,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Разбиение на множества</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T205757Z" creationid="Марианна" creationdate="20210601T205757Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Partitioning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Редактирование выбросов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221603Z" creationid="Марианна" creationdate="20210218T221603Z">
@@ -41458,6 +41466,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075708Z" creationid="Марианна" creationdate="20201214T075708Z">
         <seg>Partitioning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Разбиение на множества применяется в случае, когда задача анализа требует разделить исходный набор данных на обучающую и тестовую выборки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T205935Z" creationid="Марианна" creationdate="20210601T205935Z">
+        <seg>Partitioning is used when according to the analysis task it is rerquired to divide the source data set into the training and test samples.</seg>
       </tuv>
     </tu>
     <tu>
