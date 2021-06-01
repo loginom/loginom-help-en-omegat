@@ -45808,6 +45808,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы их подключить, нужно добавить еще один порт у обработчика, нажав кнопку &lt;x1/&gt; Добавить еще один порт&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T191855Z" creationid="Марианна" creationdate="20210601T191855Z">
+        <seg>To connect them, it is required to add another port using the handler by clicking on &lt;x1/&gt; Add another port&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы опубликовать пакет, в &lt;x1/&gt;дереве навигации&lt;x2/&gt; необходимо кликнуть на нужном пакете правой кнопкой мыши и в контекстном меню выбрать пункт &lt;x3/&gt;Публикация пакетов…&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T134814Z" creationid="Марианна" creationdate="20210217T124355Z">
