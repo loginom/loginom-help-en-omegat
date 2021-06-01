@@ -1548,6 +1548,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1 - значение границы входит в интервал;&lt;x1/&gt;0 - значение границы не входит в интервал</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201838Z" creationid="Марианна" creationdate="20210601T201838Z">
+        <seg>1 - the bound value is included into the interval;&lt;x1/&gt;0 - the bound value is not included into the interval</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1 столбец — заменяемое значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064129Z" creationid="Марианна" creationdate="20201116T064129Z">
@@ -24043,6 +24051,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки потом можно будет задать шаблоном</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201706Z" creationid="Марианна" creationdate="20210601T201706Z">
+        <seg>Then it will be possibel to set using a template in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T083336Z" creationid="Марианна" creationdate="20201004T192152Z">
@@ -32138,6 +32154,22 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103259Z" creationid="Марианна" creationdate="20201208T103259Z">
         <seg>The Kaliningrad Region</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Квота верхней границы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201852Z" creationid="Марианна" creationdate="20210601T201852Z">
+        <seg>Upper bound quota</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Квота нижней границы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201720Z" creationid="Марианна" creationdate="20210601T201720Z">
+        <seg>Lower bound quota</seg>
       </tuv>
     </tu>
     <tu>
