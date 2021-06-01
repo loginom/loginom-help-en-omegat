@@ -30773,6 +30773,22 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Идентификатор задается пользователем</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T155159Z" creationid="Марианна" creationdate="20210601T155159Z">
+        <seg>The identifier is set by a user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Идентификатор интервалов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T155139Z" creationid="Марианна" creationdate="20210601T155139Z">
+        <seg>Bins identifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Идентификатор пакета</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084236Z" creationid="Марианна" creationdate="20201009T084236Z">
@@ -44164,6 +44180,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083052Z" creationid="Марианна" creationdate="20201030T083052Z">
         <seg>Data type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип данных границ диапазонов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T155646Z" creationid="Марианна" creationdate="20210601T155646Z">
+        <seg>Range bounds data type</seg>
       </tuv>
     </tu>
     <tu>
