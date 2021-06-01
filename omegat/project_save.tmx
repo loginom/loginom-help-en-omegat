@@ -41472,8 +41472,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Разбиение на множества применяется в случае, когда задача анализа требует разделить исходный набор данных на обучающую и тестовую выборки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T205935Z" creationid="Марианна" creationdate="20210601T205935Z">
-        <seg>Partitioning is used when according to the analysis task it is rerquired to divide the source data set into the training and test samples.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210025Z" creationid="Марианна" creationdate="20210601T205935Z">
+        <seg>Partitioning is used when according to the analysis task it is required to divide the source data set into the training and test samples.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41586,6 +41586,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213143Z" creationid="Марианна" creationdate="20201216T213143Z">
         <seg>Network size Z.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Размер этих выборок можно настроить, а отбор записей для них производится на основе выбранного метода сэмплинга.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210242Z" creationid="Марианна" creationdate="20210601T210242Z">
+        <seg>It is possible to configure the size of these samples, and records are selected for them using the selected sampling method.</seg>
       </tuv>
     </tu>
     <tu>
