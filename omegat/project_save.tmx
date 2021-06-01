@@ -27467,6 +27467,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный способ квантования доступен при подключении внешних таблиц квантования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T191550Z" creationid="Марианна" creationdate="20210601T191550Z">
+        <seg>This binning method is available when the external binning tables are connected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный способ присутствует в настройках, если на входной порт обработчика подаются данные внешней таблицы замен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T084852Z" creationid="Марианна" creationdate="20201117T084723Z">
