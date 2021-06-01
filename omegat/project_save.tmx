@@ -8368,8 +8368,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в случае попытки одновременного применения значений полей Нижняя граница диапазонов открыта и Верхняя граница диапазонов открыта таблицы Внешние диапазоны и, соответственно, флагов Нижняя граница открыта, Верхняя граница открыта мастера настройки приоритет отдаётся полям, т.е. в данной ситуации флаги не повлияют на результат.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T202922Z" creationid="Марианна" creationdate="20210601T202922Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; While attempting to use values of the following fields simultaneously: Lower range bound open and Upper range bound open of External ranges table, and, correspondingly, Lower bound open, Upper bound open of the wizard, the priority is given to the fields, namely, in this case, checkboxes will have no influence on the result.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T203121Z" creationid="Марианна" creationdate="20210601T202922Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; While attempting to use the values of Lower range bound open and Upper range bound open fields of External ranges table simultaneously, and, correspondingly, Lower bound open, Upper bound open checkboxes of the wizard, the priority is given to the fields, namely, in this case, checkboxes will have no influence on the result.</seg>
       </tuv>
     </tu>
     <tu>
