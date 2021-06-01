@@ -27075,6 +27075,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выходные диапазоны</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204005Z" creationid="Марианна" creationdate="20210601T204005Z">
+        <seg>Output ranges</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выходные порты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T121243Z" creationid="Марианна" creationdate="20200823T121243Z">
@@ -36538,6 +36546,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Описание значений всех столбцов приведено в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T203930Z" creationid="Марианна" creationdate="20210601T203930Z">
+        <seg>The values of all columns are described in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Описание ошибки — описание кодов завершения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T151045Z" creationid="Марианна" creationdate="20210220T151045Z">
@@ -40914,6 +40930,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082932Z" creationid="Марианна" creationdate="20201214T082932Z">
         <seg>Exact/inexact data priority.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Присваивается по имени столбца, по которому рассчитывалось квантование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204110Z" creationid="Марианна" creationdate="20210601T204110Z">
+        <seg>It is assigned by the column name by which binning was calculated</seg>
       </tuv>
     </tu>
     <tu>
