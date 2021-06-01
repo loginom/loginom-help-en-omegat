@@ -8214,6 +8214,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; В случае использования метода квантования "Плитка" с типом обработки совпадающих наблюдений "Оставить как есть", в столбцах Квота нижней границы, Квота верхней границы и Квота интервала будет выводиться информация о количестве значений, попавших в данный интервал.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T205117Z" creationid="Марианна" creationdate="20210601T205117Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; If the "Tile" binning method is used with the Ties processing type "Leave as is", information on the number of values included into this interval will be shown in Lower bound quota, Upper bound quota and Bin quota columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; В таблицах семейства MergeTree операции мутации данных не атомарны (подробнее см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T132545Z" creationid="Марианна" creationdate="20210118T132545Z">
