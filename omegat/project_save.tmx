@@ -1124,6 +1124,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>0 - неопределенный; &lt;x1/&gt; 1 – логический; &lt;x2/&gt;  2 - дата/время; &lt;x3/&gt; 3 – вещественный; &lt;x4/&gt; 4 – целый; &lt;x5/&gt;  5 – строковый; &lt;x6/&gt; 6 – переменный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204218Z" creationid="Марианна" creationdate="20210601T204218Z">
+        <seg>0 - undefined; &lt;x1/&gt; 1 – logical; &lt;x2/&gt;  2 - date/time; &lt;x3/&gt; 3 – real; &lt;x4/&gt; 4 – integer; &lt;x5/&gt;  5 – string; &lt;x6/&gt; 6 – variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>0,04</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212736Z" creationid="Марианна" creationdate="20201012T212736Z">
@@ -1544,6 +1552,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105237Z" creationid="Марианна" creationdate="20201111T105237Z">
         <seg>1 - Left join.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1 - значение границы входит в интервал; &lt;x1/&gt; 0 - значение границы не входит в интервал.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204351Z" creationid="Марианна" creationdate="20210601T204351Z">
+        <seg>1 - the bound value is included into the interval; &lt;x1/&gt; 0 - the bound value is not included into the interval.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22281,6 +22297,14 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>true - если установлен флаг "Нижняя граница открыта"; &lt;x1/&gt; false - если не установлен флаг "Нижняя граница открыта".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204433Z" creationid="Марианна" creationdate="20210601T204433Z">
+        <seg>true if "Lower bound open" checkbox is selected; &lt;x1/&gt; false if "Lower bound open" checkbox is not selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>try {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T085605Z" creationid="Марианна" creationdate="20201030T085605Z">
@@ -24085,8 +24109,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В мастере настройки потом можно будет задать шаблоном</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T201706Z" creationid="Марианна" creationdate="20210601T201706Z">
-        <seg>Then it will be possibel to set using a template in the wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204310Z" creationid="Марианна" creationdate="20210601T201706Z">
+        <seg>Then it will be possible to set using a template in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26447,6 +26471,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140236Z" creationid="Марианна" creationdate="20200718T140236Z">
         <seg>It allows for development and support of complex projects. It also helps to delegate solution of the selected subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Всегда 0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204402Z" creationid="Марианна" creationdate="20210601T204402Z">
+        <seg>Always 0</seg>
       </tuv>
     </tu>
     <tu>
@@ -30146,6 +30178,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201423Z" creationid="Марианна" creationdate="20210601T201423Z">
         <seg>It is set by a user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задается шаблоном в мастере настройки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204327Z" creationid="Марианна" creationdate="20210601T204327Z">
+        <seg>It is set using a template in the wizard</seg>
       </tuv>
     </tu>
     <tu>
