@@ -30078,6 +30078,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задается пользователем</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201423Z" creationid="Марианна" creationdate="20210601T201423Z">
+        <seg>It is set by a user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание структуры узлов вручную</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112343Z" creationid="Марианна" creationdate="20201001T112343Z">
@@ -33394,6 +33402,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метка интервала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201413Z" creationid="Марианна" creationdate="20210601T201413Z">
+        <seg>Bin caption.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151144Z" creationid="Марианна" creationdate="20201111T151144Z">
@@ -36606,6 +36622,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T144639Z" creationid="Марианна" creationdate="20210523T144639Z">
         <seg>Leave unchanged: detected null data will not be filled in.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Останется пустой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201530Z" creationid="Марианна" creationdate="20210601T201530Z">
+        <seg>It will remain null.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41026,6 +41050,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T125713Z" creationid="Марианна" creationdate="20210406T125713Z">
         <seg>Null values are interpreted as the strings with zero length, namely, as "".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проставятся, основываясь на нижней границе</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201341Z" creationid="Марианна" creationdate="20210601T201341Z">
+        <seg>They will be assigned according to thе lower bound</seg>
       </tuv>
     </tu>
     <tu>
