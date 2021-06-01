@@ -8366,6 +8366,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в случае попытки одновременного применения значений полей Нижняя граница диапазонов открыта и Верхняя граница диапазонов открыта таблицы Внешние диапазоны и, соответственно, флагов Нижняя граница открыта, Верхняя граница открыта мастера настройки приоритет отдаётся полям, т.е. в данной ситуации флаги не повлияют на результат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T202922Z" creationid="Марианна" creationdate="20210601T202922Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; While attempting to use values of the following fields simultaneously: Lower range bound open and Upper range bound open of External ranges table, and, correspondingly, Lower bound open, Upper bound open of the wizard, the priority is given to the fields, namely, in this case, checkboxes will have no influence on the result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; вещественные числа записываются с использованием десятичной точки, например, &lt;x3/&gt;&lt;x4/&gt;2.71&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170052Z" creationid="Марианна" creationdate="20201005T170052Z">
