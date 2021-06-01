@@ -3884,6 +3884,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Обучающий выходной набор (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210328Z" creationid="Марианна" creationdate="20210601T210328Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Training output data set (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Общий выходной набор (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210432Z" creationid="Марианна" creationdate="20210601T210432Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Common output data set (data table).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Параметры классов (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223836Z" creationid="Марианна" creationdate="20210218T223836Z">
@@ -4096,6 +4112,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204131Z" creationid="Марианна" creationdate="20210208T204131Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Test connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Тестовый выходной набор (таблица данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210345Z" creationid="Марианна" creationdate="20210601T210345Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Test output data set (data table).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12021,6 +12045,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T123811Z" creationid="Марианна" creationdate="20210118T123811Z">
         <seg>&lt;x1/&gt;Compression method&lt;x2/&gt;: &lt;x3/&gt;Without compression&lt;x4/&gt; (it is used by default) and &lt;x5/&gt;LZ4&lt;x6/&gt; options are available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод сэмплинга&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210403Z" creationid="Марианна" creationdate="20210601T210403Z">
+        <seg>&lt;x1/&gt;Sampling Method&lt;x2/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -42630,6 +42662,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сначала отбираются записи для обучающей выборки, оставшиеся используются для тестовой (этот порядок можно изменить в мастере настройки обработчика).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210702Z" creationid="Марианна" creationdate="20210601T210702Z">
+        <seg>The training sample records are selected first, the remaining ones are used for the test one (this order can be changed in the handler wizard).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Снять галочку &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133402Z" creationid="Марианна" creationdate="20201210T133402Z">
@@ -42690,6 +42730,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064102Z" creationid="Марианна" creationdate="20201116T064102Z">
         <seg>It must contain data of two columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит все строки, которые были взяты для обеих выборок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T210504Z" creationid="Марианна" creationdate="20210601T210504Z">
+        <seg>It contains all strings taken from both samples.</seg>
       </tuv>
     </tu>
     <tu>
