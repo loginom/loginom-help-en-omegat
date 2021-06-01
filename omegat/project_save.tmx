@@ -26491,6 +26491,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входная таблица должна содержать соответствующие данные, их описание приведено в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201156Z" creationid="Марианна" creationdate="20210601T201156Z">
+        <seg>The input table must contain corresponding data. It is described in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входная таблица:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064104Z" creationid="Марианна" creationdate="20201023T064104Z">
