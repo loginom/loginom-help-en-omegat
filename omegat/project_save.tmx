@@ -23851,6 +23851,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В данной таблице содержится информация о выходных диапазонах квантования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T203800Z" creationid="Марианна" creationdate="20210601T203800Z">
+        <seg>This table contains information on the output binning ranges.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В данном примере для вычисления переменной &lt;x1/&gt;result&lt;x2/&gt; используются ссылки на поля с именами &lt;x3/&gt;COL1&lt;x4/&gt; и &lt;x5/&gt;COL2&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114257Z" creationid="Марианна" creationdate="20201020T114257Z">
@@ -44252,6 +44260,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070005Z" creationid="Марианна" creationdate="20200715T070005Z">
         <seg>Such port can accept several variables as input data or deliver them as output data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такую же структуру будет иметь таблица &lt;x1/&gt;внешних диапазонов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T203846Z" creationid="Марианна" creationdate="20210601T203846Z">
+        <seg>The &lt;x1/&gt;external ranges&lt;x2/&gt; table will have the same structure.</seg>
       </tuv>
     </tu>
     <tu>
