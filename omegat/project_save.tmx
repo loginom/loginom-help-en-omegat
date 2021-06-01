@@ -24419,6 +24419,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В появившийся порт подключается таблица с данными о входящих диапазонах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T200431Z" creationid="Марианна" creationdate="20210601T200431Z">
+        <seg>The table with the data on the included ranges is connected to the appeared port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В правой таблице выбрать нужный параметр запроса и в столбце &lt;x1/&gt;Связанные поля&lt;x2/&gt; выбрать из выпадающего списка метку поля из входного набора;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T195907Z" creationid="Марианна" creationdate="20210225T195338Z">
