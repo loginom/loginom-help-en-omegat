@@ -25013,6 +25013,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае при запуске мастера настройки первым открывается окно настройки входных диапазонов, где нужно установить соответствия между столбцами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T201025Z" creationid="Марианна" creationdate="20210601T201025Z">
+        <seg>In this case, when starting the wizard, the input range configuration window will be opened first. It will be required to provide columns mapping there.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае приведенный выше пример будет выглядеть следующим образом:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T065610Z" creationid="Марианна" creationdate="20201113T065610Z">
