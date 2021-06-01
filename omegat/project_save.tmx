@@ -22289,6 +22289,14 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>true - если установлен флаг "Верхняя граница открыта"; &lt;x1/&gt; false - если не установлен флаг "Верхняя граница открыта".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210601T204513Z" creationid="Марианна" creationdate="20210601T204513Z">
+        <seg>true if "Upper bound open" checkbox is selected; &lt;x1/&gt; false if "Upper bound open" checkbox is not selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>true - если установлен флаг "Нижняя граница открыта";  &lt;x1/&gt;false - если не установлен флаг "Нижняя граница открыта"</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T202108Z" creationid="Марианна" creationdate="20210601T202108Z">
