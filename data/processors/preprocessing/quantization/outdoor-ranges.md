@@ -11,7 +11,7 @@ In this case, when starting the wizard, the input range configuration window wil
 | Bin number | Index bin number | Integer | No | Numbers are assigned starting from 0 |
 | Lower bound | Lower interval bound | Integer, real | Yes | None |
 | Upper bound | Upper interval bound | Integer, real | No | They will be assigned according to thе lower bound |
-| Caption | Bin caption. It is set by a user | String | No | It will remain null. Then it will be possibel to set using a template in the wizard. |
+| Caption | Bin caption. It is set by a user | String | No | It will remain null. Then it will be possible to set using a template in the wizard. |
 | Lower bound quota | 1 - the bound value is included into the interval;<br>0 - the bound value is not included into the interval | Integer, Real | No | 0 |
 | Upper bound quota | 1 - the bound value is included into the interval;<br>0 - the bound value is not included into the interval | Integer, Real | No | 1 |
 | Bin quota | always 0 | Integer, Real | No | 0 |

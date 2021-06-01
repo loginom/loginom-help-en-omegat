@@ -1,21 +1,21 @@
 # Parameters of Binning Ranges
 
-В данной таблице содержится информация о выходных диапазонах квантования. Такую же структуру будет иметь таблица [внешних диапазонов](./outdoor-ranges.md). Описание значений всех столбцов приведено в таблице:
+This table contains information on the output binning ranges. The [external ranges](./outdoor-ranges.md) table will have the same structure. The values of all columns are described in the table:
 
-| Column name | Выходные диапазоны |
+| Column name | Output ranges |
 | ------- | ------- |
-| Bins identifier | Присваивается по имени столбца, по которому рассчитывалось квантование |
-| Range bounds data type | 0 - неопределенный; <br> 1 – логический; <br>  2 - дата/время; <br> 3 – вещественный; <br> 4 – целый; <br>  5 – строковый; <br> 6 – переменный. |
+| Bins identifier | It is assigned by the column name by which binning was calculated |
+| Range bounds data type | 0 - undefined; <br> 1 – logical; <br>  2 - date/time; <br> 3 – real; <br> 4 – integer; <br>  5 – string; <br> 6 – variable. |
 | Bin number | Index bin number |
 | Lower bound | Lower interval bound |
 | Upper bound | Upper interval bound |
-| Caption | Задается шаблоном в мастере настройки |
-| Lower bound quota | 1 - значение границы входит в интервал; <br> 0 - значение границы не входит в интервал. |
-| Upper bound quota | 1 - значение границы входит в интервал; <br> 0 - значение границы не входит в интервал. |
-| Bin quota | Всегда 0 |
-| Lower range bound open | true - если установлен флаг "Нижняя граница открыта"; <br> false - если не установлен флаг "Нижняя граница открыта". |
-| Upper range bound open | true - если установлен флаг "Верхняя граница открыта"; <br> false - если не установлен флаг "Верхняя граница открыта". |
+| Caption | It is set using a template in the wizard |
+| Lower bound quota | 1 - the bound value is included into the interval; <br> 0 - the bound value is not included into the interval. |
+| Upper bound quota | 1 - the bound value is included into the interval; <br> 0 - the bound value is not included into the interval. |
+| Bin quota | Always 0 |
+| Lower range bound open | true if "Lower bound open" checkbox is selected; <br> false if "Lower bound open" checkbox is not selected. |
+| Upper range bound open | true if "Upper bound open" checkbox is selected; <br> false if "Upper bound open" checkbox is not selected. |
 
 -------
 
-**Важно:** В случае использования метода квантования "Плитка" с типом обработки совпадающих наблюдений "Оставить как есть", в столбцах Квота нижней границы, Квота верхней границы и Квота интервала будет выводиться информация о количестве значений, попавших в данный интервал.
+**Important:** If the "Tile" binning method is used with the Ties processing type "Leave as is", information on the number of the values included into this bin will be shown in Lower bound quota, Upper bound quota and Bin quota columns.
