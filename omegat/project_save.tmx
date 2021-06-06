@@ -36068,8 +36068,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Номер интервала</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T213939Z" creationid="Марианна" creationdate="20210601T160051Z">
-        <seg>Bin index</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T214338Z" creationid="Марианна" creationdate="20210601T160051Z">
+        <seg>Bin number</seg>
       </tuv>
     </tu>
     <tu>
@@ -39428,8 +39428,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порядковый номер интервала</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T213946Z" creationid="Марианна" creationdate="20210601T160145Z">
-        <seg>Index bin index</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T214346Z" creationid="Марианна" creationdate="20210601T160145Z">
+        <seg>Index bin number</seg>
       </tuv>
     </tu>
     <tu>
