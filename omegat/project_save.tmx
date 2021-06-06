@@ -3132,6 +3132,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Информационный индекс&lt;x4/&gt; – указываются значения информационных &lt;x5/&gt;индексов IV&lt;x6/&gt;, вычисленные по каждому входному столбцу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204755Z" creationid="Марианна" creationdate="20210606T204755Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Information value&lt;x4/&gt;: the values of information &lt;x5/&gt;values IV&lt;x6/&gt; calculated for each input column are specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Использовать относительные пути базового пакета&lt;x4/&gt; — данную опцию следует включать в &lt;x5/&gt;Пакете&lt;x6/&gt; с базовым узлом, если у данного узла есть относительные пути на файлы либо предполагается использовать пути в базовых узлах относительно данного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143900Z" creationid="Марианна" creationdate="20200816T143900Z">
@@ -30875,8 +30883,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Значение, равное 0, обеспечивает такое разбиение на классы, которое максимизирует информационный индекс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210530T135722Z" creationid="Марианна" creationdate="20210530T135722Z">
-        <seg>The value that is equal to 0 provides for such partitioning into classes that maximizes the information index.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204544Z" creationid="Марианна" creationdate="20210530T135722Z">
+        <seg>The value that is equal to 0 provides for such partitioning into classes that maximizes the information value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46554,8 +46562,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Это значение можно изменить: большое число классов приводит к уменьшению их веса, а малое — к уменьшению информационного индекса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210530T122036Z" creationid="Марианна" creationdate="20210530T122036Z">
-        <seg>This value can be changed. The high count of classes causes decrease of their weight, whereas the low one brings about decrease of information index.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204531Z" creationid="Марианна" creationdate="20210530T122036Z">
+        <seg>This value can be changed. The high count of classes causes decrease of their weight, whereas the low one brings about decrease of information value.</seg>
       </tuv>
     </tu>
     <tu>
