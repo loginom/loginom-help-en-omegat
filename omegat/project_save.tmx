@@ -2932,6 +2932,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница&lt;x4/&gt; – для числовых признаков указывается верхняя граница интервала числом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T211703Z" creationid="Марианна" creationdate="20210606T211703Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper bound&lt;x4/&gt;: a number is used to denote the upper interval bound for the numeric indicators.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Вес доказательства&lt;x4/&gt; – &lt;x5/&gt;коэффициент WoE&lt;x6/&gt; для каждого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210524T123544Z" creationid="Марианна" creationdate="20210524T123544Z">
