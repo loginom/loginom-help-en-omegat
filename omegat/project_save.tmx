@@ -28781,6 +28781,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для непрерывного разбиения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T213852Z" creationid="Марианна" creationdate="20210606T213852Z">
+        <seg>For the continuous binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для обращения к опубликованным сервисам из сценария Loginom используются компоненты &lt;x1/&gt;&lt;x2/&gt;SOAP-запрос&lt;x3/&gt;&lt;x4/&gt; и &lt;x5/&gt;&lt;x6/&gt;REST-запрос&lt;x7/&gt;&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T135228Z" creationid="Марианна" creationdate="20210215T154652Z">
@@ -36044,8 +36052,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Номер интервала</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T160051Z" creationid="Марианна" creationdate="20210601T160051Z">
-        <seg>Bin number</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T213939Z" creationid="Марианна" creationdate="20210601T160051Z">
+        <seg>Bin index</seg>
       </tuv>
     </tu>
     <tu>
@@ -39404,8 +39412,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порядковый номер интервала</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T160145Z" creationid="Марианна" creationdate="20210601T160145Z">
-        <seg>Index bin number</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T213946Z" creationid="Марианна" creationdate="20210601T160145Z">
+        <seg>Index bin index</seg>
       </tuv>
     </tu>
     <tu>
