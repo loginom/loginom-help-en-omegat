@@ -23707,6 +23707,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Борьба с выбросами и экстремальными значениями — формирование меток интервала квантования при дискретизации непрерывного поля или объединение редких уникальных значений в одну категорию позволяет решить проблему экстремальных значений и выбросов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T174114Z" creationid="Марианна" creationdate="20210606T174114Z">
+        <seg>The struggle against outliers and extreme values is based on formation of the binning interval captions during discretization of the continuous field or union of rare unique values into one category that enables to solve the problem of extreme values and outliers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В 64-разрядных ОС используются два администратора источников данных ODBC 32-разрядный C:\Windows\SysWOW64\odbcad32.exe и 64-разрядный C:\Windows\System32\odbcad32.exe.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T062914Z" creationid="Марианна" creationdate="20210203T062914Z">
