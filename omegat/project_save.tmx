@@ -3236,6 +3236,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Нижняя граница&lt;x4/&gt; – для числовых признаков указывается нижняя граница интервала числом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T211550Z" creationid="Марианна" creationdate="20210606T211550Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Lower bound&lt;x4/&gt;: a number is used to denote the lower interval bound for the numeric indicators.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Номер класса&lt;x4/&gt; – порядковый номер, присвоенный классу при его формировании в узле Конечные классы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T203718Z" creationid="Марианна" creationdate="20210606T203718Z">
@@ -3390,8 +3398,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Предквантование&lt;x4/&gt; – показывает применялось ли предквантование в процессе формирования конечных классов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T204927Z" creationid="Марианна" creationdate="20210606T204927Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Prequantization&lt;x4/&gt; shows whether prequantization has been used in the process of the coarse classes formation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T211020Z" creationid="Марианна" creationdate="20210606T204927Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Prequantization&lt;x4/&gt; shows whether prequantization has been used in the process of the coarse classes generation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6152,8 +6160,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Настройка конечных классов&lt;x3/&gt;&lt;x4/&gt; — позволяет просматривать начальные классы и результаты формирования конечных классов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T210636Z" creationid="Марианна" creationdate="20210606T210636Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure Coarse Classes&lt;x3/&gt;&lt;x4/&gt; enables to view the fine classes and results of the coarse classes formation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T211113Z" creationid="Марианна" creationdate="20210606T210636Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure Coarse Classes&lt;x3/&gt;&lt;x4/&gt; enables to view the fine classes and results of the coarse classes generation.</seg>
       </tuv>
     </tu>
     <tu>
