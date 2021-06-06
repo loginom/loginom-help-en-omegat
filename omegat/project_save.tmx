@@ -28195,6 +28195,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дискретное разбиение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T214020Z" creationid="Марианна" creationdate="20210606T214020Z">
+        <seg>Discrete binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дискретный.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
@@ -35834,6 +35842,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Непрерывное разбиение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T214030Z" creationid="Марианна" creationdate="20210606T214030Z">
+        <seg>Continuous binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Непрерывный.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192657Z" creationid="Марианна" creationdate="20200825T192657Z">
@@ -41088,6 +41104,14 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T100344Z" creationid="Марианна" creationdate="20210220T100344Z">
         <seg>Example of the directory created via the command line:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример таблицы внешнего разбиения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T214054Z" creationid="Марианна" creationdate="20210606T214054Z">
+        <seg>Example of the external binning table</seg>
       </tuv>
     </tu>
     <tu>
