@@ -3108,6 +3108,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Значимость столбца&lt;x4/&gt; – уровень значимости входного столбца, определенный на основе информационного индекса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204523Z" creationid="Марианна" creationdate="20210606T204434Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column Significance&lt;x4/&gt; means the significance level of the input column defined according to the information value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Идентификатор&lt;x4/&gt; – имя столбца, под которым он будет обрабатываться в наборе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T202701Z" creationid="Марианна" creationdate="20210606T202701Z">
@@ -38846,6 +38854,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T193812Z" creationid="Марианна" creationdate="20200827T193812Z">
         <seg>It enables to configure import of the required data from the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет настроить параметры заранее настроенного внешнего разбиения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204314Z" creationid="Марианна" creationdate="20210606T204314Z">
+        <seg>It enables to configure parameters of the preconfigured external binning.</seg>
       </tuv>
     </tu>
     <tu>
