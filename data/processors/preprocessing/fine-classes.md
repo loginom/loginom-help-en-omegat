@@ -6,11 +6,11 @@ The Coarse Classes handler enables to solve the following problems:
 
 * Conversion of the continuous and discrete input fields used for training of the models related to the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html)by means of the binning based on totality-of-evidence approach or [WoE analysis](https://wiki.loginom.ru/articles/coefficient-woe.html) (weights of evidence, WoE). In the result, each source indicator value is replaced with the caption of the binning range with which this value complies. Usage of such conversion results for the binary classification models training (for example, [logistic regression](https://wiki.loginom.ru/articles/logistic-regression.html)) enables to improve their accuracy and resilience to the input data change.
 * Reduction of data dimensionality by excluding the indicators with low significance, by decreasing variety of indicator values.
-* Восстановление пропусков, когда пропуски образуют отдельную метку интервала квантования или объединяются с соседним, близким по значению WoE-индекса.
-* Борьба с выбросами и экстремальными значениями — формирование меток интервала квантования при дискретизации непрерывного поля или объединение редких уникальных значений в одну категорию позволяет решить проблему экстремальных значений и выбросов.
-* Упрощение описания исследуемых объектов.
+* Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the WoE coefficient value.
+* The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category that enables to solve the problem of extreme values and outliers.
+* Simplification of description of the objects under study.
 
-Результатом работы обработчика Конечные классы является преобразование входных столбцов в последовательность интервалов, называемых конечными классами, каждому из которых присваивается определенная метка. Кроме этого, для каждого входного столбца может быть вычислен уровень значимости (отсутствует, очень низкая, низкая, средняя, высокая и очень высокая), на основе которого может производиться отбор переменных в модели бинарной классификации.
+The Coarse Classes handler operation result is conversion of the input columns into a sequence of bins that are called coarse classes, each of which is assigned with a particular caption. Besides, the significance level can be calculated for each input column (none, very low, low, mean, high and very high) according to which it is possible to select variables to the binary classification models.
 
 ### Input
 
@@ -23,10 +23,10 @@ The Coarse Classes handler enables to solve the following problems:
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/none_default.svg) **Поля исходного набора данных** (значения не изменяются).
-* ![ ](../../images/icons/data-types/integer_default.svg) **Поле «<Метка столбца> Номер класса»** – идентификатор конечного класса, целое число (начиная с 0) – столбец создается всегда.
-* ![ ](../../images/icons/data-types/string_default.svg) **Поле «<Метка столбца> Метка»** – метка конечного класса, полученная автоматическим путем (числовые границы, если это непрерывная переменная, или перечисление уникальных значений через «;», если переменная дискретная).
-* ![ ](../../images/icons/data-types/float_default.svg) **«<Column caption>  Significance» Field.**
+* ![ ](../../images/icons/data-types/none_default.svg) **The source data set fields** (values are not change).
+* ![ ](../../images/icons/data-types/integer_default.svg) **«<Column caption> Class number» field** means the coarse class identifier, integer (starting from 0): a column is always created.
+* ![ ](../../images/icons/data-types/string_default.svg) **«<Column caption> Caption» field** means the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).
+* ![ ](../../images/icons/data-types/float_default.svg) **«<Column caption> Significance» Field.**
 
 %/spoiler%
 
@@ -34,21 +34,21 @@ The Coarse Classes handler enables to solve the following problems:
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/integer_default.svg) **Группа** – номер группы, к которой относится запись в таблице. Каждая группа записей ассоциирована с признаком (полем) исходного набора данных, являющимся входным для узла Конечные классы. Количество записей в группе соответствует числу конечных классов исходного столбца.
-* ![ ](../../images/icons/data-types/string_default.svg) **Идентификатор** – имя столбца, под которым он будет обрабатываться в наборе данных. Число столбцов равно числу входных полей узла Конечные классы.
-* ![ ](../../images/icons/data-types/string_default.svg) **Метка столбца** – мнемоническое обозначение входного столбца, под которым он будет виден пользователю в базе или хранилище данных. По умолчанию устанавливается название, под которым данный столбец виден в исходном наборе данных.
-* ![ ](../../images/icons/data-types/integer_default.svg) **Номер класса** – порядковый номер, присвоенный классу при его формировании в узле Конечные классы.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Group** means the number of the group to which the table record relates. Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coaarse Classes node. The number of the group records meets the number of the coarse classes of the source column.
+* ![ ](../../images/icons/data-types/string_default.svg) **Identifier** means the column name under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column caption** means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Class number** means the index number assigned to the class while its formation in the Coarse Classes node.
 * ![ ](../../images/icons/data-types/string_default.svg) **Unique value** displays unique values for the discrete fields.
-* ![ ](../../images/icons/data-types/string_default.svg) **Метка класса** – идентификатор класса, присвоенный ему при формировании в узле конечные классы. Для числовых столбцов метка класса состоит из верхней и нижней границ класса (для нулевого класса указывается только нижняя граница с предлогом «от…», для класса с максимальным номером указывается верхняя граница с предлогом «до…»). Для категориальных полей, если каждый класс формируется для отдельной категории, то в качестве метки указывается эта категория. Если класс включает несколько категорий, то в метке перечисляются все категории, вошедшие в класс.
-* ![ ](../../images/icons/data-types/integer_default.svg) **Число событий** – количество наблюдений в классе, для которых выходное значение – событие.
-* ![ ](../../images/icons/data-types/integer_default.svg) **Число не-событий** – количество наблюдений в классе, для которых выходное значение – не-событие.
-* ![ ](../../images/icons/data-types/variant_default.svg) **Нижняя граница** – для числовых признаков указывается нижняя граница интервала числом. Для категориальных признаков нижняя граница обозначается двумя категориями – верхней категорией предыдущего класса и нижней категорией текущего.
-* ![ ](../../images/icons/data-types/variant_default.svg) **Верхняя граница** – для числовых признаков указывается верхняя граница интервала числом. Для категориальных признаков верхняя граница обозначается двумя категориями – нижней категорией следующего класса и верхней категорией текущего.
+* ![ ](../../images/icons/data-types/string_default.svg) **Class caption** means the class identifier assigned to it while its formation in the Coarse Classes node. The class caption of the numeric columns consists of the upper and lower class bounds (only the lower bound is specified for the null class with "from..." preposition, the upper bound is specified for the class with the maximum number with "to..." preposition). For categorical fields if each class is formed for a separate category, it is required to specify this category as a caption. If the class includes several categories, it is required to list all categories included into the class in the caption.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Events count**: count of the observations in the class for which the output value is an event.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Non-events count**: count of the observations in the class for which the output value is a non-event.
+* ![ ](../../images/icons/data-types/variant_default.svg) **Lower bound**: a number is used to denote the lower interval bound for the numeric indicators. The lower bound is denoted by two categories for categorical indicators, namely, the upper category of the previous class and the lower category of the current class.
+* ![ ](../../images/icons/data-types/variant_default.svg) **Upper bound**: a number is used to denote the upper interval bound for the numeric indicators. The upper bound is denoted by two categories for categorical indicators, namely, the lower category of the next class and the upper category of the current class.
 * ![ ](../../images/icons/data-types/float_default.svg) **Weight of evidence** means the [WoE coefficient](https://wiki.loginom.ru/articles/coefficient-woe.html) for each class.
-* ![ ](../../images/icons/data-types/float_default.svg) **Информационный индекс** – указываются значения информационных [индексов IV](https://wiki.loginom.ru/articles/coefficient-iv.html), вычисленные по каждому входному столбцу. Сумма частных информационных индексов по каждому классу дает общий информационный индекс признака, по которому определяется его значимость.
-* ![ ](../../images/icons/data-types/float_default.svg) **Доля класса** – отношение количества наблюдений в классе к общему числу наблюдений.
+* ![ ](../../images/icons/data-types/float_default.svg) **Information value**: the values of information [values IV](https://wiki.loginom.ru/articles/coefficient-iv.html) calculated for each input column are specified. The sum of quotients of information values for each class provides the total information value of the indicator by which its significance is defined.
+* ![ ](../../images/icons/data-types/float_default.svg) **Class rate** means the ratio of observations number in the class to the total count of observations.
 * ![ ](../../images/icons/data-types/boolean_default.svg) **Upper range bound open**.
-* ![ ](../../images/icons/data-types/boolean_default.svg) **Предквантование** – показывает применялось ли предквантование в процессе формирования конечных классов.
+* ![ ](../../images/icons/data-types/boolean_default.svg) **Prequantization** shows whether prequantization has been used in the process of the coarse classes generation.
 
 %/spoiler%
 
@@ -56,22 +56,22 @@ The Coarse Classes handler enables to solve the following problems:
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/string_default.svg) **Имя столбца** – идентификатор столбца, под которым он будет обрабатываться в наборе данных. Число столбцов равно числу входных полей узла Конечные классы.
-* ![ ](../../images/icons/data-types/string_default.svg) **Метка столбца** – мнемоническое обозначение входного столбца, под которым он будет виден пользователю в базе или хранилище данных. По умолчанию устанавливается название, под которым данный столбец виден в исходном наборе данных.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column name** means the column identifier under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column caption** means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Events count**: count of the events included into this class.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Non-events count**: count of the non-events included into this class.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Total** means the total number of observations in the class.
-* ![ ](../../images/icons/data-types/float_default.svg) **Информационный индекс** – указываются значения информационных [индексов IV](https://wiki.loginom.ru/articles/coefficient-iv.html), вычисленные по каждому входному столбцу.
-* ![ ](../../images/icons/data-types/string_default.svg) **Значимость столбца** – уровень значимости входного столбца, определенный на основе информационного индекса. Может принимать значения: отсутствует, очень низкая, низкая, средняя, высокая и очень высокая.
+* ![ ](../../images/icons/data-types/float_default.svg) **Information value**: the values of information [values IV](https://wiki.loginom.ru/articles/coefficient-iv.html) calculated for each input column are specified.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column Significance** means the significance level of the input column defined according to the information value. It can take the folowing values: none, very low, low, mean, high and very high.
 
 %/spoiler%
 
 ## Wizard
 
-Мастер настройки состоит из следующих шагов:
+The wizard includes the following steps:
 
-* **[Настройка внешнего разбиения](./fine-classes/configuring-an-external-partition.md)** — появляется, если задан порт *Внешние диапазоны квантования*. Позволяет настроить параметры заранее настроенного внешнего разбиения.
+* **[Configure External Binning](./fine-classes/configuring-an-external-partition.md)** appears if *External binning bins* port is set. It enables to configure parameters of the preconfigured external binning.
 
-* **[Настройка назначений столбцов](./fine-classes/configure-column-assignments.md)** — позволяет задать назначение столбцам, настройки входного и выходного полей, внешнего разбиения, а также настройки алгоритма для формирования конечных классов входных полей.
+* **[Configure Column Usage Types](./fine-classes/configure-column-assignments.md)**: it enables to set the column usage type, configuration of the input and output fields, external binning and algorithm settings to generate the coarse classes of the input fields.
 
-* **[Настройка конечных классов](./fine-classes/configuring-the-finite-classes.md)** — позволяет просматривать начальные классы и результаты формирования конечных классов. Предназначена для внесения ручной корректировки в границы (или множества) сформированных конечных классов с целью достижения лучших результатов.
+* **[Configure Coarse Classes](./fine-classes/configuring-the-finite-classes.md)** enables to view the fine classes and results of the coarse classes generation. It is designated for the manual correction of bounds (or sets) of the generated coarse classes to achieve the best results.
