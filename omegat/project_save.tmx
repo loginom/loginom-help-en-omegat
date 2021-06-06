@@ -39796,8 +39796,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Предназначена для внесения ручной корректировки в границы (или множества) сформированных конечных классов с целью достижения лучших результатов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T212325Z" creationid="Марианна" creationdate="20210606T212325Z">
-        <seg>It is designated for the manual adjustment of bounds (or sets) of the generated coarse classes to achieve the best results.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T212412Z" creationid="Марианна" creationdate="20210606T212325Z">
+        <seg>It is designated for the manual correction of bounds (or sets) of the generated coarse classes to achieve the best results.</seg>
       </tuv>
     </tu>
     <tu>
