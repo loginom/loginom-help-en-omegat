@@ -3020,6 +3020,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Группа&lt;x4/&gt; – номер группы, к которой относится запись в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T200732Z" creationid="Марианна" creationdate="20210606T200732Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt; means the number of the group to which the table record relates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Добавить выражение по образцу&lt;x4/&gt; — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T071805Z" creationid="Марианна" creationdate="20201015T071805Z">
@@ -3270,8 +3278,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поле «&lt;Метка столбца&gt; Значимость».&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210524T122918Z" creationid="Марианна" creationdate="20210524T122918Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt;  Significance» Field.&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T200552Z" creationid="Марианна" creationdate="20210524T122918Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Significance» Field.&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
