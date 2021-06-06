@@ -3612,6 +3612,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Число не-событий&lt;x4/&gt; – количество наблюдений в классе, для которых выходное значение – не-событие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T205723Z" creationid="Марианна" creationdate="20210606T205723Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Non-events count&lt;x4/&gt;: count of the observations in the class for which the output value is a non-event.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Число не-событий&lt;x4/&gt; – количество не-событий, попавших в данный класс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210524T123117Z" creationid="Марианна" creationdate="20210524T123011Z">
@@ -28633,6 +28641,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T063009Z" creationid="Марианна" creationdate="20210215T063009Z">
         <seg>A separate method of SOAP service and URL REST service is created for each of them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для категориальных полей, если каждый класс формируется для отдельной категории, то в качестве метки указывается эта категория.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T210023Z" creationid="Марианна" creationdate="20210606T210023Z">
+        <seg>For categorical fields if each class is formed for a separate category, it is required to specify this category as a caption.</seg>
       </tuv>
     </tu>
     <tu>
