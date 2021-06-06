@@ -41910,6 +41910,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результатом работы обработчика Конечные классы является преобразование входных столбцов в последовательность интервалов, называемых конечными классами, каждому из которых присваивается определенная метка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T174608Z" creationid="Марианна" creationdate="20210606T174608Z">
+        <seg>The Coarse Classes handler operation result is transformation of the input columns into a sequence of intervals that are called classes, each of which is assigned with a particular caption.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Результаты можно просмотреть в самой системе или экспортировать в сторонние приемники данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090740Z" creationid="Марианна" creationdate="20200715T090740Z">
