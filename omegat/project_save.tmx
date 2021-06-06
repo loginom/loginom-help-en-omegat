@@ -3284,6 +3284,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поля исходного набора данных&lt;x4/&gt; (значения не изменяются).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T192449Z" creationid="Марианна" creationdate="20210606T192449Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;The source data set fields&lt;x4/&gt; (values are not change).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Правое соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065625Z" creationid="Марианна" creationdate="20201111T104908Z">
