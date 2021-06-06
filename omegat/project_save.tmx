@@ -25579,6 +25579,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя граница включена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T213524Z" creationid="Марианна" creationdate="20210606T213524Z">
+        <seg>Include upper bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Верхняя граница диапазонов открыта</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T202138Z" creationid="Марианна" creationdate="20210601T202138Z">
