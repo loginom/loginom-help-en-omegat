@@ -3276,6 +3276,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поле «&lt;Метка столбца&gt; Метка»&lt;x4/&gt; – метка конечного класса, полученная автоматическим путем (числовые границы, если это непрерывная переменная, или перечисление уникальных значений через «;», если переменная дискретная).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T200527Z" creationid="Марианна" creationdate="20210606T200527Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Caption» field&lt;x4/&gt; means the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поле «&lt;Метка столбца&gt; Номер класса»&lt;x4/&gt; – идентификатор конечного класса, целое число (начиная с 0) – столбец создается всегда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T192712Z" creationid="Марианна" creationdate="20210606T192712Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Class number» field&lt;x4/&gt; means the coarse class identifier, integer (starting from 0): a column is always created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Полное соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065605Z" creationid="Марианна" creationdate="20201111T104845Z">
