@@ -32157,6 +32157,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждая группа записей ассоциирована с признаком (полем) исходного набора данных, являющимся входным для узла Конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T201834Z" creationid="Марианна" creationdate="20210606T201834Z">
+        <seg>Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coaarse Classes node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждая запись обучающего множества представляет собой обучающий пример, содержащий заданное входное воздействие и соответствующий ему правильный выходной (целевой) результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T080529Z" creationid="Марианна" creationdate="20201214T080529Z">
