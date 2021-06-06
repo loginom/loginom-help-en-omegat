@@ -29255,8 +29255,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для числовых столбцов метка класса состоит из верхней и нижней границ класса (для нулевого класса указывается только нижняя граница с предлогом «от…», для класса с максимальным номером указывается верхняя граница с предлогом «до…»).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T213042Z" creationid="Марианна" creationdate="20210606T213042Z">
-        <seg>The class caption of the numeric columns consists of the upper and lower class bounds (only the lower bound is specified for the zero class with "from..." preposition, the upper bound is specified for the class with the maximum number with "to..." preposition).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T213158Z" creationid="Марианна" creationdate="20210606T213042Z">
+        <seg>The class caption of the numeric columns consists of the upper and lower class bounds (only the lower bound is specified for the null class with "from..." preposition, the upper bound is specified for the class with the maximum number with "to..." preposition).</seg>
       </tuv>
     </tu>
     <tu>
