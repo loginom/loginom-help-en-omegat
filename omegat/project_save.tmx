@@ -6174,6 +6174,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Настройка назначений столбцов&lt;x3/&gt;&lt;x4/&gt; — позволяет задать назначение столбцам, настройки входного и выходного полей, внешнего разбиения, а также настройки алгоритма для формирования конечных классов входных полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T212038Z" creationid="Марианна" creationdate="20210606T212038Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure Column Usage Types&lt;x3/&gt;&lt;x4/&gt;: it enables to set the column usage type, configuration of the input and output fields, external binning and algorithm settings to generate the coarse classes of the input fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Удалить все условия&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Удалить все условия&lt;x6/&gt; — удалить все условия для выбранной ветви.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082741Z" creationid="Марианна" creationdate="20200924T082741Z">
