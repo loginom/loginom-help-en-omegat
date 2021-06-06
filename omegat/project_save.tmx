@@ -3196,6 +3196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Номер класса&lt;x4/&gt; – порядковый номер, присвоенный классу при его формировании в узле Конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T203718Z" creationid="Марианна" creationdate="20210606T203718Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class number&lt;x4/&gt; means the index number assigned to the class while its formation in the Coarse Classes node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — производит обновление списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140127Z" creationid="Марианна" creationdate="20200816T140127Z">
@@ -38478,6 +38486,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T204351Z" creationid="Марианна" creationdate="20210528T204351Z">
         <seg>5 value is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию устанавливается название, под которым данный столбец виден в исходном наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T203541Z" creationid="Марианна" creationdate="20210606T203541Z">
+        <seg>The name under which this column is visible in the source data set is set by default.</seg>
       </tuv>
     </tu>
     <tu>
