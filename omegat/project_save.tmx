@@ -32630,6 +32630,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество записей в группе соответствует числу конечных классов исходного столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T202403Z" creationid="Марианна" creationdate="20210606T202403Z">
+        <seg>The number of the group records meets the number of the coarse classes of the source column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество интервалов — количество интервалов предварительного квантования.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T182544Z" creationid="Марианна" creationdate="20210528T182544Z">
