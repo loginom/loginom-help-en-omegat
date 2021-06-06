@@ -6150,6 +6150,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Настройка конечных классов&lt;x3/&gt;&lt;x4/&gt; — позволяет просматривать начальные классы и результаты формирования конечных классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T210636Z" creationid="Марианна" creationdate="20210606T210636Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure Coarse Classes&lt;x3/&gt;&lt;x4/&gt; enables to view the fine classes and results of the coarse classes formation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Удалить все условия&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Удалить все условия&lt;x6/&gt; — удалить все условия для выбранной ветви.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082741Z" creationid="Марианна" creationdate="20200924T082741Z">
