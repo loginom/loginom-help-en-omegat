@@ -46136,6 +46136,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Число столбцов равно числу входных полей узла Конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T203030Z" creationid="Марианна" creationdate="20210606T203030Z">
+        <seg>The column count is equal to the input fields number of the Coarse Classes node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Число сформированных классов может оказаться меньше заданного значения из-за ограничения по весу классов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T122206Z" creationid="Марианна" creationdate="20210530T122206Z">
