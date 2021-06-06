@@ -23709,8 +23709,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Борьба с выбросами и экстремальными значениями — формирование меток интервала квантования при дискретизации непрерывного поля или объединение редких уникальных значений в одну категорию позволяет решить проблему экстремальных значений и выбросов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T174114Z" creationid="Марианна" creationdate="20210606T174114Z">
-        <seg>The struggle against outliers and extreme values is based on formation of the binning interval captions during discretization of the continuous field or union of rare unique values into one category that enables to solve the problem of extreme values and outliers.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T175800Z" creationid="Марианна" creationdate="20210606T174114Z">
+        <seg>The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category that enables to solve the problem of extreme values and outliers.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26437,8 +26437,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Восстановление пропусков, когда пропуски образуют отдельную метку интервала квантования или объединяются с соседним, близким по значению WoE-индекса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T175543Z" creationid="Марианна" creationdate="20210606T173504Z">
-        <seg>Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the coefficient WoE value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T175705Z" creationid="Марианна" creationdate="20210606T173504Z">
+        <seg>Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the WoE coefficient value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41912,8 +41912,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Результатом работы обработчика Конечные классы является преобразование входных столбцов в последовательность интервалов, называемых конечными классами, каждому из которых присваивается определенная метка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T175335Z" creationid="Марианна" creationdate="20210606T174608Z">
-        <seg>The Coarse Classes handler operation result is transformation of the input columns into a sequence of bins that are called coarse classes, each of which is assigned with a particular caption.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T175839Z" creationid="Марианна" creationdate="20210606T174608Z">
+        <seg>The Coarse Classes handler operation result is conversion of the input columns into a sequence of bins that are called coarse classes, each of which is assigned with a particular caption.</seg>
       </tuv>
     </tu>
     <tu>
