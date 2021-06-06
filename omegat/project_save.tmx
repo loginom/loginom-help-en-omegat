@@ -3132,6 +3132,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Метка класса&lt;x4/&gt; – идентификатор класса, присвоенный ему при формировании в узле конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T203818Z" creationid="Марианна" creationdate="20210606T203818Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class caption&lt;x4/&gt; means the class identifier assigned to it while its formation in the Coarse Classes node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Метка столбца&lt;x4/&gt; – мнемоническое обозначение входного столбца, под которым он будет виден пользователю в базе или хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T203301Z" creationid="Марианна" creationdate="20210606T203301Z">
