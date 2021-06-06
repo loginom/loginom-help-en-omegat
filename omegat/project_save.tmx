@@ -3380,6 +3380,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Предквантование&lt;x4/&gt; – показывает применялось ли предквантование в процессе формирования конечных классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204927Z" creationid="Марианна" creationdate="20210606T204927Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Prequantization&lt;x4/&gt; shows whether prequantization has been used in the process of the coarse classes formation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Прогнозируемое&lt;x4/&gt; — для данных, соответствующих временному ряду.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T070920Z" creationid="Марианна" creationdate="20201208T070920Z">
