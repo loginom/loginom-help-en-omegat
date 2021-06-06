@@ -33204,6 +33204,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме этого, для каждого входного столбца может быть вычислен уровень значимости (отсутствует, очень низкая, низкая, средняя, высокая и очень высокая), на основе которого может производиться отбор переменных в модели бинарной классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T180300Z" creationid="Марианна" creationdate="20210606T180300Z">
+        <seg>Besides, the significance level can be calculated for each input column (none, very low, low, mean, high and very high) according to which it is possible to select variables to the binary classification models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кросс-таблица с колонкой: Товар&lt;x1/&gt;
 Для колонки установлено минимальное количество уникальных значений = 4&lt;x2/&gt;
 Со строкой: Точка продажи&lt;x3/&gt;
