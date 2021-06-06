@@ -3116,6 +3116,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Имя столбца&lt;x4/&gt; – идентификатор столбца, под которым он будет обрабатываться в наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T203939Z" creationid="Марианна" creationdate="20210606T203939Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column name&lt;x4/&gt; means the column identifier under which it will be processed in the data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Использовать относительные пути базового пакета&lt;x4/&gt; — данную опцию следует включать в &lt;x5/&gt;Пакете&lt;x6/&gt; с базовым узлом, если у данного узла есть относительные пути на файлы либо предполагается использовать пути в базовых узлах относительно данного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143900Z" creationid="Марианна" creationdate="20200816T143900Z">
@@ -6082,6 +6090,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T073517Z" creationid="Марианна" creationdate="20201208T073227Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Forecast horizon&lt;x3/&gt;&lt;x4/&gt; sets the number of the values that will be forecast and added to the output data set at the end of the source time series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Настройка внешнего разбиения&lt;x3/&gt;&lt;x4/&gt; — появляется, если задан порт &lt;x5/&gt;Внешние диапазоны квантования&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204203Z" creationid="Марианна" creationdate="20210606T204203Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure External Binning&lt;x3/&gt;&lt;x4/&gt; appears if &lt;x5/&gt;External binning bins&lt;x6/&gt; port is set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33602,6 +33618,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки состоит из следующих шагов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204045Z" creationid="Марианна" creationdate="20210606T204045Z">
+        <seg>The wizard includes the following steps:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мастер настройки узла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T195850Z" creationid="Марианна" creationdate="20201210T132542Z">
@@ -34062,6 +34086,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201151Z" creationid="Марианна" creationdate="20200829T200531Z">
         <seg>There are the following items:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Может принимать значения: отсутствует, очень низкая, низкая, средняя, высокая и очень высокая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T204007Z" creationid="Марианна" creationdate="20210606T204007Z">
+        <seg>It can take the folowing values: none, very low, low, mean, high and very high.</seg>
       </tuv>
     </tu>
     <tu>
