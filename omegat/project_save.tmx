@@ -26437,8 +26437,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Восстановление пропусков, когда пропуски образуют отдельную метку интервала квантования или объединяются с соседним, близким по значению WoE-индекса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T173504Z" creationid="Марианна" creationdate="20210606T173504Z">
-        <seg>Null data recovery when null data forms a separate binning interval caption, or it is joined with the nearest one that is close by the coefficient WoE value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T175543Z" creationid="Марианна" creationdate="20210606T173504Z">
+        <seg>Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the coefficient WoE value.</seg>
       </tuv>
     </tu>
     <tu>
