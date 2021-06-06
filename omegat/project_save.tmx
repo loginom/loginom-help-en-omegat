@@ -45120,6 +45120,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Упрощение описания исследуемых объектов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T174302Z" creationid="Марианна" creationdate="20210606T174302Z">
+        <seg>Simplification of description of the objects under study.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Упрощение структуры &lt;x1/&gt;Сценария&lt;x2/&gt; объединением нескольких узлов, выполняющих определенный этап обработки данных, в один узел &lt;x3/&gt;Подмодели&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143141Z" creationid="Марианна" creationdate="20200920T143141Z">
