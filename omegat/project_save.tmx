@@ -28685,6 +28685,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для категориальных признаков верхняя граница обозначается двумя категориями – нижней категорией следующего класса и верхней категорией текущего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T212802Z" creationid="Марианна" creationdate="20210606T212802Z">
+        <seg>The upper bound is denoted by two categories for categorical indicators, namely, the lower category of the next class and the upper category of the current class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для категориальных признаков нижняя граница обозначается двумя категориями – верхней категорией предыдущего класса и нижней категорией текущего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T212645Z" creationid="Марианна" creationdate="20210606T212645Z">
+        <seg>The lower bound is denoted by two categories for categorical indicators, namely, the upper category of the previous class and the lower category of the current class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для классификатора также по умолчанию включен &lt;x1/&gt;Останов при нулевой ошибки классификации&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T092147Z" creationid="Марианна" creationdate="20201223T092147Z">
