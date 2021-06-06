@@ -3132,6 +3132,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Метка столбца&lt;x4/&gt; – мнемоническое обозначение входного столбца, под которым он будет виден пользователю в базе или хранилище данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T203301Z" creationid="Марианна" creationdate="20210606T203301Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column caption&lt;x4/&gt; means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — таблица с импортированными данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154816Z" creationid="Марианна" creationdate="20200824T154816Z">
