@@ -3620,6 +3620,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Число событий&lt;x4/&gt; – количество наблюдений в классе, для которых выходное значение – событие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T205630Z" creationid="Марианна" creationdate="20210606T205630Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Events count&lt;x4/&gt;: count of the observations in the class for which the output value is an event.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Число событий&lt;x4/&gt; – количество событий, попавших в данный класс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210524T123053Z" creationid="Марианна" creationdate="20210524T123053Z">
@@ -29857,6 +29865,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T152751Z" creationid="Марианна" creationdate="20201006T152751Z">
         <seg>If the variable name ends with a digit, in this case, names of these variables are numbered in an ascending order in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если класс включает несколько категорий, то в метке перечисляются все категории, вошедшие в класс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T205526Z" creationid="Марианна" creationdate="20210606T205526Z">
+        <seg>If the class includes several categories, it is required to list all categories included into the class in the caption.</seg>
       </tuv>
     </tu>
     <tu>
