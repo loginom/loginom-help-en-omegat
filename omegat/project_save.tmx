@@ -44116,6 +44116,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сумма частных информационных индексов по каждому классу дает общий информационный индекс признака, по которому определяется его значимость.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T210504Z" creationid="Марианна" creationdate="20210606T210504Z">
+        <seg>The sum of quotients of information values for each class provides the total information value of the indicator by which its significance is defined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Суть такого преобразования заключается в том, что на основе столбца с информацией о дате/времени формируется один или несколько дополнительных столбцов, в которых выделяется определенная информация о дате/времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125648Z" creationid="Марианна" creationdate="20201118T125648Z">
