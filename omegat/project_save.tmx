@@ -3108,6 +3108,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Идентификатор&lt;x4/&gt; – имя столбца, под которым он будет обрабатываться в наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210606T202701Z" creationid="Марианна" creationdate="20210606T202701Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Identifier&lt;x4/&gt; means the column name under which it will be processed in the data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Использовать относительные пути базового пакета&lt;x4/&gt; — данную опцию следует включать в &lt;x5/&gt;Пакете&lt;x6/&gt; с базовым узлом, если у данного узла есть относительные пути на файлы либо предполагается использовать пути в базовых узлах относительно данного &lt;x7/&gt;Пакета&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T143900Z" creationid="Марианна" creationdate="20200816T143900Z">
