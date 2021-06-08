@@ -28589,6 +28589,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для использования внешнего разбиения, таблица должна быть сформирована определенным образом:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T081933Z" creationid="Марианна" creationdate="20210608T081933Z">
+        <seg>To use the external binning, the table must be created in a certain manner:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для их определения и исключения из частых наборов задается:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T195713Z" creationid="Марианна" creationdate="20201208T195713Z">
@@ -45196,6 +45204,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T130421Z" creationid="Марианна" creationdate="20201110T130421Z">
         <seg>Transformation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Требования к внешнему разбиению</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T081524Z" creationid="Марианна" creationdate="20210608T081524Z">
+        <seg>Requirements to the External Binning</seg>
       </tuv>
     </tu>
     <tu>
