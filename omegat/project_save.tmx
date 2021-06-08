@@ -45528,6 +45528,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Уникальные значения поля основного источника данных, которым соответствует внешнее разбиение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T084720Z" creationid="Марианна" creationdate="20210608T084720Z">
+        <seg>Unique values of the main data source fields that map the external binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Упорядоченностью;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T085634Z" creationid="Марианна" creationdate="20210511T085618Z">
