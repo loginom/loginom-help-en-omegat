@@ -28469,6 +28469,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для дискретных данных строка внешнего разбиения соответствует одному уникальному значению поля основного источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T082616Z" creationid="Марианна" creationdate="20210608T082616Z">
+        <seg>In the case of the discrete data, the external binning string maps one unique field value of the main data source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для добавления данного поля следует выставить соответствующий флаг в мастере настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133401Z" creationid="Марианна" creationdate="20201011T103102Z">
