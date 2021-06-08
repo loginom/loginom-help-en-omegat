@@ -28591,8 +28591,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для использования внешнего разбиения, таблица должна быть сформирована определенным образом:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210608T081933Z" creationid="Марианна" creationdate="20210608T081933Z">
-        <seg>To use the external binning, the table must be created in a certain manner:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T081950Z" creationid="Марианна" creationdate="20210608T081933Z">
+        <seg>To use the external binning, it is required to create the table in a certain manner:</seg>
       </tuv>
     </tu>
     <tu>
@@ -28817,6 +28817,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T213852Z" creationid="Марианна" creationdate="20210606T213852Z">
         <seg>For the continuous binning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для непрерывных данных строка внешнего разбиения соответствует одному классу (интервалу) для значений поля основного источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T082436Z" creationid="Марианна" creationdate="20210608T082436Z">
+        <seg>In the case of the continuous data, the external binning string maps one class (interval) for the field values of the main data source.</seg>
       </tuv>
     </tu>
     <tu>
