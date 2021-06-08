@@ -25157,6 +25157,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В таком случае разбиение берется из таблицы, а не рассчитывается алгоритмом на основе текущих данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T081457Z" creationid="Марианна" creationdate="20210608T081457Z">
+        <seg>In this case, the binning is taken from the table, and it is not calculated using the algorithm based on the current data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В тексте SQL-запроса можно использовать &lt;x1/&gt;Управляющие переменные&lt;x2/&gt; в качестве параметров и макроподстановок, что позволяет динамически формировать запрос, отправляемый на сервер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200824T154321Z" creationid="Марианна" creationdate="20200824T154321Z">
@@ -29897,6 +29905,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065253Z" creationid="Марианна" creationdate="20200924T065253Z">
         <seg>If all branches have the "false" value, the special &lt;x1/&gt;Otherwise&lt;x2/&gt; branch will be activated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если входной источник данных содержит настройки разбиения для данного столбца, то в мастере для него выбирается назначение "Входное (внешнее разбиение)".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T081120Z" creationid="Марианна" creationdate="20210608T081120Z">
+        <seg>If the input data source contains binning settings for this column, "Input (external binning)" usage type is selected for it in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
