@@ -44388,6 +44388,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Т.е. по значению текущего столбца отбираются строки, которые определяют внешнее разбиение для поля основного источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T083430Z" creationid="Марианна" creationdate="20210608T083430Z">
+        <seg>Namely, the strings that define the external binning for the main data source field are selected by the current column value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Т.к. модель может работать только с нормализированными данными, то для ее работы необходимо сначала нормализовать данные, которые поступили в модель, а затем провести денормализацию для того, чтобы данные приняли вид, который был до нормализации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T104206Z" creationid="Марианна" creationdate="20201215T104206Z">
