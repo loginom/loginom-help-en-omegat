@@ -25627,6 +25627,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя граница открыта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T084150Z" creationid="Марианна" creationdate="20210608T084150Z">
+        <seg>Upper bound open</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Верхняя часть отображает вкладки открытых пакетов, содержит адресную строку и элементы для навигации по пакетам и их составляющим.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140301Z" creationid="Марианна" creationdate="20200716T140301Z">
@@ -44034,6 +44042,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210608T083605Z" creationid="Марианна" creationdate="20210608T083605Z">
         <seg>Strictly increasing sequence of binning bounds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строго постоянное в рамках разбиения одного поля значение, определяющее тип верхней границы диапазона класса - открытая (не включается) или закрытая (включается)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T084637Z" creationid="Марианна" creationdate="20210608T084637Z">
+        <seg>Strictly constant value within binning of one field that defines the upper class range bound type; whether it is open (not included) or close (included).</seg>
       </tuv>
     </tu>
     <tu>
