@@ -40978,6 +40978,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом число классов рассчитывается на 1 больше, т.к. учитывается класс, включающий значения выше последней границы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T084120Z" creationid="Марианна" creationdate="20210608T084120Z">
+        <seg>In this case, count of classes is calculated with one more class, as it is required to take into account the class that includes the values exceeding the last bound.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом, если замена не будет произведена, то тип не поменяется (за исключением / кроме случая замены вещественного числа на целочисленное).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203029Z" creationid="Марианна" creationdate="20201006T203029Z">
@@ -44018,6 +44026,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T172401Z" creationid="Марианна" creationdate="20210219T172401Z">
         <seg>Arrows enable to increase or decrease the timeout at 100 ms interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Строго возрастающая последовательность границ разбиения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T083605Z" creationid="Марианна" creationdate="20210608T083605Z">
+        <seg>Strictly increasing sequence of binning bounds.</seg>
       </tuv>
     </tu>
     <tu>
