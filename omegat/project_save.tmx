@@ -25149,6 +25149,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В таблице представлено описание столбцов, которые должны содержаться во внешнем разбиении для непрерывного и дискретного разбиения соответственно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210608T082956Z" creationid="Марианна" creationdate="20210608T082956Z">
+        <seg>The columns that must be included into the external binning for the continuous and discrete binning correspondingly are described in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В таком случае данные поступают в основной алгоритм без предварительной обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210428T144108Z" creationid="Марианна" creationdate="20210428T144108Z">
