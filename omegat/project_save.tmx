@@ -5308,6 +5308,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Скрыть боковую панель&lt;x4/&gt; — нажатие на кнопку скрывает панель со списком входных столбцов, повторное нажатие возвращает панель;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210621T083006Z" creationid="Марианна" creationdate="20210621T083006Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Hide side bar&lt;x4/&gt;: press this button to hide the bar with a list of input columns, press it again to return the bar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Снять выделение со всех&lt;x4/&gt; – снимает выделение со всех узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165618Z" creationid="Марианна" creationdate="20201001T165618Z">
