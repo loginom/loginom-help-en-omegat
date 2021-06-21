@@ -34530,6 +34530,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На панели инструментов доступны следующие команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210621T082619Z" creationid="Марианна" creationdate="20210621T082619Z">
+        <seg>The following commands are available on the toolbar:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На панели расположены кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T171958Z" creationid="Марианна" creationdate="20201005T170523Z">
