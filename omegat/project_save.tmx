@@ -28829,6 +28829,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для начала оценки и корректировки результатов формирования начальных и конечных классов необходимо нажать на кнопку &lt;x1/&gt;Активировать&lt;x2/&gt;, расположенную справа от поля &lt;x3/&gt;Состояние входа&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210621T081830Z" creationid="Марианна" creationdate="20210621T081830Z">
+        <seg>To start assessment and adjustment of results of fine and coarse classes generation, it is required to press &lt;x1/&gt;Activate&lt;x2/&gt; button that is located to the right from &lt;x3/&gt;Input status&lt;x4/&gt; field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075157Z" creationid="Марианна" creationdate="20200816T140233Z">
