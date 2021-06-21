@@ -28405,6 +28405,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для включения режима редактирования используется кнопка &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Редактировать разбиение&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210621T081945Z" creationid="Марианна" creationdate="20210621T081945Z">
+        <seg>To enable the editing mode, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Edit binning&lt;x8/&gt; button is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для всех моделей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114741Z" creationid="Марианна" creationdate="20201214T114741Z">
@@ -46660,6 +46668,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T195322Z" creationid="Марианна" creationdate="20200929T195310Z">
         <seg>To reset the filter or search settings, it is required to use &lt;x1/&gt;Clean&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы сохранить внесенные изменения необходимо нажать кнопку &lt;x9/&gt;Применить&lt;x10/&gt;, если изменения настроек сохранять не требуется, то — &lt;x11/&gt;Отменить&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210621T082354Z" creationid="Марианна" creationdate="20210621T082354Z">
+        <seg>To save introduced changes, it is required to press &lt;x9/&gt;Apply&lt;x10/&gt; button if it is not required to save changed settings, press &lt;x11/&gt;Cancell&lt;x12/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
