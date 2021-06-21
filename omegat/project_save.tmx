@@ -35246,6 +35246,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка конечных классов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210621T075918Z" creationid="Марианна" creationdate="20210621T075918Z">
+        <seg>Configure Coarse Classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка линейной регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102008Z" creationid="Марианна" creationdate="20201215T102008Z">
