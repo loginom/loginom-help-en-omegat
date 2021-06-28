@@ -15924,6 +15924,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разбить по границе&lt;x2/&gt; — установка новой дополнительной границы, а значит увеличение числа конечных классов на 1 (операция обратная командам &lt;x3/&gt;Объединить со следующим/Объединить с предыдущим&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T083638Z" creationid="Марианна" creationdate="20210628T083638Z">
+        <seg>&lt;x1/&gt;Bound split&lt;x2/&gt;: enables to set the new additional bound and, thus, increase the coarse classes count by 1 (this operation is opposed to &lt;x3/&gt;Merge with next/Merge with previous&lt;x4/&gt; commands).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — в текущем примере это детализация продаж товаров, измеряемая в тыс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114722Z" creationid="Марианна" creationdate="20201124T114520Z">
