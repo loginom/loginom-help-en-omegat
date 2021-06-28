@@ -16052,6 +16052,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разморозить выбранные&lt;x2/&gt; — изменить статус поля на &lt;x3/&gt;Разморожено&lt;x4/&gt; (т.е. поле может быть использовано в процессе формирования конечных классов при переобучении), команда также доступна при нажатии на кнопку &lt;x5/&gt;Разморожено&lt;x6/&gt; слева от каждого входного столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T084424Z" creationid="Марианна" creationdate="20210628T084424Z">
+        <seg>&lt;x1/&gt;Unlock selected&lt;x2/&gt;: enables to change the field status to &lt;x3/&gt;Unlocked&lt;x4/&gt; (thus, the field can be used in the process of the coarse classes generation while retraining). The command is also available by pressing &lt;x5/&gt;Unlocked&lt;x6/&gt; button to the left of each input column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разность&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192700Z" creationid="Марианна" creationdate="20200810T192700Z">
@@ -29225,6 +29233,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064223Z" creationid="Марианна" creationdate="20201116T064223Z">
         <seg>The tabulation character is used to separate the columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для редактирования доступны следующие параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T084508Z" creationid="Марианна" creationdate="20210628T084508Z">
+        <seg>The following parameters can be edited:</seg>
       </tuv>
     </tu>
     <tu>
