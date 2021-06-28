@@ -11593,6 +11593,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Конечные классы&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T084520Z" creationid="Марианна" creationdate="20210628T084520Z">
+        <seg>&lt;x1/&gt; Coarse сlasses&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Консоль отладки кода&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054600Z" creationid="Марианна" creationdate="20200812T054600Z">
@@ -33874,6 +33882,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальное количество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T084559Z" creationid="Марианна" creationdate="20210628T084559Z">
+        <seg>Maximum count.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Максимальное число кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133620Z" creationid="Марианна" creationdate="20201210T133620Z">
@@ -34310,6 +34326,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T204308Z" creationid="Марианна" creationdate="20210528T204308Z">
         <seg>Minimum class weight, %.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимальный вес, %.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T084535Z" creationid="Марианна" creationdate="20210628T084535Z">
+        <seg>Minimum weight, %.</seg>
       </tuv>
     </tu>
     <tu>
