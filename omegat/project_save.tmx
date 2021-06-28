@@ -5286,8 +5286,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать разбиение&lt;x4/&gt; — при нажатии на кнопку становятся доступны поля для редактирования параметров конечных классов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210628T075317Z" creationid="Марианна" creationdate="20210628T075317Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit binning&lt;x4/&gt;: </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T075702Z" creationid="Марианна" creationdate="20210628T075317Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit binning&lt;x4/&gt;: the fields used for editing of the coarse classes parameters become available by pressing this button.</seg>
       </tuv>
     </tu>
     <tu>
