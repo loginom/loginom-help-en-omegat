@@ -1,23 +1,23 @@
 # Configure External Binning
 
-Данная настройка необходима в том случае, когда задан порт Внешние диапазоны квантования, т.е. в узел Конечные классы подается внешнее разбиение в виде таблицы. Если входной источник данных содержит настройки разбиения для данного столбца, то в мастере для него выбирается назначение "Входное (внешнее разбиение)". В таком случае разбиение берется из таблицы, а не рассчитывается алгоритмом на основе текущих данных.
+This option is required when External binning bins port is set, namely, the external binning is supplied to tho the Coarse Classes node in the table form. If the input data source contains binning settings for this column, "Input (external binning)" usage type is selected for it in the wizard. In this case, the binning is taken from the table, and it is not calculated using the algorithm based on the current data.
 
-## Требования к внешнему разбиению
+## Requirements to the External Binning
 
-Для использования внешнего разбиения, таблица должна быть сформирована определенным образом:
+To use the external binning, it is required to create the table in a certain manner:
 
-* Для непрерывных данных строка внешнего разбиения соответствует одному классу (интервалу) для значений поля основного источника данных.
+* In the case of the continuous data, the external binning string maps one class (interval) for the field values of the main data source.
 
-* Для дискретных данных строка внешнего разбиения соответствует одному уникальному значению поля основного источника данных.
+* In the case of the discrete data, the external binning string maps one unique field value of the main data source.
 
-В таблице представлено описание столбцов, которые должны содержаться во внешнем разбиении для непрерывного и дискретного разбиения соответственно:
+The columns that must be included into the external binning for the continuous and discrete binning correspondingly are described in the table:
 
-| Column usage type | Имя столбца для автонастройки | Data type | For the continuous binning | For the discrete binning | Description |
+| Column usage type | Column name for auto setup | Data type | For the continuous binning | For the discrete binning | Description |
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| Column name | ColumnName | String | + | + | Имя поля основного источника данных, к которому относится внешнее разбиение. Т.е. по значению текущего столбца отбираются строки, которые определяют внешнее разбиение для поля основного источника данных. |
-| Upper bound | UpperBound | Real/integer | + | - | Строго возрастающая последовательность границ разбиения. При этом число классов рассчитывается на 1 больше, т.к. учитывается класс, включающий значения выше последней границы. |
-| Верхняя граница открыта | IncludeUpperBound | Binary | + | - | Строго постоянное в рамках разбиения одного поля значение, определяющее тип верхней границы диапазона класса - открытая (не включается) или закрытая (включается) |
-| Unique value | UniqueValue | Any (valid) | - | + | Уникальные значения поля основного источника данных, которым соответствует внешнее разбиение |
+| Column name | ColumnName | String | + | + | Field name of the main data source to which the external binning relates. Namely, the strings that define the external binning for the main data source field are selected by the current column value. |
+| Upper bound | UpperBound | Real/integer | + | - | Strictly increasing sequence of binning bounds. In this case, count of classes is calculated with one more class, as it is required to take into account the class that includes the values exceeding the last bound. |
+| Upper bound open | IncludeUpperBound | Binary | + | - | Strictly constant value within binning of one field that defines the upper class range bound type; whether it is open (not included) or close (included). |
+| Unique value | UniqueValue | Any (valid) | - | + | Unique values of the main data source fields that map the external binning |
 | Class number | ClassNumber | Integer | - | + | The class number that meets the unique value |
 
 ### Example of the external binning table
