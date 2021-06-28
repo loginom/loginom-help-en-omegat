@@ -5302,8 +5302,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Показать таблицу конечных классов&lt;x4/&gt; — область конечных классов будет представлена в виде таблицы (можно также вызвать начатием клавиш &lt;x5/&gt;Alt+One&lt;x6/&gt;);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210628T082628Z" creationid="Марианна" creationdate="20210628T082628Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show coarse class table&lt;x4/&gt;: the coarse classe area will be represented in the table form (it can be also called by pressing &lt;x5/&gt;Alt+One&lt;x6/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T082822Z" creationid="Марианна" creationdate="20210628T082628Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show coarse class table&lt;x4/&gt;: the coarse class area will be represented in the table form (it can be also called by pressing &lt;x5/&gt;Alt+One&lt;x6/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -26747,6 +26747,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все перечисленные команды доступны и в контекстном меню (правая кнопка мыши).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T082946Z" creationid="Марианна" creationdate="20210628T082946Z">
+        <seg>All listed commands are also available in the contex menu (the right mouse button).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все поля исходного набора данных, независимо от назначения поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T224436Z" creationid="Марианна" creationdate="20201217T224436Z">
@@ -33562,6 +33570,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T201842Z" creationid="Марианна" creationdate="20200921T201842Z">
         <seg>The division criterion is governed by the "Type of group processing" parameter:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кроме них в контекстном меню доступны команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T083022Z" creationid="Марианна" creationdate="20210628T083022Z">
+        <seg>Besides, the following commands are also available in the context menu:</seg>
       </tuv>
     </tu>
     <tu>
