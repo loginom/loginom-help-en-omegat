@@ -23979,6 +23979,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;x1/&gt;Списке входных столбцов&lt;x2/&gt; можно сортировать и фильтровать записи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T085955Z" creationid="Марианна" creationdate="20210628T085955Z">
+        <seg>It is possible to sort and filter records in the &lt;x1/&gt;List of input columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Desktop версии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090502Z" creationid="Марианна" creationdate="20201102T090502Z">
@@ -29593,6 +29601,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T131805Z" creationid="Марианна" creationdate="20201118T131805Z">
         <seg>In order to do that, it is required to press header of the column with the number of transformations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого нужно открыть выпадающее меню, нажав кнопку &lt;x3/&gt;Открыть выпадающее меню&lt;x4/&gt;, которая появляется при наведении курсора на заголовок Столбец или IV.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T090256Z" creationid="Марианна" creationdate="20210628T090256Z">
+        <seg>For this purpose, it is required to open pop-down menu by pressing &lt;x3/&gt;Open pop-down menu&lt;x4/&gt; button that appears when cursor hovering over Column or IV caption.</seg>
       </tuv>
     </tu>
     <tu>
