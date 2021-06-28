@@ -10481,6 +10481,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заморозить выбранные&lt;x2/&gt; — изменить статус поля на &lt;x3/&gt;Заморожено&lt;x4/&gt; (т.е. поле не будет использоваться при переобучении), команда также доступна при нажатии на кнопку &lt;x5/&gt;Заморожено&lt;x6/&gt; слева от каждого входного столбца;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T084128Z" creationid="Марианна" creationdate="20210628T084128Z">
+        <seg>&lt;x1/&gt;Lock selected&lt;x2/&gt;: enables to change the field status to &lt;x3/&gt;Locked&lt;x4/&gt; (thus, the field will not be used during retraining). The command is also available by pressing &lt;x5/&gt;Locked&lt;x6/&gt; button to the left of each input column. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Записывать Byte Order Mark&lt;x2/&gt; — записывать &lt;x3/&gt;маркер последовательности байтов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T085948Z" creationid="Марианна" creationdate="20200918T085702Z">
