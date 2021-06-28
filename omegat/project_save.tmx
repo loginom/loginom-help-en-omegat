@@ -33842,6 +33842,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Любые внесенные изменения немедленно отражаются на диаграмме и в таблице детализации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T085825Z" creationid="Марианна" creationdate="20210628T085825Z">
+        <seg>Any introduced changes are immediately displayed in the chart and detailing table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Макароны</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113037Z" creationid="Марианна" creationdate="20201011T113037Z">
