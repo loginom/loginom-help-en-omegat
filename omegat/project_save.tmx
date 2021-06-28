@@ -13457,6 +13457,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Оптимизация&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T085623Z" creationid="Марианна" creationdate="20210628T085623Z">
+        <seg>&lt;x1/&gt;Optimization&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Опубликован&lt;x2/&gt; — указывает, был ли опубликован &lt;x3/&gt;Пакет&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T133741Z" creationid="Марианна" creationdate="20200816T133741Z">
