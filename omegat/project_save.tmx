@@ -5292,6 +5292,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Показать диаграммы конечных классов&lt;x4/&gt; — область конечных классов будет представлена в виде диаграмм (&lt;x5/&gt;Alt+Two&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T082818Z" creationid="Марианна" creationdate="20210628T082818Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show coarse class charts&lt;x4/&gt;: the coarse class area will be represented in the chart form (&lt;x5/&gt;Alt+Two&lt;x6/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Показать таблицу конечных классов&lt;x4/&gt; — область конечных классов будет представлена в виде таблицы (можно также вызвать начатием клавиш &lt;x5/&gt;Alt+One&lt;x6/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T082628Z" creationid="Марианна" creationdate="20210628T082628Z">
