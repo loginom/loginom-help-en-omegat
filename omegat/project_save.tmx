@@ -5284,6 +5284,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать разбиение&lt;x4/&gt; — при нажатии на кнопку становятся доступны поля для редактирования параметров конечных классов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T075317Z" creationid="Марианна" creationdate="20210628T075317Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit binning&lt;x4/&gt;: </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать...&lt;x4/&gt; — позволяет вызвать окно редактирования и изменить значения полей для выбранного узла (команду также можно вызвать горячей клавишей &lt;x5/&gt;F2&lt;x6/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075245Z" creationid="Марианна" creationdate="20201001T115303Z">
