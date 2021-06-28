@@ -39810,6 +39810,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После нажатия на кнопку &lt;x3/&gt;Рассчитать&lt;x4/&gt; пересчитываются показатели в соответствии с выбранным количеством классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T085611Z" creationid="Марианна" creationdate="20210628T085611Z">
+        <seg>Upon pressing &lt;x3/&gt;Calculate&lt;x4/&gt; button, the parameters are recalculated according to the selected count of classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После настройки и выполнения узла группировки в выходном порту содержатся данные об итоговых суммах покупок клиентов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T105856Z" creationid="Марианна" creationdate="20200717T105856Z">
