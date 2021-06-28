@@ -5236,6 +5236,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Объединить со следующим&lt;x4/&gt; — объединяет конечный класс, выделенный на диаграмме или в таблице детализации, с последующим (расположенным правее) классом (кнопка доступна в режиме редактирования разбиения);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210628T080538Z" creationid="Марианна" creationdate="20210628T080538Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Merge with next&lt;x4/&gt;: enables to merge the coarse class selected in the chart or detailing table with the next (located more to the right) class (the button is available in the binning editing mode).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отменить выполнение всех процессов...&lt;x4/&gt; — останавливает выполнение всех процессов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073043Z" creationid="Марианна" creationdate="20200817T073043Z">
