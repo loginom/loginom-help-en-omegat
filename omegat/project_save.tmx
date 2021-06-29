@@ -14673,6 +14673,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — содержит поля исходного набора данных, к которым применима процедура квантования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T200755Z" creationid="Марианна" creationdate="20210629T200755Z">
+        <seg>&lt;x1/&gt;Field&lt;x2/&gt;: contains the initial data set fields to which the binning procedure can be applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — содержит список всех переменных, столбцов таблиц и указатель записей таблиц, поданных на входные порты компонента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T075014Z" creationid="Марианна" creationdate="20200924T075014Z">
