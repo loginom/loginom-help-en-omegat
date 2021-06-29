@@ -42822,6 +42822,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Результирующий набор состоит из столбцов исходного набора данных и столбцов, рассчитанных обработчиком, их описание приведено в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T203643Z" creationid="Марианна" creationdate="20210629T203643Z">
+        <seg>The resulting data set consists of the source data set columns and the columns calcualted by the handler. Their description is provided in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рекомендуется в качестве события всегда назначать редкий класс (такой вариант предлагается по умолчанию).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T204158Z" creationid="Марианна" creationdate="20210528T204158Z">
@@ -44688,6 +44696,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T083939Z" creationid="Марианна" creationdate="20201224T083939Z">
         <seg>The structure is selected for all three parameters at once (number of layers, number of neurons) using the "hill climbing" method from the set or selected starting point.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структура результирующего набора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T203510Z" creationid="Марианна" creationdate="20210629T203510Z">
+        <seg>Resulting Data Set Structure</seg>
       </tuv>
     </tu>
     <tu>
