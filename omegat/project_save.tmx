@@ -8912,6 +8912,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Верхняя&lt;x2/&gt; — верхняя граница интервала;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202307Z" creationid="Марианна" creationdate="20210629T202307Z">
+        <seg>&lt;x1/&gt;Upper&lt;x2/&gt; — upper interval bound;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Весь лист&lt;x2/&gt; — область листа, содержащего данные для импорта, определяется автоматически.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T184032Z" creationid="Марианна" creationdate="20200825T184032Z">
@@ -12241,6 +12249,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — метка интервала (ее можно задавать шаблоном);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202340Z" creationid="Марианна" creationdate="20210629T202340Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; — Bin caption (it can be set using a template);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — метка переменной в выходном наборе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T195824Z" creationid="Марианна" creationdate="20201004T195824Z">
@@ -13037,6 +13053,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070056Z" creationid="Марианна" creationdate="20201126T070056Z">
         <seg>&lt;x1/&gt;Lower bound 95% CI&lt;x2/&gt;: the lower bound of 95% confidence interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нижняя&lt;x2/&gt; — нижняя граница интервала;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202426Z" creationid="Марианна" creationdate="20210629T202426Z">
+        <seg>&lt;x1/&gt;Lower&lt;x2/&gt; — lower interval bound;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17604,6 +17628,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — тип границы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202410Z" creationid="Марианна" creationdate="20210629T202410Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt; — bound type;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — тоже что и &lt;x3/&gt;Тип&lt;x4/&gt; в &lt;x5/&gt;Доступных элементах&lt;x6/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201831Z" creationid="Марианна" creationdate="20200829T201831Z">
@@ -18824,6 +18856,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T134331Z" creationid="Марианна" creationdate="20201011T103618Z">
         <seg>&lt;x1/&gt;Frequency&lt;x2/&gt; is recommended in the case of the large lag count processing to speed up the calculation process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;№&lt;x2/&gt; — номер интервала;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202531Z" creationid="Марианна" creationdate="20210629T202531Z">
+        <seg>&lt;x1/&gt;No&lt;x2/&gt; — bin number;</seg>
       </tuv>
     </tu>
     <tu>
