@@ -12329,6 +12329,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод сэмплинга&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T203318Z" creationid="Марианна" creationdate="20210629T203318Z">
+        <seg>&lt;x1/&gt;Sampling Method&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метод сэмплинга&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T210403Z" creationid="Марианна" creationdate="20210601T210403Z">
@@ -20240,6 +20248,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T141051Z" creationid="Марианна" creationdate="20210405T141051Z">
         <seg>MovingAverage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>N может принимать любые положительные значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T203359Z" creationid="Марианна" creationdate="20210629T203359Z">
+        <seg>N can take any positive values.</seg>
       </tuv>
     </tu>
     <tu>
