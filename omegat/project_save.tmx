@@ -34050,6 +34050,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки состоит из двух основных областей:  область настройки параметров квантования  и область  отображения результатов квантования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T195211Z" creationid="Марианна" creationdate="20210629T195211Z">
+        <seg>The wizard consists of two main areas: area of binning parameters configuration and area of binning results display.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мастер настройки состоит из следующих шагов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T204045Z" creationid="Марианна" creationdate="20210606T204045Z">
@@ -36494,6 +36502,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T143132Z" creationid="Марианна" creationdate="20201215T143132Z">
         <seg>Both regularizers help to improve generalization and errors of test as they protect the model against overfitting in connection with data noise:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обе области организованы в виде таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T195354Z" creationid="Марианна" creationdate="20210629T195354Z">
+        <seg>Both areas are organized in the table form.</seg>
       </tuv>
     </tu>
     <tu>
