@@ -4276,6 +4276,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Увеличить разрядность — каждое нажатие кнопки увеличит разрядность границ интервалов на один знак после запятой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T200602Z" creationid="Марианна" creationdate="20210629T200602Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Increase decimal: each button pressing increases bitness of interval bounds by one decimal place.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Уменьшить разрядность — каждое нажатие кнопки уменьшит разрядность границ интервалов на один знак после запятой;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T200516Z" creationid="Марианна" creationdate="20210629T200516Z">
@@ -44808,6 +44816,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212350Z" creationid="Марианна" creationdate="20201012T212350Z">
         <seg>Table of factors:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица этой области состоит из нескольких столбцов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T200646Z" creationid="Марианна" creationdate="20210629T200646Z">
+        <seg>The area table consists of several columns:</seg>
       </tuv>
     </tu>
     <tu>
