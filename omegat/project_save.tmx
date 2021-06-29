@@ -34986,6 +34986,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Над ними располагается строка состояния входа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T195439Z" creationid="Марианна" creationdate="20210629T195439Z">
+        <seg>Login status row is located below them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Над списком доступных полей расположено поле &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Фильтрация&lt;x20/&gt;, оно позволяет найти поле по имени или его части.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T202759Z" creationid="Марианна" creationdate="20201023T202759Z">
@@ -36518,6 +36526,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162642Z" creationid="Марианна" creationdate="20201005T162642Z">
         <seg>The Expression Code Area</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область настройки параметров квантования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T195520Z" creationid="Марианна" creationdate="20210629T195520Z">
+        <seg>Area of Binning Parameters Configuration</seg>
       </tuv>
     </tu>
     <tu>
