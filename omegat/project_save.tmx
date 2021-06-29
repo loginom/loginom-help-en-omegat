@@ -13353,6 +13353,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Общее число записей&lt;x2/&gt; — число записей таблицы входного источника данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T204201Z" creationid="Марианна" creationdate="20210629T204201Z">
+        <seg>&lt;x1/&gt;Total records&lt;x2/&gt; denote the records count of the input data source table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Общие настройки&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065705Z" creationid="Марианна" creationdate="20200812T065705Z">
@@ -35298,6 +35306,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T201357Z" creationid="Марианна" creationdate="20210208T201357Z">
         <seg>For example, authorization via social networks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, в "Отбор со смещением" нужны данные из входного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T204004Z" creationid="Марианна" creationdate="20210629T204004Z">
+        <seg>For example, the data from the input data set is required in "Biased sampling".</seg>
       </tuv>
     </tu>
     <tu>
