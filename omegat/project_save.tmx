@@ -27547,6 +27547,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выставив соответствующие флаги, можно задать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T204706Z" creationid="Марианна" creationdate="20210629T204706Z">
+        <seg>The following parameters can be set by selecting corresponding checkboxes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выход</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062723Z" creationid="Марианна" creationdate="20200826T062723Z">
