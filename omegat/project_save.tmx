@@ -29685,6 +29685,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого метода так же можно задать верхнюю и нижнюю границы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T204928Z" creationid="Марианна" creationdate="20210629T204928Z">
+        <seg>Upper and lower bounds can be also set for this method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого можно воспользоваться горячей клавишей &lt;x1/&gt;F2&lt;x2/&gt;, предварительно выделив нужный узел.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075207Z" creationid="Марианна" creationdate="20200929T121758Z">
