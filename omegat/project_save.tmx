@@ -32806,6 +32806,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Квантование применяется к данным с типами: целый, вещественный и дата/время (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T192129Z" creationid="Марианна" creationdate="20210629T192129Z">
+        <seg>Binning is used for the following data types: integer, real and data/time (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Квота верхней границы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201852Z" creationid="Марианна" creationdate="20210601T201852Z">
@@ -36806,6 +36814,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T130237Z" creationid="Марианна" creationdate="20201210T130237Z">
         <seg>The handler performs clustering of objects on the basis of &lt;x1/&gt;k-means and g-means&lt;x2/&gt; algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик разбивает диапазон значений выбранных полей исходного набора на конечное число интервалов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T192634Z" creationid="Марианна" creationdate="20210629T192634Z">
+        <seg>The handler bins values range of the selected fields of the source data set to the final interval count.</seg>
       </tuv>
     </tu>
     <tu>
