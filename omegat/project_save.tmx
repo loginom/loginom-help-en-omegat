@@ -12329,6 +12329,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод&lt;x2/&gt; — поле представлено раскрывающимся списком, из которого необходимо выбрать метод квантования:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T201659Z" creationid="Марианна" creationdate="20210629T201659Z">
+        <seg>&lt;x1/&gt;Method&lt;x2/&gt;: the field is represented by the drop-down list to select a binning method:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Методом Drag-and-drop&lt;x2/&gt; — перетащить метку поля на элемент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163831Z" creationid="Марианна" creationdate="20200918T095141Z">
