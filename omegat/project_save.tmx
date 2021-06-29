@@ -18788,6 +18788,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;Описание структуры&lt;x4/&gt; результирующего набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T160411Z" creationid="Марианна" creationdate="20210629T160411Z">
+        <seg>&lt;x3/&gt;Description of structure&lt;x4/&gt; of resulting data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;Полное описание API&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144419Z" creationid="Марианна" creationdate="20201102T144419Z">
