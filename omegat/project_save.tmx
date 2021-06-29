@@ -16908,6 +16908,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Состояние входа&lt;x2/&gt; — при активном состоянии позволяет использовать входные данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T203309Z" creationid="Марианна" creationdate="20210629T203309Z">
+        <seg>&lt;x1/&gt;Login status&lt;x2/&gt;: it enables to use the input data when the status is active.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Состояние входа&lt;x2/&gt; — строка состояния входа &lt;x3/&gt;Источник данных&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161300Z" creationid="Марианна" creationdate="20200917T161300Z">
