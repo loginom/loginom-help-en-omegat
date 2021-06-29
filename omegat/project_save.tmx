@@ -40594,6 +40594,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При выборе метода открывается поле его параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T204300Z" creationid="Марианна" creationdate="20210629T204300Z">
+        <seg>When selecting a method, the field with its parameters is opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При выборе нескольких вариантов функций, каждая из них будет рассчитана в отдельном столбце.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T082052Z" creationid="Марианна" creationdate="20201023T082052Z">
