@@ -47064,6 +47064,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ширина — пользователь может выбирать ширину интервала, а количество интервалов рассчитывается автоматически, как отношение разности верхней и нижней границ к заданной ширине.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202205Z" creationid="Марианна" creationdate="20210629T202205Z">
+        <seg>Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds and the set width.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Широкое применение линейной регрессии обусловлено тем, что большое количество реальных процессов в науке, экономике и бизнесе можно описать линейными моделями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T202434Z" creationid="Марианна" creationdate="20201214T074130Z">
