@@ -34994,6 +34994,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Над полями расположены три кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T195922Z" creationid="Марианна" creationdate="20210629T195922Z">
+        <seg>Three buttons are located over the fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Над списком доступных полей расположено поле &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Фильтрация&lt;x20/&gt;, оно позволяет найти поле по имени или его части.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T202759Z" creationid="Марианна" creationdate="20201023T202759Z">
@@ -36574,6 +36582,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194326Z" creationid="Марианна" creationdate="20201004T194326Z">
         <seg>The area is designated for entry of &lt;x1/&gt;expressions&lt;x2/&gt;, namely, calculated variables to be added to the output data set as the result of processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область представлена в виде таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T195811Z" creationid="Марианна" creationdate="20210629T195811Z">
+        <seg>The area is represented in the table form.</seg>
       </tuv>
     </tu>
     <tu>
