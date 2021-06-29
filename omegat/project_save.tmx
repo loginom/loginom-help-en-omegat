@@ -47528,6 +47528,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>далее методы квантования), а также использование &lt;x1/&gt;внешних таблиц&lt;x2/&gt; с заданными интервалами квантования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T191958Z" creationid="Марианна" creationdate="20210629T191958Z">
+        <seg>binning methods further), and &lt;x1/&gt;external tables&lt;x2/&gt; with the set binning ranges can be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>далее).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203102Z" creationid="Марианна" creationdate="20200829T203102Z">
