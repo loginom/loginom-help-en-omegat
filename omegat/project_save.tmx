@@ -9041,6 +9041,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Внешние диапазоны.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202705Z" creationid="Марианна" creationdate="20210629T202705Z">
+        <seg>&lt;x1/&gt;External ranges.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внешние диапазоны&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055150Z" creationid="Марианна" creationdate="20200812T055150Z">
@@ -36606,6 +36614,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T195354Z" creationid="Марианна" creationdate="20210629T195354Z">
         <seg>Both areas are organized in the table form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область  отображения результатов квантования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T202740Z" creationid="Марианна" creationdate="20210629T202740Z">
+        <seg>Area of Binning Results Display</seg>
       </tuv>
     </tu>
     <tu>
