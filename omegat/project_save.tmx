@@ -18804,6 +18804,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;Описание структуры&lt;x4/&gt; таблицы диапазонов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T190825Z" creationid="Марианна" creationdate="20210629T190825Z">
+        <seg>&lt;x3/&gt;Description of Structure&lt;x4/&gt; of Range Table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;Полное описание API&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T144419Z" creationid="Марианна" creationdate="20201102T144419Z">
@@ -29265,6 +29273,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200710T150901Z" creationid="Марианна" creationdate="20200710T150901Z">
         <seg>It is required to perform several preparatory actions to start the work with data from any database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для разбиения возможно применение различных алгоритмов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T191024Z" creationid="Марианна" creationdate="20210629T191024Z">
+        <seg>Different algorithms can be used for binning (refer to</seg>
       </tuv>
     </tu>
     <tu>
