@@ -2,7 +2,7 @@
 
 ## Description
 
-Обработчик разбивает диапазон значений выбранных полей исходного набора на конечное число интервалов. Для разбиения возможно применение различных алгоритмов (см. далее методы квантования), а также использование [внешних таблиц](./quantization/outdoor-ranges.md) с заданными интервалами квантования. Квантование применяется к данным с типами: целый, вещественный и дата/время (см. [data types](../../data/datatype.md)).
+The handler bins values range of the selected fields of the source data set to the final interval count. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./quantization/outdoor-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and data/time (refer to [data types](../../data/datatype.md)).
 
 ### Input
 
@@ -11,26 +11,26 @@
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). [Описание структуры](./quantization/calculated-columns.md) результирующего набора.
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Диапазоны для квантования (таблица данных). [Описание структуры](./quantization/ranges-quantization.md) таблицы диапазонов.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). [Description of structure](./quantization/calculated-columns.md) of resulting data set.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Binning ranges (data table). [Description of Structure](./quantization/ranges-quantization.md) of Range Table.
 
 ## Wizard
 
-Мастер настройки состоит из двух основных областей:  область настройки параметров квантования  и область  отображения результатов квантования. Обе области организованы в виде таблицы. Над ними располагается строка состояния входа.
+The wizard consists of two main areas: area of binning parameters configuration and area of binning results display. Both areas are organized in the table form. Login status row is located below them.
 
-### Область настройки параметров квантования
+### Area of Binning Parameters Configuration
 
-Область представлена в виде таблицы. Над полями расположены три кнопки:
+The area is represented in the table form. Three buttons are located over the fields:
 
-* ![ ](../../images/icons/toolbar-controls/edit_default.svg) Редактировать — при нажатии позволяет редактировать параметры квантования для выбранного поля;
-* ![ ](../../images/icons/toolbar-controls/dec-decimal-places-count_default.svg) Уменьшить разрядность — каждое нажатие кнопки уменьшит разрядность границ интервалов на один знак после запятой;
-* ![ ](../../images/icons/toolbar-controls/inc-decimal-places-count_default.svg) Увеличить разрядность — каждое нажатие кнопки увеличит разрядность границ интервалов на один знак после запятой.
+* ![ ](../../images/icons/toolbar-controls/edit_default.svg) Edit: when pressing, it enables to edit the binning parameters for the selected field.
+* ![ ](../../images/icons/toolbar-controls/dec-decimal-places-count_default.svg) Decrease decimal: each button pressing decreases bitness of interval bounds by one decimal place.
+* ![ ](../../images/icons/toolbar-controls/inc-decimal-places-count_default.svg) Increase decimal: each button pressing increases bitness of interval bounds by one decimal place.
 
-Таблица этой области состоит из нескольких столбцов:
+The area table consists of several columns:
 
-* **Поле** — содержит поля исходного набора данных, к которым применима процедура квантования. Это поля типа: целый, вещественный,  дата/время.
-* **Метод** — поле представлено раскрывающимся списком, из которого необходимо выбрать метод квантования:
-   * Ширина — пользователь может выбирать ширину интервала, а количество интервалов рассчитывается автоматически, как отношение разности верхней и нижней границ к заданной ширине. Выставив соответствующие флаги, можно задать:
+* **Field**: contains the initial data set fields to which the binning procedure can be applied. The following field types are used: integer, real, data/time.
+* **Method**: the field is represented by the drop-down list to select a binning method:
+   * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds and the set width. Выставив соответствующие флаги, можно задать:
       * Верхнюю границу — верхняя граница самого высокого интервала;
       * Нижнюю границу — нижняя граница самого высокого интервала.
    * Количество — выбирается количество интервалов, а ширина рассчитывается автоматически, как отношение разности верхней и нижней границ к заданному количеству интервалов. Для этого метода так же можно задать верхнюю и нижнюю границы.
@@ -41,7 +41,7 @@
       * Оставить как есть — границы всех интервалов будут иметь тип **>=**, и возможна ситуация, когда совпадающие значения окажутся в разных интервалах.
       * Одинаковые плитки — достижение равного количества значений в интервалах обеспечивается не только подбором диапазонов интервалов, но и подбором типов границ для каждого интервала (**>** или **>=**).
    * [Коэффициенты СКО](https://wiki.loginom.ru/articles/mean-square-deviation.html) — разбивает значения на интервалы в зависимости от выбранного диапазона, выраженного в количестве **σ** (СКО).
-   * [Внешние диапазоны.](./quantization/outdoor-ranges.md)
+   * [External ranges.](./quantization/outdoor-ranges.md)
 
       Для всех методов квантования можно установить флаг *Округлять границы*.
 * **Автоматически** — установленная галочка в этом поле обеспечивает автоматическую настройку параметров квантования выбранного метода.
@@ -51,7 +51,7 @@
 
 Далее в каждой строке  располагается кнопка ![ ](../../images/icons/toolbar-controls/refresh_default.svg)"рассчитать интервалы" и в шапке таблицы ![ ](../../images/icons/toolbar-controls/refresh_default.svg)"рассчитать все интервалы". При их нажатии пересчитываются параметры квантования (количество интервалов, минимум, максимум) в зависимости от изменения методов и/или настроек параметров. Этот функционал доступен только при состоянии "Вход активирован".
 
-### Область  отображения результатов квантования
+### Area of Binning Results Display
 
 В этой области отображаются результаты квантования с возможностью их редактирования.  
 Над полями таблицы расположены несколько элементов управления:
@@ -60,14 +60,14 @@
 * ![ ](../../images/icons/checkbox-states/checked_default.svg) **Верхняя граница открыта** — убирает верхнюю границу;
 * ![ ](../../images/icons/toolbar-controls/invert-bound-type_default.svg) **Инвертировать тип** — меняет тип границ;
 * ![ ](../../images/icons/toolbar-controls/calculate-barchart_default.svg) — пересчитывает гистограмму согласно новым параметрам.
-* **Шаблон** — в этом поле происходит настройка шаблона для отображения метки интервала, в нем можно составить пользовательский шаблон или при нажатии на ![ ](../../images/icons/toolbar-controls/down_default.svg) выбрать один из готовых шаблонов. Чтобы применить шаблон необходимо нажать кнопку ![ ](../../images/icons/toolbar-controls/apply_default.svg).
+* **Шаблон** — в этом поле происходит настройка шаблона для отображения метки интервала, в нем можно составить пользовательский шаблон или при нажатии на ![ ](../../images/icons/toolbar-controls/down_default.svg) выбрать один из готовых шаблонов. To apply the template, it is required to press ![ ](../../images/icons/toolbar-controls/apply_default.svg) button.
 * **Образец** — при клике на эту кнопку открывается таблица обозначений, которые можно использовать при составлении шаблона.
 
 Под элементами управления расположена таблица с результатами квантования выделенного поля, она содержит следующие поля:
 
-* **№** — номер интервала;
-* **Нижняя** — нижняя граница интервала;
-* **Тип** — тип границы;
-* **Верхняя** — верхняя граница интервала;
-* **Метка** — метка интервала (ее можно задавать шаблоном);
+* **No** — bin number;
+* **Lower** — lower interval bound;
+* **Type** — bound type;
+* **Upper** — upper interval bound;
+* **Caption** — Bin caption (it can be set using a template);
 * **Объём** — отображает объем значений, попавших в интервал (отображается в виде гистограммы).

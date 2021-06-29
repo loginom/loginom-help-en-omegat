@@ -1,6 +1,6 @@
-# Структура результирующего набора
+# Resulting Data Set Structure
 
-Результирующий набор состоит из столбцов исходного набора данных и столбцов, рассчитанных обработчиком, их описание приведено в таблице:
+The resulting data set consists of the source data set columns and the columns calcualted by the handler. Their description is provided in the table:
 
 |Имя столбца|Описание|
 |:-|:-|
