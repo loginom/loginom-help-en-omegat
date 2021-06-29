@@ -47336,6 +47336,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это поля типа: целый, вещественный,  дата/время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210629T201045Z" creationid="Марианна" creationdate="20210629T201045Z">
+        <seg>The following field types are used: integer, real, data/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этой настройкой можно воспользоваться в случае, если задача требует определенного числа кластеров, например, не больше 15.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083929Z" creationid="Марианна" creationdate="20201210T083929Z">
