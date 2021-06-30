@@ -47234,8 +47234,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Ширина — пользователь может выбирать ширину интервала, а количество интервалов рассчитывается автоматически, как отношение разности верхней и нижней границ к заданной ширине.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T202205Z" creationid="Марианна" creationdate="20210629T202205Z">
-        <seg>Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds and the set width.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210630T112708Z" creationid="Марианна" creationdate="20210629T202205Z">
+        <seg>Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width.</seg>
       </tuv>
     </tu>
     <tu>
