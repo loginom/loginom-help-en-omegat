@@ -38826,6 +38826,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Плитка — пользователь выбирает количество интервалов, а компонент задает диапазоны интервалов таким образом, чтобы в каждом интервале было примерно одинаковое количество значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210630T113215Z" creationid="Марианна" creationdate="20210630T113215Z">
+        <seg>Tile: a user selects count of bins and the component enables to set bin ranges in such a way that provides approximately the same number of values in each bin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Плохо</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060329Z" creationid="Марианна" creationdate="20201116T060329Z">
