@@ -33374,6 +33374,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество — выбирается количество интервалов, а ширина рассчитывается автоматически, как отношение разности верхней и нижней границ к заданному количеству интервалов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210630T112632Z" creationid="Марианна" creationdate="20210630T112632Z">
+        <seg>Count: count of bins is selected and the width is automatically calculated as ratio of upper and lower bounds difference and the set count of bins.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество\_повторов - целое выражение</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T214053Z" creationid="Марианна" creationdate="20210407T091437Z">
