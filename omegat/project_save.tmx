@@ -31837,6 +31837,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имеется несколько способов обработки совпадающих значений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210630T113348Z" creationid="Марианна" creationdate="20210630T113348Z">
+        <seg>There are several methods to process matching values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имеется список переменных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104104Z" creationid="Марианна" creationdate="20201006T104104Z">
