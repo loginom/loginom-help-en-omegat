@@ -44056,6 +44056,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сохранять в текущем — сохраняет значения совпадающих наблюдений в текущем (более низком) интервале разделения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T142601Z" creationid="Марианна" creationdate="20210701T142601Z">
+        <seg>Keep in current: keeps the values of matching observations in the current (lower) separation interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Спагетти</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113003Z" creationid="Марианна" creationdate="20201011T112953Z">
@@ -47606,6 +47614,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T073946Z" creationid="Марианна" creationdate="20201214T073946Z">
         <seg>This algorithm frequently produces good results even for small data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот метод может привести к тому, что всего будет создано меньше интервалов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T142932Z" creationid="Марианна" creationdate="20210701T142932Z">
+        <seg>This method can cause creation of less number of intervals in total.</seg>
       </tuv>
     </tu>
     <tu>
