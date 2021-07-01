@@ -29895,6 +29895,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлять в следующий — перенесет значения совпадающих наблюдений в следующий (более высокий) интервал разделения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T142504Z" creationid="Марианна" creationdate="20210701T142504Z">
+        <seg>Add to next: moves the values of matching observations to the next (higher) separation interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доверительный интервал прогноза в % от 0 до 100 — значение вещественного типа, по умолчанию 95.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T194007Z" creationid="Марианна" creationdate="20201208T074040Z">
