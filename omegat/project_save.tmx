@@ -47634,6 +47634,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Этот функционал доступен только при состоянии "Вход активирован".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T142135Z" creationid="Марианна" creationdate="20210701T142135Z">
+        <seg>This functionality is available only for "Input activated" state.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эту таблицу можно выбрать из списка существующих в базе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T111231Z" creationid="Марианна" creationdate="20200916T111231Z">
