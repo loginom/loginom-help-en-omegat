@@ -2932,6 +2932,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница открыта&lt;x4/&gt; — убирает верхнюю границу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T141553Z" creationid="Марианна" creationdate="20210701T141553Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper bound open&lt;x4/&gt;: removes the upper bound.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница&lt;x4/&gt; – для числовых признаков указывается верхняя граница интервала числом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T211703Z" creationid="Марианна" creationdate="20210606T211703Z">
@@ -3248,6 +3256,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050444Z" creationid="Марианна" creationdate="20201222T050444Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unused&lt;x4/&gt;: the field is not included into processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Нижняя граница открыта&lt;x4/&gt; — убирает нижнюю границу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T141528Z" creationid="Марианна" creationdate="20210701T141528Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Lower bound open&lt;x4/&gt;: removes the lower bound.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25489,6 +25505,16 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193022Z" creationid="Марианна" creationdate="20201004T193022Z">
         <seg>It is allowed to use only the expressions that are higher in the list in the expression formula.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этой области отображаются результаты квантования с возможностью их редактирования.&lt;x1/&gt;
+Над полями таблицы расположены несколько элементов управления:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T142013Z" creationid="Марианна" creationdate="20210701T142013Z">
+        <seg>The binning results that can be edited are displayed in this area.&lt;x1/&gt;
+Several control elements are located over the table fields:</seg>
       </tuv>
     </tu>
     <tu>
