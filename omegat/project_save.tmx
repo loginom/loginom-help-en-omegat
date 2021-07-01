@@ -3148,6 +3148,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Инвертировать тип&lt;x4/&gt; — меняет тип границ;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T141356Z" creationid="Марианна" creationdate="20210701T141356Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Invert type&lt;x4/&gt;: changes the bound type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Информационный индекс&lt;x4/&gt; – указываются значения информационных &lt;x5/&gt;индексов IV&lt;x6/&gt;, вычисленные по каждому входному столбцу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T204755Z" creationid="Марианна" creationdate="20210606T204755Z">
@@ -4584,6 +4592,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102702Z" creationid="Марианна" creationdate="20201009T102702Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; enables to call the action menu of ports of the Workflow variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — пересчитывает гистограмму согласно новым параметрам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210701T141452Z" creationid="Марианна" creationdate="20210701T141452Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;: recalculates the histogram according to the new parameters.</seg>
       </tuv>
     </tu>
     <tu>
