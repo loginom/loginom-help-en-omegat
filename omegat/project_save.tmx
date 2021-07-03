@@ -11825,6 +11825,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициенты СКО&lt;x2/&gt; — разбивает значения на интервалы в зависимости от выбранного диапазона, выраженного в количестве &lt;x3/&gt;σ&lt;x4/&gt; (СКО).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210703T154224Z" creationid="Марианна" creationdate="20210703T154224Z">
+        <seg>&lt;x1/&gt;SD coefficients&lt;x2/&gt;: bins values to intervals according to the selected range expressed in the quantity of &lt;x3/&gt;σ&lt;x4/&gt; (SD).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициенты регрессии&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055807Z" creationid="Марианна" creationdate="20200812T055807Z">
