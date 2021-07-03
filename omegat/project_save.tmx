@@ -35278,8 +35278,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Назначать случайно — типы границ интервалов будут определены случайно; возможно включение одинаковых значений в тот или иной интервал случайным образом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210703T150550Z" creationid="Марианна" creationdate="20210703T150550Z">
-        <seg>Assign randomly: types of interval bounds will be randomly assigned. It is possible to include similar values into this or that interval in a random manner.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210703T150914Z" creationid="Марианна" creationdate="20210703T150550Z">
+        <seg>Assign randomly: types of interval bounds will be randomly assigned. It is possible to include the same values into this or that interval in a random manner.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37728,6 +37728,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T144639Z" creationid="Марианна" creationdate="20210523T144639Z">
         <seg>Leave unchanged: detected null data will not be filled in.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оставить как есть — границы всех интервалов будут иметь тип &lt;x1/&gt;&gt;=&lt;x2/&gt;, и возможна ситуация, когда совпадающие значения окажутся в разных интервалах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210703T151203Z" creationid="Марианна" creationdate="20210703T151203Z">
+        <seg>Leave as is: bounds of all intervals will be related to &lt;x1/&gt;&gt;=&lt;x2/&gt; type, and matching values can be in different intervals.</seg>
       </tuv>
     </tu>
     <tu>
