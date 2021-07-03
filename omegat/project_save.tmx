@@ -37340,6 +37340,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Одинаковые плитки — достижение равного количества значений в интервалах обеспечивается не только подбором диапазонов интервалов, но и подбором типов границ для каждого интервала (&lt;x1/&gt;&gt;&lt;x2/&gt; или &lt;x3/&gt;&gt;=&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210703T151727Z" creationid="Марианна" creationdate="20210703T151727Z">
+        <seg>Assign optimal: the equal number of values in intervals is provided not only by selecting interval ranges, but also by selecting types of bounds for each interval (&lt;x1/&gt;&gt;&lt;x2/&gt; or &lt;x3/&gt;&gt;=&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одинарная кавычка (');</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T104804Z" creationid="Марианна" creationdate="20200917T151747Z">
