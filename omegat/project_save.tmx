@@ -35276,6 +35276,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Назначать случайно — типы границ интервалов будут определены случайно; возможно включение одинаковых значений в тот или иной интервал случайным образом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210703T150550Z" creationid="Марианна" creationdate="20210703T150550Z">
+        <seg>Assign randomly: types of interval bounds will be randomly assigned. It is possible to include similar values into this or that interval in a random manner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Назначение входных столбцов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T142129Z" creationid="Марианна" creationdate="20201221T142129Z">
