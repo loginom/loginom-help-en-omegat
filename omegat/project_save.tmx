@@ -32888,8 +32888,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Каждая группа записей ассоциирована с признаком (полем) исходного набора данных, являющимся входным для узла Конечные классы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T201834Z" creationid="Марианна" creationdate="20210606T201834Z">
-        <seg>Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coaarse Classes node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T133507Z" creationid="Марианна" creationdate="20210606T201834Z">
+        <seg>Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coarse Classes node.</seg>
       </tuv>
     </tu>
     <tu>
