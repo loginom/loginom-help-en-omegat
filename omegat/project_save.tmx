@@ -11137,6 +11137,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интервалов&lt;x2/&gt; — количество интервалов, на которые будут разбиты значения поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T121659Z" creationid="Марианна" creationdate="20210708T121659Z">
+        <seg>&lt;x1/&gt;Bins&lt;x2/&gt;: count of bins to which the field values will be binned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерфейс «Связи»&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185125Z" creationid="Марианна" creationdate="20200810T181047Z">
