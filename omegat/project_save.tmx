@@ -28047,8 +28047,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данная настройка необходима в том случае, когда задан порт Внешние диапазоны квантования, т.е. в узел Конечные классы подается внешнее разбиение в виде таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210708T152844Z" creationid="Марианна" creationdate="20210608T080927Z">
-        <seg>This option is required when External binning ranges port is set, namely, the external binning is supplied to tho the Coarse Classes node in the table form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T152919Z" creationid="Марианна" creationdate="20210608T080927Z">
+        <seg>This option is required when External binning ranges port is set, namely, the external binning is supplied to the Coarse Classes node in the table form.</seg>
       </tuv>
     </tu>
     <tu>
