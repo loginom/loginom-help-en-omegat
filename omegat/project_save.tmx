@@ -13377,6 +13377,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Образец&lt;x2/&gt; — при клике на эту кнопку открывается таблица обозначений, которые можно использовать при составлении шаблона.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T124247Z" creationid="Марианна" creationdate="20210708T124247Z">
+        <seg>&lt;x1/&gt;Example&lt;x2/&gt;: by pressing this button, it is possible to open the table of symbols used to create a template.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обрамлять имена кавычками&lt;x2/&gt; — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T130445Z" creationid="Марианна" creationdate="20210118T130445Z">
