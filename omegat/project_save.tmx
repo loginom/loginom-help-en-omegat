@@ -2942,8 +2942,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница&lt;x4/&gt; – для числовых признаков указывается верхняя граница интервала числом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T211703Z" creationid="Марианна" creationdate="20210606T211703Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper bound&lt;x4/&gt;: a number is used to denote the upper interval bound for the numeric indicators.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153350Z" creationid="Марианна" creationdate="20210606T211703Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper bound&lt;x4/&gt;: a number is used to denote the upper bin bound for the numeric indicators.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8954,8 +8954,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Верхняя&lt;x2/&gt; — верхняя граница интервала;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T202307Z" creationid="Марианна" creationdate="20210629T202307Z">
-        <seg>&lt;x1/&gt;Upper&lt;x2/&gt; — upper interval bound;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153509Z" creationid="Марианна" creationdate="20210629T202307Z">
+        <seg>&lt;x1/&gt;Upper&lt;x2/&gt; — upper bin bound;</seg>
       </tuv>
     </tu>
     <tu>
@@ -25975,8 +25975,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Верхняя граница интервала</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T191033Z" creationid="Марианна" creationdate="20210601T191033Z">
-        <seg>Upper interval bound</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153523Z" creationid="Марианна" creationdate="20210601T191033Z">
+        <seg>Upper bin bound</seg>
       </tuv>
     </tu>
     <tu>
@@ -26159,8 +26159,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Включить верхние границы интервала — верхнее значение границы будет включено в текущий интервал.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T181630Z" creationid="Марианна" creationdate="20210528T181630Z">
-        <seg>Include upper interval bounds: the upper bound value will be included into the current interval.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153411Z" creationid="Марианна" creationdate="20210528T181630Z">
+        <seg>Include upper bin bounds: the upper bound value will be included into the current bin.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30834,8 +30834,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если флаг неактивен, то значение верхней границы интервала относится к следующему интервалу (т.е. включается в него в качестве нижней границы).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T182047Z" creationid="Марианна" creationdate="20210528T182047Z">
-        <seg>If the checkbox is inactive, the upper interval bound value relates to the next interval (namely, it is included into it as the lower bound).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153457Z" creationid="Марианна" creationdate="20210528T182047Z">
+        <seg>If the checkbox is inactive, the upper bin bound value relates to the next bin (namely, it is included into it as the lower bound).</seg>
       </tuv>
     </tu>
     <tu>
