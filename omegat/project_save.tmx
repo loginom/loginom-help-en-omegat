@@ -28727,6 +28727,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для всех методов квантования можно установить флаг &lt;x1/&gt;Округлять границы&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T113419Z" creationid="Марианна" creationdate="20210708T113419Z">
+        <seg>It is possible to select &lt;x1/&gt;Round limits&lt;x2/&gt; checkbox for all binning methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для всех моделей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114741Z" creationid="Марианна" creationdate="20201214T114741Z">
