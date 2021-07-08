@@ -12201,6 +12201,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; — отображается максимальное значение квантуемого поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T121938Z" creationid="Марианна" creationdate="20210708T121938Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt;: the maximum value of the quantized field is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Массив&lt;x2/&gt; — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T113302Z" creationid="Марианна" creationdate="20200929T113302Z">
