@@ -41036,6 +41036,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При их нажатии пересчитываются параметры квантования (количество интервалов, минимум, максимум) в зависимости от изменения методов и/или настроек параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T123129Z" creationid="Марианна" creationdate="20210708T123129Z">
+        <seg>Their pressing enables to recalculate binning parameters (count of bins, minimum, maximum) taking into account changed methods and/or configuration of parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При каждой итерации считывается весь обучающий набор данных и изменяются веса &lt;x1/&gt;Нейросети&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T084948Z" creationid="Марианна" creationdate="20201224T084948Z">
