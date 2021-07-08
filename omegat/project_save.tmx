@@ -2926,8 +2926,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница диапазонов открыта&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210524T123401Z" creationid="Марианна" creationdate="20210524T123401Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper range bound open&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153849Z" creationid="Марианна" creationdate="20210524T123401Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Upper bin bound open&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25959,8 +25959,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Верхняя граница диапазонов открыта</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T202138Z" creationid="Марианна" creationdate="20210601T202138Z">
-        <seg>Upper range bound open</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153905Z" creationid="Марианна" creationdate="20210601T202138Z">
+        <seg>Upper bin bound open</seg>
       </tuv>
     </tu>
     <tu>
