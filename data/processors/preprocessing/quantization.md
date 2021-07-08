@@ -30,44 +30,44 @@ The area table consists of several columns:
 
 * **Field**: contains the initial data set fields to which the binning procedure can be applied. The following field types are used: integer, real, data/time.
 * **Method**: the field is represented by the drop-down list to select a binning method:
-   * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds and the set width. The following parameters can be set by selecting corresponding checkboxes:
+   * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width. The following parameters can be set by selecting corresponding checkboxes:
       * Upper bound — upper bound of the highest interval.
       * Lower bound — lower bound of the highest interval.
-   * Количество — выбирается количество интервалов, а ширина рассчитывается автоматически, как отношение разности верхней и нижней границ к заданному количеству интервалов. Upper and lower bounds can be also set for this method.
-   * Плитка — пользователь выбирает количество интервалов, а компонент задает диапазоны интервалов таким образом, чтобы в каждом интервале было примерно одинаковое количество значений. Имеется несколько способов обработки совпадающих значений:
-      * Добавлять в следующий — перенесет значения совпадающих наблюдений в следующий (более высокий) интервал разделения.
-      * Сохранять в текущем — сохраняет значения совпадающих наблюдений в текущем (более низком) интервале разделения. Этот метод может привести к тому, что всего будет создано меньше интервалов.
-      * Назначать случайно — типы границ интервалов будут определены случайно; возможно включение одинаковых значений в тот или иной интервал случайным образом.
-      * Оставить как есть — границы всех интервалов будут иметь тип **>=**, и возможна ситуация, когда совпадающие значения окажутся в разных интервалах.
-      * Одинаковые плитки — достижение равного количества значений в интервалах обеспечивается не только подбором диапазонов интервалов, но и подбором типов границ для каждого интервала (**>** или **>=**).
-   * [Коэффициенты СКО](https://wiki.loginom.ru/articles/mean-square-deviation.html) — разбивает значения на интервалы в зависимости от выбранного диапазона, выраженного в количестве **σ** (СКО).
+   * Count: count of bins is selected and the width is automatically calculated as ratio of upper and lower bounds difference and the set count of bins. Upper and lower bounds can be also set for this method.
+   * Tile: a user selects count of bins and the component enables to set bin ranges in such a way that provides approximately the same number of values in each bin. There are several methods to process matching values:
+      * Add to next: moves the values of matching observations to the next (higher) separation interval.
+      * Keep in current: keeps the values of matching observations in the current (lower) separation interval. This method can cause creation of less number of intervals in total.
+      * Assign randomly: types of interval bounds will be randomly assigned. It is possible to include the same values into this or that interval in a random manner.
+      * Leave as is: bounds of all intervals will be related to **>=** type, and matching values can be in different intervals.
+      * Assign optimal: the equal number of values in intervals is provided not only by selecting interval ranges, but also by selecting types of bounds for each interval (**>** or **>=**).
+   * [SD coefficients](https://wiki.loginom.ru/articles/mean-square-deviation.html): bins values to intervals according to the selected range expressed in the quantity of **σ** (SD).
    * [External ranges.](./quantization/outdoor-ranges.md)
 
-      Для всех методов квантования можно установить флаг *Округлять границы*.
-* **Автоматически** — установленная галочка в этом поле обеспечивает автоматическую настройку параметров квантования выбранного метода.
-* **Интервалов** — количество интервалов, на которые будут разбиты значения поля.
-* **Минимум** — отображается минимальное значение квантуемого поля.
-* **Максимум** — отображается максимальное значение квантуемого поля.
+      It is possible to select *Round limits* checkbox for all binning methods.
+* **Auto**: the checkbox selected in this field secures auto setup of binning parameters for the selected method.
+* **Bins**: count of bins to which the field values will be binned.
+* **Minimum**: the minimum value of the quantized field is displayed.
+* **Maximum**: the maximum value of the quantized field is displayed.
 
-Далее в каждой строке  располагается кнопка ![ ](../../images/icons/toolbar-controls/refresh_default.svg)"рассчитать интервалы" и в шапке таблицы ![ ](../../images/icons/toolbar-controls/refresh_default.svg)"рассчитать все интервалы". При их нажатии пересчитываются параметры квантования (количество интервалов, минимум, максимум) в зависимости от изменения методов и/или настроек параметров. Этот функционал доступен только при состоянии "Вход активирован".
+Later on, ![ ](../../images/icons/toolbar-controls/refresh_default.svg)"calculate bins" button is located in each row, and ![ ](../../images/icons/toolbar-controls/refresh_default.svg)"calculate all bins" button is located in the table head. Their pressing enables to recalculate binning parameters (count of bins, minimum, maximum) taking into account changed methods and/or configuration of parameters. This functionality is available only for "Input activated" state.
 
 ### Area of Binning Results Display
 
-В этой области отображаются результаты квантования с возможностью их редактирования.  
-Над полями таблицы расположены несколько элементов управления:
+The binning results that can be edited are displayed in this area.  
+Several control elements are located over the table fields:
 
-* ![ ](../../images/icons/checkbox-states/checked_default.svg) **Нижняя граница открыта** — убирает нижнюю границу;
-* ![ ](../../images/icons/checkbox-states/checked_default.svg) **Верхняя граница открыта** — убирает верхнюю границу;
-* ![ ](../../images/icons/toolbar-controls/invert-bound-type_default.svg) **Инвертировать тип** — меняет тип границ;
-* ![ ](../../images/icons/toolbar-controls/calculate-barchart_default.svg) — пересчитывает гистограмму согласно новым параметрам.
-* **Шаблон** — в этом поле происходит настройка шаблона для отображения метки интервала, в нем можно составить пользовательский шаблон или при нажатии на ![ ](../../images/icons/toolbar-controls/down_default.svg) выбрать один из готовых шаблонов. To apply the template, it is required to press ![ ](../../images/icons/toolbar-controls/apply_default.svg) button.
-* **Образец** — при клике на эту кнопку открывается таблица обозначений, которые можно использовать при составлении шаблона.
+* ![ ](../../images/icons/checkbox-states/checked_default.svg) **Lower bound open**: removes the lower bound.
+* ![ ](../../images/icons/checkbox-states/checked_default.svg) **Upper bound open**: removes the upper bound.
+* ![ ](../../images/icons/toolbar-controls/invert-bound-type_default.svg) **Invert type**: changes the bound type.
+* ![ ](../../images/icons/toolbar-controls/calculate-barchart_default.svg): recalculates the histogram according to the new parameters.
+* **Template**: this field is used to configure a template to display bin caption. It is possible to create a user template in it, or select one of ready templates by pressing ![ ](../../images/icons/toolbar-controls/down_default.svg). To apply the template, it is required to press ![ ](../../images/icons/toolbar-controls/apply_default.svg) button.
+* **Example**: by pressing this button, it is possible to open the table of symbols used to create a template.
 
-Под элементами управления расположена таблица с результатами квантования выделенного поля, она содержит следующие поля:
+The table with the binning results received for the selected field is located under control elements. It contains the following fields:
 
 * **No** — bin number;
 * **Lower** — lower interval bound;
 * **Type** — bound type;
 * **Upper** — upper interval bound;
 * **Caption** — Bin caption (it can be set using a template);
-* **Объём** — отображает объем значений, попавших в интервал (отображается в виде гистограммы).
+* **Volume** enables to display the volume of values included into the interval (it is dispalyed in the form of a histogram).
