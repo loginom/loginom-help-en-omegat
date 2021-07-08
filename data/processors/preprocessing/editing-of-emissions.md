@@ -2,7 +2,7 @@
 
 ## Description
 
-The handler is designated for automatic elimination of outliers and extreme values in data sets. A user sets criteria of determination of outliers and extreme values for each field of the source data set by specifying the allowable [standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) or interquartile range. The outliers mean the data values that distinctly deviate from the average ones, the extreme values mean the values that deviate from the typical values to such extent that they are not consistent with the logics of the processes and events under research anymore.
+The handler is designated for automatic elimination of outliers and extreme values in data sets. A user sets criteria of outliers and extreme values determination for each field of the source data set by specifying the allowable [standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) or interquartile range. The outliers mean the data values that distinctly deviate from the average ones, the extreme values mean the values that deviate from the typical values to such extent that they are not consistent with the logics of the processes and events under research anymore.
 
 ## Ports
 
