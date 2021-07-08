@@ -27965,6 +27965,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Далее в каждой строке  располагается кнопка &lt;x1/&gt; &lt;x2/&gt;"рассчитать интервалы" и в шапке таблицы &lt;x3/&gt; &lt;x4/&gt;"рассчитать все интервалы".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T122731Z" creationid="Марианна" creationdate="20210708T122731Z">
+        <seg>Later on, &lt;x1/&gt; &lt;x2/&gt;"calculate bins" button is located in each row, and &lt;x3/&gt; &lt;x4/&gt;"calculate all bins" button is located in the table head.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее выбирается имя поля, &lt;x1/&gt;отношение сравнения&lt;x2/&gt; (&lt;x3/&gt;Условие&lt;x4/&gt;) и значение сравнения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T113405Z" creationid="Марианна" creationdate="20201113T113405Z">
