@@ -13147,8 +13147,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нижняя&lt;x2/&gt; — нижняя граница интервала;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T202426Z" creationid="Марианна" creationdate="20210629T202426Z">
-        <seg>&lt;x1/&gt;Lower&lt;x2/&gt; — lower interval bound;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153607Z" creationid="Марианна" creationdate="20210629T202426Z">
+        <seg>&lt;x1/&gt;Lower&lt;x2/&gt; — lower bin bound;</seg>
       </tuv>
     </tu>
     <tu>
@@ -36605,8 +36605,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Нижняя граница интервала</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T160440Z" creationid="Марианна" creationdate="20210601T160440Z">
-        <seg>Lower interval bound</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T153619Z" creationid="Марианна" creationdate="20210601T160440Z">
+        <seg>Lower bin bound</seg>
       </tuv>
     </tu>
     <tu>
