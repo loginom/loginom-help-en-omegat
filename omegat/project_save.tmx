@@ -13497,6 +13497,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Объём&lt;x2/&gt; — отображает объем значений, попавших в интервал (отображается в виде гистограммы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T125016Z" creationid="Марианна" creationdate="20210708T125016Z">
+        <seg>&lt;x1/&gt;Volume&lt;x2/&gt; enables to display the volume of values included into the interval (it is dispalyed in the form of a histogram).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничение количества значений&lt;x2/&gt; — используется, чтобы ограничить максимальное количество колонок  в выходном наборе, отбираются первые n сформированных полей, если установленное количество значений больше  количества уникальных значений в колонках, то фиктивные столбцы не добавляются.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T140802Z" creationid="Марианна" creationdate="20201023T081310Z">
