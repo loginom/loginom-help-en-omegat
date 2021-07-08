@@ -2862,8 +2862,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201207T142508Z" creationid="Марианна" creationdate="20201207T142508Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Input data source&lt;x4/&gt; is a data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T152237Z" creationid="Марианна" creationdate="20201207T142508Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Input data source&lt;x4/&gt; — data table.</seg>
       </tuv>
     </tu>
     <tu>
