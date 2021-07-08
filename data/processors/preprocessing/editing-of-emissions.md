@@ -30,7 +30,7 @@ The following elimination methods are available both for outliers and extreme va
 * Delete records: delete the records with anomalous values from data set.
 * Replace with average: replace anomalous values with the average column value.
 * Replace with median: replace anomalous values with the median calculated for the column.
-* Replace with most frequent: replace anomalous values with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.
+* Replace with most frequent: replace anomalous values with the most frequent column value. Replacement is performed using the average value from the most frequent range. The interval count varies according to the sample size: the larger the sample size, the higher number of ranges.
 * Replace with set value: replace anomalous values with the manually recorded value.
 * Limit: replace anomalous values with the bound value from which the anomalous values start.
 
@@ -56,5 +56,5 @@ Applicability table by the following features:
 
 **See also:**
 
-* [Imputation](../../processors/preprocessing/filling-omissions.md);
+* [Imputation](../../processors/preprocessing/filling-omissions.md).
 * [Anomalous values](https://wiki.loginom.ru/articles/outlier.html).

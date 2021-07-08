@@ -32,7 +32,7 @@ The following processing methods are available:
 * Replace with average: replace detected null data with the average column value.
    <62/62/77% >
 * Replace with median: replace detected null data with the median calculated for the column.
-* Replace with most frequent: replace null data with the most frequent column value. Replacement is performed using the average value from the most frequent range. The range count varies according to the sample size: the larger the sample size, the higher number of ranges.
+* Replace with most frequent: replace null data with the most frequent column value. Replacement is performed using the average value from the most frequent range. The interval count varies according to the sample size: the larger the sample size, the higher number of ranges.
 * Replace with random values: replace detected null data with the random values that are formed from the range from the least to the highest column value.
 * Linear interpolation: detected null data is replaced with the calculated intermediate values of the linear function received using the known values (drawing a conditional line between them).
 * Cubic interpolation: detected null data is replaced with the intermediate values of the cubic spline (the third degree splines with the continuous first derivative) received using the known values.

@@ -72,7 +72,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining. Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.
 
-* [Imputation](./preprocessing/filling-omissions.md);
+* [Imputation](./preprocessing/filling-omissions.md).
 * [Binning](./preprocessing/quantization.md)
 * [Coarse classes](./preprocessing/fine-classes.md)
 * [Partitioning](./preprocessing/separating-to-multiplicity.md)
