@@ -8704,8 +8704,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в случае попытки одновременного применения значений полей Нижняя граница диапазонов открыта и Верхняя граница диапазонов открыта таблицы Внешние диапазоны и, соответственно, флагов Нижняя граница открыта, Верхняя граница открыта мастера настройки приоритет отдаётся полям, т.е. в данной ситуации флаги не повлияют на результат.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210708T153958Z" creationid="Марианна" creationdate="20210601T202922Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; While attempting to use the values of Lower range bound open and Upper bin bound open fields of External ranges table simultaneously, and, correspondingly, Lower bound open, Upper bound open checkboxes of the wizard, the priority is given to the fields, namely, in this case, checkboxes will have no influence on the result.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T155959Z" creationid="Марианна" creationdate="20210601T202922Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; While attempting to use the values of Lower bin bound open and Upper bin bound open fields of External ranges table simultaneously, and, correspondingly, Lower bound open, Upper bound open checkboxes of the wizard, the priority is given to the fields, namely, in this case, checkboxes will have no influence on the result.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44721,8 +44721,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строго постоянное в рамках разбиения одного поля значение, определяющее тип верхней границы диапазона класса - открытая (не включается) или закрытая (включается)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210608T084637Z" creationid="Марианна" creationdate="20210608T084637Z">
-        <seg>Strictly constant value within binning of one field that defines the upper class range bound type; whether it is open (not included) or close (included).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T155950Z" creationid="Марианна" creationdate="20210608T084637Z">
+        <seg>Strictly constant value within binning of one field that defines the upper class bin bound type; whether it is open (not included) or close (included).</seg>
       </tuv>
     </tu>
     <tu>
