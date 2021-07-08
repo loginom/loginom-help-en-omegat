@@ -8302,6 +8302,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Автоматически&lt;x2/&gt; — установленная галочка в этом поле обеспечивает автоматическую настройку параметров квантования выбранного метода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T113657Z" creationid="Марианна" creationdate="20210708T113657Z">
+        <seg>&lt;x1/&gt;Auto&lt;x2/&gt;: the checkbox selected in this field secures auto setup of binning parameters for the selected method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Авторизация та же, что и для получения WSDL&lt;x2/&gt; — при выставлении флажка использует тех же параметры авторизации, что и при получении WSDL.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T132734Z" creationid="Марианна" creationdate="20210209T162156Z">
