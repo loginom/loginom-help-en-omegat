@@ -4,7 +4,7 @@
 
 The Coarse Classes handler enables to solve the following problems:
 
-* Conversion of the continuous and discrete input fields used for training of the models related to the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html)by means of the binning based on totality-of-evidence approach or [WoE analysis](https://wiki.loginom.ru/articles/coefficient-woe.html) (weights of evidence, WoE). In the result, each source indicator value is replaced with the caption of the binning range with which this value complies. Usage of such conversion results for the binary classification models training (for example, [logistic regression](https://wiki.loginom.ru/articles/logistic-regression.html)) enables to improve their accuracy and resilience to the input data change.
+* Conversion of the continuous and discrete input fields used for training of the models related to the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html) by means of the binning based on totality-of-evidence approach or [WoE analysis](https://wiki.loginom.ru/articles/coefficient-woe.html) (weights of evidence, WoE). In the result, each source indicator value is replaced with the caption of the binning range with which this value complies. Usage of such conversion results for the binary classification models training (for example, [logistic regression](https://wiki.loginom.ru/articles/logistic-regression.html)) enables to improve their accuracy and resilience to the input data change.
 * Reduction of data dimensionality by excluding the indicators with low significance, by decreasing variety of indicator values.
 * Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the WoE coefficient value.
 * The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category that enables to solve the problem of extreme values and outliers.
@@ -23,7 +23,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/none_default.svg) **The source data set fields** (values are not change).
+* ![ ](../../images/icons/data-types/none_default.svg) **The source data set fields** (values are not changed).
 * ![ ](../../images/icons/data-types/integer_default.svg) **«<Column caption> Class number» field** means the coarse class identifier, integer (starting from 0): a column is always created.
 * ![ ](../../images/icons/data-types/string_default.svg) **«<Column caption> Caption» field** means the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).
 * ![ ](../../images/icons/data-types/float_default.svg) **«<Column caption> Significance» Field.**
@@ -34,7 +34,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/integer_default.svg) **Group** means the number of the group to which the table record relates. Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coaarse Classes node. The number of the group records meets the number of the coarse classes of the source column.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Group** means the number of the group to which the table record relates. Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coarse Classes node. The number of the group records meets the number of the coarse classes of the source column.
 * ![ ](../../images/icons/data-types/string_default.svg) **Identifier** means the column name under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
 * ![ ](../../images/icons/data-types/string_default.svg) **Column caption** means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Class number** means the index number assigned to the class while its formation in the Coarse Classes node.
