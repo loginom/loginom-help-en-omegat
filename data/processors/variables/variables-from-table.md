@@ -6,7 +6,7 @@ The handler enables to transform the table data to variables. A variable is gene
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a data table.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** — data table.
 
 ### Output
 

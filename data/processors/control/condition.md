@@ -15,7 +15,7 @@ Primarily, there are no input and output [ports](../../scenario/ports/README.md)
 ### Input
 
 * ![Input variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Input variables** denote a set of variables.
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes a data table.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** — data table.
 
 ### Output
 

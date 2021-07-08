@@ -2,12 +2,12 @@
 
 ## Description
 
-The handler bins values range of the selected fields of the source data set to the final interval count. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./quantization/outdoor-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and data/time (refer to [data types](../../data/datatype.md)).
+The handler bins values range of the selected fields of the source data set to the final bin count. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./quantization/outdoor-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and data/time (refer to [data types](../../data/datatype.md)).
 
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Bins (Data Table).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Ranges (Data Table).
 
 ### Output
 
@@ -66,8 +66,8 @@ Several control elements are located over the table fields:
 The table with the binning results received for the selected field is located under control elements. It contains the following fields:
 
 * **No** — bin number;
-* **Lower** — lower interval bound;
+* **Lower** — lower bin bound;
 * **Type** — bound type;
-* **Upper** — upper interval bound;
+* **Upper** — upper bin bound;
 * **Caption** — Bin caption (it can be set using a template);
 * **Volume** enables to display the volume of values included into the interval (it is dispalyed in the form of a histogram).

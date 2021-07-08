@@ -12,7 +12,7 @@ The [ARIMA](https://wiki.loginom.ru/articles/box-jenkins-model.html) models are 
 
 ### Input Ports
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)  **Input data source** is a data table. The input data must meet the following requirements:
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)  **Input data source** — data table. The input data must meet the following requirements:
    * The field mapping the time series must relate to the *Forecast* usage type, *Real* [data type](../../data/datatype.md) and *Continuous* [data kind](../../data/datakind.md). Only one such field is allowed.
    * The fields mapping the exogenous factors must relate to the *Input* usage type. There are no restrictions for the data type in these fields, any data kind is allowed, with the exception of the *Undefined* one. These fields can be available or not in any amount.
 

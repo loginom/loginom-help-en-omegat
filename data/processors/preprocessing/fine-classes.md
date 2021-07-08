@@ -15,7 +15,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Bins (Data Table).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Ranges (Data Table).
 
 ### Output
 
@@ -42,12 +42,12 @@ The Coarse Classes handler operation result is conversion of the input columns i
 * ![ ](../../images/icons/data-types/string_default.svg) **Class caption** means the class identifier assigned to it while its formation in the Coarse Classes node. The class caption of the numeric columns consists of the upper and lower class bounds (only the lower bound is specified for the null class with "from..." preposition, the upper bound is specified for the class with the maximum number with "to..." preposition). For categorical fields: if each class is generated for a separate category, it is required to specify this category as a caption. If the class includes several categories, it is required to list all categories included into the class in the caption.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Events count**: count of the observations in the class for which the output value is an event.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Non-events count**: count of the observations in the class for which the output value is a non-event.
-* ![ ](../../images/icons/data-types/variant_default.svg) **Lower bound**: a number is used to denote the lower interval bound for the numeric indicators. The lower bound is denoted by two categories for categorical indicators, namely, the upper category of the previous class and the lower category of the current class.
-* ![ ](../../images/icons/data-types/variant_default.svg) **Upper bound**: a number is used to denote the upper interval bound for the numeric indicators. The upper bound is denoted by two categories for categorical indicators, namely, the lower category of the next class and the upper category of the current class.
+* ![ ](../../images/icons/data-types/variant_default.svg) **Lower bound**: a number is used to denote the lower bin bound for the numeric indicators. The lower bound is denoted by two categories for categorical indicators, namely, the upper category of the previous class and the lower category of the current class.
+* ![ ](../../images/icons/data-types/variant_default.svg) **Upper bound**: a number is used to denote the upper bin bound for the numeric indicators. The upper bound is denoted by two categories for categorical indicators, namely, the lower category of the next class and the upper category of the current class.
 * ![ ](../../images/icons/data-types/float_default.svg) **Weight of evidence** means the [WoE coefficient](https://wiki.loginom.ru/articles/coefficient-woe.html) for each class.
 * ![ ](../../images/icons/data-types/float_default.svg) **Information value**: the values of information [values IV](https://wiki.loginom.ru/articles/coefficient-iv.html) calculated for each input column are specified. The sum of quotients of information values for each class provides the total information value of the indicator by which its significance is defined.
 * ![ ](../../images/icons/data-types/float_default.svg) **Class rate** means the ratio of observations number in the class to the total count of observations.
-* ![ ](../../images/icons/data-types/boolean_default.svg) **Upper range bound open**.
+* ![ ](../../images/icons/data-types/boolean_default.svg) **Upper bin bound open**.
 * ![ ](../../images/icons/data-types/boolean_default.svg) **Prequantization** shows whether prequantization has been used in the process of the coarse classes generation.
 
 %/spoiler%
@@ -62,7 +62,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 * ![ ](../../images/icons/data-types/integer_default.svg) **Non-events count**: count of the non-events included into this class.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Total** means the total number of observations in the class.
 * ![ ](../../images/icons/data-types/float_default.svg) **Information value**: the values of information [values IV](https://wiki.loginom.ru/articles/coefficient-iv.html) calculated for each input column are specified.
-* ![ ](../../images/icons/data-types/string_default.svg) **Column Significance** means the significance level of the input column defined according to the information value. It can take the folowing values: none, very low, low, mean, high and very high.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column Significance** means the significance level of the input column defined according to the information value. It can take the following values: none, very low, low, mean, high and very high.
 
 %/spoiler%
 
