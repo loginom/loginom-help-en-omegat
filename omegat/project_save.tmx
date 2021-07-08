@@ -36597,8 +36597,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Нижняя граница диапазонов открыта</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T201946Z" creationid="Марианна" creationdate="20210601T201946Z">
-        <seg>Lower range bound open</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T154126Z" creationid="Марианна" creationdate="20210601T201946Z">
+        <seg>Lower bin bound open</seg>
       </tuv>
     </tu>
     <tu>
