@@ -18548,6 +18548,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Шаблон&lt;x2/&gt; — в этом поле происходит настройка шаблона для отображения метки интервала, в нем можно составить пользовательский шаблон или при нажатии на &lt;x3/&gt; &lt;x4/&gt; выбрать один из готовых шаблонов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T123921Z" creationid="Марианна" creationdate="20210708T123921Z">
+        <seg>&lt;x1/&gt;Template&lt;x2/&gt;: this field is used to configure a template to display bin caption. It is possible to create a user template in it, or select one of ready templates by pressing &lt;x3/&gt; &lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Шагов автоподбора не более&lt;x2/&gt; — максимальное количество шагов алгоритма (0 — отключение ограничения);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T220516Z" creationid="Марианна" creationdate="20201222T055144Z">
