@@ -30,7 +30,6 @@ Columns mapping is configured in [table](../../scenario/ports/interface-table.md
 The following processing methods are available:
 
 * Replace with average: replace detected null data with the average column value.
-   <62/62/77% >
 * Replace with median: replace detected null data with the median calculated for the column.
 * Replace with most frequent: replace null data with the most frequent column value. Replacement is performed using the average value from the most frequent range. The interval count varies according to the sample size: the larger the sample size, the higher number of ranges.
 * Replace with random values: replace detected null data with the random values that are formed from the range from the least to the highest column value.
