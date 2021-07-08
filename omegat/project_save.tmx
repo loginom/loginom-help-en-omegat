@@ -29145,8 +29145,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для категориальных полей, если каждый класс формируется для отдельной категории, то в качестве метки указывается эта категория.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T210023Z" creationid="Марианна" creationdate="20210606T210023Z">
-        <seg>For categorical fields if each class is formed for a separate category, it is required to specify this category as a caption.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T133759Z" creationid="Марианна" creationdate="20210606T210023Z">
+        <seg>For categorical fields: if each class is generated for a separate category, it is required to specify this category as a caption.</seg>
       </tuv>
     </tu>
     <tu>
