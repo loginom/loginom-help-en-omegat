@@ -39508,6 +39508,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Под элементами управления расположена таблица с результатами квантования выделенного поля, она содержит следующие поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T124717Z" creationid="Марианна" creationdate="20210708T124717Z">
+        <seg>The table with the binning results received for the selected field is located under control elements. It contains the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подбирается структура так же, как и в предыдущем пункте.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T100254Z" creationid="Марианна" creationdate="20201223T100254Z">
