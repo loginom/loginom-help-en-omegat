@@ -31218,9 +31218,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Заменять средним — выявленные пропуски заменяются средним значением столбца;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210523T145051Z" creationid="Марианна" creationdate="20210523T142504Z">
-        <seg>Replace with average: replace detected null data with the average column value.
-&lt;62/62/77% &gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T132224Z" creationid="Марианна" creationdate="20210523T142504Z">
+        <seg>Replace with average: replace detected null data with the average column value.</seg>
       </tuv>
     </tu>
     <tu>
