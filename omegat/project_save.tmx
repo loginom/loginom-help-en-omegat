@@ -33377,8 +33377,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество интервалов — количество интервалов предварительного квантования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T182544Z" creationid="Марианна" creationdate="20210528T182544Z">
-        <seg>Interval count means the prequanting interval count.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T152521Z" creationid="Марианна" creationdate="20210528T182544Z">
+        <seg>Bin count means the prequanting bin count.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37189,8 +37189,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Обработчик разбивает диапазон значений выбранных полей исходного набора на конечное число интервалов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T192634Z" creationid="Марианна" creationdate="20210629T192634Z">
-        <seg>The handler bins values range of the selected fields of the source data set to the final interval count.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T152535Z" creationid="Марианна" creationdate="20210629T192634Z">
+        <seg>The handler bins values range of the selected fields of the source data set to the final bin count.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40573,8 +40573,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Предварительное квантование — задает начальное число интервалов квантования входного признака (начальные классы) из которых, в соответствии с настроенными параметрами, будут сформированы конечные классы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T181207Z" creationid="Марианна" creationdate="20210528T180940Z">
-        <seg>Prequanting sets the initial quantizing interval count of the input indicator (fine classes) from which the coarse classes will be generated according to the set parameters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T152456Z" creationid="Марианна" creationdate="20210528T180940Z">
+        <seg>Prequanting sets the initial quantizing bin count of the input indicator (fine classes) from which the coarse classes will be generated according to the set parameters.</seg>
       </tuv>
     </tu>
     <tu>
