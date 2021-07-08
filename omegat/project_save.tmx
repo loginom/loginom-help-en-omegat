@@ -9243,8 +9243,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T065841Z" creationid="Марианна" creationdate="20200924T065841Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes a data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210708T152022Z" creationid="Марианна" creationdate="20200924T065841Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; — data table.</seg>
       </tuv>
     </tu>
     <tu>
