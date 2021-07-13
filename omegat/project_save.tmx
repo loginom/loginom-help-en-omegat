@@ -2950,8 +2950,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Вес доказательства&lt;x4/&gt; – &lt;x5/&gt;коэффициент WoE&lt;x6/&gt; для каждого класса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210524T123544Z" creationid="Марианна" creationdate="20210524T123544Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Weight of evidence&lt;x4/&gt; means the &lt;x5/&gt;WoE coefficient&lt;x6/&gt; for each class.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140358Z" creationid="Марианна" creationdate="20210524T123544Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Weight of evidence&lt;x4/&gt;: the &lt;x5/&gt;WoE coefficient&lt;x6/&gt; for each class.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2966,8 +2966,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Всего&lt;x4/&gt; – общее число наблюдений в классе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210524T123309Z" creationid="Марианна" creationdate="20210524T123309Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Total&lt;x4/&gt; means the total number of observations in the class.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140429Z" creationid="Марианна" creationdate="20210524T123309Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Total&lt;x4/&gt;: the total number of observations in the class.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3038,8 +3038,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Группа&lt;x4/&gt; – номер группы, к которой относится запись в таблице.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T200732Z" creationid="Марианна" creationdate="20210606T200732Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt; means the number of the group to which the table record relates.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140313Z" creationid="Марианна" creationdate="20210606T200732Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt;: the number of the group to which the table record relates.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3070,8 +3070,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Доля класса&lt;x4/&gt; – отношение количества наблюдений в классе к общему числу наблюдений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T205217Z" creationid="Марианна" creationdate="20210606T205217Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class rate&lt;x4/&gt; means the ratio of observations number in the class to the total count of observations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140407Z" creationid="Марианна" creationdate="20210606T205217Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class rate&lt;x4/&gt;: the ratio of observations number in the class to the total count of observations.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3134,24 +3134,24 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Значимость столбца&lt;x4/&gt; – уровень значимости входного столбца, определенный на основе информационного индекса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T204523Z" creationid="Марианна" creationdate="20210606T204434Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column Significance&lt;x4/&gt; means the significance level of the input column defined according to the information value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140441Z" creationid="Марианна" creationdate="20210606T204434Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column Significance&lt;x4/&gt;: the significance level of the input column defined according to the information value.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Идентификатор&lt;x4/&gt; – имя столбца, под которым он будет обрабатываться в наборе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T202701Z" creationid="Марианна" creationdate="20210606T202701Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Identifier&lt;x4/&gt; means the column name under which it will be processed in the data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140326Z" creationid="Марианна" creationdate="20210606T202701Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Identifier&lt;x4/&gt;: the column name under which it will be processed in the data set.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Имя столбца&lt;x4/&gt; – идентификатор столбца, под которым он будет обрабатываться в наборе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T203939Z" creationid="Марианна" creationdate="20210606T203939Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column name&lt;x4/&gt; means the column identifier under which it will be processed in the data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140416Z" creationid="Марианна" creationdate="20210606T203939Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column name&lt;x4/&gt;: the column identifier under which it will be processed in the data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3190,16 +3190,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Метка класса&lt;x4/&gt; – идентификатор класса, присвоенный ему при формировании в узле конечные классы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T203818Z" creationid="Марианна" creationdate="20210606T203818Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class caption&lt;x4/&gt; means the class identifier assigned to it while its formation in the Coarse Classes node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140350Z" creationid="Марианна" creationdate="20210606T203818Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class caption&lt;x4/&gt;: the class identifier assigned to it while its formation in the Coarse Classes node.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Метка столбца&lt;x4/&gt; – мнемоническое обозначение входного столбца, под которым он будет виден пользователю в базе или хранилище данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T203301Z" creationid="Марианна" creationdate="20210606T203301Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column caption&lt;x4/&gt; means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140333Z" creationid="Марианна" creationdate="20210606T203301Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column caption&lt;x4/&gt;: the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3278,8 +3278,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Номер класса&lt;x4/&gt; – порядковый номер, присвоенный классу при его формировании в узле Конечные классы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T203718Z" creationid="Марианна" creationdate="20210606T203718Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class number&lt;x4/&gt; means the index number assigned to the class while its formation in the Coarse Classes node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140341Z" creationid="Марианна" creationdate="20210606T203718Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Class number&lt;x4/&gt;: the index number assigned to the class while its formation in the Coarse Classes node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3390,8 +3390,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поле «&lt;Метка столбца&gt; Метка»&lt;x4/&gt; – метка конечного класса, полученная автоматическим путем (числовые границы, если это непрерывная переменная, или перечисление уникальных значений через «;», если переменная дискретная).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T200527Z" creationid="Марианна" creationdate="20210606T200527Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Caption» field&lt;x4/&gt; means the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140304Z" creationid="Марианна" creationdate="20210606T200527Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Caption» field&lt;x4/&gt;: the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).</seg>
       </tuv>
     </tu>
     <tu>
@@ -33377,8 +33377,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Количество интервалов — количество интервалов предварительного квантования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210708T152521Z" creationid="Марианна" creationdate="20210528T182544Z">
-        <seg>Bin count means the prequanting bin count.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140448Z" creationid="Марианна" creationdate="20210528T182544Z">
+        <seg>Bin count: the prequanting bin count.</seg>
       </tuv>
     </tu>
     <tu>
