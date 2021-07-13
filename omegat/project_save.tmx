@@ -5486,8 +5486,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Автоматическое упорядочивание узлов — автоматическое расположение узлов на области Сценария в соответствии с их последовательностью обработки данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T132205Z" creationid="Марианна" creationdate="20200819T132205Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Auto node alignment is an automatic placement of nodes in the Workflow area according to their sequence of data processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133110Z" creationid="Марианна" creationdate="20200819T132205Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Auto node alignment: the automatic placement of nodes in the Workflow area according to their sequence of data processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5894,16 +5894,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Режим выбора объекта — режим, использующийся для построения Сценария с помощью стандартных манипуляций;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T130150Z" creationid="Марианна" creationdate="20200819T130150Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Object selection mode is a mode used for the Workflow construction by means of standard manipulations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133037Z" creationid="Марианна" creationdate="20200819T130150Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Object selection mode: the mode used for the Workflow construction by means of standard manipulations.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Режим навигации по сценарию — режим, использующийся для навигации по области построения Сценария с помощью мышки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T130251Z" creationid="Марианна" creationdate="20200819T130251Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Workflow navigation mode is a mode used for navigation in the Workflow construction area by means of a mouse.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133058Z" creationid="Марианна" creationdate="20200819T130251Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Workflow navigation mode: the mode used for navigation in the Workflow construction area by means of a mouse.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8480,8 +8480,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Базовый узел&lt;x2/&gt; — узел или &lt;x3/&gt;Подмодель&lt;x4/&gt;, настройки и алгоритм которого предполагается использовать повторно, может находиться за пределами текущей &lt;x5/&gt;Подмодели&lt;x6/&gt;, &lt;x7/&gt;Сценария&lt;x8/&gt;, &lt;x9/&gt;Модуля&lt;x10/&gt; или &lt;x11/&gt;Пакета&lt;x12/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T143437Z" creationid="Марианна" creationdate="20200918T143437Z">
-        <seg>&lt;x1/&gt;Base node&lt;x2/&gt; is a node or &lt;x3/&gt;Supernode&lt;x4/&gt;, settings and algorithm of which are to be used repeatedly. It can be located outside the current &lt;x5/&gt;Supernode&lt;x6/&gt;, &lt;x7/&gt;Workflow&lt;x8/&gt;, &lt;x9/&gt;Module&lt;x10/&gt; or &lt;x11/&gt;Package&lt;x12/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133230Z" creationid="Марианна" creationdate="20200918T143437Z">
+        <seg>&lt;x1/&gt;Base node&lt;x2/&gt;: the node or &lt;x3/&gt;Supernode&lt;x4/&gt;, settings and algorithm of which are to be used repeatedly. It can be located outside the current &lt;x5/&gt;Supernode&lt;x6/&gt;, &lt;x7/&gt;Workflow&lt;x8/&gt;, &lt;x9/&gt;Module&lt;x10/&gt; or &lt;x11/&gt;Package&lt;x12/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10651,8 +10651,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — поле для ввода значения, с которым будет сравниваться переменная.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T201206Z" creationid="Марианна" creationdate="20200921T201206Z">
-        <seg>&lt;x1/&gt;Value&lt;x2/&gt; is a field for entering of the value with which the variable will be compared.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133204Z" creationid="Марианна" creationdate="20200921T201206Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt;: the field for entering of the value with which the variable will be compared.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11435,8 +11435,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Исходный узел&lt;x2/&gt; — информационное поле, отображающее узел, который заключается в цикл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T195433Z" creationid="Марианна" creationdate="20200921T195433Z">
-        <seg>&lt;x1/&gt;Source node&lt;x2/&gt; is an informational field that displays the looped node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133155Z" creationid="Марианна" creationdate="20200921T195433Z">
+        <seg>&lt;x1/&gt;Source node&lt;x2/&gt;: the informational field that displays the looped node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13971,8 +13971,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель «Процессы»&lt;x2/&gt; — панель, содержащая подробную информацию о происходящих/происходивших процессах текущей сессии.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T133518Z" creationid="Марианна" creationdate="20200814T133518Z">
-        <seg>&lt;x1/&gt;"Processes" panel&lt;x2/&gt; is a panel that contains detailed information on the current/finished processes of the current session.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133019Z" creationid="Марианна" creationdate="20200814T133518Z">
+        <seg>&lt;x1/&gt;"Processes" panel&lt;x2/&gt;: the panel that contains detailed information on the current/finished processes of the current session.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14123,8 +14123,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная цикла&lt;x2/&gt; — переменная, которой в ходе работы цикла присваивается номер текущей итерации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T204645Z" creationid="Марианна" creationdate="20200921T204645Z">
-        <seg>&lt;x1/&gt;Loop variable&lt;x2/&gt; is a variable to which the current iteration number is assigned during the loop execution.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133214Z" creationid="Марианна" creationdate="20200921T204645Z">
+        <seg>&lt;x1/&gt;Loop variable&lt;x2/&gt;: the variable to which the current iteration number is assigned during the loop execution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16094,8 +16094,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Рабочее пространство&lt;x2/&gt; — панель компонентов, панель инструментов и область построения Сценариев;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T080905Z" creationid="Марианна" creationdate="20200814T133407Z">
-        <seg>&lt;x1/&gt;Working space&lt;x2/&gt; is a panel of components, toolbar and area of the Workflows construction. </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132943Z" creationid="Марианна" creationdate="20200814T133407Z">
+        <seg>&lt;x1/&gt;Working space&lt;x2/&gt;: the panel of components, toolbar and area of the Workflows construction. </seg>
       </tuv>
     </tu>
     <tu>
@@ -17190,8 +17190,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сравниваемое значение&lt;x2/&gt; — значение, с которым будет сравниваться выбранный объект.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T075629Z" creationid="Марианна" creationdate="20200924T075629Z">
-        <seg>&lt;x1/&gt;Compared value&lt;x2/&gt; is a value with which the selected object will be compared.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133146Z" creationid="Марианна" creationdate="20200924T075629Z">
+        <seg>&lt;x1/&gt;Compared value&lt;x2/&gt;: the value with which the selected object will be compared.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18142,8 +18142,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Условие&lt;x2/&gt; — область конфигурации условий для конкретной ветви, отображается при выделении ветви в списке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T074501Z" creationid="Марианна" creationdate="20200924T074501Z">
-        <seg>&lt;x1/&gt;Condition&lt;x2/&gt; is an area for configuration of conditions for particular branch. It is displayed when selecting the listed branch.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133128Z" creationid="Марианна" creationdate="20200924T074501Z">
+        <seg>&lt;x1/&gt;Condition&lt;x2/&gt;: the area for configuration of conditions for particular branch. It is displayed when selecting the listed branch.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28575,8 +28575,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Дерево — это структура данных в виде набора связанных узлов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T083205Z" creationid="Марианна" creationdate="20200929T083205Z">
-        <seg>Tree is a data structure in the form of a set of connected nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133244Z" creationid="Марианна" creationdate="20200929T083205Z">
+        <seg>Tree: the data structure in the form of a set of connected nodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39461,8 +39461,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T125556Z" creationid="Марианна" creationdate="20200819T125556Z">
-        <seg>The Workflow construction area is located in the centre. It is an area containing the Worlflow nodes and links between them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133030Z" creationid="Марианна" creationdate="20200819T125556Z">
+        <seg>The Workflow construction area is located in the centre: the area containing the Worlflow nodes and links between them.</seg>
       </tuv>
     </tu>
     <tu>
