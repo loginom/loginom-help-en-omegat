@@ -3478,8 +3478,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Результат выполнения&lt;x4/&gt; — переменная целого типа, содержащая значение &lt;x5/&gt;0&lt;x6/&gt; в случае успешного завершения выполняемой программы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210219T170941Z" creationid="Марианна" creationdate="20210219T170941Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Execution result&lt;x4/&gt; denotes the integer variable that contains &lt;x5/&gt;0&lt;x6/&gt; in the case of the successful completion of the executed program;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142438Z" creationid="Марианна" creationdate="20210219T170941Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Execution result&lt;x4/&gt;: the integer variable that contains &lt;x5/&gt;0&lt;x6/&gt; in the case of the successful completion of the executed program;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3534,8 +3534,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сообщение об ошибке&lt;x4/&gt; — переменная строкового типа, содержащая сообщение об ошибке, если она произошла при выполнении или подготовке к выполнению программы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210219T171143Z" creationid="Марианна" creationdate="20210219T171143Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Error message&lt;x4/&gt; denotes the string variable that contains an error message if it occurred while execution or preparation to the program execution.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142446Z" creationid="Марианна" creationdate="20210219T171143Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Error message&lt;x4/&gt;: the string variable that contains an error message if it occurred while execution or preparation to the program execution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6014,16 +6014,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Коэффициенты регрессионной модели&lt;x4/&gt; — таблица данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T075547Z" creationid="Марианна" creationdate="20201214T075547Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Regression model coefficients&lt;x4/&gt; denote a data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142401Z" creationid="Марианна" creationdate="20201214T075547Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Regression model coefficients&lt;x4/&gt;: data table.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Сводка&lt;x4/&gt; — переменные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T075608Z" creationid="Марианна" creationdate="20201214T075608Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Summary&lt;x4/&gt; denotes variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142407Z" creationid="Марианна" creationdate="20201214T075608Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — &lt;x3/&gt;Summary&lt;x4/&gt;: variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6816,8 +6816,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; — Ложь;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T173821Z" creationid="Марианна" creationdate="20201005T173821Z">
-        <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; denotes the false value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142600Z" creationid="Марианна" creationdate="20201005T173821Z">
+        <seg>&lt;x1/&gt;FALSE&lt;x2/&gt;: the false value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7784,8 +7784,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;TRUE&lt;x2/&gt; — Истина.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T173837Z" creationid="Марианна" creationdate="20201005T173837Z">
-        <seg>&lt;x1/&gt;TRUE&lt;x2/&gt; denotes the true value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142609Z" creationid="Марианна" creationdate="20201005T173837Z">
+        <seg>&lt;x1/&gt;TRUE&lt;x2/&gt;: the true value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9235,8 +9235,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110237Z" creationid="Марианна" creationdate="20201016T071832Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes the port for connection of the input data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142616Z" creationid="Марианна" creationdate="20201016T071832Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt;: the port for connection of the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9643,8 +9643,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт с измененными параметрами полей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110310Z" creationid="Марианна" creationdate="20201016T072021Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the port with changed field features.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142627Z" creationid="Марианна" creationdate="20201016T072021Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the port with changed field features.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9667,8 +9667,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица с присоединенными столбцами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T065318Z" creationid="Марианна" creationdate="20201019T065318Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a table with joined columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142553Z" creationid="Марианна" creationdate="20201019T065318Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: table with joined columns.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13419,8 +13419,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Обучающее&lt;x2/&gt; — cтруктурированный набор данных, применяемый для обучения &lt;x3/&gt;аналитических моделей&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T080157Z" creationid="Марианна" creationdate="20201214T080157Z">
-        <seg>&lt;x1/&gt;Train&lt;x2/&gt; denotes the structured data set used for training of &lt;x3/&gt;analytical models&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142416Z" creationid="Марианна" creationdate="20201214T080157Z">
+        <seg>&lt;x1/&gt;Train&lt;x2/&gt;: the structured data set used for training of &lt;x3/&gt;analytical models&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13435,8 +13435,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Общее число записей&lt;x2/&gt; — число записей таблицы входного источника данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T204201Z" creationid="Марианна" creationdate="20210629T204201Z">
-        <seg>&lt;x1/&gt;Total records&lt;x2/&gt; denote the records count of the input data source table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142514Z" creationid="Марианна" creationdate="20210629T204201Z">
+        <seg>&lt;x1/&gt;Total records&lt;x2/&gt;: the records count of the input data source table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16334,8 +16334,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Расстояние до центра кластера&lt;x2/&gt; — положение объекта относительно центра кластера.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T131849Z" creationid="Марианна" creationdate="20201210T131849Z">
-        <seg>&lt;x1/&gt;Distance to cluster center&lt;x2/&gt; denotes the object location relative to the cluster center.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142339Z" creationid="Марианна" creationdate="20201210T131849Z">
+        <seg>&lt;x1/&gt;Distance to cluster center&lt;x2/&gt;: the object location relative to the cluster center.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17646,8 +17646,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тестовое&lt;x2/&gt; — подмножество обучающей выборки, содержащее тестовые примеры, т.е. примеры, использующиеся не для обучения модели, а для проверки его результатов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T080908Z" creationid="Марианна" creationdate="20201214T080908Z">
-        <seg>&lt;x1/&gt;Test&lt;x2/&gt; denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142424Z" creationid="Марианна" creationdate="20201214T080908Z">
+        <seg>&lt;x1/&gt;Test&lt;x2/&gt;: the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18486,8 +18486,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Центр кластера&lt;x2/&gt; — среднее значение переменных объектов, входящих в кластер.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201210T132119Z" creationid="Марианна" creationdate="20201210T132119Z">
-        <seg>&lt;x1/&gt;Cluster center&lt;x2/&gt; denotes the average value of the objects variables included into cluster.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142346Z" creationid="Марианна" creationdate="20201210T132119Z">
+        <seg>&lt;x1/&gt;Cluster center&lt;x2/&gt;: the average value of the objects variables included into cluster.</seg>
       </tuv>
     </tu>
     <tu>
