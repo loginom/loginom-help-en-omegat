@@ -5158,8 +5158,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110348Z" creationid="Марианна" creationdate="20201115T140732Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes the port for connection of the input data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142730Z" creationid="Марианна" creationdate="20201115T140732Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt;: the port for connection of the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9211,8 +9211,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; (таблица данных) — набор данных, подлежащий изменению;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110356Z" creationid="Марианна" creationdate="20201117T083719Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; (data table) denotes the data set to be changed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142738Z" creationid="Марианна" creationdate="20201117T083719Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; (data table): the data set to be changed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9315,8 +9315,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — список переменных, которые можно использовать в обработчике.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T193611Z" creationid="Марианна" creationdate="20201004T193611Z">
-        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote a list of variables that can be used in the handler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142832Z" creationid="Марианна" creationdate="20201004T193611Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt;: list of variables that can be used in the handler.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9427,8 +9427,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбранные поля&lt;x2/&gt; — представляет список результирующих переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T082246Z" creationid="Марианна" creationdate="20201006T082246Z">
-        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt; denote a list of resulting variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142932Z" creationid="Марианна" creationdate="20201006T082246Z">
+        <seg>&lt;x1/&gt;Selected fields&lt;x2/&gt;: list of resulting variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9619,8 +9619,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — порт отдающий сгруппированную таблицу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110216Z" creationid="Марианна" creationdate="20201023T200141Z">
-        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the port providing the grouped table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142638Z" creationid="Марианна" creationdate="20201023T200141Z">
+        <seg>&lt;x1/&gt;Output data source&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the port providing the grouped table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9651,8 +9651,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — результат слияния.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T105353Z" creationid="Марианна" creationdate="20201111T105353Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a join result.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142654Z" creationid="Марианна" creationdate="20201111T105353Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: join result.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9675,16 +9675,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве ключевых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110413Z" creationid="Марианна" creationdate="20201118T092953Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142802Z" creationid="Марианна" creationdate="20201118T092953Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве сопоставляемых.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110419Z" creationid="Марианна" creationdate="20201119T075919Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142810Z" creationid="Марианна" creationdate="20201119T075919Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9715,8 +9715,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — входные переменные и новые переменные, вычисленные обработчиком.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T193705Z" creationid="Марианна" creationdate="20201004T193705Z">
-        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote input variables and new variables calculated by the handler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142846Z" creationid="Марианна" creationdate="20201004T193705Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt;: input variables and new variables calculated by the handler.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9747,8 +9747,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — список переменных, полученный из входного источника данных с использованием функций агрегации по полю.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T184028Z" creationid="Марианна" creationdate="20201005T184028Z">
-        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote a list of variables received from the input data source using aggregation functions by field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142915Z" creationid="Марианна" creationdate="20201005T184028Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt;: list of variables received from the input data source using aggregation functions by field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9923,8 +9923,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Группа&lt;x2/&gt; &lt;x3/&gt;Группа&lt;x4/&gt; — поля группировки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201023T200410Z" creationid="Марианна" creationdate="20201023T200410Z">
-        <seg>&lt;x1/&gt;Group&lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt; denotes grouping fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142645Z" creationid="Марианна" creationdate="20201023T200410Z">
+        <seg>&lt;x1/&gt;Group&lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt;: grouping fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10379,8 +10379,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Доступные поля&lt;x2/&gt; — представляет список полей входного набора данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T082144Z" creationid="Марианна" creationdate="20201006T082144Z">
-        <seg>&lt;x1/&gt;Available fields&lt;x2/&gt; denote a list of fields of the input data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142923Z" creationid="Марианна" creationdate="20201006T082144Z">
+        <seg>&lt;x1/&gt;Available fields&lt;x2/&gt;: list of fields of the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10803,8 +10803,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имена&lt;x2/&gt; — столбец с именами транспонируемых столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T164309Z" creationid="Марианна" creationdate="20201111T153443Z">
-        <seg>&lt;x1/&gt;Names&lt;x2/&gt; denote a column with the names of the transposed columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142709Z" creationid="Марианна" creationdate="20201111T153443Z">
+        <seg>&lt;x1/&gt;Names&lt;x2/&gt;: the column with the names of the transposed columns.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11019,8 +11019,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имя переменной в выходном наборе данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T195748Z" creationid="Марианна" creationdate="20201004T195748Z">
-        <seg>&lt;x1/&gt;Name&lt;x2/&gt; denotes a variable name in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142856Z" creationid="Марианна" creationdate="20201004T195748Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the variable name in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12363,8 +12363,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Метки&lt;x2/&gt; — столбец с метками столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T164334Z" creationid="Марианна" creationdate="20201111T164334Z">
-        <seg>&lt;x1/&gt;Captions&lt;x2/&gt; denote a column with captions of columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142719Z" creationid="Марианна" creationdate="20201111T164334Z">
+        <seg>&lt;x1/&gt;Captions&lt;x2/&gt;: the column with captions of columns.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12611,8 +12611,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Набор данных&lt;x2/&gt; &lt;x3/&gt;Присоединяемая таблица &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (таблица данных) — набор данных, содержащий таблицу замен;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110405Z" creationid="Марианна" creationdate="20201117T083831Z">
-        <seg>&lt;x1/&gt;Data set&lt;x2/&gt; &lt;x3/&gt;Joined table &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (data table) denotes the data set that contains a replacement table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142746Z" creationid="Марианна" creationdate="20201117T083831Z">
+        <seg>&lt;x1/&gt;Data set&lt;x2/&gt; &lt;x3/&gt;Joined table &lt;x4/&gt;N&lt;x5/&gt;&lt;x6/&gt; (data table): the data set that contains a replacement table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13299,8 +13299,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки сопоставления&lt;x2/&gt; — представляет таблицу где слева представлены поля &lt;x3/&gt;Главной таблицы&lt;x4/&gt;, а справа &lt;x5/&gt;Подключаемые таблицы&lt;x6/&gt;, отмечаемые чекбоксами и выпадающими списками.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110436Z" creationid="Марианна" creationdate="20201119T143017Z">
-        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt; denotes the table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Connected tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142816Z" creationid="Марианна" creationdate="20201119T143017Z">
+        <seg>&lt;x1/&gt;Mapping configuration area&lt;x2/&gt;: the table in which the &lt;x3/&gt;Main table&lt;x4/&gt; fields are in the left part, and &lt;x5/&gt;Connected tables&lt;x6/&gt; selected with checkboxes and drop-down lists are in the right part.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42841,8 +42841,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Регулярное выражение &lt;x1/&gt;\D&lt;x2/&gt; обозначает все символы, не являющиеся цифрами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201117T094851Z" creationid="Марианна" creationdate="20201117T094851Z">
-        <seg>The regular expression &lt;x1/&gt;\D&lt;x2/&gt; denotes all characters that are not digits.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142755Z" creationid="Марианна" creationdate="20201117T094851Z">
+        <seg>The regular expression &lt;x1/&gt;\D&lt;x2/&gt;: all characters that are not digits.</seg>
       </tuv>
     </tu>
     <tu>
