@@ -88,8 +88,8 @@
       <tuv lang="ru">
         <seg>%kbd Ctrl Down % — Переместить вниз.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195027Z" creationid="Марианна" creationdate="20200827T195027Z">
-        <seg>%kbd Ctrl Down % means to move down.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135039Z" creationid="Марианна" creationdate="20200827T195027Z">
+        <seg>%kbd Ctrl Down %: move down.</seg>
       </tuv>
     </tu>
     <tu>
@@ -160,8 +160,8 @@
       <tuv lang="ru">
         <seg>%kbd Ctrl Up % — Переместить вверх;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T195035Z" creationid="Марианна" creationdate="20200827T194944Z">
-        <seg>%kbd Ctrl Up % means to move up.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135031Z" creationid="Марианна" creationdate="20200827T194944Z">
+        <seg>%kbd Ctrl Up %: move up.</seg>
       </tuv>
     </tu>
     <tu>
@@ -184,8 +184,8 @@
       <tuv lang="ru">
         <seg>%kbd Delete % — удалить;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T194954Z" creationid="Марианна" creationdate="20200827T194855Z">
-        <seg>%kbd Delete % means to delete.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135017Z" creationid="Марианна" creationdate="20200827T194855Z">
+        <seg>%kbd Delete %: delete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -232,8 +232,8 @@
       <tuv lang="ru">
         <seg>%kbd Shift Delete % — удалить все;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200827T194949Z" creationid="Марианна" creationdate="20200827T194916Z">
-        <seg>%kbd Shift Delete % means to delete all.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135021Z" creationid="Марианна" creationdate="20200827T194916Z">
+        <seg>%kbd Shift Delete %: delete all.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9707,8 +9707,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной порт таблицы&lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — Импортированные из хранилища данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T133716Z" creationid="Марианна" creationdate="20200827T193717Z">
-        <seg>&lt;x1/&gt;Output port of table&lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; means the data imported from the Data Warehouse.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134947Z" creationid="Марианна" creationdate="20200827T193717Z">
+        <seg>&lt;x1/&gt;Output port of table&lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt;: the data imported from the Data Warehouse.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15918,8 +15918,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пропустить строк&lt;x2/&gt; — количество строк с начала текста, не подлежащее импорту.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T085626Z" creationid="Марианна" creationdate="20200826T085429Z">
-        <seg>&lt;x1/&gt;Skip rows&lt;x2/&gt; means count of the rows from the text beginning that cannot be imported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134938Z" creationid="Марианна" creationdate="20200826T085429Z">
+        <seg>&lt;x1/&gt;Skip rows&lt;x2/&gt;: count of the rows from the text beginning that cannot be imported.</seg>
       </tuv>
     </tu>
     <tu>
