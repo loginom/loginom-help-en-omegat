@@ -12331,8 +12331,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — метка переменной в выходном наборе данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T195824Z" creationid="Марианна" creationdate="20201004T195824Z">
-        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; is a variable caption in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134218Z" creationid="Марианна" creationdate="20201004T195824Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the variable caption in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14139,16 +14139,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — именованное значение одного из возможных &lt;x3/&gt;типов данных&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T065653Z" creationid="Марианна" creationdate="20200715T065653Z">
-        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; is a named value of one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134312Z" creationid="Марианна" creationdate="20200715T065653Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt;: the named value of one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — именованный объект, который может содержать только одно значение определенного типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T084929Z" creationid="Марианна" creationdate="20201009T084929Z">
-        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; is a named object that can contain only one value of the particular type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134326Z" creationid="Марианна" creationdate="20201009T084929Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt;: the named object that can contain only one value of the particular type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15854,8 +15854,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Проект&lt;x2/&gt; — комплекс сценариев, файлов, источников данных и прочих элементов, предназначенных для решения отдельной аналитической задачи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T164424Z" creationid="Марианна" creationdate="20200718T120529Z">
-        <seg>The &lt;x1/&gt;Project&lt;x2/&gt; is a complex of workflows, files, data sources and other items designated for solution of a particular analytical task.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134233Z" creationid="Марианна" creationdate="20200718T120529Z">
+        <seg>The &lt;x1/&gt;Project&lt;x2/&gt;: complex of workflows, files, data sources and other items designated for solution of a particular analytical task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17462,8 +17462,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — последовательность действий, которые необходимо провести для анализа данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T091311Z" creationid="Марианна" creationdate="20200715T091311Z">
-        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; is a sequence of actions that must be performed for data analysis.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134254Z" creationid="Марианна" creationdate="20200715T091311Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt;: sequence of actions that must be performed for data analysis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34485,8 +34485,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Метку — название, состоящее из любых символов; является пояснением для пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201018T093854Z" creationid="Марианна" creationdate="20201009T090521Z">
-        <seg>Caption is a name that consists of any characters. It is a clarification for a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134344Z" creationid="Марианна" creationdate="20201009T090521Z">
+        <seg>Caption: the name that consists of any characters. It is a clarification for a user.</seg>
       </tuv>
     </tu>
     <tu>
