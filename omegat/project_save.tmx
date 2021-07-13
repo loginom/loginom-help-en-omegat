@@ -10931,8 +10931,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя пользователя&lt;x2/&gt; — имя пользователя БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T055644Z" creationid="Марианна" creationdate="20210111T055644Z">
-        <seg>&lt;x1/&gt;Username&lt;x2/&gt; is a name of the DB user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131048Z" creationid="Марианна" creationdate="20210111T055644Z">
+        <seg>&lt;x1/&gt;Username&lt;x2/&gt;: name of the DB user.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14075,8 +14075,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль&lt;x2/&gt; — пароль пользователя БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210111T055603Z" creationid="Марианна" creationdate="20210111T055542Z">
-        <seg>&lt;x1/&gt;Password&lt;x2/&gt; is a password of the DB user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131210Z" creationid="Марианна" creationdate="20210111T055542Z">
+        <seg>&lt;x1/&gt;Password&lt;x2/&gt;: password of the DB user.</seg>
       </tuv>
     </tu>
     <tu>
