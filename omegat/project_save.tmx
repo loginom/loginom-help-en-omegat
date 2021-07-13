@@ -8072,16 +8072,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc/rest/help&lt;x2/&gt;, где &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt; — хост Loginom Integrator, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; — имя приложения Loginom Integrator в IIS (задается при инсталляции Loginom Integrator, при установке по умолчанию &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T142419Z" creationid="Марианна" creationdate="20210215T154344Z">
-        <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc/rest/help&lt;x2/&gt; where &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt; means the Loginom Integrator host, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135157Z" creationid="Марианна" creationdate="20210215T154344Z">
+        <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc/rest/help&lt;x2/&gt; where &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt;: the Loginom Integrator host, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc?wsdl&lt;x2/&gt;, где &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt; — хост Loginom Integrator, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; — имя приложения Loginom Integrator в IIS (задается при инсталляции Loginom Integrator, при установке по умолчанию &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T142359Z" creationid="Марианна" creationdate="20210218T142226Z">
-        <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc?wsdl&lt;x2/&gt; where &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt; means the Loginom Integrator host, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135149Z" creationid="Марианна" creationdate="20210218T142226Z">
+        <seg>&lt;x1/&gt;http://&lt;Server&gt;/&lt;App&gt;/service.svc?wsdl&lt;x2/&gt; where &lt;x3/&gt;&lt;Server&gt;&lt;x4/&gt;: the Loginom Integrator host, &lt;x5/&gt;&lt;App&gt;&lt;x6/&gt; is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default &lt;x7/&gt;&lt;App&gt;&lt;x8/&gt; = &lt;x9/&gt;lgi&lt;x10/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8874,8 +8874,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Вверх&lt;x2/&gt; &lt;x3/&gt;Вверх&lt;x4/&gt; — производит переход к объекту верхнего уровня.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T082103Z" creationid="Марианна" creationdate="20200814T081744Z">
-        <seg>&lt;x1/&gt;Go up&lt;x2/&gt; &lt;x3/&gt;Go up&lt;x4/&gt; means transition to the upper level object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135204Z" creationid="Марианна" creationdate="20200814T081744Z">
+        <seg>&lt;x1/&gt;Go up&lt;x2/&gt; &lt;x3/&gt;Go up&lt;x4/&gt;: transition to the upper level object.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9019,8 +9019,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид цикла&lt;x2/&gt; — определение логики работы цикла, задается радиокнопкой:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T195513Z" creationid="Марианна" creationdate="20200921T195513Z">
-        <seg>&lt;x1/&gt;Loop type&lt;x2/&gt; means determination of the loop operation logics. It is set using the radio button:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135258Z" creationid="Марианна" creationdate="20200921T195513Z">
+        <seg>&lt;x1/&gt;Loop type&lt;x2/&gt;: determination of the loop operation logics. It is set using the radio button:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9059,8 +9059,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Включить константу в модель&lt;x2/&gt; — значение логического типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T073104Z" creationid="Марианна" creationdate="20201208T073104Z">
-        <seg>&lt;x1/&gt;Include intercept into the model&lt;x2/&gt; means the boolean value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135439Z" creationid="Марианна" creationdate="20201208T073104Z">
+        <seg>&lt;x1/&gt;Include intercept into the model&lt;x2/&gt;: the boolean value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9451,8 +9451,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбрать пространство имен&lt;x2/&gt; — пространство имён элементов и атрибутов, служащее для обеспечения их уникальности в WSDL-описании сервиса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210217T125626Z" creationid="Марианна" creationdate="20210217T125626Z">
-        <seg>&lt;x1/&gt;Select namespace&lt;x2/&gt; means the namespace of items and attributes that provides their uniqueness in WSDL description of the service.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135137Z" creationid="Марианна" creationdate="20210217T125626Z">
+        <seg>&lt;x1/&gt;Select namespace&lt;x2/&gt;: the namespace of items and attributes that provides their uniqueness in WSDL description of the service.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9571,8 +9571,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выход&lt;x2/&gt; — закрытие всех Пакетов и выход из приложения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T121242Z" creationid="Марианна" creationdate="20200814T121242Z">
-        <seg>&lt;x1/&gt;Exit&lt;x2/&gt; means closure of all Packages and application exit.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135237Z" creationid="Марианна" creationdate="20200814T121242Z">
+        <seg>&lt;x1/&gt;Exit&lt;x2/&gt;: closure of all Packages and application exit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11763,8 +11763,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут импортироваться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T215602Z" creationid="Марианна" creationdate="20200829T215602Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element according to which data will be imported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135110Z" creationid="Марианна" creationdate="20200829T215602Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt;: selection of the XSD schema root element according to which data will be imported.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12875,8 +12875,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Начало&lt;x2/&gt; — переход на &lt;x3/&gt;страницу «Начало»&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200822T085548Z" creationid="Марианна" creationdate="20200814T120940Z">
-        <seg>&lt;x1/&gt;Home&lt;x2/&gt; means transition to the &lt;x3/&gt;"Home" page&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135220Z" creationid="Марианна" creationdate="20200814T120940Z">
+        <seg>&lt;x1/&gt;Home&lt;x2/&gt;: transition to the &lt;x3/&gt;"Home" page&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14131,8 +14131,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная&lt;x2/&gt; — выбор переменной для условия выхода из цикла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T200806Z" creationid="Марианна" creationdate="20200921T200806Z">
-        <seg>&lt;x1/&gt;Variable&lt;x2/&gt; means selection of a variable for the loop exit condition.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135308Z" creationid="Марианна" creationdate="20200921T200806Z">
+        <seg>&lt;x1/&gt;Variable&lt;x2/&gt;: selection of a variable for the loop exit condition.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15830,8 +15830,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Проверить наличие обновления&lt;x2/&gt; — проверка актуальных версий платформы на сайте разработчика.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T121655Z" creationid="Марианна" creationdate="20200814T121655Z">
-        <seg>&lt;x1/&gt;Check for updates&lt;x2/&gt; means check for current released platform versions on the vendor's website. </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135248Z" creationid="Марианна" creationdate="20200814T121655Z">
+        <seg>&lt;x1/&gt;Check for updates&lt;x2/&gt;: check for current released platform versions on the vendor's website. </seg>
       </tuv>
     </tu>
     <tu>
@@ -16782,8 +16782,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Скрытое&lt;x2/&gt; — навигация по объектам, не поместившимся в &lt;x3/&gt;Адресную строку&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T083032Z" creationid="Марианна" creationdate="20200814T083032Z">
-        <seg>&lt;x1/&gt;Hidden&lt;x2/&gt; means navigation through the objects for which there's no enough place in &lt;x3/&gt;Address bar&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135213Z" creationid="Марианна" creationdate="20200814T083032Z">
+        <seg>&lt;x1/&gt;Hidden&lt;x2/&gt;: navigation through the objects for which there's no enough place in &lt;x3/&gt;Address bar&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17182,8 +17182,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Справка&lt;x2/&gt; — вызов справки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T121050Z" creationid="Марианна" creationdate="20200814T121050Z">
-        <seg>&lt;x1/&gt;Help&lt;x2/&gt; means help topics.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135229Z" creationid="Марианна" creationdate="20200814T121050Z">
+        <seg>&lt;x1/&gt;Help&lt;x2/&gt;: help topics.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18102,8 +18102,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Условие завершения&lt;x2/&gt; — отношение сравнения переменной со Значением.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200921T201043Z" creationid="Марианна" creationdate="20200921T201043Z">
-        <seg>&lt;x1/&gt;Termination condition&lt;x2/&gt; means relation of the variable comparability with the Value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135322Z" creationid="Марианна" creationdate="20200921T201043Z">
+        <seg>&lt;x1/&gt;Termination condition&lt;x2/&gt;: relation of the variable comparability with the Value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32256,16 +32256,16 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Имя_поля|Ошибка &lt;x1/&gt;аппроксимации&lt;x2/&gt; — остатки модели, отклонения между прогнозируемыми и фактическими значениями ряда.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064035Z" creationid="Марианна" creationdate="20201208T064035Z">
-        <seg>Field_name|Error of &lt;x1/&gt;approximation&lt;x2/&gt; means model residuals, deviations between the forecast and actual series values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135345Z" creationid="Марианна" creationdate="20201208T064035Z">
+        <seg>Field_name|Error of &lt;x1/&gt;approximation&lt;x2/&gt;: model residuals, deviations between the forecast and actual series values.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Имя_поля|Прогноз — прогнозируемые значения исходного временного ряда.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201207T143935Z" creationid="Марианна" creationdate="20201207T143935Z">
-        <seg>Field_name|Forecast means forecast values of the source time series.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135331Z" creationid="Марианна" creationdate="20201207T143935Z">
+        <seg>Field_name|Forecast: forecast values of the source time series.</seg>
       </tuv>
     </tu>
     <tu>
