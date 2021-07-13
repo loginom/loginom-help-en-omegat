@@ -96,8 +96,8 @@
       <tuv lang="ru">
         <seg>%kbd Ctrl Down % — Переместить вниз;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T084641Z" creationid="Марианна" creationdate="20201006T084641Z">
-        <seg>%kbd Ctrl Down % means to move down.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141055Z" creationid="Марианна" creationdate="20201006T084641Z">
+        <seg>%kbd Ctrl Down %: move down.</seg>
       </tuv>
     </tu>
     <tu>
@@ -168,8 +168,8 @@
       <tuv lang="ru">
         <seg>%kbd Delete % — Удалить выбранные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T084711Z" creationid="Марианна" creationdate="20201006T084711Z">
-        <seg>%kbd Delete % means to delete selected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141133Z" creationid="Марианна" creationdate="20201006T084711Z">
+        <seg>%kbd Delete %: delete selected.</seg>
       </tuv>
     </tu>
     <tu>
@@ -200,8 +200,8 @@
       <tuv lang="ru">
         <seg>%kbd F2 % — Редактировать;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T084655Z" creationid="Марианна" creationdate="20201006T084655Z">
-        <seg>%kbd F2 % means to edit.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141106Z" creationid="Марианна" creationdate="20201006T084655Z">
+        <seg>%kbd F2 %: edit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4966,8 +4966,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;0&lt;x2/&gt; — нормально разгруппированное значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T103136Z" creationid="Марианна" creationdate="20201126T102709Z">
-        <seg>&lt;x1/&gt;0&lt;x2/&gt; means the value that is normally ungrouped.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140927Z" creationid="Марианна" creationdate="20201126T102709Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt;: the value that is normally ungrouped.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4998,8 +4998,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; — разгруппированное значение, которое изначально было задано как фиксированное, но фиксация была снята алгоритмом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T103145Z" creationid="Марианна" creationdate="20201126T102836Z">
-        <seg>&lt;x1/&gt;1&lt;x2/&gt; means the ungrouped value that was initially set as the fixed one but fixation was removed by the algorithm.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140935Z" creationid="Марианна" creationdate="20201126T102836Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt;: the ungrouped value that was initially set as the fixed one but fixation was removed by the algorithm.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5022,8 +5022,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;2&lt;x2/&gt; — зафиксированное пользователем значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T102927Z" creationid="Марианна" creationdate="20201126T102909Z">
-        <seg>&lt;x1/&gt;2&lt;x2/&gt; means the value fixed by a user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140944Z" creationid="Марианна" creationdate="20201126T102909Z">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt;: the value fixed by a user.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5038,8 +5038,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;3&lt;x2/&gt; — значение, зафиксированное пользователем, но несогласованное с опорной выборкой.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T103422Z" creationid="Марианна" creationdate="20201126T103422Z">
-        <seg>&lt;x1/&gt;3&lt;x2/&gt; means the value fixed by a user but inconsistent with the reference sample.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140952Z" creationid="Марианна" creationdate="20201126T103422Z">
+        <seg>&lt;x1/&gt;3&lt;x2/&gt;: the value fixed by a user but inconsistent with the reference sample.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5054,8 +5054,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;4&lt;x2/&gt; — значение, зафиксированное алгоритмом в ходе расчетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T103536Z" creationid="Марианна" creationdate="20201126T103536Z">
-        <seg>&lt;x1/&gt;4&lt;x2/&gt; means the value fixed by the algorithm in the calculation process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141001Z" creationid="Марианна" creationdate="20201126T103536Z">
+        <seg>&lt;x1/&gt;4&lt;x2/&gt;: the value fixed by the algorithm in the calculation process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5070,8 +5070,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;5&lt;x2/&gt; — ошибочное значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T104116Z" creationid="Марианна" creationdate="20201126T104116Z">
-        <seg>&lt;x1/&gt;5&lt;x2/&gt; means the erroneous value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141013Z" creationid="Марианна" creationdate="20201126T104116Z">
+        <seg>&lt;x1/&gt;5&lt;x2/&gt;: the erroneous value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9891,8 +9891,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Горизонт прогноза&lt;x2/&gt; — количество значений из последующих записей, для которых создаются новые поля в выходном наборе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T092406Z" creationid="Марианна" creationdate="20201114T092406Z">
-        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt; means count of values from the subsequent records for which the new fields are created in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140855Z" creationid="Марианна" creationdate="20201114T092406Z">
+        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt;: count of values from the subsequent records for which the new fields are created in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10619,16 +10619,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение сезонного индекса&lt;x2/&gt; — коэффициент, характеризующий &lt;x3/&gt;сезонность&lt;x4/&gt; для данной точки и данной позиции.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T070441Z" creationid="Марианна" creationdate="20201126T070441Z">
-        <seg>&lt;x1/&gt;Seasonal index value&lt;x2/&gt; means the index describing &lt;x3/&gt;seasonality&lt;x4/&gt; of this point and this position.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140918Z" creationid="Марианна" creationdate="20201126T070441Z">
+        <seg>&lt;x1/&gt;Seasonal index value&lt;x2/&gt;: the index describing &lt;x3/&gt;seasonality&lt;x4/&gt; of this point and this position.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение тренда&lt;x2/&gt; — значение тренда в данной точке для данной позиции.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201126T070136Z" creationid="Марианна" creationdate="20201126T070136Z">
-        <seg>&lt;x1/&gt;Trend value&lt;x2/&gt; means the trend value in this point for this position.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140909Z" creationid="Марианна" creationdate="20201126T070136Z">
+        <seg>&lt;x1/&gt;Trend value&lt;x2/&gt;: the trend value in this point for this position.</seg>
       </tuv>
     </tu>
     <tu>
