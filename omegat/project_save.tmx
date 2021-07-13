@@ -176,8 +176,8 @@
       <tuv lang="ru">
         <seg>%kbd Delete % — удалить подключение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T204052Z" creationid="Марианна" creationdate="20210208T204052Z">
-        <seg>%kbd Delete % — delete connection.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141230Z" creationid="Марианна" creationdate="20210208T204052Z">
+        <seg>%kbd Delete %: delete connection.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18958,8 +18958,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;удалить подключение&lt;x2/&gt; — удалить подключение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T204452Z" creationid="Марианна" creationdate="20210208T204452Z">
-        <seg>&lt;x1/&gt;Delete connection&lt;x2/&gt; — delete connection;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141223Z" creationid="Марианна" creationdate="20210208T204452Z">
+        <seg>&lt;x1/&gt;Delete connection&lt;x2/&gt;: delete connection;</seg>
       </tuv>
     </tu>
     <tu>
