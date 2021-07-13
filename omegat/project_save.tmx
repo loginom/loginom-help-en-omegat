@@ -3006,8 +3006,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выход модели&lt;x4/&gt; — таблица данных, которая содержит следующие поля:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201207T143751Z" creationid="Марианна" creationdate="20201207T143751Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Model output&lt;x4/&gt; is a data table that contains the following fields:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133359Z" creationid="Марианна" creationdate="20201207T143751Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Model output&lt;x4/&gt;: the data table that contains the following fields:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5150,8 +5150,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входное дерево&lt;x4/&gt; — набор данных в иерархической древовидной форме.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T111405Z" creationid="Марианна" creationdate="20201001T111405Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input tree&lt;x4/&gt; is a data set in the hierarchic tree-like form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133310Z" creationid="Марианна" creationdate="20201001T111405Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Input tree&lt;x4/&gt;: the data set in the hierarchic tree-like form.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5190,8 +5190,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201002T075518Z" creationid="Марианна" creationdate="20201001T111446Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; is a data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133325Z" creationid="Марианна" creationdate="20201001T111446Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: data table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6038,8 +6038,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — Выход регрессии — таблица, состоящая из полей: регрессия поля выходных данных, поля исходного набора данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T075511Z" creationid="Марианна" creationdate="20201214T075511Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — Regression output is a table that consists of the following fields: field regression of output data, source data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133418Z" creationid="Марианна" creationdate="20201214T075511Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — Regression output: the table that consists of the following fields: field regression of output data, source data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17838,8 +17838,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Точность решения&lt;x2/&gt; — критерий остановки итераций.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T114009Z" creationid="Марианна" creationdate="20201214T114009Z">
-        <seg>&lt;x1/&gt;Solution accuracy&lt;x2/&gt; is a criterion of iterations stop.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133442Z" creationid="Марианна" creationdate="20201214T114009Z">
+        <seg>&lt;x1/&gt;Solution accuracy&lt;x2/&gt;: criterion of iterations stop.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44777,16 +44777,16 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строка - строка, для которой расчитывается CRC32 значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210405T141531Z" creationid="Марианна" creationdate="20210405T141531Z">
-        <seg>String is a string for which CRC32 value is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133528Z" creationid="Марианна" creationdate="20210405T141531Z">
+        <seg>String: the string for which CRC32 value is calculated.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Строка - строка, для которой расчитывается MD5 значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T122922Z" creationid="Марианна" creationdate="20210406T122922Z">
-        <seg>String is a string for which MD5 value is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133537Z" creationid="Марианна" creationdate="20210406T122922Z">
+        <seg>String: the string for which MD5 value is calculated.</seg>
       </tuv>
     </tu>
     <tu>
