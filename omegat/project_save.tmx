@@ -6272,8 +6272,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Настройка внешнего разбиения&lt;x3/&gt;&lt;x4/&gt; — появляется, если задан порт &lt;x5/&gt;Внешние диапазоны квантования&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T204203Z" creationid="Марианна" creationdate="20210606T204203Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure External Binning&lt;x3/&gt;&lt;x4/&gt; appears if &lt;x5/&gt;External binning bins&lt;x6/&gt; port is set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T110955Z" creationid="Марианна" creationdate="20210606T204203Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Configure External Binning&lt;x3/&gt;&lt;x4/&gt; appears if &lt;x5/&gt;External binning ranges&lt;x6/&gt; port is set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27223,8 +27223,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Входное (внешнее разбиение) — появляется, если задан порт &lt;x1/&gt;Внешние диапазоны квантования&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210526T083031Z" creationid="Марианна" creationdate="20210526T083031Z">
-        <seg>Input (external binning): it appears if &lt;x1/&gt;External binning bins&lt;x2/&gt; port is set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T111021Z" creationid="Марианна" creationdate="20210526T083031Z">
+        <seg>Input (external binning): it appears if &lt;x1/&gt;External binning ranges&lt;x2/&gt; port is set.</seg>
       </tuv>
     </tu>
     <tu>
