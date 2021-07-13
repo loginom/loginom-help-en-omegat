@@ -42,7 +42,7 @@ When adding and editing expressions, the dialog of parameters editing is display
 * **Data type**: it is required to select [data type](../../../data/datatype.md) of the field in the output data set.
 * **Intermediate**: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of fields of the output data set.
 * **Cache**: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent handlers and visualizers in order to avoid repeated calculations.
-* **Description** means clarifying information.
+* **Description**: clarifying information.
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 

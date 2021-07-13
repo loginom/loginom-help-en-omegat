@@ -22,9 +22,9 @@ To get resulting data sets, it is required to provide preliminary [training of t
 * ![](../../../images/icons/app/node/ports/inputs/variable_inactive.svg) —  [Control variables](../../../scenario/variables/control-variables.md) (variables) — optional port. It is possible to set values of the wizard parameters using variables.
 
 ### Outputs
-* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — Regression output is a table that consists of the following fields: field regression of output data, source data set.
-* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Regression model coefficients](./coef-regression.md) denote a data table.
-* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Summary](./report.md) denotes variables.
+* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — Regression output: the table that consists of the following fields: field regression of output data, source data set.
+* ![](../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Regression model coefficients](./coef-regression.md): data table.
+* ![](../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Summary](./report.md): variables.
 
 ## Node Wizard
 
@@ -38,8 +38,8 @@ The wizard includes the following groups of parameters:
 ### Partitioning
 
 The *Partitioning* page of the wizard enables to divide a set into the training and test ones:
-* [Train](https://wiki.loginom.ru/articles/training-set.html) denotes the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
-* [Test](https://wiki.loginom.ru/articles/test-set.html) denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
+* [Train](https://wiki.loginom.ru/articles/training-set.html): the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
+* [Test](https://wiki.loginom.ru/articles/test-set.html): the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
 
 Available Parameters:
 * Size of training and test set in percentage terms or in rows. It can be set by means of variables.
@@ -131,7 +131,7 @@ Detailed settings are joined into the following packs of parameters:
 #### Method Settings
 
 Available Parameters:
-* **Solution accuracy** is a criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
+* **Solution accuracy**: criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
 * **Include intercept into the model** adds the dependent variable to the model.
 
 #### Statistics Calculation Settings

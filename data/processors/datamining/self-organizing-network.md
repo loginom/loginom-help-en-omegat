@@ -32,7 +32,7 @@ The table that consists of the following fields:
 
 * **Cluster number**: each object is assigned with the number of the cluster into which it is included. The cluster consists of the network nodes.
 * **Node number**: each object is assigned with the number of the network node to which it relates. In their turn, the nodes are combined into clusters (*Cluster number* field).
-* **Distance to node** means the Euclidean distance to the nearest node, namely, to the node of the object.
+* **Distance to node**: the Euclidean distance to the nearest node, namely, to the node of the object.
 * All fields of the source data set, irrespective of the field usage type.
 
 ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Coordinates of nodes.

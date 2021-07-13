@@ -14,17 +14,17 @@ With the exception of the [Difference](./distinct.md) method, each of the enumer
 
 ### Input
 
-* ![Main table](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table** is a table to which data sets from the joined table are appended (in the context of the SQL terms, it accepts the left table data for join).
-* ![Joined table](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table**is a table data sets of which are appended to the main table (in the context of the SQL terms, it accepts the right table data for join).
+* ![Main table](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table**: the table to which data sets from the joined table are appended (in the context of the SQL terms, it accepts the left table data for join).
+* ![Joined table](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table**: the table data sets of which are appended to the main table (in the context of the SQL terms, it accepts the right table data for join).
 
 ### Output
 
-* ![Output data set](../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** denotes a join result. As a rule, it contains the fields of the main and joined data sets.
+* ![Output data set](../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: join result. As a rule, it contains the fields of the main and joined data sets.
 
 ## Wizard
 
 * **Operation type** enables to select the join method.
-* **Area of fields mapping** means configuration of the connection fields of the main and joined data sets.
+* **Area of fields mapping**: configuration of the connection fields of the main and joined data sets.
 
 Operation type (join method) can be selected from the drop-down list, or it can be set using the [control variable](../../../scenario/variables/control-variables.md) of the integer type (refer to [data types](../../../data/datatype.md)):
 

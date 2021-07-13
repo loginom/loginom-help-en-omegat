@@ -11,14 +11,14 @@ The following parameters are set during the connection setup:
 * **Connection string** is set in a separate window that can be called both by clicking on ![to be defined](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. These settings are used by the OLE DB driver to connect to the required database.
    * The first option with a separate window called when clicking on ![to be defined](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
       * **Server**: the SQL server host. If it is necessary, the named instance of SQL server is specified using "".
-      * **Database** is a name of the database that includes the required data.
+      * **Database**: the name of the database that includes the required data.
    * When the second option based on the manual entering of parameters is used, it is required to provide the colon separated parameters in the string. The following string format is used: **`<ServerName>:<Port>:<DatabaseName>`**, for example, `host:1433:database1`.
       * **ServerName**: the DBMS server host.
-      * **Port** means the TCP port used by DBMS server to provide interaction with the client. If the parameter is null, `1433` is used by default.
-      * **DatabaseName** is a name of the database that includes the required data.
+      * **Port**: the TCP port used by DBMS server to provide interaction with the client. If the parameter is null, `1433` is used by default.
+      * **DatabaseName**: the name of the database that includes the required data.
 * **Test connection**: connectivity test with the specified settings.
-* **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
+* **Password**: password of the DB user.
 
 * **Parameters**:
    * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.

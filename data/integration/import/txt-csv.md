@@ -19,24 +19,24 @@ The wizard contains several configuration stages.
 The following parameters are specified at the first configuration stage:
 
 * **File storage** enables to display information on method of connection to the source file.
-* **File name** is a path to the file that contains required data.
-* **Codepage** means the encoding used for storage of text in a file.
-* **First line title** is a checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
-* **Skip rows** means count of the rows from the text beginning that cannot be imported.
+* **File name**: the path to the file that contains required data.
+* **Codepage**: the encoding used for storage of text in a file.
+* **First line title**: the checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
+* **Skip rows**: count of the rows from the text beginning that cannot be imported.
 
 ### Step 2. Configure Import Formats
 
 The following parameters are specified at the configuration stage:
 
 * Separators:
-   * **Text qualifier** is a character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurrence is imported as one value even if the text contains a separating character.
-   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions.
-   * **Date separator** is a character that separates date components.
-   * **Time separator** is a character that separates time components.
+   * **Text qualifier**: the character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurrence is imported as one value even if the text contains a separating character.
+   * **Decimal separator**: the character that separates fractional and integer parts of numeric expressions.
+   * **Date separator**: the character that separates date components.
+   * **Time separator**: the character that separates time components.
 * Literals:
-   * **True** is a text that represents the logical *True* value.
-   * **False** is a text that represents the logical *False* value.
-   * **Null** is a text that represents the *Null* value.
+   * **True**: the text that represents the logical *True* value.
+   * **False**: the text that represents the logical *False* value.
+   * **Null**: the text that represents the *Null* value.
 * Formats:
    * **Date format**: the parameter enables to set the date format used in the imported text.
 
@@ -44,7 +44,7 @@ The following parameters are specified at the configuration stage:
 
 It is required to specify the following parameters at the configuration stage:
 
-* **Column delimiter** is a character separating data of adjacent columns.
+* **Column delimiter**: the character separating data of adjacent columns.
 * **Treat consecutive delimiters as one**: checkbox selection enables to treat several consecutive column delimiters as one.
 * It is required to display the following data:
    * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.

@@ -12,8 +12,8 @@ Parameters of the REST service connection, request and response are set. The out
    * **POST**: when selecting this method, the following settings are available:
       * Type of the Content-type request: the `Content-type` header value of HTTP request to REST service is set. It is allowed both to select from the list of predefined values, and to enter a random value.
       * Type of the Content-type response: the same as for GET method (refer to the information above).
-* **Connection timeout (ms)** means the maximum time required for TCP server connection expressed in milliseconds upon expiration of which the connection will be terminated with an error status. If this parameter is equal to 0, timeout is not limited.
-* **Data exchange timeout (ms)** means the maximum time that is required to send HTTP request and receive response upon expiration of which the exchange will be terminated with an error status. If this parameter is equal to 0, timeout is not limited.
+* **Connection timeout (ms)**: the maximum time required for TCP server connection expressed in milliseconds upon expiration of which the connection will be terminated with an error status. If this parameter is equal to 0, timeout is not limited.
+* **Data exchange timeout (ms)**: the maximum time that is required to send HTTP request and receive response upon expiration of which the exchange will be terminated with an error status. If this parameter is equal to 0, timeout is not limited.
 * **Ignore SSL certificate errors**: if this checkbox is selected, the errors detected while testing the server certificate to be connected with are ignored.
 
 ## Authorization for Request Execution

@@ -2,7 +2,7 @@
 
 The component enables to use already existing workflow node for repeated processing of the new data.
 
-**Base node** is a node or [Supernode](./submodel.md), settings and algorithm of which are to be used repeatedly. It can be located outside the current *Supernode*, *Workflow*, *Module* or *Package*.
+**Base node**: the node or [Supernode](./submodel.md), settings and algorithm of which are to be used repeatedly. It can be located outside the current *Supernode*, *Workflow*, *Module* or *Package*.
 
 ## Ports
 

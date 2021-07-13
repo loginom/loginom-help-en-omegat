@@ -6,11 +6,11 @@ The **Table to Tree** node enables to transform the source data displayed in the
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set in the form of a table.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set in the form of a table.
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Output data set** denotes the port providing data after their transformation to the tree-like form.
+* ![Output data set](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Output data set**: the port providing data after their transformation to the tree-like form.
 
 ## Wizard
 
@@ -25,13 +25,13 @@ To create the hierarchic structure, it is required to add at least one child nod
 
 Afterwards the child node will be created. It is possible to define value of the following fields for this node:
 
-* **Name** denotes a unique column name for one data set. It can consist of the following characters:
+* **Name**: the unique column name for one data set. It can consist of the following characters:
    * Capital or low case Latin characters.
    * Underscore characters.
    * Digits (it cannot be the first character).
-* **Caption** denotes a random field description.
-* **Data type** denotes one of the possible [data types](./../../data/datatype.md).
-* **Data kind** denotes one of the possible [data kinds](./../../data/datakind.md).
+* **Caption**: random field description.
+* **Data type**: one of the possible [data types](./../../data/datatype.md).
+* **Data kind**: one of the possible [data kinds](./../../data/datakind.md).
 * **Array**: when selecting this checkbox, the selected child node will be defined as ordered set (array) of one data type.
 * **Container**: when selecting this checkbox, the selected child node will be a root node for other created child nodes of different types.
 
@@ -41,7 +41,7 @@ Upon creation, it is possible to change the set values of fields for the child n
 
 ![Load from XSD...](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** button enables to select *.xsd file from which the output node structure will be loaded (the button is also duplicated by the context menu command). The following fields will be available in the appeared dialog window:
 
-* **XSD file** denotes a field for selection of the *.xsd file (not edited).
+* **XSD file**: the field for selection of the *.xsd file (not edited).
 * **Namespace** enables to select a namespace from a list of all namespaces described in the *.xsd file. It limits selection of the root element only by the specified space. The value of **All namespaces** is set by default.
 * **Root element** enables selection of the root node from the list in the loaded xsd file*. The value of the first root node of the selected file is set by default.
 * **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. In the case of 0 value, recursive nodes won't be automatically opened.

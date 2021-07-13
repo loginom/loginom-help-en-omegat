@@ -163,7 +163,7 @@ import { cube, foo, sayHello } from "/user/foo/foo.js";
 
 #### in the Desktop version
 
-The absolute path is a full path in the file system. For example:
+The absolute path: the full path in the file system. For example:
 
 ```javascript
 import { cube, foo, sayHello } from "C:\\Script\\foo\\foo.js";

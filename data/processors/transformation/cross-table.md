@@ -36,7 +36,7 @@ Upon processing, the values of the *Goods* field were transferred to headers of 
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
 ### Output
 

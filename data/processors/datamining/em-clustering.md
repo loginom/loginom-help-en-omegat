@@ -32,7 +32,7 @@ The table that consists of the following fields:
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Cluster centers (data table).
 
-**Cluster center** denotes the average value of the objects variables included into cluster.
+**Cluster center**: the average value of the objects variables included into cluster.
 Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters. It consists of the following fields:
 
 * **Cluster number**: numbers of the generated clusters are listed.

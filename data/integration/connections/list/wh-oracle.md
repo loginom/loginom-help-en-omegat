@@ -9,7 +9,7 @@ It is possible to provide connection both via DBMS client, and the internal Logi
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** is a string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter below):
+* **Connection string**: the string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter below):
    * The string format when DBMS client is used is as follows:
       * **`<ServerName>`** where
          **ServerName**: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.
@@ -17,12 +17,12 @@ The following parameters are set during the connection setup:
       * **`<ServerName>:<Port>:<SID>`** or
       * **`<ServerName>[:<Port>]/<Service_name>`** where:
          * **ServerName**: the DBMS server host.
-         * **Port** means the TCP port used by DBMS server to provide interaction with the client.
-         * **SID** is a unique name of the DB example (System ID).
-         * **ServiceName** means the alias of one or several DB examples.
+         * **Port**: the TCP port used by DBMS server to provide interaction with the client.
+         * **SID**: the unique name of the DB example (System ID).
+         * **ServiceName**: the alias of one or several DB examples.
 * **Test connection**: connectivity test with the specified settings.
-* **Login** is a login of the DB user.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user.
+* **Password**: password of the DB user.
 * **Parameters**:
    * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
    * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.

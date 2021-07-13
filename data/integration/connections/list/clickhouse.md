@@ -9,14 +9,14 @@ The following parameters are set during the connection setup:
 * **Caption** contains the connection name set by a user.
 * **Connection string** represents the string of the following kind: `host[:port][:database]`. It is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. *Port* and *database* parameters are optional. By default, *port* `9000`, `default` *database*.
 * **Test connection**: test of the specified connection settings.
-* **Login** is a login of the DB user. By default, `default`.
-* **Password** is a password of the DB user. The password is not available by default.
+* **Login**: login of the DB user. By default, `default`.
+* **Password**: password of the DB user. The password is not available by default.
 * **SSL settings**: ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button enables to call the dialog of connection parameters setup via secure connection:
    * **Use SSL**: when this checkbox is selected, the data is transferred via the cryptographic SSL/TLS protocol.
-   * **CA certificate** is a path to the file with the root certificate.
-   * **User certificate** is a path to the file with the client certificate.
-   * **Private key** is a path to the file with the private key.
-   * **Private key password** is a private key password. It is null by default.
+   * **CA certificate**: path to the file with the root certificate.
+   * **User certificate**: path to the file with the client certificate.
+   * **Private key**: path to the file with the private key.
+   * **Private key password**: private key password. It is null by default.
 * **Use local time zone** provides conversion from the local time to UTC and vice versa for the columns of the [DateTime](https://clickhouse.tech/docs/ru/sql_reference/data_types/datetime/) type. This option is enabled by default.
 * **Compression method**: `Without compression` (it is used by default) and `LZ4` options are available.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.

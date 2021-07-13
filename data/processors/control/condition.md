@@ -14,13 +14,13 @@ Primarily, there are no input and output [ports](../../scenario/ports/README.md)
 
 ### Input
 
-* ![Input variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Input variables** denote a set of variables.
+* ![Input variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Input variables**: set of variables.
 * ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** — data table.
 
 ### Output
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote a set of variables.
-* ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** denotes a data table.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: set of variables.
+* ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: data table.
 
 ## Wizard
 
@@ -46,13 +46,13 @@ It enables to provide the presence of the required ports. It is possible to set 
 * ![Delete branch](../../images/icons/toolbar-controls/delete_default.svg) enables to delete branch.
 * ![Delete all branches](../../images/icons/toolbar-controls/delete-all_default.svg) enables to delete all condition branches.
 
-**Condition** is an area for configuration of conditions for particular branch. It is displayed when selecting the listed branch.
+**Condition**: the area for configuration of conditions for particular branch. It is displayed when selecting the listed branch.
 
 * ![Add new condition](../../images/icons/filterdata/filterdata-add_18x18.svg) enables to add a new condition into the branch. Upon pressing, its configuration window will be opened:
    * **Field** contains a list of all variables, table columns and pointer of table records supplied to input ports of the component. The selected object will be used for comparison.
    * **Aggregation** contains a list of the [aggregation](../func/aggregation-functions.md) methods applied to the table fields. The list is not available for variable fields.
    * **Condition** provides selection of the comparison method.
-   * **Compared value** is a value with which the selected object will be compared.
+   * **Compared value**: the value with which the selected object will be compared.
 * **AND/OR**: switch button appears between two conditions in the branch.
    * **AND**: the connected conditions will have the "true" value if both of them are true.
    * **OR**: the connected conditions will have the "true" value if at least one condition is true.
@@ -65,6 +65,6 @@ It enables to provide the presence of the required ports. It is possible to set 
 
 **Debug mode** ![Debug mode](../../images/icons/checkbox-states/checked_default.svg) will be used to check data correctness at the output ports regardless of conditions. The branches specified in *Run condition branch* list will be active. It includes the following components:
 
-* **List of user branches** denotes the branches added by a user. It is possible to select one of them.
+* **List of user branches**: the branches added by a user. It is possible to select one of them.
 * **All branches** enable to activate execution of all branches, including *Otherwise* branch.
 * **Otherwise** enables to activate execution of only *Otherwise* branch.

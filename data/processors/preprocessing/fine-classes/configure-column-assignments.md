@@ -11,7 +11,7 @@
 * **Input Continuous Field Settings**:
    * Prequanting sets the initial quantizing bin count of the input indicator (fine classes) from which the coarse classes will be generated according to the set parameters. It is recommended to use it when there are many unique values in the continuous field.
    * Include upper bin bounds: the upper bound value will be included into the current bin. If the checkbox is inactive, the upper bin bound value relates to the next bin (namely, it is included into it as the lower bound). For example, the checkbox is active: 10 <...≤ 20, the checkbox is inactive: 10 ≤...< 20.
-   * Bin count means the prequanting bin count.
+   * Bin count: the prequanting bin count.
 
 
 * **Input Discrete Field Settings**:

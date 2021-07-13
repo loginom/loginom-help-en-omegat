@@ -4,7 +4,7 @@
 
 **CRC32(String)**
 
-* String is a string for which CRC32 value is calculated.
+* String: the string for which CRC32 value is calculated.
 
 Function returns the number - CRC32 value calculated on the basis of the given string.
 Calculations are performed with the String characters sequence using UTF-8 encoding.
@@ -47,7 +47,7 @@ If the function is called without arguments, it returns the caption of the curre
 
 **MD5(String)**
 
-* String is a string for which MD5 value is calculated.
+* String: the string for which MD5 value is calculated.
 
 Function returns HEX value MD5 calculated on the basis of the given string.
 Calculations are performed with the String characters sequence using UTF-8 encoding.
@@ -89,7 +89,7 @@ Function returns the current record number of the data source.
 
 **SHA1(String)**
 
-* String is a string for which SHA1 value is calculated.
+* String: the string for which SHA1 value is calculated.
 
 Function returns HEX value SHA1 calculated on the basis of the given string.
 Calculations are performed with the String characters sequence using UTF-8 encoding.

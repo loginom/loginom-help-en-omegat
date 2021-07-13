@@ -20,15 +20,15 @@ The node enables to [cache](../../scenario/caching.md) the whole data set, or it
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes the port with changed field features.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the port with changed field features.
 
 ## Wizard
 
-* **Cache** means caching parameters of the output data set. The following options are available:
+* **Cache**: caching parameters of the output data set. The following options are available:
    * **Disabled** means that caching will not be performed. It is used by default.
    * **On activation**: on the node activation, the whole data set will be cached.
    * **While handling**: only those output data set fields will be cached data of which are requested by the subsequent workflow nodes or visualizer.

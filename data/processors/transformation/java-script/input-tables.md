@@ -38,8 +38,8 @@ It contains read-only count of rows. It returns the value of the `number` type.
 
 **Get(row, col)**
 
-- row is a row index. It takes the value of the `number` type.
-- col is a column index or name. It takes the value of the `number` or `string` types.
+- row: row index. It takes the value of the `number` type.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
 The method returns the value of the set column in the set string. The returned value can have the following types: `boolean`, `number`, `string`, `Date`, `undefined`.
 
@@ -49,8 +49,8 @@ The method returns the value of the set column in the set string. The returned v
 
 **IsNull(row, col)**
 
-- row is a row index. It takes the value of the `number` type.
-- col is a column index or name. It takes the value of the `number` or `string` type.
+- row: row index. It takes the value of the `number` type.
+- col: column index or name. It takes the value of the `number` or `string` type.
 
 The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 

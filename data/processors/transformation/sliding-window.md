@@ -6,8 +6,8 @@ In the result, the data set will be obtained. Its field will contain the value t
 
 Thus, the processing based on the windowing method has two parameters:
 
-* **Depth period** is a lag count to the "past".
-* **Forecast horizon** is a lag count to the "future".
+* **Depth period**: lag count to the "past".
+* **Forecast horizon**: the lag count to the "future".
 
 It should be noted that incomplete records will be generated for the bound lag positions (start and end of the source sample): null values for the "past" lags will be generated at the source sample start, and for the "future" lags - at the end. On case by case basis, a user can include such incomplete records into the resulting sample or exclude them.
 
@@ -46,7 +46,7 @@ The resulting table in the case of *Leave incomplete records* value:
 
 ### Input
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** denotes the port for connection of the input data set.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
 ### Output
 
@@ -56,8 +56,8 @@ The resulting table in the case of *Leave incomplete records* value:
 
 The wizard window contains a list of the input table fields. The following configured features are available for each field:
 
-* **Depth period** means count of values from the previous records for which the new fields are created in the output data set.
-* **Forecast horizon** means count of values from the subsequent records for which the new fields are created in the output data set.
+* **Depth period**: count of values from the previous records for which the new fields are created in the output data set.
+* **Forecast horizon**: count of values from the subsequent records for which the new fields are created in the output data set.
 
 *Incomplete records processing method* parameter provides the following methods:
 

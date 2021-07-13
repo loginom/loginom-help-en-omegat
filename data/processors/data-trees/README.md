@@ -1,6 +1,6 @@
 
 ### Data Tree
-Tree is a data structure in the form of a set of connected nodes. The first tree node is called a root. There is always only one root node. If the root is connected with another root, it is a parent root, and the connected root is called a chid root.
+Tree: the data structure in the form of a set of connected nodes. The first tree node is called a root. There is always only one root node. If the root is connected with another root, it is a parent root, and the connected root is called a chid root.
 
 The tree nodes can have the **container** and **array** indicators.
 

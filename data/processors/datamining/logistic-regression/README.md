@@ -39,8 +39,8 @@ It includes the following groups of parameters:
 
 The *Partitioning* page of the wizard enables to divide a set into the training and test ones:
 
-* [Train](https://wiki.loginom.ru/articles/training-set.html) denotes the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
-* [Test](https://wiki.loginom.ru/articles/test-set.html) denotes the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
+* [Train](https://wiki.loginom.ru/articles/training-set.html): the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
+* [Test](https://wiki.loginom.ru/articles/test-set.html): the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
 
 Available Parameters:
 
@@ -146,7 +146,7 @@ Detailed settings are joined into the following packs of parameters:
 #### Method Settings
 
 Available Parameters:
-* **Solution accuracy** is a criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
+* **Solution accuracy**: criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
 * **Cutoff** enables to define the calculated value of the regression equation. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.1.
 * **Include intercept into the model** adds the dependent variable to the model.
 

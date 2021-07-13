@@ -12,7 +12,7 @@ The component is designated for data import from the Data Warehouse [Deductor Wa
 
 ### Output Ports
 
-* ![Output port of table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set** means the data imported from the Data Warehouse.
+* ![Output port of table](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set**: the data imported from the Data Warehouse.
 
 ## Wizard
 
@@ -37,7 +37,7 @@ The item can be only in one list. It is possible to move items between the lists
 
 ### Available Items
 
-* **Parameter** is a parameter caption. When cursor hovering, the full caption name appears.
+* **Parameter**: parameter caption. When cursor hovering, the full caption name appears.
 * **Type** enables to display the item type. There are the following items:
    * ![Dimension](../../images/icons/data-warehouse/dimension_default.svg) *Dimension*.
    * ![Fact](../../images/icons/data-warehouse/fact_default.svg) *Fact*.
@@ -85,10 +85,10 @@ The context menu duplicates the general functions:
 
 The following hotkeys duplicating some listed commands are available:
 
-* %kbd Delete % means to delete.
-* %kbd Shift Delete % means to delete all.
-* %kbd Ctrl Up % means to move up.
-* %kbd Ctrl Down % means to move down.
+* %kbd Delete %: delete.
+* %kbd Shift Delete %: delete all.
+* %kbd Ctrl Up %: move up.
+* %kbd Ctrl Down %: move down.
 
 #### List of Values
 

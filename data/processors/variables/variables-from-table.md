@@ -10,14 +10,14 @@ The handler enables to transform the table data to variables. A variable is gene
 
 ### Output
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote a list of variables received from the input data source using aggregation functions by field.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: list of variables received from the input data source using aggregation functions by field.
 
 ## Wizard
 
 The wizard window is divided into two areas:
 
-* **Available fields** denote a list of fields of the input data set.
-* **Selected fields** denote a list of resulting variables.
+* **Available fields**: list of fields of the input data set.
+* **Selected fields**: list of resulting variables.
 
 The Drag-and-Drop method enables to move fields beween areas.
 
@@ -55,10 +55,10 @@ The context menu duplicates the general functions:
 
 The following hotkeys duplicating the listed commands are available:
 
-* %kbd Ctrl Up % means to move up.
-* %kbd Ctrl Down % means to move down.
-* %kbd F2 % means to edit.
-* %kbd Delete % means to delete selected.
+* %kbd Ctrl Up %: move up.
+* %kbd Ctrl Down %: move down.
+* %kbd F2 %: edit.
+* %kbd Delete %: delete selected.
 
 ## Content of the Output Data Set
 

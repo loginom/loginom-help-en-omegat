@@ -33,12 +33,12 @@ The field will be no longer permitted for use in the following cases:
 The table that consists of the following fields:
 
 * **Cluster number**: each object is assigned with the number of the cluster into which it is included.
-* **Distance to cluster center** denotes the object location relative to the cluster center.
+* **Distance to cluster center**: the object location relative to the cluster center.
 * The source data set fields (values are not changed).
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Cluster centers (data table).
 
-**Cluster center** denotes the average value of the objects variables included into cluster. Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters. It consists of the following fields:
+**Cluster center**: the average value of the objects variables included into cluster. Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters. It consists of the following fields:
 
 * **Cluster number**: numbers of the generated clusters are listed.
 * The source data set fields in the cells of which the average value of parameters has been calculated.

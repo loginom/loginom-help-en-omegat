@@ -4,7 +4,7 @@ It is designated for export of the data set to the text file. It is possible to 
 
 ### Input
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source is a data table to be exported.
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source: the data table to be exported.
 * ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
 
 ## Wizard
@@ -16,31 +16,31 @@ The component is configured in two steps:
 * **File storage** enables to display information on method of connection to the destination file.
 * **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * *Separators* group of parameters:
-   * **Text qualifier** is a character that frames cell data of the data set. The following characters can be used as text qualifiers:
+   * **Text qualifier**: the character that frames cell data of the data set. The following characters can be used as text qualifiers:
       * Double quote (")
       * Single quote (')
       * Back quote (`)
 
       Double quote (") is used by default.
 
-   * **Decimal separator** is a character that separates fractional and integer parts of numeric expressions. Dot (.) or comma (,) can be used as delimiters.
+   * **Decimal separator**: the character that separates fractional and integer parts of numeric expressions. Dot (.) or comma (,) can be used as delimiters.
 
-   * **Date separator** is a character that separates date components. Available delimiters:
+   * **Date separator**: the character that separates date components. Available delimiters:
       * Dot (.)
       * Slash (/)
       * Back slash (&#92;)
 
-   * **Time separator** is a character that separates time components. Colon (:) or dot (.) can be used as delimiters.
+   * **Time separator**: the character that separates time components. Colon (:) or dot (.) can be used as delimiters.
 
       [Local settings](../../scenario/local-settings.md) are used as default values in the following parameters: *Decimal separator*, *Date separator* and *Time separator*.
 
 * *Literals* group of parameters:
-   * **True** is a text that represents the logical TRUE value. The *True* row is used by default. There are the following available values: *True, True, Yes*.
-   * **False** is a text that represents the logical False value. The *False* row is used by default. There are the following available values: *False, False, No*.
-   * **Null** is a text that represents the Null value. The question mark *?* is used by default. There are the following available values: *?, null, NULL*.
+   * **True**: the text that represents the logical TRUE value. The *True* row is used by default. There are the following available values: *True, True, Yes*.
+   * **False**: the text that represents the logical False value. The *False* row is used by default. There are the following available values: *False, False, No*.
+   * **Null**: the text that represents the Null value. The question mark *?* is used by default. There are the following available values: *?, null, NULL*.
 
 * *Formats* group of parameters:
-   * **Date format** is a format of the date representation:
+   * **Date format**: the format of the date representation:
       * dd/mm/yyyy
       * mm/dd/yyyy
       * yyyy/mm/dd
@@ -50,7 +50,7 @@ The component is configured in two steps:
 
       There are the following abbreviations in all formats: dd — day of the month in the form of 2 digits, mm — number of the month in the form of 2 digits, yy — year in the form of 2 digits, yyyy - year in the form of 4 digits.
 
-   * **Time format** is a format of the time representation:
+   * **Time format**: the format of the time representation:
       * h:mm
       * hh:mm
       * h:mm:ss
@@ -62,7 +62,7 @@ The component is configured in two steps:
 
 ### Step 2. Export to the Text File
 
-* **Login status** is a login status row - *Data source*.
+* **Login status**: login status row - *Data source*.
 * *Columns View* group of parameters:
    * **Data format** enables to select one of the following options:
       * **With separators**: this option means values of fields in the source file that are separated by the character set by the *Column delimiter* parameter. The value of this parameter is selected from the list:
@@ -72,7 +72,7 @@ The component is configured in two steps:
          * Comma
          * Dot
       * **Fixed width**: fields in the source file have the set width.
-* **Codepage** means the encoding used for storage of text. There are the following available options:
+* **Codepage**: the encoding used for storage of text. There are the following available options:
    * ANSI/Windows(0);
    * ASCII/MS DOS(1);
    * Cyrillic (1251);

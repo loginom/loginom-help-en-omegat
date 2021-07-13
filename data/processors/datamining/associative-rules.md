@@ -58,9 +58,9 @@ It includes the following groups of parameters:
 
 It is required to determine conditions according to which *frequent object itemsets* are defined, namely, the itemsets that are the most frequently occurring in transactions. Later on, only these itemsets are used to form the rules:
 
-* **Minimum support, %** denotes the minimum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).
-* **Exclude the items with the support exceeding the maximum one** denotes the items that occur too frequently in transactions and, as a rule, do not contain information on principles of combination with other items. The following parameters are set for their determination and exclusion:
-   * **Maximum support, %** denotes the maximum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).
+* **Minimum support, %**: the minimum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).
+* **Exclude the items with the support exceeding the maximum one**: the items that occur too frequently in transactions and, as a rule, do not contain information on principles of combination with other items. The following parameters are set for their determination and exclusion:
+   * **Maximum support, %**: the maximum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).
 * **Containing selected items** enables to set the supplementary data set fields that contain supplementary transaction items.
 * **Exclude single sets** enables to exclude the sets from one item.
 * **Maximum item count** enables to set the maximum count of items in a set (maximum itemset power).
@@ -71,4 +71,4 @@ The rules meeting the following requirements are included into the resulting dat
 
 * **Minimum rule confidence, %** enables to exclude the least precise rules (the value varies from 0 to 100).
 * **Minimum rule lift**: the lift value > 1 indirectly confirms the rule importance, as it shows the positive connection of two object itemsets (rule condition and consequence). The lift value equal or less than 1 shows absence or negative connection. Setting the minimum lift value, it is possible to exclude the least important rules.
-* **Maximum number of consequences** denotes the maximum number of items in the set that represents the rule consequence.
+* **Maximum number of consequences**: the maximum number of items in the set that represents the rule consequence.

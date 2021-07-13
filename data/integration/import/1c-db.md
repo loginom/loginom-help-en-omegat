@@ -20,7 +20,7 @@ The component is designated for import from 1C database.
 There are the following parameters in the wizard:
 
 * **Connection** enables to display a string of connection to data source. It cannot be edited.
-* **Request text** is a field for request to base entry. It determines structure and content of the imported table.  Both Cyrillic 1C and SQL syntax are supported.
+* **Request text**: the field for request to base entry. It determines structure and content of the imported table.  Both Cyrillic 1C and SQL syntax are supported.
 
 [Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first rows of the resulting table.
 
@@ -63,7 +63,7 @@ Catalog.Nomenclature.Reference = Needs.Nomenclature
 WHERE %CONDITION%
 ```
 
-In Example 2 `%CONDITION%` is a construction of substitution of value of `CONDITION` input variable of the import node. `%CONDITION%` construction in the request text will be replaced with the string value of `CONDITION` variable. If the variable will contain the following value: `Nomenclature.ProductItem = "4561"`, the resulting request will have the following form:
+In Example 2 `%CONDITION%`: the construction of substitution of value of `CONDITION` input variable of the import node. `%CONDITION%` construction in the request text will be replaced with the string value of `CONDITION` variable. If the variable will contain the following value: `Nomenclature.ProductItem = "4561"`, the resulting request will have the following form:
 
 ```sql
 SELECT

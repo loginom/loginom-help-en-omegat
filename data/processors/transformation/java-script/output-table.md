@@ -34,8 +34,8 @@ It contains read-only count of rows of the output data set.  It returns the valu
 
 **Get(row, col)**
 
-- row is a row index. It takes the value of the `number` type.
-- col is a column index or name. It takes the value of the `number` or `string` types.
+- row: row index. It takes the value of the `number` type.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
 The method returns the value of the set column in the set string. The returned value can have the following types: `boolean`, `number`, `string`, `Date`, `undefined`.
 
@@ -45,8 +45,8 @@ The method returns the value of the set column in the set string. The returned v
 
 **IsNull(row, col)**
 
-- row is a row index. It takes the value of the `number` type.
-- col is a column index or name. It takes the value of the `number` or `string` types.
+- row: row index. It takes the value of the `number` type.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
 The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
@@ -64,7 +64,7 @@ The method enables to append the new row to the output data set. It does not hav
 
 **Set(col, value)**
 
-- col is a column index or name. It takes the value of the `number` or `string` types.
+- col: column index or name. It takes the value of the `number` or `string` types.
 - value — value. It takes the values of the following types: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
 
 The method enables to set the value of the set column in the string appended by the `Append() method`.

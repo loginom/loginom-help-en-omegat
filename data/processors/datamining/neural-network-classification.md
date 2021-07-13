@@ -61,7 +61,7 @@ It is required to select one of the following usage types for each of the fields
 #### Training Parameters
 
 * Number of restarts: number of attempts of the neural network training (using one and the same set) based on the random initial values of the neural network weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. Integer >= 1 (by default = 10).
-* Decay parameter means the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
+* Decay parameter: the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
    * None (0).
    * Very weak (0.00001).
    * Weak (0.001). It is used by default.
@@ -99,15 +99,15 @@ Three structure related parameters can be selected for the neural network:
 To speed up the autofit process, it is required to set the subsample in which it will be performed:
 
 * **Use a subset of the training set** enables to use a subsample of the [training set](https://wiki.loginom.ru/articles/training-set.html) for autofit.
-   * **Percent sample size** means the size of the training set subsample.
-   * **Maximum sample size** means the maximum size of the training set subsample.
+   * **Percent sample size**: the size of the training set subsample.
+   * **Maximum sample size**: the maximum size of the training set subsample.
 
 #### Auto Stop Criteria
 
 The auto selection process is stopped by default if it is not possible to find better parameters as compared with the detected ones. To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time.
 
-* **Autofit stages not more** means the maximum number of the algorithm steps (0 — restrictions are disabled).
-* **Autofit time not more (s)** means the maximum algorithm operation time (0 — restriction is disabled).
+* **Autofit stages not more**: the maximum number of the algorithm steps (0 — restrictions are disabled).
+* **Autofit time not more (s)**: the maximum algorithm operation time (0 — restriction is disabled).
 
 > **Note:** In the course of the work it is required to take into account that practically both restrictions can be insignificantly exceeded when using subsample for autofit, as the best full set Neural Network will be trained at the last unrestricted stage.
 

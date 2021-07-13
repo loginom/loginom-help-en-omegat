@@ -24,8 +24,8 @@ The Coarse Classes handler operation result is conversion of the input columns i
 %spoiler%Data structure:%spoiler%
 
 * ![ ](../../images/icons/data-types/none_default.svg) **The source data set fields** (values are not changed).
-* ![ ](../../images/icons/data-types/integer_default.svg) **«<Column caption> Class number» field** means the coarse class identifier, integer (starting from 0): a column is always created.
-* ![ ](../../images/icons/data-types/string_default.svg) **«<Column caption> Caption» field** means the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).
+* ![ ](../../images/icons/data-types/integer_default.svg) **«<Column caption> Class number» field**: the coarse class identifier, integer (starting from 0): a column is always created.
+* ![ ](../../images/icons/data-types/string_default.svg) **«<Column caption> Caption» field**: the automatically received caption of the coarse class (numeric limits if it is a continuous variable, or enumeration of unique values with «;» if it is a discrete variable).
 * ![ ](../../images/icons/data-types/float_default.svg) **«<Column caption> Significance» Field.**
 
 %/spoiler%
@@ -34,19 +34,19 @@ The Coarse Classes handler operation result is conversion of the input columns i
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/integer_default.svg) **Group** means the number of the group to which the table record relates. Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coarse Classes node. The number of the group records meets the number of the coarse classes of the source column.
-* ![ ](../../images/icons/data-types/string_default.svg) **Identifier** means the column name under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
-* ![ ](../../images/icons/data-types/string_default.svg) **Column caption** means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
-* ![ ](../../images/icons/data-types/integer_default.svg) **Class number** means the index number assigned to the class while its formation in the Coarse Classes node.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Group**: the number of the group to which the table record relates. Each group of records is associated with an indicator (field) of the source data set that is the input one for the Coarse Classes node. The number of the group records meets the number of the coarse classes of the source column.
+* ![ ](../../images/icons/data-types/string_default.svg) **Identifier**: the column name under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column caption**: the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Class number**: the index number assigned to the class while its formation in the Coarse Classes node.
 * ![ ](../../images/icons/data-types/string_default.svg) **Unique value** displays unique values for the discrete fields.
-* ![ ](../../images/icons/data-types/string_default.svg) **Class caption** means the class identifier assigned to it while its formation in the Coarse Classes node. The class caption of the numeric columns consists of the upper and lower class bounds (only the lower bound is specified for the null class with "from..." preposition, the upper bound is specified for the class with the maximum number with "to..." preposition). For categorical fields: if each class is generated for a separate category, it is required to specify this category as a caption. If the class includes several categories, it is required to list all categories included into the class in the caption.
+* ![ ](../../images/icons/data-types/string_default.svg) **Class caption**: the class identifier assigned to it while its formation in the Coarse Classes node. The class caption of the numeric columns consists of the upper and lower class bounds (only the lower bound is specified for the null class with "from..." preposition, the upper bound is specified for the class with the maximum number with "to..." preposition). For categorical fields: if each class is generated for a separate category, it is required to specify this category as a caption. If the class includes several categories, it is required to list all categories included into the class in the caption.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Events count**: count of the observations in the class for which the output value is an event.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Non-events count**: count of the observations in the class for which the output value is a non-event.
 * ![ ](../../images/icons/data-types/variant_default.svg) **Lower bound**: a number is used to denote the lower bin bound for the numeric indicators. The lower bound is denoted by two categories for categorical indicators, namely, the upper category of the previous class and the lower category of the current class.
 * ![ ](../../images/icons/data-types/variant_default.svg) **Upper bound**: a number is used to denote the upper bin bound for the numeric indicators. The upper bound is denoted by two categories for categorical indicators, namely, the lower category of the next class and the upper category of the current class.
-* ![ ](../../images/icons/data-types/float_default.svg) **Weight of evidence** means the [WoE coefficient](https://wiki.loginom.ru/articles/coefficient-woe.html) for each class.
+* ![ ](../../images/icons/data-types/float_default.svg) **Weight of evidence**: the [WoE coefficient](https://wiki.loginom.ru/articles/coefficient-woe.html) for each class.
 * ![ ](../../images/icons/data-types/float_default.svg) **Information value**: the values of information [values IV](https://wiki.loginom.ru/articles/coefficient-iv.html) calculated for each input column are specified. The sum of quotients of information values for each class provides the total information value of the indicator by which its significance is defined.
-* ![ ](../../images/icons/data-types/float_default.svg) **Class rate** means the ratio of observations number in the class to the total count of observations.
+* ![ ](../../images/icons/data-types/float_default.svg) **Class rate**: the ratio of observations number in the class to the total count of observations.
 * ![ ](../../images/icons/data-types/boolean_default.svg) **Upper bin bound open**.
 * ![ ](../../images/icons/data-types/boolean_default.svg) **Prequantization** shows whether prequantization has been used in the process of the coarse classes generation.
 
@@ -56,13 +56,13 @@ The Coarse Classes handler operation result is conversion of the input columns i
 
 %spoiler%Data structure:%spoiler%
 
-* ![ ](../../images/icons/data-types/string_default.svg) **Column name** means the column identifier under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
-* ![ ](../../images/icons/data-types/string_default.svg) **Column caption** means the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column name**: the column identifier under which it will be processed in the data set. The column count is equal to the input fields number of the Coarse Classes node.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column caption**: the mnemonic symbol of the input column under which it will be visible for a user in the database or data warehouse. The name under which this column is visible in the source data set is set by default.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Events count**: count of the events included into this class.
 * ![ ](../../images/icons/data-types/integer_default.svg) **Non-events count**: count of the non-events included into this class.
-* ![ ](../../images/icons/data-types/integer_default.svg) **Total** means the total number of observations in the class.
+* ![ ](../../images/icons/data-types/integer_default.svg) **Total**: the total number of observations in the class.
 * ![ ](../../images/icons/data-types/float_default.svg) **Information value**: the values of information [values IV](https://wiki.loginom.ru/articles/coefficient-iv.html) calculated for each input column are specified.
-* ![ ](../../images/icons/data-types/string_default.svg) **Column Significance** means the significance level of the input column defined according to the information value. It can take the following values: none, very low, low, mean, high and very high.
+* ![ ](../../images/icons/data-types/string_default.svg) **Column Significance**: the significance level of the input column defined according to the information value. It can take the following values: none, very low, low, mean, high and very high.
 
 %/spoiler%
 

@@ -12,15 +12,15 @@ The following parameters are set during the connection setup:
 * **Connection string** is set in a separate window that can be called both by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button, and by entering the parameters manually. These settings are used by the OLE DB driver to connect to the required database.
    * The first option with a separate window called when clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The window includes two fields.
       * **Server**: MySQL server host.
-      * **Database** is a DB name.
+      * **Database**: DB name.
    * When parameters are manually entered, it is required to provide the colon separated parameters in the string. The following string format is used: `<ServerName>:<Port/Shared Memory>:<DatabaseName>`, for example, `localhost:3306:database1`. When Shared-Memory is used, the following way of writing is also possible: `localhost:MYSQL:database1`.
       * **ServerName**: the DBMS server host. The host value must be `localhost` to connect via the Shared Memory protocol.
-      * **Port/Shared Memory** means the TCP port used by DBMS server to provide interaction with the client. Or `shared-memory-base-name` option set by the server (it mustn't be the correct port number). If the parameter is null, and *ServerName* is not `localhost`, connection is provided via TCP/IP protocol with default port `3306`.
-      * **DatabaseName** is a name of the database that includes the required data. If *Port/Shared Memory* parameter is null, it is allowed to leave this parameter null, in this case all available databases will be shown.
+      * **Port/Shared Memory**: the TCP port used by DBMS server to provide interaction with the client. Or `shared-memory-base-name` option set by the server (it mustn't be the correct port number). If the parameter is null, and *ServerName* is not `localhost`, connection is provided via TCP/IP protocol with default port `3306`.
+      * **DatabaseName**: the name of the database that includes the required data. If *Port/Shared Memory* parameter is null, it is allowed to leave this parameter null, in this case all available databases will be shown.
    * When the string is empty, connection to `localhost` is provided in the field.
 * **Test connection**: test of the specified connection settings.
-* **Login** is a login of the DB user.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user.
+* **Password**: password of the DB user.
 * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.

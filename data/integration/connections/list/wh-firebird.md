@@ -10,12 +10,12 @@ The following parameters are set during the connection setup:
 * **Connection string** is set in a separate window that can be called by clicking on ![to be defined](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). Two connection types are supported:
    * **Local**: connection without the use of the Firebird server; only a path to the DB is specified.
    * **Remote**: connection with the use of the Firebird server.
-      * **Protocol** is a protocol that is used by the server for interaction with a client.
+      * **Protocol**: the protocol that is used by the server for interaction with a client.
       * **Server**: the Firebird server host.
-   * **Database** is a path to the database file.
+   * **Database**: path to the database file.
 * **Test connection**: connectivity test with the specified settings.
-* **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
+* **Password**: password of the DB user.
 
 * **Parameters**:
    * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.

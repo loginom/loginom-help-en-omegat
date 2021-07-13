@@ -19,7 +19,7 @@
 ## Wizard
 
 * **Login status**: it enables to use the input data when the status is active. For example, the data from the input data set is required in "Biased sampling".
-* **Total records** denote the records count of the input data source table.
+* **Total records**: the records count of the input data source table.
 * **Область настройки количества строк выходной таблицы.**
    Размер выходной таблицы задается вручную; кнопка-переключатель предоставляет выбор — непосредственно указать количество строк ![ ](../../images/icons/) или задать его в процентах ![ ](../../images/icons/) от размера исходной таблицы.
 * **Sampling Method**

@@ -11,10 +11,10 @@ The following parameters are set during the connection setup:
    * **Local**: connection without the use of the Interbase server; only a path to the DB is specified.
    * **Remote**: connection with the use of the Interbase server.
       * **Server**: the Interbase server host.
-      * **Protocol** is a protocol that is used by the server for interaction with a client.
+      * **Protocol**: the protocol that is used by the server for interaction with a client.
 * **Test connection**: test of the specified connection settings.
-* **Login** is a login of the DB user. If the login is not specified, the domain authorization is used.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
+* **Password**: password of the DB user.
 * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.

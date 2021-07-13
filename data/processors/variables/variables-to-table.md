@@ -6,11 +6,11 @@ The handler transforms the list of variables to table. It is possible to place t
 
 ### Input
 
-* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** denote a list of variables to be transformed to a table.
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: list of variables to be transformed to a table.
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** denotes a data table.
+* ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: data table.
 
 ## Wizard
 

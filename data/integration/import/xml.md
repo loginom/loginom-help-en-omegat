@@ -25,8 +25,8 @@ The component is designated for data tables import from the XML files.
 
 ### Step 2. Imported Fields
 
-* **Connection** is a state of connection to the XSD schema.
-* **Root element** means selection of the XSD schema root element according to which data will be imported. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the checkboxes for the elements that form the fields of the imported table.
+* **Connection**: the state of connection to the XSD schema.
+* **Root element**: selection of the XSD schema root element according to which data will be imported. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the checkboxes for the elements that form the fields of the imported table.
 * **Default time zone**: the *Date/Time* type values are transformed when extracting from XML according to the following algorithm:
    * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
    * If the time zone is not specified for the value, the following conditions are met:

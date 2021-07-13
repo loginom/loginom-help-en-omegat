@@ -46,24 +46,24 @@ As shown in the table, the sale series of the "Tomato paste" item of goods is di
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set** is a table that contains information on correlation between the fields. It has the following structure:
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: the table that contains information on correlation between the fields. It has the following structure:
    * Required fields:
-      * **Fields|Name** is a name of the first field in the correlation pair.
-      * **Fields|Caption** is a caption of the first field in the correlation pair.
-      * **Fields|Name** is a name of the second field in the correlation pair.
-      * **Fields|Caption** is a caption of the second field in the correlation pair.
+      * **Fields|Name**: the name of the first field in the correlation pair.
+      * **Fields|Caption**: the caption of the first field in the correlation pair.
+      * **Fields|Name**: the name of the second field in the correlation pair.
+      * **Fields|Caption**: the caption of the second field in the correlation pair.
    * There are the following fields the availability of which is set by a user:
-      * **Pearson** means the Pearson correlation coefficients.
-      * **Correlation function extremum** means extremums of cross-correlation function.
-      * **Kendall's Tau-b** means the Kendall's Tau-b rank correlation coefficient.
-      * **Spearman** means the Spearman's rank correlation coefficient.
+      * **Pearson**: the Pearson correlation coefficients.
+      * **Correlation function extremum**: extremums of cross-correlation function.
+      * **Kendall's Tau-b**: the Kendall's Tau-b rank correlation coefficient.
+      * **Spearman**: the Spearman's rank correlation coefficient.
 
 ## Wizard
 
 It includes the list of checkboxes that enable to select coefficients for correlation estimation:
 
 * **Pearson correlation coefficient** enables to determine the strength and direction of the linear relationship between two processes that occur simultaneously.
-* **Kendall's Tau-b coefficient** is a rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked. It is recommended to use for categorical data.
+* **Kendall's Tau-b coefficient**: the rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked. It is recommended to use for categorical data.
 * **Extremum of cross-correlation function** enables to calculate the maximum absolute value of the correlation coefficients of two processes calculated for all possible time shifts. It should be applied if it is required to determine the linear relationship between two processes, or parts of the processes that occur with a certain time lag.
 * **Spearman's rank correlation coefficient** is another version of the rank correlation. Corresponding ranks, not numerical values, are used for numerical fields to estimate the connection strength. Therefore, the Spearman coefficient will be 1 or -1 for any monotone sequences.
 

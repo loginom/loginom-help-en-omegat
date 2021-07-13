@@ -10,14 +10,14 @@ Variables can be added to the source data set. Each of the joined variables adds
 
 ### Input
 
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table** is a port for the input data set.
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table**: the port for the input data set.
 * ![](../../images/icons/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new input ports for the joined tables and variables. There are two types of the new ports:
    * ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Joined table [N] where N is an order number of the table.
    * ![](../../images/icons/app/node/ports/inputs/variable_inactive.svg) Joined variables [N] where N is an order number of the variables port.
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes a table with joined columns.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: table with joined columns.
 
 ## Wizard
 

@@ -6,10 +6,10 @@ Address bar is a breadcrumb trail of objects (refer to Figure 1). To move to the
 
 Navigation elements:
 
-* ![Go up](../images/icons/toolbar-controls/up_default.svg) **Go up** means transition to the upper level object.
+* ![Go up](../images/icons/toolbar-controls/up_default.svg) **Go up**: transition to the upper level object.
 * ![Go back](../images/icons/toolbar-controls/arrow-l_default.svg) **Go back** enables to return to the previous opened object.
 * ![Go forward](../images/icons/toolbar-controls/arrow-r_default.svg) **Go forward** enables to cancel *Go back* transition if no other navigation operations have been performed afterwards.
-* ![Hidden](../images/icons/toolbar-controls/system-panel-more_default.svg) means navigation through the objects for which there's no enough place in *Address bar*. The button is visible only if all objects do not have enough place in *Address bar*.
+* ![Hidden](../images/icons/toolbar-controls/system-panel-more_default.svg): navigation through the objects for which there's no enough place in *Address bar*. The button is visible only if all objects do not have enough place in *Address bar*.
 
 Pressing ![List of subobjects](../images/icons/toolbar-controls/down_default.svg) button, it is possible to go to the subobjects of the complex object (refer to  Figure 2).
 

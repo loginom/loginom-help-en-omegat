@@ -70,16 +70,16 @@ If *Ungrouping method is used: Given time variations and seasonality of the refe
 
 * **Upper bound 95% CI**: the upper bound of 95% [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html).
 * **Lower bound 95% CI**: the lower bound of 95% confidence interval.
-* **Trend value** means the trend value in this point for this position.
-* **Seasonal index value** means the index describing [seasonality](https://wiki.loginom.ru/articles/seasonal-component.html) of this point and this position.
+* **Trend value**: the trend value in this point for this position.
+* **Seasonal index value**: the index describing [seasonality](https://wiki.loginom.ru/articles/seasonal-component.html) of this point and this position.
 * **Value type code** can take values from 0 to 6 according to the ungrouping results.
 * **Value type** contains clarifications concerning each value type code, etc.
-   * **0** means the value that is normally ungrouped.
-   * **1** means the ungrouped value that was initially set as the fixed one but fixation was removed by the algorithm.
-   * **2** means the value fixed by a user.
-   * **3** means the value fixed by a user but inconsistent with the reference sample.
-   * **4** means the value fixed by the algorithm in the calculation process.
-   * **5** means the erroneous value.
+   * **0**: the value that is normally ungrouped.
+   * **1**: the ungrouped value that was initially set as the fixed one but fixation was removed by the algorithm.
+   * **2**: the value fixed by a user.
+   * **3**: the value fixed by a user but inconsistent with the reference sample.
+   * **4**: the value fixed by the algorithm in the calculation process.
+   * **5**: the erroneous value.
    * **6** is excluded from processing.
 * ![Model quality indicators and seasonal indexes](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Model quality indicators and seasonal indexes**: the reference table that is drawn up only when using the following method: *Given time variations and seasonality of the reference data*. It contains fields.
    * **Ungrouping quality indicator** takes the values from 0 (very poor quality, it is not recommended to rely on the results) to 1 (the "ideal" quality, the reference sample does not contain noise, and ungrouped values fully conform to the forecast).

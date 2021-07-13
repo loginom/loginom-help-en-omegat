@@ -49,7 +49,7 @@ Resulting table:
 
 ### Output
 
-* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** denotes the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones. The selected fields are united and joined to the data set according to the set mapping. The fields without mapping append the data set. Prefixes can be optionally added to the captions of the appended fields.
+* ![Output data set](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones. The selected fields are united and joined to the data set according to the set mapping. The fields without mapping append the data set. Prefixes can be optionally added to the captions of the appended fields.
 
 ## Wizard
 
@@ -57,7 +57,7 @@ It is required to map the fields of the main and joined tables. The data of the 
 
 Mapping is possible only for the fields with the same data type. When the wizard is initially opened, the fields with the same name and data type are automatically mapped. Manual setting is performed using the following control elements:
 
-* **Mapping configuration area** denotes the table in which the *Main table* fields are in the left part, and *Connected tables* selected with checkboxes and drop-down lists are in the right part. *Connected tables* are shown as follows: *Connected table*, *Connected table 2* ... *Connected table N*.
+* **Mapping configuration area**: the table in which the *Main table* fields are in the left part, and *Connected tables* selected with checkboxes and drop-down lists are in the right part. *Connected tables* are shown as follows: *Connected table*, *Connected table 2* ... *Connected table N*.
    * **Checkbox**: the fields involved into mapping are selected with a checkbox in these columns of *Connected tables*.
    * **Drop-down lists of fields** are in each row of the mapping table. The list enables to select the field of the joined table that will be mapped to the main table field. The ![Filter](../../images/icons/filter-switcher/filterswitch-on_default.svg) switch enables to change the method of fields representation: complete list or only the fields that have not been selected yet.
 * **Use prefixes**: it is applied if it is required to select not mapped columns of the joined tables. For such columns, it is possible to set the following prefixes in the resulting data set:

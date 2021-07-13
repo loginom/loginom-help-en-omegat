@@ -9,16 +9,16 @@ It is possible to provide connection both via DBMS client, and the internal Logi
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string** is a string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter).
+* **Connection string**: the string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter).
    * The string format when the inbox driver is used is as follows: **`<ServerName>:<Port>:<Instance>`**.
       * **ServerName**: the DBMS server host.
-      * **Port** means the TCP port used by DBMS server to provide interaction with the client.
-      * **Instance** means Oracle Database Instance (SID) that contains the required data.
+      * **Port**: the TCP port used by DBMS server to provide interaction with the client.
+      * **Instance**: Oracle Database Instance (SID) that contains the required data.
    * The string format when DBMS client is used is as follows: *`<ServerName>`*.
       * **ServerName**: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.
 * **Test connection**: test of the specified connection settings.
-* **Login** is a login of the DB user.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user.
+* **Password**: password of the DB user.
 * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.

@@ -8,13 +8,13 @@ If names of the variables from different sets coincide, names of such variables 
 
 ### Input
 
-* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** denote an optional set of variables.
-* ![Added variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Added variables** denote a required set of variables.
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: the optional set of variables.
+* ![Added variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Added variables**: the required set of variables.
 * ![Another port](../../images/icons/app/node/ports/add/add_inactive_default.svg) **Add another port** enables to create new input ports for the subsequent sets of variables.
 
 ### Output
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote a new set of variables.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: the new set of variables.
 
 %spoiler%Example:%spoiler%
 

@@ -2,7 +2,7 @@
 
 The handler is designated for the table import from the [LGD file](../../data-format/lgd-file.md). The DDF files import from the Deductor platform is supported.
 
-LGD is a special format of files optimized for work in Loginom. It provides the maximum writing and reading speed. The file includes settings of fields that simplifies the import process.
+LGD: the special format of files optimized for work in Loginom. It provides the maximum writing and reading speed. The file includes settings of fields that simplifies the import process.
 
 ## Ports
 

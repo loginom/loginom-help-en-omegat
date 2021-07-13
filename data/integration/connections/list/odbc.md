@@ -9,8 +9,8 @@ The following parameters are set during the connection setup:
 * **Caption** contains the connection name set by a user.
 * **Connection string**: it is required to specify the connection string in the format set in the ODBC driver system, or it is possible to select one of the ODBC data sources configured in the system. List of the sources is called by clickong on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The available ODBC data sources are listed. The sources are configured in [ODBC Windows data sources administrator](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). It also contains information on the drivers installed in the system, and it is possible to define the connection string format.
 * **Test connection**: test of the specified connection settings.
-* **Login** is a login of the DB user.
-* **Password** is a password of the DB user.
+* **Login**: login of the DB user.
+* **Password**: password of the DB user.
 * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.

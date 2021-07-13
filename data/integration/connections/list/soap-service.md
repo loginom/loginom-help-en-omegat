@@ -20,8 +20,8 @@ The following parameters are set during the connection setup:
    * **Reserve WSDL source**: the reserve WSDL source is specified. It will be used by the application if the main source is not available, or if errors occur while parsing the main WSDL.
 * **Transform WSDL description using XSLT**: selection of this checkbox enables to introduce changes into the received WSDL file using XSLT transformation.
    * **XSLT path**: URL or path (in file storage) of XSLT file is specified in this field.
-* **Connection timeout (ms)** means the maximum timeout of server response wait expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.
-* **Data exchange timeout (ms)** means the maximum timeout of data wait from server expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.
+* **Connection timeout (ms)**: the maximum timeout of server response wait expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.
+* **Data exchange timeout (ms)**: the maximum timeout of data wait from server expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.
 * **Ignore SSL certificate errors**: when SSL connecting, the server certificate can fail the test due to some reasons. If this checkbox is selected, errors caused by untested certificate are ignored, otherwise connection will not be established.
 
 ## Authorization for Request Execution

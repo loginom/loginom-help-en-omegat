@@ -6,7 +6,7 @@ The regular expression is used to search for the set sequence of characters in e
 
 For example:
 
-Only digits must be used in the bank BIC. The regular expression `\D` denotes all characters that are not digits. There are `О` and `З` letters instead of digits in some BIC values. These values are replaced with `Wrong BIC` row.
+Only digits must be used in the bank BIC. The regular expression `\D`: all characters that are not digits. There are `О` and `З` letters instead of digits in some BIC values. These values are replaced with `Wrong BIC` row.
 
 <table>
  <tr><th>Source data</th><th colspan="2">Values of the replacement table fields</th><th>Replacement result</th></tr>

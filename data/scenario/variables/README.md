@@ -1,6 +1,6 @@
 # Variables
 
-**Variable** is a named object that can contain only one value of the particular type. The variables values can be used in calculations, for example, in the following nodes: [Calculator](../../processors/transformation/calc/README.md),
+**Variable**: the named object that can contain only one value of the particular type. The variables values can be used in calculations, for example, in the following nodes: [Calculator](../../processors/transformation/calc/README.md),
 [Condition](../../processors/control/condition.md),
 etc. The variables values can be also used as
 [control variables](./control-variables.md)
@@ -14,7 +14,7 @@ It is possible to create variables using one of the following methods:
 When creating the variable, it is required to set the following information:
 
 * The name must be unique in one set of variables. It can consist of the capital or lower case Latin letters, underscore characters and digits. The first name character can't be a digit. The name is used to specify the variable in the calculator expressions.
-* Caption is a name that consists of any characters. It is a clarification for a user.
+* Caption: the name that consists of any characters. It is a clarification for a user.
 * The Variable [data type](../../data/datatype.md).
 * Value.
 

@@ -29,7 +29,7 @@ The following parameters are specified at the first configuration stage:
    * **Reference style**: it is requested to select one of the identification options of the Excel worksheet cells.
       * **A1**: according to this format, the row cells are identified in Latin characters, and a column is identified in figures.
       * **R1C1**: in R[x]C[y] format where x is a cell row number, y is a cell column number.
-   * **Range** is a range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.
+   * **Range**: the range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.
    * **All rows**: when selecting this option, the range of cells set in the *Range* parameter will be extended up to the last row.
 * **Blank rows**: as the range of cells set according to the previous parameters can contain blank rows, it is requested to select one of options of their processing.
    * **Import**: blank rows will be imported.

@@ -30,9 +30,9 @@ When closing the *Package* with unsaved changes, you will be requested to save i
 
 Opened *Packages* are listed in the table:
 
-* **Name** is a name of the *Package*. It complies with the file name without extension set to the correct identifier.
-* **Path** is a path to the opened *Package*. The path is specified from the root directory in the server edition. The absolute path is specified for the Desktop version. More detailed information is provided in the [file storage](../location_user_files.md).
-* **Version** is a version of the opened *Package*. It is configured in its *Properties*.
+* **Name**: name of the *Package*. It complies with the file name without extension set to the correct identifier.
+* **Path**: the path to the opened *Package*. The path is specified from the root directory in the server edition. The absolute path is specified for the Desktop version. More detailed information is provided in the [file storage](../location_user_files.md).
+* **Version**: version of the opened *Package*. It is configured in its *Properties*.
 * **Published** shows whether the *Package* was published.
 
 It is possible to sort the list for these fields in ascending order ![ ](../images/icons/toolbar-controls/low-to-hight_default.svg), in descending order ![ ](../images/icons/toolbar-controls/hight-to-low_default.svg), or to cancel sorting.

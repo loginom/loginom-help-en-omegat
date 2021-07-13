@@ -17,8 +17,8 @@
 
 * ![ ](../../images/icons/app/node/ports/outputs-optional/variable_inactive.svg) — Source variables and variables that contain information on the program execution success:
 
-   * ![ ](../../images/icons/data-types/integer_default.svg) **Execution result** denotes the integer variable that contains *0* in the case of the successful completion of the executed program;
-   * ![ ](../../images/icons/data-types/string_default.svg) **Error message** denotes the string variable that contains an error message if it occurred while execution or preparation to the program execution.
+   * ![ ](../../images/icons/data-types/integer_default.svg) **Execution result**: the integer variable that contains *0* in the case of the successful completion of the executed program;
+   * ![ ](../../images/icons/data-types/string_default.svg) **Error message**: the string variable that contains an error message if it occurred while execution or preparation to the program execution.
 
 ## Node Wizard
 
@@ -70,4 +70,4 @@ Example of macro substitution:
 
 ```cmd.exe /C %VariableName%```
 
-Where ```%VariableName%``` means the variable that contains any command to be executed on the Windows command line.
+Where ```%VariableName%```: the variable that contains any command to be executed on the Windows command line.

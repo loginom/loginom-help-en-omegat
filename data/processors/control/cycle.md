@@ -26,15 +26,15 @@ It is not allowed to run the handlers in the loop that have been created on the 
 
 ### Step 2. Configuration of the Loop Type
 
-**Source node** is an informational field that displays the looped node.
+**Source node**: the informational field that displays the looped node.
 
-**Loop type** means determination of the loop operation logics. It is set using the radio button:
+**Loop type**: determination of the loop operation logics. It is set using the radio button:
 
 * **Given iterations**: this loop type will be executed as many times as it will be set in the "Iteration count" parameter.
 * **Postcondition loop**: the iteration count of such loop is controlled according to the condition for consistency with which a variable is checked for each iteration. The loop ends at the iteration that makes the variable value meet such condition. The following settings are set:
-   * **Variable** means selection of a variable for the loop exit condition. The selection list contains the variables sent to the output ports of the looped node.
-   * **Termination condition** means relation of the variable comparability with the Value.
-   * **Value** is a field for entering of the value with which the variable will be compared. It should be noted that the looped node must presuppose the operation with this variable that will enable to meet the loop exit condition, otherwise, the loop will be infinite.
+   * **Variable**: selection of a variable for the loop exit condition. The selection list contains the variables sent to the output ports of the looped node.
+   * **Termination condition**: relation of the variable comparability with the Value.
+   * **Value**: the field for entering of the value with which the variable will be compared. It should be noted that the looped node must presuppose the operation with this variable that will enable to meet the loop exit condition, otherwise, the loop will be infinite.
 * **Group processing**: this loop divides the source data to the groups according to the selected criterion. Thus, the looped node processes each data group separately. The division criterion is governed by the "Type of group processing" parameter:
    * **Fixed group size**: the source data set will be successively divided to the groups the size of which is controlled according to the "Row count in the group" parameter. If the row count in the group is not in multiples of the row count in the source data set, the latter group will have smaller size.
    * **Fixed group count**: the source data set will be divided to the given count of groups. This count is set by the "Group count" parameter. If the count of groups is not in multiples of the row count in the source data set, the row count will be different in some groups, and they will be uniformly distributed among other groups.
@@ -48,7 +48,7 @@ It is not allowed to run the handlers in the loop that have been created on the 
 
 **Ignore errors**: the checkbox disables interruption of the loop execution in the case of errors detection.
 
-**Loop variable** is a variable to which the current iteration number is assigned during the loop execution. Iterations are numbered from 0. The variable is selected from a list of variables of the input ports of the looped node.
+**Loop variable**: the variable to which the current iteration number is assigned during the loop execution. Iterations are numbered from 0. The variable is selected from a list of variables of the input ports of the looped node.
 
 ### Step 3. Mapping Variables
 

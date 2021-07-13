@@ -12,11 +12,11 @@ Sequence of the replacement algorithm actions:
 
 ### Input
 
-* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** denote the variables to be changed.
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: the variables to be changed.
 
 ### Output
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote the variables after processing.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: the variables after processing.
 
 ## Wizard
 

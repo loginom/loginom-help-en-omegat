@@ -12,7 +12,7 @@ The handler is designated for automatic elimination of outliers and extreme valu
 
 ### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set is a source table after processing.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set: the source table after processing.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Outliers are intended to mean the table that contains the source table rows in which outliers have been detected.
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Extreme values are intended to mean the table that contains the source table rows in which extreme values have been detected.
 

@@ -55,7 +55,7 @@ Toolbar (4) is used for connection control:
 * ![Group list](../../images/icons/toolbar-controls/group-list_default.svg) — include the list grouping by connection kinds;
 * ![Configure connection](../../images/icons/toolbar-controls/setup_default.svg) — configure connection;
 * ![Configure visibility](../../images/icons/toolbar-controls/access-rights_default.svg) — configure [visibility](../../scenario/access-modifier.md);
-* ![Delete connection](../../images/icons/toolbar-controls/delete_default.svg) — delete connection;
+* ![Delete connection](../../images/icons/toolbar-controls/delete_default.svg): delete connection;
 * Check — test connection;
 * ![Activate connection](../../images/icons/toolbar-controls/test-connection_default.svg) — activate connection.
 
@@ -76,13 +76,13 @@ The context menu is available for each connection:
 
 The following hotkeys duplicating some listed commands are available:
 
-* %kbd F3 % — activate connection;
-* %kbd Shift F3 % — test connection;
-* %kbd F2 % — rename connection;
-* %kbd Alt G % — group list;
-* %kbd Ctrl D % — filter list;
-* %kbd Enter % — configure connection;
-* %kbd Delete % — delete connection.
+* %kbd F3 %: activate connection;
+* %kbd Shift F3 %: test connection;
+* %kbd F2 %: rename connection;
+* %kbd Alt G %: group list;
+* %kbd Ctrl D %: filter list;
+* %kbd Enter %: configure connection;
+* %kbd Delete %: delete connection.
 
 > **Important:** To provide connections to some sources, for example, to some databases, it is required to install the client of this DBMS or the client libraries with the same bitness as the Loginom application/server bitness.
 

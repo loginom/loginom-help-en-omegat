@@ -9,12 +9,12 @@ The panel of components is located on the left. It consists of the following cat
 * [Derived components](../scenario/derived-component.md) are the components created by users according to the base ones.
 * [Connections](../integration/connections/README.md) are data sources.
 
-The Workflow construction area is located in the centre. It is an area containing the Worlflow nodes and links between them.
+The Workflow construction area is located in the centre: the area containing the Worlflow nodes and links between them.
 
 The toolbar that enables the following operations with the construction area and its constituents is located in the upper part:
 * ![](../images/icons/toolbar-controls/arrow-rr_default.svg) Show/![](../images/icons/toolbar-controls/arrow-ll_default.svg)Hide component panel enables to open or hide the panel of components.
-* ![](../images/icons/toolbar-controls/cursor_default.svg)Object selection mode is a mode used for the Workflow construction by means of standard manipulations.
-* ![](../images/icons/toolbar-controls/hand_default.svg)Workflow navigation mode is a mode used for navigation in the Workflow construction area by means of a mouse.
+* ![](../images/icons/toolbar-controls/cursor_default.svg)Object selection mode: the mode used for the Workflow construction by means of standard manipulations.
+* ![](../images/icons/toolbar-controls/hand_default.svg)Workflow navigation mode: the mode used for navigation in the Workflow construction area by means of a mouse.
 * ![](../images/icons/toolbar-controls/workflow_default.svg) Show as workflow enables to display a Workflow in the standard form (in the form of oriented graph).
 * ![](../images/icons/toolbar-controls/table_default.svg)Show as table provides compact display of the Workflow in the form of a table that contains used items.
 * ![](../images/icons/toolbar-controls/v-align-left_default.svg)Vertical alignment provides vertical alignment of the Workflow nodes in the construction area. There are the following types of the vertical alignment:
@@ -24,7 +24,7 @@ The toolbar that enables the following operations with the construction area and
    * Align top
    * Align center
    * Align bottom
-* ![](../images/icons/toolbar-controls/layout_default.svg) Auto node alignment is an automatic placement of nodes in the Workflow area according to their sequence of data processing.
+* ![](../images/icons/toolbar-controls/layout_default.svg) Auto node alignment: the automatic placement of nodes in the Workflow area according to their sequence of data processing.
 * ![](../images/icons/toolbar-controls/move-front_default.svg)Send selected nodes enables to bring selected nodes and their signatures to:
    * Front
    * Back

@@ -54,12 +54,12 @@ Output table:
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set. The table has the following structure:
    * Required fields:
-      * **Lag** means the lag count to which the source series of numbers is moved relative to its copy.
-      * **ACF** means autocorrelation coefficients for each lag.
-      * **Error** means standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.
-      * **Significance** means conditional conclusion concerning availability/unavailability of correlation in the given lag.
+      * **Lag**: the lag count to which the source series of numbers is moved relative to its copy.
+      * **ACF**: autocorrelation coefficients for each lag.
+      * **Error**: standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.
+      * **Significance**: conditional conclusion concerning availability/unavailability of correlation in the given lag.
    * There are the following fields the availability of which is set by a user:
-      * **PACF** means partial autocorrelation function coefficients. To add this field, it is required to select corresponding checkbox in the wizard.
+      * **PACF**: partial autocorrelation function coefficients. To add this field, it is required to select corresponding checkbox in the wizard.
 
 ## Wizard
 

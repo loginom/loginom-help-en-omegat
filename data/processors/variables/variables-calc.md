@@ -8,11 +8,11 @@ The handler is designated for mathematical operations with variables. New variab
 
 ### Input
 
-* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** denote a list of variables that can be used in the handler.
+* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: list of variables that can be used in the handler.
 
 ### Output
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables** denote input variables and new variables calculated by the handler.
+* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: input variables and new variables calculated by the handler.
 
 ## Wizard
 
@@ -39,11 +39,11 @@ It is possible to create a new expression using the toolbar area or the context 
 
 When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
-* **Name** denotes a variable name in the output data set.
-* **Caption** is a variable caption in the output data set.
+* **Name**: the variable name in the output data set.
+* **Caption**: the variable caption in the output data set.
 * **Type** — [data type](../../data/datatype.md) of the variable in the output data set.
 * **Intermediate**: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of variables of the output data set.
-* **Description** means clarifying information.
+* **Description**: clarifying information.
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
@@ -77,10 +77,10 @@ The toolbar includes the buttons that enable to insert a template or preset layo
 
 Logical operations:
 
-* **AND** means the Logical "AND" operator;
-* **OR** means the Logical "OR" operator;
-* **NOT** means the Logical "NOT" operator;
-* **XOR** means the Logical "exclusive OR" operator.
+* **AND**: the Logical "AND" operator;
+* **OR**: the Logical "OR" operator;
+* **NOT**: the Logical "NOT" operator;
+* **XOR**: the Logical "exclusive OR" operator.
 
 Comparisons operator:
 
@@ -100,8 +100,8 @@ Templates:
 
 Logical values:
 
-* **FALSE** denotes the false value.
-* **TRUE** denotes the true value.
+* **FALSE**: the false value.
+* **TRUE**: the true value.
 
 #### Comments
 

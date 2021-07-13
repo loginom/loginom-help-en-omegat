@@ -28,10 +28,10 @@ The toolbar includes the buttons that enable to insert a template or preset layo
 
 Logical operations:
 
-* **AND** means the Logical "AND" operator;
-* **OR** means the Logical "OR" operator;
-* **NOT** means the Logical "NOT" operator;
-* **XOR** means the Logical "exclusive OR" operator.
+* **AND**: the Logical "AND" operator;
+* **OR**: the Logical "OR" operator;
+* **NOT**: the Logical "NOT" operator;
+* **XOR**: the Logical "exclusive OR" operator.
 
 Comparisons operator:
 
@@ -51,8 +51,8 @@ Templates:
 
 Logical values:
 
-* **FALSE** denotes the false value.
-* **TRUE** denotes the true value.
+* **FALSE**: the false value.
+* **TRUE**: the true value.
 
 ## Comments
 

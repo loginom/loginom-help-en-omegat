@@ -34,9 +34,9 @@ When workflow nodes are set as the nodes required for publication, it is necessa
 
 To publish the package, it is required to click on the required package in the [navigation tree](../../interface/main-menu.md#navigatsiya) using the right button, and select *Publish packages…* in the context menu. It will enable to open the package publication wizard with the following settings:
 
-* **Published packages** is a list of already published packages.
+* **Published packages**: the list of already published packages.
 * **Path to the package file** is manually specified or selected from the drop-down list of the opened packages.
-* **Select namespace** means the namespace of items and attributes that provides their uniqueness in WSDL description of the service. It is required to select one of the options:
+* **Select namespace**: the namespace of items and attributes that provides their uniqueness in WSDL description of the service. It is required to select one of the options:
    * Use Loginom Integrator namespace;
    * Generate unique for package (it is used by default);
    * Generate unique for each package version;
@@ -65,13 +65,13 @@ Select the required package in *Published packages* list of *Publish packages…
 
 See the link below to get WSDL of the published SOAP service:
 
-`http://<Server>/<App>/service.svc?wsdl` where `<Server>` means the Loginom Integrator host, `<App>` is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
+`http://<Server>/<App>/service.svc?wsdl` where `<Server>`: the Loginom Integrator host, `<App>` is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
 
 Example: `http://localhost/lgi/service.svc?wsdl`
 
 See the link below to get information on endpoints, operations, URL, structure of REST requests and responses:
 
-`http://<Server>/<App>/service.svc/rest/help` where `<Server>` means the Loginom Integrator host, `<App>` is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
+`http://<Server>/<App>/service.svc/rest/help` where `<Server>`: the Loginom Integrator host, `<App>` is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
 
 Example: `http://localhost/lgi/service.svc/rest/help`
 

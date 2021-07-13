@@ -9,19 +9,19 @@ The component is designated for the table transformation to XML.
 ### Input
 
 * ![](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connect to XSD schema source (required port) allows for connection to [Connection to set of the XSD schemas](../../integration/connections/list/schemes.md) node.
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source is a data set to be transformed.
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source: the data set to be transformed.
 * ![](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using the port variables. To display the port, it is required to select the following item in the context menu of the node: *Show control variables port*.
 
 ### Output
 
-* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Output data set is a table that contains resulting XML and their identifiers (ID).
+* ![](../../images/icons/app/node/ports/inputs/table_inactive.svg) Output data set: the table that contains resulting XML and their identifiers (ID).
 
 ## Wizard
 
 ### Step 1. Fields Mapping for XML Generation
 
-* **Connection** is a state of connection to the XSD schema.
-* **Root element** means selection of the XSD schema root element the structure of which enables to describe the resulting XML.
+* **Connection**: the state of connection to the XSD schema.
+* **Root element**: selection of the XSD schema root element the structure of which enables to describe the resulting XML.
 * **Object linking**: lists of the input table fields and items of the resulting XML schema are represented. It is required to establish the links between the table fields and XML schema items. It can be done in several ways:
    * *Drag-and-drop* method: drag the field caption from the left list of the fields to the XML schema item. Types of the table field data and linked item must coincide.
    * It is necessary to select the required item of the XML schema in the right table and select the input table field caption from the drop-down list in the *Related fields* column. The drop-down list filter in ![](../../images/icons/filter-switcher/filterswitch-on_default.svg) state displays only the fields that have not been connected with items yet, and it displays all fields for selection in ![](../../images/icons/filter-switcher/filterswitch-off_default.svg) state.

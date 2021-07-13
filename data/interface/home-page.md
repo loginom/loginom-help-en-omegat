@@ -12,8 +12,8 @@ This page contains the following commands to use [packages](../quick-start/packa
 
 "Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:
 
-* **Name** is a Package file.
-* **Location** is a location of the Package on disk (desktop version) or in [file storage](../location_user_files.md) (server version).
-* **Open time** is a date and time of the Package opening.
+* **Name**: Package file.
+* **Location**: location of the Package on disk (desktop version) or in [file storage](../location_user_files.md) (server version).
+* **Open time**: the date and time of the Package opening.
 
 > **Note:** it is possible to open previously opened Package by pressing its name.

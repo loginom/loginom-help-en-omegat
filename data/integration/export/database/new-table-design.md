@@ -25,7 +25,7 @@ The following data is set below:
 * Table fields specifying the following parameters:
    * Field name in the [permissible format](../../../data/datasetfieldoptions.md).
    * Type of the field data.
-   * Size (only for the string field) is a maximum string length; by default, it is equal to 50. It is required to adjust the parameter value set by default according to the exported data, if relevant.
+   * Size (only for the string field): the maximum string length; by default, it is equal to 50. It is required to adjust the parameter value set by default according to the exported data, if relevant.
 
 > **Important:** When exceeding the maximum value of the exported string length, the export error will occur.
 

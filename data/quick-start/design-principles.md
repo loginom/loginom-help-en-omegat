@@ -1,6 +1,6 @@
 # Design Principles
 
-The **Project** is a complex of workflows, files, data sources and other items designated for solution of a particular analytical task.
+The **Project**: complex of workflows, files, data sources and other items designated for solution of a particular analytical task.
 
 The project can include several packages due to the fact that each package can provide its objects to other packages using the link mechanism.
 
