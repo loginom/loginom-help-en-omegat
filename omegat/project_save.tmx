@@ -6608,8 +6608,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;DatabaseName&lt;x2/&gt; — имя базы, содержащей необходимые данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T152001Z" creationid="Марианна" creationdate="20210201T152001Z">
-        <seg>&lt;x1/&gt;DatabaseName&lt;x2/&gt; is a name of the database that includes the required data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131647Z" creationid="Марианна" creationdate="20210201T152001Z">
+        <seg>&lt;x1/&gt;DatabaseName&lt;x2/&gt;: the name of the database that includes the required data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8448,16 +8448,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;База данных&lt;x2/&gt; — имя базы, содержащей необходимые данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T151012Z" creationid="Марианна" creationdate="20210201T151012Z">
-        <seg>&lt;x1/&gt;Database&lt;x2/&gt; is a name of the database that includes the required data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131628Z" creationid="Марианна" creationdate="20210201T151012Z">
+        <seg>&lt;x1/&gt;Database&lt;x2/&gt;: the name of the database that includes the required data.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;База данных&lt;x2/&gt; — наименование БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T153341Z" creationid="Марианна" creationdate="20210201T153341Z">
-        <seg>&lt;x1/&gt;Database&lt;x2/&gt; is a DB name.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131708Z" creationid="Марианна" creationdate="20210201T153341Z">
+        <seg>&lt;x1/&gt;Database&lt;x2/&gt;: DB name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14067,8 +14067,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пароль приватного ключа&lt;x2/&gt; — пароль приватного ключа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T121652Z" creationid="Марианна" creationdate="20210118T121652Z">
-        <seg>&lt;x1/&gt;Private key password&lt;x2/&gt; is a private key password.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131435Z" creationid="Марианна" creationdate="20210118T121652Z">
+        <seg>&lt;x1/&gt;Private key password&lt;x2/&gt;: private key password.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15235,8 +15235,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Приватный ключ&lt;x2/&gt; — путь к файлу с приватным ключом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210118T121727Z" creationid="Марианна" creationdate="20210118T121727Z">
-        <seg>&lt;x1/&gt;Private key&lt;x2/&gt; is a path to the file with the private key.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131421Z" creationid="Марианна" creationdate="20210118T121727Z">
+        <seg>&lt;x1/&gt;Private key&lt;x2/&gt;: path to the file with the private key.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18878,8 +18878,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;протокол&lt;x2/&gt; — протокол, используемый сервером для взаимодействия с клиентом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210121T083502Z" creationid="Марианна" creationdate="20210121T083502Z">
-        <seg>&lt;x1/&gt;Protocol&lt;x2/&gt; is a protocol that is used by the server for interaction with a client.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T131455Z" creationid="Марианна" creationdate="20210121T083502Z">
+        <seg>&lt;x1/&gt;Protocol&lt;x2/&gt;: the protocol that is used by the server for interaction with a client.</seg>
       </tuv>
     </tu>
     <tu>
