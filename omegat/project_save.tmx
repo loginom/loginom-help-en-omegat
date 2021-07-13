@@ -2870,8 +2870,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Коэффициенты модели&lt;x4/&gt; — таблица данных, которая содержит следующие коэффициенты:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064858Z" creationid="Марианна" creationdate="20201208T064858Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Model coefficients&lt;x4/&gt; denote the data table that contains the following coefficients:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142225Z" creationid="Марианна" creationdate="20201208T064858Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Model coefficients&lt;x4/&gt;: the data table that contains the following coefficients:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3486,8 +3486,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сводка&lt;x4/&gt; — переменные:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064952Z" creationid="Марианна" creationdate="20201208T064928Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Summary&lt;x4/&gt; denotes variables:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142233Z" creationid="Марианна" creationdate="20201208T064928Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Summary&lt;x4/&gt;: variables:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7928,16 +7928,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора *.xsd-файла (не редактируемое).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T162451Z" creationid="Марианна" creationdate="20200929T185618Z">
-        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt; denotes a field for selection of the *.xsd file (not edited).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142135Z" creationid="Марианна" creationdate="20200929T185618Z">
+        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt;: the field for selection of the *.xsd file (not edited).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XSD файл&lt;x2/&gt; — поле для выбора файла (не редактируемое).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T162522Z" creationid="Марианна" creationdate="20201001T162414Z">
-        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt; denotes a field for the file selection (not edited).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142159Z" creationid="Марианна" creationdate="20201001T162414Z">
+        <seg>&lt;x1/&gt;XSD file&lt;x2/&gt;: the field for the file selection (not edited).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9003,8 +9003,8 @@ To provide integration with several sources, for example, databases and web serv
         <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;видов данных&lt;x4/&gt;
 .</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T161419Z" creationid="Марианна" creationdate="20201001T161419Z">
-        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data kinds&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142144Z" creationid="Марианна" creationdate="20201001T161419Z">
+        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt;: one of the possible &lt;x3/&gt;data kinds&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9227,8 +9227,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входной источник данных&lt;x2/&gt; &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — порт для подключения входного набора данных в виде таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110248Z" creationid="Марианна" creationdate="20200929T102902Z">
-        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt; denotes the port for connection of the input data set in the form of a table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142101Z" creationid="Марианна" creationdate="20200929T102902Z">
+        <seg>&lt;x1/&gt;Input data source&lt;x2/&gt; &lt;x3/&gt;Input data source&lt;x4/&gt;: the port for connection of the input data set in the form of a table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9587,8 +9587,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной источник данных&lt;x2/&gt; &lt;x3/&gt;Выходной источник данных&lt;x4/&gt; — порт, отдающий данные после их преобразования в древовидную форму.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T110257Z" creationid="Марианна" creationdate="20200929T103120Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes the port providing data after their transformation to the tree-like form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142109Z" creationid="Марианна" creationdate="20200929T103120Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the port providing data after their transformation to the tree-like form.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9659,8 +9659,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходной набор данных&lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T070004Z" creationid="Марианна" creationdate="20200924T070004Z">
-        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; denotes a data table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142037Z" creationid="Марианна" creationdate="20200924T070004Z">
+        <seg>&lt;x1/&gt;Output data set&lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: data table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11275,8 +11275,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Исключать элементы с поддержкой, больше максимальной&lt;x2/&gt; — элементы, которые слишком часто встречаются в транзакциях, как правило, не несут информации о закономерностях сочетания с ними других элементов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T195636Z" creationid="Марианна" creationdate="20201208T195636Z">
-        <seg>&lt;x1/&gt;Exclude the items with the support exceeding the maximum one&lt;x2/&gt; denotes the items that occur too frequently in transactions and, as a rule, do not contain information on principles of combination with other items.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142311Z" creationid="Марианна" creationdate="20201208T195636Z">
+        <seg>&lt;x1/&gt;Exclude the items with the support exceeding the maximum one&lt;x2/&gt;: the items that occur too frequently in transactions and, as a rule, do not contain information on principles of combination with other items.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12147,8 +12147,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимальная поддержка, %&lt;x2/&gt; — максимальная частота, с которой элемент встречается в транзакциях (значение от 0 до 100).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T195757Z" creationid="Марианна" creationdate="20201208T195757Z">
-        <seg>&lt;x1/&gt;Maximum support, %&lt;x2/&gt; denotes the maximum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142320Z" creationid="Марианна" creationdate="20201208T195757Z">
+        <seg>&lt;x1/&gt;Maximum support, %&lt;x2/&gt;: the maximum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12163,8 +12163,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимальное число следствий&lt;x2/&gt; — максимальное количество элементов в наборе, представляющем следствие правила.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T201302Z" creationid="Марианна" creationdate="20201208T201241Z">
-        <seg>&lt;x1/&gt;Maximum number of consequences&lt;x2/&gt; denotes the maximum number of items in the set that represents the rule consequence.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142329Z" creationid="Марианна" creationdate="20201208T201241Z">
+        <seg>&lt;x1/&gt;Maximum number of consequences&lt;x2/&gt;: the maximum number of items in the set that represents the rule consequence.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12459,8 +12459,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Минимальная поддержка, %&lt;x2/&gt; — минимальная частота, с которой набор встречается в транзакциях (значение 0 до 100).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T195429Z" creationid="Марианна" creationdate="20201208T195429Z">
-        <seg>&lt;x1/&gt;Minimum support, %&lt;x2/&gt; denotes the minimum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142254Z" creationid="Марианна" creationdate="20201208T195429Z">
+        <seg>&lt;x1/&gt;Minimum support, %&lt;x2/&gt;: the minimum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).</seg>
       </tuv>
     </tu>
     <tu>
@@ -17158,8 +17158,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Список пользовательских ветвей&lt;x2/&gt; — добавленные пользователем ветви, можно выбрать одну из них;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T084629Z" creationid="Марианна" creationdate="20200924T084629Z">
-        <seg>&lt;x1/&gt;List of user branches&lt;x2/&gt; denotes the branches added by a user. It is possible to select one of them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142052Z" creationid="Марианна" creationdate="20200924T084629Z">
+        <seg>&lt;x1/&gt;List of user branches&lt;x2/&gt;: the branches added by a user. It is possible to select one of them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29985,8 +29985,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Доверительный интервал прогноза в % от 0 до 100 — значение вещественного типа, по умолчанию 95.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T194007Z" creationid="Марианна" creationdate="20201208T074040Z">
-        <seg>Confidence forecast interval in % from 0 to 100 denotes the real value. By default, it is 95.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142246Z" creationid="Марианна" creationdate="20201208T074040Z">
+        <seg>Confidence forecast interval in % from 0 to 100: the real value. By default, it is 95.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32240,16 +32240,16 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Имя_поля|Верхняя граница — верхняя граница доверительного интервала.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064606Z" creationid="Марианна" creationdate="20201208T064606Z">
-        <seg>Field_name|Upper bound denotes the lower bound of the confidence interval.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142217Z" creationid="Марианна" creationdate="20201208T064606Z">
+        <seg>Field_name|Upper bound: the lower bound of the confidence interval.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Имя_поля|Нижняя граница — нижняя граница &lt;x1/&gt;доверительного интервала&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201208T064418Z" creationid="Марианна" creationdate="20201208T064418Z">
-        <seg>Field_name|Lower bound denotes the lower bound of the &lt;x1/&gt;confidence interval&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142208Z" creationid="Марианна" creationdate="20201208T064418Z">
+        <seg>Field_name|Lower bound: the lower bound of the &lt;x1/&gt;confidence interval&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
