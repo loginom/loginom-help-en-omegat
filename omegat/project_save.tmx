@@ -6392,8 +6392,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Adapter&lt;x2/&gt; — необязательный компонент.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T222225Z" creationid="Марианна" creationdate="20210210T222225Z">
-        <seg>&lt;x1/&gt;Adapter&lt;x2/&gt; is an optional component.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132805Z" creationid="Марианна" creationdate="20210210T222225Z">
+        <seg>&lt;x1/&gt;Adapter&lt;x2/&gt;: optional component.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6944,8 +6944,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Integrator&lt;x2/&gt; — компонент, отвечающий за публикацию собственных веб-сервисов на основе созданных в Loginom пакетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T223044Z" creationid="Марианна" creationdate="20210210T223044Z">
-        <seg>&lt;x1/&gt;Integrator&lt;x2/&gt; is a component responsible for publication of own web services based on the packages created in Loginom.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132751Z" creationid="Марианна" creationdate="20210210T223044Z">
+        <seg>&lt;x1/&gt;Integrator&lt;x2/&gt;: the component responsible for publication of own web services based on the packages created in Loginom.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8360,8 +8360,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Адресная строка&lt;x2/&gt; — строка, содержащая путь к открытому объекту;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T133118Z" creationid="Марианна" creationdate="20200814T133118Z">
-        <seg>&lt;x1/&gt;Address bar&lt;x2/&gt; is a line that contains a path to the opened object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132932Z" creationid="Марианна" creationdate="20200814T133118Z">
+        <seg>&lt;x1/&gt;Address bar&lt;x2/&gt;: the line that contains a path to the opened object.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8930,8 +8930,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Версия&lt;x2/&gt; — версия открытого &lt;x3/&gt;Пакета&lt;x4/&gt;, настраивается в его &lt;x5/&gt;Свойствах&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T133615Z" creationid="Марианна" creationdate="20200816T133615Z">
-        <seg>&lt;x1/&gt;Version&lt;x2/&gt; is a version of the opened &lt;x3/&gt;Package&lt;x4/&gt;. It is configured in its &lt;x5/&gt;Properties&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132910Z" creationid="Марианна" creationdate="20200816T133615Z">
+        <seg>&lt;x1/&gt;Version&lt;x2/&gt;: version of the opened &lt;x3/&gt;Package&lt;x4/&gt;. It is configured in its &lt;x5/&gt;Properties&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9851,8 +9851,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Главное меню&lt;x2/&gt; — панель с кнопками для манипуляции с различными настройками;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T132958Z" creationid="Марианна" creationdate="20200814T132218Z">
-        <seg>&lt;x1/&gt;Main menu&lt;x2/&gt; is a panel designated for operations with different settings.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132920Z" creationid="Марианна" creationdate="20200814T132218Z">
+        <seg>&lt;x1/&gt;Main menu&lt;x2/&gt;: the panel designated for operations with different settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11011,8 +11011,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имя &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T132932Z" creationid="Марианна" creationdate="20200816T132932Z">
-        <seg>&lt;x1/&gt;Name&lt;x2/&gt; is a name of the &lt;x3/&gt;Package&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132841Z" creationid="Марианна" creationdate="20200816T132932Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: name of the &lt;x3/&gt;Package&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11043,8 +11043,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — файл Пакета;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T105728Z" creationid="Марианна" creationdate="20200814T105728Z">
-        <seg>&lt;x1/&gt;Name&lt;x2/&gt; is a Package file.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132816Z" creationid="Марианна" creationdate="20200814T105728Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: Package file.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12115,8 +12115,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ложь&lt;x2/&gt; – текст, представляющий логическое значение &lt;x3/&gt;Ложь&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T093538Z" creationid="Марианна" creationdate="20200826T093538Z">
-        <seg>&lt;x1/&gt;False&lt;x2/&gt; is a text that represents the logical &lt;x3/&gt;False&lt;x4/&gt; value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132638Z" creationid="Марианна" creationdate="20200826T093538Z">
+        <seg>&lt;x1/&gt;False&lt;x2/&gt;: the text that represents the logical &lt;x3/&gt;False&lt;x4/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12275,8 +12275,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Местоположение&lt;x2/&gt; — место файла Пакета на диске (настольная версия) или в &lt;x3/&gt;файловом хранилище&lt;x4/&gt; (серверная версия);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T105958Z" creationid="Марианна" creationdate="20200814T105958Z">
-        <seg>&lt;x1/&gt;Location&lt;x2/&gt; is a location of the Package on disk (desktop version) or in &lt;x3/&gt;file storage&lt;x4/&gt; (server version).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132823Z" creationid="Марианна" creationdate="20200814T105958Z">
+        <seg>&lt;x1/&gt;Location&lt;x2/&gt;: location of the Package on disk (desktop version) or in &lt;x3/&gt;file storage&lt;x4/&gt; (server version).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13651,8 +13651,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Опубликованные пакеты&lt;x2/&gt; — список уже опубликованных пакетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T223438Z" creationid="Марианна" creationdate="20210210T223438Z">
-        <seg>&lt;x1/&gt;Published packages&lt;x2/&gt; is a list of already published packages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132739Z" creationid="Марианна" creationdate="20210210T223438Z">
+        <seg>&lt;x1/&gt;Published packages&lt;x2/&gt;: the list of already published packages.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13723,8 +13723,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Открывался&lt;x2/&gt; — дата и время открытия Пакета.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200814T110024Z" creationid="Марианна" creationdate="20200814T110024Z">
-        <seg>&lt;x1/&gt;Open time&lt;x2/&gt; is a date and time of the Package opening.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132832Z" creationid="Марианна" creationdate="20200814T110024Z">
+        <seg>&lt;x1/&gt;Open time&lt;x2/&gt;: the date and time of the Package opening.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14011,8 +14011,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметр&lt;x2/&gt; — метка параметра, при наведении курсора мыши появляется полное название метки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T200453Z" creationid="Марианна" creationdate="20200829T200453Z">
-        <seg>&lt;x1/&gt;Parameter&lt;x2/&gt; is a parameter caption. When cursor hovering, the full caption name appears.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132714Z" creationid="Марианна" creationdate="20200829T200453Z">
+        <seg>&lt;x1/&gt;Parameter&lt;x2/&gt;: parameter caption. When cursor hovering, the full caption name appears.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16022,8 +16022,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пусто&lt;x2/&gt; – текст, представляющий значение &lt;x3/&gt;Null&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T093609Z" creationid="Марианна" creationdate="20200826T093609Z">
-        <seg>&lt;x1/&gt;Null&lt;x2/&gt; is a text that represents the &lt;x3/&gt;Null&lt;x4/&gt; value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132651Z" creationid="Марианна" creationdate="20200826T093609Z">
+        <seg>&lt;x1/&gt;Null&lt;x2/&gt;: the text that represents the &lt;x3/&gt;Null&lt;x4/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16054,8 +16054,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Путь&lt;x2/&gt; — путь до открытого &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200816T133207Z" creationid="Марианна" creationdate="20200816T133207Z">
-        <seg>&lt;x1/&gt;Path&lt;x2/&gt; is a path to the opened &lt;x3/&gt;Package&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132854Z" creationid="Марианна" creationdate="20200816T133207Z">
+        <seg>&lt;x1/&gt;Path&lt;x2/&gt;: the path to the opened &lt;x3/&gt;Package&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16222,8 +16222,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель столбцов&lt;x2/&gt; — символ, разделяющий данные соседних столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T094231Z" creationid="Марианна" creationdate="20200826T094220Z">
-        <seg>&lt;x1/&gt;Column delimiter&lt;x2/&gt; is a character separating data of adjacent columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132702Z" creationid="Марианна" creationdate="20200826T094220Z">
+        <seg>&lt;x1/&gt;Column delimiter&lt;x2/&gt;: the character separating data of adjacent columns.</seg>
       </tuv>
     </tu>
     <tu>
