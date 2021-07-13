@@ -48,8 +48,8 @@
       <tuv lang="ru">
         <seg>%kbd Alt G % — группировка списка;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T204006Z" creationid="Марианна" creationdate="20210208T204006Z">
-        <seg>%kbd Alt G % — group list;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141331Z" creationid="Марианна" creationdate="20210208T204006Z">
+        <seg>%kbd Alt G %: group list;</seg>
       </tuv>
     </tu>
     <tu>
@@ -80,8 +80,8 @@
       <tuv lang="ru">
         <seg>%kbd Ctrl D % — фильтровать список;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T204021Z" creationid="Марианна" creationdate="20210208T204021Z">
-        <seg>%kbd Ctrl D % — filter list;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141336Z" creationid="Марианна" creationdate="20210208T204021Z">
+        <seg>%kbd Ctrl D %: filter list;</seg>
       </tuv>
     </tu>
     <tu>
@@ -192,8 +192,8 @@
       <tuv lang="ru">
         <seg>%kbd Enter % — настроить подключение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T204034Z" creationid="Марианна" creationdate="20210208T204034Z">
-        <seg>%kbd Enter % — configure connection;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141342Z" creationid="Марианна" creationdate="20210208T204034Z">
+        <seg>%kbd Enter %: configure connection;</seg>
       </tuv>
     </tu>
     <tu>
@@ -208,8 +208,8 @@
       <tuv lang="ru">
         <seg>%kbd F2 % — переименовать подключение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T203937Z" creationid="Марианна" creationdate="20210208T203937Z">
-        <seg>%kbd F2 % — rename connection;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141326Z" creationid="Марианна" creationdate="20210208T203937Z">
+        <seg>%kbd F2 %: rename connection;</seg>
       </tuv>
     </tu>
     <tu>
@@ -224,8 +224,8 @@
       <tuv lang="ru">
         <seg>%kbd F3 % — активировать подключение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T203911Z" creationid="Марианна" creationdate="20210208T203911Z">
-        <seg>%kbd F3 % — activate connection;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141316Z" creationid="Марианна" creationdate="20210208T203911Z">
+        <seg>%kbd F3 %: activate connection;</seg>
       </tuv>
     </tu>
     <tu>
@@ -240,8 +240,8 @@
       <tuv lang="ru">
         <seg>%kbd Shift F3 % — тестировать подключение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T203924Z" creationid="Марианна" creationdate="20210208T203924Z">
-        <seg>%kbd Shift F3 % — test connection;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141322Z" creationid="Марианна" creationdate="20210208T203924Z">
+        <seg>%kbd Shift F3 %: test connection;</seg>
       </tuv>
     </tu>
     <tu>
