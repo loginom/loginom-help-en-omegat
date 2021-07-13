@@ -5198,8 +5198,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — порт для входного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201019T064917Z" creationid="Марианна" creationdate="20201019T064917Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt; is a port for the input data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133941Z" creationid="Марианна" creationdate="20201019T064917Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt;: the port for the input data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9827,8 +9827,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Главная таблица&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — таблица, к которой добавляются наборы данных из присоединяемой таблицы (в контексте понятий языка SQL запросов принимает данные левой таблицы для соединения);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T105921Z" creationid="Марианна" creationdate="20201111T105921Z">
-        <seg>&lt;x1/&gt;Main table&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt; is a table to which data sets from the joined table are appended (in the context of the SQL terms, it accepts the left table data for join).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134105Z" creationid="Марианна" creationdate="20201111T105921Z">
+        <seg>&lt;x1/&gt;Main table&lt;x2/&gt; &lt;x3/&gt;Main table&lt;x4/&gt;: the table to which data sets from the joined table are appended (in the context of the SQL terms, it accepts the left table data for join).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9867,8 +9867,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Глубина истории&lt;x2/&gt; — количество отсчетов в "прошлое";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T080722Z" creationid="Марианна" creationdate="20201114T080722Z">
-        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt; is a lag count to the "past".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134129Z" creationid="Марианна" creationdate="20201114T080722Z">
+        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt;: lag count to the "past".</seg>
       </tuv>
     </tu>
     <tu>
@@ -9899,8 +9899,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Горизонт прогноза&lt;x2/&gt; — количество отсчетов в "будущее".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T080750Z" creationid="Марианна" creationdate="20201114T080750Z">
-        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt; is a lag count to the "future".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134201Z" creationid="Марианна" creationdate="20201114T080750Z">
+        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt;: the lag count to the "future".</seg>
       </tuv>
     </tu>
     <tu>
@@ -11795,8 +11795,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент Tay-b Кендалла&lt;x2/&gt; — коэффициент ранговой корреляции, применяется для выявления количественной взаимосвязи между переменными, если их можно ранжировать.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T073959Z" creationid="Марианна" creationdate="20201012T073959Z">
-        <seg>&lt;x1/&gt;Kendall's Tau-b coefficient&lt;x2/&gt; is a rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133920Z" creationid="Марианна" creationdate="20201012T073959Z">
+        <seg>&lt;x1/&gt;Kendall's Tau-b coefficient&lt;x2/&gt;: the rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14931,8 +14931,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля|Имя&lt;x2/&gt; — имя второго поля в корреляционной паре;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T063958Z" creationid="Марианна" creationdate="20201012T063958Z">
-        <seg>&lt;x1/&gt;Fields|Name&lt;x2/&gt; is a name of the second field in the correlation pair.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133849Z" creationid="Марианна" creationdate="20201012T063958Z">
+        <seg>&lt;x1/&gt;Fields|Name&lt;x2/&gt;: the name of the second field in the correlation pair.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14947,16 +14947,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля|Метка&lt;x2/&gt; — метка второго поля в корреляционной паре.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T064036Z" creationid="Марианна" creationdate="20201012T064036Z">
-        <seg>&lt;x1/&gt;Fields|Caption&lt;x2/&gt; is a caption of the second field in the correlation pair.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133906Z" creationid="Марианна" creationdate="20201012T064036Z">
+        <seg>&lt;x1/&gt;Fields|Caption&lt;x2/&gt;: the caption of the second field in the correlation pair.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля|Метка&lt;x2/&gt; — метка первого поля в корреляционной паре;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210713T133839Z" creationid="Марианна" creationdate="20201012T063925Z">
-        <seg>&lt;x1/&gt;Fields|Caption&lt;x2/&gt;; the caption of the first field in the correlation pair.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133853Z" creationid="Марианна" creationdate="20201012T063925Z">
+        <seg>&lt;x1/&gt;Fields|Caption&lt;x2/&gt;: the caption of the first field in the correlation pair.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15822,8 +15822,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Присоединяемая таблица&lt;x2/&gt; &lt;x3/&gt;Присоединяемая таблица&lt;x4/&gt; — таблица, наборы данных которой добавляются к главной таблице (в контексте понятий языка SQL запросов принимает данные правой таблицы для соединения).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T110141Z" creationid="Марианна" creationdate="20201111T110141Z">
-        <seg>&lt;x1/&gt;Joined table&lt;x2/&gt; &lt;x3/&gt;Joined table&lt;x4/&gt;is a table data sets of which are appended to the main table (in the context of the SQL terms, it accepts the right table data for join).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134121Z" creationid="Марианна" creationdate="20201111T110141Z">
+        <seg>&lt;x1/&gt;Joined table&lt;x2/&gt; &lt;x3/&gt;Joined table&lt;x4/&gt;: the table data sets of which are appended to the main table (in the context of the SQL terms, it accepts the right table data for join).</seg>
       </tuv>
     </tu>
     <tu>
@@ -21607,8 +21607,8 @@ interface Console {</seg>
       <tuv lang="ru">
         <seg>col — индекс или имя столбца.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T145345Z" creationid="Марианна" creationdate="20201102T145345Z">
-        <seg>col is a column index or name.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134020Z" creationid="Марианна" creationdate="20201102T145345Z">
+        <seg>col: column index or name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22721,8 +22721,8 @@ exports.cube = cube;</seg>
       <tuv lang="ru">
         <seg>row — индекс строки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T145236Z" creationid="Марианна" creationdate="20201102T145236Z">
-        <seg>row is a row index.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134011Z" creationid="Марианна" creationdate="20201102T145236Z">
+        <seg>row: row index.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23637,8 +23637,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Абсолютный путь — полный путь в файловой в системе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201102T090629Z" creationid="Марианна" creationdate="20201102T090531Z">
-        <seg>The absolute path is a full path in the file system.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134000Z" creationid="Марианна" creationdate="20201102T090531Z">
+        <seg>The absolute path: the full path in the file system.</seg>
       </tuv>
     </tu>
     <tu>
