@@ -6928,8 +6928,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Instance&lt;x2/&gt; — Oracle Database Instance (SID), содержащий необходимые данные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T065123Z" creationid="Марианна" creationdate="20210203T065123Z">
-        <seg>&lt;x1/&gt;Instance&lt;x2/&gt; means Oracle Database Instance (SID) that contains the required data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134541Z" creationid="Марианна" creationdate="20210203T065123Z">
+        <seg>&lt;x1/&gt;Instance&lt;x2/&gt;: Oracle Database Instance (SID) that contains the required data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7048,8 +7048,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;LOCALIZED&lt;x2/&gt; — языкозависимое сравнение символов Unicode без чувствительности к регистру.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T134520Z" creationid="Марианна" creationdate="20210210T134312Z">
-        <seg>&lt;x1/&gt;LOCALIZED&lt;x2/&gt; means the language dependent Unicode character collation without case sensitivity.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134636Z" creationid="Марианна" creationdate="20210210T134312Z">
+        <seg>&lt;x1/&gt;LOCALIZED&lt;x2/&gt;: the language dependent Unicode character collation without case sensitivity.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7656,8 +7656,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ServiceName&lt;x2/&gt; — псевдоним для одной или нескольких образцов БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T215315Z" creationid="Марианна" creationdate="20210203T215315Z">
-        <seg>&lt;x1/&gt;ServiceName&lt;x2/&gt; means the alias of one or several DB examples.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134644Z" creationid="Марианна" creationdate="20210203T215315Z">
+        <seg>&lt;x1/&gt;ServiceName&lt;x2/&gt;: the alias of one or several DB examples.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7872,8 +7872,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt; — языконезависимое сравнение символов Unicode без чувствительности к регистру.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T134513Z" creationid="Марианна" creationdate="20210210T134236Z">
-        <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt; means the language independent Unicode character collation without case sensitivity.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134627Z" creationid="Марианна" creationdate="20210210T134236Z">
+        <seg>&lt;x1/&gt;UNICODE&lt;x2/&gt;: the language independent Unicode character collation without case sensitivity.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10899,8 +10899,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя листа для экспорта&lt;x2/&gt; — то, как будет называться лист в файле Excel, содержащий экспортируемую таблицу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T103644Z" creationid="Марианна" creationdate="20200916T194015Z">
-        <seg>&lt;x1/&gt;Sheet name&lt;x2/&gt; means the name of the sheet in the Excel file that contains the exported table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134655Z" creationid="Марианна" creationdate="20200916T194015Z">
+        <seg>&lt;x1/&gt;Sheet name&lt;x2/&gt;: the name of the sheet in the Excel file that contains the exported table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11563,8 +11563,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой сохранится текст.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T152948Z" creationid="Марианна" creationdate="20200917T162156Z">
-        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means the encoding used for storage of text.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134707Z" creationid="Марианна" creationdate="20200917T162156Z">
+        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt;: the encoding used for storage of text.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11771,8 +11771,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут экспортироваться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T162551Z" creationid="Марианна" creationdate="20200918T091351Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element according to which data will be exported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134715Z" creationid="Марианна" creationdate="20200918T091351Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt;: selection of the XSD schema root element according to which data will be exported.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17574,32 +17574,32 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таймаут обмена данными (мсек)&lt;x2/&gt; — максимальное время ожидания данных от сервера в миллисекундах, по истечении которого при отсутствии отклика обращение будет прервано со статусом ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210209T161133Z" creationid="Марианна" creationdate="20210209T161133Z">
-        <seg>&lt;x1/&gt;Data exchange timeout (ms)&lt;x2/&gt; means the maximum timeout of data wait from server expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134619Z" creationid="Марианна" creationdate="20210209T161133Z">
+        <seg>&lt;x1/&gt;Data exchange timeout (ms)&lt;x2/&gt;: the maximum timeout of data wait from server expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таймаут обмена данными (мсек)&lt;x2/&gt; — максимальное время, которое будет затрачено на отправку HTTP-запроса и получение ответа, по истечении которого обмен будет прерван со статусом ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T131036Z" creationid="Марианна" creationdate="20210208T131036Z">
-        <seg>&lt;x1/&gt;Data exchange timeout (ms)&lt;x2/&gt; means the maximum time that is required to send HTTP request and receive response upon expiration of which the exchange will be terminated with an error status.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134601Z" creationid="Марианна" creationdate="20210208T131036Z">
+        <seg>&lt;x1/&gt;Data exchange timeout (ms)&lt;x2/&gt;: the maximum time that is required to send HTTP request and receive response upon expiration of which the exchange will be terminated with an error status.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таймаут подключения (мсек)&lt;x2/&gt; — максимальное время ожидания ответа от сервера в миллисекундах, по истечении которого при отсутствии отклика обращение будет прервано со статусом ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210209T145355Z" creationid="Марианна" creationdate="20210209T145355Z">
-        <seg>&lt;x1/&gt;Connection timeout (ms)&lt;x2/&gt; means the maximum timeout of server response wait expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134611Z" creationid="Марианна" creationdate="20210209T145355Z">
+        <seg>&lt;x1/&gt;Connection timeout (ms)&lt;x2/&gt;: the maximum timeout of server response wait expressed in milliseconds upon expiration of which the access will be terminated with an error status providing that there is no response.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таймаут подключения (мсек)&lt;x2/&gt; — максимальное время установки TCP-соединения с сервером в миллисекундах, по истечении которого соединение будет прервано со статусом ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210208T130807Z" creationid="Марианна" creationdate="20210208T130807Z">
-        <seg>&lt;x1/&gt;Connection timeout (ms)&lt;x2/&gt; means the maximum time required for TCP server connection expressed in milliseconds upon expiration of which the connection will be terminated with an error status.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134553Z" creationid="Марианна" creationdate="20210208T130807Z">
+        <seg>&lt;x1/&gt;Connection timeout (ms)&lt;x2/&gt;: the maximum time required for TCP server connection expressed in milliseconds upon expiration of which the connection will be terminated with an error status.</seg>
       </tuv>
     </tu>
     <tu>
