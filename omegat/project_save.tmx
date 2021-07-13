@@ -3206,8 +3206,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — таблица с импортированными данными.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200824T154816Z" creationid="Марианна" creationdate="20200824T154816Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt; is a table with imported data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132452Z" creationid="Марианна" creationdate="20200824T154816Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Data set&lt;x4/&gt;: the table with imported data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10075,8 +10075,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Десятичный разделитель&lt;x2/&gt; – символ, разделяющий дробную и целую части числовых значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T093123Z" creationid="Марианна" creationdate="20200826T093123Z">
-        <seg>&lt;x1/&gt;Decimal separator&lt;x2/&gt; is a character that separates fractional and integer parts of numeric expressions.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132603Z" creationid="Марианна" creationdate="20200826T093123Z">
+        <seg>&lt;x1/&gt;Decimal separator&lt;x2/&gt;: the character that separates fractional and integer parts of numeric expressions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10115,8 +10115,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диапазон&lt;x2/&gt; — диапазон импортируемых ячеек, заданных в формате &lt;x3/&gt;[адрес верхней левой ячейки]:[адрес правой нижней ячейки]&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200825T185106Z" creationid="Марианна" creationdate="20200825T185106Z">
-        <seg>&lt;x1/&gt;Range&lt;x2/&gt; is a range of the imported cells set in &lt;x3/&gt; format [address of the upper left cell]:[address of the bottom right cell]&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132503Z" creationid="Марианна" creationdate="20200825T185106Z">
+        <seg>&lt;x1/&gt;Range&lt;x2/&gt;: the range of the imported cells set in &lt;x3/&gt; format [address of the upper left cell]:[address of the bottom right cell]&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10459,8 +10459,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210309T132819Z" creationid="Марианна" creationdate="20200826T085304Z">
-        <seg>&lt;x1/&gt;First line title&lt;x2/&gt; is a checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132543Z" creationid="Марианна" creationdate="20200826T085304Z">
+        <seg>&lt;x1/&gt;First line title&lt;x2/&gt;: the checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10979,8 +10979,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя файла&lt;x2/&gt; — путь к файлу, содержащему необходимые данные;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T132947Z" creationid="Марианна" creationdate="20200826T084850Z">
-        <seg>&lt;x1/&gt;File name&lt;x2/&gt; is a path to the file that contains required data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132529Z" creationid="Марианна" creationdate="20200826T084850Z">
+        <seg>&lt;x1/&gt;File name&lt;x2/&gt;: the path to the file that contains required data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11371,8 +11371,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Истина&lt;x2/&gt; – текст, представляющий логическое значение &lt;x3/&gt;Истина&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T093452Z" creationid="Марианна" creationdate="20200826T093452Z">
-        <seg>&lt;x1/&gt;True&lt;x2/&gt; is a text that represents the logical &lt;x3/&gt;True&lt;x4/&gt; value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132628Z" creationid="Марианна" creationdate="20200826T093452Z">
+        <seg>&lt;x1/&gt;True&lt;x2/&gt;: the text that represents the logical &lt;x3/&gt;True&lt;x4/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13515,8 +13515,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничитель строк&lt;x2/&gt; – символ, обрамляющий значения ячейки загружаемого набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T090510Z" creationid="Марианна" creationdate="20200826T090510Z">
-        <seg>&lt;x1/&gt;Text qualifier&lt;x2/&gt; is a character that frames cell values of the downloaded data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132552Z" creationid="Марианна" creationdate="20200826T090510Z">
+        <seg>&lt;x1/&gt;Text qualifier&lt;x2/&gt;: the character that frames cell values of the downloaded data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14619,8 +14619,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение&lt;x2/&gt; — состояние подключения к XSD-схеме.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200829T215507Z" creationid="Марианна" creationdate="20200829T215507Z">
-        <seg>&lt;x1/&gt;Connection&lt;x2/&gt; is a state of connection to the XSD schema.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132352Z" creationid="Марианна" creationdate="20200829T215507Z">
+        <seg>&lt;x1/&gt;Connection&lt;x2/&gt;: the state of connection to the XSD schema.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16190,8 +16190,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель времени&lt;x2/&gt; – символ, разделяющий компоненты времени.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152210Z" creationid="Марианна" creationdate="20200826T093249Z">
-        <seg>&lt;x1/&gt;Time separator&lt;x2/&gt; is a character that separates time components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132619Z" creationid="Марианна" creationdate="20200826T093249Z">
+        <seg>&lt;x1/&gt;Time separator&lt;x2/&gt;: the character that separates time components.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16206,8 +16206,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель даты&lt;x2/&gt; – символ, разделяющий компоненты даты.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200917T152142Z" creationid="Марианна" creationdate="20200826T093210Z">
-        <seg>&lt;x1/&gt;Date separator&lt;x2/&gt; is a character that separates date components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132610Z" creationid="Марианна" creationdate="20200826T093210Z">
+        <seg>&lt;x1/&gt;Date separator&lt;x2/&gt;: the character that separates date components.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16630,8 +16630,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Связывание объектов&lt;x2/&gt; — список полей экспортируемой таблицы и иерархической структуры XML, которые необходимо соотнести друг с другом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200918T092344Z" creationid="Марианна" creationdate="20200918T092344Z">
-        <seg>&lt;x1/&gt;Object linking&lt;x2/&gt; is a list of the exported table fields and hierarchic XML structure that are required to map to each other.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132404Z" creationid="Марианна" creationdate="20200918T092344Z">
+        <seg>&lt;x1/&gt;Object linking&lt;x2/&gt;: the list of the exported table fields and hierarchic XML structure that are required to map to each other.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17606,8 +17606,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Текст запроса&lt;x2/&gt; – поле ввода запроса к базе, определяющего структуру и содержание импортируемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T121715Z" creationid="Марианна" creationdate="20200823T121715Z">
-        <seg>&lt;x1/&gt;Request text&lt;x2/&gt; is a field for request to base entry. It determines structure and content of the imported table. </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132421Z" creationid="Марианна" creationdate="20200823T121715Z">
+        <seg>&lt;x1/&gt;Request text&lt;x2/&gt;: the field for request to base entry. It determines structure and content of the imported table. </seg>
       </tuv>
     </tu>
     <tu>
@@ -20102,8 +20102,8 @@ interface IOutputTable extends IDataSource {</seg>
       <tuv lang="ru">
         <seg>LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200826T062507Z" creationid="Марианна" creationdate="20200826T062507Z">
-        <seg>LGD is a special format of files optimized for work in Loginom. It provides the maximum writing and reading speed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132518Z" creationid="Марианна" creationdate="20200826T062507Z">
+        <seg>LGD: the special format of files optimized for work in Loginom. It provides the maximum writing and reading speed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24309,8 +24309,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В Примере 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; – конструкция подстановки значения входной переменной &lt;x3/&gt;CONDITION&lt;x4/&gt; узла импорта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200823T125220Z" creationid="Марианна" creationdate="20200823T124930Z">
-        <seg>In Example 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt; is a construction of substitution of value of &lt;x3/&gt;CONDITION&lt;x4/&gt; input variable of the import node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T132436Z" creationid="Марианна" creationdate="20200823T124930Z">
+        <seg>In Example 2 &lt;x1/&gt;%CONDITION%&lt;x2/&gt;: the construction of substitution of value of &lt;x3/&gt;CONDITION&lt;x4/&gt; input variable of the import node.</seg>
       </tuv>
     </tu>
     <tu>
