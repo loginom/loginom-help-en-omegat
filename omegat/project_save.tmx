@@ -11571,8 +11571,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кодовая страница&lt;x2/&gt; — кодировка, в которой хранится текст в файле;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210201T152955Z" creationid="Марианна" creationdate="20200826T085048Z">
-        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt; means the encoding used for storage of text in a file.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T134917Z" creationid="Марианна" creationdate="20200826T085048Z">
+        <seg>&lt;x1/&gt;Codepage&lt;x2/&gt;: the encoding used for storage of text in a file.</seg>
       </tuv>
     </tu>
     <tu>
