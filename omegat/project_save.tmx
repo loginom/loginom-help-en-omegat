@@ -6344,8 +6344,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;AND&lt;x2/&gt; — операция Логическое "И";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172432Z" creationid="Марианна" creationdate="20201005T172129Z">
-        <seg>&lt;x1/&gt;AND&lt;x2/&gt; means the Logical "AND" operator;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140625Z" creationid="Марианна" creationdate="20201005T172129Z">
+        <seg>&lt;x1/&gt;AND&lt;x2/&gt;: the Logical "AND" operator;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7232,8 +7232,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;NOT&lt;x2/&gt; — операция Логическое "НЕ";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172423Z" creationid="Марианна" creationdate="20201005T172155Z">
-        <seg>&lt;x1/&gt;NOT&lt;x2/&gt; means the Logical "NOT" operator;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140640Z" creationid="Марианна" creationdate="20201005T172155Z">
+        <seg>&lt;x1/&gt;NOT&lt;x2/&gt;: the Logical "NOT" operator;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7272,8 +7272,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;OR&lt;x2/&gt; — операция Логическое "ИЛИ";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172426Z" creationid="Марианна" creationdate="20201005T172138Z">
-        <seg>&lt;x1/&gt;OR&lt;x2/&gt; means the Logical "OR" operator;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140634Z" creationid="Марианна" creationdate="20201005T172138Z">
+        <seg>&lt;x1/&gt;OR&lt;x2/&gt;: the Logical "OR" operator;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7800,8 +7800,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Tay-b Кендалла&lt;x2/&gt; — коэффициенты ранговой корреляции Кендалла;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T073250Z" creationid="Марианна" creationdate="20201012T073228Z">
-        <seg>&lt;x1/&gt;Kendall's Tau-b&lt;x2/&gt; means the Kendall's Tau-b rank correlation coefficient.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140610Z" creationid="Марианна" creationdate="20201012T073228Z">
+        <seg>&lt;x1/&gt;Kendall's Tau-b&lt;x2/&gt;: the Kendall's Tau-b rank correlation coefficient.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7920,8 +7920,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;XOR&lt;x2/&gt; — операция Логическое "исключающее ИЛИ".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201005T172417Z" creationid="Марианна" creationdate="20201005T172417Z">
-        <seg>&lt;x1/&gt;XOR&lt;x2/&gt; means the Logical "exclusive OR" operator.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140646Z" creationid="Марианна" creationdate="20201005T172417Z">
+        <seg>&lt;x1/&gt;XOR&lt;x2/&gt;: the Logical "exclusive OR" operator.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8264,8 +8264,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;АКФ&lt;x2/&gt; — коэффициенты автокорреляции для каждого лага;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102908Z" creationid="Марианна" creationdate="20201011T102218Z">
-        <seg>&lt;x1/&gt;ACF&lt;x2/&gt; means autocorrelation coefficients for each lag.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140516Z" creationid="Марианна" creationdate="20201011T102218Z">
+        <seg>&lt;x1/&gt;ACF&lt;x2/&gt;: autocorrelation coefficients for each lag.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10683,8 +10683,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; — условный вывод о наличии/отсутствии корреляции на данном лаге.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102825Z" creationid="Марианна" creationdate="20201011T102706Z">
-        <seg>&lt;x1/&gt;Significance&lt;x2/&gt; means conditional conclusion concerning availability/unavailability of correlation in the given lag.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140533Z" creationid="Марианна" creationdate="20201011T102706Z">
+        <seg>&lt;x1/&gt;Significance&lt;x2/&gt;: conditional conclusion concerning availability/unavailability of correlation in the given lag.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11987,8 +11987,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Лаг&lt;x2/&gt; — количество отсчетов, на которое сдвинут исходный ряд чисел относительно его копии;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102130Z" creationid="Марианна" creationdate="20201011T101510Z">
-        <seg>&lt;x1/&gt;Lag&lt;x2/&gt; means the lag count to which the source series of numbers is moved relative to its copy.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140508Z" creationid="Марианна" creationdate="20201011T101510Z">
+        <seg>&lt;x1/&gt;Lag&lt;x2/&gt;: the lag count to which the source series of numbers is moved relative to its copy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13931,8 +13931,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ошибка&lt;x2/&gt; — стандартные ошибки коэффициентов корреляции для последовательности лагов данного диапазона;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102521Z" creationid="Марианна" creationdate="20201011T102521Z">
-        <seg>&lt;x1/&gt;Error&lt;x2/&gt; means standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140525Z" creationid="Марианна" creationdate="20201011T102521Z">
+        <seg>&lt;x1/&gt;Error&lt;x2/&gt;: standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14347,8 +14347,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пирсона&lt;x2/&gt; — коэффициенты корреляции Пирсона;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T064219Z" creationid="Марианна" creationdate="20201012T064219Z">
-        <seg>&lt;x1/&gt;Pearson&lt;x2/&gt; means the Pearson correlation coefficients.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140552Z" creationid="Марианна" creationdate="20201012T064219Z">
+        <seg>&lt;x1/&gt;Pearson&lt;x2/&gt;: the Pearson correlation coefficients.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17118,8 +17118,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Спирмена&lt;x2/&gt; — коэффициенты корреляции Спирмена.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T073411Z" creationid="Марианна" creationdate="20201012T073411Z">
-        <seg>&lt;x1/&gt;Spearman&lt;x2/&gt; means the Spearman's rank correlation coefficient.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140620Z" creationid="Марианна" creationdate="20201012T073411Z">
+        <seg>&lt;x1/&gt;Spearman&lt;x2/&gt;: the Spearman's rank correlation coefficient.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18518,8 +18518,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;ЧАКФ&lt;x2/&gt; — коэффициенты частной автокорреляционной функции.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201011T102951Z" creationid="Марианна" creationdate="20201011T102903Z">
-        <seg>&lt;x1/&gt;PACF&lt;x2/&gt; means partial autocorrelation function coefficients.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140543Z" creationid="Марианна" creationdate="20201011T102903Z">
+        <seg>&lt;x1/&gt;PACF&lt;x2/&gt;: partial autocorrelation function coefficients.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46455,8 +46455,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Ф.&lt;x2/&gt; — экстремумы взаимнокорреляционной функции;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T072857Z" creationid="Марианна" creationdate="20201012T072857Z">
-        <seg>extremum&lt;x2/&gt; means extremums of cross-correlation function.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140602Z" creationid="Марианна" creationdate="20201012T072857Z">
+        <seg>extremum&lt;x2/&gt;: extremums of cross-correlation function.</seg>
       </tuv>
     </tu>
     <tu>
