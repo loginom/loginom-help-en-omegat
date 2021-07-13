@@ -9011,8 +9011,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;видов данных&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T110842Z" creationid="Марианна" creationdate="20200929T110842Z">
-        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data kinds&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141947Z" creationid="Марианна" creationdate="20200929T110842Z">
+        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt;: one of the possible &lt;x3/&gt;data kinds&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9291,8 +9291,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — набор переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T065848Z" creationid="Марианна" creationdate="20200924T065759Z">
-        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote a set of variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142015Z" creationid="Марианна" creationdate="20200924T065759Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt;: set of variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9723,8 +9723,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — набор переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T065933Z" creationid="Марианна" creationdate="20200924T065933Z">
-        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote a set of variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142028Z" creationid="Марианна" creationdate="20200924T065933Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt;: set of variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11035,8 +11035,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — уникальное наименование столбца в рамках одного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T110431Z" creationid="Марианна" creationdate="20200929T110431Z">
-        <seg>&lt;x1/&gt;Name&lt;x2/&gt; denotes a unique column name for one data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141909Z" creationid="Марианна" creationdate="20200929T110431Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the unique column name for one data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12339,8 +12339,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — произвольное описание поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T110747Z" creationid="Марианна" creationdate="20200929T110747Z">
-        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; denotes a random field description.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141928Z" creationid="Марианна" creationdate="20200929T110747Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: random field description.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17694,8 +17694,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;типов данных&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200929T110815Z" creationid="Марианна" creationdate="20200929T110815Z">
-        <seg>&lt;x1/&gt;Data type&lt;x2/&gt; denotes one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T141938Z" creationid="Марианна" creationdate="20200929T110815Z">
+        <seg>&lt;x1/&gt;Data type&lt;x2/&gt;: one of the possible &lt;x3/&gt;data types&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
