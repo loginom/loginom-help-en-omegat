@@ -4550,8 +4550,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Набор данных — таблица данных, извлеченных из документов XML.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T102848Z" creationid="Марианна" creationdate="20210220T102848Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; — Data set means the table of data extracted from the XML documents.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135812Z" creationid="Марианна" creationdate="20210220T102848Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Data set: the table of data extracted from the XML documents.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11755,8 +11755,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, в соответствии с которым данные будут извлекаться.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T162600Z" creationid="Марианна" creationdate="20210220T153902Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element according to which data will be extracted.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135852Z" creationid="Марианна" creationdate="20210220T153902Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt;: selection of the XSD schema root element according to which data will be extracted.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11779,8 +11779,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Корневой элемент&lt;x2/&gt; — выбор корневого элемента XSD-схемы, структура которого описывает результирующий XML.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T162645Z" creationid="Марианна" creationdate="20210220T162541Z">
-        <seg>&lt;x1/&gt;Root element&lt;x2/&gt; means selection of the XSD schema root element the structure of which enables to describe the resulting XML.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135903Z" creationid="Марианна" creationdate="20210220T162541Z">
+        <seg>&lt;x1/&gt;Root element&lt;x2/&gt;: selection of the XSD schema root element the structure of which enables to describe the resulting XML.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12195,8 +12195,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; — максимальное значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T094223Z" creationid="Марианна" creationdate="20210419T094223Z">
-        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; means the maximum value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135930Z" creationid="Марианна" creationdate="20210419T094223Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt;: the maximum value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12243,8 +12243,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Масштабирование &lt;x2/&gt;min; max&lt;x3/&gt;&lt;x4/&gt; — приведение данных линейным преобразованием к заданному пользователем диапазону &lt;x5/&gt;min; max&lt;x6/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210428T144528Z" creationid="Марианна" creationdate="20210428T144528Z">
-        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;min; max&lt;x3/&gt;&lt;x4/&gt; means the data reduction to &lt;x5/&gt;min; max&lt;x6/&gt; range set by a user by means of the linear transformation:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135914Z" creationid="Марианна" creationdate="20210428T144528Z">
+        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;min; max&lt;x3/&gt;&lt;x4/&gt;: the data reduction to &lt;x5/&gt;min; max&lt;x6/&gt; range set by a user by means of the linear transformation:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12475,8 +12475,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; — минимальное значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T094201Z" creationid="Марианна" creationdate="20210419T094201Z">
-        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; means the minimum value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135921Z" creationid="Марианна" creationdate="20210419T094201Z">
+        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt;: the minimum value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16326,8 +16326,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Расстояние до узла&lt;x2/&gt; — евклидово расстояние до ближайшего узла, т.е. того, которому принадлежит объект.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T222453Z" creationid="Марианна" creationdate="20201217T224355Z">
-        <seg>&lt;x1/&gt;Distance to node&lt;x2/&gt; means the Euclidean distance to the nearest node, namely, to the node of the object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135745Z" creationid="Марианна" creationdate="20201217T224355Z">
+        <seg>&lt;x1/&gt;Distance to node&lt;x2/&gt;: the Euclidean distance to the nearest node, namely, to the node of the object.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17270,8 +17270,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Столбец, содержащий XML&lt;x2/&gt; — выбор столбца с документами XML.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T225327Z" creationid="Марианна" creationdate="20210218T225327Z">
-        <seg>&lt;x1/&gt;XML column&lt;x2/&gt; means the selection of the column with the XML documents.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135833Z" creationid="Марианна" creationdate="20210218T225327Z">
+        <seg>&lt;x1/&gt;XML column&lt;x2/&gt;: selection of the column with the XML documents.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27791,8 +27791,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Где &lt;x1/&gt;%ИмяПеременной%&lt;x2/&gt; — переменная, содержащая любую команду для выполнения в командной строке Windows.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T100700Z" creationid="Марианна" creationdate="20210220T100700Z">
-        <seg>Where &lt;x1/&gt;%VariableName%&lt;x2/&gt; means the variable that contains any command to be executed on the Windows command line.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135800Z" creationid="Марианна" creationdate="20210220T100700Z">
+        <seg>Where &lt;x1/&gt;%VariableName%&lt;x2/&gt;: the variable that contains any command to be executed on the Windows command line.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34237,8 +34237,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Максимальное количество эпох — максимальное количество итераций обучения алгоритма.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201224T084826Z" creationid="Марианна" creationdate="20201224T084826Z">
-        <seg>Maximum number of epochs means the maximum count of the algorithm training iterations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135701Z" creationid="Марианна" creationdate="20201224T084826Z">
+        <seg>Maximum number of epochs: the maximum count of the algorithm training iterations.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36733,8 +36733,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Номер строки входного набора — номер строки, в которой содержится документ.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210225T185130Z" creationid="Марианна" creationdate="20210220T151836Z">
-        <seg>Number of the input data set row means the number of the string which contains a document.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135840Z" creationid="Марианна" creationdate="20210220T151836Z">
+        <seg>Number of the input data set row: the number of the string which contains a document.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37645,8 +37645,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Описание ошибки — описание кодов завершения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T151045Z" creationid="Марианна" creationdate="20210220T151045Z">
-        <seg>Error description means the description of exit codes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135821Z" creationid="Марианна" creationdate="20210220T151045Z">
+        <seg>Error description: the description of exit codes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44641,8 +44641,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Степень регуляризации — степень зависимости весов сети друг от друга.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201224T085521Z" creationid="Марианна" creationdate="20201224T085521Z">
-        <seg>Decay degree means the degree of the network weights dependence from each other.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135653Z" creationid="Марианна" creationdate="20201224T085521Z">
+        <seg>Decay degree: the degree of the network weights dependence from each other.</seg>
       </tuv>
     </tu>
     <tu>
