@@ -5118,16 +5118,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Прогноз&lt;x4/&gt; - идентификатор прогнозируемого класса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201218T204524Z" creationid="Марианна" creationdate="20201218T204524Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID | Prediction&lt;x4/&gt; means identifier of the predicted class.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135609Z" creationid="Марианна" creationdate="20201218T204524Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID | Prediction&lt;x4/&gt;: identifier of the predicted class.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Факт&lt;x4/&gt; - идентификатор, присвоенный фактическому классу (данное поле выводится только при обучении нейросети).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201219T060458Z" creationid="Марианна" creationdate="20201219T060310Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID| Fact&lt;x4/&gt; means the identifier assigned to the actual class (this field is displayed only when neural network training).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135626Z" creationid="Марианна" creationdate="20201219T060310Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class ID| Fact&lt;x4/&gt;: the identifier assigned to the actual class (this field is displayed only when neural network training).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5142,8 +5142,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Апостериорная вероятность&lt;x4/&gt; - вычисленная по результатам обработки вероятность принадлежности текущего набора параметров прогнозируемому классу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201219T061342Z" creationid="Марианна" creationdate="20201219T061342Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Posterior probability&lt;x4/&gt; means the probability of the current parameters set assignment to the predicted class calculated according to the results of processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135636Z" creationid="Марианна" creationdate="20201219T061342Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Posterior probability&lt;x4/&gt;: the probability of the current parameters set assignment to the predicted class calculated according to the results of processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5262,16 +5262,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Прогноз&lt;x4/&gt; - обозначение прогнозируемого класса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201218T204446Z" creationid="Марианна" creationdate="20201218T204446Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Prediction&lt;x4/&gt; means identification of the predicted class.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135601Z" creationid="Марианна" creationdate="20201218T204446Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Prediction&lt;x4/&gt;: identification of the predicted class.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Факт&lt;x4/&gt; - фактический класс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201219T060332Z" creationid="Марианна" creationdate="20201218T204609Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Fact&lt;x4/&gt; means the actual fact.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135617Z" creationid="Марианна" creationdate="20201218T204609Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Class | Fact&lt;x4/&gt;: the actual fact.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9147,8 +9147,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Время автоподбора не более (сек.)&lt;x2/&gt; — максимальное время работы алгоритма (0 — отключение ограничения).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201223T084948Z" creationid="Марианна" creationdate="20201223T084948Z">
-        <seg>&lt;x1/&gt;Autofit time not more (s)&lt;x2/&gt; means the maximum algorithm operation time (0 — restriction is disabled).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135551Z" creationid="Марианна" creationdate="20201223T084948Z">
+        <seg>&lt;x1/&gt;Autofit time not more (s)&lt;x2/&gt;: the maximum algorithm operation time (0 — restriction is disabled).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12187,8 +12187,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимальный размер выборки&lt;x2/&gt; — максимальный размер подвыборки обучающего множества.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T054304Z" creationid="Марианна" creationdate="20201222T054304Z">
-        <seg>&lt;x1/&gt;Maximum sample size&lt;x2/&gt; means the maximum size of the training set subsample.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135521Z" creationid="Марианна" creationdate="20201222T054304Z">
+        <seg>&lt;x1/&gt;Maximum sample size&lt;x2/&gt;: the maximum size of the training set subsample.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16238,8 +16238,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Размер выборки в процентах&lt;x2/&gt; — размер подвыборки обучающего множества;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T054216Z" creationid="Марианна" creationdate="20201222T054216Z">
-        <seg>&lt;x1/&gt;Percent sample size&lt;x2/&gt; means the size of the training set subsample.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135511Z" creationid="Марианна" creationdate="20201222T054216Z">
+        <seg>&lt;x1/&gt;Percent sample size&lt;x2/&gt;: the size of the training set subsample.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18574,8 +18574,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Шагов автоподбора не более&lt;x2/&gt; — максимальное количество шагов алгоритма (0 — отключение ограничения);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201227T220516Z" creationid="Марианна" creationdate="20201222T055144Z">
-        <seg>&lt;x1/&gt;Autofit stages not more&lt;x2/&gt; means the maximum number of the algorithm steps (0 — restrictions are disabled).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135531Z" creationid="Марианна" creationdate="20201222T055144Z">
+        <seg>&lt;x1/&gt;Autofit stages not more&lt;x2/&gt;: the maximum number of the algorithm steps (0 — restrictions are disabled).</seg>
       </tuv>
     </tu>
     <tu>
@@ -38301,8 +38301,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметр регуляризации - степень зависимости весов сети друг от друга.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201222T051350Z" creationid="Марианна" creationdate="20201222T051350Z">
-        <seg>Decay parameter means the degree of the network weights dependence from each other.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T135449Z" creationid="Марианна" creationdate="20201222T051350Z">
+        <seg>Decay parameter: the degree of the network weights dependence from each other.</seg>
       </tuv>
     </tu>
     <tu>
