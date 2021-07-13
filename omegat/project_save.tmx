@@ -3030,8 +3030,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выходной набор данных&lt;x4/&gt; — таблица, содержащая данные о корреляции между полями.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T063538Z" creationid="Марианна" creationdate="20201012T063538Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt; is a table that contains information on correlation between the fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133817Z" creationid="Марианна" creationdate="20201012T063538Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Output data set&lt;x4/&gt;: the table that contains information on correlation between the fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3806,8 +3806,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор — исходная таблица после обработки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T221817Z" creationid="Марианна" creationdate="20210218T221729Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set is a source table after processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133810Z" creationid="Марианна" creationdate="20210218T221729Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set: the source table after processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4534,8 +4534,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; — Источник данных — таблица данных, содержащая ячейки с документами XML.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T102752Z" creationid="Марианна" creationdate="20210220T102752Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; — Data source is a data table that contains the cells with the XML documents.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133607Z" creationid="Марианна" creationdate="20210220T102752Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — Data source: the data table that contains the cells with the XML documents.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5558,8 +5558,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Выходной набор данных — таблица, содержащая результирующие XML и их идентификаторы (ID).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T162333Z" creationid="Марианна" creationdate="20210220T162333Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Output data set is a table that contains resulting XML and their identifiers (ID).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133631Z" creationid="Марианна" creationdate="20210220T162333Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Output data set: the table that contains resulting XML and their identifiers (ID).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5670,8 +5670,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Источник данных — набор данных, подлежащий преобразованию.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210220T161617Z" creationid="Марианна" creationdate="20210220T161617Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Data source is a data set to be transformed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133622Z" creationid="Марианна" creationdate="20210220T161617Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Data source: the data set to be transformed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12507,8 +12507,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Множитель&lt;x2/&gt; — параметр, определяющий значимость столбца при построении модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T091350Z" creationid="Марианна" creationdate="20210419T091350Z">
-        <seg>&lt;x1/&gt;Multiplier&lt;x2/&gt; means the parameter that enables to define column significance while model training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133717Z" creationid="Марианна" creationdate="20210419T091350Z">
+        <seg>&lt;x1/&gt;Multiplier&lt;x2/&gt;; the parameter that enables to define column significance while model training.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13131,8 +13131,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Неудаляемое&lt;x2/&gt; — признак неудаляемости поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T092045Z" creationid="Марианна" creationdate="20210419T092045Z">
-        <seg>&lt;x1/&gt;Irremovable&lt;x2/&gt; is an indicator of the irremovable field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133727Z" creationid="Марианна" creationdate="20210419T092045Z">
+        <seg>&lt;x1/&gt;Irremovable&lt;x2/&gt;: the indicator of the irremovable field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13195,8 +13195,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нормализатор&lt;x2/&gt; — выбранный нормализатор поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T091115Z" creationid="Марианна" creationdate="20210419T091115Z">
-        <seg>&lt;x1/&gt;Normalizer&lt;x2/&gt; means the selected field normalizer.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133703Z" creationid="Марианна" creationdate="20210419T091115Z">
+        <seg>&lt;x1/&gt;Normalizer&lt;x2/&gt;: the selected field normalizer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14811,8 +14811,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле&lt;x2/&gt; — поле набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210419T091030Z" creationid="Марианна" creationdate="20210419T091030Z">
-        <seg>&lt;x1/&gt;Field&lt;x2/&gt; is a data set field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133658Z" creationid="Марианна" creationdate="20210419T091030Z">
+        <seg>&lt;x1/&gt;Field&lt;x2/&gt;: data set field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14939,8 +14939,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля|Имя&lt;x2/&gt; — имя первого поля в корреляционной паре;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T063816Z" creationid="Марианна" creationdate="20201012T063816Z">
-        <seg>&lt;x1/&gt;Fields|Name&lt;x2/&gt; is a name of the first field in the correlation pair.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133828Z" creationid="Марианна" creationdate="20201012T063816Z">
+        <seg>&lt;x1/&gt;Fields|Name&lt;x2/&gt;: the name of the first field in the correlation pair.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14955,8 +14955,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поля|Метка&lt;x2/&gt; — метка первого поля в корреляционной паре;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201012T063925Z" creationid="Марианна" creationdate="20201012T063925Z">
-        <seg>&lt;x1/&gt;Fields|Caption&lt;x2/&gt; is a caption of the first field in the correlation pair.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133839Z" creationid="Марианна" creationdate="20201012T063925Z">
+        <seg>&lt;x1/&gt;Fields|Caption&lt;x2/&gt;; the caption of the first field in the correlation pair.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44793,8 +44793,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Строка - строка, для которой расчитывается SHA1 значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T123356Z" creationid="Марианна" creationdate="20210406T123356Z">
-        <seg>String is a string for which SHA1 value is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T133551Z" creationid="Марианна" creationdate="20210406T123356Z">
+        <seg>String: the string for which SHA1 value is calculated.</seg>
       </tuv>
     </tu>
     <tu>
