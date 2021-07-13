@@ -9299,16 +9299,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — необязательный набор переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T152925Z" creationid="Марианна" creationdate="20201006T152925Z">
-        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote an optional set of variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T143013Z" creationid="Марианна" creationdate="20201006T152925Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt;: the optional set of variables.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — переменные, подлежащие изменению.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T161244Z" creationid="Марианна" creationdate="20201006T161244Z">
-        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote the variables to be changed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142947Z" creationid="Марианна" creationdate="20201006T161244Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt;: the variables to be changed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9323,8 +9323,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Входные переменные&lt;x2/&gt; &lt;x3/&gt;Входные переменные&lt;x4/&gt; — список переменных, подлежащий преобразованию в таблицу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T103604Z" creationid="Марианна" creationdate="20201006T103604Z">
-        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt; denote a list of variables to be transformed to a table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T143002Z" creationid="Марианна" creationdate="20201006T103604Z">
+        <seg>&lt;x1/&gt;Input variables&lt;x2/&gt; &lt;x3/&gt;Input variables&lt;x4/&gt;: list of variables to be transformed to a table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9731,16 +9731,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — новый набор переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T153509Z" creationid="Марианна" creationdate="20201006T153509Z">
-        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote a new set of variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T143030Z" creationid="Марианна" creationdate="20201006T153509Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt;: the new set of variables.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Выходные переменные&lt;x2/&gt; &lt;x3/&gt;Выходные переменные&lt;x4/&gt; — переменные после обработки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T161325Z" creationid="Марианна" creationdate="20201006T161325Z">
-        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt; denote the variables after processing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T142955Z" creationid="Марианна" creationdate="20201006T161325Z">
+        <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; &lt;x3/&gt;Output variables&lt;x4/&gt;: the variables after processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10243,8 +10243,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавляемые переменные&lt;x2/&gt; &lt;x3/&gt;Добавляемые переменные&lt;x4/&gt; — обязательный набор переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201006T153113Z" creationid="Марианна" creationdate="20201006T153113Z">
-        <seg>&lt;x1/&gt;Added variables&lt;x2/&gt; &lt;x3/&gt;Added variables&lt;x4/&gt; denote a required set of variables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T143020Z" creationid="Марианна" creationdate="20201006T153113Z">
+        <seg>&lt;x1/&gt;Added variables&lt;x2/&gt; &lt;x3/&gt;Added variables&lt;x4/&gt;: the required set of variables.</seg>
       </tuv>
     </tu>
     <tu>
