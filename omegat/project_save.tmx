@@ -3398,8 +3398,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поле «&lt;Метка столбца&gt; Номер класса»&lt;x4/&gt; – идентификатор конечного класса, целое число (начиная с 0) – столбец создается всегда.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T192712Z" creationid="Марианна" creationdate="20210606T192712Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Class number» field&lt;x4/&gt; means the coarse class identifier, integer (starting from 0): a column is always created.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140253Z" creationid="Марианна" creationdate="20210606T192712Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;«&lt;Column caption&gt; Class number» field&lt;x4/&gt;: the coarse class identifier, integer (starting from 0): a column is always created.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11427,8 +11427,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Исходный диапазон&lt;x2/&gt; — значения минимума и максимума входного поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210428T151240Z" creationid="Марианна" creationdate="20210428T151240Z">
-        <seg>&lt;x1/&gt;Source Range&lt;x2/&gt; means the values of the input field minimum and maximum.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140206Z" creationid="Марианна" creationdate="20210428T151240Z">
+        <seg>&lt;x1/&gt;Source Range&lt;x2/&gt;: the values of the input field minimum and maximum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11731,8 +11731,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Контролируемый диапазон&lt;x2/&gt; — ручная настройка диапазона значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T101332Z" creationid="Марианна" creationdate="20210407T101332Z">
-        <seg>&lt;x1/&gt;Controlled Range&lt;x2/&gt; means the manual setting of values range.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140215Z" creationid="Марианна" creationdate="20210407T101332Z">
+        <seg>&lt;x1/&gt;Controlled Range&lt;x2/&gt;: the manual setting of values range.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12227,16 +12227,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Масштабирование &lt;x2/&gt;-1;1&lt;x3/&gt;&lt;x4/&gt; — приведение данных линейным преобразованием к диапазону &lt;x5/&gt;-1;1&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210428T144641Z" creationid="Марианна" creationdate="20210428T144641Z">
-        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;-1;1&lt;x3/&gt;&lt;x4/&gt; means the data reduction to &lt;x5/&gt;-1;1&lt;x6/&gt; range by means of the linear transformation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140142Z" creationid="Марианна" creationdate="20210428T144641Z">
+        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;-1;1&lt;x3/&gt;&lt;x4/&gt;: the data reduction to &lt;x5/&gt;-1;1&lt;x6/&gt; range by means of the linear transformation.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Масштабирование &lt;x2/&gt;0;1&lt;x3/&gt;&lt;x4/&gt; — приведение данных линейным преобразованием к диапазону &lt;x5/&gt;0;1&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210428T144748Z" creationid="Марианна" creationdate="20210428T144748Z">
-        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;0;1&lt;x3/&gt;&lt;x4/&gt; means the data reduction to &lt;x5/&gt;0;1&lt;x6/&gt; range by means of the linear transformation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140157Z" creationid="Марианна" creationdate="20210428T144748Z">
+        <seg>&lt;x1/&gt;Scaling &lt;x2/&gt;0;1&lt;x3/&gt;&lt;x4/&gt;: the data reduction to &lt;x5/&gt;0;1&lt;x6/&gt; range by means of the linear transformation.</seg>
       </tuv>
     </tu>
     <tu>
