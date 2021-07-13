@@ -9859,8 +9859,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Глубина истории&lt;x2/&gt; — количество значений из предыдущих записей, для которых создаются новые поля в выходном наборе данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201114T092309Z" creationid="Марианна" creationdate="20201114T092309Z">
-        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt; means count of values from the previous records for which the new fields are created in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140821Z" creationid="Марианна" creationdate="20201114T092309Z">
+        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt;: count of values from the previous records for which the new fields are created in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11963,8 +11963,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэшировать&lt;x2/&gt; — параметры кэширования выходного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201016T072120Z" creationid="Марианна" creationdate="20201016T072120Z">
-        <seg>&lt;x1/&gt;Cache&lt;x2/&gt; means caching parameters of the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140712Z" creationid="Марианна" creationdate="20201016T072120Z">
+        <seg>&lt;x1/&gt;Cache&lt;x2/&gt;: caching parameters of the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13315,8 +13315,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область сопоставления полей&lt;x2/&gt; — настройка полей связи главного и присоединяемого наборов данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T110337Z" creationid="Марианна" creationdate="20201111T110337Z">
-        <seg>&lt;x1/&gt;Area of fields mapping&lt;x2/&gt; means configuration of the connection fields of the main and joined data sets.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140814Z" creationid="Марианна" creationdate="20201111T110337Z">
+        <seg>&lt;x1/&gt;Area of fields mapping&lt;x2/&gt;: configuration of the connection fields of the main and joined data sets.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13603,8 +13603,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Описание&lt;x2/&gt; — поясняющая информация.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201004T200228Z" creationid="Марианна" creationdate="20201004T200228Z">
-        <seg>&lt;x1/&gt;Description&lt;x2/&gt; means clarifying information.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140703Z" creationid="Марианна" creationdate="20201004T200228Z">
+        <seg>&lt;x1/&gt;Description&lt;x2/&gt;: clarifying information.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21529,7 +21529,7 @@ interface IVariables {</seg>
       <tuv lang="ru">
         <seg>assertion — любое булевое выражение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201029T055013Z" creationid="Марианна" creationdate="20201029T055013Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210713T140804Z" creationid="Марианна" creationdate="20201029T055013Z">
         <seg>assertion means any boolean expression.</seg>
       </tuv>
     </tu>
