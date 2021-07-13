@@ -70,7 +70,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 
 The wizard includes the following steps:
 
-* **[Configure External Binning](./fine-classes/configuring-an-external-partition.md)** appears if *External binning bins* port is set. It enables to configure parameters of the preconfigured external binning.
+* **[Configure External Binning](./fine-classes/configuring-an-external-partition.md)** appears if *External binning ranges* port is set. It enables to configure parameters of the preconfigured external binning.
 
 * **[Configure Column Usage Types](./fine-classes/configure-column-assignments.md)**: it enables to set the column usage type, configuration of the input and output fields, external binning and algorithm settings to generate the coarse classes of the input fields.
 

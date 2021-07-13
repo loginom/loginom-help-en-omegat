@@ -3,7 +3,7 @@
 * **Column Usage Type**:
    * Not selected: the field will not be included into processing but it will be included into the resulting sample without changes.
    * Input: the field values will be used as the input ones.
-   * Input (external binning): it appears if *External binning bins* port is set. Parameters of the configured external binning are used for the input field values.
+   * Input (external binning): it appears if *External binning ranges* port is set. Parameters of the configured external binning are used for the input field values.
    * Input (locked): it appears upon the first execution and training of the Coarse Classes node. When reconfiguring or retraining the column, only statistics will be recalculated, and the coarse classes binning will be the same for all columns. It is recommended when a user does not intend to change the coarse classes binning taking into account the new data.
    * Output: the field values will be used as the output ones (target).
 
