@@ -3774,8 +3774,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выбросы — таблица, содержащая строки исходной таблицы, в которых были обнаружены выбросы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210511T082804Z" creationid="Марианна" creationdate="20210511T082804Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Outliers are intended to mean the table that contains the source table rows in which outliers have been detected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T142244Z" creationid="Марианна" creationdate="20210511T082804Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Outliers: the table that contains the source table rows in which outliers have been detected.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4374,8 +4374,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Экстремальные значения — таблица, содержащая строки исходной таблицы, в которых были обнаружены экстремальные значения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210511T082918Z" creationid="Марианна" creationdate="20210511T082918Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Extreme values are intended to mean the table that contains the source table rows in which extreme values have been detected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T142257Z" creationid="Марианна" creationdate="20210511T082918Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Extreme values: the table that contains the source table rows in which extreme values have been detected.</seg>
       </tuv>
     </tu>
     <tu>
