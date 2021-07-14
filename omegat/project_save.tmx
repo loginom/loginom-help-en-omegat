@@ -26207,8 +26207,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Внешние диапазоны квантования (таблица данных).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210708T152834Z" creationid="Марианна" creationdate="20210524T122801Z">
-        <seg>External Binning Ranges (Data Table).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T161728Z" creationid="Марианна" creationdate="20210524T122801Z">
+        <seg>External binning ranges (data table).</seg>
       </tuv>
     </tu>
     <tu>
