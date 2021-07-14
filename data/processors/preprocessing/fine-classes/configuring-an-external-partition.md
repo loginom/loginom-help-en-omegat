@@ -6,7 +6,7 @@ This option is required when External binning ranges port is set, namely, the ex
 
 To use the external binning, it is required to create the table in a certain manner:
 
-* In the case of the continuous data, the external binning string maps one class (interval) for the field values of the main data source.
+* In the case of the continuous data, the external binning string maps one class (bin) for the field values of the main data source.
 
 * In the case of the discrete data, the external binning string maps one unique field value of the main data source.
 
@@ -17,10 +17,10 @@ The columns that must be included into the external binning for the continuous a
 | Column name | ColumnName | String | + | + | Field name of the main data source to which the external binning relates. Namely, the strings that define the external binning for the main data source field are selected by the current column value. |
 | Upper bound | UpperBound | Real/integer | + | - | Strictly increasing sequence of binning bounds. In this case, count of classes is calculated with one more class, as it is required to take into account the class that includes the values exceeding the last bound. |
 | Upper bound open | IncludeUpperBound | Binary | + | - | Strictly constant value within binning of one field that defines the upper class bin bound type; whether it is open (not included) or close (included). |
-| Unique value | UniqueValue | Any (valid) | - | + | Unique values of the main data source fields that map the external binning |
-| Class number | ClassNumber | Integer | - | + | The class number that meets the unique value |
+| Unique value | UniqueValue | Any (valid) | - | + | Unique values of the main data source fields that map the external binning. |
+| Class number | ClassNumber | Integer | - | + | The class number that meets the unique value. |
 
-### Example of the external binning table
+### Example of the External Binning Table
 
 Continuous binning
 
