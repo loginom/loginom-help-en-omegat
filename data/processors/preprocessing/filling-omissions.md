@@ -32,7 +32,7 @@ The following processing methods are available:
 * Replace with average: replace detected null data with the average column value.
 * Replace with median: replace detected null data with the median calculated for the column.
 * Replace with most frequent: replace null data with the most frequent column value. Replacement is performed using the average value from the most frequent histogram bin. The bin count varies according to the sample size: the larger the sample size, the higher number of bins.
-* Replace with random values: replace detected null data with the random values that are formed from the range from the least to the highest column value.
+* Replace with random values: replace detected null data with the random values that are formed from the range from the lowest to the highest column value.
 * Linear interpolation: detected null data is replaced with the calculated intermediate values of the linear function received using the known values (drawing a conditional line between them).
 * Cubic interpolation: detected null data is replaced with the intermediate values of the cubic spline (the third degree splines with the continuous first derivative) received using the known values.
 * Spline interpolation: detected null data is replaced with the intermediate values of the spline function received using the known values.

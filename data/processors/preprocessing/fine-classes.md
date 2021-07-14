@@ -15,7 +15,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Ranges (Data Table).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External binning ranges (data table).
 
 ### Output
 
@@ -30,7 +30,7 @@ The Coarse Classes handler operation result is conversion of the input columns i
 
 %/spoiler%
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Class Parameters (data table).
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Class parameters (data table).
 
 %spoiler%Data structure:%spoiler%
 

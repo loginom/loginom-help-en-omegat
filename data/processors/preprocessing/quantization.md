@@ -7,7 +7,7 @@ The handler bins values range of the selected fields of the source data set to t
 ### Input
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
-* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External Binning Ranges (Data Table).
+* ![ ](../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External binning ranges (data table).
 
 ### Output
 
