@@ -20,7 +20,7 @@ The handler is designated for automatic elimination of outliers and extreme valu
 
 * **Source data ordered**: it is required to select this checkbox when it is known that the numeric series is ordered, namely, its values are ordered in ascending or descending order (for example, by date or time). Availability of some elimination methods depends on the status of this checkbox. The checkbox status does not affect processing of logical and string fields.
 * **Area of configuration of outliers and extreme values elimination methods** contains a list of the fields available for processing. It is possible to select the checkbox that enables to define the processing avialability for each field. Upon selection of the field, it is possible to set the processing method.
-* **Determination of Outliers and Extreme Values**: two detection methods are available:
+* **Determination of outliers and extreme values**: two detection methods are available:
    * Standard deviation: the criterion is deviation of the indicator value from the mean one more than by the set number of standard deviations. In this case, this parameter can be separately set for outliers and exreme values. This method can be used if it is known that data distribution is close to the normal one.
    * Interquartile range: the criterion is distance between the first and the third quartiles of indicator values distribution. If the indicator value deviates from the median more than by the set number of the interquartile range, it is considered to be anomalous. This parameter is set only for outliers and exreme values. This method can be also used when data distribution differs from the normal one.
 
