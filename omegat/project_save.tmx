@@ -46403,8 +46403,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Установить... — показывает зависимость &lt;x1/&gt;IV&lt;x2/&gt; от количества классов и позволяет выбрать их число для настройки максимального количества.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210628T085239Z" creationid="Марианна" creationdate="20210628T085239Z">
-        <seg>Set... shows dependence&lt;x1/&gt;IV&lt;x2/&gt; on classes count and enables to select their number to set the maximum count.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T164447Z" creationid="Марианна" creationdate="20210628T085239Z">
+        <seg>Set... shows dependence &lt;x1/&gt;IV&lt;x2/&gt; on classes count and enables to select their number to set the maximum count.</seg>
       </tuv>
     </tu>
     <tu>
