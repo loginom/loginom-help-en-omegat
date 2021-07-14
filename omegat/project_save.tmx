@@ -41855,8 +41855,8 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       <tuv lang="ru">
         <seg>Пример таблицы внешнего разбиения</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T214054Z" creationid="Марианна" creationdate="20210606T214054Z">
-        <seg>Example of the external binning table</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T163954Z" creationid="Марианна" creationdate="20210606T214054Z">
+        <seg>Example of the External Binning Table</seg>
       </tuv>
     </tu>
     <tu>
