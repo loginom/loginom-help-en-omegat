@@ -4070,8 +4070,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Параметры классов (таблица данных).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223836Z" creationid="Марианна" creationdate="20210218T223836Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Class Parameters (data table).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T161908Z" creationid="Марианна" creationdate="20210218T223836Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Class parameters (data table).</seg>
       </tuv>
     </tu>
     <tu>
