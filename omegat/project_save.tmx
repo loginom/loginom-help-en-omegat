@@ -36725,8 +36725,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Номер класса, соответствующий уникальному значению</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210606T213615Z" creationid="Марианна" creationdate="20210606T213615Z">
-        <seg>The class number that meets the unique value</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T163925Z" creationid="Марианна" creationdate="20210606T213615Z">
+        <seg>The class number that meets the unique value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46227,8 +46227,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Уникальные значения поля основного источника данных, которым соответствует внешнее разбиение</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210608T084720Z" creationid="Марианна" creationdate="20210608T084720Z">
-        <seg>Unique values of the main data source fields that map the external binning</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T163919Z" creationid="Марианна" creationdate="20210608T084720Z">
+        <seg>Unique values of the main data source fields that map the external binning.</seg>
       </tuv>
     </tu>
     <tu>
