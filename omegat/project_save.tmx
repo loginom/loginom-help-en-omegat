@@ -39397,8 +39397,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию устанавливается значение 5.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210528T204351Z" creationid="Марианна" creationdate="20210528T204351Z">
-        <seg>5 value is set by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T163343Z" creationid="Марианна" creationdate="20210528T204351Z">
+        <seg>Value 5 is set by default.</seg>
       </tuv>
     </tu>
     <tu>
