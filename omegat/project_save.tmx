@@ -29249,8 +29249,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для непрерывных данных строка внешнего разбиения соответствует одному классу (интервалу) для значений поля основного источника данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210608T082436Z" creationid="Марианна" creationdate="20210608T082436Z">
-        <seg>In the case of the continuous data, the external binning string maps one class (interval) for the field values of the main data source.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T163724Z" creationid="Марианна" creationdate="20210608T082436Z">
+        <seg>In the case of the continuous data, the external binning string maps one class (bin) for the field values of the main data source.</seg>
       </tuv>
     </tu>
     <tu>
