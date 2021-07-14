@@ -13611,8 +13611,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Определение выбросов и экстремальных значений&lt;x2/&gt; — доступны два метода выявления:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210511T084921Z" creationid="Марианна" creationdate="20210511T084921Z">
-        <seg>&lt;x1/&gt;Determination of Outliers and Extreme Values&lt;x2/&gt;: two detection methods are available:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210714T142603Z" creationid="Марианна" creationdate="20210511T084921Z">
+        <seg>&lt;x1/&gt;Determination of outliers and extreme values&lt;x2/&gt;: two detection methods are available:</seg>
       </tuv>
     </tu>
     <tu>
