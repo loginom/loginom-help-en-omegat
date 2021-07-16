@@ -44177,8 +44177,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Сохранять в текущем — сохраняет значения совпадающих наблюдений в текущем (более низком) интервале разделения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210701T142601Z" creationid="Марианна" creationdate="20210701T142601Z">
-        <seg>Keep in current: keeps the values of matching observations in the current (lower) separation interval.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113152Z" creationid="Марианна" creationdate="20210701T142601Z">
+        <seg>Keep in current: keeps the values of matching observations in the current (lower) separation bin.</seg>
       </tuv>
     </tu>
     <tu>
