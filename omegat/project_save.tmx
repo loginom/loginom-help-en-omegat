@@ -12323,8 +12323,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — метка интервала (ее можно задавать шаблоном);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T202340Z" creationid="Марианна" creationdate="20210629T202340Z">
-        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; — Bin caption (it can be set using a template);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T114101Z" creationid="Марианна" creationdate="20210629T202340Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt; — bin caption (it can be set using a template);</seg>
       </tuv>
     </tu>
     <tu>
