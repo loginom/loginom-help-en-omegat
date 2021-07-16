@@ -4310,8 +4310,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Уменьшить разрядность — каждое нажатие кнопки уменьшит разрядность границ интервалов на один знак после запятой;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T200516Z" creationid="Марианна" creationdate="20210629T200516Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Decrease decimal: each button pressing decreases bitness of interval bounds by one decimal place.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T105303Z" creationid="Марианна" creationdate="20210629T200516Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Decrease decimal: each button pressing decreases bitness of bin bounds by one decimal place.</seg>
       </tuv>
     </tu>
     <tu>
