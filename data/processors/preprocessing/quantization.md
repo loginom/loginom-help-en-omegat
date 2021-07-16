@@ -31,8 +31,8 @@ The area table consists of several columns:
 * **Field**: contains the initial data set fields to which the binning procedure can be applied. The following field types are used: integer, real, data/time.
 * **Method**: the field is represented by the drop-down list to select a binning method:
    * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width. The following parameters can be set by selecting corresponding checkboxes:
-      * Upper bound — upper bound of the highest interval.
-      * Lower bound — lower bound of the highest interval.
+      * Upper bound — upper bound of the highest bin.
+      * Lower bound — lower bound of the highest bin.
    * Count: count of bins is selected and the width is automatically calculated as ratio of upper and lower bounds difference and the set count of bins. Upper and lower bounds can be also set for this method.
    * Tile: a user selects count of bins and the component enables to set bin ranges in such a way that provides approximately the same number of values in each bin. There are several methods to process matching values:
       * Add to next: moves the values of matching observations to the next (higher) separation interval.
