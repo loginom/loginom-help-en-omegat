@@ -1566,8 +1566,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>1 - значение границы входит в интервал;&lt;x1/&gt;0 - значение границы не входит в интервал</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T201838Z" creationid="Марианна" creationdate="20210601T201838Z">
-        <seg>1 - the bound value is included into the interval;&lt;x1/&gt;0 - the bound value is not included into the interval</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T115853Z" creationid="Марианна" creationdate="20210601T201838Z">
+        <seg>1 - the bound value is included into the bin;&lt;x1/&gt;0 - the bound value is not included into the bin</seg>
       </tuv>
     </tu>
     <tu>
