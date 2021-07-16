@@ -11843,8 +11843,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициенты СКО&lt;x2/&gt; — разбивает значения на интервалы в зависимости от выбранного диапазона, выраженного в количестве &lt;x3/&gt;σ&lt;x4/&gt; (СКО).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210703T154224Z" creationid="Марианна" creationdate="20210703T154224Z">
-        <seg>&lt;x1/&gt;SD coefficients&lt;x2/&gt;: bins values to intervals according to the selected range expressed in the quantity of &lt;x3/&gt;σ&lt;x4/&gt; (SD).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113418Z" creationid="Марианна" creationdate="20210703T154224Z">
+        <seg>&lt;x1/&gt;SD coefficients&lt;x2/&gt;: bins values to bins according to the selected range expressed in the quantity of &lt;x3/&gt;σ&lt;x4/&gt; (SD).</seg>
       </tuv>
     </tu>
     <tu>
@@ -35357,8 +35357,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Назначать случайно — типы границ интервалов будут определены случайно; возможно включение одинаковых значений в тот или иной интервал случайным образом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210703T150914Z" creationid="Марианна" creationdate="20210703T150550Z">
-        <seg>Assign randomly: types of interval bounds will be randomly assigned. It is possible to include the same values into this or that interval in a random manner.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113315Z" creationid="Марианна" creationdate="20210703T150550Z">
+        <seg>Assign randomly: types of bin bounds will be randomly assigned. It is possible to include the same values into this or that bin in a random manner.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37421,8 +37421,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Одинаковые плитки — достижение равного количества значений в интервалах обеспечивается не только подбором диапазонов интервалов, но и подбором типов границ для каждого интервала (&lt;x1/&gt;&gt;&lt;x2/&gt; или &lt;x3/&gt;&gt;=&lt;x4/&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210703T151727Z" creationid="Марианна" creationdate="20210703T151727Z">
-        <seg>Assign optimal: the equal number of values in intervals is provided not only by selecting interval ranges, but also by selecting types of bounds for each interval (&lt;x1/&gt;&gt;&lt;x2/&gt; or &lt;x3/&gt;&gt;=&lt;x4/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113403Z" creationid="Марианна" creationdate="20210703T151727Z">
+        <seg>Assign optimal: the equal number of values in bins is provided not only by selecting bin ranges, but also by selecting types of bounds for each bin (&lt;x1/&gt;&gt;&lt;x2/&gt; or &lt;x3/&gt;&gt;=&lt;x4/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -37821,8 +37821,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Оставить как есть — границы всех интервалов будут иметь тип &lt;x1/&gt;&gt;=&lt;x2/&gt;, и возможна ситуация, когда совпадающие значения окажутся в разных интервалах.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210703T151203Z" creationid="Марианна" creationdate="20210703T151203Z">
-        <seg>Leave as is: bounds of all intervals will be related to &lt;x1/&gt;&gt;=&lt;x2/&gt; type, and matching values can be in different intervals.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113329Z" creationid="Марианна" creationdate="20210703T151203Z">
+        <seg>Leave as is: bounds of all bins will be related to &lt;x1/&gt;&gt;=&lt;x2/&gt; type, and matching values can be in different bins.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47739,8 +47739,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Этот метод может привести к тому, что всего будет создано меньше интервалов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210701T142932Z" creationid="Марианна" creationdate="20210701T142932Z">
-        <seg>This method can cause creation of less number of intervals in total.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113234Z" creationid="Марианна" creationdate="20210701T142932Z">
+        <seg>This method can cause creation of less number of bins in total.</seg>
       </tuv>
     </tu>
     <tu>
