@@ -13499,8 +13499,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Объём&lt;x2/&gt; — отображает объем значений, попавших в интервал (отображается в виде гистограммы).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210716T113528Z" creationid="Марианна" creationdate="20210708T125016Z">
-        <seg>&lt;x1/&gt;Volume&lt;x2/&gt; enables to display the volume of values included into the bin (it is dispalyed in the form of a histogram).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T114126Z" creationid="Марианна" creationdate="20210708T125016Z">
+        <seg>&lt;x1/&gt;Volume&lt;x2/&gt; enables to display the volume of values included into the bin (it is displayed in the form of a histogram).</seg>
       </tuv>
     </tu>
     <tu>
