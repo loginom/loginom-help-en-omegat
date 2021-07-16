@@ -69,5 +69,5 @@ The table with the binning results received for the selected field is located un
 * **Lower** — lower bin bound;
 * **Type** — bound type;
 * **Upper** — upper bin bound;
-* **Caption** — Bin caption (it can be set using a template);
-* **Volume** enables to display the volume of values included into the bin (it is dispalyed in the form of a histogram).
+* **Caption** — bin caption (it can be set using a template);
+* **Volume** enables to display the volume of values included into the bin (it is displayed in the form of a histogram).
