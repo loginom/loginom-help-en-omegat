@@ -35,12 +35,12 @@ The area table consists of several columns:
       * Lower bound — lower bound of the highest bin.
    * Count: count of bins is selected and the width is automatically calculated as ratio of upper and lower bounds difference and the set count of bins. Upper and lower bounds can be also set for this method.
    * Tile: a user selects count of bins and the component enables to set bin ranges in such a way that provides approximately the same number of values in each bin. There are several methods to process matching values:
-      * Add to next: moves the values of matching observations to the next (higher) separation interval.
-      * Keep in current: keeps the values of matching observations in the current (lower) separation interval. This method can cause creation of less number of intervals in total.
-      * Assign randomly: types of interval bounds will be randomly assigned. It is possible to include the same values into this or that interval in a random manner.
-      * Leave as is: bounds of all intervals will be related to **>=** type, and matching values can be in different intervals.
-      * Assign optimal: the equal number of values in intervals is provided not only by selecting interval ranges, but also by selecting types of bounds for each interval (**>** or **>=**).
-   * [SD coefficients](https://wiki.loginom.ru/articles/mean-square-deviation.html): bins values to intervals according to the selected range expressed in the quantity of **σ** (SD).
+      * Add to next: moves the values of matching observations to the next (higher) separation bin.
+      * Keep in current: keeps the values of matching observations in the current (lower) separation bin. This method can cause creation of less number of bins in total.
+      * Assign randomly: types of bin bounds will be randomly assigned. It is possible to include the same values into this or that bin in a random manner.
+      * Leave as is: bounds of all bins will be related to **>=** type, and matching values can be in different bins.
+      * Assign optimal: the equal number of values in bins is provided not only by selecting bin ranges, but also by selecting types of bounds for each bin (**>** or **>=**).
+   * [SD coefficients](https://wiki.loginom.ru/articles/mean-square-deviation.html): bins values to bins according to the selected range expressed in the quantity of **σ** (SD).
    * [External ranges.](./quantization/outdoor-ranges.md)
 
       It is possible to select *Round limits* checkbox for all binning methods.
