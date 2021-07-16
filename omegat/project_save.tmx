@@ -25927,8 +25927,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Верхнюю границу — верхняя граница самого высокого интервала;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T204810Z" creationid="Марианна" creationdate="20210629T204810Z">
-        <seg>Upper bound — upper bound of the highest interval.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T105702Z" creationid="Марианна" creationdate="20210629T204810Z">
+        <seg>Upper bound — upper bound of the highest bin.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36565,8 +36565,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Нижнюю границу — нижняя граница самого высокого интервала.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T204838Z" creationid="Марианна" creationdate="20210629T204838Z">
-        <seg>Lower bound — lower bound of the highest interval.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T105711Z" creationid="Марианна" creationdate="20210629T204838Z">
+        <seg>Lower bound — lower bound of the highest bin.</seg>
       </tuv>
     </tu>
     <tu>
