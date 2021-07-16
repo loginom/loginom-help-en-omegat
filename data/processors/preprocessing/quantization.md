@@ -12,7 +12,7 @@ The handler bins values range of the selected fields of the source data set to t
 ### Output
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). [Description of structure](./quantization/calculated-columns.md) of resulting data set.
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Binning ranges (data table). [Description of Structure](./quantization/ranges-quantization.md) of Range Table.
+* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Binning ranges (data table). [Description of structure](./quantization/ranges-quantization.md) of range table.
 
 ## Wizard
 
@@ -24,7 +24,7 @@ The area is represented in the table form. Three buttons are located over the fi
 
 * ![ ](../../images/icons/toolbar-controls/edit_default.svg) Edit: when pressing, it enables to edit the binning parameters for the selected field.
 * ![ ](../../images/icons/toolbar-controls/dec-decimal-places-count_default.svg) Decrease decimal: each button pressing decreases bitness of interval bounds by one decimal place.
-* ![ ](../../images/icons/toolbar-controls/inc-decimal-places-count_default.svg) Increase decimal: each button pressing increases bitness of interval bounds by one decimal place.
+* ![ ](../../images/icons/toolbar-controls/inc-decimal-places-count_default.svg) Increase decimal: each button pressing increases bitness of bin bounds by one decimal place.
 
 The area table consists of several columns:
 
