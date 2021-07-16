@@ -19014,8 +19014,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x3/&gt;Описание структуры&lt;x4/&gt; таблицы диапазонов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T190825Z" creationid="Марианна" creationdate="20210629T190825Z">
-        <seg>&lt;x3/&gt;Description of Structure&lt;x4/&gt; of Range Table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T103940Z" creationid="Марианна" creationdate="20210629T190825Z">
+        <seg>&lt;x3/&gt;Description of structure&lt;x4/&gt; of range table.</seg>
       </tuv>
     </tu>
     <tu>
