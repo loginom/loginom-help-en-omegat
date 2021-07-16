@@ -23,7 +23,7 @@ The wizard consists of two main areas: area of binning parameters configuration 
 The area is represented in the table form. Three buttons are located over the fields:
 
 * ![ ](../../images/icons/toolbar-controls/edit_default.svg) Edit: when pressing, it enables to edit the binning parameters for the selected field.
-* ![ ](../../images/icons/toolbar-controls/dec-decimal-places-count_default.svg) Decrease decimal: each button pressing decreases bitness of interval bounds by one decimal place.
+* ![ ](../../images/icons/toolbar-controls/dec-decimal-places-count_default.svg) Decrease decimal: each button pressing decreases bitness of bin bounds by one decimal place.
 * ![ ](../../images/icons/toolbar-controls/inc-decimal-places-count_default.svg) Increase decimal: each button pressing increases bitness of bin bounds by one decimal place.
 
 The area table consists of several columns:
