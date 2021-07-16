@@ -70,4 +70,4 @@ The table with the binning results received for the selected field is located un
 * **Type** — bound type;
 * **Upper** — upper bin bound;
 * **Caption** — Bin caption (it can be set using a template);
-* **Volume** enables to display the volume of values included into the interval (it is dispalyed in the form of a histogram).
+* **Volume** enables to display the volume of values included into the bin (it is dispalyed in the form of a histogram).
