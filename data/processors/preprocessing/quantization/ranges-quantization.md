@@ -10,8 +10,8 @@ This table contains information on the output binning ranges. The [external rang
 | Lower bound | Lower bin bound |
 | Upper bound | Upper bin bound |
 | Caption | It is set using a template in the wizard |
-| Lower bound quota | 1 - the bound value is included into the interval; <br> 0 - the bound value is not included into the interval. |
-| Upper bound quota | 1 - the bound value is included into the interval; <br> 0 - the bound value is not included into the interval. |
+| Lower bound quota | 1 - the bound value is included into the bin; <br> 0 - the bound value is not included into the bin. |
+| Upper bound quota | 1 - the bound value is included into the bin; <br> 0 - the bound value is not included into the bin. |
 | Bin quota | Always 0 |
 | Lower bin bound open | true if "Lower bound open" checkbox is selected; <br> false if "Lower bound open" checkbox is not selected. |
 | Upper bin bound open | true if "Upper bound open" checkbox is selected; <br> false if "Upper bound open" checkbox is not selected. |
