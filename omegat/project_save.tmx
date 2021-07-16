@@ -29977,8 +29977,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Добавлять в следующий — перенесет значения совпадающих наблюдений в следующий (более высокий) интервал разделения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210701T142504Z" creationid="Марианна" creationdate="20210701T142504Z">
-        <seg>Add to next: moves the values of matching observations to the next (higher) separation interval.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210716T113143Z" creationid="Марианна" creationdate="20210701T142504Z">
+        <seg>Add to next: moves the values of matching observations to the next (higher) separation bin.</seg>
       </tuv>
     </tu>
     <tu>
