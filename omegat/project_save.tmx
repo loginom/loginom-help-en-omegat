@@ -23175,6 +23175,36 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Имя столбца|Описание|
+|:-|:-|
+|Идентификатор интервалов|Имя поля|
+|Номер интервала|Порядковый номер интервала|
+|Метка|Метка интервала, которая задается шаблоном в мастере настройки|
+|Нижняя граница|Нижняя граница интервала|
+|Верхняя граница|Верхняя граница интервала|
+|Нижний предел интервала включительно|false – граница интервала не входит в интервал;&lt;x1/&gt; true – граница интервала входит в интервал.|
+|Верхний предел интервала включительно|false – граница интервала не входит в интервал;&lt;x2/&gt; true – граница интервала входит в интервал.|
+|Нижняя граница диапазонов открыта|true – если флаг «Нижняя граница открыта» установлен;&lt;x3/&gt; false – если флаг «Нижняя граница открыта» не установлен.|
+|Верхняя граница диапазонов открыта|true – если флаг «Верхняя граница открыта» установлен;&lt;x4/&gt; false – если флаг «Верхняя граница открыта» не установлен.|
+|Значение вне диапазона	| Значения, которые не попали ни в один диапазон:&lt;x5/&gt; -1 – значение меньше наименьшей границы диапазона;&lt;x6/&gt; 0 – значение входит в один из интервалов;&lt;x7/&gt; 1 – значение больше верхней границы диапазона.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210719T092829Z" creationid="Марианна" creationdate="20210719T092829Z">
+        <seg>|Column name|Description|
+|:-|:-|
+|Bins identifier|Field name|
+|Bin number|Index bin number|
+|Caption|Bin caption that is set by the wizard template|
+|Lower bound|Lower bin bound|
+|Upper bound|Upper bin bound|
+|Lower bin bound inclusive|false: the bin bound is not included into the bin;&lt;x1/&gt; true: the bin bound is included into the bin.|
+|Upper bin bound inclusive|false: the bin bound is not included into the bin;&lt;x2/&gt; true: the bin bound is included into the bin.|
+|Lower bin bound open|true: if «Lower bin bound open» checkbox is selected;&lt;x3/&gt; false: if «Lower bin bound open» checkbox is not selected.|
+|Upper bin bound open|true: if «Upper bin bound open» checkbox is selected;&lt;x4/&gt; false: if «Upper bin bound open» checkbox is not selected.|
+|Out of bin value| The values that are not included into bins:&lt;x5/&gt; -1 – the value that is less than the least bin bound;&lt;x6/&gt; 0 – the value that is included into one of the bins;&lt;x7/&gt; 1 – the value that exceeds the upper bin bound.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Имя|Id города|
 |:-|-:|
 |Андрей|1|
@@ -43073,8 +43103,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Результирующий набор состоит из столбцов исходного набора данных и столбцов, рассчитанных обработчиком, их описание приведено в таблице:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T203643Z" creationid="Марианна" creationdate="20210629T203643Z">
-        <seg>The resulting data set consists of the source data set columns and the columns calcualted by the handler. Their description is provided in the table:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210719T085157Z" creationid="Марианна" creationdate="20210629T203643Z">
+        <seg>The resulting data set consists of the source data set columns and the columns calculated by the handler. They are described in the table:</seg>
       </tuv>
     </tu>
     <tu>
