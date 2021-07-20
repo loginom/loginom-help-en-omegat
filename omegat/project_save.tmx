@@ -15083,6 +15083,14 @@ The output table size is customized. The switch button provides a choice whether
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Последовательный&lt;x2/&gt; — в параметрах метода определяется, откуда будет взята выборка — из начала исходной таблицы или из конца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T110419Z" creationid="Марианна" creationdate="20210720T110419Z">
+        <seg>&lt;x1/&gt;Sequence&lt;x2/&gt;: the sample selection source will be specified in the method parameters. It will be defined whether it was taken from the source table beginning or end.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пошаговое включение (Forward)&lt;x2/&gt; — метод, который базируется на принципе: начать с отсутствия признаков и постепенно найти самые "лучшие", которые будут добавлены в подмножество.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T140910Z" creationid="Марианна" creationdate="20201215T140910Z">
@@ -40047,6 +40055,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T102746Z" creationid="Марианна" creationdate="20201011T102746Z">
         <seg>There are the following fields the availability of which is set by a user:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля, определяющие страты, задаются в параметрах метода с помощью флажков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T105959Z" creationid="Марианна" creationdate="20210720T105959Z">
+        <seg>The strata defining fields are set in the method parameters by means of checkboxes.</seg>
       </tuv>
     </tu>
     <tu>
