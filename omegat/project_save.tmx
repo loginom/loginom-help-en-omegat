@@ -43807,6 +43807,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Следует учитывать, что максимальное количество уникальных значений в поле не должно превышать десять тысяч.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T112042Z" creationid="Марианна" creationdate="20210720T112042Z">
+        <seg>It is required to take into account that the maximum number of unique values in the field must not exceed ten thousand.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Следующие настройки применяются для формирования результирующего набора данных вручную:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T132248Z" creationid="Марианна" creationdate="20200825T192251Z">
