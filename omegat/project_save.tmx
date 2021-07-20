@@ -42783,6 +42783,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Размерность группы задается в параметрах метода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T094343Z" creationid="Марианна" creationdate="20210720T094343Z">
+        <seg>The group dimension is set in the method parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Разрядность LGD-файла зависит от разрядности используемого сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195818Z" creationid="Марианна" creationdate="20200916T195818Z">
