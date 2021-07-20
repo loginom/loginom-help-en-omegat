@@ -9859,8 +9859,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Глубина истории&lt;x2/&gt; — количество значений из предыдущих записей, для которых создаются новые поля в выходном наборе данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210713T140821Z" creationid="Марианна" creationdate="20201114T092309Z">
-        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt;: count of values from the previous records for which the new fields are created in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T112240Z" creationid="Марианна" creationdate="20201114T092309Z">
+        <seg>&lt;x1/&gt;Depth period&lt;x2/&gt;: number of values from the previous records for which the new fields are created in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9891,8 +9891,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Горизонт прогноза&lt;x2/&gt; — количество значений из последующих записей, для которых создаются новые поля в выходном наборе данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210713T140855Z" creationid="Марианна" creationdate="20201114T092406Z">
-        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt;: count of values from the subsequent records for which the new fields are created in the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T112304Z" creationid="Марианна" creationdate="20201114T092406Z">
+        <seg>&lt;x1/&gt;Forecast horizon&lt;x2/&gt;: number of values from the subsequent records for which the new fields are created in the output data set.</seg>
       </tuv>
     </tu>
     <tu>
