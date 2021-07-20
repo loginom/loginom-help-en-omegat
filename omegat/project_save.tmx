@@ -24843,6 +24843,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В нем следует выбрать поле и уникальное значение из этого поля, для которого устанавливается фактор.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T111454Z" creationid="Марианна" creationdate="20210720T111454Z">
+        <seg>It is required to select the field in it and unique value from this field for which the factor is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В нижней части мастера расположена область &lt;x1/&gt;Общие настройки для колонок&lt;x2/&gt; имеющая следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071235Z" creationid="Марианна" creationdate="20201023T071235Z">
