@@ -17318,6 +17318,14 @@ The output table size is customized. The switch button provides a choice whether
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стратифицированный&lt;x2/&gt; — все записи исходного набора данных разделяются на однородные группы (страты), после чего из каждой группы случайным образом выбираются и помещаются в результирующую выборку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T105906Z" creationid="Марианна" creationdate="20210720T105906Z">
+        <seg>&lt;x1/&gt;Stratified&lt;x2/&gt;: all records of the source data set are divided into uniform groups (strata), and then they are randomly selected from each group and placed into the resulting sample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка заголовка&lt;x2/&gt; — выбор способа задания наименования столбцов в экспортируемом файле:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T162320Z" creationid="Марианна" creationdate="20200917T162320Z">
