@@ -40595,6 +40595,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Последовательность строк в выборке будет такой же, как и в исходной таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T110456Z" creationid="Марианна" creationdate="20210720T110456Z">
+        <seg>Sequence of the sample rows will be the same as in the source table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательный - соотношение данных для тестового и обучающего множеств задается вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T075211Z" creationid="Марианна" creationdate="20201225T075211Z">
