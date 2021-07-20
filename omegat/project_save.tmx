@@ -45343,6 +45343,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такая выборка создается для сокращения анализируемого объема данных, например, во избежание избыточных вычислений, т.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T091001Z" creationid="Марианна" creationdate="20210720T091001Z">
+        <seg>Such sample is created to decrease the analyzed data volume, for example, to avoid redundant computation,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая конструкция подстановки дает возможность динамически в ходе выполнения сценария формировать текст запроса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
