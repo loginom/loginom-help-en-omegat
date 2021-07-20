@@ -13699,6 +13699,14 @@ The output table size is customized. The switch button provides a choice whether
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отбор со смещением&lt;x2/&gt; — после определения размера выборки дается возможность менять в ней количество записей с конкретными уникальными значениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T110754Z" creationid="Марианна" creationdate="20210720T110754Z">
+        <seg>&lt;x1/&gt;Biased sampling&lt;x2/&gt;: it is possible to change the number of records with specific unique values in the sample after definition of the sample size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отбор факторов и защита от переобучения&lt;x2/&gt; — значение перечисления:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T104553Z" creationid="Марианна" creationdate="20201215T104553Z">
