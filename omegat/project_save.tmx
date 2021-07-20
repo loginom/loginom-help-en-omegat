@@ -41579,8 +41579,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При формировании выборки пользователь может задать метод отбора: случайный; равномерный случайный; стратифицированный; последовательный; отбор со смещением.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210720T092748Z" creationid="Марианна" creationdate="20210720T092748Z">
-        <seg>When creating the sample, a user can set the selection method: random, random uniform, stratified, sequence, biased sampling.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T092904Z" creationid="Марианна" creationdate="20210720T092748Z">
+        <seg>When creating the sample, a user can set the sampling method: random, random uniform, stratified, sequence, biased sampling.</seg>
       </tuv>
     </tu>
     <tu>
