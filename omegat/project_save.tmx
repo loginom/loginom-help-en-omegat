@@ -13273,6 +13273,16 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки количества строк выходной таблицы.&lt;x2/&gt;
+Размер выходной таблицы задается вручную; кнопка-переключатель предоставляет выбор — непосредственно указать количество строк &lt;x3/&gt; &lt;x4/&gt; или задать его в процентах &lt;x5/&gt; &lt;x6/&gt; от размера исходной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T093829Z" creationid="Марианна" creationdate="20210720T093829Z">
+        <seg>&lt;x1/&gt;Area of the output table row count configuration.&lt;x2/&gt;
+The output table size is customized. The switch button provides a choice whether to set the row count &lt;x3/&gt; &lt;x4/&gt; or to set it as a percentage &lt;x5/&gt; &lt;x6/&gt; of the source table size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки методов обработки выбросов и экстремальных значений&lt;x2/&gt; — содержит список полей доступных для обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T084637Z" creationid="Марианна" creationdate="20210511T084637Z">
