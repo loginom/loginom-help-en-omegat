@@ -56,8 +56,8 @@ The resulting table in the case of *Leave incomplete records* value:
 
 The wizard window contains a list of the input table fields. The following configured features are available for each field:
 
-* **Depth period**: count of values from the previous records for which the new fields are created in the output data set.
-* **Forecast horizon**: count of values from the subsequent records for which the new fields are created in the output data set.
+* **Depth period**: number of values from the previous records for which the new fields are created in the output data set.
+* **Forecast horizon**: number of values from the subsequent records for which the new fields are created in the output data set.
 
 *Incomplete records processing method* parameter provides the following methods:
 
