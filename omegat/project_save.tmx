@@ -16118,6 +16118,14 @@ The output table size is customized. The switch button provides a choice whether
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Равномерный случайный&lt;x2/&gt; — все записи исходного набора данных разделяются на группы и затем из каждой группы случайным образом выбираются и помещаются в результирующую выборку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T094226Z" creationid="Марианна" creationdate="20210720T094226Z">
+        <seg>&lt;x1/&gt;Random uniform&lt;x2/&gt;: all records of the source data set are divided into groups, and then they are randomly selected from each group and placed into the resulting sample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разбиение на множества&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055533Z" creationid="Марианна" creationdate="20200812T055533Z">
@@ -16818,6 +16826,14 @@ The output table size is customized. The switch button provides a choice whether
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185135Z" creationid="Марианна" creationdate="20200810T182508Z">
         <seg>&lt;x1/&gt;Service ports&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Случайный&lt;x2/&gt; — записи случайным образом выбираются из исходного набора данных и помещаются в результирующую выборку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T094032Z" creationid="Марианна" creationdate="20210720T094032Z">
+        <seg>&lt;x1/&gt;Random&lt;x2/&gt;: the records are randomly selected from the source data set, and then they are placed into the resulting sample.</seg>
       </tuv>
     </tu>
     <tu>
