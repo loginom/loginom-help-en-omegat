@@ -49007,6 +49007,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>трудоемкость некоторых алгоритмов Data Mining экспоненциально возрастает с увеличением объема данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210720T091304Z" creationid="Марианна" creationdate="20210720T091304Z">
+        <seg>complexity of some Data Mining algorithms is increased with data volume increase in an exponential manner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>удалять записи — исключить строки с аномальными значениями из набора данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T085412Z" creationid="Марианна" creationdate="20210511T085412Z">
