@@ -8510,6 +8510,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В конце набора&lt;x2/&gt; — в качестве тестовой выборки будут использованы строки из конца набора, взятые в том же порядке, что и в исходной таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T121010Z" creationid="Марианна" creationdate="20210722T121010Z">
+        <seg>&lt;x1/&gt;End of set&lt;x2/&gt;: the set end rows taken in the same order as in the source table will be used as the test sample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В файловом хранилище или локальной сети&lt;x2/&gt; — подключение к базе данных через указание ее каталога на жестком диске.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122043Z" creationid="Марианна" creationdate="20210111T122043Z">
