@@ -6102,8 +6102,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; — значение параметра задается вручную;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T082920Z" creationid="Марианна" creationdate="20201009T082920Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; — the parameter value is set in the manual way.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T111430Z" creationid="Марианна" creationdate="20201009T082920Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; — the parameter value is manually set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40639,8 +40639,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Последовательный - соотношение данных для тестового и обучающего множеств задается вручную.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201225T075211Z" creationid="Марианна" creationdate="20201225T075211Z">
-        <seg>Consequent: data ratio for the test and training sets is manually set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T111406Z" creationid="Марианна" creationdate="20201225T075211Z">
+        <seg>Consequent: data ratio for the test and training sets is customized.</seg>
       </tuv>
     </tu>
     <tu>
