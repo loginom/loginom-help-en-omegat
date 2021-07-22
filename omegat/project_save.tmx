@@ -13709,6 +13709,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отбор со смещением&lt;x2/&gt; — в исходном наборе данных сокращается или увеличивается количество записей с выбранными уникальными значениями перед обработкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T113248Z" creationid="Марианна" creationdate="20210722T113248Z">
+        <seg>&lt;x1/&gt;Biased sampling&lt;x2/&gt;: the number of records with selected unique values is decreased or increased in the source data set before processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отбор со смещением&lt;x2/&gt; — после определения размера выборки дается возможность менять в ней количество записей с конкретными уникальными значениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210720T110754Z" creationid="Марианна" creationdate="20210720T110754Z">
@@ -42869,6 +42877,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210720T094343Z" creationid="Марианна" creationdate="20210720T094343Z">
         <seg>The group dimension is set in the method parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Размеры сэмплированного и неиспользованного множеств настраиваются в параметрах метода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T113103Z" creationid="Марианна" creationdate="20210722T113103Z">
+        <seg>The sizes of sampling and unused sets are configured in the method parameters.</seg>
       </tuv>
     </tu>
     <tu>
