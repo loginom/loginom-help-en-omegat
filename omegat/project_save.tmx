@@ -15109,6 +15109,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Последовательный&lt;x2/&gt; — из исходного набора данных последовательно выбираются записи и помещаются в результирующую выборку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T112849Z" creationid="Марианна" creationdate="20210722T112849Z">
+        <seg>&lt;x1/&gt;Sequence&lt;x2/&gt;: the records are sequentially selected from the source data set and placed into the resulting sample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пошаговое включение (Forward)&lt;x2/&gt; — метод, который базируется на принципе: начать с отсутствия признаков и постепенно найти самые "лучшие", которые будут добавлены в подмножество.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T140910Z" creationid="Марианна" creationdate="20201215T140910Z">
