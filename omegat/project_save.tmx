@@ -32144,6 +32144,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имеется три режима отбора, определяемые параметром "Положение приоритетного тестового множества":</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T121414Z" creationid="Марианна" creationdate="20210722T121414Z">
+        <seg>There are three selection modes defined by "Priority test set position" parameter:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имена</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151138Z" creationid="Марианна" creationdate="20201111T151138Z">
