@@ -55,7 +55,7 @@ At this stage, the input data can be divided into the [test](https://wiki.logino
 
 * Random: the data for the test and training sets is formed from the whole volume of the input data in random order and proportion.
 
-* Consequent: data ratio for the test and training sets is manually set. In this case, it is possible to select the order in which the data is selected first for the test set and then for the training one, or vice versa.
+* Consequent: data ratio for the test and training sets is customized. In this case, it is possible to select the order in which the data is selected first for the test set and then for the training one, or vice versa.
 
 #### Validation Method
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-Clustering is based on the [CLOPE algorithm](https://basegroup.ru/community/articles/clope). Its usage enables to process huge arrays of [transactional data](https://wiki.loginom.ru/articles/transaction.html): checks in supermarkets, tracking data of web resources, etc. It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed to different clusters.
+Clustering is based on the [CLOPE algorithm](https://basegroup.ru/community/articles/clope). Its usage enables to process huge arrays of [transactional data](https://wiki.loginom.ru/articles/transaction.html): checks in supermarkets, tracking data of web resources, etc. It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed into different clusters.
 
 The algorithm selects the number of clusters automatically. An analyst can have influence on the result by means of repulsion coefficient and determination of the maximum number of clusters or iterations.
 

@@ -8,7 +8,7 @@ It is not required to accept control variables from another handler. When config
 
 If a value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:
 
-* ![](../../images/icons/propedit/value_default.svg) — the parameter value is set in the manual way.
+* ![](../../images/icons/propedit/value_default.svg) — the parameter value is manually set.
 * ![](../../images/icons/propedit/variable_default.svg) — the parameter value is set by the variable. In this case, a user selects the variable that contains the parameter value in the parameter field.
 
 Examples of the control variables use:
