@@ -30063,6 +30063,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" — в обучающую.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T110759Z" creationid="Марианна" creationdate="20210722T110759Z">
+        <seg>The "test set" field is added. The "true" value in this field means that the record has been placed to the test sample, whereas the "false" value has been placed to the training one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлять в следующий — перенесет значения совпадающих наблюдений в следующий (более высокий) интервал разделения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210716T113143Z" creationid="Марианна" creationdate="20210701T142504Z">
