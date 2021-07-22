@@ -15864,6 +15864,16 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Приоритет тестового множества (необязательный флаг)&lt;x2/&gt;.&lt;x3/&gt;
+Активация данного флага приводит к тому, что сначала отбираются записи для тестовой выборки, а оставшиеся используются для обучающей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T121735Z" creationid="Марианна" creationdate="20210722T121735Z">
+        <seg>&lt;x1/&gt;Test set priority (optional checkbox)&lt;x2/&gt;.&lt;x3/&gt;
+Selection of this checkbox enables to select the records for the test sample first, whereas the remaining ones are used for the training one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Приоритет точность/скорость&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083208Z" creationid="Марианна" creationdate="20201214T083208Z">
