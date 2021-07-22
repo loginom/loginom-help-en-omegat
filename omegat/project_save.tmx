@@ -25135,6 +25135,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В параметрах этого метода коэффициент увеличения задается в поле "фактор" напротив каждого уникального значения выбранного столбца исходной таблицы, также число записей для каждого уникального значения можно ввести вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T122441Z" creationid="Марианна" creationdate="20210722T122441Z">
+        <seg>The increase coefficient is set in the "factor" field in the method parameters in front of each unique value of the selected column of the source table. The number of records for each unique value can be manually entered.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В первом и втором случае применение входного набора данных не обязательно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T193455Z" creationid="Марианна" creationdate="20200921T193455Z">
