@@ -13283,6 +13283,16 @@ The output table size is customized. The switch button provides a choice whether
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настройки количества строк для обучающей и тестовой выборок&lt;x2/&gt;.&lt;x3/&gt;
+Размер каждой выборки задается вручную; счетная кнопка "способ" предоставляет выбор — непосредственно указать количество строк или задать его в процентах от размера исходной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T111349Z" creationid="Марианна" creationdate="20210722T111349Z">
+        <seg>&lt;x1/&gt;Area of the row count configuration for the training and test samples&lt;x2/&gt;.&lt;x3/&gt;
+The size of each sample is customized. .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настройки методов обработки выбросов и экстремальных значений&lt;x2/&gt; — содержит список полей доступных для обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T084637Z" creationid="Марианна" creationdate="20210511T084637Z">
@@ -30065,8 +30075,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" — в обучающую.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210722T110759Z" creationid="Марианна" creationdate="20210722T110759Z">
-        <seg>The "test set" field is added. The "true" value in this field means that the record has been placed to the test sample, whereas the "false" value has been placed to the training one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T110957Z" creationid="Марианна" creationdate="20210722T110759Z">
+        <seg>The "test set" field is added. The "true" value in this field means that the record has been placed into the test sample, whereas the "false" value has been placed into the training one.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31138,8 +31148,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Задача состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201209T140305Z" creationid="Марианна" creationdate="20201209T140230Z">
-        <seg>It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed to different clusters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T110827Z" creationid="Марианна" creationdate="20201209T140230Z">
+        <seg>It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed into different clusters.</seg>
       </tuv>
     </tu>
     <tu>
