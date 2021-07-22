@@ -13286,9 +13286,9 @@ The output table size is customized. The switch button provides a choice whether
         <seg>&lt;x1/&gt;Область настройки количества строк для обучающей и тестовой выборок&lt;x2/&gt;.&lt;x3/&gt;
 Размер каждой выборки задается вручную; счетная кнопка "способ" предоставляет выбор — непосредственно указать количество строк или задать его в процентах от размера исходной таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210722T111740Z" creationid="Марианна" creationdate="20210722T111349Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210722T111833Z" creationid="Марианна" creationdate="20210722T111349Z">
         <seg>&lt;x1/&gt;Area of the row count configuration for the training and test samples&lt;x2/&gt;.&lt;x3/&gt;
-The size of each sample is customized. the "Method" button used for calculation provides a choice whether to set the row count or to set it as a percentage of the source table size.</seg>
+The size of each sample is customized. The "Method" button used for calculation provides a choice whether to set the row count or to set it as a percentage of the source table size.</seg>
       </tuv>
     </tu>
     <tu>
