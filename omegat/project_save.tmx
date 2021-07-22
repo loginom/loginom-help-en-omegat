@@ -8518,6 +8518,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В начале набора&lt;x2/&gt; — в качестве тестовой выборки будут использованы строки из начала набора, взятые в том же порядке, что и в исходной таблице;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T121112Z" creationid="Марианна" creationdate="20210722T121112Z">
+        <seg>&lt;x1/&gt;Start of set&lt;x2/&gt;: the set start rows taken in the same order as in the source table will be used as the test sample.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В файловом хранилище или локальной сети&lt;x2/&gt; — подключение к базе данных через указание ее каталога на жестком диске.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122043Z" creationid="Марианна" creationdate="20210111T122043Z">
@@ -13649,6 +13657,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133100Z" creationid="Марианна" creationdate="20201208T071633Z">
         <seg>&lt;x1/&gt;Auto detect structure&lt;x2/&gt;: when this checkbox is selected, automatic selection of the model parameters is enabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Определяется алгоритмом&lt;x2/&gt; — записи будут отобраны в соответствии с выбранным ранее методом сэмплинга;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T121246Z" creationid="Марианна" creationdate="20210722T121246Z">
+        <seg>&lt;x1/&gt;Defined by algorithm&lt;x2/&gt;: records will be selected according to the previously selected sampling method.</seg>
       </tuv>
     </tu>
     <tu>
