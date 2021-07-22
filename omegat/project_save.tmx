@@ -45175,6 +45175,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сумма строк выборок не может быть больше, чем количество строк в исходной таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210722T111920Z" creationid="Марианна" creationdate="20210722T111920Z">
+        <seg>The sum of the samples rows cannot exceed the row count in the source table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сумма частных информационных индексов по каждому классу дает общий информационный индекс признака, по которому определяется его значимость.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T210504Z" creationid="Марианна" creationdate="20210606T210504Z">
