@@ -23036,8 +23036,8 @@ Assertion failed: lie 1 != 0</seg>
         <seg>|&lt;x19/&gt;&lt;x20/&gt; Количество|&lt;x21/&gt;•&lt;x22/&gt;|&lt;x23/&gt;•&lt;x24/&gt;|&lt;x25/&gt;•&lt;x26/&gt;|&lt;x27/&gt;•&lt;x28/&gt;|&lt;x29/&gt;•&lt;x30/&gt;|&lt;x31/&gt;•&lt;x32/&gt;|Показывает общее количество записей в наборе данных, в том числе пустые записи и записи без значения (&lt;x33/&gt;&lt;x34/&gt;&lt;null&gt;&lt;x35/&gt;&lt;x36/&gt;).|
 |&lt;x37/&gt;&lt;x38/&gt; Минимум|&lt;x39/&gt;•&lt;x40/&gt;|&lt;x41/&gt;•&lt;x42/&gt;|&lt;x43/&gt;•&lt;x44/&gt;|&lt;x45/&gt;•&lt;x46/&gt;|&lt;x47/&gt;•&lt;x48/&gt;|&lt;x49/&gt;•&lt;x50/&gt;|Выводит наименьшее значение по столбцу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T164346Z" creationid="Марианна" creationdate="20210328T164346Z">
-        <seg>|&lt;x19/&gt;&lt;x20/&gt; Count|&lt;x21/&gt;•&lt;x22/&gt;|&lt;x23/&gt;•&lt;x24/&gt;|&lt;x25/&gt;•&lt;x26/&gt;|&lt;x27/&gt;•&lt;x28/&gt;|&lt;x29/&gt;•&lt;x30/&gt;|&lt;x31/&gt;•&lt;x32/&gt;|It displays total count of records in the data set, including null records and records without a value (&lt;x33/&gt;&lt;x34/&gt;&lt;null&gt;&lt;x35/&gt;&lt;x36/&gt;).|
+      <tuv lang="en" changeid="Марианна" changedate="20210722T112427Z" creationid="Марианна" creationdate="20210328T164346Z">
+        <seg>|&lt;x19/&gt;&lt;x20/&gt; Count|&lt;x21/&gt;•&lt;x22/&gt;|&lt;x23/&gt;•&lt;x24/&gt;|&lt;x25/&gt;•&lt;x26/&gt;|&lt;x27/&gt;•&lt;x28/&gt;|&lt;x29/&gt;•&lt;x30/&gt;|&lt;x31/&gt;•&lt;x32/&gt;|It displays total number of records in the data set, including null records and records without a value (&lt;x33/&gt;&lt;x34/&gt;&lt;null&gt;&lt;x35/&gt;&lt;x36/&gt;).|
 |&lt;x37/&gt;&lt;x38/&gt; Minimum|&lt;x39/&gt;•&lt;x40/&gt;|&lt;x41/&gt;•&lt;x42/&gt;|&lt;x43/&gt;•&lt;x44/&gt;|&lt;x45/&gt;•&lt;x46/&gt;|&lt;x47/&gt;•&lt;x48/&gt;|&lt;x49/&gt;•&lt;x50/&gt;|It shows the minimum value by column.</seg>
       </tuv>
     </tu>
@@ -34092,9 +34092,9 @@ etc.</seg>
         <seg>Кроме типа данных &lt;x117/&gt;&lt;x118/&gt; Строковый где не учитываются записи только со значением &lt;x119/&gt;&lt;x120/&gt;&lt;null&gt;&lt;x121/&gt;&lt;x122/&gt;.|
 |&lt;x123/&gt;&lt;x124/&gt; Количество пропусков|&lt;x125/&gt;•&lt;x126/&gt;|&lt;x127/&gt;•&lt;x128/&gt;|&lt;x129/&gt;•&lt;x130/&gt;|&lt;x131/&gt;•&lt;x132/&gt;|&lt;x133/&gt;•&lt;x134/&gt;|&lt;x135/&gt;•&lt;x136/&gt;|Показывает количество записей с пустыми значениями, со значением &lt;x137/&gt;&lt;x138/&gt;&lt;null&gt;&lt;x139/&gt;&lt;x140/&gt; или со значениями не соответствующими типу данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210416T201139Z" creationid="Марианна" creationdate="20210328T171306Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210722T112507Z" creationid="Марианна" creationdate="20210328T171306Z">
         <seg>With the exception of &lt;x117/&gt;&lt;x118/&gt; String data type where only the records with &lt;x119/&gt;&lt;x120/&gt;&lt;null&gt;&lt;x121/&gt;&lt;x122/&gt; value are not taken into account.|
-|&lt;x123/&gt;&lt;x124/&gt; Null count|&lt;x125/&gt;•&lt;x126/&gt;|&lt;x127/&gt;•&lt;x128/&gt;|&lt;x129/&gt;•&lt;x130/&gt;|&lt;x131/&gt;•&lt;x132/&gt;|&lt;x133/&gt;•&lt;x134/&gt;|&lt;x135/&gt;•&lt;x136/&gt;|It displays the count of records with the null values, &lt;x137/&gt;&lt;x138/&gt;&lt;null&gt;&lt;x139/&gt;&lt;x140/&gt; value or the values that do not match the data type.</seg>
+|&lt;x123/&gt;&lt;x124/&gt; Null count|&lt;x125/&gt;•&lt;x126/&gt;|&lt;x127/&gt;•&lt;x128/&gt;|&lt;x129/&gt;•&lt;x130/&gt;|&lt;x131/&gt;•&lt;x132/&gt;|&lt;x133/&gt;•&lt;x134/&gt;|&lt;x135/&gt;•&lt;x136/&gt;|It displays the number of records with the null values, &lt;x137/&gt;&lt;x138/&gt;&lt;null&gt;&lt;x139/&gt;&lt;x140/&gt; value or the values that do not match the data type.</seg>
       </tuv>
     </tu>
     <tu>
