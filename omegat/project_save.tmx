@@ -36307,6 +36307,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки всех вейвлетов идентичны:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T102513Z" creationid="Марианна" creationdate="20210730T102513Z">
+        <seg>Settings of all wavelets are identical:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки выходных столбцов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T175134Z" creationid="Марианна" creationdate="20201109T054847Z">
