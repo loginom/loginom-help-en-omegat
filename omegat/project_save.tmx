@@ -31598,6 +31598,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение 1026598E+8 рассчитано на основе максимального значения Периода сглаживания.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T101306Z" creationid="Марианна" creationdate="20210730T101254Z">
+        <seg>1026598E+8 value was calculated on the basis of the maximum values of the Smoothing Period.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение вещественного типа от 0 до 1.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114319Z" creationid="Марианна" creationdate="20201214T114319Z">
@@ -39163,6 +39171,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083150Z" creationid="Марианна" creationdate="20201214T083150Z">
         <seg>The following options are available for different methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Период сглаживания - значение вещественного типа в диапазоне &lt;x1/&gt;2, 20000&lt;x2/&gt; с шагом 0.1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T102115Z" creationid="Марианна" creationdate="20210730T102115Z">
+        <seg>The smoothing period means the real value in the range &lt;x1/&gt;2, 20000&lt;x2/&gt; at 0.1 intervals.</seg>
       </tuv>
     </tu>
     <tu>
