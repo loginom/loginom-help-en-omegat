@@ -40223,6 +40223,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поля, ряды которых требуется сгладить, следует отметить флагами, после этого в столбце "метод обработки" для каждого выбранного поля можно задать метод сглаживания:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T095032Z" creationid="Марианна" creationdate="20210730T095032Z">
+        <seg>It is required to provide checkboxes for the fields series of which are to be smoothed. Then it is possible to set the smoothing method in the "processing method" column for each selected field:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поля, соответствующие дополнительным факторам, должны иметь назначение &lt;x1/&gt;Входное&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143322Z" creationid="Марианна" creationdate="20201207T143322Z">
@@ -40859,6 +40867,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083825Z" creationid="Марианна" creationdate="20201009T083825Z">
         <seg>Predefined Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предоставляет список численных полей, содержащихся во входной таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T094737Z" creationid="Марианна" creationdate="20210730T094737Z">
+        <seg>It provides a list of the numerical fields included into the input table.</seg>
       </tuv>
     </tu>
     <tu>
