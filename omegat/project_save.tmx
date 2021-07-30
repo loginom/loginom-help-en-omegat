@@ -20242,6 +20242,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Lambda - основной коэффициент фильтра, с увеличением которого возрастает сглаживание ряда (при Lambda → ∞ итоговый ряд превращается в линейный тренд, а при Lambda = 0 ряд совпадает с исходным рядом).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T100648Z" creationid="Марианна" creationdate="20210730T100648Z">
+        <seg>Lambda is the main filter coefficient with which increase the series smoothing increases as well (if Lambda → ∞ the final series becomes the linear trend, and if Lambda = 0, the series coincides with the source series).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Left</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T073134Z" creationid="Марианна" creationdate="20210407T073134Z">
@@ -46845,6 +46853,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071113Z" creationid="Марианна" creationdate="20201023T071113Z">
         <seg>Measures for them will be aggregated in the &lt;x9/&gt;Null values&lt;x10/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фильтр Ходрика-Прескотта - имеет два взаимосвязанных параметра (одновременное редактирование параметров исключено), радиокнопки переключают на редактирование одного из них:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T095312Z" creationid="Марианна" creationdate="20210730T095312Z">
+        <seg>The Hodrick-Prescott filter has two interrelating parameters (simultaneous editing of parameters is excluded). Radio buttons switch to editing of one of them:</seg>
       </tuv>
     </tu>
     <tu>
