@@ -29925,8 +29925,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этих целей в нем можно использовать фильтр Ходрика-Прескотта или один из трех типов вейвлетов - вейвлеты Добеши, Койфлеты и CDF 9/7.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210730T060440Z" creationid="Марианна" creationdate="20210730T060440Z">
-        <seg>Hodrick-Prescott filter or one of three wavelet types (Daubechies, Coiflet and CDF 9/7 wavelets) can be used for these purposes in it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T060707Z" creationid="Марианна" creationdate="20210730T060440Z">
+        <seg>The Hodrick-Prescott filter or one of three wavelet types (Daubechies, Coiflet and CDF 9/7 wavelets) can be used for these purposes in it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32142,6 +32142,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T144917Z" creationid="Марианна" creationdate="20200917T144917Z">
         <seg>It is possible to configure transformation of the data set to the text form defining different methods of representation of columns (with delimiters/fixed width), formats of data types, delimiters, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имеется возможность сглаживания рядов с пропущенными данными, при этом фильтр Ходрика-Прескотта подставляет вместо пропусков значения, которые обеспечивают максимальную гладкость в смысле функционала фильтра, а в случае &lt;x1/&gt;Вейвлет-сглаживания&lt;x2/&gt; пропуски предварительно интерполируются линейно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T061547Z" creationid="Марианна" creationdate="20210730T060700Z">
+        <seg>It is possible to smooth the series with null values. In this case, the Hodrick-Prescott filter enables to substitute the values that provide the maximum smoothness as far as the filter functionality is concerned instead of null data. If &lt;x1/&gt;Wavelet smoothing&lt;x2/&gt; is used, the null data is linearly interpolated first.</seg>
       </tuv>
     </tu>
     <tu>
