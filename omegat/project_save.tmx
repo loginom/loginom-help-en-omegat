@@ -26009,6 +26009,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вейвлет-сглаживание - тип вейвлета определяется радиокнопкой: Добеши, Койфлеты, CDF 9/7.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T102414Z" creationid="Марианна" creationdate="20210730T102414Z">
+        <seg>Wavelet smoothing: the wavelet type is defined by the radio button (Daubechies, Coiflet and CDF 9/7).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Величина связи между переменными регрессионной модели (изменяется от 0 до 1)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T212136Z" creationid="Марианна" creationdate="20201216T205811Z">
@@ -31690,6 +31698,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223102Z" creationid="Марианна" creationdate="20210218T223102Z">
         <seg>Default value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение по умолчанию - 39.7 (рассчитано на основе значения по умолчанию Labmba, равного 1600).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T102245Z" creationid="Марианна" creationdate="20210730T102245Z">
+        <seg>Default value - 39.7 (it is calculated on the basis of the default Labmba value that is equal to 1600).</seg>
       </tuv>
     </tu>
     <tu>
@@ -39177,8 +39193,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Период сглаживания - значение вещественного типа в диапазоне &lt;x1/&gt;2, 20000&lt;x2/&gt; с шагом 0.1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210730T102115Z" creationid="Марианна" creationdate="20210730T102115Z">
-        <seg>The smoothing period means the real value in the range &lt;x1/&gt;2, 20000&lt;x2/&gt; at 0.1 intervals.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T102438Z" creationid="Марианна" creationdate="20210730T102115Z">
+        <seg>The smoothing period: the real value in the range &lt;x1/&gt;2, 20000&lt;x2/&gt; at 0.1 intervals.</seg>
       </tuv>
     </tu>
     <tu>
