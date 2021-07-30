@@ -37327,6 +37327,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик предназначен для сглаживания численных рядов данных и выделения трендовой составляющей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T060137Z" creationid="Марианна" creationdate="20210730T060137Z">
+        <seg>The handler is designated for smoothing of numerical data series and selection of trend story.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик предназначен для транспонирования таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T144444Z" creationid="Марианна" creationdate="20201111T144444Z">
