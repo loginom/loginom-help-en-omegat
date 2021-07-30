@@ -3804,6 +3804,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных - исходная таблица, к которой добавлены поля со сглаженными рядами, метки таких полей снабжены постфиксами &lt;x3/&gt;_smoothed&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T094626Z" creationid="Марианна" creationdate="20210730T094626Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Output data set: the source table to which the fields with smoothed series have been added. Captions of such fields include &lt;x3/&gt;_smoothed&lt;x4/&gt; postfixes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Выходной набор данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T133948Z" creationid="Марианна" creationdate="20201011T101215Z">
