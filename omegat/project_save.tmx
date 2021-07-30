@@ -20244,8 +20244,8 @@ interface IOutputTable extends IDataSource {</seg>
       <tuv lang="ru">
         <seg>Lambda - основной коэффициент фильтра, с увеличением которого возрастает сглаживание ряда (при Lambda → ∞ итоговый ряд превращается в линейный тренд, а при Lambda = 0 ряд совпадает с исходным рядом).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210730T100648Z" creationid="Марианна" creationdate="20210730T100648Z">
-        <seg>Lambda is the main filter coefficient with which increase the series smoothing increases as well (if Lambda → ∞ the final series becomes the linear trend, and if Lambda = 0, the series coincides with the source series).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T100911Z" creationid="Марианна" creationdate="20210730T100648Z">
+        <seg>Lambda is the main filter coefficient with increase of which the series smoothing increases as well (if Lambda → ∞, the final series becomes the linear trend, and if Lambda = 0, the series matches the source series).</seg>
       </tuv>
     </tu>
     <tu>
@@ -35043,6 +35043,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201151Z" creationid="Марианна" creationdate="20200829T200531Z">
         <seg>There are the following items:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Может принимать значения вещественного типа в диапазоне &lt;x1/&gt;0.0625, 1026598E+8&lt;x2/&gt; с шагом 0.1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T101158Z" creationid="Марианна" creationdate="20210730T101158Z">
+        <seg>It can take the real values in the range &lt;x1/&gt;0.0625, 1026598E+8&lt;x2/&gt; at 0.1 intervals.</seg>
       </tuv>
     </tu>
     <tu>
