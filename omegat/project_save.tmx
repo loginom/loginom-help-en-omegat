@@ -29923,6 +29923,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этих целей в нем можно использовать фильтр Ходрика-Прескотта или один из трех типов вейвлетов - вейвлеты Добеши, Койфлеты и CDF 9/7.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T060440Z" creationid="Марианна" creationdate="20210730T060440Z">
+        <seg>Hodrick-Prescott filter or one of three wavelet types (Daubechies, Coiflet and CDF 9/7 wavelets) can be used for these purposes in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого в списке &lt;x3/&gt;Таблица/Представление&lt;x4/&gt; необходимо отметить поля объекта БД, выбранного в списке &lt;x5/&gt;Таблицы/Представления&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201104T182623Z" creationid="Марианна" creationdate="20200825T110720Z">
