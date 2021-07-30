@@ -32802,6 +32802,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование слишком больших значений глубины разложения может привести к потере полезной информации из-за слишком большой степени «огрубления» данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T112518Z" creationid="Марианна" creationdate="20210730T112518Z">
+        <seg>The usage of too high values of decomposition level can cause the loss of usefull information in connection with too high level of the data "coarsening".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использовать готовые алгоритмы обработки данных, созданные в других сценариях и пакетах через механизм &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163924Z" creationid="Марианна" creationdate="20200718T163924Z">
