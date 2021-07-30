@@ -28065,6 +28065,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Глубина разложения - определяет «масштаб» отсеиваемых деталей: чем больше эта величина, тем более «крупные» детали в исходных данных будут отброшены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T112058Z" creationid="Марианна" creationdate="20210730T112058Z">
+        <seg>Decomposition level defines the "scale" of filter out detailes. The higher this value, the "larger" details will be filtered out in the source data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Год - год в виде числа,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T205346Z" creationid="Марианна" creationdate="20210328T214241Z">
