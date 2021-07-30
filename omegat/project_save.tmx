@@ -40463,6 +40463,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порядок вейвлета - определяет гладкость восстановленного ряда данных: чем меньше значение параметра, тем сильнее будут выражены «выбросы», и, наоборот, при больших значения параметра «выбросы» будут сглажены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T103402Z" creationid="Марианна" creationdate="20210730T103402Z">
+        <seg>Wavelet order defines the smoothness of the recovered data series: the lower the parameter value, the more expressed "outliers" are observed, and vice versa, the "outliers" will be smoothed when the parameter values are high.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порядок множеств можно менять (кнопки &lt;x1/&gt;Сдвинуть вверх&lt;x2/&gt;, &lt;x3/&gt;Сдвинуть вниз&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T101436Z" creationid="Марианна" creationdate="20201215T101436Z">
