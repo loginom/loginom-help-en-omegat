@@ -28971,6 +28971,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для вейвлета Добеши этот параметр может принимать значения от 1 до 10, для койфлетов - от 1 до 5, вейвлетом CDF 9/7 этот параметр не используется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T103615Z" creationid="Марианна" creationdate="20210730T103615Z">
+        <seg>For the Daubechies wavelet this parameter can take values from 1 to 10, for the Coiflet wavelet - from 1 to 5, and this parameter is not used by CDF 9/7 wavelet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для включения режима редактирования используется кнопка &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Редактировать разбиение&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210621T081945Z" creationid="Марианна" creationdate="20210621T081945Z">
