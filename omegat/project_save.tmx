@@ -32148,8 +32148,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Имеется возможность сглаживания рядов с пропущенными данными, при этом фильтр Ходрика-Прескотта подставляет вместо пропусков значения, которые обеспечивают максимальную гладкость в смысле функционала фильтра, а в случае &lt;x1/&gt;Вейвлет-сглаживания&lt;x2/&gt; пропуски предварительно интерполируются линейно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210730T061951Z" creationid="Марианна" creationdate="20210730T060700Z">
-        <seg>It is possible to smooth the series with null data. In this case, the Hodrick-Prescott filter enables to substitute the values that provide the maximum smoothness as far as the filter functionality is concerned instead of the null data. If &lt;x1/&gt;Wavelet smoothing&lt;x2/&gt; is used, the null data is linearly interpolated first.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T062316Z" creationid="Марианна" creationdate="20210730T060700Z">
+        <seg>It is possible to smooth the series with null data. In this case, the Hodrick-Prescott filter enables to insert the values that provide the maximum smoothness as far as the filter functionality is concerned instead of the null data. If &lt;x1/&gt;Wavelet smoothing&lt;x2/&gt; is used, the null data is linearly interpolated first.</seg>
       </tuv>
     </tu>
     <tu>
