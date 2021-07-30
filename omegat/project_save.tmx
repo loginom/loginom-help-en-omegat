@@ -3756,6 +3756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных - таблица данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T094248Z" creationid="Марианна" creationdate="20210730T094248Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Input data source: data table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных — таблица данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210714T142158Z" creationid="Марианна" creationdate="20210218T221628Z">
