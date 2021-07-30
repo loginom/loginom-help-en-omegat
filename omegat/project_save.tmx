@@ -38599,6 +38599,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр может принимать значения от 1 до 10.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210730T112624Z" creationid="Марианна" creationdate="20210730T112624Z">
+        <seg>The parameter can take values from 1 to 10.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметр может принимать значения: &lt;x3/&gt;Неиспользуемое, Транзакция, Элемент&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103734Z" creationid="Марианна" creationdate="20201208T103734Z">
