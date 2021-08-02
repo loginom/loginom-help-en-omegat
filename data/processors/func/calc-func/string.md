@@ -4,7 +4,7 @@
 
 **Chr(Argument)**
 
-* Argument - numerical code of Unicode character in the range [0, 65535].
+* Argument - numerical code of Unicode character in the range of [0, 65535].
 
 Returns Unicode character according to its code.
 
