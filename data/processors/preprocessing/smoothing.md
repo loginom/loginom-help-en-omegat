@@ -30,11 +30,11 @@ It provides a list of the numerical fields included into the input table. It is 
 * Wavelet smoothing: the wavelet type is defined by the radio button (Daubechies, Coiflet and CDF 9/7). Settings of all wavelets are identical:
    * Wavelet order defines the smoothness of the recovered data series: the lower the parameter value, the more expressed "outliers" are observed, and vice versa, the "outliers" will be smoothed when the parameter values are high. For the Daubechies wavelet this parameter can take values from 1 to 10, for the Coiflet wavelet - from 1 to 5, and this parameter is not used by CDF 9/7 wavelet.
    * Bounds extension: the method is used to eliminate distortions on the series bounds while smoothing:
-      * Symmetric;
-      * Antisymmetric;
-      * Zero padding;
-      * Constant;
-      * Periodic;
-      * Symmetric without extreme point;
-      * Antisymmetric without extreme point.
+      * Symmetric
+      * Antisymmetric
+      * Zero padding
+      * Constant
+      * Periodic
+      * Symmetric without extreme point
+      * Antisymmetric without extreme point
    * Decomposition level defines the "scale" of the filtered out details. The higher this value, the "larger" details will be filtered out in the source data. The usage of too high values of decomposition level can cause the loss of usefull information in connection with too high level of the data "coarsening". The parameter can take values from 1 to 10.
