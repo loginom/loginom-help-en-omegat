@@ -24025,8 +24025,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аргумент - числовой код символа Unicode в диапазоне &lt;x1/&gt;0, 65535&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210406T125533Z" creationid="Марианна" creationdate="20210406T125533Z">
-        <seg>Argument - numerical code of Unicode character in the range &lt;x1/&gt;0, 65535&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102328Z" creationid="Марианна" creationdate="20210406T125533Z">
+        <seg>Argument - numerical code of Unicode character in the range of &lt;x1/&gt;0, 65535&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35097,8 +35097,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Может принимать значения вещественного типа в диапазоне &lt;x1/&gt;0.0625, 1026598E+8&lt;x2/&gt; с шагом 0.1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210730T101158Z" creationid="Марианна" creationdate="20210730T101158Z">
-        <seg>It can take the real values in the range &lt;x1/&gt;0.0625, 1026598E+8&lt;x2/&gt; at 0.1 intervals.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102321Z" creationid="Марианна" creationdate="20210730T101158Z">
+        <seg>It can take the real values in the range of &lt;x1/&gt;0.0625, 1026598E+8&lt;x2/&gt; at 0.1 intervals.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39233,8 +39233,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Период сглаживания - значение вещественного типа в диапазоне &lt;x1/&gt;2, 20000&lt;x2/&gt; с шагом 0.1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210730T102438Z" creationid="Марианна" creationdate="20210730T102115Z">
-        <seg>The smoothing period: the real value in the range &lt;x1/&gt;2, 20000&lt;x2/&gt; at 0.1 intervals.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102313Z" creationid="Марианна" creationdate="20210730T102115Z">
+        <seg>The smoothing period: the real value in the range of &lt;x1/&gt;2, 20000&lt;x2/&gt; at 0.1 intervals.</seg>
       </tuv>
     </tu>
     <tu>
