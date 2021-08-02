@@ -37945,8 +37945,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Описание значений всех столбцов приведено в таблице:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T203930Z" creationid="Марианна" creationdate="20210601T203930Z">
-        <seg>The values of all columns are described in the table:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T103906Z" creationid="Марианна" creationdate="20210601T203930Z">
+        <seg>The values of all columns are stated in the table:</seg>
       </tuv>
     </tu>
     <tu>
