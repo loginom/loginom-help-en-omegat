@@ -23953,8 +23953,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Антисимметричное;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223413Z" creationid="Марианна" creationdate="20210218T223413Z">
-        <seg>Antisymmetric;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102528Z" creationid="Марианна" creationdate="20210218T223413Z">
+        <seg>Antisymmetric</seg>
       </tuv>
     </tu>
     <tu>
@@ -33989,8 +33989,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Константное;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223434Z" creationid="Марианна" creationdate="20210218T223434Z">
-        <seg>Constant;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102536Z" creationid="Марианна" creationdate="20210218T223434Z">
+        <seg>Constant</seg>
       </tuv>
     </tu>
     <tu>
@@ -39241,8 +39241,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Периодическое;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223443Z" creationid="Марианна" creationdate="20210218T223443Z">
-        <seg>Periodic;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102539Z" creationid="Марианна" creationdate="20210218T223443Z">
+        <seg>Periodic</seg>
       </tuv>
     </tu>
     <tu>
@@ -42645,8 +42645,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Продолжение нулями;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223424Z" creationid="Марианна" creationdate="20210218T223424Z">
-        <seg>Zero padding;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102532Z" creationid="Марианна" creationdate="20210218T223424Z">
+        <seg>Zero padding</seg>
       </tuv>
     </tu>
     <tu>
@@ -43965,16 +43965,16 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Симметричное без крайней точки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223502Z" creationid="Марианна" creationdate="20210218T223502Z">
-        <seg>Symmetric without extreme point;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102545Z" creationid="Марианна" creationdate="20210218T223502Z">
+        <seg>Symmetric without extreme point</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Симметричное;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210218T223402Z" creationid="Марианна" creationdate="20210218T223402Z">
-        <seg>Symmetric;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102525Z" creationid="Марианна" creationdate="20210218T223402Z">
+        <seg>Symmetric</seg>
       </tuv>
     </tu>
     <tu>
