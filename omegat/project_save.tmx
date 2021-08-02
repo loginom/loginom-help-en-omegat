@@ -12435,8 +12435,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Метод сэмплинга&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210601T210403Z" creationid="Марианна" creationdate="20210601T210403Z">
-        <seg>&lt;x1/&gt;Sampling Method&lt;x2/&gt;:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210802T102902Z" creationid="Марианна" creationdate="20210601T210403Z">
+        <seg>&lt;x1/&gt;Sampling method&lt;x2/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
