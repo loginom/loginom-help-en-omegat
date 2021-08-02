@@ -22,7 +22,7 @@ When creating the sample, a user can set the sampling method: random, random uni
 * **Total records**: the records count of the input data source table.
 * **Area of the output table row count configuration.**
    The output table size is customized. The switch button provides a choice whether to set the row count ![ ](../../images/icons/) or to set it as a percentage ![ ](../../images/icons/) of the source table size.
-* **Sampling Method**
+* **Sampling method**
    * *Random*: the records are randomly selected from the source data set, and then they are placed into the resulting sample.
    * *Random uniform*: all records of the source data set are divided into groups, and then they are randomly selected from each group and placed into the resulting sample. The group dimension is set in the method parameters.
    * *Stratified*: all records of the source data set are divided into uniform groups (strata), and then they are randomly selected from each group and placed into the resulting sample. The strata defining fields are set in the method parameters by means of checkboxes.
