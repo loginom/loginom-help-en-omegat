@@ -1,6 +1,6 @@
 # Parameters of Binning Ranges
 
-This table contains information on the output binning ranges. The [external ranges](./outdoor-ranges.md) table will have the same structure. The values of all columns are described in the table:
+This table contains information on the output binning ranges. The [external ranges](./outdoor-ranges.md) table will have the same structure. The values of all columns are stated in the table:
 
 | Column name | Output ranges |
 | ------- | ------- |
