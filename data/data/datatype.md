@@ -1,10 +1,10 @@
-# Data types
+# Data Types
 
-| Знак | Type | Description |
+| Sign | Type | Description |
 | :--------: | :------ | :------ |
-| ![](../images/icons/data-types/boolean_default.svg) | Logical | Данные могут принимать только два значения True или False |
-| ![](../images/icons/data-types/datetime_default.svg) | Дата/время | Поле содержит данные даты и времени. Поддерживается несколько форматов даты/времени, в том числе форматы международных стандартов. Минимальное значение даты - 30.12.1899 00:00:00, максимальное - 31.12.9999 23:59:59.999 (точность 1 мc). |
-| ![](../images/icons/data-types/float_default.svg) | Вещественный | Данные в поле представляют собой числа с плавающей точкой, соответствующие стандарту [IEEE 754-2008](https://ru.wikipedia.org/wiki/IEEE_754-2008). Имеется возможность записи числа в [компьютерном представлении экспоненциальной формы](https://ru.wikipedia.org/wiki/Экспоненциальная_запись). |
-| ![](../images/icons/data-types/integer_default.svg) | Integer | Данные представляют собой целые числа в диапазоне от -2<sup>63</sup> до 2<sup>63</sup>-1 |
-| ![](../images/icons/data-types/string_default.svg) | String | Поле, значениями которого является произвольная последовательность символов (строка). Максимальная длина строки 2 147 483 647 символов. |
-| ![](../images/icons/data-types/variant_default.svg) | Переменный | В столбце могут содержаться все вышеперечисленные типы данных. Каждая ячейка хранит значение и тип данных. |
+| ![](../images/icons/data-types/boolean_default.svg) | Logical | The data can take only two values: True or False |
+| ![](../images/icons/data-types/datetime_default.svg) | Date/time | The field contains the date and time data. Several date/time formats are supported, including the international standards formats. Minimum date value - 30.12.1899 00:00:00, maximum - 31.12.9999 23:59:59.999 (accuracy: 1 ms). |
+| ![](../images/icons/data-types/float_default.svg) | Real | The field data represent floating point numbers meeting [IEEE 754-2008](https://ru.wikipedia.org/wiki/IEEE_754-2008) standard. It is possible to record the numbers in the [computer representation of the exponential form](https://ru.wikipedia.org/wiki/Экспоненциальная_запись). |
+| ![](../images/icons/data-types/integer_default.svg) | Integer | The data represent integers in the range from -2<sup>63</sup> to 2<sup>63</sup>-1 |
+| ![](../images/icons/data-types/string_default.svg) | String | The field which values are represented by the random sequence of characters (string). The maximum string length constitutes 2,147,483,647 characters. |
+| ![](../images/icons/data-types/variant_default.svg) | Variable | All data types listed above can be included into the column. Each cell keeps the value and data type. |

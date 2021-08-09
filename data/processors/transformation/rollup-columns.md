@@ -15,7 +15,7 @@ Let's collapse columns. `Client code` and `Month` fields will be selected as ![I
 
 Resulting data set:
 
-| Client code | Month | Names | Captions | Values | Data types |
+| Client code | Month | Names | Captions | Values | Data Types |
 | ----------: | :---- | :---- | :---- | :------- | ----------: |
 | 1 | August | COL3 | SMS number | 81 | 4 |
 | 1 | August | COL4 | Number of incoming minutes | 506 | 4 |

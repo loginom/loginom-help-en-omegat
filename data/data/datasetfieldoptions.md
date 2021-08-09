@@ -1,4 +1,4 @@
-# Параметры поля набора данных
+# Features of Data Set Field
 
 * **Name**: the unique column name for one data set. It can consist of the following characters:
    * Capital or low case Latin characters.
@@ -7,4 +7,4 @@
 * **Caption**: random field description.
 * **Data type**: one of the possible [data types](./datatype.md).
 * **Data kind**: one of the possible [data kinds](./datakind.md).
-* **Назначение** — для ряда обработчиков обязательно к заполнению при настройке входного порта. Перечень назначений, которые может принимать параметр, индивидуален для каждого обработчика. Задает функциональность данных столбца в контексте выполняемого обработчиком алгоритма.
+* **Usage type**: it is to be filled in when configuring the input port for some handlers. A list of the feature usage types is compiled on an individual basis for each handler. It sets the column data feature in the context of the algorithm executed by the handler.
