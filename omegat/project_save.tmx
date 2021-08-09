@@ -40087,6 +40087,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поле (переменная) входного набора порта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111019Z" creationid="Марианна" creationdate="20210809T111019Z">
+        <seg>Field (variable) of the input port data set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поле &lt;x1/&gt;Значение&lt;x2/&gt; таблицы замен содержит значения, подлежащие замене.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T055653Z" creationid="Марианна" creationdate="20201116T055616Z">
