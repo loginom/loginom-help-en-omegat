@@ -30427,6 +30427,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Достичь максимальную производительность;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115726Z" creationid="Марианна" creationdate="20210809T115726Z">
+        <seg>To provide the maximum performance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступ из кода JavaScript к данным портов и другим встроенным объектам</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T180412Z" creationid="Марианна" creationdate="20201109T061347Z">
@@ -46733,6 +46741,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Увеличить эффективность работы с данными;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115952Z" creationid="Марианна" creationdate="20210809T115952Z">
+        <seg>To improve the data handling efficiency.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Угол - значение угла в радианах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105422Z" creationid="Марианна" creationdate="20210402T105422Z">
@@ -46913,6 +46929,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T100637Z" creationid="Марианна" creationdate="20200918T100637Z">
         <seg>Specify always.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уменьшить объем занимаемой памяти;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115813Z" creationid="Марианна" creationdate="20210809T115813Z">
+        <seg>To decrease memory footprint.</seg>
       </tuv>
     </tu>
     <tu>
