@@ -5132,6 +5132,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113003Z" creationid="Марианна" creationdate="20210809T113003Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Прогноз&lt;x4/&gt; - идентификатор прогнозируемого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135609Z" creationid="Марианна" creationdate="20201218T204524Z">
@@ -28409,6 +28417,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные могут принимать только два значения True или False</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113037Z" creationid="Марианна" creationdate="20210809T113037Z">
+        <seg>The data can take only two values: True or False</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные не сопоставленных полей помещаются в отдельные столбцы результирующего набора, которые можно отметить префиксами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T142356Z" creationid="Марианна" creationdate="20201119T141804Z">
@@ -28605,6 +28621,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T204610Z" creationid="Марианна" creationdate="20210328T204610Z">
         <seg>Function Date/Time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дата/время</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113047Z" creationid="Марианна" creationdate="20210809T113047Z">
+        <seg>Date/time</seg>
       </tuv>
     </tu>
     <tu>
@@ -31634,6 +31658,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145443Z" creationid="Марианна" creationdate="20200920T145443Z">
         <seg>Ports are created here.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Знак</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T112958Z" creationid="Марианна" creationdate="20210809T112958Z">
+        <seg>Sign</seg>
       </tuv>
     </tu>
     <tu>
@@ -39975,6 +40007,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается несколько форматов даты/времени, в том числе форматы международных стандартов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113216Z" creationid="Марианна" creationdate="20210809T113216Z">
+        <seg>Several date/time formats are supported, including the international standards formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживаются даты с 1970 до 2106 года.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T202305Z" creationid="Марианна" creationdate="20210118T120328Z">
@@ -40219,6 +40259,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133040Z" creationid="Марианна" creationdate="20201208T064304Z">
         <seg>The field is available if the following checkbox is selected: &lt;x3/&gt;Calculate the approximation error&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле содержит данные даты и времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113112Z" creationid="Марианна" creationdate="20210809T113112Z">
+        <seg>The field contains the date and time data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46311,8 +46359,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Типы данных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201111T151200Z" creationid="Марианна" creationdate="20201111T151200Z">
-        <seg>Data types</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T112831Z" creationid="Марианна" creationdate="20201111T151200Z">
+        <seg>Data Types</seg>
       </tuv>
     </tu>
     <tu>
