@@ -5980,6 +5980,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Строковый, &lt;x3/&gt;&lt;x4/&gt; Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111152Z" creationid="Марианна" creationdate="20210809T111152Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; String, &lt;x3/&gt;&lt;x4/&gt; Variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Тип данных не задан</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083219Z" creationid="Марианна" creationdate="20201030T083219Z">
