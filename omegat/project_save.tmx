@@ -12729,6 +12729,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Назначение&lt;x2/&gt; — для ряда обработчиков обязательно к заполнению при настройке входного порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111750Z" creationid="Марианна" creationdate="20210809T111750Z">
+        <seg>&lt;x1/&gt;Usage type&lt;x2/&gt;: it is to be filled in when configuring the input port for some handlers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Наименование&lt;x2/&gt; — отображает список выбора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T121842Z" creationid="Марианна" creationdate="20210111T121842Z">
@@ -38815,6 +38823,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры поля набора данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111326Z" creationid="Марианна" creationdate="20210809T111326Z">
+        <seg>Features of Data Set Field</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры сети:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213104Z" creationid="Марианна" creationdate="20201216T213104Z">
@@ -39259,6 +39275,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T073104Z" creationid="Марианна" creationdate="20201015T085035Z">
         <seg>The list and features of fields/variables are defined when configuring input ports of the handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перечень назначений, которые может принимать параметр, индивидуален для каждого обработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T112514Z" creationid="Марианна" creationdate="20210809T112514Z">
+        <seg>A list of the feature usage types is compiled on an individual basis for each handler.</seg>
       </tuv>
     </tu>
     <tu>
