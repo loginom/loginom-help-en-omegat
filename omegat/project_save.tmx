@@ -32978,6 +32978,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование собственных форматов позволяет:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115605Z" creationid="Марианна" creationdate="20210809T115605Z">
+        <seg>Usage of the branded data sources enables to achieve the following goals:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использовать готовые алгоритмы обработки данных, созданные в других сценариях и пакетах через механизм &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163924Z" creationid="Марианна" creationdate="20200718T163924Z">
@@ -47261,6 +47269,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093423Z" creationid="Марианна" creationdate="20210402T093423Z">
         <seg>Financial Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фирменные источники данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115534Z" creationid="Марианна" creationdate="20210809T115534Z">
+        <seg>Branded Data Sources</seg>
       </tuv>
     </tu>
     <tu>
