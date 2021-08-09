@@ -47749,6 +47749,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Хранить данные в специальных структурах с учетом особенностей каждого алгоритма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T120041Z" creationid="Марианна" creationdate="20210809T120041Z">
+        <seg>To keep data in special structures taking into account peculiarities of each algorithm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Целевой функцией для оптимизатора является среднеквадратическая ошибка на обучающем наборе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T092619Z" creationid="Марианна" creationdate="20201223T092619Z">
