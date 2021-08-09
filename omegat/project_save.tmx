@@ -524,6 +524,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115259Z" creationid="Марианна" creationdate="20210809T115259Z">
+        <seg>(refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>(точка).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T105131Z" creationid="Марианна" creationdate="20201023T064955Z">
@@ -19290,6 +19298,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x7/&gt;параметры поля набора данных&lt;x8/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115323Z" creationid="Марианна" creationdate="20210809T115323Z">
+        <seg>&lt;x7/&gt;Features of data set field&lt;x8/&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>A0 ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T125240Z" creationid="Марианна" creationdate="20210405T125240Z">
@@ -33348,8 +33364,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Каждое поле набора данных имеет группу параметров, таких как имя, метка, тип данных и т.д.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T115229Z" creationid="Марианна" creationdate="20210809T115229Z">
-        <seg>Each data set field has a group of such features as name, caption, data tyoe, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115252Z" creationid="Марианна" creationdate="20210809T115229Z">
+        <seg>Each data set field has a group of such features as name, caption, data type, etc.</seg>
       </tuv>
     </tu>
     <tu>
