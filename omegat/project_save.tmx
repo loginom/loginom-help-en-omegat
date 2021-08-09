@@ -6798,6 +6798,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T120201Z" creationid="Марианна" creationdate="20210809T120201Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;DisplayName(&lt;x2/&gt;"Имя"&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122718Z" creationid="Марианна" creationdate="20210406T122718Z">
@@ -7186,6 +7194,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071114Z" creationid="Марианна" creationdate="20200812T071114Z">
         <seg>&lt;x1/&gt;Loginom data file&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Loginom Data File&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T120156Z" creationid="Марианна" creationdate="20210809T120156Z">
+        <seg>&lt;x1/&gt;Loginom Data File&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20366,6 +20382,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T151822Z" creationid="Марианна" creationdate="20210215T151822Z">
         <seg>Loginom can work both with &lt;x1/&gt;web services&lt;x2/&gt;, databases and file data warehouses (spreadsheets, text files, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Loginom имеет два фирменных источника данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T120152Z" creationid="Марианна" creationdate="20210809T120152Z">
+        <seg>Loginom has two branded data sources:</seg>
       </tuv>
     </tu>
     <tu>
