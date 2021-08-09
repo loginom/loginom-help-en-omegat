@@ -30275,6 +30275,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Допустимо сопоставление полей (переменных) следующих типов данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T110723Z" creationid="Марианна" creationdate="20210809T110723Z">
+        <seg>Mapping of the fields (variables) of the following data types is allowed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Допустимый интервал</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062648Z" creationid="Марианна" creationdate="20201116T062648Z">
@@ -44207,6 +44215,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T135301Z" creationid="Марианна" creationdate="20210210T223802Z">
         <seg>Compatibility of the Loginom Web Services with Deductor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Совместимость типов данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T110425Z" creationid="Марианна" creationdate="20210809T110425Z">
+        <seg>Compatibility of Data Types</seg>
       </tuv>
     </tu>
     <tu>
