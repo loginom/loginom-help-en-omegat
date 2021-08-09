@@ -26289,6 +26289,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вещественный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113403Z" creationid="Марианна" creationdate="20210809T113403Z">
+        <seg>Real</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вещественный/целый</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222719Z" creationid="Марианна" creationdate="20210218T222719Z">
@@ -35027,6 +35035,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083736Z" creationid="Марианна" creationdate="20200918T083736Z">
         <seg>Milliseconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимальное значение даты - 30.12.1899 00:00:00, максимальное - 31.12.9999 23:59:59.999 (точность 1 мc).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T113356Z" creationid="Марианна" creationdate="20210809T113356Z">
+        <seg>Minimum date value - 30.12.1899 00:00:00, maximum - 31.12.9999 23:59:59.999 (accuracy: 1 ms).</seg>
       </tuv>
     </tu>
     <tu>
