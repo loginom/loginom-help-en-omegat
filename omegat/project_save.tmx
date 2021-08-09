@@ -31252,6 +31252,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задает функциональность данных столбца в контексте выполняемого обработчиком алгоритма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T112812Z" creationid="Марианна" creationdate="20210809T112812Z">
+        <seg>It sets the column data feature in the context of the algorithm executed by the handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задается в секундах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T153757Z" creationid="Марианна" creationdate="20210201T153757Z">
