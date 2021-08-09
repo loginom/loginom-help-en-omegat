@@ -24479,6 +24479,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom используются все основные &lt;x1/&gt;типы данных&lt;x2/&gt;, которые делятся на дискретные и непрерывные (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114944Z" creationid="Марианна" creationdate="20210809T114944Z">
+        <seg>All main &lt;x1/&gt;data types&lt;x2/&gt; classified into discrete and continuous are used in Loginom (refer to.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom можно экспортировать данные в текстовый файл, XML-файл, электронные таблицы, внутренний формат программы, а также в базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110110Z" creationid="Марианна" creationdate="20200916T110110Z">
@@ -45993,6 +46001,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T063955Z" creationid="Марианна" creationdate="20201023T063955Z">
         <seg>It is also possible to set the minimum number of the fields values from which the columns will be created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также некоторые типы данных могут быть совместимы между собой, к примеру, целый и вещественный (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115047Z" creationid="Марианна" creationdate="20210809T115047Z">
+        <seg>Besides, some data types can be compartible with each other, for example, integer and real (refer to</seg>
       </tuv>
     </tu>
     <tu>
