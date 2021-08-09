@@ -5532,6 +5532,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Вещественный, &lt;x3/&gt;&lt;x4/&gt; Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111114Z" creationid="Марианна" creationdate="20210809T111114Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Real, &lt;x3/&gt;&lt;x4/&gt; Variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вид данных не задан</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T084131Z" creationid="Марианна" creationdate="20201030T083428Z">
@@ -5600,6 +5608,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083243Z" creationid="Марианна" creationdate="20201030T083243Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Date/time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Дата/время, &lt;x3/&gt;&lt;x4/&gt; Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111103Z" creationid="Марианна" creationdate="20210809T111103Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Date/time, &lt;x3/&gt;&lt;x4/&gt; Variable</seg>
       </tuv>
     </tu>
     <tu>
@@ -5728,6 +5744,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083229Z" creationid="Марианна" creationdate="20201030T083229Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Logical</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Логический, &lt;x3/&gt;&lt;x4/&gt; Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111050Z" creationid="Марианна" creationdate="20210809T111050Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Logical, &lt;x3/&gt;&lt;x4/&gt; Variable</seg>
       </tuv>
     </tu>
     <tu>
@@ -5992,6 +6016,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083304Z" creationid="Марианна" creationdate="20201030T083304Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Integer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Целый, &lt;x3/&gt;&lt;x4/&gt; Вещественный, &lt;x5/&gt;&lt;x6/&gt; Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111137Z" creationid="Марианна" creationdate="20210809T111137Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Integer, &lt;x3/&gt;&lt;x4/&gt; Real, &lt;x5/&gt;&lt;x6/&gt; Variable</seg>
       </tuv>
     </tu>
     <tu>
@@ -40091,6 +40123,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T111019Z" creationid="Марианна" creationdate="20210809T111019Z">
         <seg>Field (variable) of the input port data set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле (переменная) выходного набора порта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T111035Z" creationid="Марианна" creationdate="20210809T111035Z">
+        <seg>Field (variable) of the output port data set</seg>
       </tuv>
     </tu>
     <tu>
