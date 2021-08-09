@@ -19250,6 +19250,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x5/&gt;совместимость типов данных&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115052Z" creationid="Марианна" creationdate="20210809T115052Z">
+        <seg>&lt;x5/&gt;Compatibility of data types&lt;x6/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x5/&gt;структуру выходного набора&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213536Z" creationid="Марианна" creationdate="20201216T213536Z">
@@ -33338,6 +33346,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждое поле набора данных имеет группу параметров, таких как имя, метка, тип данных и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115229Z" creationid="Марианна" creationdate="20210809T115229Z">
+        <seg>Each data set field has a group of such features as name, caption, data tyoe, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T084956Z" creationid="Марианна" creationdate="20201006T085022Z">
@@ -46007,8 +46023,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Также некоторые типы данных могут быть совместимы между собой, к примеру, целый и вещественный (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T115047Z" creationid="Марианна" creationdate="20210809T115047Z">
-        <seg>Besides, some data types can be compartible with each other, for example, integer and real (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T115119Z" creationid="Марианна" creationdate="20210809T115047Z">
+        <seg>Besides, some data types can be compatible with each other, for example, integer and real (refer to</seg>
       </tuv>
     </tu>
     <tu>
