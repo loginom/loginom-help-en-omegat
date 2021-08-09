@@ -32306,6 +32306,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Имеется возможность записи числа в &lt;x3/&gt;компьютерном представлении экспоненциальной формы&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114045Z" creationid="Марианна" creationdate="20210809T114045Z">
+        <seg>It is possible to record the numbers in the &lt;x3/&gt;computer representation of the exponential form&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Имеется возможность использования сжатия данных различными алгоритмами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195204Z" creationid="Марианна" creationdate="20200916T195204Z">
