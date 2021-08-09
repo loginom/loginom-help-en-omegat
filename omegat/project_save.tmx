@@ -28465,6 +28465,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные представляют собой целые числа в диапазоне от -2&lt;x1/&gt;63&lt;x2/&gt; до 2&lt;x3/&gt;63&lt;x4/&gt;-1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114348Z" creationid="Марианна" creationdate="20210809T114348Z">
+        <seg>The data represent integers in the range from -2&lt;x1/&gt;63&lt;x2/&gt; to 2&lt;x3/&gt;63&lt;x4/&gt;-1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные третьей группы полей участвуют в расчете &lt;x1/&gt;фактов&lt;x2/&gt; — &lt;x3/&gt;агрегированных значений&lt;x4/&gt; на пересечении строк и колонок сводной таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134828Z" creationid="Марианна" creationdate="20201022T174016Z">
