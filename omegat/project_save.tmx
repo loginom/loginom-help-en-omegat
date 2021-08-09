@@ -25681,6 +25681,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В столбце могут содержаться все вышеперечисленные типы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114624Z" creationid="Марианна" creationdate="20210809T114624Z">
+        <seg>All data types listed above can be included into the column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В столбцы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104224Z" creationid="Марианна" creationdate="20201006T104224Z">
@@ -34599,6 +34607,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимальная длина строки 2 147 483 647 символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114537Z" creationid="Марианна" creationdate="20210809T114537Z">
+        <seg>The maximum string length constitutes 2,147,483,647 characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Максимальная скорость.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T082922Z" creationid="Марианна" creationdate="20201214T082922Z">
@@ -39295,6 +39311,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114546Z" creationid="Марианна" creationdate="20210809T114546Z">
+        <seg>Variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перемещение полей между областями возможно с помощью Drag-and-Drop.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082337Z" creationid="Марианна" creationdate="20201006T082337Z">
@@ -40307,6 +40331,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T113112Z" creationid="Марианна" creationdate="20210809T113112Z">
         <seg>The field contains the date and time data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле, значениями которого является произвольная последовательность символов (строка).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114449Z" creationid="Марианна" creationdate="20210809T114449Z">
+        <seg>The field which values are represented by the random sequence of characters (string).</seg>
       </tuv>
     </tu>
     <tu>
