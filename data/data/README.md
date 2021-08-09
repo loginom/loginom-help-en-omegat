@@ -1,3 +1,3 @@
 # Data
 
-В Loginom используются все основные [типы данных](./datatype.md), которые делятся на дискретные и непрерывные (см. [data kinds](./datakind.md)). Также некоторые типы данных могут быть совместимы между собой, к примеру, целый и вещественный (см. [совместимость типов данных](./compatibility.md)). Каждое поле набора данных имеет группу параметров, таких как имя, метка, тип данных и т.д. (см. [параметры поля набора данных](./datasetfieldoptions.md))
+All main [data types](./datatype.md) classified into discrete and continuous are used in Loginom (refer to. [data kinds](./datakind.md)). Besides, some data types can be compatible with each other, for example, integer and real (refer to [Compatibility of data types](./compatibility.md)). Each data set field has a group of such features as name, caption, data type, etc. (refer to [Features of data set field](./datasetfieldoptions.md))
