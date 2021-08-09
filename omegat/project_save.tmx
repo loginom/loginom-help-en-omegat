@@ -33322,6 +33322,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждая ячейка хранит значение и тип данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210809T114710Z" creationid="Марианна" creationdate="20210809T114710Z">
+        <seg>Each cell keeps the value and data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T084956Z" creationid="Марианна" creationdate="20201006T085022Z">
