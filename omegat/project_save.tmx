@@ -6798,6 +6798,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; — это собственный формат &lt;x3/&gt;Хранилища данных&lt;x4/&gt;, специально разработанный для использования с &lt;x5/&gt;Loginom&lt;x6/&gt; и &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210822T165838Z" creationid="Марианна" creationdate="20210822T165838Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; means the own format of the &lt;x3/&gt;Data warehouse&lt;x4/&gt; elaborated specially for usage with &lt;x5/&gt;Loginom&lt;x6/&gt; and &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T120201Z" creationid="Марианна" creationdate="20210809T120201Z">
@@ -7186,6 +7194,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105748Z" creationid="Марианна" creationdate="20210402T105748Z">
         <seg>&lt;x1/&gt;Log(Basis, Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Loginom Data File (LGD-файл)&lt;x2/&gt; — это собственный формат файла данных, специально разработанный для использования с Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T090545Z" creationid="Марианна" creationdate="20210817T090505Z">
+        <seg>&lt;x1/&gt;Loginom Data File (LGD file)&lt;x2/&gt; means the own format of the data file elaborated specially for usage with Loginom.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8878,6 +8894,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее DDF-формата.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T091528Z" creationid="Марианна" creationdate="20210817T091348Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the DDF format used earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; чтобы избежать конфликта имён, необходимо обеспечить уникальность пары значений:  &lt;x3/&gt;имя публикуемого узла&lt;x4/&gt; , &lt;x5/&gt;пространство имён публикуемого пакета&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T134213Z" creationid="Марианна" creationdate="20210218T134213Z">
@@ -10221,6 +10245,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132503Z" creationid="Марианна" creationdate="20200825T185106Z">
         <seg>&lt;x1/&gt;Range&lt;x2/&gt;: the range of the imported cells set in &lt;x3/&gt; format [address of the upper left cell]:[address of the bottom right cell]&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дискретные данные&lt;x2/&gt; — данные, число которых конечно или бесконечно, но может быть подсчитано при помощи натуральных чисел от одного до бесконечности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T095512Z" creationid="Марианна" creationdate="20210817T095512Z">
+        <seg>&lt;x1/&gt;Discrete data&lt;x2/&gt; means the data the number of which is finite or infinite but it can be calculated using the natural numbers from one ad infinitum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13197,6 +13229,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061819Z" creationid="Марианна" creationdate="20201109T061819Z">
         <seg>&lt;x1/&gt;Required enumerations&lt;x2/&gt; (&lt;x3/&gt;DataType&lt;x4/&gt;, &lt;x5/&gt;DataKind&lt;x6/&gt;, &lt;x7/&gt;UsageType&lt;x8/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Непрерывные данные&lt;x2/&gt; — данные, которые могут принимать любые значения в некотором интервале.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T094306Z" creationid="Марианна" creationdate="20210817T094306Z">
+        <seg>&lt;x1/&gt;Continuous data&lt;x2/&gt; means the data that can take any values in some interval.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19810,6 +19850,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Deductor Warehouse</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210822T165841Z" creationid="Марианна" creationdate="20210822T165841Z">
+        <seg>Deductor Warehouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
@@ -20334,6 +20382,30 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195123Z" creationid="Марианна" creationdate="20200916T195123Z">
         <seg>The LGD file already contains all required information on the field features (field name, caption, data type, etc.) that enables to export and import data sets with minimum settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>LGD-файлы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T085221Z" creationid="Марианна" creationdate="20210817T085221Z">
+        <seg>LGD Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>LZ4.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T090715Z" creationid="Марианна" creationdate="20210817T090715Z">
+        <seg>LZ4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>LZO;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T090710Z" creationid="Марианна" creationdate="20210817T090710Z">
+        <seg>LZO;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23211,6 +23283,26 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>| Тип данных | &lt;x1/&gt;&lt;x2/&gt; Непрерывный | &lt;x3/&gt;&lt;x4/&gt; Дискретный |
+| :- | :-: | :-: |
+| &lt;x5/&gt;&lt;x6/&gt; Вещественный | • | • |
+| &lt;x7/&gt;&lt;x8/&gt; Целый | • | • |
+| &lt;x9/&gt;&lt;x10/&gt; Строковый | | • |
+| &lt;x11/&gt;&lt;x12/&gt; Логический | | • |
+| &lt;x13/&gt;&lt;x14/&gt; Дата/время | • | • |</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T093655Z" creationid="Марианна" creationdate="20210817T093655Z">
+        <seg>| Data type| &lt;x1/&gt;&lt;x2/&gt; Continuous | &lt;x3/&gt;&lt;x4/&gt; Discrete |
+| :- | :-: | :-: |
+| &lt;x5/&gt;&lt;x6/&gt; Real | • | • |
+| &lt;x7/&gt;&lt;x8/&gt; Integer | • | • |
+| &lt;x9/&gt;&lt;x10/&gt; String | | • |
+| &lt;x11/&gt;&lt;x12/&gt; Logical | | • |
+| &lt;x13/&gt;&lt;x14/&gt; Date/time | • | • |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|&lt;x19/&gt;&lt;x20/&gt; Количество|&lt;x21/&gt;•&lt;x22/&gt;|&lt;x23/&gt;•&lt;x24/&gt;|&lt;x25/&gt;•&lt;x26/&gt;|&lt;x27/&gt;•&lt;x28/&gt;|&lt;x29/&gt;•&lt;x30/&gt;|&lt;x31/&gt;•&lt;x32/&gt;|Показывает общее количество записей в наборе данных, в том числе пустые записи и записи без значения (&lt;x33/&gt;&lt;x34/&gt;&lt;null&gt;&lt;x35/&gt;&lt;x36/&gt;).|
 |&lt;x37/&gt;&lt;x38/&gt; Минимум|&lt;x39/&gt;•&lt;x40/&gt;|&lt;x41/&gt;•&lt;x42/&gt;|&lt;x43/&gt;•&lt;x44/&gt;|&lt;x45/&gt;•&lt;x46/&gt;|&lt;x47/&gt;•&lt;x48/&gt;|&lt;x49/&gt;•&lt;x50/&gt;|Выводит наименьшее значение по столбцу.</seg>
       </tuv>
@@ -25873,6 +25965,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В целях совместимости импорт созданных в Deductor DDF-файлов поддерживается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T091745Z" creationid="Марианна" creationdate="20210817T091745Z">
+        <seg>To provide compatibility, import of the DDF files created in Deductor is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этой области отображаются результаты квантования с возможностью их редактирования.&lt;x1/&gt;
 Над полями таблицы расположены несколько элементов управления:</seg>
       </tuv>
@@ -26381,6 +26481,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083408Z" creationid="Марианна" creationdate="20201030T083408Z">
         <seg>Data kind</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вид данных (непрерывный, дискретный)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T093455Z" creationid="Марианна" creationdate="20210817T093455Z">
+        <seg>Data Kind (Continuous, Discrete)</seg>
       </tuv>
     </tu>
     <tu>
@@ -28609,6 +28717,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный формат рекомендован для хранения промежуточных расчетов и увеличения скорости.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T091152Z" creationid="Марианна" creationdate="20210817T091152Z">
+        <seg>It is recommended to use this format for storage of intermediate calculations and speed increase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный этап становится доступен только при заключении в цикл &lt;x1/&gt;Подмоделей&lt;x2/&gt;, имеющих входные и выходные порты для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T204916Z" creationid="Марианна" creationdate="20200921T204916Z">
@@ -28973,6 +29089,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192706Z" creationid="Марианна" creationdate="20200825T192706Z">
         <seg>Discrete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дискретными могут быть и числовые данные, например, "Код товара", принимающий значение целого типа, является дискретным, так как арифметические операции над этим показателем не имеют смысла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T095849Z" creationid="Марианна" creationdate="20210817T095849Z">
+        <seg>The numeric data can be also discrete, for example, "Article code" that takes the integer value is discrete as arithmetic operations with this indicator are meaningless.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дискретными являются все данные строкового или логического типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T094345Z" creationid="Марианна" creationdate="20210817T094345Z">
+        <seg>All string or logical data are discrete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30151,6 +30283,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T102917Z" creationid="Марианна" creationdate="20200711T104055Z">
         <seg>For this purpose, &lt;x5/&gt; &lt;x6/&gt; port data of the connection node are to be sent to the &lt;x7/&gt; &lt;x8/&gt; input port for which such connection of the import/export node is required (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого доступны следующие алгоритмы сжатия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T090753Z" creationid="Марианна" creationdate="20210817T090753Z">
+        <seg>The following compression algorithms are available for this purpose:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32970,6 +33110,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование единого хранилища позволяет обеспечить непротиворечивость данных и централизованное хранение, а также автоматически обеспечивает всю необходимую поддержку процесса анализа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210822T173935Z" creationid="Марианна" creationdate="20210822T173845Z">
+        <seg>Usage of the unified data warehouse provides data coherence and centralized storage. It also automatically provides all the support required for the data analysis process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование модулей в коде узла JavaSript:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T082529Z" creationid="Марианна" creationdate="20201102T082529Z">
@@ -35695,6 +35843,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На таблице ниже представлено какой вид данных можно использовать при каждом типе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T093915Z" creationid="Марианна" creationdate="20210817T093915Z">
+        <seg>The table below shows the data kind that can be used for each data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этапе настройки указываются следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190531Z" creationid="Марианна" creationdate="20200825T190531Z">
@@ -35795,6 +35951,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T122638Z" creationid="Марианна" creationdate="20210213T122548Z">
         <seg>The following tools are used for navigation through the connections:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Над непрерывными значениями можно проводить арифметические операции, и они имеют смысл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T094118Z" creationid="Марианна" creationdate="20210817T094118Z">
+        <seg>Continuous values are appropriate in arithmetic operations and they have meaning.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42087,6 +42251,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При работе с хранилищем от пользователя не требуется знания структуры хранения данных и языка запросов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210823T135943Z" creationid="Марианна" creationdate="20210823T135943Z">
+        <seg>When using the data warehouse, it is not obligatory for a user to know the data storage structure and data query language.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При редактировании содержимого &lt;x7/&gt;Подмодели&lt;x8/&gt; ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками &lt;x9/&gt;Выходной узел&lt;x10/&gt; &lt;x11/&gt;Входной узел&lt;x12/&gt; и &lt;x13/&gt;Выходной узел&lt;x14/&gt; &lt;x15/&gt;Выходной узел&lt;x16/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164433Z" creationid="Марианна" creationdate="20200920T164433Z">
@@ -42391,6 +42563,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применение этого формата обеспечивает максимальную скорость при выполнении импорта и/или экспорта данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T090644Z" creationid="Марианна" creationdate="20210817T090644Z">
+        <seg>Such format provides the highest data import and/or export speed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Применим автокорреляционный анализ к полю "Продано билетов в кино, тысяч шт.", задав ему параметр &lt;x1/&gt; &lt;x2/&gt; "Используемое" в настройках входного порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T133829Z" creationid="Марианна" creationdate="20201011T100433Z">
@@ -42573,6 +42753,14 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114432Z" creationid="Марианна" creationdate="20201020T114432Z">
         <seg>For example: &lt;x3/&gt;new Date(2020, 1, 5, 13, 12, 50, 100)&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примерами непрерывных данных являются: рост, вес, количество товара, прибыль и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T093822Z" creationid="Марианна" creationdate="20210817T093822Z">
+        <seg>There are the following examples of the continuous data: height, weight, quantity of goods, profit, etc.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45761,6 +45949,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Существует возможность применения уменьшения размера файла при импорте/экспорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T090920Z" creationid="Марианна" creationdate="20210817T090920Z">
+        <seg>It is possible to decrease the file size when importing/exporting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Существует два метода разбиения:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T081343Z" creationid="Марианна" creationdate="20201214T081343Z">
@@ -46129,6 +46325,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T152710Z" creationid="Марианна" creationdate="20201111T152710Z">
         <seg>It can be also done using the navigation buttons.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также, LGD-файл доступен в редакции Community.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T091405Z" creationid="Марианна" creationdate="20210817T091243Z">
+        <seg>The LGD file is also available in the Community edition.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46745,6 +46949,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T224206Z" creationid="Марианна" creationdate="20210210T224206Z">
         <seg>It is required for interaction with non-standard web services, for example, with credit reference bureau.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Требуется минимум преобразований при получении или записи данных и скорость обмена информацией в этом случае ограничивается только скоростью работы дисковой подсистемы и гораздо меньше зависит от объема данных, чем при работе с прочими форматами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210817T093135Z" creationid="Марианна" creationdate="20210817T093135Z">
+        <seg>Minimum number of transformations is required to get or record data. In this case, data exchange speed is limited only by the speed of the disk subsystem operation and it depends on the data volume much less as compared with other formats that can be used.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48601,6 +48813,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113218Z" creationid="Марианна" creationdate="20201214T113218Z">
         <seg>It is a boolean value, disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Является многомерным Хранилищем данных и позволяет аккумулировать всю необходимую для анализа предметной области информацию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210822T173850Z" creationid="Марианна" creationdate="20210822T173324Z">
+        <seg>It is a multidimensional Data Warehouse that enables to accumulate all the information required for analysis of the subject area.</seg>
       </tuv>
     </tu>
     <tu>
