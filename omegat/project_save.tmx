@@ -34843,6 +34843,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логический уровень</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T065330Z" creationid="Марианна" creationdate="20210827T065330Z">
+        <seg>Logical Level</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Лопата совковая</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112432Z" creationid="Марианна" creationdate="20201124T112432Z">
@@ -44427,6 +44435,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T083644Z" creationid="Марианна" creationdate="20200918T083644Z">
         <seg>Seconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Семантический слой</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T065410Z" creationid="Марианна" creationdate="20210827T065410Z">
+        <seg>Semantic Layer</seg>
       </tuv>
     </tu>
     <tu>
