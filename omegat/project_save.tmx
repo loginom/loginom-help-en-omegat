@@ -6942,6 +6942,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Firebird&lt;x2/&gt; — версия 2.5 и выше;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T065228Z" creationid="Марианна" creationdate="20210827T065228Z">
+        <seg>&lt;x1/&gt;Firebird&lt;x2/&gt;: version 2.5 and higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Format(Строка\_формата, Выражение &lt;x2/&gt;, ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T072852Z" creationid="Марианна" creationdate="20210407T072852Z">
@@ -7274,6 +7282,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T152717Z" creationid="Марианна" creationdate="20210118T152717Z">
         <seg>&lt;x1/&gt;Microsoft Access Database Engine 2016 Redistributable&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Microsoft SQL&lt;x2/&gt; – версия 2000 и выше;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T065242Z" creationid="Марианна" creationdate="20210827T065242Z">
+        <seg>&lt;x1/&gt;Microsoft SQL&lt;x2/&gt;: version 2000 and higher.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29681,8 +29697,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для корректной работы &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; обязательным требованием является полноценная поддержка базой данных стандарта &lt;x3/&gt;&lt;x4/&gt;SQL'92&lt;x5/&gt;&lt;x6/&gt;, поэтому имеются ограничения на версии СУБД:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210827T064916Z" creationid="Марианна" creationdate="20210827T064916Z">
-        <seg>To provide the proper operation of &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, it is compulsory to secure full-scale database support of &lt;x3/&gt;&lt;x4/&gt;SQL'92&lt;x5/&gt;&lt;x6/&gt; standard that is why there are restrictions concerning the DBMS versions:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T065153Z" creationid="Марианна" creationdate="20210827T064916Z">
+        <seg>For proper operation of &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, it is compulsory to provide the full-scale database support of &lt;x3/&gt;&lt;x4/&gt;SQL'92&lt;x5/&gt;&lt;x6/&gt; standard. That is why there are constraints concerning the DBMS versions:</seg>
       </tuv>
     </tu>
     <tu>
