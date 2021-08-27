@@ -6798,6 +6798,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; проводит все необходимые операции по подключению к реляционной СУБД и выборке нужной информации прозрачно для пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T072108Z" creationid="Марианна" creationdate="20210827T072108Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; performs all required operations to connect to the relational DBMS and select necessary information that is rather transparent for a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; — это собственный формат &lt;x3/&gt;Хранилища данных&lt;x4/&gt;, специально разработанный для использования с &lt;x5/&gt;Loginom&lt;x6/&gt; и &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210822T165838Z" creationid="Марианна" creationdate="20210822T165838Z">
