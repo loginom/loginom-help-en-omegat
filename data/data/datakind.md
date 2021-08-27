@@ -1,15 +1,15 @@
-# Вид данных (непрерывный, дискретный)
+# Data Kind (Continuous, Discrete)
 
-**Дискретные данные** — данные, число которых конечно или бесконечно, но может быть подсчитано при помощи натуральных чисел от одного до бесконечности. Дискретными являются все данные строкового или логического типа. Дискретными могут быть и числовые данные, например, "Код товара", принимающий значение целого типа, является дискретным, так как арифметические операции над этим показателем не имеют смысла.
+**Discrete data** means the data the number of which is finite or infinite but it can be calculated using the natural numbers from one ad infinitum. All string or logical data are discrete. The numeric data can be also discrete, for example, "Article code" that takes the integer value is discrete as arithmetic operations with this indicator are meaningless.
 
-**Непрерывные данные** — данные, которые могут принимать любые значения в некотором интервале. Над непрерывными значениями можно проводить арифметические операции, и они имеют смысл. Примерами непрерывных данных являются: рост, вес, количество товара, прибыль и т.д.
+**Continuous data** means the data that can take any values in some interval. Continuous values are appropriate in arithmetic operations and they have meaning. There are the following examples of the continuous data: height, weight, quantity of goods, profit, etc.
 
-На таблице ниже представлено какой вид данных можно использовать при каждом типе данных.
+The table below shows the data kind that can be used for each data type.
 
-| Тип данных | ![](../images/icons/data-types/continuous_default.svg) Непрерывный | ![](../images/icons/data-types/discrete_default.svg) Дискретный |
+| Data type| ![](../images/icons/data-types/continuous_default.svg) Continuous | ![](../images/icons/data-types/discrete_default.svg) Discrete |
 | :- | :-: | :-: |
-| ![](../images/icons/data-types/float_default.svg) Вещественный | • | • |
-| ![](../images/icons/data-types/integer_default.svg) Целый | • | • |
-| ![](../images/icons/data-types/string_default.svg) Строковый | | • |
-| ![](../images/icons/data-types/boolean_default.svg) Логический | | • |
-| ![](../images/icons/data-types/datetime_default.svg) Дата/время | • | • |
+| ![](../images/icons/data-types/float_default.svg) Real | • | • |
+| ![](../images/icons/data-types/integer_default.svg) Integer | • | • |
+| ![](../images/icons/data-types/string_default.svg) String | | • |
+| ![](../images/icons/data-types/boolean_default.svg) Logical | | • |
+| ![](../images/icons/data-types/datetime_default.svg) Date/time | • | • |

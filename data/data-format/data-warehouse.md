@@ -1,28 +1,28 @@
 # Deductor Warehouse
 
-**Deductor Warehouse** — это собственный формат [Хранилища данных](https://wiki.loginom.ru/articles/data-warehouse.html), специально разработанный для использования с *Loginom* и *Deductor*. Является многомерным Хранилищем данных и позволяет аккумулировать всю необходимую для анализа предметной области информацию.
+**Deductor Warehouse** means the own format of the [Data warehouse](https://wiki.loginom.ru/articles/data-warehouse.html) elaborated specially for usage with *Loginom* and *Deductor*. It is a multidimensional Data Warehouse that enables to accumulate all the information required for analysis of the subject area.
 
-Использование единого хранилища позволяет обеспечить непротиворечивость данных и централизованное хранение, а также автоматически обеспечивает всю необходимую поддержку процесса анализа данных. При работе с хранилищем от пользователя не требуется знания структуры хранения данных и языка запросов. Он оперирует привычными терминами бизнес-среды, например, такими как: отгрузка, товар, клиент.
+Usage of the unified data warehouse provides data coherence and centralized storage. It also automatically provides all the support required for the data analysis process. When using the data warehouse, it is not obligatory for a user to know the data storage structure and data query language. Familiar business environment terms are used in it. For example, shipment, goods, client.
 
-> **Важно:** в аналитической платформе *Loginom*, на текущий момент, возможно лишь импортировать данные из Хранилища данных *Deductor Warehouse*. Полная поддержка этого формата есть в аналитической платформе *Deductor*.
+> **Important:** Currently, the *Loginom* analytical platform enables to import data only from the *Deductor Warehouse* data warehouse. This format is fully supported by the *Deductor* analytical platform.
 
-## Принцип работы Хранилища данных
+## Data Warehouse Operation Principle
 
-### Физический уровень
+### Physical Level
 
-На физическом уровне *Deductor Warehouse* представляет собой реляционную базу данных на платформе Firebird, MS SQL или Oracle, поэтому работа с хранилищем на этом уровне ничем не отличается от обслуживания любой СУБД. Для обслуживания хранилища на низком уровне могут использоваться утилиты сторонних разработчиков для СУБД Firebird, MS SQL, Oracle, а также инструменты, поставляемые разработчиками соответствующих баз данных.
+At the physical level  *Deductor Warehouse* is a relational database based on the Firebird, MS SQL or Oracle platform. That is why the data warehouse operation does not differ from any DBMS service at this level. To provide the data warehouse service, utility software of third party developers can be used at the low level for the Firebird, MS SQL, Oracle DBMS as well as the tools provided by the developers of corresponding databases.
 
-Для корректной работы *Deductor Warehouse* обязательным требованием является полноценная поддержка базой данных стандарта **`SQL'92`**, поэтому имеются ограничения на версии СУБД:
+For proper operation of *Deductor Warehouse*, it is compulsory to provide the full-scale database support of **`SQL'92`** standard. That is why there are constraints concerning the DBMS versions:
 
-* **Firebird** — версия 2.5 и выше;
-* **Microsoft SQL** – версия 2000 и выше;
-* **Oracle** – начиная с версии 9i.
+* **Firebird**: version 2.5 and higher.
+* **Microsoft SQL**: version 2000 and higher.
+* **Oracle**: starting from 9i version.
 
 Поддержка нескольких различных по стоимости и производительности СУБД в качестве платформы хранилища позволяет в каждом конкретном случае использовать наиболее пригодную для данного случая базу данных.
 
 *Deductor Warehouse* проводит все необходимые операции по подключению к реляционной СУБД и выборке нужной информации прозрачно для пользователя. Кросс-платформенное Хранилище данных является удобной базой для создания распределенных хранилищ данных, витрин данных и т.п.
 
-### Логический уровень
+### Logical Level
 
 На логическом уровне разрабатывается схема хранилища, т.е. устанавливается соответствие между *объектами предметной области*: *процессами*, *измерениями* и *фактами* хранилища:
 
@@ -33,7 +33,7 @@
 
 Логическая структура проектируется, прежде всего, с учетом задач предметной области.
 
-### Семантический слой
+### Semantic Layer
 
 *Семантический слой* — это специальный механизм, позволяющий аналитику пользоваться данными посредством бизнес-терминов предметной области. Он реализован поверх реляционной базы данных.
 
