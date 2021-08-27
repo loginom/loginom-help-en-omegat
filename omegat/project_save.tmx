@@ -34709,6 +34709,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кросс-платформенное Хранилище данных является удобной базой для создания распределенных хранилищ данных, витрин данных и т.п.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T072322Z" creationid="Марианна" creationdate="20210827T072322Z">
+        <seg>The crossplatform Data Warehouse is a base convenient for creation of distributed data warehouses, datamarts, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кросс-таблица с колонкой: Товар&lt;x1/&gt;
 Для колонки установлено минимальное количество уникальных значений = 4&lt;x2/&gt;
 Со строкой: Точка продажи&lt;x3/&gt;
