@@ -29679,6 +29679,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для корректной работы &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; обязательным требованием является полноценная поддержка базой данных стандарта &lt;x3/&gt;&lt;x4/&gt;SQL'92&lt;x5/&gt;&lt;x6/&gt;, поэтому имеются ограничения на версии СУБД:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T064916Z" creationid="Марианна" creationdate="20210827T064916Z">
+        <seg>To provide the proper operation of &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt;, it is compulsory to secure full-scale database support of &lt;x3/&gt;&lt;x4/&gt;SQL'92&lt;x5/&gt;&lt;x6/&gt; standard that is why there are restrictions concerning the DBMS versions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для моделей ARIMA &lt;x1/&gt;нормализация&lt;x2/&gt; для прогнозируемых данных обычно не требуется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T071208Z" creationid="Марианна" creationdate="20201208T071208Z">
