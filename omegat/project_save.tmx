@@ -40619,6 +40619,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Полная поддержка этого формата есть в аналитической платформе &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T063609Z" creationid="Марианна" creationdate="20210827T063609Z">
+        <seg>This format is fully supported by the &lt;x7/&gt;Deductor&lt;x8/&gt; analytical platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Полное соединение (SQL-аналог: &lt;x1/&gt;FULL JOIN&lt;x2/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T064309Z" creationid="Марианна" creationdate="20201109T165920Z">
@@ -42939,6 +42947,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T110306Z" creationid="Марианна" creationdate="20201105T110306Z">
         <seg>It takes the values of the following types: &lt;x1/&gt;boolean&lt;x2/&gt;, &lt;x3/&gt;number&lt;x4/&gt;, &lt;x5/&gt;string&lt;x6/&gt;, &lt;x7/&gt;Date&lt;x8/&gt;, &lt;x9/&gt;null&lt;x10/&gt;, &lt;x11/&gt;undefined&lt;x12/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Принцип работы Хранилища данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T063657Z" creationid="Марианна" creationdate="20210827T063657Z">
+        <seg>Data Warehouse Operation Principle</seg>
       </tuv>
     </tu>
     <tu>
