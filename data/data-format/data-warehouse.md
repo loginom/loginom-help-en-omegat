@@ -18,9 +18,9 @@ For proper operation of *Deductor Warehouse*, it is compulsory to provide the fu
 * **Microsoft SQL**: version 2000 and higher.
 * **Oracle**: starting from 9i version.
 
-Поддержка нескольких различных по стоимости и производительности СУБД в качестве платформы хранилища позволяет в каждом конкретном случае использовать наиболее пригодную для данного случая базу данных.
+Support of several DBMS different in their prices and performance as the data warehouse platform enables to use the most suitable database in each specific case.
 
-*Deductor Warehouse* проводит все необходимые операции по подключению к реляционной СУБД и выборке нужной информации прозрачно для пользователя. Кросс-платформенное Хранилище данных является удобной базой для создания распределенных хранилищ данных, витрин данных и т.п.
+*Deductor Warehouse* performs all required operations to connect to the relational DBMS and select necessary information that is rather transparent for a user. The crossplatform Data Warehouse is a base convenient for creation of distributed data warehouses, datamarts, etc.
 
 ### Logical Level
 
