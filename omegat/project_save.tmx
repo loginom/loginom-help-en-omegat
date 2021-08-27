@@ -7406,6 +7406,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Oracle&lt;x2/&gt; – начиная с версии 9i.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T065259Z" creationid="Марианна" creationdate="20210827T065259Z">
+        <seg>&lt;x1/&gt;Oracle&lt;x2/&gt;: starting from 9i version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;P-value&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144747Z" creationid="Марианна" creationdate="20201207T144747Z">
