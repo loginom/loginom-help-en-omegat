@@ -29767,6 +29767,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для обслуживания хранилища на низком уровне могут использоваться утилиты сторонних разработчиков для СУБД Firebird, MS SQL, Oracle, а также инструменты, поставляемые разработчиками соответствующих баз данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T064527Z" creationid="Марианна" creationdate="20210827T064527Z">
+        <seg>To provide the data warehouse service, utility software of third party developers can be used at the low level for the Firebird, MS SQL, Oracle DBMS as well as the tools provided by the developers of corresponding databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для обучения используется квазиньютоновский &lt;x3/&gt;метод Бройдена-Флетчера-Гольдфарба-Шанно&lt;x4/&gt; с ограниченным использованием памяти L-BFGS.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T215409Z" creationid="Марианна" creationdate="20201221T140651Z">
