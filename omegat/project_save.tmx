@@ -35859,6 +35859,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На физическом уровне &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; представляет собой реляционную базу данных на платформе Firebird, MS SQL или Oracle, поэтому работа с хранилищем на этом уровне ничем не отличается от обслуживания любой СУБД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T064141Z" creationid="Марианна" creationdate="20210827T064141Z">
+        <seg>At the physical level  &lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; is a relational database based on the Firebird, MS SQL or Oracle platform. That is why the data warehouse operation does not differ from any DBMS service at this level.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этапе настройки указываются следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190531Z" creationid="Марианна" creationdate="20200825T190531Z">
@@ -47529,6 +47537,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071113Z" creationid="Марианна" creationdate="20201023T071113Z">
         <seg>Measures for them will be aggregated in the &lt;x9/&gt;Null values&lt;x10/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Физический уровень</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T063718Z" creationid="Марианна" creationdate="20210827T063718Z">
+        <seg>Physical Level</seg>
       </tuv>
     </tu>
     <tu>
