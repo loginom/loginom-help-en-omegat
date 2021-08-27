@@ -8806,6 +8806,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в аналитической платформе &lt;x3/&gt;Loginom&lt;x4/&gt;, на текущий момент, возможно лишь импортировать данные из Хранилища данных &lt;x5/&gt;Deductor Warehouse&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T063517Z" creationid="Марианна" creationdate="20210827T063517Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Currently, the &lt;x3/&gt;Loginom&lt;x4/&gt; analytical platform enables to import data only from the &lt;x5/&gt;Deductor Warehouse&lt;x6/&gt; data warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; в настройках устанавливается время выполнения узла, а не программы, поэтому если галочка &lt;x3/&gt;Завершить программу по тайм-ауту&lt;x4/&gt; не установлена, то через определенное тайм-аутом время узел перестанет выполняться, а программа — нет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133210Z" creationid="Марианна" creationdate="20210220T094913Z">
