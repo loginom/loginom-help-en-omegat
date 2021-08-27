@@ -38291,6 +38291,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он оперирует привычными терминами бизнес-среды, например, такими как: отгрузка, товар, клиент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T062957Z" creationid="Марианна" creationdate="20210827T062957Z">
+        <seg>Familiar business environment terms are used in it. For example, shipment, goods, client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
