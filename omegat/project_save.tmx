@@ -40435,6 +40435,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддержка нескольких различных по стоимости и производительности СУБД в качестве платформы хранилища позволяет в каждом конкретном случае использовать наиболее пригодную для данного случая базу данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210827T071831Z" creationid="Марианна" creationdate="20210827T071831Z">
+        <seg>Support of several DBMS different in their prices and performance as the data warehouse platform enables to use the most suitable database in each specific case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подзадача, решаемая компонентом проверки адресов, может применяться как в очистке данных, так и в задачах скоринга.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T160626Z" creationid="Марианна" creationdate="20200718T160626Z">
