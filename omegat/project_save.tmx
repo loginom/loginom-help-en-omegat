@@ -42981,6 +42981,14 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеры фактов — цена товара или изделия, их количество, сумма продаж или закупок, зарплата сотрудников, сумма кредита, страховое вознаграждение и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T124816Z" creationid="Марианна" creationdate="20210830T124816Z">
+        <seg>Examples of measures: price of product or item, their number, amount of sales or purchase, salary of employees, credit value, insurance compensation, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примеры формата даты:
 "DD.MM.YY" - преобразует дату в формат "день.месяц.год" ("25.12.04")
 "MM/DD/YYYY"  - преобразует дату в формат "месяц.день.год" ("12/25/2004")</seg>
