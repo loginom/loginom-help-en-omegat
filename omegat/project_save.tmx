@@ -34859,6 +34859,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логическая структура проектируется, прежде всего, с учетом задач предметной области.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T132234Z" creationid="Марианна" creationdate="20210830T132234Z">
+        <seg>First and foremost, the logical structure is designed taking into account the subject area objectives.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логические значения:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T084940Z" creationid="Марианна" creationdate="20201005T173752Z">
