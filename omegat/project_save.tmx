@@ -8574,6 +8574,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Атрибут&lt;x2/&gt; — это свойство измерения, помогающее пользователю полнее описать исследуемое измерение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T125054Z" creationid="Марианна" creationdate="20210830T125054Z">
+        <seg>&lt;x1/&gt;Attribute&lt;x2/&gt; means the dimension property that helps a user to describe the dimension under research better.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;База данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184604Z" creationid="Марианна" creationdate="20200810T184604Z">
@@ -36307,6 +36315,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210517T110346Z" creationid="Марианна" creationdate="20210517T110346Z">
         <seg>For example, time or other series the values of which are ordered in ascending or descending order (for example, by date or time).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, для измерения &lt;x3/&gt;Товар&lt;x4/&gt; атрибутами могут выступать &lt;x5/&gt;Цвет&lt;x6/&gt;, &lt;x7/&gt;Вес&lt;x8/&gt;, &lt;x9/&gt;Габариты&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T125310Z" creationid="Марианна" creationdate="20210830T125310Z">
+        <seg>For example, to provide a dimension for &lt;x3/&gt;Goods&lt;x4/&gt;, &lt;x5/&gt;Color&lt;x6/&gt;, &lt;x7/&gt;Weight&lt;x8/&gt;, &lt;x9/&gt;Габариты&lt;x10/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
