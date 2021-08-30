@@ -10969,6 +10969,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Измерения&lt;x2/&gt; — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T115548Z" creationid="Марианна" creationdate="20210830T115548Z">
+        <seg>&lt;x1/&gt;Dimensions&lt;x2/&gt; — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Иллюстрация работы алгоритма k-means&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T131217Z" creationid="Марианна" creationdate="20201210T131203Z">
