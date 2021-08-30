@@ -38395,6 +38395,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он описывает определенное действие, например, продажи товара, отгрузки и прочее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T115531Z" creationid="Марианна" creationdate="20210830T115531Z">
+        <seg>It describes a definite action, for example, sale of goods, shipments, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он позволяет импортировать таблицу БД или результаты выполнения SQL-запроса, заданного пользователем, а также представление — view.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T135910Z" creationid="Марианна" creationdate="20200711T135910Z">
