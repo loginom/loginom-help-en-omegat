@@ -18538,6 +18538,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Факты&lt;x2/&gt; — это данные, количественно описывающие бизнес-процесс, непрерывные по своему характеру, то есть они могут принимать бесконечное множество значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T122742Z" creationid="Марианна" creationdate="20210830T122742Z">
+        <seg>&lt;x1/&gt;Measures&lt;x2/&gt; mean the data .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Фиксированное количество групп&lt;x2/&gt; — исходный набор данных будет разделен на заданное количество групп.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202820Z" creationid="Марианна" creationdate="20200921T202820Z">
