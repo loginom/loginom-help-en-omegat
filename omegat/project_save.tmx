@@ -16258,6 +16258,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Процесс&lt;x2/&gt; — совокупность измерений, фактов и атрибутов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T113707Z" creationid="Марианна" creationdate="20210830T113707Z">
+        <seg>&lt;x1/&gt;Process&lt;x2/&gt; is a set of dimensions, measures and attributes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Процессы&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T085437Z" creationid="Марианна" creationdate="20200814T120810Z">
