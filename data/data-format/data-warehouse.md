@@ -24,18 +24,18 @@ Support of several DBMS different in their prices and performance as the data wa
 
 ### Logical Level
 
-На логическом уровне разрабатывается схема хранилища, т.е. устанавливается соответствие между *объектами предметной области*: *процессами*, *измерениями* и *фактами* хранилища:
+At the logical level the data warehouse shema is developed, namely, mapping between *subject area objects* is established: *processes*, *dimensions* and *measures* of the data warehouse:
 
-* **Процесс** — совокупность измерений, фактов и атрибутов. Он описывает определенное действие, например, продажи товара, отгрузки и прочее.
-* **Измерения** — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе. Например, это могут быть названия фирм-поставщиков, идентификационный номер товаров, ФИО людей и т.д.
-* **Факты** — это данные, количественно описывающие бизнес-процесс, непрерывные по своему характеру, то есть они могут принимать бесконечное множество значений. Примеры фактов — цена товара или изделия, их количество, сумма продаж или закупок, зарплата сотрудников, сумма кредита, страховое вознаграждение и т.д.
-* **Атрибут** — это свойство измерения, помогающее пользователю полнее описать исследуемое измерение. Например, для измерения *Товар* атрибутами могут выступать *Цвет*, *Вес*, *Габариты*.
+* **Process** is a set of dimensions, measures and attributes. It describes a definite action, for example, sale of goods, shipments, etc.
+* **Dimensions** mean the categorical, discrete attributes, names and properties of the objects involved into some business process. For example, it could be names of vendor companies, product identification number, full names of people, etc.
+* **Measures** mean the data describing the business process in the quantitative terms. They are continuous in concept, namely, they can take infinite set of values. Examples of measures: price of product or item, their number, amount of sales or purchase, salary of employees, credit value, insurance compensation, etc.
+* **Attribute** means the dimension property that helps a user to describe the dimension under research better. For example, to provide a dimension for *Goods*, *Color*, *Weight*, *Sizes* can be attributes.
 
-Логическая структура проектируется, прежде всего, с учетом задач предметной области.
+First and foremost, the logical structure is designed taking into account the subject area objectives.
 
 ### Semantic Layer
 
-*Семантический слой* — это специальный механизм, позволяющий аналитику пользоваться данными посредством бизнес-терминов предметной области. Он реализован поверх реляционной базы данных.
+*Semantic layer* is a special mechanism that lets an analyst use data by means of the subject area business terms. It has been implemented over the relational database.
 
 Благодаря этому слою, пользователь оперирует не полями и колонками таблиц базы данных, а многомерными понятиями, например, такими как измерение или факт. А система автоматически производит все требуемые манипуляции, необходимые для работы с реляционной СУБД. Таким образом, этот слой дает пользователю возможность сосредоточиться на анализе и не задумываться о механизмах получения данных.
 
