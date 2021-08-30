@@ -35747,6 +35747,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На логическом уровне разрабатывается схема хранилища, т.е. устанавливается соответствие между &lt;x1/&gt;объектами предметной области&lt;x2/&gt;: &lt;x3/&gt;процессами&lt;x4/&gt;, &lt;x5/&gt;измерениями&lt;x6/&gt; и &lt;x7/&gt;фактами&lt;x8/&gt; хранилища:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T113534Z" creationid="Марианна" creationdate="20210830T113534Z">
+        <seg>At the logical level the data warehouse shema is developed, namely, mapping between &lt;x1/&gt;subject area objects&lt;x2/&gt; is established: &lt;x3/&gt;processes&lt;x4/&gt;, &lt;x5/&gt;dimensions&lt;x6/&gt; and &lt;x7/&gt;measures&lt;x8/&gt; of the data warehouse:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На обработку логических и строковых полей положение флага не влияет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T083844Z" creationid="Марианна" creationdate="20210511T083844Z">
