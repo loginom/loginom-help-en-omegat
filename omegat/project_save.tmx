@@ -10971,8 +10971,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Измерения&lt;x2/&gt; — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210830T115855Z" creationid="Марианна" creationdate="20210830T115548Z">
-        <seg>&lt;x1/&gt;Dimensions&lt;x2/&gt; mean categorical, discrete attributes, names and properties of the objects involved into some business process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T122749Z" creationid="Марианна" creationdate="20210830T115548Z">
+        <seg>&lt;x1/&gt;Dimensions&lt;x2/&gt; mean the categorical, discrete attributes, names and properties of the objects involved into some business process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18540,8 +18540,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Факты&lt;x2/&gt; — это данные, количественно описывающие бизнес-процесс, непрерывные по своему характеру, то есть они могут принимать бесконечное множество значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210830T122742Z" creationid="Марианна" creationdate="20210830T122742Z">
-        <seg>&lt;x1/&gt;Measures&lt;x2/&gt; mean the data .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T123041Z" creationid="Марианна" creationdate="20210830T122742Z">
+        <seg>&lt;x1/&gt;Measures&lt;x2/&gt; mean the data describing the business process in the quantitative terms. They are continuous in concept, namely, they can take infinite set of values.</seg>
       </tuv>
     </tu>
     <tu>
