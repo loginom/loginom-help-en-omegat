@@ -16978,6 +16978,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Семантический слой&lt;x2/&gt; — это специальный механизм, позволяющий аналитику пользоваться данными посредством бизнес-терминов предметной области.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T132503Z" creationid="Марианна" creationdate="20210830T132503Z">
+        <seg>&lt;x1/&gt;Semantic layer&lt;x2/&gt; is a special mechanism that lets an analyst use data by means of the subject area business terms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сервер&lt;x2/&gt; — хост SQL-сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T150759Z" creationid="Марианна" creationdate="20210201T150759Z">
