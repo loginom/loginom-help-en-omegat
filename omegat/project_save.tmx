@@ -36383,6 +36383,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, это могут быть названия фирм-поставщиков, идентификационный номер товаров, ФИО людей и т.д.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T120054Z" creationid="Марианна" creationdate="20210830T120054Z">
+        <seg>For example, it could be names of vendor companies, product identification number, full names of people, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084611Z" creationid="Марианна" creationdate="20200814T084611Z">
