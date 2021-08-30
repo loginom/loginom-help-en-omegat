@@ -38475,6 +38475,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он реализован поверх реляционной базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T132630Z" creationid="Марианна" creationdate="20210830T132630Z">
+        <seg>It has been implemented over the relational database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он сводится к выбору новой ортогональной системы координат в пространстве наблюдений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T210611Z" creationid="Марианна" creationdate="20201012T210611Z">
