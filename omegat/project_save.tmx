@@ -10971,8 +10971,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Измерения&lt;x2/&gt; — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210830T115548Z" creationid="Марианна" creationdate="20210830T115548Z">
-        <seg>&lt;x1/&gt;Dimensions&lt;x2/&gt; — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T115855Z" creationid="Марианна" creationdate="20210830T115548Z">
+        <seg>&lt;x1/&gt;Dimensions&lt;x2/&gt; mean categorical, discrete attributes, names and properties of the objects involved into some business process.</seg>
       </tuv>
     </tu>
     <tu>
