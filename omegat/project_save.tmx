@@ -36321,8 +36321,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Например, для измерения &lt;x3/&gt;Товар&lt;x4/&gt; атрибутами могут выступать &lt;x5/&gt;Цвет&lt;x6/&gt;, &lt;x7/&gt;Вес&lt;x8/&gt;, &lt;x9/&gt;Габариты&lt;x10/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210830T125310Z" creationid="Марианна" creationdate="20210830T125310Z">
-        <seg>For example, to provide a dimension for &lt;x3/&gt;Goods&lt;x4/&gt;, &lt;x5/&gt;Color&lt;x6/&gt;, &lt;x7/&gt;Weight&lt;x8/&gt;, &lt;x9/&gt;Габариты&lt;x10/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210830T131823Z" creationid="Марианна" creationdate="20210830T125310Z">
+        <seg>For example, to provide a dimension for &lt;x3/&gt;Goods&lt;x4/&gt;, &lt;x5/&gt;Color&lt;x6/&gt;, &lt;x7/&gt;Weight&lt;x8/&gt;, &lt;x9/&gt;Sizes&lt;x10/&gt; can be attributes.</seg>
       </tuv>
     </tu>
     <tu>
