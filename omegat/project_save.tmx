@@ -46705,6 +46705,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также с их помощью проводятся разведочный и описательный анализы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095833Z" creationid="Марианна" creationdate="20210831T095833Z">
+        <seg>They also enable to perform exploratory and descriptive analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также создать узел-ссылку можно, перетащив мышью выбранное подключение в область построения сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T101805Z" creationid="Марианна" creationdate="20200711T101805Z">
