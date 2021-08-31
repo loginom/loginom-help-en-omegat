@@ -1,6 +1,6 @@
 # Deductor Warehouse
 
-**Deductor Warehouse** means the own format of the [Data warehouse](https://wiki.loginom.ru/articles/data-warehouse.html) elaborated specially for usage with *Loginom* and *Deductor*. It is a multidimensional Data Warehouse that enables to accumulate all the information required for analysis of the subject area.
+**Deductor Warehouse** is the own format of the [Data warehouse](https://wiki.loginom.ru/articles/data-warehouse.html) elaborated specially for usage with *Loginom* and *Deductor*. It is a multidimensional Data Warehouse that enables to accumulate all the information required for analysis of the subject area.
 
 Usage of the unified data warehouse provides data coherence and centralized storage. It also automatically provides all the support required for the data analysis process. When using the data warehouse, it is not obligatory for a user to know the data storage structure and data query language. Familiar business environment terms are used in it. For example, shipment, goods, client.
 

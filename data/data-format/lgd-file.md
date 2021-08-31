@@ -1,6 +1,6 @@
 # LGD Files
 
-**Loginom Data File (LGD file)** means the own format of the data file elaborated specially for usage with Loginom.
+**Loginom Data File (LGD file)** is the own format of the data file elaborated specially for usage with Loginom.
 
 Such format provides the highest data import and/or export speed. Minimum number of transformations is required to get or record data. In this case, data exchange speed is limited only by the speed of the disk subsystem operation and it depends on the data volume much less as compared with other formats that can be used.
 
