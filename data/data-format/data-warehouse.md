@@ -37,8 +37,8 @@ First and foremost, the logical structure is designed taking into account the su
 
 *Semantic layer* is a special mechanism that lets an analyst use data by means of the subject area business terms. It has been implemented over the relational database.
 
-Благодаря этому слою, пользователь оперирует не полями и колонками таблиц базы данных, а многомерными понятиями, например, такими как измерение или факт. А система автоматически производит все требуемые манипуляции, необходимые для работы с реляционной СУБД. Таким образом, этот слой дает пользователю возможность сосредоточиться на анализе и не задумываться о механизмах получения данных.
+Due to this layer a user can handle not fields and columns of the database tables, but such multi-dimensional concepts as dimension or measure. And the system automatically performs all operations required  for the relational DBMS operation. Thus, this layer enables a user to concentrate on analysis and not to think about the data acquisition mechanisms.
 
-Deductor Warehouse реализует универсальное многомерное хранение, т.е. может содержать множество процессов с различным количеством измерений и фактов.
+Deductor Warehouse provides the universal multidimensional storage, namely, it can contain a set of processes with different number of dimensions and measures.
 
-Пока что настройка процессов, задание измерений, атрибутов и фактов может осуществляться с помощью редактора метаданных, встроенного в Deductor Studio.
+So, configuration of processes, setting of dimensions, attributes and measures can be performed by means of the metadata editor built into Deductor Studio.
