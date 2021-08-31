@@ -72,7 +72,7 @@ These handlers enable to assess and/or visualize the structure and statistical d
 
 Data preprocessing for its further use in the Data Mining algorithms. Such methods as imputation, sampling, outliers elimination, etc. are applied.
 
-* [Imputation](./preprocessing/filling-omissions.md).
+* [Imputation](./preprocessing/filling-omissions.md)
 * [Binning](./preprocessing/quantization.md)
 * [Coarse classes](./preprocessing/fine-classes.md)
 * [Partitioning](./preprocessing/separating-to-multiplicity.md)
@@ -82,7 +82,7 @@ Data preprocessing for its further use in the Data Mining algorithms. Such metho
 
 ### [Data Mining](./datamining/README.md)
 
-The handlers related to this group represent the tools for implementation of different Data Mining methods: clusering, association rules, etc.
+The handlers related to this group represent the tools for implementation of different Data Mining methods: clustering, association rules, etc.
 
 * [EM clustering](./datamining/em-clustering.md)
 * [Association rules](./datamining/associative-rules.md)

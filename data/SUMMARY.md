@@ -126,7 +126,7 @@
          * [Correlation analysis](./processors/scrutiny/correlation-analysis.md)
          * [Factor analysis](./processors/scrutiny/factor-analysis.md)
       * [Preprocessing](./processors/preprocessing/README.md)
-         * [Imputation](./processors/preprocessing/filling-omissions.md).
+         * [Imputation](./processors/preprocessing/filling-omissions.md)
          * [Binning](./processors/preprocessing/quantization.md)
             * [External ranges](./processors/preprocessing/quantization/outdoor-ranges.md)
             * [Resulting data set structure](./processors/preprocessing/quantization/calculated-columns.md)

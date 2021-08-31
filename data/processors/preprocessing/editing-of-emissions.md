@@ -56,5 +56,5 @@ Applicability table by the following features:
 
 **See also:**
 
-* [Imputation](../../processors/preprocessing/filling-omissions.md).
+* [Imputation](../../processors/preprocessing/filling-omissions.md)
 * [Anomalous values](https://wiki.loginom.ru/articles/outlier.html).
