@@ -24763,6 +24763,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom имеется возможность создавать и использовать переменные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T100415Z" creationid="Марианна" creationdate="20210831T100415Z">
+        <seg>In Loginom it is possible to create and use variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom используются все основные &lt;x1/&gt;типы данных&lt;x2/&gt;, которые делятся на дискретные и непрерывные (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T092551Z" creationid="Марианна" creationdate="20210809T114944Z">
@@ -41731,6 +41739,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T100332Z" creationid="Марианна" creationdate="20210831T100332Z">
+        <seg>Data pre-processing for their further use in the Data Mining algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Предварительное квантование — задает начальное число интервалов квантования входного признака (начальные классы) из которых, в соответствии с настроенными параметрами, будут сформированы конечные классы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T152456Z" creationid="Марианна" creationdate="20210528T180940Z">
@@ -42953,6 +42969,14 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T131744Z" creationid="Марианна" creationdate="20210405T130634Z">
         <seg>It is used for construction of the user model of the exponentially smoothed moving average.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T100203Z" creationid="Марианна" creationdate="20210831T100203Z">
+        <seg>Such methods as imputation, sampling, outliers elimination, etc. are applied.</seg>
       </tuv>
     </tu>
     <tu>
