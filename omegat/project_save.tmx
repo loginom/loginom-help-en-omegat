@@ -38859,6 +38859,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>От обработчика к обработчику могут передаваться как наборы данных - таблицы, так и переменные - объекты, содержащие лишь одно значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T101502Z" creationid="Марианна" creationdate="20210831T101502Z">
+        <seg>Both data sets, tables, and variables, objects containing only one value can be transferred from handler to handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отдельный случай останова оптимизатора — если достигнут теоретически наилучший результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T091849Z" creationid="Марианна" creationdate="20201223T091849Z">
