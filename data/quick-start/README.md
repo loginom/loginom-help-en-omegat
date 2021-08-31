@@ -6,7 +6,7 @@ Thus, the platform can be used both for creation of indepenent analytical soluti
 
 One of the main concepts on which the [**Loginom**](https://loginom.ru) platform is based is the [Workflow](./first-scenario.md).
 
-The **Workflow**: sequence of actions that must be performed for data analysis. It is a combination of data processing nodes configured by a user to solve particular tasks.
+**Workflow**: sequence of actions that must be performed for data analysis. It is a combination of data processing nodes configured by a user to solve a particular task.
 
 The workflow node performs a separate operation with data. A list of possible operations is represented by a number of ready *components*.
 
@@ -19,7 +19,7 @@ The workflow nodes are created from 2 types of components :
 * **Standard components** are provided by the platform.
 * **Derived components** are created and configured by a user.
 
-The derived components can be created from combination of the workflow nodes implementing the random processing logics.
+The derived component can be created from combination of the workflow nodes implementing the random processing logics.
 
 Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.
 

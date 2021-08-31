@@ -1,44 +1,44 @@
-# Обработка
+# Processing
 
-## Основные понятия
+## Basic Terms
 
-**Сценарий** - последовательность действий, которые необходимо провести для анализа данных. Сценарий обработки представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.
+**Workflow**: sequence of actions that must be performed for data analysis. The processing workflow is a combination of data processing nodes configured by a user to solve a particular task.
 
-Последовательность обработки задается соединением выхода предыдущего узла сценария со входом последующего. Входом и выходом узла являются **входные** и **выходные порты**.
+The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one. The node input and output are **input** and **output ports**.
 
 ![](../quick-start/readme-1.png)
 
-*Пример сценария*
+*Workflow example*
 
-**Узел** сценария выполняет отдельную операцию над данными. Перечень возможных операций представлен палитрой готовых **компонентов**. Таким образом, **компонент** является прообразом или шаблоном будущего узла сценария. Для того, чтобы создать узел сценария, выполняющий нужную операцию над данными, необходимо мышью перенести соответствующий компонент из панели компонентов в область построения сценария (подробнее см. ["Первый сценарий"](../quick-start/first-scenario.md)).
+The workflow **node** performs a separate operation with data. A list of possible operations is represented by a number of ready **components**. Thus, the **component** is a prototype or template of the future workflow node. To create the workflow node that performs the required operation with data, the corresponding component must be dragged from the component panel to the workflow construction area (refer to ["The first workflow"](../quick-start/first-scenario.md)).
 
 The workflow nodes are created from 2 types of components :
 
-* Стандартные компоненты - предоставляются в рамках платформы;
-* [Производные компоненты](../scenario/derived-component.md) - создаются и настраиваются пользователем. Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.
+* Standard components are provided by the platform.
+* [Derived components](../scenario/derived-component.md) are created and configured by a user. The derived component can be created from combination of the workflow nodes implementing the random processing logics.
 
-Таким образом набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.
+Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.
 
-The [supernode](./control/submodel.md) is most commonly used to create the derived component. The supernode is a special node that can include other workflow nodes. Реализованная в Подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «черный ящик».
+The [supernode](./control/submodel.md) is most commonly used to create the derived component. The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the Supernode. At the same time, the workflow handler can consider it as the "black box".
 
 The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by a user.
 
-От обработчика к обработчику могут передаваться как наборы данных - таблицы, так и переменные - объекты, содержащие лишь одно значение. Статистические данные таблиц (например, сумма по столбцу, среднее значение и т.д.) при помощи специального обработчика могут быть преобразованы в переменные.
+Both data sets, tables, and variables, objects containing only one value can be transferred from handler to handler. The statistical table data (for example, column sum, average value, etc.) can be transformed to variables using the special handler.
 
-Переменные, в свою очередь, могут применяться в обработчиках для преобразования таблиц. Поскольку таблицы и переменные имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.
+In their turn, variables can be used in handlers to transformm tables. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
 
-## Стандартные компоненты
+## Standard components
 
 ### [Transformation](./transformation/README.md)
 
-Набор компонентов для первоначальной подготовки и простой обработки исходных наборов данных.
+A set of components for the inital preparation and ordinary processing of the source data sets.
 
 * [Grouping](./transformation/grouping.md)
 * [Date and time](./transformation/trans-datatime/README.md)
 * [Enrich data](./transformation/supplementation.md);
 * [Replace](./transformation/substitution/README.md)
 * [Calculator](./transformation/calc/README.md)
-* Калькулятор JS
+* JS Calculator
 * [Cross table](./transformation/cross-table.md)
 * [Union](./transformation/union.md).
 * [Features of fields](./transformation/fields-parameters.md)
@@ -62,7 +62,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 ### [Research](./scrutiny/README.md)
 
-С помощью этих обработчиков можно оценить и/или визуализировать структуру и статистические характеристики данных. Также с их помощью проводятся разведочный и описательный анализы.
+These handlers enable to assess and/or visualize the structure and statistical data characteristics. They also enable to perform exploratory and descriptive analysis.
 
 * [Autocorrelation](./scrutiny/autocorrelation.md)
 * [Correlation analysis](./scrutiny/correlation-analysis.md)
@@ -70,7 +70,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 ### [Preprocessing](./preprocessing/README.md)
 
-Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining. Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.
+Data pre-processing for their further use in the Data Mining algorithms. Such methods as imputation, sampling, outliers elimination, etc. are applied.
 
 * [Imputation](./preprocessing/filling-omissions.md).
 * [Binning](./preprocessing/quantization.md)
@@ -82,7 +82,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 ### [Data Mining](./datamining/README.md)
 
-Обработчики, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.
+The handlers related to this group represent the tools for implementation of different Data Mining methods: clusering, association rules, etc.
 
 * [EM clustering](./datamining/em-clustering.md)
 * [Association rules](./datamining/associative-rules.md)
@@ -95,7 +95,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 ### [Variables](./variables/README.md)
 
-В Loginom имеется возможность создавать и использовать переменные. Обработчики этой группы позволяют проводить различные операции над ними: изменение, создание переменных из таблицы, расчет новых переменных с помощью различных функций.
+In Loginom it is possible to create and use variables. The handlers related to this group enable to perform different operations with them, namely, change, creation of variables from the table, calculation of the new variables using different functions.
 
 * [Replace (variables)](./variables/variables-replace.md)
 * [Calculator (variables)](./variables/variables-calc.md)
