@@ -45913,8 +45913,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Стандартные компоненты</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210831T095424Z" creationid="Марианна" creationdate="20210831T095424Z">
-        <seg>Standard components</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T102625Z" creationid="Марианна" creationdate="20210831T095424Z">
+        <seg>Standard Components</seg>
       </tuv>
     </tu>
     <tu>
