@@ -34535,6 +34535,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компоненты группы предназначены для оптимизации сценариев путем создания подмоделей и повторного использования узлов, а также формирования логики выполнения сценариев при помощи условий и циклов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T102100Z" creationid="Марианна" creationdate="20210831T102100Z">
+        <seg>The group components are designated for the workflows optimization by supernodes creation, repeated use of nodes and development of the workflow execution logics using conditions and loops.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компоненты — стандартная библиотека базовых компонентов Loginom;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125252Z" creationid="Марианна" creationdate="20200819T125252Z">
