@@ -19938,6 +19938,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Deductor Warehouse реализует универсальное многомерное хранение, т.е. может содержать множество процессов с различным количеством измерений и фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T085359Z" creationid="Марианна" creationdate="20210831T085359Z">
+        <seg>Deductor Warehouse provides the universal multidimensional storage, namely, it can contain a set of processes with different number of dimensions and measures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DerivedPackageFileName</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084417Z" creationid="Марианна" creationdate="20201009T084417Z">
