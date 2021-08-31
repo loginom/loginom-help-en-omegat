@@ -24725,8 +24725,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В Loginom используются все основные &lt;x1/&gt;типы данных&lt;x2/&gt;, которые делятся на дискретные и непрерывные (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T114944Z" creationid="Марианна" creationdate="20210809T114944Z">
-        <seg>All main &lt;x1/&gt;data types&lt;x2/&gt; classified into discrete and continuous are used in Loginom (refer to.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T092551Z" creationid="Марианна" creationdate="20210809T114944Z">
+        <seg>All main &lt;x1/&gt;data types&lt;x2/&gt; classified into discrete and continuous are used in Loginom (refer to</seg>
       </tuv>
     </tu>
     <tu>
