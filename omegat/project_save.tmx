@@ -33895,6 +33895,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Калькулятор JS</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095710Z" creationid="Марианна" creationdate="20210831T095710Z">
+        <seg>JS Calculator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Квантование применяется к данным с типами: целый, вещественный и дата/время (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T192129Z" creationid="Марианна" creationdate="20210629T192129Z">
