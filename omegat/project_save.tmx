@@ -36123,6 +36123,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Набор компонентов для первоначальной подготовки и простой обработки исходных наборов данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095628Z" creationid="Марианна" creationdate="20210831T095628Z">
+        <seg>A set of components for the inital preparation and ordinary processing of the source data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Набор параметров для настройки линейной регрессии можно сгруппировать в следующие блоки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102119Z" creationid="Марианна" creationdate="20201215T102119Z">
