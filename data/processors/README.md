@@ -8,7 +8,7 @@ The processing sequence is determined by connection of the previous workflow nod
 
 ![](../quick-start/readme-1.png)
 
-*Workflow example*
+*Workflow Example*
 
 The workflow **node** performs a separate operation with data. A list of possible operations is represented by a number of ready **components**. Thus, the **component** is a prototype or template of the future workflow node. To create the workflow node that performs the required operation with data, the corresponding component must be dragged from the component panel to the workflow construction area (refer to ["The first workflow"](../quick-start/first-scenario.md)).
 
@@ -25,7 +25,7 @@ The supernode accepts information by means of input ports, performs processing a
 
 Both data sets, tables, and variables, objects containing only one value can be transferred from handler to handler. The statistical table data (for example, column sum, average value, etc.) can be transformed to variables using the special handler.
 
-In their turn, variables can be used in handlers to transformm tables. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
+In their turn, variables can be used in handlers to transform tables. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
 
 ## Standard components
 
