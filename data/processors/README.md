@@ -70,7 +70,7 @@ These handlers enable to assess and/or visualize the structure and statistical d
 
 ### [Preprocessing](./preprocessing/README.md)
 
-Data pre-processing for their further use in the Data Mining algorithms. Such methods as imputation, sampling, outliers elimination, etc. are applied.
+Data preprocessing for its further use in the Data Mining algorithms. Such methods as imputation, sampling, outliers elimination, etc. are applied.
 
 * [Imputation](./preprocessing/filling-omissions.md).
 * [Binning](./preprocessing/quantization.md)
