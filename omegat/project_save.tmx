@@ -44503,6 +44503,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью этих обработчиков можно оценить и/или визуализировать структуру и статистические характеристики данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T100051Z" creationid="Марианна" creationdate="20210831T100051Z">
+        <seg>These handlers enable to assess and/or visualize the structure and statistical data characteristics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С примерами и документацией использования модулей CommonJS можно ознакомится в статье &lt;x7/&gt;JavaScript: Импорт внешних модулей&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T190158Z" creationid="Марианна" creationdate="20201020T190158Z">
