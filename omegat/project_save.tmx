@@ -41331,6 +41331,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поскольку таблицы и переменные имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095412Z" creationid="Марианна" creationdate="20210831T095412Z">
+        <seg>As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102924Z" creationid="Марианна" creationdate="20200716T093406Z">
@@ -45803,6 +45811,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T104143Z" creationid="Марианна" creationdate="20210511T104143Z">
         <seg>Standard deviation: the criterion is deviation of the indicator value from the mean one more than by the set number of standard deviations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стандартные компоненты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095424Z" creationid="Марианна" creationdate="20210831T095424Z">
+        <seg>Standard components</seg>
       </tuv>
     </tu>
     <tu>
