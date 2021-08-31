@@ -43991,6 +43991,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализованная в Подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «черный ящик».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095248Z" creationid="Марианна" creationdate="20210831T095248Z">
+        <seg>Random logics can be implemented in the Supernode. At the same time, the workflow handler can consider it as the "black box".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «&lt;x1/&gt;черный ящик&lt;x2/&gt;».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093629Z" creationid="Марианна" creationdate="20200715T093629Z">
@@ -46741,6 +46749,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T143505Z" creationid="Марианна" creationdate="20200920T143505Z">
         <seg>Thus, it is possible to create the hierarchic structure of the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095157Z" creationid="Марианна" creationdate="20210831T095157Z">
+        <seg>Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.</seg>
       </tuv>
     </tu>
     <tu>
