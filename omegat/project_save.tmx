@@ -25101,8 +25101,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В контекст выполнения JavaScript встроены перечисления, описывающие метаданные полей и переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201201T122033Z" creationid="Марианна" creationdate="20201030T082748Z">
-        <seg>The enumerations describing the fields and variables metadata are built in within the JavaScript execution context.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T092002Z" creationid="Марианна" creationdate="20201030T082748Z">
+        <seg>The enumerations describing the fields and variables metadata is built in within the JavaScript execution context.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35709,8 +35709,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На выходных портах обработчика формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210227T204646Z" creationid="Марианна" creationdate="20210227T204646Z">
-        <seg>Tables with the service responses, returned errors and additional data are generated in the output ports of the handler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T091956Z" creationid="Марианна" creationdate="20210227T204646Z">
+        <seg>Tables with the service responses, returned errors and additional data is generated in the output ports of the handler.</seg>
       </tuv>
     </tu>
     <tu>
