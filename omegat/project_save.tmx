@@ -17196,8 +17196,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Соединение&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210302T203652Z" creationid="Марианна" creationdate="20200810T192809Z">
-        <seg>&lt;x1/&gt;Connection&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T102721Z" creationid="Марианна" creationdate="20200810T192809Z">
+        <seg>&lt;x1/&gt;Connection&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
