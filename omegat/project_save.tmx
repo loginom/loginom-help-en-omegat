@@ -6808,8 +6808,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; — это собственный формат &lt;x3/&gt;Хранилища данных&lt;x4/&gt;, специально разработанный для использования с &lt;x5/&gt;Loginom&lt;x6/&gt; и &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210831T090250Z" creationid="Марианна" creationdate="20210822T165838Z">
-        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; is the own format of the &lt;x3/&gt;Data warehouse&lt;x4/&gt; elaborated specially for usage with &lt;x5/&gt;Loginom&lt;x6/&gt; and &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T090652Z" creationid="Марианна" creationdate="20210822T165838Z">
+        <seg>&lt;x1/&gt;Deductor Warehouse&lt;x2/&gt; is the own format of &lt;x3/&gt;Data Warehouse&lt;x4/&gt; elaborated specially for usage with &lt;x5/&gt;Loginom&lt;x6/&gt; and &lt;x7/&gt;Deductor&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
