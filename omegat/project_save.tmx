@@ -28679,8 +28679,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные в поле представляют собой числа с плавающей точкой, соответствующие стандарту &lt;x1/&gt;IEEE 754-2008&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T113612Z" creationid="Марианна" creationdate="20210809T113612Z">
-        <seg>The field data represent floating point numbers meeting &lt;x1/&gt;IEEE 754-2008&lt;x2/&gt; standard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T092314Z" creationid="Марианна" creationdate="20210809T113612Z">
+        <seg>The field data represents floating point numbers meeting &lt;x1/&gt;IEEE 754-2008&lt;x2/&gt; standard.</seg>
       </tuv>
     </tu>
     <tu>
