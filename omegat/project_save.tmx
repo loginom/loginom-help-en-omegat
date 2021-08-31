@@ -27853,6 +27853,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входом и выходом узла являются &lt;x1/&gt;входные&lt;x2/&gt; и &lt;x3/&gt;выходные порты&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094414Z" creationid="Марианна" creationdate="20210831T094414Z">
+        <seg>The node input and output are &lt;x1/&gt;input&lt;x2/&gt; and &lt;x3/&gt;output ports&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входы узла могут настраиваться автоматически (при подключении связи) или вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T103225Z" creationid="Марианна" creationdate="20200716T094626Z">
@@ -38509,8 +38517,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Он представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T091406Z" creationid="Марианна" creationdate="20200715T091406Z">
-        <seg>It is a combination of data processing nodes configured by a user to solve particular tasks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094200Z" creationid="Марианна" creationdate="20200715T091406Z">
+        <seg>It is a combination of data processing nodes configured by a user to solve a particular task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41566,6 +41574,14 @@ It accepts supplementary transaction items that can be taken into account when c
         <seg>Последовательность обработки задается соединением выхода предыдущего узла сценария с входом последующего.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091814Z" creationid="Марианна" creationdate="20200715T091738Z">
+        <seg>The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Последовательность обработки задается соединением выхода предыдущего узла сценария со входом последующего.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094301Z" creationid="Марианна" creationdate="20210831T094301Z">
         <seg>The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one.</seg>
       </tuv>
     </tu>
@@ -46265,6 +46281,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T163348Z" creationid="Марианна" creationdate="20200718T163348Z">
         <seg>The Workflow can be distinguished by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сценарий обработки представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094140Z" creationid="Марианна" creationdate="20210831T094140Z">
+        <seg>The processing workflow is a combination of data processing nodes configured by a user to solve a particular task.</seg>
       </tuv>
     </tu>
     <tu>
