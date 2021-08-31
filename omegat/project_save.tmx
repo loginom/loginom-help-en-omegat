@@ -39859,6 +39859,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перечень возможных операций представлен палитрой готовых &lt;x3/&gt;компонентов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094820Z" creationid="Марианна" creationdate="20210831T094820Z">
+        <seg>A list of possible operations is represented by a number of ready &lt;x3/&gt;components&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перечень и назначение маркеров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T054759Z" creationid="Марианна" creationdate="20201119T054759Z">
