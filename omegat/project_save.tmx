@@ -28743,8 +28743,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные представляют собой целые числа в диапазоне от -2&lt;x1/&gt;63&lt;x2/&gt; до 2&lt;x3/&gt;63&lt;x4/&gt;-1</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T114348Z" creationid="Марианна" creationdate="20210809T114348Z">
-        <seg>The data represent integers in the range from -2&lt;x1/&gt;63&lt;x2/&gt; to 2&lt;x3/&gt;63&lt;x4/&gt;-1</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T092413Z" creationid="Марианна" creationdate="20210809T114348Z">
+        <seg>The data represents integers in the range from -2&lt;x1/&gt;63&lt;x2/&gt; to 2&lt;x3/&gt;63&lt;x4/&gt;-1</seg>
       </tuv>
     </tu>
     <tu>
