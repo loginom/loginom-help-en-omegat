@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/data-sources/web-soap-client_default.svg) SOAP Request
 
-The component enables to interact with the external [SOAP service](https://ru.wikipedia.org/wiki/SOAP). It sends requests to it and receives responses. It is possible to send several consequent requests generated from the input table rows with the request parameters to SOAP service. Tables with the service responses, returned errors and additional data are generated in the output ports of the handler. The service XML responses are transformed to the table view.
+The component enables to interact with the external [SOAP service](https://ru.wikipedia.org/wiki/SOAP). It sends requests to it and receives responses. It is possible to send several consequent requests generated from the input table rows with the request parameters to SOAP service. Tables with the service responses, returned errors and additional data is generated in the output ports of the handler. The service XML responses are transformed to the table view.
 
 The SOAP services description, WSDL 1.1 specification and SOAP protocols, versions 1.1 and 1.2 are supported.
 
