@@ -46737,6 +46737,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, этот слой дает пользователю возможность сосредоточиться на анализе и не задумываться о механизмах получения данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T082821Z" creationid="Марианна" creationdate="20210831T082821Z">
+        <seg>Thus, this layer enables a user to concentrate on analysis and not to think about the data acquisition mechanisms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такое поле должно быть только одно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T143141Z" creationid="Марианна" creationdate="20201207T143141Z">
