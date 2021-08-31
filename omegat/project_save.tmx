@@ -46857,6 +46857,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, &lt;x5/&gt;компонент&lt;x6/&gt; является прообразом или шаблоном будущего узла сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T101012Z" creationid="Марианна" creationdate="20210831T101012Z">
+        <seg>Thus, the &lt;x5/&gt;component&lt;x6/&gt; is a prototype or template of the future workflow node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, в первом случае повышается значимость признака, а во втором — интепретируемость конечных классов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T140556Z" creationid="Марианна" creationdate="20210530T140556Z">
