@@ -16154,6 +16154,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; - создаются и настраиваются пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094944Z" creationid="Марианна" creationdate="20210831T094944Z">
+        <seg>&lt;x1/&gt;Derived components&lt;x2/&gt; are created and configured by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Производные компоненты&lt;x2/&gt; — создаваемые пользователями компоненты на основе базовых;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T125405Z" creationid="Марианна" creationdate="20200819T125405Z">
@@ -43487,10 +43495,18 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095029Z" creationid="Марианна" creationdate="20210831T095029Z">
+        <seg>The derived component can be created from combination of the workflow nodes implementing the random processing logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Производный компонент можно создать из комбинации узлов сценария, реализующих произвольную логику обработки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200715T092841Z" creationid="Марианна" creationdate="20200715T092841Z">
-        <seg>The derived components can be created from combination of the workflow nodes implementing the random processing logics.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095038Z" creationid="Марианна" creationdate="20200715T092841Z">
+        <seg>The derived component can be created from combination of the workflow nodes implementing the random processing logics.</seg>
       </tuv>
     </tu>
     <tu>
