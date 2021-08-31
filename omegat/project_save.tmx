@@ -30367,6 +30367,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы создать узел сценария, выполняющий нужную операцию над данными, необходимо мышью перенести соответствующий компонент из панели компонентов в область построения сценария (подробнее см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T101212Z" creationid="Марианна" creationdate="20210831T101212Z">
+        <seg>To create the workflow node that performs the required operation with data, the corresponding component must be dragged from the component panel to the workflow construction area (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того, чтобы установить время выполнения узла, в значении &lt;x3/&gt;Бесконечность&lt;x4/&gt; необходимо в поле тайм-аута ввести либо &lt;x5/&gt;-1&lt;x6/&gt;, либо удалить все цифры.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T172906Z" creationid="Марианна" creationdate="20210219T172906Z">
