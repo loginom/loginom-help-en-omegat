@@ -38179,6 +38179,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчики этой группы позволяют проводить различные операции над ними: изменение, создание переменных из таблицы, расчет новых переменных с помощью различных функций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T100633Z" creationid="Марианна" creationdate="20210831T100633Z">
+        <seg>The handlers related to this group enable to perform different operations with them, namely, change, creation of variables from the table, calculation of the new variables using different functions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчики, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T100841Z" creationid="Марианна" creationdate="20210831T100841Z">
+        <seg>The handlers related to this group represent the tools for implementation of different Data Mining methods: clusering, association rules, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обратная кавычка (`).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T105042Z" creationid="Марианна" creationdate="20200917T151815Z">
