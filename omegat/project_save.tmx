@@ -38205,8 +38205,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Обработчики, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210831T100841Z" creationid="Марианна" creationdate="20210831T100841Z">
-        <seg>The handlers related to this group represent the tools for implementation of different Data Mining methods: clusering, association rules, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T103002Z" creationid="Марианна" creationdate="20210831T100841Z">
+        <seg>The handlers related to this group represent the tools for implementation of different Data Mining methods: clustering, association rules, etc.</seg>
       </tuv>
     </tu>
     <tu>
