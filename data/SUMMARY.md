@@ -90,7 +90,7 @@
             * [Expression](./processors/transformation/calc/expression.md)
             * [JavaScript](./processors/transformation/calc/javascript.md)
          * [Cross table](./processors/transformation/cross-table.md)
-         * [Union](./processors/transformation/union.md).
+         * [Union](./processors/transformation/union.md)
          * [Features of fields](./processors/transformation/fields-parameters.md)
          * [Ungroup](./processors/transformation/ungrouping.md)
          * [Collapse columns](./processors/transformation/rollup-columns.md)
@@ -101,7 +101,7 @@
             * [Left join](./processors/transformation/join/left.md)
             * [Right join](./processors/transformation/join/right.md)
             * [Difference](./processors/transformation/join/distinct.md)
-         * [Connection](./processors/transformation/addition.md);
+         * [Connection](./processors/transformation/addition.md)
          * [Sort](./processors/transformation/sorting.md)
          * [Row filter](./processors/transformation/row-filter/README.md)
             * [Filter relation](./processors/transformation/row-filter/filter-conditions.md)

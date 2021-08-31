@@ -47,5 +47,5 @@ Linking is allowed only for the fields with the similar data types.
 **See also:**
 
 * [Enrich data](../supplementation.md);
-* [Connection](../addition.md);
-* [Union](../union.md).
+* [Connection](../addition.md)
+* [Union](../union.md)

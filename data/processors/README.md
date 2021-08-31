@@ -27,11 +27,11 @@ Both data sets, tables, and variables, objects containing only one value can be 
 
 In their turn, variables can be used in handlers to transform tables. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
 
-## Standard components
+## Standard Components
 
 ### [Transformation](./transformation/README.md)
 
-A set of components for the inital preparation and ordinary processing of the source data sets.
+A set of components for the initial preparation and ordinary processing of the source data sets.
 
 * [Grouping](./transformation/grouping.md)
 * [Date and time](./transformation/trans-datatime/README.md)
@@ -40,13 +40,13 @@ A set of components for the inital preparation and ordinary processing of the so
 * [Calculator](./transformation/calc/README.md)
 * JS Calculator
 * [Cross table](./transformation/cross-table.md)
-* [Union](./transformation/union.md).
+* [Union](./transformation/union.md)
 * [Features of fields](./transformation/fields-parameters.md)
 * [Ungroup](./transformation/ungrouping.md)
 * [Collapse columns](./transformation/rollup-columns.md)
 * [Lag](./transformation/sliding-window.md)
 * [Join](./transformation/join/README.md)
-* [Connection](./transformation/addition.md);
+* [Connection](./transformation/addition.md)
 * [Sort](./transformation/sorting.md)
 * [Row filter](./transformation/row-filter/README.md)
 
