@@ -45935,6 +45935,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Статистические данные таблиц (например, сумма по столбцу, среднее значение и т.д.) при помощи специального обработчика могут быть преобразованы в переменные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T101717Z" creationid="Марианна" creationdate="20210831T101717Z">
+        <seg>The statistical table data (for example, column sum, average value, etc.) can be transformed to variables using the special handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Статистические показатели (или &lt;x3/&gt;функции агрегации&lt;x4/&gt;) при этом вычисляются для каждой группы, а не для всего набора в целом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194459Z" creationid="Марианна" creationdate="20201023T194459Z">
