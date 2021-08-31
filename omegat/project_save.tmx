@@ -29207,8 +29207,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Дискретными являются все данные строкового или логического типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210817T094345Z" creationid="Марианна" creationdate="20210817T094345Z">
-        <seg>All string or logical data are discrete.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T091940Z" creationid="Марианна" creationdate="20210817T094345Z">
+        <seg>All string or logical data is discrete.</seg>
       </tuv>
     </tu>
     <tu>
