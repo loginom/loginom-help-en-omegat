@@ -41781,8 +41781,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210831T102823Z" creationid="Марианна" creationdate="20210831T100332Z">
-        <seg>Data preprocessing for their further use in the Data Mining algorithms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T102838Z" creationid="Марианна" creationdate="20210831T100332Z">
+        <seg>Data preprocessing for its further use in the Data Mining algorithms.</seg>
       </tuv>
     </tu>
     <tu>
