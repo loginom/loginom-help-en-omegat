@@ -52,7 +52,7 @@ A set of components for the inital preparation and ordinary processing of the so
 
 ### [Control](./control/README.md)
 
-Компоненты группы предназначены для оптимизации сценариев путем создания подмоделей и повторного использования узлов, а также формирования логики выполнения сценариев при помощи условий и циклов.
+The group components are designated for the workflows optimization by supernodes creation, repeated use of nodes and development of the workflow execution logics using antecedents and loops.
 
 * [Node execution](./control/execute-node.md)
 * [Supernode](./control/submodel.md)
