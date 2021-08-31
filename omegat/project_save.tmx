@@ -17778,10 +17778,18 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; - последовательность действий, которые необходимо провести для анализа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094006Z" creationid="Марианна" creationdate="20210831T094006Z">
+        <seg>&lt;x1/&gt;Workflow&lt;x2/&gt;: sequence of actions that must be performed for data analysis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — последовательность действий, которые необходимо провести для анализа данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210713T134254Z" creationid="Марианна" creationdate="20200715T091311Z">
-        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt;: sequence of actions that must be performed for data analysis.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094015Z" creationid="Марианна" creationdate="20200715T091311Z">
+        <seg>&lt;x1/&gt;Workflow&lt;x2/&gt;: sequence of actions that must be performed for data analysis.</seg>
       </tuv>
     </tu>
     <tu>
