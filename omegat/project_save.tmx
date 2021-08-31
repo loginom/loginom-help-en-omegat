@@ -28711,8 +28711,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Данные могут принимать только два значения True или False</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T113037Z" creationid="Марианна" creationdate="20210809T113037Z">
-        <seg>The data can take only two values: True or False</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T092242Z" creationid="Марианна" creationdate="20210809T113037Z">
+        <seg>The data can take only two values: True or False.</seg>
       </tuv>
     </tu>
     <tu>
