@@ -38699,6 +38699,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Основные понятия</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T093920Z" creationid="Марианна" creationdate="20210831T093920Z">
+        <seg>Basic Terms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Особенности применения внешних модулей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T190352Z" creationid="Марианна" creationdate="20201020T190352Z">
