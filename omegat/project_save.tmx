@@ -39811,6 +39811,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменные, в свою очередь, могут применяться в обработчиках для преобразования таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T095511Z" creationid="Марианна" creationdate="20210831T095511Z">
+        <seg>In their turn, variables can be used in handlers to transformm tables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменные, которые отдает порт &lt;x1/&gt;Сводка&lt;x2/&gt;, представлены в таблице:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T204729Z" creationid="Марианна" creationdate="20201217T204729Z">
