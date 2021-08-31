@@ -20,7 +20,7 @@ For proper operation of *Deductor Warehouse*, it is compulsory to provide the fu
 
 Support of several DBMS different in their prices and performance as the data warehouse platform enables to use the most suitable database in each specific case.
 
-*Deductor Warehouse* performs all required operations to connect to the relational DBMS and select necessary information that is rather transparent for a user. The crossplatform Data Warehouse is a base convenient for creation of distributed data warehouses, datamarts, etc.
+*Deductor Warehouse* performs all required operations to connect to the relational DBMS and select necessary information that is rather transparent for a user. The crossplatform Data Warehouse is the base convenient for creation of distributed data warehouses, datamarts, etc.
 
 ### Logical Level
 
@@ -37,7 +37,7 @@ First and foremost, the logical structure is designed taking into account the su
 
 *Semantic layer* is a special mechanism that lets an analyst use data by means of the subject area business terms. It has been implemented over the relational database.
 
-Due to this layer a user can handle not fields and columns of the database tables, but such multi-dimensional concepts as dimension or measure. And the system automatically performs all operations required  for the relational DBMS operation. Thus, this layer enables a user to concentrate on analysis and not to think about the data acquisition mechanisms.
+Due to this layer a user can handle not fields and columns of the database tables, but such multidimensional concepts as dimension or measure. And the system automatically performs all operations required  for the relational DBMS operation. Thus, this layer enables a user to concentrate on analysis and not to think about the data acquisition mechanisms.
 
 Deductor Warehouse provides the universal multidimensional storage, namely, it can contain a set of processes with different number of dimensions and measures.
 
