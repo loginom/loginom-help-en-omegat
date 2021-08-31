@@ -19436,8 +19436,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x7/&gt;параметры поля набора данных&lt;x8/&gt;)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210809T115323Z" creationid="Марианна" creationdate="20210809T115323Z">
-        <seg>&lt;x7/&gt;Features of data set field&lt;x8/&gt;)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T092615Z" creationid="Марианна" creationdate="20210809T115323Z">
+        <seg>&lt;x7/&gt;Features of data set field&lt;x8/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
