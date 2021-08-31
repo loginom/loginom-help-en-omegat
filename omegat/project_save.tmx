@@ -19434,6 +19434,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x7/&gt;"Первый сценарий"&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094853Z" creationid="Марианна" creationdate="20210831T094853Z">
+        <seg>&lt;x7/&gt;"The first workflow"&lt;x8/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x7/&gt;Полное описание API&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T075034Z" creationid="Марианна" creationdate="20201102T075034Z">
@@ -45771,6 +45779,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T104143Z" creationid="Марианна" creationdate="20210511T104143Z">
         <seg>Standard deviation: the criterion is deviation of the indicator value from the mean one more than by the set number of standard deviations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стандартные компоненты - предоставляются в рамках платформы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T094919Z" creationid="Марианна" creationdate="20210831T094919Z">
+        <seg>Standard components are provided by the platform.</seg>
       </tuv>
     </tu>
     <tu>
