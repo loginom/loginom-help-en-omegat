@@ -40707,6 +40707,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пока что настройка процессов, задание измерений, атрибутов и фактов может осуществляться с помощью редактора метаданных, встроенного в Deductor Studio.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T085721Z" creationid="Марианна" creationdate="20210831T085721Z">
+        <seg>So, configuration of processes, setting of dimensions, attributes and measures can be performed by means of the metadata editor built into Deductor Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пол покупателя</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103157Z" creationid="Марианна" creationdate="20201208T103157Z">
