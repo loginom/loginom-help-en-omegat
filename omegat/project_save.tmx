@@ -37835,6 +37835,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T093844Z" creationid="Марианна" creationdate="20210831T093844Z">
+        <seg>Processing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка данных методом &lt;x1/&gt;скользящего окна&lt;x2/&gt; применяется при предварительной обработке данных в задачах прогнозирования, когда на вход анализатора (например, нейронной сети) требуется подавать значения нескольких смежных отсчетов исходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T075010Z" creationid="Марианна" creationdate="20201114T075010Z">
