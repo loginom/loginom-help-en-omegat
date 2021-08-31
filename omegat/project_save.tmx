@@ -39877,8 +39877,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Переменные, в свою очередь, могут применяться в обработчиках для преобразования таблиц.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210831T095511Z" creationid="Марианна" creationdate="20210831T095511Z">
-        <seg>In their turn, variables can be used in handlers to transformm tables.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T102553Z" creationid="Марианна" creationdate="20210831T095511Z">
+        <seg>In their turn, variables can be used in handlers to transform tables.</seg>
       </tuv>
     </tu>
     <tu>
