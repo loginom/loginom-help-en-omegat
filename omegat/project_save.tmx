@@ -24059,6 +24059,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>А система автоматически производит все требуемые манипуляции, необходимые для работы с реляционной СУБД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T082432Z" creationid="Марианна" creationdate="20210831T082432Z">
+        <seg>And the system automatically performs all operations required  for the relational DBMS operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>АКФ</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100640Z" creationid="Марианна" creationdate="20201011T100640Z">
