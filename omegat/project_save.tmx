@@ -24581,8 +24581,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Благодаря этому слою, пользователь оперирует не полями и колонками таблиц базы данных, а многомерными понятиями, например, такими как измерение или факт.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210831T082212Z" creationid="Марианна" creationdate="20210831T082212Z">
-        <seg>Due to this layer a user can handle not fields and columns of the database tables, but such multi-dimensional concepts as dimension or measure.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T091350Z" creationid="Марианна" creationdate="20210831T082212Z">
+        <seg>Due to this layer a user can handle not fields and columns of the database tables, but such multidimensional concepts as dimension or measure.</seg>
       </tuv>
     </tu>
     <tu>
