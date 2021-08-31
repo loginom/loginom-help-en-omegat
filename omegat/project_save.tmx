@@ -24563,6 +24563,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Благодаря этому слою, пользователь оперирует не полями и колонками таблиц базы данных, а многомерными понятиями, например, такими как измерение или факт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210831T082212Z" creationid="Марианна" creationdate="20210831T082212Z">
+        <seg>Due to this layer a user can handle not fields and columns of the database tables, but such multi-dimensional concepts as dimension or measure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Блок параметров, доступный для настройки, при неактивном флаге &lt;x1/&gt;Автоопределение числа кластеров&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133122Z" creationid="Марианна" creationdate="20201212T210411Z">
