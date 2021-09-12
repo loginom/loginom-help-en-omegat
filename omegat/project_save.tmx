@@ -16040,6 +16040,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечания:&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210912T165722Z" creationid="Марианна" creationdate="20210912T165722Z">
+        <seg>&lt;x1/&gt;Notes:&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Принимать несколько подряд разделителей за один&lt;x2/&gt; — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T132830Z" creationid="Марианна" creationdate="20200826T094354Z">
@@ -24479,6 +24487,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112947Z" creationid="Марианна" creationdate="20200825T112947Z">
         <seg>Astra Info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Аутентификация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210912T165711Z" creationid="Марианна" creationdate="20210912T165711Z">
+        <seg>Authentification</seg>
       </tuv>
     </tu>
     <tu>
@@ -37059,6 +37075,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T151415Z" creationid="Марианна" creationdate="20201215T151415Z">
         <seg>Factor Selection Settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки подключения к LDAP серверу рассмотрены в подразделе &lt;x1/&gt;Параметры&lt;x2/&gt; раздела Администрирования, изменение способа &lt;x3/&gt;Аутентификации&lt;x4/&gt; пользователя рассмотрено в подразделе &lt;x5/&gt;Пользователи&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210912T170256Z" creationid="Марианна" creationdate="20210912T170256Z">
+        <seg>Settings of connection to the LDAP server are analyzed in &lt;x1/&gt;Parameters&lt;x2/&gt; subsection of Administration section, change of &lt;x3/&gt;Authentification&lt;x4/&gt; user method is analyzed in &lt;x5/&gt;Users&lt;x6/&gt; subsection.</seg>
       </tuv>
     </tu>
     <tu>
