@@ -29317,6 +29317,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для &lt;x1/&gt;Аутентификации&lt;x2/&gt; используется введенное на стартовой странице Loginom имя и пароль пользователя:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210912T170916Z" creationid="Марианна" creationdate="20210912T170916Z">
+        <seg>The user name and password entered on the Loginom home page are used for &lt;x1/&gt;Authentification&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для &lt;x1/&gt;Подмодели&lt;x2/&gt; можно задать произвольное количество входных/выходных портов следующих типов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T185850Z" creationid="Марианна" creationdate="20200920T145000Z">
