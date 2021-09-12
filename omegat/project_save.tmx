@@ -33294,6 +33294,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование LDAP аутентификации позволяет авторизоваться на сервере Loginom через LDAP сервер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210912T165523Z" creationid="Марианна" creationdate="20210912T165523Z">
+        <seg>Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование единого хранилища позволяет обеспечить непротиворечивость данных и централизованное хранение, а также автоматически обеспечивает всю необходимую поддержку процесса анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210822T173935Z" creationid="Марианна" creationdate="20210822T173845Z">
