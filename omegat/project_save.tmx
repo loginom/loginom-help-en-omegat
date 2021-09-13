@@ -42933,8 +42933,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При этом не могут быть использованы пустое имя пользователя или пустой пароль, так как такой пользователь должен получать анонимный доступ (в этом случае сразу выдается ошибка "Неверное имя пользователя или пароль");</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210913T074025Z" creationid="Марианна" creationdate="20210913T074025Z">
-        <seg>In this case, it is not allowed to use the empty user name or empty password as the user must get the anonymous access (</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T074304Z" creationid="Марианна" creationdate="20210913T074025Z">
+        <seg>In this case, it is not allowed to use the empty username or empty password as such user must get the anonymous access (otherwise, the following error is shown at once: "Invalid username or password").</seg>
       </tuv>
     </tu>
     <tu>
@@ -48241,6 +48241,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212041Z" creationid="Марианна" creationdate="20210328T212041Z">
         <seg>Date_format - optional parameter date format in terms of D, M, Y.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Форматы DN, UPN или domain\user не поддерживаются и приведут к появлению ошибки "Неверное имя пользователя или пароль".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T074252Z" creationid="Марианна" creationdate="20210913T074252Z">
+        <seg>DN, UPN or domain\user formats are not supported and will cause the following error: "Invalid username or password".</seg>
       </tuv>
     </tu>
     <tu>
