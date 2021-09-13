@@ -25131,6 +25131,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве имени берется введенное имя пользователя, выставляется способ аутентификации "LDAP", не включена ни одна роль (администратора, разработчика, просмотра отчетов, запуска в режиме службы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T092932Z" creationid="Марианна" creationdate="20210913T092932Z">
+        <seg>The entered username is used as a name, the "LDAP" authentification method is set, no roles are defined (administrator, developer, reports view, start in the service mode).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве ограничителя строк могут быть использованы символы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T151630Z" creationid="Марианна" creationdate="20200917T151630Z">
