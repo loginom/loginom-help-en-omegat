@@ -1,26 +1,26 @@
 # LDAP
 
-Использование LDAP аутентификации позволяет авторизоваться на сервере Loginom через LDAP сервер.
+Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server.
 
-> **Примечание:** В качестве LDAP сервера может использоваться как Active Directory, так и OpenLDAP.
+> **Note:** Both Active Directory and OpenLDAP can be used as the LDAP server.
 
 ## Configure
 
-Настройки подключения к LDAP серверу рассмотрены в подразделе [Параметры](./parameters.md#parametry-ldap) раздела Администрирования, изменение способа *Аутентификации* пользователя рассмотрено в подразделе [Пользователи](./users.md).
+Settings of connection to the LDAP server are analyzed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analyzed in [Users](./users.md) subsection.
 
-## Аутентификация
+## Authentification
 
-Для *Аутентификации* используется введенное на стартовой странице Loginom имя и пароль пользователя:
+The user name and password entered on the Loginom home page are used for *Authentification*:
 
-1. По указанному имени производится поиск существующего пользователя на Loginom сервере;
-2. Если пользователь найден и у него установлен способ аутентификации "LDAP" или же пользователь не найден, то проводится попытка *Аутентификации* через LDAP сервер.
+1. The current user is searched for by the specified name on the Loginom server.
+2. If the user has been found, and the "LDAP" authentification method has been set for him, or no user has been found, *Authentification* attempt is made using the LDAP server.
 
-> **Примечания:**
+> **Notes:**
 >
-> * При этом не могут быть использованы пустое имя пользователя или пустой пароль, так как такой пользователь должен получать анонимный доступ (в этом случае сразу выдается ошибка "Неверное имя пользователя или пароль");
-> * Форматы DN, UPN или domain\user не поддерживаются и приведут к появлению ошибки "Неверное имя пользователя или пароль".
+> * In this case, it is not allowed to use the empty username or empty password as such user must get the anonymous access (otherwise, the following error is shown at once: "Invalid username or password").
+> * DN, UPN or domain\user formats are not supported and will cause the following error: "Invalid username or password".
 
-Проверка *Аутентификации* пользователя проходит в два этапа:
+*Authentification* of the user is checked in two steps:
 
 1. Поиск учетной записи по введенному имени в каталоге Базовый домен (и его подкаталогах) соответствующего Фильтру LDAP;
    * Как правило, здесь происходит проверка того, что найденная запись является записью пользователя и является членом заданной группы.
