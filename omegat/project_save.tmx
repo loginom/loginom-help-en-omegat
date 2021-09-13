@@ -40915,6 +40915,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поиск учетной записи по введенному имени в каталоге Базовый домен (и его подкаталогах) соответствующего Фильтру LDAP;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T075148Z" creationid="Марианна" creationdate="20210913T075148Z">
+        <seg>Search for the account by the entered name in the Base Domain directory (and its subdirectories) matching the LDAP Filter. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пока что настройка процессов, задание измерений, атрибутов и фактов может осуществляться с помощью редактора метаданных, встроенного в Deductor Studio.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T085721Z" creationid="Марианна" creationdate="20210831T085721Z">
