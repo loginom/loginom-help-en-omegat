@@ -46945,6 +46945,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также можно попробовать авторизоваться автоматически, для этого на стартовой странице Loginom ввести имя пользователя и пароль учетной записи, которая имеется на LDAP сервере и если авторизация прошла успешно, то подключение из Loginom к LDAP серверу настроено правильно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T093542Z" creationid="Марианна" creationdate="20210913T093542Z">
+        <seg>Automatic authorization is also possible. For this purpose, it is required to enter the username and pasword of the account available on the LDAP server on the Loinom home page. If the authorization is successful, connection to the LDAP server from Loginom has been correctly set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также можно установить минимальное число значений поля, из которых будут созданы колонки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T063955Z" creationid="Марианна" creationdate="20201023T063955Z">
