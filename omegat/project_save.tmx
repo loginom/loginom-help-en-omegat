@@ -8470,6 +8470,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt; Администрирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T094016Z" creationid="Марианна" creationdate="20210913T094016Z">
+        <seg>&lt;x1/&gt;Administration&lt;x2/&gt; Administration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T085428Z" creationid="Марианна" creationdate="20200814T120757Z">
@@ -49509,6 +49517,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T084043Z" creationid="Марианна" creationdate="20201222T084043Z">
         <seg>This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот раздел в интерфейсе программы нужен для управления &lt;x1/&gt;пользователями&lt;x2/&gt;, &lt;x3/&gt;рабочими папками&lt;x4/&gt; и &lt;x5/&gt;параметрами&lt;x6/&gt; работы сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T094317Z" creationid="Марианна" creationdate="20210913T094317Z">
+        <seg>This section is required in the application interface to control &lt;x1/&gt;users&lt;x2/&gt;, &lt;x3/&gt;work folders&lt;x4/&gt; and &lt;x5/&gt;parameters&lt;x6/&gt; of the server operation.</seg>
       </tuv>
     </tu>
     <tu>
