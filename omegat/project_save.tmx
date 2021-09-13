@@ -41811,6 +41811,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После установки системы в обязательном порядке необходимо заменить пароль этого пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112101Z" creationid="Марианна" creationdate="20210913T112101Z">
+        <seg>It is obligatory to change the password of this user after the system setup.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После установления связи кнопка перестает быть активной, а название меняется на &lt;x3/&gt;Активировано&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T194118Z" creationid="Марианна" creationdate="20200827T194118Z">
