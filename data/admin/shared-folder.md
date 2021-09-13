@@ -1,13 +1,13 @@
 # ![Shared Folders](../images/icons/admin-system-objects/sharedfolders_default.svg) Shared Folders
 
-Этот подраздел администрирования используется для управления общими папками и правами доступа к ним. В верхней части раздела имеется четыре кнопки:
+This administration subsection is used to control the shared folders and rights of access to them. There are four buttons in the upper part of the section:
 
-* ![Добавить](../images/icons/toolbar-controls/plus_default.svg) **Добавить** — добавить новую папку;
-* ![Редактировать](../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — редактировать выделенную папку;
-* ![Удалить](../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удалить выделенную папку;
-* ![Обновить](../images/icons/toolbar-controls/refresh_default.svg) **Обновить** — обновить список папок.
+* ![Add](../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add the new folder.
+* ![Edit](../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to edit the selected folder.
+* ![Delete](../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected folder.
+* ![Update](../images/icons/toolbar-controls/refresh_default.svg) **Update** enables to update the folder list.
 
-%spoiler%Горячие клавиши%spoiler%
+%spoiler%Hotkeys%spoiler%
 
 * **Up** — перейти на строку выше;
 * **Down** — перейти на строку ниже;
