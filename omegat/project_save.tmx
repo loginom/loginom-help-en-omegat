@@ -31479,6 +31479,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметры подключения к LDAP серверу настроены неправильно, то будет сообщение об ошибке с указанием имени добавляемого пользователя, иначе будет информационное сообщение, что пользователь добавлен:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T093248Z" creationid="Марианна" creationdate="20210913T093248Z">
+        <seg>If the LDAP server connection parameters are incorrectly set, the error message with the name of the added user will appear. Otherwise, the information message will notify that the user has been added:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если переменная будет содержать значение: &lt;x9/&gt;Номенклатура.Артикул = "4561"&lt;x10/&gt;, то результирующий запрос будет иметь вид:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
