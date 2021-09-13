@@ -22,29 +22,29 @@ The user name and password entered on the Loginom home page are used for *Authen
 
 *Authentification* of the user is checked in two steps:
 
-1. Поиск учетной записи по введенному имени в каталоге Базовый домен (и его подкаталогах) соответствующего Фильтру LDAP;
-   * Как правило, здесь происходит проверка того, что найденная запись является записью пользователя и является членом заданной группы.
-2. *Аутентификация* этого пользователя с полным доменным именем (DN) из найденной учетной записи и введенным паролем.
-   * В случае использования SASL аутентификации, для логина используется введенное имя пользователя, а не полное доменное имя.
+1. Search for the account by the entered name in the Base Domain directory (and its subdirectories) matching the LDAP Filter. 
+   * As a rule, it is checked here that the detected record is the user record, and it is a member of the set group.
+2. *Authentification* of this user with full domain name (DN) from the detected account and entered password.
+   * If the SASL authentification is used, the entered username is used as login but not the full domain name.
 
-### Автоматическое добавление пользователя
+### Auto Adding of User
 
-В случае успешной *Аутентификации* пользователя через LDAP и отсутствия данного пользователя в списке пользователей Loginom сервера, он создается автоматически.
+If the user *Authentification* by means of LDAP is successful, and this user is not included into the list of the Loginom server users, it is automatically created.
 
-В качестве имени берется введенное имя пользователя, выставляется способ аутентификации "LDAP", не включена ни одна роль (администратора, разработчика, просмотра отчетов, запуска в режиме службы).
+The entered username is used as a name, the "LDAP" authentification method is set, no roles are defined (administrator, developer, reports view, start in the service mode).
 
-### Способы проверки правильности настройки параметров подключения к LDAP серверу
+### Methods used to check configuration correctness of the LDAP server connection parameters
 
-Для проверки подключения к LDAP серверу можно:
+To check connection to the LDAP server, it is possible to perform the following actions:
 
-Если пользователя нет в Loginom:
+If the user is not included in Loginom:
 
-* Создать пользователя со способом Аутентификации LDAP. Если параметры подключения к LDAP серверу настроены неправильно, то будет сообщение об ошибке с указанием имени добавляемого пользователя, иначе будет информационное сообщение, что пользователь добавлен:
+* Create user by means of the LDAP Authentification method. If the LDAP server connection parameters are incorrectly set, the error message with the name of the added user will appear. Otherwise, the information message will notify that the user has been added:
 
-![Ошибка добавления LDAP пользователя в Loginom.](./ldap-checkup-1.png)
+![Error adding LDAP user to Loginom.](./ldap-checkup-1.png)
 
-* Также можно попробовать авторизоваться автоматически, для этого на стартовой странице Loginom ввести имя пользователя и пароль учетной записи, которая имеется на LDAP сервере и если авторизация прошла успешно, то подключение из Loginom к LDAP серверу настроено правильно.
+* The automatic authorization is also possible. For this purpose, it is required to enter the username and password of the account available on the LDAP server on the Loginom home page. If the authorization is successful, connection to the LDAP server from Loginom has been correctly set.
 
-Если пользователь уже есть в Loginom:
+If the user has already been included into Loginom:
 
-* На стартовой странице Loginom ввести имя пользователя и пароль учетной записи, которая имеется на LDAP сервере и если авторизация прошла успешно, то подключение из Loginom к LDAP серверу настроено правильно.
+* It is required to enter the username and password of the account available on the LDAP server on the Loginom home page. If the authorization is successful, connection to the LDAP server from Loginom has been correctly set.
