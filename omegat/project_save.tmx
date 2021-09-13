@@ -10433,6 +10433,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавить новую папку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112413Z" creationid="Марианна" creationdate="20210913T112413Z">
+        <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — позволяет добавить в список новую строку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205048Z" creationid="Марианна" creationdate="20200829T205048Z">
@@ -16814,6 +16822,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T205130Z" creationid="Марианна" creationdate="20200829T205130Z">
         <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to edit the row added to the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — редактировать выделенную папку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112441Z" creationid="Марианна" creationdate="20210913T112441Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt; enables to edit the selected folder.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24943,6 +24959,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T112917Z" creationid="Марианна" creationdate="20201113T112917Z">
         <seg>&lt;x1/&gt;Login status&lt;x2/&gt; is located in the upper part of the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В верхней части раздела имеется четыре кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112338Z" creationid="Марианна" creationdate="20210913T112338Z">
+        <seg>There are four buttons in the upper part of the section:</seg>
       </tuv>
     </tu>
     <tu>
@@ -44711,6 +44735,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Роли пользователей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112146Z" creationid="Марианна" creationdate="20210913T112146Z">
+        <seg>User Roles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ростовская обл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212316Z" creationid="Марианна" creationdate="20201012T212121Z">
@@ -49541,6 +49573,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T084625Z" creationid="Марианна" creationdate="20201222T084625Z">
         <seg>This parameter is disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот подраздел администрирования используется для управления общими папками и правами доступа к ним.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112301Z" creationid="Марианна" creationdate="20210913T112301Z">
+        <seg>This administration subsection is used to control the shared folders and rights of access to them.</seg>
       </tuv>
     </tu>
     <tu>
