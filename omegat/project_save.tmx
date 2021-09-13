@@ -42931,6 +42931,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом не могут быть использованы пустое имя пользователя или пустой пароль, так как такой пользователь должен получать анонимный доступ (в этом случае сразу выдается ошибка "Неверное имя пользователя или пароль");</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T074025Z" creationid="Марианна" creationdate="20210913T074025Z">
+        <seg>In this case, it is not allowed to use the empty user name or empty password as the user must get the anonymous access (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом параметр «Количество рестартов» игнорируется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053425Z" creationid="Марианна" creationdate="20201222T053425Z">
