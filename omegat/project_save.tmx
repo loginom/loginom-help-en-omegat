@@ -24171,6 +24171,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическое добавление пользователя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T075320Z" creationid="Марианна" creationdate="20210913T075320Z">
+        <seg>Auto Adding of User</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоопределение числа кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205845Z" creationid="Марианна" creationdate="20201212T205845Z">
@@ -31427,6 +31435,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T073653Z" creationid="Марианна" creationdate="20210913T073653Z">
         <seg>If the user has been found, and the "LDAP" authentification method has been set for him, or no user has been found, &lt;x1/&gt;Authentification&lt;x2/&gt; attempt is made using the LDAP server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если пользователь уже есть в Loginom:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T081036Z" creationid="Марианна" creationdate="20210913T081036Z">
+        <seg>If the user is already in Loginom:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если пользователя нет в Loginom:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T075407Z" creationid="Марианна" creationdate="20210913T075407Z">
+        <seg>If there is no user in Loginom:</seg>
       </tuv>
     </tu>
     <tu>
