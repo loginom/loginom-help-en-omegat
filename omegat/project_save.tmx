@@ -9297,6 +9297,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Внимание:&lt;x2/&gt; по умолчанию в системе задан пользователь admin с правами &lt;x3/&gt;Администратор&lt;x4/&gt; и паролем: admin.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T111936Z" creationid="Марианна" creationdate="20210913T111936Z">
+        <seg>&lt;x1/&gt;Attention:&lt;x2/&gt; admin user with the &lt;x3/&gt;Administrator&lt;x4/&gt; rights and a password (admin) is set in the system by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Внутреннее соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192622Z" creationid="Марианна" creationdate="20200810T192622Z">
