@@ -25563,6 +25563,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В отличии от серверных вариантов поставки (Team, Standard, Enterprise) настольные версии (Community, Personal) имеют всего один пункт в разделе, это &lt;x7/&gt;Параметры&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T094734Z" creationid="Марианна" creationdate="20210913T094734Z">
+        <seg>As opposed to the server options of editions (Team, Standard, Enterprise), the desktop editions (Community, Personal) include only one section option - &lt;x7/&gt;Parameters&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В отличии от таблицы, принимаемой портом "Входной источник данных", элементы транзакций вспомогательных данных должны располагаться в строках, а не в столбцах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T192945Z" creationid="Марианна" creationdate="20201208T192945Z">
