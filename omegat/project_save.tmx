@@ -31423,6 +31423,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если пользователь найден и у него установлен способ аутентификации "LDAP" или же пользователь не найден, то проводится попытка &lt;x1/&gt;Аутентификации&lt;x2/&gt; через LDAP сервер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T073653Z" creationid="Марианна" creationdate="20210913T073653Z">
+        <seg>If the user has been found, and the "LDAP" authentification method has been set for him, or no user has been found, &lt;x1/&gt;Authentification&lt;x2/&gt; attempt is made using the LDAP server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если последовательность обнаружена, то значение заменяется на новое.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T145311Z" creationid="Марианна" creationdate="20201117T094321Z">
@@ -40279,6 +40287,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052722Z" creationid="Марианна" creationdate="20200819T131816Z">
         <seg>Align middle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По указанному имени производится поиск существующего пользователя на Loginom сервере;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210912T171124Z" creationid="Марианна" creationdate="20210912T171124Z">
+        <seg>The current user is searched for by the specified name on the Loginom server.</seg>
       </tuv>
     </tu>
     <tu>
