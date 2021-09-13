@@ -8582,6 +8582,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Аутентификация&lt;x2/&gt; этого пользователя с полным доменным именем (DN) из найденной учетной записи и введенным паролем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T083906Z" creationid="Марианна" creationdate="20210913T083906Z">
+        <seg>&lt;x1/&gt;Authentification&lt;x2/&gt; of this user with full domain name (DN) from the detected account and entered password.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;База данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T184604Z" creationid="Марианна" creationdate="20200810T184604Z">
@@ -20522,6 +20530,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>LDAP</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T083908Z" creationid="Марианна" creationdate="20210913T083908Z">
+        <seg>LDAP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132518Z" creationid="Марианна" creationdate="20200826T062507Z">
@@ -25905,6 +25921,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T140203Z" creationid="Марианна" creationdate="20210218T135128Z">
         <seg>If the settings of the input/output ports are changed (for example, the number or names of fields/variables) of the node that has been published earlier, it is required to update publication of the package which includes this node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В случае использования SASL аутентификации, для логина используется введенное имя пользователя, а не полное доменное имя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T083743Z" creationid="Марианна" creationdate="20210913T083743Z">
+        <seg>If the SASL authentification is used, the entered username is used as login but not the full domain name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33955,6 +33979,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210216T164546Z" creationid="Марианна" creationdate="20210216T164546Z">
         <seg>As a rule, the method receives the input data and returns the response (but not necessarily).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Как правило, здесь происходит проверка того, что найденная запись является записью пользователя и является членом заданной группы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T084327Z" creationid="Марианна" creationdate="20210913T084327Z">
+        <seg>As a rule, it is checked here that the detected record is the user record, and it is a member of the set group.</seg>
       </tuv>
     </tu>
     <tu>
