@@ -25957,6 +25957,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае успешной &lt;x1/&gt;Аутентификации&lt;x2/&gt; пользователя через LDAP и отсутствия данного пользователя в списке пользователей Loginom сервера, он создается автоматически.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T085354Z" creationid="Марианна" creationdate="20210913T085354Z">
+        <seg>If the user &lt;x1/&gt;Authentification&lt;x2/&gt; by means of LDAP is successful, and there is no this user in the list of Loginom server users, it is automatically created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, если используется многопользовательский доступ к БД, рекомендуется использовать сервер Firebird для избежания блокировок доступа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T085612Z" creationid="Марианна" creationdate="20210121T085612Z">
