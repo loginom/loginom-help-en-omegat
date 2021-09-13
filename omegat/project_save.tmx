@@ -30223,6 +30223,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для проверки подключения к LDAP серверу можно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T084432Z" creationid="Марианна" creationdate="20210913T084432Z">
+        <seg>To check connection to the LDAP server, it is possible to perform the following actions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для прочих полей оставить "Не задано".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133111Z" creationid="Марианна" creationdate="20201210T082739Z">
@@ -45569,8 +45577,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Создать пользователя со способом Аутентификации LDAP.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210913T083621Z" creationid="Марианна" creationdate="20210913T083621Z">
-        <seg>Create user using the LDAP Authentification method.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T084443Z" creationid="Марианна" creationdate="20210913T083621Z">
+        <seg>Create user by means of the LDAP Authentification method.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45867,6 +45875,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142531Z" creationid="Марианна" creationdate="20201117T084431Z">
         <seg>Replacement Methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Способы проверки правильности настройки параметров подключения к LDAP серверу</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T084805Z" creationid="Марианна" creationdate="20210913T084805Z">
+        <seg>Methods used to check configuration correctness of the LDAP server connection parameters</seg>
       </tuv>
     </tu>
     <tu>
