@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Горячие клавиши%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112623Z" creationid="Марианна" creationdate="20210913T112623Z">
+        <seg>%spoiler%Hotkeys%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример заполнения:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165201Z" creationid="Марианна" creationdate="20200916T165201Z">
@@ -13613,6 +13621,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить&lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — обновить список папок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112608Z" creationid="Марианна" creationdate="20210913T112608Z">
+        <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt; enables to update the folder list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обнуление заголовка&lt;x2/&gt; (PERSIST).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204307Z" creationid="Марианна" creationdate="20210203T204307Z">
@@ -18414,6 +18430,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202324Z" creationid="Марианна" creationdate="20200829T202324Z">
         <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to move the required parameter back to the &lt;x5/&gt;Available items&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удалить выделенную папку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T112509Z" creationid="Марианна" creationdate="20210913T112509Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the selected folder.</seg>
       </tuv>
     </tu>
     <tu>
