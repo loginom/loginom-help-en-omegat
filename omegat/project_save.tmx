@@ -43543,6 +43543,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проверка &lt;x1/&gt;Аутентификации&lt;x2/&gt; пользователя проходит в два этапа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T074413Z" creationid="Марианна" creationdate="20210913T074413Z">
+        <seg>&lt;x1/&gt;Authentification&lt;x2/&gt; of the user is checked in two steps:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проверка по внешним ключам включена по умолчанию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T135700Z" creationid="Марианна" creationdate="20210210T135700Z">
