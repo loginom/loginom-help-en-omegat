@@ -1,6 +1,6 @@
-# ![Администрирование](../images/icons/admin-system-objects/admin_default.svg) Администрирование
+# ![Administration](../images/icons/admin-system-objects/admin_default.svg) Administration
 
-Этот раздел в интерфейсе программы нужен для управления [пользователями](./users.md), [рабочими папками](./shared-folder.md) и [параметрами](./parameters.md) работы сервера. В отличии от серверных вариантов поставки (Team, Standard, Enterprise) настольные версии (Community, Personal) имеют всего один пункт в разделе, это *Параметры*.
+This section is required in the application interface to control [users](./users.md), [work folders](./shared-folder.md) and [parameters](./parameters.md) of the server operation. As opposed to the server options of editions (Team, Standard, Enterprise), the desktop editions (Community, Personal) include only one section option - *Parameters*.
 
 В серверных версиях доступ в раздел имеют только пользователи с ролью *Администратор*.
 
