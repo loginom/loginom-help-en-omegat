@@ -25933,6 +25933,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В серверных версиях доступ в раздел имеют только пользователи с ролью &lt;x1/&gt;Администратор&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210913T111528Z" creationid="Марианна" creationdate="20210913T111528Z">
+        <seg>В серверных версиях доступ в раздел имеют только пользователи с ролью &lt;x1/&gt;Administrator&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае выбора &lt;x1/&gt;Не заменять&lt;x2/&gt;, к значениям не попавшим в &lt;x3/&gt;Таблицу замен&lt;x4/&gt; не применяется дополнительная обработка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140859Z" creationid="Марианна" creationdate="20201116T140859Z">
