@@ -6526,6 +6526,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Alt + F5&lt;x2/&gt; — обновить список пользователей и их параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T152052Z" creationid="Марианна" creationdate="20210919T152052Z">
+        <seg>&lt;x1/&gt;Alt + F5&lt;x2/&gt;: update the list of users and their parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
@@ -6846,6 +6854,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; — удалить пользователя из системы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T151911Z" creationid="Марианна" creationdate="20210919T151911Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt;: delete user from the system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;DisplayName(&lt;x2/&gt;"Имя"&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122718Z" creationid="Марианна" creationdate="20210406T122718Z">
@@ -6946,6 +6962,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T142822Z" creationid="Марианна" creationdate="20210919T142822Z">
         <seg>&lt;x1/&gt;F2&lt;x2/&gt;: edit folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;F2&lt;x2/&gt; — редактировать пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T151807Z" creationid="Марианна" creationdate="20210919T151807Z">
+        <seg>&lt;x1/&gt;F2&lt;x2/&gt;: edit user.</seg>
       </tuv>
     </tu>
     <tu>
