@@ -27925,6 +27925,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все параметры пользователей, за исключением параметра &lt;x13/&gt;Пароль&lt;x14/&gt;, отображаются в таблице подраздела.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T153142Z" creationid="Марианна" creationdate="20210919T153142Z">
+        <seg>All user parameters are displayed in the subsection table, with the exception of &lt;x13/&gt;Password&lt;x14/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все перечисленные команды доступны и в контекстном меню (правая кнопка мыши).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T082946Z" creationid="Марианна" creationdate="20210628T082946Z">
