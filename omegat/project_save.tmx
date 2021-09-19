@@ -44419,6 +44419,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Раздел представляет из себя таблицу, с кнопками управления над ней:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T174015Z" creationid="Марианна" creationdate="20210919T174015Z">
+        <seg>The section is a table with control buttons:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Разделителем может быть Двоеточие (:) или Точка (.).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T105110Z" creationid="Марианна" creationdate="20200917T152432Z">
