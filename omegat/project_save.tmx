@@ -33732,8 +33732,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Использование LDAP аутентификации позволяет авторизоваться на сервере Loginom через LDAP сервер, если способ &lt;x1/&gt;Аутентификации&lt;x2/&gt; "Локальная", то &lt;x3/&gt;Аутентификация&lt;x4/&gt; происходит средствами Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210919T181454Z" creationid="Марианна" creationdate="20210919T181454Z">
-        <seg>Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server if the &lt;x1/&gt;Authentification&lt;x2/&gt; method is "Local", &lt;x3/&gt;Authentification&lt;x4/&gt; is performed bymeans of  the Loginom tools.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T181551Z" creationid="Марианна" creationdate="20210919T181454Z">
+        <seg>Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server. If the &lt;x1/&gt;Authentification&lt;x2/&gt; method is "Local", &lt;x3/&gt;Authentification&lt;x4/&gt; is performed by means of  the Loginom tools.</seg>
       </tuv>
     </tu>
     <tu>
