@@ -7070,6 +7070,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Insert&lt;x2/&gt; — добавить нового пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T151734Z" creationid="Марианна" creationdate="20210919T151734Z">
+        <seg>&lt;x1/&gt;Insert&lt;x2/&gt;: insert a new user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Insert&lt;x2/&gt; — добавить новую папку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T142713Z" creationid="Марианна" creationdate="20210919T142327Z">
