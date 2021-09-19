@@ -6518,6 +6518,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Alt + F5&lt;x2/&gt; — обновить список папок и их параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142929Z" creationid="Марианна" creationdate="20210919T142929Z">
+        <seg>&lt;x1/&gt;Alt + F5&lt;x2/&gt; enables to update the list of folders and their parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Append()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T105951Z" creationid="Марианна" creationdate="20201105T105951Z">
@@ -6830,6 +6838,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; — удалить папку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142832Z" creationid="Марианна" creationdate="20210919T142832Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt;: delete folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;DisplayName(&lt;x2/&gt;"Имя"&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122718Z" creationid="Марианна" creationdate="20210406T122718Z">
@@ -6922,6 +6938,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114913Z" creationid="Марианна" creationdate="20201214T114913Z">
         <seg>&lt;x1/&gt;F-test&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;F2&lt;x2/&gt; — редактировать папку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142822Z" creationid="Марианна" creationdate="20210919T142822Z">
+        <seg>&lt;x1/&gt;F2&lt;x2/&gt;: edit folder.</seg>
       </tuv>
     </tu>
     <tu>
