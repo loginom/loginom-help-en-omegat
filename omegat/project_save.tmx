@@ -10521,6 +10521,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавить нового пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T174052Z" creationid="Марианна" creationdate="20210919T174052Z">
+        <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add a new user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавить новую папку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T142454Z" creationid="Марианна" creationdate="20210913T112413Z">
@@ -13713,6 +13721,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T112608Z" creationid="Марианна" creationdate="20210913T112608Z">
         <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt; enables to update the folder list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить&lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — обновить список пользователей и их параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T174232Z" creationid="Марианна" creationdate="20210919T174232Z">
+        <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt;: update the list of users and their parameters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16986,6 +17002,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; &lt;x3/&gt;Редактировать&lt;x4/&gt; — редактировать пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T174125Z" creationid="Марианна" creationdate="20210919T174125Z">
+        <seg>&lt;x1/&gt;Edit&lt;x2/&gt; &lt;x3/&gt;Edit&lt;x4/&gt;: edit user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Редактировать&lt;x2/&gt; — для выделенных полей открывает окно выбора доступных вариантов агрегации;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083718Z" creationid="Марианна" creationdate="20201006T083607Z">
@@ -18574,6 +18598,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T112509Z" creationid="Марианна" creationdate="20210913T112509Z">
         <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the selected folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удалить пользователя из системы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T174153Z" creationid="Марианна" creationdate="20210919T174153Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt;: delete user from the system.</seg>
       </tuv>
     </tu>
     <tu>
