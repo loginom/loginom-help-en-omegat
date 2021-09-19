@@ -32446,6 +32446,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Запрещено менять способ &lt;x1/&gt;Аутентификации&lt;x2/&gt; самому себе, так как в этом случае пользователь может стать недоступным, а он мог быть единственным администратором.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T181212Z" creationid="Марианна" creationdate="20210919T181212Z">
+        <seg>It is forbidden to change the &lt;x1/&gt;Authentification&lt;x2/&gt; method for oneself. In this case, a user can become unavailable, whereas he can be the only administrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запятая;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T062850Z" creationid="Марианна" creationdate="20200917T162018Z">
