@@ -24103,6 +24103,18 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Параметр|Описание|
+|:-|:-|
+|Логин|Имя пользователя используемое для входа в систему.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T153430Z" creationid="Марианна" creationdate="20210919T153218Z">
+        <seg>|Parameter|Description|
+|:-|:-|
+|Login|Username used for login.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Точка продажи|Дата|Сумма продажи|
 |:-|:-|-:|
 |Павильон|11.04.2012|320|
