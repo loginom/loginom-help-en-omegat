@@ -16482,6 +16482,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Путь&lt;x2/&gt; — здесь отображается как будет выглядеть путь к папке относительно корня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T144651Z" creationid="Марианна" creationdate="20210919T144651Z">
+        <seg>&lt;x1/&gt;Path&lt;x2/&gt;: it is displayed here how the path to the folder relative to the root will look like.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Путь&lt;x2/&gt; — путь до открытого &lt;x3/&gt;Пакета&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132854Z" creationid="Марианна" creationdate="20200816T133207Z">
