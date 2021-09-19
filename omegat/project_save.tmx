@@ -42779,6 +42779,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нажатии на кнопку &lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt;/&lt;x5/&gt;Редактировать&lt;x6/&gt;&lt;x7/&gt;Редактировать&lt;x8/&gt; появляется окно &lt;x9/&gt;Новый пользователь&lt;x10/&gt;/&lt;x11/&gt;Редактирование пользователя&lt;x12/&gt;, в этом окне настраиваются параметры пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T152433Z" creationid="Марианна" creationdate="20210919T152433Z">
+        <seg>When pressing &lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;/&lt;x5/&gt;Edit&lt;x6/&gt;&lt;x7/&gt;Edit&lt;x8/&gt; button, &lt;x9/&gt;New user&lt;x10/&gt;/&lt;x11/&gt;Edit user&lt;x12/&gt; window appears. User parameters are configured in this window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на название процесса в Сценарии будет найден и выделен узел, который отвечает за его выполнение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063446Z" creationid="Марианна" creationdate="20200817T063446Z">
