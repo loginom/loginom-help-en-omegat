@@ -15821,6 +15821,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Если нужно переименовать папку, то создается новая папка куда копируется содержимое старой, затем старая папка удаляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T151124Z" creationid="Марианна" creationdate="20210919T151124Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Если нужно переименовать папку, то создается новая папка куда копируется содержимое старой, затем старая папка удаляется.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Замена по точному совпадению имеет приоритет перед заменой по регулярному выражению.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092225Z" creationid="Марианна" creationdate="20201117T092133Z">
