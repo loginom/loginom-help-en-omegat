@@ -7048,8 +7048,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Insert&lt;x2/&gt; — добавить новую папку;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210919T142327Z" creationid="Марианна" creationdate="20210919T142327Z">
-        <seg>&lt;x1/&gt;Insert&lt;x2/&gt;: add the new folder.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142713Z" creationid="Марианна" creationdate="20210919T142327Z">
+        <seg>&lt;x1/&gt;Insert&lt;x2/&gt;: insert a new folder.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10419,8 +10419,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить ветвь&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавить новую ветвь условия;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200924T073844Z" creationid="Марианна" creationdate="20200924T073844Z">
-        <seg>&lt;x1/&gt;Add branch&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new condition branch.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142442Z" creationid="Марианна" creationdate="20200924T073844Z">
+        <seg>&lt;x1/&gt;Add branch&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add a new condition branch.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10467,8 +10467,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавить новую папку;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210913T112413Z" creationid="Марианна" creationdate="20210913T112413Z">
-        <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new folder.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142454Z" creationid="Марианна" creationdate="20210913T112413Z">
+        <seg>&lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add a new folder.</seg>
       </tuv>
     </tu>
     <tu>
