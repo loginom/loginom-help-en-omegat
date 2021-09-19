@@ -15485,6 +15485,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Права доступа&lt;x2/&gt; — таблица со списком пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T144848Z" creationid="Марианна" creationdate="20210919T144848Z">
+        <seg>&lt;x1/&gt;Access rights&lt;x2/&gt;: table with a list of users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Правое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192647Z" creationid="Марианна" creationdate="20200810T192647Z">
