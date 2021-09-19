@@ -15957,6 +15957,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При удалении пользователя есть возможность сохранить его папку со всем ее содержимым, в таком случае просматривать ее содержимое смогут пользователи у которых включен параметр &lt;x3/&gt;Полный доступ к файловому хранилищу&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T180927Z" creationid="Марианна" creationdate="20210919T180927Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When deleting a user, it is possible to save his folder with its contents.In this case, the users with the enabled &lt;x3/&gt;File storage full access&lt;x4/&gt; parameter can view its contents.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Проверка совместимости с версией 8.0 не проводилась.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T112549Z" creationid="Марианна" creationdate="20210202T111052Z">
