@@ -19058,6 +19058,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Чекбокс&lt;x2/&gt; — поле указывает наличие прав у пользователя на использование папки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T145323Z" creationid="Марианна" creationdate="20210919T145323Z">
+        <seg>&lt;x1/&gt;Checkbox&lt;x2/&gt;: it is displayed in the field whether a user has rights to use a folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Число степеней свободы модели&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T205950Z" creationid="Марианна" creationdate="20201216T205950Z">
