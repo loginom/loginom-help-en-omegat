@@ -15309,6 +15309,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пользователи&lt;x2/&gt; Пользователи</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T173447Z" creationid="Марианна" creationdate="20210919T173447Z">
+        <seg>&lt;x1/&gt;Users&lt;x2/&gt; Users</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пользователь&lt;x2/&gt; — в этом столбце отображаются все зарегистрированные пользователи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T145842Z" creationid="Марианна" creationdate="20210919T145842Z">
@@ -26439,6 +26447,14 @@ return pow(COL1, COL2);</seg>
       <tuv lang="en" changeid="Марианна" changedate="20210701T142013Z" creationid="Марианна" creationdate="20210701T142013Z">
         <seg>The binning results that can be edited are displayed in this area.&lt;x1/&gt;
 Several control elements are located over the table fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом подразделе происходит создание пользователей, их редактирование, распределение прав, выбор способа их аутентификации и удаление.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T173736Z" creationid="Марианна" creationdate="20210919T173736Z">
+        <seg>This subsection enables to create users, edit them, distribute rights, select their authentification method and delete them.</seg>
       </tuv>
     </tu>
     <tu>
