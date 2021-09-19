@@ -15269,6 +15269,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пользователь&lt;x2/&gt; — в этом столбце отображаются все зарегистрированные пользователи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T145842Z" creationid="Марианна" creationdate="20210919T145842Z">
+        <seg>&lt;x1/&gt;User&lt;x2/&gt;: all registered users are displayed in this columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пользовательский формат дата/время&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185804Z" creationid="Марианна" creationdate="20200810T185804Z">
@@ -41255,6 +41263,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T194715Z" creationid="Марианна" creationdate="20201215T194715Z">
         <seg>Output data field|Prediction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле имеет также возможность ввода фильтра для поиска определенного пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T150131Z" creationid="Марианна" creationdate="20210919T150131Z">
+        <seg>It is also possible to include the filter for search for a particular user into this field.</seg>
       </tuv>
     </tu>
     <tu>
