@@ -15823,8 +15823,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Если нужно переименовать папку, то создается новая папка куда копируется содержимое старой, затем старая папка удаляется.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210919T151124Z" creationid="Марианна" creationdate="20210919T151124Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Если нужно переименовать папку, то создается новая папка куда копируется содержимое старой, затем старая папка удаляется.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T151355Z" creationid="Марианна" creationdate="20210919T151124Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; If it is required to rename a folder, the new folder is created where the contents of the old one is copied. Then the old folder is deleted.</seg>
       </tuv>
     </tu>
     <tu>
