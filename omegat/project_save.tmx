@@ -8030,6 +8030,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Up&lt;x2/&gt; — перейти на строку выше;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142055Z" creationid="Марианна" creationdate="20210919T142055Z">
+        <seg>&lt;x1/&gt;Up&lt;x2/&gt;: go up to row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Upper(Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T100412Z" creationid="Марианна" creationdate="20210407T100412Z">
