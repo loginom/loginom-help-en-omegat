@@ -11273,6 +11273,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — в этом поле задается имя новой общей папки, в окне редактирования это поле не доступно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T144256Z" creationid="Марианна" creationdate="20210919T144256Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the name of the new shared folder is set in this field. This field is not available in the editing window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — вводится &lt;x3/&gt;имя поля&lt;x4/&gt; присваемое столбцу в выходном наборе данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T074448Z" creationid="Марианна" creationdate="20201015T074448Z">
@@ -45859,6 +45867,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T053926Z" creationid="Марианна" creationdate="20201109T053926Z">
         <seg>Composition and parameters of the output data set fields are set in the node wizard, and they can be changed during the code execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Состав окна &lt;x1/&gt;Добавить общую папку&lt;x2/&gt;/&lt;x3/&gt;Настройка общей папки&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T143929Z" creationid="Марианна" creationdate="20210919T143929Z">
+        <seg>Composition of &lt;x1/&gt;Add shared folder&lt;x2/&gt;/&lt;x3/&gt;Configure shared folder&lt;x4/&gt; window:</seg>
       </tuv>
     </tu>
     <tu>
