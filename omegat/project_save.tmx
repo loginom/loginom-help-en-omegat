@@ -6838,6 +6838,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Down&lt;x2/&gt; — перейти на строку ниже;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142134Z" creationid="Марианна" creationdate="20210919T142134Z">
+        <seg>&lt;x1/&gt;Down&lt;x2/&gt;: go down to row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;EM Кластеризация&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055628Z" creationid="Марианна" creationdate="20200812T055628Z">
@@ -7034,6 +7042,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143805Z" creationid="Марианна" creationdate="20201102T143805Z">
         <seg>&lt;x1/&gt;InputTables[N]&lt;x2/&gt; where N is a port number (index).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Insert&lt;x2/&gt; — добавить новую папку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T142327Z" creationid="Марианна" creationdate="20210919T142327Z">
+        <seg>&lt;x1/&gt;Insert&lt;x2/&gt;: add the new folder.</seg>
       </tuv>
     </tu>
     <tu>
