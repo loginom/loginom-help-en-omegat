@@ -34190,6 +34190,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как и поле &lt;x7/&gt;Пользователь&lt;x8/&gt; имеет возможность поиска через поле фильтра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T151113Z" creationid="Марианна" creationdate="20210919T151113Z">
+        <seg>It is also possible to search by the filter field as in the &lt;x7/&gt;User&lt;x8/&gt; field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как правило, (но не обязательно)
 метод принимает входные данные и возвращает ответ.</seg>
       </tuv>
