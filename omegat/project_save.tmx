@@ -31351,6 +31351,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в чекбоксе заголовка поля поставить флажок, то все пользователи будут выделены как имеющие права на доступ к папке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T145638Z" creationid="Марианна" creationdate="20210919T145638Z">
+        <seg>If a checkbox is selected in the field heading, all users will be selected as the ones with folder access rights.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если во входной набор добавился ещё 1 товар</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064701Z" creationid="Марианна" creationdate="20201023T064701Z">
