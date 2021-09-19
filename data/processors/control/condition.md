@@ -41,7 +41,7 @@ It enables to provide the presence of the required ports. It is possible to set 
 
 **Condition branch list** contains options of the further workflow execution.
 
-* ![Add branch](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add the new condition branch.
+* ![Add branch](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add a new condition branch.
 * ![Move branch down](../../images/icons/toolbar-controls/movedown_default.svg) **Move down**, ![Move branch up](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enable to prioritise the selected branch by its moving relative to other branches.
 * ![Delete branch](../../images/icons/toolbar-controls/delete_default.svg) enables to delete branch.
 * ![Delete all branches](../../images/icons/toolbar-controls/delete-all_default.svg) enables to delete all condition branches.
