@@ -42087,6 +42087,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Последнему локальному администратору нельзя изменять способ &lt;x1/&gt;Аутентификации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T153642Z" creationid="Марианна" creationdate="20210919T153642Z">
+        <seg>The last local administrator cannot change the &lt;x1/&gt;Authentification&lt;x2/&gt; method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последние два параметра можно не указывать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T093238Z" creationid="Марианна" creationdate="20210407T093238Z">
@@ -46199,6 +46207,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T144115Z" creationid="Марианна" creationdate="20210523T144115Z">
         <seg>Spline interpolation: detected null data is replaced with the intermediate values of the spline function received using the known values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Способы аутентификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T153517Z" creationid="Марианна" creationdate="20210919T153517Z">
+        <seg>Authentification Methods</seg>
       </tuv>
     </tu>
     <tu>
