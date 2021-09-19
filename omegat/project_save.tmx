@@ -15213,6 +15213,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Полное имя&lt;x2/&gt; — в этом столбце отображается полное имя пользователя, если оно задано в разделе &lt;x3/&gt;&lt;x4/&gt;Пользователи&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210919T150446Z" creationid="Марианна" creationdate="20210919T150446Z">
+        <seg>&lt;x1/&gt;Full name&lt;x2/&gt;: the full user name is displayed in this column if it is set in &lt;x3/&gt;&lt;x4/&gt;Users&lt;x5/&gt;&lt;x6/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Полное слияние&lt;x2/&gt; Полное соединение</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T180513Z" creationid="Марианна" creationdate="20201109T063448Z">
