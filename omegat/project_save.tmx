@@ -25207,6 +25207,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В верхней части раздела расположено две кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T171127Z" creationid="Марианна" creationdate="20210921T171127Z">
+        <seg>There are two buttons in the upper part of the section:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В виду ограничений БД ClickHouse:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120630Z" creationid="Марианна" creationdate="20210118T120630Z">
