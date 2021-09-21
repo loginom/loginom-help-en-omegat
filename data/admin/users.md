@@ -1,49 +1,49 @@
-# ![Пользователи](../images/icons/admin-system-objects/users_default.svg) Пользователи
+# ![Users](../images/icons/admin-system-objects/users_default.svg) Users
 
-В этом подразделе происходит создание пользователей, их редактирование, распределение прав, выбор способа их аутентификации и удаление. Раздел представляет из себя таблицу, с кнопками управления над ней:
+This subsection enables to create users, edit them, distribute rights, select their authentification method and delete them. The section is a table with control buttons:
 
-* ![Добавить](../images/icons/toolbar-controls/plus_default.svg) **Добавить** — добавить нового пользователя;
-* ![Редактировать](../images/icons/toolbar-controls/edit_default.svg) **Редактировать** — редактировать пользователя;
-* ![Удалить](../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удалить пользователя из системы;
-* ![Обновить](../images/icons/toolbar-controls/refresh_default.svg) **Обновить** — обновить список пользователей и их параметров.
+* ![Add](../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add a new user.
+* ![Edit](../images/icons/toolbar-controls/edit_default.svg) **Edit**: edit user.
+* ![Delete](../images/icons/toolbar-controls/delete_default.svg) **Delete**: delete user from the system.
+* ![Update](../images/icons/toolbar-controls/refresh_default.svg) **Update**: update the list of users and their parameters.
 
-> **Примечание:** При удалении пользователя есть возможность сохранить его папку со всем ее содержимым, в таком случае просматривать ее содержимое смогут пользователи у которых включен параметр *Полный доступ к файловому хранилищу*.
+> **Note:** When deleting a user, it is possible to save his folder with its contents.In this case, the users with the enabled *File storage full access* parameter can view its contents.
 
 %spoiler%Hotkeys%spoiler%
 
 * **Up**: go up to row.
 * **Down**: go down to row.
-* **Insert** — добавить нового пользователя;
-* **F2** — редактировать пользователя;
-* **Delete** — удалить пользователя из системы;
-* **Alt + F5** — обновить список пользователей и их параметров.
+* **Insert**: insert a new user.
+* **F2**: edit user.
+* **Delete**: delete user from the system.
+* **Alt + F5**: update the list of users and their parameters.
 
 %/spoiler%
 
-При нажатии на кнопку ![Добавить](../images/icons/toolbar-controls/plus_default.svg) *Добавить*/![Редактировать](../images/icons/toolbar-controls/edit_default.svg)*Редактировать* появляется окно *Новый пользователь*/*Редактирование пользователя*, в этом окне настраиваются параметры пользователя. Все параметры пользователей, за исключением параметра *Пароль*, отображаются в таблице подраздела.
+When pressing ![Add](../images/icons/toolbar-controls/plus_default.svg) *Add*/![Edit](../images/icons/toolbar-controls/edit_default.svg)*Edit* button, *New user*/*Edit user* window appears. User parameters are configured in this window. All user parameters are displayed in the subsection table, with the exception of *Password* parameter.
 
-|Параметр|Описание|
+|Parameter|Description|
 |:-|:-|
-|Логин|Имя пользователя используемое для входа в систему. После создания пользователя, его имя изменить нельзя.|
-|Полное имя|Полное имя пользователя, поле не обязательно к заполнению|
-|Аутентификация|Выбор [способа *Аутентификации*](./users.md#sposoby-autentifikatsii) пользователя: Локальная или [LDAP](./ldap.md)|
-|Пароль|Пароль пользователя используемый для входа в систему, в таблице раздела *Пользователи* данный столбец отсутствует|
-|Администрирование|Указывает является ли пользователем администратором, открывает доступ к разделу [*Администрирование*](./README.md) и его подразделам|
-|Проектирование сценариев|Указывает является ли пользователь аналитиком, открывает доступ к проектированию сценариев|
-|Просмотр отчетов|Открывает доступ к разделу [*Отчеты*](../report/README.md). Для аналитика данный раздел доступен по умолчанию|
-|Вход в интерактивном режиме|Отмечает разрешение на режим входа через браузер|
-|Вход в режиме службы|Отмечает разрешение на вход в режиме службы (для запуска сервера)|
-|Полный доступ к файловому хранилищу|Отображает наличие у пользователя полного доступа к [файловому хранилищу](../location_user_files.md), в ином случае только к личным и [общим папкам](../location_user_files.md)|
-|Заблокировать учётную запись|Отображает заблокирован ли пользователь в системе|
+|Login|Username used for login. Upon creation of the user, it is not possible to change his name.|
+|Full name|Full user name, it is not obligatory to fill in this field.|
+|Authentification|Selection of [method of *Authentification*](./users.md#sposoby-autentifikatsii) of user: Local or [LDAP](./ldap.md)|
+|Password|The user password used for login, this column is not available in the table of the *Users* section|
+|Administration|It displays whether the user is an administrator, makes [*Administration*](./README.md) section and its subsections accessible|
+|Workflows design|It displays whether the user is an analyst, makes workflows design accessible|
+|View reports|It makes [*Reports*](../report/README.md) section accessible. This section is accessible for an analyst by default|
+|Enter in the interactive mode|It checks whether it is permitted to use the enter mode via browser|
+|Enter in the service mode|It checks whether it is permitted to enter in the service mode (for the server start)|
+|File storage full access|It displays whether a user has full access to the [file storage](../location_user_files.md), otherwise, only to the personal and [shared folders](../location_user_files.md)|
+|Block account|It displays whether a user is blocked in the system|
 
-> **Примечание:** Параметры, такие как *Администрирование*, *Проектирование сценариев*, *Просмотр отчетов*, *Доступ ко всем файлам*, *Интерактивный режим*, *Режим службы* и *Заблокирован*, отмечаются в окне создания/редактирования пользователя флажком в чекбоксе, а в таблице подраздела отмечены символом "•", параметр *Аутентификация* выбирается с помощью выпадающего списка в окне создания/редактирования пользователя и в таблице подраздела отображает выбранный способ *Аутентификации* пользователя.
+> **Note:** Such parameters as *Administration*, *Workflows design*, *View reports*, *Access to all files*, *Interactive mode*, *Service mode* and *Blocked*, they are selected with a checkbox in the window used for creation/edition of a user, and they are selected with "•" character in the subsection table, *Authentification* parameter is selected from the drop-down list in the window used for creation/edition of a user, and it displays the selected method of the user *Authentification* in the subsection table.
 
-## Способы аутентификации
+## Authentification Methods
 
-Использование LDAP аутентификации позволяет авторизоваться на сервере Loginom через LDAP сервер, если способ *Аутентификации* "Локальная", то *Аутентификация* происходит средствами Loginom.
+Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server. If the *Authentification* method is "Local", *Authentification* is performed by means of  the Loginom tools.
 
 > **Notes:**
 >
-> * Запрещено менять способ *Аутентификации* самому себе, так как в этом случае пользователь может стать недоступным, а он мог быть единственным администратором.
-> * Последнему локальному администратору нельзя изменять способ *Аутентификации*. Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с *Аутентификацией* по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.
+> * It is forbidden to change the *Authentification* method for oneself. In this case, a user can become unavailable, whereas he can be the only administrator.
+> * The last local administrator cannot change the *Authentification* method. Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с *Аутентификацией* по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.
 > * При изменении способа *Аутентификации* пользователя с "LDAP" на "Локальная" происходит сбрасывание пароля и следовательно пользователь может авторизоваться с пустым паролем, если при смене способа *Аутентификации* не был задан иной пароль.
