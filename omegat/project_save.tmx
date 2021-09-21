@@ -24183,6 +24183,20 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Личные данные пользователя|UserStorage|Параметр отвечает за название каталога, в котором располагаются личные каталоги &lt;x1/&gt;пользователей&lt;x2/&gt; и создаваемые в &lt;x3/&gt;Общие папки&lt;x4/&gt;|
+|Резервные копии сессии|SessionBackup|Параметр задает название каталога для резервных копий сессий|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184134Z" creationid="Марианна" creationdate="20210921T184134Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|User data|UserStorage|The parameter is required for the name of the directory in which private directories of &lt;x1/&gt;users&lt;x2/&gt; created in &lt;x3/&gt;Shared folders&lt;x4/&gt; are located|
+|Session backups|SessionBackup|The parameter enables to set the name of the directory for session backups|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Параметр|Описание|
 |:-|:-|
 |Логин|Имя пользователя используемое для входа в систему.</seg>
