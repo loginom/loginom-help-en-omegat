@@ -45,5 +45,5 @@ Use of LDAP authentication enables to log in to the Loginom server by means of t
 > **Notes:**
 >
 > * It is forbidden to change the *Authentification* method for oneself. In this case, a user can become unavailable, whereas he can be the only administrator.
-> * The last local administrator cannot change the *Authentification* method. Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с *Аутентификацией* по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.
-> * При изменении способа *Аутентификации* пользователя с "LDAP" на "Локальная" происходит сбрасывание пароля и следовательно пользователь может авторизоваться с пустым паролем, если при смене способа *Аутентификации* не был задан иной пароль.
+> * The last local administrator cannot change the *Authentification* method. Namely, at least, one active local administrator will always remain in the system as the administrator with the LDAP *Authentification* can become unavailable due to incorrect settings or changes on the LDAP server.
+> * When changing the *Authentification* user method from "LDAP" to "Local", the password is reset. Consequently, the user can log in with empty password if another password is not set when changing the *Authentification* method.
