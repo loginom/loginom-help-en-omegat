@@ -27979,6 +27979,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможные значения портов задаются в числовом формате в интервале от 0 до 65535</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T185313Z" creationid="Марианна" creationdate="20210921T185313Z">
+        <seg>Possible port values are set in the numeric format in the interval from 0 to 65535</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможные значения:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T224553Z" creationid="Марианна" creationdate="20210218T224553Z">
@@ -36137,6 +36145,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Минимальное значение равно 0.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T185436Z" creationid="Марианна" creationdate="20210921T185436Z">
+        <seg>The minimum value is equal to 0.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Минимальное количество экземпляров узла равно 0, и не настраивается.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T084515Z" creationid="Марианна" creationdate="20200929T084515Z">
@@ -40141,6 +40157,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T111326Z" creationid="Марианна" creationdate="20210809T111326Z">
         <seg>Features of Data Set Field</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры сервера</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T185321Z" creationid="Марианна" creationdate="20210921T185321Z">
+        <seg>Server Parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -45565,6 +45589,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113211Z" creationid="Марианна" creationdate="20201124T113211Z">
         <seg>Seeds of red tulips</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сервер имеет несколько параметров, определяющих режим функционирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T185407Z" creationid="Марианна" creationdate="20210921T185407Z">
+        <seg>The server has several parameters that define the operation mode.</seg>
       </tuv>
     </tu>
     <tu>
