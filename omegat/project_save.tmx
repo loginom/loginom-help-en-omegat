@@ -47149,6 +47149,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с &lt;x3/&gt;Аутентификацией&lt;x4/&gt; по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T145726Z" creationid="Марианна" creationdate="20210921T145726Z">
+        <seg>Namely, at least, one active local administrator will always remain in the system as the administrator with the LDAP &lt;x3/&gt;Authentification&lt;x4/&gt; can become unavailable due to incorrect settings or changes on the LDAP server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Т.е. по значению текущего столбца отбираются строки, которые определяют внешнее разбиение для поля основного источника данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210608T083430Z" creationid="Марианна" creationdate="20210608T083430Z">
