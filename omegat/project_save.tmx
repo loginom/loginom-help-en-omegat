@@ -14469,6 +14469,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt;  Параметры</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T171008Z" creationid="Марианна" creationdate="20210921T171008Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt;  Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204658Z" creationid="Марианна" creationdate="20210203T204658Z">
@@ -25283,6 +25291,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T203800Z" creationid="Марианна" creationdate="20210601T203800Z">
         <seg>This table contains information on the output binning ranges.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В данном подразделе расположены общие настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T171057Z" creationid="Марианна" creationdate="20210921T171057Z">
+        <seg>This subsection includes general settings.</seg>
       </tuv>
     </tu>
     <tu>
