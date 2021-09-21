@@ -24201,10 +24201,10 @@ Assertion failed: lie 1 != 0</seg>
 |:-|:-|:-|
 |Хост||Доменное имя хоста (либо IP-адрес) LDAP сервера.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210921T184433Z" creationid="Марианна" creationdate="20210921T184433Z">
-        <seg>|Parameter|Значение по умолчанию|Описание|
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184632Z" creationid="Марианна" creationdate="20210921T184433Z">
+        <seg>|Parameter|Default value|Description|
 |:-|:-|:-|
-|Хост||Доменное имя хоста (либо IP-адрес) LDAP сервера.</seg>
+|Host||Domain host name (or IP address) of the LDAP server.</seg>
       </tuv>
     </tu>
     <tu>
