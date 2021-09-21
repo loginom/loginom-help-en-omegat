@@ -24197,6 +24197,18 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Хост||Доменное имя хоста (либо IP-адрес) LDAP сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184433Z" creationid="Марианна" creationdate="20210921T184433Z">
+        <seg>|Parameter|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Хост||Доменное имя хоста (либо IP-адрес) LDAP сервера.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Параметр|Описание|
 |:-|:-|
 |Логин|Имя пользователя используемое для входа в систему.</seg>
@@ -27195,6 +27207,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T083449Z" creationid="Марианна" creationdate="20201117T083449Z">
         <seg>First of all, it is required to search and replace by the &lt;x1/&gt;exact match&lt;x2/&gt; with the values specified in the replacement table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесенные изменения вступают в силу после перезапуска службы сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184257Z" creationid="Марианна" creationdate="20210921T184257Z">
+        <seg>The introduced changes take effect after the server service restart.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32584,6 +32604,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210921T183235Z" creationid="Марианна" creationdate="20210921T183235Z">
         <seg>The directories used to save data and files are set here:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Здесь задаются настройки для подключения к &lt;x1/&gt;LDAP&lt;x2/&gt; серверу:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184418Z" creationid="Марианна" creationdate="20210921T184418Z">
+        <seg>The settings used for connection to the &lt;x1/&gt;LDAP&lt;x2/&gt; server are set here:</seg>
       </tuv>
     </tu>
     <tu>
@@ -39961,6 +39989,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210205T115851Z" creationid="Марианна" creationdate="20210205T115851Z">
         <seg>GET request parameters: a list of GET request parameters, their names and data types are set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры LDAP</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184311Z" creationid="Марианна" creationdate="20210921T184311Z">
+        <seg>LDAP Parameters</seg>
       </tuv>
     </tu>
     <tu>
