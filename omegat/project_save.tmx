@@ -13733,6 +13733,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить&lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — подгружает параметры используемые в данный момент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T182915Z" creationid="Марианна" creationdate="20210921T182915Z">
+        <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt; enables to upload currently used parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обнуление заголовка&lt;x2/&gt; (PERSIST).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204307Z" creationid="Марианна" creationdate="20210203T204307Z">
@@ -32558,6 +32566,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Здесь задаются каталоги для хранения данных и файлов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T183235Z" creationid="Марианна" creationdate="20210921T183235Z">
+        <seg>The directories used to save data and files are set here:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Здесь задаются:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201104T185516Z" creationid="Марианна" creationdate="20200916T165520Z">
@@ -39779,6 +39795,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113610Z" creationid="Марианна" creationdate="20201001T113610Z">
         <seg>The toolbar and context menu of the Input Tree list contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Папки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T182926Z" creationid="Марианна" creationdate="20210921T182926Z">
+        <seg>Folders</seg>
       </tuv>
     </tu>
     <tu>
