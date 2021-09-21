@@ -29795,6 +29795,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для аналитика данный раздел доступен по умолчанию|
+|Вход в интерактивном режиме|Отмечает разрешение на режим входа через браузер|
+|Вход в режиме службы|Отмечает разрешение на вход в режиме службы (для запуска сервера)|
+|Полный доступ к файловому хранилищу|Отображает наличие у пользователя полного доступа к &lt;x17/&gt;файловому хранилищу&lt;x18/&gt;, в ином случае только к личным и &lt;x19/&gt;общим папкам&lt;x20/&gt;|
+|Заблокировать учётную запись|Отображает заблокирован ли пользователь в системе|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T143923Z" creationid="Марианна" creationdate="20210921T143923Z">
+        <seg>This section is accessible for an analyst by default|
+|Enter in the interactive mode|It checks whether it is permitted to use the enter mode via browser|
+|Enter in the service mode|It checks whether it is permitted to enter in the service mode (for the server start)|
+|File storage full access|It displays whether a user has full access to the &lt;x17/&gt;file storage&lt;x18/&gt;, otherwise, only to the personal and &lt;x19/&gt;shared folders&lt;x20/&gt;|
+|Block account|It displays whether a user is blocked in the system|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ввода новой строки в таблице замены используется кнопка &lt;x1/&gt;Добавление строки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142912Z" creationid="Марианна" creationdate="20201117T085219Z">
