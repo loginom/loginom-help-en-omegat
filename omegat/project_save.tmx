@@ -42071,6 +42071,26 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После создания пользователя, его имя изменить нельзя.|
+|Полное имя|Полное имя пользователя, поле не обязательно к заполнению|
+|Аутентификация|Выбор &lt;x1/&gt;способа &lt;x2/&gt;Аутентификации&lt;x3/&gt;&lt;x4/&gt; пользователя: Локальная или &lt;x5/&gt;LDAP&lt;x6/&gt;|
+|Пароль|Пароль пользователя используемый для входа в систему, в таблице раздела &lt;x7/&gt;Пользователи&lt;x8/&gt; данный столбец отсутствует|
+|Администрирование|Указывает является ли пользователем администратором, открывает доступ к разделу &lt;x9/&gt;&lt;x10/&gt;Администрирование&lt;x11/&gt;&lt;x12/&gt; и его подразделам|
+|Проектирование сценариев|Указывает является ли пользователь аналитиком, открывает доступ к проектированию сценариев|
+|Просмотр отчетов|Открывает доступ к разделу &lt;x13/&gt;&lt;x14/&gt;Отчеты&lt;x15/&gt;&lt;x16/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T142111Z" creationid="Марианна" creationdate="20210921T142111Z">
+        <seg>Upon creation of the user, it is not possible to change his name.|
+|Full name|Full user name, it is not obligatory to fill in this field.|
+|Authentification|Selection of &lt;x1/&gt;method of &lt;x2/&gt;Authentification&lt;x3/&gt;&lt;x4/&gt; of user: Local or &lt;x5/&gt;LDAP&lt;x6/&gt;|
+|Password|The user password used for login, this column is not available in the table of the &lt;x7/&gt;Users&lt;x8/&gt; section|
+|Administration|It displays whether the user is an administrator, makes &lt;x9/&gt;&lt;x10/&gt;Administration&lt;x11/&gt;&lt;x12/&gt; section and its subsections accessible|
+|Workflows design|It displays whether the user is an analyst, makes workflows design accessible|
+|View reports|It makes &lt;x13/&gt;&lt;x14/&gt;Reports&lt;x15/&gt;&lt;x16/&gt; section accessible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После создания, заданные значения полей для дочернего узла можно поменять.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T121326Z" creationid="Марианна" creationdate="20200929T121326Z">
