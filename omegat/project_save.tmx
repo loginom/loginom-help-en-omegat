@@ -17642,6 +17642,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранить&lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt; — сохраняет полученные изменения параметров;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T182756Z" creationid="Марианна" creationdate="20210921T182756Z">
+        <seg>&lt;x1/&gt;Save&lt;x2/&gt; &lt;x3/&gt;Save&lt;x4/&gt; enables to save introduced changes of parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сохранить&lt;x2/&gt; — сохранение Пакета или его изменений в текущей директории;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122404Z" creationid="Марианна" creationdate="20200814T122404Z">
