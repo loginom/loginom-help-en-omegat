@@ -27211,6 +27211,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесенные изменения вступают в силу после нажатия кнопки &lt;x1/&gt;Сохранить&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T185202Z" creationid="Марианна" creationdate="20210921T185202Z">
+        <seg>The introduced changes take effect upon pressing &lt;x1/&gt;Save&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесенные изменения вступают в силу после перезапуска службы сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210921T184257Z" creationid="Марианна" creationdate="20210921T184257Z">
@@ -40057,6 +40065,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры компонента: Выполнение программы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184916Z" creationid="Марианна" creationdate="20210921T184916Z">
+        <seg>Component Parameters: Program Execution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметры логирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T184944Z" creationid="Марианна" creationdate="20210921T184944Z">
+        <seg>Logging Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры можно ввести вручную или нажатием кнопки &lt;x3/&gt; &lt;x4/&gt; вызвать окно &lt;x5/&gt;Выбор информационной базы&lt;x6/&gt;, предоставляющее следующие варианты подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T194402Z" creationid="Марианна" creationdate="20210111T121015Z">
@@ -42881,6 +42905,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T162908Z" creationid="Марианна" creationdate="20201001T162908Z">
         <seg>In the case of 0 value recursive nodes won't be automatically opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При значении &lt; 1 старые файлы логов не сохраняются.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T185019Z" creationid="Марианна" creationdate="20210921T185019Z">
+        <seg>When value &lt; 1, old log files are not saved.|</seg>
       </tuv>
     </tu>
     <tu>
