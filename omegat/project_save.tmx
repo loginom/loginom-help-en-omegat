@@ -42803,6 +42803,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При изменении способа &lt;x1/&gt;Аутентификации&lt;x2/&gt; пользователя с "LDAP" на "Локальная" происходит сбрасывание пароля и следовательно пользователь может авторизоваться с пустым паролем, если при смене способа &lt;x3/&gt;Аутентификации&lt;x4/&gt; не был задан иной пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210921T170652Z" creationid="Марианна" creationdate="20210921T170652Z">
+        <seg>When changing the &lt;x1/&gt;Authentification&lt;x2/&gt; user method from "LDAP" to "Local", the password is reset. Consequently, the user can log in with empty password if another password is not set when changing the &lt;x3/&gt;Authentification&lt;x4/&gt; method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При изменений настроек узла &lt;x1/&gt;Инспектор свойств&lt;x2/&gt; обновляет дерево свойств.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T110428Z" creationid="Марианна" creationdate="20200818T110428Z">
