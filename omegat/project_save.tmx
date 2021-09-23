@@ -32344,6 +32344,16 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задается абсолютным путем или относительным (корневой каталог "C:\ProgramData\BaseGroup\Loginom 6\Server").|
+|Имя файла закрытого ключа||Путь к файлу ключа используемого для SSL-соединения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T210309Z" creationid="Марианна" creationdate="20210923T210309Z">
+        <seg>It is set by the absolute or relative path (root directory "C:\ProgramData\BaseGroup\Loginom 6\Server").|
+|Private key file name||Path to the key file used for the SSL connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задается абсолютным путем относительно папки Logs, то есть по умолчанию для серверной версии файл находится в &lt;x15/&gt;"C:\ProgramData\BaseGroup\Loginom 6\Server\Logs"&lt;x16/&gt;, а для десктопной версии в &lt;x17/&gt;"C:\Users\User\AppData\Roaming\BaseGroup\Loginom 6\Personal\Logs"&lt;x18/&gt;.|
 |Перезапись файла|false|Флаг пересоздания файла логирования при запуске приложения, вместо его дополнения.</seg>
       </tuv>
