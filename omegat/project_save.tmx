@@ -23708,6 +23708,16 @@ Assertion failed: lie 1 != 0</seg>
     <tu>
       <tuv lang="ru">
         <seg>|
+|Атрибут с полным именем пользователя|displayName|Имя атрибута в записи пользователя, который содержит полное имя пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T134326Z" creationid="Марианна" creationdate="20210923T134326Z">
+        <seg>|
+|Attribute with full username|displayName| Attribute name in the user record that includes the full username.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|
 |Порт|389|Номер порта для подключения к серверу LDAP.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T125054Z" creationid="Марианна" creationdate="20210923T125054Z">
