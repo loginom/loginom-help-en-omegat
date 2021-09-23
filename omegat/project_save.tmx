@@ -16232,6 +16232,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: По завершении корректировки параметров необходимо нажать кнопку &lt;x3/&gt;Сохранить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T210441Z" creationid="Марианна" creationdate="20210923T210441Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: It is required to press &lt;x3/&gt;Save&lt;x4/&gt; button upon completion of parameters correction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: Поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова REST-сервиса отправит единичный запрос без параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T184441Z" creationid="Марианна" creationdate="20210225T184441Z">
@@ -24259,6 +24267,20 @@ Assertion failed: lie 1 != 0</seg>
       <tuv lang="ru">
         <seg>|Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
+|Размер пула пакетов|10|Количество часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова|
+|Таймаут остановки сервера (сек.)|10|Время выделяемое серверу на завершение работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T210959Z" creationid="Марианна" creationdate="20210923T210959Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Package pool size|10|The number of the Loginom Integrator packages frequently used in the batch processing saved for the quick call|
+|Server stop timeout (s)|10|The time allocated to the server to complete operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
 |Уровень логирования|Информация|Здесь указывается способ и полнота заполнения лог-файла (&lt;x1/&gt;Трассировка&lt;x2/&gt;, &lt;x3/&gt;Отладка&lt;x4/&gt;, &lt;x5/&gt;Информация&lt;x6/&gt;, &lt;x7/&gt;Событие&lt;x8/&gt;, &lt;x9/&gt;Предупреждение&lt;x10/&gt;, &lt;x11/&gt;Ошибка&lt;x12/&gt; и &lt;x13/&gt;Авария&lt;x14/&gt;)|
 |Имя файла|app.log|Параметр содержит имя лог-файла.</seg>
       </tuv>
@@ -30043,6 +30065,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114741Z" creationid="Марианна" creationdate="20201214T114741Z">
         <seg>For all models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для вступления в силу изменений ряда параметров требуется перезагрузка службы сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T210538Z" creationid="Марианна" creationdate="20210923T210538Z">
+        <seg>The changes of some parameters take effect after the server service restart.</seg>
       </tuv>
     </tu>
     <tu>
