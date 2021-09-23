@@ -29799,6 +29799,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для Active Directory это обычно &lt;x11/&gt;sAMAccountName&lt;x12/&gt;, а для OpenLDAP &lt;x13/&gt;uid&lt;x14/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T130234Z" creationid="Марианна" creationdate="20210923T130234Z">
+        <seg>It is generally &lt;x11/&gt;sAMAccountName&lt;x12/&gt; for Active Directory, and &lt;x13/&gt;uid&lt;x14/&gt; for OpenLDAP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ClickHouse — двойные кавычки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120208Z" creationid="Марианна" creationdate="20210118T120208Z">
@@ -34010,6 +34018,16 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T074848Z" creationid="Марианна" creationdate="20210407T074848Z">
         <seg>PCRE2 library is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для защищенной передачи пароля по незащищенному соединению.|
+|Учетная запись||DN пользователя с правами на чтение LDAP (поиск пользователей и групп).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T130623Z" creationid="Марианна" creationdate="20210923T130623Z">
+        <seg>It is used for the secure password propagation via nonsecure connection.|
+|Account||User DN with LDAP read rights (search for users and groups).</seg>
       </tuv>
     </tu>
     <tu>
