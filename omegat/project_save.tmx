@@ -43557,6 +43557,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При превышении размера файла и создании нового файла логирования, старый файл получает расширение .1, со сдвигом старых сохраненных файлов на &lt;x19/&gt;+1: .2, .3, ..., .&lt;максимальный индекс&gt;&lt;x20/&gt;, старый резервный файл app.log.1 станет app.log.2, а если на момент добавления резервного файла уже был достигнут лимит, то самый старый файл лога удаляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T191725Z" creationid="Марианна" creationdate="20210923T191725Z">
+        <seg>When the file size is exceeded, and the new logging file is created, the old file gets .1 extension with &lt;x19/&gt;+1: .2, .3, ... shift of the old saved files, .&lt;maximum index&gt;&lt;x20/&gt;, the old backup app.log.1 file will become app.log.2, and the oldest log file is deleted if the limit is reached at the moment of the backup file addition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При преобразовании в тип данных &lt;x1/&gt;Дата/Время&lt;x2/&gt; &lt;x3/&gt;Дата/Время&lt;x4/&gt; для ряда форматов имеется возможность выбрать начало и/или конец периода.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T150223Z" creationid="Марианна" creationdate="20201118T132448Z">
