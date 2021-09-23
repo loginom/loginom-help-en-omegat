@@ -30943,6 +30943,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для фильтров в OpenLDAP может потребоваться дополнительная настройка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T133341Z" creationid="Марианна" creationdate="20210923T133341Z">
+        <seg>Additional configuration can be required for filters in OpenLDAP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для финальной модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114751Z" creationid="Марианна" creationdate="20201214T114751Z">
