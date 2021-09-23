@@ -35,37 +35,37 @@ The settings used for connection to the [LDAP](./ldap.md) server are set here:
 
 ## Component Parameters: Program Execution
 
-С помощью компонента [*Выполнение программы*](../processors/integration/exec-program.md) можно выполнить внешнюю программу (запустить на выполнение исполняемый файл).
+[*Component execution*](../processors/integration/exec-program.md) component enables to execute the external program (to start execution of the executed file).
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Выполнение запрещено|true|Параметр запрещает выполнение узла *Выполнение программы*, если выставлено значение true, и позволяет выполнять узел при значении false|
+|Execution forbidden|true|The parameter forbids execution of the *Program execution* node if true value is set, and enables to execute the node when the value is false|
 
 ## Logging Parameters
 
-В журнале регистрации (лог-файле) фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину.
+Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in case of error occurrence.
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Уровень логирования|Информация|Здесь указывается способ и полнота заполнения лог-файла (*Трассировка*, *Отладка*, *Информация*, *Событие*, *Предупреждение*, *Ошибка* и *Авария*)|
-|Имя файла|app.log|Параметр содержит имя лог-файла. Задается абсолютным путем относительно папки Logs, то есть по умолчанию для серверной версии файл находится в `"C:\ProgramData\BaseGroup\Loginom 6\Server\Logs"`, а для десктопной версии в `"C:\Users\User\AppData\Roaming\BaseGroup\Loginom 6\Personal\Logs"`.|
-|Перезапись файла|false|Флаг пересоздания файла логирования при запуске приложения, вместо его дополнения. При значении true при каждом запуске лог-файл будет перезаписывать старый.|
-|Максимальный размер файла|10484760|Максимальный размер лог-файла, задается в байтах. При превышении данного размера, файл сохраняется с расширением .1 и создается новый. Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
-|Количество резервных файлов|10|Количество резервных копий создаваемых при превышении максимального размера лог-файла. При превышении размера файла и создании нового файла логирования, старый файл получает расширение .1, со сдвигом старых сохраненных файлов на `+1: .2, .3, ..., .<максимальный индекс>`, старый резервный файл app.log.1 станет app.log.2, а если на момент добавления резервного файла уже был достигнут лимит, то самый старый файл лога удаляется. When value < 1, old log files are not saved.|
+|Logging level|Information|Method and completeness of the log file filing is specified here (*Trace*, *Debug*, *Information*, *Event*, *Warning*, *Error* and *Fatal*)|
+|File name|app.log|The parameter contains the log file name. It is set by the absolute path relative to the Logs folder, namely, is located in `"C:\ProgramData\BaseGroup\Loginom 6\Server\Logs"` by default for the server version the file, and for the desktop version in  `"C:\Users\User\AppData\Roaming\BaseGroup\Loginom 6\Personal\Logs"`.|
+|Rewrite file|false|Checkbox of the logging file recreation while the application start instead of its supplementation. If the value is true, the log file will rewrite the old one at each start.|
+|Maximum file size|10484760|The maximum size of the log file is set in bytes. When this size is exceeded, the file is saved with .1 extension, and the new one is created. For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
+|Number of backup files|10|Number of backup copies created when the maximum size of the log file is exceeded. When the file size is exceeded, and the new logging file is created, the old file gets .1 extension with `+1: .2, .3, ... shift of the old saved files, .<maximum index>`, the old backup app.log.1 file will become app.log.2, and the oldest log file is deleted if the limit is reached at the moment of the backup file addition. When value < 1, old log files are not saved.|
 
 The introduced changes take effect upon pressing *Save* button.
 
 ## Connection Parameters
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Прослушиваемые адреса|0.0.0.0|Адрес или адреса проверяемые на наличие сервера|
-|TCP порт|4580|Порт используемый для соединения с сервером|
-|WebSocket порт|8080|Порт используемый для обмена сообщениями с сервером|
-|WebSocket SSL/TLS порт| если настроено WSS (WebSocket Secure), то 8443, иначе null|Защищенный порт используемый для обмена сообщениями с сервером|
-|Имя файла сертификата||Путь к файлу сертификата используемого для SSL-соединения. Задается абсолютным путем или относительным (корневой каталог "C:\ProgramData\BaseGroup\Loginom 6\Server").|
-|Имя файла закрытого ключа||Путь к файлу ключа используемого для SSL-соединения. Задается абсолютным путем или относительным (корневой каталог "C:\ProgramData\BaseGroup\Loginom 6\Server").|
-|Период проверки соединения (сек.)|300|Временной промежуток между проверкой соединения с клиентом, необходимый для автоматического определения разрыва сетевого соединения и закрытием соответствующей сессии клиента вместе с открытыми в ней пакетами. Проверка состояния канала связи сервера с клиентом реализуется с помощью специального сообщения, которое периодически отправляется клиенту в том случае, если в течение заданного интервала времени на сервер не приходит ни одного сообщения с клиента. Если же с клиента приходит любое сообщение, то таймер сбрасывается, т.е. специальное сообщение отправляется только в том случае, если по каналу связи долго не приходило ни одного входящего сообщения. Проверку соединения сервера с клиентом можно отключить, для этого необходимо стереть значение периода проверки, сохранить настройки и перезагрузить сервер. Отключение проверки соединения может привести к блокировки пакетов сервером, т.к. сервер не сможет определить разрыв связи с клиентом и будет считать, что пакет все еще используется клиентом. В случае включенного параметра и небольшого таймаута, связь после разрыва соединения может не восстановиться.|
+|Listen addresses|0.0.0.0|Address or addresses listened on the server availability|
+|TCP port|4580|The port used for the server connection|
+|WebSocket port|8080|The port used for message exchange with server|
+|WebSocket SSL/TLS port| if WSS (WebSocket Secure) is configured, 8443, otherwise null|The secure port used for message exchange with server|
+|Certificate file name||Path to the certificate file used for the SSL connection. It is set by the absolute or relative path (root directory "C:\ProgramData\BaseGroup\Loginom 6\Server").|
+|Private key file name||Path to the key file used for the SSL connection. It is set by the absolute or relative path (root directory "C:\ProgramData\BaseGroup\Loginom 6\Server").|
+|Connection check period (s)|300|Time interval between check of connection with client that is required for the automatic determination of the network connection loss and closure of the corresponding client session with the packages opened in it. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client. In case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
 
 Possible port values are set in the numeric format in the interval from 0 to 65535
 
@@ -75,13 +75,13 @@ The introduced changes take effect after the server service restart.
 
 The server has several parameters that define the operation mode.
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Размер пула пакетов|10|Количество часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова|
-|Таймаут остановки сервера (сек.)|10|Время выделяемое серверу на завершение работы. The minimum value is equal to 0.|
+|Package pool size|10|The number of the Loginom Integrator packages frequently used in the batch processing saved for the quick call|
+|Server stop timeout (s)|10|The time allocated to the server to complete operation. The minimum value is equal to 0.|
 
 The introduced changes take effect upon pressing *Save* button.
 
 ---
 
-> **Примечание**: По завершении корректировки параметров необходимо нажать кнопку *Сохранить*. Для вступления в силу изменений ряда параметров требуется перезагрузка службы сервера.
+> **Note**: It is required to press *Save* button upon completion of parameters correction. The changes of some parameters take effect after the server service restart.
