@@ -24239,6 +24239,20 @@ Assertion failed: lie 1 != 0</seg>
       <tuv lang="ru">
         <seg>|Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
+|Уровень логирования|Информация|Здесь указывается способ и полнота заполнения лог-файла (&lt;x1/&gt;Трассировка&lt;x2/&gt;, &lt;x3/&gt;Отладка&lt;x4/&gt;, &lt;x5/&gt;Информация&lt;x6/&gt;, &lt;x7/&gt;Событие&lt;x8/&gt;, &lt;x9/&gt;Предупреждение&lt;x10/&gt;, &lt;x11/&gt;Ошибка&lt;x12/&gt; и &lt;x13/&gt;Авария&lt;x14/&gt;)|
+|Имя файла|app.log|Параметр содержит имя лог-файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T184710Z" creationid="Марианна" creationdate="20210923T184710Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Logging level|Information|Method and completeness of the log file filing is specified here (&lt;x1/&gt;Trace&lt;x2/&gt;, &lt;x3/&gt;Debug&lt;x4/&gt;, &lt;x5/&gt;Information&lt;x6/&gt;, &lt;x7/&gt;Event&lt;x8/&gt;, &lt;x9/&gt;Warning&lt;x10/&gt;, &lt;x11/&gt;Error&lt;x12/&gt; and &lt;x13/&gt;Fatal&lt;x14/&gt;)|
+|File name|app.log|The parameter contains the log file name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
 |Хост||Доменное имя хоста (либо IP-адрес) LDAP сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210921T184632Z" creationid="Марианна" creationdate="20210921T184433Z">
@@ -32306,6 +32320,16 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T112812Z" creationid="Марианна" creationdate="20210809T112812Z">
         <seg>It sets the column data feature in the context of the algorithm executed by the handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задается абсолютным путем относительно папки Logs, то есть по умолчанию для серверной версии файл находится в &lt;x15/&gt;"C:\ProgramData\BaseGroup\Loginom 6\Server\Logs"&lt;x16/&gt;, а для десктопной версии в &lt;x17/&gt;"C:\Users\User\AppData\Roaming\BaseGroup\Loginom 6\Personal\Logs"&lt;x18/&gt;.|
+|Перезапись файла|false|Флаг пересоздания файла логирования при запуске приложения, вместо его дополнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T185600Z" creationid="Марианна" creationdate="20210923T185600Z">
+        <seg>It is set by the absolute path relative to the Logs folder, namely, is located in &lt;x15/&gt;"C:\ProgramData\BaseGroup\Loginom 6\Server\Logs"&lt;x16/&gt; by default for the server version the file, and for the desktop version in  &lt;x17/&gt;"C:\Users\User\AppData\Roaming\BaseGroup\Loginom 6\Personal\Logs"&lt;x18/&gt;.|
+|Rewrite file|false|Checkbox of the logging file recreation while the application start instead of its supplementation.</seg>
       </tuv>
     </tu>
     <tu>
