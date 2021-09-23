@@ -26371,6 +26371,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае включенного параметра и небольшого таймаута, связь после разрыва соединения может не восстановиться.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T215718Z" creationid="Марианна" creationdate="20210923T215718Z">
+        <seg>In case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае выбора &lt;x1/&gt;Не заменять&lt;x2/&gt;, к значениям не попавшим в &lt;x3/&gt;Таблицу замен&lt;x4/&gt; не применяется дополнительная обработка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T140859Z" creationid="Марианна" creationdate="20201116T140859Z">
