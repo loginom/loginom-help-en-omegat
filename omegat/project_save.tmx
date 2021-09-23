@@ -37177,6 +37177,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, фильтр для Active Directory может быть &lt;x3/&gt;(&amp;(objectClass=user)(memberOf:1.2.840.113556.1.4.1941:=cn=test,ou=groups,dc=domain,dc=com))&lt;x4/&gt;, для OpenLDAP &lt;x5/&gt;(objectClass=posixAccount)&lt;x6/&gt;, где использование расширения &lt;x7/&gt;:1.2.840.113556.1.4.1941:&lt;x8/&gt;  для Active Directory дает возможность использовать сопоставление и по вложенным группам (можно использовать только для Active Directory).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T131832Z" creationid="Марианна" creationdate="20210923T131832Z">
+        <seg>For example, filter for Active Directory can be &lt;x3/&gt;(&amp;(objectClass=user)(memberOf:1.2.840.113556.1.4.1941:=cn=test,ou=groups,dc=domain,dc=com))&lt;x4/&gt;, for OpenLDAP &lt;x5/&gt;(objectClass=posixAccount)&lt;x6/&gt; where use of extension &lt;x7/&gt;:1.2.840.113556.1.4.1941:&lt;x8/&gt;  for Active Directory enables to use mapping also by nested groups (it can be used only for Active Directory).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, флаг активен: 10 &lt;...≤ 20 и флаг неактивен: 10 ≤...&lt; 20.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T182136Z" creationid="Марианна" creationdate="20210528T182136Z">
