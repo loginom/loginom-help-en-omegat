@@ -31813,6 +31813,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если же с клиента приходит любое сообщение, то таймер сбрасывается, т.е. специальное сообщение отправляется только в том случае, если по каналу связи долго не приходило ни одного входящего сообщения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T220837Z" creationid="Марианна" creationdate="20210923T220837Z">
+        <seg>If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если значение не содержит указание временной зоны, то:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T220504Z" creationid="Марианна" creationdate="20200829T220504Z">
@@ -44531,6 +44539,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T220529Z" creationid="Марианна" creationdate="20210923T220529Z">
         <seg>The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проверку соединения сервера с клиентом можно отключить, для этого необходимо стереть значение периода проверки, сохранить настройки и перезагрузить сервер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T221104Z" creationid="Марианна" creationdate="20210923T221104Z">
+        <seg>It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server.</seg>
       </tuv>
     </tu>
     <tu>
