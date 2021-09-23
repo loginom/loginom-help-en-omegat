@@ -24239,6 +24239,26 @@ Assertion failed: lie 1 != 0</seg>
       <tuv lang="ru">
         <seg>|Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
+|Прослушиваемые адреса|0.0.0.0|Адрес или адреса проверяемые на наличие сервера|
+|TCP порт|4580|Порт используемый для соединения с сервером|
+|WebSocket порт|8080|Порт используемый для обмена сообщениями с сервером|
+|WebSocket SSL/TLS порт| если настроено WSS (WebSocket Secure), то 8443, иначе null|Защищенный порт используемый для обмена сообщениями с сервером|
+|Имя файла сертификата||Путь к файлу сертификата используемого для SSL-соединения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T192304Z" creationid="Марианна" creationdate="20210923T192304Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Listen addresses|0.0.0.0|Address or addresses listened on the server availability|
+|TCP port|4580|The port used for the server connection|
+|WebSocket port|8080|The port used for the server messages communication|
+|WebSocket SSL/TLS порт| если настроено WSS (WebSocket Secure), то 8443, иначе null|Защищенный порт используемый для обмена сообщениями с сервером|
+|Certificate file name||Путь к файлу сертификата используемого для SSL-соединения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
 |Уровень логирования|Информация|Здесь указывается способ и полнота заполнения лог-файла (&lt;x1/&gt;Трассировка&lt;x2/&gt;, &lt;x3/&gt;Отладка&lt;x4/&gt;, &lt;x5/&gt;Информация&lt;x6/&gt;, &lt;x7/&gt;Событие&lt;x8/&gt;, &lt;x9/&gt;Предупреждение&lt;x10/&gt;, &lt;x11/&gt;Ошибка&lt;x12/&gt; и &lt;x13/&gt;Авария&lt;x14/&gt;)|
 |Имя файла|app.log|Параметр содержит имя лог-файла.</seg>
       </tuv>
