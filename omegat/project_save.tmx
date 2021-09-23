@@ -23797,6 +23797,14 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Атрибут с именем пользователя|sAMAccountName|Имя атрибута в записи пользователя, который содержит имя пользователя используемое при подключении и &lt;x9/&gt;автоматическом добавлении пользователя&lt;x10/&gt; Loginom при успешной LDAP аутентификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T134119Z" creationid="Марианна" creationdate="20210923T134119Z">
+        <seg>|Attribute with username|sAMAccountName|Attribute name in record of the user that includes the username used for connection and  &lt;x9/&gt;automatic addition of Loginom user&lt;x10/&gt; when the LDAP authentification is successful.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Вид агрегации|&lt;x1/&gt;&lt;x2/&gt;|&lt;x3/&gt;&lt;x4/&gt;|&lt;x5/&gt;&lt;x6/&gt;|&lt;x7/&gt;&lt;x8/&gt;|&lt;x9/&gt;&lt;x10/&gt;|&lt;x11/&gt;&lt;x12/&gt;|Комментарий|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |&lt;x13/&gt;&lt;x14/&gt; Сумма||&lt;x15/&gt;•&lt;x16/&gt;|&lt;x17/&gt;•&lt;x18/&gt;||||Суммирует значение всех ячеек в столбце.</seg>
