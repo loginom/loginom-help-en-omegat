@@ -40915,6 +40915,16 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию 389 для обычного соединения или 636 для SSL соединения.|
+|Безопасность соединения|Обычное соединение|Позволяет задать защищенное (SSL/TLS) соединение к LDAP по специальному порту (636 по умолчанию) или получение защищенного соединения (STARTTLS) на обычном порту через STARTTLS.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T125818Z" creationid="Марианна" creationdate="20210923T125818Z">
+        <seg>389 for the normal connection by default or 636 for the SSL connection.|
+|Connection security|Normal connection|It enables to set secure (SSL/TLS) connection to LDAP via the special port (636 by default) or provide secure connection (STARTTLS) for the normal port via STARTTLS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию &lt;x11/&gt;port&lt;x12/&gt; &lt;x13/&gt;9000&lt;x14/&gt;, &lt;x15/&gt;database&lt;x16/&gt; &lt;x17/&gt;default&lt;x18/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T201146Z" creationid="Марианна" creationdate="20210118T111554Z">
