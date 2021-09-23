@@ -45425,6 +45425,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью компонента &lt;x1/&gt;&lt;x2/&gt;Выполнение программы&lt;x3/&gt;&lt;x4/&gt; можно выполнить внешнюю программу (запустить на выполнение исполняемый файл).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T135047Z" creationid="Марианна" creationdate="20210923T135047Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Component execution&lt;x3/&gt;&lt;x4/&gt; component enables to execute the external program (to start execution of the executed file).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью компонента &lt;x1/&gt;Выполнение программы&lt;x2/&gt; можно запустить на выполнение внешнюю программу (исполняемый файл: cmd, bat, exe и т.д.)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T165056Z" creationid="Марианна" creationdate="20210219T165056Z">
