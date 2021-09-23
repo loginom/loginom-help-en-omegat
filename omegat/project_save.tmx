@@ -24245,14 +24245,14 @@ Assertion failed: lie 1 != 0</seg>
 |WebSocket SSL/TLS порт| если настроено WSS (WebSocket Secure), то 8443, иначе null|Защищенный порт используемый для обмена сообщениями с сервером|
 |Имя файла сертификата||Путь к файлу сертификата используемого для SSL-соединения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210923T192304Z" creationid="Марианна" creationdate="20210923T192304Z">
+      <tuv lang="en" changeid="Марианна" changedate="20210923T192719Z" creationid="Марианна" creationdate="20210923T192304Z">
         <seg>|Parameter|Default value|Description|
 |:-|:-|:-|
 |Listen addresses|0.0.0.0|Address or addresses listened on the server availability|
 |TCP port|4580|The port used for the server connection|
-|WebSocket port|8080|The port used for the server messages communication|
-|WebSocket SSL/TLS порт| если настроено WSS (WebSocket Secure), то 8443, иначе null|Защищенный порт используемый для обмена сообщениями с сервером|
-|Certificate file name||Путь к файлу сертификата используемого для SSL-соединения.</seg>
+|WebSocket port|8080|The port used for message exchange with server|
+|WebSocket SSL/TLS port| if WSS (WebSocket Secure) is configured, 8443, otherwise null|The secure port used for message exchange with server|
+|Certificate file name||Path to the certificate file used for the SSL connection.</seg>
       </tuv>
     </tu>
     <tu>
