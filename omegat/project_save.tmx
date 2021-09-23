@@ -23809,8 +23809,8 @@ Assertion failed: lie 1 != 0</seg>
       <tuv lang="ru">
         <seg>|Атрибут с именем пользователя|sAMAccountName|Имя атрибута в записи пользователя, который содержит имя пользователя используемое при подключении и &lt;x9/&gt;автоматическом добавлении пользователя&lt;x10/&gt; Loginom при успешной LDAP аутентификации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210923T134119Z" creationid="Марианна" creationdate="20210923T134119Z">
-        <seg>|Attribute with username|sAMAccountName|Attribute name in record of the user that includes the username used for connection and  &lt;x9/&gt;automatic addition of Loginom user&lt;x10/&gt; when the LDAP authentification is successful.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T134336Z" creationid="Марианна" creationdate="20210923T134119Z">
+        <seg>|Attribute with username|sAMAccountName|Attribute name in the user record that includes the username used for connection and  &lt;x9/&gt;automatic addition of Loginom user&lt;x10/&gt; when the LDAP authentification is successful.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41765,6 +41765,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210827T063609Z" creationid="Марианна" creationdate="20210827T063609Z">
         <seg>This format is fully supported by the &lt;x7/&gt;Deductor&lt;x8/&gt; analytical platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Полное имя пользователя используется для уточнения владельца аккаунта в списке Пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T134504Z" creationid="Марианна" creationdate="20210923T134504Z">
+        <seg>The full username is used to specify the account owner in the Users list.</seg>
       </tuv>
     </tu>
     <tu>
