@@ -37247,6 +37247,16 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
+|Количество резервных файлов|10|Количество резервных копий создаваемых при превышении максимального размера лог-файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T190948Z" creationid="Марианна" creationdate="20210923T190948Z">
+        <seg>For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
+|Number of backup files|10|Number of backup copies created when the maximum size of the log file is exceeded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, фильтр для Active Directory может быть &lt;x3/&gt;(&amp;(objectClass=user)(memberOf:1.2.840.113556.1.4.1941:=cn=test,ou=groups,dc=domain,dc=com))&lt;x4/&gt;, для OpenLDAP &lt;x5/&gt;(objectClass=posixAccount)&lt;x6/&gt;, где использование расширения &lt;x7/&gt;:1.2.840.113556.1.4.1941:&lt;x8/&gt;  для Active Directory дает возможность использовать сопоставление и по вложенным группам (можно использовать только для Active Directory).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T131832Z" creationid="Марианна" creationdate="20210923T131832Z">
@@ -43535,6 +43545,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T125625Z" creationid="Марианна" creationdate="20201110T125625Z">
         <seg>When the join is right (SQL analogue: &lt;x1/&gt;RIGHT JOIN&lt;x2/&gt;, the joined table is right) the main and joined tables are joined by the key fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При превышении данного размера, файл сохраняется с расширением .1 и создается новый.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T190107Z" creationid="Марианна" creationdate="20210923T190107Z">
+        <seg>When this size is exceeded, the file is saved with .1 extension, and the new one is created.</seg>
       </tuv>
     </tu>
     <tu>
