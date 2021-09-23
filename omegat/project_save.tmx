@@ -44527,6 +44527,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проверка состояния канала связи сервера с клиентом реализуется с помощью специального сообщения, которое периодически отправляется клиенту в том случае, если в течение заданного интервала времени на сервер не приходит ни одного сообщения с клиента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T220529Z" creationid="Марианна" creationdate="20210923T220529Z">
+        <seg>The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проверяет соответствие строки регулярному выражению.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T074836Z" creationid="Марианна" creationdate="20210407T074836Z">
