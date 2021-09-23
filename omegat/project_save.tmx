@@ -36389,6 +36389,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно использовать domain\user формат или UPN(user@domain.com), если LDAP сервер позволяет это делать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T130752Z" creationid="Марианна" creationdate="20210923T130752Z">
+        <seg>It is permissible to use domain\user format or UPN(user@domain.com) if the LDAP server makes it possible to do so.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Молоко</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103024Z" creationid="Марианна" creationdate="20201208T103024Z">
