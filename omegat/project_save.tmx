@@ -41111,6 +41111,20 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию используется пустое имя и пустой пароль, что означает анонимный доступ к LDAP.|
+|Пароль||Пароль к служебной учетной записи на чтение из LDAP|
+|Базовый домен||Доменное имя каталога &lt;x1/&gt;(ou=users,dc=domain,dc=com)&lt;x2/&gt; в котором производится поиск пользователей|
+|Фильтр LDAP|(objectClass=user)|Фильтр пользователей, в котором может быть так же произведена проверка принадлежности пользователя группе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T131622Z" creationid="Марианна" creationdate="20210923T131622Z">
+        <seg>Empty name and password are used by default that provides the anonymous access to LDAP.|
+|Password||Password for the read service account from LDAP|
+|Base domain||Domain name of the directory &lt;x1/&gt;(ou=users,dc=domain,dc=com)&lt;x2/&gt; in which users are searched for|
+|LDAP filter|(objectClass=user)|User filter in which it is also possible to verify user affiliation with a group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию используется символ знака вопроса &lt;x3/&gt;?&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153340Z" creationid="Марианна" creationdate="20200917T153340Z">
