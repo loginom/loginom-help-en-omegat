@@ -41025,6 +41025,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию задан пустой строкой и в этом случае не производится проверка LDAP пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T125003Z" creationid="Марианна" creationdate="20210923T125003Z">
+        <seg>It is set by the empty string by default. In this case, the LDAP users are not checked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию значение коэффициента отталкивания установлено 2,6.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083445Z" creationid="Марианна" creationdate="20201210T083445Z">
