@@ -24213,6 +24213,18 @@ Assertion failed: lie 1 != 0</seg>
       <tuv lang="ru">
         <seg>|Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
+|Выполнение запрещено|true|Параметр запрещает выполнение узла &lt;x1/&gt;Выполнение программы&lt;x2/&gt;, если выставлено значение true, и позволяет выполнять узел при значении false|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T135522Z" creationid="Марианна" creationdate="20210923T135522Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Execution forbidden|true|The parameter forbids execution of the &lt;x1/&gt;Program execution&lt;x2/&gt; node if true value is set, and enables to execute the node when the value is false|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
 |Личные данные пользователя|UserStorage|Параметр отвечает за название каталога, в котором располагаются личные каталоги &lt;x1/&gt;пользователей&lt;x2/&gt; и создаваемые в &lt;x3/&gt;Общие папки&lt;x4/&gt;|
 |Резервные копии сессии|SessionBackup|Параметр задает название каталога для резервных копий сессий|</seg>
       </tuv>
