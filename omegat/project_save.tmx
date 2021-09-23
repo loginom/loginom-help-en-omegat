@@ -43105,6 +43105,16 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При значении true при каждом запуске лог-файл будет перезаписывать старый.|
+|Максимальный размер файла|10484760|Максимальный размер лог-файла, задается в байтах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T190015Z" creationid="Марианна" creationdate="20210923T190015Z">
+        <seg>If the value is true, the log file will rewrite the old one at each start.|
+|Maximum file size|10484760|The maximum size of the log file is set in bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При значении параметра, равном 1, алгоритм формирует классы таким образом, чтобы в каждый из них попало примерно одинаковое число наблюдений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T140340Z" creationid="Марианна" creationdate="20210530T140340Z">
