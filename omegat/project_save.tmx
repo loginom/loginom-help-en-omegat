@@ -39715,6 +39715,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отключение проверки соединения может привести к блокировки пакетов сервером, т.к. сервер не сможет определить разрыв связи с клиентом и будет считать, что пакет все еще используется клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T221522Z" creationid="Марианна" creationdate="20210923T221522Z">
+        <seg>The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client and it will consider that the package is still being used by the client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отключить &lt;x1/&gt;автосинхронизацию полей&lt;x2/&gt; и при необходимости задать нужные поля/переменные (рекомендуется).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T121610Z" creationid="Марианна" creationdate="20210217T121610Z">
