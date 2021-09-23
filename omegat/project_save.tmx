@@ -23707,6 +23707,16 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|
+|Порт|389|Номер порта для подключения к серверу LDAP.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T125054Z" creationid="Марианна" creationdate="20210923T125054Z">
+        <seg>|
+|Port|389|Number of the port for the LDAP server connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>| (горизонтальная линия).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T065028Z" creationid="Марианна" creationdate="20201023T065028Z">
