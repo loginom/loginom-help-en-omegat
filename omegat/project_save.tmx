@@ -25417,6 +25417,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В журнале регистрации (лог-файле) фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210923T184207Z" creationid="Марианна" creationdate="20210923T184207Z">
+        <seg>Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in case of error occurrence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В зависимости от конкретной ситуации пользователь может включать такие неполные записи в результирующую выборку или исключать их.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T082248Z" creationid="Марианна" creationdate="20201114T082248Z">
