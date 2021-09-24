@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -31273,6 +31273,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T134553Z" creationid="Марианна" creationdate="20210218T134553Z">
         <seg>For this purpose, it is recommended to use &lt;x7/&gt;Generate unique for package&lt;x8/&gt; or &lt;x9/&gt;Generate unique for each package version&lt;x10/&gt; option for all published packages, or to set the unique namespaces manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого существует возможность задать каждому пользователю свою роль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210924T120746Z" creationid="Марианна" creationdate="20210924T120746Z">
+        <seg>For this purpose, it is possible to assign each user with his own role.</seg>
       </tuv>
     </tu>
     <tu>
