@@ -5188,6 +5188,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Вставить&lt;x4/&gt; — вставка скопированного или вырезанного элемента в текущую директорию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T092434Z" creationid="Марианна" creationdate="20210925T092434Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Insert&lt;x4/&gt;: insert the copied or cut item to the current directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Входное дерево&lt;x4/&gt; — набор данных в иерархической древовидной форме.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133310Z" creationid="Марианна" creationdate="20201001T111405Z">
@@ -5216,6 +5224,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113657Z" creationid="Марианна" creationdate="20201001T113657Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Check all&lt;x4/&gt; enables to check all nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Вырезать&lt;x4/&gt; — вырезать выбранный файл или папку и поместить в буфер обмена;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T092635Z" creationid="Марианна" creationdate="20210925T092635Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Cut&lt;x4/&gt;: cut the selected file or folder and place to the clipboard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5276,6 +5292,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить&lt;x4/&gt; — позволяет загрузить файл в открытую в текущий момент директорию, файл для загрузки следует выбрать во всплывшем окне проводника Windows;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T084331Z" creationid="Марианна" creationdate="20210925T084331Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt; enables to load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Инвертировать выделение&lt;x4/&gt; – меняет выбранные узлы на невыбранные и наоборот.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165644Z" creationid="Марианна" creationdate="20201001T165644Z">
@@ -5316,6 +5340,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Копировать&lt;x4/&gt; — копирование выбранного файла или папки в буфер обмена;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T085150Z" creationid="Марианна" creationdate="20210925T085150Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Copy&lt;x4/&gt;: copy the selected file or folder to the clipboard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить порядок выполнения&lt;x4/&gt; — позволяет задать собственный порядок выполнения узлов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132439Z" creationid="Марианна" creationdate="20200819T132439Z">
@@ -5328,6 +5360,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132958Z" creationid="Марианна" creationdate="20200819T132958Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure node activation mode&lt;x4/&gt; provides configuration of activation mode for the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Обновить список&lt;x4/&gt; — отображает актуальное содержание текущей директории.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093021Z" creationid="Марианна" creationdate="20210925T093021Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Update list&lt;x4/&gt;: display the actual contents of the current directory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5360,6 +5400,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T072807Z" creationid="Марианна" creationdate="20200817T072807Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Cancel&lt;x4/&gt; enables to cancel execution of the selected process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переименовать&lt;x4/&gt; — изменение имени выбранной папки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T084945Z" creationid="Марианна" creationdate="20210925T084945Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Rename&lt;x4/&gt;: change the name of the selected folder.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5452,6 +5500,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Скачать&lt;x4/&gt; — скачать выбранный элемент в системную папку загрузок пользователя; файлы также можно скачивать, делая по ним двойной клик левой кнопкой мыши;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T084952Z" creationid="Марианна" creationdate="20210925T084914Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Download&lt;x4/&gt;: dowload the selected item to the system folder for user downloads. It is also possible to download files by its double click of the left mouse button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Скрыть боковую панель&lt;x4/&gt; — нажатие на кнопку скрывает панель со списком входных столбцов, повторное нажатие возвращает панель;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210621T083006Z" creationid="Марианна" creationdate="20210621T083006Z">
@@ -5476,10 +5532,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать каталог&lt;x4/&gt; — создание папки в директории, открытой в текущий момент;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T084428Z" creationid="Марианна" creationdate="20210925T084428Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create directory&lt;x4/&gt;: folder creation in the currently opened directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все заверенные процессы...&lt;x4/&gt; — удаляет все завершенные процессы из списка информационной панели;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073305Z" creationid="Марианна" creationdate="20200817T073305Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all completed processes...&lt;x4/&gt; enables to delete all completed processes from the information panel list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все&lt;x4/&gt; — удаляет все элементы текущей директории.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T094433Z" creationid="Марианна" creationdate="20210925T094433Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all&lt;x4/&gt;: delete all items of the current directory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5496,6 +5568,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T142503Z" creationid="Марианна" creationdate="20201115T142503Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete field&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удаление выбранного файла или папки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T092659Z" creationid="Марианна" creationdate="20210925T092659Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt;: delete the selected file or folder.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6032,6 +6112,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133431Z" creationid="Марианна" creationdate="20200819T133431Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Delete selected enables to delete the selected nodes/links of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Файловое хранилище</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T075755Z" creationid="Марианна" creationdate="20210925T075755Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; File Storage</seg>
       </tuv>
     </tu>
     <tu>
@@ -9140,6 +9228,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065337Z" creationid="Марианна" creationdate="20200812T065337Z">
         <seg>&lt;x1/&gt;Validation of models&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Валидация&lt;x2/&gt; — проверка правильности работы (предсказательной способности) аналитической модели, построенной на основе машинного обучения, а также удостоверение, что она соответствует требованиям решаемой задачи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T112922Z" creationid="Марианна" creationdate="20210925T112922Z">
+        <seg>&lt;x1/&gt;Validation&lt;x2/&gt; is a check of the operation correctness (prediction ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15977,6 +16073,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085748Z" creationid="Марианна" creationdate="20200814T085748Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When following this link, it is required to enter corresponding login and password (if any).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При работе в редакции Personal и Community файловый менеджер отсутствует, так как это версии программ предназначенные для персональной обработки, но пользователь имеет доступ ко всему файловому пространству локального компьютера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T081824Z" creationid="Марианна" creationdate="20210925T081824Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When using the Personal and Community editions, the file manager is not available as these program versions are designated for the personal processing but a user has access to the whole file space of the local computer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24993,6 +25097,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без валидации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T113121Z" creationid="Марианна" creationdate="20210925T113121Z">
+        <seg>Without validation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Без валидации - &lt;x1/&gt;валидация&lt;x2/&gt; обучения Нейросети не производится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T101053Z" creationid="Марианна" creationdate="20201222T101053Z">
@@ -25069,6 +25181,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222735Z" creationid="Марианна" creationdate="20210218T222735Z">
         <seg>Binary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Благодаря этому пользователи с ролью «Просмотр отчетов» получают доступ к единому узлу, где хранятся все преднастроенные отчеты проекта, что делает навигацию в системе более доступной и быстрой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T061023Z" creationid="Марианна" creationdate="20210925T061023Z">
+        <seg>Consequently, the users with "View reports" role are provided with access to the unified node where all preconfigured project reports are kept that makes the system navigation quicker and more comprehensible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25525,6 +25645,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T160000Z" creationid="Марианна" creationdate="20200920T160000Z">
         <seg>Letters of the Latin alphabet from а to z and from А to Z, underscore "_" character and digits are allowed in the name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В интерфейсе файлового менеджера отображается иерархическая структура доступных пользователю папок и файлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T083616Z" creationid="Марианна" creationdate="20210925T083616Z">
+        <seg>The hierarchic structure of the folders and files available to a user is displayed in the file manager interface.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26235,6 +26363,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В редакциях Enterprise, Standard и Team (включающих в комплект поставки сервер Loginom) все пользовательские файлы хранятся на сервере Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T080506Z" creationid="Марианна" creationdate="20210925T080506Z">
+        <seg>All user files are kept on the Loginom server in Enterprise, Standard and Team editions (the Loginom server is included into the supply package).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате будет получен набор данных, где в одном поле будет содержаться значение, соответствующее текущему отсчету (оно будет иметь то же имя, что и в исходном наборе), а слева и справа от него будут расположены поля со значениями, смещенными от текущего отсчета в прошлое и в будущее соответственно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T080549Z" creationid="Марианна" creationdate="20201114T080222Z">
@@ -26855,6 +26991,30 @@ WHERE
 CurrencyRates.Period BETWEEN &amp;start_date AND &amp;end_date
 ORDER BY
 DESC period</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Валидация моделей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T101940Z" creationid="Марианна" creationdate="20210925T101940Z">
+        <seg>Validation of Models</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Валидация не производится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T113133Z" creationid="Марианна" creationdate="20210925T113133Z">
+        <seg>Validation is not performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Варианты валидации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T113111Z" creationid="Марианна" creationdate="20210925T113111Z">
+        <seg>Validation Options</seg>
       </tuv>
     </tu>
     <tu>
@@ -30117,6 +30277,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для выделения нескольких элементов можно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093426Z" creationid="Марианна" creationdate="20210925T093426Z">
+        <seg>There are the following ways to select several items:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для вызова контекстного меню порта необходимо кликнуть мышью порт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
@@ -30653,6 +30821,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для перехода между папками можно так же использовать панель &lt;x5/&gt;Навигация&lt;x6/&gt;, в которой отображается иерархия папок пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T095443Z" creationid="Марианна" creationdate="20210925T095443Z">
+        <seg>To move between folders, it is also possible to use &lt;x5/&gt;Navigation&lt;x6/&gt; panel in which hierarchy of user folders is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для подключения к файлам Microsoft Excel 2007 и выше  (*.xlsx) в системе необходимо наличие совпадающих по разрядности с сервером Loginom компонентов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T153917Z" creationid="Марианна" creationdate="20210118T153917Z">
@@ -30845,6 +31021,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для работы с файловым хранилищем в этих редакциях предусмотрен файловый менеджер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T081201Z" creationid="Марианна" creationdate="20210925T081201Z">
+        <seg>File manager is used for the file storage operation in these editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для разбиения возможно применение различных алгоритмов (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T191024Z" creationid="Марианна" creationdate="20210629T191024Z">
@@ -30929,6 +31113,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T163118Z" creationid="Марианна" creationdate="20201001T163118Z">
         <seg>To map the fields of the input and output tree, it is required to establish links between them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для сортировки элементов текущей директории по определенному параметру следует нажать на одно из полей в верхней части файлового менеджера: &lt;x1/&gt;Имя&lt;x2/&gt;, &lt;x3/&gt;Тип&lt;x4/&gt;, &lt;x5/&gt;Размер&lt;x6/&gt;, &lt;x7/&gt;Дата изменения&lt;x8/&gt;, &lt;x9/&gt;Только чтение&lt;x10/&gt; и &lt;x11/&gt;Путь&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093848Z" creationid="Марианна" creationdate="20210925T093848Z">
+        <seg>To sort the current directory items by a particular parameter, it is required to press one of the fields in the upper part of the file manager: &lt;x1/&gt;Name&lt;x2/&gt;, &lt;x3/&gt;Type&lt;x4/&gt;, &lt;x5/&gt;Size&lt;x6/&gt;, &lt;x7/&gt;Date of change&lt;x8/&gt;, &lt;x9/&gt;Read-only&lt;x10/&gt; and &lt;x11/&gt;Path&lt;x12/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34805,6 +34997,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Клик правой кнопкой мыши по элементу в файловом менеджере вызывает контекстное меню, в котором содержатся все вышеперечисленных функции кроме &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить&lt;x4/&gt; и &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Создать каталог&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T100414Z" creationid="Марианна" creationdate="20210925T095934Z">
+        <seg>By clicking the item in the file manager with the right mouse button, it is possible to call the context menu in which all functions listed above are available, with the exception of &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt; and &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Create directory&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кнопка &lt;x1/&gt;Предпросмотр…&lt;x2/&gt; позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114352Z" creationid="Марианна" creationdate="20200823T122050Z">
@@ -35605,6 +35805,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме доступа к личной папке, администратором сервера пользователю могут быть предоставлены права на доступ к другим папкам файлового хранилища.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082327Z" creationid="Марианна" creationdate="20210925T082327Z">
+        <seg>Apart from access to the personal folder, a user can be provided with access rights to other file storage folders by the server administrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме них в контекстном меню доступны команды:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T083022Z" creationid="Марианна" creationdate="20210628T083022Z">
@@ -35733,6 +35941,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T073728Z" creationid="Марианна" creationdate="20201214T073728Z">
         <seg>Linear regression is one of the most frequently used algorithms in &lt;x1/&gt;machine learning&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Личная папка пользователя имеет то же наименование, что и его учетная запись (логин).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082503Z" creationid="Марианна" creationdate="20210925T082503Z">
+        <seg>The personal user folder and his account (login) have the same name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36237,6 +36453,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093914Z" creationid="Марианна" creationdate="20210419T093914Z">
         <seg>Control method:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод кросс-валидации K-folds</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T115300Z" creationid="Марианна" creationdate="20210925T115300Z">
+        <seg>K-folds cross validation method</seg>
       </tuv>
     </tu>
     <tu>
@@ -39907,6 +40131,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отображение каждого поля можно включить или отключить, для этого следует перенести курсор на произвольное поле и нажать на всплывшую кнопку &lt;x1/&gt;&lt;x2/&gt;, затем перенести курсор на строку &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Столбцы&lt;x6/&gt; и во всплывшем списке выставить флаги к необходимым для отображения полям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T094812Z" creationid="Марианна" creationdate="20210925T094812Z">
+        <seg>It is possible to enable or disable display of each field. For this ppurpose, it is required to hover cursor to a random field and press the pop-up &lt;x1/&gt;&lt;x2/&gt; button. Then it is required to hover cursor to &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Columns&lt;x6/&gt; row and select checkboxes for the fields to be displayed in the pop-up list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отобразить:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T190625Z" creationid="Марианна" creationdate="20200825T190625Z">
@@ -40127,6 +40359,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113610Z" creationid="Марианна" creationdate="20201001T113610Z">
         <seg>The toolbar and context menu of the Input Tree list contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель инструментов файлового менеджера предоставляет следующие возможности работы с файлами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T084027Z" creationid="Марианна" creationdate="20210925T084027Z">
+        <seg>The file manager toolbar provides the following file usage options:</seg>
       </tuv>
     </tu>
     <tu>
@@ -40863,6 +41103,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203621Z" creationid="Марианна" creationdate="20200829T203621Z">
         <seg>Drag the item from the &lt;x1/&gt;Selected items&lt;x2/&gt; list to the &lt;x3/&gt;Available items&lt;x4/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переход внутрь папки осуществляется двойным кликом курсора по ней, а переход в папку уровнем выше — двойным кликом по кнопке &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;..&lt;x4/&gt; .</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T095226Z" creationid="Марианна" creationdate="20210925T095226Z">
+        <seg>The double cursor click on the folder is used to move inside this folder. To move to the folder one level up, it is required to double click &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;..&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41629,6 +41877,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается загрузка файлов методом Drag and Drop, т.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093249Z" creationid="Марианна" creationdate="20210925T093249Z">
+        <seg>Drag and Drop file downloading is supported,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается импорт DDF-файлов платформы Deductor.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T062159Z" creationid="Марианна" creationdate="20200826T062159Z">
@@ -41999,8 +42255,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Пользователи-аналитики выводят необходимые визуализаторы на «Панель отчетов», где могут размещаться как отдельные предварительно настроенные визуализаторы, так и папки с целыми группами визуализаторов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T055134Z" creationid="Марианна" creationdate="20210925T055134Z">
-        <seg>The users who are analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with groups of visuzlizers can be placed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T070828Z" creationid="Марианна" creationdate="20210925T055134Z">
+        <seg>The users who are analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with groups of visualizers can be placed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43185,6 +43441,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При выставлении флага в чекбоксе поля выделяет все элементы в текущей директории.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T094337Z" creationid="Марианна" creationdate="20210925T094337Z">
+        <seg>When selecting the field checkbox, all items in the current directory are selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При выявлении ветви со значением "истина" проверка останавливается, ветвь становится активной, а остальные блокируются, даже если ниже по списку остались истинные;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065145Z" creationid="Марианна" creationdate="20200924T065145Z">
@@ -43411,6 +43675,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Загрузить&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Создать каталог&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Вставить&lt;x20/&gt; и &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Обновить список&lt;x24/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T101122Z" creationid="Марианна" creationdate="20210925T101122Z">
+        <seg>It is possible to call the context menu by clicking the free area of the file manager. It includes the following functions: &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Load&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Create directory&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Insert&lt;x20/&gt; and &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Update list&lt;x24/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При левом соединении (SQL-аналог: &lt;x1/&gt;LEFT JOIN&lt;x2/&gt;, левой таблицей является главная таблица) главная и присоединяемая таблицы связываются по ключевым полям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065003Z" creationid="Марианна" creationdate="20201110T114126Z">
@@ -43603,6 +43875,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При первом нажатии на поле выполняется сортировка по возрастанию &lt;x1/&gt;&lt;x2/&gt;, при втором — по убыванию &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T094128Z" creationid="Марианна" creationdate="20210925T094128Z">
+        <seg>The first field pressing enables the sorting in ascending &lt;x1/&gt;&lt;x2/&gt; order, the second pressing enables the soring in descending order &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При первом открытии мастера настройки список выражений содержит один элемент с именем &lt;x1/&gt;Expr0&lt;x2/&gt; вещественного типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T161844Z" creationid="Марианна" creationdate="20201005T161823Z">
@@ -43759,6 +44039,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T062847Z" creationid="Марианна" creationdate="20201023T062847Z">
         <seg>When using the cross table, new values can appear in the fields by which the columns were generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При работе с сервером Loginom каждый из пользователей имеет личную папку в файловом хранилище.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T081855Z" creationid="Марианна" creationdate="20210925T081855Z">
+        <seg>When using the Loginom server, each user has his own folder in the file storage.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44647,6 +44935,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проводится на независимом (т.е. не использовавшемся для обучения и тестирования) валидационном множестве после обучения и тестирования модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T113057Z" creationid="Марианна" creationdate="20210925T113057Z">
+        <seg>It is performed on the basis of the independent validation set (namely, the set that has not been used for training and testing) after the model training and testing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Прогнозирование временных рядов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T073125Z" creationid="Марианна" creationdate="20201208T073125Z">
@@ -44963,6 +45259,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085659Z" creationid="Марианна" creationdate="20201102T085659Z">
         <seg>The modules import paths can be relative and absolute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Путь к файлу или пакету внутри файлового хранилища задается относительно папки UserStorage.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082636Z" creationid="Марианна" creationdate="20210925T082636Z">
+        <seg>The path to a file or package in the file storage is set relative to the UserStorage folder.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47969,6 +48273,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также в среди полей файлового менеджера присутствуют чекбокс и &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Удалить все&lt;x8/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T094231Z" creationid="Марианна" creationdate="20210925T094231Z">
+        <seg>Checkbox and &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Delete all&lt;x8/&gt; are also available in the file manager fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также возможно задать верхнюю и нижнюю границу ограничения формы активационной функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T083356Z" creationid="Марианна" creationdate="20201225T083300Z">
@@ -48221,6 +48533,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070046Z" creationid="Марианна" creationdate="20200715T070046Z">
         <seg>Thus, a list of variables can be transferred from node to node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, перед тем как использовать какой-либо файл в сценарии, его необходимо предварительно поместить в файловое хранилище на сервере.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T080732Z" creationid="Марианна" creationdate="20210925T080732Z">
+        <seg>Thus, before any file is used in the workflow, it is preliminarily placed into the file storage on the server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49213,6 +49533,22 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Файловый менеджер вызывается по кнопке &lt;x1/&gt;&lt;x2/&gt; на &lt;x3/&gt;Главном меню&lt;x4/&gt; и предоставляет необходимый инструментарий для работы с файловым хранилищем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082930Z" creationid="Марианна" creationdate="20210925T082930Z">
+        <seg>The file manager is called using &lt;x1/&gt;&lt;x2/&gt; button of the  &lt;x3/&gt;Main Menu&lt;x4/&gt;. This tool is required for the file storage operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Файлы при этом копируются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093340Z" creationid="Марианна" creationdate="20210925T093340Z">
+        <seg>In this case, files are copied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Фактически вспомогательные данные рассматриваются алгоритмом как еще одни элементы транзакций, и обозначение "вспомогательные" они имеют лишь в контексте аналитической задачи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T192021Z" creationid="Марианна" creationdate="20201208T192021Z">
@@ -49265,6 +49601,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071113Z" creationid="Марианна" creationdate="20201023T071113Z">
         <seg>Measures for them will be aggregated in the &lt;x9/&gt;Null values&lt;x10/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Физически все папки пользователей располагаются на сервере по следующему пути: &lt;x1/&gt;"C:\ProgramData\BaseGroup\Loginom 6\UserStorage"&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082123Z" creationid="Марианна" creationdate="20210925T082123Z">
+        <seg>Physically, the following path is used for location of all user folders on the server: &lt;x1/&gt;"C:\ProgramData\BaseGroup\Loginom 6\UserStorage"&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50561,6 +50905,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Этот путь можно изменить в конфигурационных файлах сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082152Z" creationid="Марианна" creationdate="20210925T082152Z">
+        <seg>This path can be changed in the configuration files of the Loginom server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этот раздел в интерфейсе программы нужен для управления &lt;x1/&gt;пользователями&lt;x2/&gt;, &lt;x3/&gt;рабочими папками&lt;x4/&gt; и &lt;x5/&gt;параметрами&lt;x6/&gt; работы сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T094317Z" creationid="Марианна" creationdate="20210913T094317Z">
@@ -50797,6 +51149,22 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133246Z" creationid="Марианна" creationdate="20210220T152645Z">
         <seg>will cause an error, and when this checkbox is selected, the handler will interpret such notice as the correct one:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>выделить их поочередно, зажав клавишу &lt;x1/&gt;Ctrl&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T094946Z" creationid="Марианна" creationdate="20210925T094946Z">
+        <seg>it is possible to select them alternately by pressing &lt;x1/&gt;Ctrl&lt;x2/&gt; button;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>выделить первый элемент и затем, зажав клавишу &lt;x1/&gt;Shift&lt;x2/&gt;, выделить последний элемент в последовательности файлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093645Z" creationid="Марианна" creationdate="20210925T093645Z">
+        <seg>it is possible to select the first item, and then select the last item in the sequence of files by pressing &lt;x1/&gt;Shift&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51121,6 +51489,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>каждый из них отметить флагом в чекбоксе;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093526Z" creationid="Марианна" creationdate="20210925T093526Z">
+        <seg>each of them can be selected with a checkbox;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>конец</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T103115Z" creationid="Марианна" creationdate="20201118T103115Z">
@@ -51387,8 +51763,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>перетаскивания мышью (Drag-and-drop);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201203T141226Z" creationid="Марианна" creationdate="20201115T141351Z">
-        <seg>вrag-and-drop method;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093048Z" creationid="Марианна" creationdate="20201115T141351Z">
+        <seg>drag-and-drop method;</seg>
       </tuv>
     </tu>
     <tu>
@@ -51437,6 +51813,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060254Z" creationid="Марианна" creationdate="20201116T060254Z">
         <seg>&lt;x1/&gt;"Value field"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>полный путь к пакету: &lt;x1/&gt;"C:\ProgramData\BaseGroup\Loginom 6\UserStorage\&lt;user&gt;\test.lgp"&lt;x2/&gt;, где &lt;x3/&gt;&lt;user&gt;&lt;x4/&gt; — логин пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082711Z" creationid="Марианна" creationdate="20210925T082711Z">
+        <seg>full path to the package: &lt;x1/&gt;"C:\ProgramData\BaseGroup\Loginom 6\UserStorage\&lt;user&gt;\test.lgp"&lt;x2/&gt; where &lt;x3/&gt;&lt;user&gt;&lt;x4/&gt; is a user login;</seg>
       </tuv>
     </tu>
     <tu>
@@ -51501,6 +51885,22 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170150Z" creationid="Марианна" creationdate="20201111T170150Z">
         <seg>null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>путем перетаскивания файлов в окно файлового менеджера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T093314Z" creationid="Марианна" creationdate="20210925T093314Z">
+        <seg>by dragging files to the file manager window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>путь к пакету внутри файлового хранилища: &lt;x1/&gt;&lt;user&gt;/test.lgp&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T082736Z" creationid="Марианна" creationdate="20210925T082736Z">
+        <seg>path to the package in the file storage: &lt;x1/&gt;&lt;user&gt;/test.lgp&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
