@@ -1,31 +1,31 @@
-# Валидация моделей
+# Validation of Models
 
-**Валидация** — проверка правильности работы (предсказательной способности) аналитической модели, построенной на основе машинного обучения, а также удостоверение, что она соответствует требованиям решаемой задачи.
+**Validation** is a check of the operation correctness (prediction ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.
 
-Проводится на независимом (т.е. не использовавшемся для обучения и тестирования) валидационном множестве после обучения и тестирования модели.
+It is performed on the basis of the independent validation set (namely, the set that has not been used for training and testing) after the model training and testing.
 
-## Варианты валидации
+## Validation Options
 
-### Без валидации
+### Without validation
 
-Валидация не производится.
+Validation is not performed.
 
-### Метод кросс-валидации K-folds
+### K-folds cross validation method
 
-Метод формирования обучающего и тестового множеств для обучения аналитической модели в условиях недостаточности исходных данных или неравномерного представления классов.
+The method used for selection of training and test sets for the analytical model training under conditions of insufficient source data or nonuniform display of classes.
 
-Для успешного обучения аналитической модели необходимо, чтобы классы были представлены в обучающем множестве примерно в одинаковой пропорции. Однако, если данных недостаточно или процедура ["сэмплинга"](./preprocessing/sampling.md) при формировании обучающего множества была произведена неудачно, один из классов может оказаться доминирующим. Это может вызвать "перекос" в процессе обучения, и доминирующий класс будет рассматриваться как наиболее вероятный. Метод перекрестной проверки позволяет избежать этого.
+To provide the successful training of the analytical model, it is required to display classes in the training set approximately in the equal proportion. However, if there is no sufficient data or the ["sampling"](./preprocessing/sampling.md) procedure was unsuccessfully performed when selecting the training set, one of the classes can become dominating. It can be considered as imbalance in the training process, and the dominating class will be considered as the most probable. The cross validation method enables to avoid it.
 
-В его основе лежит разделение исходного множества данных на $$k$$ колод, например $$k=5$$. Затем на $$k-1$$, т.е. на 4-х блоках, производится обучение модели, а 5-й блок используется для тестирования. Процедура повторяется $$k$$ раз, при этом на каждом проходе для проверки выбирается новый блок, а обучение производится на оставшихся.
+It is based on division of the source data set to $$k$$ folds, for example, $$k=5$$. Then to $$k-1$$, namely, the model is trained on 4 blocks, and the 5th block is used for testing. The procedure is repeated $$k$$ times. In this case, the new block is selected for check during each check, wheres the training is performed with the remaining ones.
 
-Перекрестная проверка имеет два основных преимущества перед применением одного множества для обучения и одного для тестирования модели:
+The cross validation has two main advantages as compared with usage of one set for training and one set for testing of the model:
 
 * распределение классов оказывается более равномерным, что улучшает качество обучения;
 * если при каждом проходе оценить выходную ошибку модели и усреднить ее по всем проходам, то полученная ее оценка будет более достоверной.
 
 На практике чаще всего выбирается $$k=10$$ (10 — проходная перекрестная проверка), когда модель обучается на 9/10 данных и тестируется на 1/10. Исследования показали, что в этом случае получается наиболее достоверная оценка выходной ошибки модели.
 
-![Метод кросс-валидации K-folds](./validation-1.svg)
+![K-folds cross validation method](./validation-1.svg)
 
 ### Метод Монте-Карло
 

@@ -26,7 +26,7 @@ It is possible to filter the list of fields specifying the field name or caption
 
 To configure sorting, it is required to move the required fields to the *Sort fields* list using the following methods:
 
-* вrag-and-drop method;
+* drag-and-drop method;
 * double click on the field;
 * by pressing *Add* ![](../../images/icons/toolbar-controls/arrow-r_default.svg) button.
 

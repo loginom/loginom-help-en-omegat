@@ -1,15 +1,15 @@
 # User Roles
 
-Процесс анализа данных можно разделить на 2 этапа: разработка аналитических моделей и просмотр готовых отчетов.
+The analysis process can be divided into 2 stages, namely, development of the analytical models and review of finished reports.
 
-Разработка аналитических моделей — нетривиальная задача, требующая понимания методики анализа и особенностей ведения бизнеса. Обычно в компаниях этим занимается ограниченное количество опытных аналитиков.
+Development of the analytical models is not a standard task. It is required to understand the analysis methods and peculiarities of business operations. As a rule, a limited number of experienced analysts hold responsibility for this task in companies.
 
-Просматривать отчеты должны многие сотрудники из различных подразделений компании: топ-менеджеры, руководители департаментов, специалисты различных отделов и другие. Для них необходимо обеспечить доступ к нужным результатам без необходимости погружения в процесс разработки.
+Many employees from different departments must review reports: top managers, heads of departments, specialists of different departments, etc. They must be provided with access to the required results without necessity of thorough understanding of the development process.
 
 For this purpose, it is possible to assign each user with his own role.
 
-Пользователь с ролью «Проектирование сценариев» получает доступ ко всем аналитическим возможностям Loginom. Он может разрабатывать логику обработки, создавать веб-сервисы, реализовывать и делиться собственными компонентами, подключаться к внешним источникам и прочее.
+The user with the "Workflows design" role is provided with access to all analytical options of Loginom. He can develop the processing logics, create web services, implement and share his own components, connect to the external sources, etc.
 
-Пользователь с ролью «Просмотр отчетов» имеет доступ только к узлу с настроенными отчетами. Он может манипулировать отчетами: изменять их вид, группировать данные, настраивать фильтры, менять типы графиков. Однако, сама реализация логики расчетов от него скрыта.
+The user with "View reports" role is provided with access only to the node with configured reports. He can operate the reports: change their kind, group data, configure filters, change types of charts. However, the calculation logics is not avaliable for him.
 
-Пользователи-аналитики выводят необходимые визуализаторы на «Панель отчетов», где могут размещаться как отдельные предварительно настроенные визуализаторы, так и папки с целыми группами визуализаторов. Благодаря этому пользователи с ролью «Просмотр отчетов» получают доступ к единому узлу, где хранятся все преднастроенные отчеты проекта, что делает навигацию в системе более доступной и быстрой.
+The users who are analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with groups of visualizers can be placed. Consequently, the users with "View reports" role are provided with access to the unified node where all preconfigured project reports are kept that makes the system navigation quicker and more comprehensible.
