@@ -12801,6 +12801,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метод кросс-валидации K-folds&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T115820Z" creationid="Марианна" creationdate="20210925T115820Z">
+        <seg>&lt;x1/&gt;K-folds cross validation method&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метод разгруппировки&lt;x2/&gt; — в выпадающем списке выбирается один из трех методов разгруппировки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T110124Z" creationid="Марианна" creationdate="20201126T110124Z">
@@ -25593,6 +25601,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В его основе лежит разделение исходного множества данных на $$k$$ колод, например $$k=5$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T121231Z" creationid="Марианна" creationdate="20210925T121231Z">
+        <seg>It is based on division of the source data set to $$k$$ folds, for example, $$k=5$$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В журнале регистрации (лог-файле) фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T184207Z" creationid="Марианна" creationdate="20210923T184207Z">
@@ -31245,6 +31261,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для успешного обучения аналитической модели необходимо, чтобы классы были представлены в обучающем множестве примерно в одинаковой пропорции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T115958Z" creationid="Марианна" creationdate="20210925T115958Z">
+        <seg>To provide the successful training of the analytical model, it is required to display classes in the training set approximately in the equal proportion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для устранения этого различия в публикуемых подмоделях Loginom в имени порта должно указываться &lt;x3/&gt;&lt;Не задано&gt;&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T220339Z" creationid="Марианна" creationdate="20210218T220339Z">
@@ -36465,6 +36489,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод перекрестной проверки позволяет избежать этого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T121338Z" creationid="Марианна" creationdate="20210925T121338Z">
+        <seg>The cross validation method enables to avoid it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод получения окончательного решения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201017T193732Z" creationid="Марианна" creationdate="20201013T160019Z">
@@ -36485,6 +36517,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T081328Z" creationid="Марианна" creationdate="20201214T081328Z">
         <seg>Method of partition to training and test sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метод формирования обучающего и тестового множеств для обучения аналитической модели в условиях недостаточности исходных данных или неравномерного представления классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T115841Z" creationid="Марианна" creationdate="20210925T115609Z">
+        <seg>The method used for selection of training and test sets for the analytical model training under conditions of insufficient source data or nonuniform display of classes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39519,6 +39559,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T161312Z" creationid="Марианна" creationdate="20200718T161312Z">
         <seg>However, it is not always possible to insert the universal component into particular workflow without introduction of changes into it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однако, если данных недостаточно или процедура &lt;x1/&gt;"сэмплинга"&lt;x2/&gt; при формировании обучающего множества была произведена неудачно, один из классов может оказаться доминирующим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T120714Z" creationid="Марианна" creationdate="20210925T120714Z">
+        <seg>However, if there is no sufficient data or the &lt;x1/&gt;"sampling"&lt;x2/&gt; procedure was unsuccessfully performed when selecting the training set, one of the classes can become dominating.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50749,6 +50797,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T202900Z" creationid="Марианна" creationdate="20200921T202900Z">
         <seg>This count is set by the "Group count" parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это может вызвать "перекос" в процессе обучения, и доминирующий класс будет рассматриваться как наиболее вероятный.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T121003Z" creationid="Марианна" creationdate="20210925T120857Z">
+        <seg>It can be considered as imbalance in the training process, and the dominating class will be considered as the most probable.</seg>
       </tuv>
     </tu>
     <tu>
