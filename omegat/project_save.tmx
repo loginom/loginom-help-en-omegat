@@ -32990,6 +32990,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Затем на $$k-1$$, т.е. на 4-х блоках, производится обучение модели, а 5-й блок используется для тестирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T121903Z" creationid="Марианна" creationdate="20210925T121903Z">
+        <seg>Then to $$k-1$$, namely, the model is trained on 4 blocks, and the 5th block is used for testing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Затем на место удаленной подстроки вставляется Вставляемая\_строка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T100038Z" creationid="Марианна" creationdate="20210407T100038Z">
