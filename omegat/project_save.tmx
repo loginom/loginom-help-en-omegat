@@ -40907,6 +40907,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перекрестная проверка имеет два основных преимущества перед применением одного множества для обучения и одного для тестирования модели:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122232Z" creationid="Марианна" creationdate="20210925T122232Z">
+        <seg>The cross validation has two main advantages as compared with usage of one set for training and one set for testing of the model:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перекрестное соединение (SQL-аналог: &lt;x1/&gt;CROSS JOIN&lt;x2/&gt;)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T180530Z" creationid="Марианна" creationdate="20201109T163626Z">
@@ -45155,6 +45163,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201341Z" creationid="Марианна" creationdate="20210601T201341Z">
         <seg>They will be assigned according to thе lower bound</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Процедура повторяется $$k$$ раз, при этом на каждом проходе для проверки выбирается новый блок, а обучение производится на оставшихся.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122121Z" creationid="Марианна" creationdate="20210925T122121Z">
+        <seg>The procedure is repeated $$k$$ times. In this case, the new block is selected for check during each check, wheres the training is performed with the remaining ones.</seg>
       </tuv>
     </tu>
     <tu>
