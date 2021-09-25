@@ -30541,6 +30541,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для них необходимо обеспечить доступ к нужным результатам без необходимости погружения в процесс разработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T054010Z" creationid="Марианна" creationdate="20210925T054010Z">
+        <seg>They must be provided with access to the required results without necessity of thorough understanding of the development process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для обращения к опубликованным сервисам из сценария Loginom используются компоненты &lt;x1/&gt;&lt;x2/&gt;SOAP-запрос&lt;x3/&gt;&lt;x4/&gt; и &lt;x5/&gt;&lt;x6/&gt;REST-запрос&lt;x7/&gt;&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T135228Z" creationid="Марианна" creationdate="20210215T154652Z">
@@ -39187,6 +39195,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обычно в компаниях этим занимается ограниченное количество опытных аналитиков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T053735Z" creationid="Марианна" creationdate="20210925T053735Z">
+        <seg>As a rule, a limited number of experienced analysts hold responsibility for this task in companies.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обязательные поля:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T101256Z" creationid="Марианна" creationdate="20201011T101256Z">
@@ -39295,6 +39311,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103048Z" creationid="Марианна" creationdate="20201009T103048Z">
         <seg>However, in this case, the "User variables" port contains its own set of variables used only inside the Supernode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однако, сама реализация логики расчетов от него скрыта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T054755Z" creationid="Марианна" creationdate="20210925T054755Z">
+        <seg>However, the calculation logics is not avaliable for him.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39415,6 +39439,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T140615Z" creationid="Марианна" creationdate="20200716T140615Z">
         <seg>It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он может манипулировать отчетами: изменять их вид, группировать данные, настраивать фильтры, менять типы графиков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T054704Z" creationid="Марианна" creationdate="20210925T054704Z">
+        <seg>He can operate the reports: change their kind, group data, configure filters, change types of charts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он может разрабатывать логику обработки, создавать веб-сервисы, реализовывать и делиться собственными компонентами, подключаться к внешним источникам и прочее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T054322Z" creationid="Марианна" creationdate="20210925T054322Z">
+        <seg>He can develop the processing logics, create web services, implement and share his own components, connect to the external sources, etc.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41957,6 +41997,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пользователи-аналитики выводят необходимые визуализаторы на «Панель отчетов», где могут размещаться как отдельные предварительно настроенные визуализаторы, так и папки с целыми группами визуализаторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T055134Z" creationid="Марианна" creationdate="20210925T055134Z">
+        <seg>The users who are analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with groups of visuzlizers can be placed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пользователь должен иметь в виду данное обстоятельство при принятии решения о преобразовании типа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T105627Z" creationid="Марианна" creationdate="20201015T193709Z">
@@ -41969,6 +42017,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164805Z" creationid="Марианна" creationdate="20200920T164805Z">
         <seg>A user can set a list and values of the user variables. In this case, the area of their usage will be restricted by the &lt;x9/&gt;Supernode&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пользователь с ролью «Проектирование сценариев» получает доступ ко всем аналитическим возможностям Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T054122Z" creationid="Марианна" creationdate="20210925T054122Z">
+        <seg>The user with the "Workflows design" role is provided with access to all analytical options of Loginom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пользователь с ролью «Просмотр отчетов» имеет доступ только к узлу с настроенными отчетами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T054512Z" creationid="Марианна" creationdate="20210925T054512Z">
+        <seg>The user with "View reports" role is provided with access only to the node with configured reports.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44727,6 +44791,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Просматривать отчеты должны многие сотрудники из различных подразделений компании: топ-менеджеры, руководители департаментов, специалисты различных отделов и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T053900Z" creationid="Марианна" creationdate="20210925T053900Z">
+        <seg>Many employees from different departments must review reports: top managers, heads of departments, specialists of different departments, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проставятся, основываясь на нижней границе</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201341Z" creationid="Марианна" creationdate="20210601T201341Z">
@@ -44747,6 +44819,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T205645Z" creationid="Марианна" creationdate="20201217T205645Z">
         <seg>Percentage of &lt;x1/&gt;classification&lt;x2/&gt; errors of the training set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Процесс анализа данных можно разделить на 2 этапа: разработка аналитических моделей и просмотр готовых отчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T053442Z" creationid="Марианна" creationdate="20210925T053442Z">
+        <seg>The analysis process can be divided into 2 stages, namely, development of the analytical models and review of finished reports.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45115,6 +45195,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210722T113103Z" creationid="Марианна" creationdate="20210722T113103Z">
         <seg>The sizes of sampling and unused sets are configured in the method parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Разработка аналитических моделей — нетривиальная задача, требующая понимания методики анализа и особенностей ведения бизнеса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T053609Z" creationid="Марианна" creationdate="20210925T053609Z">
+        <seg>Development of the analytical models is not a standard task. It is required to understand the analysis methods and peculiarities of business operations.</seg>
       </tuv>
     </tu>
     <tu>
