@@ -26,7 +26,7 @@ Composition of *Add shared folder*/*Configure shared folder* window:
 * **Path**: it is displayed here how the path to the folder relative to the root will look like.
 * **Access rights**: table with a list of users.
    * **Checkbox**: it is displayed in the field whether a user has rights to use a folder. If a checkbox is selected in the field heading, all users will be selected as the ones with folder access rights.
-   * **User**: all registered users are displayed in this columns. It is also possible to include the filter for search for a particular user into this field.
+   * **User**: all registered users are displayed in this column. It is also possible to include the filter for search for a particular user into this field.
    * **Full name**: the full user name is displayed in this column if it is set in [*Users*](./users.md) section. It is also possible to search by the filter field as in the *User* field.
 
 > **Note:** If it is required to rename a folder, the new folder is created where the contents of the old one is copied. Then the old folder is deleted.
