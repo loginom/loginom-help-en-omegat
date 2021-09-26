@@ -25195,8 +25195,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Благодаря этому пользователи с ролью «Просмотр отчетов» получают доступ к единому узлу, где хранятся все преднастроенные отчеты проекта, что делает навигацию в системе более доступной и быстрой.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T061023Z" creationid="Марианна" creationdate="20210925T061023Z">
-        <seg>Consequently, the users with "View reports" role are provided with access to the unified node where all preconfigured project reports are kept that makes the system navigation quicker and more comprehensible.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T192238Z" creationid="Марианна" creationdate="20210925T061023Z">
+        <seg>Consequently, the users with "View reports" role are provided with access to one node where all preconfigured project reports are kept that makes the system navigation more accessible and quicker.</seg>
       </tuv>
     </tu>
     <tu>
