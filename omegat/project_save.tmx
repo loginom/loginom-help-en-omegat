@@ -31511,8 +31511,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этого существует возможность задать каждому пользователю свою роль.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210924T120746Z" creationid="Марианна" creationdate="20210924T120746Z">
-        <seg>For this purpose, it is possible to assign each user with his own role.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T185422Z" creationid="Марианна" creationdate="20210924T120746Z">
+        <seg>For this purpose, it is possible to assign each user his own role.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45193,8 +45193,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Просматривать отчеты должны многие сотрудники из различных подразделений компании: топ-менеджеры, руководители департаментов, специалисты различных отделов и другие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T053900Z" creationid="Марианна" creationdate="20210925T053900Z">
-        <seg>Many employees from different departments must review reports: top managers, heads of departments, specialists of different departments, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T185120Z" creationid="Марианна" creationdate="20210925T053900Z">
+        <seg>Many employees from different subdivisions must view reports: top managers, heads of departments, specialists of different departments, etc.</seg>
       </tuv>
     </tu>
     <tu>
