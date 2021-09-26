@@ -39637,8 +39637,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Однако, сама реализация логики расчетов от него скрыта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T054755Z" creationid="Марианна" creationdate="20210925T054755Z">
-        <seg>However, the calculation logics is not avaliable for him.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T191454Z" creationid="Марианна" creationdate="20210925T054755Z">
+        <seg>However, the calculation logics is hidden from for him.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39765,8 +39765,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Он может манипулировать отчетами: изменять их вид, группировать данные, настраивать фильтры, менять типы графиков.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210926T191345Z" creationid="Марианна" creationdate="20210925T054704Z">
-        <seg>He can handle the reports: change their kind, group data, configure filters, change types of charts.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T191428Z" creationid="Марианна" creationdate="20210925T054704Z">
+        <seg>He can handle the reports: change their kind, group data, configure filters, change types of graphic charts.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42359,8 +42359,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Пользователи-аналитики выводят необходимые визуализаторы на «Панель отчетов», где могут размещаться как отдельные предварительно настроенные визуализаторы, так и папки с целыми группами визуализаторов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T070828Z" creationid="Марианна" creationdate="20210925T055134Z">
-        <seg>The users who are analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with groups of visualizers can be placed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T191903Z" creationid="Марианна" creationdate="20210925T055134Z">
+        <seg>The users-analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with whole groups of visualizers can be placed.</seg>
       </tuv>
     </tu>
     <tu>
