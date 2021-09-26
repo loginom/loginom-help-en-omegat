@@ -39637,8 +39637,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Однако, сама реализация логики расчетов от него скрыта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210926T191454Z" creationid="Марианна" creationdate="20210925T054755Z">
-        <seg>However, the calculation logics is hidden from for him.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T192557Z" creationid="Марианна" creationdate="20210925T054755Z">
+        <seg>However, the calculation logics is hidden from him.</seg>
       </tuv>
     </tu>
     <tu>
