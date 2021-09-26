@@ -1,6 +1,6 @@
 # LDAP
 
-Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server.
+Use of the LDAP authentication enables to log in to the Loginom server by means of the LDAP server.
 
 > **Note:** Both Active Directory and OpenLDAP can be used as the LDAP server.
 

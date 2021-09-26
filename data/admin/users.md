@@ -40,7 +40,7 @@ When pressing ![Add](../images/icons/toolbar-controls/plus_default.svg) *Add*/![
 
 ## Authentification Methods
 
-Use of LDAP authentication enables to log in to the Loginom server by means of the LDAP server. If the *Authentification* method is "Local", *Authentification* is performed by means of  the Loginom tools.
+Use of the LDAP authentication enables to log in to the Loginom server by means of the LDAP server. If the *Authentification* method is "Local", *Authentification* is performed by means of  the Loginom tools.
 
 > **Notes:**
 >
