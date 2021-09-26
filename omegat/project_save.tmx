@@ -45241,8 +45241,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Процесс анализа данных можно разделить на 2 этапа: разработка аналитических моделей и просмотр готовых отчетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T053442Z" creationid="Марианна" creationdate="20210925T053442Z">
-        <seg>The analysis process can be divided into 2 stages, namely, development of the analytical models and review of finished reports.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T184030Z" creationid="Марианна" creationdate="20210925T053442Z">
+        <seg>The data analysis process can be divided into 2 stages, namely, development of the analytical models and review of finished reports.</seg>
       </tuv>
     </tu>
     <tu>
