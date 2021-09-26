@@ -10,6 +10,6 @@ For this purpose, it is possible to assign each user his own role.
 
 The user with "Workflows design" role is provided with access to all analytical capabilities of Loginom. He can develop the processing logics, create web services, implement and share his own components, connect to the external sources, etc.
 
-The user with "View reports" role is provided with access only to the node with configured reports. He can handle the reports: change their kind, group data, configure filters, change types of charts. However, the calculation logics is not avaliable for him.
+The user with "View reports" role is provided with access only to the node with configured reports. He can handle the reports: change their kind, group data, configure filters, change types of graphic charts. However, the calculation logics is hidden from for him.
 
-The users who are analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with groups of visualizers can be placed. Consequently, the users with "View reports" role are provided with access to the unified node where all preconfigured project reports are kept that makes the system navigation quicker and more comprehensible.
+The users-analysts place the required visualizers to the "Reports panel" where both separate preconfigured visualizers and folders with whole groups of visualizers can be placed. Consequently, the users with "View reports" role are provided with access to one node where all preconfigured project reports are kept that makes the system navigation more accessible and quicker.
