@@ -26635,6 +26635,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В соответствии с заданной пропорцией данные случайным образом разделяются на обучающее и валидационное множество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122626Z" creationid="Марианна" creationdate="20210925T122626Z">
+        <seg>According to the set proportion the data is randomly divided into the training and validation sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В соответствии с заданными ему условиями выполняется только одна ветвь сценария и блокируется выполнение всех остальных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200923T201504Z" creationid="Марианна" creationdate="20200923T201504Z">
@@ -34628,6 +34636,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исследования показали, что в этом случае получается наиболее достоверная оценка выходной ошибки модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T125148Z" creationid="Марианна" creationdate="20210925T125148Z">
+        <seg>Research has shown that in this case the most reliable estimate of the output model error is provided.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Источник - строковое выражение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T095732Z" creationid="Марианна" creationdate="20210407T095732Z">
@@ -36441,6 +36457,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метод Монте-Карло</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122408Z" creationid="Марианна" creationdate="20210925T122408Z">
+        <seg>Monte Carlo Method</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метод валидации</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213639Z" creationid="Марианна" creationdate="20201216T213639Z">
@@ -36733,6 +36757,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T125209Z" creationid="Марианна" creationdate="20210405T125149Z">
         <seg>Function Models</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Модель строится на основе обучающего множества и проверяется на валидационном множестве.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122455Z" creationid="Марианна" creationdate="20210925T122455Z">
+        <seg>The model is trainied on the training set basis, and it is checked using the validation set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37061,6 +37093,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
         <seg>Solution of the set task is described at the first design step specifying independent subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На практике чаще всего выбирается $$k=10$$ (10 — проходная перекрестная проверка), когда модель обучается на 9/10 данных и тестируется на 1/10.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122905Z" creationid="Марианна" creationdate="20210925T122905Z">
+        <seg>Practically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45175,6 +45215,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Процедура повторяется N раз, где N-число итераций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122540Z" creationid="Марианна" creationdate="20210925T122540Z">
+        <seg>The procedure is repeated N times where N is a number of iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Процент неправильного отнесение объектов (наблюдений, событий) к одному из заранее известных классов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210114Z" creationid="Марианна" creationdate="20201217T210100Z">
@@ -51377,6 +51425,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>если при каждом проходе оценить выходную ошибку модели и усреднить ее по всем проходам, то полученная ее оценка будет более достоверной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T125404Z" creationid="Марианна" creationdate="20210925T125404Z">
+        <seg>if the output model error is estimated for each check, and its average value is defined for all checks, its received estimate will be more reliable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>ж</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103242Z" creationid="Марианна" creationdate="20201208T103242Z">
@@ -51981,6 +52037,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T082736Z" creationid="Марианна" creationdate="20210925T082736Z">
         <seg>path to the package in the file storage: &lt;x1/&gt;&lt;user&gt;/test.lgp&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>распределение классов оказывается более равномерным, что улучшает качество обучения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210925T122726Z" creationid="Марианна" creationdate="20210925T122726Z">
+        <seg>distribution of classes is more uniform that improves the training quality;</seg>
       </tuv>
     </tu>
     <tu>
