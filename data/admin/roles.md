@@ -1,6 +1,6 @@
 # User Roles
 
-The analysis process can be divided into 2 stages, namely, development of the analytical models and review of finished reports.
+The data analysis process can be divided into 2 stages, namely, development of the analytical models and review of finished reports.
 
 Development of the analytical models is not a standard task. It is required to understand the analysis methods and peculiarities of business operations. As a rule, a limited number of experienced analysts hold responsibility for this task in companies.
 
