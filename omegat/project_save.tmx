@@ -32303,8 +32303,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если пользователь уже есть в Loginom:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210913T081148Z" creationid="Марианна" creationdate="20210913T081036Z">
-        <seg>If the user has already been included into Loginom:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T194110Z" creationid="Марианна" creationdate="20210913T081036Z">
+        <seg>If the user is in Loginom:</seg>
       </tuv>
     </tu>
     <tu>
