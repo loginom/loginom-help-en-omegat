@@ -7,7 +7,7 @@ This subsection enables to create users, edit them, distribute rights, select th
 * ![Delete](../images/icons/toolbar-controls/delete_default.svg) **Delete**: delete user from the system.
 * ![Update](../images/icons/toolbar-controls/refresh_default.svg) **Update**: update the list of users and their parameters.
 
-> **Note:** When deleting a user, it is possible to save his folder with its contents.In this case, the users with the enabled *File storage full access* parameter can view its contents.
+> **Note:** When deleting a user, it is possible to save his folder with its contents. In this case, the users with the enabled *File storage full access* parameter can view its contents.
 
 %spoiler%Hotkeys%spoiler%
 
@@ -36,7 +36,7 @@ When pressing ![Add](../images/icons/toolbar-controls/plus_default.svg) *Add*/![
 |File storage full access|It displays whether a user has full access to the [file storage](../location_user_files.md), otherwise, only to the personal and [shared folders](../location_user_files.md)|
 |Block account|It displays whether a user is blocked in the system|
 
-> **Note:** Such parameters as *Administration*, *Workflows design*, *View reports*, *Access to all files*, *Interactive mode*, *Service mode* and *Blocked*, they are selected with a checkbox in the window used for creation/edition of a user, and they are selected with "•" character in the subsection table, *Authentification* parameter is selected from the drop-down list in the window used for creation/edition of a user, and it displays the selected method of the user *Authentification* in the subsection table.
+> **Note:** Such parameters as *Administration*, *Workflows design*, *View reports*, *Access to all files*, *Interactive mode*, *Service mode* and *Blocked* are selected with a checkbox in the window used for creation/edition of a user, and they are selected with "•" character in the subsection table, *Authentification* parameter is selected from the drop-down list in the window used for creation/edition of a user, and it displays the selected method of the user *Authentification* in the subsection table.
 
 ## Authentification Methods
 
