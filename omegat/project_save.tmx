@@ -15455,8 +15455,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пользователь&lt;x2/&gt; — в этом столбце отображаются все зарегистрированные пользователи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210919T145842Z" creationid="Марианна" creationdate="20210919T145842Z">
-        <seg>&lt;x1/&gt;User&lt;x2/&gt;: all registered users are displayed in this columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T195427Z" creationid="Марианна" creationdate="20210919T145842Z">
+        <seg>&lt;x1/&gt;User&lt;x2/&gt;: all registered users are displayed in this column.</seg>
       </tuv>
     </tu>
     <tu>
