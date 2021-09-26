@@ -42383,8 +42383,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Пользователь с ролью «Проектирование сценариев» получает доступ ко всем аналитическим возможностям Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T054122Z" creationid="Марианна" creationdate="20210925T054122Z">
-        <seg>The user with the "Workflows design" role is provided with access to all analytical options of Loginom.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T185727Z" creationid="Марианна" creationdate="20210925T054122Z">
+        <seg>The user with "Workflows design" role is provided with access to all analytical capabilities of Loginom.</seg>
       </tuv>
     </tu>
     <tu>
