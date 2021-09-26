@@ -33,11 +33,11 @@ If the user *Authentification* by means of LDAP is successful, and this user is 
 
 The entered username is used as a name, the "LDAP" authentification method is set, no roles are defined (administrator, developer, reports view, start in the service mode).
 
-### Methods used to check configuration correctness of the LDAP server connection parameters
+### Methods Used to Check Configuration Correctness of the LDAP Server Parameters
 
 To check connection to the LDAP server, it is possible to perform the following actions:
 
-If the user is not included in Loginom:
+If the user is not in Loginom:
 
 * Create user by means of the LDAP Authentification method. If the LDAP server connection parameters are incorrectly set, the error message with the name of the added user will appear. Otherwise, the information message will notify that the user has been added:
 
@@ -45,6 +45,6 @@ If the user is not included in Loginom:
 
 * The automatic authorization is also possible. For this purpose, it is required to enter the username and password of the account available on the LDAP server on the Loginom home page. If the authorization is successful, connection to the LDAP server from Loginom has been correctly set.
 
-If the user has already been included into Loginom:
+If the user is in Loginom:
 
 * It is required to enter the username and password of the account available on the LDAP server on the Loginom home page. If the authorization is successful, connection to the LDAP server from Loginom has been correctly set.
