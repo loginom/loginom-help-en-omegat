@@ -39765,8 +39765,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Он может манипулировать отчетами: изменять их вид, группировать данные, настраивать фильтры, менять типы графиков.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T054704Z" creationid="Марианна" creationdate="20210925T054704Z">
-        <seg>He can operate the reports: change their kind, group data, configure filters, change types of charts.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T191345Z" creationid="Марианна" creationdate="20210925T054704Z">
+        <seg>He can handle the reports: change their kind, group data, configure filters, change types of charts.</seg>
       </tuv>
     </tu>
     <tu>
