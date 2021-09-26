@@ -6,7 +6,7 @@ Use of the LDAP authentication enables to log in to the Loginom server by means 
 
 ## Configure
 
-Settings of connection to the LDAP server are analyzed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analyzed in [Users](./users.md) subsection.
+The LDAP server connection settings are analyzed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analyzed in [Users](./users.md) subsection.
 
 ## Authentification
 
