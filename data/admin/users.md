@@ -2,7 +2,7 @@
 
 This subsection enables to create users, edit them, distribute rights, select their authentification method and delete them. The section is a table with control buttons:
 
-* ![Add](../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add a new user.
+* ![Add](../images/icons/toolbar-controls/plus_default.svg) **Add**: add a new user.
 * ![Edit](../images/icons/toolbar-controls/edit_default.svg) **Edit**: edit user.
 * ![Delete](../images/icons/toolbar-controls/delete_default.svg) **Delete**: delete user from the system.
 * ![Update](../images/icons/toolbar-controls/refresh_default.svg) **Update**: update the list of users and their parameters.
