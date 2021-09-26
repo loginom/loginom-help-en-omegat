@@ -47369,8 +47369,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Способы проверки правильности настройки параметров подключения к LDAP серверу</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210913T084805Z" creationid="Марианна" creationdate="20210913T084805Z">
-        <seg>Methods used to check configuration correctness of the LDAP server connection parameters</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210926T193831Z" creationid="Марианна" creationdate="20210913T084805Z">
+        <seg>Methods Used to Check Configuration Correctness of the LDAP Server Parameters</seg>
       </tuv>
     </tu>
     <tu>
