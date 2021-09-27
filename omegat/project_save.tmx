@@ -37099,8 +37099,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На практике чаще всего выбирается $$k=10$$ (10 — проходная перекрестная проверка), когда модель обучается на 9/10 данных и тестируется на 1/10.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210927T202120Z" creationid="Марианна" creationdate="20210925T122905Z">
-        <seg>в одинаковой пропорцииPractically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210927T202559Z" creationid="Марианна" creationdate="20210925T122905Z">
+        <seg>Practically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10.</seg>
       </tuv>
     </tu>
     <tu>
