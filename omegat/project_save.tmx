@@ -9234,8 +9234,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Валидация&lt;x2/&gt; — проверка правильности работы (предсказательной способности) аналитической модели, построенной на основе машинного обучения, а также удостоверение, что она соответствует требованиям решаемой задачи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T112922Z" creationid="Марианна" creationdate="20210925T112922Z">
-        <seg>&lt;x1/&gt;Validation&lt;x2/&gt; is a check of the operation correctness (prediction ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210927T201642Z" creationid="Марианна" creationdate="20210925T112922Z">
+        <seg>&lt;x1/&gt;Validation&lt;x2/&gt; is a check of the operation correctness (predictive ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.</seg>
       </tuv>
     </tu>
     <tu>
