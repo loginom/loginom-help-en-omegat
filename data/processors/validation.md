@@ -23,10 +23,10 @@ The cross validation has two main advantages as compared with usage of one set f
 * distribution of classes is more uniform that improves the training quality;
 * if the output model error is estimated for each check, and its average value is defined for all checks, its received estimate will be more reliable.
 
-в одинаковой пропорцииPractically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10. Research has shown that in this case the most reliable estimate of the output model error is provided.
+Practically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10. Research has shown that in this case the most reliable estimate of the output model error is provided.
 
 ![K-folds cross validation method](./validation-1.svg)
 
-### Monte Carlo Method
+### Monte Carlo method
 
 According to the set proportion the data is randomly divided into the training and validation sets. The model is trainied on the training set basis, and it is checked using the validation set. The procedure is repeated N times where N is a number of iterations.
