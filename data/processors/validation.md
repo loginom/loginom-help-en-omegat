@@ -1,6 +1,6 @@
 # Validation of Models
 
-**Validation** is a check of the operation correctness (prediction ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.
+**Validation** is a check of the operation correctness (predictive ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.
 
 It is performed on the basis of the independent validation set (namely, the set that has not been used for training and testing) after the model training and testing.
 
@@ -23,7 +23,7 @@ The cross validation has two main advantages as compared with usage of one set f
 * distribution of classes is more uniform that improves the training quality;
 * if the output model error is estimated for each check, and its average value is defined for all checks, its received estimate will be more reliable.
 
-Practically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10. Research has shown that in this case the most reliable estimate of the output model error is provided.
+в одинаковой пропорцииPractically $$k=10$$ is more frequently selected (10 — 10-fold cross validation) when the model is trained using 9/10 of data and it is tested using 1/10. Research has shown that in this case the most reliable estimate of the output model error is provided.
 
 ![K-folds cross validation method](./validation-1.svg)
 
