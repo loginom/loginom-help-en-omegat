@@ -15989,6 +15989,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример использования порта связи наследования.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213826Z" creationid="Марианна" creationdate="20210928T213826Z">
+        <seg>&lt;x1/&gt;Example of use of the heritage connection port.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пример подключения и работы с БД&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T224310Z" creationid="Марианна" creationdate="20210210T224310Z">
@@ -16443,6 +16451,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="en" changeid="Марианна" changedate="20200814T123303Z" creationid="Марианна" creationdate="20200814T123303Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; this panel contains information on the &lt;x3/&gt;current application version&lt;x4/&gt; and
 &lt;x5/&gt;user name&lt;x6/&gt; under which the current session is opened (in the case of the server Loginom version). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; нахождение базового узла возможно только в том случае, если он расположен в пределах текущей области построения Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213752Z" creationid="Марианна" creationdate="20210928T213752Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to find the base node only if it is located within the current Workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27881,6 +27897,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T153411Z" creationid="Марианна" creationdate="20210528T181630Z">
         <seg>Include upper bin bounds: the upper bound value will be included into the current bin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Включить отображение родительского узла можно кнопкой &lt;x3/&gt; &lt;x4/&gt; панели инструментов области построения Сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213634Z" creationid="Марианна" creationdate="20210928T213634Z">
+        <seg>It is possible to enable display of the parenparent nodet node by &lt;x3/&gt; &lt;x4/&gt; toolbar button of the Workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
