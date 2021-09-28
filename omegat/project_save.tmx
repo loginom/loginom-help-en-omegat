@@ -27903,8 +27903,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Включить отображение родительского узла можно кнопкой &lt;x3/&gt; &lt;x4/&gt; панели инструментов области построения Сценариев.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T213634Z" creationid="Марианна" creationdate="20210928T213634Z">
-        <seg>It is possible to enable display of the parenparent nodet node by &lt;x3/&gt; &lt;x4/&gt; toolbar button of the Workflow construction area.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214143Z" creationid="Марианна" creationdate="20210928T213634Z">
+        <seg>It is possible to enable display of the parent node by &lt;x3/&gt; &lt;x4/&gt; toolbar button of the Workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43371,6 +43371,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порт связи ссылки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214055Z" creationid="Марианна" creationdate="20210928T213942Z">
+        <seg>Port of reference connection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порт связи ссылки (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214112Z" creationid="Марианна" creationdate="20210928T213952Z">
+        <seg>Port of reference connection (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт управляющих переменных принимает переменные, с помощью которых можно задать параметры настроек узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T081709Z" creationid="Марианна" creationdate="20201009T081709Z">
@@ -52931,6 +52947,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104258Z" creationid="Марианна" creationdate="20200711T104258Z">
         <seg>Figure 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 3) позволяет отобразить исходный узел для &lt;x1/&gt;Узла-ссылки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214044Z" creationid="Марианна" creationdate="20210928T214044Z">
+        <seg>Figure 3) enables to display the source node for the &lt;x1/&gt;Reference node&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
