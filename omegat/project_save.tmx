@@ -43883,6 +43883,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После создания Ссылки на внешний Пакет можно использовать созданные в нем Производные компоненты и обратиться к его объектам при помощи узлов &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;, &lt;x3/&gt;Выполнение узла&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222322Z" creationid="Марианна" creationdate="20210928T222322Z">
+        <seg>Upon creation of the Reference to the external Package, it is possible to use the Derived Components created in it and refer to its objects using &lt;x1/&gt;Reference node&lt;x2/&gt;, &lt;x3/&gt;Node execution&lt;x4/&gt; nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После создания или открытия пакета на &lt;x1/&gt;cтранице «Начало»&lt;x2/&gt; появится главное рабочее окно программы, состоящее из четырех основных блоков (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T131825Z" creationid="Марианна" creationdate="20200814T131825Z">
