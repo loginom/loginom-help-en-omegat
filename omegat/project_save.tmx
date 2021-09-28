@@ -44957,8 +44957,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При этом произойдет переход на панель управления отчетами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T100310Z" creationid="Марианна" creationdate="20210928T100310Z">
-        <seg>In this case, there will be a transition to the reports control panel.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T204026Z" creationid="Марианна" creationdate="20210928T100310Z">
+        <seg>In this case, these actions will enable to move to the reports control panel.</seg>
       </tuv>
     </tu>
     <tu>
