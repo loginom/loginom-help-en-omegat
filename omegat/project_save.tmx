@@ -26217,6 +26217,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В контекстном меню элемента Ссылки выбрать пункт &lt;x1/&gt;&lt;x2/&gt; "Добавить".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221657Z" creationid="Марианна" creationdate="20210928T221657Z">
+        <seg>select &lt;x1/&gt;&lt;x2/&gt; "Add" option in the context menu of the Reference item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В левом верхнем углу области построения Сценариев располагаются &lt;x1/&gt;порты&lt;x2/&gt; переменных Сценария:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T101816Z" creationid="Марианна" creationdate="20201009T101816Z">
@@ -37785,8 +37793,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На панели "Навигация" выбрать элемент &lt;x1/&gt;&lt;x2/&gt; Ссылки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T221607Z" creationid="Марианна" creationdate="20210928T221607Z">
-        <seg>to select &lt;x1/&gt;&lt;x2/&gt; item of the Reference on the "Navigation" panel;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221720Z" creationid="Марианна" creationdate="20210928T221607Z">
+        <seg>select &lt;x1/&gt;&lt;x2/&gt; Reference item on the "Navigation" panel;</seg>
       </tuv>
     </tu>
     <tu>
