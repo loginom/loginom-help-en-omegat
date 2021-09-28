@@ -19810,6 +19810,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;интерактивный режим работы&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225500Z" creationid="Марианна" creationdate="20210928T225500Z">
+        <seg>&lt;x1/&gt;Interactive mode of operation&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;искать по списку&lt;x2/&gt; — поиск подключения по имени/пути, возможно искать в разных группах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T055139Z" creationid="Марианна" creationdate="20210215T055139Z">
@@ -19826,6 +19834,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;кэширование&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225350Z" creationid="Марианна" creationdate="20210928T225350Z">
+        <seg>&lt;x1/&gt;caching&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;локальное&lt;x2/&gt; — подключение без использования сервера Firebird, указывается только путь к БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T083326Z" creationid="Марианна" creationdate="20210121T082916Z">
@@ -19838,6 +19854,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090723Z" creationid="Марианна" creationdate="20210121T090723Z">
         <seg>&lt;x1/&gt;Local&lt;x2/&gt;: connection without the use of the Interbase server; only a path to the DB is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;модификатора доступа&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225403Z" creationid="Марианна" creationdate="20210928T225403Z">
+        <seg>&lt;x1/&gt;access modifier&lt;x2/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -26061,6 +26085,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T195339Z" creationid="Марианна" creationdate="20200818T162349Z">
         <seg>It is required to hover a cursor over the required application in Windows File Explorer (in this case: C:\Program Files\BaseGroup\Loginom 6\Personal\Embedded.exe).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Сценариях имеется возможность создавать Производные компоненты на основе базовых.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225443Z" creationid="Марианна" creationdate="20210928T225443Z">
+        <seg>It is possible to create the Derived Components based on the base ones in the Workflows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46577,6 +46609,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T122105Z" creationid="Марианна" creationdate="20200718T162928Z">
         <seg>The Project can consist of interconnected Packages. It is possible due to the fact that &lt;x1/&gt;each package can provide its objects to other packages&lt;x2/&gt; using the mechanism of references.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проектирование сценариев</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225512Z" creationid="Марианна" creationdate="20210928T225512Z">
+        <seg>Workflows Design</seg>
       </tuv>
     </tu>
     <tu>
