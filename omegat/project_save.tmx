@@ -844,6 +844,14 @@ interface IRequire extends IRequireFunction  {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>-2 Log Likelihood;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T231007Z" creationid="Марианна" creationdate="20210928T231007Z">
+        <seg>-2 Log Likelihood;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>-2 Логарифма &lt;x1/&gt;функции правдоподобия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T210806Z" creationid="Марианна" creationdate="20201217T210806Z">
@@ -7494,6 +7502,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;JPEG&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230927Z" creationid="Марианна" creationdate="20210928T230927Z">
+        <seg>&lt;x1/&gt;JPEG&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;JavaScript&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192119Z" creationid="Марианна" creationdate="20200810T192119Z">
@@ -7862,10 +7878,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;PDF&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230930Z" creationid="Марианна" creationdate="20210928T230930Z">
+        <seg>&lt;x1/&gt;PDF&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;PKhi2(Степени\_свободы, Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124411Z" creationid="Марианна" creationdate="20210406T124411Z">
         <seg>&lt;x1/&gt;PKhi2(Degrees\_of\_freedom, Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;PNG&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230924Z" creationid="Марианна" creationdate="20210928T230924Z">
+        <seg>&lt;x1/&gt;PNG&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8162,6 +8194,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
         <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;SVG&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230932Z" creationid="Марианна" creationdate="20210928T230932Z">
+        <seg>&lt;x1/&gt;SVG&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20306,6 +20346,22 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AIC;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T231010Z" creationid="Марианна" creationdate="20210928T231010Z">
+        <seg>AIC;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>AICc;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T231012Z" creationid="Марианна" creationdate="20210928T231012Z">
+        <seg>AICc;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AMGD</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T093426Z" creationid="Марианна" creationdate="20210402T093426Z">
@@ -20486,6 +20542,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123713Z" creationid="Марианна" creationdate="20210406T123713Z">
         <seg>Avg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BIC;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T231015Z" creationid="Марианна" creationdate="20210928T231015Z">
+        <seg>BIC;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21284,6 +21348,14 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081622Z" creationid="Марианна" creationdate="20210928T081622Z">
         <seg>HDD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>HQC.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T231019Z" creationid="Марианна" creationdate="20210928T231019Z">
+        <seg>HQC.</seg>
       </tuv>
     </tu>
     <tu>
