@@ -14,7 +14,7 @@ This platform version is designated for installation on the local machine when o
 | HDD | 10 GB | 100 GB (+ User Data) |
 | USB | 1.0 | 2.0 |
 
-**Note:** The size of the used RAM is limited to 2 GB (restriction of platform).
+**Note:** The size of the used RAM is limited to 2 GB (restriction of platform x86).
 
 ## Desktop x64
 
