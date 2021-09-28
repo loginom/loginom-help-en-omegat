@@ -40649,6 +40649,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обучение (переобучение) узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230001Z" creationid="Марианна" creationdate="20210928T230001Z">
+        <seg>Node Training (Retraining)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обучение повторяется K раз, при этом на каждой итерации для валидации используется новая колода.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T080017Z" creationid="Марианна" creationdate="20201225T080017Z">
@@ -50973,6 +50981,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T091953Z" creationid="Марианна" creationdate="20201118T090810Z">
         <seg>The node performs the action similar to the &lt;x3/&gt;Left join&lt;x4/&gt; of the &lt;x5/&gt;Join&lt;x6/&gt; node but the number of joined tables is optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел не будет выполняться;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230017Z" creationid="Марианна" creationdate="20210928T230017Z">
+        <seg>The node will not be executed;</seg>
       </tuv>
     </tu>
     <tu>
