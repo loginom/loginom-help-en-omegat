@@ -48829,6 +48829,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так же добавить отчет можно нажав правой кнопкой мыши на необходимом визуализаторе и выбрать пункт меню "Добавить визуализатор в отчеты".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T095154Z" creationid="Марианна" creationdate="20210928T095154Z">
+        <seg>It is also possible to add the report by clicking the required visualizer with the right mouse button. Then it is required to select "Add visualizer to reports" menu option.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Так же значения переменных могут использоваться в качестве
 &lt;x7/&gt;управляющих переменных&lt;x8/&gt;
 для задания параметров настройки узлов.</seg>
