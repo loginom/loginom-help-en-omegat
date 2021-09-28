@@ -44923,6 +44923,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом произойдет переход на панель управления отчетами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T100310Z" creationid="Марианна" creationdate="20210928T100310Z">
+        <seg>In this case, there will be a transition to the reports control panel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом создастся узел сценария, выполняющий действие импорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
