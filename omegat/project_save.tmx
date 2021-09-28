@@ -40937,6 +40937,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Откроется окно "Добавление ссылки на пакет";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221810Z" creationid="Марианна" creationdate="20210928T221810Z">
+        <seg>"Add reference to package" window will be opened;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Откроется окно выбора настроек:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215106Z" creationid="Марианна" creationdate="20210928T215106Z">
