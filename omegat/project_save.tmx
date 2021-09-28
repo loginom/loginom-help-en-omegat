@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=test.lgp /Teach</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222553Z" creationid="Марианна" creationdate="20210928T222553Z">
+        <seg>"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=test.lgp /Teach</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>$$x^* = \frac{x-x_{min}}{x_{max}-x_{min}}*(b-a)+a$$ ,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093844Z" creationid="Марианна" creationdate="20210419T093844Z">
@@ -4836,6 +4844,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe"&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222442Z" creationid="Марианна" creationdate="20210928T222442Z">
+        <seg>&lt;x1/&gt;"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe"&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%&lt;x2/&gt; — процент выполнения процесса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063527Z" creationid="Марианна" creationdate="20200817T063527Z">
@@ -5088,6 +5104,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T174302Z" creationid="Марианна" creationdate="20210219T174302Z">
         <seg>&lt;x1/&gt;/K&lt;x2/&gt;: execution of the given command without subsequent completion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; — параметры запуска в пакетном режиме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222550Z" creationid="Марианна" creationdate="20210928T222550Z">
+        <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; are start parameters in the package mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20330,6 +20354,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>BatchLauncher /Package=&lt;FileName&gt; [/Teach] [/Node=&lt;NodeName&gt;] [/Address=&lt;Address&gt;] [/Port=&lt;Port&gt;] [/UserName=&lt;UserName&gt; [/Password=&lt;Password&gt;]] [/PortName.VarName=&lt;Value&gt;]</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222448Z" creationid="Марианна" creationdate="20210928T222448Z">
+        <seg>BatchLauncher /Package=&lt;FileName&gt; [/Teach] [/Node=&lt;NodeName&gt;] [/Address=&lt;Address&gt;] [/Port=&lt;Port&gt;] [/UserName=&lt;UserName&gt; [/Password=&lt;Password&gt;]] [/PortName.VarName=&lt;Value&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Books JOIN Publisher ON Books.PubId = Pub.Id</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112830Z" creationid="Марианна" creationdate="20200825T112830Z">
@@ -21672,6 +21704,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124357Z" creationid="Марианна" creationdate="20210406T124357Z">
         <seg>PKhi2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Package</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222615Z" creationid="Марианна" creationdate="20210928T222615Z">
+        <seg>Package</seg>
       </tuv>
     </tu>
     <tu>
@@ -29625,6 +29665,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135800Z" creationid="Марианна" creationdate="20210220T100700Z">
         <seg>Where &lt;x1/&gt;%VariableName%&lt;x2/&gt;: the variable that contains any command to be executed on the Windows command line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Где:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222459Z" creationid="Марианна" creationdate="20210928T222459Z">
+        <seg>Where:</seg>
       </tuv>
     </tu>
     <tu>
@@ -40353,6 +40401,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обязательный параметр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222629Z" creationid="Марианна" creationdate="20210928T222629Z">
+        <seg>Required parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ограничение на значение выходов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213829Z" creationid="Марианна" creationdate="20201216T213829Z">
@@ -40693,6 +40749,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135821Z" creationid="Марианна" creationdate="20210220T151045Z">
         <seg>Error description: the description of exit codes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Описание параметров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222611Z" creationid="Марианна" creationdate="20210928T222611Z">
+        <seg>Description of Parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -45781,6 +45845,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примеры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222640Z" creationid="Марианна" creationdate="20210928T222640Z">
+        <seg>Examples:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T154136Z" creationid="Марианна" creationdate="20201006T154136Z">
@@ -46369,6 +46441,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T085659Z" creationid="Марианна" creationdate="20201102T085659Z">
         <seg>The modules import paths can be relative and absolute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Путь к файлу Пакета внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222722Z" creationid="Марианна" creationdate="20210928T222722Z">
+        <seg>Path to the Package file inside the &lt;x1/&gt;file storage&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
