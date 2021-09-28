@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -25163,8 +25163,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Аналитик может создавать отчеты в предопределенных, наиболее востребованных разрезах, но не в силах предсказать все виды отчетов, которые могут потребоваться пользователю.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T101031Z" creationid="Марианна" creationdate="20210928T101031Z">
-        <seg>The analyst can create reports in the predetermined and most highly-demanded contexts but he cannot forecast all kinds of reports that can be necessary to the user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T202655Z" creationid="Марианна" creationdate="20210928T101031Z">
+        <seg>The analyst can create reports in the predetermined and most highly-demanded slices but he cannot forecast all kinds of reports that can be necessary to the user.</seg>
       </tuv>
     </tu>
     <tu>
