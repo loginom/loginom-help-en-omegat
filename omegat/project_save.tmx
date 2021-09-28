@@ -49497,6 +49497,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тогда конечный пользователь открывает панель отчетов, выбирает нужную группу и в этой группе активизирует нужный отчет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T090141Z" creationid="Марианна" creationdate="20210928T090141Z">
+        <seg>Then the end user opens the reports panel, selects the required group and activates the required report in this group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Только сверху — усеченная сверху экспонента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T080854Z" creationid="Марианна" creationdate="20201225T080854Z">
