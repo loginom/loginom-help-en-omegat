@@ -28999,8 +28999,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Возможно &lt;x1/&gt;переобучение модели&lt;x2/&gt;, унаследованной из базового узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200919T072905Z" creationid="Марианна" creationdate="20200919T072905Z">
-        <seg>&lt;x1/&gt;Retraining of the model&lt;x2/&gt; inherited from the base node is possible.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230204Z" creationid="Марианна" creationdate="20200919T072905Z">
+        <seg>&lt;x1/&gt;Model overfitting&lt;x2/&gt; inherited from the base node is possible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46639,16 +46639,16 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Продолжить обучение - установление данного флага позволяет начать переобучение модели не со случайных значений весов нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210309T141354Z" creationid="Марианна" creationdate="20201222T053351Z">
-        <seg>Continue training: selection of this checkbox enables to start the model retraining not from the random values of the neural network weights, but from the ones obtained during the last training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230213Z" creationid="Марианна" creationdate="20201222T053351Z">
+        <seg>Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the neural network weights, but from the ones obtained during the last training.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Продолжить обучение — установление данного флага позволяет начать переобучение модели не со случайных значений весов Нейросети, а с полученных при последнем обучении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210309T141414Z" creationid="Марианна" creationdate="20201224T085448Z">
-        <seg>Continue training: selection of this checkbox enables to start the model retraining not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230219Z" creationid="Марианна" creationdate="20201224T085448Z">
+        <seg>Continue training: selection of this checkbox enables to start the model overfitting not from the random values of the Neural Network weights, but from the ones obtained during the last training.</seg>
       </tuv>
     </tu>
     <tu>
