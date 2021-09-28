@@ -43781,8 +43781,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Загрузить&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Создать каталог&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Вставить&lt;x20/&gt; и &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Обновить список&lt;x24/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T101122Z" creationid="Марианна" creationdate="20210925T101122Z">
-        <seg>It is possible to call the context menu by clicking the free area of the file manager. It includes the following functions: &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Load&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Create directory&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Insert&lt;x20/&gt; and &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Update list&lt;x24/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T055122Z" creationid="Марианна" creationdate="20210925T101122Z">
+        <seg>It is possible to call the context menu by clicking the free area of the file manager. It includes the following functions: &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Load&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Create directory&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Paste&lt;x20/&gt; and &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Update list&lt;x24/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43981,8 +43981,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При первом нажатии на поле выполняется сортировка по возрастанию &lt;x1/&gt;&lt;x2/&gt;, при втором — по убыванию &lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T094128Z" creationid="Марианна" creationdate="20210925T094128Z">
-        <seg>The first field pressing enables the sorting in ascending &lt;x1/&gt;&lt;x2/&gt; order, the second pressing enables the soring in descending order &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T055234Z" creationid="Марианна" creationdate="20210925T094128Z">
+        <seg>The first field pressing enables to sort in ascending &lt;x1/&gt;&lt;x2/&gt; order, the second pressing enables to sort in descending order &lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
