@@ -43981,8 +43981,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При первом нажатии на поле выполняется сортировка по возрастанию &lt;x1/&gt;&lt;x2/&gt;, при втором — по убыванию &lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T055234Z" creationid="Марианна" creationdate="20210925T094128Z">
-        <seg>The first field pressing enables to sort in ascending &lt;x1/&gt;&lt;x2/&gt; order, the second pressing enables to sort in descending order &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T055853Z" creationid="Марианна" creationdate="20210925T094128Z">
+        <seg>The first field pressing enables to sort in ascending order &lt;x1/&gt;&lt;x2/&gt;, the second pressing enables to sort in descending order &lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
