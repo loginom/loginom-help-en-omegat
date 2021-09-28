@@ -15997,6 +15997,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример использования порта связи ссылки.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214330Z" creationid="Марианна" creationdate="20210928T214330Z">
+        <seg>&lt;x1/&gt;Example of use of the reference connectionn port.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пример подключения и работы с БД&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T224310Z" creationid="Марианна" creationdate="20210210T224310Z">
@@ -27897,6 +27905,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T153411Z" creationid="Марианна" creationdate="20210528T181630Z">
         <seg>Include upper bin bounds: the upper bound value will be included into the current bin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Включить отображение исходных узлов можно с помощью кнопки &lt;x3/&gt; &lt;x4/&gt; панели инструментов области построения Сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214247Z" creationid="Марианна" creationdate="20210928T214247Z">
+        <seg>It is possible to enable display of the source nodes by &lt;x3/&gt; &lt;x4/&gt; toolbar button of the Workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
