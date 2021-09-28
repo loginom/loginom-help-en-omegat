@@ -36231,8 +36231,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Корректировка Сценария осуществляется путем стандартных манипуляций с узлами (настройки, добавления, удаления), а также воздействиями на их последовательные связи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T210102Z" creationid="Марианна" creationdate="20210928T210102Z">
-        <seg>The Workflow is corrected by standard operations with nodes (configuration, adding, deletion) and influence on their successive links.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T210307Z" creationid="Марианна" creationdate="20210928T210102Z">
+        <seg>The Workflow is corrected by the standard operations with nodes (configuration, adding, deletion) and impact on their sequential links.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46257,8 +46257,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Расположив несколько узлов на рабочем пространстве и соединив их между собой, получится Сценарий, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T205826Z" creationid="Марианна" creationdate="20210928T205826Z">
-        <seg>It is possible to create the Workflow by placing several nodes into the working space and connecting them with each other. The Workflow is started by the successive (each node is separately activated) or simultaneous activation of nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T210314Z" creationid="Марианна" creationdate="20210928T205826Z">
+        <seg>It is possible to create the Workflow by placing several nodes into the working space and connecting them with each other. The Workflow is started by the sequential (each node is separately activated) or simultaneous activation of nodes.</seg>
       </tuv>
     </tu>
     <tu>
