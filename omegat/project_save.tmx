@@ -46247,6 +46247,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Расположив несколько узлов на рабочем пространстве и соединив их между собой, получится Сценарий, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T205826Z" creationid="Марианна" creationdate="20210928T205826Z">
+        <seg>It is possible to create the Workflow by placing several nodes into the working space and connecting them with each other. The Workflow is started by the successive (each node is separately activated) or simultaneous activation of nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Расстояние Дамерау-Левенштейна также называют расстоянием редактирования с учетом перестановок, которое является мерой похожести двух строк.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T125949Z" creationid="Марианна" creationdate="20210406T125949Z">
