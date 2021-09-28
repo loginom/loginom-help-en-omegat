@@ -27139,6 +27139,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В терминах многомерной модели данных такое подмножество называется срезом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T202802Z" creationid="Марианна" creationdate="20210928T202802Z">
+        <seg>Such subset is called a slice in the terms of the multidimensional data model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В третьем случае строки входного набора разделяются по заданному признаку на группы строк, и в каждой итерации на вход узла, заключенного в цикл, подаются строки очередной группы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T100552Z" creationid="Марианна" creationdate="20200921T194111Z">
