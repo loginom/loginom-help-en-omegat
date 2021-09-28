@@ -2004,6 +2004,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2 core</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081858Z" creationid="Марианна" creationdate="20210928T081858Z">
+        <seg>2 core</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2 столбец — новое значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064150Z" creationid="Марианна" creationdate="20201116T064143Z">
@@ -2848,6 +2856,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164955Z" creationid="Марианна" creationdate="20201010T164955Z">
         <seg>8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>8 GB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081904Z" creationid="Марианна" creationdate="20210928T081904Z">
+        <seg>8 GB</seg>
       </tuv>
     </tu>
     <tu>
@@ -20242,6 +20258,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CPU x64</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081854Z" creationid="Марианна" creationdate="20210928T081854Z">
+        <seg>CPU x64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CPU x86</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081602Z" creationid="Марианна" creationdate="20210928T081602Z">
@@ -20526,6 +20550,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094102Z" creationid="Марианна" creationdate="20200813T094102Z">
         <seg>Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Desktop x64</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081847Z" creationid="Марианна" creationdate="20210928T081847Z">
+        <seg>Desktop x64</seg>
       </tuv>
     </tu>
     <tu>
