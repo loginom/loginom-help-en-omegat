@@ -28029,6 +28029,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутренний</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215405Z" creationid="Марианна" creationdate="20210928T215405Z">
+        <seg>Internal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внутри &lt;x1/&gt;Подмодели&lt;x2/&gt; имеется возможность использовать &lt;x3/&gt;&lt;x4/&gt;Переменные сценария&lt;x5/&gt;&lt;x6/&gt;, в состав которых входят &lt;x7/&gt;Переменные пользователя&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164655Z" creationid="Марианна" creationdate="20200920T164655Z">
@@ -32239,6 +32247,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215348Z" creationid="Марианна" creationdate="20210928T215348Z">
         <seg>It is available only in the current Module and its &lt;x1/&gt;Supernodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступен только внутри текущего Пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215427Z" creationid="Марианна" creationdate="20210928T215427Z">
+        <seg>It is available only in the current Package</seg>
       </tuv>
     </tu>
     <tu>
@@ -40861,6 +40877,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T132910Z" creationid="Марианна" creationdate="20200816T132910Z">
         <seg>Opened &lt;x1/&gt;Packages&lt;x2/&gt; are listed in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открытый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215637Z" creationid="Марианна" creationdate="20210928T215458Z">
+        <seg>Public</seg>
       </tuv>
     </tu>
     <tu>
