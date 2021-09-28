@@ -26381,8 +26381,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В редакциях Enterprise, Standard и Team (включающих в комплект поставки сервер Loginom) все пользовательские файлы хранятся на сервере Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T080506Z" creationid="Марианна" creationdate="20210925T080506Z">
-        <seg>All user files are kept on the Loginom server in Enterprise, Standard and Team editions (the Loginom server is included into the supply package).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T054420Z" creationid="Марианна" creationdate="20210925T080506Z">
+        <seg>All user files are kept on the Loginom server in the Enterprise, Standard and Team editions (the Loginom server is included into the supply package).</seg>
       </tuv>
     </tu>
     <tu>
@@ -45385,8 +45385,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Путь к файлу или пакету внутри файлового хранилища задается относительно папки UserStorage.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T082636Z" creationid="Марианна" creationdate="20210925T082636Z">
-        <seg>The path to a file or package in the file storage is set relative to the UserStorage folder.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T054559Z" creationid="Марианна" creationdate="20210925T082636Z">
+        <seg>The path to the file or package in the file storage is set relative to the UserStorage folder.</seg>
       </tuv>
     </tu>
     <tu>
