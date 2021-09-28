@@ -31709,6 +31709,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для эксперта предназначена панель сценариев, в которой он строит различные модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T094233Z" creationid="Марианна" creationdate="20210928T094209Z">
+        <seg>The workflows panel is designated for the expert to build different models in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этих целей в нем можно использовать фильтр Ходрика-Прескотта или один из трех типов вейвлетов - вейвлеты Добеши, Койфлеты и CDF 9/7.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210730T060707Z" creationid="Марианна" creationdate="20210730T060440Z">
