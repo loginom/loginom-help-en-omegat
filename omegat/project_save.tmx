@@ -29333,6 +29333,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входные и выходные порты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225124Z" creationid="Марианна" creationdate="20210928T225124Z">
+        <seg>Input and output ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные и выходные порты задаются пользователем.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T102723Z" creationid="Марианна" creationdate="20200716T073132Z">
