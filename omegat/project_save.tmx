@@ -32843,6 +32843,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если все переменные имеют Переменный тип, то они получат следующие значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T224456Z" creationid="Марианна" creationdate="20210928T224456Z">
+        <seg>If all variables refer to the Variable type, they get the following values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если входной источник данных содержит настройки разбиения для данного столбца, то в мастере для него выбирается назначение "Входное (внешнее разбиение)".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210608T081120Z" creationid="Марианна" creationdate="20210608T081120Z">
