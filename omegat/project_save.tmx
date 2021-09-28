@@ -37585,6 +37585,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На практике часто встречаются ситуации, когда пользователю требуется получить отчет по некоторому подмножеству всех доступных данных, например, только по одному поставщику или клиенту, по нескольким группам товаров или регионам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T203512Z" creationid="Марианна" creationdate="20210928T203512Z">
+        <seg>Practically it often happens that the user needs to receive the report on some subset of all available data, for example, data on one supplier or client, several groups of goods or regions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На практике чаще всего выбирается $$k=10$$ (10 — проходная перекрестная проверка), когда модель обучается на 9/10 данных и тестируется на 1/10.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210927T202559Z" creationid="Марианна" creationdate="20210925T122905Z">
