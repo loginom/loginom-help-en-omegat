@@ -6782,6 +6782,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Chrome&lt;x2/&gt; не ниже 39.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083453Z" creationid="Марианна" creationdate="20210928T083453Z">
+        <seg>&lt;x1/&gt;Chrome&lt;x2/&gt; 39.0 or higher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ClickHouse&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183414Z" creationid="Марианна" creationdate="20200810T183414Z">
@@ -7198,6 +7206,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Firefox&lt;x2/&gt; не ниже 52.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083507Z" creationid="Марианна" creationdate="20210928T083507Z">
+        <seg>&lt;x1/&gt;Firefox&lt;x2/&gt; 52.0 or higher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Format(Строка\_формата, Выражение &lt;x2/&gt;, ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T072852Z" creationid="Марианна" creationdate="20210407T072852Z">
@@ -7314,6 +7330,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183341Z" creationid="Марианна" creationdate="20200810T183341Z">
         <seg>&lt;x1/&gt;Interbase&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Internet Explorer&lt;x2/&gt; не ниже 11.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083531Z" creationid="Марианна" creationdate="20210928T083531Z">
+        <seg>&lt;x1/&gt;Internet Explorer&lt;x2/&gt; 11.0 or higher</seg>
       </tuv>
     </tu>
     <tu>
@@ -7550,6 +7574,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Microsoft Edge&lt;x2/&gt; не ниже 14.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083541Z" creationid="Марианна" creationdate="20210928T083541Z">
+        <seg>&lt;x1/&gt;Microsoft Edge&lt;x2/&gt;14.0 or higher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Microsoft SQL&lt;x2/&gt; – версия 2000 и выше;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210827T065242Z" creationid="Марианна" creationdate="20210827T065242Z">
@@ -7658,6 +7690,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T140634Z" creationid="Марианна" creationdate="20201005T172138Z">
         <seg>&lt;x1/&gt;OR&lt;x2/&gt;: the Logical "OR" operator;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Opera&lt;x2/&gt; не ниже 37.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083515Z" creationid="Марианна" creationdate="20210928T083515Z">
+        <seg>&lt;x1/&gt;Opera&lt;x2/&gt; 37.0 or higher</seg>
       </tuv>
     </tu>
     <tu>
@@ -8002,6 +8042,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183410Z" creationid="Марианна" creationdate="20200810T183410Z">
         <seg>&lt;x1/&gt;SQLite&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Safari&lt;x2/&gt; не ниже 10.3</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083524Z" creationid="Марианна" creationdate="20210928T083524Z">
+        <seg>&lt;x1/&gt;Safari&lt;x2/&gt; 10.3 or higher</seg>
       </tuv>
     </tu>
     <tu>
@@ -21186,6 +21234,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Integrator</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083547Z" creationid="Марианна" creationdate="20210928T083547Z">
+        <seg>Loginom Integrator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Server</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T082112Z" creationid="Марианна" creationdate="20210928T082112Z">
@@ -25533,6 +25589,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T175800Z" creationid="Марианна" creationdate="20210606T174114Z">
         <seg>The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category that enables to solve the problem of extreme values and outliers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Браузеры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083317Z" creationid="Марианна" creationdate="20210928T083317Z">
+        <seg>Browsers:</seg>
       </tuv>
     </tu>
     <tu>
