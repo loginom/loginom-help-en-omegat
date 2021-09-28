@@ -31263,8 +31263,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для поиска отчета созданного от текущего визуализатора необходимо щелкнуть на визуализаторе правой кнопкой мыши и выбрать пункт меню "Показать в отчетах".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T100444Z" creationid="Марианна" creationdate="20210928T100444Z">
-        <seg>To search for the report created on the basis of the current visualizer, it is required to clickk the required visualizer with the righ mouse button and select "Show in reports" menu item.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T100554Z" creationid="Марианна" creationdate="20210928T100444Z">
+        <seg>To search for the report created on the basis of the current visualizer, it is required to click the required visualizer with the right mouse button and select "Show in reports" menu option.</seg>
       </tuv>
     </tu>
     <tu>
