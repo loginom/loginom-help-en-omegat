@@ -43481,6 +43481,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После такого выбора программа автоматически выполняет сценарий, соответствующий этому отчету, и выдает результат в зависимости от настроенного отображения отчета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T095608Z" creationid="Марианна" creationdate="20210928T095608Z">
+        <seg>Upon such choice, the program will automatically execute the workflow compliant with this report and provide the result according to the configured report display.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После того как будет создана вся необходимая иерархия можно будет воспользоваться кнопкой &lt;x1/&gt;Связать все автоматически&lt;x2/&gt;&lt;x3/&gt;Связать все автоматически&lt;x4/&gt;, которая автоматически свяжет входные и выходные поля, если у них совпадают имена и тип данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T192721Z" creationid="Марианна" creationdate="20200929T192721Z">
