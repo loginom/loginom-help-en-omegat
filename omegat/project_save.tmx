@@ -1588,6 +1588,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1 GB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081616Z" creationid="Марианна" creationdate="20210928T081616Z">
+        <seg>1 GB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1 core</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081605Z" creationid="Марианна" creationdate="20210928T081605Z">
+        <seg>1 core</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1 столбец — заменяемое значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064129Z" creationid="Марианна" creationdate="20201116T064129Z">
@@ -1624,6 +1640,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113619Z" creationid="Марианна" creationdate="20201124T113619Z">
         <seg>1,90</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>1.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081640Z" creationid="Марианна" creationdate="20210928T081640Z">
+        <seg>1.0</seg>
       </tuv>
     </tu>
     <tu>
@@ -1672,6 +1696,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113145Z" creationid="Марианна" creationdate="20201011T113145Z">
         <seg>10.09.17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>100</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081629Z" creationid="Марианна" creationdate="20210928T081629Z">
+        <seg>100</seg>
       </tuv>
     </tu>
     <tu>
@@ -1984,6 +2016,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113336Z" creationid="Марианна" creationdate="20201124T113336Z">
         <seg>2,90</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>2.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081643Z" creationid="Марианна" creationdate="20210928T081643Z">
+        <seg>2.0</seg>
       </tuv>
     </tu>
     <tu>
@@ -2448,6 +2488,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105308Z" creationid="Марианна" creationdate="20201111T105308Z">
         <seg>4 - Difference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>4 GB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081619Z" creationid="Марианна" creationdate="20210928T081619Z">
+        <seg>4 GB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>4 core</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081609Z" creationid="Марианна" creationdate="20210928T081609Z">
+        <seg>4 core</seg>
       </tuv>
     </tu>
     <tu>
@@ -16109,6 +16165,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Размер используемой оперативной памяти (RAM) ограничен 2 GB (ограничение платформы x86).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081844Z" creationid="Марианна" creationdate="20210928T081844Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The size of the used RAM is limited to 2 GB (restriction of platform).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Регулярное выражение — это шаблон поиска последовательностей символов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094516Z" creationid="Марианна" creationdate="20201117T094516Z">
@@ -20178,6 +20242,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CPU x86</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081602Z" creationid="Марианна" creationdate="20210928T081602Z">
+        <seg>CPU x86</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CRC32</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T141423Z" creationid="Марианна" creationdate="20210405T141423Z">
@@ -20458,6 +20530,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Desktop x86</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081500Z" creationid="Марианна" creationdate="20210928T081500Z">
+        <seg>Desktop x86</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Desktop-версия Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T225124Z" creationid="Марианна" creationdate="20210218T225124Z">
@@ -20682,6 +20762,22 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>GB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081627Z" creationid="Марианна" creationdate="20210928T081627Z">
+        <seg>GB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>GB (+ User Data)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081633Z" creationid="Марианна" creationdate="20210928T081633Z">
+        <seg>GB (+ User Data)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Get(row: number): boolean | number | string | Date | undefined;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054938Z" creationid="Марианна" creationdate="20201025T054938Z">
@@ -20702,6 +20798,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083820Z" creationid="Марианна" creationdate="20201030T083820Z">
         <seg>Group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>HDD</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081622Z" creationid="Марианна" creationdate="20210928T081622Z">
+        <seg>HDD</seg>
       </tuv>
     </tu>
     <tu>
@@ -21298,6 +21402,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>OS</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081545Z" creationid="Марианна" creationdate="20210928T081545Z">
+        <seg>OS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>OutputTable.Append();</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T155405Z" creationid="Марианна" creationdate="20201025T155405Z">
@@ -21430,6 +21542,14 @@ interface IColumn extends Iterable&lt;boolean | number | string | Date | undefin
 
 // View of the data set columns
 interface IColumn extends Iterable&lt;boolean | number | string | Date | undefined&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>RAM</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081612Z" creationid="Марианна" creationdate="20210928T081612Z">
+        <seg>RAM</seg>
       </tuv>
     </tu>
     <tu>
@@ -22110,6 +22230,14 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>USB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081636Z" creationid="Марианна" creationdate="20210928T081636Z">
+        <seg>USB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>UTF-16 BE (1201).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161407Z" creationid="Марианна" creationdate="20200917T161407Z">
@@ -22250,6 +22378,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154710Z" creationid="Марианна" creationdate="20210401T154710Z">
         <seg>Week</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Windows 7 и выше</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081559Z" creationid="Марианна" creationdate="20210928T081559Z">
+        <seg>Windows 7 and higher</seg>
       </tuv>
     </tu>
     <tu>
@@ -35485,6 +35621,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081511Z" creationid="Марианна" creationdate="20210928T081511Z">
+        <seg>Component</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент &lt;x1/&gt;Выполнение узла&lt;x2/&gt; не может повторно использовать компоненты &lt;x3/&gt;Цикл&lt;x4/&gt; и &lt;x5/&gt;Узел-ссылка&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072745Z" creationid="Марианна" creationdate="20200919T072638Z">
@@ -36685,6 +36829,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T101203Z" creationid="Марианна" creationdate="20210407T101203Z">
         <seg>Minimum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимальные</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081518Z" creationid="Марианна" creationdate="20210928T081518Z">
+        <seg>Minimum</seg>
       </tuv>
     </tu>
     <tu>
@@ -46019,6 +46171,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210719T085157Z" creationid="Марианна" creationdate="20210629T203643Z">
         <seg>The resulting data set consists of the source data set columns and the columns calculated by the handler. They are described in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рекомендуемые</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081541Z" creationid="Марианна" creationdate="20210928T081541Z">
+        <seg>Recommended</seg>
       </tuv>
     </tu>
     <tu>
