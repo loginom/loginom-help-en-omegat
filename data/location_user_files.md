@@ -19,7 +19,7 @@ The hierarchic structure of the folders and files available to a user is display
 
 The file manager toolbar provides the following file usage options:
 
-* ![](./images/icons/toolbar-controls/publish_default.svg) **Load** enables to load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. 
+* ![](./images/icons/toolbar-controls/publish_default.svg) **Load**: load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. 
 * ![](./images/icons/toolbar-controls/add-folder_default.svg) **Create directory**: folder creation in the currently opened directory.
 * ![](./images/icons/toolbar-controls/download_default.svg) **Download**: dowload the selected item to the system folder for user downloads. It is also possible to download files by its double click of the left mouse button.
 * ![](./images/icons/toolbar-controls/rename_default.svg) **Rename**: change the name of the selected folder.
