@@ -42391,6 +42391,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию порт скрыт, для того чтобы отобразить его, необходимо воспользоваться кнопкой &lt;x3/&gt; &lt;x4/&gt; панели инструментов области построения Сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213029Z" creationid="Марианна" creationdate="20210928T213029Z">
+        <seg>The port is hidden by default. To display it, it is required to use &lt;x3/&gt; &lt;x4/&gt; toolbar button of the Workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию принимает значение &lt;x3/&gt;Все пространства имен&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T080133Z" creationid="Марианна" creationdate="20201001T162648Z">
