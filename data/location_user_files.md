@@ -41,7 +41,7 @@ There are the following ways to select several items:
 
 To sort the current directory items by a particular parameter, it is required to press one of the fields in the upper part of the file manager: *Name*, *Type*, *Size*, *Date of change*, *Read-only* and *Path*.
 
-The first field pressing enables to sort in ascending ![](./images/icons/toolbar-controls/low-to-hight_default.svg) order, the second pressing enables to sort in descending order ![](./images/icons/toolbar-controls/hight-to-low_default.svg). Checkbox and ![](./images/icons/toolbar-controls/delete-all_default.svg) *Delete all* are also available in the file manager fields:
+The first field pressing enables to sort in ascending order ![](./images/icons/toolbar-controls/low-to-hight_default.svg), the second pressing enables to sort in descending order ![](./images/icons/toolbar-controls/hight-to-low_default.svg). Checkbox and ![](./images/icons/toolbar-controls/delete-all_default.svg) *Delete all* are also available in the file manager fields:
 
 * When selecting the field checkbox, all items in the current directory are selected.
 * ![](./images/icons/toolbar-controls/delete-all_default.svg) **Delete all**: delete all items of the current directory.
