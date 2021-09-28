@@ -27189,6 +27189,14 @@ Several control elements are located over the table fields:</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае будут деактивированы все узлы находящиеся перед узлом с отчетом и активированы снова.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T095657Z" creationid="Марианна" creationdate="20210928T095657Z">
+        <seg>In this case, all reports located before the node with the report will be deactivated and activated again.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае в поле параметра пользователь выбирает переменную, содержащую значение параметра.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083044Z" creationid="Марианна" creationdate="20201009T083044Z">
