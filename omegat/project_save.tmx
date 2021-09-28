@@ -4220,6 +4220,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Переменные;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225229Z" creationid="Марианна" creationdate="20210928T225229Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Variables;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Подключение ClickHouse</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133054Z" creationid="Марианна" creationdate="20210115T141231Z">
@@ -4424,6 +4432,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085542Z" creationid="Марианна" creationdate="20200929T085542Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Table to Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Табличные данные;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225206Z" creationid="Марианна" creationdate="20210928T225206Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Table data;</seg>
       </tuv>
     </tu>
     <tu>
@@ -42337,6 +42353,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменные Сценария;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225252Z" creationid="Марианна" creationdate="20210928T225252Z">
+        <seg>Workflow variables;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменные не доступны для редактирования.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102022Z" creationid="Марианна" creationdate="20201009T102022Z">
@@ -42421,6 +42445,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T070653Z" creationid="Марианна" creationdate="20200715T070653Z">
         <seg>Variables can be also used to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переменные узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225305Z" creationid="Марианна" creationdate="20210928T225305Z">
+        <seg>Node variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50045,6 +50077,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T084758Z" creationid="Марианна" creationdate="20200814T084134Z">
         <seg>Pressing &lt;x1/&gt;List of subobjects&lt;x2/&gt; button, it is possible to go to the subobjects of the complex object (refer to </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также, узел можно &lt;x1/&gt;обучать/переобучать&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225330Z" creationid="Марианна" creationdate="20210928T225330Z">
+        <seg>It is also possible to &lt;x1/&gt;train/retrain&lt;x2/&gt; the node.</seg>
       </tuv>
     </tu>
     <tu>
