@@ -5190,8 +5190,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Вставить&lt;x4/&gt; — вставка скопированного или вырезанного элемента в текущую директорию;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T092434Z" creationid="Марианна" creationdate="20210925T092434Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Insert&lt;x4/&gt;: insert the copied or cut item to the current directory.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T055034Z" creationid="Марианна" creationdate="20210925T092434Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Paste&lt;x4/&gt;: paste the copied or cut item to the current directory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30847,8 +30847,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для перехода между папками можно так же использовать панель &lt;x5/&gt;Навигация&lt;x6/&gt;, в которой отображается иерархия папок пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T095443Z" creationid="Марианна" creationdate="20210925T095443Z">
-        <seg>To move between folders, it is also possible to use &lt;x5/&gt;Navigation&lt;x6/&gt; panel in which hierarchy of user folders is displayed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T054731Z" creationid="Марианна" creationdate="20210925T095443Z">
+        <seg>To move between folders, it is also possible to use the &lt;x5/&gt;Navigation&lt;x6/&gt; panel in which the user folders hierarchy is displayed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49655,8 +49655,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Файловый менеджер вызывается по кнопке &lt;x1/&gt;&lt;x2/&gt; на &lt;x3/&gt;Главном меню&lt;x4/&gt; и предоставляет необходимый инструментарий для работы с файловым хранилищем.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T082930Z" creationid="Марианна" creationdate="20210925T082930Z">
-        <seg>The file manager is called using &lt;x1/&gt;&lt;x2/&gt; button of the  &lt;x3/&gt;Main Menu&lt;x4/&gt;. This tool is required for the file storage operation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T054622Z" creationid="Марианна" creationdate="20210925T082930Z">
+        <seg>The file manager is called using &lt;x1/&gt;&lt;x2/&gt; button of the &lt;x3/&gt;Main Menu&lt;x4/&gt;. This tool is required for the file storage operation.</seg>
       </tuv>
     </tu>
     <tu>
