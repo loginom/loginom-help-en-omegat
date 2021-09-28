@@ -2,8 +2,8 @@
 
 **Порт** — способ коммуникации между узлами. В зависимости от структуры передаваемых/принимаемых данных различают следующие типы портов:
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Табличные данные;
-* ![ ](../../images/icons/app/node/ports/inputs/variable_inactive.svg) Переменные;
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Table data;
+* ![ ](../../images/icons/app/node/ports/inputs/variable_inactive.svg) Variables;
 * ![ ](../../images/icons/app/node/ports/inputs/tree_inactive.svg) Данные в иерархической древовидной форме;
 * ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Параметры подключения к источнику данных;
 * ![ ](../../images/icons/app/node/ports/inputs/model_inactive.svg) Структура данных не определена.

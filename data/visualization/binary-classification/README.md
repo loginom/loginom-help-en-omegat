@@ -111,7 +111,7 @@
 Содержит таблицу с [матрицами ошибок](./error-matrix.md) для обучающего и тестового множества, и имеет следующий вид:
 
 <table>
-<tr><th align="left" rowspan="2">Классифицировано</th><th align="left" colspan="2">Фактически</th><th rowspan="2" align="left">Итого</th></tr>
+<tr><th align="left" rowspan="2">Predicted</th><th align="left" colspan="2">Actually</th><th rowspan="2" align="left">Итого</th></tr>
 <tr><th align="left">Событие</th><th align="left">Не-событие</th></tr>
  <tr><th align="left">Множество</th><td>P</td><td>N</td><td></td></tr>
  <tr><td>Событие</td><td>TP</td><td>FP</td><td>TP+FP</td></tr>

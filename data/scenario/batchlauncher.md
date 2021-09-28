@@ -1,4 +1,4 @@
-# Пакетное выполнение сценариев
+# Batch Processing of Workflows
 
 **Пакетный режим** — исполнение Сценариев Пакета без отображения какого-либо пользовательского интерфейса и вывода сообщений на экран. Обычно результатом выполнения пакета при этом является формирование итоговых данных и передача их в стороннюю систему (например, в хранилище данных или другую учетную систему).
 
@@ -8,15 +8,15 @@
 
 Для запуска пакетного выполнения по расписанию можно использовать сторонний планировщик заданий, например, планировщик заданий Windows.
 
-Синтаксис строки запуска в пакетном режиме:
+Syntax of the start string in the package mode:
 
 ```batch
 BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address>] [/Port=<Port>] [/UserName=<UserName> [/Password=<Password>]] [/PortName.VarName=<Value>]
 ```
 
-Где:
+Where:
 
-*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName* — параметры запуска в пакетном режиме.
+*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName* are start parameters in the package mode.
 
 Несколько параметров в строке запуска разделяются символом пробела.
 
@@ -26,13 +26,13 @@ For example:
  "C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe" /Package=test.lgp /Teach
 ```
 
-## Описание параметров
+## Description of Parameters
 
 ### Package
 
-Путь к файлу Пакета внутри [файлового хранилища](..\location_user_files.md). Обязательный параметр.
+Path to the Package file inside the [file storage](..\location_user_files.md). Required parameter.
 
-Примеры:
+Examples:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp
@@ -41,11 +41,11 @@ BatchLauncher "/Package=/user/test and log.lgp"
 
 ### Node
 
-Имя узла, который необходимо выполнить. При этом выполняются указанный узел и все предшествующие ему узлы — то есть все узлы, которые необходимо выполнить для формирования его входных данных. Узел не должен находиться в Подмодели. Если параметр не указан, то выполняются все узлы Пакета, для которых заданы необходимые настройки [режима активации](./setting-batch-processing-mode.md).
+Name of the node to be executed. При этом выполняются указанный узел и все предшествующие ему узлы — то есть все узлы, которые необходимо выполнить для формирования его входных данных. The node must not be located in the Supernode. If the parameter is not specified, all Package nodes for which the required settings of the [activation mode](./setting-batch-processing-mode.md) are set must be executed.
 
 > **Примечание:** имя узла задается при настройке [модификатора доступа](./access-modifier.md).
 
-Примеры:
+Examples:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp "/Node=executable node"
@@ -59,7 +59,7 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node
 * **PortName** — наименование порта;
 * **VarName** — наименование переменной, значение которой необходимо задать в строке запуска.
 
-Примеры:
+Examples:
 
 ```batch
 BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
@@ -84,24 +84,24 @@ For example:
 BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"
 ```
 
-Если все переменные имеют Переменный тип, то они получат следующие значения:
+If all variables refer to the Variable type, they get the following values:
 
 ```batch
-Var0 — пустое значение;
-Var1 — логическое значение true;
-Var2 — целое значение 1;
-Var3 — строковое значение 1;
-Var4 — строковое значение null;
-Var5 — пустая строка;
-Var6 — строковое значение test;
-Var7 — строковое значение te'st;
-Var8 — строковое значение "test";
-Var9 — строковое значение a b c.
+Var0 — empty value;
+Var1 — logical true value;
+Var2 — integer value 1;
+Var3 — string value 1;
+Var4 — string null value;
+Var5 — empty string;
+Var6 — string test value;
+Var7 — string te'st value;
+Var8 — string "test" value;
+Var9 — string a b c value.
 ```
 
 ### Teach
 
-Запуск пакета в режиме [«Обучение»](https://wiki.loginom.ru/articles/training.html). Если параметр не указан, то пакет запускается в режиме «Выполнение».
+Package start in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the package is started in the "Execution" mode.
 
 For example:
 
@@ -111,7 +111,7 @@ BatchLauncher /Package=/user/test.lgp /Teach
 
 ### Address
 
-IP адрес или имя хоста сервера Loginom. По умолчанию используется *localhost*.
+IP address or host name of the Loginom server. *localhost* is used by default.
 
 For example:
 
@@ -121,7 +121,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
 
 ### Port
 
-Порт, по которому происходит обращение к серверу Loginom. По умолчанию используется *4386*.
+Порт, по которому происходит обращение к серверу Loginom. *4386* is used by default..
 
 For example:
 
@@ -131,7 +131,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555
 
 ### UserName
 
-Имя пользователя. Если параметр не указан, то используется пользователь по умолчанию.
+Username. If the parameter is not specified, the default user is used.
 
 For example:
 
@@ -141,7 +141,7 @@ BatchLauncher /Package=/user/test.lgp /UserName=user
 
 ### Password
 
-Пароль пользователя. Если параметр не указан, то используется пустой пароль.
+User password. If the parameter is not specified, the empty password is used.
 
 For example:
 
