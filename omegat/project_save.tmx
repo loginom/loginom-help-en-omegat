@@ -20354,6 +20354,44 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp
+BatchLauncher "/Package=/user/test and log.lgp"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222727Z" creationid="Марианна" creationdate="20210928T222727Z">
+        <seg>BatchLauncher /Package=/user/test.lgp
+BatchLauncher "/Package=/user/test and log.lgp"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp "/Node=executable node"
+BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222817Z" creationid="Марианна" creationdate="20210928T222817Z">
+        <seg>BatchLauncher /Package=/user/test.lgp "/Node=executable node"
+BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
+/Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222831Z" creationid="Марианна" creationdate="20210928T222831Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
+/Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222844Z" creationid="Марианна" creationdate="20210928T222844Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>BatchLauncher /Package=&lt;FileName&gt; [/Teach] [/Node=&lt;NodeName&gt;] [/Address=&lt;Address&gt;] [/Port=&lt;Port&gt;] [/UserName=&lt;UserName&gt; [/Password=&lt;Password&gt;]] [/PortName.VarName=&lt;Value&gt;]</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222448Z" creationid="Марианна" creationdate="20210928T222448Z">
@@ -21626,6 +21664,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Node</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222730Z" creationid="Марианна" creationdate="20210928T222730Z">
+        <seg>Node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>None</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083055Z" creationid="Марианна" creationdate="20201030T083055Z">
@@ -21768,6 +21814,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105959Z" creationid="Марианна" creationdate="20210402T105959Z">
         <seg>Pi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>PortName.VarName</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222822Z" creationid="Марианна" creationdate="20210928T222822Z">
+        <seg>PortName.VarName</seg>
       </tuv>
     </tu>
     <tu>
@@ -22354,6 +22408,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110447Z" creationid="Марианна" creationdate="20210402T110447Z">
         <seg>Tan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Teach</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222854Z" creationid="Марианна" creationdate="20210928T222854Z">
+        <seg>Teach</seg>
       </tuv>
     </tu>
     <tu>
@@ -34708,6 +34770,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210608T083124Z" creationid="Марианна" creationdate="20210608T083124Z">
         <seg>Column name for auto setup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя узла, который необходимо выполнить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222749Z" creationid="Марианна" creationdate="20210928T222749Z">
+        <seg>Name of the node to be executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50445,6 +50515,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T091953Z" creationid="Марианна" creationdate="20201118T090810Z">
         <seg>The node performs the action similar to the &lt;x3/&gt;Left join&lt;x4/&gt; of the &lt;x5/&gt;Join&lt;x6/&gt; node but the number of joined tables is optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел не должен находиться в Подмодели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222815Z" creationid="Марианна" creationdate="20210928T222815Z">
+        <seg>The node must not be located in the Supernode.</seg>
       </tuv>
     </tu>
     <tu>
