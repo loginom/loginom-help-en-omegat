@@ -1,33 +1,33 @@
-# Модификатор доступа
+# Access Modifier
 
-Модификатор доступа определяет доступность объекта на разных уровнях Пакета, а также между Пакетами. Объектами, для которых можно задать модификатор доступа, являются подключения и узлы Сценария.
+The access modifier defines the object availability on different Package levels and between the Packages. The objects for which it is possible to set the access modifier are connections and nodes of the Workflow.
 
-Для настройки доступа следует сделать по выбранному объекту клик правой кнопкой мыши и в контекстном меню выбрать пункт ![](../images/icons/toolbar-controls/access-rights_default.svg) "Настроить модификатор доступа". Откроется окно выбора настроек:
+To provide the accessibility setup, it is required to click the selected object with the right mouse button and select ![](../images/icons/toolbar-controls/access-rights_default.svg) "Configure visibility" option in the context menu. The window of settings selection will be opened:
 
-| Название | Иконка | Область видимости |
+| Name | Icon | Visibility area |
 :----|:----:|:----
-| Закрытый | Доступен только внутри текущего Модуля |
-| Защищенный | ![](../images/icons/controls/visibility_private_ex.svg) | Доступен только внутри текущего Модуля и его [Подмоделей](../processors/control/submodel.md) |
-| Внутренний | ![](../images/icons/controls/visibility_internal.svg) | Доступен только внутри текущего Пакета |
-| Открытый | ![](../images/icons/controls/visibility_public.svg) | Доступен во всех Пакетах (чтобы использовать объект из другого Пакета, надо создать Ссылку на этот Пакет) |
-| Опубликованный | ![](../images/icons/controls/visibility_published.svg) | Доступен во всех Пакетах и в виде Веб-сервиса (данный модификатор задается при публикации узла в виде Веб-сервиса) |
+| Private | It is available only in the current Module |
+| Secure | ![](../images/icons/controls/visibility_private_ex.svg) | It is available only in the current Module and its [Supernodes](../processors/control/submodel.md) |
+| Internal | ![](../images/icons/controls/visibility_internal.svg) | It is available only in the current Package |
+| Public | ![](../images/icons/controls/visibility_public.svg) | It is available in all Packages (to use the object from another Package, it is required to create a Reference to this Package) |
+| Published | ![](../images/icons/controls/visibility_published.svg) | It is available in all Packages and in the Web Service form (this access modifier is set when publishing the node in the Web Service form) |
 
-Узлу предназначенному для публикации *задается имя*, которое будет являться идентификатором метода Веб-сервиса. Также имя узла может использоваться в качестве параметра при [пакетном выполнении сценария](./batchlauncher.md)
-(см. параметр */Node*).
+The *name is set* for the node designated for publication. It will be access modifier of the Web Service method. The node name can be also used as a parameter while [Workflow batch processing](./batchlauncher.md)
+(refer to */Node* parameter).
 
-Следует отметить, что если узел, который необходимо сделать доступным, находится внутри иерархии Подмоделей, то все эти Подмодели также должны быть доступны (иметь соответствующий модификатор доступа).
+It should be noted that if the node that must be made available is located inside the Supernodes hierarchy, all these Supernodes must also be available (namely, they must have their own access modifier).
 
-> **Примечание:** Модуль Пакета по умолчанию имеет модификатор доступа "Открытый (доступен во всех пакетах)".
+> **Note:** The Package module has the "Public" (available in all packages) access modifier by default.
 
-Итак, при необходимости использования объектов (например узлы Сценария, Подключения, [Производные компоненты](./derived-component.md)) из других Пакетов необходимо применять *ссылки на другие пакеты*.
+Thus, when it is required to use the objects (for example, the Workflow nodes, Connections, [Derived components](./derived-component.md)) from other Packages, *references to other packages* must be used.
 
-Для того, чтобы эти объекты были доступны в других Пакетах, для них должна быть задана область видимости "Открытый (доступен во всех пакетах)". Эта область задается параметром объекта "Модификатор доступа".
+To make these objects available in other Packages, the "Public" (available in all packages) area of visibility must be set for them. This area is set by parameter of the "Access modifier" object.
 
-Для создания ссылки следует:
+It is required to perform the following actions when creating the reference:
 
-1. На панели "Навигация" выбрать элемент ![](../images/icons/system_object_18/link_default.svg) Ссылки;
-2. В контекстном меню элемента Ссылки выбрать пункт ![](../images/icons/app/node/ports/add/add_inactive_default.svg) "Добавить". Откроется окно "Добавление ссылки на пакет";
-3. В параметре "Путь к файлу пакета" задать путь к Пакету, доступ к объектам которого необходимо получить;
-4. Нажать "Применить".
+1. select ![](../images/icons/system_object_18/link_default.svg) Reference item on the "Navigation" panel;
+2. select ![](../images/icons/app/node/ports/add/add_inactive_default.svg) "Add" option in the context menu of the Reference item. "Add reference to package" window will be opened;
+3. set the path to the Package access to which objects it is required to receive in "Path to the package file" parameter;
+4. press "Apply".
 
-После создания Ссылки на внешний Пакет можно использовать созданные в нем Производные компоненты и обратиться к его объектам при помощи узлов [Узел-ссылка](../processors/control/unit-link.md), [Выполнение узла](../processors/control/execute-node.md).
+Upon creation of the Reference to the external Package, it is possible to use the Derived Components created in it and refer to its objects using [Reference node](../processors/control/unit-link.md), [Node execution](../processors/control/execute-node.md) nodes.
