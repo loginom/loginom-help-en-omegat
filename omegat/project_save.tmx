@@ -51555,6 +51555,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эти настройки могут использоваться в качестве значений по умолчанию и их изменение может повлечь за собой изменение результатов обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T212123Z" creationid="Марианна" creationdate="20210928T212123Z">
+        <seg>These settings can be used as the default values, and their change can cause change of the data processing results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эти поля можно отсортировать по количеству выбранных преобразований.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T131723Z" creationid="Марианна" creationdate="20201118T131723Z">
@@ -51703,6 +51711,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T201045Z" creationid="Марианна" creationdate="20210629T201045Z">
         <seg>The following field types are used: integer, real, data/time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это следует учитывать при изменении среды исполнения Сценариев (перемещение Сценариев на другие сервера, смене пользователя Windows и т.д.)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T212312Z" creationid="Марианна" creationdate="20210928T212312Z">
+        <seg>It is required to take this fact into account when changing the Workflows execution environment (transfer of the Workflows to other servers, change of the Window user, etc.)</seg>
       </tuv>
     </tu>
     <tu>
