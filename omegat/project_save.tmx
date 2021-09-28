@@ -32227,6 +32227,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступен только внутри текущего Модуля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215229Z" creationid="Марианна" creationdate="20210928T215229Z">
+        <seg>It is available only in the current Module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступен только внутри текущего Модуля и его &lt;x1/&gt;Подмоделей&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215348Z" creationid="Марианна" creationdate="20210928T215348Z">
+        <seg>It is available only in the current Module and its &lt;x1/&gt;Supernodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступно для типа события &lt;x1/&gt;Задано явно&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195502Z" creationid="Марианна" creationdate="20201215T195502Z">
@@ -33338,6 +33354,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Закрытый</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215202Z" creationid="Марианна" creationdate="20210928T215202Z">
+        <seg>Private</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Замена</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T142933Z" creationid="Марианна" creationdate="20201116T142933Z">
@@ -33576,6 +33600,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175158Z" creationid="Марианна" creationdate="20201022T175158Z">
         <seg>Grout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Защищенный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215318Z" creationid="Марианна" creationdate="20210928T215318Z">
+        <seg>Secure</seg>
       </tuv>
     </tu>
     <tu>
@@ -34236,6 +34268,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T103701Z" creationid="Марианна" creationdate="20200929T103701Z">
         <seg>Primarily, only one root directory is available in the right field - &lt;x1/&gt;Root&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Иконка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215125Z" creationid="Марианна" creationdate="20210928T215125Z">
+        <seg>Icon</seg>
       </tuv>
     </tu>
     <tu>
@@ -38055,6 +38095,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Название</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215111Z" creationid="Марианна" creationdate="20210928T215111Z">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Название таблицы — уникальное в пределах БД имя таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165559Z" creationid="Марианна" creationdate="20200916T165559Z">
@@ -39633,6 +39681,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область видимости</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215137Z" creationid="Марианна" creationdate="20210928T215137Z">
+        <seg>Visibility area</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область кода выражения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162642Z" creationid="Марианна" creationdate="20201005T162642Z">
@@ -40781,6 +40837,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161953Z" creationid="Марианна" creationdate="20200818T161953Z">
         <seg>The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Откроется окно выбора настроек:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215106Z" creationid="Марианна" creationdate="20210928T215106Z">
+        <seg>The window of settings selection will be opened:</seg>
       </tuv>
     </tu>
     <tu>
