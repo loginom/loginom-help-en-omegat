@@ -46231,6 +46231,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Разработка сценария ведется в специальной зоне — области построения Сценария, которая расположена справа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T205231Z" creationid="Марианна" creationdate="20210928T205231Z">
+        <seg>The workflow is designed in the special zone, namely, in the workflow construction area that is located to the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Разрядность LGD-файла зависит от разрядности используемого сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T195818Z" creationid="Марианна" creationdate="20200916T195818Z">
@@ -50001,6 +50009,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узлы основываются на компонентах, панель которых расположена в левой части программного окна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T205326Z" creationid="Марианна" creationdate="20210928T205326Z">
+        <seg>The nodes are based on the components the panel of which is located in the left part of the program window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узлы сценария создаются из компонентов 2-х типов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092204Z" creationid="Марианна" creationdate="20200715T092204Z">
@@ -51213,6 +51229,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T191855Z" creationid="Марианна" creationdate="20210601T191855Z">
         <seg>To connect them, it is required to add another port using the handler by clicking on &lt;x1/&gt; Add another port&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы компонент стал узлом его необходимо перенести на рабочее пространство с помощью мышки или контекстного меню.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T205422Z" creationid="Марианна" creationdate="20210928T205422Z">
+        <seg>To make the node from the component, it must be moved to the working space using the button or context menu.</seg>
       </tuv>
     </tu>
     <tu>
