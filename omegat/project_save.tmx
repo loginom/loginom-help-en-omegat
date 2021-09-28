@@ -16384,6 +16384,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; системные требования могут меняться в зависимости от объемов данных и взаимодействия со сторонними приложениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T082109Z" creationid="Марианна" creationdate="20210928T082109Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The system requirements can be changed according to data volume and interoperating with third-party applications.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; узел не обрабатывает поля с переменным типом данных (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210517T105418Z" creationid="Марианна" creationdate="20210517T105418Z">
@@ -21150,6 +21158,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T061845Z" creationid="Марианна" creationdate="20210928T061845Z">
         <seg>Loginom Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Loginom Server</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T082112Z" creationid="Марианна" creationdate="20210928T082112Z">
+        <seg>Loginom Server</seg>
       </tuv>
     </tu>
     <tu>
@@ -29559,6 +29575,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T163924Z" creationid="Марианна" creationdate="20200717T110132Z">
         <seg>Then this data is sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then this data is transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данная версия платформы предназначена для развертывания во внутренней сети, когда подразумевается работа более чем одного пользователя с различных рабочих мест.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083117Z" creationid="Марианна" creationdate="20210928T083117Z">
+        <seg>This platform version is designated for deployment in the internal network when there is more than one user working from different working places.</seg>
       </tuv>
     </tu>
     <tu>
