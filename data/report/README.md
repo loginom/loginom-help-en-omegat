@@ -12,6 +12,6 @@ It is preferable to group the reports according to their semantic content. For e
 
 Для поиска отчета созданного от текущего визуализатора необходимо щелкнуть на визуализаторе правой кнопкой мыши и выбрать пункт меню "Показать в отчетах". При этом произойдет переход на панель управления отчетами.
 
-Для управления созданными отчетами необходимо перейти в группу *Отчеты* пакета. Панель управления отчетами предназначена для создания новых групп отчетов, переименования и удаления существующих групп отчетов, редактирования, переименования и удаления отчетов. When editing reports, the source visualizer used to make the report is also changed.
+To control the created reports, it is required to go to *Reports* group of the package. The reports control panel is designated for creation of new groups of reports, renaming and deletion of existing groups of reports, editing, renaming and deletion of reports. When editing reports, the source visualizer used to make the report is also changed.
 
 Отчеты, которые находятся в открытом состоянии, подсвечиваются зеленым цветом. Such reports can be updated by pressing *Reread data* button. В этом случае будут деактивированы все узлы находящиеся перед узлом с отчетом и активированы снова. Примечание: при этом также будут деактивированы все другие отчеты, которые находятся на деактивируемых узлах.
