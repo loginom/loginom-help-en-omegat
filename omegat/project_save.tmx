@@ -11713,6 +11713,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интерактивный режим работы&lt;x2/&gt; — режим, при котором проектирование, запуск узлов и отладка сценариев осуществляется в &lt;x3/&gt;интерфейсе&lt;x4/&gt; Loginom Studio.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T205000Z" creationid="Марианна" creationdate="20210928T205000Z">
+        <seg>&lt;x1/&gt;Interactive mode of operation&lt;x2/&gt; means the mode when design, start of nodes and debugging of workflows are performed in the &lt;x3/&gt;interface&lt;x4/&gt; of Loginom Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Интервалов&lt;x2/&gt; — количество интервалов, на которые будут разбиты значения поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T121659Z" creationid="Марианна" creationdate="20210708T121659Z">
@@ -34574,6 +34582,22 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222202Z" creationid="Марианна" creationdate="20210210T222202Z">
         <seg>Integration with External Web Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерактивный режим работы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T204754Z" creationid="Марианна" creationdate="20210928T204754Z">
+        <seg>Interactive Mode of Operation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерактивный режим работы осуществляется в рабочем пространстве платформы (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T205113Z" creationid="Марианна" creationdate="20210928T205113Z">
+        <seg>The interactive mode of operation is used in the platform working space (refer to</seg>
       </tuv>
     </tu>
     <tu>
