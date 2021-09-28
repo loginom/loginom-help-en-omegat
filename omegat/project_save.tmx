@@ -16263,8 +16263,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Размер используемой оперативной памяти (RAM) ограничен 2 GB (ограничение платформы x86).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T081844Z" creationid="Марианна" creationdate="20210928T081844Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The size of the used RAM is limited to 2 GB (restriction of platform).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T084015Z" creationid="Марианна" creationdate="20210928T081844Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The size of the used RAM is limited to 2 GB (restriction of platform x86).</seg>
       </tuv>
     </tu>
     <tu>
