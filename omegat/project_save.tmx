@@ -20282,6 +20282,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Address</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222939Z" creationid="Марианна" creationdate="20210928T222939Z">
+        <seg>Address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>An - коэффициенты регрессии,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T211446Z" creationid="Марианна" creationdate="20210405T125259Z">
@@ -20374,6 +20382,14 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223032Z" creationid="Марианна" creationdate="20210928T223032Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 /Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4</seg>
       </tuv>
@@ -20388,6 +20404,14 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222844Z" creationid="Марианна" creationdate="20210928T222844Z">
         <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /Teach</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222934Z" creationid="Марианна" creationdate="20210928T222934Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /Teach</seg>
       </tuv>
     </tu>
     <tu>
@@ -21166,6 +21190,14 @@ included between (slash-asterisk)</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>IP адрес или имя хоста сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223011Z" creationid="Марианна" creationdate="20210928T223011Z">
+        <seg>IP address or host name of the Loginom server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>IncludeUpperBound</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222726Z" creationid="Марианна" creationdate="20210218T222726Z">
@@ -21814,6 +21846,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105959Z" creationid="Марианна" creationdate="20210402T105959Z">
         <seg>Pi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Port</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223036Z" creationid="Марианна" creationdate="20210928T223036Z">
+        <seg>Port</seg>
       </tuv>
     </tu>
     <tu>
@@ -42709,6 +42749,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T075420Z" creationid="Марианна" creationdate="20200817T075420Z">
         <seg>The information panel is hidden by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию используется &lt;x1/&gt;4386&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223054Z" creationid="Марианна" creationdate="20210928T223054Z">
+        <seg>&lt;x1/&gt;4386&lt;x2/&gt; is used by default..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию используется &lt;x1/&gt;localhost&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223027Z" creationid="Марианна" creationdate="20210928T223027Z">
+        <seg>&lt;x1/&gt;localhost&lt;x2/&gt; is used by default.</seg>
       </tuv>
     </tu>
     <tu>
