@@ -16221,6 +16221,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Модуль Пакета по умолчанию имеет модификатор доступа "Открытый (доступен во всех пакетах)".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221012Z" creationid="Марианна" creationdate="20210928T221012Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The Package module has the "Public" (available in all packages) access modifier by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; На компьютере пользователя должен быть установлен клиент СУБД той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T214023Z" creationid="Марианна" creationdate="20210203T214023Z">
@@ -35326,6 +35334,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145238Z" creationid="Марианна" creationdate="20201111T145238Z">
         <seg>Source data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Итак, при необходимости использования объектов (например узлы Сценария, Подключения, &lt;x1/&gt;Производные компоненты&lt;x2/&gt;) из других Пакетов необходимо применять &lt;x3/&gt;ссылки на другие пакеты&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221225Z" creationid="Марианна" creationdate="20210928T221225Z">
+        <seg>Thus, when it is required to use the objects (for example, the Workflow nodes, Connections, &lt;x1/&gt;Derived components&lt;x2/&gt;) from other Packages, &lt;x3/&gt;references to other packages&lt;x4/&gt; must be used.</seg>
       </tuv>
     </tu>
     <tu>
