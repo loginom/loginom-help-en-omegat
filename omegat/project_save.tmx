@@ -43287,6 +43287,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порт порядка выполнения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T212738Z" creationid="Марианна" creationdate="20210928T212738Z">
+        <seg>Execution order port</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порт порядка выполнения &lt;x1/&gt; &lt;x2/&gt; предназначен для ручного определения последовательности выполнения узлов Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T212841Z" creationid="Марианна" creationdate="20210928T212841Z">
+        <seg>The execution order port &lt;x1/&gt; &lt;x2/&gt; is designated for the manul determination of the Workflow nodes execution order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт управляющих переменных принимает переменные, с помощью которых можно задать параметры настроек узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T081709Z" creationid="Марианна" creationdate="20201009T081709Z">
@@ -47373,6 +47389,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T104749Z" creationid="Марианна" creationdate="20201111T104749Z">
         <seg>Join of the data sets that are connected by the key fields — analogue of the JOIN operation in SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Служебные порты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T212716Z" creationid="Марианна" creationdate="20210928T212716Z">
+        <seg>Service Ports</seg>
       </tuv>
     </tu>
     <tu>
