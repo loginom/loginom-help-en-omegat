@@ -5294,8 +5294,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить&lt;x4/&gt; — позволяет загрузить файл в открытую в текущий момент директорию, файл для загрузки следует выбрать во всплывшем окне проводника Windows;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T084331Z" creationid="Марианна" creationdate="20210925T084331Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt; enables to load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T055649Z" creationid="Марианна" creationdate="20210925T084331Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt;: load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. </seg>
       </tuv>
     </tu>
     <tu>
