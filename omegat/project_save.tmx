@@ -16029,6 +16029,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; В Windows 7 эти настройки можно задать: Панель управление -&gt; Часы, язык и регион -&gt; Язык и региональные стандарты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T211752Z" creationid="Марианна" creationdate="20210928T211752Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; In Windows 7 these settings can be set as follows: Control panel -&gt; Hours, language and region -&gt; Language and regional standards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113441Z" creationid="Марианна" creationdate="20201020T113441Z">
@@ -26839,6 +26847,16 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T200121Z" creationid="Марианна" creationdate="20201208T200121Z">
         <seg>The rules meeting the following requirements are included into the resulting data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В ряде обработчиков, таких как &lt;x1/&gt;Сортировка&lt;x2/&gt;, &lt;x3/&gt;Экспорт в текстовый файл&lt;x4/&gt;
+и др.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T211934Z" creationid="Марианна" creationdate="20210928T211934Z">
+        <seg>In such handlers as &lt;x1/&gt;Sorting&lt;x2/&gt;, &lt;x3/&gt;Export to the text file&lt;x4/&gt;
+etc.</seg>
       </tuv>
     </tu>
     <tu>
