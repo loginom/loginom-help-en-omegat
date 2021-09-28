@@ -22756,6 +22756,32 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Var0 — пустое значение;
+Var1 — логическое значение true;
+Var2 — целое значение 1;
+Var3 — строковое значение 1;
+Var4 — строковое значение null;
+Var5 — пустая строка;
+Var6 — строковое значение test;
+Var7 — строковое значение te'st;
+Var8 — строковое значение "test";
+Var9 — строковое значение a b c.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T224404Z" creationid="Марианна" creationdate="20210928T224404Z">
+        <seg>Var0 — empty value;
+Var1 — logical true value;
+Var2 — integer value 1;
+Var3 — string value 1;
+Var4 — string null value;
+Var5 — empty string;
+Var6 — string test value;
+Var7 — string te'st value;
+Var8 — string "test" value;
+Var9 — string a b c value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Variant</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083317Z" creationid="Марианна" creationdate="20201030T083317Z">
@@ -33075,8 +33101,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то выполняются все узлы Пакета, для которых заданы необходимые настройки &lt;x1/&gt;режима активации&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T223821Z" creationid="Марианна" creationdate="20210928T223712Z">
-        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; settings are set are executed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T224121Z" creationid="Марианна" creationdate="20210928T223712Z">
+        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; are set must be executed.</seg>
       </tuv>
     </tu>
     <tu>
