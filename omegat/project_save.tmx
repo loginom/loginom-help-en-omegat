@@ -31575,6 +31575,18 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания последовательности выполнения узлов следует соединить между собой порты задания порядка выполнения
+&lt;x1/&gt; &lt;x2/&gt;
+(см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213151Z" creationid="Марианна" creationdate="20210928T213151Z">
+        <seg>To create a sequence of nodes execution, it is required to link the ports used to set the execution order with each other
+&lt;x1/&gt; &lt;x2/&gt;
+(refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания соответствия входных и выходных переменных следует перетащить обозначение входной переменной на обозначение выходной.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205347Z" creationid="Марианна" creationdate="20200921T205212Z">
