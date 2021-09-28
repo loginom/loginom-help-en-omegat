@@ -25161,6 +25161,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аналитик может создавать отчеты в предопределенных, наиболее востребованных разрезах, но не в силах предсказать все виды отчетов, которые могут потребоваться пользователю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T101031Z" creationid="Марианна" creationdate="20210928T101031Z">
+        <seg>The analyst can create reports in the predetermined and most highly-demanded contexts but he cannot forecast all kinds of reports that can be necessary to the user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аналогичные команды есть и в контекстном меню каждого узла в правом окне (корневой узел &lt;x13/&gt;Root&lt;x14/&gt; переместить нельзя).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T194918Z" creationid="Марианна" creationdate="20200929T194918Z">
