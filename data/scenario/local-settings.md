@@ -1,8 +1,8 @@
-# Локальные настройки
+# Local Settings
 
-Данные настройки содержат информацию о языковых стандартах, форматах представления чисел, времени, даты. Например, для пользователей Windows одним из источников этих настроек для сервера Loginom являются настройки "Язык и региональные стандарты".
+These settings contain information on the language standards, number, time, date formats. For example, one of the sources of these settings for Windows users for the Loginom server are "Language and regional standards" settings.
 
-> **Примечание:** В Windows 7 эти настройки можно задать: Панель управление -> Часы, язык и регион -> Язык и региональные стандарты.
+> **Note:** In Windows 7 these settings can be set as follows: Control panel -> Hours, language and region -> Language and regional standards.
 
-В ряде обработчиков, таких как [Сортировка](../processors/transformation/sorting.md), [Экспорт в текстовый файл](../integration/export/txt-csv.md)
-и др. Эти настройки могут использоваться в качестве значений по умолчанию и их изменение может повлечь за собой изменение результатов обработки данных. Это следует учитывать при изменении среды исполнения Сценариев (перемещение Сценариев на другие сервера, смене пользователя Windows и т.д.)
+In such handlers as [Sorting](../processors/transformation/sorting.md), [Export to the text file](../integration/export/txt-csv.md)
+etc. These settings can be used as the default values, and their change can cause change of the data processing results. It is required to take this fact into account when changing the Workflows execution environment (transfer of the Workflows to other servers, switch of the Window user, etc.)

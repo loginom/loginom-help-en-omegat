@@ -1,15 +1,15 @@
-# Интерактивный режим работы
+# Interactive Mode of Operation
 
-**Интерактивный режим работы** — режим, при котором проектирование, запуск узлов и отладка сценариев осуществляется в [интерфейсе](../interface/README.md) Loginom Studio.
+**Interactive mode of operation** means the mode when design, start of nodes and debugging of workflows are performed in the [interface](../interface/README.md) of Loginom Studio.
 
-Интерактивный режим работы осуществляется в рабочем пространстве платформы (см. Figure 1).
+The interactive mode of operation is used in the platform working space (refer to Figure 1).
 
 ![Working space](./interactive-mode-1.png)
 
-Разработка сценария ведется в специальной зоне — области построения Сценария, которая расположена справа.
+The workflow is designed in the special zone, namely, in the workflow construction area that is located to the right.
 
-Узлы основываются на компонентах, панель которых расположена в левой части программного окна. Чтобы компонент стал узлом его необходимо перенести на рабочее пространство с помощью мышки или контекстного меню.
+The nodes are based on the components the panel of which is located in the left part of the program window. To make the node from the component, it must be moved to the working space using the button or context menu.
 
-Расположив несколько узлов на рабочем пространстве и соединив их между собой, получится Сценарий, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.
+It is possible to create the Workflow by placing several nodes into the working space and connecting them with each other. The Workflow is started by the sequential (each node is separately activated) or simultaneous activation of nodes.
 
-Корректировка Сценария осуществляется путем стандартных манипуляций с узлами (настройки, добавления, удаления), а также воздействиями на их последовательные связи.
+The Workflow is corrected by the standard operations with nodes (configuration, adding, deletion) and impact on their sequential links.
