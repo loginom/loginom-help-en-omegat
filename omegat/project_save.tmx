@@ -40683,6 +40683,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отчет можно добавить без группы, выбрать уже существующую группу или создать новую группу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T090418Z" creationid="Марианна" creationdate="20210928T090418Z">
+        <seg>The report can be added without any group. It is required to select already existing group or create the new one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отчеты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T085207Z" creationid="Марианна" creationdate="20210928T085207Z">
