@@ -2020,6 +2020,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2 GB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083604Z" creationid="Марианна" creationdate="20210928T083604Z">
+        <seg>2 GB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2 core</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081858Z" creationid="Марианна" creationdate="20210928T081858Z">
@@ -2712,6 +2720,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062759Z" creationid="Марианна" creationdate="20201116T062759Z">
         <seg>50</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>500</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083557Z" creationid="Марианна" creationdate="20210928T083557Z">
+        <seg>500</seg>
       </tuv>
     </tu>
     <tu>
@@ -20330,6 +20346,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CPU</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083608Z" creationid="Марианна" creationdate="20210928T083608Z">
+        <seg>CPU</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CPU x64</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081854Z" creationid="Марианна" creationdate="20210928T081854Z">
@@ -20996,6 +21020,14 @@ included between (slash-asterisk)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T103753Z" creationid="Марианна" creationdate="20210402T103753Z">
         <seg>IFF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>IIS 8.0 и выше, .NET Framework 4.5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083618Z" creationid="Марианна" creationdate="20210928T083618Z">
+        <seg>IIS 8.0 and higher, .NET Framework 4.5</seg>
       </tuv>
     </tu>
     <tu>
@@ -22082,6 +22114,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110355Z" creationid="Марианна" creationdate="20210402T110355Z">
         <seg>Sin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Software</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083623Z" creationid="Марианна" creationdate="20210928T083623Z">
+        <seg>Software</seg>
       </tuv>
     </tu>
     <tu>
@@ -35897,6 +35937,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T063833Z" creationid="Марианна" creationdate="20200918T085403Z">
         <seg>The component is designated for the data tables export to the XML files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент функционирует в виде приложения для Internet Information Services (IIS) и предоставляет возможность публиковать собственные веб-сервисы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083736Z" creationid="Марианна" creationdate="20210928T083736Z">
+        <seg>The component is operated in the application form for Internet Information Services (IIS) and gives an opportunity to publish own web services.</seg>
       </tuv>
     </tu>
     <tu>
