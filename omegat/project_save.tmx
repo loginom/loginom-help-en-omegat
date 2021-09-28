@@ -1596,6 +1596,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1 TB</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083143Z" creationid="Марианна" creationdate="20210928T083143Z">
+        <seg>1 TB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1 core</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081605Z" creationid="Марианна" creationdate="20210928T081605Z">
@@ -1872,6 +1880,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T113149Z" creationid="Марианна" creationdate="20201011T113149Z">
         <seg>16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>16 core (Users x 1.6 core + 1 core)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083134Z" creationid="Марианна" creationdate="20210928T083134Z">
+        <seg>16 core (Users x 1.6 core + 1 core)</seg>
       </tuv>
     </tu>
     <tu>
@@ -20818,6 +20834,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>GB (Users x 2GB + 2GB)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083139Z" creationid="Марианна" creationdate="20210928T083139Z">
+        <seg>GB (Users x 2GB + 2GB)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Get(row: number): boolean | number | string | Date | undefined;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T054938Z" creationid="Марианна" creationdate="20201025T054938Z">
@@ -21958,6 +21982,14 @@ WHERE</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Server x64</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083120Z" creationid="Марианна" creationdate="20210928T083120Z">
+        <seg>Server x64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>SessionGuid</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084529Z" creationid="Марианна" creationdate="20201009T084529Z">
@@ -22074,6 +22106,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094105Z" creationid="Марианна" creationdate="20200813T094105Z">
         <seg>Studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Studio (веб-клиент)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083249Z" creationid="Марианна" creationdate="20210928T083249Z">
+        <seg>Studio (web client)</seg>
       </tuv>
     </tu>
     <tu>
@@ -22434,6 +22474,14 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081559Z" creationid="Марианна" creationdate="20210928T081559Z">
         <seg>Windows 7 and higher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Windows Server 2012 и выше</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083130Z" creationid="Марианна" creationdate="20210928T083130Z">
+        <seg>Windows Server 2012 and higher</seg>
       </tuv>
     </tu>
     <tu>
@@ -52061,6 +52109,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T063202Z" creationid="Марианна" creationdate="20201116T063202Z">
         <seg>from -8 to 32</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>от 1 ТB (+ User Data)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T083150Z" creationid="Марианна" creationdate="20210928T083150Z">
+        <seg>from 1 ТB (+ User Data)</seg>
       </tuv>
     </tu>
     <tu>
