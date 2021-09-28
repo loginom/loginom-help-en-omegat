@@ -31645,6 +31645,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для управления созданными отчетами необходимо перейти в группу &lt;x1/&gt;Отчеты&lt;x2/&gt; пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T092151Z" creationid="Марианна" creationdate="20210928T092151Z">
+        <seg>To control the created reports, it is required to go to &lt;x1/&gt;Reports&lt;x2/&gt; group of the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для ускорения процесса автоподбора предусмотрено задание подвыборки, на которой он будет производиться:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T093126Z" creationid="Марианна" creationdate="20201222T093126Z">
@@ -40903,6 +40911,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T084027Z" creationid="Марианна" creationdate="20210925T084027Z">
         <seg>The file manager toolbar provides the following file usage options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель управления отчетами предназначена для создания новых групп отчетов, переименования и удаления существующих групп отчетов, редактирования, переименования и удаления отчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T092357Z" creationid="Марианна" creationdate="20210928T092357Z">
+        <seg>The reports control panel is designated for creation of new groups of reports, renaming and deletion of existing groups of reports, editing, renaming and deletion of reports.</seg>
       </tuv>
     </tu>
     <tu>
