@@ -37989,6 +37989,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, группа «Аналитические отчеты» может содержать различные кубы данных, группа «Прогнозы» может содержать диаграммы прогнозов каких-либо величин.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T091547Z" creationid="Марианна" creationdate="20210928T091547Z">
+        <seg>For example, the "Analytical reports" group can contain different data cubes, whereas the "Forecast" group can contain the forecast charts of some values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, для измерения &lt;x3/&gt;Товар&lt;x4/&gt; атрибутами могут выступать &lt;x5/&gt;Цвет&lt;x6/&gt;, &lt;x7/&gt;Вес&lt;x8/&gt;, &lt;x9/&gt;Габариты&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210830T131823Z" creationid="Марианна" creationdate="20210830T125310Z">
