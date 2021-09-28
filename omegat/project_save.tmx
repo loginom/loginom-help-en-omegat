@@ -37353,6 +37353,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На выбор будет предложено поместить отчет в заранее созданную группу или создать новую группу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T094914Z" creationid="Марианна" creationdate="20210928T094914Z">
+        <seg>It will be asked to choose to place the report to the pre-created group or create the new group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На выходных портах обработчика формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T091956Z" creationid="Марианна" creationdate="20210227T204646Z">
