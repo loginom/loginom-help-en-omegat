@@ -15999,8 +15999,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пример использования порта связи ссылки.&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T214330Z" creationid="Марианна" creationdate="20210928T214330Z">
-        <seg>&lt;x1/&gt;Example of use of the reference connectionn port.&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214343Z" creationid="Марианна" creationdate="20210928T214330Z">
+        <seg>&lt;x1/&gt;Example of use of the reference connection port.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
