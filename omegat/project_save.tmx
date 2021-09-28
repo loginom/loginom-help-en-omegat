@@ -33073,6 +33073,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметр не указан, то выполняются все узлы Пакета, для которых заданы необходимые настройки &lt;x1/&gt;режима активации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223712Z" creationid="Марианна" creationdate="20210928T223712Z">
+        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; settings are set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если параметр не указан, то используется пользователь по умолчанию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T223152Z" creationid="Марианна" creationdate="20210928T223152Z">
@@ -41535,6 +41543,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пакетное выполнение сценариев</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223458Z" creationid="Марианна" creationdate="20210928T223458Z">
+        <seg>Batch Processing of Workflows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакеты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121711Z" creationid="Марианна" creationdate="20200814T121711Z">
@@ -47863,6 +47879,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134542Z" creationid="Марианна" creationdate="20201015T085245Z">
         <seg>Calculator Syntax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Синтаксис строки запуска в пакетном режиме:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223555Z" creationid="Марианна" creationdate="20210928T223555Z">
+        <seg>Syntax of the start string in the package mode:</seg>
       </tuv>
     </tu>
     <tu>
