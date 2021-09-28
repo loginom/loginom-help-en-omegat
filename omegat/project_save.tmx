@@ -33132,6 +33132,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задача тиражирования знаний заключается в предоставлении возможности сотрудникам, не разбирающимся в методиках анализа и способа получения того или иного результата, получать ответ на аналитические запросы на основе моделей, подготовленных экспертом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T094056Z" creationid="Марианна" creationdate="20210928T094056Z">
+        <seg>The challenge of knowledge distribution is to give an opportunity to the employees who are not aware of analysis methods and procedure of achievement of a particular result, receive a response to the analytical requests based on the models provided by the expert.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задают параметры авторизации пользователя при его регистрации в системе веб-сервиса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T115627Z" creationid="Марианна" creationdate="20210208T115627Z">
