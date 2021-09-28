@@ -29125,6 +29125,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все узлы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T224927Z" creationid="Марианна" creationdate="20210928T224927Z">
+        <seg>All nodes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все это позволяет создавать и сопровождать сложные проекты, а также делегировать решение выделенных подзадач.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140236Z" creationid="Марианна" creationdate="20200718T140236Z">
@@ -34556,6 +34564,30 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T074337Z" creationid="Марианна" creationdate="20210407T074337Z">
         <seg>Extracts OccurencesNumber Email-address from the InputString string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение имени</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225018Z" creationid="Марианна" creationdate="20210928T225018Z">
+        <seg>Change name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение типа</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225101Z" creationid="Марианна" creationdate="20210928T225101Z">
+        <seg>Change type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение типа данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225011Z" creationid="Марианна" creationdate="20210928T225011Z">
+        <seg>Change data type</seg>
       </tuv>
     </tu>
     <tu>
@@ -43371,6 +43403,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подмодель</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225025Z" creationid="Марианна" creationdate="20210928T225025Z">
+        <seg>Supernode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подмодель в сценарии представлена в качестве узла, имеющего заданные пользователем входные и выходные порты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T164210Z" creationid="Марианна" creationdate="20200718T164210Z">
@@ -46501,6 +46541,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Производные компоненты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225049Z" creationid="Марианна" creationdate="20210928T225049Z">
+        <seg>Derived components</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Производный компонент</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T224635Z" creationid="Марианна" creationdate="20210928T224635Z">
@@ -49141,6 +49189,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Столбцы и переменные во входных и выходных портах</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T224946Z" creationid="Марианна" creationdate="20210928T224946Z">
+        <seg>Columns and variables in the input and output ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Столбцы исходного набора данных из списка &lt;x1/&gt;Информационные&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T153140Z" creationid="Марианна" creationdate="20201111T153140Z">
@@ -50681,6 +50737,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удаление</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225004Z" creationid="Марианна" creationdate="20210928T224955Z">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удаление по ключу работает только для таблиц с движком из семейства &lt;x1/&gt;MergeTree&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T132350Z" creationid="Марианна" creationdate="20210118T132350Z">
@@ -50821,6 +50885,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T220321Z" creationid="Марианна" creationdate="20210928T220321Z">
         <seg>The &lt;x1/&gt;name is set&lt;x2/&gt; for the node designated for publication. It will be access modifier of the Web Service method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы Подмодели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225034Z" creationid="Марианна" creationdate="20210928T225034Z">
+        <seg>Supernode nodes</seg>
       </tuv>
     </tu>
     <tu>
