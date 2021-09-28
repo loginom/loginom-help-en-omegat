@@ -51717,8 +51717,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Это следует учитывать при изменении среды исполнения Сценариев (перемещение Сценариев на другие сервера, смене пользователя Windows и т.д.)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T212312Z" creationid="Марианна" creationdate="20210928T212312Z">
-        <seg>It is required to take this fact into account when changing the Workflows execution environment (transfer of the Workflows to other servers, change of the Window user, etc.)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T212343Z" creationid="Марианна" creationdate="20210928T212312Z">
+        <seg>It is required to take this fact into account when changing the Workflows execution environment (transfer of the Workflows to other servers, switch of the Window user, etc.)</seg>
       </tuv>
     </tu>
     <tu>
