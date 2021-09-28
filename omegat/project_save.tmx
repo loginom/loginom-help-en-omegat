@@ -31461,6 +31461,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для решения данной задачи пользователь может самостоятельно настраивать необходимый ему вид отчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T085947Z" creationid="Марианна" creationdate="20210928T085947Z">
+        <seg>To complete this task, a user can configure the required kind of reports by himself.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для решения задач анализа &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt; позволяет импортировать данные из различных источников и применять к ним необходимые алгоритмы обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T090521Z" creationid="Марианна" creationdate="20200715T090312Z">
