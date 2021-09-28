@@ -57,12 +57,12 @@ Browsers:
 
 ## Loginom Integrator
 
-Компонент функционирует в виде приложения для Internet Information Services (IIS) и предоставляет возможность публиковать собственные веб-сервисы.
+The component is operated in the application form for Internet Information Services (IIS) and gives an opportunity to publish own web services.
 
 | Component | Minimum | Recommended |
 |:--------- |:-------------|:------------- |
 | OS | Windows Server 2012 and higher | |
-| Software | IIS 8.0 и выше, .NET Framework 4.5 | |
+| Software | IIS 8.0 and higher, .NET Framework 4.5 | |
 | CPU | 2 core | 4 core |
 | RAM | 2 GB | 4 GB |
 | HDD | 100 GB | 500 GB |
