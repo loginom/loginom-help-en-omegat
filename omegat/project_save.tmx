@@ -20362,6 +20362,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach /UserName=user</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223252Z" creationid="Марианна" creationdate="20210928T223252Z">
+        <seg>BatchLauncher "/Package=/user/Quantization training/Quantization.lgp" /Teach /UserName=user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>BatchLauncher /Package=/user/test.lgp
 BatchLauncher "/Package=/user/test and log.lgp"</seg>
       </tuv>
@@ -20412,6 +20420,22 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222934Z" creationid="Марианна" creationdate="20210928T222934Z">
         <seg>BatchLauncher /Package=/user/test.lgp /Teach</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /UserName=user</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223157Z" creationid="Марианна" creationdate="20210928T223157Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /UserName=user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223245Z" creationid="Марианна" creationdate="20210928T223245Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345</seg>
       </tuv>
     </tu>
     <tu>
@@ -21838,6 +21862,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220132Z" creationid="Марианна" creationdate="20210203T220132Z">
         <seg>Passport;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Password</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223203Z" creationid="Марианна" creationdate="20210928T223203Z">
+        <seg>Password</seg>
       </tuv>
     </tu>
     <tu>
@@ -33041,6 +33073,30 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если параметр не указан, то используется пользователь по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223152Z" creationid="Марианна" creationdate="20210928T223152Z">
+        <seg>If the parameter is not specified, the default user is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если параметр не указан, то используется пустой пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223239Z" creationid="Марианна" creationdate="20210928T223239Z">
+        <seg>If the parameter is not specified, the empty password is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если параметр не указан, то пакет запускается в режиме «Выполнение».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223350Z" creationid="Марианна" creationdate="20210928T223350Z">
+        <seg>If the parameter is not specified, the package is started in the "Execution" mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если параметр пустой и &lt;x5/&gt;ServerName&lt;x6/&gt; не &lt;x7/&gt;localhost&lt;x8/&gt;, то подключение проходит по протоколу TCP/IP с портом по умолчанию &lt;x9/&gt;3306&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T105336Z" creationid="Марианна" creationdate="20210202T105336Z">
@@ -33782,6 +33838,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T181212Z" creationid="Марианна" creationdate="20210919T181212Z">
         <seg>It is forbidden to change the &lt;x1/&gt;Authentification&lt;x2/&gt; method for oneself. In this case, a user can become unavailable, whereas he can be the only administrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Запуск пакета в режиме &lt;x1/&gt;«Обучение»&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223435Z" creationid="Марианна" creationdate="20210928T223435Z">
+        <seg>Package start in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34762,6 +34826,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T084157Z" creationid="Марианна" creationdate="20201009T084157Z">
         <seg>Package name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223123Z" creationid="Марианна" creationdate="20210928T223123Z">
+        <seg>Username.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41851,6 +41923,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T224610Z" creationid="Марианна" creationdate="20210218T224610Z">
         <seg>XML Generation Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пароль пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223214Z" creationid="Марианна" creationdate="20210928T223214Z">
+        <seg>User password.</seg>
       </tuv>
     </tu>
     <tu>
