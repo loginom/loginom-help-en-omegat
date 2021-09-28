@@ -36943,6 +36943,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кэширование выражений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T224604Z" creationid="Марианна" creationdate="20210928T224604Z">
+        <seg>Caching of Expressions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Лаг</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100625Z" creationid="Марианна" creationdate="20201011T100625Z">
