@@ -44571,6 +44571,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При редактировании отчетов меняется так же исходный визуализатор, на основании которого построен отчет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T085745Z" creationid="Марианна" creationdate="20210928T085745Z">
+        <seg>When editing reports, the source visualizer used to make the report is also changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При редактировании содержимого &lt;x7/&gt;Подмодели&lt;x8/&gt; ее входные и выходные порты, созданные в мастере настройки, отображаются по левому и правому краю области над кнопками &lt;x9/&gt;Выходной узел&lt;x10/&gt; &lt;x11/&gt;Входной узел&lt;x12/&gt; и &lt;x13/&gt;Выходной узел&lt;x14/&gt; &lt;x15/&gt;Выходной узел&lt;x16/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164433Z" creationid="Марианна" creationdate="20200920T164433Z">
@@ -47587,6 +47595,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132233Z" creationid="Марианна" creationdate="20201210T132233Z">
         <seg>It consists of the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сохранить данную настройку пользователь не может.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T085800Z" creationid="Марианна" creationdate="20210928T085800Z">
+        <seg>A user cannot save this setting.</seg>
       </tuv>
     </tu>
     <tu>
