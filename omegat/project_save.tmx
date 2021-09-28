@@ -21010,6 +21010,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Desktop</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T061845Z" creationid="Марианна" creationdate="20210928T061845Z">
+        <seg>Loginom Desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom имеет возможность  работать как с &lt;x1/&gt;веб-сервисами&lt;x2/&gt;, так и базами данных и файловыми хранилищами данных (электронные таблицы, текстовые файлы и т.д.).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T151822Z" creationid="Марианна" creationdate="20210215T151822Z">
@@ -29383,6 +29391,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T163924Z" creationid="Марианна" creationdate="20200717T110132Z">
         <seg>Then this data is sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then this data is transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данная версия платформы предназначена для установки на локальной машине, когда подразумевается работа одного пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T081457Z" creationid="Марианна" creationdate="20210928T081457Z">
+        <seg>This platform version is designated for installation on the local machine when one user operation is required.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46571,6 +46587,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T054600Z" creationid="Марианна" creationdate="20201119T054600Z">
         <seg>Syntax of the Date/Time Formatting Strings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Системные требования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T061840Z" creationid="Марианна" creationdate="20210928T061840Z">
+        <seg>System Requirements</seg>
       </tuv>
     </tu>
     <tu>
