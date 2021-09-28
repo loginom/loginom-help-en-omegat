@@ -36229,6 +36229,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Корректировка Сценария осуществляется путем стандартных манипуляций с узлами (настройки, добавления, удаления), а также воздействиями на их последовательные связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T210102Z" creationid="Марианна" creationdate="20210928T210102Z">
+        <seg>The Workflow is corrected by standard operations with nodes (configuration, adding, deletion) and influence on their successive links.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Корреляция продаж товара "Кофе" с товаром "Спагетти" является отрицательной, но при этом абсолютное значение корреляции невелико, и, следовательно, можно говорить об отсутствии взаимосвязи между продажами этих товаров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T063344Z" creationid="Марианна" creationdate="20201012T063344Z">
