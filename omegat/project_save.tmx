@@ -31795,6 +31795,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы эти объекты были доступны в других Пакетах, для них должна быть задана область видимости "Открытый (доступен во всех пакетах)".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221400Z" creationid="Марианна" creationdate="20210928T221400Z">
+        <seg>To make these objects available in other Packages, the "Public" (available in all packages) area of visibility must be set for them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для удаления какой-либо конкретной связи можно воспользоваться командой контекстного меню &lt;x9/&gt;Удалить связь&lt;x10/&gt;&lt;x11/&gt;Удалить связь&lt;x12/&gt;, вызванную на одном из связанных элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164410Z" creationid="Марианна" creationdate="20200929T193953Z">
@@ -37771,6 +37779,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125722Z" creationid="Марианна" creationdate="20201118T125722Z">
         <seg>Other columns are generated on the basis of the source column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На панели "Навигация" выбрать элемент &lt;x1/&gt;&lt;x2/&gt; Ссылки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221607Z" creationid="Марианна" creationdate="20210928T221607Z">
+        <seg>to select &lt;x1/&gt;&lt;x2/&gt; item of the Reference on the "Navigation" panel;</seg>
       </tuv>
     </tu>
     <tu>
@@ -51853,6 +51869,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200820T105310Z" creationid="Марианна" creationdate="20200820T105310Z">
         <seg>This button is always located in the far right position on the toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эта область задается параметром объекта "Модификатор доступа".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T221507Z" creationid="Марианна" creationdate="20210928T221507Z">
+        <seg>This area is set by parameter of the "Access modifier" object.</seg>
       </tuv>
     </tu>
     <tu>
