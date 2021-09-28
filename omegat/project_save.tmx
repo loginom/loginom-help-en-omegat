@@ -49399,6 +49399,16 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также имя узла может использоваться в качестве параметра при &lt;x3/&gt;пакетном выполнении сценария&lt;x4/&gt;
+(см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T220450Z" creationid="Марианна" creationdate="20210928T220450Z">
+        <seg>The node name can be also used as a parameter while &lt;x3/&gt;Workflow batch processing&lt;x4/&gt;
+(refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также каждый дочерний узел можно связывать с источником данных командой контекстного меню &lt;x5/&gt;Связать автоматически&lt;x6/&gt;&lt;x7/&gt;Связать автоматически&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T192913Z" creationid="Марианна" creationdate="20200929T192913Z">
@@ -50323,6 +50333,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T091423Z" creationid="Марианна" creationdate="20200919T091423Z">
         <seg>Reference node enables to receive results of processing (execution) of the other node that can be located outside the current &lt;x1/&gt;Supernode&lt;x2/&gt;, &lt;x3/&gt;Workflow&lt;x4/&gt;, &lt;x5/&gt;Module&lt;x6/&gt; or &lt;x7/&gt;Package&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлу предназначенному для публикации &lt;x1/&gt;задается имя&lt;x2/&gt;, которое будет являться идентификатором метода Веб-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T220321Z" creationid="Марианна" creationdate="20210928T220321Z">
+        <seg>The &lt;x1/&gt;name is set&lt;x2/&gt; for the node designated for publication. It will be access modifier of the Web Service method.</seg>
       </tuv>
     </tu>
     <tu>
