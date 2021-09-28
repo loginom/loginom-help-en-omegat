@@ -31159,6 +31159,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для настройки доступа следует сделать по выбранному объекту клик правой кнопкой мыши и в контекстном меню выбрать пункт &lt;x1/&gt;&lt;x2/&gt; "Настроить модификатор доступа".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215028Z" creationid="Марианна" creationdate="20210928T215028Z">
+        <seg>To provide the accessibility setup, it is required to click the selected object with the right mouse button and select &lt;x1/&gt;&lt;x2/&gt; "Configure visibility" option in the context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки доступны следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T065340Z" creationid="Марианна" creationdate="20201019T065340Z">
