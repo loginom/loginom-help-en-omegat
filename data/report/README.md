@@ -1,6 +1,6 @@
 # Reports
 
-The challenge of knowledge distribution is to give an opportunity to the employees who are not aware of analysis methods and procedure of achievement of a particular result, receive a response to the analytical requests based on the models provided by the expert. The workflows panel is designated for the expert to build different models in it. The reports panel is designated for the end user.
+The challenge of knowledge distribution is to give an opportunity to the employees who are not aware of analysis methods and procedure of achievement of a particular result, to receive a response to the analytical requests based on the models provided by the expert. The workflows panel is designated for the expert to build different models in it. The reports panel is designated for the end user.
 
 To create a report, it is required to add the visualizer used to make the report. Then it is required to select this visualizer and press *Add to reports* button. In this case, the report will be added to "Without group" list. To add the report to the definite group, it is required to select the visualizer and open the drop-down list near *Add to reports* menu. It will be asked to choose to place the report to the pre-created group or create the new group.
 
