@@ -31493,6 +31493,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания отчета необходимо добавить визуализатор, на основе которого будет построен отчет, выбрать данный визуализатор и нажать кнопку &lt;x1/&gt;Добавить в отчеты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T094458Z" creationid="Марианна" creationdate="20210928T094458Z">
+        <seg>To create a report, it is required to add the visualizer used to make the report. Then it is required to select this visualizer and press &lt;x1/&gt;Add to reports&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания соответствия входных и выходных переменных следует перетащить обозначение входной переменной на обозначение выходной.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205347Z" creationid="Марианна" creationdate="20200921T205212Z">
