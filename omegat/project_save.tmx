@@ -33075,8 +33075,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то выполняются все узлы Пакета, для которых заданы необходимые настройки &lt;x1/&gt;режима активации&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T223712Z" creationid="Марианна" creationdate="20210928T223712Z">
-        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; settings are set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T223821Z" creationid="Марианна" creationdate="20210928T223712Z">
+        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; settings are set are executed.</seg>
       </tuv>
     </tu>
     <tu>
