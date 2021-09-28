@@ -26593,6 +26593,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В параметре "Путь к файлу пакета" задать путь к Пакету, доступ к объектам которого необходимо получить;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222004Z" creationid="Марианна" creationdate="20210928T222004Z">
+        <seg>set the path to the Package access to which objects it is required to receive in "Path to the package file" parameter;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В первом и втором случае применение входного набора данных не обязательно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T193455Z" creationid="Марианна" creationdate="20200921T193455Z">
@@ -38169,8 +38177,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нажать "Применить".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T220032Z" creationid="Марианна" creationdate="20210928T220032Z">
-        <seg>Press "Apply".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T222012Z" creationid="Марианна" creationdate="20210928T220032Z">
+        <seg>press "Apply".</seg>
       </tuv>
     </tu>
     <tu>
