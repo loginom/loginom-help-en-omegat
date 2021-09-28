@@ -29939,6 +29939,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данные настройки содержат информацию о языковых стандартах, форматах представления чисел, времени, даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T211433Z" creationid="Марианна" creationdate="20210928T211433Z">
+        <seg>These settings contain information on the language standards, number, time, date formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данные не сопоставленных полей помещаются в отдельные столбцы результирующего набора, которые можно отметить префиксами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T142356Z" creationid="Марианна" creationdate="20201119T141804Z">
@@ -38129,6 +38137,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210830T131823Z" creationid="Марианна" creationdate="20210830T125310Z">
         <seg>For example, to provide a dimension for &lt;x3/&gt;Goods&lt;x4/&gt;, &lt;x5/&gt;Color&lt;x6/&gt;, &lt;x7/&gt;Weight&lt;x8/&gt;, &lt;x9/&gt;Sizes&lt;x10/&gt; can be attributes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, для пользователей Windows одним из источников этих настроек для сервера Loginom являются настройки "Язык и региональные стандарты".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T211641Z" creationid="Марианна" creationdate="20210928T211641Z">
+        <seg>For example, one of the sources of these settings for Windows users for the Loginom server are "Language and regional standards" settings.</seg>
       </tuv>
     </tu>
     <tu>
