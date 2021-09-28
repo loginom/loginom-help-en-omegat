@@ -14,6 +14,70 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{FNR=\frac{Σ\,FN}{Σ\,P}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230605Z" creationid="Марианна" creationdate="20210928T230605Z">
+        <seg>$$\displaystyle\mathsf{FNR=\frac{Σ\,FN}{Σ\,P}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{FPR=\frac{Σ\,FP}{Σ\,N}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230559Z" creationid="Марианна" creationdate="20210928T230559Z">
+        <seg>$$\displaystyle\mathsf{FPR=\frac{Σ\,FP}{Σ\,N}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{F_1\,score=2\cdot\frac{PPV\cdot NPV}{PPV + NPV}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230602Z" creationid="Марианна" creationdate="20210928T230602Z">
+        <seg>$$\displaystyle\mathsf{F_1\,score=2\cdot\frac{PPV\cdot NPV}{PPV + NPV}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{NPV=\frac{Σ\,TN}{Σ\,TN + Σ\,FN}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230553Z" creationid="Марианна" creationdate="20210928T230553Z">
+        <seg>$$\displaystyle\mathsf{NPV=\frac{Σ\,TN}{Σ\,TN + Σ\,FN}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{OCR=\frac{Σ\,TP + Σ\,TN}{Σ\,P + Σ\,N}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230529Z" creationid="Марианна" creationdate="20210928T230529Z">
+        <seg>$$\displaystyle\mathsf{OCR=\frac{Σ\,TP + Σ\,TN}{Σ\,P + Σ\,N}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{PPV=\frac{Σ\,TP}{Σ\,TP + Σ\,FP}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230540Z" creationid="Марианна" creationdate="20210928T230540Z">
+        <seg>$$\displaystyle\mathsf{PPV=\frac{Σ\,TP}{Σ\,TP + Σ\,FP}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{TNR=\frac{Σ\,TN}{Σ\,P}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230609Z" creationid="Марианна" creationdate="20210928T230609Z">
+        <seg>$$\displaystyle\mathsf{TNR=\frac{Σ\,TN}{Σ\,P}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>$$\displaystyle\mathsf{TPR=\frac{Σ\,TP}{Σ\,P}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230556Z" creationid="Марианна" creationdate="20210928T230556Z">
+        <seg>$$\displaystyle\mathsf{TPR=\frac{Σ\,TP}{Σ\,P}}$$</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>$$x^* = \frac{x-x_{min}}{x_{max}-x_{min}}*(b-a)+a$$ ,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093844Z" creationid="Марианна" creationdate="20210419T093844Z">
@@ -12897,6 +12961,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Матрица ошибок&lt;x2/&gt; — это специальный вид &lt;x3/&gt;таблицы сопряженности&lt;x4/&gt; с двумя измерениями &lt;x5/&gt;фактическим&lt;x6/&gt; и &lt;x7/&gt;прогнозируемым&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230505Z" creationid="Марианна" creationdate="20210928T230505Z">
+        <seg>&lt;x1/&gt;Error matrix&lt;x2/&gt; is a special type of the &lt;x3/&gt;cross table&lt;x4/&gt; with two dimensions - &lt;x5/&gt;actual&lt;x6/&gt; and &lt;x7/&gt;forecasted&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Меню&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T085414Z" creationid="Марианна" creationdate="20200814T120718Z">
@@ -16652,6 +16724,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T060314Z" creationid="Марианна" creationdate="20210224T060314Z">
         <seg>&lt;x1/&gt;Note&lt;x2/&gt;: If the link between the field and object has been incorrectly established, it can be deleted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: значения используемых терминов можно посмотреть на странице &lt;x3/&gt;Термины&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230653Z" creationid="Марианна" creationdate="20210928T230653Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Values of the used terms are available on &lt;x3/&gt;Terms&lt;x4/&gt; page.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21080,6 +21160,22 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>False negative</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230545Z" creationid="Марианна" creationdate="20210928T230545Z">
+        <seg>False negative</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>False positive</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230537Z" creationid="Марианна" creationdate="20210928T230537Z">
+        <seg>False positive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Find</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T130032Z" creationid="Марианна" creationdate="20210406T130032Z">
@@ -21784,6 +21880,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Negative</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230526Z" creationid="Марианна" creationdate="20210928T230526Z">
+        <seg>Negative</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Negotiate.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220135Z" creationid="Марианна" creationdate="20210203T220135Z">
@@ -21966,6 +22070,14 @@ console.log("RowCount = ", OutputTable.RowCount);
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222822Z" creationid="Марианна" creationdate="20210928T222822Z">
         <seg>PortName.VarName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Positive</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230522Z" creationid="Марианна" creationdate="20210928T230522Z">
+        <seg>Positive</seg>
       </tuv>
     </tu>
     <tu>
@@ -22616,6 +22728,22 @@ interface IVariable {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100728Z" creationid="Марианна" creationdate="20201011T100728Z">
         <seg>True</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>True negative</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230549Z" creationid="Марианна" creationdate="20210928T230549Z">
+        <seg>True negative</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>True positive</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230534Z" creationid="Марианна" creationdate="20210928T230534Z">
+        <seg>True positive</seg>
       </tuv>
     </tu>
     <tu>
@@ -36099,6 +36227,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Классифицировано</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230513Z" creationid="Марианна" creationdate="20210928T230513Z">
+        <seg>Predicted</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кластер состоит из узлов сети.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T212853Z" creationid="Марианна" creationdate="20201216T212853Z">
@@ -37451,6 +37587,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104913Z" creationid="Марианна" creationdate="20210402T104913Z">
         <seg>Mathematical Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Матрица ошибок</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230328Z" creationid="Марианна" creationdate="20210928T230328Z">
+        <seg>Error Matrix</seg>
       </tuv>
     </tu>
     <tu>
@@ -51401,6 +51545,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T093340Z" creationid="Марианна" creationdate="20210925T093340Z">
         <seg>In this case, files are copied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фактически</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T230519Z" creationid="Марианна" creationdate="20210928T230519Z">
+        <seg>Actually</seg>
       </tuv>
     </tu>
     <tu>
