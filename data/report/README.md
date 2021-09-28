@@ -10,7 +10,7 @@ It is preferable to group the reports according to their semantic content. For e
 
 Practically it often happens that the user needs to receive the report on some subset of all available data, for example, data on one supplier or client, several groups of goods or regions. Such subset is called a slice in the terms of the multidimensional data model. The analyst can create reports in the predetermined and most highly-demanded slices but he cannot forecast all kinds of reports that can be necessary to the user. To complete this task, a user can configure the required kind of reports by himself. A user cannot save this setting.
 
-To search for the report created on the basis of the current visualizer, it is required to click the required visualizer with the right mouse button and select "Show in reports" menu option. In this case, there will be a transition to the reports control panel.
+To search for the report created on the basis of the current visualizer, it is required to click the required visualizer with the right mouse button and select "Show in reports" menu option. In this case, these actions will enable to move to the reports control panel.
 
 To control the created reports, it is required to go to *Reports* group of the package. The reports control panel is designated for creation of new groups of reports, renaming and deletion of existing groups of reports, editing, renaming and deletion of reports. When editing reports, the source visualizer used to make the report is also changed.
 
