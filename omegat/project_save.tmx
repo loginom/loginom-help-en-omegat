@@ -27277,6 +27277,14 @@ Several control elements are located over the table fields:</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае отчет добавится в список "Без группы".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T085514Z" creationid="Марианна" creationdate="20210928T085514Z">
+        <seg>In this case, the report will be added to "Without group" list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае при запуске мастера настройки первым открывается окно настройки входных диапазонов, где нужно установить соответствия между столбцами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201025Z" creationid="Марианна" creationdate="20210601T201025Z">
@@ -31001,6 +31009,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T092147Z" creationid="Марианна" creationdate="20201223T092147Z">
         <seg>By default, &lt;x1/&gt;Stop at zero classification error&lt;x2/&gt; is also enabled for the classifier:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для конечного же пользователя предназначена панель отчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T085420Z" creationid="Марианна" creationdate="20210928T085420Z">
+        <seg>The reports panel is designated for the end user.</seg>
       </tuv>
     </tu>
     <tu>
