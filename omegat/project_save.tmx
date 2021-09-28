@@ -11745,6 +11745,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Интерактивное выполнение сценария&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225731Z" creationid="Марианна" creationdate="20210928T225731Z">
+        <seg>&lt;x1/&gt;Interactive workflow execution&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерактивный режим работы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185115Z" creationid="Марианна" creationdate="20200810T160401Z">
@@ -14665,6 +14673,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185221Z" creationid="Марианна" creationdate="20200810T183041Z">
         <seg>&lt;x1/&gt;Batch processing of workflows&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пакетное выполнение сценария&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225710Z" creationid="Марианна" creationdate="20210928T225710Z">
+        <seg>&lt;x1/&gt;Batch processing of workflows&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20516,6 +20532,14 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T211441Z" creationid="Марианна" creationdate="20210405T125237Z">
         <seg>C - constant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>CASE...").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225627Z" creationid="Марианна" creationdate="20210928T225627Z">
+        <seg>CASE...").</seg>
       </tuv>
     </tu>
     <tu>
@@ -27749,6 +27773,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Варианты активации узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225701Z" creationid="Марианна" creationdate="20210928T225701Z">
+        <seg>Node Activation Options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Варианты валидации</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T113111Z" creationid="Марианна" creationdate="20210925T113111Z">
@@ -32791,6 +32823,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T174433Z" creationid="Марианна" creationdate="20210219T174433Z">
         <seg>Other start keys are available on corresponding sites related to the Windows command line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Другие узлы Пакета выполняться не будут.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225812Z" creationid="Марианна" creationdate="20210928T225812Z">
+        <seg>Other Package nodes will not be executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41713,6 +41753,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пакетное выполнение сценария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225754Z" creationid="Марианна" creationdate="20210928T225754Z">
+        <seg>Batch Processing of Workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакеты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T121711Z" creationid="Марианна" creationdate="20200814T121711Z">
@@ -47305,6 +47353,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094355Z" creationid="Марианна" creationdate="20200813T094355Z">
         <seg>Platform editions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Режим активации узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225647Z" creationid="Марианна" creationdate="20210928T225647Z">
+        <seg>Node Activation Mode</seg>
       </tuv>
     </tu>
     <tu>
@@ -53557,6 +53613,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T062840Z" creationid="Марианна" creationdate="20201116T062840Z">
         <seg>from 40 to 80</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>параметр &lt;x1/&gt;&lt;x2/&gt;/Node&lt;x3/&gt;&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T225823Z" creationid="Марианна" creationdate="20210928T225823Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;/Node&lt;x3/&gt;&lt;x4/&gt; parameter).</seg>
       </tuv>
     </tu>
     <tu>
