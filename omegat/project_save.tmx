@@ -15981,6 +15981,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример использования порта порядка выполнения.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213238Z" creationid="Марианна" creationdate="20210928T213238Z">
+        <seg>&lt;x1/&gt;Example of use of the execution order port.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пример подключения и работы с БД&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T224310Z" creationid="Марианна" creationdate="20210210T224310Z">
@@ -43323,6 +43331,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порт связи наследования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213408Z" creationid="Марианна" creationdate="20210928T213408Z">
+        <seg>Port of heritage connection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порт связи наследования (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213425Z" creationid="Марианна" creationdate="20210928T213425Z">
+        <seg>Port of heritage connection (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт управляющих переменных принимает переменные, с помощью которых можно задать параметры настроек узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T081709Z" creationid="Марианна" creationdate="20201009T081709Z">
@@ -52867,6 +52891,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T121111Z" creationid="Марианна" creationdate="20210213T121048Z">
         <seg>Figure 2, Area 1) — Connection Class Tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 2) предназначен для того, чтобы отобразить базовый узел &lt;x1/&gt;Производного компонента&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T213505Z" creationid="Марианна" creationdate="20210928T213505Z">
+        <seg>Figure 2) is designated to display the base node of the &lt;x1/&gt;Derived component&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
