@@ -31659,6 +31659,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания ссылки следует:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T220008Z" creationid="Марианна" creationdate="20210928T220008Z">
+        <seg>It is required to perform the following actions when creating the reference:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания узла:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T100446Z" creationid="Марианна" creationdate="20200711T100446Z">
@@ -32223,6 +32231,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T180412Z" creationid="Марианна" creationdate="20201109T061347Z">
         <seg>Access to the Ports Data and Other Built-In Objects from the JavaScript Code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступен во всех Пакетах (чтобы использовать объект из другого Пакета, надо создать Ссылку на этот Пакет)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215805Z" creationid="Марианна" creationdate="20210928T215805Z">
+        <seg>It is available in all Packages (to use the object from another Package, it is required to create a Reference to this Package)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступен во всех Пакетах и в виде Веб-сервиса (данный модификатор задается при публикации узла в виде Веб-сервиса)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215927Z" creationid="Марианна" creationdate="20210928T215927Z">
+        <seg>It is available in all Packages and in the Web Service form (this access modifier is set when publishing the node in the Web Service form)</seg>
       </tuv>
     </tu>
     <tu>
@@ -40693,6 +40717,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T084248Z" creationid="Марианна" creationdate="20200716T084248Z">
         <seg>They define configuration for work with external sources and data receivers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Опубликованный</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T215812Z" creationid="Марианна" creationdate="20210928T215812Z">
+        <seg>Published</seg>
       </tuv>
     </tu>
     <tu>
