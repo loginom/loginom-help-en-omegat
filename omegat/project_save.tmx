@@ -37375,6 +37375,22 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Модификатор доступа</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214626Z" creationid="Марианна" creationdate="20210928T214626Z">
+        <seg>Access Modifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Модификатор доступа определяет доступность объекта на разных уровнях Пакета, а также между Пакетами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214728Z" creationid="Марианна" creationdate="20210928T214728Z">
+        <seg>The access modifier defines the object availability on different Package levels and between the Packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модифицированный критерий Акаике, применяемый для &lt;x1/&gt;выборок&lt;x2/&gt; малого размера, когда отношение числа содержащихся в ней примеров к числу параметров модели меньше 40</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T203955Z" creationid="Марианна" creationdate="20201216T211506Z">
@@ -40133,6 +40149,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083840Z" creationid="Марианна" creationdate="20201102T083840Z">
         <seg>The module object has &lt;x1/&gt;parent&lt;x2/&gt;, &lt;x3/&gt;loaded&lt;x4/&gt; and &lt;x5/&gt;filename&lt;x6/&gt; (as in NodeJS) properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Объектами, для которых можно задать модификатор доступа, являются подключения и узлы Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210928T214819Z" creationid="Марианна" creationdate="20210928T214819Z">
+        <seg>The objects for which it is possible to set the access modifier are connections and nodes of the Workflow.</seg>
       </tuv>
     </tu>
     <tu>
