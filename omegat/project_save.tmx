@@ -49133,6 +49133,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Создание и настройка производного компонента</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105830Z" creationid="Марианна" creationdate="20210930T105830Z">
+        <seg>Creation and Configuration of the Derived Component</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание и публикация веб-сервиса</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T223826Z" creationid="Марианна" creationdate="20210210T223339Z">
@@ -50391,6 +50399,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T150912Z" creationid="Марианна" creationdate="20210118T150912Z">
         <seg>Thus,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Та же команда доступна на панели инструментов области построения Сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105939Z" creationid="Марианна" creationdate="20210930T105939Z">
+        <seg>The same command is available on the toolbar of the Workflows construction area.</seg>
       </tuv>
     </tu>
     <tu>
