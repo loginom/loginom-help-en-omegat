@@ -66,17 +66,17 @@ BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 /Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4
 ```
 
-It is allowed not to specify the port name (for example, */Parameter1=true*. However, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule. Ошибка так же возникнет, если указано имя несуществующей переменной.
+It is allowed not to specify the port name (for example, */Parameter1=true*. However, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule. An error also occurs when the nonexisting variable name of is specified.
 
-> **Важно:** все незарезервированные параметры в строке запуска интерпретируются как параметры установки значений переменных.
+> **Important:** All nonreserved parameters in the start string are interpreted as the setup parameters of the variables values.
 
-Исходное строковое значение, указанное в командной строке, конвертируется к типу данных целевой переменной:
+The source string value specified in the command string is converted according to the data type of the target variable:
 
-* Если исходное строковое значение равно null (с учётом регистра), то целевая переменная получает пустое значение независимо от её типа данных.
-* Если целевая переменная имеет тип Логический, Целый, Вещественный или Дата/Время, то исходное строковое значение конвертируется по правилам соответствующего типа, причём для Вещественного типа используется десятичный разделитель . (Dot). Для Даты/Времени используется подмножество форматов ISO 8601: "YYYY-MM-DD", "YYYY-MM-DDThh:mm[:ss[.zzz]]", "hh:mm[:ss[.zzz]]". Допустимыми значениями Логического типа считаются *true* и *false* (без учёта регистра).
-* Если целевая переменная имеет Строковый тип, то преобразование типа данных не выполняется. Если исходное значение заключено в одинарные кавычки, то эти кавычки разэкранируются, в противном случае исходное значение присваивается в переменную без изменений.
-* Если целевая переменная имеет Переменный тип, то происходит попытка поочерёдно преобразовать исходное строковое значение к типам Логический, Целый, Вещественный и Дата/Время, причём если ни одно из этих преобразований не удалось, то целевая переменная получает строковое значение.
-* Для переменных типа Вещественный и Переменный в качестве параметров можно передавать экспоненциальную форму записи числа (пример: 4.205E2, 4.205E-2)
+* If the source string value is equal to null (case-sensitive), the target variable will get the null value irrespective of its data type.
+* If the target variable refers to the Logical, Integer, Real or Data/Time type, the source string value is converted according to the rules related to corresponding type. In this case, the decimal separator is used for the Real type. (Dot). Subset of ISO 8601 formats is used for Date/Time: "YYYY-MM-DD", "YYYY-MM-DDThh:mm[:ss[.zzz]]", "hh:mm[:ss[.zzz]]". *true* and *false* (non-case-sensitive) are considered to be allowable values of the Logical type.
+* If the target variable is related to the String type, the data type transformation is not performed. If the source value is enclosed in single quotes, these quotes are unescaped. Otherwise, the source value is assigned to the variable without changes.
+* If the target varaible is related to the Variable type, there is an attempt to convert alternately the source string value to the Logical, Integer, Real and Date/Time types. In this case, if all these conversions fail, the target variable will get the string value.
+* The exponential form of number record can be transferred as parameters for the variables related to the Real and Variable types (for example: 4.205E2, 4.205E-2)
 
 For example:
 
@@ -101,7 +101,7 @@ Var9 — string a b c value.
 
 ### Teach
 
-Package start in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the package is started in the "Execution" mode.
+Batch start in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the batch is started in the "Execution" mode.
 
 For example:
 
@@ -121,7 +121,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
 
 ### Port
 
-Порт, по которому происходит обращение к серверу Loginom. *4386* is used by default..
+The port used for access to the Loginom server. *4386* is used by default.
 
 For example:
 
@@ -149,7 +149,7 @@ For example:
 BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 ```
 
-> **Примечание:** при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.
+> **Note:** When using the space characters in the expression that enables to set the parameter value, it is required to enclose the whole expression in double quotes.
 
 For example:
 

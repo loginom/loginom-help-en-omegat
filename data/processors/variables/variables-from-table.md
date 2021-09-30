@@ -1,6 +1,6 @@
 # ![Table to Variables](../../images/icons/components/datatovariables_default.svg) Table to Variables
 
-The handler enables to transform the table data to variables. A variable is generated from the data of each table field. A variable can have only one value that's why different [aggregation functions](../func/aggregation-functions.md) are applied to the field data for its calculation.
+The handler enables to convert the table data to variables. A variable is generated from the data of each table field. A variable can have only one value that's why different [aggregation functions](../func/aggregation-functions.md) are applied to the field data for its calculation.
 
 ## Ports
 

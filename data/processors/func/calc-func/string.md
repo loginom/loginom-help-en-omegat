@@ -32,7 +32,7 @@ Returns count of characters in the string.
 * String1.
 * String2 - expressions of the string type.
 
-Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to transform one string into another.
+Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to convert one string into another.
 
 ## Find
 
@@ -77,7 +77,7 @@ Returns the given count of characters of the left string part.
 * String1.
 * String2 - expressions of the string type.
 
-Function returns the value of the Levenshtein distance for String1, String2. The Levenshtein distance is also called the edit distance that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion and substitution operations that must be performed in order to transform one string into another.
+Function returns the value of the Levenshtein distance for String1, String2. The Levenshtein distance is also called the edit distance that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion and substitution operations that must be performed in order to convert one string into another.
 
 ## Lower
 
