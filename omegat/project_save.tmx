@@ -13105,6 +13105,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — наименование производного компонента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T110043Z" creationid="Марианна" creationdate="20210930T110043Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: name of the derived component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — произвольное описание поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T141928Z" creationid="Марианна" creationdate="20200929T110747Z">
@@ -14441,6 +14449,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T124339Z" creationid="Марианна" creationdate="20210203T204852Z">
         <seg>&lt;x1/&gt;Description&lt;x2/&gt;: it is possible to provide any reference connection data in this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Описание&lt;x2/&gt; — дополнительная информация по компоненту;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T110013Z" creationid="Марианна" creationdate="20210930T110013Z">
+        <seg>&lt;x1/&gt;Description&lt;x2/&gt;: additional information on the component.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28645,6 +28661,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутренний (доступен только внутри текущего Пакета);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T110238Z" creationid="Марианна" creationdate="20210930T110238Z">
+        <seg>Public (available only in the current Package);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внутри &lt;x1/&gt;Подмодели&lt;x2/&gt; имеется возможность использовать &lt;x3/&gt;&lt;x4/&gt;Переменные сценария&lt;x5/&gt;&lt;x6/&gt;, в состав которых входят &lt;x7/&gt;Переменные пользователя&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T164655Z" creationid="Марианна" creationdate="20200920T164655Z">
@@ -34166,6 +34190,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215202Z" creationid="Марианна" creationdate="20210928T215202Z">
         <seg>Private</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Закрытый (доступен только внутри текущего Модуля);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T110139Z" creationid="Марианна" creationdate="20210930T110139Z">
+        <seg>Private (available only in the current Module);</seg>
       </tuv>
     </tu>
     <tu>
