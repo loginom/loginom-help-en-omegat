@@ -14911,8 +14911,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пакетный режим&lt;x2/&gt; — исполнение Сценариев Пакета без отображения какого-либо пользовательского интерфейса и вывода сообщений на экран.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T091328Z" creationid="Марианна" creationdate="20210930T043115Z">
-        <seg>&lt;x1/&gt;Batch mode&lt;x2/&gt;: execution of the Batch Workflows without display of any user interface and screen display of messages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204503Z" creationid="Марианна" creationdate="20210930T043115Z">
+        <seg>&lt;x1/&gt;Batch mode&lt;x2/&gt;: execution of the Package Workflows without display of any user interface and screen display of messages.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33685,8 +33685,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то выполняются все узлы Пакета, для которых заданы необходимые настройки &lt;x1/&gt;режима активации&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T093438Z" creationid="Марианна" creationdate="20210928T223712Z">
-        <seg>If the parameter is not specified, all Batch nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; are set must be executed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204535Z" creationid="Марианна" creationdate="20210928T223712Z">
+        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; are set must be executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33709,8 +33709,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то пакет запускается в режиме «Выполнение».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T101925Z" creationid="Марианна" creationdate="20210928T223350Z">
-        <seg>If the parameter is not specified, the batch is launched in the "Execution" mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204718Z" creationid="Марианна" creationdate="20210928T223350Z">
+        <seg>If the parameter is not specified, the package is launched in the "Execution" mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34502,8 +34502,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Запуск пакета в режиме &lt;x1/&gt;«Обучение»&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T101802Z" creationid="Марианна" creationdate="20210928T223435Z">
-        <seg>Batch launch in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204548Z" creationid="Марианна" creationdate="20210928T223435Z">
+        <seg>Package launch in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47672,8 +47672,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Путь к файлу Пакета внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T092532Z" creationid="Марианна" creationdate="20210928T222722Z">
-        <seg>Path to the Batch file inside the &lt;x1/&gt;file storage&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204518Z" creationid="Марианна" creationdate="20210928T222722Z">
+        <seg>Path to the Package file inside the &lt;x1/&gt;file storage&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
