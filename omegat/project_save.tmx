@@ -41009,6 +41009,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обычно результатом выполнения пакета при этом является формирование итоговых данных и передача их в стороннюю систему (например, в хранилище данных или другую учетную систему).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T043555Z" creationid="Марианна" creationdate="20210930T043555Z">
+        <seg>As a rule, in this case, the package execution result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обязательные поля:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T101256Z" creationid="Марианна" creationdate="20201011T101256Z">
