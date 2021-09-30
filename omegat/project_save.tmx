@@ -41737,6 +41737,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Особенностью производного компонента являются его следующие свойства:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T103212Z" creationid="Марианна" creationdate="20210930T103212Z">
+        <seg>The following properties are peculiar to the derived component:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оставить без изменения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221916Z" creationid="Марианна" creationdate="20210218T221916Z">
@@ -43983,6 +43991,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093352Z" creationid="Марианна" creationdate="20200715T093352Z">
         <seg>The supernode is a special node that can include other workflow nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подобный подход является важным инструментом в реализации структурного подхода в проектировании сложных решений (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T103119Z" creationid="Марианна" creationdate="20210930T103119Z">
+        <seg>Such approach is an important tool used to implement the structural approach when designing complex solutions (refer to</seg>
       </tuv>
     </tu>
     <tu>
