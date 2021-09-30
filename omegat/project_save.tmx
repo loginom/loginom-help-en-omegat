@@ -15197,6 +15197,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переопределение&lt;x2/&gt; — модификация производного узла без изменения Производного компонента, из которого он создан.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T103749Z" creationid="Марианна" creationdate="20210930T103749Z">
+        <seg>&lt;x1/&gt;Overdetermination&lt;x2/&gt; means the modification of the derived node without change of the Derived Component from which it has been created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Перечисления&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054343Z" creationid="Марианна" creationdate="20200812T054343Z">
@@ -34948,6 +34956,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T224827Z" creationid="Марианна" creationdate="20210218T224827Z">
         <seg>Request Identification.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Из &lt;x1/&gt;Производных компонентов&lt;x2/&gt; создаются &lt;x3/&gt;производные узлы&lt;x4/&gt; — наследники базового узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T103948Z" creationid="Марианна" creationdate="20210930T103948Z">
+        <seg>From the &lt;x1/&gt;Derived Components&lt;x2/&gt; the &lt;x3/&gt;derived nodes&lt;x4/&gt; are created. They are descendants of the base node.</seg>
       </tuv>
     </tu>
     <tu>
