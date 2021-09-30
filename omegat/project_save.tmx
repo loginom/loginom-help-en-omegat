@@ -41969,6 +41969,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Откроется окно &lt;x1/&gt;Настройка производного компонента&lt;x2/&gt;, где определяются:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T202036Z" creationid="Марианна" creationdate="20210930T202036Z">
+        <seg>&lt;x1/&gt;Configuration of the derived component&lt;x2/&gt; window where the following parameters are defined will be opened:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Откроется окно выбора настроек:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215106Z" creationid="Марианна" creationdate="20210928T215106Z">
@@ -52733,6 +52741,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110709Z" creationid="Марианна" creationdate="20200929T110709Z">
         <seg>Digits (it cannot be the first character).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Частично закрытый (доступен только внутри текущего Модуля и его Подмоделей);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T202225Z" creationid="Марианна" creationdate="20210930T202225Z">
+        <seg>Partially private (available only in the current Module and its Supernodes);</seg>
       </tuv>
     </tu>
     <tu>
