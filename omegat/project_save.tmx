@@ -6340,6 +6340,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить — удаление выбранного Производного компонента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T180214Z" creationid="Марианна" creationdate="20210930T180214Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Delete: delete the selected Derived Component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить — удаление выделенного в списке Производного компонента.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T175755Z" creationid="Марианна" creationdate="20210930T175755Z">
@@ -40813,6 +40821,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134242Z" creationid="Марианна" creationdate="20201015T085008Z">
         <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обновить — обновляется список Производных компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T180241Z" creationid="Марианна" creationdate="20210930T180241Z">
+        <seg>Update: update the list of the Derived Components.</seg>
       </tuv>
     </tu>
     <tu>
