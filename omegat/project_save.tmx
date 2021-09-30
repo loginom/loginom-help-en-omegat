@@ -13473,6 +13473,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Наследование&lt;x2/&gt; — означает, что изменение базового узла повлечет за собой изменение Производного компонента и, соответственно, всех созданных на базе этого компонента узлов Сценария;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T103447Z" creationid="Марианна" creationdate="20210930T103447Z">
+        <seg>&lt;x1/&gt;Heritage&lt;x2/&gt; means that the base node change will cause the Derived Component change, and, correspondingly, all Workflow nodes created on the basis of this component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настроенная информационная база&lt;x2/&gt; — выбор из списка базы данных, подключение к которой уже было настроено через клиент 1С, установленный на той же машине, что и Loginom (в этом случае Loginom обращается к файлам с настройками подключений клиента 1С).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T194944Z" creationid="Марианна" creationdate="20210111T121823Z">
