@@ -31471,6 +31471,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для запуска пакетного выполнения по расписанию можно использовать сторонний планировщик заданий, например, планировщик заданий Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T092203Z" creationid="Марианна" creationdate="20210930T092203Z">
+        <seg>To start the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для значений входного поля применяются параметры настроенного внешнего разбиения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210526T083211Z" creationid="Марианна" creationdate="20210526T083211Z">
