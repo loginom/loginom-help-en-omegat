@@ -7942,6 +7942,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;PortName&lt;x2/&gt; — наименование порта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T093645Z" creationid="Марианна" creationdate="20210930T093645Z">
+        <seg>&lt;x1/&gt;PortName&lt;x2/&gt;: port name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;PostgreSQL&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183406Z" creationid="Марианна" creationdate="20200810T183406Z">
@@ -8506,6 +8514,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T100500Z" creationid="Марианна" creationdate="20210407T100500Z">
         <seg>&lt;x1/&gt;Val(String)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;VarName&lt;x2/&gt; — наименование переменной, значение которой необходимо задать в строке запуска.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T093924Z" creationid="Марианна" creationdate="20210930T093924Z">
+        <seg>&lt;x1/&gt;VarName&lt;x2/&gt;: name of the variable which value must be set in the start string.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35740,6 +35756,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T074848Z" creationid="Марианна" creationdate="20210407T074848Z">
         <seg>PCRE2 library is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Используется для задания значений входных переменных узла, определенного параметром /Node.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T093630Z" creationid="Марианна" creationdate="20210930T093630Z">
+        <seg>It is used to set values of the input variables of the node defined by parameter /Node.</seg>
       </tuv>
     </tu>
     <tu>
