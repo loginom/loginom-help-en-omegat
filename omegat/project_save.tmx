@@ -20130,6 +20130,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;модификатор доступа&lt;x2/&gt;), в котором Производный компонент был создан.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T202434Z" creationid="Марианна" creationdate="20210930T202434Z">
+        <seg>the &lt;x1/&gt;access modifier&lt;x2/&gt;) in which the Derived Component has been created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;модификатора доступа&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225403Z" creationid="Марианна" creationdate="20210928T225403Z">
@@ -42009,6 +42017,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Открытый (доступен во всех пакетах) — для использования Производного компонента из другого пакета необходимо создать Ссылку на Пакет (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T202350Z" creationid="Марианна" creationdate="20210930T202350Z">
+        <seg>Public (available in all packages): to use the Derived Component from the other package, it is required to create the Reference to the Package (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Открыть Панель управления, выбрать пункт Удаление программы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T195919Z" creationid="Марианна" creationdate="20200819T074210Z">
@@ -53045,6 +53061,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T202635Z" creationid="Марианна" creationdate="20210629T202635Z">
         <seg>To apply the template, it is required to press &lt;x5/&gt; &lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы принудительно сбросить все внесенные в производный узел изменения и сделать производный и базовый узлы идентичными, следует в контекстном меню производного узла выбрать пункт &lt;x1/&gt;Восстановить исходную конфигурацию узла&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T202822Z" creationid="Марианна" creationdate="20210930T202822Z">
+        <seg>To cancel all changes introduced into the derived node forcibly and to make the derived and base nodes identical, it is required to select &lt;x1/&gt;Restore the source node configuration&lt;x2/&gt; item in the context menu of the derived node.</seg>
       </tuv>
     </tu>
     <tu>
