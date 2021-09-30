@@ -32375,6 +32375,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания на его основе узла Сценария его необходимо перенести в область построения Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203242Z" creationid="Марианна" creationdate="20210930T203242Z">
+        <seg>To create on its basis the Workflow node, it must be transferred to the Workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания отчета необходимо добавить визуализатор, на основе которого будет построен отчет, выбрать данный визуализатор и нажать кнопку &lt;x1/&gt;Добавить в отчеты&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T094458Z" creationid="Марианна" creationdate="20210928T094458Z">
@@ -45115,6 +45123,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200820T110027Z" creationid="Марианна" creationdate="20200816T143457Z">
         <seg>It will be set to the file name and correct identifier after saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После сохранения настроек Производный компонент будет доступен в панели &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203138Z" creationid="Марианна" creationdate="20210930T203138Z">
+        <seg>Upon saving the settings, the Derived Component will be available on &lt;x1/&gt;Derived components&lt;x2/&gt; panel.</seg>
       </tuv>
     </tu>
     <tu>
