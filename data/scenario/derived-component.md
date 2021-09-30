@@ -2,46 +2,46 @@
 
 ## Description
 
-**Производный компонент** — создаваемый пользователем компонент, который может применяться в Сценариях наравне со стандартными, предоставляемыми платформой компонентами. Алгоритм обработки данных, входные и выходные порты производного компонента задаются *базовым узлом*.
+**Derived component** is the component created by a user than can be used in the Workflows alongside with the standard components provided by the platform. The data processing algorithm, input and output ports of the derived component are set by the *base node*.
 
-Базовым узлом может выступать любой узел за исключением *Цикла*, *Выполнения узла*, *Узла-ссылки*, ссылки и производного узла на *Подключение*. But generally the [Supernode](../processors/control/submodel.md) is used. Поскольку в Подмодели можно реализовать произвольную логику обработки данных и задать необходимые входные и выходные порты, то на ее основе пользователь имеет возможность создать Производный компонент с универсальной функциональностью, пригодной для многократного использования в различных аналитических задачах. Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users. Подобный подход является важным инструментом в реализации структурного подхода в проектировании сложных решений (см. [design tool](../quick-start/design-principles.md)).
+Any node can be the base node with the exception of *Loop*, *Node execution*, *Reference node*, reference derived node for *Connection*. But generally the [Supernode](../processors/control/submodel.md) is used. As it is possible to use the random logics of data processing in the Supernode and set the required input and output ports, a user has an opportunity to create the Derived Component with the universal feature on its basis. It will be suitable for multiple use in different analytical tasks. Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users. Such approach is an important tool used to implement the structural approach when designing complex solutions (refer to [design tool](../quick-start/design-principles.md)).
 
-Особенностью производного компонента являются его следующие свойства:
+The following properties are peculiar to the derived component:
 
-* **Наследование** — означает, что изменение базового узла повлечет за собой изменение Производного компонента и, соответственно, всех созданных на базе этого компонента узлов Сценария;
-* **Переопределение** — модификация производного узла без изменения Производного компонента, из которого он создан.
+* **Heritage** means that the base node change will cause the Derived Component change, and, correspondingly, all Workflow nodes created on the basis of this component.
+* **Overdetermination** means the modification of the derived node without change of the Derived Component from which it has been created.
 
-Из *Производных компонентов* создаются *производные узлы* — наследники базового узла.
-Наследование осуществляется механизмом обновления производных узлов при изменении базового. При внесении изменений в базовый узел во всех отнаследованных от него производных узлах появится оповещение ![](../images/icons/informer/error_warning.svg) "Базовый узел изменился...". Эти изменения будут применены к производным узлам:
-* при выборе в контекстном меню производного узла пункта меню *Обновить конфигурацию узла*;
-* при активации, переобучении, вызове мастера настройки производного узла или его портов.
+From the *Derived Components* the *derived nodes* are created. They are descendants of the base node.
+The inheritance is performed using the mechanism of the derived nodes update when changing the base one. When introducing changes into the base node in all derived nodes inherited from it, the following notification will appear: ![](../images/icons/informer/error_warning.svg) "Base node was changed...". These changes will be applied to the derived nodes:
+* when selecting *Update node configuration* menu option in the context menu of the derived node;
+* when activating, retraining, calling the wizard of the derived node or its ports.
 
-При переопределении свойств и настроек производных узлов базовый узел остается неизменным. Если в базовом узле изменять настройки, то в производном узле будут обновлены только те настройки, которые не были переопределены пользователем. Перечень запрещенных изменений при переопределении производного узла приведен ниже.
+The base node is unchanged in the case of overdetermination of properties and settings of the derived nodes. If the base node settings are changed, only the settings that have not been overdetermined by a user will be updated in the derived node. The list of the changes prohibited in the case of the derived node overdetermination is provided below.
 
-Перечень запрещенных изменений при переопределении производного узла:
+The list of the changes prohibited in the case of the derived node overdetermination:
 
 | Inherited node | Object | List of Prohibited Operations |
 | :-------- |:-------- | :-------- |
 | All nodes | Columns and variables in the input and output ports | <ul> <li>Delete</li> <li>Change data type</li> <li>Change name</li> </ul> |
-| Supernode | Supernode nodes | <ul> <li>Замена узла подключения отнаследованным узлом</li> </ul> |
+| Supernode | Supernode nodes | <ul> <li>Replacement of the connection node with the inherited node</li> </ul> |
 | | Connections | <ul><li>Delete</li></ul> |
-| | Derived components | <ul><li>Удаление, замена базового узла</li></ul> |
-| Узлы с переменным числом портов, в том числе Подмодель | Input and output ports | <ul><li>Delete</li> <li>Change type</li> <li>Change name</li></ul> |
+| | Derived components | <ul><li>Deletion, replacement of the base node</li></ul> |
+| Nodes with the variable number of ports, including the Supernode | Input and output ports | <ul><li>Delete</li> <li>Change type</li> <li>Change name</li></ul> |
 
 Чтобы принудительно сбросить все внесенные в производный узел изменения и сделать производный и базовый узлы идентичными, следует в контекстном меню производного узла выбрать пункт *Восстановить исходную конфигурацию узла*.
 
-## Создание и настройка производного компонента
+## Creation and Configuration of the Derived Component
 
-Для создания Производного компонента необходимо выбрать базовый узел (Подмодель) и в его контекстном меню выбрать пункт ![](../images/icons/toolbar-controls/derive-node_default.svg) *Создать производный компонент*. Та же команда доступна на панели инструментов области построения Сценариев.
+Для создания Производного компонента необходимо выбрать базовый узел (Подмодель) и в его контекстном меню выбрать пункт ![](../images/icons/toolbar-controls/derive-node_default.svg) *Создать производный компонент*. The same command is available on the toolbar of the Workflows construction area.
 
 Откроется окно *Настройка производного компонента*, где определяются:
 
-* **Метка** — наименование производного компонента;
-* **Описание** — дополнительная информация по компоненту;
+* **Caption**: name of the derived component.
+* **Description**: additional information on the component.
 * **Область видимости** — доступность Производного компонента на разных уровнях Пакета, задается радиокнопкой:
-   * Закрытый (доступен только внутри текущего Модуля);
+   * Private (available only in the current Module);
    * Частично закрытый (доступен только внутри текущего Модуля и его Подмоделей);
-   * Внутренний (доступен только внутри текущего Пакета);
+   * Public (available only in the current Package);
    * Открытый (доступен во всех пакетах) — для использования Производного компонента из другого пакета необходимо создать Ссылку на Пакет (см. [модификатор доступа](./access-modifier.md)), в котором Производный компонент был создан.
 
 После сохранения настроек Производный компонент будет доступен в панели *Производные компоненты*. Для создания на его основе узла Сценария его необходимо перенести в область построения Сценария. На созданных таким образом узлах отображается кнопка ![](../images/icons/toolbar-controls/show-derived-nodes_default.svg)

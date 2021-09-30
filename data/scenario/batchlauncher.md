@@ -6,7 +6,7 @@ The Workflows batch processing is performed using BatchLauncher utility applicat
 
 `"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe"`.
 
-To start the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.
+To launch the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.
 
 Syntax of the start string in the batch mode:
 
@@ -16,7 +16,7 @@ BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address
 
 Where:
 
-*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName* are start parameters in the batch mode.
+*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName* are launch parameters in the batch mode.
 
 Several parameters are separated with space character in the start string.
 
@@ -101,7 +101,7 @@ Var9 — string a b c value.
 
 ### Teach
 
-Batch start in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the batch is started in the "Execution" mode.
+Batch launch in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the batch is launched in the "Execution" mode.
 
 For example:
 
