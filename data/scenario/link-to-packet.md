@@ -1,23 +1,23 @@
-# Ссылки на другие пакеты
+# References to Other Packages
 
-Этот механизм применяется для использования объектов и/или получения наборов данных из других пакетов. В качестве таких объектов могут выступать узлы сценария, подключения, производные компоненты. Чтобы эти объекты были доступны в других пакетах, для них должна быть задана область видимости «Открытый (доступен во всех пакетах)», которая задается параметром объекта «[Модификатор доступа](access-modifier.md)».
+This mechanism is required for use of objects and/or receipt of the data sets from other packages. Workflow nodes, connections, derived components can be used as such objects. To make these objects available in other packages, "Public" visibility area must be set for them (available in all packages) which is set by the following object parameter: «[Access modifier](access-modifier.md)».
 
-Для создания ссылки следует выполнить следующие операции:
+It is required to perform the following actions when creating the reference:
 
-1. на панели «Навигация» выбрать элемент  «Ссылки»;
-2. в контекстном меню элемента «Ссылки» выбрать пункт  «Добавить». Откроется окно «Добавление ссылки на пакет»;
-3. в параметре «Путь к файлу пакета» задать путь к пакету, доступ к объектам которого необходимо получить;
-4. нажать «Применить».
+1. select "References" item on the "Navigation" toolbar;
+2. select "Add" item in the context menu of the "References" item. "Add reference to package" window will be opened;
+3. set the path to the package access to which objects it is required to receive in "Path to the package file" parameter;
+4. press "Apply".
 
-После создания Ссылки на внешний Пакет можно:
-* обратиться к его объектам при помощи узлов [Узел-ссылка](../processors/control/unit-link.md), [Выполнение узла](../processors/control/execute-node.md);
-* использовать созданные в нем [Производные компоненты](../scenario/derived-component.md).
+It is possible to perform the following actions upon creation of the Reference to the external Package:
+* refer to its objects using [Reference node](../processors/control/unit-link.md), [Node execution](../processors/control/execute-node.md)nodes;
+* use the [Derived components](../scenario/derived-component.md) created in it.
 
-Первые два используются если не требуется изменение логики обработки данных, последний, — если алгоритм требует корректировки.
+The first two are used if it is not required to change the data processing logics, the latter one if correction is required for the algorithm.
 
-Для открытых Пакетов допустимо использование всех вариантов, для закрытых используются только [Узел-ссылка](../processors/control/unit-link.md) и [Выполнение узла](../processors/control/execute-node.md).
+All options can be used for the public Packages, and [Reference node](../processors/control/unit-link.md) and [Node execution](../processors/control/execute-node.md) are used for the private ones.
 
-## Дополнительная информация
-Внутри компонентов подключенного Пакета могут встречаться повторяющиеся фрагменты. По отдельности они не представляют интереса и предназначены для использования внутри подключенного Пакета. Это **служебные компоненты**. Как правило, они являются вложенными относительно основных компонентов подключенного Пакета и в их названии содержится префикс в виде двойного нижнего подчеркивания. Возможности отключить их видимость нет.
+## Additional Information
+Recurring fragments can occur in the components of the connected Package. Separately they are of no interest and are designated for use in the connected Package. They are **service components**. As a rule, they are nested relative to the main components of the connected Package, and prefix is included into their name in the form of the double underscore. It is not possible to disable their visibility.
 
 
