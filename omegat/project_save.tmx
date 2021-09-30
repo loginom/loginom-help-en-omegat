@@ -33323,6 +33323,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если исходное значение заключено в одинарные кавычки, то эти кавычки разэкранируются, в противном случае исходное значение присваивается в переменную без изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T095822Z" creationid="Марианна" creationdate="20210930T095822Z">
+        <seg>If the source value is enclosed in single quotes, these quotes are unescaped. Otherwise, the source value is assigned to the variable without changes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если исходное строковое значение равно null (с учётом регистра), то целевая переменная получает пустое значение независимо от её типа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T094835Z" creationid="Марианна" creationdate="20210930T094835Z">
