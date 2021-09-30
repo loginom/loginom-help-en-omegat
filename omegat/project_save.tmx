@@ -20646,6 +20646,14 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T100849Z" creationid="Марианна" creationdate="20210930T100849Z">
+        <seg>BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 /Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4</seg>
       </tuv>
@@ -33533,8 +33541,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то пакет запускается в режиме «Выполнение».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T223350Z" creationid="Марианна" creationdate="20210928T223350Z">
-        <seg>If the parameter is not specified, the package is started in the "Execution" mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T100819Z" creationid="Марианна" creationdate="20210928T223350Z">
+        <seg>If the parameter is not specified, the batch is started in the "Execution" mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44535,6 +44543,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T081709Z" creationid="Марианна" creationdate="20201009T081709Z">
         <seg>The control variables port accepts the variables that enable to set parameters of the node settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порт, по которому происходит обращение к серверу Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T100938Z" creationid="Марианна" creationdate="20210930T100938Z">
+        <seg>The port used for access to the Loginom server.</seg>
       </tuv>
     </tu>
     <tu>
