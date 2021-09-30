@@ -33227,6 +33227,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в базовом узле изменять настройки, то в производном узле будут обновлены только те настройки, которые не были переопределены пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105045Z" creationid="Марианна" creationdate="20210930T105045Z">
+        <seg>If the base node settings are changed, only the settings that have not been overdetermined by a user will be updated in the derived node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в качестве признака группы указываются уникальные идентификаторы строк входного набора, то такая группа будет содержать только одну строку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194341Z" creationid="Марианна" creationdate="20200921T194341Z">
@@ -46013,6 +46021,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T180531Z" creationid="Марианна" creationdate="20210526T083420Z">
         <seg>When reconfiguring or retraining the column, only statistics will be recalculated, and the coarse classes binning will be the same for all columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При переопределении свойств и настроек производных узлов базовый узел остается неизменным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T104851Z" creationid="Марианна" creationdate="20210930T104851Z">
+        <seg>The base node is unchanged in the case of overdetermination of properties and settings of the derived nodes.</seg>
       </tuv>
     </tu>
     <tu>
