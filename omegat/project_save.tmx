@@ -42916,8 +42916,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Первые два используются если не требуется изменение логики обработки данных, последний, — если алгоритм требует корректировки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T211211Z" creationid="Марианна" creationdate="20210930T211211Z">
-        <seg>The first two are used if it is not required to change the data processing ligics, the latter one if correction is required for the algorithm.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T211511Z" creationid="Марианна" creationdate="20210930T211211Z">
+        <seg>The first two are used if it is not required to change the data processing logics, the latter one if correction is required for the algorithm.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53246,6 +53246,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210621T082354Z" creationid="Марианна" creationdate="20210621T082354Z">
         <seg>To save introduced changes, it is required to press &lt;x9/&gt;Apply&lt;x10/&gt; button if it is not required to save changed settings, press &lt;x11/&gt;Cancell&lt;x12/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы эти объекты были доступны в других пакетах, для них должна быть задана область видимости «Открытый (доступен во всех пакетах)», которая задается параметром объекта «&lt;x1/&gt;Модификатор доступа&lt;x2/&gt;».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T211725Z" creationid="Марианна" creationdate="20210930T211725Z">
+        <seg>To make these objects available in other packages, "Public" visibility area must be set for them (available in all packages) which is set by the following object parameter: «&lt;x1/&gt;Access modifier&lt;x2/&gt;».</seg>
       </tuv>
     </tu>
     <tu>
