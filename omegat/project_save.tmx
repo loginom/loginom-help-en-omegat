@@ -5198,8 +5198,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; — параметры запуска в пакетном режиме.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T092336Z" creationid="Марианна" creationdate="20210928T222550Z">
-        <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; are start parameters in the batch mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T101752Z" creationid="Марианна" creationdate="20210928T222550Z">
+        <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; are launch parameters in the batch mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31529,8 +31529,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для запуска пакетного выполнения по расписанию можно использовать сторонний планировщик заданий, например, планировщик заданий Windows.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T092203Z" creationid="Марианна" creationdate="20210930T092203Z">
-        <seg>To start the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T101702Z" creationid="Марианна" creationdate="20210930T092203Z">
+        <seg>To launch the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33549,8 +33549,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то пакет запускается в режиме «Выполнение».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T100819Z" creationid="Марианна" creationdate="20210928T223350Z">
-        <seg>If the parameter is not specified, the batch is started in the "Execution" mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T101925Z" creationid="Марианна" creationdate="20210928T223350Z">
+        <seg>If the parameter is not specified, the batch is launched in the "Execution" mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34326,8 +34326,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Запуск пакета в режиме &lt;x1/&gt;«Обучение»&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T100803Z" creationid="Марианна" creationdate="20210928T223435Z">
-        <seg>Batch start in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T101802Z" creationid="Марианна" creationdate="20210928T223435Z">
+        <seg>Batch launch in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
       </tuv>
     </tu>
     <tu>
