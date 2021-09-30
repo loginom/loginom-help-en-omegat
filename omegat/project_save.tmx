@@ -33307,6 +33307,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если исходное строковое значение равно null (с учётом регистра), то целевая переменная получает пустое значение независимо от её типа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T094835Z" creationid="Марианна" creationdate="20210930T094835Z">
+        <seg>If the source string value is equal to null (case-sensitive), the target variable will get the null value irrespective of its data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если класс включает несколько категорий, то в метке перечисляются все категории, вошедшие в класс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T205526Z" creationid="Марианна" creationdate="20210606T205526Z">
@@ -33768,6 +33776,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082804Z" creationid="Марианна" creationdate="20201009T082725Z">
         <seg>If a value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если целевая переменная имеет тип Логический, Целый, Вещественный или Дата/Время, то исходное строковое значение конвертируется по правилам соответствующего типа, причём для Вещественного типа используется десятичный разделитель .</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T095109Z" creationid="Марианна" creationdate="20210930T095109Z">
+        <seg>If the target variable refers to the Logical, Integer, Real or Data/Time type, the source string value is converted according to the rules related to corresponding type. In this case, the decimal separator is used for the Real type.</seg>
       </tuv>
     </tu>
     <tu>
