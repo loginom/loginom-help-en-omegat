@@ -14049,6 +14049,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область видимости&lt;x2/&gt; — доступность Производного компонента на разных уровнях Пакета, задается радиокнопкой:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T175717Z" creationid="Марианна" creationdate="20210930T175717Z">
+        <seg>&lt;x1/&gt;Visibility area&lt;x2/&gt;: availability of the Derived Component on different Package levels is set by the radio button:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область выбора варианта извлечения данных из БД&lt;x2/&gt; — содержит две вкладки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T110232Z" creationid="Марианна" creationdate="20200824T155612Z">
