@@ -6332,6 +6332,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить — удаление выделенного в списке Производного компонента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T175755Z" creationid="Марианна" creationdate="20210930T175755Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Delete: delete the Derived Component selected in the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Файловое хранилище</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T075755Z" creationid="Марианна" creationdate="20210925T075755Z">
@@ -10741,6 +10749,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T173621Z" creationid="Марианна" creationdate="20201005T173621Z">
         <seg>&lt;x1/&gt;Date&lt;x2/&gt;: &lt;x3/&gt;StrToDate("____-__-__", "YYYY-MM-DD")&lt;x4/&gt; will be inserted to enter the date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Действия контекстного меню элементов списка:&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T175909Z" creationid="Марианна" creationdate="20210930T175909Z">
+        <seg>&lt;x1/&gt;Actions of the list elements context menu :&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
