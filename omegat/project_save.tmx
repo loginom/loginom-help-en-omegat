@@ -31935,6 +31935,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для переменных типа Вещественный и Переменный в качестве параметров можно передавать экспоненциальную форму записи числа (пример: 4.205E2, 4.205E-2)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T100743Z" creationid="Марианна" creationdate="20210930T100743Z">
+        <seg>The exponential form of number record can be transferred as parameters for the variables related to the Real and Variable types (for example: 4.205E2, 4.205E-2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для перехода к объектам, находящимся выше по уровню вложенности, следует нажать на соответствующий объект в цепи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T081502Z" creationid="Марианна" creationdate="20200814T081502Z">
@@ -34302,8 +34310,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Запуск пакета в режиме &lt;x1/&gt;«Обучение»&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T223435Z" creationid="Марианна" creationdate="20210928T223435Z">
-        <seg>Package start in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T100803Z" creationid="Марианна" creationdate="20210928T223435Z">
+        <seg>Batch start in the &lt;x1/&gt;«Training»&lt;x2/&gt; mode.</seg>
       </tuv>
     </tu>
     <tu>
