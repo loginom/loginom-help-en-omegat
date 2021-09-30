@@ -43105,6 +43105,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перечень запрещенных изменений при переопределении производного узла приведен ниже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105243Z" creationid="Марианна" creationdate="20210930T105243Z">
+        <seg>The list of the changes prohibited in the case of the derived node overdetermination is provided below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перечень запрещенных изменений при переопределении производного узла:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105322Z" creationid="Марианна" creationdate="20210930T105322Z">
+        <seg>The list of the changes prohibited in the case of the derived node overdetermination:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перечень и назначение маркеров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T054759Z" creationid="Марианна" creationdate="20201119T054759Z">
