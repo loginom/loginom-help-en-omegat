@@ -42162,6 +42162,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отредактировать настройки созданных в пакете Производных компонентов можно в разделе &lt;x1/&gt;Компоненты панели навигации&lt;x2/&gt;: Панель Навигация -&gt; Пакеты -&gt; Текущий пакет -&gt; Компоненты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203655Z" creationid="Марианна" creationdate="20210930T203655Z">
+        <seg>It is possible to edit the settings of the Derived Components created in the package in the following section: &lt;x1/&gt;Navigation panel components&lt;x2/&gt;: Navigation panel -&gt; Packages -&gt; Current package -&gt; Components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отступы строк задаются в соответствии с иерархией элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T071617Z" creationid="Марианна" creationdate="20210224T071617Z">
@@ -45620,6 +45628,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T064726Z" creationid="Марианна" creationdate="20201110T105441Z">
         <seg>Two tables are joined in the case of the inner join (SQL analogue: &lt;x1/&gt;INNER JOIN&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выборе данного раздела открывается окно со списком Производных компонентов, в котором доступны следующие действия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203759Z" creationid="Марианна" creationdate="20210930T203759Z">
+        <seg>When selecting this section, the window with the list of the Derived Components in which the following actions are available will be opened:</seg>
       </tuv>
     </tu>
     <tu>
