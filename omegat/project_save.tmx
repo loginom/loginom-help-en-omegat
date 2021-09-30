@@ -26833,6 +26833,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве таких объектов могут выступать узлы сценария, подключения, производные компоненты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205041Z" creationid="Марианна" creationdate="20210930T205041Z">
+        <seg>Workflow nodes, connections, derived components can be used as such objects.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве такого узла, как правило, используется &lt;x1/&gt;Подмодель&lt;x2/&gt;, в которой задаются действия выполняемые над данными в каждой итерации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T170535Z" creationid="Марианна" creationdate="20200920T170535Z">
@@ -28749,6 +28757,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутри компонентов подключенного Пакета могут встречаться повторяющиеся фрагменты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T210642Z" creationid="Марианна" creationdate="20210930T210642Z">
+        <seg>Recurring fragments can occur in the components of the connected Package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во внешних модулях относительный путь указывается от расположения модуля, осуществляющего импорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090307Z" creationid="Марианна" creationdate="20201102T090307Z">
@@ -29409,6 +29425,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T212851Z" creationid="Марианна" creationdate="20210201T154051Z">
         <seg>It is possible to provide connection both via DBMS client, and the internal Loginom driver.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возможности отключить их видимость нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T210030Z" creationid="Марианна" creationdate="20210930T210030Z">
+        <seg>It is not possible to disable their visibility.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32055,6 +32079,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для открытых Пакетов допустимо использование всех вариантов, для закрытых используются только &lt;x1/&gt;Узел-ссылка&lt;x2/&gt; и &lt;x3/&gt;Выполнение узла&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T211356Z" creationid="Марианна" creationdate="20210930T211356Z">
+        <seg>All options can be used for the public Packages, and &lt;x1/&gt;Reference node&lt;x2/&gt; and &lt;x3/&gt;Node execution&lt;x4/&gt; are used for the private ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для отображения порта необходимо в контекстном меню узла выбрать пункт &lt;x5/&gt;Показать порт управляющих переменных&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T162144Z" creationid="Марианна" creationdate="20210220T162010Z">
@@ -32423,6 +32455,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205347Z" creationid="Марианна" creationdate="20200921T205212Z">
         <seg>To provide mapping of the input and output variables, it is required to drag the input variable symbol to the output variable symbol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для создания ссылки следует выполнить следующие операции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205345Z" creationid="Марианна" creationdate="20210930T205345Z">
+        <seg>It is required to perform the following actions when creating the reference:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32927,6 +32967,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212441Z" creationid="Марианна" creationdate="20201012T211350Z">
         <seg>Proportion of the urban population, %</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Дополнительная информация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205952Z" creationid="Марианна" creationdate="20210930T205952Z">
+        <seg>Additional Information</seg>
       </tuv>
     </tu>
     <tu>
@@ -36543,6 +36591,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T084327Z" creationid="Марианна" creationdate="20210913T084327Z">
         <seg>As a rule, it is checked here that the detected record is the user record, and it is a member of the set group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Как правило, они являются вложенными относительно основных компонентов подключенного Пакета и в их названии содержится префикс в виде двойного нижнего подчеркивания.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T210830Z" creationid="Марианна" creationdate="20210930T210830Z">
+        <seg>As a rule, they are nested relative to the main components of the connected Package, and prefix is included into their name in the form of the double underscore.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42026,6 +42082,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Откроется окно «Добавление ссылки на пакет»;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205643Z" creationid="Марианна" creationdate="20210930T205643Z">
+        <seg>"Add reference to package" window will be opened;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Откроется окно выбора настроек:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215106Z" creationid="Марианна" creationdate="20210928T215106Z">
@@ -42850,6 +42914,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первые два используются если не требуется изменение логики обработки данных, последний, — если алгоритм требует корректировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T211211Z" creationid="Марианна" creationdate="20210930T211211Z">
+        <seg>The first two are used if it is not required to change the data processing ligics, the latter one if correction is required for the algorithm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Первый вариант с выводом отдельного окна, вызываемом при клике мышью по кнопке &lt;x1/&gt; &lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T150708Z" creationid="Марианна" creationdate="20210201T150708Z">
@@ -43550,6 +43622,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T052817Z" creationid="Марианна" creationdate="20200819T132010Z">
         <seg>Align bottom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По отдельности они не представляют интереса и предназначены для использования внутри подключенного Пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T210513Z" creationid="Марианна" creationdate="20210930T210513Z">
+        <seg>Separately they are of no interest and are designated for use in the connected Package.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45104,6 +45184,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222322Z" creationid="Марианна" creationdate="20210928T222322Z">
         <seg>Upon creation of the Reference to the external Package, it is possible to use the Derived Components created in it and refer to its objects using &lt;x1/&gt;Reference node&lt;x2/&gt;, &lt;x3/&gt;Node execution&lt;x4/&gt; nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После создания Ссылки на внешний Пакет можно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205917Z" creationid="Марианна" creationdate="20210930T205825Z">
+        <seg>It is possible to perform the following actions upon creation of the Reference to the external Package:</seg>
       </tuv>
     </tu>
     <tu>
@@ -49918,6 +50006,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ссылки на другие пакеты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204855Z" creationid="Марианна" creationdate="20210930T204855Z">
+        <seg>References to Other Packages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ссылки на переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T163921Z" creationid="Марианна" creationdate="20201005T163921Z">
@@ -53402,6 +53498,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это &lt;x1/&gt;служебные компоненты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T210009Z" creationid="Марианна" creationdate="20210930T210009Z">
+        <seg>They are &lt;x1/&gt;service components&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это значение можно изменить: большое число классов приводит к уменьшению их веса, а малое — к уменьшению информационного индекса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T204531Z" creationid="Марианна" creationdate="20210530T122036Z">
@@ -53578,6 +53682,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Этот механизм применяется для использования объектов и/или получения наборов данных из других пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205001Z" creationid="Марианна" creationdate="20210930T205001Z">
+        <seg>This mechanism is required for use of objects and/or receipt of the data sets from other packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этот параметр по умолчанию отключен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T084625Z" creationid="Марианна" creationdate="20201222T084625Z">
@@ -53746,10 +53858,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в контекстном меню элемента «Ссылки» выбрать пункт  «Добавить».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205531Z" creationid="Марианна" creationdate="20210930T205531Z">
+        <seg>select "Add" item in the context menu of the "References" item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в окне выбора &lt;x1/&gt;модификатора доступа&lt;x2/&gt; задано уникальное в пределах пакета имя узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T134526Z" creationid="Марианна" creationdate="20210217T111829Z">
         <seg>The node name that is unique within the package is set in the &lt;x1/&gt;access modifier&lt;x2/&gt; selection window;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в параметре «Путь к файлу пакета» задать путь к пакету, доступ к объектам которого необходимо получить;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205729Z" creationid="Марианна" creationdate="20210930T205729Z">
+        <seg>set the path to the package access to which objects it is required to receive in "Path to the package file" parameter;</seg>
       </tuv>
     </tu>
     <tu>
@@ -54178,6 +54306,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>использовать созданные в нем &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T210858Z" creationid="Марианна" creationdate="20210930T210858Z">
+        <seg>use the &lt;x1/&gt;Derived components&lt;x2/&gt; created in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>истина</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170534Z" creationid="Марианна" creationdate="20201111T170534Z">
@@ -54242,6 +54378,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>на панели «Навигация» выбрать элемент  «Ссылки»;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205431Z" creationid="Марианна" creationdate="20210930T205431Z">
+        <seg>select "References" item on the "Navigation" toolbar;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>нажатием на кнопку &lt;x1/&gt;Удалить связь&lt;x2/&gt; на линии связи (при наведении курсора кнопка меняет вид на &lt;x3/&gt;Удалить связь&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165055Z" creationid="Марианна" creationdate="20201001T165055Z">
@@ -54254,6 +54398,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141505Z" creationid="Марианна" creationdate="20201115T141505Z">
         <seg>by pressing &lt;x1/&gt;Add&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>нажать «Применить».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T205735Z" creationid="Марианна" creationdate="20210930T205735Z">
+        <seg>press "Apply".</seg>
       </tuv>
     </tu>
     <tu>
@@ -54334,6 +54486,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T212304Z" creationid="Марианна" creationdate="20201012T212304Z">
         <seg>District</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>обратиться к его объектам при помощи узлов &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;, &lt;x3/&gt;Выполнение узла&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T211018Z" creationid="Марианна" creationdate="20210930T211018Z">
+        <seg>refer to its objects using &lt;x1/&gt;Reference node&lt;x2/&gt;, &lt;x3/&gt;Node execution&lt;x4/&gt;nodes;</seg>
       </tuv>
     </tu>
     <tu>
