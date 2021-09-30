@@ -1,6 +1,6 @@
 # Batch Processing of Workflows
 
-**Batch mode**: execution of the Batch Workflows without display of any user interface and screen display of messages. As a rule, in this case, the batch processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).
+**Batch mode**: execution of the Package Workflows without display of any user interface and screen display of messages. As a rule, in this case, the batch processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).
 
 The Workflows batch processing is performed using BatchLauncher utility application that is supplied as a set with the Loginom server (Team, Standard, Enterprise versions). When installing by default, the utility application path is as follows:
 
@@ -30,7 +30,7 @@ For example:
 
 ### Package
 
-Path to the Batch file inside the [file storage](..\location_user_files.md). Required parameter.
+Path to the Package file inside the [file storage](..\location_user_files.md). Required parameter.
 
 Examples:
 
@@ -41,7 +41,7 @@ BatchLauncher "/Package=/user/test and log.lgp"
 
 ### Node
 
-Name of the node to be executed. In this case, the specified node and all preceding nodes are executed, namely, all nodes that must be executed for generation of its input data. The node must not be located in the Supernode. If the parameter is not specified, all Batch nodes for which the required settings of the [activation mode](./setting-batch-processing-mode.md) are set must be executed.
+Name of the node to be executed. In this case, the specified node and all preceding nodes are executed, namely, all nodes that must be executed for generation of its input data. The node must not be located in the Supernode. If the parameter is not specified, all Package nodes for which the required settings of the [activation mode](./setting-batch-processing-mode.md) are set must be executed.
 
 > **Note:** The node name is set when configuring [access modifier](./access-modifier.md).
 
@@ -101,7 +101,7 @@ Var9 — string a b c value.
 
 ### Teach
 
-Batch launch in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the batch is launched in the "Execution" mode.
+Package launch in the [«Training»](https://wiki.loginom.ru/articles/training.html) mode. If the parameter is not specified, the package is launched in the "Execution" mode.
 
 For example:
 
