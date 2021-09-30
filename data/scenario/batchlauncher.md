@@ -1,14 +1,14 @@
 # Batch Processing of Workflows
 
-**Пакетный режим** — исполнение Сценариев Пакета без отображения какого-либо пользовательского интерфейса и вывода сообщений на экран. Обычно результатом выполнения пакета при этом является формирование итоговых данных и передача их в стороннюю систему (например, в хранилище данных или другую учетную систему).
+**Batch mode**: execution of the Batch Workflows without display of any user interface and screen display of messages. As a rule, in this case, the batch processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).
 
-Пакетное выполнение Сценариев осуществляется при помощи утилиты BatchLauncher, поставляемой в комплекте с сервером Loginom версий Team, Standard, Enterprise. При установке по умолчанию утилита располагается по пути:
+The Workflows batch processing is performed using BatchLauncher utility application that is supplied as a set with the Loginom server (Team, Standard, Enterprise versions). When installing by default, the utility application path is as follows:
 
 `"C:\Program Files\BaseGroup\Loginom 6\Server\BatchLauncher.exe"`.
 
-Для запуска пакетного выполнения по расписанию можно использовать сторонний планировщик заданий, например, планировщик заданий Windows.
+To start the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.
 
-Syntax of the start string in the package mode:
+Syntax of the start string in the batch mode:
 
 ```batch
 BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address>] [/Port=<Port>] [/UserName=<UserName> [/Password=<Password>]] [/PortName.VarName=<Value>]
@@ -16,9 +16,9 @@ BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address
 
 Where:
 
-*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName* are start parameters in the package mode.
+*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName* are start parameters in the batch mode.
 
-Несколько параметров в строке запуска разделяются символом пробела.
+Several parameters are separated with space character in the start string.
 
 For example:
 
@@ -30,7 +30,7 @@ For example:
 
 ### Package
 
-Path to the Package file inside the [file storage](..\location_user_files.md). Required parameter.
+Path to the Batch file inside the [file storage](..\location_user_files.md). Required parameter.
 
 Examples:
 
@@ -41,9 +41,9 @@ BatchLauncher "/Package=/user/test and log.lgp"
 
 ### Node
 
-Name of the node to be executed. При этом выполняются указанный узел и все предшествующие ему узлы — то есть все узлы, которые необходимо выполнить для формирования его входных данных. The node must not be located in the Supernode. If the parameter is not specified, all Package nodes for which the required settings of the [activation mode](./setting-batch-processing-mode.md) are set must be executed.
+Name of the node to be executed. In this case, the specified node and all preceding nodes are executed, namely, all nodes that must be executed for generation of its input data. The node must not be located in the Supernode. If the parameter is not specified, all Batch nodes for which the required settings of the [activation mode](./setting-batch-processing-mode.md) are set must be executed.
 
-> **Примечание:** имя узла задается при настройке [модификатора доступа](./access-modifier.md).
+> **Note:** The node name is set when configuring [access modifier](./access-modifier.md).
 
 Examples:
 
@@ -54,10 +54,10 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node
 
 ### PortName.VarName
 
-Используется для задания значений входных переменных узла, определенного параметром /Node.
+It is used to set values of the input variables of the node defined by parameter /Node.
 
-* **PortName** — наименование порта;
-* **VarName** — наименование переменной, значение которой необходимо задать в строке запуска.
+* **PortName**: port name.
+* **VarName**: name of the variable which value must be set in the start string.
 
 Examples:
 
@@ -66,7 +66,7 @@ BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 /Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4
 ```
 
-Можно не указывать наименование порта (например: */Parameter1=true*, однако, если переменная с указанным таким образом именем присутствует в нескольких портах, то возникнет исключение. Ошибка так же возникнет, если указано имя несуществующей переменной.
+It is allowed not to specify the port name (for example, */Parameter1=true*. However, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule. Ошибка так же возникнет, если указано имя несуществующей переменной.
 
 > **Важно:** все незарезервированные параметры в строке запуска интерпретируются как параметры установки значений переменных.
 
