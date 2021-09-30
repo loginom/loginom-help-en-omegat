@@ -6092,6 +6092,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить — открывается окно настройки выбранного Производного компонента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T180107Z" creationid="Марианна" creationdate="20210930T180107Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Configure: the configuration window of the selected Derived Component will be opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Непрерывный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
