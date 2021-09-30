@@ -17002,6 +17002,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Производный компонент&lt;x2/&gt; — создаваемый пользователем компонент, который может применяться в Сценариях наравне со стандартными, предоставляемыми платформой компонентами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T102055Z" creationid="Марианна" creationdate="20210930T102055Z">
+        <seg>&lt;x1/&gt;Derived component&lt;x2/&gt; is the component created by a user than can be used in the Workflows alongside with the standard components provided by the platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Промежуточное&lt;x2/&gt; — при установке этого флага выражение может использоваться в расчетах, не включается в список полей выходного набора данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133443Z" creationid="Марианна" creationdate="20201015T074752Z">
@@ -25713,6 +25721,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм обработки данных, входные и выходные порты производного компонента задаются &lt;x3/&gt;базовым узлом&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T102149Z" creationid="Марианна" creationdate="20210930T102149Z">
+        <seg>The data processing algorithm, input and output ports of the derived component are set by the &lt;x3/&gt;base node&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм позволяет сортировать последовательно по нескольким полям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T115104Z" creationid="Марианна" creationdate="20201115T115104Z">
@@ -26013,6 +26029,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T143158Z" creationid="Марианна" creationdate="20201116T143158Z">
         <seg>Replace bank BIC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Базовым узлом может выступать любой узел за исключением &lt;x1/&gt;Цикла&lt;x2/&gt;, &lt;x3/&gt;Выполнения узла&lt;x4/&gt;, &lt;x5/&gt;Узла-ссылки&lt;x6/&gt;, ссылки и производного узла на &lt;x7/&gt;Подключение&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T102314Z" creationid="Марианна" creationdate="20210930T102314Z">
+        <seg>Any node can be the base node with the exception of &lt;x1/&gt;Loop&lt;x2/&gt;, &lt;x3/&gt;Node execution&lt;x4/&gt;, &lt;x5/&gt;Reference node&lt;x6/&gt;, reference derived node for &lt;x7/&gt;Connection&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
