@@ -32367,6 +32367,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для создания Производного компонента необходимо выбрать базовый узел (Подмодель) и в его контекстном меню выбрать пункт &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать производный компонент&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203011Z" creationid="Марианна" creationdate="20210930T203011Z">
+        <seg>To create the Derived Component, it is required to select the base node (Supernode) and &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create derived component&lt;x4/&gt; item in its context menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания отчета необходимо добавить визуализатор, на основе которого будет построен отчет, выбрать данный визуализатор и нажать кнопку &lt;x1/&gt;Добавить в отчеты&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T094458Z" creationid="Марианна" creationdate="20210928T094458Z">
