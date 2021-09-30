@@ -14797,6 +14797,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пакетный режим&lt;x2/&gt; — исполнение Сценариев Пакета без отображения какого-либо пользовательского интерфейса и вывода сообщений на экран.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T043115Z" creationid="Марианна" creationdate="20210930T043115Z">
+        <seg>&lt;x1/&gt;Package mode&lt;x2/&gt;: execution of the Package Workflows without display of any user interface and screen display of messages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пакеты&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T155819Z" creationid="Марианна" creationdate="20200810T155819Z">
