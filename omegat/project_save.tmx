@@ -53089,6 +53089,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эти изменения будут применены к производным узлам:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T104346Z" creationid="Марианна" creationdate="20210930T104346Z">
+        <seg>These changes will be applied to the derived nodes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эти настройки используются драйвером OLE DB для подключения к необходимой базе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T211350Z" creationid="Марианна" creationdate="20210201T150531Z">
