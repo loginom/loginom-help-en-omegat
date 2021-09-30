@@ -38303,6 +38303,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно не указывать наименование порта (например: &lt;x1/&gt;/Parameter1=true&lt;x2/&gt;, однако, если переменная с указанным таким образом именем присутствует в нескольких портах, то возникнет исключение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T094134Z" creationid="Марианна" creationdate="20210930T094134Z">
+        <seg>It is allowed not to specify the port name (for example, &lt;x1/&gt;/Parameter1=true&lt;x2/&gt;, however, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Молоко</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103024Z" creationid="Марианна" creationdate="20201208T103024Z">
