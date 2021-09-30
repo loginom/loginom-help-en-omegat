@@ -5924,6 +5924,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Группировать (Alt+G) — список Производных компонентов группируется по типу базового узла (&lt;x3/&gt;Импорт, Трансформация, Управление, Исследования и т.д.&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T204001Z" creationid="Марианна" creationdate="20210930T204001Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Group (Alt+G): the list of the Derived Components is grouped by the base node type (&lt;x3/&gt;Import, Transformation, Control, Research, etc.&lt;x4/&gt;);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Дата/время</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083243Z" creationid="Марианна" creationdate="20201030T083243Z">
@@ -10781,6 +10789,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T180525Z" creationid="Марианна" creationdate="20210930T175909Z">
         <seg>&lt;x1/&gt;Actions of the list items context menu :&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Действия панели инструментов раздела:&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203846Z" creationid="Марианна" creationdate="20210930T203846Z">
+        <seg>&lt;x1/&gt;Actions of the section toolbar:&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
