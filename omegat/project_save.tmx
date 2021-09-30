@@ -16704,6 +16704,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T101127Z" creationid="Марианна" creationdate="20210930T101127Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When using the space characters in the expression that enables to set the parameter value, it is required to enclose the whole expression in double quotes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей Нейросети на полном наборе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T091612Z" creationid="Марианна" creationdate="20201223T091612Z">
