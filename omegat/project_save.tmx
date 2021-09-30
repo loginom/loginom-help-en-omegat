@@ -38919,6 +38919,15 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На созданных таким образом узлах отображается кнопка &lt;x3/&gt;&lt;x4/&gt;
+"Показать базовый узел", которая позволяет найти базовый узел (в случае, если он расположен в пределах текущей области построения Сценария).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T203444Z" creationid="Марианна" creationdate="20210930T203444Z">
+        <seg>&lt;x3/&gt;&lt;x4/&gt; "Show base node" button is displayed on the nodes created in such a way. It enables to find the base node (if it is located in the current Workflow construction area).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На стартовой странице Loginom ввести имя пользователя и пароль учетной записи, которая имеется на LDAP сервере и если авторизация прошла успешно, то подключение из Loginom к LDAP серверу настроено правильно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T093915Z" creationid="Марианна" creationdate="20210913T093915Z">
