@@ -38,7 +38,7 @@ The list of the changes prohibited in the case of the derived node overdetermina
 
 * **Caption**: name of the derived component.
 * **Description**: additional information on the component.
-* **Область видимости** — доступность Производного компонента на разных уровнях Пакета, задается радиокнопкой:
+* **Visibility area**: availability of the Derived Component on different Package levels is set by the radio button:
    * Private (available only in the current Module);
    * Частично закрытый (доступен только внутри текущего Модуля и его Подмоделей);
    * Public (available only in the current Package);
@@ -52,9 +52,9 @@ The list of the changes prohibited in the case of the derived node overdetermina
 * **Действия панели инструментов раздела:**
    * ![](../images/icons/toolbar-controls_18x18\toolbar-controls_18x18_group-list_default.svg) Группировать (Alt+G) — список Производных компонентов группируется по типу базового узла (*Импорт, Трансформация, Управление, Исследования и т.д.*);
    * ![](../images/icons/toolbar-controls/setup_default.svg) Настроить — открывается окно настройки выделенного в списке Производного компонента;
-   * ![](../images/icons/toolbar-controls/delete_default.svg) Удалить — удаление выделенного в списке Производного компонента.
-* **Действия контекстного меню элементов списка:**
-   * ![](../images/icons/toolbar-controls/setup_default.svg) Настроить — открывается окно настройки выбранного Производного компонента;
-   * ![](../images/icons/toolbar-controls/delete_default.svg) Удалить — удаление выбранного Производного компонента.
+   * ![](../images/icons/toolbar-controls/delete_default.svg) Delete: delete the Derived Component selected in the list.
+* **Actions of the list elements context menu :**
+   * ![](../images/icons/toolbar-controls/setup_default.svg) Configure: the configuration window of the selected Derived Component will be opened.
+   * ![](../images/icons/toolbar-controls/delete_default.svg) Delete: delete the selected Derived Component.
    * Перейти к базовому узлу — осуществляется переход к расположению базового узла в сценарии.
-   * Обновить — обновляется список Производных компонентов.
+   * Update: update the list of the Derived Components.
