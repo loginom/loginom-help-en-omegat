@@ -42017,6 +42017,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка так же возникнет, если указано имя несуществующей переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T094328Z" creationid="Марианна" creationdate="20210930T094328Z">
+        <seg>An error also occurs when the nonexisting variable name of is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка — указывается текст ошибки в случае ее возникновения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065305Z" creationid="Марианна" creationdate="20200817T065305Z">
