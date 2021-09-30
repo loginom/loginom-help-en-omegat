@@ -5198,8 +5198,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; — параметры запуска в пакетном режиме.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T222550Z" creationid="Марианна" creationdate="20210928T222550Z">
-        <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; are start parameters in the package mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T092336Z" creationid="Марианна" creationdate="20210928T222550Z">
+        <seg>&lt;x1/&gt;/Package&lt;x2/&gt;, &lt;x3/&gt;/Teach&lt;x4/&gt;, &lt;x5/&gt;/Node&lt;x6/&gt;, &lt;x7/&gt;/Address&lt;x8/&gt;, &lt;x9/&gt;/Port&lt;x10/&gt;, &lt;x11/&gt;/UserName&lt;x12/&gt;, &lt;x13/&gt;/Password&lt;x14/&gt;, &lt;x15/&gt;/PortName.VarName&lt;x16/&gt; are start parameters in the batch mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16617,6 +16617,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202628Z" creationid="Марианна" creationdate="20200829T202628Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if the item showing is disabled, and no &lt;x3/&gt;conditions &lt;x4/&gt; and/or &lt;x5/&gt;values&lt;x6/&gt; are specified, upon the list saving, this item will be moved back to the &lt;x7/&gt;Available items&lt;x8/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; имя узла задается при настройке &lt;x3/&gt;модификатора доступа&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T093530Z" creationid="Марианна" creationdate="20210930T093530Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The node name is set when configuring &lt;x3/&gt;access modifier&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33437,8 +33445,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если параметр не указан, то выполняются все узлы Пакета, для которых заданы необходимые настройки &lt;x1/&gt;режима активации&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T224121Z" creationid="Марианна" creationdate="20210928T223712Z">
-        <seg>If the parameter is not specified, all Package nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; are set must be executed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T093438Z" creationid="Марианна" creationdate="20210928T223712Z">
+        <seg>If the parameter is not specified, all Batch nodes for which the required settings of the &lt;x1/&gt;activation mode&lt;x2/&gt; are set must be executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40073,6 +40081,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Несколько параметров в строке запуска разделяются символом пробела.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T092429Z" creationid="Марианна" creationdate="20210930T092313Z">
+        <seg>Several parameters are separated with space character in the start string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T073214Z" creationid="Марианна" creationdate="20201113T065245Z">
@@ -46081,6 +46097,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом выполняются указанный узел и все предшествующие ему узлы — то есть все узлы, которые необходимо выполнить для формирования его входных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T093412Z" creationid="Марианна" creationdate="20210930T093412Z">
+        <seg>In this case, the specified node and all preceding nodes are executed, namely, all nodes that must be executed for generation of its input data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом данный параметр отдельно задается для выбросов и для экстремальных значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T104242Z" creationid="Марианна" creationdate="20210511T104242Z">
@@ -47191,8 +47215,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Путь к файлу Пакета внутри &lt;x1/&gt;файлового хранилища&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T222722Z" creationid="Марианна" creationdate="20210928T222722Z">
-        <seg>Path to the Package file inside the &lt;x1/&gt;file storage&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T092532Z" creationid="Марианна" creationdate="20210928T222722Z">
+        <seg>Path to the Batch file inside the &lt;x1/&gt;file storage&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48415,8 +48439,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Синтаксис строки запуска в пакетном режиме:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T223555Z" creationid="Марианна" creationdate="20210928T223555Z">
-        <seg>Syntax of the start string in the package mode:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T092325Z" creationid="Марианна" creationdate="20210928T223555Z">
+        <seg>Syntax of the start string in the batch mode:</seg>
       </tuv>
     </tu>
     <tu>
