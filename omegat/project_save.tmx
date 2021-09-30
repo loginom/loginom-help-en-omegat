@@ -46001,6 +46001,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При установке по умолчанию утилита располагается по пути:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T091929Z" creationid="Марианна" creationdate="20210930T091929Z">
+        <seg>When installing by default, the utility application path is as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При установке синтаксиса &lt;x1/&gt;JavaScript&lt;x2/&gt; область кода выражения должна содержать скрипт JavaScript.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T111346Z" creationid="Марианна" creationdate="20201020T111346Z">
