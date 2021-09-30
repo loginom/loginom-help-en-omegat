@@ -39397,6 +39397,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наследование осуществляется механизмом обновления производных узлов при изменении базового.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T104107Z" creationid="Марианна" creationdate="20210930T104107Z">
+        <seg>The inheritance is performed using the mechanism of the derived nodes update when changing the base one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наследуемый узел</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T224814Z" creationid="Марианна" creationdate="20210928T224814Z">
@@ -45411,6 +45419,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T080018Z" creationid="Марианна" creationdate="20201118T094703Z">
         <seg>Activated &lt;x3/&gt;Enabled filter&lt;x4/&gt; option makes available compatible fields that are not still connected with key fields of the main table, deactivated &lt;x5/&gt;Disabled filter&lt;x6/&gt; option enables to select any of the fields compatible by type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При внесении изменений в базовый узел во всех отнаследованных от него производных узлах появится оповещение &lt;x5/&gt;&lt;x6/&gt; "Базовый узел изменился...".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T104326Z" creationid="Марианна" creationdate="20210930T104326Z">
+        <seg>When introducing changes into the base node in all derived nodes inherited from it, the following notification will appear: &lt;x5/&gt;&lt;x6/&gt; "Base node was changed...".</seg>
       </tuv>
     </tu>
     <tu>
