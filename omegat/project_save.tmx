@@ -14799,8 +14799,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пакетный режим&lt;x2/&gt; — исполнение Сценариев Пакета без отображения какого-либо пользовательского интерфейса и вывода сообщений на экран.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T043115Z" creationid="Марианна" creationdate="20210930T043115Z">
-        <seg>&lt;x1/&gt;Package mode&lt;x2/&gt;: execution of the Package Workflows without display of any user interface and screen display of messages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T091328Z" creationid="Марианна" creationdate="20210930T043115Z">
+        <seg>&lt;x1/&gt;Batch mode&lt;x2/&gt;: execution of the Batch Workflows without display of any user interface and screen display of messages.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41011,8 +41011,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Обычно результатом выполнения пакета при этом является формирование итоговых данных и передача их в стороннюю систему (например, в хранилище данных или другую учетную систему).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T090753Z" creationid="Марианна" creationdate="20210930T043555Z">
-        <seg>As a rule, in this case, the package processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T091348Z" creationid="Марианна" creationdate="20210930T043555Z">
+        <seg>As a rule, in this case, the batch processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).</seg>
       </tuv>
     </tu>
     <tu>
@@ -41987,8 +41987,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Пакетное выполнение Сценариев осуществляется при помощи утилиты BatchLauncher, поставляемой в комплекте с сервером Loginom версий Team, Standard, Enterprise.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T090911Z" creationid="Марианна" creationdate="20210930T090911Z">
-        <seg>The Workflows batch processing Team, Standard, Enterprise.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T091615Z" creationid="Марианна" creationdate="20210930T090911Z">
+        <seg>The Workflows batch processing is performed using BatchLauncher utility application that is supplied as a set with the Loginom server (Team, Standard, Enterprise versions).</seg>
       </tuv>
     </tu>
     <tu>
