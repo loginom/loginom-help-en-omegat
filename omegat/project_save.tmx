@@ -9390,6 +9390,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; все незарезервированные параметры в строке запуска интерпретируются как параметры установки значений переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T094511Z" creationid="Марианна" creationdate="20210930T094511Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; All nonreserved parameters in the start string are interpreted as the setup parameters of the variables values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075056Z" creationid="Марианна" creationdate="20201214T074934Z">
@@ -35998,6 +36006,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T164801Z" creationid="Марианна" creationdate="20201010T164801Z">
         <seg>Source table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исходное строковое значение, указанное в командной строке, конвертируется к типу данных целевой переменной:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T094637Z" creationid="Марианна" creationdate="20210930T094637Z">
+        <seg>The source string value specified in the command string is converted according to the data type of the target variable:</seg>
       </tuv>
     </tu>
     <tu>
