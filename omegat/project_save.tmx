@@ -43477,8 +43477,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию используется &lt;x1/&gt;4386&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T223054Z" creationid="Марианна" creationdate="20210928T223054Z">
-        <seg>&lt;x1/&gt;4386&lt;x2/&gt; is used by default..</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T100952Z" creationid="Марианна" creationdate="20210928T223054Z">
+        <seg>&lt;x1/&gt;4386&lt;x2/&gt; is used by default.</seg>
       </tuv>
     </tu>
     <tu>
