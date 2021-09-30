@@ -34210,6 +34210,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Замена узла подключения отнаследованным узлом</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105430Z" creationid="Марианна" creationdate="20210930T105430Z">
+        <seg>Replacement of the connection node with the inherited node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заменять заданным значением</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222021Z" creationid="Марианна" creationdate="20210218T222021Z">
@@ -51457,6 +51465,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удаление, замена базового узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105456Z" creationid="Марианна" creationdate="20210930T105456Z">
+        <seg>Deletion, replacement of the base node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удалить дочерний узел можно нажав на иконку &lt;x1/&gt;Удалить&lt;x2/&gt;&lt;x3/&gt;Удалить&lt;x4/&gt; (горячая клавиша &lt;x5/&gt;Delete&lt;x6/&gt;), которая находится с правой части строки дочернего узла и видна при наведении курсора на строку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075229Z" creationid="Марианна" creationdate="20200929T195535Z">
@@ -51629,6 +51645,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T205326Z" creationid="Марианна" creationdate="20210928T205326Z">
         <seg>The nodes are based on the components the panel of which is located in the left part of the program window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы с переменным числом портов, в том числе Подмодель</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T105555Z" creationid="Марианна" creationdate="20210930T105555Z">
+        <seg>Nodes with the variable number of ports, including the Supernode</seg>
       </tuv>
     </tu>
     <tu>
