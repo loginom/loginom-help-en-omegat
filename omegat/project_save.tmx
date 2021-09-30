@@ -10771,8 +10771,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Действия контекстного меню элементов списка:&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T175909Z" creationid="Марианна" creationdate="20210930T175909Z">
-        <seg>&lt;x1/&gt;Actions of the list elements context menu :&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T180525Z" creationid="Марианна" creationdate="20210930T175909Z">
+        <seg>&lt;x1/&gt;Actions of the list items context menu :&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -53179,8 +53179,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>ЭлементN - значения элементов списка</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210416T210627Z" creationid="Марианна" creationdate="20210402T104009Z">
-        <seg>ElementN - values of the list elements.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T180516Z" creationid="Марианна" creationdate="20210402T104009Z">
+        <seg>ElementN - values of the list items.</seg>
       </tuv>
     </tu>
     <tu>
