@@ -6100,6 +6100,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Настроить — открывается окно настройки выделенного в списке Производного компонента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T201905Z" creationid="Марианна" creationdate="20210930T201905Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Configure: the configuration window of the Derived Component selected in the list will be opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Непрерывный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
@@ -42877,6 +42885,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132314Z" creationid="Марианна" creationdate="20200819T132314Z">
         <seg>Front</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перейти к базовому узлу — осуществляется переход к расположению базового узла в сценарии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210930T201801Z" creationid="Марианна" creationdate="20210930T201801Z">
+        <seg>Go to the base node: go to location of the base node in the workflow.</seg>
       </tuv>
     </tu>
     <tu>
