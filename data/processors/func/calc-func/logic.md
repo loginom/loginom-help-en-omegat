@@ -88,7 +88,7 @@ Returns Value1 if the Antecedent is true or Value2 if it is false.
 * Value - value of the target element.
 * Element1.
 * Element2.
-* ElementN - values of the list elements.
+* ElementN - values of the list items.
 
 Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE.
 

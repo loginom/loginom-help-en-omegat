@@ -53,7 +53,7 @@ The list of the changes prohibited in the case of the derived node overdetermina
    * ![](../images/icons/toolbar-controls_18x18\toolbar-controls_18x18_group-list_default.svg) Группировать (Alt+G) — список Производных компонентов группируется по типу базового узла (*Импорт, Трансформация, Управление, Исследования и т.д.*);
    * ![](../images/icons/toolbar-controls/setup_default.svg) Настроить — открывается окно настройки выделенного в списке Производного компонента;
    * ![](../images/icons/toolbar-controls/delete_default.svg) Delete: delete the Derived Component selected in the list.
-* **Actions of the list elements context menu :**
+* **Actions of the list items context menu :**
    * ![](../images/icons/toolbar-controls/setup_default.svg) Configure: the configuration window of the selected Derived Component will be opened.
    * ![](../images/icons/toolbar-controls/delete_default.svg) Delete: delete the selected Derived Component.
    * Перейти к базовому узлу — осуществляется переход к расположению базового узла в сценарии.
