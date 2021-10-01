@@ -51231,8 +51231,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Такая стратегия существенно сокращает требования к вычислительным ресурсам, в частности, к оперативной памяти компьютера.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T164024Z" creationid="Марианна" creationdate="20211001T164024Z">
-        <seg>Such strategy considerably decreases requirements to the computational performance, more specifically, to the computer memory (RAM).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T164142Z" creationid="Марианна" creationdate="20211001T164024Z">
+        <seg>Such strategy considerably lowers the requirements to the computational performance, more specifically, to the computer memory (RAM).</seg>
       </tuv>
     </tu>
     <tu>
