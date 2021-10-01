@@ -12787,16 +12787,16 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; необходимо включать в &lt;x3/&gt;выражениях&lt;x4/&gt; &lt;x5/&gt;Калькулятора&lt;x6/&gt; в случае использования функции &lt;x7/&gt;Data()&lt;x8/&gt; при рекурсивном вычислении значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T165957Z" creationid="Марианна" creationdate="20211001T165957Z">
-        <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x5/&gt;Calculator&lt;x6/&gt; &lt;x3/&gt;expressions&lt;x4/&gt; in case of &lt;x7/&gt;Data()&lt;x8/&gt; function usage for the recursive computation of values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170236Z" creationid="Марианна" creationdate="20211001T165957Z">
+        <seg>It is required to enable &lt;x1/&gt;Caching&lt;x2/&gt; in the &lt;x5/&gt;Calculator&lt;x6/&gt; &lt;x3/&gt;expressions&lt;x4/&gt; in the case of &lt;x7/&gt;Data()&lt;x8/&gt; function usage for the recursive computation of values.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; необходимо включать в выражениях &lt;x3/&gt;Калькулятора&lt;x4/&gt; в случае использования функции &lt;x5/&gt;Data()&lt;x6/&gt; при рекурсивном вычислении значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201128T203201Z" creationid="Марианна" creationdate="20201014T062025Z">
-        <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x3/&gt;Calculator&lt;x4/&gt; expressions in case of &lt;x5/&gt;Data()&lt;x6/&gt; function usage for the recursive computation of values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170257Z" creationid="Марианна" creationdate="20201014T062025Z">
+        <seg>It is required to enable &lt;x1/&gt;Caching&lt;x2/&gt; in the &lt;x3/&gt;Calculator&lt;x4/&gt; expressions in the case of &lt;x5/&gt;Data()&lt;x6/&gt; function usage for the recursive computation of values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26781,8 +26781,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В журнале регистрации (лог-файле) фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210923T184207Z" creationid="Марианна" creationdate="20210923T184207Z">
-        <seg>Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in case of error occurrence.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170055Z" creationid="Марианна" creationdate="20210923T184207Z">
+        <seg>Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in the case of error occurrence.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27745,8 +27745,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>В случае включенного параметра и небольшого таймаута, связь после разрыва соединения может не восстановиться.|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210923T215718Z" creationid="Марианна" creationdate="20210923T215718Z">
-        <seg>In case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170103Z" creationid="Марианна" creationdate="20210923T215718Z">
+        <seg>In the case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|</seg>
       </tuv>
     </tu>
     <tu>
@@ -35230,8 +35230,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Игнорировать\_регистр - флаг чувствительности к регистру при замене.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210407T092700Z" creationid="Марианна" creationdate="20210407T092700Z">
-        <seg>Ignore\_case - flag of case sensitivity in case of replacement.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170137Z" creationid="Марианна" creationdate="20210407T092700Z">
+        <seg>Ignore\_case - flag of case sensitivity in the case of replacement.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45090,16 +45090,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порог &lt;x1/&gt;значимости&lt;x2/&gt; при добавлении фактора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T115112Z" creationid="Марианна" creationdate="20201214T115112Z">
-        <seg>&lt;x1/&gt;Significance threshold&lt;x2/&gt; in case of factor addition.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170111Z" creationid="Марианна" creationdate="20201214T115112Z">
+        <seg>&lt;x1/&gt;Significance threshold&lt;x2/&gt; in the case of factor addition.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Порог значимости при исключении фактора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201214T115122Z" creationid="Марианна" creationdate="20201214T115122Z">
-        <seg>Significance threshold in case of factor exception.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T170117Z" creationid="Марианна" creationdate="20201214T115122Z">
+        <seg>Significance threshold in the case of factor exception.</seg>
       </tuv>
     </tu>
     <tu>
