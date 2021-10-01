@@ -25849,6 +25849,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм синхронизации следующий:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T042436Z" creationid="Марианна" creationdate="20211001T042436Z">
+        <seg>The following synchronization algorithm is used:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм сортирует записи по первому в очереди полю сортировки в соответствии с заданным порядком.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T064247Z" creationid="Марианна" creationdate="20201115T140444Z">
@@ -45572,6 +45580,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T052848Z" creationid="Марианна" creationdate="20201222T052848Z">
         <seg>The following options are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предпринимается попытка восстановить ранее настроенные связи с входными полями/переменными ("пропавшие", "некорректные" связи, появившееся в результате изменения структуры входных данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T042736Z" creationid="Марианна" creationdate="20211001T042736Z">
+        <seg>There is an attempt to restore previously configured links with the input fields/variables ("missing", "incorred" links that appeared due to the input data structure change).</seg>
       </tuv>
     </tu>
     <tu>
