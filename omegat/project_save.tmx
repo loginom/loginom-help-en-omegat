@@ -14997,6 +14997,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параллельность выполнения веток сценария.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T155830Z" creationid="Марианна" creationdate="20211001T155830Z">
+        <seg>&lt;x1/&gt;Concurrency of workflow branches execution.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметр&lt;x2/&gt; — метка параметра, при наведении курсора мыши появляется полное название метки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132714Z" creationid="Марианна" creationdate="20200829T200453Z">
@@ -55083,6 +55091,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200711T104258Z" creationid="Марианна" creationdate="20200711T104258Z">
         <seg>Figure 2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 2):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T155549Z" creationid="Марианна" creationdate="20211001T155549Z">
+        <seg>Figure 2):</seg>
       </tuv>
     </tu>
     <tu>
