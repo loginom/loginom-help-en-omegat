@@ -12785,6 +12785,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; необходимо включать в &lt;x3/&gt;выражениях&lt;x4/&gt; &lt;x5/&gt;Калькулятора&lt;x6/&gt; в случае использования функции &lt;x7/&gt;Data()&lt;x8/&gt; при рекурсивном вычислении значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T165957Z" creationid="Марианна" creationdate="20211001T165957Z">
+        <seg>It is required to include &lt;x1/&gt;Caching&lt;x2/&gt; to the &lt;x5/&gt;Calculator&lt;x6/&gt; &lt;x3/&gt;expressions&lt;x4/&gt; in case of &lt;x7/&gt;Data()&lt;x8/&gt; function usage for the recursive computation of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; необходимо включать в выражениях &lt;x3/&gt;Калькулятора&lt;x4/&gt; в случае использования функции &lt;x5/&gt;Data()&lt;x6/&gt; при рекурсивном вычислении значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201128T203201Z" creationid="Марианна" creationdate="20201014T062025Z">
@@ -48351,6 +48359,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T205231Z" creationid="Марианна" creationdate="20210928T205231Z">
         <seg>The workflow is designed in the special zone, namely, in the workflow construction area that is located to the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Разработчик сценария должен находить оптимальное соотношение этих параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T165626Z" creationid="Марианна" creationdate="20211001T165626Z">
+        <seg>The workflow developer must provide the optimal balance of these parameters.</seg>
       </tuv>
     </tu>
     <tu>
