@@ -39510,6 +39510,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, если необходимо выгрузить данные во внешний источник и следующим действием загрузить уже модифицированные данные из внешнего источника.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T045907Z" creationid="Марианна" creationdate="20211001T045907Z">
+        <seg>For example, if it is required to download data to the external source and then download already modified data from the external source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если транзакцией является чек, а элементами — товары, то в качестве вспомогательных данных могут быть использованы: пол покупателя, возраст, регион, сезон и т.д.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T191211Z" creationid="Марианна" creationdate="20201208T191211Z">
@@ -41608,6 +41616,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T120714Z" creationid="Марианна" creationdate="20210925T120714Z">
         <seg>However, if there is no sufficient data or the &lt;x1/&gt;"sampling"&lt;x2/&gt; procedure was unsuccessfully performed when selecting the training set, one of the classes can become dominating.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однако, иногда последовательность обработки данных не может быть задана таким образом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T045737Z" creationid="Марианна" creationdate="20211001T045737Z">
+        <seg>However, sometimes it is not possible to set the data processing order in such a way.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52065,6 +52081,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T224214Z" creationid="Марианна" creationdate="20201217T224214Z">
         <seg>In their turn, the nodes are combined into clusters (&lt;x3/&gt;Cluster number&lt;x4/&gt; field).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы выполняются последовательно от выходного порта к входному.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T045651Z" creationid="Марианна" creationdate="20211001T045651Z">
+        <seg>The nodes are successively executed from the output port to the input.</seg>
       </tuv>
     </tu>
     <tu>
