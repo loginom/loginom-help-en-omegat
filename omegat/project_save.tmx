@@ -32849,8 +32849,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для этого не требуются дополнительные настройки, достаточно выполнить параллельное соединение узлов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T155142Z" creationid="Марианна" creationdate="20211001T155142Z">
-        <seg>For this purpose, additional settings are not required. It is sufficient to perform parallel connection of nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T155351Z" creationid="Марианна" creationdate="20211001T155142Z">
+        <seg>For this purpose, additional settings are not required. It is sufficient to execute the parallel connection of nodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39572,6 +39572,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075221Z" creationid="Марианна" creationdate="20201210T075221Z">
         <seg>For example, the first field is the buyer's code, the second one - a list of his purchases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, следующие цепочки узлов будут выполнены параллельно (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T155540Z" creationid="Марианна" creationdate="20211001T155330Z">
+        <seg>For example, the following chains of nodes will be executed in parallel (refer to</seg>
       </tuv>
     </tu>
     <tu>
