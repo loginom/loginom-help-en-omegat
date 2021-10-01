@@ -35232,6 +35232,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из списка выходных полей/переменных удаляются все необязательные поля/переменные, которые не связаны с входными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T043405Z" creationid="Марианна" creationdate="20211001T043405Z">
+        <seg>All optional fields/variables that are not linked with the input ones are deleted from the list of the output fields/variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из этого можно сделать вывод, что "Томатная паста" является сопутствующим товаром, а "Макароны" — заместителем товара "Спагетти".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T063059Z" creationid="Марианна" creationdate="20201012T063059Z">
