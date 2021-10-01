@@ -19866,6 +19866,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Цикл&lt;x2/&gt; — управляющая конструкция, предназначенная для организации многократного исполнения набора инструкций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161649Z" creationid="Марианна" creationdate="20211001T161649Z">
+        <seg>&lt;x1/&gt;Loop&lt;x2/&gt; is the control structure that is designated for organization of the multiple execution of the instructions set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;ЧАКФ&lt;x2/&gt; — коэффициенты частной автокорреляционной функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T140543Z" creationid="Марианна" creationdate="20201011T102903Z">
@@ -21918,6 +21926,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T120152Z" creationid="Марианна" creationdate="20210809T120152Z">
         <seg>Loginom has two branded data sources:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Loginom предоставляет возможность использования следующих разновидностей циклов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161757Z" creationid="Марианна" creationdate="20211001T161757Z">
+        <seg>Loginom gives an opportunity to use the following kinds of loops:</seg>
       </tuv>
     </tu>
     <tu>
@@ -53187,6 +53203,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T161440Z" creationid="Марианна" creationdate="20211001T161440Z">
         <seg>Loop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Цикл со счётчиком — аналог "FOR … TO …";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161929Z" creationid="Марианна" creationdate="20211001T161929Z">
+        <seg>Counting loop: analogue of "FOR … TO …".</seg>
       </tuv>
     </tu>
     <tu>
