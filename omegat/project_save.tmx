@@ -32247,6 +32247,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для приема данных с переменной структурой служит автоматическая синхронизация полей/переменных, в ходе которой синхронизируется список выходных полей/переменных порта со списком входных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T042114Z" creationid="Марианна" creationdate="20211001T042114Z">
+        <seg>To receive the data with the variable structure, the automapping of fields/variable is used.The list of output fields/variable of the port is synchronized with the list of the input ones during its course.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для приема и передачи от узла к узлу переменных предусмотрен порт переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T065755Z" creationid="Марианна" creationdate="20200715T065755Z">
@@ -46758,6 +46766,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210608T084120Z" creationid="Марианна" creationdate="20210608T084120Z">
         <seg>In this case, count of classes is calculated with one more class, as it is required to take into account the class that includes the values exceeding the last bound.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом, в отличии от команды "Связать автоматически" список выходных полей/переменных может быть изменен алгоритмом синхронизации и могут быть добавлены новые связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T042421Z" creationid="Марианна" creationdate="20211001T042421Z">
+        <seg>In this case, as opposed to "Auto link" command, the list of the output fields/variables can be changed by the synchronization algorithm, and new links can be added.</seg>
       </tuv>
     </tu>
     <tu>
