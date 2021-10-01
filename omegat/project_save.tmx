@@ -19490,6 +19490,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Условие&lt;x2/&gt; — управляющая конструкция, обеспечивающая ветвление алгоритма в зависимости от значения некоторого выражения (аналог "SWITCH...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T162556Z" creationid="Марианна" creationdate="20211001T162556Z">
+        <seg>&lt;x1/&gt;Condition&lt;x2/&gt; is the control structure that provides the algorithm branching according to the value of some expression (analogue of "SWITCH...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Условия фильтрации&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192925Z" creationid="Марианна" creationdate="20200810T192925Z">
@@ -26751,6 +26759,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T184207Z" creationid="Марианна" creationdate="20210923T184207Z">
         <seg>Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in case of error occurrence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В зависимости от заданного условия ход выполнения Сценария может пойти по одной из возможных веток (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T162840Z" creationid="Марианна" creationdate="20211001T162840Z">
+        <seg>According to the set condition the Workflow execution progress can follow one of possible branches (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -52403,6 +52419,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170128Z" creationid="Марианна" creationdate="20201111T170128Z">
         <seg>Condition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Условие (ветвление)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T162436Z" creationid="Марианна" creationdate="20211001T162436Z">
+        <seg>Condition (branching)</seg>
       </tuv>
     </tu>
     <tu>
