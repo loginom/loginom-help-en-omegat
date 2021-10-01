@@ -12123,8 +12123,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Использование служебных портов для задания последовательности выполнения узлов.&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T154614Z" creationid="Марианна" creationdate="20211001T154614Z">
-        <seg>&lt;x1/&gt;Use of the service ports to set .&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T154853Z" creationid="Марианна" creationdate="20211001T154614Z">
+        <seg>&lt;x1/&gt;Use of the service ports to set the nodes execution order.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
