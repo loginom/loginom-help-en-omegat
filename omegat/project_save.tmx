@@ -9070,6 +9070,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Алгоритм выбора режима активации.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T202940Z" creationid="Марианна" creationdate="20211001T202940Z">
+        <seg>&lt;x1/&gt;Algorithm of the Activation Mode Selection.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Алгоритм сжатия&lt;x2/&gt; может применяться для уменьшения размера файла экспорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T180338Z" creationid="Марианна" creationdate="20200916T195551Z">
@@ -9953,6 +9961,22 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Всегда выполнять&lt;x2/&gt; — узел всегда выполняется без переобучения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T201213Z" creationid="Марианна" creationdate="20211001T201213Z">
+        <seg>&lt;x1/&gt;Always execute&lt;x2/&gt;: the node is always executed without retraining.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Всегда переобучать&lt;x2/&gt; — узел всегда выполняется с переобучением;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T201302Z" creationid="Марианна" creationdate="20211001T201302Z">
+        <seg>&lt;x1/&gt;Always retrain&lt;x2/&gt;: the node is always executed with retraining.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входное дерево данных&lt;x2/&gt; Дерево данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145235Z" creationid="Марианна" creationdate="20200920T145235Z">
@@ -10301,6 +10325,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T142540Z" creationid="Марианна" creationdate="20200918T142540Z">
         <seg>&lt;x1/&gt;Node Execution&lt;x2/&gt;Node Execution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выполнить узел и все его подузлы&lt;x2/&gt; — флаг определяет, будет ли активироваться узел при пакетном запуске Сценария без переобучения (без параметра /Teach).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200426Z" creationid="Марианна" creationdate="20211001T200426Z">
+        <seg>&lt;x1/&gt;Run node and all its subnodes&lt;x2/&gt;: the checkbox enables to define whether the node will be activated in the case of the batch Workflow launch without retraining (without /Teach parameter).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14597,6 +14629,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Определяется контекстом текущего процесса обработки&lt;x2/&gt; (применяется по умолчанию) — режим выполнения с переобучением ("Всегда переобучать") или без переобучения ("Всегда выполнять") определяется следующими факторами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T204331Z" creationid="Марианна" creationdate="20211001T204331Z">
+        <seg>&lt;x1/&gt;Defined by the context of the current processing process&lt;x2/&gt; (it is always used by default): the execution mode with retraining ("Always retrain") or without retraining ("Always run") is defined by the following factors:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Определяется набором&lt;x2/&gt; - при выборе данного варианта становится доступен список &lt;x3/&gt;Набор данных, определяющий набор строк&lt;x4/&gt;, в нем необходимо выбрать набор, в соответствии с которым будет определяться количество строк результирующего набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T071153Z" creationid="Марианна" creationdate="20201019T071153Z">
@@ -14943,8 +14983,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пакетное выполнение сценария&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T225710Z" creationid="Марианна" creationdate="20210928T225710Z">
-        <seg>&lt;x1/&gt;Batch processing of workflows&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T171359Z" creationid="Марианна" creationdate="20210928T225710Z">
+        <seg>&lt;x1/&gt;Batch processing of workflow&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15321,6 +15361,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T201240Z" creationid="Марианна" creationdate="20200829T201001Z">
         <seg>&lt;x1/&gt;Move&lt;x2/&gt; &lt;x3/&gt;Move to selected&lt;x4/&gt; enables to move the selected item to the &lt;x5/&gt;Selected items&lt;x6/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переобучить узел и все его подузлы&lt;x2/&gt; — флаг определяет, будет ли активироваться узел при пакетном запуске Сценария с переобучением (с параметром /Teach).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200712Z" creationid="Марианна" creationdate="20211001T200712Z">
+        <seg>&lt;x1/&gt;Retrain node and all its subnodes&lt;x2/&gt;: the checkbox enables to define whether the node will be activated in the case of the batch Workflow launch with retraining (with /Teach parameter).</seg>
       </tuv>
     </tu>
     <tu>
@@ -16848,6 +16896,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; подробнее о пакетном выполнении сценариев и параметрах пакетного выполнения &lt;x3/&gt;/Teach&lt;x4/&gt; и &lt;x5/&gt;/Node&lt;x6/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T193924Z" creationid="Марианна" creationdate="20211001T193924Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; More detailed information on the batch processing of workflows and &lt;x3/&gt;/Teach&lt;x4/&gt; and &lt;x5/&gt;/Node&lt;x6/&gt; batch processing parameters is provided (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T101127Z" creationid="Марианна" creationdate="20210930T101127Z">
@@ -16884,6 +16940,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T082109Z" creationid="Марианна" creationdate="20210928T082109Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The system requirements can be changed according to data volume and interoperating with third-party applications.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; следует иметь в виду, что узел при пакетном выполнении сценария может не выполняться в следующих ситуациях:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T202836Z" creationid="Марианна" creationdate="20211001T202836Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to take into account that the node cannot be executed during the workflow batch processing in the following situations:</seg>
       </tuv>
     </tu>
     <tu>
@@ -20560,6 +20624,14 @@ and &lt;x7/&gt;"Connections" interface&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T224456Z" creationid="Марианна" creationdate="20210218T224456Z">
         <seg>&lt;x7/&gt;Examples&lt;x8/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x7/&gt;пакетное выполнение сценариев&lt;x8/&gt;)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T193937Z" creationid="Марианна" creationdate="20211001T193937Z">
+        <seg>&lt;x7/&gt;batch processing of workflows&lt;x8/&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -27371,6 +27443,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В параметрах запуска пакетного выполнения указан конкретный узел, который будет выполняться (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T202623Z" creationid="Марианна" creationdate="20211001T202623Z">
+        <seg>The definite node that will be executed is specified in the batch processing launch parameters(refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В параметрах этого метода коэффициент увеличения задается в поле "фактор" напротив каждого уникального значения выбранного столбца исходной таблицы, также число записей для каждого уникального значения можно ввести вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210722T122441Z" creationid="Марианна" creationdate="20210722T122441Z">
@@ -27593,6 +27673,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T054420Z" creationid="Марианна" creationdate="20210925T080506Z">
         <seg>All user files are kept on the Loginom server in the Enterprise, Standard and Team editions (the Loginom server is included into the supply package).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В режиме редактирования (отладки) Сценариев для каждого из узлов можно задать следующие варианты выполнения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194135Z" creationid="Марианна" creationdate="20211001T194135Z">
+        <seg>The following execution options can be set for each of the nodes in the Workflows editing (debugging) mode:</seg>
       </tuv>
     </tu>
     <tu>
@@ -28093,6 +28181,14 @@ Several control elements are located over the table fields:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083044Z" creationid="Марианна" creationdate="20201009T083044Z">
         <seg>In this case, a user selects the variable that contains the parameter value in the parameter field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом случае входные данные узла не могут быть сформированы, а это означает, что узел не может быть выполнен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T201939Z" creationid="Марианна" creationdate="20211001T201939Z">
+        <seg>In this case, the input node data cannot be generated, and it means that the node cannot be executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29577,6 +29673,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможны следующие варианты:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194509Z" creationid="Марианна" creationdate="20211001T194509Z">
+        <seg>The following options are possible:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможны следующие способы задать итерации цикла:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T170627Z" creationid="Марианна" creationdate="20200920T170627Z">
@@ -30057,6 +30161,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор одного из этих вариантов поведения узла &lt;x1/&gt;при интерактивном выполнении&lt;x2/&gt; Сценариев задается:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194337Z" creationid="Марианна" creationdate="20211001T194337Z">
+        <seg>Selection of one of these options of the node behaviour &lt;x1/&gt;in the case of the interactive execution&lt;x2/&gt; of the Workflows is set as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выбор одного из этих вариантов поведения узла &lt;x1/&gt;при пакетном выполнении&lt;x2/&gt; задается:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194347Z" creationid="Марианна" creationdate="20211001T171719Z">
+        <seg>Selection of one of these options of the node behaviour &lt;x1/&gt;in the case of the batch processing&lt;x2/&gt; is set as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор опорного значения происходит из таблицы уникальных значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093621Z" creationid="Марианна" creationdate="20210419T093621Z">
@@ -30245,6 +30365,22 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114141Z" creationid="Марианна" creationdate="20200717T085727Z">
         <seg>Call the &lt;x3/&gt;Wizard&lt;x4/&gt; (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выполнение команды "Выполнить узел".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194732Z" creationid="Марианна" creationdate="20211001T194732Z">
+        <seg>Execution of "Run node" command.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выполнение команды "Переобучить узел";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194704Z" creationid="Марианна" creationdate="20211001T194704Z">
+        <seg>Execution of "Retrain node" command;</seg>
       </tuv>
     </tu>
     <tu>
@@ -30753,6 +30889,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данная группа параметров влияет на режим активации узла исключительно в пакетном режиме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200011Z" creationid="Марианна" creationdate="20211001T200011Z">
+        <seg>This group of parameters has an impact on the node activation mode only in the batch mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данная кнопка отрывает древовидную структуру Пакета, позволяющую быстро перемещаться по его составным объектам (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122857Z" creationid="Марианна" creationdate="20200814T122857Z">
@@ -30965,6 +31109,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210517T105056Z" creationid="Марианна" creationdate="20210517T105056Z">
         <seg>The handler is designated for automatic filling of null values in data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данный параметр влияет на режим активации узла как в пакетном режиме, так и в интерактивном.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200949Z" creationid="Марианна" creationdate="20211001T200949Z">
+        <seg>This parameter has an impact on the node activation node both in the batch mode, and in the interactive mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32719,6 +32871,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы в процессе пакетного выполнения  не активировать узел и все его подузлы, необходимо выключить данный режим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200544Z" creationid="Марианна" creationdate="20211001T200544Z">
+        <seg>It is required to disable this mode not to activate the node and all its subnodes while batch processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для того, чтобы в процессе пакетного выполнения  не переобучать узел и все его подузлы, необходимо выключить данный режим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200757Z" creationid="Марианна" creationdate="20211001T200757Z">
+        <seg>It is required to disable this mode not to retrain the node and all its subnodes while batch processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того, чтобы создать иерархическую структуру необходимо в корневой папке добавить хотя бы один дочерний узел.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T103903Z" creationid="Марианна" creationdate="20200929T103903Z">
@@ -33203,6 +33371,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T110723Z" creationid="Марианна" creationdate="20210809T110723Z">
         <seg>Mapping of the fields (variables) of the following data types is allowed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Допустимые режимы пакетной обработки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T195930Z" creationid="Марианна" creationdate="20211001T195919Z">
+        <seg>Valid modes of batch processing</seg>
       </tuv>
     </tu>
     <tu>
@@ -34720,6 +34896,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Запуск Пакета с параметром &lt;x1/&gt;/Node&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173410Z" creationid="Марианна" creationdate="20211001T173410Z">
+        <seg>Launch of the Package with &lt;x1/&gt;/Node&lt;x2/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Запуск Пакета с параметром &lt;x1/&gt;/Teach&lt;x2/&gt; или без него;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173347Z" creationid="Марианна" creationdate="20211001T173347Z">
+        <seg>Launch of the Package with &lt;x1/&gt;/Teach&lt;x2/&gt; parameter or without it;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запуск пакета в режиме &lt;x1/&gt;«Обучение»&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T204548Z" creationid="Марианна" creationdate="20210928T223435Z">
@@ -35192,6 +35384,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100713Z" creationid="Марианна" creationdate="20201011T100713Z">
         <seg>Significance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значимыми являются следующие факторы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173313Z" creationid="Марианна" creationdate="20211001T173313Z">
+        <seg>The following factors are important:</seg>
       </tuv>
     </tu>
     <tu>
@@ -35952,6 +36152,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222202Z" creationid="Марианна" creationdate="20210210T222202Z">
         <seg>Integration with External Web Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерактивное выполнение сценария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T193946Z" creationid="Марианна" creationdate="20211001T193946Z">
+        <seg>Interactive workflow execution</seg>
       </tuv>
     </tu>
     <tu>
@@ -37327,6 +37535,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Команда, с помощью которой запускается на выполнение сам узел или содержащий его узел Подмодели (Цикла).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194621Z" creationid="Марианна" creationdate="20211001T194621Z">
+        <seg>The command that enables to launch the node execution or the Supernode (Loop) node that contains it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Командой контекстного меню &lt;x1/&gt;Добавить дочерний узел&lt;x2/&gt; &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T104228Z" creationid="Марианна" creationdate="20200929T104228Z">
@@ -37571,6 +37787,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T200805Z" creationid="Марианна" creationdate="20200829T200805Z">
         <seg>The context menu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Контекстом, в котором запускается на исполнение узел Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T172841Z" creationid="Марианна" creationdate="20211001T172841Z">
+        <seg>By the context within which the Workflow node execution is launched.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40146,6 +40370,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка режима активации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194912Z" creationid="Марианна" creationdate="20211001T194912Z">
+        <seg>Configure Activation Mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка событий</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T211231Z" creationid="Марианна" creationdate="20201215T195107Z">
@@ -40334,6 +40566,30 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T175644Z" creationid="Марианна" creationdate="20200916T164034Z">
         <seg>Configure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройкой режима активации узла &lt;x1/&gt;Подмодели&lt;x2/&gt; (&lt;x3/&gt;Цикла&lt;x4/&gt;), содержащей исполняемый узел (если таковой имеется).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T193631Z" creationid="Марианна" creationdate="20211001T193550Z">
+        <seg>By configuration of the node activation mode of the &lt;x1/&gt;Supernode&lt;x2/&gt; (&lt;x3/&gt;Loop&lt;x4/&gt;) that contains the executed node (if it is available).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройкой режима активации узла Подмодели (Цикла), содержащей исполняемый узел (если таковой имеется).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194850Z" creationid="Марианна" creationdate="20211001T194850Z">
+        <seg>By configuration of the Supernode (Loop) node activation mode that contains the executed node (if it is available).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройкой режима активации, заданной непосредственно для самого исполняемого узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T193708Z" creationid="Марианна" creationdate="20211001T193708Z">
+        <seg>By configuration of the activation mode set for the executed node as such.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41734,6 +41990,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Один из предшествующих узлов не выполняется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T201834Z" creationid="Марианна" creationdate="20211001T201834Z">
+        <seg>One of the preceding nodes is not executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Один скрытый слой (используется по умолчанию).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213804Z" creationid="Марианна" creationdate="20201216T213804Z">
@@ -43006,6 +43270,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры запуска Пакета на исполнение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173300Z" creationid="Марианна" creationdate="20211001T173300Z">
+        <seg>Parameters of the Package execution launch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры извлечения XML</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T225248Z" creationid="Марианна" creationdate="20210218T225248Z">
@@ -44056,6 +44328,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию для новых узлов обе опции включены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200837Z" creationid="Марианна" creationdate="20211001T200837Z">
+        <seg>Both options are enabled by default for new nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию для числовых типов выбрана функция &lt;x3/&gt;Сумма&lt;x4/&gt;, а для всех остальных &lt;x5/&gt;Количество&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T081859Z" creationid="Марианна" creationdate="20201023T081859Z">
@@ -44154,6 +44434,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153026Z" creationid="Марианна" creationdate="20200917T153026Z">
         <seg>The &lt;x3/&gt;True&lt;x4/&gt; row is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию настройки этой Подмодели унаследуются всеми подчиненными узлами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T204057Z" creationid="Марианна" creationdate="20211001T203920Z">
+        <seg>By default settings of this Supernode are inherited by all dependent nodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44364,6 +44652,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T082548Z" creationid="Марианна" creationdate="20210511T082548Z">
         <seg>The outliers mean the data values that distinctly deviate from the average ones, the extreme values mean the values that deviate from the typical values to such extent that they are not consistent with the logics of the processes and events under research anymore.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Под контекстом при интерактивном выполнении Сценариев понимается:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T194433Z" creationid="Марианна" creationdate="20211001T194433Z">
+        <seg>The context within the scope of the interactive execution of Workflows means as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Под контекстом при пакетном выполнении Сценариев понимаются:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173222Z" creationid="Марианна" creationdate="20211001T173222Z">
+        <seg>The context within the scope of the Workflows batch processing means as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -45852,6 +46156,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предоставляется выбор одного из вариантов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T201132Z" creationid="Марианна" creationdate="20211001T201132Z">
+        <seg>It is required to select one of the options listed below:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Предпринимается попытка восстановить ранее настроенные связи с входными полями/переменными ("пропавшие", "некорректные" связи, появившееся в результате изменения структуры входных данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T042736Z" creationid="Марианна" creationdate="20211001T042736Z">
@@ -46591,6 +46903,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При пакетном выполнении Сценариев для каждого из узлов можно задать следующие варианты выполнения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173008Z" creationid="Марианна" creationdate="20211001T171354Z">
+        <seg>The following execution options can be set for each of the nodes in the case of the Workflows batch processing:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При первом нажатии на поле выполняется сортировка по возрастанию &lt;x1/&gt;&lt;x2/&gt;, при втором — по убыванию &lt;x3/&gt;&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T055853Z" creationid="Марианна" creationdate="20210925T094128Z">
@@ -46955,6 +47275,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T062207Z" creationid="Марианна" creationdate="20210215T062207Z">
         <seg>In this case, the logics of data processing of the request to the web service is implemented in the package node published as a web service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом выполняются только сам указанный в параметрах узел и все &lt;x5/&gt;предшествующие ему узлы&lt;x6/&gt; — то есть все узлы, которые участвуют в формировании входных данных для него.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T202335Z" creationid="Марианна" creationdate="20211001T202335Z">
+        <seg>In this case, only the node specified in the parameters and all &lt;x5/&gt;its preceding nodes &lt;x6/&gt;, namely, all the nodes that take part in generation of the input data for it are executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48955,6 +49283,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С помощью собственного режима активации можно принудительно задать режим выполнения с переобучением или без переобучения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T201108Z" creationid="Марианна" creationdate="20211001T201108Z">
+        <seg>Using the own activation mode, it is possible to set the execution mode forcibly with or without retraining.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью специальных обработчиков имеется возможность преобразовать данные из таблиц в переменные и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T100410Z" creationid="Марианна" creationdate="20200716T080117Z">
@@ -49451,6 +49787,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Следующая &lt;x1/&gt;блок-схема&lt;x2/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203537Z" creationid="Марианна" creationdate="20211001T203537Z">
+        <seg>The following &lt;x1/&gt;flowgraph&lt;x2/&gt; (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Следующие настройки применяются для формирования результирующего набора данных вручную:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T132248Z" creationid="Марианна" creationdate="20200825T192251Z">
@@ -49551,6 +49895,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T133402Z" creationid="Марианна" creationdate="20201210T133402Z">
         <seg>Uncheck &lt;x1/&gt;Auto selection of clusters&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Собственный режим активации узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T200854Z" creationid="Марианна" creationdate="20211001T200854Z">
+        <seg>Own node activation mode</seg>
       </tuv>
     </tu>
     <tu>
@@ -51607,6 +51959,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, собственный режим выполнения узла может быть унаследован от Подмодели самого верхнего уровня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203757Z" creationid="Марианна" creationdate="20211001T203757Z">
+        <seg>Thus, the own node execution mode can be inherited from the Supernode of the highest level.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, структура таблицы предполагает наличие одного поля идентификатора транзакций и одного или более полей элементов транзакций.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T193753Z" creationid="Марианна" creationdate="20201208T193753Z">
@@ -52227,6 +52587,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T091953Z" creationid="Марианна" creationdate="20201118T090810Z">
         <seg>The node performs the action similar to the &lt;x3/&gt;Left join&lt;x4/&gt; of the &lt;x5/&gt;Join&lt;x6/&gt; node but the number of joined tables is optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел выполняется без переобучения Модели;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173024Z" creationid="Марианна" creationdate="20211001T171459Z">
+        <seg>The Node is executed without retraining of the Model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел выполняется с переобучением Модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T173031Z" creationid="Марианна" creationdate="20211001T171516Z">
+        <seg>The Node is executed with retraining of the Model.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54327,6 +54703,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в остальных случаях используется режим выполнения, заданный:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203151Z" creationid="Марианна" creationdate="20211001T203151Z">
+        <seg>in other cases, the following set execution order is used:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в параметре «Путь к файлу пакета» задать путь к пакету, доступ к объектам которого необходимо получить;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T205729Z" creationid="Марианна" creationdate="20210930T205729Z">
@@ -54355,6 +54739,22 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T161433Z" creationid="Марианна" creationdate="20211001T161433Z">
         <seg>in the &lt;x1/&gt;Service Ports&lt;x2/&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в случае интерактивного исполнения Сценария — командой, с помощью которой запускается на выполнение сам узел ("Переобучить узел" или "Выполнить узел").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203458Z" creationid="Марианна" creationdate="20211001T203458Z">
+        <seg>in the case of the interactive Workflow execution - by the command that is used to launch the node execution ("Retrain node" or "Run node").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в случае пакетного исполнения Сценария — параметром &lt;x1/&gt;/Teach&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203235Z" creationid="Марианна" creationdate="20211001T203235Z">
+        <seg>in the case of the Workflow batch processing - by &lt;x1/&gt;/Teach&lt;x2/&gt; parameter;</seg>
       </tuv>
     </tu>
     <tu>
@@ -54595,6 +54995,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T125404Z" creationid="Марианна" creationdate="20210925T125404Z">
         <seg>if the output model error is estimated for each check, and its average value is defined for all checks, its received estimate will be more reliable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>если узел находится внутри Подмодели или Цикла, то режим выполнения наследуется от них.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203047Z" creationid="Марианна" creationdate="20211001T203047Z">
+        <seg>if the node is in the Supernode or Loop, the execution mode is inherited from them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55283,6 +55691,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T122726Z" creationid="Марианна" creationdate="20210925T122726Z">
         <seg>distribution of classes is more uniform that improves the training quality;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 1) показывает, какой из вариантов выполнения узла в зависимости от вышеперечисленных настроек будет применен при пакетной обработке:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T203709Z" creationid="Марианна" creationdate="20211001T203709Z">
+        <seg>Figure 1) shows which of the node execution options according to the settings specified above will be used for the batch processing:</seg>
       </tuv>
     </tu>
     <tu>
