@@ -1,9 +1,9 @@
-# Управление ходом выполнения сценария
+# Workflow Progress Control
 
-## Последовательность выполнения
+## Order of Execution
 
-В общем случае последовательность выполнения узлов задается соединением их входных и выходных портов. Узлы выполняются последовательно от выходного порта к входному. Однако, иногда последовательность обработки данных не может быть задана таким образом. Например, если необходимо выгрузить данные во внешний источник и следующим действием загрузить уже модифицированные данные из внешнего источника. В этом случае для задания порядка выполнения узлов применяют [служебные порты](./ports/service-ports.md)
-(см. Figure 1).
+In the general case, the order of nodes execution is set by connection of their input and output ports. The nodes are successively executed from the output port to the input. However, sometimes it is not possible to set the data processing order in such a way. For example, if it is required to download data to the external source and then download already modified data from the external source. In this case, to set the nodes execution order, the [service ports](./ports/service-ports.md) are used
+(refer to Figure 1).
 
 ![Использование служебных портов для задания последовательности выполнения узлов.](run-order-1.png)
 
