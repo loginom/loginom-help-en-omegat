@@ -51487,6 +51487,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, кэширование целесообразно при неоднократном использовании вычисляемых значений последующими обработчиками и визуализаторами во избежание выполнения повторных вычислений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T165136Z" creationid="Марианна" creationdate="20211001T165136Z">
+        <seg>Thus, caching is reasonable in the case of multiple use of the calculated values by the subsequent handlers and visualizers in order to avoid repeated calculations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, любое наблюдение (объект) принадлежит ко всем &lt;x1/&gt;кластерам&lt;x2/&gt;, но с разной вероятностью.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205346Z" creationid="Марианна" creationdate="20201212T205346Z">
