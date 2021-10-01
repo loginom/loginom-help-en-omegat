@@ -9462,6 +9462,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; по умолчанию для портов, принимающих табличные данные, опция &lt;x3/&gt;&lt;x4/&gt; "Автоматическая синхронизация включена".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T044330Z" creationid="Марианна" creationdate="20211001T044330Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; By default for the ports that receive the table data, опция &lt;x3/&gt;&lt;x4/&gt; "Automapping enabled" option is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; после обновления следует проверить работоспособность вызывающих переопубликованный веб-сервис узлов сценария и, при необходимости, перенастроить их.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T140712Z" creationid="Марианна" creationdate="20210218T140144Z">
@@ -20438,6 +20446,16 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160328Z" creationid="Марианна" creationdate="20201001T160304Z">
         <seg>&lt;x5/&gt;Automapping of Fields&lt;x6/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x5/&gt;интерфейс «Таблица»&lt;x6/&gt;
+и &lt;x7/&gt;интерфейс «Связи»&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T044158Z" creationid="Марианна" creationdate="20211001T044158Z">
+        <seg>&lt;x5/&gt;"Table" interface&lt;x6/&gt;
+and &lt;x7/&gt;"Connections" interface&lt;x8/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
