@@ -12793,6 +12793,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt; — сохранение однажды вычисленного значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T163511Z" creationid="Марианна" creationdate="20211001T163511Z">
+        <seg>&lt;x1/&gt;Caching&lt;x2/&gt; means saving of once calculated value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэшировать значения групп&lt;x2/&gt; — результирующие данные будет &lt;x3/&gt;закэшированы&lt;x4/&gt; для использования последующими узлами;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203759Z" creationid="Марианна" creationdate="20201023T203720Z">
@@ -50511,6 +50519,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T085121Z" creationid="Марианна" creationdate="20200814T102847Z">
         <seg>"Home" Page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стратегия &lt;x1/&gt;ленивых вычислений&lt;x2/&gt; предусматривает расчет вычисляемых значений только при необходимости их использования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T163720Z" creationid="Марианна" creationdate="20211001T163720Z">
+        <seg>The strategy of &lt;x1/&gt;lazy evaluations&lt;x2/&gt; provides for calculation of the calculated values only if it is required to use them.</seg>
       </tuv>
     </tu>
     <tu>
