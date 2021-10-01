@@ -18,4 +18,4 @@ The similar algorithm is used once when executing
 (refer to ["Table" interface](./interface-table.md)
 and ["Connections" interface](./interface-relations.md)).
 
-> **Important:** By default for the ports that receive the table data, опция ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) "Automapping enabled" option is used.
+> **Important:** By default for the ports that receive the table data, ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) "Automapping enabled" option is used.
