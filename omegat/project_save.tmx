@@ -36092,6 +36092,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование Подмоделей позволяет легко реализовать &lt;x1/&gt;вложенность циклов&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T162222Z" creationid="Марианна" creationdate="20211001T162222Z">
+        <seg>Use of the Supernodes provides easy implementation of &lt;x1/&gt;loop nesting&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование единого хранилища позволяет обеспечить непротиворечивость данных и централизованное хранение, а также автоматически обеспечивает всю необходимую поддержку процесса анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210822T173935Z" creationid="Марианна" creationdate="20210822T173845Z">
@@ -53203,6 +53211,22 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T161440Z" creationid="Марианна" creationdate="20211001T161440Z">
         <seg>Loop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Цикл по набору данных (групповая обработка) — аналог "FOR EACH".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T162043Z" creationid="Марианна" creationdate="20211001T162043Z">
+        <seg>Data set loop (group processing): analogue of "FOR EACH".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Цикл с постусловием — аналог "DO … WHILE …";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T162003Z" creationid="Марианна" creationdate="20211001T162003Z">
+        <seg>Post-test loop: analogue of "DO … WHILE …".</seg>
       </tuv>
     </tu>
     <tu>
