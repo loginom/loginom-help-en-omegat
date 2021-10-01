@@ -37883,6 +37883,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кэширование данных требует дополнительный объем памяти, но в описанных выше случаях сокращает время выполнения алгоритма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T165500Z" creationid="Марианна" creationdate="20211001T165500Z">
+        <seg>Data caching requires the additional memory size but in the cases described above it decreases the algorithm execution time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Лаг</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100625Z" creationid="Марианна" creationdate="20201011T100625Z">
