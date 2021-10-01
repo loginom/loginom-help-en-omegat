@@ -27187,6 +27187,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В общем случае последовательность выполнения узлов задается соединением их входных и выходных портов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T045556Z" creationid="Марианна" creationdate="20211001T045556Z">
+        <seg>In the general case, the order of nodes execution is set by connection of their input and output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
@@ -45466,6 +45474,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Последовательность выполнения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T045438Z" creationid="Марианна" creationdate="20211001T045438Z">
+        <seg>Order of Execution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Последовательность действий алгоритма замены:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T160434Z" creationid="Марианна" creationdate="20201006T160434Z">
@@ -52161,6 +52177,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T122128Z" creationid="Марианна" creationdate="20210213T122031Z">
         <seg>Toolbar (4) is used for connection control:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Управление ходом выполнения сценария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T045424Z" creationid="Марианна" creationdate="20211001T045424Z">
+        <seg>Workflow Progress Control</seg>
       </tuv>
     </tu>
     <tu>
