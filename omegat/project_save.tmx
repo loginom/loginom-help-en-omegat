@@ -32831,6 +32831,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого используют порт порядка выполнения &lt;x1/&gt;&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161234Z" creationid="Марианна" creationdate="20211001T161234Z">
+        <seg>For this purpose, the execution order port is used &lt;x1/&gt;&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого метода так же можно задать верхнюю и нижнюю границы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T204928Z" creationid="Марианна" creationdate="20210629T204928Z">
@@ -35808,6 +35816,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201128T204202Z" creationid="Марианна" creationdate="20201020T190859Z">
         <seg>The module objects are initialised upon the first call. In the case of subsequent calls, cache is used. The module objects state of the previous call is preserved in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Иногда необходимо вручную задать последовательность выполнения узлов в Сценарии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161201Z" creationid="Марианна" creationdate="20211001T161201Z">
+        <seg>Sometimes the manual setting of the Workflow nodes execution order is required.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40014,6 +40030,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T070037Z" creationid="Марианна" creationdate="20200924T070037Z">
         <seg>Configuration of the Node Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка последовательности выполнения узлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T160944Z" creationid="Марианна" creationdate="20211001T160920Z">
+        <seg>Configure Nodes Execution Order</seg>
       </tuv>
     </tu>
     <tu>
