@@ -28065,6 +28065,16 @@ Several control elements are located over the table fields:</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае для задания порядка выполнения узлов применяют &lt;x1/&gt;служебные порты&lt;x2/&gt;
+(см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T050007Z" creationid="Марианна" creationdate="20211001T050007Z">
+        <seg>In this case, to set the nodes execution order, the &lt;x1/&gt;service ports&lt;x2/&gt; are used
+(refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае для формирования произвольной структуры запроса/ответа в качестве портов &lt;x5/&gt;Подмодели&lt;x6/&gt; удобно использовать порты типа &lt;x7/&gt;Дерево данных&lt;x8/&gt; с возможностью задать структуру данных XSD-схемой, т.е. использовать тот же механизм, что и в Deductor Integration Server.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T135805Z" creationid="Марианна" creationdate="20210218T220755Z">
