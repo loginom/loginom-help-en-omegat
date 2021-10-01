@@ -43,7 +43,7 @@ The settings used for connection to the [LDAP](./ldap.md) server are set here:
 
 ## Logging Parameters
 
-Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in case of error occurrence.
+Execution of each node is recorded in the registration log (log file) that enables to detect location of error and its possible reason in the case of error occurrence.
 
 |Parameter|Default value|Description|
 |:-|:-|:-|
@@ -65,7 +65,7 @@ The introduced changes take effect upon pressing *Save* button.
 |WebSocket SSL/TLS port| if WSS (WebSocket Secure) is configured, 8443, otherwise null|The secure port used for message exchange with server|
 |Certificate file name||Path to the certificate file used for the SSL connection. It is set by the absolute or relative path (root directory "C:\ProgramData\BaseGroup\Loginom 6\Server").|
 |Private key file name||Path to the key file used for the SSL connection. It is set by the absolute or relative path (root directory "C:\ProgramData\BaseGroup\Loginom 6\Server").|
-|Connection check period (s)|300|Time interval between check of connection with client that is required for the automatic determination of the network connection loss and closure of the corresponding client session with the packages opened in it. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client. In case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
+|Connection check period (s)|300|Time interval between check of connection with client that is required for the automatic determination of the network connection loss and closure of the corresponding client session with the packages opened in it. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client. In the case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
 
 Possible port values are set in the numeric format in the interval from 0 to 65535
 

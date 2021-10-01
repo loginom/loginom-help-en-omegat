@@ -206,7 +206,7 @@ Returns a string - repeating the given string as many times as necessary.
 * Old\_template - the replaced substring.
 * New\_template - the string with which the Old template will be replaced.
 * Replace\_all - flag of replacement of all occurrences of the Old template with the New template. Argument of the logical type.
-* Ignore\_case - flag of case sensitivity in case of replacement. Argument of the logical type.
+* Ignore\_case - flag of case sensitivity in the case of replacement. Argument of the logical type.
 
 Function returns the String in which occurrences of the Old template were substituted with the New template.
 If "Replace all" flag has the True (true) meaning, then all occurrences of the Old template will be replaced with the New template in the returned string.

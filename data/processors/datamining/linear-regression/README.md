@@ -166,7 +166,7 @@ Available Parameters:
    * [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html).
    * [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html).
    * [Hannan-Quinn information criterion](https://wiki.loginom.ru/articles/hq.html).
-* [Significance threshold](https://wiki.loginom.ru/articles/significance-regr.html) in case of factor addition.
-* Significance threshold in case of factor exception.
+* [Significance threshold](https://wiki.loginom.ru/articles/significance-regr.html) in the case of factor addition.
+* Significance threshold in the case of factor exception.
 
 > **Note:** All available parameters of the detailed settings can be set by means of variables.
