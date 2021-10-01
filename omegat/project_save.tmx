@@ -25737,6 +25737,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическая синхронизация полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T041650Z" creationid="Марианна" creationdate="20211001T041650Z">
+        <seg>Automapping of Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоматически в зависимости от границы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T160032Z" creationid="Марианна" creationdate="20210601T160032Z">
@@ -43402,6 +43410,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перечень полей таких узлов может быть переменным, зависящим от входных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T041812Z" creationid="Марианна" creationdate="20211001T041812Z">
+        <seg>List of fields of such nodes can be variable according to the input data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перечисленные алгоритмы используют различные параметры настроек нормализации:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T092512Z" creationid="Марианна" creationdate="20210419T092429Z">
@@ -48522,6 +48538,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T142649Z" creationid="Марианна" creationdate="20201119T142649Z">
         <seg>Manual setting is performed using the following control elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ряд узлов Сценария, такие как &lt;x1/&gt;Кросс-таблица&lt;x2/&gt;, не имеют постоянной структуры выходных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T041747Z" creationid="Марианна" creationdate="20211001T041747Z">
+        <seg>Some Workflow nodes, for example, &lt;x1/&gt;Cross table&lt;x2/&gt;, do not have the constant structure of the output data.</seg>
       </tuv>
     </tu>
     <tu>
