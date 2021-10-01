@@ -45592,6 +45592,15 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предпринимается попытка связать по признаку "совпадает &lt;x1/&gt;тип данных&lt;x2/&gt;
+и совпадает имя (без учета регистра)" входные и выходные поля/переменные, у которых нет связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T043152Z" creationid="Марианна" creationdate="20211001T043152Z">
+        <seg>There is an attempt to establish a link between the input and output fields/variables that do not have link by "&lt;x1/&gt;data type&lt;x2/&gt; matches and name matches (case-insensitive)" parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представление значений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
