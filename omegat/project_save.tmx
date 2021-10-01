@@ -47015,6 +47015,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом промежуточные вычисления не хранятся в памяти компьютера и пересчитываются каждый раз, когда такая необходимость возникает.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T163829Z" creationid="Марианна" creationdate="20211001T163829Z">
+        <seg>In this case, the intermediate calculations are not kept in the computer memory, and they are recalculated each time when it is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом создастся узел сценария, выполняющий действие импорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114116Z" creationid="Марианна" creationdate="20200717T085535Z">
@@ -51217,6 +51225,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
         <seg>Such substitution construction enables to formulate the request text in a dynamic manner in the course of the workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такая стратегия существенно сокращает требования к вычислительным ресурсам, в частности, к оперативной памяти компьютера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T164024Z" creationid="Марианна" creationdate="20211001T164024Z">
+        <seg>Such strategy considerably decreases requirements to the computational performance, more specifically, to the computer memory (RAM).</seg>
       </tuv>
     </tu>
     <tu>
