@@ -32847,6 +32847,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого не требуются дополнительные настройки, достаточно выполнить параллельное соединение узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T155142Z" creationid="Марианна" creationdate="20211001T155142Z">
+        <seg>For this purpose, additional settings are not required. It is sufficient to perform parallel connection of nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого необходимо &lt;x5/&gt;создать&lt;x6/&gt; соответствующее подключение:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T060501Z" creationid="Марианна" creationdate="20210215T060501Z">
@@ -37689,6 +37697,14 @@ etc.</seg>
         <seg>With the exception of &lt;x141/&gt;&lt;x142/&gt; String data type where the records with &lt;x143/&gt;&lt;x144/&gt;&lt;null&gt;&lt;x145/&gt;&lt;x146/&gt; value are considered to be null.|
 |&lt;x147/&gt;&lt;x148/&gt; The first|&lt;x149/&gt;•&lt;x150/&gt;|&lt;x151/&gt;•&lt;x152/&gt;|&lt;x153/&gt;•&lt;x154/&gt;|&lt;x155/&gt;•&lt;x156/&gt;|&lt;x157/&gt;•&lt;x158/&gt;|&lt;x159/&gt;•&lt;x160/&gt;|It shows the value of the first record in the data set.|
 |&lt;x161/&gt;&lt;x162/&gt; The last|&amp;nbsp;&amp;nbsp;&lt;x163/&gt;•&lt;x164/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x165/&gt;•&lt;x166/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x167/&gt;•&lt;x168/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x169/&gt;•&lt;x170/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x171/&gt;•&lt;x172/&gt;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&lt;x173/&gt;•&lt;x174/&gt;&amp;nbsp;&amp;nbsp;|It shows the value of the last record in the data set.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кроме того, Loginom позволяет параллельно выполнять нескольких ветвей Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T154947Z" creationid="Марианна" creationdate="20211001T154947Z">
+        <seg>Besides, Loginom enables to execute several Workflow branches in parallel.</seg>
       </tuv>
     </tu>
     <tu>
