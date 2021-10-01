@@ -32171,6 +32171,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для отображения этих портов необходимо воспользоваться кнопкой &lt;x1/&gt;&lt;x2/&gt; панели инструментов области построения Сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161333Z" creationid="Марианна" creationdate="20211001T161333Z">
+        <seg>To display these ports, it is required to use &lt;x1/&gt;&lt;x2/&gt; toolbar button of the Workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для очистки всего списка нажать &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T142554Z" creationid="Марианна" creationdate="20201115T142554Z">
@@ -47161,6 +47169,14 @@ Prediction = С + A0 * X(t) + A1 * X(t-1) + ...</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пример настройки последовательности выполнения узлов см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161414Z" creationid="Марианна" creationdate="20211001T161414Z">
+        <seg>Example of configuration of the nodes execution order is provided</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример с использованием данных:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060719Z" creationid="Марианна" creationdate="20201116T060719Z">
@@ -53167,6 +53183,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Цикл</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161440Z" creationid="Марианна" creationdate="20211001T161440Z">
+        <seg>Loop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Цифр (не может быть первым символом).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T110709Z" creationid="Марианна" creationdate="20200929T110709Z">
@@ -54155,6 +54179,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T085250Z" creationid="Марианна" creationdate="20201224T085250Z">
         <seg>the dependent variables values mapping the input parameters in the fields marked as the &lt;x1/&gt;output&lt;x2/&gt; ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в разделе &lt;x1/&gt;Служебные порты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T161433Z" creationid="Марианна" creationdate="20211001T161433Z">
+        <seg>in the &lt;x1/&gt;Service Ports&lt;x2/&gt; section.</seg>
       </tuv>
     </tu>
     <tu>
