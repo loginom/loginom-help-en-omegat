@@ -32971,6 +32971,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавляются новые выходные поля/переменные на основе входных полей, у которых еще нет связей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T043602Z" creationid="Марианна" creationdate="20211001T043602Z">
+        <seg>New output fields/variables on the basis of the output fields that still do not have links are added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доверительный интервал прогноза в % от 0 до 100 — значение вещественного типа, по умолчанию 95.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142246Z" creationid="Марианна" creationdate="20201208T074040Z">
@@ -44140,6 +44148,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Под обязательными понимаются:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T043429Z" creationid="Марианна" creationdate="20211001T043429Z">
+        <seg>The required ones are as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Под строкой состояния располагается область настройки условий фильтрации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114656Z" creationid="Марианна" creationdate="20201113T113115Z">
@@ -44344,6 +44360,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T093352Z" creationid="Марианна" creationdate="20200715T093352Z">
         <seg>The supernode is a special node that can include other workflow nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подобный алгоритм применяется единожды при выполнении команды
+&lt;x1/&gt;&lt;x2/&gt;
+"Синхронизировать поля" и постоянно при выполнении узла, если задействована опция настройки порта
+&lt;x3/&gt;&lt;x4/&gt;"Автоматическая синхронизация"
+(см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T044013Z" creationid="Марианна" creationdate="20211001T044013Z">
+        <seg>The similar algorithm is used once when executing
+&lt;x1/&gt;&lt;x2/&gt;
+"Map fields" command and constantly when executing the node if port configuration option is used
+&lt;x3/&gt;&lt;x4/&gt;"Automapping"
+(refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -54179,6 +54211,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>добавленные/измененные вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T043510Z" creationid="Марианна" creationdate="20211001T043510Z">
+        <seg>manually added/changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>е.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T200305Z" creationid="Марианна" creationdate="20201012T200305Z">
@@ -55199,6 +55239,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T134454Z" creationid="Марианна" creationdate="20210217T112153Z">
         <seg>The node must be visible from the workflow root, namely, if the node is nested (into the supernode or hierarchy of supernodes), &lt;x3/&gt;Public&lt;x4/&gt; &lt;x1/&gt;access modifier&lt;x2/&gt; must be installed for all supernodes that include it;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>унаследованные в результате создания производного узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T043455Z" creationid="Марианна" creationdate="20211001T043455Z">
+        <seg>inherited in the result of the derived node creation;</seg>
       </tuv>
     </tu>
     <tu>
