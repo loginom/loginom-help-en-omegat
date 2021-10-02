@@ -10129,6 +10129,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Входные&lt;x2/&gt; — метки полей/переменных входного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T200932Z" creationid="Марианна" creationdate="20211002T200932Z">
+        <seg>&lt;x1/&gt;Input&lt;x2/&gt;: captions of the fields/variables of the input data set of the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Входы&lt;x2/&gt; &lt;x3/&gt;Входы&lt;x4/&gt; &lt;x5/&gt;Новый порт&lt;x6/&gt; — создать новый порт входа:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201206T153515Z" creationid="Марианна" creationdate="20200920T145820Z">
@@ -10565,6 +10573,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T145308Z" creationid="Марианна" creationdate="20200920T145308Z">
         <seg>&lt;x1/&gt;Output variables&lt;x2/&gt; Variables;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выходные&lt;x2/&gt; — метки полей/переменных выходного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T201022Z" creationid="Марианна" creationdate="20211002T201022Z">
+        <seg>&lt;x1/&gt;Output&lt;x2/&gt;: captions of the fields/variables of the output data set of the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36337,6 +36353,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102410Z" creationid="Марианна" creationdate="20200919T102410Z">
         <seg>The wizard interface enables to search for the nodes in the general list by means of filters, namely, by name and node comment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерфейс представлен таблицей со следующими столбцами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T200802Z" creationid="Марианна" creationdate="20211002T200802Z">
+        <seg>The interface is represented by a table with the following columns:</seg>
       </tuv>
     </tu>
     <tu>
