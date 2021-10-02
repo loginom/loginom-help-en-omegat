@@ -52575,6 +52575,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Убедиться, что настройки &lt;x1/&gt;режима активации&lt;x2/&gt; разрешают обучение узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T194405Z" creationid="Марианна" creationdate="20211002T194405Z">
+        <seg>It is required to make sure that the &lt;x1/&gt;activation mode&lt;x2/&gt; settings allow for the node training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Увеличить эффективность работы с данными;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T115952Z" creationid="Марианна" creationdate="20210809T115952Z">
