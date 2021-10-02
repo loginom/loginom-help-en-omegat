@@ -8966,6 +8966,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Автоматически&lt;x2/&gt; — в режиме &lt;x3/&gt;пакетной обработки&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T043553Z" creationid="Марианна" creationdate="20211002T043553Z">
+        <seg>&lt;x1/&gt;Auto&lt;x2/&gt;: in the&lt;x3/&gt;batch processing&lt;x4/&gt; mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Автоматически&lt;x2/&gt; — установленная галочка в этом поле обеспечивает автоматическую настройку параметров квантования выбранного метода.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T113657Z" creationid="Марианна" creationdate="20210708T113657Z">
@@ -9941,6 +9949,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T192516Z" creationid="Марианна" creationdate="20201020T192516Z">
         <seg>&lt;x1/&gt;Time&lt;x2/&gt;:  to enter the date/time, the object creation construction containing the current date/time will be inserted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вручную&lt;x2/&gt; — выполняя специальную процедуру переобучения узла при настройке Сценария;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T043447Z" creationid="Марианна" creationdate="20211002T043447Z">
+        <seg>&lt;x1/&gt;Manually&lt;x2/&gt;: the special procedure of the node retraining is performed during the Workflow configuration.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28119,6 +28135,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В то же время автоматический способ гораздо быстрее и хорошо подходит при незначительных изменениях в исходных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T044123Z" creationid="Марианна" creationdate="20211002T044123Z">
+        <seg>At the same time, the automatic method is much faster and it is well-suited when the changes in the source data are insignificant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В третьем случае строки входного набора разделяются по заданному признаку на группы строк, и в каждой итерации на вход узла, заключенного в цикл, подаются строки очередной группы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T100552Z" creationid="Марианна" creationdate="20200921T194111Z">
@@ -32327,6 +32351,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210827T064527Z" creationid="Марианна" creationdate="20210827T064527Z">
         <seg>To provide the data warehouse service, utility software of third party developers can be used at the low level for the Firebird, MS SQL, Oracle DBMS as well as the tools provided by the developers of corresponding databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для обучения или переобучения Модели следует:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T044501Z" creationid="Марианна" creationdate="20211002T044501Z">
+        <seg>It is required to perform the following actions for the Model training or retraining:</seg>
       </tuv>
     </tu>
     <tu>
@@ -40906,6 +40938,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Необходимо обучить узел перед применением".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T044424Z" creationid="Марианна" creationdate="20211002T044424Z">
+        <seg>It is required to train the node before its use".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Необходимо отметить, что для граничных положений окна (конец и начало исходной выборки) будут формироваться неполные записи: в начале исходной выборки будут формироваться пустые значения для "прошлых" отсчетов, а в конце — для "будущих".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T081956Z" creationid="Марианна" creationdate="20201114T081428Z">
@@ -41810,6 +41850,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T230001Z" creationid="Марианна" creationdate="20210928T230001Z">
         <seg>Node Training (Retraining)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обучение вручную</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T044142Z" creationid="Марианна" creationdate="20211002T044142Z">
+        <seg>Manual Training</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обучение вручную осуществляется при создании (редактировании) Сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T044221Z" creationid="Марианна" creationdate="20211002T044221Z">
+        <seg>The manual training is used when creating (editing) Workflows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46285,6 +46341,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Преимущество ручного переобучения состоит в возможности контроля параметров переобучения Модели и просмотра полученных результатов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T043921Z" creationid="Марианна" creationdate="20211002T043921Z">
+        <seg>Advantage of the manual retraining is that control of the Model retraining parameters and view of the received results are possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Преобразование непрерывных и дискретных входных полей, используемых для построения моделей &lt;x1/&gt;бинарной классификации&lt;x2/&gt;, путем квантования на основе метода совокупности доказательств или &lt;x3/&gt;WoE-анализа&lt;x4/&gt; (weights of evidence, WoE).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T132811Z" creationid="Марианна" creationdate="20210524T121302Z">
@@ -47043,6 +47107,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T070435Z" creationid="Марианна" creationdate="20200919T070435Z">
         <seg>The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При попытке первоначального выполнения некоторых узлов без предварительного обучения выдается предупреждение: "Модель не построена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T044400Z" creationid="Марианна" creationdate="20211002T044243Z">
+        <seg>While attempting to execute some nodes initially without preliminary training, the following warning appears: "Model is not trained.</seg>
       </tuv>
     </tu>
     <tu>
