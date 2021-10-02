@@ -27091,6 +27091,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В контекстном меню узла выбрать пункт &lt;x1/&gt;&lt;x2/&gt; Переобучить узел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T194627Z" creationid="Марианна" creationdate="20211002T194627Z">
+        <seg>It is required to select &lt;x1/&gt;&lt;x2/&gt; Retrain node option in the context menu of the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В контекстном меню элемента Ссылки выбрать пункт &lt;x1/&gt;&lt;x2/&gt; "Добавить".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T221657Z" creationid="Марианна" creationdate="20210928T221657Z">
@@ -51907,6 +51915,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T042458Z" creationid="Марианна" creationdate="20211002T042458Z">
         <seg>Initial training is required for such nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким же образом можно переобучить все вложенные узлы &lt;x1/&gt;Подмодели&lt;x2/&gt; или &lt;x3/&gt;Цикл&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T194718Z" creationid="Марианна" creationdate="20211002T194705Z">
+        <seg>Thus, it is possible to retrain all nested nodes of the &lt;x1/&gt;Supernode&lt;x2/&gt; or &lt;x3/&gt;Loop&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
