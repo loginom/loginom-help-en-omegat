@@ -36317,6 +36317,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интерфейс «Таблица»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T200729Z" creationid="Марианна" creationdate="20211002T200729Z">
+        <seg>"Table" Interface</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интерфейс мастера предоставляет возможность осуществлять поиск узлов в дереве с помощью фильтров: по имени и комментарию узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T072643Z" creationid="Марианна" creationdate="20200919T072534Z">
