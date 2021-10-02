@@ -27935,6 +27935,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае, если для режима активации подчиненными узлами используются настройки по умолчанию (Собственный режим активации узла = "Определяется контекстом текущего процесса обработки"), переобучение выполняется для всех подчиненных узлов вне зависимости от глубины вложенности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195248Z" creationid="Марианна" creationdate="20211002T194946Z">
+        <seg>If the default settings are used for the activation mode by the subordinate nodes (Specified mode of node activation = "Defined by the context of the current processing process"), the retraining is performed for all subordinate nodes irrespective of the nesting depth.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, если используется многопользовательский доступ к БД, рекомендуется использовать сервер Firebird для избежания блокировок доступа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T085612Z" creationid="Марианна" creationdate="20210121T085612Z">
@@ -33275,6 +33283,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T134553Z" creationid="Марианна" creationdate="20210218T134553Z">
         <seg>For this purpose, it is recommended to use &lt;x7/&gt;Generate unique for package&lt;x8/&gt; or &lt;x9/&gt;Generate unique for each package version&lt;x10/&gt; option for all published packages, or to set the unique namespaces manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого следует вызвать вышеуказанную процедуру для узла верхнего уровня в иерархии вложенности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T194820Z" creationid="Марианна" creationdate="20211002T194820Z">
+        <seg>For this purpose, it is required to call the specified above procedure for the upper level node in the nesting hierarchy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44520,8 +44536,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию настройки этой Подмодели унаследуются всеми подчиненными узлами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T204057Z" creationid="Марианна" creationdate="20211001T203920Z">
-        <seg>By default settings of this Supernode are inherited by all dependent nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195000Z" creationid="Марианна" creationdate="20211001T203920Z">
+        <seg>By default settings of this Supernode are inherited by all subordinate nodes.</seg>
       </tuv>
     </tu>
     <tu>
