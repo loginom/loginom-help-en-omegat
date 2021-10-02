@@ -27937,8 +27937,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>В случае, если для режима активации подчиненными узлами используются настройки по умолчанию (Собственный режим активации узла = "Определяется контекстом текущего процесса обработки"), переобучение выполняется для всех подчиненных узлов вне зависимости от глубины вложенности.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211002T195248Z" creationid="Марианна" creationdate="20211002T194946Z">
-        <seg>If the default settings are used for the activation mode by the subordinate nodes (Specified mode of node activation = "Defined by the context of the current processing process"), the retraining is performed for all subordinate nodes irrespective of the nesting depth.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195354Z" creationid="Марианна" creationdate="20211002T194946Z">
+        <seg>If the default settings are used by the subordinate nodes for the activation mode (Specified mode of node activation = "Defined by the context of the current processing process"), the retraining is performed for all subordinate nodes irrespective of the nesting depth.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30917,6 +30917,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T163924Z" creationid="Марианна" creationdate="20200717T110132Z">
         <seg>Then this data is sorted in the sum descending order using the &lt;x1/&gt;Sorting&lt;x2/&gt; component. Then this data is transferred to the node used for selection of the first 10 table rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данная Подмодель также может содержать иерархию Подмоделей и подузлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195628Z" creationid="Марианна" creationdate="20211002T195628Z">
+        <seg>This Supernode can also include hierarchy of Supernodes and subnodes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40070,6 +40078,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084611Z" creationid="Марианна" creationdate="20200814T084611Z">
         <seg>For example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например: для узла Цикл подчиненной считается Подмодель, в которой выполняются действия итерации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195543Z" creationid="Марианна" creationdate="20211002T195543Z">
+        <seg>For example, the Supernode in which the iteration actions are performed is considered to be subordinate for the Loop node.</seg>
       </tuv>
     </tu>
     <tu>
