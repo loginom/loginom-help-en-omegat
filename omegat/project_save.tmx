@@ -25939,6 +25939,23 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическое обучение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195756Z" creationid="Марианна" creationdate="20211002T195756Z">
+        <seg>Automatic Training</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Автоматическое обучение Моделей можно осуществлять при пакетной обработке
+сценариев, в которой для каждого из узлов можно задать следующие варианты выполнения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T200013Z" creationid="Марианна" creationdate="20211002T200013Z">
+        <seg>The automatic training of the Models can be performed while batch processing of the workflows in which it is possible to set the following execution options for each of the nodes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоопределение числа кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T205845Z" creationid="Марианна" creationdate="20201212T205845Z">
@@ -43946,6 +43963,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082337Z" creationid="Марианна" creationdate="20201006T082337Z">
         <seg>The Drag-and-Drop method enables to move fields beween areas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переобучение Цикла самого верхнего уровня приведет к переобучению всех вложенных узлов и Подмоделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T195738Z" creationid="Марианна" creationdate="20211002T195738Z">
+        <seg>The Loop retraining of the highest level will cause retraining of all nested nodes and Supernodes.</seg>
       </tuv>
     </tu>
     <tu>
