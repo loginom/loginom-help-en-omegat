@@ -16904,6 +16904,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; поскольку Подмодель (или Цикл) также может быть вложен в другую Подмодель, и эта вложенность не ограничена, то, таким образом, может образоваться иерархия вложенности, на вершине которой расположена Подмодель верхнего уровня.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211001T204609Z" creationid="Марианна" creationdate="20211001T204609Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; As the Supernode (or Loop) also can be nested into another Supernode, and this nesting is not limited, the nesting hierarchy can be created in this casr. The upper level Supernode is located on its op.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T101127Z" creationid="Марианна" creationdate="20210930T101127Z">
@@ -27175,6 +27183,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T094932Z" creationid="Марианна" creationdate="20201117T094932Z">
         <seg>There are &lt;x3/&gt;О&lt;x4/&gt; and &lt;x5/&gt;З&lt;x6/&gt; letters instead of digits in some BIC values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В некоторых компонентах используются самообучающиеся алгоритмы — &lt;x1/&gt;Кластеризация&lt;x2/&gt;, &lt;x3/&gt;Самоорганизующиеся карты&lt;x4/&gt;, &lt;x5/&gt;Квантование&lt;x6/&gt; и прочие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T042359Z" creationid="Марианна" creationdate="20211002T042359Z">
+        <seg>Self-training algorithms are used in some components: &lt;x1/&gt;Clustering&lt;x2/&gt;, &lt;x3/&gt;Self-organising maps&lt;x4/&gt;, &lt;x5/&gt;Binning&lt;x6/&gt;, etc.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51671,6 +51687,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также может возникнуть потребность в переобучении, например, в случаях, если Модель перестала быть адекватной задаче или новые исходные данные стали выходить за пределы выборки, на которой ранее производилось обучение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T043248Z" creationid="Марианна" creationdate="20211002T043248Z">
+        <seg>Retraining can be also required, for example, in the cases when the Model is not a relevant task anymore, or the new source data starts to fall outside the limits of the sample used for training earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также можно попробовать авторизоваться автоматически, для этого на стартовой странице Loginom ввести имя пользователя и пароль учетной записи, которая имеется на LDAP сервере и если авторизация прошла успешно, то подключение из Loginom к LDAP серверу настроено правильно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T093751Z" creationid="Марианна" creationdate="20210913T093542Z">
@@ -51803,6 +51827,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T205512Z" creationid="Марианна" creationdate="20200921T205512Z">
         <seg>These links can be deleted using &lt;x1/&gt;Delete link&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такие узлы требуют первоначального обучения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T042458Z" creationid="Марианна" creationdate="20211002T042458Z">
+        <seg>Initial training is required for such nodes.</seg>
       </tuv>
     </tu>
     <tu>
