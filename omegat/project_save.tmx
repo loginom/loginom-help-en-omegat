@@ -54840,6 +54840,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эта функция используется для узлов, основанных на обучении (Нейронные сети (&lt;x3/&gt;Нейросеть (Регрессия)&lt;x4/&gt; и &lt;x5/&gt;Нейросеть (Классификация)&lt;x6/&gt;), &lt;x7/&gt;Кластеризация&lt;x8/&gt; и т.п.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T062529Z" creationid="Марианна" creationdate="20211003T062529Z">
+        <seg>This function is used for the nodes based on the training (Neural networks (&lt;x3/&gt;Neural network (Regression)&lt;x4/&gt; and &lt;x5/&gt;Neural network (Clustering)&lt;x6/&gt;), &lt;x7/&gt;Clustering&lt;x8/&gt;, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эти же действия выполняют кнопки на панели быстрого доступа:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T083459Z" creationid="Марианна" creationdate="20201006T083459Z">
