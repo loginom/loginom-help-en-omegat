@@ -30506,6 +30506,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входной набор представляет данные, которые порт принимает.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212950Z" creationid="Марианна" creationdate="20211003T212950Z">
+        <seg>The input data set represents the data that is accepted by the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входные &lt;x5/&gt;порты&lt;x6/&gt; подмодели задают структуру запроса к сервису, а выходные — структуру ответа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T062704Z" creationid="Марианна" creationdate="20210215T062704Z">
@@ -31022,6 +31030,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175809Z" creationid="Марианна" creationdate="20201022T175809Z">
         <seg>Output data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выходной набор представляет данные, которые порт отдает.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213024Z" creationid="Марианна" creationdate="20211003T213024Z">
+        <seg>The output data set represents the data that is given back by the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47532,6 +47548,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T082243Z" creationid="Марианна" creationdate="20201009T082243Z">
         <seg>When configuring the port, it is required to set their list and values by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При настройке порта пользователь имеет возможность:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213049Z" creationid="Марианна" creationdate="20211003T213049Z">
+        <seg>When configuring the port, a user has the following possibilities:</seg>
       </tuv>
     </tu>
     <tu>
