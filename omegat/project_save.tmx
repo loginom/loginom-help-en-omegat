@@ -5972,6 +5972,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Упорядочить связи&lt;x4/&gt; — пересортировывает поля списков для устранения пересечений связей друг с другом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T211612Z" creationid="Марианна" creationdate="20211003T211612Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Arrange links&lt;x4/&gt; enables to resort lists fields to delete the links crossing each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Управляющие переменные&lt;x4/&gt; (необязательный порт) — переменными порта можно задать значения параметров мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T161833Z" creationid="Марианна" creationdate="20210220T161833Z">
