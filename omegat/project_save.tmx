@@ -28556,6 +28556,14 @@ Several control elements are located over the table fields:</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом случае необходимо следить за &lt;x1/&gt;локальными настройками&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063343Z" creationid="Марианна" creationdate="20211003T063343Z">
+        <seg>In this case, it is required to keep track of the &lt;x1/&gt;local settings&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом случае отчет добавится в список "Без группы".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T085514Z" creationid="Марианна" creationdate="20210928T085514Z">
@@ -37139,6 +37147,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T153330Z" creationid="Марианна" creationdate="20201111T153330Z">
         <seg>Their values do not change anyhow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Их изменение может привести к изменению результатов выполнения Сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063418Z" creationid="Марианна" creationdate="20211003T063418Z">
+        <seg>Their change can cause the change of the Workflow execution results.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47308,6 +47324,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084443Z" creationid="Марианна" creationdate="20200814T084443Z">
         <seg>If required, it is possible to enter the path manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При необходимости, уже спроектированный Сценарий можно запустить в другой среде исполнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063307Z" creationid="Марианна" creationdate="20211003T063307Z">
+        <seg>Where applicable, already designed Workflow can be launched in another execution environment.</seg>
       </tuv>
     </tu>
     <tu>
