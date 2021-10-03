@@ -5372,6 +5372,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Переместить вверх/вниз&lt;x6/&gt; — изменяет позицию выделенного поля в списке (поля в исходящей с порта таблице будут расположены слева направо в том же порядке, в каком они расположены в списке сверху вниз).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T051436Z" creationid="Марианна" creationdate="20211003T051436Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Move up/down&lt;x6/&gt; enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Прогноз&lt;x4/&gt; - идентификатор прогнозируемого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135609Z" creationid="Марианна" creationdate="20201218T204524Z">
@@ -5500,6 +5508,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавляет новое поле в список настраиваемых столбцов и открывает диалог редактирования его параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T045617Z" creationid="Марианна" creationdate="20211003T045541Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new field into the list of configured columns and open the dialog of its features editing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить из XSD...&lt;x4/&gt; - загружает структуру узлов выходного дерева из файла формата XSD.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T115953Z" creationid="Марианна" creationdate="20201001T115818Z">
@@ -5576,6 +5592,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132958Z" creationid="Марианна" creationdate="20200819T132958Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure node activation mode&lt;x4/&gt; provides configuration of activation mode for the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранной строке таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T045812Z" creationid="Марианна" creationdate="20211003T045610Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking the selected table row.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5712,6 +5736,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160321Z" creationid="Марианна" creationdate="20201001T160236Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Map fields&lt;x4/&gt; enables to map a list of output port fields to a list of the input ones (the mapping algorithm is described in the</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Синхронизировать поля&lt;x4/&gt; — синхронизируется список выходных полей/переменных порта со списком входных (алгоритм синхронизации см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T051618Z" creationid="Марианна" creationdate="20211003T051618Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Map fields&lt;x4/&gt;: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in</seg>
       </tuv>
     </tu>
     <tu>
@@ -9760,6 +9792,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — &lt;x3/&gt;тип данных&lt;x4/&gt; полей выходного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T201428Z" creationid="Марианна" creationdate="20211002T201428Z">
+        <seg>&lt;x1/&gt;Data kind&lt;x2/&gt;: &lt;x3/&gt;data type&lt;x4/&gt; of the fields of the output data set of the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных&lt;x2/&gt; — один из возможных &lt;x3/&gt;видов данных&lt;x4/&gt;
 .</seg>
       </tuv>
@@ -11513,6 +11553,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — значение переменных выходного набора порта (о назначении полей см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044506Z" creationid="Марианна" creationdate="20211003T044506Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt;: value of the variables of the output data set of the port (more detailed information of the fields usage type is provided in</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — поле для ввода значения, с которым будет сравниваться переменная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133204Z" creationid="Марианна" creationdate="20200921T201206Z">
@@ -11885,6 +11933,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192402Z" creationid="Марианна" creationdate="20200825T192402Z">
         <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the unique field name is assigned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — имена полей/переменных выходного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211002T201136Z" creationid="Марианна" creationdate="20211002T201136Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: names of the fields/variables of the output data set of the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13605,6 +13661,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T111750Z" creationid="Марианна" creationdate="20210809T111750Z">
         <seg>&lt;x1/&gt;Usage type&lt;x2/&gt;: it is to be filled in when configuring the input port for some handlers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Назначение&lt;x2/&gt; — назначение полей/переменных выходного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044327Z" creationid="Марианна" creationdate="20211003T044327Z">
+        <seg>&lt;x1/&gt;Usage type&lt;x2/&gt;: usage type of the fields/variables of the output data set of the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16865,6 +16929,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T202628Z" creationid="Марианна" creationdate="20200829T202628Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; if the item showing is disabled, and no &lt;x3/&gt;conditions &lt;x4/&gt; and/or &lt;x5/&gt;values&lt;x6/&gt; are specified, upon the list saving, this item will be moved back to the &lt;x7/&gt;Available items&lt;x8/&gt; list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; из списка выбора исключаются поля/переменные уже присутствующие в таблице, а также поля/переменные с &lt;x3/&gt;несовместимым типом данных&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T045316Z" creationid="Марианна" creationdate="20211003T045316Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The fields/variables that are already available in the table and also fields/variables with &lt;x3/&gt;incompatible data type&lt;x4/&gt; are excluded from the selection list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20582,6 +20654,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T205348Z" creationid="Марианна" creationdate="20210208T205348Z">
         <seg>&lt;x3/&gt;data kinds&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;параметры поля набора данных&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044537Z" creationid="Марианна" creationdate="20211003T044537Z">
+        <seg>&lt;x3/&gt;features of data set field&lt;x4/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -35493,6 +35573,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значения ячеек столбца "Входные" редактируются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044644Z" creationid="Марианна" creationdate="20211003T044644Z">
+        <seg>The "Input" column cells values are edited.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значимость</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T100713Z" creationid="Марианна" creationdate="20201011T100713Z">
@@ -43215,6 +43303,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Панель инструментов таблицы содержит следующие команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T045338Z" creationid="Марианна" creationdate="20211003T045338Z">
+        <seg>The table toolbar contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Панель инструментов файлового менеджера предоставляет следующие возможности работы с файлами:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T084027Z" creationid="Марианна" creationdate="20210925T084027Z">
@@ -49044,6 +49140,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Редактирование ячейки осуществляется путем выбора из списка полей/переменных входного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044748Z" creationid="Марианна" creationdate="20211003T044748Z">
+        <seg>Cell editing is performed by selecting from the list of fields/variables of the input data set of the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Редакции платформы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094355Z" creationid="Марианна" creationdate="20200813T094355Z">
@@ -51068,6 +51172,22 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Столбец присутствует только при редактировании порта, принимающего переменные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044615Z" creationid="Марианна" creationdate="20211003T044615Z">
+        <seg>The column is available only when editing the port that takes the variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Столбец присутствует только при редактировании порта, принимающего табличные данные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T044227Z" creationid="Марианна" creationdate="20211003T044227Z">
+        <seg>The column is available only when editing the port that takes the table data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Столбцы и переменные во входных и выходных портах</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T224946Z" creationid="Марианна" creationdate="20210928T224946Z">
@@ -52068,6 +52188,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T085729Z" creationid="Марианна" creationdate="20210628T085729Z">
         <seg>Thus, in the first case, the indicator significance is increased, whereas in the second case, interpretability of the coarse classes is increased.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, каждому из выходных полей/переменных можно сопоставить поле/переменную входного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T045043Z" creationid="Марианна" creationdate="20211003T045043Z">
+        <seg>Thus, each of the output fields/variables can be mapped with field/variable of the input data set of the port.</seg>
       </tuv>
     </tu>
     <tu>
