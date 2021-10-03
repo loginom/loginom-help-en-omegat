@@ -16333,6 +16333,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порт&lt;x2/&gt; — способ коммуникации между узлами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T211935Z" creationid="Марианна" creationdate="20211003T211935Z">
+        <seg>&lt;x1/&gt;Port&lt;x2/&gt;: method of communication between the nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порты&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T160408Z" creationid="Марианна" creationdate="20200810T160408Z">
@@ -27240,6 +27248,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T091601Z" creationid="Марианна" creationdate="20201114T091601Z">
         <seg>Different resulting tables will be obtained according to &lt;x7/&gt;Leave incomplete records&lt;x8/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В зависимости от структуры передаваемых/принимаемых данных различают следующие типы портов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212042Z" creationid="Марианна" creationdate="20211003T212042Z">
+        <seg>There are the following port types according to the structure of transferred/accepted data:</seg>
       </tuv>
     </tu>
     <tu>
