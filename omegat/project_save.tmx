@@ -5740,6 +5740,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Связать автоматически&lt;x4/&gt; — предпринимается попытка установить связи между выходным и входным списком полей/переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T052505Z" creationid="Марианна" creationdate="20211003T052505Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Auto link&lt;x4/&gt;: there is an attempt to establish the links between the output and input list of fields/variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Синхронизировать поля&lt;x4/&gt; — синхронизируется список выходных полей порта со списком входных (алгоритм синхронизации см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160321Z" creationid="Марианна" creationdate="20201001T160236Z">
@@ -50672,6 +50680,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170119Z" creationid="Марианна" creationdate="20201111T170119Z">
         <seg>A list of possible conditions and data types to which they can be applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список входных/выходных полей/переменных не изменяется (новые поля не добавляются).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T052746Z" creationid="Марианна" creationdate="20211003T052746Z">
+        <seg>The list of the input/output fields/variables is not changed (the new fields are not added).</seg>
       </tuv>
     </tu>
     <tu>
