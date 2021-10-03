@@ -39172,6 +39172,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Могут быть добавлены новые связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T052800Z" creationid="Марианна" creationdate="20211003T052800Z">
+        <seg>New links can be added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модели &lt;x1/&gt;ARIMA&lt;x2/&gt; применяются для решения &lt;x3/&gt;задач&lt;x4/&gt;, в которых требуется построить прогноз на основе имеющихся данных, то есть вычислить последующие значения ряда на основе предыдущих.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T141943Z" creationid="Марианна" creationdate="20201207T141943Z">
