@@ -34927,6 +34927,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Зажать клавишу CTRL и выделить их по одному кликами левой кнопки мыши; повторное нажатие по полю снимает выделение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T054615Z" creationid="Марианна" creationdate="20211003T054615Z">
+        <seg>Press CTRL button and select them with one click of the left mouse button. The repeated field pressing deselects the field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Закрытый</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215202Z" creationid="Марианна" creationdate="20210928T215202Z">
