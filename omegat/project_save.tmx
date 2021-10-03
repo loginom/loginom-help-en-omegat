@@ -45785,6 +45785,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Помимо выполнения Сценариев в интерфейсе (Интерактивный режим), существует другой вариант исполнения — &lt;x1/&gt;пакетный режим&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T061509Z" creationid="Марианна" creationdate="20211003T061509Z">
+        <seg>Apart from the Workflows execution in the interface (Interactive mode), there is another execution option — &lt;x1/&gt;batch mode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Помимо обычных форматов даты есть возможность установить формат, соответствующий международному стандарту даты &lt;x1/&gt;ISO 8601&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T132637Z" creationid="Марианна" creationdate="20201118T132637Z">
@@ -51758,6 +51766,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T210504Z" creationid="Марианна" creationdate="20210606T210504Z">
         <seg>The sum of quotients of information values for each class provides the total information value of the indicator by which its significance is defined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Суть режима заключается в том, что Сценарий запускается без интерфейса и результатом является манипуляции с входными данными (преобразование, передача и выгрузка данных).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T061839Z" creationid="Марианна" creationdate="20211003T061839Z">
+        <seg>The point of the mode is that the Workflow is launched without interface. It brings about operations with the input data (transformation, transfer and upload of data).</seg>
       </tuv>
     </tu>
     <tu>
