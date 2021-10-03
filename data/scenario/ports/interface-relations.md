@@ -1,38 +1,38 @@
 # "Connections" Interface
 
-В списке "Входные" отображаются поля/переменные принятого портом набора данных (входного набора порта), которые следует сопоставить с полями/переменными выходного набора порта, представленными в списке "Выходные". Для связывания необходимо зажать левой кнопкой мыши ячейку поля из левого списка и перенести ее на ячейку поля из правого списка, с которым следует соотнести, затем отпустить левую кнопку мыши, при этом отобразится графическая связь между ними. Удалить такую связь можно нажатием на кнопку ![](../../images/icons/link-grid/remove-link_hover.svg) на линии связи.
+The "Input" list displays fields/variables of the data set accepted by the port (the input data set of the port). It is required to map them with fields/variables of the output data set of the port represented in the "Output" list. To establish links, it is required to press the field cell from the left list with the left mouse button and transfer it to the field cell from the right list with which it is required to provide mapping. Then it is required to release the left mouse button, and the graphical link will be displayed in this case. It is possible to delete this link by pressing ![](../../images/icons/link-grid/remove-link_hover.svg) button in the line.
 
-> **Важно:** допустимо сопоставление полей/переменных только [совместимых типов данных](../../data/compatibility.md).
+> **Important:** It is allowed to map the fields/variables only of the [compatible data types](../../data/compatibility.md).
 
-В случае, если настраивается входной порт принимающий табличные данные, список "Выходные" отображает назначение полей набора данных, подаваемого на обработку алгоритмом узла. Если настраивается входной порт принимающий переменные, список "Выходные" отображает значения переменных.
+If it is required to configure the input port that accepts the table data, the "Output" list displays the usage type of the data set fields of the node supplied for processing by the algorithm. If it is required to configure the input port that accepts variables, the "Output" list displays the variables values.
 
-Панель инструментов списка "Входные" содержит следующие команды:
+The "Input" list toolbar contains the following commands:
 
-* ![](../../images/icons/toolbar-controls/get-column-list_default.svg) **Получить список** — загрузка списка входных полей в случае его отсутствия (например, если импорт из базы данных задается через SQL-запрос). Команда доступна только для настройки выходного порта.
-* ![](../../images/icons/toolbar-controls/create-out-column_default.svg) **Создать выходной...** — создает для выбранного входного поля/переменной такое же поле в списке "Выходные" и устанавливает с ним соответствие.
-* ![](../../images/icons/toolbar-controls/create-out-columns_default.svg) **Создать выходные для всех входных...** — создает для всех входных полей/переменных такие же поля в списке "Выходные" и устанавливает с ними соответствие.
-* **Тип создания производных столбцов** — кнопка отображается в случае, когда алгоритм компонента предусматривает добавление в результирующий набор новых полей/переменных, вычисленных на основе исходных (например, компонент [Замена](../../processors/transformation/substitution/README.md)), варианты настройки следующие:
-   * ![](../../images/icons/toolbar-controls/tune_default.svg) **По умолчанию** — индивидуален для каждого компонента, реализует либо режим Замена, либо Добавление;
-   * ![](../../images/icons/toolbar-controls/plus_default.svg) **Добавление** — к настраиваемым столбцам добавляются поля, вычисленные на основе обрабатываемых полей;
-   * ![](../../images/icons/toolbar-controls/edit_default.svg) **Замена** — вычисленные поля замещают обрабатываемые.
+* ![](../../images/icons/toolbar-controls/get-column-list_default.svg) **Get list**: downloading of the input fields list in the case of its absence (for example, if import from the database is set via the SQL request). The command is available only for the output port configuration
+* ![](../../images/icons/toolbar-controls/create-out-column_default.svg) **Create output...** enables to create the same field for the selected input field/variable in the "Output" list and provide mapping with it.
+* ![](../../images/icons/toolbar-controls/create-out-columns_default.svg) **Create output for all input...** enables to create the same fields in the "Output" list for all input fields/variables and provide mapping with them.
+* **Type of derived columns creation**. The button is displayed only when the component algorithm provides for addition to the resulting data set of the new fields/variables calculated on the basis of the source ones (for example, [Replace](../../processors/transformation/substitution/README.md) component). There are the following configuration options:
+   * ![](../../images/icons/toolbar-controls/tune_default.svg) **By default**: it is specific for each component, and it implements either Replace mode, or Add mode.
+   * ![](../../images/icons/toolbar-controls/plus_default.svg) **Add**: the fields calculated on the basis of the processd fields are added to the configured columns.
+   * ![](../../images/icons/toolbar-controls/edit_default.svg) **Replace**: the calculated fields are replaced with the processed ones.
 
-Панель инструментов списка "Выходные" содержит следующие команды:
+The "Output" list toolbar contains the following commands:
 
-* ![](../../images/icons/toolbar-controls/plus_default.svg) **Добавить** — добавляет новое поле в список настраиваемых столбцов и открывает диалог редактирования его параметров;
-* ![](../../images/icons/toolbar-controls/edit_default.svg) **Настроить** — открывает диалог редактирования [параметров поля](../../processors/transformation/fields-parameters.md), диалог также можно открыть двойным кликом по выбранному полю;
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вверх/вниз** — изменяет позицию выделенного поля в списке (поля в исходящей с порта таблице будут расположены слева направо в том же порядке, в каком они расположены в списке сверху вниз);
+* ![](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add the new field to the list of configured columns and open the dialog of its features editing.
+* ![](../../images/icons/toolbar-controls/edit_default.svg) **Configure** enables to open the dialog of editing of [field features](../../processors/transformation/fields-parameters.md). The dialog can be also opened by double clicking the selected field.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move up/down** enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).
 * ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [automapping of fields](./field-synchronization.md));
-* ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Автоматическая синхронизация** — при включении данного режима команда  ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Синхронизировать поля будет выполняться автоматически при выполнении узла;
-* ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все...** — список "Выходные" очищается;
+* ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when this mode is enabled, ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Map fields command will be automatically executed when executing the node.
+* ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all...**: the "Output" list is cleared.
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
 
 Description of the Additional Wizard Commands:
 
 * ![](../../images/icons/toolbar-controls/auto-connect_default.svg) **Auto link**: there is an attempt to establish the links between the output and input list of fields/variables. The list of the input/output fields/variables is not changed (the new fields are not added). New links can be added. If some links are already available, they are left unchanged. The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:
-   * first, by the following indicator: "compatible [data type](../../data/compatibility.md) and the name matches (case-insensitive)";
-   * затем по признаку: "совместим тип данных и совпадает метка (без учета регистра)".
+   * first, by the following indicator: "[data type](../../data/compatibility.md) is compatible and the name matches (case-insensitive)";
+   * then by the following indicator: "data type is compatible and the caption matches (case-insensitive)".
 * ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links** enables to delete all available links.
-* ![](../../images/icons/toolbar-controls/order-links_default.svg) **Упорядочить связи** — пересортировывает поля списков для устранения пересечений связей друг с другом.
+* ![](../../images/icons/toolbar-controls/order-links_default.svg) **Arrange links** enables to resort lists fields to delete the crossing links.
 * ![](../../images/icons/toolbar-controls/help_default.svg) **Show lost links**: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured. Such situation can take place when the input data structure is changed.
 
 If it is required to configure several positions simultaneously, they can be selected using the following methods:

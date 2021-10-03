@@ -1,41 +1,41 @@
 # Ports
 
-**Порт** — способ коммуникации между узлами. В зависимости от структуры передаваемых/принимаемых данных различают следующие типы портов:
+**Port**: method of communication between the nodes. There are the following port types according to the structure of transferred/accepted data:
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Table data;
 * ![ ](../../images/icons/app/node/ports/inputs/variable_inactive.svg) Variables;
-* ![ ](../../images/icons/app/node/ports/inputs/tree_inactive.svg) Данные в иерархической древовидной форме;
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Параметры подключения к источнику данных;
-* ![ ](../../images/icons/app/node/ports/inputs/model_inactive.svg) Структура данных не определена.
+* ![ ](../../images/icons/app/node/ports/inputs/tree_inactive.svg) Data in the hierarchic tree-like form;
+* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Parameters of connection to the data source;
+* ![ ](../../images/icons/app/node/ports/inputs/model_inactive.svg) Data structure is not defined.
 
-Узлы Сценария принимают данные через входные порты, а отдают через выходные. Входные порты на пиктограмме узла сценария располагаются слева, а выходные справа (см. Figure 1).
+The Workflow nodes accept data via the input ports and give them back via the output ones. The input ports are located to the left on the workflow node icon, and the output ones - to the right (refer to Figure 1).
 
-![Узел сценария с двумя входными и одним выходным портом.](ports-1.png)
+![Workflow node with two input ports and one output port.](ports-1.png)
 
-Данные перед обработкой узлом попадают в его входной порт, где они могут быть предварительно модифицированы.
+Before the node processing data is sent to its input port when it can be preliminarily modified.
 
-Внутри порта (см. рисунок 2) данные так же представлены в виде входного и выходного наборов полей (или [переменных](../variables/README.md), в зависимости от типа порта). Входной набор представляет данные, которые порт принимает. Выходной набор представляет данные, которые порт отдает. При настройке порта пользователь имеет возможность:
+Inside the port (refer to Figure 2) data is also represented in the form of the input and output fields data sets (or [variables](../variables/README.md)according to the port type). The input data set represents the data that is accepted by the port. The output data set represents the data that is given back by the port. When configuring the port, a user has the following possibilities:
 
-* Задать произвольную структуру выходного набора — его перечень и параметры полей/переменных;
-* Сопоставить поля (или переменные) входного набора порта с полями выходного.
+* Set the random structure of the output data set: its list and parameters of fields/variables.
+* Map the fields (or variables) of the input port data set with the fields of the output one.
 
-Для узла, принимающего и отдающего набор данных (таблицу), схему движения данных можно представить следующим образом (см. Figure 2):
+It is possible to represent the schema of the data movement for the node that accepts and gives back the data set (table) as follows: Figure 2):
 
 ![Схема движения данных для узла, принимающего и отдающего набор данных (таблицу).](ports-2.svg)
 
 Таким образом, для узла схема движения данных которого представлена на рисунке 2, данные проходят следующие этапы преобразований:
 
 1. Изменение структуры данных во входном порту и передача их на обработку.
-1. Обработка алгоритмом узла. В результате обработки формируются новые данные, которые поступают в выходной порт.
-1. Изменение структуры данных в выходном порту.
+1. Node processing by the algorithm. В результате обработки формируются новые данные, которые поступают в выходной порт.
+1. Change of the data structure in the output port.
 
-Внутри порта возможно произвести следующие изменения структуры данных:
+It is possible to introduce the following changes of the data structure in the port:
 
-* Изменение имен полей/переменных;
-* Изменение меток полей/переменных;
-* Задание порядка полей в таблице;
-* Удаление ненужных полей/переменных;
-* Задание назначения полей (см. [параметры поля набора данных](../../data/datasetfieldoptions.md)).
+* Change of the fields/variables names;
+* Change of the fields/variables captions;
+* Set fields order in the table;
+* Delete unnecessary fields/variables;
+* set fields usage types (refer to [features of data set field](../../data/datasetfieldoptions.md)).
 
 Эти действия, а также возможные способы реагирования порта на изменение структуры поступающих в порт данных задаются в настройках порта.
 
