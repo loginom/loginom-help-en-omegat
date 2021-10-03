@@ -53184,6 +53184,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удалить такую связь можно нажатием на кнопку &lt;x1/&gt;&lt;x2/&gt; на линии связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T204115Z" creationid="Марианна" creationdate="20211003T204115Z">
+        <seg>It is possible to delete this link by pressing &lt;x1/&gt;&lt;x2/&gt; button in the line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удалять записи</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T221935Z" creationid="Марианна" creationdate="20210218T221935Z">
