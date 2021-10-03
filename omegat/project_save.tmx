@@ -30346,6 +30346,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входные порты на пиктограмме узла Сценария располагаются слева, а выходные справа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T060802Z" creationid="Марианна" creationdate="20211003T060802Z">
+        <seg>The input ports are located to the left on the Workflow node icon, and the output ones - to the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Входом и выходом обработчика являются &lt;x1/&gt;входные&lt;x2/&gt; и &lt;x3/&gt;выходные &lt;x4/&gt;порты&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091949Z" creationid="Марианна" creationdate="20200715T091949Z">
