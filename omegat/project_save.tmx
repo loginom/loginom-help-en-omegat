@@ -20642,6 +20642,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;управление ходом выполнения сценария&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063050Z" creationid="Марианна" creationdate="20211003T063050Z">
+        <seg>&lt;x1/&gt;workflow progress control&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;фильтровать список&lt;x2/&gt; — фильтрация по группам/меткам/пути подключения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204802Z" creationid="Марианна" creationdate="20210208T204802Z">
@@ -32264,6 +32272,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210526T083211Z" creationid="Марианна" creationdate="20210526T083211Z">
         <seg>Parameters of the configured external binning are used for the input field values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для избежания повторных вычислений существует возможность сохранения промежуточных расчетов в памяти (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063202Z" creationid="Марианна" creationdate="20211003T063202Z">
+        <seg>To avoid repeated calculations, it is possible to save the intermediate calculations in memory (refer to</seg>
       </tuv>
     </tu>
     <tu>
