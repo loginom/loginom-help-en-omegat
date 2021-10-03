@@ -5812,6 +5812,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все связи&lt;x4/&gt; — удаляет все имеющиеся связи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T053558Z" creationid="Марианна" creationdate="20211003T053558Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all links&lt;x4/&gt; enables to delete all available links.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все&lt;x4/&gt; — удаляет все элементы текущей директории.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T094433Z" creationid="Марианна" creationdate="20210925T094433Z">
@@ -55464,6 +55472,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>затем по признаку: "совместим &lt;x1/&gt;тип данных&lt;x2/&gt; и совпадает метка (без учета регистра)".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T053525Z" creationid="Марианна" creationdate="20211003T053525Z">
+        <seg>then by the following indicator: "compatible &lt;x1/&gt;data type&lt;x2/&gt; and the caption matches (case-insensitive)".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>знаки математических операций и отношений;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165400Z" creationid="Марианна" creationdate="20201005T165400Z">
@@ -56252,6 +56268,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102041Z" creationid="Марианна" creationdate="20200919T102041Z">
         <seg>the next section - "Visibility of nodes").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>сначала по признаку: "совместим &lt;x1/&gt;тип данных&lt;x2/&gt; и совпадает имя (без учета регистра)";</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T053443Z" creationid="Марианна" creationdate="20211003T053307Z">
+        <seg>first, by the following indicator: "compatible &lt;x1/&gt;data type&lt;x2/&gt; and the name matches (case-insensitive)";</seg>
       </tuv>
     </tu>
     <tu>
