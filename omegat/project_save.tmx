@@ -5404,6 +5404,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Автоматическая синхронизация&lt;x4/&gt; — при включении данного режима команда &lt;x5/&gt;&lt;x6/&gt; Синхронизировать поля будет выполняться автоматически при выполнении узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T052247Z" creationid="Марианна" creationdate="20211003T052247Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Automapping&lt;x4/&gt;: when this mode is enabled, &lt;x5/&gt;&lt;x6/&gt; Map fields command will be automatically executed when executing the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Апостериорная вероятность&lt;x4/&gt; - вычисленная по результатам обработки вероятность принадлежности текущего набора параметров прогнозируемому классу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135636Z" creationid="Марианна" creationdate="20201219T061342Z">
