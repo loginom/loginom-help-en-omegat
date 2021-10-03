@@ -5812,6 +5812,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать выходной...&lt;x4/&gt; — создает для выбранного входного поля/переменной такое же поле в списке "Выходные" и устанавливает с ним соответствие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T205215Z" creationid="Марианна" creationdate="20211003T205215Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create output...&lt;x4/&gt; enables to create the same field for the selected input field/variable in the "Output" list and provide mapping with it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать выходные для всех входных...&lt;x4/&gt; — создает для всех входных полей/переменных такие же поля в списке "Выходные" и устанавливает с ними соответствие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T205349Z" creationid="Марианна" creationdate="20211003T205349Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create output for all input...&lt;x4/&gt; enables to create the same fields in the "Output" list for all input fields/variables and provide mapping with them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать каталог&lt;x4/&gt; — создание папки в директории, открытой в текущий момент;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T084428Z" creationid="Марианна" creationdate="20210925T084428Z">
