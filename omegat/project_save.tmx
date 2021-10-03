@@ -19330,6 +19330,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип создания производных столбцов&lt;x2/&gt; — кнопка отображается в случае, когда алгоритм компонента предусматривает добавление в результирующий набор новых полей/переменных, вычисленных на основе исходных (например, компонент &lt;x3/&gt;Замена&lt;x4/&gt;), варианты настройки следующие:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T205750Z" creationid="Марианна" creationdate="20211003T205750Z">
+        <seg>&lt;x1/&gt;Type of derived columns creation&lt;x2/&gt;. The button is displayed only when the component algorithm provides for addition to the resulting data set of the new fields/variables calculated on the basis of the source ones (for example, &lt;x3/&gt;Replacement&lt;x4/&gt; component). There are the following configuration options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип файла Excel&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T194219Z" creationid="Марианна" creationdate="20200916T194219Z">
