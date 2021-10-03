@@ -41641,8 +41641,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Оба способа можно применять последовательно: например, сначала выбрать список через SHIFT, а потом зажать CTRL и убрать некоторые поля из списка или выделить другие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T055025Z" creationid="Марианна" creationdate="20211003T055025Z">
-        <seg>Both methods can be successively applied. For example, first, it is required to select the list using SHIFT, then press CRTL and delete some fields from the list or select the others.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055054Z" creationid="Марианна" creationdate="20211003T055025Z">
+        <seg>Both methods can be successively applied. For example, first, it is required to select the list using SHIFT, then press CTRL and delete some fields from the list or select the others.</seg>
       </tuv>
     </tu>
     <tu>
