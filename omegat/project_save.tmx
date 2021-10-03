@@ -37127,6 +37127,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Их особенностью является то, что они имеют структуру базового компонента, но могут иметь уникальные признаки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T061235Z" creationid="Марианна" creationdate="20211003T061235Z">
+        <seg>Their peculiarity consists in the fact that they have the base component structure but can also have unique indicators.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>К исходному набору можно присоединять переменные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T061809Z" creationid="Марианна" creationdate="20201019T061809Z">
@@ -47484,6 +47492,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T150223Z" creationid="Марианна" creationdate="20201118T132448Z">
         <seg>When transforming to &lt;x1/&gt;Date/Time&lt;x2/&gt; &lt;x3/&gt;Date/Time&lt;x4/&gt; data type, it is possible to select the period start and/or end for some formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При проектировании Сценария есть возможность сделать так, чтобы наши объекты (например, узлы) были доступны другому Сценарию (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T061346Z" creationid="Марианна" creationdate="20211003T061346Z">
+        <seg>When designing the Workflow, it is possible to make our objects (for example, nodes) available to another Workflow (refer to</seg>
       </tuv>
     </tu>
     <tu>
