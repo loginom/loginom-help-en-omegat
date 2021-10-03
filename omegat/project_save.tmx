@@ -13691,8 +13691,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Назначение и структура пакета&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200810T185007Z" creationid="Марианна" creationdate="20200810T154844Z">
-        <seg>&lt;x1/&gt;Package designation and structure&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055600Z" creationid="Марианна" creationdate="20200810T154844Z">
+        <seg>&lt;x1/&gt;Package usage type and structure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20716,8 +20716,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x3/&gt;назначение и структура пакета&lt;x4/&gt;) и представляет собой последовательность шагов по обработке данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T055533Z" creationid="Марианна" creationdate="20211003T055533Z">
-        <seg>&lt;x3/&gt;package usage type and structure&lt;x4/&gt;) and it is a sequence of the data procesiing steps.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055624Z" creationid="Марианна" creationdate="20211003T055533Z">
+        <seg>&lt;x3/&gt;package usage type and structure&lt;x4/&gt;).It is a sequence of the data processing steps.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40023,8 +40023,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Назначение и структура пакета</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200713T110801Z" creationid="Марианна" creationdate="20200713T110801Z">
-        <seg>Package Designation and Structure</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055545Z" creationid="Марианна" creationdate="20200713T110801Z">
+        <seg>Package Usage Type and Structure</seg>
       </tuv>
     </tu>
     <tu>
@@ -51778,6 +51778,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сценарий по умолчанию пустой и заполняется необходимыми компонентами в зависимости от решаемой задачи путем их добавления в область Сценария (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055903Z" creationid="Марианна" creationdate="20211003T055903Z">
+        <seg>The workflow is empty by default and it is filled with required components according to the solved task by their adding to the Workflow area (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Считается, что те факторы, у которых этот показатель меньше 1, не вносят значительного вклада в объяснение результата.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T155204Z" creationid="Марианна" creationdate="20201013T155204Z">
@@ -54612,6 +54620,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213644Z" creationid="Марианна" creationdate="20201216T213644Z">
         <seg>Step 4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаги задаются узлами из стандартных или &lt;x5/&gt;Производных компонентов&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055658Z" creationid="Марианна" creationdate="20211003T055658Z">
+        <seg>The steps are set by the nodes from the standard or &lt;x5/&gt;Derived components&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
