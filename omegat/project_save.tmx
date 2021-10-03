@@ -19778,6 +19778,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Узел сценария с двумя входными и одним выходным портом.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212537Z" creationid="Марианна" creationdate="20211003T212537Z">
+        <seg>&lt;x1/&gt;Workflow node with two input ports and one output port.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Узел-ссылка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054801Z" creationid="Марианна" creationdate="20200812T054801Z">
@@ -30550,6 +30558,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T060802Z" creationid="Марианна" creationdate="20211003T060802Z">
         <seg>The input ports are located to the left on the Workflow node icon, and the output ones - to the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Входные порты на пиктограмме узла сценария располагаются слева, а выходные справа (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212439Z" creationid="Марианна" creationdate="20211003T212439Z">
+        <seg>The input ports are located to the left on the workflow node icon, and the output ones - to the right (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -53532,6 +53548,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225034Z" creationid="Марианна" creationdate="20210928T225034Z">
         <seg>Supernode nodes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узлы Сценария принимают данные через входные порты, а отдают через выходные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212404Z" creationid="Марианна" creationdate="20211003T212404Z">
+        <seg>The Workflow nodes accept data via the input ports and give them back via the output ones.</seg>
       </tuv>
     </tu>
     <tu>
