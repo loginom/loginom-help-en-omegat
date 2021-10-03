@@ -29458,6 +29458,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутри порта (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212736Z" creationid="Марианна" creationdate="20211003T212736Z">
+        <seg>Inside the port (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во внешних модулях относительный путь указывается от расположения модуля, осуществляющего импорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090307Z" creationid="Марианна" creationdate="20201102T090307Z">
@@ -31542,6 +31550,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T142356Z" creationid="Марианна" creationdate="20201119T141804Z">
         <seg>The data of the fields that are not mapped are placed into separate columns of the resulting data set that can be checked using prefixes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данные перед обработкой узлом попадают в его входной порт, где они могут быть предварительно модифицированы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212721Z" creationid="Марианна" creationdate="20211003T212721Z">
+        <seg>Before the node processing data is sent to its input port when it can be preliminarily modified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56644,6 +56660,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T121111Z" creationid="Марианна" creationdate="20210213T121048Z">
         <seg>Figure 2, Area 1) — Connection Class Tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 2) данные так же представлены в виде входного и выходного наборов полей (или &lt;x1/&gt;переменных&lt;x2/&gt;, в зависимости от типа порта).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212910Z" creationid="Марианна" creationdate="20211003T212910Z">
+        <seg>Figure 2) data is also represented in the form of the input and output fields data sets (or &lt;x1/&gt;variables&lt;x2/&gt;according to the port type).</seg>
       </tuv>
     </tu>
     <tu>
