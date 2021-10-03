@@ -28248,6 +28248,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В списке "Входные" отображаются поля/переменные принятого портом набора данных (входного набора порта), которые следует сопоставить с полями/переменными выходного набора порта, представленными в списке "Выходные".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T191422Z" creationid="Марианна" creationdate="20211003T191422Z">
+        <seg>The "Input" list displays fields/variables of the data set accepted by the port (the input data set of the port). It is required to map them with fields/variables of the output data set of the port represented in the "Output" list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В списке Входное дерево отображаются поля принятого портом набора данных, которые следует сопоставить с полями набора, подаваемого портом на обработку — Выходное дерево (подробнее см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112015Z" creationid="Марианна" creationdate="20201001T112015Z">
