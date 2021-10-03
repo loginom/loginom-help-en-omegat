@@ -33044,6 +33044,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для связывания необходимо зажать левой кнопкой мыши ячейку поля из левого списка и перенести ее на ячейку поля из правого списка, с которым следует соотнести, затем отпустить левую кнопку мыши, при этом отобразится графическая связь между ними.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T203946Z" creationid="Марианна" creationdate="20211003T203946Z">
+        <seg>To establish links, it is required to press the field cell from the left list with the left mouse button and transfer it to the field cell from the right list with which it is required to provide mapping. Then it is required to release the left mouse button, and the graphical link will be displayed in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для создания Производного компонента необходимо выбрать базовый узел (Подмодель) и в его контекстном меню выбрать пункт &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать производный компонент&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T203011Z" creationid="Марианна" creationdate="20210930T203011Z">
