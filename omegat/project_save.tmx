@@ -5380,6 +5380,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Переместить вверх/вниз&lt;x6/&gt; — изменяет позицию выделенного поля в списке (поля в исходящей с порта таблице будут расположены слева направо в том же порядке, в каком они расположены в списке сверху вниз);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210855Z" creationid="Марианна" creationdate="20211003T210855Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Move up/down&lt;x6/&gt; enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Прогноз&lt;x4/&gt; - идентификатор прогнозируемого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135609Z" creationid="Марианна" creationdate="20201218T204524Z">
@@ -5400,6 +5408,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T160641Z" creationid="Марианна" creationdate="20201001T160641Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Automapping&lt;x4/&gt;: when enabling this mode, &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Map fields&lt;x8/&gt; command will be automatically performed during the node execution (enabled by default).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Автоматическая синхронизация&lt;x4/&gt; — при включении данного режима команда  &lt;x5/&gt;&lt;x6/&gt; Синхронизировать поля будет выполняться автоматически при выполнении узла;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T211004Z" creationid="Марианна" creationdate="20211003T211004Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Automapping&lt;x4/&gt;: when this mode is enabled, &lt;x5/&gt;&lt;x6/&gt; Map fields command will be automatically executed when executing the node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5632,6 +5648,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T045812Z" creationid="Марианна" creationdate="20211003T045610Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking the selected table row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранному полю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210800Z" creationid="Марианна" creationdate="20211003T210800Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking the selected field.</seg>
       </tuv>
     </tu>
     <tu>
