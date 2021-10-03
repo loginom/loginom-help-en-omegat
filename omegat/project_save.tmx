@@ -5652,6 +5652,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отображать потерянные связи&lt;x4/&gt; — отображаются отсутствующие поля входного набора порта, с которыми ранее были настроены связи с существующими полями выходного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T053928Z" creationid="Марианна" creationdate="20211003T053928Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show lost links&lt;x4/&gt;: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переименовать&lt;x4/&gt; — изменение имени выбранной папки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T084945Z" creationid="Марианна" creationdate="20210925T084945Z">
