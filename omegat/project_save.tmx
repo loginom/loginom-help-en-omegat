@@ -5916,6 +5916,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt; — список "Выходные" очищается;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T211032Z" creationid="Марианна" creationdate="20211003T211032Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt;: the "Output" list is cleared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все&lt;x4/&gt; — удаляет все элементы текущей директории.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T094433Z" creationid="Марианна" creationdate="20210925T094433Z">
@@ -55904,6 +55912,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>затем по признаку: "совместим тип данных и совпадает метка (без учета регистра)".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T211159Z" creationid="Марианна" creationdate="20211003T211159Z">
+        <seg>then by the following indicator: "data type is compatible and the caption matches (case-insensitive)".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>знаки математических операций и отношений;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165400Z" creationid="Марианна" creationdate="20201005T165400Z">
@@ -56698,8 +56714,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>сначала по признаку: "совместим &lt;x1/&gt;тип данных&lt;x2/&gt; и совпадает имя (без учета регистра)";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T053443Z" creationid="Марианна" creationdate="20211003T053307Z">
-        <seg>first, by the following indicator: "compatible &lt;x1/&gt;data type&lt;x2/&gt; and the name matches (case-insensitive)";</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T211220Z" creationid="Марианна" creationdate="20211003T053307Z">
+        <seg>first, by the following indicator: "&lt;x1/&gt;data type&lt;x2/&gt; is compatible and the name matches (case-insensitive)";</seg>
       </tuv>
     </tu>
     <tu>
