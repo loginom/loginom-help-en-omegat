@@ -5524,6 +5524,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавляет новое поле в список настраиваемых столбцов и открывает диалог редактирования его параметров;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210518Z" creationid="Марианна" creationdate="20211003T210518Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new field into the list of configured columns and open the dialog of its features editing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавление&lt;x4/&gt; — к настраиваемым столбцам добавляются поля, вычисленные на основе обрабатываемых полей;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T210323Z" creationid="Марианна" creationdate="20211003T210323Z">
@@ -43627,6 +43635,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T204732Z" creationid="Марианна" creationdate="20211003T204732Z">
         <seg>The "Input" list toolbar contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель инструментов списка "Выходные" содержит следующие команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210422Z" creationid="Марианна" creationdate="20211003T210422Z">
+        <seg>The "Output" list toolbar contains the following commands:</seg>
       </tuv>
     </tu>
     <tu>
