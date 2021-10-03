@@ -19026,6 +19026,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — главная составная часть Модуля (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055408Z" creationid="Марианна" creationdate="20211003T055408Z">
+        <seg>&lt;x1/&gt;Workflow&lt;x2/&gt; is the main component of the Module (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — последовательность действий, которые необходимо провести для анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T094015Z" creationid="Марианна" creationdate="20200715T091311Z">
@@ -20702,6 +20710,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T205348Z" creationid="Марианна" creationdate="20210208T205348Z">
         <seg>&lt;x3/&gt;data kinds&lt;x4/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;назначение и структура пакета&lt;x4/&gt;) и представляет собой последовательность шагов по обработке данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T055533Z" creationid="Марианна" creationdate="20211003T055533Z">
+        <seg>&lt;x3/&gt;package usage type and structure&lt;x4/&gt;) and it is a sequence of the data procesiing steps.</seg>
       </tuv>
     </tu>
     <tu>
