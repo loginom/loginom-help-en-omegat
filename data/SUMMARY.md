@@ -2,7 +2,7 @@
 
 * [Home](./README.md)
 * [Start operation](./quick-start/README.md)
-   * [Package designation and structure](./quick-start/package.md)
+   * [Package usage type and structure](./quick-start/package.md)
    * [The first workflow](./quick-start/first-scenario.md)
    * [Design principles](./quick-start/design-principles.md)
    * [Integration with databases](./quick-start/database.md)

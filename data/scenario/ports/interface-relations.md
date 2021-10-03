@@ -24,20 +24,20 @@
 * ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [автоматическая синхронизация полей](./field-synchronization.md));
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Автоматическая синхронизация** — при включении данного режима команда  ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Синхронизировать поля будет выполняться автоматически при выполнении узла;
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все...** — список "Выходные" очищается;
-* ![](../../images/icons/toolbar-controls/delete_default.svg) **Удалить** — удаляет выделенную позицию в списке "Выходные", иконка этой команды высвечивается при наведении курсора на эту позицию.
+* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
 
 Описание дополнительных команд мастера:
 
-* ![](../../images/icons/toolbar-controls/auto-connect_default.svg) **Связать автоматически** — предпринимается попытка установить связи между выходным и входным списком полей/переменных. Список входных/выходных полей/переменных не изменяется (новые поля не добавляются). Могут быть добавлены новые связи. Если какие-то связи уже есть, то они остаются без изменения. Алгоритм создания связей пытается связать выходные поля/переменные, у которых нет связи, с входными, у которых нет связи:
-   * сначала по признаку: "совместим [тип данных](../../data/compatibility.md) и совпадает имя (без учета регистра)";
+* ![](../../images/icons/toolbar-controls/auto-connect_default.svg) **Auto link**: there is an attempt to establish the links between the output and input list of fields/variables. The list of the input/output fields/variables is not changed (the new fields are not added). New links can be added. If some links are already available, they are left unchanged. The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:
+   * first, by the following indicator: "compatible [data type](../../data/compatibility.md) and the name matches (case-insensitive)";
    * затем по признаку: "совместим тип данных и совпадает метка (без учета регистра)".
-* ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Удалить все связи** — удаляет все имеющиеся связи.
+* ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links** enables to delete all available links.
 * ![](../../images/icons/toolbar-controls/order-links_default.svg) **Упорядочить связи** — пересортировывает поля списков для устранения пересечений связей друг с другом.
-* ![](../../images/icons/toolbar-controls/help_default.svg) **Отображать потерянные связи** — отображаются отсутствующие поля входного набора порта, с которыми ранее были настроены связи с существующими полями выходного набора. Такая ситуация может возникнуть при изменении структуры входных данных.
+* ![](../../images/icons/toolbar-controls/help_default.svg) **Show lost links**: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured. Such situation can take place when the input data structure is changed.
 
-При необходимости настроить несколько позиций одновременно, их можно выделить следующими способами:
+If it is required to configure several positions simultaneously, they can be selected using the following methods:
 
-* Зажать клавишу CTRL и выделить их по одному кликами левой кнопки мыши; повторное нажатие по полю снимает выделение;
-* Сделать клик по одному полю, зажать клавишу SHIFT, затем клик по другому полю — в результате будет выделен список позиций между этими полями.
+* Press CTRL button and select them with one click of the left mouse button. The repeated field pressing deselects the field.
+* Click one field, press SHIFT button. Then it is required to click another field. The list of positions between these fields will be selected in the result.
 
-Оба способа можно применять последовательно: например, сначала выбрать список через SHIFT, а потом зажать CTRL и убрать некоторые поля из списка или выделить другие.
+Both methods can be successively applied. For example, first, it is required to select the list using SHIFT, then press CTRL and delete some fields from the list or select the others.

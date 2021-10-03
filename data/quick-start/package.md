@@ -1,4 +1,4 @@
-# Package Designation and Structure
+# Package Usage Type and Structure
 
 All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.
 
