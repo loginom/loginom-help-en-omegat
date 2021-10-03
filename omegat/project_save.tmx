@@ -5828,6 +5828,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все...&lt;x4/&gt; — список "Выходные" очищается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T054032Z" creationid="Марианна" creationdate="20211003T054032Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all...&lt;x4/&gt;: the "Input" list is cleared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все&lt;x4/&gt; — удаляет все элементы текущей директории.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T094433Z" creationid="Марианна" creationdate="20210925T094433Z">
@@ -5856,6 +5864,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T092659Z" creationid="Марианна" creationdate="20210925T092659Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt;: delete the selected file or folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удаляет выделенную позицию в списке "Выходные", иконка этой команды высвечивается при наведении курсора на эту позицию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T054215Z" creationid="Марианна" creationdate="20211003T054215Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51986,6 +52002,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125842Z" creationid="Марианна" creationdate="20200823T125842Z">
         <seg>Such substitution construction enables to formulate the request text in a dynamic manner in the course of the workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такая ситуация может возникнуть при изменении структуры входных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T054006Z" creationid="Марианна" creationdate="20211003T054006Z">
+        <seg>Such situation can take place when the input data structure is changed.</seg>
       </tuv>
     </tu>
     <tu>
