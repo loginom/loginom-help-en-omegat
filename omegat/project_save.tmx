@@ -26788,6 +26788,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom в зависимости от особенностей предметной области разрабатываемого Сценария или для оптимизации (например, увеличение скорости выполнения) можно задать собственную последовательность выполнения узлов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063011Z" creationid="Марианна" creationdate="20211003T063011Z">
+        <seg>In Loginom it is possible to set own order of nodes execution according to the subject area peculiarities of the designed Workflow or for the optimization purposes (for example, increase of the execution speed) (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom есть инструменты интеграции с внешними веб-сервисами и публикации своих собственных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222323Z" creationid="Марианна" creationdate="20210210T222323Z">
@@ -44243,6 +44251,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T195738Z" creationid="Марианна" creationdate="20211002T195738Z">
         <seg>The Loop retraining of the highest level will cause retraining of all nested nodes and Supernodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Переобучение особенно необходимо в тех случаях, когда набор данных изменяется и требуется перестроить Модель на новых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T062721Z" creationid="Марианна" creationdate="20211003T062721Z">
+        <seg>Retraining is particularly important in the cases when the data set is changed, and it is required to retrain the Model on the new data basis.</seg>
       </tuv>
     </tu>
     <tu>
