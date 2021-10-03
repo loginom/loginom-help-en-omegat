@@ -1,4 +1,4 @@
-# Интерфейс «Связи»
+# "Connections" Interface
 
 В списке "Входные" отображаются поля/переменные принятого портом набора данных (входного набора порта), которые следует сопоставить с полями/переменными выходного набора порта, представленными в списке "Выходные". Для связывания необходимо зажать левой кнопкой мыши ячейку поля из левого списка и перенести ее на ячейку поля из правого списка, с которым следует соотнести, затем отпустить левую кнопку мыши, при этом отобразится графическая связь между ними. Удалить такую связь можно нажатием на кнопку ![](../../images/icons/link-grid/remove-link_hover.svg) на линии связи.
 
@@ -21,12 +21,12 @@
 * ![](../../images/icons/toolbar-controls/plus_default.svg) **Добавить** — добавляет новое поле в список настраиваемых столбцов и открывает диалог редактирования его параметров;
 * ![](../../images/icons/toolbar-controls/edit_default.svg) **Настроить** — открывает диалог редактирования [параметров поля](../../processors/transformation/fields-parameters.md), диалог также можно открыть двойным кликом по выбранному полю;
 * ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вверх/вниз** — изменяет позицию выделенного поля в списке (поля в исходящей с порта таблице будут расположены слева направо в том же порядке, в каком они расположены в списке сверху вниз);
-* ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [автоматическая синхронизация полей](./field-synchronization.md));
+* ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [automapping of fields](./field-synchronization.md));
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Автоматическая синхронизация** — при включении данного режима команда  ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Синхронизировать поля будет выполняться автоматически при выполнении узла;
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Удалить все...** — список "Выходные" очищается;
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
 
-Описание дополнительных команд мастера:
+Description of the Additional Wizard Commands:
 
 * ![](../../images/icons/toolbar-controls/auto-connect_default.svg) **Auto link**: there is an attempt to establish the links between the output and input list of fields/variables. The list of the input/output fields/variables is not changed (the new fields are not added). New links can be added. If some links are already available, they are left unchanged. The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:
    * first, by the following indicator: "compatible [data type](../../data/compatibility.md) and the name matches (case-insensitive)";

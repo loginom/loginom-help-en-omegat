@@ -1,7 +1,7 @@
 # Node Training (Retraining)
 
 Self-training algorithms are used in some components: [Clustering](../processors/datamining/clustering.md), [Self-organising maps](../processors/datamining/self-organizing-network.md), [Binning](../processors/preprocessing/quantization.md), etc. Initial training is required for such nodes. Retraining can be also required, for example, in the cases when the Model is not a relevant task anymore, or the new source data starts to fall outside the limits of the sample used for training earlier.
-Обучение(переобучение) узлов может производиться:
+Training (retraining) of the nodes can be performed as follows:
 
 * **Manually**: the special procedure of the node retraining is performed during the Workflow configuration.
 * **Auto**: in the[batch processing](./batchlauncher.md) mode.
