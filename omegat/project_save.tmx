@@ -49860,6 +49860,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сделать клик по одному полю, зажать клавишу SHIFT, затем клик по другому полю — в результате будет выделен список позиций между этими полями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T054905Z" creationid="Марианна" creationdate="20211003T054905Z">
+        <seg>Click one field, press SHIFT button. Then it is required to click another field. The list of positions between these fields will be selected in the result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сделать это можно несколькими способами:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T225450Z" creationid="Марианна" creationdate="20210218T225450Z">
