@@ -26164,6 +26164,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм создания связей пытается связать выходные поля/переменные, у которых нет связи, с входными, у которых нет связи:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T053234Z" creationid="Марианна" creationdate="20211003T053234Z">
+        <seg>The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм сортирует записи по первому в очереди полю сортировки в соответствии с заданным порядком.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T064247Z" creationid="Марианна" creationdate="20201115T140444Z">
@@ -34124,6 +34132,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T094835Z" creationid="Марианна" creationdate="20210930T094835Z">
         <seg>If the source string value is equal to null (case-sensitive), the target variable will get the null value irrespective of its data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если какие-то связи уже есть, то они остаются без изменения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T052950Z" creationid="Марианна" creationdate="20211003T052950Z">
+        <seg>If some links are already available, they are left unchanged.</seg>
       </tuv>
     </tu>
     <tu>
