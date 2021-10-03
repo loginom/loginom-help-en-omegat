@@ -5524,6 +5524,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавление&lt;x4/&gt; — к настраиваемым столбцам добавляются поля, вычисленные на основе обрабатываемых полей;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210323Z" creationid="Марианна" creationdate="20211003T210323Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;: the fields calculated on the basis of the processd fields are added to the configured columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить из XSD...&lt;x4/&gt; - загружает структуру узлов выходного дерева из файла формата XSD.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T115953Z" creationid="Марианна" creationdate="20201001T115818Z">
@@ -5536,6 +5544,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T055649Z" creationid="Марианна" creationdate="20210925T084331Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt;: load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Замена&lt;x4/&gt; — вычисленные поля замещают обрабатываемые.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210359Z" creationid="Марианна" creationdate="20211003T210359Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Replace&lt;x4/&gt;: the calculated fields are replaced with the processed ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5696,6 +5712,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T132639Z" creationid="Марианна" creationdate="20200819T132639Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Retrain node&lt;x4/&gt; enables to retrain the selected node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;По умолчанию&lt;x4/&gt; — индивидуален для каждого компонента, реализует либо режим Замена, либо Добавление;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210145Z" creationid="Марианна" creationdate="20211003T205956Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;By default&lt;x4/&gt;: it is specific for each component, and it implements either Replace mode, or Add mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19332,8 +19356,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип создания производных столбцов&lt;x2/&gt; — кнопка отображается в случае, когда алгоритм компонента предусматривает добавление в результирующий набор новых полей/переменных, вычисленных на основе исходных (например, компонент &lt;x3/&gt;Замена&lt;x4/&gt;), варианты настройки следующие:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T205750Z" creationid="Марианна" creationdate="20211003T205750Z">
-        <seg>&lt;x1/&gt;Type of derived columns creation&lt;x2/&gt;. The button is displayed only when the component algorithm provides for addition to the resulting data set of the new fields/variables calculated on the basis of the source ones (for example, &lt;x3/&gt;Replacement&lt;x4/&gt; component). There are the following configuration options:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T210105Z" creationid="Марианна" creationdate="20211003T205750Z">
+        <seg>&lt;x1/&gt;Type of derived columns creation&lt;x2/&gt;. The button is displayed only when the component algorithm provides for addition to the resulting data set of the new fields/variables calculated on the basis of the source ones (for example, &lt;x3/&gt;Replace&lt;x4/&gt; component). There are the following configuration options:</seg>
       </tuv>
     </tu>
     <tu>
