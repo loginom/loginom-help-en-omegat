@@ -36573,6 +36573,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интерфейс «Связи»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063810Z" creationid="Марианна" creationdate="20211003T063810Z">
+        <seg>"Connections" Interface</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Интерфейс «Таблица»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T200729Z" creationid="Марианна" creationdate="20211002T200729Z">
