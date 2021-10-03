@@ -4028,6 +4028,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Данные в иерархической древовидной форме;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212128Z" creationid="Марианна" creationdate="20211003T212128Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Data in the hierarchic tree-like form;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Диапазоны для квантования (таблица данных).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T190730Z" creationid="Марианна" creationdate="20210629T190730Z">
@@ -4292,6 +4300,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Параметры подключения к источнику данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212145Z" creationid="Марианна" creationdate="20211003T212145Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Parameters of connection to the data source;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Переменные;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225229Z" creationid="Марианна" creationdate="20210928T225229Z">
@@ -4488,6 +4504,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T223353Z" creationid="Марианна" creationdate="20210218T223353Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Smoothing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Структура данных не определена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T212211Z" creationid="Марианна" creationdate="20211003T212211Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Data structure is not defined.</seg>
       </tuv>
     </tu>
     <tu>
