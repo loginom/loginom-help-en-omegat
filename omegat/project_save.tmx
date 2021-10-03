@@ -42255,6 +42255,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обучение(переобучение) узлов может производиться:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T063556Z" creationid="Марианна" creationdate="20211003T063556Z">
+        <seg>Training (retraining) of the nodes can be performed as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Общая\_длина - длина результирующей строки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T214608Z" creationid="Марианна" creationdate="20210407T094401Z">
