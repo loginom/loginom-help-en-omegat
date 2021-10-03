@@ -34344,6 +34344,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если настраивается входной порт принимающий переменные, список "Выходные" отображает значения переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T204659Z" creationid="Марианна" creationdate="20211003T204659Z">
+        <seg>If it is required to configure the input port that accepts variables, the "Output" list displays the variables values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если начальная точка не задана, то степень регуляризации подбирается методом "золотого сечения", в противном случае - методом "схождения к вершине".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T083217Z" creationid="Марианна" creationdate="20201224T083217Z">
@@ -43547,6 +43555,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113610Z" creationid="Марианна" creationdate="20201001T113610Z">
         <seg>The toolbar and context menu of the Input Tree list contains the following commands:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель инструментов списка "Входные" содержит следующие команды:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T204732Z" creationid="Марианна" creationdate="20211003T204732Z">
+        <seg>The "Input" list toolbar contains the following commands:</seg>
       </tuv>
     </tu>
     <tu>
