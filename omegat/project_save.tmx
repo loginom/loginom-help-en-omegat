@@ -29466,6 +29466,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутри порта возможно произвести следующие изменения структуры данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213802Z" creationid="Марианна" creationdate="20211003T213802Z">
+        <seg>It is possible to introduce the following changes of the data structure in the port:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во внешних модулях относительный путь указывается от расположения модуля, осуществляющего импорт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T090307Z" creationid="Марианна" creationdate="20201102T090307Z">
@@ -36213,10 +36221,26 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменение имен полей/переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213822Z" creationid="Марианна" creationdate="20211003T213822Z">
+        <seg>Change of the fields/variables names;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменение имени</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225018Z" creationid="Марианна" creationdate="20210928T225018Z">
         <seg>Change name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение структуры данных в выходном порту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213706Z" creationid="Марианна" creationdate="20211003T213706Z">
+        <seg>Change of the data structure in the output port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42163,6 +42187,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T093844Z" creationid="Марианна" creationdate="20210831T093844Z">
         <seg>Processing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработка алгоритмом узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213647Z" creationid="Марианна" creationdate="20211003T213647Z">
+        <seg>Node processing by the algorithm.</seg>
       </tuv>
     </tu>
     <tu>
