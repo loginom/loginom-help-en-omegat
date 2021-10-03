@@ -47160,6 +47160,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При необходимости настроить несколько позиций одновременно, их можно выделить следующими способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T054328Z" creationid="Марианна" creationdate="20211003T054328Z">
+        <seg>If it is required to configure several positions simultaneously, they can be selected using the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При необходимости удаления всех связей используется кнопка &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Удалить все связи&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T200008Z" creationid="Марианна" creationdate="20210225T200008Z">
