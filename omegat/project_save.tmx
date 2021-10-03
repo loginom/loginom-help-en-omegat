@@ -20682,6 +20682,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;параметры поля набора данных&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T214027Z" creationid="Марианна" creationdate="20211003T214027Z">
+        <seg>&lt;x1/&gt;features of data set field&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;переименовать&lt;x2/&gt; Переименовать подключение…;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204344Z" creationid="Марианна" creationdate="20210208T204344Z">
@@ -35167,6 +35175,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задание назначения полей (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213954Z" creationid="Марианна" creationdate="20211003T213954Z">
+        <seg>set fields usage types (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задание порядка полей в таблице;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213859Z" creationid="Марианна" creationdate="20211003T213859Z">
+        <seg>Set fields order in the table;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание структуры узлов вручную</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112343Z" creationid="Марианна" creationdate="20201001T112343Z">
@@ -36233,6 +36257,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225018Z" creationid="Марианна" creationdate="20210928T225018Z">
         <seg>Change name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение меток полей/переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213841Z" creationid="Марианна" creationdate="20211003T213841Z">
+        <seg>Change of the fields/variables captions;</seg>
       </tuv>
     </tu>
     <tu>
@@ -53452,6 +53484,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225004Z" creationid="Марианна" creationdate="20210928T224955Z">
         <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Удаление ненужных полей/переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213934Z" creationid="Марианна" creationdate="20211003T213934Z">
+        <seg>Delete unnecessary fields/variables;</seg>
       </tuv>
     </tu>
     <tu>
