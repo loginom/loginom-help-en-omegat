@@ -16237,6 +16237,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порты&lt;x2/&gt; — способ коммуникации между узлами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T060006Z" creationid="Марианна" creationdate="20211003T060006Z">
+        <seg>&lt;x1/&gt;Ports&lt;x2/&gt;: method of communication between the nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порты&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T112030Z" creationid="Марианна" creationdate="20201001T112030Z">
@@ -26816,6 +26824,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T110110Z" creationid="Марианна" creationdate="20200916T110110Z">
         <seg>In Loginom it is possible to export data to the text file, XML file, spreadsheets, internal application format and databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Loginom узлы Сценария принимают данные через входные порты, а отдают через выходные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T060049Z" creationid="Марианна" creationdate="20211003T060049Z">
+        <seg>In Loginom the Workflow nodes accept data via the input ports and give them back via the output ones.</seg>
       </tuv>
     </tu>
     <tu>
