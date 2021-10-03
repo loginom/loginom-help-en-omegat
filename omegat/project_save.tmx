@@ -33136,6 +33136,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того чтобы более гибко реализовывать работу Сценария можно использовать &lt;x1/&gt;переменные&lt;x2/&gt; — объекты, содержащие только одно значение конкретного типа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T060947Z" creationid="Марианна" creationdate="20211003T060947Z">
+        <seg>To provide more flexible operation of the Workflow, it is possible to use &lt;x1/&gt;variable&lt;x2/&gt;. They are objects that contain only one value of the particular type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того чтобы выбрать первый рекурсивный узел необходимо выбрать корневой узел и выполнить переход к следующему рекурсивному нераскрытому узлу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T192340Z" creationid="Марианна" creationdate="20200929T192340Z">
@@ -53500,6 +53508,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133455Z" creationid="Марианна" creationdate="20201023T081031Z">
         <seg>The enabled &lt;x7/&gt;Null&lt;x8/&gt; checkbox displays the field data with null values in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Утрированно бывают следующие типы переменных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T061051Z" creationid="Марианна" creationdate="20211003T061051Z">
+        <seg>In general, there are the following types of variables:</seg>
       </tuv>
     </tu>
     <tu>
