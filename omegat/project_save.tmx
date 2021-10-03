@@ -33488,6 +33488,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для узла, принимающего и отдающего набор данных (таблицу), схему движения данных можно представить следующим образом (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213453Z" creationid="Марианна" creationdate="20211003T213453Z">
+        <seg>It is possible to represent the schema of the data movement for the node that accepts and gives back the data set (table) as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для упорядоченных и неупорядоченных данных могут применяться различные методы заполнения пропусков.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T133846Z" creationid="Марианна" creationdate="20210523T133846Z">
@@ -35187,6 +35195,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T223648Z" creationid="Марианна" creationdate="20210210T223648Z">
         <seg>Custom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать произвольную структуру выходного набора — его перечень и параметры полей/переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213228Z" creationid="Марианна" creationdate="20211003T213219Z">
+        <seg>Set the random structure of the output data set: its list and parameters of fields/variables.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51064,6 +51080,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200713T111519Z" creationid="Марианна" creationdate="20200713T111519Z">
         <seg>Corresponding objects are available only if they are published for shared access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сопоставить поля (или переменные) входного набора порта с полями выходного.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211003T213316Z" creationid="Марианна" creationdate="20211003T213316Z">
+        <seg>Map the fields (or variables) of the input port data set with the fields of the output one.</seg>
       </tuv>
     </tu>
     <tu>
