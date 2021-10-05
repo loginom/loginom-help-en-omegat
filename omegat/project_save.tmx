@@ -13505,6 +13505,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; Максимум;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161309Z" creationid="Марианна" creationdate="20211005T161309Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; Maximum;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; — максимальное значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135930Z" creationid="Марианна" creationdate="20210419T094223Z">
@@ -13805,6 +13813,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T200744Z" creationid="Марианна" creationdate="20201208T200744Z">
         <seg>&lt;x1/&gt;Minimum rule lift&lt;x2/&gt;: the lift value &gt; 1 indirectly confirms the rule importance, as it shows the positive connection of two object itemsets (rule condition and consequence).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; Минимум;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161223Z" creationid="Марианна" creationdate="20211005T161223Z">
+        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; Minimum;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19174,6 +19190,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070032Z" creationid="Марианна" creationdate="20200812T070032Z">
         <seg>&lt;x1/&gt;Statistics&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Статистика&lt;x2/&gt; Статистика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161206Z" creationid="Марианна" creationdate="20211005T161206Z">
+        <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; Statistics.</seg>
       </tuv>
     </tu>
     <tu>
