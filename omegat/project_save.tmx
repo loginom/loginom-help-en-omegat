@@ -16333,6 +16333,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показывать null столбец в гистограммах&lt;x2/&gt; &lt;x3/&gt;Показывать null столбец в гистограммах&lt;x4/&gt; — показать/скрыть &lt;x5/&gt;null&lt;x6/&gt; столбец.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T164136Z" creationid="Марианна" creationdate="20211005T164136Z">
+        <seg>&lt;x1/&gt;Show null column in histograms &lt;x2/&gt; &lt;x3/&gt;Show null column in histograms&lt;x4/&gt;: show/hide &lt;x5/&gt;null&lt;x6/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T132712Z" creationid="Марианна" creationdate="20210202T113342Z">
