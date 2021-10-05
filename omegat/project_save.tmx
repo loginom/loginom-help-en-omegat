@@ -5716,10 +5716,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройки осей&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154917Z" creationid="Марианна" creationdate="20211005T154917Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure axes&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Обновить список&lt;x4/&gt; — отображает актуальное содержание текущей директории.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T093021Z" creationid="Марианна" creationdate="20210925T093021Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Update list&lt;x4/&gt;: display the actual contents of the current directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Общие настройки&lt;x4/&gt; — настройки диаграммы в целом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154856Z" creationid="Марианна" creationdate="20211005T154856Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;General settings&lt;x4/&gt;: general chart settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6188,6 +6204,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Диаграмма</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154730Z" creationid="Марианна" creationdate="20211005T154730Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Chart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Дискретный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083449Z" creationid="Марианна" creationdate="20201030T083449Z">
@@ -6200,6 +6224,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T054333Z" creationid="Марианна" creationdate="20201109T054333Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Add another port enables to create a new port - Input data source&lt;x3/&gt;N&lt;x4/&gt; where N is an order port number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Добавить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155810Z" creationid="Марианна" creationdate="20211005T155810Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Add.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6348,6 +6380,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Настройка полей — показать/скрыть список полей набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154823Z" creationid="Марианна" creationdate="20211005T154823Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Configure fields: show/hide the list of the data set fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Непрерывный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
@@ -6368,6 +6408,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T084039Z" creationid="Марианна" creationdate="20201030T083331Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Variant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Переместить вверх.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155817Z" creationid="Марианна" creationdate="20211005T155817Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Move up.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Переместить вниз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155825Z" creationid="Марианна" creationdate="20211005T155825Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Move down.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6580,10 +6636,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить все.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155832Z" creationid="Марианна" creationdate="20211005T155832Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Delete all.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить выбранное — удаляет выделенные узлы/связи Сценария;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T133431Z" creationid="Марианна" creationdate="20200819T133431Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Delete selected enables to delete the selected nodes/links of the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Удалить конкретную серию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155858Z" creationid="Марианна" creationdate="20211005T155858Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Delete a given series.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9864,6 +9936,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: порты можно соединять только одного типа, то есть порт "Таблица" может быть соединен только с одноименным портом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T114230Z" creationid="Марианна" creationdate="20211005T114158Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: It is allowed to connect only the ports of the same type. Namely, the "Table" port can be connected only with the одноименным портом.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Валидация моделей&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065337Z" creationid="Марианна" creationdate="20200812T065337Z">
@@ -11201,6 +11281,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Детализация&lt;x2/&gt; &lt;x3/&gt;Детализация&lt;x4/&gt; — показать/скрыть &lt;x5/&gt;&lt;x6/&gt;Панель детализации&lt;x7/&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160816Z" creationid="Марианна" creationdate="20211005T160816Z">
+        <seg>&lt;x1/&gt;Detailing&lt;x2/&gt; &lt;x3/&gt;Detailing&lt;x4/&gt;: show/hide &lt;x5/&gt;&lt;x6/&gt;Detailing panel&lt;x7/&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Детальные настройки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075659Z" creationid="Марианна" creationdate="20201214T075659Z">
@@ -11481,6 +11569,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дополнительные.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160140Z" creationid="Марианна" creationdate="20211005T160140Z">
+        <seg>&lt;x1/&gt;Additional.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнить таблицу данными&lt;x2/&gt; — строки из таблицы-источника будут добавлены к выбранной таблице базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T113018Z" creationid="Марианна" creationdate="20200916T111559Z">
@@ -11589,6 +11685,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132543Z" creationid="Марианна" creationdate="20200826T085304Z">
         <seg>&lt;x1/&gt;First line title&lt;x2/&gt;: the checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заголовок&lt;x2/&gt; — наименование диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154510Z" creationid="Марианна" creationdate="20211005T154202Z">
+        <seg>&lt;x1/&gt;Header&lt;x2/&gt;: chart name.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13193,6 +13297,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Левая.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121816Z" creationid="Марианна" creationdate="20211005T121816Z">
+        <seg>&lt;x1/&gt;Left.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Левое соединение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192634Z" creationid="Марианна" creationdate="20200810T192634Z">
@@ -14017,6 +14129,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка параметров серии.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155933Z" creationid="Марианна" creationdate="20211005T155933Z">
+        <seg>&lt;x1/&gt;Configure sereis parameters.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка порядка следования данных&lt;x2/&gt; — этот шаг мастера добавляется при использовании метода &lt;x3/&gt;с учетом временных колебаний и сезонности опорных данных&lt;x4/&gt;, настройки следующие:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T095240Z" creationid="Марианна" creationdate="20201127T095240Z">
@@ -14029,6 +14149,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065618Z" creationid="Марианна" creationdate="20200812T065618Z">
         <seg>&lt;x1/&gt;Configure sorting&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка списка серий.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155805Z" creationid="Марианна" creationdate="20211005T155805Z">
+        <seg>&lt;x1/&gt;Configure list of series.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14397,6 +14525,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070056Z" creationid="Марианна" creationdate="20201126T070056Z">
         <seg>&lt;x1/&gt;Lower bound 95% CI&lt;x2/&gt;: the lower bound of 95% confidence interval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нижняя.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121408Z" creationid="Марианна" creationdate="20211005T121408Z">
+        <seg>&lt;x1/&gt;Lower.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14993,6 +15129,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070304Z" creationid="Марианна" creationdate="20200812T070304Z">
         <seg>&lt;x1/&gt;Main table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Основные.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155942Z" creationid="Марианна" creationdate="20211005T155942Z">
+        <seg>&lt;x1/&gt;Main.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16189,6 +16333,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле Y&lt;x2/&gt; — задается поле для оси Y;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155250Z" creationid="Марианна" creationdate="20211005T155250Z">
+        <seg>&lt;x1/&gt;Y field&lt;x2/&gt;: the field is set for Y axis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле с долями&lt;x2/&gt; &lt;x3/&gt;Поле с долями&lt;x4/&gt; — выставляется полю опорной таблицы, содержащему доли или значения для расчета долей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T094909Z" creationid="Марианна" creationdate="20201127T094909Z">
@@ -16569,6 +16721,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T144848Z" creationid="Марианна" creationdate="20210919T144848Z">
         <seg>&lt;x1/&gt;Access rights&lt;x2/&gt;: table with a list of users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Правая.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T122156Z" creationid="Марианна" creationdate="20211005T122156Z">
+        <seg>&lt;x1/&gt;Right.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18610,6 +18770,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Соединение портов.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T113904Z" creationid="Марианна" creationdate="20211005T113904Z">
+        <seg>&lt;x1/&gt;Connection of Ports.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Соединение-переменные&lt;x2/&gt; Соединение (переменные)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T153905Z" creationid="Марианна" creationdate="20201006T151704Z">
@@ -19506,6 +19674,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип меток&lt;x2/&gt; и &lt;x3/&gt;Тип подсказок.&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154635Z" creationid="Марианна" creationdate="20211005T154635Z">
+        <seg>&lt;x1/&gt;Type of captions&lt;x2/&gt; and &lt;x3/&gt;Type of tips.&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип операции&lt;x2/&gt; — выбор способа слияния;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105205Z" creationid="Марианна" creationdate="20201111T105017Z">
@@ -19542,6 +19718,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T195924Z" creationid="Марианна" creationdate="20201004T195924Z">
         <seg>&lt;x1/&gt;Type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt; of the variable in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — задается тип диаграммы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155153Z" creationid="Марианна" creationdate="20211005T155153Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt;: the chart type is set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20134,6 +20318,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065455Z" creationid="Марианна" creationdate="20200812T065455Z">
         <seg>&lt;x1/&gt;Filtration&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтрация&lt;x2/&gt; &lt;x3/&gt;Фильтрация&lt;x4/&gt; — показать/скрыть &lt;x5/&gt;&lt;x6/&gt;Панель фильтрации&lt;x7/&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160659Z" creationid="Марианна" creationdate="20211005T160659Z">
+        <seg>&lt;x1/&gt;Filtration&lt;x2/&gt; &lt;x3/&gt;Filtration&lt;x4/&gt;: show/hide &lt;x5/&gt;&lt;x6/&gt;Filtration panel&lt;x7/&gt;&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22386,6 +22578,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>LTTB.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154232Z" creationid="Марианна" creationdate="20211005T154232Z">
+        <seg>LTTB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>LZ4.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210817T090715Z" creationid="Марианна" creationdate="20210817T090715Z">
@@ -22766,6 +22966,14 @@ interface IOutputTable extends IDataSource {</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123031Z" creationid="Марианна" creationdate="20210406T123031Z">
         <seg>Null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>OHLC.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155252Z" creationid="Марианна" creationdate="20211005T155252Z">
+        <seg>OHLC.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27004,6 +27212,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Быстрая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154212Z" creationid="Марианна" creationdate="20211005T154212Z">
+        <seg>Quick.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В 64-разрядных ОС используются два администратора источников данных ODBC 32-разрядный C:\Windows\SysWOW64\odbcad32.exe и 64-разрядный C:\Windows\System32\odbcad32.exe.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T062914Z" creationid="Марианна" creationdate="20210203T062914Z">
@@ -27600,6 +27816,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T101816Z" creationid="Марианна" creationdate="20201009T101816Z">
         <seg>The &lt;x1/&gt;ports&lt;x2/&gt; of the Workflow variables are located in the upper left corner of the Workflow construction area:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В левом списке отображаются поля, которые можно использовать в качестве осей диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155117Z" creationid="Марианна" creationdate="20211005T155117Z">
+        <seg>The fields that can be used as the chart axes are displayed in the left list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31922,6 +32146,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дата-время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121719Z" creationid="Марианна" creationdate="20211005T121719Z">
+        <seg>Date-time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дата/Время функции</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T204610Z" creationid="Марианна" creationdate="20210328T204610Z">
@@ -33417,6 +33649,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T203946Z" creationid="Марианна" creationdate="20211003T203946Z">
         <seg>To establish links, it is required to press the field cell from the left list with the left mouse button and transfer it to the field cell from the right list with which it is required to provide mapping. Then it is required to release the left mouse button, and the graphical link will be displayed in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для связывания портов необходимо навести курсор мыши на порт и зажать левую кнопку мыши, после этого вести курсор к тому порту, с которым надо связать и отпустить левую кнопку мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T104746Z" creationid="Марианна" creationdate="20211005T104746Z">
+        <seg>To link the ports, it is required to hover a cursor over the port and press the left mouse button. Then it is required to hover a cursor over the port with which linking is required and release the left mouse button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35250,6 +35490,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заголовок — наименование оси X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154426Z" creationid="Марианна" creationdate="20211005T121620Z">
+        <seg>Header: name of X axis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заголовок — наименование оси Y (с левой стороны).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154438Z" creationid="Марианна" creationdate="20211005T121844Z">
+        <seg>Header: name of Y axis (from the left side).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Загрузка структуры узлов из XSD схемы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T162130Z" creationid="Марианна" creationdate="20201001T162130Z">
@@ -35388,6 +35644,30 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T223648Z" creationid="Марианна" creationdate="20210210T223648Z">
         <seg>Custom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать максимум — при активном флаге указывается значение от 1 000 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T122121Z" creationid="Марианна" creationdate="20211005T122121Z">
+        <seg>Set maximum: when the checkbox is active, the value from 1000 and higher is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать максимум — при активном флаге указывается значение от 1 111 и выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T122300Z" creationid="Марианна" creationdate="20211005T122300Z">
+        <seg>Set maximum: when the checkbox is active, the value from 1 111 and higher is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать минимум — при активном флаге указывается значение от 0 до 9 999.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T122128Z" creationid="Марианна" creationdate="20211005T122000Z">
+        <seg>Set minimum: when the checkbox is active, the value from 0 to 9 999 is specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38033,6 +38313,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопка &lt;x1/&gt;&lt;x2/&gt; — возвращает цвет по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154534Z" creationid="Марианна" creationdate="20211005T154534Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; button: return the default color.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кнопка &lt;x1/&gt;Предпросмотр…&lt;x2/&gt; позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114352Z" creationid="Марианна" creationdate="20200823T122050Z">
@@ -39013,6 +39301,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Левая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160211Z" creationid="Марианна" creationdate="20211005T160211Z">
+        <seg>Left.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Линейная интерполяция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222225Z" creationid="Марианна" creationdate="20210218T222225Z">
@@ -39041,6 +39337,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T073728Z" creationid="Марианна" creationdate="20201214T073728Z">
         <seg>Linear regression is one of the most frequently used algorithms in &lt;x1/&gt;machine learning&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Линейная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121700Z" creationid="Марианна" creationdate="20211005T121700Z">
+        <seg>Linear.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41084,6 +41388,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка диаграммы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155027Z" creationid="Марианна" creationdate="20211005T155027Z">
+        <seg>Chart Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка заполнения пропусков</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210517T105638Z" creationid="Марианна" creationdate="20210517T105638Z">
@@ -41436,6 +41748,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки осей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121137Z" creationid="Марианна" creationdate="20211005T121137Z">
+        <seg>Configure Axes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки отбора факторов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T151415Z" creationid="Марианна" creationdate="20201215T151415Z">
@@ -41464,6 +41784,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T203247Z" creationid="Марианна" creationdate="20201214T114803Z">
         <seg>Regularization Settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройки серий</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155401Z" creationid="Марианна" creationdate="20211005T155401Z">
+        <seg>Series Editor</seg>
       </tuv>
     </tu>
     <tu>
@@ -41944,6 +42272,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T094537Z" creationid="Марианна" creationdate="20201222T094537Z">
         <seg>No - linear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нет — метки не отображаются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154410Z" creationid="Марианна" creationdate="20211005T154410Z">
+        <seg>No: captions are not dispalyed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T122137Z" creationid="Марианна" creationdate="20211005T122137Z">
+        <seg>No.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42828,6 +43172,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Общие настройки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154131Z" creationid="Марианна" creationdate="20211005T154131Z">
+        <seg>General Settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Общие параметры</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214158Z" creationid="Марианна" creationdate="20201216T214158Z">
@@ -43172,6 +43524,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Окно настройки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121201Z" creationid="Марианна" creationdate="20211005T121201Z">
+        <seg>Configuration window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно настройки состоит их двух частей: настройка списка серий (добавление, удаление, перемещение) и настройка параметров каждой серии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155544Z" creationid="Марианна" creationdate="20211005T155544Z">
+        <seg>The configuration window consists of two parts: configuration of the series list (add, delete, move) and configuration of each series parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Округляет вещественное число до ближайшего числа, имеющего указанное количество цифр после запятой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110330Z" creationid="Марианна" creationdate="20210402T110330Z">
@@ -43256,6 +43624,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T084102Z" creationid="Марианна" creationdate="20201005T172501Z">
         <seg>Comparisons operator:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Операции</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154738Z" creationid="Марианна" creationdate="20211005T154738Z">
+        <seg>Operations</seg>
       </tuv>
     </tu>
     <tu>
@@ -43528,6 +43904,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201530Z" creationid="Марианна" creationdate="20210601T201530Z">
         <seg>It will remain null.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ось — расположение оси Y относительно диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160206Z" creationid="Марианна" creationdate="20211005T160206Z">
+        <seg>Axis: location of Y axis relative to the chart.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44040,6 +44424,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T170124Z" creationid="Марианна" creationdate="20201005T170124Z">
         <seg>Quick Access Toolbar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель инструментов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160531Z" creationid="Марианна" creationdate="20211005T160531Z">
+        <seg>Toolbar</seg>
       </tuv>
     </tu>
     <tu>
@@ -45172,6 +45564,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По значению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T122144Z" creationid="Марианна" creationdate="20211005T122144Z">
+        <seg>By value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По кнопке &lt;x3/&gt;Предпросмотр…&lt;x4/&gt; в отдельном окне выводится до 100 первых строк результирующего набора данных и &lt;x5/&gt;консоль отладки кода&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201201T175232Z" creationid="Марианна" creationdate="20201109T060421Z">
@@ -45606,6 +46006,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию флаг активен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154650Z" creationid="Марианна" creationdate="20211005T154650Z">
+        <seg>The checkbox is active by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию шестнадцатеричные цифры записываются в верхнем регистре.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T144924Z" creationid="Марианна" creationdate="20210405T144924Z">
@@ -45990,6 +46398,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Позволяет задать параметры соответствующим осям диаграммы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121350Z" creationid="Марианна" creationdate="20211005T121350Z">
+        <seg>It enables to set parameters according to the chart axes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Позволяет задать следующие параметры &lt;x1/&gt;Пакета&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T140514Z" creationid="Марианна" creationdate="20200816T140514Z">
@@ -46066,6 +46482,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T055653Z" creationid="Марианна" creationdate="20201116T055616Z">
         <seg>The &lt;x1/&gt;Value&lt;x2/&gt; field of the replacement table contains the values to be replaced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле X — задается поле для оси X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121759Z" creationid="Марианна" creationdate="20211005T121759Z">
+        <seg>X field: the field is set for X axis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле Y — задается поле для оси Y.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160124Z" creationid="Марианна" creationdate="20211005T160124Z">
+        <seg>Y field: the field is set for Y axis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47138,6 +47570,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Правая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160217Z" creationid="Марианна" creationdate="20211005T160217Z">
+        <seg>Right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Правила замены вида: 1) &lt;x1/&gt;5 =&gt; -5&lt;x2/&gt;; 2) &lt;x3/&gt;15 =&gt; -15&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T090010Z" creationid="Марианна" creationdate="20201117T090010Z">
@@ -47395,6 +47835,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При активном флаге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154708Z" creationid="Марианна" creationdate="20211005T154708Z">
+        <seg>When the checkbox is active.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При вводе вручную таблицы замены доступны ряд действий через панель инструментов области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T090753Z" creationid="Марианна" creationdate="20201117T090753Z">
@@ -47503,6 +47951,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T190519Z" creationid="Марианна" creationdate="20201001T190519Z">
         <seg>When selecting the node, a column with the array node name with "_global_index" added and the array node caption with "|Global index" added is generated for it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При выделение порта появляется пунктирная линия с началом в исходном порту и концом в позиции курсора мыши, на его конце для удобства отображается тип порта с которым можно связать исходный порт (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T113555Z" creationid="Марианна" creationdate="20211005T113555Z">
+        <seg>When selecting the port, пунктирная линия appears. It starts in the source port and ends in the mouse cursor position. The type of the port with which it is required to link the source port is displayed on its end for convenience (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -47825,6 +48281,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063446Z" creationid="Марианна" creationdate="20200817T063446Z">
         <seg>When pressing the process name, the node required for its execution will be found and selected in the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии правой кнопкой мыши на конкретную серию также появятся уже заданные для серии настройки и возможность их корректировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155907Z" creationid="Марианна" creationdate="20211005T155728Z">
+        <seg>When pressing the given series with the right mouse button, the settings already set for the series and their adjustment options will also appear.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49393,6 +49857,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Процент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154557Z" creationid="Марианна" creationdate="20211005T154557Z">
+        <seg>Percentage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Процесс анализа данных можно разделить на 2 этапа: разработка аналитических моделей и просмотр готовых отчетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210926T184855Z" creationid="Марианна" creationdate="20210925T053442Z">
@@ -50497,6 +50969,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Светлая таблица.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154319Z" creationid="Марианна" creationdate="20211005T154319Z">
+        <seg>Light table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сводка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T200839Z" creationid="Марианна" creationdate="20201215T200839Z">
@@ -50573,6 +51053,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110926Z" creationid="Марианна" creationdate="20201111T110926Z">
         <seg>Linking is allowed only for the fields with the similar data types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Связывание портов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T104155Z" creationid="Марианна" creationdate="20211005T104155Z">
+        <seg>Linking of Ports</seg>
       </tuv>
     </tu>
     <tu>
@@ -50669,6 +51157,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113211Z" creationid="Марианна" creationdate="20201124T113211Z">
         <seg>Seeds of red tulips</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Серая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154306Z" creationid="Марианна" creationdate="20211005T154306Z">
+        <seg>Grey.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51189,6 +51685,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220353Z" creationid="Марианна" creationdate="20210203T220353Z">
         <seg>It contains parameters of connection to the list (set) of files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит следующие управляющие элементы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160613Z" creationid="Марианна" creationdate="20211005T160613Z">
+        <seg>It contains the following control elements:</seg>
       </tuv>
     </tu>
     <tu>
@@ -51901,6 +52405,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200807T113153Z" creationid="Марианна" creationdate="20200713T111357Z">
         <seg>The References are used for connection of other packages in order to use the derived components created in them and connections in the current project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стандартная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154246Z" creationid="Марианна" creationdate="20211005T154246Z">
+        <seg>Standard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52671,6 +53183,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таблица.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154311Z" creationid="Марианна" creationdate="20211005T154311Z">
+        <seg>Table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таблицы замен содержат пары заменяемых и новых значений или вычисляющие их регулярные выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T160350Z" creationid="Марианна" creationdate="20201006T160350Z">
@@ -52889,6 +53409,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T115119Z" creationid="Марианна" creationdate="20210809T115047Z">
         <seg>Besides, some data types can be compatible with each other, for example, integer and real (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также нельзя соединять выходной порт узла с его же входным портом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T114408Z" creationid="Марианна" creationdate="20211005T114408Z">
+        <seg>It is also prohibited to connect the output port of the node with its own input port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53285,6 +53813,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Темная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154258Z" creationid="Марианна" creationdate="20211005T154258Z">
+        <seg>Dark.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь в выходном порте узла присутствуют импортированные данные, которые можно увидеть, выбрав &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр…&lt;x4/&gt; в контекстном меню порта (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201104T185548Z" creationid="Марианна" creationdate="20200717T100732Z">
@@ -53397,6 +53933,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тип меток и Тип подсказок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160310Z" creationid="Марианна" creationdate="20211005T160310Z">
+        <seg>Type of captions and Type of tips.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тип ограничения определяет форму &lt;x1/&gt;активационной функции&lt;x2/&gt; выходного слоя Нейросети:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201225T083312Z" creationid="Марианна" creationdate="20201225T080705Z">
@@ -53413,6 +53957,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тип оси.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T121653Z" creationid="Марианна" creationdate="20211005T121653Z">
+        <seg>Axis type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Тип самоорганизующейся сети:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213032Z" creationid="Марианна" creationdate="20201216T213032Z">
@@ -53425,6 +53977,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195119Z" creationid="Марианна" creationdate="20201215T195119Z">
         <seg>Event type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип — задается тип диаграммы (типы приведены далее в статье).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160019Z" creationid="Марианна" creationdate="20211005T160019Z">
+        <seg>Type: the chart type is set (the types are listed in the article below).</seg>
       </tuv>
     </tu>
     <tu>
@@ -54909,6 +55469,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Цвет — указывается цвет диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T160232Z" creationid="Марианна" creationdate="20211005T160232Z">
+        <seg>Color: the chart color is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Цветовая индикация портов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T095713Z" creationid="Марианна" creationdate="20211005T095713Z">
@@ -55009,6 +55577,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T161929Z" creationid="Марианна" creationdate="20211001T161929Z">
         <seg>Counting loop: analogue of "FOR … TO …".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Циклические связи запрещены!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T114546Z" creationid="Марианна" creationdate="20211005T114546Z">
+        <seg>The cyclic links are forbidden!</seg>
       </tuv>
     </tu>
     <tu>
@@ -55453,6 +56029,38 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Экспорт в JPG.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154942Z" creationid="Марианна" creationdate="20211005T154942Z">
+        <seg>Export to JPG.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Экспорт в PDF.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T155002Z" creationid="Марианна" creationdate="20211005T155002Z">
+        <seg>Export to PDF.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Экспорт в PNG.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154937Z" creationid="Марианна" creationdate="20211005T154937Z">
+        <seg>Export to PNG.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Экспорт в SVG.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154931Z" creationid="Марианна" creationdate="20211005T154931Z">
+        <seg>Export to SVG.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Экспорт в текстовый файл</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T161108Z" creationid="Марианна" creationdate="20200917T161108Z">
@@ -55473,6 +56081,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T084917Z" creationid="Марианна" creationdate="20200717T084917Z">
         <seg>Export of the received results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Экстремумы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T154229Z" creationid="Марианна" creationdate="20211005T154229Z">
+        <seg>Extremes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57089,6 +57705,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085737Z" creationid="Марианна" creationdate="20200717T085737Z">
         <seg>Figure 3).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 3):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T113602Z" creationid="Марианна" creationdate="20211005T113602Z">
+        <seg>Figure 3):</seg>
       </tuv>
     </tu>
     <tu>
