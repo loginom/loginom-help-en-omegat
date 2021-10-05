@@ -19162,6 +19162,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Схема движения данных для узла, принимающего и отдающего набор данных (таблицу).&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T051453Z" creationid="Марианна" creationdate="20211005T051453Z">
+        <seg>&lt;x1/&gt;Schema of data movement for the node that accepts and gives back the data set (table).&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; - последовательность действий, которые необходимо провести для анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T094006Z" creationid="Марианна" creationdate="20210831T094006Z">
@@ -28158,6 +28166,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате обработки формируются новые данные, которые поступают в выходной порт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T051942Z" creationid="Марианна" creationdate="20211005T051942Z">
+        <seg>In the result of the processing, the new data supplied to the output port is generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результирующем наборе данные сопоставленных полей объединяются в одно поле.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201204T061855Z" creationid="Марианна" creationdate="20201119T141540Z">
@@ -36273,6 +36289,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T213706Z" creationid="Марианна" creationdate="20211003T213706Z">
         <seg>Change of the data structure in the output port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение структуры данных во входном порту и передача их на обработку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T051834Z" creationid="Марианна" creationdate="20211005T051834Z">
+        <seg>Change of the data structure in the input port and its transfer for processing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52840,6 +52864,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таким образом, для узла схема движения данных которого представлена на рисунке 2, данные проходят следующие этапы преобразований:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T051641Z" creationid="Марианна" creationdate="20211005T051641Z">
+        <seg>Thus, for the node the data movement schema of which is represented on Figure 2, the data undergo the following transformation stages:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таким образом, каждому из выходных полей/переменных можно сопоставить поле/переменную входного набора порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T045043Z" creationid="Марианна" creationdate="20211003T045043Z">
@@ -55308,6 +55340,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T062529Z" creationid="Марианна" creationdate="20211003T062529Z">
         <seg>This function is used for the nodes based on the training (Neural networks (&lt;x3/&gt;Neural network (Regression)&lt;x4/&gt; and &lt;x5/&gt;Neural network (Clustering)&lt;x6/&gt;), &lt;x7/&gt;Clustering&lt;x8/&gt;, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эти действия, а также возможные способы реагирования порта на изменение структуры поступающих в порт данных задаются в настройках порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T052238Z" creationid="Марианна" creationdate="20211005T052238Z">
+        <seg>These actions and also possible methods of the port reaction to the structure change of the data supplied to the port are set in the port settings.</seg>
       </tuv>
     </tu>
     <tu>
