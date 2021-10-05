@@ -4876,6 +4876,38 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — порт выполняется;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100309Z" creationid="Марианна" creationdate="20211005T100309Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;: port is executed;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — порт не сконфигурирован или содержит ошибку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100401Z" creationid="Марианна" creationdate="20211005T100401Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;: port is not configured or contains an error;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — порт сконфигурирован, но не выполняется;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100336Z" creationid="Марианна" creationdate="20211005T100336Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;: port has been configured but it is not executed;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; — порт частично сконфигурирован.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100428Z" creationid="Марианна" creationdate="20211005T100428Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;: port has been partially configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;|&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Синтаксис&lt;x6/&gt; (выпадающий список)— задание &lt;x7/&gt;синтаксиса расчета выражений&lt;x8/&gt; калькулятора;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T133825Z" creationid="Марианна" creationdate="20201015T062941Z">
@@ -9690,6 +9722,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T045154Z" creationid="Марианна" creationdate="20211001T044330Z">
         <seg>&lt;x1/&gt;Important:&lt;x2/&gt; By default for the ports that receive the table data, &lt;x3/&gt;&lt;x4/&gt; "Automapping enabled" option is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; по умолчанию при создании нового узла в его портах включена опция &lt;x3/&gt;Автоматическая синхронизация полей&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T093910Z" creationid="Марианна" creationdate="20211005T093910Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; When creating the new node, &lt;x3/&gt;Automapping of Fields&lt;x4/&gt; option is enabled by default in its ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; порты используются не только для передачи данных, но и для &lt;x3/&gt;синхронизации&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T052349Z" creationid="Марианна" creationdate="20211005T052349Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The ports are used not only for data transfer but also for &lt;x3/&gt;synchronization&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17352,6 +17400,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: цветовая индикация для портов переменных, подключений и портов, с неопределенной структурой данных является аналогичной рассмотренной выше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T101040Z" creationid="Марианна" creationdate="20211005T101040Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Color indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечания:&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210912T165722Z" creationid="Марианна" creationdate="20210912T165722Z">
@@ -18286,6 +18342,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055743Z" creationid="Марианна" creationdate="20200812T055743Z">
         <seg>&lt;x1/&gt;Summary&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Связи&lt;x2/&gt; — графически отображающий связи между полями/переменными входного и выходного наборов порта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T055533Z" creationid="Марианна" creationdate="20211005T055533Z">
+        <seg>&lt;x1/&gt;Links&lt;x2/&gt;: graphically displayed links between the fields/variables of the input and output data sets of the port. </seg>
       </tuv>
     </tu>
     <tu>
@@ -19286,6 +19350,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065447Z" creationid="Марианна" creationdate="20200812T065447Z">
         <seg>&lt;x1/&gt;Table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; — сопоставление осуществляется путем выбора входных полей/переменных в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T055636Z" creationid="Марианна" creationdate="20211005T055636Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt;: mapping is performed by selecting the input fields/variables in the table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27020,6 +27092,22 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom существует механизм сокрытия &lt;x1/&gt;портов порядка выполнения&lt;x2/&gt; и &lt;x3/&gt;портов управляющих переменных&lt;x4/&gt;, т.е. по умолчанию они скрыты от пользователя:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T095045Z" creationid="Марианна" creationdate="20211005T094913Z">
+        <seg>In Loginom there is a mechanism of hidding of &lt;x1/&gt;execution order ports&lt;x2/&gt; and &lt;x3/&gt;control variables ports&lt;x4/&gt;, namely, they are hidden from a user by default:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Loginom существует цветовая индикация портов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T095843Z" creationid="Марианна" creationdate="20211005T095843Z">
+        <seg>The color indication of ports is used in Loginom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom узлы Сценария принимают данные через входные порты, а отдают через выходные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T060049Z" creationid="Марианна" creationdate="20211003T060049Z">
@@ -28392,6 +28480,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае, если структура входных данных, подаваемых в порт, еще неизвестна (например, если к входному порту связь не установлена), то интерфейс настройки порта предоставляет возможность задать только структуру выходных данных порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T053548Z" creationid="Марианна" creationdate="20211005T053548Z">
+        <seg>If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port congiguration interface provides an opportunity to set only the structure of the output data of the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае, если таких узлов в пакете несколько и публикуется несколько пакетов, то для каждого из таких узлов создается соответствующий ему метод SOAP-сервиса и операция REST-сервиса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T105439Z" creationid="Марианна" creationdate="20210217T105439Z">
@@ -28728,6 +28824,14 @@ Several control elements are located over the table fields:</seg>
       <tuv lang="en" changeid="Марианна" changedate="20211001T050007Z" creationid="Марианна" creationdate="20211001T050007Z">
         <seg>In this case, to set the nodes execution order, the &lt;x1/&gt;service ports&lt;x2/&gt; are used
 (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом случае для сопоставления можно выбрать два различных интерфейса:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T054042Z" creationid="Марианна" creationdate="20211005T054042Z">
+        <seg>In this case, it is possible select two different interfaces for mapping:</seg>
       </tuv>
     </tu>
     <tu>
@@ -31938,6 +32042,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Действие этой опции приводит к автоматическому конфигурированию (настройке) порта, в результате чего выходной набор порта полностью повторяет структуру входного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T094217Z" creationid="Марианна" creationdate="20211005T094217Z">
+        <seg>Usage of this option causes the automatic port configuration (setup). In the result, the output data set of the port fully repeats the input data set structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Действие, выполняемое методом, в Loginom реализуется публикуемым узлом Сценария, а структура входных данных и ответа определяется входными и выходными портами этого узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210216T164801Z" creationid="Марианна" creationdate="20210216T164801Z">
@@ -32948,6 +33060,23 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для отображения портов порядка выполнения необходимо воспользоваться кнопкой &lt;x1/&gt; &lt;x2/&gt;
+панели инструментов области построения сценариев;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T095248Z" creationid="Марианна" creationdate="20211005T095248Z">
+        <seg>To display the execution order ports, it is required to use &lt;x1/&gt; &lt;x2/&gt; toolbar button of the workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для отображения портов управляющих переменных необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T095511Z" creationid="Марианна" creationdate="20211005T095511Z">
+        <seg>To display the control variables ports, it is required to select "Show control variables port" option in the context menu of the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для отображения списка должно быть активировано подключение с помощью кнопки &lt;x5/&gt;Активировать&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T131811Z" creationid="Марианна" creationdate="20200824T155424Z">
@@ -33420,6 +33549,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T210804Z" creationid="Марианна" creationdate="20201119T210804Z">
         <seg>For such columns, it is possible to set the following prefixes in the resulting data set:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для такого порта может и не быть связи с другим портом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100756Z" creationid="Марианна" creationdate="20211005T100756Z">
+        <seg>No link with another port can be established for such port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34868,6 +35005,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114259Z" creationid="Марианна" creationdate="20201113T114259Z">
         <seg>If no records that meet the filtering criterion are detected among them, the following warning is shown: &lt;x3/&gt;Maximum scanned row count reached: 1000&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если структура входных данных известна, то в интерфейсе настройки порта можно задать структуру выходных данных порта и сопоставить поля (или переменные) входного набора порта с выходным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T053951Z" creationid="Марианна" creationdate="20211005T053951Z">
+        <seg>If the input data structure is known, the port configuration interface enables to set the output data structure of the port and map the fields (or variables) of the input data set of the port with the output one.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39540,6 +39685,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Механизм сокрытия портов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T094658Z" creationid="Марианна" creationdate="20211005T094658Z">
+        <seg>Mechanism of Ports Hidding</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизмы интеграции предназначены для обмена данными между платформой Loginom и сторонними внешними системами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T151644Z" creationid="Марианна" creationdate="20210215T151644Z">
@@ -41099,6 +41252,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка порта</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T052422Z" creationid="Марианна" creationdate="20211005T052422Z">
+        <seg>Port Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка портов узла</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T070037Z" creationid="Марианна" creationdate="20200924T070037Z">
@@ -41671,6 +41832,18 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T083714Z" creationid="Марианна" creationdate="20201102T083714Z">
         <seg>There are no &lt;x1/&gt;require.main&lt;x2/&gt;, &lt;x3/&gt;require.paths&lt;x4/&gt; and &lt;x5/&gt;module.uri&lt;x6/&gt; optional properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необязательный порт отображается пунктиром (цветовая индикация для них аналогична обязательным портам)
+&lt;x1/&gt; &lt;x2/&gt;
+.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100657Z" creationid="Марианна" creationdate="20211005T100657Z">
+        <seg>The optional port is displayed using пунктиром (their color indication is similar to the required ports)
+&lt;x1/&gt; &lt;x2/&gt;
+.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43239,6 +43412,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Опция автоматической синхронизации отключается при удалении пользователем любого из полей/переменных выходного набора порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T094415Z" creationid="Марианна" creationdate="20211005T094415Z">
+        <seg>The automatic synchronization option is disabled when any of the fields/variables of the output data set of the port is deleted by a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Орловская обл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103314Z" creationid="Марианна" creationdate="20201208T103314Z">
@@ -43383,6 +43564,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Откроется диалог "Настройка соответствия между столбцами" или "Настройка соответствия между переменными" в зависимости от типа порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T053119Z" creationid="Марианна" creationdate="20211005T053119Z">
+        <seg>"Configure columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Откроется мастер публикации пакетов со следующими настройками:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T124511Z" creationid="Марианна" creationdate="20210217T124511Z">
@@ -43483,6 +43672,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T135713Z" creationid="Марианна" creationdate="20200814T135713Z">
         <seg>This page can be opened in two ways:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открыть диалог настройки порта можно одиночным кликом мыши по порту и последующим выбором команды "Настроить порт…".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T052657Z" creationid="Марианна" creationdate="20211005T052657Z">
+        <seg>It is possible to open the port configuration dialog by clicking the port with the mouse button. Then it is required to select "Configure port..." command.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46381,6 +46578,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T065713Z" creationid="Марианна" creationdate="20200924T065713Z">
         <seg>There are the following types of ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порты с сплошной линией являются обязательными портами, т.е. для их работы необходима связь с другими портами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100047Z" creationid="Марианна" creationdate="20211005T100047Z">
+        <seg>Ports with сплошной линией are required ports, namely, connection with other ports is required for their operation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49616,6 +49821,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T210314Z" creationid="Марианна" creationdate="20210928T205826Z">
         <seg>It is possible to create the Workflow by placing several nodes into the working space and connecting them with each other. The Workflow is started by the sequential (each node is separately activated) or simultaneous activation of nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рассмотрим цветовую индикацию на примере &lt;x1/&gt;интерфейса «Таблица»&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T100256Z" creationid="Марианна" creationdate="20211005T100256Z">
+        <seg>Let's analyze the color indication using &lt;x1/&gt;"Table" interface&lt;x2/&gt; as an example.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54692,6 +54905,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T120041Z" creationid="Марианна" creationdate="20210809T120041Z">
         <seg>To keep data in special structures taking into account peculiarities of each algorithm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Цветовая индикация портов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T095713Z" creationid="Марианна" creationdate="20211005T095713Z">
+        <seg>Color Indication of Ports</seg>
       </tuv>
     </tu>
     <tu>
