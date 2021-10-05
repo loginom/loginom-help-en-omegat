@@ -19178,6 +19178,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартное отклонение&lt;x2/&gt; &lt;x3/&gt;Стандартное отклонение&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161721Z" creationid="Марианна" creationdate="20211005T161721Z">
+        <seg>&lt;x1/&gt;Standard deviation&lt;x2/&gt; &lt;x3/&gt;Standard deviation&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Стандартные компоненты&lt;x2/&gt; — предоставляются в рамках платформы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T092253Z" creationid="Марианна" creationdate="20200715T092253Z">
@@ -19422,6 +19430,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114218Z" creationid="Марианна" creationdate="20201124T114218Z">
         <seg>&lt;x1/&gt;Amount of group sales, thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сумма&lt;x2/&gt; Сумма;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161518Z" creationid="Марианна" creationdate="20211005T161518Z">
+        <seg>&lt;x1/&gt;Sum&lt;x2/&gt; Sum;</seg>
       </tuv>
     </tu>
     <tu>
