@@ -19098,6 +19098,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Способ детализации&lt;x2/&gt; — переключить варианты отображения &lt;x3/&gt;Детализации&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161043Z" creationid="Марианна" creationdate="20211005T161043Z">
+        <seg>&lt;x1/&gt;Detailing method&lt;x2/&gt;: switch the &lt;x3/&gt;Detailing&lt;x4/&gt; options display.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Способы замен&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142513Z" creationid="Марианна" creationdate="20201117T084357Z">
@@ -19518,6 +19526,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065447Z" creationid="Марианна" creationdate="20200812T065447Z">
         <seg>&lt;x1/&gt;Table&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; Таблица;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161118Z" creationid="Марианна" creationdate="20211005T161118Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; Table;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20358,6 +20374,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071105Z" creationid="Марианна" creationdate="20200812T071105Z">
         <seg>&lt;x1/&gt;Branded data sources&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Форма&lt;x2/&gt; Форма;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161152Z" creationid="Марианна" creationdate="20211005T161152Z">
+        <seg>&lt;x1/&gt;Form&lt;x2/&gt; Form;</seg>
       </tuv>
     </tu>
     <tu>
@@ -52181,6 +52205,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T144115Z" creationid="Марианна" creationdate="20210523T144115Z">
         <seg>Spline interpolation: detected null data is replaced with the intermediate values of the spline function received using the known values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Способы &lt;x11/&gt;Детализации&lt;x12/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T161105Z" creationid="Марианна" creationdate="20211005T161105Z">
+        <seg>&lt;x11/&gt;Detailing&lt;x12/&gt; methods:</seg>
       </tuv>
     </tu>
     <tu>
