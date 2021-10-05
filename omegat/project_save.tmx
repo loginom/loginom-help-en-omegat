@@ -11905,6 +11905,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значения&lt;x2/&gt; Значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T162003Z" creationid="Марианна" creationdate="20211005T162003Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; Value;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значения&lt;x2/&gt; — этот столбец содержит все значения транспонируемых столбцов, т.к. эти столбцы могут иметь разный тип (как это показано в примере), то столбец Значения имеет тип данных &lt;x3/&gt;Переменный&lt;x4/&gt; &lt;x5/&gt;Переменный&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T070645Z" creationid="Марианна" creationdate="20201111T164844Z">
