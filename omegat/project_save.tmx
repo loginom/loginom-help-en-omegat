@@ -16373,6 +16373,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показывать столбец "Прочие" в гистограммах&lt;x2/&gt; &lt;x3/&gt;Показывать столбец "Прочие" в гистограммах&lt;x4/&gt; — показать/скрыть столбец &lt;x5/&gt;Прочие&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T164347Z" creationid="Марианна" creationdate="20211005T164347Z">
+        <seg>&lt;x1/&gt;Show "Other" column in histograms&lt;x2/&gt; &lt;x3/&gt;Show "Other" column in histograms&lt;x4/&gt;: show/hide &lt;x5/&gt;Other&lt;x6/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поле Y&lt;x2/&gt; — задается поле для оси Y;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T155250Z" creationid="Марианна" creationdate="20211005T155250Z">
