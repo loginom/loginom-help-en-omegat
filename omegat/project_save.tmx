@@ -12937,6 +12937,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Количество уникальных значений&lt;x2/&gt; Количество уникальных значений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T162325Z" creationid="Марианна" creationdate="20211005T162325Z">
+        <seg>&lt;x1/&gt;Number of unique values&lt;x2/&gt; Number of unique values;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Колонки&lt;x2/&gt; Колонки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T055420Z" creationid="Марианна" creationdate="20201023T055420Z">
@@ -20606,6 +20614,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142346Z" creationid="Марианна" creationdate="20201210T132119Z">
         <seg>&lt;x1/&gt;Cluster center&lt;x2/&gt;: the average value of the objects variables included into cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Центр кластеров&lt;x2/&gt; Центр кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T162409Z" creationid="Марианна" creationdate="20211005T162409Z">
+        <seg>&lt;x1/&gt;Cluster center&lt;x2/&gt; Cluster center.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54914,9 +54930,9 @@ to set parameters of the node settings.</seg>
         <seg>Участвующие в агрегации поля как у агрегации Среднее.|
 |&lt;x99/&gt;&lt;x100/&gt; Количество уникальных|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|Показывает количество уникальных значений записей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210328T170341Z" creationid="Марианна" creationdate="20210328T170341Z">
+      <tuv lang="en" changeid="Марианна" changedate="20211005T162244Z" creationid="Марианна" creationdate="20210328T170341Z">
         <seg>The fields that are included into the aggregation are as for the Average aggregation.|
-|&lt;x99/&gt;&lt;x100/&gt; Count of unique|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|It displays the count of unique record values.</seg>
+|&lt;x99/&gt;&lt;x100/&gt; Count of unique|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|It displays the number of unique record values.</seg>
       </tuv>
     </tu>
     <tu>
