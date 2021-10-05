@@ -21,12 +21,12 @@ Inside the port (refer to Figure 2) data is also represented in the form of the 
 
 It is possible to represent the schema of the data movement for the node that accepts and gives back the data set (table) as follows: Figure 2):
 
-![Схема движения данных для узла, принимающего и отдающего набор данных (таблицу).](ports-2.svg)
+![Schema of data movement for the node that accepts and gives back the data set (table).](ports-2.svg)
 
-Таким образом, для узла схема движения данных которого представлена на рисунке 2, данные проходят следующие этапы преобразований:
+Thus, for the node the data movement schema of which is represented on Figure 2, the data undergo the following transformation stages:
 
-1. Изменение структуры данных во входном порту и передача их на обработку.
-1. Node processing by the algorithm. В результате обработки формируются новые данные, которые поступают в выходной порт.
+1. Change of the data structure in the input port and its transfer for processing.
+1. Node processing by the algorithm. In the result of the processing, the new data supplied to the output port is generated.
 1. Change of the data structure in the output port.
 
 It is possible to introduce the following changes of the data structure in the port:
@@ -37,46 +37,45 @@ It is possible to introduce the following changes of the data structure in the p
 * Delete unnecessary fields/variables;
 * set fields usage types (refer to [features of data set field](../../data/datasetfieldoptions.md)).
 
-Эти действия, а также возможные способы реагирования порта на изменение структуры поступающих в порт данных задаются в настройках порта.
+These actions and also possible methods of the port reaction to the structure change of the data supplied to the port are set in the port settings.
 
-> **Важно:** порты используются не только для передачи данных, но и для [синхронизации](../ports/field-synchronization.md).
+> **Important:** The ports are used not only for data transfer but also for [synchronization](../ports/field-synchronization.md).
 
-## Настройка порта
+## Port Configuration
 
-Открыть диалог настройки порта можно одиночным кликом мыши по порту и последующим выбором команды "Настроить порт…". Откроется диалог "Настройка соответствия между столбцами" или "Настройка соответствия между переменными" в зависимости от типа порта.
+It is possible to open the port configuration dialog by clicking the port with the mouse button. Then it is required to select "Configure port..." command. "Configure columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.
 
-В случае, если структура входных данных, подаваемых в порт, еще неизвестна (например, если к входному порту связь не установлена), то интерфейс настройки порта предоставляет возможность задать только структуру выходных данных порта.
+If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port congiguration interface provides an opportunity to set only the structure of the output data of the port.
 
-Если структура входных данных известна, то в интерфейсе настройки порта можно задать структуру выходных данных порта и сопоставить поля (или переменные) входного набора порта с выходным. В этом случае для сопоставления можно выбрать два различных интерфейса:
+If the input data structure is known, the port configuration interface enables to set the output data structure of the port and map the fields (or variables) of the input data set of the port with the output one. In this case, it is possible select two different interfaces for mapping:
 
-[Связи](../ports/interface-relations.md) — графически отображающий связи между полями/переменными входного и выходного наборов порта;
+[Links](../ports/interface-relations.md): graphically displayed links between the fields/variables of the input and output data sets of the port. 
 
-[Таблица](../ports/interface-table.md) — сопоставление осуществляется путем выбора входных полей/переменных в таблице.
+[Table](../ports/interface-table.md): mapping is performed by selecting the input fields/variables in the table.
 
-> **Важно:** по умолчанию при создании нового узла в его портах включена опция [Автоматическая синхронизация полей](../ports/field-synchronization.md). Действие этой опции приводит к автоматическому конфигурированию (настройке) порта, в результате чего выходной набор порта полностью повторяет структуру входного набора. Опция автоматической синхронизации отключается при удалении пользователем любого из полей/переменных выходного набора порта.
+> **Important:** When creating the new node, [Automapping of Fields](../ports/field-synchronization.md) option is enabled by default in its ports. Usage of this option causes the automatic port configuration (setup). In the result, the output data set of the port fully repeats the input data set structure. The automatic synchronization option is disabled when any of the fields/variables of the output data set of the port is deleted by a user.
 
-## Механизм сокрытия портов
+## Mechanism of Ports Hidding
 
-В Loginom существует механизм сокрытия [портов порядка выполнения](../ports/service-ports.md) и [портов управляющих переменных](../variables/control-variables.md), т.е. по умолчанию они скрыты от пользователя:
+In Loginom there is a mechanism of hidding of [execution order ports](../ports/service-ports.md) and [control variables ports](../variables/control-variables.md), namely, they are hidden from a user by default:
 
-* Для отображения портов порядка выполнения необходимо воспользоваться кнопкой ![ ](../../images/icons/toolbar-controls/order_default.svg)
-   панели инструментов области построения сценариев;
-* Для отображения портов управляющих переменных необходимо в контекстном меню узла выбрать пункт "Показать порт управляющих переменных".
+* To display the execution order ports, it is required to use ![ ](../../images/icons/toolbar-controls/order_default.svg) toolbar button of the workflow construction area.
+* To display the control variables ports, it is required to select "Show control variables port" option in the context menu of the node.
 
-## Цветовая индикация портов
+## Color Indication of Ports
 
-В Loginom существует цветовая индикация портов. Порты с сплошной линией являются обязательными портами, т.е. для их работы необходима связь с другими портами. Рассмотрим цветовую индикацию на примере [интерфейса «Таблица»](./interface-table.md).
+The color indication of ports is used in Loginom. Ports with сплошной линией are required ports, namely, connection with other ports is required for their operation. Let's analyze the color indication using ["Table" interface](./interface-table.md) as an example.
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_active.svg) — порт выполняется;
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) — порт сконфигурирован, но не выполняется;
-* ![ ](../../images/icons/app/node/ports/inputs/table_error.svg) — порт не сконфигурирован или содержит ошибку;
-* ![ ](../../images/icons/app/node/ports/inputs/table_warning.svg) — порт частично сконфигурирован.
+* ![ ](../../images/icons/app/node/ports/inputs/table_active.svg): port is executed;
+* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg): port has been configured but it is not executed;
+* ![ ](../../images/icons/app/node/ports/inputs/table_error.svg): port is not configured or contains an error;
+* ![ ](../../images/icons/app/node/ports/inputs/table_warning.svg): port has been partially configured.
 
-Необязательный порт отображается пунктиром (цветовая индикация для них аналогична обязательным портам)
+The optional port is displayed using пунктиром (their color indication is similar to the required ports)
 ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg)
-. Для такого порта может и не быть связи с другим портом.
+. No link with another port can be established for such port.
 
-> **Примечание**: цветовая индикация для портов переменных, подключений и портов, с неопределенной структурой данных является аналогичной рассмотренной выше.
+> **Note**: Color indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.
 
 ## Связывание портов
 
