@@ -31882,6 +31882,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данная опция сбрасывается и становится неактивной, когда выбран индикатор &lt;x5/&gt;Гистограмма&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T162834Z" creationid="Марианна" creationdate="20211005T162834Z">
+        <seg>This option is reset and becomes inactive when &lt;x5/&gt;Histogram&lt;x6/&gt; indicator is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данная проверка не осуществляется, если параметр имеет значение &lt;x1/&gt;*/*&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210205T115638Z" creationid="Марианна" creationdate="20210205T115638Z">
