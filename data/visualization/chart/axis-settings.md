@@ -5,39 +5,39 @@
 It enables to set parameters according to the chart axes:
 
 * **Lower.**
-   * Показывать сетку — отобразить/скрыть вертикальные линии сетки на диаграмме.
+   * Show grid: show/hide the vertical lines of the chart grid.
    * Header: name of X axis.
    * Axis type.
       * Linear.
-      * Логарифмическая.
+      * Logarithmic.
       * Date-time.
-   * Set minimum: when the checkbox is active, the value from 0 to 9 999 is specified.
-   * Set maximum: when the checkbox is active, the value from 1000 and higher is specified.
-   * X field: the field is set for X axis. Нажатие на ![](../../images/icons/toolbar-controls/delete_default.svg) удаляет ранее выбранное поле.
-   * Поле меток — поле для задания обозначений делений оси X. Нажатие на ![](../../images/icons/toolbar-controls/delete_default.svg) удаляет ранее выбранное поле.
+   * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
+   * Set maximum value: when the checkbox is active, the value from 1,000 and higher is specified.
+   * X field: the field is set for X axis. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
+   * Caption field: the field used to set X axis points marks. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
 * **Left.**
-   * Показывать сетку — отобразить/скрыть горизонтальные линии сетки на диаграмме. Если левая ось отсутствует, то настройка сетки не осуществляется.
+   * Show grid: show/hide the horizontal lines of the chart grid. If there is no left axis, the grid is not configured.
    * Header: name of Y axis (from the left side).
    * Axis type.
       * Linear.
-      * Логарифмическая.
+      * Logarithmic.
       * Date-time.
-   * Set minimum: when the checkbox is active, the value from 0 to 9 999 is specified.
-   * Set maximum: when the checkbox is active, the value from 1000 and higher is specified.
-   * Динамика.
+   * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
+   * Set maximum value: when the checkbox is active, the value from 1,000 and higher is specified.
+   * Dynamics.
       * No.
       * By value.
-      * В процентах.
+      * In percents.
 * **Right.**
-   * Показывать сетку — отобразить/скрыть горизонтальные линии сетки на диаграмме. Если правая ось отсутствует, то настройка сетки не осуществляется.
-   * Заголовок — наименование оси Y (с правой стороны).
+   * Show grid: show/hide the horizontal lines of the chart grid. If there is no right axis, the grid is not configured.
+   * Header: name of Y axis (from the right side).
    * Axis type.
       * Linear.
-      * Логарифмическая.
+      * Logarithmic.
       * Date-time.
-   * Set minimum: when the checkbox is active, the value from 0 to 9 999 is specified.
+   * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
    * Set maximum: when the checkbox is active, the value from 1 111 and higher is specified.
-   * Динамика.
+   * Dynamics.
       * No.
       * By value.
-      * В процентах.
+      * In percents.

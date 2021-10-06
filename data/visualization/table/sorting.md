@@ -4,29 +4,29 @@ Data sorting in the [Table](./README.md) visualizer is performed according to th
 
 ## Configuration window
 
-В левом списке отображаются поля, по которым можно производить сортировку, и столбцы, видимость которых убрана в Таблице.
+The fields used for sorting and the columns with the visibility disabled in the Table are displayed in the left list.
 
 It is possible to filter the list of fields by specifying the field caption in the filter area.
 
-Для настройки сортировки необходимо переместить требуемые поля в список *Поля сортировки*. It can be done as follows:
+To configure sorting, it is required to move the necessary fields to *Sort fields* list. It can be done as follows:
 
 * by drag-and-drop method;
 * by double click on the field with the left mouse button;
-* Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку ![](../../images/icons/toolbar-controls/plus_default.svg) *Добавить*;
+* by calling the drop-down menu using the right mouse button and pressing ![](../../images/icons/toolbar-controls/plus_default.svg) *Add* button;
 * by pressing ![](../../images/icons/toolbar-controls/arrow-r_default.svg) *Add* button.
 
-Параметры настройки сортировки задаются двух соседних столбцах:
+Parameters of sorting configuration are set in two adjacent columns:
 
-* **Порядок** — в ячейках этого поля отображается тумблер, который указывает на вид сортировки, он может принимать *По возрастанию* ![По возрастанию](../../images/icons/sorting/order-switcher-asc_default.svg) и *По убыванию* ![По убыванию](../../images/icons/sorting/order-switcher-desc_default.svg);
-* **Регистр** — в ячейках этого поля, при условии что сортируемые значения ![Строковый тип](../../images/icons/data-types/string_default.svg)*Строкового* или ![Переменный тип](../../images/icons/data-types/variant_default.svg)*Переменного* типов, отображается чекбокс. При проставленном в чекбоксе флажке поле сортируется с учетом регистра.
+* **Order**: the sorting type switch is displayed in the cells of this field. It can take *Ascending* ![Ascending](../../images/icons/sorting/order-switcher-asc_default.svg) and *Descending* ![Descending](../../images/icons/sorting/order-switcher-desc_default.svg) order.
+* **Case-sensitive**: in the cells of this field on condition that the sorted values ![String type](../../images/icons/data-types/string_default.svg)*String* or ![Variant type](../../images/icons/data-types/variant_default.svg)*Variant* types, the checkbox is displayed. When the checkbox is selected, the case-sensitive field is sorted.
 
-Для исключения из списка сортируемых полей нужно:
+It is required to perform the following actions to exclude from the list of sorted fields:
 
-* Перетащить запись из списка *Поля сортировки* в *Доступные поля*;
-* Нажать на кнопку ![](../../images/icons/toolbar-controls/delete_default.svg) нужного поля в столбце ![](../../images/icons/toolbar-controls/delete-all_default.svg) ;
-* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](../../images/icons/toolbar-controls/delete_default.svg) *Удалить*.
+* to drag the record from *Sort fields* list to *Available fields*;
+* to press ![](../../images/icons/toolbar-controls/delete_default.svg) required field in column ![](../../images/icons/toolbar-controls/delete-all_default.svg) button;
+* to call the drop-down menu by pressing the right mouse button and pressing ![](../../images/icons/toolbar-controls/delete_default.svg) *Delete* button.
 
-Для очистки всего списка нужно нажать на иконку ![](../../images/icons/toolbar-controls/delete-all_default.svg) у одноименного столбца, вызвав выпадающее меню выбрать пункт ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Удалить все...*.
+To clear the whole list, it is required to press ![](../../images/icons/toolbar-controls/delete-all_default.svg) icon near the column with the same name by calling the drop-down menu, select ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
 Для того чтобы изменить очередность сортировки, над таблицей сортируемых полей расположены кнопки перемещения:
 

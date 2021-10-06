@@ -28,7 +28,7 @@
 * **Тип накопления.**
    * No.
    * Обычное.
-   * Percentage.
+   * Percent.
 * **Type of captions** and **Type of tips.**
    * No: captions are not dispalyed.
    * Значение — представлено собственно значение, отображаемое элементом диаграммы.
