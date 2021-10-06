@@ -31706,6 +31706,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T150602Z" creationid="Марианна" creationdate="20211006T150602Z">
+        <seg>to call the drop-down menu by pressing the right mouse button and pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вызовем &lt;x3/&gt;Мастер настройки&lt;x4/&gt; (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114141Z" creationid="Марианна" creationdate="20200717T085727Z">
@@ -41498,6 +41506,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222012Z" creationid="Марианна" creationdate="20210928T220032Z">
         <seg>press "Apply".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нажать на кнопку &lt;x1/&gt;&lt;x2/&gt; нужного поля в столбце &lt;x3/&gt;&lt;x4/&gt; ;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T150504Z" creationid="Марианна" creationdate="20211006T150504Z">
+        <seg>to press &lt;x1/&gt;&lt;x2/&gt; required field in column &lt;x3/&gt;&lt;x4/&gt; button;</seg>
       </tuv>
     </tu>
     <tu>
