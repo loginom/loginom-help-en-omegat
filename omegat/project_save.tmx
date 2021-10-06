@@ -35433,6 +35433,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если левая ось отсутствует, то настройка сетки не осуществляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130401Z" creationid="Марианна" creationdate="20211006T130401Z">
+        <seg>If there is no left axis, the grid is not configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если логин не указан, то используется доменная авторизация.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T083617Z" creationid="Марианна" creationdate="20210121T083617Z">
@@ -47106,6 +47114,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211006T125628Z" creationid="Марианна" creationdate="20211006T125628Z">
         <seg>Show grid: show/hide the vertical lines of the chart grid.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Показывать сетку — отобразить/скрыть горизонтальные линии сетки на диаграмме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130310Z" creationid="Марианна" creationdate="20211006T130310Z">
+        <seg>Show grid: show/hide the horizontal lines of the chart grid.</seg>
       </tuv>
     </tu>
     <tu>
