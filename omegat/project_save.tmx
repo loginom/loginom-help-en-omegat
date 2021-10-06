@@ -16965,6 +16965,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядок&lt;x2/&gt; — в ячейках этого поля отображается тумблер, который указывает на вид сортировки, он может принимать &lt;x3/&gt;По возрастанию&lt;x4/&gt; &lt;x5/&gt;По возрастанию&lt;x6/&gt; и &lt;x7/&gt;По убыванию&lt;x8/&gt; &lt;x9/&gt;По убыванию&lt;x10/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T145631Z" creationid="Марианна" creationdate="20211006T145631Z">
+        <seg>&lt;x1/&gt;Order&lt;x2/&gt;: the sorting type switch is displayed in the cells of this field. It can take &lt;x3/&gt;Ascending&lt;x4/&gt; &lt;x5/&gt;Ascending&lt;x6/&gt; and &lt;x7/&gt;Descending&lt;x8/&gt; &lt;x9/&gt;Descending&lt;x10/&gt; order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок&lt;x2/&gt; — поле может принимать значения &lt;x3/&gt;По возрастанию&lt;x4/&gt; &lt;x5/&gt;&lt;x6/&gt; и &lt;x7/&gt;По убыванию&lt;x8/&gt; &lt;x9/&gt;&lt;x10/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141720Z" creationid="Марианна" creationdate="20201115T141720Z">
