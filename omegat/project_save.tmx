@@ -28236,6 +28236,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В левом списке отображаются поля, по которым можно производить сортировку, и столбцы, видимость которых убрана в Таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T144531Z" creationid="Марианна" creationdate="20211006T144531Z">
+        <seg>The fields used for sorting and the columns with the visibility disabled in the Table are displayed in the left list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В левом списке отображаются поля, по которым можно производить сортировку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T075959Z" creationid="Марианна" creationdate="20201115T141013Z">
