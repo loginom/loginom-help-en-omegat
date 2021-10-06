@@ -35705,6 +35705,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если правая ось отсутствует, то настройка сетки не осуществляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130645Z" creationid="Марианна" creationdate="20211006T130645Z">
+        <seg>If there is no right axis, the grid is not configured.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если при включенной автосинхронизации удалить связь порта с источником данных, то ранее созданные из данных поля/переменные будут удалены из порта механизмом автосинхронизации как временные, актуальные только для конкретных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T120335Z" creationid="Марианна" creationdate="20210217T120126Z">
@@ -36030,6 +36038,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T154438Z" creationid="Марианна" creationdate="20211005T121844Z">
         <seg>Header: name of Y axis (from the left side).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Заголовок — наименование оси Y (с правой стороны).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130718Z" creationid="Марианна" creationdate="20211006T130718Z">
+        <seg>Header: name of Y axis (from the right side).</seg>
       </tuv>
     </tu>
     <tu>
