@@ -31682,6 +31682,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T145035Z" creationid="Марианна" creationdate="20211006T145035Z">
+        <seg>by calling the drop-down menu using the right mouse button and pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; button;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вызовем &lt;x3/&gt;Мастер настройки&lt;x4/&gt; (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T114141Z" creationid="Марианна" creationdate="20200717T085727Z">
@@ -33640,6 +33648,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T065340Z" creationid="Марианна" creationdate="20201019T065340Z">
         <seg>The following parameters can be configured:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для настройки сортировки необходимо переместить требуемые поля в список &lt;x1/&gt;Поля сортировки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T144726Z" creationid="Марианна" creationdate="20211006T144726Z">
+        <seg>To configure sorting, it is required to move the necessary fields to &lt;x1/&gt;Sort fields&lt;x2/&gt; list.</seg>
       </tuv>
     </tu>
     <tu>
