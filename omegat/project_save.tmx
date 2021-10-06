@@ -18570,6 +18570,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Регистр&lt;x2/&gt; — в ячейках этого поля, при условии что сортируемые значения &lt;x3/&gt;Строковый тип&lt;x4/&gt;&lt;x5/&gt;Строкового&lt;x6/&gt; или &lt;x7/&gt;Переменный тип&lt;x8/&gt;&lt;x9/&gt;Переменного&lt;x10/&gt; типов, отображается чекбокс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T150006Z" creationid="Марианна" creationdate="20211006T150006Z">
+        <seg>&lt;x1/&gt;Case-sensitive&lt;x2/&gt;: in the cells of this field on condition that the sorted values &lt;x3/&gt;String type&lt;x4/&gt;&lt;x5/&gt;String&lt;x6/&gt; or &lt;x7/&gt;Variant type&lt;x8/&gt;&lt;x9/&gt;Variant&lt;x10/&gt; types, the checkbox is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Регистр&lt;x2/&gt; — для сортировки строковых полей с учетом регистра нужно поставить флаг в чекбоксе этого поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133559Z" creationid="Марианна" creationdate="20201115T142106Z">
