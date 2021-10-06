@@ -1,8 +1,8 @@
-# ![Добавить факт](../../images/icons/toolbar-controls/sum_default.svg) Добавить факт
+# ![Add measure](../../images/icons/toolbar-controls/sum_default.svg) Add measure
 
 В данном окне для факта необходимо выбрать [функцию агрегации](../../processors/func/aggregation-functions.md) и способ отображения выбранного варианта агрегации.
 
-## Операции
+## Operations
 
 * ![Переместить вверх](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — переместить вариант агрегации/способ отображения на позицию вверх;
 * ![Переместить вниз](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — переместить вариант агрегации/способ отображения на позицию вниз;

@@ -18,7 +18,7 @@
 
 ## Interface
 
-### Операции
+### Operations
 Для *Списка входных столбцов* доступна операция  ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) **Скрыть боковую панель**. Нажатие на кнопку скрывает панель со списком входных столбцов, повторное нажатие возвращает панель.
 
 *Область конечных классов* можно представить в виде [таблицы](#tablitsa) ![](../../images/icons/toolbar-controls/table-view_default.svg) **Показать таблицу конечных классов** *(Alt+One*) или в виде [диаграмм](#diagramma) ![](../../images/icons/toolbar-controls/chart_default.svg) **Показать диаграммы конечных классов** (*Alt+Two*).

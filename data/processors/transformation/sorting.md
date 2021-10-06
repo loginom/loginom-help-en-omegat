@@ -22,7 +22,7 @@ The algorithm sorts the records by the first sort field according to the set ord
 
 The fields by which it is possible to perform sorting are displayed in the left list. The list complies with the input port fields.
 
-It is possible to filter the list of fields specifying the field name or caption in the filter area.
+It is possible to filter the list of fields by specifying the field name or caption in the filter area.
 
 To configure sorting, it is required to move the required fields to the *Sort fields* list using the following methods:
 

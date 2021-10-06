@@ -24,14 +24,14 @@
 
 Для быстрой сортировки по столбцу нужно нажать на его заголовок. При последовательном нажатии будут применены варианты: по возрастанию, по убыванию, без сортировки. Сортировку можно произвести по нескольким столбцам. При этом порядок будет указан цифрой в заголовке.
 
-Навигация по таблице осуществляется при помощи мышки и панели навигации в нижней части визуализатора:
+Mouse and navigation panel in the lower part of the visualizer are used for navigation through the table:
 
 * ![На предыдущую](../../images/icons/toolbar-controls/prev_default.svg) — перейти на предыдущую страницу;
 * ![На следующую](../../images/icons/toolbar-controls/next_default.svg) — перейти на следующую страницу;
 * ![На первую](../../images/icons/toolbar-controls/first_default.svg) — перейти на первую страницу;
 * ![На последнюю](../../images/icons/toolbar-controls/last_default.svg) — перейти на последнюю страницу.
 
-Для перехода на определённую страницу необходимо ввести её номер в поле ввода, расположенное между кнопками навигации. На одной странице отображается 50 000 записей.
+To go to the given page, it is required to enter its number in the entry field located between the navigation buttons. 50,000 records are displayed on one page.
 
 ## Интерфейс представления формы
 

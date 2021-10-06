@@ -1,6 +1,6 @@
-# ![Фильтровать факты](../../images/icons/cube/cases/case-filter_default.svg) Фильтровать факты
+# ![Filter measures](../../images/icons/cube/cases/case-filter_default.svg) Filter measures
 
-Позволяет выполнять фильтрацию значений факта для измерения.
+It provides for filtration of the measure values for dimension.
 
 ## Interface
 

@@ -77,12 +77,12 @@ The optional port is displayed using пунктиром (their color indication 
 
 > **Note**: Color indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.
 
-## Связывание портов
+## Linking of Ports
 
-Для связывания портов необходимо навести курсор мыши на порт и зажать левую кнопку мыши, после этого вести курсор к тому порту, с которым надо связать и отпустить левую кнопку мыши.
+To link the ports, it is required to hover a cursor over the port and press the left mouse button. Then it is required to hover a cursor over the port with which linking is required and release the left mouse button.
 
-При выделение порта появляется пунктирная линия с началом в исходном порту и концом в позиции курсора мыши, на его конце для удобства отображается тип порта с которым можно связать исходный порт (см. рисунок 3):
+When selecting the port, пунктирная линия appears. It starts in the source port and ends in the mouse cursor position. The type of the port with which it is required to link the source port is displayed on its end for convenience (refer to Figure 3):
 
-![Соединение портов.](ports-3.png)
+![Connection of Ports.](ports-3.png)
 
-> **Важно**: порты можно соединять только одного типа, то есть порт "Таблица" может быть соединен только с одноименным портом. Также нельзя соединять выходной порт узла с его же входным портом. Циклические связи запрещены!
+> **Important**: It is allowed to connect only the ports of the same type. Namely, the "Table" port can be connected only with the одноименным портом. It is also prohibited to connect the output port of the node with its own input port. The cyclic links are forbidden!

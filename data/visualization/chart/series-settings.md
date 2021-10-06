@@ -1,26 +1,26 @@
-# Настройки серий
+# Series Editor
 
-## Окно настройки
+## Configuration window
 
-Окно настройки состоит их двух частей: настройка списка серий (добавление, удаление, перемещение) и настройка параметров каждой серии. При нажатии правой кнопкой мыши на конкретную серию также появятся уже заданные для серии настройки и возможность их корректировки.
+The configuration window consists of two parts: configuration of the series list (add, delete, move) and configuration of each series parameters. When pressing the given series with the right mouse button, the settings already set for the series and their adjustment options will also appear.
 
-* **Настройка списка серий.**
-   * ![](../../images/icons/toolbar-controls/plus_default.svg) Добавить.
-   * ![](../../images/icons/toolbar-controls/moveup_default.svg) Переместить вверх.
-   * ![](../../images/icons/toolbar-controls/movedown_default.svg) Переместить вниз.
-   * ![](../../images/icons/toolbar-controls/delete-all_default.svg) Удалить все.
-   * ![](../../images/icons/toolbar-controls/delete_default.svg) Удалить конкретную серию.
-* **Настройка параметров серии.**
-   * **Основные.**
-      * Тип — задается тип диаграммы (типы приведены далее в статье).
+* **Configure list of series.**
+   * ![](../../images/icons/toolbar-controls/plus_default.svg) Add.
+   * ![](../../images/icons/toolbar-controls/moveup_default.svg) Move up.
+   * ![](../../images/icons/toolbar-controls/movedown_default.svg) Move down.
+   * ![](../../images/icons/toolbar-controls/delete-all_default.svg) Delete all.
+   * ![](../../images/icons/toolbar-controls/delete_default.svg) Delete a given series.
+* **Configure sereis parameters.**
+   * **Main.**
+      * Type: the chart type is set (the types are listed in the article below).
       * Название — название серии, как правило, соответствует названию поля, из которого берутся значения для построения диаграммы.
-      * Поле Y — задается поле для оси Y.
+      * Y field: the field is set for Y axis.
       * Поле цвета — числовое поле, которое проецируется на цветовую шкалу.
-   * **Дополнительные.**
-      * Ось — расположение оси Y относительно диаграммы.
-         * Левая.
-         * Правая.
-      * Цвет — указывается цвет диаграммы.
+   * **Additional.**
+      * Axis: location of Y axis relative to the chart.
+         * Left.
+         * Right.
+      * Color: the chart color is specified.
          * Палитра цветов — нужный цвет выбирается с помощью мыши. Типы палитры.
             * Спектр.
             * Изящная.
@@ -28,11 +28,11 @@
          * Задание цвета через код RGB.
          * Задание цвета через код Hex.
          * Параметр A — задается интенсивность выбранного цвета (от темного до светлого).
-         * Кнопка ![](../../images/icons/toolbar-controls/undo_default.svg) — возвращает цвет по умолчанию.
+         * ![](../../images/icons/toolbar-controls/undo_default.svg) button: return the default color.
       * Ширина линии — параметр задает толщину линии, возможное значение от 0 до 30.
       * Размер точки — возможное значение от 0 до 30.
-      * Тип меток и Тип подсказок.
-         * Нет — метки не отображаются.
+      * Type of captions and Type of tips.
+         * No: captions are not dispalyed.
          * Значение — представлено собственно значение, отображаемое элементом диаграммы.
          * Процент — выводится процентное соотношение данного элемента к итоговому результату.
          * Метка — выводятся подсказки, необходимые для понимания смысла того или иного элемента.

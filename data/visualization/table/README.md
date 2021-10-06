@@ -1,4 +1,4 @@
-# ![](../../images/icons/view_types/browse_default.svg) Таблица
+# ![](../../images/icons/view_types/browse_default.svg) Table
 
 Позволяет представить данные для пользователя в виде плоской двумерной таблицы с возможностью фильтрации, сортировки, изменения формата отображения данных и поиска.
 
@@ -6,15 +6,15 @@
 
 ### Navigation
 
-Навигация по таблице осуществляется при помощи мышки и панели навигации в нижней части визуализатора:
+Mouse and navigation panel in the lower part of the visualizer are used for navigation through the table:
 
 * Перейти на ![](../../images/icons/toolbar-controls/prev_default.svg) предыдущую/![](../../images/icons/toolbar-controls/next_default.svg) следующую страницу;
 * Перейти на ![](../../images/icons/toolbar-controls/first_default.svg) первую/![](../../images/icons/toolbar-controls/last_default.svg) последнюю страницу.
 
-Для перехода на определённую страницу необходимо ввести её номер в поле ввода, расположенное между кнопками навигации.
-На одной странице отображается 50 000 записей.
+To go to the given page, it is required to enter its number in the entry field located between the navigation buttons.
+50,000 records are displayed on one page.
 
-### Операции
+### Operations
 
 * ![](../../images/icons/toolbar-controls/grid-row-no_default.svg) **Номер строки** — показать/скрыть сквозной номер строки;
 * ![](../../images/icons/toolbar-controls/show-data-type_default.svg) **Типы данных** — показать/скрыть типы данных;
@@ -27,13 +27,13 @@
 * ![](../../images/icons/toolbar-controls/export_default.svg) **Экспорт** — экспортировать таблицу в файл выбранного формата (XLS или HTML);
 * **Перейти к строке** — перейти к строке с заданным номером (доступно в контекстном меню).
 
-%spoiler%Горячие клавиши:%spoiler%
+%spoiler%Hotkeys:%spoiler%
 
-* **Ctrl + Left** — перейти на предыдущую страницу;
-* **Ctrl + Right** — перейти на следующую страницу;
+* **Ctrl + Left**: go to the previous page;
+* **Ctrl + Right**: go to the next page;
 * **Alt + 1** — **Alt + 8** — перейти на страницу с номером;
 * **Ctrl + G** — перейти к строке;
-* **Ctrl + F** — поиск текущего выделенного значения;
+* **Ctrl + F**: search for the current selected value;
 * **F3** — перейти к следующему найденному значению;
 * **Home** — перейти на первую колонку строки таблицы;
 * **Home + Alt** — перейти на первую строку таблицы;
@@ -49,7 +49,7 @@
 * **#** — номер строки в таблице;
 * **№** — номер строки в исходном наборе данных (например, после фильтрации).
 
-Настроить сортировку можно, щёлкая на заголовки столбцов непосредственно в самом визуализаторе.
+It is possible to configure sorting by clicking the columns headers in the visualizer as such.
 
 Значение каждой ячейки можно скопировать в текстовом формате, нажав комбинацию клавиш Ctrl+C.
 

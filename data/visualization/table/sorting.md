@@ -1,19 +1,19 @@
-# ![](../../images/icons/toolbar-controls/sort-asc_default.svg) Настройка сортировки
+# ![](../../images/icons/toolbar-controls/sort-asc_default.svg) Configure Sorting
 
-В визуализаторе [Таблица](./README.md) сортировка данных следует правилам описанным в узле [Сортировка](../../processors/transformation/sorting.md).
+Data sorting in the [Table](./README.md) visualizer is performed according to the rules described in the [Sorting](../../processors/transformation/sorting.md) node.
 
-## Окно настройки
+## Configuration window
 
 В левом списке отображаются поля, по которым можно производить сортировку, и столбцы, видимость которых убрана в Таблице.
 
-Список полей можно отфильтровать, введя метку поля в области фильтрации.
+It is possible to filter the list of fields by specifying the field caption in the filter area.
 
-Для настройки сортировки необходимо переместить требуемые поля в список *Поля сортировки*. Это можно сделать:
+Для настройки сортировки необходимо переместить требуемые поля в список *Поля сортировки*. It can be done as follows:
 
-* Перетаскиванием мыши (Drag-and-drop);
-* Двойным щелчком левой кнопки мыши по полю;
+* by drag-and-drop method;
+* by double click on the field with the left mouse button;
 * Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку ![](../../images/icons/toolbar-controls/plus_default.svg) *Добавить*;
-* Нажав кнопку ![](../../images/icons/toolbar-controls/arrow-r_default.svg) *Добавить*.
+* by pressing ![](../../images/icons/toolbar-controls/arrow-r_default.svg) *Add* button.
 
 Параметры настройки сортировки задаются двух соседних столбцах:
 

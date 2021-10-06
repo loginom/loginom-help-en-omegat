@@ -2,7 +2,7 @@
 
 ## Description
 
-The handler bins values range of the selected fields of the source data set to the final bin count. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./quantization/outdoor-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and data/time (refer to [data types](../../data/datatype.md)).
+The handler bins values range of the selected fields of the source data set to the final bin count. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./quantization/outdoor-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and date/time (refer to [data types](../../data/datatype.md)).
 
 ### Input
 
@@ -28,7 +28,7 @@ The area is represented in the table form. Three buttons are located over the fi
 
 The area table consists of several columns:
 
-* **Field**: contains the initial data set fields to which the binning procedure can be applied. The following field types are used: integer, real, data/time.
+* **Field**: contains the initial data set fields to which the binning procedure can be applied. The following field types are used: integer, real, date/time.
 * **Method**: the field is represented by the drop-down list to select a binning method:
    * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width. The following parameters can be set by selecting corresponding checkboxes:
       * Upper bound — upper bound of the highest bin.
