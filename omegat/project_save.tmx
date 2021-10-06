@@ -446,6 +446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>%spoiler%Горячие клавиши:%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175329Z" creationid="Марианна" creationdate="20211005T175329Z">
+        <seg>%spoiler%Hotkeys:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>%spoiler%Пример заполнения:%spoiler%</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T165201Z" creationid="Марианна" creationdate="20200916T165201Z">
@@ -3116,10 +3124,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;XLS&lt;x4/&gt; - экспорт в файл:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172448Z" creationid="Марианна" creationdate="20211005T172448Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;XLS&lt;x4/&gt;: export to file:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр&lt;x4/&gt; — вызывает &lt;x5/&gt;окно просмотра значений&lt;x6/&gt; переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T105054Z" creationid="Марианна" creationdate="20201009T103751Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick view&lt;x4/&gt; enables to call the variable &lt;x5/&gt;watch window&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;В колонках&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172407Z" creationid="Марианна" creationdate="20211005T172407Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;In columns&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3160,6 +3184,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065610Z" creationid="Марианна" creationdate="20201111T104853Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Inner join&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Все&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172400Z" creationid="Марианна" creationdate="20211005T172400Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;All&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3240,6 +3272,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T140313Z" creationid="Марианна" creationdate="20210606T200732Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Group&lt;x4/&gt;: the number of the group to which the table record relates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Детализация&lt;x4/&gt; — показать/скрыть &lt;x5/&gt;детализацию&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171714Z" creationid="Марианна" creationdate="20211005T171714Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Detailing&lt;x4/&gt;: show/hide &lt;x5/&gt;detailing&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; — показать/скрыть &lt;x5/&gt;диаграмму&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172203Z" creationid="Марианна" creationdate="20211005T172203Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt;: show/hide &lt;x5/&gt;chart&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3620,6 +3668,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Поля&lt;x4/&gt; — показать/скрыть список полей набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171643Z" creationid="Марианна" creationdate="20211005T171643Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Fields&lt;x4/&gt;: show/hide the list of the data set fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Правое соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065625Z" creationid="Марианна" creationdate="20201111T104908Z">
@@ -3788,6 +3844,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Способ детализации&lt;x4/&gt; — переключить варианты отображения детализации:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171948Z" creationid="Марианна" creationdate="20211005T171948Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Detailing method&lt;x4/&gt;: switch the detailing display options:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Статистика&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172128Z" creationid="Марианна" creationdate="20211005T172128Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Statistics&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172106Z" creationid="Марианна" creationdate="20211005T172106Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Удалить все выражения&lt;x4/&gt; — удаляет все имеющиеся выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T071935Z" creationid="Марианна" creationdate="20201015T071935Z">
@@ -3848,6 +3928,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T210744Z" creationid="Марианна" creationdate="20200824T154754Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Форма&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172113Z" creationid="Марианна" creationdate="20211005T172113Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Form&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6108,6 +6196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Вещественный;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174716Z" creationid="Марианна" creationdate="20211005T174716Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Real;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вид данных не задан</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T084131Z" creationid="Марианна" creationdate="20201030T083428Z">
@@ -6176,6 +6272,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T204028Z" creationid="Марианна" creationdate="20210930T204001Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Group (Alt+G): the list of the Derived Components is grouped by the base node type (&lt;x3/&gt;Import, Transformation, Control, Exploration, etc.&lt;x4/&gt;);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174743Z" creationid="Марианна" creationdate="20211005T174743Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Date/Time.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6388,6 +6492,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Настройка сортировки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175518Z" creationid="Марианна" creationdate="20211005T175518Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Configure Sorting</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Непрерывный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
@@ -6400,6 +6512,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083747Z" creationid="Марианна" creationdate="20201030T083747Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Useless</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Отчет по регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172534Z" creationid="Марианна" creationdate="20211005T172534Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Regression Report</seg>
       </tuv>
     </tu>
     <tu>
@@ -6620,6 +6740,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Таблица</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180150Z" creationid="Марианна" creationdate="20211005T180150Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Тип данных не задан</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083219Z" creationid="Марианна" creationdate="20201030T083219Z">
@@ -6684,6 +6812,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Формат</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174631Z" creationid="Марианна" creationdate="20211005T174631Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Формирование XML</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T225342Z" creationid="Марианна" creationdate="20210218T224543Z">
@@ -6704,6 +6840,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T111137Z" creationid="Марианна" creationdate="20210809T111137Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Integer, &lt;x3/&gt;&lt;x4/&gt; Real, &lt;x5/&gt;&lt;x6/&gt; Variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Целый;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174710Z" creationid="Марианна" creationdate="20211005T174710Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Integer;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7030,6 +7174,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Фильтр</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173645Z" creationid="Марианна" creationdate="20211005T173645Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;=&lt;x2/&gt; — Равно;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T172649Z" creationid="Марианна" creationdate="20201005T172649Z">
@@ -7322,6 +7474,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T143202Z" creationid="Марианна" creationdate="20210405T143202Z">
         <seg>&lt;x1/&gt;CreateGUID(&lt;x2/&gt;Format = "B", UpperCase = True&lt;x3/&gt;)&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ctrl + F&lt;x2/&gt; — поиск текущего выделенного значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180735Z" creationid="Марианна" creationdate="20211005T180735Z">
+        <seg>&lt;x1/&gt;Ctrl + F&lt;x2/&gt;: search for the current selected value;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ctrl + Left&lt;x2/&gt; — перейти на предыдущую страницу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180657Z" creationid="Марианна" creationdate="20211005T180657Z">
+        <seg>&lt;x1/&gt;Ctrl + Left&lt;x2/&gt;: go to the previous page;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ctrl + Right&lt;x2/&gt; — перейти на следующую страницу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180719Z" creationid="Марианна" creationdate="20211005T180719Z">
+        <seg>&lt;x1/&gt;Ctrl + Right&lt;x2/&gt;: go to the next page;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10080,6 +10256,54 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; -2 Log Likelihood</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173129Z" creationid="Марианна" creationdate="20211005T173129Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; -2 Log Likelihood</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; AIC</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173153Z" creationid="Марианна" creationdate="20211005T173153Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; AIC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; AICc</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173201Z" creationid="Марианна" creationdate="20211005T173201Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; AICc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; BIC</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173209Z" creationid="Марианна" creationdate="20211005T173209Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; BIC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; HQC</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173218Z" creationid="Марианна" creationdate="20211005T173218Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; HQC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; R2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173145Z" creationid="Марианна" creationdate="20211005T173145Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; R2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных (непрерывный, дискретный)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070858Z" creationid="Марианна" creationdate="20200812T070858Z">
@@ -10945,6 +11169,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вычисляемый факт&lt;x2/&gt; Вычисляемый факт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T165303Z" creationid="Марианна" creationdate="20211005T165303Z">
+        <seg>&lt;x1/&gt;Calculated Measure&lt;x2/&gt; Calculated Measure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Гельмерт&lt;x2/&gt; — уникальные значения упорядочиваются, после чего каждое уникальное значение сравнивается со средним из последующих значений по таблице вида:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210428T202346Z" creationid="Марианна" creationdate="20210428T202346Z">
@@ -11421,6 +11653,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065854Z" creationid="Марианна" creationdate="20200812T065854Z">
         <seg>&lt;x1/&gt;Add measure&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить факт&lt;x2/&gt; Добавить факт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171249Z" creationid="Марианна" creationdate="20211005T171249Z">
+        <seg>&lt;x1/&gt;Add measure&lt;x2/&gt; Add measure</seg>
       </tuv>
     </tu>
     <tu>
@@ -12849,6 +13089,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кластеры в столбцах&lt;x2/&gt; Кластеры в столбцах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T164839Z" creationid="Марианна" creationdate="20211005T164839Z">
+        <seg>&lt;x1/&gt;Clusters in columns&lt;x2/&gt; Clusters in columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Код типа значения&lt;x2/&gt; — в зависимости от итогов разгруппировки, может принимать значение от 0 до 6.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070630Z" creationid="Марианна" creationdate="20201126T070630Z">
@@ -13141,6 +13389,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083706Z" creationid="Марианна" creationdate="20201210T082805Z">
         <seg>&lt;x1/&gt;Repulsion coefficient&lt;x2/&gt;: it enables to control the level of transactions similarity inside the cluster and consequently the final number of clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициентов регрессии&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172845Z" creationid="Марианна" creationdate="20211005T172845Z">
+        <seg>&lt;x1/&gt;Regression coefficients&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18058,6 +18314,22 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Развернуть все&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172326Z" creationid="Марианна" creationdate="20211005T172326Z">
+        <seg>&lt;x1/&gt;Expand all&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Развернуть колонки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172336Z" creationid="Марианна" creationdate="20211005T172336Z">
+        <seg>&lt;x1/&gt;Expand columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — в текущем примере это детализация продаж товаров, измеряемая в тыс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114722Z" creationid="Марианна" creationdate="20201124T114520Z">
@@ -18542,6 +18814,22 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T090958Z" creationid="Марианна" creationdate="20210419T090958Z">
         <seg>&lt;x1/&gt;Self-organizing networks&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свернуть все&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172239Z" creationid="Марианна" creationdate="20211005T172239Z">
+        <seg>&lt;x1/&gt;Collapse all&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свернуть колонки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172252Z" creationid="Марианна" creationdate="20211005T172252Z">
+        <seg>&lt;x1/&gt;Collapse columns&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19148,8 +19436,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Способ детализации&lt;x2/&gt; — переключить варианты отображения &lt;x3/&gt;Детализации&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161043Z" creationid="Марианна" creationdate="20211005T161043Z">
-        <seg>&lt;x1/&gt;Detailing method&lt;x2/&gt;: switch the &lt;x3/&gt;Detailing&lt;x4/&gt; options display.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172026Z" creationid="Марианна" creationdate="20211005T161043Z">
+        <seg>&lt;x1/&gt;Detailing method&lt;x2/&gt;: switch the &lt;x3/&gt;Detailing&lt;x4/&gt; display options.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20430,6 +20718,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070001Z" creationid="Марианна" creationdate="20200812T070001Z">
         <seg>&lt;x1/&gt;Filter measures&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтровать факты&lt;x2/&gt; Фильтровать факты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171329Z" creationid="Марианна" creationdate="20211005T171329Z">
+        <seg>&lt;x1/&gt;Filter measures&lt;x2/&gt; Filter measures</seg>
       </tuv>
     </tu>
     <tu>
@@ -27556,6 +27852,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В визуализаторе &lt;x1/&gt;Таблица&lt;x2/&gt; сортировка данных следует правилам описанным в узле &lt;x3/&gt;Сортировка&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175655Z" creationid="Марианна" creationdate="20211005T175655Z">
+        <seg>Data sorting in the &lt;x1/&gt;Table&lt;x2/&gt; visualizer is performed according to the rules described in the &lt;x3/&gt;Sorting&lt;x4/&gt; node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T113452Z" creationid="Марианна" creationdate="20201014T060340Z">
@@ -28216,6 +28520,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T140009Z" creationid="Марианна" creationdate="20200929T103606Z">
         <seg>It is required to configure mapping of the input data that are located to the left in the &lt;x1/&gt;Source data set columns&lt;x2/&gt; field, and created data tree that is located to the right in the &lt;x3/&gt;Tree node&lt;x4/&gt; and &lt;x5/&gt;Related fields&lt;x6/&gt; fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В окне располагается область настройки условий фильтрации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173852Z" creationid="Марианна" creationdate="20211005T173852Z">
+        <seg>Area of the filtering criteria settings is located in the window.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28888,10 +29200,26 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В столбце &lt;x1/&gt;Доступные поля&lt;x2/&gt; показаны доступные для изменения формата поля с типами данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T181928Z" creationid="Марианна" creationdate="20211005T181928Z">
+        <seg>The fields with the data types that can be changed are displayed in &lt;x1/&gt;Available fields&lt;x2/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В столбце могут содержаться все вышеперечисленные типы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T114624Z" creationid="Марианна" creationdate="20210809T114624Z">
         <seg>All data types listed above can be included into the column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В столбце № указан порядковый номер поля исходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175047Z" creationid="Марианна" creationdate="20211005T175047Z">
+        <seg>The order number of the source data set field is specified in column №.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29710,6 +30038,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074935Z" creationid="Марианна" creationdate="20200716T074935Z">
         <seg>Types of ports of the workflow nodes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Визуализатор &lt;x1/&gt;Отчет по регрессии&lt;x2/&gt; компонента &lt;x3/&gt;&lt;x4/&gt;Линейная регрессия&lt;x5/&gt;&lt;x6/&gt; отображает параметры и результаты статистических тестов для анализа регрессионных моделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172744Z" creationid="Марианна" creationdate="20211005T172744Z">
+        <seg>&lt;x1/&gt;Regression report&lt;x2/&gt; visualizer of the &lt;x3/&gt;&lt;x4/&gt;Linear regression&lt;x5/&gt;&lt;x6/&gt; component displays parameters and results of the statistical tests for the regression models analysis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30614,6 +30950,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T194509Z" creationid="Марианна" creationdate="20211001T194509Z">
         <seg>The following options are possible:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возможны следующие положения кластеров:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T164419Z" creationid="Марианна" creationdate="20211005T164419Z">
+        <seg>The following positions of clusters are possible:</seg>
       </tuv>
     </tu>
     <tu>
@@ -31810,6 +32154,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Далее выбирается имя поля, &lt;x1/&gt;отношение сравнения&lt;x2/&gt; (Условие) и значение сравнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174350Z" creationid="Марианна" creationdate="20211005T174350Z">
+        <seg>Then it is required to select the field name, &lt;x1/&gt;comparison ratio&lt;x2/&gt; (&lt;x3/&gt;Condition&lt;x4/&gt;) and comparison value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее отметить галочками нужные методы агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203340Z" creationid="Марианна" creationdate="20201023T203340Z">
@@ -32078,6 +32430,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134828Z" creationid="Марианна" creationdate="20201022T174016Z">
         <seg>Data of the third group of fields is used for calculation of &lt;x1/&gt;measures&lt;x2/&gt; — &lt;x3/&gt;aggregated values&lt;x4/&gt; at the intersection of strings and columns of the pivot table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данный визуализатор состоит из трех областей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172812Z" creationid="Марианна" creationdate="20211005T172812Z">
+        <seg>This visualizer consists of three areas:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32358,6 +32718,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T073457Z" creationid="Марианна" creationdate="20201016T073457Z">
         <seg>Double click on the selected field calls the dialog to edit its features.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Двойным щелчком левой кнопки мыши по полю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175933Z" creationid="Марианна" creationdate="20211005T175933Z">
+        <seg>by double click on the field with the left mouse button;</seg>
       </tuv>
     </tu>
     <tu>
@@ -33477,6 +33845,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для перехода на определённую страницу необходимо ввести её номер в поле ввода, расположенное между кнопками навигации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180526Z" creationid="Марианна" creationdate="20211005T180526Z">
+        <seg>To go to the given page, it is required to enter its number in the entry field located between the navigation buttons.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для подключения к файлам Microsoft Excel 2007 и выше  (*.xlsx) в системе необходимо наличие совпадающих по разрядности с сервером Loginom компонентов:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T153917Z" creationid="Марианна" creationdate="20210118T153917Z">
@@ -34569,6 +34945,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступность показателя для определенного поля зависит от типа и вида данных этого поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T182502Z" creationid="Марианна" creationdate="20211005T182502Z">
+        <seg>Availability of the given field indicator depends on the data type and kind of this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступность узлов определяется их видимостью (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T101947Z" creationid="Марианна" creationdate="20200919T101947Z">
@@ -35281,6 +35665,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если порядок полей менялся, его можно восстановить до исходного.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T181631Z" creationid="Марианна" creationdate="20211005T181631Z">
+        <seg>If the fields order was changed, it can be reset to the initial one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если последовательность обнаружена, то значение заменяется на новое.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T145311Z" creationid="Марианна" creationdate="20201117T094321Z">
@@ -35516,8 +35908,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если целевая переменная имеет тип Логический, Целый, Вещественный или Дата/Время, то исходное строковое значение конвертируется по правилам соответствующего типа, причём для Вещественного типа используется десятичный разделитель .</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T095109Z" creationid="Марианна" creationdate="20210930T095109Z">
-        <seg>If the target variable refers to the Logical, Integer, Real or Data/Time type, the source string value is converted according to the rules related to corresponding type. In this case, the decimal separator is used for the Real type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174812Z" creationid="Марианна" creationdate="20210930T095109Z">
+        <seg>If the target variable refers to the Logical, Integer, Real or Date/Time type, the source string value is converted according to the rules related to corresponding type. In this case, the decimal separator is used for the Real type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38323,8 +38715,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Квантование применяется к данным с типами: целый, вещественный и дата/время (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T192129Z" creationid="Марианна" creationdate="20210629T192129Z">
-        <seg>Binning is used for the following data types: integer, real and data/time (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174751Z" creationid="Марианна" creationdate="20210629T192129Z">
+        <seg>Binning is used for the following data types: integer, real and date/time (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -40269,6 +40661,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Модель</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173318Z" creationid="Марианна" creationdate="20211005T173318Z">
+        <seg>Model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Модель строится на основе обучающего множества и проверяется на валидационном множестве.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T122455Z" creationid="Марианна" creationdate="20210925T122455Z">
@@ -40569,6 +40969,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T083844Z" creationid="Марианна" creationdate="20210511T083844Z">
         <seg>The checkbox status does not affect processing of logical and string fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На одной странице отображается 50 000 записей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180611Z" creationid="Марианна" creationdate="20211005T180611Z">
+        <seg>50,000 records are displayed on one page.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40902,6 +41310,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Навигация по таблице осуществляется при помощи мышки и панели навигации в нижней части визуализатора:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180326Z" creationid="Марианна" creationdate="20211005T180326Z">
+        <seg>Mouse and navigation panel in the lower part of the visualizer are used for navigation through the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Над непрерывными значениями можно проводить арифметические операции, и они имеют смысл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210817T094118Z" creationid="Марианна" creationdate="20210817T094118Z">
@@ -40938,6 +41354,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082709Z" creationid="Марианна" creationdate="20201006T082709Z">
         <seg>Pressing %kbd Alt S %.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нажав кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180007Z" creationid="Марианна" creationdate="20211005T180007Z">
+        <seg>by pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41400,6 +41824,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T203458Z" creationid="Марианна" creationdate="20210528T203458Z">
         <seg>Custom "event" value: it is required to select the value of the binary target variable that is an event.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настроить сортировку можно, щёлкая на заголовки столбцов непосредственно в самом визуализаторе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T180943Z" creationid="Марианна" creationdate="20211005T180943Z">
+        <seg>It is possible to configure sorting by clicking the columns headers in the visualizer as such.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42244,6 +42676,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Необходимо задать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T170939Z" creationid="Марианна" creationdate="20211005T170939Z">
+        <seg>It is required to set the following parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Необходимо обучить узел перед применением".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T044424Z" creationid="Марианна" creationdate="20211002T044424Z">
@@ -42732,10 +43172,26 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Области визуализатора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173045Z" creationid="Марианна" creationdate="20211005T173045Z">
+        <seg>Visualizer Areas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область  отображения результатов квантования</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T202740Z" creationid="Марианна" creationdate="20210629T202740Z">
         <seg>Area of Binning Results Display</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область Коэффициенты регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173014Z" creationid="Марианна" creationdate="20211005T173014Z">
+        <seg>Regression Coefficients Area</seg>
       </tuv>
     </tu>
     <tu>
@@ -43788,6 +44244,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Описание коэффициентов представлено в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173237Z" creationid="Марианна" creationdate="20211005T173237Z">
+        <seg>Description of coefficients is provided in the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Описание ошибки — описание кодов завершения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135821Z" creationid="Марианна" creationdate="20210220T151045Z">
@@ -44544,6 +45008,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T160531Z" creationid="Марианна" creationdate="20211005T160531Z">
         <seg>Toolbar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель инструментов Куба</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171535Z" creationid="Марианна" creationdate="20211005T171535Z">
+        <seg>Cube Toolbar</seg>
       </tuv>
     </tu>
     <tu>
@@ -45404,6 +45876,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перетаскиванием мыши (Drag-and-drop);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175743Z" creationid="Марианна" creationdate="20211005T175743Z">
+        <seg>by drag-and-drop method;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перетащить элемент из списка &lt;x1/&gt;Выбранные элементы&lt;x2/&gt; в &lt;x3/&gt;Доступные элементы&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203621Z" creationid="Марианна" creationdate="20200829T203621Z">
@@ -46046,6 +46526,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию поля выводятся в таблицу в том же порядке, что и в исходном наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T181452Z" creationid="Марианна" creationdate="20211005T181452Z">
+        <seg>By default, the fields are shown in the table in the same order as in the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию порт скрыт, для того чтобы отобразить его, необходимо воспользоваться кнопкой &lt;x3/&gt; &lt;x4/&gt; панели инструментов области построения Сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T213029Z" creationid="Марианна" creationdate="20210928T213029Z">
@@ -46494,6 +46982,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подробно о том, как включить данный визуализатор, можно прочитать в &lt;x1/&gt;статье&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T172952Z" creationid="Марианна" creationdate="20211005T172952Z">
+        <seg>More detailed infomation how to enable this visualizer is provided in the &lt;x1/&gt;article&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подстрока - искомая подстрока,</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T212736Z" creationid="Марианна" creationdate="20210406T130207Z">
@@ -46506,6 +47002,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204623Z" creationid="Марианна" creationdate="20200829T204623Z">
         <seg>It enables to select the rows with which values will be compared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет выделить записи, которые удовлетворяют одному или нескольким условиям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173717Z" creationid="Марианна" creationdate="20211005T173717Z">
+        <seg>It enables to select the records that meet one or several criteria.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет выполнять фильтрацию значений факта для измерения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171436Z" creationid="Марианна" creationdate="20211005T171436Z">
+        <seg>It provides for filtration of the measure values for dimension.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46542,10 +47054,26 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поиск</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175346Z" creationid="Марианна" creationdate="20211005T175346Z">
+        <seg>Search</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поиск учетной записи по введенному имени в каталоге Базовый домен (и его подкаталогах) соответствующего Фильтру LDAP;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210913T075148Z" creationid="Марианна" creationdate="20210913T075148Z">
         <seg>Search for the account by the entered name in the Base Domain directory (and its subdirectories) matching the LDAP Filter. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поиск ячеек в таблице по значению.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175422Z" creationid="Марианна" creationdate="20211005T175422Z">
+        <seg>Search for cells in table by value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46770,6 +47298,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082420Z" creationid="Марианна" creationdate="20200918T082420Z">
         <seg>User Date/Time Format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173325Z" creationid="Марианна" creationdate="20211005T173325Z">
+        <seg>Fields</seg>
       </tuv>
     </tu>
     <tu>
@@ -47486,6 +48022,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T121923Z" creationid="Марианна" creationdate="20210213T121923Z">
         <seg>When all required parameters are set, the connection can be tested.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После установки настроек фильтрации нужно нажать кнопку &lt;x1/&gt;Фильтровать&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174214Z" creationid="Марианна" creationdate="20211005T174214Z">
+        <seg>After filtering setup, it is required to press &lt;x1/&gt;Filter&lt;x2/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48832,6 +49376,14 @@ It accepts supplementary transaction items that can be taken into account when c
         <seg>При создании нескольких условий между ними необходимо задать логические операторы И/ИЛИ.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T113515Z" creationid="Марианна" creationdate="20201113T113515Z">
+        <seg>When creating several criteria, it is required to set the logical AND/OR operators between them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При создании нескольких условий, между ними необходимо задать логические операторы И/ИЛИ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174242Z" creationid="Марианна" creationdate="20211005T174242Z">
         <seg>When creating several criteria, it is required to set the logical AND/OR operators between them.</seg>
       </tuv>
     </tu>
@@ -52193,6 +52745,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список измерений и фактов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T171104Z" creationid="Марианна" creationdate="20211005T171104Z">
+        <seg>List of Dimensions and Measures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список имен входных полей</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T134400Z" creationid="Марианна" creationdate="20201210T134400Z">
@@ -52243,8 +52803,16 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Список полей можно отфильтровать, введя имя или метку поля в области фильтрации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201115T141208Z" creationid="Марианна" creationdate="20201115T141208Z">
-        <seg>It is possible to filter the list of fields specifying the field name or caption in the filter area.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T182038Z" creationid="Марианна" creationdate="20201115T141208Z">
+        <seg>It is possible to filter the list of fields by specifying the field name or caption in the filter area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список полей можно отфильтровать, введя метку поля в области фильтрации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T182025Z" creationid="Марианна" creationdate="20211005T182025Z">
+        <seg>It is possible to filter the list of fields by specifying the field caption in the filter area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52581,6 +53149,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T101717Z" creationid="Марианна" creationdate="20210831T101717Z">
         <seg>The statistical table data (for example, column sum, average value, etc.) can be transformed to variables using the special handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Статистические показатели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T182352Z" creationid="Марианна" creationdate="20211005T182352Z">
+        <seg>Statistical Indicators</seg>
       </tuv>
     </tu>
     <tu>
@@ -53119,6 +53695,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Существует три вида моделей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173414Z" creationid="Марианна" creationdate="20211005T173414Z">
+        <seg>There are three model types:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сформированные обработчиком столбцы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T153350Z" creationid="Марианна" creationdate="20201111T153350Z">
@@ -53179,6 +53763,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102412Z" creationid="Марианна" creationdate="20201009T102412Z">
         <seg>It is read from the system settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Т-статистика</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173309Z" creationid="Марианна" creationdate="20211005T173309Z">
+        <seg>T-statistics</seg>
       </tuv>
     </tu>
     <tu>
@@ -53921,6 +54513,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T084239Z" creationid="Марианна" creationdate="20200826T083623Z">
         <seg>The text file with separators is a standard text file the data columns of which are separated with separating characters of the same type, for example, tab characters, commas, semicolumns,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Текущие поля модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173335Z" creationid="Марианна" creationdate="20211005T173335Z">
+        <seg>Current model fields</seg>
       </tuv>
     </tu>
     <tu>
@@ -55145,6 +55745,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат задаётся для типов данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174657Z" creationid="Марианна" creationdate="20211005T174657Z">
+        <seg>The format is set for the data types:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат представления даты &lt;x1/&gt;Свой формат&lt;x2/&gt; далее будет рассмотрен более подробно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T125944Z" creationid="Марианна" creationdate="20201118T125944Z">
@@ -55957,6 +56565,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы изменить оператор, необходимо кликнуть по нему левой кнопкой мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T173927Z" creationid="Марианна" creationdate="20211005T173927Z">
+        <seg>To change the operator, it is required to left-click on it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы изменить оператор, нужно кликнуть по нему левой кнопкой мыши.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T072053Z" creationid="Марианна" creationdate="20201113T113553Z">
@@ -56033,6 +56649,22 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T195322Z" creationid="Марианна" creationdate="20200929T195310Z">
         <seg>To reset the filter or search settings, it is required to use &lt;x1/&gt;Clean&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы сбросить фильтрацию, необходимо нажать кнопку &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T182238Z" creationid="Марианна" creationdate="20211005T182238Z">
+        <seg>To reset filtration, it is required to press &lt;x3/&gt;&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы скрыть/отобразить все поля, необходимо нажать кнопку &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;Скрыть все поля&lt;x10/&gt; / &lt;x11/&gt;&lt;x12/&gt; &lt;x13/&gt;Отобразить все поля&lt;x14/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175227Z" creationid="Марианна" creationdate="20211005T175227Z">
+        <seg>To hide/display all fields, it is required to press &lt;x7/&gt;&lt;x8/&gt; &lt;x9/&gt;Hide all fields&lt;x10/&gt; / &lt;x11/&gt;&lt;x12/&gt; &lt;x13/&gt;Display all fields&lt;x14/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56453,6 +57085,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это можно сделать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T175723Z" creationid="Марианна" creationdate="20211005T175723Z">
+        <seg>It can be done as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это необходимо в случаях, когда входные факторы коррелированы друг с другом, т.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T200355Z" creationid="Марианна" creationdate="20201012T200247Z">
@@ -56503,8 +57143,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Это поля типа: целый, вещественный,  дата/время.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210629T201045Z" creationid="Марианна" creationdate="20210629T201045Z">
-        <seg>The following field types are used: integer, real, data/time.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211005T174757Z" creationid="Марианна" creationdate="20210629T201045Z">
+        <seg>The following field types are used: integer, real, date/time.</seg>
       </tuv>
     </tu>
     <tu>
