@@ -36154,8 +36154,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Задать максимум — при активном флаге указывается значение от 1 000 и выше.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T122121Z" creationid="Марианна" creationdate="20211005T122121Z">
-        <seg>Set maximum: when the checkbox is active, the value from 1000 and higher is specified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T125915Z" creationid="Марианна" creationdate="20211005T122121Z">
+        <seg>Set maximum value: when the checkbox is active, the value from 1,000 and higher is specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36170,8 +36170,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Задать минимум — при активном флаге указывается значение от 0 до 9 999.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211006T125750Z" creationid="Марианна" creationdate="20211005T122000Z">
-        <seg>Set minimum: when the checkbox is active, the value from 0 to 9,999 is specified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T125826Z" creationid="Марианна" creationdate="20211005T122000Z">
+        <seg>Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41386,6 +41386,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T060618Z" creationid="Марианна" creationdate="20200829T203055Z">
         <seg>By pressing &lt;x9/&gt;to be defined&lt;x10/&gt; button, the &lt;x11/&gt;List of values&lt;x12/&gt; window will be opened (refer to the information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нажатие на &lt;x1/&gt;&lt;x2/&gt; удаляет ранее выбранное поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130005Z" creationid="Марианна" creationdate="20211006T130005Z">
+        <seg>It is possible to delete the field that has been earlier selected by pressing &lt;x1/&gt;&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47178,6 +47186,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T150131Z" creationid="Марианна" creationdate="20210919T150131Z">
         <seg>It is also possible to include the filter for search for a particular user into this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле меток — поле для задания обозначений делений оси X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130208Z" creationid="Марианна" creationdate="20211006T130208Z">
+        <seg>Caption field: the field used to set X axis points marks.</seg>
       </tuv>
     </tu>
     <tu>
