@@ -28804,6 +28804,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В процентах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130510Z" creationid="Марианна" creationdate="20211006T130510Z">
+        <seg>In percents.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В процессе обучения нейронная сеть способна выявлять сложные зависимости между входными параметрами и выходными, а также выполнять обобщение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201221T135524Z" creationid="Марианна" creationdate="20201221T135524Z">
@@ -32894,6 +32902,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T195501Z" creationid="Марианна" creationdate="20201210T083536Z">
         <seg>Range of values change varies from 1 to 4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Динамика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130433Z" creationid="Марианна" creationdate="20211006T130433Z">
+        <seg>Dynamics.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50571,8 +50587,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Процент.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T154557Z" creationid="Марианна" creationdate="20211005T154557Z">
-        <seg>Percentage.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T130528Z" creationid="Марианна" creationdate="20211005T154557Z">
+        <seg>Percent.</seg>
       </tuv>
     </tu>
     <tu>
