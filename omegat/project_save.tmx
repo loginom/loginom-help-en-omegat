@@ -33428,6 +33428,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для исключения из списка сортируемых полей нужно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T150246Z" creationid="Марианна" creationdate="20211006T150246Z">
+        <seg>It is required to perform the following actions to exclude from the list of sorted fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для исключения конфликтов используется следующий приоритет:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T104223Z" creationid="Марианна" creationdate="20201009T104223Z">
@@ -45988,6 +45996,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перетащить запись из списка &lt;x1/&gt;Поля сортировки&lt;x2/&gt; в &lt;x3/&gt;Доступные поля&lt;x4/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T150341Z" creationid="Марианна" creationdate="20211006T150341Z">
+        <seg>to drag the record from &lt;x1/&gt;Sort fields&lt;x2/&gt; list to &lt;x3/&gt;Available fields&lt;x4/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перетащить элемент из списка &lt;x1/&gt;Выбранные элементы&lt;x2/&gt; в &lt;x3/&gt;Доступные элементы&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T203621Z" creationid="Марианна" creationdate="20200829T203621Z">
@@ -49417,6 +49433,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T061346Z" creationid="Марианна" creationdate="20211003T061346Z">
         <seg>When designing the Workflow, it is possible to make our objects (for example, nodes) available to another Workflow (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При проставленном в чекбоксе флажке поле сортируется с учетом регистра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T150110Z" creationid="Марианна" creationdate="20211006T150110Z">
+        <seg>When the checkbox is selected, the case-sensitive field is sorted.</seg>
       </tuv>
     </tu>
     <tu>
