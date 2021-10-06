@@ -33893,6 +33893,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для очистки всего списка нужно нажать на иконку &lt;x1/&gt;&lt;x2/&gt; у одноименного столбца, вызвав выпадающее меню выбрать пункт &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Удалить все...&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T155530Z" creationid="Марианна" creationdate="20211006T155530Z">
+        <seg>To clear the whole list, it is required to press &lt;x1/&gt;&lt;x2/&gt; icon near the column with the same name by calling the drop-down menu, select &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Delete all...&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для переменных типа Вещественный и Переменный в качестве параметров можно передавать экспоненциальную форму записи числа (пример: 4.205E2, 4.205E-2)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T100743Z" creationid="Марианна" creationdate="20210930T100743Z">
