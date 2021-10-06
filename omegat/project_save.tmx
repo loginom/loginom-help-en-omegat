@@ -45420,6 +45420,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры настройки сортировки задаются двух соседних столбцах:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211006T145243Z" creationid="Марианна" creationdate="20211006T145243Z">
+        <seg>Parameters of sorting configuration are set in two adjacent columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры настройки сортировки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141546Z" creationid="Марианна" creationdate="20201115T141546Z">
