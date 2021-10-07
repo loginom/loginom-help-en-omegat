@@ -9670,6 +9670,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Анимация&lt;x2/&gt; — обновление данных отображается плавно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T074603Z" creationid="Марианна" creationdate="20211007T074603Z">
+        <seg>&lt;x1/&gt;Animation&lt;x2/&gt;: data update is smoothly displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Аномальные значения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T203636Z" creationid="Марианна" creationdate="20210302T203636Z">
@@ -12053,6 +12061,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T155725Z" creationid="Марианна" creationdate="20201013T155725Z">
         <seg>&lt;x1/&gt;Set the factor number&lt;x2/&gt;: the number of the significant factors is selected by an analyst independently.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Задержка&lt;x2/&gt; (мс) — время, за которое происходит обновление данных (время анимации).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T074647Z" creationid="Марианна" creationdate="20211007T074647Z">
+        <seg>&lt;x1/&gt;Delay&lt;x2/&gt; (ms): the time required to update data (animation time).</seg>
       </tuv>
     </tu>
     <tu>
@@ -49481,6 +49497,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T063712Z" creationid="Марианна" creationdate="20201126T063712Z">
         <seg>When configuring the ungrouping node, let's select &lt;x1/&gt;With calculation of quotas for total sample&lt;x2/&gt; method, set rounding up to one decimal place and &lt;x3/&gt;Proportional&lt;x4/&gt; balance method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При неактивном флаге столбцы накладываются друг на друга.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T074441Z" creationid="Марианна" creationdate="20211007T074441Z">
+        <seg>When the checkbox is inactive, the columns are overlapped.</seg>
       </tuv>
     </tu>
     <tu>
