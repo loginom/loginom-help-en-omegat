@@ -36978,6 +36978,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение — представлено собственно значение, отображаемое элементом диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065428Z" creationid="Марианна" creationdate="20211007T065428Z">
+        <seg>Value: the value displayed by the chart element is represented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение, равное 0, обеспечивает такое разбиение на классы, которое максимизирует информационный индекс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T204544Z" creationid="Марианна" creationdate="20210530T135722Z">
