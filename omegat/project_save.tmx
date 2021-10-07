@@ -6428,6 +6428,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Использовать как поле абсцисс (CTRL+X);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153256Z" creationid="Марианна" creationdate="20211007T153256Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Use as abscissa field (CTRL+X);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Использовать как поле меток (Alt+L).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153307Z" creationid="Марианна" creationdate="20211007T153307Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Use as caption field (Alt+L).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Используемое</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083758Z" creationid="Марианна" creationdate="20201030T083758Z">
@@ -47880,8 +47896,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Поле меток — поле для задания обозначений делений оси X.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211006T130208Z" creationid="Марианна" creationdate="20211006T130208Z">
-        <seg>Caption field: the field used to set X axis points marks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153413Z" creationid="Марианна" creationdate="20211006T130208Z">
+        <seg>Caption field: the field used to set the X axis points marks.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55225,6 +55241,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091041Z" creationid="Марианна" creationdate="20200715T091041Z">
         <seg>Thus, the platform can be used both for creation of indepenent analytical solutions, and for development of modules integrated with external systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, поле значений оси X и поле меток (обозначений делений оси) необязательно должны совпадать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153517Z" creationid="Марианна" creationdate="20211007T153407Z">
+        <seg>Thus, the X axis values field and caption field (the axis points marks) must not necessarily coincide.</seg>
       </tuv>
     </tu>
     <tu>
