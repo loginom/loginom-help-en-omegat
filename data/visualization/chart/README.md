@@ -12,7 +12,7 @@
 * ![](../../images/icons/toolbar-controls/axis_default.svg) [Configure axes](./axis-settings.md).
 * ![](../../images/icons/toolbar-controls/animate_default.svg) Анимация — обновление данных отображается плавно.
 * ![](../../images/icons/toolbar-controls/normalize_default.svg) Нормировать — приводит все графики к одному масштабу.
-* ![](../../images/icons/toolbar-controls/telescope_default.svg) Навигатор — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Передвигая край навигатора, можно выбрать необходимую область диаграммы.
+* ![](../../images/icons/toolbar-controls/telescope_default.svg) Навигатор — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Moving the navigator edge, it is possible to select the required chart area.
 * ![](../../images/icons/toolbar-controls/rotate-chart-clockwise_default.svg) Повернуть график — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
 * ![](../../images/icons/toolbar-controls/cursor_default.svg) Режим приближения — увеличивает масштаб просмотра выделенной области (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
 * ![](../../images/icons/toolbar-controls/hand_default.svg) Режим перетаскивания — позволяет передвигать диаграмму по экрану (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).

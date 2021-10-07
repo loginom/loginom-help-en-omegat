@@ -23,7 +23,7 @@ It is possible to sort nodes in the *Property inspector* tree. For this purpose,
 
 It is possible to select with mouse cursor any cell or range of cells of the *Property inspector* by clicking and copy its (their) value by pressing *Ctrl+C* combination of keys.
 
-Screen tips are used for the cells in which there is no enough place for text.
+Screen tooltips are used for the cells in which there is no enough place for text.
 
 The *Property inspector* context menu contains the following commands:
 

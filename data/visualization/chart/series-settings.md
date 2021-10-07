@@ -21,23 +21,23 @@ The configuration window consists of two parts: configuration of the series list
          * Left.
          * Right.
       * Color: the chart color is specified.
-         * Палитра цветов — нужный цвет выбирается с помощью мыши. Типы палитры.
-            * Спектр.
-            * Изящная.
-            * Составная.
-         * Задание цвета через код RGB.
-         * Задание цвета через код Hex.
-         * Параметр A — задается интенсивность выбранного цвета (от темного до светлого).
+         * Палитра цветов — нужный цвет выбирается с помощью мыши. Palette types.
+            * Spectrum.
+            * Elegant.
+            * Composite.
+         * Set the color via RGB code.
+         * Set the color via Hex code.
+         * Parameter A: intensity of the selected color is set (from the dark to the light one).
          * ![](../../images/icons/toolbar-controls/undo_default.svg) button: return the default color.
       * Ширина линии — параметр задает толщину линии, возможное значение от 0 до 30.
       * Размер точки — возможное значение от 0 до 30.
-      * Type of captions and Type of tips.
+      * Type of captions and Type of tooltips.
          * No: captions are not dispalyed.
-         * Значение — представлено собственно значение, отображаемое элементом диаграммы.
-         * Процент — выводится процентное соотношение данного элемента к итоговому результату.
-         * Метка — выводятся подсказки, необходимые для понимания смысла того или иного элемента.
-         * Метка, процент — одновременно выводятся и метки, и проценты.
-         * Метка, значение — одновременно выводятся и метки, и значения.
-         * Процент, итог — одновременно выводятся и процентное отношение элемента ко всему итоговому результату, и сам этот результат.
-         * Метка, процент, итог — одновременно отображаются метка, процентное соотношение и итог.
-         * Значение X — выводится координата столбца по оси X.
+         * Value: the value displayed by the chart element is represented.
+         * Percent: percentage of this element to the final result is displayed.
+         * Caption: the tooltips necessary to understand the meaning of this or that element are displayed.
+         * Caption, percent: both captions, and percents are displayed at the same time.
+         * Caption, value: both captions, and values are displayed at the same time.
+         * Percent, total: both percentage of the element to the final result, and the result as such are displayed at the same time.
+         * Caption, percent, total: caption, percentage and total are displayed at the same time.
+         * X value: the column coordinate along the X axis is displayed.

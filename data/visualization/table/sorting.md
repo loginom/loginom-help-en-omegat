@@ -28,13 +28,13 @@ It is required to perform the following actions to exclude from the list of sort
 
 To clear the whole list, it is required to press ![](../../images/icons/toolbar-controls/delete-all_default.svg) icon near the column with the same name by calling the drop-down menu, select ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
-Для того чтобы изменить очередность сортировки, над таблицей сортируемых полей расположены кнопки перемещения:
+To change the sorting order, the navigational buttons are located above the table of sorted fields:
 
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выбранное поле вверх в списке очередности;
-* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выбранное поле вниз в списке очередности.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enables to move the selected field up in the order list.
+* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected field down in the order list.
 
-Также переместить поле можно, выбрав нужное поле вызвать выпадающее меню и нажать пункт ![](../../images/icons/toolbar-controls/moveup_default.svg) *Переместить вверх* или ![](../../images/icons/toolbar-controls/movedown_default.svg) *Переместить вниз*, в зависимости от нужного действия.
+It is also possible to move the field by selecting the required field and calling the drop-down menu. Then press ![](../../images/icons/toolbar-controls/moveup_default.svg) *Move up* or ![](../../images/icons/toolbar-controls/movedown_default.svg) *Move down* depending on the required action.
 
-После выбора всех настроек нажать кнопку *Сортировать* для применения сортировки в таблице.
+When all settings are selected, it is required to press *Sort* to enable sorting in the table.
 
-> **Примечание**: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, из-под которого запущен сервер Loginom.
+> **Note**: Comparison and sorting of characters are performed according to the local settings of the user that started the Loginom server.
