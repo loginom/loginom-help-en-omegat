@@ -15301,6 +15301,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Объединять подсказки&lt;x2/&gt; — объединяет всплывающие подсказки всех серий (при наведении курсором мыши на серию), если для каждой серии они были настроены отдельно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072719Z" creationid="Марианна" creationdate="20211007T072719Z">
+        <seg>&lt;x1/&gt;Combine tooltips&lt;x2/&gt; — объединяет всплывающие подсказки всех серий (при наведении курсором мыши на серию), если для каждой серии они были настроены отдельно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Объекты хранилища данных&lt;x2/&gt; — содержит древовидный список &lt;x3/&gt;Процессы&lt;x4/&gt; &lt;x5/&gt;Процессов&lt;x6/&gt; и &lt;x7/&gt;Измерения&lt;x8/&gt; &lt;x9/&gt;Измерений&lt;x10/&gt; из которых необходимо выбрать лишь один объект — &lt;x11/&gt;Процесс&lt;x12/&gt; &lt;x13/&gt;Процесс&lt;x14/&gt; или &lt;x15/&gt;Измерение&lt;x16/&gt; &lt;x17/&gt;Измерение&lt;x18/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201206T150103Z" creationid="Марианна" creationdate="20200827T194521Z">
@@ -20164,8 +20172,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип меток&lt;x2/&gt; и &lt;x3/&gt;Тип подсказок.&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T154635Z" creationid="Марианна" creationdate="20211005T154635Z">
-        <seg>&lt;x1/&gt;Type of captions&lt;x2/&gt; and &lt;x3/&gt;Type of tips.&lt;x4/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072736Z" creationid="Марианна" creationdate="20211005T154635Z">
+        <seg>&lt;x1/&gt;Type of captions&lt;x2/&gt; and &lt;x3/&gt;Type of tooltips.&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34907,8 +34915,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для ячеей, в которых текст полностью не помещается, предусмотрены всплывающие подсказки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T105840Z" creationid="Марианна" creationdate="20200818T105840Z">
-        <seg>Screen tips are used for the cells in which there is no enough place for text.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072727Z" creationid="Марианна" creationdate="20200818T105840Z">
+        <seg>Screen tooltips are used for the cells in which there is no enough place for text.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36902,6 +36910,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210730T101306Z" creationid="Марианна" creationdate="20210730T101254Z">
         <seg>1026598E+8 value was calculated on the basis of the maximum values of the Smoothing Period.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение X — выводится координата столбца по оси X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072652Z" creationid="Марианна" creationdate="20211007T072652Z">
+        <seg>X value: the column coordinate along the X axis is displayed.</seg>
       </tuv>
     </tu>
     <tu>
