@@ -14529,6 +14529,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Название&lt;x2/&gt; — название серии (т.е. конкретного графика).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153049Z" creationid="Марианна" creationdate="20211007T153049Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: series name (namely, the definite graphic chart).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Назначение и структура пакета&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T055600Z" creationid="Марианна" creationdate="20200810T154844Z">
@@ -16945,6 +16953,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T094740Z" creationid="Марианна" creationdate="20201127T094608Z">
         <seg>&lt;x1/&gt;Field with names&lt;x2/&gt; &lt;x3/&gt;Field with names&lt;x4/&gt;: it is assigned to the reference table field that contains the names by which ungrouping will be performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поле цвета&lt;x2/&gt; — числовое поле, которое проецируется на цветовую шкалу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153240Z" creationid="Марианна" creationdate="20211007T153240Z">
+        <seg>&lt;x1/&gt;Color field&lt;x2/&gt;: the numeric field that is projected onto the color chart.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32654,6 +32670,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T132711Z" creationid="Марианна" creationdate="20200814T105248Z">
         <seg>This page contains the following commands to use &lt;x1/&gt;packages&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данное название будет отображаться в легенде диаграммы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153116Z" creationid="Марианна" creationdate="20211007T153116Z">
+        <seg>This name will be displayed in the chart legend.</seg>
       </tuv>
     </tu>
     <tu>
