@@ -6468,6 +6468,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Линии;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T150937Z" creationid="Марианна" creationdate="20211007T150937Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Lines;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Логический</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083229Z" creationid="Марианна" creationdate="20201030T083229Z">
@@ -6568,6 +6576,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T145421Z" creationid="Марианна" creationdate="20211007T145421Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Rationing: set the same scale for all charts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Области с интервалами;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151017Z" creationid="Марианна" creationdate="20211007T151017Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Interval areas;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Области;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T150947Z" creationid="Марианна" creationdate="20211007T150947Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Areas;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6764,6 +6788,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сглаженные области;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151029Z" creationid="Марианна" creationdate="20211007T151029Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Smoothed areas;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Слева сверху.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T073205Z" creationid="Марианна" creationdate="20211007T073205Z">
@@ -6820,6 +6852,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сплайны;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T150956Z" creationid="Марианна" creationdate="20211007T150956Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Splines;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Справа сверху.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T065504Z" creationid="Марианна" creationdate="20211007T065504Z">
@@ -6840,6 +6880,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T065534Z" creationid="Марианна" creationdate="20211007T065534Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Столбчатая;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151007Z" creationid="Марианна" creationdate="20211007T151007Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Columns;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35317,6 +35365,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T141852Z" creationid="Марианна" creationdate="20210523T141852Z">
         <seg>The following processing methods are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступны следующие типы диаграмм:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T150923Z" creationid="Марианна" creationdate="20211007T150923Z">
+        <seg>The following types of charts are available:</seg>
       </tuv>
     </tu>
     <tu>
