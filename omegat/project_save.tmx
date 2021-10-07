@@ -40551,8 +40551,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Метка — выводятся подсказки, необходимые для понимания смысла того или иного элемента.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T071931Z" creationid="Марианна" creationdate="20211007T071931Z">
-        <seg>Caption: the tips necessary to understand the meaning of this or that element are displayed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072743Z" creationid="Марианна" creationdate="20211007T071931Z">
+        <seg>Caption: the tooltips necessary to understand the meaning of this or that element are displayed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -55135,8 +55135,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тип меток и Тип подсказок.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T160310Z" creationid="Марианна" creationdate="20211005T160310Z">
-        <seg>Type of captions and Type of tips.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072822Z" creationid="Марианна" creationdate="20211005T160310Z">
+        <seg>Type of captions and Type of tooltips.</seg>
       </tuv>
     </tu>
     <tu>
