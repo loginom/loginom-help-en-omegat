@@ -1,6 +1,6 @@
 # ![Users](../images/icons/admin-system-objects/users_default.svg) Users
 
-This subsection enables to create users, edit them, distribute rights, select their authentification method and delete them. The section is a table with control buttons:
+This subsection enables to create users, edit them, distribute rights, select their authentification method and delete them. The section is a table with control buttons over it:
 
 * ![Add](../images/icons/toolbar-controls/plus_default.svg) **Add**: add a new user.
 * ![Edit](../images/icons/toolbar-controls/edit_default.svg) **Edit**: edit user.

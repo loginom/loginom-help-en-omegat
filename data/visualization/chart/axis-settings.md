@@ -14,7 +14,7 @@ It enables to set parameters according to the chart axes:
    * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
    * Set maximum value: when the checkbox is active, the value from 1,000 and higher is specified.
    * X field: the field is set for X axis. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
-   * Caption field: the field used to set X axis points marks. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
+   * Caption field: the field used to set the X axis points marks. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
 * **Left.**
    * Show grid: show/hide the horizontal lines of the chart grid. If there is no left axis, the grid is not configured.
    * Header: name of Y axis (from the left side).

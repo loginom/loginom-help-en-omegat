@@ -1,21 +1,21 @@
 # ![](../../images/icons/view_types/chart_default.svg) Chart
 
-Диаграмма визуально отображает зависимость значений одного поля от другого. Наиболее часто используемый вид диаграмм — двумерный график. По горизонтальной его оси откладываются значения независимого столбца, а по вертикальной — соответствующие им значения зависимого столбца.
+The chart visually shows dependence of values of one field on the other one. Two-dimensional chart is the most widely used type of charts. The independent column values are set on its horizontal axis, and the dependent column values that comply with them are set on its vertical axis.
 
 ## Interface
 
 ### Operations
 
 * ![](../../images/icons/toolbar-controls/fields-list_default.svg) Configure fields: show/hide the list of the data set fields.
-* ![](../../images/icons/toolbar-controls/setup_default.svg) [General settings](./general-settings.md): general chart settings. Окно настроек можно открыть с панели инструментов или двойным щелчком левой кнопки мыши в области построения диаграммы. Часть общих настроек (Повернуть на 90° – повернуть график, Нормировать, Навигатор, Анимация) вынесена на панель инструментов.
-* ![](../../images/icons/toolbar-controls/chart_default.svg) [Настройки серий](./series-settings.md) — настройки списка серий и параметров конкретных серий (графиков).
+* ![](../../images/icons/toolbar-controls/setup_default.svg) [General settings](./general-settings.md): general chart settings. It is possible to open the configuration window using the toolbar or by double clicking the charting area with the left mouce button. A part of general settings (Rotate 90° – rotate the chart, Rationing, Navigator, Animation) is available on the toolbar.
+* ![](../../images/icons/toolbar-controls/chart_default.svg) [Series editor](./series-settings.md): settings of the series list and parameters of particular series (graphic charts).
 * ![](../../images/icons/toolbar-controls/axis_default.svg) [Configure axes](./axis-settings.md).
-* ![](../../images/icons/toolbar-controls/animate_default.svg) Анимация — обновление данных отображается плавно.
-* ![](../../images/icons/toolbar-controls/normalize_default.svg) Нормировать — приводит все графики к одному масштабу.
-* ![](../../images/icons/toolbar-controls/telescope_default.svg) Навигатор — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Moving the navigator edge, it is possible to select the required chart area.
-* ![](../../images/icons/toolbar-controls/rotate-chart-clockwise_default.svg) Повернуть график — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
-* ![](../../images/icons/toolbar-controls/cursor_default.svg) Режим приближения — увеличивает масштаб просмотра выделенной области (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
-* ![](../../images/icons/toolbar-controls/hand_default.svg) Режим перетаскивания — позволяет передвигать диаграмму по экрану (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
+* ![](../../images/icons/toolbar-controls/animate_default.svg) Animation: data update is smoothly displayed.
+* ![](../../images/icons/toolbar-controls/normalize_default.svg) Rationing: set the same scale for all charts.
+* ![](../../images/icons/toolbar-controls/telescope_default.svg) Navigator: detail any chart section along the X axis, it is displayed under the axis. Moving the navigator edge, it is possible to select the required chart area.
+* ![](../../images/icons/toolbar-controls/rotate-chart-clockwise_default.svg) Rotate chart enables to reverse the axes positions, namely, the field along the X axis is moved to the Y axis, and vice versa, the Y axis becomes the X axis.
+* ![](../../images/icons/toolbar-controls/cursor_default.svg) Pointer mode enables to zoom in the selected area view (also refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
+* ![](../../images/icons/toolbar-controls/hand_default.svg) Drag mode enables to move the chart on the screen (refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
 * ![](../../images/icons/toolbar-controls/zoom-in_default.svg) Приблизить — приближает/увеличивает область диаграммы.
 * ![](../../images/icons/toolbar-controls/zoom-out_default.svg) Отдалить — отдаляет/уменьшает область диаграммы.
 * ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) Сбросить приближение — снимает все настройки приближения (по обеим осям).
@@ -28,43 +28,43 @@
 
 ### Chart Configuration
 
-The fields that can be used as the chart axes are displayed in the left list. Для этого необходимо, удерживая левой кнопкой мыши, перетащить (Drag&Drop) нужные поля в область построения диаграммы: в верхнюю часть — задается ось Y; в нижнюю часть — ось X. При задании оси Y происходит настройка добавления серии, а именно:
+The fields that can be used as the chart axes are displayed in the left list. For this purpose, it is required to drag (Drag&Drop) necessary fields to the chart construction area holding down with the left mouse button: to the upper part - the Y axis is st, to the lower part - the X axis is set. When setting the Y axis, the series addition is configured, namely:
 
 * **Type**: the chart type is set.
-* **Название** — название серии (т.е. конкретного графика). Данное название будет отображаться в легенде диаграммы;
+* **Name**: series name (namely, the definite graphic chart). This name will be displayed in the chart legend.
 * **Y field**: the field is set for Y axis.
-* **Поле цвета** — числовое поле, которое проецируется на цветовую шкалу.
+* **Color field**: the numeric field that is projected onto the color chart.
 
-При задании настроек оси X можно также воспользоваться кнопками в списке полей (справа от названия поля):
+When configuring the X axis settings, it is also possible to use the buttons in the fields list (to the right from the field name):
 
-* ![](../../images/icons/icons/icon1.svg) Использовать как поле абсцисс (CTRL+X);
-* ![](../../images/icons/icons/icon2.svg) Использовать как поле меток (Alt+L).
+* ![](../../images/icons/icons/icon1.svg) Use as abscissa field (CTRL+X);
+* ![](../../images/icons/icons/icon2.svg) Use as caption field (Alt+L).
 
-Таким образом, поле значений оси X и поле меток (обозначений делений оси) необязательно должны совпадать.
+Thus, the X axis values field and caption field (the axis points marks) must not necessarily coincide.
 
-Доступны следующие типы диаграмм:
+The following types of charts are available:
 
-* ![](../../images/icons/series_18/d1.svg) Линии;
-* ![](../../images/icons/series_18/d2.svg) Области;
-* ![](../../images/icons/series_18/d3.svg) Сплайны;
-* ![](../../images/icons/series_18/d4.svg) Столбчатая;
-* ![](../../images/icons/series_18/d7.svg) Области с интервалами;
-* ![](../../images/icons/series_18/d5.svg) Сглаженные области;
-* ![](../../images/icons/series_18/d8.svg) Сглаженные области с интервалами;
-* ![](../../images/icons/series_18/d9.svg) Пузырьковая;
-* ![](../../images/icons/series_18/d6.svg) Разброс;
-* ![](../../images/icons/series_18/d10.svg) Водопад;
-* ![](../../images/icons/series_18/d11.svg) Ошибки;
-* ![](../../images/icons/series_18/d12.svg) Полигон;
-* ![](../../images/icons/series_18/d13.svg) Столбчатая с интервалами;
-* Тепловая карта;
-* Японские свечи;
+* ![](../../images/icons/series_18/d1.svg) Lines;
+* ![](../../images/icons/series_18/d2.svg) Areas;
+* ![](../../images/icons/series_18/d3.svg) Splines;
+* ![](../../images/icons/series_18/d4.svg) Columns;
+* ![](../../images/icons/series_18/d7.svg) Interval areas;
+* ![](../../images/icons/series_18/d5.svg) Smoothed areas;
+* ![](../../images/icons/series_18/d8.svg) Smoothed areas with intervals;
+* ![](../../images/icons/series_18/d9.svg) Bubble;
+* ![](../../images/icons/series_18/d6.svg) Scatter;
+* ![](../../images/icons/series_18/d10.svg) Waterfall;
+* ![](../../images/icons/series_18/d11.svg) Errors;
+* ![](../../images/icons/series_18/d12.svg) Polygon;
+* ![](../../images/icons/series_18/d13.svg) Columns with ranges;
+* Heatmap;
+* Candlestick;
 * OHLC.
 
-Все основные настройки осуществляются либо через пункты контекстного меню (нажать правой кнопкой мыши в области диаграммы), либо с помощью кнопок на панели инструментов (сверху над диаграммой). Описание настроек диаграммы приведено выше в данной статье.
+All main settings are available either using the context menu options (it is required to press the chart area with the right mouse button), or the toolbar buttons (in the upper part over the chart). The chart settings are described above in this article.
 
-### Работа с построенной диаграммой
+### How to Use the Constructed Chart
 
-При работе с диаграммой предусмотрена возможность увеличения масштаба просмотра всей диаграммы или ее произвольной области. Для этого на панели инструментов нужно сделать активным ![](../../images/icons/toolbar-controls/cursor_default.svg) режим приближения и далее следует, удерживая левую кнопку мыши нажатой, выделить ту область диаграммы, которую нужно просмотреть более детально. Как только кнопка мыши будет отпущена, масштаб просмотра выделенной области будет увеличен. Для дальнейшего увеличения масштаба данную процедуру можно повторить. Чтобы детальнее рассмотреть диаграмму при заданном увеличении, необходимо сделать активным ![](../../images/icons/toolbar-controls/hand_default.svg) режим перетаскивания. Это позволит передвигать диаграмму по экрану.
+When using the chart, it is possible to zoom in the view of the whole chart or its random part. For this purpose, it is required to enable ![](../../images/icons/toolbar-controls/cursor_default.svg) pointer mode on the toolbar, and then it is required to select the chart area that must be viewed in more details by holding down the left mouse button. As soon as the mouse button is released, it will be possible to zoom in the selected area view. The procedure is to be repeated to zoom in again. To provide more detailed view of the chart with the set zooming in, it is required to enable the ![](../../images/icons/toolbar-controls/hand_default.svg) drag mode. It will enable to move the chart on the screen.
 
-Чтобы вернуться к исходному масштабу диаграммы, нужно воспользоваться — ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) сбросить приближение.
+To return to the initial chart scale, it is required to use ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) reset zoom.
