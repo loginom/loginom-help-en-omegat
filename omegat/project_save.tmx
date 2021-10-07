@@ -50023,8 +50023,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При работе с диаграммой предусмотрена возможность увеличения масштаба просмотра всей диаграммы или ее произвольной области.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151940Z" creationid="Марианна" creationdate="20211007T151940Z">
-        <seg>When using the chart, view scaling-up of the whole chart or its random part is possible.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T152912Z" creationid="Марианна" creationdate="20211007T151940Z">
+        <seg>When using the chart, it is possible to zoom in the view of the whole chart or its random part.</seg>
       </tuv>
     </tu>
     <tu>
