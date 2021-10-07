@@ -33628,6 +33628,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для дальнейшего увеличения масштаба данную процедуру можно повторить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153000Z" creationid="Марианна" creationdate="20211007T153000Z">
+        <seg>The procedure is to be repeated to zoom in again.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T194815Z" creationid="Марианна" creationdate="20210225T194815Z">
