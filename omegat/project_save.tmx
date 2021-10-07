@@ -56949,6 +56949,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Часть общих настроек (Повернуть на 90° – повернуть график, Нормировать, Навигатор, Анимация) вынесена на панель инструментов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145142Z" creationid="Марианна" creationdate="20211007T145142Z">
+        <seg>A part of general settings (Rotate 90° – rotate the chart, Rationing, Navigator, Animation) is available on the toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Часть полей исходного набора остается без изменений, образуя &lt;x1/&gt;строки&lt;x2/&gt; сводной таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T173616Z" creationid="Марианна" creationdate="20201022T173616Z">
