@@ -20106,6 +20106,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип накопления.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065250Z" creationid="Марианна" creationdate="20211007T065250Z">
+        <seg>&lt;x1/&gt;Stacking type.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип операции&lt;x2/&gt; — выбор способа слияния;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T105205Z" creationid="Марианна" creationdate="20201111T105017Z">
@@ -36280,6 +36288,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задание цвета через код Hex.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065106Z" creationid="Марианна" creationdate="20211007T065106Z">
+        <seg>Set the color via Hex code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задание цвета через код RGB.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065051Z" creationid="Марианна" creationdate="20211007T065051Z">
+        <seg>Set the color via RGB code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заданное значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T101537Z" creationid="Марианна" creationdate="20210407T101435Z">
@@ -37450,6 +37474,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T103701Z" creationid="Марианна" creationdate="20200929T103701Z">
         <seg>Primarily, only one root directory is available in the right field - &lt;x1/&gt;Root&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изящная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065012Z" creationid="Марианна" creationdate="20211007T065012Z">
+        <seg>Elegant.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44012,6 +44044,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обычное.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065319Z" creationid="Марианна" creationdate="20211007T065319Z">
+        <seg>Normal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обязательные поля:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T101256Z" creationid="Марианна" creationdate="20201011T101256Z">
@@ -45328,6 +45368,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092919Z" creationid="Марианна" creationdate="20201114T092919Z">
         <seg>&lt;x1/&gt;Incomplete records processing method&lt;x2/&gt; parameter provides the following methods:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр A — задается интенсивность выбранного цвета (от темного до светлого).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065231Z" creationid="Марианна" creationdate="20211007T065231Z">
+        <seg>Parameter A: intensity of the selected color is set (from the dark to the light one).</seg>
       </tuv>
     </tu>
     <tu>
@@ -52885,6 +52933,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T143929Z" creationid="Марианна" creationdate="20210919T143929Z">
         <seg>Composition of &lt;x1/&gt;Add shared folder&lt;x2/&gt;/&lt;x3/&gt;Configure shared folder&lt;x4/&gt; window:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Составная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065021Z" creationid="Марианна" creationdate="20211007T065021Z">
+        <seg>Composite.</seg>
       </tuv>
     </tu>
     <tu>
