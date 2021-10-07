@@ -33130,6 +33130,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Диаграмма визуально отображает зависимость значений одного поля от другого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T143859Z" creationid="Марианна" creationdate="20211007T143859Z">
+        <seg>The chart visually shows dependence of values of one field on the other one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Диапазон изменения значений от 1 до 4.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T195501Z" creationid="Марианна" creationdate="20201210T083536Z">
