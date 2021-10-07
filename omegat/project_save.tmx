@@ -5884,10 +5884,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выбранное поле вверх в списке очередности;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T063813Z" creationid="Марианна" creationdate="20211007T063813Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the selected field up in the order list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выделенное &lt;x5/&gt;Поле сортировки&lt;x6/&gt; вверх по списку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T142253Z" creationid="Марианна" creationdate="20201115T142253Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the selected &lt;x5/&gt;Sort field&lt;x6/&gt; up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — перемещает выбранное поле вниз в списке очередности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T063838Z" creationid="Марианна" creationdate="20211007T063838Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the selected field down in the order list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54321,6 +54337,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T223525Z" creationid="Марианна" creationdate="20201217T223525Z">
         <seg>&lt;x1/&gt;Neural gas&lt;x2/&gt; is one ot the types of self-organizing networks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также переместить поле можно, выбрав нужное поле вызвать выпадающее меню и нажать пункт &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; или &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Переместить вниз&lt;x8/&gt;, в зависимости от нужного действия.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064056Z" creationid="Марианна" creationdate="20211007T064056Z">
+        <seg>It is also possible to move the field by selecting the required field and calling the drop-down menu. Then press &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; or &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Move down&lt;x8/&gt; depending on the required action.</seg>
       </tuv>
     </tu>
     <tu>
