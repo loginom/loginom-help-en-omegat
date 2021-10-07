@@ -39201,6 +39201,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как только кнопка мыши будет отпущена, масштаб просмотра выделенной области будет увеличен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T152809Z" creationid="Марианна" creationdate="20211007T152809Z">
+        <seg>As soon as the mouse button is released, it will be possible to zoom in the selected area view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Как узнать версию Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T161327Z" creationid="Марианна" creationdate="20200818T161327Z">
