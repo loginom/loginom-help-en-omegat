@@ -20970,6 +20970,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Цвет фона&lt;x2/&gt; — по умолчанию установлен белый (FFFFFFFF), однако цвет можно изменить, используя для этого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064742Z" creationid="Марианна" creationdate="20211007T064742Z">
+        <seg>&lt;x1/&gt;Background color&lt;x2/&gt;: the white color (FFFFFFFF) is set by default. However, it is possible to change the color using the following tools for this purpose.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Цветовая схема.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T064542Z" creationid="Марианна" creationdate="20211007T064542Z">
@@ -45156,6 +45164,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Палитру цветов — нужный цвет выбирается с помощью мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064933Z" creationid="Марианна" creationdate="20211007T064933Z">
+        <seg>Color palette: the required color is selected using the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Панель «Процессы»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090905Z" creationid="Марианна" creationdate="20200817T061308Z">
@@ -52913,6 +52929,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Спектр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065001Z" creationid="Марианна" creationdate="20211007T065001Z">
+        <seg>Spectrum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Списки можно связать автоматически, воспользовавшись кнопкой &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Связать автоматически&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T131751Z" creationid="Марианна" creationdate="20200918T092757Z">
@@ -55009,6 +55033,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T051727Z" creationid="Марианна" creationdate="20210224T051727Z">
         <seg>Types of the table field data and linked item must coincide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Типы палитры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064948Z" creationid="Марианна" creationdate="20211007T064948Z">
+        <seg>Palette types.</seg>
       </tuv>
     </tu>
     <tu>
