@@ -49443,6 +49443,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При задании оси Y происходит настройка добавления серии, а именно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T154209Z" creationid="Марианна" creationdate="20211007T154209Z">
+        <seg>When setting the Y axis, the series addition is configured, namely:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При задании пользовательского формата используются следующие наборы символов форматирования:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082553Z" creationid="Марианна" creationdate="20200918T082553Z">
