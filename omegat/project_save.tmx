@@ -40557,6 +40557,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метка, процент, итог — одновременно отображаются метка, процентное соотношение и итог.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072434Z" creationid="Марианна" creationdate="20211007T072434Z">
+        <seg>Caption, percent, total: caption, percentage and total are displayed at the same time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151144Z" creationid="Марианна" creationdate="20201111T151144Z">
