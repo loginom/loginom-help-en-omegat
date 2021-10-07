@@ -5812,6 +5812,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройки серий&lt;x4/&gt; — настройки списка серий и параметров конкретных серий (графиков).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145247Z" creationid="Марианна" creationdate="20211007T145247Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Series Editor&lt;x4/&gt;: settings of the series list and parameters of particular series (graphic charts).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Обновить список&lt;x4/&gt; — отображает актуальное содержание текущей директории.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T093021Z" creationid="Марианна" creationdate="20210925T093021Z">
