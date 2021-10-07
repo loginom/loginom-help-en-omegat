@@ -11425,6 +11425,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Группировать колонки&lt;x2/&gt; — данный параметр работает при столбчатых диаграммах и позволяет располагать столбцы рядом друг с другом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T074346Z" creationid="Марианна" creationdate="20211007T074346Z">
+        <seg>&lt;x1/&gt;Group columns&lt;x2/&gt;: this parameter is required for column charts and it enables to locate the columns near each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Группировка&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185954Z" creationid="Марианна" creationdate="20200810T185954Z">
@@ -45968,6 +45976,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T124110Z" creationid="Марианна" creationdate="20200823T124110Z">
         <seg>It is impossible to transfer internal instance 1C variables to the request (for example, objects or references of documents and reference textbooks).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Передвигая край навигатора, можно выбрать необходимую область диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T074145Z" creationid="Марианна" creationdate="20211007T074145Z">
+        <seg>Moving the navigator edge, it is possible to select the required chart area.</seg>
       </tuv>
     </tu>
     <tu>
