@@ -17880,6 +17880,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, из-под которого запущен сервер Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064336Z" creationid="Марианна" creationdate="20211007T064336Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Comparison and sorting of characters are performed according to the local settings of the user that started the Loginom server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, под учетной записью которого запущен Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T141320Z" creationid="Марианна" creationdate="20201115T142706Z">
