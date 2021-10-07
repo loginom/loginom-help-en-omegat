@@ -57405,6 +57405,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы вернуться к исходному масштабу диаграммы, нужно воспользоваться — &lt;x1/&gt;&lt;x2/&gt; сбросить приближение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153908Z" creationid="Марианна" creationdate="20211007T153908Z">
+        <seg>To return to the initial chart scale, it is required to use &lt;x1/&gt;&lt;x2/&gt; reset zoom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг &lt;x3/&gt;Добавлять присоединяемые ключевые поля&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133522Z" creationid="Марианна" creationdate="20201109T195545Z">
@@ -57993,6 +58001,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T064731Z" creationid="Марианна" creationdate="20201116T064731Z">
         <seg>It must be taken into account if &lt;x5/&gt;&lt;null&gt;&lt;x6/&gt; values to be replaced with other values are present in the data, or it is required to replace some values with &lt;x7/&gt;&lt;null&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это позволит передвигать диаграмму по экрану.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153821Z" creationid="Марианна" creationdate="20211007T153821Z">
+        <seg>ЭIt will enable to move the chart on the screen.</seg>
       </tuv>
     </tu>
     <tu>
