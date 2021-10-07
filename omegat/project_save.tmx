@@ -31452,8 +31452,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Все основные настройки осуществляются либо через пункты контекстного меню (нажать правой кнопкой мыши в области диаграммы), либо с помощью кнопок на панели инструментов (сверху над диаграммой).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151426Z" creationid="Марианна" creationdate="20211007T151426Z">
-        <seg>All main settings are available either using the context menu options (it is required to press the chart area with the right mouse button), or using the toolbar buttons (in the upper part over the chart).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151528Z" creationid="Марианна" creationdate="20211007T151426Z">
+        <seg>All main settings are available either using the context menu options (it is required to press the chart area with the right mouse button), or the toolbar buttons (in the upper part over the chart).</seg>
       </tuv>
     </tu>
     <tu>
@@ -44836,6 +44836,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Описание настроек диаграммы приведено выше в данной статье.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151609Z" creationid="Марианна" creationdate="20211007T151609Z">
+        <seg>The chart settings are described above in this article.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Описание ошибки — описание кодов завершения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135821Z" creationid="Марианна" creationdate="20210220T151045Z">
@@ -51425,6 +51433,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Работа с построенной диаграммой</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151728Z" creationid="Марианна" creationdate="20211007T151728Z">
+        <seg>How to Use the Constructed Chart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Работает в связке с &lt;x3/&gt;IIS&lt;x4/&gt;, создавая в нем отдельное приложение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T223126Z" creationid="Марианна" creationdate="20210210T223126Z">
@@ -51515,8 +51531,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Раздел представляет из себя таблицу, с кнопками управления над ней:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210919T174015Z" creationid="Марианна" creationdate="20210919T174015Z">
-        <seg>The section is a table with control buttons:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151440Z" creationid="Марианна" creationdate="20210919T174015Z">
+        <seg>The section is a table with control buttons over it:</seg>
       </tuv>
     </tu>
     <tu>
