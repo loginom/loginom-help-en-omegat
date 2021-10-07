@@ -34993,6 +34993,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого на панели инструментов нужно сделать активным &lt;x1/&gt;&lt;x2/&gt; режим приближения и далее следует, удерживая левую кнопку мыши нажатой, выделить ту область диаграммы, которую нужно просмотреть более детально.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T152413Z" creationid="Марианна" creationdate="20211007T152413Z">
+        <seg>For this purpose, it is required to enable &lt;x1/&gt;&lt;x2/&gt; pointer mode on the toolbar, and then it is required to select the chart area that must be viewed in more details by holding down the left mouse button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого не требуются дополнительные настройки, достаточно выполнить параллельное соединение узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T155351Z" creationid="Марианна" creationdate="20211001T155142Z">
@@ -50001,6 +50009,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210202T105836Z" creationid="Марианна" creationdate="20210202T105836Z">
         <seg>When the string is empty, connection to &lt;x1/&gt;localhost&lt;x2/&gt; is provided in the field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При работе с диаграммой предусмотрена возможность увеличения масштаба просмотра всей диаграммы или ее произвольной области.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151940Z" creationid="Марианна" creationdate="20211007T151940Z">
+        <seg>When using the chart, view scaling-up of the whole chart or its random part is possible.</seg>
       </tuv>
     </tu>
     <tu>
