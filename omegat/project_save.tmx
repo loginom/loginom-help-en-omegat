@@ -15019,8 +15019,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Нормировать&lt;x2/&gt; — приводит все графики к одному масштабу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T073420Z" creationid="Марианна" creationdate="20211007T073420Z">
-        <seg>&lt;x1/&gt;Rationing&lt;x2/&gt;: .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T073946Z" creationid="Марианна" creationdate="20211007T073420Z">
+        <seg>&lt;x1/&gt;Rationing&lt;x2/&gt;: set the same scale for all charts.</seg>
       </tuv>
     </tu>
     <tu>
