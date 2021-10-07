@@ -47998,6 +47998,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После выбора всех настроек нажать кнопку &lt;x1/&gt;Сортировать&lt;x2/&gt; для применения сортировки в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064219Z" creationid="Марианна" creationdate="20211007T064219Z">
+        <seg>When all settings are selected, it is required to press &lt;x1/&gt;Sort&lt;x2/&gt; to enable sorting in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После выбора пакета пользователь попадает в рабочее пространство программы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T080920Z" creationid="Марианна" creationdate="20200716T122939Z">
