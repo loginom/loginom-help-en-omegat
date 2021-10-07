@@ -50897,6 +50897,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Процент — выводится процентное соотношение данного элемента к итоговому результату.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065649Z" creationid="Марианна" creationdate="20211007T065649Z">
+        <seg>Percent: </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Процент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211006T130528Z" creationid="Марианна" creationdate="20211005T154557Z">
