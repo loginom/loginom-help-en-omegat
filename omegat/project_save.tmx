@@ -6244,6 +6244,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Водопад;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151110Z" creationid="Марианна" creationdate="20211007T151110Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Waterfall;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Входной источник данных (таблица данных), необязательный;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T054339Z" creationid="Марианна" creationdate="20201109T054024Z">
@@ -6604,6 +6612,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Ошибки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151116Z" creationid="Марианна" creationdate="20211007T151116Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Errors;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Переменный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T084039Z" creationid="Марианна" creationdate="20201030T083331Z">
@@ -6724,6 +6740,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Полигон;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151125Z" creationid="Марианна" creationdate="20211007T151125Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Polygon;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Полное описание API</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201025T053723Z" creationid="Марианна" creationdate="20201025T053723Z">
@@ -6756,6 +6780,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Пузырьковая;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151050Z" creationid="Марианна" creationdate="20211007T151050Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Bubble;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Разброс;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151101Z" creationid="Марианна" creationdate="20211007T151101Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Scatter;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Развернуть/Свернуть &lt;x3/&gt;подмодель&lt;x4/&gt; — позволяет свернуть выделенные узлы в Подмодель или развернуть выделенную Подмодель на составные узлы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T093617Z" creationid="Марианна" creationdate="20200819T133332Z">
@@ -6784,6 +6824,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T065456Z" creationid="Марианна" creationdate="20211007T065456Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Top.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сглаженные области с интервалами;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151039Z" creationid="Марианна" creationdate="20211007T151039Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Smoothed areas with intervals;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6880,6 +6928,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T065534Z" creationid="Марианна" creationdate="20211007T065534Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Столбчатая с интервалами;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151136Z" creationid="Марианна" creationdate="20211007T151136Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Columns with ranges;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31394,6 +31450,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Все основные настройки осуществляются либо через пункты контекстного меню (нажать правой кнопкой мыши в области диаграммы), либо с помощью кнопок на панели инструментов (сверху над диаграммой).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151426Z" creationid="Марианна" creationdate="20211007T151426Z">
+        <seg>All main settings are available either using the context menu options (it is required to press the chart area with the right mouse button), or using the toolbar buttons (in the upper part over the chart).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все параметры пользователей, за исключением параметра &lt;x13/&gt;Пароль&lt;x14/&gt;, отображаются в таблице подраздела.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T153142Z" creationid="Марианна" creationdate="20210919T153142Z">
@@ -55229,6 +55293,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тепловая карта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151145Z" creationid="Марианна" creationdate="20211007T151145Z">
+        <seg>Heatmap;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Термин скользящее окно отражает сущность обработки — выделяется некоторый непрерывный отрезок данных, называемый окном, а окно, в свою очередь, перемещается, "скользит" по всему исходному набору данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T081440Z" creationid="Марианна" creationdate="20201114T075658Z">
@@ -57993,6 +58065,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T171847Z" creationid="Марианна" creationdate="20201020T171847Z">
         <seg>It is not required to import &lt;x5/&gt;functions &lt;x6/&gt;of the Calculator&lt;x7/&gt;&lt;x8/&gt; distinctly (as it is done in the &lt;x9/&gt;component &lt;x10/&gt; of JavaScript&lt;x11/&gt;&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Японские свечи;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T151202Z" creationid="Марианна" creationdate="20211007T151202Z">
+        <seg>Candlestick;</seg>
       </tuv>
     </tu>
     <tu>
