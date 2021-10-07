@@ -14337,6 +14337,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Навигатор&lt;x2/&gt; — позволяет детализировать по оси X какой-либо участок диаграммы (отображается снизу под осью).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T074105Z" creationid="Марианна" creationdate="20211007T074105Z">
+        <seg>&lt;x1/&gt;Navigator&lt;x2/&gt;: detail any chart section along the X axis (it is displayed under the axis).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Навигация.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T122717Z" creationid="Марианна" creationdate="20200814T122717Z">
