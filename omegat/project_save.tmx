@@ -6676,6 +6676,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Повернуть график — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T155224Z" creationid="Марианна" creationdate="20211007T155224Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Rotate chart enables to reverse the axes positions, namely, the field along the X axis is moved to the Y axis, and vice versa, the Y axis becomes the X axis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Подключение REST-сервиса</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133439Z" creationid="Марианна" creationdate="20210205T113838Z">
