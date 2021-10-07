@@ -13673,6 +13673,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Легенда&lt;x2/&gt; — настройка положения относительно диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T073152Z" creationid="Марианна" creationdate="20211007T073152Z">
+        <seg>&lt;x1/&gt;Legend&lt;x2/&gt;: position configuration relative to the chart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055729Z" creationid="Марианна" creationdate="20200812T055729Z">
@@ -15303,8 +15311,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Объединять подсказки&lt;x2/&gt; — объединяет всплывающие подсказки всех серий (при наведении курсором мыши на серию), если для каждой серии они были настроены отдельно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T072719Z" creationid="Марианна" creationdate="20211007T072719Z">
-        <seg>&lt;x1/&gt;Combine tooltips&lt;x2/&gt; — объединяет всплывающие подсказки всех серий (при наведении курсором мыши на серию), если для каждой серии они были настроены отдельно.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T073029Z" creationid="Марианна" creationdate="20211007T072719Z">
+        <seg>&lt;x1/&gt;Combine tooltips&lt;x2/&gt; enables to combine the pop-up tooltips of all series (when hovering cursor over the series) if they have been separately configured for each series.</seg>
       </tuv>
     </tu>
     <tu>
