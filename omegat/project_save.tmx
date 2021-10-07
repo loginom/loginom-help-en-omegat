@@ -41902,6 +41902,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Наиболее часто используемый вид диаграмм — двумерный график.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T144321Z" creationid="Марианна" creationdate="20211007T144321Z">
+        <seg>Two-dimensional chart is the most widely used type of charts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Наибольшее допустимое количество классов, создаваемое обработчиком для столбца.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T121902Z" creationid="Марианна" creationdate="20210530T121902Z">
