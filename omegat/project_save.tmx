@@ -49435,6 +49435,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При задании настроек оси X можно также воспользоваться кнопками в списке полей (справа от названия поля):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T153741Z" creationid="Марианна" creationdate="20211007T153741Z">
+        <seg>When configuring the X axis settings, it is also possible to use the buttons in the fields list (to the right from the field name):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При задании пользовательского формата используются следующие наборы символов форматирования:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T082553Z" creationid="Марианна" creationdate="20200918T082553Z">
