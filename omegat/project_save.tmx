@@ -20082,6 +20082,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип децимации.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064515Z" creationid="Марианна" creationdate="20211007T064515Z">
+        <seg>&lt;x1/&gt;Decimation type.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип значения&lt;x2/&gt; — содержит пояснения к каждому коду типа значения, где.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070817Z" creationid="Марианна" creationdate="20201126T070817Z">
@@ -20958,6 +20966,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193803Z" creationid="Марианна" creationdate="20200916T193803Z">
         <seg>&lt;x1/&gt;File storage&lt;x2/&gt; enables to display information on method of connection to the destination file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Цветовая схема.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064542Z" creationid="Марианна" creationdate="20211007T064542Z">
+        <seg>&lt;x1/&gt;Color scheme.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -46212,6 +46228,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Песчаная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064625Z" creationid="Марианна" creationdate="20211007T064625Z">
+        <seg>Sand.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пирсона</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T062029Z" creationid="Марианна" creationdate="20201012T062029Z">
@@ -54761,6 +54785,22 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T154258Z" creationid="Марианна" creationdate="20211005T154258Z">
         <seg>Dark.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Темно-зеленая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064604Z" creationid="Марианна" creationdate="20211007T064604Z">
+        <seg>Dark green.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Темно-синяя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T064554Z" creationid="Марианна" creationdate="20211007T064554Z">
+        <seg>Dark blue.</seg>
       </tuv>
     </tu>
     <tu>
