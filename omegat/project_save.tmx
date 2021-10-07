@@ -6516,6 +6516,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Не отображать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065523Z" creationid="Марианна" creationdate="20211007T065523Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Disabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Непрерывный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083438Z" creationid="Марианна" creationdate="20201030T083438Z">
@@ -6716,6 +6724,38 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сверху.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065456Z" creationid="Марианна" creationdate="20211007T065456Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Top.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Слева снизу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065544Z" creationid="Марианна" creationdate="20211007T065544Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Bottom left.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Слева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065514Z" creationid="Марианна" creationdate="20211007T065514Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Left.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Снизу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065558Z" creationid="Марианна" creationdate="20211007T065558Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Bottom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Соединение</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T160922Z" creationid="Марианна" creationdate="20201018T160922Z">
@@ -6736,6 +6776,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T114550Z" creationid="Марианна" creationdate="20201115T114550Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Sort</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Справа сверху.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065504Z" creationid="Марианна" creationdate="20211007T065504Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Top right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Справа снизу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065608Z" creationid="Марианна" creationdate="20211007T065608Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Bottom right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Справа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T065534Z" creationid="Марианна" creationdate="20211007T065534Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Right.</seg>
       </tuv>
     </tu>
     <tu>
