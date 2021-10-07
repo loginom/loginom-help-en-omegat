@@ -34393,6 +34393,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того чтобы изменить очередность сортировки, над таблицей сортируемых полей расположены кнопки перемещения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T063710Z" creationid="Марианна" creationdate="20211007T063710Z">
+        <seg>To change the sorting order, the navigational buttons are located above the table of sorted fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того чтобы использовать в сценарии какой-либо компонент, его необходимо перенести мышью из панели компонентов в область построения сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T085159Z" creationid="Марианна" creationdate="20200717T085159Z">
