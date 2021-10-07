@@ -6620,6 +6620,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Отдалить — отдаляет/уменьшает область диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T155904Z" creationid="Марианна" creationdate="20211007T155904Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Zoom out enables to zoom out the chart area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Отчет по регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172534Z" creationid="Марианна" creationdate="20211005T172534Z">
@@ -6864,6 +6872,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T154720Z" creationid="Марианна" creationdate="20211007T154720Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Pointer mode enables to zoom in the selected area view (also refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сбросить приближение Y — снимает приближение диаграммы по оси Y, но оставляет приближение по оси X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T160130Z" creationid="Марианна" creationdate="20211007T160130Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Reset zoom Y enables to reset zooming in of the chart along the Y axis but the X axis zooming in is preserved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Сбросить приближение — снимает все настройки приближения (по обеим осям).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T155947Z" creationid="Марианна" creationdate="20211007T155947Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Reset zoom enables to reset all zoom in settings (for both axes).</seg>
       </tuv>
     </tu>
     <tu>
