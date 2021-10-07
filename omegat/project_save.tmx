@@ -44508,6 +44508,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Окно настроек можно открыть с панели инструментов или двойным щелчком левой кнопки мыши в области построения диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145012Z" creationid="Марианна" creationdate="20211007T145012Z">
+        <seg>It is possible to open the configuration window using the toolbar or by double clicking the charting area with the left mouce button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Окно настроек содержит области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T193731Z" creationid="Марианна" creationdate="20201004T193731Z">
