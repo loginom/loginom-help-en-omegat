@@ -35097,6 +35097,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого необходимо, удерживая левой кнопкой мыши, перетащить (Drag&amp;Drop) нужные поля в область построения диаграммы: в верхнюю часть — задается ось Y; в нижнюю часть — ось X.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T154539Z" creationid="Марианна" creationdate="20211007T154539Z">
+        <seg>For this purpose, it is required to drag (Drag&amp;Drop) necessary fields to the chart construction area holding down with the left mouse button: to the upper part - the Y axis is st, to the lower part - the X axis is set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого нужно выбрать метку и нажать на кнопку &lt;x3/&gt; &lt;x4/&gt; на линии связи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T195847Z" creationid="Марианна" creationdate="20210225T195847Z">
