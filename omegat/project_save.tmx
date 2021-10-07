@@ -6836,6 +6836,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Режим перетаскивания — позволяет передвигать диаграмму по экрану (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T154803Z" creationid="Марианна" creationdate="20211007T154803Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Drag mode enables to move the chart on the screen (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Режим приближения — увеличивает масштаб просмотра выделенной области (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T154720Z" creationid="Марианна" creationdate="20211007T154720Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Pointer mode enables to zoom in the selected area view (also refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Сверху.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T065456Z" creationid="Марианна" creationdate="20211007T065456Z">
@@ -58031,8 +58047,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Это позволит передвигать диаграмму по экрану.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T153821Z" creationid="Марианна" creationdate="20211007T153821Z">
-        <seg>ЭIt will enable to move the chart on the screen.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T154809Z" creationid="Марианна" creationdate="20211007T153821Z">
+        <seg>It will enable to move the chart on the screen.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59593,6 +59609,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T085306Z" creationid="Марианна" creationdate="20200929T085306Z">
         <seg>&lt;x1/&gt;Web Services&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>также &lt;x3/&gt;Работа с построенной диаграммой&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T154614Z" creationid="Марианна" creationdate="20211007T154614Z">
+        <seg>&lt;x3/&gt;How to Use the Constructed Chart&lt;x4/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
