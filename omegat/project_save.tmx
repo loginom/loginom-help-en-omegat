@@ -40533,6 +40533,30 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Метка — выводятся подсказки, необходимые для понимания смысла того или иного элемента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T071931Z" creationid="Марианна" creationdate="20211007T071931Z">
+        <seg>Caption: the tips necessary to understand the meaning of this or that element are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метка, значение — одновременно выводятся и метки, и значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072044Z" creationid="Марианна" creationdate="20211007T072044Z">
+        <seg>Caption, value: both captions, and values are displayed at the same time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метка, процент — одновременно выводятся и метки, и проценты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072013Z" creationid="Марианна" creationdate="20211007T072013Z">
+        <seg>Caption, percent: both captions, and percents are displayed at the same time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Метки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T151144Z" creationid="Марианна" creationdate="20201111T151144Z">
@@ -50901,6 +50925,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T071835Z" creationid="Марианна" creationdate="20211007T065649Z">
         <seg>Percent: percentage of this element to the final result is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Процент, итог — одновременно выводятся и процентное отношение элемента ко всему итоговому результату, и сам этот результат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T072323Z" creationid="Марианна" creationdate="20211007T072323Z">
+        <seg>Percent, total: both percentage of the element to the final result, and the result as such are displayed at the same time.</seg>
       </tuv>
     </tu>
     <tu>
