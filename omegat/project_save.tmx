@@ -5814,8 +5814,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройки серий&lt;x4/&gt; — настройки списка серий и параметров конкретных серий (графиков).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T145247Z" creationid="Марианна" creationdate="20211007T145247Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Series Editor&lt;x4/&gt;: settings of the series list and parameters of particular series (graphic charts).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145317Z" creationid="Марианна" creationdate="20211007T145247Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Series editor&lt;x4/&gt;: settings of the series list and parameters of particular series (graphic charts).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6196,6 +6196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Анимация — обновление данных отображается плавно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145359Z" creationid="Марианна" creationdate="20211007T145359Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Animation: data update is smoothly displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вертикальное выравнивание — позволяет выровнять вертикально узлы Сценария на области построения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T131730Z" creationid="Марианна" creationdate="20200819T131730Z">
@@ -6476,6 +6484,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Навигатор — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145507Z" creationid="Марианна" creationdate="20211007T145507Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Navigator: detail any chart section along the X axis, it is displayed under the axis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Назначение не задано</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083720Z" creationid="Марианна" creationdate="20201030T083720Z">
@@ -6544,6 +6560,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T083747Z" creationid="Марианна" creationdate="20201030T083747Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Useless</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Нормировать — приводит все графики к одному масштабу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T145421Z" creationid="Марианна" creationdate="20211007T145421Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Rationing: set the same scale for all charts.</seg>
       </tuv>
     </tu>
     <tu>
