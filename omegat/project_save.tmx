@@ -46596,6 +46596,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По горизонтальной его оси откладываются значения независимого столбца, а по вертикальной — соответствующие им значения зависимого столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T144534Z" creationid="Марианна" creationdate="20211007T144534Z">
+        <seg>The independent column values are set on its horizontal axis, and the dependent column values that comply with them are set on its vertical axis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По данным полям можно отсортировать список по возрастанию &lt;x1/&gt; &lt;x2/&gt;, по убыванию &lt;x3/&gt; &lt;x4/&gt; либо отменить сортировку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T134511Z" creationid="Марианна" creationdate="20200816T134511Z">
