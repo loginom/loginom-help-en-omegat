@@ -15017,6 +15017,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нормировать&lt;x2/&gt; — приводит все графики к одному масштабу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T073420Z" creationid="Марианна" creationdate="20211007T073420Z">
+        <seg>&lt;x1/&gt;Rationing&lt;x2/&gt;: .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область видимости&lt;x2/&gt; — доступность Производного компонента на разных уровнях Пакета, задается радиокнопкой:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T175717Z" creationid="Марианна" creationdate="20210930T175717Z">
@@ -16369,6 +16377,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204124Z" creationid="Марианна" creationdate="20210203T204124Z">
         <seg>In the case of &lt;x1/&gt;Default&lt;x2/&gt;, the FULL mode is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Повернуть на 90°&lt;x2/&gt; — поворачивает диаграмму на 90°.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T073348Z" creationid="Марианна" creationdate="20211007T073348Z">
+        <seg>&lt;x1/&gt;Rotate 90°&lt;x2/&gt;: rotate the chart 90°.</seg>
       </tuv>
     </tu>
     <tu>
