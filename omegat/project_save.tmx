@@ -6732,6 +6732,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Слева сверху.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211007T073205Z" creationid="Марианна" creationdate="20211007T073205Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Top left.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Слева снизу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T065544Z" creationid="Марианна" creationdate="20211007T065544Z">
