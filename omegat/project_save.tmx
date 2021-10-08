@@ -14225,6 +14225,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка кластера&lt;x2/&gt; — колонки с количеством значений в колонках гистограмм кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T101852Z" creationid="Марианна" creationdate="20211008T101852Z">
+        <seg>&lt;x1/&gt;Class caption&lt;x2/&gt;: columns with the number of values in the cluster histograms columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка поля|Округлено&lt;x2/&gt; — поле содержит округленные разгруппируемые значения (в случае применения округления).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T065553Z" creationid="Марианна" creationdate="20201126T065553Z">
@@ -45480,6 +45488,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T161512Z" creationid="Марианна" creationdate="20201006T161512Z">
         <seg>It displays the input variables and replacement method for each variable:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отображается при включенной опции &lt;x3/&gt;Показывать генеральную совокупность в гистограммах&lt;x4/&gt; в &lt;x5/&gt;Панели инструментов&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T102014Z" creationid="Марианна" creationdate="20211008T102014Z">
+        <seg>It is displayed when &lt;x3/&gt;Show universal set in histograms&lt;x4/&gt; option in the &lt;x5/&gt;Toolbar&lt;x6/&gt; is enabled.</seg>
       </tuv>
     </tu>
     <tu>
