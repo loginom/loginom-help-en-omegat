@@ -1,10 +1,10 @@
-# ![Панель сравнения кластеров](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/scales_default.svg) Панель сравнения кластеров
+# ![Cluster Comparison Panel](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/scales_default.svg) Cluster Comparison Panel
 
-Содержит сравнительную информацию по [кластерам](https://wiki.loginom.ru/articles/cluster.html), выделенным в [*Основной таблице*](./main-table.md). Цветовое кодирование и порядок кластеров совпадает с цветами и порядком выделения ячеек в *Основной таблице*.
+It contains the comparative information on the [clusters](https://wiki.loginom.ru/articles/cluster.html) selected in the [*Main table*](./main-table.md). Color coding and order of clusters matches the colors and selection order of cells in the *Main table*.
 
-![Панель сравнения кластеров.](./images/cluster-profilies-comparison-panel.png)
+![Cluster Comparison Panel.](./images/cluster-profilies-comparison-panel.png)
 
-*Панель сравнения кластеров* условно можно разделить на две области (см. Рис 1):
+*Cluster comparison panel* can be conventionally divided into two areas (refer to Figure 1):
 
 1. **Верхняя часть панели** — содержит сравнительную гистограмму кластеров, в одной области совмещены гистограммы кластеров и [генеральной совокупности](https://wiki.loginom.ru/articles/general-population.html). Верхняя часть панели содержит единственную настройку гистограммы в дополнении к общим настройкам гистограмм на [*Панели инструментов*](./toolbar.md):
    * ![Накопительная диаграмма](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/stacked-histogram_default.svg) **Накопительная диаграмма** — отображает один составной столбец, разбитый на цветные области, соответствующие кластерам.

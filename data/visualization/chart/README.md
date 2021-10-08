@@ -16,11 +16,11 @@ The chart visually shows dependence of values of one field on the other one. Two
 * ![](../../images/icons/toolbar-controls/rotate-chart-clockwise_default.svg) Rotate chart enables to reverse the axes positions, namely, the field along the X axis is moved to the Y axis, and vice versa, the Y axis becomes the X axis.
 * ![](../../images/icons/toolbar-controls/cursor_default.svg) Pointer mode enables to zoom in the selected area view (also refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
 * ![](../../images/icons/toolbar-controls/hand_default.svg) Drag mode enables to move the chart on the screen (refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
-* ![](../../images/icons/toolbar-controls/zoom-in_default.svg) Приблизить — приближает/увеличивает область диаграммы.
-* ![](../../images/icons/toolbar-controls/zoom-out_default.svg) Отдалить — отдаляет/уменьшает область диаграммы.
-* ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) Сбросить приближение — снимает все настройки приближения (по обеим осям).
-* ![](../../images/icons/toolbar-controls/zoom-vert_default.svg) Сбросить приближение Y — снимает приближение диаграммы по оси Y, но оставляет приближение по оси X.
-* ![](../../images/icons/toolbar-controls/import_default.svg) Экспорт — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. В данном пункте меню будет отображаться название того формата, который выбран для экспорта:
+* ![](../../images/icons/toolbar-controls/zoom-in_default.svg) Zoom in enables to zoom in the chart area.
+* ![](../../images/icons/toolbar-controls/zoom-out_default.svg) Zoom out enables to zoom out the chart area.
+* ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) Reset zoom enables to reset all zoom in settings (for both axes).
+* ![](../../images/icons/toolbar-controls/zoom-vert_default.svg) Reset zoom Y enables to reset zooming in of the chart along the Y axis but the X axis zooming in is preserved.
+* ![](../../images/icons/toolbar-controls/import_default.svg) Export enables to save the chart as it is displayed in the view window in the file with an image. The name of the format that has been selected for export will be displayed in this menu option:
    * Export to SVG.
    * Export to PNG.
    * Export to JPG.

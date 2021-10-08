@@ -10,18 +10,18 @@ The configuration window consists of two parts: configuration of the series list
    * ![](../../images/icons/toolbar-controls/movedown_default.svg) Move down.
    * ![](../../images/icons/toolbar-controls/delete-all_default.svg) Delete all.
    * ![](../../images/icons/toolbar-controls/delete_default.svg) Delete a given series.
-* **Configure sereis parameters.**
+* **Configure series parameters.**
    * **Main.**
       * Type: the chart type is set (the types are listed in the article below).
-      * Название — название серии, как правило, соответствует названию поля, из которого берутся значения для построения диаграммы.
+      * Name: generally, the series name matches the name of the field from which the values for chart construction are taken.
       * Y field: the field is set for Y axis.
-      * Поле цвета — числовое поле, которое проецируется на цветовую шкалу.
+      * Color field: the numeric field that is projected onto the color chart.
    * **Additional.**
       * Axis: location of Y axis relative to the chart.
          * Left.
          * Right.
       * Color: the chart color is specified.
-         * Палитра цветов — нужный цвет выбирается с помощью мыши. Palette types.
+         * Color palette: the required color is selected using the mouse. Palette types.
             * Spectrum.
             * Elegant.
             * Composite.
@@ -29,8 +29,8 @@ The configuration window consists of two parts: configuration of the series list
          * Set the color via Hex code.
          * Parameter A: intensity of the selected color is set (from the dark to the light one).
          * ![](../../images/icons/toolbar-controls/undo_default.svg) button: return the default color.
-      * Ширина линии — параметр задает толщину линии, возможное значение от 0 до 30.
-      * Размер точки — возможное значение от 0 до 30.
+      * Line width: the parameter enables to set the line width. Possible value varies from 0 to 30.
+      * Point size: possible value varies from 0 to 30.
       * Type of captions and Type of tooltips.
          * No: captions are not dispalyed.
          * Value: the value displayed by the chart element is represented.
