@@ -51809,6 +51809,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Размер точки — возможное значение от 0 до 30.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095313Z" creationid="Марианна" creationdate="20211008T095313Z">
+        <seg>Point size: possible value varies from 0 to 30.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Размер этих выборок можно настроить, а отбор записей для них производится на основе выбранного метода сэмплинга.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T210242Z" creationid="Марианна" creationdate="20210601T210242Z">
@@ -57745,6 +57753,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T055658Z" creationid="Марианна" creationdate="20211003T055658Z">
         <seg>The steps are set by the nodes from the standard or &lt;x5/&gt;Derived components&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ширина линии — параметр задает толщину линии, возможное значение от 0 до 30.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095244Z" creationid="Марианна" creationdate="20211008T095244Z">
+        <seg>Line width: the parameter enables to set the line width. Possible value varies from 0 to 30.</seg>
       </tuv>
     </tu>
     <tu>
