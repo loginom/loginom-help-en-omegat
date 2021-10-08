@@ -14771,8 +14771,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка параметров серии.&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T155933Z" creationid="Марианна" creationdate="20211005T155933Z">
-        <seg>&lt;x1/&gt;Configure sereis parameters.&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T093008Z" creationid="Марианна" creationdate="20211005T155933Z">
+        <seg>&lt;x1/&gt;Configure series parameters.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -42130,6 +42130,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T102824Z" creationid="Марианна" creationdate="20201124T102824Z">
         <seg>Name of goods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Название — название серии, как правило, соответствует названию поля, из которого берутся значения для построения диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T093138Z" creationid="Марианна" creationdate="20211008T093138Z">
+        <seg>Name: generally, the series name matches the name of the field from which the values for chart construction are taken.</seg>
       </tuv>
     </tu>
     <tu>
