@@ -13305,6 +13305,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Итого&lt;x2/&gt; — колонка с количеством значений в колонках гистограммы генеральной совокупности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T102311Z" creationid="Марианна" creationdate="20211008T102311Z">
+        <seg>&lt;x1/&gt;Total&lt;x2/&gt;: the column with the number of values in the histogram columns of the universal set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Калькулятор (переменные)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060015Z" creationid="Марианна" creationdate="20200812T060015Z">
