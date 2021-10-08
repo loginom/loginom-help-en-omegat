@@ -16165,6 +16165,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель сравнения кластеров&lt;x2/&gt; Панель сравнения кластеров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095527Z" creationid="Марианна" creationdate="20211008T095527Z">
+        <seg>&lt;x1/&gt;Cluster Comparison Panel&lt;x2/&gt; Cluster Comparison Panel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель фильтрации&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070337Z" creationid="Марианна" creationdate="20200812T070337Z">
@@ -53277,6 +53285,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T160613Z" creationid="Марианна" creationdate="20211005T160613Z">
         <seg>It contains the following control elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит сравнительную информацию по &lt;x1/&gt;кластерам&lt;x2/&gt;, выделенным в &lt;x3/&gt;&lt;x4/&gt;Основной таблице&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095710Z" creationid="Марианна" creationdate="20211008T095710Z">
+        <seg>It contains the comparative information on the &lt;x1/&gt;clusters&lt;x2/&gt; selected in the &lt;x3/&gt;&lt;x4/&gt;Main table&lt;x5/&gt;&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
