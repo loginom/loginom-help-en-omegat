@@ -16157,6 +16157,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель сравнения кластеров.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095845Z" creationid="Марианна" creationdate="20211008T095845Z">
+        <seg>&lt;x1/&gt;Cluster Comparison Panel.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель сравнения кластеров&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070421Z" creationid="Марианна" creationdate="20200812T070421Z">
@@ -16169,6 +16177,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T095527Z" creationid="Марианна" creationdate="20211008T095527Z">
         <seg>&lt;x1/&gt;Cluster Comparison Panel&lt;x2/&gt; Cluster Comparison Panel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель сравнения кластеров&lt;x2/&gt; условно можно разделить на две области (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095912Z" creationid="Марианна" creationdate="20211008T095912Z">
+        <seg>&lt;x1/&gt;Cluster comparison panel&lt;x2/&gt; can be conventionally divided into two areas (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -52361,6 +52377,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рис 1):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095931Z" creationid="Марианна" creationdate="20211008T095931Z">
+        <seg>Figure 1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Розовая шипучка</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113314Z" creationid="Марианна" creationdate="20201124T113314Z">
@@ -57209,6 +57233,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T095713Z" creationid="Марианна" creationdate="20211005T095713Z">
         <seg>Color Indication of Ports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Цветовое кодирование и порядок кластеров совпадает с цветами и порядком выделения ячеек в &lt;x7/&gt;Основной таблице&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T095833Z" creationid="Марианна" creationdate="20211008T095833Z">
+        <seg>Color coding and order of clusters matches the colors and selection order of cells in the &lt;x7/&gt;Main table&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
