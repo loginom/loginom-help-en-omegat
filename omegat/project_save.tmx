@@ -50969,6 +50969,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примечание: Все колонки, кроме колонки &lt;x1/&gt;Доля&lt;x2/&gt;, можно сортировать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T101719Z" creationid="Марианна" creationdate="20211008T101719Z">
+        <seg>Note: It is possible to sort all columns, with the exception of &lt;x1/&gt;Rate&lt;x2/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание: при открытии любого пакета всегда создается файл с именем &lt;x1/&gt;&lt;Название_пакета&gt;.lgp.lck&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T135054Z" creationid="Марианна" creationdate="20200713T112550Z">
