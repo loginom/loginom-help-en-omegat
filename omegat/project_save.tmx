@@ -45724,6 +45724,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Палитра цветов — нужный цвет выбирается с помощью мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T093242Z" creationid="Марианна" creationdate="20211008T093242Z">
+        <seg>Color palette: the required color is selected using the mouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Палитру цветов — нужный цвет выбирается с помощью мыши.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T064933Z" creationid="Марианна" creationdate="20211007T064933Z">
@@ -48018,6 +48026,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T113112Z" creationid="Марианна" creationdate="20210809T113112Z">
         <seg>The field contains the date and time data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поле цвета — числовое поле, которое проецируется на цветовую шкалу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T093217Z" creationid="Марианна" creationdate="20211008T093217Z">
+        <seg>Color field: the numeric field that is projected onto the color chart.</seg>
       </tuv>
     </tu>
     <tu>
