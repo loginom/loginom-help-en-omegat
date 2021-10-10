@@ -5780,6 +5780,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Информация о модели&lt;x4/&gt; — отображение/скрытие &lt;x5/&gt;информации о модели&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T225839Z" creationid="Марианна" creationdate="20211010T225737Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model info&lt;x4/&gt;: show/hide &lt;x5/&gt;Model info&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Прогноз&lt;x4/&gt; - обозначение прогнозируемого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135601Z" creationid="Марианна" creationdate="20201218T204446Z">
@@ -6104,6 +6112,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T084428Z" creationid="Марианна" creationdate="20210925T084428Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create directory&lt;x4/&gt;: folder creation in the currently opened directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — переключение отображения &lt;x5/&gt;коэффициентов регрессии&lt;x6/&gt; в вид &lt;x7/&gt;Таблица&lt;x8/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230103Z" creationid="Марианна" creationdate="20211010T230103Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: switch of representation of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Table&lt;x8/&gt; form.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21866,6 +21882,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135531Z" creationid="Марианна" creationdate="20201222T055144Z">
         <seg>&lt;x1/&gt;Autofit stages not more&lt;x2/&gt;: the maximum number of the algorithm steps (0 — restrictions are disabled).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Шагов построения&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T225706Z" creationid="Марианна" creationdate="20211010T225706Z">
+        <seg>&lt;x1/&gt;Model steps&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44478,6 +44502,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T202740Z" creationid="Марианна" creationdate="20210629T202740Z">
         <seg>Area of Binning Results Display</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область Информация о модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T225741Z" creationid="Марианна" creationdate="20211010T225726Z">
+        <seg>Model info area</seg>
       </tuv>
     </tu>
     <tu>
