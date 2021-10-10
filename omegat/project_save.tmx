@@ -12513,6 +12513,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значимость поля&lt;x2/&gt; — мера влияния поля на попадание поля в некоторый кластер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140127Z" creationid="Марианна" creationdate="20211010T140127Z">
+        <seg>&lt;x1/&gt;Field importance&lt;x2/&gt;: measure of the field influence on inclusion of the field into any cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T211534Z" creationid="Марианна" creationdate="20201212T211534Z">
