@@ -53433,6 +53433,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Содержит настройки фильтрации основной таблицы (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T134324Z" creationid="Марианна" creationdate="20211010T134324Z">
+        <seg>It contains filtration settings of the main table (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Содержит параметры подключения к списку (набору) файлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T220353Z" creationid="Марианна" creationdate="20210203T220353Z">
