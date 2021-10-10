@@ -18338,8 +18338,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; по умолчанию в качестве варианта отображения выбирается идущий первым по списку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T213042Z" creationid="Марианна" creationdate="20211010T213042Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The representation method that is the first one on the list is seleted by default as the representation option.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T213125Z" creationid="Марианна" creationdate="20211010T213042Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The representation option that is the first one on the list is selected by default as the representation option.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47938,6 +47938,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T061133Z" creationid="Марианна" creationdate="20201109T061133Z">
         <seg>&lt;x1/&gt;Import of the external JS modules&lt;x2/&gt; is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддерживается выбор сразу нескольких вариантов отображения агрегации для факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T213320Z" creationid="Марианна" creationdate="20211010T213320Z">
+        <seg>Selection of several aggregation representation options at once is supported for the measure.</seg>
       </tuv>
     </tu>
     <tu>
