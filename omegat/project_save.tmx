@@ -1708,6 +1708,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T205630Z" creationid="Марианна" creationdate="20211010T205630Z">
+        <seg>1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1,00</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113638Z" creationid="Марианна" creationdate="20201124T113638Z">
@@ -11581,6 +11589,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132920Z" creationid="Марианна" creationdate="20200814T132218Z">
         <seg>&lt;x1/&gt;Main menu&lt;x2/&gt;: the panel designated for operations with different settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Главное окно визуализатора "Профили кластеров".&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T205802Z" creationid="Марианна" creationdate="20211010T205802Z">
+        <seg>&lt;x1/&gt;The main window of "Cluster profiles" visualizer.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32670,6 +32686,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T120712Z" creationid="Марианна" creationdate="20200814T120712Z">
         <seg>The main menu is located in the left part of the application window and contains the following buttons:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Главное окно условно можно разделить на 5 областей (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T205913Z" creationid="Марианна" creationdate="20211010T205913Z">
+        <seg>The main window can be conventionally divided into 5 areas (refer to</seg>
       </tuv>
     </tu>
     <tu>
