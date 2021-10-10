@@ -10732,6 +10732,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; &lt;x3/&gt;Значимость&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231420Z" creationid="Марианна" creationdate="20211010T231420Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; &lt;x3/&gt;Significance&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; AIC</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T173153Z" creationid="Марианна" creationdate="20211005T173153Z">
@@ -13921,6 +13929,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133920Z" creationid="Марианна" creationdate="20201012T073959Z">
         <seg>&lt;x1/&gt;Kendall's Tau-b coefficient&lt;x2/&gt;: the rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент детерминации скорректированный&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231217Z" creationid="Марианна" creationdate="20211010T231217Z">
+        <seg>&lt;x1/&gt;Determination coefficient adjusted&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21810,6 +21826,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T225145Z" creationid="Марианна" creationdate="20211010T225145Z">
         <seg>&lt;x1/&gt;Full&lt;x2/&gt;: the searched fragment fully repeats the value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Целый&lt;x2/&gt;&lt;x3/&gt;Число степеней свободы&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231251Z" creationid="Марианна" creationdate="20211010T231251Z">
+        <seg>&lt;x1/&gt;Integer&lt;x2/&gt;&lt;x3/&gt;Number of degrees of freedom&lt;x4/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -55063,6 +55087,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Степень статистической связи между &lt;x1/&gt;входной&lt;x2/&gt; (набором входных) и &lt;x3/&gt;выходной переменными&lt;x4/&gt;  регрессионной модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231552Z" creationid="Марианна" creationdate="20211010T231552Z">
+        <seg>Degree of statistic link of the &lt;x1/&gt;input&lt;x2/&gt; (set of the input ones) and &lt;x3/&gt;output variables&lt;x4/&gt; of regression model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Степень статистической связи между входной (набором входных) и выходной переменными регрессионной модели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T211925Z" creationid="Марианна" creationdate="20201212T211925Z">
@@ -58375,6 +58407,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T210856Z" creationid="Марианна" creationdate="20201216T210856Z">
         <seg>Number of independently varied values of &lt;x1/&gt;indicator&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Число независимо варьируемых значений признака</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231332Z" creationid="Марианна" creationdate="20211010T231332Z">
+        <seg>Number of independently varied values of indicator</seg>
       </tuv>
     </tu>
     <tu>
