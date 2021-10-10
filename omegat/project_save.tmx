@@ -7462,6 +7462,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Детализация&lt;x3/&gt;&lt;x4/&gt; — отображает данные исходного набора данных, отфильтрованные по выделенным в &lt;x5/&gt;Основной таблице&lt;x6/&gt; кластерам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T210637Z" creationid="Марианна" creationdate="20211010T210637Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Detailing&lt;x3/&gt;&lt;x4/&gt; shows the source data set data filtered by the clusters selected in the &lt;x5/&gt;Main table&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Настройка внешнего разбиения&lt;x3/&gt;&lt;x4/&gt; — появляется, если задан порт &lt;x5/&gt;Внешние диапазоны квантования&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T110955Z" creationid="Марианна" creationdate="20210606T204203Z">
@@ -7490,6 +7498,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T210003Z" creationid="Марианна" creationdate="20211010T210003Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Main table&lt;x3/&gt;&lt;x4/&gt; displays information on &lt;cluster, field&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Панель инструментов&lt;x3/&gt;&lt;x4/&gt; — содержит настройку отображаемых данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T210446Z" creationid="Марианна" creationdate="20211010T210446Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Toolbar&lt;x3/&gt;&lt;x4/&gt; provides configuration of the displayed data.</seg>
       </tuv>
     </tu>
     <tu>
