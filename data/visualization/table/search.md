@@ -4,18 +4,18 @@ Search for cells in table by value.
 
 ## Configuration window
 
-В окне настройки поиска можно задать режим поиска, режим сравнения и учет регистра.
+It is possible to set the search mode, comparison mode and case in the search configuration window.
 
-Режим поиска определяет очередность подсветки найденных значений:
+The search mode enables to define the highlighting order of the found values:
 
-* **По строкам** — следующее найденное значение будет подсвечено в следующей строке;
-* **По столбцам** — следующее найденное значение будет подсвечено в следующем столбце;
-* **В столбце** — следующее найденное значение будет подсвечено в выбранном столбце.
+* **By rows**: the next found value will be highlighted in the next row.
+* **By columns**: the next found value will be highlighted in the next column.
+* **In column**: the next found value will be highlighted in the selected column.
 
-Режим сравнения определяет позицию искомого фрагмента:
+The comparison mode defines position of the searched fragment:
 
-* **Подстрока** — искомый фрагмент находится на любой позиции значения;
-* **С начала** — искомый фрагмент находится только в начале значения;
-* **Целиком** — искомый фрагмент полностью повторяет значение.
+* **Substring**: the searched fragment is in any value position.
+* **From the start**: the searched fragment is only in the value start.
+* **Full**: the searched fragment fully repeats the value.
 
-Флаг *Регистр* позволяет выполнить поиск с учётом регистра.
+*Case-sensitive* checkbox provides the case-sensitive search.
