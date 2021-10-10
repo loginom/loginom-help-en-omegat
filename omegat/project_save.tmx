@@ -17233,6 +17233,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подстрока&lt;x2/&gt; — искомый фрагмент находится на любой позиции значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224900Z" creationid="Марианна" creationdate="20211010T224900Z">
+        <seg>&lt;x1/&gt;Substring&lt;x2/&gt;: the searched fragment is in any value position.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Поиск&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065526Z" creationid="Марианна" creationdate="20200812T065526Z">
@@ -19514,6 +19522,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210428T151427Z" creationid="Марианна" creationdate="20210428T151427Z">
         <seg>&lt;x1/&gt;Manual setting&lt;x2/&gt;: when this checkbox is selected, it becomes possible to select the range of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;С начала&lt;x2/&gt; — искомый фрагмент находится только в начале значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T225051Z" creationid="Марианна" creationdate="20211010T225051Z">
+        <seg>&lt;x1/&gt;From the start&lt;x2/&gt;: the searched fragment is only in the value start.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52755,6 +52771,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114724Z" creationid="Марианна" creationdate="20201214T114724Z">
         <seg>Statistics calculation mode:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Режим сравнения определяет позицию искомого фрагмента:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224747Z" creationid="Марианна" creationdate="20211010T224747Z">
+        <seg>The comparison mode defines position of the searched fragment:</seg>
       </tuv>
     </tu>
     <tu>
