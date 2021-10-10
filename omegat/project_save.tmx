@@ -49819,6 +49819,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При двойном щелчке по линии разделителю или одинарном по середине линии, область будет скрыта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T211223Z" creationid="Марианна" creationdate="20211010T211223Z">
+        <seg>The area will be hidden by double clicking the separator line or single clicking the middle part of the line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При добавлении и редактировании выражения отображается диалог редактирования параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T195635Z" creationid="Марианна" creationdate="20201004T195635Z">
