@@ -43444,6 +43444,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки полей сбрасываются при закрытии окна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T221201Z" creationid="Марианна" creationdate="20211010T221201Z">
+        <seg>Field settings are reset when closing the window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки расчета статистики</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114635Z" creationid="Марианна" creationdate="20201214T114635Z">
@@ -48626,6 +48634,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T224912Z" creationid="Марианна" creationdate="20201217T224647Z">
         <seg>The source data set fields for which &lt;x3/&gt;Used&lt;x4/&gt; was selected as &lt;x1/&gt;Usage type&lt;x2/&gt; parameter value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поля можно перемещать относительно друг друга, а также перемещать их из зоны закрепленных полей к незакрепленным и наоборот.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T221135Z" creationid="Марианна" creationdate="20211010T221135Z">
+        <seg>It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.</seg>
       </tuv>
     </tu>
     <tu>
