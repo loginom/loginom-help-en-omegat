@@ -15597,6 +15597,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нулевая модель&lt;x2/&gt; — начальная модель работы алгоритма;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T233312Z" creationid="Марианна" creationdate="20211010T233312Z">
+        <seg>&lt;x1/&gt;Null model&lt;x2/&gt;: the initial model of the algorithm operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область видимости&lt;x2/&gt; — доступность Производного компонента на разных уровнях Пакета, задается радиокнопкой:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T175717Z" creationid="Марианна" creationdate="20210930T175717Z">
@@ -38528,6 +38536,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T213841Z" creationid="Марианна" creationdate="20211003T213841Z">
         <seg>Change of the fields/variables captions;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменение поля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232902Z" creationid="Марианна" creationdate="20211010T232902Z">
+        <seg>Field change</seg>
       </tuv>
     </tu>
     <tu>
