@@ -45668,8 +45668,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Оно появляется тогда, когда отбираются факты.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T232555Z" creationid="Марианна" creationdate="20211010T232555Z">
-        <seg>They appear when measures are selected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232635Z" creationid="Марианна" creationdate="20211010T232555Z">
+        <seg>It appears when measures are selected.</seg>
       </tuv>
     </tu>
     <tu>
