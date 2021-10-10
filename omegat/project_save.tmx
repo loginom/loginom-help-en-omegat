@@ -12429,6 +12429,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Зависимая переменная&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230921Z" creationid="Марианна" creationdate="20211010T230921Z">
+        <seg>&lt;x1/&gt;Dependent variable&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок в первой строке&lt;x2/&gt; — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132543Z" creationid="Марианна" creationdate="20200826T085304Z">
@@ -14257,6 +14265,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060442Z" creationid="Марианна" creationdate="20200812T060442Z">
         <seg>&lt;x1/&gt;Logical functions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Логический&lt;x2/&gt; Константа</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230842Z" creationid="Марианна" creationdate="20211010T230842Z">
+        <seg>&lt;x1/&gt;Logical&lt;x2/&gt; Constant</seg>
       </tuv>
     </tu>
     <tu>
@@ -48560,6 +48576,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T085721Z" creationid="Марианна" creationdate="20210831T085721Z">
         <seg>So, configuration of processes, setting of dimensions, attributes and measures can be performed by means of the metadata editor built into Deductor Studio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Показатель</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230821Z" creationid="Марианна" creationdate="20211010T230821Z">
+        <seg>Indicator</seg>
       </tuv>
     </tu>
     <tu>
