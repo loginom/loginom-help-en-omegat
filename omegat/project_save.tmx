@@ -29386,6 +29386,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне настройки поиска можно задать режим поиска, режим сравнения и учет регистра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224036Z" creationid="Марианна" creationdate="20211010T224036Z">
+        <seg>It is possible to set the search mode, comparison mode and case in the search configuration window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне располагается область настройки условий фильтрации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T173852Z" creationid="Марианна" creationdate="20211005T173852Z">
