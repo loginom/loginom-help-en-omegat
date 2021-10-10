@@ -16085,6 +16085,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отменить выбор всех&lt;x2/&gt; &lt;x3/&gt;Отменить выбор всех&lt;x4/&gt; — убрать выбор всех вариантов агрегации со всеми способами отображения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212411Z" creationid="Марианна" creationdate="20211010T212411Z">
+        <seg>&lt;x1/&gt;Uncheck all&lt;x2/&gt; &lt;x3/&gt;Uncheck all&lt;x4/&gt;enables to uncheck all aggregation options with all representation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Относительный&lt;x2/&gt; (для персонального использования) — вместо имени папки содержит точку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085308Z" creationid="Марианна" creationdate="20200814T085308Z">
@@ -54253,6 +54261,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201203T142531Z" creationid="Марианна" creationdate="20201117T084431Z">
         <seg>Replacement Methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Способы отображения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212437Z" creationid="Марианна" creationdate="20211010T212437Z">
+        <seg>Representation Methods</seg>
       </tuv>
     </tu>
     <tu>
