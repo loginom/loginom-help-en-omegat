@@ -6236,6 +6236,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги построения&lt;x4/&gt; — отображение/скрытие &lt;x5/&gt;шагов построения&lt;x6/&gt; модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230638Z" creationid="Марианна" creationdate="20211010T230638Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt;: show/hide &lt;x5/&gt;model steps&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; JavaScript</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T111204Z" creationid="Марианна" creationdate="20201020T111204Z">
@@ -39172,6 +39180,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Информация о модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230648Z" creationid="Марианна" creationdate="20211010T230648Z">
+        <seg>Model Info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Иными словами, вычисляется корреляция между временным рядом и его копией, сдвинутой на один или несколько временных отсчетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103336Z" creationid="Марианна" creationdate="20201010T163918Z">
@@ -44538,6 +44554,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область Шаги построения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230531Z" creationid="Марианна" creationdate="20211010T230531Z">
+        <seg>Model Steps Area</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область видимости</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215137Z" creationid="Марианна" creationdate="20210928T215137Z">
@@ -45638,6 +45662,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082805Z" creationid="Марианна" creationdate="20201030T082805Z">
         <seg>Description of Enumerations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Описание показателей модели представлено в таблице:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230735Z" creationid="Марианна" creationdate="20211010T230735Z">
+        <seg>Description of model indicators is represented in the table:</seg>
       </tuv>
     </tu>
     <tu>
