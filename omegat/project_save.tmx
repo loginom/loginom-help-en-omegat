@@ -12537,6 +12537,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; &lt;x3/&gt;Значение&lt;x4/&gt; — факты будут отображаться в виде абсолютных значений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212528Z" creationid="Марианна" creationdate="20211010T212528Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; &lt;x3/&gt;Value&lt;x4/&gt;: the measures will be displayed in the form of absolute values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — для &lt;x3/&gt;Фактов&lt;x4/&gt; отображает выбранные &lt;x5/&gt;агрегации&lt;x6/&gt;, для остальных элементов отображается значение фильтрации, если указано условие;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T103037Z" creationid="Марианна" creationdate="20200829T202227Z">
@@ -18774,6 +18782,22 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070245Z" creationid="Марианна" creationdate="20200812T070245Z">
         <seg>&lt;x1/&gt;Cluster profiles&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Процент по вертикали&lt;x2/&gt; &lt;x3/&gt;Процент по вертикали&lt;x4/&gt; — факты будут отображаться в процентах от итогового значения по столбцам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212823Z" creationid="Марианна" creationdate="20211010T212823Z">
+        <seg>&lt;x1/&gt;Percent by column&lt;x2/&gt; &lt;x3/&gt;Percent by column&lt;x4/&gt;: measures will be displayed as percentage of the final value by columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Процент по горизонтали&lt;x2/&gt; &lt;x3/&gt;Процент по горизонтали&lt;x4/&gt; — факты будут отображаться в процентах от итогового значения по строкам;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212701Z" creationid="Марианна" creationdate="20211010T212701Z">
+        <seg>&lt;x1/&gt;Percent by row&lt;x2/&gt; &lt;x3/&gt;Percent by row&lt;x4/&gt;: measures will be displayed in percentage terms according to the final value by rows.</seg>
       </tuv>
     </tu>
     <tu>
