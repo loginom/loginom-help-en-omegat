@@ -3340,6 +3340,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрепить столбец&lt;x4/&gt; / &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Снять закрепление столбца&lt;x8/&gt; — закрепленное поле фиксируется в левой части окна и отделяется от незакрепленной части вертикальной линией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T220945Z" creationid="Марианна" creationdate="20211010T220945Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Freeze column&lt;x4/&gt; / &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Unfreeze column&lt;x8/&gt;: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Закрыть все пакеты…&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200816T135800Z" creationid="Марианна" creationdate="20200816T135800Z">
