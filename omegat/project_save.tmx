@@ -5868,6 +5868,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Нулевые значения&lt;x4/&gt; — отображение/скрытие нулевых значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T230432Z" creationid="Марианна" creationdate="20211010T230432Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Zero values&lt;x4/&gt;: show/hide zero values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Обновить список&lt;x4/&gt; — отображает актуальное содержание текущей директории.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T093021Z" creationid="Марианна" creationdate="20210925T093021Z">
