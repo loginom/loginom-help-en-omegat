@@ -10772,6 +10772,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; R2 корр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231141Z" creationid="Марианна" creationdate="20211010T231141Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; R2 adj.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид данных (непрерывный, дискретный)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070858Z" creationid="Марианна" creationdate="20200812T070858Z">
