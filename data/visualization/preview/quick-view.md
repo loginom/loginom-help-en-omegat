@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Быстрый просмотр данных
 
-Представляет ограниченное количество данных для ознакомления в виде плоской двумерной таблицы. Возможности фильтрации, изменения формата отображения данных и поиска нет. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд.
+Представляет ограниченное количество данных для ознакомления в виде плоской двумерной таблицы. Filtration, change of data representation format and search are not available. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд.
 
 Данный визуализатор доступен в любом активном выходном:
 
@@ -26,13 +26,13 @@
 | Дерево | • | • | | | 10 тысяч дочерних узлов |
 | Variables | • | | | | &nbsp; |
 
-* ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Сортировать по возрастанию** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Сортировать по убыванию** — сортировка позволяет упорядочить данные по выбранному полю по возрастанию либо убыванию. Проводится только на текущем наборе данных в соответствии с установленными лимитами.
+* ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Sort ascending** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Sort descending**: sorting enables to sort data by the selected field in ascending or descending order. It is performed only for the current data set according to the set limits.
 * ![ ](../../images/icons/grid/columns.svg) **Столбцы** — позволяет изменить видимость (отключить/включить отображение) определенным столбцам.
-* ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Закрепить столбец** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Снять закрепление столбца** — закрепленное поле фиксируется в левой части окна и отделяется от незакрепленной части вертикальной линией.
+* ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Freeze column** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Unfreeze column**: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.
 
-Поля можно перемещать относительно друг друга, а также перемещать их из зоны закрепленных полей к незакрепленным и наоборот.
+It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.
 
-Настройки полей сбрасываются при закрытии окна.
+Field settings are reset when closing the window.
 
 Закрыть *Быстрый просмотр* можно нажатием на кнопку *X* или *Закрыть*.
 

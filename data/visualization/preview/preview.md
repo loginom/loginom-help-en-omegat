@@ -1,19 +1,19 @@
-# Предпросмотр
+# Preview
 
-Представляет ограниченное количество данных (не более 100 первых строк возможного результирующего набора) для ознакомления в виде плоской двумерной таблицы. Возможности фильтрации, изменения формата отображения данных и поиска нет. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя.
+It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table. Filtration, change of data representation format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator.
 
-Доступен в мастерах [Импорт из базы данных](../../integration/import/database.md), [Импорт из 1С](../../integration/import/1c-db.md) и [JavaScript](../../processors/transformation/java-script/README.md). При нажатии на кнопку *Предпросмотр* активируются все входные порты, кроме непосредственно соединенных с текущим узлом *Подключений*. При успешном завершении активации открывается данное окно.
+It is available in [Import from database](../../integration/import/database.md), [Import from 1С](../../integration/import/1c-db.md) and [JavaScript](../../processors/transformation/java-script/README.md) wizards. When pressing *Preview* button, it is possible to activate all input ports, with the exception of the *Connections* connected with the current node. This window is opened when the activation is successfully finished.
 
-При наведении курсора к заголовку поля появится кнопка ![ ](../../images/icons/toolbar-controls/down_default.svg) с дополнительными функциями:
+When the cursor is hovered over the field caption, ![ ](../../images/icons/toolbar-controls/down_default.svg) button with the additional functions will appear:
 
-* ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Сортировать по возрастанию** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Сортировать по убыванию** — сортировка позволяет упорядочить данные по выбранному полю по возрастанию либо убыванию. Проводится только на текущем наборе данных в соответствии с установленными лимитами.
-* ![ ](../../images/icons/grid/columns.svg) **Столбцы** — позволяет отключить/включить отображение определенным столбцам.
-* ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Закрепить столбец** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Снять закрепление столбца** — закрепленное поле фиксируется в левой части окна и отделяется от незакрепленной части вертикальной линией.
+* ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Sort ascending** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Sort descending**: sorting enables to sort data by the selected field in ascending or descending order. It is performed only for the current data set according to the set limits.
+* ![ ](../../images/icons/grid/columns.svg) **Columns**: disable/enable representation by the defined columns.
+* ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Freeze column** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Unfreeze column**: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.
 
-Поля можно перемещать относительно друг друга, а также перемещать их из зоны закрепленных полей к незакрепленным и наоборот.
+It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.
 
-Настройки полей сбрасываются при закрытии окна.
+Field settings are reset when closing the window.
 
-В *Предпросмотре* узла *JavaScript* есть возможность контролировать работу скрипта в ![консоль](../../images/icons/javascript/console.svg) [консоли отладки кода](../../processors/transformation/java-script/console.md).
+It is possible to control the script operation in ![console](../../images/icons/javascript/console.svg) of [code debugging console](../../processors/transformation/java-script/console.md) in *Preview* of *JavaScript* node.
 
-Закрыть *Предпросмотр* узла *JavaScript* можно только кнопкой *X*, в узле *Импорт из базы данных* также доступна кнопка *Закрыть*.
+It is possible to close *Preview* of *JavaScript* node using only *X* button, in *Import from database* node *Close* button is also available.
