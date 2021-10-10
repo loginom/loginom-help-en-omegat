@@ -27439,6 +27439,56 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|Показатель|&lt;x1/&gt;&lt;x2/&gt; |&lt;x3/&gt;&lt;x4/&gt; |&lt;x5/&gt;&lt;x6/&gt; |&lt;x7/&gt;&lt;x8/&gt;|&lt;x9/&gt;&lt;x10/&gt;|
+|:-|:-:|:-:|:-:|:-:|:-:|
+|&lt;x11/&gt;Гистограмма&lt;x12/&gt;|&lt;x13/&gt;&lt;x14/&gt;&lt;x15/&gt;&lt;x16/&gt;|&lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;&lt;x20/&gt;|&lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;&lt;x24/&gt;|&lt;x25/&gt;&lt;x26/&gt;|&lt;x27/&gt;&lt;x28/&gt;|
+|Диаграмма размаха|&lt;x29/&gt;&lt;x30/&gt;|&lt;x31/&gt;&lt;x32/&gt;|&lt;x33/&gt;&lt;x34/&gt;|||
+|Минимум|&lt;x35/&gt;&lt;x36/&gt;&lt;x37/&gt;&lt;x38/&gt;|&lt;x39/&gt;&lt;x40/&gt; &lt;x41/&gt;&lt;x42/&gt;|&lt;x43/&gt;&lt;x44/&gt; &lt;x45/&gt;&lt;x46/&gt;|&lt;x47/&gt;&lt;x48/&gt;||
+|Максимум|&lt;x49/&gt;&lt;x50/&gt;&lt;x51/&gt;&lt;x52/&gt;|&lt;x53/&gt;&lt;x54/&gt; &lt;x55/&gt;&lt;x56/&gt;|&lt;x57/&gt;&lt;x58/&gt; &lt;x59/&gt;&lt;x60/&gt;|&lt;x61/&gt;&lt;x62/&gt;||
+|Среднее|&lt;x63/&gt;&lt;x64/&gt;&lt;x65/&gt;&lt;x66/&gt;|&lt;x67/&gt;&lt;x68/&gt; &lt;x69/&gt;&lt;x70/&gt;|&lt;x71/&gt;&lt;x72/&gt; &lt;x73/&gt;&lt;x74/&gt;|&lt;x75/&gt;&lt;x76/&gt;||
+|&lt;x77/&gt;Стандартное отклонение&lt;x78/&gt;|&lt;x79/&gt;&lt;x80/&gt;&lt;x81/&gt;&lt;x82/&gt;|&lt;x83/&gt;&lt;x84/&gt; &lt;x85/&gt;&lt;x86/&gt;|&lt;x87/&gt;&lt;x88/&gt; &lt;x89/&gt;&lt;x90/&gt;|&lt;x91/&gt;&lt;x92/&gt;| &lt;x93/&gt;&lt;x94/&gt;|
+|Несмещенная дисперсия|&lt;x95/&gt;&lt;x96/&gt;&lt;x97/&gt;&lt;x98/&gt;|&lt;x99/&gt;&lt;x100/&gt; &lt;x101/&gt;&lt;x102/&gt;||&lt;x103/&gt;&lt;x104/&gt;|&lt;x105/&gt;&lt;x106/&gt;|
+|Нижний квартиль|&lt;x107/&gt;&lt;x108/&gt;|&lt;x109/&gt;&lt;x110/&gt;|&lt;x111/&gt;&lt;x112/&gt;|||
+|&lt;x113/&gt;Медиана&lt;x114/&gt;|&lt;x115/&gt;&lt;x116/&gt;|&lt;x117/&gt;&lt;x118/&gt;|&lt;x119/&gt;&lt;x120/&gt;|||
+|Верхний квартиль|&lt;x121/&gt;&lt;x122/&gt;|&lt;x123/&gt;&lt;x124/&gt;|&lt;x125/&gt;&lt;x126/&gt;|||
+|Межквартильный размах&lt;x127/&gt;^1&lt;x128/&gt;|&lt;x129/&gt;&lt;x130/&gt;|&lt;x131/&gt;&lt;x132/&gt;|&lt;x133/&gt;&lt;x134/&gt;|||
+|Медианное абсолютное отклонение|&lt;x135/&gt;&lt;x136/&gt;|&lt;x137/&gt;&lt;x138/&gt;|&lt;x139/&gt;&lt;x140/&gt;|||
+|Сумма|&lt;x141/&gt;&lt;x142/&gt;&lt;x143/&gt;&lt;x144/&gt;|&lt;x145/&gt;&lt;x146/&gt; &lt;x147/&gt;&lt;x148/&gt;||&lt;x149/&gt;&lt;x150/&gt;|&lt;x151/&gt;&lt;x152/&gt;|
+|Размах&lt;x153/&gt;^2&lt;x154/&gt;|&lt;x155/&gt;&lt;x156/&gt;&lt;x157/&gt;&lt;x158/&gt;|&lt;x159/&gt;&lt;x160/&gt; &lt;x161/&gt;&lt;x162/&gt;|&lt;x163/&gt;&lt;x164/&gt; &lt;x165/&gt;&lt;x166/&gt;|&lt;x167/&gt;&lt;x168/&gt;|&lt;x169/&gt;&lt;x170/&gt;|
+|Пропуски|&lt;x171/&gt;&lt;x172/&gt;&lt;x173/&gt;&lt;x174/&gt;|&lt;x175/&gt;&lt;x176/&gt; &lt;x177/&gt;&lt;x178/&gt;|&lt;x179/&gt;&lt;x180/&gt; &lt;x181/&gt;&lt;x182/&gt;|&lt;x183/&gt;&lt;x184/&gt;|&lt;x185/&gt;&lt;x186/&gt;|
+|Значения&lt;x187/&gt;^3&lt;x188/&gt;|&lt;x189/&gt;&lt;x190/&gt;&lt;x191/&gt;&lt;x192/&gt;|&lt;x193/&gt;&lt;x194/&gt; &lt;x195/&gt;&lt;x196/&gt;|&lt;x197/&gt;&lt;x198/&gt; &lt;x199/&gt;&lt;x200/&gt;|&lt;x201/&gt;&lt;x202/&gt;|&lt;x203/&gt;&lt;x204/&gt;|
+|Уникальные|&lt;x205/&gt;&lt;x206/&gt;| &lt;x207/&gt;&lt;x208/&gt;|&lt;x209/&gt;&lt;x210/&gt;|&lt;x211/&gt;&lt;x212/&gt;|&lt;x213/&gt;&lt;x214/&gt;|
+|Минимальная длина строки|||||&lt;x215/&gt;&lt;x216/&gt;|
+|Максимальная длина строки|||||&lt;x217/&gt;&lt;x218/&gt;|
+|Средняя длина строки|||||&lt;x219/&gt;&lt;x220/&gt;|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T222913Z" creationid="Марианна" creationdate="20211010T222913Z">
+        <seg>|Indicator|&lt;x1/&gt;&lt;x2/&gt; |&lt;x3/&gt;&lt;x4/&gt; |&lt;x5/&gt;&lt;x6/&gt; |&lt;x7/&gt;&lt;x8/&gt;|&lt;x9/&gt;&lt;x10/&gt;|
+|:-|:-:|:-:|:-:|:-:|:-:|
+|&lt;x11/&gt;Histogram&lt;x12/&gt;|&lt;x13/&gt;&lt;x14/&gt;&lt;x15/&gt;&lt;x16/&gt;|&lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;&lt;x20/&gt;|&lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;&lt;x24/&gt;|&lt;x25/&gt;&lt;x26/&gt;|&lt;x27/&gt;&lt;x28/&gt;|
+|Box plot|&lt;x29/&gt;&lt;x30/&gt;|&lt;x31/&gt;&lt;x32/&gt;|&lt;x33/&gt;&lt;x34/&gt;|||
+|Minimum|&lt;x35/&gt;&lt;x36/&gt;&lt;x37/&gt;&lt;x38/&gt;|&lt;x39/&gt;&lt;x40/&gt; &lt;x41/&gt;&lt;x42/&gt;|&lt;x43/&gt;&lt;x44/&gt; &lt;x45/&gt;&lt;x46/&gt;|&lt;x47/&gt;&lt;x48/&gt;||
+|Maximum|&lt;x49/&gt;&lt;x50/&gt;&lt;x51/&gt;&lt;x52/&gt;|&lt;x53/&gt;&lt;x54/&gt; &lt;x55/&gt;&lt;x56/&gt;|&lt;x57/&gt;&lt;x58/&gt; &lt;x59/&gt;&lt;x60/&gt;|&lt;x61/&gt;&lt;x62/&gt;||
+|Average|&lt;x63/&gt;&lt;x64/&gt;&lt;x65/&gt;&lt;x66/&gt;|&lt;x67/&gt;&lt;x68/&gt; &lt;x69/&gt;&lt;x70/&gt;|&lt;x71/&gt;&lt;x72/&gt; &lt;x73/&gt;&lt;x74/&gt;|&lt;x75/&gt;&lt;x76/&gt;||
+|&lt;x77/&gt;Standard deviation&lt;x78/&gt;|&lt;x79/&gt;&lt;x80/&gt;&lt;x81/&gt;&lt;x82/&gt;|&lt;x83/&gt;&lt;x84/&gt; &lt;x85/&gt;&lt;x86/&gt;|&lt;x87/&gt;&lt;x88/&gt; &lt;x89/&gt;&lt;x90/&gt;|&lt;x91/&gt;&lt;x92/&gt;| &lt;x93/&gt;&lt;x94/&gt;|
+|Unbiased variance|&lt;x95/&gt;&lt;x96/&gt;&lt;x97/&gt;&lt;x98/&gt;|&lt;x99/&gt;&lt;x100/&gt; &lt;x101/&gt;&lt;x102/&gt;||&lt;x103/&gt;&lt;x104/&gt;|&lt;x105/&gt;&lt;x106/&gt;|
+|Lower quartile|&lt;x107/&gt;&lt;x108/&gt;|&lt;x109/&gt;&lt;x110/&gt;|&lt;x111/&gt;&lt;x112/&gt;|||
+|&lt;x113/&gt;Median&lt;x114/&gt;|&lt;x115/&gt;&lt;x116/&gt;|&lt;x117/&gt;&lt;x118/&gt;|&lt;x119/&gt;&lt;x120/&gt;|||
+|Upper quartile|&lt;x121/&gt;&lt;x122/&gt;|&lt;x123/&gt;&lt;x124/&gt;|&lt;x125/&gt;&lt;x126/&gt;|||
+|Interquartile range&lt;x127/&gt;^1&lt;x128/&gt;|&lt;x129/&gt;&lt;x130/&gt;|&lt;x131/&gt;&lt;x132/&gt;|&lt;x133/&gt;&lt;x134/&gt;|||
+|Median absolute deviation|&lt;x135/&gt;&lt;x136/&gt;|&lt;x137/&gt;&lt;x138/&gt;|&lt;x139/&gt;&lt;x140/&gt;|||
+|Sum|&lt;x141/&gt;&lt;x142/&gt;&lt;x143/&gt;&lt;x144/&gt;|&lt;x145/&gt;&lt;x146/&gt; &lt;x147/&gt;&lt;x148/&gt;||&lt;x149/&gt;&lt;x150/&gt;|&lt;x151/&gt;&lt;x152/&gt;|
+|Range&lt;x153/&gt;^2&lt;x154/&gt;|&lt;x155/&gt;&lt;x156/&gt;&lt;x157/&gt;&lt;x158/&gt;|&lt;x159/&gt;&lt;x160/&gt; &lt;x161/&gt;&lt;x162/&gt;|&lt;x163/&gt;&lt;x164/&gt; &lt;x165/&gt;&lt;x166/&gt;|&lt;x167/&gt;&lt;x168/&gt;|&lt;x169/&gt;&lt;x170/&gt;|
+|Null count|&lt;x171/&gt;&lt;x172/&gt;&lt;x173/&gt;&lt;x174/&gt;|&lt;x175/&gt;&lt;x176/&gt; &lt;x177/&gt;&lt;x178/&gt;|&lt;x179/&gt;&lt;x180/&gt; &lt;x181/&gt;&lt;x182/&gt;|&lt;x183/&gt;&lt;x184/&gt;|&lt;x185/&gt;&lt;x186/&gt;|
+|Values&lt;x187/&gt;^3&lt;x188/&gt;|&lt;x189/&gt;&lt;x190/&gt;&lt;x191/&gt;&lt;x192/&gt;|&lt;x193/&gt;&lt;x194/&gt; &lt;x195/&gt;&lt;x196/&gt;|&lt;x197/&gt;&lt;x198/&gt; &lt;x199/&gt;&lt;x200/&gt;|&lt;x201/&gt;&lt;x202/&gt;|&lt;x203/&gt;&lt;x204/&gt;|
+|Unique|&lt;x205/&gt;&lt;x206/&gt;| &lt;x207/&gt;&lt;x208/&gt;|&lt;x209/&gt;&lt;x210/&gt;|&lt;x211/&gt;&lt;x212/&gt;|&lt;x213/&gt;&lt;x214/&gt;|
+|Minimum string length|||||&lt;x215/&gt;&lt;x216/&gt;|
+|Maximum string length|||||&lt;x217/&gt;&lt;x218/&gt;|
+|Mean string length|||||&lt;x219/&gt;&lt;x220/&gt;|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|Точка продажи|Дата|Сумма продажи|
 |:-|:-|-:|
 |Павильон|11.04.2012|320|
