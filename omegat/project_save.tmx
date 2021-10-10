@@ -19550,6 +19550,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим отображения Таблица.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232057Z" creationid="Марианна" creationdate="20211010T232057Z">
+        <seg>&lt;x1/&gt;Table representation mode.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Режим работы LIKE&lt;x2/&gt; — предлагается выбрать один из вариантов сравнения символов при использовании функции LIKE.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T220854Z" creationid="Марианна" creationdate="20210210T220854Z">
@@ -40919,6 +40927,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Коэффициенты регрессии могут быть представлены в виде &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Таблицы&lt;x4/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231931Z" creationid="Марианна" creationdate="20211010T231931Z">
+        <seg>Regression coefficients can be represented in the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt; form (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кресло плетеное</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112346Z" creationid="Марианна" creationdate="20201124T112346Z">
@@ -60383,6 +60399,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T122726Z" creationid="Марианна" creationdate="20210925T122726Z">
         <seg>distribution of classes is more uniform that improves the training quality;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 1) или &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Дерева&lt;x8/&gt; (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232000Z" creationid="Марианна" creationdate="20211010T232000Z">
+        <seg>Figure 1) or &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Tree&lt;x8/&gt; (refer to</seg>
       </tuv>
     </tu>
     <tu>
