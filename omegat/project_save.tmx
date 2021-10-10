@@ -20358,6 +20358,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартная ошибка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231749Z" creationid="Марианна" creationdate="20211010T231749Z">
+        <seg>&lt;x1/&gt;Standard error&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Стандартное отклонение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144722Z" creationid="Марианна" creationdate="20201207T144722Z">
@@ -58079,6 +58087,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135114Z" creationid="Марианна" creationdate="20201210T135114Z">
         <seg>Characteristics of relation between &lt;x1/&gt;dependent variable&lt;x2/&gt; &lt;x3/&gt;y&lt;x4/&gt; and &lt;x5/&gt;independent variable&lt;x6/&gt; &lt;x7/&gt;x&lt;x8/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Характеристика связи между зависимой &lt;x1/&gt;y&lt;x2/&gt; и &lt;x3/&gt;независимой переменной&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T231735Z" creationid="Марианна" creationdate="20211010T231735Z">
+        <seg>Characteristics of relation between dependent &lt;x1/&gt;y&lt;x2/&gt; and &lt;x3/&gt;independent variable&lt;x4/&gt; &lt;x5/&gt;x&lt;x6/&gt;</seg>
       </tuv>
     </tu>
     <tu>
