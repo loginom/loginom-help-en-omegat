@@ -10114,6 +10114,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В столбце&lt;x2/&gt; — следующее найденное значение будет подсвечено в выбранном столбце.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224654Z" creationid="Марианна" creationdate="20211010T224654Z">
+        <seg>&lt;x1/&gt;In column&lt;x2/&gt;: the next found value will be highlighted in the selected column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В файловом хранилище или локальной сети&lt;x2/&gt; — подключение к базе данных через указание ее каталога на жестком диске.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122043Z" creationid="Марианна" creationdate="20210111T122043Z">
@@ -16893,6 +16901,22 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T154912Z" creationid="Марианна" creationdate="20201013T154912Z">
         <seg>&lt;x1/&gt;By own value&lt;x2/&gt;: only factors with own values equal or exceeding 1 are selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;По столбцам&lt;x2/&gt; — следующее найденное значение будет подсвечено в следующем столбце;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224552Z" creationid="Марианна" creationdate="20211010T224552Z">
+        <seg>&lt;x1/&gt;By columns&lt;x2/&gt;: the next found value will be highlighted in the next column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;По строкам&lt;x2/&gt; — следующее найденное значение будет подсвечено в следующей строке;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224442Z" creationid="Марианна" creationdate="20211010T224349Z">
+        <seg>&lt;x1/&gt;By rows&lt;x2/&gt;: the next found value will be highlighted in the next row.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52721,8 +52745,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Режим поиска определяет очередность подсветки найденных значений:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T224308Z" creationid="Марианна" creationdate="20211010T224308Z">
-        <seg>The search mode enables to define the highlighting order of the detected values:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224355Z" creationid="Марианна" creationdate="20211010T224308Z">
+        <seg>The search mode enables to define the highlighting order of the found values:</seg>
       </tuv>
     </tu>
     <tu>
