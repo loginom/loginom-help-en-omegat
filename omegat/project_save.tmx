@@ -12521,6 +12521,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значимость ячейки&lt;x2/&gt; — мера влияния ячейки на попадание ячейки в некоторый кластер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140242Z" creationid="Марианна" creationdate="20211010T140242Z">
+        <seg>&lt;x1/&gt;Cell importance&lt;x2/&gt;: measure of the cell influence on inclusion of the cell into any cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T211534Z" creationid="Марианна" creationdate="20201212T211534Z">
@@ -19550,6 +19558,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114935Z" creationid="Марианна" creationdate="20201214T114935Z">
         <seg>&lt;x1/&gt;Adjusted determination coefficient&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скрывать неиспользуемые поля&lt;x2/&gt; — скрыть неиспользуемые в кластеризации поля (их значимость не определена).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140405Z" creationid="Марианна" creationdate="20211010T140405Z">
+        <seg>&lt;x1/&gt;Hide unused fields&lt;x2/&gt;: hide the fields unused in clustering (their importance is not defined).</seg>
       </tuv>
     </tu>
     <tu>
@@ -36778,6 +36794,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задает диапазон от 0 до 100%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140144Z" creationid="Марианна" creationdate="20211010T140144Z">
+        <seg>It sets the range from 0 to 100%.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задает диапазон от 0 до числа строк в исходном наборе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T135800Z" creationid="Марианна" creationdate="20211010T135800Z">
@@ -48522,6 +48546,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T061509Z" creationid="Марианна" creationdate="20211003T061509Z">
         <seg>Apart from the Workflows execution in the interface (Interactive mode), there is another execution option — &lt;x1/&gt;batch mode&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Помимо настроек диапазонов есть флажок:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140312Z" creationid="Марианна" creationdate="20211010T140312Z">
+        <seg>Apart from the range settings, the checkbox is also available:</seg>
       </tuv>
     </tu>
     <tu>
