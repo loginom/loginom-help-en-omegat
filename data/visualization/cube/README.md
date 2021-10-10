@@ -6,7 +6,7 @@
 
 ## Interface
 
-После добавления в узел визуализатора откроется главное окно (Рис. 1):
+The main window will be opened after addition to the visualizer node (Figure 1):
 
 ![Главное окно Куба](./cube-main-window.png)
 
