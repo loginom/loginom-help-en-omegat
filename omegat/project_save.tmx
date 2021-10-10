@@ -11873,6 +11873,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Дискретная гистограмма&lt;x2/&gt; — представляет собой таблицу со следующими колонками:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T133125Z" creationid="Марианна" creationdate="20211010T133125Z">
+        <seg>&lt;x1/&gt;Discrete histogram&lt;x2/&gt; is a table with the following columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дискретные данные&lt;x2/&gt; — данные, число которых конечно или бесконечно, но может быть подсчитано при помощи натуральных чисел от одного до бесконечности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210817T095512Z" creationid="Марианна" creationdate="20210817T095512Z">
