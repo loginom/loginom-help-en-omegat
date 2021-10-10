@@ -18938,6 +18938,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Развернуть дерево&lt;x2/&gt; &lt;x3/&gt;Развернуть дерево&lt;x4/&gt; — развернуть дерево вариантов агрегации и способов отображения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212232Z" creationid="Марианна" creationdate="20211010T212232Z">
+        <seg>&lt;x1/&gt;Expand tree&lt;x2/&gt; &lt;x3/&gt;Expand tree&lt;x4/&gt; enables to expand the tree of aggregation options and representation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Развернуть колонки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172336Z" creationid="Марианна" creationdate="20211005T172336Z">
@@ -19446,6 +19454,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172239Z" creationid="Марианна" creationdate="20211005T172239Z">
         <seg>&lt;x1/&gt;Collapse all&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свернуть дерево&lt;x2/&gt; &lt;x3/&gt;Свернуть дерево&lt;x4/&gt; — свернуть дерево вариантов агрегации и способов отображения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212157Z" creationid="Марианна" creationdate="20211010T212157Z">
+        <seg>&lt;x1/&gt;Collapse tree&lt;x2/&gt; &lt;x3/&gt;Collapse tree&lt;x4/&gt; enables to collapse the tree of aggregation options and representation methods.</seg>
       </tuv>
     </tu>
     <tu>
