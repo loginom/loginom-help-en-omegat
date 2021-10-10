@@ -35801,6 +35801,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступен в мастерах &lt;x1/&gt;Импорт из базы данных&lt;x2/&gt;, &lt;x3/&gt;Импорт из 1С&lt;x4/&gt; и &lt;x5/&gt;JavaScript&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T215055Z" creationid="Марианна" creationdate="20211010T215055Z">
+        <seg>It is available in &lt;x1/&gt;Import from database&lt;x2/&gt;, &lt;x3/&gt;Import from 1С&lt;x4/&gt; and &lt;x5/&gt;JavaScript&lt;x6/&gt; wizards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступен во всех Пакетах (чтобы использовать объект из другого Пакета, надо создать Ссылку на этот Пакет)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215805Z" creationid="Марианна" creationdate="20210928T215805Z">
