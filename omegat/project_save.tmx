@@ -52719,6 +52719,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Режим поиска определяет очередность подсветки найденных значений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T224308Z" creationid="Марианна" creationdate="20211010T224308Z">
+        <seg>The search mode enables to define the highlighting order of the detected values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Режим расчета статистики:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T114724Z" creationid="Марианна" creationdate="20201214T114724Z">
