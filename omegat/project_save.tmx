@@ -16589,6 +16589,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — переместить вариант агрегации/способ отображения на позицию вверх;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T211955Z" creationid="Марианна" creationdate="20211010T211955Z">
+        <seg>&lt;x1/&gt;Move up&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the aggregation option/representation method one item position up.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переместить вверх&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выделенные поля вверх по списку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T084333Z" creationid="Марианна" creationdate="20201006T084333Z">
@@ -16633,6 +16641,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T194952Z" creationid="Марианна" creationdate="20201004T194952Z">
         <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the expression one item position down the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переместить вниз&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — переместить вариант агрегации/способ отображения на позицию вниз;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212053Z" creationid="Марианна" creationdate="20211010T212053Z">
+        <seg>&lt;x1/&gt;Move down&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the aggregation option/representation method one item position down.</seg>
       </tuv>
     </tu>
     <tu>
