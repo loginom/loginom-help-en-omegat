@@ -3876,6 +3876,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Столбцы&lt;x4/&gt; — позволяет отключить/включить отображение определенным столбцам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T220438Z" creationid="Марианна" creationdate="20211010T220438Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt;: enable/disable representation by the defined columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172106Z" creationid="Марианна" creationdate="20211005T172106Z">
@@ -51709,6 +51717,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T113057Z" creationid="Марианна" creationdate="20210925T113057Z">
         <seg>It is performed on the basis of the independent validation set (namely, the set that has not been used for training and testing) after the model training and testing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проводится только на текущем наборе данных в соответствии с установленными лимитами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T220332Z" creationid="Марианна" creationdate="20211010T220332Z">
+        <seg>It is performed only for the current data set according to the set limits.</seg>
       </tuv>
     </tu>
     <tu>
