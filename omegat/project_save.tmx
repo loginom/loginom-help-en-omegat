@@ -21734,6 +21734,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Целиком&lt;x2/&gt; — искомый фрагмент полностью повторяет значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T225145Z" creationid="Марианна" creationdate="20211010T225145Z">
+        <seg>&lt;x1/&gt;Full&lt;x2/&gt;: the searched fragment fully repeats the value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Центр кластера&lt;x2/&gt; — среднее значение переменных объектов, входящих в кластер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142346Z" creationid="Марианна" creationdate="20201210T132119Z">
@@ -57475,6 +57483,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T115534Z" creationid="Марианна" creationdate="20210809T115534Z">
         <seg>Branded Data Sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Флаг &lt;x1/&gt;Регистр&lt;x2/&gt; позволяет выполнить поиск с учётом регистра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T225248Z" creationid="Марианна" creationdate="20211010T225248Z">
+        <seg>&lt;x1/&gt;Case-sensitive&lt;x2/&gt; checkbox provides the case-sensitive search.</seg>
       </tuv>
     </tu>
     <tu>
