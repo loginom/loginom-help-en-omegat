@@ -30442,6 +30442,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя часть панели содержит единственную настройку гистограммы в дополнении к общим настройкам гистограмм на &lt;x5/&gt;&lt;x6/&gt;Панели инструментов&lt;x7/&gt;&lt;x8/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T130147Z" creationid="Марианна" creationdate="20211010T130147Z">
+        <seg>The upper panel part contains the only histogram setting added to the general histogram settings on the &lt;x5/&gt;&lt;x6/&gt;Toolbar&lt;x7/&gt;&lt;x8/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вес класса — это отношение числа наблюдений, для которых значение входного признака попадает в данный класс, к общему числу наблюдений исходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T121408Z" creationid="Марианна" creationdate="20210530T121408Z">
