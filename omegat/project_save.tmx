@@ -18862,6 +18862,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Промежуточная модель&lt;x2/&gt; — модель, которую создал алгоритм в процессе обучения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T233825Z" creationid="Марианна" creationdate="20211010T233825Z">
+        <seg>&lt;x1/&gt;Intermediate model&lt;x2/&gt;: the model created by the algorithm in the training process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Промежуточное&lt;x2/&gt; — при установке этого флага выражение может использоваться в расчетах, не включается в список полей выходного набора данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133443Z" creationid="Марианна" creationdate="20201015T074752Z">
