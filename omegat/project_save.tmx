@@ -15217,6 +15217,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Нижняя часть панели&lt;x2/&gt; — содержит сводную таблицу значений &lt;x3/&gt;Индикаторов&lt;x4/&gt; по выбранным кластерам в &lt;x5/&gt;Основной таблице&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T131038Z" creationid="Марианна" creationdate="20211010T131038Z">
+        <seg>&lt;x1/&gt;Lower panel part&lt;x2/&gt; contains the summary table of the values of &lt;x3/&gt;Indicators&lt;x4/&gt; by the selected clusters in the &lt;x5/&gt;Main table&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Нижняя.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T121408Z" creationid="Марианна" creationdate="20211005T121408Z">
