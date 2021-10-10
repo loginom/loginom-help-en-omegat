@@ -16261,6 +16261,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель фильтрации.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T134343Z" creationid="Марианна" creationdate="20211010T134343Z">
+        <seg>&lt;x1/&gt;Filtration panel.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель фильтрации&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070337Z" creationid="Марианна" creationdate="20200812T070337Z">
@@ -43124,6 +43132,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройки диапазона фильтруемых значений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T134506Z" creationid="Марианна" creationdate="20211010T134506Z">
+        <seg>Settings of the filtered values range:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройки метода</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113929Z" creationid="Марианна" creationdate="20201214T113929Z">
@@ -52509,6 +52525,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T094944Z" creationid="Марианна" creationdate="20201222T094944Z">
         <seg>It handles the task of &lt;x1/&gt;regression&lt;x2/&gt;: the &lt;x3/&gt;&lt;x4/&gt;Neural Network&lt;x5/&gt;&lt;x6/&gt; in the output data set will provide the forecast value for one or several variables that depend on the input parameters set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рис 1).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T134332Z" creationid="Марианна" creationdate="20211010T134332Z">
+        <seg>Figure 1).</seg>
       </tuv>
     </tu>
     <tu>
