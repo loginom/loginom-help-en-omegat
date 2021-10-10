@@ -19550,6 +19550,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Режим отображения Дерево.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232134Z" creationid="Марианна" creationdate="20211010T232134Z">
+        <seg>&lt;x1/&gt;Tree representation mode.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Режим отображения Таблица.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T232057Z" creationid="Марианна" creationdate="20211010T232057Z">
@@ -44610,6 +44618,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги построения&lt;x4/&gt; состоит из следующих полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232219Z" creationid="Марианна" creationdate="20211010T232219Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt; area consists of the following fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область Информация о модели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T225741Z" creationid="Марианна" creationdate="20211010T225726Z">
@@ -58735,6 +58751,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T055658Z" creationid="Марианна" creationdate="20211003T055658Z">
         <seg>The steps are set by the nodes from the standard or &lt;x5/&gt;Derived components&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Шаги построения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232144Z" creationid="Марианна" creationdate="20211010T232144Z">
+        <seg>Model steps</seg>
       </tuv>
     </tu>
     <tu>
