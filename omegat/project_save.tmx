@@ -30682,6 +30682,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор &lt;x1/&gt;Профили кластеров&lt;x2/&gt; предназначен для просмотра различных статистических показателей кластеров, просмотра структуры кластеров и сравнения их между собой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T205345Z" creationid="Марианна" creationdate="20211010T205345Z">
+        <seg>&lt;x1/&gt;Cluster profiles&lt;x2/&gt; visualizer is designated for view of different statistical indicators of clusters, cluster structure and their comparison with each other.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Включает следующие группы параметров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T194503Z" creationid="Марианна" creationdate="20201208T103440Z">
