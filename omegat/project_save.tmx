@@ -12097,6 +12097,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Доля&lt;x2/&gt; — колонка с столбцами горизонтальной гистограммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T102416Z" creationid="Марианна" creationdate="20211008T102416Z">
+        <seg>&lt;x1/&gt;Rate&lt;x2/&gt;: the column with the horizontal histogram columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Дополнение данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T203648Z" creationid="Марианна" creationdate="20200810T191810Z">
@@ -14285,6 +14293,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T134218Z" creationid="Марианна" creationdate="20201004T195824Z">
         <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the variable caption in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — метка уникального значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T102443Z" creationid="Марианна" creationdate="20211008T102443Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the unique value caption.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21982,6 +21998,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T202531Z" creationid="Марианна" creationdate="20210629T202531Z">
         <seg>&lt;x1/&gt;No&lt;x2/&gt; — bin number;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;№&lt;x2/&gt; — номер уникального значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T102501Z" creationid="Марианна" creationdate="20211008T102501Z">
+        <seg>&lt;x1/&gt;№&lt;x2/&gt;: the unique value number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32494,6 +32518,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175258Z" creationid="Марианна" creationdate="20201022T175258Z">
         <seg>Sealer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Гистограмма может быть двух видов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211008T102524Z" creationid="Марианна" creationdate="20211008T102524Z">
+        <seg>There are two types of histograms:</seg>
       </tuv>
     </tu>
     <tu>
