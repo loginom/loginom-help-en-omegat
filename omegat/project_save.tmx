@@ -28398,8 +28398,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В &lt;x1/&gt;Предпросмотре&lt;x2/&gt; узла &lt;x3/&gt;JavaScript&lt;x4/&gt; есть возможность контролировать работу скрипта в &lt;x5/&gt;консоль&lt;x6/&gt; &lt;x7/&gt;консоли отладки кода&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T221414Z" creationid="Марианна" creationdate="20211010T221414Z">
-        <seg>It is possible to control the script operation in &lt;x1/&gt;Preview&lt;x2/&gt; of &lt;x3/&gt;JavaScript&lt;x4/&gt; node to &lt;x5/&gt;console&lt;x6/&gt; of &lt;x7/&gt;code debugging console&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T221545Z" creationid="Марианна" creationdate="20211010T221414Z">
+        <seg>It is possible to control the script operation in &lt;x5/&gt;console&lt;x6/&gt; of &lt;x7/&gt;code debugging console&lt;x8/&gt; in &lt;x1/&gt;Preview&lt;x2/&gt; of &lt;x3/&gt;JavaScript&lt;x4/&gt; node.</seg>
       </tuv>
     </tu>
     <tu>
