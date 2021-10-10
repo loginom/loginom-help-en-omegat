@@ -34266,6 +34266,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для алгоритмов, которые не поддерживают обработку фактов, в этом поле будет только одна финальная модель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T233621Z" creationid="Марианна" creationdate="20211010T233621Z">
+        <seg>Only one final model will be available in this field for the algorithms that do not support processing of measures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для аналитика данный раздел доступен по умолчанию|
 |Вход в интерактивном режиме|Отмечает разрешение на режим входа через браузер|
 |Вход в режиме службы|Отмечает разрешение на вход в режиме службы (для запуска сервера)|
