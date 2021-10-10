@@ -36770,6 +36770,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задает диапазон от 0 до числа строк в исходном наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T135800Z" creationid="Марианна" creationdate="20211010T135800Z">
+        <seg>It sets the range from 0 to the row count in the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задает функциональность данных столбца в контексте выполняемого обработчиком алгоритма.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T112812Z" creationid="Марианна" creationdate="20210809T112812Z">
