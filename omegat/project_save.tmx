@@ -9486,6 +9486,18 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;^1&lt;x2/&gt;: &lt;x3/&gt;Межквартильный размах&lt;x4/&gt; — разница между верхним и нижним квартилями;
+&lt;x5/&gt;^2&lt;x6/&gt;: &lt;x7/&gt;Размах&lt;x8/&gt; — разница между максимальным и минимальным значениями;
+&lt;x9/&gt;^3&lt;x10/&gt;: &lt;x11/&gt;Значения&lt;x12/&gt; — количество непустых элементов в поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T223336Z" creationid="Марианна" creationdate="20211010T223336Z">
+        <seg>&lt;x1/&gt;^1&lt;x2/&gt;: &lt;x3/&gt;Interquartile range&lt;x4/&gt;: difference between the upper and lower quartiles.
+&lt;x5/&gt;^2&lt;x6/&gt;: &lt;x7/&gt;Range&lt;x8/&gt;: difference between the maximum and minimum values.
+&lt;x9/&gt;^3&lt;x10/&gt;: &lt;x11/&gt;Values&lt;x12/&gt;: number of not null items in the field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;^1&lt;x2/&gt;: Доступно только для редакций с возможностью публикации &lt;x3/&gt;Веб-сервисов&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T090055Z" creationid="Марианна" creationdate="20200816T132034Z">
