@@ -18796,8 +18796,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Процент по горизонтали&lt;x2/&gt; &lt;x3/&gt;Процент по горизонтали&lt;x4/&gt; — факты будут отображаться в процентах от итогового значения по строкам;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T212701Z" creationid="Марианна" creationdate="20211010T212701Z">
-        <seg>&lt;x1/&gt;Percent by row&lt;x2/&gt; &lt;x3/&gt;Percent by row&lt;x4/&gt;: measures will be displayed in percentage terms according to the final value by rows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212832Z" creationid="Марианна" creationdate="20211010T212701Z">
+        <seg>&lt;x1/&gt;Percent by row&lt;x2/&gt; &lt;x3/&gt;Percent by row&lt;x4/&gt;: measures will be displayed as percentage of the final value by rows.</seg>
       </tuv>
     </tu>
     <tu>
