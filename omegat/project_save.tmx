@@ -15153,6 +15153,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Непрерывная гистограмма&lt;x2/&gt; — сплошная заливка под непрерывной гладкой кривой, совпадает с таковой в ячейке таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T133007Z" creationid="Марианна" creationdate="20211010T133007Z">
+        <seg>&lt;x1/&gt;Сontinuous histogram&lt;x2/&gt; means the solid fill under the continuous smooth curve, and it matches the same one in the table cell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Непрерывные данные&lt;x2/&gt; — данные, которые могут принимать любые значения в некотором интервале.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210817T094306Z" creationid="Марианна" creationdate="20210817T094306Z">
