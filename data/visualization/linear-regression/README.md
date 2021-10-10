@@ -4,43 +4,43 @@
 
 This visualizer consists of three areas:
 
-* [Информации о модели](#informatsiya-o-modeli);
+* [Model Info](#informatsiya-o-modeli);
 * [Regression coefficients](#koeffitsienty-regressii);
-* [Шагов построения](#shagi-postroeniya).
+* [Model steps](#shagi-postroeniya).
 
 More detailed infomation how to enable this visualizer is provided in the [article](../README.md).
 
 ## Interface
 ### Operations
 
-#### Область Информация о модели
+#### Model info area
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_info_default.svg) **Информация о модели** — отображение/скрытие [информации о модели](#informatsiya-o-modeli).
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_info_default.svg) **Model info**: show/hide [Model info](#informatsiya-o-modeli).
 
 #### Regression Coefficients Area
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) **Таблица** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Таблица*;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) **Дерево** — переключение отображения [коэффициентов регрессии](#koeffitsienty-regressii) в вид *Дерево*;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zero_default.svg) **Нулевые значения** — отображение/скрытие нулевых значений.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) **Table**: switch of representation of [regression coefficients](#koeffitsienty-regressii) to the *Table* form.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) **Tree**: switch of representation of [regression coefficients](#koeffitsienty-regressii) to the *Tree* form.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zero_default.svg) **Zero values**: show/hide zero values.
 
-#### Область Шаги построения
+#### Model Steps Area
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) **Шаги построения** — отображение/скрытие [шагов построения](#shagi-postroeniya) модели.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) **Model steps**: show/hide [model steps](#shagi-postroeniya).
 
 ### Visualizer Areas
 
-#### Информация о модели
+#### Model Info
 
-Описание показателей модели представлено в таблице:
+Description of model indicators is represented in the table:
 
-| Показатель | Description |
+| Indicator | Description |
 |:------------------------|:-----------------------------------------------|
-| ![Логический](../../images/icons/data-types/boolean_default.svg) Константа | [Зависимая переменная](https://wiki.loginom.ru/articles/output-variable.html) |
+| ![Logical](../../images/icons/data-types/boolean_default.svg) Constant | [Dependent variable](https://wiki.loginom.ru/articles/output-variable.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) -2 Log Likelihood | -2 Logarithm of the [likelihood function](https://wiki.loginom.ru/articles/plausibility-function.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) R2 | [Determination coefficient](https://wiki.loginom.ru/articles/coefficient-of-determination.html) |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) R2 корр. | [Коэффициент детерминации скорректированный](https://wiki.loginom.ru/articles/coefficient-determ-adj.html) |
-| ![Целый](../../images/icons/data-types/integer_default.svg)[Число степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html) | Число независимо варьируемых значений признака |
-| ![Вещественный](../../images/icons/data-types/float_default.svg) [Значимость](https://wiki.loginom.ru/articles/significance-regr.html) | Степень статистической связи между [входной](https://wiki.loginom.ru/articles/input-variable.html) (набором входных) и [выходной переменными](https://wiki.loginom.ru/articles/output-variable.html)  регрессионной модели |
+| ![Real](../../images/icons/data-types/float_default.svg) R2 adj. | [Determination coefficient adjusted](https://wiki.loginom.ru/articles/coefficient-determ-adj.html) |
+| ![Integer](../../images/icons/data-types/integer_default.svg)[Number of degrees of freedom](https://wiki.loginom.ru/articles/degrees-of-freedom.html) | Number of independently varied values of indicator |
+| ![Real](../../images/icons/data-types/float_default.svg) [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the [input](https://wiki.loginom.ru/articles/input-variable.html) (set of the input ones) and [output variables](https://wiki.loginom.ru/articles/output-variable.html) of regression model |
 | ![Real](../../images/icons/data-types/float_default.svg) AIC | [Akaike information criterion](https://wiki.loginom.ru/articles/aic.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) AICc | [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) BIC | [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html) |
@@ -52,37 +52,37 @@ Description of coefficients is provided in the table:
 
 | Coefficient | Description |
 |:--------------------|:----------|
-| Coefficient | Характеристика связи между зависимой *y* и [независимой переменной](https://wiki.loginom.ru/articles/input-variable.html) *x* |
-| [Стандартная ошибка](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
+| Coefficient | Characteristics of relation between dependent *y* and [independent variable](https://wiki.loginom.ru/articles/input-variable.html) *x* |
+| [Standard error](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
 | T-statistics | Отношение стандартной ошибки оценки коэффициента к его абсолютной величине. |
 | [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 
-Коэффициенты регрессии могут быть представлены в виде ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Таблицы* (см. рисунок 1) или ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Дерева* (см. Figure 2).
+Regression coefficients can be represented in the ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Table* form (refer to Figure 1) or ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Tree* (refer to Figure 2).
 
-![Режим отображения Таблица.](./readme-1.png)
+![Table representation mode.](./readme-1.png)
 
-![Режим отображения Дерево.](./readme-2.png)
+![Tree representation mode.](./readme-2.png)
 
-#### Шаги построения
+#### Model steps
 
 Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги* построения имеет смысл включать только в том случае, если при настройке узла Логистическая регрессия в параметре Отбор факторов и защита от переобучения был выбран алгоритм, который подразумевает режим обработки фактов.
 
-Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги построения* состоит из следующих полей:
+![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Model steps* area consists of the following fields:
 
 | Field | Description |
 |:----------------|:----------------------------------------------------------------------------|
-| Model | Дерево моделей, в котором отображаются созданные алгоритмом модели в процессе обучения. Оно появляется тогда, когда отбираются факты. Для алгоритмов, которые не поддерживают обработку фактов, в этом поле будет только одна финальная модель. Щелчком левой кнопки мыши по области ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги построения* можно выбрать отображение [информации о выбранной модели](#informatsiya-o-modeli) (если установлен соответствующий флажок), а также [коэффициенты регрессии](#koeffitsienty-regressii). |
-| Показатель | Значение выбранного показателя для текущей модели |
-| Изменение поля | Отображает добавлен или удален был факт ("+" означает, что факт был добавлен в модель, а "-" показывает, что факт удален из модели) |
+| Model | The tree of models in which the models created by the algorithm in the training process are displayed. It appears when measures are selected. Only one final model will be available in this field for the algorithms that do not support processing of measures. Щелчком левой кнопки мыши по области ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги построения* можно выбрать отображение [информации о выбранной модели](#informatsiya-o-modeli) (если установлен соответствующий флажок), а также [коэффициенты регрессии](#koeffitsienty-regressii). |
+| Indicator | Value of the selected indicator for the current model |
+| Field change | Отображает добавлен или удален был факт ("+" означает, что факт был добавлен в модель, а "-" показывает, что факт удален из модели) |
 | Fields | Current model fields |
 
 There are three model types:
 
-* **Нулевая модель** — начальная модель работы алгоритма;
-* **Промежуточная модель** — модель, которую создал алгоритм в процессе обучения;
+* **Null model**: the initial model of the algorithm operation.
+* **Intermediate model**: the model created by the algorithm in the training process.
 * **Финальная модель** — модель, которую алгоритм посчитал наилучшей, и дальнейшие действия не приведут к улучшению модели.
 
-Доступные для выбора показатели:
+The indicators available for selection:
 
 * -2 Log Likelihood;
 * AIC;
