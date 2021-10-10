@@ -10536,6 +10536,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Верхняя часть панели&lt;x2/&gt; — содержит сравнительную гистограмму кластеров, в одной области совмещены гистограммы кластеров и &lt;x3/&gt;генеральной совокупности&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T130008Z" creationid="Марианна" creationdate="20211010T130008Z">
+        <seg>&lt;x1/&gt;Upper panel part&lt;x2/&gt; contains the comparative cluster histogram. The cluster histograms and &lt;x3/&gt;universal set&lt;x4/&gt; are combined in one area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Верхняя&lt;x2/&gt; — верхняя граница интервала;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T153509Z" creationid="Марианна" creationdate="20210629T202307Z">
