@@ -37968,6 +37968,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение выбранного показателя для текущей модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232836Z" creationid="Марианна" creationdate="20211010T232836Z">
+        <seg>Value of the selected indicator for the current model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение выражения в каждой строке набора данных будет вычислено по &lt;x3/&gt;формуле&lt;x4/&gt; или JavaScript коду.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T185138Z" creationid="Марианна" creationdate="20201015T062700Z">
