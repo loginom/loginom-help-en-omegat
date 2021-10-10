@@ -36255,6 +36255,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступные для выбора показатели:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T233353Z" creationid="Марианна" creationdate="20211010T233353Z">
+        <seg>The indicators available for selection:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные значения: &lt;x5/&gt;?, null, NULL&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153252Z" creationid="Марианна" creationdate="20200917T153252Z">
