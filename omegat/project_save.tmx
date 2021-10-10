@@ -50239,8 +50239,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При нажатии на кнопку &lt;x7/&gt;Предпросмотр&lt;x8/&gt; активируются все входные порты, кроме непосредственно соединенных с текущим узлом &lt;x9/&gt;Подключений&lt;x10/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T215527Z" creationid="Марианна" creationdate="20211010T215527Z">
-        <seg>When pressing &lt;x7/&gt;Preview&lt;x8/&gt; button, it is possible to activate all input ports, with the exception of &lt;x9/&gt;Connections&lt;x10/&gt; connected with the current node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T215603Z" creationid="Марианна" creationdate="20211010T215527Z">
+        <seg>When pressing &lt;x7/&gt;Preview&lt;x8/&gt; button, it is possible to activate all input ports, with the exception of the &lt;x9/&gt;Connections&lt;x10/&gt; connected with the current node.</seg>
       </tuv>
     </tu>
     <tu>
