@@ -14697,6 +14697,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Накопительная диаграмма&lt;x2/&gt; &lt;x3/&gt;Накопительная диаграмма&lt;x4/&gt; — отображает один составной столбец, разбитый на цветные области, соответствующие кластерам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T130537Z" creationid="Марианна" creationdate="20211010T130537Z">
+        <seg>&lt;x1/&gt;Cumulative histogram&lt;x2/&gt; &lt;x3/&gt;Cumulative histogram&lt;x4/&gt; displays one composite column divided into color areas matching the clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Наличие временной зоны&lt;x2/&gt; — определяет указывается ли информация о &lt;x3/&gt;часовом поясе&lt;x4/&gt; в рамках стандарта &lt;x5/&gt;ISO_8601&lt;x6/&gt; в элементах XML, содержащих дату и/или время.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T061104Z" creationid="Марианна" creationdate="20210224T061104Z">
