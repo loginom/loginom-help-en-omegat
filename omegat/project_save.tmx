@@ -11185,6 +11185,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выбрать все&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; — выбрать все варианта агрегации со всеми способами отображения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T212331Z" creationid="Марианна" creationdate="20211010T212331Z">
+        <seg>&lt;x1/&gt;Check all&lt;x2/&gt; &lt;x3/&gt;Check all&lt;x4/&gt; enables to check all aggregation options with all representation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выбрать все&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; — отмечает все строки;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200829T204808Z" creationid="Марианна" creationdate="20200829T204808Z">
