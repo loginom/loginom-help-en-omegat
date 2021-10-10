@@ -16269,6 +16269,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель фильтрации&lt;x2/&gt; Панель фильтрации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T133920Z" creationid="Марианна" creationdate="20211010T133920Z">
+        <seg>&lt;x1/&gt;Filtration Panel&lt;x2/&gt; Filtration Panel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Параллельная обработка&lt;x2/&gt; — применяется для ускорения вычислений при работе цикла, количество потоков определяется параметром "максимальное количество потоков".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T100954Z" creationid="Марианна" creationdate="20200921T203628Z">
