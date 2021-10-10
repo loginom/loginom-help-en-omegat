@@ -51249,6 +51249,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примечание: &lt;x1/&gt;Панель фильтрации&lt;x2/&gt;, &lt;x3/&gt;Панель сравнения кластеров&lt;x4/&gt; и &lt;x5/&gt;Детализацию&lt;x6/&gt; можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T211035Z" creationid="Марианна" creationdate="20211010T211035Z">
+        <seg>Note: Sizes of &lt;x1/&gt;Filtration panel&lt;x2/&gt;, &lt;x3/&gt;Cluster comparison panel&lt;x4/&gt; and &lt;x5/&gt;Detailing&lt;x6/&gt; can be changed by dragging the separator line with the left mouse button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание: Все колонки, кроме колонки &lt;x1/&gt;Доля&lt;x2/&gt;, можно сортировать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T101719Z" creationid="Марианна" creationdate="20211008T101719Z">
