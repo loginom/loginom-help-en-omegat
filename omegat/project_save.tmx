@@ -50213,6 +50213,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении курсора к заголовку поля появится кнопка &lt;x1/&gt; &lt;x2/&gt; с дополнительными функциями:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T220033Z" creationid="Марианна" creationdate="20211010T220033Z">
+        <seg>When the cursor is hovered over the field caption, &lt;x1/&gt; &lt;x2/&gt; button with the additional functions will appear:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на данный текст на экран выведется полная формулировка ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065436Z" creationid="Марианна" creationdate="20200817T065436Z">
@@ -50769,6 +50777,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T164608Z" creationid="Марианна" creationdate="20201109T164407Z">
         <seg>In the case of such join, the order of tables (left, right) is not important, and it is not required to map the key fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При успешном завершении активации открывается данное окно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T215803Z" creationid="Марианна" creationdate="20211010T215803Z">
+        <seg>This window is opened when the activation is successfully finished.</seg>
       </tuv>
     </tu>
     <tu>
