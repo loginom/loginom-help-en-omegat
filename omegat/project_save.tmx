@@ -30730,6 +30730,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T214841Z" creationid="Марианна" creationdate="20211010T214841Z">
+        <seg>Real numbers (with floating point) are displayed with two places after decimal separator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вещественный</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T113403Z" creationid="Марианна" creationdate="20210809T113403Z">
@@ -31718,6 +31726,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T210030Z" creationid="Марианна" creationdate="20210930T210030Z">
         <seg>It is not possible to disable their visibility.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Возможности фильтрации, изменения формата отображения данных и поиска нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T214606Z" creationid="Марианна" creationdate="20211010T214606Z">
+        <seg>Filtration, change of data representation format and search are not available.</seg>
       </tuv>
     </tu>
     <tu>
