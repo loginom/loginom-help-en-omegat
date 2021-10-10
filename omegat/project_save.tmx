@@ -7486,6 +7486,30 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Основная таблица&lt;x3/&gt;&lt;x4/&gt; — отображает информацию о паре &lt;кластер, поле&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T210003Z" creationid="Марианна" creationdate="20211010T210003Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Main table&lt;x3/&gt;&lt;x4/&gt; displays information on &lt;cluster, field&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Панель сравнения кластеров&lt;x3/&gt;&lt;x4/&gt; — содержит сравнительную информацию по кластерам, выделенным в &lt;x5/&gt;Основной таблице&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T210157Z" creationid="Марианна" creationdate="20211010T210157Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Cluster comparison panel&lt;x3/&gt;&lt;x4/&gt; contains the comparative information on the clusters selected in the &lt;x5/&gt;Main table&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Панель фильтрации&lt;x3/&gt;&lt;x4/&gt; — содержит настройки фильтрации &lt;x5/&gt;Основной таблицы&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T210052Z" creationid="Марианна" creationdate="20211010T210052Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Filtration panel&lt;x3/&gt;&lt;x4/&gt; contains filtration settings of the &lt;x5/&gt;Main table&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Удалить все условия&lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Удалить все условия&lt;x6/&gt; — удалить все условия для выбранной ветви.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T082741Z" creationid="Марианна" creationdate="20200924T082741Z">
