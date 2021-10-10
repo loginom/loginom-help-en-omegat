@@ -12059,8 +12059,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить факт&lt;x2/&gt; Добавить факт</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T171249Z" creationid="Марианна" creationdate="20211005T171249Z">
-        <seg>&lt;x1/&gt;Add measure&lt;x2/&gt; Add measure</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T211423Z" creationid="Марианна" creationdate="20211005T171249Z">
+        <seg>&lt;x1/&gt;Add Measure&lt;x2/&gt; Add Measure</seg>
       </tuv>
     </tu>
     <tu>
@@ -28592,6 +28592,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T203800Z" creationid="Марианна" creationdate="20210601T203800Z">
         <seg>This table contains information on the output binning ranges.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В данном окне для факта необходимо выбрать &lt;x1/&gt;функцию агрегации&lt;x2/&gt; и способ отображения выбранного варианта агрегации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T211656Z" creationid="Марианна" creationdate="20211010T211656Z">
+        <seg>It is required to select &lt;x1/&gt;aggregation function&lt;x2/&gt; and representation method of the selected aggregation option in this window fo the measure.</seg>
       </tuv>
     </tu>
     <tu>
