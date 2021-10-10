@@ -33992,6 +33992,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дерево моделей, в котором отображаются созданные алгоритмом модели в процессе обучения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232527Z" creationid="Марианна" creationdate="20211010T232527Z">
+        <seg>The tree of models in which the models created by the algorithm in the training process are displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дерево узлов имеет как минимум две корневые ветки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T071015Z" creationid="Марианна" creationdate="20200919T071015Z">
@@ -45654,6 +45662,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T210611Z" creationid="Марианна" creationdate="20201012T210611Z">
         <seg>It comes down to selection of the new orthogonal frame of reference in the observation space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оно появляется тогда, когда отбираются факты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T232555Z" creationid="Марианна" creationdate="20211010T232555Z">
+        <seg>They appear when measures are selected.</seg>
       </tuv>
     </tu>
     <tu>
