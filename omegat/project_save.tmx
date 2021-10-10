@@ -10254,6 +10254,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Нижеперечисленные показатели недоступны для полей &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Переменного типа&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T222341Z" creationid="Марианна" creationdate="20211010T222341Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; The indicators listed below are not available for the fields &lt;x3/&gt;&lt;x4/&gt; of the &lt;x5/&gt;Variant type&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; При превышении максимального значения длины экспортируемой строки возникнет ошибка экспорта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T170316Z" creationid="Марианна" creationdate="20200916T170316Z">
@@ -42786,6 +42794,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, очевидно, что показатель Максимальная длина строки не будет доступен для поля числового или логического типов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T222456Z" creationid="Марианна" creationdate="20211010T222456Z">
+        <seg>For example, it is obvious that Maximum string length indicator will not be available for the field related to the numeric or logical type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, первое поле - код покупателя, второе - список его покупок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T075221Z" creationid="Марианна" creationdate="20201210T075221Z">
@@ -54717,6 +54733,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T194459Z" creationid="Марианна" creationdate="20201023T194459Z">
         <seg>In this case, the statistical parameters (or &lt;x3/&gt;aggregation functions&lt;x4/&gt;) are calculated for each group but not for the whole data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Статистические показатели:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T222349Z" creationid="Марианна" creationdate="20211010T222349Z">
+        <seg>Statistical Indicators:</seg>
       </tuv>
     </tu>
     <tu>
