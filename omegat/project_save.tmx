@@ -14577,6 +14577,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Мощность кластера&lt;x2/&gt; — показывает количество строк исходного набора, попавших в кластер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T135656Z" creationid="Марианна" creationdate="20211010T135656Z">
+        <seg>&lt;x1/&gt;Cluster size&lt;x2/&gt; shows the row count of the source data set included into the cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;На значение&lt;x2/&gt; — значения будут заменены на указанное.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T093427Z" creationid="Марианна" creationdate="20201117T093427Z">
