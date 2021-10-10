@@ -49579,6 +49579,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предпросмотр</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T213523Z" creationid="Марианна" creationdate="20211010T213523Z">
+        <seg>Preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представление значений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200826T093309Z" creationid="Марианна" creationdate="20200826T093309Z">
@@ -49607,6 +49615,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201030T082837Z" creationid="Марианна" creationdate="20201030T082837Z">
         <seg>It represents &lt;x1/&gt;data types&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет ограниченное количество данных (не более 100 первых строк возможного результирующего набора) для ознакомления в виде плоской двумерной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T214459Z" creationid="Марианна" creationdate="20211010T214459Z">
+        <seg>It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table.</seg>
       </tuv>
     </tu>
     <tu>
