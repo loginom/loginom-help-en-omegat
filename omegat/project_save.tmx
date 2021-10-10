@@ -50805,6 +50805,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Применение фильтра может привести к сокрытию колонки/строки, если все составляющее ее ячейки не прошли фильтр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140831Z" creationid="Марианна" creationdate="20211010T140831Z">
+        <seg>Usage of filter can hide column/row if all constituents of its cell have not passed filtering.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Применение этого формата обеспечивает максимальную скорость при выполнении импорта и/или экспорта данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210817T090644Z" creationid="Марианна" creationdate="20210817T090644Z">
@@ -51165,6 +51173,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T132017Z" creationid="Марианна" creationdate="20211010T132017Z">
         <seg>Note: If &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode is enabled and at the same time &lt;x3/&gt;Total&lt;x4/&gt; cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примечание: Непрошедшие фильтр ячейки имеют измененный стиль в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140633Z" creationid="Марианна" creationdate="20211010T140633Z">
+        <seg>Note: The cells that have not passed filtering refer to the changed style in the table.</seg>
       </tuv>
     </tu>
     <tu>
