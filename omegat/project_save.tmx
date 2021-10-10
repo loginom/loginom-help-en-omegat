@@ -48886,6 +48886,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После добавления в узел визуализатора откроется главное окно (Рис.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T205625Z" creationid="Марианна" creationdate="20211010T205625Z">
+        <seg>The main window will be opened after addition to the visualizer node (Figure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После завершения работы со списком следует нажать кнопку &lt;x1/&gt;Применить&lt;x2/&gt; для внесения изменений либо &lt;x3/&gt;Отменить&lt;x4/&gt; для возврата к состоянию до начала работы со списком.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T131912Z" creationid="Марианна" creationdate="20200829T205546Z">
