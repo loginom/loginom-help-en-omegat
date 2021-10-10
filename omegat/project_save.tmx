@@ -18336,6 +18336,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; по умолчанию в качестве варианта отображения выбирается идущий первым по списку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T213042Z" creationid="Марианна" creationdate="20211010T213042Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The representation method that is the first one on the list is seleted by default as the representation option.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; подробнее о пакетном выполнении сценариев и параметрах пакетного выполнения &lt;x3/&gt;/Teach&lt;x4/&gt; и &lt;x5/&gt;/Node&lt;x6/&gt; (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T193924Z" creationid="Марианна" creationdate="20211001T193924Z">
