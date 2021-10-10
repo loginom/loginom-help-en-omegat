@@ -37288,6 +37288,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Закрыть &lt;x1/&gt;Предпросмотр&lt;x2/&gt; узла &lt;x3/&gt;JavaScript&lt;x4/&gt; можно только кнопкой &lt;x5/&gt;X&lt;x6/&gt;, в узле &lt;x7/&gt;Импорт из базы данных&lt;x8/&gt; также доступна кнопка &lt;x9/&gt;Закрыть&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T221927Z" creationid="Марианна" creationdate="20211010T221927Z">
+        <seg>It is possible to close &lt;x1/&gt;Preview&lt;x2/&gt; of &lt;x3/&gt;JavaScript&lt;x4/&gt; node using only &lt;x5/&gt;X&lt;x6/&gt; button, in &lt;x7/&gt;Import from database&lt;x8/&gt; node &lt;x9/&gt;Close&lt;x10/&gt; button is also available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Замена</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T142933Z" creationid="Марианна" creationdate="20201116T142933Z">
