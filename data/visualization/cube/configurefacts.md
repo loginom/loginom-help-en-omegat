@@ -21,10 +21,10 @@
 
 > **Примечание:** После выполнения операций ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) Добавить факт..., ![](../../images/icons/cube/cases/case-calc_default.svg) Добавить вычисляемый факт… или ![](../../images/icons/toolbar-controls/delete_default.svg) Удалить факт кнопка *Отменить* в окне *Настроить факты* станет недоступна. Можно отменить любую операцию, выполнив обратную ей. В *Кубе* отобразятся только те факты, которые были отмечены в окне *Настроить факты* на момент нажатия кнопки *Применить*.
 
-## Способы отображения
+## Representation Methods
 
 * ![](../../images/icons/aggregations/factor-sum_default.svg) **Сумма** — показывает сумму значений данного факта;
 * ![](../../images/icons/cube/aggregation/row-percent_default.svg) **Процент по горизонтали** — отображает долю в процентах от занимаемого данным фактом в данной строке;
 * ![](../../images/icons/cube/aggregation/col-percent_default.svg) **Процент по вертикали** — отображает долю в процентах от занимаемого данным фактом в данном столбце.
 
-> **Примечание:** по умолчанию в качестве варианта отображения выбирается идущий первым по списку. Поддерживается выбор сразу нескольких вариантов отображения агрегации для факта.
+> **Note:** The representation option that is the first one on the list is selected by default as the representation option. Selection of several aggregation representation options at once is supported for the measure.
