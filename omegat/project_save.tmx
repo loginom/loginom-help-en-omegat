@@ -6820,6 +6820,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Профили кластеров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211010T140936Z" creationid="Марианна" creationdate="20211010T140936Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Cluster Profiles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Пузырьковая;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T151050Z" creationid="Марианна" creationdate="20211007T151050Z">
