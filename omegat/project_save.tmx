@@ -3716,6 +3716,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Развернуть&lt;x4/&gt; — развернуть иерархию измерений куба:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205615Z" creationid="Марианна" creationdate="20211011T205615Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Expand&lt;x4/&gt;: expand the cube dimensions hierarchy:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Разность&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T104915Z" creationid="Марианна" creationdate="20201111T104915Z">
@@ -19834,6 +19842,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172252Z" creationid="Марианна" creationdate="20211005T172252Z">
         <seg>&lt;x1/&gt;Collapse columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свернуть строки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205526Z" creationid="Марианна" creationdate="20211011T205526Z">
+        <seg>&lt;x1/&gt;Collapse rows&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
