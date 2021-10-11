@@ -31672,6 +31672,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор разделен на 3 области:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224402Z" creationid="Марианна" creationdate="20211011T224402Z">
+        <seg>The visualizer is divided into 3 areas:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Включает следующие группы параметров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T194503Z" creationid="Марианна" creationdate="20201208T103440Z">
@@ -33076,6 +33084,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T150249Z" creationid="Марианна" creationdate="20210210T150155Z">
         <seg>Selection of this mode affects the DB speed. It increases the speed without synchronization providing the lowest degree of protection against failures and decreasing the speed in order to provide higher degree of protection against failures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выбор диаграммы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224430Z" creationid="Марианна" creationdate="20211011T224430Z">
+        <seg>Chart Type</seg>
       </tuv>
     </tu>
     <tu>
@@ -42635,6 +42651,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Множества</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224436Z" creationid="Марианна" creationdate="20211011T224436Z">
+        <seg>Sets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Могут быть добавлены новые связи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T052800Z" creationid="Марианна" creationdate="20211003T052800Z">
@@ -45366,6 +45390,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103515Z" creationid="Марианна" creationdate="20201011T103515Z">
         <seg>ACF calculation area:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область содержит следующие элементы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224559Z" creationid="Марианна" creationdate="20211011T224559Z">
+        <seg>The area contains the following elements:</seg>
       </tuv>
     </tu>
     <tu>
@@ -49912,6 +49944,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201224T084859Z" creationid="Марианна" creationdate="20201224T084859Z">
         <seg>Minimum weight change threshold: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порог отсечения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224504Z" creationid="Марианна" creationdate="20211011T224504Z">
+        <seg>Cutoff</seg>
       </tuv>
     </tu>
     <tu>
@@ -54899,6 +54939,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T210504Z" creationid="Марианна" creationdate="20210601T210504Z">
         <seg>It contains all strings taken from both samples.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Содержит два флажка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224453Z" creationid="Марианна" creationdate="20211011T224453Z">
+        <seg>It contains two checkboxes:</seg>
       </tuv>
     </tu>
     <tu>
