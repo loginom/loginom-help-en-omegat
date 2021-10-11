@@ -46946,6 +46946,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Оценка значимости коэффициента при независимой переменной модели</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T223047Z" creationid="Марианна" creationdate="20211011T223047Z">
+        <seg>Assessment of significance of coefficient in the case of independent variable of model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оценка точности модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T211911Z" creationid="Марианна" creationdate="20201217T211121Z">
