@@ -17417,6 +17417,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показывать генеральную совокупность в гистограммах&lt;x2/&gt; &lt;x3/&gt;Показывать генеральную совокупность в гистограммах&lt;x4/&gt; — показать/скрыть &lt;x5/&gt;генеральную совокупность&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202516Z" creationid="Марианна" creationdate="20211011T202516Z">
+        <seg>&lt;x1/&gt;Show universal set in histograms&lt;x2/&gt; &lt;x3/&gt;Show universal set in histograms&lt;x4/&gt;: show/hide the &lt;x5/&gt;universal set&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показывать системные таблицы&lt;x2/&gt; — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T132712Z" creationid="Марианна" creationdate="20210202T113342Z">
@@ -29086,6 +29094,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T073635Z" creationid="Марианна" creationdate="20201016T073635Z">
         <seg>The dialog enables not only to edit the &lt;x3/&gt;standard field features&lt;x4/&gt; but also to set the caching parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В дискретных гистограммах &lt;x7/&gt;Основной таблицы&lt;x8/&gt; изменяется видимость столбца &lt;x9/&gt;Прочие&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202329Z" creationid="Марианна" creationdate="20211011T202329Z">
+        <seg>In the discrete histograms of the &lt;x7/&gt;Main table&lt;x8/&gt; visibility of &lt;x9/&gt;Other&lt;x10/&gt; column is changed.</seg>
       </tuv>
     </tu>
     <tu>
