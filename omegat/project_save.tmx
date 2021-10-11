@@ -50867,6 +50867,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нажатии на кнопку происходит циклическая смена положений кластеров в таблице, также сменить положение кластеров в таблице можно в выпадающем меню при нажатии на кнопку &lt;x3/&gt;Раскрыть&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T204605Z" creationid="Марианна" creationdate="20211011T204605Z">
+        <seg>When pressing the button, the cyclic change of cluster positions in the table is performed. And it is also possible to change cluster position in the table in the drop-down menu when pressing &lt;x3/&gt;Open&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на кнопку происходит циклическая смена режимов масштабирования гистограмм, также режим можно переключить в выпадающем меню при нажатии на кнопку &lt;x3/&gt;Раскрыть&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T202811Z" creationid="Марианна" creationdate="20211011T202811Z">
