@@ -50731,6 +50731,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нажатии на кнопку происходит циклическая смена способов &lt;x5/&gt;Детализации&lt;x6/&gt;, также способ &lt;x7/&gt;Детализации&lt;x8/&gt; можно переключить в выпадающем меню при нажатии на кнопку &lt;x9/&gt;Раскрыть&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T200654Z" creationid="Марианна" creationdate="20211011T200654Z">
+        <seg>When pressing the button, the cyclic change of the &lt;x5/&gt;Detailing&lt;x6/&gt; methods is performed, and the &lt;x7/&gt;Detailing&lt;x8/&gt; method can be switched in the drop-down menu when pressing &lt;x9/&gt;Open&lt;x10/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на название процесса в Сценарии будет найден и выделен узел, который отвечает за его выполнение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063446Z" creationid="Марианна" creationdate="20200817T063446Z">
