@@ -9658,6 +9658,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;^1&lt;x2/&gt;: добавленный ранее вычисляемый факт можно редактировать или удалить в окне &lt;x3/&gt;Настройки фактов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T211459Z" creationid="Марианна" creationdate="20211011T211459Z">
+        <seg>&lt;x1/&gt;^1&lt;x2/&gt;: earlier added calculated measure can be edited or deleted in &lt;x3/&gt;Settings of measures&lt;x4/&gt; window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;assert(&lt;x2/&gt;assertion, msg1 , ..., msgN&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T054927Z" creationid="Марианна" creationdate="20201029T054927Z">
@@ -57679,6 +57687,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T101526Z" creationid="Марианна" creationdate="20200919T102738Z">
         <seg>The nodes that are outside the current &lt;x1/&gt;Supernode&lt;x2/&gt;, &lt;x3/&gt;Workflow&lt;x4/&gt;, &lt;x5/&gt;Module&lt;x6/&gt; or &lt;x7/&gt;Package&lt;x8/&gt; are not available for selection by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Указанные операции доступны также через контекстное меню, которое можно вызвать кликом правой клавиши мыши в любом месте Области построения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T211636Z" creationid="Марианна" creationdate="20211011T211636Z">
+        <seg>The specified operations are available also via the context menu that can be called by clicking any Construction area place with the right mouse button.</seg>
       </tuv>
     </tu>
     <tu>
