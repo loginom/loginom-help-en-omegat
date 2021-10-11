@@ -21654,6 +21654,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Финальная модель&lt;x2/&gt; — модель, которую алгоритм посчитал наилучшей, и дальнейшие действия не приведут к улучшению модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T200001Z" creationid="Марианна" creationdate="20211011T200001Z">
+        <seg>&lt;x1/&gt;Final model&lt;x2/&gt;: the model that has been considered by the algorithm as the best one, and the further actions will not bring about the model improvement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Финансовые функции&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T064858Z" creationid="Марианна" creationdate="20200812T064858Z">
