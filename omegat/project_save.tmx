@@ -7718,6 +7718,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;ROC-кривая&lt;x3/&gt;&lt;x4/&gt; — зависимость &lt;x5/&gt;TPR&lt;x6/&gt; от &lt;x7/&gt;FPR&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225652Z" creationid="Марианна" creationdate="20211011T225652Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;ROC curve&lt;x3/&gt;&lt;x4/&gt;: dependence of &lt;x5/&gt;TPR&lt;x6/&gt; on &lt;x7/&gt;FPR&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Автокорреляция&lt;x3/&gt;&lt;x4/&gt; — это понятие математической статистики, которое характеризует степень статистической взаимосвязи между элементами данных одного временного ряда.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201010T163500Z" creationid="Марианна" creationdate="20201009T105058Z">
@@ -33868,6 +33876,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153401Z" creationid="Марианна" creationdate="20200917T153401Z">
         <seg>&lt;x1/&gt;Formats&lt;x2/&gt; group of parameters:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Группа содержит девять переключателей, каждый из которых вызывает определенную диаграмму в центре визуализатора:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225555Z" creationid="Марианна" creationdate="20211011T225555Z">
+        <seg>The group contains nine switches each of which calls the definite chart in the visualizer center:</seg>
       </tuv>
     </tu>
     <tu>
