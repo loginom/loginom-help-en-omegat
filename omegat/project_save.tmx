@@ -6380,6 +6380,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Фильтр&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки фильтрации&lt;x6/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214659Z" creationid="Марианна" creationdate="20211011T214659Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Filter&lt;x4/&gt;: open &lt;x5/&gt;filtration configuration window&lt;x6/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Формат&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки формата&lt;x6/&gt; отображения данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T214355Z" creationid="Марианна" creationdate="20211011T214355Z">
