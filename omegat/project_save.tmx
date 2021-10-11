@@ -14253,6 +14253,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент Вальда&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222115Z" creationid="Марианна" creationdate="20211011T222115Z">
+        <seg>&lt;x1/&gt;Wald Coefficient&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент детерминации скорректированный&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T231217Z" creationid="Марианна" creationdate="20211010T231217Z">
@@ -46738,6 +46746,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222051Z" creationid="Марианна" creationdate="20211011T222051Z">
+        <seg>Probability ratio of the fact that the event will occur to the probability of the fact that the event will not occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отношение стандартной ошибки оценки коэффициента к его абсолютной величине.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T193938Z" creationid="Марианна" creationdate="20211011T193938Z">
@@ -49760,6 +49776,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T170111Z" creationid="Марианна" creationdate="20201214T115112Z">
         <seg>&lt;x1/&gt;Significance threshold&lt;x2/&gt; in the case of factor addition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порог значимости</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222001Z" creationid="Марианна" creationdate="20211011T222001Z">
+        <seg>Significance Threshold</seg>
       </tuv>
     </tu>
     <tu>
