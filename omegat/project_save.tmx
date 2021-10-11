@@ -55431,6 +55431,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Столбцы кластеров имеют высоту: &lt;x5/&gt;Количество значений в столбце/Количество значений в столбце генеральной совокупности&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T203654Z" creationid="Марианна" creationdate="20211011T203654Z">
+        <seg>Cluster columns have the following height: &lt;x5/&gt;Number of values in the column/Number of values in the column of the universal set&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Страница &lt;x1/&gt;JavaScript&lt;x2/&gt; содержит редактор исполняемого узлом кода.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T060010Z" creationid="Марианна" creationdate="20201109T060010Z">
