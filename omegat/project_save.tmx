@@ -3964,6 +3964,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Транспонировать&lt;x4/&gt; — переместить измерения из строк в столбцы и наоборот.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T210052Z" creationid="Марианна" creationdate="20211011T210052Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Transpose&lt;x4/&gt;: move dimensions from rows to columns and vice versa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Удалить все выражения&lt;x4/&gt; — удаляет все имеющиеся выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T071935Z" creationid="Марианна" creationdate="20201015T071935Z">
