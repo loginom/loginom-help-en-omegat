@@ -11020,6 +11020,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; &lt;x3/&gt;Хи-квадрат&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222140Z" creationid="Марианна" creationdate="20211011T222140Z">
+        <seg>&lt;x1/&gt;Real&lt;x2/&gt; &lt;x3/&gt;Chi-square&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вещественный&lt;x2/&gt; AIC</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T173153Z" creationid="Марианна" creationdate="20211005T173153Z">
@@ -22290,6 +22298,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T225145Z" creationid="Марианна" creationdate="20211010T225145Z">
         <seg>&lt;x1/&gt;Full&lt;x2/&gt;: the searched fragment fully repeats the value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Целый&lt;x2/&gt; Число степеней свободы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222210Z" creationid="Марианна" creationdate="20211011T222210Z">
+        <seg>&lt;x1/&gt;Integer&lt;x2/&gt; Number of degrees of freedom</seg>
       </tuv>
     </tu>
     <tu>
@@ -55827,6 +55843,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T231552Z" creationid="Марианна" creationdate="20211010T231552Z">
         <seg>Degree of statistic link of the &lt;x1/&gt;input&lt;x2/&gt; (set of the input ones) and &lt;x3/&gt;output variables&lt;x4/&gt; of regression model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Степень статистической связи между &lt;x1/&gt;входной&lt;x2/&gt; (набором входных) и &lt;x3/&gt;выходной переменными&lt;x4/&gt; регрессионной модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222327Z" creationid="Марианна" creationdate="20211011T222327Z">
+        <seg>Degree of statistic link of the &lt;x1/&gt;input&lt;x2/&gt; (set of the input one) and &lt;x3/&gt;output variables&lt;x4/&gt; of regression model.</seg>
       </tuv>
     </tu>
     <tu>
