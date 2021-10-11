@@ -17609,6 +17609,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Положение кластеров в таблице&lt;x2/&gt; — переключить положение кластеров в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T204350Z" creationid="Марианна" creationdate="20211011T204350Z">
+        <seg>&lt;x1/&gt;Cluster position in table&lt;x2/&gt;: switch cluster position in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Получить значения&lt;x2/&gt; &lt;x3/&gt;Получить значения&lt;x4/&gt; — не доступно для переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T203309Z" creationid="Марианна" creationdate="20201006T203309Z">
