@@ -14941,6 +14941,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка поля&lt;x2/&gt; — метка поля из исходного набора данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231139Z" creationid="Марианна" creationdate="20211011T231139Z">
+        <seg>&lt;x1/&gt;Field caption&lt;x2/&gt;: field caption from the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка поля|Округлено&lt;x2/&gt; — поле содержит округленные разгруппируемые значения (в случае применения округления).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T065553Z" creationid="Марианна" creationdate="20201126T065553Z">
