@@ -9858,6 +9858,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Абсолютные частоты&lt;x2/&gt; &lt;x3/&gt;Абсолютные частоты&lt;x4/&gt; — столбцы отражают реальное количество значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202947Z" creationid="Марианна" creationdate="20211011T202947Z">
+        <seg>&lt;x1/&gt;Absolute frequencies&lt;x2/&gt; &lt;x3/&gt;Absolute frequencies&lt;x4/&gt;: the columns display the real number of values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Абсолютный&lt;x2/&gt; (для совместного использования) — включает в себя имя папки, из которой загружен файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085145Z" creationid="Марианна" creationdate="20200814T085145Z">
