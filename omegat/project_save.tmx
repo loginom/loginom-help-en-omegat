@@ -58875,6 +58875,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Щелчком левой кнопки мыши по области &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги построения&lt;x4/&gt; можно выбрать отображение &lt;x5/&gt;информации о выбранной модели&lt;x6/&gt; (если установлен соответствующий флажок), а также &lt;x7/&gt;коэффициенты регрессии&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T195408Z" creationid="Марианна" creationdate="20211011T194752Z">
+        <seg>Clicking the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt; area with the left mouse button, it is possible to select display of the &lt;x5/&gt;information on the selected model&lt;x6/&gt; (if corresponding checkbox has been selected), and also &lt;x7/&gt;regression coefficients&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Экспоненциально сглаженное скользящее среднее, в отличие от простого скользящего среднего придает последним наблюдениям более значимый вес, чем предпоследним, и т.д.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T130724Z" creationid="Марианна" creationdate="20210405T130724Z">
