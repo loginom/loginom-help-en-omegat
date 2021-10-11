@@ -14477,6 +14477,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Масштабирование гистограмм&lt;x2/&gt; — переключить режим масштабирования гистограмм.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202610Z" creationid="Марианна" creationdate="20211011T202610Z">
+        <seg>&lt;x1/&gt;Histogram scaling&lt;x2/&gt;: switch the histogram scaling mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Математические функции&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T060543Z" creationid="Марианна" creationdate="20200812T060543Z">
@@ -50815,6 +50823,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T201100Z" creationid="Марианна" creationdate="20211011T201100Z">
         <seg>When pressing the button, the cyclic change of &lt;x5/&gt;Indicators&lt;x6/&gt; is performed, and also &lt;x7/&gt;Indicator&lt;x8/&gt; can be switched in the drop-down menu when pressing &lt;x9/&gt;Open&lt;x10/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии на кнопку происходит циклическая смена режимов масштабирования гистограмм, также режим можно переключить в выпадающем меню при нажатии на кнопку &lt;x3/&gt;Раскрыть&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202811Z" creationid="Марианна" creationdate="20211011T202811Z">
+        <seg>When pressing the button, the cyclic change of histogram scaling modes is performed. It is also possible to switch the mode in the drop-down menu when pressing &lt;x3/&gt;Open&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
