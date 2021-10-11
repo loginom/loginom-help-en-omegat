@@ -49518,8 +49518,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Помимо кнопок Панели инструментов, в контекстном меню присутствует пункт &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Скрыть единственный факт&lt;x4/&gt;, который позволяет скрыть заголовки фактов, если активен единственный факт.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T212007Z" creationid="Марианна" creationdate="20211011T212007Z">
-        <seg>Apart from the Toolbar buttons, there is &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Hide single measure&lt;x4/&gt; option in the context menu. It enables to hide headres of measures if the only measure is active.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T212056Z" creationid="Марианна" creationdate="20211011T212007Z">
+        <seg>Apart from the Toolbar buttons, there is &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Hide single measure&lt;x4/&gt; option in the context menu. It enables to hide headers of measures if the only measure is active.</seg>
       </tuv>
     </tu>
     <tu>
