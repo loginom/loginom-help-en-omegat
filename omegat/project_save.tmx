@@ -3756,6 +3756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Приостановить автовычисление&lt;x4/&gt; — отключить обновление заголовков и данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T211234Z" creationid="Марианна" creationdate="20211011T211234Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Defer layout update&lt;x4/&gt;: disable update of headers and data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Прогнозируемое&lt;x4/&gt; — для данных, соответствующих временному ряду.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T070920Z" creationid="Марианна" creationdate="20201208T070920Z">
@@ -22698,6 +22706,22 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201016T134331Z" creationid="Марианна" creationdate="20201011T103618Z">
         <seg>&lt;x1/&gt;Frequency&lt;x2/&gt; is recommended in the case of the large lag count processing to speed up the calculation process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;экспорт в HTML&lt;x2/&gt; — сохранить текущее представление в формате HTML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T211149Z" creationid="Марианна" creationdate="20211011T211149Z">
+        <seg>&lt;x1/&gt;export to HTML&lt;x2/&gt;: save the current view in the HTML format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;экспорт в XLS (html)&lt;x2/&gt; — сохранить текущее представление в формате Excel.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T211109Z" creationid="Марианна" creationdate="20211011T211109Z">
+        <seg>&lt;x1/&gt;export to XLS (html)&lt;x2/&gt;: save the current view in the Excel format.</seg>
       </tuv>
     </tu>
     <tu>
