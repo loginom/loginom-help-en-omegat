@@ -19814,6 +19814,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Распознано&lt;x2/&gt; — количество распознанных событий от общего числа событий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225127Z" creationid="Марианна" creationdate="20211011T225127Z">
+        <seg>&lt;x1/&gt;Recognized&lt;x2/&gt;: the number of recognized events from the total number of events.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Расположение XSLT&lt;x2/&gt; — в данном поле указывается URL или расположение (в файловом хранилище) XSLT-файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T203041Z" creationid="Марианна" creationdate="20210208T203041Z">
@@ -46596,8 +46604,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Определяется по формуле $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T224913Z" creationid="Марианна" creationdate="20211011T224913Z">
-        <seg>It is defined by the following formula: $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224959Z" creationid="Марианна" creationdate="20211011T224913Z">
+        <seg>It is defined using the following formula: $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$</seg>
       </tuv>
     </tu>
     <tu>
