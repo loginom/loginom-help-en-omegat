@@ -5932,6 +5932,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Информация о модели&lt;x4/&gt; — отображение/скрытие информации о модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222738Z" creationid="Марианна" creationdate="20211011T222738Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model info&lt;x4/&gt;: display/hide the model info.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Класс | Прогноз&lt;x4/&gt; - обозначение прогнозируемого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135601Z" creationid="Марианна" creationdate="20201218T204446Z">
