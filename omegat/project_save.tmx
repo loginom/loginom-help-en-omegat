@@ -8126,6 +8126,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ctrl + Up&lt;x2/&gt; — переместить строку в Детализации вверх;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215725Z" creationid="Марианна" creationdate="20211011T215725Z">
+        <seg>&lt;x1/&gt;Ctrl + Up&lt;x2/&gt;: move up the row in Detailing;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;DKhi2(Степени\_свободы, Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123840Z" creationid="Марианна" creationdate="20210406T123840Z">
@@ -8382,6 +8390,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;End + Alt&lt;x2/&gt; — перейти на последнюю строку таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215631Z" creationid="Марианна" creationdate="20211011T215631Z">
+        <seg>&lt;x1/&gt;End + Alt&lt;x2/&gt;: go to the last table row;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;End&lt;x2/&gt; — перейти на последнюю колонку строки таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215602Z" creationid="Марианна" creationdate="20211011T215602Z">
+        <seg>&lt;x1/&gt;End&lt;x2/&gt;: go to the last column of the table row;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Excel-файл&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185325Z" creationid="Марианна" creationdate="20200810T184455Z">
@@ -8426,6 +8450,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T151807Z" creationid="Марианна" creationdate="20210919T151807Z">
         <seg>&lt;x1/&gt;F2&lt;x2/&gt;: edit user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;F3&lt;x2/&gt; — перейти к следующему найденному значению;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215411Z" creationid="Марианна" creationdate="20211011T215411Z">
+        <seg>&lt;x1/&gt;F3&lt;x2/&gt;: go to the next found value;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8514,6 +8546,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T145012Z" creationid="Марианна" creationdate="20201102T145012Z">
         <seg>&lt;x1/&gt;Get(row, col)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Home + Alt&lt;x2/&gt; — перейти на первую строку таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215520Z" creationid="Марианна" creationdate="20211011T215520Z">
+        <seg>&lt;x1/&gt;Home + Alt&lt;x2/&gt;: go to the first table row;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Home&lt;x2/&gt; — перейти на первую колонку строки таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215442Z" creationid="Марианна" creationdate="20211011T215442Z">
+        <seg>&lt;x1/&gt;Home&lt;x2/&gt;: go to the first column of the table row;</seg>
       </tuv>
     </tu>
     <tu>
