@@ -16657,6 +16657,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отчет по регрессии&lt;x2/&gt; Отчет по регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222407Z" creationid="Марианна" creationdate="20211011T222407Z">
+        <seg>&lt;x1/&gt;Regression Report&lt;x2/&gt; Regression Report</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отчеты&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070432Z" creationid="Марианна" creationdate="20200812T070432Z">
@@ -31604,6 +31612,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074935Z" creationid="Марианна" creationdate="20200716T074935Z">
         <seg>Types of ports of the workflow nodes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Визуализатор &lt;x1/&gt;Отчет по регрессии&lt;x2/&gt; для компонента &lt;x3/&gt;&lt;x4/&gt;Логистическая регрессия&lt;x5/&gt;&lt;x6/&gt; отображает статистические параметры и результаты статистических тестов для анализа регрессионных моделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222618Z" creationid="Марианна" creationdate="20211011T222618Z">
+        <seg>&lt;x1/&gt;Regression report&lt;x2/&gt; visualizer of the &lt;x3/&gt;&lt;x4/&gt;Logistic Regression&lt;x5/&gt;&lt;x6/&gt; component displays the statistical parameters and results of the statistical tests for the regression models analysis.</seg>
       </tuv>
     </tu>
     <tu>
