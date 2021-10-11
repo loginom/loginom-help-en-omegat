@@ -4070,8 +4070,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Форматирование…&lt;x4/&gt; — открыть окно для &lt;x5/&gt;форматирования&lt;x6/&gt; фактов и заголовков измерений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T210853Z" creationid="Марианна" creationdate="20211011T210853Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Formatting…&lt;x4/&gt;: open the window for &lt;x5/&gt;formatting&lt;x6/&gt; of measures and dimensions headers.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T210927Z" creationid="Марианна" creationdate="20211011T210853Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Formatting…&lt;x4/&gt;: open the window for &lt;x5/&gt;formatting&lt;x6/&gt; of measures and headers of dimensions.</seg>
       </tuv>
     </tu>
     <tu>
