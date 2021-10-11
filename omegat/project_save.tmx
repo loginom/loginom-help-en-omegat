@@ -49516,6 +49516,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Помимо кнопок Панели инструментов, в контекстном меню присутствует пункт &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Скрыть единственный факт&lt;x4/&gt;, который позволяет скрыть заголовки фактов, если активен единственный факт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T212007Z" creationid="Марианна" creationdate="20211011T212007Z">
+        <seg>Apart from the Toolbar buttons, there is &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Hide single measure&lt;x4/&gt; option in the context menu. It enables to hide headres of measures if the only measure is active.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Помимо настроек диапазонов есть флажок:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T140312Z" creationid="Марианна" creationdate="20211010T140312Z">
@@ -57693,8 +57701,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Указанные операции доступны также через контекстное меню, которое можно вызвать кликом правой клавиши мыши в любом месте Области построения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T211636Z" creationid="Марианна" creationdate="20211011T211636Z">
-        <seg>The specified operations are available also via the context menu that can be called by clicking any Construction area place with the right mouse button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T211758Z" creationid="Марианна" creationdate="20211011T211636Z">
+        <seg>The specified operations are also available via the context menu that can be called by clicking any Construction area place with the right mouse button.</seg>
       </tuv>
     </tu>
     <tu>
