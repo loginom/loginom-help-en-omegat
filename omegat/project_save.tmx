@@ -3756,6 +3756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Свернуть&lt;x4/&gt; — свернуть иерархию измерений куба:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205511Z" creationid="Марианна" creationdate="20211011T205511Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Collapse&lt;x4/&gt;: collapse the cube dimensions hierarchy:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Сводка&lt;x4/&gt; — переменные:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142233Z" creationid="Марианна" creationdate="20201208T064928Z">
