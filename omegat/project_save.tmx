@@ -53953,8 +53953,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Рядом с заголовком каждого столбца есть кнопка &lt;x1/&gt;&lt;x2/&gt;, нажатием на которую вызывается выпадающее меню.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T220535Z" creationid="Марианна" creationdate="20211011T220535Z">
-        <seg>There is &lt;x1/&gt;&lt;x2/&gt; button near the header of each column. It is possible to call the drop-down menu by its pressing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T220611Z" creationid="Марианна" creationdate="20211011T220535Z">
+        <seg>There is &lt;x1/&gt;&lt;x2/&gt; button near the header of each column. Its pressing enables to call the drop-down menu.</seg>
       </tuv>
     </tu>
     <tu>
