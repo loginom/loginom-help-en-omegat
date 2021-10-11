@@ -53,8 +53,8 @@ Description of coefficients is provided in the table:
 | Coefficient | Description |
 |:--------------------|:----------|
 | Coefficient | Characteristics of relation between dependent *y* and [independent variable](https://wiki.loginom.ru/articles/input-variable.html) *x* |
-| [Standard error](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
-| T-statistics | Отношение стандартной ошибки оценки коэффициента к его абсолютной величине. |
+| [Standard error](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Measure of spread of the observation data from the modeled values |
+| T-statistics | Standard error ratio of the estimated coefficient to its absolute value. |
 | [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 
 Regression coefficients can be represented in the ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) *Table* form (refer to Figure 1) or ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) *Tree* (refer to Figure 2).
@@ -65,22 +65,22 @@ Regression coefficients can be represented in the ![](../../images/icons/toolbar
 
 #### Model steps
 
-Область ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Шаги* построения имеет смысл включать только в том случае, если при настройке узла Логистическая регрессия в параметре Отбор факторов и защита от переобучения был выбран алгоритм, который подразумевает режим обработки фактов.
+It is rational to include the ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Steps* construction area only if the algorithm that is based on the measure processing mode has been selected when configuring the Logistic Regression node in the Factor selection and protection against overfitting parameter.
 
 ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Model steps* area consists of the following fields:
 
 | Field | Description |
 |:----------------|:----------------------------------------------------------------------------|
-| Model | The tree of models in which the models created by the algorithm in the training process are displayed. It appears when measures are selected. Only one final model will be available in this field for the algorithms that do not support processing of measures. Щелчком левой кнопки мыши по области ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Шаги построения* можно выбрать отображение [информации о выбранной модели](#informatsiya-o-modeli) (если установлен соответствующий флажок), а также [коэффициенты регрессии](#koeffitsienty-regressii). |
+| Model | The tree of models in which the models created by the algorithm in the training process are displayed. It appears when measures are selected. Only one final model will be available in this field for the algorithms that do not support processing of measures. Clicking the ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Model steps* area with the left mouse button, it is possible to select display of the [information on the selected model](#informatsiya-o-modeli) (if corresponding checkbox has been selected), and also [regression coefficients](#koeffitsienty-regressii). |
 | Indicator | Value of the selected indicator for the current model |
-| Field change | Отображает добавлен или удален был факт ("+" означает, что факт был добавлен в модель, а "-" показывает, что факт удален из модели) |
+| Field change | It displays whether the measure has been added or deleted ("+" means that the measure has been added to the model, and "-" shows that the measure has been deleted from the model). |
 | Fields | Current model fields |
 
 There are three model types:
 
 * **Null model**: the initial model of the algorithm operation.
 * **Intermediate model**: the model created by the algorithm in the training process.
-* **Финальная модель** — модель, которую алгоритм посчитал наилучшей, и дальнейшие действия не приведут к улучшению модели.
+* **Final model**: the model that has been considered by the algorithm as the best one, and the further actions will not bring about the model improvement.
 
 The indicators available for selection:
 

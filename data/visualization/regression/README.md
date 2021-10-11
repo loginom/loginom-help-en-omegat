@@ -55,7 +55,7 @@ Description of coefficients is provided in the table:
 | Coefficient | Description |
 |:--------------------|:----------|
 | Coefficient | Characteristics of relation between dependent *y* and [independent variable](https://wiki.loginom.ru/articles/input-variable.html) *x* |
-| [Standard error](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Мера разброса данных наблюдений от смоделированных значений |
+| [Standard error](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Measure of spread of the observation data from the modeled values |
 | [Коэффициент Вальда](https://wiki.loginom.ru/articles/wald-test.html) | Оценка значимости коэффициента при независимой переменной модели |
 | [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 | [Odds ratio](https://wiki.loginom.ru/articles/odds-ratio.html) | Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет |
@@ -86,7 +86,7 @@ There are three model types:
 
 * **Null model**: the initial model of the algorithm operation.
 * **Intermediate model**: the model created by the algorithm in the training process.
-* **Финальная модель** — модель, которую алгоритм посчитал наилучшей, и дальнейшие действия не приведут к улучшению модели.
+* **Final model**: the model that has been considered by the algorithm as the best one, and the further actions will not bring about the model improvement.
 
 The indicators available for selection:
 
