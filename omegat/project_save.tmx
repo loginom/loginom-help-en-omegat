@@ -9142,6 +9142,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;PR-кривая&lt;x2/&gt; — зависимость &lt;x3/&gt;TPR&lt;x4/&gt; от &lt;x5/&gt;PPV&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225728Z" creationid="Марианна" creationdate="20211011T225728Z">
+        <seg>&lt;x1/&gt;PR curve&lt;x2/&gt;: dependence of &lt;x3/&gt;TPR&lt;x4/&gt; on &lt;x5/&gt;PPV&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Pi()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T110002Z" creationid="Марианна" creationdate="20210402T110002Z">
@@ -14297,6 +14305,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T222115Z" creationid="Марианна" creationdate="20211011T222115Z">
         <seg>&lt;x1/&gt;Wald Coefficient&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент Джини&lt;x2/&gt; — &lt;x3/&gt;коэффициент Джини&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225850Z" creationid="Марианна" creationdate="20211011T225850Z">
+        <seg>&lt;x1/&gt;Gini index&lt;x2/&gt;: &lt;x3/&gt;Gini index&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36927,6 +36943,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступные значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225759Z" creationid="Марианна" creationdate="20211011T225759Z">
+        <seg>Available values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступные значения: &lt;x5/&gt;?, null, NULL&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200917T153252Z" creationid="Марианна" creationdate="20200917T153252Z">
@@ -56777,6 +56801,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T085556Z" creationid="Марианна" creationdate="20210511T085556Z">
         <seg>Applicability table by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица разделена на две части и имеет следующие строки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225947Z" creationid="Марианна" creationdate="20211011T225947Z">
+        <seg>The table is divided into two areas and includes the following rows:</seg>
       </tuv>
     </tu>
     <tu>
