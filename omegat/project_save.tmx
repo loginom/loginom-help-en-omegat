@@ -13717,6 +13717,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кластеры в строках&lt;x2/&gt; Кластеры в строках;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T204724Z" creationid="Марианна" creationdate="20211011T204724Z">
+        <seg>&lt;x1/&gt;Clusters in rows&lt;x2/&gt; Clusters in rows;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Код типа значения&lt;x2/&gt; — в зависимости от итогов разгруппировки, может принимать значение от 0 до 6.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T070630Z" creationid="Марианна" creationdate="20201126T070630Z">
