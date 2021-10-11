@@ -46770,6 +46770,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отображает добавлен или удален был факт ("+" показывает, что факт был добавлен в модель, а "-" означает, что факт удален из модели)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T221810Z" creationid="Марианна" creationdate="20211011T221810Z">
+        <seg>It displays whether the measure has been added or deleted ("+" means that the measure has been added to the model, and "-" shows that the measure has been deleted from the model).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отображается при включенной опции &lt;x3/&gt;Показывать генеральную совокупность в гистограммах&lt;x4/&gt; в &lt;x5/&gt;Панели инструментов&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T102014Z" creationid="Марианна" creationdate="20211008T102014Z">
@@ -59479,6 +59487,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T202434Z" creationid="Марианна" creationdate="20201214T074130Z">
         <seg>Wide use of linear regression is explained by the fact that many real processes in science, economics and business can be described in terms of linear models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Щелчком левой кнопки мыши по области &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги построения&lt;x4/&gt; можно выбрать отображение &lt;x5/&gt;информации о выбранной модели&lt;x6/&gt; (если установлен соответствующий флажок), а также &lt;x7/&gt;коэффициенты регрессии&lt;x8/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T221939Z" creationid="Марианна" creationdate="20211011T221939Z">
+        <seg>Clicking the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt;  area with the left mouse button, it is possible to select display of the &lt;x5/&gt;information on the selected model&lt;x6/&gt; (if corresponding checkbox has been selected), and also &lt;x7/&gt;regression coefficients&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
