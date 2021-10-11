@@ -50739,6 +50739,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нажатии на кнопку происходит циклическая смена &lt;x5/&gt;Индикаторов&lt;x6/&gt;, также &lt;x7/&gt;Индикатор&lt;x8/&gt; можно переключить в выпадающем меню при нажатии на кнопку &lt;x9/&gt;Раскрыть&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201100Z" creationid="Марианна" creationdate="20211011T201100Z">
+        <seg>When pressing the button, the cyclic change of &lt;x5/&gt;Indicators&lt;x6/&gt; is performed, and also &lt;x7/&gt;Indicator&lt;x8/&gt; can be switched in the drop-down menu when pressing &lt;x9/&gt;Open&lt;x10/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на кнопку происходит циклическая смена способов &lt;x5/&gt;Детализации&lt;x6/&gt;, также способ &lt;x7/&gt;Детализации&lt;x8/&gt; можно переключить в выпадающем меню при нажатии на кнопку &lt;x9/&gt;Раскрыть&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T200654Z" creationid="Марианна" creationdate="20211011T200654Z">
@@ -54675,6 +54683,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T131751Z" creationid="Марианна" creationdate="20200918T092757Z">
         <seg>It is possible to auto link the lists using &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Auto link all&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список &lt;x11/&gt;Индикаторов&lt;x12/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201117Z" creationid="Марианна" creationdate="20211011T201117Z">
+        <seg>List of &lt;x11/&gt;Indicators&lt;x12/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
