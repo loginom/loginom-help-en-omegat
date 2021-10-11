@@ -8094,6 +8094,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ctrl + Down&lt;x2/&gt; — переместить строку в Детализации вниз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215746Z" creationid="Марианна" creationdate="20211011T215746Z">
+        <seg>&lt;x1/&gt;Ctrl + Down&lt;x2/&gt;: move down the row in Detailing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ctrl + F&lt;x2/&gt; — поиск текущего выделенного значения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T180735Z" creationid="Марианна" creationdate="20211005T180735Z">
