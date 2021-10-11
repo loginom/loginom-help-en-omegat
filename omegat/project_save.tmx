@@ -32322,8 +32322,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Возможности фильтрации, изменения формата отображения данных и поиска нет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T214606Z" creationid="Марианна" creationdate="20211010T214606Z">
-        <seg>Filtration, change of data representation format and search are not available.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T213300Z" creationid="Марианна" creationdate="20211010T214606Z">
+        <seg>Filtration, change of data display format and search are not available.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49008,6 +49008,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T204314Z" creationid="Марианна" creationdate="20210606T204314Z">
         <seg>It enables to configure parameters of the preconfigured external binning.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет представить данные для пользователя в виде плоской двумерной таблицы с возможностью фильтрации, сортировки, изменения формата отображения данных и поиска.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T213630Z" creationid="Марианна" creationdate="20211011T213630Z">
+        <seg>It enables to display the data for users in the form of the flat two-dimensional table with possibility of filtering, sorting, changing of data display format and search.</seg>
       </tuv>
     </tu>
     <tu>
