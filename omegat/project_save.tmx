@@ -13941,6 +13941,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt; Качество бинарной классификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224307Z" creationid="Марианна" creationdate="20211011T224307Z">
+        <seg>&lt;x1/&gt;Binary Classification Assessment&lt;x2/&gt; Binary Classification Assessment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Квантование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055135Z" creationid="Марианна" creationdate="20200812T055135Z">
@@ -15097,6 +15105,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201119T060232Z" creationid="Марианна" creationdate="20201119T060232Z">
         <seg>&lt;x1/&gt;Minutes.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Множество&lt;x2/&gt; — в этом столбце отображается тип множества.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224120Z" creationid="Марианна" creationdate="20211011T224120Z">
+        <seg>&lt;x1/&gt;Set&lt;x2/&gt;: the set type is displayed in this column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42123,6 +42139,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Матрицы ошибок</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224144Z" creationid="Марианна" creationdate="20211011T224144Z">
+        <seg>Confusion matrices</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Медианная модификация.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T200604Z" creationid="Марианна" creationdate="20201212T210714Z">
@@ -46982,6 +47006,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T211911Z" creationid="Марианна" creationdate="20201217T211121Z">
         <seg>Assessment of the model accuracy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оценки классификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224235Z" creationid="Марианна" creationdate="20211011T224235Z">
+        <seg>Classification scores</seg>
       </tuv>
     </tu>
     <tu>
@@ -56553,6 +56585,22 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T085556Z" creationid="Марианна" creationdate="20210511T085556Z">
         <seg>Applicability table by the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица содержит столбцы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224210Z" creationid="Марианна" creationdate="20211011T224210Z">
+        <seg>The table contains the columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица состоит из двух полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224026Z" creationid="Марианна" creationdate="20211011T224026Z">
+        <seg>The table consists of two fields:</seg>
       </tuv>
     </tu>
     <tu>
