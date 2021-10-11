@@ -38504,6 +38504,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение каждой ячейки можно скопировать в текстовом формате, нажав комбинацию клавиш Ctrl+C.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T220233Z" creationid="Марианна" creationdate="20211011T220233Z">
+        <seg>Value of each cell can be copied in the txt format by pressing Ctrl+C keys combination.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение лифта, равное или меньшее 1, говорит об отсутствии или отрицательной связи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T200956Z" creationid="Марианна" creationdate="20201208T200956Z">
