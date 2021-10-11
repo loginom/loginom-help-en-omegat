@@ -14573,6 +14573,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Легенда&lt;x2/&gt; — содержит названия серий выводимых на диаграмме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230240Z" creationid="Марианна" creationdate="20211011T230240Z">
+        <seg>&lt;x1/&gt;Legend&lt;x2/&gt; contains names of the series displayed on the chart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Линейная регрессия&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055729Z" creationid="Марианна" creationdate="20200812T055729Z">
@@ -20474,6 +20482,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210201T153137Z" creationid="Марианна" creationdate="20210201T153137Z">
         <seg>&lt;x1/&gt;See also&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Событие&lt;x2/&gt; — выводит метку выходного поля и значение являющееся событием.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230343Z" creationid="Марианна" creationdate="20211011T230343Z">
+        <seg>&lt;x1/&gt;Event&lt;x2/&gt; displays the output field caption and the value that is an event.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51599,6 +51615,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063446Z" creationid="Марианна" creationdate="20200817T063446Z">
         <seg>When pressing the process name, the node required for its execution will be found and selected in the Workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии на серию в легенде можно скрыть или показать ее на диаграмме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230200Z" creationid="Марианна" creationdate="20211011T230200Z">
+        <seg>When pressing the series in the legend, it is possible to hide or display it on the chart.</seg>
       </tuv>
     </tu>
     <tu>
