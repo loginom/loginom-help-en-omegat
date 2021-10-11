@@ -46290,6 +46290,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отображает добавлен или удален был факт ("+" означает, что факт был добавлен в модель, а "-" показывает, что факт удален из модели)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T195539Z" creationid="Марианна" creationdate="20211011T195539Z">
+        <seg>It displays whether the measure has been added or deleted ("+" means that the measure has been added to the model, and "-" shows that the measure has been deleted from the model).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отображается при включенной опции &lt;x3/&gt;Показывать генеральную совокупность в гистограммах&lt;x4/&gt; в &lt;x5/&gt;Панели инструментов&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T102014Z" creationid="Марианна" creationdate="20211008T102014Z">
