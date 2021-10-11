@@ -4052,6 +4052,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Фильтровать факты…&lt;x4/&gt; — открыть окно для  &lt;x5/&gt;фильтрования фактов&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T210722Z" creationid="Марианна" creationdate="20211011T210722Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Filter measures…&lt;x4/&gt;: open the window to &lt;x5/&gt;filter measures&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Форма&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172113Z" creationid="Марианна" creationdate="20211005T172113Z">
