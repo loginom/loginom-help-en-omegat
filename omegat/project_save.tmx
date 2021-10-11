@@ -41627,6 +41627,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мера разброса данных наблюдений от смоделированных значений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T193552Z" creationid="Марианна" creationdate="20211011T193552Z">
+        <seg>Measure of spread of the observation data from the modeled values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Месяц</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145332Z" creationid="Марианна" creationdate="20201111T145332Z">
