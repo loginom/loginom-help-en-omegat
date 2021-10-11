@@ -6124,6 +6124,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Показать значения null&lt;x4/&gt; — показать/скрыть null-значения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214213Z" creationid="Марианна" creationdate="20211011T214213Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show null values&lt;x4/&gt;: show/hide null values;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Показать таблицу конечных классов&lt;x4/&gt; — область конечных классов будет представлена в виде таблицы (можно также вызвать начатием клавиш &lt;x5/&gt;Alt+One&lt;x6/&gt;);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T082822Z" creationid="Марианна" creationdate="20210628T082628Z">
@@ -6252,6 +6260,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сортировка&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки сортировки&lt;x6/&gt; данных по столбцам;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214521Z" creationid="Марианна" creationdate="20211011T214521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt;: open &lt;x5/&gt;sorting configuration window&lt;x6/&gt; of data by columns;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — переключение отображения &lt;x5/&gt;коэффициентов регрессии&lt;x6/&gt; в вид &lt;x7/&gt;Таблица&lt;x8/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T230103Z" creationid="Марианна" creationdate="20211010T230103Z">
@@ -6360,6 +6376,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210220T161833Z" creationid="Марианна" creationdate="20210220T161833Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Control variables&lt;x4/&gt; (optional port): it is possible to set values of the wizard parameters using the port variables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Формат&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки формата&lt;x6/&gt; отображения данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214355Z" creationid="Марианна" creationdate="20211011T214355Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format configuration window&lt;x6/&gt; of data display;</seg>
       </tuv>
     </tu>
     <tu>
