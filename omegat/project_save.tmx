@@ -4068,6 +4068,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Форматирование…&lt;x4/&gt; — открыть окно для &lt;x5/&gt;форматирования&lt;x6/&gt; фактов и заголовков измерений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T210853Z" creationid="Марианна" creationdate="20211011T210853Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Formatting…&lt;x4/&gt;: open the window for &lt;x5/&gt;formatting&lt;x6/&gt; of measures and dimensions headers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Число не-событий&lt;x4/&gt; – количество наблюдений в классе, для которых выходное значение – не-событие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T205723Z" creationid="Марианна" creationdate="20210606T205723Z">
