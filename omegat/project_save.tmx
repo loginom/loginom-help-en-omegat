@@ -33224,6 +33224,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Гистограммы в ячейке таблицы или во вкладке сравнения нормированы по высоте самого высокого столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T204150Z" creationid="Марианна" creationdate="20211011T204150Z">
+        <seg>Histograms in the table cell or in the comparison tab are normalized by the height of the highest column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Главная таблица — Персона, присоединяемая — Город.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T164647Z" creationid="Марианна" creationdate="20201109T164640Z">
