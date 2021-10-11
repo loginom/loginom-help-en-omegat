@@ -5980,6 +5980,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Номер строки&lt;x4/&gt; — показать/скрыть сквозной номер строки;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214058Z" creationid="Марианна" creationdate="20211011T214058Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Row number&lt;x4/&gt;: show/hide continuous row number;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Нулевые значения&lt;x4/&gt; — отображение/скрытие нулевых значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T230432Z" creationid="Марианна" creationdate="20211010T230432Z">
@@ -6248,6 +6256,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T230103Z" creationid="Марианна" creationdate="20211010T230103Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: switch of representation of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Table&lt;x8/&gt; form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Типы данных&lt;x4/&gt; — показать/скрыть типы данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214132Z" creationid="Марианна" creationdate="20211011T214132Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Data types&lt;x4/&gt;: show/hide data types;</seg>
       </tuv>
     </tu>
     <tu>
