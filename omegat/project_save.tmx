@@ -11701,6 +11701,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Гистограмма&lt;x2/&gt; Гистограмма;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201153Z" creationid="Марианна" creationdate="20211011T201153Z">
+        <seg>&lt;x1/&gt; Histogram&lt;x2/&gt;  Histogram;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Главная таблица&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — в контексте понятий языка SQL-запросов является левой таблицей для соединения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T092236Z" creationid="Марианна" creationdate="20201118T092145Z">
@@ -12695,8 +12703,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значения&lt;x2/&gt; Значения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T162003Z" creationid="Марианна" creationdate="20211005T162003Z">
-        <seg>&lt;x1/&gt;Value&lt;x2/&gt; Value;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201316Z" creationid="Марианна" creationdate="20211005T162003Z">
+        <seg>&lt;x1/&gt;Values&lt;x2/&gt; Values;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12729,6 +12737,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201212T211534Z" creationid="Марианна" creationdate="20201212T211534Z">
         <seg>&lt;x1/&gt;Significance&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; Значимость;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201141Z" creationid="Марианна" creationdate="20211011T201141Z">
+        <seg>&lt;x1/&gt;Significance&lt;x2/&gt; Significance;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18902,6 +18918,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пропуски&lt;x2/&gt; Пропуски;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201255Z" creationid="Марианна" creationdate="20211011T201255Z">
+        <seg>&lt;x1/&gt;Null count&lt;x2/&gt; Null count;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пропустить строк&lt;x2/&gt; — количество строк с начала текста, не подлежащее импорту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T134938Z" creationid="Марианна" creationdate="20200826T085429Z">
@@ -19282,6 +19306,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T140448Z" creationid="Марианна" creationdate="20201023T071428Z">
         <seg>&lt;x1/&gt;Field caption parts separator&lt;x2/&gt;: it is required to select the character to separate the new fields captions when selecting several fields in the columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Размах&lt;x2/&gt; Размах;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201235Z" creationid="Марианна" creationdate="20211011T201235Z">
+        <seg>&lt;x1/&gt;Range&lt;x2/&gt; Range;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20370,6 +20402,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133146Z" creationid="Марианна" creationdate="20200924T075629Z">
         <seg>&lt;x1/&gt;Compared value&lt;x2/&gt;: the value with which the selected object will be compared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Среднее&lt;x2/&gt; Среднее;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201213Z" creationid="Марианна" creationdate="20211011T201213Z">
+        <seg>&lt;x1/&gt;Average&lt;x2/&gt; Average;</seg>
       </tuv>
     </tu>
     <tu>
