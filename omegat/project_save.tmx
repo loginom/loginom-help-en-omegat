@@ -12725,6 +12725,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значимость цветом&lt;x2/&gt; &lt;x3/&gt;Значимость цветом&lt;x4/&gt; — показать/скрыть значимость как тепловую карту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201459Z" creationid="Марианна" creationdate="20211011T201459Z">
+        <seg>&lt;x1/&gt;Importance by color&lt;x2/&gt; &lt;x3/&gt;Importance by color&lt;x4/&gt;: show/hide importance as the heat map.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость ячейки&lt;x2/&gt; — мера влияния ячейки на попадание ячейки в некоторый кластер.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T140242Z" creationid="Марианна" creationdate="20211010T140242Z">
@@ -12743,8 +12751,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; Значимость;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201141Z" creationid="Марианна" creationdate="20211011T201141Z">
-        <seg>&lt;x1/&gt;Significance&lt;x2/&gt; Significance;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T201630Z" creationid="Марианна" creationdate="20211011T201141Z">
+        <seg>&lt;x1/&gt;Importance&lt;x2/&gt; Importance;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28974,6 +28982,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T184716Z" creationid="Марианна" creationdate="20210225T184716Z">
         <seg>The following data is generated in the output ports of the handler:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В гистограммах &lt;x7/&gt;&lt;x8/&gt;Основной таблицы&lt;x9/&gt;&lt;x10/&gt; и &lt;x11/&gt;Панели сравнения кластеров&lt;x12/&gt; изменяется видимость столбца с пропусками.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202030Z" creationid="Марианна" creationdate="20211011T202030Z">
+        <seg>The column visibility with null data is changed in the &lt;x7/&gt;&lt;x8/&gt;Main table&lt;x9/&gt;&lt;x10/&gt; and &lt;x11/&gt;Cluster comparison panel&lt;x12/&gt; histograms.</seg>
       </tuv>
     </tu>
     <tu>
