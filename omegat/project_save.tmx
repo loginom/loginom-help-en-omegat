@@ -54927,6 +54927,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список режимов масштабирования:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T202838Z" creationid="Марианна" creationdate="20211011T202838Z">
+        <seg>List of the Scaling Modes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список соответствует полям входного порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141044Z" creationid="Марианна" creationdate="20201115T141044Z">
