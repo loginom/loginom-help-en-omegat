@@ -5814,8 +5814,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Дерево&lt;x4/&gt; — переключение отображения &lt;x5/&gt;коэффициентов регрессии&lt;x6/&gt; в вид &lt;x7/&gt;Дерево&lt;x8/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T230312Z" creationid="Марианна" creationdate="20211010T230312Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Tree&lt;x4/&gt;: switch of representation of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Tree&lt;x8/&gt; form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222828Z" creationid="Марианна" creationdate="20211010T230312Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Tree&lt;x4/&gt;: switch of display of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Tree&lt;x8/&gt; form.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6302,8 +6302,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — переключение отображения &lt;x5/&gt;коэффициентов регрессии&lt;x6/&gt; в вид &lt;x7/&gt;Таблица&lt;x8/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T230103Z" creationid="Марианна" creationdate="20211010T230103Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: switch of representation of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Table&lt;x8/&gt; form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T222813Z" creationid="Марианна" creationdate="20211010T230103Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: switch of display of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Table&lt;x8/&gt; form.</seg>
       </tuv>
     </tu>
     <tu>
