@@ -5676,6 +5676,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Поиск&lt;x6/&gt; — &lt;x7/&gt;&lt;x8/&gt; найти значение; &lt;x9/&gt;&lt;x10/&gt; открыть &lt;x11/&gt;окно настройки поиска&lt;x12/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214810Z" creationid="Марианна" creationdate="20211011T214810Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Search&lt;x6/&gt; — &lt;x7/&gt;&lt;x8/&gt; find the value; &lt;x9/&gt;&lt;x10/&gt; open &lt;x11/&gt;search configuration window&lt;x12/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;ID класса | Прогноз&lt;x4/&gt; - идентификатор прогнозируемого класса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135609Z" creationid="Марианна" creationdate="20201218T204524Z">
@@ -5800,6 +5808,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T230312Z" creationid="Марианна" creationdate="20211010T230312Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Tree&lt;x4/&gt;: switch of representation of &lt;x5/&gt;regression coefficients&lt;x6/&gt; to the &lt;x7/&gt;Tree&lt;x8/&gt; form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Детализация&lt;x4/&gt; — показать/скрыть детализацию по строке таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T214903Z" creationid="Марианна" creationdate="20211011T214903Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Detailing&lt;x4/&gt;: show/hide detailing by the table row;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6400,6 +6416,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T230638Z" creationid="Марианна" creationdate="20211010T230638Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt;: show/hide &lt;x5/&gt;model steps&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Экспорт&lt;x4/&gt; — экспортировать таблицу в файл выбранного формата (XLS или HTML);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215003Z" creationid="Марианна" creationdate="20211011T215003Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt;: export table to the file of the selected format (XLS or HTML); </seg>
       </tuv>
     </tu>
     <tu>
