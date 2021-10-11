@@ -41591,6 +41591,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Критерий согласия для проверки гипотезы о законе распределения исследуемой случайной величины</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T223405Z" creationid="Марианна" creationdate="20211011T223405Z">
+        <seg>Chi-squared test to test the hypothesis concerning the law of distribution of the random value under study.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме доступа к личной папке, администратором сервера пользователю могут быть предоставлены права на доступ к другим папкам файлового хранилища.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T082327Z" creationid="Марианна" creationdate="20210925T082327Z">
