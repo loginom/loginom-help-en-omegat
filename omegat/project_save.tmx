@@ -47514,6 +47514,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перейти на &lt;x1/&gt;&lt;x2/&gt; первую/&lt;x3/&gt;&lt;x4/&gt; последнюю страницу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T213751Z" creationid="Марианна" creationdate="20211011T213751Z">
+        <seg>Go to the &lt;x1/&gt;&lt;x2/&gt; first/&lt;x3/&gt;&lt;x4/&gt; last page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перейти на &lt;x1/&gt;&lt;x2/&gt; предыдущую/&lt;x3/&gt;&lt;x4/&gt; следующую страницу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T213725Z" creationid="Марианна" creationdate="20211011T213725Z">
+        <seg>Go to the &lt;x1/&gt;&lt;x2/&gt; previous/&lt;x3/&gt;&lt;x4/&gt; next page;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перекрестная проверка имеет два основных преимущества перед применением одного множества для обучения и одного для тестирования модели:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T122232Z" creationid="Марианна" creationdate="20210925T122232Z">
