@@ -12381,6 +12381,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Детализация&lt;x2/&gt; Детализация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T232230Z" creationid="Марианна" creationdate="20211011T232230Z">
+        <seg>&lt;x1/&gt;Detailing&lt;x2/&gt; Detailing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Детальные настройки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075659Z" creationid="Марианна" creationdate="20201214T075659Z">
