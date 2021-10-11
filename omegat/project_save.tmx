@@ -22702,6 +22702,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; &lt;x3/&gt;Экспорт в файл (XLS)&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T232149Z" creationid="Марианна" creationdate="20211011T232149Z">
+        <seg>&lt;x1/&gt;Export&lt;x2/&gt; &lt;x3/&gt;Export to file (XLS)&lt;x4/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; &lt;x3/&gt;Экспорт&lt;x4/&gt; — сохраняет таблицу замен в указанный текстовый файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T202434Z" creationid="Марианна" creationdate="20201006T202434Z">
@@ -55691,6 +55699,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T131854Z" creationid="Марианна" creationdate="20201118T131854Z">
         <seg>It is possible to sort in ascending and descending order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сортировку можно произвести по нескольким столбцам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T232216Z" creationid="Марианна" creationdate="20211011T232216Z">
+        <seg>Sorting is possible by several columns.</seg>
       </tuv>
     </tu>
     <tu>
