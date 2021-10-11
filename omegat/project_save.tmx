@@ -14165,6 +14165,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Колонки данных&lt;x2/&gt; состоят из следующих колонок:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231000Z" creationid="Марианна" creationdate="20211011T231000Z">
+        <seg>&lt;x1/&gt;Data columns&lt;x2/&gt; consist of the following columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Колонки&lt;x2/&gt; Колонки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T055420Z" creationid="Марианна" creationdate="20201023T055420Z">
@@ -14921,6 +14929,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T101852Z" creationid="Марианна" creationdate="20211008T101852Z">
         <seg>&lt;x1/&gt;Class caption&lt;x2/&gt;: columns with the number of values in the cluster histograms columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка поля&lt;x2/&gt; — метка поля из исходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231106Z" creationid="Марианна" creationdate="20211011T231106Z">
+        <seg>&lt;x1/&gt;Field caption&lt;x2/&gt;: field caption from the source data set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21562,6 +21578,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201004T195924Z" creationid="Марианна" creationdate="20201004T195924Z">
         <seg>&lt;x1/&gt;Type&lt;x2/&gt; — &lt;x3/&gt;data type&lt;x4/&gt; of the variable in the output data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип&lt;x2/&gt; — вид данных поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230902Z" creationid="Марианна" creationdate="20211011T230902Z">
+        <seg>&lt;x1/&gt;Type&lt;x2/&gt;: kind of the field data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40895,6 +40919,22 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кластеры в столбцах:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231021Z" creationid="Марианна" creationdate="20211011T231021Z">
+        <seg>Clusters in columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кластеры в строках:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231009Z" creationid="Марианна" creationdate="20211011T231009Z">
+        <seg>Clusters in rows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Клиенты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T175308Z" creationid="Марианна" creationdate="20210121T175304Z">
@@ -41299,6 +41339,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T061431Z" creationid="Марианна" creationdate="20201023T061431Z">
         <seg>Columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Колонки данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230913Z" creationid="Марианна" creationdate="20211011T230913Z">
+        <seg>Data Columns</seg>
       </tuv>
     </tu>
     <tu>
