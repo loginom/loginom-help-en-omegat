@@ -44690,6 +44690,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги&lt;x4/&gt; построения имеет смысл включать только в том случае, если при настройке узла Логистическая регрессия в параметре Отбор факторов и защита от переобучения был выбран алгоритм, который подразумевает режим обработки фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T194637Z" creationid="Марианна" creationdate="20211011T194637Z">
+        <seg>It is rational to include the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Steps&lt;x4/&gt; construction area only if the algorithm that is based on the measure processing mode has been selected when configuring the Logistic Regression node in the Factor selection and protection against overfitting parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область Информация о модели</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T225741Z" creationid="Марианна" creationdate="20211010T225726Z">
