@@ -1,5 +1,5 @@
 
-# ![Детализация](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Детализация
+# ![Detailing](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Detailing
 
 Детализация использует данные исходного набора данных, отфильтрованные по выделенным в основной таблице кластерам. Если выделен кластер *Итого*, тогда набор данных детализации совпадает со входным. Детализация позволяет узнать из каких строк исходного набора данных состоит тот или иной кластер. Для отображения детализированной информации по выделенной ячейке можно использовать следующие визуализаторы:
 
@@ -18,11 +18,11 @@
 * ![Формат](../../images/icons/toolbar-controls/format_default.svg) **Формат** — открыть окно для настройки [формата](../table/format.md) отображения данных.
 * ![Сортировка](../../images/icons/toolbar-controls/sort-asc_default.svg) **Сортировка** — открыть окно для настройки [сортировки](../table/sorting.md) данных по столбцам.
 * ![Поиск](../../images/icons/toolbar-controls/zoom_default.svg) — произвести поиск следующего вхождения значения, указанного в строке поиска. Поиск можно [настроить](../table/search.md), нажав кнопку ![Раскрыть](../../images/icons/toolbar-controls/down_default.svg).
-* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **Экспорт в файл (XLS)**:
+* ![Export](../../images/icons/toolbar-controls/export_default.svg) **Export to file (XLS)**:
    * **XLS** — сохранить текущее представление в формате Excel.
    * **HTML** — сохранить текущее представление в формате HTML.
 
-Для быстрой сортировки по столбцу нужно нажать на его заголовок. При последовательном нажатии будут применены варианты: по возрастанию, по убыванию, без сортировки. Сортировку можно произвести по нескольким столбцам. При этом порядок будет указан цифрой в заголовке.
+Для быстрой сортировки по столбцу нужно нажать на его заголовок. При последовательном нажатии будут применены варианты: по возрастанию, по убыванию, без сортировки. Sorting is possible by several columns. При этом порядок будет указан цифрой в заголовке.
 
 Mouse and navigation panel in the lower part of the visualizer are used for navigation through the table:
 
@@ -43,7 +43,7 @@ To go to the given page, it is required to enter its number in the entry field l
 * ![На следующую](../../images/icons/toolbar-controls/next_default.svg) — перейти на следующую запись;
 * ![На первую](../../images/icons/toolbar-controls/first_default.svg) — перейти на первую запись;
 * ![На последнюю](../../images/icons/toolbar-controls/last_default.svg) — перейти на последнюю запись.
-* ![Экспорт](../../images/icons/toolbar-controls/export_default.svg) **Экспорт в файл (XLS)**:
+* ![Export](../../images/icons/toolbar-controls/export_default.svg) **Export to file (XLS)**:
    * **XLS** — сохранить текущее представление в формате Excel.
    * **HTML** — сохранить текущее представление в формате HTML.
 
