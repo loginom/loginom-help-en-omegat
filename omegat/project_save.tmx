@@ -59117,8 +59117,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Через него можно скрыть/отобразить столбец, а также зафиксировать или снять фиксацию со столбца.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T220736Z" creationid="Марианна" creationdate="20211011T220736Z">
-        <seg>It enables to hide/display the column and also fix or unlock the column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T221142Z" creationid="Марианна" creationdate="20211011T220736Z">
+        <seg>It enables to hide/display the column and also fix the column or remove such fixing.</seg>
       </tuv>
     </tu>
     <tu>
