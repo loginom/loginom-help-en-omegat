@@ -14181,6 +14181,30 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Колонки данных&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231658Z" creationid="Марианна" creationdate="20211011T231658Z">
+        <seg>&lt;x1/&gt;Data columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Колонки легенды&lt;x2/&gt; состоят из следующих колонок:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231612Z" creationid="Марианна" creationdate="20211011T231612Z">
+        <seg>&lt;x1/&gt;Legend columns&lt;x2/&gt; consist of the following columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Колонки легенды&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231712Z" creationid="Марианна" creationdate="20211011T231712Z">
+        <seg>&lt;x1/&gt;Legend columns&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Колонки&lt;x2/&gt; Колонки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T055420Z" creationid="Марианна" creationdate="20201023T055420Z">
@@ -16573,6 +16597,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132739Z" creationid="Марианна" creationdate="20210210T223438Z">
         <seg>&lt;x1/&gt;Published packages&lt;x2/&gt;: the list of already published packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Основная таблица.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231752Z" creationid="Марианна" creationdate="20211011T231752Z">
+        <seg>&lt;x1/&gt;Main table.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41415,6 +41447,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Колонки легенды</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231630Z" creationid="Марианна" creationdate="20211011T231630Z">
+        <seg>Legend Columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Команда доступна после активации порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103814Z" creationid="Марианна" creationdate="20201009T103814Z">
@@ -46854,6 +46894,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105759Z" creationid="Марианна" creationdate="20210402T105759Z">
         <seg>Basis - numeric expression;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Основная таблица</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231758Z" creationid="Марианна" creationdate="20211011T231758Z">
+        <seg>Main Table</seg>
       </tuv>
     </tu>
     <tu>
@@ -56965,6 +57013,14 @@ String - string expression
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таблица отображает статистические показатели по кластерам (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231842Z" creationid="Марианна" creationdate="20211011T231842Z">
+        <seg>The table displays the statistical indicators by clusters (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Таблица применимости по этим характеристикам:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T085556Z" creationid="Марианна" creationdate="20210511T085556Z">
@@ -57033,6 +57089,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T154311Z" creationid="Марианна" creationdate="20211005T154311Z">
         <seg>Table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблицу условно можно разделить на 2 области:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T231740Z" creationid="Марианна" creationdate="20211011T231740Z">
+        <seg>The table can be conventionally divided into 2 areas:</seg>
       </tuv>
     </tu>
     <tu>
