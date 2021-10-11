@@ -16297,6 +16297,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Относительные частоты&lt;x2/&gt; &lt;x3/&gt;Относительные частоты&lt;x4/&gt; — столбцы генеральный совокупности одинаковые и растянуты до высоты ячейки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T203432Z" creationid="Марианна" creationdate="20211011T203432Z">
+        <seg>&lt;x1/&gt;Relative frequencies&lt;x2/&gt; &lt;x3/&gt;Relative frequencies&lt;x4/&gt;: the universal set columns are equal and stretched to the cell height.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Относительный&lt;x2/&gt; (для персонального использования) — вместо имени папки содержит точку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T085308Z" creationid="Марианна" creationdate="20200814T085308Z">
