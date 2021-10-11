@@ -3156,6 +3156,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;В строках&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205847Z" creationid="Марианна" creationdate="20211011T205847Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;In rows&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Верхняя граница диапазонов открыта&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T153849Z" creationid="Марианна" creationdate="20210524T123401Z">
@@ -3232,6 +3240,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050322Z" creationid="Марианна" creationdate="20201222T050322Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Input&lt;x4/&gt;: the field contains the values of one of the input parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Выравнивание ширины колонок&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205912Z" creationid="Марианна" creationdate="20211011T205912Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Column width adjustment&lt;x4/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3444,6 +3460,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Итоги&lt;x4/&gt;  — показать/скрыть итоговые заголовки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205830Z" creationid="Марианна" creationdate="20211011T205830Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Show total&lt;x4/&gt;: show/hide final headers:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Левое соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065616Z" creationid="Марианна" creationdate="20201111T104900Z">
@@ -3520,6 +3544,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050444Z" creationid="Марианна" creationdate="20201222T050444Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Unused&lt;x4/&gt;: the field is not included into processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Нигде&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205858Z" creationid="Марианна" creationdate="20211011T205858Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;No totals&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3712,6 +3744,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T070920Z" creationid="Марианна" creationdate="20201208T070920Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Forecast&lt;x4/&gt;: for the data mapping the time series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Равная ширина колонок&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205938Z" creationid="Марианна" creationdate="20211011T205938Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Equal column width&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Равная ширина фактов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205925Z" creationid="Марианна" creationdate="20211011T205925Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Equal measure width&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19290,6 +19338,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172336Z" creationid="Марианна" creationdate="20211005T172336Z">
         <seg>&lt;x1/&gt;Expand columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Развернуть строки&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T205702Z" creationid="Марианна" creationdate="20211011T205702Z">
+        <seg>&lt;x1/&gt;Expand rows&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
