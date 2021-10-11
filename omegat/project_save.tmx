@@ -17001,6 +17001,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Плотность вероятности&lt;x2/&gt; &lt;x3/&gt;Плотность вероятности&lt;x4/&gt; — гистограммы &lt;x5/&gt;кластера&lt;x6/&gt; и генеральной совокупности не связаны с друг другом, и имеют одинаковую площадь.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T204005Z" creationid="Марианна" creationdate="20211011T204005Z">
+        <seg>&lt;x1/&gt;Density (PDF)&lt;x2/&gt; &lt;x3/&gt;Density (PDF)&lt;x4/&gt;: histograms of &lt;x5/&gt;cluster&lt;x6/&gt; and universal set are not connected with each other and have the same area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Плотность точек редких товаров&lt;x2/&gt; — коэффициент может принимать значения от 0,01 до 1, чем он выше, тем больше позиций будет распознано алгоритмом в качестве слишком редких и они будут исключены из прогноза.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T101146Z" creationid="Марианна" creationdate="20201127T100014Z">
