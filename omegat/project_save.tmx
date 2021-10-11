@@ -7894,6 +7894,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;AUC PR&lt;x2/&gt; — выводит площадь под PR-кривой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230657Z" creationid="Марианна" creationdate="20211011T230657Z">
+        <seg>&lt;x1/&gt;AUC PR&lt;x2/&gt; shows the area under the PR curve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;AUC ROC&lt;x2/&gt; — выводит &lt;x3/&gt;площадь под ROC-кривой&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230627Z" creationid="Марианна" creationdate="20211011T230627Z">
+        <seg>&lt;x1/&gt;AUC ROC&lt;x2/&gt; shows the &lt;x3/&gt;area under the ROC curve&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Abs(Аргумент)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T104924Z" creationid="Марианна" creationdate="20210402T104924Z">
@@ -12985,6 +13001,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T212528Z" creationid="Марианна" creationdate="20211010T212528Z">
         <seg>&lt;x1/&gt;Value&lt;x2/&gt; &lt;x3/&gt;Value&lt;x4/&gt;: the measures will be displayed in the form of absolute values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — выводит используемое значение &lt;x3/&gt;Порога отсечения&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T230552Z" creationid="Марианна" creationdate="20211011T230552Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; shows the used &lt;x3/&gt;Cutoff&lt;x4/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
