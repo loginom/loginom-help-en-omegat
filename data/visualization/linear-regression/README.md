@@ -19,8 +19,8 @@ More detailed infomation how to enable this visualizer is provided in the [artic
 
 #### Regression Coefficients Area
 
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) **Table**: switch of representation of [regression coefficients](#koeffitsienty-regressii) to the *Table* form.
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) **Tree**: switch of representation of [regression coefficients](#koeffitsienty-regressii) to the *Tree* form.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_table-view_default.svg) **Table**: switch of display of [regression coefficients](#koeffitsienty-regressii) to the *Table* form.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_tree_default.svg) **Tree**: switch of display of [regression coefficients](#koeffitsienty-regressii) to the *Tree* form.
 * ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_zero_default.svg) **Zero values**: show/hide zero values.
 
 #### Model Steps Area
@@ -65,7 +65,7 @@ Regression coefficients can be represented in the ![](../../images/icons/toolbar
 
 #### Model steps
 
-It is rational to include the ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Steps* construction area only if the algorithm that is based on the measure processing mode has been selected when configuring the Logistic Regression node in the Factor selection and protection against overfitting parameter.
+It is rational to enable the ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Steps* construction area only if the algorithm that is based on the measure processing mode has been selected when configuring the Logistic Regression node in the Factor selection and protection against overfitting parameter.
 
 ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Model steps* area consists of the following fields:
 
