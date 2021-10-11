@@ -53695,6 +53695,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Распознано</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T225258Z" creationid="Марианна" creationdate="20211011T225258Z">
+        <seg>Recognized</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Расположив несколько узлов на рабочем пространстве и соединив их между собой, получится Сценарий, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T210314Z" creationid="Марианна" creationdate="20210928T205826Z">
