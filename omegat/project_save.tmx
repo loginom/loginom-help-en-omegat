@@ -3332,6 +3332,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Добавить вычисляемый факт…&lt;x4/&gt; — открыть окно для добавления нового &lt;x5/&gt;вычисляемого факта&lt;x6/&gt; в куб&lt;x7/&gt;^1&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T210629Z" creationid="Марианна" creationdate="20211011T210629Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Add calculated measure…&lt;x4/&gt;: open the window to add the new &lt;x5/&gt;calculated measure&lt;x6/&gt; to &lt;x7/&gt;^1&lt;x8/&gt; cube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавляет в список новый файл XSD-схемы, выбранный пользователем в диалоге выбора файла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T140841Z" creationid="Марианна" creationdate="20210208T140841Z">
@@ -3504,6 +3512,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T103937Z" creationid="Марианна" creationdate="20201009T103937Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Configure port&lt;x4/&gt; enables to open the dialog of configuration of the variables values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Настроить факты…&lt;x4/&gt; — открыть окно &lt;x5/&gt;настройки фактов&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T210301Z" creationid="Марианна" creationdate="20211011T210301Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Configure measures…&lt;x4/&gt;: open &lt;x5/&gt;settings of measures&lt;x6/&gt; window.</seg>
       </tuv>
     </tu>
     <tu>
