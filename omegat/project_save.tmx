@@ -7926,6 +7926,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Alt + 1&lt;x2/&gt; — &lt;x3/&gt;Alt + 8&lt;x4/&gt; — перейти на страницу с номером;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215201Z" creationid="Марианна" creationdate="20211011T215201Z">
+        <seg>&lt;x1/&gt;Alt + 1&lt;x2/&gt; — &lt;x3/&gt;Alt + 8&lt;x4/&gt;: go to the page with number;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Alt + F5&lt;x2/&gt; — обновить список папок и их параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T142929Z" creationid="Марианна" creationdate="20210919T142929Z">
@@ -8090,6 +8098,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T180735Z" creationid="Марианна" creationdate="20211005T180735Z">
         <seg>&lt;x1/&gt;Ctrl + F&lt;x2/&gt;: search for the current selected value;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ctrl + G&lt;x2/&gt; — перейти к строке;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215319Z" creationid="Марианна" creationdate="20211011T215319Z">
+        <seg>&lt;x1/&gt;Ctrl + G&lt;x2/&gt;: go to the row;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16933,6 +16949,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185016Z" creationid="Марианна" creationdate="20200810T154859Z">
         <seg>&lt;x1/&gt;The first workflow&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Перейти к строке&lt;x2/&gt; — перейти к строке с заданным номером (доступно в контекстном меню).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T215116Z" creationid="Марианна" creationdate="20211011T215116Z">
+        <seg>&lt;x1/&gt;Go to row&lt;x2/&gt;: go to the row with the set number (available in the context men).</seg>
       </tuv>
     </tu>
     <tu>
