@@ -24046,6 +24046,30 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>FN</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224833Z" creationid="Марианна" creationdate="20211011T224833Z">
+        <seg>FN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>FN+TN</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224841Z" creationid="Марианна" creationdate="20211011T224841Z">
+        <seg>FN+TN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>FP</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224824Z" creationid="Марианна" creationdate="20211011T224824Z">
+        <seg>FP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Factorial</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210402T105517Z" creationid="Марианна" creationdate="20210402T105517Z">
@@ -24774,6 +24798,14 @@ interface IOutputTable extends IDataSource {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>N</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224815Z" creationid="Марианна" creationdate="20211011T224815Z">
+        <seg>N</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>N может принимать любые положительные значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T203359Z" creationid="Марианна" creationdate="20210629T203359Z">
@@ -24900,6 +24932,14 @@ console.log("RowCount = ", OutputTable.RowCount);
 
 console.log("RowCount = ", OutputTable.RowCount);
 // Outputting: RowCount =  2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>P</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224811Z" creationid="Марианна" creationdate="20211011T224811Z">
+        <seg>P</seg>
       </tuv>
     </tu>
     <tu>
@@ -25586,10 +25626,34 @@ interface IVariable {</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>TN</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224837Z" creationid="Марианна" creationdate="20211011T224837Z">
+        <seg>TN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>TO ...".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T170956Z" creationid="Марианна" creationdate="20200920T170956Z">
         <seg>TO ...".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>TP</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224821Z" creationid="Марианна" creationdate="20211011T224821Z">
+        <seg>TP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>TP+FP</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224828Z" creationid="Марианна" creationdate="20211011T224828Z">
+        <seg>TP+FP</seg>
       </tuv>
     </tu>
     <tu>
@@ -40350,6 +40414,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Итого</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224749Z" creationid="Марианна" creationdate="20211011T224749Z">
+        <seg>Total</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Итоговый набор в порту "Переменные" содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T105212Z" creationid="Марианна" creationdate="20201009T104523Z">
@@ -42667,6 +42739,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Множество</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224809Z" creationid="Марианна" creationdate="20211011T224809Z">
+        <seg>Set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Могут быть добавлены новые связи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T052800Z" creationid="Марианна" creationdate="20211003T052800Z">
@@ -44666,6 +44746,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не-событие</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224804Z" creationid="Марианна" creationdate="20211011T224804Z">
+        <seg>Non-event</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Недостоверные данные.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083019Z" creationid="Марианна" creationdate="20201214T083019Z">
@@ -46502,6 +46590,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T135615Z" creationid="Марианна" creationdate="20210530T135615Z">
         <seg>It defines the method of partitioning of the input indicator variation range into classes (bins).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Определяется по формуле $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224913Z" creationid="Марианна" creationdate="20211011T224913Z">
+        <seg>It is defined by the following formula: $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$</seg>
       </tuv>
     </tu>
     <tu>
@@ -54875,6 +54971,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T200854Z" creationid="Марианна" creationdate="20211001T200854Z">
         <seg>Own node activation mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Событие</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T224757Z" creationid="Марианна" creationdate="20211011T224757Z">
+        <seg>Event</seg>
       </tuv>
     </tu>
     <tu>
