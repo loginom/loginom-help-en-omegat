@@ -13173,6 +13173,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Индикатор&lt;x2/&gt; — переключить варианты отображения &lt;x3/&gt;Индикаторов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211011T200753Z" creationid="Марианна" creationdate="20211011T200753Z">
+        <seg>&lt;x1/&gt;Indicator&lt;x2/&gt;: switch the display options of &lt;x3/&gt;Indicators&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Инспектор свойств&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T185059Z" creationid="Марианна" creationdate="20200810T160049Z">
