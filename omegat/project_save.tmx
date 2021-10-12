@@ -35210,6 +35210,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для выбора формата отображения поля необходимо щёлкнуть левой кнопкой мыши рядом с нужным полем и выбрать один из доступных вариантов из выпадающего списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T143218Z" creationid="Марианна" creationdate="20211012T143218Z">
+        <seg>To select the field display format, it is required to click near the required field with the left mouse button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для вывода результата в вычисляемое поле калькулятора используется команда &lt;x1/&gt;return&lt;x2/&gt;, которая возвращает значение переменной &lt;x3/&gt;result&lt;x4/&gt;, содержащей вычисленную сумму полей &lt;x5/&gt;Калькулятора&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T114815Z" creationid="Марианна" creationdate="20201020T114815Z">
