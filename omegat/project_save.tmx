@@ -50652,6 +50652,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После выбора всех настроек необходимо нажать кнопку &lt;x1/&gt;Применить&lt;x2/&gt; для применения форматов отображения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T144550Z" creationid="Марианна" creationdate="20211012T144550Z">
+        <seg>After selection of all settings, it is required to press &lt;x1/&gt;Apply&lt;x2/&gt; button to apply the display formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После выбора пакета пользователь попадает в рабочее пространство программы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T080920Z" creationid="Марианна" creationdate="20200716T122939Z">
