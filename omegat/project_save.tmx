@@ -35212,8 +35212,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для выбора формата отображения поля необходимо щёлкнуть левой кнопкой мыши рядом с нужным полем и выбрать один из доступных вариантов из выпадающего списка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T143218Z" creationid="Марианна" creationdate="20211012T143218Z">
-        <seg>To select the field display format, it is required to click near the required field with the left mouse button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T143337Z" creationid="Марианна" creationdate="20211012T143218Z">
+        <seg>To select the field display format, it is required to click near the required field with the left mouse button and select one of the available options fom the drop-down list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59903,6 +59903,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133522Z" creationid="Марианна" creationdate="20201109T195545Z">
         <seg>To include the key fields of the joined table into the resulting data set, it is required to select the following checkbox: &lt;x3/&gt;Add joined key fields&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы восстановить форматы по умолчанию, необходимо нажать кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Восстановить формат для всех полей&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T143447Z" creationid="Марианна" creationdate="20211012T143447Z">
+        <seg>To restore the default formats, it is required to press &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Restore format of all fields&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
