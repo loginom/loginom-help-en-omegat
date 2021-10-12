@@ -55887,6 +55887,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сортировка показателей гистограммы по убыванию/возрастанию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145808Z" creationid="Марианна" creationdate="20211012T145808Z">
+        <seg>Sorting of the histogram indicators in ascending/descending order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сортировку можно произвести по нескольким столбцам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T232216Z" creationid="Марианна" creationdate="20211011T232216Z">
