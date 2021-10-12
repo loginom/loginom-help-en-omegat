@@ -6196,6 +6196,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Порядковые статистики&lt;x4/&gt;— подсчитываются порядковые статистики;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145515Z" creationid="Марианна" creationdate="20211012T145515Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Order statistics&lt;x4/&gt;: the order statistics are calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Развернуть&lt;x4/&gt; - разворачивает узел дерева.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105941Z" creationid="Марианна" creationdate="20200818T105941Z">
@@ -6408,6 +6416,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075257Z" creationid="Марианна" creationdate="20201001T160948Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by &lt;x5/&gt;Delete&lt;x6/&gt; hotkey).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Уникальные значения&lt;x4/&gt;— подсчитывается количество уникальных значений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145633Z" creationid="Марианна" creationdate="20211012T145633Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Unique values&lt;x4/&gt;: the number of unique values is calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12393,6 +12409,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T232230Z" creationid="Марианна" creationdate="20211011T232230Z">
         <seg>&lt;x1/&gt;Detailing&lt;x2/&gt; Detailing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Детализированное окно гистограммы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145345Z" creationid="Марианна" creationdate="20211012T145345Z">
+        <seg>&lt;x1/&gt;Detailed histogram window&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -37163,6 +37187,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T141852Z" creationid="Марианна" creationdate="20210523T141852Z">
         <seg>The following processing methods are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступны следующие опции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145400Z" creationid="Марианна" creationdate="20211012T145400Z">
+        <seg>The following options are available:</seg>
       </tuv>
     </tu>
     <tu>
