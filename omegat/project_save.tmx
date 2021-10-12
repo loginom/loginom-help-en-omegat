@@ -31054,6 +31054,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В столбце &lt;x1/&gt;Ширина&lt;x2/&gt; для выбранного поля можно задать ширину столбца, отображаемого в &lt;x3/&gt;Таблице&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T143729Z" creationid="Марианна" creationdate="20211012T143729Z">
+        <seg>It is possible to set width of the column displayed in the &lt;x3/&gt;Table&lt;x4/&gt; in &lt;x1/&gt;Width&lt;x2/&gt; column for the selected field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В столбце могут содержаться все вышеперечисленные типы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210809T114624Z" creationid="Марианна" creationdate="20210809T114624Z">
@@ -36371,6 +36379,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200929T192340Z" creationid="Марианна" creationdate="20200929T192340Z">
         <seg>To select the first recursive node, it is required to select the root node and move to the next recursive unopened node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для того чтобы задать ширину поля, необходимо щёлкнуть левой кнопкой мыши рядом с нужным полем и ввести числовое значение с клавиатуры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T143913Z" creationid="Марианна" creationdate="20211012T143913Z">
+        <seg>To set the field width, it is required to click near the required field with the left mouse button and enter the numeric value using the keyboard.</seg>
       </tuv>
     </tu>
     <tu>
