@@ -31056,8 +31056,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>В столбце № указан порядковый номер поля исходного набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T175047Z" creationid="Марианна" creationdate="20211005T175047Z">
-        <seg>The order number of the source data set field is specified in column №.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T142513Z" creationid="Марианна" creationdate="20211005T175047Z">
+        <seg>The field order number of the source data set is specified in column №.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49716,6 +49716,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Позволяет менять формат отображения данных в столбцах таблицы, а также задать ширину столбца и его видимость.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T142320Z" creationid="Марианна" creationdate="20211012T142320Z">
+        <seg>It enables to change the data display format in the table column and then set the column width and its visibility.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Позволяет настроить импорт интересуемых данных из Хранилища данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200827T193812Z" creationid="Марианна" creationdate="20200827T193812Z">
@@ -60111,6 +60119,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210630T112708Z" creationid="Марианна" creationdate="20210629T202205Z">
         <seg>Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ширину и видимость можно задать для каждого столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T142404Z" creationid="Марианна" creationdate="20211012T142404Z">
+        <seg>It is possible to set width and visibility for each column.</seg>
       </tuv>
     </tu>
     <tu>
