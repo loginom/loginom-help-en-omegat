@@ -7300,6 +7300,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Статистика</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145029Z" creationid="Марианна" creationdate="20211012T145029Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Statistics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Столбчатая с интервалами;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T151136Z" creationid="Марианна" creationdate="20211007T151136Z">
@@ -33920,6 +33928,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Гистограмма;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145152Z" creationid="Марианна" creationdate="20211012T145152Z">
+        <seg>Histogram;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Гистограммы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T231426Z" creationid="Марианна" creationdate="20211011T231426Z">
@@ -34888,6 +34904,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Детализированное окно гистограммы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145339Z" creationid="Марианна" creationdate="20211012T145339Z">
+        <seg>Detailed histogram window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Детальные настройки</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T113316Z" creationid="Марианна" creationdate="20201214T113316Z">
@@ -34908,6 +34932,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T143859Z" creationid="Марианна" creationdate="20211007T143859Z">
         <seg>The chart visually shows dependence of values of one field on the other one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Диаграмма размаха;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145219Z" creationid="Марианна" creationdate="20211012T145219Z">
+        <seg>Box plot;</seg>
       </tuv>
     </tu>
     <tu>
@@ -42435,6 +42467,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Максимум;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145232Z" creationid="Марианна" creationdate="20211012T145232Z">
+        <seg>Maximum;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Малый вес класса указывает на его низкую значимость и целесообразность объединения с некоторым другим классом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210530T121732Z" creationid="Марианна" creationdate="20210530T121732Z">
@@ -42991,6 +43031,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T083040Z" creationid="Марианна" creationdate="20201214T083040Z">
         <seg>Minimum factors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимум;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145226Z" creationid="Марианна" creationdate="20211012T145226Z">
+        <seg>Minimum;</seg>
       </tuv>
     </tu>
     <tu>
@@ -44550,6 +44598,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T104049Z" creationid="Марианна" creationdate="20200829T210741Z">
         <seg>Import from XML File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка показателей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145118Z" creationid="Марианна" creationdate="20211012T145118Z">
+        <seg>Configure parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -49236,6 +49292,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию отображаются следующие 8 показателей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145147Z" creationid="Марианна" creationdate="20211012T145147Z">
+        <seg>The following eight indicators are displayed by default:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию параметр равен 0, и может изменяться от 0 до 1.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T204914Z" creationid="Марианна" creationdate="20210528T204914Z">
@@ -53511,6 +53575,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пропуски;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145256Z" creationid="Марианна" creationdate="20211012T145256Z">
+        <seg>Null count;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пропущенные значения интерпретируются как строки с нулевой длиной, т.е. как "".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T125713Z" creationid="Марианна" creationdate="20210406T125713Z">
@@ -56175,6 +56247,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Среднее;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145239Z" creationid="Марианна" creationdate="20211012T145239Z">
+        <seg>Average;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Среднеквадратическая ошибка на обучающем множестве (TrainRMSError)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T065150Z" creationid="Марианна" creationdate="20201208T065150Z">
@@ -56323,6 +56403,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T104143Z" creationid="Марианна" creationdate="20210511T104143Z">
         <seg>Standard deviation: the criterion is deviation of the indicator value from the mean one more than by the set number of standard deviations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стандартное отклонение;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145248Z" creationid="Марианна" creationdate="20211012T145248Z">
+        <seg>Standard deviation;</seg>
       </tuv>
     </tu>
     <tu>
@@ -58671,6 +58759,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210714T163919Z" creationid="Марианна" creationdate="20210608T084720Z">
         <seg>Unique values of the main data source fields that map the external binning.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уникальные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T145304Z" creationid="Марианна" creationdate="20211012T145304Z">
+        <seg>Unique.</seg>
       </tuv>
     </tu>
     <tu>
