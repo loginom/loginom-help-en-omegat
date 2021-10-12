@@ -31040,8 +31040,16 @@ etc.</seg>
       <tuv lang="ru">
         <seg>В столбце &lt;x1/&gt;Доступные поля&lt;x2/&gt; показаны доступные для изменения формата поля с типами данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T142843Z" creationid="Марианна" creationdate="20211005T181928Z">
-        <seg>The fields with the data types which format can be changed are displayed in &lt;x1/&gt;Available fields&lt;x2/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T142940Z" creationid="Марианна" creationdate="20211005T181928Z">
+        <seg>The fields with data types which format can be changed are displayed in the &lt;x1/&gt;Available fields&lt;x2/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В столбце &lt;x1/&gt;Формат&lt;x2/&gt; для выбранного поля можно выбрать формат отображения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T143116Z" creationid="Марианна" creationdate="20211012T143116Z">
+        <seg>It is possible to select the display format in the  &lt;x1/&gt;Format&lt;x2/&gt; column for the selected field.</seg>
       </tuv>
     </tu>
     <tu>
