@@ -36655,6 +36655,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого необходимо нажать кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Восстановить порядок полей&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T142634Z" creationid="Марианна" creationdate="20211012T142634Z">
+        <seg>For this purpose, it is required to press &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Restore fields order&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого необходимо нажать на адресную строку и ввести новый/скорректированный путь.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200814T084604Z" creationid="Марианна" creationdate="20200814T084604Z">
@@ -37777,8 +37785,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Если порядок полей менялся, его можно восстановить до исходного.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T181631Z" creationid="Марианна" creationdate="20211005T181631Z">
-        <seg>If the fields order was changed, it can be reset to the initial one.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T142700Z" creationid="Марианна" creationdate="20211005T181631Z">
+        <seg>If the fields order was changed, it can be restored to the initial one.</seg>
       </tuv>
     </tu>
     <tu>
