@@ -30490,6 +30490,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В последнем столбце задаётся видимость поля в визуализаторе &lt;x1/&gt;Таблица&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T144251Z" creationid="Марианна" creationdate="20211012T144251Z">
+        <seg>The field visibility is set in the last column in the &lt;x1/&gt;Table&lt;x2/&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В последним столбце Версия содержится номер версии (типа X.X.X или X.X.X.Y, где X.X.X  –  номер версии, а Y  –  номер сборки).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200819T074430Z" creationid="Марианна" creationdate="20200819T074430Z">
@@ -60071,6 +60079,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T182238Z" creationid="Марианна" creationdate="20211005T182238Z">
         <seg>To reset filtration, it is required to press &lt;x3/&gt;&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы скрыть поле, необходимо нажать кнопку &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Отображается&lt;x6/&gt; рядом с нужным столбцом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211012T144405Z" creationid="Марианна" creationdate="20211012T144405Z">
+        <seg>To hide the field, it is required to press &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Visible&lt;x6/&gt; button near the required column.</seg>
       </tuv>
     </tu>
     <tu>
