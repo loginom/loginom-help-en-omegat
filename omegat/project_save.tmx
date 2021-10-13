@@ -18875,8 +18875,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Количество записей набора данных, к которому применяется данный визуализатор, можно узнать в графе Кол-во строк данных, расположенной в правой части панели инструментов, слева от кнопки &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Гистограмма&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T100401Z" creationid="Марианна" creationdate="20211013T100401Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to define the number of records of the data set to which this visualizer is applied in Row count of data column located in the right toolbar part, to the left from &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Histogram&lt;x6/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T100619Z" creationid="Марианна" creationdate="20211013T100401Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to define the number of records of the data set to which this visualizer is applied in Row count of data column located in the right toolbar part, to the left from the &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Histogram&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31018,6 +31018,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T085612Z" creationid="Марианна" creationdate="20210121T085612Z">
         <seg>In the case of the multiple user access to the DB, it is recommended to use the Firebird server to avoid access lock.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В случае, если их недостаточно, &lt;x1/&gt;весь перечень&lt;x2/&gt; доступен с помощью операции &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Настройка показателей&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T103118Z" creationid="Марианна" creationdate="20211013T103118Z">
+        <seg>But if that's not enough, &lt;x1/&gt;whole list&lt;x2/&gt; is available via &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Configure indicators&lt;x6/&gt; operation.</seg>
       </tuv>
     </tu>
     <tu>
