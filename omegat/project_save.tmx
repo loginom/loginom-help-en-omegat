@@ -38582,6 +38582,30 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задать собственное количество интервалов (в случае, если поле непрерывного типа);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T115123Z" creationid="Марианна" creationdate="20211013T115123Z">
+        <seg>Set the own bin count (when the field refers to the continuous type);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать собственное максимальное значение поля;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T104258Z" creationid="Марианна" creationdate="20211013T104258Z">
+        <seg>Set the own maximum field value;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задать собственное минимальное значение поля;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T104310Z" creationid="Марианна" creationdate="20211013T104310Z">
+        <seg>Set the own minimum field value;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задача состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210722T110827Z" creationid="Марианна" creationdate="20201209T140230Z">
@@ -44710,6 +44734,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T230710Z" creationid="Марианна" creationdate="20210218T230710Z">
         <seg>Configure Service Response</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка отображения показателей гистограммы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T104235Z" creationid="Марианна" creationdate="20211013T104235Z">
+        <seg>Configure display of the histogram indicators;</seg>
       </tuv>
     </tu>
     <tu>
