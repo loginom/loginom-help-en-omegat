@@ -18689,6 +18689,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; В случае, если данных много, то показатели Гистограмма, Диаграмма размаха, Порядковые статистики и Уникальные значения не отображаются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T093417Z" creationid="Марианна" creationdate="20211013T093417Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; В случае, если данных много, то показатели Гистограмма, Диаграмма размаха, Порядковые статистики и Уникальные значения не отображаются.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Внутри &lt;x3/&gt;Подмодели&lt;x4/&gt; так же имеется возможность использовать переменные Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102929Z" creationid="Марианна" creationdate="20201009T102929Z">
