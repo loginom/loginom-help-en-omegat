@@ -5812,6 +5812,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Гистограмма&lt;x4/&gt; — операция, открывающая детализированное окно с расширенными настройками гистограммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T095909Z" creationid="Марианна" creationdate="20211013T095909Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Histogram&lt;x4/&gt;: the operation that enables to open the detailed window with advanced histogram settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Главная таблица&lt;x4/&gt; — порт для входного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133941Z" creationid="Марианна" creationdate="20201019T064917Z">
