@@ -32104,6 +32104,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Включить Null-значения в гистограмму (в случае, если поле дискретного типа).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T115255Z" creationid="Марианна" creationdate="20211013T115255Z">
+        <seg>Include Null values into the histogram (for the discrete field).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Включить верхние границы интервала — верхнее значение границы будет включено в текущий интервал.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T153411Z" creationid="Марианна" creationdate="20210528T181630Z">
@@ -52069,8 +52077,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При наведении курсора на показатель Гистограмма, отображается количество записей соответствующих данному интервалу или уникальному значению.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T103457Z" creationid="Марианна" creationdate="20211013T103457Z">
-        <seg>When hovering cursor over the Histogram indicator, the number of records matching this range or unique value is displayed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T115146Z" creationid="Марианна" creationdate="20211013T103457Z">
+        <seg>When hovering cursor over the Histogram indicator, the number of records matching this bin or unique value is displayed.</seg>
       </tuv>
     </tu>
     <tu>
