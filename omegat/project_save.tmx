@@ -18691,8 +18691,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; В случае, если данных много, то показатели Гистограмма, Диаграмма размаха, Порядковые статистики и Уникальные значения не отображаются.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T093417Z" creationid="Марианна" creationdate="20211013T093417Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; В случае, если данных много, то показатели Гистограмма, Диаграмма размаха, Порядковые статистики и Уникальные значения не отображаются.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T093608Z" creationid="Марианна" creationdate="20211013T093417Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; If there is much data, such indicators as Histogram, Box plot, Order statistics and Unique values are not displayed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35566,6 +35566,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T195713Z" creationid="Марианна" creationdate="20201208T195713Z">
         <seg>The following parameters are set for their determination and exclusion:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для их подсчета нужно нажать на соответствующие кнопки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T093647Z" creationid="Марианна" creationdate="20211013T093647Z">
+        <seg>To calculate them, it is required to press corresponding buttons.</seg>
       </tuv>
     </tu>
     <tu>
