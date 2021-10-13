@@ -33568,6 +33568,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбрав необходимое поле, а затем нажав на кнопку &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Гистограмма&lt;x4/&gt;, в правой части интерфейса открывается дополнительное окно с расширенными настройками и более подробным описанием гистограммы (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T104129Z" creationid="Марианна" creationdate="20211013T104129Z">
+        <seg>When selecting the required field and pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Histogram&lt;x4/&gt; button, the additional window with advanced settings and more detailed description of histogram is opened in the right part of the interface (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные поля</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082725Z" creationid="Марианна" creationdate="20201006T082725Z">
