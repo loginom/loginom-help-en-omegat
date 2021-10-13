@@ -1,6 +1,6 @@
 # ![Regression Report](../../images/icons/view_types/logregressreport_default.svg) Regression Report
 
-*Regression report* visualizer of the [*Logistic Regression*](../../processors/datamining/logistic-regression/README.md) component displays the statistical parameters and results of the statistical tests for the regression models analysis.
+*Regression report* visualizer of the [*Logistic Regression*](../../processors/datamining/logistic-regression/README.md) component displays the statistical indicators and results of the statistical tests for the regression models analysis.
 
 This visualizer consists of three areas:
 
