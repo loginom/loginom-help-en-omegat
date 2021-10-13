@@ -18745,6 +18745,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Гистограмма не отображается, если в измерении содержится большое количество уникальных значений (для дискретных полей).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T103727Z" creationid="Марианна" creationdate="20211013T103727Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The histogram is not displayed if there are too many unique values in the dimension (for the discrete fields).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для вывода данных в окно предпросмотра обрабатывается только первая тысяча строк исходного набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201113T114709Z" creationid="Марианна" creationdate="20201113T114144Z">
@@ -36095,6 +36103,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T100554Z" creationid="Марианна" creationdate="20210928T100444Z">
         <seg>To search for the report created on the basis of the current visualizer, it is required to click the required visualizer with the right mouse button and select "Show in reports" menu option.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для показателя Диаграмма размаха при наведении курсора отображается детализация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T103553Z" creationid="Марианна" creationdate="20211013T103553Z">
+        <seg>When hovering cursor over the Box plot indicator, the detailing is displayed.</seg>
       </tuv>
     </tu>
     <tu>
