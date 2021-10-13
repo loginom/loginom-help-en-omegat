@@ -18873,6 +18873,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Количество записей набора данных, к которому применяется данный визуализатор, можно узнать в графе Кол-во строк данных, расположенной в правой части панели инструментов, слева от кнопки &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Гистограмма&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T100401Z" creationid="Марианна" creationdate="20211013T100401Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to define the number of records of the data set to which this visualizer is applied in Row count of data column located in the right toolbar part, to the left from &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Histogram&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Модуль Пакета по умолчанию имеет модификатор доступа "Открытый (доступен во всех пакетах)".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T221012Z" creationid="Марианна" creationdate="20210928T221012Z">
