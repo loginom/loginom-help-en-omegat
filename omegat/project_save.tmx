@@ -6004,6 +6004,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройка полей&lt;x4/&gt; — выбор полей набора данных, для которых будут подсчитаны статистические показатели;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T095220Z" creationid="Марианна" creationdate="20211013T095220Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure fields&lt;x4/&gt;: selection of the data set fields for which the statistical indicators will be calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройки осей&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T154917Z" creationid="Марианна" creationdate="20211005T154917Z">
