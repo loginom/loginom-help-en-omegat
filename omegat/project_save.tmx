@@ -31976,6 +31976,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор &lt;x1/&gt;Статистика&lt;x2/&gt; предназначен для просмотра различных &lt;x3/&gt;статистических показателей&lt;x4/&gt; по каждому полю набора данных и представляет собой таблицу, в которой наименования полей набора данных расположены в строках, а наименования статистических показателей в столбцах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T093202Z" creationid="Марианна" creationdate="20211013T093202Z">
+        <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; visualizer is designated for view of different &lt;x3/&gt;statistical indicators&lt;x4/&gt; by each data set field, and it represents the table in which the data set fields names are located in rows and names of statistical indicators are located in columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализатор разделен на 3 области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224402Z" creationid="Марианна" creationdate="20211011T224402Z">
