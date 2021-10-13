@@ -11205,6 +11205,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Визуализатор Статистика&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T093405Z" creationid="Марианна" creationdate="20211013T093405Z">
+        <seg>&lt;x1/&gt;Statistics Visualizer&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Визуализаторы&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065411Z" creationid="Марианна" creationdate="20200812T065411Z">
@@ -43559,6 +43567,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T140711Z" creationid="Марианна" creationdate="20200718T140711Z">
         <seg>Solution of the set task is described at the first design step specifying independent subtasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На пересечении, в ячейках таблицы, расположены значения статистических показателей соответствующих полей (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T093339Z" creationid="Марианна" creationdate="20211013T093339Z">
+        <seg>The values of statistical indicators of corresponding fields are located in the table cells at the intersection (refer to</seg>
       </tuv>
     </tu>
     <tu>
