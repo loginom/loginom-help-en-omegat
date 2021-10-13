@@ -6004,6 +6004,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройка показателей&lt;x4/&gt; — выбор статистических показателей;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T095431Z" creationid="Марианна" creationdate="20211013T095332Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure indicators&lt;x4/&gt;: selection of the statistical indicators.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настройка полей&lt;x4/&gt; — выбор полей набора данных, для которых будут подсчитаны статистические показатели;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211013T095220Z" creationid="Марианна" creationdate="20211013T095220Z">
@@ -44692,8 +44700,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Настройка показателей</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145118Z" creationid="Марианна" creationdate="20211012T145118Z">
-        <seg>Configure parameters</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T095343Z" creationid="Марианна" creationdate="20211012T145118Z">
+        <seg>Configure indicators</seg>
       </tuv>
     </tu>
     <tu>
