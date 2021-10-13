@@ -18865,6 +18865,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Изменяя вышеперечисленные опции, визуализация гистограммы изменяется только в детализированном окне, а в основном окне визуализатора останется прежней.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T115627Z" creationid="Марианна" creationdate="20211013T115627Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; After the changes of options specified above, the histogram visualisation changes only in the detailed window, whereas it is the same in the main visualizer window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Инструменты работы с веб-сервисами доступны только в &lt;x3/&gt;серверных редакциях Loginom&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210210T222431Z" creationid="Марианна" creationdate="20210210T222431Z">
