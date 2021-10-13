@@ -38296,6 +38296,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Её можно посмотреть в дополнительном окне, нажав кнопку &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Гистограмма&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T103828Z" creationid="Марианна" creationdate="20211013T103828Z">
+        <seg>It can be viewed in the additional window by pressing &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Histogram&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Жидкость для розжига</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T113232Z" creationid="Марианна" creationdate="20201124T113232Z">
