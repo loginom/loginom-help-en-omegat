@@ -10578,6 +10578,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Быстрый просмотр данных&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T112555Z" creationid="Марианна" creationdate="20211014T112555Z">
+        <seg>&lt;x1/&gt;Quick View of Data&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Быстрый просмотр&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065429Z" creationid="Марианна" creationdate="20200812T065429Z">
@@ -30198,6 +30206,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T101816Z" creationid="Марианна" creationdate="20201009T101816Z">
         <seg>The &lt;x1/&gt;ports&lt;x2/&gt; of the Workflow variables are located in the upper left corner of the Workflow construction area:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В левом нижнем углу окна &lt;x1/&gt;Быстрый просмотр данных&lt;x2/&gt; выводится общее количество строк в наборе, если все строки не помещаются в окне визуализатора (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T114943Z" creationid="Марианна" creationdate="20211014T114943Z">
+        <seg>The total count of rows in the data set is shown in the left lower corner of the window &lt;x1/&gt;Quick View of Data&lt;x2/&gt;  (refer to</seg>
       </tuv>
     </tu>
     <tu>
