@@ -3076,6 +3076,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;   табличном порту;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105503Z" creationid="Марианна" creationdate="20211014T105503Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;   table port;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Входной источник данных&lt;x4/&gt; — таблица данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210708T152237Z" creationid="Марианна" creationdate="20201207T142508Z">
@@ -3088,6 +3096,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142225Z" creationid="Марианна" creationdate="20201208T064858Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt;  &lt;x3/&gt;Model coefficients&lt;x4/&gt;: the data table that contains the following coefficients:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  порту переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105518Z" creationid="Марианна" creationdate="20211014T105518Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;  viraibles port;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4872,6 +4888,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210714T142257Z" creationid="Марианна" creationdate="20210511T082918Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Extreme values: the table that contains the source table rows in which extreme values have been detected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; порту дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105525Z" creationid="Марианна" creationdate="20211014T105525Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; tree port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34592,6 +34616,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный визуализатор доступен в любом активном выходном:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105457Z" creationid="Марианна" creationdate="20211014T105457Z">
+        <seg>This visualizer is available in any active output:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный визуализатор состоит из трех областей:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172812Z" creationid="Марианна" creationdate="20211005T172812Z">
@@ -47502,6 +47534,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T052657Z" creationid="Марианна" creationdate="20211005T052657Z">
         <seg>It is possible to open the port configuration dialog by clicking the port with the mouse button. Then it is required to select "Configure port..." command.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Открыть его можно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105537Z" creationid="Марианна" creationdate="20211014T105537Z">
+        <seg>It can be opened as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -61335,6 +61375,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T074652Z" creationid="Марианна" creationdate="20200929T194351Z">
         <seg>The second option is to left-click the link to be deleted, and to press &lt;x13/&gt;Delete link&lt;x14/&gt; button to delete the link (when cursor hovering over &lt;x15/&gt;Delete link&lt;x16/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>выбрав &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр…&lt;x4/&gt; из контекстного меню порта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105738Z" creationid="Марианна" creationdate="20211014T105738Z">
+        <seg>by selecting &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick view…&lt;x4/&gt; from the context menu of the port;</seg>
       </tuv>
     </tu>
     <tu>
