@@ -4164,6 +4164,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Быстрый просмотр данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211013T121334Z" creationid="Марианна" creationdate="20211013T121334Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Quick View of Data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных) — обязательный порт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213305Z" creationid="Марианна" creationdate="20201216T213305Z">
@@ -51509,6 +51517,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T214459Z" creationid="Марианна" creationdate="20211010T214459Z">
         <seg>It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет ограниченное количество данных для ознакомления в виде плоской двумерной таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105156Z" creationid="Марианна" creationdate="20211014T105156Z">
+        <seg>It provides the limited amount of data for information purposes in the form of the flat two-dimensional table.</seg>
       </tuv>
     </tu>
     <tu>
