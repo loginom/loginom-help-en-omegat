@@ -21230,6 +21230,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Статистика&lt;x2/&gt; &lt;x3/&gt;Статистика&lt;x4/&gt; — данные будут представлены визуализатором &lt;x5/&gt;Статистика&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162609Z" creationid="Марианна" creationdate="20211014T162609Z">
+        <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; &lt;x3/&gt;Statistics&lt;x4/&gt;: the data will be displayed by the &lt;x5/&gt;Statistics&lt;x6/&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Статистика&lt;x2/&gt; Статистика.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T161206Z" creationid="Марианна" creationdate="20211005T161206Z">
@@ -22490,6 +22498,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T071105Z" creationid="Марианна" creationdate="20200812T071105Z">
         <seg>&lt;x1/&gt;Branded data sources&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Форма&lt;x2/&gt; &lt;x3/&gt;Форма&lt;x4/&gt; —  данные будут представлены просмотром отдельной строки, начиная с первой по списку;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162506Z" creationid="Марианна" creationdate="20211014T162506Z">
+        <seg>&lt;x1/&gt;Form&lt;x2/&gt; &lt;x3/&gt;Form&lt;x4/&gt;: the data will be displayed by view of a separate row starting from the first one in the list;</seg>
       </tuv>
     </tu>
     <tu>
