@@ -19113,6 +19113,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в &lt;x3/&gt;Таблица&lt;x4/&gt; &lt;x5/&gt;Таблице&lt;x6/&gt; и &lt;x7/&gt;Форма&lt;x8/&gt; &lt;x9/&gt;Форме&lt;x10/&gt; можно менять порядок следования столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162735Z" creationid="Марианна" creationdate="20211014T162735Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to change the columns sequence order in &lt;x3/&gt;Table&lt;x4/&gt; &lt;x5/&gt;Table&lt;x6/&gt; and &lt;x7/&gt;Form&lt;x8/&gt; &lt;x9/&gt;Form&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в отличии от &lt;x3/&gt;компонента &lt;x4/&gt;JavaScript&lt;x5/&gt;&lt;x6/&gt; в &lt;x7/&gt;Калькуляторе&lt;x8/&gt; не поддерживается объект &lt;x9/&gt;Promise&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T172006Z" creationid="Марианна" creationdate="20201020T172006Z">
@@ -40560,6 +40568,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T200802Z" creationid="Марианна" creationdate="20211002T200802Z">
         <seg>The interface is represented by a table with the following columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерфейс табличного представления</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162844Z" creationid="Марианна" creationdate="20211014T162844Z">
+        <seg>Table Representation Interface</seg>
       </tuv>
     </tu>
     <tu>
