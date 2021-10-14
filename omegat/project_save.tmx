@@ -30722,6 +30722,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В правом верхнем углу окна будет указано общее количество столбцов в наборе данных (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T112035Z" creationid="Марианна" creationdate="20211014T112035Z">
+        <seg>The total number of columns in the data set will be shown in the right upper window part (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В предельном случае количество итераций равно количеству строк входного набора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T193120Z" creationid="Марианна" creationdate="20200921T193120Z">
@@ -41763,6 +41771,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T050642Z" creationid="Марианна" creationdate="20201222T050642Z">
         <seg>Number of neurons in the second hidden layer — integer &gt;= 1 (by default = 10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Количество отображаемых полей можно изменить с помощью дополнительной функции &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Столбцы&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T111916Z" creationid="Марианна" creationdate="20211014T111916Z">
+        <seg>The number of the displayed fields  can be changed using the additional &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Columns&lt;x6/&gt; function.</seg>
       </tuv>
     </tu>
     <tu>
