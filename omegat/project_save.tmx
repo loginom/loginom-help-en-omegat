@@ -21598,6 +21598,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — данные будут представлены визуализатором &lt;x5/&gt;Таблица&lt;x6/&gt;, но без возможности фильтрации и без панели детализации;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162402Z" creationid="Марианна" creationdate="20211014T162402Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: the data will be displayed by the &lt;x5/&gt;Table&lt;x6/&gt; visualizer but without filtering option and detailing panel;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; Таблица;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T161118Z" creationid="Марианна" creationdate="20211005T161118Z">
@@ -35152,6 +35160,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Детализация поможет выяснить, из каких записей образуется конкретный факт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162108Z" creationid="Марианна" creationdate="20211014T162108Z">
+        <seg>Detailing enables to find out from which records the given measure is generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Детализированное окно гистограммы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211012T145339Z" creationid="Марианна" creationdate="20211012T145339Z">
@@ -36126,6 +36142,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T211356Z" creationid="Марианна" creationdate="20210930T211356Z">
         <seg>All options can be used for the public Packages, and &lt;x1/&gt;Reference node&lt;x2/&gt; and &lt;x3/&gt;Node execution&lt;x4/&gt; are used for the private ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для отображения детализированной информации по выделенной ячейке можно использовать следующие визуализаторы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162203Z" creationid="Марианна" creationdate="20211014T162203Z">
+        <seg>To display the detailed information by the selected cell, it is possible to use the following visualizers:</seg>
       </tuv>
     </tu>
     <tu>
