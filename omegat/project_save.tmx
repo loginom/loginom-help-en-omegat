@@ -30212,8 +30212,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В левом нижнем углу окна &lt;x1/&gt;Быстрый просмотр данных&lt;x2/&gt; выводится общее количество строк в наборе, если все строки не помещаются в окне визуализатора (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T114943Z" creationid="Марианна" creationdate="20211014T114943Z">
-        <seg>The total count of rows in the data set is shown in the left lower corner of the window &lt;x1/&gt;Quick View of Data&lt;x2/&gt;  (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T115053Z" creationid="Марианна" creationdate="20211014T114943Z">
+        <seg>The total count of rows in the data set is shown in the left lower corner of &lt;x1/&gt;Quick View of Data&lt;x2/&gt; window if there is no enough space for all rows in the visualizer window (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -30740,8 +30740,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В правом верхнем углу окна будет указано общее количество столбцов в наборе данных (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T112118Z" creationid="Марианна" creationdate="20211014T112035Z">
-        <seg>The total count of columns in the data set will be shown in the right upper window part (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T114953Z" creationid="Марианна" creationdate="20211014T112035Z">
+        <seg>The total count of columns in the data set will be shown in the right upper window corner (refer to</seg>
       </tuv>
     </tu>
     <tu>
