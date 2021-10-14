@@ -18081,6 +18081,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показать значение null&lt;x2/&gt; &lt;x3/&gt;Показать значение null&lt;x4/&gt; — переключить отображение &lt;x5/&gt;&lt;x6/&gt;&lt;null&gt;&lt;x7/&gt;&lt;x8/&gt; в ячейках с пропущенными значениями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T163606Z" creationid="Марианна" creationdate="20211014T163606Z">
+        <seg>&lt;x1/&gt;Show null value&lt;x2/&gt; &lt;x3/&gt;Show null value&lt;x4/&gt;: switch &lt;x5/&gt;&lt;x6/&gt;&lt;null&gt;&lt;x7/&gt;&lt;x8/&gt; representation in the cells with null values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показать узел&lt;x2/&gt; — выделяет выбранный узел на области построения Сценариев;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073358Z" creationid="Марианна" creationdate="20200817T073358Z">
@@ -21906,6 +21914,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070450Z" creationid="Марианна" creationdate="20200812T070450Z">
         <seg>&lt;x1/&gt;Data types&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Типы данных&lt;x2/&gt; &lt;x3/&gt;Типы данных&lt;x4/&gt; — переключить отображение иконки типов данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T163427Z" creationid="Марианна" creationdate="20211014T163427Z">
+        <seg>&lt;x1/&gt;Data types&lt;x2/&gt; &lt;x3/&gt;Data types&lt;x4/&gt;: switch data type icon representation.</seg>
       </tuv>
     </tu>
     <tu>
