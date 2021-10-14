@@ -34976,6 +34976,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Действия над полями</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105928Z" creationid="Марианна" creationdate="20211014T105928Z">
+        <seg>Actions with the Fields</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Декомпозиция</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T162428Z" creationid="Марианна" creationdate="20200718T162428Z">
@@ -52139,6 +52147,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении курсора к заголовку поля появится кнопка &lt;x1/&gt; &lt;x2/&gt; с дополнительными функциями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T110222Z" creationid="Марианна" creationdate="20211014T110222Z">
+        <seg>When hovering cursor over the field caption, &lt;x1/&gt; &lt;x2/&gt; button with additional functions will appear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При наведении курсора к заголовку поля появится кнопка &lt;x1/&gt; &lt;x2/&gt; с дополнительными функциями:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T220033Z" creationid="Марианна" creationdate="20211010T220033Z">
@@ -61495,6 +61511,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141410Z" creationid="Марианна" creationdate="20201115T141410Z">
         <seg>double click on the field;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>двойным кликом по порту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105902Z" creationid="Марианна" creationdate="20211014T105902Z">
+        <seg>by double click on the port.</seg>
       </tuv>
     </tu>
     <tu>
