@@ -31944,6 +31944,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T105408Z" creationid="Марианна" creationdate="20211014T105408Z">
+        <seg>Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T214841Z" creationid="Марианна" creationdate="20211010T214841Z">
