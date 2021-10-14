@@ -1788,6 +1788,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>10 тысяч дочерних узлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T110802Z" creationid="Марианна" creationdate="20211014T110802Z">
+        <seg>10,000 child nodes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>10.02.2017</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201022T175352Z" creationid="Марианна" creationdate="20201022T175352Z">
@@ -3996,10 +4004,18 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Столбцы&lt;x4/&gt; — позволяет изменить видимость (отключить/включить отображение) определенным столбцам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T111022Z" creationid="Марианна" creationdate="20211014T110946Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt; enables to change visibility (disable/enable display) of the defined columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Столбцы&lt;x4/&gt; — позволяет отключить/включить отображение определенным столбцам.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T220513Z" creationid="Марианна" creationdate="20211010T220438Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt;: disable/enable representation by the defined columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T111001Z" creationid="Марианна" creationdate="20211010T220438Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt;: disable/enable display by the defined columns.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38768,8 +38784,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Закрепление</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T110402Z" creationid="Марианна" creationdate="20211014T110402Z">
-        <seg>Attaching</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T110839Z" creationid="Марианна" creationdate="20211014T110402Z">
+        <seg>Freezing</seg>
       </tuv>
     </tu>
     <tu>
