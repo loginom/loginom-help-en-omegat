@@ -16141,6 +16141,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Номер записи&lt;x2/&gt; &lt;x3/&gt;Номер записи&lt;x4/&gt; — переключить отображение столбца с порядковым номером записи в данном отчете.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T163228Z" creationid="Марианна" creationdate="20211014T163228Z">
+        <seg>&lt;x1/&gt;Record number&lt;x2/&gt; &lt;x3/&gt;Record number&lt;x4/&gt;: switch representation of the column with order record number in this report.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Номер кластера&lt;x2/&gt; — каждому объекту присвоен номер того кластера, в который он входит.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T131821Z" creationid="Марианна" creationdate="20201210T131821Z">
@@ -16153,6 +16161,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132341Z" creationid="Марианна" creationdate="20201210T132317Z">
         <seg>&lt;x1/&gt;Cluster number&lt;x2/&gt;: numbers of the generated clusters are listed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Номер строки&lt;x2/&gt; &lt;x3/&gt;Номер строки&lt;x4/&gt; — показать/скрыть сквозной номер строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T162954Z" creationid="Марианна" creationdate="20211014T162954Z">
+        <seg>&lt;x1/&gt;Row number&lt;x2/&gt; &lt;x3/&gt;Row number&lt;x4/&gt;: show/hide continuous row number;.</seg>
       </tuv>
     </tu>
     <tu>
