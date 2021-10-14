@@ -37895,6 +37895,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если набор данных имеет более 50 полей, то в визуализаторе &lt;x1/&gt;Быстрый просмотр данных&lt;x2/&gt; для табличного порта будут отображены только первые 50.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T111708Z" creationid="Марианна" creationdate="20211014T111708Z">
+        <seg>If the data set includes more than 50 fields, only the first 50 will be displayed for the table port in &lt;x1/&gt;Quick View of Data&lt;x2/&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если настраивается входной порт принимающий переменные, список "Выходные" отображает значения переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T204659Z" creationid="Марианна" creationdate="20211003T204659Z">
@@ -38802,6 +38810,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T110139Z" creationid="Марианна" creationdate="20210930T110139Z">
         <seg>Private (available only in the current Module);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Закрыть &lt;x1/&gt;Быстрый просмотр&lt;x2/&gt; можно нажатием на кнопку &lt;x3/&gt;X&lt;x4/&gt; или &lt;x5/&gt;Закрыть&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T111356Z" creationid="Марианна" creationdate="20211014T111356Z">
+        <seg>It is possible to close &lt;x1/&gt;Quick view&lt;x2/&gt; by pressing &lt;x3/&gt;X&lt;x4/&gt; or &lt;x5/&gt;Close&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
