@@ -33000,6 +33000,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможности и ограничения у разных портов различаются:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T110310Z" creationid="Марианна" creationdate="20211014T110310Z">
+        <seg>Different ports have different options and constraints:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможности отключить их видимость нет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T210030Z" creationid="Марианна" creationdate="20210930T210030Z">
@@ -56131,6 +56139,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T110736Z" creationid="Марианна" creationdate="20201111T110736Z">
         <seg>The key fields mapped by this method are linked by the connection lines.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сортировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T110319Z" creationid="Марианна" creationdate="20211014T110319Z">
+        <seg>Sorting</seg>
       </tuv>
     </tu>
     <tu>
