@@ -30724,8 +30724,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В правом верхнем углу окна будет указано общее количество столбцов в наборе данных (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T112035Z" creationid="Марианна" creationdate="20211014T112035Z">
-        <seg>The total number of columns in the data set will be shown in the right upper window part (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T112118Z" creationid="Марианна" creationdate="20211014T112035Z">
+        <seg>The total count of columns in the data set will be shown in the right upper window part (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -52275,6 +52275,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении указателя мыши на эту область выводится подсказка о количестве отображаемых полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T112545Z" creationid="Марианна" creationdate="20211014T112545Z">
+        <seg>When hovering cursor over this area, the tooltip with the number of the displayed fields is shown.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на данный текст на экран выведется полная формулировка ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T065436Z" creationid="Марианна" creationdate="20200817T065436Z">
@@ -62543,6 +62551,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
         <seg>Figure 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T112102Z" creationid="Марианна" creationdate="20211014T112102Z">
+        <seg>Figure).</seg>
       </tuv>
     </tu>
     <tu>
