@@ -35072,6 +35072,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дерево</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211014T110735Z" creationid="Марианна" creationdate="20211014T110735Z">
+        <seg>Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дерево данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200928T070158Z" creationid="Марианна" creationdate="20200928T070158Z">
