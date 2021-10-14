@@ -1,43 +1,43 @@
-# ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Быстрый просмотр данных
+# ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Quick View of Data
 
-Представляет ограниченное количество данных для ознакомления в виде плоской двумерной таблицы. Filtration, change of data display format and search are not available. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд.
+It provides the limited amount of data for information purposes in the form of the flat two-dimensional table. Filtration, change of data display format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
 
-Данный визуализатор доступен в любом активном выходном:
+This visualizer is available in any active output:
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_active.svg)   табличном порту;
-* ![ ](../../images/icons/app/node/ports/outputs/variable_active.svg)  порту переменных;
-* ![ ](../../images/icons/app/node/ports/outputs/tree_active.svg) порту дерева.
+* ![ ](../../images/icons/app/node/ports/outputs/table_active.svg)   table port;
+* ![ ](../../images/icons/app/node/ports/outputs/variable_active.svg)  viraibles port;
+* ![ ](../../images/icons/app/node/ports/outputs/tree_active.svg) tree port.
 
-Открыть его можно:
+It can be opened as follows:
 
-* выбрав ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Быстрый просмотр…** из контекстного меню порта;
-* двойным кликом по порту.
+* by selecting ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Quick view…** from the context menu of the port;
+* by double click on the port.
 
 
-## Действия над полями
+## Actions with the Fields
 
-При наведении курсора к заголовку поля появится кнопка ![ ](../../images/icons/toolbar-controls/down_default.svg) с дополнительными функциями.
+When hovering cursor over the field caption, ![ ](../../images/icons/toolbar-controls/down_default.svg) button with additional functions will appear.
 
-Возможности и ограничения у разных портов различаются:
+Different ports have different options and constraints:
 
-| Port | Сортировка | Изменение видимости | Закрепление | Перемещение | Предел |
+| Port | Sorting | Visibility change | Freezing | Move | Bound |
 |:---|:--:|:--:|:--:|:--:|:---|
-| Таблица | | • | • | • | 50 тысяч строк |
-| Дерево | • | • | | | 10 тысяч дочерних узлов |
+| Table | | • | • | • | 50,000 rows |
+| Tree | • | • | | | 10,000 child nodes |
 | Variables | • | | | | &nbsp; |
 
 * ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Sort ascending** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Sort descending**: sorting enables to sort data by the selected field in ascending or descending order. It is performed only for the current data set according to the set limits.
-* ![ ](../../images/icons/grid/columns.svg) **Столбцы** — позволяет изменить видимость (отключить/включить отображение) определенным столбцам.
+* ![ ](../../images/icons/grid/columns.svg) **Columns** enables to change visibility (disable/enable display) of the defined columns.
 * ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Freeze column** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Unfreeze column**: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.
 
 It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.
 
 Field settings are reset when closing the window.
 
-Закрыть *Быстрый просмотр* можно нажатием на кнопку *X* или *Закрыть*.
+It is possible to close *Quick view* by pressing *X* or *Close* button.
 
-Если набор данных имеет более 50 полей, то в визуализаторе *Быстрый просмотр данных* для табличного порта будут отображены только первые 50. Количество отображаемых полей можно изменить с помощью дополнительной функции ![ ](../../images/icons/grid/columns.svg) *Столбцы*. В правом верхнем углу окна будет указано общее количество столбцов в наборе данных (см. рисунок). При наведении указателя мыши на эту область выводится подсказка о количестве отображаемых полей.
+If the data set includes more than 50 fields, only the first 50 will be displayed for the table port in *Quick View of Data* visualizer. The number of the displayed fields  can be changed using the additional ![ ](../../images/icons/grid/columns.svg) *Columns* function. The total count of columns in the data set will be shown in the right upper window corner (refer to Figure). When hovering cursor over this area, the tooltip with the number of the displayed fields is shown.
 
-В левом нижнем углу окна *Быстрый просмотр данных* выводится общее количество строк в наборе, если все строки не помещаются в окне визуализатора (см. рисунок).
+The total count of rows in the data set is shown in the left lower corner of *Quick View of Data* window if there is no enough space for all rows in the visualizer window (refer to Figure).
 
-![Быстрый просмотр данных](./column_amt.png)
+![Quick View of Data](./column_amt.png)
