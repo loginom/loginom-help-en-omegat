@@ -35376,6 +35376,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Детализация использует данные исходного набора данных, отфильтрованные по выделенным в основной таблице кластерам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T094440Z" creationid="Марианна" creationdate="20211015T094440Z">
+        <seg>Detailing uses the data of the source data set filtered by the clusters selected in the main table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Детализация поможет выяснить, из каких записей образуется конкретный факт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211014T162108Z" creationid="Марианна" creationdate="20211014T162108Z">
