@@ -44676,6 +44676,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нажатие на кнопку скрывает панель со списком входных столбцов, повторное нажатие возвращает панель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103521Z" creationid="Марианна" creationdate="20211015T103521Z">
+        <seg>Pressing the button enables to hide the bar with the list of input columns, whereas the repeated pressing returns the bar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нажать "Применить".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T222012Z" creationid="Марианна" creationdate="20210928T220032Z">
