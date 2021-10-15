@@ -15797,6 +15797,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка полей&lt;x2/&gt; &lt;x3/&gt;Настройка полей…&lt;x4/&gt; — выбор полей набора данных, для которых будут подсчитаны статистические показатели;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T090016Z" creationid="Марианна" creationdate="20211015T090016Z">
+        <seg>&lt;x1/&gt;Configure fields&lt;x2/&gt; &lt;x3/&gt;Configure fields…&lt;x4/&gt; : selection of the data set fields for which the statistical indicators will be calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка порядка следования данных&lt;x2/&gt; — этот шаг мастера добавляется при использовании метода &lt;x3/&gt;с учетом временных колебаний и сезонности опорных данных&lt;x4/&gt;, настройки следующие:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201127T095240Z" creationid="Марианна" creationdate="20201127T095240Z">
