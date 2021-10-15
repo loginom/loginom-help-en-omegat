@@ -12573,6 +12573,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграммы WoE и IV.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T100927Z" creationid="Марианна" creationdate="20211015T100927Z">
+        <seg>&lt;x1/&gt;WoE and IV charts.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диапазон&lt;x2/&gt; — диапазон импортируемых ячеек, заданных в формате &lt;x3/&gt;[адрес верхней левой ячейки]:[адрес правой нижней ячейки]&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132503Z" creationid="Марианна" creationdate="20200825T185106Z">
