@@ -15485,6 +15485,30 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;На первую&lt;x2/&gt; — перейти на первую страницу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083850Z" creationid="Марианна" creationdate="20211015T083850Z">
+        <seg>&lt;x1/&gt;To first&lt;x2/&gt;: go to the first page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На последнюю&lt;x2/&gt; — перейти на последнюю страницу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083917Z" creationid="Марианна" creationdate="20211015T083917Z">
+        <seg>&lt;x1/&gt;To last&lt;x2/&gt;: go to the last page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На предыдущую&lt;x2/&gt; — перейти на предыдущую страницу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083751Z" creationid="Марианна" creationdate="20211015T083751Z">
+        <seg>&lt;x1/&gt;To previous&lt;x2/&gt;: go to the previous page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;На пропущенное&lt;x2/&gt; — значения будут заменены на Null.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T093407Z" creationid="Марианна" creationdate="20201117T093407Z">
@@ -15505,6 +15529,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122412Z" creationid="Марианна" creationdate="20210111T122319Z">
         <seg>&lt;x1/&gt;On 1C:Enterprise server&lt;x2/&gt;: connection by specifying the cluster and database names:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На следующую&lt;x2/&gt; — перейти на следующую страницу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083816Z" creationid="Марианна" creationdate="20211015T083816Z">
+        <seg>&lt;x1/&gt;To next&lt;x2/&gt;: go to the next page.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40648,6 +40680,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T200802Z" creationid="Марианна" creationdate="20211002T200802Z">
         <seg>The interface is represented by a table with the following columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерфейс представления формы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084029Z" creationid="Марианна" creationdate="20211015T084029Z">
+        <seg>Form Representation Interface</seg>
       </tuv>
     </tu>
     <tu>
