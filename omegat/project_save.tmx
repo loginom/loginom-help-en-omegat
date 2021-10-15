@@ -12575,8 +12575,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграммы WoE и IV.&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T100927Z" creationid="Марианна" creationdate="20211015T100927Z">
-        <seg>&lt;x1/&gt;WoE and IV charts.&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101930Z" creationid="Марианна" creationdate="20211015T100927Z">
+        <seg>&lt;x1/&gt;WoE chart and chart IV.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35914,6 +35914,22 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для диаграммы IV:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101935Z" creationid="Марианна" creationdate="20211015T101935Z">
+        <seg>For chart IV:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для диаграммы WoE:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101950Z" creationid="Марианна" creationdate="20211015T101950Z">
+        <seg>For WoE chart:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для дискретного разбиения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T213836Z" creationid="Марианна" creationdate="20210606T213836Z">
@@ -52659,6 +52675,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении курсора мыши на столбец диаграммы всплывает окно (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102543Z" creationid="Марианна" creationdate="20211015T102543Z">
+        <seg>When hovering mouse cursor over the chart column, the window appears (refer to.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При наведении курсора на показатель Гистограмма, отображается количество записей соответствующих данному интервалу или уникальному значению.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211013T115146Z" creationid="Марианна" creationdate="20211013T103457Z">
@@ -62243,6 +62267,22 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>значение IV;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101857Z" creationid="Марианна" creationdate="20211015T101857Z">
+        <seg>value IV;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>значение WoE.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101943Z" creationid="Марианна" creationdate="20211015T101943Z">
+        <seg>WoE value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для примера</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112821Z" creationid="Марианна" creationdate="20200825T112821Z">
@@ -62381,16 +62421,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>количество Не-событий.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T101754Z" creationid="Марианна" creationdate="20211015T101754Z">
-        <seg>Non-events count.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101905Z" creationid="Марианна" creationdate="20211015T101754Z">
+        <seg>Non-events count;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>количество Событий;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T101836Z" creationid="Марианна" creationdate="20211015T101836Z">
-        <seg>Events count.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101900Z" creationid="Марианна" creationdate="20211015T101836Z">
+        <seg>Events count;</seg>
       </tuv>
     </tu>
     <tu>
