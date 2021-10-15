@@ -62387,6 +62387,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>количество Событий;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T101836Z" creationid="Марианна" creationdate="20211015T101836Z">
+        <seg>Events count.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>конец</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201118T103115Z" creationid="Марианна" creationdate="20201118T103115Z">
