@@ -63043,6 +63043,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>рисунок 7), в котором отображается:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102755Z" creationid="Марианна" creationdate="20211015T102755Z">
+        <seg>Figure 7) which displays as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>рисунок 9).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T115836Z" creationid="Марианна" creationdate="20200716T115836Z">
