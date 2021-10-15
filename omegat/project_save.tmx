@@ -52843,6 +52843,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При последовательном нажатии будут применены варианты: по возрастанию, по убыванию, без сортировки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083308Z" creationid="Марианна" creationdate="20211015T083308Z">
+        <seg>The following options will be applied after repeated pressing: in ascending order, in descending order, without sorting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При правом соединении (SQL-аналог: &lt;x1/&gt;RIGHT JOIN&lt;x2/&gt;, правой таблицей является присоединяемая таблица) главная и присоединяемая таблицы связываются по ключевым полям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201110T125625Z" creationid="Марианна" creationdate="20201110T125625Z">
@@ -53215,6 +53223,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T053425Z" creationid="Марианна" creationdate="20201222T053425Z">
         <seg>In this case, the "Number of restarts" parameter is ignored.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом порядок будет указан цифрой в заголовке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083609Z" creationid="Марианна" creationdate="20211015T083609Z">
+        <seg>In this case, a figure in the caption will be used to specify the order.</seg>
       </tuv>
     </tu>
     <tu>
