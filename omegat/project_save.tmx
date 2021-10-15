@@ -56895,6 +56895,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список входных столбцов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103136Z" creationid="Марианна" creationdate="20211015T103136Z">
+        <seg>List of Input Columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список входных/выходных полей/переменных не изменяется (новые поля не добавляются).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T052746Z" creationid="Марианна" creationdate="20211003T052746Z">
@@ -57435,6 +57443,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T145715Z" creationid="Марианна" creationdate="20201111T145715Z">
         <seg>Status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Статус поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103146Z" creationid="Марианна" creationdate="20211015T103146Z">
+        <seg>Field status:</seg>
       </tuv>
     </tu>
     <tu>
