@@ -35528,6 +35528,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Диаграмма IV может отображать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103112Z" creationid="Марианна" creationdate="20211015T103112Z">
+        <seg>Chart IV can displays as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Диаграмма визуально отображает зависимость значений одного поля от другого.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T143859Z" creationid="Марианна" creationdate="20211007T143859Z">
