@@ -45844,8 +45844,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Начальные классы представлены в виде одного варианта отображения — диаграммы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T103816Z" creationid="Марианна" creationdate="20211015T103816Z">
-        <seg>The fine classes are represented in the form of one display option - a chart.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104110Z" creationid="Марианна" creationdate="20211015T103816Z">
+        <seg>The fine classes are displayed in the form of one display option - a chart.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63223,6 +63223,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T113602Z" creationid="Марианна" creationdate="20211005T113602Z">
         <seg>Figure 3):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 4) / диаграммы IV.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104101Z" creationid="Марианна" creationdate="20211015T104101Z">
+        <seg>Figure 4) / chart IV.</seg>
       </tuv>
     </tu>
     <tu>
