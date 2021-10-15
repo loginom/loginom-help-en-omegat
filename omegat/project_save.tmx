@@ -13877,6 +13877,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Инф.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104420Z" creationid="Марианна" creationdate="20211015T104420Z">
+        <seg>&lt;x1/&gt;Inf.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Информации о модели&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T225607Z" creationid="Марианна" creationdate="20211010T225607Z">
@@ -14593,6 +14601,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133920Z" creationid="Марианна" creationdate="20201012T073959Z">
         <seg>&lt;x1/&gt;Kendall's Tau-b coefficient&lt;x2/&gt;: the rank correlation coefficient that is used to identify the quantitative relationship between variables if they can be ranked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент WoE&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104446Z" creationid="Марианна" creationdate="20211015T104446Z">
+        <seg>&lt;x1/&gt;WoE coefficient&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -30722,6 +30738,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В нижней части таблицы отображается сумма:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104235Z" creationid="Марианна" creationdate="20211015T104235Z">
+        <seg>The sum is displayed in the lower part of the table:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В области &lt;x1/&gt;Доступные поля&lt;x2/&gt; помимо полей входного набора данных всегда присутствует синтетическое поле &lt;x3/&gt;Количество&lt;x4/&gt;, оно может быть добавлено только в группу &lt;x5/&gt;Факты&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T060759Z" creationid="Марианна" creationdate="20201023T060759Z">
@@ -32308,6 +32332,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T130147Z" creationid="Марианна" creationdate="20211010T130147Z">
         <seg>The upper panel part contains the only histogram setting added to the general histogram settings on the &lt;x5/&gt;&lt;x6/&gt;Toolbar&lt;x7/&gt;&lt;x8/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вес доказательства</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104708Z" creationid="Марианна" creationdate="20211015T104708Z">
+        <seg>Weight of evidence</seg>
       </tuv>
     </tu>
     <tu>
@@ -41076,6 +41108,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Информационных индексов всех классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104407Z" creationid="Марианна" creationdate="20211015T104407Z">
+        <seg>Information values of all classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Информацию о конечных точках, операциях, URL, структуре REST-запросов и ответов можно получить по ссылке:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T142553Z" creationid="Марианна" creationdate="20210218T142553Z">
@@ -46014,6 +46054,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224804Z" creationid="Марианна" creationdate="20211011T224804Z">
         <seg>Non-event</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не-событий всех классов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104304Z" creationid="Марианна" creationdate="20211015T104304Z">
+        <seg>Non-events of all classes;</seg>
       </tuv>
     </tu>
     <tu>
@@ -56439,6 +56487,22 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Событий всех классов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104253Z" creationid="Марианна" creationdate="20211015T104253Z">
+        <seg>Events of all classes;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Событий и Не-событий всех классов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104318Z" creationid="Марианна" creationdate="20211015T104318Z">
+        <seg>Events and non-events of all classes;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>События</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T102944Z" creationid="Марианна" creationdate="20211015T102944Z">
@@ -62575,6 +62639,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T112808Z" creationid="Марианна" creationdate="20200825T112808Z">
         <seg>variable name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>индекс&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104415Z" creationid="Марианна" creationdate="20211015T104415Z">
+        <seg>value&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
