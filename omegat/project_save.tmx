@@ -61691,6 +61691,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>борьба с выбросами и экстремальными значениями — формирование меток интервала квантования при дискретизации непрерывного поля или объединение редких уникальных значений в одну категорию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T100140Z" creationid="Марианна" creationdate="20211015T100140Z">
+        <seg>The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>будет заменено на СтрокаЗамены.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T091028Z" creationid="Марианна" creationdate="20210407T091028Z">
@@ -61863,6 +61871,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210304T134458Z" creationid="Марианна" creationdate="20210217T112405Z">
         <seg>The fields/variables that define the request structure and web service method response are set in the input and output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>восстановление пропусков, когда пропуски образуют отдельную метку интервала квантования или объединяются с соседним, близким по значению &lt;x1/&gt;WoE-индекса&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T100022Z" creationid="Марианна" creationdate="20211015T100022Z">
+        <seg>Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the  &lt;x1/&gt;WoE coefficient&lt;x2/&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63023,6 +63039,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T170344Z" creationid="Марианна" creationdate="20201111T170344Z">
         <seg>contains</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>сокращение размерности данных за счет исключения признаков с низкой значимостью, снижения разнообразия значений признаков;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T095920Z" creationid="Марианна" creationdate="20211015T095920Z">
+        <seg>Reduction of data dimensionality by excluding the indicators with low significance, by decreasing variety of indicator values.</seg>
       </tuv>
     </tu>
     <tu>
