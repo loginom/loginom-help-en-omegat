@@ -6868,6 +6868,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Конечные классы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T095530Z" creationid="Марианна" creationdate="20211015T095530Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Coarse Classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Консоль</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201029T053659Z" creationid="Марианна" creationdate="20201029T053659Z">
@@ -32372,6 +32380,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211013T093202Z" creationid="Марианна" creationdate="20211013T093202Z">
         <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; visualizer is designated for view of different &lt;x3/&gt;statistical indicators&lt;x4/&gt; by each data set field, and it represents the table in which the data set fields names are located in rows and names of statistical indicators are located in columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Визуализатор Конечные классы предназначен для следующих задач:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T095542Z" creationid="Марианна" creationdate="20211015T095542Z">
+        <seg>The Coarse Classes handler enables to solve the following problems:</seg>
       </tuv>
     </tu>
     <tu>
@@ -62679,6 +62695,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T150041Z" creationid="Марианна" creationdate="20201111T150041Z">
         <seg>constant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>преобразование непрерывных и дискретных входных полей, используемых для построения моделей &lt;x1/&gt;бинарной классификации&lt;x2/&gt;, путем &lt;x3/&gt;квантования&lt;x4/&gt; на основе метода совокупности доказательств или &lt;x5/&gt;WoE-анализа&lt;x6/&gt; (weights of evidence, WoE);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T095848Z" creationid="Марианна" creationdate="20211015T095848Z">
+        <seg>Conversion of the continuous and discrete input fields used for training of the models related to the &lt;x1/&gt;binary classification&lt;x2/&gt; by means of the &lt;x3/&gt;binning&lt;x4/&gt; based on totality-of-evidence approach or  &lt;x5/&gt;WoE analysis&lt;x6/&gt; (weights of evidence, WoE).</seg>
       </tuv>
     </tu>
     <tu>
