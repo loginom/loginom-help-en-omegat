@@ -16437,6 +16437,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область конечных классов&lt;x2/&gt; можно представить в виде &lt;x3/&gt;таблицы&lt;x4/&gt; &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Показать таблицу конечных классов&lt;x8/&gt; &lt;x9/&gt;(Alt+One&lt;x10/&gt;) или в виде &lt;x11/&gt;диаграмм&lt;x12/&gt; &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Показать диаграммы конечных классов&lt;x16/&gt; (&lt;x17/&gt;Alt+Two&lt;x18/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103657Z" creationid="Марианна" creationdate="20211015T103657Z">
+        <seg>&lt;x1/&gt;Area of coarse classes&lt;x2/&gt; can be represented in the &lt;x3/&gt;table&lt;x4/&gt; form - &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Show coarse class table&lt;x8/&gt; &lt;x9/&gt;(Alt+One&lt;x10/&gt;) or in the form of &lt;x11/&gt;charts - &lt;x12/&gt; &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Show coarse class charts&lt;x16/&gt; (&lt;x17/&gt;Alt+Two&lt;x18/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область конечных классов&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T100348Z" creationid="Марианна" creationdate="20211015T100348Z">
