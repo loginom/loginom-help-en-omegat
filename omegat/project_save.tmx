@@ -32392,6 +32392,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор включает в себя:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T100214Z" creationid="Марианна" creationdate="20211015T100214Z">
+        <seg>The visualizer includes the following items:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализатор разделен на 3 области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224402Z" creationid="Марианна" creationdate="20211011T224402Z">
@@ -63191,6 +63199,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T043455Z" creationid="Марианна" creationdate="20211001T043455Z">
         <seg>inherited in the result of the derived node creation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>упрощение описания исследуемых объектов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T100149Z" creationid="Марианна" creationdate="20211015T100149Z">
+        <seg>Simplification of description of the objects under study.</seg>
       </tuv>
     </tu>
     <tu>
