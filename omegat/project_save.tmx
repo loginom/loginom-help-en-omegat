@@ -33696,6 +33696,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Всего</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104732Z" creationid="Марианна" creationdate="20211015T104732Z">
+        <seg>Total</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Всего &lt;x1/&gt;примеров&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201217T204747Z" creationid="Марианна" creationdate="20201217T204747Z">
@@ -37674,6 +37682,14 @@ DESC period</seg>
         <seg>Долю;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T103838Z" creationid="Марианна" creationdate="20211015T103838Z">
+        <seg>Rate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доля</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104724Z" creationid="Марианна" creationdate="20211015T104724Z">
         <seg>Rate</seg>
       </tuv>
     </tu>
@@ -46062,6 +46078,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T104304Z" creationid="Марианна" creationdate="20211015T104304Z">
         <seg>Non-events of all classes;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Не-события</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104751Z" creationid="Марианна" creationdate="20211015T104751Z">
+        <seg>Non-events</seg>
       </tuv>
     </tu>
     <tu>
