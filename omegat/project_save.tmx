@@ -12189,6 +12189,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Гистограмма&lt;x2/&gt; &lt;x3/&gt;Гистограмма&lt;x4/&gt; — операция, открывающая детализированное окно с расширенными настройками гистограммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T090207Z" creationid="Марианна" creationdate="20211015T090207Z">
+        <seg>&lt;x1/&gt;Histogram&lt;x2/&gt; &lt;x3/&gt;Histogram&lt;x4/&gt;: the operation that enables to open the detailed window with advanced histogram settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Гистограмма&lt;x2/&gt; Гистограмма;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T201153Z" creationid="Марианна" creationdate="20211011T201153Z">
@@ -18537,6 +18545,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порядковые статистики&lt;x2/&gt; &lt;x3/&gt;Порядковые статистики&lt;x4/&gt; — подсчитываются порядковые статистики;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T090144Z" creationid="Марианна" creationdate="20211015T090144Z">
+        <seg>&lt;x1/&gt;Order statistics&lt;x2/&gt; &lt;x3/&gt;Order statistics&lt;x4/&gt;: the order statistics are calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порядок AR части&lt;x2/&gt; — задает порядок (р) авторегрессионной части.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T072518Z" creationid="Марианна" creationdate="20201208T072032Z">
@@ -19333,6 +19349,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T093530Z" creationid="Марианна" creationdate="20210930T093530Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The node name is set when configuring &lt;x3/&gt;access modifier&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; количество записей набора данных, к которому применяется данный визуализатор, можно узнать в графе &lt;x3/&gt;Кол-во строк данных&lt;x4/&gt;, расположенной в правой части панели инструментов слева от кнопки &lt;x5/&gt;Гистограмма&lt;x6/&gt; &lt;x7/&gt;Гистограмма&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T090520Z" creationid="Марианна" creationdate="20211015T090520Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is possible to define the number of records of the data set to which this visualizer is applied in &lt;x3/&gt;Row count of data&lt;x4/&gt; column located in the right toolbar part, to the left from the &lt;x5/&gt;Histogram&lt;x6/&gt; &lt;x7/&gt;Histogram&lt;x8/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
