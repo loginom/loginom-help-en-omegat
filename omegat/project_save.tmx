@@ -15797,6 +15797,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка показателей&lt;x2/&gt; &lt;x3/&gt;Настройка показателей…&lt;x4/&gt; — выбор статистических показателей;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T090041Z" creationid="Марианна" creationdate="20211015T090041Z">
+        <seg>&lt;x1/&gt;Configure indicators&lt;x2/&gt; &lt;x3/&gt;Configure indicators…&lt;x4/&gt;: selection of the statistical indicators.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка полей&lt;x2/&gt; &lt;x3/&gt;Настройка полей…&lt;x4/&gt; — выбор полей набора данных, для которых будут подсчитаны статистические показатели;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T090016Z" creationid="Марианна" creationdate="20211015T090016Z">
@@ -22354,6 +22362,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T074036Z" creationid="Марианна" creationdate="20200716T074016Z">
         <seg>&lt;x1/&gt;"ABC Analysis" Supernode Nodes&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Уникальные значения&lt;x2/&gt; &lt;x3/&gt;Уникальные значения&lt;x4/&gt; — подсчитывается количество уникальных значений;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T090102Z" creationid="Марианна" creationdate="20211015T090102Z">
+        <seg>&lt;x1/&gt;Unique values&lt;x2/&gt; &lt;x3/&gt;Unique values&lt;x4/&gt;: the number of unique values is calculated.</seg>
       </tuv>
     </tu>
     <tu>
