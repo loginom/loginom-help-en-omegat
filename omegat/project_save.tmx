@@ -42625,8 +42625,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Конечные классы отображаются в виде таблицы или диаграммы WoE (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T104029Z" creationid="Марианна" creationdate="20211015T104029Z">
-        <seg>The coarse classes are displayed in the form of a table of WoE chart (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104204Z" creationid="Марианна" creationdate="20211015T104029Z">
+        <seg>The coarse classes are displayed in the form of a table or WoE chart (refer to</seg>
       </tuv>
     </tu>
     <tu>
