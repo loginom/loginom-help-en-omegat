@@ -38015,6 +38015,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если выделен кластер &lt;x1/&gt;Итого&lt;x2/&gt;, тогда набор данных детализации совпадает со входным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T094543Z" creationid="Марианна" creationdate="20211015T094543Z">
+        <seg>If &lt;x1/&gt;Total&lt;x2/&gt; cluster has been selected, the detailing data set matches the input one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если выражение ложно, то сообщение об ошибке выводится в консоль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T160531Z" creationid="Марианна" creationdate="20201029T055507Z">
