@@ -15485,6 +15485,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;На первую&lt;x2/&gt; — перейти на первую запись;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084146Z" creationid="Марианна" creationdate="20211015T084146Z">
+        <seg>&lt;x1/&gt;На первую&lt;x2/&gt;: go to the first record.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;На первую&lt;x2/&gt; — перейти на первую страницу;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T083850Z" creationid="Марианна" creationdate="20211015T083850Z">
@@ -15493,10 +15501,26 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;На последнюю&lt;x2/&gt; — перейти на последнюю запись.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084208Z" creationid="Марианна" creationdate="20211015T084208Z">
+        <seg>&lt;x1/&gt;To last&lt;x2/&gt;: go to the last record.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;На последнюю&lt;x2/&gt; — перейти на последнюю страницу.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T083917Z" creationid="Марианна" creationdate="20211015T083917Z">
         <seg>&lt;x1/&gt;To last&lt;x2/&gt;: go to the last page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На предыдущую&lt;x2/&gt; — перейти на предыдущую запись;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084111Z" creationid="Марианна" creationdate="20211015T084111Z">
+        <seg>&lt;x1/&gt;To previous&lt;x2/&gt;: go to the previous record.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15529,6 +15553,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T122412Z" creationid="Марианна" creationdate="20210111T122319Z">
         <seg>&lt;x1/&gt;On 1C:Enterprise server&lt;x2/&gt;: connection by specifying the cluster and database names:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;На следующую&lt;x2/&gt; — перейти на следующую запись;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084132Z" creationid="Марианна" creationdate="20211015T084132Z">
+        <seg>&lt;x1/&gt;To next&lt;x2/&gt;: go to the next record.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16215,8 +16247,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Номер строки&lt;x2/&gt; &lt;x3/&gt;Номер строки&lt;x4/&gt; — показать/скрыть сквозной номер строки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T162954Z" creationid="Марианна" creationdate="20211014T162954Z">
-        <seg>&lt;x1/&gt;Row number&lt;x2/&gt; &lt;x3/&gt;Row number&lt;x4/&gt;: show/hide continuous row number;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084039Z" creationid="Марианна" creationdate="20211014T162954Z">
+        <seg>&lt;x1/&gt;Row number&lt;x2/&gt; &lt;x3/&gt;Row number&lt;x4/&gt;: show/hide continuous row number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -40680,6 +40712,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211002T200802Z" creationid="Марианна" creationdate="20211002T200802Z">
         <seg>The interface is represented by a table with the following columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Интерфейс представления статистики</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084239Z" creationid="Марианна" creationdate="20211015T084239Z">
+        <seg>Statistics Representation Interface</seg>
       </tuv>
     </tu>
     <tu>
