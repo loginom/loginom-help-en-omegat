@@ -22126,6 +22126,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Транспонировать&lt;x2/&gt; &lt;x3/&gt;Транспонировать&lt;x4/&gt; — переворот таблицы, при котором наименования полей отображаются в столбцах, а статистические показатели — в строках;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T084840Z" creationid="Марианна" creationdate="20211015T084840Z">
+        <seg>&lt;x1/&gt;Transpose&lt;x2/&gt; &lt;x3/&gt;Transpose&lt;x4/&gt;: turn of the table when the fields names are displayed in columns, and the statistical indicators are displayed in rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Транспонируемые&lt;x2/&gt; &lt;x3/&gt;Транспонируемые&lt;x4/&gt; — на основе этих полей будут сформированы 4 новых столбца: &lt;x5/&gt;Имена&lt;x6/&gt;, &lt;x7/&gt;Метки&lt;x8/&gt;, &lt;x9/&gt;Значения&lt;x10/&gt;, &lt;x11/&gt;Типы данных&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T070514Z" creationid="Марианна" creationdate="20201111T152007Z">
