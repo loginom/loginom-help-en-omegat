@@ -35386,8 +35386,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Детализация позволяет узнать из каких строк исходного набора данных состоит тот или иной кластер.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T094911Z" creationid="Марианна" creationdate="20211015T094911Z">
-        <seg>Detailing enables to find out from which rows of the source data set this or that cluster consists.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T095414Z" creationid="Марианна" creationdate="20211015T094911Z">
+        <seg>Detailing enables to find out what rows of the source data set are included into this or that cluster.</seg>
       </tuv>
     </tu>
     <tu>
