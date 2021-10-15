@@ -12565,6 +12565,30 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма WoE.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102929Z" creationid="Марианна" creationdate="20211015T102929Z">
+        <seg>&lt;x1/&gt;WoE chart.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма Доля.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102845Z" creationid="Марианна" creationdate="20211015T102845Z">
+        <seg>&lt;x1/&gt;Rate Chart.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма Количество.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102823Z" creationid="Марианна" creationdate="20211015T102823Z">
+        <seg>&lt;x1/&gt;Count Chart.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065625Z" creationid="Марианна" creationdate="20200812T065625Z">
@@ -32168,6 +32192,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Верхняя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102948Z" creationid="Марианна" creationdate="20211015T102948Z">
+        <seg>Upper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Верхняя граница</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210218T222643Z" creationid="Марианна" creationdate="20210218T222643Z">
@@ -35488,6 +35520,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Диаграмма</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102938Z" creationid="Марианна" creationdate="20211015T102938Z">
+        <seg>Chart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Диаграмма визуально отображает зависимость значений одного поля от другого.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T143859Z" creationid="Марианна" creationdate="20211007T143859Z">
@@ -35500,6 +35540,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211012T145219Z" creationid="Марианна" creationdate="20211012T145219Z">
         <seg>Box plot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Диаграммы Количество и Доля переключаются между собой кнопками &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102920Z" creationid="Марианна" creationdate="20211015T102920Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; buttons are used to switch Count and Rate charts.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37539,6 +37587,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T221420Z" creationid="Марианна" creationdate="20201224T085545Z">
         <seg>It must be integer&gt;= 1 (by default = 10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доля (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103034Z" creationid="Марианна" creationdate="20211015T103034Z">
+        <seg>Rate (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -42063,6 +42119,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103050Z" creationid="Марианна" creationdate="20211015T103050Z">
+        <seg>Count (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество - аргумент целого типа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T194944Z" creationid="Марианна" creationdate="20210328T205245Z">
@@ -46166,6 +46230,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210716T105711Z" creationid="Марианна" creationdate="20210629T204838Z">
         <seg>Lower bound — lower bound of the highest bin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нижняя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102956Z" creationid="Марианна" creationdate="20211015T102956Z">
+        <seg>Lower</seg>
       </tuv>
     </tu>
     <tu>
@@ -56263,6 +56335,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>События</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T102944Z" creationid="Марианна" creationdate="20211015T102944Z">
+        <seg>Events</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Совместимость</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210111T055455Z" creationid="Марианна" creationdate="20210111T055455Z">
@@ -58089,6 +58169,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224026Z" creationid="Марианна" creationdate="20211011T224026Z">
         <seg>The table consists of two fields:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таблица состоит из следующих полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103022Z" creationid="Марианна" creationdate="20211015T103022Z">
+        <seg>The table consists of the following fields:</seg>
       </tuv>
     </tu>
     <tu>
@@ -63035,6 +63123,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>рисунок 5);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103042Z" creationid="Марианна" creationdate="20211015T103042Z">
+        <seg>Figure 5);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>рисунок 6).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110715Z" creationid="Марианна" creationdate="20200717T110715Z">
@@ -63367,6 +63463,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200813T094306Z" creationid="Марианна" creationdate="20200813T094306Z">
         <seg>•/-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>№</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103008Z" creationid="Марианна" creationdate="20211015T103008Z">
+        <seg>№</seg>
       </tuv>
     </tu>
     <tu>
