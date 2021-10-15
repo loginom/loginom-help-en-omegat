@@ -8790,6 +8790,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;IV (информационный индекс)&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103910Z" creationid="Марианна" creationdate="20211015T103910Z">
+        <seg>&lt;x1/&gt;IV (information value)&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;InputTables[N]&lt;x2/&gt;, где N — номер (индекс) порта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T143805Z" creationid="Марианна" creationdate="20201102T143805Z">
@@ -9922,6 +9930,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154718Z" creationid="Марианна" creationdate="20210401T154718Z">
         <seg>&lt;x1/&gt;Week(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;WoE (вес доказательства)&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103854Z" creationid="Марианна" creationdate="20211015T103854Z">
+        <seg>&lt;x1/&gt;WoE (weight of evidence)&lt;x2/&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12585,6 +12601,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T102823Z" creationid="Марианна" creationdate="20211015T102823Z">
         <seg>&lt;x1/&gt;Count Chart.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма начальных классов.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103939Z" creationid="Марианна" creationdate="20211015T103939Z">
+        <seg>&lt;x1/&gt;Fine classes chart.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21330,6 +21354,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T073745Z" creationid="Марианна" creationdate="20200924T073745Z">
         <seg>&lt;x1/&gt;Condition branch list&lt;x2/&gt; contains options of the further workflow execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Список входных столбцов.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103727Z" creationid="Марианна" creationdate="20211015T103727Z">
+        <seg>&lt;x1/&gt;List of input columns.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -37607,6 +37639,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Долю;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103838Z" creationid="Марианна" creationdate="20211015T103838Z">
+        <seg>Rate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доля (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T103034Z" creationid="Марианна" creationdate="20211015T103034Z">
@@ -42583,6 +42623,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Конечные классы отображаются в виде таблицы или диаграммы WoE (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T104029Z" creationid="Марианна" creationdate="20211015T104029Z">
+        <seg>The coarse classes are displayed in the form of a table of WoE chart (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Константное;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210802T102536Z" creationid="Марианна" creationdate="20210218T223434Z">
@@ -43479,6 +43527,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210601T201413Z" creationid="Марианна" creationdate="20210601T201413Z">
         <seg>Bin caption.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Метка столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103749Z" creationid="Марианна" creationdate="20211015T103749Z">
+        <seg>Column caption.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45786,6 +45842,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Начальные классы представлены в виде одного варианта отображения — диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103816Z" creationid="Марианна" creationdate="20211015T103816Z">
+        <seg>The fine classes are represented in the form of one display option - a chart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Начиная с версии Firebird 2.5 и выше.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210121T090308Z" creationid="Марианна" creationdate="20210121T090308Z">
@@ -46634,10 +46698,26 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область конечных классов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103946Z" creationid="Марианна" creationdate="20211015T103946Z">
+        <seg>Area of coarse classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область настройки параметров квантования</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T195520Z" creationid="Марианна" creationdate="20210629T195520Z">
         <seg>Area of Binning Parameters Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область начальных классов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T103738Z" creationid="Марианна" creationdate="20211015T103738Z">
+        <seg>Area of fine classes</seg>
       </tuv>
     </tu>
     <tu>
