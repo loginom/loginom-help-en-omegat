@@ -6398,8 +6398,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сортировка&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки сортировки&lt;x6/&gt; данных по столбцам;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214521Z" creationid="Марианна" creationdate="20211011T214521Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt;: open &lt;x5/&gt;sorting configuration window&lt;x6/&gt; of data by columns;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082412Z" creationid="Марианна" creationdate="20211011T214521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt;: open data &lt;x5/&gt;sorting configuration window&lt;x6/&gt; by columns;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8726,6 +8726,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;HTML&lt;x2/&gt; — сохранить текущее представление в формате HTML.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082946Z" creationid="Марианна" creationdate="20211015T082946Z">
+        <seg>&lt;x1/&gt;HTML&lt;x2/&gt;: save the current view in the HTML format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Home + Alt&lt;x2/&gt; — перейти на первую строку таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T215520Z" creationid="Марианна" creationdate="20211011T215520Z">
@@ -9906,6 +9914,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210401T154718Z" creationid="Марианна" creationdate="20210401T154718Z">
         <seg>&lt;x1/&gt;Week(Date)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;XLS&lt;x2/&gt; — сохранить текущее представление в формате Excel.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082857Z" creationid="Марианна" creationdate="20211015T082857Z">
+        <seg>&lt;x1/&gt;XLS&lt;x2/&gt;: save the current view in the Excel format.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18065,6 +18081,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поиск&lt;x2/&gt; — произвести поиск следующего вхождения значения, указанного в строке поиска.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082730Z" creationid="Марианна" creationdate="20211015T082730Z">
+        <seg>&lt;x1/&gt;Search&lt;x2/&gt;: search for the next occurrence of the value specified in the search string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показатели качества модели и сезонные индексы&lt;x2/&gt; &lt;x3/&gt;Показатели качества модели и сезонные индексы&lt;x4/&gt; — справочная таблица, составляется только при использовании метода &lt;x5/&gt;с учетом временных колебаний и сезонности опорных данных&lt;x6/&gt;, содержит поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201126T104426Z" creationid="Марианна" creationdate="20201126T104317Z">
@@ -20982,6 +21006,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сортировка&lt;x2/&gt; &lt;x3/&gt;Сортировка&lt;x4/&gt; — открыть окно для настройки &lt;x5/&gt;сортировки&lt;x6/&gt; данных по столбцам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082359Z" creationid="Марианна" creationdate="20211015T082359Z">
+        <seg>&lt;x1/&gt;Sort&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt;: open data &lt;x5/&gt;sorting&lt;x6/&gt; configuration window by columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сортировка&lt;x2/&gt; &lt;x3/&gt;Сортировка&lt;x4/&gt; — сортировка таблицы по полю исходного значения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T091445Z" creationid="Марианна" creationdate="20201117T091445Z">
@@ -22602,6 +22634,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T190020Z" creationid="Марианна" creationdate="20200810T190020Z">
         <seg>&lt;x1/&gt;Format&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Формат&lt;x2/&gt; &lt;x3/&gt;Формат&lt;x4/&gt; — открыть окно для настройки &lt;x5/&gt;формата&lt;x6/&gt; отображения данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082148Z" creationid="Марианна" creationdate="20211015T082148Z">
+        <seg>&lt;x1/&gt;Format&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format&lt;x6/&gt; configuration window of data display.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35510,6 +35550,14 @@ DESC period</seg>
 |Enter in the service mode|It checks whether it is permitted to enter in the service mode (for the server start)|
 |File storage full access|It displays whether a user has full access to the &lt;x17/&gt;file storage&lt;x18/&gt;, otherwise, only to the personal and &lt;x19/&gt;shared folders&lt;x20/&gt;|
 |Block account|It displays whether a user is blocked in the system|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для быстрой сортировки по столбцу нужно нажать на его заголовок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T083058Z" creationid="Марианна" creationdate="20211015T083058Z">
+        <seg>To perform quick sorting by column, it is required to press its caption.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50336,6 +50384,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T175346Z" creationid="Марианна" creationdate="20211005T175346Z">
         <seg>Search</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поиск можно &lt;x3/&gt;настроить&lt;x4/&gt;, нажав кнопку &lt;x5/&gt;Раскрыть&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211015T082829Z" creationid="Марианна" creationdate="20211015T082829Z">
+        <seg>It is possible to &lt;x3/&gt;configure&lt;x4/&gt; search by pressing &lt;x5/&gt;Open&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
