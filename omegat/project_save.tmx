@@ -11917,6 +11917,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выделение ячеек&lt;x2/&gt; — выделить ячейки таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T163716Z" creationid="Марианна" creationdate="20211017T163716Z">
+        <seg>&lt;x1/&gt;Select cells&lt;x2/&gt;: select the table cells.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вызов быстрого просмотра.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T100751Z" creationid="Марианна" creationdate="20200717T100751Z">
@@ -15541,6 +15549,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Множественное&lt;x2/&gt; — выделяет сразу несколько ячеек, для множественного выделения необходимо при клике зажать клавишу %kbd Ctrl %, которая добавляет в выделение ячейку или удаляет ячейку из него.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T164204Z" creationid="Марианна" creationdate="20211017T164204Z">
+        <seg>&lt;x1/&gt;Multiple&lt;x2/&gt;selects several cells at once. To use the multiple selection, it is required to hold down %kbd Ctrl % key that enables to add the cell to the selected ones or delete the cell from them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Множество&lt;x2/&gt; — в этом столбце отображается тип множества.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224120Z" creationid="Марианна" creationdate="20211011T224120Z">
@@ -16917,6 +16933,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T151232Z" creationid="Марианна" creationdate="20211017T151232Z">
         <seg>&lt;x1/&gt;Single sorting&lt;x2/&gt;: sort the column by the current &lt;x3/&gt;Indicator&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Одиночное&lt;x2/&gt; — сбрасывает все существующее выделение и выделяет только текущую ячейку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T163828Z" creationid="Марианна" creationdate="20211017T163828Z">
+        <seg>&lt;x1/&gt;Single&lt;x2/&gt; resets all current selection and selects only the current cell.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34468,6 +34492,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200718T141501Z" creationid="Марианна" creationdate="20200718T141501Z">
         <seg>Selection of the blocks solving independent subtasks allows for their repeated application in the similar tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Выделение можно перемещать с помощью кнопок клавиатуры %kbd Up %, %kbd Down %, %kbd Left %, %kbd Right %.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T163914Z" creationid="Марианна" creationdate="20211017T163914Z">
+        <seg>Selection can be moved using the following keyboard keys: %kbd Up %, %kbd Down %, %kbd Left %, %kbd Right %.</seg>
       </tuv>
     </tu>
     <tu>
