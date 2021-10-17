@@ -53831,6 +53831,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении на точку серии появляется подсказка со значением.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225815Z" creationid="Марианна" creationdate="20211017T225815Z">
+        <seg>When hovering cursor over the series point, the tooltip with the value appears.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При наведении указателя мыши на эту область выводится подсказка о количестве отображаемых полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211014T112545Z" creationid="Марианна" creationdate="20211014T112545Z">
