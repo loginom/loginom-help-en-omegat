@@ -9240,6 +9240,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Negative predictive value (NPV)&lt;x2/&gt; — доля верно классифицированных отрицательных примеров от общего числа примеров классифицированных как отрицательные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214832Z" creationid="Марианна" creationdate="20211017T214832Z">
+        <seg>&lt;x1/&gt;Negative predictive value (NPV)&lt;x2/&gt;: rate of correctly classified negative cases based on the total number of the cases classified as the negative ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Now()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T215734Z" creationid="Марианна" creationdate="20210328T215734Z">
@@ -9404,6 +9412,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T093645Z" creationid="Марианна" creationdate="20210930T093645Z">
         <seg>&lt;x1/&gt;PortName&lt;x2/&gt;: port name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Positive predictive value (PPV)&lt;x2/&gt; — доля верно классифицированных положительных примеров от общего числа примеров классифицированных как положительные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214630Z" creationid="Марианна" creationdate="20211017T214630Z">
+        <seg>&lt;x1/&gt;Positive predictive value (PPV)&lt;x2/&gt;: rate of correctly classified positive cases based on the total number of the cases classified as the positive ones.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24028,6 +24044,16 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T224737Z" creationid="Марианна" creationdate="20210928T224737Z">
         <seg>&lt;x11/&gt;design tool&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;PPV&lt;x4/&gt; называется &lt;x5/&gt;Точностью положительного прогноза&lt;x6/&gt; классификации.&lt;x7/&gt;
+$$\displaystyle\mathsf{PPV=\frac{TP}{TP+FP}}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214743Z" creationid="Марианна" creationdate="20211017T214743Z">
+        <seg>&lt;x3/&gt;PPV&lt;x4/&gt; is called &lt;x5/&gt;Positive predictive value&lt;x6/&gt; of classification.&lt;x7/&gt;
+$$\displaystyle\mathsf{PPV=\frac{TP}{TP+FP}}$$.</seg>
       </tuv>
     </tu>
     <tu>
