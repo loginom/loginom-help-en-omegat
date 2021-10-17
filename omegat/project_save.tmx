@@ -9344,6 +9344,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Overall precision rate (OPR)&lt;x2/&gt; — является &lt;x3/&gt;средним арифметическим&lt;x4/&gt; между &lt;x5/&gt;Точностью положительного прогноза&lt;x6/&gt; и &lt;x7/&gt;Точностью отрицательного прогноза&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215955Z" creationid="Марианна" creationdate="20211017T215955Z">
+        <seg>&lt;x1/&gt;Overall precision rate (OPR)&lt;x2/&gt; means the &lt;x3/&gt;arithmetical mean&lt;x4/&gt; of &lt;x5/&gt;Positive predictive value&lt;x6/&gt; and &lt;x7/&gt;Negative predictive value&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;P-value&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144747Z" creationid="Марианна" creationdate="20201207T144747Z">
