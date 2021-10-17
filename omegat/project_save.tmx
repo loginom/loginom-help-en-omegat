@@ -19105,6 +19105,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пример&lt;x2/&gt; — позволяет ввести пример значения, чтобы проверить корректность настроенного форматирования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T111023Z" creationid="Марианна" creationdate="20211017T111023Z">
+        <seg>&lt;x1/&gt;Example&lt;x2/&gt; enables to enter the value example to check correctness of the configured formatting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примеры написания строк подключения к разным источникам данных&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T203324Z" creationid="Марианна" creationdate="20210203T063803Z">
@@ -31960,6 +31968,14 @@ Several control elements are located over the table fields:</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом же окне выводится текущее настроенное отображение:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T110800Z" creationid="Марианна" creationdate="20211017T110800Z">
+        <seg>The current configured view is also shown in this window:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом подразделе происходит создание пользователей, их редактирование, распределение прав, выбор способа их аутентификации и удаление.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T173736Z" creationid="Марианна" creationdate="20210919T173736Z">
@@ -41858,6 +41874,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201019T061809Z" creationid="Марианна" creationdate="20201019T061809Z">
         <seg>Variables can be added to the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>К примеру, можно добавить отображение какого-либо символа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T110732Z" creationid="Марианна" creationdate="20211017T110732Z">
+        <seg>For example, it is possible to add display of any character.</seg>
       </tuv>
     </tu>
     <tu>
