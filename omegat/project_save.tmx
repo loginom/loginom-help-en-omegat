@@ -1708,6 +1708,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102525Z" creationid="Марианна" creationdate="20211017T102525Z">
+        <seg>1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1):</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T205630Z" creationid="Марианна" creationdate="20211010T205630Z">
@@ -16869,6 +16877,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T211952Z" creationid="Марианна" creationdate="20210225T211952Z">
         <seg>&lt;x1/&gt;One request per input request row&lt;x2/&gt;: each row of the input table contains parameters of one request to the service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Окно форматирования&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102520Z" creationid="Марианна" creationdate="20211017T102520Z">
+        <seg>&lt;x1/&gt;Formatting window&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32820,6 +32836,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T213802Z" creationid="Марианна" creationdate="20211003T213802Z">
         <seg>It is possible to introduce the following changes of the data structure in the port:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Во вкладке &lt;x1/&gt;Факты&lt;x2/&gt; доступны следующие опции форматирования:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102614Z" creationid="Марианна" creationdate="20211017T102614Z">
+        <seg>The following formatting options are available in the &lt;x1/&gt;Measures&lt;x2/&gt; tab:</seg>
       </tuv>
     </tu>
     <tu>
@@ -50958,8 +50982,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Позволяет настроить формат отображения фактов и заголовков измерений в Кубе, выбрав нужный факт или заголовок в соответствующей вкладке в верхнем левом углу окна Форматирование (Рис.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T102113Z" creationid="Марианна" creationdate="20211017T102113Z">
-        <seg>It enables to set the format of </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102455Z" creationid="Марианна" creationdate="20211017T102113Z">
+        <seg>It enables to set the format of display of measures and captions of dimensions in the Cube by selecting the required measure or caption in the corresponding tab in the upper left corner of the Formatting window (Figure </seg>
       </tuv>
     </tu>
     <tu>
