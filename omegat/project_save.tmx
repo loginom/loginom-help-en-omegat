@@ -47454,6 +47454,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новый факт создается на основе существующих фактов и измерений при помощи ряда функций и производных переменных от значений измерений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T233033Z" creationid="Марианна" creationdate="20211017T233033Z">
+        <seg>The new measure is created on the basis of the existing measures and dimensions using some functions and derived variables from dimensions values:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новый\_шаблон - строка, на которую будет заменяться Старый шаблон;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T214138Z" creationid="Марианна" creationdate="20210407T092319Z">
