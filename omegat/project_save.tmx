@@ -38535,6 +38535,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если выделено несколько ячеек, то возможна смена текущего поля:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153509Z" creationid="Марианна" creationdate="20211017T153509Z">
+        <seg>If several cells are selected, the following change of the current field is possible:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если выражение ложно, то сообщение об ошибке выводится в консоль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T160531Z" creationid="Марианна" creationdate="20201029T055507Z">
@@ -42411,6 +42419,22 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T055645Z" creationid="Марианна" creationdate="20200918T100036Z">
         <seg>Switch button in the state of &lt;x3/&gt; &lt;x4/&gt; filter displays in the selection window only the fields that are not linked to any items yet, and in the common &lt;x5/&gt; &lt;x6/&gt; state it displays all fields for selection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопками %kbd Left %, %kbd Right %, если поля в колонках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153614Z" creationid="Марианна" creationdate="20211017T153614Z">
+        <seg>using %kbd Left %, %kbd Right % buttons if fields are in columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопками %kbd Up %, %kbd Down %, если поля в строках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153542Z" creationid="Марианна" creationdate="20211017T153542Z">
+        <seg>using %kbd Up %, %kbd Down % buttons if fields are in rows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54571,6 +54595,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T132017Z" creationid="Марианна" creationdate="20211010T132017Z">
         <seg>Note: If &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode is enabled and at the same time &lt;x3/&gt;Total&lt;x4/&gt; cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примечание: Можно выделять только ячейки в пределах одного поля и одновременно может быть выделено не более 7 ячеек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153744Z" creationid="Марианна" creationdate="20211017T153744Z">
+        <seg>Note: It is possible to select only the cells within one field. It is possible to select not more than 7 cells at the same time.</seg>
       </tuv>
     </tu>
     <tu>
