@@ -4228,6 +4228,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Визуализаторы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230615Z" creationid="Марианна" creationdate="20211017T230615Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Visualizers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Входной источник данных (таблица данных) — обязательный порт.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T213305Z" creationid="Марианна" creationdate="20201216T213305Z">
@@ -33214,6 +33222,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализаторы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230626Z" creationid="Марианна" creationdate="20211017T230626Z">
+        <seg>Visualizers:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Включает следующие группы параметров:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201227T194503Z" creationid="Марианна" creationdate="20201208T103440Z">
@@ -61027,6 +61043,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210416T210328Z" creationid="Марианна" creationdate="20210402T103645Z">
         <seg>Antecedent - logical expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Условия фильтрации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230531Z" creationid="Марианна" creationdate="20211017T230531Z">
+        <seg>Filtering Criteria</seg>
       </tuv>
     </tu>
     <tu>
