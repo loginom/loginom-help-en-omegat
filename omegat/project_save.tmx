@@ -12533,6 +12533,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Денежный знак&lt;x2/&gt; — позволяет добавить к отображаемому числу нужный знак.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T105032Z" creationid="Марианна" creationdate="20211017T105032Z">
+        <seg>&lt;x1/&gt;Currency&lt;x2/&gt; enables to add the required sign to the displayed digit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Денормализировать коэффициенты модели&lt;x2/&gt; — денормализация необходима для интерпретации результатов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102913Z" creationid="Марианна" creationdate="20201215T102913Z">
