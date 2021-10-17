@@ -32688,6 +32688,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Видимость столбца можно изменить с помощью кнопки &lt;x3/&gt;Показывать null столбец в гистограммах&lt;x4/&gt; &lt;x5/&gt;Показывать null столбец в гистограммах&lt;x6/&gt; на &lt;x7/&gt;&lt;x8/&gt;Панели инструментов&lt;x9/&gt;&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T154003Z" creationid="Марианна" creationdate="20211017T154003Z">
+        <seg>Column visibility can be changed using &lt;x3/&gt;Show null column in histograms &lt;x4/&gt; &lt;x5/&gt;Show null column in histograms &lt;x6/&gt; button on the &lt;x7/&gt;&lt;x8/&gt;Toolbar&lt;x9/&gt;&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Видимость узлов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102431Z" creationid="Марианна" creationdate="20200919T102431Z">
