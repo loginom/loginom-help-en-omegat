@@ -24186,6 +24186,16 @@ and &lt;x7/&gt;"Connections" interface&lt;x8/&gt;).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x9/&gt;OPR&lt;x10/&gt; называется &lt;x11/&gt;Усредненной точностью прогноза&lt;x12/&gt;.&lt;x13/&gt;
+$$\displaystyle\mathsf{OPR=\frac{PPV+NPV}{2}}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212744Z" creationid="Марианна" creationdate="20211017T212744Z">
+        <seg>&lt;x9/&gt;OPR&lt;x10/&gt; means the &lt;x11/&gt;Overall Precision Rate&lt;x12/&gt;.&lt;x13/&gt;
+$$\displaystyle\mathsf{OPR=\frac{PPV+NPV}{2}}$$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>A0 ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T125240Z" creationid="Марианна" creationdate="20210405T125240Z">
@@ -62641,6 +62651,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210822T173850Z" creationid="Марианна" creationdate="20210822T173324Z">
         <seg>It is a multidimensional Data Warehouse that enables to accumulate all the information required for analysis of the subject area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Является ошибкой &lt;x3/&gt;I рода&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T213013Z" creationid="Марианна" creationdate="20211017T213013Z">
+        <seg>It is &lt;x3/&gt;type I&lt;x4/&gt; error.</seg>
       </tuv>
     </tu>
     <tu>
