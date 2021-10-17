@@ -11965,6 +11965,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Выравнивание&lt;x2/&gt; — позволяет настроить выравнивание значений в ячейках:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102854Z" creationid="Марианна" creationdate="20211017T102854Z">
+        <seg>&lt;x1/&gt;Alignment&lt;x2/&gt; enables to configure alignment of values in cells:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Выражение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T192116Z" creationid="Марианна" creationdate="20200810T192116Z">
@@ -17625,6 +17633,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переключатель&lt;x2/&gt; &lt;x3/&gt;Форматирование&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T103006Z" creationid="Марианна" creationdate="20211017T103006Z">
+        <seg>&lt;x1/&gt;Switch&lt;x2/&gt; &lt;x3/&gt;Formatting&lt;x4/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная цикла&lt;x2/&gt; — переменная, которой в ходе работы цикла присваивается номер текущей итерации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133214Z" creationid="Марианна" creationdate="20200921T204645Z">
@@ -17913,6 +17929,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По горизонтали&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102913Z" creationid="Марианна" creationdate="20211017T102913Z">
+        <seg>&lt;x1/&gt;Horizontal alignment&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По дисперсии&lt;x2/&gt; — факторы отбираются по доле объясняемой дисперсии.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T155255Z" creationid="Марианна" creationdate="20201013T155255Z">
@@ -17945,10 +17969,26 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По левому краю&lt;x2/&gt; &lt;x3/&gt;По левому краю&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102926Z" creationid="Марианна" creationdate="20211017T102926Z">
+        <seg>&lt;x1/&gt;Align left&lt;x2/&gt; &lt;x3/&gt;Align left&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По номеру&lt;x2/&gt; — по порядковому номеру листа книги.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T183740Z" creationid="Марианна" creationdate="20200825T183719Z">
         <seg>&lt;x1/&gt;By number&lt;x2/&gt;: by the workbook sheet order number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;По правому краю&lt;x2/&gt; &lt;x3/&gt;По правому краю&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102940Z" creationid="Марианна" creationdate="20211017T102940Z">
+        <seg>&lt;x1/&gt;Align right&lt;x2/&gt; &lt;x3/&gt;Align right&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18005,6 +18045,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T204124Z" creationid="Марианна" creationdate="20210203T204124Z">
         <seg>In the case of &lt;x1/&gt;Default&lt;x2/&gt;, the FULL mode is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;По центру&lt;x2/&gt; &lt;x3/&gt;По центру&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102954Z" creationid="Марианна" creationdate="20211017T102954Z">
+        <seg>&lt;x1/&gt;Align center&lt;x2/&gt; &lt;x3/&gt;Align center&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23194,6 +23242,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T145323Z" creationid="Марианна" creationdate="20210919T145323Z">
         <seg>&lt;x1/&gt;Checkbox&lt;x2/&gt;: it is displayed in the field whether a user has rights to use a folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Число десятичных знаков&lt;x2/&gt; — количество отображаемых знаков после запятой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T103124Z" creationid="Марианна" creationdate="20211017T103124Z">
+        <seg>&lt;x1/&gt;Decimal place limit&lt;x2/&gt;: the number of displayed decimal places.</seg>
       </tuv>
     </tu>
     <tu>
