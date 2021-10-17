@@ -18097,6 +18097,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поддержка&lt;x2/&gt; — отношение количества строк данных в кластере к общему числу строк данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T145853Z" creationid="Марианна" creationdate="20211017T145853Z">
+        <seg>&lt;x1/&gt;Support&lt;x2/&gt;: the ratio of the data rows count in the cluster to the total count of data rows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Подключение ClickHouse&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T133100Z" creationid="Марианна" creationdate="20210208T133100Z">
