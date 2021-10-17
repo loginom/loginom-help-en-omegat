@@ -8694,6 +8694,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;False negative (FN)&lt;x2/&gt; — количество неверно классифицированных отрицательных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212552Z" creationid="Марианна" creationdate="20211017T212552Z">
+        <seg>&lt;x1/&gt;False negative (FN)&lt;x2/&gt;: the number of incorrectly classified negative cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;False positive (FP)&lt;x2/&gt; — количество неверно классифицированных положительных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212512Z" creationid="Марианна" creationdate="20211017T212512Z">
+        <seg>&lt;x1/&gt;False positive (FP)&lt;x2/&gt;: the number of incorrectly classified positive cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Find(Подстрока, Строка&lt;x2/&gt;, Порядок = 1&lt;x3/&gt;)&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T130144Z" creationid="Марианна" creationdate="20210406T130144Z">
@@ -9106,6 +9122,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183352Z" creationid="Марианна" creationdate="20200810T183352Z">
         <seg>&lt;x1/&gt;MS SQL&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Matthews correlation coefficient (MCC)&lt;x2/&gt; — &lt;x3/&gt;коэффициент корреляции Мэтьюса&lt;x4/&gt;.&lt;x5/&gt;
+$$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}}}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212621Z" creationid="Марианна" creationdate="20211017T212621Z">
+        <seg>&lt;x1/&gt;Matthews correlation coefficient (MCC)&lt;x2/&gt; — &lt;x3/&gt;Matthews correlation coefficient&lt;x4/&gt;.&lt;x5/&gt;
+$$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}}}$$.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9874,6 +9900,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210407T100334Z" creationid="Марианна" creationdate="20210407T100334Z">
         <seg>&lt;x1/&gt;TrimRight(Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;True negative (TN)&lt;x2/&gt; — количество верно классифицированных отрицательных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212432Z" creationid="Марианна" creationdate="20211017T212432Z">
+        <seg>&lt;x1/&gt;True negative (TN)&lt;x2/&gt;: the number of correctly classified negative cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;True positive (TP)&lt;x2/&gt; — количество верно классифицированных положительных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212403Z" creationid="Марианна" creationdate="20211017T212403Z">
+        <seg>&lt;x1/&gt;True positive (TP)&lt;x2/&gt;: the number of correctly classified positive cases.</seg>
       </tuv>
     </tu>
     <tu>
