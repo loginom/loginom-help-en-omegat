@@ -1756,6 +1756,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223814Z" creationid="Марианна" creationdate="20211017T223814Z">
+        <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081640Z" creationid="Марианна" creationdate="20210928T081640Z">
@@ -12779,6 +12787,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T102823Z" creationid="Марианна" creationdate="20211015T102823Z">
         <seg>&lt;x1/&gt;Count Chart.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма Куба&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223847Z" creationid="Марианна" creationdate="20211017T223847Z">
+        <seg>&lt;x1/&gt;Cube Chart&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -29794,8 +29810,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Активировать просмотр диаграммы можно кнопкой &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; на &lt;x5/&gt;Панели инструментов&lt;x6/&gt; Куба.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T223623Z" creationid="Марианна" creationdate="20211017T223623Z">
-        <seg>Активировать просмотр диаграммы можно кнопкой &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; on the Cube &lt;x5/&gt;Toolbar&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223727Z" creationid="Марианна" creationdate="20211017T223623Z">
+        <seg>It is possible to activate the chart view using the &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt; button on the Cube &lt;x5/&gt;Toolbar&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47978,6 +47994,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214158Z" creationid="Марианна" creationdate="20201216T214158Z">
         <seg>Common Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Общий вид диаграммы представлен на Рис.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223810Z" creationid="Марианна" creationdate="20211017T223810Z">
+        <seg>The general chart view is provided on Figure</seg>
       </tuv>
     </tu>
     <tu>
