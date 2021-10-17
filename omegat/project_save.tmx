@@ -8670,6 +8670,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;F&lt;x2/&gt;1&lt;x3/&gt; score&lt;x4/&gt; — является &lt;x5/&gt;средним гармоническим&lt;x6/&gt; значением &lt;x7/&gt;Точности&lt;x8/&gt; и &lt;x9/&gt;Чувствительности&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215653Z" creationid="Марианна" creationdate="20211017T215653Z">
+        <seg>&lt;x1/&gt;F&lt;x2/&gt;1&lt;x3/&gt; score&lt;x4/&gt; means the &lt;x5/&gt;average harmonic&lt;x6/&gt; value of &lt;x7/&gt;Accuracy&lt;x8/&gt; and &lt;x9/&gt;Sensitivity&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;FALSE&lt;x2/&gt; — Ложь;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142600Z" creationid="Марианна" creationdate="20201005T173821Z">
@@ -24068,6 +24076,16 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T224737Z" creationid="Марианна" creationdate="20210928T224737Z">
         <seg>&lt;x11/&gt;design tool&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;OCR&lt;x4/&gt; называется &lt;x5/&gt;Общей точностью классификации&lt;x6/&gt;.&lt;x7/&gt;
+$$\displaystyle\mathsf{OCR=\frac{TP+TN}{P+N}=\frac{TP+TN}{TP+TN+FP+FN}}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215411Z" creationid="Марианна" creationdate="20211017T215411Z">
+        <seg>&lt;x3/&gt;OCR&lt;x4/&gt; is called &lt;x5/&gt;Overall classification rate&lt;x6/&gt;.&lt;x7/&gt;
+$$\displaystyle\mathsf{OCR=\frac{TP+TN}{P+N}=\frac{TP+TN}{TP+TN+FP+FN}}$$.</seg>
       </tuv>
     </tu>
     <tu>
