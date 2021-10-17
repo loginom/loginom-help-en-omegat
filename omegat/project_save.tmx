@@ -41454,6 +41454,16 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Иное название метрики &lt;x11/&gt;F-мера&lt;x12/&gt;.&lt;x13/&gt;
+$$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215816Z" creationid="Марианна" creationdate="20211017T215816Z">
+        <seg>The metric is also called &lt;x11/&gt;F measure&lt;x12/&gt;.&lt;x13/&gt;
+$$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Инспектор свойств</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T080259Z" creationid="Марианна" creationdate="20200817T080259Z">
