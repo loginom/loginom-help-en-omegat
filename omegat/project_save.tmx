@@ -50956,6 +50956,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Позволяет настроить формат отображения фактов и заголовков измерений в Кубе, выбрав нужный факт или заголовок в соответствующей вкладке в верхнем левом углу окна Форматирование (Рис.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102113Z" creationid="Марианна" creationdate="20211017T102113Z">
+        <seg>It enables to set the format of </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Позволяет представить данные для пользователя в виде плоской двумерной таблицы с возможностью фильтрации, сортировки, изменения формата отображения данных и поиска.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T213630Z" creationid="Марианна" creationdate="20211011T213630Z">
