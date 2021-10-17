@@ -6070,16 +6070,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранной строке таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T045812Z" creationid="Марианна" creationdate="20211003T045610Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking the selected table row.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152642Z" creationid="Марианна" creationdate="20211003T045610Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking on the selected table row.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранному полю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T210800Z" creationid="Марианна" creationdate="20211003T210800Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking the selected field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152634Z" creationid="Марианна" creationdate="20211003T210800Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking on the selected field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10476,8 +10476,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Активация и просмотр&lt;x2/&gt; — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как будет выглядеть экспортируемая таблица.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T195916Z" creationid="Марианна" creationdate="20200916T195916Z">
-        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking this button shows in the wizard how the exported table will look like.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152609Z" creationid="Марианна" creationdate="20200916T195916Z">
+        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking on this button shows in the wizard how the exported table will look like.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34442,8 +34442,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выделить необходимое подключение в панели и, вызвав кликом правой кнопки мыши его контекстное меню, воспользоваться одним из предложенных способов (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200711T140654Z" creationid="Марианна" creationdate="20200711T101336Z">
-        <seg>Select the required connection in the panel and use one of the specified methods clicking the right mouse button to open its context menu (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152627Z" creationid="Марианна" creationdate="20200711T101336Z">
+        <seg>Select the required connection in the panel and use one of the specified methods clicking on the right mouse button to open its context menu (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -47964,8 +47964,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Окно настроек можно открыть с панели инструментов или двойным щелчком левой кнопки мыши в области построения диаграммы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T145012Z" creationid="Марианна" creationdate="20211007T145012Z">
-        <seg>It is possible to open the configuration window using the toolbar or by double clicking the charting area with the left mouce button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152658Z" creationid="Марианна" creationdate="20211007T145012Z">
+        <seg>It is possible to open the configuration window using the toolbar or by double clicking on the charting area with the left mouce button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52955,8 +52955,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При двойном щелчке по линии разделителю или одинарном по середине линии, область будет скрыта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T211223Z" creationid="Марианна" creationdate="20211010T211223Z">
-        <seg>The area will be hidden by double clicking the separator line or single clicking the middle part of the line.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152649Z" creationid="Марианна" creationdate="20211010T211223Z">
+        <seg>The area will be hidden by double clicking on the separator line or single clicking the middle part of the line.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61877,16 +61877,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Щелчком левой кнопки мыши по области &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги построения&lt;x4/&gt; можно выбрать отображение &lt;x5/&gt;информации о выбранной модели&lt;x6/&gt; (если установлен соответствующий флажок), а также &lt;x7/&gt;коэффициенты регрессии&lt;x8/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T221939Z" creationid="Марианна" creationdate="20211011T221939Z">
-        <seg>Clicking the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt;  area with the left mouse button, it is possible to select display of the &lt;x5/&gt;information on the selected model&lt;x6/&gt; (if corresponding checkbox has been selected), and also &lt;x7/&gt;regression coefficients&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152720Z" creationid="Марианна" creationdate="20211011T221939Z">
+        <seg>Clicking on the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt;  area with the left mouse button, it is possible to select display of the &lt;x5/&gt;information on the selected model&lt;x6/&gt; (if corresponding checkbox has been selected), and also &lt;x7/&gt;regression coefficients&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Щелчком левой кнопки мыши по области &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Шаги построения&lt;x4/&gt; можно выбрать отображение &lt;x5/&gt;информации о выбранной модели&lt;x6/&gt; (если установлен соответствующий флажок), а также &lt;x7/&gt;коэффициенты регрессии&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T195408Z" creationid="Марианна" creationdate="20211011T194752Z">
-        <seg>Clicking the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt; area with the left mouse button, it is possible to select display of the &lt;x5/&gt;information on the selected model&lt;x6/&gt; (if corresponding checkbox has been selected), and also &lt;x7/&gt;regression coefficients&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152713Z" creationid="Марианна" creationdate="20211011T194752Z">
+        <seg>Clicking on the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Model steps&lt;x4/&gt; area with the left mouse button, it is possible to select display of the &lt;x5/&gt;information on the selected model&lt;x6/&gt; (if corresponding checkbox has been selected), and also &lt;x7/&gt;regression coefficients&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
