@@ -20,7 +20,7 @@ To go to the given page, it is required to enter its number in the entry field l
 * ![](../../images/icons/toolbar-controls/show-data-type_default.svg) **Data types**: show/hide data types;
 * ![](../../images/icons/toolbar-controls/null-count_default.svg) **Show null values**: show/hide null values;
 * ![](../../images/icons/toolbar-controls/format_default.svg) **Format**: open [format configuration window](./format.md) of data display;
-* ![](../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort**: open [sorting configuration window](./sorting.md) of data by columns;
+* ![](../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort**: open data [sorting configuration window](./sorting.md) by columns;
 * ![](../../images/icons/toolbar-controls/filter_default.svg) **Filter**: open [filtration configuration window](./filter.md);
 * ![](../../images/icons/toolbar-controls/zoom_default.svg) ![](../../images/icons/toolbar-controls/down_default.svg) **Search** — ![](../../images/icons/toolbar-controls/zoom_default.svg) find the value; ![](../../images/icons/toolbar-controls/down_default.svg) open [search configuration window](./search.md);
 * ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) **Detailing**: show/hide detailing by the table row;
