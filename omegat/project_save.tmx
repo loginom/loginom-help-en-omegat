@@ -6366,8 +6366,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Скачать&lt;x4/&gt; — скачать выбранный элемент в системную папку загрузок пользователя; файлы также можно скачивать, делая по ним двойной клик левой кнопкой мыши;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T084952Z" creationid="Марианна" creationdate="20210925T084914Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Download&lt;x4/&gt;: dowload the selected item to the system folder for user downloads. It is also possible to download files by its double click of the left mouse button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152950Z" creationid="Марианна" creationdate="20210925T084914Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Download&lt;x4/&gt;: dowload the selected item to the system folder for user downloads. It is also possible to download files by double clicking on them with the left mouse button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34370,8 +34370,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выбрать элемент для связи и в колонке &lt;x1/&gt;Связанные поля&lt;x2/&gt; щелкнуть левой кнопкой мыши по его ячейке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201001T164030Z" creationid="Марианна" creationdate="20200918T095357Z">
-        <seg>It is required to select the item to be linked, and left-click its cell in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152824Z" creationid="Марианна" creationdate="20200918T095357Z">
+        <seg>It is required to select the item to be linked, and left-click on its cell in the &lt;x1/&gt;Related fields&lt;x2/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36684,8 +36684,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для настройки доступа следует сделать по выбранному объекту клик правой кнопкой мыши и в контекстном меню выбрать пункт &lt;x1/&gt;&lt;x2/&gt; "Настроить модификатор доступа".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T215028Z" creationid="Марианна" creationdate="20210928T215028Z">
-        <seg>To provide the accessibility setup, it is required to click the selected object with the right mouse button and select &lt;x1/&gt;&lt;x2/&gt; "Configure visibility" option in the context menu.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153043Z" creationid="Марианна" creationdate="20210928T215028Z">
+        <seg>To provide the accessibility setup, it is required to click on the selected object with the right mouse button and select &lt;x1/&gt;&lt;x2/&gt; "Configure visibility" option in the context menu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36973,8 +36973,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для поиска отчета созданного от текущего визуализатора необходимо щелкнуть на визуализаторе правой кнопкой мыши и выбрать пункт меню "Показать в отчетах".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T100554Z" creationid="Марианна" creationdate="20210928T100444Z">
-        <seg>To search for the report created on the basis of the current visualizer, it is required to click the required visualizer with the right mouse button and select "Show in reports" menu option.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153030Z" creationid="Марианна" creationdate="20210928T100444Z">
+        <seg>To search for the report created on the basis of the current visualizer, it is required to click on the required visualizer with the right mouse button and select "Show in reports" menu option.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52014,8 +52014,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>После авторизации Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200819T075030Z" creationid="Марианна" creationdate="20200819T075030Z">
-        <seg>It is required to click the Menu icon in the left upper corner after Loginom authorization, and then you are to click "About".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152908Z" creationid="Марианна" creationdate="20200819T075030Z">
+        <seg>It is required to click the Menu icon in the left upper corner after Loginom authorization, and then you are to click on "About".</seg>
       </tuv>
     </tu>
     <tu>
@@ -52094,8 +52094,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>После запуска Loginom кликнуть на иконку Меню в левом верхнем углу и после этого кликнуть на пункт меню "О программе".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T161832Z" creationid="Марианна" creationdate="20200818T161832Z">
-        <seg>It is required to click the Menu icon in the left upper corner upon Loginom start, and then you are to click the "About" menu option.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152844Z" creationid="Марианна" creationdate="20200818T161832Z">
+        <seg>It is required to click on the Menu icon in the left upper corner upon Loginom start, and then you are to click the "About" menu option.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57521,8 +57521,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Список источников вызывается при клике мышью по кнопке &lt;x3/&gt; &lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210203T063201Z" creationid="Марианна" creationdate="20210203T060634Z">
-        <seg>List of the sources is called by clickong on &lt;x3/&gt; &lt;x4/&gt; button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152813Z" creationid="Марианна" creationdate="20210203T060634Z">
+        <seg>List of the sources is called by clicking on &lt;x3/&gt; &lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60181,8 +60181,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узлы в дереве &lt;x1/&gt;Инспектора свойств&lt;x2/&gt; можно сортировать, для этого нужно кликнуть мышью на заколовок колонки &lt;x3/&gt;Свойство&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200818T102549Z" creationid="Марианна" creationdate="20200818T102549Z">
-        <seg>It is possible to sort nodes in the &lt;x1/&gt;Property inspector&lt;x2/&gt; tree. For this purpose, it is required to click the header of the &lt;x3/&gt;Property&lt;x4/&gt; column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152835Z" creationid="Марианна" creationdate="20200818T102549Z">
+        <seg>It is possible to sort nodes in the &lt;x1/&gt;Property inspector&lt;x2/&gt; tree. For this purpose, it is required to click on the header of the &lt;x3/&gt;Property&lt;x4/&gt; column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62653,8 +62653,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>второй вариант — непосредственно щелкнуть левой кнопкой мыши на связь, которую необходимо удалить, и нажать на кнопку &lt;x13/&gt;Удалить связь&lt;x14/&gt; удаления связи (&lt;x15/&gt;Удалить связь&lt;x16/&gt; при наведении на нее курсора).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201002T074652Z" creationid="Марианна" creationdate="20200929T194351Z">
-        <seg>The second option is to left-click the link to be deleted, and to press &lt;x13/&gt;Delete link&lt;x14/&gt; button to delete the link (when cursor hovering over &lt;x15/&gt;Delete link&lt;x16/&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153022Z" creationid="Марианна" creationdate="20200929T194351Z">
+        <seg>The second option is to left-click on the link to be deleted, and to press &lt;x13/&gt;Delete link&lt;x14/&gt; button to delete the link (when cursor hovering over &lt;x15/&gt;Delete link&lt;x16/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
