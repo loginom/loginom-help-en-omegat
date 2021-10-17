@@ -59643,6 +59643,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Термины</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T211950Z" creationid="Марианна" creationdate="20211017T211950Z">
+        <seg>Terms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Термос стальной</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T112713Z" creationid="Марианна" creationdate="20201124T112713Z">
@@ -60063,6 +60071,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210817T093135Z" creationid="Марианна" creationdate="20210817T093135Z">
         <seg>Minimum number of transformations is required to get or record data. In this case, data exchange speed is limited only by the speed of the disk subsystem operation and it depends on the data volume much less as compared with other formats that can be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тут перечислены термины и сокращения используемые в описании визуализатора &lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212122Z" creationid="Марианна" creationdate="20211017T212122Z">
+        <seg>Terms and abbreviations used in the description of &lt;x1/&gt;Binary сlassification assessment&lt;x2/&gt; visualizer are listed here.</seg>
       </tuv>
     </tu>
     <tu>
