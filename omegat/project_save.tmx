@@ -9920,6 +9920,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;True positive rate (TPR)&lt;x2/&gt; — доля верно классифицированных положительных примеров от общего количества положительных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214154Z" creationid="Марианна" creationdate="20211017T214154Z">
+        <seg>&lt;x1/&gt;True positive rate (TPR)&lt;x2/&gt;: rate of correctly classified positive cases based on the total number of positive cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;U1 vs.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T092949Z" creationid="Марианна" creationdate="20210419T092949Z">
