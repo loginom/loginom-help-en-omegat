@@ -22760,6 +22760,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точек&lt;x2/&gt; — количество отображаемых точек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225414Z" creationid="Марианна" creationdate="20211017T225414Z">
+        <seg>&lt;x1/&gt;Points&lt;x2/&gt;: the number of displayed points.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Точное совпадение&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191849Z" creationid="Марианна" creationdate="20200810T191849Z">
