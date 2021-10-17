@@ -8702,10 +8702,26 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;False negative rate (FNR)&lt;x2/&gt; — доля неверно классифицированных отрицательных примеров от общего количества положительных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214959Z" creationid="Марианна" creationdate="20211017T214959Z">
+        <seg>&lt;x1/&gt;False negative rate (FNR)&lt;x2/&gt;: rate of incorrectly classified negative cases based on the total number of positive cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;False positive (FP)&lt;x2/&gt; — количество неверно классифицированных положительных примеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T212512Z" creationid="Марианна" creationdate="20211017T212512Z">
         <seg>&lt;x1/&gt;False positive (FP)&lt;x2/&gt;: the number of incorrectly classified positive cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;False positive rate (FPR)&lt;x2/&gt; — доля неверно классифицированных положительных примеров от общего количества отрицательных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215128Z" creationid="Марианна" creationdate="20211017T215128Z">
+        <seg>&lt;x1/&gt;False positive rate (FPR)&lt;x2/&gt;: rate of incorrectly classified positive cases based on the total number of negative cases.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24048,6 +24064,16 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;PPV&lt;x4/&gt; называется &lt;x5/&gt;Точностью отрицательного прогноза&lt;x6/&gt; классификации.&lt;x7/&gt;
+$$\displaystyle\mathsf{NPV=\frac{TN}{TN+FN}}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214912Z" creationid="Марианна" creationdate="20211017T214912Z">
+        <seg>&lt;x3/&gt;PPV&lt;x4/&gt; is called &lt;x5/&gt;Negative prediction value&lt;x6/&gt; of classification.&lt;x7/&gt;
+$$\displaystyle\mathsf{NPV=\frac{TN}{TN+FN}}$$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;PPV&lt;x4/&gt; называется &lt;x5/&gt;Точностью положительного прогноза&lt;x6/&gt; классификации.&lt;x7/&gt;
 $$\displaystyle\mathsf{PPV=\frac{TP}{TP+FP}}$$.</seg>
       </tuv>
@@ -36206,6 +36232,26 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T100557Z" creationid="Марианна" creationdate="20211015T100557Z">
         <seg>For the &lt;x1/&gt;List of input columns&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Hide side bar&lt;x6/&gt; operation is available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для &lt;x3/&gt;FNR&lt;x4/&gt; используют также обозначение &lt;x5/&gt;1 - Чувствительность&lt;x6/&gt;.&lt;x7/&gt;
+$$\displaystyle\mathsf{FNR=\frac{FN}{P}=\frac{FN}{FN+TP}=1−TPR}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215051Z" creationid="Марианна" creationdate="20211017T215051Z">
+        <seg>For &lt;x3/&gt;FNR&lt;x4/&gt; &lt;x5/&gt;1 - Sensitivity&lt;x6/&gt; term is frequently used.&lt;x7/&gt;
+$$\displaystyle\mathsf{FNR=\frac{FN}{P}=\frac{FN}{FN+TP}=1−TPR}$$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для &lt;x3/&gt;FPR&lt;x4/&gt; используют также обозначение &lt;x5/&gt;1 - Специфичность&lt;x6/&gt;.&lt;x7/&gt;
+$$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T215213Z" creationid="Марианна" creationdate="20211017T215213Z">
+        <seg>For &lt;x3/&gt;FPR&lt;x4/&gt; &lt;x5/&gt;1 - Specificity&lt;x6/&gt;.&lt;x7/&gt;term is frequently used
+$$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       </tuv>
     </tu>
     <tu>
