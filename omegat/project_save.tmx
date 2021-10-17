@@ -21416,8 +21416,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сокрытие/отображение столбцов легенды&lt;x2/&gt; — показать/скрыть столбцы легенды, для этого необходимо в их заголовочном меню по клику на кнопку &lt;x3/&gt;Раскрыть&lt;x4/&gt; выбрать пункт меню &lt;x5/&gt;Столбцы&lt;x6/&gt; &lt;x7/&gt;Столбцы&lt;x8/&gt; и снять/установить галочки на столбцах, которые необходимо скрыть или показать.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T185218Z" creationid="Марианна" creationdate="20211017T185218Z">
-        <seg>&lt;x1/&gt;Hide/display legend columns&lt;x2/&gt;: show/hide legend columns. For this purpose, it is required to click &lt;x3/&gt;Open&lt;x4/&gt; button in their header menu, select &lt;x5/&gt;Columns&lt;x6/&gt; &lt;x7/&gt;Columns&lt;x8/&gt; menu option and check/uncheck the columns to be hidden or shown.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T204929Z" creationid="Марианна" creationdate="20211017T185218Z">
+        <seg>&lt;x1/&gt;Hide/display legend columns&lt;x2/&gt;: show/hide legend columns. For this purpose, it is required to click on &lt;x3/&gt;Open&lt;x4/&gt; button in their caption menu, select &lt;x5/&gt;Columns&lt;x6/&gt; &lt;x7/&gt;Columns&lt;x8/&gt; menu option and check/uncheck the columns to be hidden or shown.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59789,8 +59789,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тип сортировки можно выбрать двумя способами: через заголовочное меню выбранной колонки по клику на кнопку &lt;x5/&gt;Раскрыть&lt;x6/&gt; и непосредственным кликом на колонку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T152324Z" creationid="Марианна" creationdate="20211017T152324Z">
-        <seg>It is possible to select the sorting type in two ways: via the header menu of the selected column by clicking on &lt;x5/&gt;Open&lt;x6/&gt; button and clicking on the column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T204902Z" creationid="Марианна" creationdate="20211017T152324Z">
+        <seg>It is possible to select the sorting type in two ways: via the caption menu of the selected column by clicking on &lt;x5/&gt;Open&lt;x6/&gt; button and clicking on the column.</seg>
       </tuv>
     </tu>
     <tu>
