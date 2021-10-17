@@ -47626,6 +47626,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Одно из состояний бинарной целевой переменной класса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095217Z" creationid="Марианна" creationdate="20211017T095217Z">
+        <seg>One of the states of the binary target class variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одной из основных концепций, на которых базируется платформа &lt;x1/&gt;&lt;x2/&gt;Loginom&lt;x3/&gt;&lt;x4/&gt;, является &lt;x5/&gt;Сценарий&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200715T091216Z" creationid="Марианна" creationdate="20200715T091216Z">
@@ -54767,6 +54775,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Противоположное состояние бинарной целевой переменной класса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095250Z" creationid="Марианна" creationdate="20211017T095250Z">
+        <seg>Opposite state of the binary target class variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Процедура повторяется $$k$$ раз, при этом на каждом проходе для проверки выбирается новый блок, а обучение производится на оставшихся.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T122121Z" creationid="Марианна" creationdate="20210925T122121Z">
@@ -56639,6 +56655,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Совокупность названий начальных классов, которые входят в конечный класс</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095110Z" creationid="Марианна" creationdate="20211017T095110Z">
+        <seg>A set of names of the fine classes included into the coarse class</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Совпадение</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060216Z" creationid="Марианна" creationdate="20201116T060216Z">
@@ -58193,6 +58217,14 @@ String - string expression
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T064247Z" creationid="Марианна" creationdate="20201023T064247Z">
         <seg>Amount of sales</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сумма событий и не-событий класса</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095325Z" creationid="Марианна" creationdate="20211017T095325Z">
+        <seg>The sum of class events and non-events</seg>
       </tuv>
     </tu>
     <tu>
