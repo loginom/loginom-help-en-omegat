@@ -1,8 +1,8 @@
-# ![ ](../images/icons/system_object_18/visualizer_default.svg) Визуализаторы
+# ![ ](../images/icons/system_object_18/visualizer_default.svg) Visualizers
 
 Визуализатор представляет собой инструмент, позволяющий пользователю выбрать удобный вариант отображения данных.
 
-Визуализаторы:
+Visualizers:
 
 * ![Диаграмма](../images/icons/view_types/chart_default.svg) [Диаграмма](./chart/README.md) — графическое представление данных.
 * ![Куб](../images/icons/view_types/cube_default.svg) [Куб](./cube/README.md) — многомерное представление данных.
