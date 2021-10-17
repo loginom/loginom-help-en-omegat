@@ -20798,6 +20798,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Результат&lt;x2/&gt; — итоговое форматирование, применённое к примеру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T111203Z" creationid="Марианна" creationdate="20211017T111203Z">
+        <seg>&lt;x1/&gt;Result&lt;x2/&gt;: the final formatting applied to the example.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Результирующий сценарий.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200717T110728Z" creationid="Марианна" creationdate="20200717T110728Z">
@@ -60755,6 +60763,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210328T212041Z" creationid="Марианна" creationdate="20210328T212041Z">
         <seg>Date_format - optional parameter date format in terms of D, M, Y.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Форматирование можно применять одновременно к нескольким фактам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T111243Z" creationid="Марианна" creationdate="20211017T111243Z">
+        <seg>Formatting can be applied to several measures at the same time.</seg>
       </tuv>
     </tu>
     <tu>
