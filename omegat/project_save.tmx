@@ -37759,6 +37759,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доля конечного класса от общего объема записей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095602Z" creationid="Марианна" creationdate="20211017T095602Z">
+        <seg>The coarse class rate based on the total volume of records</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дополнительная информация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T205952Z" creationid="Марианна" creationdate="20210930T205952Z">
