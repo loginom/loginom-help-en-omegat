@@ -6558,8 +6558,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Формат&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки формата&lt;x6/&gt; отображения данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214355Z" creationid="Марианна" creationdate="20211011T214355Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format configuration window&lt;x6/&gt; of data display;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102217Z" creationid="Марианна" creationdate="20211011T214355Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format configuration window&lt;x6/&gt; of data view;</seg>
       </tuv>
     </tu>
     <tu>
@@ -22920,8 +22920,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Формат&lt;x2/&gt; &lt;x3/&gt;Формат&lt;x4/&gt; — открыть окно для настройки &lt;x5/&gt;формата&lt;x6/&gt; отображения данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T082148Z" creationid="Марианна" creationdate="20211015T082148Z">
-        <seg>&lt;x1/&gt;Format&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format&lt;x6/&gt; configuration window of data display.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102123Z" creationid="Марианна" creationdate="20211015T082148Z">
+        <seg>&lt;x1/&gt;Format&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format&lt;x6/&gt; configuration window of data view.</seg>
       </tuv>
     </tu>
     <tu>
@@ -33506,8 +33506,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Возможности фильтрации, изменения формата отображения данных и поиска нет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T213300Z" creationid="Марианна" creationdate="20211010T214606Z">
-        <seg>Filtration, change of data display format and search are not available.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102132Z" creationid="Марианна" creationdate="20211010T214606Z">
+        <seg>Filtration, change of data view format and search are not available.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50934,8 +50934,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Позволяет менять формат отображения данных в столбцах таблицы, а также задать ширину столбца и его видимость.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T142320Z" creationid="Марианна" creationdate="20211012T142320Z">
-        <seg>It enables to change the data display format in the table column and then set the column width and its visibility.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102141Z" creationid="Марианна" creationdate="20211012T142320Z">
+        <seg>It enables to change the data view format in the table column and then set the column width and its visibility.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50966,8 +50966,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Позволяет представить данные для пользователя в виде плоской двумерной таблицы с возможностью фильтрации, сортировки, изменения формата отображения данных и поиска.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T213630Z" creationid="Марианна" creationdate="20211011T213630Z">
-        <seg>It enables to display the data for users in the form of the flat two-dimensional table with possibility of filtering, sorting, changing of data display format and search.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102152Z" creationid="Марианна" creationdate="20211011T213630Z">
+        <seg>It enables to display the data for users in the form of the flat two-dimensional table with possibility of filtering, sorting, changing of data view format and search.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59837,8 +59837,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узел &lt;x1/&gt;Таблица в дерево&lt;x2/&gt; преобразует исходные данные, представленные в виде плоской (двумерной) таблицы, в иерархическую (древовидную) форму.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201002T073453Z" creationid="Марианна" creationdate="20200929T102649Z">
-        <seg>The &lt;x1/&gt;Table to Tree&lt;x2/&gt; node enables to transform the source data displayed in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102239Z" creationid="Марианна" creationdate="20200929T102649Z">
+        <seg>The &lt;x1/&gt;Table to Tree&lt;x2/&gt; node enables to transform the source data represented in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form.</seg>
       </tuv>
     </tu>
     <tu>
