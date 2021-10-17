@@ -19843,6 +19843,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в списке будут доступны только используемые факты и измерения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T232002Z" creationid="Марианна" creationdate="20211017T232002Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Only used measures and dimensions are available only in the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; все доступные параметры детальных настроек можно задавать с помощью переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T200652Z" creationid="Марианна" creationdate="20201214T115207Z">
@@ -60441,8 +60449,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>То же самое можно сделать, перетащив функцию из списка в область кода (Drag-and-Drop).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T231806Z" creationid="Марианна" creationdate="20211017T231806Z">
-        <seg>The same operations can be done by dragging the function from the list to the code area (Drag-and-Drop).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231902Z" creationid="Марианна" creationdate="20211017T231806Z">
+        <seg>The same operations can be done by dragging function from the list to the code area (Drag-and-Drop).</seg>
       </tuv>
     </tu>
     <tu>
