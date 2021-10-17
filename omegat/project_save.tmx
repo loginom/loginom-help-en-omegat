@@ -44983,6 +44983,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно указать от 1, но не менее количества уникальных значений измерений в столбцах куба, до 1000 включительно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225506Z" creationid="Марианна" creationdate="20211017T225506Z">
+        <seg>It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube columns up to 1000 inclusively.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 100 включительно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T225224Z" creationid="Марианна" creationdate="20211017T225224Z">
