@@ -17921,6 +17921,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Перетаскивание колонок&lt;x2/&gt; — сменить расположение колонок друг относительно друга, для этого необходимо зажать левую кнопку мыши на метке колонки, которую необходимо перетащить, затем переместить курсор мыши в нужное место и отпустить левую кнопку мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T170215Z" creationid="Марианна" creationdate="20211017T170215Z">
+        <seg>&lt;x1/&gt;Drag columns&lt;x2/&gt;: change location of columns relative to eaсh other. For this purpose, it is required to hold down the left mouse button on the column caption to be dragged and then move the mouse cursor to the required place and release the left mouse button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Перечисления&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T054343Z" creationid="Марианна" creationdate="20200812T054343Z">
