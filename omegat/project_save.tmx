@@ -46874,6 +46874,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нужные факты можно выбрать, зажав клавишу Shift и кликнув по ним.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T111503Z" creationid="Марианна" creationdate="20211017T111503Z">
+        <seg>The required measures are selected. Then it is required to click on them while holding down the Shift key.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нулевое значение эквивалентно тому, что столбец не участвует при построении модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210430T155341Z" creationid="Марианна" creationdate="20210419T091722Z">
