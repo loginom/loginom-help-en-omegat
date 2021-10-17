@@ -53011,6 +53011,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении курсора мыши на диаграмму в правом верхнем углу появляется кнопка &lt;x1/&gt;&lt;x2/&gt;, позволяющая развернуть диаграмму на всю область визуализатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095849Z" creationid="Марианна" creationdate="20211017T095849Z">
+        <seg>When hovering the mouse cursor over the chart in the right upper corner, &lt;x1/&gt;&lt;x2/&gt; button appears. It enables to expand the chart over the whole visualizer area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При наведении курсора мыши на столбец диаграммы всплывает окно (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T102543Z" creationid="Марианна" creationdate="20211015T102543Z">
