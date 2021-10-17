@@ -20398,6 +20398,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разделитель разрядов&lt;x2/&gt; — группировка цифр по разрядам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T104827Z" creationid="Марианна" creationdate="20211017T104827Z">
+        <seg>&lt;x1/&gt;Thousands separator&lt;x2/&gt;: digits grouping by decimal places.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разделитель столбцов&lt;x2/&gt; — символ, разделяющий данные соседних столбцов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132702Z" creationid="Марианна" creationdate="20200826T094220Z">
