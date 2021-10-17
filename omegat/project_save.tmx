@@ -15261,6 +15261,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка кластера&lt;x2/&gt; — порядковый номер кластера и кластер &lt;x3/&gt;Итого&lt;x4/&gt;, который содержит общую информацию по кластерам, если для текущего индикатора общее значение можно рассчитать;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T145454Z" creationid="Марианна" creationdate="20211017T145454Z">
+        <seg>&lt;x1/&gt;Cluster caption&lt;x2/&gt;: the order cluster number and &lt;x3/&gt;Total&lt;x4/&gt; cluster that contains the general information on clusters if it is possible to calculate the common value for the current indicator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка поля&lt;x2/&gt; — метка поля из исходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T231106Z" creationid="Марианна" creationdate="20211011T231106Z">
