@@ -62287,6 +62287,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы отключить серию, необходимо нажать по ней на легенде диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230010Z" creationid="Марианна" creationdate="20211017T230010Z">
+        <seg>To disable the series, it is required to press it on the chart legend.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы посмотреть свойства узла, необходимо его выделить и нажать на кнопку &lt;x1/&gt;Показать/скрыть инспектор свойств&lt;x2/&gt; на панели инструментов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200822T091931Z" creationid="Марианна" creationdate="20200818T095749Z">
