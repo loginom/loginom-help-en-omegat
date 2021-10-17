@@ -2172,6 +2172,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231324Z" creationid="Марианна" creationdate="20211017T231324Z">
+        <seg>2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T081643Z" creationid="Марианна" creationdate="20210928T081643Z">
@@ -13471,6 +13479,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Значение&lt;x2/&gt; (&lt;x3/&gt;Имя измерения.Value&lt;x4/&gt;) — значение измерения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231432Z" creationid="Марианна" creationdate="20211017T231432Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; (&lt;x3/&gt;Dimension name.Value&lt;x4/&gt;): dimension value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; &lt;x3/&gt;Значение&lt;x4/&gt; — поле содержит заменяемые значения;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201117T092602Z" creationid="Марианна" creationdate="20201117T092602Z">
@@ -17151,6 +17167,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T163828Z" creationid="Марианна" creationdate="20211017T163828Z">
         <seg>&lt;x1/&gt;Single&lt;x2/&gt; resets all current selection and selects only the current cell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Окно настройки вычисляемого факта&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231122Z" creationid="Марианна" creationdate="20211017T231122Z">
+        <seg>&lt;x1/&gt;Configuration window of the calculated measure&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -63279,6 +63303,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>варианты агрегации измерений и фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231200Z" creationid="Марианна" creationdate="20211017T231200Z">
+        <seg>aggregation options of dimensions and measures;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>взаимозависимы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T200403Z" creationid="Марианна" creationdate="20201012T200340Z">
@@ -63827,6 +63859,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T165440Z" creationid="Марианна" creationdate="20201005T165440Z">
         <seg>logical operations (AND, OR, NOT, XOR) and values(TRUE or 1, FALSE or 0);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>логические операции (AND, OR, NOT, XOR) и значения (TRUE или FALSE);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231220Z" creationid="Марианна" creationdate="20211017T231220Z">
+        <seg>logical operations (AND, OR, NOT, XOR) and values (TRUE or FALSE);</seg>
       </tuv>
     </tu>
     <tu>
@@ -64715,6 +64755,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T100149Z" creationid="Марианна" creationdate="20211015T100149Z">
         <seg>Simplification of description of the objects under study.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>функции в соответствии с синтаксическим описанием (&lt;x1/&gt;Список функций&lt;x2/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231322Z" creationid="Марианна" creationdate="20211017T231322Z">
+        <seg>functions according to the syntactic description (&lt;x1/&gt;List of functions&lt;x2/&gt;);</seg>
       </tuv>
     </tu>
     <tu>
