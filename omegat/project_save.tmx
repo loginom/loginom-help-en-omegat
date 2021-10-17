@@ -53187,6 +53187,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При клике на колонку сортировка циклически меняется между следующими типами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153406Z" creationid="Марианна" creationdate="20211017T153406Z">
+        <seg>When clicking on the column, the sorting is cyclically switched between the following types:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Загрузить&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Создать каталог&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Вставить&lt;x20/&gt; и &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Обновить список&lt;x24/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T152357Z" creationid="Марианна" creationdate="20210925T101122Z">
