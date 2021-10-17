@@ -23350,6 +23350,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспоненциальная форма&lt;x2/&gt; — отображение числа в нормализованной форме (степени числа 10).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T110402Z" creationid="Марианна" creationdate="20211017T110402Z">
+        <seg>&lt;x1/&gt;Exponential form&lt;x2/&gt;: display of digit in the normalized form (powers of 10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экспорт XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T203353Z" creationid="Марианна" creationdate="20210203T203606Z">
