@@ -9222,6 +9222,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Null столбец&lt;x2/&gt; — столбец с пропусками в дискретных гистограммах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153841Z" creationid="Марианна" creationdate="20211017T153841Z">
+        <seg>&lt;x1/&gt;Null column&lt;x2/&gt;: the column with missing values in the discrete histograms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Null()&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T123034Z" creationid="Марианна" creationdate="20210406T123034Z">
