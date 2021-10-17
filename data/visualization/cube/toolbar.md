@@ -17,7 +17,7 @@ It contains the following control elements:
    * **Expand all**.
    * **Expand columns**.
    * **Expand rows**.
-* ![ ](../../images/icons/toolbar-controls/show-total-all_default.svg) **Show total**: show/hide final headers:
+* ![ ](../../images/icons/toolbar-controls/show-total-all_default.svg) **Show totals**: show/hide final headers:
    * ![ ](../../images/icons/toolbar-controls/show-total-all_default.svg) **All**.
    * ![ ](../../images/icons/toolbar-controls/show-total-col_default.svg) **In columns**.
    * ![ ](../../images/icons/toolbar-controls/show-total-row_default.svg) **In rows**.

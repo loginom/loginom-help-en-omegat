@@ -1,32 +1,32 @@
-# ![Диаграмма](../../images/icons/toolbar-controls/chart_default.svg) Диаграмма
+# ![Chart](../../images/icons/toolbar-controls/chart_default.svg) Chart
 
-Диаграмма Куба представляет собой диаграмму заданного типа, построенную на основе Куба, но в отличие от обычной, она однозначно соответствует текущему состоянию Куба и при любых его изменениях меняется соответственно. Активировать просмотр диаграммы можно кнопкой ![ ](../../images/icons/toolbar-controls/chart_default.svg) **Диаграмма** на [Панели инструментов](./toolbar.md) Куба. Общий вид диаграммы представлен на Рис. 1.
+The Cube chart represents the chart of the given type constructed on the Cube basis. As opposed to the standard one, it clearly matches the current state of the Cube, and in the case of all its changes, it changes correspondingly. It is possible to activate the chart view using the ![ ](../../images/icons/toolbar-controls/chart_default.svg) **Chart** button on the Cube [Toolbar](./toolbar.md). The general chart view is provided on Figure 1.
 
-![Диаграмма Куба](./cube-chart.png)
+![Cube Chart](./cube-chart.png)
 
-Диаграмма куба имеет свою собственную Панель инструментов, которая содержит следующие кнопки:
+The cube chart has its own Toolbar that contains the following buttons:
 
-* **Вид диаграммы** — позволяет выбрать вид отображаемой диаграммы:
-   * ![Линии](../../images/icons/series_18/d1.svg) **Линии**.
-   * ![Области](../../images/icons/series_18/d2.svg) **Области**.
-   * ![Сплайны](../../images/icons/series_18/d3.svg) **Сплайны**.
-   * ![Столбчатая](../../images/icons/series_18/d4.svg) **Столбчатая**.
-   * ![Сглаженные области](../../images/icons/series_18/d5.svg) **Сглаженные области**.
-   * ![Разброс](../../images/icons/series_18/d6.svg) **Разброс**.
-* **Расположение серий** — позволяет выбрать расположение серий:
-   * ![В столбцах](../../images/icons/toolbar-controls/columns_default.svg) **В столбцах** — построение серии диаграммы по данным столбца.
-   * ![В строках](../../images/icons/toolbar-controls/rows_default.svg) **В строках** — построение серии диаграммы по данным строки.
-* **Итоги** — не показывать серии, сформированные на основе итоговых заголовков:
-   * ![Скрыть](../../images/icons/toolbar-controls/show-total-nor_default.svg) **Скрыть**.
-   * ![Показать](../../images/icons/toolbar-controls/show-total-all_default.svg) **Показать**.
-* **Отображаемый факт** — позволяет выбрать отображаемый факт из списка.
-* ![Ограничения](../../images/icons/toolbar-controls/cancel_default.svg)  **Ограничения** — позволяет задать ограничения на количество серий/точек:
-   * **Серий** — количество отображаемых серий. Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 100 включительно.
-   * **Точек** — количество отображаемых точек. Можно указать от 1, но не менее количества уникальных значений измерений в столбцах куба, до 1000 включительно.
-* **Экспорт** — позволяет экспортировать диаграмму в определённый формат:
+* **Chart type** enables to select the type of the displayed chart:
+   * ![Lines](../../images/icons/series_18/d1.svg) **Lines**.
+   * ![Areas](../../images/icons/series_18/d2.svg) **Areas**.
+   * ![Splines](../../images/icons/series_18/d3.svg) **Splines**.
+   * ![Columns](../../images/icons/series_18/d4.svg) **Columns**.
+   * ![Smoothed areas](../../images/icons/series_18/d5.svg) **Smoothed areas**.
+   * ![Scatter](../../images/icons/series_18/d6.svg) **Scatter**.
+* **Series position** enables to select position of series:
+   * ![In columns](../../images/icons/toolbar-controls/columns_default.svg) **In columns**: construction of the chart series according to the column data.
+   * ![In rows](../../images/icons/toolbar-controls/rows_default.svg) **In rows**: construction of the chart series according to the row data.
+* **Show totals**: not to show the series generated on the basis of the final headers:
+   * ![Hide](../../images/icons/toolbar-controls/show-total-nor_default.svg) **Hide**.
+   * ![Show](../../images/icons/toolbar-controls/show-total-all_default.svg) **Show**.
+* **Displayed measure** enables to select the displayed measure from the list.
+* ![Restrictions](../../images/icons/toolbar-controls/cancel_default.svg)  **Restrictions** enables to set restrictions concerning the number of series/points:
+   * **Series**: the number of displayed series. It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube rows up to 100 inclusively.
+   * **Points**: the number of displayed points. It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube columns up to 1000 inclusively.
+* **Export** enables to export the chart to the given format:
    * **PNG**.
    * **JPEG**.
    * **PDF**.
    * **SVG**.
 
-При наведении на точку серии появляется подсказка со значением. Чтобы отключить серию, необходимо нажать по ней на легенде диаграммы.
+When hovering cursor over the series point, the tooltip with value appears. To disable the series, it is required to press it on the chart legend.
