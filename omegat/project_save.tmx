@@ -23322,8 +23322,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Фильтровать факты&lt;x2/&gt; Фильтровать факты</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T171329Z" creationid="Марианна" creationdate="20211005T171329Z">
-        <seg>&lt;x1/&gt;Filter measures&lt;x2/&gt; Filter measures</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230407Z" creationid="Марианна" creationdate="20211005T171329Z">
+        <seg>&lt;x1/&gt;Filter Measures&lt;x2/&gt; Filter Measures</seg>
       </tuv>
     </tu>
     <tu>
@@ -45780,6 +45780,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210219T173637Z" creationid="Марианна" creationdate="20210219T173637Z">
         <seg>Writing Commands</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, 10 наименее популярных товаров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230452Z" creationid="Марианна" creationdate="20211017T230452Z">
+        <seg>For example, 10 least popular goods.</seg>
       </tuv>
     </tu>
     <tu>
