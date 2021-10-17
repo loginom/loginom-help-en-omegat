@@ -15,7 +15,7 @@ Upon package selection, a user will enter the working space of the software. It 
 1. The main menu with the following buttons is located on the left: Menu, Packages, Navigation, [Files](../location_user_files.md), [Processes](../interface/processes-panel.md).
 2. The upper part displays tabs of the opened packages. It contains address line and navigation elements for packages and their parts.
 3. Desktop is located to the right of the main menu. It contains the left panel where working components, solution structure (packages and their parts), area of workflow construction and data visualization are displayed.
-4. The Processes panel is located in the lower part of the window. It is concealed by default, but it is possibble to lock it.
+4. The Processes panel is located in the lower part of the window. It is hidden by default, but it is possibble to lock it.
 
 ![Working Space of Studio.](./first-scenario-1.png)
 

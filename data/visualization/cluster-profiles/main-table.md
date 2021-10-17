@@ -36,13 +36,13 @@ The table can be conventionally divided into 2 areas:
 
 ## Actions in the Table
 
-* **Single sorting**: sort the column by the current *Indicator*. It is possible to select the sorting type in two ways: via the header menu of the selected column by clicking on ![Open](../../images/icons/toolbar-controls/down_default.svg) button and clicking on the column. When clicking on the column, the sorting is cyclically switched between the following types:
+* **Single sorting**: sort the column by the current *Indicator*. It is possible to select the sorting type in two ways: via the caption menu of the selected column by clicking on ![Open](../../images/icons/toolbar-controls/down_default.svg) button and clicking on the column. When clicking on the column, the sorting is cyclically switched between the following types:
    * ![Ascending](../../images/icons/toolbar-controls/low-to-hight_default.svg) Ascending;
    * ![Descending](../../images/icons/toolbar-controls/hight-to-low_default.svg) Descending;
    * Clear sort.
 * **Drag columns**: change location of columns relative to eaсh other. For this purpose, it is required to hold down the left mouse button on the column caption to be dragged and then move the mouse cursor to the required place and release the left mouse button.
-* **Закрепление/открепление колонки** — закрепить/открепить колонку, для этого необходимо в заголовочном меню колонки по клику на кнопку ![Раскрыть](../../images/icons/toolbar-controls/down_default.svg) выбрать пункт меню ![Снять закрепление столбца](../../images/icons/grid/hmenu-unlock.svg) *Снять закрепление столбца* или ![Закрепить столбец](../../images/icons/grid/hmenu-lock.svg) *Закрепить столбец*.
-* **Сокрытие/отображение столбцов легенды** — показать/скрыть столбцы легенды, для этого необходимо в их заголовочном меню по клику на кнопку ![Раскрыть](../../images/icons/toolbar-controls/down_default.svg) выбрать пункт меню ![Столбцы](../../images/icons/grid/columns.svg) *Столбцы* и снять/установить галочки на столбцах, которые необходимо скрыть или показать.
+* **Freeze/unfreeze column**: freeze/unfreeze the column. For this purpose, it is required to click on ![Open](../../images/icons/toolbar-controls/down_default.svg) button in the column caption menu, select ![Unfreeze column](../../images/icons/grid/hmenu-unlock.svg) *Unfreeze column* or ![Freeze column](../../images/icons/grid/hmenu-lock.svg) *Freeze column* menu option.
+* **Hide/display legend columns**: show/hide legend columns. For this purpose, it is required to click on ![Open](../../images/icons/toolbar-controls/down_default.svg) button in their caption menu, select ![Columns](../../images/icons/grid/columns.svg) *Columns* menu option and check/uncheck the columns to be hidden or shown.
 * **Select cells**: select the table cells. There are two selection modes:
    * **Single** resets all current selection and selects only the current cell. Selection can be moved using the following keyboard keys: %kbd Up %, %kbd Down %, %kbd Left %, %kbd Right %.
    * **Multiple**selects several cells at once. To use the multiple selection, it is required to hold down %kbd Ctrl % key that enables to add the cell to the selected ones or delete the cell from them. If several cells are selected, the following change of the current field is possible:
