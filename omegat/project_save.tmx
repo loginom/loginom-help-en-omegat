@@ -16905,6 +16905,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Одиночная сортировка&lt;x2/&gt; — сортировать колонку по текущему &lt;x3/&gt;Индикатору&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T151232Z" creationid="Марианна" creationdate="20211017T151232Z">
+        <seg>&lt;x1/&gt;Single sorting&lt;x2/&gt;: sort the column by the current &lt;x3/&gt;Indicator&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Окно форматирования&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T102520Z" creationid="Марианна" creationdate="20211017T102520Z">
@@ -59631,6 +59639,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T195119Z" creationid="Марианна" creationdate="20201215T195119Z">
         <seg>Event type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Тип сортировки можно выбрать двумя способами: через заголовочное меню выбранной колонки по клику на кнопку &lt;x5/&gt;Раскрыть&lt;x6/&gt; и непосредственным кликом на колонку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152324Z" creationid="Марианна" creationdate="20211017T152324Z">
+        <seg>It is possible to select the sorting type in two ways: via the header menu of the selected column by clicking on &lt;x5/&gt;Open&lt;x6/&gt; button and clicking on the column.</seg>
       </tuv>
     </tu>
     <tu>
