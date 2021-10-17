@@ -22592,6 +22592,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тип данных&lt;x2/&gt; — тип данных вычисляемого выражения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231041Z" creationid="Марианна" creationdate="20211017T231041Z">
+        <seg>&lt;x1/&gt;Data type&lt;x2/&gt;: the data type of the calculated expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип децимации.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T064515Z" creationid="Марианна" creationdate="20211007T064515Z">
@@ -35178,6 +35186,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201214T075302Z" creationid="Марианна" creationdate="20201214T075302Z">
         <seg>Outputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вычисляется на основе используемых в Кубе и области фильтрации измерений и фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230947Z" creationid="Марианна" creationdate="20211017T230947Z">
+        <seg>It is calculated on the basis of the dimensions and measures used in the Cube and filtration area.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51700,6 +51716,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T171436Z" creationid="Марианна" creationdate="20211005T171436Z">
         <seg>It provides for filtration of the measure values for dimension.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет добавить свой факт в куб.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T230845Z" creationid="Марианна" creationdate="20211017T230845Z">
+        <seg>It enables to add one's own measure to the cube.</seg>
       </tuv>
     </tu>
     <tu>
