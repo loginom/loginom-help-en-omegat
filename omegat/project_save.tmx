@@ -5972,6 +5972,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Заморожено&lt;x4/&gt; — показывает, что при переобучении данное поле не будет использоваться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T093821Z" creationid="Марианна" creationdate="20211017T093821Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Locked&lt;x4/&gt; shows that this field will not be used while overfitting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Инвертировать выделение&lt;x4/&gt; – меняет выбранные узлы на невыбранные и наоборот.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T165644Z" creationid="Марианна" creationdate="20201001T165644Z">
@@ -6288,6 +6296,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200818T105941Z" creationid="Марианна" creationdate="20200818T105941Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Expand&lt;x4/&gt; enables to expand the tree node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Разморожено&lt;x4/&gt; — показывает, что данное поле может быть использовано в процессе формирования конечных классов при переобучении модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T093733Z" creationid="Марианна" creationdate="20211017T093733Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Unlocked&lt;x4/&gt; shows whether this field can be used in the process of the coarse classes generation while model overfitting.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11088,6 +11104,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210927T201642Z" creationid="Марианна" creationdate="20210925T112922Z">
         <seg>&lt;x1/&gt;Validation&lt;x2/&gt; is a check of the operation correctness (predictive ability) of the analytical model trained on the machine learning basis. It also secures compliance of the analytical model with the requirements of the solved task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вариант отображения диаграммы.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094613Z" creationid="Марианна" creationdate="20211017T094613Z">
+        <seg>&lt;x1/&gt;Chart display option.&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19341,6 +19365,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T200456Z" creationid="Марианна" creationdate="20200916T200456Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the format of the DDF files in the Deductor platform used earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Статус поля изменить нельзя, он только отражает настройки в соответствующем узле &lt;x3/&gt;&lt;x4/&gt;Конечные классы&lt;x5/&gt;&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T093938Z" creationid="Марианна" creationdate="20211017T093938Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is not possible to change the field status. It only displays settings in the corresponding &lt;x3/&gt;&lt;x4/&gt;Coarse classes&lt;x5/&gt;&lt;x6/&gt; node.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34040,6 +34072,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбор отображения переключается кнопками (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094520Z" creationid="Марианна" creationdate="20211017T094520Z">
+        <seg>Display selection is switched by buttons (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбор полей для кластеризации:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T132920Z" creationid="Марианна" creationdate="20201210T132920Z">
@@ -35610,8 +35650,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Диаграмма IV может отображать:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T103112Z" creationid="Марианна" creationdate="20211015T103112Z">
-        <seg>Chart IV can displays as follows:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094929Z" creationid="Марианна" creationdate="20211015T103112Z">
+        <seg>Chart IV can display as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -35620,6 +35660,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T143859Z" creationid="Марианна" creationdate="20211007T143859Z">
         <seg>The chart visually shows dependence of values of one field on the other one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Диаграмма начальных классов может представлять:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094427Z" creationid="Марианна" creationdate="20211017T094427Z">
+        <seg>Fine classes chart can be as follows:</seg>
       </tuv>
     </tu>
     <tu>
@@ -48490,6 +48538,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Оцененный уровень значимости IV (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094113Z" creationid="Марианна" creationdate="20211017T094113Z">
+        <seg>Estimated significance level IV (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оценка &lt;x1/&gt;значимости&lt;x2/&gt; коэффициента при независимой переменной &lt;x3/&gt;модели&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T135619Z" creationid="Марианна" creationdate="20201210T135619Z">
@@ -52923,6 +52979,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При наведении курсора мыши на диаграмму в правом верхнем углу появляется кнопка &lt;x1/&gt;&lt;x2/&gt;, нажав на которую, диаграмма развернется на всю область визуализатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094339Z" creationid="Марианна" creationdate="20211017T094339Z">
+        <seg>When hovering the mouse cursor over the chart in the right upper corner, &lt;x1/&gt;&lt;x2/&gt; button appears. Its pressing enables to expand the chart over the whole visualizer area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При наведении курсора мыши на столбец диаграммы всплывает окно (см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T102543Z" creationid="Марианна" creationdate="20211015T102543Z">
@@ -52935,6 +52999,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211013T115146Z" creationid="Марианна" creationdate="20211013T103457Z">
         <seg>When hovering cursor over the Histogram indicator, the number of records matching this bin or unique value is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При наведении на столбец диаграммы появляется всплывающее окно, которое отображает значение поля и значение WoE/IV/Доли (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094910Z" creationid="Марианна" creationdate="20211017T094910Z">
+        <seg>When hovering the mouse cursor over the chart column, the pop-up window appears. It displays the field value and WoE/IV/Rate value (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -53551,6 +53623,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201109T164608Z" creationid="Марианна" creationdate="20201109T164407Z">
         <seg>In the case of such join, the order of tables (left, right) is not important, and it is not required to map the key fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При увеличении диаграммы во всю область визуализатора, появляется выпадающий список, в нем можно выбрать поле, для которого будет построена диаграмма (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094719Z" creationid="Марианна" creationdate="20211017T094719Z">
+        <seg>When expanding the chart over the whole visualizer area, the drop-down list appears. It enables to select the field for which the chart will be generated (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -63263,6 +63343,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210213T121111Z" creationid="Марианна" creationdate="20210213T121048Z">
         <seg>Figure 2, Area 1) — Connection Class Tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>рисунок 2) в нижней части диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T094542Z" creationid="Марианна" creationdate="20211017T094542Z">
+        <seg>Figure 2) in the lower part of the chart.</seg>
       </tuv>
     </tu>
     <tu>
