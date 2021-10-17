@@ -20950,6 +20950,22 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сondition negative (N)&lt;x2/&gt; — фактическое количество отрицательных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212331Z" creationid="Марианна" creationdate="20211017T212331Z">
+        <seg>&lt;x1/&gt;Сondition negative (N)&lt;x2/&gt;: the real number of negative cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сondition positive (P)&lt;x2/&gt; — фактическое количество положительных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T212304Z" creationid="Марианна" creationdate="20211017T212304Z">
+        <seg>&lt;x1/&gt;Сondition positive (P)&lt;x2/&gt;: the real number of positive cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сайт с описанием правил и примеров написания строк подключения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T203316Z" creationid="Марианна" creationdate="20210203T063647Z">
