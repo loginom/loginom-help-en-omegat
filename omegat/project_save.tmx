@@ -9912,6 +9912,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;True negative rate (TNR)&lt;x2/&gt; — доля верно классифицированных отрицательных примеров от общего количества отрицательных примеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214407Z" creationid="Марианна" creationdate="20211017T214407Z">
+        <seg>&lt;x1/&gt;True negative rate (TNR)&lt;x2/&gt;: rate of correctly classified negative cases based on the total number of negative cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;True positive (TP)&lt;x2/&gt; — количество верно классифицированных положительных примеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T212403Z" creationid="Марианна" creationdate="20211017T212403Z">
@@ -24020,6 +24028,16 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T224737Z" creationid="Марианна" creationdate="20210928T224737Z">
         <seg>&lt;x11/&gt;design tool&lt;x12/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;TNR&lt;x4/&gt; называется &lt;x5/&gt;Специфичностью&lt;x6/&gt; классификации.&lt;x7/&gt;
+$$\displaystyle\mathsf{TNR=\frac{TN}{N}=\frac{TN}{TN+FP}=1−FPR}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214454Z" creationid="Марианна" creationdate="20211017T214454Z">
+        <seg>&lt;x3/&gt;TNR&lt;x4/&gt; is called &lt;x5/&gt;Specificity&lt;x6/&gt; of classification.&lt;x7/&gt;
+$$\displaystyle\mathsf{TNR=\frac{TN}{N}=\frac{TN}{TN+FP}=1−FPR}$$.</seg>
       </tuv>
     </tu>
     <tu>
