@@ -32208,6 +32208,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Величина, определяющая значимость признака в модели &lt;x1/&gt;бинарной классификации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T095736Z" creationid="Марианна" creationdate="20211017T095736Z">
+        <seg>The value that defines the indicator significance in the &lt;x1/&gt;binary classification&lt;x2/&gt; model</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Величина, показывающая отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T140107Z" creationid="Марианна" creationdate="20201210T140107Z">
