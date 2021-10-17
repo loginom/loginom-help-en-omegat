@@ -24024,6 +24024,16 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x3/&gt;TPR&lt;x4/&gt; называется &lt;x5/&gt;Чувствительностью&lt;x6/&gt; классификации.&lt;x7/&gt;
+$$\displaystyle\mathsf{TPR=\frac{TP}{P}=\frac{TP}{TP+FN}=1−FNR}$$.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T214325Z" creationid="Марианна" creationdate="20211017T214325Z">
+        <seg>&lt;x3/&gt;TPR&lt;x4/&gt; is called &lt;x5/&gt;sensitivity&lt;x6/&gt; of classification.&lt;x7/&gt;
+$$\displaystyle\mathsf{TPR=\frac{TP}{P}=\frac{TP}{TP+FN}=1−FNR}$$.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;Мутации&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210118T120032Z" creationid="Марианна" creationdate="20210118T120032Z">
