@@ -32960,6 +32960,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Во вкладке &lt;x1/&gt;Измерения&lt;x2/&gt; доступны опции форматирования заголовков измерений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T111700Z" creationid="Марианна" creationdate="20211017T111700Z">
+        <seg>Options of dimensions captions formatting are available in the &lt;x1/&gt;Dimensions&lt;x2/&gt; tab.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во вкладке &lt;x1/&gt;Факты&lt;x2/&gt; доступны следующие опции форматирования:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T102614Z" creationid="Марианна" creationdate="20211017T102614Z">
@@ -45878,6 +45886,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T085450Z" creationid="Марианна" creationdate="20200918T085450Z">
         <seg>Configuration of the Export File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка форматирования аналогична &lt;x3/&gt;Фактам&lt;x4/&gt;, кроме выделения отрицательных значений красным цветом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T111825Z" creationid="Марианна" creationdate="20211017T111825Z">
+        <seg>Formatting configuration is similar to &lt;x3/&gt;Measures&lt;x4/&gt;, with the exception of selection of negative values in red.</seg>
       </tuv>
     </tu>
     <tu>
