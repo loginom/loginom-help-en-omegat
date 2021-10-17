@@ -60439,6 +60439,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>То же самое можно сделать, перетащив функцию из списка в область кода (Drag-and-Drop).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231806Z" creationid="Марианна" creationdate="20211017T231806Z">
+        <seg>The same operations can be done by dragging the function from the list to the code area (Drag-and-Drop).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>То, в каком порядке расположены поля, влияет на структуру результирующей таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T071803Z" creationid="Марианна" creationdate="20201023T071803Z">
