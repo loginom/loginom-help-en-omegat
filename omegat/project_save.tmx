@@ -54527,6 +54527,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Примечание: &lt;x1/&gt;Колонки легенды&lt;x2/&gt; откреплять нельзя, за исключением колонки &lt;x3/&gt;Поддержка&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T151016Z" creationid="Марианна" creationdate="20211017T151016Z">
+        <seg>Note: It is not allowed to deselect &lt;x1/&gt;Legend columns&lt;x2/&gt;, with the exception of &lt;x3/&gt;Support&lt;x4/&gt; column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Примечание: &lt;x1/&gt;Панель фильтрации&lt;x2/&gt;, &lt;x3/&gt;Панель сравнения кластеров&lt;x4/&gt; и &lt;x5/&gt;Детализацию&lt;x6/&gt; можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T211035Z" creationid="Марианна" creationdate="20211010T211035Z">
