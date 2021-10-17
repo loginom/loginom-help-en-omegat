@@ -36252,8 +36252,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Для вызова контекстного меню порта необходимо кликнуть мышью порт.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201009T103628Z" creationid="Марианна" creationdate="20201009T103628Z">
-        <seg>To call the context menu of the port, it is required to click the port.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153134Z" creationid="Марианна" creationdate="20201009T103628Z">
+        <seg>To call the context menu of the port, it is required to click on the port.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52955,8 +52955,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При двойном щелчке по линии разделителю или одинарном по середине линии, область будет скрыта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T152649Z" creationid="Марианна" creationdate="20211010T211223Z">
-        <seg>The area will be hidden by double clicking on the separator line or single clicking the middle part of the line.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153201Z" creationid="Марианна" creationdate="20211010T211223Z">
+        <seg>The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56401,8 +56401,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Сделать клик по одному полю, зажать клавишу SHIFT, затем клик по другому полю — в результате будет выделен список позиций между этими полями.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T054905Z" creationid="Марианна" creationdate="20211003T054905Z">
-        <seg>Click one field, press SHIFT button. Then it is required to click another field. The list of positions between these fields will be selected in the result.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T153123Z" creationid="Марианна" creationdate="20211003T054905Z">
+        <seg>Click on one field, press SHIFT button. Then it is required to click on another field. The list of positions between these fields will be selected in the result.</seg>
       </tuv>
     </tu>
     <tu>
