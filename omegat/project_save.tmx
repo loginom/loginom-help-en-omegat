@@ -11116,6 +11116,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; если выражение вычисляемого факта некорректное, то все его ячейки состоят из пропусков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T232814Z" creationid="Марианна" creationdate="20211017T232814Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; If the calculated measure expression is incorrect, all its cells consist of missing values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; по умолчанию для портов, принимающих табличные данные, опция &lt;x3/&gt;&lt;x4/&gt; "Автоматическая синхронизация включена".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T045154Z" creationid="Марианна" creationdate="20211001T044330Z">
@@ -13947,6 +13955,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T192402Z" creationid="Марианна" creationdate="20200825T192402Z">
         <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the unique field name is assigned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Имя&lt;x2/&gt; — идентификатор, который можно использовать в формулах других вычисляемых фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T232558Z" creationid="Марианна" creationdate="20211017T232558Z">
+        <seg>&lt;x1/&gt;Name&lt;x2/&gt;: the identifier that can be used in formulas of other calculated measures.</seg>
       </tuv>
     </tu>
     <tu>
