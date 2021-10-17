@@ -17617,6 +17617,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Переключатель&lt;x2/&gt; &lt;x3/&gt;Отрицательные красным&lt;x4/&gt; — отрицательные значения будут отображаться красным цветом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T102745Z" creationid="Марианна" creationdate="20211017T102745Z">
+        <seg>&lt;x1/&gt;Switch&lt;x2/&gt; &lt;x3/&gt;Negative in red&lt;x4/&gt;: the negative values will be displayed in red.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Переменная цикла&lt;x2/&gt; — переменная, которой в ходе работы цикла присваивается номер текущей итерации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133214Z" creationid="Марианна" creationdate="20200921T204645Z">
