@@ -32712,6 +32712,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Видимость столбца можно изменить с помощью кнопки &lt;x3/&gt;Показывать столбец "Прочие" в гистограммах&lt;x4/&gt; &lt;x5/&gt;Показывать столбец "Прочие" в гистограммах&lt;x6/&gt; на &lt;x7/&gt;Панели инструментов&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T163542Z" creationid="Марианна" creationdate="20211017T163542Z">
+        <seg>Column visibility can be changed using &lt;x3/&gt;Show "Other" column in histograms&lt;x4/&gt; &lt;x5/&gt;Show "Other" column in histograms&lt;x6/&gt; on the &lt;x7/&gt;Toolbar&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Видимость узлов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T102431Z" creationid="Марианна" creationdate="20200919T102431Z">
@@ -54651,6 +54659,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T132622Z" creationid="Марианна" creationdate="20211010T132622Z">
         <seg>Note: &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode can be enabled when the histograms refer to &lt;x3/&gt;Absolute frequencies&lt;x4/&gt; or &lt;x5/&gt;Relative frequencies&lt;x6/&gt; formats. The option is disabled and is not available in &lt;x7/&gt;Density (PDF)&lt;x8/&gt; format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Примечание: Текущее ограничение на количество столбцов для дискретной гистограммы в ячейке — 12.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T163642Z" creationid="Марианна" creationdate="20211017T163642Z">
+        <seg>Note: The current restriction of the column count for the discrete histogram in the cell — 12.</seg>
       </tuv>
     </tu>
     <tu>
