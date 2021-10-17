@@ -17065,6 +17065,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Основные столбцы&lt;x2/&gt; — гистограмма, отображающая столбцы у дискретных гистограмм и сплошную заливку под непрерывной гладкой кривой у непрерывных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T161732Z" creationid="Марианна" creationdate="20211017T161732Z">
+        <seg>&lt;x1/&gt;Main columns&lt;x2/&gt;: the histogram that displays the columns of the discrete histograms and the solid fill under the continuous smooth curve of the continuous ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Основные.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T155942Z" creationid="Марианна" creationdate="20211005T155942Z">
