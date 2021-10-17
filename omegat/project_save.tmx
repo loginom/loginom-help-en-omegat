@@ -3518,8 +3518,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Итоги&lt;x4/&gt;  — показать/скрыть итоговые заголовки:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T205830Z" creationid="Марианна" creationdate="20211011T205830Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Show total&lt;x4/&gt;: show/hide final headers:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224554Z" creationid="Марианна" creationdate="20211011T205830Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Show totals&lt;x4/&gt;: show/hide final headers:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14407,6 +14407,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Итоги&lt;x2/&gt; — не показывать серии, сформированные на основе итоговых заголовков:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224649Z" creationid="Марианна" creationdate="20211017T224649Z">
+        <seg>&lt;x1/&gt;Show totals&lt;x2/&gt;: not to show the series generated on the basis of the final headers:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Итого&lt;x2/&gt; — колонка с количеством значений в колонках гистограммы генеральной совокупности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T102311Z" creationid="Марианна" creationdate="20211008T102311Z">
@@ -17459,6 +17467,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отображаемый факт&lt;x2/&gt; — позволяет выбрать отображаемый факт из списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224859Z" creationid="Марианна" creationdate="20211017T224859Z">
+        <seg>&lt;x1/&gt;Displayed measure&lt;x2/&gt; enables to select the displayed measure from the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Отображать завершенные процессы&lt;x2/&gt; — изменяет отображение процессов на панели:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073653Z" creationid="Марианна" creationdate="20200817T073653Z">
@@ -18679,6 +18695,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073358Z" creationid="Марианна" creationdate="20200817T073358Z">
         <seg>&lt;x1/&gt;Show node&lt;x2/&gt; enables to show the selected node in the Workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показать&lt;x2/&gt; &lt;x3/&gt;Показать&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224727Z" creationid="Марианна" creationdate="20211017T224727Z">
+        <seg>&lt;x1/&gt;Show&lt;x2/&gt; &lt;x3/&gt;Show&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21420,6 +21444,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135213Z" creationid="Марианна" creationdate="20200814T083032Z">
         <seg>&lt;x1/&gt;Hidden&lt;x2/&gt;: navigation through the objects for which there's no enough place in &lt;x3/&gt;Address bar&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Скрыть&lt;x2/&gt; &lt;x3/&gt;Скрыть&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224714Z" creationid="Марианна" creationdate="20211017T224714Z">
+        <seg>&lt;x1/&gt;Hide&lt;x2/&gt; &lt;x3/&gt;Hide&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
