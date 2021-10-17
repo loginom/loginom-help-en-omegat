@@ -2444,6 +2444,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231435Z" creationid="Марианна" creationdate="20211017T231435Z">
+        <seg>3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>3/n</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210419T093159Z" creationid="Марианна" creationdate="20210419T093159Z">
@@ -47738,6 +47746,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201011T103515Z" creationid="Марианна" creationdate="20201011T103515Z">
         <seg>ACF calculation area:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область содержит наименование, входные аргументы и описание &lt;x1/&gt;доступных для использования функций&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T231537Z" creationid="Марианна" creationdate="20211017T231537Z">
+        <seg>The area contains the name, input arguments and description of the &lt;x1/&gt;functions available for use&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
