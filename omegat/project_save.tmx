@@ -17075,6 +17075,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ограничения&lt;x2/&gt;  &lt;x3/&gt;Ограничения&lt;x4/&gt; — позволяет задать ограничения на количество серий/точек:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225020Z" creationid="Марианна" creationdate="20211017T225020Z">
+        <seg>&lt;x1/&gt;Restrictions&lt;x2/&gt;  &lt;x3/&gt;Restrictions&lt;x4/&gt; enables to set restrictions concerning the number of series/points:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничитель строк&lt;x2/&gt; – символ, обрамляющий значения ячейки загружаемого набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132552Z" creationid="Марианна" creationdate="20200826T090510Z">
