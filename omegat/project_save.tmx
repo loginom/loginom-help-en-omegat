@@ -23808,6 +23808,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; — позволяет экспортировать диаграмму в определённый формат:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225616Z" creationid="Марианна" creationdate="20211017T225616Z">
+        <seg>&lt;x1/&gt;Export&lt;x2/&gt; enables to export the chart to the given format:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Экспорт&lt;x2/&gt; — раздел предназначен для описания узлов наполнения внешних систем обработанными данными с целью их дальнейшего хранения, использования, пересылки или публикации;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T153324Z" creationid="Марианна" creationdate="20210215T153324Z">
