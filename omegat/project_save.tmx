@@ -37051,6 +37051,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для применения настроенного форматирования отображения необходимо нажать кнопку &lt;x1/&gt;Применить&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T112041Z" creationid="Марианна" creationdate="20211017T112041Z">
+        <seg>To apply the configured display formatting, it is required to press &lt;x1/&gt;Apply&lt;x2/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для примера возьмем две таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T160859Z" creationid="Марианна" creationdate="20201018T160859Z">
