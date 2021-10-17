@@ -19845,8 +19845,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в списке будут доступны только используемые факты и измерения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T232002Z" creationid="Марианна" creationdate="20211017T232002Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Only used measures and dimensions are available only in the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T232049Z" creationid="Марианна" creationdate="20211017T232002Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Only used measures and dimensions will be available only in the list.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41258,6 +41258,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T122137Z" creationid="Марианна" creationdate="20210217T122137Z">
         <seg>If the changed fields are highlighted in bold in the wizard, and they are reflected as the constant ones expected by the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Измерения, которые не были перенесены в строки, столбцы или область фильтрации, в списке доступны не будут.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T232207Z" creationid="Марианна" creationdate="20211017T232207Z">
+        <seg>The dimensions that have not been tranferred to rows, columns or filtration area will not be available in the list.</seg>
       </tuv>
     </tu>
     <tu>
