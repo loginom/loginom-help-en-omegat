@@ -11495,6 +11495,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Вид диаграммы&lt;x2/&gt; — позволяет выбрать вид отображаемой диаграммы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224048Z" creationid="Марианна" creationdate="20211017T224048Z">
+        <seg>&lt;x1/&gt;Chart type&lt;x2/&gt; enables to select the type of the displayed chart:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Вид цикла&lt;x2/&gt; — определение логики работы цикла, задается радиокнопкой:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135258Z" creationid="Марианна" creationdate="20200921T195513Z">
@@ -15127,6 +15135,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Линии&lt;x2/&gt; &lt;x3/&gt;Линии&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224106Z" creationid="Марианна" creationdate="20211017T224106Z">
+        <seg>&lt;x1/&gt;Lines&lt;x2/&gt; &lt;x3/&gt;Lines&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Логин&lt;x2/&gt; — логин пользователя БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T131342Z" creationid="Марианна" creationdate="20210118T111636Z">
@@ -16667,6 +16683,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T233312Z" creationid="Марианна" creationdate="20211010T233312Z">
         <seg>&lt;x1/&gt;Null model&lt;x2/&gt;: the initial model of the algorithm operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Области&lt;x2/&gt; &lt;x3/&gt;Области&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224118Z" creationid="Марианна" creationdate="20211017T224118Z">
+        <seg>&lt;x1/&gt;Areas&lt;x2/&gt; &lt;x3/&gt;Areas&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20528,6 +20552,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разброс&lt;x2/&gt; &lt;x3/&gt;Разброс&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224213Z" creationid="Марианна" creationdate="20211017T224213Z">
+        <seg>&lt;x1/&gt;Scatter&lt;x2/&gt; &lt;x3/&gt;Scatter&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Развернуть все&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172326Z" creationid="Марианна" creationdate="20211005T172326Z">
@@ -21216,6 +21248,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сглаженные области&lt;x2/&gt; &lt;x3/&gt;Сглаженные области&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224157Z" creationid="Марианна" creationdate="20211017T224157Z">
+        <seg>&lt;x1/&gt;Smoothed areas&lt;x2/&gt; &lt;x3/&gt;Smoothed areas&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сглаживание&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055558Z" creationid="Марианна" creationdate="20200812T055558Z">
@@ -21808,6 +21848,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сплайны&lt;x2/&gt; &lt;x3/&gt;Сплайны&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224130Z" creationid="Марианна" creationdate="20211017T224130Z">
+        <seg>&lt;x1/&gt;Splines&lt;x2/&gt; &lt;x3/&gt;Splines&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Способ детализации&lt;x2/&gt; — переключить варианты отображения &lt;x3/&gt;Детализации&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172026Z" creationid="Марианна" creationdate="20211005T161043Z">
@@ -21964,6 +22012,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135833Z" creationid="Марианна" creationdate="20210218T225327Z">
         <seg>&lt;x1/&gt;XML column&lt;x2/&gt;: selection of the column with the XML documents.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Столбчатая&lt;x2/&gt; &lt;x3/&gt;Столбчатая&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224143Z" creationid="Марианна" creationdate="20211017T224143Z">
+        <seg>&lt;x1/&gt;Columns&lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36178,6 +36234,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T143859Z" creationid="Марианна" creationdate="20211007T143859Z">
         <seg>The chart visually shows dependence of values of one field on the other one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Диаграмма куба имеет свою собственную Панель инструментов, которая содержит следующие кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223925Z" creationid="Марианна" creationdate="20211017T223925Z">
+        <seg>The cube chart has its own Toolbar that contains the following buttons:</seg>
       </tuv>
     </tu>
     <tu>
