@@ -16,4 +16,4 @@ The main window can be conventionally divided into 5 areas (refer to Figure 1):
 4. **[Toolbar](./toolbar.md)** provides configuration of the displayed data.
 5. **[Detailing](./details.md)** shows the source data set data filtered by the clusters selected in the *Main table*.
 
-> Note: Sizes of *Filtration panel*, *Cluster comparison panel* and *Detailing* can be changed by dragging the separator line with the left mouse button. The area will be hidden by double clicking the separator line or single clicking the middle part of the line.
+> Note: Sizes of *Filtration panel*, *Cluster comparison panel* and *Detailing* can be changed by dragging the separator line with the left mouse button. The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line.

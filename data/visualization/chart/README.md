@@ -7,7 +7,7 @@ The chart visually shows dependence of values of one field on the other one. Two
 ### Operations
 
 * ![](../../images/icons/toolbar-controls/fields-list_default.svg) Configure fields: show/hide the list of the data set fields.
-* ![](../../images/icons/toolbar-controls/setup_default.svg) [General settings](./general-settings.md): general chart settings. It is possible to open the configuration window using the toolbar or by double clicking the charting area with the left mouce button. A part of general settings (Rotate 90° – rotate the chart, Rationing, Navigator, Animation) is available on the toolbar.
+* ![](../../images/icons/toolbar-controls/setup_default.svg) [General settings](./general-settings.md): general chart settings. It is possible to open the configuration window using the toolbar or by double clicking on the charting area with the left mouce button. A part of general settings (Rotate 90° – rotate the chart, Rationing, Navigator, Animation) is available on the toolbar.
 * ![](../../images/icons/toolbar-controls/chart_default.svg) [Series editor](./series-settings.md): settings of the series list and parameters of particular series (graphic charts).
 * ![](../../images/icons/toolbar-controls/axis_default.svg) [Configure axes](./axis-settings.md).
 * ![](../../images/icons/toolbar-controls/animate_default.svg) Animation: data update is smoothly displayed.

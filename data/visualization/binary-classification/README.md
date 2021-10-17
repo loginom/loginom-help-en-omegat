@@ -8,7 +8,7 @@ The visualizer is divided into 3 areas:
 * [Область диаграммы](#oblast-diagrammy) — отображает диаграмму выбранную в области настроек;
 * [Область оценок классификации](#oblasti-otsenok-klassifikatsii) — содержит таблицы с оценками классификации.
 
-> **Примечание**: *Область оценок классификации* можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши. The area will be hidden by double clicking the separator line or single clicking the middle part of the line. Скрытие области возможно и для *Области настроек*.
+> **Примечание**: *Область оценок классификации* можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши. The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line. Скрытие области возможно и для *Области настроек*.
 
 ## Область настроек
 

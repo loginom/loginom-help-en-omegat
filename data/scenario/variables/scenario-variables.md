@@ -18,7 +18,7 @@ The action menu contains the following commands:
 * ![ ](../../images/icons/toolbar-controls/configure-viewers_default.svg) **Configure visualizers** enables to open the dialog of the visualizers configuration.
 * ![ ](../../images/icons/toolbar-controls/rows_default.svg) **Other actions** enable to call the context menu with the extended set of commands.
 
-To call the context menu of the port, it is required to click the port. The context menu contains the following commands:
+To call the context menu of the port, it is required to click on the port. The context menu contains the following commands:
 
 * ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Quick view** enables to call the variable [watch window](../../visualization/preview/quick-view.md). The command is available after the port activation.
 * ![ ](../../images/icons/toolbar-controls/setup_default.svg) **Configure port** enables to open the dialog of configuration of the variables values.

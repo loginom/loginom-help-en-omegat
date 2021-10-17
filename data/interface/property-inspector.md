@@ -19,7 +19,7 @@ The tree root in the *Property inspector* contains the component name used as a 
 
 > **Note:** It is not possible to change the order of the *Properties* and *Value* columns.
 
-It is possible to sort nodes in the *Property inspector* tree. For this purpose, it is required to click the header of the *Property* column. Subsequent pressing the header enables to change the sorting order or cancels it.
+It is possible to sort nodes in the *Property inspector* tree. For this purpose, it is required to click on the header of the *Property* column. Subsequent pressing the header enables to change the sorting order or cancels it.
 
 It is possible to select with mouse cursor any cell or range of cells of the *Property inspector* by clicking and copy its (their) value by pressing *Ctrl+C* combination of keys.
 

@@ -43,7 +43,7 @@ These actions and also possible methods of the port reaction to the structure ch
 
 ## Port Configuration
 
-It is possible to open the port configuration dialog by clicking the port with the mouse button. Then it is required to select "Configure port..." command. "Configure columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.
+It is possible to open the port configuration dialog by clicking on the port with the mouse button. Then it is required to select "Configure port..." command. "Configure columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.
 
 If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port congiguration interface provides an opportunity to set only the structure of the output data of the port.
 

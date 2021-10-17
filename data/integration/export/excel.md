@@ -24,4 +24,4 @@ The handler exports the table data to the files for Microsoft Excel. It is possi
 * **Excel file type**
    * Excel 2003 (.xls extension).
    * Excel 2007 (.xlsx extension).
-* **Activate and Show**: clicking this button shows in the wizard how the table in Excel will look like, and to change any parameters if it is required.
+* **Activate and Show**: clicking on this button shows in the wizard how the table in Excel will look like, and to change any parameters if it is required.

@@ -2,7 +2,7 @@
 
 The access modifier defines the object availability on different Package levels and between the Packages. The objects for which it is possible to set the access modifier are connections and nodes of the Workflow.
 
-To provide the accessibility setup, it is required to click the selected object with the right mouse button and select ![](../images/icons/toolbar-controls/access-rights_default.svg) "Configure visibility" option in the context menu. The window of settings selection will be opened:
+To provide the accessibility setup, it is required to click on the selected object with the right mouse button and select ![](../images/icons/toolbar-controls/access-rights_default.svg) "Configure visibility" option in the context menu. The window of settings selection will be opened:
 
 | Name | Icon | Visibility area |
 :----|:----:|:----

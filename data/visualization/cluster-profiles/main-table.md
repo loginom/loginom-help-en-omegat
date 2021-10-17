@@ -15,14 +15,14 @@ The table can be conventionally divided into 2 areas:
 
 1. Clusters in rows:
    * **#**: number of row;
-   * **Метка кластера** — порядковый номер кластера и кластер *Итого*, который содержит общую информацию по кластерам, если для текущего индикатора общее значение можно рассчитать;
-   * **Поддержка** — отношение количества строк данных в кластере к общему числу строк данных.
+   * **Cluster caption**: the order cluster number and *Total* cluster that contains the general information on clusters if it is possible to calculate the common value for the current indicator.
+   * **Support**: the ratio of the data rows count in the cluster to the total count of data rows.
 2. Clusters in columns:
    * **#**: number of row;
    * **Field caption**: field caption from the source data set.
    * **Type**: kind of the field data.
 
-> Примечание: *Колонки легенды* откреплять нельзя, за исключением колонки *Поддержка*.
+> Note: It is not allowed to deselect *Legend columns*, with the exception of *Support* column.
 
 ## Data Columns
 
@@ -31,32 +31,32 @@ The table can be conventionally divided into 2 areas:
 1. Clusters in rows:
    * **Field caption**: field caption from the source data set.
 2. Clusters in columns:
-   * **Метка кластера** — порядковый номер кластера и кластер *Итого*, который содержит общую информацию по кластерам, если для текущего индикатора общее значение можно рассчитать;
-   * **Поддержка** — отношение количества строк данных в кластере к общему числу строк данных.
+   * **Cluster caption**: the order cluster number and *Total* cluster that contains the general information on clusters if it is possible to calculate the common value for the current indicator.
+   * **Support**: the ratio of the data rows count in the cluster to the total count of data rows.
 
 ## Actions in the Table
 
-* **Одиночная сортировка** — сортировать колонку по текущему *Индикатору*. Тип сортировки можно выбрать двумя способами: через заголовочное меню выбранной колонки по клику на кнопку ![Раскрыть](../../images/icons/toolbar-controls/down_default.svg) и непосредственным кликом на колонку. При клике на колонку сортировка циклически меняется между следующими типами:
+* **Single sorting**: sort the column by the current *Indicator*. It is possible to select the sorting type in two ways: via the header menu of the selected column by clicking on ![Open](../../images/icons/toolbar-controls/down_default.svg) button and clicking on the column. When clicking on the column, the sorting is cyclically switched between the following types:
    * ![Ascending](../../images/icons/toolbar-controls/low-to-hight_default.svg) Ascending;
    * ![Descending](../../images/icons/toolbar-controls/hight-to-low_default.svg) Descending;
    * Clear sort.
-* **Перетаскивание колонок** — сменить расположение колонок друг относительно друга, для этого необходимо зажать левую кнопку мыши на метке колонки, которую необходимо перетащить, затем переместить курсор мыши в нужное место и отпустить левую кнопку мыши.
+* **Drag columns**: change location of columns relative to eaсh other. For this purpose, it is required to hold down the left mouse button on the column caption to be dragged and then move the mouse cursor to the required place and release the left mouse button.
 * **Закрепление/открепление колонки** — закрепить/открепить колонку, для этого необходимо в заголовочном меню колонки по клику на кнопку ![Раскрыть](../../images/icons/toolbar-controls/down_default.svg) выбрать пункт меню ![Снять закрепление столбца](../../images/icons/grid/hmenu-unlock.svg) *Снять закрепление столбца* или ![Закрепить столбец](../../images/icons/grid/hmenu-lock.svg) *Закрепить столбец*.
 * **Сокрытие/отображение столбцов легенды** — показать/скрыть столбцы легенды, для этого необходимо в их заголовочном меню по клику на кнопку ![Раскрыть](../../images/icons/toolbar-controls/down_default.svg) выбрать пункт меню ![Столбцы](../../images/icons/grid/columns.svg) *Столбцы* и снять/установить галочки на столбцах, которые необходимо скрыть или показать.
-* **Выделение ячеек** — выделить ячейки таблицы. There are two selection modes:
-   * **Одиночное** — сбрасывает все существующее выделение и выделяет только текущую ячейку. Выделение можно перемещать с помощью кнопок клавиатуры %kbd Up %, %kbd Down %, %kbd Left %, %kbd Right %.
-   * **Множественное** — выделяет сразу несколько ячеек, для множественного выделения необходимо при клике зажать клавишу %kbd Ctrl %, которая добавляет в выделение ячейку или удаляет ячейку из него. Если выделено несколько ячеек, то возможна смена текущего поля:
-      * Кнопками %kbd Up %, %kbd Down %, если поля в строках.
-      * Кнопками %kbd Left %, %kbd Right %, если поля в колонках.
+* **Select cells**: select the table cells. There are two selection modes:
+   * **Single** resets all current selection and selects only the current cell. Selection can be moved using the following keyboard keys: %kbd Up %, %kbd Down %, %kbd Left %, %kbd Right %.
+   * **Multiple**selects several cells at once. To use the multiple selection, it is required to hold down %kbd Ctrl % key that enables to add the cell to the selected ones or delete the cell from them. If several cells are selected, the following change of the current field is possible:
+      * using %kbd Up %, %kbd Down % buttons if fields are in rows.
+      * using %kbd Left %, %kbd Right % buttons if fields are in columns.
 
-> Примечание: Можно выделять только ячейки в пределах одного поля и одновременно может быть выделено не более 7 ячеек.
+> Note: It is possible to select only the cells within one field. It is possible to select not more than 7 cells at the same time.
 
 ## Histograms
 
 Histograms contain three types of columns:
 
-1. **Null столбец** — столбец с пропусками в дискретных гистограммах. Видимость столбца можно изменить с помощью кнопки ![Показывать null столбец в гистограммах](../../images/icons/toolbar-controls/null-count_default.svg) *Показывать null столбец в гистограммах* на [*Панели инструментов*](./toolbar.md).
-2. **Основные столбцы** — гистограмма, отображающая столбцы у дискретных гистограмм и сплошную заливку под непрерывной гладкой кривой у непрерывных.
-3. **Столбец "Прочие"** — столбец с аккумулированными значениями не уместившихся столбцов в дискретных гистограммах. Видимость столбца можно изменить с помощью кнопки ![Показывать столбец "Прочие" в гистограммах](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/residue-count_default.svg) *Показывать столбец "Прочие" в гистограммах* на *Панели инструментов*.
+1. **Null column**: the column with missing values in the discrete histograms. Column visibility can be changed using ![Show null column in histograms ](../../images/icons/toolbar-controls/null-count_default.svg) *Show null column in histograms * button on the [*Toolbar*](./toolbar.md).
+2. **Main columns**: the histogram that displays the columns of the discrete histograms and the solid fill under the continuous smooth curve of the continuous ones.
+3. **"Other" column**: the column with the accumulated values for which there was no enough space in the discrete histograms. Column visibility can be changed using ![Show "Other" column in histograms](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/residue-count_default.svg) *Show "Other" column in histograms* on the *Toolbar*.
 
-> Примечание: Текущее ограничение на количество столбцов для дискретной гистограммы в ячейке — 12.
+> Note: The current restriction of the column count for the discrete histogram in the cell — 12.

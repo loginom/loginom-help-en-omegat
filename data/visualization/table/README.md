@@ -49,7 +49,7 @@ To go to the given page, it is required to enter its number in the entry field l
 * **#**: number of row in the table;
 * **№**: row number in the source data set (for example, after filtration).
 
-It is possible to configure sorting by clicking the columns headers in the visualizer as such.
+It is possible to configure sorting by clicking on the columns headers in the visualizer as such.
 
 Value of each cell can be copied in the text format by pressing Ctrl+C keys combination.
 

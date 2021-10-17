@@ -4,7 +4,7 @@
 
 ### By Interface Tools
 
-1. It is required to click the Menu icon in the left upper corner upon Loginom start, and then you are to click the "About" menu option. The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).
+1. It is required to click on the Menu icon in the left upper corner upon Loginom start, and then you are to click the "About" menu option. The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).
 
 ### By OS Tools
 
@@ -20,7 +20,7 @@
 
 1. It is required to open the Loginom home page. There is a version number in the left lower corner before login/password entering (for example, Loginom X.X.X where X.X.X  is a version number).
 
-2. It is required to click the Menu icon in the left upper corner after Loginom authorization, and then you are to click "About". The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).
+2. It is required to click the Menu icon in the left upper corner after Loginom authorization, and then you are to click on "About". The new window with the version information will be opened (for example, Loginom X.X.X where X.X.X  is a version number).
 
 ### By OS Tools
 

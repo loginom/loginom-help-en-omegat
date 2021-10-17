@@ -21,7 +21,7 @@ The file manager toolbar provides the following file usage options:
 
 * ![](./images/icons/toolbar-controls/publish_default.svg) **Load**: load a file to the currently opened directory. It is required to select the file to be loaded in the pop-up Windows Explorer window. 
 * ![](./images/icons/toolbar-controls/add-folder_default.svg) **Create directory**: folder creation in the currently opened directory.
-* ![](./images/icons/toolbar-controls/download_default.svg) **Download**: dowload the selected item to the system folder for user downloads. It is also possible to download files by its double click of the left mouse button.
+* ![](./images/icons/toolbar-controls/download_default.svg) **Download**: dowload the selected item to the system folder for user downloads. It is also possible to download files by double clicking on them with the left mouse button.
 * ![](./images/icons/toolbar-controls/rename_default.svg) **Rename**: change the name of the selected folder.
 * ![](./images/icons/toolbar-controls/copy_default.svg) **Copy**: copy the selected file or folder to the clipboard.
 * ![](./images/icons/toolbar-controls/paste_default.svg) **Paste**: paste the copied or cut item to the current directory.
@@ -29,7 +29,7 @@ The file manager toolbar provides the following file usage options:
 * ![](./images/icons/toolbar-controls/delete_default.svg) **Delete**: delete the selected file or folder.
 * ![](./images/icons/toolbar-controls/refresh_default.svg) **Update list**: display the actual contents of the current directory.
 
-By clicking the item in the file manager with the right mouse button, it is possible to call the context menu in which all functions listed above are available, with the exception of ![](./images/icons/toolbar-controls/download_default.svg) *Load* and ![](./images/icons/toolbar-controls/add-folder_default.svg) *Create directory*. It is possible to call the context menu by clicking the free area of the file manager. It includes the following functions: ![](./images/icons/toolbar-controls/download_default.svg) *Load*, ![](./images/icons/toolbar-controls/add-folder_default.svg) *Create directory*, ![](./images/icons/toolbar-controls/paste_default.svg) *Paste* and ![](./images/icons/toolbar-controls/refresh_default.svg) *Update list*.
+By clicking on the item in the file manager with the right mouse button, it is possible to call the context menu in which all functions listed above are available, with the exception of ![](./images/icons/toolbar-controls/download_default.svg) *Load* and ![](./images/icons/toolbar-controls/add-folder_default.svg) *Create directory*. It is possible to call the context menu by clicking on the free area of the file manager. It includes the following functions: ![](./images/icons/toolbar-controls/download_default.svg) *Load*, ![](./images/icons/toolbar-controls/add-folder_default.svg) *Create directory*, ![](./images/icons/toolbar-controls/paste_default.svg) *Paste* and ![](./images/icons/toolbar-controls/refresh_default.svg) *Update list*.
 
 Drag and Drop file downloading is supported, namely, by dragging files to the file manager window. In this case, files are copied.
 

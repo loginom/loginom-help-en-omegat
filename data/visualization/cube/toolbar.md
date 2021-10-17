@@ -37,4 +37,4 @@ It contains the following control elements:
 
 [^1]: earlier added calculated measure can be edited or deleted in *Settings of measures* window.
 
-The specified operations are also available via the context menu that can be called by clicking any Construction area place with the right mouse button. Apart from the Toolbar buttons, there is ![ ](../../images/icons/checkbox-states/checked_default.svg) **Hide single measure** option in the context menu. It enables to hide headers of measures if the only measure is active.
+The specified operations are also available via the context menu that can be called by clicking on any Construction area place with the right mouse button. Apart from the Toolbar buttons, there is ![ ](../../images/icons/checkbox-states/checked_default.svg) **Hide single measure** option in the context menu. It enables to hide headers of measures if the only measure is active.

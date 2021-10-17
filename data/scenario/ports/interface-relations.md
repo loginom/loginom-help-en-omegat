@@ -19,7 +19,7 @@ The "Input" list toolbar contains the following commands:
 The "Output" list toolbar contains the following commands:
 
 * ![](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add the new field to the list of configured columns and open the dialog of its features editing.
-* ![](../../images/icons/toolbar-controls/edit_default.svg) **Configure** enables to open the dialog of editing of [field features](../../processors/transformation/fields-parameters.md). The dialog can be also opened by double clicking the selected field.
+* ![](../../images/icons/toolbar-controls/edit_default.svg) **Configure** enables to open the dialog of editing of [field features](../../processors/transformation/fields-parameters.md). The dialog can be also opened by double clicking on the selected field.
 * ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move up/down** enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).
 * ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [automapping of fields](./field-synchronization.md));
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when this mode is enabled, ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Map fields command will be automatically executed when executing the node.
@@ -38,6 +38,6 @@ Description of the Additional Wizard Commands:
 If it is required to configure several positions simultaneously, they can be selected using the following methods:
 
 * Press CTRL button and select them with one click of the left mouse button. The repeated field pressing deselects the field.
-* Click one field, press SHIFT button. Then it is required to click another field. The list of positions between these fields will be selected in the result.
+* Click on one field, press SHIFT button. Then it is required to click on another field. The list of positions between these fields will be selected in the result.
 
 Both methods can be successively applied. For example, first, it is required to select the list using SHIFT, then press CTRL and delete some fields from the list or select the others.

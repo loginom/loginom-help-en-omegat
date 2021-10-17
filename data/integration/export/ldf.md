@@ -21,6 +21,6 @@ It is possible to compress data using different algorithms.
    * None
    * [LZO](https://ru.wikipedia.org/wiki/LZO) (it is recommended and used by default)
 * **Bitness** enables to display information on bitness of the LGD file: 64 or 32 bits. Bitness of the LGD file depends on bitness of the used Loginom server.
-* **Activate and Show**: clicking this button shows in the wizard how the exported table will look like.
+* **Activate and Show**: clicking on this button shows in the wizard how the exported table will look like.
 
 > **Note:** It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the format of the DDF files in the Deductor platform used earlier. That's why these files cannot be imported to Deductor 5.3 and earlier.
