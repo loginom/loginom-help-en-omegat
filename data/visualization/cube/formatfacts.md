@@ -1,31 +1,31 @@
-# ![Форматирование](../../images/icons/cube/cases/case-format_default.svg) Форматирование
+# ![Formatting](../../images/icons/cube/cases/case-format_default.svg) Formatting
 
-Позволяет настроить формат отображения фактов и заголовков измерений в Кубе, выбрав нужный факт или заголовок в соответствующей вкладке в верхнем левом углу окна Форматирование (Рис. 1)
+It enables to set the format of display of measures and captions of dimensions in the Cube by selecting the required measure or caption in the corresponding tab in the upper left corner of the Formatting window (Figure  1)
 
-![Окно форматирования](./cube-format-fact.png)
+![Formatting window](./cube-format-fact.png)
 
-Во вкладке *Факты* доступны следующие опции форматирования:
+The following formatting options are available in the *Measures* tab:
 
-* ![Переключатель](../../images/icons/checkbox-states/checked_default.svg) **Отрицательные красным** — отрицательные значения будут отображаться красным цветом.
-* **Выравнивание** — позволяет настроить выравнивание значений в ячейках:
-   * **По горизонтали**:
-      * ![По левому краю](../../images/icons/toolbar-controls/v-align-left_default.svg) **По левому краю**.
-      * ![По правому краю](../../images/icons/toolbar-controls/v-align-right_default.svg) **По правому краю**.
-      * ![По центру](../../images/icons/toolbar-controls/v-align-center_default.svg) **По центру**.
-* ![Переключатель](../../images/icons/checkbox-states/checked_default.svg) **Форматирование**:
-   * **Число десятичных знаков** — количество отображаемых знаков после запятой.
-   * **Разделитель разрядов** — группировка цифр по разрядам.
-   * **Денежный знак** — позволяет добавить к отображаемому числу нужный знак.
-   * **Экспоненциальная форма** — отображение числа в нормализованной форме (степени числа 10).
+* ![Switch](../../images/icons/checkbox-states/checked_default.svg) **Negative in red**: the negative values will be displayed in red.
+* **Alignment** enables to configure alignment of values in cells:
+   * **Horizontal alignment**:
+      * ![Align left](../../images/icons/toolbar-controls/v-align-left_default.svg) **Align left**.
+      * ![Align right](../../images/icons/toolbar-controls/v-align-right_default.svg) **Align right**.
+      * ![Align center](../../images/icons/toolbar-controls/v-align-center_default.svg) **Align center**.
+* ![Switch](../../images/icons/checkbox-states/checked_default.svg) **Formatting**:
+   * **Decimal place limit**: the number of displayed decimal places.
+   * **Thousands separator**: digits grouping by decimal places.
+   * **Currency** enables to add the required sign to the displayed digit.
+   * **Exponential form**: display of digit in the normalized form (powers of 10).
 
-   * ![Переключатель](../../images/icons/checkbox-states/checked_default.svg) **Особый формат** — позволяет задать собственный формат отображения фактов, в случае если функционала стандартного форматирования недостаточно. К примеру, можно добавить отображение какого-либо символа.
+   * ![Switch](../../images/icons/checkbox-states/checked_default.svg) **Custom format** enables to set own format of measures display if the standard formatting functionality is not sufficient. For example, it is possible to add display of any character.
 
-   В этом же окне выводится текущее настроенное отображение:
-   * **Пример** — позволяет ввести пример значения, чтобы проверить корректность настроенного форматирования.
-   * **Результат** — итоговое форматирование, применённое к примеру.
+   The current configured view is also shown in this window:
+   * **Example** enables to enter the value example to check correctness of the configured formatting.
+   * **Result**: the final formatting applied to the example.
 
-Форматирование можно применять одновременно к нескольким фактам. Нужные факты можно выбрать, зажав клавишу Shift и кликнув по ним.
+Formatting can be applied to several measures at the same time. The required measures are selected. Then it is required to click on them while holding down the Shift key.
 
-Во вкладке *Измерения* доступны опции форматирования заголовков измерений. Настройка форматирования аналогична *Фактам*, кроме выделения отрицательных значений красным цветом.
+Options of dimensions captions formatting are available in the *Dimensions* tab. Formatting configuration is similar to *Measures*, with the exception of selection of negative values in red.
 
-Для применения настроенного форматирования отображения необходимо нажать кнопку *Применить*.
+To apply the configured display formatting, it is required to press *Apply* button.

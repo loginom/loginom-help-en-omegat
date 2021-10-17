@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/components/data-to-tree_default.svg) Table to Tree
 
-The **Table to Tree** node enables to transform the source data displayed in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form. In this case, the number of the nesting levels is not limited.
+The **Table to Tree** node enables to transform the source data represented in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form. In this case, the number of the nesting levels is not limited.
 
 ## Ports
 

@@ -1,6 +1,6 @@
 # Preview
 
-It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table. Filtration, change of data display format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator.
+It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator.
 
 It is available in [Import from database](../../integration/import/database.md), [Import from 1С](../../integration/import/1c-db.md) and [JavaScript](../../processors/transformation/java-script/README.md) wizards. When pressing *Preview* button, it is possible to activate all input ports, with the exception of the *Connections* connected with the current node. This window is opened when the activation is successfully finished.
 

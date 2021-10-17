@@ -1,6 +1,6 @@
 # ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Quick View of Data
 
-It provides the limited amount of data for information purposes in the form of the flat two-dimensional table. Filtration, change of data display format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
+It provides the limited amount of data for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
 
 This visualizer is available in any active output:
 

@@ -15,7 +15,7 @@ Detailing uses the data of the source data set filtered by the clusters selected
 * ![Record number](../../images/icons/toolbar-controls/rec-no_default.svg) **Record number**: switch representation of the column with order record number in this report.
 * ![Data types](../../images/icons/toolbar-controls/show-data-type_default.svg) **Data types**: switch data type icon representation.
 * ![Show null value](../../images/icons/toolbar-controls/null-count_default.svg) **Show null value**: switch *`<null>`* representation in the cells with null values.
-* ![Format](../../images/icons/toolbar-controls/format_default.svg) **Format**: open [format](../table/format.md) configuration window of data display.
+* ![Format](../../images/icons/toolbar-controls/format_default.svg) **Format**: open [format](../table/format.md) configuration window of data view.
 * ![Sort](../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort**: open data [sorting](../table/sorting.md) configuration window by columns.
 * ![Search](../../images/icons/toolbar-controls/zoom_default.svg): search for the next occurrence of the value specified in the search string. It is possible to [configure](../table/search.md) search by pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button.
 * ![Export](../../images/icons/toolbar-controls/export_default.svg) **Export to file (XLS)**:

@@ -1,6 +1,6 @@
 # ![](../../images/icons/toolbar-controls/format_default.svg) Format
 
-It enables to change the data display format in the table column and then set the column width and its visibility.
+It enables to change the data view format in the table column and then set the column width and its visibility.
 The format is set for the data types:
 
 * ![](../../images/icons/data-types/integer_default.svg) Integer;
