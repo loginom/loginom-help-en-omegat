@@ -29792,6 +29792,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Активировать просмотр диаграммы можно кнопкой &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; на &lt;x5/&gt;Панели инструментов&lt;x6/&gt; Куба.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223623Z" creationid="Марианна" creationdate="20211017T223623Z">
+        <seg>Активировать просмотр диаграммы можно кнопкой &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; on the Cube &lt;x5/&gt;Toolbar&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Активны будут ветви, указанные в списке &lt;x5/&gt;Выполнять ветвь условия&lt;x6/&gt;, который включает в себя:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T084509Z" creationid="Марианна" creationdate="20200924T084509Z">
