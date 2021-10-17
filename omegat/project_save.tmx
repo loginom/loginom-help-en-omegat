@@ -62663,6 +62663,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Является ошибкой II рода.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T213027Z" creationid="Марианна" creationdate="20211017T213027Z">
+        <seg>It is type II error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Явного импорта &lt;x5/&gt;функций &lt;x6/&gt;Калькулятора&lt;x7/&gt;&lt;x8/&gt; (как это делается в &lt;x9/&gt;компоненте &lt;x10/&gt;JavaScript&lt;x11/&gt;&lt;x12/&gt;) делать не нужно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T171847Z" creationid="Марианна" creationdate="20201020T171847Z">
