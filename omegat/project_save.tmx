@@ -21750,6 +21750,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Столбец "Прочие"&lt;x2/&gt; — столбец с аккумулированными значениями не уместившихся столбцов в дискретных гистограммах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T163431Z" creationid="Марианна" creationdate="20211017T163431Z">
+        <seg>&lt;x1/&gt;"Other" column&lt;x2/&gt;: the column with the accumulated values for which there was no enough space in the discrete histograms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Столбец, содержащий XML&lt;x2/&gt; — выбор столбца с документами XML.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T135833Z" creationid="Марианна" creationdate="20210218T225327Z">
