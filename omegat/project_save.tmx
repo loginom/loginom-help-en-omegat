@@ -21376,6 +21376,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Серий&lt;x2/&gt; — количество отображаемых серий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225118Z" creationid="Марианна" creationdate="20211017T225118Z">
+        <seg>&lt;x1/&gt;Series&lt;x2/&gt;: the number of displayed series.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Сертификат CA&lt;x2/&gt; — путь к файлу с корневым сертификатом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T131403Z" creationid="Марианна" creationdate="20210118T121914Z">
@@ -44963,6 +44971,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T094215Z" creationid="Марианна" creationdate="20210930T094134Z">
         <seg>It is allowed not to specify the port name (for example, &lt;x1/&gt;/Parameter1=true&lt;x2/&gt;. However, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 100 включительно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T225224Z" creationid="Марианна" creationdate="20211017T225224Z">
+        <seg>It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube rows up to 100 inclusively.</seg>
       </tuv>
     </tu>
     <tu>
