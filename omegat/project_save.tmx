@@ -12799,6 +12799,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt; Диаграмма</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223201Z" creationid="Марианна" creationdate="20211017T223201Z">
+        <seg>&lt;x1/&gt;Chart&lt;x2/&gt; Chart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграммы WoE и IV.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T101930Z" creationid="Марианна" creationdate="20211015T100927Z">
@@ -36130,6 +36138,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T094929Z" creationid="Марианна" creationdate="20211015T103112Z">
         <seg>Chart IV can display as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Диаграмма Куба представляет собой диаграмму заданного типа, построенную на основе Куба, но в отличие от обычной, она однозначно соответствует текущему состоянию Куба и при любых его изменениях меняется соответственно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T223557Z" creationid="Марианна" creationdate="20211017T223557Z">
+        <seg>The Cube chart represents the chart of the given type constructed on the Cube basis. As opposed to the standard one, it clearly matches the current state of the Cube, and in the case of all its changes, it changes correspondingly.</seg>
       </tuv>
     </tu>
     <tu>
