@@ -10484,8 +10484,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Активация и просмотр&lt;x2/&gt; — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как именно будет выглядеть таблица в Excel, и, если необходимо, изменить какие-либо параметры.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T194616Z" creationid="Марианна" creationdate="20200916T194545Z">
-        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking this button shows in the wizard how the table in Excel will look like, and to change any parameters if it is required.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152552Z" creationid="Марианна" creationdate="20200916T194545Z">
+        <seg>&lt;x1/&gt;Activate and Show&lt;x2/&gt;: clicking on this button shows in the wizard how the table in Excel will look like, and to change any parameters if it is required.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42313,8 +42313,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Клик правой кнопкой мыши по элементу в файловом менеджере вызывает контекстное меню, в котором содержатся все вышеперечисленных функции кроме &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Загрузить&lt;x4/&gt; и &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Создать каталог&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210925T100414Z" creationid="Марианна" creationdate="20210925T095934Z">
-        <seg>By clicking the item in the file manager with the right mouse button, it is possible to call the context menu in which all functions listed above are available, with the exception of &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt; and &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Create directory&lt;x8/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152333Z" creationid="Марианна" creationdate="20210925T095934Z">
+        <seg>By clicking on the item in the file manager with the right mouse button, it is possible to call the context menu in which all functions listed above are available, with the exception of &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Load&lt;x4/&gt; and &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Create directory&lt;x8/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45540,8 +45540,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Настроить сортировку можно, щёлкая на заголовки столбцов непосредственно в самом визуализаторе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T180943Z" creationid="Марианна" creationdate="20211005T180943Z">
-        <seg>It is possible to configure sorting by clicking the columns headers in the visualizer as such.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152518Z" creationid="Марианна" creationdate="20211005T180943Z">
+        <seg>It is possible to configure sorting by clicking on the columns headers in the visualizer as such.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48564,8 +48564,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Открыть диалог настройки порта можно одиночным кликом мыши по порту и последующим выбором команды "Настроить порт…".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T052657Z" creationid="Марианна" creationdate="20211005T052657Z">
-        <seg>It is possible to open the port configuration dialog by clicking the port with the mouse button. Then it is required to select "Configure port..." command.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152414Z" creationid="Марианна" creationdate="20211005T052657Z">
+        <seg>It is possible to open the port configuration dialog by clicking on the port with the mouse button. Then it is required to select "Configure port..." command.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53189,8 +53189,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При клике по свободной области файлового менеджера вызывает контекстное меню, в котором содержатся функции &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Загрузить&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Создать каталог&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Вставить&lt;x20/&gt; и &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Обновить список&lt;x24/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T055122Z" creationid="Марианна" creationdate="20210925T101122Z">
-        <seg>It is possible to call the context menu by clicking the free area of the file manager. It includes the following functions: &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Load&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Create directory&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Paste&lt;x20/&gt; and &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Update list&lt;x24/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152357Z" creationid="Марианна" creationdate="20210925T101122Z">
+        <seg>It is possible to call the context menu by clicking on the free area of the file manager. It includes the following functions: &lt;x9/&gt;&lt;x10/&gt; &lt;x11/&gt;Load&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt; &lt;x15/&gt;Create directory&lt;x16/&gt;, &lt;x17/&gt;&lt;x18/&gt; &lt;x19/&gt;Paste&lt;x20/&gt; and &lt;x21/&gt;&lt;x22/&gt; &lt;x23/&gt;Update list&lt;x24/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -58831,8 +58831,8 @@ String - string expression
       <tuv lang="ru">
         <seg>Так же добавить отчет можно нажав правой кнопкой мыши на необходимом визуализаторе и выбрать пункт меню "Добавить визуализатор в отчеты".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T095154Z" creationid="Марианна" creationdate="20210928T095154Z">
-        <seg>It is also possible to add the report by clicking the required visualizer with the right mouse button. Then it is required to select "Add visualizer to reports" menu option.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152404Z" creationid="Марианна" creationdate="20210928T095154Z">
+        <seg>It is also possible to add the report by clicking on the required visualizer with the right mouse button. Then it is required to select "Add visualizer to reports" menu option.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60245,8 +60245,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Указанные операции доступны также через контекстное меню, которое можно вызвать кликом правой клавиши мыши в любом месте Области построения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T211758Z" creationid="Марианна" creationdate="20211011T211636Z">
-        <seg>The specified operations are also available via the context menu that can be called by clicking any Construction area place with the right mouse button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T152539Z" creationid="Марианна" creationdate="20211011T211636Z">
+        <seg>The specified operations are also available via the context menu that can be called by clicking on any Construction area place with the right mouse button.</seg>
       </tuv>
     </tu>
     <tu>
