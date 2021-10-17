@@ -10804,10 +10804,26 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В столбцах&lt;x2/&gt; &lt;x3/&gt;В столбцах&lt;x4/&gt; — построение серии диаграммы по данным столбца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224432Z" creationid="Марианна" creationdate="20211017T224432Z">
+        <seg>&lt;x1/&gt;In columns&lt;x2/&gt; &lt;x3/&gt;In columns&lt;x4/&gt;: construction of the chart series according to the column data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В столбце&lt;x2/&gt; — следующее найденное значение будет подсвечено в выбранном столбце.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T224654Z" creationid="Марианна" creationdate="20211010T224654Z">
         <seg>&lt;x1/&gt;In column&lt;x2/&gt;: the next found value will be highlighted in the selected column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;В строках&lt;x2/&gt; &lt;x3/&gt;В строках&lt;x4/&gt; — построение серии диаграммы по данным строки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224524Z" creationid="Марианна" creationdate="20211017T224524Z">
+        <seg>&lt;x1/&gt;In rows&lt;x2/&gt; &lt;x3/&gt;In rows&lt;x4/&gt;: construction of the chart series according to the row data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20796,6 +20812,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T203041Z" creationid="Марианна" creationdate="20210208T203041Z">
         <seg>&lt;x1/&gt;XSLT path&lt;x2/&gt;: URL or path (in file storage) of XSLT file is specified in this field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Расположение серий&lt;x2/&gt; — позволяет выбрать расположение серий:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211017T224329Z" creationid="Марианна" creationdate="20211017T224329Z">
+        <seg>&lt;x1/&gt;Series position&lt;x2/&gt; enables to select position of series:</seg>
       </tuv>
     </tu>
     <tu>
