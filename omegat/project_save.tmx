@@ -14719,6 +14719,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Количество&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Count&lt;x4/&gt; ) — количество всех значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T092831Z" creationid="Марианна" creationdate="20211018T092831Z">
+        <seg>&lt;x1/&gt;Count&lt;x2/&gt; (&lt;x3/&gt;Measure name.Count&lt;x4/&gt; ): the count of all measures values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Колонки данных&lt;x2/&gt; состоят из следующих колонок:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T231000Z" creationid="Марианна" creationdate="20211011T231000Z">
