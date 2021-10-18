@@ -15503,6 +15503,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка агрегации&lt;x2/&gt; — значок для вычисляемого выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T085217Z" creationid="Марианна" creationdate="20211018T085217Z">
+        <seg>&lt;x1/&gt;Aggregation caption&lt;x2/&gt;: the sign for the calculated expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метка кластера&lt;x2/&gt; — колонки с количеством значений в колонках гистограмм кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211008T101852Z" creationid="Марианна" creationdate="20211008T101852Z">
@@ -48674,6 +48682,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T121201Z" creationid="Марианна" creationdate="20211005T121201Z">
         <seg>Configuration window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Окно настройки вычисляемого факта представлено на Рис.1 и условно разделено на 3 области.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T085420Z" creationid="Марианна" creationdate="20211018T085420Z">
+        <seg>The configuration window of the calculated measure is represented on Figure 1, and it is conventionally divided into 3 areas.</seg>
       </tuv>
     </tu>
     <tu>
