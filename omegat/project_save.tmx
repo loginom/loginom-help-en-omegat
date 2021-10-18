@@ -6566,8 +6566,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Уникальные значения&lt;x4/&gt;— подсчитывается количество уникальных значений;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145633Z" creationid="Марианна" creationdate="20211012T145633Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Unique values&lt;x4/&gt;: the number of unique values is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091922Z" creationid="Марианна" creationdate="20211012T145633Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Unique values&lt;x4/&gt;: the count of unique values is calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14057,8 +14057,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Индикатор&lt;x2/&gt; — длина закодированной строки равна n-1, где n — количество уникальных значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210428T200441Z" creationid="Марианна" creationdate="20210428T200441Z">
-        <seg>&lt;x1/&gt;Indicator&lt;x2/&gt;: the encoded string length is equal to n-1 where n is a number of unique values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091816Z" creationid="Марианна" creationdate="20210428T200441Z">
+        <seg>&lt;x1/&gt;Indicator&lt;x2/&gt;: the encoded string length is equal to n-1 where n is a count of unique values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14697,8 +14697,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество уникальных значений&lt;x2/&gt; Количество уникальных значений;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T162325Z" creationid="Марианна" creationdate="20211005T162325Z">
-        <seg>&lt;x1/&gt;Number of unique values&lt;x2/&gt; Number of unique values;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091852Z" creationid="Марианна" creationdate="20211005T162325Z">
+        <seg>&lt;x1/&gt;Count of unique values&lt;x2/&gt; Count of unique values;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23146,8 +23146,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Уникальные значения&lt;x2/&gt; &lt;x3/&gt;Уникальные значения&lt;x4/&gt; — подсчитывается количество уникальных значений;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T090102Z" creationid="Марианна" creationdate="20211015T090102Z">
-        <seg>&lt;x1/&gt;Unique values&lt;x2/&gt; &lt;x3/&gt;Unique values&lt;x4/&gt;: the number of unique values is calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091837Z" creationid="Марианна" creationdate="20211015T090102Z">
+        <seg>&lt;x1/&gt;Unique values&lt;x2/&gt; &lt;x3/&gt;Unique values&lt;x4/&gt;: the count of unique values is calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32608,8 +32608,8 @@ Several control elements are located over the table fields:</seg>
       <tuv lang="ru">
         <seg>В этом случае выходной набор данных содержит количество записей, равное количеству уникальных значений идентификатора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210224T063501Z" creationid="Марианна" creationdate="20210224T063501Z">
-        <seg>In this case, the output data set contains the number of records that is equal to the number of unique identifier values.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091807Z" creationid="Марианна" creationdate="20210224T063501Z">
+        <seg>In this case, the output data set contains the number of records that is equal to the count of unique identifier values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45137,16 +45137,16 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Можно указать от 1, но не менее количества уникальных значений измерений в столбцах куба, до 1000 включительно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T225506Z" creationid="Марианна" creationdate="20211017T225506Z">
-        <seg>It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube columns up to 1000 inclusively.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091908Z" creationid="Марианна" creationdate="20211017T225506Z">
+        <seg>It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube columns up to 1000 inclusively.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 100 включительно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T225224Z" creationid="Марианна" creationdate="20211017T225224Z">
-        <seg>It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube rows up to 100 inclusively.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091900Z" creationid="Марианна" creationdate="20211017T225224Z">
+        <seg>It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube rows up to 100 inclusively.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57501,8 +57501,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Следует учитывать, что максимальное количество уникальных значений в поле не должно превышать десять тысяч.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210720T112042Z" creationid="Марианна" creationdate="20210720T112042Z">
-        <seg>It is required to take into account that the maximum number of unique values in the field must not exceed ten thousand.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091825Z" creationid="Марианна" creationdate="20210720T112042Z">
+        <seg>It is required to take into account that the maximum count of unique values in the field must not exceed ten thousand.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61372,9 +61372,9 @@ to set parameters of the node settings.</seg>
         <seg>Участвующие в агрегации поля как у агрегации Среднее.|
 |&lt;x99/&gt;&lt;x100/&gt; Количество уникальных|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|Показывает количество уникальных значений записей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T162244Z" creationid="Марианна" creationdate="20210328T170341Z">
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091756Z" creationid="Марианна" creationdate="20210328T170341Z">
         <seg>The fields that are included into the aggregation are as for the Average aggregation.|
-|&lt;x99/&gt;&lt;x100/&gt; Count of unique|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|It displays the number of unique record values.</seg>
+|&lt;x99/&gt;&lt;x100/&gt; Count of unique|&lt;x101/&gt;•&lt;x102/&gt;|&lt;x103/&gt;•&lt;x104/&gt;|&lt;x105/&gt;•&lt;x106/&gt;|&lt;x107/&gt;•&lt;x108/&gt;|&lt;x109/&gt;•&lt;x110/&gt;|&lt;x111/&gt;•&lt;x112/&gt;|It displays the count of unique record values.</seg>
       </tuv>
     </tu>
     <tu>
