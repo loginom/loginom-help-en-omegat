@@ -31488,6 +31488,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В области ввода задается формула расчета выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T085748Z" creationid="Марианна" creationdate="20211018T085748Z">
+        <seg>The expression calculation formula is set in the entry area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В области кода в зависимости от выбранного синтаксиса калькулятора задается &lt;x1/&gt;формула расчета выражения&lt;x2/&gt; или &lt;x3/&gt;JavaScript код&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201015T084624Z" creationid="Марианна" creationdate="20201015T084624Z">
@@ -47712,8 +47720,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область ввода выражения</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211018T085550Z" creationid="Марианна" creationdate="20211018T085550Z">
-        <seg>Area of Expression Input</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T085710Z" creationid="Марианна" creationdate="20211018T085550Z">
+        <seg>The Expression Entry Area</seg>
       </tuv>
     </tu>
     <tu>
@@ -58599,6 +58607,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T204855Z" creationid="Марианна" creationdate="20210930T204855Z">
         <seg>References to Other Packages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ссылки на измерения, факты и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях, либо написав вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T090045Z" creationid="Марианна" creationdate="20211018T090045Z">
+        <seg>It is possible to insert references to dimensions, measures and syntactic constructions of functions into the expression code by double clicking on them in the corresponding areas or by manual writing.</seg>
       </tuv>
     </tu>
     <tu>
