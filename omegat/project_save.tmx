@@ -64751,6 +64751,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ссылки на используемые измерения и факты куба в виде наименования измерений и фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T090356Z" creationid="Марианна" creationdate="20211018T090356Z">
+        <seg>references to the used cube dimensions and measures in the form of dimensions and measures names;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>ссылки на переменные входного порта;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T164533Z" creationid="Марианна" creationdate="20201005T164533Z">
