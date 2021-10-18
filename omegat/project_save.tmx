@@ -47710,6 +47710,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область ввода выражения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T085550Z" creationid="Марианна" creationdate="20211018T085550Z">
+        <seg>Area of Expression Input</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область видимости</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215137Z" creationid="Марианна" creationdate="20210928T215137Z">
