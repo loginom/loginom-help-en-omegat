@@ -59725,6 +59725,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также в выражении недопустимо применять рекурсивные обращения к фактам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T090517Z" creationid="Марианна" creationdate="20211018T090517Z">
+        <seg>It is also not allowed to use the recursive calls to measures in the expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также в среди полей файлового менеджера присутствуют чекбокс и &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Удалить все&lt;x8/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T094231Z" creationid="Марианна" creationdate="20210925T094231Z">
