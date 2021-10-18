@@ -15623,6 +15623,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Метка&lt;x2/&gt; — строка, под которой факт будет виден в кубе и диаграмме;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T085047Z" creationid="Марианна" creationdate="20211018T085047Z">
+        <seg>&lt;x1/&gt;Caption&lt;x2/&gt;: the row under which the measure will be visible in the cube and chart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Метки&lt;x2/&gt; — столбец с метками столбцов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142719Z" creationid="Марианна" creationdate="20201111T164334Z">
