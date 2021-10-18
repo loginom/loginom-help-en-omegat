@@ -22072,6 +22072,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Среднее&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Avg&lt;x4/&gt; ) — среднее из всех значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T093508Z" creationid="Марианна" creationdate="20211018T093508Z">
+        <seg>&lt;x1/&gt;Average&lt;x2/&gt; (&lt;x3/&gt;Measure name.Avg&lt;x4/&gt; ): the average value of all measures values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Среднее&lt;x2/&gt; Среднее;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T201213Z" creationid="Марианна" creationdate="20211011T201213Z">
