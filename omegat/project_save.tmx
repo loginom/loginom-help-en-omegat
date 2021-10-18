@@ -36142,6 +36142,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Двойной клик мыши по позиции дерева измерений и фактов вводит имя измерения или факта с выбранной функцией агрегации в область ввода выражения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091219Z" creationid="Марианна" creationdate="20211018T091219Z">
+        <seg>Double click on the position of the dimensions and measures tree enables to enter the dimension or measure name with the selected aggregation function to the expression entry area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Двойной клик мыши по позиции списка вводит имя переменной в область кода выражения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T175903Z" creationid="Марианна" creationdate="20201005T175903Z">
