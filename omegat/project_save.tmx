@@ -50462,6 +50462,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переменная используется совместно с функциями &lt;x5/&gt;IF()/IFF()&lt;x6/&gt;, для модификации значений вычисляемого факта в итоговых ячейках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T092400Z" creationid="Марианна" creationdate="20211018T092400Z">
+        <seg>The variable is used with &lt;x5/&gt;IF()/IFF()&lt;x6/&gt; functions for modification of the calculated measure values in the total cells.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Переменная может выступать параметром условия в компоненте &lt;x1/&gt;Фильтр строк&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T083153Z" creationid="Марианна" creationdate="20201009T083153Z">
