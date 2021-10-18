@@ -20560,6 +20560,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пусто&lt;x2/&gt; (&lt;x3/&gt;Имя измерения.IsNull&lt;x4/&gt;) — проверка, является ли значение измерения пропущенным значением.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T092542Z" creationid="Марианна" creationdate="20211018T092542Z">
+        <seg>&lt;x1/&gt;Null&lt;x2/&gt; (&lt;x3/&gt;Dimension name.IsNull&lt;x4/&gt;): check whether the dimension value is the null value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Пусто&lt;x2/&gt; – текст, представляющий значение &lt;x3/&gt;Null&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132651Z" creationid="Марианна" creationdate="20200826T093609Z">
@@ -22380,6 +22388,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114218Z" creationid="Марианна" creationdate="20201124T114218Z">
         <seg>&lt;x1/&gt;Amount of group sales, thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сумма&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Sum&lt;x4/&gt; ) — сумма всех значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T092748Z" creationid="Марианна" creationdate="20211018T092748Z">
+        <seg>&lt;x1/&gt;Sum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Sum&lt;x4/&gt; ): the sum of all measures values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63867,6 +63883,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T174941Z" creationid="Марианна" creationdate="20201005T174941Z">
         <seg>and (asterisk-slash).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>и от способов агрегации фактов:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T092638Z" creationid="Марианна" creationdate="20211018T092638Z">
+        <seg>and on methods of measures aggregation:</seg>
       </tuv>
     </tu>
     <tu>
