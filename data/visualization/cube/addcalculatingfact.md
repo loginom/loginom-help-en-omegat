@@ -5,21 +5,21 @@ It enables to add one's own measure to the cube. It is calculated on the basis o
 It is required to set the following parameters:
 
 * **Name**: the identifier that can be used in formulas of other calculated measures.
-* **Метка** — строка, под которой факт будет виден в кубе и диаграмме;
+* **Caption**: the row under which the measure will be visible in the cube and chart.
 * **Data type**: the data type of the calculated expression.
-* **Метка агрегации** — значок для вычисляемого выражения.
+* **Aggregation caption**: the sign for the calculated expression.
 
-Окно настройки вычисляемого факта представлено на Рис.1 и условно разделено на 3 области.
+The configuration window of the calculated measure is represented on Figure 1, and it is conventionally divided into 3 areas.
 
 ![Configuration window of the calculated measure](./cube-calculating-fact.png)
 
-## 1. Область ввода выражения
+## 1. The Expression Entry Area
 
-В области ввода задается формула расчета выражения. Ссылки на измерения, факты и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях, либо написав вручную.
+The expression calculation formula is set in the entry area. It is possible to insert references to dimensions, measures and syntactic constructions of functions into the expression code by double clicking on them in the corresponding areas or by manual writing.
 
 The expression formula can contain the following components:
 
-* ссылки на используемые измерения и факты куба в виде наименования измерений и фактов;
+* references to the used cube dimensions and measures in the form of dimensions and measures names;
 * aggregation options of dimensions and measures;
 * brackets defining the order of operations execution;
 * characters of mathematical operations and relations;
@@ -31,26 +31,26 @@ The expression formula can contain the following components:
 
 The single-line comment starts from `//` (two slashes) characters, and it continues until the end of the string. The multi-line comment is represented by all characters included between `/*` (slash-asterisk) and `*/` (asterisk-slash).
 
-> **Important:** If the calculated measure expression is incorrect, all its cells consist of missing values. Также в выражении недопустимо применять рекурсивные обращения к фактам.
+> **Important:** If the calculated measure expression is incorrect, all its cells consist of missing values. It is also not allowed to use the recursive calls to measures in the expression.
 
 ## 2. List of Dimensions and Measures
 
 The area contains the list of dimensions and measures that can be used in the calculated measures.
 
-Двойной клик мыши по позиции дерева измерений и фактов вводит имя измерения или факта с выбранной функцией агрегации в область ввода выражения. То же самое можно сделать, написав имя измерения или факта в область ввода вручную.
+Double click on the position of the dimensions and measures tree enables to enter the dimension or measure name with the selected aggregation function to the expression entry area. The same actions can be done by manual writing the dimension or measure name in the entry area.
 
 The new measure is created on the basis of the existing measures and dimensions using some functions and derived variables from dimensions values:
 
-* **Value** (*Dimension name.Value*): dimension value. Можно опустить имя функции измерения, в таком случае по умолчанию будет функция Value, т.е. *Имя измерения* = *Имя измерения.Value*.
-* **Количество** (*Имя измерения.Count*) — количество уникальных значений измерения.
-* **Итог** (*Имя измерения.IsTotal*) — проверка, является ли значение измерения итогом. Переменная используется совместно с функциями *IF()/IFF()*, для модификации значений вычисляемого факта в итоговых ячейках.
-* **Пусто** (*Имя измерения.IsNull*) — проверка, является ли значение измерения пропущенным значением.
+* **Value** (*Dimension name.Value*): dimension value. It is possible to omit the dimension function name. In this case, the Value function will be used by default, namely, *Dimension name* = *Dimension name.Value*.
+* **Count** (*Dimension name.Count*): count of the unique values of dimensions.
+* **Total** (*Dimension name.IsTotal*): check whether the dimension value is total. The variable is used with *IF()/IFF()* functions for modification of the calculated measure values in the total cells.
+* **Null** (*Dimension name.IsNull*): check whether the dimension value is the null value.
 
-и от способов агрегации фактов:
+and on methods of measures aggregation:
 
-* **Сумма** (*Имя факта.Sum* ) — сумма всех значений фактов.
-* **Количество** (*Имя факта.Count* ) — количество всех значений фактов.
-* **Среднее** (*Имя факта.Avg* ) — среднее из всех значений фактов.
+* **Sum** (*Measure name.Sum* ): the sum of all measures values.
+* **Count** (*Measure name.Count* ): the count of all measures values.
+* **Average** (*Measure name.Avg* ): the average value of all measures values.
 * **Минимум** (*Имя факта.Min* ) — наименьшее из всех значений фактов.
 * **Максимум** (*Имя факта.Max* ) — наибольшее из всех значений фактов.
 * **Стандартное откл.** (*Имя факта.StdDev* ) — стандартное отклонение значений фактов.

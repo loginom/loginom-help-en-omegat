@@ -52,7 +52,7 @@ To go to the given page, it is required to enter its number in the entry field l
 * ![Transpose](../../images/icons/toolbar-controls/transform_default.svg) **Transpose**: turn of the table when the fields names are displayed in columns, and the statistical indicators are displayed in rows.
 * ![Configure fields](../../images/icons/toolbar-controls/fields-list_default.svg) **Configure fields…** : selection of the data set fields for which the statistical indicators will be calculated.
 * ![Configure indicators](../../images/icons/toolbar-controls/row-sum_default.svg) **Configure indicators…**: selection of the statistical indicators.
-* ![Unique values](../../images/icons/toolbar-controls/execute_default.svg) **Unique values**: the number of unique values is calculated.
+* ![Unique values](../../images/icons/toolbar-controls/execute_default.svg) **Unique values**: the count of unique values is calculated.
 * ![Order statistics](../../images/icons/toolbar-controls/execute_default.svg) **Order statistics**: the order statistics are calculated.
 * ![Histogram](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) **Histogram**: the operation that enables to open the detailed window with advanced histogram settings.
 

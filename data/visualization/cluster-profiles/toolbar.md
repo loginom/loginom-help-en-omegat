@@ -19,7 +19,7 @@ It contains the following control elements:
    * ![Range](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/range_default.svg) Range;
    * ![Null count](../../images/icons/toolbar-controls/null-count_default.svg) Null count;
    * ![Values](../../images/icons/toolbar-controls/count_default.svg) Values;
-   * ![Number of unique values](../../images/icons/toolbar-controls/unique-count_default.svg) Number of unique values;
+   * ![Count of unique values](../../images/icons/toolbar-controls/unique-count_default.svg) Count of unique values;
    * ![Cluster center](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/cluster-center_default.svg) Cluster center.
 * ![Importance by color](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/heatmap_default.svg) **Importance by color**: show/hide importance as the heat map. This option is reset and becomes inactive when *Histogram* indicator is selected.
 * ![Show null column in histograms ](../../images/icons/toolbar-controls/null-count_default.svg) **Show null column in histograms**: show/hide *null* column. The column visibility with null data is changed in the [*Main table*](./main-table.md) and *Cluster comparison panel* histograms.

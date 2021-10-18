@@ -21,8 +21,8 @@ The cube chart has its own Toolbar that contains the following buttons:
    * ![Show](../../images/icons/toolbar-controls/show-total-all_default.svg) **Show**.
 * **Displayed measure** enables to select the displayed measure from the list.
 * ![Restrictions](../../images/icons/toolbar-controls/cancel_default.svg)  **Restrictions** enables to set restrictions concerning the number of series/points:
-   * **Series**: the number of displayed series. It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube rows up to 100 inclusively.
-   * **Points**: the number of displayed points. It is possible to specify from 1 but not less than the number of unique values of dimensions in the cube columns up to 1000 inclusively.
+   * **Series**: the number of displayed series. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube rows up to 100 inclusively.
+   * **Points**: the number of displayed points. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube columns up to 1000 inclusively.
 * **Export** enables to export the chart to the given format:
    * **PNG**.
    * **JPEG**.

@@ -39,7 +39,7 @@ The component is designated for the table transformation to XML.
 * **XML Document Identification**: selection of one of the options used to fill XML with the input table data:
    * **The whole data set (it is used by default)**: all records of the input table will be included into the resulting XML. In this case, the output data set contains the only record.
    * **By rows**: XML will be generated for each input table record. In this case, the output data set contains the same number of records as the input table does. *ID* output column contains the integer value of the record number.
-   * **By identifier**: the output table records are grouped by the given identifier. XML will be generated for each group of records. In this case, the output data set contains the number of records that is equal to the number of unique identifier values. When this setting is selected, *ID* output column contains the identifier values.
+   * **By identifier**: the output table records are grouped by the given identifier. XML will be generated for each group of records. In this case, the output data set contains the number of records that is equal to the count of unique identifier values. When this setting is selected, *ID* output column contains the identifier values.
 
 > **Note**: If the input data set is empty, the row count is equal to zero at the output with any settings of *XML Document Identification*.
 

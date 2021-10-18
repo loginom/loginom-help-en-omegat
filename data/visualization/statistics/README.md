@@ -12,7 +12,7 @@
 * ![](../../images/icons/toolbar-controls/fields-list_default.svg) **Configure fields**: selection of the data set fields for which the statistical indicators will be calculated.
 * ![](../../images/icons/toolbar-controls/row-sum_default.svg) **Configure indicators**: selection of the statistical indicators.
 * ![](../../images/icons/toolbar-controls/execute_default.svg) **Order statistics**: the order statistics are calculated.
-* ![](../../images/icons/toolbar-controls/execute_default.svg) **Unique values**: the number of unique values is calculated.
+* ![](../../images/icons/toolbar-controls/execute_default.svg) **Unique values**: the count of unique values is calculated.
 * ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) **Histogram**: the operation that enables to open the detailed window with advanced histogram settings.
 
 > **Note:** It is possible to define the number of records of the data set to which this visualizer is applied in Row count of data column located in the right toolbar part, to the left from the ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) *Histogram* button.

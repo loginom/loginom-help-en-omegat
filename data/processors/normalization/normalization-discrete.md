@@ -1,6 +1,6 @@
 # Normalization of Discrete Data
 
-* **Indicator**: the encoded string length is equal to n-1 where n is a number of unique values. A separate column is assigned to each unique field value, with the exception of the reference category. Value 1 is recorded in it, whereas all other string values are equal to 0. The reference category is encoded using the string that consists of zeros.
+* **Indicator**: the encoded string length is equal to n-1 where n is a count of unique values. A separate column is assigned to each unique field value, with the exception of the reference category. Value 1 is recorded in it, whereas all other string values are equal to 0. The reference category is encoded using the string that consists of zeros.
 * **Indicator (without reference category)**: the encoded string length is equal to n. The reference value is not used.
 * **Deviation** means the same as the "Indicator", but the reference category is encoded using the string that consists of -1.
 * **Simple** means the same as the "Indicator", but value -1/n is used instead of 0, and value 1-1/n is used instead of 1.
