@@ -45119,6 +45119,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно опустить имя функции измерения, в таком случае по умолчанию будет функция Value, т.е. &lt;x5/&gt;Имя измерения&lt;x6/&gt; = &lt;x7/&gt;Имя измерения.Value&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091601Z" creationid="Марианна" creationdate="20211018T091601Z">
+        <seg>It is possible to omit the dimension function name. In this case, the Value function will be used by default, namely, &lt;x5/&gt;Dimension name&lt;x6/&gt; = &lt;x7/&gt;Dimension name.Value&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Можно указать от 1, но не менее количества уникальных значений измерений в столбцах куба, до 1000 включительно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T225506Z" creationid="Марианна" creationdate="20211017T225506Z">
