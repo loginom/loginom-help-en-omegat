@@ -60551,6 +60551,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>То же самое можно сделать, написав имя измерения или факта в область ввода вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T091333Z" creationid="Марианна" creationdate="20211018T091333Z">
+        <seg>The same actions can be done by manual writing the dimension or measure name in the entry area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>То же самое можно сделать, перетащив функцию из списка в область кода (Drag-and-Drop).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T231902Z" creationid="Марианна" creationdate="20211017T231806Z">
