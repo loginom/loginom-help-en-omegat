@@ -14455,6 +14455,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Итог&lt;x2/&gt; (&lt;x3/&gt;Имя измерения.IsTotal&lt;x4/&gt;) — проверка, является ли значение измерения итогом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211018T092127Z" creationid="Марианна" creationdate="20211018T092127Z">
+        <seg>&lt;x1/&gt;Total&lt;x2/&gt; (&lt;x3/&gt;Dimension name.IsTotal&lt;x4/&gt;): check whether the dimension value is total.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Итоги&lt;x2/&gt; — не показывать серии, сформированные на основе итоговых заголовков:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T224649Z" creationid="Марианна" creationdate="20211017T224649Z">
