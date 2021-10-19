@@ -32016,6 +32016,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В правой стороне окна перечислены используемые в кубе факты и примененные к ним агрегации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T110528Z" creationid="Марианна" creationdate="20211019T110528Z">
+        <seg>The measures used in the cube and aggregations applied to them are listed in the right part of the window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В правой таблице выбрать нужный параметр запроса и в столбце &lt;x1/&gt;Связанные поля&lt;x2/&gt; выбрать из выпадающего списка метку поля из входного набора;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T195907Z" creationid="Марианна" creationdate="20210225T195338Z">
