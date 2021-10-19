@@ -37861,6 +37861,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для получения точек серий строятся гистограммы распределения событий и не-событий в выборках.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T103426Z" creationid="Марианна" creationdate="20211019T103426Z">
+        <seg>To get series points, it is required to construct histograms of events and non-events distribution in samples.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для поля &lt;x1/&gt;Продажи, шт.&lt;x2/&gt; настроим параметр &lt;x3/&gt;Глубина истории&lt;x4/&gt; равным двум, а параметр &lt;x5/&gt;Горизонт прогноза&lt;x6/&gt; — равным единице.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201114T092124Z" creationid="Марианна" creationdate="20201114T091408Z">
