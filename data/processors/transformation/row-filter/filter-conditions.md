@@ -1,4 +1,4 @@
-# Filtering Conditions in the Row Filter Handler
+# Filtering Criteria in the Row Filter Handler
 
 A list of possible conditions and data types to which they can be applied.
 

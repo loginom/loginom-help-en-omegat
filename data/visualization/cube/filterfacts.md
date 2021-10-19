@@ -8,21 +8,21 @@ The dimensions used in the cube are located in the left part of the opened windo
 
 The measures used in the cube and aggregations applied to them are listed in the right part of the window.
 
-Для фильтрации нужно выбрать требуемое измерение в левой стороне окна, после этого станет активен список используемых в кубе фактов и их тип [агрегации](../../processors/func/aggregation-functions.md). Далее необходимо выбрать факт, по которому будет производиться фильтрация, затем задать условие фильтрации и его значение(я). To apply filtration, it is required to press *Filter* button.
+For the filtration purposes, it is required to select necessary dimension in the left part of the window. Then the list of the measures used in the cube and their [aggregation](../../processors/func/aggregation-functions.md) type will become active. Then it is required to select the measure by which filtration will be performed, then it is required to set filtering criterion and its value (values). To apply filtration, it is required to press *Filter* button.
 
-> **Примечание:** в случае применения фильтрации кнопка ![Факты](../../images/icons/toolbar-controls/sum_default.svg)Факты примет оранжевый цвет.
+> **Note:** When filtering is used, ![Measures](../../images/icons/toolbar-controls/sum_default.svg) Measures button will become orange.
 
 To disable filtration, it is required to select *(Filter disabled)* in the dimensions list and press *Filter* button.
 
 ## Filtering Criteria
 
-Ниже приведены пояснения к некоторым задаваемым условиям фильтрации.
+Explanations of some set filtration criteria are provided below.
 
-* **первые N** — значения измерения сортируются в порядке убывания факта и выбираются первые N значений измерения. Например, можно отобрать первые 10 самых продаваемых товаров или 5 наиболее "удачных" дней месяца.
+* **first N**: the dimension values are sorted in the measure descending order and the first N dimension values are selected. For example, it is possible to select the first 10 top-selling goods or 5 most "successful" days of the month.
 
-* **последние N** — значения измерения сортируются в порядке убывания факта и выбираются последние N значений. For example, 10 least popular goods.
-* **доля от общего** — значения измерения сортируются в порядке убывания факта. Далее выбирается столько первых значений измерения, сколько в сумме дадут заданную долю от общей суммы. Например, можно отобрать клиентов, приносящих 80% прибыли, или товары, продажи которых составляют 50% от общего объема.
+* **last N**: the dimension values are sorted in the measure descending order and the last N values are selected. For example, 10 least popular goods.
+* **part of total**: the dimension values are sorted in the measure descending order. Then only as much first dimension values are selected, as the set part of the total sum will be received in total. For example, it is possible to select the clients that generate 80% of profit or the goods sale of which constitutes 50% of the total volume.
 
-* **в интервале** — результатом отбора будут значения измерений, для которых значение соответствующего факта лежит в заданном интервале.
+* **within the range**: the selection result will be values of the dimensions for which value of the corresponding measure is within the set range.
 
-* **вне интервала** — результатом отбора будут значения измерений, для которых значение соответствующего факта отсутствует в заданном интервале.
+* **out of the range**: the selection result will be values of the dimensions for which value of the corresponding measure is not available in the set range.
