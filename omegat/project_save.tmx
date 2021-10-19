@@ -24216,6 +24216,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;доля от общего&lt;x2/&gt; — значения измерения сортируются в порядке убывания факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T132624Z" creationid="Марианна" creationdate="20211019T132624Z">
+        <seg>&lt;x1/&gt;part of total&lt;x2/&gt;: the dimension values are sorted in the measure descending order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;доступ&lt;x2/&gt; Настроить модификатор доступа…;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204306Z" creationid="Марианна" creationdate="20210208T204306Z">
@@ -35850,6 +35858,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T174350Z" creationid="Марианна" creationdate="20211005T174350Z">
         <seg>Then it is required to select the field name, &lt;x1/&gt;comparison ratio&lt;x2/&gt; (&lt;x3/&gt;Condition&lt;x4/&gt;) and comparison value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Далее выбирается столько первых значений измерения, сколько в сумме дадут заданную долю от общей суммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T133304Z" creationid="Марианна" creationdate="20211019T133304Z">
+        <seg>Then only as much first dimension values are selected, as the set part of the total sum will be received in total.</seg>
       </tuv>
     </tu>
     <tu>
