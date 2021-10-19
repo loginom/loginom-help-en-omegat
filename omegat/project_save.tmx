@@ -17907,6 +17907,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Панель инструментов Куба&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200302Z" creationid="Марианна" creationdate="20211019T200302Z">
+        <seg>&lt;x1/&gt;Cube Toolbar&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель инструментов&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065943Z" creationid="Марианна" creationdate="20200812T065943Z">
