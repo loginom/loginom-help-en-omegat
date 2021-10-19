@@ -37148,6 +37148,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для добавления визуализатора к узлу сценария требуется нажать кнопку &lt;x1/&gt;Настройка визуализаторов&lt;x2/&gt; &lt;x3/&gt;Настройка визуализаторов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T103847Z" creationid="Марианна" creationdate="20211019T103847Z">
+        <seg>To add any visualizer to the workflow node, it is required to press &lt;x1/&gt;Configure visualizers&lt;x2/&gt; &lt;x3/&gt;Configure visualizers&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для добавления данного поля следует выставить соответствующий флаг в мастере настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133401Z" creationid="Марианна" creationdate="20201011T103102Z">
