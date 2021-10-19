@@ -43643,6 +43643,14 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Количество измерений ограничено количеством доступных полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T201100Z" creationid="Марианна" creationdate="20211019T201100Z">
+        <seg>Count of dimensions is limited by the number of the available fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Количество интервалов — количество интервалов предварительного квантования.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T140448Z" creationid="Марианна" creationdate="20210528T182544Z">
@@ -57359,6 +57367,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210528T181354Z" creationid="Марианна" creationdate="20210528T181354Z">
         <seg>It is recommended to use it when there are many unique values in the continuous field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рекомендуется использовать не более 5-7 измерений, чтобы отчет был понятным и интерпретируемым.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T201216Z" creationid="Марианна" creationdate="20211019T201216Z">
+        <seg>It is recommended to use not more than 5-7 dimensions to make the report clear and interpretable.</seg>
       </tuv>
     </tu>
     <tu>
