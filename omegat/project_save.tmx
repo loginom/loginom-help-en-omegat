@@ -24360,6 +24360,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;первые N&lt;x2/&gt; — значения измерения сортируются в порядке убывания факта и выбираются первые N значений измерения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T131830Z" creationid="Марианна" creationdate="20211019T131830Z">
+        <seg>&lt;x1/&gt;first N&lt;x2/&gt;: the dimension values are sorted in the measure descending order and the first N dimension values are selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;переименовать&lt;x2/&gt; Переименовать подключение…;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T204344Z" creationid="Марианна" creationdate="20210208T204344Z">
