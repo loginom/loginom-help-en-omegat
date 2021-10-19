@@ -46396,6 +46396,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, можно отобрать клиентов, приносящих 80% прибыли, или товары, продажи которых составляют 50% от общего объема.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T133444Z" creationid="Марианна" creationdate="20211019T133444Z">
+        <seg>For example, it is possible to select the clients that generate 80% of profit or the goods sale of which constitutes 50% of the total volume.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, можно отобрать первые 10 самых продаваемых товаров или 5 наиболее "удачных" дней месяца.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211019T132041Z" creationid="Марианна" creationdate="20211019T132041Z">
