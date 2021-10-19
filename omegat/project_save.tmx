@@ -20238,6 +20238,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при перемещении полей в различные области могут появляться модальные окна подтверждения действия, если измерение или факт используются в активном вычисляемом факте или в фильтре по факту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T203220Z" creationid="Марианна" creationdate="20211019T203220Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When moving the fields to different areas, the modal windows of actions confirmation can appear if dimension or measure are used in the active calculated measure or in the filter by measure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей Нейросети на полном наборе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201223T091612Z" creationid="Марианна" creationdate="20201223T091612Z">
@@ -60337,6 +60345,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T121017Z" creationid="Марианна" creationdate="20210406T121017Z">
         <seg>As GUID will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache" expression parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Так как визуализатор Куб представляет собой плоскую двухмерную таблицу, то при отображении нескольких измерений заголовки образуют иерархическую систему (дерево заголовков).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T203845Z" creationid="Марианна" creationdate="20211019T203845Z">
+        <seg>As the Cube visualizer is a flat two-dimensional table, the headers form the hierarchic system (tree of headers) when displaying several dimensions.</seg>
       </tuv>
     </tu>
     <tu>
