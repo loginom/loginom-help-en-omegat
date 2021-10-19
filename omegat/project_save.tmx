@@ -12871,6 +12871,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; — графическое представление данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081553Z" creationid="Марианна" creationdate="20211019T081553Z">
+        <seg>&lt;x1/&gt;Chart&lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt; is a graphical type of data view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt; Диаграмма</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T223201Z" creationid="Марианна" creationdate="20211017T223201Z">
