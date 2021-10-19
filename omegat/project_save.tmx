@@ -35206,6 +35206,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выбранные значения будут отображаться в Кубе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T202351Z" creationid="Марианна" creationdate="20211019T202351Z">
+        <seg>The selected values will be displayed in the Cube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выбранные поля</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082725Z" creationid="Марианна" creationdate="20201006T082725Z">
@@ -38917,6 +38925,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211019T200946Z" creationid="Марианна" creationdate="20211019T200946Z">
         <seg>It is possible to add dimensions to the Cube in two ways:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавить факты можно двумя способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T202507Z" creationid="Марианна" creationdate="20211019T202507Z">
+        <seg>It is possible to add measures in two ways:</seg>
       </tuv>
     </tu>
     <tu>
@@ -51278,6 +51294,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перетащить (Drag-and-Drop) нужное поле из Области свободных полей (1) в Область фактов (3);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T202623Z" creationid="Марианна" creationdate="20211019T202623Z">
+        <seg>drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211019T201614Z" creationid="Марианна" creationdate="20211019T201524Z">
@@ -51820,6 +51844,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T125003Z" creationid="Марианна" creationdate="20210923T125003Z">
         <seg>It is set by the empty string by default. In this case, the LDAP users are not checked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию задан режим &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Множественный выбор&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T202445Z" creationid="Марианна" creationdate="20211019T202445Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Multiple selection&lt;x4/&gt; mode can be set by default.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62183,6 +62215,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T055654Z" creationid="Марианна" creationdate="20210224T055628Z">
         <seg>The drop-down list filter in &lt;x3/&gt;&lt;x4/&gt; state displays only the fields that have not been connected with items yet, and it displays all fields for selection in &lt;x5/&gt;&lt;x6/&gt; state.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фильтр может работать в трех режимах:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T202329Z" creationid="Марианна" creationdate="20211019T202329Z">
+        <seg>The filter can be used in three modes:</seg>
       </tuv>
     </tu>
     <tu>
