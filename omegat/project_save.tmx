@@ -46838,6 +46838,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка куба</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200434Z" creationid="Марианна" creationdate="20211019T200434Z">
+        <seg>Cube Configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка линейной регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T102008Z" creationid="Марианна" creationdate="20201215T102008Z">
@@ -48142,6 +48150,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Области со 2 по 5 представляют собой Область построения Куба.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200402Z" creationid="Марианна" creationdate="20211019T200402Z">
+        <seg>Areas from 2 to 5 represent the Cube construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область  отображения результатов квантования</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T202740Z" creationid="Марианна" creationdate="20210629T202740Z">
@@ -48224,8 +48240,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область измерений в строках;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200155Z" creationid="Марианна" creationdate="20211019T200155Z">
-        <seg>area of dimensions in rows;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200618Z" creationid="Марианна" creationdate="20211019T200155Z">
+        <seg>Area of Dimensions in Rows;</seg>
       </tuv>
     </tu>
     <tu>
@@ -48320,8 +48336,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область свободных полей;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200140Z" creationid="Марианна" creationdate="20211019T200140Z">
-        <seg>area of free fields;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200611Z" creationid="Марианна" creationdate="20211019T200140Z">
+        <seg>Area of Free Fields;</seg>
       </tuv>
     </tu>
     <tu>
@@ -58911,6 +58927,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141044Z" creationid="Марианна" creationdate="20201115T141044Z">
         <seg>The list complies with the input port fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Список столбцов, которые можно использовать в качестве измерений или фактов, отображается в Области свободных полей (1).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200600Z" creationid="Марианна" creationdate="20211019T200600Z">
+        <seg>The list of the columns that can be used as dimensions or measures is displayed in the Area of Free Fields (1).</seg>
       </tuv>
     </tu>
     <tu>
