@@ -38297,6 +38297,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для удаления визуализатора необходимо нажать кнопку &lt;x1/&gt;Удалить&lt;x2/&gt; в правом верхнем углу визуализатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T082410Z" creationid="Марианна" creationdate="20211019T082410Z">
+        <seg>To delete the visualizer, it is required to press &lt;x1/&gt;Delete&lt;x2/&gt; button in the right upper visualizer corner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для удаления какой-либо конкретной связи можно воспользоваться командой контекстного меню &lt;x9/&gt;Удалить связь&lt;x10/&gt;&lt;x11/&gt;Удалить связь&lt;x12/&gt;, вызванную на одном из связанных элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T164410Z" creationid="Марианна" creationdate="20200929T193953Z">
