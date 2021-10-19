@@ -37973,6 +37973,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для применения фильтрации нужно нажать кнопку &lt;x3/&gt;Фильтровать&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T110703Z" creationid="Марианна" creationdate="20211019T110703Z">
+        <seg>To apply filtration, it is required to press &lt;x3/&gt;Filter&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для примера возьмем две таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201018T160859Z" creationid="Марианна" creationdate="20201018T160859Z">
@@ -62851,6 +62859,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T230010Z" creationid="Марианна" creationdate="20211017T230010Z">
         <seg>To disable the series, it is required to press it on the chart legend.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы отключить фильтрацию, в списке измерений необходимо выбрать &lt;x1/&gt;(Не фильтровать)&lt;x2/&gt; и нажать кнопку &lt;x3/&gt;Фильтровать&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T111033Z" creationid="Марианна" creationdate="20211019T111033Z">
+        <seg>To disable filtration, it is required to select &lt;x1/&gt;(Filter disabled)&lt;x2/&gt; in the dimensions list and press &lt;x3/&gt;Filter&lt;x4/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
