@@ -14639,6 +14639,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кол-во пропусков&lt;x2/&gt; (&lt;x3/&gt;Имя факта.NullCount&lt;x4/&gt; ) — количество пропущенных значений факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073535Z" creationid="Марианна" creationdate="20211019T073535Z">
+        <seg>&lt;x1/&gt;Null count&lt;x2/&gt; (&lt;x3/&gt;Measure name.NullCount&lt;x4/&gt; ): count of the null values of measure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кол-во строк для анализа&lt;x2/&gt; — задает количество строк данных, которые будут представлены в таблице для анализа (от 1 до 200);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200825T191747Z" creationid="Марианна" creationdate="20200825T191649Z">
@@ -18011,6 +18019,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Первый&lt;x2/&gt; (&lt;x3/&gt;Имя факта.First&lt;x4/&gt; ) — первое по списку значение факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073620Z" creationid="Марианна" creationdate="20211019T073620Z">
+        <seg>&lt;x1/&gt;First&lt;x2/&gt; (&lt;x3/&gt;Measure name.First&lt;x4/&gt; ): the first measure value in the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Перейти к строке&lt;x2/&gt; — перейти к строке с заданным номером (доступно в контекстном меню).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T215116Z" creationid="Марианна" creationdate="20211011T215116Z">
@@ -19255,6 +19271,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T141720Z" creationid="Марианна" creationdate="20201115T141720Z">
         <seg>&lt;x1/&gt;Order&lt;x2/&gt;: the field can take &lt;x3/&gt;Ascending&lt;x4/&gt; &lt;x5/&gt;&lt;x6/&gt; and &lt;x7/&gt;Descending&lt;x8/&gt; &lt;x9/&gt;&lt;x10/&gt; values;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Последний&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Last&lt;x4/&gt; ) — последнее по списку значение факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073659Z" creationid="Марианна" creationdate="20211019T073659Z">
+        <seg>&lt;x1/&gt;Last&lt;x2/&gt; (&lt;x3/&gt;Measure name.Last&lt;x4/&gt; ): the last measure value in the list.</seg>
       </tuv>
     </tu>
     <tu>
