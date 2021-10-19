@@ -33414,6 +33414,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор представляет собой инструмент, позволяющий пользователю выбрать удобный вариант отображения данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081458Z" creationid="Марианна" creationdate="20211019T081458Z">
+        <seg>Visualizer is a tool that provides convenient option of data view for a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализатор разделен на 3 области:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224402Z" creationid="Марианна" creationdate="20211011T224402Z">
