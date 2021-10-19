@@ -32716,6 +32716,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В таких случаях рекомендуется временно отключать обновление данных кнопкой &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Приостановить автовычисление&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T201722Z" creationid="Марианна" creationdate="20211019T201722Z">
+        <seg>In these cases it is recommended to disable data update using &lt;x3/&gt; &lt;x4/&gt; &lt;x5/&gt;Defer layout update&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В таком случае данные поступают в основной алгоритм без предварительной обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210428T144108Z" creationid="Марианна" creationdate="20210428T144108Z">
