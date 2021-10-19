@@ -24384,6 +24384,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;последние N&lt;x2/&gt; — значения измерения сортируются в порядке убывания факта и выбираются последние N значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T132056Z" creationid="Марианна" creationdate="20211019T132056Z">
+        <seg>&lt;x1/&gt;last N&lt;x2/&gt; — значения измерения сортируются в порядке убывания факта и выбираются последние N значений.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;протокол&lt;x2/&gt; — протокол, используемый сервером для взаимодействия с клиентом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T131455Z" creationid="Марианна" creationdate="20210121T083502Z">
@@ -46368,6 +46376,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210523T141249Z" creationid="Марианна" creationdate="20210523T134244Z">
         <seg>For example, if 50 value is set for this parameter, the fileds that contain more than 50% of null data will not be filled in.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, можно отобрать первые 10 самых продаваемых товаров или 5 наиболее "удачных" дней месяца.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T132041Z" creationid="Марианна" creationdate="20211019T132041Z">
+        <seg>For example, it is possible to select the first 10 top-selling goods or 5 most "successful" days of the month.</seg>
       </tuv>
     </tu>
     <tu>
