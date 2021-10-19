@@ -15177,8 +15177,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Куб&lt;x2/&gt; является одним из распространенных методов комплексного многомерного анализа данных, получивших название &lt;x3/&gt;OLAP&lt;x4/&gt; (OnLine Analytical Processing).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T194539Z" creationid="Марианна" creationdate="20211019T194539Z">
-        <seg>&lt;x1/&gt;Cube&lt;x2/&gt; is one of the wide spread methods of the complex multidimensional data analysis that has been called &lt;x3/&gt;OLAP&lt;x4/&gt; (OnLine Analytical Processing).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T194739Z" creationid="Марианна" creationdate="20211019T194539Z">
+        <seg>&lt;x1/&gt;Cube&lt;x2/&gt; is one of the wide spread methods of the complex multidimensional data analysis called &lt;x3/&gt;OLAP&lt;x4/&gt; (OnLine Analytical Processing).</seg>
       </tuv>
     </tu>
     <tu>
@@ -31282,8 +31282,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В его основе лежит представление данных в виде многомерных кубов, называемых также OLAP-кубами или гиперкубами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T194733Z" creationid="Марианна" creationdate="20211019T194733Z">
-        <seg>It is based on data view in the form of the multidimensional cubes that are called also OLAB cubes or hypercubes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T194806Z" creationid="Марианна" creationdate="20211019T194733Z">
+        <seg>It is based on data view in the form of the multidimensional cubes that are also called OLAB cubes or hypercubes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44363,6 +44363,14 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
 The minimum number of the unique values is set for the column = 4&lt;x2/&gt;
 With string: Point of sale&lt;x3/&gt;
 Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Куб — это удобное средство визуализации многомерных данных и получения необходимых форм отчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T195046Z" creationid="Марианна" creationdate="20211019T195046Z">
+        <seg>Cube is a convenient tool used for visualization of the multidimensional data and production of the required report forms.</seg>
       </tuv>
     </tu>
     <tu>
