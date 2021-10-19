@@ -11222,6 +11222,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: Данные не каждого порта возможно отобразить выбранным визуализатором.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T082040Z" creationid="Марианна" creationdate="20211019T082040Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: It not possible to display data for each port by the selected visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: При выполнении &lt;x3/&gt;Узла-ссылки&lt;x4/&gt; выполняется узел, являющийся источником ссылки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105627Z" creationid="Марианна" creationdate="20200919T105627Z">
