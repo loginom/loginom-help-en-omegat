@@ -38037,6 +38037,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для построения отчета с помощью Куба нужно добавить требуемые измерения в строки или колонки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200900Z" creationid="Марианна" creationdate="20211019T200900Z">
+        <seg>To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для пояснения полученного выражения калькулятор поддерживает два типа комментария:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201014T062457Z" creationid="Марианна" creationdate="20201014T062457Z">
@@ -38893,6 +38901,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T082528Z" creationid="Марианна" creationdate="20201006T082528Z">
         <seg>It is possible to add the selected fields to the &lt;x1/&gt;Selected fields&lt;x2/&gt; list using the following ways:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавить измерения в Куб можно двумя способами:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200946Z" creationid="Марианна" creationdate="20211019T200946Z">
+        <seg>It is possible to add dimensions to the Cube in two ways:</seg>
       </tuv>
     </tu>
     <tu>
@@ -41722,6 +41738,14 @@ etc.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210217T122137Z" creationid="Марианна" creationdate="20210217T122137Z">
         <seg>If the changed fields are highlighted in bold in the wizard, and they are reflected as the constant ones expected by the port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Измерения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200751Z" creationid="Марианна" creationdate="20211019T200751Z">
+        <seg>Dimensions</seg>
       </tuv>
     </tu>
     <tu>
@@ -48232,8 +48256,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область измерений в колонках;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200225Z" creationid="Марианна" creationdate="20211019T200225Z">
-        <seg>area of measures in columns;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200632Z" creationid="Марианна" creationdate="20211019T200225Z">
+        <seg>Area of Measures in Columns;</seg>
       </tuv>
     </tu>
     <tu>
@@ -48384,16 +48408,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область фактов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200207Z" creationid="Марианна" creationdate="20211019T200207Z">
-        <seg>area of measures;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200624Z" creationid="Марианна" creationdate="20211019T200207Z">
+        <seg>Area of Measures;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Область фильтрации по измерениям;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200249Z" creationid="Марианна" creationdate="20211019T200249Z">
-        <seg>area of filtration by dimensions;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200641Z" creationid="Марианна" creationdate="20211019T200249Z">
+        <seg>Area of Filtration by Dimensions;</seg>
       </tuv>
     </tu>
     <tu>
@@ -61443,6 +61467,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201116T060409Z" creationid="Марианна" creationdate="20201116T060409Z">
         <seg>Satisfactory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уже используемые в Кубе столбцы отображаются жирным шрифтом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200743Z" creationid="Марианна" creationdate="20211019T200743Z">
+        <seg>The columns already used in the Cube are displayed in bold type.</seg>
       </tuv>
     </tu>
     <tu>
