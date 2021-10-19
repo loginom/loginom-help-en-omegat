@@ -38473,6 +38473,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для фильтрации нужно выбрать требуемое измерение в левой стороне окна, после этого станет активен список используемых в кубе фактов и их тип &lt;x1/&gt;агрегации&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T131004Z" creationid="Марианна" creationdate="20211019T131004Z">
+        <seg>For the filtration purposes, it is required to select necessary dimension in the left part of the window. Then the list of the measures used in the cube and their &lt;x1/&gt;aggregation&lt;x2/&gt; type will become active.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для фильтров в OpenLDAP может потребоваться дополнительная настройка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210923T133341Z" creationid="Марианна" creationdate="20210923T133341Z">
