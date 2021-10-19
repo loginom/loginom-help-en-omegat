@@ -11092,6 +11092,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; во время настройки Куба, особенно при работе с большими объемами данных, обновление Области фактов (3) может занимать продолжительное время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T202913Z" creationid="Марианна" creationdate="20211019T202913Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; When configuring the Cube, especially when working with large data volumes, update of the Area of Measures (3) can take long time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; все незарезервированные параметры в строке запуска интерпретируются как параметры установки значений переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T094511Z" creationid="Марианна" creationdate="20210930T094511Z">
