@@ -24194,8 +24194,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;вне интервала&lt;x2/&gt; — результатом отбора будут значения измерений, для которых значение соответствующего факта отсутствует в заданном интервале.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T134603Z" creationid="Марианна" creationdate="20211019T134603Z">
-        <seg>&lt;x1/&gt;out of the range&lt;x2/&gt;: the selection result wil be values of the dimensions for which value of the corresponding measure is not available in the set range.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T134710Z" creationid="Марианна" creationdate="20211019T134603Z">
+        <seg>&lt;x1/&gt;out of the range&lt;x2/&gt;: the selection result will be values of the dimensions for which value of the corresponding measure is not available in the set range.</seg>
       </tuv>
     </tu>
     <tu>
