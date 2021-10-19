@@ -15783,6 +15783,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Min&lt;x4/&gt; ) — наименьшее из всех значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T072634Z" creationid="Марианна" creationdate="20211019T072634Z">
+        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Min&lt;x4/&gt; ): the least value from all values of measures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; Минимум;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T161223Z" creationid="Марианна" creationdate="20211005T161223Z">
