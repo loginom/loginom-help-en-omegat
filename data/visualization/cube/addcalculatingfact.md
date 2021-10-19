@@ -51,16 +51,16 @@ and on methods of measures aggregation:
 * **Sum** (*Measure name.Sum* ): the sum of all measures values.
 * **Count** (*Measure name.Count* ): the count of all measures values.
 * **Average** (*Measure name.Avg* ): the average value of all measures values.
-* **Минимум** (*Имя факта.Min* ) — наименьшее из всех значений фактов.
-* **Максимум** (*Имя факта.Max* ) — наибольшее из всех значений фактов.
-* **Стандартное откл.** (*Имя факта.StdDev* ) — стандартное отклонение значений фактов.
-* **Сумма квадратов** (*Имя факта.SumSq* ) — сумма квадратов всех значений фактов.
-* **Кол-во уникальных** (*Имя факта.UniqueCount* ) — количество уникальных значений факта.
-* **Кол-во пропусков** (*Имя факта.NullCount* ) — количество пропущенных значений факта.
-* **Первый** (*Имя факта.First* ) — первое по списку значение факта.
-* **Последний** (*Имя факта.Last* ) — последнее по списку значение факта.
+* **Minimum** (*Measure name.Min* ): the least value from all measures values.
+* **Maximum** (*Measure name.Max* ): the highest value from all measures values.
+* **Standard deviation** (*Measure name.StdDev* ): the standard deviation of measures values.
+* **Sum of squares** (*Measure name.SumSq* ): the sum of squares of all measures values.
+* **Count of unique** (*Measure name.UniqueCount* ): count of the unique measure values.
+* **Null count** (*Measure name.NullCount* ): count of the null values of measure.
+* **First** (*Measure name.First* ): the first measure value in the list.
+* **Last** (*Measure name.Last* ): the last measure value in the list.
 
-Внутри каждого из способов агрегации имеется доступ к итоговым значениям по каждому измерению **Итог** (*Имя факта.Sum.Total.Имя измерения*).
+Access is provided to the total values for each dimension **Total** (*Measure name.Sum.Total.Dimension name*) in each of the aggregation methods.
 
 > **Note:** Only used measures and dimensions will be available only in the list. The dimensions that have not been tranferred to rows, columns or filtration area will not be available in the list.
 
