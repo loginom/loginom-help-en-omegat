@@ -1,44 +1,44 @@
-# ![Визуализатор Куб](../../images/icons/view_types/cube_default.svg) Куб
+# ![Cube Visualiser](../../images/icons/view_types/cube_default.svg) Куб
 
-[Куб](https://wiki.loginom.ru/articles/cube.html) является одним из распространенных методов комплексного многомерного анализа данных, получивших название [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). В его основе лежит представление данных в виде многомерных кубов, называемых также OLAP-кубами или гиперкубами.
+[Cube](https://wiki.loginom.ru/articles/cube.html) is one of the wide spread methods of the complex multidimensional data analysis called [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). It is based on data view in the form of the multidimensional cubes that are also called OLAB cubes or hypercubes.
 
-Куб — это удобное средство визуализации многомерных данных и получения необходимых форм отчетов. Он содержит измерения и факты, определенные при построении. К основной особенности куба относится то, что его структура не является жестко определенной. Манипулируя с помощью мыши заголовками измерений, пользователь может добиться наиболее информативного представления куба.
+Cube is a convenient tool used for visualization of the multidimensional data and production of the required report forms. It contains dimensions and measures defined while constructing. The main cube peculiarity is that its structure is not strictly defined. Using the mouse for dimensions headers manipulation, a user can provide the most informative cube display.
 
 ## Interface
 
 The main window will be opened after addition to the visualizer node (Figure 1):
 
-![Главное окно Куба](./cube-main-window.png)
+![The Main Cube Window](./cube-main-window.png)
 
-Главное окно условно можно разделить на 6 областей:
+The main window can be conventionally divided into 6 areas:
 
-1. Область свободных полей;
-2. Область измерений в строках;
-3. Область фактов;
-4. Область измерений в колонках;
-5. Область фильтрации по измерениям;
-6. [Панель инструментов Куба](./toolbar.md).
+1. Area of Free Fields;
+2. Area of Dimensions in Rows;
+3. Area of Measures;
+4. Area of Measures in Columns;
+5. Area of Filtration by Dimensions;
+6. [Cube Toolbar](./toolbar.md).
 
-Области со 2 по 5 представляют собой Область построения Куба.
+Areas from 2 to 5 represent the Cube construction area.
 
-> **Важно:** во время настройки Куба, особенно при работе с большими объемами данных, обновление Области фактов (3) может занимать продолжительное время. В таких случаях рекомендуется временно отключать обновление данных кнопкой ![ ](../../images/icons/toolbar-controls/locked_default.svg) *Приостановить автовычисление*.
+> **Important:** When configuring the Cube, especially when working with large data volumes, update of the Area of Measures (3) can take long time. In these cases it is recommended to disable data update temporally using ![ ](../../images/icons/toolbar-controls/locked_default.svg) *Defer layout update* button.
 
-### Настройка куба
+### Cube Configuration
 
-Список столбцов, которые можно использовать в качестве измерений или фактов, отображается в Области свободных полей (1). Уже используемые в Кубе столбцы отображаются жирным шрифтом.
+The list of the columns that can be used as dimensions or measures is displayed in the Area of Free Fields (1). The columns already used in the Cube are displayed in bold type.
 
-#### Измерения
+#### Dimensions
 
-Для построения отчета с помощью Куба нужно добавить требуемые измерения в строки или колонки. Добавить измерения в Куб можно двумя способами:
+To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns. It is possible to add dimensions to the Cube in two ways:
 
-* Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4);
-* Нажать кнопку ![Добавить](../../images/icons/toolbar-controls/plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
+* drag (Drag-and-Drop) field from the Area of Free Fields (1) to the Area of Dimensions of columns or rows (2 or 4);
+* press ![Add](../../images/icons/toolbar-controls/plus-native_default.svg) button of the required area and select the required field from the list.
 
-Количество измерений ограничено количеством доступных полей. Рекомендуется использовать не более 5-7 измерений, чтобы отчет был понятным и интерпретируемым.
+Count of dimensions is limited by the number of the available fields. It is recommended to use not more than 5-7 dimensions to make the report clear and interpretable.
 
-> **Примечание:** при перемещении полей в различные области могут появляться модальные окна подтверждения действия, если измерение или факт используются в активном вычисляемом факте или в фильтре по факту.
+> **Note:** When moving the fields to different areas, the modal windows of actions confirmation can appear if dimension or measure are used in the active calculated measure or in the filter by measure.
 
-Так как визуализатор Куб представляет собой плоскую двухмерную таблицу, то при отображении нескольких измерений заголовки образуют иерархическую систему (дерево заголовков). По умолчанию все заголовки свернуты до самого внешнего измерения. Для раскрытия или сворачивания заголовков внутренних измерений нужно кликнуть по кнопке Развернуть или Свернуть на заголовке внешнего измерения. Существуют групповые операции раскрытия или сворачивания заголовков.
+As the Cube visualizer is a flat two-dimensional table, the headers form the hierarchic system (tree of headers) when displaying several dimensions. All headers are collapsed up to the most external dimension by default. Для раскрытия или сворачивания заголовков внутренних измерений нужно кликнуть по кнопке Развернуть или Свернуть на заголовке внешнего измерения. There are group operations of expansion or collapsing of headers.
 
 При нажатии на ![Раскрыть меню](../../images/icons/toolbar-controls/down_default.svg) справа от названия измерения доступен выбор:
 
@@ -49,14 +49,14 @@ The main window will be opened after addition to the visualizer node (Figure 1):
 * ![В исходном порядке](../../images/icons/blank.svg) **В исходном порядке** — выстроить значения в порядке их появления в данных;
 * ![Удалить](../../images/icons/toolbar-controls/delete_default.svg) **Удалить** — исключить измерение из Куба. Удалить измерение также можно перетаскиванием (Drag-and-Drop) назад в Область свободных полей (1).
 
-Чтобы отфильтровать данные по измерению, необходимо щёлкнуть мышью по нужному измерению, произвести настройку фильтра в открывшейся панели и нажать "Применить". Если по измерению настроена фильтрация, то оно выделяется оранжевым цветом. Фильтр может работать в трех режимах:
+Чтобы отфильтровать данные по измерению, необходимо щёлкнуть мышью по нужному измерению, произвести настройку фильтра в открывшейся панели и нажать "Применить". Если по измерению настроена фильтрация, то оно выделяется оранжевым цветом. The filter can be used in three modes:
 
-* ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор** — пользователь может выбрать произвольное количество значений измерения из списка доступных. Выбранные значения будут отображаться в Кубе.
+* ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор** — пользователь может выбрать произвольное количество значений измерения из списка доступных. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
    **Одиночный выбор** — позволяет выбрать из списка только одно значение, которое будет отображаться в Кубе.
 * ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.
 
-По умолчанию задан режим ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор**. C помощью переключателя **Режим включенных/исключенных** значений задается разрешительный или запретительный тип фильтра. Это влияет на то, как будет обновлен фильтр, если Куб открывается на новых данных.
+![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode can be set by default. C помощью переключателя **Режим включенных/исключенных** значений задается разрешительный или запретительный тип фильтра. Это влияет на то, как будет обновлен фильтр, если Куб открывается на новых данных.
 
 В режиме ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор** доступны операции:
 
@@ -73,9 +73,9 @@ The main window will be opened after addition to the visualizer node (Figure 1):
 
 #### Measures
 
-Добавить факты можно двумя способами:
+It is possible to add measures in two ways:
 
-* Перетащить (Drag-and-Drop) нужное поле из Области свободных полей (1) в Область фактов (3);
+* drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3);
 * Нажать кнопку ![Факты](../../images/icons/toolbar-controls/sum_default.svg) Факты, выбрать необходимое поле и в появившемся [окне](./addfact.md) выбрать нужный вариант [агрегации](../../processors/func/aggregation-functions.md) и способ его отображения.
 
 Нажав на кнопку ![Раскрыть список](../../images/icons/toolbar-controls/down_default.svg) рядом с ![Факты](../../images/icons/toolbar-controls/sum_default.svg) Факты, можно открыть выпадающее меню с вызовом одного из окон:
