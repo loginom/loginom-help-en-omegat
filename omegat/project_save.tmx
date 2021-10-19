@@ -35830,6 +35830,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Далее необходимо выбрать факт, по которому будет производиться фильтрация, затем задать условие фильтрации и его значение(я).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T131250Z" creationid="Марианна" creationdate="20211019T131250Z">
+        <seg>Then it is required to select the measure by which filtration will be performed, then it is required to set filtering criterion and its value (values).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Далее отметить галочками нужные методы агрегации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201023T203340Z" creationid="Марианна" creationdate="20201023T203340Z">
@@ -61601,8 +61609,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Условия фильтрации в обработчике Фильтр строк</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201113T071525Z" creationid="Марианна" creationdate="20201111T170037Z">
-        <seg>Filtering Conditions in the Row Filter Handler</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T131309Z" creationid="Марианна" creationdate="20201111T170037Z">
+        <seg>Filtering Criteria in the Row Filter Handler</seg>
       </tuv>
     </tu>
     <tu>
