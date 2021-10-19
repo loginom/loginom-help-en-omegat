@@ -44727,6 +44727,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Манипулируя с помощью мыши заголовками измерений, пользователь может добиться наиболее информативного представления куба.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T195955Z" creationid="Марианна" creationdate="20211019T195955Z">
+        <seg>Using the mouse for dimensions headers manipulation, a user can provide the most informative cube display.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Масло</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T103029Z" creationid="Марианна" creationdate="20201208T103029Z">
