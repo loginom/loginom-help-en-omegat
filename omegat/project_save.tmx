@@ -37276,6 +37276,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого визуализатора может быть добавлен отчет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081903Z" creationid="Марианна" creationdate="20211019T081903Z">
+        <seg>A report can be added for each visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждого из параметров можно задать либо автоматическую установку значения, либо ввести необходимое значение вручную.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T152317Z" creationid="Марианна" creationdate="20201215T152115Z">
@@ -39421,6 +39429,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T052950Z" creationid="Марианна" creationdate="20211003T052950Z">
         <seg>If some links are already available, they are left unchanged.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если какой-либо визуализатор не поддерживается портом, то он добавлен не будет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081941Z" creationid="Марианна" creationdate="20211019T081941Z">
+        <seg>If any visualizer is not supported by the port, it will not be added.</seg>
       </tuv>
     </tu>
     <tu>
