@@ -3828,6 +3828,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Предпросмотр&lt;x4/&gt; — доступно в определенных мастерах, например: &lt;x5/&gt;Импорт из базы данных&lt;x6/&gt;, &lt;x7/&gt;JavaScript&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T082842Z" creationid="Марианна" creationdate="20211019T082842Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Preview&lt;x4/&gt; is available in the definite wizards, for example: &lt;x5/&gt;Import from database&lt;x6/&gt;, &lt;x7/&gt;JavaScript&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Приостановить автовычисление&lt;x4/&gt; — отключить обновление заголовков и данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T211234Z" creationid="Марианна" creationdate="20211011T211234Z">
@@ -49010,6 +49018,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T210611Z" creationid="Марианна" creationdate="20201012T210611Z">
         <seg>It comes down to selection of the new orthogonal frame of reference in the observation space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Они подходят для предварительного изучения или контроля данных:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T082720Z" creationid="Марианна" creationdate="20211019T082720Z">
+        <seg>They are suitable for preliminary data study or control:</seg>
       </tuv>
     </tu>
     <tu>
