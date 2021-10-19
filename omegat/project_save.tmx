@@ -15409,8 +15409,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Max&lt;x4/&gt; ) — наибольшее из всех значений фактов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T072909Z" creationid="Марианна" creationdate="20211019T072909Z">
-        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Max&lt;x4/&gt; ): the highest value from all values of measures.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073135Z" creationid="Марианна" creationdate="20211019T072909Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Max&lt;x4/&gt; ): the highest value from all measures values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15793,8 +15793,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Min&lt;x4/&gt; ) — наименьшее из всех значений фактов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T072634Z" creationid="Марианна" creationdate="20211019T072634Z">
-        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Min&lt;x4/&gt; ): the least value from all values of measures.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073156Z" creationid="Марианна" creationdate="20211019T072634Z">
+        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Min&lt;x4/&gt; ): the least value from all measures values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22420,6 +22420,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T191949Z" creationid="Марианна" creationdate="20200810T191949Z">
         <seg>&lt;x1/&gt;Replacement file structure&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сумма квадратов&lt;x2/&gt; (&lt;x3/&gt;Имя факта.SumSq&lt;x4/&gt; ) — сумма квадратов всех значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073128Z" creationid="Марианна" creationdate="20211019T073128Z">
+        <seg>&lt;x1/&gt;Sum of squares&lt;x2/&gt; (&lt;x3/&gt;Measure name.SumSq&lt;x4/&gt; ): the sum of squares of all measures values.</seg>
       </tuv>
     </tu>
     <tu>
