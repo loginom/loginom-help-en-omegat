@@ -60037,6 +60037,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также есть специальные визуализаторы, недоступные в мастере &lt;x1/&gt;Настройки визуализаторов&lt;x2/&gt; и с ограниченным функционалом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T103750Z" creationid="Марианна" creationdate="20211019T103750Z">
+        <seg>There are also special visualizers unavailable in &lt;x1/&gt;Visualizers configuration&lt;x2/&gt; wizard and with constrained functionality.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также имя узла может использоваться в качестве параметра при &lt;x3/&gt;пакетном выполнении сценария&lt;x4/&gt;
 (см.</seg>
       </tuv>
