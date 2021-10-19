@@ -12543,6 +12543,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Главное окно Куба&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200047Z" creationid="Марианна" creationdate="20211019T200047Z">
+        <seg>&lt;x1/&gt;The Main Cube Window&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Главное окно визуализатора "Профили кластеров".&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T205802Z" creationid="Марианна" creationdate="20211010T205802Z">
@@ -35734,6 +35742,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Главное окно условно можно разделить на 6 областей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200105Z" creationid="Марианна" creationdate="20211019T200105Z">
+        <seg>The main window can be conventionally divided into 6 areas:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Глобальный индекс узла - узел отсутствует в древовидной структуре данных, однако он появляется в отображении дерева и указывает на индекс, используемый в узле-массиве.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T185956Z" creationid="Марианна" creationdate="20201001T185904Z">
@@ -48190,6 +48206,22 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область измерений в колонках;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200225Z" creationid="Марианна" creationdate="20211019T200225Z">
+        <seg>area of measures in columns;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область измерений в строках;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200155Z" creationid="Марианна" creationdate="20211019T200155Z">
+        <seg>area of dimensions in rows;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область кода выражения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T162642Z" creationid="Марианна" creationdate="20201005T162642Z">
@@ -48278,6 +48310,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область свободных полей;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200140Z" creationid="Марианна" creationdate="20211019T200140Z">
+        <seg>area of free fields;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область содержит наименование, входные аргументы и описание &lt;x1/&gt;доступных для использования функций&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T231537Z" creationid="Марианна" creationdate="20211017T231537Z">
@@ -48314,6 +48354,22 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T134242Z" creationid="Марианна" creationdate="20201015T085008Z">
         <seg>The area contains the list of fields and variables supplied to the handler input.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200207Z" creationid="Марианна" creationdate="20211019T200207Z">
+        <seg>area of measures;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область фильтрации по измерениям;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T200249Z" creationid="Марианна" creationdate="20211019T200249Z">
+        <seg>area of filtration by dimensions;</seg>
       </tuv>
     </tu>
     <tu>
