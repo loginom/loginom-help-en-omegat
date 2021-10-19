@@ -3212,6 +3212,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Быстрый просмотр&lt;x4/&gt; — доступно на активном выходном порту;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T082601Z" creationid="Марианна" creationdate="20211019T082601Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Quick view&lt;x4/&gt; is available for the active output  port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;В колонках&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T172407Z" creationid="Марианна" creationdate="20211005T172407Z">
@@ -56263,6 +56271,14 @@ Examples of the time format:
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210215T060317Z" creationid="Марианна" creationdate="20210215T060317Z">
         <seg>Web Services Operation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Работа с визуализаторами</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T082516Z" creationid="Марианна" creationdate="20211019T082516Z">
+        <seg>How to Use Visualizers</seg>
       </tuv>
     </tu>
     <tu>
