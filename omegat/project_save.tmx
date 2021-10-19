@@ -14559,6 +14559,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt; &lt;x3/&gt;Качество бинарной классификации&lt;x4/&gt; — формирует наборы серий данных для построения диаграмм, определяются оптимальные пороги отсечения и вычисляются оценки классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T103326Z" creationid="Марианна" creationdate="20211019T103326Z">
+        <seg>&lt;x1/&gt;Binary classification assessment&lt;x2/&gt; &lt;x3/&gt;Binary classification assessment&lt;x4/&gt; enables to generate data series sets for construction of charts. The optimal cutoffs are defined and classification assessments are calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt; Качество бинарной классификации</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224307Z" creationid="Марианна" creationdate="20211011T224307Z">
@@ -17687,6 +17695,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T222407Z" creationid="Марианна" creationdate="20211011T222407Z">
         <seg>&lt;x1/&gt;Regression Report&lt;x2/&gt; Regression Report</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Отчет по регрессии&lt;x2/&gt;/&lt;x3/&gt;Отчет по регрессии&lt;x4/&gt; &lt;x5/&gt;Отчет по регрессии&lt;x6/&gt; — статистические параметры и результаты статистических тестов для анализа регрессионных моделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T103036Z" creationid="Марианна" creationdate="20211019T103036Z">
+        <seg>&lt;x1/&gt;Regression report&lt;x2/&gt;/&lt;x3/&gt;Regression report&lt;x4/&gt; &lt;x5/&gt;Regression report&lt;x6/&gt;: statistical indicators and results of the statistical tests for analysis of regression models.</seg>
       </tuv>
     </tu>
     <tu>
