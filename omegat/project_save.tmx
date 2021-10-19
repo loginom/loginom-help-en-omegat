@@ -15175,6 +15175,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Куб&lt;x2/&gt; является одним из распространенных методов комплексного многомерного анализа данных, получивших название &lt;x3/&gt;OLAP&lt;x4/&gt; (OnLine Analytical Processing).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T194539Z" creationid="Марианна" creationdate="20211019T194539Z">
+        <seg>&lt;x1/&gt;Cube&lt;x2/&gt; is one of the wide spread methods of the complex multidimensional data analysis that has been called &lt;x3/&gt;OLAP&lt;x4/&gt; (OnLine Analytical Processing).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183132Z" creationid="Марианна" creationdate="20200810T183132Z">
