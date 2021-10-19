@@ -33630,6 +33630,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внутри каждого из способов агрегации имеется доступ к итоговым значениям по каждому измерению &lt;x1/&gt;Итог&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Sum.Total.Имя измерения&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T074149Z" creationid="Марианна" creationdate="20211019T074149Z">
+        <seg>Access is provided to the final values for each dimension &lt;x1/&gt;Total&lt;x2/&gt; (&lt;x3/&gt;Measure name.Sum.Total.Dimension name&lt;x4/&gt;) inside each of aggregation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внутри компонентов подключенного Пакета могут встречаться повторяющиеся фрагменты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210930T210642Z" creationid="Марианна" creationdate="20210930T210642Z">
