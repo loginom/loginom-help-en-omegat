@@ -24160,6 +24160,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;в интервале&lt;x2/&gt; — результатом отбора будут значения измерений, для которых значение соответствующего факта лежит в заданном интервале.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T134427Z" creationid="Марианна" creationdate="20211019T134427Z">
+        <seg>&lt;x1/&gt;within the range&lt;x2/&gt;: the selection result will be values of the dimensions for which value of the corresponding measure is within the set range.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;в столбцы&lt;x2/&gt; — каждой переменной будет соответствовать отдельное поле таблицы;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201006T104005Z" creationid="Марианна" creationdate="20201006T103832Z">
