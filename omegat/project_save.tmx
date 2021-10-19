@@ -31856,6 +31856,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В открывшемся окне слева находится дерево доступных визуализаторов, справа расположен список выходных портов узла, данные которых можно визуализировать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T104547Z" creationid="Марианна" creationdate="20211019T104547Z">
+        <seg>There is a tree of available visualizers to the left in the opened window. A list of the output node ports data of which can be visualized is located to the right.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В отличие от компонента &lt;x9/&gt;Выполнение узла&lt;x10/&gt; &lt;x11/&gt;Узел-ссылка&lt;x12/&gt; не принимает входные данные и может применяться только в качестве источника данных из других узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T092636Z" creationid="Марианна" creationdate="20200919T091714Z">
