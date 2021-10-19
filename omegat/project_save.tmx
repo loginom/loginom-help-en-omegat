@@ -51272,8 +51272,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T201524Z" creationid="Марианна" creationdate="20211019T201524Z">
-        <seg>drag (Drag-and-Drop) the field from the Area of Free Fields (1) to the Area of Dimensions of Columns or Rows (2 or 4);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T201614Z" creationid="Марианна" creationdate="20211019T201524Z">
+        <seg>drag (Drag-and-Drop) field from the Area of Free Fields (1) to the Area of Dimensions of columns or rows (2 or 4);</seg>
       </tuv>
     </tu>
     <tu>
