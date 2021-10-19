@@ -37164,6 +37164,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для добавления визуализатора, надо выбрать в дереве необходимый визуализатор и нажать кнопку &lt;x1/&gt;Добавить визуализатор&lt;x2/&gt; у нужного выходного порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T104806Z" creationid="Марианна" creationdate="20211019T104806Z">
+        <seg>To add any visualizer, it is required to select the required visualizer in the tree and press &lt;x1/&gt;Add visualizer&lt;x2/&gt; button near the required output port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для добавления данного поля следует выставить соответствующий флаг в мастере настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210309T133401Z" creationid="Марианна" creationdate="20201011T103102Z">
@@ -60179,6 +60187,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T152710Z" creationid="Марианна" creationdate="20201111T152710Z">
         <seg>It can be also done using the navigation buttons.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также это можно сделать, перетащив мышкой необходимый визуализатор в область кнопки &lt;x3/&gt;Добавить визуализатор&lt;x4/&gt; у нужного выходного порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T105049Z" creationid="Марианна" creationdate="20211019T105049Z">
+        <seg>It can be also done by dragging the required visualizer with the mouse to the area of &lt;x3/&gt;Add visualizer&lt;x4/&gt; button near the required output port.</seg>
       </tuv>
     </tu>
     <tu>
