@@ -14655,6 +14655,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Кол-во уникальных&lt;x2/&gt; (&lt;x3/&gt;Имя факта.UniqueCount&lt;x4/&gt; ) — количество уникальных значений факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073310Z" creationid="Марианна" creationdate="20211019T073310Z">
+        <seg>&lt;x1/&gt;Count of unique&lt;x2/&gt; (&lt;x3/&gt;Measure name.UniqueCount&lt;x4/&gt; ): count of the unique measure values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество итераций задается количеством групп, на которые разделяются строки входного набора данных&lt;x2/&gt;  — аналог "FOR EACH".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T100510Z" creationid="Марианна" creationdate="20200920T171838Z">
