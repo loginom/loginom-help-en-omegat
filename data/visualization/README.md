@@ -1,30 +1,30 @@
 # ![ ](../images/icons/system_object_18/visualizer_default.svg) Visualizers
 
-Визуализатор представляет собой инструмент, позволяющий пользователю выбрать удобный вариант отображения данных.
+Visualizer is a tool that provides convenient option of data view for a user.
 
 Visualizers:
 
-* ![Диаграмма](../images/icons/view_types/chart_default.svg) [Диаграмма](./chart/README.md) — графическое представление данных.
-* ![Куб](../images/icons/view_types/cube_default.svg) [Куб](./cube/README.md) — многомерное представление данных.
-* ![Таблица](../images/icons/view_types/browse_default.svg) [Таблица](./table/README.md) — табличное представление данных.
-* ![Статистика](../images/icons/view_types/stat_default.svg) [Статистика](./statistics/README.md) — статистические показатели полей набора данных.
-* ![Конечные классы](../images/icons/view_types/coarseclasses_default.svg) [Конечные классы](./fine-classes/README.md) — результаты процедуры оптимального квантования в виде начальных и конечных классов, а также WoE-диаграммы и значений информационных индексов IV.
-* ![Отчет по регрессии](../images/icons/view_types/logregressreport_default.svg)/![Отчет по регрессии](../images/icons/view_types/linregressreport_default.svg) [Отчет по регрессии](./regression/README.md) — статистические параметры и результаты статистических тестов для анализа регрессионных моделей.
-* ![Качество бинарной классификации](../images/icons/view_types/roc_default.svg) [Качество бинарной классификации](./binary-classification/README.md) — формирует наборы серий данных для построения диаграмм, определяются оптимальные пороги отсечения и вычисляются оценки классификации. Для получения точек серий строятся гистограммы распределения событий и не-событий в выборках.
+* ![Chart](../images/icons/view_types/chart_default.svg) [Chart](./chart/README.md) is a graphical type of data view.
+* ![Cube](../images/icons/view_types/cube_default.svg) [Cube](./cube/README.md) is a multidimensional type of data view.
+* ![Table](../images/icons/view_types/browse_default.svg) [Table](./table/README.md) is a table type of data view.
+* ![Statistics](../images/icons/view_types/stat_default.svg) [Statistics](./statistics/README.md) means the statistical indicators of the data set fields.
+* ![Coarse сlasses](../images/icons/view_types/coarseclasses_default.svg) [Coarse сlasses](./fine-classes/README.md): results of the optimal binning procedure in the form of fine and coarse classes and WoE chart and values of Information values IV.
+* ![Regression report](../images/icons/view_types/logregressreport_default.svg)/![Regression report](../images/icons/view_types/linregressreport_default.svg) [Regression report](./regression/README.md): statistical indicators and results of the statistical tests for analysis of regression models.
+* ![Binary classification assessment](../images/icons/view_types/roc_default.svg) [Binary classification assessment](./binary-classification/README.md) enables to generate data series sets for construction of charts. The optimal cutoffs are defined and classification assessments are calculated. To get series points, it is required to construct histograms of events and non-events distribution in samples.
 
-Также есть специальные визуализаторы, недоступные в мастере *Настройки визуализаторов* и с ограниченным функционалом. Они подходят для предварительного изучения или контроля данных:
+There are also special visualizers unavailable in *Visualizers configuration* wizard and with constrained functionality. They are suitable for preliminary data study or control:
 
-* ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Быстрый просмотр](./preview/quick-view.md) — доступно на активном выходном порту;
-* ![ ](../images/icons/blank.svg) [Предпросмотр](./preview/preview.md) — доступно в определенных мастерах, например: *Импорт из базы данных*, *JavaScript*.
+* ![ ](../images/icons/toolbar-controls/show-fast-viewer_default.svg) [Quick view](./preview/quick-view.md) is available for the active output  port.
+* ![ ](../images/icons/blank.svg) [Preview](./preview/preview.md) is available in the definite wizards, for example: *Import from database*, *JavaScript*.
 
-## Работа с визуализаторами
+## How to Use Visualizers
 
-Для добавления визуализатора к узлу сценария требуется нажать кнопку ![Настройка визуализаторов](../images/icons/controls/visualizer_notactive.svg) *Настройка визуализаторов*. В открывшемся окне слева находится дерево доступных визуализаторов, справа расположен список выходных портов узла, данные которых можно визуализировать.
+To add any visualizer to the workflow node, it is required to press ![Configure visualizers](../images/icons/controls/visualizer_notactive.svg) *Configure visualizers* button. There is a tree of available visualizers to the left in the opened window. A list of the output node ports data of which can be visualized is located to the right.
 
-Для добавления визуализатора, надо выбрать в дереве необходимый визуализатор и нажать кнопку *Добавить визуализатор* у нужного выходного порта. Также это можно сделать, перетащив мышкой необходимый визуализатор в область кнопки *Добавить визуализатор* у нужного выходного порта.
+To add any visualizer, it is required to select the required visualizer in the tree and press *Add visualizer* button near the required output port. It can be also done by dragging the required visualizer with the mouse to the area of *Add visualizer* button near the required output port.
 
-Для удаления визуализатора необходимо нажать кнопку ![Удалить](./delete.svg) в правом верхнем углу визуализатора.
+To delete the visualizer, it is required to press ![Delete](./delete.svg) button in the right upper visualizer corner.
 
-> **Важно**: Данные не каждого порта возможно отобразить выбранным визуализатором. Если какой-либо визуализатор не поддерживается портом, то он добавлен не будет.
+> **Important**: It not possible to display data for each port by the selected visualizer. If any visualizer is not supported by the port, it will not be added.
 
-Для каждого визуализатора может быть добавлен отчет. Для добавления отчета к визуализатору необходимо выбрать нужный визуализатор и нажать кнопку *Добавить в отчеты*, создав при необходимости нужную группу или разместить отчет в существующую группу.
+A report can be added for each visualizer. To add the report to the visualizer, it is required to select the required visualizer and press *Add to reports* button by creating the required group if it is required or place the report to the existing group.
