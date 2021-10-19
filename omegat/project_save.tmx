@@ -14855,6 +14855,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Конечные классы&lt;x2/&gt; &lt;x3/&gt;Конечные классы&lt;x4/&gt; — результаты процедуры оптимального квантования в виде начальных и конечных классов, а также WoE-диаграммы и значений информационных индексов IV.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T102906Z" creationid="Марианна" creationdate="20211019T102906Z">
+        <seg>&lt;x1/&gt;Coarse сlasses&lt;x2/&gt; &lt;x3/&gt;Coarse сlasses&lt;x4/&gt;: results of the optimal binning procedure in the form of fine and coarse classes and WoE chart and values of Information values IV.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Конечные классы&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T084520Z" creationid="Марианна" creationdate="20210628T084520Z">
