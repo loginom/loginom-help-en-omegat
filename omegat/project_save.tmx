@@ -42962,6 +42962,14 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>К основной особенности куба относится то, что его структура не является жестко определенной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T195317Z" creationid="Марианна" creationdate="20211019T195317Z">
+        <seg>The main cube peculiarity is that its structure is not strictly defined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>К примеру, можно добавить отображение какого-либо символа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T110732Z" creationid="Марианна" creationdate="20211017T110732Z">
@@ -49234,6 +49242,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T210611Z" creationid="Марианна" creationdate="20201012T210611Z">
         <seg>It comes down to selection of the new orthogonal frame of reference in the observation space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он содержит измерения и факты, определенные при построении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T195113Z" creationid="Марианна" creationdate="20211019T195113Z">
+        <seg>It contains dimensions and measures defined while constructing.</seg>
       </tuv>
     </tu>
     <tu>
