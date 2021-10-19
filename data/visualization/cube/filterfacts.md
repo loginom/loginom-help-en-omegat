@@ -4,15 +4,15 @@ It provides for filtration of the measure values for dimension.
 
 ## Interface
 
-В левой стороне открывшегося окна расположены используемые в кубе измерения, при этом значение по умолчанию задано *(Не фильтровать)*.
+The dimensions used in the cube are located in the left part of the opened window> In this case, the following default value is set - *(Filter disabled)*.
 
-В правой стороне окна перечислены используемые в кубе факты и примененные к ним агрегации.
+The measures used in the cube and aggregations applied to them are listed in the right part of the window.
 
-Для фильтрации нужно выбрать требуемое измерение в левой стороне окна, после этого станет активен список используемых в кубе фактов и их тип [агрегации](../../processors/func/aggregation-functions.md). Далее необходимо выбрать факт, по которому будет производиться фильтрация, затем задать условие фильтрации и его значение(я). Для применения фильтрации нужно нажать кнопку *Фильтровать*.
+Для фильтрации нужно выбрать требуемое измерение в левой стороне окна, после этого станет активен список используемых в кубе фактов и их тип [агрегации](../../processors/func/aggregation-functions.md). Далее необходимо выбрать факт, по которому будет производиться фильтрация, затем задать условие фильтрации и его значение(я). To apply filtration, it is required to press *Filter* button.
 
 > **Примечание:** в случае применения фильтрации кнопка ![Факты](../../images/icons/toolbar-controls/sum_default.svg)Факты примет оранжевый цвет.
 
-Чтобы отключить фильтрацию, в списке измерений необходимо выбрать *(Не фильтровать)* и нажать кнопку *Фильтровать*.
+To disable filtration, it is required to select *(Filter disabled)* in the dimensions list and press *Filter* button.
 
 ## Filtering Criteria
 

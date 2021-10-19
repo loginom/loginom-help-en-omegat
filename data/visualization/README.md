@@ -27,4 +27,4 @@ To delete the visualizer, it is required to press ![Delete](./delete.svg) button
 
 > **Important**: It not possible to display data for each port by the selected visualizer. If any visualizer is not supported by the port, it will not be added.
 
-A report can be added for each visualizer. To add the report to the visualizer, it is required to select the required visualizer and press *Add to reports* button by creating the required group if it is required or place the report to the existing group.
+A report can be added for each visualizer. To add the report to the visualizer, it is necessary to select the required visualizer and press *Add to reports* button by creating the required group where applicable or place the report to the existing group.
