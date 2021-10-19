@@ -46232,6 +46232,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нажать кнопку &lt;x1/&gt;Добавить&lt;x2/&gt; нужной области и выбрать необходимое поле из списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T201528Z" creationid="Марианна" creationdate="20211019T201408Z">
+        <seg>press &lt;x1/&gt;Add&lt;x2/&gt; button of the required area and select the required field from the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нажать на кнопку &lt;x1/&gt;&lt;x2/&gt; нужного поля в столбце &lt;x3/&gt;&lt;x4/&gt; ;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211006T150504Z" creationid="Марианна" creationdate="20211006T150504Z">
@@ -51258,6 +51266,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T175743Z" creationid="Марианна" creationdate="20211005T175743Z">
         <seg>by drag-and-drop method;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T201524Z" creationid="Марианна" creationdate="20211019T201524Z">
+        <seg>drag (Drag-and-Drop) the field from the Area of Free Fields (1) to the Area of Dimensions of Columns or Rows (2 or 4);</seg>
       </tuv>
     </tu>
     <tu>
