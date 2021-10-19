@@ -15407,6 +15407,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Max&lt;x4/&gt; ) — наибольшее из всех значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T072909Z" creationid="Марианна" creationdate="20211019T072909Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; (&lt;x3/&gt;Measure name.Max&lt;x4/&gt; ): the highest value from all values of measures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; Максимум;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T161309Z" creationid="Марианна" creationdate="20211005T161309Z">
@@ -22124,6 +22132,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T231749Z" creationid="Марианна" creationdate="20211010T231749Z">
         <seg>&lt;x1/&gt;Standard error&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Стандартное откл.&lt;x2/&gt; (&lt;x3/&gt;Имя факта.StdDev&lt;x4/&gt; ) — стандартное отклонение значений фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T073016Z" creationid="Марианна" creationdate="20211019T073016Z">
+        <seg>&lt;x1/&gt;Standard deviation&lt;x2/&gt; (&lt;x3/&gt;Measure name.StdDev&lt;x4/&gt; ): the standard deviation of measures values.</seg>
       </tuv>
     </tu>
     <tu>
