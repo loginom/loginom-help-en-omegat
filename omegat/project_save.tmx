@@ -15119,6 +15119,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Куб&lt;x2/&gt; &lt;x3/&gt;Куб&lt;x4/&gt; — многомерное представление данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081633Z" creationid="Марианна" creationdate="20211019T081633Z">
+        <seg>&lt;x1/&gt;Cube&lt;x2/&gt; &lt;x3/&gt;Cube&lt;x4/&gt; is a multidimensional type of data view.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Кэширование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183132Z" creationid="Марианна" creationdate="20200810T183132Z">
@@ -22224,6 +22232,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Статистика&lt;x2/&gt; &lt;x3/&gt;Статистика&lt;x4/&gt; — статистические показатели полей набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081753Z" creationid="Марианна" creationdate="20211019T081753Z">
+        <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; &lt;x3/&gt;Statistics&lt;x4/&gt; means the statistical indicators of the data set fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Статистика&lt;x2/&gt; Статистика.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T161206Z" creationid="Марианна" creationdate="20211005T161206Z">
@@ -22628,6 +22644,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211014T162402Z" creationid="Марианна" creationdate="20211014T162402Z">
         <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: the data will be displayed by the &lt;x5/&gt;Table&lt;x6/&gt; visualizer but without filtering option and detailing panel;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — табличное представление данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T081704Z" creationid="Марианна" creationdate="20211019T081704Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt; is a table type of data view.</seg>
       </tuv>
     </tu>
     <tu>
