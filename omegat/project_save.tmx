@@ -24386,8 +24386,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;последние N&lt;x2/&gt; — значения измерения сортируются в порядке убывания факта и выбираются последние N значений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T132056Z" creationid="Марианна" creationdate="20211019T132056Z">
-        <seg>&lt;x1/&gt;last N&lt;x2/&gt; — значения измерения сортируются в порядке убывания факта и выбираются последние N значений.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T132447Z" creationid="Марианна" creationdate="20211019T132056Z">
+        <seg>&lt;x1/&gt;last N&lt;x2/&gt;: the dimension values are sorted in the measure descending order and the last N values are selected.</seg>
       </tuv>
     </tu>
     <tu>
