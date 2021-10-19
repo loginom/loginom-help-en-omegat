@@ -20011,6 +20011,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в случае применения фильтрации кнопка &lt;x3/&gt;Факты&lt;x4/&gt;Факты примет оранжевый цвет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T131532Z" creationid="Марианна" creationdate="20211019T131532Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When filtering is used, &lt;x3/&gt;Measures&lt;x4/&gt; Measures button will become orange.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в списке будут доступны только используемые факты и измерения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T232049Z" creationid="Марианна" creationdate="20211017T232002Z">
@@ -47634,6 +47642,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T084005Z" creationid="Марианна" creationdate="20210511T084005Z">
         <seg>Unordered set</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ниже приведены пояснения к некоторым задаваемым условиям фильтрации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T131659Z" creationid="Марианна" creationdate="20211019T131659Z">
+        <seg>Explanations of some set filtration criteria are provided below.</seg>
       </tuv>
     </tu>
     <tu>
