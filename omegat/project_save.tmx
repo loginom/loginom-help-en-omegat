@@ -37188,6 +37188,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для добавления отчета к визуализатору необходимо выбрать нужный визуализатор и нажать кнопку &lt;x1/&gt;Добавить в отчеты&lt;x2/&gt;, создав при необходимости нужную группу или разместить отчет в существующую группу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211019T105340Z" creationid="Марианна" creationdate="20211019T105340Z">
+        <seg>To add a report to the visualizer, it is required to select the required visualizer and press &lt;x1/&gt;Add to reports&lt;x2/&gt; button by creating the required group if it is required or place the report to the existing group.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для доступа к входным переменным используется объект &lt;x1/&gt;InputVariables&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201105T101343Z" creationid="Марианна" creationdate="20201105T101343Z">
