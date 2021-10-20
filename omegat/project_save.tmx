@@ -52556,6 +52556,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T161953Z" creationid="Марианна" creationdate="20211020T161953Z">
+        <seg>Display of several aggregation options and methods of their display for each meansure is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживаются даты с 1970 до 2106 года.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T202305Z" creationid="Марианна" creationdate="20210118T120328Z">
