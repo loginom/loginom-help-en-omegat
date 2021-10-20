@@ -20304,6 +20304,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; по умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T161725Z" creationid="Марианна" creationdate="20211020T161725Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The aggregation option and method of its display first in the list are selected by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; по умолчанию в качестве варианта отображения выбирается идущий первым по списку.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T213125Z" creationid="Марианна" creationdate="20211010T213042Z">
@@ -61839,6 +61847,14 @@ to set parameters of the node settings.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T204115Z" creationid="Марианна" creationdate="20211003T204115Z">
         <seg>It is possible to delete this link by pressing &lt;x1/&gt;&lt;x2/&gt; button in the line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Удалить факт можно снятием флага в вызываемом окне &lt;x1/&gt;Настроить факты&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T161549Z" creationid="Марианна" creationdate="20211020T161549Z">
+        <seg>It is possible to delete a measure by deselecting the checkbox in called &lt;x1/&gt;Configure measures&lt;x2/&gt; window.</seg>
       </tuv>
     </tu>
     <tu>
