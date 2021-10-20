@@ -3526,6 +3526,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Инвертировать выбор&lt;x4/&gt; — меняет выбранные значения списка на невыбранные и наоборот.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T130811Z" creationid="Марианна" creationdate="20211020T130811Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Invert selection&lt;x4/&gt;: change the selected values from the list to the unselected ones and vice versa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Инвертировать тип&lt;x4/&gt; — меняет тип границ;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210701T141356Z" creationid="Марианна" creationdate="20210701T141356Z">
@@ -3722,6 +3730,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211020T130532Z" creationid="Марианна" creationdate="20211020T130532Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Check all / &lt;x4/&gt; &lt;x5/&gt; Uncheck all&lt;x6/&gt;: select all values in the list or deselect all list values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Отметить по маске...&lt;x4/&gt; — позволяет задать условие и метод отбора измерений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T130924Z" creationid="Марианна" creationdate="20211020T130924Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Check by pattern...&lt;x4/&gt;: set the condition and method of dimensions selection.</seg>
       </tuv>
     </tu>
     <tu>
