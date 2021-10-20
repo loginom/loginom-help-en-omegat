@@ -37838,6 +37838,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для настройки отбора открывается окно &lt;x1/&gt;Отметить по маске&lt;x2/&gt; (в заголовке окна также указано измерение, для которого выполняется настройка).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T131155Z" creationid="Марианна" creationdate="20211020T131155Z">
+        <seg>To configure selection, it is required to open &lt;x1/&gt;Check by pattern&lt;x2/&gt; window (the configured dimension is also specified in the window header).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для настройки сортировки необходимо переместить требуемые поля в список &lt;x1/&gt;Поля сортировки&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211006T144726Z" creationid="Марианна" creationdate="20211006T144726Z">
