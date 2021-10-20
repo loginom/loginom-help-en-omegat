@@ -32364,6 +32364,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В режиме &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Множественный выбор&lt;x4/&gt; доступны операции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T130401Z" creationid="Марианна" creationdate="20211020T130401Z">
+        <seg>The following operations are available in the &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Multiple selection&lt;x4/&gt; mode:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В режиме редактирования (отладки) Сценариев для каждого из узлов можно задать следующие варианты выполнения:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211001T194135Z" creationid="Марианна" creationdate="20211001T194135Z">
