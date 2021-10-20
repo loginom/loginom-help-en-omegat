@@ -43785,8 +43785,8 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
       <tuv lang="ru">
         <seg>Кнопку &lt;x1/&gt;Факты&lt;x2/&gt;Факты можно перемещать из строк в столбцы и таким образом менять положение заголовков фактов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211020T162213Z" creationid="Марианна" creationdate="20211020T162213Z">
-        <seg>It is possible to move &lt;x1/&gt;Measure&lt;x2/&gt;Measure from rows to columns, and, thus, it is possible to change location of measures captions.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T162230Z" creationid="Марианна" creationdate="20211020T162213Z">
+        <seg>It is possible to move &lt;x1/&gt;Measures&lt;x2/&gt;Measures from rows to columns, and, thus, it is possible to change location of measures captions.</seg>
       </tuv>
     </tu>
     <tu>
