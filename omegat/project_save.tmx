@@ -43717,6 +43717,14 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ко всем измерениям, которые соответствуют условию, будет применен выбранный метод отбора (&lt;x3/&gt;Отметить, Добавить к отмеченным, Снять&lt;x4/&gt; или &lt;x5/&gt;Удалить из отмеченных&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T154807Z" creationid="Марианна" creationdate="20211020T154807Z">
+        <seg>The selected method of selection will be applied to all dimensions that comply with the condition (&lt;x3/&gt;Check, Add to checked, Uncheck&lt;x4/&gt; or &lt;x5/&gt;Remove from checked&lt;x6/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Код вывода сообщений в консоль:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201102T160335Z" creationid="Марианна" creationdate="20201029T061038Z">
