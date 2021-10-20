@@ -38253,6 +38253,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для раскрытия или сворачивания заголовков внутренних измерений нужно кликнуть по кнопке Развернуть или Свернуть на заголовке внешнего измерения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T122817Z" creationid="Марианна" creationdate="20211020T122817Z">
+        <seg>To expand or collapse the internal dimensions headers, it is required to click on Expand of Collapse button of the external dimension header.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для редактирования доступны следующие параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T084508Z" creationid="Марианна" creationdate="20210628T084508Z">
