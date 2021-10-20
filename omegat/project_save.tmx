@@ -45763,6 +45763,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно включить перелистывание через границы списка значений, нажав на кнопку &lt;x13/&gt; &lt;x14/&gt; &lt;x15/&gt;Зациклить значения при перелистывании&lt;x16/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T155650Z" creationid="Марианна" creationdate="20211020T155650Z">
+        <seg>It is possible to enable paging across the bounds of the values list by pressing on &lt;x13/&gt; &lt;x14/&gt; &lt;x15/&gt;Loop values&lt;x16/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Можно задать формат файла:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200916T193558Z" creationid="Марианна" creationdate="20200916T193558Z">
