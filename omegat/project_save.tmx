@@ -10828,6 +10828,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В исходном порядке&lt;x2/&gt; &lt;x3/&gt;В исходном порядке&lt;x4/&gt; — выстроить значения в порядке их появления в данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123328Z" creationid="Марианна" creationdate="20211020T123328Z">
+        <seg>&lt;x1/&gt;In original order&lt;x2/&gt; &lt;x3/&gt;In original order&lt;x4/&gt;: place the values in the order of their appearance in data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В конце набора&lt;x2/&gt; — в качестве тестовой выборки будут использованы строки из конца набора, взятые в том же порядке, что и в исходной таблице.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210722T121010Z" creationid="Марианна" creationdate="20210722T121010Z">
@@ -18451,6 +18459,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;По возрастанию&lt;x2/&gt; &lt;x3/&gt;По возрастанию&lt;x4/&gt; — отсортировать значения в порядке возрастания;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123201Z" creationid="Марианна" creationdate="20211020T123201Z">
+        <seg>&lt;x1/&gt;Ascending&lt;x2/&gt; &lt;x3/&gt;Ascending&lt;x4/&gt;: sort the values in ascending order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;По возрастанию&lt;x2/&gt; По возрастанию;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T231315Z" creationid="Марианна" creationdate="20211011T231315Z">
@@ -18551,6 +18567,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T062804Z" creationid="Марианна" creationdate="20210224T062804Z">
         <seg>&lt;x1/&gt;By rows&lt;x2/&gt;: XML will be generated for each input table record.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;По убыванию&lt;x2/&gt; &lt;x3/&gt;По убыванию&lt;x4/&gt; — отсортировать значения в порядке убывания;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123236Z" creationid="Марианна" creationdate="20211020T123236Z">
+        <seg>&lt;x1/&gt;Descending&lt;x2/&gt; &lt;x3/&gt;Descending&lt;x4/&gt;: sort the values in descending order.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23300,6 +23324,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200920T150313Z" creationid="Марианна" creationdate="20200920T150313Z">
         <seg>&lt;x1/&gt;Delete port&lt;x2/&gt; enables to delete port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Удалить&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — исключить измерение из Куба.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123356Z" creationid="Марианна" creationdate="20211020T123356Z">
+        <seg>&lt;x1/&gt;Delete&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt;: delete a dimension from the Cube.</seg>
       </tuv>
     </tu>
     <tu>
