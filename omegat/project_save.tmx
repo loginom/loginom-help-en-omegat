@@ -3718,6 +3718,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Отметить все / &lt;x4/&gt; &lt;x5/&gt; Снять все&lt;x6/&gt; — выделяет все значения в списке или снимает выделение со всех значений списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T130532Z" creationid="Марианна" creationdate="20211020T130532Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Check all / &lt;x4/&gt; &lt;x5/&gt; Uncheck all&lt;x6/&gt;: select all values in the list or deselect all list values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Переменные пакета&lt;x4/&gt; —  набор переменных текущего Пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201009T102525Z" creationid="Марианна" creationdate="20201009T102525Z">
