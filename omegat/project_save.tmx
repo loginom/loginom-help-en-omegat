@@ -58253,6 +58253,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Слева в выпадающем списке необходимо выбрать условие соответствия значений измерения маске.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T131652Z" creationid="Марианна" creationdate="20211020T131652Z">
+        <seg>It is required to select the condition of dimension values and pattern mapping to the left in the drop-down list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слева расположен список полей входного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T194201Z" creationid="Марианна" creationdate="20210225T194201Z">
