@@ -76,17 +76,17 @@ In ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
 It is possible to add measures in two ways:
 
 * drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3);
-* Нажать кнопку ![Факты](../../images/icons/toolbar-controls/sum_default.svg) Факты, выбрать необходимое поле и в появившемся [окне](./addfact.md) выбрать нужный вариант [агрегации](../../processors/func/aggregation-functions.md) и способ его отображения.
+* By pressing on ![Measures](../../images/icons/toolbar-controls/sum_default.svg) Measures button, it is necessary to select the required field and in the appeared [window](./addfact.md) select the required method of [aggregation](../../processors/func/aggregation-functions.md) and method of its display.
 
-Нажав на кнопку ![Раскрыть список](../../images/icons/toolbar-controls/down_default.svg) рядом с ![Факты](../../images/icons/toolbar-controls/sum_default.svg) Факты, можно открыть выпадающее меню с вызовом одного из окон:
+By pressing on ![Open list](../../images/icons/toolbar-controls/down_default.svg) button near ![Measures](../../images/icons/toolbar-controls/sum_default.svg) Measures, it is possible to open the drop-down menu with option to call one of the following windows:
 
-* ![Настроить факты](../../images/icons/cube/cases/case-tune_default.svg) **Настроить факты…** — открыть окно настройки фактов;
-* ![Добавить вычисляемый факт](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления вычисляемого факта в Куб;
-* ![Фильтровать факты](../../images/icons/cube/cases/case-filter_default.svg) **Фильтровать факты…** — открыть окно для фильтрации фактов;
-* ![Форматировать факты](../../images/icons/cube/cases/case-format_default.svg) **Форматировать факты…** — открыть окно для форматирования фактов и заголовков измерений.
+* ![Configure measures](../../images/icons/cube/cases/case-tune_default.svg) **Configure measures…**: open the measures configuration window.
+* ![Add calculated measure](../../images/icons/cube/cases/case-calc_default.svg) **Add calculated measure…**: open the window to add the calculated measure to the Cube.
+* ![Filter measures](../../images/icons/cube/cases/case-filter_default.svg) **Filter measures…**: open the window for measures filtration.
+* ![Format measures](../../images/icons/cube/cases/case-format_default.svg) **Format measures…**: open the window for formatting of measures and headers of dimensions.
 
-Удалить факт можно снятием флага в вызываемом окне *Настроить факты*.
+It is possible to delete a measure by deselecting the checkbox in called *Configure measures* window.
 
-> **Примечание:** по умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку. Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.
+> **Note:** The aggregation option and method of its display first in the list are selected by default. Display of several aggregation options and methods of their display for each measure is supported.
 
-Кнопку ![Факты](../../images/icons/toolbar-controls/sum_default.svg)Факты можно перемещать из строк в столбцы и таким образом менять положение заголовков фактов. В случаях когда требуется переместить факт в измерения, необходимо сперва удалить факт, а затем добавить в нужную Область измерений (2) или (4).
+It is possible to move ![Measures](../../images/icons/toolbar-controls/sum_default.svg)Measures button from rows to columns, and, thus, it is possible to change location of measures headers. When it is required to move a measure to dimensions, it is necessary to delete the measure first, then it is required to add to the required Area of Dimensions (2) or (4).
