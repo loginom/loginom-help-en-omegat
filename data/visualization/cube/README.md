@@ -38,22 +38,22 @@ Count of dimensions is limited by the number of the available fields. It is reco
 
 > **Note:** When moving the fields to different areas, the modal windows of actions confirmation can appear if dimension or measure are used in the active calculated measure or in the filter by measure.
 
-As the Cube visualizer is a flat two-dimensional table, the headers form the hierarchic system (tree of headers) when displaying several dimensions. All headers are collapsed up to the most external dimension by default. Для раскрытия или сворачивания заголовков внутренних измерений нужно кликнуть по кнопке Развернуть или Свернуть на заголовке внешнего измерения. There are group operations of expansion or collapsing of headers.
+As the Cube visualizer is a flat two-dimensional table, the headers form the hierarchic system (tree of headers) when displaying several dimensions. All headers are collapsed up to the most external dimension by default. To expand or collapse the internal dimensions headers, it is required to click on Expand of Collapse button of the external dimension header. There are group operations of expansion or collapsing of headers.
 
-При нажатии на ![Раскрыть меню](../../images/icons/toolbar-controls/down_default.svg) справа от названия измерения доступен выбор:
+The following options are available when pressing ![Open menu](../../images/icons/toolbar-controls/down_default.svg) to the right from the dimesion name:
 
-* ![Свернуть](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть**  все элементы до минимальной детализации измерения;
-* ![Развернуть](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть** все элементы до максимальной детализации измерения;
-* ![По возрастанию](../../images/icons/toolbar-controls/low-to-hight_default.svg) **По возрастанию** — отсортировать значения в порядке возрастания;
-* ![По убыванию](../../images/icons/toolbar-controls/hight-to-low_default.svg) **По убыванию** — отсортировать значения в порядке убывания;
-* ![В исходном порядке](../../images/icons/blank.svg) **В исходном порядке** — выстроить значения в порядке их появления в данных;
-* ![Удалить](../../images/icons/toolbar-controls/delete_default.svg) **Удалить** — исключить измерение из Куба. Удалить измерение также можно перетаскиванием (Drag-and-Drop) назад в Область свободных полей (1).
+* ![Collapse](../../images/icons/toolbar-controls/collapce-all_default.svg) **Collapse**  all items up to the minimum dimension detailing.
+* ![Expand](../../images/icons/toolbar-controls/open-all_default.svg) **Expand** all items up to the maximum dimension detailing.
+* ![Ascending](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Ascending**: sort the values in ascending order.
+* ![Descending](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Descending**: sort the values in descending order.
+* ![In original order](../../images/icons/blank.svg) **In original order**: place the values in the order of their appearance in data.
+* ![Delete](../../images/icons/toolbar-controls/delete_default.svg) **Delete**: delete a dimension from the Cube. It is possible to delete a dimension by dragging (Drag-and-Drop) back to the Area of Free Fields.
 
-Чтобы отфильтровать данные по измерению, необходимо щёлкнуть мышью по нужному измерению, произвести настройку фильтра в открывшейся панели и нажать "Применить". Если по измерению настроена фильтрация, то оно выделяется оранжевым цветом. The filter can be used in three modes:
+To filter data by the dimension, it is required to click on the required dimension with the mouse, configure the filter on the opened panel and press "Apply". If filtration has been configured by the dimension, it is highlighted in orange. The filter can be used in three modes:
 
-* ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор** — пользователь может выбрать произвольное количество значений измерения из списка доступных. The selected values will be displayed in the Cube.
+* ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection**: a user can select the random count of values from the list of the available ones. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
-   **Одиночный выбор** — позволяет выбрать из списка только одно значение, которое будет отображаться в Кубе.
+   **Single selection** enables to select only one value from the list that will be displayed in the Cube.
 * ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.
 
 ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode can be set by default. C помощью переключателя **Режим включенных/исключенных** значений задается разрешительный или запретительный тип фильтра. Это влияет на то, как будет обновлен фильтр, если Куб открывается на новых данных.
