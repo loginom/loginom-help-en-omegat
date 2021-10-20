@@ -25286,6 +25286,14 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>C помощью переключателя &lt;x5/&gt;Режим включенных/исключенных&lt;x6/&gt; значений задается разрешительный или запретительный тип фильтра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T130011Z" creationid="Марианна" creationdate="20211020T130011Z">
+        <seg>Using &lt;x5/&gt;Inclusive/exclusive filter&lt;x6/&gt; switch of values it is possible to set permissive or prohibitive filter type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CASE...").</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T225627Z" creationid="Марианна" creationdate="20210928T225627Z">
