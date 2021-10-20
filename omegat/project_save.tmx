@@ -59301,6 +59301,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Справа от списка в поле ввода задается маска.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T131802Z" creationid="Марианна" creationdate="20211020T131802Z">
+        <seg>The pattern is set to the right from the list in the entry field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Справа расположен список принимаемых REST-сервисом параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T194433Z" creationid="Марианна" creationdate="20210225T194433Z">
