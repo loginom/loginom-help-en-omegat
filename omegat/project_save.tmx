@@ -3558,6 +3558,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Комбинированный выбор&lt;x4/&gt; — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T125811Z" creationid="Марианна" creationdate="20211020T125811Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Combined selection&lt;x4/&gt; enables to select one dimension value from the list that has been earlier formed in the multiple selection mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Левое соединение&lt;x4/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201202T065616Z" creationid="Марианна" creationdate="20201111T104900Z">
