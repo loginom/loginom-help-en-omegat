@@ -20920,6 +20920,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Развернуть&lt;x2/&gt; &lt;x3/&gt;Развернуть&lt;x4/&gt; все элементы до максимальной детализации измерения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123110Z" creationid="Марианна" creationdate="20211020T123110Z">
+        <seg>&lt;x1/&gt;Expand&lt;x2/&gt; &lt;x3/&gt;Expand&lt;x4/&gt; all items up to the maximum dimension detailing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разгруппированное значение&lt;x2/&gt; — в текущем примере это детализация продаж товаров, измеряемая в тыс.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201124T114722Z" creationid="Марианна" creationdate="20201124T114520Z">
@@ -21524,6 +21532,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T205526Z" creationid="Марианна" creationdate="20211011T205526Z">
         <seg>&lt;x1/&gt;Collapse rows&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Свернуть&lt;x2/&gt; &lt;x3/&gt;Свернуть&lt;x4/&gt;  все элементы до минимальной детализации измерения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123029Z" creationid="Марианна" creationdate="20211020T123029Z">
+        <seg>&lt;x1/&gt;Collapse&lt;x2/&gt; &lt;x3/&gt;Collapse&lt;x4/&gt;  all items up to the minimum dimension detailing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54699,6 +54715,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211014T112545Z" creationid="Марианна" creationdate="20211014T112545Z">
         <seg>When hovering cursor over this area, the tooltip with the number of the displayed fields is shown.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии на &lt;x1/&gt;Раскрыть меню&lt;x2/&gt; справа от названия измерения доступен выбор:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T122940Z" creationid="Марианна" creationdate="20211020T122940Z">
+        <seg>The following options are available when pressing &lt;x1/&gt;Open menu&lt;x2/&gt; to the right from the dimesion name:</seg>
       </tuv>
     </tu>
     <tu>
