@@ -46962,6 +46962,14 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка Области фильтрации аналогична настройке Области измерений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T160049Z" creationid="Марианна" creationdate="20211020T160049Z">
+        <seg>Configuration of the Area of Filtration is similar to configuration of the Area of Dimensions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка автоматического подбора параметров Нейросети</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201222T054821Z" creationid="Марианна" creationdate="20201222T054821Z">
