@@ -61615,6 +61615,14 @@ to set parameters of the node settings.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удалить измерение также можно перетаскиванием (Drag-and-Drop) назад в Область свободных полей (1).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T123444Z" creationid="Марианна" creationdate="20211020T123444Z">
+        <seg>It is possible to delete a dimension by dragging (Drag-and-Drop) back to the Area of Free Fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удалить такую связь можно нажатием на кнопку &lt;x1/&gt;&lt;x2/&gt; на линии связи.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211003T204115Z" creationid="Марианна" creationdate="20211003T204115Z">
@@ -63323,6 +63331,14 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211019T111033Z" creationid="Марианна" creationdate="20211019T111033Z">
         <seg>To disable filtration, it is required to select &lt;x1/&gt;(Filter disabled)&lt;x2/&gt; in the dimensions list and press &lt;x3/&gt;Filter&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы отфильтровать данные по измерению, необходимо щёлкнуть мышью по нужному измерению, произвести настройку фильтра в открывшейся панели и нажать "Применить".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T125139Z" creationid="Марианна" creationdate="20211020T125139Z">
+        <seg>To filter data by the dimension, it is required to click on the required dimension with the mouse, configure the filter on the opened panel and press "Apply".</seg>
       </tuv>
     </tu>
     <tu>
