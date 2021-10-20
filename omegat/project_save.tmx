@@ -41946,6 +41946,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Измерения, добавленные в Область фильтрации, не будут отображаться в Кубе, но могут быть использованы в вычисляемых фактах и для фильтрации данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T160209Z" creationid="Марианна" creationdate="20211020T160209Z">
+        <seg>The dimensions added to the Area of Filtration will not be displayed in the Cube but they can be used in the calculated measures and for data filtration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Измерения, которые не были перенесены в строки, столбцы или область фильтрации, в списке доступны не будут.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T232207Z" creationid="Марианна" creationdate="20211017T232207Z">
