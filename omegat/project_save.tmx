@@ -3572,6 +3572,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Множественный выбор&lt;x4/&gt; — пользователь может выбрать произвольное количество значений измерения из списка доступных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T125343Z" creationid="Марианна" creationdate="20211020T125343Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Multiple selection&lt;x4/&gt;: a user can select the random count of values from the list of the available ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Набор данных&lt;x4/&gt; — таблица с импортированными данными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T132452Z" creationid="Марианна" creationdate="20200824T154816Z">
@@ -40045,6 +40053,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200823T125549Z" creationid="Марианна" creationdate="20200823T125549Z">
         <seg>If the variable will contain the following value: &lt;x9/&gt;Nomenclature.ProductItem = "4561"&lt;x10/&gt;, the resulting request will have the following form:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если по измерению настроена фильтрация, то оно выделяется оранжевым цветом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T125227Z" creationid="Марианна" creationdate="20211020T125227Z">
+        <seg>If filtration has been configured by the dimension, it is highlighted in orange.</seg>
       </tuv>
     </tu>
     <tu>
