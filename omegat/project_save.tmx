@@ -32388,6 +32388,16 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В режимах &lt;x1/&gt; &lt;x2/&gt;
+&lt;x3/&gt;Одиночный выбор&lt;x4/&gt; или &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Комбинированный выбор&lt;x8/&gt; справа и слева от наименования измерения появляются кнопки &lt;x9/&gt;&lt;&lt;x10/&gt; и &lt;x11/&gt;&gt;&lt;x12/&gt; для перелистывания значений фильтра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T155244Z" creationid="Марианна" creationdate="20211020T155244Z">
+        <seg>In &lt;x1/&gt; &lt;x2/&gt;
+&lt;x3/&gt;Single selection&lt;x4/&gt; or &lt;x5/&gt; &lt;x6/&gt; &lt;x7/&gt;Combined selection&lt;x8/&gt; modes to the right and to the left from the dimension name, &lt;x9/&gt;&lt;&lt;x10/&gt; and &lt;x11/&gt;&gt;&lt;x12/&gt; buttons appear for paging of the filter values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В режиме &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Множественный выбор&lt;x4/&gt; доступны операции:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211020T130401Z" creationid="Марианна" creationdate="20211020T130401Z">
@@ -55165,6 +55175,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200921T194657Z" creationid="Марианна" creationdate="20200921T194657Z">
         <seg>Being originally created, the node does not have &lt;x1/&gt;ports&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При перелистывании Область фактов (3) будет перестраиваться под значение фильтра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T155522Z" creationid="Марианна" creationdate="20211020T155522Z">
+        <seg>The Area of Measures (3) will be rebuilt to comply with the filter value when paging.</seg>
       </tuv>
     </tu>
     <tu>
