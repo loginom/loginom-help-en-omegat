@@ -55081,6 +55081,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При отборе может учитываться регистр букв, для этого нужно установить флаг &lt;x7/&gt;Учитывать регистр&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T154945Z" creationid="Марианна" creationdate="20211020T154945Z">
+        <seg>The case of letters can be taken into account during the selection process. For this purpose, it is required to select &lt;x7/&gt;Case-sensitive&lt;x8/&gt; checkbox.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При отсутствии &lt;x1/&gt;&lt;x2/&gt; показывает только активные процессы и процессы, в которых возникли ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201020T194904Z" creationid="Марианна" creationdate="20200817T074026Z">
