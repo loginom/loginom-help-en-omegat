@@ -54,22 +54,22 @@ To filter data by the dimension, it is required to click on the required dimensi
 * ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection**: a user can select the random count of values from the list of the available ones. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
    **Single selection** enables to select only one value from the list that will be displayed in the Cube.
-* ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.
+* ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Combined selection** enables to select one dimension value from the list that has been earlier formed in the multiple selection mode.
 
-![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode can be set by default. C помощью переключателя **Режим включенных/исключенных** значений задается разрешительный или запретительный тип фильтра. Это влияет на то, как будет обновлен фильтр, если Куб открывается на новых данных.
+![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode can be set by default. Using **Inclusive/exclusive filter** switch of values it is possible to set permissive or prohibitive filter type. It influences on the fact how the filter will be updated if the Cube is opened for the new data.
 
-В режиме ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Множественный выбор** доступны операции:
+The following operations are available in the ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode:
 
-* ![ ](../../images/icons/toolbar-controls/visible_default.svg) **Отметить все / ![ ](../../images/icons/toolbar-controls/invisible_default.svg) Снять все** — выделяет все значения в списке или снимает выделение со всех значений списка.
-* ![ ](../../images/icons/toolbar-controls/invert-eye_default.svg) **Инвертировать выбор** — меняет выбранные значения списка на невыбранные и наоборот.
-* ![ ](../../images/icons/toolbar-controls/eye-filter_default.svg) **Отметить по маске...** — позволяет задать условие и метод отбора измерений.
+* ![ ](../../images/icons/toolbar-controls/visible_default.svg) **Check all / ![ ](../../images/icons/toolbar-controls/invisible_default.svg) Uncheck all**: select all values in the list or deselect all list values.
+* ![ ](../../images/icons/toolbar-controls/invert-eye_default.svg) **Invert selection**: change the selected values from the list to the unselected ones and vice versa.
+* ![ ](../../images/icons/toolbar-controls/eye-filter_default.svg) **Check by pattern...**: set the condition and method of dimensions selection.
 
-Для настройки отбора открывается окно *Отметить по маске* (в заголовке окна также указано измерение, для которого выполняется настройка). Слева в выпадающем списке необходимо выбрать условие соответствия значений измерения маске. Справа от списка в поле ввода задается маска. Ко всем измерениям, которые соответствуют условию, будет применен выбранный метод отбора (*Отметить, Добавить к отмеченным, Снять* или *Удалить из отмеченных*). При отборе может учитываться регистр букв, для этого нужно установить флаг *Учитывать регистр*.
+To configure selection, it is required to open *Check by pattern* window (the configured dimension is also specified in the window header). It is required to select the condition of dimension values and pattern mapping to the left in the drop-down list. The pattern is set to the right from the list in the entry field. The selected method of selection will be applied to all dimensions that comply with the condition (*Check, Add to checked, Uncheck* or *Remove from checked*). The case of letters can be taken into account during the selection process. For this purpose, it is required to select *Case-sensitive* checkbox.
 
-В режимах ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
-**Одиночный выбор** или ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** справа и слева от наименования измерения появляются кнопки ![<](../../images/icons/toolbar-controls/arrow-l_default.svg) и ![>](../../images/icons/toolbar-controls/arrow-r_default.svg) для перелистывания значений фильтра. При перелистывании Область фактов (3) будет перестраиваться под значение фильтра. Можно включить перелистывание через границы списка значений, нажав на кнопку ![ ](../../images/icons/toolbar-controls/roll-over_default.svg) **Зациклить значения при перелистывании**.
+In ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
+**Single selection** or ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Combined selection** modes to the right and to the left from the dimension name, ![<](../../images/icons/toolbar-controls/arrow-l_default.svg) and ![>](../../images/icons/toolbar-controls/arrow-r_default.svg) buttons appear for paging of the filter values. The Area of Measures (3) will be rebuilt to comply with the filter value when paging. It is possible to enable paging across the bounds of the values list by pressing on ![ ](../../images/icons/toolbar-controls/roll-over_default.svg) **Loop values** button.
 
-> **Примечание:** над Областью измерений (4) Куба находится Область фильтрации (5). Настройка Области фильтрации аналогична настройке Области измерений. Измерения, добавленные в Область фильтрации, не будут отображаться в Кубе, но могут быть использованы в вычисляемых фактах и для фильтрации данных.
+> **Note:** The Area of Filtration (5) is located under the Area of Dimensions (4). Configuration of the Area of Filtration is similar to configuration of the Area of Dimensions. The dimensions added to the Area of Filtration will not be displayed in the Cube but they can be used in the calculated measures and for data filtration.
 
 #### Measures
 
