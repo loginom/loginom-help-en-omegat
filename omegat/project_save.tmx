@@ -23778,6 +23778,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтровать факты&lt;x2/&gt; &lt;x3/&gt;Фильтровать факты…&lt;x4/&gt; — открыть окно для фильтрации фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T161338Z" creationid="Марианна" creationdate="20211020T161338Z">
+        <seg>&lt;x1/&gt;Filter measures&lt;x2/&gt; &lt;x3/&gt;Filter measures…&lt;x4/&gt;: open the window for measures filtration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Фильтровать факты&lt;x2/&gt; Фильтровать факты</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T230407Z" creationid="Марианна" creationdate="20211005T171329Z">
@@ -23894,6 +23902,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T101726Z" creationid="Марианна" creationdate="20211017T101726Z">
         <seg>&lt;x1/&gt;Formatting&lt;x2/&gt; Formatting</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Форматировать факты&lt;x2/&gt; &lt;x3/&gt;Форматировать факты…&lt;x4/&gt; — открыть окно для форматирования фактов и заголовков измерений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T161446Z" creationid="Марианна" creationdate="20211020T161446Z">
+        <seg>&lt;x1/&gt;Format measures&lt;x2/&gt; &lt;x3/&gt;Format measures…&lt;x4/&gt;: open the window for formatting of measures and headers of dimensions.</seg>
       </tuv>
     </tu>
     <tu>
