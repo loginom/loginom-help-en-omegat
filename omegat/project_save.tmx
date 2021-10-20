@@ -3124,6 +3124,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;
+&lt;x3/&gt;Одиночный выбор&lt;x4/&gt; — позволяет выбрать из списка только одно значение, которое будет отображаться в Кубе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T125522Z" creationid="Марианна" creationdate="20211020T125522Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt;
+&lt;x3/&gt;Single selection&lt;x4/&gt; enables to select only one value from the list that will be displayed in the Cube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt;   табличном порту;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211014T105503Z" creationid="Марианна" creationdate="20211014T105503Z">
