@@ -46460,6 +46460,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нажать кнопку &lt;x1/&gt;Факты&lt;x2/&gt; Факты, выбрать необходимое поле и в появившемся &lt;x3/&gt;окне&lt;x4/&gt; выбрать нужный вариант &lt;x5/&gt;агрегации&lt;x6/&gt; и способ его отображения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T160531Z" creationid="Марианна" creationdate="20211020T160531Z">
+        <seg>By pressing on &lt;x1/&gt;Measures&lt;x2/&gt; Measures, it is necessary to select the required field and  in the appeared &lt;x3/&gt;window&lt;x4/&gt; select the required method of &lt;x5/&gt;aggregation&lt;x6/&gt; and method of its display.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нажать на кнопку &lt;x1/&gt;&lt;x2/&gt; нужного поля в столбце &lt;x3/&gt;&lt;x4/&gt; ;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211006T150504Z" creationid="Марианна" creationdate="20211006T150504Z">
