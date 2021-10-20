@@ -13105,6 +13105,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Добавить вычисляемый факт&lt;x2/&gt; &lt;x3/&gt;Добавить вычисляемый факт…&lt;x4/&gt; — открыть окно для добавления вычисляемого факта в Куб;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T161244Z" creationid="Марианна" creationdate="20211020T161244Z">
+        <seg>&lt;x1/&gt;Add calculated measure&lt;x2/&gt; &lt;x3/&gt;Add calculated measure…&lt;x4/&gt;: open the window to add the calculated measure to the Cube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Добавить новое условие&lt;x2/&gt; — добавить в ветвь новое условие, после нажатия открывается окно для его настройки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200924T074635Z" creationid="Марианна" creationdate="20200924T074635Z">
@@ -16341,6 +16349,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065908Z" creationid="Марианна" creationdate="20200812T065908Z">
         <seg>&lt;x1/&gt;Configure measures&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настроить факты&lt;x2/&gt; &lt;x3/&gt;Настроить факты…&lt;x4/&gt; — открыть окно настройки фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T160950Z" creationid="Марианна" creationdate="20211020T160950Z">
+        <seg>&lt;x1/&gt;Configure measures&lt;x2/&gt; &lt;x3/&gt;Configure measures…&lt;x4/&gt;: open the measures configuration window.</seg>
       </tuv>
     </tu>
     <tu>
