@@ -63833,6 +63833,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это влияет на то, как будет обновлен фильтр, если Куб открывается на новых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T130241Z" creationid="Марианна" creationdate="20211020T130241Z">
+        <seg>It influences on the fact how the filter will be updated if the Cube is opened for the new data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это значение можно изменить: большое число классов приводит к уменьшению их веса, а малое — к уменьшению информационного индекса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210606T204531Z" creationid="Марианна" creationdate="20210530T122036Z">
