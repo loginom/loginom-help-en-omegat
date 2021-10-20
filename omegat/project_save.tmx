@@ -32760,6 +32760,14 @@ etc.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случаях когда требуется переместить факт в измерения, необходимо сперва удалить факт, а затем добавить в нужную Область измерений (2) или (4).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T162540Z" creationid="Марианна" creationdate="20211020T162540Z">
+        <seg>When it is required to move a measure to dimensions, it is necessary to delete the measure first, then it is required to add to the required Area of Dimensions (2) or (4).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В соответствии с заданной пропорцией данные случайным образом разделяются на обучающее и валидационное множество.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210925T122626Z" creationid="Марианна" creationdate="20210925T122626Z">
@@ -43785,8 +43793,8 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
       <tuv lang="ru">
         <seg>Кнопку &lt;x1/&gt;Факты&lt;x2/&gt;Факты можно перемещать из строк в столбцы и таким образом менять положение заголовков фактов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211020T162230Z" creationid="Марианна" creationdate="20211020T162213Z">
-        <seg>It is possible to move &lt;x1/&gt;Measures&lt;x2/&gt;Measures from rows to columns, and, thus, it is possible to change location of measures captions.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T162432Z" creationid="Марианна" creationdate="20211020T162213Z">
+        <seg>It is possible to move &lt;x1/&gt;Measures&lt;x2/&gt;Measures button from rows to columns, and, thus, it is possible to change location of measures headers.</seg>
       </tuv>
     </tu>
     <tu>
