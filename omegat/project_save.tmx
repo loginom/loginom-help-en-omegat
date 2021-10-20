@@ -20255,6 +20255,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; над Областью измерений (4) Куба находится Область фильтрации (5).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211020T155836Z" creationid="Марианна" creationdate="20211020T155836Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The Area of Filtration (5) is located under the Area of Dimensions (4).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; нахождение базового узла возможно только в том случае, если он расположен в пределах текущей области построения Сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T213752Z" creationid="Марианна" creationdate="20210928T213752Z">
