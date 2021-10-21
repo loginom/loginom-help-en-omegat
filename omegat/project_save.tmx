@@ -17253,6 +17253,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область оценок классификации&lt;x2/&gt; — содержит таблицы с оценками классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102317Z" creationid="Марианна" creationdate="20211021T102317Z">
+        <seg>&lt;x1/&gt;Area of classification assessments&lt;x2/&gt; contains the tables with classification assessments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область построения сценария и панель Компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200716T160028Z" creationid="Марианна" creationdate="20200716T160028Z">
@@ -20564,6 +20572,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200918T143845Z" creationid="Марианна" creationdate="20200918T143845Z">
         <seg>&lt;x1/&gt;Note&lt;x2/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: &lt;x3/&gt;Область оценок классификации&lt;x4/&gt; можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102517Z" creationid="Марианна" creationdate="20211021T102517Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Sizes of &lt;x3/&gt;Area of classification assessments&lt;x4/&gt; can be changed by dragging the separator line with the left mouse button.</seg>
       </tuv>
     </tu>
     <tu>
