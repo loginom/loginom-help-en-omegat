@@ -6446,6 +6446,22 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Процент по вертикали&lt;x4/&gt; — отображает долю в процентах от занимаемого данным фактом в данном столбце.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T085712Z" creationid="Марианна" creationdate="20211021T085712Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Percent by column&lt;x4/&gt; enables to display the rate in percentage terms taken by this measure in this column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Процент по горизонтали&lt;x4/&gt; — отображает долю в процентах от занимаемого данным фактом в данной строке;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T085632Z" creationid="Марианна" creationdate="20211021T085632Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Percent by row&lt;x4/&gt; enables to display the rate in percentage terms taken by this measure in this row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Развернуть дерево&lt;x4/&gt; — развернуть дерево фактов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211021T084200Z" creationid="Марианна" creationdate="20211021T084200Z">
