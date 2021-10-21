@@ -48810,6 +48810,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Область настроек</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102735Z" creationid="Марианна" creationdate="20211021T102735Z">
+        <seg>Area of Settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Область настройки параметров квантования</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210629T195520Z" creationid="Марианна" creationdate="20210629T195520Z">
@@ -57495,6 +57503,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Располагается в левой части визуализатора и содержит три группы параметров: &lt;x1/&gt;Выбор диаграммы&lt;x2/&gt;, &lt;x3/&gt;Множества&lt;x4/&gt; и &lt;x5/&gt;Порог отсечения&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102922Z" creationid="Марианна" creationdate="20211021T102922Z">
+        <seg>It is located in the left part of the visualizer and contains three groups of parameters: &lt;x1/&gt;Chart type&lt;x2/&gt;, &lt;x3/&gt;Sets&lt;x4/&gt; and &lt;x5/&gt;Cutoff&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Расположив несколько узлов на рабочем пространстве и соединив их между собой, получится Сценарий, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T210314Z" creationid="Марианна" creationdate="20210928T205826Z">
@@ -58601,8 +58617,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Скрытие области возможно и для &lt;x5/&gt;Области настроек&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T102652Z" creationid="Марианна" creationdate="20211021T102652Z">
-        <seg>It is possible to hide area also for &lt;x5/&gt;Area of settings&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102720Z" creationid="Марианна" creationdate="20211021T102652Z">
+        <seg>It is possible to hide the area also for &lt;x5/&gt;Area of settings&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
