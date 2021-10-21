@@ -14769,6 +14769,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt; — в этом визуализаторе строятся диаграммы и таблицы с результатами проведенной классификации на основе &lt;x3/&gt;логистической регрессии&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T101919Z" creationid="Марианна" creationdate="20211021T101919Z">
+        <seg>&lt;x1/&gt;Binary classification assessment&lt;x2/&gt;: charts and tables with results of the performed classification based on the &lt;x3/&gt;logistic regression&lt;x4/&gt; are constructed in this visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Квантование&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055135Z" creationid="Марианна" creationdate="20200812T055135Z">
