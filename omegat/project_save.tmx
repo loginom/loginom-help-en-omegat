@@ -6598,6 +6598,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сумма&lt;x4/&gt; — показывает сумму значений данного факта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T085333Z" creationid="Марианна" creationdate="20211021T085333Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Sum&lt;x4/&gt; enables to show the sum of values of this measure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — переключение отображения &lt;x5/&gt;коэффициентов регрессии&lt;x6/&gt; в вид &lt;x7/&gt;Таблица&lt;x8/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T222813Z" creationid="Марианна" creationdate="20211010T230103Z">
