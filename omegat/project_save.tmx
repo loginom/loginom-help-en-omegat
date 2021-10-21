@@ -52692,6 +52692,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию флажок на чекбоксе проставлен, при снятии флажка становится доступным выбор диапазонов в выпадающем списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T111118Z" creationid="Марианна" creationdate="20211021T111118Z">
+        <seg>The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the ranges in the drop-down list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию шестнадцатеричные цифры записываются в верхнем регистре.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210405T144924Z" creationid="Марианна" creationdate="20210405T144924Z">
