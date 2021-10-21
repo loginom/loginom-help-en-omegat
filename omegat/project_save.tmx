@@ -16361,6 +16361,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настроить факты&lt;x2/&gt; Настроить факты</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T082750Z" creationid="Марианна" creationdate="20211021T082750Z">
+        <seg>&lt;x1/&gt;Configure Measures&lt;x2/&gt; Configure Measures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка внешнего разбиения&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T055345Z" creationid="Марианна" creationdate="20200812T055345Z">
@@ -52848,6 +52856,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T102152Z" creationid="Марианна" creationdate="20211011T213630Z">
         <seg>It enables to display the data for users in the form of the flat two-dimensional table with possibility of filtering, sorting, changing of data view format and search.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Позволяет, выставляя флаги у нужных фактов/вариантов &lt;x1/&gt;агрегации&lt;x2/&gt; и способов отображения, настроить отображаемые факты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T082940Z" creationid="Марианна" creationdate="20211021T082940Z">
+        <seg>It enables to configure the displayed measures by selecting checkboxes for the required measures/options of &lt;x1/&gt;aggregation&lt;x2/&gt; and methods of their display.</seg>
       </tuv>
     </tu>
     <tu>
