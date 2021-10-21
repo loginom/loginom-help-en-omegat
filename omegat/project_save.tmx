@@ -17137,6 +17137,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область диаграммы&lt;x2/&gt; — отображает диаграмму выбранную в области настроек;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102156Z" creationid="Марианна" creationdate="20211021T102156Z">
+        <seg>&lt;x1/&gt;Chart area&lt;x2/&gt; displays the chart selected in the area of settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Область кода выражений&lt;x2/&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201130T133714Z" creationid="Марианна" creationdate="20201015T062304Z">
@@ -17165,6 +17173,14 @@ To provide integration with several sources, for example, databases and web serv
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T100348Z" creationid="Марианна" creationdate="20211015T100348Z">
         <seg>&lt;x1/&gt;Area of coarse classes&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Область настроек&lt;x2/&gt; — в данной области происходит выбор и настройка диаграммы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102025Z" creationid="Марианна" creationdate="20211021T102025Z">
+        <seg>&lt;x1/&gt;Area of settings&lt;x2/&gt;: this area is designated for the chart selection and configuration.</seg>
       </tuv>
     </tu>
     <tu>
