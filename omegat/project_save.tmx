@@ -37984,6 +37984,14 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для него предлагается единственный вариант агрегации – &lt;x7/&gt;Количество-Агрегация&lt;x8/&gt;&lt;x9/&gt;Количество&lt;x10/&gt;, показывающий количество записей исходного набора, попавших в ячейку куба.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T083726Z" creationid="Марианна" creationdate="20211021T083726Z">
+        <seg>The only aggregation option is available for it: &lt;x7/&gt;Count-Aggregation&lt;x8/&gt;&lt;x9/&gt;Count&lt;x10/&gt;. It shows the count of the source data set records included into the cube cell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для некоторых команд доступны горячие клавиши:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075157Z" creationid="Марианна" creationdate="20200816T140233Z">
