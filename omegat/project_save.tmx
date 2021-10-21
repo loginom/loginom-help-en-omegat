@@ -31210,6 +31210,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;x13/&gt;Кубе&lt;x14/&gt; отобразятся только те факты, которые были отмечены в окне &lt;x15/&gt;Настроить факты&lt;x16/&gt; на момент нажатия кнопки &lt;x17/&gt;Применить&lt;x18/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T085250Z" creationid="Марианна" creationdate="20211021T085250Z">
+        <seg>In the  &lt;x13/&gt;Кубе&lt;x14/&gt; only the measures selected in &lt;x15/&gt;Configure measures&lt;x16/&gt; window at the moment of &lt;x17/&gt;Apply&lt;x18/&gt; button pressing will be displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;x3/&gt;Куб&lt;x4/&gt; будут внесены изменения после нажатия кнопки &lt;x5/&gt;Применить&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211021T083228Z" creationid="Марианна" creationdate="20211021T083228Z">
@@ -45999,6 +46007,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211018T091601Z" creationid="Марианна" creationdate="20211018T091601Z">
         <seg>It is possible to omit the dimension function name. In this case, the Value function will be used by default, namely, &lt;x5/&gt;Dimension name&lt;x6/&gt; = &lt;x7/&gt;Dimension name.Value&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Можно отменить любую операцию, выполнив обратную ей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T085019Z" creationid="Марианна" creationdate="20211021T085019Z">
+        <seg>It is possible to cancel any operation by performing the one that is the inverse one.</seg>
       </tuv>
     </tu>
     <tu>
