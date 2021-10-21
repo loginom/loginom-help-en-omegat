@@ -6014,6 +6014,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить вычисляемый факт…&lt;x4/&gt; — открыть окно для добавления &lt;x5/&gt;вычисляемого факта&lt;x6/&gt; в куб;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084521Z" creationid="Марианна" creationdate="20211021T084521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add calculated measure…&lt;x4/&gt;: open the window to &lt;x5/&gt;calculated measure&lt;x6/&gt; to cube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить дочерний узел&lt;x4/&gt; — позволяет добавить к корневому узлу дочерний узел.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T114614Z" creationid="Марианна" creationdate="20201001T114614Z">
@@ -6034,6 +6042,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T115011Z" creationid="Марианна" creationdate="20201001T115011Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add neighboring node&lt;x4/&gt; enables to create the node of the same hierarchic level as provided for the selected one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить факт...&lt;x4/&gt; — открыть окно для &lt;x5/&gt;добавления факта&lt;x6/&gt; в куб;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084448Z" creationid="Марианна" creationdate="20211021T084448Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add measure...&lt;x4/&gt;: open the window to &lt;x5/&gt;add measure&lt;x6/&gt; to cube.</seg>
       </tuv>
     </tu>
     <tu>
