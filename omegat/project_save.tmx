@@ -6016,8 +6016,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить вычисляемый факт…&lt;x4/&gt; — открыть окно для добавления &lt;x5/&gt;вычисляемого факта&lt;x6/&gt; в куб;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T084521Z" creationid="Марианна" creationdate="20211021T084521Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add calculated measure…&lt;x4/&gt;: open the window to &lt;x5/&gt;calculated measure&lt;x6/&gt; to cube.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084547Z" creationid="Марианна" creationdate="20211021T084521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add calculated measure…&lt;x4/&gt;: open the window to add the &lt;x5/&gt;calculated measure&lt;x6/&gt; to cube.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6470,6 +6470,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать вычисляемый факт…&lt;x4/&gt; — открыть окно редактирования вычисляемого факта;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084651Z" creationid="Марианна" creationdate="20211021T084651Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit calculated measure…&lt;x4/&gt;: open the window to edit the calculated measure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Редактировать разбиение&lt;x4/&gt; — при нажатии на кнопку становятся доступны поля для редактирования параметров конечных классов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T075702Z" creationid="Марианна" creationdate="20210628T075317Z">
@@ -6666,6 +6674,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T142503Z" creationid="Марианна" creationdate="20201115T142503Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete field&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить факт&lt;x4/&gt; — удалить выделенный факт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084711Z" creationid="Марианна" creationdate="20211021T084711Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete measure&lt;x4/&gt;: delete the selected measure.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20073,6 +20089,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210203T070925Z" creationid="Марианна" creationdate="20210203T070925Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; As the inbox driver is used for connection, it is not required to install DBMS client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; После выполнения операций &lt;x3/&gt;&lt;x4/&gt; Добавить факт..., &lt;x5/&gt;&lt;x6/&gt; Добавить вычисляемый факт… или &lt;x7/&gt;&lt;x8/&gt; Удалить факт кнопка &lt;x9/&gt;Отменить&lt;x10/&gt; в окне &lt;x11/&gt;Настроить факты&lt;x12/&gt; станет недоступна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084844Z" creationid="Марианна" creationdate="20211021T084844Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Upon &lt;x3/&gt;&lt;x4/&gt; Add measure..., &lt;x5/&gt;&lt;x6/&gt; Add calculated measure… or &lt;x7/&gt;&lt;x8/&gt; Delete measure operations, &lt;x9/&gt;Cancel&lt;x10/&gt; button in &lt;x11/&gt;Configure measures&lt;x12/&gt; window will become unavailable.</seg>
       </tuv>
     </tu>
     <tu>
