@@ -1,30 +1,30 @@
-# ![Настроить факты](../../images/icons/cube/cases/case-tune_default.svg) Настроить факты
+# ![Configure Measures](../../images/icons/cube/cases/case-tune_default.svg) Configure Measures
 
-Позволяет, выставляя флаги у нужных фактов/вариантов [агрегации](../../processors/func/aggregation-functions.md) и способов отображения, настроить отображаемые факты.
+It enables to configure the displayed measures by selecting checkboxes for the required measures/options of [aggregation](../../processors/func/aggregation-functions.md) and methods of their display.
 
-В окне *Настроить факты* можно последовательно выполнить необходимые операции с несколькими фактами. В *Куб* будут внесены изменения после нажатия кнопки *Применить*.
+It is possible to perform the required successive operations with several measures in *Configure measures* window. Changes will be introduced into the *Cube* upon pressing *Apply* button.
 
-> **Примечание:** в списке присутствует факт ![Количество-Факт](../../images/icons/data-types/none_default.svg)*Количество*, который существует даже тогда, когда ни одно поле исходного набора данных не используется в качестве факта. Для него предлагается единственный вариант агрегации – ![Количество-Агрегация](../../images/icons/aggregations/factor-count_default.svg)*Количество*, показывающий количество записей исходного набора, попавших в ячейку куба.
+> **Note:** ![Count-Measure](../../images/icons/data-types/none_default.svg)*Count* measure is available in the list. It is available even when none of the source data set field is used as a measure. The only aggregation option is available for it: ![Count-Aggregation](../../images/icons/aggregations/factor-count_default.svg)*Count*. It shows the count of the source data set records included into the cube cell.
 
 ## Operations
 
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Переместить вверх** — переместить факт/вариант агрегации/способ отображения на позицию вверх;
-* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Переместить вниз** — переместить факт/вариант агрегации/способ отображения на позицию вниз;
-* ![](../../images/icons/toolbar-controls/collapce-all_default.svg) **Свернуть дерево** — свернуть дерево фактов;
-* ![](../../images/icons/toolbar-controls/open-all_default.svg) **Развернуть дерево** — развернуть дерево фактов;
-* ![](../../images/icons/toolbar-controls/check-all_default.svg) **Выбрать все** — выбрать все факты, варианты агрегации со всеми способами отображения;
-* ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;
-* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Добавить факт...** — открыть окно для [добавления факта](./addfact.md) в куб;
-* ![](../../images/icons/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления [вычисляемого факта](./addcalculatingfact.md) в куб;
-* ![](../../images/icons/toolbar-controls/edit_default.svg) **Редактировать вычисляемый факт…** — открыть окно редактирования вычисляемого факта;
-* ![](../../images/icons/toolbar-controls/delete_default.svg) **Удалить факт** — удалить выделенный факт.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enables to move the measure/aggregation option/representation method one item position up.
+* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enables to move the measure/aggregation option/representation method one item position down.
+* ![](../../images/icons/toolbar-controls/collapce-all_default.svg) **Collapse tree**: collapse the tree of measures.
+* ![](../../images/icons/toolbar-controls/open-all_default.svg) **Expand tree**: expand the tree of measures.
+* ![](../../images/icons/toolbar-controls/check-all_default.svg) **Check all**: check all measures, options of aggregation with all representation methods.
+* ![](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Uncheck all**: uncheck all measures, aggregation options with all representation methods.
+* ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) **Add measure...**: open the window to [add measure](./addfact.md) to cube.
+* ![](../../images/icons/cube/cases/case-calc_default.svg) **Add calculated measure…**: open the window to add the [calculated measure](./addcalculatingfact.md) to cube.
+* ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit calculated measure…**: open the window to edit the calculated measure.
+* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete measure**: delete the selected measure.
 
-> **Примечание:** После выполнения операций ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) Добавить факт..., ![](../../images/icons/cube/cases/case-calc_default.svg) Добавить вычисляемый факт… или ![](../../images/icons/toolbar-controls/delete_default.svg) Удалить факт кнопка *Отменить* в окне *Настроить факты* станет недоступна. Можно отменить любую операцию, выполнив обратную ей. В *Кубе* отобразятся только те факты, которые были отмечены в окне *Настроить факты* на момент нажатия кнопки *Применить*.
+> **Note:** Upon ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) Add measure..., ![](../../images/icons/cube/cases/case-calc_default.svg) Add calculated measure… or ![](../../images/icons/toolbar-controls/delete_default.svg) Delete measure operations, *Cancel* button in *Configure measures* window will become unavailable. It is possible to cancel any operation by performing the one that is the inverse one. In the  *Кубе* only the measures selected in *Configure measures* window at the moment of *Apply* button pressing will be displayed.
 
 ## Representation Methods
 
-* ![](../../images/icons/aggregations/factor-sum_default.svg) **Сумма** — показывает сумму значений данного факта;
-* ![](../../images/icons/cube/aggregation/row-percent_default.svg) **Процент по горизонтали** — отображает долю в процентах от занимаемого данным фактом в данной строке;
-* ![](../../images/icons/cube/aggregation/col-percent_default.svg) **Процент по вертикали** — отображает долю в процентах от занимаемого данным фактом в данном столбце.
+* ![](../../images/icons/aggregations/factor-sum_default.svg) **Sum** enables to show the sum of values of this measure.
+* ![](../../images/icons/cube/aggregation/row-percent_default.svg) **Percent by row** enables to display the rate in percentage terms taken by this measure in this row.
+* ![](../../images/icons/cube/aggregation/col-percent_default.svg) **Percent by column** enables to display the rate in percentage terms taken by this measure in this column.
 
 > **Note:** The representation option that is the first one on the list is selected by default as the representation option. Selection of several aggregation representation options at once is supported for the measure.
