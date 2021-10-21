@@ -58599,6 +58599,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Скрытие области возможно и для &lt;x5/&gt;Области настроек&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T102652Z" creationid="Марианна" creationdate="20211021T102652Z">
+        <seg>It is possible to hide area also for &lt;x5/&gt;Area of settings&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Слабая (0,001).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T214753Z" creationid="Марианна" creationdate="20201216T214753Z">
