@@ -63683,6 +63683,14 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чекбокс &lt;x1/&gt;Кумулятивная&lt;x2/&gt; становится активным при выборе диаграмм: &lt;x3/&gt;% распознанных событий&lt;x4/&gt;, &lt;x5/&gt;Диаграмма роста&lt;x6/&gt; и &lt;x7/&gt;Диаграмма отклика&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T110927Z" creationid="Марианна" creationdate="20211021T110927Z">
+        <seg>&lt;x1/&gt;Cumulative&lt;x2/&gt; checkbox becomes active when selecting the following charts: &lt;x3/&gt;% captured response&lt;x4/&gt;, &lt;x5/&gt;Lift chart&lt;x6/&gt; and &lt;x7/&gt;Response chart&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чем больше коэффициент, тем ниже уровень сходства и тем больше кластеров будет сгенерировано.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201210T083404Z" creationid="Марианна" creationdate="20201210T083404Z">
