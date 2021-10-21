@@ -5406,6 +5406,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;% распознанных событий&lt;x2/&gt; — в зависимости от проставленного флажка &lt;x3/&gt;Кумулятивная&lt;x4/&gt; показывает:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T103601Z" creationid="Марианна" creationdate="20211021T103601Z">
+        <seg>&lt;x1/&gt;% captured response&lt;x2/&gt;: according to the selected &lt;x3/&gt;Cumulative&lt;x4/&gt; checkbox shows as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;%&lt;x2/&gt; — процент выполнения процесса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T063527Z" creationid="Марианна" creationdate="20200817T063527Z">
