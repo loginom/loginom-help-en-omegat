@@ -24986,6 +24986,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % событий в диапазоне в зависимости от номера диапазона.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T105225Z" creationid="Марианна" creationdate="20211021T105225Z">
+        <seg>&lt;x1/&gt;☐&lt;x2/&gt;: % of events in the range according to the range number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % событий, находящихся в диапазоне, от общего числа событий в зависимости от номера диапазона.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211021T103901Z" creationid="Марианна" creationdate="20211021T103901Z">
@@ -25006,6 +25014,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211021T104238Z" creationid="Марианна" creationdate="20211021T104238Z">
         <seg>&lt;x1/&gt;☑&lt;x2/&gt;: cumulative Lift value according to the sample size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;☑&lt;x2/&gt; — кумулятивный % событий в выборке в зависимости от размера выборки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T105133Z" creationid="Марианна" creationdate="20211021T105133Z">
+        <seg>&lt;x1/&gt;☑&lt;x2/&gt;: cumulative % of events in the sample according to the sample size.</seg>
       </tuv>
     </tu>
     <tu>
