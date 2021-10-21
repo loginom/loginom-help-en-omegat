@@ -10942,6 +10942,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Базовые показатели&lt;x2/&gt; — на диаграмме строятся графики: &lt;x3/&gt;TPR&lt;x4/&gt;, &lt;x5/&gt;TNR&lt;x6/&gt;, &lt;x7/&gt;FPR&lt;x8/&gt;, &lt;x9/&gt;FNR&lt;x10/&gt; и отображается порог отсечения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T103140Z" creationid="Марианна" creationdate="20211021T103140Z">
+        <seg>&lt;x1/&gt;Basic rates&lt;x2/&gt;: the following graphic charts are constructed in the chart: &lt;x3/&gt;TPR&lt;x4/&gt;, &lt;x5/&gt;TNR&lt;x6/&gt;, &lt;x7/&gt;FPR&lt;x8/&gt;, &lt;x9/&gt;FNR&lt;x10/&gt; and cutoff is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Базовый узел&lt;x2/&gt; — узел или &lt;x3/&gt;Подмодель&lt;x4/&gt;, настройки и алгоритм которого предполагается использовать повторно, может находиться за пределами текущей &lt;x5/&gt;Подмодели&lt;x6/&gt;, &lt;x7/&gt;Сценария&lt;x8/&gt;, &lt;x9/&gt;Модуля&lt;x10/&gt; или &lt;x11/&gt;Пакета&lt;x12/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T133230Z" creationid="Марианна" creationdate="20200918T143437Z">
