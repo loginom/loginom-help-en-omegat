@@ -6310,6 +6310,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — переместить факт/вариант агрегации/способ отображения на позицию вверх;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084005Z" creationid="Марианна" creationdate="20211021T084005Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the measure/aggregation option/representation method one item position up.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — перемещает выбранное поле вверх в списке очередности;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211007T063813Z" creationid="Марианна" creationdate="20211007T063813Z">
@@ -6322,6 +6330,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T142253Z" creationid="Марианна" creationdate="20201115T142253Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the selected &lt;x5/&gt;Sort field&lt;x6/&gt; up the list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — переместить факт/вариант агрегации/способ отображения на позицию вниз;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084034Z" creationid="Марианна" creationdate="20211021T084034Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the measure/aggregation option/representation method one item position down.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6426,6 +6442,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201002T075245Z" creationid="Марианна" creationdate="20201001T115303Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Edit...&lt;x4/&gt; enables to call the editing window and change values of the fields for the selected node (the command can be called using &lt;x5/&gt;F2&lt;x6/&gt; hotkey).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Свернуть дерево&lt;x4/&gt; — свернуть дерево фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084121Z" creationid="Марианна" creationdate="20211021T084121Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Collapse tree&lt;x4/&gt;: collapse the tree of measures.</seg>
       </tuv>
     </tu>
     <tu>
