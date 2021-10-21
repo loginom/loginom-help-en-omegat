@@ -32050,6 +32050,14 @@ return pow(COL1, COL2);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне &lt;x1/&gt;Настроить факты&lt;x2/&gt; можно последовательно выполнить необходимые операции с несколькими фактами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T083125Z" creationid="Марианна" creationdate="20211021T083125Z">
+        <seg>It is possible to perform the required successive operations with several measures in &lt;x1/&gt;Configure measures&lt;x2/&gt; window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне мастера в виде дерева отображаются доступные для создания ссылки узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200919T105903Z" creationid="Марианна" creationdate="20200919T101446Z">
