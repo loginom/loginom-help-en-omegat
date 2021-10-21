@@ -5942,6 +5942,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; — выбрать все факты, варианты агрегации со всеми способами отображения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084302Z" creationid="Марианна" creationdate="20211021T084302Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Check all&lt;x4/&gt;: check all measures, options of aggregation with all representation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Выбрать все&lt;x4/&gt; — помечает все узлы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201001T113657Z" creationid="Марианна" creationdate="20201001T113657Z">
@@ -6270,6 +6278,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отменить выбор всех&lt;x4/&gt; — убрать выбор всех фактов, вариантов агрегации со всеми способами отображения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084333Z" creationid="Марианна" creationdate="20211021T084333Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Uncheck all&lt;x4/&gt;: uncheck all measures, aggregation options with all representation methods.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Отменить выполнение всех процессов...&lt;x4/&gt; — останавливает выполнение всех процессов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200817T073043Z" creationid="Марианна" creationdate="20200817T073043Z">
@@ -6410,6 +6426,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211012T145515Z" creationid="Марианна" creationdate="20211012T145515Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Order statistics&lt;x4/&gt;: the order statistics are calculated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Развернуть дерево&lt;x4/&gt; — развернуть дерево фактов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T084200Z" creationid="Марианна" creationdate="20211021T084200Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Expand tree&lt;x4/&gt;: expand the tree of measures.</seg>
       </tuv>
     </tu>
     <tu>
