@@ -20165,6 +20165,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в списке присутствует факт &lt;x3/&gt;Количество-Факт&lt;x4/&gt;&lt;x5/&gt;Количество&lt;x6/&gt;, который существует даже тогда, когда ни одно поле исходного набора данных не используется в качестве факта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T083412Z" creationid="Марианна" creationdate="20211021T083412Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; &lt;x3/&gt;Count-Measure&lt;x4/&gt;&lt;x5/&gt;Count&lt;x6/&gt; measure is available in the list. It is available even when none of the source data set field is used as a measure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; все доступные параметры детальных настроек можно задавать с помощью переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T200652Z" creationid="Марианна" creationdate="20201214T115207Z">
@@ -31110,6 +31118,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210628T085955Z" creationid="Марианна" creationdate="20210628T085955Z">
         <seg>It is possible to sort and filter records in the &lt;x1/&gt;List of input columns&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В &lt;x3/&gt;Куб&lt;x4/&gt; будут внесены изменения после нажатия кнопки &lt;x5/&gt;Применить&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T083228Z" creationid="Марианна" creationdate="20211021T083228Z">
+        <seg>Changes will be introduced into the &lt;x3/&gt;Cube&lt;x4/&gt; upon pressing &lt;x5/&gt;Apply&lt;x6/&gt; button.</seg>
       </tuv>
     </tu>
     <tu>
