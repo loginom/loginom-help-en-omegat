@@ -13081,6 +13081,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма точности&lt;x2/&gt; — на диаграмме строятся графики &lt;x3/&gt;PPV&lt;x4/&gt;, &lt;x5/&gt;NPV&lt;x6/&gt;, &lt;x7/&gt;OPR&lt;x8/&gt;, &lt;x9/&gt;OCR&lt;x10/&gt; и отображается порог отсечения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T103329Z" creationid="Марианна" creationdate="20211021T103329Z">
+        <seg>&lt;x1/&gt;Precision chart&lt;x2/&gt;: the following graphic charts are constructed in the chart: &lt;x3/&gt;PPV&lt;x4/&gt;, &lt;x5/&gt;NPV&lt;x6/&gt;, &lt;x7/&gt;OPR&lt;x8/&gt;, &lt;x9/&gt;OCR&lt;x10/&gt; and cutoff is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T065625Z" creationid="Марианна" creationdate="20200812T065625Z">
