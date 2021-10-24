@@ -15321,6 +15321,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Коэффициент Мэтьюса (MCC)&lt;x2/&gt; — задает порог отсечения при котором значение MCC максимально.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151809Z" creationid="Марианна" creationdate="20211024T151809Z">
+        <seg>&lt;x1/&gt;Matthews coefficient (MCC)&lt;x2/&gt; sets the cutoff with which MCC value is maximum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент детерминации скорректированный&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211010T231217Z" creationid="Марианна" creationdate="20211010T231217Z">
