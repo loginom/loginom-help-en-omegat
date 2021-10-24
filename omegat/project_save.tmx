@@ -13641,6 +13641,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заданный&lt;x2/&gt; — дает возможность задать свой порог отсечения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151033Z" creationid="Марианна" creationdate="20211024T151033Z">
+        <seg>&lt;x1/&gt;Set&lt;x2/&gt; enables to set the own cutoff.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Задать число факторов&lt;x2/&gt; — количество значимых факторов выбирается аналитиком самостоятельно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T155725Z" creationid="Марианна" creationdate="20201013T155725Z">
