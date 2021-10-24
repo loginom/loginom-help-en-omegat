@@ -19325,6 +19325,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Показатель&lt;x2/&gt; — отображает название рассчитанного элемента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T153900Z" creationid="Марианна" creationdate="20211024T153900Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt; displays the name of the calculated item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Показать значение null&lt;x2/&gt; &lt;x3/&gt;Показать значение null&lt;x4/&gt; — переключить отображение &lt;x5/&gt;&lt;x6/&gt;&lt;null&gt;&lt;x7/&gt;&lt;x8/&gt; в ячейках с пропущенными значениями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211014T163606Z" creationid="Марианна" creationdate="20211014T163606Z">
@@ -36782,6 +36790,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210831T092314Z" creationid="Марианна" creationdate="20210809T113612Z">
         <seg>The field data represents floating point numbers meeting &lt;x1/&gt;IEEE 754-2008&lt;x2/&gt; standard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данные в этих таблицах обновляются с изменением &lt;x1/&gt;Порога отсечения&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T153825Z" creationid="Марианна" creationdate="20211024T153825Z">
+        <seg>Data in these tables is updated with &lt;x1/&gt;Cutoff&lt;x2/&gt; change.</seg>
       </tuv>
     </tu>
     <tu>
