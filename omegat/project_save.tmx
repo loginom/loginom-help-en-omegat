@@ -13185,6 +13185,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt; — выводит в центр диаграмму, которая всегда расположена в центре области, и имеет одинаковую высоту и ширину.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151930Z" creationid="Марианна" creationdate="20211024T151930Z">
+        <seg>&lt;x1/&gt;Chart&lt;x2/&gt; places the chart into the center. It is always located in the area center and has the same height and width.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграммы WoE и IV.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211015T101930Z" creationid="Марианна" creationdate="20211015T100927Z">
@@ -20764,6 +20772,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T184441Z" creationid="Марианна" creationdate="20210225T184441Z">
         <seg>&lt;x1/&gt;Note&lt;x2/&gt;: As the input data set with the request parameters is optional, when it is not provided, the REST service call node will send the only request without parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: в зависимости от свободного пространства области, легенда будет располагаться под диаграммой или справа от нее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T152054Z" creationid="Марианна" creationdate="20211024T152054Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Depending upon the free area space the legend will be always located under the chart or to the right from it.</seg>
       </tuv>
     </tu>
     <tu>
