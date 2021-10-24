@@ -5710,6 +5710,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;10 диапазонов&lt;x2/&gt; — разделяет множество на 10 равных частей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T144110Z" creationid="Марианна" creationdate="20211024T144110Z">
+        <seg>&lt;x1/&gt;10 bins&lt;x2/&gt;: divide a set into 10 equal parts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; — &lt;x3/&gt;Логический&lt;x4/&gt; &lt;x5/&gt;Логический&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201111T165207Z" creationid="Марианна" creationdate="20201111T165207Z">
@@ -5730,6 +5738,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200810T183333Z" creationid="Марианна" creationdate="20200810T183333Z">
         <seg>&lt;x1/&gt;1C:Enterprise 8.x&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;20 диапазонов&lt;x2/&gt; — разделяет множество на 20 равных частей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T144152Z" creationid="Марианна" creationdate="20211024T144152Z">
+        <seg>&lt;x1/&gt;20 bins&lt;x2/&gt;: divide a set into 20 equal parts.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5778,6 +5794,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T141001Z" creationid="Марианна" creationdate="20201126T103536Z">
         <seg>&lt;x1/&gt;4&lt;x2/&gt;: the value fixed by the algorithm in the calculation process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;50 диапазонов&lt;x2/&gt; — разделяет множество на 50 равных частей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T144212Z" creationid="Марианна" creationdate="20211024T144212Z">
+        <seg>&lt;x1/&gt;50 bins&lt;x2/&gt;: divide a set into 50 equal parts.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17465,6 +17489,14 @@ The size of each sample is customized. The "Method" button used for calculation 
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210713T142416Z" creationid="Марианна" creationdate="20201214T080157Z">
         <seg>&lt;x1/&gt;Train&lt;x2/&gt;: the structured data set used for training of &lt;x3/&gt;analytical models&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обучающее&lt;x2/&gt; — при проставленном флажке отображает на диаграмме график обучающего множества;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T144438Z" creationid="Марианна" creationdate="20211024T144438Z">
+        <seg>&lt;x1/&gt;Train&lt;x2/&gt;: when the checkbox is selected, it enables to display the graphic chart of the training set on the chart.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36774,6 +36806,14 @@ DESC period</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210511T104401Z" creationid="Марианна" creationdate="20210511T104401Z">
         <seg>This method can be used if it is known that data distribution is close to the normal one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Данный набор диапазонов используется по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T144131Z" creationid="Марианна" creationdate="20211024T144131Z">
+        <seg>This set of bins is used by default.</seg>
       </tuv>
     </tu>
     <tu>
