@@ -1,18 +1,18 @@
 # ![Binary Classification Assessment](../../images/icons/view_types/roc_default.svg) Binary Classification Assessment
 
-*Качество бинарной классификации* — в этом визуализаторе строятся диаграммы и таблицы с результатами проведенной классификации на основе [логистической регрессии](../../processors/datamining/logistic-regression/README.md).
+*Binary classification assessment*: charts and tables with results of the performed classification based on the [logistic regression](../../processors/datamining/logistic-regression/README.md) are constructed in this visualizer.
 
 The visualizer is divided into 3 areas:
 
-* [Область настроек](#oblast-nastroek) — в данной области происходит выбор и настройка диаграммы;
-* [Область диаграммы](#oblast-diagrammy) — отображает диаграмму выбранную в области настроек;
-* [Область оценок классификации](#oblasti-otsenok-klassifikatsii) — содержит таблицы с оценками классификации.
+* [Area of settings](#oblast-nastroek): this area is designated for the chart selection and configuration.
+* [Chart area](#oblast-diagrammy) displays the chart selected in the area of settings.
+* [Area of classification assessments](#oblasti-otsenok-klassifikatsii) contains the tables with classification assessments.
 
-> **Примечание**: *Область оценок классификации* можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши. The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line. Скрытие области возможно и для *Области настроек*.
+> **Note**: Sizes of *Area of classification assessments* can be changed by dragging the separator line with the left mouse button. The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line. It is possible to hide the area also for *Area of settings*.
 
-## Область настроек
+## Area of Settings
 
-Располагается в левой части визуализатора и содержит три группы параметров: *Выбор диаграммы*, *Множества* и *Порог отсечения*.
+It is located in the left part of the visualizer and contains three groups of parameters: *Chart type*, *Sets* and *Cutoff*.
 
 ### Chart Type
 
@@ -20,70 +20,70 @@ The group contains nine switches each of which calls the definite chart in the v
 
 * **[ROC curve](https://wiki.loginom.ru/articles/roc-analysis.html)**: dependence of *TPR* on *FPR*.
 * **PR curve**: dependence of *TPR* on *PPV*.
-* **Базовые показатели** — на диаграмме строятся графики: *TPR*, *TNR*, *FPR*, *FNR* и отображается порог отсечения.
-* **Диаграмма точности** — на диаграмме строятся графики *PPV*, *NPV*, *OPR*, *OCR* и отображается порог отсечения.
-* **Диаграмма равновесия** — на диаграмме строятся графики *PPV*, *TPR* и отображается порог отсечения.
-* **% распознанных событий** — в зависимости от проставленного флажка *Кумулятивная* показывает:
-   * ![☑](../../images/icons/checkbox-states/checked_default.svg) — кумулятивный % событий от общего числа событий в зависимости от размера выборки.
-   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — % событий, находящихся в диапазоне, от общего числа событий в зависимости от номера диапазона.
-* **Диаграмма роста** — в зависимости от проставленного флажка *Кумулятивная* показывает:
-   * ![☑](../../images/icons/checkbox-states/checked_default.svg) — кумулятивное значение Lift (Роста) в зависимости от размера выборки.
-   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — значения Lift (Роста) для диапазона в зависимости от номера диапазона.
-* **Диаграмма отклика** — в зависимости от проставленного флажка *Кумулятивная* показывает:
-   * ![☑](../../images/icons/checkbox-states/checked_default.svg) — кумулятивный % событий в выборке в зависимости от размера выборки.
-   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — % событий в диапазоне в зависимости от номера диапазона.
-* **Диаграмма выигрыша** — показывает значение Gain (Выигрыш) в зависимости от размера выборки.
+* **Basic rates**: the following graphic charts are constructed in the chart: *TPR*, *TNR*, *FPR*, *FNR* and cutoff is displayed.
+* **Precision chart**: the following graphic charts are constructed in the chart: *PPV*, *NPV*, *OPR*, *OCR* and cutoff is displayed.
+* **Break even chart**: the following graphic charts are constructed in the chart: *PPV*, *TPR* and cutoff is displayed.
+* **% captured response**: according to the selected *Cumulative* checkbox shows as follows:
+   * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative % of events of the total number of events according to the sample size.
+   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — % of events that are in the range of the total number of events according to the range number.
+* **Lift chart**: according to the selected *Cumulative* checkbox shows as follows:
+   * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative Lift value according to the sample size.
+   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): Lift values for the range according to the range number.
+* **Response chart**: according to the selected *Cumulative* checkbox shows as follows:
+   * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative % of events in the sample according to the sample size.
+   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): % of events in the range according to the range number.
+* **Gain chart** shows Gain value according to the sample size.
 
-> **Примечание**: посмотреть расшифровку сокращений можно на странице [Термины](./terms.md).
+> **Note**: meanings of abbreviations are available on [Terms](./terms.md) page.
 
-Чекбокс *Кумулятивная* становится активным при выборе диаграмм: *% распознанных событий*, *Диаграмма роста* и *Диаграмма отклика*. По умолчанию флажок на чекбоксе проставлен, при снятии флажка становится доступным выбор диапазонов в выпадающем списке. Available values:
+*Cumulative* checkbox becomes active when selecting the following charts: *% captured response*, *Lift chart* and *Response chart*. The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the ranges in the drop-down list. Available values:
 
-* **10 диапазонов** — разделяет множество на 10 равных частей. Данный набор диапазонов используется по умолчанию.
-* **20 диапазонов** — разделяет множество на 20 равных частей.
-* **50 диапазонов** — разделяет множество на 50 равных частей.
+* **10 bins**: divide a set into 10 equal parts. This set of bins is used by default.
+* **20 bins**: divide a set into 20 equal parts.
+* **50 bins**: divide a set into 50 equal parts.
 
 ### Sets
 
 It contains two checkboxes:
 
-* **Обучающее** — при проставленном флажке отображает на диаграмме график обучающего множества;
-* **Тестовое** — при проставленном флажке отображает на диаграмме график тестового множества.
+* **Train**: when the checkbox is selected, it enables to display the graphic chart of the training set on the chart.
+* **Test**: when the checkbox is selected, it enables to display the graphic chart of the test set on the chart.
 
-Возможен выбор только одного множества для диаграмм: *Базовые показатели*, *Диаграмма точности* и *Диаграмма равновесия*.
+It is possible to select only one set for the following charts: *Basic rates*, *Precision chart* and *Break even chart*.
 
 ### Cutoff
 
-Представляет собой выпадающий список содержащий следующие значения:
+It is a drop-down list with the following values:
 
-* **Из настроек узла** — используется порог заданный узлом *Логистическая регрессия*.
-* **Заданный** — дает возможность задать свой порог отсечения. Порог вводится, или в поле *Значение порога*, или задается перемещением ползунка под полем.
-* **Баланс (TPR = TNR)** — задает порог отсечения при котором *TPR* и *TNR* равны.
-* **Максимум (TPR + TNR)** — задает порог отсечения при котором сумма *TPR* и *TNR* имеет максимальное значение.
-* **Точка равновесия (TPR = PPV)** — задает порог отсечения при котором *TPR* и *PPV* равны.
-* **Максимум общей точности** — задает порог отсечения при котором значение *OCR* максимально.
-* **Максимум F1 Score** — задает порог отсечения при котором значение F<sub>1</sub> Score максимально.
-* **Коэффициент Мэтьюса (MCC)** — задает порог отсечения при котором значение MCC максимально.
+* **From node settings**: the cutoff set by the *Logistic regression* node is used.
+* **Set** enables to set the own cutoff. The cutoff is entered in the *Value* field, or it is set by moving the slider under the field.
+* **Balance (TPR = TNR)** sets the cutoff with which *TPR* and *TNR* are equal.
+* **Maximum (TPR + TNR)** sets the cutoff with which the sum of *TPR* and *TNR* has the maximum value.
+* **Break even point (TPR = PPV)** sets the cutoff with which *TPR* and *PPV* are equal.
+* **Highest overall accuracy** sets the cutoff with which *OCR* value is maximum.
+* **Maximum F1 Score** sets the cutoff with which F<sub>1</sub> Score value is maximum.
+* **Matthews coefficient (MCC)** sets the cutoff with which MCC value is maximum.
 
-## Область диаграммы
+## Chart Area
 
 The area contains the following elements:
 
-* **Заголовок** — выводит название отображаемой диаграммы.
+* **Header** shows the name of the displayed chart.
 * **Event** displays the output field caption and the value that is an event.
-* **Диаграмма** — выводит в центр диаграмму, которая всегда расположена в центре области, и имеет одинаковую высоту и ширину.
+* **Chart** places the chart into the center. It is always located in the area center and has the same height and width.
 * **Legend** contains names of the series displayed on the chart. When pressing the series in the legend, it is possible to hide or display it on the chart.
 
-> **Примечание**: в зависимости от свободного пространства области, легенда будет располагаться под диаграммой или справа от нее.
+> **Note**: Depending upon the free area space the legend will be always located under the chart or to the right from it.
 
-## Области оценок классификации
+## Areas of Classification Assessments
 
-Располагается в правой стороне экрана и содержит таблицы описывающие результаты классификации. Данные в этих таблицах обновляются с изменением *Порога отсечения*.
+It is located in the right part of the screen and contains the tables discribing classification results. Data in these tables is updated with *Cutoff* change.
 
 ### Classification scores
 
 The table contains the columns:
 
-* **Показатель** — отображает название рассчитанного элемента.
+* **Value** displays the name of the calculated item.
 * **Sets**: the group from two columns:
    * **Обучающее** — в столбце выводятся значения оценки показателей рассчитанных для обучающего множества.
    * **Тестовое** — в столбце выводятся значения оценки показателей рассчитанных для тестового множества.
