@@ -15801,6 +15801,30 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум (TPR + TNR)&lt;x2/&gt; — задает порог отсечения при котором сумма &lt;x3/&gt;TPR&lt;x4/&gt; и &lt;x5/&gt;TNR&lt;x6/&gt; имеет максимальное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151537Z" creationid="Марианна" creationdate="20211024T151537Z">
+        <seg>&lt;x1/&gt;Maximum (TPR + TNR)&lt;x2/&gt; sets the cutoff with which the sum of &lt;x3/&gt;TPR&lt;x4/&gt; and &lt;x5/&gt;TNR&lt;x6/&gt; has the maximum value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум F1 Score&lt;x2/&gt; — задает порог отсечения при котором значение F&lt;x3/&gt;1&lt;x4/&gt; Score максимально.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151729Z" creationid="Марианна" creationdate="20211024T151729Z">
+        <seg>&lt;x1/&gt;Maximum F1 Score&lt;x2/&gt; sets the cutoff with which F&lt;x3/&gt;1&lt;x4/&gt; Score value is maximum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Максимум общей точности&lt;x2/&gt; — задает порог отсечения при котором значение &lt;x3/&gt;OCR&lt;x4/&gt; максимально.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151646Z" creationid="Марианна" creationdate="20211024T151646Z">
+        <seg>&lt;x1/&gt;Highest overall accuracy&lt;x2/&gt; sets the cutoff with which &lt;x3/&gt;OCR&lt;x4/&gt; value is maximum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; (&lt;x3/&gt;Имя факта.Max&lt;x4/&gt; ) — наибольшее из всех значений фактов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211019T073135Z" creationid="Марианна" creationdate="20211019T072909Z">
@@ -23526,6 +23550,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211017T225414Z" creationid="Марианна" creationdate="20211017T225414Z">
         <seg>&lt;x1/&gt;Points&lt;x2/&gt;: the number of displayed points.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Точка равновесия (TPR = PPV)&lt;x2/&gt; — задает порог отсечения при котором &lt;x3/&gt;TPR&lt;x4/&gt; и &lt;x5/&gt;PPV&lt;x6/&gt; равны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151613Z" creationid="Марианна" creationdate="20211024T151613Z">
+        <seg>&lt;x1/&gt;Break even point (TPR = PPV)&lt;x2/&gt; sets the cutoff with which &lt;x3/&gt;TPR&lt;x4/&gt; and &lt;x5/&gt;PPV&lt;x6/&gt; are equal.</seg>
       </tuv>
     </tu>
     <tu>
