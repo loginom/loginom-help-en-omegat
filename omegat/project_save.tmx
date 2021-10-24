@@ -35066,6 +35066,14 @@ DESC period</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможен выбор только одного множества для диаграмм: &lt;x1/&gt;Базовые показатели&lt;x2/&gt;, &lt;x3/&gt;Диаграмма точности&lt;x4/&gt; и &lt;x5/&gt;Диаграмма равновесия&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T145345Z" creationid="Марианна" creationdate="20211024T145345Z">
+        <seg>It is possible to select only one set for the following charts: &lt;x1/&gt;Basic rates&lt;x2/&gt;, &lt;x3/&gt;Precision chart&lt;x4/&gt; and &lt;x5/&gt;Break even chart&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможна фильтрация по категории и названию функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201005T180333Z" creationid="Марианна" creationdate="20201005T180333Z">
@@ -54749,6 +54757,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201216T210507Z" creationid="Марианна" creationdate="20201216T210507Z">
         <seg>It is probability of the fact that the test statistics value of the used criterion calculated for a sample will exceed the set P-value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Представляет собой выпадающий список содержащий следующие значения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T145443Z" creationid="Марианна" creationdate="20211024T145443Z">
+        <seg>It is a drop-down list with the following values:</seg>
       </tuv>
     </tu>
     <tu>
