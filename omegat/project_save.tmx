@@ -23258,6 +23258,14 @@ Selection of this checkbox enables to select the records for the test sample fir
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тестовое&lt;x2/&gt; — при проставленном флажке отображает на диаграмме график тестового множества.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T145216Z" creationid="Марианна" creationdate="20211024T145216Z">
+        <seg>&lt;x1/&gt;Test&lt;x2/&gt;: when the checkbox is selected, it enables to display the graphic chart of the test set on the chart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Тип авторизации&lt;x2/&gt; — представляет выпадающий список с вариантами авторизации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T194124Z" creationid="Марианна" creationdate="20210208T194124Z">
