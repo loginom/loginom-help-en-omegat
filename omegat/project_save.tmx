@@ -53844,6 +53844,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Порог вводится, или в поле &lt;x3/&gt;Значение порога&lt;x4/&gt;, или задается перемещением ползунка под полем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151306Z" creationid="Марианна" creationdate="20211024T151306Z">
+        <seg>The cutoff is entered in the &lt;x3/&gt;Value&lt;x4/&gt; field, or it is set by moving the slider under the field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порог значимости</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T222001Z" creationid="Марианна" creationdate="20211011T222001Z">
