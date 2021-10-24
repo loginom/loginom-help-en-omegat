@@ -13585,6 +13585,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Заголовок&lt;x2/&gt; — выводит название отображаемой диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T111257Z" creationid="Марианна" creationdate="20211021T111257Z">
+        <seg>&lt;x1/&gt;Header&lt;x2/&gt; shows the name of the displayed chart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Заголовок&lt;x2/&gt; — наименование диаграммы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211005T154510Z" creationid="Марианна" creationdate="20211005T154202Z">
@@ -48810,6 +48818,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Области оценок классификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T111320Z" creationid="Марианна" creationdate="20211021T111320Z">
+        <seg>Areas of Classification Assessments</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Области со 2 по 5 представляют собой Область построения Куба.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211019T200402Z" creationid="Марианна" creationdate="20211019T200402Z">
@@ -48886,6 +48902,14 @@ It accepts supplementary transaction items that can be taken into account when c
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215137Z" creationid="Марианна" creationdate="20210928T215137Z">
         <seg>Visibility area</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Область диаграммы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211021T111146Z" creationid="Марианна" creationdate="20211021T111146Z">
+        <seg>Chart Area</seg>
       </tuv>
     </tu>
     <tu>
