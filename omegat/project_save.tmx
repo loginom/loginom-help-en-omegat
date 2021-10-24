@@ -14009,6 +14009,14 @@ To provide integration with several sources, for example, databases and web serv
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Из настроек узла&lt;x2/&gt; — используется порог заданный узлом &lt;x3/&gt;Логистическая регрессия&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T145551Z" creationid="Марианна" creationdate="20211024T145551Z">
+        <seg>&lt;x1/&gt;From node settings&lt;x2/&gt;: the cutoff set by the &lt;x3/&gt;Logistic regression&lt;x4/&gt; node is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Извлечение XML&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210302T203401Z" creationid="Марианна" creationdate="20200812T060330Z">
