@@ -57807,6 +57807,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Располагается в правой стороне экрана и содержит таблицы описывающие результаты классификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T153749Z" creationid="Марианна" creationdate="20211024T153749Z">
+        <seg>It is located in the right part of the screen and contains the tables discribing classification results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Расположив несколько узлов на рабочем пространстве и соединив их между собой, получится Сценарий, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T210314Z" creationid="Марианна" creationdate="20210928T205826Z">
