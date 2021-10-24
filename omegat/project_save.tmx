@@ -10990,6 +10990,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Баланс (TPR = TNR)&lt;x2/&gt; — задает порог отсечения при котором &lt;x3/&gt;TPR&lt;x4/&gt; и &lt;x5/&gt;TNR&lt;x6/&gt; равны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211024T151423Z" creationid="Марианна" creationdate="20211024T151423Z">
+        <seg>&lt;x1/&gt;Balance (TPR = TNR)&lt;x2/&gt; sets the cutoff with which &lt;x3/&gt;TPR&lt;x4/&gt; and &lt;x5/&gt;TNR&lt;x6/&gt; are equal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Без вращения&lt;x2/&gt; — исходные факторы, полученные методом главных компонент, остаются без изменений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201013T160935Z" creationid="Марианна" creationdate="20201013T160935Z">
