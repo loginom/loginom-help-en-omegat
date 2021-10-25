@@ -17557,6 +17557,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обучающее&lt;x2/&gt; — в столбце выводятся значения оценки показателей рассчитанных для обучающего множества.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T072809Z" creationid="Марианна" creationdate="20211025T072809Z">
+        <seg>&lt;x1/&gt;Train&lt;x2/&gt;: the assessment values of the indicators calculated for the training set are shown in the column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Обучающее&lt;x2/&gt; — при проставленном флажке отображает на диаграмме график обучающего множества;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211024T144438Z" creationid="Марианна" creationdate="20211024T144438Z">
