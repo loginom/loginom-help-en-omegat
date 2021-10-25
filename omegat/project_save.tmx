@@ -59487,6 +59487,14 @@ Examples of the time format:
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Содержит таблицу с &lt;x1/&gt;матрицами ошибок&lt;x2/&gt; для обучающего и тестового множества, и имеет следующий вид:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T085612Z" creationid="Марианна" creationdate="20211025T085612Z">
+        <seg>It contains the table with &lt;x1/&gt;error matrices&lt;x2/&gt; for the training and test sets, and it is as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Содержит таблицу факторных нагрузок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201012T213635Z" creationid="Марианна" creationdate="20201012T213635Z">
