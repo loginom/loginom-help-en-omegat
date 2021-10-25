@@ -8880,6 +8880,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;F1 Score&lt;x2/&gt; — выводит значение &lt;x3/&gt;F1 Score&lt;x4/&gt; при используемом пороге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080159Z" creationid="Марианна" creationdate="20211025T080159Z">
+        <seg>&lt;x1/&gt;F1 Score&lt;x2/&gt; shows &lt;x3/&gt;F1 Score&lt;x4/&gt; value for the used cutoff.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;F2&lt;x2/&gt; — редактировать папку;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210919T142822Z" creationid="Марианна" creationdate="20210919T142822Z">
@@ -8924,6 +8932,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T124004Z" creationid="Марианна" creationdate="20210406T124004Z">
         <seg>&lt;x1/&gt;FKhi2(Degrees\_of\_freedom, Argument)&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;FPR (1-Специфичность)&lt;x2/&gt; — выводит значение &lt;x3/&gt;FPR&lt;x4/&gt; при используемом пороге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080126Z" creationid="Марианна" creationdate="20211025T080126Z">
+        <seg>&lt;x1/&gt;FPR (1-Specificity)&lt;x2/&gt; shows &lt;x3/&gt;FPR&lt;x4/&gt; value for the used cutoff.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9360,6 +9376,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;MCC&lt;x2/&gt; — выводит значение коэффициента корреляции Мэтьюса при используемом пороге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080247Z" creationid="Марианна" creationdate="20211025T080247Z">
+        <seg>&lt;x1/&gt;MCC&lt;x2/&gt; shows the Matthews correlation coefficient value for the used cutoff.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;MD5(Строка)&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210406T122852Z" creationid="Марианна" creationdate="20210406T122852Z">
@@ -9646,6 +9670,14 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210208T125009Z" creationid="Марианна" creationdate="20210208T125009Z">
         <seg>&lt;x1/&gt;POST&lt;x2/&gt;: when selecting this method, the following settings are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;PPV&lt;x2/&gt; — выводит значение &lt;x3/&gt;PPV&lt;x4/&gt; при используемом пороге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080142Z" creationid="Марианна" creationdate="20211025T080142Z">
+        <seg>&lt;x1/&gt;PPV&lt;x2/&gt; shows &lt;x3/&gt;PPV&lt;x4/&gt; value for the used cutoff.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10142,6 +10174,22 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201207T144742Z" creationid="Марианна" creationdate="20201207T144742Z">
         <seg>&lt;x1/&gt;T-statistics&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;TNR (Специфичность)&lt;x2/&gt; — выводит значение &lt;x3/&gt;TNR&lt;x4/&gt; при используемом пороге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080057Z" creationid="Марианна" creationdate="20211025T080057Z">
+        <seg>&lt;x1/&gt;TNR (Specificity)&lt;x2/&gt; shows &lt;x3/&gt;TNR&lt;x4/&gt; value for the used cutoff.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;TPR (Чувствительность)&lt;x2/&gt; — выводит значение &lt;x3/&gt;TPR&lt;x4/&gt; при используемом пороге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080013Z" creationid="Марианна" creationdate="20211025T080013Z">
+        <seg>&lt;x1/&gt;TPR (Sensitivity)&lt;x2/&gt; shows &lt;x3/&gt;TPR&lt;x4/&gt; value for the used cutoff.</seg>
       </tuv>
     </tu>
     <tu>
