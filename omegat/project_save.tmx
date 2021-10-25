@@ -25244,24 +25244,24 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % событий в диапазоне в зависимости от номера диапазона.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T105225Z" creationid="Марианна" creationdate="20211021T105225Z">
-        <seg>&lt;x1/&gt;☐&lt;x2/&gt;: % of events in the range according to the range number.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090552Z" creationid="Марианна" creationdate="20211021T105225Z">
+        <seg>&lt;x1/&gt;☐&lt;x2/&gt;: % of events in the bin according to the bin number.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % событий, находящихся в диапазоне, от общего числа событий в зависимости от номера диапазона.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T103901Z" creationid="Марианна" creationdate="20211021T103901Z">
-        <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % of events that are in the range of the total number of events according to the range number.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090524Z" creationid="Марианна" creationdate="20211021T103901Z">
+        <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % of events that are in the bin of the total number of events according to the bin number.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;☐&lt;x2/&gt; — значения Lift (Роста) для диапазона в зависимости от номера диапазона.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T104827Z" creationid="Марианна" creationdate="20211021T104827Z">
-        <seg>&lt;x1/&gt;☐&lt;x2/&gt;: Lift values for the range according to the range number.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090539Z" creationid="Марианна" creationdate="20211021T104827Z">
+        <seg>&lt;x1/&gt;☐&lt;x2/&gt;: Lift values for the bin according to the bin number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52998,8 +52998,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>По умолчанию флажок на чекбоксе проставлен, при снятии флажка становится доступным выбор диапазонов в выпадающем списке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T111118Z" creationid="Марианна" creationdate="20211021T111118Z">
-        <seg>The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the ranges in the drop-down list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090605Z" creationid="Марианна" creationdate="20211021T111118Z">
+        <seg>The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the bins in the drop-down list.</seg>
       </tuv>
     </tu>
     <tu>
