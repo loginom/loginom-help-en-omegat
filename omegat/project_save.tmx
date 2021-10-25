@@ -50386,6 +50386,14 @@ It accepts supplementary transaction items that can be taken into account when c
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Определяется аналогично ROC-кривой, только по осям откладываются не FPR и TPR, а точность (Precision) и полнота (Recall).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T075523Z" creationid="Марианна" creationdate="20211025T075523Z">
+        <seg>It is defined similar to ROC curve, and Precision and Recall but not FPR and TPR are set on the axes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Определяется по формуле $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211011T224959Z" creationid="Марианна" creationdate="20211011T224913Z">
