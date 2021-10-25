@@ -25,18 +25,18 @@ The group contains nine switches each of which calls the definite chart in the v
 * **Break even chart**: the following graphic charts are constructed in the chart: *PPV*, *TPR* and cutoff is displayed.
 * **% captured response**: according to the selected *Cumulative* checkbox shows as follows:
    * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative % of events of the total number of events according to the sample size.
-   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — % of events that are in the range of the total number of events according to the range number.
+   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — % of events that are in the bin of the total number of events according to the bin number.
 * **Lift chart**: according to the selected *Cumulative* checkbox shows as follows:
    * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative Lift value according to the sample size.
-   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): Lift values for the range according to the range number.
+   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): Lift values for the bin according to the bin number.
 * **Response chart**: according to the selected *Cumulative* checkbox shows as follows:
    * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative % of events in the sample according to the sample size.
-   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): % of events in the range according to the range number.
+   * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): % of events in the bin according to the bin number.
 * **Gain chart** shows Gain value according to the sample size.
 
 > **Note**: meanings of abbreviations are available on [Terms](./terms.md) page.
 
-*Cumulative* checkbox becomes active when selecting the following charts: *% captured response*, *Lift chart* and *Response chart*. The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the ranges in the drop-down list. Available values:
+*Cumulative* checkbox becomes active when selecting the following charts: *% captured response*, *Lift chart* and *Response chart*. The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the bins in the drop-down list. Available values:
 
 * **10 bins**: divide a set into 10 equal parts. This set of bins is used by default.
 * **20 bins**: divide a set into 20 equal parts.
@@ -85,30 +85,30 @@ The table contains the columns:
 
 * **Value** displays the name of the calculated item.
 * **Sets**: the group from two columns:
-   * **Обучающее** — в столбце выводятся значения оценки показателей рассчитанных для обучающего множества.
-   * **Тестовое** — в столбце выводятся значения оценки показателей рассчитанных для тестового множества.
+   * **Train**: the assessment values of the indicators calculated for the training set are shown in the column.
+   * **Test**: the assessment values of the indicators calculated for the test set are shown in the column.
 
 The table is divided into two areas and includes the following rows:
 
-* **Оценки классификации** — эта часть содержит оценки которые рассчитываются для всей модели и не зависят от *Порога отсечения*:
+* **Classification scores**: this area contains the scores that are calculated for the whole model and do not depend on the *Cutoff*:
    * **AUC ROC** shows the [area under the ROC curve](https://wiki.loginom.ru/articles/auc.html).
-   * **AUC PR** shows the area under the PR curve. Определяется аналогично ROC-кривой, только по осям откладываются не FPR и TPR, а точность (Precision) и полнота (Recall).
+   * **AUC PR** shows the area under the PR curve. It is defined similar to ROC curve, and Precision and Recall but not FPR and TPR are set on the axes.
    * **Gini index**: [Gini index](https://ru.wikipedia.org/wiki/Коэффициент_Джини).
-   * **KS** — статистика [критерия Колмогорова-Смирнова](https://wiki.loginom.ru/articles/ks-test.html).
-* **Порог отсечения:** — в этой части расположены оценки зависящие от *Порога отсечения*. Название порога выводит ся после двоеточия, например *Порог отсечения: Заданный*:
+   * **KS**: [Kolmogorov-Smirnov statistics](https://wiki.loginom.ru/articles/ks-test.html).
+* **Cutoff:** the scores depending on the *Cutoff* are located in this part. The cutoff name is shown after the colon, for example *Cutoff: Set*:
    * **Value** shows the used *Cutoff* value.
-   * **TPR (Чувствительность)** — выводит значение *TPR* при используемом пороге.
-   * **TNR (Специфичность)** — выводит значение *TNR* при используемом пороге.
-   * **FPR (1-Специфичность)** — выводит значение *FPR* при используемом пороге.
-   * **PPV** — выводит значение *PPV* при используемом пороге.
-   * **F1 Score** — выводит значение *F1 Score* при используемом пороге.
-   * **MCC** — выводит значение коэффициента корреляции Мэтьюса при используемом пороге.
+   * **TPR (Sensitivity)** shows *TPR* value for the used cutoff.
+   * **TNR (Specificity)** shows *TNR* value for the used cutoff.
+   * **FPR (1-Specificity)** shows *FPR* value for the used cutoff.
+   * **PPV** shows *PPV* value for the used cutoff.
+   * **F1 Score** shows *F1 Score* value for the used cutoff.
+   * **MCC** shows the Matthews correlation coefficient value for the used cutoff.
 
-> **Примечание**: если множество данных отсутствует, то соответствующие ему ячейки таблиц будут серыми и в них ничего не будет выводиться.
+> **Note**: If there is no data set, its matching table cells will be grey and they will show nothing.
 
 ### Confusion matrices
 
-Содержит таблицу с [матрицами ошибок](./error-matrix.md) для обучающего и тестового множества, и имеет следующий вид:
+It contains the table with [error matrices](./error-matrix.md) for the training and test sets, and it is as follows:
 
 <table>
 <tr><th align="left" rowspan="2">Predicted</th><th align="left" colspan="2">Actually</th><th rowspan="2" align="left">Total</th></tr>
@@ -118,13 +118,13 @@ The table is divided into two areas and includes the following rows:
  <tr><td>Non-event</td><td>FN</td><td>TN</td><td>FN+TN</td></tr>
 </table>
 
-> **Примечание**: над верхним правым углом таблицы расположен переключатель ![ ](../../images/icons/switches/roc/absolute_default.svg)/![ ](../../images/icons/switches/roc/relative_default.svg)*Абсолютные или относительные значения* при переключении которого данные в таблице будут представлены в процентах или в количестве записей попавших в категорию.
+> **Note**: The ![ ](../../images/icons/switches/roc/absolute_default.svg)/![ ](../../images/icons/switches/roc/relative_default.svg)*Absolute or relative values* switch is located over the upper right table corner. When it is switched, the table data will be displayed in percentage terms or as number of the records included into the category.
 
 ### Recognized
 
-В данной таблице показано отношение правильно распознанных событий к общему количеству событий в множествах. The table consists of two fields:
+This table shows the ratio of correctly captured response to the total number of events in sets. The table consists of two fields:
 
 * **Set**: the set type is displayed in this column.
-* **Recognized**: the number of recognized events from the total number of events. It is defined using the following formula: $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$
+* **Recognized**: the number of captured response from the total number of events. It is defined using the following formula: $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$
 
-> **Примечание**: над верхним правым углом таблицы расположен переключатель ![ ](../../images/icons/switches/roc/absolute_default.svg)/![ ](../../images/icons/switches/roc/relative_default.svg)*Абсолютные или относительные значения* при переключении которого данные в таблице будут представлены в процентах или в количестве записей попавших в категорию.
+> **Note**: The ![ ](../../images/icons/switches/roc/absolute_default.svg)/![ ](../../images/icons/switches/roc/relative_default.svg)*Absolute or relative values* switch is located over the upper right table corner. When it is switched, the table data will be displayed in percentage terms or as number of the records included into the category.
