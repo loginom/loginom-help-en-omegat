@@ -20904,6 +20904,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: над верхним правым углом таблицы расположен переключатель &lt;x3/&gt; &lt;x4/&gt;/&lt;x5/&gt; &lt;x6/&gt;&lt;x7/&gt;Абсолютные или относительные значения&lt;x8/&gt; при переключении которого данные в таблице будут представлены в процентах или в количестве записей попавших в категорию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090027Z" creationid="Марианна" creationdate="20211025T090027Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: The &lt;x3/&gt; &lt;x4/&gt;/&lt;x5/&gt; &lt;x6/&gt;&lt;x7/&gt;Absolute or relative values&lt;x8/&gt; switch is located over the upper right table corner. When it is switched, the table data will be displayed in percentage terms or as number of the records included into the category.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова SOAP-сервиса отправит единичный SOAP-запрос без параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210225T205652Z" creationid="Марианна" creationdate="20210225T205652Z">
