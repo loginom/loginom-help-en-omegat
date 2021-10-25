@@ -19661,6 +19661,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Порог отсечения:&lt;x2/&gt; — в этой части расположены оценки зависящие от &lt;x3/&gt;Порога отсечения&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T075808Z" creationid="Марианна" creationdate="20211025T075808Z">
+        <seg>&lt;x1/&gt;Cutoff:&lt;x2/&gt; the scores depending on the &lt;x3/&gt;Cutoff&lt;x4/&gt; are located in this part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Порог отсечения&lt;x2/&gt; — определяет расчетное значение уравнения регрессии.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T200240Z" creationid="Марианна" creationdate="20201215T200145Z">
@@ -47064,6 +47072,14 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210928T215111Z" creationid="Марианна" creationdate="20210928T215111Z">
         <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Название порога выводит ся после двоеточия, например &lt;x5/&gt;Порог отсечения: Заданный&lt;x6/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T075900Z" creationid="Марианна" creationdate="20211025T075900Z">
+        <seg>The cutoff name is shown after the colon, for example &lt;x5/&gt;Cutoff: Set&lt;x6/&gt;:</seg>
       </tuv>
     </tu>
     <tu>
