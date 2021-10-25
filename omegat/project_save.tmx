@@ -18189,6 +18189,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Оценки классификации&lt;x2/&gt; — эта часть содержит оценки которые рассчитываются для всей модели и не зависят от &lt;x3/&gt;Порога отсечения&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T073057Z" creationid="Марианна" creationdate="20211025T073057Z">
+        <seg>&lt;x1/&gt;Classification scores&lt;x2/&gt;: this area contains the scores that are calculated for the whole model and do not depend on the &lt;x3/&gt;Cutoff&lt;x4/&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Очередность полей сортировки&lt;x2/&gt; — в зависимости от позиции в списке &lt;x3/&gt;Поля сортировки&lt;x4/&gt; меняется очередность сортировки поля;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201115T115627Z" creationid="Марианна" creationdate="20201115T115627Z">
@@ -23334,6 +23342,14 @@ Selection of this checkbox enables to select the records for the test sample fir
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200812T070207Z" creationid="Марианна" creationdate="20200812T070207Z">
         <seg>&lt;x1/&gt;Terms&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тестовое&lt;x2/&gt; — в столбце выводятся значения оценки показателей рассчитанных для тестового множества.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T072857Z" creationid="Марианна" creationdate="20211025T072857Z">
+        <seg>&lt;x1/&gt;Test&lt;x2/&gt;: the assessment values of the indicators calculated for the test set are shown in the column.</seg>
       </tuv>
     </tu>
     <tu>
