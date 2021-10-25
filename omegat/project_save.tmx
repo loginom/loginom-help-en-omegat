@@ -20880,6 +20880,14 @@ The size of each sample is customized. The "Method" button used for calculation 
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: если множество данных отсутствует, то соответствующие ему ячейки таблиц будут серыми и в них ничего не будет выводиться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T080508Z" creationid="Марианна" creationdate="20211025T080508Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: If there is no data set, its matching table cells will be grey and they will show nothing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: если связь между полем и объектом была установлена неправильно, ее можно удалить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210224T060314Z" creationid="Марианна" creationdate="20210224T060314Z">
