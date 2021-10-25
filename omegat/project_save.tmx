@@ -9216,6 +9216,14 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;KS&lt;x2/&gt; — статистика &lt;x3/&gt;критерия Колмогорова-Смирнова&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T075617Z" creationid="Марианна" creationdate="20211025T075617Z">
+        <seg>&lt;x1/&gt;KS&lt;x2/&gt;: &lt;x3/&gt;Kolmogorov-Smirnov statistics&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;L1&lt;x2/&gt; — реализует это путём отбора наиболее важных факторов, которые сильнее всего влияют на результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201215T143234Z" creationid="Марианна" creationdate="20201215T143234Z">
