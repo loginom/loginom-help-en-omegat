@@ -21676,8 +21676,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Распознано&lt;x2/&gt; — количество распознанных событий от общего числа событий.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T225127Z" creationid="Марианна" creationdate="20211011T225127Z">
-        <seg>&lt;x1/&gt;Recognized&lt;x2/&gt;: the number of recognized events from the total number of events.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090305Z" creationid="Марианна" creationdate="20211011T225127Z">
+        <seg>&lt;x1/&gt;Recognized&lt;x2/&gt;: the number of captured response from the total number of events.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31934,6 +31934,14 @@ return pow(COL1, COL2);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201208T195242Z" creationid="Марианна" creationdate="20201208T195227Z">
         <seg>Later on, only these itemsets are used to form the rules:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В данной таблице показано отношение правильно распознанных событий к общему количеству событий в множествах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211025T090249Z" creationid="Марианна" creationdate="20211025T090249Z">
+        <seg>This table shows the ratio of correctly captured response to the total number of events in sets.</seg>
       </tuv>
     </tu>
     <tu>
