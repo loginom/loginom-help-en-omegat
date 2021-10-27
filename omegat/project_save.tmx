@@ -29985,6 +29985,14 @@ Assertion failed: lie 1 != 0</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>|</seg>
+      </tuv>
+      <tuv lang="en" changeid="zamaraev" changedate="20211027T112856Z" creationid="zamaraev" creationdate="20211027T112856Z">
+        <seg>|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>|
 |Атрибут с полным именем пользователя|displayName|Имя атрибута в записи пользователя, который содержит полное имя пользователя.</seg>
       </tuv>
