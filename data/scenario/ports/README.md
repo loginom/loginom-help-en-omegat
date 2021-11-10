@@ -23,7 +23,7 @@ It is possible to represent the schema of the data movement for the node that ac
 
 ![Schema of data movement for the node that accepts and gives back the data set (table).](ports-2.svg)
 
-Thus, for the node the data movement schema of which is represented on Figure 2, the data undergo the following transformation stages:
+Thus, for the node the data movement schema of which is represented on Figure 2, the data undergoes the following transformation stages:
 
 1. Change of the data structure in the input port and its transfer for processing.
 1. Node processing by the algorithm. In the result of the processing, the new data supplied to the output port is generated.
@@ -43,11 +43,11 @@ These actions and also possible methods of the port reaction to the structure ch
 
 ## Port Configuration
 
-It is possible to open the port configuration dialog by clicking on the port with the mouse button. Then it is required to select "Configure port..." command. "Configure columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.
+It is possible to open the port configuration dialog by clicking on the port with the mouse button. Then it is required to select "Configure port..." command. "Adjustment of columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.
 
-If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port congiguration interface provides an opportunity to set only the structure of the output data of the port.
+If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port configuration interface provides an opportunity to set only the structure of the output data of the port.
 
-If the input data structure is known, the port configuration interface enables to set the output data structure of the port and map the fields (or variables) of the input data set of the port with the output one. In this case, it is possible select two different interfaces for mapping:
+If the input data structure is known, the port configuration interface enables to set the output data structure of the port and map the fields (or variables) of the input data set of the port with the output one. In this case, it is possible to select two different interfaces for mapping:
 
 [Links](../ports/interface-relations.md): graphically displayed links between the fields/variables of the input and output data sets of the port. 
 
@@ -55,34 +55,34 @@ If the input data structure is known, the port configuration interface enables t
 
 > **Important:** When creating the new node, [Automapping of Fields](../ports/field-synchronization.md) option is enabled by default in its ports. Usage of this option causes the automatic port configuration (setup). In the result, the output data set of the port fully repeats the input data set structure. The automatic synchronization option is disabled when any of the fields/variables of the output data set of the port is deleted by a user.
 
-## Mechanism of Ports Hidding
+## Mechanism of Ports Hiding
 
-In Loginom there is a mechanism of hidding of [execution order ports](../ports/service-ports.md) and [control variables ports](../variables/control-variables.md), namely, they are hidden from a user by default:
+In Loginom there is a mechanism of hiding of [execution order ports](../ports/service-ports.md) and [control variables ports](../variables/control-variables.md), namely, they are hidden from a user by default:
 
 * To display the execution order ports, it is required to use ![ ](../../images/icons/toolbar-controls/order_default.svg) toolbar button of the workflow construction area.
 * To display the control variables ports, it is required to select "Show control variables port" option in the context menu of the node.
 
-## Color Indication of Ports
+## Color-Coded Indication of Ports
 
-The color indication of ports is used in Loginom. Ports with сплошной линией are required ports, namely, connection with other ports is required for their operation. Let's analyze the color indication using ["Table" interface](./interface-table.md) as an example.
+The color-coded indication of ports is used in Loginom. Ports with the solid line are required ports, namely, connection with other ports is required for their operation. Let's analyze the color-coded indication using the ["Table" interface](./interface-table.md) as an example.
 
 * ![ ](../../images/icons/app/node/ports/inputs/table_active.svg): port is executed;
 * ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg): port has been configured but it is not executed;
 * ![ ](../../images/icons/app/node/ports/inputs/table_error.svg): port is not configured or contains an error;
 * ![ ](../../images/icons/app/node/ports/inputs/table_warning.svg): port has been partially configured.
 
-The optional port is displayed using пунктиром (their color indication is similar to the required ports)
+The optional port is displayed using the stipple line (their color-coded indication is similar to the required ports)
 ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg)
 . No link with another port can be established for such port.
 
-> **Note**: Color indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.
+> **Note**: The color-coded indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.
 
 ## Linking of Ports
 
 To link the ports, it is required to hover a cursor over the port and press the left mouse button. Then it is required to hover a cursor over the port with which linking is required and release the left mouse button.
 
-When selecting the port, пунктирная линия appears. It starts in the source port and ends in the mouse cursor position. The type of the port with which it is required to link the source port is displayed on its end for convenience (refer to Figure 3):
+When selecting the port, the stipple line appears. It starts in the source port and ends in the mouse cursor position. The type of the port with which it is required to link the source port is displayed on its end for convenience (refer to Figure 3):
 
 ![Connection of Ports.](ports-3.png)
 
-> **Important**: It is allowed to connect only the ports of the same type. Namely, the "Table" port can be connected only with the одноименным портом. It is also prohibited to connect the output port of the node with its own input port. The cyclic links are forbidden!
+> **Important**: It is allowed to connect only the ports of the same type. Namely, the "Table" port can be connected only with the port with the same name. It is also prohibited to connect the output port of the node with its own input port. The cyclic links are forbidden!

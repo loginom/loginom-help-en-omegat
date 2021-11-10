@@ -19,7 +19,7 @@ A user can select the most suitable imputation method for each column of the sou
 
 ## Wizard
 
-Columns mapping is configured in [table](../../scenario/ports/interface-table.md) or [links](../../scenario/ports/interface-relations.md) interfaces.
+Adjustment of columns mapping is performed in the [table](../../scenario/ports/interface-table.md) or [links](../../scenario/ports/interface-relations.md) interfaces.
 
 ### Imputation Configuration
 

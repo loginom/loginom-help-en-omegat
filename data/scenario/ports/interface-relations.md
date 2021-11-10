@@ -32,7 +32,7 @@ Description of the Additional Wizard Commands:
    * first, by the following indicator: "[data type](../../data/compatibility.md) is compatible and the name matches (case-insensitive)";
    * then by the following indicator: "data type is compatible and the caption matches (case-insensitive)".
 * ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links** enables to delete all available links.
-* ![](../../images/icons/toolbar-controls/order-links_default.svg) **Arrange links** enables to resort lists fields to delete the crossing links.
+* ![](../../images/icons/toolbar-controls/order-links_default.svg) **Order links** enables to resort lists fields to delete the crossing links.
 * ![](../../images/icons/toolbar-controls/help_default.svg) **Show lost links**: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured. Such situation can take place when the input data structure is changed.
 
 If it is required to configure several positions simultaneously, they can be selected using the following methods:
