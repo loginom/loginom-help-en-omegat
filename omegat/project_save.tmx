@@ -11570,8 +11570,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: порты можно соединять только одного типа, то есть порт "Таблица" может быть соединен только с одноименным портом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T114230Z" creationid="Марианна" creationdate="20211005T114158Z">
-        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: It is allowed to connect only the ports of the same type. Namely, the "Table" port can be connected only with the одноименным портом.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T140423Z" creationid="Марианна" creationdate="20211005T114158Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: It is allowed to connect only the ports of the same type. Namely, the "Table" port can be connected only with the port with the same name.</seg>
       </tuv>
     </tu>
     <tu>
