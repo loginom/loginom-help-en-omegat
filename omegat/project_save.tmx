@@ -33298,8 +33298,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>В случае, если структура входных данных, подаваемых в порт, еще неизвестна (например, если к входному порту связь не установлена), то интерфейс настройки порта предоставляет возможность задать только структуру выходных данных порта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T053548Z" creationid="Марианна" creationdate="20211005T053548Z">
-        <seg>If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port congiguration interface provides an opportunity to set only the structure of the output data of the port.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T134443Z" creationid="Марианна" creationdate="20211005T053548Z">
+        <seg>If the structure of the input data supplied to the port is still unknown (for example, if there is no link established with the input port), the port configuration interface provides an opportunity to set only the structure of the output data of the port.</seg>
       </tuv>
     </tu>
     <tu>
