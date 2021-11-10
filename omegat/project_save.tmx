@@ -23868,8 +23868,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Удалить записи по ключевым полям&lt;x2/&gt; — дает возможность на следующем этапе &lt;x3/&gt;Настройка соответствия между столбцами&lt;x4/&gt; выбрать ключевое поле, по которому будет происходить удаление записей из таблицы базы данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201127T104327Z" creationid="Марианна" creationdate="20200916T112319Z">
-        <seg>&lt;x1/&gt;Delete records by key fields&lt;x2/&gt; enables to select a key field by which records will be deleted from the database table at the next stage - &lt;x3/&gt;Map Source Columns to Table Fields &lt;x4/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T133656Z" creationid="Марианна" creationdate="20200916T112319Z">
+        <seg>&lt;x1/&gt;Delete records by key fields&lt;x2/&gt; enables to select a key field by which records will be deleted from the database table at the next stage - &lt;x3/&gt;Adjustment of columns mapping&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47988,8 +47988,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Настройка соответствия между столбцами проводится в интерфейсах &lt;x1/&gt;таблица&lt;x2/&gt; или &lt;x3/&gt;связи&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210517T105621Z" creationid="Марианна" creationdate="20210517T105621Z">
-        <seg>Columns mapping is configured in &lt;x1/&gt;table&lt;x2/&gt; or &lt;x3/&gt;links&lt;x4/&gt; interfaces.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T133722Z" creationid="Марианна" creationdate="20210517T105621Z">
+        <seg>Adjustment of columns mapping is performed in the &lt;x1/&gt;table&lt;x2/&gt; or &lt;x3/&gt;links&lt;x4/&gt; interfaces.</seg>
       </tuv>
     </tu>
     <tu>
@@ -61749,8 +61749,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Таким образом, для узла схема движения данных которого представлена на рисунке 2, данные проходят следующие этапы преобразований:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T051641Z" creationid="Марианна" creationdate="20211005T051641Z">
-        <seg>Thus, for the node the data movement schema of which is represented on Figure 2, the data undergo the following transformation stages:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T133334Z" creationid="Марианна" creationdate="20211005T051641Z">
+        <seg>Thus, for the node the data movement schema of which is represented on Figure 2, the data undergoes the following transformation stages:</seg>
       </tuv>
     </tu>
     <tu>
