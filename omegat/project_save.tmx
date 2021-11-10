@@ -31716,8 +31716,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В Loginom существует механизм сокрытия &lt;x1/&gt;портов порядка выполнения&lt;x2/&gt; и &lt;x3/&gt;портов управляющих переменных&lt;x4/&gt;, т.е. по умолчанию они скрыты от пользователя:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T095045Z" creationid="Марианна" creationdate="20211005T094913Z">
-        <seg>In Loginom there is a mechanism of hidding of &lt;x1/&gt;execution order ports&lt;x2/&gt; and &lt;x3/&gt;control variables ports&lt;x4/&gt;, namely, they are hidden from a user by default:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T140035Z" creationid="Марианна" creationdate="20211005T094913Z">
+        <seg>In Loginom there is a mechanism of hiding of &lt;x1/&gt;execution order ports&lt;x2/&gt; and &lt;x3/&gt;control variables ports&lt;x4/&gt;, namely, they are hidden from a user by default:</seg>
       </tuv>
     </tu>
     <tu>
@@ -46117,8 +46117,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Механизм сокрытия портов</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T094658Z" creationid="Марианна" creationdate="20211005T094658Z">
-        <seg>Mechanism of Ports Hidding</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T140019Z" creationid="Марианна" creationdate="20211005T094658Z">
+        <seg>Mechanism of Ports Hiding</seg>
       </tuv>
     </tu>
     <tu>
