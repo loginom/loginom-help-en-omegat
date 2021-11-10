@@ -20946,8 +20946,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: цветовая индикация для портов переменных, подключений и портов, с неопределенной структурой данных является аналогичной рассмотренной выше.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T101040Z" creationid="Марианна" creationdate="20211005T101040Z">
-        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Color indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T125720Z" creationid="Марианна" creationdate="20211005T101040Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: The color-coded indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48606,8 +48606,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
 &lt;x1/&gt; &lt;x2/&gt;
 .</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T100657Z" creationid="Марианна" creationdate="20211005T100657Z">
-        <seg>The optional port is displayed using пунктиром (their color indication is similar to the required ports)
+      <tuv lang="en" changeid="Марианна" changedate="20211110T125703Z" creationid="Марианна" creationdate="20211005T100657Z">
+        <seg>The optional port is displayed using the stipple line (their color-coded indication is similar to the required ports)
 &lt;x1/&gt; &lt;x2/&gt;
 .</seg>
       </tuv>
@@ -57977,8 +57977,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Рассмотрим цветовую индикацию на примере &lt;x1/&gt;интерфейса «Таблица»&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T100256Z" creationid="Марианна" creationdate="20211005T100256Z">
-        <seg>Let's analyze the color indication using &lt;x1/&gt;"Table" interface&lt;x2/&gt; as an example.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T125500Z" creationid="Марианна" creationdate="20211005T100256Z">
+        <seg>Let's analyze the color-coded indication using the &lt;x1/&gt;"Table" interface&lt;x2/&gt; as an example.</seg>
       </tuv>
     </tu>
     <tu>
