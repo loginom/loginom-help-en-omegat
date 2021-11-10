@@ -50708,8 +50708,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Откроется диалог "Настройка соответствия между столбцами" или "Настройка соответствия между переменными" в зависимости от типа порта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T053119Z" creationid="Марианна" creationdate="20211005T053119Z">
-        <seg>"Configure columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T132409Z" creationid="Марианна" creationdate="20211005T053119Z">
+        <seg>"Adjustment of columns mapping" or "Adjustment of variables mapping" dialog will be opened according to the port type.</seg>
       </tuv>
     </tu>
     <tu>
