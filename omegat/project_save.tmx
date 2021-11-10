@@ -54214,8 +54214,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порты с сплошной линией являются обязательными портами, т.е. для их работы необходима связь с другими портами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T100047Z" creationid="Марианна" creationdate="20211005T100047Z">
-        <seg>Ports with сплошной линией are required ports, namely, connection with other ports is required for their operation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T140217Z" creationid="Марианна" creationdate="20211005T100047Z">
+        <seg>Ports with the solid line are required ports, namely, connection with other ports is required for their operation.</seg>
       </tuv>
     </tu>
     <tu>
