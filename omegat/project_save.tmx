@@ -55235,8 +55235,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При выделение порта появляется пунктирная линия с началом в исходном порту и концом в позиции курсора мыши, на его конце для удобства отображается тип порта с которым можно связать исходный порт (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T113555Z" creationid="Марианна" creationdate="20211005T113555Z">
-        <seg>When selecting the port, пунктирная линия appears. It starts in the source port and ends in the mouse cursor position. The type of the port with which it is required to link the source port is displayed on its end for convenience (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T125757Z" creationid="Марианна" creationdate="20211005T113555Z">
+        <seg>When selecting the port, the stipple line appears. It starts in the source port and ends in the mouse cursor position. The type of the port with which it is required to link the source port is displayed on its end for convenience (refer to</seg>
       </tuv>
     </tu>
     <tu>
