@@ -31724,8 +31724,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В Loginom существует цветовая индикация портов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T095843Z" creationid="Марианна" creationdate="20211005T095843Z">
-        <seg>The color indication of ports is used in Loginom.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T125420Z" creationid="Марианна" creationdate="20211005T095843Z">
+        <seg>The color-coded indication of ports is used in Loginom.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63805,8 +63805,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Цветовая индикация портов</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T095713Z" creationid="Марианна" creationdate="20211005T095713Z">
-        <seg>Color Indication of Ports</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211110T125412Z" creationid="Марианна" creationdate="20211005T095713Z">
+        <seg>Color-Coded Indication of Ports</seg>
       </tuv>
     </tu>
     <tu>
