@@ -33129,8 +33129,8 @@ return pow(COL1, COL2);</seg>
         <seg>В ряде обработчиков, таких как &lt;x1/&gt;Сортировка&lt;x2/&gt;, &lt;x3/&gt;Экспорт в текстовый файл&lt;x4/&gt;
 и др.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T211934Z" creationid="Марианна" creationdate="20210928T211934Z">
-        <seg>In such handlers as &lt;x1/&gt;Sorting&lt;x2/&gt;, &lt;x3/&gt;Export to the text file&lt;x4/&gt;
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125433Z" creationid="Марианна" creationdate="20210928T211934Z">
+        <seg>In such handlers as &lt;x1/&gt;Sorting&lt;x2/&gt;, &lt;x3/&gt;Export to the text file&lt;x4/&gt;,
 etc.</seg>
       </tuv>
     </tu>
