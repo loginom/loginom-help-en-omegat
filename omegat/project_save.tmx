@@ -50748,8 +50748,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Откроется окно «Добавление ссылки на пакет»;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T205643Z" creationid="Марианна" creationdate="20210930T205643Z">
-        <seg>"Add reference to package" window will be opened;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125108Z" creationid="Марианна" creationdate="20210930T205643Z">
+        <seg>"Add reference to package" window will be opened.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65165,8 +65165,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>в контекстном меню элемента «Ссылки» выбрать пункт  «Добавить».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T205531Z" creationid="Марианна" creationdate="20210930T205531Z">
-        <seg>select "Add" item in the context menu of the "References" item.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125052Z" creationid="Марианна" creationdate="20210930T205531Z">
+        <seg>Select "Add" item in the context menu of the "References" item.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65189,8 +65189,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>в параметре «Путь к файлу пакета» задать путь к пакету, доступ к объектам которого необходимо получить;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T205729Z" creationid="Марианна" creationdate="20210930T205729Z">
-        <seg>set the path to the package access to which objects it is required to receive in "Path to the package file" parameter;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125115Z" creationid="Марианна" creationdate="20210930T205729Z">
+        <seg>Set the path to the package access to which objects it is required to receive in "Path to the package file" parameter.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65837,8 +65837,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>на панели «Навигация» выбрать элемент  «Ссылки»;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T205431Z" creationid="Марианна" creationdate="20210930T205431Z">
-        <seg>select "References" item on the "Navigation" toolbar;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125103Z" creationid="Марианна" creationdate="20210930T205431Z">
+        <seg>Select "References" item on the "Navigation" toolbar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65861,8 +65861,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>нажать «Применить».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T205735Z" creationid="Марианна" creationdate="20210930T205735Z">
-        <seg>press "Apply".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125120Z" creationid="Марианна" creationdate="20210930T205735Z">
+        <seg>Press "Apply".</seg>
       </tuv>
     </tu>
     <tu>
