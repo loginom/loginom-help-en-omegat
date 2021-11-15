@@ -32268,8 +32268,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В контекстном меню элемента Ссылки выбрать пункт &lt;x1/&gt;&lt;x2/&gt; "Добавить".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T221657Z" creationid="Марианна" creationdate="20210928T221657Z">
-        <seg>select &lt;x1/&gt;&lt;x2/&gt; "Add" option in the context menu of the Reference item.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111713Z" creationid="Марианна" creationdate="20210928T221657Z">
+        <seg>Select &lt;x1/&gt;&lt;x2/&gt; "Add" option in the context menu of the Reference item.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32748,8 +32748,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В параметре "Путь к файлу пакета" задать путь к Пакету, доступ к объектам которого необходимо получить;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T222004Z" creationid="Марианна" creationdate="20210928T222004Z">
-        <seg>set the path to the Package access to which objects it is required to receive in "Path to the package file" parameter;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111717Z" creationid="Марианна" creationdate="20210928T222004Z">
+        <seg>Set the path to the Package access to which objects it is required to receive in "Path to the package file" parameter;</seg>
       </tuv>
     </tu>
     <tu>
@@ -46677,8 +46677,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>На панели "Навигация" выбрать элемент &lt;x1/&gt;&lt;x2/&gt; Ссылки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T221720Z" creationid="Марианна" creationdate="20210928T221607Z">
-        <seg>select &lt;x1/&gt;&lt;x2/&gt; Reference item on the "Navigation" panel;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111705Z" creationid="Марианна" creationdate="20210928T221607Z">
+        <seg>Select &lt;x1/&gt;&lt;x2/&gt; Reference item on the "Navigation" panel;</seg>
       </tuv>
     </tu>
     <tu>
@@ -47110,8 +47110,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Нажать "Применить".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T222012Z" creationid="Марианна" creationdate="20210928T220032Z">
-        <seg>press "Apply".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111721Z" creationid="Марианна" creationdate="20210928T220032Z">
+        <seg>Press "Apply".</seg>
       </tuv>
     </tu>
     <tu>
