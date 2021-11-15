@@ -12,7 +12,7 @@ To provide the accessibility setup, it is required to click on the selected obje
 | Public | ![](../images/icons/controls/visibility_public.svg) | It is available in all Packages (to use the object from another Package, it is required to create a Reference to this Package) |
 | Published | ![](../images/icons/controls/visibility_published.svg) | It is available in all Packages and in the Web Service form (this access modifier is set when publishing the node in the Web Service form) |
 
-The *name is set* for the node designated for publication. It will be access modifier of the Web Service method. The node name can be also used as a parameter while [Workflow batch processing](./batchlauncher.md)
+The *name is set* for the node designated for publication. It will be the  Web Service method access modifier. The node name can be also used as a parameter while [Workflow batch processing](./batchlauncher.md)
 (refer to */Node* parameter).
 
 It should be noted that if the node that must be made available is located inside the Supernodes hierarchy, all these Supernodes must also be available (namely, they must have their own access modifier).
@@ -21,7 +21,7 @@ It should be noted that if the node that must be made available is located insid
 
 Thus, when it is required to use the objects (for example, the Workflow nodes, Connections, [Derived components](./derived-component.md)) from other Packages, *references to other packages* must be used.
 
-To make these objects available in other Packages, the "Public" (available in all packages) area of visibility must be set for them. This area is set by parameter of the "Access modifier" object.
+To make these objects available in other Packages, the "Public" (available in all packages) area of visibility must be set for them. This area is set by the "Access modifier" object parameter.
 
 It is required to perform the following actions when creating the reference:
 
