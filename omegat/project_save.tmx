@@ -65741,8 +65741,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>использовать созданные в нем &lt;x1/&gt;Производные компоненты&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T210858Z" creationid="Марианна" creationdate="20210930T210858Z">
-        <seg>use the &lt;x1/&gt;Derived components&lt;x2/&gt; created in it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125218Z" creationid="Марианна" creationdate="20210930T210858Z">
+        <seg>Use the &lt;x1/&gt;Derived components&lt;x2/&gt; created in it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65949,8 +65949,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>обратиться к его объектам при помощи узлов &lt;x1/&gt;Узел-ссылка&lt;x2/&gt;, &lt;x3/&gt;Выполнение узла&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T211018Z" creationid="Марианна" creationdate="20210930T211018Z">
-        <seg>refer to its objects using &lt;x1/&gt;Reference node&lt;x2/&gt;, &lt;x3/&gt;Node execution&lt;x4/&gt;nodes;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125225Z" creationid="Марианна" creationdate="20210930T211018Z">
+        <seg>Refer to its objects using &lt;x1/&gt;Reference node&lt;x2/&gt;, &lt;x3/&gt;Node execution&lt;x4/&gt;nodes.</seg>
       </tuv>
     </tu>
     <tu>
