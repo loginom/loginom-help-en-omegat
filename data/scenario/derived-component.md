@@ -4,7 +4,7 @@
 
 **Derived component** is the component created by a user than can be used in the Workflows alongside with the standard components provided by the platform. The data processing algorithm, input and output ports of the derived component are set by the *base node*.
 
-Any node can be the base node with the exception of *Loop*, *Node execution*, *Reference node*, reference derived node for *Connection*. But generally the [Supernode](../processors/control/submodel.md) is used. As it is possible to use the random logics of data processing in the Supernode and set the required input and output ports, a user has an opportunity to create the Derived Component with the universal feature on its basis. It will be suitable for multiple use in different analytical tasks. Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users. Such approach is an important tool used to implement the structural approach when designing complex solutions (refer to [design tool](../quick-start/design-principles.md)).
+Any node can be the base node with the exception of *Loop*, *Node execution*, *Reference node*, reference derived node for *Connection*. But generally the [Supernode](../processors/control/submodel.md) is used. As it is possible to use the random logics of data processing in the Supernode and set the required input and output ports, a user has an opportunity to create the Derived Component with the universal feature on its basis. It will be suitable for the multiple use in different analytical tasks. Thus, a set of tools for implementation of different data processing logics is not limited by the standard platform components, and it can be expanded by users. Such approach is an important tool used to implement the structural approach when designing complex solutions (refer to [design tool](../quick-start/design-principles.md)).
 
 The following properties are peculiar to the derived component:
 
@@ -49,7 +49,7 @@ Upon saving the settings, the Derived Component will be available on *Derived co
 It is possible to edit the settings of the Derived Components created in the package in the following section: *Navigation panel components*: Navigation panel -> Packages -> Current package -> Components. When selecting this section, the window with the list of the Derived Components in which the following actions are available will be opened:
 
 * **Actions of the section toolbar:**
-   * ![](../images/icons/toolbar-controls_18x18\toolbar-controls_18x18_group-list_default.svg)Group (Alt+G): the list of the Derived Components is grouped by the base node type (*Import, Transformation, Control, Exploration, etc.*);
+   * ![](../images/icons/toolbar-controls_18x18\toolbar-controls_18x18_group-list_default.svg)Group (Alt+G): the list of the Derived Components is grouped by the base node type (*Import, Transformation, Control, Exploration, etc.*).
    * ![](../images/icons/toolbar-controls/setup_default.svg) Configure: the configuration window of the Derived Component selected in the list will be opened.
    * ![](../images/icons/toolbar-controls/delete_default.svg) Delete: delete the Derived Component selected in the list.
 * **Actions of the list items context menu :**

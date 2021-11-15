@@ -21,7 +21,7 @@ The workflow nodes are created from 2 types of components :
 
 The derived component can be created from combination of the workflow nodes implementing the random processing logics.
 
-Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.
+Thus, a set of tools for implementation of different data processing logics is not limited by the standard platform components, and it can be expanded by users.
 
 The [supernode](../processors/control/submodel.md) is most commonly used to create the derived component.
 
