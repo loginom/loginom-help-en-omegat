@@ -62733,8 +62733,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узлу предназначенному для публикации &lt;x1/&gt;задается имя&lt;x2/&gt;, которое будет являться идентификатором метода Веб-сервиса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T220321Z" creationid="Марианна" creationdate="20210928T220321Z">
-        <seg>The &lt;x1/&gt;name is set&lt;x2/&gt; for the node designated for publication. It will be access modifier of the Web Service method.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111337Z" creationid="Марианна" creationdate="20210928T220321Z">
+        <seg>The &lt;x1/&gt;name is set&lt;x2/&gt; for the node designated for publication. It will be the  Web Service method access modifier.</seg>
       </tuv>
     </tu>
     <tu>
