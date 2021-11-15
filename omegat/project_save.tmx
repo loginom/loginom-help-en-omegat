@@ -33586,8 +33586,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>В этих случаях целесообразно сохранить промежуточные расчеты в памяти для последующего использования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T164826Z" creationid="Марианна" creationdate="20211001T164826Z">
-        <seg>In these cases it is reasonable to save the intermediate calculations in the memory for the further use.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T115534Z" creationid="Марианна" creationdate="20211001T164826Z">
+        <seg>In these cases, it is reasonable to save the intermediate calculations in the memory for the further use.</seg>
       </tuv>
     </tu>
     <tu>
