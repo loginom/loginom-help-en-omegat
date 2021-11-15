@@ -6960,8 +6960,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Группировать (Alt+G) — список Производных компонентов группируется по типу базового узла (&lt;x3/&gt;Импорт, Трансформация, Управление, Исследования и т.д.&lt;x4/&gt;);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T204028Z" creationid="Марианна" creationdate="20210930T204001Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Group (Alt+G): the list of the Derived Components is grouped by the base node type (&lt;x3/&gt;Import, Transformation, Control, Exploration, etc.&lt;x4/&gt;);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T123956Z" creationid="Марианна" creationdate="20210930T204001Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Group (Alt+G): the list of the Derived Components is grouped by the base node type (&lt;x3/&gt;Import, Transformation, Control, Exploration, etc.&lt;x4/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
