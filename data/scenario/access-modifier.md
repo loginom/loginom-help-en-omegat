@@ -25,9 +25,9 @@ To make these objects available in other Packages, the "Public" (available in al
 
 It is required to perform the following actions when creating the reference:
 
-1. select ![](../images/icons/system_object_18/link_default.svg) Reference item on the "Navigation" panel;
-2. select ![](../images/icons/app/node/ports/add/add_inactive_default.svg) "Add" option in the context menu of the Reference item. "Add reference to package" window will be opened;
-3. set the path to the Package access to which objects it is required to receive in "Path to the package file" parameter;
-4. press "Apply".
+1. Select ![](../images/icons/system_object_18/link_default.svg) Reference item on the "Navigation" panel.
+2. Select ![](../images/icons/app/node/ports/add/add_inactive_default.svg) "Add" option in the context menu of the Reference item. "Add reference to package" window will be opened.
+3. Set the path to the Package access to which objects it is required to receive in "Path to the package file" parameter.
+4. Press "Apply".
 
 Upon creation of the Reference to the external Package, it is possible to use the Derived Components created in it and refer to its objects using [Reference node](../processors/control/unit-link.md), [Node execution](../processors/control/execute-node.md) nodes.
