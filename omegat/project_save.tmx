@@ -58449,8 +58449,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Рекомендуется применять &lt;x1/&gt;Кэширование&lt;x2/&gt; при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: &lt;x3/&gt;Random()&lt;x4/&gt;, &lt;x5/&gt;Today()&lt;x6/&gt; и других.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201014T062240Z" creationid="Марианна" creationdate="20201014T062240Z">
-        <seg>It is recommended to use &lt;x1/&gt;Caching&lt;x2/&gt; when using the functions the result of which depends on the time point when this calculation is performed, for example: &lt;x3/&gt;Random()&lt;x4/&gt;, &lt;x5/&gt;Today()&lt;x6/&gt;, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T115631Z" creationid="Марианна" creationdate="20201014T062240Z">
+        <seg>It is recommended to use &lt;x1/&gt;Caching&lt;x2/&gt; when using the functions result of which depends on the time point when this calculation is performed, for example: &lt;x3/&gt;Random()&lt;x4/&gt;, &lt;x5/&gt;Today()&lt;x6/&gt;, etc.</seg>
       </tuv>
     </tu>
     <tu>
