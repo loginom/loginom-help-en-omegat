@@ -4,10 +4,10 @@ This mechanism is required for use of objects and/or receipt of the data sets fr
 
 It is required to perform the following actions when creating the reference:
 
-1. select "References" item on the "Navigation" toolbar;
-2. select "Add" item in the context menu of the "References" item. "Add reference to package" window will be opened;
-3. set the path to the package access to which objects it is required to receive in "Path to the package file" parameter;
-4. press "Apply".
+1. Select "References" item on the "Navigation" toolbar.
+2. Select "Add" item in the context menu of the "References" item. "Add reference to package" window will be opened.
+3. Set the path to the package access to which objects it is required to receive in "Path to the package file" parameter.
+4. Press "Apply".
 
 It is possible to perform the following actions upon creation of the Reference to the external Package:
 * refer to its objects using [Reference node](../processors/control/unit-link.md), [Node execution](../processors/control/execute-node.md)nodes;

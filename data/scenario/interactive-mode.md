@@ -1,6 +1,6 @@
 # Interactive Mode of Operation
 
-**Interactive mode of operation** means the mode when design, start of nodes and debugging of workflows are performed in the [interface](../interface/README.md) of Loginom Studio.
+**Interactive mode of operation** means the mode when design, start of nodes and debugging of workflows are performed in the Loginom Studio [interface](../interface/README.md).
 
 The interactive mode of operation is used in the platform working space (refer to Figure 1).
 
