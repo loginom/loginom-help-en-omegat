@@ -10,8 +10,8 @@ It is required to perform the following actions when creating the reference:
 4. Press "Apply".
 
 It is possible to perform the following actions upon creation of the Reference to the external Package:
-* refer to its objects using [Reference node](../processors/control/unit-link.md), [Node execution](../processors/control/execute-node.md)nodes;
-* use the [Derived components](../scenario/derived-component.md) created in it.
+* Refer to its objects using [Reference node](../processors/control/unit-link.md), [Node execution](../processors/control/execute-node.md) nodes.
+* Use the [Derived components](../scenario/derived-component.md) created in it.
 
 The first two are used if it is not required to change the data processing logics, the latter one if correction is required for the algorithm.
 
