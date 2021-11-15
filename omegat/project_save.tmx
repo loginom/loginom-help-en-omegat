@@ -54914,8 +54914,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Предпринимается попытка восстановить ранее настроенные связи с входными полями/переменными ("пропавшие", "некорректные" связи, появившееся в результате изменения структуры входных данных).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T042736Z" creationid="Марианна" creationdate="20211001T042736Z">
-        <seg>There is an attempt to restore previously configured links with the input fields/variables ("missing", "incorred" links that appeared due to the input data structure change).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125643Z" creationid="Марианна" creationdate="20211001T042736Z">
+        <seg>There is an attempt to restore previously configured links with the input fields/variables ("missing", "incorrect" links that appeared due to the input data structure change).</seg>
       </tuv>
     </tu>
     <tu>
