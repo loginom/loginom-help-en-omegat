@@ -38883,8 +38883,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Для приема данных с переменной структурой служит автоматическая синхронизация полей/переменных, в ходе которой синхронизируется список выходных полей/переменных порта со списком входных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T042114Z" creationid="Марианна" creationdate="20211001T042114Z">
-        <seg>To receive the data with the variable structure, the automapping of fields/variable is used.The list of output fields/variable of the port is synchronized with the list of the input ones during its course.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T125603Z" creationid="Марианна" creationdate="20211001T042114Z">
+        <seg>To receive the data with the variable structure, the automapping of fields/variable is used. The list of output fields/variable of the port is synchronized with the list of the input ones during its course.</seg>
       </tuv>
     </tu>
     <tu>
