@@ -66,14 +66,14 @@ BatchLauncher /Package=/user/test.lgp /Node=test_node /Port1.Parameter1=true
 /Port1.Parameter2=2008-01-02T22:24:24 "/Port2.Parameter1=Hello World!" /Port2.Parameter2=null /Port2.Parameter3=3.14 /Port2.Parameter4=4.025E4
 ```
 
-It is allowed not to specify the port name (for example, */Parameter1=true*. However, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule. An error also occurs when the nonexisting variable name of is specified.
+It is allowed not to specify the port name (for example, */Parameter1=true*. However, if the variable with the name specified in such a manner is in several ports, it is an exception to the rule. An error also occurs when the nonexisting variable name is specified.
 
 > **Important:** All nonreserved parameters in the start string are interpreted as the setup parameters of the variables values.
 
 The source string value specified in the command string is converted according to the data type of the target variable:
 
 * If the source string value is equal to null (case-sensitive), the target variable will get the null value irrespective of its data type.
-* If the target variable refers to the Logical, Integer, Real or Date/Time type, the source string value is converted according to the rules related to corresponding type. In this case, the decimal separator is used for the Real type. (Dot). Subset of ISO 8601 formats is used for Date/Time: "YYYY-MM-DD", "YYYY-MM-DDThh:mm[:ss[.zzz]]", "hh:mm[:ss[.zzz]]". *true* and *false* (non-case-sensitive) are considered to be allowable values of the Logical type.
+* If the target variable refers to the Logical, Integer, Real or Date/Time type, the source string value is converted according to the rules related to the corresponding type. In this case, the decimal separator is used for the Real type. (Dot). Subset of ISO 8601 formats is used for Date/Time: "YYYY-MM-DD", "YYYY-MM-DDThh:mm[:ss[.zzz]]", "hh:mm[:ss[.zzz]]". *true* and *false* (non-case-sensitive) are considered to be allowable values of the Logical type.
 * If the target variable is related to the String type, the data type transformation is not performed. If the source value is enclosed in single quotes, these quotes are unescaped. Otherwise, the source value is assigned to the variable without changes.
 * If the target varaible is related to the Variable type, there is an attempt to convert alternately the source string value to the Logical, Integer, Real and Date/Time types. In this case, if all these conversions fail, the target variable will get the string value.
 * The exponential form of number record can be transferred as parameters for the variables related to the Real and Variable types (for example: 4.205E2, 4.205E-2)
