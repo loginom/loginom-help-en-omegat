@@ -50036,8 +50036,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Однако, в случае, если алгоритм предусматривает многократное использование промежуточных данных, эта стратегия может приводить к увеличению времени выполнения алгоритма.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T164720Z" creationid="Марианна" creationdate="20211001T164720Z">
-        <seg>However, if the algorithm provides for multiple use of the intermediate data, this strategy can cause increase of the algorithm execution time.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T115508Z" creationid="Марианна" creationdate="20211001T164720Z">
+        <seg>However, if the algorithm provides for the multiple use of the intermediate data, this strategy can cause increase of the algorithm execution time.</seg>
       </tuv>
     </tu>
     <tu>
