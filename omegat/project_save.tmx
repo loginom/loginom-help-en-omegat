@@ -49884,8 +49884,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Объектами, для которых можно задать модификатор доступа, являются подключения и узлы Сценария.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T214819Z" creationid="Марианна" creationdate="20210928T214819Z">
-        <seg>The objects for which it is possible to set the access modifier are connections and nodes of the Workflow.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111033Z" creationid="Марианна" creationdate="20210928T214819Z">
+        <seg>The objects for which it is possible to set the access modifier are the Workflow connections and nodes.</seg>
       </tuv>
     </tu>
     <tu>
