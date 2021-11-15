@@ -41064,8 +41064,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Если целевая переменная имеет тип Логический, Целый, Вещественный или Дата/Время, то исходное строковое значение конвертируется по правилам соответствующего типа, причём для Вещественного типа используется десятичный разделитель .</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T174812Z" creationid="Марианна" creationdate="20210930T095109Z">
-        <seg>If the target variable refers to the Logical, Integer, Real or Date/Time type, the source string value is converted according to the rules related to corresponding type. In this case, the decimal separator is used for the Real type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T115104Z" creationid="Марианна" creationdate="20210930T095109Z">
+        <seg>If the target variable refers to the Logical, Integer, Real or Date/Time type, the source string value is converted according to the rules related to the corresponding type. In this case, the decimal separator is used for the Real type.</seg>
       </tuv>
     </tu>
     <tu>
