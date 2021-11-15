@@ -14523,8 +14523,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Интерактивный режим работы&lt;x2/&gt; — режим, при котором проектирование, запуск узлов и отладка сценариев осуществляется в &lt;x3/&gt;интерфейсе&lt;x4/&gt; Loginom Studio.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T205000Z" creationid="Марианна" creationdate="20210928T205000Z">
-        <seg>&lt;x1/&gt;Interactive mode of operation&lt;x2/&gt; means the mode when design, start of nodes and debugging of workflows are performed in the &lt;x3/&gt;interface&lt;x4/&gt; of Loginom Studio.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T124900Z" creationid="Марианна" creationdate="20210928T205000Z">
+        <seg>&lt;x1/&gt;Interactive mode of operation&lt;x2/&gt; means the mode when design, start of nodes and debugging of workflows are performed in the Loginom Studio &lt;x3/&gt;interface&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
