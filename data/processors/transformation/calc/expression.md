@@ -20,7 +20,7 @@ It is possible to use references to the expressions calculated earlier in the ex
 
 It is required to enable [Caching](../../../scenario/caching.md) in the *Calculator* expressions in the case of `Data()` function usage for the recursive computation of values.
 
-It is recommended to use *Caching* when using the functions the result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.
+It is recommended to use *Caching* when using the functions result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.
 
 ## Quick Access Toolbar
 
