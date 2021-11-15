@@ -64669,8 +64669,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Эта область задается параметром объекта "Модификатор доступа".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T221507Z" creationid="Марианна" creationdate="20210928T221507Z">
-        <seg>This area is set by parameter of the "Access modifier" object.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T111539Z" creationid="Марианна" creationdate="20210928T221507Z">
+        <seg>This area is set by the "Access modifier" object parameter.</seg>
       </tuv>
     </tu>
     <tu>
