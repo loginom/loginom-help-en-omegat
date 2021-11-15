@@ -54294,8 +54294,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Поскольку в Подмодели можно реализовать произвольную логику обработки данных и задать необходимые входные и выходные порты, то на ее основе пользователь имеет возможность создать Производный компонент с универсальной функциональностью, пригодной для многократного использования в различных аналитических задачах.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210930T102919Z" creationid="Марианна" creationdate="20210930T102919Z">
-        <seg>As it is possible to use the random logics of data processing in the Supernode and set the required input and output ports, a user has an opportunity to create the Derived Component with the universal feature on its basis. It will be suitable for multiple use in different analytical tasks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211115T123517Z" creationid="Марианна" creationdate="20210930T102919Z">
+        <seg>As it is possible to use the random logics of data processing in the Supernode and set the required input and output ports, a user has an opportunity to create the Derived Component with the universal feature on its basis. It will be suitable for the multiple use in different analytical tasks.</seg>
       </tuv>
     </tu>
     <tu>
