@@ -6,9 +6,9 @@ The workflow is empty by default and it is filled with required components accor
 
 [Ports](./ports/README.md): method of communication between the nodes.
 
-In Loginom the Workflow nodes accept data via the input ports and give them back via the output ones. The input ports are located to the left on the Workflow node icon, and the output ones - to the right.
+In Loginom the Workflow nodes accept data via the input ports and give it back via the output ones. The input ports are located to the left on the Workflow node icon, and the output ones - to the right.
 
-To provide more flexible operation of the Workflow, it is possible to use [variable](./variables/README.md). They are objects that contain only one value of the particular type.
+To provide more flexible operation of the Workflow, it is possible to use [variables](./variables/README.md). They are objects that contain only one value of the particular type.
 
 In general, there are the following types of variables:
 
