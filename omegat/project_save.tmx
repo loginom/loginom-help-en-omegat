@@ -36156,8 +36156,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Выполнение команды "Переобучить узел";</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T194704Z" creationid="Марианна" creationdate="20211001T194704Z">
-        <seg>Execution of "Retrain node" command;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220541Z" creationid="Марианна" creationdate="20211001T194704Z">
+        <seg>Execution of "Retrain node" command.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39903,8 +39903,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Допустимые режимы пакетной обработки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T195930Z" creationid="Марианна" creationdate="20211001T195919Z">
-        <seg>Valid modes of batch processing</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220559Z" creationid="Марианна" creationdate="20211001T195919Z">
+        <seg>Valid Modes of Batch Processing</seg>
       </tuv>
     </tu>
     <tu>
