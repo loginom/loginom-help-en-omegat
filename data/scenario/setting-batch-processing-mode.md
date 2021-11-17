@@ -35,14 +35,14 @@ Selection of one of these options of the node behaviour *in the case of the inte
 
 * By the context within which the Workflow node execution is launched. The context within the scope of the interactive execution of Workflows means as follows:
    * The command that enables to launch the node execution or the Supernode (Loop) node that contains it. The following options are possible:
-      * Execution of "Retrain node" command;
+      * Execution of "Retrain node" command.
       * Execution of "Run node" command.
 * By configuration of the Supernode (Loop) node activation mode that contains the executed node (if it is available).
 * By configuration of the activation mode set for the executed node as such.
 
 ## Configure Activation Mode
 
-### Valid modes of batch processing
+### Valid Modes of Batch Processing
 
 This group of parameters has an impact on the node activation mode only in the batch mode.
 
@@ -51,7 +51,7 @@ This group of parameters has an impact on the node activation mode only in the b
 
 Both options are enabled by default for new nodes.
 
-### Own node activation mode
+### Own Node Activation Mode
 
 This parameter has an impact on the node activation node both in the batch mode, and in the interactive mode.
 Using the own activation mode, it is possible to set the execution mode forcibly with or without retraining. It is required to select one of the options listed below:
@@ -64,7 +64,7 @@ Using the own activation mode, it is possible to set the execution mode forcibly
       * in the case of the Workflow batch processing - by */Teach* parameter;
       * in the case of the interactive Workflow execution - by the command that is used to launch the node execution ("Retrain node" or "Run node").
 
-> **Note:** As the Supernode (or Loop) also can be nested into another Supernode, and this nesting is not limited, the nesting hierarchy can be created in this casr. The upper level Supernode is located on its op. By default settings of this Supernode are inherited by all subordinate nodes. Thus, the own node execution mode can be inherited from the Supernode of the highest level.
+> **Note:** As the Supernode (or Loop) also can be nested into another Supernode, and this nesting is not limited, the nesting hierarchy can be created in this case. The upper level Supernode is located on its top. By default settings of this Supernode are inherited by all subordinate nodes. Thus, the own node execution mode can be inherited from the Supernode of the highest level.
 
 The following *flowgraph* (refer to Figure 1) shows which of the node execution options according to the settings specified above will be used for the batch processing:
 
