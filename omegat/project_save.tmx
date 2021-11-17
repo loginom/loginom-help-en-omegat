@@ -54134,8 +54134,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порт порядка выполнения</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T212738Z" creationid="Марианна" creationdate="20210928T212738Z">
-        <seg>Execution order port</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T214045Z" creationid="Марианна" creationdate="20210928T212738Z">
+        <seg>Execution Order Port</seg>
       </tuv>
     </tu>
     <tu>
