@@ -13931,8 +13931,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значение&lt;x2/&gt; — значение переменных выходного набора порта (о назначении полей см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T044506Z" creationid="Марианна" creationdate="20211003T044506Z">
-        <seg>&lt;x1/&gt;Value&lt;x2/&gt;: value of the variables of the output data set of the port (more detailed information of the fields usage type is provided in</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T212204Z" creationid="Марианна" creationdate="20211003T044506Z">
+        <seg>&lt;x1/&gt;Value&lt;x2/&gt;: value of the variables of the output data set of the port (more detailed information on the fields usage type is provided in</seg>
       </tuv>
     </tu>
     <tu>
