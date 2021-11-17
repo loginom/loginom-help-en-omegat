@@ -32,10 +32,10 @@ Thus, for the node the data movement schema of which is represented on Figure 2,
 It is possible to introduce the following changes of the data structure in the port:
 
 * Change of the fields/variables names.
-* Change of the fields/variables captions;
-* Set fields order in the table;
-* Delete unnecessary fields/variables;
-* set fields usage types (refer to [features of data set field](../../data/datasetfieldoptions.md)).
+* Change of the fields/variables captions.
+* Set fields order in the table.
+* Delete unnecessary fields/variables.
+* Set fields usage types (refer to [features of data set field](../../data/datasetfieldoptions.md)).
 
 These actions and also possible methods of the port reaction to the structure change of the data supplied to the port are set in the port settings.
 
