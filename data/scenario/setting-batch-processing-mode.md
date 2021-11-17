@@ -9,22 +9,22 @@
 
 The following execution options can be set for each of the nodes in the case of the Workflows batch processing:
 
-* The node will not be executed;
+* The node will not be executed.
 * The Node is executed without retraining of the Model.
 * The Node is executed with retraining of the Model.
 
 Selection of one of these options of the node behaviour *in the case of the batch processing* is set as follows:
 
 * By the context within which the Workflow node execution is launched. The context within the scope of the Workflows batch processing means as follows:
-   * Parameters of the Package execution launch The following factors are important:
-      * Launch of the Package with */Teach* parameter or without it;
+   * Parameters of the Package execution launch. The following factors are important:
+      * Launch of the Package with */Teach* parameter or without it.
       * Launch of the Package with */Node* parameter.
 * By configuration of the node activation mode of the [Supernode](../processors/control/submodel.md) ([Loop](../processors/control/cycle.md)) that contains the executed node (if it is available).
 * By configuration of the activation mode set for the executed node as such.
 
-> **Note:** More detailed information on the batch processing of workflows and */Teach* and */Node* batch processing parameters is provided (refer to [batch processing of workflows](./batchlauncher.md))
+> **Note:** More detailed information on the batch processing of workflows and */Teach* and */Node* batch processing parameters is provided (refer to [batch processing of workflows](./batchlauncher.md)).
 
-### Interactive workflow execution
+### Interactive Workflow Execution
 
 The following execution options can be set for each of the nodes in the Workflows editing (debugging) mode:
 

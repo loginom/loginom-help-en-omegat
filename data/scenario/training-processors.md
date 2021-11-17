@@ -23,6 +23,6 @@ For example, the Supernode in which the iteration actions are performed is consi
 
 The automatic training of the Models can be performed while batch processing of the workflows in which it is possible to set the following execution options for each of the nodes:
 
-* The node will not be executed;
+* The node will not be executed.
 * The Node is executed without retraining of the Model.
 * The Node is executed with retraining of the Model.
