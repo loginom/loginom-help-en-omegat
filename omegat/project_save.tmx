@@ -41294,16 +41294,16 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Задание назначения полей (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T213954Z" creationid="Марианна" creationdate="20211003T213954Z">
-        <seg>set fields usage types (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213642Z" creationid="Марианна" creationdate="20211003T213954Z">
+        <seg>Set fields usage types (refer to</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Задание порядка полей в таблице;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T213859Z" creationid="Марианна" creationdate="20211003T213859Z">
-        <seg>Set fields order in the table;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213616Z" creationid="Марианна" creationdate="20211003T213859Z">
+        <seg>Set fields order in the table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42492,8 +42492,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Изменение имен полей/переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T213822Z" creationid="Марианна" creationdate="20211003T213822Z">
-        <seg>Change of the fields/variables names;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213607Z" creationid="Марианна" creationdate="20211003T213822Z">
+        <seg>Change of the fields/variables names.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42508,8 +42508,8 @@ etc.</seg>
       <tuv lang="ru">
         <seg>Изменение меток полей/переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T213841Z" creationid="Марианна" creationdate="20211003T213841Z">
-        <seg>Change of the fields/variables captions;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213611Z" creationid="Марианна" creationdate="20211003T213841Z">
+        <seg>Change of the fields/variables captions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62525,8 +62525,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Удаление ненужных полей/переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T213934Z" creationid="Марианна" creationdate="20211003T213934Z">
-        <seg>Delete unnecessary fields/variables;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213636Z" creationid="Марианна" creationdate="20211003T213934Z">
+        <seg>Delete unnecessary fields/variables.</seg>
       </tuv>
     </tu>
     <tu>
