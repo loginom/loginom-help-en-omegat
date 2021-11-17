@@ -39255,8 +39255,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Для того чтобы более гибко реализовывать работу Сценария можно использовать &lt;x1/&gt;переменные&lt;x2/&gt; — объекты, содержащие только одно значение конкретного типа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T060947Z" creationid="Марианна" creationdate="20211003T060947Z">
-        <seg>To provide more flexible operation of the Workflow, it is possible to use &lt;x1/&gt;variable&lt;x2/&gt;. They are objects that contain only one value of the particular type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T215119Z" creationid="Марианна" creationdate="20211003T060947Z">
+        <seg>To provide more flexible operation of the Workflow, it is possible to use &lt;x1/&gt;variables&lt;x2/&gt;. They are objects that contain only one value of the particular type.</seg>
       </tuv>
     </tu>
     <tu>
