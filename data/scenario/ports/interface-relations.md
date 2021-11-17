@@ -21,7 +21,7 @@ The "Output" list toolbar contains the following commands:
 * ![](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add the new field to the list of configured columns and open its features editing dialog.
 * ![](../../images/icons/toolbar-controls/edit_default.svg) **Configure** enables to open the dialog of editing of [field features](../../processors/transformation/fields-parameters.md). The dialog can be also opened by double clicking on the selected field.
 * ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move up/down** enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).
-* ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [automapping of fields](./field-synchronization.md));
+* ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [automapping of fields](./field-synchronization.md)).
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when this mode is enabled, ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Map fields command will be automatically executed when executing the node.
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all...**: the "Output" list is cleared.
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
@@ -31,8 +31,8 @@ Description of the Additional Wizard Commands:
 * ![](../../images/icons/toolbar-controls/auto-connect_default.svg) **Auto link**: there is an attempt to establish the links between the output and input list of fields/variables. The list of the input/output fields/variables is not changed (the new fields are not added). New links can be added. If some links are already available, they are left unchanged. The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:
    * first, by the following indicator: "[data type](../../data/compatibility.md) is compatible and the name matches (case-insensitive)";
    * then by the following indicator: "data type is compatible and the caption matches (case-insensitive)".
-* ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links** enables to delete all available links.
-* ![](../../images/icons/toolbar-controls/order-links_default.svg) **Order links** enables to resort lists fields to delete the crossing links.
+* ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links**: delete all available links.
+* ![](../../images/icons/toolbar-controls/order-links_default.svg) **Order links**: resort lists fields to delete the crossing links.
 * ![](../../images/icons/toolbar-controls/help_default.svg) **Show lost links**: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured. Such situation can take place when the input data structure is changed.
 
 If it is required to configure several positions simultaneously, they can be selected using the following methods:

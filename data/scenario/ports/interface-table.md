@@ -23,7 +23,7 @@ The table toolbar contains the following commands:
 * ![](../../images/icons/toolbar-controls/auto-connect_default.svg) **Auto link**: there is an attempt to establish the links between the output and input list of fields/variables. The list of the input/output fields/variables is not changed (the new fields are not added). New links can be added. If some links are already available, they are left unchanged. The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:
    * first, by the following indicator: "[data type](../../data/datatype.md) is compatible and the name matches (case-insensitive)";
    * then by the following indicator: "compatible [data type](../../data/datatype.md) and the caption matches (case-insensitive)".
-* ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links** enables to delete all available links.
+* ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links**: delete all available links.
 * ![](../../images/icons/toolbar-controls/help_default.svg) **Show lost links**: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured. Such situation can take place when the input data structure is changed.
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all...**: the "Input" list is cleared.
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
