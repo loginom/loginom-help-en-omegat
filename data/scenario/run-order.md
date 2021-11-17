@@ -35,7 +35,7 @@ Use of the Supernodes provides easy implementation of *loop nesting*.
 
 It is possible to execute the Loops *in multiple threads* that can considerably decrease the processing time.
 
-### Condition (branching)
+### Condition (Branching)
 
 [Condition](../processors/control/condition.md) is the control structure that provides the algorithm branching according to the value of some expression (analogue of "SWITCH... CASE..."). According to the set condition the Workflow execution progress can follow one of possible branches (refer to Figure 3).
 
