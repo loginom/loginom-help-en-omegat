@@ -66333,8 +66333,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>рисунок 2) данные так же представлены в виде входного и выходного наборов полей (или &lt;x1/&gt;переменных&lt;x2/&gt;, в зависимости от типа порта).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T212910Z" creationid="Марианна" creationdate="20211003T212910Z">
-        <seg>Figure 2) data is also represented in the form of the input and output fields data sets (or &lt;x1/&gt;variables&lt;x2/&gt;according to the port type).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213337Z" creationid="Марианна" creationdate="20211003T212910Z">
+        <seg>Figure 2) data is also represented in the form of the input and output fields data sets (or &lt;x1/&gt;variables&lt;x2/&gt; according to the port type).</seg>
       </tuv>
     </tu>
     <tu>
