@@ -62749,8 +62749,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узлы Сценария принимают данные через входные порты, а отдают через выходные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T212404Z" creationid="Марианна" creationdate="20211003T212404Z">
-        <seg>The Workflow nodes accept data via the input ports and give them back via the output ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213252Z" creationid="Марианна" creationdate="20211003T212404Z">
+        <seg>The Workflow nodes accept data via the input ports and give it back via the output ones.</seg>
       </tuv>
     </tu>
     <tu>
