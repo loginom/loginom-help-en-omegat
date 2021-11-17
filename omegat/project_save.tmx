@@ -20738,8 +20738,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; поскольку Подмодель (или Цикл) также может быть вложен в другую Подмодель, и эта вложенность не ограничена, то, таким образом, может образоваться иерархия вложенности, на вершине которой расположена Подмодель верхнего уровня.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T204609Z" creationid="Марианна" creationdate="20211001T204609Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; As the Supernode (or Loop) also can be nested into another Supernode, and this nesting is not limited, the nesting hierarchy can be created in this casr. The upper level Supernode is located on its op.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T221005Z" creationid="Марианна" creationdate="20211001T204609Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; As the Supernode (or Loop) also can be nested into another Supernode, and this nesting is not limited, the nesting hierarchy can be created in this case. The upper level Supernode is located on its top.</seg>
       </tuv>
     </tu>
     <tu>
