@@ -7,7 +7,7 @@ In the general case, the order of nodes execution is set by connection of their 
 
 ![Use of the service ports to set the nodes execution order.](run-order-1.png)
 
-Besides, Loginom enables to execute several Workflow branches in parallel. For this purpose, additional settings are not required. It is sufficient to execute the parallel connection of nodes. For example, the following chains of nodes will be executed in parallel (refer to (refer to Figure 2):
+Besides, Loginom enables to execute several Workflow branches in parallel. For this purpose, additional settings are not required. It is sufficient to execute the parallel connection of nodes. For example, the following chains of nodes will be executed in parallel (refer to Figure 2):
 
 ![Concurrency of workflow branches execution.](run-order-2.png)
 
