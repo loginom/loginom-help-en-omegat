@@ -61071,8 +61071,8 @@ String - string expression
       <tuv lang="ru">
         <seg>Сценарий по умолчанию пустой и заполняется необходимыми компонентами в зависимости от решаемой задачи путем их добавления в область Сценария (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T055903Z" creationid="Марианна" creationdate="20211003T055903Z">
-        <seg>The workflow is empty by default and it is filled with required components according to the solved task by their adding to the Workflow area (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T214938Z" creationid="Марианна" creationdate="20211003T055903Z">
+        <seg>The workflow is empty by default and it is filled with required components according to the solved task by their adding to the Workflow area (refer to the</seg>
       </tuv>
     </tu>
     <tu>
