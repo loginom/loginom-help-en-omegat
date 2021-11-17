@@ -1,8 +1,8 @@
 # Workflows Design
 
-**Workflow** is the main component of the Module (refer to [package usage type and structure](../quick-start/package.md)).It is a sequence of the data processing steps. The steps are set by the nodes from the standard or [Derived components](./derived-component.md).
+The **Workflow** is the main component of the Module (refer to [package usage type and structure](../quick-start/package.md)). It is a sequence of the data processing steps. The steps are set by the nodes from the standard or [Derived components](./derived-component.md).
 
-The workflow is empty by default and it is filled with required components according to the solved task by their adding to the Workflow area (refer to [Interactive mode of operation](./interactive-mode.md)).
+The workflow is empty by default and it is filled with required components according to the solved task by their adding to the Workflow area (refer to the [Interactive mode of operation](./interactive-mode.md)).
 
 [Ports](./ports/README.md): method of communication between the nodes.
 
