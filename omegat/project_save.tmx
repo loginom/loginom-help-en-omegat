@@ -23204,8 +23204,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сценарий&lt;x2/&gt; — главная составная часть Модуля (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T055408Z" creationid="Марианна" creationdate="20211003T055408Z">
-        <seg>&lt;x1/&gt;Workflow&lt;x2/&gt; is the main component of the Module (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T214828Z" creationid="Марианна" creationdate="20211003T055408Z">
+        <seg>The &lt;x1/&gt;Workflow&lt;x2/&gt; is the main component of the Module (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -25398,8 +25398,8 @@ $$\displaystyle\mathsf{TPR=\frac{TP}{P}=\frac{TP}{TP+FN}=1−FNR}$$.</seg>
       <tuv lang="ru">
         <seg>&lt;x3/&gt;назначение и структура пакета&lt;x4/&gt;) и представляет собой последовательность шагов по обработке данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T055624Z" creationid="Марианна" creationdate="20211003T055533Z">
-        <seg>&lt;x3/&gt;package usage type and structure&lt;x4/&gt;).It is a sequence of the data processing steps.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T214840Z" creationid="Марианна" creationdate="20211003T055533Z">
+        <seg>&lt;x3/&gt;package usage type and structure&lt;x4/&gt;). It is a sequence of the data processing steps.</seg>
       </tuv>
     </tu>
     <tu>
