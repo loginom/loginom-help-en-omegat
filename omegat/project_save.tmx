@@ -51556,8 +51556,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Параметры запуска Пакета на исполнение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T173300Z" creationid="Марианна" creationdate="20211001T173300Z">
-        <seg>Parameters of the Package execution launch</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220205Z" creationid="Марианна" creationdate="20211001T173300Z">
+        <seg>Parameters of the Package execution launch.</seg>
       </tuv>
     </tu>
     <tu>
