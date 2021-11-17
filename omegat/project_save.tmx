@@ -6688,8 +6688,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить все связи&lt;x4/&gt; — удаляет все имеющиеся связи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T053558Z" creationid="Марианна" creationdate="20211003T053558Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all links&lt;x4/&gt; enables to delete all available links.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211403Z" creationid="Марианна" creationdate="20211003T053558Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete all links&lt;x4/&gt;: delete all available links.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6776,8 +6776,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Упорядочить связи&lt;x4/&gt; — пересортировывает поля списков для устранения пересечений связей друг с другом.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211110T141640Z" creationid="Марианна" creationdate="20211003T211612Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Order links&lt;x4/&gt; enables to resort lists fields to delete the crossing links.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211415Z" creationid="Марианна" creationdate="20211003T211612Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Order links&lt;x4/&gt;: resort lists fields to delete the crossing links.</seg>
       </tuv>
     </tu>
     <tu>
