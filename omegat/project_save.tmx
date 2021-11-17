@@ -6104,8 +6104,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавление&lt;x4/&gt; — к настраиваемым столбцам добавляются поля, вычисленные на основе обрабатываемых полей;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T210323Z" creationid="Марианна" creationdate="20211003T210323Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;: the fields calculated on the basis of the processd fields are added to the configured columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T210850Z" creationid="Марианна" creationdate="20211003T210323Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;: the fields calculated on the basis of the processed fields are added to the configured columns.</seg>
       </tuv>
     </tu>
     <tu>
