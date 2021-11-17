@@ -44713,8 +44713,8 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
       <tuv lang="ru">
         <seg>Команда доступна только для настройки выходного порта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T205024Z" creationid="Марианна" creationdate="20211003T205024Z">
-        <seg>The command is available only for the output port configuration</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T210732Z" creationid="Марианна" creationdate="20211003T205024Z">
+        <seg>The command is available only for the output port configuration.</seg>
       </tuv>
     </tu>
     <tu>
