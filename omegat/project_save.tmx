@@ -47458,8 +47458,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Например, следующие цепочки узлов будут выполнены параллельно (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T155540Z" creationid="Марианна" creationdate="20211001T155330Z">
-        <seg>For example, the following chains of nodes will be executed in parallel (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T215619Z" creationid="Марианна" creationdate="20211001T155330Z">
+        <seg>For example, the following chains of nodes will be executed in parallel to</seg>
       </tuv>
     </tu>
     <tu>
