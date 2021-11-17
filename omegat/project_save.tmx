@@ -27956,8 +27956,8 @@ interface IVariable {</seg>
       <tuv lang="ru">
         <seg>Studio (веб-клиент)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T083249Z" creationid="Марианна" creationdate="20210928T083249Z">
-        <seg>Studio (web client)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T221939Z" creationid="Марианна" creationdate="20210928T083249Z">
+        <seg>Studio (Web Client)</seg>
       </tuv>
     </tu>
     <tu>
