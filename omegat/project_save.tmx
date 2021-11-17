@@ -5880,8 +5880,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Переместить вверх/вниз&lt;x6/&gt; — изменяет позицию выделенного поля в списке (поля в исходящей с порта таблице будут расположены слева направо в том же порядке, в каком они расположены в списке сверху вниз);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T210855Z" creationid="Марианна" creationdate="20211003T210855Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Move up/down&lt;x6/&gt; enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211654Z" creationid="Марианна" creationdate="20211003T210855Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Move up/down&lt;x6/&gt;: change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6096,8 +6096,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавляет новое поле в список настраиваемых столбцов и открывает диалог редактирования его параметров;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211117T210959Z" creationid="Марианна" creationdate="20211003T210518Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt; enables to add the new field to the list of configured columns and open its features editing dialog.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211638Z" creationid="Марианна" creationdate="20211003T210518Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;: add the new field to the list of configured columns and open its features editing dialog.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6232,8 +6232,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранному полю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T152634Z" creationid="Марианна" creationdate="20211003T210800Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt; enables to open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking on the selected field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211645Z" creationid="Марианна" creationdate="20211003T210800Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt;: open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking on the selected field.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6616,16 +6616,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать выходной...&lt;x4/&gt; — создает для выбранного входного поля/переменной такое же поле в списке "Выходные" и устанавливает с ним соответствие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T205215Z" creationid="Марианна" creationdate="20211003T205215Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create output...&lt;x4/&gt; enables to create the same field for the selected input field/variable in the "Output" list and provide mapping with it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211554Z" creationid="Марианна" creationdate="20211003T205215Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create output...&lt;x4/&gt;: create the same field for the selected input field/variable in the "Output" list and provide mapping with it.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Создать выходные для всех входных...&lt;x4/&gt; — создает для всех входных полей/переменных такие же поля в списке "Выходные" и устанавливает с ними соответствие.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T205349Z" creationid="Марианна" creationdate="20211003T205349Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create output for all input...&lt;x4/&gt; enables to create the same fields in the "Output" list for all input fields/variables and provide mapping with them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211623Z" creationid="Марианна" creationdate="20211003T205349Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Create output for all input...&lt;x4/&gt;: create the same fields in the "Output" list for all input fields/variables and provide mapping with them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6752,8 +6752,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Удалить&lt;x4/&gt; — удаляет выделенную позицию в списке "Выходные", иконка этой команды высвечивается при наведении курсора на эту позицию.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T054215Z" creationid="Марианна" creationdate="20211003T054215Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt; enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T211721Z" creationid="Марианна" creationdate="20211003T054215Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Delete&lt;x4/&gt;: delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.</seg>
       </tuv>
     </tu>
     <tu>
