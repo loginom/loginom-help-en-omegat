@@ -4,7 +4,7 @@ Self-training algorithms are used in some components: [Clustering](../processors
 Training (retraining) of the nodes can be performed as follows:
 
 * **Manually**: the special procedure of the node retraining is performed during the Workflow configuration.
-* **Auto**: in the[batch processing](./batchlauncher.md) mode.
+* **Auto**: in the [batch processing](./batchlauncher.md) mode.
 
 Advantage of the manual retraining is that control of the Model retraining parameters and view of the received results are possible. At the same time, the automatic method is much faster and it is well-suited when the changes in the source data are insignificant.
 

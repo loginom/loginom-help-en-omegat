@@ -42,7 +42,7 @@ This platform version is designated for deployment in the internal network when 
 | HDD | 1 TB | from 1 ТB (+ User Data) |
 | USB | 1.0 | 2.0 |
 
-### Studio (web client)
+### Studio (Web Client)
 
 Browsers:
 
