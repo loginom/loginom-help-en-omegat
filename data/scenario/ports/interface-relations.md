@@ -9,8 +9,8 @@ If it is required to configure the input port that accepts the table data, the "
 The "Input" list toolbar contains the following commands:
 
 * ![](../../images/icons/toolbar-controls/get-column-list_default.svg) **Get list**: downloading of the input fields list in the case of its absence (for example, if import from the database is set via the SQL request). The command is available only for the output port configuration.
-* ![](../../images/icons/toolbar-controls/create-out-column_default.svg) **Create output...** enables to create the same field for the selected input field/variable in the "Output" list and provide mapping with it.
-* ![](../../images/icons/toolbar-controls/create-out-columns_default.svg) **Create output for all input...** enables to create the same fields in the "Output" list for all input fields/variables and provide mapping with them.
+* ![](../../images/icons/toolbar-controls/create-out-column_default.svg) **Create output...**: create the same field for the selected input field/variable in the "Output" list and provide mapping with it.
+* ![](../../images/icons/toolbar-controls/create-out-columns_default.svg) **Create output for all input...**: create the same fields in the "Output" list for all input fields/variables and provide mapping with them.
 * **Type of derived columns creation**. The button is displayed only when the component algorithm provides for addition to the resulting data set of the new fields/variables calculated on the basis of the source ones (for example, [Replace](../../processors/transformation/substitution/README.md) component). There are the following configuration options:
    * ![](../../images/icons/toolbar-controls/tune_default.svg) **By default**: it is specific for each component, and it implements either Replace mode, or Add mode.
    * ![](../../images/icons/toolbar-controls/plus_default.svg) **Add**: the fields calculated on the basis of the processed fields are added to the configured columns.
@@ -18,13 +18,13 @@ The "Input" list toolbar contains the following commands:
 
 The "Output" list toolbar contains the following commands:
 
-* ![](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add the new field to the list of configured columns and open its features editing dialog.
-* ![](../../images/icons/toolbar-controls/edit_default.svg) **Configure** enables to open the dialog of editing of [field features](../../processors/transformation/fields-parameters.md). The dialog can be also opened by double clicking on the selected field.
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move up/down** enables to change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).
+* ![](../../images/icons/toolbar-controls/plus_default.svg) **Add**: add the new field to the list of configured columns and open its features editing dialog.
+* ![](../../images/icons/toolbar-controls/edit_default.svg) **Configure**: open the dialog of editing of [field features](../../processors/transformation/fields-parameters.md). The dialog can be also opened by double clicking on the selected field.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move up/down**: change position of the selected field in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).
 * ![](../../images/icons/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [automapping of fields](./field-synchronization.md)).
 * ![](../../images/icons/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when this mode is enabled, ![](../../images/icons/toolbar-controls/sync-columns_default.svg) Map fields command will be automatically executed when executing the node.
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all...**: the "Output" list is cleared.
-* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
+* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete**: delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
 
 Description of the Additional Wizard Commands:
 

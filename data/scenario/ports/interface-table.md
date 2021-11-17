@@ -26,7 +26,7 @@ The table toolbar contains the following commands:
 * ![](../../images/icons/toolbar-controls/remove-all-links_default.svg) **Delete all links**: delete all available links.
 * ![](../../images/icons/toolbar-controls/help_default.svg) **Show lost links**: the missing fields of the input data set of the port with which links with the existing fields of the output data set have been earlier configured. Such situation can take place when the input data structure is changed.
 * ![](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all...**: the "Input" list is cleared.
-* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
+* ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete**: delete the selected position in the "Output" list. The icon of this command is highlighted when hovering cursor over this position.
 
 If it is required to configure several positions simultaneously, they can be selected using the following methods:
 
