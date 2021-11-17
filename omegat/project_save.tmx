@@ -6224,16 +6224,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранной строке таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211117T212329Z" creationid="Марианна" creationdate="20211003T045610Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt;: open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking on the selected table row.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T212910Z" creationid="Марианна" creationdate="20211003T045610Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt;: open the dialog of &lt;x5/&gt;field features&lt;x6/&gt; editing. The dialog can be also opened by double clicking on the selected table row.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Настроить&lt;x4/&gt; — открывает диалог редактирования &lt;x5/&gt;параметров поля&lt;x6/&gt;, диалог также можно открыть двойным кликом по выбранному полю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211117T211645Z" creationid="Марианна" creationdate="20211003T210800Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt;: open the dialog of editing of &lt;x5/&gt;field features&lt;x6/&gt;. The dialog can be also opened by double clicking on the selected field.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T212850Z" creationid="Марианна" creationdate="20211003T210800Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Configure&lt;x4/&gt;: open the dialog of &lt;x5/&gt;field features&lt;x6/&gt; editing. The dialog can be also opened by double clicking on the selected field.</seg>
       </tuv>
     </tu>
     <tu>
