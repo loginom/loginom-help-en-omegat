@@ -39367,8 +39367,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Для узла, принимающего и отдающего набор данных (таблицу), схему движения данных можно представить следующим образом (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T213453Z" creationid="Марианна" creationdate="20211003T213453Z">
-        <seg>It is possible to represent the schema of the data movement for the node that accepts and gives back the data set (table) as follows:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213512Z" creationid="Марианна" creationdate="20211003T213453Z">
+        <seg>It is possible to represent the schema of the data movement for the node that accepts and gives back the data set (table) as follows</seg>
       </tuv>
     </tu>
     <tu>
@@ -66357,8 +66357,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>рисунок 2):</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T155549Z" creationid="Марианна" creationdate="20211001T155549Z">
-        <seg>Figure 2):</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T213501Z" creationid="Марианна" creationdate="20211001T155549Z">
+        <seg>(refer to Figure 2):</seg>
       </tuv>
     </tu>
     <tu>
