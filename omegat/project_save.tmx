@@ -31732,8 +31732,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В Loginom узлы Сценария принимают данные через входные порты, а отдают через выходные.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211003T060049Z" creationid="Марианна" creationdate="20211003T060049Z">
-        <seg>In Loginom the Workflow nodes accept data via the input ports and give them back via the output ones.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T215036Z" creationid="Марианна" creationdate="20211003T060049Z">
+        <seg>In Loginom the Workflow nodes accept data via the input ports and give it back via the output ones.</seg>
       </tuv>
     </tu>
     <tu>
