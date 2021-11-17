@@ -59281,8 +59281,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Собственный режим активации узла</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T200854Z" creationid="Марианна" creationdate="20211001T200854Z">
-        <seg>Own node activation mode</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220711Z" creationid="Марианна" creationdate="20211001T200854Z">
+        <seg>Own Node Activation Mode</seg>
       </tuv>
     </tu>
     <tu>
