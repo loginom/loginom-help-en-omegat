@@ -62677,8 +62677,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Узел не будет выполняться;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210928T230017Z" creationid="Марианна" creationdate="20210928T230017Z">
-        <seg>The node will not be executed;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220119Z" creationid="Марианна" creationdate="20210928T230017Z">
+        <seg>The node will not be executed.</seg>
       </tuv>
     </tu>
     <tu>
