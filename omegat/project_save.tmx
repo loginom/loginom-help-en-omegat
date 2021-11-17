@@ -6088,8 +6088,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Добавить&lt;x4/&gt; — добавляет новое поле в список настраиваемых столбцов и открывает диалог редактирования его параметров.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211117T212319Z" creationid="Марианна" creationdate="20211003T045541Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;: add the new field to the list of configured columns and open the dialog of its features editing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T212700Z" creationid="Марианна" creationdate="20211003T045541Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Add&lt;x4/&gt;: add the new field to the list of configured columns and open its features editing dialog.</seg>
       </tuv>
     </tu>
     <tu>
