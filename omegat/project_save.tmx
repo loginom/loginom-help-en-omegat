@@ -25504,8 +25504,8 @@ and &lt;x7/&gt;"Connections" interface&lt;x8/&gt;).</seg>
       <tuv lang="ru">
         <seg>&lt;x7/&gt;пакетное выполнение сценариев&lt;x8/&gt;)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T193937Z" creationid="Марианна" creationdate="20211001T193937Z">
-        <seg>&lt;x7/&gt;batch processing of workflows&lt;x8/&gt;)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220333Z" creationid="Марианна" creationdate="20211001T193937Z">
+        <seg>&lt;x7/&gt;batch processing of workflows&lt;x8/&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -41744,8 +41744,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Запуск Пакета с параметром &lt;x1/&gt;/Teach&lt;x2/&gt; или без него;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T173347Z" creationid="Марианна" creationdate="20211001T173347Z">
-        <seg>Launch of the Package with &lt;x1/&gt;/Teach&lt;x2/&gt; parameter or without it;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220312Z" creationid="Марианна" creationdate="20211001T173347Z">
+        <seg>Launch of the Package with &lt;x1/&gt;/Teach&lt;x2/&gt; parameter or without it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43126,8 +43126,8 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
       <tuv lang="ru">
         <seg>Интерактивное выполнение сценария</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211001T193946Z" creationid="Марианна" creationdate="20211001T193946Z">
-        <seg>Interactive workflow execution</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T220348Z" creationid="Марианна" creationdate="20211001T193946Z">
+        <seg>Interactive Workflow Execution</seg>
       </tuv>
     </tu>
     <tu>
