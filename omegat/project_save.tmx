@@ -10808,8 +10808,8 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Автоматически&lt;x2/&gt; — в режиме &lt;x3/&gt;пакетной обработки&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211002T043553Z" creationid="Марианна" creationdate="20211002T043553Z">
-        <seg>&lt;x1/&gt;Auto&lt;x2/&gt;: in the&lt;x3/&gt;batch processing&lt;x4/&gt; mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211117T221316Z" creationid="Марианна" creationdate="20211002T043553Z">
+        <seg>&lt;x1/&gt;Auto&lt;x2/&gt;: in the &lt;x3/&gt;batch processing&lt;x4/&gt; mode.</seg>
       </tuv>
     </tu>
     <tu>
