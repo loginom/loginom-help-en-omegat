@@ -23,7 +23,7 @@ The group contains nine switches each of which calls the definite chart in the v
 * **Basic rates**: the following graphic charts are constructed in the chart: *TPR*, *TNR*, *FPR*, *FNR* and cutoff is displayed.
 * **Precision chart**: the following graphic charts are constructed in the chart: *PPV*, *NPV*, *OPR*, *OCR* and cutoff is displayed.
 * **Break even chart**: the following graphic charts are constructed in the chart: *PPV*, *TPR* and cutoff is displayed.
-* **% captured response**: according to the selected *Cumulative* checkbox shows as follows:
+* **% captured response**: according to the selected checkbox *Cumulative* shows as follows:
    * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative % of events of the total number of events according to the sample size.
    * ![☐](../../images/icons/checkbox-states/unchecked_default.svg) — % of events that are in the bin of the total number of events according to the bin number.
 * **Lift chart**: according to the selected *Cumulative* checkbox shows as follows:
