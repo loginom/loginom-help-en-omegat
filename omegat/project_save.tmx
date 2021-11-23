@@ -13171,8 +13171,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма выигрыша&lt;x2/&gt; — показывает значение Gain (Выигрыш) в зависимости от размера выборки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T105711Z" creationid="Марианна" creationdate="20211021T105711Z">
-        <seg>&lt;x1/&gt;Gain chart&lt;x2/&gt; shows Gain value according to the sample size.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T152642Z" creationid="Марианна" creationdate="20211021T105711Z">
+        <seg>&lt;x1/&gt;Gain chart&lt;x2/&gt;: Gain value according to the sample size.</seg>
       </tuv>
     </tu>
     <tu>
