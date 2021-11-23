@@ -25252,8 +25252,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % событий, находящихся в диапазоне, от общего числа событий в зависимости от номера диапазона.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211025T090524Z" creationid="Марианна" creationdate="20211021T103901Z">
-        <seg>&lt;x1/&gt;☐&lt;x2/&gt; — % of events that are in the bin of the total number of events according to the bin number.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T151849Z" creationid="Марианна" creationdate="20211021T103901Z">
+        <seg>&lt;x1/&gt;☐&lt;x2/&gt;: % of events that are in the bin of the total number of events according to the bin number.</seg>
       </tuv>
     </tu>
     <tu>
