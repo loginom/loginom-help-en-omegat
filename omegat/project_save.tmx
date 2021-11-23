@@ -20922,8 +20922,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: посмотреть расшифровку сокращений можно на странице &lt;x3/&gt;Термины&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T105807Z" creationid="Марианна" creationdate="20211021T105807Z">
-        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: meanings of abbreviations are available on &lt;x3/&gt;Terms&lt;x4/&gt; page.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T152702Z" creationid="Марианна" creationdate="20211021T105807Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Meanings of abbreviations are available on &lt;x3/&gt;Terms&lt;x4/&gt; page.</seg>
       </tuv>
     </tu>
     <tu>
