@@ -32,9 +32,9 @@ The group contains nine switches each of which calls the definite chart in the v
 * **Response chart**: according to the selected *Cumulative* checkbox shows as follows:
    * ![☑](../../images/icons/checkbox-states/checked_default.svg): cumulative % of events in the sample according to the sample size.
    * ![☐](../../images/icons/checkbox-states/unchecked_default.svg): % of events in the bin according to the bin number.
-* **Gain chart** shows Gain value according to the sample size.
+* **Gain chart**: Gain value according to the sample size.
 
-> **Note**: meanings of abbreviations are available on [Terms](./terms.md) page.
+> **Note**: Meanings of abbreviations are available on [Terms](./terms.md) page.
 
 *Cumulative* checkbox becomes active when selecting the following charts: *% captured response*, *Lift chart* and *Response chart*. The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the bins in the drop-down list. Available values:
 
