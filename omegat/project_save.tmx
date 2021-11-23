@@ -17387,8 +17387,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область настроек&lt;x2/&gt; — в данной области происходит выбор и настройка диаграммы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T102025Z" creationid="Марианна" creationdate="20211021T102025Z">
-        <seg>&lt;x1/&gt;Area of settings&lt;x2/&gt;: this area is designated for the chart selection and configuration.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T151407Z" creationid="Марианна" creationdate="20211021T102025Z">
+        <seg>&lt;x1/&gt;Area of settings&lt;x2/&gt; is designated for the chart selection and configuration.</seg>
       </tuv>
     </tu>
     <tu>
