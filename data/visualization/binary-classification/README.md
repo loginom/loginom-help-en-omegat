@@ -106,7 +106,7 @@ The table is divided into two areas and includes the following rows:
 
 > **Note**: If there is no data set, its matching table cells will be grey and they will show nothing.
 
-### Confusion matrices
+### Confusion Matrices
 
 It contains the table with [error matrices](./error-matrix.md) for the training and test sets, and it is as follows:
 
