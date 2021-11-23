@@ -51076,8 +51076,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Оценки классификации</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T224235Z" creationid="Марианна" creationdate="20211011T224235Z">
-        <seg>Classification scores</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T153112Z" creationid="Марианна" creationdate="20211011T224235Z">
+        <seg>Classification Scores</seg>
       </tuv>
     </tu>
     <tu>
