@@ -4,7 +4,7 @@
 
 The visualizer is divided into 3 areas:
 
-* [Area of settings](#oblast-nastroek): this area is designated for the chart selection and configuration.
+* [Area of settings](#oblast-nastroek) is designated for the chart selection and configuration.
 * [Chart area](#oblast-diagrammy) displays the chart selected in the area of settings.
 * [Area of classification assessments](#oblasti-otsenok-klassifikatsii) contains the tables with classification assessments.
 
