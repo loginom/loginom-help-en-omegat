@@ -13203,8 +13203,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма роста&lt;x2/&gt; — в зависимости от проставленного флажка &lt;x3/&gt;Кумулятивная&lt;x4/&gt; показывает:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T104119Z" creationid="Марианна" creationdate="20211021T104119Z">
-        <seg>&lt;x1/&gt;Lift chart&lt;x2/&gt;: according to the selected &lt;x3/&gt;Cumulative&lt;x4/&gt; checkbox shows as follows:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T152200Z" creationid="Марианна" creationdate="20211021T104119Z">
+        <seg>&lt;x1/&gt;Lift chart&lt;x2/&gt;: according to the selected checkbox &lt;x3/&gt;Cumulative&lt;x4/&gt; shows as follows:</seg>
       </tuv>
     </tu>
     <tu>
