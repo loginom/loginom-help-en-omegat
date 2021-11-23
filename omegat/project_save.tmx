@@ -45757,8 +45757,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Матрицы ошибок</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T224144Z" creationid="Марианна" creationdate="20211011T224144Z">
-        <seg>Confusion matrices</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211123T153254Z" creationid="Марианна" creationdate="20211011T224144Z">
+        <seg>Confusion Matrices</seg>
       </tuv>
     </tu>
     <tu>
