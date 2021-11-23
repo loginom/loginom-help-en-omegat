@@ -79,7 +79,7 @@ The area contains the following elements:
 
 It is located in the right part of the screen and contains the tables discribing classification results. Data in these tables is updated with *Cutoff* change.
 
-### Classification scores
+### Classification Scores
 
 The table contains the columns:
 
