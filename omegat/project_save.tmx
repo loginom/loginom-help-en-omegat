@@ -23316,8 +23316,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — данные будут представлены визуализатором &lt;x5/&gt;Таблица&lt;x6/&gt;, но без возможности фильтрации и без панели детализации;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T162402Z" creationid="Марианна" creationdate="20211014T162402Z">
-        <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: the data will be displayed by the &lt;x5/&gt;Table&lt;x6/&gt; visualizer but without filtering option and detailing panel;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T113541Z" creationid="Марианна" creationdate="20211014T162402Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: the data will be displayed by the &lt;x5/&gt;Table&lt;x6/&gt; visualizer but without filtering option and detailing panel.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24300,8 +24300,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Форма&lt;x2/&gt; &lt;x3/&gt;Форма&lt;x4/&gt; —  данные будут представлены просмотром отдельной строки, начиная с первой по списку;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T162506Z" creationid="Марианна" creationdate="20211014T162506Z">
-        <seg>&lt;x1/&gt;Form&lt;x2/&gt; &lt;x3/&gt;Form&lt;x4/&gt;: the data will be displayed by view of a separate row starting from the first one in the list;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T113552Z" creationid="Марианна" creationdate="20211014T162506Z">
+        <seg>&lt;x1/&gt;Form&lt;x2/&gt; &lt;x3/&gt;Form&lt;x4/&gt;: the data will be displayed by view of a separate row starting from the first one in the list.</seg>
       </tuv>
     </tu>
     <tu>
