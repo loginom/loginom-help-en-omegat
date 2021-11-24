@@ -3,8 +3,8 @@
 
 Detailing uses the data of the source data set filtered by the clusters selected in the main table. If *Total* cluster has been selected, the detailing data set matches the input one. Detailing enables to find out what rows of the source data set are included into this or that cluster. To display the detailed information by the selected cell, it is possible to use the following visualizers:
 
-* ![Table](../../images/icons/cube/detailing/browse_default.svg) **Table**: the data will be displayed by the [Table](../table/README.md) visualizer but without filtering option and detailing panel;
-* ![Form](../../images/icons/cube/detailing/form_default.svg) **Form**: the data will be displayed by view of a separate row starting from the first one in the list;
+* ![Table](../../images/icons/cube/detailing/browse_default.svg) **Table**: the data will be displayed by the [Table](../table/README.md) visualizer but without filtering option and detailing panel.
+* ![Form](../../images/icons/cube/detailing/form_default.svg) **Form**: the data will be displayed by view of a separate row starting from the first one in the list.
 * ![Statistics](../../images/icons/cube/detailing/stat_default.svg) **Statistics**: the data will be displayed by the [Statistics](../statistics/README.md) visualizer.
 
 > **Note:** It is possible to change the columns sequence order in ![Table](../../images/icons/cube/detailing/browse_default.svg) *Table* and ![Form](../../images/icons/cube/detailing/form_default.svg) *Form*.
