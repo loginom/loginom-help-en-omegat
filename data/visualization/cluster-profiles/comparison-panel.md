@@ -13,7 +13,7 @@ The *cluster comparison panel* can be conventionally divided into two areas (ref
 > Note: If the *Cumulative histogram* mode is enabled and at the same time *Total* cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).
 
 &nbsp;
-> Note: *Cumulative histogram* mode can be enabled when the histograms refer to *Absolute frequencies* or *Relative frequencies* formats. The option is disabled and is not available in *Density (PDF)* format.
+> Note: The *Cumulative histogram* mode can be enabled when the histograms refer to the *Absolute frequencies* or *Relative frequencies* formats. The option is disabled and is not available in *Density (PDF)* format.
 
 There are two types of histograms:
 
