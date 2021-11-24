@@ -6896,8 +6896,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Водопад;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151110Z" creationid="Марианна" creationdate="20211007T151110Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Waterfall;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104038Z" creationid="Марианна" creationdate="20211007T151110Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Waterfall.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7152,8 +7152,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Линии;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T150937Z" creationid="Марианна" creationdate="20211007T150937Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Lines;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T103952Z" creationid="Марианна" creationdate="20211007T150937Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Lines.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7264,16 +7264,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Области с интервалами;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151017Z" creationid="Марианна" creationdate="20211007T151017Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Interval areas;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104011Z" creationid="Марианна" creationdate="20211007T151017Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Interval areas.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Области;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T150947Z" creationid="Марианна" creationdate="20211007T150947Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Areas;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T103957Z" creationid="Марианна" creationdate="20211007T150947Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Areas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7296,8 +7296,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Ошибки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151116Z" creationid="Марианна" creationdate="20211007T151116Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Errors;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104042Z" creationid="Марианна" creationdate="20211007T151116Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Errors.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7432,8 +7432,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Полигон;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151125Z" creationid="Марианна" creationdate="20211007T151125Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Polygon;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104047Z" creationid="Марианна" creationdate="20211007T151125Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Polygon.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7488,16 +7488,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Пузырьковая;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151050Z" creationid="Марианна" creationdate="20211007T151050Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Bubble;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104029Z" creationid="Марианна" creationdate="20211007T151050Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Bubble.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Разброс;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151101Z" creationid="Марианна" creationdate="20211007T151101Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Scatter;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104034Z" creationid="Марианна" creationdate="20211007T151101Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Scatter.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7568,16 +7568,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Сглаженные области с интервалами;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151039Z" creationid="Марианна" creationdate="20211007T151039Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Smoothed areas with intervals;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104024Z" creationid="Марианна" creationdate="20211007T151039Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Smoothed areas with intervals.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Сглаженные области;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151029Z" creationid="Марианна" creationdate="20211007T151029Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Smoothed areas;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104016Z" creationid="Марианна" creationdate="20211007T151029Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Smoothed areas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7640,8 +7640,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Сплайны;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T150956Z" creationid="Марианна" creationdate="20211007T150956Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Splines;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104001Z" creationid="Марианна" creationdate="20211007T150956Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Splines.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7680,16 +7680,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Столбчатая с интервалами;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151136Z" creationid="Марианна" creationdate="20211007T151136Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Columns with ranges;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104051Z" creationid="Марианна" creationdate="20211007T151136Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Columns with ranges.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Столбчатая;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151007Z" creationid="Марианна" creationdate="20211007T151007Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Columns;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104005Z" creationid="Марианна" creationdate="20211007T151007Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Columns.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62005,8 +62005,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Тепловая карта;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151145Z" creationid="Марианна" creationdate="20211007T151145Z">
-        <seg>Heatmap;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104055Z" creationid="Марианна" creationdate="20211007T151145Z">
+        <seg>Heatmap.</seg>
       </tuv>
     </tu>
     <tu>
@@ -65085,8 +65085,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Японские свечи;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T151202Z" creationid="Марианна" creationdate="20211007T151202Z">
-        <seg>Candlestick;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104100Z" creationid="Марианна" creationdate="20211007T151202Z">
+        <seg>Candlestick.</seg>
       </tuv>
     </tu>
     <tu>
