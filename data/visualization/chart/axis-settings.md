@@ -36,7 +36,7 @@ It enables to set parameters according to the chart axes:
       * Logarithmic.
       * Date-time.
    * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
-   * Set maximum: when the checkbox is active, the value from 1 111 and higher is specified.
+   * Set maximum: when the checkbox is active, the value from 1,111 and higher is specified.
    * Dynamics.
       * No.
       * By value.
