@@ -37,28 +37,28 @@ The fields that can be used as the chart axes are displayed in the left list. Fo
 
 When configuring the X axis settings, it is also possible to use the buttons in the fields list (to the right from the field name):
 
-* ![](../../images/icons/icons/icon1.svg) Use as abscissa field (CTRL+X);
+* ![](../../images/icons/icons/icon1.svg) Use as abscissa field (CTRL+X).
 * ![](../../images/icons/icons/icon2.svg) Use as caption field (Alt+L).
 
 Thus, the X axis values field and caption field (the axis points marks) must not necessarily coincide.
 
 The following types of charts are available:
 
-* ![](../../images/icons/series_18/d1.svg) Lines;
-* ![](../../images/icons/series_18/d2.svg) Areas;
-* ![](../../images/icons/series_18/d3.svg) Splines;
-* ![](../../images/icons/series_18/d4.svg) Columns;
-* ![](../../images/icons/series_18/d7.svg) Interval areas;
-* ![](../../images/icons/series_18/d5.svg) Smoothed areas;
-* ![](../../images/icons/series_18/d8.svg) Smoothed areas with intervals;
-* ![](../../images/icons/series_18/d9.svg) Bubble;
-* ![](../../images/icons/series_18/d6.svg) Scatter;
-* ![](../../images/icons/series_18/d10.svg) Waterfall;
-* ![](../../images/icons/series_18/d11.svg) Errors;
-* ![](../../images/icons/series_18/d12.svg) Polygon;
-* ![](../../images/icons/series_18/d13.svg) Columns with ranges;
-* Heatmap;
-* Candlestick;
+* ![](../../images/icons/series_18/d1.svg) Lines.
+* ![](../../images/icons/series_18/d2.svg) Areas.
+* ![](../../images/icons/series_18/d3.svg) Splines.
+* ![](../../images/icons/series_18/d4.svg) Columns.
+* ![](../../images/icons/series_18/d7.svg) Interval areas.
+* ![](../../images/icons/series_18/d5.svg) Smoothed areas.
+* ![](../../images/icons/series_18/d8.svg) Smoothed areas with intervals.
+* ![](../../images/icons/series_18/d9.svg) Bubble.
+* ![](../../images/icons/series_18/d6.svg) Scatter.
+* ![](../../images/icons/series_18/d10.svg) Waterfall.
+* ![](../../images/icons/series_18/d11.svg) Errors.
+* ![](../../images/icons/series_18/d12.svg) Polygon.
+* ![](../../images/icons/series_18/d13.svg) Columns with ranges.
+* Heatmap.
+* Candlestick.
 * OHLC.
 
 All main settings are available either using the context menu options (it is required to press the chart area with the right mouse button), or the toolbar buttons (in the upper part over the chart). The chart settings are described above in this article.
