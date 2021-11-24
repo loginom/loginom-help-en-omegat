@@ -56969,8 +56969,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Примечание: Режим &lt;x1/&gt;Накопительная гистограмма&lt;x2/&gt; может быть включен, когда гистограммы имеют формат &lt;x3/&gt;Абсолютные частоты&lt;x4/&gt; или &lt;x5/&gt;Относительные частоты&lt;x6/&gt;, в формате &lt;x7/&gt;Плотность вероятности&lt;x8/&gt; опция отключается и недоступна.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T132622Z" creationid="Марианна" creationdate="20211010T132622Z">
-        <seg>Note: &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode can be enabled when the histograms refer to &lt;x3/&gt;Absolute frequencies&lt;x4/&gt; or &lt;x5/&gt;Relative frequencies&lt;x6/&gt; formats. The option is disabled and is not available in &lt;x7/&gt;Density (PDF)&lt;x8/&gt; format.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T113309Z" creationid="Марианна" creationdate="20211010T132622Z">
+        <seg>Note: The &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode can be enabled when the histograms refer to &lt;x3/&gt;Absolute frequencies&lt;x4/&gt; or &lt;x5/&gt;Relative frequencies&lt;x6/&gt; formats. The option is disabled and is not available in &lt;x7/&gt;Density (PDF)&lt;x8/&gt; format.</seg>
       </tuv>
     </tu>
     <tu>
