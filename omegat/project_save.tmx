@@ -64213,8 +64213,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Чтобы детальнее рассмотреть диаграмму при заданном увеличении, необходимо сделать активным &lt;x3/&gt;&lt;x4/&gt; режим перетаскивания.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T154050Z" creationid="Марианна" creationdate="20211007T154050Z">
-        <seg>To provide more detailed view of the chart with the set zooming in, it is required to enable the &lt;x3/&gt;&lt;x4/&gt; drag mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104850Z" creationid="Марианна" creationdate="20211007T154050Z">
+        <seg>To provide more detailed view of the chart with the set zooming in, it is required to enable &lt;x3/&gt;&lt;x4/&gt; drag mode.</seg>
       </tuv>
     </tu>
     <tu>
