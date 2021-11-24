@@ -7080,8 +7080,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Использовать как поле абсцисс (CTRL+X);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211007T153256Z" creationid="Марианна" creationdate="20211007T153256Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Use as abscissa field (CTRL+X);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T104122Z" creationid="Марианна" creationdate="20211007T153256Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Use as abscissa field (CTRL+X).</seg>
       </tuv>
     </tu>
     <tu>
