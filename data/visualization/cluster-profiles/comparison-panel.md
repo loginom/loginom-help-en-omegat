@@ -4,13 +4,13 @@ It contains the comparative information on the [clusters](https://wiki.loginom.r
 
 ![Cluster Comparison Panel.](./images/cluster-profilies-comparison-panel.png)
 
-*Cluster comparison panel* can be conventionally divided into two areas (refer to Figure 1):
+The *cluster comparison panel* can be conventionally divided into two areas (refer to Figure 1):
 
 1. **Upper panel part** contains the comparative cluster histogram. The cluster histograms and [universal set](https://wiki.loginom.ru/articles/general-population.html) are combined in one area. The upper panel part contains the only histogram setting added to the general histogram settings on the [*Toolbar*](./toolbar.md):
    * ![Cumulative histogram](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/stacked-histogram_default.svg) **Cumulative histogram** displays one composite column divided into color areas matching the clusters.
 2. **Lower panel part** contains the summary table of the values of *Indicators* by the selected clusters in the *Main table*.
 
-> Note: If *Cumulative histogram* mode is enabled and at the same time *Total* cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).
+> Note: If the *Cumulative histogram* mode is enabled and at the same time *Total* cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).
 
 &nbsp;
 > Note: *Cumulative histogram* mode can be enabled when the histograms refer to *Absolute frequencies* or *Relative frequencies* formats. The option is disabled and is not available in *Density (PDF)* format.
