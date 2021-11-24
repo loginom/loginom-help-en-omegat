@@ -28,7 +28,7 @@ The chart visually shows dependence of values of one field on the other one. Two
 
 ### Chart Configuration
 
-The fields that can be used as the chart axes are displayed in the left list. For this purpose, it is required to drag (Drag&Drop) necessary fields to the chart construction area holding down with the left mouse button: to the upper part - the Y axis is st, to the lower part - the X axis is set. When setting the Y axis, the series addition is configured, namely:
+The fields that can be used as the chart axes are displayed in the left list. For this purpose, it is required to drag (Drag&Drop) necessary fields to the chart construction area holding down with the left mouse button: to the upper part - the Y axis is set, to the lower part - the X axis is set. When setting the Y axis, the series addition is configured, namely:
 
 * **Type**: the chart type is set.
 * **Name**: series name (namely, the definite graphic chart). This name will be displayed in the chart legend.
@@ -65,6 +65,6 @@ All main settings are available either using the context menu options (it is req
 
 ### How to Use the Constructed Chart
 
-When using the chart, it is possible to zoom in the view of the whole chart or its random part. For this purpose, it is required to enable ![](../../images/icons/toolbar-controls/cursor_default.svg) pointer mode on the toolbar, and then it is required to select the chart area that must be viewed in more details by holding down the left mouse button. As soon as the mouse button is released, it will be possible to zoom in the selected area view. The procedure is to be repeated to zoom in again. To provide more detailed view of the chart with the set zooming in, it is required to enable the ![](../../images/icons/toolbar-controls/hand_default.svg) drag mode. It will enable to move the chart on the screen.
+When using the chart, it is possible to zoom in the view of the whole chart or its random part. For this purpose, it is required to enable ![](../../images/icons/toolbar-controls/cursor_default.svg) pointer mode on the toolbar, and then it is required to select the chart area that must be viewed in more details by holding down the left mouse button. As soon as the mouse button is released, it will be possible to zoom in the selected area view. The procedure is to be repeated to zoom in again. To provide more detailed view of the chart with the set zooming in, it is required to enable ![](../../images/icons/toolbar-controls/hand_default.svg) drag mode. It will enable to move the chart on the screen.
 
 To return to the initial chart scale, it is required to use ![](../../images/icons/toolbar-controls/zoom-zone_default.svg) reset zoom.
