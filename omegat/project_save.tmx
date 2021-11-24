@@ -18407,8 +18407,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Панель сравнения кластеров&lt;x2/&gt; условно можно разделить на две области (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211008T095912Z" creationid="Марианна" creationdate="20211008T095912Z">
-        <seg>&lt;x1/&gt;Cluster comparison panel&lt;x2/&gt; can be conventionally divided into two areas (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T113128Z" creationid="Марианна" creationdate="20211008T095912Z">
+        <seg>The &lt;x1/&gt;cluster comparison panel&lt;x2/&gt; can be conventionally divided into two areas (refer to</seg>
       </tuv>
     </tu>
     <tu>
