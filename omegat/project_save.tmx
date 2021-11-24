@@ -41374,8 +41374,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Задать максимум — при активном флаге указывается значение от 1 111 и выше.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T122300Z" creationid="Марианна" creationdate="20211005T122300Z">
-        <seg>Set maximum: when the checkbox is active, the value from 1 111 and higher is specified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T103605Z" creationid="Марианна" creationdate="20211005T122300Z">
+        <seg>Set maximum: when the checkbox is active, the value from 1,111 and higher is specified.</seg>
       </tuv>
     </tu>
     <tu>
