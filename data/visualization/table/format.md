@@ -9,7 +9,7 @@ The format is set for the data types:
 
 It is possible to set width and visibility for each column.
 
-## Configuration window
+## Configuration Window
 
 The field order number of the source data set is specified in column №.
 

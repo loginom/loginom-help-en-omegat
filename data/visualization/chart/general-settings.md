@@ -1,6 +1,6 @@
 # General Settings
 
-## Configuration window
+## Configuration Window
 
 * **Header**: chart name.
 * **Decimation type.**

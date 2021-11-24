@@ -2,7 +2,7 @@
 
 Data sorting in the [Table](./README.md) visualizer is performed according to the rules described in the [Sorting](../../processors/transformation/sorting.md) node.
 
-## Configuration window
+## Configuration Window
 
 The fields used for sorting and the columns with the visibility disabled in the Table are displayed in the left list.
 

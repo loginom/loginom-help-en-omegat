@@ -1,6 +1,6 @@
 # Series Editor
 
-## Configuration window
+## Configuration Window
 
 The configuration window consists of two parts: configuration of the series list (add, delete, move) and configuration of each series parameters. When pressing the given series with the right mouse button, the settings already set for the series and their adjustment options will also appear.
 

@@ -1,6 +1,6 @@
 # Configure Axes
 
-## Configuration window
+## Configuration Window
 
 It enables to set parameters according to the chart axes:
 

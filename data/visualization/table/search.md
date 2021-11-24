@@ -2,7 +2,7 @@
 
 Search for cells in table by value.
 
-## Configuration window
+## Configuration Window
 
 It is possible to set the search mode, comparison mode and case in the search configuration window.
 
