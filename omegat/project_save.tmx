@@ -56945,8 +56945,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Примечание: Если одновременно включен режим &lt;x1/&gt;Накопительная гистограмма&lt;x2/&gt; и выбрана ячейка кластера &lt;x3/&gt;Итого&lt;x4/&gt;, то в данные из этого не будут добавлены в накопительную гистограмму (поскольку они соответствуют генеральной совокупности).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T132017Z" creationid="Марианна" creationdate="20211010T132017Z">
-        <seg>Note: If &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode is enabled and at the same time &lt;x3/&gt;Total&lt;x4/&gt; cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T113214Z" creationid="Марианна" creationdate="20211010T132017Z">
+        <seg>Note: If the &lt;x1/&gt;Cumulative histogram&lt;x2/&gt; mode is enabled and at the same time &lt;x3/&gt;Total&lt;x4/&gt; cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).</seg>
       </tuv>
     </tu>
     <tu>
