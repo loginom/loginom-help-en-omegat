@@ -50204,8 +50204,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Окно настройки</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T121201Z" creationid="Марианна" creationdate="20211005T121201Z">
-        <seg>Configuration window</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211124T103347Z" creationid="Марианна" creationdate="20211005T121201Z">
+        <seg>Configuration Window</seg>
       </tuv>
     </tu>
     <tu>
