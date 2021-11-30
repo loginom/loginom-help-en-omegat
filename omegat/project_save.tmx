@@ -18591,8 +18591,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Переключатель&lt;x2/&gt; &lt;x3/&gt;Особый формат&lt;x4/&gt; — позволяет задать собственный формат отображения фактов, в случае если функционала стандартного форматирования недостаточно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T110602Z" creationid="Марианна" creationdate="20211017T110602Z">
-        <seg>&lt;x1/&gt;Switch&lt;x2/&gt; &lt;x3/&gt;Custom format&lt;x4/&gt; enables to set own format of measures display if the standard formatting functionality is not sufficient.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T185545Z" creationid="Марианна" creationdate="20211017T110602Z">
+        <seg>&lt;x1/&gt;Switch&lt;x2/&gt; &lt;x3/&gt;Custom format&lt;x4/&gt;" set own format of measures display if the standard formatting functionality is not sufficient.</seg>
       </tuv>
     </tu>
     <tu>
