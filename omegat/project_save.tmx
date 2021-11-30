@@ -6376,8 +6376,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вверх&lt;x4/&gt; — переместить факт/вариант агрегации/способ отображения на позицию вверх;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T084005Z" creationid="Марианна" creationdate="20211021T084005Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt; enables to move the measure/aggregation option/representation method one item position up.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T184227Z" creationid="Марианна" creationdate="20211021T084005Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move up&lt;x4/&gt;: move the measure/aggregation option/representation method one item position up.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6400,8 +6400,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Переместить вниз&lt;x4/&gt; — переместить факт/вариант агрегации/способ отображения на позицию вниз;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T084034Z" creationid="Марианна" creationdate="20211021T084034Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt; enables to move the measure/aggregation option/representation method one item position down.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T184238Z" creationid="Марианна" creationdate="20211021T084034Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Move down&lt;x4/&gt;: move the measure/aggregation option/representation method one item position down.</seg>
       </tuv>
     </tu>
     <tu>
