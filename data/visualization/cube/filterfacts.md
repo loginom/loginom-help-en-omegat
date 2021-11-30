@@ -4,7 +4,7 @@ It provides for filtration of the measure values for dimension.
 
 ## Interface
 
-The dimensions used in the cube are located in the left part of the opened window> In this case, the following default value is set - *(Filter disabled)*.
+The dimensions used in the cube are located in the left part of the opened window. In this case, the following default value is set - *(Filter disabled)*.
 
 The measures used in the cube and aggregations applied to them are listed in the right part of the window.
 
