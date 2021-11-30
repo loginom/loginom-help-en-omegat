@@ -46,7 +46,7 @@ The new measure is created on the basis of the existing measures and dimensions 
 * **Total** (*Dimension name.IsTotal*): check whether the dimension value is total. The variable is used with *IF()/IFF()* functions for modification of the calculated measure values in the total cells.
 * **Null** (*Dimension name.IsNull*): check whether the dimension value is the null value.
 
-and on methods of measures aggregation:
+And on methods of measures aggregation:
 
 * **Sum** (*Measure name.Sum* ): the sum of all measures values.
 * **Count** (*Measure name.Count* ): the count of all measures values.
@@ -62,7 +62,7 @@ and on methods of measures aggregation:
 
 Access is provided to the total values for each dimension **Total** (*Measure name.Sum.Total.Dimension name*) in each of the aggregation methods.
 
-> **Note:** Only used measures and dimensions will be available only in the list. The dimensions that have not been tranferred to rows, columns or filtration area will not be available in the list.
+> **Note:** Only used measures and dimensions will be available in the list. The dimensions that have not been tranferred to rows, columns or filtration area will not be available in the list.
 
 ## 3. List of Functions
 

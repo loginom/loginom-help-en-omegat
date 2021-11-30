@@ -5,21 +5,21 @@ It contains the following control elements:
 * ![Filtration](../../images/icons/toolbar-controls/filter_default.svg) **Filtration**: show/hide [*Filtration panel*](./filter-panel.md).
 * ![Detailing](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Detailing**: show/hide [*Detailing panel*](./details.md).
 * **Detailing method**: switch the *Detailing* display options. When pressing the button, the cyclic change of the *Detailing* methods is performed, and the *Detailing* method can be switched in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. *Detailing* methods:
-   * ![Table](../../images/icons/cube/detailing/browse_default.svg) Table;
-   * ![Form](../../images/icons/cube/detailing/form_default.svg) Form;
+   * ![Table](../../images/icons/cube/detailing/browse_default.svg) Table.
+   * ![Form](../../images/icons/cube/detailing/form_default.svg) Form.
    * ![Statistics](../../images/icons/cube/detailing/stat_default.svg) Statistics.
 * **Indicator**: switch the display options of *Indicators*. When pressing the button, the cyclic change of *Indicators* is performed, and also *Indicator* can be switched in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. List of *Indicators*:
-   * ![Importance](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/importance_default.svg) Importance;
-   * ![ Histogram](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/histogram_default.svg)  Histogram;
-   * ![Minimum](../../images/icons/toolbar-controls/min_default.svg) Minimum;
-   * ![Maximum](../../images/icons/toolbar-controls/max_default.svg) Maximum;
-   * ![Average](../../images/icons/toolbar-controls/avg_default.svg) Average;
-   * ![Sum](../../images/icons/toolbar-controls/sum_default.svg) Sum;
-   * ![Standard deviation](../../images/icons/toolbar-controls/stddev_default.svg) [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html);
-   * ![Range](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/range_default.svg) Range;
-   * ![Null count](../../images/icons/toolbar-controls/null-count_default.svg) Null count;
-   * ![Values](../../images/icons/toolbar-controls/count_default.svg) Values;
-   * ![Count of unique values](../../images/icons/toolbar-controls/unique-count_default.svg) Count of unique values;
+   * ![Importance](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/importance_default.svg) Importance.
+   * ![ Histogram](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/histogram_default.svg)  Histogram.
+   * ![Minimum](../../images/icons/toolbar-controls/min_default.svg) Minimum.
+   * ![Maximum](../../images/icons/toolbar-controls/max_default.svg) Maximum.
+   * ![Average](../../images/icons/toolbar-controls/avg_default.svg) Average.
+   * ![Sum](../../images/icons/toolbar-controls/sum_default.svg) Sum.
+   * ![Standard deviation](../../images/icons/toolbar-controls/stddev_default.svg) [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html).
+   * ![Range](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/range_default.svg) Range.
+   * ![Null count](../../images/icons/toolbar-controls/null-count_default.svg) Null count.
+   * ![Values](../../images/icons/toolbar-controls/count_default.svg) Values.
+   * ![Count of unique values](../../images/icons/toolbar-controls/unique-count_default.svg) Count of unique values.
    * ![Cluster center](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/cluster-center_default.svg) Cluster center.
 * ![Importance by color](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/heatmap_default.svg) **Importance by color**: show/hide importance as the heat map. This option is reset and becomes inactive when *Histogram* indicator is selected.
 * ![Show null column in histograms ](../../images/icons/toolbar-controls/null-count_default.svg) **Show null column in histograms**: show/hide *null* column. The column visibility with null data is changed in the [*Main table*](./main-table.md) and *Cluster comparison panel* histograms.
@@ -30,5 +30,5 @@ It contains the following control elements:
    * ![Relative frequencies](../../images/icons/viewers/cluster-profiles/histogram/sliced_18x18/bar-scale_default.svg) **Relative frequencies**: the universal set columns are equal and stretched to the cell height. Cluster columns have the following height: `Number of values in the column/Number of values in the universal set column`.
    * ![Density (PDF)](../../images/icons/viewers/cluster-profiles/histogram/sliced_18x18/no-scale_default.svg) **Density (PDF)**: histograms of [cluster](https://wiki.loginom.ru/articles/cluster.html) and universal set are not connected with each other and have the same area. Histograms in the table cell or in the comparison tab are normalized by the height of the highest column.
 * **Cluster position in table**: switch cluster position in the table. When pressing the button, the cyclic change of cluster positions in the table is performed. And it is also possible to change cluster position in the table in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. The following positions of clusters are possible:
-   * ![Clusters in rows](../../images/icons/toolbar-controls/rows_default.svg) Clusters in rows;
+   * ![Clusters in rows](../../images/icons/toolbar-controls/rows_default.svg) Clusters in rows.
    * ![Clusters in columns](../../images/icons/toolbar-controls/columns_default.svg) Clusters in columns.
