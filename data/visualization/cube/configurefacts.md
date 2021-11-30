@@ -19,7 +19,7 @@ It is possible to perform the required successive operations with several measur
 * ![](../../images/icons/toolbar-controls/edit_default.svg) **Edit calculated measure…**: open the window to edit the calculated measure.
 * ![](../../images/icons/toolbar-controls/delete_default.svg) **Delete measure**: delete the selected measure.
 
-> **Note:** Upon ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) Add measure..., ![](../../images/icons/cube/cases/case-calc_default.svg) Add calculated measure… or ![](../../images/icons/toolbar-controls/delete_default.svg) Delete measure operations, *Cancel* button in *Configure measures* window will become unavailable. It is possible to cancel any operation by performing the one that is the inverse one. In the  *Кубе* only the measures selected in *Configure measures* window at the moment of *Apply* button pressing will be displayed.
+> **Note:** Upon ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_plus_default.svg) Add measure..., ![](../../images/icons/cube/cases/case-calc_default.svg) Add calculated measure… or ![](../../images/icons/toolbar-controls/delete_default.svg) Delete measure operations, *Cancel* button in *Configure measures* window will become unavailable. It is possible to cancel any operation by performing the one that is the inverse one. In the  *Cube* only the measures selected in *Configure measures* window at the moment of *Apply* button pressing will be displayed.
 
 ## Representation Methods
 
