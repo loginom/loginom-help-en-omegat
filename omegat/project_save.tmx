@@ -23332,8 +23332,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; Таблица;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161118Z" creationid="Марианна" creationdate="20211005T161118Z">
-        <seg>&lt;x1/&gt;Table&lt;x2/&gt; Table;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182018Z" creationid="Марианна" creationdate="20211005T161118Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; Table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24308,8 +24308,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Форма&lt;x2/&gt; Форма;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161152Z" creationid="Марианна" creationdate="20211005T161152Z">
-        <seg>&lt;x1/&gt;Form&lt;x2/&gt; Form;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182025Z" creationid="Марианна" creationdate="20211005T161152Z">
+        <seg>&lt;x1/&gt;Form&lt;x2/&gt; Form.</seg>
       </tuv>
     </tu>
     <tu>
