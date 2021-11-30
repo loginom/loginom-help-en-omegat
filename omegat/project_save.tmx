@@ -32276,8 +32276,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В левой стороне открывшегося окна расположены используемые в кубе измерения, при этом значение по умолчанию задано &lt;x1/&gt;(Не фильтровать)&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T110249Z" creationid="Марианна" creationdate="20211019T110249Z">
-        <seg>The dimensions used in the cube are located in the left part of the opened window&gt; In this case, the following default value is set - &lt;x1/&gt;(Filter disabled)&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T185106Z" creationid="Марианна" creationdate="20211019T110249Z">
+        <seg>The dimensions used in the cube are located in the left part of the opened window. In this case, the following default value is set - &lt;x1/&gt;(Filter disabled)&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
