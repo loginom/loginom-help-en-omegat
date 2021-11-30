@@ -12763,8 +12763,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Гистограмма&lt;x2/&gt; Гистограмма;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201153Z" creationid="Марианна" creationdate="20211011T201153Z">
-        <seg>&lt;x1/&gt; Histogram&lt;x2/&gt;  Histogram;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182051Z" creationid="Марианна" creationdate="20211011T201153Z">
+        <seg>&lt;x1/&gt; Histogram&lt;x2/&gt;  Histogram.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13955,8 +13955,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значения&lt;x2/&gt; Значения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201316Z" creationid="Марианна" creationdate="20211005T162003Z">
-        <seg>&lt;x1/&gt;Values&lt;x2/&gt; Values;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182135Z" creationid="Марианна" creationdate="20211005T162003Z">
+        <seg>&lt;x1/&gt;Values&lt;x2/&gt; Values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14003,8 +14003,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Значимость&lt;x2/&gt; Значимость;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201630Z" creationid="Марианна" creationdate="20211011T201141Z">
-        <seg>&lt;x1/&gt;Importance&lt;x2/&gt; Importance;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182046Z" creationid="Марианна" creationdate="20211011T201141Z">
+        <seg>&lt;x1/&gt;Importance&lt;x2/&gt; Importance.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15139,8 +15139,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Количество уникальных значений&lt;x2/&gt; Количество уникальных значений;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211018T091852Z" creationid="Марианна" creationdate="20211005T162325Z">
-        <seg>&lt;x1/&gt;Count of unique values&lt;x2/&gt; Count of unique values;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182141Z" creationid="Марианна" creationdate="20211005T162325Z">
+        <seg>&lt;x1/&gt;Count of unique values&lt;x2/&gt; Count of unique values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15907,8 +15907,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Максимум&lt;x2/&gt; Максимум;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161309Z" creationid="Марианна" creationdate="20211005T161309Z">
-        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; Maximum;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182101Z" creationid="Марианна" creationdate="20211005T161309Z">
+        <seg>&lt;x1/&gt;Maximum&lt;x2/&gt; Maximum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16291,8 +16291,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Минимум&lt;x2/&gt; Минимум;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161223Z" creationid="Марианна" creationdate="20211005T161223Z">
-        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; Minimum;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182056Z" creationid="Марианна" creationdate="20211005T161223Z">
+        <seg>&lt;x1/&gt;Minimum&lt;x2/&gt; Minimum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21156,8 +21156,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пропуски&lt;x2/&gt; Пропуски;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201255Z" creationid="Марианна" creationdate="20211011T201255Z">
-        <seg>&lt;x1/&gt;Null count&lt;x2/&gt; Null count;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182130Z" creationid="Марианна" creationdate="20211011T201255Z">
+        <seg>&lt;x1/&gt;Null count&lt;x2/&gt; Null count.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21588,8 +21588,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Размах&lt;x2/&gt; Размах;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201235Z" creationid="Марианна" creationdate="20211011T201235Z">
-        <seg>&lt;x1/&gt;Range&lt;x2/&gt; Range;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182124Z" creationid="Марианна" creationdate="20211011T201235Z">
+        <seg>&lt;x1/&gt;Range&lt;x2/&gt; Range.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22820,8 +22820,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Среднее&lt;x2/&gt; Среднее;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T201213Z" creationid="Марианна" creationdate="20211011T201213Z">
-        <seg>&lt;x1/&gt;Average&lt;x2/&gt; Average;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182105Z" creationid="Марианна" creationdate="20211011T201213Z">
+        <seg>&lt;x1/&gt;Average&lt;x2/&gt; Average.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22876,8 +22876,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Стандартное отклонение&lt;x2/&gt; &lt;x3/&gt;Стандартное отклонение&lt;x4/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161721Z" creationid="Марианна" creationdate="20211005T161721Z">
-        <seg>&lt;x1/&gt;Standard deviation&lt;x2/&gt; &lt;x3/&gt;Standard deviation&lt;x4/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182117Z" creationid="Марианна" creationdate="20211005T161721Z">
+        <seg>&lt;x1/&gt;Standard deviation&lt;x2/&gt; &lt;x3/&gt;Standard deviation&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23180,8 +23180,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сумма&lt;x2/&gt; Сумма;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T161518Z" creationid="Марианна" creationdate="20211005T161518Z">
-        <seg>&lt;x1/&gt;Sum&lt;x2/&gt; Sum;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182112Z" creationid="Марианна" creationdate="20211005T161518Z">
+        <seg>&lt;x1/&gt;Sum&lt;x2/&gt; Sum.</seg>
       </tuv>
     </tu>
     <tu>
