@@ -18911,8 +18911,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;По возрастанию&lt;x2/&gt; По возрастанию;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T231315Z" creationid="Марианна" creationdate="20211011T231315Z">
-        <seg>&lt;x1/&gt;Ascending&lt;x2/&gt; Ascending;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T181509Z" creationid="Марианна" creationdate="20211011T231315Z">
+        <seg>&lt;x1/&gt;Ascending&lt;x2/&gt; Ascending.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19023,8 +19023,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;По убыванию&lt;x2/&gt; По убыванию;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T231328Z" creationid="Марианна" creationdate="20211011T231328Z">
-        <seg>&lt;x1/&gt;Descending&lt;x2/&gt; Descending;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T181517Z" creationid="Марианна" creationdate="20211011T231328Z">
+        <seg>&lt;x1/&gt;Descending&lt;x2/&gt; Descending.</seg>
       </tuv>
     </tu>
     <tu>
