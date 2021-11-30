@@ -16331,8 +16331,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Множественное&lt;x2/&gt; — выделяет сразу несколько ячеек, для множественного выделения необходимо при клике зажать клавишу %kbd Ctrl %, которая добавляет в выделение ячейку или удаляет ячейку из него.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T164204Z" creationid="Марианна" creationdate="20211017T164204Z">
-        <seg>&lt;x1/&gt;Multiple&lt;x2/&gt;selects several cells at once. To use the multiple selection, it is required to hold down %kbd Ctrl % key that enables to add the cell to the selected ones or delete the cell from them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T181623Z" creationid="Марианна" creationdate="20211017T164204Z">
+        <seg>&lt;x1/&gt;Multiple&lt;x2/&gt; selects several cells at once. To use the multiple selection, it is required to hold down %kbd Ctrl % key that enables to add the cell to the selected ones or delete the cell from them.</seg>
       </tuv>
     </tu>
     <tu>
