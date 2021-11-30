@@ -1,6 +1,6 @@
 # ![Chart](../../images/icons/toolbar-controls/chart_default.svg) Chart
 
-The Cube chart represents the chart of the given type constructed on the Cube basis. As opposed to the standard one, it clearly matches the current state of the Cube, and in the case of all its changes, it changes correspondingly. It is possible to activate the chart view using the ![ ](../../images/icons/toolbar-controls/chart_default.svg) **Chart** button on the Cube [Toolbar](./toolbar.md). The general chart view is provided on Figure 1.
+The Cube chart represents the chart of the given type constructed on the Cube basis. As opposed to the standard one, it clearly matches the current state of the Cube, and in the case of all its changes, it changes correspondingly. It is possible to activate the chart view using ![ ](../../images/icons/toolbar-controls/chart_default.svg) **Chart** button on the Cube [Toolbar](./toolbar.md). The general chart view is provided on Figure 1.
 
 ![Cube Chart](./cube-chart.png)
 
@@ -20,7 +20,7 @@ The cube chart has its own Toolbar that contains the following buttons:
    * ![Hide](../../images/icons/toolbar-controls/show-total-nor_default.svg) **Hide**.
    * ![Show](../../images/icons/toolbar-controls/show-total-all_default.svg) **Show**.
 * **Displayed measure** enables to select the displayed measure from the list.
-* ![Restrictions](../../images/icons/toolbar-controls/cancel_default.svg)  **Restrictions** enables to set restrictions concerning the number of series/points:
+* ![Restrictions](../../images/icons/toolbar-controls/cancel_default.svg)  **Restrictions** enable to set restrictions concerning the number of series/points:
    * **Series**: the number of displayed series. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube rows up to 100 inclusively.
    * **Points**: the number of displayed points. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube columns up to 1000 inclusively.
 * **Export** enables to export the chart to the given format:

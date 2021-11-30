@@ -8,8 +8,8 @@ It is possible to perform the required successive operations with several measur
 
 ## Operations
 
-* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enables to move the measure/aggregation option/representation method one item position up.
-* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down** enables to move the measure/aggregation option/representation method one item position down.
+* ![](../../images/icons/toolbar-controls/moveup_default.svg) **Move up**: move the measure/aggregation option/representation method one item position up.
+* ![](../../images/icons/toolbar-controls/movedown_default.svg) **Move down**: move the measure/aggregation option/representation method one item position down.
 * ![](../../images/icons/toolbar-controls/collapce-all_default.svg) **Collapse tree**: collapse the tree of measures.
 * ![](../../images/icons/toolbar-controls/open-all_default.svg) **Expand tree**: expand the tree of measures.
 * ![](../../images/icons/toolbar-controls/check-all_default.svg) **Check all**: check all measures, options of aggregation with all representation methods.
