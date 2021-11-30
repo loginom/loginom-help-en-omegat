@@ -1,6 +1,6 @@
 # ![Add Measure](../../images/icons/toolbar-controls/sum_default.svg) Add Measure
 
-It is required to select [aggregation function](../../processors/func/aggregation-functions.md) and representation method of the selected aggregation option in this window fo the measure.
+It is required to select [aggregation function](../../processors/func/aggregation-functions.md) and representation method of the selected aggregation option in this window for the measure.
 
 ## Operations
 
@@ -9,7 +9,7 @@ It is required to select [aggregation function](../../processors/func/aggregatio
 * ![Collapse tree](../../images/icons/toolbar-controls/collapce-all_default.svg) **Collapse tree** enables to collapse the tree of aggregation options and representation methods.
 * ![Expand tree](../../images/icons/toolbar-controls/open-all_default.svg) **Expand tree** enables to expand the tree of aggregation options and representation methods.
 * ![Check all](../../images/icons/toolbar-controls/check-all_default.svg) **Check all** enables to check all aggregation options with all representation methods.
-* ![Uncheck all](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Uncheck all**enables to uncheck all aggregation options with all representation methods.
+* ![Uncheck all](../../images/icons/toolbar-controls/uncheck-all_default.svg) **Uncheck all** enables to uncheck all aggregation options with all representation methods.
 
 ## Representation Methods
 
