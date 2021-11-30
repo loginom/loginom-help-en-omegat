@@ -18087,8 +18087,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Отменить выбор всех&lt;x2/&gt; &lt;x3/&gt;Отменить выбор всех&lt;x4/&gt; — убрать выбор всех вариантов агрегации со всеми способами отображения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T212411Z" creationid="Марианна" creationdate="20211010T212411Z">
-        <seg>&lt;x1/&gt;Uncheck all&lt;x2/&gt; &lt;x3/&gt;Uncheck all&lt;x4/&gt;enables to uncheck all aggregation options with all representation methods.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T183645Z" creationid="Марианна" creationdate="20211010T212411Z">
+        <seg>&lt;x1/&gt;Uncheck all&lt;x2/&gt; &lt;x3/&gt;Uncheck all&lt;x4/&gt; enables to uncheck all aggregation options with all representation methods.</seg>
       </tuv>
     </tu>
     <tu>
