@@ -6,7 +6,7 @@ The table displays the statistical indicators by clusters (refer to Figure 1).
 
 The table can be conventionally divided into 2 areas:
 
-1. [Legend columns](#kolonki-legendy);
+1. [Legend columns](#kolonki-legendy).
 2. [Data columns](#kolonki-dannykh).
 
 ## Legend Columns
@@ -14,11 +14,11 @@ The table can be conventionally divided into 2 areas:
 *Legend columns* consist of the following columns:
 
 1. Clusters in rows:
-   * **#**: number of row;
+   * **#**: number of row.
    * **Cluster caption**: the order cluster number and *Total* cluster that contains the general information on clusters if it is possible to calculate the common value for the current indicator.
    * **Support**: the ratio of the data rows count in the cluster to the total count of data rows.
 2. Clusters in columns:
-   * **#**: number of row;
+   * **#**: number of row.
    * **Field caption**: field caption from the source data set.
    * **Type**: kind of the field data.
 
