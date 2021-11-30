@@ -15187,8 +15187,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Колонки легенды&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T231712Z" creationid="Марианна" creationdate="20211011T231712Z">
-        <seg>&lt;x1/&gt;Legend columns&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T181255Z" creationid="Марианна" creationdate="20211011T231712Z">
+        <seg>&lt;x1/&gt;Legend columns&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
