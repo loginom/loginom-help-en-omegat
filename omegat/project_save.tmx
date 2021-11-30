@@ -20551,8 +20551,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в списке будут доступны только используемые факты и измерения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T232049Z" creationid="Марианна" creationdate="20211017T232002Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Only used measures and dimensions will be available only in the list.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T183418Z" creationid="Марианна" creationdate="20211017T232002Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; Only used measures and dimensions will be available in the list.</seg>
       </tuv>
     </tu>
     <tu>
