@@ -15027,8 +15027,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Кластеры в строках&lt;x2/&gt; Кластеры в строках;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T204724Z" creationid="Марианна" creationdate="20211011T204724Z">
-        <seg>&lt;x1/&gt;Clusters in rows&lt;x2/&gt; Clusters in rows;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T182327Z" creationid="Марианна" creationdate="20211011T204724Z">
+        <seg>&lt;x1/&gt;Clusters in rows&lt;x2/&gt; Clusters in rows.</seg>
       </tuv>
     </tu>
     <tu>
