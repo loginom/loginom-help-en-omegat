@@ -31964,8 +31964,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В данном окне для факта необходимо выбрать &lt;x1/&gt;функцию агрегации&lt;x2/&gt; и способ отображения выбранного варианта агрегации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T211656Z" creationid="Марианна" creationdate="20211010T211656Z">
-        <seg>It is required to select &lt;x1/&gt;aggregation function&lt;x2/&gt; and representation method of the selected aggregation option in this window fo the measure.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T183602Z" creationid="Марианна" creationdate="20211010T211656Z">
+        <seg>It is required to select &lt;x1/&gt;aggregation function&lt;x2/&gt; and representation method of the selected aggregation option in this window for the measure.</seg>
       </tuv>
     </tu>
     <tu>
