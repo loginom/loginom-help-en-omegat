@@ -44353,16 +44353,16 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
       <tuv lang="ru">
         <seg>Кнопками %kbd Left %, %kbd Right %, если поля в колонках.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T153614Z" creationid="Марианна" creationdate="20211017T153614Z">
-        <seg>using %kbd Left %, %kbd Right % buttons if fields are in columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T181720Z" creationid="Марианна" creationdate="20211017T153614Z">
+        <seg>Using %kbd Left %, %kbd Right % buttons if fields are in columns.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Кнопками %kbd Up %, %kbd Down %, если поля в строках.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T153542Z" creationid="Марианна" creationdate="20211017T153542Z">
-        <seg>using %kbd Up %, %kbd Down % buttons if fields are in rows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T181657Z" creationid="Марианна" creationdate="20211017T153542Z">
+        <seg>Using %kbd Up %, %kbd Down % buttons if fields are in rows.</seg>
       </tuv>
     </tu>
     <tu>
