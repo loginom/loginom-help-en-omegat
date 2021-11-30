@@ -31012,8 +31012,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>Активировать просмотр диаграммы можно кнопкой &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; на &lt;x5/&gt;Панели инструментов&lt;x6/&gt; Куба.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T223727Z" creationid="Марианна" creationdate="20211017T223623Z">
-        <seg>It is possible to activate the chart view using the &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt; button on the Cube &lt;x5/&gt;Toolbar&lt;x6/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T183822Z" creationid="Марианна" creationdate="20211017T223623Z">
+        <seg>It is possible to activate the chart view using &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt; button on the Cube &lt;x5/&gt;Toolbar&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
