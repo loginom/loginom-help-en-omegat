@@ -31636,8 +31636,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В &lt;x13/&gt;Кубе&lt;x14/&gt; отобразятся только те факты, которые были отмечены в окне &lt;x15/&gt;Настроить факты&lt;x16/&gt; на момент нажатия кнопки &lt;x17/&gt;Применить&lt;x18/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211021T085250Z" creationid="Марианна" creationdate="20211021T085250Z">
-        <seg>In the  &lt;x13/&gt;Кубе&lt;x14/&gt; only the measures selected in &lt;x15/&gt;Configure measures&lt;x16/&gt; window at the moment of &lt;x17/&gt;Apply&lt;x18/&gt; button pressing will be displayed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T184428Z" creationid="Марианна" creationdate="20211021T085250Z">
+        <seg>In the  &lt;x13/&gt;Cube&lt;x14/&gt; only the measures selected in &lt;x15/&gt;Configure measures&lt;x16/&gt; window at the moment of &lt;x17/&gt;Apply&lt;x18/&gt; button pressing will be displayed.</seg>
       </tuv>
     </tu>
     <tu>
