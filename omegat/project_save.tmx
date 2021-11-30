@@ -17727,8 +17727,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ограничения&lt;x2/&gt;  &lt;x3/&gt;Ограничения&lt;x4/&gt; — позволяет задать ограничения на количество серий/точек:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T225020Z" creationid="Марианна" creationdate="20211017T225020Z">
-        <seg>&lt;x1/&gt;Restrictions&lt;x2/&gt;  &lt;x3/&gt;Restrictions&lt;x4/&gt; enables to set restrictions concerning the number of series/points:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T183944Z" creationid="Марианна" creationdate="20211017T225020Z">
+        <seg>&lt;x1/&gt;Restrictions&lt;x2/&gt;  &lt;x3/&gt;Restrictions&lt;x4/&gt; enable to set restrictions concerning the number of series/points:</seg>
       </tuv>
     </tu>
     <tu>
