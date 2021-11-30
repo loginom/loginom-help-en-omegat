@@ -20127,8 +20127,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Пример&lt;x2/&gt; — позволяет ввести пример значения, чтобы проверить корректность настроенного форматирования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T111023Z" creationid="Марианна" creationdate="20211017T111023Z">
-        <seg>&lt;x1/&gt;Example&lt;x2/&gt; enables to enter the value example to check correctness of the configured formatting.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T185643Z" creationid="Марианна" creationdate="20211017T111023Z">
+        <seg>&lt;x1/&gt;Example&lt;x2/&gt;: enter the value example to check correctness of the configured formatting.</seg>
       </tuv>
     </tu>
     <tu>
