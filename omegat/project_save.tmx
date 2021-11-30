@@ -1710,8 +1710,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>1)</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T102525Z" creationid="Марианна" creationdate="20211017T102525Z">
-        <seg>1)</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211130T185423Z" creationid="Марианна" creationdate="20211017T102525Z">
+        <seg>1).</seg>
       </tuv>
     </tu>
     <tu>
