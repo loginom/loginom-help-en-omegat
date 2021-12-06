@@ -14,7 +14,7 @@ The visualizer includes the following items:
 * [Area of fine classes](#oblast-nachalnykh-klassov).
 * [Area of coarse classes](#oblast-konechnykh-klassov).
 
-> **Note:** The*Coarse classes* visualizer can be used only with the [*Coarse classes*](../../processors/preprocessing/fine-classes.md) node.
+> **Note:** The *Coarse classes* visualizer can be used only with the [*Coarse classes*](../../processors/preprocessing/fine-classes.md) node.
 
 ## Interface
 
