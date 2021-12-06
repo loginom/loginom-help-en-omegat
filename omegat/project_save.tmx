@@ -33008,8 +33008,8 @@ return pow(COL1, COL2);</seg>
       <tuv lang="ru">
         <seg>В режиме &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Множественный выбор&lt;x4/&gt; доступны операции:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211020T130401Z" creationid="Марианна" creationdate="20211020T130401Z">
-        <seg>The following operations are available in the &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Multiple selection&lt;x4/&gt; mode:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T155131Z" creationid="Марианна" creationdate="20211020T130401Z">
+        <seg>The following operations are available in &lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Multiple selection&lt;x4/&gt; mode:</seg>
       </tuv>
     </tu>
     <tu>
