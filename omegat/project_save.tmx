@@ -48452,8 +48452,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Не-событий всех классов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T104304Z" creationid="Марианна" creationdate="20211015T104304Z">
-        <seg>Non-events of all classes;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T161431Z" creationid="Марианна" creationdate="20211015T104304Z">
+        <seg>Non-events of all classes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -59313,16 +59313,16 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Событий всех классов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T104253Z" creationid="Марианна" creationdate="20211015T104253Z">
-        <seg>Events of all classes;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T161426Z" creationid="Марианна" creationdate="20211015T104253Z">
+        <seg>Events of all classes.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Событий и Не-событий всех классов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T104318Z" creationid="Марианна" creationdate="20211015T104318Z">
-        <seg>Events and non-events of all classes;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T161437Z" creationid="Марианна" creationdate="20211015T104318Z">
+        <seg>Events and non-events of all classes.</seg>
       </tuv>
     </tu>
     <tu>
