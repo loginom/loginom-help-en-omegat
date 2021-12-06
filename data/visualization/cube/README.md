@@ -75,7 +75,7 @@ In ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
 
 It is possible to add measures in two ways:
 
-* drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3);
+* Drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3).
 * By pressing on ![Measures](../../images/icons/toolbar-controls/sum_default.svg) Measures button, it is necessary to select the required field and in the appeared [window](./addfact.md) select the required method of [aggregation](../../processors/func/aggregation-functions.md) and method of its display.
 
 By pressing on ![Open list](../../images/icons/toolbar-controls/down_default.svg) button near ![Measures](../../images/icons/toolbar-controls/sum_default.svg) Measures, it is possible to open the drop-down menu with option to call one of the following windows:
