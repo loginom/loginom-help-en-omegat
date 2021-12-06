@@ -36,7 +36,7 @@ For the *List of input columns* ![](../../images/icons/toolbar-controls/toggle-l
 
 ![List of input columns.](./readme-1.png)
 
-### Area of fine classes
+### Area of Fine Classes
 
 The fine classes are displayed in the form of one display option - a chart.
 
@@ -44,8 +44,8 @@ When hovering the mouse cursor over the chart in the right upper corner, ![](./c
 
 Fine classes chart can be as follows:
 
-* Rate
-* [WoE (weight of evidence)](https://wiki.loginom.ru/articles/coefficient-woe.html);
+* Rate.
+* [WoE (weight of evidence)](https://wiki.loginom.ru/articles/coefficient-woe.html).
 * [IV (information value)](https://wiki.loginom.ru/articles/coefficient-iv.html).
 
 Display selection is switched by buttons (refer to Figure 2) in the lower part of the chart.
@@ -58,10 +58,10 @@ When hovering the mouse cursor over the chart column, the pop-up window appears.
 
 ![Fine classes chart.](./charts-2.png)
 
-### Area of coarse classes
+### Area of Coarse Classes
 
 The coarse classes are displayed in the form of a table or WoE chart (refer to Figure 4) / chart IV. Chart IV can display as follows:
-* Count (refer to Figure 5);
+* Count (refer to Figure 5).
 * Rate (refer to Figure 6).
 
 #### Table
@@ -83,9 +83,9 @@ The table consists of the following fields:
 
 The sum is displayed in the lower part of the table:
 
-* Events of all classes;
-* Non-events of all classes;
-* Events and non-events of all classes;
+* Events of all classes.
+* Non-events of all classes.
+* Events and non-events of all classes.
 * Information values of all classes.
 
 #### Chart
@@ -106,7 +106,7 @@ When hovering mouse cursor over the chart column, the window appears (refer to. 
    * WoE value.
 * For chart IV:
    * value IV;
-   * Events count;
-   * Non-events count;
+   * events count;
+   * non-events count.
 
 ![WoE chart and chart IV.](./charts-6.png)
