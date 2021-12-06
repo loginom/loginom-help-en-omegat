@@ -10,8 +10,8 @@ The Coarse Classes handler enables to solve the following problems:
 
 The visualizer includes the following items:
 
-* [List of input columns](#spisok-vkhodnykh-stolbtsov);
-* [Area of fine classes](#oblast-nachalnykh-klassov);
+* [List of input columns](#spisok-vkhodnykh-stolbtsov).
+* [Area of fine classes](#oblast-nachalnykh-klassov).
 * [Area of coarse classes](#oblast-konechnykh-klassov).
 
 > **Note:** The*Coarse classes* visualizer can be used only with the [*Coarse classes*](../../processors/preprocessing/fine-classes.md) node.
