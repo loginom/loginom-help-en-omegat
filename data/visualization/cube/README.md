@@ -12,11 +12,11 @@ The main window will be opened after addition to the visualizer node (Figure 1):
 
 The main window can be conventionally divided into 6 areas:
 
-1. Area of Free Fields;
-2. Area of Dimensions in Rows;
-3. Area of Measures;
-4. Area of Measures in Columns;
-5. Area of Filtration by Dimensions;
+1. Area of Free Fields.
+2. Area of Dimensions in Rows.
+3. Area of Measures.
+4. Area of Measures in Columns.
+5. Area of Filtration by Dimensions.
 6. [Cube Toolbar](./toolbar.md).
 
 Areas from 2 to 5 represent the Cube construction area.
