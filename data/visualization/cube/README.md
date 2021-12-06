@@ -1,4 +1,4 @@
-# ![Cube Visualiser](../../images/icons/view_types/cube_default.svg) Куб
+# ![Cube Visualiser](../../images/icons/view_types/cube_default.svg) Cube
 
 [Cube](https://wiki.loginom.ru/articles/cube.html) is one of the wide spread methods of the complex multidimensional data analysis called [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). It is based on data view in the form of the multidimensional cubes that are also called OLAB cubes or hypercubes.
 
