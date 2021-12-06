@@ -3127,9 +3127,9 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
         <seg>&lt;x1/&gt; &lt;x2/&gt;
 &lt;x3/&gt;Одиночный выбор&lt;x4/&gt; — позволяет выбрать из списка только одно значение, которое будет отображаться в Кубе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211020T125522Z" creationid="Марианна" creationdate="20211020T125522Z">
+      <tuv lang="en" changeid="Марианна" changedate="20211206T154910Z" creationid="Марианна" creationdate="20211020T125522Z">
         <seg>&lt;x1/&gt; &lt;x2/&gt;
-&lt;x3/&gt;Single selection&lt;x4/&gt; enables to select only one value from the list that will be displayed in the Cube.</seg>
+&lt;x3/&gt;Single selection&lt;x4/&gt;: select only one value from the list that will be displayed in the Cube.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3568,8 +3568,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Комбинированный выбор&lt;x4/&gt; — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211020T125811Z" creationid="Марианна" creationdate="20211020T125811Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Combined selection&lt;x4/&gt; enables to select one dimension value from the list that has been earlier formed in the multiple selection mode.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T154922Z" creationid="Марианна" creationdate="20211020T125811Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Combined selection&lt;x4/&gt;: select one dimension value from the list that has been earlier formed in the multiple selection mode.</seg>
       </tuv>
     </tu>
     <tu>
