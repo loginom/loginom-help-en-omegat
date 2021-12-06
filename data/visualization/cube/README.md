@@ -58,7 +58,7 @@ To filter data by the dimension, it is required to click on the required dimensi
 
 ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode can be set by default. Using **Inclusive/exclusive filter** switch of values it is possible to set permissive or prohibitive filter type. It influences on the fact how the filter will be updated if the Cube is opened for the new data.
 
-The following operations are available in the ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode:
+The following operations are available in ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode:
 
 * ![ ](../../images/icons/toolbar-controls/visible_default.svg) **Check all / ![ ](../../images/icons/toolbar-controls/invisible_default.svg) Uncheck all**: select all values in the list or deselect all list values.
 * ![ ](../../images/icons/toolbar-controls/invert-eye_default.svg) **Invert selection**: change the selected values from the list to the unselected ones and vice versa.
