@@ -17455,8 +17455,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Область начальных классов&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T100335Z" creationid="Марианна" creationdate="20211015T100335Z">
-        <seg>&lt;x1/&gt;Area of fine classes&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T160817Z" creationid="Марианна" creationdate="20211015T100335Z">
+        <seg>&lt;x1/&gt;Area of fine classes&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22732,8 +22732,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Список входных столбцов&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T100305Z" creationid="Марианна" creationdate="20211015T100305Z">
-        <seg>&lt;x1/&gt;List of input columns&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T160811Z" creationid="Марианна" creationdate="20211015T100305Z">
+        <seg>&lt;x1/&gt;List of input columns&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
