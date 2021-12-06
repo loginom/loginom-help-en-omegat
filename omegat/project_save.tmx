@@ -10372,8 +10372,8 @@ $$\displaystyle\mathsf{MCC=\frac{TP⋅TN−FP⋅FN}{\sqrt{(TP+FP)(TP+FN)(TN+FP)(
       <tuv lang="ru">
         <seg>&lt;x1/&gt;WoE (вес доказательства)&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T103854Z" creationid="Марианна" creationdate="20211015T103854Z">
-        <seg>&lt;x1/&gt;WoE (weight of evidence)&lt;x2/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T161213Z" creationid="Марианна" creationdate="20211015T103854Z">
+        <seg>&lt;x1/&gt;WoE (weight of evidence)&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39799,8 +39799,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Долю;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T103838Z" creationid="Марианна" creationdate="20211015T103838Z">
-        <seg>Rate</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T161206Z" creationid="Марианна" creationdate="20211015T103838Z">
+        <seg>Rate.</seg>
       </tuv>
     </tu>
     <tu>
