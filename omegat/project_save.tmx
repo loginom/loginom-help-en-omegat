@@ -20183,8 +20183,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Визуализатор &lt;x3/&gt;Конечные классы&lt;x4/&gt; может использоваться только с узлом &lt;x5/&gt;&lt;x6/&gt;Конечные классы&lt;x7/&gt;&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T100509Z" creationid="Марианна" creationdate="20211015T100509Z">
-        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The&lt;x3/&gt;Coarse classes&lt;x4/&gt; visualizer can be used only with the &lt;x5/&gt;&lt;x6/&gt;Coarse classes&lt;x7/&gt;&lt;x8/&gt; node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T160854Z" creationid="Марианна" creationdate="20211015T100509Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The &lt;x3/&gt;Coarse classes&lt;x4/&gt; visualizer can be used only with the &lt;x5/&gt;&lt;x6/&gt;Coarse classes&lt;x7/&gt;&lt;x8/&gt; node.</seg>
       </tuv>
     </tu>
     <tu>
