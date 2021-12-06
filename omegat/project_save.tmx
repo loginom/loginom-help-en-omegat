@@ -52212,8 +52212,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Перетащить (Drag-and-Drop) нужное поле из Области свободных полей (1) в Область фактов (3);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T202623Z" creationid="Марианна" creationdate="20211019T202623Z">
-        <seg>drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T155342Z" creationid="Марианна" creationdate="20211019T202623Z">
+        <seg>Drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3).</seg>
       </tuv>
     </tu>
     <tu>
