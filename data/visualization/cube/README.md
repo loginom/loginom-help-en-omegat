@@ -53,8 +53,8 @@ To filter data by the dimension, it is required to click on the required dimensi
 
 * ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection**: a user can select the random count of values from the list of the available ones. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/toolbar-controls/icon-201_default.svg)
-   **Single selection** enables to select only one value from the list that will be displayed in the Cube.
-* ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Combined selection** enables to select one dimension value from the list that has been earlier formed in the multiple selection mode.
+   **Single selection**: select only one value from the list that will be displayed in the Cube.
+* ![ ](../../images/icons/toolbar-controls/icon-202_default.svg) **Combined selection**: select one dimension value from the list that has been earlier formed in the multiple selection mode.
 
 ![ ](../../images/icons/toolbar-controls/icon-200_default.svg) **Multiple selection** mode can be set by default. Using **Inclusive/exclusive filter** switch of values it is possible to set permissive or prohibitive filter type. It influences on the fact how the filter will be updated if the Cube is opened for the new data.
 
