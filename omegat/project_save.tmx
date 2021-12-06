@@ -49196,16 +49196,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область измерений в колонках;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200632Z" creationid="Марианна" creationdate="20211019T200225Z">
-        <seg>Area of Measures in Columns;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T153312Z" creationid="Марианна" creationdate="20211019T200225Z">
+        <seg>Area of Measures in Columns.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Область измерений в строках;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200618Z" creationid="Марианна" creationdate="20211019T200155Z">
-        <seg>Area of Dimensions in Rows;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T153302Z" creationid="Марианна" creationdate="20211019T200155Z">
+        <seg>Area of Dimensions in Rows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49308,8 +49308,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область свободных полей;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200611Z" creationid="Марианна" creationdate="20211019T200140Z">
-        <seg>Area of Free Fields;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T153258Z" creationid="Марианна" creationdate="20211019T200140Z">
+        <seg>Area of Free Fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49356,16 +49356,16 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Область фактов;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200624Z" creationid="Марианна" creationdate="20211019T200207Z">
-        <seg>Area of Measures;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T153308Z" creationid="Марианна" creationdate="20211019T200207Z">
+        <seg>Area of Measures.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Область фильтрации по измерениям;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T200641Z" creationid="Марианна" creationdate="20211019T200249Z">
-        <seg>Area of Filtration by Dimensions;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T153319Z" creationid="Марианна" creationdate="20211019T200249Z">
+        <seg>Area of Filtration by Dimensions.</seg>
       </tuv>
     </tu>
     <tu>
