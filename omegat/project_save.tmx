@@ -11859,8 +11859,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Визуализатор Куб&lt;x2/&gt; Куб</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T160218Z" creationid="Марианна" creationdate="20211019T160218Z">
-        <seg>&lt;x1/&gt;Cube Visualiser&lt;x2/&gt; Куб</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T152910Z" creationid="Марианна" creationdate="20211019T160218Z">
+        <seg>&lt;x1/&gt;Cube Visualiser&lt;x2/&gt; Cube</seg>
       </tuv>
     </tu>
     <tu>
