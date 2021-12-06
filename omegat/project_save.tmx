@@ -65773,8 +65773,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>количество Не-событий.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211206T161637Z" creationid="Марианна" creationdate="20211015T101754Z">
-        <seg>non-events count;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211206T161701Z" creationid="Марианна" creationdate="20211015T101754Z">
+        <seg>non-events count.</seg>
       </tuv>
     </tu>
     <tu>
