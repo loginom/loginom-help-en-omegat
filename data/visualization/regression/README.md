@@ -22,7 +22,7 @@ More detailed infomation how to enable this visualizer is provided in the [artic
 
 * ![](../../images/icons/toolbar-controls/table-view_default.svg) **Table**: switch of display of [regression coefficients](#koeffitsienty-regressii) to the *Table* form.
 * ![](../../images/icons/toolbar-controls/tree_default.svg) **Tree**: switch of display of [regression coefficients](#koeffitsienty-regressii) to the *Tree* form.
-* ![](../../images/icons/toolbar-controls/zero_default.svg) **Zero values**: show/hide zero values;
+* ![](../../images/icons/toolbar-controls/zero_default.svg) **Zero values**: show/hide zero values.
 
 #### Model Steps Area
 
@@ -40,9 +40,9 @@ Model indicators are described in the table:
 | ![Real](../../images/icons/data-types/float_default.svg) -2 Log Likelihood | -2 Logarithm of the [likelihood function](https://wiki.loginom.ru/articles/plausibility-function.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) R2 | [Determination coefficient](https://wiki.loginom.ru/articles/coefficient-of-determination.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) R2 adj. | [Determination coefficient adjusted](https://wiki.loginom.ru/articles/coefficient-determ-adj.html) |
-| ![Real](../../images/icons/data-types/float_default.svg) [Chi-square](https://wiki.loginom.ru/articles/chi-square-test.html) | Chi-squared test to test the hypothesis concerning the law of distribution of the random value under study. |
+| ![Real](../../images/icons/data-types/float_default.svg) [Chi-square](https://wiki.loginom.ru/articles/chi-square-test.html) | Chi-squared test to test the hypothesis concerning the law of distribution of the random value under study |
 | ![Integer](../../images/icons/data-types/integer_default.svg) Number of degrees of freedom | Number of independently varied values of [indicator](https://wiki.loginom.ru/articles/attribute.html) |
-| ![Real](../../images/icons/data-types/float_default.svg) [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the [input](https://wiki.loginom.ru/articles/input-variable.html) (set of the input one) and [output variables](https://wiki.loginom.ru/articles/output-variable.html) of regression model. |
+| ![Real](../../images/icons/data-types/float_default.svg) [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the [input](https://wiki.loginom.ru/articles/input-variable.html) (set of the input one) and [output variables](https://wiki.loginom.ru/articles/output-variable.html) of regression model |
 | ![Real](../../images/icons/data-types/float_default.svg) AIC | [Akaike information criterion](https://wiki.loginom.ru/articles/aic.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) AICc | [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html) |
 | ![Real](../../images/icons/data-types/float_default.svg) BIC | [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html) |
@@ -56,12 +56,12 @@ Coefficients are described in the table:
 |:--------------------|:----------|
 | Coefficient | Characteristics of relation between dependent *y* and [independent variable](https://wiki.loginom.ru/articles/input-variable.html) *x* |
 | [Standard error](https://wiki.loginom.ru/articles/standard-estimation-error.html) | Measure of spread of the observation data from the modeled values |
-| [Wald Coefficient](https://wiki.loginom.ru/articles/wald-test.html) | Assessment of significance of coefficient in the case of independent variable of model |
+| [Wald coefficient](https://wiki.loginom.ru/articles/wald-test.html) | Assessment of significance of coefficient in the case of independent variable of model |
 | [Significance](https://wiki.loginom.ru/articles/significance-regr.html) | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
-| [Odds ratio](https://wiki.loginom.ru/articles/odds-ratio.html) | Probability ratio of the fact that the event will occur to the probability of the fact that the event will not occur. |
+| [Odds ratio](https://wiki.loginom.ru/articles/odds-ratio.html) | Probability ratio of the fact that the event will occur to the probability of the fact that the event will not occur |
 | CI lower bound | Lower bound of [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html) |
 | CI upper bound | Upper bound of confidence interval |
-| Significance Threshold | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
+| Significance threshold | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 
 Regression coefficients can be represented in the ![](../../images/icons/toolbar-controls/table-view_default.svg) *Table* (refer to Figure 1) or ![](../../images/icons/toolbar-controls/tree_default.svg) *Tree* form (refer to Figure 2).
 
