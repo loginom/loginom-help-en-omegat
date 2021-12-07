@@ -41936,8 +41936,8 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Значение выбранного показателя для текущей модели</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T232836Z" creationid="Марианна" creationdate="20211010T232836Z">
-        <seg>Value of the selected indicator for the current model</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T073744Z" creationid="Марианна" creationdate="20211010T232836Z">
+        <seg>Value of the selected indicator for the current model.</seg>
       </tuv>
     </tu>
     <tu>
