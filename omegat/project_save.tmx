@@ -60441,8 +60441,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Статистические показатели:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T222349Z" creationid="Марианна" creationdate="20211010T222349Z">
-        <seg>Statistical Indicators:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081008Z" creationid="Марианна" creationdate="20211010T222349Z">
+        <seg>Statistical indicators:</seg>
       </tuv>
     </tu>
     <tu>
