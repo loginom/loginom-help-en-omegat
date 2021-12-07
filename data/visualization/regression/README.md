@@ -4,8 +4,8 @@
 
 This visualizer consists of three areas:
 
-* [Model Info](#informatsiya-o-modeli);
-* [Regression coefficients](#koeffitsienty-regressii);
+* [Model info](#informatsiya-o-modeli).
+* [Regression coefficients](#koeffitsienty-regressii).
 * [Model steps](#shagi-postroeniya).
 
 More detailed infomation how to enable this visualizer is provided in the [article](../README.md).
@@ -14,7 +14,7 @@ More detailed infomation how to enable this visualizer is provided in the [artic
 
 ### Operations
 
-#### Model info area
+#### Model Info Area
 
 * ![](../../images/icons/toolbar-controls/info_default.svg) **Model info**: display/hide the model info.
 
@@ -32,7 +32,7 @@ More detailed infomation how to enable this visualizer is provided in the [artic
 
 #### Model Info
 
-Description of model indicators is represented in the table:
+Model indicators are described in the table:
 
 | Indicator | Description |
 |:------------------------|:-----------------------------------------------|
@@ -50,7 +50,7 @@ Description of model indicators is represented in the table:
 
 #### Regression Coefficients
 
-Description of coefficients is provided in the table:
+Coefficients are described in the table:
 
 | Coefficient | Description |
 |:--------------------|:----------|
@@ -63,7 +63,7 @@ Description of coefficients is provided in the table:
 | CI upper bound | Upper bound of confidence interval |
 | Significance Threshold | Degree of statistic link of the input (set of the input ones) and output variables of regression model |
 
-Regression coefficients can be represented in the ![](../../images/icons/toolbar-controls/table-view_default.svg) *Table* form (refer to Figure 1) or ![](../../images/icons/toolbar-controls/tree_default.svg) *Tree* (refer to Figure 2).
+Regression coefficients can be represented in the ![](../../images/icons/toolbar-controls/table-view_default.svg) *Table* (refer to Figure 1) or ![](../../images/icons/toolbar-controls/tree_default.svg) *Tree* form (refer to Figure 2).
 
 ![Table representation mode.](./readme-1.png)
 
