@@ -8554,8 +8554,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ctrl + Left&lt;x2/&gt; — перейти на предыдущую страницу;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T180657Z" creationid="Марианна" creationdate="20211005T180657Z">
-        <seg>&lt;x1/&gt;Ctrl + Left&lt;x2/&gt;: go to the previous page;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081811Z" creationid="Марианна" creationdate="20211005T180657Z">
+        <seg>&lt;x1/&gt;Ctrl + Left&lt;x2/&gt;: go to the previous page.</seg>
       </tuv>
     </tu>
     <tu>
