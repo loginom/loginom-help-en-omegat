@@ -55,4 +55,4 @@ Value of each cell can be copied in the text format by pressing Ctrl+C keys comb
 
 There is ![](../../images/icons/toolbar-controls/down_default.svg) button near the header of each column. Its pressing enables to call the drop-down menu. It enables to hide/display the column and also fix the column or remove such fixing.
 
-Order of columns can be changed by dragging holding down the left mouse button on the header of the moved column .
+Order of columns can be changed by dragging holding down the left mouse button on the header of the moved column.
