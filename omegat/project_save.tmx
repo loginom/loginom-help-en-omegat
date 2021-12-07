@@ -6880,8 +6880,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Вещественный;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T174716Z" creationid="Марианна" creationdate="20211005T174716Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Real;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081145Z" creationid="Марианна" creationdate="20211005T174716Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Real.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7816,8 +7816,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Целый;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T174710Z" creationid="Марианна" creationdate="20211005T174710Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; Integer;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081140Z" creationid="Марианна" creationdate="20211005T174710Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Integer.</seg>
       </tuv>
     </tu>
     <tu>
