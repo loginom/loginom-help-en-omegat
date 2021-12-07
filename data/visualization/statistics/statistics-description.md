@@ -1,10 +1,10 @@
 # Statistical Indicators
 
-Availability of the given field indicator depends on the data type and kind of this field. For example, it is obvious that Maximum string length indicator will not be available for the field related to the numeric or logical types.
+Availability of the given field indicator depends on the data type and kind of this field. For example, it is obvious that the Maximum string length indicator will not be available for the field related to the numeric or logical types.
 
 > **Important:** The indicators listed below are not available for the fields ![](../../images/icons/data-types/variant_default.svg) of the *Variant type*.
 
-Statistical Indicators:
+Statistical indicators:
 
 |Indicator|![](../../images/icons/data-types/float_default.svg) |![](../../images/icons/data-types/integer_default.svg) |![](../../images/icons/data-types/datetime_default.svg) |![](../../images/icons/data-types/boolean_default.svg)|![](../../images/icons/data-types/string_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|
