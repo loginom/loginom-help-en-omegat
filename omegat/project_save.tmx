@@ -41398,24 +41398,24 @@ $$\displaystyle\mathsf{FPR=\frac{FP}{N}=\frac{FP}{FP+TN}=1−TNR}$$.</seg>
       <tuv lang="ru">
         <seg>Задать собственное количество интервалов (в случае, если поле непрерывного типа);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T115123Z" creationid="Марианна" creationdate="20211013T115123Z">
-        <seg>Set the own bin count (when the field refers to the continuous type);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080607Z" creationid="Марианна" creationdate="20211013T115123Z">
+        <seg>Set the own bin count (when the field refers to the continuous type).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Задать собственное максимальное значение поля;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T104258Z" creationid="Марианна" creationdate="20211013T104258Z">
-        <seg>Set the own maximum field value;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080557Z" creationid="Марианна" creationdate="20211013T104258Z">
+        <seg>Set the own maximum field value.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Задать собственное минимальное значение поля;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T104310Z" creationid="Марианна" creationdate="20211013T104310Z">
-        <seg>Set the own minimum field value;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080600Z" creationid="Марианна" creationdate="20211013T104310Z">
+        <seg>Set the own minimum field value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47868,8 +47868,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Настройка отображения показателей гистограммы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T104235Z" creationid="Марианна" creationdate="20211013T104235Z">
-        <seg>Configure display of the histogram indicators;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080553Z" creationid="Марианна" creationdate="20211013T104235Z">
+        <seg>Configure display of the histogram indicators.</seg>
       </tuv>
     </tu>
     <tu>
