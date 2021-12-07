@@ -13227,8 +13227,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диаграмма&lt;x2/&gt; &lt;x3/&gt;Диаграмма&lt;x4/&gt; — графическое представление данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T081553Z" creationid="Марианна" creationdate="20211019T081553Z">
-        <seg>&lt;x1/&gt;Chart&lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt; is a graphical type of data view.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074821Z" creationid="Марианна" creationdate="20211019T081553Z">
+        <seg>&lt;x1/&gt;Chart&lt;x2/&gt; &lt;x3/&gt;Chart&lt;x4/&gt;: a graphical type of data view.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14931,8 +14931,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Качество бинарной классификации&lt;x2/&gt; &lt;x3/&gt;Качество бинарной классификации&lt;x4/&gt; — формирует наборы серий данных для построения диаграмм, определяются оптимальные пороги отсечения и вычисляются оценки классификации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T103326Z" creationid="Марианна" creationdate="20211019T103326Z">
-        <seg>&lt;x1/&gt;Binary classification assessment&lt;x2/&gt; &lt;x3/&gt;Binary classification assessment&lt;x4/&gt; enables to generate data series sets for construction of charts. The optimal cutoffs are defined and classification assessments are calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074858Z" creationid="Марианна" creationdate="20211019T103326Z">
+        <seg>&lt;x1/&gt;Binary classification assessment&lt;x2/&gt; &lt;x3/&gt;Binary classification assessment&lt;x4/&gt;: generate data series sets for construction of charts. The optimal cutoffs are defined and classification assessments are calculated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15547,8 +15547,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Куб&lt;x2/&gt; &lt;x3/&gt;Куб&lt;x4/&gt; — многомерное представление данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T081633Z" creationid="Марианна" creationdate="20211019T081633Z">
-        <seg>&lt;x1/&gt;Cube&lt;x2/&gt; &lt;x3/&gt;Cube&lt;x4/&gt; is a multidimensional type of data view.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074826Z" creationid="Марианна" creationdate="20211019T081633Z">
+        <seg>&lt;x1/&gt;Cube&lt;x2/&gt; &lt;x3/&gt;Cube&lt;x4/&gt;: a multidimensional type of data view.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22908,8 +22908,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Статистика&lt;x2/&gt; &lt;x3/&gt;Статистика&lt;x4/&gt; — статистические показатели полей набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T081753Z" creationid="Марианна" creationdate="20211019T081753Z">
-        <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; &lt;x3/&gt;Statistics&lt;x4/&gt; means the statistical indicators of the data set fields.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074847Z" creationid="Марианна" creationdate="20211019T081753Z">
+        <seg>&lt;x1/&gt;Statistics&lt;x2/&gt; &lt;x3/&gt;Statistics&lt;x4/&gt;: the statistical indicators of the data set fields.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23324,8 +23324,8 @@ Selection of this checkbox enables to select the records for the test sample fir
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Таблица&lt;x2/&gt; &lt;x3/&gt;Таблица&lt;x4/&gt; — табличное представление данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211019T081704Z" creationid="Марианна" creationdate="20211019T081704Z">
-        <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt; is a table type of data view.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074831Z" creationid="Марианна" creationdate="20211019T081704Z">
+        <seg>&lt;x1/&gt;Table&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt;: a table type of data view.</seg>
       </tuv>
     </tu>
     <tu>
