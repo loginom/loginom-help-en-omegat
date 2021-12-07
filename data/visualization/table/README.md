@@ -22,14 +22,14 @@ To go to the given page, it is required to enter its number in the entry field l
 * ![](../../images/icons/toolbar-controls/format_default.svg) **Format**: open [format configuration window](./format.md) of data view.
 * ![](../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort**: open data [sorting configuration window](./sorting.md) by columns.
 * ![](../../images/icons/toolbar-controls/filter_default.svg) **Filter**: open [filtration configuration window](./filter.md).
-* ![](../../images/icons/toolbar-controls/zoom_default.svg) ![](../../images/icons/toolbar-controls/down_default.svg) **Search** — ![](../../images/icons/toolbar-controls/zoom_default.svg) find the value; ![](../../images/icons/toolbar-controls/down_default.svg) open [search configuration window](./search.md).
+* ![](../../images/icons/toolbar-controls/zoom_default.svg) ![](../../images/icons/toolbar-controls/down_default.svg) **Search** — ![](../../images/icons/toolbar-controls/zoom_default.svg) find the value: ![](../../images/icons/toolbar-controls/down_default.svg) open [search configuration window](./search.md).
 * ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) **Detailing**: show/hide detailing by the table row.
 * ![](../../images/icons/toolbar-controls/export_default.svg) **Export**: export table to the file of the selected format (XLS or HTML). 
 * **Go to row**: go to the row with the set number (available in the context men).
 
 %spoiler%Hotkeys:%spoiler%
 
-* **Ctrl + Left**: go to the previous page;
+* **Ctrl + Left**: go to the previous page.
 * **Ctrl + Right**: go to the next page.
 * **Alt + 1** — **Alt + 8**: go to the page with number.
 * **Ctrl + G**: go to the row.
