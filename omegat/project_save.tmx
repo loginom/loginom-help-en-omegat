@@ -54278,8 +54278,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порядок столбцов можно менять перетаскиванием, удерживая левую кнопку мыши на заголовке перемещаемого столбца.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T221513Z" creationid="Марианна" creationdate="20211011T221238Z">
-        <seg>Order of columns can be changed by dragging holding down the left mouse button on the header of the moved column .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081956Z" creationid="Марианна" creationdate="20211011T221238Z">
+        <seg>Order of columns can be changed by dragging holding down the left mouse button on the header of the moved column.</seg>
       </tuv>
     </tu>
     <tu>
