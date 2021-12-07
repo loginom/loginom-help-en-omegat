@@ -63,7 +63,7 @@ Regression coefficients can be represented in the ![](../../images/icons/toolbar
 
 ![Tree representation mode.](./readme-2.png)
 
-#### Model steps
+#### Model Steps
 
 It is rational to enable the ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_building-steps_default.svg) *Steps* construction area only if the algorithm that is based on the measure processing mode has been selected when configuring the Logistic Regression node in the Factor selection and protection against overfitting parameter.
 
@@ -72,9 +72,9 @@ It is rational to enable the ![](../../images/icons/toolbar-controls_18x18/toolb
 | Field | Description |
 |:----------------|:----------------------------------------------------------------------------|
 | Model | The tree of models in which the models created by the algorithm in the training process are displayed. It appears when measures are selected. Only one final model will be available in this field for the algorithms that do not support processing of measures. Clicking on the ![](../../images/icons/toolbar-controls/building-steps_default.svg) *Model steps* area with the left mouse button, it is possible to select display of the [information on the selected model](#informatsiya-o-modeli) (if corresponding checkbox has been selected), and also [regression coefficients](#koeffitsienty-regressii). |
-| Indicator | Value of the selected indicator for the current model |
+| Indicator | Value of the selected indicator for the current model. |
 | Field change | It displays whether the measure has been added or deleted ("+" means that the measure has been added to the model, and "-" shows that the measure has been deleted from the model). |
-| Fields | Current model fields |
+| Fields | Current model fields. |
 
 There are three model types:
 
