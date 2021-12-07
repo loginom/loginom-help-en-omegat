@@ -3,8 +3,8 @@
 It enables to change the data view format in the table column and then set the column width and its visibility.
 The format is set for the data types:
 
-* ![](../../images/icons/data-types/integer_default.svg) Integer;
-* ![](../../images/icons/data-types/float_default.svg) Real;
+* ![](../../images/icons/data-types/integer_default.svg) Integer.
+* ![](../../images/icons/data-types/float_default.svg) Real.
 * ![](../../images/icons/data-types/datetime_default.svg) Date/Time.
 
 It is possible to set width and visibility for each column.
