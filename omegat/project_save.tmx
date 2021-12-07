@@ -5888,8 +5888,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Поиск&lt;x6/&gt; — &lt;x7/&gt;&lt;x8/&gt; найти значение; &lt;x9/&gt;&lt;x10/&gt; открыть &lt;x11/&gt;окно настройки поиска&lt;x12/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214810Z" creationid="Марианна" creationdate="20211011T214810Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Search&lt;x6/&gt; — &lt;x7/&gt;&lt;x8/&gt; find the value; &lt;x9/&gt;&lt;x10/&gt; open &lt;x11/&gt;search configuration window&lt;x12/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081445Z" creationid="Марианна" creationdate="20211011T214810Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Search&lt;x6/&gt; — &lt;x7/&gt;&lt;x8/&gt; find the value; &lt;x9/&gt;&lt;x10/&gt; open &lt;x11/&gt;search configuration window&lt;x12/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6040,8 +6040,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Детализация&lt;x4/&gt; — показать/скрыть детализацию по строке таблицы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214903Z" creationid="Марианна" creationdate="20211011T214903Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Detailing&lt;x4/&gt;: show/hide detailing by the table row;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081449Z" creationid="Марианна" creationdate="20211011T214903Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Detailing&lt;x4/&gt;: show/hide detailing by the table row.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6272,8 +6272,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Номер строки&lt;x4/&gt; — показать/скрыть сквозной номер строки;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214058Z" creationid="Марианна" creationdate="20211011T214058Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Row number&lt;x4/&gt;: show/hide continuous row number;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081414Z" creationid="Марианна" creationdate="20211011T214058Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Row number&lt;x4/&gt;: show/hide continuous row number.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6448,8 +6448,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Показать значения null&lt;x4/&gt; — показать/скрыть null-значения;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214213Z" creationid="Марианна" creationdate="20211011T214213Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show null values&lt;x4/&gt;: show/hide null values;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081424Z" creationid="Марианна" creationdate="20211011T214213Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Show null values&lt;x4/&gt;: show/hide null values.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6640,8 +6640,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сортировка&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки сортировки&lt;x6/&gt; данных по столбцам;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211015T082412Z" creationid="Марианна" creationdate="20211011T214521Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt;: open data &lt;x5/&gt;sorting configuration window&lt;x6/&gt; by columns;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081433Z" creationid="Марианна" creationdate="20211011T214521Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Sort&lt;x4/&gt;: open data &lt;x5/&gt;sorting configuration window&lt;x6/&gt; by columns.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6664,8 +6664,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Типы данных&lt;x4/&gt; — показать/скрыть типы данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214132Z" creationid="Марианна" creationdate="20211011T214132Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Data types&lt;x4/&gt;: show/hide data types;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081420Z" creationid="Марианна" creationdate="20211011T214132Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Data types&lt;x4/&gt;: show/hide data types.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6792,16 +6792,16 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Фильтр&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки фильтрации&lt;x6/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T214659Z" creationid="Марианна" creationdate="20211011T214659Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Filter&lt;x4/&gt;: open &lt;x5/&gt;filtration configuration window&lt;x6/&gt;;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081440Z" creationid="Марианна" creationdate="20211011T214659Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Filter&lt;x4/&gt;: open &lt;x5/&gt;filtration configuration window&lt;x6/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Формат&lt;x4/&gt; — открыть &lt;x5/&gt;окно настройки формата&lt;x6/&gt; отображения данных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211017T102217Z" creationid="Марианна" creationdate="20211011T214355Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format configuration window&lt;x6/&gt; of data view;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081430Z" creationid="Марианна" creationdate="20211011T214355Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Format&lt;x4/&gt;: open &lt;x5/&gt;format configuration window&lt;x6/&gt; of data view.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6816,8 +6816,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Экспорт&lt;x4/&gt; — экспортировать таблицу в файл выбранного формата (XLS или HTML);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T215003Z" creationid="Марианна" creationdate="20211011T215003Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt;: export table to the file of the selected format (XLS or HTML); </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081458Z" creationid="Марианна" creationdate="20211011T215003Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Export&lt;x4/&gt;: export table to the file of the selected format (XLS or HTML). </seg>
       </tuv>
     </tu>
     <tu>
@@ -8562,8 +8562,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Ctrl + Right&lt;x2/&gt; — перейти на следующую страницу;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T180719Z" creationid="Марианна" creationdate="20211005T180719Z">
-        <seg>&lt;x1/&gt;Ctrl + Right&lt;x2/&gt;: go to the next page;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081503Z" creationid="Марианна" creationdate="20211005T180719Z">
+        <seg>&lt;x1/&gt;Ctrl + Right&lt;x2/&gt;: go to the next page.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51892,8 +51892,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Перейти на &lt;x1/&gt;&lt;x2/&gt; предыдущую/&lt;x3/&gt;&lt;x4/&gt; следующую страницу;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T213725Z" creationid="Марианна" creationdate="20211011T213725Z">
-        <seg>Go to the &lt;x1/&gt;&lt;x2/&gt; previous/&lt;x3/&gt;&lt;x4/&gt; next page;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T081409Z" creationid="Марианна" creationdate="20211011T213725Z">
+        <seg>Go to the &lt;x1/&gt;&lt;x2/&gt; previous/&lt;x3/&gt;&lt;x4/&gt; next page.</seg>
       </tuv>
     </tu>
     <tu>
