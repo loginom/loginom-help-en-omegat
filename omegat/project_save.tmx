@@ -50892,8 +50892,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Отношение вероятности того, что событие произойдет к вероятности того, что событие не произойдет</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T222051Z" creationid="Марианна" creationdate="20211011T222051Z">
-        <seg>Probability ratio of the fact that the event will occur to the probability of the fact that the event will not occur.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T075610Z" creationid="Марианна" creationdate="20211011T222051Z">
+        <seg>Probability ratio of the fact that the event will occur to the probability of the fact that the event will not occur</seg>
       </tuv>
     </tu>
     <tu>
