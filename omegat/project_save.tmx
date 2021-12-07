@@ -50428,8 +50428,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Описание показателей модели представлено в таблице:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T230735Z" creationid="Марианна" creationdate="20211010T230735Z">
-        <seg>Description of model indicators is represented in the table:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T073339Z" creationid="Марианна" creationdate="20211010T230735Z">
+        <seg>Model indicators are described in the table:</seg>
       </tuv>
     </tu>
     <tu>
