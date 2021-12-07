@@ -14571,8 +14571,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Информации о модели&lt;x2/&gt;;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211207T073154Z" creationid="Марианна" creationdate="20211010T225607Z">
-        <seg>&lt;x1/&gt;Model Info&lt;x2/&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T073217Z" creationid="Марианна" creationdate="20211010T225607Z">
+        <seg>&lt;x1/&gt;Model info&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
