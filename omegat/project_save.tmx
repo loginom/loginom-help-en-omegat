@@ -50388,8 +50388,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Описание коэффициентов представлено в таблице:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211005T173237Z" creationid="Марианна" creationdate="20211005T173237Z">
-        <seg>Description of coefficients is provided in the table:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T073433Z" creationid="Марианна" creationdate="20211005T173237Z">
+        <seg>Coefficients are described in the table:</seg>
       </tuv>
     </tu>
     <tu>
