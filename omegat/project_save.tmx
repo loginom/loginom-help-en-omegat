@@ -47442,8 +47442,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Например, очевидно, что показатель Максимальная длина строки не будет доступен для поля числового или логического типов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T222516Z" creationid="Марианна" creationdate="20211010T222456Z">
-        <seg>For example, it is obvious that Maximum string length indicator will not be available for the field related to the numeric or logical types.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080943Z" creationid="Марианна" creationdate="20211010T222456Z">
+        <seg>For example, it is obvious that the Maximum string length indicator will not be available for the field related to the numeric or logical types.</seg>
       </tuv>
     </tu>
     <tu>
