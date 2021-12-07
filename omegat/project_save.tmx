@@ -4304,8 +4304,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; Быстрый просмотр данных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T121334Z" creationid="Марианна" creationdate="20211013T121334Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; Quick View of Data</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074302Z" creationid="Марианна" creationdate="20211013T121334Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; Quick Data View</seg>
       </tuv>
     </tu>
     <tu>
