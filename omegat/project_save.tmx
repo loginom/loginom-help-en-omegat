@@ -15371,8 +15371,8 @@ To provide integration with several sources, for example, databases and web serv
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Коэффициент Вальда&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T222115Z" creationid="Марианна" creationdate="20211011T222115Z">
-        <seg>&lt;x1/&gt;Wald Coefficient&lt;x2/&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T075503Z" creationid="Марианна" creationdate="20211011T222115Z">
+        <seg>&lt;x1/&gt;Wald coefficient&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -54070,8 +54070,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>Порог значимости</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211011T222001Z" creationid="Марианна" creationdate="20211011T222001Z">
-        <seg>Significance Threshold</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T075508Z" creationid="Марианна" creationdate="20211011T222001Z">
+        <seg>Significance threshold</seg>
       </tuv>
     </tu>
     <tu>
