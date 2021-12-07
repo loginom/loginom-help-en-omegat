@@ -5,7 +5,7 @@ It provides the limited amount of data for information purposes in the form of t
 This visualizer is available in any active output:
 
 * ![ ](../../images/icons/app/node/ports/outputs/table_active.svg)   table port;
-* ![ ](../../images/icons/app/node/ports/outputs/variable_active.svg)  viraibles port;
+* ![ ](../../images/icons/app/node/ports/outputs/variable_active.svg)  variables port;
 * ![ ](../../images/icons/app/node/ports/outputs/tree_active.svg) tree port.
 
 It can be opened as follows:

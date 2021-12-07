@@ -4,13 +4,13 @@ Visualizer is a tool that provides convenient option of data view for a user.
 
 Visualizers:
 
-* ![Chart](../images/icons/view_types/chart_default.svg) [Chart](./chart/README.md) is a graphical type of data view.
-* ![Cube](../images/icons/view_types/cube_default.svg) [Cube](./cube/README.md) is a multidimensional type of data view.
-* ![Table](../images/icons/view_types/browse_default.svg) [Table](./table/README.md) is a table type of data view.
-* ![Statistics](../images/icons/view_types/stat_default.svg) [Statistics](./statistics/README.md) means the statistical indicators of the data set fields.
+* ![Chart](../images/icons/view_types/chart_default.svg) [Chart](./chart/README.md): a graphical type of data view.
+* ![Cube](../images/icons/view_types/cube_default.svg) [Cube](./cube/README.md): a multidimensional type of data view.
+* ![Table](../images/icons/view_types/browse_default.svg) [Table](./table/README.md): a table type of data view.
+* ![Statistics](../images/icons/view_types/stat_default.svg) [Statistics](./statistics/README.md): the statistical indicators of the data set fields.
 * ![Coarse сlasses](../images/icons/view_types/coarseclasses_default.svg) [Coarse сlasses](./fine-classes/README.md): results of the optimal binning procedure in the form of fine and coarse classes and WoE chart and values of Information values IV.
 * ![Regression report](../images/icons/view_types/logregressreport_default.svg)/![Regression report](../images/icons/view_types/linregressreport_default.svg) [Regression report](./regression/README.md): statistical indicators and results of the statistical tests for analysis of regression models.
-* ![Binary classification assessment](../images/icons/view_types/roc_default.svg) [Binary classification assessment](./binary-classification/README.md) enables to generate data series sets for construction of charts. The optimal cutoffs are defined and classification assessments are calculated. To get series points, it is required to construct histograms of events and non-events distribution in samples.
+* ![Binary classification assessment](../images/icons/view_types/roc_default.svg) [Binary classification assessment](./binary-classification/README.md): generate data series sets for construction of charts. The optimal cutoffs are defined and classification assessments are calculated. To get series points, it is required to construct histograms of events and non-events distribution in samples.
 
 There are also special visualizers unavailable in *Visualizers configuration* wizard and with constrained functionality. They are suitable for preliminary data study or control:
 
