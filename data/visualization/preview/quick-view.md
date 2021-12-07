@@ -1,4 +1,4 @@
-# ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Quick View of Data
+# ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Quick Data View
 
 It provides the limited amount of data for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
 
@@ -27,7 +27,7 @@ Different ports have different options and constraints:
 | Variables | • | | | | &nbsp; |
 
 * ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Sort ascending** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Sort descending**: sorting enables to sort data by the selected field in ascending or descending order. It is performed only for the current data set according to the set limits.
-* ![ ](../../images/icons/grid/columns.svg) **Columns** enables to change visibility (disable/enable display) of the defined columns.
+* ![ ](../../images/icons/grid/columns.svg) **Columns**: change visibility (disable/enable display) of the defined columns.
 * ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Freeze column** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Unfreeze column**: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.
 
 It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.
