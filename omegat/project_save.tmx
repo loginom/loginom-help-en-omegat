@@ -36460,8 +36460,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Гистограмма;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145152Z" creationid="Марианна" creationdate="20211012T145152Z">
-        <seg>Histogram;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080351Z" creationid="Марианна" creationdate="20211012T145152Z">
+        <seg>Histogram.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37604,8 +37604,8 @@ DESC period</seg>
       <tuv lang="ru">
         <seg>Диаграмма размаха;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145219Z" creationid="Марианна" creationdate="20211012T145219Z">
-        <seg>Box plot;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080356Z" creationid="Марианна" creationdate="20211012T145219Z">
+        <seg>Box plot.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45629,8 +45629,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Максимум;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145232Z" creationid="Марианна" creationdate="20211012T145232Z">
-        <seg>Maximum;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080408Z" creationid="Марианна" creationdate="20211012T145232Z">
+        <seg>Maximum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46213,8 +46213,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Минимум;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145226Z" creationid="Марианна" creationdate="20211012T145226Z">
-        <seg>Minimum;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080404Z" creationid="Марианна" creationdate="20211012T145226Z">
+        <seg>Minimum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47916,8 +47916,8 @@ Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".</se
       <tuv lang="ru">
         <seg>Настройка показателей</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211013T095343Z" creationid="Марианна" creationdate="20211012T145118Z">
-        <seg>Configure indicators</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080344Z" creationid="Марианна" creationdate="20211012T145118Z">
+        <seg>Configure Indicators</seg>
       </tuv>
     </tu>
     <tu>
@@ -57401,8 +57401,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Пропуски;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145256Z" creationid="Марианна" creationdate="20211012T145256Z">
-        <seg>Null count;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080424Z" creationid="Марианна" creationdate="20211012T145256Z">
+        <seg>Null count.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60209,8 +60209,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Среднее;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145239Z" creationid="Марианна" creationdate="20211012T145239Z">
-        <seg>Average;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080412Z" creationid="Марианна" creationdate="20211012T145239Z">
+        <seg>Average.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60377,8 +60377,8 @@ Examples of the time format:
       <tuv lang="ru">
         <seg>Стандартное отклонение;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211012T145248Z" creationid="Марианна" creationdate="20211012T145248Z">
-        <seg>Standard deviation;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T080417Z" creationid="Марианна" creationdate="20211012T145248Z">
+        <seg>Standard deviation.</seg>
       </tuv>
     </tu>
     <tu>
