@@ -45129,8 +45129,8 @@ $$\displaystyle\mathsf{F_1=2⋅\frac{PPV⋅TPR}{PPV+TPR}=\frac{2TP}{2TP+FP+FN}}$
       <tuv lang="ru">
         <seg>Коэффициенты регрессии могут быть представлены в виде &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Таблицы&lt;x4/&gt; (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T231931Z" creationid="Марианна" creationdate="20211010T231931Z">
-        <seg>Regression coefficients can be represented in the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt; form (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T073542Z" creationid="Марианна" creationdate="20211010T231931Z">
+        <seg>Regression coefficients can be represented in the &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Table&lt;x4/&gt; (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -66285,8 +66285,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>рисунок 1) или &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Дерева&lt;x8/&gt; (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211010T232000Z" creationid="Марианна" creationdate="20211010T232000Z">
-        <seg>Figure 1) or &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Tree&lt;x8/&gt; (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T073555Z" creationid="Марианна" creationdate="20211010T232000Z">
+        <seg>Figure 1) or &lt;x5/&gt;&lt;x6/&gt; &lt;x7/&gt;Tree&lt;x8/&gt; form (refer to</seg>
       </tuv>
     </tu>
     <tu>
