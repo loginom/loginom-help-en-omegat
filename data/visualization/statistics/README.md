@@ -17,16 +17,16 @@
 
 > **Note:** It is possible to define the number of records of the data set to which this visualizer is applied in Row count of data column located in the right toolbar part, to the left from the ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) *Histogram* button.
 
-### Configure indicators
+### Configure Indicators
 
 The following eight indicators are displayed by default:
-* Histogram;
-* Box plot;
-* Minimum;
-* Maximum;
-* Average;
-* Standard deviation;
-* Null count;
+* Histogram.
+* Box plot.
+* Minimum.
+* Maximum.
+* Average.
+* Standard deviation.
+* Null count.
 * Unique.
 
 But if that's not enough, [whole list](./statistics-description.md) is available via ![](../../images/icons/toolbar-controls/row-sum_default.svg) *Configure indicators* operation.
