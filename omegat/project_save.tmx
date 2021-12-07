@@ -4104,8 +4104,8 @@ console.log(UsageType[col0.DefaultUsageType]);</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Столбцы&lt;x4/&gt; — позволяет изменить видимость (отключить/включить отображение) определенным столбцам.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211014T111022Z" creationid="Марианна" creationdate="20211014T110946Z">
-        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt; enables to change visibility (disable/enable display) of the defined columns.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211207T074438Z" creationid="Марианна" creationdate="20211014T110946Z">
+        <seg>&lt;x1/&gt; &lt;x2/&gt; &lt;x3/&gt;Columns&lt;x4/&gt;: change visibility (disable/enable display) of the defined columns.</seg>
       </tuv>
     </tu>
     <tu>
