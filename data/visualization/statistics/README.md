@@ -36,7 +36,7 @@ When hovering cursor over the Box plot indicator, the detailing is displayed.
 
 > **Note:** The histogram is not displayed if there are too many unique values in the dimension (for the discrete fields). It can be viewed in the additional window by pressing ![](../../images/icons/toolbar-controls_18x18/toolbar-controls_18x18_toggle-left-panel_default.svg) *Histogram* button.
 
-### Detailed histogram window
+### Detailed Histogram Window
 
 When selecting the required field and pressing ![](../../images/icons/toolbar-controls/toggle-left-panel_default.svg) *Histogram* button, the additional window with advanced settings and more detailed description of histogram is opened in the right part of the interface (refer to Figure 2).
 
@@ -44,10 +44,10 @@ When selecting the required field and pressing ![](../../images/icons/toolbar-co
 
 The following options are available:
 * Sorting of the histogram indicators in ascending/descending order.
-* Configure display of the histogram indicators;
-* Set the own maximum field value;
-* Set the own minimum field value;
-* Set the own bin count (when the field refers to the continuous type);
+* Configure display of the histogram indicators.
+* Set the own maximum field value.
+* Set the own minimum field value.
+* Set the own bin count (when the field refers to the continuous type).
 * Include Null values into the histogram (for the discrete field).
 
 > **Note:** After the changes of options specified above, the histogram visualisation changes only in the detailed window, whereas it is the same in the main visualizer window.
