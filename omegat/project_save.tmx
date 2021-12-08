@@ -61853,8 +61853,8 @@ to set parameters of the node settings.</seg>
       <tuv lang="ru">
         <seg>Таким образом, платформа может использоваться как для создания автономных аналитических решений, так и для разработки модулей, интегрируемых со сторонними системами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211208T100152Z" creationid="Марианна" creationdate="20200715T091041Z">
-        <seg>Thus, the platform can be used both for creation of independent analytical solutions, and for development of modules integrated with external systems.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211208T100323Z" creationid="Марианна" creationdate="20200715T091041Z">
+        <seg>Thus, the platform can be used both for creation of independent analytical solutions and for development of modules integrated with external systems.</seg>
       </tuv>
     </tu>
     <tu>
