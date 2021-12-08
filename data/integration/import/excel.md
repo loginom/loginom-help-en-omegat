@@ -45,7 +45,7 @@ It is required to specify the following parameters at the configuration stage:
 
 * It is required to display the following data:
    * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
-   * **Raw data**: the source version of the downloaded data wil be displayed in the table wizard part.
+   * **Raw data**: the source version of the downloaded data will be displayed in the table wizard part.
 
 The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
