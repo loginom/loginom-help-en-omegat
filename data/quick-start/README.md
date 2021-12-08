@@ -2,7 +2,7 @@
 
 To solve the analysis tasks, [**Loginom**](https://loginom.ru) allows for data import from different sources and application of the required processing algorithms. It is possible to view results in the system or to export them to the external data receivers.
 
-Thus, the platform can be used both for creation of independent analytical solutions, and for development of modules integrated with external systems.
+Thus, the platform can be used both for creation of independent analytical solutions and for development of modules integrated with external systems.
 
 One of the main concepts on which the [**Loginom**](https://loginom.ru) platform is based is the [Workflow](./first-scenario.md).
 
