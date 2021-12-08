@@ -46109,8 +46109,8 @@ Measure: Amount of sales (Amount).&lt;x4/&gt;</seg>
       <tuv lang="ru">
         <seg>Механизм решения подзадачи внутри «черного ящика» можно изменить, но в целом проект при этом останется работоспособным и будет выполнять поставленные задачи.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200718T135924Z" creationid="Марианна" creationdate="20200718T135924Z">
-        <seg>It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and wil perform the set tasks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211208T095922Z" creationid="Марианна" creationdate="20200718T135924Z">
+        <seg>It is possible to change the subtask solution mechanism inside the "black box". But on the whole, the project is still operable and will perform the set tasks.</seg>
       </tuv>
     </tu>
     <tu>
