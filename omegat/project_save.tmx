@@ -55493,8 +55493,8 @@ It accepts supplementary transaction items that can be taken into account when c
       <tuv lang="ru">
         <seg>При использовании сторонних библиотек возможно переопределение значений по умолчанию параметров &lt;x3/&gt;Режим синхронизации&lt;x4/&gt; и &lt;x5/&gt;Режим журнала транзакций&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210210T221644Z" creationid="Марианна" creationdate="20210210T221644Z">
-        <seg>When third-party libraries are used, it is possible to refefine values of &lt;x3/&gt;Sync mode&lt;x4/&gt; and &lt;x5/&gt;Transaction journal mode&lt;x6/&gt; parameters by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211226T164251Z" creationid="Марианна" creationdate="20210210T221644Z">
+        <seg>When third-party libraries are used, it is possible to redefine values of &lt;x3/&gt;Sync mode&lt;x4/&gt; and &lt;x5/&gt;Transaction journal mode&lt;x6/&gt; parameters by default.</seg>
       </tuv>
     </tu>
     <tu>
