@@ -49,7 +49,7 @@ The following parameters are set during the connection setup:
 * **Create DB if it doesn't exist**: when this checkbox is selected, the database specified in the *Connection string* parameter will be created if it doesn't exist. The new DB is created using UTF-16 encoding.
 * **Description**: it is possible to provide any reference connection data in this form.
 
-> **Note:** To provide connection to the database, sqlite3.dll and sqlcipher.dll libraries are used. Their bitness matches the Loginom application/ server bitness. These libraries are included into the Loginom distribution kit. When third-party libraries are used, it is possible to refefine values of *Sync mode* and *Transaction journal mode* parameters by default.
+> **Note:** To provide connection to the database, sqlite3.dll and sqlcipher.dll libraries are used. Their bitness matches the Loginom application/ server bitness. These libraries are included into the Loginom distribution kit. When third-party libraries are used, it is possible to redefine values of *Sync mode* and *Transaction journal mode* parameters by default.
 
 ## Compatibility
 
