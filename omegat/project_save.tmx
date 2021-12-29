@@ -18263,8 +18263,8 @@ The size of each sample is customized. The "Method" button used for calculation 
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Очистить таблицу и заполнить данными&lt;x2/&gt; — таблица базы данных будет полностью очищена и затем наполнена строками экспортируемой таблицы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200916T113028Z" creationid="Марианна" creationdate="20200916T112117Z">
-        <seg>&lt;x1/&gt;Clear table and fill in data&lt;x2/&gt; enables to clear the database table completely and fill in with rows of the exported table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T092459Z" creationid="Марианна" creationdate="20200916T112117Z">
+        <seg>&lt;x1/&gt;Clear table and append data&lt;x2/&gt; enables to clear the database table completely and fill in with rows of the exported table.</seg>
       </tuv>
     </tu>
     <tu>
