@@ -1,78 +1,78 @@
 ---
 description: Компонент Квантование в Loginom. Конечное число интервалов. Диапазоны для квантования. Методы квантования. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/binning_default.svg) Квантование
+# ![ ](./../../images/icons/components/binning_default.svg) Binning
 
-## Описание
+## Description
 
-Компонент разбивает диапазон значений выбранных полей исходного набора на конечное число интервалов. Для разбиения возможно применение различных алгоритмов (см. далее методы квантования), а также использование [внешних таблиц](./binning/external-ranges.md) с заданными интервалами квантования. Квантование применяется к данным с типами: целый, вещественный и дата/время (см. [типы данных](./../../data/datatype.md)).
+Компонент разбивает диапазон значений выбранных полей исходного набора на конечное число интервалов. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./binning/external-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and date/time (refer to [data types](./../../data/datatype.md)).
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
-* ![ ](./../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт. Внешние диапазоны квантования (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
+* ![ ](./../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port. External binning ranges (data table).
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). [Описание структуры](./binning/calculated-columns.md) результирующего набора.
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Диапазоны для квантования (таблица данных). [Описание структуры](./binning/parameters-of-binning-ranges.md) таблицы диапазонов.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). [Description of structure](./binning/calculated-columns.md) of resulting data set.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Binning ranges (data table). [Description of structure](./binning/parameters-of-binning-ranges.md) of range table.
 
-## Мастер настройки
+## Wizard
 
-Мастер настройки состоит из двух основных областей:  область настройки параметров квантования  и область  отображения результатов квантования. Обе области организованы в виде таблицы. Над ними располагается строка состояния входа.
+The wizard consists of two main areas: area of binning parameters configuration and area of binning results display. Both areas are organized in the table form. Login status row is located below them.
 
-### Область настройки параметров квантования
+### Area of Binning Parameters Configuration
 
-Область представлена в виде таблицы. Над полями расположены три кнопки:
+The area is represented in the table form. Three buttons are located over the fields:
 
-* ![ ](./../../images/icons/common/toolbar-controls/edit_default.svg) Редактировать — при нажатии позволяет редактировать параметры квантования для выбранного поля;
-* ![ ](./../../images/icons/common/toolbar-controls/dec-decimal-places-count_default.svg) Уменьшить разрядность — каждое нажатие кнопки уменьшит разрядность границ интервалов на один знак после запятой;
-* ![ ](./../../images/icons/common/toolbar-controls/inc-decimal-places-count_default.svg) Увеличить разрядность — каждое нажатие кнопки увеличит разрядность границ интервалов на один знак после запятой.
+* ![ ](./../../images/icons/common/toolbar-controls/edit_default.svg) Edit: when pressing, it enables to edit the binning parameters for the selected field.
+* ![ ](./../../images/icons/common/toolbar-controls/dec-decimal-places-count_default.svg) Decrease decimal: each button pressing decreases bitness of bin bounds by one decimal place.
+* ![ ](./../../images/icons/common/toolbar-controls/inc-decimal-places-count_default.svg) Increase decimal: each button pressing increases bitness of bin bounds by one decimal place.
 
-Таблица этой области состоит из нескольких столбцов:
+The area table consists of several columns:
 
-* **Поле** — содержит поля исходного набора данных, к которым применима процедура квантования. Это поля типа: целый, вещественный,  дата/время.
-* **Метод** — поле представлено раскрывающимся списком, из которого необходимо выбрать метод квантования:
-  * Ширина — пользователь может выбирать ширину интервала, а количество интервалов рассчитывается автоматически, как отношение разности верхней и нижней границ к заданной ширине. Выставив соответствующие флаги, можно задать:
-    * Верхнюю границу — верхняя граница самого высокого интервала;
-    * Нижнюю границу — нижняя граница самого низкого интервала.
-  * Количество — выбирается количество интервалов, а ширина рассчитывается автоматически, как отношение разности верхней и нижней границ к заданному количеству интервалов. Для этого метода так же можно задать верхнюю и нижнюю границы.
-  * Плитка — пользователь выбирает количество интервалов, а компонент задает диапазоны интервалов таким образом, чтобы в каждом интервале было примерно одинаковое количество значений. Имеется несколько способов обработки совпадающих значений:
-    * Добавлять в следующий — перенесет значения совпадающих наблюдений в следующий (более высокий) интервал разделения.
-    * Сохранять в текущем — сохраняет значения совпадающих наблюдений в текущем (более низком) интервале разделения. Этот метод может привести к тому, что всего будет создано меньше интервалов.
-    * Назначать случайно — типы границ интервалов будут определены случайно; возможно включение одинаковых значений в тот или иной интервал случайным образом.
-    * Оставить как есть — границы всех интервалов будут иметь тип **>=**, и возможна ситуация, когда совпадающие значения окажутся в разных интервалах.
-    * Одинаковые плитки — достижение равного количества значений в интервалах обеспечивается не только подбором диапазонов интервалов, но и подбором типов границ для каждого интервала (**>** или **>=**).
-  * [Коэффициенты СКО](https://wiki.loginom.ru/articles/mean-square-deviation.html) — разбивает значения на интервалы в зависимости от выбранного диапазона, выраженного в количестве **σ** (СКО).
-  * [Внешние диапазоны.](./binning/external-ranges.md)
-  
-    Для всех методов квантования можно установить флаг *Округлять границы*. 
-* **Автоматически** — установленная галочка в этом поле обеспечивает автоматическую настройку параметров квантования выбранного метода.
-* **Интервалов** — количество интервалов, на которые будут разбиты значения поля.
-* **Минимум** — отображается минимальное значение квантуемого поля.
-* **Максимум** — отображается максимальное значение квантуемого поля.
+* **Field**: contains the initial data set fields to which the binning procedure can be applied. The following field types are used: integer, real, date/time.
+* **Method**: the field is represented by the drop-down list to select a binning method:
+   * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width. The following parameters can be set by selecting corresponding checkboxes:
+      * Upper bound — upper bound of the highest bin.
+      * Нижнюю границу — нижняя граница самого низкого интервала.
+   * Count: count of bins is selected and the width is automatically calculated as ratio of upper and lower bounds difference and the set count of bins. Upper and lower bounds can be also set for this method.
+   * Tile: a user selects count of bins and the component enables to set bin ranges in such a way that provides approximately the same number of values in each bin. There are several methods to process matching values:
+      * Add to next: moves the values of matching observations to the next (higher) separation bin.
+      * Keep in current: keeps the values of matching observations in the current (lower) separation bin. This method can cause creation of less number of bins in total.
+      * Assign randomly: types of bin bounds will be randomly assigned. It is possible to include the same values into this or that bin in a random manner.
+      * Leave as is: bounds of all bins will be related to **>=** type, and matching values can be in different bins.
+      * Assign optimal: the equal number of values in bins is provided not only by selecting bin ranges, but also by selecting types of bounds for each bin (**>** or **>=**).
+   * [SD coefficients](https://wiki.loginom.ru/articles/mean-square-deviation.html): bins values to bins according to the selected range expressed in the quantity of **σ** (SD).
+   * [External ranges.](./binning/external-ranges.md)
 
-Далее в каждой строке  располагается кнопка ![ ](./../../images/icons/common/toolbar-controls/refresh_default.svg)"рассчитать интервалы" и в шапке таблицы ![ ](./../../images/icons/common/toolbar-controls/refresh_default.svg)"рассчитать все интервалы". При их нажатии пересчитываются параметры квантования (количество интервалов, минимум, максимум) в зависимости от изменения методов и/или настроек параметров. Этот функционал доступен только при состоянии "Вход активирован".
+      It is possible to select *Round limits* checkbox for all binning methods.
+* **Auto**: the checkbox selected in this field secures auto setup of binning parameters for the selected method.
+* **Bins**: count of bins to which the field values will be binned.
+* **Minimum**: the minimum value of the quantized field is displayed.
+* **Maximum**: the maximum value of the quantized field is displayed.
 
-### Область  отображения результатов квантования
+Later on, ![ ](./../../images/icons/common/toolbar-controls/refresh_default.svg)"calculate bins" button is located in each row, and ![ ](./../../images/icons/common/toolbar-controls/refresh_default.svg)"calculate all bins" button is located in the table head. Their pressing enables to recalculate binning parameters (count of bins, minimum, maximum) taking into account changed methods and/or configuration of parameters. This functionality is available only for "Input activated" state.
 
-В этой области отображаются результаты квантования с возможностью их редактирования.  
-Над полями таблицы расположены несколько элементов управления:
+### Area of Binning Results Display
 
-* ![ ](./../../images/icons/ext/checkbox-states/checked_default.svg) **Нижняя граница открыта** — убирает нижнюю границу;
-* ![ ](./../../images/icons/ext/checkbox-states/checked_default.svg) **Верхняя граница открыта** — убирает верхнюю границу;
-* ![ ](./../../images/icons/common/toolbar-controls/invert-bound-type_default.svg) **Инвертировать тип** — меняет тип границ;
-* ![ ](./../../images/icons/common/toolbar-controls/calculate-barchart_default.svg) — пересчитывает гистограмму согласно новым параметрам.
-* **Шаблон** — в этом поле происходит настройка шаблона для отображения метки интервала, в нем можно составить пользовательский шаблон или при нажатии на ![ ](./../../images/icons/common/toolbar-controls/down_default.svg) выбрать один из готовых шаблонов. Чтобы применить шаблон необходимо нажать кнопку ![ ](./../../images/icons/common/toolbar-controls/apply_default.svg).
-* **Образец** — при клике на эту кнопку открывается таблица обозначений, которые можно использовать при составлении шаблона.
+The binning results that can be edited are displayed in this area.  
+Several control elements are located over the table fields:
 
-Под элементами управления расположена таблица с результатами квантования выделенного поля, она содержит следующие поля:
+* ![ ](./../../images/icons/ext/checkbox-states/checked_default.svg) **Lower bound open**: removes the lower bound.
+* ![ ](./../../images/icons/ext/checkbox-states/checked_default.svg) **Upper bound open**: removes the upper bound.
+* ![ ](./../../images/icons/common/toolbar-controls/invert-bound-type_default.svg) **Invert type**: changes the bound type.
+* ![ ](./../../images/icons/common/toolbar-controls/calculate-barchart_default.svg): recalculates the histogram according to the new parameters.
+* **Template**: this field is used to configure a template to display bin caption. It is possible to create a user template in it, or select one of ready templates by pressing ![ ](./../../images/icons/common/toolbar-controls/down_default.svg). To apply the template, it is required to press ![ ](./../../images/icons/common/toolbar-controls/apply_default.svg) button.
+* **Example**: by pressing this button, it is possible to open the table of symbols used to create a template.
 
-* **№** — номер интервала;
-* **Нижняя** — нижняя граница интервала;
-* **Тип** — тип границы;
-* **Верхняя** — верхняя граница интервала;
-* **Метка** — метка интервала (ее можно задавать шаблоном);
-* **Объём** — отображает объем значений, попавших в интервал (отображается в виде гистограммы).
+The table with the binning results received for the selected field is located under control elements. It contains the following fields:
 
->**Важно:** При изменении границ диапазонов квантования вручную гистограмма автоматически не пересчитывается. Чтобы увидеть обновленную (пересчитанную) гистограмму, нужно нажать на кнопку ![ ](./../../images/icons/common/toolbar-controls/calculate-barchart_default.svg) "Пересчитать гистограмму". При большом объеме данных перестройка гистограммы займет некоторое время, если нет необходимости в ее просмотре, можно сразу перейти на следующий шаг мастера настройки.
+* **No** — bin number;
+* **Lower** — lower bin bound;
+* **Type** — bound type;
+* **Upper** — upper bin bound;
+* **Caption** — bin caption (it can be set using a template);
+* **Volume** enables to display the volume of values included into the bin (it is displayed in the form of a histogram).
+
+> **Важно:** При изменении границ диапазонов квантования вручную гистограмма автоматически не пересчитывается. Чтобы увидеть обновленную (пересчитанную) гистограмму, нужно нажать на кнопку ![ ](./../../images/icons/common/toolbar-controls/calculate-barchart_default.svg) "Пересчитать гистограмму". При большом объеме данных перестройка гистограммы займет некоторое время, если нет необходимости в ее просмотре, можно сразу перейти на следующий шаг мастера настройки.

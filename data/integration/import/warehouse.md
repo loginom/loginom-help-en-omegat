@@ -1,104 +1,104 @@
 ---
 description: Импорт данных в Loginom из Хранилища данных Deductor Warehouse. Мастер настройки.
 ---
-# ![Импорт из ХД](./../../images/icons/common/data-sources/wh-datawarehouse-import_default.svg) Импорт из Deductor Warehouse
+# ![Import from the DW](./../../images/icons/common/data-sources/wh-datawarehouse-import_default.svg) Import from Deductor Warehouse
 
-Компонент предназначен для импорта набора данных из Хранилища данных [Deductor Warehouse](./../../data-format/data-warehouse.md) (далее — Хранилище данных).
+The component is designated for data import from the Data Warehouse [Deductor Warehouse](./../../data-format/data-warehouse.md) (hereafter referred to as the Data Warehouse).
 
-> **Важно:** Для работы узла требуется предварительно создать [Подключение](./../connections/README.md) к *Хранилищу данных* и связать его с входным портом *Подключение*.
+> **Important:** For the node operation, it is required to pre-create [Connection](./../connections/README.md) to the *Data Warehouse* and connect it with the *Connection* input port.
 
-## Порты
+## Ports
 
-### Входные порты
+### Input Ports
 
 * ![Порт подключений](./../../images/icons/app/node/ports/inputs/link_inactive.svg) **Подключение** — принимает параметры подключения к Хранилищу данных.
 
-### Выходные порты
+### Output Ports
 
-* ![Выходной порт таблицы](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Набор данных** — Импортированные из хранилища данные.
+* ![Output port of table](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set**: the data imported from the Data Warehouse.
 
-## Мастер настройки
+## Wizard
 
 Позволяет настроить импорт из Хранилища данных.
 
-### Шаг 1. Выбор объекта хранилища данных
+### Step 1. Select Data Warehouse Object
 
-* **Подключение** — отображает строку подключения к источнику данных. Недоступна для редактирования.
-* **Активировать** — позволяет установить связь с Хранилищем данных, если это еще не было сделано. После установления связи кнопка перестает быть активной, а название меняется на *Активировано*.
+* **Connection** enables to display a string of connection to data source. Недоступна для редактирования.
+* **Activate** provides connection with the Data Warehouse if it has not been established yet. Upon connection establishment, the button is inactive, and the name is changed to *Activated*.
 * **Объекты хранилища данных** — содержит древовидный список ![Процессы](./../../images/icons/imports/dwh/data-warehouse/fact-tables-folder_default.svg) *Процессов* и ![Измерения](./../../images/icons/imports/dwh/data-warehouse/dimensions-folder_default.svg) *Измерений*, из которых необходимо выбрать лишь один объект — ![Процесс](./../../images/icons/imports/dwh/data-warehouse/fact-table_default.svg) *Процесс* или ![Измерение](./../../images/icons/imports/dwh/data-warehouse/dimension_default.svg) *Измерение*.
 
-### Шаг 2. Импорт из хранилища данных
+### Step 2. Import from Data Warehouse
 
-На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге: измерениями, атрибутами и фактами.
+This page is designated for work with internal items of the object selected at the previous stage: dimensions, attributes and facts.
 
-Окно мастера поделено на две области:
+The wizard window is divided into two areas:
 
 * **Доступные элементы** — левая часть со списком возможных для выбора элементов, соответствующих выбранному на предыдущем шаге объекту.
 * **Выбранные элементы** — правая часть с уже выбранными элементами, которая позволяет указать интересующие элементы из левой части и задать им необходимые условия и значения.
 
-Элемент может присутствовать только в одном списке. Между списками доступно перемещение элементов, в том числе и с помощью перетаскивания (*drag&drop*).
+The item can be only in one list. It is possible to move items between the lists, including drag&drop (*drag&drop*).
 
-### Доступные элементы
+### Available Items
 
 * **Параметр** — метка параметра. При наведении курсора мыши появляется полное название метки.
-* **Тип** — отображает тип элемента. Может быть:
-  * ![Измерение](./../../images/icons/imports/dwh/data-warehouse/dimension_default.svg) *Измерение*.
-  * ![Факт](./../../images/icons/imports/dwh/data-warehouse/fact_default.svg) *Факт*.
-  * ![Атрибут](./../../images/icons/imports/dwh/data-warehouse/attribute_default.svg) *Атрибут*.  
+* **Тип** — отображает тип элемента. There are the following items:
+   * ![Dimension](./../../images/icons/imports/dwh/data-warehouse/dimension_default.svg) *Dimension*.
+   * ![Fact](./../../images/icons/imports/dwh/data-warehouse/fact_default.svg) *Fact*.
+   * ![Attribute](./../../images/icons/imports/dwh/data-warehouse/attribute_default.svg) *Attribute*.
 
 > **Примечание:** Агрегация обязательна при импорте из хранилища данных. Агрегировать возможно только те данные, где тип объекта хранилища данных является фактом.
-Варианты агрегации: Сумма, Минимум, Максимум, Среднее, Количество.
+> Варианты агрегации: Сумма, Минимум, Максимум, Среднее, Количество.
 
-Список можно отсортировать, нажав по колонке *Параметр* или *Тип*. Выделить несколько элементов можно удерживая клавишу Shift или Ctrl.
+It is possible to sort the list by pressing the *Parameter* or the *Type* column. It is possible to select several items by holding down the Shift or Ctrl key.
 
-Контекстное меню:
+The context menu:
 
 * ![Переместить](./../../images/icons/common/toolbar-controls/create-out-column_default.svg) **Переместить в выбранные** — перемещает выделенный элемент в список *Выбранные элементы*.
-* ![Переместить все](./../../images/icons/common/toolbar-controls/create-out-columns_default.svg) **Переместить в выбранные все** — перемещает все доступные элементы в список *Выбранные элементы*.
+* ![Move all](./../../images/icons/common/toolbar-controls/create-out-columns_default.svg) **Move all to selected** enables to transfer all available items to the *Selected items* list.
 
-### Выбранные элементы
+### Selected Items
 
 * ![Выводить](./../../images/icons/imports/dwh/data-warehouse/on_default.svg) **Выводить** — определяет, будет ли добавлен этот элемент в виде поля в выходной набор данных (если отключено, то поле добавлено не будет, но по нему можно установить фильтр).
 * **Поле** — то же, что и *Параметр* в *Доступных элементах*.
 * **Тип** — то же, что и *Тип* в *Доступных элементах*.
 * **Условие** — для *Измерений* и *Атрибутов* позволяет выбирать из выпадающего списка условие фильтрации.
 * **Значение** — для *Фактов* отображает выбранные [агрегации](./../../processors/func/aggregation-functions.md), для остальных элементов — значение фильтрации, если указано условие.
-* ![Удалить](./../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить** — перемещает соответствующий параметр обратно в список *Доступные элементы*.
+* ![Delete](./../../images/icons/common/toolbar-controls/delete_default.svg) **Delete** enables to move the required parameter back to the *Available items* list.
 
-> **Примечание:** если отключить вывод элемента и не задать *условий* и/или *значений*, то после сохранения списка этот элемент будет перемещен обратно в список *Доступные элементы*.
+> **Note:** if the item showing is disabled, and no *conditions * and/or *values* are specified, upon the list saving, this item will be moved back to the *Available items* list.
 
-Если в поле *Условие* выбран вариант *в списке* или *вне списка*, то в поле *Значение* появится возможность отредактировать список, по которому будет проводиться сравнение. При нажатии на кнопку ![уточнить](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) откроется окно *Список значений* (см. далее).
+Если в поле *Условие* выбран вариант *в списке* или *вне списка*, то в поле *Значение* появится возможность отредактировать список, по которому будет проводиться сравнение. При нажатии на кнопку ![уточнить](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) откроется окно *Список значений* (см. below).
 
 Если в поле *Условие* выбран любой другой вариант, то в поле *Значение* появится возможность указать некоторые параметры фильтрации с помощью переменных. При нажатии на кнопку ![уточнить](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) откроется окно, в котором можно указать нужное значение напрямую либо выбрать соответствующую переменную из списка.
 
-Очередность элементов можно изменить:
+It is possible to change the order of items.
 
 * ![Переместить вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенный элемент вверх по списку.
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенный элемент вниз по списку.
+* ![Move down](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected item down the list.
 
-Для исключения элемента из списка выбранных:
+To exclude the item from the list of selected items, it is required to perform the following actions:
 
 * Перетащить элемент из списка *Выбранные элементы* в *Доступные элементы*.
-* Нажать на кнопку ![Удалить](./../../images/icons/common/toolbar-controls/delete_default.svg) *Удалить*.
+* Press ![Delete](./../../images/icons/common/toolbar-controls/delete_default.svg) *Delete* button.
 
-Для очистки всего списка нажать ![Удалить все](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Удалить все...*.
+To clear the whole list, it is required to press ![Delete all](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Delete all...* button.
 
-Контекстное меню дублирует общие функции:
+The context menu duplicates the general functions:
 
 * ![Выводить](./../../images/icons/ext/checkbox-states/checked_default.svg) **Выводить** — определяет, будет ли добавлен этот элемент в виде поля в выходной набор данных.
-* ![Удалить](./../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить** — перемещает соответствующий параметр обратно в список *Доступные элементы*.
+* ![Delete](./../../images/icons/common/toolbar-controls/delete_default.svg) **Delete** enables to move the required parameter back to the *Available items* list.
 * ![Удалить все](./../../images/icons/common/toolbar-controls/delete-all_default.svg) **Удалить все** — перемещает все параметры обратно в список *Доступные элементы*.
 * ![Переместить вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенный элемент вверх по списку.
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенный элемент вниз по списку.
+* ![Move down](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected item down the list.
 
-Доступны горячие клавиши, дублирующие некоторые перечисленные команды:
+The following hotkeys duplicating some listed commands are available:
 
-* %kbd Delete % — удалить;
-* %kbd Shift Delete % — удалить все;
+* %kbd Delete %: delete.
+* %kbd Shift Delete %: delete all.
 * %kbd Ctrl Up % — переместить вверх;
 * %kbd Ctrl Down % — переместить вниз.
 
-#### Список значений
+#### List of Values
 
 Позволяет выбрать строки, с которыми будут сравниваться значения.
 
@@ -107,8 +107,8 @@ description: Импорт данных в Loginom из Хранилища дан
 * ![Отменить выбор всех](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Отменить выбор всех** — убирает выбор всех строк.
 * ![Инвертировать выбор](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Инвертировать выбор** — меняет отмеченные и неотмеченные элементы местами.
 * ![Добавить](./../../images/icons/common/toolbar-controls/plus_default.svg) **Добавить** — позволяет добавить в список новую строку.
-* ![Редактировать](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать** — позволяет отредактировать добавленную в список строку.
+* ![Edit](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit** enables to edit the row added to the list.
 
-При помощи поля ![фильтр](./../../images/icons/common/toolbar-controls/filter_default.svg) *Фильтрация* можно уменьшить видимую часть списка.
+Using the![filter](./../../images/icons/common/toolbar-controls/filter_default.svg) *Filter* field, it is possible to decrease the visible part of the list.
 
-После завершения работы со списком следует нажать кнопку *Применить* для внесения изменений либо *Отменить* для возврата к состоянию до начала работы со списком.
+When the work with the list is completed, it is required to press *Apply* button to introduce changes, or *Cancel* button to return to the state before the work with the list.

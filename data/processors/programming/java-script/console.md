@@ -1,26 +1,26 @@
 ---
 description: Компонент JavaScript в Loginom. Глобальный объект Консоль. Методы Console. Примеры.
 ---
-# ![](./../../../images/icons/components/javascript_default.svg) Консоль
+# ![](./../../../images/icons/components/javascript_default.svg) Console
 
-По умолчанию в окне [Предпросмотра](./../../../visualization/preview/preview.md) окно вывода сообщений консоли свернуто. Для его отображения/сворачивания используются кнопки ![ ](./../../../images/icons/common/toolbar-controls/up_default.svg) и ![ ](./../../../images/icons/common/toolbar-controls/down_default.svg).
+By default, the message console window in the [Preview](./../../../visualization/preview/preview.md) window is collapsed. ![ ](./../../../images/icons/common/toolbar-controls/up_default.svg) and ![ ](./../../../images/icons/common/toolbar-controls/down_default.svg) buttons are used to display/collapse it.
 
-В контекст JavaScript добавлен глобальный объект `Console`, реализующий базовый функционал [Console](https://developer.mozilla.org/ru/docs/Web/API/Console).
+The global `Console` object implementing the basic [Console](https://developer.mozilla.org/ru/docs/Web/API/Console) function was added within the JavaScript context.
 
-## Методы Console
+## Console Methods
 
-При выполнении узла сообщения консоли записываются в лог сервера, если тип сообщения соответствует [уровню логирования](./../../../admin/parameters.md#parametry-logirovaniya) (`ошибка`, `предупреждение`, `информация`):
+When running the node, the console messages are recorded to the server log, if the message type matches the [logging level](./../../../admin/parameters.md#parametry-logirovaniya) (`error`, `warning`, `information`):
 
-Уровень логирования `ошибка`:
+The `error` logging level:
 
 %spoiler%assert%spoiler%
 
 **assert([assertion, msg1 , ..., msgN])**
 
-- assertion — любое булевое выражение. Если выражение ложно, то сообщение об ошибке выводится в консоль.
-- msg1...msgN — список JavaScript объектов на вывод. Строковое представление этих объектов будет соединено в порядке, указанном в списке, и выведено в консоль.
+- assertion means any boolean expression. If the expression is false, the error message is output to the console.
+- msg1...msgN — список JavaScript объектов на вывод. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
-Выводит сообщение об ошибке в случае, если первый параметр = `false`. В противном случае сообщение не выводится.
+It shows the error message, if the first parameter = `false`. Otherwise, the message is not shown.
 
 %/spoiler%
 
@@ -28,33 +28,33 @@ description: Компонент JavaScript в Loginom. Глобальный об
 
 **error([msg1 , ..., msgN])**
 
-- msg1...msgN — cписок JavaScript объектов на вывод. Строковое представление этих объектов будет соединено в порядке, указанном в списке, и выведено в консоль.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
-Выводит сообщение об ошибке.
+It shows the error message.
 
 %/spoiler%
 
-Уровень логирования `предупреждение`:
+The `warning` logging level:
 
 %spoiler%warn%spoiler%
 
 **warn([msg1 , ..., msgN])**
 
-- msg1...msgN — cписок JavaScript объектов на вывод. Строковое представление этих объектов будет соединено в порядке, указанном в списке, и выведено в консоль.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
-Выводит предупреждающее сообщение.
+It shows the warning message.
 
 %/spoiler%
 
-Уровень логирования `информация`:
+The `information` logging level:
 
 %spoiler%info%spoiler%
 
 **info([msg1 , ..., msgN])**
 
-- msg1...msgN — cписок JavaScript объектов на вывод. Строковое представление этих объектов будет соединено в порядке, указанном в списке, и выведено в консоль.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
-Выводит информационное сообщение.
+It shows the information message.
 
 %/spoiler%
 
@@ -62,25 +62,25 @@ description: Компонент JavaScript в Loginom. Глобальный об
 
 **log([msg1 , ..., msgN])**
 
-- msg1...msgN — cписок JavaScript объектов на вывод. Строковое представление этих объектов будет соединено в порядке, указанном в списке, и выведено в консоль.
+- msg1...msgN means a list of the JavaScript objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
-Выводит информационное сообщение.
+It shows the information message.
 
 %/spoiler%
 
-Прочие методы:
+Other methods:
 
 %spoiler%clear%spoiler%
 
 **clear()**
 
-Очищает консоль вывода сообщений в окне *Предпросмотра*. Не имеет аргументов.
+It enables to clean the message console in the *Preview* window. It does not have arguments.
 
 %/spoiler%
 
-## Примеры
+## Examples:
 
-Код вывода сообщений в консоль:
+Code of outputting messages to the console:
 
 ```javascript
 import { OutputTable, InputTables } from "builtIn/Data";
@@ -115,7 +115,7 @@ console.assert(1 == 0, "1 != 0");
 console.assert(1 == 0, "lie", "1 != 0");
 ```
 
-Вывод в консоль:
+Outputting to the console:
 
 ```
 Information
@@ -133,7 +133,7 @@ function Append() { [native code] }
 Error: error
 [object String]
 [object Boolean]
-Mon Dec 17 2018 18:40:56 GMT+0300 (RTZ 2 (зима))
+Mon Dec 17 2018 18:40:56 GMT+0300 (RTZ 2 (winter))
 [object ArrayBuffer]
 Symbol()
 Symbol(aaa)

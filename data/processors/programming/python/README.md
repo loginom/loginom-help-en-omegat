@@ -4,27 +4,27 @@ description: Компонент Python в Loginom. Создание нового
 
 # ![](./../../../images/icons/components/python_default.svg) Python
 
-## Описание
+## Description
 
-Узел создает новый набор данных с заданным составом и параметрами полей и заполняет его данными в ходе выполнения кода **Python**. Для заполнения выходного набора в коде возможно использование данных входных портов.
+Узел создает новый набор данных с заданным составом и параметрами полей и заполняет его данными в ходе выполнения кода **Python**. To append the output data set, it is possible to use the data of the input ports in the code.
 
 Состав и параметры полей выходного набора могут задаваться как в мастере настройки узла, так и из кода Python.
 
 > **Примечание:** Для работы узлов *Python* может потребоваться предварительная настройка Loginom и установка Python. Подробности в разделе [Параметры компонента: Python](./../../../admin/parameters.html#parametry-komponenta-python).
 
-### Вход
+### Input
 
 * ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Входной источник данных** (таблица данных), необязательный;
-* ![](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт – создает новый порт Входной источник данных[N], где N – порядковый номер порта;
+* ![](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port enables to create a new port - Input data source[N] where N is an order port number.
 * ![](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** (переменные), необязательный.
 
-### Выход
+### Output
 
-* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-## Мастер настройки
+## Wizard
 
-Последовательно выполняются следующие этапы настройки:
+The following configuration stages are successively executed:
 
 * Настройка столбцов **Выходной таблицы** *Python*;
 * **Python** – ввод кода и предварительный просмотр результатов.
@@ -39,7 +39,7 @@ description: Компонент Python в Loginom. Создание нового
 
 По кнопке [Предпросмотр…](./../../../visualization/preview/preview.md) в отдельном окне выводится до 100 первых строк результирующего набора данных и [панель вывода сообщений](./console.md).
 
-> **Примечание:** При нажатии на кнопку *Предпросмотра* активируются все входные порты. При успешном завершении активации открывается окно *Предпросмотра*.
+> **Note: It is possible to activate all input ports ** by pressing *Preview* button. The *Preview* window is opened if the activation has been successfully finished.
 
 При запуске скрипта на Python внутри процесса Loginom одновременно может выполняться только один узел *Python*, соответственно последующий в очереди запуска узел *Python* ожидает выполнения предыдущего. Максимальное время ожидания задается параметром **Тайм-аут ожидания запуска (мс)**. По умолчанию тайм-аут неограничен. Если время тайм-аута превышено, выполнение узла завершается с соответствующей ошибкой.
 
@@ -49,22 +49,22 @@ description: Компонент Python в Loginom. Создание нового
 
 Поддерживается импорт модулей Python (см. [Параметры компонента: Python](./../../../admin/parameters.html#parametry-komponenta-python)).
 
-См. также: [Горячие клавиши редактора кода](./hotkeys.md)
+Also refer to [Code editor hotkeys](./hotkeys.md)
 
 ## Доступ из кода Python к данным портов и другим встроенным объектам
 
 Для доступа к данным портов и другим встроенным объектам в контексте выполнения кода предусмотрены следующие объекты:
 
-* [Входные наборы данных](./input-tables.md) (`InputTables`, `InputTable`);
-* [Входные переменные](./input-variables.md) (`InputVariables`);
-* [Выходной набор данных](./output-table.md) (`OutputTable`);
-* [Необходимые перечисления](./enum.md) (`DataType`, `DataKind`, `UsageType`).
+* [Input data sets](./input-tables.md) (`InputTables`, `InputTable`);
+* [Input variables](./input-variables.md) (`InputVariables`);
+* [Output data set](./output-table.md) (`OutputTable`);
+* [Required enumerations](./enum.md) (`DataType`, `DataKind`, `UsageType`).
 
-Вышеуказанные объекты импортируются из встроенного модуля `"builtin_data"`. По умолчанию в текст исполняемого узлом кода добавляется строка импорта этих объектов.
+Вышеуказанные объекты импортируются из встроенного модуля `"builtin_data"`. The import string of these objects is added to the text of the code executed by the node by default.
 
-## Обработка ошибок
+## Processing of Errors
 
-При вызове окна *Предпросмотра* или выполнении узла выводится сообщение об обнаруженных синтаксических ошибках и ошибках хода выполнения с указанием позиции кода, содержащего ошибку.
+When calling the *Preview* window or executing the node, the message informing about detected syntactic and execution errors is shown specifying position of the code with an error.
 
 ## Особенности использования и ограничения
 
@@ -72,9 +72,9 @@ description: Компонент Python в Loginom. Создание нового
 * Максимальная протестированная версия Python — 3.10.
 * Python из дистрибутива Anaconda не поддерживается.
 * Не поддерживаются модули пакета [multiprocessing](https://docs.python.org/3/library/multiprocessing.html).
-* Создание GUI-интерфейса из кода Python не является целевым назначением компонента *Python* и в некоторых случаях может приводить к неверной работе приложения. Например:
-  * работа узла не будет прекращена до завершения работы GUI-приложения. При работе в серверных редакциях Loginom пользователь, как правило, не имеет доступа к окну GUI-приложения.
-  * для работы `matplotlib` с бэкэндом [Qt](https://wiki.qt.io/About_Qt) и в целом с [PyQt](https://riverbankcomputing.com/software/pyqt/intro) требуется наличие файла [qt.conf](https://doc.qt.io/qt-5/qt-conf.html) с путями к библиотекам/плагинам Qt. При невозможности их найти, приложение Loginom будет принудительно завершено с сообщением об ошибке.
+* Создание GUI-интерфейса из кода Python не является целевым назначением компонента *Python* и в некоторых случаях может приводить к неверной работе приложения. For example:
+   * работа узла не будет прекращена до завершения работы GUI-приложения. При работе в серверных редакциях Loginom пользователь, как правило, не имеет доступа к окну GUI-приложения.
+   * для работы `matplotlib` с бэкэндом [Qt](https://wiki.qt.io/About_Qt) и в целом с [PyQt](https://riverbankcomputing.com/software/pyqt/intro) требуется наличие файла [qt.conf](https://doc.qt.io/qt-5/qt-conf.html) с путями к библиотекам/плагинам Qt. При невозможности их найти, приложение Loginom будет принудительно завершено с сообщением об ошибке.
 * Оставленные незавершенными фоновые потоки могут приводить к аварийному завершению приложения.
 * В случае критических ошибок python3x.dll может аварийно завершить приложение. Рекомендуется использовать предварительно отлаженный код Python.
 * Одновременно может выполняться только один узел *Python*.
@@ -90,7 +90,7 @@ description: Компонент Python в Loginom. Создание нового
 
 В модулях относительный путь указывается от расположения модуля, осуществляющего импорт.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 Относительно сохраненного пакета Loginom расположены следующие модули:
 
@@ -136,7 +136,7 @@ print("3 ** 3 =", cube(3))
 
 В режиме [Предпросмотра](./console.md) результатов значение атрибута `__file__` модуля `__main__` равно `<preview>`, при выполнении узла — `<main>`.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 ```python
 from builtin_data import OutputTable
@@ -152,7 +152,7 @@ else:
 
 Доступна глобальная функция `filestoragepath`, которая принимает путь в [файловом хранилище](./../../../location_user_files.md) и преобразует его в абсолютный путь в файловой системе. Дополнительных импортов для ее применения выполнять не нужно.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 ```python
 from builtin_data import OutputTable

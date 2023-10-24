@@ -1,31 +1,31 @@
 ---
 description: Обработка. Оглавление. Сценарий. Узел. Компонент. Стандартные компоненты. Производные компоненты.
 ---
-# Обработка
+# Processing
 
-## Основные понятия
+## Basic Terms
 
-**Сценарий** - последовательность действий, которые необходимо провести для анализа данных. Сценарий обработки представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.
+**Workflow**: sequence of actions that must be performed for data analysis. The processing workflow is a combination of data processing nodes configured by a user to solve a particular task.
 
-Последовательность обработки задается соединением выхода предыдущего узла сценария со входом последующего. Входом и выходом узла являются **входные** и **выходные порты**.
+The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one. The node input and output are **input** and **output ports**.
 
 ![](./../quick-start/readme-1.png)
 
- *Пример сценария*
+*Workflow Example*
 
-**Узел** сценария выполняет отдельную операцию над данными. Перечень возможных операций представлен палитрой готовых **компонентов**. Таким образом, **компонент** является прообразом или шаблоном будущего узла сценария. Для того, чтобы создать узел сценария, выполняющий нужную операцию над данными, необходимо мышью перенести соответствующий компонент из панели компонентов в область построения сценария (подробнее см. ["Первый сценарий"](./../quick-start/first-workflow.md)).
+The workflow **node** performs a separate operation with data. A list of possible operations is represented by a number of ready **components**. Thus, the **component** is a prototype or template of the future workflow node. To create the workflow node that performs the required operation with data, the corresponding component must be dragged from the component panel to the workflow construction area (refer to ["The first workflow"](./../quick-start/first-workflow.md)).
 
-Узлы сценария создаются из компонентов 2-х типов:
+The workflow nodes are created from 2 types of components :
 
 * [Стандартные компоненты](./standard-components.md) - предоставляются в рамках платформы;
-* [Производные компоненты](./../workflow/derived-component.md) - создаются и настраиваются пользователем. Производный компонент можно создать из комбинации узлов сценария, реализующей произвольную логику обработки.
+* [Derived components](./../workflow/derived-component.md) are created and configured by a user. The derived component can be created from combination of the workflow nodes implementing the random processing logics.
 
-Таким образом набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.
+Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.
 
-Чаще всего для создания производного компонента используется [Подмодель](./control/supernode.md). Подмодель является специальным узлом, способным включать в себя другие узлы сценария. Реализованная в Подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «черный ящик».
+The [supernode](./control/supernode.md) is most commonly used to create the derived component. The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the Supernode. At the same time, the workflow handler can consider it as the "black box".
 
-Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты. Входные и выходные порты задаются пользователем.
+The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by a user.
 
 От узла к узлу могут передаваться как наборы данных - таблицы, так и переменные - объекты, содержащие лишь одно значение. Статистические данные таблиц (например, сумма по столбцу, среднее значение и т.д.) при помощи специального компонента могут быть преобразованы в переменные.
 
-Переменные, в свою очередь, могут применяться в узлах для преобразования таблиц. Поскольку таблицы и переменные имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.
+Переменные, в свою очередь, могут применяться в узлах для преобразования таблиц. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.

@@ -1,7 +1,7 @@
 ---
 description: Компонент JavaScript в Loginom. Полное описание API. Примеры.
 ---
-# ![](../../../images/icons/components/javascript_default.svg) Полное описание API
+# ![](../../../images/icons/components/javascript_default.svg) Full API Description
 
 Ниже приведено описание API, специфичного для Loginom и не являющегося частью [стандарта языка (ECMA-262)](https://www.ecma-international.org/ecma-262/6.0/).
 
@@ -16,10 +16,10 @@ const require: IRequire;
 
 // Представление модуля
 interface IModule {
-    readonly id: string;               // идентификатор
-    parent?: this;                     // вызывающий модуль
-    filename?: string;                 // полный путь к модулю
-    loaded: boolean;                   // загружен ли модуль полностью
+    readonly id: string;               // identifier
+    parent?: this;                     // calling module
+    filename?: string;                 // full path to module
+    loaded: boolean;                   // whether the module is completely loaded
     exports: any;                      // экспортируемый объект
 }
 
@@ -29,9 +29,9 @@ interface IRequireFunction {
 }
 
 interface IRequire extends IRequireFunction  {
-    // функция resolve возвращает полный путь к модулю
+    // resolve function returns the full path to the module
     resolve: (id: string) => string;
-    // кэш модулей
+    // cache of modules
     cache: { [resolvedId: string]: IModule]; };
 }
 
@@ -39,16 +39,16 @@ interface IRequire extends IRequireFunction  {
 var console: Console;
 
 interface Console {
-     // Метод assert выводит в консоль сообщение, если первый аргумент false
+     // assert method enables to direct the message to console if the first argument is false
     assert(condition?: boolean, ...data: any[]): void;
-    // Метод error выводит сообщение об ошибке
+    // error method shows error message
     error(...data: any[]): void;
-    // Методы warn выводит предупреждающее сообщение
+    // warn methods show warning message
     warn(...data: any[]): void;
-    // Методы info и log выводят информационное сообщение
+    // info and log methods show information message
     info(...data: any[]): void;
     log(...data: any[]): void;
-    // Метод clear очищает консоль вывода сообщений в окне предпросмотра
+    // clear method enables to clean the message console in the preview window
     clear(): void;
 }  
 // Функция позволяет отложить выполнение функции
@@ -110,20 +110,20 @@ enum UsageType {                                                         // На
 
 // Информация о столбце
 interface IColumnInfo {
-    readonly Name: string;                                                  // Имя
-    readonly DisplayName: string;                                           // Метка
-    readonly DataType: DataType;                                            // Тип данных
-    readonly DataKind: DataKind;                                            // Вид данных
+    readonly Name: string;                                                  // Name
+    readonly DisplayName: string;                                           // Caption
+    readonly DataType: DataType;                                            // Data type
+    readonly DataKind: DataKind;                                            // Data kind
     readonly DefaultUsageType: UsageType;                                   // Назначение поля
 }
 
 // Представление столбца набора данных
 interface IColumn extends IColumnInfo, Iterable<boolean | number | string | Date | undefined> {
-    readonly Index: number;                                                 // Индекс
-    readonly RowCount: number;                                              // Количество значений
-    // Метод Get возвращает значение столбца по индексу
+    readonly Index: number;                                                 // Index
+    readonly RowCount: number;                                              // Number of values
+    // Get method returns the column value by index
     Get(row: number): boolean | number | string | Date | undefined;
-    // Метод IsNull проверяет на Null значение столбца
+    // IsNull method checks for the Null column value
     IsNull(row: number): boolean;
 }
 
@@ -152,12 +152,12 @@ interface IIntputColumns extends Iterable<IIntputColumn> {
 // Свойства и методы набора данных
 interface IDataSource {
     readonly Columns: IIntputColumns;                                       // Список столбцов
-    readonly ColumnCount: number;                                           // Количество столбцов
-    readonly RowCount: number;                                              // Количество строк
+    readonly ColumnCount: number;                                           // List of columns
+    readonly RowCount: number;                                              // Row count
 
-    // Метод Get возвращает значение заданной строки в заданном столбце
+    // Get method returns the value of the set row in the set column
     Get(row: number, col: number | string): boolean | number | string | Date | undefined;
-    // Метод IsNull проверяет на Null значение заданной строки в заданном столбце
+    // IsNull method checks for the Null value of the set row in the set column
     IsNull(row: number, col: number | string): boolean;
     // Метод GetColumn возвращает столбец источника данных
     GetColumn(col: number | string): IIntputColumn;
@@ -178,9 +178,9 @@ interface IOutputTable extends IDataSource {
     DeleteColumn(col: number | string): void;
     // Метод ClearColumns удаляет все столбцы
     ClearColumns(): void;
-    // Метод Append добавляет запись в набор
+    // Append method enables to append a record to data set
     Append(): void;
-    // Метод Set задает значение заданного поля в записи, созданной методом Append
+    // Set method enables to set the value of the set field to the records created by Append method
     Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
 }
 
@@ -192,21 +192,20 @@ interface IOutputColumns extends Iterable<IOutputColumn> {
 
 // Представление входной переменной
 interface IVariable {
-    readonly Index: number;                                                 // Индекс
-    readonly Name: string;                                                  // Имя
-    readonly DisplayName: string;                                           // Метка
-    readonly DataType: DataType;                                            // Тип данных
-    readonly Value: boolean | number | string | Date | undefined;           // Значение
-    readonly IsNull: boolean;                                               // Проверка на Null
+    readonly Index: number;                                                 // Index
+    readonly Name: string;                                                  // Name
+    readonly DisplayName: string;                                           // Caption
+    readonly DataType: DataType;                                            // Data type
+    readonly Value: boolean | number | string | Date | undefined;           // Value
+    readonly IsNull: boolean;                                               // Check for Null
 }
 
-// Доступ к итерируемому списку входных переменных по имени и индексу
+// Access to iterated list of input variables by name and index
 interface IVariableItems extends Iterable<IVariable> {
     [name: string]: IVariable;
     [index: number]: IVariable;
 }
-
-// Представление переменных входного порта
+View of input port variables
 interface IVariables {
     readonly Items: IVariableItems;
     readonly Count: number;

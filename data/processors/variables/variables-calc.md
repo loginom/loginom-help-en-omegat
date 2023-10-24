@@ -1,36 +1,36 @@
 ---
 description: Компонент Калькулятор (переменные) в Loginom. Общие сведения. Мастер настройки. Список функций. Переменные. Области окна настройки. Пример.
 ---
-# ![Калькулятор-переменные](./../../images/icons/components/calc-variables_default.svg) Калькулятор (переменные)
+# ![Calculator-Variables](./../../images/icons/components/calc-variables_default.svg) Calculator (Variables)
 
-Компонент предназначен для математических операций над переменными. В мастере настройки создаются новые переменные и вычисляются их значения в соответствии с выражениями, заданными пользователем.
+Компонент предназначен для математических операций над переменными. New variables are created and their values are calculated in the wizard according to the expressions set by a user.
 
-> **Важно:** Расчет значений выражений осуществляется в том порядке, в котором они следуют в списке выражений, т.е. сначала вычисляются выражения, находящиеся выше в списке. В формуле выражения возможно использовать только выражения, находящиеся выше по списку. В связи с этим неверная позиция в списке может приводить к ошибке.
+> **Important:** Values of the expressions are calculated in the order in which they are stated in the expressions list, namely, the expressions that are higher in the list are calculated first. It is allowed to use only the expressions that are higher in the list in the expression formula. Consequently, incorrect list item position can cause a mistake.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
 * ![Входные переменные](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, которые можно использовать в узле.
 
-### Выход
+### Output
 
 * ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — входные переменные и новые переменные, вычисленные узлом.
 
-## Мастер настройки
+## Wizard
 
-Окно настроек содержит области:
+The wizard window includes the following areas:
 
- [Список выражений](#spisok-vyrazheniy)
- [Область кода выражения](#oblast-koda-vyrazheniya)
- [Переменные](#peremennye)
- [Список функций](#spisok-funktsiy)
+[Список выражений](#spisok-vyrazheniy)
+[Область кода выражения](#oblast-koda-vyrazheniya)
+[Переменные](#peremennye)
+[Список функций](#spisok-funktsiy)
 
-### Список выражений
+### List of Expressions
 
-Область предназначена для ввода *выражений* — вычисляемых переменных, которыми в результате обработки будет дополнен выходной набор данных. Значение выражения в каждой строке набора данных будет вычислено по формуле, заданной в области кода выражения.
+The area is designated for entry of *expressions*, namely, calculated variables to be added to the output data set as the result of processing. The expression value in each data set row will be calculated using the formula set in the expression code area.
 
-Новое выражение можно создать при помощи панели инструментов области или контекстного меню. Операции панели инструментов и контекстного меню:
+It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
 * ![Редактировать](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать выражение** — задание параметров выражения.
 * ![Переместить вверх](./../../images/icons/common/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку.
@@ -38,56 +38,56 @@ description: Компонент Калькулятор (переменные) в
 * ![Добавить выражение](./../../images/icons/common/toolbar-controls/plus_default.svg) **Добавить выражение** — добавляет новое выражение с параметрами по умолчанию.
 * ![Добавить выражение по образцу](./../../images/icons/common/toolbar-controls/clone_default.svg) **Клонировать выражение** — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения.
 * ![Удалить выражение](./../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить выражение** — удаляет текущее выражение.
-* ![Удалить все выражения](./../../images/icons/common/toolbar-controls/delete-all_default.svg) **Удалить все выражения…** — удаляет все имеющиеся выражения.
+* ![Delete all expressions](./../../images/icons/common/toolbar-controls/delete-all_default.svg) **Delete all expressions…** enables to delete all existing expressions.
 
-При добавлении и редактировании выражения отображается диалог редактирования параметров. Следующие параметры выражений доступны для изменений:
+When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
 * **Имя** — имя переменной в выходном наборе данных.
 * **Метка** — метка переменной в выходном наборе данных.
 * **Тип** — [тип данных](./../../data/datatype.md) переменной в выходном наборе данных.
 * **Промежуточное** — при установке этого флага выражение может использоваться в расчетах, но не включается в список переменных выходного набора данных.
-* **Описание** — поясняющая информация.
+* **Description**: clarifying information.
 
-> **Важно:** Имя должно быть уникальным, начинаться с заглавной или строчной латинской буквы или с символа подчеркивания. Последующие символы имени могут быть такими же, либо цифрами.
+> **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
-При первом открытии мастера настройки список выражений содержит один элемент с именем *Expr1* вещественного типа. По умолчанию для нового выражения назначается метка *ВыражениеN* и имя *ExprN*, где *N* — номер, обеспечивающий уникальность.
+При первом открытии мастера настройки список выражений содержит один элемент с именем *Expr1* вещественного типа. *ExpressionN* caption and *ExprN* name are assigned to the new expression by default where *N* is a number providing uniqueness.
 
-После настройки параметров выражения в область кода требуется ввести рассчитываемую формулу.
+After configuration of the expression parameters, it is required to enter the calculated formula to the code area.
 
-### Область кода выражения
+### The Expression Code Area
 
-В области кода задается формула расчета выражения. Ссылки на переменные и синтаксические конструкции функций можно вставлять в код выражения, выбрав их двойным кликом мыши в соответствующих областях или перетащив мышкой.
+The expression calculation formula is set in the code area. It is possible to insert references to variables and syntactic constructions of functions into the expression code by double click on them in the corresponding areas or by dragging them with the mouse.
 
-Изменения в области кода сохраняются при выходе из нее.
+Changes in the code area are saved on exit.
 
-Формула выражения может содержать:
+The expression formula can contain the following components:
 
-* ссылки на другие переменные набора данных в виде наименования переменных или ранее вычисленных выражений;
-* ссылки на переменные входного порта;
-* скобки, определяющие порядок выполнения операций;
-* знаки математических операций и отношений;
-* логические операции (AND, OR, NOT, XOR) и значения (TRUE или 1, FALSE или 0);
-* функции в соответствии с синтаксическим описанием (см. далее [Список функций](#spisok-funktsiy));
-* строковые выражения в кавычках, например, `"строковое выражение"`;
-* целые и вещественные числа;
-* однострочные и многострочные комментарии.
+* references to other data set variables in the form of the variables names or earlier computed expressions;
+* references to the input port variables;
+* brackets defining the order of operations execution;
+* characters of mathematical operations and relations;
+* logical operations (AND, OR, NOT, XOR) and values(TRUE or 1, FALSE or 0);
+* functions according to the syntactic description (refer to [List of functions](#spisok-funktsiy) further);
+* string expressions in quotation marks, for example, `"string expression"`;
+* integer and real numbers;
+* single-line and multi-line comments.
 
-> **Важно:** вещественные числа записываются с использованием десятичной точки, например, *`2.71`*.
+> **Important:** Real numbers are recorded using the decimal point, for example,*`2.71`*.
 
-### Панель быстрого доступа
+### Quick Access Toolbar
 
 На панели расположена кнопка вызова окна ![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляются шаблоны или части выражения.
 
 ![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) Предпросмотр — позволяет оценить корректность расчетов, отображая до 100 первых строк результирующей таблицы. Горячая клавиша вызова — `F3`.
 
-Логические операции:
+Logical operations:
 
 * **AND** — операция Логическое "И".
 * **OR** — операция Логическое "ИЛИ".
 * **NOT** — операция Логическое "НЕ".
-* **XOR** — операция Логическое "исключающее ИЛИ".
+* **XOR**: the Logical "exclusive OR" operator.
 
-Операторы сравнения:
+Comparisons operator:
 
 * **=** — равно;
 * **<>** — не равно;
@@ -96,48 +96,48 @@ description: Компонент Калькулятор (переменные) в
 * **<=** — меньше или равно;
 * **>=** — больше или равно.
 
-Шаблоны:
+Templates:
 
-* ![Вещественное число](./../../images/icons/common/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
-* ![Строка](./../../images/icons/common/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
-* ![Дата](./../../images/icons/common/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлено `StrToDate("____-__-__", "YYYY-MM-DD")`;
-* ![Время](./../../images/icons/common/toolbar-controls/type-time_default.svg) — для ввода времени, будет вставлено `StrToDate("__:__:__", "HH:NN:SS")`.
+* ![Real number](./../../images/icons/common/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
+* ![String](./../../images/icons/common/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
+* ![Date](./../../images/icons/common/toolbar-controls/type-date_default.svg): `StrToDate("____-__-__", "YYYY-MM-DD")` will be inserted to enter the date.
+* ![Time](./../../images/icons/common/toolbar-controls/type-time_default.svg): `StrToDate("__:__:__", "HH:NN:SS")` will be inserted to enter the time.
 
-Логические значения:
+Logical values:
 
 * **FALSE** — Ложь.
-* **TRUE** — Истина.
+* **TRUE**: the true value.
 
-#### Комментарии
+#### Comments
 
-Однострочный комментарий начинается символами `//` (два слеша) и продолжается до конца строки. Многострочным комментарием считаются все символы, содержащиеся между `/*` (слеш-звездочка) и `*/` (звездочка-слеш).
+The single-line comment starts from `//` (two slashes) characters, and it continues until the end of the string. The multi-line comment is represented by all characters included between `/*` (slash-asterisk) and `*/` (asterisk-slash).
 
-Пример комментария:
+The comment example:
 
 ```java
-// Пример однострочного комментария.
+// Example of the single-line comment
 
-IF(IsNull(var_one),var_two,var_one) // однострочный комментарий продолжается до конца строки
+IF(IsNull(var_one),var_two,var_one) // single-line comment continues until the end of the string
 
-/* Многострочным комментарием
-считаются все символы,
-содержащиеся между (слеш-звездочка)
- и (звездочка-слеш). */
+/* The multi-line comment
+is represented by all characters
+included between (slash-asterisk)
+ and (asterisk-slash). */
 ```
 
-### Переменные
+### Variables
 
 Область содержит список переменных, передаваемых на вход узла. Перечень и параметры переменных определяются при настройке входных портов узла.
 
-Двойной клик мыши по позиции списка вводит имя переменной в область кода выражения.
+Double click on the list item position enables to enter the variable name to the expression code area.
 
-### Список функций
+### List of Functions
 
-Наименование, входные аргументы и описание [доступных для использования функций](./../func/calc-func/README.md).
+Name, input argument and description of the [functions available for use](./../func/calc-func/README.md)
 
-Возможна фильтрация по категории и названию функции.
+It is possible to filter by the function category and name.
 
-Двойной клик мыши по позиции выбранной функции вставляет ее синтаксис в область кода выражения. То же самое можно сделать при помощи Drag-and-Drop.
+Double click on the position of the selected function enables to enter its syntax to the expression code area. The Drag-and-Drop method enables to perform the same actions.
 
 ---
 

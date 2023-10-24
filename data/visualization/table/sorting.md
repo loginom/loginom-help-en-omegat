@@ -1,43 +1,43 @@
 ---
 description: Настройка сортировки данных в таблицах в Loginom. Справка по работе с окном настройки. Установка параметров сортировки, порядка, учёта регистра. Ручное изменение порядка следования ячеек таблицы.
 ---
-# ![](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) Настройка сортировки
+# ![](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) Configure Sorting
 
-В визуализаторе [Таблица](./README.md) сортировка данных следует правилам описанным в узле [Сортировка](./../../processors/transformation/sorting.md).
+Data sorting in the [Table](./README.md) visualizer is performed according to the rules described in the [Sorting](./../../processors/transformation/sorting.md) node.
 
-## Окно настройки
+## Configuration Window
 
-В левом списке отображаются поля, по которым можно производить сортировку, и столбцы, видимость которых убрана в Таблице.
+The fields used for sorting and the columns with the visibility disabled in the Table are displayed in the left list.
 
-Список полей можно отфильтровать, введя метку поля в области фильтрации.
+It is possible to filter the list of fields by specifying the field caption in the filter area.
 
-Для настройки сортировки необходимо переместить требуемые поля в список *Поля сортировки*. Это можно сделать:
+To configure sorting, it is required to move the necessary fields to *Sort fields* list. It can be done as follows:
 
-* Перетаскиванием мыши (Drag-and-drop);
-* Двойным щелчком левой кнопки мыши по полю;
-* Вызвав выпадающее меню нажатием правой кнопки мыши и нажав кнопку ![](./../../images/icons/common/toolbar-controls/plus_default.svg) *Добавить*;
-* Нажав кнопку ![](./../../images/icons/common/toolbar-controls/arrow-r_default.svg) *Добавить*.
+* by drag-and-drop method;
+* by double click on the field with the left mouse button;
+* by calling the drop-down menu using the right mouse button and pressing ![](./../../images/icons/common/toolbar-controls/plus_default.svg) *Add* button;
+* by pressing ![](./../../images/icons/common/toolbar-controls/arrow-r_default.svg) *Add* button.
 
-Параметры настройки сортировки задаются двух соседних столбцах:
+Parameters of sorting configuration are set in two adjacent columns:
 
-* **Порядок** — в ячейках этого поля отображается тумблер, который указывает на вид сортировки, он может принимать *По возрастанию* ![По возрастанию](./../../images/icons/components/sorting/order-switcher-asc_default.svg) и *По убыванию* ![По убыванию](./../../images/icons/components/sorting/order-switcher-desc_default.svg);
-* **Регистр** — в ячейках этого поля, при условии что сортируемые значения ![Строковый тип](./../../images/icons/common/data-types/string_default.svg)*Строкового* или ![Переменный тип](./../../images/icons/common/data-types/variant_default.svg)*Переменного* типов, отображается чекбокс. При проставленном в чекбоксе флажке поле сортируется с учетом регистра.
+* **Order**: the sorting type switch is displayed in the cells of this field. It can take *Ascending* ![Ascending](./../../images/icons/components/sorting/order-switcher-asc_default.svg) and *Descending* ![Descending](./../../images/icons/components/sorting/order-switcher-desc_default.svg) order.
+* **Case-sensitive**: in the cells of this field on condition that the sorted values ![String type](./../../images/icons/common/data-types/string_default.svg)*String* or ![Variant type](./../../images/icons/common/data-types/variant_default.svg)*Variant* types, the checkbox is displayed. When the checkbox is selected, the case-sensitive field is sorted.
 
-Для исключения из списка сортируемых полей нужно:
+It is required to perform the following actions to exclude from the list of sorted fields:
 
-* Перетащить запись из списка *Поля сортировки* в *Доступные поля*;
-* Нажать на кнопку ![](./../../images/icons/common/toolbar-controls/delete_default.svg) нужного поля в столбце ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) ;
-* Вызвать выпадающее меню нажатием правой кнопки мыши и нажать кнопку ![](./../../images/icons/common/toolbar-controls/delete_default.svg) *Удалить*.
+* to drag the record from *Sort fields* list to *Available fields*;
+* to press ![](./../../images/icons/common/toolbar-controls/delete_default.svg) required field in column ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) button;
+* to call the drop-down menu by pressing the right mouse button and pressing ![](./../../images/icons/common/toolbar-controls/delete_default.svg) *Delete* button.
 
-Для очистки всего списка нужно нажать на иконку ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) у одноименного столбца, вызвав выпадающее меню выбрать пункт ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Удалить все...*.
+To clear the whole list, it is required to press ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) icon near the column with the same name by calling the drop-down menu, select ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
-Для того чтобы изменить очередность сортировки, над таблицей сортируемых полей расположены кнопки перемещения:
+To change the sorting order, the navigational buttons are located above the table of sorted fields:
 
-* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выбранное поле вверх в списке очередности;
-* ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выбранное поле вниз в списке очередности.
+* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Move up** enables to move the selected field up in the order list.
+* ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected field down in the order list.
 
-Также переместить поле можно, выбрав нужное поле вызвать выпадающее меню и нажать пункт ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) *Переместить вверх* или ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) *Переместить вниз*, в зависимости от нужного действия.
+It is also possible to move the field by selecting the required field and calling the drop-down menu. Then press ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) *Move up* or ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) *Move down* depending on the required action.
 
-После выбора всех настроек нажать кнопку *Сортировать* для применения сортировки в таблице.
+When all settings are selected, it is required to press *Sort* to enable sorting in the table.
 
->**Примечание**: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, из-под которого запущен сервер Loginom.
+> **Note**: Comparison and sorting of characters are performed according to the local settings of the user that started the Loginom server.

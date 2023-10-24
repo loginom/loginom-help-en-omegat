@@ -36,7 +36,7 @@ let headers = new Headers([init]);
 
 - `init` принимает объект типа `HeadersInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр.
 
-Создает объект `Headers`(см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
+Создает объект `Headers`(см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
 #### Методы Headers
 
@@ -44,8 +44,8 @@ let headers = new Headers([init]);
 
 **append(name, value)**
 
-- name — имя добавляемого заголовка. Принимает значение типа `string`. Обязательный параметр.
-- value — значение заголовка. Принимает значение типа `string`. Обязательный параметр.
+- name — имя добавляемого заголовка. Принимает значение типа `string`. Required parameter.
+- value — значение заголовка. Принимает значение типа `string`. Required parameter.
 
 Добавляет новое значение к существующему заголовку внутри Headers-объекта или добавляет заголовок, если он еще не существует. Метод возвращает `undefined`.
 
@@ -55,7 +55,7 @@ let headers = new Headers([init]);
 
 **delete(name)**
 
-- name — имя удаляемого заголовка. Принимает значение типа `string`. Обязательный параметр.
+- name — имя удаляемого заголовка. Принимает значение типа `string`. Required parameter.
 
 Удаляет заголовок из текущего Headers-объекта.  Метод возвращает `undefined`.
 
@@ -73,10 +73,10 @@ let headers = new Headers([init]);
 
 **forEach(callbackfn(value, key, parent)[, thisArg])**
 
-- callbackfn — функция, применяемая к каждому заголовку. Обязательный параметр. В `callbackfn` в указанном порядке передаются параметры:
-  - value — значение заголовка. Принимает значение типа `string`.
-  - key — имя заголовка. Принимает значение типа `string`.
-  - parent — Headers-объект.
+- callbackfn — функция, применяемая к каждому заголовку. Required parameter. В `callbackfn` в указанном порядке передаются параметры:
+   - value — значение заголовка. Принимает значение типа `string`.
+   - key — имя заголовка. Принимает значение типа `string`.
+   - parent — Headers-объект.
 - thisArg — значение, используемое как `this` при вызове `callbackfn`. Необязательный параметр.
 
 Метод перебирает коллекцию заголовков в Headers-объекте и выполняет предоставленную функцию для каждого заголовка.
@@ -87,7 +87,7 @@ let headers = new Headers([init]);
 
 **get(name)**
 
-- name — имя заголовка. Принимает значение типа `string`. Обязательный параметр.
+- name — имя заголовка. Принимает значение типа `string`. Required parameter.
 
 Возвращает строку, представляющую значение заголовка или `null`, если этот заголовок не установлен.
 
@@ -97,8 +97,8 @@ let headers = new Headers([init]);
 
 **set(name, value)**
 
-- name — имя заголовка. Принимает значение типа `string`. Обязательный параметр.
-- value — значение заголовка. Принимает значение типа `string`. Обязательный параметр.
+- name — имя заголовка. Принимает значение типа `string`. Required parameter.
+- value — значение заголовка. Принимает значение типа `string`. Required parameter.
 
 Устанавливает новое значение для существующего заголовка внутри Headers-объекта или добавляет заголовок, если он еще не существует. Метод возвращает `undefined`.
 
@@ -108,7 +108,7 @@ let headers = new Headers([init]);
 
 **has(name)**
 
-- name — имя заголовка. Принимает значение типа `string`. Обязательный параметр.
+- name — имя заголовка. Принимает значение типа `string`. Required parameter.
 
 Возвращает `true` или `false` в зависимости от того, содержит ли Headers-объект заголовок с указанным именем.
 
@@ -142,14 +142,14 @@ let request = new Request(input[, init]);
 
 где:
 
-- `input` — объект типа `RequestInfo` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Обязательный параметр. Принимает URL-адрес запрашиваемого ресурса или объект, реализующий интерфейс `Request`.
+- `input` — объект типа `RequestInfo` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Required parameter. Принимает URL-адрес запрашиваемого ресурса или объект, реализующий интерфейс `Request`.
 - `init` — объект, реализующий интерфейс `RequestInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр. Принимает параметры HTTP-запроса . `init`-объект может содержать следующие параметры:
-  - `body` — тело HTTP-запроса. Объект типа `BodyInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). `body` может быть строкой или объектом типов `ArrayBuffer`, `ArrayBufferView`.
-  - `headers` — заголовки HTTP-запроса. [headers-объект](#headers) (см. также [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
-  - `method` — строка, содержащая метод HTTP-запроса (`get`, `post` и т.д.).
-  - `redirect` — строка, содержащая режим обработки перенаправлений (`follow`, `error`, `manual`).
+   - `body` — тело HTTP-запроса. Объект типа `BodyInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). `body` может быть строкой или объектом типов `ArrayBuffer`, `ArrayBufferView`.
+   - `headers` — заголовки HTTP-запроса. [headers-объект](#headers) (см. также [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
+   - `method` — строка, содержащая метод HTTP-запроса (`get`, `post` и т.д.).
+   - `redirect` — строка, содержащая режим обработки перенаправлений (`follow`, `error`, `manual`).
 
-Создает объект `Request` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
+Создает объект `Request` (см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
 #### Особенности реализации
 
@@ -254,7 +254,7 @@ let response = new Response([body][, init]);
 - `body` принимает объект типа `BodyInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)) или `null`. Необязательный параметр.
 - `init` принимает объект, реализующий интерфейс `ResponseInit` (см. [Полное описание API](./api-description.md#fetch-api)). Необязательный параметр.
 
-Создает объект `Response` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
+Создает объект `Response` (см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
 #### Особенности реализации
 
@@ -356,13 +356,13 @@ let response = new Response([body][, init]);
 
 `fetch(resource[, init])`, где
 
-- resource — принимает объект, реализующий интерфейс `Request`, или строку, содержащую URL запроса. Обязательный параметр.
-- init — принимает объект, реализующий интерфейс `RequestInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр.
+- resource — принимает объект, реализующий интерфейс `Request`, или строку, содержащую URL запроса. Required parameter.
+- init — принимает объект, реализующий интерфейс `RequestInit` (см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр.
 
 Асинхронная функция `fetch` запускает процесс извлечения ресурса из сети, возвращая promise объекта `Response` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
 
 
-## Примеры
+## Examples:
 
 ### Использование Fetch API
 
@@ -374,17 +374,17 @@ let headers = new Headers({"Content-Type": "text/html", "Custom-Header": "delete
 // Вывод значения заголовка
 console.log("Custom-Header: ", headers.get("Custom-Header"))
 // Удаление заголовка
-headers.delete("Custom-Header") 
+headers.delete("Custom-Header")
 // Проверка существования заголовка
-console.log(headers.has('Custom-Header')); 
+console.log(headers.has('Custom-Header'));
 // Добавление нового заголовка
 headers.append("Accept-Charset", "utf-8")
 // Изменение значения заголовка
 headers.set("Content-Type", "application/json")
 
 // Создание объекта запроса:
-let request = new Request("http://httpbin.org/post", { 
-    method: "post", 
+let request = new Request("http://httpbin.org/post", {
+    method: "post",
     headers: headers,
     body: "{ \"str\": message }",
     redirect: "follow"
@@ -424,7 +424,7 @@ import {fetch} from "builtIn/Fetch";
 fetch("https://www.cbr-xml-daily.ru/daily_json.js")
     .then(response => {
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}, 
+            throw new Error(`HTTP error! status: ${response.status},
                             statusText: ${response.statusText}`);
         }
         return response.json();
@@ -452,7 +452,7 @@ import {fetch, Headers} from "builtIn/Fetch";
             headers: new Headers({"Content-type": "application/json; charset=UTF-8"}),
         });
         let payload = await response1.arrayBuffer();
-        
+
         // Запрос 2-ого сервиса
         let response2 = await fetch('http://httpbin.org/post', {
             method: 'POST',

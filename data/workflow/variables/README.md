@@ -1,37 +1,37 @@
 ---
 description: Переменные в аналитической платформе Loginom. Создание переменных в Loginom. Компоненты Loginom, предназначенные для работы с переменными.
 ---
-# Переменные
+# Variables
 
-**Переменная** — именованный объект, который может содержать только одно значение определенного типа. Значения переменных могут использоваться в вычислениях, например, в узлах [Калькулятор](./../../processors/transformation/calc/README.md),
-[Условие](./../../processors/control/condition.md)
-и прочие. Так же значения переменных могут использоваться в качестве
-[управляющих переменных](./control-variables.md)
-для задания параметров настройки узлов.
+**Variable**: the named object that can contain only one value of the particular type. The variables values can be used in calculations, for example, in the following nodes: [Calculator](./../../processors/transformation/calc/README.md),
+[Condition](./../../processors/control/condition.md),
+etc. The variables values can be also used as
+[control variables](./control-variables.md)
+to set parameters of the node settings.
 
-Создать переменные можно следующими способами:
+It is possible to create variables using one of the following methods:
 
-* В настройках выходного порта "Переменные пользователя", закрепленного в верхнем левом углу области построения Сценария;
-* В узлах компонентов [Калькулятор (переменные)](./../../processors/variables/variables-calc.md) и [Таблица в переменные](./../../processors/variables/variables-from-table.md).
+* in the settings of the output port "User variables" in the upper left corner of the Workflow construction area;
+* in the following components nodes: [Calculator (variables)](./../../processors/variables/variables-calc.md) and [Table to variables](./../../processors/variables/variables-from-table.md).
 
-При создании переменной следует задать:
+When creating the variable, it is required to set the following information:
 
-* Имя — уникальное в пределах одного набора переменных название, может состоять из заглавных или строчных латинских букв, символов подчеркивания и цифр. Первый символ имени не может быть цифрой. Имя применяется для указания переменной в выражениях калькулятора.
-* Метку — название, состоящее из любых символов; является пояснением для пользователя.
-* [Тип данных](./../../data/datatype.md) переменной.
-* Значение.
+* The name must be unique in one set of variables. It can consist of the capital or lower case Latin letters, underscore characters and digits. The first name character can't be a digit. The name is used to specify the variable in the calculator expressions.
+* Caption: the name that consists of any characters. It is a clarification for a user.
+* The Variable [data type](./../../data/datatype.md).
+* Value.
 
-Порты, взаимодействующие с наборами переменных, графически отображаются так:
+The ports interacting with the sets of variables are graphically displayed as follows:
 
-* ![](./../../images/icons/app/node/ports/inputs/variable_inactive.svg) — входной порт;
-* ![](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) — выходной порт.
+* ![](./../../images/icons/app/node/ports/inputs/variable_inactive.svg) — input port;
+* ![](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) — output port.
 
->**Важно:** выходной порт для переменных может иметь линию связи только с входным портом для переменных.
+> **Important:** The outpot port for variables can have a connection line only with the input port for variables.
 
-Компоненты Loginom, специально предназначенные для работы с наборами переменных:
+The Loginom components specially designated for operations with sets of variables are listed below:
 
-* [Замена (переменные)](./../../processors/variables/variables-replace.md) — заменяет значения выбранных переменных на значения из таблицы замен;
-* [Калькулятор (переменные)](./../../processors/variables/variables-calc.md) — создает новые переменные в соответствии с введенными выражениями, в выражениях могут использоваться переменные, поданные на входной порт;
-* [Объединение переменных](./../../processors/variables/variables-union.md) — объединяет два или более наборов переменных в один набор;
-* [Переменные в таблицу](./../../processors/variables/variables-to-table.md) — преобразует набор переменных в таблицу данных;
-* [Таблица в переменные](./../../processors/variables/variables-from-table.md) — преобразует таблицу данных в набор переменных.
+* [Replace (variables)](./../../processors/variables/variables-replace.md) enables to replace the values of the selected variables to the values from the replacement table.
+* [Calculator (variables)](./../../processors/variables/variables-calc.md) enables to create the new variables according to the entered expressions. The variables supplied to the input port can be used in the expressions.
+* [Union of variables](./../../processors/variables/variables-union.md) enables to combine two or more sets of variables into one set.
+* [Variables to table](./../../processors/variables/variables-to-table.md) enable to transform a set of variables to a data table.
+* [Table to variables](./../../processors/variables/variables-from-table.md) enables to transform a data table to a set of variables.

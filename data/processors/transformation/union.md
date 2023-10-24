@@ -1,71 +1,71 @@
 ---
 description: Объединение данных в Loginom. Аналог операции UNION в SQL. Мастер настройки
 ---
-# ![Объединение](./../../images/icons/components/union_default.svg) Объединение
+# ![Union](./../../images/icons/components/union_default.svg) Union
 
-С помощью компонента Объединение исходный набор данных дополняется записями присоединяемых наборов. Объединение является аналогом операции `UNION` в SQL.
+С помощью компонента Объединение исходный набор данных дополняется записями присоединяемых наборов. The union is an analogue of the `UNION` operation in SQL.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходная таблица:
+Source table:
 
-|ФИО|Год|
+|Full name|Year of birth|
 |:-|:-|
-|Андреева|1982 г.|
-|Анисомов|1963 г.|
-|Антонов|1984 г.|
-|Артемьев|1965 г.|
+|Andreyeva|1982|
+|Anisomov|1963|
+|Antonov|1984|
+|Artemyev|1965|
 
-Присоединяемая таблица:
+Joined table:
 
-|ФИО|Год|КТУ|Кластер|
+|Full name|Year of birth|Labor participation coefficient|Cluster|
 |:-|:-|:-|-:|
-|Абрамов|1972 г.|\> 0.8|1|
-|Авдеева|1956 г.|\> 0.8|1|
-|Агафонов|1978 г.|0.5 - 0.8|2|
-|Аксёнова|1979 г.|0.5 - 0.8|2|
-|Александров|1980 г.|0.2 - 0.5|3|
-|Алексеев|1983 г.|< 0.2|4|
+|Abramov|1972|\> 0.8|1|
+|Avdeyeva|1956|\> 0.8|1|
+|Agafonov|1978|0.5 - 0.8|2|
+|Aksenova|1979|0.5 - 0.8|2|
+|Aleksandrov|1980|0.2 - 0.5|3|
+|Alekseyev|1983|< 0.2|4|
 
-Результирующая таблица:
+Resulting table:
 
-|ФИО|Год|КТУ|Кластер|
+|Full name|Year of birth|Labor participation coefficient|Cluster|
 |:-|:-|:-|-:|
-|Андреева|1982 г.|null|null|
-|Анисомов|1963 г.|null|null|
-|Антонов|1984 г.|null|null|
-|Артемьев|1965 г.|null|null|
-|Абрамов|1972 г.|\> 0.8|1|
-|Авдеева|1956 г.|\> 0.8|1|
-|Агафонов|1978 г.|0.5 - 0.8|2|
-|Аксёнова|1979 г.|0.5 - 0.8|2|
-|Александров|1980 г.|0.2 - 0.5|3|
-|Алексеев|1983 г.|< 0.2|4|
+|Andreyeva|1982|null|null|
+|Anisomov|1963|null|null|
+|Antonov|1984|null|null|
+|Artemyev|1965|null|null|
+|Abramov|1972|\> 0.8|1|
+|Avdeyeva|1956|\> 0.8|1|
+|Agafonov|1978|0.5 - 0.8|2|
+|Aksenova|1979|0.5 - 0.8|2|
+|Aleksandrov|1980|0.2 - 0.5|3|
+|Alekseyev|1983|< 0.2|4|
 
 %/spoiler%
 
-### Вход
+### Input
 
-* ![Главная таблица](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Главная таблица** — первая таблица участвующая в объединении;
-* ![Присоединяемая таблица](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Присоединяемая таблица** — вторая таблица участвующая в объединении, все последующие таблицы добавляются через *Добавить еще один порт*;
-* ![Добавить порт](./../../images/icons/common/toolbar-controls/plus-native_default.svg) **Добавить еще один порт** — создает новые порты входа для последующих присоединяемых таблиц, которые будут автоматически пронумерованы.
+* ![Main table](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table** is the first table participating in the union.
+* ![Joined table](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table** is the second table participating in the union. All subsequent tables are added by means of *Add another port*.
+* ![Add port](./../../images/icons/common/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new ports for the subsequent joined tables that will be automatically numbered.
 
-### Выход
+### Output
 
-* ![Выходной набор данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве сопоставляемых. Выбранные поля объединяются и присоединяются к набору данных согласно проставленному сопоставлению. Поля без сопоставления дополняют набор данных. По желанию к меткам дополненных полей можно добавить префиксы.
+* ![Output data set](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the mapped ones. The selected fields are united and joined to the data set according to the set mapping. The fields without mapping append the data set. Prefixes can be optionally added to the captions of the appended fields.
 
-## Мастер настройки
+## Wizard
 
-Полям главной таблицы необходимо сопоставить поля присоединяемой таблицы. В результирующем наборе данные сопоставленных полей объединяются в одно поле. Это поле получает *Имя* и *Метку* поля главной таблицы. Данные не сопоставленных полей помещаются в отдельные столбцы результирующего набора, которые можно отметить префиксами.
+It is required to map the fields of the main and joined tables. The data of the mapped fields is joined into one field in the resulting data set. This field is given the *Name* and *Caption* of the main table field. The data of the fields that are not mapped are placed into separate columns of the resulting data set that can be checked using prefixes.
 
-Сопоставление возможно только для полей с одинаковым типом данных. При первоначальном открытии мастера поля с одинаковым именем и типом данных сопоставляются автоматически. Ручная настройка осуществляется с помощью элементов управления:
+Mapping is possible only for the fields with the same data type. When the wizard is initially opened, the fields with the same name and data type are automatically mapped. Manual setting is performed using the following control elements:
 
-* **Область настройки сопоставления** — представляет таблицу где слева представлены поля *Главной таблицы*, а справа *Подключаемые таблицы*, отмечаемые чекбоксами и выпадающими списками. Обозначение *Подключаемых таблиц* идет таким образом: *Подключаемая таблица*, *Подключаемая таблица 2* ... *Подключаемая таблица N*.
-  * **Чекбокс** — в этих столбцах у *Подключаемых таблиц* флажком отмечаются поля участвующие в сопоставлении.
-  * **Раскрывающиеся списки полей** — содержатся в каждой строке таблицы сопоставления. Список позволяет выбрать поле присоединяемой таблицы, которое будет сопоставлено полю главной таблицы. С помощью переключателя ![Фильтр](./../../images/icons/ext/filter-switcher/filterswitch-on_default.svg) можно изменить способ отображения полей: общим списком или только поля, которые еще не выбраны.
-* **Использовать префиксы** — применяется, если необходимо выделить не сопоставленные столбцы присоединяемых таблиц. Для таких столбцов в результирующем наборе данных можно задать.
-  * **Префикс имени** — в это поле вводится префикс добавляемый к имени не сопоставленных полей таблиц, состав именного префикса следует правилу [Параметров полей набора данных](./../../data/datasetfieldfeatures.md).
-  * **Префикс метки** — в это поле вводится префикс добавляемый к метке не сопоставленных полей таблиц, именуется согласно *Параметрам полей набора данных*.
+* **Mapping configuration area**: the table in which the *Main table* fields are in the left part, and *Connected tables* selected with checkboxes and drop-down lists are in the right part. *Connected tables* are shown as follows: *Connected table*, *Connected table 2* ... *Connected table N*.
+   * **Checkbox**: the fields involved into mapping are selected with a checkbox in these columns of *Connected tables*.
+   * **Drop-down lists of fields** are in each row of the mapping table. The list enables to select the field of the joined table that will be mapped to the main table field. The ![Filter](./../../images/icons/ext/filter-switcher/filterswitch-on_default.svg) switch enables to change the method of fields representation: complete list or only the fields that have not been selected yet.
+* **Use prefixes**: it is applied if it is required to select not mapped columns of the joined tables. For such columns, it is possible to set the following prefixes in the resulting data set:
+   * **Name prefix**: the prefix added to the name of the table fields that are not mapped is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](./../../data/datasetfieldfeatures.md).
+   * **Caption prefix**: the prefix added to the caption of the table fields that are not mapped is specified in this field. It is named according to *Features of data set fields*.
 
 
- В области настройки объединения предусмотрена возможность сортировки полей таблиц. Для этого необходимо щелкнуть мышью по заголовку таблицы (Главная таблица или Присоединяемая таблица). Аналогичным образом можно сортировать записи по индексу поля в таблице (№). 
+It is possible to sort the table fields in the union configuration area. For this purpose, it is required to click on the table header (Main table or Joined table). It is possible to sort the records in the same manner by the field index in the table (No).

@@ -1,69 +1,69 @@
 ---
 description: Свертка столбцов в Loginom. Транспонирование таблиц в Loginom. Мастер настройки.
 ---
-# ![Свёртка столбцов](./../../images/icons/components/column-flipping_default.svg) Свёртка столбцов
+# ![Collapse Columns](./../../images/icons/components/column-flipping_default.svg) Collapse Columns
 
-Компонент предназначен для транспонирования таблицы. При этом заголовки выбранных столбцов переносятся в значения строк, а их данные — в один столбец. Поскольку в этот столбец могут перемещаться данные разных [типов](./../../data/datatype.md), то для них используется тип данных ![Переменный](./../../images/icons/common/data-types/variant_default.svg) *Переменный*.
+Компонент предназначен для транспонирования таблицы. In this case, headers of the selected columns are moved to the values of rows, and their data is moved to one column. As the data of different [types](./../../data/datatype.md) can be moved to this column, ![Variable](./../../images/icons/common/data-types/variant_default.svg) *Variable* data type is used for them.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходный набор данных:
+Source data set:
 
- | Код клиента | Месяц | Кол-во SMS | Кол-во минут вх | Статус | Наличие скидки |
- | ----------: | :---- | ---------: | --------------: | :----- | :------------- |
- | 1 | август | 81 | 506 | постоянный | True |
- | 1 | сентябрь | 32 | 231 | не постоянный | False |
+| Client code | Month | SMS number | Number of incoming minutes | Status | Discount availability |
+| ----------: | :---- | ---------: | --------------: | :----- | :------------- |
+| 1 | August | 81 | 506 | constant | True |
+| 1 | September | 32 | 231 | not constant | False |
 
-Выполним свертку столбцов. Поля `Код клиента` и `Месяц` выберем как ![Информационные](./../../images/icons/common/usage-types/unspecified_default.svg) *Информационные*. А `Кол-во SMS` (![Целый тип](./../../images/icons/common/data-types/integer_default.svg)*Целый тип*), `Кол-во минут вх` (![Целый тип](./../../images/icons/common/data-types/integer_default.svg)*Целый тип*), `Статус` (![Строковый тип](./../../images/icons/common/data-types/string_default.svg)*Строковый тип*), `Наличие скидки` (![Логический тип](./../../images/icons/common/data-types/boolean_default.svg)*Логический тип*), выберем ![Транспонируемые](./../../images/icons/common/dataset-operations/dsa-flipping_default.svg) *Транспонируемыми*.
+Let's collapse columns. `Client code` and `Month` fields will be selected as ![Info](./../../images/icons/common/usage-types/unspecified_default.svg) *Info*. And `SMS number` (![Integer type](./../../images/icons/common/data-types/integer_default.svg)*Integer type*), `Number of incoming minutes` (![Integer type](./../../images/icons/common/data-types/integer_default.svg)*Integer type*), `Status` (![String type](./../../images/icons/common/data-types/string_default.svg)*String type*), `Discount availability` (![Logical type](./../../images/icons/common/data-types/boolean_default.svg)*Logical type*) will be selected as ![Transposed](./../../images/icons/common/dataset-operations/dsa-flipping_default.svg) *Transposed*.
 
-Результирующий набор данных:
+Resulting data set:
 
- | Код клиента | Месяц | Имена | Метки | Значения | Типы данных |
- | ----------: | :---- | :---- | :---- | :------- | ----------: |
- | 1 | август | COL3 | Кол-во SMS | 81 | 4 |
- | 1 | август | COL4 | Кол-во минут вх | 506 | 4 |
- | 1 | август | COL5 | Статус | постоянный | 5 |
- | 1 | август | COL6 | Наличие скидки | True | 1 |
- | 1 | сентябрь | COL3 | Кол-во SMS | 32 | 4 |
- | 1 | сентябрь | COL4 | Кол-во минут вх | 231 | 4 |
- | 1 | сентябрь | COL5 | Статус | не постоянный | 5 |
- | 1 | сентябрь | COL6 | Наличие скидки | False | 1 |
+| Client code | Month | Names | Captions | Values | Data Types |
+| ----------: | :---- | :---- | :---- | :------- | ----------: |
+| 1 | August | COL3 | SMS number | 81 | 4 |
+| 1 | August | COL4 | Number of incoming minutes | 506 | 4 |
+| 1 | August | COL5 | Status | constant | 5 |
+| 1 | August | COL6 | Discount availability | True | 1 |
+| 1 | September | COL3 | SMS number | 32 | 4 |
+| 1 | September | COL4 | Number of incoming minutes | 231 | 4 |
+| 1 | September | COL5 | Status | not constant | 5 |
+| 1 | September | COL6 | Discount availability | False | 1 |
 
 %/spoiler%
 
-## Вход
+## Input
 
-* ![Входной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных.
+* ![Input data source](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
-### Выход
+### Output
 
-* ![Выходной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с транспонированным набором данных.
+* ![Output data source](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with transposed data set is output to the port.
 
-## Мастер настройки
+## Wizard
 
-Окно мастера поделено на две области: доступные поля (слева) и выбранные поля (справа).
+The wizard window is divided into two areas: available fields (to the left) and selected fields (to the right).
 
-* **Доступные поля** — содержит список полей входного набора данных.
-* **Выбранные поля** — делится на списки.
-  * ![Информационные](./../../images/icons/common/usage-types/unspecified_default.svg) **Информационные** — содержит поля, которые не будут изменяться.
-  * ![Транспонируемые](./../../images/icons/common/dataset-operations/dsa-flipping_default.svg) **Транспонируемые** — на основе этих полей будут сформированы 4 новых столбца: *Имена*, *Метки*, *Значения*, *Типы данных*.
+* **Available fields** contain a list of fields of the input data set.
+* **Selected fields** are divided into lists.
+   * ![Info](./../../images/icons/common/usage-types/unspecified_default.svg) **Info**: contains the fields that will not be changed.
+   * On the basis of ![Transposed](./../../images/icons/common/dataset-operations/dsa-flipping_default.svg) **Transposed** fields 4 new columns will be generated: *Names*, *Captions*, *Values*, *Data types*.
 
-Для настройки требуется переместить поля входного набора в списки *Информационные* или *Транспонируемые*, перетаскивая их мышью. Также это можно сделать при помощи кнопок перемещения.
+To configure, it is required to move the input data set fields to the *Info* or *Transposed* lists, dragging them with the mouse. It can be also done using the navigation buttons.
 
-Результирующий набор данных содержит:
+The resulting data set contains the following columns:
 
-* Столбцы исходного набора данных из списка *Информационные*. Их значения никак не изменяются.
+* The source data set columns from the *Info* list. Their values do not change anyhow.
 * Сформированные узлом столбцы.
-  * **Имена** — столбец с именами транспонируемых столбцов.
-  * **Метки** — столбец с метками столбцов.
-  * **Значения** — этот столбец содержит все значения транспонируемых столбцов, т.к. эти столбцы могут иметь разный тип (как это показано в примере), то столбец Значения имеет тип данных ![Переменный](./../../images/icons/common/data-types/variant_default.svg) *Переменный*.
-  * **Типы данных** — столбец, содержащий информацию о типе данных значений. Типы в данном столбце обозначаются цифрами.
-    * **0** — ![Неопределенный](./../../images/icons/common/data-types/none_default.svg) *Неопределенный*.
-    * **1** — ![Логический](./../../images/icons/common/data-types/boolean_default.svg) *Логический*.
-    * **2** — ![Дата/время](./../../images/icons/common/data-types/datetime_default.svg) *Дата/время*.
-    * **3** — ![Вещественный](./../../images/icons/common/data-types/float_default.svg) *Вещественный*.
-    * **4** — ![Целый](./../../images/icons/common/data-types/integer_default.svg) *Целый*.
-    * **5** — ![Строковый](./../../images/icons/common/data-types/string_default.svg) *Строковый*.
-    * **6** — ![Переменный](./../../images/icons/common/data-types/variant_default.svg) *Переменный*.
+   * **Names**: the column with the names of the transposed columns.
+   * **Captions**: the column with captions of columns.
+   * **Values**: this column contains all values of the transposed columns because these columns can be of different type (as in the example), so, the Values column can have ![Variable](./../../images/icons/common/data-types/variant_default.svg) *Variable* type of data.
+   * **Data types**: the column that contains information on the data type of values. The types in this column are numerated as follows:
+      * **0** — ![Undefined](./../../images/icons/common/data-types/none_default.svg) *Undefined*.
+      * **1** — ![Logical](./../../images/icons/common/data-types/boolean_default.svg) *Logical*.
+      * **2** — ![Date/time](./../../images/icons/common/data-types/datetime_default.svg) *Date/time*.
+      * **3** — ![Real](./../../images/icons/common/data-types/float_default.svg) *Real*.
+      * **4** — ![Integer](./../../images/icons/common/data-types/integer_default.svg) *Integer*.
+      * **5** — ![String](./../../images/icons/common/data-types/string_default.svg) *String*.
+      * **6** — ![Variable](./../../images/icons/common/data-types/variant_default.svg) *Variable*.
 
 При установке флага *Игнорировать пустые значения* узел не будет включать в результирующий набор строки с пустыми значениями в транспонируемых полях.

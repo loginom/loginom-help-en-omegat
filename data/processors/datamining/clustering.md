@@ -1,74 +1,74 @@
 ---
 description: Компонент Кластеризация в Loginom. Решение задачи кластеризации (сегментации). Алгоритм k-means. Алгоритм g-means. Мастер настройки. 
 ---
-# ![ ](./../../images/icons/components/clusterization_default.svg) Кластеризация
+# ![ ](./../../images/icons/components/clusterization_default.svg) Clustering
 
-## Описание
+## Description
 
-[Кластеризация](https://wiki.loginom.ru/articles/clustering.html) (сегментация) — это группировка объектов (наблюдений, событий) на основе данных, описывающих свойства объектов. Объекты внутри кластера должны быть похожими друг на друга и отличаться от других, которые вошли в другие кластеры.
+[Clustering](https://wiki.loginom.ru/articles/clustering.html) (segmentation) means grouping of objects (observations, events) based on the data describing properties of objects. Objects inside the cluster must be similar to each other and differ from the other ones not included into other clusters.
 
-Компонент производит кластеризацию объектов на основе алгоритмов [k-means и g-means](https://wiki.loginom.ru/articles/k-means.html). Основное отличие одного алгоритма от другого в том, известно ли заранее количество кластеров. Если количество кластеров известно, то применяется алгоритм *k-means*, в противном случае — *g-means*, который определяет это количество автоматически в рамках заданного интервала.
+Компонент производит кластеризацию объектов на основе алгоритмов [k-means и g-means](https://wiki.loginom.ru/articles/k-means.html). The main difference of one algorithm from the other one lies in the fact whether the number of clusters is known in advance or not. If the number of clusters is known, *k-means* algorithm is used, otherwise, *g-means* algorithm is used. It enables to define this number automatically within the set interval.
 
-![Иллюстрация работы алгоритма k-means](./clustering.svg)
+![Figure Describing k-means Algorithm Operation](./clustering.svg)
 
-На рисунке цветом выделены отдельные кластеры и объекты, им принадлежащие.
+Separate clusters and objects that relate to them are highlighted by color.
 
 Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
-Поле будет запрещено к использованию, если:
+The field will be no longer permitted for use in the following cases:
 
-* оно является дискретным и содержит всего одно уникальное значение;
-* оно непрерывное и с нулевой дисперсией;
-* оно содержит пропущенные значения.
+* It is discrete and contains only one unique value.
+* It is continuous and with zero variance.
+* It contains null values.
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Разбиение на кластеры (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Clustering (data table).
 
-Таблица, состоящая из полей:
+The table that consists of the following fields:
 
-* **Номер кластера** — каждому объекту присвоен номер того кластера, в который он входит.
-* **Расстояние до центра кластера** — положение объекта относительно центра кластера.
-* Поля исходного набора данных (значения не изменяются).
+* **Cluster number**: each object is assigned with the number of the cluster into which it is included.
+* **Distance to cluster center**: the object location relative to the cluster center.
+* The source data set fields (values are not changed).
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Центры кластеров (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Cluster centers (data table).
 
-**Центр кластера** — среднее значение переменных объектов, входящих в кластер. Результат — таблица, количество записей которой соответствует числу кластеров, т.е. данные сгруппированы по кластерам. Состоит из полей:
+**Cluster center**: the average value of the objects variables included into cluster. Result is a table the number of records of which complies with the number of clusters, namely, the data is grouped by clusters. It consists of the following fields:
 
-* **Номер кластера** — перечислены номера сформированных кластеров.
-* Поля исходного набора данных, в ячейках которых рассчитано среднее значение параметров.
+* **Cluster number**: numbers of the generated clusters are listed.
+* The source data set fields in the cells of which the average value of parameters has been calculated.
 
-## Мастер настройки узла
+## Node Wizard
 
-Мастер настройки включает в себя следующие группы параметров:
+The wizard includes the following groups of parameters:
 
-* Настройка входных столбцов;
-* Настройки [нормализации](./../normalization/README.md);
-* Кластеризация.
+* Configure input columns;
+* [Normalization](./../normalization/README.md) settings.
+* Clustering.
 
-### Настройка входных столбцов
+### Configure input columns
 
-* Выбор полей для кластеризации:
-  * Для полей, участвующих в кластеризации, выставить назначение *Используемое*.
-  * Для прочих полей оставить *Не задано*.
+* Select fields for clustering:
+   * It is required to set *Used* usage types for the fields that are included into clustering.
+   * *Unspecified* is preserved for other fields.
 
-### Кластеризация
+### Clustering
 
-* При заданном числе кластеров:
-  * Снять галочку *Автоопределение числа кластеров*.
-  * Ввести нужное количество кластеров (должно быть больше 2). По умолчанию — 3.
-* При автоматическом определении числа кластеров:
-  * Минимальное число кластеров. По умолчанию — 1.
-  * Максимальное число кластеров. По умолчанию — 10.
-  * Порог разделения кластеров (в интервале от 0,1 до 5). Чем больше порог разделения, тем больше кластеров будет сгенерировано при кластеризации.
+* In the case of the set number of clusters:
+   * Uncheck *Auto selection of clusters*.
+   * Enter the required number of clusters (must exceed 2). By default — 3.
+* In the case of auto selection of the cluster count:
+   * The minimum number of clusters. By default — 1.
+   * The maximum number of clusters. By default — 10.
+   * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering.
 
 **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
 

@@ -1,62 +1,62 @@
 ---
-description: Компонент Замена (переменные) в Loginom. Общие сведения. Поиск и замена по точному совпадению. Поиск по регулярным выражениям. Мастер настройки. Применение допустимого интервала. 
+description: Компонент Замена (переменные) в Loginom. Общие сведения. Поиск и замена по точному совпадению. Поиск по регулярным выражениям. Мастер настройки. Применение допустимого интервала.
 ---
-# ![Замена-переменные](./../../images/icons/components/replace-variables_default.svg) Замена (переменные)
+# ![Replace (Variables)](./../../images/icons/components/replace-variables_default.svg) Replace (Variables)
 
-Компонент заменяет входные переменные, используя таблицы замен. Таблицы замен содержат пары заменяемых и новых значений или вычисляющие их регулярные выражения.
+Компонент заменяет входные переменные, используя таблицы замен. The replacement tables contain couples of the replaced and new values or regular expressions that enable to compute them.
 
-Последовательность действий алгоритма замены:
+Sequence of the replacement algorithm actions:
 
- 1. В первую очередь производится поиск и замена по [точному совпадению](./../transformation/substitution/exact-match.md#zamena-po-tochnomu-sovpadeniyu) со значениями, указанными в таблице замен.
- 1. Среди значений, не найденных по точному совпадению, производится поиск по [регулярным выражениям](./../transformation/substitution/regexp-match.md). Такие выражения могут быть заданы в таблицах замен. Новые значения также вычисляются регулярными выражениями.
- 1. Выполняются правила замены для значений, не найденных на предыдущих шагах.
+1. First of all, replacement and search are performed by [exact match](./../transformation/substitution/exact-match.md#zamena-po-tochnomu-sovpadeniyu) with the values specified in the replacement table.
+1. The search among the values not found by exact match is performed by [regular expressions](./../transformation/substitution/regexp-match.md). Such expressions will be set in the replacement tables. New values are also computed using regular expressions.
+1. Replacement rules are observed for the values not found at the previous steps.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![Входные переменные](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — переменные, подлежащие изменению.
+* ![Input variables](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: the variables to be changed.
 
-### Выход
+### Output
 
-* ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — переменные после обработки.
+* ![Output variables](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: the variables after processing.
 
-## Мастер настройки
+## Wizard
 
-Окно мастера настройки состоит из трех областей.
+The wizard window consists of three areas.
 
-### Список замен
+### List of Replacements
 
-Отображает входные переменные и способ замены для каждой переменной:
+It displays the input variables and replacement method for each variable:
 
-* **не заменять** — замены производиться не будут;
-* **ввод вручную** — использовать таблицу замен.
+* **Do not replace**: no replacement is performed.
+* **Manual input**: it is required to use the replacement table.
 
-### Таблица замен
+### Replacement Table
 
-Область отображает таблицу замен для выбранной переменной.
+The area displays the replacement table for the selected variable.
 
-Для ввода новой строки в таблице замены используется кнопка ![добавить](./../../images/icons/common/toolbar-controls/plus_default.svg). Таблица может содержать строки для поиска и замены по:
+To enter the new row to the replacement table, it is required to use ![add](./../../images/icons/common/toolbar-controls/plus_default.svg) button. The table can contain rows for search and replacement according to the following requirements:
 
-* **точному совпадению**;
-* **регулярному выражению**.
+* **exact match**;
+* **regular expression**.
 
-При вводе таблицы замены доступен ряд действий через панель инструментов области:
+When entering the replacement table, the following actions are available by means of the area toolbar:
 
-* ![Импорт](./../../images/icons/common/toolbar-controls/import_default.svg) **Импорт** – считывает таблицу замен из указанного [текстового файла заданного формата](./../transformation/substitution/import-tz.md). Считанные данные заменят те, которые уже были в таблице. Изменения, производимые в дальнейшем с таблицей замен или файлом, не отражаются друг на друге.
-* ![Экспорт](./../../images/icons/common/toolbar-controls/export_default.svg) **Экспорт** — сохраняет таблицу замен в указанный текстовый файл.
-* ![Сортировать](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) **Сортировать** — сортировка таблицы по полю исходного значения.
-* **Изменить тип замены** — позволяет изменить [тип данных](./../../data/datatype.md) переменной после произведенной замены. Например, вещественную переменную можно заменить целочисленной или строковой. При этом, если замена не будет произведена, то тип не поменяется (за исключением / кроме случая замены вещественного числа на целочисленное).
-* ![Редактировать текущую замену](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать** — отображает область редактирования текущей строки таблицы подстановок.
-* ![Получить значения](./../../images/icons/common/toolbar-controls/load-values_default.svg) **Получить значения** — не доступно для переменных.
+* ![Import](./../../images/icons/common/toolbar-controls/import_default.svg) **Import** enables to read the replacement table from the specified [text file of the set format](./../transformation/substitution/import-tz.md). The imported data will replace the data that have already been in the table. Further changes of the replacement table or file will not have an impact on each other.
+* ![Export](./../../images/icons/common/toolbar-controls/export_default.svg) **Export** enables to save the replacement table in the specified text file.
+* ![Sort](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) **Sort** enables to sort the table by field of the source value.
+* **Change replacement type** enables to change [data type](./../../data/datatype.md) of the variable after performed replacement. For example, it is possible to replace the real variable with the integer or string one. In this case, if replacement is not performed, the type will not be changed (with the exception / apart from replacement of the real number with the integer one).
+* ![Edit current replacement](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit** enables to display the editing area of the current string of the substitution table.
+* ![Get values](./../../images/icons/common/toolbar-controls/load-values_default.svg) **Get values** is not available for variables.
 
-### Дополнительные параметры
+### Additional Parameters
 
-* **Заменять остальные** — содержит варианты замены значений, не найденных при помощи таблицы замен:
-  * **не заменять** — замены производиться не будут.
-  * **на пропущенное** — значения будут заменены на "NULL".
-  * **на значение** — значения будут заменены на указанное.
-  * **на регулярное выражение** — новое значение будет вычислено с использованием [синтаксиса регулярного выражения](./../transformation/substitution/regexp-match.md).
+* **Replace other** contains replacement options of the values that have not been found using the replacement table:
+   * **Do not replace**: no replacement is performed.
+   * **With empty**: values will be replaced with "NULL".
+   * **With value**: values will be replaced with the specified value.
+   * **With regular expression**: the new value will be calculated using the [regular expression syntax](./../transformation/substitution/regexp-match.md).
 
-* **Точность** — для полей целого и вещественного типов задает допустимый интервал от указанных в таблицах замен значений, при котором исходное значение будет заменено. [Применение допустимого интервала](./../transformation/substitution/exact-match.md#primenenie-dopustimogo-intervala).
-* **Регистрозависимые строки** — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен. По умолчанию данный режим отключен.
+* **Precision**: enables to set the allowable interval based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced. [Use of the Allowable Interval](./../transformation/substitution/exact-match.md#primenenie-dopustimogo-intervala).
+* **Case-sensitive strings**: the checkbox installs the case-sensitive mode of values search in the replacement tables. This mode is disabled by default.

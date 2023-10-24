@@ -1,76 +1,76 @@
 ---
 description: Интеграция Loginom с базой данных SQLite. Особенности работы. Параметры подключения. Совместимость.
 ---
-# ![ ](./../../../images/icons/common/data-sources/db-sqlite_default.svg) Подключение SQLite
+# ![ ](./../../../images/icons/common/data-sources/db-sqlite_default.svg) SQLite Connection
 
-Используется для подключения к базе данных SQLite.
+It is used for connection to the SQLite database.
 
 Данное подключение так же реализует следующие особенности работы с [импортом баз данных](./../../import/database.md):
 
 * Наряду со стандартными правилами сравнения символов (collation) BINARY, RTRIM и NOCASE возможно использование нижеследующих, не регламентированных стандартом SQLite:
-  * **UNICODE** — языконезависимое сравнение символов Unicode чувствительное к регистру.
-  * **LOCALIZED** — языкозависимое сравнение символов Unicode чувствительное к регистру. Результат сравнения строк зависит от локали операционной системы сервера Loginom.
-* В SQL конструкциях возможно использование функции iLIKE, реализующей функциональность LIKE в режиме регистронезависимости символов Unicode.
-* Проверка по внешним ключам включена по умолчанию.
+   * **UNICODE** — языконезависимое сравнение символов Unicode чувствительное к регистру.
+   * **LOCALIZED** — языкозависимое сравнение символов Unicode чувствительное к регистру. The string comparison result depends on the operational system locale of the Loginom server.
+* It is possible to use iLIKE function in the SQL constructions. It implements LIKE feature in the case insensitivity mode of Unicode characters.
+* Check by foreign keys is enabled by default.
 
-## Параметры подключения
+## Connection Parameters
 
-При настройке подключения задаются следующие параметры:
+The following parameters are set during the connection setup:
 
-* **Метка** — содержит задаваемое пользователем имя подключения.
+* **Caption** contains the connection name set by a user.
 * **База данных в памяти** — по умолчанию отключено. При выставленном флаге будет создано подключение к in-memory БД c общим кэшем.
-* **Имя файла** — указывается путь к файлу БД, содержащей необходимые данные. Параметры можно ввести вручную или нажатием кнопки ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызвать окно *Открыть файл*.
+* **Имя файла** — указывается путь к файлу БД, содержащей необходимые данные. Parameters can be manually entered, or it is possible to press ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button to call *Open file* window.
 
-  Если выставлен флаг «База данных в памяти», то необходимо обязательно задать идентификатор БД. Он может состоять из:
-  * символов латинского алфавита;
-  * цифр;
-  * слэша;
-  * подчеркивания;
-  * точки.
+   Если выставлен флаг «База данных в памяти», то необходимо обязательно задать идентификатор БД. Он может состоять из:
+   * символов латинского алфавита;
+   * цифр;
+   * слэша;
+   * подчеркивания;
+   * точки.
 * **Тестировать** — тест указанных настроек подключения.
-* **Логин** — логин при подключении к SQLite не используется.
-* **Пароль** — указывается пароль, установленный пользователем БД для защиты данных.
-* **Зашифрованная БД** — флаг устанавливает режим шифрования БД. Данный режим использует алгоритм шифрования AES256 и предусматривает использование пароля.
-* **Размер кэша** — устанавливает размер кэша. Действие параметра аналогично выполнению команды БД `"PRAGMA schema.cache_size = pages | -kibibytes;"`, где при введении положительного числа указывается количество памяти в страницах, а при введении отрицательного — выделение памяти в КиБ.
-* **Режим синхронизации** — устанавливается режим синхронизации с файловой системой. Выбор данного режима влияет на быстродействие БД, без синхронизации повышая быстродействие с наименьшей защищенностью от сбоев, и с уменьшением быстродействия в счет наибольшей защищенности от сбоев. Действие параметра аналогично выполнению команды БД `"PRAGMA schema.synchronous = 0 | OFF | 1 | NORMAL | 2 | FULL | 3 | EXTRA;"` и предусматривает выбор из следующих вариантов:
-  * *По умолчанию* используется режим FULL (Полная).
-  * *Отключена* (OFF).
-  * *Нормальный* (NORMAL).
-  * *Полная* (FULL).
-  * *Экстра* (EXTRA).
-* **Режим журнала транзакций** — устанавливается режим работы журнала транзакций. Действие параметра аналогично выполнению команды БД: `"PRAGMA schema.journal_mode = DELETE | TRUNCATE | PERSIST | MEMORY | WAL;"` и предусматривает выбор из следующих вариантов.
-  * *По умолчанию* используется режим DELETE (Удаление файла).
-  * *Удаление файла* (DELETE).
-  * *Очистка содержимого* (TRUNCATE).
-  * *Обнуление заголовка* (PERSIST).
-  * *Хранение в памяти* (MEMORY).
-  * *Упреждающая запись* (WAL).
+* **Login** is not used for connection to SQLite.
+* **Password**: the password set by the DB user is specified for data protection.
+* **Encrypted DB**: the checkbox enables to set the DB encryption mode. AES256 encryption is used in this mode, and a password is required.
+* **Cache size** enables to set the cache size. Действие параметра аналогично выполнению команды БД `"PRAGMA schema.cache_size = pages | -kibibytes;"`, где при введении положительного числа указывается количество памяти в страницах, а при введении отрицательного — выделение памяти в КиБ.
+* **Sync mode** enables to set the mode of synchronization with the file system. Selection of this mode affects the DB speed. It increases the speed without synchronization providing the lowest degree of protection against failures and decreasing the speed in order to provide higher degree of protection against failures. Действие параметра аналогично выполнению команды БД `"PRAGMA schema.synchronous = 0 | OFF | 1 | NORMAL | 2 | FULL | 3 | EXTRA;"` и предусматривает выбор из следующих вариантов:
+   * *По умолчанию* используется режим FULL (Полная).
+   * *Off* (OFF).
+   * *Normal* (NORMAL).
+   * *Полная* (FULL).
+   * *Extra* (EXTRA).
+* **Transaction journal mode**: the transaction journal mode is set. The parameter provides the same effect as the DB command does: `"PRAGMA schema.journal_mode = DELETE | TRUNCATE | PERSIST | MEMORY | WAL;"`, and it allows for one of the following options.
+   * In the case of *Default*, the DELETE (Delete file) mode is used.
+   * *Delete* (DELETE).
+   * *Truncate* (TRUNCATE).
+   * *Persist* (PERSIST).
+   * *Memory* (MEMORY).
+   * *Write-ahead log* (WAL).
 * **Хранилище TEMP** — определяет место хранения временных файлов. Действие параметра аналогично выполнению команды БД `"PRAGMA temp_store = 0 | DEFAULT | 1 | FILE | 2 | MEMORY;"` и предусматривает выбор из следующих вариантов:
-  * *По умолчанию* — для незашифрованной БД принято *Файловая система*, для зашифрованной БД — *Оперативная память*.
-  * *Файловая система*.
-  * *Оперативная память*.
+   * *По умолчанию* — для незашифрованной БД принято *Файловая система*, для зашифрованной БД — *Оперативная память*.
+   * *Файловая система*.
+   * *Оперативная память*.
 * **NOCASE в режиме UNICODE** — флаг переопределяет сравнение NOCASE как UNICODE — языконезависимое сравнение символов Unicode без чувствительности к регистру.
-* **lower, upper для UNICODE** — флаг расширяет действия функций lower, upper на все символы UNICODE. Без задействований данной опции функции lower, upper работают только для букв латинского алфавита.
-* **Режим работы LIKE** — предлагается выбрать один из вариантов сравнения символов при использовании функции LIKE.
-  * Без учета регистра ASCII символов.
-  * С учетом регистра.
-  * Без учета регистра.
-* **Создавать БД, если не существует** — при установке флага, указанная в параметре *Строка подключения* база данных будет создана, если таковая не существует. Новая БД создается в кодировке UTF-16.
-* **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.
-* **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени.
-* **Не использовать клиент СУБД** — для SQLite этот параметр не доступен.
+* **lower, upper for UNICODE**: the checkbox extends the effect of lower, upper functions for all UNICODE characters. If this option is not enabled, lower, upper functions are available only for the Latin letters.
+* **LIKE Mode**: it is required to select one of the character collation options to use LIKE function.
+   * Case-insensitive ASCII characters.
+   * Case-sensitive.
+   * Case-insensitive.
+* **Create DB if it doesn't exist**: when this checkbox is selected, the database specified in the *Connection string* parameter will be created if it doesn't exist. The new DB is created using UTF-16 encoding.
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
+* **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
+* **Do not use DBMS client**: this parameter is not available for SQLite.
 * **Очищать пул при деактивации** — при включенном флаге пул подключений, связанный с узлом Подключения, очищается сразу при деактивации узла. При отключенном флаге подключения начинают постепенно деактивироваться и удаляться из пула после деактивации узла.
-* **Комментарий** — в этой форме можно оставить любую справочную информацию о подключении.
+* **Comment**: it is possible to provide any reference data concerning connection in this form.
 
-> **Примечание:** Для подключения к базе данных используются библиотеки sqlite3.dll и sqlcipher.dll, совпадающие по разрядности с приложением/сервером Loginom. Данные библиотеки поставляются в составе дистрибутива Loginom. При использовании сторонних библиотек возможно переопределение значений по умолчанию параметров *Режим синхронизации* и *Режим журнала транзакций*.
+> **Note:** To provide connection to the database, sqlite3.dll and sqlcipher.dll libraries are used. Their bitness matches the Loginom application/ server bitness. These libraries are included into the Loginom distribution kit. When third-party libraries are used, it is possible to redefine values of *Sync mode* and *Transaction journal mode* parameters by default.
 
-## Совместимость
+## Compatibility
 
-Версии 3.0 и выше.
+Versions 3.0 and higher.
 
-**Смотри также:**
+**See also:**
 
 * [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/SQLite).
 * [Официальный сайт производителя](https://sqlite.org).
-* [Документация по SQL синтаксису](https://sqlite.org/lang.html).
-* [Информация по PRAGMA](https://sqlite.org/pragma.html).
+* [SQL Syntax Documentation](https://sqlite.org/lang.html).
+* [PRAGMA Information](https://sqlite.org/pragma.html).

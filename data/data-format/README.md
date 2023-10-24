@@ -1,16 +1,16 @@
 ---
 description: Справка по подключению фирменных источников данных в Loginom. Подключение к "Loginom Data File". Подключение к хранилищу "Deductor Warehouse".
 ---
-# Фирменные источники данных
+# Branded Data Sources
 
-Использование собственных форматов позволяет:
+Usage of the branded data sources enables to achieve the following goals:
 
-* Достичь максимальную производительность;
-* Уменьшить объем занимаемой памяти;
-* Увеличить эффективность работы с данными;
-* Хранить данные в специальных структурах с учетом особенностей каждого алгоритма.
+* To provide the maximum performance.
+* To decrease memory footprint.
+* To improve the data handling efficiency.
+* To keep data in special structures taking into account peculiarities of each algorithm.
 
-Loginom имеет два фирменных источника данных:
+Loginom has two branded data sources:
 
 * [Loginom Data File](./lgd-file.md);
 * [Deductor Warehouse](./data-warehouse.md).

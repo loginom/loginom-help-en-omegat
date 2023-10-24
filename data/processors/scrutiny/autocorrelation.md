@@ -1,76 +1,76 @@
 ---
 description: Компонент автокорреляция в Loginom. Лаг, АКФ, ЧАФК, Ошибка, Значимость. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/autocorrelation_default.svg) Автокорреляция
+# ![ ](./../../images/icons/components/autocorrelation_default.svg) Autocorrelation
 
-## Описание
+## Description
 
-**[Автокорреляция](https://wiki.loginom.ru/articles/autocorrelation.html)** — это понятие математической статистики, которое характеризует степень статистической взаимосвязи между элементами данных одного временного ряда. Иными словами, вычисляется корреляция между временным рядом и его копией, сдвинутой на один или несколько временных отсчетов. Компонент позволяет вычислять автокорреляцию временных рядов, количество отсчетов выбирается пользователем.
+**[Autocorrelation](https://wiki.loginom.ru/articles/autocorrelation.html)** is a concept related to mathematical statistics that defines the level of statistical interrelation between data elements of one time series. In other words, correlation between time series and its copy shifted to one or several time lags is calculated. Компонент позволяет вычислять автокорреляцию временных рядов, количество отсчетов выбирается пользователем.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходная таблица:
+Source table:
 
- | День недели | Дата | Продано билетов в кино, тысяч шт. |
- | :----------- | :---- | ---------------------------------: |
- | Пн | 21.08.2017 | 6 |
- | Вт | 22.08.2017 | 8 |
- | Ср | 23.08.2017 | 13 |
- | Чт | 24.08.2017 | 10 |
- | Пт | 25.08.2017 | 19 |
- | Сб | 26.08.2017 | 24 |
- | Вс | 27.08.2017 | 22 |
- | Пн | 28.08.2017 | 7 |
- | Вт | 29.08.2017 | 6 |
- | Ср | 30.08.2017 | 10 |
- | Чт | 31.08.2017 | 15 |
- | Пт | 01.09.2017 | 17 |
- | Сб | 02.09.2017 | 26 |
- | Вс | 03.09.2017 | 24 |
+| Day of week | Date | Sold cinema tickets, thousand pieces |
+| :----------- | :---- | ---------------------------------: |
+| Monday | 21.08.2017 | 6 |
+| Tuesday | 22.08.2017 | 8 |
+| Wednesday | 23.08.2017 | 13 |
+| Thursday | 24.08.2017 | 10 |
+| Friday | 25.08.2017 | 19 |
+| Saturday | 26.08.2017 | 24 |
+| Sunday | 27.08.2017 | 22 |
+| Monday | 28.08.2017 | 7 |
+| Tuesday | 29.08.2017 | 6 |
+| Wednesday | 30.08.2017 | 10 |
+| Thursday | 31.08.2017 | 15 |
+| Friday | 01.09.2017 | 17 |
+| Saturday | 02.09.2017 | 26 |
+| Sunday | 03.09.2017 | 24 |
 
-Применим автокорреляционный анализ к полю "Продано билетов в кино, тысяч шт.", задав ему параметр ![ ](./../../images/icons/common/usage-types/active_default.svg) "Используемое" в настройках входного порта. В мастере настройки количество отсчетов определим равным десяти.
+The autocorrelation analysis is applied to the following field: "Sold cinema tickets, thousand pieces". It is required to set ![ ](./../../images/icons/common/usage-types/active_default.svg) "Used" parameter in the input port settings. The lag count is equal to ten in the wizard.
 
-Выходная таблица:
+Output table:
 
- | Лаг | АКФ | Ошибка | Значимость |
- | ------: | ------: | ------------: | :-------------------- |
- | 0 | 1.00 | 0.00 | True |
- | 1 | 0.51 | 0.27 | True |
- | 2 | -0.09 | 0.33 | False |
- | 3 | -0.38 | 0.33 | True |
- | 4 | -0.46 | 0.36 | True |
- | 5 | -0.36 | 0.40 | False |
- | 6 | 0.09 | 0.42 | False |
- | 7 | 0.46 | 0.42 | True |
- | 8 | 0.34 | 0.46 | False |
- | 9 | 0.03 | 0.48 | False |
+| Lag | ACF | Error | Significance |
+| ------: | ------: | ------------: | :-------------------- |
+| 0 | 1.00 | 0.00 | True |
+| 1 | 0.51 | 0.27 | True |
+| 2 | -0.09 | 0.33 | False |
+| 3 | -0.38 | 0.33 | True |
+| 4 | -0.46 | 0.36 | True |
+| 5 | -0.36 | 0.40 | False |
+| 6 | 0.09 | 0.42 | False |
+| 7 | 0.46 | 0.42 | True |
+| 8 | 0.34 | 0.46 | False |
+| 9 | 0.03 | 0.48 | False |
 
 %/spoiler%
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных). В настройках этого порта следует выставить назначение ![ ](./../../images/icons/common/usage-types/active_default.svg) "Используемое" полям, для которых нужно рассчитать автокорреляцию. Для этого пригодны только поля числовых типов.
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). ![ ](./../../images/icons/common/usage-types/active_default.svg) "Used" value is set in the settings of this port for the fields for which it is required to calculate autocorrelation. Only numeric fields are suitable for this purpose.
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных. Таблица имеет следующую структуру:
-  * Обязательные поля:
-    * **Лаг** — количество отсчетов, на которое сдвинут исходный ряд чисел относительно его копии;
-    * **АКФ** — коэффициенты автокорреляции для каждого лага;
-    * **Ошибка** — стандартные ошибки коэффициентов корреляции для последовательности лагов данного диапазона;
-    * **Значимость** — условный вывод о наличии/отсутствии корреляции на данном лаге.
-  * Поля, наличие которых задается пользователем:
-    * **ЧАКФ** — коэффициенты частной автокорреляционной функции. Для добавления данного поля следует выставить соответствующий флаг в мастере настройки.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set. The table has the following structure:
+   * Required fields:
+      * **Lag**: the lag count to which the source series of numbers is moved relative to its copy.
+      * **ACF**: autocorrelation coefficients for each lag.
+      * **Error**: standard errors of the autocorrelation coefficients for a sequence of lags of the given bin.
+      * **Significance**: conditional conclusion concerning availability/unavailability of correlation in the given lag.
+   * There are the following fields the availability of which is set by a user:
+      * **PACF**: partial autocorrelation function coefficients. To add this field, it is required to select corresponding checkbox in the wizard.
 
-## Мастер настройки
+## Wizard
 
-Включает три настройки:
+It provides three settings:
 
-* **Количество отсчетов** — определяет максимальный сдвиг (лаг) исходного ряда чисел относительно его копии. Для каждого количества отсчетов впоследствии вычисляется коэффициент автокорреляции. Количество отсчетов не может быть больше, чем количество строк в исходной таблице.
-* Область расчета АКФ:
-  * **временная** — рекомендуется при обработке небольшого количества отсчетов;
-  * **частотная** — рекомендуется при обработке большого количества отсчетов для ускорения вычислений;
-  * **автоматически** — узел определит область расчета, исходя из количества отсчетов самостоятельно.
-* **Рассчитывать ЧАКФ** — наличие данного флага добавляет вычисление частной автокорреляционной функции. Ее отличительной особенностью является исключение корреляционной зависимости между наблюдениями внутри лагов, т.е. частная автокорреляционная функция на каждом лаге отличается от обычной автокорреляционной функции на величину удаленных автокорреляций с меньшими временными лагами. Следовательно, частная автокорреляционная функция более точно характеризует автокорреляционные зависимости внутри временного ряда.
+* **Lag count** defines the maximum shift (lag) of the source series of numbers relative to its copy. The autocorrelation coefficient is further calculated for each lag count. The lag count cannot exceed the row count in the source table.
+* ACF calculation area:
+   * **Time** is recommended in the case of the small lag count processing.
+   * **Frequency** is recommended in the case of the large lag count processing to speed up the calculation process.
+   * **автоматически** — узел определит область расчета, исходя из количества отсчетов самостоятельно.
+* **Calculate PACF**: availability of this checkbox adds calculation of partial autocorrelation function. Its distinctive feature is exclusion of the correlation dependence between the observations inside the lags, namely, partial autocorrelation function in each lag differs from the standard autocorrelation function by the value of remote autocorrelations with smaller time lags. Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.

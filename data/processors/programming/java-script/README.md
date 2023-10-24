@@ -4,24 +4,24 @@ description: Компонент JavaScript в Loginom. Описание. Про�
 
 # ![](./../../../images/icons/components/javascript_default.svg) JavaScript
 
-## Описание
+## Description
 
-Узел создает новый набор данных с заданным составом и параметрами полей и заполняет его данными в ходе выполнения кода JavaScript. Для заполнения выходного набора в коде возможно использование данных входных портов.
+The node creates a new data set with the set composition and features of fields. It appends data to it during the JavaScript code execution. To append the output data set, it is possible to use the data of the input ports in the code.
 Состав и параметры полей выходного набора могут задаваться как в мастере настройки узла, так и из кода JavaScript.
 
-### Вход
+### Input
 
-* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) Входной источник данных (таблица данных), необязательный;
-* ![](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) Добавить еще один порт – создает новый порт Входной источник данных[N], где N – порядковый номер порта;
-* ![](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Входные переменные (переменные), необязательный.
+* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) Input data source (data table), optional.
+* ![](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port enables to create a new port - Input data source[N] where N is an order port number.
+* ![](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) Input variables (variables), optional.
 
-### Выход
+### Output
 
-* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-## Мастер настройки
+## Wizard
 
-Последовательно выполняются следующие этапы настройки:
+The following configuration stages are successively executed:
 
 * Настройка столбцов выходной таблицы;
 * JavaScript.
@@ -34,26 +34,26 @@ description: Компонент JavaScript в Loginom. Описание. Про�
 
 ### JavaScript
 
-Страница *JavaScript* содержит редактор исполняемого узлом кода. По кнопке [Предпросмотр…](./../../../visualization/preview/preview.md) в отдельном окне выводится до 100 первых строк результирующего набора данных и [консоль отладки кода](./console.md).
+The *JavaScript* page contains the code editor executed by the node. [Preview…](./../../../visualization/preview/preview.md) button enables to show up to 100 first strings of the resulting data set and [console of code debugging](./console.md) in a separate window.
 
-> **Примечание:** При нажатии на кнопку *Предпросмотра* активируются все входные порты. При успешном завершении активации открывается окно *Предпросмотра*.
+> **Note: It is possible to activate all input ports ** by pressing *Preview* button. The *Preview* window is opened if the activation has been successfully finished.
 
-Поддерживается [импорт внешних модулей JS](./external-modules.md).
+[Import of the external JS modules](./external-modules.md) is supported.
 
-См. также: [Горячие клавиши редактора кода](./hotkeys.md)
+Also refer to [Code editor hotkeys](./hotkeys.md)
 
-## Доступ из кода JavaScript к данным портов и другим встроенным объектам
+## Access to the Ports Data and Other Built-In Objects from the JavaScript Code
 
-Для доступа к данным портов и другим встроенным объектам в контексте выполнения JavaScript-кода предусмотрены следующие объекты:
+To have access to the data of ports and other built-in objects in the context of the JavaScript code execution, the following objects are provided:
 
-* [Входные наборы данных](./input-tables.md) (`InputTables`, `InputTable`);
-* [Входные переменные](./input-variables.md) (`InputVariables`);
-* [Выходной набор данных](./output-table.md) (`OutputTable`);
-* [Необходимые перечисления](./enum.md) (`DataType`, `DataKind`, `UsageType`).
+* [Input data sets](./input-tables.md) (`InputTables`, `InputTable`);
+* [Input variables](./input-variables.md) (`InputVariables`);
+* [Output data set](./output-table.md) (`OutputTable`);
+* [Required enumerations](./enum.md) (`DataType`, `DataKind`, `UsageType`).
 
-Вышеуказанные объекты импортируются из встроенного модуля `"builtIn/Data"`. По умолчанию в текст исполняемого узлом кода добавляется строка импорта этих объектов.
+The objects specified above are imported from the built-in module: `"builtIn/Data"`. The import string of these objects is added to the text of the code executed by the node by default.
 
-В контексте выполнения JavaScript-кода доступны функции *Калькулятора*, которые импортируются из [встроенного модуля `"builtIn/Calc"`](./calc-functions.md).
+In the context of the JavaScript code execution, the *Calculator* functions are available. They are imported from the [built-in module`"builtIn/Calc"`](./calc-functions.md).
 
 ## Fetch API
 
@@ -63,8 +63,8 @@ description: Компонент JavaScript в Loginom. Описание. Про�
 
 В контексте выполнения JavaScript-кода доступны объекты интерфейса [File Storage API](./fileapi.md), предназначенные для работы с файловой системой. Перед использованием объекты должны быть импортированы из встроенного модуля `"builtIn/FS"`.
 
-## Обработка ошибок
+## Processing of Errors
 
-При вызове окна *Предпросмотра* или выполнении узла выводится сообщение об обнаруженных синтаксических ошибках и ошибках хода выполнения с указанием позиции кода, содержащего ошибку.
+When calling the *Preview* window or executing the node, the message informing about detected syntactic and execution errors is shown specifying position of the code with an error.
 
-> **Важно:** Неперехваченные ошибки в [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise) записываются в лог сервера, при этом узел выполняется без сообщений об ошибке.
+> **Important:** Uncaught errors in [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise) are recorded in the server log, and the node is executed without error messages.

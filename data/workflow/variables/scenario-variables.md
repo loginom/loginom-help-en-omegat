@@ -1,22 +1,22 @@
 ---
 description: Переменные сценария в аналитической платформе Loginom. Переменные системы. Переменные сессии. Переменные пакета. Приоритет переменных. Пример итогового набора в порту Переменные.
 ---
-# Переменные сценария
+# Workflow Variables
 
-В левом верхнем углу области построения Сценариев располагаются [порты](./../ports/README.md) переменных Сценария:
+The [ports](./../ports/README.md) of the Workflow variables are located in the upper left corner of the Workflow construction area:
 
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные** — итоговый набор всех нижеперечисленных переменных Сценария. Переменные недоступны для редактирования.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные системы** — набор переменных окружения операционной системы. Считываются из настроек системы. Переменные недоступны для редактирования.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные сессии** — набор переменных текущей сессии. Переменные недоступны для редактирования.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные пакета** —  набор переменных текущего Пакета. [Предопределенные переменные](./../../workflow/variables/predefined-variables.md#peremennye-paketa) недоступны для редактирования.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Переменные пользователя** — набор переменных, задаваемый пользователем для текущего Сценария.
-* ![ ](./../../images/icons/app/node/ports/submodel-port/submodel-port_20x20.svg) — вызов меню действий над портами переменных Сценария. Используется при отладке Сценария.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Variables** represent the final set of all Workflow variables listed below. Переменные недоступны для редактирования.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **System variables** represent a set of variables of the operating system environment. It is read from the system settings. Переменные недоступны для редактирования.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Session variables** represent a set of variables of the current session. Переменные недоступны для редактирования.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Package variables** represent a set of variables of the current Package. [Предопределенные переменные](./../../workflow/variables/predefined-variables.md#peremennye-paketa) недоступны для редактирования.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **User variables** represent a set of variables set by the user of the current Workflow.
+* ![ ](./../../images/icons/app/node/ports/submodel-port/submodel-port_20x20.svg) enables to call the action menu of ports of the Workflow variables. It is used during the Workflow debugging.
 
 Для того чтобы добавить Переменную пакета, необходимо:
 * нажать кнопку Навигация в главном меню;
 * в открывшейся древовидной структуре Пакета выбрать раздел Переменные.
 
- При добавлении новой переменной задаётся Имя, Метка и Тип данных. Значение переменной можно не задавать.
+При добавлении новой переменной задаётся Имя, Метка и Тип данных. Значение переменной можно не задавать.
 
 ![Добавление Переменной](./add-variable.png)
 
@@ -29,31 +29,31 @@ description: Переменные сценария в аналитической
 * нельзя Удалять/Добавлять/Перемещать переменные;
 * нельзя менять Имя/Метку/Тип переменной.
 
->**Примечание:** Внутри [Подмодели](./../../processors/control/supernode.md) также имеется возможность использовать переменные Сценария. Однако, порт «Переменные пользователя» в этом случае содержит собственный набор переменных, применимых только внутри Подмодели.
+> **Примечание:** Внутри [Подмодели](./../../processors/control/supernode.md) также имеется возможность использовать переменные Сценария. Однако, порт «Переменные пользователя» в этом случае содержит собственный набор переменных, применимых только внутри Подмодели.
 
-Меню действий содержит следующие команды:
+The action menu contains the following commands:
 
-* ![ ](./../../images/icons/common/toolbar-controls/launch-node_default.svg) **Запуск обработки** — ручная активация портов (активированный порт содержит данные);
-* ![ ](./../../images/icons/common/toolbar-controls/setup_default.svg) **Настройка** — открывает диалог настройки значений переменных пользователя;
-* ![ ](./../../images/icons/common/toolbar-controls/configure-viewers_default.svg) **Настройка визуализаторов** — открывает диалог настройки визуализаторов;
-* ![ ](./../../images/icons/common/toolbar-controls/rows_default.svg) **Другие действия** — вызывает контекстное меню с расширенным набором команд.
+* ![ ](./../../images/icons/common/toolbar-controls/launch-node_default.svg) **Start processing** provides the manual ports activations (the activated port contains data).
+* ![ ](./../../images/icons/common/toolbar-controls/setup_default.svg) **Settings** enable to open the dialog of configuration of the user variables values.
+* ![ ](./../../images/icons/common/toolbar-controls/configure-viewers_default.svg) **Configure visualizers** enables to open the dialog of the visualizers configuration.
+* ![ ](./../../images/icons/common/toolbar-controls/rows_default.svg) **Other actions** enable to call the context menu with the extended set of commands.
 
-Для вызова контекстного меню порта необходимо кликнуть мышью порт. Контекстное меню содержит команды:
+To call the context menu of the port, it is required to click on the port. The context menu contains the following commands:
 
-* ![ ](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) **Быстрый просмотр** — вызывает [окно просмотра значений](./../../visualization/preview/quick-view.md) переменных. Команда доступна после активации порта.
-* ![ ](./../../images/icons/common/toolbar-controls/setup_default.svg) **Настроить порт** — открывает диалог настройки значений переменных.
-* ![ ](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать метки порта** — открывает диалог редактирования метки порта.
+* ![ ](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) **Quick view** enables to call the variable [watch window](./../../visualization/preview/quick-view.md). The command is available after the port activation.
+* ![ ](./../../images/icons/common/toolbar-controls/setup_default.svg) **Configure port** enables to open the dialog of configuration of the variables values.
+* ![ ](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit port captions** enables to open the dialog of the port caption editing.
 
-Переменная с одинаковым именем может присутствовать одновременно в нескольких портах. Для исключения конфликтов используется следующий приоритет:
+The variable with the same name can occur simultaneously in several ports. To exclude conflicts, the following priority is observed:
 
-1. Переменные пользователя;
-2. Переменные пакета;
-3. Переменные сессии;
-4. Переменные системы.
+1. User variables.
+2. Package variables.
+3. Session variables.
+4. System variables.
 
-Таким образом, переменные пользователя имеют наивысший приоритет.
+Thus, user variables have the highest priority.
 
-Пример:
+For example:
 
 * Переменная системы USERNAME=«PC-01$»;
 * Переменная пользователя USERNAME=«Иванов».

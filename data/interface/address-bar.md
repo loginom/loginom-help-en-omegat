@@ -1,36 +1,36 @@
 ---
 description: Адресная строка в аналитической платформе Loginom. Элементы навигации по объектам. Ссылка на объект в Loginom.
 ---
-# Адресная строка
+# Address Bar
 
-Адресная строка представляет собой навигационную цепочку объектов (см. рисунок 1). Для перехода к объектам, находящимся выше по уровню вложенности, следует нажать на соответствующий объект в цепи.
+Address bar is a breadcrumb trail of objects (refer to Figure 1). To move to the objects located higher as far as the nesting level is concerned, it is required to press corresponding object in the trail.
 
-![Адресная строка.](address-bar-1.png)
+![Address bar.](address-bar-1.png)
 
-Элементы навигации:
+Navigation elements:
 
-* ![Вверх](./../images/icons/common/toolbar-controls/up_default.svg) **Вверх** — производит переход к объекту верхнего уровня.
-* ![Назад](./../images/icons/common/toolbar-controls/arrow-l_default.svg) **Назад** — возвращает к предыдущему открытому объекту.
-* ![Вперед](./../images/icons/common/toolbar-controls/arrow-r_default.svg) **Вперед** — отменяет переход *Назад*, если после него не было произведено никаких других действий навигации.
+* ![Go up](./../images/icons/common/toolbar-controls/up_default.svg) **Go up**: transition to the upper level object.
+* ![Go back](./../images/icons/common/toolbar-controls/arrow-l_default.svg) **Go back** enables to return to the previous opened object.
+* ![Go forward](./../images/icons/common/toolbar-controls/arrow-r_default.svg) **Go forward** enables to cancel *Go back* transition if no other navigation operations have been performed afterwards.
 * ![Сохранить пакет](./../images//icons/common/toolbar-controls/toolbar-controls_18x18_save_default.svg) **Сохранить пакет** (Ctrl+S) — сохраняет настройки Пакета, которые актуальны на момент нажатия этой кнопки.
 
-Также, нажав на клавишу ![Список подобъектов](./../images/icons/common/toolbar-controls/down_default.svg) можно перейти к подобъектам составного объекта (см. рисунок 2).
+Pressing ![List of subobjects](./../images/icons/common/toolbar-controls/down_default.svg) button, it is possible to go to the subobjects of the complex object (refer to  Figure 2).
 
-![Выбор составного объекта.](address-bar-2.png)
+![Select complex object](address-bar-2.png)
 
-При необходимости, можно ввести путь вручную. Для этого необходимо нажать на адресную строку и ввести новый/скорректированный путь. Например:
+If required, it is possible to enter the path manually. In order to do that, it is required to press address bar and enter the new/corrected path. For example:
 
 ```text
-\Пакеты\Scoring\Расчет скорингового балла\Сценарий
+\Packages\Scoring\Score calculation\Workflow
 ```
 
-## Ссылка на объект
+## Reference to Object
 
-В многопользовательской версии есть возможность получить гиперссылку на текущий открытый объект. По нажатию на ![Поделиться](./../images/icons/common/toolbar-controls/share_default.svg) **Поделиться…** открывается окно с одним или двумя путями:
+The multiuser edition enables to receive hyperlink to the current opened object. Pressing ![Share](./../images/icons/common/toolbar-controls/share_default.svg) **Share…**, it is possible to open a window with one or two paths:
 
-* *Абсолютный* (для совместного использования) — включает в себя имя папки, из которой загружен файл. Присутствует для различных пакетов.
-* *Относительный* (для персонального использования) — вместо имени папки содержит точку. Присутствует только для пользовательских пакетов.
+* *Absolute* (for joint usage) includes a name of the folder from which a file was downloaded. It is available for different packages.
+* *Relative* (for personal usage) contains a point instead of the folder name. It is available only for user packages.
 
-Выбранный путь можно быстро скопировать кнопкой ![Копировать](./../images/icons/common/toolbar-controls/copy_default.svg). В дальнейшем его можно использовать в адресной строке браузера для быстрого перехода к открытому объекту.
+The selected path can be quickly copied using ![Copy](./../images/icons/common/toolbar-controls/copy_default.svg) button. Subsequently, it can be used in the browser address bar for quick transition to the opened object.
 
-> **Примечание:** При переходе по данной ссылке придется ввести соответствующий логин и (если есть) пароль.
+> **Note:** When following this link, it is required to enter corresponding login and password (if any).

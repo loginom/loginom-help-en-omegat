@@ -1,20 +1,20 @@
 ---
 description: Настройка панели фильтрации основной таблицы сравнения кластеров в Loginom. Справка по фильтру. Настройка диапазона фильтруемых значений. Скрытие неиспользуемых при кластерном сравнении полей.
 ---
-# ![Панель фильтрации](./../../images/icons/common/toolbar-controls/filter_default.svg) Панель фильтрации
+# ![Filtration Panel](./../../images/icons/common/toolbar-controls/filter_default.svg) Filtration Panel
 
-Содержит настройки фильтрации основной таблицы (см. Рис 1).
+It contains filtration settings of the main table (refer to Figure 1).
 
-![Панель фильтрации.](./images/cluster-profilies-filter-panel.png)
+![Filtration panel.](./images/cluster-profilies-filter-panel.png)
 
-Настройки диапазона фильтруемых значений:
+Settings of the filtered values range:
 
-* **Мощность кластера** — показывает количество строк исходного набора, попавших в кластер. Задает диапазон от 0 до числа строк в исходном наборе данных.
-* **Значимость поля** — мера влияния поля на попадание поля в некоторый кластер. Задает диапазон от 0 до 100%.
-* **Значимость ячейки** — мера влияния ячейки на попадание ячейки в некоторый кластер. Задает диапазон от 0 до 100%.
+* **Cluster size** shows the row count of the source data set included into the cluster. It sets the range from 0 to the row count in the source data set.
+* **Field importance**: measure of the field influence on inclusion of the field into any cluster. It sets the range from 0 to 100%.
+* **Cell importance**: measure of the cell influence on inclusion of the cell into any cluster. It sets the range from 0 to 100%.
 
-Помимо настроек диапазонов есть флажок:
+Apart from the range settings, the checkbox is also available:
 
-**Скрывать неиспользуемые поля** — скрыть неиспользуемые в кластеризации поля (их значимость не определена).
+**Hide unused fields**: hide the fields unused in clustering (their importance is not defined).
 
->Примечание: Непрошедшие фильтр ячейки имеют измененный стиль в таблице. Применение фильтра может привести к сокрытию колонки/строки, если все составляющее ее ячейки не прошли фильтр.
+> Note: The cells that have not passed filtering refer to the changed style in the table. Usage of filter can hide column/row if all constituents of its cell have not passed filtering.

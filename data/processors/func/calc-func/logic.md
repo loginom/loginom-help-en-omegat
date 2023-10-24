@@ -1,113 +1,113 @@
 ---
 description: Справка по логическим функциям Loginom. Работа с функциями Decode, DecodeF, DecodeN, DecodeS, DecodeV, IF, IFF, IN, IsNull, NVL. Описание функций и используемых аргументов.
 ---
-# Логические функции
+# Logical Functions
 
 ## Decode
 
-**Decode(Выражение, Значение1, Результат1 [, Значение2, Результат2]... [, Значение\_по\_умолчанию = ""])**
+**Decode(Expression, Value1, Result1 [, Value2, Result2]... [, Default\_value= ""])**
 
-*  Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов ЗначениеN.
-*  ЗначениеN - выражение, величина которого сравнивается с аргументом Выражение.
-*  РезультатN - выражение строкового типа, которое возвращается, если Выражение = ЗначениеN.
-*  Значение\_по\_умолчанию - выражение строкового типа, результат которого возвращается, если Выражение не равно ни одному из ЗначениеN (если не указано, то равно "").
+* Expression - the expression value of which is alternately compared with the values of the ValueN arguments.
+* ValueN - the expression value of which is compared with the Expression argument.
+* ResultN - the expression of the string type that is returned if the Expression = ValueN.
+* Default\_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to "").
 
- Реализует функциональность IF - THEN - ELSE, при этом результат функции имеет строковый тип.
- Все выражения РезультатN вычисляются до сравнения Выражения с ЗначениеN.
+Implements IF - THEN - ELSE feature and the function result is related to the string type.
+All ResultN expressions are calculated before the Expression and ValueN comparison.
 
 ## DecodeF
 
-**DecodeF(Выражение, Погрешность, Значение1, Результат1 [, Значение2, Результат2]... [, Значение\_по\_умолчанию = 0])**
+**DecodeF(Expression, Error, Value1, Result1 [, Value2, Result2]... [, Default\_value = 0])**
 
-*  Выражение - любое числовое выражение, величина которого используется для сравнения.
-*  Погрешность - числовое выражение, погрешность сравнения.
-*  ЗначениеN - числовое выражение, величина которого сравнивается с аргументом Выражение.
-*  РезультатN - значение, которое возвращается, если |ЗначениеN - ВыражениеN| <= Погрешность.
-*  Значение по умолчанию - числовое выражение, результат которого возвращается, если ни одно ЗначениеN  не равно Выражению (по умолчанию 0).
+* Expression - any numeric expression value of which is used for comparison.
+* Error - the numeric expression, comparison error.
+* ValueN - the numeric expression value of which is compared with the Expression argument.
+* ResultN - the value that is returned if |ValueN - ExpressionN| <= Error.
+* Default value - the numeric expression the result of which is returned if none of the ValuesN is equal to the Expression (by default 0).
 
- Реализует функциональность IF - THEN - ELSE, при этом результат функции, также как и все ее аргументы, имеют числовой тип или тип Дата/Время.
- Все выражения РезультатN вычисляются до сравнения Выражения с ЗначениеN.
+Implements IF - THEN - ELSE feature and the function result as all its arguments are related to the numeric or Date/Time type.
+All ResultN expressions are calculated before the Expression and ValueN comparison.
 
 ## DecodeN
 
-**DecodeN(Выражение, Значение1, Результат1 [, Значение2, Результат2]... [, Значение\_по\_умолчанию = 0])**
+**DecodeN(Expression, Value1, Result1 [, Value2, Result2]... [, Default\_value = 0])**
 
-*  Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов ЗначениеN.
-*  ЗначениеN - выражение, величина которого сравнивается с аргументом Выражение.
-*  РезультатN - выражение числового типа или типа Дата/Время, которое возвращается, если Выражение = ЗначениеN.
-*  Значение\_по\_умолчанию - выражение числового типа или типа Дата/Время, результат которого возвращается, если Выражение не равно ни одному из ЗначениеN (если не указано, то равно 0).
+* Expression - the expression value of which is alternately compared with the values of the ValueN arguments.
+* ValueN - the expression value of which is compared with the Expression argument.
+* ResultN - the expression of the numeric or Date/Time type that is returned if the Expression = ValueN.
+* Default\_value - the expression of the numeric or Date/Time type the result of which is returned, if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to 0).
 
- Реализует функциональность IF - THEN - ELSE, при этом результат функции имеет числовой тип или тип Дата/Время.
- Все выражения РезультатN вычисляются до сравнения Выражения с ЗначениеN.
+Implements IF - THEN - ELSE feature and the function result is related to the numeric or Date/Time type.
+All ResultN expressions are calculated before the Expression and ValueN comparison.
 
 ## DecodeS
 
-**DecodeS(Выражение, Значение1, Результат1 [, Значение2, Результат2]... [, Значение\_по\_умолчанию = ""])**
+**DecodeS(Expression, Value1, Result1 [, Value2, Result2]... [, Default\_value = ""])**
 
-*  Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов ЗначениеN.
-*  ЗначениеN - выражение, величина которого сравнивается с аргументом Выражение.
-*  РезультатN - выражение строкового типа, которое возвращается, если Выражение = ЗначениеN.
-*  Значение\_по\_умолчанию - выражение строкового типа, результат которого возвращается, если Выражение не равно ни одному из ЗначениеN (если не указано, то равно "").
+* Expression - the expression value of which is alternately compared with the values of the ValueN arguments.
+* ValueN - the expression value of which is compared with the Expression argument.
+* ResultN - the expression of the string type that is returned if the Expression = ValueN.
+* Default\_value - the expression of the string type the result of which is returned if the Expression is equal to none of the ValuesN (if it is not stated then it is equal to "").
 
- Реализует функциональность IF - THEN - ELSE, при этом результат функции имеет строковый тип.
- Все выражения РезультатN вычисляются до сравнения Выражения с ЗначениеN.
+Implements IF - THEN - ELSE feature and the function result is related to the string type.
+All ResultN expressions are calculated before the Expression and ValueN comparison.
 
 ## DecodeV
 
-**DecodeV(Выражение, Значение, Результат [, Значение, Результат]... [, Значение\_по\_умолчанию = Null])**
+**DecodeV(Expression, Value, Result [, Value, Result]... [, Default\_value = Null])**
 
-*  Выражение - выражение, значение которого поочередно сравнивается со значениями аргументов Значение.
-*  Значение - выражение, величина которого сравнивается с аргументом Выражение.
-*  Результат - выражение, которое возвращается, если Выражение = Значение.
-*  Значение\_по\_умолчанию - выражение, результат которого возвращается, если Выражение не равно ни одному из Значений (если не указано, то равно Null).
+* Expression - the expression value of which is alternately compared with the values of the Value arguments.
+* Value - the expression value of which is compared with the Expression argument.
+* Result - the expression that is returned if the Expression = the Value.
+* Default\_value - the expression, the result of which is returned if the Expression is equal to none of the Values (if it is not stated then it is equal to Null).
 
- Реализует функциональность IF - THEN - ELSE.
- Все выражения Результат вычисляются до сравнения Выражения со Значениями
+Implements IF - THEN - ELSE feature.
+All Result expressions are calculated before the Expression and Values comparison.
 
 ## IF
 
-**IF(Условие, Значение1, Значение2)**
+**IF(Antecedent, Value1, Value2)**
 
-* Условие - логическое выражение;
-* Значение1,
-* Значение2 - выражения любых типов
+* Antecedent - logical expression.
+* Value1.
+* Value2 - expressions of any types.
 
-Возвращает Значение1, если Условие истинно или Значение2, если ложно. Результат функции имеет переменный тип
+Returns Value1 if the Antecedent is true or Value2 if it is false. The function result has the variant type
 
 ## IFF
 
-**IFF(Условие, Значение1, Значение2)**
+**IFF(Antecedent, Value1, Value2)**
 
-* Условие - логическое выражение;
-* Значение1,
-* Значение2 - числовые выражения или выражения типа Дата/время
+* Antecedent - logical expression.
+* Value1.
+* Value2 - numeric expressions or expressions of the Date/time type.
 
-Возвращает Значение1, если Условие истинно или Значение2, если ложно.
+Returns Value1 if the Antecedent is true or Value2 if it is false.
 
 ## IN
 
-**IN(Значение, Элемент1, Элемент2, ..., ЭлементN)**
+**IN(Value, Element1, Element2, ..., ElementN)**
 
-* Значение - значение искомого элемента;
-* Элемент1,
-* Элемент2,
-* ЭлементN - значения элементов списка
+* Value - value of the target element.
+* Element1.
+* Element2.
+* ElementN - values of the list items.
 
-Функция возвращает значение логического типа TRUE (истина), если Значение содержится в списке, иначе результат равен FALSE (ложь).
+Function returns the TRUE value of the logical type if the Value is in the list, otherwise the result is FALSE.
 
 ## IsNull
 
-**IsNull(Аргумент)**
+**IsNull(Argument)**
 
-* Аргумент - любое выражение;
+* Argument - any expression.
 
-Проверяет, является ли Аргумент пустым. Возвращает логическое значение.
+Checks whether the Argument is null. Returns the logical value.
 
 ## NVL
 
-**NVL(Выражение [, Значение\_по\_умолчанию = ""])**
+**NVL(Expression [, Default\_value = ""])**
 
-* Выражение - любое строковое или числовое выражение.
-* Значение\_по\_умолчанию - необязательный параметр, строковое или числовое выражение, значение которого возвращается, если Выражение равно Null.
+* Expression - any string or numeric expression.
+* Default\_value - optional parameter, string or numeric expression value of which is returned if the Expression is equal to Null.
 
-Возвращает значение Выражения, если оно не равно Null, и Значение\_по\_умолчанию в противном случае.
+Returns the Expression value if it is not equal to Null, and Default\_value otherwise.

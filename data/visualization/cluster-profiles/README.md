@@ -1,22 +1,22 @@
 ---
 description: Просмотр различных статистических показателей кластеров, структуры кластеров и сравнение их между собой в Loginom. Справка по визуализатору "Профили кластеров". Знакомство с интерфейсом.
 ---
-# ![](./../../images/icons/components/cluster-profiles_default.svg) Профили кластеров
+# ![](./../../images/icons/components/cluster-profiles_default.svg) Cluster Profiles
 
-Визуализатор *Профили кластеров* предназначен для просмотра различных статистических показателей кластеров, просмотра структуры кластеров и сравнения их между собой.
+*Cluster profiles* visualizer is designated for view of different statistical indicators of clusters, cluster structure and their comparison with each other.
 
-## Интерфейс
+## Interface
 
-После добавления в узел визуализатора откроется главное окно (Рис. 1):
+The main window will be opened after addition to the visualizer node (Figure 1):
 
-![Главное окно визуализатора "Профили кластеров".](./images/cluster-profilies-areas.png)
+![The main window of "Cluster profiles" visualizer.](./images/cluster-profilies-areas.png)
 
-Главное окно условно можно разделить на 5 областей (см. рисунок 1):
+The main window can be conventionally divided into 5 areas (refer to Figure 1):
 
-1. **[Основная таблица](./main-table.md)** — отображает информацию о паре <кластер, поле>;
-2. **[Панель фильтрации](./filtration-panel.md)** — содержит настройки фильтрации *Основной таблицы*;
-3. **[Панель сравнения кластеров](./comparison-panel.md)** — содержит сравнительную информацию по кластерам, выделенным в *Основной таблице*;
-4. **[Панель инструментов](./toolbar.md)** — содержит настройку отображаемых данных;
-5. **[Детализация](./details.md)** — отображает данные исходного набора данных, отфильтрованные по выделенным в *Основной таблице* кластерам.
+1. **[Main table](./main-table.md)** displays information on <cluster, field>.
+2. **[Filtration panel](./filtration-panel.md)** contains filtration settings of the *Main table*.
+3. **[Cluster comparison panel](./comparison-panel.md)** contains the comparative information on the clusters selected in the *Main table*.
+4. **[Toolbar](./toolbar.md)** provides configuration of the displayed data.
+5. **[Detailing](./details.md)** shows the source data set data filtered by the clusters selected in the *Main table*.
 
->Примечание: *Панель фильтрации*, *Панель сравнения кластеров* и *Детализацию* можно изменить в размерах, если потянуть за линию разделитель левой кнопкой мыши. При двойном щелчке по линии разделителю или одинарном по середине линии, область будет скрыта.
+> Note: Sizes of *Filtration panel*, *Cluster comparison panel* and *Detailing* can be changed by dragging the separator line with the left mouse button. The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line.

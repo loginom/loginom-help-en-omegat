@@ -1,23 +1,23 @@
 ---
 description: Как добавить факт в OLAP куб в Loginom. Руководство по добавлению фактов в представление куба. Использование различных функций агрегации. Настройка способов отображения.
 ---
-# ![Добавить факт](./../../images/icons/common/toolbar-controls/sum_default.svg) Добавить факт
+# ![Add Measure](./../../images/icons/common/toolbar-controls/sum_default.svg) Add Measure
 
-В данном окне для факта необходимо выбрать [функцию агрегации](./../../processors/func/aggregation-functions.md) и способ отображения выбранного варианта агрегации.
+It is required to select [aggregation function](./../../processors/func/aggregation-functions.md) and representation method of the selected aggregation option in this window for the measure.
 
-## Операции
+## Operations
 
-* ![Переместить вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — переместить вариант агрегации/способ отображения на позицию вверх;
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — переместить вариант агрегации/способ отображения на позицию вниз;
-* ![Свернуть дерево](./../../images/icons/common/toolbar-controls/collapce-all_default.svg) **Свернуть дерево** — свернуть дерево вариантов агрегации и способов отображения;
-* ![Развернуть дерево](./../../images/icons/common/toolbar-controls/open-all_default.svg) **Развернуть дерево** — развернуть дерево вариантов агрегации и способов отображения;
-* ![Выбрать все](./../../images/icons/common/toolbar-controls/check-all_default.svg) **Выбрать все** — выбрать все варианта агрегации со всеми способами отображения;
-* ![Отменить выбор всех](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Отменить выбор всех** — убрать выбор всех вариантов агрегации со всеми способами отображения.
+* ![Move up](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Move up** enables to move the aggregation option/representation method one item position up.
+* ![Move down](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enables to move the aggregation option/representation method one item position down.
+* ![Collapse tree](./../../images/icons/common/toolbar-controls/collapce-all_default.svg) **Collapse tree** enables to collapse the tree of aggregation options and representation methods.
+* ![Expand tree](./../../images/icons/common/toolbar-controls/open-all_default.svg) **Expand tree** enables to expand the tree of aggregation options and representation methods.
+* ![Check all](./../../images/icons/common/toolbar-controls/check-all_default.svg) **Check all** enables to check all aggregation options with all representation methods.
+* ![Uncheck all](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Uncheck all** enables to uncheck all aggregation options with all representation methods.
 
-## Способы отображения
+## Representation Methods
 
-* ![Значение](./../../images/icons/common/aggregations/factor-sum_default.svg) **Значение** — факты будут отображаться в виде абсолютных значений;
-* ![Процент по горизонтали](./../../images/icons/viewers/cube/aggregation/row-percent_default.svg) **Процент по горизонтали** — факты будут отображаться в процентах от итогового значения по строкам;
-* ![Процент по вертикали](./../../images/icons/viewers/cube/aggregation/col-percent_default.svg) **Процент по вертикали** — факты будут отображаться в процентах от итогового значения по столбцам.
+* ![Value](./../../images/icons/common/aggregations/factor-sum_default.svg) **Value**: the measures will be displayed in the form of absolute values.
+* ![Percent by row](./../../images/icons/viewers/cube/aggregation/row-percent_default.svg) **Percent by row**: measures will be displayed as percentage of the final value by rows.
+* ![Percent by column](./../../images/icons/viewers/cube/aggregation/col-percent_default.svg) **Percent by column**: measures will be displayed as percentage of the final value by columns.
 
->**Примечание:** по умолчанию в качестве варианта отображения выбирается идущий первым по списку. Поддерживается выбор сразу нескольких вариантов отображения агрегации для факта.
+> **Note:** The representation option that is the first one on the list is selected by default as the representation option. Selection of several aggregation representation options at once is supported for the measure.

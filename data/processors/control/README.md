@@ -2,6 +2,6 @@
 description: Раздел Управление. Навигация по разделу.
 ---
 
-# Управление
+# Control
 
-Компоненты группы предназначены для оптимизации сценариев путем создания подмоделей и повторного использования узлов, а также формирования логики выполнения сценариев при помощи условий и циклов.
+The group components are designated for the workflows optimization by supernodes creation, repeated use of nodes and development of the workflow execution logics using antecedents and loops.

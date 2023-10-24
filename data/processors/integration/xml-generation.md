@@ -1,52 +1,52 @@
 ---
 description: Компонент Формирование XML в Loginom. Преобразование таблицы в XML. Мастер настройки. Подключение к XSD-схеме.
 ---
-# ![](./../../images/icons/components/data-to-xml_default.svg) Формирование XML
+# ![](./../../images/icons/components/data-to-xml_default.svg) XML Generation
 
-Компонент предназначен для преобразования таблицы в XML.
+The component is designated for the table transformation to XML.
 
-> **Важно**: для работы узла требуется предварительно создать [подключение к XSD-схеме](./../../integration/connections/list/schemes.md) и связать его с входным портом *Подключение к источнику XSD-схемы*. Подключение происходит аналогично [подключению к БД](./../../quick-start/database.md).
+> **Important**: For the node operation, it is required to pre-create [connection to the XSD schema](./../../integration/connections/list/schemes.md) and connect it with *Connect to XSD schema source* input port. The connection is performed similar to [connection to DB](./../../quick-start/database.md).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![](./../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение к источнику XSD-схемы (обязательный порт) — связь с узлом [подключения набора XSD-схем](./../../integration/connections/list/schemes.md).
-* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — набор данных, подлежащий преобразованию.
-* ![](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](./../../workflow/variables/control-variables.md) (необязательный порт) — переменными порта можно задать значения параметров мастера настройки. Для отображения порта необходимо в контекстном меню узла выбрать пункт *Показать порт управляющих переменных*.
+* ![](./../../images/icons/app/node/ports/inputs/link_inactive.svg) Connect to XSD schema source (required port) allows for connection to [Connection to set of the XSD schemas](./../../integration/connections/list/schemes.md) node.
+* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Data source: the data set to be transformed.
+* ![](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](./../../workflow/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using the port variables. To display the port, it is required to select the following item in the context menu of the node: *Show control variables port*.
 
-### Выход
+### Output
 
-* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Выходной набор данных — таблица, содержащая результирующие XML и их идентификаторы (ID).
+* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Output data set: the table that contains resulting XML and their identifiers (ID).
 
-## Мастер настройки
+## Wizard
 
-### Шаг 1. Сопоставление полей для формирования XML
+### Step 1. Fields Mapping for XML Generation
 
-* **Подключение** — состояние подключения к XSD-схеме.
-* **Корневой элемент** — выбор корневого элемента XSD-схемы, структура которого описывает результирующий XML.
-* **Связывание объектов** — представлены списки полей входной таблицы и элементов схемы результирующего XML. Необходимо проставить связи между полями таблицы и элементами схемы XML. Сделать это можно несколькими способами:
-  * Методом *Drag-and-drop* — перетащить метку поля из левого списка полей на элемент схемы XML. Типы данных поля таблицы и связываемого элемента должны совпадать.
-  * В правой таблице выбрать нужный элемент схемы XML и в столбце *Связанные поля* выбрать из выпадающего списка метку поля входной таблицы. Фильтр выпадающего списка в состоянии ![](./../../images/icons/ext/filter-switcher/filterswitch-on_default.svg) оставляет только те поля, которые еще не связаны с какими-либо элементами, а в состоянии ![](./../../images/icons/ext/filter-switcher/filterswitch-off_default.svg) — предоставляет к выбору все поля.
-  * использовать кнопку ![](./../../images/icons/common/toolbar-controls/auto-connect_default.svg) *Связать все автоматически*, при этом происходит автоматическое связывание, исходя из значений меток и типов данных полей входной таблицы и элементов схемы XML.
+* **Connection**: the state of connection to the XSD schema.
+* **Root element**: selection of the XSD schema root element the structure of which enables to describe the resulting XML.
+* **Object linking**: lists of the input table fields and items of the resulting XML schema are represented. It is required to establish the links between the table fields and XML schema items. It can be done in several ways:
+   * *Drag-and-drop* method: drag the field caption from the left list of the fields to the XML schema item. Types of the table field data and linked item must coincide.
+   * It is necessary to select the required item of the XML schema in the right table and select the input table field caption from the drop-down list in the *Related fields* column. The drop-down list filter in ![](./../../images/icons/ext/filter-switcher/filterswitch-on_default.svg) state displays only the fields that have not been connected with items yet, and it displays all fields for selection in ![](./../../images/icons/ext/filter-switcher/filterswitch-off_default.svg) state.
+   * Use ![](./../../images/icons/common/toolbar-controls/auto-connect_default.svg) *Auto Link All* button. It providies auto linking based on values of captions and types of fields data of the input table and XML schema items.
 
-> **Примечание**: если связь между полем и объектом была установлена неправильно, ее можно удалить. Для этого нужно выбрать метку и нажать на кнопку ![](./../../images/icons/link-grid/remove-link_hover.svg) на линии связи. При необходимости удаления всех связей используется кнопка ![](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) *Удалить все связи*.
+> **Note**: If the link between the field and object has been incorrectly established, it can be deleted. In order to do that, it is required to select the caption and press ![](./../../images/icons/link-grid/remove-link_hover.svg) button in the line. If all links are to be deleted, ![](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) *Delete all links* button is used.
 
-* **Наличие временной зоны** — определяет указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) в элементах XML, содержащих дату и/или время. Возможные значения:
-  * Не указывать.
-  * Не указывать для даты — не указывать временную зону для элементов типа [date](https://www.w3.org/TR/xmlschema-2/#date).
-  * Указывать всегда.
+* **Specify time zone** defines whether the [time zone](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) information is specified according to [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) in the XML items that contain the date and/or time. Possible values:
+   * Do not specify.
+   * Do not specify for date: do not specify the time zone for the [date](https://www.w3.org/TR/xmlschema-2/#date) type items.
+   * Specify always.
 
-### Шаг 2. Параметры формирования XML
+### Step 2. XML Generation Parameters
 
-* **Идентификация XML-документа** — выбор одного из вариантов наполнения XML данными входной таблицы:
-  * **Весь набор данных (используется по умолчанию)**  — все записи входной таблицы войдут в результирующий XML. В этом случае выходной набор данных содержит единственную запись.
-  * **По строчкам** — для каждой записи входной таблицы сформируется XML. В этом случае выходной набор данных содержит такое же количество записей, что и во входной таблице. Выходной столбец *ID* содержит целое значение номера записи.
-  * **По идентификатору** — записи входной таблицы группируются по указанному идентификатору. Для каждой группы записей сформируется XML. В этом случае выходной набор данных содержит количество записей, равное количеству уникальных значений идентификатора. Выходной столбец *ID* при данной настройке содержит значения идентификаторов.
+* **XML Document Identification**: selection of one of the options used to fill XML with the input table data:
+   * **The whole data set (it is used by default)**: all records of the input table will be included into the resulting XML. In this case, the output data set contains the only record.
+   * **By rows**: XML will be generated for each input table record. In this case, the output data set contains the same number of records as the input table does. *ID* output column contains the integer value of the record number.
+   * **By identifier**: the output table records are grouped by the given identifier. XML will be generated for each group of records. In this case, the output data set contains the number of records that is equal to the count of unique identifier values. When this setting is selected, *ID* output column contains the identifier values.
 
-> **Примечание**: если входной набор данных пустой, то на выходе количество строк равно нулю при любых настройках параметра *Идентификация XML-документа*.
+> **Note**: If the input data set is empty, the row count is equal to zero at the output with any settings of *XML Document Identification*.
 
-* **Настройка форматирования** — область включает следующие флаги:
-  * **Добавлять отступы и переводы строк** — в результирующем XML каждый элемент располагается в отдельной строке. Отступы строк задаются в соответствии с иерархией элементов.
-  * **Экранировать табуляции и переводы строк в атрибутах** — замена в атрибутах результирующего XML символов табуляции на обозначение *`&#x9;`* и символа перевода строк на *`&#xA;`*
-  * **Экранировать одинарные и двойные кавычки** — замена в результирующем XML одинарных кавычек на обозначение *`&apos;`* и двойных на *`&quot;`*.
+* **Configure Formatting**: the area includes the following checkboxes:
+   * **Add indents and line breaks**: each item is located in the separate row in the resulting XML. Indents are set according to the hierarchy of items.
+   * **Escape tabs and line breaks in attributes**: replacement of tab characters in attributes of the resulting XML to*`&#x9;`* and line feed character to *`&#xA;`*
+   * **Escape single and double quotes**: replacement of single quotes in the resulting XML to *`&apos;`* and double quotes to *`&quot;`*.

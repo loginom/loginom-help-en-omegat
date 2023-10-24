@@ -1,6 +1,6 @@
 ---
 description: Импорт данных в Loginom из различных источников.
 ---
-# Импорт
+# Import
 
-Импорт данных является отправной точкой анализа данных. Импорт в Loginom может осуществляться из множества источников, таких как текстовый файл, электронные таблицы, базы данных и другие.
+Import is an important starting point of data analysis. Data is imported to Loginom from many sources, for example, a text file, spreadsheets, databases, etc.

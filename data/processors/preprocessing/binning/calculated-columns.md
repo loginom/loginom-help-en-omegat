@@ -1,19 +1,19 @@
 ---
-description: Компонент Квантование в Loginom. Структура результирующего набора. 
+description: Компонент Квантование в Loginom. Структура результирующего набора.
 ---
-# Структура результирующего набора
+# Resulting Data Set Structure
 
 Результирующий набор состоит из столбцов исходного набора данных и столбцов, рассчитанных узлом, их описание приведено в таблице:
 
-|Имя столбца|Описание|
+|Column name|Description|
 |:-|:-|
-|Идентификатор интервалов|Имя поля|
-|Номер интервала|Порядковый номер интервала|
-|Метка|Метка интервала, которая задается шаблоном в мастере настройки|
-|Нижняя граница|Нижняя граница интервала|
-|Верхняя граница|Верхняя граница интервала|
-|Нижний предел интервала включительно|false – граница интервала не входит в интервал;<br> true – граница интервала входит в интервал.|
-|Верхний предел интервала включительно|false – граница интервала не входит в интервал;<br> true – граница интервала входит в интервал.|
-|Нижняя граница диапазонов открыта|true – если флаг «Нижняя граница открыта» установлен;<br> false – если флаг «Нижняя граница открыта» не установлен.|
-|Верхняя граница диапазонов открыта|true – если флаг «Верхняя граница открыта» установлен;<br> false – если флаг «Верхняя граница открыта» не установлен.|
-|Значение вне диапазона	| Значения, которые не попали ни в один диапазон:<br> -1 – значение меньше наименьшей границы диапазона;<br> 0 – значение входит в один из интервалов;<br> 1 – значение больше верхней границы диапазона.|
+|Bins identifier|Field name|
+|Bin number|Index bin number|
+|Caption|Bin caption that is set by the wizard template|
+|Lower bound|Lower bin bound|
+|Upper bound|Upper bin bound|
+|Lower bin bound inclusive|false: the bin bound is not included into the bin;<br> true: the bin bound is included into the bin.|
+|Upper bin bound inclusive|false: the bin bound is not included into the bin;<br> true: the bin bound is included into the bin.|
+|Lower bin bound open|true: if «Lower bin bound open» checkbox is selected;<br> false: if «Lower bin bound open» checkbox is not selected.|
+|Upper bin bound open|true: if «Upper bin bound open» checkbox is selected;<br> false: if «Upper bin bound open» checkbox is not selected.|
+|Out of bin value| The values that are not included into bins:<br> -1 – the value that is less than the least bin bound;<br> 0 – the value that is included into one of the bins;<br> 1 – the value that exceeds the upper bin bound.|

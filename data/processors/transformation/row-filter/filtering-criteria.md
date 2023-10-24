@@ -3,32 +3,32 @@ description: Фильтр строк в Loginom. Условия фильтрац
 ---
 # Условия фильтрации в компоненте Фильтр строк
 
-Список возможных условий и типы данных, к которым они применимы.
+A list of possible conditions and data types to which they can be applied.
 
-| Условие | ![](../../../images/icons/common/data-types/integer_default.svg) Целый | ![](../../../images/icons/common/data-types/float_default.svg) Вещественный | ![](../../../images/icons/common/data-types/string_default.svg) Строковый | ![](../../../images/icons/common/data-types/datetime_default.svg) Дата/время | ![](../../../images/icons/common/data-types/boolean_default.svg) Логический | ![](../../../images/icons/common/data-types/variant_default.svg) Переменный |
+| Condition | ![](../../../images/icons/common/data-types/integer_default.svg) Integer | ![](../../../images/icons/common/data-types/float_default.svg) Real | ![](../../../images/icons/common/data-types/string_default.svg) String | ![](../../../images/icons/common/data-types/datetime_default.svg) Date/time | ![](../../../images/icons/common/data-types/boolean_default.svg) Logical | ![](../../../images/icons/common/data-types/variant_default.svg) Variant |
 | :------ | :---: | :----------: | :-------: | :--------: | :--------: | :--------: |
 | <, <=, >, >=, =, <> | • | • | • | • | | • |
-| пустой | • | • | • | • | • | • |
-| не пустой | • | • | • | • | • | • |
-| в интервале | • | • | • | • | | • |
-| вне интервала | • | • | • | • | | • |
-| в списке | • | • | • | • | | • |
-| вне списка | • | • | • | • | | • |
-| содержит | | | • | | | • |
-| не содержит | | | • | | | • |
-| начинается с | | | • | | | • |
-| не начинается с | | | • | | | • |
-| заканчивается на | | | • | | | • |
-| не заканчивается на | | | • | | | • |
-| первый | | | | • | | • |
-| не первый | | | | • | | • |
-| последний | | | | • | | • |
-| не последний | | | | • | | • |
-| истина | | | | | • | • |
-| ложь | | | | | • | • |
+| null | • | • | • | • | • | • |
+| not null | • | • | • | • | • | • |
+| within the range | • | • | • | • | | • |
+| out of the range | • | • | • | • | | • |
+| listed | • | • | • | • | | • |
+| not listed | • | • | • | • | | • |
+| contains | | | • | | | • |
+| does not contain | | | • | | | • |
+| starting with | | | • | | | • |
+| not starting with | | | • | | | • |
+| ending with | | | • | | | • |
+| not ending with | | | • | | | • |
+| first | | | | • | | • |
+| not first | | | | • | | • |
+| last | | | | • | | • |
+| not last | | | | • | | • |
+| true | | | | | • | • |
+| false | | | | | • | • |
 
 > **Примечание.**
->При фильтрации полей с типом данных [Дата/Время](https://help.loginom.ru/userguide/data/datatype.html) и видом данных Дискретный не доступен выбор значений из календаря. Для того чтобы появилась возможность выбирать значение Дата/Время из календаря, нужно изменить вид данных на Непрерывный. Это можно сделать с помощью узла [Параметры полей](https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html). В противном случае значения можно выбирать из списка значений, либо вводить их вручную.
+> При фильтрации полей с типом данных [Дата/Время](https://help.loginom.ru/userguide/data/datatype.html) и видом данных Дискретный не доступен выбор значений из календаря. Для того чтобы появилась возможность выбирать значение Дата/Время из календаря, нужно изменить вид данных на Непрерывный. Это можно сделать с помощью узла [Параметры полей](https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html). В противном случае значения можно выбирать из списка значений, либо вводить их вручную.
 
 
 # Принцип работы компонента Фильтр строк с NULL-ми значениями
@@ -37,15 +37,15 @@ NULL-значения — это значения с отсутствием да
 
 Для того чтобы в выходном наборе Фильтра строк были пропущенные значения, нужно добавлять отдельное условие в Мастере настроек: "Имя поля" пустое. В противном случае записи с NULL-ми в выходной набор не попадут.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 Исходный набор данных
 
 | # | Имя поля |
 |:--|:-----|
-| 1 |10|
-| 2 |NULL|
-| 3 |100|
+| 1 | 10 |
+| 2 | NULL |
+| 3 | 100 |
 
 Если данный набор подать на узел Фильтр Строк и задать условие:
 
@@ -56,7 +56,7 @@ NULL-значения — это значения с отсутствием да
 
 | # | Имя поля |
 |:--|:-----|
-| 1 |100|
+| 1 | 100 |
 
 Для того чтобы NULL-значение попало в выходной набор, нужно условие задать следующим образом:
 
@@ -66,10 +66,10 @@ NULL-значения — это значения с отсутствием да
 
 | # | Имя поля |
 | :--|:-----|
-| 1 |NULL|
-| 2 |100|
+| 1 | NULL |
+| 2 | 100 |
 
 %/spoiler%
 
->**Примечание.** 
->Данная логика при работе с NULL-значениями согласуется со стандартами <a href="https://wikipedia.org/wiki/Null_(SQL)#Law_of_the_excluded_fourth_.28in_WHERE_clauses.29" title="Null (SQL) in WHERE clauses ">SQL</a>.
+> **Примечание.**
+> Данная логика при работе с NULL-значениями согласуется со стандартами <a href="https://wikipedia.org/wiki/Null_(SQL)#Law_of_the_excluded_fourth_.28in_WHERE_clauses.29" title="Null (SQL) in WHERE clauses ">SQL</a>.

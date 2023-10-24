@@ -1,74 +1,74 @@
 ---
 description: Компонент Таблица в переменные в Loginom. Общие сведения. Мастер настройки. Доступные поля. Выбранные поля. Функции агрегации. Содержание выходного набора.
 ---
-# ![Таблица в переменные](./../../images/icons/components/datatovariables_default.svg) Таблица в переменные
+# ![Table to Variables](./../../images/icons/components/datatovariables_default.svg) Table to Variables
 
-Компонент позволяет преобразовать табличные данные в переменные. Из данных каждого поля таблицы формируется переменная. У переменной может быть только одно значение, поэтому для его расчета к данным поля применяются различные [функции агрегации](./../func/aggregation-functions.md).
+Компонент позволяет преобразовать табличные данные в переменные. A variable is generated from the data of each table field. A variable can have only one value that's why different [aggregation functions](./../func/aggregation-functions.md) are applied to the field data for its calculation.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![Входной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных.
+* ![Input data source](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** — data table.
 
-### Выход
+### Output
 
-* ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — список переменных, полученный из входного источника данных с использованием функций агрегации по полю.
+* ![Output variables](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: list of variables received from the input data source using aggregation functions by field.
 
-## Мастер настройки
+## Wizard
 
-Окно мастера поделено на две области:
+The wizard window is divided into two areas:
 
-* **Доступные поля** — представляет список полей входного набора данных;
-* **Выбранные поля** — представляет список результирующих переменных.
+* **Available fields**: list of fields of the input data set.
+* **Selected fields**: list of resulting variables.
 
-Перемещение полей между областями возможно с помощью Drag-and-Drop.
+The Drag-and-Drop method enables to move fields beween areas.
 
-### Доступные поля
+### Available Fields
 
-Добавить выделенные поля в список *Выбранные поля* можно:
+It is possible to add the selected fields to the *Selected fields* list using the following ways:
 
-* Кнопкой ![Переместить в Переменные](./../../images/icons/common/dataset-operations/dsa-factor_default.svg);
-* Через контекстное меню "Переместить в Переменные";
-* Нажав %kbd Alt S %.
+* Using ![Move to Variables](./../../images/icons/common/dataset-operations/dsa-factor_default.svg) button.
+* Using the contex menu - "Move to Variables".
+* Pressing %kbd Alt S %.
 
-### Выбранные поля
+### Selected Fields
 
 При добавлении поля в список *Выбранные поля* функция агрегации будет назначена по умолчанию:
 
-* для чисел будет выбрана функция *сумма*;
+* The *sum* function will be selected for digits.
 * для остальных — функция *единственный*.
 
-Действия над выбранными полями можно осуществлять мышью. Перетаскиванием внутри списка можно менять позицию в выделенных полей. Исключить можно с помощью переноса полей в список *Доступные поля*. Двойной клик по полю открывает окно "Выбора агрегации".
+It is possible to use the mouse to perform actions with the selected fields. It is possible to change position in the selected fields by dragging inside the list. It is possible to exclude by means of fields transfer to the *Available fields* list. Double click on the field enables to open the "Aggregation selection" window.
 
-Эти же действия выполняют кнопки на панели быстрого доступа:
+It is possible to perform the same actions using the quick access toolbar buttons:
 
-* ![Переместить вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) — перемещает выделенный элемент вверх по списку;
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) — перемещает выделенный элемент вниз по списку;
-* ![Редактировать](./../../images/icons/common/toolbar-controls/edit_default.svg) — для выделенных полей открывает окно выбора доступных вариантов агрегации;
-* ![Удалить](./../../images/icons/common/toolbar-controls/delete_default.svg) — перемещает текущий элемент в список *Доступные поля*;
-* ![Удалить все](./../../images/icons/common/toolbar-controls/delete-all_default.svg) — перемещает все элементы в список *Доступные поля*.
+* ![Move up](./../../images/icons/common/toolbar-controls/moveup_default.svg) enables to move the selected item up the list.
+* ![Move down](./../../images/icons/common/toolbar-controls/movedown_default.svg) enables to move the selected item down the list.
+* ![Edit](./../../images/icons/common/toolbar-controls/edit_default.svg) enables to open the selection window of the available aggregation options for the selected fields.
+* ![Delete](./../../images/icons/common/toolbar-controls/delete_default.svg) enables to move the current item to the *Available fields* list.
+* ![Delete all](./../../images/icons/common/toolbar-controls/delete-all_default.svg) enables to move all items to the *Available fields* list.
 
-Контекстное меню дублирует общие функции:
+The context menu duplicates the general functions:
 
-* ![Переместить вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенные поля вверх по списку;
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенные поля вниз по списку;
-* ![Редактировать](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать** — для выделенных полей открывает окно выбора доступных вариантов агрегации;
-* ![Удалить выбранные](./../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить выбранные** — перемещает выделенные поля обратно в список *Доступные поля*.
+* ![Move up](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Move up** enables to move the selected fields up the list.
+* ![Move down](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected fields down the list.
+* ![Edit](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit** enables to open the selection window of the available aggregation options for the selected fields.
+* ![Delete selected](./../../images/icons/common/toolbar-controls/delete_default.svg) **Delete selected** enables to move the selected fields back to the *Available fields* list.
 
-Доступны горячие клавиши, дублирующие перечисленные команды:
+The following hotkeys duplicating the listed commands are available:
 
-* %kbd Ctrl Up % — Переместить вверх;
-* %kbd Ctrl Down % — Переместить вниз;
-* %kbd F2 % — Редактировать;
-* %kbd Delete % — Удалить выбранные.
+* %kbd Ctrl Up %: move up.
+* %kbd Ctrl Down %: move down.
+* %kbd F2 %: edit.
+* %kbd Delete %: delete selected.
 
-## Содержание выходного набора
+## Content of the Output Data Set
 
-В выходном наборе будут переменные, полученные из полей с помощью выбранных функций агрегации. Каждому варианту агрегации на выходе будет соответствовать отдельная переменная.
+The output data set will include the variables received from the fields using the selected aggregation functions. Each output aggregation option will correspond to a separate variable.
 
-Имена, метки и значения переменных будут получены следующим образом:
+Names, captions and values of fields will be received as follows:
 
-* **Имя** — будет совпадать с именем поля, если была выбрана лишь одна функция. Если функций было больше одной, то к имени добавится окончание, соответствующее выбранной функции.
-* **Метка** — будет состоять из имени поля и названии функции агрегации.
-* **Значение** — формируется из всех значений поля, агрегированных выбранной функцией.
+* **Name** will coincide with the field name if only one function is selected. If there is more than one function, the ending corresponding to the selected function will be added to the name.
+* **Caption** will consist of the field name and aggregation function name.
+* **Value** is generated from all field values aggregated by the selected function.

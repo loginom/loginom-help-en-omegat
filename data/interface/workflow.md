@@ -2,37 +2,37 @@
 description: Элементы страницы "Сценарий" аналитической платформы Loginom. Основные команды панели инструментов. Инспектор свойств. Стандартная библиотека компонентов Loginom.   
 ---
 # Страница «Сценарий»
-Страница «Сценарий» представляет собой рабочее пространство, которое состоит из панели компонентов, области построения Сценария, *Инспектора свойств* (по умолчанию находится в свернутом состоянии) и панели инструментов (см. рисунок 1).
+Страница «Сценарий» представляет собой рабочее пространство, которое состоит из панели компонентов, области построения Сценария, *Инспектора свойств* (по умолчанию находится в свернутом состоянии) и панели инструментов (см. Figure 1).
 
 ![Страница «Сценарий».](./workflow.png)
 
-Cлева находится панель компонентов, состоящая из следующих категорий:
+The panel of components is located on the left. It consists of the following categories:
 
 * Компоненты — стандартная библиотека базовых компонентов Loginom.
 * [Производные компоненты](./../workflow/derived-component.md) — создаваемые пользователями компоненты на основе базовых.
-* [Подключения](./../integration/connections/README.md) — источники данных.
+* [Connections](./../integration/connections/README.md) are data sources.
 
-По центру расположена область построения Сценария — полотно, содержащее узлы Сценария и связи между ними.  
+The Workflow construction area is located in the centre: the area containing the Worlflow nodes and links between them.
 
 Справа находится [Инспектор свойств](./property-inspector.md) — панель, содержащая информацию о свойствах выделенного узла сценария. По умолчанию *Инспектор свойств* находится в свернутом состоянии, его можно открыть, нажав кнопку ![Показать/скрыть инспектор свойств](./../images/icons/common/toolbar-controls/info_default.svg) на панели инструментов.
 
-Сверху расположена панель инструментов, содержащая следующие операции для манипуляции с областью построения и ее составляющими:
+The toolbar that enables the following operations with the construction area and its constituents is located in the upper part:
 * ![](./../images/icons/common/toolbar-controls/arrow-rr_default.svg) Показать/![](./../images/icons/common/toolbar-controls/arrow-ll_default.svg) Скрыть панель компонентов — позволяет открыть или закрыть панель компонентов.
 * ![](./../images/icons/common/toolbar-controls/cursor_default.svg) Режим выбора объекта — режим, использующийся для построения Сценария с помощью стандартных манипуляций.
 * ![](./../images/icons/common/toolbar-controls/hand_default.svg) Режим навигации по сценарию —  режим, использующийся для перемещения по области построения Сценария с помощью мышки.
 * ![](./../images/icons/common/toolbar-controls/workflow_default.svg) Показать в виде сценария — отображает Сценарий  в стандартном виде (в виде направленного графа).
 * ![](./../images/icons/common/toolbar-controls/table_default.svg) Показать в виде таблицы — компактное отображение Сценария в виде таблицы, содержащей используемые элементы.
 * Вертикальное/Горизонтальное выравнивание — позволяет выровнять узлы Сценария на области построения. Данное действие доступно для выделенных узлов. Имеются следующие виды выравнивания:
-    * ![](./../images/icons/common/toolbar-controls/v-align-left_default.svg) По левому краю.
-    * ![](./../images/icons/common/toolbar-controls/v-align-center_default.svg) По середине.
-    * ![](./../images/icons/common/toolbar-controls/v-align-right_default.svg) По правому краю.
-    * ![](./../images/icons/common/toolbar-controls/h-align-top_default.svg) По верхнему краю.
-    * ![](./../images/icons/common/toolbar-controls/h-align-center_default.svg) По центру.
-    * ![](./../images/icons/common/toolbar-controls/h-align-bottom_default.svg) По нижнему краю.
+   * ![](./../images/icons/common/toolbar-controls/v-align-left_default.svg) По левому краю.
+   * ![](./../images/icons/common/toolbar-controls/v-align-center_default.svg) По середине.
+   * ![](./../images/icons/common/toolbar-controls/v-align-right_default.svg) По правому краю.
+   * ![](./../images/icons/common/toolbar-controls/h-align-top_default.svg) По верхнему краю.
+   * ![](./../images/icons/common/toolbar-controls/h-align-center_default.svg) По центру.
+   * ![](./../images/icons/common/toolbar-controls/h-align-bottom_default.svg) По нижнему краю.
 * ![](./../images/icons/common/toolbar-controls/layout_default.svg) Автоматическое упорядочивание узлов — автоматическое расположение узлов на области Сценария в соответствии с их последовательностью обработки данных.
-* ![](./../images/icons/common/toolbar-controls/move-front_default.svg) Переместить выделенные узлы — выставляет выделенные узлы и их подписи на:
-  * Передний план.
-  * Задний план.
+* ![](./../images/icons/common/toolbar-controls/move-front_default.svg)Send selected nodes enables to bring selected nodes and their signatures to:
+   * Передний план.
+   * Back
 * ![](./../images/icons/common/toolbar-controls/order_default.svg) [Настроить порядок выполнения](./../workflow/workflow-progress-control.md) — позволяет задать собственный порядок выполнения узлов.
 * ![](./../images/icons/common/toolbar-controls/run-all_default.svg) Выполнить все — выполнить все узлы Сценария.
 * ![](./../images/icons/common/toolbar-controls/run-current_default.svg) Выполнить узел (F9)/![](./../images/icons/common/toolbar-controls/stop_default.svg) Деактивировать узел.
@@ -49,8 +49,8 @@ Cлева находится панель компонентов, состоящ
 * ![](./../images/icons/common/toolbar-controls/show-derived-nodes_default.svg) Показать родительские узлы для производных — при наличии производных узлов показывает родительские узлы.
 * ![](./../images/icons/common/toolbar-controls/show-reference-links_default.svg) Показать исходные узлы для [Узлов-ссылок](./../processors/control/reference-node.md) — при наличии Узлов-ссылок показывает узлы, на основе которых они создавались.
 * ![](./../images/icons/common/toolbar-controls/preview_default.svg) Показать карту сценария — для навигации открывается уменьшенная копия области построения Сценария с возможностью масштабирования.
-* ![](./../images/icons/common/toolbar-controls/info_default.svg) Показать/скрыть инспектор свойств — разворачивает/сворачивает окно *Инспектора свойств*. Эта кнопка всегда находится в крайней правой позиции на  панели инструментов.
+* ![](./../images/icons/common/toolbar-controls/info_default.svg)Show/hide property inspector enables to expand/collapse the *Property inspector* window. This button is always located in the far right position on the toolbar.
 
 Для некоторых кнопок панели инструментов доступны [Горячие клавиши](./../workflow/hotkeys.md).
 
-> **Примечание:** при открытом окне *Инспектора свойств* часть кнопок на панели инструментов может не помещаться. В этом случае на панели инструментов появляется кнопка ![](./../images/icons/common/toolbar-controls/system-panel-more_default.svg) с выпадающим списком,  в котором будут находиться все не поместившиеся на панели кнопки.
+> **Примечание:** при открытом окне *Инспектора свойств* часть кнопок на панели инструментов может не помещаться. In this case, ![](./../images/icons/common/toolbar-controls/system-panel-more_default.svg) button with a drop-down list appears on the toolbar. It will contain all other buttons for which there is no enough place on the toolbar.

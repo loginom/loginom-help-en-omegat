@@ -1,149 +1,149 @@
 ---
 description: Функции даты/времени. Функции AddDay, AddMonth, AddQuarter, AddWeek, AddYear, DateTimeToStr, DateToStr, Day, DayOfWeek, DaysBetween, EncodeDate, EncodeDateTime, EncodeTime, Hour, ISO8601ToDate, Minute, Month, MonthsBetween, Now, Second, StartOfTheWeek, StrToDate, Today, Week, Year, YearsBetween
 ---
-# Дата/Время функции
+# Function Date/Time
 
 ## AddDay
 
-**AddDay(Дата, Количество)**
+**AddDay(Date, Number)**
 
-* Дата - аргумент типа Дата/Время
-* Количество - аргумент целого типа.
+* Date - argument of the Date/Time type.
+* Number - argument of the integer type.
 
-Функция возвращает значение аргумента Дата, увеличенного на указанное Количество дней. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество дней раньше указанной даты.
+Function returns the Date argument value, increased by the specified Number of days. The number can also be negative. In this case, the function will return the date to the given number of days before the specified date.
 
 ## AddMonth
 
-**AddMonth(Дата, Количество)**
+**AddMonth(Date, Number)**
 
-* Дата - аргумент типа Дата/Время
-* Количество - аргумент целого типа.
+* Date - argument of the Date/Time type.
+* Number - argument of the integer type.
 
-Функция возвращает значение аргумента Дата, увеличенного на указанное Количество месяцев. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество месяцев раньше указанной даты.
+Function returns the Date argument value, increased by the specified Number of months. The number can also be negative. In this case, the function will return the date to the given number of months before the specified date.
 
-Если указанный день месяца больше, чем последний день получившегося месяца, то функция устанавливает дату на последний день получившегося месяца.
+If the specified day of the month exceeds the last day of the resulting month, the function will set the date to the last day of the resulting month.
 
 ## AddQuarter
 
-**AddQuarter(Дата, Количество)**
+**AddQuarter(Date, Number)**
 
-* Дата - аргумент типа Дата/Время
-* Количество - аргумент целого типа.
+* Date - argument of the Date/Time type.
+* Number - argument of the integer type.
 
-Функция возвращает значение аргумента Дата, увеличенного на указанное Количество кварталов. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество кварталов раньше указанной даты.
+Function returns the Date argument value, increased by the specified Number of quarters. The number can also be negative. In this case, the function will return the date to the given number of quarters before the specified date.
 
-Если указанный день месяца больше, чем последний день месяца получившегося квартала , то функция устанавливает дату на последний день месяца получившегося квартала.
+If the specified day of the month exceeds the last day of the month of the resulting quarter, the function will set the date to the last day of the month of the resulting quarter.
 
 ## AddWeek
 
-**AddWeek(Дата, Количество)**
+**AddWeek(Date, Number)**
 
-* Дата - аргумент типа Дата/Время
-* Количество - аргумент целого типа.
+* Date - argument of the Date/Time type.
+* Number - argument of the integer type.
 
-Функция возвращает значение аргумента Дата, увеличенного на указанное Количество недель. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество недель раньше указанной даты.
+Function returns the Date argument value, increased by the specified Number of weeks. The number can also be negative. In this case, the function will return the date to the given number of weeks before the specified date.
 
 ## AddYear
 
-**AddYear(Дата, Количество)**
+**AddYear(Date, Number)**
 
-* Дата - аргумент типа Дата/Время
-* Количество - аргумент целого типа.
+* Date - argument of the Date/Time type.
+* Number - argument of the integer type.
 
-Функция возвращает значение аргумента Дата, увеличенного на указанное Количество лет. Количество может быть и отрицательным, тогда функция возвратит дату на указанное количество лет раньше указанной даты.
+Function returns the Date argument value, increased by the specified Number of years. The number can also be negative. In this case, the function will return the date to the given number of years before the specified date.
 
 ## DateTimeToStr
 
-**DateTimeToStr(Дата\_время [, Формат\_даты [, Формат\_времени]])**
+**DateTimeToStr(Date\_time [, Date\_format [, Format\_of time]])**
 
-* Дата\_время - выражение типа дата/время.
-* Формат\_даты - необязательный параметр формат даты в терминах D, M, Y.
-* Формат\_времени - необязательный параметр формат времени в терминах H, N, S, Z.
+* Date_time - expression of the date/time type.
+* Date_format - optional parameter date format in terms of D, M, Y.
+* Time_format - optional parameter time format in terms of H, N, S, Z.
 
-Возвращает строковое представление аргумента Дата\_время.
-Примеры формата даты:
-  "DD.MM.YY" - преобразует дату в формат "день.месяц.год" ("25.12.04")
-  "MM/DD/YYYY"  - преобразует дату в формат "месяц.день.год" ("12/25/2004")
-Примеры формата времени:
-  "H:NN" - преобразует время в формат "часы:минуты" ("9:53")
-  "HH:NN:SS"  - преобразует время в формат "часы:минуты:секунды" ("09:05:53")
+Returns the string representation of the Date\_time argument.
+Examples of the date format:
+"DD.MM.YY" - converts the date into the "day.month.year" format ("25.12.04")
+"MM/DD/YYYY" - converts the date into the "month.day.year" format ("12/25/2004")
+Examples of the time format:
+"H:NN" - converts the time into the "hours:minutes" format ("9:53")
+"HH:NN:SS" - converts the time into the "hours:minutes:seconds" format ("09:05:53")
 
 ## DateToStr
 
-**DateToStr(Дата [, Формат\_даты])**
+**DateToStr(Date [, Date\_format])**
 
-* Дата - выражение типа дата/время.
-* Формат\_даты - необязательный параметр формат даты в терминах D, M, Y.
+* Date - expression of the date/time type.
+* Date_format - optional parameter date format in terms of D, M, Y.
 
-Возвращает строковое представление аргумента Дата.
-Примеры формата даты:
-  "DD.MM.YY" - преобразует дату в формат "день.месяц.год" ("25.12.04")
-  "MM/DD/YYYY"  - преобразует дату в формат "месяц.день.год" ("12/25/2004")
+Returns the string representation of the Date argument
+Examples of the date format::
+"DD.MM.YY" - converts the date into the "day.month.year" format ("25.12.04")
+"MM/DD/YYYY" - converts the date into the "month.day.year" format ("12/25/2004")
 
 ## Day
 
-**Day(Дата)**
+**Day(Date)**
 
-* Дата - поле типа дата.
+* Date - the date type field.
 
-Возвращает день по заданной дате.
+Returns the day according to the specified date.
 
 ## DayOfWeek
 
-**DayOfWeek(Дата)**
+**DayOfWeek(Date)**
 
-* Дата - поле типа дата.
+* Date - the date type field.
 
-Возвращает день недели заданной даты.
+Returns the week day according to the specified date.
 
 ## DaysBetween
 
-**DaysBetween(Дата1, Дата2)**
+**DaysBetween(Date1, Date2)**
 
-* Дата1, Дата2 - поля типа дата.
+* Date1, Date2 - the date type fields.
 
-Возвращает полное количество дней между двумя датами.
+Returns the total number of days between two dates.
 
 ## EncodeDate
 
-**EncodeDate(Год, Месяц, День)**
+**EncodeDate(Year, Month, Day)**
 
-* Год - год в виде числа,
-* Месяц - месяц в виде числа,
-* День - день в виде числа.
+* Year - year in the form of a number.
+* Month - month in the form of a number.
+* Day - day in the form of a number.
 
-Функция возвращает дату, сформированную из указанных аргументов.
+Function returns the date formed from the specified arguments.
 
 ## EncodeDateTime
 
-**EncodeDateTime(Год, Месяц, День, Часы, Минуты, Секунды)**
+**EncodeDateTime(Year, Month, Day, Hours, Minutes, Seconds)**
 
-* Год - год в виде числа,
-* Месяц - месяц в виде числа,
-* День - день в виде числа,
-* Часы - часы в виде числа,
-* Минуты - минуты в виде числа,
-* Секунды - секунды в виде числа.
+* Year - year in the form of a number.
+* Month - month in the form of a number.
+* Day - day in the form of a number.
+* Hours - hours in the form of a number.
+* Minutes - minutes in the form of a number.
+* Seconds - seconds in the form of a number.
 
-Функция возвращает дату и время, сформированные из указанных аргументов.
+Function returns the date and time formed from the specified arguments.
 
 ## EncodeTime
 
-**EncodeTime(Часы, Минуты, Секунды)**
+**EncodeTime(Hours, Minutes, Seconds)**
 
-* Часы - часы в виде числа,
-* Минуты - минуты в виде числа,
-* Секунды - секунды в виде числа.
+* Hours - hours in the form of a number.
+* Minutes - minutes in the form of a number.
+* Seconds - seconds in the form of a number.
 
-Функция возвращает время, сформированное из указанных аргументов.
+Function returns the time formed from the specified arguments.
 
 ## Hour
 
-**Hour(ДатаВремя)**
+**Hour(DateTime)**
 
-* ДатаВремя - поле типа дата/время.
+* DateTime - the date/time type field.
 
-Возвращает час по заданной дате/времени.
+Returns the hour according to the specified date/time.
 
 ## ISO8601ToDate
 
@@ -155,94 +155,94 @@ description: Функции даты/времени. Функции AddDay, AddM
 
 ## Minute
 
-**Minute(ДатаВремя)**
+**Minute(DateTime)**
 
-* ДатаВремя - поле типа дата/время.
+* DateTime - the date/time type field.
 
-Возвращает минуты по заданной дате/времени.
+Returns minutes according to the specified date/time.
 
 ## Month
 
-**Month(Дата)**
+**Month(Date)**
 
-* Дата - поле типа дата.
+* Date - the date type field.
 
-Возвращает месяц по заданной дате.
+Returns the month according to the specified date.
 
 ## MonthsBetween
 
-**MonthsBetween(Дата1, Дата2)**
+**MonthsBetween(Date1, Date2)**
 
-* Дата1, Дата2 - поля типа дата.
+* Date1, Date2 - the date type fields.
 
-Возвращает полное количество месяцев между двумя датами.
+Returns the total number of months between two dates.
 
 ## Now
 
 **Now()**
 
-* Аргументы отсутствуют.
+* Arguments are absent.
 
-Возвращает текущую дату и время.
-Так как текущая дата и время - это время вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.
+Returns the current date and time.
+As the current date and time are the time of the expression calculation that is calculated each time when getting the expression value. For example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache the calculated expression values" expression parameter.
 
 ## Second
 
-**Second(ДатаВремя)**
+**Second(DateTime)**
 
-* ДатаВремя - поле типа дата/время.
+* DateTime - the date/time type field.
 
-Возвращает секунды по заданной дате/времени.
+Returns seconds according to the specified date/time.
 
 ## StartOfTheWeek
 
-**StartOfTheWeek(Дата)**
+**StartOfTheWeek(Date)**
 
-* Дата - аргумент типа Дата/Время.
+* Date - argument of the Date/Time type.
 
-Функция возвращает дату начала указанной недели в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем.
+Function returns the date of the specified week start according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday.
 
 ## StrToDate
 
-**StrToDate(Аргумент [, Формат])**
+**StrToDate(Argument [, Format])**
 
-* Аргумент - строковое выражение, содержащее дату/время
-* Формат - необязательный параметр формат даты/время в терминах D, M, Y, H, N, S, Z
+* Argument - the string expression containing date/time.
+* Format - optional parameter date/time format in terms of D, M, Y, H, N, S, Z.
 
-Функция конвертирует строку, содержащую дату в формат типа "Дата/Время".
-Примеры формата:
-  "DD.MM.YY" - говорит, что Аргумент содержит строки вида "25.12.04";
-  "DD/MM/YY/HH:NN:SS" - говорит, что Аргумент содержит строки вида "25/12/04/12:44:54";
+Function converts the string containing the date into the "Date/Time" format.
+The format examples:
+"DD.MM.YY" - means that the Argument contains strings of the following type: "25.12.04";
+"DD/MM/YY/HH:NN:SS" - means that the Argument contains strings of the following type: "25/12/04/12:44:54";
 
 ## Today
 
 **Today()**
 
-* Аргументы отсутствуют.
+* Arguments are absent.
 
-Возвращает текущую дату.
-Так как текущая дата - это дата вычисления выражения, которое считается каждый раз при получении значения этого выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то можно, при наличии параметра выражения "Кэшировать рассчитанные значения выражения" включить эту опцию.
+Returns the current date.
+As the current date is the time of the expression calculation that is calculated each time when getting the expression value. For example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache the calculated expression values" expression parameter.
 
 ## Week
 
-**Week(Дата)**
+**Week(Date)**
 
-* Дата - поле типа дата.
+* Date - the date type field.
 
-Возвращает номер недели в году по заданной дате в соответствии со стандартом ISO 8601, по которому неделя начинается с понедельника и заканчивается воскресеньем. Первая неделя года начинается с понедельника, для дней с 1 января по первый понедельник возвращается номер последней недели предыдущего года.
+Returns the week number of the year by the set date according to ISO 8601 standard subject to which the week starts from Monday and ends with Sunday. The first week of the year starts from Monday. For the days from January 1 to the first Monday, the number of the last week of the previous year is returned.
 
 ## Year
 
-**Year(Дата)**
+**Year(Date)**
 
-* Дата - поле типа дата.
+* Date - the date type field.
 
-Возвращает год по заданной дате.
+Returns the year according to the specified date.
 
 ## YearsBetween
 
-**YearsBetween(Дата1, Дата2)**
+**YearsBetween(Date1, Date2)**
 
-* Дата1, Дата2 - поля типа дата.
+* Date1, Date2 - the date type fields.
 
-Возвращает полное количество лет между двумя датами.
+Returns the total number of years between two dates.

@@ -1,37 +1,37 @@
 ---
 description: Слияние данных в Loginom. Полное соединение (SQL-аналог FULL JOIN). Перекрестное соединение (SQL-аналог CROSS JOIN).
 ---
-# ![Полное слияние](./../../../images/icons/components/joindata/join-full_default.svg) Полное соединение
+# ![Full Join](./../../../images/icons/components/joindata/join-full_default.svg) Full Join
 
-## Перекрестное соединение (SQL-аналог: `CROSS JOIN`)
+## Cross Join (SQL Analogue: `CROSS JOIN`)
 
-При полном соединении ( `CROSS JOIN`) производится перекрестное соединение (или декартово произведение) — каждая строка одной таблицы соединяется с каждой строкой второй таблицы, давая тем самым в результате все возможные сочетания строк двух таблиц.
-При таком соединении порядок таблиц (левая, правая) неважен и отсутствует необходимость в сопоставлении ключевых полей.
+When the join is full ( `CROSS JOIN`), the cross join (or Cartesian product) is performed. Each row of one table is joined with each row of the second table providing all possible combinations of rows of two tables.
+In the case of such join, the order of tables (left, right) is not important, and it is not required to map the key fields.
 
-Пример:
+For example:
 
-Для примера возьмем две таблицы. Главная таблица — Персона, присоединяемая — Город.
+Let's consider two tables as an example. Main table — A person, joined — A city.
 
-Главная таблица:
+Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
-Присоединяемая таблица:
+Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
 ![Для CROSS JOIN слияния связь между таблицами не устанавливается](./merge-crossjoin.png)
 
-Результирующая таблица:
+Resulting table:
 
 |Имя|Id города|id|Город|
 |:-|-:|-:|:-|
@@ -48,57 +48,57 @@ description: Слияние данных в Loginom. Полное соедине
 |Григорий|4|2|Санкт-Петербург|
 |Григорий|4|3|Казань|
 
-## Полное соединение (SQL-аналог: `FULL JOIN`)
+## Full Join (SQL Analogue: `FULL JOIN`)
 
-При полном соединении (`FULL JOIN`) производится полное внешнее соединение двух наборов. В результирующий набор добавляются следующие записи:
+When the join is full (`FULL JOIN`), the full external join of two data sets is performed. The following records are added to the resulting data set:
 
- 1. Внутреннее соединение (`INNER JOIN`) первой и второй таблиц;
- 2. Записи первой таблицы, которые не вошли во внутреннее соединение на шаге 1. Для таких записей поля, соответствующие второй таблице, заполняются значениями `NULL`;
- 3. Записи второй таблицы, которые не вошли во внутреннее соединение на шаге 1. Для таких записей поля, соответствующие первой таблице, заполняются значениями `NULL`.
+1. Inner join (`INNER JOIN`) of the first and second tables.
+2. Records of the first table that were not included into the inner join during step 1. For such records, the `NULL` values are appended to the fields matching the second table.
+3. Records of the second table that were not included into the inner join during step 1. For such records, the `NULL` values are appended to the fields matching the first table.
 
-При таком соединении необходимо сопоставление ключевых полей.
+Mapping of the key fields is required for such join.
 
-Пример:
+For example:
 
-Для примера возьмем две таблицы. Главная таблица — Персона, присоединяемая — Город.
+Let's consider two tables as an example. Main table — A person, joined — A city.
 
-Главная таблица:
+Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
-Присоединяемая таблица:
+Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-![Связь](./merge-fulljoin.png)
+![Link](./merge-fulljoin.png)
 
-Результирующая таблица:
+Resulting table:
 
-|Имя|Id города|Город|
+|Name|City Id|City|
 |:-|-:|:-|
-|Андрей|1|Москва|
-|Леонид|2|Санкт-Петербург|
-|Сергей|1|Москва|
-|Григорий|4|&#60;null>|
-|&#60;null>||Казань|
+|Andrey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|Sergey|1|Moscow|
+|Gregory|4|&#60;null>|
+|&#60;null>||Kazan|
 
->**Важно:** Для того, чтобы при способе слияния *Полное соединение* использовать `FULL JOIN` соединение, необходимо в мастере настройки сопоставить ключевые поля соединяемых наборов. Если сопоставление отсутствует, то задействуется алгоритм `CROSS JOIN` соединения. При данном способе слияния объем результирующей выборки может очень быстро расти.
+> **Important:** To use `FULL JOIN` when selecting *Full join* method of join, it is required to map the key fields of the joined data sets in the wizard. If there is no mapping, the `CROSS JOIN` algorithm of join is used. When selecting this join method, the resulting sample volume can get higher very rapidly.
 
-При любом соединении (`JOIN`) в результирующий набор данных включаются ключевые поля только главной таблицы. Чтобы включить ключевые поля присоединяемой таблицы в результирующий набор данных, необходимо установить флаг *Добавлять присоединяемые ключевые поля*. Если флаг установлен, то результирующая таблица из предыдущего примера будет выглядеть следующим образом:
+Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`). To include the key fields of the joined table into the resulting data set, it is required to select the following checkbox: *Add joined key fields*. Если флаг установлен, то результирующая таблица из предыдущего примера будет выглядеть следующим образом:
 
-|Имя|Id города|Город|Id|
+|Name|City Id|City|Id|
 |:-|-:|:-|:-|
-|Андрей|1|Москва|1|
-|Леонид|2|Санкт-Петербург|2|
-|Сергей|1|Москва|1|
-|Григорий|4|&#60;null>||
-|&#60;null>||Казань|3|
+|Andrey|1|Moscow|1|
+|Leonid|2|Saint Petersburg|2|
+|Sergey|1|Moscow|1|
+|Gregory|4|&#60;null>||
+|&#60;null>||Kazan|3|

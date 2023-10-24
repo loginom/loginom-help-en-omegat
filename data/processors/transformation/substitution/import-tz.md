@@ -1,18 +1,18 @@
 ---
 description: Замена в Loginom. Структура файла замен.
 ---
-# Структура файла замен
+# Replacement File Structure
 
-Импортируемый текстовый файл должен удовлетворять следующим условиям:
+The imported text file must meet the following requirements:
 
-* Содержать данные двух столбцов.
-  * 1 столбец — заменяемое значение.
-  * 2 столбец — новое значение.
-* Для разделения столбцов используется символ табуляции.
-* Заголовки столбцов не используются.
-* Кодировка файла — UTF-8.
+* It must contain data of two columns.
+   * 1st column — replaced value.
+   * 2nd column — new value.
+* The tabulation character is used to separate the columns.
+* Columns headers are not used.
+* File encoding: UTF-8.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
 Файл замены:
 ```
@@ -32,4 +32,4 @@ description: Замена в Loginom. Структура файла замен.
 
 %/spoiler%
 
-При импорте файла, содержащего символ одиночного знака вопроса `?`, этот символ будет интерпретирован как `<null>` (пропущенное значение). Это нужно учитывать, если в данных имеются значения `<null>`, которые нужно заменить на другие значения, либо если необходимо заменить какие-либо значения на `<null>`.
+When importing the file that contains single inquiry character `?`, this character will be interpreted as `<null>` (null value). It must be taken into account if `<null>` values to be replaced with other values are present in the data, or it is required to replace some values with `<null>`.

@@ -3,43 +3,43 @@ description: Последовательность выполнения узло�
 ---
 # Управление ходом выполнения
 
-## Последовательность выполнения
+## Order of Execution
 
-В общем случае последовательность выполнения узлов задается соединением их входных и выходных портов. Узлы выполняются последовательно от выходного порта к входному. Однако, иногда последовательность обработки данных не может быть задана таким образом. Например, если необходимо выгрузить данные во внешний источник и следующим действием загрузить уже модифицированные данные из внешнего источника. В этом случае для задания порядка выполнения узлов применяют [служебные порты](./ports/service-ports.md)
-(см. рисунок 1).
+In the general case, the order of nodes execution is set by connection of their input and output ports. The nodes are successively executed from the output port to the input. However, sometimes it is not possible to set the data processing order in such a way. For example, if it is required to download data to the external source and then download already modified data from the external source. In this case, to set the nodes execution order, the [service ports](./ports/service-ports.md) are used
+(refer to Figure 1).
 
-![Использование служебных портов для задания последовательности выполнения узлов.](run-order-1.png)
+![Use of the service ports to set the nodes execution order.](run-order-1.png)
 
-Кроме того, Loginom позволяет параллельно выполнять нескольких ветвей Сценария. Для этого не требуются дополнительные настройки, достаточно выполнить параллельное соединение узлов. Например, следующие цепочки узлов будут выполнены параллельно (см. рисунок 2):
+Besides, Loginom enables to execute several Workflow branches in parallel. For this purpose, additional settings are not required. It is sufficient to execute the parallel connection of nodes. For example, the following chains of nodes will be executed in parallel (refer to Figure 2):
 
-![Параллельность выполнения веток сценария.](run-order-2.png)
+![Concurrency of workflow branches execution.](run-order-2.png)
 
-Такая возможность позволяет сократить время выполнения Сценария за счет более полного использования вычислительных мощностей компьютера.
+Such option enables to decrease the Workflow execution time due to fuller use of the computing capacity of the computer.
 
-## Настройка последовательности выполнения узлов
+## Configure Nodes Execution Order
 
-Иногда необходимо вручную задать последовательность выполнения узлов в Сценарии. Для этого используют порт порядка выполнения ![](./../images/icons/app/node/ports/port-order/port-order_inactive.svg).
+Sometimes the manual setting of the Workflow nodes execution order is required. For this purpose, the execution order port is used ![](./../images/icons/app/node/ports/port-order/port-order_inactive.svg).
 
-Для отображения этих портов необходимо воспользоваться кнопкой ![](./../images/icons/common/toolbar-controls/order_default.svg) панели инструментов области построения Сценариев.
+To display these ports, it is required to use ![](./../images/icons/common/toolbar-controls/order_default.svg) toolbar button of the Workflow construction area.
 
-Пример настройки последовательности выполнения узлов см. в разделе [Служебные порты](./ports/service-ports.md).
+Example of configuration of the nodes execution order is provided in the [Service Ports](./ports/service-ports.md) section.
 
-### Цикл
+### Loop
 
-[Цикл](./../processors/control/loop.md) — управляющая конструкция, предназначенная для организации многократного исполнения набора инструкций.
+[Loop](./../processors/control/loop.md) is the control structure that is designated for organization of the multiple execution of the instructions set.
 
-Loginom предоставляет возможность использования следующих разновидностей циклов:
+Loginom gives an opportunity to use the following kinds of loops:
 
-* Цикл со счётчиком — аналог "FOR … TO …";
-* Цикл с постусловием — аналог "DO … WHILE …";
-* Цикл по набору данных (групповая обработка) — аналог "FOR EACH".
+* Counting loop: analogue of "FOR … TO …".
+* Post-test loop: analogue of "DO … WHILE …".
+* Data set loop (group processing): analogue of "FOR EACH".
 
-Использование Подмоделей позволяет легко реализовать *вложенность циклов*.
+Use of the Supernodes provides easy implementation of *loop nesting*.
 
-Имеется возможность выполнения Циклов *в несколько потоков*, что может существенно сократить время обработки.
+It is possible to execute the Loops *in multiple threads* that can considerably decrease the processing time.
 
-### Условие (ветвление)
+### Condition (Branching)
 
-[Условие](./../processors/control/condition.md) — управляющая конструкция, обеспечивающая ветвление алгоритма в зависимости от значения некоторого выражения (аналог "SWITCH... CASE..."). В зависимости от заданного условия ход выполнения Сценария может пойти по одной из возможных веток (см. рисунок 3).
+[Condition](./../processors/control/condition.md) is the control structure that provides the algorithm branching according to the value of some expression (analogue of "SWITCH... CASE..."). According to the set condition the Workflow execution progress can follow one of possible branches (refer to Figure 3).
 
-![Выполнение одной из веток сценария в зависимости от условия.](run-order-3.png)
+![Execution of one of the workflow branches according to the condition.](run-order-3.png)

@@ -1,56 +1,56 @@
 ---
 description: Просмотр статистических показателей в Loginom. Справка по визуализатору "Статистика". Настройка показателей статистики гистограмма, диаграмма размаха, минимум, максимум, среднее, стандартное отклонение, пропуски, уникальные. Детализированные гистограммы.
 ---
-# ![](./../../images/icons/common/view_types/stat_default.svg) Статистика
+# ![](./../../images/icons/common/view_types/stat_default.svg) Statistics
 
-Визуализатор *Статистика* предназначен для просмотра различных [статистических показателей](./statistics-description.md) по каждому полю набора данных и представляет собой таблицу, в которой наименования полей набора данных расположены в строках, а наименования статистических показателей в столбцах. На пересечении, в ячейках таблицы, расположены значения статистических показателей соответствующих полей (см. рисунок 1).
+*Statistics* visualizer is designated for view of different [statistical indicators](./statistics-description.md) by each data set field, and it represents the table in which the data set fields names are located in rows and names of statistical indicators are located in columns. The values of statistical indicators of corresponding fields are located in the table cells at the intersection (refer to Figure 1).
 
-![Визуализатор Статистика](./statistics.png)
+![Statistics Visualizer](./statistics.png)
 
->**Примечание:** В случае, если данных много, то показатели Гистограмма, Диаграмма размаха, Порядковые статистики и Уникальные значения не отображаются. Для их подсчета нужно нажать на соответствующие кнопки.
+> **Note:** If there is much data, such indicators as Histogram, Box plot, Order statistics and Unique values are not displayed. To calculate them, it is required to press corresponding buttons.
 
-## Операции
+## Operations
 
-* ![](./../../images/icons/common/toolbar-controls/transform_default.svg) **Транспонирование таблицы** — переворот таблицы, при котором наименования полей отображаются в столбцах, а статистические показатели — в строках;
-* ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg) **Настройка полей** — выбор полей набора данных, для которых будут подсчитаны статистические показатели;
-* ![](./../../images/icons/common/toolbar-controls/row-sum_default.svg) **Настройка показателей** — выбор статистических показателей;
-* ![](./../../images/icons/common/toolbar-controls/execute_default.svg) **Порядковые статистики**— подсчитываются порядковые статистики;
-* ![](./../../images/icons/common/toolbar-controls/execute_default.svg) **Уникальные значения**— подсчитывается количество уникальных значений;
-* ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Гистограмма** — операция, открывающая детализированное окно с расширенными настройками гистограммы.
+* ![](./../../images/icons/common/toolbar-controls/transform_default.svg) **Table transposing**: turn of the table when the fields names are displayed in columns, and the statistical indicators are displayed in rows.
+* ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg) **Configure fields**: selection of the data set fields for which the statistical indicators will be calculated.
+* ![](./../../images/icons/common/toolbar-controls/row-sum_default.svg) **Configure indicators**: selection of the statistical indicators.
+* ![](./../../images/icons/common/toolbar-controls/execute_default.svg) **Order statistics**: the order statistics are calculated.
+* ![](./../../images/icons/common/toolbar-controls/execute_default.svg) **Unique values**: the count of unique values is calculated.
+* ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Histogram**: the operation that enables to open the detailed window with advanced histogram settings.
 
->**Примечание:** Количество записей набора данных, к которому применяется данный визуализатор, можно узнать в графе Кол-во строк данных, расположенной в правой части панели инструментов, слева от кнопки ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) *Гистограмма*.
+> **Note:** It is possible to define the number of records of the data set to which this visualizer is applied in Row count of data column located in the right toolbar part, to the left from the ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) *Histogram* button.
 
-### Настройка показателей
+### Configure Indicators
 
-По умолчанию отображаются следующие 8 показателей:
-* Гистограмма;
+The following eight indicators are displayed by default:
+* Histogram.
 * [Диаграмма размаха](https://wiki.loginom.ru/articles/box-plot.html);
-* Минимум;
-* Максимум;
-* Среднее;
-* Стандартное отклонение;
-* Пропуски;
-* Уникальные.
+* Minimum.
+* Maximum.
+* Average.
+* Standard deviation.
+* Null count.
+* Unique.
 
-В случае, если их недостаточно, [весь перечень](./statistics-description.md) доступен с помощью операции ![](./../../images/icons/common/toolbar-controls/row-sum_default.svg) *Настройка показателей*.
+But if that's not enough, [whole list](./statistics-description.md) is available via ![](./../../images/icons/common/toolbar-controls/row-sum_default.svg) *Configure indicators* operation.
 
-При наведении курсора на показатель Гистограмма, отображается количество записей соответствующих данному интервалу или уникальному значению. 
-Для показателя Диаграмма размаха при наведении курсора отображается детализация.
+When hovering cursor over the Histogram indicator, the number of records matching this bin or unique value is displayed.
+When hovering cursor over the Box plot indicator, the detailing is displayed.
 
->**Примечание:** Гистограмма не отображается, если в измерении содержится большое количество уникальных значений (для дискретных полей). Её можно посмотреть в дополнительном окне, нажав кнопку ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_toggle-left-panel_default.svg) *Гистограмма*.
+> **Note:** The histogram is not displayed if there are too many unique values in the dimension (for the discrete fields). It can be viewed in the additional window by pressing ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_toggle-left-panel_default.svg) *Histogram* button.
 
-### Детализированное окно гистограммы
+### Detailed Histogram Window
 
-Выбрав необходимое поле, а затем нажав на кнопку ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) *Гистограмма*, в правой части интерфейса открывается дополнительное окно с расширенными настройками и более подробным описанием гистограммы (см. рисунок 2).
+When selecting the required field and pressing ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) *Histogram* button, the additional window with advanced settings and more detailed description of histogram is opened in the right part of the interface (refer to Figure 2).
 
-![Детализированное окно гистограммы](histogram-advanced.png)
+![Detailed histogram window](histogram-advanced.png)
 
-Доступны следующие опции:
-* Сортировка показателей гистограммы по убыванию/возрастанию;
-* Настройка отображения показателей гистограммы; 
-* Задать собственное максимальное значение поля;
-* Задать собственное минимальное значение поля;
-* Задать собственное количество интервалов (в случае, если поле непрерывного типа);
-* Включить Null-значения в гистограмму (в случае, если поле дискретного типа).
+The following options are available:
+* Sorting of the histogram indicators in ascending/descending order.
+* Configure display of the histogram indicators.
+* Set the own maximum field value.
+* Set the own minimum field value.
+* Set the own bin count (when the field refers to the continuous type).
+* Include Null values into the histogram (for the discrete field).
 
->**Примечание:** Изменяя вышеперечисленные опции, визуализация гистограммы изменяется только в детализированном окне, а в основном окне визуализатора останется прежней.
+> **Note:** When the options specified above have been changed, the histogram visualisation changes only in the detailed window, whereas it is the same in the main visualizer window.

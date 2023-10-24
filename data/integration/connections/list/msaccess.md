@@ -1,31 +1,31 @@
 ---
 description: Интеграция Loginom с  базой данных Microsoft Access. Параметры подключения. Совместимость.
 ---
-# ![ ](./../../../images/icons/common/data-sources/db-msaccess_default.svg) Подключение MS Access
+# ![ ](./../../../images/icons/common/data-sources/db-msaccess_default.svg) MS Access Connection
 
-Используется для подключения к базе данных Microsoft Access.
+It is used for connection to the Microsoft Access database.
 
-## Параметры подключения
+## Connection Parameters
 
-При настройке подключения задаются следующие параметры:
+The following parameters are set during the connection setup:
 
-* **Метка** — содержит задаваемое пользователем имя подключения.
-* **Имя файла** — указывается путь к файлу БД, содержащему необходимые данные. Параметры можно ввести вручную или нажатием кнопки ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызвать окно *Открыть файл*.
+* **Caption** contains the connection name set by a user.
+* **Имя файла** — указывается путь к файлу БД, содержащему необходимые данные. Parameters can be manually entered, or it is possible to press ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button to call *Open file* window.
 * **Тестировать** — тест указанных настроек подключения.
 * **Логин** — логин при подключении к Microsoft Access не используется.
 * **Пароль** — указывается пароль, установленный пользователем БД.
-* **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.
-* **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени.
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
+* **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Не использовать клиент СУБД** —  для Microsoft Access этот параметр не доступен.
-* **Комментарий** — в этой форме можно оставить любую справочную информацию о подключении.
+* **Comment**: it is possible to provide any reference data concerning connection in this form.
 
-> **Примечание:** Для подключения к базе данных необходима установка Microsoft Office или [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** To provide connection to the database, it is required to install Microsoft Office or [Microsoft Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255) with the same bitness as the Loginom application/server bitness.
 
-## Совместимость
+## Compatibility
 
 Версии 95, 97, 2000, 2003, 2007, 2010, 2013, 2016 и 2019.
 
-**Смотри также:**
+**See also:**
 
-* [Официальный сайт производителя](https://www.microsoft.com/ru-ru);
-* [Документация по продукции](https://docs.microsoft.com/ru-ru/).
+* [Official manufacturer website](https://www.microsoft.com/ru-ru);
+* [Product Documentation](https://docs.microsoft.com/ru-ru/).

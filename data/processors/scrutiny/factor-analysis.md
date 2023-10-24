@@ -1,78 +1,78 @@
 ---
 description: Компонент факторный анализ в Loginom. Снижение размерности пространства факторов. Взаимозависимые факторы. Метод главных компонент. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/factor-analysis_default.svg) Факторный анализ
+# ![ ](./../../images/icons/components/factor-analysis_default.svg)Factor Analysis
 
-## Описание
+## Description
 
-Компонент применяется с целью понижения размерности пространства факторов. Это необходимо в случаях, когда входные факторы коррелированы друг с другом, т. е. взаимозависимы. В факторном анализе речь идет о выделении из множества измеряемых характеристик объекта факторов, более емко отражающих свойства объекта.
+Компонент применяется с целью понижения размерности пространства факторов. It is required in the cases when the input factors are correlated with each other, namely, they are interdependent. Within the framework of the factor analysis, it is required to select the factors that provide more comprehensive overview of the object properties from a set of measured object features.
 
-Первым этапом факторного анализа является выбор новых признаков, которые являются линейными комбинациями прежних и "вбирают" в себя большую часть общей изменчивости входных факторов. Поэтому они содержат большую часть информации, заключенной в первоначальных данных.
+At the first stage of the factor analysis, it is required to select new indicators that are linear combinations of the previous ones. They "absorb" the most part of the total variableness of the input factors. That's why they contain the most part of the information included into the source data.
 
-В компоненте "Факторный анализ" это осуществляется с помощью метода главных компонент. Он сводится к выбору новой ортогональной системы координат в пространстве наблюдений. В качестве первой главной компоненты избирают направление, вдоль которого массив данных имеет наибольший разброс, а выбор каждой последующей происходит так, чтобы разброс данных вдоль нее был максимальным, и, чтобы она была ортогональна другим главным компонентам, выбранным прежде.
+В компоненте "Факторный анализ" это осуществляется с помощью метода главных компонент. It comes down to selection of the new orthogonal frame of reference in the observation space. As the first main component, it is required to select the direction along which the data array has the widest scatter. Each subsequent one is selected to provide the maximum data scatter along it, and to make it orthogonal relative to other main components selected earlier.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Проведем факторный анализ небольшой таблицы, содержащей некоторые статистические данные по регионам:
+Let's perform the factor analysis of the small table that contains some statistical data by regions:
 
-Исходная таблица:
+Source table:
 
-| Регион | Население (тыс. чел.) | Доля городского населения, % | Занятых в экономике (тыс. чел.) | Доходы на человека (руб./мес.) |
+| Region | Population (thous. people) | Proportion of the urban population, % | People employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
 | :-------- | --------: | --------: | --------: | --------: |
-| Тамбовская обл. | 1269 | 58,4 | 532,4 | 1187,1 |
-| Пензенская обл. | 1531 | 64,6 | 674,5 | 936,8 |
-| Ростовская обл. | 4358 | 67,6 | 1811,8 | 1033,6 |
-| Читинская обл. | 1259 | 62,4 | 439,5 | 472,9 |
-| Чукотский а. о. | 72 | 67,9 | 33,8 | 963,7 |
+| The Tambov Region | 1269 | 58,4 | 532,4 | 1187,1 |
+| The Penza Region | 1531 | 64,6 | 674,5 | 936,8 |
+| The Rostov Region | 4358 | 67,6 | 1811,8 | 1033,6 |
+| The Chita Region | 1259 | 62,4 | 439,5 | 472,9 |
+| The Chukotka Autonomous District | 72 | 67,9 | 33,8 | 963,7 |
 
 Применим компонент "Факторный анализ" к исходной таблице, создав соответствующий узел и задав ему параметр "Используемое" для столбцов "Население (тыс. чел.)", "Доля городского населения, %", "Занятых в экономике (тыс. чел.)", "Доходы на человека (руб./мес.)" в настройках входного порта. <br/>
 В мастере настройки зададим параметры: "Критерий значимости фактора" — "По собственному значению" с порогом собственного значения 1, "Метод вращения" — "Без вращения". Ограничим число выходных факторов равным 2.
 
-Таблица факторов:
+Table of factors:
 
-| Фактор1 | Фактор2 | Регион | Население (тыс. чел.) | Доля городского населения, % | Занятых в экономике (тыс. чел.) | Доходы на человека (руб./мес.) |
+| Factor 1 | Factor 2 | Region | Population (thous. people) | Proportion of the urban population, % | People employed in the economic sphere (thous. people) | Per capita income (rub./mon.) |
 | -------------: | -------------: | :------------ | ------------------------------------: | ---------------------------------------------------: | ------------------------------------------------------: | ----------------------------------------------------: |
-| -0,40 | -1,87 | Тамбовская обл. | 1269 | 58,4 | 532,4 | 1187,1 |
-| -0,04 | 0,02 | Пензенская обл. | 1531 | 64,6 | 674,5 | 936,8 |
-| 1,93 | 0,23 | Ростовская обл. | 4358 | 67,6 | 1811,8 | 1033,6 |
-| -0,71 | 1,06 | Читинская обл. | 1259 | 62,4 | 439,5 | 472,9 |
-| -0,78 | 0,55 | Чукотский а. о. | 72 | 67,9 | 33,8 | 963,7 |
+| -0,40 | -1,87 | The Tambov Region | 1269 | 58,4 | 532,4 | 1187,1 |
+| -0,04 | 0,02 | The Penza Region | 1531 | 64,6 | 674,5 | 936,8 |
+| 1,93 | 0,23 | The Rostov Region | 4358 | 67,6 | 1811,8 | 1033,6 |
+| -0,71 | 1,06 | The Chita Region | 1259 | 62,4 | 439,5 | 472,9 |
+| -0,78 | 0,55 | The Chukotka Autonomous District | 72 | 67,9 | 33,8 | 963,7 |
 
-Таблица факторных нагрузок:
+Table of factor loadings:
 
-| Метка | Фактор1 | Фактор2 |
+| Caption | Factor 1 | Factor 2 |
 | :---------- | -------------: | -------------: |
-| Население (тыс. чел.) | 0,97 | 0,01 |
-| Доля городского населения, % | 0,41 | 0,67 |
-| Занятых в экономике (тыс. чел.) | 0,98 | -0,03 |
-| Доходы на человека (руб./мес.) | 0,33 | -0,77 |
+| Population (thous. people) | 0,97 | 0,01 |
+| Proportion of the urban population, % | 0,41 | 0,67 |
+| People employed in the economic sphere (thous. people) | 0,98 | -0,03 |
+| Per capita income (rub./mon.) | 0,33 | -0,77 |
 
 Таким образом, опираясь на существующую взаимосвязь факторов (корреляцию), мы понизили размерность пространства факторов исходной таблицы с 4 до 2.
 
 %/spoiler%
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных). В настройках этого порта следует выставить назначение ![ ](./../../images/icons/common/usage-types/active_default.svg) "Используемое" для полей, данные которых следует подвергнуть факторному анализу.
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). It is required to set ![ ](./../../images/icons/common/usage-types/active_default.svg) "Used" designation in the settings of this port for the fields the data of which are subject to the factor analysis.
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). Содержит исходную таблицу, к которой добавлены поля факторов.
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных). Содержит таблицу факторных нагрузок.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). It contains the source table to which factors fields are added.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table). It contains the table of factor loadings.
 
-## Мастер настройки
+## Wizard
 
-* Критерий значимости факторов:
-  * **По собственному значению** — отбираются только факторы с собственными значениями равными или большими 1. Считается, что те факторы, у которых этот показатель меньше 1, не вносят значительного вклада в объяснение результата.
-  * **По дисперсии** — факторы отбираются по доле объясняемой несмещённой дисперсии. В этом случае выбирают столько факторов, чтобы в сумме они объясняли не менее 70-75% дисперсии. В отдельных вариантах порог несмещенной дисперсии может достигать 85-90%.
-  * **Задать число факторов** — количество значимых факторов выбирается аналитиком самостоятельно.
+* Criterion of factors significance:
+   * **By own value**: only factors with own values equal or exceeding 1 are selected. It is considered that the factors with the value less than 1 don't contribute significantly to the result explanation.
+   * **По дисперсии** — факторы отбираются по доле объясняемой несмещённой дисперсии. In this case, it is required to select the number of factors that in sum would enable to explain not less than 70-75% of variance. В отдельных вариантах порог несмещенной дисперсии может достигать 85-90%.
+   * **Set the factor number**: the number of the significant factors is selected by an analyst independently.
 
-Значение каждого критерия можно задать в специальном поле справа от соответствующей ему радиокнопки.
+It is possible to set the value of each criterion in the special field to the right of the radio button corresponding to it.
 
-* Метод получения окончательного решения
-  * **Без вращения** — исходные факторы, полученные методом главных компонент, остаются без изменений.
-  * **Варимакс** — критерием является упрощение описания каждого фактора. В результате максимизируется нагрузка на каждый фактор относительно небольшого числа переменных, а факторные нагрузки остальных переменных минимизируются. Рекомендуется выбирать, когда требуется обеспечить высокую интерпретируемость результатов факторного анализа.
-  * **Квартимакс** — данный критерий упрощает описание каждой переменной, то есть уменьшает число факторов, связанных с этой переменной.
-* **Ограничить число выходных факторов** — необязательный флаг, при активации которого можно задать ограничивающее число выходных факторов в соответствующем поле области.
+* Method of receipt of the final decision
+   * **No rotation**: the source factors received by the main components methods remain unchanged.
+   * **Varimax**: criterion is simplification of description of each factor. In the result, the loading on each factor with respect to relatively small number of variables is maximized, and factor loadings of other variables is minimized. It is recommended to choose when it is required to provide the high interpretability level of the factor analysis results.
+   * **Quartimax**: this criterion simplifies description of each variable, namely, it decreases the number of factors connected with this variable.
+* **Limit output factors number**: an optional checkbox activation of which enables to set the limiting number of output factors in the corresponding field of the area.

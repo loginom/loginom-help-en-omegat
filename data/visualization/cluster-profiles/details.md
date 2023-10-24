@@ -1,61 +1,61 @@
 ---
 description: Работа с детализацией таблицы сравнения кластеров в Loginom. Обзор интерфейсов табличного представления, представления формы, представления статистики.
 ---
-# ![Детализация](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Детализация
+# ![Detailing](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Detailing
 
-Детализация использует данные исходного набора данных, отфильтрованные по выделенным в основной таблице кластерам. Если выделен кластер *Итого*, тогда набор данных детализации совпадает со входным. Детализация позволяет узнать из каких строк исходного набора данных состоит тот или иной кластер. Для отображения детализированной информации по выделенной ячейке можно использовать следующие визуализаторы:
+Detailing uses the data of the source data set filtered by the clusters selected in the main table. If *Total* cluster has been selected, the detailing data set matches the input one. Detailing enables to find out what rows of the source data set are included into this or that cluster. To display the detailed information by the selected cell, it is possible to use the following visualizers:
 
-* ![Таблица](./../../images/icons/viewers/cube/detailing/browse_default.svg) **Таблица** — данные будут представлены визуализатором [Таблица](./../table/README.md), но без возможности фильтрации и без панели детализации;
-* ![Форма](./../../images/icons/viewers/cube/detailing/form_default.svg) **Форма** —  данные будут представлены просмотром отдельной строки, начиная с первой по списку;
-* ![Статистика](./../../images/icons/viewers/cube/detailing/stat_default.svg) **Статистика** — данные будут представлены визуализатором [Статистика](./../statistics/README.md).
+* ![Table](./../../images/icons/viewers/cube/detailing/browse_default.svg) **Table**: the data will be displayed by the [Table](./../table/README.md) visualizer but without filtering option and detailing panel.
+* ![Form](./../../images/icons/viewers/cube/detailing/form_default.svg) **Form**: the data will be displayed by view of a separate row starting from the first one in the list.
+* ![Statistics](./../../images/icons/viewers/cube/detailing/stat_default.svg) **Statistics**: the data will be displayed by the [Statistics](./../statistics/README.md) visualizer.
 
->**Примечание:** в ![Таблица](./../../images/icons/viewers/cube/detailing/browse_default.svg) *Таблице* и ![Форма](./../../images/icons/viewers/cube/detailing/form_default.svg) *Форме* можно менять порядок следования столбцов.
+> **Note:** It is possible to change the columns sequence order in ![Table](./../../images/icons/viewers/cube/detailing/browse_default.svg) *Table* and ![Form](./../../images/icons/viewers/cube/detailing/form_default.svg) *Form*.
 
-## Интерфейс табличного представления
+## Table Representation Interface
 
-* ![Номер строки](./../../images/icons/common/toolbar-controls/grid-row-no_default.svg) **Номер строки** — показать/скрыть сквозной номер строки.
-* ![Номер записи](./../../images/icons/common/toolbar-controls/rec-no_default.svg) **Номер записи** — переключить отображение столбца с порядковым номером записи в данном отчете.
-* ![Типы данных](./../../images/icons/common/toolbar-controls/show-data-type_default.svg) **Типы данных** — переключить отображение иконки типов данных.
-* ![Показать значение null](./../../images/icons/common/toolbar-controls/null-count_default.svg) **Показать значение null** — переключить отображение *`<null>`* в ячейках с пропущенными значениями.
-* ![Формат](./../../images/icons/common/toolbar-controls/format_default.svg) **Формат** — открыть окно для настройки [формата](./../table/format.md) отображения данных.
-* ![Сортировка](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) **Сортировка** — открыть окно для настройки [сортировки](./../table/sorting.md) данных по столбцам.
-* ![Поиск](./../../images/icons/common/toolbar-controls/zoom_default.svg) — произвести поиск следующего вхождения значения, указанного в строке поиска. Поиск можно [настроить](./../table/search.md), нажав кнопку ![Раскрыть](./../../images/icons/common/toolbar-controls/down_default.svg).
-* ![Экспорт](./../../images/icons/common/toolbar-controls/export_default.svg) **Экспорт в файл (XLS)**:
-  * **XLS** — сохранить текущее представление в формате Excel.
-  * **HTML** — сохранить текущее представление в формате HTML.
+* ![Row number](./../../images/icons/common/toolbar-controls/grid-row-no_default.svg) **Row number**: show/hide continuous row number.
+* ![Record number](./../../images/icons/common/toolbar-controls/rec-no_default.svg) **Record number**: switch representation of the column with order record number in this report.
+* ![Data types](./../../images/icons/common/toolbar-controls/show-data-type_default.svg) **Data types**: switch data type icon representation.
+* ![Show null value](./../../images/icons/common/toolbar-controls/null-count_default.svg) **Show null value**: switch *`<null>`* representation in the cells with null values.
+* ![Format](./../../images/icons/common/toolbar-controls/format_default.svg) **Format**: open [format](./../table/format.md) configuration window of data view.
+* ![Sort](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) **Sort**: open data [sorting](./../table/sorting.md) configuration window by columns.
+* ![Search](./../../images/icons/common/toolbar-controls/zoom_default.svg): search for the next occurrence of the value specified in the search string. It is possible to [configure](./../table/search.md) search by pressing ![Open](./../../images/icons/common/toolbar-controls/down_default.svg) button.
+* ![Export](./../../images/icons/common/toolbar-controls/export_default.svg) **Export to file (XLS)**:
+   * **XLS**: save the current view in the Excel format.
+   * **HTML**: save the current view in the HTML format.
 
-Для быстрой сортировки по столбцу нужно нажать на его заголовок. При последовательном нажатии будут применены варианты: по возрастанию, по убыванию, без сортировки. Сортировку можно произвести по нескольким столбцам. При этом порядок будет указан цифрой в заголовке.
+To perform quick sorting by column, it is required to press its caption. The following options will be applied after repeated pressing: in ascending order, in descending order, without sorting. Sorting is possible by several columns. In this case, a figure in the caption will be used to specify the order.
 
-Навигация по таблице осуществляется при помощи мышки и панели навигации в нижней части визуализатора:
+Mouse and navigation panel in the lower part of the visualizer are used for navigation through the table:
 
-* ![На предыдущую](./../../images/icons/common/toolbar-controls/prev_default.svg) — перейти на предыдущую страницу;
-* ![На следующую](./../../images/icons/common/toolbar-controls/next_default.svg) — перейти на следующую страницу;
-* ![На первую](./../../images/icons/common/toolbar-controls/first_default.svg) — перейти на первую страницу;
-* ![На последнюю](./../../images/icons/common/toolbar-controls/last_default.svg) — перейти на последнюю страницу.
+* ![To previous](./../../images/icons/common/toolbar-controls/prev_default.svg): go to the previous page.
+* ![To next](./../../images/icons/common/toolbar-controls/next_default.svg): go to the next page.
+* ![To first](./../../images/icons/common/toolbar-controls/first_default.svg): go to the first page.
+* ![To last](./../../images/icons/common/toolbar-controls/last_default.svg): go to the last page.
 
-Для перехода на определённую страницу необходимо ввести её номер в поле ввода, расположенное между кнопками навигации. На одной странице отображается 50 000 записей.
+To go to the given page, it is required to enter its number in the entry field located between the navigation buttons. 50,000 records are displayed on one page.
 
-## Интерфейс представления формы
+## Form Representation Interface
 
-* ![Номер строки](./../../images/icons/common/toolbar-controls/grid-row-no_default.svg) **Номер строки** — показать/скрыть сквозной номер строки.
-* ![Номер записи](./../../images/icons/common/toolbar-controls/rec-no_default.svg) **Номер записи** — переключить отображение столбца с порядковым номером записи в данном отчете.
-* ![Типы данных](./../../images/icons/common/toolbar-controls/show-data-type_default.svg) **Типы данных** — переключить отображение иконки типов данных.
-* ![Показать значение null](./../../images/icons/common/toolbar-controls/null-count_default.svg) **Показать значение null** — переключить отображение *`<null>`* в ячейках с пропущенными значениями.
-* ![На предыдущую](./../../images/icons/common/toolbar-controls/prev_default.svg) — перейти на предыдущую запись;
-* ![На следующую](./../../images/icons/common/toolbar-controls/next_default.svg) — перейти на следующую запись;
-* ![На первую](./../../images/icons/common/toolbar-controls/first_default.svg) — перейти на первую запись;
-* ![На последнюю](./../../images/icons/common/toolbar-controls/last_default.svg) — перейти на последнюю запись.
-* ![Экспорт](./../../images/icons/common/toolbar-controls/export_default.svg) **Экспорт в файл (XLS)**:
-  * **XLS** — сохранить текущее представление в формате Excel.
-  * **HTML** — сохранить текущее представление в формате HTML.
+* ![Row number](./../../images/icons/common/toolbar-controls/grid-row-no_default.svg) **Row number**: show/hide continuous row number.
+* ![Record number](./../../images/icons/common/toolbar-controls/rec-no_default.svg) **Record number**: switch representation of the column with order record number in this report.
+* ![Data types](./../../images/icons/common/toolbar-controls/show-data-type_default.svg) **Data types**: switch data type icon representation.
+* ![Show null value](./../../images/icons/common/toolbar-controls/null-count_default.svg) **Show null value**: switch *`<null>`* representation in the cells with null values.
+* ![To previous](./../../images/icons/common/toolbar-controls/prev_default.svg): go to the previous record.
+* ![To next](./../../images/icons/common/toolbar-controls/next_default.svg): go to the next record.
+* ![На первую](./../../images/icons/common/toolbar-controls/first_default.svg): go to the first record.
+* ![To last](./../../images/icons/common/toolbar-controls/last_default.svg): go to the last record.
+* ![Export](./../../images/icons/common/toolbar-controls/export_default.svg) **Export to file (XLS)**:
+   * **XLS**: save the current view in the Excel format.
+   * **HTML**: save the current view in the HTML format.
 
-## Интерфейс представления статистики
+## Statistics Representation Interface
 
-* ![Транспонировать](./../../images/icons/common/toolbar-controls/transform_default.svg) **Транспонировать** — переворот таблицы, при котором наименования полей отображаются в столбцах, а статистические показатели — в строках;
-* ![Настройка полей](./../../images/icons/common/toolbar-controls/fields-list_default.svg) **Настройка полей…** — выбор полей набора данных, для которых будут подсчитаны статистические показатели;
-* ![Настройка показателей](./../../images/icons/common/toolbar-controls/row-sum_default.svg) **Настройка показателей…** — выбор статистических показателей;
-* ![Уникальные значения](./../../images/icons/common/toolbar-controls/execute_default.svg) **Уникальные значения** — подсчитывается количество уникальных значений;
-* ![Порядковые статистики](./../../images/icons/common/toolbar-controls/execute_default.svg) **Порядковые статистики** — подсчитываются порядковые статистики;
-* ![Гистограмма](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Гистограмма** — операция, открывающая детализированное окно с расширенными настройками гистограммы.
+* ![Transpose](./../../images/icons/common/toolbar-controls/transform_default.svg) **Transpose**: turn of the table when the fields names are displayed in columns, and the statistical indicators are displayed in rows.
+* ![Configure fields](./../../images/icons/common/toolbar-controls/fields-list_default.svg) **Configure fields…** : selection of the data set fields for which the statistical indicators will be calculated.
+* ![Configure indicators](./../../images/icons/common/toolbar-controls/row-sum_default.svg) **Configure indicators…**: selection of the statistical indicators.
+* ![Unique values](./../../images/icons/common/toolbar-controls/execute_default.svg) **Unique values**: the count of unique values is calculated.
+* ![Order statistics](./../../images/icons/common/toolbar-controls/execute_default.svg) **Order statistics**: the order statistics are calculated.
+* ![Histogram](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Histogram**: the operation that enables to open the detailed window with advanced histogram settings.
 
->**Примечание:** количество записей набора данных, к которому применяется данный визуализатор, можно узнать в графе *Кол-во строк данных*, расположенной в правой части панели инструментов слева от кнопки ![Гистограмма](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) *Гистограмма*.
+> **Note:** It is possible to define the number of records of the data set to which this visualizer is applied in *Row count of data* column located in the right toolbar part, to the left from the ![Histogram](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) *Histogram* button.

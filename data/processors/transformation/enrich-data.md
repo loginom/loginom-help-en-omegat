@@ -2,66 +2,66 @@
 description: Дополнение данных в Loginom. Аналог Левому соединению узла Слияние, аналог операции LEFT JOIN в SQL.
 ---
 
-# ![Дополнение данных](./../../images/icons/components/enrich-data_default.svg) Дополнение данных
+# ![Enrich Data](./../../images/icons/components/enrich-data_default.svg) Enrich Data
 
-Соединение таблиц данных на основе связи по ключевым полям — аналог операции `LEFT JOIN` в SQL. Узел выполняет действие аналогичное [Левому соединению](./join/left.md) узла [Слияние](./join/README.md), но количество присоединяемых таблиц произвольно.
+Join of the data tables based on connection by the key fields — analogue of the `LEFT JOIN` operation in SQL. Узел выполняет действие аналогичное [Левому соединению](./join/left.md) узла [Слияние](./join/README.md), но количество присоединяемых таблиц произвольно.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![Главная таблица](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Главная таблица** — в контексте понятий языка SQL-запросов является левой таблицей для соединения;
-* ![Присоединяемая таблица](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Присоединяемая таблица** — в контексте понятий языка SQL-запросов является правой таблицей для соединения;
-* ![Добавить порт](./../../images/icons/common/toolbar-controls/plus-native_default.svg) **Добавить еще один порт** — создает новые порты входа для последующих присоединяемых таблиц, которые будут автоматически пронумерованы.
+* ![Main table](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table** is the left table to be joined in the context of the SQL queries terms.
+* ![Joined table](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table** is the right table to be joined in the context of the SQL queries terms.
+* ![Add port](./../../images/icons/common/toolbar-controls/plus-native_default.svg) **Add another port** enables to create new ports for the subsequent joined tables that will be automatically numbered.
 
-### Выход
+### Output
 
-* ![Выходной набор данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — таблица, содержащая поля всех таблиц, поданных на входные порты, кроме полей присоединяемых таблиц, выбранных в качестве ключевых. По желанию к меткам полей присоединяемых таблиц можно добавить префиксы.
+* ![Output data set](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table that contains fields of all tables supplied to the input ports, with the exception of the joined tables fields selected as the key ones. Prefixes can be optionally added to the field captions of the joined tables.
 
-## Мастер настройки
+## Wizard
 
-* **Область настройки ключевых полей** — напротив поля главной таблицы, которое должно стать ключевым, следует выставить флаг в столбце присоединяемой таблицы. Из выпадающего списка необходимо выбрать поле, по которому таблицы будут связываться. При включенной фильтрации ![Включенная фильтрация](./../../images/icons/ext/filter-switcher/filter-switcher-filterswitch-off_default.svg) доступны совместимые поля, которые еще не связаны с ключевыми полями главной таблицы, при отключенной фильтрации ![Выключенная фильтрация](./../../images/icons/ext/filter-switcher/filter-switcher-filterswitch-on_default.svg) можно выбрать любое из полей, совместимых по типу.
-* **Использовать префиксы** — включение данного флага позволяет добавить в результирующей таблице префиксы к именам и меткам полей, взятых из присоединяемых таблиц.
-  * **Префикс имени** — в это поле вводится префикс добавляемый к имени присоединенных полей таблиц, состав именного префикса следует правилу [Параметров полей набора данных](./../../data/datasetfieldfeatures.md).
-  * **Префикс метки** — в это поле вводится префикс добавляемый к метке присоединенных полей таблиц, именуется согласно *Параметрам полей набора данных*.
+* **Key fields configuration area**: it is required to select a checkbox in the column of the joined table opposite the main table field that must become the key one. It is required to select the field from the drop-down list by which the tables will be connected. Activated ![Enabled filter](./../../images/icons/ext/filter-switcher/filter-switcher-filterswitch-off_default.svg) option makes available compatible fields that are not still connected with key fields of the main table, deactivated ![Disabled filter](./../../images/icons/ext/filter-switcher/filter-switcher-filterswitch-on_default.svg) option enables to select any of the fields compatible by type.
+* **Use prefixes**: selection of this checkbox enables to add prefixes to names and captions of the fields from the joined tables in the resulting table.
+   * **Name prefix**: the prefix added to the name of the joined table fields is specified in this field. Composition of the name prefix conforms to the rules of [Features of data set fields](./../../data/datasetfieldfeatures.md).
+   * **Caption prefix**: the prefix added to the caption of the joined table fields is specified in this field. It is named according to *Features of data set fields*.
 
-Пример:
+For example:
 
-Для примера возьмем три таблицы. Персона - главная таблица, и две присоединяемых: Город и Регион.
+Let's consider three tables as an example. A person - the main table and two joined: City and District.
 
-Главная таблица:
+Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
-Присоединяемая таблица:
+Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-Присоединяемая таблица 2:
+Joined table 2:
 
-|Id города|Регион|
+|City Id|District|
 |-:|:-|
-|1|Центральный|
-|2|Северо-западный|
-|3|Приволжский|
-|4|Дальневосточный|
+|1|Central|
+|2|Northwestern|
+|3|Volga|
+|4|Far Eastern|
 
-![Порядок связей при присоединении.](./supplementation.svg)
+![Connection order when joining.](./supplementation.svg)
 
-Результирующая таблица:
+Resulting table:
 
-|Имя|Id города|Город|Регион|
+|Name|City Id|City|District|
 |:-|-:|:-|:-|
-|Андрей|1|Москва|Центральный|
-|Леонид|2|Санкт-Петербург|Северо-западный|
-|Сергей|1|Москва|Центральный|
-|Григорий|4|&#60;null>|Дальневосточный|
+|Andrey|1|Moscow|Central|
+|Leonid|2|Saint Petersburg|Northwestern|
+|Sergey|1|Moscow|Central|
+|Gregory|4|&#60;null>|Far Eastern|

@@ -1,184 +1,184 @@
 ---
 description: Компонент Линейная регрессия в Loginom. Общие сведения. Алгоритм машинного обучения. Решение задач прогнозирования. Мастер настройки узла. Коэффициенты регрессии. Отбор факторов и защита от переобучения. Метод валидации. Разбиение на множества. 
 ---
-# ![](./../../../images/icons/components/linear-regress_default.svg) Линейная регрессия
+# ![](./../../../images/icons/components/linear-regress_default.svg) Linear Regression
 
-## Описание
+## Description
 
-[Линейная регрессия](https://wiki.loginom.ru/articles/linear-regression.html) представляет собой модель зависимости между [входными](https://wiki.loginom.ru/articles/input-variable.html) и [выходными переменными](https://wiki.loginom.ru/articles/output-variable.html) c линейной функцией связи.
+[Linear regression](https://wiki.loginom.ru/articles/linear-regression.html) is a model of dependence between [input](https://wiki.loginom.ru/articles/input-variable.html) and [output variables](https://wiki.loginom.ru/articles/output-variable.html) with the linear link function.
 
-Линейная регрессия является одним из наиболее часто используемых алгоритмов в [машинном обучении](https://wiki.loginom.ru/articles/machine-learning.html). Этот алгоритм зачастую дает хороший результат даже на небольших наборах данных.
+Linear regression is one of the most frequently used algorithms in [machine learning](https://wiki.loginom.ru/articles/machine-learning.html). This algorithm frequently produces good results even for small data sets.
 
-Широкое применение линейной регрессии обусловлено тем, что большое количество реальных процессов в науке, экономике и бизнесе можно описать линейными моделями. Так, с помощью линейной регрессии можно оценивать объем ожидаемых продаж в зависимости от установленной цены.
+Wide use of linear regression is explained by the fact that many real processes in science, economics and business can be described in terms of linear models. For example, linear regression enables to estimate anticipated sales volume depending on the established price.
 
 Компонент может использоваться для решения различных задач [Data Mining](https://wiki.loginom.ru/articles/data-mining.html?q=), например, таких, как [прогнозирование](https://wiki.loginom.ru/articles/forecasting.html) и численное предсказание.
 
 Для получения результирующих наборов требуется предварительное [обучение узла](./../../../workflow/training-processors.md).
 
->**Важно:** входные данные никогда не должны содержать пропусков, выходные данные не должны содержать пропусков во время обучения.
+> **Important:** Input data must never contain missing values, output data must not contain missing values during training.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
 * ![](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Входной источник данных (таблица данных) — обязательный порт.
 * ![ ](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  [Управляющие переменные](./../../../workflow/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
 
-### Выходы
+### Outputs
 * ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выход регрессии — таблица, состоящая из полей: регрессия поля выходных данных, поля исходного набора данных.
 * ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) — [Коэффициенты регрессионной модели](./coef-regression.md) — таблица данных.
-* ![](./../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Сводка](./report.md) — переменные.
+* ![](./../../../images/icons/app/node/ports/outputs/variable_inactive.svg) — [Summary](./report.md): variables.
 
-## Мастер настройки узла
+## Node Wizard
 
-Мастер настройки включает в себя следующие группы параметров:
+The wizard includes the following groups of parameters:
 
-* Настройки [нормализации](./../../normalization/README.md).
+* [Normalization](./../../normalization/README.md) settings.
 * [Разбиение на множества](#razbienie-na-mnozhestva).
 * [Настройка линейной регрессии](#nastroyka-lineynoy-regressii).
-* [Детальные настройки](#detalnye-nastroyki).
+* [Detailed settings](#detalnye-nastroyki).
 
-### Разбиение на множества
+### Partitioning
 
-Страница *Разбиение на множества* мастера настройки узла позволяет разделить множество на обучающее и тестовое:
-* [Обучающее](https://wiki.loginom.ru/articles/training-set.html) — структурированный набор данных, применяемый для обучения [аналитических моделей](https://wiki.loginom.ru/articles/taught-model.html). Каждая запись обучающего множества представляет собой обучающий пример, содержащий заданное входное воздействие и соответствующий ему правильный выходной (целевой) результат.
-* [Тестовое](https://wiki.loginom.ru/articles/test-set.html) — подмножество обучающей выборки, содержащее тестовые примеры, т.е. примеры, использующиеся не для обучения модели, а для проверки его результатов.
+The *Partitioning* page of the wizard enables to divide a set into the training and test ones:
+* [Обучающее](https://wiki.loginom.ru/articles/training-set.html) — структурированный набор данных, применяемый для обучения [аналитических моделей](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
+* [Test](https://wiki.loginom.ru/articles/test-set.html): the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
 
-Доступные параметры:
-* Размер обучающего и тестового множества в процентах или строках. Может быть задан с помощью переменных.
-* Метод разбиения на обучающее и тестовое множество. Существует три метода разбиения:
-  * Случайный — случайно разбивает множество записей на обучающее и тестовое множество.
-  * Последовательный — группы строк множеств (обучающее, неиспользуемое, тестовое) выбираются последовательно, т.е. сначала выбираются те записи, которые входят в первое множество, затем — во второе и т.д. Порядок множеств можно менять (кнопки *Сдвинуть вверх*, *Сдвинуть вниз*).
-  * По столбцу — разбиение на обучающее и тестовое множества задаётся при помощи параметра. Параметром выступает столбец с логическим типом данных, где значение &laquo;ИСТИНА&raquo; указывает на то, что запись относится к тестовому набору, а значение &laquo;ЛОЖЬ&raquo; — на то, что запись принадлежит обучающему набору (т.е. можно разбить множество на обучающее и тестовое в узле [Разбиение на множества](https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html) и подать данные из порта *Общий выходной набор* на вход узла *Линейная регрессия*, выбрав в качестве параметра разбиения по столбцу колонку "Тестовое множество"). При выборе данного метода таблица выбора соотношения обучающего и тестового множеств становится неактивной.
-* Метод [валидации](./../../validation.md), который может принимать   следующие значения:
-  * Без  валидации.
-  * [K-fold кросс-валидация](https://wiki.loginom.ru/articles/cross-validation.html) — позволяет выбрать *Метод [сэмплинга](https://wiki.loginom.ru/articles/sampling.html)* и количество *Колод кросс-валидации*.
-  * [Монте-Карло](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) — позволяет выбрать *Количество итераций ресемплинга* и задать размер обучающего и [валидационного множества](https://wiki.loginom.ru/articles/validation-set.html).
+Available Parameters:
+* Size of training and test set in percentage terms or in rows. It can be set by means of variables.
+* Method of partition to training and test sets. Существует три метода разбиения:
+   * Random method provides partitioning of records set to training and test sets.
+   * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
+   * По столбцу — разбиение на обучающее и тестовое множества задаётся при помощи параметра. Параметром выступает столбец с логическим типом данных, где значение &laquo;ИСТИНА&raquo; указывает на то, что запись относится к тестовому набору, а значение &laquo;ЛОЖЬ&raquo; — на то, что запись принадлежит обучающему набору (т.е. можно разбить множество на обучающее и тестовое в узле [Разбиение на множества](https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html) и подать данные из порта *Общий выходной набор* на вход узла *Линейная регрессия*, выбрав в качестве параметра разбиения по столбцу колонку "Тестовое множество"). При выборе данного метода таблица выбора соотношения обучающего и тестового множеств становится неактивной.
+* [Validation](./../../validation.md) method that can take the following values:
+   * No validation.
+   * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the *Method of [sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
+   * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
 **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
 
 Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество и на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
 
 Для параметра доступны следующие команды:
-  
+
 * Всегда случайно — начальное число всегда будет случайным.
 * Генерировать — сгенерируется новое начальное число.
 * Копировать — в буфер обмена будет скопировано указанное значение.
 
-### Настройка линейной регрессии
+### Linear Regression Configuring
 
-Набор параметров для настройки линейной регрессии можно сгруппировать в следующие блоки:
+A set of parameters to configure the linear regression can be grouped in the following packs:
 
-#### Настройка метода
+#### Configure Method
 
-* Автоматическая настройка:
-  * Значение логического типа. По умолчанию включено.
-  * Влияет на использование следующих блоков параметров: если включена, то можно настраивать блок *Приоритет автоматической настройки*, если выключена, то можно выбирать алгоритм отбора [факторов](https://wiki.loginom.ru/articles/factor.html) и защиту от переобучения и настраивать приоритеты.
-* Приоритет автоматической настройки:
-  * Влияет на выбор конкретного метода и его настроек по шкале Точность — Скорость.
-  * Целочисленный тип. Может принимать следующие значения:
-    * Максимальная точность.
-    * Повышенная точность.
-    * Средняя скорость.
-    * Повышенная скорость.
-    * Максимальная скорость.
+* Auto setup:
+   * Boolean value. Enabled by default.
+   * It has an impact on usage of the following packs of parameters: if it is enabled, it is possible to configure *Auto setup priority* pack, if it is disabled, it is possible to select the algorithm of [factors](https://wiki.loginom.ru/articles/factor.html) selection and protection against overfitting, and it is also possible to set priorities.
+* Auto setup priority:
+   * It has an impact on selection of the particular method and its settings according to the Accuracy - Speed scale.
+   * Integer type. It can take the following values:
+      * Maximum accuracy.
+      * Increased accuracy.
+      * Average speed.
+      * Increased speed.
+      * Maximum speed.
 
-#### Настройка параметров
+#### Configure Parameters
 
-Используется, если не выбран флаг *Автоматическая настройка* или же он задан с помощью переменной.
+It is used if *Auto setup* checkbox is not selected, or it is set by means of variable.
 
-* **Отбор факторов и защита от переобучения** — значение перечисления:
-  * **Принудительное включение (Enter)** — включение в регрессионную модель всех заданных признаков независимо от того, оказывают ли они значимое влияние или нет.
-  * **Пошаговое включение (Forward)** — метод, который базируется на принципе: начать с отсутствия признаков и постепенно найти самые "лучшие", которые будут добавлены в подмножество.
-  * **Пошаговое исключение (Backward)** — метод основан на следующем: начать со всех доступных признаков и последовательными итерациями исключить самые "худшие".
-  * **Пошаговое включение/исключение (Stepwise)** — модификация метода *Forward* с тем отличием, что на каждом шаге после включения новой переменной в модель осуществляется проверка на значимость остальных переменных, которые уже были введены в нее ранее.
-  * **Ridge** (Гребневая регрессия) — процедура регуляризации L2, предназначена для защиты от переобучения (снижения степени переобучения обучаемой модели), что обеспечивает более качественное прогнозирование. Подразумевает введение "штрафов" для уменьшения значений коэффициентов регрессии. Величина "штрафов" вычисляется как сумма квадратов коэффициентов переменных умноженная на коэффициент регуляризации.
-  * **LASSO** (регрессия Лассо) — также как и *Ridge*, применяется для регуляризации (защиты от переобучения) обучаемой модели. Подразумевает введение "штрафов" (вычисляются как сумма модулей коэффициентов переменных умноженные на коэффициент регуляризации) для уменьшения значений коэффициентов регрессии. Регуляризация Lasso (L1) позволяет снизить размерность и упростить регрессионную модель, за счёт зануления коэффициентов некоторых признаков.
-  * **Elastic-Net** (регрессия "Эластичная сеть") — модель регрессии с двумя регуляризаторами  *L1*, *L2*. Частными случаями являются модели *LASSO* *L1 = 0* и *Ridge* регрессии *L2 = 0*. Данный тип регуляризации учитывает эффективность обоих методов регуляризации и применяется в тех случаях, когда важно сохранить корреляционную связь переменных и не допустить зануление коэффициентов регрессионной модели (как в случае с LASSO).
-* Приоритет точность/скорость.
-  * Целочисленный тип. Может принимать следующие значения:
-    * Максимальная точность.
-    * Повышенная точность.
-    * Средняя скорость.
-    * Повышенная скорость.
-    * Максимальная скорость.
-* Приоритет точные/недостоверные данные.
-  * Целочисленный тип. Может принимать следующие значения:
-    * Точные данные.
-    * Повышенная точность.
-    * Средняя точность.
-    * Пониженная точность.
-    * Недостоверные данные.
-* Приоритет меньше/больше факторов.
-  * Целочисленный тип. Может принимать следующие значения:
-    * Минимум факторов.
-    * Меньше факторов.
-    * Среднее число факторов.
-    * Больше факторов.
-    * Максимум факторов.
+* **Factor selection and protection against overfitting** - value of enumeration:
+   * **Enter**: enter all set indicators into the regression model irrespective of the fact whether they have meaningful influence or not.
+   * **Forward**: this method is based on the following principle: it is required to start from absence of indicators and gradually find the "best" ones that will be added to the subset.
+   * **Backward**: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.
+   * **Stepwise**: modification of the *Forward* method except that at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
+   * **Ridge** (Гребневая регрессия) — процедура регуляризации L2, предназначена для защиты от переобучения (снижения степени переобучения обучаемой модели), что обеспечивает более качественное прогнозирование. Подразумевает введение "штрафов" для уменьшения значений коэффициентов регрессии. Величина "штрафов" вычисляется как сумма квадратов коэффициентов переменных умноженная на коэффициент регуляризации.
+   * **LASSO** (регрессия Лассо) — также как и *Ridge*, применяется для регуляризации (защиты от переобучения) обучаемой модели. Подразумевает введение "штрафов" (вычисляются как сумма модулей коэффициентов переменных умноженные на коэффициент регуляризации) для уменьшения значений коэффициентов регрессии. Регуляризация Lasso (L1) позволяет снизить размерность и упростить регрессионную модель, за счёт зануления коэффициентов некоторых признаков.
+   * **Elastic-Net** (регрессия "Эластичная сеть") — модель регрессии с двумя регуляризаторами  *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. Данный тип регуляризации учитывает эффективность обоих методов регуляризации и применяется в тех случаях, когда важно сохранить корреляционную связь переменных и не допустить зануление коэффициентов регрессионной модели (как в случае с LASSO).
+* Accuracy/speed priority.
+   * Integer type. It can take the following values:
+      * Maximum accuracy.
+      * Increased accuracy.
+      * Average speed.
+      * Increased speed.
+      * Maximum speed.
+* Exact/inexact data priority.
+   * Integer type. It can take the following values:
+      * Accurate data.
+      * Increased accuracy.
+      * Average accuracy.
+      * Reduced accuracy.
+      * Unreliable data.
+* Less/more factors priority.
+   * Integer type. It can take the following values:
+      * Minimum factors.
+      * Less factors.
+      * Average number of factors.
+      * More factors.
+      * Maximum factors.
 
-Перечисленные опции доступны для различных методов:
+The following options are available for different methods:
 
-| **Метод** | **Приоритет точность/скорость** | **Приоритет точные/недостоверные данные** | **Приоритет меньше/больше факторов** |
+| **Method** | **Accuracy/speed priority** | **Exact/inexact data priority** | **Less/more factors priority** |
 | :------------ | :------------: | :------------: | :------------: |
-| Enter      | • |   |   |
-| Forward    | • |   | • |
-| Backward   | • |   | • |
-| Stepwise   | • |   | • |
-| Ridge      | • | • |   |
-| LASSO      | • |   | • |
-| Elastic-Net| • | • | • |
+| Enter | • |   |   |
+| Forward | • |   | • |
+| Backward | • |   | • |
+| Stepwise | • |   | • |
+| Ridge | • | • |   |
+| LASSO | • |   | • |
+| Elastic-Net | • | • | • |
 
-* **Денормализировать коэффициенты модели** — денормализация необходима для интерпретации результатов. Т.к. модель может работать только с нормализированными данными, то для ее работы необходимо сначала нормализовать данные, которые поступили в модель, а затем провести денормализацию для того, чтобы данные приняли вид, который был до нормализации. Является значением логического типа, по умолчанию включено.
-* **Использовать детальные настройки** — позволяет более развернуто настроить линейную регрессию (появляется дополнительная страница мастера — блок детальных настроек). Является значением логического типа, по умолчанию выключено. Доступен для редактирования, если снят флаг *Автоматическая настройка*.
+* **Denormalize model coefficients**: denormalization is required for interpretation of results. As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization. It is a boolean value, enabled by default.
+* **Use detailed settings** provides more detailed configuration of linear regression (additional wizard page appears - pack of detailed settings). It is a boolean value, disabled by default. Доступен для редактирования, если снят флаг *Автоматическая настройка*.
 
->**Примечание:** все доступные параметры настройки линейной регрессии можно задавать с помощью переменных.
+> **Note:** All available parameters of the linear regression configuration can be set by means of variables.
 
-### Детальные настройки
+### Detailed Settings
 
-Используются, если включен блок настроек параметров и в нем установлен флаг *Использовать детальные настройки*, или же он задан с помощью переменной.
+They are used if the parameters configuration pack is enabled, and *Use detailed settings* checkbox is selected in it, or it can be set by means of variable.
 
-Детальные настройки объединяются в следующие блоки параметров:
+Detailed settings are joined into the following packs of parameters:
 
-#### Настройки метода
+#### Method Settings
 
-Доступные параметры:
-* **Точность решения** — критерий остановки итераций. Настройка, которая позволяет определить точность нахождения минимума функции ошибки. Значение вещественного типа от 0 до 1. Представляет собой редактор с шагом изменения значения 0,000001.
-* **Включить в модель константу** — добавляет в модель зависимую переменную. Параметр доступен для редактирования, если не установлен флаг *Денормализировать коэффициенты модели*.
+Available Parameters:
+* **Solution accuracy**: criterion of iterations stop. This setting enables to define the accuracy of definition of the error function minimum. It is a real value from 0 to 1. It is an editor with value change interval equal to 0.000001.
+* **Include intercept into the model** adds the dependent variable to the model. Параметр доступен для редактирования, если не установлен флаг *Денормализировать коэффициенты модели*.
 
-#### Настройки расчета статистики
+#### Statistics Calculation Settings
 
-Доступные параметры:
+Available Parameters:
 
-* Рассчитать [доверительный интервал](https://wiki.loginom.ru/articles/confidence-interval.html).
-* % доверительного интервала.
-* Режим расчета статистики:
-  * Не рассчитывать.
-  * Для всех моделей.
-  * Для финальной модели.
+* Calculate [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html).
+* % confidence interval.
+* Statistics calculation mode:
+   * Do not calculate.
+   * For all models.
+   * For the final model.
 
-#### Настройки регуляризации
+#### Regularization Settings
 
-Доступные параметры:
+Available Parameters:
 
-* **Установка коэффициента L1-регуляризации** — настройка данного параметра возможна только для алгоритмов *LASSO*, *Elastic-Net*;
-* **Установка коэффициента L2-регуляризации** — настройка данного параметра возможна только для алгоритмов *Ridge*, *Elastic-Net*.
+* **L1-regularization coefficient setup**: configuration of this parameter is possible only for *LASSO*, *Elastic-Net* algorithms.
+* **L2-regularization coefficient setup**: configuration of this parameter is possible only for *Ridge*, *Elastic-Net* algorithms.
 
-Для каждого из параметров можно задать либо автоматическую установку значения, либо ввести необходимое значение вручную.
+It is possible either to select auto setup of value for each of parameters, or to enter the required value in the manual way.
 
-#### Настройки отбора факторов
+#### Factor Selection Settings
 
-Доступные параметры:
+Available Parameters:
 
-* **Критерий отбора факторов** — позволяет выбрать один из следующих информационных критериев:
-  * [F-тест](https://wiki.loginom.ru/articles/partial-f-test.html).
-  * [Коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-of-determination.html).
-  * [Скорректированный коэффициент детерминации](https://wiki.loginom.ru/articles/coefficient-determ-adj.html).
-  * Информационный [критерий Акаике](https://wiki.loginom.ru/articles/aic.html).
-  * Информационный [критерий Акаике скорректированный](https://wiki.loginom.ru/articles/aicc.html).
-  * Информационный [критерий Байеса](https://wiki.loginom.ru/articles/bic.html).
-  * Информационный [критерий Ханнана-Квина](https://wiki.loginom.ru/articles/hq.html).
-* Порог [значимости](https://wiki.loginom.ru/articles/significance-regr.html) при добавлении фактора.
-* Порог значимости при исключении фактора.
+* **Factor selection criterion** enables to select one of the following information criteria:
+   * [F-test](https://wiki.loginom.ru/articles/partial-f-test.html).
+   * [Determination coefficient](https://wiki.loginom.ru/articles/coefficient-of-determination.html).
+   * [Adjusted determination coefficient](https://wiki.loginom.ru/articles/coefficient-determ-adj.html).
+   * [Akaike information criterion](https://wiki.loginom.ru/articles/aic.html).
+   * [Akaike information criterion corrected](https://wiki.loginom.ru/articles/aicc.html).
+   * [Bayesian information criterion](https://wiki.loginom.ru/articles/bic.html).
+   * [Hannan-Quinn information criterion](https://wiki.loginom.ru/articles/hq.html).
+* [Significance threshold](https://wiki.loginom.ru/articles/significance-regr.html) in the case of factor addition.
+* Significance threshold in the case of factor exception.
 
->**Примечание:** все доступные параметры детальных настроек можно задавать с помощью переменных.
+> **Note:** All available parameters of the detailed settings can be set by means of variables.

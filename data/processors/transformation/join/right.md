@@ -1,37 +1,37 @@
 ---
 description: Слияние данных в Loginom. Правое соединение. Аналог операции RIGHT JOIN в SQL.
 ---
-# ![Правое соединение](./../../../images/icons/components/joindata/join-right_default.svg) Правое соединение
+# ![Right Join](./../../../images/icons/components/joindata/join-right_default.svg) Right Join
 
-При правом соединении (SQL-аналог: `RIGHT JOIN`, правой таблицей является присоединяемая таблица) главная и присоединяемая таблицы связываются по ключевым полям. В результирующий набор попадают все записи присоединяемой  таблицы , они дополняются полями из главной таблицы, при этом если для записи из присоединяемой  таблицы не было найдено совпадения по ключевым полям, то добавляемые поля заполняются значением Null.
-Пример:
+When the join is right (SQL analogue: `RIGHT JOIN`, the joined table is right) the main and joined tables are joined by the key fields. All records of the joined table fall within the resulting data set. They are appended with the fields from the main table. If no mapping was detected by the key fields for the record from the joined table, the Null value is stated in the appended fields.
+For example:
 
-Для примера возьмем две таблицы. Персона - главная таблица и присоединяемою Город.
+Let's consider two tables as an example. A person - the main table and joined City.
 
-Главная таблица:
+Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
-Присоединяемая таблица:
+Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-![Связь](./merge-fulljoin.png)
+![Link](./merge-fulljoin.png)
 
-Результирующая таблица:
+Resulting table:
 
-|Имя|Id города|Город|
+|Name|City Id|City|
 |:-|-:|:-|
-|Андрей|1|Москва|
-|Сергей|1|Москва|
-|Леонид|2|Санкт-Петербург|
-|&#60;null>|&#60;null>|Казань|
+|Andrey|1|Moscow|
+|Sergey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|&#60;null>|&#60;null>|Kazan|

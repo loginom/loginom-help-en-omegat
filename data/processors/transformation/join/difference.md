@@ -1,35 +1,35 @@
 ---
 description: Слияние данных в Loginom. Разность.
 ---
-# ![Разность](./../../../images/icons/components/joindata/join-diff_default.svg) Разность
+# ![Difference](./../../../images/icons/components/joindata/join-diff_default.svg) Difference
 
-Результирующий набор данных содержит записи основного набора, для которых по ключевым полям не найдено соответствий в присоединяемом наборе. В результирующем наборе присутствуют поля только основного набора. Аналогом для данной операции в Transact-SQL является оператор `EXCEPT`.
+The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set. There are only fields of the main data set in the resulting data set. Аналогом для данной операции в Transact-SQL является оператор `EXCEPT`.
 
-Пример:
+For example:
 
-Для примера возьмем две таблицы. Персона - главная таблица и присоединяемою Город.
+Let's consider two tables as an example. A person - the main table and joined City.
 
-Главная таблица:
+Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
-Присоединяемая таблица:
+Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-![Связь](./merge-fulljoin.png)
+![Link](./merge-fulljoin.png)
 
-Результирующая таблица:
+Resulting table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Григорий|4|
+|Gregory|4|

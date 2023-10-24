@@ -1,41 +1,41 @@
 ---
 description: Диаграмма куба в Loginom. Руководство по созданию диаграмм на основе данных из OLAP куба. Построение диаграмм по видам - линии, области, сплайны, столбчатая, сглаженные области, разброс.
 ---
-# ![Диаграмма](./../../images/icons/common/toolbar-controls/chart_default.svg) Диаграмма
+# ![Chart](./../../images/icons/common/toolbar-controls/chart_default.svg) Chart
 
-*Диаграмма Куба* представляет собой диаграмму заданного типа, построенную на основе *Куба*, но в отличие от обычной, она однозначно соответствует текущему состоянию *Куба* и при любых его изменениях меняется соответственно. Активировать просмотр диаграммы можно кнопкой ![ ](./../../images/icons/common/toolbar-controls/chart_default.svg) **Диаграмма** на [Панели инструментов](./toolbar.md) *Куба*. Общий вид диаграммы представлен на Рис. 1.
+*Диаграмма Куба* представляет собой диаграмму заданного типа, построенную на основе *Куба*, но в отличие от обычной, она однозначно соответствует текущему состоянию *Куба* и при любых его изменениях меняется соответственно. Активировать просмотр диаграммы можно кнопкой ![ ](./../../images/icons/common/toolbar-controls/chart_default.svg) **Диаграмма** на [Панели инструментов](./toolbar.md) *Куба*. The general chart view is provided on Figure 1.
 
-![Диаграмма Куба](./cube-chart.png)
+![Cube Chart](./cube-chart.png)
 
 *Диаграмма Куба* имеет собственную панель инструментов и контекстное меню.
 
 Панель инструментов содержит кнопки:
 
-* **Вид диаграммы** — позволяет выбрать вид отображаемой диаграммы:
-  * ![](./../../images/icons/series/d1.svg) **Линии**.
-  * ![](./../../images/icons/series/d2.svg) **Области**.
-  * ![](./../../images/icons/series/d3.svg) **Сплайны**.
-  * ![](./../../images/icons/series/d4.svg) **Столбчатая**.
-  * ![](./../../images/icons/series/d5.svg) **Сглаженные области**.
-  * ![](./../../images/icons/series/d6.svg) **Разброс**.
-* **Расположение серий** — позволяет выбрать расположение серий:
-  * ![](./../../images/icons/common/toolbar-controls/columns_default.svg) **В столбцах** — построение серии диаграммы по данным столбца.
-  * ![](./../../images/icons/common/toolbar-controls/rows_default.svg) **В строках** — построение серии диаграммы по данным строки.
-* **Итоги** — не показывать серии, сформированные на основе итоговых заголовков:
-  * ![](./../../images/icons/common/toolbar-controls/show-total-nor_default.svg) **Скрыть**.
-  * ![](./../../images/icons/common/toolbar-controls/show-total-all_default.svg) **Показать**.
+* **Chart type** enables to select the type of the displayed chart:
+   * ![](./../../images/icons/series/d1.svg) **Линии**.
+   * ![](./../../images/icons/series/d2.svg) **Области**.
+   * ![](./../../images/icons/series/d3.svg) **Сплайны**.
+   * ![](./../../images/icons/series/d4.svg) **Столбчатая**.
+   * ![](./../../images/icons/series/d5.svg) **Сглаженные области**.
+   * ![](./../../images/icons/series/d6.svg) **Разброс**.
+* **Series position** enables to select position of series:
+   * ![](./../../images/icons/common/toolbar-controls/columns_default.svg) **В столбцах** — построение серии диаграммы по данным столбца.
+   * ![](./../../images/icons/common/toolbar-controls/rows_default.svg) **В строках** — построение серии диаграммы по данным строки.
+* **Show totals**: not to show the series generated on the basis of the final headers:
+   * ![](./../../images/icons/common/toolbar-controls/show-total-nor_default.svg) **Скрыть**.
+   * ![](./../../images/icons/common/toolbar-controls/show-total-all_default.svg) **Показать**.
 * ![](./../../images/icons/viewers/cube/sub-levels/show-sub-levels_default.svg)**Уровень заголовков:**
-  * ![](./../../images/icons/viewers/cube/sub-levels/hide-sub-levels_default.svg)**Первый уровень** — отображается только первый уровень заголовков.
-  * ![](./../../images/icons/viewers/cube/sub-levels/show-sub-levels_default.svg)**Все уровни** —  отображаются все уровни заголовков.
+   * ![](./../../images/icons/viewers/cube/sub-levels/hide-sub-levels_default.svg)**Первый уровень** — отображается только первый уровень заголовков.
+   * ![](./../../images/icons/viewers/cube/sub-levels/show-sub-levels_default.svg)**Все уровни** —  отображаются все уровни заголовков.
 * **Выбрать факты...** — позволяет выбрать отображаемые факты из списка.
 * ![](./../../images/icons/common/toolbar-controls/cancel_default.svg)  **Ограничения** — позволяет задать ограничения на количество серий/точек:
-  * **Серий** — количество отображаемых серий. Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 1000 включительно.
-  * **Точек** — количество отображаемых точек. Можно указать от 1, но не менее количества уникальных значений измерений в столбцах куба, до 1000 включительно.
-* **Экспорт** — позволяет экспортировать диаграмму в определённый формат:
-  * **PNG**.
-  * **JPEG**.
-  * **PDF**.
-  * **SVG**.
+   * **Series**: the number of displayed series. Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 1000 включительно.
+   * **Points**: the number of displayed points. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube columns up to 1000 inclusively.
+* **Export** enables to export the chart to the given format:
+   * **PNG**.
+   * **JPEG**.
+   * **PDF**.
+   * **SVG**.
 
 Перечисленные выше действия, за исключением кнопки **Ограничения**, дублируются командами контекстного меню *Диаграммы Куба*. Кроме этого, командой контекстном меню **Тип подсказок** можно задать отображение подсказок, которые появляются при наведении на точку серии:
 

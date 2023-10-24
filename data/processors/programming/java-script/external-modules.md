@@ -1,18 +1,18 @@
 ---
 description: Компонент JavaScript в Loginom. Импорт внешних модулей. Модульные системы ES6 (ECMAScript 6) и CommonJS. Путь импорта внешних модулей. Примеры.
 ---
-# ![](./../../../images/icons/components/javascript_default.svg) Импорт внешних модулей
+# ![](./../../../images/icons/components/javascript_default.svg) Import of External Modules
 
-## Модульные системы
+## Module Systems
 
-Поддерживаются модульные системы [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) и [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1). Код узла является корневым модулем системы ES6.
-В модулях ES6 поддерживается статический и динамический импорт модулей ES6, для импорта модулей CommonJS применяется функция `require` (см. [Полное описание API](./api-description.md)).
+[ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) and [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1) module systems are supported. Код узла является корневым модулем системы ES6.
+The static and dynamic import of ES6 modules is supported in ES6 modules, to import the CommonJS modules, it is required to use `require` function (refer to [Full API Description](./api-description.md)).
 
-%spoiler%Примеры%spoiler%
+%spoiler%Examples%spoiler%
 
-**Модульная система ECMAScript 6**
+**ECMAScript 6 Module System**
 
-Внешний модуль "./foo/module/module.js":
+"./foo/module/module.js" external module:
 
 ```javascript
 function sayHello() {
@@ -21,7 +21,7 @@ function sayHello() {
 export { sayHello };
 ```
 
-Внешний модуль "./foo/foo.js":
+"./foo/foo.js" external module:
 
 ```javascript
 import { sayHello } from "./module/module.js";
@@ -31,21 +31,21 @@ function cube(x) {
 export { cube, sayHello };
 ```
 
-Использование модулей в коде узла JavaSript:
+Use of modules in the code of the JavaSript node:
 ```javascript
-// Статический импорт
+// Static import
 import { cube, sayHello } from "foo/foo.js";
 console.log(sayHello());
 console.log('3^3 = ', cube(3));
 
-// Динамический импорт
+// Dynamic import
 import("foo/foo.js").then(mod => {
      console.log(mod.sayHello());
      console.log('3^3 = ', mod.cube(3));
 }).catch(e => {
      console.error(e);
 });
-// или
+// or
 (async () => {
      try {
         const mod = await import("foo/foo.js");
@@ -57,9 +57,9 @@ import("foo/foo.js").then(mod => {
 })();
 ```
 
-**Модульная система CommonJS**
+**CommonJS Module System**
 
-Внешний модуль "./foo/module/module.js":
+"./foo/module/module.js" external module:
 
 ```javascript
 function sayHello() {
@@ -68,7 +68,7 @@ function sayHello() {
 module.exports = sayHello;
 ```
 
-Внешний модуль "./foo/foo.js":
+"./foo/foo.js" external module:
 
 ```javascript
 const sayHello = require("./module/module.js");
@@ -79,7 +79,7 @@ exports.sayHello = sayHello;
 exports.cube = cube;
 ```
 
-Использование модулей в коде узла JavaSript:
+Use of modules in the code of the JavaSript node:
 
 ```javascript
 const foo = require("foo/foo.js");
@@ -89,26 +89,26 @@ console.log('3^3 = ', foo.cube(3));
 
 %/spoiler%
 
-Внешние модули могут быть в кодировке `UTF-8` или `UTF-16 Little Endian с BOM`.
+The external modules can be represented in `UTF-8` or `UTF-16 Little Endian с BOM` encoding.
 
-Работа модулей CommonJS реализована в соответствии со [спецификацией](http://wiki.commonjs.org/wiki/Modules/1.1.1), за следующими отличиями:
+The CommonJS modules are operated according to the [specification](http://wiki.commonjs.org/wiki/Modules/1.1.1) with the following differences:
 
-- Необязательные свойства `require.main`, `require.paths` и `module.uri` отсутствуют;
-- Добавлены необязательные свойства `require.resolve` и `require.cache` (как в NodeJS);
-- Объект модуля имеет свойства `parent`, `loaded` и `filename` (как в NodeJS);
-- Из модуля доступна глобальная переменная `__filename`, хранящая абсолютный путь к модулю внутри файлового хранилища.
+- There are no `require.main`, `require.paths` and `module.uri` optional properties.
+- `require.resolve` and `require.cache` (as in NodeJS) optional properties were added.
+- The module object has `parent`, `loaded` and `filename` (as in NodeJS) properties.
+- The global `__filename` variable that keeps the absolute path to the module inside the file storage is available by the module.
 
-%spoiler%Пример%spoiler%
+%spoiler%Example%spoiler%
 
-Внешний модуль "child_module.js":
+"child_module.js" external module:
 
 ```javascript
 console.log("Hello! I am " + __filename);
-exports.filename = module.filename; // возвращает полный путь к child_module.js
-exports.parent = module.parent.id;  // возвращает идентификатор вызывающего модуля
-exports.loaded = module.loaded;     // возвращает true или false - был ли загружен модуль
+exports.filename = module.filename; // returns the full path to child_module.js
+exports.parent = module.parent.id;  // returns the identifier of the calling module
+exports.loaded = module.loaded;     // returns true or false - whether the module was loaded
 ```
-Использование модуля "child_module.js" в коде узла JavaSript:
+Use of "child_module.js" module in the code of the JavaSript node:
 
 ```javascript
 // require.resolve:
@@ -125,40 +125,40 @@ console.log(childModule.loaded);
 delete require.cache[path];
 // и внешний модуль вызывается повторно,
 // в результате чего повторно выводится "Hello! I am ... ".
-// Без очистки кэша этого не происходит
+// It is not possible without cache flush
 require("child_module.js");
 ```
 
 %/spoiler%
 
-Из модулей CommonJS можно загружать только модули CommonJS.
+Only the CommonJS modules can be loaded from the CommonJS modules.
 
-## Пути импорта внешних модулей
+## Import Paths of External Modules
 
-Пути импорта модулей могут быть относительными или абсолютными.
+The modules import paths can be relative and absolute.
 
-### Относительный путь
+### Relative Path
 
-При использовании относительных путей в корневом модуле (скрипте, который содержит редактор кода узла):
+When using relative paths in the root modules (the script that contains the node code editor):
 
-- Если пакет сохранен, то относительный путь к внешнему модулю указывается от расположения пакета.
-- Если пакет не сохранен, то относительный путь к внешнему модулю указывается от каталога пользователя.
+- If the package is saved, the relative path to the external module is specified from the package location.
+- If the package is not saved, the relative path to the external module is specified from the user directory.
 
-Во внешних модулях относительный путь указывается от расположения модуля, осуществляющего импорт.
+The relative path in the external modules is specified from the import module location.
 
-Пример:
+For example:
 
 ```javascript
 import { cube, foo, sayHello } from "./foo/foo.js";
 ```
 
-### Абсолютный путь
+### Absolute Path
 
-#### На сервере Loginom
+#### on the Loginom server
 
-Если путь начинается с "/", то он интерпретируется как абсолютный внутри [файлового хранилища](./../../../location_user_files.md) и считается от каталога пользователя.
+If the path starts from "/", it is interpreted as the absolute one inside the [file storage](./../../../location_user_files.md), and it is calculated from the user directory.
 
-Пример:
+For example:
 
 ```javascript
 import { cube, foo, sayHello } from "/user/foo/foo.js";
@@ -166,7 +166,7 @@ import { cube, foo, sayHello } from "/user/foo/foo.js";
 
 #### В настольной редакции
 
-Абсолютный путь — полный путь в файловой в системе. Пример:
+The absolute path: the full path in the file system. For example:
 
 ```javascript
 import { cube, foo, sayHello } from "C:\\Script\\foo\\foo.js";

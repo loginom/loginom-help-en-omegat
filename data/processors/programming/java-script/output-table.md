@@ -1,17 +1,17 @@
 ---
 description: Компонент JavaScript в Loginom. Доступ к выходному набору данных. Объект OutputTable. Методы OutputTable. Примеры.
 ---
-# ![](./../../../images/icons/components/javascript_default.svg) Доступ к выходному набору данных
+# ![](./../../../images/icons/components/javascript_default.svg) Access to the Output Data Set
 
-Для доступа к данным выходного порта используется объект `OutputTable`.
+For access to the output port data, the `OutputTable` object is used.
 
-## Свойства OutputTable
+## OutputTable Properties
 
 %spoiler%Columns%spoiler%
 
 **Columns**
 
-Содержит доступную для чтения коллекцию столбцов выходного набора данных. Возвращает объект, реализующий интерфейс `IColumns` (см. [Полное описание API](./api-description.md)).
+It contains read-only collection of columns of the output data set. It returns the object implementing the `IColumns` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -19,7 +19,7 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **ColumnCount**
 
-Содержит доступное для чтения количество столбцов выходного набора данных.  Возвращает значение типа `number`.
+It contains read-only count of columns of the output data set.  It returns the value of the `number` type.
 
 %/spoiler%
 
@@ -27,20 +27,20 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **RowCount**
 
-Содержит доступное для чтения количество строк выходного набора данных.  Возвращает значение типа `number`.
+It contains read-only count of rows of the output data set.  It returns the value of the `number` type.
 
 %/spoiler%
 
-## Методы OutputTable
+## OutputTable Methods
 
 %spoiler%Get%spoiler%
 
 **Get(row, col)**
 
-- row — индекс строки. Принимает значение типа `number`.
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- row: row index. It takes the value of the `number` type.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает значение заданного столбца в заданной строке. Возвращаемое значение может иметь типы: `boolean`, `number`, `string`, `Date`, `undefined`.
+The method returns the value of the set column in the set string. The returned value can have the following types: `boolean`, `number`, `string`, `Date`, `undefined`.
 
 %/spoiler%
 
@@ -48,10 +48,10 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **IsNull(row, col)**
 
-- row — индекс строки. Принимает значение типа `number`.
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- row: row index. It takes the value of the `number` type.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает булево значение `true`, если столбец в заданной строке имеет пропущенное значение. В противном случае возвращается `false`.
+The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
@@ -59,9 +59,9 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **GetColumn(col)**
 
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает объект столбца, реализующий интерфейс `IColumn` (см. [Полное описание API](./api-description.md)).
+Метод возвращает объект столбца, реализующий интерфейс `IColumn` (см. [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -89,10 +89,10 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **InsertColumn(col, columninfo)**
 
-- col — индекса столбца. Принимает значение типа `number`.
-- columninfo — объект, реализующий интерфейс `IColumnInfo` (см. [Полное описание API](./api-description.md)). Необязательный аргумент.
+- col — индекса столбца. It takes the value of the `number` type.
+- columninfo — объект, реализующий интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)). Необязательный аргумент.
 
-Метод вставляет столбец по заданному индексу в выходной набор. Возвращает объект, реализующий интерфейс `IOutputColumn` (см. [Полное описание API](./api-description.md)).
+Метод вставляет столбец по заданному индексу в выходной набор. Возвращает объект, реализующий интерфейс `IOutputColumn` (см. [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -100,7 +100,7 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **DeleteColumn(col)**
 
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
+- col: column index or name. It takes the value of the `number` or `string` types.
 
 Метод удаляет столбец по имени или индексу.
 
@@ -110,7 +110,7 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **ClearColumns()**
 
-Не имеет аргументов. Метод очищает список столбцов.
+It does not have arguments. Метод очищает список столбцов.
 
 %/spoiler%
 
@@ -118,7 +118,7 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **Append()**
 
-Метод добавляет новую строку в выходной набор данных. Не имеет аргументов.
+The method enables to append the new row to the output data set. It does not have arguments.
 
 %/spoiler%
 
@@ -126,14 +126,14 @@ description: Компонент JavaScript в Loginom. Доступ к выхо�
 
 **Set(col, value)**
 
-- col — индекс или имя столбца. Принимает значение типов `number` или `string`.
-- value — значение. Принимает значения следующих типов: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
+- col: column index or name. It takes the value of the `number` or `string` types.
+- value — value. It takes the values of the following types: `boolean`, `number`, `string`, `Date`, `null`, `undefined`.
 
-Метод задает значение заданного столбца в строке, добавленной методом `Append()`.
+The method enables to set the value of the set column in the string appended by the `Append() method`.
 
 %/spoiler%
 
-## Примеры
+## Examples:
 
 ```javascript
 import { OutputTable, DataType, DataKind, UsageType } from "builtIn/Data";

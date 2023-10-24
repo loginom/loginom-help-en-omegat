@@ -2,13 +2,13 @@
 description: Компонент Дерево данных в Loginom. Общие сведения. Корневой узел. Дочерний узел. Родительский узел. Признак Контейнер. Признак Массив.
 ---
 
-### Дерево данных
-Дерево — это структура данных в виде набора связанных узлов. Первый узел дерева называется корнем. Корневой узел всегда один. Если узел соединен с другим узлом, то он является родительским, а связанный с ним узел — дочерним.
+### Data Tree
+Tree: the data structure in the form of a set of connected nodes. The first tree node is called a root. There is always only one root node. If the root is connected with another root, it is a parent root, and the connected root is called a chid root.
 
-Узлы дерева могут иметь признаки **контейнер** и **массив**.
+The tree nodes can have the **container** and **array** indicators.
 
-**Контейнер** - это узел, который может содержать дочерние узлы (при этом количество дочерних узлов может быть равно 0), но не может содержать значение. У узла-контейнера невозможно задать тип или вид данных. Корневой узел всегда является контейнером.
+**Container** is a node that can include child nodes (and there can be 0 child nodes) but it cannot have a value. It is impossible to set the data type and kind for the node-container. The root node is always a container.
 
-Признак **массив** показывает, что в пределах одного родительского узла может содержаться более одного экземпляра данного узла. Минимальное количество экземпляров узла равно 0, и не настраивается. Исключение составляет корневой узел: для него минимальное количество экземпляров равно 0, если он является массивом, и 1 - если не является.
+The **array** indicator shows that more than one instance of such node can be included into one parent node. The minimum number of the node instances is equal to 0, and it cannot be configured. The only exception is the root node. The minimum number of its instances is equal to 0 if it is an array, and 1 if it is not an array.
 
-Древовидные данные можно передавать на вход и выход узлов (аналогично набору данных и переменным) через порт соответствующего типа, а также передавать в опубликованный пакет через Интегратор (см. также [Веб-сервисы](./../../integration/web-services/README.md)).
+Древовидные данные можно передавать на вход и выход узлов (аналогично набору данных и переменным) через порт соответствующего типа, а также передавать в опубликованный пакет через Интегратор (см. [Web Services](./../../integration/web-services/README.md)).

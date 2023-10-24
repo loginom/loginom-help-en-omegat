@@ -1,12 +1,12 @@
 ---
 description: Справка по работе с фильтром в таблице с дубликатами и противоречиями в Loginom. Выделение записей. Настройка фильтрации.
 ---
-# ![](./../../images/icons/common/toolbar-controls/filter_default.svg)Фильтр
+# ![](./../../images/icons/common/toolbar-controls/filter_default.svg)Filter
 
-Позволяет выделить записи, которые удовлетворяют одному или нескольким условиям. Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.
+It enables to select the records that meet one or several criteria. Several criteria are joined into the complex criterion using the logical AND/OR operators.
 
-## Окно настройки
+## Configuration Window
 
-В окне располагается область настройки условий фильтрации. Новое условие добавляется нажатием на кнопку +. Далее выбирается имя поля, [отношение сравнения](./../../processors/transformation/row-filter/filtering-criteria.md) (Условие) и значение сравнения. При создании нескольких условий между ними необходимо задать логические операторы И/ИЛИ. По умолчанию ставится оператор И. Чтобы изменить оператор, необходимо кликнуть по нему левой кнопкой мыши.
+Area of the filtering criteria settings is located in the window. The new criterion is added by pressing + button. Then it is required to select the field name, [comparison ratio](./../../processors/transformation/row-filter/filtering-criteria.md) (<x3/>Condition<x4/>) and comparison value. When creating several criteria, it is required to set the logical AND/OR operators between them. AND operator is set by default. To change the operator, it is required to left-click on it.
 
-После установки настроек фильтрации нужно нажать кнопку *Фильтровать*.
+After filtering setup, it is required to press *Filter* button.

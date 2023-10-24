@@ -1,112 +1,111 @@
 ---
 description: Компонент Дерево в таблицу в Loginom. Общие сведения. Преобразование данных, представленных в иерархической (древовидной) форме, в таблицу. Мастер настройки. Признак Массив. Признак Контейнер. Загрузка структуры узлов из XSD схемы.
 ---
-# ![](./../../images/icons/components/tree-to-data_default.svg) Дерево в таблицу
+# ![](./../../images/icons/components/tree-to-data_default.svg) Tree to Table
 
-Компонент преобразует данные, представленные в иерархической древовидной форме, в таблицу. Отмеченные узлы будут выведены в колонки выходного набора данных.
+Компонент преобразует данные, представленные в иерархической древовидной форме, в таблицу. The selected nodes will be organized in columns of the output data set.
 
-### Вход
+### Input
 
-![](./../../images/icons/app/node/ports/inputs/tree_inactive.svg) **Входное дерево** — набор данных в иерархической древовидной форме.
+![](./../../images/icons/app/node/ports/inputs/tree_inactive.svg) **Input tree**: the data set in the hierarchic tree-like form.
 
-### Выход
+### Output
 
-![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
+![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: data table.
 
-## Мастер настройки
+## Wizard
 
-### Настройка входного набора
+### Configuration of the Input Data Set
 
 Данные во входном порте узла представлены в виде входного и выходного наборов.
 
-В списке Входное дерево отображаются поля принятого портом набора данных, которые следует сопоставить с полями набора, подаваемого портом на обработку — Выходное дерево (подробнее см. [Порты](./../../workflow/ports/README.md)).
+The Input Tree list displays fields of the data set accepted by the port. It is required to map them with fields of the data set supplied by the port for processing - Output Tree (refer to [Ports](./../../workflow/ports/README.md)).
 
-Структуру набора, подаваемого на обработку, можно задать вручную или загрузить из файла *.xsd.
+It is possible to set the structure of the set supplied for processing in the manual way, or to download it from the *.xsd file.
 
-#### Задание структуры узлов вручную
+#### Manual Setting of the Nodes Structure
 
-При ручном формировании структуры набора, который впоследствии будет подан на обработку, используются команды панели инструментов или контекстного меню.  
+При ручном формировании структуры набора, который впоследствии будет подан на обработку, используются команды панели инструментов или контекстного меню.
 
-Панель инструментов и контекстное меню списка Входное дерево содержит команды:
+The toolbar and context menu of the Input Tree list contains the following commands:
 
-* ![](./../../images/icons/common/toolbar-controls/check-all_default.svg) **Выбрать все** — помечает все узлы.
-* ![](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Снять выделение со всех** — снимает выделение со всех узлов.
-* ![](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Инвертировать выделение** — поменять выбранные узлы на невыбранные и наоборот.
+* ![](./../../images/icons/common/toolbar-controls/check-all_default.svg) **Check all** enables to check all nodes.
+* ![](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
+* ![](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Invert selection** enables to invert the selected nodes to unselected and vice versa.
 
 Для списка Выходное дерево на панели инструментов и в контекстном меню доступны команды:
 
-* ![](./../../images/icons/wizards/datatree/add-child_default.svg) **Добавить дочерний узел** — позволяет добавить к корневому узлу дочерний узел.
-* ![](./../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел** — позволяет создать узел того же уровня иерархии, что и выбранный.
-* ![](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать...** — позволяет вызвать окно редактирования и изменить значения полей для выбранного узла (команду также можно вызвать горячей клавишей *F2*).
-* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх**  и  ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — позволяют менять порядок узлов, при этом корневой узел **Root** переместить нельзя (команды также доступны по комбинации горячих клавиш *Ctrl+Up* и *Ctrl+Down* соответственно).
-* ![](./../../images/icons/common/toolbar-controls/import-from-xsd_default.svg) **Загрузить из XSD...** - загружает структуру узлов выходного дерева из файла формата XSD.
-* ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg) **Синхронизировать поля** — синхронизируется список выходных полей порта со списком входных (алгоритм синхронизации см. [автоматическая синхронизация полей](./../../workflow/ports/automapping-of-fields.md)).
-* ![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg) **Автоматическая синхронизация** — при включении данного режима команда  ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg) **Синхронизировать поля** будет выполняться автоматически при выполнении узла (включена по умолчанию).
-* ![](./../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить** — удаляет дочерний узел дерева, иконка этой команды высвечивается при наведении курсора на узел (команду также можно вызвать горячей клавишей *Delete*).
-* ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg)**Удалить все...** — удаляет все дочерние узлы (комбинация горячих клавиш *Shift+Delete*).
+* ![](./../../images/icons/wizards/datatree/add-child_default.svg) **Add child node** enables to add the child node to the root node.
+* ![](./../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node** enables to create the node of the same hierarchic level as provided for the selected one.
+* ![](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit...** enables to call the editing window and change values of the fields for the selected node (the command can be called using *F2* hotkey).
+* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Move up**  and  ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enable to change the order of nodes. In this case, it is not possible to move the **Root** root node (the commands are also available when using *Ctrl+Up* and *Ctrl+Down* combinations of hotkeys, correspondingly).
+* ![](./../../images/icons/common/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** enables to load the structure of nodes of the output tree from the XSD file.
+* ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg) **Map fields** enables to map a list of output port fields to a list of the input ones (the mapping algorithm is described in the [Automapping of Fields](./../../workflow/ports/automapping-of-fields.md)).
+* ![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when enabling this mode, ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg) **Map fields** command will be automatically performed during the node execution (enabled by default).
+* ![](./../../images/icons/common/toolbar-controls/delete_default.svg) **Delete** enables to delete the child node of the tree, this command icon is highlighted when hovering a cursor over the node (the command can be also called by *Delete* hotkey).
+* ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg)**Delete all...** enables to delete all child nodes (combination of *Shift+Delete* hotkeys).
 
-> **Примечание:** Удалить корневой узел **Root** нельзя.
+> **Note: It is not possible to delete ** Delete root node **Root**.
 
-При выполнении команд ![](./../../images/icons/wizards/datatree/add-child_default.svg)  **Добавить дочерний узел**, ![](./../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел**, ![](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать...** задаются значения полей:
-* **Имя** — уникальное наименование столбца в рамках одного набора данных. Может состоять из:
-  * Заглавных или строчных латинских букв;
-  * Символов подчеркивания;
-  * Цифр (не может быть первым символом).
-* **Метка** — произвольное описание поля.
-* **Тип данных** — один из возможных [типов данных](./../../data/datatype.md).
-* **Вид данных** — один из возможных [видов данных](./../../data/datakind.md)
-.
+When running the following commands: ![](./../../images/icons/wizards/datatree/add-child_default.svg)  **Add child node**, ![](./../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node**, ![](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit...**, the following fields values are set:
+* **Name**: the unique column name for one data set. It can consist of the following characters:
+   * Capital or low case Latin characters.
+   * Underscore characters.
+   * Digits (it cannot be the first character).
+* **Caption**: random field description.
+* **Data type**: one of the possible [data types](./../../data/datatype.md).
+* **Data kind**: one of the possible [data kinds](./../../data/datakind.md).
 
-Кроме того, можно установить следующие признаки:
-* **Массив** — при установке флага выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.
-* **Контейнер** — если флаг установлен, выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.
+Besides, it is possible to set the following indicators:
+* **Array**: when selecting the checkbox, the selected child node will be defined as ordered set (array) of one data type.
+* **Container**: when selecting the checkbox, the selected child node will be a root node for other created child nodes of different types.
 
-Записи в списках Входное дерево и Выходное дерево можно отфильтровать с помощью команды ![](./../../images/icons/common/toolbar-controls/filter_default.svg)**Фильтрация** на соответствующей панели инструментов.
+It is possible to filter records in the Input Tree and Output Tree lists using ![](./../../images/icons/common/toolbar-controls/filter_default.svg)**Filter** command of corresponding toolbar.
 
-#### Загрузка структуры узлов из XSD схемы
+#### Loading of the Nodes Structure from the XSD Schema
 
-Структуру выходного дерева можно загрузить из файла формата XSD с помощью команды ![](./../../images/icons/common/toolbar-controls/import-from-xsd_default.svg) **Загрузить из XSD...**
+The output tree structure can be loaded from the XSD file using ![](./../../images/icons/common/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** command.
 
-В появившемся диалоговом окне необходимо заполнить поля:
+It is possible to fill in the following fields in the appeared dialog window:
 
-* **XSD файл** — поле для выбора файла (не редактируемое).
-* **Пространство имен** — выбор пространства имен из списка всех пространств имен описанных в файле XSD, ограничивает выбор корневого элемента только указанным пространством. По умолчанию принимает значение *Все пространства имен*.
-* **Корневой элемент** — выбор корневого узла из списка в загруженном файле. По умолчанию имеет значение первого корневого узла выбранного файла.
-* **Глубина рекурсии** — максимальное число рекурсий при раскрытии рекурсивных узлов. Выбирается в диапазоне от 0 до 3. По  умолчанию равно 1, что означает: каждый рекурсивный узел будет раскрыт автоматически, но рекурсивные узлы внутри этих узлов останутся нераскрытыми. Дополнительно раскрытие рекурсивных узлов можно проводить вручную после построения дерева. При значении 0 все рекурсивные узлы не будут раскрыты автоматически.
+* **XSD file**: the field for the file selection (not edited).
+* **Namespace** enables to select a namespace from a list of all namespaces described in the XSD file. It limits selection of the root element only by the specified space. The value of *All namespaces* is set by default.
+* **Root element** enables selection of the root node from the list in the loaded file. The value of the first root node of the selected file is set by default.
+* **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. In the case of 0 value recursive nodes won't be automatically opened.
 
-После заполнения всех полей необходимо нажать кнопку **Загрузить** и XSD схема будет загружена для дальнейшей работы.
+After filling in all the fields, it is required to press **Load** button, and the XSD schema will be loaded for further work.
 
-#### Сопоставление полей
+#### Fields Mapping
 
-Для сопоставления полей входного и выходного дерева необходимо задать между ними связи. Это можно сделать нажав кнопку ![](./../../images/icons/common/toolbar-controls/auto-connect_default.svg)**Связать автоматически**. Входные и выходные поля будут связаны, если у них совпадают имена и тип данных. 
-Связи также можно установить вручную, с помощью метода *Drag-and-drop* путем перетаскивания элемента из левого списка на элемент из правого списка. В этом случае имена полей не важны, однако типы данных должны совпадать.
+To map the fields of the input and output tree, it is required to establish links between them. It can be done using ![](./../../images/icons/common/toolbar-controls/auto-connect_default.svg)**Auto link** button. The input and output fields will be linked, if their names and data types coincide.
+Links can be also established in the manual way using the *Drag-and-drop* method by dragging the item from the left list to the item from the right list. In this case, fields names are not important. However, data types must still coincide.
 
-Связи между узлами можно удалять: 
-* с помощью кнопки  ![](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) **Удалить все связи** — удаляет все связи;
-* нажатием на кнопку ![Удалить связь](./../../images/icons/link-grid/remove-link_selected.svg) на линии связи (при наведении курсора кнопка меняет вид на ![Удалить связь](./../../images/icons/link-grid/remove-link_hover.svg)).
+It is possible to delete the links between nodes as follows:
+* using ![](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) **Delete all links** button, it deletes all links;
+* using ![Delete link](./../../images/icons/link-grid/remove-link_selected.svg) button in the line (when cursor hovering, the button is changed to ![Delete link](./../../images/icons/link-grid/remove-link_hover.svg)).
 
-### Выбор узлов дерева
+### Selection of the Tree Nodes
 
-Мастер настройки узла представляет собой отображение дерева (дерево, поданное на выход входного порта) с возможностью выбора некоторых или всех узлов. Отмеченные узлы будут выведены в колонки выходного набора данных.
+Мастер настройки узла представляет собой отображение дерева (дерево, поданное на выход входного порта) с возможностью выбора некоторых или всех узлов. The selected nodes will be organized in columns of the output data set.
 
-Доступные действия представлены в виде кнопок на панели инструментов и в контекстном меню:
+Available actions are represented in the form of the toolbar buttons and in the context menu:
 
-* ![](./../../images/icons/common/toolbar-controls/check-all_default.svg) **Выбрать все** – помечает все узлы.
-* ![](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Снять выделение со всех** – снимает выделение со всех узлов.
-* ![](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Инвертировать выделение** – меняет выбранные узлы на невыбранные и наоборот.
+* ![](./../../images/icons/common/toolbar-controls/check-all_default.svg) **Check all** enables to check all nodes.
+* ![](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
+* ![](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Invert selection** enables to invert the selected nodes to unselected and vice versa.
 
 Пометить выделенный узел можно нажав клавишу *Enter*, повторное нажатие *Enter* снимает выделение.
 
-Логика выбора узлов:
+Logics of Nodes Selection:
 
-* При выборе узла выбираются так же и его родители, вплоть до корня.
-* При снятии выделения с ветки выделение снимается и со всех потомков.
-* Глобальный индекс узла - узел отсутствует в древовидной структуре данных, однако он появляется в отображении дерева и указывает на индекс, используемый в узле-массиве. Его можно выбрать, при этом также выбирается и узел массива.
-Узел получает индекс -1, который учитывается при сортировке.
-При выборе узла для него формируется колонка с именем узла массива с добавлением  "_global_index" и меткой узла массива с добавлением "|Глобальный индекс".
+* When selecting a node, its parents are also selected, up to its root.
+* When branch deselecting, all its descendants are deselected.
+* Global node index: the node is absent in the tree-like data structure. However, it appears in the tree view and points to the index used in the array node. It can be selected but the array node can be selected as well.
+   The node gets -1 index that is taken into account when sorting.
+   When selecting the node, a column with the array node name with "_global_index" added and the array node caption with "|Global index" added is generated for it.
 
-> **Важно:** Компонент будет выдавать ошибку при выходе со страницы настройки или при выполнении, если у него нет ни одного выбранного узла.
+> **Important:** The component will throw an error message when leaving the configuration page or when executing if it doesn't have selected nodes.
 
-**Дублировать значения родительских узлов** – если в структуре имеется родительский узел и последовательность потомков, значение родительского узла будет продублировано для каждой строки, образованной из последовательности потомков.
+**Repeat parent node values**: if there are a parent node and a sequence of descendants in the structure, the parent node value will be repeated for each string generated from a sequence of descendants.
 
-**Генерировать составные метки полей** – при наличии данного флага используется составная метка узла массива: в метках полей будет отражена иерархия относительно корневого элемента.
+**Generate composite field captions**: if this checkbox has been selected, the composite array node caption is used. Hierarchy relative to the root element will be displayed in the field captions.

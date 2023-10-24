@@ -1,14 +1,14 @@
 ---
 description: Главное меню аналитической платформы Loginom. Кнопки главного меню. Создать пакет в Loginom. Открыть пакет в Loginom. Сохранить пакет в Loginom. Навигация по объектам пакета в Loginom. Файловый менеджер в Loginom. Раздел Администрирование в аналитической платформе Loginom.
 ---
-# Главное меню
+# Main Menu
 
-Главное меню расположено в левой части программного окна и содержит следующие кнопки:
+The main menu is located in the left part of the application window and contains the following buttons:
 
 * [Меню](#imagesiconssystemtoolbar48x48logodefaultsvg-menyu)
-* [Пакеты](#imagesiconssystemtoolbar48x48packages-menudefaultsvg-pakety)
+* [Packages](#imagesiconssystemtoolbar48x48packages-menudefaultsvg-pakety)
 * [Навигация](#imagesiconssystemtoolbar48x48compasdefaultsvg-navigatsiya)
-* [Администрирование](#imagesiconssystemtoolbar48x48admindefaultsvg-administrirovanie)
+* [Administration](#imagesiconssystemtoolbar48x48admindefaultsvg-administrirovanie)
 * [Файлы](#imagesiconssystemtoolbar48x48filestoragedefaultsvg-fayly)
 * [Процессы](#imagesiconssystemtoolbar48x48infodefaultsvg-protsessy)
 
@@ -36,17 +36,17 @@ description: Главное меню аналитической платформ
 * ![](./../images/icons/common/main-menu/close-file_default.svg) **Закрыть** — закрытие открытого пакета.
 * ![](./../images/icons/common/main-menu/close-all-file_default.svg) **Закрыть все...** — закрытие всех открытых пакетов.
 
->**Примечание:** команды «Сохранить», «Сохранить как...», «Сохранить все», «Закрыть», «Закрыть все...» доступны при открытом Пакете.
+> **Примечание:** команды «Сохранить», «Сохранить как...», «Сохранить все», «Закрыть», «Закрыть все...» доступны при открытом Пакете.
 
 ## ![ ](./../images/icons/app/system-toolbar/controls/compas_default.svg) Навигация
 Находится в левой верхней части программы.
 
-Команда открывает древовидную структуру Пакета, позволяющую быстро перемещаться по его объектам (см. рисунок 1). Для этого необходимо нажать правой кнопкой мыши на пакет, сценарий или другой элемент в дереве.
+Команда открывает древовидную структуру Пакета, позволяющую быстро перемещаться по его объектам (см. Figure 1). Для этого необходимо нажать правой кнопкой мыши на пакет, сценарий или другой элемент в дереве.
 
 ![Навигация.](./navigation.png)  
 *Рисунок 1. Меню Навигации*
 
-Пункты меню в разделе навигация при нажатии правой кнопкой мыши на *пакеты* или *сценарий* (главное меню):      
+Пункты меню в разделе навигация при нажатии правой кнопкой мыши на *пакеты* или *сценарий* (главное меню):
 
 * **Перейти(Enter)**: Будет выполнен переход в выбранную вкладку навигации.
 * ![](./../images/icons/common/toolbar-controls/toolbar-controls_18x18_open-all_default.svg) **Развернуть**: Отобразит файловую структуру выбранного объекта.
@@ -58,27 +58,27 @@ description: Главное меню аналитической платформ
 Существует возможность найти *узел* (CTRL + F) сценария по одному из трёх свойств объекта:
 1. Метка.
 2. Имя.
-3. GUID (Уникальный идентификатор узла).  
+3. GUID (Уникальный идентификатор узла).
 
 ![Поиск](..\images\search.png)    
-*Рисунок 2. Поиск узлов* 
+*Рисунок 2. Поиск узлов*
 
 При нажатии правой кнопкой мыши на определенный *пакет* (его название) появляются дополнительные пункты меню:
-* ![](./../images/icons/common/toolbar-controls/toolbar-controls_18x18_plus-native_default.svg) **Добавить** : Создает новый модуль.  
-* ![](./../images/icons/common/toolbar-controls/toolbar-controls_18x18_publish-default.svg) **Опубликовать**: Переходит в [добавление веб-сервиса](./../integration/web-services/package-publishing-wizard.md). 
-* **Свойства** : Переходим в меню свойства пакета. 
-* **Закрыть пакет**. 
+* ![](./../images/icons/common/toolbar-controls/toolbar-controls_18x18_plus-native_default.svg) **Добавить** : Создает новый модуль.
+* ![](./../images/icons/common/toolbar-controls/toolbar-controls_18x18_publish-default.svg) **Опубликовать**: Переходит в [добавление веб-сервиса](./../integration/web-services/package-publishing-wizard.md).
+* **Свойства** : Переходим в меню свойства пакета.
+* **Закрыть пакет**.
 
 При нажатии правой кнопкой мыши на *модули* появляются дополнительные пункты меню:
 * ![](./../images/icons/common/toolbar-controls/toolbar-controls_18x18_delete_default.svg) **Удалить узел**: Удаляет выбранный модуль.
-* **Настройка модификатора доступа**: Позволяет изменить [модификатор доступа](./../workflow/access-modifier.md) для модуля.   
+* **Настройка модификатора доступа**: Позволяет изменить [модификатор доступа](./../workflow/access-modifier.md) для модуля.
 * **Свойства**: Позволяет переименовать *модуль*.
-   
 
-При нажатии правой кнопки мыши на *узел* добавляются еще 3 дополнительных пункта меню:  
+
+При нажатии правой кнопки мыши на *узел* добавляются еще 3 дополнительных пункта меню:
 * ![](./../images/icons/common/toolbar-controls/setup_default.svg) **Настроить узел**: Осуществляется переход в настройку выбранного узла.
 * ![](./../images/icons/common/toolbar-controls/launch-node_default.svg) **Открыть/закрыть узел**: Открывается/закрывается узел.
-*  ![](./../images/icons/common/toolbar-controls/configure-viewers_default.svg) **Показать визуализаторы**: Осуществляется переход к визуализаторам выбранного узла.
+* ![](./../images/icons/common/toolbar-controls/configure-viewers_default.svg) **Показать визуализаторы**: Осуществляется переход к визуализаторам выбранного узла.
 
 
 

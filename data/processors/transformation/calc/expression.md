@@ -1,84 +1,84 @@
 ---
 description: Модуль Калькулятор в Loginom. Вычисление новых полей через Выражения.
 ---
-# ![Выражение](./../../../images/icons/components/calcdata/expression_default.svg) Выражение
+# ![Expression](./../../../images/icons/components/calcdata/expression_default.svg) Expression
 
-Выражение может содержать:
+Expression can contain the following components:
 
 * ссылки на другие поля набора данных в виде наименования полей или ранее вычисленных выражений (наименования полей/переменных/выражений не чувствительны к регистру);
 * ссылки на переменные входного порта (для обращения ко входным переменным можно использовать префикс `Var.`);
-* скобки, определяющие порядок выполнения операций;
-* знаки математических операций и отношений;
-* логические операции (`and`, `or`, `not`, `xor`) и значения (`true` или `1`, `false` или `0`);
-* функции в соответствии с синтаксическим описанием (см. далее [Список функций](./../../func/calc-func/README.md));
-* строковые выражения в кавычках ("строковое выражение");
-* целые и вещественные числа;
-* однострочные и многострочные комментарии.
+* brackets defining the order of operations execution;
+* characters of mathematical operations and relations;
+* logical operations (`and`, `or`, `not`, `xor`) and values (`true` or `1`, `false` or `0`);
+* functions according to the syntactic description (refer to [List of functions](./../../func/calc-func/README.md) further);
+* string expressions in quotation marks ("string expression");
+* integer and real numbers;
+* single-line and multi-line comments.
 
-В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений. В связи с этим неверная позиция в списке может приводить к ошибке.
+It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions. Consequently, incorrect list item position can cause a mistake.
 
-> **Примечание.** При проведении математических операций над типом ["Дата/время"](./../../../data/datatype.md) (сложение, вычитание и т.д.) в результате может получиться вещественное число с дробной частью. По умолчанию результат операции будет равен количеству дней (целая часть) и количеству часов (дробная часть). Например: после операции вида `02.01.2020 12:00 - 01.01.2020 00:00` результат будет равен `1.5` - один целый день (24 часа) и еще половина дня (12 часов).
+> **Примечание.** При проведении математических операций над типом ["Дата/время"](./../../../data/datatype.md) (сложение, вычитание и т.д.) в результате может получиться вещественное число с дробной частью. By default, the operation result will be equal to the number of days (integer part) and hours (fractional part). Например: после операции вида `02.01.2020 12:00 - 01.01.2020 00:00` результат будет равен `1.5` - один целый день (24 часа) и еще половина дня (12 часов).
 
-## Кэширование
+## Caching
 
-[Кэширование](./../../../workflow/caching.md) необходимо включать в выражениях *Калькулятора* в случае использования функции `Data()` при рекурсивном вычислении значений.
+It is required to enable [Caching](./../../../workflow/caching.md) in the *Calculator* expressions in the case of `Data()` function usage for the recursive computation of values.
 
-Рекомендуется применять *Кэширование* при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: `Random()`, `Today()` и других.
+It is recommended to use *Caching* when using the functions result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.
 
-## Панель быстрого доступа
+## Quick Access Toolbar
 
 На панели расположена кнопка вызова окна ![Предпросмотр](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.
 
 
 ![Предпросмотр](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) Предпросмотр — позволяет оценить корректность расчетов, отображая до 100 первых строк результирующей таблицы. Горячая клавиша вызова — `F3`.
 
-Логические операции:
+Logical operations:
 
-* **AND** — операция Логическое "И";
-* **OR** — операция Логическое "ИЛИ";
-* **NOT** — операция Логическое "НЕ";
-* **XOR** — операция Логическое "исключающее ИЛИ".
+* **AND**: the Logical "AND" operator;
+* **OR**: the Logical "OR" operator;
+* **NOT**: the Logical "NOT" operator;
+* **XOR**: the Logical "exclusive OR" operator.
 
-Операторы сравнения:
+Comparisons operator:
 
-* **=** — Равно;
-* **<>** — Не равно;
-* **<** — Меньше;
-* **>** — Больше;
-* **<=** — Меньше или равно;
-* **>=** — Больше или равно.
+* **=** — Equals.
+* **<>** — Not equal.
+* **<** — Less than.
+* **>** — Greater than.
+* **<=** — Less than or equal to.
+* **>=** — Greater than or equal to.
 
-Шаблоны:
+Templates:
 
-* ![Вещественное число](./../../../images/icons/common/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
-* ![Строка](./../../../images/icons/common/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
-* ![Дата](./../../../images/icons/common/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлено `StrToDate("____-__-__", "YYYY-MM-DD")`;
-* ![Время](./../../../images/icons/common/toolbar-controls/type-time_default.svg) — для ввода времени, будет вставлено `StrToDate("__:__:__", "HH:NN:SS")`.
+* ![Real number](./../../../images/icons/common/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
+* ![String](./../../../images/icons/common/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
+* ![Date](./../../../images/icons/common/toolbar-controls/type-date_default.svg): `StrToDate("____-__-__", "YYYY-MM-DD")` will be inserted to enter the date.
+* ![Time](./../../../images/icons/common/toolbar-controls/type-time_default.svg): `StrToDate("__:__:__", "HH:NN:SS")` will be inserted to enter the time.
 
-Логические значения:
+Logical values:
 
-* **FALSE** — Ложь;
-* **TRUE** — Истина.
+* **FALSE**: the false value.
+* **TRUE**: the true value.
 
 
-## Комментарии
+## Comments
 
-Для пояснения полученного выражения калькулятор поддерживает два типа комментария:
+To explain the received expression, calculator supports two types of comments:
 
-* Однострочный комментарий — начинается символами `//` (два слеша) и продолжается до конца строки;
-* Многострочный комментарий — им считаются все символы, содержащиеся между `/*` (слеш-звездочка) и `*/` (звездочка-слеш).
+* The single-line comment starts from `//` (two slashes) characters, and it continues until the end of the string.
+* The multi-line comment is represented by all characters included between `/*` (slash-asterisk) and `*/` (asterisk-slash).
 
-%spoiler%Пример комментария:%spoiler%
+%spoiler%The comment example:%spoiler%
 
 ```java
-// Пример однострочного комментария.
+// Example of the single-line comment
 
-IF(IsNull(gate_one),gate_two,gate_one) // однострочный комментарий продолжается до конца строки.
+IF(IsNull(gate_one),gate_two,gate_one) // single-line comment continues until the end of the string.
 
-/* Многострочным комментарием
-   считаются все символы,
-   содержащиеся между (слеш-звездочка)
-   и (звездочка-слеш). */
+/* The multi-line comment
+   is represented by all characters
+   included between (slash-asterisk)
+   and (asterisk-slash). */
 ```
 
 %/spoiler%

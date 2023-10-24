@@ -1,11 +1,11 @@
 ---
 description: Компонент Выполнение узла в Loginom. Повторное использование имеющегося узла. Базовый узел. Мастер настройки.
 ---
-# ![Выполнение узла](./../../images/icons/components/script-deductor_default.svg) Выполнение узла
+# ![Node Execution](./../../images/icons/components/script-deductor_default.svg)Node Execution
 
-Компонент позволяет повторно использовать уже имеющийся узел сценария для обработки новых данных.
+The component enables to use already existing workflow node for repeated processing of the new data.
 
-**Базовый узел** — узел или [Подмодель](./supernode.md), настройки и алгоритм которого предполагается использовать повторно, может находиться за пределами текущей *Подмодели*, *Сценария*, *Модуля* или *Пакета*.
+**Base node**: the node or [Supernode](./supernode.md), settings and algorithm of which are to be used repeatedly. It can be located outside the current *Supernode*, *Workflow*, *Module* or *Package*.
 
 Добавить *Выполнение узла* в сценарий можно двумя способами:
 
@@ -18,31 +18,31 @@ description: Компонент Выполнение узла в Loginom. Пов
 
 При настройке узла *Выполнение узла* всегда создается производный компонент по базовому узлу. То есть *Выполнение узла* может ссылаться только на компонент. Создаваемые таким образом производные компоненты по умолчанию имеют [область видимости](../../workflow/access-modifier.md) *Закрытый*, а настройка *Производные узлы* отключена.
 
-## Порты
+## Ports
 
-При создании узел не имеет [портов](./../../workflow/ports/README.md). После настройки узел имеет порты, идентичные портам базового узла. Переопределить настройки портов возможно, однако, следует иметь в виду, что перенастройка входных портов может привести к несоответствию новых входных данных требованиям сценария, унаследованного от базового узла, и, как следствие, к ошибке выполнения.
+When creating, the node does not have [ports](./../../workflow/ports/README.md). Upon configuration, the node has the ports identical to ports of the base node. It is possible to redefine settings of ports, however, it should be noted that reconfiguration of the input ports can cause incompliance of the new input data with the requirements of the workflow inherited from the base node, and, as a consequence, execution error.
 
-## Мастер настройки
+## Wizard
 
-При помощи радиокнопки необходимо выбрать узел сценария, который планируется повторно использовать для обработки новых данных. *Доступные* для выбора узлы представлены в виде дерева.
+The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data. The nodes *available* for selection are dispalyed in the form of a tree.
 
 Дерево узлов имеет две корневые ветки:
 
 * **Узлы текущего модуля** — содержит перечень узлов модуля, в котором в данный момент настраивается *Выполнение узла*;
 * **Компоненты** — содержит текущий пакет и перечень внешних пакетов, на которые настроены ссылки и их производные компоненты с областью видимости *Открытый*.
 
->**Важно**: Узлы из внешних пакетов, других сценариев и подмоделей отобразятся в дереве только в том случае, если доступ к ним разрешен их [модификатором доступа](./../../workflow/access-modifier.md).
+> **Important**: The nodes from the external packages, other workflows and supernodes will be displayed in the tree only on condition of access granted to them by their [access modifier](./../../workflow/access-modifier.md).
 
-Интерфейс мастера предоставляет возможность осуществлять поиск узлов в дереве с помощью фильтров: по имени и комментарию узла.
+The wizard interface enables to search for the nodes in the tree by means of filters, namely, by name and node comment.
 
 **Сохранять конфигурацию выбранного узла** — параметр отвечает за сохранение собственной конфигурации внутреннего компонента, в случае если она отличается от исходной. По умолчанию не установлен.
 
-Компонент *Выполнение узла* не может повторно использовать компоненты [Цикл](./loop.md) и [Узел-ссылка](./reference-node.md).
+The *Node execution* component cannot repeatedly use the [Loop](./loop.md) and [Reference node](./reference-node.md) components.
 
 
 -----
 
-**Примечание**:
+**Note**:
 
-* При выполнении узла базовый узел не выполняется.
-* Возможно [переобучение модели](./../../workflow/training-processors.md), унаследованной из базового узла. Однако, модель самого базового узла останется неизменной.
+* When executing the node, the base node is not executed.
+* [Model overfitting](./../../workflow/training-processors.md) inherited from the base node is possible. However, the base node model will be unchanged.

@@ -1,32 +1,31 @@
 ---
 description: Компоненты аналитической платформы Loginom, использующие самообучающиеся алгоритмы. Обучение (переобучение) узлов. Обучение вручную. Автоматическое обучение.
 ---
-# Обучение (переобучение) узла
+# Node Training (Retraining)
 
-В некоторых компонентах используются самообучающиеся алгоритмы — [Кластеризация](./../processors/datamining/clustering.md), [Самоорганизующиеся карты](./../processors/datamining/self-organizing-network.md), [Квантование](./../processors/preprocessing/binning.md) и прочие. Такие узлы требуют первоначального обучения. Также может возникнуть потребность в переобучении, например, в случаях, если Модель перестала быть адекватной задаче или новые исходные данные стали выходить за пределы выборки, на которой ранее производилось обучение.
-Обучение(переобучение) узлов может производиться:
+Self-training algorithms are used in some components: [Clustering](./../processors/datamining/clustering.md), [Self-organising maps](./../processors/datamining/self-organizing-network.md), [Binning](./../processors/preprocessing/binning.md), etc. Initial training is required for such nodes. Retraining can be also required, for example, in the cases when the Model is not a relevant task anymore, or the new source data starts to fall outside the limits of the sample used for training earlier.
+Training (retraining) of the nodes can be performed as follows:
 
-* **Вручную** — выполняя специальную процедуру переобучения узла при настройке Сценария;
-* **Автоматически** — в режиме [пакетной обработки](./batchlauncher.md).
+* **Manually**: the special procedure of the node retraining is performed during the Workflow configuration.
+* **Auto**: in the [batch processing](./batchlauncher.md) mode.
 
-Преимущество ручного переобучения состоит в возможности контроля параметров переобучения Модели и просмотра полученных результатов. В то же время автоматический способ гораздо быстрее и хорошо подходит при незначительных изменениях в исходных данных.
+Advantage of the manual retraining is that control of the Model retraining parameters and view of the received results are possible. At the same time, the automatic method is much faster and it is well-suited when the changes in the source data are insignificant.
 
-## Обучение вручную
+## Manual Training
 
-Обучение вручную осуществляется при создании (редактировании) Сценариев. При попытке первоначального выполнения некоторых узлов без предварительного обучения выдается предупреждение: "Модель не построена. Необходимо обучить узел перед применением". Для обучения или переобучения Модели следует:
+The manual training is used when creating (editing) Workflows. While attempting to execute some nodes initially without preliminary training, the following warning appears: "Model is not trained. It is required to train the node before its use". It is required to perform the following actions for the Model training or retraining:
 
-1. Убедиться, что настройки [режима активации](./node-activation-mode.md) разрешают обучение узла;
-2. В контекстном меню узла выбрать пункт ![](./../images/icons/common/toolbar-controls/batch-mode_default.svg) Переобучить узел.
+1. It is required to make sure that the [activation mode](./node-activation-mode.md) settings allow for the node training.
+2. It is required to select ![](./../images/icons/common/toolbar-controls/batch-mode_default.svg) Retrain node option in the context menu of the node.
 
-Таким же образом можно переобучить все вложенные узлы [Подмодели](./../processors/control/supernode.md) или [Цикл](./../processors/control/loop.md). Для этого следует вызвать вышеуказанную процедуру для узла верхнего уровня в иерархии вложенности. В случае, если для режима активации подчиненными узлами используются настройки по умолчанию (Собственный режим активации узла = "Определяется контекстом текущего процесса обработки"), переобучение выполняется для всех подчиненных узлов вне зависимости от глубины вложенности.
+Thus, it is possible to retrain all nested nodes of the [Supernode](./../processors/control/supernode.md) or [Loop](./../processors/control/loop.md). For this purpose, it is required to call the specified above procedure for the upper level node in the nesting hierarchy. If the default settings are used by the subordinate nodes for the activation mode (Specified mode of node activation = "Defined by the context of the current processing process"), the retraining is performed for all subordinate nodes irrespective of the nesting depth.
 
-Например: для узла Цикл подчиненной считается Подмодель, в которой выполняются действия итерации. Данная Подмодель также может содержать иерархию Подмоделей и подузлов. Переобучение Цикла самого верхнего уровня приведет к переобучению всех вложенных узлов и Подмоделей.
+For example, the Supernode in which the iteration actions are performed is considered to be subordinate for the Loop node. This Supernode can also include hierarchy of Supernodes and subnodes. The Loop retraining of the highest level will cause retraining of all nested nodes and Supernodes.
 
-## Автоматическое обучение
+## Automatic Training
 
-Автоматическое обучение Моделей можно осуществлять при пакетной обработке
-сценариев, в которой для каждого из узлов можно задать следующие варианты выполнения:
+The automatic training of the Models can be performed while batch processing of the workflows in which it is possible to set the following execution options for each of the nodes:
 
-* Узел не будет выполняться;
-* Узел выполняется без переобучения Модели;
-* Узел выполняется с переобучением Модели.
+* The node will not be executed.
+* The Node is executed without retraining of the Model.
+* The Node is executed with retraining of the Model.

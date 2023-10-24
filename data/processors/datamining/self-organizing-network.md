@@ -1,75 +1,75 @@
 ---
 description: Компонент Самоорганизующиеся сети в Loginom. Сети Кохонена. Нейронный газ. Выявление кластеров входных векторов, обладающих общими свойствами. Кластерный анализ.
 ---
-# ![ ](./../../images/icons/components/sonn_default.svg) Самоорганизующиеся сети
+# ![ ](./../../images/icons/components/sonn_default.svg) Self-Organizing Networks
 
-## Описание
+## Description
 
-Самоорганизующиеся сети позволяют выявлять [кластеры](https://wiki.loginom.ru/articles/cluster.html) (группы) входных векторов, обладающих некоторыми общими свойствами. Таким образом, они хорошо подходят для кластерного анализа.
+Self-organizing networks enable to detect [clusters](https://wiki.loginom.ru/articles/cluster.html) (groups) of input vectors that have some common properties. Thus, they are well suitable for cluster analysis.
 
-К самоорганизующимся сетям относятся, в частности, [сети Кохонена](https://wiki.loginom.ru/articles/kohonen-network.html). Сети Кохонена представляют собой разновидность самоорганизующихся карт признаков, которые, в свою очередь, являются специальным типом нейронных сетей. Сеть Кохонена состоит из узлов, которые объединяются в кластеры. Наиболее близкие узлы соответствуют похожим объектам, а удаленные друг от друга — непохожим.
+In particular, [Kohonen networks](https://wiki.loginom.ru/articles/kohonen-network.html) relate to self-organizing networks. Kohonen networks represent a kind of self-organising maps that, in their turn, represent a special type of neural networks. Kohonen network consists of the nodes that are combined into clusters. The closest nodes map the similar objects, and the objects that are remote from each other map the dissimilar ones.
 
-Также одним из типов самоорганизующихся сетей является [нейронный газ](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B0%D0%B7). Нейронный газ — это алгоритм, позволяющий осуществлять адаптивную кластеризацию входных данных, то есть не только разделить пространство на кластеры, но и определить необходимое их количество, исходя из особенностей самих данных.
+[Neural gas](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B0%D0%B7) is one ot the types of self-organizing networks. The neural gas is an algorithm that provides adaptive clustering of input data, namely, not only to cluster the space but also to define its required count according to data peculiarities.
 
 Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных) — обязательный порт.
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table) — required port.
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
-Поле будет запрещено к использованию, если:
+The field will be no longer permitted for use in the following cases:
 
-* оно является дискретным и содержит всего одно уникальное значение;
-* оно непрерывное и с нулевой дисперсией;
-* оно содержит пропущенные значения.
+* It is discrete and contains only one unique value.
+* It is continuous and with zero variance.
+* It contains null values.
 
-### Выход
+### Output
 
- ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Разбиение на кластеры.
+![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Clustering.
 
-Таблица, состоящая из полей:
+The table that consists of the following fields:
 
-* **Номер кластера** — каждому объекту присвоен номер того кластера, в который он входит. Кластер состоит из узлов сети.
-* **Номер узла** — каждому объекту присвоен номер узла сети, к которому он относится. Узлы в свою очередь объединяются в кластеры (поле *Номер кластера*).
-* **Расстояние до узла** — евклидово расстояние до ближайшего узла, т.е. того, которому принадлежит объект.
-* Все поля исходного набора данных, независимо от назначения поля.
+* **Cluster number**: each object is assigned with the number of the cluster into which it is included. The cluster consists of the network nodes.
+* **Node number**: each object is assigned with the number of the network node to which it relates. In their turn, the nodes are combined into clusters (*Cluster number* field).
+* **Distance to node**: the Euclidean distance to the nearest node, namely, to the node of the object.
+* All fields of the source data set, irrespective of the field usage type.
 
- ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Координаты узлов.
+![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Coordinates of nodes.
 
-Таблица, состоящая из полей:
+The table that consists of the following fields:
 
-* **Номер узла** — перечислены номера сформированных узлов.
-* **Номер кластера** — перечислены номера сформированных кластеров.
-* Поля исходного набора данных, для которых значение параметра *Назначение* выбрано *Используемое*. В ячейках полей указаны веса узлов сети.
+* **Node number**: numbers of the generated nodes are listed.
+* **Cluster number**: numbers of the generated clusters are listed.
+* The source data set fields for which *Used* was selected as *Usage type* parameter value. Weights of the network nodes are specified in the field cells.
 
-## Мастер настройки
+## Wizard
 
-Мастер настройки включает в себя следующие группы параметров:
+The wizard includes the following groups of parameters:
 
-* Настройка входных столбцов. На данном этапе производится выбор полей для кластеризации:
-  * Для полей, участвующих в кластеризации, выставить назначение *Используемое*.
-  * Для прочих полей оставить *Не задано*.
-* Настройки [нормализации](./../normalization/README.md).
-* Самоорганизующаяся нейронная сеть.
-  * Тип самоорганизующейся сети:
-    * Сеть Кохонена.
-    * Нейронный газ. При выборе данной опции блок *Параметры сети* становится неактивным.
-  * Параметры сети:
-    * Топология сети: 1D, 2D прямоугольная, 2D гексагональная, 3D.
-    * Размер сети по X. Параметр доступен для редактирования при любой   топологии сети. Устанавливается значение целого типа в интервале от 2   до 100. По умолчанию — 3.
-    * Размер сети по Y. Параметр доступен для редактирования при следующих топологиях сети: 2D прямоугольная, 2D гексагональная, 3D. Устанавливается значение целого типа в интервале от 2 до 100. По   умолчанию — 3.
-    * Размер сети по Z. Параметр доступен для редактирования при топологии сети 3D. Устанавливается значение целого типа в интервале от 2 до 100. По умолчанию — 3.
+* Configure input columns. The fields for clustering are selected at this stage:
+   * It is required to set *Used* usage types for the fields that are included into clustering.
+   * *Unspecified* is preserved for other fields.
+* [Normalization](./../normalization/README.md) settings.
+* Self-organizing network.
+   * Type of self-organizing network:
+      * Kohonen network.
+      * Neural gas. При выборе данной опции блок *Параметры сети* становится неактивным.
+   * Network Parameters:
+      * Network topology: 1D, 2D rectangular, 2D hexagonal, 3D.
+      * Network size X. The parameter is available for editing with any network topology. The integer value is set in the interval from 2 to 100. By default — 3.
+      * Network size Y. The parameter is available for editing with the following network topologies: 2D rectangular, 2D hexagonal, 3D. The integer value is set in the interval from 2 to 100. By default — 3.
+      * Network size Z. The parameter is available for editing with 3D network topology. The integer value is set in the interval from 2 to 100. By default — 3.
 
 * **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
 
-  Параметр влияет на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
+   Параметр влияет на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
 
-  Для параметра доступны следующие команды:
+   Для параметра доступны следующие команды:
 
-  * Всегда случайно — начальное число всегда будет случайным.
-  * Генерировать — сгенерируется новое начальное число.
-  * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Всегда случайно — начальное число всегда будет случайным.
+   * Генерировать — сгенерируется новое начальное число.
+   * Копировать — в буфер обмена будет скопировано указанное значение.

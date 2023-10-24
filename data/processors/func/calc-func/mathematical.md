@@ -1,55 +1,55 @@
 ---
 description: Справка по математическим функциям Loginom. Работа с функциями Abs, AbsErr, ArcCos, ArcSin, ArcTan, Cos, Exp, Factorial, Frac, Int, Ln, Log, Mod, Pi, Pow, RelErr, Round, Sign, Sin, Sqrt, Tan. Описание функций и используемых аргументов.
 ---
-# Математические функции
+# Mathematical Functions
 
 ## Abs
 
-**Abs(Аргумент)**
+**Abs(Argument)**
 
-* Аргумент - числовое выражение.
+* Argument - numeric expression.
 
-Возвращает модуль аргумента.
+Returns the absolute value of argument.
 
 ## AbsErr
 
-**AbsErr(Аргумент1, Аргумент2)**
+**AbsErr(Argument1, Argument2)**
 
-* Аргументы - любые числовые выражения.
+* Arguments - any numeric expressions.
 
-Возвращает абсолютную погрешность двух аргументов.
+Returns the absolute error of two arguments.
 
 ## ArcCos
 
-**ArcCos(Значение)**
+**ArcCos(Value)**
 
-* Значение - значение косинуса, для которого необходимо найти угол.
+* Value - the cosine value for which it is required to determine the angle.
 
-Возвращает арккосинус значения, т.е. угол в радианах, косинус которого равен Значение.
+Returns the value arccosine, namely, the angle in radians the cosine of which is equal to the Value.
 
 ## ArcSin
 
-**ArcSin(Значение)**
+**ArcSin(Value)**
 
-* Значение - значение синуса, для которого необходимо найти угол.
+* Value - the sinus value for which it is required to determine the angle.
 
-Возвращает арксинус значения, т.е. угол в радианах, синус которого равен Значение.
+Returns the value arcsine, namely, the angle in radians the sinus of which is equal to the Value.
 
 ## ArcTan
 
-**ArcTan(Значение)**
+**ArcTan(Value)**
 
-* Значение - значение тангенса, для которого необходимо найти угол.
+* Value - the tangent value for which it is required to determine the angle.
 
-Возвращает арктангенс значения, т.е. угол в радианах, тангенс которого равен Значение.
+Returns the value arctangent, namely, the angle in radians the tangent of which is equal to the Value.
 
 ## Cos
 
-**Cos(Угол)**
+**Cos(Angle)**
 
-* Угол - значение угла в радианах.
+* Angle - angle value in radians.
 
-Возвращает косинус заданного угла.
+Returns cosine of the set angle.
 
 ## CumulativeSum
 
@@ -64,132 +64,132 @@ description: Справка по математическим функциям L
 Например: CumulativeSum("COL1", "COL2")
 ## Exp
 
-**Exp(Степень)**
+**Exp(Degree)**
 
-* Степень -  числовое выражение.
+* Degree - numeric expression.
 
-Возвращает число e в заданной степени.
+Returns e constant in the given degree.
 
 ## Factorial
 
-**Factorial(Аргумент)**
+**Factorial(Argument)**
 
-* Аргумент - целое положительное числовое выражение.
+* Argument - integer positive numeric expression.
 
-Возвращает факториал аргумента.
+Returns the argument factorial.
 
 ## Frac
 
-**Frac(Аргумент)**
+**Frac(Argument)**
 
-* Аргумент - числовое выражение.
+* Argument - numeric expression.
 
-Возвращает дробную часть Аргумента.
+Returns the fractional part of the Argument.
 
 ## Int
 
-**Int(Аргумент)**
+**Int(Argument)**
 
-* Аргумент - числовое выражение.
+* Argument - numeric expression.
 
-Возвращает целую часть Аргумента.
+Returns the integer part of the Argument.
 
 ## IsInfinite
 
 **IsInfinite(Аргумент)**
 
-* Аргумент - числовое выражение.
+* Argument - numeric expression.
 
 Определяет, является ли переданное значение бесконечным числом.
 
 ## Ln
 
-**Ln(Аргумент)**
+**Ln(Argument)**
 
-* Аргумент - положительное числовое выражение.
+* Argument - integer positive numeric expression.
 
-Возвращает натуральный логарифм аргумента.
+Returns the natural argument logarithm.
 
 ## Log
 
-**Log(Основание, Аргумент)**
+**Log(Basis, Argument)**
 
-* Основание - числовое выражение;
-* Аргумент - положительное числовое выражение.
+* Basis - numeric expression;
+* Argument - integer positive numeric expression.
 
-Возвращает логарифм аргумента с заданным основанием.
+Returns the argument logarithm with the given basis.
 
 ## Mod
 
-**Mod(Делимое, Делитель)**
+**Mod(Dividend, Divisor)**
 
-* Делимое - целое числовое выражение,
-* Делитель - целое числовое выражение.
+* Dividend - integer numerical expression.
+* Divisor - integer numerical expression.
 
-Возвращает остаток от целочисленного деления Делимого на Делитель.
+Returns remainder from integer division of the Dividend by the Divisor.
 
 ## Pi
 
 **Pi()**
 
-* Аргументы отсутствуют.
+* Arguments are absent.
 
-Возвращает значение константы "ПИ" 3.1415926535897932385.
+Returns the pi constant value 3.1415926535897932385.
 
 ## Pow
 
-**Pow(Аргумент, Степень)**
+**Pow(Argument, Degree)**
 
-* Аргумент - числовое выражение;
-* Степень - числовое выражение;
+* Argument - numeric expression.
+* Degree - numeric expression.
 
-Возвращает аргумент в заданной степени.
+Returns the argument in the given degree.
 
 ## RelErr
 
-**RelErr(Аргумент1, Аргумент2)**
+**RelErr(Argument1, Argument2)**
 
-* Аргументы - любые числовые выражения.
+* Arguments - any numeric expressions.
 
-Возвращает относительную погрешность двух аргументов.
+Returns the relative error of two arguments.
 
 ## Round
 
-**Round(Аргумент1 [, Аргумент2 = 0])**
+**Round(Argument1 [, Argument2 = 0])**
 
-* Аргумент1 - числовое выражение,
-* Аргумент2 - необязательный параметр, количество цифр после запятой, целое число.
+* Argument1 - numeric expression.
+* Argument2 - optional parameter, the number of digits following the decimal point, integer.
 
-Округляет вещественное число до ближайшего числа, имеющего указанное количество цифр после запятой.
+Rounds up the real number to the nearest number that has the specified number of digits following the decimal point.
 
 ## Sign
 
-**Sign(Аргумент)**
+**Sign(Argument)**
 
-* Аргумент - числовое выражение;
+* Argument - numeric expression.
 
-Возвращает знак аргумента.
+Returns the argument sign.
 
 ## Sin
 
-**Sin(Угол)**
+**Sin(Angle)**
 
-* Угол - значение угла в радианах.
+* Angle - angle value in radians.
 
-Возвращает синус заданного угла.
+Returns sinus of the set angle.
 
 ## Sqrt
 
-**Sqrt(Аргумент)**
+**Sqrt(Argument)**
 
-* Аргумент - положительное числовое выражение.
+* Argument - integer positive numeric expression.
 
-Возвращает  квадратный корень аргумента.
+Returns the argument square root.
 
 ## Tan
 
-**Tan(Угол)**
+**Tan(Angle)**
 
-* Угол - значение угла в радианах.
+* Angle - angle value in radians.
 
-Возвращает тангенс заданного угла.
+Returns tangent of the set angle.

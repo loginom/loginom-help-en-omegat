@@ -1,38 +1,38 @@
 ---
 description: Слияние данных в Loginom. Внутреннее соединение. Аналог операции INNER JOIN в SQL.
 ---
-# ![Внутреннее соединение](./../../../images/icons/components/joindata/join-inner_default.svg) Внутреннее соединение
+# ![Inner Join](./../../../images/icons/components/joindata/join-inner_default.svg) Inner Join
 
-При внутреннем соединении (SQL-аналог: `INNER JOIN`) происходит соединение двух таблиц. Для данного способа слияния порядок таблиц не важен.
-Результирующий набор данных содержит все строки, для которых найдено совпадение ключевых полей главной и присоединяемой таблицы.
+Two tables are joined in the case of the inner join (SQL analogue: `INNER JOIN`). The order of tables is not important for this join method.
+The resulting data set contains all rows for which mapping of the key fields of the main and joined table has been detected.
 
-Пример:
+For example:
 
-Для примера возьмем две таблицы. Персона - главная таблица и присоединяемая Город.
+Let's consider two tables as an example. A person - the main table and joined City.
 
-Главная таблица:
+Main table:
 
-|Имя|Id города|
+|Name|City Id|
 |:-|-:|
-|Андрей|1|
-|Леонид|2|
-|Сергей|1|
-|Григорий|4|
+|Andrey|1|
+|Leonid|2|
+|Sergey|1|
+|Gregory|4|
 
-Присоединяемая таблица:
+Joined table:
 
-|Id|Город|
+|Id|City|
 |-:|:-|
-|1|Москва|
-|2|Санкт-Петербург|
-|3|Казань|
+|1|Moscow|
+|2|Saint Petersburg|
+|3|Kazan|
 
-![Связь](./merge-fulljoin.png)
+![Link](./merge-fulljoin.png)
 
-Результирующая таблица:
+Resulting table:
 
-|Имя|Id города|Город|
+|Name|City Id|City|
 |:-|-:|:-|
-|Андрей|1|Москва|
-|Леонид|2|Санкт-Петербург|
-|Сергей|1|Москва|
+|Andrey|1|Moscow|
+|Leonid|2|Saint Petersburg|
+|Sergey|1|Moscow|

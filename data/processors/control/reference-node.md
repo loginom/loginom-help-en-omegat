@@ -1,22 +1,22 @@
 ---
 description: Компонент Узел-ссылка в Loginom. Ссылка на другой узел. Модификаторы доступа. Мастер настройки.
 ---
-# ![Узел-ссылка](./../../images/icons/app/node/controls/reference_link.svg) Узел-ссылка
+# ![Reference Node](./../../images/icons/app/node/controls/reference_link.svg) Reference Node
 
-Узел-ссылка позволяет получить результаты обработки (выполнения) другого узла, который может находиться за пределами текущей [Подмодели](./supernode.md), [Сценария](./../../workflow/README.md), *Модуля* или *Пакета*. В отличие от компонента [Выполнение узла](./execute-node.md) *Узел-ссылка* не принимает входные данные и может применяться только в качестве источника данных из других узлов. В рамках стратегии [декомпозиции](./../../quick-start/design-principles.md#dekompozitsiya) сложного аналитического решения, которое может состоять из нескольких *Сценариев* или *Пакетов*, выполняет задачу передачи данных между его независимыми блоками.
+Reference node enables to receive results of processing (execution) of the other node that can be located outside the current [Supernode](./supernode.md), [Workflow](./../../workflow/README.md), *Module* or *Package*. As opposed to the [Node execution](./execute-node.md) component, the *Reference node* component does not accept input data, and it can be used only as source of the data from other nodes. According to the strategy of [decomposition](./../../quick-start/design-principles.md#dekompozitsiya) of the complex analytic solution that can consist of several *Workflows* or *Packages*, it performs the task of data transfer between its independent blocks.
 
-## Порты
+## Ports
 
-При создании *Узел-ссылка* не имеет [портов](./../../workflow/ports/README.md). После настройки узла отображаются выходные порты узла-источника данных. Настройка этих портов доступна только в узле-источнике.
+When creating, the *Reference node* does not have [ports](./../../workflow/ports/README.md). Upon the node configuration, the output ports of the data source node are displayed. Configuration of these ports is available only in the source node.
 
-## Мастер настройки
+## Wizard
 
-В окне мастера в виде дерева отображаются доступные для создания ссылки узлы. Для удобства навигации в дереве отдельно представлены узлы текущего модуля и все доступные для ссылки узлы. Доступность узлов определяется их видимостью (см. следующий раздел "Видимость узлов"). Необходимо выбрать один из узлов, выходные данные которого требуется получить в текущем месте сценария.
+The nodes available for reference creation are displayed in the wizard window in the form of a tree. The current module nodes and all nodes available for reference are separately displayed for navigation convenience. Availability of nodes is defined by their visibility (refer to the next section - "Visibility of nodes"). It is required to select one of the nodes the output data of which is to be received in the current workflow location.
 
-Интерфейс мастера предоставляет возможность осуществлять поиск узлов в общем списке с помощью фильтров: по имени и комментарию узла.
+The wizard interface enables to search for the nodes in the general list by means of filters, namely, by name and node comment.
 
-## Видимость узлов
+## Visibility of Nodes
 
-Узлы, находящиеся за пределами текущей *Подмодели*, *Сценария*, *Модуля* или *Пакета*, по умолчанию недоступны для выбора. Для настройки видимости узла необходимо установить соответствующий [модификатор доступа](./../../workflow/access-modifier.md). Для ссылки на узлы другого *Пакета* необходимо в текущем *Пакете* создать [ссылку на другой Пакет](./../../workflow/reference-to-package.md).
+The nodes that are outside the current *Supernode*, *Workflow*, *Module* or *Package* are not available for selection by default. To configure the node visibility, it is required to install corresponding [Access modifier](./../../workflow/access-modifier.md). To provide a reference to nodes of the other *Package*, it is required to create a [reference to the other Package](./../../workflow/reference-to-package.md) in the current *Package*.
 
->**Важно**: При выполнении *Узла-ссылки* выполняется узел, являющийся источником ссылки.
+> **Important**: When executing the *Reference node*, the node that is the reference source is executed.

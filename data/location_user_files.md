@@ -1,9 +1,9 @@
 ---
 description: Обзор файлового хранилища данных в Loginom. Способы работы с хранилищем, доступные команды. Загрузка файлов. Базовые операции по работе с содержимым хранилища.
 ---
-# ![](./images/icons/common/system-object/filestorage_default.svg) Файловое хранилище
+# ![](./images/icons/common/system-object/filestorage_default.svg) File Storage
 
-В редакциях Enterprise, Standard и Team (включающих в комплект поставки сервер Loginom) все пользовательские файлы хранятся на сервере Loginom. Таким образом, перед тем, как использовать какой-либо файл в сценарии, его необходимо предварительно поместить в файловое хранилище на сервере. Для работы с файловым хранилищем в этих редакциях предусмотрен файловый менеджер.
+All user files are kept on the Loginom server in the Enterprise, Standard and Team editions (the Loginom server is included into the supply package). Таким образом, перед тем, как использовать какой-либо файл в сценарии, его необходимо предварительно поместить в файловое хранилище на сервере. File manager is used for the file storage operation in these editions.
 
 > **Примечание:** в настольных редакциях Personal и Community файловый менеджер отсутствует, пользователь имеет доступ ко всему файловому пространству локального компьютера.
 
@@ -51,13 +51,13 @@ description: Обзор файлового хранилища данных в Lo
 * ![](./images/icons/common/toolbar-controls/paste_default.svg) **Вставить (Ctrl+V)** — вставить элемент, помеченный для копирования или для вырезания, в текущую директорию.
 * ![](./images/icons/common/toolbar-controls/refresh_default.svg) **Обновить список (Alt+F5)** — отображает актуальное содержание текущей директории.
 
-Поддерживается загрузка файлов методом *Drag and Drop*, т. е. путем перетаскивания файлов в окно файлового менеджера. Файлы при этом копируются.
+Поддерживается загрузка файлов методом *Drag and Drop*, т. namely, by dragging files to the file manager window. In this case, files are copied.
 
-Для выделения нескольких элементов можно:
+There are the following ways to select several items:
 
-* каждый из них отметить флагом в чекбоксе;
-* выделить их поочередно, зажав клавишу *Ctrl*;
-* выделить первый элемент и затем, зажав клавишу *Shift*, выделить последний элемент в последовательности файлов.
+* each of them can be selected with a checkbox;
+* it is possible to select them alternately by pressing *Ctrl* button;
+* it is possible to select the first item, and then select the last item in the sequence of files by pressing *Shift* button.
 
 Поддерживается возможность перехода между первым и последним объектом посредством кнопок *Home* (начало списка) и *End* (конец списка).
 

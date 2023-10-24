@@ -3,41 +3,41 @@ description: Модуль Калькулятор в Loginom. Вычислени�
 ---
 # ![](./../../../images/icons/components/calcdata/javascript_default.svg) JavaScript
 
-При установке синтаксиса *JavaScript* область кода выражения должна содержать скрипт JavaScript.
+When installing the *JavaScript* syntax, the expression code area must contain JavaScript.
 
 > **Примечание.** Наименования полей/переменных/выражений чувствительны к регистру.
 
 Следующий пример демонстрирует вычисление суммы двух полей *Калькулятора*:
 
 ```javascript
-// Вычисление суммы полей
+// Calculation of the sum of fields
 let result;
 result = COL1 + COL2;
 
 return result;
 ```
 
-В теле скрипта можно использовать ссылки на другие поля или переменные *Калькулятора*, в том числе новые, созданные в списке выражений. Через промежуточное выражение с типом Переменный можно передать массив. Ко входным Переменным можно обращаться через объект `this.Var.`.
+It is possible to use references to other *Calculator* fields or variables created in the expressions list, including the new ones. Через промежуточное выражение с типом Переменный можно передать массив. Ко входным Переменным можно обращаться через объект `this.Var.`.
 
-> **Примечание:** В выражении возможно использовать ссылки на ранее вычисленные выражения, т.е. находящиеся выше в списке выражений. В связи с этим неверная позиция в списке может приводить к ошибке.
+> **Note:** It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions. Consequently, incorrect list item position can cause a mistake.
 
-В данном примере для вычисления переменной `result` используются ссылки на поля с именами `COL1` и `COL2`.
+In this example, it is required to use references to the fields with `COL1` and `COL2` names to calculate the `result` variable.
 
-Для вывода результата в вычисляемое поле калькулятора используется команда `return`, которая возвращает значение переменной `result`, содержащей вычисленную сумму полей *Калькулятора*.
+To show the result in the calculated calculator field, it is required to use the `return` command that returns the `result` variable value which contains the calculated sum of the *Calculator* fields.
 
->**Важно:** скрипт необходимо завершать командой `return`, которая выводит результат в вычисляемое поле калькулятора. В противном случае скрипт будет выполнен, но результат не будет выведен в вычисляемое поле.
+> **Important:** The script must be finished by `return` command that shows the result in the calculated calculator field. Otherwise, the script will be executed but the result will not be shown in the calculated field.
 
-Компактный вариант кода вычисления суммы полей калькулятора:
+Compact code variant for calculation of the calcualtor fields sum:
 
 ```javascript
-// Вычисление суммы полей
+// Calculation of the sum of fields
 return COL1 + COL2;
 ```
 
-Пример вычисления степени числа:
+Example of calculation of the number power:
 
 ```javascript
-// Функция вычисления степени числа
+// Function of calculation of the number power
 function pow(x, n) {
   if (n != 1) {
     return x * pow(x, n - 1);
@@ -45,82 +45,82 @@ function pow(x, n) {
     return x;
   }
 }
-// Вывод результата функции в поле калькулятора
+// Show the function result in the calculation field
 return pow(COL1, COL2);
 ```
 
-В данном скрипте определена функция `pow(x, n)`, принимающая в качестве аргументов число и степень, в которую оно возводится.
-Для вывода результата скрипта в вычисляемое поле калькулятора используется команда `return pow(COL1, COL2)`, где `pow(COL1, COL2)` — вызов объявленной функции с передачей параметрам `х` и `n` значений из полей (или переменных) калькулятора `COL1` и `COL2` соответственно.
+`pow(x, n)` function is defined in this script. It takes number and power to which it is risen as arguments.
+To show the script result in the calculated calculator field, it is required to use `return pow(COL1, COL2)` command where `pow(COL1, COL2)` enables to call the declared function with transfer to `х` and `n` parameters of the values from the calculator fields (or variables) `COL1` and `COL2`, correspondingly.
 
-В коде JavaScript можно использовать встроенные [функции *Калькулятора*](./../../func/calc-func/README.md):
+It is possible to use built-in [functions *of Calculator*](./../../func/calc-func/README.md) in the JavaScript code:
 
 ```javascript
 function my_concat(x, n) {
  let s;
- // s = x.concat(n);        - используется метод JavaScript
- s = Concat(x,n);       //  - используется функция калькулятора
-    
+ // s = x.concat(n);        - the JavaScript method is used
+ s = Concat(x,n);       //  - the calculator function is used
+
 return s;
 }
 
 return my_concat(COL1, COL2);
 ```
 
-Наименования встроенных функций *Калькулятора* и JavaScript не пересекаются. Функции *Калькулятора* всегда начинаются с большой буквы, однако, их можно переопределить в коде JS.  Явного импорта [функций *Калькулятора*](./../../func/calc-func/README.md) (как это делается в [компоненте *JavaScript*](./../../../processors/programming/java-script/calc-functions.md)) делать не нужно.
+Names of the built-in functions of *Calculator* and JavaScript do not intersect each other. The *Calculator* functions always start from the capital letter. However, it is possible to redefine them in the JS code.  It is not required to import [functions *of the Calculator*](./../../func/calc-func/README.md) distinctly (as it is done in the [component * of JavaScript*](./../../../processors/programming/java-script/calc-functions.md)).
 
-> **Примечание:** в отличии от [компонента *JavaScript*](./../../../processors/programming/java-script/README.md) в *Калькуляторе* не поддерживается объект [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+> **Note:** As opposed to the [component *of JavaScript*](./../../../processors/programming/java-script/README.md) in *Calculator* the [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise) object is not supported.
 
-## Импорт внешних модулей
+## Import of External Modules
 
-Как и в компоненте JavaScript поддерживаются внешние модули, но в *Калькуляторе* возможно использование только модульной системы [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1). Модульная система [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) не поддерживается. С примерами и документацией использования модулей CommonJS можно ознакомится в статье [JavaScript: Импорт внешних модулей](./../../../processors/programming/java-script/external-modules.html#modulnye-sistemy).
+External modules are supported as in the JavaScript component but it is possible to use only [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1) module systems in *Calculator*. [ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) module system (ECMAScript 6) is not supported. Examples and documents related to the usage of the CommonJS modules are described in the following article: [JavaScript: Import of External Modules](./../../../processors/programming/java-script/external-modules.html#modulnye-sistemy).
 
-### Особенности применения внешних модулей
+### Features of External Modules Usage
 
-Для импорта модуля CommonJS применяется функция `require`. Пример:
+To import the CommonJS module, it is required to use `require` function. For example:
 
 ```javascript
 const foo = require("foo/foo.js");
 ```
 
-Инициализация объектов модуля происходит при первом таком вызове, при последующих используется кэш, в котором сохраняется состояние объектов модуля предыдущего вызова. Поскольку в *Калькуляторе* для каждой из вычисляемых ячеек таблицы происходит выполнение скрипта, то содержащийся в нем вызов `require` модуля происходит многократно и используется кэш. Таким образом измененное состояние объектов модуля может передаваться от вызова к вызову. Это необходимо учитывать и при необходимости очищать кэш, доступный через объект `require.cache`:
+The module objects are initialised upon the first call. In the case of subsequent calls, cache is used. The module objects state of the previous call is preserved in it. As the script is executed in *Calculator* for each of the calculated table cells, the included`require` module is repeatedly called, and cache is used. Thus, the changed state of the module objects can be transferred from call to call. It is required to take into account and clean out the cache available via `require.cache` object when required:
 
 ```javascript
 let path = require.resolve("foo/foo.js");
-delete require.cache[path];  // Очищается кэш модуля "foo/foo.js"
+delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned out.
 ```
 
-> **Важно**: использование кэша для передачи значений между вызовами `require` может привести к непредсказуемым результатам вычислений в виду использования многопоточности вычислений.
+> **Important**: The cache usage when transferring values between `require` calls can cause unpredictable results of calculations due to the usage of calculation multithreading.
 
-## Панель быстрого доступа
+## Quick Access Toolbar
 
 На панели расположена кнопка вызова окна ![Предпросмотр](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.
 
 
 ![Предпросмотр](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) Предпросмотр — позволяет оценить корректность расчетов, отображая до 100 первых строк результирующей таблицы. Горячая клавиша вызова — `F3`.
 
-Логические операции:
+Logical operations:
 
-* **&&** — Логическое "И";
-* **||** — Логическое "ИЛИ";
-* **!** — Логическое "НЕ".
+* **&&** — Logical "AND".
+* **||** — Logical "OR".
+* **!** — Logical "NOT".
 
-Операторы сравнения:
+Comparisons operator:
 
-* **=** — Равно;
-* **!=** — Не равно;
-* **<** — Меньше;
-* **>** — Больше;
-* **<=** — Меньше или равно;
-* **>=** — Больше или равно.
+* **=** — Equals.
+* **!=** — Not equal.
+* **<** — Less than.
+* **>** — Greater than.
+* **<=** — Less than or equal to.
+* **>=** — Greater than or equal to.
 
-Шаблоны:
+Templates:
 
-* ![Вещественное число](./../../../images/icons/common/toolbar-controls/type-float_default.svg) — для ввода вещественного числа, будет вставлено `0.0`;
-* ![Строка](./../../../images/icons/common/toolbar-controls/type-string_default.svg) — для ввода строки, будет вставлено `""`;
-* ![Дата](./../../../images/icons/common/toolbar-controls/type-date_default.svg) — для ввода даты, будет вставлена конструкция создания объекта, содержащего текущую дату. Пример: `new Date(2020, 1, 5)`;
-* ![Время](./../../../images/icons/common/toolbar-controls/type-time_default.svg) — для ввода даты/времени, будет вставлена конструкция создания объекта, содержащего текущее дата/время. Пример: `new Date(2020, 1, 5, 13, 12, 50, 100)`.
+* ![Real number](./../../../images/icons/common/toolbar-controls/type-float_default.svg): `0.0` will be inserted to enter the real number.
+* ![String](./../../../images/icons/common/toolbar-controls/type-string_default.svg): `""` will be inserted to enter the string.
+* ![Date](./../../../images/icons/common/toolbar-controls/type-date_default.svg): to enter the date, the object creation construction containing the current date will be inserted. For example: `new Date(2020, 1, 5)`;
+* ![Time](./../../../images/icons/common/toolbar-controls/type-time_default.svg):  to enter the date/time, the object creation construction containing the current date/time will be inserted. For example: `new Date(2020, 1, 5, 13, 12, 50, 100)`.
 
-Логические значения:
+Logical values:
 
-* **false** — Ложь;
-* **true** — Истина.
+* **false** — False.
+* **true** — True.

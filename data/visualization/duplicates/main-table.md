@@ -1,13 +1,13 @@
 ---
 description: Основная таблица с дубликатами и противоречиями в Loginom. Справка по работе с таблицей. Знакомство с интерфейсом, расшифровка цветовой индикации, выделение дубликатов, навигация.
 ---
-# Основная таблица
+# Main Table
 
 Таблица отображает дубликаты и противоречия в исходном наборе данных:
 
 ![Таблица дубликатов и противоречий.](./images/duplicates-main-table.png)
 
->**Примечание**: колонки "Дубликат" и "Противоречие" — по умолчанию скрыты при первом запуске визуализатора. Для отображения скрытых столбцов необходимо в выпадающем списке ![](./../../images/icons/grid/columns.svg) "Столбцы" установить галочки напротив столбцов "Дубликат" и/или "Противоречие".
+> **Примечание**: колонки "Дубликат" и "Противоречие" — по умолчанию скрыты при первом запуске визуализатора. Для отображения скрытых столбцов необходимо в выпадающем списке ![](./../../images/icons/grid/columns.svg) "Столбцы" установить галочки напротив столбцов "Дубликат" и/или "Противоречие".
 
 ## Цветовая индикация
 
@@ -27,16 +27,16 @@ description: Основная таблица с дубликатами и про
 
 ![Пример выделения группы противоречий.](./images/duplicates-main-table-select-contradiction.png)
 
-## Навигация
+## Navigation
 
-Навигация по таблице осуществляется при помощи мышки и панели навигации в нижней части визуализатора:
+Mouse and navigation panel in the lower part of the visualizer are used for navigation through the table:
 
-* Перейти на ![](./../../images/icons/common/toolbar-controls/prev_default.svg) предыдущую/![](./../../images/icons/common/toolbar-controls/next_default.svg) следующую страницу;
-* Перейти на ![](./../../images/icons/common/toolbar-controls/first_default.svg) первую/![](./../../images/icons/common/toolbar-controls/last_default.svg) последнюю страницу.
+* Go to the ![](./../../images/icons/common/toolbar-controls/prev_default.svg) previous/![](./../../images/icons/common/toolbar-controls/next_default.svg) next page.
+* Go to the ![](./../../images/icons/common/toolbar-controls/first_default.svg) first/![](./../../images/icons/common/toolbar-controls/last_default.svg) last page.
 
-Для перехода на определённую страницу необходимо ввести её номер в поле ввода, расположенное между кнопками навигации. На одной странице отображается 1 000 000 записей.
+To go to the given page, it is required to enter its number in the entry field located between the navigation buttons. На одной странице отображается 1 000 000 записей.
 
-%spoiler%Горячие клавиши:%spoiler%
+%spoiler%Hotkeys:%spoiler%
 
 * %kbd Ctrl % + %kbd Left % — перейти на предыдущую страницу;
 * %kbd Ctrl % + %kbd Right % — перейти на следующую страницу;
@@ -53,15 +53,15 @@ description: Основная таблица с дубликатами и про
 
 %/spoiler%
 
-## Дополнительная информация
+## Additional Information
 
-* **#** — номер строки в таблице;
-* **№** — номер строки в исходном наборе данных (например, после фильтрации).
+* **#**: number of row in the table.
+* **№**: row number in the source data set (for example, after filtration).
 
-Настроить сортировку можно, щёлкая на заголовки столбцов непосредственно в самом визуализаторе.
+It is possible to configure sorting by clicking on the columns headers in the visualizer as such.
 
-Значение каждой ячейки можно скопировать в текстовом формате, нажав комбинацию клавиш Ctrl+C.
+Value of each cell can be copied in the text format by pressing Ctrl+C keys combination.
 
-Рядом с заголовком каждого столбца есть кнопка ![](./../../images/icons/common/toolbar-controls/down_default.svg), нажатием на которую вызывается выпадающее меню. Через него можно скрыть/отобразить столбец, а также зафиксировать или снять фиксацию со столбца.
+There is ![](./../../images/icons/common/toolbar-controls/down_default.svg) button near the header of each column. Its pressing enables to call the drop-down menu. It enables to hide/display the column and also fix the column or remove such fixing.
 
-Порядок столбцов можно менять перетаскиванием, удерживая левую кнопку мыши на заголовке перемещаемого столбца.
+Order of columns can be changed by dragging holding down the left mouse button on the header of the moved column.

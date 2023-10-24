@@ -1,13 +1,13 @@
 ---
 description: Работа со статистическими показателями в Loginom. Минимум, маскимум, среднее, медиана, стандартное отклонение, нижний/верхний квартили, несмещенная дисперсия и многие другие показатели статистики.
 ---
-# Статистические показатели
+# Statistical Indicators
 
-Доступность показателя для определенного поля зависит от типа и вида данных этого поля. Например, очевидно, что показатель Максимальная длина строки не будет доступен для поля числового или логического типов.
+Availability of the given field indicator depends on the data type and kind of this field. For example, it is obvious that the Maximum string length indicator will not be available for the field related to the numeric or logical types.
 
->**Важно:** Нижеперечисленные показатели недоступны для полей ![](./../../images/icons/common/data-types/variant_default.svg) *Переменного типа*.
+> **Important:** The indicators listed below are not available for the fields ![](./../../images/icons/common/data-types/variant_default.svg) of the *Variant type*.
 
-Статистические показатели:
+Statistical indicators:
 
 |Показатель|![](./../../images/icons/common/data-types/float_default.svg) |![](./../../images/icons/common/data-types/integer_default.svg) |![](./../../images/icons/common/data-types/datetime_default.svg) |![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/string_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|
@@ -32,6 +32,6 @@ description: Работа со статистическими показател
 |Максимальная длина строки|||||![](./../../images/icons/common/data-types/discrete_default.svg)|
 |Средняя длина строки|||||![](./../../images/icons/common/data-types/discrete_default.svg)|
 
-[^1]: **Межквартильный размах** — разница между верхним и нижним квартилями;
-[^2]: **Размах** — разница между максимальным и минимальным значениями;
-[^3]: **Значения** — количество непустых элементов в поле.
+[^1]: **Interquartile range**: difference between the upper and lower quartiles.
+[^2]: **Range**: difference between the maximum and minimum values.
+[^3]: **Values**: number of not null items in the field.

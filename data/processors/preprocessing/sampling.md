@@ -1,43 +1,43 @@
 ---
 description: Компонент Сэмплинг в Loginom. Метод сэмплинга. Способы отбора записей в выборку. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/sampling_default.svg) Сэмплинг
+# ![ ](./../../images/icons/components/sampling_default.svg) Sampling
 
-## Описание
+## Description
 
-Компонент реализует различные способы отбора записей в выборку из исходного набора данных. Такая выборка создается для сокращения анализируемого объема данных, например, во избежание избыточных вычислений, т. к. трудоемкость некоторых алгоритмов Data Mining экспоненциально возрастает с увеличением объема данных.
+Компонент реализует различные способы отбора записей в выборку из исходного набора данных. Such sample is created to decrease the analyzed data volume, for example, to avoid redundant computation, as complexity of some Data Mining algorithms is increased with data volume increase in an exponential manner.
 
 При формировании выборки пользователь может задать метод отбора: случайный, равномерный случайный, стратифицированный, последовательный, отбор со смещением.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-## Мастер настройки
+## Wizard
 
-* **Состояние входа** — при активном состоянии позволяет использовать входные данные. Например, в "Отбор со смещением" нужны данные из входного набора.
-* **Общее число записей** — число записей таблицы входного источника данных.
-* **Область настройки количества строк выходной таблицы.**
-Размер выходной таблицы задается вручную; кнопка-переключатель предоставляет выбор — непосредственно указать количество строк ![ ](./../../images/icons/wizards/datapartition/percent_default.svg) или задать его в процентах ![ ](./../../images/icons/wizards/datapartition/row_default.svg) от размера исходной таблицы.
-* **Метод сэмплинга**
-  * *Случайный* — записи случайным образом выбираются из исходного набора данных и помещаются в результирующую выборку.
-  * *Равномерный случайный* — все записи исходного набора данных разделяются на группы и затем из каждой группы случайным образом выбираются и помещаются в результирующую выборку. Размерность группы задается в параметрах метода.
-  * *Стратифицированный* — все записи исходного набора данных разделяются на однородные группы (страты), после чего из каждой группы случайным образом выбираются и помещаются в результирующую выборку. Поля, определяющие страты, задаются в параметрах метода с помощью флажков. При установке флажка *Полнота списка уникальных значений* в результирующую выборку должны попасть записи из всех групп. Если обеспечить полноту списка окажется невозможным — возникнет ошибка.
-  * *Последовательный* — в параметрах метода определяется, откуда будет взята выборка — из начала исходной таблицы или из конца. Последовательность строк в выборке будет такой же, как и в исходной таблице.
-  * *Отбор со смещением* —  при настройке параметров метода следует выбрать поле и уникальное значение из этого поля, для которого устанавливается фактор. Фактор, имеющий значение N, увеличит количество строк с интересующим нас уникальным значением в N раз в выходном наборе данных. N может принимать любые положительные значения. Следует учитывать, что максимальное количество уникальных значений в поле не должно превышать десять тысяч.
+* **Login status**: it enables to use the input data when the status is active. For example, the data from the input data set is required in "Biased sampling".
+* **Total records**: the records count of the input data source table.
+* **Area of the output table row count configuration.**
+   The output table size is customized. The switch button provides a choice whether to set the row count ![ ](./../../images/icons/wizards/datapartition/percent_default.svg) or to set it as a percentage ![ ](./../../images/icons/wizards/datapartition/row_default.svg) of the source table size.
+* **Sampling method**
+   * *Random*: the records are randomly selected from the source data set, and then they are placed into the resulting sample.
+   * *Random uniform*: all records of the source data set are divided into groups, and then they are randomly selected from each group and placed into the resulting sample. The group dimension is set in the method parameters.
+   * *Stratified*: all records of the source data set are divided into uniform groups (strata), and then they are randomly selected from each group and placed into the resulting sample. The strata defining fields are set in the method parameters by means of checkboxes. При установке флажка *Полнота списка уникальных значений* в результирующую выборку должны попасть записи из всех групп. Если обеспечить полноту списка окажется невозможным — возникнет ошибка.
+   * *Sequence*: the sample selection source will be specified in the method parameters. It will be defined whether it was taken from the source table beginning or end. Sequence of the sample rows will be the same as in the source table.
+   * *Отбор со смещением* —  при настройке параметров метода следует выбрать поле и уникальное значение из этого поля, для которого устанавливается фактор. The factor with N value will increase the row count with the relevant unique value by N times in the output data set. N can take any positive values. It is required to take into account that the maximum count of unique values in the field must not exceed ten thousand.
 
 * **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
 
-  Параметр влияет на методы сэмплинга *Случайный* и *Равномерный случайный*. Повторить результат сэмплинга можно, если подать те же данные и указать тот же random seed.
+   Параметр влияет на методы сэмплинга *Случайный* и *Равномерный случайный*. Повторить результат сэмплинга можно, если подать те же данные и указать тот же random seed.
 
-  Для параметра доступны следующие команды:
+   Для параметра доступны следующие команды:
 
-  * Всегда случайно — начальное число всегда будет случайным.
-  * Генерировать — сгенерируется новое начальное число.
-  * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Всегда случайно — начальное число всегда будет случайным.
+   * Генерировать — сгенерируется новое начальное число.
+   * Копировать — в буфер обмена будет скопировано указанное значение.

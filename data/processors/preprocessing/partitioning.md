@@ -1,51 +1,51 @@
 ---
 description: Компонент Разбиение на множества в Loginom. Обучающая и тестовая выборки. Метод сэмплинга. Обучающий выходной набор. Тестовый выходной набор. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/partition_default.svg) Разбиение на множества
+# ![ ](./../../images/icons/components/partition_default.svg) Partitioning
 
-## Описание
+## Description
 
-Разбиение на множества применяется в случае, когда задача анализа требует разделить исходный набор данных на обучающую и тестовую выборки. Размер этих выборок можно настроить, а отбор записей для них производится на основе выбранного метода сэмплинга. Сначала отбираются записи для обучающей выборки, оставшиеся используются для тестовой (этот порядок можно изменить в мастере настройки узла).
+Partitioning is used when according to the analysis task it is required to divide the source data set into the training and test samples. It is possible to configure the size of these samples, and records are selected for them using the selected sampling method. Сначала отбираются записи для обучающей выборки, оставшиеся используются для тестовой (этот порядок можно изменить в мастере настройки узла).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Общий выходной набор (таблица данных). Содержит все строки, которые были взяты для обеих выборок. Добавляется поле "тестовое множество": в этом поле значение "true" свидетельствует о том, что запись попала в тестовую выборку, а значение "false" — в обучающую.
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Обучающий выходной набор (таблица данных).
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Тестовый выходной набор (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Common output data set (data table). It contains all strings taken from both samples. The "test set" field is added. The "true" value in this field means that the record has been placed into the test sample, whereas the "false" value has been placed into the training one.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Training output data set (data table).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Test output data set (data table).
 
-## Мастер настройки
+## Wizard
 
-* **Состояние входа** — при активном состоянии позволяет использовать входные данные. Например, в "Отбор со смещением" нужны данные из входного набора.
-* **Общее число записей** — число записей таблицы входного источника данных.
-* **Область настройки количества строк для обучающей и тестовой выборок**.  
-Размер каждой выборки задается вручную; счетная кнопка "способ" предоставляет выбор — непосредственно указать количество строк или задать его в процентах от размера исходной таблицы. Сумма строк выборок не может быть больше, чем количество строк в исходной таблице. Если обучающее и тестовое множество не согласуются друг с другом по количеству записей (в сумме дают количество строк больше строк входного набора), то первым формируется множество согласно флагу *Приоритет тестового множества*, второе множество формируется по остаточному принципу.
-* **Метод сэмплинга**:
-  * *Случайный* — записи случайным образом выбираются из исходного набора данных и помещаются в результирующую выборку.
-  * *Равномерный случайный* — все записи исходного набора данных разделяются на группы и затем из каждой группы случайным образом выбираются и помещаются в результирующую выборку. Размерность группы задается в параметрах метода.
-  * *Стратифицированный* — все записи исходного набора данных разделяются на однородные группы (страты), после чего из каждой группы случайным образом выбираются и помещаются в результирующую выборку. Поля, определяющие страты, задаются в параметрах метода с помощью флажков.
-  * *Последовательный* — из исходного набора данных последовательно выбираются записи и помещаются в результирующую выборку. Размеры сэмплированного и неиспользованного множеств настраиваются в параметрах метода.
-  * *Отбор со смещением* — в исходном наборе данных сокращается или увеличивается количество записей с выбранными уникальными значениями перед обработкой. В параметрах этого метода коэффициент увеличения задается в поле "фактор" напротив каждого уникального значения выбранного столбца исходной таблицы, также число записей для каждого уникального значения можно ввести вручную.
-* **Приоритет тестового множества (необязательный флаг)**.  
-Активация данного флага приводит к тому, что сначала отбираются записи для тестовой выборки, а оставшиеся используются для обучающей.
+* **Login status**: it enables to use the input data when the status is active. For example, the data from the input data set is required in "Biased sampling".
+* **Total records**: the records count of the input data source table.
+* **Area of the row count configuration for the training and test samples**.  
+   The size of each sample is customized. The "Method" button used for calculation provides a choice whether to set the row count or to set it as a percentage of the source table size. The sum of the samples rows cannot exceed the row count in the source table. If the training and test sets do not match each other by the number of records (in total they provide the row count that exceeds the input data set rows), the first set is generated according to *Test set priority* checkbox, whereas the second set is generated by the residual model.
+* **Sampling method**:
+   * *Random*: the records are randomly selected from the source data set, and then they are placed into the resulting sample.
+   * *Random uniform*: all records of the source data set are divided into groups, and then they are randomly selected from each group and placed into the resulting sample. The group dimension is set in the method parameters.
+   * *Stratified*: all records of the source data set are divided into uniform groups (strata), and then they are randomly selected from each group and placed into the resulting sample. The strata defining fields are set in the method parameters by means of checkboxes.
+   * *Sequence*: the records are sequentially selected from the source data set and placed into the resulting sample. The sizes of sampling and unused sets are configured in the method parameters.
+   * *Biased sampling*: the number of records with selected unique values is decreased or increased in the source data set before processing. The increase coefficient is set in the "factor" field in the method parameters in front of each unique value of the selected column of the source table. The number of records for each unique value can be manually entered.
+* **Test set priority (optional checkbox)**.  
+   Selection of this checkbox enables to select the records for the test sample first, whereas the remaining ones are used for the training one.
 
-  Имеется три режима отбора, определяемые параметром "Положение приоритетного тестового множества":
+   There are three selection modes defined by "Priority test set position" parameter:
 
-  * *Определяется алгоритмом* — записи будут отобраны в соответствии с выбранным ранее методом сэмплинга.
-  * *В начале набора* — в качестве тестовой выборки будут использованы строки из начала набора, взятые в том же порядке, что и в исходной таблице.
-  * *В конце набора* — в качестве тестовой выборки будут использованы строки из конца набора, взятые в том же порядке, что и в исходной таблице.
+   * *Определяется алгоритмом* — записи будут отобраны в соответствии с выбранным ранее методом сэмплинга.
+   * *В начале набора* — в качестве тестовой выборки будут использованы строки из начала набора, взятые в том же порядке, что и в исходной таблице.
+   * *End of set*: the set end rows taken in the same order as in the source table will be used as the test sample.
 
 * **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
 
-  Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество. Можно повторить разбиение, если подать те же данные и выставить тот же random seed.
+   Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество. Можно повторить разбиение, если подать те же данные и выставить тот же random seed.
 
-  Для параметра доступны следующие команды:
+   Для параметра доступны следующие команды:
 
-  * Всегда случайно — начальное число всегда будет случайным.
-  * Генерировать — сгенерируется новое начальное число.
-  * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Всегда случайно — начальное число всегда будет случайным.
+   * Генерировать — сгенерируется новое начальное число.
+   * Копировать — в буфер обмена будет скопировано указанное значение.

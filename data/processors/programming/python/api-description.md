@@ -1,7 +1,7 @@
 ---
 description: Компонент Python в Loginom. Полное описание API. Модуль builtin_data. Модуль builtin_pandas_utils. Примеры.
 ---
-# ![](./../../../images/icons/components/python_default.svg) Полное описание API
+# ![](./../../../images/icons/components/python_default.svg) Full API Description
 
 ## Модуль builtin_data
 

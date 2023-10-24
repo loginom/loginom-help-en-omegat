@@ -1,46 +1,46 @@
 ---
 description: Компонент Заполнение пропусков в Loginom. Автоматическое заполнение пропусков. Методы обработки данных (заменять средним, заменять медианой, заменять на 0, заменять случайным). Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/plausible_default.svg) Заполнение пропусков
+# ![ ](./../../images/icons/components/plausible_default.svg) Imputation
 
-## Описание
+## Description
 
 Компонент предназначен для автоматического заполнения пропущенных значений в наборах данных.
-Для каждого столбца исходного набора данных пользователь может выбрать наиболее подходящий метод заполнения пропусков. Пропусками считаются Null-значения.
+A user can select the most suitable imputation method for each column of the source data set. Null values are considered to be null data.
 
-> **Примечание:** узел не обрабатывает поля с переменным типом данных (см. [типы данных](./../../data/datatype.md)).
+> **Note:** The node does not process the fields with the variable data type (refer to [data types](./../../data/datatype.md)).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table).
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выходной набор данных (таблица данных).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set (data table).
 
-## Мастер настройки
+## Wizard
 
-Настройка соответствия между столбцами проводится в интерфейсах [таблица](./../../workflow/ports/table-interface.md) или [связи](./../../workflow/ports/connections-interface.md).
+Adjustment of columns mapping is performed in the [table](./../../workflow/ports/table-interface.md) or [links](./../../workflow/ports/connections-interface.md) interfaces.
 
-### Настройка заполнения пропусков
+### Imputation Configuration
 
-* **Исходные данные упорядочены** — установку данного флага следует производить в том случае, когда известно, что данные являются упорядоченными. Например, временной или иной ряд, значения которого упорядочены по возрастанию или убыванию (например, по дате или времени). Для упорядоченных и неупорядоченных данных могут применяться различные методы заполнения пропусков.
-* **Допустимый процент пропусков** — принимает значение в процентах и определяет порог, после которого заполнение пропусков не происходит. Например, если этому параметру задано значение 50, то поля, содержащие более 50% пропусков, заполняться не будут.
+* **Source data ordered**: it is required to select this checkbox when it is known that the data is ordered. For example, time or other series the values of which are ordered in ascending or descending order (for example, by date or time). Diffferent imputation methods can be used for ordered and unordered data.
+* **Allowable percentage of nulls**: it takes the value expressed in percentage terms and sets the threshold after which no imputation occurs. For example, if 50 value is set for this parameter, the fileds that contain more than 50% of null data will not be filled in.
 * **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
 
-  Параметр влияет на порядок замены случайными значениями. Можно повторить результат выполнения узла, если подать те же данные и выставить тот же random seed.
+   Параметр влияет на порядок замены случайными значениями. Можно повторить результат выполнения узла, если подать те же данные и выставить тот же random seed.
 
-  Для параметра доступны следующие команды:
-  
-  * Всегда случайно — начальное число всегда будет случайным.
-  * Генерировать — сгенерируется новое начальное число.
-  * Копировать — в буфер обмена будет скопировано указанное значение.
+   Для параметра доступны следующие команды:
 
-* **Область настройки методов обработки пропусков** — содержит список полей доступных для обработки, с указанием вида данных. Для каждого поля можно выставить флаг, задающий необходимость обработки, и затем выставить метод заполнения пропусков.
+   * Всегда случайно — начальное число всегда будет случайным.
+   * Генерировать — сгенерируется новое начальное число.
+   * Копировать — в буфер обмена будет скопировано указанное значение.
 
-Доступны следующие методы обработки:
+* **Область настройки методов обработки пропусков** — содержит список полей доступных для обработки, с указанием вида данных. It is possible to select the checkbox that enables to define the processing necessity for each field. Then, it is possible to set the imputation method.
+
+The following processing methods are available:
 
 * **Заменять средним** — выявленные пропуски заменяются средним значением столбца.
 * **Заменять медианой** — выявленные пропуски заменяются медианой, вычисленной по столбцу.
@@ -54,42 +54,42 @@ description: Компонент Заполнение пропусков в Login
 * **Удалять записи** — строки с выявленными пропусками исключаются из выходного набора данных.
 * **Заменять значением "Не задано"** — выявленные пропуски заменяются значением "Не задано".
 
-Для каждого поля спектр доступных методов определяется тремя характеристиками данных одновременно (см. [данные](./../../data/README.md)):
+The spectrum of available methods is defined for each field by three data characteristics simultaneously (refer to [data](./../../data/README.md)):
 
 * упорядоченностью;
 * типом;
 * видом.
 
-Таблица применимости по этим характеристикам:
+Applicability table by the following features:
 
 <table>
-<tr><th valign=top align=center rowspan=2>Метод</th><th align=center colspan=2>Неупорядоченный набор</th><th align=center colspan=2>Упорядоченный набор</th></tr>
-<tr><th align=center><img src=../../images/icons/common/data-types/discrete_default.svg> Дискретный</th><th align=center><img src=../../images/icons/common/data-types/continuous_default.svg> Непрерывный</th><th align=center><img src=../../images/icons/common/data-types/discrete_default.svg> Дискретный</th><th align=center><img src=../../images/icons/common/data-types/continuous_default.svg> Непрерывный</th></tr>
+<tr><th valign="top" align="center" rowspan="2">Method</th><th align="center" colspan="2">Unordered set</th><th align="center" colspan="2">Ordered set</th></tr>
+<tr><th align="center"><img src="../../images/icons/common/data-types/discrete_default.svg"> Discrete</th><th align="center"><img src="../../images/icons/common/data-types/continuous_default.svg"> Continuous</th><th align="center"><img src="../../images/icons/common/data-types/discrete_default.svg"> Discrete</th><th align="center"><img src="../../images/icons/common/data-types/continuous_default.svg"> Continuous</th></tr>
 
-<tr><td align=left>Заменять средним</td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg></td><td align=center> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Replace with average</td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"></td><td align="center"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Заменять медианой</td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Replace with median</td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Заменять наиболее вероятным</td><td align=center><img src=../../images/icons/common/data-types/boolean_default.svg> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <img src=../../images/icons/common/data-types/string_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/boolean_default.svg> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <img src=../../images/icons/common/data-types/string_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Replace with most frequent</td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Заменять на 0</td><td align=center>  <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <td align=center> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <td align=center> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Заменять на 0</td><td align="center">  <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Заменять случайными значениями</td><td align=center><img src=../../images/icons/common/data-types/boolean_default.svg> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <img src=../../images/icons/common/data-types/string_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/boolean_default.svg> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <img src=../../images/icons/common/data-types/string_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Replace with random values</td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Линейная интерполяция</td><td></td><td></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Linear interpolation</td><td></td><td></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Кубическая интерполяция</td><td></td><td></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Cubic interpolation</td><td></td><td></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Сплайн-интерполяция</td><td></td><td></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td></tr>
+<tr><td align="left">Spline interpolation</td><td></td><td></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align=left>Оставить без изменения</td><td align=center><img src=../../images/icons/common/data-types/boolean_default.svg> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <img src=../../images/icons/common/data-types/string_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td></td><td></td></tr>
+<tr><td align="left">Leave unchanged</td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td></td><td></td></tr>
 
-<tr><td align=left>Удалять записи</td><td align=center><img src=../../images/icons/common/data-types/boolean_default.svg> <img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg> <img src=../../images/icons/common/data-types/string_default.svg></td><td align=center><img src=../../images/icons/common/data-types/datetime_default.svg> <img src=../../images/icons/common/data-types/float_default.svg> <img src=../../images/icons/common/data-types/integer_default.svg></td><td align=center></td><td align=center></td></tr>
+<tr><td align="left">Delete records</td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"></td><td align="center"></td></tr>
 
-<tr><td align=left>Заменять значением «Не задано»</td><td align=center><img src=../../images/icons/common/data-types/string_default.svg></td><td></td><td align=center><img src=../../images/icons/common/data-types/string_default.svg></td><td></td></tr>
+<tr><td align="left">Replace with "Not defined"</td><td align="center"><img src="../../images/icons/common/data-types/string_default.svg"></td><td></td><td align="center"><img src="../../images/icons/common/data-types/string_default.svg"></td><td></td></tr>
 
 </table>
 
-**Смотри также:**
+**See also:**
 
-* [Редактирование выбросов](./eliminate-outliers.md)
+* [Eliminate outliers](./eliminate-outliers.md)

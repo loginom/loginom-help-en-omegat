@@ -1,54 +1,54 @@
 ---
 description: Группировка данных в Loginom. Аналог SQL-запроса с GROUP BY. Вычисление статистических показателей (функций агрегации). Мастер настройки.
 ---
-# ![Группировка](./../../images/icons/components/group-data_default.svg) Группировка
+# ![Grouping](./../../images/icons/components/group-data_default.svg) Grouping
 
-Группировка выполняет действия над набором данных аналогичные действиям SQL-запроса с применением предложения `GROUP BY`. Компонент позволяет объединять записи избранных полей в группы, а для оставшихся полей вычислять статистические показатели (сумму, среднее, минимум и т.д.). Для каждой группы возвращается одна строка. Статистические показатели (или [функции агрегации](./../func/aggregation-functions.md)) при этом вычисляются для каждой группы, а не для всего набора в целом.
+The grouping enables to perform actions with a data set that are simillar to the SQL request actions using `GROUP BY` offer. Компонент позволяет объединять записи избранных полей в группы, а для оставшихся полей вычислять статистические показатели (сумму, среднее, минимум и т.д.). One string is returned for each group. In this case, the statistical indicators (or [aggregation functions](./../func/aggregation-functions.md)) are calculated for each group but not for the whole data set.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходная таблица:
+Source table:
 
-| Дата | Товар | Вес, кг |
+| Date | Goods | Weight, kg |
 | :--- | :---- | ------: |
-| 12.07.2015 | Яблоки | 20 |
-| 12.07.2015 | Яблоки | 18 |
-| 12.07.2015 | Помидоры | 24 |
-| 13.07.2015 | Помидоры | 22 |
-| 13.07.2015 | Груши | 12 |
-| 13.07.2015 | Груши | 16 |
+| 12.07.2015 | Apples | 20 |
+| 12.07.2015 | Apples | 18 |
+| 12.07.2015 | Tomatoes | 24 |
+| 13.07.2015 | Tomatoes | 22 |
+| 13.07.2015 | Pears | 12 |
+| 13.07.2015 | Pears | 16 |
 
-В качестве полей-групп выберем поля *Дата* и *Товар*, а поле-параметр (по которому будет проводиться агрегация) — *Вес, кг*. Для примера применим три функции агрегации: сумма, количество записей и среднее.
+It is required to select the *Date* and *Goods* fields as the group fields, and the *Weight, kg* as the parameter field (it will be used for aggregation). As an example, let's use three aggregation functions: sum, number of records and mean.
 
-Результирующая таблица:
+Resulting table:
 
-| Дата | Товар | Вес, кг (Сумма) | Вес, кг (Количество) | Вес, кг (Среднее) |
+| Date | Goods | Weight, kg (Sum) | Weight, kg (Number) | Weight, kg (Mean) |
 | :--- | :---- | --------------: | -------------------: | ----------------: |
-| 12.07.2015 | Помидоры | 24 | 1 | 24 |
-| 12.07.2015 | Яблоки | 38 | 2 | 19 |
-| 13.07.2015 | Груши | 28 | 2 | 14 |
-| 13.07.2015 | Помидоры | 22 | 1 | 22 |
+| 12.07.2015 | Tomatoes | 24 | 1 | 24 |
+| 12.07.2015 | Apples | 38 | 2 | 19 |
+| 13.07.2015 | Pears | 28 | 2 | 14 |
+| 13.07.2015 | Tomatoes | 22 | 1 | 22 |
 
-Как видно из примера, группа образуется уникальным сочетанием значений полей, выбранных в качестве группировочных.
+The example shows that the group is formed by the unique combination of the fields values selected as the grouping ones.
 
 %/spoiler%
 
-### Вход
+### Input
 
-* ![Входной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных.
+* ![Input data source](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
-### Выход
+### Output
 
-* ![Выходной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — порт отдающий сгруппированную таблицу.
+* ![Output data source](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the port providing the grouped table.
 
-## Мастер настройки
+## Wizard
 
-Окно мастера поделено на две области.
+The wizard window is divided into two areas.
 
-* **Доступные поля** — содержит список полей входного набора данных.
-* **Выбранные поля** — делится на списки *Группа* и *Показатели*.
-  * ![Группа](./../../images/icons/common/usage-types/group_default.svg) **Группа** — поля группировки.
-  * ![Показатели](./../../images/icons/common/usage-types/value_default.svg) **Показатели** — поля, по которым рассчитываются [функции агрегации](./../../processors/func/aggregation-functions.md).
+* **Available fields** contain a list of fields of the input data set.
+* **Selected fields** are divided into the *Group* and *Parameters* lists.
+   * ![Group](./../../images/icons/common/usage-types/group_default.svg) **Group**: grouping fields.
+   * ![Показатели](./../../images/icons/common/usage-types/value_default.svg) **Показатели** — поля, по которым рассчитываются [функции агрегации](./../../processors/func/aggregation-functions.md).
 
 %spoiler%Агрегация показателей и возможные типы данных%spoiler%
 
@@ -70,14 +70,14 @@ description: Группировка данных в Loginom. Аналог SQL-з
 
 %/spoiler%
 
-Для настройки требуется переместить поля входного набора в списки *Группа* или *Показатели*, перетаскивая их мышью. Так же это можно сделать с помощью кнопок : ![Переместить в Группу](./../../images/icons/common/usage-types/group_default.svg) **Переместить в Группу** (комбинация горячих клавиш **Alt+G**) и ![Переместить в Показатель](./../../images/icons/common/usage-types/value_default.svg) **Переместить в Показатели** (комбинация горячих клавиш **Alt+S**). Над списком доступных полей расположено поле ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_filter_default.svg) *Фильтрация*, оно позволяет найти поле по имени или его части.
+To configure, it is required to move the input data set fields to the *Group* or *Parameters* lists, dragging them with the mouse. Так же это можно сделать с помощью кнопок : ![Переместить в Группу](./../../images/icons/common/usage-types/group_default.svg) **Переместить в Группу** (комбинация горячих клавиш **Alt+G**) и ![Переместить в Показатель](./../../images/icons/common/usage-types/value_default.svg) **Переместить в Показатели** (комбинация горячих клавиш **Alt+S**). The ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_filter_default.svg) *Filter* field is located over the list of the available fields. It enables to find the field by name or its part.
 
-Настройка метода агрегации для каждого показателя производится в отдельном окне. Чтобы его открыть, нужно дважды кликнуть по полю в списке *Показатели* или вызвать это окно из контекстного меню. Далее отметить галочками нужные методы агрегации. Результат для каждого метода будет записан в отдельный столбец.
+The aggregation method is configured for each parameter in a separate window. Чтобы его открыть, нужно дважды кликнуть по полю в списке *Показатели* или вызвать это окно из контекстного меню. Then, it is required to tick the necessary aggregation methods. The result for each method will be recorded in a separate column.
 
-В нижней части мастера расположены два параметра отмечаемые чекбоксами:
+Two parameters selected using checkboxes are located in the lower part of the wizard:
 
-* **Кэшировать значения групп** — результирующие данные будет [закэшированы](./../../workflow/caching.md) для использования последующими узлами;
-* **Сортировать результирующие данные** — данные в результирующей таблице будут отсортированы по полям группировки в зависимости от их последовательности расположения в списке *Группы*.
+* **Cache group values**: the result data will be [cached](./../../workflow/caching.md) for use for subsequent nodes.
+* **Sort result data**: the data in the resulting table will be sorted by the grouping fields according to their location sequence in the *Groups* list.
 
 
 [def]: ./../../images/icons/common/aggregations/mode_default.svg

@@ -1,77 +1,77 @@
 ---
-description: Компонент Ассоциативные правила в Loginom. Алгоритм FP-Growth. Предварительное обучение. Пример использования. Минимальная достоверность правила. Минимальный лифт правила. Максимальное число следствий. Мастер настройки. 
+description: Компонент Ассоциативные правила в Loginom. Алгоритм FP-Growth. Предварительное обучение. Пример использования. Минимальная достоверность правила. Минимальный лифт правила. Максимальное число следствий. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/assnrules_default.svg) Ассоциативные правила
+# ![ ](./../../images/icons/components/assnrules_default.svg) Association Rules
 
-## Описание
+## Description
 
-Компонент выявляет [ассоциативные правила](https://wiki.loginom.ru/articles/association-rules.html) в [транзакционных данных](https://wiki.loginom.ru/articles/transaction.html). Примером такого правила служит утверждение, что покупатель, приобретающий 'Хлеб' (*условие правила*), купит и 'Молоко' (*следствие правила*) с вероятностью 75%. Транзакцией в данном примере является чек продажи, содержащий список приобретенных товаров, а каждый товар в чеке является элементом транзакции. При поиске ассоциативных правил применяется алгоритм [FP-Growth](https://loginom.ru/blog/fpg).
+Компонент выявляет [ассоциативные правила](https://wiki.loginom.ru/articles/association-rules.html) в [транзакционных данных](https://wiki.loginom.ru/articles/transaction.html). To provide an example of such rule, it is observed that a consumer who buys "Bread" (*condition of rule*), will buy "Milk" as well (*consequence of rule*) with a probability of 75%. The transaction specified in this example is a sales check that contains a list of acquired goods, and each item of goods in the check is a transaction item. The [FP-Growth](https://loginom.ru/blog/fpg) algorithm is used when searching for association rules.
 
-Наряду с анализом основных данных транзакций возможно учитывать и вспомогательные. Например, если транзакцией является чек, а элементами — товары, то в качестве вспомогательных данных могут быть использованы: пол покупателя, возраст, регион, сезон и т.д. Фактически вспомогательные данные рассматриваются алгоритмом как еще одни элементы транзакций, и обозначение "вспомогательные" они имеют лишь в контексте аналитической задачи. Поскольку вспомогательные данные чаще представляются в источниках данных как дополнительные атрибуты транзакций, узел имеет отдельный вход для их приема.
+Alongside with analysis of the main transaction data, it is possible to take into account the supplementary one. For example, if the check is a transaction, and items are goods, the following data can be used as the supplementary one: sex of consumer, age, region, season, etc. Actually, the supplementary data is considered by the algorithm as one more transaction item, and its "supplementary" context is used only when dealing with analytical tasks. Поскольку вспомогательные данные чаще представляются в источниках данных как дополнительные атрибуты транзакций, узел имеет отдельный вход для их приема.
 
 Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Входной источник данных** (таблица данных). Необязательный.<br>
-Порт ожидает набор данных со столбцами идентификаторов и элементов транзакций.
-* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Вспомогательные данные** (таблица данных). Необязательный.<br>
-Принимает дополнительные элементы транзакций, которые возможно учитывать при расчете ассоциативных правил.
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Input data source** (data table). Optional.<br>
+   The port waits for the data set with identifier columns and transaction items.
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Supplementary data** (data table). Optional.<br>
+   It accepts supplementary transaction items that can be taken into account when calculating association rules.
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
-%spoiler%Примеры входных наборов:%spoiler%
+%spoiler%Examples of input data sets:%spoiler%
 
-Входной источник данных:
+Input data source:
 
- | Идентификатор транзакции | Элементы транзакции |
- | -------- | -------- |
- | Чек №000001 | Хлеб |
- | Чек №000001 | Молоко |
- | Чек №000001 | Масло |
- | Чек №000002 | Хлеб |
- | Чек №000003 | Хлеб |
- | Чек №000003 | Молоко |
+| Transaction identifier | Transaction items |
+| -------- | -------- |
+| Check No 000001 | Bread |
+| Check No 000001 | Milk |
+| Check No 000001 | Butter |
+| Check No 000002 | Bread |
+| Check No 000003 | Bread |
+| Check No 000003 | Milk |
 
-В отличии от таблицы, принимаемой портом "Входной источник данных", элементы транзакций вспомогательных данных должны располагаться в строках, а не в столбцах. Таким образом, структура таблицы предполагает наличие одного поля идентификатора транзакций и одного или более полей элементов транзакций.
+As opposed to the table accepted by the "Input data source" port, the transaction items of the supplementary data must be located in strings but not in columns. Thus, the table structure presupposes availability of one transaction identifier field and one or more transaction items fields.
 
-Вспомогательные данные:
+ Supplementary data:
 
- | Идентификатор транзакции | Пол покупателя | Возраст | Регион | Сезон |
- | -------- | -------- | -------- | -------- | -------- |
- | Чек №000001 | м | 20-30 | Московская обл. | 1 |
- | Чек №000002 | ж | 40-50 | Калининградская обл. | 2 |
- | Чек №000003 | ж | 30-40 | Орловская обл. | 1 |
+| Transaction identifier | Sex of consumer | Age | Region | Season |
+| -------- | -------- | -------- | -------- | -------- |
+| Check No 000001 | m | 20-30 | The Moscow Region | 1 |
+| Check No 000002 | f | 40-50 | The Kaliningrad Region | 2 |
+| Check No 000003 | f | 30-40 | The Orel Region | 1 |
 
 %/spoiler%
 
-В настройках портов следует выставить [параметр "Назначение"](./../../data/datasetfieldfeatures.md) для полей участвующих в обработке. Параметр может принимать значения: *Неиспользуемое, Транзакция, Элемент*. Идентификаторы и элементы транзакций могут быть представлены только [дискретными](./../../data/datatype.md) данными.
+It is required to set ["Usage type" parameter](./../../data/datasetfieldfeatures.md) for the fields included into processing in the ports settings. The parameter can take the following values: *Unused, Transaction, Item*. Identifiers and transaction items can be represented only by [discrete](./../../data/datatype.md) data.
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Популярные наборы** (таблица данных). Наборы элементов, наиболее часто встречающиеся в транзакциях (частые наборы).
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Ассоциативные правила** (таблица данных). Выявленные ассоциативные правила и их показатели: [поддержка](https://wiki.loginom.ru/articles/association-rule-support.html), [достоверность](https://wiki.loginom.ru/articles/rule-confidence.html), [лифт](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Применение правил** (таблица данных). Содержит транзакции входного набора данных, в которых срабатывают выявленные правила.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Frequent sets** (data table). The itemsets most frequently occurring in transactions (frequent itemsets).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Association rules** (data table). Detected association rules and their parameters: [support](https://wiki.loginom.ru/articles/association-rule-support.html), [confidence](https://wiki.loginom.ru/articles/rule-confidence.html), [lift](https://wiki.loginom.ru/articles/lift-of-association-rule.html).
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Apply rules** (data table). It contains transactions of the input data set in which the detected rules are effectively implemented.
 
-## Мастер настройки
+## Wizard
 
-Включает следующие группы параметров:
+It includes the following groups of parameters:
 
-### Частые наборы
+### Frequent Itemsets
 
-Задаются условия, по которым определяются *частые предметные наборы* — наборы элементов, наиболее часто встречающиеся в транзакциях. В дальнейшем только эти наборы участвуют в формировании правил:
+It is required to determine conditions according to which *frequent object itemsets* are defined, namely, the itemsets that are the most frequently occurring in transactions. Later on, only these itemsets are used to form the rules:
 
-* **Минимальная поддержка, %** — минимальная частота, с которой набор встречается в транзакциях (значение 0 до 100).
-* **Исключать элементы с поддержкой, больше максимальной** — элементы, которые слишком часто встречаются в транзакциях, как правило, не несут информации о закономерностях сочетания с ними других элементов. Для их определения и исключения из частых наборов задается:
-  * **Максимальная поддержка, %** — максимальная частота, с которой элемент встречается в транзакциях (значение от 0 до 100).
-* **Содержащие выбранные элементы** — задает поля вспомогательного набора данных, содержащие дополнительные элементы транзакций.
-* **Исключать одиночные наборы** — исключает наборы из одного элемента;
-* **Максимальное число элементов** — задает максимальное количество элементов в наборе (максимальная мощность набора).
+* **Minimum support, %**: the minimum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).
+* **Exclude the items with the support exceeding the maximum one**: the items that occur too frequently in transactions and, as a rule, do not contain information on principles of combination with other items. The following parameters are set for their determination and exclusion:
+   * **Maximum support, %**: the maximum frequency of the itemset occurrence in transactions (the value varies from 0 to 100).
+* **Containing selected items** enables to set the supplementary data set fields that contain supplementary transaction items.
+* **Exclude single sets** enables to exclude the sets from one item.
+* **Maximum item count** enables to set the maximum count of items in a set (maximum itemset power).
 
-### Ассоциативные правила
+### Association Rules
 
-В результирующий набор попадают правила, удовлетворяющие следующим условиям:
+The rules meeting the following requirements are included into the resulting data set:
 
-* **Минимальная достоверность правила, %** — позволяет отсеять наименее точные правила (значение от 0 до 100).
-* **Минимальный лифт правила** — значение лифта > 1 косвенно подтверждает значимость правила, поскольку говорит о положительной связи двух предметных наборов (условия и следствия правила). Значение лифта, равное или меньшее 1, говорит об отсутствии или отрицательной связи. Задавая минимальную величину лифта, можно отсеять наименее значимые правила.
-* **Максимальное число следствий** — максимальное количество элементов в наборе, представляющем следствие правила.
+* **Minimum rule confidence, %** enables to exclude the least precise rules (the value varies from 0 to 100).
+* **Minimum rule lift**: the lift value > 1 indirectly confirms the rule importance, as it shows the positive connection of two object itemsets (rule condition and consequence). The lift value equal or less than 1 shows absence or negative connection. Setting the minimum lift value, it is possible to exclude the least important rules.
+* **Maximum number of consequences**: the maximum number of items in the set that represents the rule consequence.

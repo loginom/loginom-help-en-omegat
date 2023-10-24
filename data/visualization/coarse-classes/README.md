@@ -1,97 +1,97 @@
 ---
 description: Визуализатор "Конечные классы" в Loginom. Справка по решению задач по преобразованию данных, сокращению размерности данных, восстановлению пропусков, борьбе с выбросами и аномалиями, упрощению описаний исследуемых объектов.
 ---
-# ![](./../../images/icons/common/view_types/coarseclasses_default.svg) Конечные классы
+# ![](./../../images/icons/common/view_types/coarseclasses_default.svg) Coarse Classes
 
-Визуализатор Конечные классы предназначен для следующих задач:
+The Coarse Classes handler enables to solve the following problems:
 
-* преобразование непрерывных и дискретных входных полей, используемых для построения моделей [бинарной классификации](https://wiki.loginom.ru/articles/binary-classification.html), путем [квантования](https://wiki.loginom.ru/articles/binning.html) на основе метода совокупности доказательств или [WoE-анализа](https://wiki.loginom.ru/articles/weight-of-evidence.html) (weights of evidence, WoE);
-* сокращение размерности данных за счет исключения признаков с низкой значимостью, снижения разнообразия значений признаков;
+* Conversion of the continuous and discrete input fields used for training of the models related to the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html) by means of the [binning](https://wiki.loginom.ru/articles/binning.html) based on totality-of-evidence approach or  [WoE analysis](https://wiki.loginom.ru/articles/weight-of-evidence.html) (weights of evidence, WoE).
+* Reduction of data dimensionality by excluding the indicators with low significance, by decreasing variety of indicator values.
 * восстановление пропусков, когда пропуски образуют отдельную метку интервала квантования или объединяются с соседним, близким по значению WoE-индекса;
-* борьба с выбросами и экстремальными значениями — формирование меток интервала квантования при дискретизации непрерывного поля или объединение редких уникальных значений в одну категорию;
-* упрощение описания исследуемых объектов.
+* The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category.
+* Simplification of description of the objects under study.
 
-Визуализатор включает в себя:
+The visualizer includes the following items:
 
-* [Список входных столбцов](#spisok-vkhodnykh-stolbtsov);
-* [Область начальных классов](#oblast-nachalnykh-klassov);
-* [Область конечных классов](#oblast-konechnykh-klassov).
+* [List of input columns](#spisok-vkhodnykh-stolbtsov).
+* [Area of fine classes](#oblast-nachalnykh-klassov).
+* [Area of coarse classes](#oblast-konechnykh-klassov).
 
->**Примечание:** визуализатор *Конечные классы* может использоваться только с узлом [*Конечные классы*](./../../processors/preprocessing/coarse-classes.md).
+> **Примечание:** визуализатор *Конечные классы* может использоваться только с узлом [*Конечные классы*](./../../processors/preprocessing/coarse-classes.md).
 
-## Интерфейс
+## Interface
 
-### Операции
-Для *Списка входных столбцов* доступна операция ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg)**Скрыть боковую панель**. Нажатие на кнопку скрывает панель со списком входных столбцов, повторное нажатие возвращает панель.
+### Operations
+Для *Списка входных столбцов* доступна операция ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg)**Скрыть боковую панель**. Pressing the button enables to hide the bar with the list of input columns, whereas the repeated pressing returns the bar.
 
-*Область конечных классов* можно представить в виде [таблицы](#tablitsa) ![](./../../images/icons/common/toolbar-controls/table-view_default.svg) **Показать таблицу конечных классов** *(Alt+One*) или в виде [диаграмм](#diagramma) ![](./../../images/icons/common/toolbar-controls/chart_default.svg) **Показать диаграммы конечных классов** (*Alt+Two*).
+*Area of coarse classes* can be represented in the [table](#tablitsa) form - ![](./../../images/icons/common/toolbar-controls/table-view_default.svg) **Show coarse class table** *(Alt+One*) or in the form of [charts - ](#diagramma) ![](./../../images/icons/common/toolbar-controls/chart_default.svg) **Show coarse class charts** (*Alt+Two*).
 
 Также имеется переключатель ![](./../../images/icons/switches/roc/relative_default.svg)**Доли событий** / ![](./../../images/icons/switches/roc/absolute_default.svg)**Количество событий** — для выбора отображения абсолютных и относительных значений.
 
-### Список входных столбцов
+### List of Input Columns
 
-* Статус поля:
-  * ![](./../../images/icons/common/toolbar-controls/unlocked_default.svg) **Разморожено** — показывает, что данное поле может быть использовано в процессе формирования конечных классов при переобучении модели.
-  * ![](./../../images/icons/common/toolbar-controls/locked_default.svg) **Заморожено** — показывает, что при переобучении данное поле не будет использоваться.
-  
+* Field status:
+   * ![](./../../images/icons/common/toolbar-controls/unlocked_default.svg) **Unlocked** shows whether this field can be used in the process of the coarse classes generation while model overfitting.
+   * ![](./../../images/icons/common/toolbar-controls/locked_default.svg) **Locked** shows that this field will not be used while overfitting.
+
 > **Примечание:** статус поля изменить нельзя, он только отражает настройки в соответствующем узле [*Конечные классы*](./../../processors/preprocessing/coarse-classes.md).
 
-* Метка столбца.
-* Оцененный уровень значимости IV (см. рисунок 1).
+* Column caption.
+* Estimated significance level IV (refer to Figure 1).
 
-![Список входных столбцов.](./readme-1.png)
+![List of input columns.](./readme-1.png)
 
-### Область начальных классов
+### Area of Fine Classes
 
-Начальные классы представлены в виде одного варианта отображения — диаграммы.
+The fine classes are displayed in the form of one display option - a chart.
 
-При наведении курсора мыши на диаграмму в правом верхнем углу появляется кнопка ![](./chart-buttons-3.svg), нажав на которую, диаграмма развернется на всю область визуализатора.
+When hovering the mouse cursor over the chart in the right upper corner, ![](./chart-buttons-3.svg) button appears. Its pressing enables to expand the chart over the whole visualizer area.
 
-Диаграмма начальных классов может представлять:
+Fine classes chart can be as follows:
 
-* Долю;
-* [WoE (вес доказательства)](https://wiki.loginom.ru/articles/weight-of-evidence.html);
-* [IV (информационный индекс)](https://wiki.loginom.ru/articles/information-value.html).
+* Rate.
+* [WoE (weight of evidence)](https://wiki.loginom.ru/articles/weight-of-evidence.html).
+* [IV (information value)](https://wiki.loginom.ru/articles/information-value.html).
 
-Выбор отображения переключается кнопками (см. рисунок 2) в нижней части диаграммы.
+Display selection is switched by buttons (refer to Figure 2) in the lower part of the chart.
 
-![Вариант отображения диаграммы.](./charts-1.png)
+![Chart display option.](./charts-1.png)
 
-При увеличении диаграммы во всю область визуализатора, появляется выпадающий список, в нем можно выбрать поле, для которого будет построена диаграмма (см. рисунок 3).
+When expanding the chart over the whole visualizer area, the drop-down list appears. It enables to select the field for which the chart will be generated (refer to Figure 3).
 
-При наведении на столбец диаграммы появляется всплывающее окно, которое отображает значение поля и значение WoE/IV/Доли (см. рисунок 3).
+When hovering the mouse cursor over the chart column, the pop-up window appears. It displays the field value and WoE/IV/Rate value (refer to Figure 3).
 
-![Диаграмма начальных классов.](./charts-2.png)
+![Fine classes chart.](./charts-2.png)
 
-### Область конечных классов
+### Area of Coarse Classes
 
-Конечные классы отображаются в виде таблицы или диаграммы WoE (см. рисунок 4) / диаграммы IV. Диаграмма IV может отображать:
-  * Количество (см. рисунок 5);
-  * Доля (см. рисунок 6).
+The coarse classes are displayed in the form of a table or WoE chart (refer to Figure 4) / chart IV. Chart IV can display as follows:
+* Count (refer to Figure 5).
+* Rate (refer to Figure 6).
 
-#### Таблица
+#### Table
 
 При установке переключателя в положение *Количество событий*, таблица будет состоять из следующих полей:
 
-|Поле|Описание|
+| Field | Description |
 |:--------------------|:----------|
-|№|Номер класса|
-|Метка|Совокупность названий начальных классов, которые входят в конечный класс|
-|Нижняя|Нижняя граница интервала|
-|Верхняя|Верхняя граница интервала|
-|События|Одно из состояний бинарной целевой переменной класса|
-|Не-события|Противоположное состояние бинарной целевой переменной класса|
-|Всего|Сумма событий и не-событий класса|
-|Доля|Доля конечного класса от общего объема записей|
-|Вес доказательства|Коэффициент WoE|
-|[Инф. индекс](https://wiki.loginom.ru/articles/information-value.html)|Величина, определяющая значимость признака в модели [бинарной классификации](https://wiki.loginom.ru/articles/binary-classification.html)|
+| № | Class number |
+| Caption | A set of names of the fine classes included into the coarse class |
+| Lower | Lower bin bound |
+| Upper | Upper bin bound |
+| Events | One of the states of the binary target class variable |
+| Non-events | Opposite state of the binary target class variable |
+| Total | The sum of class events and non-events |
+| Rate | The coarse class rate based on the total volume of records |
+| Weight of evidence | Коэффициент WoE |
+| [Inf. value](https://wiki.loginom.ru/articles/information-value.html) | The value that defines the indicator significance in the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html) model |
 
-В нижней части таблицы отображается сумма:
+The sum is displayed in the lower part of the table:
 
-* Событий всех классов;
-* Не-событий всех классов;
-* Событий и Не-событий всех классов;
-* Информационных индексов всех классов.
+* Events of all classes.
+* Non-events of all classes.
+* Events and non-events of all classes.
+* Information values of all classes.
 
 При установке переключателя в положение *Доли событий*, вместо полей *События* и *Не-события* будут отображаться поля *Доля событий* и *Доля не-событий*.
 
@@ -103,25 +103,25 @@ description: Визуализатор "Конечные классы" в Loginom
 * Сумма информационных индексов всех классов.
 
 
-#### Диаграмма
+#### Chart
 
-При наведении курсора мыши на диаграмму в правом верхнем углу появляется кнопка ![](./chart-buttons-3.svg), позволяющая развернуть диаграмму на всю область визуализатора.
+When hovering the mouse cursor over the chart in the right upper corner, ![](./chart-buttons-3.svg) button appears. It enables to expand the chart over the whole visualizer area.
 
-![Диаграмма WoE.](./charts-3.png)
+![WoE chart.](./charts-3.png)
 
-Диаграммы Количество и Доля переключаются между собой кнопками ![](./chart-buttons-4.png) ![](./chart-buttons-5.png).
+![](./chart-buttons-4.png) ![](./chart-buttons-5.png) buttons are used to switch Count and Rate charts.
 
-![Диаграмма Доля.](./charts-4.png)
+![Rate Chart.](./charts-4.png)
 
-![Диаграмма Количество.](./charts-5.png)
+![Count Chart.](./charts-5.png)
 
-При наведении курсора мыши на столбец диаграммы всплывает окно (см. рисунок 7), в котором отображается:
+When hovering mouse cursor over the chart column, the window appears (refer to. Figure 7) which displays as follows:
 
-* Для диаграммы WoE:
-  * значение WoE.
-* Для диаграммы IV:
-  * значение IV.
-  * количество Событий.
-  * количество Не-событий.
+* For WoE chart:
+   * WoE value.
+* For chart IV:
+   * значение IV.
+   * количество Событий.
+   * non-events count.
 
-![Диаграммы WoE и IV.](./charts-6.png)
+![WoE chart and chart IV.](./charts-6.png)

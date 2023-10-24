@@ -2,6 +2,6 @@
 description: Раздел Предобработка. Оглавление.
 ---
 
-# Предобработка
+# Preprocessing
 
-Предварительная обработка данных для их дальнейшего использования в алгоритмах Data Mining. Применяются такие методы, как заполнение пропусков, сэмплинг, редактирование выбросов и другие.
+Data preprocessing for its further use in the Data Mining algorithms. Such methods as imputation, sampling, outliers elimination, etc. are applied.

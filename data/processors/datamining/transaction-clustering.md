@@ -1,56 +1,56 @@
 ---
-description: Компонент Кластеризация транзакций в Loginom. Алгоритм CLOPE. Коэффициент отталкивания. Ограничение числа итераций. Мастер настройки. 
+description: Компонент Кластеризация транзакций в Loginom. Алгоритм CLOPE. Коэффициент отталкивания. Ограничение числа итераций. Мастер настройки.
 ---
-# ![ ](./../../images/icons/components/clope_default.svg) Кластеризация транзакций
+# ![ ](./../../images/icons/components/clope_default.svg) Transaction Clustering
 
-## Описание
+## Description
 
-В основе кластеризации транзакций лежит [алгоритм CLOPE](https://loginom.ru/blog/clope), применение которого позволяет обрабатывать огромные массивы [транзакционных данных](https://wiki.loginom.ru/articles/transaction.html): чеки в супермаркетах, логи посещений веб-ресурсов и другие. Задача состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.
+Clustering is based on the [CLOPE algorithm](https://loginom.ru/blog/clope). Its usage enables to process huge arrays of [transactional data](https://wiki.loginom.ru/articles/transaction.html): checks in supermarkets, tracking data of web resources, etc. It is required to provide clustering of the whole set of transactions to place all similar transactions to one cluster, whereas the transactions that differ from each other must be placed into different clusters.
 
-Алгоритм автоматически подбирает количество кластеров. Аналитик может повлиять на результат с помощью коэффициента отталкивания, и назначения максимального числа кластеров или итераций.
+The algorithm selects the number of clusters automatically. An analyst can have influence on the result by means of repulsion coefficient and determination of the maximum number of clusters or iterations.
 
 Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Входной источник данных (таблица данных). Необязательный.
-* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Дополнительный вход (таблица данных). Необязательный.
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Input data source (data table). Optional.
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Supplementary input (data table). Optional.
 
-Входные данные - это транзакции, сформированные в 2 поля, одно из которых является транзакцией, а второе - элементом. Например, первое поле - код покупателя, второе - список его покупок.
+Input data means the transactions generated in 2 fields one of which is a transaction, whereas the second one is an item. For example, the first field is the buyer's code, the second one - a list of his purchases.
 
-#### Требования к принимаемым данным
+#### Requirements to the Received Data
 
-Поля с непрерывным видом данных непригодны для обработки.
+The fields with the continuous data kind are not suitable for processing.
 
 Преобразовать к требуемому виду (с полями Транзакция и Элемент) обычный набор данных, состоящий из столбцов с измеренными свойствами объектов всегда можно при помощи узлов Loginom, таких как [Свёртка столбцов](./../transformation/collapse-columns.md) и [Калькулятор](./../transformation/calc/README.md)
 
-### Выход
+### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Разбиение на кластеры.**
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Clustering.**
 
-Таблица данных, состоящая из:
+The data table that consists of:
 
-* Поля, назначение которого — "Транзакция".
-* Номеров кластеров — каждой транзакции присвоен номер того кластера, в который она входит.
+* The field with the "Transaction" usage type.
+* Numbers of clusters: each transaction is assigned with the number of the cluster into which it is included.
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Параметры кластеров.**
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — **Cluster parameters.**
 
-Таблица данных, состоящая из:
+The data table that consists of:
 
-* Номеров кластеров — перечислены номера сформированных кластеров.
-* N — количество транзакций, вошедших в кластер.
-* W — ширина кластера, т.е. число уникальных объектов в нем.
-* S — мощность (площадь) кластера.
+* Cluster numbers: numbers of the generated clusters are listed.
+* N — count of the transactions included into cluster.
+* W — cluster width, namely, the number of the unique objects included into it.
+* S — cluster size (area).
 
-## Мастер настройки
+## Wizard
 
-На данном этапе необходимо задать:
+At this stage it is required to provide the following settings:
 
-* **Поля для кластеризации.**
-  * Для полей, участвующих в обработке, выставить назначения "Транзакция" и "Элемент".
-  * Для прочих полей оставить "Не задано".
-* **Коэффициент отталкивания** — с его помощью регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров. Чем больше коэффициент, тем ниже уровень сходства и тем больше кластеров будет сгенерировано. По умолчанию значение коэффициента отталкивания установлено 2,6. Диапазон изменения значений от 1 до 4.
-* **Ограничить число кластеров** — предполагает возможность вручную задать наибольшее количество кластеров, которые может выдать в результате алгоритм. Этой настройкой можно воспользоваться в случае, если задача требует определенного числа кластеров, например, не больше 15.
-* **Ограничить число итераций** — искусственное прекращение работы алгоритма в случае, если количество итераций алгоритма превышает заданное максимальное число итераций. В алгоритме первый проход по таблице транзакций служит для построения начального разбиения, определяемого функцией стоимости, после чего для повышения качества кластеризации и оптимизации функции дополнительно сканируются таблицы несколько раз, пока изменения в разбиении не прекратятся. Ограничивать максимальное количество итераций следует в случае большого количества данных для предварительной оценки качества кластеризации.
+* **Fields for clustering.**
+   * It is required to set the "Transaction" and "Item" usage types for the fields that are included into processing.
+   * "Unspecified" is preserved for other fields.
+* **Repulsion coefficient**: it enables to control the level of transactions similarity inside the cluster and consequently the final number of clusters. The higher coefficient, the lower the similarity level and the more clusters will be generated. The default repulsion coefficient value is equal to 2.6. Range of values change varies from 1 to 4.
+* **Limit the number of clusters** enables to set the highest number of clusters that can be finally provided by the algorithm manually. This setting can be used if the definite number of cluster is required, for example, not exceeding 15.
+* **Limit the number of iterations** enables to terminate the algorithm operation deliberately if the algorithm iterations number exceeds the set maximum number of iterations. The first transaction table check in the algorithm is required for the first clustering defined by the cost function. Then, to improve the clustering quality and optimize the function, the tables are additionally scanned once again several times, until changes in clustering are stopped. It is required to limit the maximum number of iterations in the case of large amount of data for preliminary evaluation of the clustering quality.

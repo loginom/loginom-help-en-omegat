@@ -2,9 +2,9 @@
 description: Переменные. Оглавление.
 ---
 
-# Переменные
+# Variables
 
-[Переменная](../../workflow/variables/README.md) — именованный объект, который может содержать только одно значение определенного типа. В Loginom есть несколько видов [переменных](../../workflow/variables/scenario-variables.md).
+[Variable](../../workflow/variables/README.md): the named object that can contain only one value of the particular type. В Loginom есть несколько видов [переменных](../../workflow/variables/scenario-variables.md).
 
 Значения переменных могут использоваться в вычислениях, например, в узлах [Калькулятор](./../../processors/transformation/calc/README.md),
 [Условие](./../../processors/control/condition.md)

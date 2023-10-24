@@ -1,44 +1,44 @@
 ---
 description: Компонент JavaScript в Loginom. Импорт функций Калькулятора. Встроенный модуль "builtIn/Calc". Примеры.
 ---
-# ![](./../../../images/icons/components/javascript_default.svg) Импорт функций Калькулятора
+# ![](./../../../images/icons/components/javascript_default.svg) Calculator Functions Import
 
-В коде JavaScript возможно использование [функций Калькулятора](./../../func/calc-func/README.md). Для этого используется встроенный модуль `"builtIn/Calc"`. Доступны все функции, включая реализованные в плагинах, за исключением следующих:
+It is possible to use the [Calculator functions](./../../func/calc-func/README.md) in the JavaScript code. For this purpose, it is required to use the built-in module - `"builtIn/Calc"`. All functions are available, including the ones implemented in plugins, with the exception of the following ones:
 
-- IF, IFF — имеется аналог в JS: `if (<условие>) {...}`;
-- Функций работы со входными данными (`Data`, `RowNum`, `RowCount`, `DisplayName`, `CumulativeSum`) — имеются аналоги в [API](./api-description.md) (`RowCount`, `DisplayName`) или легко реализуются кодом JS.
+- IF, IFF: there is an analogue in JS: `if (<condition>) {...}`.
+- The functions of work with the input data (`Data`, `RowNum`, `RowCount`, `DisplayName`, `CumulativeSum`): there are analogues in [API](./api-description.md) (`RowCount`, `DisplayName`), or they are easily implemented by the JS code.
 
-Примеры использования функций:
+Examples of the functions use:
 
 ```javascript
 import { OutputTable } from "builtIn/Data";
 
-// Импорт модуля функцией require
+// Module import by require function
 const calcModule = require("builtIn/Calc");
 OutputTable.Append();
 let currentDate = new Date();
 OutputTable.Set(0, calcModule.AddWeek(currentDate, 1));
 OutputTable.Set(1, calcModule.AddQuarter(currentDate, -1));
 
-// Импорт через значение по умолчанию
+// Import using the default value
 import calcDefault from "builtIn/Calc";
 OutputTable.Append();
 OutputTable.Set(0, calcDefault.Val("1"));
 OutputTable.Set(1, calcDefault.Str(1e6));
 
-// Импорт всего содержимого модуля
+// Import of the whole module content
 import * as calc from "builtIn/Calc";
 OutputTable.Append();
 OutputTable.Set(0, calc.Count("AAA"));
 OutputTable.Set(1, calc.Lower("AAA"));
 
-// Импорт конкретных функций
+// Import of certain functions
 import { RegExMatchCount, RegExMatchedExp } from "builtIn/Calc";
 OutputTable.Append();
 OutputTable.Set(0, RegExMatchCount("a+?", "aaa"));
 OutputTable.Set(1, RegExMatchedExp("a+", "aaa"));
 
-// Динамический импорт
+// Dynamic import
 import("builtIn/Calc").then(calc => {
     OutputTable.Append();
     OutputTable.Set(0, calc.Repeat(1, 10));

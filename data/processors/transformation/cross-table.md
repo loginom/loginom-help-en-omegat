@@ -1,61 +1,61 @@
 ---
 description: Кросс-таблица в Loginom. Создание сводной таблицы. Мастер настройки.
 ---
-# ![Кросс-таблица](../../images/icons/components/cross-tab_default.svg) Кросс-таблица
+# ![Cross Table](../../images/icons/components/cross-tab_default.svg) Cross Table
 
-Компонент создает сводную таблицу на основе исходного набора. При создании таблицы:
+Компонент создает сводную таблицу на основе исходного набора. When creating the table, the following criteria are met:
 
-* Часть полей исходного набора остается без изменений, образуя **строки** сводной таблицы;
-* Значения ячеек другой группы полей образуют **колонки** сводной таблицы, задавая их заголовки;
-* Данные третьей группы полей участвуют в расчете **фактов** — [агрегированных значений](../func/aggregation-functions.md) на пересечении строк и колонок сводной таблицы.
+* A part of fields of the source data set is unchanged forming the **strings** of the pivot table.
+* The values of cells of the other fields groups form the **columns** of the pivot table defining their headers.
+* Data of the third group of fields is used for calculation of **measures** — [aggregated values](../func/aggregation-functions.md) at the intersection of strings and columns of the pivot table.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходная таблица:
+Source table:
 
-| Дата | Товар | Количество продаж |
+| Date | Goods | Volume of sales |
 | :------- | :------- | -------: |
-| 05.02.2022 | Обои | 2000 |
-| 05.02.2022 | Затирка | 300 |
-| 07.02.2022 | Обои | 2000 |
-| 07.02.2022 | Герметик | 750 |
-| 07.02.2022 | Грунтовка | 400 |
-| 10.02.2022 | Грунтовка | 400 |
-| 10.02.2022 | Обои | 3000 |
-| 11.02.2022 | Герметик | 250 |
+| 05.02.2022 | Wallpaper | 2000 |
+| 05.02.2022 | Grout | 300 |
+| 07.02.2022 | Wallpaper | 2000 |
+| 07.02.2022 | Sealer | 750 |
+| 07.02.2022 | Primer | 400 |
+| 10.02.2022 | Primer | 400 |
+| 10.02.2022 | Wallpaper | 3000 |
+| 11.02.2022 | Sealer | 250 |
 
-Преобразуем исходную таблицу со следующими параметрами: колонки — *Товар*, строки — *Дата*, факты — *Количество продаж*. По полю *Количество продаж* выберем функцию агрегации *Сумма*.
+Преобразуем исходную таблицу со следующими параметрами: колонки — *Товар*, строки — *Дата*, факты — *Количество продаж*. Let's select the *Sum* aggregation function by the *Volume of sales* field.
 
-Выходной набор данных:
+Output data set:
 
-| Дата | Герметик | Грунтовка | Затирка | Обои |
+| Date | Sealer | Primer | Grout | Wallpaper |
 | :------- | -------: | -------: | -------: | -------: |
 | 05.02.2022 |  | | 300 | 2000 |
 | 07.02.2022 | 750 | 400 | | 2000 |
 | 10.02.2022 |  | 400 | | 3000 |
 | 11.02.2022 | 250 |  | |  | |
 
-После обработки значения поля *Товар* перешли в заголовки новых столбцов, значения поля *Дата* остались в строках, а значения поля *Количество продаж* просуммированы по датам.
+Upon processing, the values of the *Goods* field were transferred to headers of the new columns, the values of the *Date* field were left in the strings, the values of the *Volume of sales* field were summed by dates.
 
 %/spoiler%
 
-### Вход
+### Input
 
-* ![Входной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных.
+* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
-### Выход
+### Output
 
-* ![Выходной источник данных](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с обработанными данными.
+* ![Output data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with processed data is output to the port.
 
-## Мастер настройки
+## Wizard
 
-Окно мастера поделено на две области: доступные поля (слева) и выбранные поля (справа).
+The wizard window is divided into two areas: available fields (to the left) and selected fields (to the right).
 
-* **Доступные поля** — содержит поля входного набора данных.
-* **Выбранные поля** — делится на группы.
-  * ![Колонки](../../images/icons/common/dataset-operations/dsa-columns_default.svg) Колонки.
-  * ![Строки](../../images/icons/common/dataset-operations/dsa-rows_default.svg) Строки.
-  * ![Факты](../../images/icons/common/dataset-operations/dsa-factor_default.svg) Факты.  
+* **Available fields** contain the input data set fields.
+* **Selected fields** are divided into groups.
+   * ![Columns](../../images/icons/common/dataset-operations/dsa-columns_default.svg) Columns.
+   * ![Strings](../../images/icons/common/dataset-operations/dsa-rows_default.svg) Strings.
+   * ![Measures](../../images/icons/common/dataset-operations/dsa-factor_default.svg) Measures.
 
 %spoiler%Агрегация фактов и возможные типы данных:%spoiler%
 
@@ -76,11 +76,11 @@ description: Кросс-таблица в Loginom. Создание сводно
 %/spoiler%
 
 
-В области *Доступные поля* помимо полей входного набора данных всегда присутствует синтетическое поле *Количество*, оно может быть добавлено только в группу *Факты*. В нем будет подсчитано, сколько раз в исходном наборе данных встречается каждая комбинация из колонок и строк.
+The *Available fields* area always contains the *Count* synthetic field apart from the input data set fields, it can be added only to the *Measures* group. It will be calculated how many times each combination of columns and strings occurs in the source data set.
 
-### Колонки
+### Columns
 
-Значения этих полей станут заголовками столбцов. Поля в данной группе обязательно должны иметь дискретный [вид данных](../../data/datakind.md).
+The values of these fields will be the columns headers. Поля в данной группе обязательно должны иметь дискретный [вид данных](../../data/datakind.md).
 
 #### **Измерение в колонках**
 
@@ -92,47 +92,47 @@ description: Кросс-таблица в Loginom. Создание сводно
 
 ![Измерение в колонках](./cross-table/measure.PNG)
 
-При работе с кросс-таблицей может возникнуть ситуация, когда в полях, по которым были сформированы колонки, появляются новые значения. В узле имеется два подхода к решению этой проблемы:
+When using the cross table, new values can appear in the fields by which the columns were generated. В узле имеется два подхода к решению этой проблемы:
 
-* **Скользящие уникальные значения** — заново создает колонки из уникальных значений поля (полей). При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых уникальных значений. Также можно установить минимальное число значений поля, из которых будут созданы колонки. Но в этом случае в результирующей таблице сохранится столбец с оставшимися значениями.
+* **Sliding unique values** enable to create columns from the unique field (fields) values. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new unique values. It is also possible to set the minimum number of the fields values from which the columns will be created. But in this case, the column with the remaining values will be left in the resulting table.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Входная таблица:
+Input table:
 
-| Точка продажи | Товар | Сумма продажи |
+| Point of sale | Goods | Amount of sales |
 |:--------------|:-----:|:--------------|
-| СтройРынок | Обои | 170 |
-| СтройРынок | Плитка | 400 |
+| StroyRynok | Wallpaper | 170 |
+| StroyRynok | Tiles | 400 |
 
 Кросс-таблица с колонкой: Товар.<br>
 Для колонки установлено минимальное количество уникальных значений = 4.<br>
 Со строкой: Точка продажи.<br>
 Фактом: Сумма продажи (Сумма).<br>
 
-Результирующая таблица:
+Resulting table:
 
-| Точка продажи | Обои | Плитка | 3 | 4 |
+| Point of sale | Wallpaper | Tiles | 3 | 4 |
 |:--------------|:-----:|:-----:|---|---|
-| СтройРынок | 170 | 400 | | | |
+| StroyRynok | 170 | 400 | | | |
 
 Если во входной набор добавился ещё один товар:
 
-| Точка продажи | Товар | Сумма продажи |
+| Point of sale | Goods | Amount of sales |
 |:--------------|:-----:|:--------------|
-| СтройРынок | Обои | 170 |
-| СтройРынок | Плитка | 400 |
-| СтройРынок | Герметик | 135 |
+| StroyRynok | Wallpaper | 170 |
+| StroyRynok | Tiles | 400 |
+| StroyRynok | Sealer | 135 |
 
 И настройки кросс-таблицы не изменились, то результирующий набор будет следующим:
 
-| Точка продажи | Обои | Плитка | Герметик | 4 |
+| Point of sale | Wallpaper | Tiles | Sealer | 4 |
 |:--------------|:-----:|:-----:|:--------:|---|
-| СтройРынок | 170 | 400 | 135 | | |
+| StroyRynok | 170 | 400 | 135 | | |
 
 %/spoiler%
 
-* **Группа значений** — если в исходном поле с момента последней настройки узла появятся новые значения, то при включенном флаге *Прочие* факты для таких значений будут агрегироваться в столбце *Прочие*. Установленный флаг *Пропущенные* обеспечивает  отображение в выходном наборе данных полей с пропущенными значениями. Факты для них будут агрегироваться в столбце *Пропущенные значения*.
+* **Group of values**: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled *Other* checkbox, measures for such values will be aggregated in the *Other* column. The enabled *Null* checkbox displays the field data with null values in the output data set. Measures for them will be aggregated in the *Null values* column.
 
 **Общие настройки для колонок**
 
@@ -140,19 +140,19 @@ description: Кросс-таблица в Loginom. Создание сводно
 
 Расположены в нижней части мастера и имеют следующие параметры:
 
-* **Разделитель частей меток полей** — выбирается каким символом будут разделены метки новых полей, при выборе нескольких полей в колонках.
-  * . (точка).
-  * | (вертикальная линия).
-  * ->.
-  * Пробел.
-* **Скользящие уникальные значения** — установка флага позволяет заново создавать колонки из уникальных значений поля (полей). При изменении значений исходного набора данных вся структура результирующей таблицы полностью перестроится с учетом новых значений.
-* **Ограничение количества значений** — используется, чтобы ограничить максимальное количество колонок  в выходном наборе, отбираются первые n сформированных полей, если установленное количество значений больше  количества уникальных значений в колонках, то фиктивные столбцы не добавляются.
+* **Field caption parts separator**: it is required to select the character to separate the new fields captions when selecting several fields in the columns.
+   * . (Dot).
+   * | (вертикальная линия).
+   * ->.
+   * Space.
+* **Sliding unique values**: the checkbox selection enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
+* **Value number limit** is used to limit the maximum count of columns in the output data set. The first n generated fields are selected if the set number of values exceeds the number of the unique values in the columns, the fictitious columns are not added.
 
-С помощью кнопок ![Вверх](../../images/icons/common/toolbar-controls/moveup_default.svg) и ![Вниз](../../images/icons/common/toolbar-controls/movedown_default.svg) можно менять порядок полей в группе. То, в каком порядке расположены поля, влияет на структуру результирующей таблицы.
+Using ![Up](../../images/icons/common/toolbar-controls/moveup_default.svg) and ![Down](../../images/icons/common/toolbar-controls/movedown_default.svg) buttons, it is possible to change the order of fields in the group. The order of fields location has an impact on the resulting table structure.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходная таблица:
+Source table:
 
 |Точка продажи|Товар|Сумма продажи|Дата|
 |:-|:-|-:|:-|
@@ -169,31 +169,31 @@ description: Кросс-таблица в Loginom. Создание сводно
 |СтройРынок|Герметик|65|13.04.2022|
 |Павильон|Герметик|260|13.04.2022|
 
-*Кросс-таблица* с порядком колонок: *Товар*, *Точка продажи*.  Фактом: *Сумма продажи (Сумма)*. И параметром *Разделитель частей меток полей*: `.`
+*Cross table* with the following order of columns: *Goods*, *Point of sale*.  Measure: *Amount of sales (Amount)*. And the following parameter: *Field caption parts separator*: `.`
 
-|Герметик.Павильон|Герметик.СтройРынок|Обои.Павильон|Обои.СтройРынок|Плитка.Павильон|Плитка.СтройРынок|
+|Sealer.Trade stand|Sealer.StroyRynok|Wallpaper.Trade stand|Wallpaper.StroyRynok|Tiles.Trade stand|Tiles.StroyRynok|
 |-:|-:|-:|-:|-:|-:|
 |300|200|600|300|100|400|
 
-*Кросс-таблица* с порядком колонок: *Точка продажи*, *Товар*. Фактом: *Сумма продажи (Сумма)*. И параметром *Разделитель частей меток полей*: `.`
+*Cross table* with the following order of columns: *Point of sale*, *Goods*. Measure: *Amount of sales (Amount)*. And the following parameter: *Field caption parts separator*: `.`
 
-|Павильон.Герметик|Павильон.Обои|Павильон.Плитка|СтройРынок.Герметик|СтройРынок.Обои|СтройРынок.Плитка|
+|Trade stand.Sealer|Trade stand.Wallpaper|Trade stand.Tiles|StroyRynok.Sealer|StroyRynok.Wallpaper|StroyRynok.Tiles|
 |-:|-:|-:|-:|-:|-:|
 |300|600|100|200|300|400|
 
 %/spoiler%
 
->**Примечание:** **Скользящие уникальные значения** и **Группа значений** являются несовместимыми параметрами. То есть при включении одного нет возможности задать второй и наоборот.
+> **Примечание:** **Скользящие уникальные значения** и **Группа значений** являются несовместимыми параметрами. То есть при включении одного нет возможности задать второй и наоборот.
 
-### Строки
+### Strings
 
-Из значений полей  сформируются строки в кросс-таблице. Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в узле [Группировка](./grouping.md).
+The cross table rows will be generated from the fields values. Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в узле [Группировка](./grouping.md).
 
-Порядок полей в данной группе влияет на порядок сортировки данных в результирующей таблице по этим полям.
+The fields order in this group has an impact on data sorting in the resulting table by these fields.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Исходная таблица:
+Source table:
 
 |Точка продажи|Товар|Сумма продажи|Дата|
 |:-|:-|-:|:-|
@@ -210,7 +210,7 @@ description: Кросс-таблица в Loginom. Создание сводно
 |СтройРынок|Герметик|65|13.04.2022|
 |Павильон|Герметик|260|13.04.2022|
 
-*Кросс-таблица* с порядком строк: *Точка продажи*, *Дата*. Фактом: *Сумма продажи (Сумма)*.
+*Cross table* with the following order of strings: *Point of sale*, *Date*. Measure: *Amount of sales (Amount)*.
 
 |Точка продажи|Дата|Сумма продажи|
 |:-|:-|-:|
@@ -223,10 +223,10 @@ description: Кросс-таблица в Loginom. Создание сводно
 
 %/spoiler%
 
-### Факты
+### Measures
 
-Данные полей в этой группе обрабатываются в соответствии с [функциями агрегации](../func/aggregation-functions.md). Получившиеся значения отображаются на пересечении колонок и строк. По умолчанию для числовых типов выбрана функция *Сумма*, а для всех остальных *Количество*.
+The fields data in this group are processed according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. By default, the *Sum* function is selected for all numerical types, whereas for others - *Count*.
 
-Чтобы выбрать другие функции агрегации, необходимо дважды кликнуть по полю. При выборе нескольких вариантов функций каждая из них будет рассчитана в отдельном столбце.
+To select other aggregation functions, it is required to double click on the field. При выборе нескольких вариантов функций каждая из них будет рассчитана в отдельном столбце.
 
-В группе *Факты* порядок полей не имеет значения.
+The order of fields does not matter in the *Measures* group.

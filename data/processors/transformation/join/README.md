@@ -1,54 +1,54 @@
 ---
 description: Слияние данных в Loginom. Правое соединение (аналог RIGHT JOIN в SQL). Левое соединение (аналог LEFT JOIN в SQL). Внутреннее соединение (аналог INNER JOIN в SQL). Полное соединение (аналог FULL JOIN в SQL). Разность.
 ---
-# ![Слияние](./../../../images/icons/components/join-data_default.svg) Слияние
+# ![Join](./../../../images/icons/components/join-data_default.svg) Join
 
- Данные ключевых полей основного и присоединяемого наборов сравниваются между собой, результат операции сравнения используется алгоритмом слияния для формирования результирующего набора. Слияние наборов данных, связанных по ключевым полям — аналог операции JOIN в SQL.
+Data of the key fields of the main and joined data sets is compared with each other. The comparison result is used by the join algorithm to generate the resulting data set. Join of the data sets that are connected by the key fields — analogue of the JOIN operation in SQL.
 
-Варианты слияния наборов:
+Options of data sets join:
 
-* ![ ](./../../../images/icons/components/joindata/join-full_default.svg) [Полное соединение](./cross.md);
-* ![ ](./../../../images/icons/components/joindata/join-inner_default.svg) [Внутреннее соединение](./inner.md);
-* ![ ](./../../../images/icons/components/joindata/join-left_default.svg) [Левое соединение](./left.md);
-* ![ ](./../../../images/icons/components/joindata/join-right_default.svg) [Правое соединение](./right.md);
-* ![ ](./../../../images/icons/components/joindata/join-diff_default.svg) [Разность](./difference.md).
+* ![ ](./../../../images/icons/components/joindata/join-full_default.svg) [Full join](./cross.md).
+* ![ ](./../../../images/icons/components/joindata/join-inner_default.svg) [Inner join](./inner.md).
+* ![ ](./../../../images/icons/components/joindata/join-left_default.svg) [Left join](./left.md).
+* ![ ](./../../../images/icons/components/joindata/join-right_default.svg) [Right join](./right.md).
+* ![ ](./../../../images/icons/components/joindata/join-diff_default.svg) [Difference](./difference.md).
 
-За исключением способа [Разность](./difference.md), каждый из перечисленных способов слияния является аналогом определенного типа соединения в языке запросов SQL.
+With the exception of the [Difference](./difference.md) method, each of the enumerated join methods is an analogue of the particular join type in SQL.
 
-### Вход
+### Input
 
-* ![Главная таблица](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Главная таблица** — таблица, к которой добавляются наборы данных из присоединяемой таблицы (в контексте понятий языка SQL запросов принимает данные левой таблицы для соединения);
-* ![Присоединяемая таблица](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Присоединяемая таблица** — таблица, наборы данных которой добавляются к главной таблице (в контексте понятий языка SQL запросов принимает данные правой таблицы для соединения).
+* ![Main table](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Main table**: the table to which data sets from the joined table are appended (in the context of the SQL terms, it accepts the left table data for join).
+* ![Joined table](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table**: the table data sets of which are appended to the main table (in the context of the SQL terms, it accepts the right table data for join).
 
-### Выход
+### Output
 
-* ![Выходной набор данных](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — результат слияния. Как правило, содержит поля основного и присоединяемого наборов.
+* ![Output data set](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: join result. As a rule, it contains the fields of the main and joined data sets.
 
-## Мастер настройки
+## Wizard
 
-* **Тип операции** — выбор способа слияния;
-* **Область сопоставления полей** — настройка полей связи главного и присоединяемого наборов данных.
+* **Operation type** enables to select the join method.
+* **Area of fields mapping**: configuration of the connection fields of the main and joined data sets.
 
-Тип операции (способ слияния) можно выбрать из выпадающего списка или задать с помощью [управляющей переменной](./../../../workflow/variables/control-variables.md) целого типа (см. [типы данных](./../../../data/datatype.md)):
+Operation type (join method) can be selected from the drop-down list, or it can be set using the [control variable](./../../../workflow/variables/control-variables.md) of the integer type (refer to [data types](./../../../data/datatype.md)):
 
-* 0 - Внутреннее соединение;
-* 1 - Левое соединение;
-* 2 - Правое соединение;
-* 3 - Полное соединение;
-* 4 - Разность.
+* 0 - Inner join.
+* 1 - Left join.
+* 2 - Right join.
+* 3 - Full join.
+* 4 - Difference.
 
-Поля связываются при помощи перетаскивания мыши (Drag-and-drop). Сопоставленные таким образом ключевые поля соединяются линиями связей. Связь между полями можно удалить, либо настроить на другое поле.
+The fields are linked using the Drag-and-Drop method. The key fields mapped by this method are linked by the connection lines. The link between the fields can be deleted or set to another field.
 
-Связывание допускается только для полей с одинаковыми типами данных.
+Linking is allowed only for the fields with the similar data types.
 
-* **Добавлять присоединяемые ключевые поля** — установка этого флага оставит ключевые поля из присоединяемой таблицы в выходном наборе данных.
+* **Add joined key fields**: selection of this checkbox enables to keep the key fields from the joined table in the output data set.
 
->**Важно**: При любом соединении (`JOIN`) в результирующий набор данных включаются ключевые поля только главной таблицы.
+> **Important**: Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`).
 
 ---
 
-**Смотри также:**
+**See also:**
 
-* [Дополнение данных](./../enrich-data.md)
-* [Соединение](./../column-union.md)
-* [Объединение](./../union.md)
+* [Enrich data](./../enrich-data.md);
+* [Connection](./../column-union.md)
+* [Union](./../union.md)

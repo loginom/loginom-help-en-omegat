@@ -1,20 +1,20 @@
 ---
 description: Ленивые вычисления в аналитической платформе Loginom. Сохранение однажды вычисленного значения. Кэширование выражений. 
 ---
-# Кэширование
+# Caching
 
-**Кэширование** — сохранение однажды вычисленного значения.
+**Caching** means saving of once calculated value.
 
-Стратегия [ленивых вычислений](https://wiki.loginom.ru/articles/lazy-evaluation.html) предусматривает расчет вычисляемых значений только при необходимости их использования. При этом промежуточные вычисления не хранятся в памяти компьютера и пересчитываются каждый раз, когда такая необходимость возникает. Такая стратегия существенно сокращает требования к вычислительным ресурсам, в частности, к оперативной памяти компьютера. Однако, в случае, если алгоритм предусматривает многократное использование промежуточных данных, эта стратегия может приводить к увеличению времени выполнения алгоритма. В этих случаях целесообразно сохранить промежуточные расчеты в памяти для последующего использования.
+The strategy of [lazy evaluations](https://wiki.loginom.ru/articles/lazy-evaluation.html) provides for calculation of the calculated values only if it is required to use them. In this case, the intermediate calculations are not kept in the computer memory, and they are recalculated each time when it is required. Such strategy considerably lowers the requirements to the computational performance, more specifically, to the computer memory (RAM). However, if the algorithm provides for the multiple use of the intermediate data, this strategy can cause increase of the algorithm execution time. In these cases, it is reasonable to save the intermediate calculations in the memory for the further use.
 
 Таким образом, кэширование целесообразно при неоднократном использовании вычисляемых значений последующими узлами и визуализаторами во избежание выполнения повторных вычислений.
 
 ---
 
-Кэширование данных требует дополнительный объем памяти, но в описанных выше случаях сокращает время выполнения алгоритма. Разработчик сценария должен находить оптимальное соотношение этих параметров.
+Data caching requires the additional memory size but in the cases described above it decreases the algorithm execution time. The workflow developer must provide the optimal balance of these parameters.
 
-## Кэширование выражений
+## Caching of Expressions
 
-*Кэширование* необходимо включать в [выражениях](./../processors/transformation/calc/expression.md) *Калькулятора* в случае использования функции `Data()` при рекурсивном вычислении значений.
+It is required to enable *Caching* in the *Calculator* [expressions](./../processors/transformation/calc/expression.md) in the case of `Data()` function usage for the recursive computation of values.
 
-Рекомендуется применять *Кэширование* при использовании функций, результат которых зависит от момента времени, в которое происходит это вычисление, например: `Random()`, `Today()` и других.
+It is recommended to use *Caching* when using the functions result of which depends on the time point when this calculation is performed, for example: `Random()`, `Today()`, etc.

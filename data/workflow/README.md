@@ -1,31 +1,31 @@
-# Проектирование сценариев
+# Workflows Design
 
-**Сценарий** — главная составная часть Модуля (см. [назначение и структура пакета](./../quick-start/package.md)) и представляет собой последовательность шагов по обработке данных. Шаги задаются узлами из стандартных или [Производных компонентов](./derived-component.md).
+The **Workflow** is the main component of the Module (refer to [package usage type and structure](./../quick-start/package.md)). It is a sequence of the data processing steps. The steps are set by the nodes from the standard or [Derived components](./derived-component.md).
 
-Сценарий по умолчанию пустой и заполняется необходимыми компонентами в зависимости от решаемой задачи путем их добавления в область Сценария (см. [интерактивный режим работы](./interactive-mode.md)).
+The workflow is empty by default and it is filled with required components according to the solved task by their adding to the Workflow area (refer to the [Interactive mode of operation](./interactive-mode.md)).
 
-[Порты](./ports/README.md) — способ коммуникации между узлами.
+[Ports](./ports/README.md): method of communication between the nodes.
 
-В Loginom узлы Сценария принимают данные через входные порты, а отдают через выходные. Входные порты на пиктограмме узла Сценария располагаются слева, а выходные справа.
+In Loginom the Workflow nodes accept data via the input ports and give it back via the output ones. The input ports are located to the left on the Workflow node icon, and the output ones - to the right.
 
-Для того чтобы более гибко реализовывать работу Сценария можно использовать [переменные](./variables/README.md) — объекты, содержащие только одно значение конкретного типа.
+To provide more flexible operation of the Workflow, it is possible to use [variables](./variables/README.md). They are objects that contain only one value of the particular type.
 
-Утрированно бывают следующие типы переменных:
+In general, there are the following types of variables:
 
-* Переменные Сценария;
-* Переменные узла.
+* Workflow variables;
+* Node variables.
 
-В Сценариях имеется возможность создавать Производные компоненты на основе базовых.
-Их особенностью является то, что они имеют структуру базового компонента, но могут иметь уникальные признаки.
+It is possible to create the Derived Components based on the base ones in the Workflows.
+Their peculiarity consists in the fact that they have the base component structure but can also have unique indicators.
 
-При проектировании Сценария есть возможность сделать так, чтобы наши объекты (например, узлы) были доступны другому Сценарию (см. [модификатора доступа](./access-modifier.md)).
+When designing the Workflow, it is possible to make our objects (for example, nodes) available to another Workflow (refer to [access modifier](./access-modifier.md)).
 
-Помимо выполнения Сценариев в интерфейсе (Интерактивный режим), существует другой вариант исполнения — [пакетный режим](./batchlauncher.md). Суть режима заключается в том, что Сценарий запускается без интерфейса и результатом является манипуляции с входными данными (преобразование, передача и выгрузка данных).
+Apart from the Workflows execution in the interface (Interactive mode), there is another execution option — [batch mode](./batchlauncher.md). The point of the mode is that the Workflow is launched without interface. It brings about operations with the input data (transformation, transfer and upload of data).
 
-Также, узел можно [обучать/переобучать](./training-processors.md). Эта функция используется для узлов, основанных на обучении (Нейронные сети ([Нейросеть (Регрессия)](./../processors/datamining/neural-network-regression.md) и [Нейросеть (Классификация)](./../processors/datamining/neural-network-classification.md)), [Кластеризация](./../processors/datamining/clustering.md) и т.п.). Переобучение особенно необходимо в тех случаях, когда набор данных изменяется и требуется перестроить Модель на новых данных.
+It is also possible to [train/retrain](./training-processors.md) the node. This function is used for the nodes based on the training (Neural networks ([Neural network (Regression)](./../processors/datamining/neural-network-regression.md) and [Neural network (Clustering)](./../processors/datamining/neural-network-classification.md)), [Clustering](./../processors/datamining/clustering.md), etc.). Retraining is particularly important in the cases when the data set is changed, and it is required to retrain the Model on the new data basis.
 
-В Loginom в зависимости от особенностей предметной области разрабатываемого Сценария или для оптимизации (например, увеличение скорости выполнения) можно задать собственную последовательность выполнения узлов (см. [управление ходом выполнения сценария](./workflow-progress-control.md)).
+In Loginom it is possible to set own order of nodes execution according to the subject area peculiarities of the designed Workflow or for the optimization purposes (for example, increase of the execution speed) (refer to [workflow progress control](./workflow-progress-control.md)).
 
-Для избежания повторных вычислений существует возможность сохранения промежуточных расчетов в памяти (см. [кэширование](./caching.md)).
+To avoid repeated calculations, it is possible to save the intermediate calculations in memory (refer to [caching](./caching.md)).
 
-При необходимости, уже спроектированный Сценарий можно запустить в другой среде исполнения. В этом случае необходимо следить за [локальными настройками](./local-settings.md). Их изменение может привести к изменению результатов выполнения Сценария.
+Where applicable, already designed Workflow can be launched in another execution environment. In this case, it is required to keep track of the [local settings](./local-settings.md). Their change can cause the change of the Workflow execution results.

@@ -1,30 +1,29 @@
 ---
 description: Автоматическая синхронизация полей и переменных в аналитической платформе Loginom. Алгоритм автоматической синхронизации. Визуальная индикация отключенной автоматической синхронизации в порту данных.
 ---
-# Автоматическая синхронизация полей
+# Automapping of Fields
 
-Ряд узлов Сценария, такие как [Кросс-таблица](../../processors/transformation/cross-table.md), не имеют постоянной структуры выходных данных. Перечень полей таких узлов может быть переменным, зависящим от входных данных. Для приема данных с переменной структурой служит автоматическая синхронизация полей/переменных, в ходе которой синхронизируется список выходных полей/переменных порта со списком входных. При этом, в отличии от команды "Связать автоматически" список выходных полей/переменных может быть изменен алгоритмом синхронизации и могут быть добавлены новые связи.
+Some Workflow nodes, for example, [Cross table](../../processors/transformation/cross-table.md), do not have the constant structure of the output data. List of fields of such nodes can be variable according to the input data. To receive the data with the variable structure, the automapping of fields/variable is used. The list of output fields/variable of the port is synchronized with the list of the input ones during its course. In this case, as opposed to "Auto link" command, the list of the output fields/variables can be changed by the synchronization algorithm, and new links can be added.
 
-Алгоритм синхронизации следующий:
+The following synchronization algorithm is used:
 
- 1. Предпринимается попытка восстановить ранее настроенные связи с входными полями/переменными ("пропавшие", "некорректные" связи, появившееся в результате изменения структуры входных данных).
- 2. Предпринимается попытка связать по признаку "совпадает [тип данных](./../../data/datatype.md)
-  и совпадает имя (без учета регистра)" входные и выходные поля/переменные, у которых нет связи.
- 3. Из списка выходных полей/переменных удаляются все необязательные поля/переменные, которые не связаны с входными. Под обязательными понимаются:
-    * унаследованные в результате создания производного узла;
-    * добавленные/измененные вручную.
- 4. Добавляются новые выходные поля/переменные на основе входных полей, у которых еще нет связей.
+1. There is an attempt to restore previously configured links with the input fields/variables ("missing", "incorrect" links that appeared due to the input data structure change).
+2. There is an attempt to establish a link between the input and output fields/variables that do not have link by "[data type](./../../data/datatype.md) matches and name matches (case-insensitive)" parameter.
+3. All optional fields/variables that are not linked with the input ones are deleted from the list of the output fields/variables. The required ones are as follows:
+   * inherited in the result of the derived node creation;
+   * manually added/changed.
+4. New output fields/variables on the basis of the output fields that still do not have links are added.
 
-Подобный алгоритм применяется единожды при выполнении команды
+The similar algorithm is used once when executing
 ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg)
-"Синхронизировать поля" и постоянно при выполнении узла, если задействована опция настройки порта
-![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg)"Автоматическая синхронизация"
-(см. [интерфейс «Таблица»](./table-interface.md)
-и [интерфейс «Связи»](./connections-interface.md)).
+"Map fields" command and constantly when executing the node if port configuration option is used
+![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg)"Automapping"
+(refer to ["Table" interface](./table-interface.md)
+and ["Connections" interface](./connections-interface.md)).
 
->**Важно:** по умолчанию для портов, принимающих табличные данные, опция ![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg) "Автоматическая синхронизация включена".
+> **Important:** By default for the ports that receive the table data, ![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg) "Automapping enabled" option is used.
 
-Отключение автосинхронизации визуально сигнализируется дополнительным кругом на иконке порта. Пример:
+Отключение автосинхронизации визуально сигнализируется дополнительным кругом на иконке порта. For example:
 
 - ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/variable_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/tree_inactive.svg) — порты с включенной автосинхронизацией;
 - ![ ](./../../images/icons/app/node/ports/inputs/table-no-autosync_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/variable-no-autosync_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/tree-no-autosync_inactive.svg) — порты с выключенной автосинхронизацией.

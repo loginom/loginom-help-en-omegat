@@ -1,115 +1,115 @@
 ---
 description: Построение OLAP-куба в Loginom. Руководство по многомерному анализу данных с помощью визуализатора OLAP куба. Настройка измерений и фактов.
 ---
-# ![Визуализатор Куб](./../../images/icons/common/view_types/cube_default.svg) Куб
+# ![Cube Visualiser](./../../images/icons/common/view_types/cube_default.svg) Cube
 
-[Куб](https://wiki.loginom.ru/articles/cube.html) является одним из распространенных методов комплексного многомерного анализа данных, получивших название [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). В его основе лежит представление данных в виде многомерных кубов, называемых также OLAP-кубами или гиперкубами.
+[Cube](https://wiki.loginom.ru/articles/cube.html) is one of the wide spread methods of the complex multidimensional data analysis called [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). It is based on data view in the form of the multidimensional cubes that are also called OLAB cubes or hypercubes.
 
-Куб — это удобное средство визуализации многомерных данных и получения необходимых форм отчетов. Он содержит измерения и факты, определенные при построении. К основной особенности куба относится то, что его структура не является жестко определенной. Манипулируя с помощью мыши заголовками измерений, пользователь может добиться наиболее информативного представления куба.
+Cube is a convenient tool used for visualization of the multidimensional data and production of the required report forms. It contains dimensions and measures defined while constructing. The main cube peculiarity is that its structure is not strictly defined. Using the mouse for dimensions headers manipulation, a user can provide the most informative cube display.
 
-## Интерфейс
+## Interface
 
-После добавления в узел визуализатора откроется главное окно (Рис. 1):
+The main window will be opened after addition to the visualizer node (Figure 1):
 
-![Главное окно Куба](./cube-main-window.png)
+![The Main Cube Window](./cube-main-window.png)
 
-Главное окно условно можно разделить на 6 областей:
+The main window can be conventionally divided into 6 areas:
 
-1. Область свободных полей;
-2. Область измерений в строках;
-3. Область фактов;
-4. Область измерений в колонках;
-5. Область фильтрации по измерениям;
-6. [Панель инструментов Куба](./toolbar.md).
+1. Area of Free Fields.
+2. Area of Dimensions in Rows.
+3. Area of Measures.
+4. Area of Measures in Columns.
+5. Area of Filtration by Dimensions.
+6. [Cube Toolbar](./toolbar.md).
 
-Области со 2 по 5 представляют собой Область построения Куба.
+Areas from 2 to 5 represent the Cube construction area.
 
-> **Важно:** во время настройки Куба, особенно при работе с большими объемами данных, обновление Области фактов (3) может занимать продолжительное время. В таких случаях рекомендуется временно отключать обновление данных кнопкой ![ ](./../../images/icons/common/toolbar-controls/locked_default.svg) *Приостановить автовычисление*.
+> **Important:** When configuring the Cube, especially when working with large data volumes, update of the Area of Measures (3) can take long time. In these cases it is recommended to disable data update temporally using ![ ](./../../images/icons/common/toolbar-controls/locked_default.svg) *Defer layout update* button.
 
-### Настройка куба
+### Cube Configuration
 
-Список столбцов, которые можно использовать в качестве измерений или фактов, отображается в Области свободных полей (1). Уже используемые в Кубе столбцы отображаются жирным шрифтом.
+The list of the columns that can be used as dimensions or measures is displayed in the Area of Free Fields (1). The columns already used in the Cube are displayed in bold type.
 
-#### Измерения
+#### Dimensions
 
-Для построения отчета с помощью Куба нужно добавить требуемые измерения в строки или колонки. Добавить измерения в Куб можно несколькими способами:
+To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns. Добавить измерения в Куб можно несколькими способами:
 
 * Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4).
-* Нажать кнопку ![Добавить](./../../images/icons/common/toolbar-controls/plus-native_default.svg) нужной области и выбрать необходимое поле из списка.
+* press ![Add](./../../images/icons/common/toolbar-controls/plus-native_default.svg) button of the required area and select the required field from the list.
 * Нажать кнопку ![Настроить измерения](./../../images/icons/common/toolbar-controls/dimension_default.svg) на Панели инструментов и распределить поля в нужные области.
 
-Количество измерений ограничено количеством доступных полей. Рекомендуется использовать не более 5-7 измерений, чтобы отчет был понятным и интерпретируемым.
+Count of dimensions is limited by the number of the available fields. It is recommended to use not more than 5-7 dimensions to make the report clear and interpretable.
 
-> **Примечание:** при перемещении полей в различные области могут появляться модальные окна подтверждения действия, если измерение или факт используются в активном вычисляемом факте или в фильтре по факту.
+> **Note:** When moving the fields to different areas, the modal windows of actions confirmation can appear if dimension or measure are used in the active calculated measure or in the filter by measure.
 
-Так как визуализатор Куб представляет собой плоскую двухмерную таблицу, то при отображении нескольких измерений заголовки образуют иерархическую систему (дерево заголовков). По умолчанию все заголовки свернуты до самого внешнего измерения. Для раскрытия или сворачивания заголовков внутренних измерений нужно кликнуть по кнопке Развернуть или Свернуть на заголовке внешнего измерения. Существуют групповые операции раскрытия или сворачивания заголовков.
+As the Cube visualizer is a flat two-dimensional table, the headers form the hierarchic system (tree of headers) when displaying several dimensions. All headers are collapsed up to the most external dimension by default. To expand or collapse the internal dimensions headers, it is required to click on Expand of Collapse button of the external dimension header. There are group operations of expansion or collapsing of headers.
 
-При нажатии на ![Раскрыть меню](./../../images/icons/common/toolbar-controls/down_default.svg) справа от названия измерения доступен выбор:  
+The following options are available when pressing ![Open menu](./../../images/icons/common/toolbar-controls/down_default.svg) to the right from the dimesion name:
 
-* ![Свернуть](../../images/icons/common/toolbar-controls/collapce-all_default.svg) **Свернуть**  все элементы до минимальной детализации измерения;
-* ![Развернуть](../../images/icons/common/toolbar-controls/open-all_default.svg) **Развернуть** все элементы до максимальной детализации измерения;
-* ![По возрастанию](../../images/icons/common/toolbar-controls/low-to-hight_default.svg) **По возрастанию** — отсортировать значения в порядке возрастания;
-* ![По убыванию](../../images/icons/common/toolbar-controls/hight-to-low_default.svg) **По убыванию** — отсортировать значения в порядке убывания;
-* ![В исходном порядке](../../images/icons/blank.svg) **В исходном порядке** — выстроить значения в порядке их появления в данных;
-* ![Удалить](../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить** — исключить измерение из Куба. Удалить измерение также можно перетаскиванием (Drag-and-Drop) назад в Область свободных полей (1).  
+* ![Collapse](../../images/icons/common/toolbar-controls/collapce-all_default.svg) **Collapse**  all items up to the minimum dimension detailing.
+* ![Expand](../../images/icons/common/toolbar-controls/open-all_default.svg) **Expand** all items up to the maximum dimension detailing.
+* ![Ascending](../../images/icons/common/toolbar-controls/low-to-hight_default.svg) **Ascending**: sort the values in ascending order.
+* ![Descending](../../images/icons/common/toolbar-controls/hight-to-low_default.svg) **Descending**: sort the values in descending order.
+* ![In original order](../../images/icons/blank.svg) **In original order**: place the values in the order of their appearance in data.
+* ![Delete](../../images/icons/common/toolbar-controls/delete_default.svg) **Delete**: delete a dimension from the Cube. It is possible to delete a dimension by dragging (Drag-and-Drop) back to the Area of Free Fields.
 
-При нажатии на измерение появляется toolbar со следующими возможностями:  
+При нажатии на измерение появляется toolbar со следующими возможностями:
 * ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_visible_default.svg)**Отметить все** / ![](../../images/icons/common/toolbar-controls/invert-eye_default.svg)**Снять все** — выделяет все значения в списке или снимает выделение со всех значений списка (%kbd Ctrl A %/ %kbd Ctrl Shift A %).
-* ![ ](../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Инвертировать выбор** — меняет выбранные значения списка на невыбранные и наоборот.
-* ![ ](../../images/icons/common/toolbar-controls/eye-filter_default.svg) **Отметить по маске...** — позволяет задать условие и метод отбора измерений.  
+* ![ ](../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Invert selection**: change the selected values from the list to the unselected ones and vice versa.
+* ![ ](../../images/icons/common/toolbar-controls/eye-filter_default.svg) **Check by pattern...**: set the condition and method of dimensions selection.
 * ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать отмеченные** (%kbd Ctrl C %).
 * ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Добавить к отмеченным** (%kbd Ctrl V %).
 
 Специальные возможности копирования и добавления:
 
-* Из фильтра копируются отмеченные значения списка в буфер обмена. 
+* Из фильтра копируются отмеченные значения списка в буфер обмена.
 * В фильтр добавляются значения из буфера обмена и присоединяются к уже существующим значениям.
 
 %spoiler% Ограничения копирования и вставки %spoiler%
-  
-В браузерах Google Chrome и Mozila Firefox при работе через протокол `http` кнопки ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Вставить** и горячая клавиша (%kbd Ctrl C % работать не будут.  
 
-> Примечание: В браузере `Firefox` для расширения функционала по протоколу `https` необходимо в адресной строке браузера ввести `about:config`, найти параметр `dom.events.testing.asyncClipboard` и изменить его значение на `true`. Заработают горячие клавиши и кнопка ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) Копировать.  
+В браузерах Google Chrome и Mozila Firefox при работе через протокол `http` кнопки ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Вставить** и горячая клавиша (%kbd Ctrl C % работать не будут.
+
+> Примечание: В браузере `Firefox` для расширения функционала по протоколу `https` необходимо в адресной строке браузера ввести `about:config`, найти параметр `dom.events.testing.asyncClipboard` и изменить его значение на `true`. Заработают горячие клавиши и кнопка ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) Копировать.
 
 Формат данных буфера обмена — строковые значения, разделенные переводами строки.
 
 %/spoiler%
 
-* **Режим выбора значений фильтра:**  
+* **Режим выбора значений фильтра:**
 
-Чтобы отфильтровать данные по измерению, необходимо щёлкнуть мышью по нужному измерению, произвести настройку фильтра в открывшейся панели и нажать "Применить". Если по измерению настроена фильтрация, то оно выделяется оранжевым цветом. Фильтр может работать в трех режимах:
+To filter data by the dimension, it is required to click on the required dimension with the mouse, configure the filter on the opened panel and press "Apply". If filtration has been configured by the dimension, it is highlighted in orange. The filter can be used in three modes:
 
 %spoiler% Фильтр по измерению  %spoiler%
 
-* ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Множественный выбор** — пользователь может выбрать произвольное количество значений измерения из списка доступных. Выбранные значения будут отображаться в Кубе.
+* ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Multiple selection**: a user can select the random count of values from the list of the available ones. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
-**Одиночный выбор** — позволяет выбрать из списка только одно значение, которое будет отображаться в Кубе.
-* ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** — позволяет выбрать одно значение измерения из списка, сформированного ранее в режиме множественного выбора.  
+   **Single selection**: select only one value from the list that will be displayed in the Cube.
+* ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Combined selection**: select one dimension value from the list that has been earlier formed in the multiple selection mode.
 
 В режимах ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
-**Одиночный выбор** или ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** при просмотре куба появляются кнопки у измерения![<](../../images/icons/common/toolbar-controls/arrow-l_default.svg) и ![>](../../images/icons/common/toolbar-controls/arrow-r_default.svg) для перелистывания значений фильтра. При перелистывании Область фактов (3) будет перестраиваться под значение фильтра. Можно включить перелистывание через границы списка значений, нажав на кнопку ![ ](../../images/icons/common/toolbar-controls/roll-over_default.svg) **Зациклить значения при перелистывании**.  
+**Одиночный выбор** или ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** при просмотре куба появляются кнопки у измерения![<](../../images/icons/common/toolbar-controls/arrow-l_default.svg) и ![>](../../images/icons/common/toolbar-controls/arrow-r_default.svg) для перелистывания значений фильтра. The Area of Measures (3) will be rebuilt to comply with the filter value when paging. It is possible to enable paging across the bounds of the values list by pressing on ![ ](../../images/icons/common/toolbar-controls/roll-over_default.svg) **Loop values** button.
 
-В режиме ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Множественный выбор** с помощью переключателя **Режим включенных/исключенных** фильтр запоминает проходящие фильтр значения, в режиме исключённых значений фильтр запоминает отфильтрованные значения. При изменении входных данных новые значения будут проходить или не проходить фильтр в зависимости от этой настройки.  
+В режиме ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Множественный выбор** с помощью переключателя **Режим включенных/исключенных** фильтр запоминает проходящие фильтр значения, в режиме исключённых значений фильтр запоминает отфильтрованные значения. При изменении входных данных новые значения будут проходить или не проходить фильтр в зависимости от этой настройки.
 
 
-Для настройки отбора открывается окно *Отметить по маске* (в заголовке окна также указано измерение, для которого выполняется настройка). Слева в выпадающем списке необходимо выбрать условие соответствия значений измерения маске. Справа от списка в поле ввода задается маска. Ко всем измерениям, которые соответствуют условию, будет применен выбранный метод отбора (*Отметить, Добавить к отмеченным, Снять* или *Удалить из отмеченных*). При отборе может учитываться регистр букв, для этого нужно установить флаг *Учитывать регистр*.  
+To configure selection, it is required to open *Check by pattern* window (the configured dimension is also specified in the window header). It is required to select the condition of dimension values and pattern mapping to the left in the drop-down list. The pattern is set to the right from the list in the entry field. The selected method of selection will be applied to all dimensions that comply with the condition (*Check, Add to checked, Uncheck* or *Remove from checked*). The case of letters can be taken into account during the selection process. For this purpose, it is required to select *Case-sensitive* checkbox.
 
-| Режим                   | Копирование        | Вставка        |
+| Режим | Копирование | Вставка |
 |:-:|:-:|:-:|
-|Множественный, режим включенных значений             |Копируются все включенные значения (проходящие фильтр) | Успешно распознанные значения добавляются во включенные значения |
-| Множественный, режим исключенных значений     |Копируются все исключенные значения (непроходящие фильтр)            |Успешно распознанные значения добавляются в исключенные значения|
-| Одиночный и комбинированный режимы | Копируется текущее выбранное значение            | Обрабатывается только первое строковое значение, остальные игнорируются, успешно распознанное значение становится выделенным, на него прокручивается таблица  |
+| Множественный, режим включенных значений | Копируются все включенные значения (проходящие фильтр) | Успешно распознанные значения добавляются во включенные значения |
+| Множественный, режим исключенных значений | Копируются все исключенные значения (непроходящие фильтр) | Успешно распознанные значения добавляются в исключенные значения |
+| Одиночный и комбинированный режимы | Копируется текущее выбранное значение | Обрабатывается только первое строковое значение, остальные игнорируются, успешно распознанное значение становится выделенным, на него прокручивается таблица |
 
 %/spoiler%
 
-> **Примечание:** над Областью измерений (4) Куба находится Область фильтрации (5). Настройка Области фильтрации аналогична настройке Области измерений. Измерения, добавленные в Область фильтрации, не будут отображаться в Кубе, но могут быть использованы в вычисляемых фактах и для фильтрации данных.
+> **Note:** The Area of Filtration (5) is located under the Area of Dimensions (4). Configuration of the Area of Filtration is similar to configuration of the Area of Dimensions. The dimensions added to the Area of Filtration will not be displayed in the Cube but they can be used in the calculated measures and for data filtration.
 
-#### Факты
+#### Measures
 
-Добавить факты можно двумя способами:
+It is possible to add measures in two ways:
 
-* Перетащить (Drag-and-Drop) нужное поле из Области свободных полей (1) в Область фактов (3);
-* Нажать кнопку ![Факты](./../../images/icons/common/toolbar-controls/sum_default.svg) Факты, выбрать необходимое поле и в появившемся [окне](./add-measure.md) выбрать нужный вариант [агрегации](./../../processors/func/aggregation-functions.md) и способ его отображения.  
+* Drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3).
+* By pressing on ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg) Measures button, it is necessary to select the required field and in the appeared [window](./add-measure.md) select the required method of [aggregation](./../../processors/func/aggregation-functions.md) and method of its display.
 
 %spoiler%Агрегация фактов и возможные типы данных%spoiler%
 
@@ -128,15 +128,15 @@ description: Построение OLAP-куба в Loginom. Руководств
 
 %/spoiler%
 
-Нажав на кнопку ![Раскрыть список](./../../images/icons/common/toolbar-controls/down_default.svg) рядом с ![Факты](./../../images/icons/common/toolbar-controls/sum_default.svg) Факты, можно открыть выпадающее меню с вызовом одного из окон:
+By pressing on ![Open list](./../../images/icons/common/toolbar-controls/down_default.svg) button near ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg) Measures, it is possible to open the drop-down menu with option to call one of the following windows:
 
-* ![Настроить факты](./../../images/icons/viewers/cube/cases/case-tune_default.svg) **Настроить факты…** — открыть окно настройки фактов;
-* ![Добавить вычисляемый факт](./../../images/icons/viewers/cube/cases/case-calc_default.svg) **Добавить вычисляемый факт…** — открыть окно для добавления вычисляемого факта в Куб;
-* ![Фильтровать факты](./../../images/icons/viewers/cube/cases/case-filter_default.svg) **Фильтровать факты…** — открыть окно для фильтрации фактов;
-* ![Форматировать факты](./../../images/icons/viewers/cube/cases/case-format_default.svg) **Форматировать факты…** — открыть окно для форматирования фактов и заголовков измерений.
+* ![Configure measures](./../../images/icons/viewers/cube/cases/case-tune_default.svg) **Configure measures…**: open the measures configuration window.
+* ![Add calculated measure](./../../images/icons/viewers/cube/cases/case-calc_default.svg) **Add calculated measure…**: open the window to add the calculated measure to the Cube.
+* ![Filter measures](./../../images/icons/viewers/cube/cases/case-filter_default.svg) **Filter measures…**: open the window for measures filtration.
+* ![Format measures](./../../images/icons/viewers/cube/cases/case-format_default.svg) **Format measures…**: open the window for formatting of measures and headers of dimensions.
 
-Удалить факт можно снятием флага в вызываемом окне *Настроить факты*.
+It is possible to delete a measure by deselecting the checkbox in called *Configure measures* window.
 
->**Примечание:** по умолчанию в качестве варианта агрегации и способа его отображения выбирается идущий первым по списку. Поддерживается отображение сразу нескольких вариантов агрегации и способов их отображения для каждого факта.
+> **Note:** The aggregation option and method of its display first in the list are selected by default. Display of several aggregation options and methods of their display for each measure is supported.
 
-Кнопку ![Факты](./../../images/icons/common/toolbar-controls/sum_default.svg)Факты можно перемещать из строк в столбцы и таким образом менять положение заголовков фактов. В случаях когда требуется переместить факт в измерения, необходимо с помощью метода DnD переместить факты из Область измерений в колонках переместить (4) в Область измерений в строках (2).
+It is possible to move ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg)Measures button from rows to columns, and, thus, it is possible to change location of measures headers. В случаях когда требуется переместить факт в измерения, необходимо с помощью метода DnD переместить факты из Область измерений в колонках переместить (4) в Область измерений в строках (2).

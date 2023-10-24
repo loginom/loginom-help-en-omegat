@@ -1,17 +1,17 @@
 ---
 description: Компонент Python в Loginom. Доступ к входным переменным. Объект типа InputVariables. Свойства InputVariables. Примеры.
 ---
-# ![](./../../../images/icons/components/python_default.svg) Доступ к входным переменным
+# ![](./../../../images/icons/components/python_default.svg) Access to the Input Variables
 
 Для доступа к входным переменным используется объект типа `InputVariables`.
 
-## Свойства InputVariables
+## InputVariables Properties
 
 %spoiler%Items%spoiler%
 
 **Items**
 
-Содержит доступную для чтения коллекцию входных переменных узла. Элементы коллекции имеют тип `VariableClass` (см. [Полное описание API](./api-description.md)).
+It contains read-only collection of the input variables of the node. Элементы коллекции имеют тип `VariableClass` (см. [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -19,11 +19,11 @@ description: Компонент Python в Loginom. Доступ к входны�
 
 **Count**
 
-Содержит доступное для чтения количество входных переменных узла.  Возвращает значение типа `int`.
+It contains read-only count of the input node variables.  Возвращает значение типа `int`.
 
 %/spoiler%
 
-## Примеры
+## Examples:
 
 ```python
 from builtin_data import InputVariables

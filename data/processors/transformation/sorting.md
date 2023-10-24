@@ -1,58 +1,58 @@
 ---
 description: Сортировка данных в Loginom. Последовательная сортировка по нескольким полям. Мастер настройки.
 ---
-# ![](./../../images/icons/components/sorting_default.svg) Сортировка
+# ![](./../../images/icons/components/sorting_default.svg) Sort
 
-Компонент выполняет сортировку записей входного набора. Алгоритм позволяет сортировать последовательно по нескольким полям.
+Компонент выполняет сортировку записей входного набора. The algorithm provides serial sorting by several fields.
 
-При сортировке учитывается:
+The following parameters are taken into account while sorting:
 
-* **Очередность полей сортировки** — в зависимости от позиции в списке *Поля сортировки* меняется очередность сортировки поля;
-* **Порядок сортировки** — для каждого сортируемого поля задается порядок (![](./../../images/icons/components/sorting/order-switcher-desc_default.svg) *По убыванию* или ![](./../../images/icons/components/sorting/order-switcher-asc_default.svg) *По возрастанию*), в котором оно сортируется;
-* **Регистр данных** — у полей со ![](./../../images/icons/common/data-types/string_default.svg)*Строковым* или ![](./../../images/icons/common/data-types/variant_default.svg) *Переменным* типом данных указывается их регистрозависимость при сортировке.
+* **Order of sort fields**: according to the item position in the *Sort fields* list, the field sorting order changes.
+* **Sort order**: the sorting order (![](./../../images/icons/components/sorting/order-switcher-desc_default.svg) *Descending* or ![](./../../images/icons/components/sorting/order-switcher-asc_default.svg) *Ascending*) is set for each sorted field.
+* **Data case**: case sensitivity of fields while sorting is specified for the fields with ![](./../../images/icons/common/data-types/string_default.svg)*String* or ![](./../../images/icons/common/data-types/variant_default.svg) *Variable* data type.
 
-Алгоритм сортирует записи по первому в очереди полю сортировки в соответствии с заданным порядком. Если существуют одинаковые значения, то содержащие их строки сортируются по второму в очереди полю сортировки и т.д. согласно очередности полей сортировки.
+The algorithm sorts the records by the first sort field according to the set order. If there are the same values, the strings that contain them are sorted by the second sort field, etc. according to the order of the sort fields.
 
-### Вход
+### Input
 
-* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных.
+* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
-### Выход
+### Output
 
-* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — на порт выводится таблица с набором данных, отсортированным по выбранным полям.
+* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the table with the data set sorted by the selected fields is output to the port.
 
-## Мастер настройки
+## Wizard
 
 
 
-В левом списке отображаются поля, по которым можно производить сортировку. Список соответствует полям входного порта.
+The fields by which it is possible to perform sorting are displayed in the left list. The list complies with the input port fields.
 
-Список полей можно отфильтровать, введя имя или метку поля в области фильтрации.
+It is possible to filter the list of fields by specifying the field name or caption in the filter area.
 
-Для настройки сортировки, необходимо переместить требуемые поля в список *Поля сортировки* при помощи:
+To configure sorting, it is required to move the required fields to the *Sort fields* list using the following methods:
 
-* перетаскивания мышью (Drag-and-drop);
-* двойного щелчка мышью по полю;
-* нажатия кнопки *Добавить* ![](./../../images/icons/common/toolbar-controls/arrow-r_default.svg).
+* drag-and-drop method;
+* double click on the field;
+* by pressing *Add* ![](./../../images/icons/common/toolbar-controls/arrow-r_default.svg) button.
 
-Параметры настройки сортировки:
+Parameters of sorting configuration:
 
-* **Порядок** — поле может принимать значения *По возрастанию* ![](./../../images/icons/components/sorting/order-switcher-asc_default.svg) и *По убыванию* ![](./../../images/icons/components/sorting/order-switcher-desc_default.svg);
-* **Регистр** — для сортировки строковых полей с учетом регистра нужно поставить флаг в чекбоксе этого поля.
+* **Order**: the field can take *Ascending* ![](./../../images/icons/components/sorting/order-switcher-asc_default.svg) and *Descending* ![](./../../images/icons/components/sorting/order-switcher-desc_default.svg) values;
+* **Case**: to sort the string fields taking into account the case, it is required to select a checkbox in this field.
 
-Очередность полей сортировки можно изменить:
+It is possible to change the fields sorting order:
 
-* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — перемещает выделенное *Поле сортировки* вверх по списку;
-* ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз** — перемещает выделенное *Поле сортировки* вниз по списку.
+* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Move up** enables to move the selected *Sort field* up the list.
+* ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down** enables to move the selected *Sort field* down the list.
 
-Для исключения сортировки по полю:
+To exclude sorting by the field, it is required to perform the following actions:
 
-* перетащить запись из списка *Поля сортировки* в *Доступные поля*;
-* дважды щелкнуть мышью по полю;
-* ![](./../../images/icons/common/toolbar-controls/delete_default.svg) *Удалить поле*.
+* move the record from the *Sort field* list to *Available fields*;
+* double click on the field;
+* ![](./../../images/icons/common/toolbar-controls/delete_default.svg) *Delete field*.
 
-Для очистки всего списка нажать ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Удалить все...*.
+To clear the whole list, it is required to press ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
 Внизу мастера находится чекбокс "Кэшировать все данные", по умолчанию отключен.
 
->**Примечание**: сравнение и сортировка символов осуществляется в соответствии с локальными настройками пользователя, под учетной записью которого запущен Loginom.
+> **Note**: Сharacters are compared and sorted according to the local settings of the user whose login is used to start Loginom.

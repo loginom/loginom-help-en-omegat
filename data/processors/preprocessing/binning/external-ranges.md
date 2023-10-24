@@ -1,28 +1,28 @@
 ---
 description: Компонент Квантование в Loginom. Внешние диапазоны. Подключение внешних таблиц квантования.
 ---
-# Внешние диапазоны
+# External Ranges
 
-Данный способ квантования доступен при подключении внешних таблиц квантования. Чтобы их подключить, нужно добавить еще один порт у узла, нажав кнопку ![ Добавить еще один порт](./../../../images/icons/app/node/ports/add/add_inactive_default.svg). В появившийся порт подключается таблица с данными о входящих диапазонах.
+This binning method is available when the external binning tables are connected. Чтобы их подключить, нужно добавить еще один порт у узла, нажав кнопку ![ Добавить еще один порт](./../../../images/icons/app/node/ports/add/add_inactive_default.svg). The table with the data on the included ranges is connected to the appeared port.
 
 Пример данной таблички можно посмотреть на выходном порту "Диапазоны квантования" [узла Квантование](./../binning.md), а тут  [структура результирующего набора](./calculated-columns.md) его подробное описание.
 
-Данные с выходного порта "Диапазоны квантования" можно сохранить их в файл или подать их напрямую на второй вход узла "Квантование". В этом случае при запуске мастера настройки первым открывается окно настройки входных диапазонов, где нужно установить соответствия между столбцами. 
+Данные с выходного порта "Диапазоны квантования" можно сохранить их в файл или подать их напрямую на второй вход узла "Квантование". In this case, when starting the wizard, the input range configuration window will be opened first. It will be required to provide columns mapping there.
 
-Входная таблица должна содержать соответствующие данные, их описание приведено в таблице:
+The input table must contain corresponding data. It is described in the table:
 
-|Имя столбца|Описание|Тип данных|Обязательный|Значение по умолчанию|
+| Column name | Description | Data type | Required | Default value |
 |---------------------|----------------|-------------------|------------------------|----------------------------------------|
-|Идентификатор интервалов|Идентификатор задается пользователем|Любой|Да|Отсутствует|
-|Тип данных границ диапазонов|Тип данных представлен числом|Целый|Нет|Автоматически в зависимости от границы|
-|Номер интервала|Порядковый номер интервала|Целый|Нет|Номера проставятся, начиная с 0|
-|Нижняя граница|Нижняя граница интервала|Целый, вещественный|Да|Отсутствует|
-|Верхняя граница|Верхняя граница интервала|Целый, вещественный|Нет|Проставятся, основываясь на нижней границе|
-|Метка|Метка интервала. Задается пользователем|Строковый|Нет|Останется пустой. В мастере настройки потом можно будет задать шаблоном|
-|Квота нижней границы|1 - значение границы входит в интервал;<br>0 - значение границы не входит в интервал|Целый, Вещественный|Нет|0|
-|Квота верхней границы|1 - значение границы входит в интервал;<br>0 - значение границы не входит в интервал|Целый, Вещественный|Нет|1|
-|Квота интервала|всегда 0|Целый, Вещественный|Нет|0|
-|Нижняя граница диапазонов открыта|true - если установлен флаг "Нижняя граница открыта";  <br>false - если не установлен флаг "Нижняя граница открыта"|Логический|Нет|false|
-|Верхняя граница диапазонов открыта|true - если установлен флаг "Верхняя граница открыта";  <br>false - если не установлен флаг "Верхняя граница открыта"|Логический|Нет|true|
+| Bins identifier | The identifier is set by a user | Any | Yes | None |
+| Range bounds data type | Data type is represented by a number | Integer | No | Automatically according to the bound |
+| Bin number | Index bin number | Integer | No | Numbers are assigned starting from 0 |
+| Lower bound | Lower bin bound | Integer, real | Yes | None |
+| Upper bound | Upper bin bound | Integer, real | No | They will be assigned according to thе lower bound |
+| Caption | Bin caption. It is set by a user | String | No | It will remain null. Then it will be possible to set using a template in the wizard. |
+| Lower bound quota | 1 - the bound value is included into the bin;<br>0 - the bound value is not included into the bin | Integer, Real | No | 0 |
+| Upper bound quota | 1 - the bound value is included into the bin;<br>0 - the bound value is not included into the bin | Integer, Real | No | 1 |
+| Bin quota | always 0 | Integer, Real | No | 0 |
+| Lower bin bound open | true if "Lower bound open" checkbox is selected;  <br>false if "Lower bound open" checkbox is not selected | Logical | No | false |
+| Upper bin bound open | true if "Upper bound open" checkbox is selected; <br>false if "Upper bound open" checkbox is not selected | Logical | No | true |
 
->**Важно:** в случае попытки одновременного применения значений полей Нижняя граница диапазонов открыта и Верхняя граница диапазонов открыта таблицы Внешние диапазоны и, соответственно, флагов Нижняя граница открыта, Верхняя граница открыта мастера настройки приоритет отдаётся полям, т.е. в данной ситуации флаги не повлияют на результат.
+> **Important:** While attempting to use the values of Lower bin bound open and Upper bin bound open fields of External ranges table simultaneously, and, correspondingly, Lower bound open, Upper bound open checkboxes of the wizard, the priority is given to the fields, namely, in this case, checkboxes will have no influence on the result.

@@ -1,53 +1,53 @@
 ---
-description: Компонент Переменные в таблицу в Loginom. Общие сведения. Мастер настройки. Пример. 
+description: Компонент Переменные в таблицу в Loginom. Общие сведения. Мастер настройки. Пример.
 ---
-# ![Переменные в таблицу](./../../images/icons/components/variablestodata_default.svg) Переменные в таблицу
+# ![Variables to Table](./../../images/icons/components/variablestodata_default.svg) Variables to Table
 
-Компонент преобразовывает список переменных в таблицу. Значения переменных можно расположить в строках, либо в столбцах результирующей таблицы.
+Компонент преобразовывает список переменных в таблицу. It is possible to place the values of variables in the strings or columns of the resulting table.
 
-## Порты
+## Ports
 
-### Вход
+### Input
 
-* ![Входные переменные](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, подлежащий преобразованию в таблицу.
+* ![Input variables](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: list of variables to be transformed to a table.
 
-### Выход
+### Output
 
-* ![Выходной набор данных](./../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
+* ![Output data set](./../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: data table.
 
-## Мастер настройки
+## Wizard
 
-В окне мастера настройки предоставляется два варианта записи переменных:
+Two options of variables record are specified in the wizard:
 
-* **в столбцы** — каждой переменной будет соответствовать отдельное поле таблицы;
-* **в строки** — каждой переменной будет соответствовать отдельная запись таблицы.
+* **to columns**: each variable will correspond to a separate table field.
+* **to strings**: each variable will correspond to a separate table record.
 
-%spoiler%Пример:%spoiler%
+%spoiler%Example:%spoiler%
 
-Имеется список переменных:
+There is a list of variables:
 
-| Имя | Значение |
+| Name | Value |
 | :-- | --: |
-| a   |  5 |
-| b   |  7 |
-| c   | 10 |
-| d   |  2 |
+| a | 5 |
+| b | 7 |
+| c | 10 |
+| d | 2 |
 
-Результат преобразования списка переменных:
+Result of the variables list transformation:
 
-* В столбцы
+* To columns
 
-| a(сумма) | b(сумма) | c(сумма) | d(сумма) |
+| a(sum) | b(sum) | c(sum) | d(sum) |
 | ---: | ---: | ---: | ---: |
 | 5 | 7 | 10 | 2 |
 
-* В строки
+* To strings
 
-| Имя | Метка | Значение |
+| Name | Caption | Value |
 | :-- | :-- | --: |
-| a | a(сумма) | 5 |
-| b | b(сумма) | 7 |
-| c | c(сумма) | 10 |
-| d | d(сумма) | 2 |
+| a | a(sum) | 5 |
+| b | b(sum) | 7 |
+| c | c(sum) | 10 |
+| d | d(sum) | 2 |
 
 %/spoiler%

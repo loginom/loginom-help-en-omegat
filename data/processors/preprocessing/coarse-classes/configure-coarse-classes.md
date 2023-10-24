@@ -1,33 +1,33 @@
-# Настройка конечных классов
+# Configure Coarse Classes
 
-Для начала оценки и корректировки результатов формирования начальных и конечных классов необходимо нажать на кнопку *Активировать*, расположенную справа от поля *Состояние входа*. Для включения режима редактирования используется кнопка ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_manual-editing_default.svg) *Редактировать разбиение*. Чтобы сохранить внесенные изменения необходимо нажать кнопку *Применить*, если изменения настроек сохранять не требуется, то — *Отменить*.
+To start assessment and adjustment of results of fine and coarse classes generation, it is required to press *Activate* button that is located to the right from *Input status* field. To enable the editing mode, ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_manual-editing_default.svg) *Edit binning* button is used. To save introduced changes, it is required to press *Apply* button if it is not required to save changed settings, press *Cancell* button.
 
-На панели инструментов доступны следующие команды:
+The following commands are available on the toolbar:
 
-* ![](./../../../images/icons/common/toolbar-controls/fields-list-settings_default.svg) **Скрыть боковую панель** — нажатие на кнопку скрывает панель со списком входных столбцов, повторное нажатие возвращает панель;
-* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_manual-editing_default.svg) **Редактировать разбиение** — при нажатии на кнопку становятся доступны поля для редактирования параметров конечных классов;
-* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_merge-left_default.svg) **Объединить с предыдущим** — объединяет конечный класс, выделенный на диаграмме или в таблице детализации, с предыдущим (расположенным левее) классом (кнопка доступна в режиме редактирования разбиения, т.е. когда нажата кнопка ![Редактировать разбиение](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_manual-editing_default.svg)); 
-* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_merge-right_default.svg) **Объединить со следующим** — объединяет конечный класс, выделенный на диаграмме или в таблице детализации, с последующим (расположенным правее) классом (кнопка доступна в режиме редактирования разбиения);
-* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_table-view_default.svg) **Показать таблицу конечных классов** — область конечных классов будет представлена в виде таблицы (можно также вызвать начатием клавиш *Alt+One*);
+* ![](./../../../images/icons/common/toolbar-controls/fields-list-settings_default.svg) **Hide side bar**: press this button to hide the bar with a list of input columns, press it again to return the bar.
+* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_manual-editing_default.svg) **Edit binning**: the fields used for editing of the coarse classes parameters become available by pressing this button.
+* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_merge-left_default.svg) **Merge with previous**: enables to merge the coarse class selected in the chart or detailing table with the previous (located more to the left) class (the button is available in the binning editing mode, namely, when ![Edit binning](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_manual-editing_default.svg) button has been pressed).
+* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_merge-right_default.svg) **Merge with next**: enables to merge the coarse class selected in the chart or detailing table with the next (located more to the right) class (the button is available in the binning editing mode).
+* ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_table-view_default.svg) **Show coarse class table**: the coarse class area will be represented in the table form (it can be also called by pressing *Alt+One*).
 * ![](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_chart_default.svg) **Показать диаграммы конечных классов** — область конечных классов будет представлена в виде диаграмм (*Alt+Two*);
 * ![](./../../../images/icons/switches/roc/relative_default.svg)**Доли событий** / ![](./../../../images/icons/switches/roc/absolute_default.svg)**Количество событий** — переключение для отображения абсолютных и относительных значений.
 
-Все перечисленные команды доступны и в контекстном меню (правая кнопка мыши). Кроме них в контекстном меню доступны команды:
-* **Разбить по границе** — установка новой дополнительной границы, а значит увеличение числа конечных классов на 1 (операция обратная командам *Объединить со следующим/Объединить с предыдущим*);
-* **Заморозить выбранные** — изменить статус поля на *Заморожено* (т.е. поле не будет использоваться при переобучении), команда также доступна при нажатии на кнопку ![Заморожено](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_locked_default.svg) слева от каждого входного столбца;
-* **Разморозить выбранные** — изменить статус поля на *Разморожено* (т.е. поле может быть использовано в процессе формирования конечных классов при переобучении), команда также доступна при нажатии на кнопку ![Разморожено](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_unlocked_default.svg) слева от каждого входного столбца.
+All listed commands are also available in the contex menu (the right mouse button). Besides, the following commands are also available in the context menu:
+* **Bound split**: enables to set the new additional bound and, thus, increase the coarse classes count by 1 (this operation is opposed to *Merge with next/Merge with previous* commands).
+* **Lock selected**: enables to change the field status to *Locked* (thus, the field will not be used during retraining). The command is also available by pressing ![Locked](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_locked_default.svg) button to the left of each input column.
+* **Unlock selected**: enables to change the field status to *Unlocked* (thus, the field can be used in the process of the coarse classes generation while retraining). The command is also available by pressing ![Unlocked](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_unlocked_default.svg) button to the left of each input column.
 
-Для редактирования доступны следующие параметры:
+The following parameters can be edited:
 
-* **Конечные классы**:
-  * **Минимальная доля, %** — это отношение числа наблюдений, для которых значение входного признака попадает в данный класс, к общему числу наблюдений исходного набора данных (вес класса). По умолчанию устанавливается 5%. Формирование классов с весом меньше заданного не допускается. Малый вес класса указывает на его низкую значимость и целесообразность объединения с некоторым другим классом.
-  * **Максимальное количество** — наибольшее допустимое количество классов, создаваемое узлом для столбца. По умолчанию устанавливается значение 5. Это значение можно изменить: большое число классов приводит к уменьшению их веса, а малое — к уменьшению информационного индекса.
-  * **Установить...** — показывает зависимость [IV](https://wiki.loginom.ru/articles/information-value.html) от количества классов и позволяет выбрать их число для настройки максимального количества. После нажатия на кнопку *Рассчитать* пересчитываются показатели в соответствии с выбранным количеством классов.
+* ** Coarse сlasses**:
+   * **Минимальная доля, %** — это отношение числа наблюдений, для которых значение входного признака попадает в данный класс, к общему числу наблюдений исходного набора данных (вес класса). 5% is set be default. It is not allowed to generate the classes with the weight that is less than the set one. The low class weight denotes its low significance and necessity of union with another class.
+   * **Максимальное количество** — наибольшее допустимое количество классов, создаваемое узлом для столбца. Value 5 is set by default. This value can be changed. The high count of classes causes decrease of their weight, whereas the low one brings about decrease of information value.
+   * **Установить...** — показывает зависимость [IV](https://wiki.loginom.ru/articles/information-value.html) от количества классов и позволяет выбрать их число для настройки максимального количества. После нажатия на кнопку *Рассчитать* пересчитываются показатели в соответствии с выбранным количеством классов.
 
-* **Оптимизация**:
-  * **Равномерность, %** — определяет способ разбиения диапазона изменения входного признака на классы (интервалы). По умолчанию параметр равен 0, и может изменяться от 0 до 1. Значение, равное 0, обеспечивает такое разбиение на классы, которое максимизирует информационный индекс. При значении параметра, равном 1, алгоритм формирует классы таким образом, чтобы в каждый из них попало примерно одинаковое число наблюдений. Таким образом, в первом случае повышается значимость признака, а во втором — интерпретируемость конечных классов.
+* **Optimization**:
+   * **Равномерность, %** — определяет способ разбиения диапазона изменения входного признака на классы (интервалы). This parameter is equal to 0 by default, and it can vary from 0 to 1. The value that is equal to 0 provides for such partitioning into classes that maximizes the information value. When the parameter value is equal to 1, the algorithm generates classes in such a way to include roughly the same number of observations into each of them. Thus, in the first case, the indicator significance is increased, whereas in the second case, interpretability of the coarse classes is increased.
 
-  
-  Любые внесенные изменения немедленно отражаются на диаграмме и в таблице детализации.
 
-  В *Списке входных столбцов* можно сортировать и фильтровать записи. Для этого нужно открыть выпадающее меню, нажав кнопку ![Открыть выпадающее меню](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_down_default.svg), которая появляется при наведении курсора на заголовок *Столбец* или *IV*.
+   Any introduced changes are immediately displayed in the chart and detailing table.
+
+   It is possible to sort and filter records in the *List of input columns*. Для этого нужно открыть выпадающее меню, нажав кнопку ![Открыть выпадающее меню](./../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_down_default.svg), которая появляется при наведении курсора на заголовок *Столбец* или *IV*.

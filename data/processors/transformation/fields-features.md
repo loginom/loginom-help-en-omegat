@@ -1,45 +1,45 @@
 ---
 description: Параметры полей в Loginom. Изменение имени, метки, типа данных, вида данных, назначения. Мастер настройки.
 ---
-# ![Параметры полей](./../../images/icons/components/reform-data-source_default.svg) Параметры полей
+# ![Features of Fields](./../../images/icons/components/reform-data-source_default.svg) Features of Fields
 
-Узел позволяет изменить следующие параметры полей набора данных:
+The node enables to change the following features of the data set fields:
 
-* Имя;
-* Метку;
-* Тип данных;
-* Вид данных;
-* Назначение.
+* Name
+* Caption
+* Data type
+* Data kind
+* Designation
 
-Подробнее о параметрах полей см. [Параметры поля набора данных](./../../data/datasetfieldfeatures.md)
+The detailed information on the fields features is provided in [Features of data set field](./../../data/datasetfieldfeatures.md)
 
->**Важно:** Узел не накладывает ограничений при изменении типа данных поля. По возможности, при преобразовании типа сохраняется полнота информации, но в некоторых случаях изменение типа может привести к потере информации. Пользователь должен иметь в виду данное обстоятельство при принятии решения о преобразовании типа данных.
+> **Important:** The node does not impose restrictions when changing the field data type. As far as possible, when transforming, information completeness is preserved but in some cases, type change can cause loss of information. A user must consider this fact when taking decision on transformation of the data type.
 >
 > ---
 >
->**Важно:** Имеются особенности при изменении типа поля со *"Строкового"* на *"Логический"*: в общем случае из текущей локали выделяются строки, которые преобразуются в логический тип данных. Для русской локали это строки: "ИСТИНА"("TRUE"), которые преобразуются в логическое `TRUE`, и "ЛОЖЬ"("FALSE"), которые преобразуются в логическое `FALSE`. В случае, если строку можно привести к числу (например, "0" или "7"), то приводится следующим образом: "0" — к логическому `FALSE`, а все остальные — к логическому `TRUE`. Во всех прочих случаях: "ЛЮБАЯ СТРОКА" приводится к `null`, в том числе и "" (пустая строка).
+> **Important:** There are peculiarities observed when changing the field type from the *"String"* to the *"Logical"* one: in the general case, the strings that are transformed to the logical data type are selected from the current locale. These strings are as follows for the Russian locale: "TRUE" that are transformed to the logical `TRUE` ones, and "FALSE" that are transforned to the logical `FALSE` ones. If it is possible to set the string to the number (for example, "0" or "7"), it is set in the following way: "0" — to logical `FALSE`, and all the rest — to logical `TRUE`. In all other cases: "ANY STRING" is set to `null`, including "" (empty string).
 
-Так же узел позволяет [кэшировать](./../../workflow/caching.md) набор данных целиком, либо отдельные его поля.
+The node enables to [cache](./../../workflow/caching.md) the whole data set, or its separate fields.
 
-### Вход
+### Input
 
-* ![Входной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных.
+* ![Input data source](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set.
 
-### Выход
+### Output
 
-* ![Выходной набор данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** — порт с измененными параметрами полей.
+* ![Output data set](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set**: the port with changed field features.
 
-## Мастер настройки
+## Wizard
 
-* **Кэшировать** — параметры кэширования выходного набора данных. Предоставляется выбор из следующих вариантов.
-  * **Отключено** — кэширование не будет производится. Используется по умолчанию.
-  * **При активации** — при активации узла будет производится кэширование всего набора данных.
-  * **При обращении** — будет производится кэширование тех полей выходного набора, данные которых запрошены последующими узлами сценария или визуализатором.
-  * **Выбранные поля** — параметры кэширования устанавливаются для каждого поля в отдельности.
-* **Список параметров полей** — в табличном виде представлены параметры полей набора данных. Двойным кликом по выбранному полю вызывается диалог редактирования его параметров. В диалоге помимо редактирования [стандартных параметров](./../../data/datasetfieldfeatures.md) поля задается параметр кэширования. Данная опция доступна в случае установки для всего узла режима кэширования *Выбранные поля*. Предоставляется выбор из следующих вариантов.
-  * **Отключено** — кэширование не будет производится. Используется по умолчанию.
-  * **При активации** — при активации узла будет производится кэширование поля набора данных.
-  * **При обращении** — будет производится кэширование поля при первом запросе его данных последующими узлами сценария или визуализатором.
+* **Cache**: caching parameters of the output data set. The following options are available:
+   * **Disabled** means that caching will not be performed. It is used by default.
+   * **On activation**: on the node activation, the whole data set will be cached.
+   * **While handling**: only those output data set fields will be cached data of which are requested by the subsequent workflow nodes or visualizer.
+   * **Selected fields**: caching parameters are separately set for each field.
+* **List of fields features**: fields features of data set are represented in the table form. Double click on the selected field calls the dialog to edit its features. The dialog enables not only to edit the [standard field features](./../../data/datasetfieldfeatures.md) but also to set the caching parameter. This option is available if the *Selected fields* caching mode is set for the whole node. The following options are available:
+   * **Disabled** means that caching will not be performed. It is used by default.
+   * **On activation**: on the node activation, the data set field will be cached.
+   * **While handling**: the field will be cached in the case of the first request of its data by the subsequent workflow nodes or visualizer.
 
 ## Исключение столбцов
 В настройках узла "Параметры полей" имеется возможность исключить столбцы из дальнейшей обработки. Для этого необходимо установить соответствующий флаг.
@@ -47,6 +47,6 @@ description: Параметры полей в Loginom. Изменение име
 ![Исключение столбцов](./field_type.png)
 
 Можно исключить один столбец или несколько столбцов. Нельзя исключить из дальнейшей обработки одновременно все столбцы используемого набора данных. При попытке этого действия возникнет ошибка.
->Все исключаемые поля получают назначение "Используемое" на входном порте узла "Параметры полей". Исключаемое поле должно быть обязательным.
+> Все исключаемые поля получают назначение "Используемое" на входном порте узла "Параметры полей". Исключаемое поле должно быть обязательным.
 
 Для упрощения процесса исключения большого количества столбцов доступна опция группового редактирования. Для этого необходимо выделить все исключаемые столбцы, нажав на правую кнопку мышки, выбрать опцию "Редактирование", установить флаг "Исключить".
